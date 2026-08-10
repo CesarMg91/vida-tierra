@@ -14,6 +14,10 @@ Una controversia no implica empate. Registra qué parte está realmente abierta,
 | `CONT-ELEMENT-LITHIUM-001` | Problema cosmológico del litio | BBN estándar + agotamiento/transporte estelar todavía incompleto | nueva física temprana o sistemática nuclear/atmosférica | abierta | B para discrepancia; D para causa |
 | `CONT-ELEMENT-SOLAR-ABUNDANCE-001` | Abundancia solar y heliosismología | composición fotosférica moderna con modelos 3D/no-LTE | opacidades o abundancias revisadas que restauren estructura interior | abierta | B |
 | `CONT-ELEMENT-YIELDS-001` | Rendimientos por estrella y evento | grids por masa, metalicidad, rotación y explosión | binariedad, 3D y tasas alteran contribuciones integradas | abierta y cuantitativa | C |
+| `CONT-STARS-AGES-001` | Edades absolutas de cúmulos y estrellas | isócronas calibradas con paralaje, química, binarias y sismología | helio, convección, difusión, rotación o escalas de temperatura desplazan edades | abierta en precisión | A para orden; B-C para edad absoluta |
+| `CONT-STARS-MASSLOSS-001` | Pérdida de masa y estrellas que explotan | vientos y episodios dependientes de fase/metallicidad dentro de modelos evolutivos | clumping, binariedad o erupciones cambian masa final y pueden ocultar/fallar explosiones | abierta | B para existencia; C-D para historia individual |
+| `CONT-STARS-BINARY-001` | Estrella aislada frente a evolución interactuante | tracks aislados como base, síntesis binaria para población real | una fracción mayor/menor de interacción cambia supernovas y remanentes | abierta en pesos, no en relevancia | A para relevancia; C para fracciones por ambiente |
+| `CONT-STARS-REMNANT-001` | Mapa masa inicial → remanente | masa del núcleo y pérdida predicen distribuciones WD/NS/BH | rotación, compañera, fallback y mecanismo de explosión rompen umbrales rígidos | abierta y probabilística | B para clases; C-D para frontera individual |
 | `CONT-EARTH-AGE-001` | ¿Qué significa “edad de la Tierra”? | valor operacional ~4.54 Ga ligado a formación/acreción temprana | usar hitos separados: CAIs, masa acumulada, núcleo, Luna, corteza | abierta por definición, no por orden de magnitud | B |
 | `CONT-EARTH-UPB-001` | ¿Qué tan independientes son las edades radiométricas? | convergencia de múltiples minerales/sistemas | dependencia común de calibraciones, contexto y modelos | parcialmente resuelta | B |
 | `CONT-MOON-AGE-001` | Momento del impacto formador de la Luna | temprano, en primeras decenas de Ma | impacto o reequilibrio más tardío; zircones fechan corteza, no colisión | abierta | C |
@@ -182,3 +186,70 @@ Los rendimientos dependen de masa inicial, metalicidad, rotación, pérdida de m
 **Alternativa fuerte:** poblaciones binarias, eventos raros o mezcla inhomogénea pueden dominar isótopos que un modelo promedio asigna a estrellas aisladas.
 
 **Prueba discriminatoria:** abundancias multielementales de poblaciones con edad y entorno, isótopos en granos individuales, tasas de transitorios y predicciones fuera del conjunto usado para calibrar el rendimiento.
+
+## CONT-STARS-AGES-001 — Un reloj poblacional con física interior
+
+### Práctica dominante
+
+Usar paralaje, composición, extinción y diagramas color–magnitud, y confrontar isócronas. Binarias eclipsantes aportan masas/radios y la asterosismología aporta densidad/estado interior. Una edad gana fuerza cuando una solución reproduce todos esos observables.
+
+### Alternativas o desplazamientos fuertes
+
+Cambios en helio inicial, convección/overshoot, difusión, rotación, atmósferas y escala de temperatura pueden mover el punto de giro o la rama subgigante. Algunas combinaciones imitan una edad distinta. Una población con interacción binaria puede contener estrellas rezagadas que no deben entrar en un ajuste simple.
+
+**Resolución de trabajo:** A para el orden relativo y la existencia de poblaciones antiguas/jóvenes; B o C para una edad absoluta según controles. Publicar por separado incertidumbre estadística y variación entre familias de modelos.
+
+**Prueba discriminatoria:** cúmulos con paralaje precisa, múltiples binarias separadas, abundancias/He restringidos y sismología; pedir predicciones fuera de las regiones usadas para ajustar.
+
+## CONT-STARS-MASSLOSS-001 — El historial que decide la masa final
+
+La masa que una estrella conserva al final no es su masa inicial. Vientos, pulsos, polvo, erupciones y transferencia binaria pueden retirar la envoltura. Las tasas inferidas de líneas o continuo dependen de ionización, geometría y clumping; tratar el viento como homogéneo puede sesgarlas.
+
+Para estrellas masivas, la incertidumbre afecta:
+
+- qué núcleo llega al colapso;
+- si la estrella aparece como supergigante roja, estrella despojada u otra clase;
+- tipo y brillo de supernova;
+- masa de la estrella de neutrones o agujero negro;
+- cantidad de material que cae de nuevo.
+
+**Alternativa fuerte:** gran parte del despojo atribuido a vientos aislados puede proceder de interacción binaria; colapsos con explosión débil o fallida pueden explicar la escasez aparente de ciertos progenitores luminosos.
+
+**Prueba discriminatoria:** vientos resueltos en múltiples diagnósticos, censos completos de progenitores y desapariciones, transitorios infrarrojos y remanentes con masas/metallicidades del ambiente.
+
+## CONT-STARS-BINARY-001 — El caso aislado no es el censo
+
+Los modelos de estrella aislada proporcionan una base interpretable y predicen correctamente muchas tendencias. Sana et al. mostraron, sin embargo, que una gran fracción de estrellas O de su población corregida debería intercambiar masa o fusionarse.
+
+La disputa útil no es “¿existen binarias?”. Es cuánto pesan por masa, composición y ambiente, y qué observables pueden reproducir sin ajustar cada sistema después del hecho.
+
+### Consecuencias que deben medirse
+
+- proporción de estrellas despojadas;
+- distribución de supernovas;
+- estrellas rezagadas o rejuvenecidas;
+- rotaciones y abundancias anómalas;
+- pares compactos y fusiones;
+- masas finales de WD, NS y BH.
+
+**Prueba discriminatoria:** monitoreo multiépoca con completitud publicada, síntesis poblacional predictiva y comparación conjunta con transitorios/remanentes, no solo con el catálogo que calibró las distribuciones orbitales.
+
+## CONT-STARS-REMNANT-001 — No existe un umbral notarial
+
+Una infografía suele asignar rangos de masa inicial a enana blanca, estrella de neutrones o agujero negro. Esa organización es útil, pero las fronteras no son constantes universales.
+
+Influyen:
+
+- composición y metalicidad;
+- tamaño/composición del núcleo;
+- pérdida de masa y compañera;
+- rotación y campos;
+- energía/asimetría de explosión;
+- fallback y eyección;
+- fusiones anteriores.
+
+**Práctica dominante:** grids y síntesis poblacional que producen probabilidades y distribuciones de remanentes.
+
+**Alternativa fuerte:** “islas” de explodibilidad y rutas binarias pueden hacer no monótona la relación entre masa inicial y resultado. Dos estrellas con masas iniciales cercanas pueden acabar en remanentes distintos.
+
+**Prueba discriminatoria:** progenitores confirmados por desaparición, censos de supernovas fallidas, masas de remanentes, asterosismología de núcleos y modelos que predigan simultáneamente explosión, nucleosíntesis y población compacta.

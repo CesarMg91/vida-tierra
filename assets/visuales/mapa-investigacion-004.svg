@@ -1,0 +1,198 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1000" viewBox="0 0 1600 1000" role="img" aria-labelledby="title desc">
+  <title id="title">Mapa epistemológico de la evolución estelar</title>
+  <desc id="desc">Diagrama que conecta paralajes, binarias, cúmulos, oscilaciones, nubes en colapso, supernovas y remanentes con inferencias sobre nacimiento, evolución y muerte estelar. Las líneas discontinuas representan dependencias de calibración o modelo.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#06111f"/>
+      <stop offset="1" stop-color="#12192c"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#67e8f9"/>
+      <stop offset=".52" stop-color="#60a5fa"/>
+      <stop offset="1" stop-color="#c084fc"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="150%">
+      <feDropShadow dx="0" dy="7" stdDeviation="8" flood-color="#000814" flood-opacity=".55"/>
+    </filter>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#91a7c6"/>
+    </marker>
+    <marker id="modelArrow" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#f5b86b"/>
+    </marker>
+    <style>
+      .title{font:700 38px system-ui,-apple-system,"Segoe UI",sans-serif;fill:#f8fafc;letter-spacing:-.4px}
+      .sub{font:400 17px system-ui,-apple-system,"Segoe UI",sans-serif;fill:#aebbd0}
+      .col{font:700 15px system-ui,-apple-system,"Segoe UI",sans-serif;fill:#7dd3fc;letter-spacing:1.5px}
+      .box{fill:#121f34;stroke:#304760;stroke-width:1.5;rx:17;filter:url(#shadow)}
+      .signal{fill:#0d2830;stroke:#2dd4bf}
+      .measure{fill:#14243b;stroke:#60a5fa}
+      .infer{fill:#211d3e;stroke:#a78bfa}
+      .claim{fill:#1d2947;stroke:#7dd3fc}
+      .limit{fill:#332434;stroke:#f59e0b}
+      .h{font:700 17px system-ui,-apple-system,"Segoe UI",sans-serif;fill:#f5f8ff}
+      .hc{font:700 15.5px system-ui,-apple-system,"Segoe UI",sans-serif;fill:#f5f8ff}
+      .t{font:400 13.5px system-ui,-apple-system,"Segoe UI",sans-serif;fill:#c0cbdd}
+      .small{font:600 12px system-ui,-apple-system,"Segoe UI",sans-serif;fill:#9fe7dc}
+      .chip{font:700 11px system-ui,-apple-system,"Segoe UI",sans-serif;fill:#06101f}
+      .flow{fill:none;stroke:#91a7c6;stroke-width:2.1;marker-end:url(#arrow)}
+      .model{fill:none;stroke:#f5b86b;stroke-width:2;stroke-dasharray:8 7;marker-end:url(#modelArrow)}
+      .lane{fill:none;stroke:#263851;stroke-width:1}
+    </style>
+  </defs>
+
+  <rect width="1600" height="1000" fill="url(#bg)"/>
+  <circle cx="1490" cy="120" r="230" fill="#1d4ed8" opacity=".10"/>
+  <circle cx="80" cy="910" r="260" fill="#0f766e" opacity=".10"/>
+  <rect x="76" y="122" width="1448" height="4" rx="2" fill="url(#accent)" opacity=".9"/>
+
+  <text x="76" y="65" class="title">¿Cómo reconstruimos una vida que no podemos observar completa?</text>
+  <text x="76" y="99" class="sub">Señal actual → magnitud calibrada → diagnóstico físico → claim delimitado. Punteado = modelo, selección o calibración.</text>
+
+  <text x="76" y="158" class="col">SEÑALES</text>
+  <text x="410" y="158" class="col">MAGNITUDES</text>
+  <text x="776" y="158" class="col">DIAGNÓSTICO</text>
+  <text x="1152" y="158" class="col">CLAIM QUE SOBREVIVE</text>
+
+  <path class="lane" d="M76 300 H1524 M76 430 H1524 M76 560 H1524 M76 690 H1524 M76 820 H1524" opacity=".55"/>
+
+  <!-- Distancia y H-R -->
+  <path class="flow" d="M346 227 C370 227 383 227 407 227"/>
+  <path class="flow" d="M707 227 C733 227 746 227 772 227"/>
+  <path class="flow" d="M1068 227 C1095 227 1115 227 1142 227"/>
+  <rect x="76" y="180" width="270" height="94" class="box signal"/>
+  <text x="98" y="212" class="h">Paralaje + flujo + color</text>
+  <text x="98" y="238" class="t">Gaia repite posiciones y fotometría</text>
+  <text x="98" y="259" class="small">ángulo · energía recibida · filtros</text>
+  <rect x="407" y="180" width="300" height="94" class="box measure"/>
+  <text x="430" y="212" class="h">Distancia y luminosidad</text>
+  <text x="430" y="238" class="t">F = L / 4πd²; color no es T directa</text>
+  <text x="430" y="259" class="small">punto cero y extinción importan</text>
+  <rect x="772" y="180" width="296" height="94" class="box infer"/>
+  <text x="795" y="212" class="h">Población H–R / CMD</text>
+  <text x="795" y="238" class="t">secuencias, gigantes y enanas blancas</text>
+  <text x="795" y="259" class="small">mapa de estados, no una película</text>
+  <rect x="1142" y="180" width="382" height="94" class="box claim"/>
+  <text x="1165" y="211" class="hc">Poblaciones con estructura estelar</text>
+  <text x="1165" y="237" class="t">distancia separa brillo aparente de luminosidad</text>
+  <rect x="1450" y="194" width="50" height="24" rx="12" fill="#5eead4"/>
+  <text x="1475" y="211" text-anchor="middle" class="chip">A</text>
+
+  <!-- Masa y cúmulos -->
+  <path class="flow" d="M346 357 C370 357 383 357 407 357"/>
+  <path class="flow" d="M707 357 C733 357 746 357 772 357"/>
+  <path class="flow" d="M1068 357 C1095 357 1115 357 1142 357"/>
+  <rect x="76" y="310" width="270" height="94" class="box signal"/>
+  <text x="98" y="342" class="h">Órbitas + eclipses</text>
+  <text x="98" y="368" class="t">velocidad radial y curvas de luz</text>
+  <text x="98" y="389" class="small">periodo · amplitud · inclinación</text>
+  <rect x="407" y="310" width="300" height="94" class="box measure"/>
+  <text x="430" y="342" class="h">Masas y radios dinámicos</text>
+  <text x="430" y="368" class="t">gravedad orbital + geometría</text>
+  <text x="430" y="389" class="small">binarias separadas y cúmulos</text>
+  <rect x="772" y="310" width="296" height="94" class="box infer"/>
+  <text x="795" y="342" class="h">Isócronas coetáneas</text>
+  <text x="795" y="368" class="t">misma edad/composición, masas distintas</text>
+  <text x="795" y="389" class="small">punto de giro + gigantes + WD</text>
+  <rect x="1142" y="310" width="382" height="94" class="box claim"/>
+  <text x="1165" y="341" class="hc">La masa regula ritmo y estructura</text>
+  <text x="1165" y="367" class="t">no fija sola una ruta ni un destino universal</text>
+  <rect x="1428" y="324" width="72" height="24" rx="12" fill="#93c5fd"/>
+  <text x="1464" y="341" text-anchor="middle" class="chip">A-COND</text>
+
+  <!-- Nacimiento -->
+  <path class="flow" d="M346 487 C370 487 383 487 407 487"/>
+  <path class="flow" d="M707 487 C733 487 746 487 772 487"/>
+  <path class="flow" d="M1068 487 C1095 487 1115 487 1142 487"/>
+  <rect x="76" y="440" width="270" height="94" class="box signal"/>
+  <text x="98" y="472" class="h">Moléculas + disco + chorro</text>
+  <text x="98" y="498" class="t">B335 y HH 212 en radio/mm</text>
+  <text x="98" y="519" class="small">perfiles · mapas · Doppler</text>
+  <rect x="407" y="440" width="300" height="94" class="box measure"/>
+  <text x="430" y="472" class="h">Velocidad y geometría</text>
+  <text x="430" y="498" class="t">infall, rotación y outflow separados</text>
+  <text x="430" y="519" class="small">varias líneas y escalas espaciales</text>
+  <rect x="772" y="440" width="296" height="94" class="box infer"/>
+  <text x="795" y="472" class="h">Sistema en acreción</text>
+  <text x="795" y="498" class="t">momento angular extraído por flujos</text>
+  <text x="795" y="519" class="small">transferencia radiativa + MHD</text>
+  <rect x="1142" y="440" width="382" height="94" class="box claim"/>
+  <text x="1165" y="471" class="hc">Formación estelar en nubes densas</text>
+  <text x="1165" y="497" class="t">acreción observada; eficiencia aún abierta</text>
+  <rect x="1428" y="454" width="72" height="24" rx="12" fill="#93c5fd"/>
+  <text x="1464" y="471" text-anchor="middle" class="chip">A/B</text>
+
+  <!-- Interiores -->
+  <path class="flow" d="M346 617 C370 617 383 617 407 617"/>
+  <path class="flow" d="M707 617 C733 617 746 617 772 617"/>
+  <path class="flow" d="M1068 617 C1095 617 1115 617 1142 617"/>
+  <rect x="76" y="570" width="270" height="94" class="box signal"/>
+  <text x="98" y="602" class="h">Oscilaciones de brillo</text>
+  <text x="98" y="628" class="t">series temporales de Kepler</text>
+  <text x="98" y="649" class="small">frecuencia · periodo · fase</text>
+  <rect x="407" y="570" width="300" height="94" class="box measure"/>
+  <text x="430" y="602" class="h">Modos mixtos</text>
+  <text x="430" y="628" class="t">espaciamiento sensible al núcleo</text>
+  <text x="430" y="649" class="small">ondas p + g</text>
+  <rect x="772" y="570" width="296" height="94" class="box infer"/>
+  <text x="795" y="602" class="h">Estado interno distinto</text>
+  <text x="795" y="628" class="t">H en capa frente a He en núcleo</text>
+  <text x="795" y="649" class="small">exteriores similares, interiores no</text>
+  <rect x="1142" y="570" width="382" height="94" class="box claim"/>
+  <text x="1165" y="601" class="hc">El interior cambia al evolucionar</text>
+  <text x="1165" y="627" class="t">predicción evolutiva probada por sismología</text>
+  <rect x="1450" y="584" width="50" height="24" rx="12" fill="#5eead4"/>
+  <text x="1475" y="601" text-anchor="middle" class="chip">A</text>
+
+  <!-- WD -->
+  <path class="flow" d="M346 747 C370 747 383 747 407 747"/>
+  <path class="flow" d="M707 747 C733 747 746 747 772 747"/>
+  <path class="flow" d="M1068 747 C1095 747 1115 747 1142 747"/>
+  <rect x="76" y="700" width="270" height="94" class="box signal"/>
+  <text x="98" y="732" class="h">Sirius B + WD de cúmulos</text>
+  <text x="98" y="758" class="t">órbita, flujo y membresía</text>
+  <text x="98" y="779" class="small">remanentes en poblaciones datadas</text>
+  <rect x="407" y="700" width="300" height="94" class="box measure"/>
+  <text x="430" y="732" class="h">Masa, radio y enfriamiento</text>
+  <text x="430" y="758" class="t">edad del cúmulo − vida − enfriamiento</text>
+  <text x="430" y="779" class="small">relación inicial–final</text>
+  <rect x="772" y="700" width="296" height="94" class="box infer"/>
+  <text x="795" y="732" class="h">Núcleo degenerado final</text>
+  <text x="795" y="758" class="t">envoltura perdida; remanente compacto</text>
+  <text x="795" y="779" class="small">dispersión por composición/pérdida</text>
+  <rect x="1142" y="700" width="382" height="94" class="box claim"/>
+  <text x="1165" y="731" class="hc">Muchas rutas dejan enanas blancas</text>
+  <text x="1165" y="757" class="t">ruta establecida; frontera exacta condicionada</text>
+  <rect x="1428" y="714" width="72" height="24" rx="12" fill="#93c5fd"/>
+  <text x="1464" y="731" text-anchor="middle" class="chip">A/B</text>
+
+  <!-- Colapso y remanentes -->
+  <path class="flow" d="M346 877 C370 877 383 877 407 877"/>
+  <path class="flow" d="M707 877 C733 877 746 877 772 877"/>
+  <path class="flow" d="M1068 877 C1095 877 1115 877 1142 877"/>
+  <rect x="76" y="830" width="270" height="94" class="box signal"/>
+  <text x="98" y="862" class="h">Desaparición + neutrinos</text>
+  <text x="98" y="888" class="t">SN 1993J/2003gd + SN 1987A</text>
+  <text x="98" y="909" class="small">imagen diferencial · partículas</text>
+  <rect x="407" y="830" width="300" height="94" class="box measure"/>
+  <text x="430" y="862" class="h">Energía, tiempo y masa</text>
+  <text x="430" y="888" class="t">ráfaga; órbitas; timing de púlsar</text>
+  <text x="430" y="909" class="small">mensajeros y dinámica distintos</text>
+  <rect x="772" y="830" width="296" height="94" class="box infer"/>
+  <text x="795" y="862" class="h">Colapso y objeto compacto</text>
+  <text x="795" y="888" class="t">NS rotante o candidato BH dinámico</text>
+  <text x="795" y="909" class="small">no todo remanente es visible</text>
+  <rect x="1142" y="830" width="382" height="94" class="box claim"/>
+  <text x="1165" y="861" class="hc">Algunas estrellas masivas colapsan</text>
+  <text x="1165" y="887" class="t">destinos dependen de pérdida, giro y binariedad</text>
+  <rect x="1428" y="844" width="72" height="24" rx="12" fill="#93c5fd"/>
+  <text x="1464" y="861" text-anchor="middle" class="chip">A-COND</text>
+
+  <!-- Dependencias cruzadas -->
+  <path class="model" d="M560 960 C560 942 560 928 560 914"/>
+  <path class="model" d="M930 960 C930 942 930 928 930 914"/>
+  <rect x="386" y="945" width="348" height="38" rx="18" class="box limit"/>
+  <text x="560" y="969" text-anchor="middle" class="t">calibración · atmósfera · selección · composición</text>
+  <rect x="756" y="945" width="348" height="38" rx="18" class="box limit"/>
+  <text x="930" y="969" text-anchor="middle" class="t">convección · rotación · pérdida · binariedad</text>
+</svg>
