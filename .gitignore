@@ -1,0 +1,24 @@
+# Sistema operativo y editores
+.DS_Store
+Thumbs.db
+desktop.ini
+.idea/
+.vscode/
+*.swp
+*.tmp
+
+# Archivos locales de trabajo
+.env
+.env.*
+!.env.example
+_privado/
+_borradores_locales/
+
+# Datos o binarios pesados: documentar su origen en SOURCES.md
+*.zip
+*.7z
+*.tar
+*.gz
+*.mp4
+*.mov
+*.psd
