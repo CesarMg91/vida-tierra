@@ -33,7 +33,7 @@ Una investigación pasa de `EN_DESARROLLO` a `AUDITADO` cuando:
 |---:|---|---|---|
 | 001 | `INV-EARTH-AGE-001` | ¿Cómo sabemos la edad de la Tierra y reconstruimos sus primeros cientos de Ma? | U–Pb/Pb–Pb, CAIs, meteoritos, Hf–W, Luna, zircones, adversarios |
 | 002 | `INV-COSMOS-AGE-001` | ¿Cómo sabemos que el universo tiene una historia y una edad finita? | expansión, CMB, BBN, SN Ia, BAO, edades estelares, tensiones y límites |
-| 003 | `INV-COSMOS-ELEMENTS-001` | ¿Cómo sabemos que los elementos se formaron en el universo y estrellas? | espectros, abundancias, física nuclear, meteoritos |
+| 003 | `INV-COSMOS-ELEMENTS-001` | [¿Cómo sabemos dónde y cómo se formaron los elementos?](01_cosmos/INVESTIGACION_003_ORIGEN_ELEMENTOS.md) | espectros, neutrinos, BBN, Tc, supernovas, kilonovas, rayos cósmicos y meteoritos — **AUDITADO** |
 | 004 | `INV-COSMOS-STARS-001` | ¿Cómo inferimos nacimiento, evolución y muerte de estrellas? | espectros, paralaje, cúmulos, neutrinos, remanentes |
 | 005 | `INV-SOLAR-FORMATION-001` | ¿Cómo inferimos una nebulosa y disco protoplanetario? | discos observados, meteoritos, dinámica, modelos |
 | 006 | `INV-EARTH-ACCRETION-001` | ¿Cómo ocurrió y cuánto duró la acreción terrestre? | cronómetros extintos, dinámica N-cuerpos, composiciones |
@@ -140,6 +140,7 @@ Después de disponer de la secuencia base:
 
 - `v0.1`: arquitectura + Investigación 001.
 - `v0.1.1`: Investigación 002 + atlas visual inicial + prólogo cósmico.
+- `v0.1.2`: Investigación 003 + historia de la nucleosíntesis + matriz visual de contribuciones.
 - `v0.2`: Hadeano/Arcaico auditados.
 - `v0.3`: Proterozoico y origen/temprana evolución de la vida.
 - `v0.4`: Fanerozoico completo.

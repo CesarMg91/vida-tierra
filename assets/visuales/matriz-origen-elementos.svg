@@ -1,0 +1,152 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="930" viewBox="0 0 1600 930" role="img" aria-labelledby="title desc">
+  <title id="title">Matriz de contribuciones a la formación de núcleos</title>
+  <desc id="desc">Matriz visual que relaciona nucleosíntesis primordial, estrellas, gigantes AGB, supernovas, fusiones de estrellas de neutrones y rayos cósmicos con familias de núcleos. Los puntos indican contribución, no origen exclusivo.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#07111f"/>
+      <stop offset="1" stop-color="#12182b"/>
+    </linearGradient>
+    <style>
+      .title{font:700 38px system-ui,-apple-system,"Segoe UI",sans-serif;fill:#f7f9ff}
+      .sub{font:400 18px system-ui,-apple-system,"Segoe UI",sans-serif;fill:#aebbd0}
+      .head{font:700 16px system-ui,-apple-system,"Segoe UI",sans-serif;fill:#dce6f5}
+      .row{font:700 20px system-ui,-apple-system,"Segoe UI",sans-serif;fill:#eef3fb}
+      .note{font:400 14px system-ui,-apple-system,"Segoe UI",sans-serif;fill:#aebbd0}
+      .tag{font:700 13px system-ui,-apple-system,"Segoe UI",sans-serif;fill:#08111f}
+      .grid{stroke:#2b3b54;stroke-width:1}
+      .cell{fill:#111d31}
+      .alt{fill:#0d182a}
+      .major{fill:#5eead4;stroke:#ccfbf1;stroke-width:2}
+      .part{fill:#60a5fa;stroke:#dbeafe;stroke-width:2}
+      .model{fill:#f59e0b;stroke:#fef3c7;stroke-width:2}
+      .open{fill:none;stroke:#f59e0b;stroke-width:4}
+    </style>
+  </defs>
+  <rect width="1600" height="930" fill="url(#bg)"/>
+  <circle cx="1490" cy="100" r="220" fill="#1d4ed8" opacity=".09"/>
+  <text x="70" y="65" class="title">Matriz de origen: contribuciones, no propiedad</text>
+  <text x="70" y="100" class="sub">La unidad real suele ser el isótopo. Cada punto resume una familia de rutas y conserva incertidumbre de rendimiento.</text>
+
+  <rect x="70" y="145" width="1460" height="610" rx="18" fill="#0b1526" stroke="#30435e" stroke-width="2"/>
+  <rect x="70" y="145" width="400" height="85" rx="18" class="alt"/>
+  <text x="100" y="196" class="head">PROCESO / SITIO</text>
+
+  <g>
+    <rect x="470" y="145" width="176" height="85" class="cell"/>
+    <rect x="646" y="145" width="176" height="85" class="alt"/>
+    <rect x="822" y="145" width="176" height="85" class="cell"/>
+    <rect x="998" y="145" width="176" height="85" class="alt"/>
+    <rect x="1174" y="145" width="176" height="85" class="cell"/>
+    <rect x="1350" y="145" width="180" height="85" rx="18" class="alt"/>
+    <text x="558" y="181" text-anchor="middle" class="head">H / He</text>
+    <text x="558" y="204" text-anchor="middle" class="note">+ D, ³He, ⁷Li</text>
+    <text x="734" y="181" text-anchor="middle" class="head">Li · Be · B</text>
+    <text x="734" y="204" text-anchor="middle" class="note">núcleos ligeros</text>
+    <text x="910" y="181" text-anchor="middle" class="head">C → O</text>
+    <text x="910" y="204" text-anchor="middle" class="note">He y capturas α</text>
+    <text x="1086" y="181" text-anchor="middle" class="head">Grupo Fe / Ni</text>
+    <text x="1086" y="204" text-anchor="middle" class="note">quema avanzada</text>
+    <text x="1262" y="181" text-anchor="middle" class="head">Más allá de Fe</text>
+    <text x="1262" y="204" text-anchor="middle" class="note">captura lenta s</text>
+    <text x="1440" y="181" text-anchor="middle" class="head">Ricos en neutrones</text>
+    <text x="1440" y="204" text-anchor="middle" class="note">captura rápida r</text>
+  </g>
+
+  <g>
+    <rect x="70" y="230" width="400" height="87" class="cell"/>
+    <rect x="470" y="230" width="176" height="87" class="cell"/>
+    <rect x="646" y="230" width="176" height="87" class="alt"/>
+    <rect x="822" y="230" width="176" height="87" class="cell"/>
+    <rect x="998" y="230" width="176" height="87" class="alt"/>
+    <rect x="1174" y="230" width="176" height="87" class="cell"/>
+    <rect x="1350" y="230" width="180" height="87" class="alt"/>
+    <text x="100" y="267" class="row">Universo temprano</text>
+    <text x="100" y="291" class="note">BBN · primeros minutos del modelo</text>
+    <circle cx="558" cy="274" r="17" class="major"/>
+    <circle cx="734" cy="274" r="10" class="model"/>
+  </g>
+
+  <g>
+    <rect x="70" y="317" width="400" height="87" class="alt"/>
+    <rect x="470" y="317" width="176" height="87" class="alt"/>
+    <rect x="646" y="317" width="176" height="87" class="cell"/>
+    <rect x="822" y="317" width="176" height="87" class="alt"/>
+    <rect x="998" y="317" width="176" height="87" class="cell"/>
+    <rect x="1174" y="317" width="176" height="87" class="alt"/>
+    <rect x="1350" y="317" width="180" height="87" class="cell"/>
+    <text x="100" y="354" class="row">Estrellas: quema estable</text>
+    <text x="100" y="378" class="note">H, He y etapas avanzadas según masa</text>
+    <circle cx="558" cy="361" r="12" class="part"/>
+    <circle cx="910" cy="361" r="17" class="major"/>
+    <circle cx="1086" cy="361" r="15" class="major"/>
+  </g>
+
+  <g>
+    <rect x="70" y="404" width="400" height="87" class="cell"/>
+    <rect x="470" y="404" width="176" height="87" class="cell"/>
+    <rect x="646" y="404" width="176" height="87" class="alt"/>
+    <rect x="822" y="404" width="176" height="87" class="cell"/>
+    <rect x="998" y="404" width="176" height="87" class="alt"/>
+    <rect x="1174" y="404" width="176" height="87" class="cell"/>
+    <rect x="1350" y="404" width="180" height="87" class="alt"/>
+    <text x="100" y="441" class="row">Gigantes AGB</text>
+    <text x="100" y="465" class="note">pulsos, proceso s, dragado y polvo</text>
+    <circle cx="910" cy="448" r="10" class="part"/>
+    <circle cx="1262" cy="448" r="17" class="major"/>
+  </g>
+
+  <g>
+    <rect x="70" y="491" width="400" height="87" class="alt"/>
+    <rect x="470" y="491" width="176" height="87" class="alt"/>
+    <rect x="646" y="491" width="176" height="87" class="cell"/>
+    <rect x="822" y="491" width="176" height="87" class="alt"/>
+    <rect x="998" y="491" width="176" height="87" class="cell"/>
+    <rect x="1174" y="491" width="176" height="87" class="alt"/>
+    <rect x="1350" y="491" width="180" height="87" class="cell"/>
+    <text x="100" y="528" class="row">Supernovas</text>
+    <text x="100" y="552" class="note">quema explosiva, decaimiento y eyección</text>
+    <circle cx="910" cy="535" r="11" class="part"/>
+    <circle cx="1086" cy="535" r="17" class="major"/>
+    <circle cx="1262" cy="535" r="10" class="part"/>
+    <circle cx="1440" cy="535" r="10" class="model"/>
+  </g>
+
+  <g>
+    <rect x="70" y="578" width="400" height="87" class="cell"/>
+    <rect x="470" y="578" width="176" height="87" class="cell"/>
+    <rect x="646" y="578" width="176" height="87" class="alt"/>
+    <rect x="822" y="578" width="176" height="87" class="cell"/>
+    <rect x="998" y="578" width="176" height="87" class="alt"/>
+    <rect x="1174" y="578" width="176" height="87" class="cell"/>
+    <rect x="1350" y="578" width="180" height="87" class="alt"/>
+    <text x="100" y="615" class="row">Fusiones de estrellas de neutrones</text>
+    <text x="100" y="639" class="note">eyección rica en neutrones + kilonova</text>
+    <circle cx="1440" cy="622" r="17" class="major"/>
+    <circle cx="1262" cy="622" r="9" class="part"/>
+  </g>
+
+  <g>
+    <rect x="70" y="665" width="400" height="90" class="alt"/>
+    <rect x="470" y="665" width="176" height="90" class="alt"/>
+    <rect x="646" y="665" width="176" height="90" class="cell"/>
+    <rect x="822" y="665" width="176" height="90" class="alt"/>
+    <rect x="998" y="665" width="176" height="90" class="cell"/>
+    <rect x="1174" y="665" width="176" height="90" class="alt"/>
+    <rect x="1350" y="665" width="180" height="90" class="cell"/>
+    <text x="100" y="702" class="row">Rayos cósmicos</text>
+    <text x="100" y="726" class="note">espalación sobre gas y núcleos CNO</text>
+    <circle cx="734" cy="710" r="17" class="major"/>
+  </g>
+
+  <g transform="translate(70 800)">
+    <circle cx="18" cy="18" r="15" class="major"/>
+    <text x="48" y="24" class="sub">contribución característica con evidencia ancla</text>
+    <circle cx="485" cy="18" r="11" class="part"/>
+    <text x="510" y="24" class="sub">contribución parcial / familia compartida</text>
+    <circle cx="885" cy="18" r="10" class="model"/>
+    <text x="910" y="24" class="sub">contribución dependiente de modelo o abierta</text>
+  </g>
+
+  <rect x="70" y="862" width="1460" height="42" rx="12" fill="#2b2030" stroke="#f59e0b"/>
+  <text x="800" y="889" text-anchor="middle" class="sub">Un punto no significa exclusividad ni porcentaje. Diferentes isótopos de la misma casilla pueden tener historias distintas.</text>
+</svg>

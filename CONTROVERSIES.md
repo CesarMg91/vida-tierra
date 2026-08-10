@@ -10,6 +10,10 @@ Una controversia no implica empate. Registra qué parte está realmente abierta,
 | `CONT-COSMOS-DARKENERGY-001` | ¿Constante cosmológica o componente dinámica? | `Λ` constante describe bien el conjunto base | `w(z)` dinámico o gravedad modificada; DESI cambia restricciones | abierta | B-COND para aceleración; D para mecanismo |
 | `CONT-COSMOS-BEGIN-001` | ¿La fase caliente fue el comienzo absoluto? | el modelo probado se detiene en un límite temprano sin afirmar ontología | inflación eterna, rebote, fase previa o comienzo cuántico | abierta y parcialmente fuera del acceso observacional | E para mecanismo exacto |
 | `CONT-COSMOS-INDEP-001` | Independencia de CMB, BAO y BBN | convergencia de observables distintos bajo una física común | calibraciones/modelo temprano compartidos inflan la apariencia de corroboración | parcialmente resuelta mediante matrices de dependencia | B |
+| `CONT-ELEMENT-RPROCESS-001` | ¿Qué fuentes dominan el proceso `r`? | fusiones de estrellas de neutrones son un sitio probado e importante | supernovas raras u otros canales aportan fracciones necesarias | abierta en pesos, no en existencia de fusiones | A para sitio; C para fracciones |
+| `CONT-ELEMENT-LITHIUM-001` | Problema cosmológico del litio | BBN estándar + agotamiento/transporte estelar todavía incompleto | nueva física temprana o sistemática nuclear/atmosférica | abierta | B para discrepancia; D para causa |
+| `CONT-ELEMENT-SOLAR-ABUNDANCE-001` | Abundancia solar y heliosismología | composición fotosférica moderna con modelos 3D/no-LTE | opacidades o abundancias revisadas que restauren estructura interior | abierta | B |
+| `CONT-ELEMENT-YIELDS-001` | Rendimientos por estrella y evento | grids por masa, metalicidad, rotación y explosión | binariedad, 3D y tasas alteran contribuciones integradas | abierta y cuantitativa | C |
 | `CONT-EARTH-AGE-001` | ¿Qué significa “edad de la Tierra”? | valor operacional ~4.54 Ga ligado a formación/acreción temprana | usar hitos separados: CAIs, masa acumulada, núcleo, Luna, corteza | abierta por definición, no por orden de magnitud | B |
 | `CONT-EARTH-UPB-001` | ¿Qué tan independientes son las edades radiométricas? | convergencia de múltiples minerales/sistemas | dependencia común de calibraciones, contexto y modelos | parcialmente resuelta | B |
 | `CONT-MOON-AGE-001` | Momento del impacto formador de la Luna | temprano, en primeras decenas de Ma | impacto o reequilibrio más tardío; zircones fechan corteza, no colisión | abierta | C |
@@ -133,3 +137,48 @@ El debate histórico enfrentó edades modelo `146Sm–142Nd` de hasta ~4.28 Ga c
 Las edades de fundidos Apollo se agrupan cerca de cuencas jóvenes y los cuerpos interiores muestran cráteres intensos. Pero la colección Apollo es espacialmente sesgada y los impactos grandes pueden borrar, mezclar o enterrar fundidos anteriores. Un pico breve, una cola decreciente o un modelo híbrido pueden reproducir parte de los datos.
 
 **Estado:** B para “el bombardeo temprano fue mucho mayor que hoy”; D para “hubo una única subida abrupta global a 3.9 Ga”.
+
+## CONT-ELEMENT-RPROCESS-001 — Sitio probado no equivale a presupuesto cerrado
+
+### Datos compartidos
+
+- GW170817 fue una fusión de objetos compactos consistente con estrellas de neutrones y tuvo una kilonova.
+- La evolución óptica/IR requiere calentamiento y opacidad compatibles con material recién sintetizado en los modelos publicados.
+- Se identificó Sr, un elemento de captura neutrónica, en el espectro.
+- Existen estrellas antiguas con patrones `r` que imponen tiempos de enriquecimiento y variación ambiental.
+
+### Familia A — Fusiones dominantes
+
+Un rendimiento grande por evento puede compensar una tasa menor. La evidencia multimensajero prueba que el canal funciona y los tiempos de demora pueden incluir una cola rápida.
+
+### Familia B — Múltiples canales necesarios
+
+La presencia temprana o ciertos patrones podrían requerir fuentes adicionales: supernovas magnetorrotacionales, colapsares u otros eventos raros. Un canal adicional debe producir el patrón, ocurrir con la tasa adecuada y no sobreproducir otros núcleos.
+
+**Prueba discriminatoria:** muchas kilonovas con espectros, tasas por tipo de galaxia, abundancias isotópicas en estrellas muy antiguas y modelos de evolución química que predigan dispersión además del promedio.
+
+## CONT-ELEMENT-LITHIUM-001 — Una concordancia que no es completa
+
+BBN estándar, usando la densidad bariónica restringida por CMB, concuerda bien con deuterio. Para `7Li`, las abundancias en atmósferas de estrellas antiguas quedan por debajo de la predicción en la lectura usual.
+
+Las familias explicativas incluyen agotamiento y difusión estelar, sistemáticas de atmósfera/temperatura, tasas nucleares o física temprana no estándar. Cualquier solución debe preservar la concordancia de D/H, He y CMB; mover solo litio mediante un parámetro libre no basta.
+
+**Prueba discriminatoria:** modelos estelares con predicciones de otros elementos y evolución superficial, tasas nucleares relevantes mejor medidas, y una solución cosmológica que no deteriore los observables ya concordantes.
+
+## CONT-ELEMENT-SOLAR-ABUNDANCE-001 — La superficie y el interior solar
+
+Modelos 3D y tratamientos no-LTE revisaron a la baja algunas abundancias fotosféricas respecto de evaluaciones anteriores. Al incorporarlas a modelos solares, ciertas predicciones de estructura no coinciden tan bien con restricciones heliosísmicas.
+
+Las alternativas no son “espectroscopia o Sol”. Pueden cambiar opacidades, difusión, composición, datos atómicos o condiciones del modelo. La comparación es valiosa porque enfrenta dos rutas con sistemáticas parcialmente distintas.
+
+**Prueba discriminatoria:** opacidades experimentales en condiciones relevantes, líneas múltiples y estados de ionización, neutrinos CNO más precisos y modelos que predigan simultáneamente espectro, heliosismología y flujos neutrínicos.
+
+## CONT-ELEMENT-YIELDS-001 — Del evento individual a la Galaxia
+
+Los rendimientos dependen de masa inicial, metalicidad, rotación, pérdida de masa, compañera binaria, convección, tasas nucleares, mecanismo de explosión y masa que finalmente escapa. Dos modelos pueden ajustar una abundancia promedio y predecir dispersiones o correlaciones diferentes.
+
+**Práctica dominante:** grids de evolución y nucleosíntesis integrados con una función inicial de masas y evolución química.
+
+**Alternativa fuerte:** poblaciones binarias, eventos raros o mezcla inhomogénea pueden dominar isótopos que un modelo promedio asigna a estrellas aisladas.
+
+**Prueba discriminatoria:** abundancias multielementales de poblaciones con edad y entorno, isótopos en granos individuales, tasas de transitorios y predicciones fuera del conjunto usado para calibrar el rendimiento.

@@ -116,6 +116,22 @@ edades estelares ─────────┘
 
 Véase `INV-COSMOS-AGE-001` en `01_cosmos` y su mapa en `assets/visuales/mapa-investigacion-002.svg`.
 
+La ruta del origen de los elementos es:
+
+```text
+líneas atómicas + modelos de atmósfera → identidad y abundancias condicionadas
+tasas nucleares + D/H + CMB           → inventario primordial H/He
+neutrinos solares                     → fusión activa H→He
+Tc estelar + granos presolares        → proceso s y mezcla AGB
+gamma de SN 1987A                     → material 56Ni/56Co fresco
+GW170817 + kilonova + Sr              → captura neutrónica en fusiones
+rayos cósmicos + abundancias          → contribución LiBeB
+                                      ↓
+tasas + eyección + mezcla galáctica   → inventario solar (fracciones abiertas)
+```
+
+Véase `INV-COSMOS-ELEMENTS-001` en `01_cosmos`, su mapa en `assets/visuales/mapa-investigacion-003.svg` y la matriz en `assets/visuales/matriz-origen-elementos.svg`.
+
 La ruta terrestre es:
 
 ```text
