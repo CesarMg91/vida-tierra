@@ -4,6 +4,11 @@ La clasificación expresa cuánto restringe hoy la evidencia, no cuán interesan
 
 | ID | Pregunta | Qué sabemos | Barrera principal | Apertura |
 |---|---|---|---|---|
+| `OPEN-COSMOS-H0-001` | ¿Qué causa la tensión entre `H0` temprano y local? | dos cadenas precisas difieren; hay controles alternativos parciales | sistemáticas correlacionadas o física degenerada | D para causa exacta |
+| `OPEN-COSMOS-DARKMATTER-001` | ¿Qué es la materia oscura? | gravedad y estructura requieren una componente no bariónica en el modelo dominante | múltiples candidatos y ausencia de detección no gravitacional confirmada | D |
+| `OPEN-COSMOS-DARKENERGY-001` | ¿Qué causa la aceleración cósmica? | SN/BAO/CMB restringen la historia; `Λ` funciona como parametrización mínima | degeneración entre `w(z)`, gravedad y calibraciones | D |
+| `OPEN-COSMOS-INFLATION-001` | ¿Qué mecanismo produjo las condiciones iniciales y perturbaciones? | CMB restringe espectro y geometría; varias familias sobreviven | energías inaccesibles y modelos degenerados | D-E para mecanismo |
+| `OPEN-COSMOS-BEGIN-001` | ¿Hubo un comienzo absoluto o una fase anterior? | existe una fase caliente reconstruible; la extrapolación clásica pierde validez | gravedad cuántica y acceso observacional al borde | E |
 | `OPEN-EARTH-ACCRETION-001` | ¿Cuál fue la curva exacta de acreción terrestre? | ocurrió temprano y por etapas/impactos | dependencia de equilibrio y modelos dinámicos | C: restringida, no única |
 | `OPEN-MOON-ORIGIN-001` | ¿Cuándo y bajo qué geometría se formó la Luna? | formación/diferenciación muy tempranas; relación Tierra–Luna estrecha | muestras y modelos de impacto/enfriamiento | C |
 | `OPEN-HADEAN-CRUST-001` | ¿Cómo era la primera corteza? | zircon y rocas raras prueban diferenciación temprana | preservación excepcional y escala local | D |

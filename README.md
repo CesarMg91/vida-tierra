@@ -2,6 +2,10 @@
 
 Historia profunda de la Tierra, la vida y el ser humano desde primeros principios.
 
+![Historia profunda del cosmos, la Tierra, la vida y la humanidad](assets/visuales/hero-historia-profunda.png)
+
+> **Ilustración conceptual:** comprime épocas distintas y no está a escala. Su procedencia y límites se registran en el [`ATLAS_VISUAL.md`](ATLAS_VISUAL.md).
+
 Este repositorio público investiga cómo se reconstruyen acontecimientos que nadie observó directamente. Su pregunta rectora no es “¿qué dicen los libros?”, sino:
 
 > Si desaparecieran los manuales y no pudiéramos confiar inicialmente en ninguna autoridad, ¿qué observaciones, mediciones, experimentos y razonamientos permitirían reconstruir esta conclusión?
@@ -39,6 +43,8 @@ La fase fundacional contiene:
 - una [`TIMELINE.md`](TIMELINE.md) preliminar desde los primeros sólidos del Sistema Solar hasta las primeras civilizaciones;
 - el [`KNOWLEDGE_MAP.md`](KNOWLEDGE_MAP.md) y el [`ROADMAP.md`](ROADMAP.md);
 - la primera investigación: [`¿Cómo sabemos la edad de la Tierra?`](02_formacion_tierra/INVESTIGACION_001_EDAD_TIERRA.md).
+- la segunda investigación: [`¿Cómo sabemos que el universo tiene una historia y una edad finita?`](01_cosmos/INVESTIGACION_002_EDAD_E_HISTORIA_DEL_UNIVERSO.md);
+- un [`ATLAS_VISUAL.md`](ATLAS_VISUAL.md) con procedencia y límites explícitos.
 
 “Preliminar” significa que la cronología organiza el programa de trabajo; no convierte automáticamente cada fecha en una conclusión cerrada. Los estados de auditoría muestran qué ha sido investigado en profundidad y qué sigue pendiente.
 
@@ -50,12 +56,15 @@ La fase fundacional contiene:
 4. Abre los registros bibliográficos en [`SOURCES.md`](SOURCES.md).
 5. Revisa desacuerdos en [`CONTROVERSIES.md`](CONTROVERSIES.md).
 6. Comprueba su posición temporal en [`TIMELINE.md`](TIMELINE.md).
+7. Usa el [`ATLAS_VISUAL.md`](ATLAS_VISUAL.md) para ver mapas explicativos y luego vuelve a sus registros.
 
 La arquitectura completa y las reglas de nombres están en [`00_metodologia/ARCHITECTURE.md`](00_metodologia/ARCHITECTURE.md) y [`00_metodologia/ID_CONVENTIONS.md`](00_metodologia/ID_CONVENTIONS.md).
 
 ## Alcance cronológico
 
 ```text
+Fase cósmica caliente → expansión → estrellas y elementos
+  ↓
 Sistema Solar
   ↓
 Tierra y Luna

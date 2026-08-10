@@ -32,11 +32,13 @@ Una investigación pasa de `EN_DESARROLLO` a `AUDITADO` cuando:
 | Orden | ID | Pregunta | Productos mínimos |
 |---:|---|---|---|
 | 001 | `INV-EARTH-AGE-001` | ¿Cómo sabemos la edad de la Tierra y reconstruimos sus primeros cientos de Ma? | U–Pb/Pb–Pb, CAIs, meteoritos, Hf–W, Luna, zircones, adversarios |
-| 002 | `INV-COSMOS-ELEMENTS-001` | ¿Cómo sabemos que los elementos se formaron en el universo y estrellas? | espectros, abundancias, física nuclear, meteoritos |
-| 003 | `INV-SOLAR-FORMATION-001` | ¿Cómo inferimos una nebulosa y disco protoplanetario? | discos observados, meteoritos, dinámica, modelos |
-| 004 | `INV-EARTH-ACCRETION-001` | ¿Cómo ocurrió y cuánto duró la acreción terrestre? | cronómetros extintos, dinámica N-cuerpos, composiciones |
-| 005 | `INV-EARTH-CORE-001` | ¿Cómo sabemos que existe núcleo y cuándo se diferenció? | sismología, densidad, siderófilos, Hf–W |
-| 006 | `INV-MOON-ORIGIN-001` | ¿Cómo se formó la Luna? | muestras lunares, isótopos, momento angular, alternativas |
+| 002 | `INV-COSMOS-AGE-001` | ¿Cómo sabemos que el universo tiene una historia y una edad finita? | expansión, CMB, BBN, SN Ia, BAO, edades estelares, tensiones y límites |
+| 003 | `INV-COSMOS-ELEMENTS-001` | ¿Cómo sabemos que los elementos se formaron en el universo y estrellas? | espectros, abundancias, física nuclear, meteoritos |
+| 004 | `INV-COSMOS-STARS-001` | ¿Cómo inferimos nacimiento, evolución y muerte de estrellas? | espectros, paralaje, cúmulos, neutrinos, remanentes |
+| 005 | `INV-SOLAR-FORMATION-001` | ¿Cómo inferimos una nebulosa y disco protoplanetario? | discos observados, meteoritos, dinámica, modelos |
+| 006 | `INV-EARTH-ACCRETION-001` | ¿Cómo ocurrió y cuánto duró la acreción terrestre? | cronómetros extintos, dinámica N-cuerpos, composiciones |
+| 007 | `INV-EARTH-CORE-001` | ¿Cómo sabemos que existe núcleo y cuándo se diferenció? | sismología, densidad, siderófilos, Hf–W |
+| 008 | `INV-MOON-ORIGIN-001` | ¿Cómo se formó la Luna? | muestras lunares, isótopos, momento angular, alternativas |
 
 **Salida de fase:** cronología de hitos 4.567–4.4 Ga con incertidumbres de medición y modelo separadas.
 
@@ -44,12 +46,12 @@ Una investigación pasa de `EN_DESARROLLO` a `AUDITADO` cuando:
 
 | Orden | ID | Pregunta |
 |---:|---|---|
-| 007 | `INV-HADEAN-CRUST-001` | ¿Qué conservan zircones, Acasta y Nuvvuagittuq de la primera corteza? |
-| 008 | `INV-HADEAN-WATER-001` | ¿Cuándo hubo agua líquida y qué significa la señal de oxígeno? |
-| 009 | `INV-HADEAN-ATMOSPHERE-001` | ¿Cómo se restringe una atmósfera sin muestras de aire? |
-| 010 | `INV-HADEAN-IMPACTS-001` | ¿Pico tardío, cola de acreción o modelo híbrido? |
-| 011 | `INV-ARCHEAN-LIFE-001` | ¿Cuál es la evidencia de vida más antigua? |
-| 012 | `INV-ARCHEAN-PHOTOSYNTHESIS-001` | ¿Cuándo surgieron fotosíntesis y producción de oxígeno? |
+| 009 | `INV-HADEAN-CRUST-001` | ¿Qué conservan zircones, Acasta y Nuvvuagittuq de la primera corteza? |
+| 010 | `INV-HADEAN-WATER-001` | ¿Cuándo hubo agua líquida y qué significa la señal de oxígeno? |
+| 011 | `INV-HADEAN-ATMOSPHERE-001` | ¿Cómo se restringe una atmósfera sin muestras de aire? |
+| 012 | `INV-HADEAN-IMPACTS-001` | ¿Pico tardío, cola de acreción o modelo híbrido? |
+| 013 | `INV-ARCHEAN-LIFE-001` | ¿Cuál es la evidencia de vida más antigua? |
+| 014 | `INV-ARCHEAN-PHOTOSYNTHESIS-001` | ¿Cuándo surgieron fotosíntesis y producción de oxígeno? |
 
 **Salida de fase:** separar fechas de habitabilidad, evidencia de vida y origen real de la vida.
 
@@ -57,28 +59,28 @@ Una investigación pasa de `EN_DESARROLLO` a `AUDITADO` cuando:
 
 | Orden | ID | Pregunta |
 |---:|---|---|
-| 013 | `INV-PROT-GOE-001` | ¿Cómo sabemos que aumentó el oxígeno? |
-| 014 | `INV-LIFE-LUCA-001` | ¿Qué se puede reconstruir de LUCA y qué no? |
-| 015 | `INV-LIFE-EUK-001` | ¿Cómo inferimos origen de eucariotas y endosimbiosis? |
-| 016 | `INV-LIFE-SEX-001` | ¿Cuándo y por qué apareció reproducción sexual? |
-| 017 | `INV-LIFE-MULTI-001` | ¿Cuántas veces surgió multicelularidad? |
-| 018 | `INV-PROT-SNOWBALL-001` | ¿La Tierra estuvo globalmente congelada? |
-| 019 | `INV-EDIACARA-001` | ¿Qué eran los organismos ediacáricos y cómo vivían? |
+| 015 | `INV-PROT-GOE-001` | ¿Cómo sabemos que aumentó el oxígeno? |
+| 016 | `INV-LIFE-LUCA-001` | ¿Qué se puede reconstruir de LUCA y qué no? |
+| 017 | `INV-LIFE-EUK-001` | ¿Cómo inferimos origen de eucariotas y endosimbiosis? |
+| 018 | `INV-LIFE-SEX-001` | ¿Cuándo y por qué apareció reproducción sexual? |
+| 019 | `INV-LIFE-MULTI-001` | ¿Cuántas veces surgió multicelularidad? |
+| 020 | `INV-PROT-SNOWBALL-001` | ¿La Tierra estuvo globalmente congelada? |
+| 021 | `INV-EDIACARA-001` | ¿Qué eran los organismos ediacáricos y cómo vivían? |
 
 ## Fase 4 — Fanerozoico: radiaciones, tierra firme y extinciones
 
 | Orden | ID | Periodo/pregunta central |
 |---:|---|---|
-| 020 | `INV-CAMBRIAN-001` | ¿“Explosión” súbita o registro comprimido? |
-| 021 | `INV-ORDOVICIAN-001` | diversificación marina, primeras tierras y extinción |
-| 022 | `INV-SILURIAN-001` | plantas vasculares, artrópodos y costas |
-| 023 | `INV-DEVONIAN-001` | bosques, peces y transición agua–tierra |
-| 024 | `INV-CARBONIFEROUS-001` | carbón, oxígeno, gigantismo y amniotas |
-| 025 | `INV-PERMIAN-001` | Pangea, sinápsidos y mayor extinción |
-| 026 | `INV-TRIASSIC-001` | recuperación, dinosaurios y mamíferos tempranos |
-| 027 | `INV-JURASSIC-001` | aves, dinosaurios y tectónica |
-| 028 | `INV-CRETACEOUS-001` | flores, insectos, aves y mamíferos |
-| 029 | `INV-KPG-001` | impacto, Deccan y mecanismos de extinción |
+| 022 | `INV-CAMBRIAN-001` | ¿“Explosión” súbita o registro comprimido? |
+| 023 | `INV-ORDOVICIAN-001` | diversificación marina, primeras tierras y extinción |
+| 024 | `INV-SILURIAN-001` | plantas vasculares, artrópodos y costas |
+| 025 | `INV-DEVONIAN-001` | bosques, peces y transición agua–tierra |
+| 026 | `INV-CARBONIFEROUS-001` | carbón, oxígeno, gigantismo y amniotas |
+| 027 | `INV-PERMIAN-001` | Pangea, sinápsidos y mayor extinción |
+| 028 | `INV-TRIASSIC-001` | recuperación, dinosaurios y mamíferos tempranos |
+| 029 | `INV-JURASSIC-001` | aves, dinosaurios y tectónica |
+| 030 | `INV-CRETACEOUS-001` | flores, insectos, aves y mamíferos |
+| 031 | `INV-KPG-001` | impacto, Deccan y mecanismos de extinción |
 
 En cada periodo se auditarán primero sus límites cronoestratigráficos y después las narraciones biológicas.
 
@@ -86,32 +88,32 @@ En cada periodo se auditarán primero sus límites cronoestratigráficos y despu
 
 | Orden | ID | Pregunta |
 |---:|---|---|
-| 030 | `INV-PALEOGENE-001` | recuperación, mamíferos, primates, ballenas y PETM |
-| 031 | `INV-NEOGENE-001` | pastizales, primates, clima e istmo de Panamá |
-| 032 | `INV-QUATERNARY-001` | glaciaciones, megafauna y cambios rápidos |
-| 033 | `INV-HOMININ-SPLIT-001` | ¿Cómo se fecha la separación con otros simios? |
-| 034 | `INV-HOMININ-EARLY-001` | Sahelanthropus, Orrorin y Ardipithecus |
-| 035 | `INV-AUSTRALOPITH-001` | australopitecos y Paranthropus |
-| 036 | `INV-HOMO-EARLY-001` | habilis, erectus y categorías tempranas de Homo |
-| 037 | `INV-HOMO-MIDDLE-001` | heidelbergensis y poblaciones del Pleistoceno medio |
-| 038 | `INV-NEAND-DENIS-001` | neandertales, denisovanos y mestizaje |
-| 039 | `INV-HOMO-OTHER-001` | floresiensis, naledi y diversidad tardía |
-| 040 | `INV-SAPIENS-ORIGIN-001` | origen africano: región única o población estructurada |
+| 032 | `INV-PALEOGENE-001` | recuperación, mamíferos, primates, ballenas y PETM |
+| 033 | `INV-NEOGENE-001` | pastizales, primates, clima e istmo de Panamá |
+| 034 | `INV-QUATERNARY-001` | glaciaciones, megafauna y cambios rápidos |
+| 035 | `INV-HOMININ-SPLIT-001` | ¿Cómo se fecha la separación con otros simios? |
+| 036 | `INV-HOMININ-EARLY-001` | Sahelanthropus, Orrorin y Ardipithecus |
+| 037 | `INV-AUSTRALOPITH-001` | australopitecos y Paranthropus |
+| 038 | `INV-HOMO-EARLY-001` | habilis, erectus y categorías tempranas de Homo |
+| 039 | `INV-HOMO-MIDDLE-001` | heidelbergensis y poblaciones del Pleistoceno medio |
+| 040 | `INV-NEAND-DENIS-001` | neandertales, denisovanos y mestizaje |
+| 041 | `INV-HOMO-OTHER-001` | floresiensis, naledi y diversidad tardía |
+| 042 | `INV-SAPIENS-ORIGIN-001` | origen africano: región única o población estructurada |
 
 ## Fase 6 — Expansión, mente y civilización
 
 | Orden | ID | Pregunta |
 |---:|---|---|
-| 041 | `INV-SAPIENS-OoA-001` | ¿Cuántas salidas de África y cuáles dejaron descendencia? |
-| 042 | `INV-MIGR-ASIA-AUS-001` | poblamiento de Asia y Sahul |
-| 043 | `INV-MIGR-EUROPE-001` | llegada a Europa y coexistencia |
-| 044 | `INV-MIGR-AMERICAS-001` | ¿cuándo y por qué rutas se poblaron las Américas? |
-| 045 | `INV-MIND-TOOLS-FIRE-001` | herramientas, fuego y cooperación |
-| 046 | `INV-MIND-LANGUAGE-001` | ¿cuándo apareció lenguaje y qué huellas puede dejar? |
-| 047 | `INV-MIND-SYMBOL-001` | entierros, arte, música, ritual y símbolos |
-| 048 | `INV-NEOLITHIC-001` | agriculturas y domesticaciones múltiples |
-| 049 | `INV-CITIES-STATES-001` | aldeas, especialización, jerarquías, ciudades y estados |
-| 050 | `INV-CIVILIZATIONS-001` | comparación arqueológica de primeras civilizaciones |
+| 043 | `INV-SAPIENS-OoA-001` | ¿Cuántas salidas de África y cuáles dejaron descendencia? |
+| 044 | `INV-MIGR-ASIA-AUS-001` | poblamiento de Asia y Sahul |
+| 045 | `INV-MIGR-EUROPE-001` | llegada a Europa y coexistencia |
+| 046 | `INV-MIGR-AMERICAS-001` | ¿cuándo y por qué rutas se poblaron las Américas? |
+| 047 | `INV-MIND-TOOLS-FIRE-001` | herramientas, fuego y cooperación |
+| 048 | `INV-MIND-LANGUAGE-001` | ¿cuándo apareció lenguaje y qué huellas puede dejar? |
+| 049 | `INV-MIND-SYMBOL-001` | entierros, arte, música, ritual y símbolos |
+| 050 | `INV-NEOLITHIC-001` | agriculturas y domesticaciones múltiples |
+| 051 | `INV-CITIES-STATES-001` | aldeas, especialización, jerarquías, ciudades y estados |
+| 052 | `INV-CIVILIZATIONS-001` | comparación arqueológica de primeras civilizaciones |
 
 ## Fase 7 — Ramas transversales
 
@@ -137,6 +139,7 @@ Después de disponer de la secuencia base:
 ## Hitos públicos
 
 - `v0.1`: arquitectura + Investigación 001.
+- `v0.1.1`: Investigación 002 + atlas visual inicial + prólogo cósmico.
 - `v0.2`: Hadeano/Arcaico auditados.
 - `v0.3`: Proterozoico y origen/temprana evolución de la vida.
 - `v0.4`: Fanerozoico completo.

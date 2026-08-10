@@ -6,12 +6,66 @@ Una controversia no implica empate. Registra qué parte está realmente abierta,
 
 | ID | Tema | Explicación dominante o práctica | Alternativa fuerte | Estado | Confianza en la síntesis |
 |---|---|---|---|---|---|
+| `CONT-COSMOS-H0-001` | Tensión de Hubble | sistemáticas residuales o extensión física todavía no identificada; no hay resolución única | calibración local, modelado temprano o nueva física específica | abierta | B para la discrepancia; D para su causa |
+| `CONT-COSMOS-DARKENERGY-001` | ¿Constante cosmológica o componente dinámica? | `Λ` constante describe bien el conjunto base | `w(z)` dinámico o gravedad modificada; DESI cambia restricciones | abierta | B-COND para aceleración; D para mecanismo |
+| `CONT-COSMOS-BEGIN-001` | ¿La fase caliente fue el comienzo absoluto? | el modelo probado se detiene en un límite temprano sin afirmar ontología | inflación eterna, rebote, fase previa o comienzo cuántico | abierta y parcialmente fuera del acceso observacional | E para mecanismo exacto |
+| `CONT-COSMOS-INDEP-001` | Independencia de CMB, BAO y BBN | convergencia de observables distintos bajo una física común | calibraciones/modelo temprano compartidos inflan la apariencia de corroboración | parcialmente resuelta mediante matrices de dependencia | B |
 | `CONT-EARTH-AGE-001` | ¿Qué significa “edad de la Tierra”? | valor operacional ~4.54 Ga ligado a formación/acreción temprana | usar hitos separados: CAIs, masa acumulada, núcleo, Luna, corteza | abierta por definición, no por orden de magnitud | B |
 | `CONT-EARTH-UPB-001` | ¿Qué tan independientes son las edades radiométricas? | convergencia de múltiples minerales/sistemas | dependencia común de calibraciones, contexto y modelos | parcialmente resuelta | B |
 | `CONT-MOON-AGE-001` | Momento del impacto formador de la Luna | temprano, en primeras decenas de Ma | impacto o reequilibrio más tardío; zircones fechan corteza, no colisión | abierta | C |
 | `CONT-HADEAN-WATER-001` | ¿Había océanos a 4.4 Ga? | zircones sugieren agua superficial/corteza reciclada | señal de fuente o alteración sin océano global persistente | abierta | C |
 | `CONT-HADEAN-NGB-001` | Edad de Nuvvuagittuq | intrusiones de ~4.16 Ga y encajantes más antiguas | edades arqueanas ~3.8 Ga o edades modelo heredadas/reset | reabierta y fortalecida en 2025 | C-B-PROV |
 | `CONT-HADEAN-LHB-001` | ¿Hubo un cataclismo único a ~3.9 Ga? | episodio elevado o combinación de poblaciones | cola monótona de acreción y sesgo de muestras Apollo | abierta | D para pico único |
+
+## CONT-COSMOS-H0-001 — Dos rutas hacia la tasa actual
+
+### Datos compartidos
+
+- Planck infiere `H0=67.4±0.5 km s⁻¹ Mpc⁻¹` al ajustar CMB con `ΛCDM` base.
+- SH0ES obtiene `73.04±1.04 km s⁻¹ Mpc⁻¹` mediante anclas geométricas, Cefeidas y SN Ia.
+- Ambas rutas contienen datos de alta precisión y supuestos/calibraciones correlacionados dentro de cada cadena.
+- BAO, lentes, punta de la rama de gigantes rojas, megamasers y sirenas estándar agregan controles, pero todavía no producen una explicación única universalmente aceptada.
+
+### Familia A — Sistemática tardía
+
+La escalera puede contener un sesgo en cero de paralaje, metalicidad, mezcla de Cefeidas, fotometría, selección o conexión Cefeida–SN. Una versión fuerte debe identificar un efecto cuantitativo, no limitarse a decir “seguro hay error”.
+
+### Familia B — Sistemática/modelo temprano
+
+Primeros planos CMB, likelihoods, recombinación, calibración del horizonte sonoro o datasets asociados podrían sesgar la inferencia. Debe explicarse por qué distintos rasgos y experimentos permanecen internamente coherentes.
+
+### Familia C — Nueva física
+
+Una componente temprana, interacción, neutrinos u otra modificación puede alterar el horizonte sonoro o `H(z)`. Para ser competitiva debe resolver la discrepancia sin estropear CMB, BAO, BBN, crecimiento y supernovas.
+
+**Prueba discriminatoria:** anclas geométricas y velas/reglas/sirenas con sistemáticas realmente distintas, más predicciones fuera de los datos usados para construir la solución.
+
+## CONT-COSMOS-DARKENERGY-001 — Aceleración no identifica mecanismo
+
+Supernovas, BAO y CMB favorecen una historia tardía acelerada dentro de FLRW. La constante cosmológica `Λ` es la parametrización mínima y describe bien el conjunto base, pero su valor físico plantea problemas teóricos. Modelos con ecuación de estado `w(z)`, campos o gravedad modificada pueden imitar parte de la expansión.
+
+DESI DR2 mide con gran precisión la relación distancia–corrimiento y reporta que `ΛCDM` plano sigue describiendo bien BAO, junto con tensiones moderadas dependientes de combinación. La preferencia por energía oscura evolutiva cambia al combinar distintas compilaciones de supernovas y parametrizaciones. Por ello no se etiqueta como descubrimiento.
+
+**Prueba discriminatoria:** medir conjuntamente expansión y crecimiento de estructura en varios `z`, controlar calibraciones de supernovas, comprobar consistencia cruzada y exigir a la alternativa predicciones nuevas.
+
+## CONT-COSMOS-BEGIN-001 — Del límite matemático al origen físico
+
+Extrapolar relatividad clásica hacia atrás produce condiciones extremas y, en ciertas soluciones, una singularidad. Una singularidad indica que cantidades o geodésicas dejan de estar bien definidas en la teoría; no es una imagen instrumental del origen.
+
+### Posiciones compatibles con parte de los datos actuales
+
+- fase caliente precedida por inflación;
+- fase anterior y rebote;
+- condición cuántica sin un “antes” clásico;
+- comienzo temporal finito bajo una teoría aún no confirmada.
+
+CMB, BBN y expansión prueban principalmente la evolución posterior accesible. Modelos del borde deben recuperar esos éxitos y producir huellas discriminatorias. Mientras no lo hagan, “el tiempo empezó” permanece más débil que “existió una fase temprana caliente”.
+
+## CONT-COSMOS-INDEP-001 — Convergencia sin contar votos
+
+CMB, BAO y BBN emplean objetos e instrumentos diferentes, pero comparten expansión, densidad bariónica y física del plasma temprano. Supernovas y cúmulos estelares agregan sistemáticas más distintas, aunque también usan calibraciones de distancia y evolución estelar.
+
+La resolución de trabajo es publicar una matriz de dependencia por muestra, instrumento, calibración, principio y modelo. Repetir un análisis sobre el mismo mapa reduce errores de implementación; no crea un universo independiente.
 
 ## CONT-EARTH-AGE-001 — El “nacimiento” no es un instante observable
 

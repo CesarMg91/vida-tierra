@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="330" viewBox="0 0 1600 330" role="img" aria-labelledby="title desc">
+  <title id="title">Escala de confianza A a E</title>
+  <desc id="desc">Cinco niveles distinguen conclusiones robustas, condicionadas, plausibles, débiles y desconocidas.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#07101f"/><stop offset="1" stop-color="#111827"/></linearGradient>
+    <style>.h{font:700 32px Inter,Segoe UI,Arial,sans-serif;fill:#f8fafc}.sub{font:400 16px Inter,Segoe UI,Arial,sans-serif;fill:#94a3b8}.l{font:800 34px Inter,Segoe UI,Arial,sans-serif;fill:#07101f}.t{font:700 17px Inter,Segoe UI,Arial,sans-serif;fill:#f8fafc}.p{font:400 13px Inter,Segoe UI,Arial,sans-serif;fill:#cbd5e1}</style>
+  </defs>
+  <rect width="1600" height="330" fill="url(#bg)"/>
+  <text x="70" y="60" class="h">Confianza no significa certeza absoluta</text>
+  <text x="70" y="91" class="sub">La letra califica la frase exacta; las etiquetas como COND, PROV o LOCAL explican su alcance.</text>
+  <g transform="translate(70 135)">
+    <g><rect width="276" height="130" rx="18" fill="#12302d" stroke="#2dd4bf"/><circle cx="45" cy="45" r="27" fill="#2dd4bf"/><text x="45" y="56" text-anchor="middle" class="l">A</text><text x="85" y="42" class="t">Muy robusta</text><text x="24" y="92" class="p">Convergencia fuerte; alternativas</text><text x="24" y="113" class="p">competitivas muy restringidas.</text></g>
+    <g transform="translate(296)"><rect width="276" height="130" rx="18" fill="#163044" stroke="#38bdf8"/><circle cx="45" cy="45" r="27" fill="#38bdf8"/><text x="45" y="56" text-anchor="middle" class="l">B</text><text x="85" y="42" class="t">Fuerte</text><text x="24" y="92" class="p">Bien respaldada, con supuestos</text><text x="24" y="113" class="p">o precisión aún relevantes.</text></g>
+    <g transform="translate(592)"><rect width="276" height="130" rx="18" fill="#2d2817" stroke="#fbbf24"/><circle cx="45" cy="45" r="27" fill="#fbbf24"/><text x="45" y="56" text-anchor="middle" class="l">C</text><text x="85" y="42" class="t">Plausible</text><text x="24" y="92" class="p">Datos reales; varias inferencias</text><text x="24" y="113" class="p">o alternativas siguen abiertas.</text></g>
+    <g transform="translate(888)"><rect width="276" height="130" rx="18" fill="#39211e" stroke="#fb7185"/><circle cx="45" cy="45" r="27" fill="#fb7185"/><text x="45" y="56" text-anchor="middle" class="l">D</text><text x="85" y="42" class="t">Débil o disputada</text><text x="24" y="92" class="p">La evidencia subdetermina</text><text x="24" y="113" class="p">la formulación propuesta.</text></g>
+    <g transform="translate(1184)"><rect width="276" height="130" rx="18" fill="#2c1b2f" stroke="#c084fc"/><circle cx="45" cy="45" r="27" fill="#c084fc"/><text x="45" y="56" text-anchor="middle" class="l">E</text><text x="85" y="42" class="t">Desconocida</text><text x="24" y="92" class="p">No hay acceso suficiente o la</text><text x="24" y="113" class="p">pregunta excede el registro.</text></g>
+  </g>
+  <text x="70" y="304" class="p">Ejemplo: fase cósmica caliente = A; edad ≈13.8 Ga dentro de ΛCDM = B-COND; mecanismo exacto de un origen absoluto = E.</text>
+</svg>

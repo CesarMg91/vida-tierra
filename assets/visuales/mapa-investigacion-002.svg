@@ -1,0 +1,130 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Mapa de convergencia de la Investigación 002</title>
+  <desc id="desc">Cinco líneas observacionales convergen, mediante principios y un modelo cosmológico declarado, en una historia caliente, expansión y una edad condicional cercana a 13.8 mil millones de años.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#07101f"/>
+      <stop offset="1" stop-color="#111827"/>
+    </linearGradient>
+    <linearGradient id="model" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#14324a"/>
+      <stop offset="1" stop-color="#1f4559"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="8" stdDeviation="10" flood-color="#000" flood-opacity="0.32"/>
+    </filter>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#7dd3fc"/>
+    </marker>
+    <style>
+      .title{font:700 38px Inter,Segoe UI,Arial,sans-serif;fill:#f8fafc}
+      .subtitle{font:400 19px Inter,Segoe UI,Arial,sans-serif;fill:#94a3b8}
+      .section{font:700 16px Inter,Segoe UI,Arial,sans-serif;letter-spacing:2px;fill:#fbbf24}
+      .node-title{font:700 19px Inter,Segoe UI,Arial,sans-serif;fill:#f8fafc}
+      .node-text{font:400 15px Inter,Segoe UI,Arial,sans-serif;fill:#cbd5e1}
+      .small{font:400 13px Inter,Segoe UI,Arial,sans-serif;fill:#94a3b8}
+      .badge{font:700 14px Inter,Segoe UI,Arial,sans-serif;fill:#06121d}
+      .line{stroke:#7dd3fc;stroke-width:3;fill:none;marker-end:url(#arrow);opacity:.85}
+      .shared{stroke:#64748b;stroke-width:2;fill:none;stroke-dasharray:8 8;opacity:.7}
+    </style>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <circle cx="1470" cy="90" r="260" fill="#0ea5e9" opacity=".045"/>
+  <circle cx="70" cy="800" r="310" fill="#f59e0b" opacity=".035"/>
+
+  <text x="80" y="70" class="title">¿Cómo inferimos una historia cósmica?</text>
+  <text x="80" y="105" class="subtitle">La fuerza está en la convergencia y en hacer visibles los supuestos compartidos.</text>
+
+  <text x="80" y="155" class="section">SEÑALES ACTUALES</text>
+  <text x="630" y="155" class="section">PUENTE EXPLICATIVO</text>
+  <text x="1160" y="155" class="section">CONCLUSIONES ACOTADAS</text>
+
+  <g filter="url(#shadow)">
+    <rect x="80" y="185" width="430" height="100" rx="18" fill="#172033" stroke="#334155"/>
+    <circle cx="115" cy="220" r="17" fill="#38bdf8"/>
+    <text x="145" y="222" class="node-title">Espectros y distancias</text>
+    <text x="145" y="251" class="node-text">líneas desplazadas · paralaje · Cefeidas</text>
+    <text x="145" y="273" class="small">Mide fotones, ángulos y flujos; no “expansión”.</text>
+
+    <rect x="80" y="305" width="430" height="100" rx="18" fill="#172033" stroke="#334155"/>
+    <circle cx="115" cy="340" r="17" fill="#22d3ee"/>
+    <text x="145" y="342" class="node-title">Fondo de microondas</text>
+    <text x="145" y="371" class="node-text">espectro térmico · anisotropías · polarización</text>
+    <text x="145" y="393" class="small">Potencia por frecuencia y dirección.</text>
+
+    <rect x="80" y="425" width="430" height="100" rx="18" fill="#172033" stroke="#334155"/>
+    <circle cx="115" cy="460" r="17" fill="#a78bfa"/>
+    <text x="145" y="462" class="node-title">Deuterio primordial</text>
+    <text x="145" y="491" class="node-text">absorción D/H en gas de baja metalicidad</text>
+    <text x="145" y="513" class="small">Une espectroscopia tardía y física nuclear temprana.</text>
+
+    <rect x="80" y="545" width="430" height="100" rx="18" fill="#172033" stroke="#334155"/>
+    <circle cx="115" cy="580" r="17" fill="#fb7185"/>
+    <text x="145" y="582" class="node-title">Supernovas y BAO</text>
+    <text x="145" y="611" class="node-text">curvas de luz · correlación de galaxias</text>
+    <text x="145" y="633" class="small">Reconstruyen distancias y la forma de H(z).</text>
+
+    <rect x="80" y="665" width="430" height="100" rx="18" fill="#172033" stroke="#334155"/>
+    <circle cx="115" cy="700" r="17" fill="#fbbf24"/>
+    <text x="145" y="702" class="node-title">Estrellas antiguas</text>
+    <text x="145" y="731" class="node-text">color · luminosidad · composición · paralaje</text>
+    <text x="145" y="753" class="small">Límite inferior con sistemáticas distintas.</text>
+  </g>
+
+  <g filter="url(#shadow)">
+    <rect x="630" y="250" width="390" height="430" rx="30" fill="url(#model)" stroke="#38bdf8" stroke-width="2"/>
+    <rect x="690" y="282" width="270" height="34" rx="17" fill="#7dd3fc"/>
+    <text x="825" y="305" text-anchor="middle" class="badge">MODELO DECLARADO</text>
+    <text x="825" y="365" text-anchor="middle" class="node-title">Relatividad general + FLRW</text>
+    <text x="825" y="404" text-anchor="middle" class="node-text">factor de escala a(t)</text>
+    <text x="825" y="436" text-anchor="middle" class="node-text">materia · radiación · curvatura</text>
+    <text x="825" y="468" text-anchor="middle" class="node-text">componente de aceleración</text>
+    <path d="M690 505 H960" stroke="#94a3b8" opacity=".4"/>
+    <text x="825" y="548" text-anchor="middle" class="node-title">Ajuste conjunto</text>
+    <text x="825" y="580" text-anchor="middle" class="node-text">calibraciones + covarianzas + priors</text>
+    <text x="825" y="612" text-anchor="middle" class="node-text">comparación de historias H(z)</text>
+    <text x="825" y="648" text-anchor="middle" class="small">El modelo conecta; no sustituye a los datos.</text>
+  </g>
+
+  <path d="M510 235 C565 235 570 320 630 335" class="line"/>
+  <path d="M510 355 C570 355 575 380 630 395" class="line"/>
+  <path d="M510 475 C570 475 575 455 630 445" class="line"/>
+  <path d="M510 595 C570 595 575 535 630 520" class="line"/>
+  <path d="M510 715 C570 715 580 610 630 590" class="line"/>
+
+  <g filter="url(#shadow)">
+    <rect x="1140" y="220" width="380" height="110" rx="20" fill="#102a2e" stroke="#2dd4bf"/>
+    <rect x="1165" y="245" width="44" height="28" rx="14" fill="#2dd4bf"/>
+    <text x="1187" y="264" text-anchor="middle" class="badge">A</text>
+    <text x="1225" y="262" class="node-title">Fase caliente y densa</text>
+    <text x="1165" y="298" class="node-text">Convergencia CMB + D/H + expansión.</text>
+
+    <rect x="1140" y="355" width="380" height="110" rx="20" fill="#102a2e" stroke="#38bdf8"/>
+    <rect x="1165" y="380" width="74" height="28" rx="14" fill="#7dd3fc"/>
+    <text x="1202" y="399" text-anchor="middle" class="badge">A-COND</text>
+    <text x="1254" y="397" class="node-title">Expansión cósmica</text>
+    <text x="1165" y="433" class="node-text">Interpretación geométrica del conjunto.</text>
+
+    <rect x="1140" y="490" width="380" height="125" rx="20" fill="#2d2817" stroke="#fbbf24"/>
+    <rect x="1165" y="515" width="72" height="28" rx="14" fill="#fbbf24"/>
+    <text x="1201" y="534" text-anchor="middle" class="badge">B-COND</text>
+    <text x="1253" y="532" class="node-title">Edad ≈ 13.8 Ga</text>
+    <text x="1165" y="567" class="node-text">Precisa dentro de ΛCDM base.</text>
+    <text x="1165" y="592" class="small">No es una lectura directa del instrumento.</text>
+
+    <rect x="1140" y="640" width="380" height="125" rx="20" fill="#2c1b2f" stroke="#c084fc"/>
+    <rect x="1165" y="665" width="54" height="28" rx="14" fill="#c084fc"/>
+    <text x="1192" y="684" text-anchor="middle" class="badge">D–E</text>
+    <text x="1235" y="682" class="node-title">Origen absoluto</text>
+    <text x="1165" y="717" class="node-text">Singularidad física, “antes”, creación.</text>
+    <text x="1165" y="742" class="small">El expediente no los presenta como observados.</text>
+  </g>
+
+  <path d="M1020 350 C1080 350 1090 275 1140 275" class="line"/>
+  <path d="M1020 420 C1080 420 1090 410 1140 410" class="line"/>
+  <path d="M1020 510 C1080 510 1090 550 1140 550" class="line"/>
+  <path d="M1020 625 C1080 625 1090 700 1140 700" class="shared"/>
+
+  <rect x="80" y="815" width="1440" height="1" fill="#334155"/>
+  <text x="80" y="850" class="small">Diagrama editorial reproducible · no está a escala temporal · cada flecha representa una cadena auditable, no causalidad automática.</text>
+</svg>

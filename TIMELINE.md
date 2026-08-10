@@ -1,14 +1,24 @@
 # Cronología maestra
 
-Versión semilla 0.1; corte de fuentes: **2026-08-10**. Ordena la investigación desde los primeros sólidos solares hasta civilizaciones tempranas. No todos los renglones están auditados al mismo nivel: `AUDITADO/TRAZADO` enlaza registros existentes; `SEMILLA` es una hipótesis de navegación que deberá convertirse en claim.
+Versión 0.2; corte de fuentes: **2026-08-10**. Ordena la investigación desde la historia cósmica reconstruible hasta civilizaciones tempranas. No todos los renglones están auditados al mismo nivel: `AUDITADO/TRAZADO` enlaza registros existentes; `SEMILLA` es una hipótesis de navegación que deberá convertirse en claim.
 
 ## Cómo leerla
 
 - `Ma` y `Ga` expresan tiempo antes del presente geológico.
+- En cosmología, “hace ~13.8 Ga” es una edad integrada bajo un modelo de expansión; “minutos después” o “380 ka después” usa tiempo transcurrido desde el límite temprano convencional del modelo.
 - `~` significa aproximado; un rango no es una distribución de probabilidad.
 - En Fanerozoico y Ediacárico, los límites formales se definen por GSSP físicos; la edad numérica es una calibración revisable.
 - Una primera aparición fósil es un **mínimo** para el origen del linaje, no el instante evolutivo exacto.
 - La confianza evalúa la formulación escrita, especialmente su precisión temporal.
+
+## 0. Historia cósmica anterior al Sistema Solar
+
+| ID | Fecha/intervalo | Evento delimitado | Incertidumbre y qué fecha | Evidencia principal | Fuente | Confianza | Estado |
+|---|---:|---|---|---|---|---|---|
+| `TIME-COSMOS-HOT-001` | edad integrada ~13.8 Ga | límite temprano de la historia caliente reconstruida con `ΛCDM` base | edad derivada de `H(z)` y parámetros; no prueba creación absoluta | CMB, expansión, BAO, supernovas | `SRC-PLANCK-2020`, `SRC-RIESS-1998`, `SRC-PERLMUTTER-1999` | B-COND para edad; A para fase caliente | AUDITADO |
+| `TIME-COSMOS-BBN-001` | primeros minutos del modelo térmico | producción primordial de núcleos ligeros | intervalo calculado por tasas nucleares y expansión; no observado en tiempo real | D/H en gas poco procesado + física nuclear | `SRC-COOKE-2018` | B-COND | TRAZADO |
+| `TIME-COSMOS-CMB-001` | ~380 ka después de la fase inicial convencional | desacoplamiento del CMB/última dispersión | época inferida por recombinación y espectro angular; el fotón se mide hoy | espectro y anisotropías CMB | `SRC-MATHER-1994`, `SRC-SMOOT-1992`, `SRC-PLANCK-2020` | A para CMB; B-COND para época | AUDITADO |
+| `TIME-COSMOS-ACCEL-001` | últimos varios Ga | la expansión tardía pasa a estar dominada por aceleración en el modelo base | transición dependiente de parámetros y forma de energía oscura | SN Ia, BAO, CMB | `SRC-RIESS-1998`, `SRC-PERLMUTTER-1999`, `SRC-DESI-DR2-2025` | B-COND | TRAZADO |
 
 ## I. Sistema Solar y Tierra temprana
 
@@ -100,4 +110,4 @@ En esta sección una fecha arqueológica no demuestra por sí sola “propiedad�
 
 ## Próxima acción cronológica
 
-La única investigación extensa de esta versión es `INV-EARTH-AGE-001`. El siguiente trabajo debe continuar con `INV-COSMOS-ELEMENTS-001` y `INV-SOLAR-FORMATION-001`, o ampliar primero las pruebas metrológicas de Investigación 001; no debe saltar directamente al Ediacárico.
+Las investigaciones extensas auditadas son `INV-EARTH-AGE-001` e `INV-COSMOS-AGE-001`. El siguiente trabajo debe continuar con `INV-COSMOS-ELEMENTS-001`, `INV-COSMOS-STARS-001` y `INV-SOLAR-FORMATION-001`; no debe saltar directamente al Ediacárico.

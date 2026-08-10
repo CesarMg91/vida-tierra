@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="440" viewBox="0 0 1600 440" role="img" aria-labelledby="title desc">
+  <title id="title">Cadena de inferencia del proyecto</title>
+  <desc id="desc">Una afirmación sobre el pasado debe recorrer objeto, señal, medición, principio, modelo, inferencia y conclusión, con calibraciones y falsadores visibles.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#07101f"/><stop offset="1" stop-color="#111827"/></linearGradient>
+    <filter id="s"><feDropShadow dx="0" dy="6" stdDeviation="7" flood-opacity=".3"/></filter>
+    <marker id="a" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto"><path d="M0 0 L0 6 L9 3z" fill="#7dd3fc"/></marker>
+    <style>
+      .h{font:700 34px Inter,Segoe UI,Arial,sans-serif;fill:#f8fafc}.sub{font:400 17px Inter,Segoe UI,Arial,sans-serif;fill:#94a3b8}
+      .t{font:700 17px Inter,Segoe UI,Arial,sans-serif;fill:#f8fafc}.p{font:400 13px Inter,Segoe UI,Arial,sans-serif;fill:#cbd5e1}
+      .arrow{stroke:#7dd3fc;stroke-width:3;marker-end:url(#a)}.loop{stroke:#fbbf24;stroke-width:2;fill:none;stroke-dasharray:7 7;marker-end:url(#a)}
+    </style>
+  </defs>
+  <rect width="1600" height="440" fill="url(#bg)"/>
+  <text x="70" y="65" class="h">De una huella actual a una afirmación sobre el pasado</text>
+  <text x="70" y="98" class="sub">Cada salto debe declarar instrumento, calibración, supuesto, incertidumbre y prueba de fallo.</text>
+  <g filter="url(#s)">
+    <g transform="translate(70 155)"><rect width="180" height="105" rx="18" fill="#172033" stroke="#38bdf8"/><text x="90" y="42" text-anchor="middle" class="t">OBJETO</text><text x="90" y="70" text-anchor="middle" class="p">muestra · cielo · fósil</text></g>
+    <g transform="translate(285 155)"><rect width="180" height="105" rx="18" fill="#172033" stroke="#38bdf8"/><text x="90" y="42" text-anchor="middle" class="t">SEÑAL</text><text x="90" y="70" text-anchor="middle" class="p">fotones · iones · capas</text></g>
+    <g transform="translate(500 155)"><rect width="180" height="105" rx="18" fill="#172033" stroke="#38bdf8"/><text x="90" y="42" text-anchor="middle" class="t">MEDICIÓN</text><text x="90" y="70" text-anchor="middle" class="p">valor + incertidumbre</text></g>
+    <g transform="translate(715 155)"><rect width="180" height="105" rx="18" fill="#172033" stroke="#a78bfa"/><text x="90" y="42" text-anchor="middle" class="t">PRINCIPIO</text><text x="90" y="70" text-anchor="middle" class="p">ley sometida a prueba</text></g>
+    <g transform="translate(930 155)"><rect width="180" height="105" rx="18" fill="#1f3446" stroke="#fbbf24"/><text x="90" y="42" text-anchor="middle" class="t">MODELO</text><text x="90" y="70" text-anchor="middle" class="p">supuestos declarados</text></g>
+    <g transform="translate(1145 155)"><rect width="180" height="105" rx="18" fill="#172033" stroke="#2dd4bf"/><text x="90" y="42" text-anchor="middle" class="t">INFERENCIA</text><text x="90" y="70" text-anchor="middle" class="p">comparar alternativas</text></g>
+    <g transform="translate(1360 155)"><rect width="170" height="105" rx="18" fill="#15312f" stroke="#2dd4bf"/><text x="85" y="42" text-anchor="middle" class="t">CLAIM</text><text x="85" y="70" text-anchor="middle" class="p">frase acotada A–E</text></g>
+  </g>
+  <g class="arrow"><line x1="250" y1="207" x2="280" y2="207"/><line x1="465" y1="207" x2="495" y2="207"/><line x1="680" y1="207" x2="710" y2="207"/><line x1="895" y1="207" x2="925" y2="207"/><line x1="1110" y1="207" x2="1140" y2="207"/><line x1="1325" y1="207" x2="1355" y2="207"/></g>
+  <path d="M1445 275 C1445 370 815 390 815 275" class="loop"/>
+  <rect x="845" y="333" width="570" height="42" rx="21" fill="#07101f" opacity=".94"/>
+  <text x="1130" y="356" text-anchor="middle" class="sub">falsadores, anomalías y replicación regresan contra la cadena</text>
+  <text x="70" y="414" class="p">La autoridad de una fuente ayuda a localizar evidencia; no reemplaza este recorrido.</text>
+</svg>

@@ -5,41 +5,45 @@ Este mapa separa una jerarquía narrativa de una red epistemológica. La primera
 ## Jerarquía cronológica y biológica
 
 ```text
-COSMOS Y SISTEMA SOLAR
-└── sólidos nebulares y planetesimales
-    └── TIERRA–LUNA
-        ├── núcleo, manto, corteza, océanos y atmósfera
-        └── VIDA
-            ├── replicación, metabolismo y membranas
-            ├── procariotas
-            │   └── fotosíntesis y oxigenación
-            └── eucariotas
-                ├── sexo y multicelularidad
-                └── ANIMALES
-                    ├── sistemas nerviosos, ojos y esqueletos
-                    └── VERTEBRADOS
-                        ├── mandíbulas y extremidades
-                        └── AMNIOTAS
-                            ├── reptiles y aves
-                            └── MAMÍFEROS
-                                └── PRIMATES
-                                    └── HOMININOS
-                                        └── HOMO
-                                            └── HOMO SAPIENS
-                                                ├── migraciones y mezcla
-                                                ├── lenguaje, símbolos y cooperación
-                                                └── CIVILIZACIONES
-                                                    ├── agricultura y ciudades
-                                                    ├── escritura, estados y leyes
-                                                    └── Mesopotamia, Egipto, Indo,
-                                                        China, Mesoamérica y Andes
+COSMOS
+├── expansión y fondo cósmico
+├── nucleosíntesis primordial
+└── estrellas y elementos
+    └── SISTEMA SOLAR
+        └── sólidos nebulares y planetesimales
+            └── TIERRA–LUNA
+                ├── núcleo, manto, corteza, océanos y atmósfera
+                └── VIDA
+                    ├── replicación, metabolismo y membranas
+                    ├── procariotas
+                    │   └── fotosíntesis y oxigenación
+                    └── eucariotas
+                        ├── sexo y multicelularidad
+                        └── ANIMALES
+                            ├── sistemas nerviosos, ojos y esqueletos
+                            └── VERTEBRADOS
+                                ├── mandíbulas y extremidades
+                                └── AMNIOTAS
+                                    ├── reptiles y aves
+                                    └── MAMÍFEROS
+                                        └── PRIMATES
+                                            └── HOMININOS
+                                                └── HOMO
+                                                    └── HOMO SAPIENS
+                                                        ├── migraciones y mezcla
+                                                        ├── lenguaje, símbolos y cooperación
+                                                        └── CIVILIZACIONES
+                                                            ├── agricultura y ciudades
+                                                            ├── escritura, estados y leyes
+                                                            └── Mesopotamia, Egipto, Indo,
+                                                                China, Mesoamérica y Andes
 ```
 
 ## Navegación por módulos
 
 | Nodo | Directorio principal | Preguntas de evidencia |
 |---|---|---|
-| Cosmos y Sistema Solar | `01_cosmos` | ¿Cómo se observan formación estelar, nucleosíntesis y discos? ¿Qué registran meteoritos? |
+| Cosmos y Sistema Solar | `01_cosmos` | ¿Cómo se miden expansión, CMB, abundancias, formación estelar, nucleosíntesis y discos? ¿Qué depende del modelo? |
 | Formación terrestre | `02_formacion_tierra` | ¿Qué fecha cada reloj? ¿Cómo se infieren acreción, núcleo y Luna? |
 | Hadeano | `03_hadeano` | ¿Qué conservan zircones, rocas raras y la Luna? |
 | Arcaico | `04_arcaico` | ¿Qué evidencia de corteza, océanos y vida sobrevive? |
@@ -100,7 +104,19 @@ flowchart TD
 
 ## Ruta epistemológica actual
 
-La primera ruta implementada es:
+Las rutas implementadas son:
+
+```text
+espectros y distancias ─┐
+CMB espectral/anisótropo ├→ FLRW + física térmica → fase caliente y expansión
+deuterio primordial ─────┤                          → H(z) → edad ~13.8 Ga (B-COND)
+supernovas y BAO ─────────┤
+edades estelares ─────────┘
+```
+
+Véase `INV-COSMOS-AGE-001` en `01_cosmos` y su mapa en `assets/visuales/mapa-investigacion-002.svg`.
+
+La ruta terrestre es:
 
 ```text
 CAIs y meteoritos
