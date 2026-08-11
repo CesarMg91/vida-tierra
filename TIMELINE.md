@@ -171,7 +171,11 @@ Los límites numéricos siguen `SRC-ICS-2026` (tabla 2026/06). La evidencia de c
 | `TIME-POLLINATION-CRETACEOUS-001` | ~105 Ma gimnosperma; ~99–98.17 Ma angiosperma | contacto directo de insectos con polen y alimentación/transporte cretácicos | asociación local; eficacia y efecto macroevolutivo separados | `SRC-PENALVER-POLLINATION-2015`, `SRC-BAO-POLLINATION-2019`, `SRC-TIHELKA-POLLINIVORY-2021` | A-B local | AUDITADO |
 | `TIME-CRETACEOUS-BIRDS-001` | `Ichthyornis` en Cretácico tardío; `Vegavis` 69.2–68.4 Ma; `Asteriornis` ~66.7 Ma | mosaico craneal y mínimos fósiles de aves corona tardías | caracteres, matriz y definición; posiciones finas/edad de corona abiertas | `SRC-FIELD-ICHTHYORNIS-2018`, `SRC-FIELD-ASTERIORNIS-2020`, `SRC-TORRES-VEGAVIS-2025` | A-B anatomía; B-COND corona | AUDITADO |
 | `TIME-CRETACEOUS-MAMMAL-RADIATION-001` | ≥20 Myr pre-K–Pg multituberculados; 10–20 Myr pre-K–Pg terios | radiaciones dentales/ecomorfológicas antes de la crisis | dieta y disparidad no equivalen a dominancia; vínculo angiospérmico condicionado | `SRC-WILSON-MULTITUBERCULATE-2012`, `SRC-GROSSNICKLE-THERIANS-2016` | B-COND | AUDITADO |
-| `TIME-KPG-001` | 66.0 Ma | límite K–Pg y extinción masiva | GSSP, capa de impacto y calibración | iridio, cuarzo chocado, esférulas, Chicxulub, fósiles | `SRC-SCHULTE-2010`, `SRC-ICS-2026` | A para impacto/límite; B causalidad dominante | SEMILLA |
+| `TIME-KPG-001` | 66.0 Ma | base daniense, impacto Chicxulub y pulso de extinción estrechamente correlacionados | GSSP en base de arcilla; eyección suprayacente; edad no sustituye orden subanual | `SRC-ICS-DANIAN-2026`, `SRC-SCHULTE-2010`, `SRC-GODERIS-IRIDIUM-2021` | A límite/impacto; B causalidad dominante | AUDITADO |
+| `TIME-KPG-DECCAN-001` | `~66.31–65.73 Ma` en recalibración 2025; pulsos a ambos lados bajo otros relojes | actividad Deccan próxima a K–Pg | U–Pb, `40Ar/39Ar`, correlación y volumen asignan fracciones distintas; lava no es gas | `SRC-SCHOENE-DECCAN-2019`, `SRC-SPRAIN-DECCAN-2019`, `SRC-KALE-DECCAN-2025` | B-COND | AUDITADO |
+| `TIME-KPG-WINTER-001` | horas–décadas según proceso; oscuridad crítica meses–años | pulso térmico, deposición y «invierno de impacto» | inventarios de polvo/sulfato/hollín y modelos controlan magnitud/duración | `SRC-GULICK-FIRST-DAY-2019`, `SRC-SENEL-DUST-2023`, `SRC-JOHNSON-FIRE-2026` | A-B orden local; C-COND curva global | AUDITADO |
+| `TIME-KPG-MARINE-RECOVERY-001` | años–decenas de kyr para presencia/producción; más para exportación | recuperación marina heterocrónica | núcleos, boro, carbono, microfósiles y modelos miden variables distintas | `SRC-HENEHAN-OCEAN-2019`, `SRC-YING-KPG-2026`, `SRC-LOWERY-CHICXULUB-2018` | B-COND | AUDITADO |
+| `TIME-KPG-CONTINENTAL-RECOVERY-001` | `~100–300 kyr` para fases tempranas; reorganización durante el primer Myr | expansión escalonada de mamíferos y floras | serie de Corral Bluffs integra fósiles, polen, magnetismo y cenizas | `SRC-LYSON-RECOVERY-2019` | B-COND regional | AUDITADO |
 
 ## IV. Cenozoico, homininos y Homo sapiens
 
@@ -209,4 +213,4 @@ En esta sección una fecha arqueológica no demuestra por sí sola “propiedad�
 
 ## Próxima acción cronológica
 
-Las investigaciones extensas auditadas llegan de `INV-EARTH-AGE-001` a `INV-CRETACEOUS-001`. El siguiente trabajo es K–Pg: deberá separar el GSSP de El Kef, eyección/Chicxulub, pulsos Deccan, forzamientos ambientales, selectividad biológica y recuperación en relojes comparables.
+Las investigaciones extensas auditadas llegan de `INV-EARTH-AGE-001` a `INV-KPG-001`. El siguiente trabajo es el Paleógeno: deberá separar recuperación pos-K–Pg, radiaciones mamalianas, primeros primates, transición terrestre–acuática de cetáceos y el PETM en relojes y regiones comparables.

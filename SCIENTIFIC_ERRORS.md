@@ -224,6 +224,20 @@ El propósito no es presentar la ciencia como una sucesión de fracasos ni como 
 | `ERR-CRETACEOUS-REPENOMAMUS-HUNT-001` | contenido abdominal filma una caza | consumo convertido en conducta | «consumió» separado de captura/carroñeo | DOCUMENTADO |
 | `ERR-CRETACEOUS-EUTHERIAN-PLACENTAL-001` | euterio significa placentario moderno | tallo euterio confundido con corona | Eutheria/Placentalia y rasgos separados | DOCUMENTADO |
 | `ERR-CRETACEOUS-LAURASIA-WORLD-001` | el registro norteño representa todos los mamíferos | sesgo geográfico convertido en patrón mundial | fósiles gondwánicos y detectabilidad incorporados | DOCUMENTADO |
+| `ERR-KPG-66-CAUSE-001` | `66.0 Ma` es la causa de la extinción | calibración convertida en mecanismo | lecho, evento, forzamiento y fósiles separados | DOCUMENTADO |
+| `ERR-KPG-IRIDIUM-CRATER-001` | iridio por sí solo identifica Chicxulub | procedencia convertida en ubicación | choque, ejecta, geofísica, edad y núcleo cruzados | DOCUMENTADO |
+| `ERR-KPG-CRATER-VISIBLE-001` | Chicxulub es un cráter abierto visible | ilustración convertida en geografía actual | estructura enterrada/parcialmente marina representada | DOCUMENTADO |
+| `ERR-KPG-IMPACTOR-VOLATILES-001` | el asteroide aportó todos los gases | composición del proyectil convertida en inventario | objetivo, biomasa y aerosoles separados | DOCUMENTADO |
+| `ERR-KPG-LAVA-GAS-001` | más lava significa proporcionalmente más gas | volumen convertido en tasa/emisión | inclusiones, intrusiones, especie y altura requeridas | DOCUMENTADO |
+| `ERR-KPG-DECCAN-COINCIDENCE-001` | Deccan coincidió, por tanto causó todo | proximidad convertida en atribución | sincronía, magnitud, selectividad y contrafactual | DOCUMENTADO |
+| `ERR-KPG-DECCAN-TRIGGERED-001` | Chicxulub inició Deccan | modulación plausible convertida en origen | actividad previa y cronología explícitas | DOCUMENTADO |
+| `ERR-KPG-MODEL-MEASUREMENT-001` | hubo exactamente 15 años de polvo y 15 °C de frío | salida condicionada convertida en observación | inputs, rango y sensibilidad declarados | DOCUMENTADO |
+| `ERR-KPG-GLOBAL-FIRE-001` | todo bosque del planeta ardió | potencial/modelo y señales locales globalizados | cobertura, facies y umbrales auditados | DOCUMENTADO |
+| `ERR-KPG-ACID-CALCIFIER-001` | todo calcificador murió por acidificación | rasgo compartido convertido en causa universal | pH, luz, energía, hábitat y mineralogía separados | DOCUMENTADO |
+| `ERR-KPG-75-PERCENT-001` | desapareció 75 % de cada grupo | promedio mundial transferido a todo denominador | taxón, región, métrica y ventana declarados | DOCUMENTADO |
+| `ERR-KPG-SURVIVOR-TRAIT-001` | ser pequeño o terrestre garantizó sobrevivir | asociación de rasgo convertida en regla | distribución, covariables y excepciones conservadas | DOCUMENTADO |
+| `ERR-KPG-DINOSAUR-DECLINE-001` | todos los dinosaurios ya agonizaban | curva/modelo regional convertido en censo mundial | roca, provincia y modelos rivales comparados | DOCUMENTADO |
+| `ERR-KPG-RECOVERY-DATE-001` | la biosfera se recuperó en una fecha | variables ecológicas colapsadas | presencia, función, riqueza, red y región separadas | DOCUMENTADO |
 | `ERR-LUNAR-APOLLO-INDEPENDENT-001` | tratar sitios Apollo como testigos independientes | ejecta local y sin transporte global | cartografía, Th, geoquímica y escalado de Imbrium | DOCUMENTADO |
 | `ERR-IMPACT-MOON-EARTH-001` | convertir cronología lunar en esterilización terrestre | escala constante de tasa y efecto | dinámica, hidrocodes, atmósfera/océano y archivo terrestre | DOCUMENTADO |
 | `ERR-LUNAR-ABSENCE-001` | “sin fundido antiguo” = “sin impacto antiguo” | supervivencia uniforme hacia atrás | sesgo de preservación y evidencia positiva `4.22–4.33 Ga` | DOCUMENTADO |
@@ -2025,3 +2039,115 @@ Separar Eutheria/Placentalia y Metatheria/Marsupialia en texto, árboles e imág
 ### Corrección
 
 Mapear geografía, placas, facies y detectabilidad antes de extrapolar diversidad mundial.
+
+## ERR-KPG-66-CAUSE-001 — `66.0 Ma` explica la extinción
+
+La cifra calibra una frontera; no contiene agente ni mecanismo.
+
+### Corrección
+
+Vincular sección, ejecta, cráter, forzamientos y patrón fósil con incertidumbres propias.
+
+## ERR-KPG-IRIDIUM-CRATER-001 — El iridio identifica un cráter por sí solo
+
+Iridio favorece aporte extraterrestre, pero no entrega ubicación, tamaño o edad exacta.
+
+### Corrección
+
+Exigir minerales de choque, geometría, roca fundida, edad y vínculo estratigráfico.
+
+## ERR-KPG-CRATER-VISIBLE-001 — Chicxulub es un agujero abierto
+
+La estructura está enterrada bajo sedimentos y parcialmente bajo mar; una portada expuesta falsea el archivo.
+
+### Corrección
+
+Representar sección geofísica y núcleo, no un volcán/caldera superficial.
+
+## ERR-KPG-IMPACTOR-VOLATILES-001 — El asteroide trajo todos los gases
+
+Una condrita relativamente seca no elimina volátiles: roca objetivo, sulfatos/carbonatos y biomasa contribuyen.
+
+### Corrección
+
+Cerrar balances por reservorio y no transferir composición a forzamiento sin mecanismo.
+
+## ERR-KPG-LAVA-GAS-001 — El volumen de lava es el volumen de gas
+
+Desgasificación puede ocurrir antes, entre pulsos o en intrusiones no expuestas.
+
+### Corrección
+
+Separar volumen, contenido inicial, pérdida, especie química, tasa y altura de inyección.
+
+## ERR-KPG-DECCAN-COINCIDENCE-001 — Coincidencia significa causa total
+
+Deccan cruza K–Pg, pero el impacto coincide más estrechamente con ejecta y pulso de pérdida.
+
+### Corrección
+
+Comparar sincronía, magnitud, selectividad y predicciones contrafactuales.
+
+## ERR-KPG-DECCAN-TRIGGERED-001 — Chicxulub inició Deccan
+
+La provincia llevaba erupcionando antes. La hipótesis propone cambio de ritmo o estilo, no origen.
+
+### Corrección
+
+Usar «pudo modular» y declarar qué cambio y qué desfase se prueban.
+
+## ERR-KPG-MODEL-MEASUREMENT-001 — Quince años y quince grados fueron medidos
+
+Son salidas máximas de un modelo alimentado por inventarios y granulometría.
+
+### Corrección
+
+Nombrar input, escenario, rango, sensibilidad y observable fósil que lo confronta.
+
+## ERR-KPG-GLOBAL-FIRE-001 — Cada bosque ardió
+
+Potencial térmico, carbón local y hollín no cartografían automáticamente la cobertura planetaria.
+
+### Corrección
+
+Separar ignición posible, evidencia de combustión, extensión y contribución atmosférica.
+
+## ERR-KPG-ACID-CALCIFIER-001 — Calcificador equivale a víctima de pH
+
+Calcificadores con ecologías, tamaños y hábitats distintos tuvieron destinos diferentes.
+
+### Corrección
+
+Comparar química, luz, alimentación, profundidad, mineralogía y distribución.
+
+## ERR-KPG-75-PERCENT-001 — `75 %` de cada grupo desapareció
+
+La cifra global resume estimaciones de especies; no se transfiere a individuos, géneros o funciones.
+
+### Corrección
+
+Declarar denominador, taxonomía, región, ventana y corrección de muestreo.
+
+## ERR-KPG-SURVIVOR-TRAIT-001 — Un rasgo garantizó supervivencia
+
+Talla, dieta o sustrato cambian probabilidades junto con distribución y azar demográfico.
+
+### Corrección
+
+Analizar distribuciones y excepciones; evitar convertir supervivientes en recetas.
+
+## ERR-KPG-DINOSAUR-DECLINE-001 — Todos ya estaban en decadencia
+
+Los modelos discrepan y Nuevo México conserva una fauna diversa muy tardía.
+
+### Corrección
+
+Separar tendencia regional prefrontera de desaparición global en la frontera.
+
+## ERR-KPG-RECOVERY-DATE-001 — La biosfera volvió en una fecha
+
+Presencia, productividad, riqueza, disparidad, red y exportación tienen relojes diferentes.
+
+### Corrección
+
+Nombrar variable, línea base, región y resolución antes de fechar recuperación.

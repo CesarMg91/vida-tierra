@@ -667,3 +667,31 @@ esqueleto/diente + rasgo + árbol ────> nicho/radiación mamaliana ─�
 La arquitectura conserva nueve relojes: límites, fósiles de angiospermas, divergencia molecular, expansión funcional, interacciones, tasas de insectos, mosaicos avialanos, aves corona y radiaciones mamalianas. El límite K–Pg cierra el intervalo, pero sus mecanismos y selectividad se reservan para la Investigación 031.
 
 Véase `INV-CRETACEOUS-001` en `07_mesozoico`, su mapa en `assets/visuales/mapa-investigacion-030.svg` y la doble cadena en `assets/visuales/de-polen-a-red-y-de-caracter-a-corona.svg`.
+
+### Investigación 031 — Impacto, Deccan, extinción y recuperación K–Pg
+
+```text
+El Kef + tabla ICS ────────────────> límite formal ──────────────────┐
+iridio + choque + esférulas ──────> ejecta extraterrestre ──────────┤
+geofísica + pozos + núcleo ───────> Chicxulub ──────────────────────┼──> impacto enlazado
+Ir dentro del cráter ─────────────> prueba recíproca ───────────────┘
+                                            └── evento no equivale a mecanismo completo
+
+U–Pb + 40Ar/39Ar + volumen ───────> pulsos Deccan ──────────────────┐
+gases + GDGT + carbono ───────────> respuesta ambiental ────────────┼──> contribución condicionada
+energía sísmica + estilo eruptivo → interacción posible ────────────┘
+                                            └── lava no equivale a emisión
+
+partículas + transporte radiativo → luz / temperatura ──────────────┐
+boro + carbono + fósiles ─────────> pH / producción / exportación ──┼──> mecanismos comparables
+rasgos + energía + ocurrencias ───> selectividad ───────────────────┘
+                                            └── modelo no equivale a medición mundial
+
+presencia + biomasa + riqueza ────> relojes de recuperación ────────┐
+disparidad + red + exportación ───> función y complejidad ───────────┘
+                                            └── no existe una fecha sin variable
+```
+
+La arquitectura conserva seis relojes. El vínculo Chicxulub–K–Pg alcanza confianza alta por triangulación; Deccan cruza la frontera pero su volumen por pulso y desgasificación siguen discutidos. La oscuridad conecta mejor el forzamiento con varios filtros fósiles, mientras calor, fuego, acidificación y estrés previo conservan contribuciones condicionadas. La recuperación se distribuye entre años y millones de años según objeto y región.
+
+Véase `INV-KPG-001` en `07_mesozoico`, su mapa en `assets/visuales/mapa-investigacion-031.svg` y la doble cadena en `assets/visuales/de-anomalia-a-impacto-y-de-forzamiento-a-extincion.svg`.

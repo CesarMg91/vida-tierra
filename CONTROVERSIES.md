@@ -221,6 +221,19 @@ Una controversia no implica empate. Registra qué parte está realmente abierta,
 | `CONT-CRETACEOUS-MAMMAL-RADIATION-001` | ¿Qué impulsó radiaciones mamalianas tardías? | nuevos recursos angiospérmicos son compatibles | clima, tectónica y muestreo covarían | abierta en pesos | B patrón; C-D causa |
 | `CONT-CRETACEOUS-PLACENTALIA-001` | ¿Placentalia antecede K–Pg? | relojes favorecen divergencias cretácicas | matrices sitúan euterios cretácicos fuera de corona | abierta por calibración/topología | C-D |
 | `CONT-CRETACEOUS-GONDWANATHERIA-001` | ¿Dónde se anida Gondwanatheria? | anatomía apoya un aloterio distintivo | relación con multituberculados cambia entre matrices | abierta en posición fina | A-B anatomía; C-COND árbol |
+| `CONT-KPG-BOUNDARY-EVENT-001` | ¿Coinciden exactamente lecho, impacto y pulso fósil? | correlación mundial y GSSP los aproximan estrechamente | posición formal de eyección y resolución varían | vínculo robusto; orden fino abierto | A-B |
+| `CONT-KPG-IMPACTOR-001` | ¿Qué tipo de asteroide impactó? | Ru/Ni favorecen material carbonáceo y CO | mezcla, grupos no muestreados y fraccionamiento | carbonáceo robusto; subtipo provisional | B-PROV |
+| `CONT-KPG-DECCAN-VOLUME-001` | ¿Qué volumen Deccan salió antes de K–Pg? | todos los relojes cruzan el límite | correlaciones/volúmenes asignan mayoría a lados distintos | abierta cuantitativamente | B-COND |
+| `CONT-KPG-DECCAN-GAS-001` | ¿Cuándo salieron los gases climáticamente activos? | proxies registran cambios pre y posfrontera | lava, intrusión y desgasificación no son proporcionales | abierta por especie/tasa | B-COND |
+| `CONT-KPG-DECCAN-CAUSE-001` | ¿Deccan causó o preparó la extinción? | perturbó clima/carbono y coincide temporalmente | pulso fósil/impacto y retorno prefrontera debilitan dominancia | impacto dominante; contribución abierta | A impacto; B-C peso |
+| `CONT-KPG-IMPACT-DECCAN-001` | ¿Chicxulub aceleró Deccan? | energía sísmica y cambios de estilo son compatibles | provincia ya activa y cronología no prueba respuesta | plausible, no demostrada | C-COND |
+| `CONT-KPG-DUST-001` | ¿Qué aerosol dominó el invierno? | polvo, sulfato y hollín reducen radiación | inventarios, agregación y vidas atmosféricas difieren | oscuridad robusta; reparto abierto | B mecanismo; C pesos |
+| `CONT-KPG-FIRE-001` | ¿Hubo incendios mundiales? | carbón/hollín locales y modelos permiten extensión enorme | cobertura del registro y umbrales de ignición incompletos | extensos probables; globalidad abierta | B local; C-PROV global |
+| `CONT-KPG-ACIDIFICATION-001` | ¿La acidificación fue motor primario marino? | boro registra caída rápida de pH | modelo de rasgos reproduce selectividad con oscuridad | perturbación robusta; peso abierto | B pH; C causa |
+| `CONT-KPG-MARINE-MECHANISM-001` | ¿Luz, frío o hambre explican la selectividad? | fósiles/modelo favorecen pérdida de luz y energía | rasgos/mineralogía y archivos profundos incompletos | oscuridad fuerte; detalles abiertos | B-COND |
+| `CONT-KPG-DINOSAUR-DECLINE-001` | ¿Declinaban los dinosaurios antes del impacto? | algunos modelos recuperan caída campaniense | otros no y Nuevo México conserva diversidad terminal | abierta por región/modelo | B local; C-D global |
+| `CONT-KPG-TERRESTRIAL-GLOBALITY-001` | ¿Los filtros terrestres fueron mundiales? | bosque, aves y mamíferos muestran patrones coherentes | muestreo se concentra en Norteamérica | mecanismos plausibles; frecuencias abiertas | B regional; C global |
+| `CONT-KPG-RECOVERY-001` | ¿Cuándo terminó la crisis? | varios archivos muestran retorno temprano | presencia, producción, riqueza y red no coinciden | no existe una fecha sin variable | A-SEM; B-COND tiempos |
 
 ## CONT-COSMOS-H0-001 — Dos rutas hacia la tasa actual
 
@@ -1692,3 +1705,81 @@ Matrices morfológicas han colocado euterios cretácicos fuera de Placentalia; r
 `Vintana` y `Adalatherium` aportan anatomía excepcional, pero Gondwanatheria puede moverse respecto de Multituberculata y otros aloterios al cambiar matrices.
 
 **Prueba discriminatoria:** esqueletos asociados de otras regiones/edades con dentición, cráneo, oído y postcráneo codificables en matrices comunes.
+
+## CONT-KPG-BOUNDARY-EVENT-001 — Un lecho formal y varios pulsos físicos
+
+El GSSP está en la base de la arcilla; la eyección queda encima. Resolución sedimentaria, bioturbación y correlación limitan el orden subanual.
+
+**Prueba discriminatoria:** secciones de sedimentación alta y núcleos con marcadores múltiples que reproduzcan el mismo orden.
+
+## CONT-KPG-IMPACTOR-001 — De carbonáceo a condrita CO
+
+Ni isotópico de 2026 estrecha la familia propuesta, pero el ejecta es una mezcla minúscula y los meteoritos conocidos no agotan los reservorios.
+
+**Prueba discriminatoria:** replicación independiente con Ni, Ru, Cr y otros sistemas en varias secciones.
+
+## CONT-KPG-DECCAN-VOLUME-001 — Mayoría antes o después
+
+U–Pb, `40Ar/39Ar` y una recalibración espacial asignan volúmenes diferentes a cada lado del límite. Los relojes no miden exactamente los mismos objetos.
+
+**Prueba discriminatoria:** malla de edades intercaladas y volúmenes 3D con correlaciones publicadas y propagación común de incertidumbre.
+
+## CONT-KPG-DECCAN-GAS-001 — Una colada no es una emisión
+
+Azufre y carbono pueden desgasificarse antes, durante o entre pulsos efusivos; intrusiones ocultas alteran el balance.
+
+**Prueba discriminatoria:** inclusiones, petrología y proxies globales que cierren masa y tasa por intervalo.
+
+## CONT-KPG-DECCAN-CAUSE-001 — Contexto, sinergia o motor
+
+Deccan produjo cambios ambientales reales. La sincronía estrecha entre Chicxulub y el pulso fósil, más el retorno de un enfriamiento previo, favorece impacto dominante.
+
+**Prueba discriminatoria:** un pulso de gases fechado que reproduzca magnitud, abruptidad y selectividad sin depender del impacto.
+
+## CONT-KPG-IMPACT-DECCAN-001 — ¿Un terremoto planetario cambió las erupciones?
+
+La densidad de energía modelada hace posible una respuesta magmática. La provincia, sin embargo, ya estaba activa y una coincidencia de estilo no identifica el mecanismo.
+
+**Prueba discriminatoria:** cambio sincrónico y repetible en varios centros con respuesta prevista por estado del reservorio.
+
+## CONT-KPG-DUST-001 — Polvo, sulfato o hollín
+
+Cada componente bloquea luz durante tiempos distintos. El polvo fino medido elevó su papel; agregación e inventario global pueden reducirlo.
+
+**Prueba discriminatoria:** distribuciones granulométricas globales y modelos que reproduzcan simultáneamente temperatura, luz y depósitos.
+
+## CONT-KPG-FIRE-001 — Potencial térmico y cobertura real
+
+Modelos permiten ignición extensa y el registro conserva combustión, pero ausencia/presencia de carbón está filtrada por facies.
+
+**Prueba discriminatoria:** series globales cuantitativas de hollín/carbón y umbrales de combustible compatibles con paleovegetación.
+
+## CONT-KPG-ACIDIFICATION-001 — Perturbación no equivale a causa primaria
+
+El boro apoya una caída rápida de pH. Un modelo de 2026 reproduce selectividad sin letalidad ácida explícita, aunque puede omitir sensibilidad de conchas.
+
+**Prueba discriminatoria:** patrón latitudinal/mineralógico previsto por química que supere modelos de luz y energía.
+
+## CONT-KPG-MARINE-MECHANISM-001 — Luz, frío, hambre y rasgos
+
+EcoGENIE favorece limitación lumínica y umbrales energéticos. Temperatura, mezcla, dormancia, mineralogía y detrito pueden modificar cada clado.
+
+**Prueba discriminatoria:** modelos fuera de muestra que predigan supervivencia por grupo y región con forzamientos separados.
+
+## CONT-KPG-DINOSAUR-DECLINE-001 — Tendencia antes del borde
+
+Modelos de diversificación discrepan y el registro terminal es espacialmente desigual. Nuevo México demuestra diversidad tardía regional, no estabilidad planetaria.
+
+**Prueba discriminatoria:** secciones terminales de varias provincias con edades, área de roca y detectabilidad comparables.
+
+## CONT-KPG-TERRESTRIAL-GLOBALITY-001 — Norteamérica y el planeta
+
+Picos de helechos, mamíferos y muchas series de alta resolución proceden de pocas cuencas. La coherencia mecanística no elimina el sesgo geográfico.
+
+**Prueba discriminatoria:** series integradas de Gondwana, Asia y latitudes altas con el mismo diseño de muestreo.
+
+## CONT-KPG-RECOVERY-001 — El final depende de la variable
+
+Vida y productividad reaparecen antes que riqueza, tamaño, exportación o complejidad trófica. Elegir un indicador cambia la fecha por órdenes de magnitud.
+
+**Prueba discriminatoria:** declarar variable y línea base y comparar curvas, no etiquetas de «recuperado».
