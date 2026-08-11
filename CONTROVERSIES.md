@@ -208,6 +208,19 @@ Una controversia no implica empate. Registra qué parte está realmente abierta,
 | `CONT-JURASSIC-CROWN-BIRD-001` | ¿Existía Aves corona en el Jurásico? | tallo avialano ya era diverso | caracteres derivados no fijan corona | no demostrada; edad abierta | D |
 | `CONT-JURASSIC-MAMMALIAFORM-RADIATION-001` | ¿Qué tan global fue la ecomorfología diversa? | varios nichos tienen esqueletos/patagios | Lagerstätten concentran detectabilidad | mínimo robusto; frecuencia abierta | B local; C-D global |
 | `CONT-JURASSIC-JK-TURNOVER-001` | ¿Qué parte del recambio J–K fue biológica? | rangos cambian por clado | roca, nivel marino y colección explican parte | abierta por región/muestreo | B-COND |
+| `CONT-CRETACEOUS-BASE-GSSP-001` | ¿Qué sección fijará la base cretácica? | edad tabulada y correlaciones múltiples acotan el Berriasiense | marcador/sección/voto siguen pendientes | abierta institucionalmente | A estado; B-D resultado |
+| `CONT-CRETACEOUS-MAASTRICHTIAN-001` | ¿Debe revisarse el marcador maastrichtiense? | Tercis y doce criterios sostienen la práctica | taxonomía/diacronía de `P. neubergicus` motivan revisión | GSSP vigente; marcador abierto | A estado; C resultado |
+| `CONT-CRETACEOUS-ANGIOSPERM-AGE-001` | ¿La corona angiospérmica es jurásica? | modelos de preservación/reloj permiten nodo tardojurásico | cuerpos inequívocos siguen siendo cretácicos | abierta por objeto/modelo | A-B mínimo; C-PROV nodo |
+| `CONT-CRETACEOUS-ANGIOSPERM-DOMINANCE-001` | ¿Cuándo dominaron las angiospermas? | riqueza y función aumentan durante el Cretácico | abundancia, biomasa y dosel varían por región | abierta por métrica/facies | B-COND |
+| `CONT-CRETACEOUS-FLOWER-ANCESTOR-001` | ¿Cómo era la flor ancestral de corona? | reconstrucción favorece flor bisexual y radial compleja | árbol, codificación y modelo alteran estados | abierta en detalles/tallo | C-COND |
+| `CONT-CRETACEOUS-AMBER-POLLINATION-001` | ¿Qué demuestra insecto + polen en ámbar? | contacto, ingesta o transporte locales son directos | eficacia, procedencia y contaminación requieren pruebas | función limitada; cadena abierta | A-B contacto; C función |
+| `CONT-CRETACEOUS-INSECT-CODIVERSIFICATION-001` | ¿Las angiospermas causaron radiación insectil? | efectos por clado sobre tasas son recuperables | linajes previos, desfases y covariables impiden explosión única | efecto heterogéneo | B-COND |
+| `CONT-CRETACEOUS-AVIALAN-DISPARITY-001` | ¿Jehol representa la ecología aviana cretácica? | morfometría recupera disparidad funcional baja | facies, región y proxies limitan extrapolación | abierta globalmente | B local; C-D global |
+| `CONT-CRETACEOUS-CROWN-BIRDS-001` | ¿Dónde se ubican `Asteriornis` y `Vegavis`? | matrices y anatomía 3D apoyan corona | taxones, caracteres/modelos mueven posiciones finas | corona apoyada; nodo fino abierto | B-COND |
+| `CONT-CRETACEOUS-AVES-AGE-001` | ¿Cuándo surgió Aves corona? | fósiles tardíos fijan mínimos de `69–66.7 Ma` | relojes pueden situar divergencias más antiguas | abierta entre mínimo y nodo | B mínimos; C-D origen |
+| `CONT-CRETACEOUS-MAMMAL-RADIATION-001` | ¿Qué impulsó radiaciones mamalianas tardías? | nuevos recursos angiospérmicos son compatibles | clima, tectónica y muestreo covarían | abierta en pesos | B patrón; C-D causa |
+| `CONT-CRETACEOUS-PLACENTALIA-001` | ¿Placentalia antecede K–Pg? | relojes favorecen divergencias cretácicas | matrices sitúan euterios cretácicos fuera de corona | abierta por calibración/topología | C-D |
+| `CONT-CRETACEOUS-GONDWANATHERIA-001` | ¿Dónde se anida Gondwanatheria? | anatomía apoya un aloterio distintivo | relación con multituberculados cambia entre matrices | abierta en posición fina | A-B anatomía; C-COND árbol |
 
 ## CONT-COSMOS-H0-001 — Dos rutas hacia la tasa actual
 
@@ -1601,3 +1614,81 @@ Adaptaciones acuáticas, excavadoras, arbóreas y planeadoras son observables, p
 Diversidad y recambio alrededor de J–K responden a nivel marino, afloramiento, colección, taxonomía y señal biológica. Correcciones europeas no garantizan un patrón mundial.
 
 **Prueba discriminatoria:** bases globales con esfuerzo/roca equivalentes y cronologías que identifiquen pulsos sincrónicos por clado y región.
+
+## CONT-CRETACEOUS-BASE-GSSP-001 — Una cifra sin punto formal
+
+La tabla asigna `143.1 ± 0.6 Ma`, pero el Berriasiense carece de GSSP ratificado. Marcadores fósiles, magnéticos, químicos y radiométricos no producen todavía una solución global acordada.
+
+**Prueba discriminatoria:** propuesta multisección que mantenga orden, correlación y accesibilidad, obtenga votación SCS/ICS y ratificación IUGS.
+
+## CONT-CRETACEOUS-MAASTRICHTIAN-001 — Un GSSP ratificado bajo revisión
+
+La base maastrichtiense de Tercis usa doce criterios cercanos a `Pachydiscus neubergicus`; taxonomía, diacronía y aplicabilidad motivaron un nuevo grupo de trabajo en 2022.
+
+**Prueba discriminatoria:** marcador primario reproducible mundialmente que mejore correlación sin romper la sección/historia estratigráfica.
+
+## CONT-CRETACEOUS-ANGIOSPERM-AGE-001 — Fósil cretácico, nodo jurásico
+
+La anatomía diagnóstica no confirma angiospermas precretácicas; modelos de 2021/2026 corrigen preservación y estiman corona jurásica tardía. Ambos usan objetos y ausencias de manera distinta.
+
+**Prueba discriminatoria:** fósil jurásico con órganos diagnósticos, procedencia y edad reproducibles, o validación predictiva que discrimine modelos de preservación/reloj.
+
+## CONT-CRETACEOUS-ANGIOSPERM-DOMINANCE-001 — Diversidad, abundancia o dosel
+
+Polen y riqueza aumentan antes que algunas métricas de venación, porte y biomasa. Floras regionales conservan gimnospermas dominantes mientras las angiospermas ya son diversas.
+
+**Prueba discriminatoria:** series globales pareadas de polen, hojas, madera, abundancia y facies que midan cobertura/biomasa con la misma resolución.
+
+## CONT-CRETACEOUS-FLOWER-ANCESTOR-001 — Un nodo dibujado como organismo
+
+La reconstrucción favorece una flor bisexual/radial compleja, pero cambia con árbol, codificación y modelo; el tallo previo no está muestreado por especies vivas.
+
+**Prueba discriminatoria:** fósiles cerca de la corona basal que estabilicen estados bajo árboles y modelos alternativos.
+
+## CONT-CRETACEOUS-AMBER-POLLINATION-001 — Contacto, función y procedencia
+
+Polen adherido, piezas bucales y coprolitos sostienen visita/transporte/ingesta, pero eficacia fecundante casi nunca se preserva. Ámbar comercial añade cadena de custodia, edad transferida y consideraciones éticas.
+
+**Prueba discriminatoria:** ejemplares excavados con procedencia estratigráfica directa, varios órganos de la planta y distribución de polen incompatible con contaminación.
+
+## CONT-CRETACEOUS-INSECT-CODIVERSIFICATION-001 — Curvas compartidas o efecto causal
+
+Muchos linajes insectiles son precretácicos. Modelos recientes recuperan efectos angiospérmicos variables sobre extinción/originación, no una explosión simultánea.
+
+**Prueba discriminatoria:** modelos por clado con fósiles, retardos y covariables que predigan datos fuera de muestra mejor que alternativas sin angiospermas.
+
+## CONT-CRETACEOUS-AVIALAN-DISPARITY-001 — Jehol y el mundo
+
+La morfometría encuentra baja disparidad funcional en Jehol, pero preservación, región, edad y proxies corporales limitan su transferencia a todo el Cretácico.
+
+**Prueba discriminatoria:** ensamblajes contemporáneos de varias facies/continentes con matrices funcionales y detectabilidad comparables.
+
+## CONT-CRETACEOUS-CROWN-BIRDS-001 — `Asteriornis` y `Vegavis` en la corona
+
+Ambos fósiles aportan anatomía tridimensional y resultados de corona, pero las posiciones finas cambian con taxones, caracteres y modelos; `Vegavis` tiene una historia especialmente variable.
+
+**Prueba discriminatoria:** nuevos cráneos/postcráneos asociados y recuperación estable bajo matrices independientes, ponderaciones y definiciones explícitas.
+
+## CONT-CRETACEOUS-AVES-AGE-001 — Edad mínima fósil y reloj profundo
+
+Fósiles seguros cerca de `69–66.7 Ma` fijan mínimos; relojes moleculares pueden situar divergencias más antiguas. La escasez mesozoica amplía el intervalo.
+
+**Prueba discriminatoria:** calibradores cretácicos más antiguos con corona estable y relojes que reproduzcan correctamente el registro fósil conocido.
+
+## CONT-CRETACEOUS-MAMMAL-RADIATION-001 — Angiospermas, clima o tectónica
+
+Radiaciones dentales de multituberculados y terios coinciden con expansión angiospérmica, pero recursos, fragmentación continental, clima y cambios de muestreo covarían.
+
+**Prueba discriminatoria:** análisis regionales y por dieta que separen predicciones de recursos vegetales, clima y geografía con cronologías independientes.
+
+## CONT-CRETACEOUS-PLACENTALIA-001 — Corona antes o después de K–Pg
+
+Matrices morfológicas han colocado euterios cretácicos fuera de Placentalia; relojes genómicos favorecen divergencias cretácicas. Definición, calibración y modelos de tasa explican parte del conflicto.
+
+**Prueba discriminatoria:** fósil cretácico con sinapomorfías de corona estable y/o modelos integrados que predigan tanto secuencias como ausencia/presencia fósil.
+
+## CONT-CRETACEOUS-GONDWANATHERIA-001 — Relaciones de un clado escaso
+
+`Vintana` y `Adalatherium` aportan anatomía excepcional, pero Gondwanatheria puede moverse respecto de Multituberculata y otros aloterios al cambiar matrices.
+
+**Prueba discriminatoria:** esqueletos asociados de otras regiones/edades con dentición, cráneo, oído y postcráneo codificables en matrices comunes.

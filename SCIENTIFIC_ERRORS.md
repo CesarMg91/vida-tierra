@@ -210,6 +210,20 @@ El propósito no es presentar la ciencia como una sucesión de fracasos ni como 
 | `ERR-JURASSIC-AVIALAN-ANCESTORS-001` | fósiles jurásicos forman una fila de ancestros | orden de caracteres convertido en genealogía | ramas, homoplasia y mínimos | DOCUMENTADO |
 | `ERR-JURASSIC-MAMMALIAFORM-MOUSE-001` | mamaliaformes fueron ratones modernos | analogía de tamaño convertida en identidad | corona, anatomía y nichos separados | DOCUMENTADO |
 | `ERR-JURASSIC-JK-EXTINCTION-001` | la línea J–K marca una extinción mundial instantánea | frontera/calibración convertida en pulso biológico | rangos y sesgos auditados | DOCUMENTADO |
+| `ERR-CRETACEOUS-BASE-GOLDEN-SPIKE-001` | `143.1 Ma` ya tiene clavo dorado | edad tabulada convertida en GSSP | estado institucional, sección y calibración separados | DOCUMENTADO |
+| `ERR-CRETACEOUS-KPG-CAUSE-001` | la línea de `66 Ma` explica la extinción | frontera convertida en mecanismo causal | horizonte formal y cadena causal auditados por separado | DOCUMENTADO |
+| `ERR-CRETACEOUS-FIRST-FLOWER-001` | el primer polen fue la primera flor | mínimo preservado convertido en origen | órgano, afinidad, edad y nodo separados | DOCUMENTADO |
+| `ERR-CRETACEOUS-CLOCK-FOSSIL-001` | un reloj encontró una flor jurásica | edad modelada convertida en cuerpo | datos, calibraciones, genes, modelo y fósil separados | DOCUMENTADO |
+| `ERR-CRETACEOUS-FLOWER-DOMINANCE-001` | más especies dominaron todos los bosques | riqueza convertida en biomasa/dosel global | polen, hojas, madera, abundancia y facies cruzados | DOCUMENTADO |
+| `ERR-CRETACEOUS-ANCESTRAL-FLOWER-001` | la flor ancestral reconstruida fue hallada | estados probables de nodo convertidos en organismo | probabilidades, árbol, modelo y fósiles separados | DOCUMENTADO |
+| `ERR-CRETACEOUS-INSECTS-BORN-WITH-FLOWERS-001` | las flores inventaron los insectos polinizadores | cambio de huésped convertido en origen de linajes | filogenia, interacción y tasas separadas | DOCUMENTADO |
+| `ERR-CRETACEOUS-AMBER-POLLINATION-001` | todo insecto con polen fecundó flores | contacto/ingesta convertidos en eficacia | verbo probatorio, procedencia y contaminación auditados | DOCUMENTADO |
+| `ERR-CRETACEOUS-ICHTHYORNIS-HALF-001` | `Ichthyornis` fue mitad reptil y mitad ave | mosaico convertido en escalera esencialista | módulos anatómicos y nodo descritos por separado | DOCUMENTADO |
+| `ERR-CRETACEOUS-BEAK-CROWN-001` | tener pico demuestra Aves corona | un carácter convertido en paquete/nodo | matriz, topología, definición y sensibilidad | DOCUMENTADO |
+| `ERR-CRETACEOUS-MAMMAL-MOUSE-001` | todos los mamíferos eran ratones ocultos | tamaño pequeño convertido en identidad moderna | clado, anatomía, talla y nicho explícitos | DOCUMENTADO |
+| `ERR-CRETACEOUS-REPENOMAMUS-HUNT-001` | contenido abdominal filma una caza | consumo convertido en conducta | «consumió» separado de captura/carroñeo | DOCUMENTADO |
+| `ERR-CRETACEOUS-EUTHERIAN-PLACENTAL-001` | euterio significa placentario moderno | tallo euterio confundido con corona | Eutheria/Placentalia y rasgos separados | DOCUMENTADO |
+| `ERR-CRETACEOUS-LAURASIA-WORLD-001` | el registro norteño representa todos los mamíferos | sesgo geográfico convertido en patrón mundial | fósiles gondwánicos y detectabilidad incorporados | DOCUMENTADO |
 | `ERR-LUNAR-APOLLO-INDEPENDENT-001` | tratar sitios Apollo como testigos independientes | ejecta local y sin transporte global | cartografía, Th, geoquímica y escalado de Imbrium | DOCUMENTADO |
 | `ERR-IMPACT-MOON-EARTH-001` | convertir cronología lunar en esterilización terrestre | escala constante de tasa y efecto | dinámica, hidrocodes, atmósfera/océano y archivo terrestre | DOCUMENTADO |
 | `ERR-LUNAR-ABSENCE-001` | “sin fundido antiguo” = “sin impacto antiguo” | supervivencia uniforme hacia atrás | sesgo de preservación y evidencia positiva `4.22–4.33 Ga` | DOCUMENTADO |
@@ -1899,3 +1913,115 @@ La señal de diversidad J–K cambia con roca, colecciones, nivel marino y clado
 ### Corrección
 
 Separar frontera, edad y rangos biológicos; corregir muestreo y exigir sincronía global antes de nombrar extinción masiva instantánea.
+
+## ERR-CRETACEOUS-BASE-GOLDEN-SPIKE-001 — `143.1 Ma` ya tiene clavo dorado
+
+Una edad tabulada no sustituye una sección y punto ratificados; la base cretácica sigue pendiente al corte.
+
+### Corrección
+
+Citar por separado versión de la tabla, estado del Berriasiense y evidencia de correlación.
+
+## ERR-CRETACEOUS-KPG-CAUSE-001 — La línea de `66 Ma` explica la extinción
+
+El GSSP ordena capas; no reparte pesos entre impacto, Deccan, clima y cadenas de mortalidad.
+
+### Corrección
+
+Usar aquí sólo el horizonte formal y auditar mecanismos en la Investigación 031.
+
+## ERR-CRETACEOUS-FIRST-FLOWER-001 — El primer polen fue la primera flor
+
+El fósil más antiguo es un mínimo preservado; su productor y ramas no preservadas pueden ser anteriores.
+
+### Corrección
+
+Separar órgano, afinidad, edad del estrato, mínimo fósil y edad de nodo.
+
+## ERR-CRETACEOUS-CLOCK-FOSSIL-001 — Un reloj de 2026 encontró una flor jurásica
+
+El estudio transformó ocurrencias en calibraciones y estimó un nodo; no excavó un cuerpo jurásico diagnóstico.
+
+### Corrección
+
+Nombrar datos, modelo, genes, calibraciones y distribución de edad.
+
+## ERR-CRETACEOUS-FLOWER-DOMINANCE-001 — Más especies dominaron todos los bosques
+
+Riqueza, abundancia, porte, biomasa y dosel pueden divergir; muchas floras conservaron gimnospermas abundantes.
+
+### Corrección
+
+Cruzar polen, hojas, madera, facies y medidas cuantitativas regionales.
+
+## ERR-CRETACEOUS-ANCESTRAL-FLOWER-001 — La flor ancestral fue hallada
+
+La imagen publicada representa estados probables de un nodo a partir de especies vivas y árboles.
+
+### Corrección
+
+Mostrar probabilidades, métodos y caracteres; no asignar especie, color o tamaño exactos.
+
+## ERR-CRETACEOUS-INSECTS-BORN-WITH-FLOWERS-001 — Las flores inventaron los insectos polinizadores
+
+Órdenes insectiles y polinización gimnospérmica preceden a la radiación angiospérmica.
+
+### Corrección
+
+Separar origen del linaje, cambio de huésped, interacción directa y tasa macroevolutiva.
+
+## ERR-CRETACEOUS-AMBER-POLLINATION-001 — Todo insecto con polen fecundó flores
+
+Coocurrencia, ingestión y transporte no demuestran por sí solos deposición en estigma ni semilla producida.
+
+### Corrección
+
+Asignar a cada fósil el verbo máximo sostenido y auditar procedencia/contaminación.
+
+## ERR-CRETACEOUS-ICHTHYORNIS-HALF-001 — `Ichthyornis` era mitad reptil y mitad ave
+
+Pico, dientes, paladar y cerebro son caracteres de un organismo completo adquiridos en mosaico.
+
+### Corrección
+
+Describir módulos y nodo; evitar esencias y escalera de progreso.
+
+## ERR-CRETACEOUS-BEAK-CROWN-001 — Tener pico demuestra Aves corona
+
+Picos y pérdida dental evolucionaron fuera de la corona; la pertenencia depende de un conjunto de caracteres y una definición.
+
+### Corrección
+
+Publicar matriz, topología y sensibilidad para `Asteriornis`, `Vegavis` u otro fósil.
+
+## ERR-CRETACEOUS-MAMMAL-MOUSE-001 — Todos los mamíferos eran ratones ocultos
+
+`Repenomamus`, multituberculados, terios y gondwanaterios abarcan tallas, dietas y anatomías distintas; ninguno es un roedor moderno por defecto.
+
+### Corrección
+
+Nombrar clado, evidencia de tamaño/dieta y límites de reconstrucción externa.
+
+## ERR-CRETACEOUS-REPENOMAMUS-HUNT-001 — El contenido abdominal filma una caza
+
+Los restos prueban consumo de un dinosaurio juvenil, pero no distinguen captura, carroñeo o secuencia conductual.
+
+### Corrección
+
+Usar «consumió» y reservar conducta para huellas independientes.
+
+## ERR-CRETACEOUS-EUTHERIAN-PLACENTAL-001 — Euterio significa placentario moderno
+
+Eutheria incluye la corona Placentalia y ramas del tallo; una relación más próxima no conserva directamente reproducción.
+
+### Corrección
+
+Separar Eutheria/Placentalia y Metatheria/Marsupialia en texto, árboles e imágenes.
+
+## ERR-CRETACEOUS-LAURASIA-WORLD-001 — El registro del norte representa todos los mamíferos
+
+`Vintana` y `Adalatherium` revelan anatomías gondwánicas e insulares ausentes de síntesis basadas sólo en Laurasia.
+
+### Corrección
+
+Mapear geografía, placas, facies y detectabilidad antes de extrapolar diversidad mundial.

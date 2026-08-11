@@ -402,6 +402,20 @@ El mapa conserva cinco rutas: tiempo/placas, T-OAE, dinosaurios, avialanos y mam
 
 La doble cadena muestra por qué una falla no es todavía fondo oceánico y por qué una impresión de pluma no es todavía conducta aérea ni ave corona.
 
+## 31. Investigación 030 — Cretácico: redes en transformación
+
+![Portada conceptual del Cretácico](assets/visuales/hero-cretacico-flores-insectos-aves-mamiferos.png)
+
+> **Portada conceptual:** separa mesofósiles y polen de angiospermas, ámbar con insecto, fósiles avianos y ventanas mamalianas. No afirma origen observado, interacción universal, ancestro directo, corona ni convivencia.
+
+![Mapa de evidencia del Cretácico](assets/visuales/mapa-investigacion-030.svg)
+
+El mapa conserva cinco rutas: tiempo formal, angiospermas, insectos, aves y mamíferos. Distingue fósiles corporales de relojes, riqueza de dominancia y caracteres de nodos filogenéticos.
+
+![Cadenas desde polen hasta red ecológica y desde carácter hasta corona](assets/visuales/de-polen-a-red-y-de-caracter-a-corona.svg)
+
+La doble cadena impide que una asociación local se convierta automáticamente en coevolución global y que un pico, diente o rasgo aislado se convierta en prueba de pertenencia a una corona.
+
 ## Procedencia
 
 El registro de creación, límites y prompt de cada pieza está en [`assets/visuales/README.md`](assets/visuales/README.md).

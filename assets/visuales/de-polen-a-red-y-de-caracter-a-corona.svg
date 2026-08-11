@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">De polen a red y de carácter a corona</title>
+  <desc id="desc">Dos cadenas muestran los pasos necesarios para reconstruir una red de polinización y una pertenencia a corona.</desc>
+  <defs>
+    <style>
+      .bg{fill:#101b1b}.box{fill:#17302c;stroke:#69958e;stroke-width:2}.box2{fill:#30271f;stroke:#b98651;stroke-width:2}.h{font:700 34px system-ui,sans-serif;fill:#f1e6ca}.sh{font:700 24px system-ui,sans-serif;fill:#e3b46d}.t{font:18px system-ui,sans-serif;fill:#dce9e4}.s{font:15px system-ui,sans-serif;fill:#adc5bf}.a{stroke:#d58a49;stroke-width:4;fill:none;marker-end:url(#m)}.a2{stroke:#75aca3;stroke-width:4;fill:none;marker-end:url(#m2)}
+    </style>
+    <marker id="m" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0l10 5-10 5z" fill="#d58a49"/></marker>
+    <marker id="m2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0l10 5-10 5z" fill="#75aca3"/></marker>
+  </defs>
+  <rect class="bg" width="1600" height="900"/>
+  <text class="h" x="65" y="65">DOS CADENAS · NINGÚN VERBO AUTOMÁTICO</text>
+
+  <text class="sh" x="70" y="125">A · DE POLEN ADHERIDO A RED DE POLINIZACIÓN</text>
+  <rect class="box" x="70" y="155" width="210" height="110" rx="18"/>
+  <text class="t" x="95" y="197">ámbar</text><text class="s" x="95" y="228">procedencia + edad</text>
+  <rect class="box" x="330" y="155" width="210" height="110" rx="18"/>
+  <text class="t" x="355" y="197">insecto + polen</text><text class="s" x="355" y="228">singenicidad</text>
+  <rect class="box" x="590" y="155" width="210" height="110" rx="18"/>
+  <text class="t" x="615" y="197">identidad</text><text class="s" x="615" y="228">anatomía + exina</text>
+  <rect class="box" x="850" y="155" width="210" height="110" rx="18"/>
+  <text class="t" x="875" y="197">contacto</text><text class="s" x="875" y="228">carga / intestino</text>
+  <rect class="box" x="1110" y="155" width="210" height="110" rx="18"/>
+  <text class="t" x="1135" y="197">función</text><text class="s" x="1135" y="228">visita / transporte</text>
+  <rect class="box2" x="1370" y="155" width="160" height="110" rx="18"/>
+  <text class="t" x="1394" y="197">red local</text><text class="s" x="1394" y="228">eficacia abierta</text>
+  <path class="a2" d="M280 210H330"/><path class="a2" d="M540 210H590"/><path class="a2" d="M800 210H850"/><path class="a2" d="M1060 210H1110"/><path class="a2" d="M1320 210H1370"/>
+  <text class="s" x="70" y="305">Coocurrencia, ingesta, transporte y fecundación son resultados distintos.</text>
+
+  <text class="sh" x="70" y="390">B · DE CARÁCTER PRESERVADO A CORONA CONDICIONADA</text>
+  <rect class="box2" x="70" y="420" width="210" height="110" rx="18"/>
+  <text class="t" x="95" y="462">fósil</text><text class="s" x="95" y="493">edad + anatomía</text>
+  <rect class="box2" x="330" y="420" width="210" height="110" rx="18"/>
+  <text class="t" x="355" y="462">CT / preparación</text><text class="s" x="355" y="493">estructura 3D</text>
+  <rect class="box2" x="590" y="420" width="210" height="110" rx="18"/>
+  <text class="t" x="615" y="462">caracteres</text><text class="s" x="615" y="493">homología</text>
+  <rect class="box2" x="850" y="420" width="210" height="110" rx="18"/>
+  <text class="t" x="875" y="462">matriz</text><text class="s" x="875" y="493">taxones + modelo</text>
+  <rect class="box2" x="1110" y="420" width="210" height="110" rx="18"/>
+  <text class="t" x="1135" y="462">definición</text><text class="s" x="1135" y="493">tallo / corona</text>
+  <rect class="box" x="1370" y="420" width="160" height="110" rx="18"/>
+  <text class="t" x="1394" y="462">nodo</text><text class="s" x="1394" y="493">sensibilidad</text>
+  <path class="a" d="M280 475H330"/><path class="a" d="M540 475H590"/><path class="a" d="M800 475H850"/><path class="a" d="M1060 475H1110"/><path class="a" d="M1320 475H1370"/>
+  <text class="s" x="70" y="570">Pico, diente o molar aislado no entrega Aves, Placentalia ni conducta.</text>
+
+  <rect x="70" y="640" width="1460" height="175" rx="24" fill="#122421" stroke="#90735a" stroke-width="2"/>
+  <text class="sh" x="105" y="685">CONTROL DE TIEMPO</text>
+  <text class="t" x="105" y="728">primer fósil → mínimo observado · ocurrencias + preservación → densidad de edad</text>
+  <text class="t" x="105" y="766">genes + calibraciones → nodo inferido · ninguno por sí solo → primer organismo exacto</text>
+  <text class="s" x="1170" y="790">Investigación 030 · 2026-08-11</text>
+  <text class="s" x="70" y="860">Diagrama original del proyecto · cadenas condicionadas, no sustituciones visuales</text>
+</svg>
