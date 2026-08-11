@@ -94,6 +94,15 @@ El propósito no es presentar la ciencia como una sucesión de fracasos ni como 
 | `ERR-EUK-GENE-PERCENT-001` | leer porcentajes de pipeline como composición de LECA | denominadores/modelos son intercambiables | definición, no asignados y reanálisis común | DOCUMENTADO |
 | `ERR-EUK-FOSSIL-BIRTH-001` | usar fósil más antiguo como fecha de origen | preservación es inmediata y afinidad cerrada | edad mínima + corona/tallo | DOCUMENTADO |
 | `ERR-EUK-OXYGEN-TRIGGER-001` | hacer del O₂ una causa única por correlación | nicho fósil fecha y causa endosimbiosis | cronología y modelos causales rivales | DOCUMENTADO |
+| `ERR-SEX-REPRODUCTION-001` | usar reproducción como sinónimo de sexo | producir individuos implica mezcla genética | módulos nombrados por separado | DOCUMENTADO |
+| `ERR-SEX-RECOMBINATION-001` | llamar sexo a toda recombinación | reparación/HGT equivalen a ciclo sexual | exigir fusión, ploidía y segregación según claim | DOCUMENTADO |
+| `ERR-SEX-LECA-OBSERVED-001` | narrar el ciclo de LECA como observación | reconstrucción ancestral equivale a fósil | dato, puente y estado separados | DOCUMENTADO |
+| `ERR-SEX-GENES-PROVE-001` | inventario génico convertido en meiosis observada | presencia implica expresión y coordinación | función, célula y productos además de ortología | DOCUMENTADO |
+| `ERR-SEX-ASEX-PRIMITIVE-001` | ausencia observacional convertida en asexualidad ancestral | sexo raro no deja señal detectable | poder de muestreo y genómica poblacional | DOCUMENTADO |
+| `ERR-SEX-ADVANTAGE-UNIVERSAL-001` | ventaja experimental convertida en ley | contexto no cambia signo ni magnitud | dominio experimental explícito | DOCUMENTADO |
+| `ERR-SEX-ORIGIN-BENEFIT-001` | mantenimiento moderno convertido en causa de origen | ciclo integrado equivale a módulos nacientes | origen, estabilización y mantenimiento separados | DOCUMENTADO |
+| `ERR-SEX-MALE-FEMALE-001` | mating types convertidos en macho/hembra | compatibilidad implica anisogamia | términos definidos por tamaño/función de gameto | DOCUMENTADO |
+| `ERR-SEX-FOSSIL-BIRTH-001` | primer fósil sexual convertido en origen | preservación coincide con innovación | mínimo condicionado + cadena molecular separada | DOCUMENTADO |
 | `ERR-LUNAR-APOLLO-INDEPENDENT-001` | tratar sitios Apollo como testigos independientes | ejecta local y sin transporte global | cartografía, Th, geoquímica y escalado de Imbrium | DOCUMENTADO |
 | `ERR-IMPACT-MOON-EARTH-001` | convertir cronología lunar en esterilización terrestre | escala constante de tasa y efecto | dinámica, hidrocodes, atmósfera/océano y archivo terrestre | DOCUMENTADO |
 | `ERR-LUNAR-ABSENCE-001` | “sin fundido antiguo” = “sin impacto antiguo” | supervivencia uniforme hacia atrás | sesgo de preservación y evidencia positiva `4.22–4.33 Ga` | DOCUMENTADO |
@@ -855,3 +864,75 @@ El GOE precede fósiles eucariotas y los más antiguos muestreados prefieren fon
 ### Corrección
 
 Separar disponibilidad, capacidad respiratoria, esteroles, ecología y cronología de nodos. Comparar predicciones de modelos anaerobios, microaerobios y aerobios.
+
+## ERR-SEX-REPRODUCTION-001 — Reproducción convertida en sinónimo de sexo
+
+La reproducción aumenta individuos; el sexo mezcla o reorganiza genomas mediante módulos que pueden no producir descendencia en el mismo paso.
+
+### Corrección
+
+Nombrar por separado clonación, singamia, cariogamia, ploidía, meiosis y descendencia. Declarar qué combinación usa la afirmación.
+
+## ERR-SEX-RECOMBINATION-001 — Cualquier recombinación se volvió sexo
+
+Reparación homóloga, conversión y transferencia horizontal recombinan DNA sin un ciclo sexual eucariota.
+
+### Corrección
+
+Exigir evidencia de compatibilidad, fusión/cambio de ploidía y segregación cuando se afirme un ciclo; usar «intercambio genético» si sólo se observa mezcla.
+
+## ERR-SEX-LECA-OBSERVED-001 — La reconstrucción de LECA se narró como observación
+
+LECA no es una célula fósil filmada. Su repertorio se infiere de homólogos modernos, árboles y pérdidas.
+
+### Corrección
+
+Separar dato moderno, puente filogenético y estado ancestral. Calificar cada módulo y no dibujar una primera pareja definitiva.
+
+## ERR-SEX-GENES-PROVE-001 — Un inventario génico se volvió meiosis observada
+
+Genes meióticos pueden cambiar de función, perderse o actuar en procesos parciales; presencia no muestra expresión ni coordinación.
+
+### Corrección
+
+Combinar ortología con expresión, localización, perturbación, ploidía, cromosomas y productos cuando el claim sea funcional.
+
+## ERR-SEX-ASEX-PRIMITIVE-001 — «Sin sexo observado» se volvió estado ancestral
+
+Sexo raro, críptico o estacional puede escapar al muestreo; linajes derivados también pierden módulos.
+
+### Corrección
+
+Tratar asexualidad profunda como hipótesis a contrastar con genómica poblacional, ciclo completo y poder de detección declarado.
+
+## ERR-SEX-ADVANTAGE-UNIVERSAL-001 — Un experimento se volvió ley universal
+
+La ventaja cambia con ambiente, parásitos, ploidía, tamaño poblacional, ligamiento y costos.
+
+### Corrección
+
+Reportar organismo, tratamiento, duración y mecanismo. No extrapolar el signo fuera del dominio experimental sin comparación.
+
+## ERR-SEX-ORIGIN-BENEFIT-001 — Mantenimiento moderno convertido en causa de origen
+
+Una población con sexo ya integrado no paga los mismos pasos intermedios que un sistema en ensamblaje.
+
+### Corrección
+
+Separar origen, estabilización y mantenimiento; exigir que el modelo explique la viabilidad y selección de módulos parciales.
+
+## ERR-SEX-MALE-FEMALE-001 — Mating types convertidos en macho y hembra
+
+Tipos de apareamiento regulan compatibilidad entre gametos que pueden ser iguales. Macho/hembra presupone anisogamia funcional.
+
+### Corrección
+
+Usar `+`, `−` u otros tipos cuando corresponda; reservar macho/hembra para productores de gametos pequeños/grandes bajo definición explícita.
+
+## ERR-SEX-FOSSIL-BIRTH-001 — El primer fósil sexual se volvió origen del sexo
+
+*Bangiomorpha* es mucho posterior a LECA y su sexualidad se infiere por afinidad/desarrollo.
+
+### Corrección
+
+Escribir «mínimo fósil condicionado», separar edad de roca y función, y mantener la reconstrucción molecular como una cadena independiente.

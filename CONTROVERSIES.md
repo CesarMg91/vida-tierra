@@ -90,6 +90,14 @@ Una controversia no implica empate. Registra qué parte está realmente abierta,
 | `CONT-EUK-GENE-DONORS-001` | Socios adicionales | HGT dispersa desde vecinos | endosimbiosis serial/virus | interacción no identificada | C-D |
 | `CONT-EUK-OXYGEN-001` | Papel de O₂ | motor energético/esteroles | oportunidad ecológica posterior | causalidad abierta | D |
 | `CONT-EUK-FOSSIL-001` | Edad/afinidad fósil | tallo eucariota temprano | ramas corona o miméticos/afinidad abierta | mínimo por taxón | C-D |
+| `CONT-SEX-LECA-001` | Ciclo de LECA | meiosis extensa + fusión ancestral | módulos/ciclo completo ensamblados o reemplazados en el tallo | abierta en coordinación | B-COND |
+| `CONT-SEX-SEQUENCE-001` | Orden de módulos | reparación/recombinación antes de reducción y fusión | otros órdenes o ciclos intermedios | abierta | D |
+| `CONT-SEX-FUNCTION-001` | Primera función | reparación/ploidía estabilizaron el ciclo | purga, adaptación u otra función | abierta | D |
+| `CONT-SEX-RED-QUEEN-001` | Ventaja del sexo | combinación contextual de parásitos, ambiente y carga | costos dominan en otros regímenes | resuelta sólo por sistema | C |
+| `CONT-SEX-CRYPTIC-001` | Sexo críptico | intercambio sexual raro | parasexualidad, conversión o HGT | mecanismo abierto | C-D |
+| `CONT-SEX-FUSOGEN-001` | Historia de fusexinas | familia celular antigua | transferencia/elementos móviles y reemplazos | dirección abierta | C-D |
+| `CONT-SEX-ANISOGAMY-001` | Origen de gametos desiguales | competencia/tamaño de cigoto bajo selección | limitación, conflicto y rutas reguladoras distintas | múltiples orígenes | C-D |
+| `CONT-SEX-FOSSIL-001` | Lectura de *Bangiomorpha* | alga bangial con sexo diferenciado | afinidad/ciclo menos específicos | mínimo condicionado | B-C |
 
 ## CONT-COSMOS-H0-001 — Dos rutas hacia la tasa actual
 
@@ -775,3 +783,51 @@ Fósiles tempranos se concentran en fondos oxigenados y probablemente eran aerob
 Paredes, ornamentación, tamaño y multicelularidad apoyan eucariotas en el Paleoproterozoico tardío/Mesoproterozoico temprano. Afinidades corona frente a tallo y candidatos más antiguos siguen discutidos; biomarcadores añaden rutas biosintéticas, no cuerpos taxonómicos.
 
 **Prueba discriminatoria:** ultraestructura, química orgánica *in situ*, series ontogenéticas y edad replicada que sitúen un fósil dentro de una rama corona bajo matrices explícitas.
+
+## CONT-SEX-LECA-001 — Maquinaria meiótica no equivale automáticamente a ciclo completo
+
+La distribución de genes especializados hace robusta una meiosis extensa antes de la radiación eucariota. Es más condicional reconstruir en LECA la coordinación exacta de singamia, cariogamia, ploidía y dos divisiones, porque fusógenos y ciclos se pierden o reemplazan.
+
+**Prueba discriminatoria:** reconstrucciones por sistema con árboles curados, estados celulares de ramas profundas y predicciones conjuntas que distingan pérdida secundaria de ensamblaje posterior.
+
+## CONT-SEX-SEQUENCE-001 — ¿Reparación, fusión o ploidía primero?
+
+Recombinación homóloga, cohesión y reparación anteceden a la meiosis; fusión y cambio de ploidía pudieron incorporarse en órdenes distintos. Spo11 muestra cooptación de una topoisomerasa, pero no ordena el ciclo completo.
+
+**Prueba discriminatoria:** filogenias de duplicaciones concordantes, función ancestral reconstruida y ciclos naturales intermedios que exijan un orden y no puedan explicarse por reducción secundaria.
+
+## CONT-SEX-FUNCTION-001 — ¿Qué ventaja estabilizó el primer ciclo?
+
+Reparación de DNA, enmascaramiento/purga, adaptación, eliminación de mutaciones y control de ploidía son compatibles con partes distintas del ciclo. Una ventaja actual puede mantener un mecanismo que apareció por otra función.
+
+**Prueba discriminatoria:** modelos de ensamblaje que incluyan costos desde el primer paso y experimentos con módulos parciales capaces de distinguir origen, estabilización y mantenimiento.
+
+## CONT-SEX-RED-QUEEN-001 — Parásitos, ambiente y mutaciones cambian el signo
+
+Coevolución, heterogeneidad y carga favorecen sexo en experimentos concretos; otros sistemas no aceleran adaptación y revelan carga de segregación. No existe una ventaja única independiente de ecología, ploidía y arquitectura genética.
+
+**Prueba discriminatoria:** diseños factoriales multiespecie con sexo manipulable, costos medidos y predicciones cuantitativas enfrentadas para Red Queen, interferencia clonal y carga mutacional.
+
+## CONT-SEX-CRYPTIC-001 — Intercambio no identifica el mecanismo
+
+Diplomixis de *Giardia* y firmas poblacionales de bdelloideos refutan narrativas simples de clonación eterna, pero sexo canónico, parasexualidad, conversión y HGT pueden dejar señales solapadas.
+
+**Prueba discriminatoria:** observación del ciclo completo, seguimiento de cromosomas parentales, productos de segregación y descendencia recombinante bajo exclusión explícita de HGT/conversión.
+
+## CONT-SEX-FUSOGEN-001 — Fusexinas antiguas con dirección abierta
+
+HAP2 eucariota y Fsx1 arqueana comparten estructura clase II. La presencia de Fsx1 en elementos móviles admite ascendencia celular antigua, transferencia desde elementos o reclutamientos en direcciones todavía ambiguas.
+
+**Prueba discriminatoria:** diversidad arqueana muestreada, contexto genómico estable, filogenias estructurales resistentes y función natural demostrada en fusión/intercambio.
+
+## CONT-SEX-ANISOGAMY-001 — Múltiples rutas hacia gametos desiguales
+
+Modelos de competencia, limitación de gametos, tamaño de cigoto y conflicto predicen anisogamia bajo condiciones distintas. Volvocinas muestran que la transición no exige expandir primero una gran región determinante.
+
+**Prueba discriminatoria:** comparaciones independientes con estados ancestrales explícitos y perturbaciones que conecten regulación, tamaño de gameto y aptitud en ambos sexos.
+
+## CONT-SEX-FOSSIL-001 — *Bangiomorpha* es mínimo condicionado, no nacimiento
+
+Morfología y desarrollo apoyan afinidad bangial y sexo diferenciado; convergencia, tallo/corona y falta de gametos preservados limitan la lectura. La edad Re–Os fecha la aparición estratigráfica, no el mecanismo molecular.
+
+**Prueba discriminatoria:** poblaciones mejor preservadas con gametangios/etapas conectadas, química orgánica *in situ*, afinidad filogenética morfológica y edades replicadas de los horizontes.

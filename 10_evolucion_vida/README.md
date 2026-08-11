@@ -3,3 +3,4 @@
 Transiciones: fotosíntesis, eucariotas, sexo, multicelularidad, animales, sistemas nerviosos, ojos, esqueletos, vertebrados, extremidades, amniotas, mamíferos, aves, placenta y cognición.
 
 - [`INVESTIGACION_017_EUCARIOGENESIS.md`](INVESTIGACION_017_EUCARIOGENESIS.md): reconstruye la ascendencia Asgard del huésped y bacteriana de la mitocondria; separa endosimbiosis robusta de donante, engullimiento, membranas, orden y fecha todavía condicionados.
+- [`INVESTIGACION_018_SEXO.md`](INVESTIGACION_018_SEXO.md): reconstruye la maquinaria sexual anterior a LECA; separa meiosis, fusión, recombinación, cambio de ploidía, ventajas contextuales y anisogamia derivada.

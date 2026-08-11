@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1000" viewBox="0 0 1600 1000" role="img" aria-labelledby="title desc">
+  <title id="title">Mapa de evidencia del origen y mantenimiento del sexo</title>
+  <desc id="desc">Cinco rutas distinguen maquinaria meiótica, fusión celular, ciclos e intercambio críptico, evolución experimental y tiempo. Convergen en una maquinaria sexual anterior a LECA, pero no recuperan el orden, la ventaja inicial, la fecha ni los protagonistas.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#071521"/><stop offset="1" stop-color="#17283a"/></linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%"><feDropShadow dx="0" dy="8" stdDeviation="10" flood-color="#02070d" flood-opacity=".55"/></filter>
+    <marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto"><path d="M0 0 L12 6 L0 12Z" fill="#91a6ba"/></marker>
+    <style>
+      .h1{font:700 40px system-ui,sans-serif;fill:#f5f8fb}.sub{font:400 19px system-ui,sans-serif;fill:#b9c7d4}.lane{font:700 20px system-ui,sans-serif;fill:#f8fbff}.txt{font:600 17px system-ui,sans-serif;fill:#edf3f7}.small{font:400 15px system-ui,sans-serif;fill:#c9d5df}.conf{font:800 18px system-ui,sans-serif}.box{stroke-width:2;filter:url(#shadow)}.link{fill:none;stroke:#91a6ba;stroke-width:3;marker-end:url(#arrow)}
+    </style>
+  </defs>
+  <rect width="1600" height="1000" fill="url(#bg)"/>
+  <text x="65" y="64" class="h1">Sexo: módulos ancestrales y ventajas condicionadas</text>
+  <text x="65" y="98" class="sub">Cada ruta responde una pregunta distinta. Compartir una palabra no transfiere confianza.</text>
+
+  <text x="65" y="151" class="lane">1 · Maquinaria meiótica</text>
+  <rect x="65" y="169" width="275" height="105" rx="16" class="box" fill="#153e4b" stroke="#54c6cc"/>
+  <text x="88" y="204" class="txt">Spo11 + repertorio</text><text x="88" y="232" class="small">rotura, homología, cohesión</text><text x="88" y="256" class="small">y segregación</text>
+  <path d="M340 221 H395" class="link"/>
+  <rect x="405" y="169" width="275" height="105" rx="16" class="box" fill="#1a3c50" stroke="#7eb9db"/>
+  <text x="428" y="204" class="txt">Función + árboles</text><text x="428" y="232" class="small">ortología, duplicaciones</text><text x="428" y="256" class="small">y pérdidas</text>
+  <path d="M680 221 H735" class="link"/>
+  <rect x="745" y="169" width="330" height="105" rx="16" class="box" fill="#25445b" stroke="#94d7ee"/>
+  <text x="768" y="204" class="txt">LECA: meiosis extensa</text><text x="768" y="232" class="small">ciclo completo condicionado</text><text x="768" y="258" class="conf" fill="#aee9f5">A-B · B-COND</text>
+
+  <text x="65" y="321" class="lane">2 · Fusión y compatibilidad</text>
+  <rect x="65" y="339" width="275" height="105" rx="16" class="box" fill="#343151" stroke="#a697ee"/>
+  <text x="88" y="374" class="txt">HAP2 / GCS1</text><text x="88" y="402" class="small">estructura, mutantes</text><text x="88" y="426" class="small">y fusión de gametos</text>
+  <path d="M340 391 H395" class="link"/>
+  <rect x="405" y="339" width="275" height="105" rx="16" class="box" fill="#3b3454" stroke="#c09ce3"/>
+  <text x="428" y="374" class="txt">Fsx1 arqueano/móvil</text><text x="428" y="402" class="small">homología estructural</text><text x="428" y="426" class="small">y ensayo heterólogo</text>
+  <path d="M680 391 H735" class="link"/>
+  <rect x="745" y="339" width="330" height="105" rx="16" class="box" fill="#493b60" stroke="#d3b0f1"/>
+  <text x="768" y="374" class="txt">Fusión de raíz profunda</text><text x="768" y="402" class="small">dirección y precursor abiertos</text><text x="768" y="428" class="conf" fill="#e2c9f8">A-B · C-D</text>
+
+  <text x="65" y="491" class="lane">3 · Ciclos e intercambio críptico</text>
+  <rect x="65" y="509" width="275" height="105" rx="16" class="box" fill="#1d4438" stroke="#69c895"/>
+  <text x="88" y="544" class="txt">Giardia + bdelloideos</text><text x="88" y="572" class="small">núcleos, haplotipos</text><text x="88" y="596" class="small">y ligamiento</text>
+  <path d="M340 561 H395" class="link"/>
+  <rect x="405" y="509" width="275" height="105" rx="16" class="box" fill="#24493e" stroke="#7ed3a8"/>
+  <text x="428" y="544" class="txt">Modelos poblacionales</text><text x="428" y="572" class="small">sexo, mitosis o HGT</text><text x="428" y="596" class="small">deben competir</text>
+  <path d="M680 561 H735" class="link"/>
+  <rect x="745" y="509" width="330" height="105" rx="16" class="box" fill="#285746" stroke="#8ee7b7"/>
+  <text x="768" y="544" class="txt">Clonación estricta rechazada</text><text x="768" y="572" class="small">mecanismo no identificado</text><text x="768" y="598" class="conf" fill="#a9f0c7">B-C · C-D</text>
+
+  <text x="65" y="661" class="lane">4 · Ventajas actuales</text>
+  <rect x="65" y="679" width="275" height="105" rx="16" class="box" fill="#4b3527" stroke="#e8a16e"/>
+  <text x="88" y="714" class="txt">Evolución experimental</text><text x="88" y="742" class="small">levadura, nematodos</text><text x="88" y="766" class="small">y rotíferos</text>
+  <path d="M340 731 H395" class="link"/>
+  <rect x="405" y="679" width="275" height="105" rx="16" class="box" fill="#513b2b" stroke="#f0b078"/>
+  <text x="428" y="714" class="txt">Mutación + ambiente</text><text x="428" y="742" class="small">parásitos, ploidía</text><text x="428" y="766" class="small">y ligamiento</text>
+  <path d="M680 731 H735" class="link"/>
+  <rect x="745" y="679" width="330" height="105" rx="16" class="box" fill="#63462e" stroke="#ffc07c"/>
+  <text x="768" y="714" class="txt">Beneficio condicionado</text><text x="768" y="742" class="small">no demuestra el origen</text><text x="768" y="768" class="conf" fill="#ffd09b">B local · C general</text>
+
+  <text x="1130" y="151" class="lane">5 · Tiempo y rasgos derivados</text>
+  <rect x="1130" y="169" width="405" height="145" rx="18" class="box" fill="#3d344a" stroke="#bb91d2"/>
+  <text x="1155" y="206" class="txt">LECA + relojes</text><text x="1155" y="236" class="small">sexo anterior al nodo si la</text><text x="1155" y="260" class="small">reconstrucción es correcta</text><text x="1155" y="291" class="conf" fill="#dab8eb">C-D para edad</text>
+  <rect x="1130" y="342" width="405" height="145" rx="18" class="box" fill="#3d3f49" stroke="#b5c1cd"/>
+  <text x="1155" y="379" class="txt">Bangiomorpha · 1.047 Ga</text><text x="1155" y="409" class="small">mínimo de ciclo complejo</text><text x="1155" y="433" class="small">bajo afinidad e interpretación</text><text x="1155" y="464" class="conf" fill="#d5dee6">B edad · C rasgo</text>
+  <rect x="1130" y="515" width="405" height="269" rx="18" class="box" fill="#31272f" stroke="#da7d91"/>
+  <text x="1155" y="554" class="lane">No proyectar hacia LECA</text>
+  <text x="1155" y="592" class="txt">• macho y hembra</text>
+  <text x="1155" y="626" class="txt">• óvulo y espermatozoide</text>
+  <text x="1155" y="660" class="txt">• cromosomas sexuales</text>
+  <text x="1155" y="694" class="txt">• costo doble de los machos</text>
+  <text x="1155" y="728" class="txt">• una ventaja universal</text>
+  <text x="1155" y="762" class="conf" fill="#f29bae">Rasgos derivados</text>
+
+  <rect x="65" y="846" width="1470" height="96" rx="20" fill="#0c1b28" stroke="#4b667b" stroke-width="2"/>
+  <text x="800" y="884" text-anchor="middle" class="txt">Núcleo robusto: maquinaria meiótica y fusión profunda anteriores a la radiación eucariota</text>
+  <text x="800" y="916" text-anchor="middle" class="small">Abierto: orden de ensamblaje, función inicial, frecuencia del ciclo, fecha, hábitat y protagonistas.</text>
+</svg>

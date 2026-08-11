@@ -144,6 +144,18 @@ Este archivo es el índice canónico. La letra de confianza califica exactamente
 | `CLAIM-EUK-FOSSIL-MINIMUM-001` | Fósiles de ~1.75–1.4 Ga establecen una edad mínima para células eucariotas ya complejas, no para su origen. | B-C | AUDITADO | `EVID-EUK-FOSSIL-REDOX-001` | `INV-LIFE-EUK-001` |
 | `CLAIM-EUK-OXYGEN-001` | Los eucariotas fósiles tempranos muestreados se asociaban principalmente con fondos oxigenados y probablemente eran aerobios. | C-COND | AUDITADO | `EVID-EUK-FOSSIL-REDOX-001` | `INV-LIFE-EUK-001` |
 | `CLAIM-EUK-PLASTID-DISTINCT-001` | Los plastidios proceden de una endosimbiosis cianobacteriana posterior en un huésped eucariota ya mitocondriado. | A-B | AUDITADO | filogenias/genomas de plastidios; marco comparativo | `INV-LIFE-EUK-001` |
+| `CLAIM-SEX-DEFINITION-001` | Sexo, reproducción, transferencia, recombinación, fusión, ploidía y meiosis son conceptos solapados pero no equivalentes. | A-SEM | AUDITADO | marco operacional + `EVID-SEX-MEIOSIS-TOOLKIT-001` | `INV-LIFE-SEX-001` |
+| `CLAIM-SEX-LECA-001` | LECA poseía maquinaria meiótica extensa y probablemente un ciclo con fusión; la coordinación exacta permanece condicionada. | B; B-COND ciclo | AUDITADO | `EVID-SEX-MEIOSIS-TOOLKIT-001`, `EVID-SEX-HAP2-STRUCTURE-001` | `INV-LIFE-SEX-001` |
+| `CLAIM-SEX-MEIOSIS-ORIGIN-001` | La meiosis ensambló módulos preexistentes de reparación, cohesión y segregación con especializaciones propias. | B-C; D orden | AUDITADO | `EVID-SEX-MEIOSIS-TOOLKIT-001`, `EVID-SEX-SPO11-PHYLO-001` | `INV-LIFE-SEX-001` |
+| `CLAIM-SEX-SPO11-001` | Spo11 inicia roturas meióticas modernas y deriva de la familia Top6A; eso no fecha su cooptación. | A función/homología; B-COND origen | AUDITADO | `EVID-SEX-SPO11-BREAK-001`, `EVID-SEX-SPO11-PHYLO-001` | `INV-LIFE-SEX-001` |
+| `CLAIM-SEX-FUSION-001` | HAP2 es un fusógeno eucariota antiguo y su relación con Fsx1 amplía, sin resolver, la historia de fusexinas. | A-B función; C-D historia | AUDITADO | `EVID-SEX-HAP2-STRUCTURE-001`, `EVID-SEX-FUSEXIN-ARCHAEA-001` | `INV-LIFE-SEX-001` |
+| `CLAIM-SEX-CRYPTIC-001` | *Giardia* y *Trichomonas* conservan señales de procesos sexuales antes considerados ausentes. | B-COND | AUDITADO | `EVID-SEX-GIARDIA-001`, `EVID-SEX-MEIOSIS-TOOLKIT-001` | `INV-LIFE-SEX-001` |
+| `CLAIM-SEX-ASEXUALITY-001` | Ausencia de sexo observado no prueba asexualidad ancestral; *Adineta* muestra intercambio incompatible con clonación estricta. | B-COND intercambio; C-D mecanismo | AUDITADO | `EVID-SEX-BDELLOID-001` | `INV-LIFE-SEX-001` |
+| `CLAIM-SEX-ADVANTAGE-001` | Sexo puede favorecer adaptación o purga bajo condiciones concretas, pero su ventaja no es universal. | A-B local; C general | AUDITADO | `EVID-SEX-EXPERIMENTS-001` | `INV-LIFE-SEX-001` |
+| `CLAIM-SEX-ORIGIN-MAINTENANCE-001` | Beneficios que mantienen sexo moderno no identifican automáticamente la causa histórica de su origen. | A-LOG | AUDITADO | `EVID-SEX-EXPERIMENTS-001` + distinción causal | `INV-LIFE-SEX-001` |
+| `CLAIM-SEX-COST-001` | Los costos de sexo dependen del ciclo y el «doble costo de machos» no se aplica a toda sexualidad. | A-B definido; C general | AUDITADO | `EVID-SEX-EXPERIMENTS-001` | `INV-LIFE-SEX-001` |
+| `CLAIM-SEX-ANISOGAMY-001` | Mating types no equivalen a macho/hembra; la anisogamia es derivada y surgió repetidamente. | B; C rutas | AUDITADO | `EVID-SEX-ANISOGAMY-VOLVOX-001`, `EVID-SEX-BANGIOMORPHA-001` | `INV-LIFE-SEX-001` |
+| `CLAIM-SEX-FOSSIL-001` | *Bangiomorpha* a `1.047 +0.013/−0.017 Ga` ofrece un mínimo condicionado para sexo diferenciado, no una fecha de origen. | B-COND; C anisogamia | AUDITADO | `EVID-SEX-BANGIOMORPHA-001` | `INV-LIFE-SEX-001` |
 
 ## Fichas resumidas
 
@@ -739,6 +751,92 @@ Este archivo es el índice canónico. La letra de confianza califica exactamente
 - **Puente:** otra endosimbiosis primaria y transferencias posteriores explican el orgánulo fotosintético.
 - **No afirma:** simultaneidad, mismo donante o mecanismo físico idéntico a mitocondria.
 - **Confianza:** `A-B`.
+
+## Investigación 018 — Origen y función evolutiva del sexo
+
+### CLAIM-SEX-DEFINITION-001
+
+- **Dato/definición:** reproducción, transferencia de DNA, recombinación, fusión celular, cambio de ploidía y meiosis son procesos separables; un ciclo sexual eucariota coordina varios de ellos.
+- **Límite:** existen ciclos reducidos, facultativos y derivados; la definición operacional debe declarar qué módulos exige.
+- **No afirma:** que todo intercambio genético sea sexo ni que todo sexo aumente inmediatamente el número de descendientes.
+- **Confianza:** `A-SEM`.
+
+### CLAIM-SEX-LECA-001
+
+- **Dato:** genes especializados de rotura, recombinación homóloga, sinapsis, cohesión y segregación meiótica se distribuyen entre ramas eucariotas profundas.
+- **Puente:** ortología, árboles de familias y pérdidas secundarias reconstruyen una maquinaria extensa antes de la radiación de los eucariotas actuales.
+- **Límite:** la coordinación completa de fusión, cariogamia, ploidía y meiosis no está preservada como un ciclo observado en LECA.
+- **Confianza:** `B` para meiosis extensa; `B-COND` para ciclo sexual completo.
+
+### CLAIM-SEX-MEIOSIS-ORIGIN-001
+
+- **Dato/modelo:** la meiosis reutiliza recombinación homóloga, cohesinas, reparación y segregación más antiguas, pero contiene especializaciones propias.
+- **Puente:** homologías y duplicaciones permiten reconstruir cooptación y especialización de módulos preexistentes.
+- **No afirma:** un orden único de innovaciones ni que recombinación bacteriana sea meiosis incompleta.
+- **Confianza:** `B-C` para origen modular; `D` para secuencia histórica exacta.
+
+### CLAIM-SEX-SPO11-001
+
+- **Dato:** Spo11 forma las roturas programadas que inician recombinación meiótica en sistemas modernos y es homólogo de la subunidad A de topoisomerasa VI arqueana.
+- **Puente:** catálisis, enlace covalente, estructura y filogenia apoyan cooptación desde una familia topoisomerasa ancestral.
+- **No afirma:** cuándo ocurrió la cooptación ni que Spo11 por sí solo constituya meiosis.
+- **Confianza:** `A` para función moderna y homología; `B-COND` para el escenario de origen.
+
+### CLAIM-SEX-FUSION-001
+
+- **Dato:** HAP2/GCS1 media fusión de gametos en linajes eucariotas distantes y pertenece a los fusógenos de clase II; Fsx1 muestra homología estructural y actividad fusogénica en arqueas/elementos móviles.
+- **Puente:** estructura y función comparadas revelan una familia de fusión muy antigua.
+- **Límite:** distribución, transferencias y elementos móviles no fijan la dirección ni el fusógeno del primer ciclo sexual.
+- **Confianza:** `A-B` para fusión moderna; `C-D` para procedencia histórica.
+
+### CLAIM-SEX-CRYPTIC-001
+
+- **Dato:** *Giardia* y *Trichomonas* conservan repertorios meióticos; en *Giardia* se observaron fusión nuclear e intercambio de marcadores durante enquistamiento.
+- **Puente:** función localizada, ploidía y transferencia genética permiten detectar procesos sexuales que no se ven como apareamiento convencional.
+- **No afirma:** meiosis canónica completa en cada taxón ni frecuencia suficiente para dominar su evolución.
+- **Confianza:** `B-COND`.
+
+### CLAIM-SEX-ASEXUALITY-001
+
+- **Dato:** linajes descritos como antiguos asexuales pueden conservar señales de intercambio; once genomas silvestres de *Adineta* rechazaron clonación estricta.
+- **Puente:** haplotipos y desequilibrio de ligamiento prueban mezcla genética reciente bajo modelos poblacionales.
+- **Límite:** sexo, parasexualidad y transferencia horizontal pueden producir firmas solapadas.
+- **Confianza:** `B-COND` para intercambio; `C-D` para mecanismo.
+
+### CLAIM-SEX-ADVANTAGE-001
+
+- **Dato:** experimentos con nematodos, rotíferos y levaduras muestran que recombinación o cruzamiento pueden favorecer adaptación bajo carga mutacional, heterogeneidad, interferencia clonal o coevolución.
+- **Puente:** tratamientos controlados comparan tasas de cambio y aptitud entre sistemas con distinto sexo.
+- **Límite:** el signo y magnitud cambian con ambiente, ploidía, arquitectura genética y costo.
+- **Confianza:** `A-B` dentro de cada experimento; `C` para generalización.
+
+### CLAIM-SEX-ORIGIN-MAINTENANCE-001
+
+- **Dato/modelo:** una ventaja que mantiene sexo en poblaciones modernas no identifica necesariamente la presión que ensambló el primer ciclo.
+- **Puente:** origen, estabilización y mantenimiento son problemas históricos y poblacionales distintos.
+- **No afirma:** que los experimentos modernos sean irrelevantes; delimitan mecanismos posibles y condiciones.
+- **Confianza:** `A-LOG`.
+
+### CLAIM-SEX-COST-001
+
+- **Dato/modelo:** sexo puede romper combinaciones favorables, exigir pareja o fusión, reducir transmisión por progenitor y cambiar espectros mutacionales; sus costos dependen del ciclo.
+- **Puente:** contabilidad genética y demográfica compara descendencia, recombinación y aptitud entre estrategias.
+- **Límite:** el «doble costo de los machos» no se aplica sin más a isogamia, hermafroditismo o sexo facultativo.
+- **Confianza:** `A-B` para costos definidos; `C` para predominio universal.
+
+### CLAIM-SEX-ANISOGAMY-001
+
+- **Dato:** mating types y fusión isógama existen sin macho/hembra; anisogamia y rasgos sexuales dimórficos aparecieron repetidamente en linajes derivados.
+- **Puente:** filogenias, regiones determinantes y desarrollo comparado reconstruyen transiciones desde gametos similares a tamaños distintos.
+- **No afirma:** una única invención ni una región sexual grande como requisito; *Eudorina* muestra anisogamia con región masculina compacta.
+- **Confianza:** `B` para origen derivado/repetido; `C` para rutas causales generales.
+
+### CLAIM-SEX-FOSSIL-001
+
+- **Dato:** *Bangiomorpha pubescens* combina morfología bangial y una primera aparición datada en `1.047 +0.013/−0.017 Ga`.
+- **Puente:** afinidad y patrón de desarrollo permiten interpretar reproducción sexual diferenciada y usar la edad de roca como mínimo condicionado.
+- **No afirma:** observación de meiosis, fecha del origen del sexo ni edad de LECA.
+- **Confianza:** `B-COND` para presencia sexual; `C` para anisogamia/oogamia.
 
 ## Claims futuros
 

@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Cadena desde intercambio genético hasta ciclo sexual eucariota</title>
+  <desc id="desc">La cadena distingue contacto, fusión, cariogamia, replicación, emparejamiento, recombinación, dos segregaciones y productos haploides. Cuatro puertas muestran que transferencia, un gen meiótico, recombinación poblacional o una ventaja moderna no demuestran por sí solos el ciclo ancestral.</desc>
+  <defs>
+    <linearGradient id="bg2" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#07131e"/><stop offset="1" stop-color="#17283a"/></linearGradient>
+    <linearGradient id="flow" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#55c9c8"/><stop offset=".5" stop-color="#a48ce7"/><stop offset="1" stop-color="#f0a168"/></linearGradient>
+    <marker id="arr" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto"><path d="M0 0 L12 6 L0 12Z" fill="#a9bac8"/></marker>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%"><feDropShadow dx="0" dy="7" stdDeviation="8" flood-color="#000812" flood-opacity=".55"/></filter>
+    <style>.h{font:700 40px system-ui,sans-serif;fill:#f5f8fb}.s{font:400 19px system-ui,sans-serif;fill:#b9c8d5}.n{font:800 17px system-ui,sans-serif;fill:#0b1520}.t{font:700 17px system-ui,sans-serif;fill:#f4f7fa}.x{font:400 14px system-ui,sans-serif;fill:#d0dae3}.warn{font:700 17px system-ui,sans-serif;fill:#ffd0b0}.box{filter:url(#shadow);stroke-width:2}.a{fill:none;stroke:#a9bac8;stroke-width:3;marker-end:url(#arr)}</style>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg2)"/>
+  <text x="65" y="65" class="h">De intercambio genético a ciclo sexual</text>
+  <text x="65" y="99" class="s">Cerrar el ciclo exige coordinar módulos; ninguna pieza aislada conserva la primera secuencia.</text>
+  <rect x="65" y="139" width="1470" height="10" rx="5" fill="url(#flow)"/>
+
+  <g>
+    <rect x="55" y="199" width="160" height="150" rx="20" class="box" fill="#153f4a" stroke="#55c9c8"/><circle cx="85" cy="230" r="17" fill="#55c9c8"/><text x="85" y="236" text-anchor="middle" class="n">1</text><text x="78" y="276" class="t">Compatibilidad</text><text x="78" y="304" class="x">contacto y</text><text x="78" y="327" class="x">reconocimiento</text>
+    <path d="M215 274 H238" class="a"/>
+    <rect x="248" y="199" width="160" height="150" rx="20" class="box" fill="#1d3e50" stroke="#75b9d6"/><circle cx="278" cy="230" r="17" fill="#75b9d6"/><text x="278" y="236" text-anchor="middle" class="n">2</text><text x="271" y="276" class="t">Fusión</text><text x="271" y="304" class="x">membranas y</text><text x="271" y="327" class="x">citoplasmas</text>
+    <path d="M408 274 H431" class="a"/>
+    <rect x="441" y="199" width="160" height="150" rx="20" class="box" fill="#293a51" stroke="#929fe0"/><circle cx="471" cy="230" r="17" fill="#929fe0"/><text x="471" y="236" text-anchor="middle" class="n">3</text><text x="464" y="276" class="t">Cariogamia</text><text x="464" y="304" class="x">genomas en</text><text x="464" y="327" class="x">un núcleo</text>
+    <path d="M601 274 H624" class="a"/>
+    <rect x="634" y="199" width="160" height="150" rx="20" class="box" fill="#343650" stroke="#ae98dd"/><circle cx="664" cy="230" r="17" fill="#ae98dd"/><text x="664" y="236" text-anchor="middle" class="n">4</text><text x="657" y="276" class="t">Replicación</text><text x="657" y="304" class="x">homólogos y</text><text x="657" y="327" class="x">cromátidas</text>
+    <path d="M794 274 H817" class="a"/>
+    <rect x="827" y="199" width="160" height="150" rx="20" class="box" fill="#40334c" stroke="#c58dc9"/><circle cx="857" cy="230" r="17" fill="#c58dc9"/><text x="857" y="236" text-anchor="middle" class="n">5</text><text x="850" y="276" class="t">Emparejar</text><text x="850" y="304" class="x">búsqueda de</text><text x="850" y="327" class="x">homología</text>
+    <path d="M987 274 H1010" class="a"/>
+    <rect x="1020" y="199" width="160" height="150" rx="20" class="box" fill="#4b3545" stroke="#db8da5"/><circle cx="1050" cy="230" r="17" fill="#db8da5"/><text x="1050" y="236" text-anchor="middle" class="n">6</text><text x="1043" y="276" class="t">Recombinar</text><text x="1043" y="304" class="x">rotura, reparación</text><text x="1043" y="327" class="x">y crossover</text>
+    <path d="M1180 274 H1203" class="a"/>
+    <rect x="1213" y="199" width="160" height="150" rx="20" class="box" fill="#573a39" stroke="#e8948e"/><circle cx="1243" cy="230" r="17" fill="#e8948e"/><text x="1243" y="236" text-anchor="middle" class="n">7</text><text x="1236" y="276" class="t">Segregar I/II</text><text x="1236" y="304" class="x">homólogos y</text><text x="1236" y="327" class="x">cromátidas</text>
+    <path d="M1373 274 H1396" class="a"/>
+    <rect x="1406" y="199" width="139" height="150" rx="20" class="box" fill="#67422d" stroke="#f0a168"/><circle cx="1436" cy="230" r="17" fill="#f0a168"/><text x="1436" y="236" text-anchor="middle" class="n">8</text><text x="1429" y="276" class="t">Haploides</text><text x="1429" y="304" class="x">productos</text><text x="1429" y="327" class="x">viables</text>
+  </g>
+
+  <text x="65" y="419" class="t">Puertas epistemológicas</text>
+  <g>
+    <rect x="65" y="450" width="340" height="116" rx="17" fill="#30262e" stroke="#da7e88" stroke-width="2"/><text x="90" y="486" class="warn">Transferencia ≠ sexo</text><text x="90" y="518" class="x">DNA puede entrar por HGT, virus</text><text x="90" y="542" class="x">o transformación sin cerrar el ciclo.</text>
+    <rect x="430" y="450" width="340" height="116" rx="17" fill="#30262e" stroke="#da7e88" stroke-width="2"/><text x="455" y="486" class="warn">Gen meiótico ≠ meiosis</text><text x="455" y="518" class="x">Presencia predice capacidad; función</text><text x="455" y="542" class="x">y coordinación deben demostrarse.</text>
+    <rect x="795" y="450" width="340" height="116" rx="17" fill="#30262e" stroke="#da7e88" stroke-width="2"/><text x="820" y="486" class="warn">Recombinación ≠ mecanismo</text><text x="820" y="518" class="x">Ligamiento y haplotipos rechazan</text><text x="820" y="542" class="x">clonación, pero no eligen la ruta.</text>
+    <rect x="1160" y="450" width="375" height="116" rx="17" fill="#30262e" stroke="#da7e88" stroke-width="2"/><text x="1185" y="486" class="warn">Ventaja moderna ≠ origen</text><text x="1185" y="518" class="x">Aptitud experimental explica un</text><text x="1185" y="542" class="x">contexto, no la transición pre-LECA.</text>
+  </g>
+
+  <rect x="65" y="624" width="715" height="170" rx="22" fill="#173440" stroke="#58c8c6" stroke-width="2" filter="url(#shadow)"/>
+  <text x="95" y="665" class="t">Lo que converge</text>
+  <text x="95" y="702" class="x">• repertorios meióticos en ramas profundas</text>
+  <text x="95" y="731" class="x">• duplicaciones anteriores a LECA + función experimental</text>
+  <text x="95" y="760" class="x">• fusión, ploidía y reducción en ciclos eucariotas diversos</text>
+
+  <rect x="820" y="624" width="715" height="170" rx="22" fill="#40302d" stroke="#efa169" stroke-width="2" filter="url(#shadow)"/>
+  <text x="850" y="665" class="t">Resultado delimitado</text>
+  <text x="850" y="702" class="x">LECA heredó una maquinaria meiótica extensa y probablemente</text>
+  <text x="850" y="731" class="x">un ciclo con fusión. Orden, frecuencia, ventaja inicial, fusógeno</text>
+  <text x="850" y="760" class="x">precursor, fecha y ambiente continúan abiertos.</text>
+
+  <text x="800" y="851" text-anchor="middle" class="s">Cadena conceptual: macho y hembra son derivados; compatibilidad y reducción son más antiguas.</text>
+</svg>

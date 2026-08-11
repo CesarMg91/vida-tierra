@@ -378,3 +378,21 @@ duplicaciones + fósiles ─→ reloj / edad mínima ─────────
 ```
 
 Véase `INV-LIFE-EUK-001` en `10_evolucion_vida`, su mapa en `assets/visuales/mapa-investigacion-017.svg` y la cadena en `assets/visuales/de-simbiosis-a-organelo.svg`.
+
+La ruta específica del origen y función del sexo es:
+
+```text
+reparación homóloga + Top6A ─→ Spo11 / rotura programada ───────────┐
+ortólogos en ramas profundas ─→ repertorio meiótico de LECA ────────┤
+HAP2 + Fsx1 ─────────────────→ fusión antigua, dirección abierta ───┤
+ciclos + genómica poblacional → sexo/intercambio críptico ──────────┤
+experimentos controlados ─────→ ventajas y costos contextuales ─────┤
+Bangiomorpha + Re–Os ─────────→ mínimo fósil condicionado ──────────┘
+                                           ↓
+                    meiosis extensa antes de LECA: B
+                    ciclo sexual completo en LECA: B-COND
+                    orden, función inicial y fusógeno: C-D
+                    fecha absoluta del origen: D
+```
+
+Véase `INV-LIFE-SEX-001` en `10_evolucion_vida`, su mapa en `assets/visuales/mapa-investigacion-018.svg` y la cadena en `assets/visuales/de-intercambio-a-ciclo-sexual.svg`.

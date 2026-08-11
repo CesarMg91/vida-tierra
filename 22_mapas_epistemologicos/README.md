@@ -19,3 +19,4 @@ Grafos de dependencias entre objetos, mediciones, principios, modelos, claims y 
 - [`MAPA_015_GRAN_OXIDACION.md`](MAPA_015_GRAN_OXIDACION.md): muestra, señal, proceso y reservorio; distingue el umbral `S‑MIF`, la meteorización, la plataforma y la profundidad oceánica.
 - [`MAPA_016_LUCA.md`](MAPA_016_LUCA.md): secuencia, familia, árbol, reconciliación y rasgo; separa núcleo molecular robusto, arquitectura condicionada y retrato histórico abierto.
 - [`MAPA_017_EUCARIOGENESIS.md`](MAPA_017_EUCARIOGENESIS.md): árboles nucleares y mitocondriales, ESP, MRO, LECA, fósiles y relojes; conserva abiertos el mecanismo físico, las membranas y la cronología fina.
+- [`MAPA_018_SEXO.md`](MAPA_018_SEXO.md): módulos sexuales ancestrales, sexo críptico, ventajas experimentales, anisogamia y edad mínima fósil sin convertirlos en una sola observación.
