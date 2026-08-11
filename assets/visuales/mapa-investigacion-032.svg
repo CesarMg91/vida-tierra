@@ -1,0 +1,99 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Mapa de evidencia de la Investigación 032 sobre el Paleógeno</title>
+  <desc id="desc">Cinco columnas separan fronteras, recuperación, árboles mamalianos, mosaicos primates y cetáceos, y clima del PETM y del límite Eoceno Oligoceno.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#07191b"/>
+      <stop offset="1" stop-color="#10282a"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="8" stdDeviation="9" flood-color="#000" flood-opacity=".35"/>
+    </filter>
+    <style>
+      .h1{font:700 42px 'Segoe UI',Arial,sans-serif;fill:#f2ead9}.sub{font:20px 'Segoe UI',Arial,sans-serif;fill:#b8cdca}.k{font:700 23px 'Segoe UI',Arial,sans-serif;fill:#fff}.t{font:18px 'Segoe UI',Arial,sans-serif;fill:#e8e5da}.s{font:16px 'Segoe UI',Arial,sans-serif;fill:#bac9c6}.tag{font:700 14px 'Segoe UI',Arial,sans-serif;letter-spacing:1.5px}.line{stroke:#86aaa6;stroke-width:3;fill:none}.dash{stroke:#86aaa6;stroke-width:2;stroke-dasharray:7 8;fill:none}.card{stroke:#426764;stroke-width:2;rx:18;filter:url(#shadow)}
+    </style>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#86aaa6"/></marker>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <circle cx="1400" cy="80" r="180" fill="#183b3c" opacity=".35"/>
+  <text x="70" y="72" class="h1">PALEÓGENO: CINCO RELOJES, NO UNA MARCHA</text>
+  <text x="72" y="108" class="sub">Objeto → medición → puente → inferencia delimitada → salto prohibido</text>
+
+  <g transform="translate(55 155)">
+    <rect class="card" width="280" height="570" fill="#17393a"/>
+    <rect width="280" height="58" rx="18" fill="#2d7771"/><rect y="40" width="280" height="18" fill="#2d7771"/>
+    <text x="22" y="38" class="k">1  FRONTERAS</text>
+    <text x="22" y="94" class="tag" fill="#79d2c6">OBJETOS</text>
+    <text x="22" y="127" class="t"><tspan x="22">Dababiya</tspan><tspan x="22" dy="28">Massignano</tspan><tspan x="22" dy="28">Lemme–Carrosio</tspan></text>
+    <path d="M140 208V254" class="line" marker-end="url(#arrow)"/>
+    <text x="22" y="287" class="tag" fill="#79d2c6">MIDE</text>
+    <text x="22" y="320" class="t"><tspan x="22">lecho, marcador,</tspan><tspan x="22" dy="28">polaridad, correlación</tspan></text>
+    <path d="M140 375V421" class="line" marker-end="url(#arrow)"/>
+    <text x="22" y="454" class="tag" fill="#79d2c6">PERMITE</text>
+    <text x="22" y="487" class="t"><tspan x="22">66.0 → 56.0 → 33.9</tspan><tspan x="22" dy="28">→ 23.04 Ma</tspan></text>
+    <text x="22" y="548" class="s">No explica clima o causa.</text>
+  </g>
+
+  <g transform="translate(355 155)">
+    <rect class="card" width="280" height="570" fill="#26362d"/>
+    <rect width="280" height="58" rx="18" fill="#667843"/><rect y="40" width="280" height="18" fill="#667843"/>
+    <text x="20" y="38" class="k">2  RECUPERACIÓN</text>
+    <text x="22" y="94" class="tag" fill="#d4d890">ARCHIVOS</text>
+    <text x="22" y="127" class="t"><tspan x="22">fósiles + polen</tspan><tspan x="22" dy="28">cenizas + magnetismo</tspan><tspan x="22" dy="28">facies + muestreo</tspan></text>
+    <path d="M140 208V254" class="line" marker-end="url(#arrow)"/>
+    <text x="22" y="287" class="tag" fill="#d4d890">SEPARA</text>
+    <text x="22" y="320" class="t"><tspan x="22">presencia / riqueza</tspan><tspan x="22" dy="28">talla / función / región</tspan></text>
+    <path d="M140 375V421" class="line" marker-end="url(#arrow)"/>
+    <text x="22" y="454" class="tag" fill="#d4d890">PERMITE</text>
+    <text x="22" y="487" class="t"><tspan x="22">curvas regionales</tspan><tspan x="22" dy="28">y heterocrónicas</tspan></text>
+    <text x="22" y="548" class="s">No prueba un «triunfo».</text>
+  </g>
+
+  <g transform="translate(655 155)">
+    <rect class="card" width="280" height="570" fill="#392d25"/>
+    <rect width="280" height="58" rx="18" fill="#9a603b"/><rect y="40" width="280" height="18" fill="#9a603b"/>
+    <text x="20" y="38" class="k">3  MAMÍFEROS</text>
+    <text x="22" y="94" class="tag" fill="#efbd87">DATOS</text>
+    <text x="22" y="127" class="t"><tspan x="22">dientes + esqueletos</tspan><tspan x="22" dy="28">genomas + ocurrencias</tspan><tspan x="22" dy="28">crecimiento dental</tspan></text>
+    <path d="M140 208V254" class="line" marker-end="url(#arrow)"/>
+    <text x="22" y="287" class="tag" fill="#efbd87">PUENTES</text>
+    <text x="22" y="320" class="t"><tspan x="22">homología / árbol</tspan><tspan x="22" dy="28">reloj / calibración</tspan></text>
+    <path d="M140 375V421" class="line" marker-end="url(#arrow)"/>
+    <text x="22" y="454" class="tag" fill="#efbd87">PERMITE</text>
+    <text x="22" y="487" class="t"><tspan x="22">nodos y radiaciones</tspan><tspan x="22" dy="28">condicionados</tspan></text>
+    <text x="22" y="548" class="s">Eutheria ≠ Placentalia.</text>
+  </g>
+
+  <g transform="translate(955 155)">
+    <rect class="card" width="280" height="570" fill="#2f2937"/>
+    <rect width="280" height="58" rx="18" fill="#765b91"/><rect y="40" width="280" height="18" fill="#765b91"/>
+    <text x="20" y="38" class="k">4  MOSAICOS</text>
+    <text x="22" y="94" class="tag" fill="#d7c2ed">PRIMATES</text>
+    <text x="22" y="127" class="t"><tspan x="22">diente + tobillo</tspan><tspan x="22" dy="28">esqueleto + CT</tspan><tspan x="22" dy="28">matriz filogenética</tspan></text>
+    <text x="22" y="222" class="tag" fill="#d7c2ed">CETÁCEOS</text>
+    <text x="22" y="255" class="t"><tspan x="22">oído + astrágalo</tspan><tspan x="22" dy="28">pelvis + miembros</tspan><tspan x="22" dy="28">dientes + columna</tspan></text>
+    <path d="M140 336V392" class="line" marker-end="url(#arrow)"/>
+    <text x="22" y="425" class="tag" fill="#d7c2ed">PERMITE</text>
+    <text x="22" y="458" class="t"><tspan x="22">orden parcial de rasgos</tspan><tspan x="22" dy="28">y capacidades</tspan></text>
+    <text x="22" y="548" class="s">No crea ancestros directos.</text>
+  </g>
+
+  <g transform="translate(1255 155)">
+    <rect class="card" width="290" height="570" fill="#172f3e"/>
+    <rect width="290" height="58" rx="18" fill="#39708f"/><rect y="40" width="290" height="18" fill="#39708f"/>
+    <text x="20" y="38" class="k">5  CLIMA</text>
+    <text x="22" y="94" class="tag" fill="#a8d9f0">PETM</text>
+    <text x="22" y="127" class="t"><tspan x="22">δ13C + δ11B</tspan><tspan x="22" dy="28">carbonato + Hg</tspan><tspan x="22" dy="28">edad–profundidad</tspan></text>
+    <text x="22" y="222" class="tag" fill="#a8d9f0">EOT</text>
+    <text x="22" y="255" class="t"><tspan x="22">δ18O + termómetro</tspan><tspan x="22" dy="28">nivel del mar</tspan><tspan x="22" dy="28">microfósiles</tspan></text>
+    <path d="M145 336V392" class="line" marker-end="url(#arrow)"/>
+    <text x="22" y="425" class="tag" fill="#a8d9f0">PERMITE</text>
+    <text x="22" y="458" class="t"><tspan x="22">balances de carbono</tspan><tspan x="22" dy="28">e hielo condicionados</tspan></text>
+    <text x="22" y="548" class="s">Proxy ≠ fuente o volumen.</text>
+  </g>
+
+  <path d="M190 754H1400" class="dash"/>
+  <text x="70" y="806" class="k">CONVERGENCIA PERMITIDA</text>
+  <text x="70" y="841" class="sub">cronología + anatomía + filogenia + geoquímica → una historia ramificada con incertidumbre explícita</text>
+  <text x="1220" y="842" class="s">INV-PALEOGENE-001</text>
+</svg>

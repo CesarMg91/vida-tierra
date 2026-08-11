@@ -405,6 +405,30 @@ Este archivo es el índice canónico. La letra de confianza califica exactamente
 | `CLAIM-KPG-CRATER-RECOVERY-001` | El cráter fue recolonizado en años y reunió una comunidad planctónica diversa en decenas de milenios. | B-COND local | AUDITADO | `EVID-KPG-CRATER-RECOVERY-001` | `INV-KPG-001` |
 | `CLAIM-KPG-CONTINENTAL-RECOVERY-001` | Corral Bluffs registra recuperación escalonada de riqueza/tamaño mamalianos y floras durante los primeros `100–300 kyr`. | B-COND regional | AUDITADO | `EVID-KPG-CONTINENTAL-RECOVERY-001` | `INV-KPG-001` |
 | `CLAIM-KPG-RECOVERY-HETEROCHRONY-001` | Presencia, productividad, riqueza, disparidad, redes y exportación de carbono se recuperaron a ritmos de años a millones de años. | B-COND | AUDITADO | `EVID-KPG-RECOVERY-HETEROCHRONY-001` | `INV-KPG-001` |
+| `CLAIM-PALEOGENE-SCOPE-001` | Fronteras, recuperación, nodos, mosaicos anatómicos y clima son cinco relojes relacionados pero no sustituibles. | A-SEM | AUDITADO | `EVID-PALEOGENE-BOUNDARIES-001`, `EVID-PALEOGENE-RECOVERY-001`, `EVID-PALEOGENE-PLACENTAL-TIMING-001`, `EVID-PALEOGENE-CETACEAN-MOSAIC-001`, `EVID-PALEOGENE-PETM-SIGNAL-001` | `INV-PALEOGENE-001` |
+| `CLAIM-PALEOGENE-BOUNDARIES-001` | El Paleógeno se calibra entre `66.0–23.04 Ma`, con Paleoceno, Eoceno y Oligoceno definidos mediante GSSP y no sólo números. | A arquitectura; B edades | AUDITADO | `EVID-PALEOGENE-BOUNDARIES-001` | `INV-PALEOGENE-001` |
+| `CLAIM-PALEOGENE-EOCENE-GSSP-001` | La base ypresiense/eocena está en la base del Lecho 1 de Dababiya, donde inicia la excursión isotópica de carbono del PETM. | A horizonte; B correlación | AUDITADO | `EVID-PALEOGENE-BOUNDARIES-001`, `EVID-PALEOGENE-PETM-SIGNAL-001` | `INV-PALEOGENE-001` |
+| `CLAIM-PALEOGENE-OLIGOCENE-GSSP-001` | La base rupeliense/oligocena está en Massignano y se asocia con la desaparición de hantkenínidos; no equivale al intervalo completo de glaciación. | A horizonte; B correlación | AUDITADO | `EVID-PALEOGENE-BOUNDARIES-001`, `EVID-PALEOGENE-EOT-001` | `INV-PALEOGENE-001` |
+| `CLAIM-PALEOGENE-END-001` | El Paleógeno termina formalmente en la base aquitaniense del Mioceno/Neógeno, calibrada en `23.04 Ma`. | A horizonte; B edad | AUDITADO | `EVID-PALEOGENE-BOUNDARIES-001` | `INV-PALEOGENE-001` |
+| `CLAIM-PALEOGENE-RECOVERY-001` | Corral Bluffs registra recuperación escalonada de mamíferos y plantas durante el primer millón de años, sin representar automáticamente al planeta. | B-COND regional | AUDITADO | `EVID-PALEOGENE-RECOVERY-001` | `INV-PALEOGENE-001` |
+| `CLAIM-PALEOGENE-MAMMAL-DIVERSITY-001` | La radiación paleógena incorporó linajes supervivientes, inmigración y nuevas morfologías; Mammalia y varias radiaciones dentales anteceden K–Pg. | A-B diversidad; B-COND proceso | AUDITADO | `EVID-PALEOGENE-MAMMAL-RADIATION-001` | `INV-PALEOGENE-001` |
+| `CLAIM-PALEOGENE-MAMMAL-SIZE-001` | La talla máxima mamaliana terrestre aumentó durante decenas de Myr y alcanzó mesetas distintas por continente/orden; no describe la talla típica. | B-COND | AUDITADO | `EVID-PALEOGENE-MAMMAL-SIZE-001` | `INV-PALEOGENE-001` |
+| `CLAIM-PALEOGENE-PLACENTAL-TIMING-001` | Morfología, genomas y ocurrencias sostienen modelos explosivo, de mecha larga e híbrido para Placentalia; los objetos fechados no son equivalentes. | B-COND patrón; C-D nodo exacto | AUDITADO | `EVID-PALEOGENE-PLACENTAL-TIMING-001` | `INV-PALEOGENE-001` |
+| `CLAIM-PALEOGENE-PLACENTAL-LIFE-HISTORY-001` | Incrementos y elementos traza dentales de `Pantolambda` apoyan gestación prolongada y desarrollo precocial en ese taxón, no en todo placentario temprano. | B-COND | AUDITADO | `EVID-PALEOGENE-PANTOLAMBDA-001` | `INV-PALEOGENE-001` |
+| `CLAIM-PALEOGENE-PURGATORIUS-001` | Dientes de `Purgatorius` aparecen `105–139 kyr` pos-K–Pg y apoyan primates de tallo/plesiadapiformes, no monos ni corona automáticamente. | A-B edad/presencia; B-COND posición | AUDITADO | `EVID-PALEOGENE-PURGATORIUS-001` | `INV-PALEOGENE-001` |
+| `CLAIM-PALEOGENE-EUPRIMATE-001` | Euprimates inequívocos aparecen cerca de `56–55 Ma`; `Archicebus` de ~`55 Ma` fue recuperado como tarsiiforme basal en su matriz. | A-B anatomía/edad; B-COND posición | AUDITADO | `EVID-PALEOGENE-EUPRIMATE-001` | `INV-PALEOGENE-001` |
+| `CLAIM-PALEOGENE-PRIMATE-DISPERSAL-001` | La ordenación isotópica de `Teilhardina` permite una dispersión Asia–Europa–Norteamérica en ~`25 kyr`, condicionada por taxonomía y edad–profundidad. | C-COND | AUDITADO | `EVID-PALEOGENE-PRIMATE-DISPERSAL-001` | `INV-PALEOGENE-001` |
+| `CLAIM-PALEOGENE-PRIMATE-MOSAIC-001` | Dientes, tobillos, esqueletos y árboles documentan adquisición en mosaico de rasgos primates; ningún fósil constituye un eslabón lineal. | A-SEM; B-COND anatomía | AUDITADO | `EVID-PALEOGENE-PURGATORIUS-001`, `EVID-PALEOGENE-EUPRIMATE-001` | `INV-PALEOGENE-001` |
+| `CLAIM-PALEOGENE-CETACEAN-ORIGIN-001` | Cetacea se anida en Artiodactyla; hipopótamos son parientes vivos, y raoélidos como `Indohyus` son próximos, no ancestros individuales demostrados. | A-B clado; B-COND fósiles | AUDITADO | `EVID-PALEOGENE-CETACEAN-ROOT-001` | `INV-PALEOGENE-001` |
+| `CLAIM-PALEOGENE-CETACEAN-TERRESTRIAL-001` | Paquicétidos combinan oído cetáceo con miembros de soporte terrestre; `Kalakocetus` añade un mosaico dental basal en 2026. | A-B anatomía; B-PROV posición nueva | AUDITADO | `EVID-PALEOGENE-CETACEAN-TERRESTRIAL-001` | `INV-PALEOGENE-001` |
+| `CLAIM-PALEOGENE-CETACEAN-AMPHIBIOUS-001` | `Ambulocetus` y protocétidos documentan pelvis, miembros y tobillos compatibles con fases anfibias y relación artiodáctila. | A-B anatomía; B-COND función | AUDITADO | `EVID-PALEOGENE-CETACEAN-AMPHIBIOUS-001` | `INV-PALEOGENE-001` |
+| `CLAIM-PALEOGENE-CETACEAN-PELAGIC-001` | Basilosáuridos fueron acuáticos obligados y conservaron miembros posteriores reducidos; los módulos cambiaron a ritmos distintos. | A-B anatomía; B función | AUDITADO | `EVID-PALEOGENE-CETACEAN-MOSAIC-001` | `INV-PALEOGENE-001` |
+| `CLAIM-PALEOGENE-PETM-SIGNAL-001` | El PETM cerca de `56 Ma` combina CIE negativa mundial, calentamiento y disolución de carbonato por una gran entrada de carbono ligero. | A-B | AUDITADO | `EVID-PALEOGENE-PETM-SIGNAL-001` | `INV-PALEOGENE-001` |
+| `CLAIM-PALEOGENE-PETM-FORCING-001` | Carbonato y boro sostienen acidificación oceánica rápida y recuperación prolongada; magnitud de pH y masa requieren modelos. | B-COND | AUDITADO | `EVID-PALEOGENE-PETM-FORCING-001` | `INV-PALEOGENE-001` |
+| `CLAIM-PALEOGENE-PETM-SOURCE-001` | NAIP y carbono volcánico/termogénico tienen apoyo fuerte, pero el reparto con retroalimentaciones de reservorios superficiales sigue abierto. | B-COND; C reparto | AUDITADO | `EVID-PALEOGENE-PETM-SOURCE-001` | `INV-PALEOGENE-001` |
+| `CLAIM-PALEOGENE-PETM-RATE-001` | Un modelo estima inicio ≥`4 kyr` y tasa sostenida <`1.1 Pg C/año`; el PETM no replica la velocidad industrial moderna. | B-COND | AUDITADO | `EVID-PALEOGENE-PETM-RATE-001` | `INV-PALEOGENE-001` |
+| `CLAIM-PALEOGENE-PETM-BIOTA-001` | `Sifrhippus` redujo ~`30 %` su masa estimada y luego se recuperó en Wyoming; es una respuesta regional, no una regla universal. | B-COND regional | AUDITADO | `EVID-PALEOGENE-PETM-BIOTA-001` | `INV-PALEOGENE-001` |
+| `CLAIM-PALEOGENE-EOT-001` | La transición Eoceno–Oligoceno (~`34.4–33.7 Ma`) registra dos pasos isotópicos, caída eustática y expansión del hielo antártico, no un instante único. | B-COND | AUDITADO | `EVID-PALEOGENE-EOT-001` | `INV-PALEOGENE-001` |
 
 ## Fichas resumidas
 
@@ -2604,6 +2628,49 @@ Este archivo es el índice canónico. La letra de confianza califica exactamente
 - **Formulación:** la recuperación necesita variable, región y reloj.
 - **No afirma:** retorno a la comunidad cretácica ni sincronía global.
 - **Confianza:** B-COND; alta para orden local, menor para extrapolación.
+
+## Investigación 032 — Paleógeno: recuperación, mamíferos, primates, ballenas y PETM
+
+### CLAIM-PALEOGENE-SCOPE-001 / BOUNDARIES-001 / EOCENE-GSSP-001 / OLIGOCENE-GSSP-001 / END-001
+
+- **Formulación:** los lechos formales ordenan el intervalo sin contener su historia causal.
+- **No afirma:** que la edad numérica sea la definición ni que evento y frontera sean idénticos.
+- **Confianza:** A para arquitectura/horizonte; B para edades y correlación.
+
+### CLAIM-PALEOGENE-RECOVERY-001 / MAMMAL-DIVERSITY-001 / MAMMAL-SIZE-001
+
+- **Formulación:** recuperación, diversidad y talla siguieron curvas regionales y métricas distintas.
+- **No afirma:** sustitución inmediata de dinosaurios por placentarios ni dominancia uniforme.
+- **Falsador:** series globales comparables que muestren una sola curva sin desfases.
+
+### CLAIM-PALEOGENE-PLACENTAL-TIMING-001 / PLACENTAL-LIFE-HISTORY-001
+
+- **Formulación:** nodo de corona, radiación ordinal, disparidad e historia de vida no comparten un reloj obligatorio.
+- **Alternativas:** explosiva pos-K–Pg, mecha larga cretácica e híbrida.
+- **Límite:** `Pantolambda` es un taxón y su fisiología es una inferencia dental.
+
+### CLAIM-PALEOGENE-PURGATORIUS-001 / EUPRIMATE-001 / PRIMATE-DISPERSAL-001 / PRIMATE-MOSAIC-001
+
+- **Formulación:** primates de tallo y euprimates se separan por nodo y anatomía; la dispersión depende de correlación fina.
+- **No afirma:** primer mono, ancestro humano o una marcha Purgatorius–Archicebus–humanos.
+- **Confianza:** A-B para fósiles/edades; B-C para topologías; C-COND para ruta rápida.
+
+### CLAIM-PALEOGENE-CETACEAN-ORIGIN-001 / TERRESTRIAL-001 / AMPHIBIOUS-001 / PELAGIC-001
+
+- **Formulación:** oído, dientes, tobillo, pelvis, miembros y cola documentan transformación en mosaico dentro de Artiodactyla.
+- **No afirma:** que hipopótamos o `Indohyus` sean ancestros ni que cada fósil forme una fila directa.
+- **Falsador:** esqueletos basales que inviertan establemente el orden de caracteres bajo árboles amplios.
+
+### CLAIM-PALEOGENE-PETM-SIGNAL-001 / FORCING-001 / SOURCE-001 / RATE-001 / BIOTA-001
+
+- **Formulación:** perturbación de carbono, calentamiento y acidificación son robustos; masa, mezcla de fuentes, tasa y respuesta se modelan.
+- **Alternativa fuerte:** un reservorio no volcánico que cierre firma, masa, tiempo y geología sin NAIP dominante.
+- **No afirma:** analogía exacta con emisiones modernas ni respuesta biológica mundial uniforme.
+
+### CLAIM-PALEOGENE-EOT-001
+
+- **Formulación:** dos pasos y varias proxies separan frontera, enfriamiento, eustasia y hielo.
+- **Límite:** `δ18O` mezcla temperatura y volumen; la extensión glacial es modelada.
 
 ## Claims futuros
 

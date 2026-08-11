@@ -238,6 +238,20 @@ El propósito no es presentar la ciencia como una sucesión de fracasos ni como 
 | `ERR-KPG-SURVIVOR-TRAIT-001` | ser pequeño o terrestre garantizó sobrevivir | asociación de rasgo convertida en regla | distribución, covariables y excepciones conservadas | DOCUMENTADO |
 | `ERR-KPG-DINOSAUR-DECLINE-001` | todos los dinosaurios ya agonizaban | curva/modelo regional convertido en censo mundial | roca, provincia y modelos rivales comparados | DOCUMENTADO |
 | `ERR-KPG-RECOVERY-DATE-001` | la biosfera se recuperó en una fecha | variables ecológicas colapsadas | presencia, función, riqueza, red y región separadas | DOCUMENTADO |
+| `ERR-PALEOGENE-AGE-EVENT-001` | una cifra define y explica cada frontera | edad numérica convertida en lecho y causa | GSSP, calibración y evento separados | DOCUMENTADO |
+| `ERR-PALEOGENE-MAMMALS-START-001` | los mamíferos aparecieron tras K–Pg | radiación convertida en origen | Mammalia, supervivencia y radiaciones prefrontera distinguidas | DOCUMENTADO |
+| `ERR-PALEOGENE-EUTHERIAN-PLACENTAL-001` | todo euterio es un placentario corona | grupo total confundido con corona | Eutheria y Placentalia definidos por nodo | DOCUMENTADO |
+| `ERR-PALEOGENE-PLACENTAL-AVERAGE-001` | promediar relojes da la fecha real de Placentalia | objetos/modelos distintos convertidos en réplicas | nodo, orden, fósil y disparidad separados | DOCUMENTADO |
+| `ERR-PALEOGENE-PURGATORIUS-MONKEY-001` | `Purgatorius` fue el primer mono | primate de tallo convertido en corona moderna | plesiadapiforme/Pan-Primates y Euprimates separados | DOCUMENTADO |
+| `ERR-PALEOGENE-BASAL-ANCESTOR-001` | basal significa ancestro directo y primitivo | topología convertida en jerarquía/progenitor | rama, carácter y ancestro diferenciados | DOCUMENTADO |
+| `ERR-PALEOGENE-PRIMATE-LADDER-001` | fósiles primates forman una escalera hacia humanos | orden temporal convertido en genealogía | árbol, ramas laterales y homoplasia explícitos | DOCUMENTADO |
+| `ERR-PALEOGENE-WHALE-PARADE-001` | arqueocetos son una fila terrestre–anfibia–marina | mosaico ramificado convertido en desfile | módulos anatómicos y topologías separados | DOCUMENTADO |
+| `ERR-PALEOGENE-HIPPO-ANCESTOR-001` | las ballenas descienden de hipopótamos actuales | grupo hermano convertido en ancestro | parentesco vivo y tallos fósiles distinguidos | DOCUMENTADO |
+| `ERR-PALEOGENE-FUNCTION-BEHAVIOR-001` | un hueso muestra exactamente cómo se movía | capacidad biomecánica convertida en conducta | articulación, modelo, rango y huella separados | DOCUMENTADO |
+| `ERR-PALEOGENE-PETM-CIE-SOURCE-001` | la CIE identifica una fuente única | señal de mezcla convertida en reservorio | masa, firma, tiempo y geología cruzados | DOCUMENTADO |
+| `ERR-PALEOGENE-PETM-MODERN-001` | PETM es una copia de emisiones modernas | magnitud/calor convertidos en igualdad de tasa | masa, tasa, fondo y geografía declarados | DOCUMENTADO |
+| `ERR-PALEOGENE-SIFRHIPPUS-GLOBAL-001` | todos los mamíferos se hicieron enanos | serie regional convertida en regla planetaria | taxón, región, masa y mecanismo limitados | DOCUMENTADO |
+| `ERR-PALEOGENE-EOT-INSTANT-001` | el hielo antártico apareció a `33.9 Ma` | GSSP convertido en interruptor climático | pasos isotópicos, eustasia y modelo de hielo separados | DOCUMENTADO |
 | `ERR-LUNAR-APOLLO-INDEPENDENT-001` | tratar sitios Apollo como testigos independientes | ejecta local y sin transporte global | cartografía, Th, geoquímica y escalado de Imbrium | DOCUMENTADO |
 | `ERR-IMPACT-MOON-EARTH-001` | convertir cronología lunar en esterilización terrestre | escala constante de tasa y efecto | dinámica, hidrocodes, atmósfera/océano y archivo terrestre | DOCUMENTADO |
 | `ERR-LUNAR-ABSENCE-001` | “sin fundido antiguo” = “sin impacto antiguo” | supervivencia uniforme hacia atrás | sesgo de preservación y evidencia positiva `4.22–4.33 Ga` | DOCUMENTADO |
@@ -2151,3 +2165,115 @@ Presencia, productividad, riqueza, disparidad, red y exportación tienen relojes
 ### Corrección
 
 Nombrar variable, línea base, región y resolución antes de fechar recuperación.
+
+## ERR-PALEOGENE-AGE-EVENT-001 — El número contiene el acontecimiento
+
+Un número calibrado permite comunicar edad; el GSSP define una posición; la causa necesita otra cadena.
+
+### Corrección
+
+Nombrar lecho, marcador, edad y evento como columnas separadas.
+
+## ERR-PALEOGENE-MAMMALS-START-001 — Los mamíferos comenzaron tras el impacto
+
+Mammalia y varias radiaciones dentales son mesozoicos. K–Pg filtró linajes y abrió oportunidades; no creó el clado.
+
+### Corrección
+
+Separar origen, supervivencia, inmigración, diversificación y dominancia.
+
+## ERR-PALEOGENE-EUTHERIAN-PLACENTAL-001 — Eutheria significa Placentalia
+
+Placentalia es la corona dentro de Eutheria; numerosos fósiles euterios pueden quedar fuera.
+
+### Corrección
+
+Declarar definición de nodo y matriz antes de usar “placentario”.
+
+## ERR-PALEOGENE-PLACENTAL-AVERAGE-001 — Promediar relojes resuelve el nodo
+
+Genomas, morfología y ocurrencias fechan objetos distintos y comparten calibraciones internas.
+
+### Corrección
+
+Comparar predicciones y sensibilidad por modelo, no producir una media sin significado.
+
+## ERR-PALEOGENE-PURGATORIUS-MONKEY-001 — El primer mono
+
+`Purgatorius` se apoya cerca de plesiadapiformes/Pan-Primates y se conoce sobre todo por dientes.
+
+### Corrección
+
+Usar “primate de tallo” condicionado y reservar Euprimates/corona para diagnósticos correspondientes.
+
+## ERR-PALEOGENE-BASAL-ANCESTOR-001 — Basal significa antepasado
+
+Basal describe una posición relativa en un árbol; un fósil puede ser rama hermana y poseer rasgos derivados.
+
+### Corrección
+
+Nombrar el nodo, análisis y caracteres; evitar jerarquías de progreso.
+
+## ERR-PALEOGENE-PRIMATE-LADDER-001 — Una escalera hacia humanos
+
+Purgatóridos, tarsiiformes, adapiformes y antropoides incluyen ramas laterales y convergencias.
+
+### Corrección
+
+Dibujar árboles y mínimos temporales, no flechas de especie a especie.
+
+## ERR-PALEOGENE-WHALE-PARADE-001 — Cada arqueoceto es el siguiente paso
+
+Oído, tobillo, pelvis, dientes y cola cambiaron en ramas y ritmos distintos.
+
+### Corrección
+
+Comparar módulos por taxón y conservar árboles alternativos.
+
+## ERR-PALEOGENE-HIPPO-ANCESTOR-001 — Una ballena salió de un hipopótamo
+
+Hipopótamos son parientes vivos próximos; los linajes comparten un ancestro extinto.
+
+### Corrección
+
+Distinguir grupo hermano vivo, pariente fósil y ancestro individual.
+
+## ERR-PALEOGENE-FUNCTION-BEHAVIOR-001 — El esqueleto filmó una brazada
+
+La biomecánica restringe capacidad; tejidos blandos y conducta real no suelen preservarse.
+
+### Corrección
+
+Declarar articulación, comparadores, rango y predicción independiente.
+
+## ERR-PALEOGENE-PETM-CIE-SOURCE-001 — Carbono ligero significa un reservorio único
+
+La CIE integra mezclas y fraccionamientos. Varias combinaciones producen firmas similares.
+
+### Corrección
+
+Cerrar simultáneamente masa, composición isotópica, tasa, edad y contexto ígneo.
+
+## ERR-PALEOGENE-PETM-MODERN-001 — El PETM es el presente repetido
+
+Comparten física del carbono, pero difieren en tasa, geografía, estado inicial y resolución.
+
+### Corrección
+
+Especificar qué variable se usa como análogo y cuáles no.
+
+## ERR-PALEOGENE-SIFRHIPPUS-GLOBAL-001 — Todo mamífero se volvió enano
+
+El patrón procede de un linaje y cuenca y usa dientes para estimar masa.
+
+### Corrección
+
+Limitar taxón/región y probar plasticidad, selección, inmigración y taxonomía.
+
+## ERR-PALEOGENE-EOT-INSTANT-001 — El hielo apareció en la frontera
+
+La base oligocena es un punto formal; enfriamiento y crecimiento glacial cruzan varios pasos.
+
+### Corrección
+
+Separar GSSP, `δ18O`, temperatura, nivel del mar y volumen de hielo modelado.

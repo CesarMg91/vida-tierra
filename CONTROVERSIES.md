@@ -234,6 +234,15 @@ Una controversia no implica empate. Registra qué parte está realmente abierta,
 | `CONT-KPG-DINOSAUR-DECLINE-001` | ¿Declinaban los dinosaurios antes del impacto? | algunos modelos recuperan caída campaniense | otros no y Nuevo México conserva diversidad terminal | abierta por región/modelo | B local; C-D global |
 | `CONT-KPG-TERRESTRIAL-GLOBALITY-001` | ¿Los filtros terrestres fueron mundiales? | bosque, aves y mamíferos muestran patrones coherentes | muestreo se concentra en Norteamérica | mecanismos plausibles; frecuencias abiertas | B regional; C global |
 | `CONT-KPG-RECOVERY-001` | ¿Cuándo terminó la crisis? | varios archivos muestran retorno temprano | presencia, producción, riqueza y red no coinciden | no existe una fecha sin variable | A-SEM; B-COND tiempos |
+| `CONT-PALEOGENE-PLACENTAL-TIMING-001` | ¿Placentalia se originó antes o después de K–Pg? | genomas/ocurrencias permiten corona cretácica | fenómica y ausencia de fósiles inequívocos favorecen posfrontera | híbrido plausible; nodo abierto | B-COND patrón; C-D edad |
+| `CONT-PALEOGENE-PURGATORIUS-001` | ¿Dónde se ubica `Purgatorius`? | dientes/tobillos apoyan Plesiadapiformes/Pan-Primates | material fragmentario y matrices variables | primate de tallo apoyado; nodo fino abierto | B-COND |
+| `CONT-PALEOGENE-PRIMATE-DISPERSAL-001` | ¿`Teilhardina` cruzó tres continentes en ~25 kyr? | CIE permite orden Asia–Europa–Norteamérica | taxonomía, hiatos y modelos de edad pueden invertir/comprimir | ruta plausible; tasa condicionada | C-COND |
+| `CONT-PALEOGENE-CETACEAN-ROOT-001` | ¿Qué fósiles son hermanos más próximos de Cetacea? | raoélidos comparten oído, hueso denso y rasgos dentales | matrices totales cambian posiciones entre fósiles | Artiodactyla robusto; raíz fósil abierta | A-B clado; C nodo fósil |
+| `CONT-PALEOGENE-CETACEAN-FUNCTION-001` | ¿Cómo se movían los arqueocetos tempranos? | pelvis, miembros y articulaciones permiten biomecánica | tejido blando, conducta y rendimiento no se preservan | capacidades fuertes; modo fino abierto | B-COND |
+| `CONT-PALEOGENE-PETM-SOURCE-001` | ¿Qué reservorios alimentaron el PETM? | pH–C y NAIP favorecen gran aporte volcánico/termogénico | firma, Hg y pulsos requieren retroalimentaciones adicionales | NAIP fuerte; proporciones abiertas | B-COND; C reparto |
+| `CONT-PALEOGENE-PETM-RATE-001` | ¿Cuán rápido entró el carbono? | desfase clima–C impone ≥4 kyr en un registro | suavizado, hiatos y otros núcleos permiten pulsos más rápidos | milenios apoyados; detalle abierto | B-COND |
+| `CONT-PALEOGENE-PETM-BIOTA-001` | ¿El enanismo fue evolución, plasticidad o inmigración? | serie dental sigue clima y tamaño | taxonomía, alometría y movimiento poblacional covarían | cambio regional robusto; mecanismo abierto | B patrón; C causa |
+| `CONT-PALEOGENE-EOT-001` | ¿Qué pesó más en EOT: CO₂, órbita, circulación o hielo? | dos pasos unen enfriamiento y eustasia | proxies/forzamientos comparten edad y modelos | umbral climático robusto; pesos abiertos | B-COND |
 
 ## CONT-COSMOS-H0-001 — Dos rutas hacia la tasa actual
 
@@ -1783,3 +1792,57 @@ Picos de helechos, mamíferos y muchas series de alta resolución proceden de po
 Vida y productividad reaparecen antes que riqueza, tamaño, exportación o complejidad trófica. Elegir un indicador cambia la fecha por órdenes de magnitud.
 
 **Prueba discriminatoria:** declarar variable y línea base y comparar curvas, no etiquetas de «recuperado».
+
+## CONT-PALEOGENE-PLACENTAL-TIMING-001 — Nodo, órdenes y ecospace
+
+Fenómica coloca euterios cretácicos fuera de corona; genomas y ocurrencias permiten divergencias previas. Los análisis no fechan exactamente el mismo objeto.
+
+**Prueba discriminatoria:** fósiles asociados cretácicos con sinapomorfías de corona y relojes que predigan edades dejadas fuera.
+
+## CONT-PALEOGENE-PURGATORIUS-001 — Diente, tobillo y corona
+
+Purgatóridos comparten anatomía con plesiadapiformes y se sitúan cerca de Pan-Primates. La fragmentación impide confundir esa cercanía con Euprimates o Primates corona.
+
+**Prueba discriminatoria:** cráneo y esqueleto asociados en contexto temprano, codificados en matrices amplias.
+
+## CONT-PALEOGENE-PRIMATE-DISPERSAL-001 — Una ruta en veinticinco milenios
+
+El CIE permite alta resolución relativa, pero correlación, asignación específica y sedimentación controlan el orden.
+
+**Prueba discriminatoria:** secciones adicionales con cenizas/polaridad y especímenes diagnósticos que reproduzcan la secuencia.
+
+## CONT-PALEOGENE-CETACEAN-ROOT-001 — Grupo hermano no es ancestro
+
+Cetacea dentro de Artiodactyla es robusto; la posición de raoélidos y arqueocetos basales cambia con taxones y caracteres.
+
+**Prueba discriminatoria:** matrices totales que integren moléculas vivas y fósiles asociados con oído, tobillo y dentición.
+
+## CONT-PALEOGENE-CETACEAN-FUNCTION-001 — Capacidad y conducta
+
+Palancas, articulaciones y densidad ósea restringen locomoción, pero no observan frecuencia, velocidad o hábitat diario.
+
+**Prueba discriminatoria:** modelos biomecánicos validados en animales vivos y huellas/facies independientes.
+
+## CONT-PALEOGENE-PETM-SOURCE-001 — Un presupuesto, varios reservorios
+
+La gran masa y firma media favorecen NAIP; mercurio y pulsos de C permiten carbono termogénico y retroalimentaciones superficiales.
+
+**Prueba discriminatoria:** series co-registradas de B, C, Hg, cenizas e intrusiones que cierren masa, firma y tiempo.
+
+## CONT-PALEOGENE-PETM-RATE-001 — Resolución y suavizado
+
+Un registro impone inicio milenario, mientras otros proponen subpulsos. La bioturbación y sedimentación borran extremos rápidos.
+
+**Prueba discriminatoria:** varios depósitos de alta acumulación con cronómetros independientes y modelos de mezcla publicados.
+
+## CONT-PALEOGENE-PETM-BIOTA-001 — Por qué se hizo pequeño `Sifrhippus`
+
+La talla estimada disminuye con calentamiento y se recupera. Selección, plasticidad, inmigración y cambio taxonómico pueden producir partes del patrón.
+
+**Prueba discriminatoria:** histología, isótopos individuales, poblaciones y series equivalentes fuera de Wyoming.
+
+## CONT-PALEOGENE-EOT-001 — Dos pasos y varios motores
+
+Enfriamiento profundo precede o acompaña una expansión mayor de hielo. `CO₂`, órbita y circulación interactúan y comparten proxies.
+
+**Prueba discriminatoria:** `CO₂`, temperatura, eustasia y hielo en una cronología común con simulaciones fuera de muestra.

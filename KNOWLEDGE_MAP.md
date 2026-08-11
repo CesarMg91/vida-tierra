@@ -695,3 +695,28 @@ disparidad + red + exportación ───> función y complejidad ────�
 La arquitectura conserva seis relojes. El vínculo Chicxulub–K–Pg alcanza confianza alta por triangulación; Deccan cruza la frontera pero su volumen por pulso y desgasificación siguen discutidos. La oscuridad conecta mejor el forzamiento con varios filtros fósiles, mientras calor, fuego, acidificación y estrés previo conservan contribuciones condicionadas. La recuperación se distribuye entre años y millones de años según objeto y región.
 
 Véase `INV-KPG-001` en `07_mesozoico`, su mapa en `assets/visuales/mapa-investigacion-031.svg` y la doble cadena en `assets/visuales/de-anomalia-a-impacto-y-de-forzamiento-a-extincion.svg`.
+
+### Investigación 032 — Paleógeno: recuperación, mamíferos, primates, ballenas y PETM
+
+```text
+Dababiya + Massignano + Aquitaniense ──> fronteras formales ─────────┐
+fósiles + polen + cenizas ─────────────> recuperación regional ─────┤
+                                                     └── edad ≠ evento ≠ causa
+
+dientes + esqueletos + genomas ────────> caracteres y nodos ────────┐
+ocurrencias + preservación + reloj ─────> distribución temporal ─────┼──> radiación mamaliana
+                                                     └── Eutheria ≠ Placentalia
+
+Purgatorius: diente/tobillo ────────────> primate de tallo ──────────┐
+Archicebus: esqueleto/CT ───────────────> euprimate condicionado ────┤
+oído/tobillo/pelvis cetáceos ───────────> mosaico terrestre–acuático ┘
+                                                     └── basal/hermano ≠ ancestro
+
+δ13C + δ11B + carbonato + Hg ──────────> C, pH y fuente modelados ───┐
+δ18O + temperatura + nivel del mar ────> hielo condicionado ────────┼──> clima paleógeno
+                                                     └── proxy ≠ reservorio único
+```
+
+La arquitectura conserva cinco relojes: límites, recuperación, radiaciones mamalianas, mosaicos primates/cetáceos y clima. La señal del PETM es robusta; su presupuesto de fuentes no está cerrado. La transición cetácea y los primeros primates se sostienen por conjuntos de caracteres, no por semejanzas dibujadas ni filas de ancestros.
+
+Véase `INV-PALEOGENE-001` en `08_cenozoico`, su mapa en `assets/visuales/mapa-investigacion-032.svg` y la doble cadena en `assets/visuales/de-diente-a-nodo-y-de-isotopo-a-clima.svg`.
