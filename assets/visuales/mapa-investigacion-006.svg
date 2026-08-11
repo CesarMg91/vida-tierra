@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1120" viewBox="0 0 1600 1120" role="img" aria-labelledby="title desc">
+  <title id="title">Mapa de evidencia de la acreción terrestre</title>
+  <desc id="desc">Cinco rutas conectan razones isotópicas, composición del manto, meteoritos, órbitas y experimentos con inferencias condicionadas sobre crecimiento, diferenciación, procedencia y acreción tardía.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#071018"/><stop offset="0.55" stop-color="#101c27"/><stop offset="1" stop-color="#17151b"/></linearGradient>
+    <linearGradient id="head" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#173342"/><stop offset="1" stop-color="#33272c"/></linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%"><feDropShadow dx="0" dy="8" stdDeviation="10" flood-color="#000" flood-opacity="0.3"/></filter>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#7897a5"/></marker>
+    <style>
+      .s{font-family:Inter,"Segoe UI",Arial,sans-serif}.t{font-size:42px;font-weight:700;fill:#f7f1e8}.sub{font-size:20px;fill:#b7c4cc}.col{font-size:18px;font-weight:700;letter-spacing:1.4px;fill:#dbe6ea}.h{font-size:21px;font-weight:700;fill:#f5eee5}.b{font-size:17px;fill:#d7e0e5}.sm{font-size:15px;fill:#aab8c1}.good{font-size:17px;font-weight:700;fill:#a7e0c6}.cond{font-size:17px;font-weight:700;fill:#f1c980}.tag{font-size:14px;font-weight:700;fill:#0b151c}
+    </style>
+  </defs>
+  <rect width="1600" height="1120" fill="url(#bg)"/>
+  <circle cx="1450" cy="90" r="230" fill="#c57342" opacity="0.06"/><circle cx="70" cy="1050" r="280" fill="#3a90aa" opacity="0.05"/>
+  <g class="s">
+    <text x="76" y="72" class="t">¿Cómo reconstruimos una Tierra que borró su ensamblaje?</text>
+    <text x="76" y="108" class="sub">Señal actual → magnitud → puente físico → claim. La precisión del instrumento no elimina la incertidumbre del puente.</text>
+
+    <rect x="64" y="145" width="1472" height="64" rx="16" fill="url(#head)"/>
+    <text x="95" y="184" class="col">SEÑAL ACTUAL</text><text x="405" y="184" class="col">LO MEDIDO</text><text x="745" y="184" class="col">PUENTE CONDICIONADO</text><text x="1160" y="184" class="col">CLAIM DELIMITADO</text>
+
+    <!-- Hf-W -->
+    <g filter="url(#shadow)"><rect x="64" y="232" width="1472" height="137" rx="20" fill="#152837" stroke="#31556b"/><rect x="82" y="253" width="270" height="95" rx="14" fill="#19394d"/><rect x="380" y="253" width="305" height="95" rx="14" fill="#173141"/><rect x="720" y="253" width="375" height="95" rx="14" fill="#242b37"/><rect x="1130" y="253" width="386" height="95" rx="14" fill="#1d3340"/></g>
+    <text x="102" y="283" class="h">Hf–W</text><text x="102" y="312" class="b">manto + meteoritos</text><text x="102" y="337" class="sm">cronómetro extinto</text>
+    <text x="400" y="283" class="b">razones 182W/184W</text><text x="400" y="310" class="b">y Hf/W de muestras</text><text x="400" y="337" class="sm">desviaciones hasta escala ppm</text>
+    <text x="742" y="283" class="b">decaimiento + partición</text><text x="742" y="310" class="b">+ equilibrio + curva M(t)</text><text x="742" y="337" class="sm">tiempo y mezcla son degenerados</text>
+    <text x="1152" y="283" class="good">Diferenciación temprana: B</text><text x="1152" y="310" class="cond">fecha final única: no</text><text x="1152" y="337" class="sm">HFW / ACCRETION</text>
+
+    <!-- mantle -->
+    <g filter="url(#shadow)"><rect x="64" y="389" width="1472" height="137" rx="20" fill="#262528" stroke="#625246"/><rect x="82" y="410" width="270" height="95" rx="14" fill="#3a302c"/><rect x="380" y="410" width="305" height="95" rx="14" fill="#342e2d"/><rect x="720" y="410" width="375" height="95" rx="14" fill="#302d31"/><rect x="1130" y="410" width="386" height="95" rx="14" fill="#38302d"/></g>
+    <text x="102" y="440" class="h">Manto accesible</text><text x="102" y="469" class="b">Ni, Co, V, Cr, W…</text><text x="102" y="494" class="sm">no es la Tierra total</text>
+    <text x="400" y="440" class="b">abundancias y patrones</text><text x="400" y="467" class="b">multielementales</text><text x="400" y="494" class="sm">reservorio reconstruido</text>
+    <text x="742" y="440" class="b">experimentos P–T–fO₂</text><text x="742" y="467" class="b">+ balance metal–silicato</text><text x="742" y="494" class="sm">presión y volumen de mezcla</text>
+    <text x="1152" y="440" class="good">Núcleo multietapa: B</text><text x="1152" y="467" class="b">parámetros exactos: C–D</text><text x="1152" y="494" class="sm">MULTISTAGE</text>
+
+    <!-- dynamics -->
+    <g filter="url(#shadow)"><rect x="64" y="546" width="1472" height="137" rx="20" fill="#202938" stroke="#4f607d"/><rect x="82" y="567" width="270" height="95" rx="14" fill="#2b3853"/><rect x="380" y="567" width="305" height="95" rx="14" fill="#273548"/><rect x="720" y="567" width="375" height="95" rx="14" fill="#2b2e43"/><rect x="1130" y="567" width="386" height="95" rx="14" fill="#2c344b"/></g>
+    <text x="102" y="597" class="h">Planetas actuales</text><text x="102" y="626" class="b">masas + órbitas + Marte</text><text x="102" y="651" class="sm">estado final seleccionado</text>
+    <text x="400" y="597" class="b">estadísticas de análogos</text><text x="400" y="624" class="b">50 %, 90 %, último choque</text><text x="400" y="651" class="sm">por ensamble, no por roca</text>
+    <text x="742" y="597" class="b">N-cuerpos + disco inicial</text><text x="742" y="624" class="b">+ gigantes + regla de choque</text><text x="742" y="651" class="sm">clásico / anillo / Grand Tack</text>
+    <text x="1152" y="597" class="good">Decenas de Ma: B-COND</text><text x="1152" y="624" class="cond">genealogía única: E</text><text x="1152" y="651" class="sm">DYNAMICS / COLLISIONS</text>
+
+    <!-- late -->
+    <g filter="url(#shadow)"><rect x="64" y="703" width="1472" height="137" rx="20" fill="#17302e" stroke="#3c6d64"/><rect x="82" y="724" width="270" height="95" rx="14" fill="#1d443e"/><rect x="380" y="724" width="305" height="95" rx="14" fill="#1c3a38"/><rect x="720" y="724" width="375" height="95" rx="14" fill="#293536"/><rect x="1130" y="724" width="386" height="95" rx="14" fill="#204039"/></g>
+    <text x="102" y="754" class="h">HSE + Ru + W antiguo</text><text x="102" y="783" class="b">manto e Isua</text><text x="102" y="808" class="sm">cola posterior preservada</text>
+    <text x="400" y="754" class="b">inventario HSE; anomalías</text><text x="400" y="781" class="b">Ru y 182W a escala ppm</text><text x="400" y="808" class="sm">abundancia y procedencia</text>
+    <text x="742" y="754" class="b">partición + masa equivalente</text><text x="742" y="781" class="b">+ mezcla + estadística N-cuerpos</text><text x="742" y="808" class="sm">último gigante = Luna, condicionado</text>
+    <text x="1152" y="754" class="good">Acreción tardía: B</text><text x="1152" y="781" class="b">edad lunar 95 ± 32 Ma: C</text><text x="1152" y="808" class="sm">LATEACCRETION / MOON-CLOCK</text>
+
+    <!-- provenance -->
+    <g filter="url(#shadow)"><rect x="64" y="860" width="1472" height="137" rx="20" fill="#302822" stroke="#735944"/><rect x="82" y="881" width="270" height="95" rx="14" fill="#493729"/><rect x="380" y="881" width="305" height="95" rx="14" fill="#3c312a"/><rect x="720" y="881" width="375" height="95" rx="14" fill="#352f31"/><rect x="1130" y="881" width="386" height="95" rx="14" fill="#40342b"/></g>
+    <text x="102" y="911" class="h">Meteoritos + H/N</text><text x="102" y="940" class="b">NC/CC y enstatita</text><text x="102" y="965" class="sm">muestras supervivientes</text>
+    <text x="400" y="911" class="b">anomalías isotópicas</text><text x="400" y="938" class="b">+ abundancia de hidrógeno</text><text x="400" y="965" class="sm">semejanza, no receta</text>
+    <text x="742" y="911" class="b">mezcla por etapas + retención</text><text x="742" y="938" class="b">+ representatividad meteorítica</text><text x="742" y="965" class="sm">capacidad ≠ fracción histórica</text>
+    <text x="1152" y="911" class="good">Procedencia NC: B-COND</text><text x="1152" y="938" class="b">agua interior posible: B</text><text x="1152" y="965" class="sm">PROVENANCE / VOLATILES</text>
+
+    <rect x="64" y="1022" width="1472" height="66" rx="18" fill="#101d23" stroke="#4c6e76"/>
+    <rect x="86" y="1041" width="235" height="28" rx="14" fill="#a7e0c6"/><text x="110" y="1061" class="tag">ROBUSTO EN CONJUNTO</text>
+    <text x="346" y="1061" class="good">crecimiento + diferenciación por etapas</text>
+    <rect x="785" y="1041" width="190" height="28" rx="14" fill="#f1c980"/><text x="815" y="1061" class="tag">SIGUE ABIERTO</text>
+    <text x="997" y="1061" class="cond">curva, impactores y “final” únicos</text>
+  </g>
+</svg>

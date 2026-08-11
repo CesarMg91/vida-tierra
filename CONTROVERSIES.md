@@ -25,6 +25,12 @@ Una controversia no implica empate. Registra qué parte está realmente abierta,
 | `CONT-SOLAR-MIXING-001` | Transporte radial frente a reservorios persistentes | mezcla turbulenta/vientos con barreras parciales | transporte por cuerpos/chorros o zonación temporal | abierta en mecanismo/caudal | A para reubicación; C-D para proceso |
 | `CONT-EARTH-AGE-001` | ¿Qué significa “edad de la Tierra”? | valor operacional ~4.54 Ga ligado a formación/acreción temprana | usar hitos separados: CAIs, masa acumulada, núcleo, Luna, corteza | abierta por definición, no por orden de magnitud | B |
 | `CONT-EARTH-UPB-001` | ¿Qué tan independientes son las edades radiométricas? | convergencia de múltiples minerales/sistemas | dependencia común de calibraciones, contexto y modelos | parcialmente resuelta | B |
+| `CONT-EARTH-HFW-001` | ¿Qué fecha Hf–W y cuánto metal equilibró? | cronómetro de segregación integrado | mezclas y curvas `M(t)` distintas ajustan una misma firma | abierta en parámetros | A para registro; C para edad única |
+| `CONT-EARTH-DYNAMICS-001` | ¿Qué arquitectura inicial produjo los planetas terrestres? | ensambles por impactos son plausibles | disco clásico, anillo, Grand Tack y variantes | abierta | B para clase; D para historia exacta |
+| `CONT-EARTH-COLLISIONS-001` | ¿Cuánto cambiaron *hit-and-run*, erosión y fragmentación? | existen y alteran masa/composición | reacreción reduce o redistribuye su efecto acumulado | abierta cuantitativamente | A para regímenes; C para pesos |
+| `CONT-EARTH-MOON-LAST-001` | ¿El impacto lunar fue el último gigante y cuándo? | Luna apareció temprano tras la mayor parte del crecimiento | último gigante distinto, reequilibrio o edades lunares no equivalentes | abierta | C |
+| `CONT-EARTH-LATEVENEER-001` | ¿Cuánto y de dónde vino el aporte tardío? | HSE/Ru/W requieren o favorecen una cola pequeña | retención, metal tardío, reservorios no muestreados | abierta | B-COND |
+| `CONT-EARTH-WATER-001` | ¿Cuándo y desde qué reservorios llegó el agua? | fuentes interiores y exteriores son capaces de contribuir | fracciones, pérdida y portadores degenerados | abierta | C |
 | `CONT-MOON-AGE-001` | Momento del impacto formador de la Luna | temprano, en primeras decenas de Ma | impacto o reequilibrio más tardío; zircones fechan corteza, no colisión | abierta | C |
 | `CONT-HADEAN-WATER-001` | ¿Había océanos a 4.4 Ga? | zircones sugieren agua superficial/corteza reciclada | señal de fuente o alteración sin océano global persistente | abierta | C |
 | `CONT-HADEAN-NGB-001` | Edad de Nuvvuagittuq | intrusiones de ~4.16 Ga y encajantes más antiguas | edades arqueanas ~3.8 Ga o edades modelo heredadas/reset | reabierta y fortalecida en 2025 | C-B-PROV |
@@ -114,6 +120,54 @@ Usar `~4.54 Ga` solo acompañado de su definición; para investigación, conserv
 La doble cadena U–Pb ofrece una comprobación interna potente. Pb–Pb, Hf–W, Sm–Nd y otros sistemas agregan principios y químicas diferentes, pero pueden compartir interpretación de muestra, tiempo cero solar o calibraciones. La corroboración se describirá por dimensiones, no contando “métodos” como votos.
 
 **Prueba discriminatoria:** obtener cronologías concordantes en materiales y laboratorios independientes con sistemas de sensibilidades distintas; publicar covarianzas de constantes y trazadores.
+
+## CONT-EARTH-HFW-001 — El reloj también mide mezcla
+
+Hf–W responde a la separación metal–silicato mientras `182Hf` estaba vivo. Una inversión de la razón final necesita una curva de masa y una regla de equilibrio. Si todo núcleo impactor se dispersa y toca el manto, se borra su historia previa; si atraviesa parcialmente el océano de magma, conserva memoria.
+
+`SRC-RUDGE-2010` mostró que modelos de desequilibrio podían ser compatibles con la geoquímica y que Hf–W restringía fuertemente la fracción de equilibrio. Por eso dos fechas publicadas pueden diferir sin que los espectrómetros discrepen.
+
+**Prueba discriminatoria:** acoplar hidrodinámica de mezcla validada a suites multielementales e isotópicas, no ajustar W aislado; exigir predicciones de reservorios y otros planetas.
+
+## CONT-EARTH-DYNAMICS-001 — No hay una simulación oficial
+
+El disco clásico genera crecimiento natural y mezcla radial, pero suele hacer Marte demasiado grande. Un anillo estrecho concentra masa donde están Tierra y Venus, pero necesita un mecanismo que lo produzca. Grand Tack usa migración de Júpiter para truncar el disco y mezclar el cinturón, pero esa trayectoria es una historia inferida.
+
+La competencia no se decide contando análogos terrestres. Se comparan conjuntamente Marte, Mercurio, Tierra/Venus, cinturón, AMD, concentración de masa, tiempos, agua y reservorios.
+
+**Prueba discriminatoria:** condiciones iniciales derivadas de física de disco, ensambles preregistrados y predicciones isotópicas/orbitales no usadas para ajustar.
+
+## CONT-EARTH-COLLISIONS-001 — Crecer también puede perder masa
+
+Hidrocódigos separan fusión, acreción parcial, *hit-and-run*, erosión y disrupción. La discusión cuantitativa es cuánto alteraron la curva y composición finales porque fragmentos y corredores pueden reacretarse.
+
+Una regla de fusión perfecta puede aproximar ciertas estadísticas globales y fallar en metal/silicato, volátiles o tiempos de barrido. Incluir fragmentos tampoco garantiza realismo si se pierden por debajo de la resolución.
+
+**Prueba discriminatoria:** integrar leyes de choque convergentes, resolver distribución de fragmentos y comparar simultáneamente composición, velocidades, masas y cola tardía.
+
+## CONT-EARTH-MOON-LAST-001 — Tres eventos bajo un mismo nombre
+
+Se suelen identificar: último impacto gigante de una simulación, impacto que formó la Luna y último episodio de equilibrio metal–silicato. Pueden coincidir, pero ningún nombre obliga a que lo hagan.
+
+El reloj HSE–dinámica de `SRC-JACOBSON-2014` favorece un impacto lunar tardío bajo esa identificación. Los zircones lunares fechan cristalización/corteza; Hf–W fecha separación y mezcla; ninguno observa la colisión.
+
+**Prueba discriminatoria:** cronómetros lunares con significado petrológico común, muestras de procedencias nuevas y modelos que predigan HSE, momento angular y firmas Tierra–Luna conjuntamente.
+
+## CONT-EARTH-LATEVENEER-001 — Una cola, no una capa de pintura
+
+HSE del manto favorecen adición después de la segregación principal. Ru apunta a una procedencia interior; W antiguo registra evolución del manto. La masa equivalente depende de partición, retención, composición y mezcla.
+
+“Late veneer” no obliga a una sola población ni a deposición uniforme. Puede incluir varios cuerpos y una transición prolongada entre equilibrio parcial y retención en el manto.
+
+**Prueba discriminatoria:** combinar HSE con Ru, Mo, W, Ni y presupuestos Tierra–Luna bajo modelos de impacto que sigan metal y silicato por separado.
+
+## CONT-EARTH-WATER-001 — Capacidad no es presupuesto
+
+Condritas de enstatita contienen suficiente H para invalidar la premisa de un interior necesariamente seco (`SRC-PIANI-2020`). Material carbonáceo conserva otras coincidencias volátiles; impactos gigantes, desgasificación y escape modifican todo inventario.
+
+La controversia no se resuelve asignando una fuente exclusiva. Debe estimar entradas, portadores, pérdidas y reservorios internos/superficiales con incertidumbres correlacionadas.
+
+**Prueba discriminatoria:** H, N, C y gases nobles en materiales representativos, dinámica de entrega y modelos de retención que reproduzcan simultáneamente manto, atmósfera y océanos.
 
 ## CONT-MOON-AGE-001 — Formación lunar
 
