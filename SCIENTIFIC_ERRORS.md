@@ -170,6 +170,16 @@ El propósito no es presentar la ciencia como una sucesión de fracasos ni como 
 | `ERR-DEVONIAN-ZACHELMIE-CERTAINTY-001` | una huella identifica especie y ambiente | productor/depósito inferidos sin cuerpo | morfología, facies y alternativas separadas | DOCUMENTADO |
 | `ERR-DEVONIAN-ONE-EXTINCTION-001` | una sola extinción devónica instantánea | pulsos, agotamiento y métricas comprimidos | Kellwasser/Hangenberg y escalas de tasa separadas | DOCUMENTADO |
 | `ERR-DEVONIAN-PROXY-CAUSE-001` | anoxia, Hg o esporas malformadas nombran la causa | señal o mecanismo sustituyen cadena causal | sincronía, dosis, selectividad y rivales explícitos | DOCUMENTADO |
+| `ERR-CARBONIFEROUS-GLOBAL-SWAMP-001` | el planeta entero se volvió pantano | nombre y carbón euramericano extrapolados globalmente | facies regionales, hielo gondwánico y paleogeografía | DOCUMENTADO |
+| `ERR-CARBONIFEROUS-ALL-COAL-001` | toda planta muerta terminó en carbón | producción confundida con preservación y maduración | balance de turba, cuenca y coalificación separados | DOCUMENTADO |
+| `ERR-CARBONIFEROUS-NO-FUNGI-001` | no había hongos capaces de descomponer madera | reloj enzimático convertido en ausencia ecológica | fósiles, descomposición y distribución estratigráfica | DOCUMENTADO |
+| `ERR-CARBONIFEROUS-OXYGEN-35-001` | `35 %` presentado como medición exacta | salida de modelo tratada como muestra de aire | método, intervalo, error y proxies rivales | DOCUMENTADO |
+| `ERR-CARBONIFEROUS-ALL-GIANT-001` | oxígeno alto volvió gigante a todo artrópodo | habilitador respiratorio convertido en causa suficiente | fisiología, clado, temperatura y ecología | DOCUMENTADO |
+| `ERR-CARBONIFEROUS-ARTHROPLEURA-INSECT-001` | `Arthropleura` llamado insecto gigante | artrópodo usado como sinónimo de insecto | anatomía y posición miriápoda | DOCUMENTADO |
+| `ERR-CARBONIFEROUS-ROMERS-GAP-001` | el vacío fósil probó ausencia de tetrápodos | falta de roca/colecta convertida en biología | nuevas localidades y detectabilidad | DOCUMENTADO |
+| `ERR-CARBONIFEROUS-AMNIOTE-EGG-001` | las huellas probaron un huevo amniótico | pertenencia de linaje sustituye tejido reproductivo | icnología, cuerpos y reconstrucción filogenética separadas | DOCUMENTADO |
+| `ERR-CARBONIFEROUS-HYLONOMUS-ORIGIN-001` | `Hylonomus` fue el primer amniota y lugar de origen | mínimo corporal convertido en divergencia | FAD, nodo, rango fantasma y huellas separados | DOCUMENTADO |
+| `ERR-CARBONIFEROUS-RAINFOREST-CAUSE-001` | colapso forestal causó automáticamente radiación amniota | correlación y riqueza cruda sustituyen causalidad | estandarización, espacio y modelos neutrales | DOCUMENTADO |
 | `ERR-LUNAR-APOLLO-INDEPENDENT-001` | tratar sitios Apollo como testigos independientes | ejecta local y sin transporte global | cartografía, Th, geoquímica y escalado de Imbrium | DOCUMENTADO |
 | `ERR-IMPACT-MOON-EARTH-001` | convertir cronología lunar en esterilización terrestre | escala constante de tasa y efecto | dinámica, hidrocodes, atmósfera/océano y archivo terrestre | DOCUMENTADO |
 | `ERR-LUNAR-ABSENCE-001` | “sin fundido antiguo” = “sin impacto antiguo” | supervivencia uniforme hacia atrás | sesgo de preservación y evidencia positiva `4.22–4.33 Ga` | DOCUMENTADO |
@@ -1539,3 +1549,83 @@ Anoxia/euxinia pueden ser mecanismos de estrés; Hg puede sugerir aportes; espor
 ### Corrección
 
 Exigir preservación, sincronía, magnitud, distribución, mecanismo, selectividad y predicciones que separen volcanismo, nutrientes, clima y UV-B.
+
+## ERR-CARBONIFEROUS-GLOBAL-SWAMP-001 — Un nombre cubrió el planeta de pantano
+
+Los grandes carbones tropicales de Euramérica dieron nombre al periodo, pero coexistieron con ríos, tierras estacionales, mares y hielo gondwánico. Una facies productiva no es un bioma global.
+
+### Corrección
+
+Mapear paleolatitud, cuenca, facies e intervalo; reservar «pantano carbonífero» para localidades y capas documentadas.
+
+## ERR-CARBONIFEROUS-ALL-COAL-001 — La biomasa recibió destino geológico
+
+La mayor parte de la materia vegetal se descompone, erosiona o arde. Formar turba exige balance hidrológico; preservarla y coalificarla exige enterramiento y maduración posteriores.
+
+### Corrección
+
+Separar producción, acumulación de turba, preservación de cuenca y rango del carbón en cada explicación.
+
+## ERR-CARBONIFEROUS-NO-FUNGI-001 — Un reloj borró a los descomponedores
+
+Fechar una familia enzimática no demuestra ausencia de hongos, otras enzimas o descomposición. El carbón aparece antes y después del intervalo predicho por el relato del «interruptor lignina».
+
+### Corrección
+
+Contrastar relojes genéticos con anatomía degradada, fósiles fúngicos, tejidos y distribución de carbón; formular contribución, no monopolio causal.
+
+## ERR-CARBONIFEROUS-OXYGEN-35-001 — Una curva se volvió muestra de aire
+
+El `35 %` procede de familias de modelos/proxies y no de una burbuja carbonífera universal. Halita, carbón vegetal y balances C–S producen valores y coberturas diferentes.
+
+### Corrección
+
+Publicar método, muestra, edad, correcciones, intervalo y sensibilidad; decir «estimación modelada» cuando corresponda.
+
+## ERR-CARBONIFEROUS-ALL-GIANT-001 — El oxígeno usó una regla de aumento
+
+La hiperoxia puede relajar restricciones respiratorias, pero no determina alimento, temperatura, desarrollo, depredación ni diseño corporal. Muchos artrópodos carboníferos no eran gigantes.
+
+### Corrección
+
+Tratar `O₂` como factor condicionante y contrastarlo por clado con series de tamaño y variables ambientales.
+
+## ERR-CARBONIFEROUS-ARTHROPLEURA-INSECT-001 — Todo artrópodo recibió seis patas
+
+`Arthropleura` era un miriápodo, no un insecto. El error taxonómico borra precisamente la anatomía que permite discutir su parentesco.
+
+### Corrección
+
+Usar «artrópodo» para el conjunto, «miriápodo» para el linaje y reservar «insecto» para Hexapoda/Insecta.
+
+## ERR-CARBONIFEROUS-ROMERS-GAP-001 — Una vitrina vacía se volvió ecosistema vacío
+
+La escasez histórica de tetrápodos tournaisienses reflejaba también rocas y búsqueda insuficientes. Nuevas localidades poblaron el intervalo sin necesidad de una aparición súbita.
+
+### Corrección
+
+Modelar exposición, esfuerzo, facies y detectabilidad antes de traducir ausencia de colección en ausencia biológica.
+
+## ERR-CARBONIFEROUS-AMNIOTE-EGG-001 — Una garra fosilizó membranas invisibles
+
+Las huellas de Snowy Plains pueden indicar un productor amniota, pero no conservan amnios, corion, alantoides ni conducta reproductiva. La reproducción se infiere desde el nodo.
+
+### Corrección
+
+Separar identidad icnológica, posición filogenética y reconstrucción de rasgos; no ilustrar un huevo como evidencia observada.
+
+## ERR-CARBONIFEROUS-HYLONOMUS-ORIGIN-001 — El cuerpo más antiguo se volvió nacimiento
+
+`Hylonomus` proporciona un mínimo corporal conocido. No demuestra ser el primer individuo, el ancestro directo ni que la divergencia ocurriera en Nueva Escocia.
+
+### Corrección
+
+Distinguir FAD corporal, mínimo icnológico, nodo filogenético, rango fantasma y área preservada.
+
+## ERR-CARBONIFEROUS-RAINFOREST-CAUSE-001 — El bosque empujó una curva evolutiva
+
+Recambio vegetal, fragmentación y diversidad coinciden en parte, pero riqueza cruda y distribución de localidades pueden fabricar endemismo. Correlación espacial/temporal no fija tasa de diversificación.
+
+### Corrección
+
+Estandarizar muestreo, comparar modelos espaciales/filogenéticos y exigir predicciones que distingan fragmentación de preservación y colecta.

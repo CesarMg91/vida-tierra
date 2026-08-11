@@ -164,6 +164,16 @@ Una controversia no implica empate. Registra qué parte está realmente abierta,
 | `CONT-DEVONIAN-LOCOMOTION-001` | ¿Cómo se movían los primeros tetrápodos? | algunas articulaciones permiten apoyo/propulsión | modelos recuperan capacidades distintas según taxón y sustrato | abierta por taxón | B-COND |
 | `CONT-DEVONIAN-EXTINCTION-TEMPO-001` | ¿Pulsos catastróficos o agotamiento prolongado? | secciones resuelven pulsos Kellwasser cortos | bases globales muestran pérdidas, invasiones y diversidad deprimida por más tiempo | ambas escalas compatibles; sincronía abierta | B local; C global |
 | `CONT-DEVONIAN-CAUSES-001` | ¿Qué causó Kellwasser y Hangenberg? | anoxia/euxinia son mecanismos recurrentes con varios proxies | volcanismo, meteorización/nutrientes, clima y UV-B difieren por pulso/sección | abierta en desencadenantes y pesos | B ambiente; C-D causas |
+| `CONT-CARBONIFEROUS-BOUNDARY-001` | ¿Cómo reemplazar La Serre? | el GSSP ratificado mantiene continuidad formal | bioevento problemático impide correlación precisa y exige candidato nuevo | abierta institucionalmente | A estado; D solución |
+| `CONT-CARBONIFEROUS-COAL-CONTROLS-001` | ¿Qué controló los máximos de carbón? | hidrología, cuenca y clima explican preservación recurrente | vegetación y descomposición pueden alterar el presupuesto orgánico | combinación robusta; pesos abiertos | B marco; C pesos |
+| `CONT-CARBONIFEROUS-FUNGI-001` | ¿La lignina esperó a la pudrición blanca? | relojes enzimáticos sitúan innovación cerca del fin del pico | descomposición antigua y carbón posterior rechazan un interruptor único | exclusividad rechazada; aporte abierto | B rechazo; C aporte |
+| `CONT-CARBONIFEROUS-OXYGEN-001` | ¿Hiperoxia o valores moderados? | modelos C–S y carbón vegetal permiten `O₂` alto | halita estudiada produce cerca de `15–16 %` | abierta por método/intervalo | C-D trayectoria |
+| `CONT-CARBONIFEROUS-CHARCOAL-O2-001` | ¿Cuánto `O₂` mide el carbón vegetal? | combustión y experimentos imponen límites físicos | combustible, humedad, ignición y preservación impiden porcentaje directo | fuego robusto; cifra modelada | A-B fuego; C `O₂` |
+| `CONT-CARBONIFEROUS-GIGANTISM-001` | ¿El oxígeno produjo artrópodos gigantes? | fisiología traqueal y alas apoyan facilitación | temperatura, ecología, ontogenia y depredación cambian máximos | habilitador plausible; suficiencia rechazada | B-COND |
+| `CONT-CARBONIFEROUS-ARTHROPLEURA-001` | ¿Qué era y cómo vivía `Arthropleura`? | exuvio y juveniles sostienen gran miriápodo | tamaño exacto, dieta adulta y hábitat no comparten el mismo archivo | parentesco fortalecido; ecología abierta | B; C-D ecología |
+| `CONT-CARBONIFEROUS-ROMERS-GAP-001` | ¿Vacío evolutivo o de roca? | nuevas faunas llenan parte del Tournaisiense | exposición y muestreo siguen espacialmente desiguales | sesgo fuerte; señal residual abierta | B-COND |
+| `CONT-CARBONIFEROUS-AMNIOTE-TRACKS-001` | ¿Snowy Plains registra un amniota corona? | cinco dígitos, garras y patrón favorecen saurópsido/amniota | cuerpo ausente, edad transferida y convergencia mantienen condición | interpretación probable, no definitiva | B-COND |
+| `CONT-CARBONIFEROUS-RAINFOREST-TETRAPODS-001` | ¿El recambio forestal disparó diversificación? | fragmentación ofrece mecanismo y ocurrencias crudas sugieren endemismo | correcciones y modelos neutrales debilitan la consecuencia simple | recambio real; causalidad abierta | B ambiente; D causa simple |
 
 ## CONT-COSMOS-H0-001 — Dos rutas hacia la tasa actual
 
@@ -1293,3 +1303,63 @@ Kellwasser contiene intervalos sedimentarios breves en secciones de alta resoluc
 Anoxia/euxinia aparecen repetidamente, pero no determinan por sí solas qué las inició ni cómo afectaron cada clado. Volcanismo, meteorización, nutrientes, clima y UV-B pueden operar en secuencias distintas para Kellwasser y Hangenberg.
 
 **Prueba discriminatoria:** orden temporal subevento por subevento, magnitud suficiente, distribución espacial y selectividad biológica predicha antes de conocer el resultado.
+
+## CONT-CARBONIFEROUS-BOUNDARY-001 — Un estándar vigente que busca reemplazo
+
+La Serre sigue definiendo formalmente la base, pero la propia ICS declara imprecisa su señal bioestratigráfica. Cambiarla exige conservar continuidad nomenclatural y mejorar correlación mundial, no sólo hallar una capa mejor fechada.
+
+**Prueba discriminatoria:** candidato ratificable con bioevento reproducible, geocronología, magneto/quimioestratigrafía y correlación demostrada entre paleocontinentes.
+
+## CONT-CARBONIFEROUS-COAL-CONTROLS-001 — La biología fabrica; la cuenca selecciona
+
+La productividad y composición vegetal importan, pero el nivel freático, subsidencia, aporte mineral, erosión y enterramiento deciden cuánto entra al registro. Distintas cuencas pueden producir carbón desigual con floras semejantes.
+
+**Prueba discriminatoria:** presupuestos cuantitativos por cuenca que separen producción, descomposición, exportación, acomodación y pérdida posterior en series correlacionadas.
+
+## CONT-CARBONIFEROUS-FUNGI-001 — Un reloj molecular no clausura el pantano
+
+La aparición estimada de peroxidasas de pudrición blanca parecía explicar el fin del gran pico. La descomposición preexistente y máximos posteriores muestran que la lignina nunca fue un interruptor planetario único.
+
+**Prueba discriminatoria:** enzimas y fósiles fúngicos calibrados junto con tasas de degradación por tejido y carbón por cuenca, antes y después de cada innovación.
+
+## CONT-CARBONIFEROUS-OXYGEN-001 — Varias atmósferas salen de varios inversores
+
+Modelos de carbono–azufre y límites derivados del fuego producen hiperoxia en parte del Paleozoico tardío. Inclusiones de halita publicadas producen valores moderados para las muestras carboníferas analizadas. No observan el mismo reservorio con las mismas correcciones.
+
+**Prueba discriminatoria:** series coetáneas y replicadas de inclusiones primarias, carbón vegetal y proxies redox, procesadas con balances y alteración explícitos.
+
+## CONT-CARBONIFEROUS-CHARCOAL-O2-001 — Arder no imprime un porcentaje
+
+El carbón vegetal anatómico demuestra combustión. Convertirlo en `26.5 %` o cualquier cifra usa umbrales experimentales, tipo de combustible, humedad, ignición y régimen del fuego; su ausencia también puede ser tafonómica.
+
+**Prueba discriminatoria:** combustión experimental de análogos vegetales bajo gradientes de `O₂`/humedad, conectada a reflectancia y abundancia en facies controladas.
+
+## CONT-CARBONIFEROUS-GIGANTISM-001 — Habilitar tamaño no fabrica gigantes
+
+Más oxígeno puede aliviar transporte traqueal y cambiar desarrollo, pero los efectos modernos no son uniformes y las series fósiles dependen de temperatura, clado, extremos y ecología. El tamaño máximo no es un oxímetro independiente.
+
+**Prueba discriminatoria:** modelos fisiológicos por clado contrastados con series de tamaño, temperatura y `O₂` que predigan cambios temporales distintos.
+
+## CONT-CARBONIFEROUS-ARTHROPLEURA-001 — Tres preguntas en fósiles diferentes
+
+El exuvio grande restringe dimensiones; los juveniles tridimensionales restringen cabeza y parentesco. Ninguno conserva dieta adulta, fisiología o una relación causal con oxígeno.
+
+**Prueba discriminatoria:** ejemplar adulto articulado con cabeza, apéndices y contenido intestinal/coprolitos asociados, en contexto paleoambiental y cronológico preciso.
+
+## CONT-CARBONIFEROUS-ROMERS-GAP-001 — Encontrar fósiles cambia el nombre del vacío
+
+`Pederpes` y nuevas faunas tournaisienses invalidan una ausencia biológica simple. Aun así, localidades productivas y rocas accesibles siguen concentradas, de modo que la diversidad real permanece submuestreada.
+
+**Prueba discriminatoria:** campañas estandarizadas en formaciones tournaisienses comparables de varias paleolatitudes, con esfuerzo y detectabilidad publicados.
+
+## CONT-CARBONIFEROUS-AMNIOTE-TRACKS-001 — Una garra adelanta un nodo con condiciones
+
+Snowy Plains combina pentadactilia, garras y secuencias que favorecen un productor amniota/saurópsido. El cuerpo falta, la edad proviene de la formación y las marcas no preservan reproducción.
+
+**Prueba discriminatoria:** rastros adicionales in situ y fechados, con anatomía diagnóstica repetida y, idealmente, restos corporales asociados al mismo horizonte.
+
+## CONT-CARBONIFEROUS-RAINFOREST-TETRAPODS-001 — El recambio no trae una radiación incorporada
+
+La fragmentación forestal puede producir aislamiento y endemismo, pero ocurrencias fósiles desiguales imitan esos patrones. Estandarización y modelos neutrales reducen la necesidad de una explosión causal única.
+
+**Prueba discriminatoria:** bases con cobertura comparable, filogenias fechadas y modelos espaciales que predigan cambios de diversificación/endemismo más allá de preservación y colecta.

@@ -346,6 +346,20 @@ El mapa mantiene seis relojes y hace visibles sus dependencias: el límite no fe
 
 La doble cadena separa observación, asociación, definición, escala y mecanismo. Permite desplazar un ranking fósil o reinterpretar una huella sin colapsar el resto de la reconstrucción.
 
+## 27. Investigación 026 — Carbón, oxígeno, gigantismo y amniotas
+
+![Portada conceptual del Carbonífero](assets/visuales/hero-carbon-oxigeno-amniotas-carboniferos.png)
+
+> **Portada conceptual:** separa humedal, turba/carbón, hielo, fuego, artrópodos, huellas y cuerpo fósil en ventanas distintas. No representa convivencia, escala exacta, porcentaje de oxígeno, productor de huellas ni reproducción observada.
+
+![Mapa de evidencia de carbón, oxígeno, gigantismo y amniotas](assets/visuales/mapa-investigacion-026.svg)
+
+El mapa distingue cuatro archivos: una veta no prueba un planeta pantanoso, carbón vegetal no mide por sí solo `O₂`, un exuvio parcial no conserva longitud completa y una huella no entrega especie ni huevo.
+
+![Cadenas desde turba hasta carbón y desde huella hasta amniota](assets/visuales/de-turba-a-carbon-y-de-huella-a-amniota.svg)
+
+La doble cadena muestra qué pasos son físicos y cuáles inferenciales. La veta exige preservación y maduración; el mínimo amniota exige identidad del rastro, edad de formación y puente filogenético.
+
 ## Procedencia
 
 El registro de creación, límites y prompt de cada pieza está en [`assets/visuales/README.md`](assets/visuales/README.md).

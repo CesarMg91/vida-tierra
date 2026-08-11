@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1120" viewBox="0 0 1600 1120" role="img" aria-labelledby="title desc">
+  <title id="title">Mapa de evidencia del Carbonífero</title>
+  <desc id="desc">Cuatro filas separan objetos, mediciones, inferencias permitidas y saltos prohibidos para carbón, oxígeno, gigantismo y amniotas.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#081417"/><stop offset="1" stop-color="#1c2525"/></linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%"><feDropShadow dx="0" dy="7" stdDeviation="9" flood-color="#000" flood-opacity=".3"/></filter>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto"><path d="M0 0 L0 6 L9 3Z" fill="#85b7a9"/></marker>
+    <style>
+      .title{font:700 42px 'Segoe UI',Arial,sans-serif;fill:#f5ead4}.sub{font:400 20px 'Segoe UI',Arial,sans-serif;fill:#bdccc7}
+      .head{font:700 20px 'Segoe UI',Arial,sans-serif;letter-spacing:1.3px;fill:#f0cf8d}.ct{font:700 21px 'Segoe UI',Arial,sans-serif;fill:#f5ead8}
+      .body{font:400 17px 'Segoe UI',Arial,sans-serif;fill:#d6e0dc}.small{font:400 15px 'Segoe UI',Arial,sans-serif;fill:#b8cac4}
+      .rule{font:700 20px 'Segoe UI',Arial,sans-serif;fill:#ffd17b}.line{stroke:#85b7a9;stroke-width:3;fill:none;marker-end:url(#arrow)}
+    </style>
+  </defs>
+  <rect width="1600" height="1120" fill="url(#bg)"/>
+  <circle cx="1435" cy="120" r="215" fill="#b06d32" opacity=".08"/><circle cx="165" cy="1010" r="250" fill="#3b8b79" opacity=".07"/>
+  <text x="80" y="66" class="title">Carbonífero: cuatro archivos, cuatro límites</text>
+  <text x="80" y="101" class="sub">El objeto observado determina qué inferencia puede sostenerse.</text>
+
+  <text x="82" y="154" class="head">OBJETO</text><text x="424" y="154" class="head">MEDICIÓN</text>
+  <text x="808" y="154" class="head">RESULTADO PERMITIDO</text><text x="1204" y="154" class="head">NO DEMUESTRA</text>
+
+  <g filter="url(#shadow)">
+    <rect x="65" y="178" width="290" height="184" rx="18" fill="#263c31" stroke="#5b8d70"/><rect x="400" y="178" width="335" height="184" rx="18" fill="#1e3330" stroke="#5b8d70"/>
+    <rect x="785" y="178" width="355" height="184" rx="18" fill="#233936" stroke="#5b8d70"/><rect x="1185" y="178" width="350" height="184" rx="18" fill="#3a2920" stroke="#a06b48"/>
+  </g>
+  <text x="90" y="217" class="ct">Turba, veta y bola</text><text x="90" y="250" class="body"><tspan x="90">materia vegetal · esporas</tspan><tspan x="90" dy="28">macerales · células</tspan><tspan x="90" dy="28">facies y ciclotema</tspan></text>
+  <text x="425" y="217" class="ct">Balance e historia</text><text x="425" y="250" class="body"><tspan x="425">producción/descomposición</tspan><tspan x="425" dy="28">espesor · rango · calor</tspan><tspan x="425" dy="28">subsidencia · enterramiento</tspan></text>
+  <text x="810" y="217" class="ct">Turba y coalificación</text><text x="810" y="250" class="body"><tspan x="810">humedal local productor</tspan><tspan x="810" dy="28">vegetación condicionada</tspan><tspan x="810" dy="28">carbón de rango concreto</tspan></text>
+  <text x="1210" y="217" class="ct">Pantano universal</text><text x="1210" y="250" class="body"><tspan x="1210">toda la Tierra húmeda</tspan><tspan x="1210" dy="28">toda turba conservada</tspan><tspan x="1210" dy="28">hongos ausentes</tspan></text>
+  <path d="M355 270H390" class="line"/><path d="M735 270H775" class="line"/><path d="M1140 270H1175" class="line"/>
+
+  <g filter="url(#shadow)">
+    <rect x="65" y="386" width="290" height="184" rx="18" fill="#353725" stroke="#969052"/><rect x="400" y="386" width="335" height="184" rx="18" fill="#303528" stroke="#969052"/>
+    <rect x="785" y="386" width="355" height="184" rx="18" fill="#34382a" stroke="#969052"/><rect x="1185" y="386" width="350" height="184" rx="18" fill="#3a2920" stroke="#a06b48"/>
+  </g>
+  <text x="90" y="425" class="ct">C/S, charcoal, halita</text><text x="90" y="458" class="body"><tspan x="90">isótopos y flujos</tspan><tspan x="90" dy="28">tejido quemado</tspan><tspan x="90" dy="28">inclusiones gaseosas</tspan></text>
+  <text x="425" y="425" class="ct">Tres calibraciones</text><text x="425" y="458" class="body"><tspan x="425">modelo de cajas</tspan><tspan x="425" dy="28">umbral de combustión</tspan><tspan x="425" dy="28">primariedad + corrección</tspan></text>
+  <text x="810" y="425" class="ct">O₂ condicionado</text><text x="810" y="458" class="body"><tspan x="810">balance atmosférico</tspan><tspan x="810" dy="28">incendio + ventana física</tspan><tspan x="810" dy="28">valor por muestra/intervalo</tspan></text>
+  <text x="1210" y="425" class="ct">«35 % medido»</text><text x="1210" y="458" class="body"><tspan x="1210">un número para 60 Myr</tspan><tspan x="1210" dy="28">charcoal = analizador</tspan><tspan x="1210" dy="28">métodos concordantes</tspan></text>
+  <path d="M355 478H390" class="line"/><path d="M735 478H775" class="line"/><path d="M1140 478H1175" class="line"/>
+
+  <g filter="url(#shadow)">
+    <rect x="65" y="594" width="290" height="184" rx="18" fill="#32313c" stroke="#776f95"/><rect x="400" y="594" width="335" height="184" rx="18" fill="#292e3b" stroke="#776f95"/>
+    <rect x="785" y="594" width="355" height="184" rx="18" fill="#2e323f" stroke="#776f95"/><rect x="1185" y="594" width="350" height="184" rx="18" fill="#3a2920" stroke="#a06b48"/>
+  </g>
+  <text x="90" y="633" class="ct">Alas, exuvio, juveniles</text><text x="90" y="666" class="body"><tspan x="90">10,500 alas fósiles</tspan><tspan x="90" dy="28">tergitos parciales</tspan><tspan x="90" dy="28">micro-CT de cabeza</tspan></text>
+  <text x="425" y="633" class="ct">Tamaño y anatomía</text><text x="425" y="666" class="body"><tspan x="425">longitud por bin</tspan><tspan x="425" dy="28">alometría del exuvio</tspan><tspan x="425" dy="28">caracteres + filogenia</tspan></text>
+  <text x="810" y="633" class="ct">Límites multicausales</text><text x="810" y="666" class="body"><tspan x="810">O₂ como condición posible</tspan><tspan x="810" dy="28">~2.63 m estimados</tspan><tspan x="810" dy="28">miriápodo en mosaico</tspan></text>
+  <text x="1210" y="633" class="ct">Todos gigantes</text><text x="1210" y="666" class="body"><tspan x="1210">O₂ como causa única</tspan><tspan x="1210" dy="28">cuerpo completo medido</tspan><tspan x="1210" dy="28">insecto y dieta adulta</tspan></text>
+  <path d="M355 686H390" class="line"/><path d="M735 686H775" class="line"/><path d="M1140 686H1175" class="line"/>
+
+  <g filter="url(#shadow)">
+    <rect x="65" y="802" width="290" height="184" rx="18" fill="#263842" stroke="#5f889d"/><rect x="400" y="802" width="335" height="184" rx="18" fill="#21343d" stroke="#5f889d"/>
+    <rect x="785" y="802" width="355" height="184" rx="18" fill="#253a43" stroke="#5f889d"/><rect x="1185" y="802" width="350" height="184" rx="18" fill="#3a2920" stroke="#a06b48"/>
+  </g>
+  <text x="90" y="841" class="ct">Cuerpos y huellas</text><text x="90" y="874" class="body"><tspan x="90">Pederpes · Hylonomus</tspan><tspan x="90" dy="28">cinco dedos · garras</tspan><tspan x="90" dy="28">superficie con lluvia</tspan></text>
+  <text x="425" y="841" class="ct">Rastro, edad, árbol</text><text x="425" y="874" class="body"><tspan x="425">secuencia locomotora</tspan><tspan x="425" dy="28">correlación de formación</tspan><tspan x="425" dy="28">exclusión + filogenia</tspan></text>
+  <text x="810" y="841" class="ct">Mínimo condicionado</text><text x="810" y="874" class="body"><tspan x="810">amniota probable temprano</tspan><tspan x="810" dy="28">nodo cerca del D–C</tspan><tspan x="810" dy="28">Romer: muestreo fuerte</tspan></text>
+  <text x="1210" y="841" class="ct">Productor completo</text><text x="1210" y="874" class="body"><tspan x="1210">especie y ancestro</tspan><tspan x="1210" dy="28">huevo fosilizado</tspan><tspan x="1210" dy="28">origen en Australia</tspan></text>
+  <path d="M355 894H390" class="line"/><path d="M735 894H775" class="line"/><path d="M1140 894H1175" class="line"/>
+
+  <rect x="65" y="1020" width="1470" height="68" rx="18" fill="#112829" stroke="#aa7b47" stroke-width="2"/>
+  <text x="800" y="1048" text-anchor="middle" class="rule">REGLA: objeto + escala + calibración + alternativa</text>
+  <text x="800" y="1075" text-anchor="middle" class="small">Una veta, una curva, un exuvio o una huella no contienen por sí solos una historia planetaria.</text>
+</svg>
+

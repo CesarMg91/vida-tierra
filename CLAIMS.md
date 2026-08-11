@@ -259,6 +259,29 @@ Este archivo es el índice canónico. La letra de confianza califica exactamente
 | `CLAIM-DEVONIAN-HANGENBERG-001` | Hangenberg fue una crisis terminal propia y un filtro mayor para vertebrados, no un epílogo menor de Kellwasser. | B | AUDITADO | `EVID-DEVONIAN-HANGENBERG-VERTEBRATES-001`, `EVID-DEVONIAN-HANGENBERG-REDOX-001` | `INV-DEVONIAN-001` |
 | `CLAIM-DEVONIAN-EXTINCTION-RATES-001` | La magnitud de una crisis cambia al medir extinción, agotamiento, diversidad neta, ecospace o invasiones; las métricas no son intercambiables. | A-SEM; B patrón | AUDITADO | `EVID-DEVONIAN-KELLWASSER-ECOLOGY-001`, `EVID-DEVONIAN-HANGENBERG-VERTEBRATES-001` | `INV-DEVONIAN-001` |
 | `CLAIM-DEVONIAN-CAUSES-001` | Redox, nutrientes, clima, meteorización, volcanismo y UV-B forman hipótesis comprobables, pero ninguna señal aislada cierra desencadenante, mecanismo y mortalidad para ambas crisis. | B señales; C-D causas | AUDITADO | `EVID-DEVONIAN-CAUSES-001`, `EVID-DEVONIAN-HANGENBERG-REDOX-001` | `INV-DEVONIAN-001` |
+| `CLAIM-CARBONIFEROUS-SCOPE-001` | Límite, turba, coalificación, hielo/vegetación, oxígeno/fuego, tamaño y amniotas usan relojes distintos; el nombre Carbonífero no los sincroniza. | A-SEM; B pluralidad | AUDITADO | conjunto `EVID-CARBONIFEROUS-*` | `INV-CARBONIFEROUS-001` |
+| `CLAIM-CARBONIFEROUS-BOUNDARY-001` | La base formal del Carbonífero/Mississippiense/Tournaisiense permanece en el lecho 89 de La Serre, ligado al linaje de `Siphonodella`. | A límite; B edad | AUDITADO | `EVID-CARBONIFEROUS-BOUNDARY-001` | `INV-CARBONIFEROUS-001` |
+| `CLAIM-CARBONIFEROUS-BOUNDARY-PROBLEM-001` | La ICS declara impreciso el GSSP de La Serre por problemas bioestratigráficos y anticipa su redefinición; vigente no equivale a correlación precisa. | A estado; D precisión | AUDITADO | `EVID-CARBONIFEROUS-BOUNDARY-001` | `INV-CARBONIFEROUS-001` |
+| `CLAIM-CARBONIFEROUS-SUBDIVISIONS-001` | Mississippiense/Pennsylvaniense son subsistemas internacionales y periodos en usos regionales; la base del Pennsylvaniense está en Arrow Canyon. | A-SEM; A límite | AUDITADO | `EVID-CARBONIFEROUS-SUBDIVISIONS-001` | `INV-CARBONIFEROUS-001` |
+| `CLAIM-CARBONIFEROUS-PEAT-001` | La turba se acumula cuando producción vegetal supera descomposición/exportación bajo saturación y espacio de preservación; no todo humedal ni toda turba forma carbón. | A mecanismo; B archivo | AUDITADO | `EVID-CARBONIFEROUS-PEAT-001` | `INV-CARBONIFEROUS-001` |
+| `CLAIM-CARBONIFEROUS-COALIFICATION-001` | Enterramiento, compactación, pérdida de agua/volátiles y maduración térmica transforman paleoturba en carbón de distinto rango. | A-B | AUDITADO | `EVID-CARBONIFEROUS-COALIFICATION-001` | `INV-CARBONIFEROUS-001` |
+| `CLAIM-CARBONIFEROUS-COAL-CONTROLS-001` | Clima, nivel freático, subsidencia, aporte detrítico, enterramiento y vegetación controlan conjuntamente cuánto carbón conserva una cuenca. | B-COND | AUDITADO | `EVID-CARBONIFEROUS-COAL-ARCHIVE-001`, `EVID-CARBONIFEROUS-ICEHOUSE-001` | `INV-CARBONIFEROUS-001` |
+| `CLAIM-CARBONIFEROUS-FUNGI-001` | El retraso evolutivo de pudrición blanca no explica por sí solo el pico paleozoico de carbón; hubo descomposición antigua y recurrencia ambiental del carbón. | B rechazo; C peso fúngico | AUDITADO | `EVID-CARBONIFEROUS-FUNGI-001` | `INV-CARBONIFEROUS-001` |
+| `CLAIM-CARBONIFEROUS-WETLAND-DIVERSITY-001` | Los humedales pennsylvanienses reunieron comunidades variables de licófitas, helechos, cordaitales y pteridospermas, no una selva mundial uniforme. | B | AUDITADO | `EVID-CARBONIFEROUS-VEGETATION-001` | `INV-CARBONIFEROUS-001` |
+| `CLAIM-CARBONIFEROUS-ICEHOUSE-001` | Hielo gondwánico, ciclotemas y proxies de CO₂ muestran una casa de hielo dinámica compatible con humedales tropicales regionales. | B | AUDITADO | `EVID-CARBONIFEROUS-ICEHOUSE-001` | `INV-CARBONIFEROUS-001` |
+| `CLAIM-CARBONIFEROUS-VEGETATION-TURNOVER-001` | Los bosques tropicales sufrieron recambios repetidos y geográficamente desiguales; «colapso de la selva» comprime una transición prolongada. | B | AUDITADO | `EVID-CARBONIFEROUS-VEGETATION-001`, `EVID-CARBONIFEROUS-TETRAPOD-DIVERSITY-001` | `INV-CARBONIFEROUS-001` |
+| `CLAIM-CARBONIFEROUS-O2-PROXIES-001` | El enterramiento de C/S puede elevar O₂, pero reconstruir su magnitud exige modelos de reservorios, meteorización y reciclaje. | A mecanismo; C magnitud | AUDITADO | `EVID-CARBONIFEROUS-OXYGEN-MODELS-001` | `INV-CARBONIFEROUS-001` |
+| `CLAIM-CARBONIFEROUS-O2-RANGE-001` | Carbón vegetal/modelos producen hiperoxia en parte del intervalo, mientras halita produce ~15–16 % en muestras estudiadas; no existe un 35 % directamente medido. | B métodos; C-D trayectoria | AUDITADO | `EVID-CARBONIFEROUS-OXYGEN-CHARCOAL-001`, `EVID-CARBONIFEROUS-OXYGEN-HALITE-001` | `INV-CARBONIFEROUS-001` |
+| `CLAIM-CARBONIFEROUS-FIRE-001` | El carbón vegetal anatómico documenta incendios carboníferos y suficiente oxígeno local para combustión bajo el combustible disponible. | A-B | AUDITADO | `EVID-CARBONIFEROUS-FIRE-001` | `INV-CARBONIFEROUS-001` |
+| `CLAIM-CARBONIFEROUS-FIRE-CONTROLS-001` | Humedad, combustible, ignición, propagación y preservación median entre O₂ y carbón vegetal; presencia/ausencia no entrega un porcentaje sola. | A mecanismo; B-COND reconstrucción | AUDITADO | `EVID-CARBONIFEROUS-FIRE-001` | `INV-CARBONIFEROUS-001` |
+| `CLAIM-CARBONIFEROUS-GIGANTISM-001` | O₂ alto pudo relajar restricciones respiratorias y facilitar tamaños máximos, sin ser causa suficiente ni afectar igual a todos los artrópodos. | B-COND | AUDITADO | `EVID-CARBONIFEROUS-INSECT-PHYSIOLOGY-001`, `EVID-CARBONIFEROUS-INSECT-SIZE-001` | `INV-CARBONIFEROUS-001` |
+| `CLAIM-CARBONIFEROUS-ARTHROPLEURA-001` | `Arthropleura` fue un miriápodo; un exuvio parcial permite estimar hasta ~2.63 m y juveniles CT restringen parentesco, no dieta adulta. | B identidad; B-COND tamaño | AUDITADO | `EVID-CARBONIFEROUS-ARTHROPLEURA-SIZE-001`, `EVID-CARBONIFEROUS-ARTHROPLEURA-ANATOMY-001` | `INV-CARBONIFEROUS-001` |
+| `CLAIM-CARBONIFEROUS-INSECT-SIZE-001` | Más de 10,500 alas fósiles apoyan asociación temprana entre O₂ y tamaño máximo, debilitada por temperatura, autocorrelación y controles bióticos. | B-COND | AUDITADO | `EVID-CARBONIFEROUS-INSECT-SIZE-001` | `INV-CARBONIFEROUS-001` |
+| `CLAIM-CARBONIFEROUS-ROMERS-GAP-001` | `Pederpes` y faunas tournaisienses muestran que gran parte del «vacío de Romer» fue roca/muestreo insuficiente, no ausencia demostrada de tetrápodos. | B | AUDITADO | `EVID-CARBONIFEROUS-ROMERS-GAP-001` | `INV-CARBONIFEROUS-001` |
+| `CLAIM-CARBONIFEROUS-AMNIOTE-DEFINITION-001` | Amniota es el nodo corona sinápsido+saurópsido; su reproducción independiente del agua se infiere filogenéticamente porque las membranas rara vez fosilizan. | A-SEM; B inferencia | AUDITADO | `EVID-CARBONIFEROUS-AMNIOTE-BODIES-001`, `EVID-CARBONIFEROUS-AMNIOTE-TRACKS-001` | `INV-CARBONIFEROUS-001` |
+| `CLAIM-CARBONIFEROUS-AMNIOTE-TRACKS-001` | Huellas tournaisienses de Snowy Plains con cinco dígitos y garras se atribuyen a un amniota/saurópsido probable y adelantan el mínimo 35–40 Myr, condicionado a productor y edad. | B-COND | AUDITADO | `EVID-CARBONIFEROUS-AMNIOTE-TRACKS-001` | `INV-CARBONIFEROUS-001` |
+| `CLAIM-CARBONIFEROUS-AMNIOTE-BODIES-001` | `Hylonomus` conserva un cuerpo amniota corona bashkiriense temprano, mínimo corporal que no fija origen, lugar ni huevo. | B | AUDITADO | `EVID-CARBONIFEROUS-AMNIOTE-BODIES-001` | `INV-CARBONIFEROUS-001` |
+| `CLAIM-CARBONIFEROUS-RAINFOREST-TETRAPODS-001` | El recambio forestal fue real, pero endemismo y explosión de tetrápodos/amniotas no sobreviven como consecuencia simple al corregir muestreo y espacio. | B recambio; D causa simple | AUDITADO | `EVID-CARBONIFEROUS-TETRAPOD-DIVERSITY-001` | `INV-CARBONIFEROUS-001` |
 
 ## Fichas resumidas
 
@@ -1673,6 +1696,169 @@ Este archivo es el índice canónico. La letra de confianza califica exactamente
 - **Puente:** causa requiere sincronía, dosis, mecanismo ambiental y selectividad biológica.
 - **No afirma:** un motor universal para Kellwasser y Hangenberg.
 - **Confianza:** `B` señales; `C-D` causas.
+
+## Investigación 026 — Carbón, oxígeno, gigantismo y amniotas carboníferos
+
+### CLAIM-CARBONIFEROUS-SCOPE-001
+
+- **Dato/definición:** límite formal, formación de carbón, clima, oxígeno, tamaño y origen mínimo de amniotas proceden de archivos y relojes diferentes.
+- **Puente:** mantenerlos separados evita convertir el nombre del periodo en una causa o sincronizador universal.
+- **No afirma:** un Carbonífero mundial uniforme.
+- **Confianza:** `A-SEM`; `B` pluralidad.
+
+### CLAIM-CARBONIFEROUS-BOUNDARY-001
+
+- **Dato:** el lecho 89 de La Serre conserva el GSSP ratificado de la base carbonífera, históricamente vinculado al linaje de `Siphonodella`.
+- **Puente:** el estándar fija un horizonte de correlación, no el inicio de pantanos, hielo o tetrápodos.
+- **Límite:** su edad numérica y correlación pueden revisarse.
+- **Confianza:** `A` límite; `B` edad.
+
+### CLAIM-CARBONIFEROUS-BOUNDARY-PROBLEM-001
+
+- **Dato:** ICS etiqueta hoy La Serre como impreciso y la subcomisión anticipa redefinición.
+- **Puente:** estado institucional vigente y poder de correlación son propiedades distintas.
+- **No afirma:** que el Carbonífero carezca de definición formal.
+- **Confianza:** `A` estado; `D` precisión futura.
+
+### CLAIM-CARBONIFEROUS-SUBDIVISIONS-001
+
+- **Dato/definición:** Mississippiense y Pennsylvaniense son subsistemas internacionales; Arrow Canyon fija la base del segundo mediante `Declinognathodus noduliferus s.l.`.
+- **Puente:** nomenclatura y GSSP permiten traducir usos sin tratarlos como etapas idénticas.
+- **Límite:** usos regionales y calibraciones no siempre coinciden.
+- **Confianza:** `A-SEM`; `A` límite; `B` edad.
+
+### CLAIM-CARBONIFEROUS-PEAT-001
+
+- **Dato:** análogos y facies muestran acumulación de turba bajo balance positivo de producción, saturación y preservación.
+- **Puente:** hidrología y espacio de acomodación explican por qué parte de la biomasa evita descomposición o exportación.
+- **No afirma:** que todo humedal o toda turba termine en carbón.
+- **Confianza:** `A` mecanismo; `B` transferencia.
+
+### CLAIM-CARBONIFEROUS-COALIFICATION-001
+
+- **Dato:** rango, macerales y propiedades térmicas registran compactación, pérdida de agua/volátiles y maduración durante enterramiento.
+- **Puente:** esas transformaciones convierten paleoturba en carbón sin confundirla con carbón vegetal de incendio.
+- **Límite:** presión, fluidos, intrusiones y deformación alteran trayectorias.
+- **Confianza:** `A-B`.
+
+### CLAIM-CARBONIFEROUS-COAL-CONTROLS-001
+
+- **Dato:** vetas, facies y comunidades cambian con clima, nivel freático, subsidencia, detrito, enterramiento y vegetación.
+- **Puente:** un presupuesto conjunto explica acumulación desigual entre capas y cuencas.
+- **No afirma:** que un solo control domine todo lugar y momento.
+- **Confianza:** `B-COND`.
+
+### CLAIM-CARBONIFEROUS-FUNGI-001
+
+- **Dato:** relojes enzimáticos propusieron un retraso ligninolítico; el registro estratigráfico muestra descomposición antigua y máximos de carbón recurrentes fuera de esa ventana.
+- **Puente:** comparar predicción temporal con distribución real rechaza la explicación fúngica exclusiva.
+- **Límite:** la eficiencia y ecología de hongos antiguos siguen abiertas.
+- **Confianza:** `B` rechazo simple; `C` peso fúngico.
+
+### CLAIM-CARBONIFEROUS-WETLAND-DIVERSITY-001
+
+- **Dato:** bolas de carbón, anatomía y esporas recuperan comunidades variables de licófitas, helechos, cordaitales y pteridospermas.
+- **Puente:** cambios entre vetas y regiones contradicen una selva mundial homogénea.
+- **Límite:** Euramérica, facies y producción de esporas sesgan el archivo.
+- **Confianza:** `B`.
+
+### CLAIM-CARBONIFEROUS-ICEHOUSE-001
+
+- **Dato:** ciclotemas, hielo gondwánico y proxies de `CO₂` registran oscilaciones glacioeustáticas y climáticas.
+- **Puente:** una casa de hielo dinámica puede coexistir con humedales tropicales regionales.
+- **No afirma:** hielo permanente o sincronía idéntica en todas las cuencas.
+- **Confianza:** `B`.
+
+### CLAIM-CARBONIFEROUS-VEGETATION-TURNOVER-001
+
+- **Dato:** perfiles anatómicos/palinológicos documentan declive de licófitas y ascenso de otras floras en episodios repetidos.
+- **Puente:** sucesiones regionales sustituyen la narrativa de un colapso instantáneo global.
+- **Límite:** correlación, hiatos y cobertura geográfica.
+- **Confianza:** `B`.
+
+### CLAIM-CARBONIFEROUS-O2-PROXIES-001
+
+- **Dato:** modelos de carbono–azufre convierten enterramiento, meteorización e isótopos en balances atmosféricos.
+- **Puente:** el mecanismo de fuente/sumidero es físico; la curva exige parámetros no observados directamente.
+- **No afirma:** una medición directa del porcentaje carbonífero.
+- **Confianza:** `A` mecanismo; `C` magnitud.
+
+### CLAIM-CARBONIFEROUS-O2-RANGE-001
+
+- **Dato:** modelos/carbón vegetal permiten hiperoxia, mientras inclusiones de halita estudiadas arrojan cerca de `15–16 %`.
+- **Puente:** conservar método, muestra y corrección muestra que `35 %` no es un valor universal medido.
+- **Límite:** calibración, diagénesis, cobertura temporal y representatividad.
+- **Confianza:** `B` desacuerdo; `C-D` trayectoria.
+
+### CLAIM-CARBONIFEROUS-FIRE-001
+
+- **Dato:** anatomía carbonizada e inertinita documentan combustión en floras carboníferas.
+- **Puente:** carbón vegetal prueba incendio y oxígeno suficiente bajo el combustible presente.
+- **No afirma:** frecuencia mundial ni porcentaje atmosférico exacto.
+- **Confianza:** `A-B`.
+
+### CLAIM-CARBONIFEROUS-FIRE-CONTROLS-001
+
+- **Dato:** humedad, combustible, ignición, propagación, transporte y preservación modifican el archivo de fuego.
+- **Puente:** esos mediadores impiden leer presencia o ausencia de carbón vegetal como oxímetro simple.
+- **Límite:** reconstrucciones cuantitativas dependen de experimentos/modelos actualistas.
+- **Confianza:** `A` mecanismo; `B-COND` reconstrucción.
+
+### CLAIM-CARBONIFEROUS-GIGANTISM-001
+
+- **Dato:** fisiología moderna y series fósiles permiten una asociación condicionada entre `O₂` y tamaño máximo.
+- **Puente:** hiperoxia puede relajar límites traqueales sin determinar por sí sola crecimiento, ecología o tamaño de todos los artrópodos.
+- **No afirma:** causalidad única.
+- **Confianza:** `B-COND`.
+
+### CLAIM-CARBONIFEROUS-ARTHROPLEURA-001
+
+- **Dato:** un exuvio parcial permite estimar hasta `~2.63 m`; micro-CT juvenil recupera una anatomía miriápoda en mosaico.
+- **Puente:** tamaño y parentesco se sostienen con objetos distintos.
+- **No afirma:** dieta adulta, masa exacta o causalidad por oxígeno.
+- **Confianza:** `B` identidad; `B-COND` tamaño.
+
+### CLAIM-CARBONIFEROUS-INSECT-SIZE-001
+
+- **Dato:** más de 10,500 alas fósiles recuperan asociación temprana entre curva de `O₂` y tamaño máximo.
+- **Puente:** regresión temporal prueba asociación bajo el modelo escogido, no mecanismo exclusivo.
+- **Límite:** temperatura, autocorrelación, extremos preservados y controles bióticos.
+- **Confianza:** `B-COND`.
+
+### CLAIM-CARBONIFEROUS-ROMERS-GAP-001
+
+- **Dato:** `Pederpes` y faunas tournaisienses de varias localidades contienen tetrápodos y artrópodos donde el registro antes era escaso.
+- **Puente:** nuevos cuerpos y contextos muestran que gran parte del vacío dependía de roca y muestreo.
+- **No afirma:** cobertura fósil completa.
+- **Confianza:** `B`.
+
+### CLAIM-CARBONIFEROUS-AMNIOTE-DEFINITION-001
+
+- **Dato/definición:** Amniota es el nodo corona que une sinápsidos y saurópsidos; sus membranas reproductivas rara vez fosilizan.
+- **Puente:** cuerpos y huellas sitúan linajes; independencia reproductiva se reconstruye filogenéticamente.
+- **No afirma:** observación de un huevo amniótico carbonífero.
+- **Confianza:** `A-SEM`; `B` inferencia.
+
+### CLAIM-CARBONIFEROUS-AMNIOTE-TRACKS-001
+
+- **Dato:** Snowy Plains conserva rastros tournaisienses con cinco dígitos y garras atribuidos a amniota/saurópsido probable.
+- **Puente:** morfología, secuencia y exclusión filogenética adelantan el mínimo inferido `35–40 Myr` si edad y productor son correctos.
+- **Límite:** losa suelta casi in situ, cuerpo ausente y convergencia posible.
+- **Confianza:** `B-COND`.
+
+### CLAIM-CARBONIFEROUS-AMNIOTE-BODIES-001
+
+- **Dato:** `Hylonomus` conserva anatomía corporal bashkiriense compatible con saurópsido corona.
+- **Puente:** un cuerpo diagnóstico fija un mínimo anatómico independiente de las huellas más antiguas.
+- **No afirma:** origen, lugar de divergencia ni huevo preservado.
+- **Confianza:** `B`.
+
+### CLAIM-CARBONIFEROUS-RAINFOREST-TETRAPODS-001
+
+- **Dato:** ocurrencias crudas sugirieron endemismo/diversificación; estandarización y modelos neutrales reducen la señal causal simple.
+- **Puente:** controlar espacio y muestreo separa recambio floral real de una supuesta explosión automática de tetrápodos.
+- **Límite:** el archivo y los modelos espaciales siguen incompletos.
+- **Confianza:** `B` sesgo; `D` causa simple.
 
 ## Claims futuros
 
