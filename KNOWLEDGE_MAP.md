@@ -469,3 +469,26 @@ redox + nutrientes + redes ───→ habilitación y retroalimentación ─�
 ```
 
 Véase `INV-CAMBRIAN-001` en `06_paleozoico`, su mapa en `assets/visuales/mapa-investigacion-022.svg` y la cadena en `assets/visuales/de-aparicion-a-radiacion.svg`.
+
+La ruta específica de la radiación ordovícica y su crisis terminal es:
+
+```text
+ocurrencias + colecciones ─────→ riqueza/origination corregidas ─────┐
+rasgos + asociaciones ─────────→ ecospace, tiering y redes ──────────┤
+plancton + arrecifes ──────────→ pulsos ecológicos diacrónicos ──────┤
+δ18O + GCM ────────────────────→ enfriamiento habilitador ───────────┼─→ radiaciones marinas sucesivas
+C/S + δ238U + I/Ca ────────────→ oxígeno por reservorio/escala ──────┤
+paleoplacas + facies ──────────→ provincialismo y detectabilidad ────┘
+
+criptosporas + paleosuelo ─────→ presencia terrestre mínima ─────────→ no bosque / productor abierto
+
+rangos + U–Pb + selectividad ──→ dos fases de extinción ─────────────┐
+temperatura + eustasia + redox → estresores acoplados por pulso ─────┴─→ LOME multicausal
+                                  │
+                                  ├── gran aumento marino: A-B
+                                  ├── suma diacrónica: B
+                                  ├── vida terrestre mínima: B-COND/C
+                                  └── causa única de GOBE o LOME: E
+```
+
+Véase `INV-ORDOVICIAN-001` en `06_paleozoico`, su mapa en `assets/visuales/mapa-investigacion-023.svg` y la cadena en `assets/visuales/de-ocurrencias-a-biodiversificacion.svg`.

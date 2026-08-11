@@ -304,6 +304,20 @@ El mapa mantiene separados el GSSP, las edades de capas, cuerpos, trazas, esquel
 
 La cadena exige pasar por identidad, edad, detectabilidad, distribución, filogenia y una métrica declarada antes de hablar de diversificación. Una FAD sólo fija un mínimo de presencia preservada.
 
+## 24. Investigación 023 — Radiación ordovícica y crisis terminal
+
+![Portada conceptual de la radiación ordovícica](assets/visuales/hero-radiacion-ordovicica.png)
+
+> **Portada conceptual:** yuxtapone mares, microfósiles terrestres, estratigrafía, glaciación y redox en ventanas de lugares, escalas y tiempos distintos. No representa convivencia, anatomía exacta ni una causa común.
+
+![Mapa de evidencia de la radiación ordovícica](assets/visuales/mapa-investigacion-023.svg)
+
+El mapa separa tres historias: radiaciones marinas sucesivas, mínimos terrestres y dos pulsos de la crisis hirnantiana. Sólo convergen después de auditar tiempo, lugar, facies, detectabilidad y modelo.
+
+![Cadena desde ocurrencias fósiles hasta una biodiversificación](assets/visuales/de-ocurrencias-a-biodiversificacion.svg)
+
+La cadena impide saltar de una colección a la biosfera, de una edad local a sincronía o de una coincidencia ambiental a causa. Riqueza y ecospace permanecen como métricas diferentes.
+
 ## Procedencia
 
 El registro de creación, límites y prompt de cada pieza está en [`assets/visuales/README.md`](assets/visuales/README.md).

@@ -140,6 +140,16 @@ El propósito no es presentar la ciencia como una sucesión de fracasos ni como 
 | `ERR-CAMBRIAN-OXYGEN-SWITCH-001` | oxígeno convertido en interruptor único | condición suficiente y global | proxies locales + causalidad multivariable | DOCUMENTADO |
 | `ERR-CAMBRIAN-GENE-MAGIC-001` | toolkit convertido en explosión automática | gen presente produce anatomía | regulación, expresión y ecología | DOCUMENTADO |
 | `ERR-CAMBRIAN-NO-EXTINCTION-001` | radiación narrada como subida continua | diversidad creciente excluye pérdidas | rangos, Sinsk y muestreo | DOCUMENTADO |
+| `ERR-ORDOVICIAN-ONEEVENT-001` | GOBE dibujada como explosión única | todos los clados/regiones comparten reloj | curvas por archivo y paleoplaca | DOCUMENTADO |
+| `ERR-ORDOVICIAN-COUNT-CENSUS-001` | ocurrencias convertidas en censo oceánico | preservación y colecta neutrales | roca, colección, facies y cobertura | DOCUMENTADO |
+| `ERR-ORDOVICIAN-DIVERSITY-ECOSPACE-001` | riqueza igualada con ecospace/biomasa | más taxones implica toda complejidad | métricas paralelas y delimitadas | DOCUMENTADO |
+| `ERR-ORDOVICIAN-CLIMATE-SWITCH-001` | enfriamiento convertido en interruptor | nicho térmico es causa suficiente | modelo, fisiología y causas residuales | DOCUMENTADO |
+| `ERR-ORDOVICIAN-OXYGEN-SWITCH-001` | oxígeno global dibujado como una curva | proxies locales/globales son equivalentes | reservorio, escala, diagénesis y tiempo | DOCUMENTADO |
+| `ERR-ORDOVICIAN-METEOR-CAUSE-001` | meteoritos causan toda la GOBE | solapamiento regional prueba precedencia | geocronología y presupuesto de polvo | DOCUMENTADO |
+| `ERR-ORDOVICIAN-LAND-FOREST-001` | criptosporas convertidas en bosque | microfósil identifica cuerpo/paisaje | mínimo, productor y cobertura separados | DOCUMENTADO |
+| `ERR-ORDOVICIAN-LOME-INSTANT-001` | LOME reducida a una fecha | límite formal equivale a extinción | dos fases, rangos y cronología | DOCUMENTADO |
+| `ERR-ORDOVICIAN-LOME-ONECAUSE-001` | ambos pulsos reciben la misma causa | coincidencia ambiental identifica mortalidad | clima–eustasia–redox + selectividad | DOCUMENTADO |
+| `ERR-ORDOVICIAN-RECOVERY-001` | primer aumento llamado recuperación total | riqueza, composición y función rebotan juntas | declarar métrica, escala y referencia | DOCUMENTADO |
 | `ERR-LUNAR-APOLLO-INDEPENDENT-001` | tratar sitios Apollo como testigos independientes | ejecta local y sin transporte global | cartografía, Th, geoquímica y escalado de Imbrium | DOCUMENTADO |
 | `ERR-IMPACT-MOON-EARTH-001` | convertir cronología lunar en esterilización terrestre | escala constante de tasa y efecto | dinámica, hidrocodes, atmósfera/océano y archivo terrestre | DOCUMENTADO |
 | `ERR-LUNAR-ABSENCE-001` | “sin fundido antiguo” = “sin impacto antiguo” | supervivencia uniforme hacia atrás | sesgo de preservación y evidencia positiva `4.22–4.33 Ga` | DOCUMENTADO |
@@ -1269,3 +1279,83 @@ Rangos siberianos muestran pérdidas y recambios como Sinsk dentro del intervalo
 ### Corrección
 
 Representar apariciones y desapariciones con incertidumbre, controles de muestreo y correlación por paleoplaca.
+
+## ERR-ORDOVICIAN-ONEEVENT-001 — Varias radiaciones fueron comprimidas en una explosión
+
+Plancton, bentos, arrecifes e inmigraciones cambian en intervalos solapados pero no idénticos. Una etiqueta útil no crea sincronía.
+
+### Corrección
+
+Mostrar curvas por clado, gremio y paleoplaca; declarar si GOBE significa todo el periodo o una fase operacional.
+
+## ERR-ORDOVICIAN-COUNT-CENSUS-001 — Una colección se volvió océano
+
+Cada ocurrencia depende de exposición, facies, preservación, colecta, publicación y taxonomía. Sumarlas sin detectabilidad infla precisión.
+
+### Corrección
+
+Conservar localidad/colección/formación, controlar cobertura y recordar que corregir sesgo no recupera todo lo perdido.
+
+## ERR-ORDOVICIAN-DIVERSITY-ECOSPACE-001 — Cinco variables recibieron una sola curva
+
+Riqueza, origination, disparidad, biomasa y ecospace responden a datos y unidades distintas. Pueden aumentar a ritmos diferentes.
+
+### Corrección
+
+Nombrar la métrica y su denominador; comparar curvas sin tratarlas como réplicas ni sustitutos.
+
+## ERR-ORDOVICIAN-CLIMATE-SWITCH-001 — Enfriar produjo especies automáticamente
+
+Temperatura puede ampliar nichos fisiológicos, pero innovación, interacciones, paleogeografía y nutrientes no se desprenden de un termómetro.
+
+### Corrección
+
+Usar el clima como hipótesis predictiva condicionada y auditar actualismo fisiológico, `CO₂`, latitud y residuos del modelo.
+
+## ERR-ORDOVICIAN-OXYGEN-SWITCH-001 — Todo el océano respiró al mismo tiempo
+
+`δ238U`, `I/Ca` y C/S integran reservorios diferentes. Promediarlos borra que estabilidad global y ventilación local pueden coexistir.
+
+### Corrección
+
+Registrar proxy, fase, diagénesis, profundidad, cuenca y modelo de reservorio antes de inferir oxigenación.
+
+## ERR-ORDOVICIAN-METEOR-CAUSE-001 — Una lluvia real recibió una radiación entera
+
+La ruptura L y su flujo de material están bien registrados, pero postdatan el inicio principal. Coincidencia regional no revierte precedencia.
+
+### Corrección
+
+Separar evento cosmoquímico, forzamiento radiativo posible y respuesta biológica; exigir presupuesto y desfase causal.
+
+## ERR-ORDOVICIAN-LAND-FOREST-001 — Una espora microscópica levantó un bosque
+
+Criptosporas prueban un mínimo de presencia del productor, no tallos vasculares, altura, cobertura ni paisaje moderno.
+
+### Corrección
+
+Ilustrar microfósiles y sustrato; dejar productor corporal, nodo y extensión como preguntas abiertas.
+
+## ERR-ORDOVICIAN-LOME-INSTANT-001 — Dos fases cayeron sobre un solo punto
+
+El límite formal y las desapariciones no son un mismo objeto. Rangos y geocronología recuperan dos intervalos con error y correlación.
+
+### Corrección
+
+Mostrar intervalos asimétricos, secciones y pulsos; no usar la edad ICS como cronómetro automático de mortalidad.
+
+## ERR-ORDOVICIAN-LOME-ONECAUSE-001 — Una causa mató dos veces de la misma manera
+
+Enfriamiento, pérdida de plataforma, calentamiento, nutrientes y anoxia cambian en secuencia y por profundidad. Un marco acoplado no implica mortalidad uniforme.
+
+### Corrección
+
+Cruzar selectividad de organismos con temperatura, hábitat y redox por cuenca y pulso; conservar causas alternativas.
+
+## ERR-ORDOVICIAN-RECOVERY-001 — Subir de nuevo significó volver al pasado
+
+Una comunidad puede recuperar modos funcionales sin recuperar riqueza, composición o dominancia previas.
+
+### Corrección
+
+Declarar línea base, métrica, región y escala temporal; comparar riqueza, ecospace y redes en paralelo.

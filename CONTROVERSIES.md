@@ -134,6 +134,16 @@ Una controversia no implica empate. Registra qué parte está realmente abierta,
 | `CONT-CAMBRIAN-OXYGEN-001` | Oxígeno como causa | oxigenación habilitó actividad, tamaño y nichos | oxígeno fluctuante/local y biología como motor del redox | abierta causalmente | B-COND condición; D causa |
 | `CONT-CAMBRIAN-CAUSES-001` | Gatillo dominante | retroalimentación multivariable ecológica–ambiental–desarrollo | predominio de depredación, nutrientes, oxígeno o regulación | abierta en pesos y secuencia | C-D |
 | `CONT-CAMBRIAN-SINSK-001` | Alcance del evento de Sinsk | recambio real en plataforma siberiana | crisis regional/muestreo sin pulso mundial sincrónico | abierta globalmente | B local; C-D global |
+| `CONT-ORDOVICIAN-SCOPE-001` | ¿Una GOBE o varias radiaciones? | suma diacrónica de plancton, bentos, arrecifes e inmigraciones | evento principal compacto para comparación de tasas | resuelta semánticamente; fases abiertas | A-SEM; B-C bordes |
+| `CONT-ORDOVICIAN-DURATION-001` | ¿Todo el periodo o `~15–17 Myr`? | definición amplia conserva raíces y pulsos | fase Dapingiense–Darriwiliense captura máximo | abierta por variable y región | B-C |
+| `CONT-ORDOVICIAN-SAMPLING-001` | Biología frente a archivo | aumento persiste bajo varios métodos | magnitud/tempo amplificados por roca, colecciones y bins | señal resuelta; magnitud abierta | A-B señal; C magnitud |
+| `CONT-ORDOVICIAN-CLIMATE-001` | Enfriamiento como motor dominante | termometría y modelos amplían nichos habitables | clima correlaciona pero biología, nutrientes y geografía explican residuos | abierta en pesos/mecanismo de `CO₂` | B-COND; C-D pesos |
+| `CONT-ORDOVICIAN-OXYGEN-001` | Subida, estabilidad o ventilación local | oxigenación habilita ecospace | `δ238U` estable durante fase principal e `I/Ca` local posterior | abierta por escala/proxy | B-COND modulación; D causa única |
+| `CONT-ORDOVICIAN-METEOR-001` | Polvo extraterrestre y GOBE | polvo pudo contribuir al enfriamiento medio | ruptura L postdata el inicio y no explica fases completas | causa GOBE rechazada; clima parcial abierto | A-B evento; C-D clima; E causa única |
+| `CONT-ORDOVICIAN-LAND-001` | ¿Quién colonizó tierra y con qué escala? | criptosporas embriofíticas y trazas animales | productores más basales, excursiones anfibias o señales locales | abierta en identidad/alcance | B-COND plantas; C-D animales |
+| `CONT-ORDOVICIAN-LOME-TIMING-001` | Duración y sincronía de dos pulsos | CA-ID-TIMS de South China resuelve fases sub-Myr | correlaciones/globalidad permiten pulsos más protractados | dos fases robustas; bordes abiertos | B fases; C global |
+| `CONT-ORDOVICIAN-LOME-CAUSES-001` | Glaciación, anoxia, volcanismo o tasa | secuencia climática–eustática–redox acoplada | un motor domina uno o ambos pulsos | abierta en pesos y mortalidad | B-COND marco; C-D pesos |
+| `CONT-ORDOVICIAN-RECOVERY-001` | ¿Recuperación rápida o retrasada? | ecospace/arquitecturas sobreviven relativamente | riqueza previa tarda ≥35 Myr bajo algunas curvas | abierta por métrica y escala | B-COND |
 
 ## CONT-COSMOS-H0-001 — Dos rutas hacia la tasa actual
 
@@ -1083,3 +1093,63 @@ Genes regulatorios, oxígeno, nutrientes, depredación, esqueletos y mezcla del 
 El registro siberiano separa dos fases mediante pérdidas cerca del evento de Sinsk. Correlación mundial, simultaneidad y vínculo con perturbaciones de oxígeno no están cerrados.
 
 **Prueba discriminatoria:** edades y rangos de alta resolución en varias paleoplacas, facies equivalentes y proxies redox que prueben sincronía y selectividad comunes.
+
+## CONT-ORDOVICIAN-SCOPE-001 — Un nombre suma varias curvas
+
+La definición amplia conserva radiaciones pelágicas, bentónicas, arrecifales y migratorias a lo largo del Ordovícico; una definición estrecha aísla la fase más rápida. El desacuerdo desaparece parcialmente al declarar variable y escala.
+
+**Prueba discriminatoria:** curvas por clado, gremio y paleoplaca con una regla previa de inicio/fin, comparadas sin sumar ocurrencias dependientes.
+
+## CONT-ORDOVICIAN-DURATION-001 — El cronómetro depende de la variable
+
+Riqueza, origination, ecospace y arrecifes no cruzan umbrales al mismo tiempo. Un intervalo único puede servir como resumen operacional, pero no convierte los bordes en observaciones universales.
+
+**Prueba discriminatoria:** modelos de cambio de régimen con edades propagadas, bins comparables y sensibilidad explícita a la definición amplia/estrecha.
+
+## CONT-ORDOVICIAN-SAMPLING-001 — La radiación atraviesa un archivo desigual
+
+La señal persiste entre compilaciones, pero roca expuesta, colecciones, facies, taxonomía y duración alteran magnitud y tempo. Corregir un sesgo no reconstruye organismos nunca preservados.
+
+**Prueba discriminatoria:** replicación en paleoplacas y clados con historias de roca distintas, métodos de cobertura/captura–recaptura y pruebas de sensibilidad taxonómica.
+
+## CONT-ORDOVICIAN-CLIMATE-001 — Un habilitador fuerte busca su peso
+
+Enfriamiento y modelos térmicos ofrecen mecanismo fisiológico, pero no explican solos innovación, redes, nutrientes ni el retiro de `CO₂`. El debate no es si cambió el clima, sino cuánto del patrón produjo.
+
+**Prueba discriminatoria:** predicciones espaciales y de clado derivadas antes de mirar diversidad, con termometrías independientes y experimentos de sensibilidad fisiológica/paleogeográfica.
+
+## CONT-ORDOVICIAN-OXYGEN-001 — Tres proxies observan tres escalas
+
+C/S favorece ascenso atmosférico, `δ238U` estabilidad oceánica durante el máximo e `I/Ca` ventilación de plataforma báltica. No son votos contradictorios hasta igualar reservorio, tiempo y lugar.
+
+**Prueba discriminatoria:** múltiples proxies co-ubicados y fechados en transectos de profundidad/paleoplacas, con modelos de reservorio y diagénesis compartidos.
+
+## CONT-ORDOVICIAN-METEOR-001 — Ruptura real, causalidad sobredimensionada
+
+El flujo de material L es robusto, pero la cronología refinada lo coloca después del inicio principal. El polvo aún puede contribuir a enfriamiento medio sin originar toda la GOBE.
+
+**Prueba discriminatoria:** presupuesto global de polvo y duración, modelo radiativo calibrado, respuesta climática fechada y predicciones bióticas posteriores —no anteriores— al forzamiento.
+
+## CONT-ORDOVICIAN-LAND-001 — Microfósil y traza sin productor corporal
+
+Criptosporas apoyan organismos de grado embriofítico y Juniata actividad animal no marina. Ninguno fija cobertura, anatomía, permanencia o divergencia exacta.
+
+**Prueba discriminatoria:** cuerpos en conexión con esporas, química/microestructura diagnóstica, trazas repetidas en paleosuelos independientes y productores compatibles.
+
+## CONT-ORDOVICIAN-LOME-TIMING-001 — Dos pulsos, muchos relojes
+
+South China permite duraciones sub-Myr y una segunda tasa muy alta; otras cuencas y correlaciones pueden extender o desplazar los intervalos. Una edad local no redefine por sí sola el límite ICS.
+
+**Prueba discriminatoria:** cenizas CA-ID-TIMS intercaladas en varias paleoplacas, biozonas comunes y modelos edad–profundidad que propaguen incertidumbre y hiatos.
+
+## CONT-ORDOVICIAN-LOME-CAUSES-001 — Frío, plataforma y oxígeno en secuencia
+
+La narrativa clásica separa glaciación/eustasia y deglaciación/anoxia; proxies recientes permiten anoxia protractada y volcanismo en más de una fase. Los estresores pueden acoplarse sin matar igual en todas partes.
+
+**Prueba discriminatoria:** cronologías co-registradas de temperatura, nivel, nutrientes, redox y selectividad con predicciones exclusivas por profundidad, fisiología y pulso.
+
+## CONT-ORDOVICIAN-RECOVERY-001 — Volver depende de qué se cuenta
+
+Riqueza, composición, ecospace y dominancia tienen tiempos diferentes. Persistir con funciones parecidas no equivale a recuperar los mismos taxones ni el mismo número.
+
+**Prueba discriminatoria:** series Silúrico–Devónicas con taxonomía estable, muestreo corregido y métricas paralelas de riqueza, rasgos, redes y diversidad regional/global.
