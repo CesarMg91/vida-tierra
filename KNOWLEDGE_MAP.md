@@ -261,3 +261,19 @@ desgasificación + clima ──────→ trayectorias físicamente viables
 ```
 
 Véase `INV-HADEAN-WATER-001` en `03_hadeano`, su mapa en `assets/visuales/mapa-investigacion-010.svg` y la cadena en `assets/visuales/cadena-oxigeno-agua.svg`.
+
+La ruta específica de la atmósfera hadeana es:
+
+```text
+Ce/U + U–Pb en zircon ─────→ fO₂ de fundidos seleccionados ──────┐
+CHONS + solubilidad + P–T ─→ familias de gases desgasificados ───┤
+D/H ───────────────────────→ límite condicional de H₂/escape ────┤
+Xe en cuarzo ~3.3 Ga ──────→ evolución y desgasificación ─────────┤
+S-MIF pre-3.77 Ga ─────────→ anoxia en el borde eoarcaico ────────┤
+N/Ar + vesículas arqueanas → cotas posteriores de presión ────────┘
+                                      ↓
+             redox magmático y atmósfera dinámica: B–C
+             mezcla / presión hadeanas exactas: D–E
+```
+
+Véase `INV-HADEAN-ATMOSPHERE-001` en `03_hadeano`, su mapa en `assets/visuales/mapa-investigacion-011.svg` y la cadena en `assets/visuales/de-magma-a-aire.svg`.

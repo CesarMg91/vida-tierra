@@ -136,6 +136,20 @@ El mapa compara Jack Hills pesado/ligero, Acasta y Nuvvuagittuq. La convergencia
 
 La cadena separa seis pasos desde la microsonda hasta la escala planetaria. Las advertencias naranjas nombran lo que se pierde en cada traducción.
 
+## 12. Investigación 011 — Atmósfera hadeana
+
+![Portada conceptual de la atmósfera hadeana](assets/visuales/hero-atmosfera-hadeana.png)
+
+> **Portada conceptual:** compone océano de magma, desgasificación, impacto, escape, zircon y laboratorio. No es una fotografía, no fija una receta de gases y no representa un único estado estable.
+
+![Mapa de evidencia de la atmósfera hadeana](assets/visuales/mapa-investigacion-011.svg)
+
+El mapa sitúa cada archivo junto a la variable que conserva. Los zircones se acercan al Hadeano pero miden el fundido; S-MIF, xenón e inclusiones se acercan al aire, pero pertenecen al Arcaico.
+
+![Cadena del magma al aire](assets/visuales/de-magma-a-aire.svg)
+
+La cadena impide tres saltos: `fO₂` no es porcentaje de O₂, gas de equilibrio no es aire retenido y una cota arqueana no es una cota hadeana.
+
 ## Procedencia
 
 El registro de creación, límites y prompt de cada pieza está en [`assets/visuales/README.md`](assets/visuales/README.md).
