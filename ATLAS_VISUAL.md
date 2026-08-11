@@ -374,6 +374,20 @@ El mapa distingue reconstrucción tectónica, filogenia/función, cronología y 
 
 La doble cadena hace visibles los pasos perdidos: la paleogeografía exige solución cinemática y prueba cruzada; la causalidad exige gas, forzamiento, ambiente, exposición, selectividad y rangos corregidos.
 
+## 29. Investigación 028 — recuperación, dinosaurios y mamaliaformes
+
+![Portada conceptual del Triásico](assets/visuales/hero-recuperacion-dinosaurios-mamaliaformes-triasico.png)
+
+> **Portada conceptual:** yuxtapone recuperación marina, arcosaurios, dinosaurios tempranos, un pequeño cinodonto/mamaliaforme y actividad CAMP. Son archivos y momentos distintos: no prueba convivencia, ancestro directo, mamífero corona, recuperación mundial ni una erupción única.
+
+![Mapa de evidencia de recuperación, dinosaurios y mamaliaformes](assets/visuales/mapa-investigacion-028.svg)
+
+El mapa separa límites, métricas de recuperación, clima, árbol arcosaurio, adquisición mamaliaforme y crisis terminal. Una Lagerstätte no mide el planeta, una primera aparición no fecha un origen y un carácter no entrega una identidad completa.
+
+![Cadenas desde fósil hasta nodo y desde CAMP hasta recambio](assets/visuales/de-fosil-a-nodo-y-de-camp-a-recambio.svg)
+
+La doble cadena exige edad, anatomía, homología y árbol para asignar un nodo; y fase magmática, gases, forzamiento, exposición, selectividad y rangos corregidos para explicar el recambio.
+
 ## Procedencia
 
 El registro de creación, límites y prompt de cada pieza está en [`assets/visuales/README.md`](assets/visuales/README.md).

@@ -190,6 +190,16 @@ El propósito no es presentar la ciencia como una sucesión de fracasos ni como 
 | `ERR-PERMIAN-ONE-EXTINCTION-001` | hubo una sola extinción pérmica de millones de años | Capitaniense y terminal sumadas | eventos, volcanismos y pulsos separados | DOCUMENTADO |
 | `ERR-PERMIAN-96-LIFE-001` | murió 96 % de toda la vida | estimador marino convertido en censo biosférico | denominador, corrección, reino y hábitat | DOCUMENTADO |
 | `ERR-PERMIAN-VOLCANO-ONECAUSE-001` | una erupción mató todo directamente | desencadenante confundido con mecanismo de muerte | pulso, gases, clima, océano y selectividad | DOCUMENTADO |
+| `ERR-TRIASSIC-RECOVERY-DATE-001` | la biosfera se recuperó en una fecha única | riqueza, abundancia, función y estabilidad fundidas | métricas, regiones y líneas base separadas | DOCUMENTADO |
+| `ERR-TRIASSIC-GUIYANG-GLOBAL-001` | Guiyang prueba recuperación mundial | Lagerstätte local convertida en censo planetario | mínimo local y replicación geográfica | DOCUMENTADO |
+| `ERR-TRIASSIC-ARCHOSAUR-DINOSAUR-001` | todo arcosaurio fue dinosaurio | nodo amplio confundido con una rama | árbol Archosauria–Pseudosuchia–Avemetatarsalia–Dinosauria | DOCUMENTADO |
+| `ERR-TRIASSIC-NYASASAURUS-FIRST-001` | `Nyasasaurus` fue el primer dinosaurio | candidato/FAD convertido en origen e individuo | posiciones alternativas y límite mínimo | DOCUMENTADO |
+| `ERR-TRIASSIC-DINOSAUR-DOMINANCE-001` | dinosaurios dominaron desde su aparición | presencia convertida en abundancia/biomasa/ecospace | métricas y regiones explícitas | DOCUMENTADO |
+| `ERR-TRIASSIC-CPE-CAUSE-001` | el CPE creó a los dinosaurios | coincidencia convertida en causa única | cronología, tasas y modelos rivales | DOCUMENTADO |
+| `ERR-TRIASSIC-BRASILODON-MAMMAL-001` | `Brasilodon` fue placentario por difiodoncia | un carácter convertido en identidad/paquete | matriz filogenética y rasgos separados | DOCUMENTADO |
+| `ERR-TRIASSIC-MAMMAL-PACKAGE-001` | los rasgos mamalianos aparecieron juntos | mosaico y homoplasia convertidos en escalera | reconstrucción carácter por carácter | DOCUMENTADO |
+| `ERR-TRIASSIC-CAMP-LAVA-001` | la primera lava inició CAMP | afloramiento eruptivo igualado a sistema magmático | lavas, diques, sills y gases separados | DOCUMENTADO |
+| `ERR-TRIASSIC-DINOSAUR-VICTORY-001` | la extinción premió al mejor competidor | supervivencia/expansión convertidas en superioridad | oportunidad, clima, innovación y competencia comparados | DOCUMENTADO |
 | `ERR-LUNAR-APOLLO-INDEPENDENT-001` | tratar sitios Apollo como testigos independientes | ejecta local y sin transporte global | cartografía, Th, geoquímica y escalado de Imbrium | DOCUMENTADO |
 | `ERR-IMPACT-MOON-EARTH-001` | convertir cronología lunar en esterilización terrestre | escala constante de tasa y efecto | dinámica, hidrocodes, atmósfera/océano y archivo terrestre | DOCUMENTADO |
 | `ERR-LUNAR-ABSENCE-001` | “sin fundido antiguo” = “sin impacto antiguo” | supervivencia uniforme hacia atrás | sesgo de preservación y evidencia positiva `4.22–4.33 Ga` | DOCUMENTADO |
@@ -1719,3 +1729,83 @@ Los Traps ofrecen tiempo, escala y gases, pero la mortalidad ocurrió mediante c
 ### Corrección
 
 Escribir la cadena causal completa, cuantificar cada puente y permitir pesos distintos por región, ambiente y organismo.
+
+## ERR-TRIASSIC-RECOVERY-DATE-001 — La biosfera se recuperó en X millones de años
+
+Riqueza, abundancia, equidad, función y estabilidad usan denominadores y resoluciones diferentes. Elegir el primer retorno de una curva y llamarlo recuperación completa mezcla objetos.
+
+### Corrección
+
+Nombrar métrica, clado, ambiente, región, línea base e incertidumbre; comparar varios relojes antes de resumir duración.
+
+## ERR-TRIASSIC-GUIYANG-GLOBAL-001 — Una Lagerstätte curó el planeta
+
+Guiyang conserva una comunidad marina compleja muy temprana, pero una cuenca con preservación excepcional no mide simultáneamente todos los mares ni la tierra.
+
+### Corrección
+
+Tratarla como contraejemplo local a un retraso uniforme y exigir replicación geográfica para una afirmación global.
+
+## ERR-TRIASSIC-ARCHOSAUR-DINOSAUR-001 — Todo arcosaurio fue dinosaurio
+
+Archosauria incluye la línea cocodriliana Pseudosuchia y la línea aviana Avemetatarsalia; Dinosauria es sólo una rama de esta última.
+
+### Corrección
+
+Mostrar el árbol mínimo y nombrar el nodo exacto antes de trasladar rasgos o fechas entre grupos.
+
+## ERR-TRIASSIC-NYASASAURUS-FIRST-001 — El fósil dudoso se volvió primer individuo
+
+`Nyasasaurus` puede estar dentro de Dinosauria o junto a él, y su edad deriva del contexto regional. Aun dentro del clado sería el cuerpo conocido más antiguo, no el primer dinosaurio histórico.
+
+### Corrección
+
+Expresar posiciones alternativas, tipo de edad y dirección del límite mínimo; no convertir FAD en origen.
+
+## ERR-TRIASSIC-DINOSAUR-DOMINANCE-001 — Los dinosaurios dominaron desde que aparecieron
+
+Los primeros dinosaurios inequívocos coexistieron durante millones de años con pseudosuquios y sinápsidos más diversos, abundantes o grandes en muchas faunas; la expansión fue diacrónica.
+
+### Corrección
+
+Definir dominio por riqueza, abundancia, biomasa, tamaño o ecospace y medirlo por región e intervalo.
+
+## ERR-TRIASSIC-CPE-CAUSE-001 — La lluvia creó a los dinosaurios
+
+El CPE coincide con cambios climáticos, extinciones y diversificaciones, pero coincidencia y mecanismos plausibles no prueban una causa única ni una respuesta igual en todos los clados.
+
+### Corrección
+
+Separar origen, diversificación y expansión; comparar cronologías, tasas y alternativas de muestreo/volcanismo/clima.
+
+## ERR-TRIASSIC-BRASILODON-MAMMAL-001 — Un reemplazo dental fabricó un placentario
+
+La difiodoncia interpretada en `Brasilodon` es un carácter relevante, no un paquete observado de corona mamaliana, pelo, lactancia, endotermia y placenta.
+
+### Corrección
+
+Codificar cada carácter por separado y definir Mammalia/Mammaliaformes antes de asignar identidad o fisiología.
+
+## ERR-TRIASSIC-MAMMAL-PACKAGE-001 — Los rasgos mamalianos llegaron juntos
+
+Mandíbula, oído, dientes, crecimiento y metabolismo cambiaron en mosaico y también por homoplasia. Un taxón de transición no es un mamífero moderno incompleto.
+
+### Corrección
+
+Reconstruir cada rasgo en el árbol, con su evidencia y confianza, sin una escalera hacia la condición viva.
+
+## ERR-TRIASSIC-CAMP-LAVA-001 — La primera colada inició CAMP
+
+Intrusiones y sills pueden preceder las lavas preservadas y liberar gases volcánicos o termogénicos. El afloramiento superficial no registra todo el sistema magmático.
+
+### Corrección
+
+Fechar por separado lavas, diques y sills, declarar qué roca mide cada edad y modelar el flujo de volátiles.
+
+## ERR-TRIASSIC-DINOSAUR-VICTORY-001 — La extinción premió al mejor competidor
+
+Que dinosaurios se expandieran después de perderse muchos incumbentes muestra supervivencia y oportunidad, no una pelea observada ni superioridad universal previa.
+
+### Corrección
+
+Distinguir supervivencia, liberación ecológica, innovación, clima y competencia; exigir predicciones exclusivas antes de atribuir victoria.

@@ -308,6 +308,31 @@ Este archivo es el índice canónico. La letra de confianza califica exactamente
 | `CLAIM-PERMIAN-TERRESTRIAL-TIMING-001` | Karoo y Cathaysia no entregan un horizonte terrestre mundial único; sincronía depende de región, variable y resolución. | C-D | AUDITADO | `EVID-PERMIAN-TERRESTRIAL-TIME-001` | `INV-PERMIAN-001` |
 | `CLAIM-PERMIAN-SURVIVAL-001` | Supervivencia y severidad cambian con taxón, hábitat, fisiología y métrica; no existe un censo equivalente para toda la biosfera. | B patrón; C magnitudes | AUDITADO | `EVID-PERMIAN-EPME-MAGNITUDE-001`, `EVID-PERMIAN-ANOXIA-PHYSIOLOGY-001` | `INV-PERMIAN-001` |
 
+| `CLAIM-TRIASSIC-SCOPE-001` | Límite, recuperación, clima, radiaciones y crisis terminal usan archivos y relojes distintos; el nombre Triásico no los sincroniza. | A-SEM; B pluralidad | AUDITADO | conjunto `EVID-TRIASSIC-*` | `INV-TRIASSIC-001` |
+| `CLAIM-TRIASSIC-BOUNDARIES-001` | Meishan fija la base por `Hindeodus parvus` y Kuhjoch el techo por `Psiloceras spelae tirolicum`; ninguno se define por dinosaurios, mamíferos o toda la extinción. | A límites; B edades | AUDITADO | `EVID-TRIASSIC-BOUNDARIES-001` | `INV-TRIASSIC-001` |
+| `CLAIM-TRIASSIC-SUBDIVISIONS-001` | Las tres series contienen siete pisos y varios GSSP internos siguen como candidatos institucionales. | A arquitectura; B estado | AUDITADO | `EVID-TRIASSIC-SUBDIVISIONS-001` | `INV-TRIASSIC-001` |
+| `CLAIM-TRIASSIC-RECOVERY-METRICS-001` | La riqueza genérica marina recuperó niveles precrisis cerca de 5 Myr, mientras la estructura trófica siguió reorganizándose mucho más tiempo. | B-COND | AUDITADO | `EVID-TRIASSIC-RECOVERY-001` | `INV-TRIASSIC-001` |
+| `CLAIM-TRIASSIC-GUIYANG-001` | Guiyang documenta un ecosistema marino complejo `1.08 ± 0.08 Myr` después de la crisis, mínimo local que refuta un retraso mundial uniforme. | A-B local; D global | AUDITADO | `EVID-TRIASSIC-GUIYANG-001` | `INV-TRIASSIC-001` |
+| `CLAIM-TRIASSIC-HOTHOUSE-001` | El superinvernadero temprano persistió ~5 Myr; ciclos de sílice y vegetación ofrecen retroalimentaciones plausibles, no exclusivas. | B estado; C-PROV mecanismo | AUDITADO | `EVID-TRIASSIC-HOTHOUSE-001` | `INV-TRIASSIC-001` |
+| `CLAIM-TRIASSIC-TERRESTRIAL-RECOVERY-001` | Riqueza, equidad y abundancia de tetrápodos en varias cuencas permanecieron alteradas hasta el Triásico Medio. | B-COND | AUDITADO | `EVID-TRIASSIC-TERRESTRIAL-001` | `INV-TRIASSIC-001` |
+| `CLAIM-TRIASSIC-ARCHOSAUROMORPH-RADIATION-001` | Arcosauromorfos radiaron en fases: fauna poscrisis conservadora, diversificación críptica y expansión visible cerca de la estabilización. | B-COND | AUDITADO | `EVID-TRIASSIC-ARCHOSAURS-001` | `INV-TRIASSIC-001` |
+| `CLAIM-TRIASSIC-ARCHOSAUR-SPLIT-001` | Archosauria incluye líneas del cocodrilo y del ave; Dinosauria es sólo una rama avemetatarsaliana y contiene aves. | A-SEM; B fósil | AUDITADO | `EVID-TRIASSIC-ARCHOSAURS-001` | `INV-TRIASSIC-001` |
+| `CLAIM-TRIASSIC-DINOSAUR-DEFINITION-001` | Dinosauria se reconoce por conjuntos de caracteres y árbol; bipedismo, tres dedos, tamaño o huellas aisladas no bastan. | A-SEM; B diagnóstico | AUDITADO | `EVID-TRIASSIC-DINOSAUR-ORIGIN-001` | `INV-TRIASSIC-001` |
+| `CLAIM-TRIASSIC-NYASASAURUS-001` | `Nyasasaurus` puede ser dinosaurio medio-triásico o su hermano inmediato; material y edad no permiten un «primero» incondicional. | C-D | AUDITADO | `EVID-TRIASSIC-DINOSAUR-ORIGIN-001` | `INV-TRIASSIC-001` |
+| `CLAIM-TRIASSIC-DINOSAUR-CALIBRATION-001` | Chañares `236–234 Ma` y Santa Maria `233.23 ± 0.73 Ma` comprimen el intervalo entre dinosauriformes y dinosaurios inequívocos. | B | AUDITADO | `EVID-TRIASSIC-DINOSAUR-TIME-001` | `INV-TRIASSIC-001` |
+| `CLAIM-TRIASSIC-PSEUDOSUCHIAN-DOMINANCE-001` | Pseudosuquios superaron a dinosaurios en diversidad, abundancia o tamaño en varias faunas triásicas; el dominio no comenzó con el origen. | B regional | AUDITADO | `EVID-TRIASSIC-DINOSAUR-ECOLOGY-001` | `INV-TRIASSIC-001` |
+| `CLAIM-TRIASSIC-CPE-001` | El episodio carniense coincide con cambios ambientales y expansión dinosauriana regional; causalidad y alcance por clado siguen abiertos. | B coincidencia; C-D causa | AUDITADO | `EVID-TRIASSIC-CPE-001` | `INV-TRIASSIC-001` |
+| `CLAIM-TRIASSIC-DINOSAUR-DIACHRONY-001` | El ascenso dinosauriano fue diacrónico y dependió de latitud, clima, recursos, incumbencia y muestreo. | B-COND | AUDITADO | `EVID-TRIASSIC-DINOSAUR-ECOLOGY-001` | `INV-TRIASSIC-001` |
+| `CLAIM-TRIASSIC-MAMMALIAFORM-DEFINITION-001` | Mammalia corona y Mammaliaformes no son equivalentes; «primer mamífero» depende de definición y topología. | A-SEM; C mínimo | AUDITADO | `EVID-TRIASSIC-MAMMALIAFORM-PHYLO-001` | `INV-TRIASSIC-001` |
+| `CLAIM-TRIASSIC-HARAMIYAVIA-001` | Micro-CT favorece `Haramiyavia` fuera de Mammalia corona, por lo que no obliga a una radiación de la corona en el Triásico. | B-COND | AUDITADO | `EVID-TRIASSIC-MAMMALIAFORM-PHYLO-001` | `INV-TRIASSIC-001` |
+| `CLAIM-TRIASSIC-BRASILODON-001` | `Brasilodon` presenta difiodoncia probable cerca de 225 Ma; ese patrón no demuestra corona, placenta, leche, pelo ni endotermia moderna. | B-COND rasgo; D-E paquete | AUDITADO | `EVID-TRIASSIC-BRASILODON-001` | `INV-TRIASSIC-001` |
+| `CLAIM-TRIASSIC-JAW-HOMOPLASY-001` | Micro-CT muestra contacto dentario–escamosal convergente en `Riograndia` y ausencia del contacto propuesto en `Brasilodon`. | B | AUDITADO | `EVID-TRIASSIC-JAW-001` | `INV-TRIASSIC-001` |
+| `CLAIM-TRIASSIC-PHYSIOLOGY-MOSAIC-001` | Proxies de mammaliaformes jurásicos tempranos impiden proyectar metabolismo mamaliano moderno como paquete a precursores triásicos. | B-COND | AUDITADO | `EVID-TRIASSIC-PHYSIOLOGY-001` | `INV-TRIASSIC-001` |
+| `CLAIM-TRIASSIC-ETE-TIMING-001` | La fase principal de extinción cerca de `201.51 ± 0.15 Ma` precede conceptualmente al GSSP jurásico `201.3 ± 0.2 Ma`; sus incertidumbres y objetos difieren. | B-COND | AUDITADO | `EVID-TRIASSIC-ETE-TIME-001` | `INV-TRIASSIC-001` |
+| `CLAIM-TRIASSIC-CAMP-001` | U–Pb sitúa actividad intrusiva CAMP antes de las primeras coladas conservadas y sincrónica con la crisis; gases exactos siguen inferidos. | A-B tiempo; B-COND causa | AUDITADO | `EVID-TRIASSIC-CAMP-001` | `INV-TRIASSIC-001` |
+| `CLAIM-TRIASSIC-ETE-KILLCHAIN-001` | CAMP, volátiles, calentamiento, acidificación, desoxigenación y estrés terrestre forman una cadena multimecanismo heterogénea. | B mecanismos; C pesos | AUDITADO | `EVID-TRIASSIC-ETE-ENVIRONMENT-001` | `INV-TRIASSIC-001` |
+| `CLAIM-TRIASSIC-DINOSAUR-AFTERMATH-001` | La expansión jurásica de dinosaurios siguió a la pérdida de incumbentes y favorece oportunidad poscrisis, no victoria competitiva demostrada. | B-COND | AUDITADO | `EVID-TRIASSIC-AFTERMATH-001` | `INV-TRIASSIC-001` |
+
 ## Fichas resumidas
 
 ### CLAIM-COSMOS-HOT-001 / CMB-001
@@ -2061,6 +2086,128 @@ Este archivo es el índice canónico. La letra de confianza califica exactamente
 - **Puente:** fisiología y exposición explican selectividad mejor que una fracción de «toda la vida».
 - **Límite:** abundancia y linajes mal fosilizables no ofrecen censo global.
 - **Confianza:** `B` patrón; `C` magnitudes.
+
+## Investigación 028 — Recuperación, dinosaurios y mamaliaformes triásicos
+
+### CLAIM-TRIASSIC-SCOPE-001
+- **Dato:** límites, ocurrencias, clima, anatomía, magmas y extinciones tienen archivos/resoluciones diferentes.
+- **Puente:** separarlos impide usar el periodo como causa o reloj universal.
+- **Confianza:** `A-SEM`; `B` pluralidad.
+
+### CLAIM-TRIASSIC-BOUNDARIES-001
+- **Dato:** Meishan y Kuhjoch fijan base/techo con FO de fósiles; ICS asigna `251.902 ± 0.024` y `201.3 ± 0.2 Ma`.
+- **No afirma:** comienzo de recuperación, dinosaurios, mamíferos o mortalidad completa.
+- **Confianza:** `A` límites; `B` edades.
+
+### CLAIM-TRIASSIC-SUBDIVISIONS-001
+- **Dato:** Inferior, Medio y Superior contienen Induense a Rhaetiense; varios GSSP internos siguen candidatos.
+- **Límite:** estado institucional y edades pueden cambiar.
+- **Confianza:** `A` arquitectura; `B` estado.
+
+### CLAIM-TRIASSIC-RECOVERY-METRICS-001
+- **Dato:** 51,055 ocurrencias producen recuperación genérica hacia Anisiense y estructura trófica aún cambiante después.
+- **Puente:** riqueza, función y red se calculan por separado.
+- **Confianza:** `B-COND`.
+
+### CLAIM-TRIASSIC-GUIYANG-001
+- **Dato:** U–Pb y al menos 12 clases/19 órdenes documentan complejidad a `250.83 +0.07/−0.06 Ma`.
+- **No afirma:** recuperación mundial ni estabilidad prolongada.
+- **Confianza:** `A-B` local; `D` global.
+
+### CLAIM-TRIASSIC-HOTHOUSE-001
+- **Dato:** proxies registran calor/anoxia prolongados; modelos de sílice y vegetación reproducen retroalimentaciones.
+- **Límite:** procesos no exclusivos y parámetros profundos.
+- **Confianza:** `B` estado; `C-PROV` mecanismo.
+
+### CLAIM-TRIASSIC-TERRESTRIAL-RECOVERY-001
+- **Dato:** riqueza/equidad de tetrápodos de Sudáfrica y Rusia permanecen bajas hasta el Triásico Medio.
+- **Límite:** cuencas, taxonomía y abundancia preservada.
+- **Confianza:** `B-COND`.
+
+### CLAIM-TRIASSIC-ARCHOSAUROMORPH-RADIATION-001
+- **Dato:** filogenia, tasas, disparidad y abundancia recuperan tres fases de radiación.
+- **Límite:** líneas fantasma y muestreo desigual.
+- **Confianza:** `B-COND`.
+
+### CLAIM-TRIASSIC-ARCHOSAUR-SPLIT-001
+- **Dato/definición:** Pseudosuchia y Avemetatarsalia son ramas principales; Dinosauria está dentro de la segunda.
+- **No afirma:** que pseudosuquios fueran cocodrilos modernos o que todos los avemetatarsalianos fueran dinosaurios.
+- **Confianza:** `A-SEM`; `B` fósil.
+
+### CLAIM-TRIASSIC-DINOSAUR-DEFINITION-001
+- **Dato:** caracteres anatómicos se codifican en matrices; huellas requieren atribución independiente.
+- **No afirma:** dinosaurio por tamaño, bipedismo o tres dedos.
+- **Confianza:** `A-SEM`; `B` diagnóstico.
+
+### CLAIM-TRIASSIC-NYASASAURUS-001
+- **Dato:** húmero/vértebras permiten dinosaurio o hermano inmediato.
+- **Límite:** material fragmentario y edad regional.
+- **Confianza:** `C-D`.
+
+### CLAIM-TRIASSIC-DINOSAUR-CALIBRATION-001
+- **Dato:** Chañares `236–234 Ma`; Santa Maria `233.23 ± 0.73 Ma`.
+- **Puente:** capas fechadas transfieren mínimos a asociaciones fósiles.
+- **Confianza:** `B`.
+
+### CLAIM-TRIASSIC-PSEUDOSUCHIAN-DOMINANCE-001
+- **Dato:** varias asociaciones bien muestreadas muestran pseudosuquios más diversos/abundantes/grandes.
+- **No afirma:** patrón idéntico mundial.
+- **Confianza:** `B` regional.
+
+### CLAIM-TRIASSIC-CPE-001
+- **Dato:** huellas, cuerpos, humedad, carbono y edades coinciden cerca de `234–232 Ma`.
+- **Límite:** coincidencia no reparte causalidad entre clados.
+- **Confianza:** `B` coincidencia; `C-D` causa.
+
+### CLAIM-TRIASSIC-DINOSAUR-DIACHRONY-001
+- **Dato:** trópicos y latitudes altas muestran composiciones distintas bajo clima/recursos diferentes.
+- **Puente:** biogeografía y modelos permiten control condicionado.
+- **Confianza:** `B-COND`.
+
+### CLAIM-TRIASSIC-MAMMALIAFORM-DEFINITION-001
+- **Dato/definición:** Mammalia es corona; Mammaliaformes incluye parte del tallo.
+- **No afirma:** una frontera anatómica única e invariable.
+- **Confianza:** `A-SEM`; `C` mínimo.
+
+### CLAIM-TRIASSIC-HARAMIYAVIA-001
+- **Dato:** CT, mandíbula, oclusión y matriz favorecen haramíyidos triásicos fuera de la corona.
+- **Límite:** topologías alternativas cambian la calibración.
+- **Confianza:** `B-COND`.
+
+### CLAIM-TRIASSIC-BRASILODON-001
+- **Dato:** tres mandíbulas ontogenéticas apoyan una sustitución dental ordenada.
+- **No afirma:** corona, placenta, leche, pelo o metabolismo moderno.
+- **Confianza:** `B-COND` rasgo; `D-E` paquete.
+
+### CLAIM-TRIASSIC-JAW-HOMOPLASY-001
+- **Dato:** CT 3D corrige `Brasilodon` y recupera contacto convergente en `Riograndia`.
+- **Puente:** filogenia distingue similitud de homología.
+- **Confianza:** `B`.
+
+### CLAIM-TRIASSIC-PHYSIOLOGY-MOSAIC-001
+- **Dato:** cemento dental y forámenes de mammaliaformes tempranos sugieren BMR bajo y capacidad máxima intermedia.
+- **Límite:** taxones jurásicos y proxies, no precursores triásicos directos.
+- **Confianza:** `B-COND`.
+
+### CLAIM-TRIASSIC-ETE-TIMING-001
+- **Dato:** cenizas/correlación sitúan crisis cerca de `201.51 ± 0.15 Ma`; GSSP en `201.3 ± 0.2 Ma`.
+- **No afirma:** horizonte idéntico mundial o una sola cifra de pérdida.
+- **Confianza:** `B-COND`.
+
+### CLAIM-TRIASSIC-CAMP-001
+- **Dato:** U–Pb fecha lavas, diques y sills; intrusiones preceden coladas conservadas y coinciden con la crisis.
+- **Límite:** flujo/composición de volátiles.
+- **Confianza:** `A-B` tiempo; `B-COND` causa.
+
+### CLAIM-TRIASSIC-ETE-KILLCHAIN-001
+- **Dato:** Hg, C, polen, redox y fósiles apoyan volcanismo y múltiples estresores.
+- **Puente:** gas → ambiente → exposición → selectividad → rango.
+- **Confianza:** `B` mecanismos; `C` pesos.
+
+### CLAIM-TRIASSIC-DINOSAUR-AFTERMATH-001
+- **Dato:** pérdida de pseudosuquios no crocodilomorfos precede expansión dinosauriana jurásica.
+- **No afirma:** superioridad o competencia directa como causa.
+- **Confianza:** `B-COND`.
 
 ## Claims futuros
 

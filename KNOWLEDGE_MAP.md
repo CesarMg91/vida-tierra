@@ -594,3 +594,26 @@ rangos + muestreo + fisiología ────> magnitud y selectividad ───�
 La arquitectura conserva siete relojes: límites, ensamblaje continental, clima/deglaciación, filogenia sinápsida, crisis capitaniense, cronología terminal y mecanismos de mortalidad. Un nuevo polo, fósil o proxy puede mover un reloj sin convertir los demás en copias.
 
 Véase `INV-PERMIAN-001` en `06_paleozoico`, su mapa en `assets/visuales/mapa-investigacion-027.svg` y la doble cadena en `assets/visuales/de-roca-a-pangea-y-de-volcan-a-extincion.svg`.
+
+### Investigación 028 — recuperación, dinosaurios y mamaliaformes
+
+```text
+ocurrencias + muestreo ───────────> riqueza estandarizada ─────────────┐
+abundancia + rasgos ──────────────> equidad y función ─────────────────┼──> recuperación por métricas
+Lagerstätte + U–Pb ───────────────> complejidad local temprana ────────┘
+                                        └── una localidad no equivale al planeta
+
+hueso/diente + CT ────────────────> caracteres y homología ────────────┐
+estrato + U–Pb ───────────────────> mínimo temporal ────────────────────┼──> nodo condicionado
+matriz + modelos ─────────────────> árbol arcosaurio/mamaliaforme ──────┘
+                                        └── FAD no es origen; un rasgo no es paquete
+
+lava/dique/sill + U–Pb ───────────> fase de CAMP ──────────────────────┐
+C/Hg/redox/flora ─────────────────> forzamiento y ambiente ────────────┼──> cadena terminal
+rangos + selectividad ────────────> extinción y supervivencia ─────────┘
+                                        └── coincidencia no reparte causa ni competencia
+```
+
+La arquitectura conserva ocho relojes: límites, riqueza, función/red, clima, radiación arcosauria, origen dinosauriano, caracteres mamaliaformes y crisis terminal. `Nyasasaurus`, Guiyang o `Brasilodon` pueden cambiar una rama sin imponer por sí solos una fecha global.
+
+Véase `INV-TRIASSIC-001` en `07_mesozoico`, su mapa en `assets/visuales/mapa-investigacion-028.svg` y la doble cadena en `assets/visuales/de-fosil-a-nodo-y-de-camp-a-recambio.svg`.
