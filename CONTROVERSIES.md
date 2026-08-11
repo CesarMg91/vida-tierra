@@ -115,6 +115,15 @@ Una controversia no implica empate. Registra qué parte está realmente abierta,
 | `CONT-SNOWBALL-CAPS-001` | Formación de carbonatos de capa | invernadero posglacial, meteorización y transgresión | modelo multietapa con fondo marino, agua dulce y tiempos regionales | abierta en mezcla/tiempo | B cambio; D mecanismo único |
 | `CONT-SNOWBALL-LIFE-001` | Refugios durante el hielo | oásis subglaciales/supraglaciales y agua abierta local | cinturones extensos, hielo fino u otros refugios | abierta en distribución | B-COND existencia; D área |
 | `CONT-SNOWBALL-EVOLUTION-001` | Relación con evolución ediacárica | deshielo alteró nutrientes, redox y nichos | tendencias independientes o múltiples causas dominaron | abierta | C mecanismos; E causa única |
+| `CONT-EDIACARA-SCOPE-001` | ¿Una biota, fauna o conjunto preservacional? | grupo histórico útil de macrofósiles | múltiples clados y algunos no animales | resuelta semánticamente, abierta por taxón | A-SEM; B diversidad |
+| `CONT-EDIACARA-ASSEMBLAGES-001` | Avalon–White Sea–Nama | biozonas/evolución temporal | biofacies, solapamiento y sesgo tafonómico | abierta en proporciones | B-COND |
+| `CONT-EDIACARA-TAPHONOMY-001` | ¿Qué anatomía representa el molde? | superficie externa y muerte rápida | estructura interna/resistente y reología | abierta por estilo/taxón | B proceso; C-D anatomía |
+| `CONT-EDIACARA-RANGEOMORPHS-001` | Afinidad de rangomorfos | tallo Eumetazoa por desarrollo | holozoo/linaje eucariota independiente | abierta | C |
+| `CONT-EDIACARA-DICKINSONIA-001` | Posición de `Dickinsonia` | animal por esteroides, crecimiento y conducta | nodo metazoo amplio o alternativas tafonómicas | animalidad convergente; nodo abierto | B-COND; D nodo |
+| `CONT-EDIACARA-KIMBERELLA-001` | ¿Qué tan “molusco” era `Kimberella`? | bilateriano/protóstomo con pie y raspado | bilateriano total sin sinapomorfías molluscas | abierta por nodo | B-COND bilateral; C-D molusco |
+| `CONT-EDIACARA-FEEDING-001` | Alimentación de formas sésiles | osmotrofía por gran superficie | suspensión, simbiosis o interfaz del fondo | abierta por taxón | C-D |
+| `CONT-EDIACARA-OXYGEN-001` | Oxígeno y radiación | expansión de hábitat habilitó tamaño/actividad | niveles locales previos y múltiples limitantes | abierta causalmente | B-COND filtro; D-E causa |
+| `CONT-EDIACARA-EXTINCTION-001` | ¿Extinción, reemplazo o cierre tafonómico? | pulsos de pérdida reales | ambiente, ingenieros, facies y continuidad terminal | abierta/multicausal | C |
 
 ## CONT-COSMOS-H0-001 — Dos rutas hacia la tasa actual
 
@@ -950,3 +959,57 @@ Macroalgas, N y gradientes de Fe/Ce prueban hábitats y producción locales. Lea
 Deshielo, erosión y mezcla pudieron fertilizar océanos y abrir nichos; animales y otros eucariotas también poseen raíces anteriores y responden a oxígeno, ecología y preservación.
 
 **Prueba discriminatoria:** cronologías biológicas y ambientales de alta resolución con predicciones exclusivas que distingan pulso de deshielo de tendencias tectónicas/redox independientes.
+
+## CONT-EDIACARA-SCOPE-001 — Un nombre histórico no es una rama
+
+“Biota de Ediacara” une fósiles por intervalo, aspecto y preservación. Contiene animales bien apoyados, candidatos, arquitecturas sin nodo y señales microbianas; llamarla fauna o reino impone una unidad inexistente.
+
+**Prueba discriminatoria:** expedientes por taxón con caracteres, tafonomía, conducta y química; una sinapomorfía compartida global sería necesaria para defender un clado.
+
+## CONT-EDIACARA-ASSEMBLAGES-001 — Tres asociaciones, varias causas
+
+Avalon, White Sea y Nama forman clusters útiles, pero nuevas edades muestran solapamiento y la composición cambia con profundidad, sustrato y ventana tafonómica.
+
+**Prueba discriminatoria:** cronología CA-ID-TIMS densa en facies repetidas y modelos de ocupación que separen edad, ambiente, paleogeografía y detectabilidad.
+
+## CONT-EDIACARA-TAPHONOMY-001 — El molde no declara su superficie
+
+Pirita, materia orgánica y contraste reológico pueden reproducir contorno externo o una estructura interna/resistente. Anatomías incompatibles pueden surgir del mismo organismo bajo entierros distintos.
+
+**Prueba discriminatoria:** series de conservación del mismo taxón, películas orgánicas y experimentos que predigan relieve, deformación y pérdida de rasgos.
+
+## CONT-EDIACARA-RANGEOMORPHS-001 — Desarrollo animal sin animal moderno
+
+La ramificación y crecimiento de `Charnia` son compatibles con Eumetazoa del tallo. Sin boca, intestino o tejido diagnóstico, también cabe un holozoo o linaje extinto con módulos convergentes.
+
+**Prueba discriminatoria:** anatomía tridimensional, estructuras de alimentación, microquímica indígena y caracteres que cambien de forma robusta su posición en matrices independientes.
+
+## CONT-EDIACARA-DICKINSONIA-001 — Animalidad no es dirección postal
+
+Colesterol, movimiento y crecimiento hacen fuerte el caso animal. Esos rasgos no resuelven si `Dickinsonia` fue placozoo, eumetazoo basal, bilateriano total u otra rama extinta.
+
+**Prueba discriminatoria:** tejidos/órganos repetibles, biomarcadores adicionales específicos y trazas que revelen locomoción o digestión diagnóstica.
+
+## CONT-EDIACARA-KIMBERELLA-001 — Parecido a molusco no significa molusco corona
+
+Polaridad, cuerpo diferenciado y raspados apoyan Bilateria. Pie, manto y “rádula” son reconstrucciones funcionales cuya homología con Mollusca necesita caracteres adicionales.
+
+**Prueba discriminatoria:** aparato alimentario preservado, musculatura/estructura dorsal y matriz filogenética que discrimine bilateriano total, protóstomo y tallo mollusco.
+
+## CONT-EDIACARA-FEEDING-001 — Mucha superficie permite más de una dieta
+
+Osmotrofía explica geometrías de alta superficie bajo ciertos flujos de carbono. Suspensión, simbiosis, alimentación bentónica y mezcla entre modos también producen cuerpos ramificados.
+
+**Prueba discriminatoria:** partículas o residuos indígenas, distribución isotópica dentro del cuerpo, orientación hidráulica y modelos de flujo calibrados por taxón.
+
+## CONT-EDIACARA-OXYGEN-001 — Habilitar no es originar
+
+La oxigenación expande hábitat y sostiene metabolismo activo/esqueletos. Ambientes someros oxigenados preceden la macrobiota, y alimento, temperatura, sustrato y desarrollo pueden limitar a la vez.
+
+**Prueba discriminatoria:** series globales coetáneas de redox y fósiles con umbrales fisiológicos que predigan aparición/ausencia mejor que los modelos multivariables.
+
+## CONT-EDIACARA-EXTINCTION-001 — Una frontera contiene varios recambios
+
+Hay pérdidas White Sea–Nama y terminales, pero la preservación cambia y Jiangchuan 2026 muestra coexistencia tardía. Extinción ambiental, reemplazo ecológico y cierre de ventana pueden operar juntos.
+
+**Prueba discriminatoria:** rangos calibrados por taxón en facies comparables a ambos lados de cada pulso, junto con redox, bioturbación y probabilidades de detección.

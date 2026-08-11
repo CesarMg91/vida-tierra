@@ -180,6 +180,18 @@ Este archivo es el índice canónico. La letra de confianza califica exactamente
 | `CLAIM-SNOWBALL-DEGLACIATION-001` | Acumulación de `CO₂` probablemente contribuyó a la salida, cuyo umbral depende de nubes, albedo, polvo, presión, agua abierta y meteorización. | B-COND participación; D umbral | AUDITADO | `EVID-SNOWBALL-EXIT-001` | `INV-PROT-SNOWBALL-001` |
 | `CLAIM-SNOWBALL-REFUGIA-001` | Redox, nitrógeno y fósiles documentan hábitats/productividad locales durante hielo; no miden un océano abierto global. | B-COND | AUDITADO | `EVID-SNOWBALL-REFUGIA-001` | `INV-PROT-SNOWBALL-001` |
 | `CLAIM-SNOWBALL-EVOLUTION-001` | Snowball precedió cambios ediacáricos y pudo alterar nutrientes/nichos, pero no se ha aislado como causa de la radiación animal. | C mecanismos; E causa única | AUDITADO | `EVID-SNOWBALL-EVOLUTION-001` | `INV-PROT-SNOWBALL-001` |
+| `CLAIM-EDIACARA-SCOPE-001` | Periodo Ediacárico, biotas tempranas, macrobiota de Ediacara y animales son conjuntos relacionados pero no equivalentes. | A-B | AUDITADO | marco operacional + `EVID-EDIACARA-GEOCHRON-001` | `INV-EDIACARA-001` |
+| `CLAIM-EDIACARA-CHRONOLOGY-001` | La macrobiota clásica está documentada desde 574.17 ± 0.66 Ma hasta cerca del límite de 538.8 Ma, con edades regionales desiguales. | B | AUDITADO | `EVID-EDIACARA-GEOCHRON-001` | `INV-EDIACARA-001` |
+| `CLAIM-EDIACARA-TAPHONOMY-001` | Moldes ediacáricos preservan geometría biológica filtrada por tapetes, enterramiento, materia orgánica, reología y compactación. | B | AUDITADO | `EVID-EDIACARA-PRESERVATION-001` | `INV-EDIACARA-001` |
+| `CLAIM-EDIACARA-ASSEMBLAGES-001` | Avalon, White Sea y Nama tienen señal temporal real, pero también se solapan y están controladas por facies, preservación y muestreo. | B-COND | AUDITADO | `EVID-EDIACARA-DISTRIBUTION-001` | `INV-EDIACARA-001` |
+| `CLAIM-EDIACARA-DIVERSITY-001` | La biota agrupa múltiples arquitecturas y afinidades; no constituye un clado, reino o experimento evolutivo único. | B | AUDITADO | `EVID-EDIACARA-MORPHOGENESIS-001`, `EVID-EDIACARA-TRACES-001` | `INV-EDIACARA-001` |
+| `CLAIM-EDIACARA-RANGEOMORPHS-001` | Rangomorfos muestran desarrollo modular regulado compatible con animales tempranos, pero su nodo y alimentación siguen abiertos. | C | AUDITADO | `EVID-EDIACARA-MORPHOGENESIS-001`, `EVID-EDIACARA-PALEOECOLOGY-001` | `INV-EDIACARA-001` |
+| `CLAIM-EDIACARA-DICKINSONIA-001` | Crecimiento, movilidad y colesterol asociado apoyan a Dickinsonia como animal; su posición interna en Metazoa no está resuelta. | B-COND | AUDITADO | `EVID-EDIACARA-MORPHOGENESIS-001`, `EVID-EDIACARA-BIOMARKERS-001`, `EVID-EDIACARA-TRACES-001` | `INV-EDIACARA-001` |
+| `CLAIM-EDIACARA-BILATERIANS-001` | Kimberella, Yilingia, Ikaria y trazas congruentes apoyan bilaterianos ediacáricos; asignaciones a coronas concretas son más débiles. | B-COND | AUDITADO | `EVID-EDIACARA-TRACES-001`, `EVID-EDIACARA-MORPHOGENESIS-001` | `INV-EDIACARA-001` |
+| `CLAIM-EDIACARA-ECOLOGY-001` | Las comunidades ocuparon varios nichos y usaron recursos distintos; no hubo una dieta o modo de vida ediacárico universal. | B-C | AUDITADO | `EVID-EDIACARA-PALEOECOLOGY-001`, `EVID-EDIACARA-BIOMARKERS-001` | `INV-EDIACARA-001` |
+| `CLAIM-EDIACARA-REPRODUCTION-001` | Patrones espaciales apoyan reproducción por propágulos/estolones en algunos rangomorfos; su efecto macroevolutivo es modelado y provisional. | C; D-PROV macroevolución | AUDITADO | `EVID-EDIACARA-PALEOECOLOGY-001` | `INV-EDIACARA-001` |
+| `CLAIM-EDIACARA-OXYGEN-001` | Oxígeno limitó el espacio habitable y ciertas ecologías, pero no se ha aislado como interruptor u origen único de la radiación. | B-COND filtro; D-E causa única | AUDITADO | `EVID-EDIACARA-REDOX-001` | `INV-EDIACARA-001` |
+| `CLAIM-EDIACARA-TURNOVER-001` | Hubo pulsos de recambio y pérdida antes del Cámbrico; extinción, ambiente, reemplazo y preservación contribuyeron en proporciones abiertas. | C | AUDITADO | `EVID-EDIACARA-TURNOVER-001`, `EVID-EDIACARA-BIOMINERAL-001` | `INV-EDIACARA-001` |
 
 ## Fichas resumidas
 
@@ -1033,6 +1045,90 @@ Este archivo es el índice canónico. La letra de confianza califica exactamente
 - **Puente:** modelos/ecología proponen selección, fertilización y apertura de nichos.
 - **No afirma:** que Snowball originara animales ni que toda innovación sea posglacial.
 - **Confianza:** `C` para mecanismos posibles; `E` para causa única.
+
+### CLAIM-EDIACARA-SCOPE-001
+
+- **Dato:** el periodo abarca ~`635–538.8 Ma`; las macrobiotas clásicas se concentran desde ~`574 Ma` y contienen señales no animales y animales.
+- **Puente:** definición estratigráfica, estilo fósil y afinidad se registran como ejes distintos.
+- **No afirma:** que todo fósil ediacárico pertenezca a la macrobiota o a Metazoa.
+- **Confianza:** `A-B`.
+
+### CLAIM-EDIACARA-CHRONOLOGY-001
+
+- **Dato:** U–Pb fecha superficies de Mistaken Point, Mar Blanco, Podolia y Urales; el límite superior es cronoestratigráfico.
+- **Puente:** orden y modelos edad–profundidad transfieren la edad de cenizas a cuerpos asociados.
+- **Límite:** una edad de capa no fecha el origen o extinción global del taxón.
+- **Confianza:** `B`.
+
+### CLAIM-EDIACARA-TAPHONOMY-001
+
+- **Dato:** relieve, pirita, materia orgánica, deformación y simulaciones documentan preservación selectiva.
+- **Puente:** modelos de muerte, sepultamiento y reología reconstruyen qué estructura produjo el molde.
+- **No afirma:** que toda costilla o borde fuera piel externa.
+- **Confianza:** `B`.
+
+### CLAIM-EDIACARA-ASSEMBLAGES-001
+
+- **Dato:** redes y listas recuperan asociaciones recurrentes; edades 2026 demuestran solapamiento Avalon–White Sea.
+- **Puente:** modelos taxón–facies–formación separan señal temporal y ambiental.
+- **Límite:** muestreo, paleogeografía y preservación no desaparecen.
+- **Confianza:** `B-COND`.
+
+### CLAIM-EDIACARA-DIVERSITY-001
+
+- **Dato:** rangomorfos, dickinsoniomorfos, bilateralomorfos, cnidarios candidatos, tubos y señales microbianas difieren.
+- **Puente:** anatomía, desarrollo, conducta y química exigen expedientes filogenéticos separados.
+- **No afirma:** que cada morfotipo sea un clado válido.
+- **Confianza:** `B`.
+
+### CLAIM-EDIACARA-RANGEOMORPHS-001
+
+- **Dato:** ramificación jerárquica y secuencias de tamaño muestran desarrollo modular regulado.
+- **Puente:** programas de crecimiento se comparan con caracteres metazoos y modelos de alimentación/flujo.
+- **Límite:** faltan tejidos, boca/intestino y homólogo vivo inequívoco.
+- **Confianza:** `C`.
+
+### CLAIM-EDIACARA-DICKINSONIA-001
+
+- **Dato:** crecimiento polarizado, impresiones seriadas y colesterol fósil asociado convergen.
+- **Puente:** desarrollo, conducta y biomarcador comparativo apoyan Metazoa.
+- **No afirma:** una posición exacta entre placozoos, eumetazoos o bilaterianos.
+- **Confianza:** `B-COND`.
+
+### CLAIM-EDIACARA-BILATERIANS-001
+
+- **Dato:** cuerpos polarizados se asocian con raspados o rastros; `Yilingia` conserva cuerpo–traza continuo.
+- **Puente:** simetría, polaridad y locomoción delimitan Bilateria total.
+- **Límite:** bilateriano no equivale a molusco, anélido, artrópodo o antepasado directo.
+- **Confianza:** `B-COND`.
+
+### CLAIM-EDIACARA-ECOLOGY-001
+
+- **Dato:** superficies muestran orientación, agregación, nichos y recursos algales/microbianos heterogéneos.
+- **Puente:** estadística espacial, facies, trazas y biomarcadores comparan modos de vida.
+- **No afirma:** una ecología universal ni convivencia global.
+- **Confianza:** `B-C`.
+
+### CLAIM-EDIACARA-REPRODUCTION-001
+
+- **Dato:** tamaños y distancias en `Fractofusus` coinciden con propágulos y estolones; algunos filamentos conectan clones.
+- **Puente:** modelos espaciales comparan dispersión clonal, corriente y reclutamiento.
+- **Límite:** el vínculo reproducción–diversidad de 2026 es una salida de modelo, no gametos observados.
+- **Confianza:** `C`; `D-PROV` para efecto macroevolutivo.
+
+### CLAIM-EDIACARA-OXYGEN-001
+
+- **Dato:** animales esqueletizados de Nama ocupan aguas mejor oxigenadas y faltan en sectores pobres en oxígeno.
+- **Puente:** proxies redox y distribución ecológica delimitan hábitat fisiológicamente viable.
+- **No afirma:** aumento global sincrónico ni causalidad suficiente para el origen animal.
+- **Confianza:** `B-COND` filtro; `D-E` causa única.
+
+### CLAIM-EDIACARA-TURNOVER-001
+
+- **Dato:** redes y rasgos ecofuncionales recuperan pérdidas y reemplazos; Jiangchuan conserva coexistencia terminal en 2026.
+- **Puente:** ocurrencias controladas por facies comparan extinción, ambiente, innovación y preservación.
+- **Límite:** ausencia regional o de estilo no es extinción mundial automática.
+- **Confianza:** `C`.
 
 ## Claims futuros
 

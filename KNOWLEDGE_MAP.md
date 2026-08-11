@@ -432,3 +432,21 @@ Fe/Ce/Mn + C/N + macrofósiles ─→ refugios locales habitables ────�
 ```
 
 Véase `INV-PROT-SNOWBALL-001` en `05_proterozoico`, su mapa en `assets/visuales/mapa-investigacion-020.svg` y la cadena en `assets/visuales/de-diamictita-a-snowball.svg`.
+
+La ruta específica de la biota ediacárica es:
+
+```text
+toba + zircon + capas ─────────→ edad de la superficie ───────────────┐
+molde + película + sedimento ─→ anatomía tafonómicamente filtrada ──┤
+tamaños + unidades ───────────→ crecimiento y polaridad ─────────────┤
+cuerpo + traza ───────────────→ locomoción y alimentación ───────────┼─→ expediente por taxón
+posición + abundancia ────────→ reclutamiento, nicho y comunidad ────┤
+esteroides + redox ───────────→ productor/ambiente condicionados ────┘
+                                  │
+                                  ├── comunidades complejas: A-B
+                                  ├── varios animales: B-COND
+                                  ├── rangomorfos/nodos finos: C-D
+                                  └── clado único o fracaso: E
+```
+
+Véase `INV-EDIACARA-001` en `05_proterozoico`, su mapa en `assets/visuales/mapa-investigacion-021.svg` y la cadena en `assets/visuales/de-impresion-a-organismo.svg`.

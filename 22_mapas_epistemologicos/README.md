@@ -22,3 +22,4 @@ Grafos de dependencias entre objetos, mediciones, principios, modelos, claims y 
 - [`MAPA_018_SEXO.md`](MAPA_018_SEXO.md): módulos sexuales ancestrales, sexo críptico, ventajas experimentales, anisogamia y edad mínima fósil sin convertirlos en una sola observación.
 - [`MAPA_019_MULTICELULARIDAD.md`](MAPA_019_MULTICELULARIDAD.md): modos de formación, filogenias, genómica, ciclos grupales, experimentos y fósiles sin confundir asociación, individuo y complejidad.
 - [`MAPA_020_SNOWBALL_EARTH.md`](MAPA_020_SNOWBALL_EARTH.md): sedimentos, edades, paleolatitudes, modelos, carbonatos y refugios sin confundir glaciación global con océano completamente sellado.
+- [`MAPA_021_EDIACARA.md`](MAPA_021_EDIACARA.md): tiempo, preservación, morfogénesis, conducta, comunidad y moléculas sin saltar desde una impresión a un taxón moderno.
