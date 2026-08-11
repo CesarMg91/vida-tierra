@@ -266,6 +266,22 @@ El propósito no es presentar la ciencia como una sucesión de fracasos ni como 
 | `ERR-NEOGENE-PANAMA-DATE-001` | el istmo se cerró en una única fecha | umbrales distintos colapsados | emergencia, restricción, continuidad y profundidad separadas | DOCUMENTADO |
 | `ERR-NEOGENE-FIRST-CROSSING-001` | el primer fósil migrante fecha el puente | llegada convertida en infraestructura terrestre | ruta, edad, detectabilidad y paleogeografía | DOCUMENTADO |
 | `ERR-NEOGENE-PANAMA-ICE-001` | Panamá causó por sí solo la glaciación norteña | coincidencia y mecanismo posible convertidos en suficiencia | contrafactuales y forzamientos múltiples | DOCUMENTADO |
+| `ERR-QUATERNARY-ONE-ICE-AGE-001` | el Cuaternario fue una sola Edad de Hielo | ciclos repetidos colapsados en un episodio | estadios, edades y regiones separados | DOCUMENTADO |
+| `ERR-QUATERNARY-ORBIT-DIRECT-001` | cada periodo orbital produce directamente una glaciación | ritmo convertido en respuesta suficiente | insolación, umbrales y retroalimentaciones | DOCUMENTADO |
+| `ERR-QUATERNARY-DELTA18O-PURE-001` | `δ18O` mide sólo volumen de hielo | proxy mixto convertido en variable pura | temperatura, fraccionamiento y pila declarados | DOCUMENTADO |
+| `ERR-QUATERNARY-MPT-INSTANT-001` | la MPT ocurrió en una fecha | transición gradual convertida en frontera | intervalo, frecuencia y amplitud separados | DOCUMENTADO |
+| `ERR-QUATERNARY-100K-ECCENTRICITY-001` | la excentricidad explica por amplitud los ciclos de `100 kyr` | coincidencia de periodo convertida en fuerza | no linealidad y memoria del hielo | DOCUMENTADO |
+| `ERR-QUATERNARY-ICE-CO2-CAUSE-001` | una burbuja de CO₂ demuestra causa climática | concentración convertida en dirección causal | edad gas–hielo, fase y modelo separados | DOCUMENTADO |
+| `ERR-QUATERNARY-LGM-DATE-001` | el LGM fue un único pico mundial | síntesis regional convertida en instante | intervalo y objeto máximo declarados | DOCUMENTADO |
+| `ERR-QUATERNARY-GREENLAND-GLOBAL-001` | un cambio groenlandés ocurrió igual en todo el planeta | archivo regional convertido en clima global | sincronización y signo regional | DOCUMENTADO |
+| `ERR-QUATERNARY-YD-GLOBAL-001` | Younger Dryas enfrió y secó todo el mundo | etiqueta norteatlántica universalizada | respuestas hidroclimáticas regionales | DOCUMENTADO |
+| `ERR-QUATERNARY-YD-IMPACT-001` | un impacto del Younger Dryas está probado | marcadores discutidos convertidos en hecho | isocronía, exclusividad y replicación | DOCUMENTADO |
+| `ERR-QUATERNARY-C14-CALENDAR-001` | una fecha `14C` es un año calendario | edad convencional convertida en calendario | IntCal, reservorio y distribución | DOCUMENTADO |
+| `ERR-QUATERNARY-MEGAFAUNA-CUTOFF-001` | megafauna siempre significa el mismo tamaño | etiqueta convertida en umbral universal | corte y sensibilidad de lista explícitos | DOCUMENTADO |
+| `ERR-QUATERNARY-LAST-FOSSIL-001` | el último fósil es el último individuo | detección convertida en extinción | Signor–Lipps y muestreo | DOCUMENTADO |
+| `ERR-QUATERNARY-OVERKILL-UNIVERSAL-001` | la caza explica todas las extinciones | señal humana global convertida en mecanismo único | taxón, región, clima y vía causal | DOCUMENTADO |
+| `ERR-QUATERNARY-CLIMATE-UNIVERSAL-001` | el clima explica todas las extinciones | covariación convertida en motor suficiente | eventos previos, humanos y selectividad | DOCUMENTADO |
+| `ERR-QUATERNARY-ANTHROPOCENE-FORMAL-001` | el Antropoceno ya es una época oficial | concepto común convertido en rango ratificado | decisión IUGS/ICS y uso distinguidos | DOCUMENTADO |
 | `ERR-LUNAR-APOLLO-INDEPENDENT-001` | tratar sitios Apollo como testigos independientes | ejecta local y sin transporte global | cartografía, Th, geoquímica y escalado de Imbrium | DOCUMENTADO |
 | `ERR-IMPACT-MOON-EARTH-001` | convertir cronología lunar en esterilización terrestre | escala constante de tasa y efecto | dinámica, hidrocodes, atmósfera/océano y archivo terrestre | DOCUMENTADO |
 | `ERR-LUNAR-ABSENCE-001` | “sin fundido antiguo” = “sin impacto antiguo” | supervivencia uniforme hacia atrás | sesgo de preservación y evidencia positiva `4.22–4.33 Ga` | DOCUMENTADO |
@@ -2403,3 +2419,131 @@ Modificar circulación es un mecanismo plausible, no una demostración de necesi
 ### Corrección
 
 Comparar contrafactuales con CO₂, órbita, otras tectónicas y retroalimentaciones, y exigir predicciones observables.
+
+## ERR-QUATERNARY-ONE-ICE-AGE-001 — Una sola Edad de Hielo
+
+El Cuaternario contiene muchos ciclos, no un bloque congelado continuo.
+
+### Corrección
+
+Nombrar ciclo, región, variable y cronología.
+
+## ERR-QUATERNARY-ORBIT-DIRECT-001 — La órbita empuja el glaciar sin mediadores
+
+La geometría redistribuye insolación; la respuesta depende de estación, latitud, albedo, océano y carbono.
+
+### Corrección
+
+Escribir toda la cadena y probar las amplificaciones.
+
+## ERR-QUATERNARY-DELTA18O-PURE-001 — Un isótopo, una variable
+
+El `δ18O` bentónico mezcla temperatura profunda y volumen de hielo.
+
+### Corrección
+
+Usar termómetros independientes y declarar correlación/edad–profundidad.
+
+## ERR-QUATERNARY-MPT-INSTANT-001 — La transición como interruptor
+
+La MPT es un cambio distribuido de frecuencia, amplitud y forma.
+
+### Corrección
+
+Tratarla como intervalo y comparar definiciones operativas.
+
+## ERR-QUATERNARY-100K-ECCENTRICITY-001 — El mismo periodo basta
+
+La excentricidad tiene un forzamiento directo débil para explicar la enorme respuesta de `100 kyr`.
+
+### Corrección
+
+Exigir memoria, umbrales y predicciones de fase/amplitud.
+
+## ERR-QUATERNARY-ICE-CO2-CAUSE-001 — La burbuja contiene la flecha causal
+
+Medir concentración no determina quién antecede, cuánto fuerza ni qué retroalimentación opera.
+
+### Corrección
+
+Resolver edad gas–hielo y comparar fases y modelos.
+
+## ERR-QUATERNARY-LGM-DATE-001 — Un día de máximo mundial
+
+Mantos y nivel del mar alcanzan máximos bajo definiciones y tiempos no idénticos.
+
+### Corrección
+
+Usar el intervalo `26.5–19/20 ka` y nombrar el objeto.
+
+## ERR-QUATERNARY-GREENLAND-GLOBAL-001 — Groenlandia como termómetro planetario
+
+Un cambio rápido local puede propagarse con retraso, signo o expresión distintos.
+
+### Corrección
+
+Sincronizar archivos independientes antes de generalizar.
+
+## ERR-QUATERNARY-YD-GLOBAL-001 — Un Younger Dryas uniforme
+
+Los trópicos y hemisferios registran mosaicos térmicos e hidroclimáticos.
+
+### Corrección
+
+Describir región, proxy y variable, no sólo la etiqueta.
+
+## ERR-QUATERNARY-YD-IMPACT-001 — Hipótesis convertida en hecho
+
+Marcadores no exclusivos y problemas de isocronía no prueban impacto.
+
+### Corrección
+
+Exigir productos inequívocos, cráter, replicación y mecanismo cuantitativo.
+
+## ERR-QUATERNARY-C14-CALENDAR-001 — Radiocarbono sin calibración
+
+Producción atmosférica y reservorios deforman la relación con años calendario.
+
+### Corrección
+
+Reportar curva, reservorio y distribución calibrada.
+
+## ERR-QUATERNARY-MEGAFAUNA-CUTOFF-001 — Una etiqueta con masa fija
+
+Cambiar el umbral cambia especies incluidas, tasas y selectividad.
+
+### Corrección
+
+Declarar el corte y repetir análisis de sensibilidad.
+
+## ERR-QUATERNARY-LAST-FOSSIL-001 — El último resto vio el final
+
+Preservación y búsqueda hacen que la última detección anteceda normalmente a la extinción.
+
+### Corrección
+
+Modelar detectabilidad y usar intervalos de confianza.
+
+## ERR-QUATERNARY-OVERKILL-UNIVERSAL-001 — Una caza para todos los continentes
+
+Una asociación humana global no identifica el mismo mecanismo en cada región y especie.
+
+### Corrección
+
+Comparar cronología, abundancia, tecnología, clima y ecología regionales.
+
+## ERR-QUATERNARY-CLIMATE-UNIVERSAL-001 — Un cambio climático para todas las pérdidas
+
+Oscilaciones semejantes anteriores no siempre produjeron las mismas extinciones.
+
+### Corrección
+
+Probar selectividad, novedad del evento y contrafactual sin humanos.
+
+## ERR-QUATERNARY-ANTHROPOCENE-FORMAL-001 — Un término popular como época ratificada
+
+IUGS/ICS rechazó en 2024 la propuesta formal basada en 1952.
+
+### Corrección
+
+Separar concepto interdisciplinario, evento geológico y rango cronoestratigráfico.

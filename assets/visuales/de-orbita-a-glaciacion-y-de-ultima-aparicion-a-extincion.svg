@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Cadenas de órbita a glaciación y de última aparición a extinción</title>
+  <desc id="desc">Dos cadenas de inferencia muestran los pasos necesarios entre geometría orbital y volumen de hielo, y entre un fósil fechado, un intervalo de extinción y una atribución causal. Dos recuadros impiden igualar periodo orbital con glaciación y último fósil con último individuo.</desc>
+  <defs>
+    <linearGradient id="bg2" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#081b24"/><stop offset="1" stop-color="#151f25"/></linearGradient>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#70cbd3"/></marker>
+    <style>.h{font:700 31px system-ui,sans-serif;fill:#f6eedc}.sub{font:400 18px system-ui,sans-serif;fill:#b7cbd0}.th{font:700 22px system-ui,sans-serif;fill:#ffdda1}.node{fill:#12303a;stroke:#3c6570;stroke-width:2}.n{font:600 16px system-ui,sans-serif;fill:#e8f0ef;text-anchor:middle}.a{stroke:#70cbd3;stroke-width:3;marker-end:url(#arrow)}.note{fill:#35251f;stroke:#b7784d;stroke-width:2}.w{font:700 17px system-ui,sans-serif;fill:#ffc28a;text-anchor:middle}.small{font:400 15px system-ui,sans-serif;fill:#d7e4e5;text-anchor:middle}</style>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg2)"/>
+  <text x="62" y="65" class="h">Dos cadenas que no pueden abreviarse</text>
+  <text x="62" y="98" class="sub">Ritmo no es respuesta · última detección no es extinción · sincronía no reparte causalidad</text>
+  <text x="62" y="157" class="th">A · De geometría orbital a volumen de hielo</text>
+  <g transform="translate(55 190)">
+    <rect class="node" x="0" y="0" width="205" height="88" rx="15"/><text class="n" x="102" y="38">geometría</text><text class="n" x="102" y="62">orbital</text>
+    <line class="a" x1="210" y1="44" x2="255" y2="44"/>
+    <rect class="node" x="260" y="0" width="205" height="88" rx="15"/><text class="n" x="362" y="38">insolación por</text><text class="n" x="362" y="62">latitud/estación</text>
+    <line class="a" x1="470" y1="44" x2="515" y2="44"/>
+    <rect class="node" x="520" y="0" width="205" height="88" rx="15"/><text class="n" x="622" y="38">balance estival</text><text class="n" x="622" y="62">de nieve</text>
+    <line class="a" x1="730" y1="44" x2="775" y2="44"/>
+    <rect class="node" x="780" y="0" width="205" height="88" rx="15"/><text class="n" x="882" y="32">albedo · océano</text><text class="n" x="882" y="56">polvo · CO₂</text>
+    <line class="a" x1="990" y1="44" x2="1035" y2="44"/>
+    <rect class="node" x="1040" y="0" width="205" height="88" rx="15"/><text class="n" x="1142" y="38">manto de hielo</text><text class="n" x="1142" y="62">y nivel del mar</text>
+    <line class="a" x1="1250" y1="44" x2="1295" y2="44"/>
+    <rect class="node" x="1300" y="0" width="205" height="88" rx="15"/><text class="n" x="1402" y="38">δ18O + margen</text><text class="n" x="1402" y="62">observables</text>
+    <rect class="note" x="430" y="130" width="650" height="92" rx="14"/><text class="w" x="755" y="164">SALTO PROHIBIDO</text><text class="small" x="755" y="194">«periodo orbital = glaciación directa» omite umbrales, memoria y retroalimentaciones</text>
+  </g>
+  <text x="62" y="515" class="th">B · De una última aparición a una extinción y su causa</text>
+  <g transform="translate(55 550)">
+    <rect class="node" x="0" y="0" width="205" height="88" rx="15"/><text class="n" x="102" y="38">resto fósil</text><text class="n" x="102" y="62">fechado</text>
+    <line class="a" x1="210" y1="44" x2="255" y2="44"/>
+    <rect class="node" x="260" y="0" width="205" height="88" rx="15"/><text class="n" x="362" y="38">identidad</text><text class="n" x="362" y="62">y contexto</text>
+    <line class="a" x1="470" y1="44" x2="515" y2="44"/>
+    <rect class="node" x="520" y="0" width="205" height="88" rx="15"/><text class="n" x="622" y="38">14C calibrado</text><text class="n" x="622" y="62">o reloj directo</text>
+    <line class="a" x1="730" y1="44" x2="775" y2="44"/>
+    <rect class="node" x="780" y="0" width="205" height="88" rx="15"/><text class="n" x="882" y="32">tafonomía</text><text class="n" x="882" y="56">y detectabilidad</text>
+    <line class="a" x1="990" y1="44" x2="1035" y2="44"/>
+    <rect class="node" x="1040" y="0" width="205" height="88" rx="15"/><text class="n" x="1142" y="38">intervalo de</text><text class="n" x="1142" y="62">extinción</text>
+    <line class="a" x1="1250" y1="44" x2="1295" y2="44"/>
+    <rect class="node" x="1300" y="0" width="205" height="88" rx="15"/><text class="n" x="1402" y="32">modelo humano</text><text class="n" x="1402" y="56">clima · sinergia</text>
+    <rect class="note" x="430" y="130" width="650" height="92" rx="14"/><text class="w" x="755" y="164">SALTO PROHIBIDO</text><text class="small" x="755" y="194">«último fósil = último individuo = agente culpable» confunde detección, evento y causa</text>
+  </g>
+  <text x="800" y="855" class="sub" text-anchor="middle">Cada nodo puede cambiar con nuevos datos sin que cambien automáticamente los demás.</text>
+</svg>

@@ -252,6 +252,17 @@ Una controversia no implica empate. Registra qué parte está realmente abierta,
 | `CONT-NEOGENE-PANAMA-BIOGEOGRAPHY-001` | ¿Los cruces tempranos exigen un puente continuo? | fósiles documentan dispersión anterior al GABI principal | rafting, arcos insulares y sesgos permiten alternativas | cruce robusto; ruta abierta | B-COND |
 | `CONT-NEOGENE-GABI-ASYMMETRY-001` | ¿Por qué dominó el componente norteño? | base amplia recupera mayor extinción de nativos sudamericanos | muestreo, taxonomía y ambiente afectan magnitudes | extinción diferencial fuerte; reparto fino abierto | B-COND |
 | `CONT-NEOGENE-PANAMA-CLIMATE-001` | ¿El cierre de Panamá disparó la glaciación norteña? | circulación cambió durante la emergencia | sincronía, modelos y otros forzamientos no aíslan una causa única | contribución posible; dominancia no demostrada | C-COND |
+| `CONT-QUATERNARY-UPPER-PLEISTOCENE-001` | ¿Dónde debe fijarse la base del Pleistoceno superior? | candidatos y eventos permiten correlación | ningún GSSP ha sido ratificado | unidad útil; base formal abierta | A estado; C candidato |
+| `CONT-QUATERNARY-ANTHROPOCENE-001` | ¿Es el Antropoceno una época formal? | señal humana planetaria y marcador de 1952 son medibles | IUGS/ICS rechazó esa formalización en 2024 | concepto útil; época no ratificada | A decisión |
+| `CONT-QUATERNARY-MPT-CAUSE-001` | ¿Qué causó la MPT? | regolito, CO₂ y umbrales reproducen rasgos | mecanismos covarían y dependen de modelos | patrón robusto; pesos abiertos | C-COND |
+| `CONT-QUATERNARY-MPT-CO2-001` | ¿Cayó fuertemente el CO₂ medio durante la MPT? | proxies/modelos previos permiten descenso | Allan Hills 2026 sugiere estabilidad aproximada durante MPT | magnitud abierta | B-PROV |
+| `CONT-QUATERNARY-DO-MECHANISM-001` | ¿Qué produce los eventos D–O? | sincronización apoya reorganización oceánica | hielo, atmósfera y océano comparten retroalimentaciones | balancín favorecido; iniciador abierto | B-COND |
+| `CONT-QUATERNARY-YD-TRIGGER-001` | ¿Qué detonó el Younger Dryas? | descargas dulces y rutas árticas son físicamente plausibles | volumen, ruta y cronología no son únicos | familia dulce plausible; detalle abierto | C-COND |
+| `CONT-QUATERNARY-YD-IMPACT-001` | ¿Ocurrió un impacto al inicio del Younger Dryas? | proponentes reportan marcadores sedimentarios | isocronía, exclusividad y replicación fallan en revisión | no establecido | D |
+| `CONT-QUATERNARY-MEGAFAUNA-GLOBAL-001` | ¿Humanos o clima dominaron globalmente? | expansión humana predice severidad mundial | resolución continental no prueba mecanismo local | señal humana fuerte; reparto regional abierto | B-COND |
+| `CONT-QUATERNARY-MEGAFAUNA-AUSTRALIA-001` | ¿Qué causó las pérdidas australianas? | declive precede al gran cambio vegetal en un registro | proxy fecal y cronologías continentales se discuten | influencia humana favorecida; escala abierta | B-COND |
+| `CONT-QUATERNARY-MEGAFAUNA-PATAGONIA-001` | ¿Clima o humanos en Patagonia? | pérdida coincide con calentamiento y ocupación | preservación y resolución limitan pesos | sinergia favorecida | B-COND |
+| `CONT-QUATERNARY-MEGAFAUNA-NORTHAMERICA-001` | ¿Qué explica el pulso norteamericano? | últimas apariciones se concentran terminalmente | SPD y proxies humanos/climáticos dan atribuciones distintas | pulso fuerte; causa debatida | B patrón; C causa |
 
 ## CONT-COSMOS-H0-001 — Dos rutas hacia la tasa actual
 
@@ -1909,3 +1920,69 @@ El predominio posterior de linajes norteamericanos se narró como mayor invasió
 La emergencia alteró intercambios oceánicos, pero la glaciación del hemisferio norte también depende de CO₂, órbita, tectónica y retroalimentaciones. La cercanía temporal no identifica un interruptor único, y el cierre fue gradual.
 
 **Prueba discriminatoria:** simulaciones que reproduzcan circulación, salinidad, calor y hielo con paleobatimetrías fechadas, comparadas contra escenarios sin cierre y con forzamientos alternativos.
+
+## CONT-QUATERNARY-UPPER-PLEISTOCENE-001 — Una unidad sin clavo ratificado
+
+El Pleistoceno superior se usa ampliamente, pero su base formal continúa en trabajo. Correlacionar candidatos no equivale a que ICS haya seleccionado un GSSP.
+
+**Prueba discriminatoria:** ratificación institucional de una sección, punto y marcadores correlativos publicados.
+
+## CONT-QUATERNARY-ANTHROPOCENE-001 — Impacto real, rango formal rechazado
+
+La señal humana global no está en disputa dentro de esta decisión. Lo rechazado en 2024 fue convertir una propuesta concreta, con base en 1952, en época geológica formal.
+
+**Prueba discriminatoria:** una nueva propuesta estratigráfica debe justificar rango, duración, sección, correlación y utilidad frente al Holoceno tardío.
+
+## CONT-QUATERNARY-MPT-CAUSE-001 — El patrón no elige motor
+
+La transición `41`→~`100 kyr` admite umbrales del manto, erosión del regolito, carbono y circulación. Un modelo capaz de reproducir la curva no demuestra que su parámetro histórico haya ocurrido.
+
+**Prueba discriminatoria:** predicciones independientes sobre lecho subglacial, volumen, carbono y fases oceánicas, no sólo ajuste a `δ18O`.
+
+## CONT-QUATERNARY-MPT-CO2-001 — Instantáneas contra una gran caída media
+
+Allan Hills 2026 restringe una caída grande y sostenida de `CO₂` medio a través de la MPT, pero su hielo discontinuo puede ponderar estados climáticos y sufrir alteración.
+
+**Prueba discriminatoria:** secuencia continua pre-MPT con gases y cronología independientes que reproduzca o niegue la estabilidad.
+
+## CONT-QUATERNARY-DO-MECHANISM-001 — Un balancín con iniciador abierto
+
+El desfase interpolar concuerda con transporte oceánico de calor, mientras el disparo de cada reorganización puede involucrar hielo marino, agua dulce, vientos y circulación.
+
+**Prueba discriminatoria:** fases multiproxy y simulaciones que predigan simultáneamente Groenlandia, Antártida y el océano intermedio.
+
+## CONT-QUATERNARY-YD-TRIGGER-001 — Agua dulce, pero ¿cuánta y por dónde?
+
+La familia de hipótesis de descarga es físicamente coherente; difieren fuente, ruta, volumen y efecto sobre la circulación atlántica.
+
+**Prueba discriminatoria:** depósitos y trazadores fechados antes del inicio, con volumen suficiente y respuesta oceánica reproducida.
+
+## CONT-QUATERNARY-YD-IMPACT-001 — Marcadores llamativos sin cadena exclusiva
+
+La propuesta de 2007 conectó partículas con impacto, enfriamiento y extinción. La revisión de 2023 encontró problemas de cronología, diagnóstico, replicación y efectos predichos.
+
+**Prueba discriminatoria:** cráter o productos inequívocos, capa isócrona global y mecanismo cuantitativo que supere alternativas terrestres.
+
+## CONT-QUATERNARY-MEGAFAUNA-GLOBAL-001 — Patrón humano, mecanismos regionales
+
+La expansión humana explica bien la geografía de severidad global. Esa asociación no mide por sí sola caza, fuego, competencia o interacción climática en cada especie.
+
+**Prueba discriminatoria:** cronologías regionales comunes y predicciones fuera de muestra para abundancia, presión humana y clima.
+
+## CONT-QUATERNARY-MEGAFAUNA-AUSTRALIA-001 — Esporas fecales y escala continental
+
+La caída de *Sporormiella* antes de la transformación vegetal favorece una pérdida de herbívoros previa al gran cambio ambiental local. Transporte y producción del hongo limitan la extrapolación.
+
+**Prueba discriminatoria:** series replicadas en cuencas independientes con restos directos, polen, carbón, clima y llegada humana.
+
+## CONT-QUATERNARY-MEGAFAUNA-PATAGONIA-001 — Dos presiones superpuestas
+
+ADN y `14C` apoyan pérdida cuando calentamiento y presencia humana coexistieron. La palabra sinergia describe una interacción inferida, no una proporción ya medida.
+
+**Prueba discriminatoria:** modelos que predigan supervivencia bajo cada presión aislada y fallen cuando se omite su interacción.
+
+## CONT-QUATERNARY-MEGAFAUNA-NORTHAMERICA-001 — Un pulso, varias atribuciones
+
+La concentración de últimas apariciones es fuerte. Modelos basados en sumas de probabilidad y proxies demográficos pueden favorecer clima, mientras otras síntesis favorecen influencia humana.
+
+**Prueba discriminatoria:** fechas directas adicionales y modelos de observación que separen abundancia real, esfuerzo de muestreo y calibración.

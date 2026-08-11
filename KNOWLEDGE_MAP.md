@@ -747,3 +747,31 @@ ocurrencias + modelos de tasas ────────> dispersión/extinción 
 La arquitectura conserva cinco relojes: fronteras, clima, vegetación, hominoideos e istmo/intercambio. La expansión C4 tardía no fecha el origen de los pastos; un mosaico locomotor no identifica una marcha humana; y una señal de tierra emergida no fija por sí sola el cierre oceánico o terrestre. La asimetría del GABI exige separar llegada de supervivencia.
 
 Véase `INV-NEOGENE-001` en `08_cenozoico`, su mapa en `assets/visuales/mapa-investigacion-033.svg` y la doble cadena en `assets/visuales/de-fitolito-a-habitat-y-de-circon-a-istmo.svg`.
+
+### Investigación 034 — Cuaternario: glaciaciones, megafauna y cambios rápidos
+
+```text
+Monte San Nicola + Chiba + NGRIP2 ──> fronteras formales ──────────────┐
+órbita + insolación estacional ──────> ritmo disponible ───────────────┤
+δ18O + termómetros + hielo/gas ──────> clima e hielo condicionados ────┘
+                                                       └── fecha ≠ proceso; ritmo ≠ respuesta
+
+41 kyr → ~100 kyr + amplitud ────────> patrón MPT ─────────────────────┐
+CO₂ + regolito + manto + océano ─────> mecanismos modelados ───────────┤
+hielo Allan Hills discontinuo ───────> restricción de CO₂ ─────────────┘
+                                                       └── ajuste ≠ causa única; instantánea ≠ serie
+
+capas + isótopos + polvo ────────────> cambio abrupto regional ────────┐
+metano + cronologías ────────────────> fase interpolar ─────────────────┤
+espeleotema + U–Th ──────────────────> mosaico hidroclimático ──────────┘
+                                                       └── Groenlandia ≠ planeta; sincronía ≠ mecanismo
+
+resto + contexto + 14C/IntCal ───────> última aparición calibrada ─────┐
+muestreo + tafonomía ────────────────> intervalo de extinción ─────────┤
+humanos + clima + ecología ──────────> atribución regional ─────────────┘
+                                                       └── último fósil ≠ último individuo ≠ culpable
+```
+
+La arquitectura conserva seis relojes: fronteras, ritmo orbital, MPT, cambios abruptos, deglaciación y extinciones. El patrón orbital y los episodios rápidos tienen apoyo alto; la causa de la MPT y el disparo del Younger Dryas permanecen abiertos en distinto grado. Las pérdidas de megafauna son selectivas y asincrónicas: la señal humana global no elimina clima, ecología ni diferencias entre especies y regiones.
+
+Véase `INV-QUATERNARY-001` en `08_cenozoico`, su mapa en `assets/visuales/mapa-investigacion-034.svg` y la doble cadena en `assets/visuales/de-orbita-a-glaciacion-y-de-ultima-aparicion-a-extincion.svg`.

@@ -202,7 +202,14 @@ Los límites numéricos siguen `SRC-ICS-2026` (tabla 2026/06). La evidencia de c
 | `TIME-NEOGENE-END-001` | `2.58 Ma` | fin del Neógeno; bases del Gelasiense, Pleistoceno y Cuaternario | marga sobre sapropel MPRS 250 y ajuste orbital | `SRC-ICS-GELASIAN-2026`, `SRC-ICS-2026` | A horizonte; B edad | AUDITADO |
 | `TIME-HOMININ-SPLIT-001` | ~8–6 Ma | divergencia de linajes humano/chimpancé estimada | intervalo de reloj molecular; fósiles no fijan el nodo por sí solos | genomas, calibraciones y fósiles; por registrar | C | SEMILLA |
 | `TIME-HOMININ-EARLY-001` | ~7–4.4 Ma | Sahelanthropus, Orrorin y Ardipithecus | edades de contextos; taxonomía/locomoción discutidas | huesos, geología y comparación; por registrar | C | SEMILLA |
-| `TIME-QUATERNARY-BASE-001` | 2.58 Ma | base del Cuaternario | GSSP y calibración | `SRC-ICS-2026` | A/B | SEMILLA |
+| `TIME-QUATERNARY-BASE-001` | `2.58 Ma` | base del Cuaternario/Pleistoceno/Gelasiense | marga sobre sapropel MPRS 250 en Monte San Nicola; edad calibrada | `SRC-ICS-GELASIAN-2026`, `SRC-ICS-2026` | A horizonte; B edad | AUDITADO |
+| `TIME-QUATERNARY-001` | `2.58 Ma–presente` | Cuaternario: Pleistoceno y Holoceno | GSSP físicos; no equivale a una sola edad de hielo | `SRC-ICS-2026`, `SRC-ICS-GELASIAN-2026`, `SRC-ICS-HOLOCENE-2026` | A arquitectura; B edades | AUDITADO |
+| `TIME-MPT-001` | ~`1.2–0.7 Ma` | transición del Pleistoceno medio de ciclos dominados por `41 kyr` a ciclos más largos | intervalo emergente de series/modelos; no frontera instantánea | `SRC-BERENDS-MPT-2021`, `SRC-CHALK-MPT-2017`, `SRC-WILLEIT-MPT-2019`, `SRC-MARKS-PETERSON-ICE-2026` | A-B patrón; C-COND causa | AUDITADO |
+| `TIME-CHIBANIAN-001` | `774.1 ka` | base del Chibaniense | base de tefra Byk-E en Chiba, 1.1 m bajo el punto medio Matuyama–Brunhes | `SRC-ICS-CHIBANIAN-2026` | A horizonte; B edad | AUDITADO |
+| `TIME-MEGAFAUNA-AUSTRALIA-001` | `45–43.1 ka` en el registro publicado | caída de señal de grandes herbívoros en suroeste de Australia | *Sporormiella* y edad–profundidad; no fecha toda Australia ni un agente directo | `SRC-VAN-DER-KAARS-AUSTRALIA-2017`, `SRC-RULE-AUSTRALIA-2012` | B-COND regional | AUDITADO |
+| `TIME-LGM-001` | ~`26.5–19/20 ka` | intervalo del Último Máximo Glacial | síntesis de máximos regionales; no un día sincrónico mundial | `SRC-CLARK-LGM-2009` | B | AUDITADO |
+| `TIME-MEGAFAUNA-AMERICAS-001` | principalmente ~`14–11 ka`, variable por región/taxón | pulsos terminales de megafauna en las Américas | últimas apariciones calibradas y detectabilidad; no último individuo | `SRC-FAITH-SUROVELL-2009`, `SRC-METCALF-PATAGONIA-2016`, `SRC-STEWART-NORTHAMERICA-2021` | B patrón; C causa | AUDITADO |
+| `TIME-YOUNGER-DRYAS-001` | ~`12.9–11.7 ka` | intervalo del Younger Dryas | límites y respuestas dependen de archivo/región; impacto no establecido | `SRC-CHENG-YD-2020`, `SRC-TARASOV-YD-2005`, `SRC-HOLLIDAY-YD-2023` | B intervalo; C-D detonador | AUDITADO |
 | `TIME-HOMO-EARLY-001` | ~2.8–2.3 Ma | fósiles más antiguos atribuidos o próximos a Homo | fragmentos escasos y definición de género | mandíbula/dientes, estratigrafía y datación; por registrar | C | SEMILLA |
 | `TIME-ERECTUS-001` | ~2.0–1.8 Ma | Homo erectus/ergaster temprano y expansión inicial | taxonomía regional y cronologías | esqueletos, herramientas, estratigrafía; por registrar | B-C | SEMILLA |
 | `TIME-SAPIENS-EARLY-001` | ~315–233 ka | primeros fósiles atribuidos a Homo sapiens en un marco pan-africano | fechas de yacimientos; mosaico morfológico | fósiles, termoluminiscencia/ESR/U-series y genética | `SRC-HUBLIN-2017` + fuentes por registrar | B para presencia; C modelo de origen | SEMILLA |
@@ -210,7 +217,7 @@ Los límites numéricos siguen `SRC-ICS-2026` (tabla 2026/06). La evidencia de c
 | `TIME-SAHUL-001` | ≥50–65 ka | presencia humana temprana en Sahul | límites mínimos dependen de yacimiento/método | arqueología, luminiscencia, paleogeografía; por registrar | B-C | SEMILLA |
 | `TIME-EUROPE-SAPIENS-001` | ~47–42 ka | expansión de sapiens en Europa y solapamiento con neandertales | múltiples pulsos y asociaciones culturales | fósiles, `14C`, ADN antiguo; por registrar | B | SEMILLA |
 | `TIME-AMERICAS-001` | ~23–21 ka en White Sands; poblamiento amplio posterior | presencia humana propuesta durante Último Máximo Glacial | cronología local corroborada; no fecha la primera llegada continental | huellas, polen `14C`, luminiscencia | `SRC-BENNETT-2021`, `SRC-PIGATI-2023` | B-LOCAL; C para historia continental | SEMILLA |
-| `TIME-HOLOCENE-BASE-001` | 11.7 ka | base del Holoceno | GSSP en hielo y calibración | `SRC-ICS-2026` | A/B | SEMILLA |
+| `TIME-HOLOCENE-BASE-001` | `11.7 ka` (`11 700 yr b2k`) | base del Holoceno | GSSP NGRIP2 a `1492.45 m`, señalado por cambio abrupto al final del Younger Dryas | `SRC-ICS-HOLOCENE-2026`, `SRC-ICS-2026` | A horizonte; B edad | AUDITADO |
 
 ## V. De cazadores-recolectores a civilizaciones
 
