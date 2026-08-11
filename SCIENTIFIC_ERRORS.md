@@ -73,6 +73,12 @@ El propósito no es presentar la ciencia como una sucesión de fracasos ni como 
 | `ERR-PHOTO-PROXY-DATE-001` | usar edad de oxidación como cumpleaños de la innovación | primera huella preserva el origen inmediato | expresar mínimo y dirección del límite | DOCUMENTADO |
 | `ERR-PHOTO-CLOCK-001` | tratar punto de reloj molecular como fecha fósil | calibraciones/tasas/nodos son únicos | distribuciones, sensibilidad y nodo explícito | DOCUMENTADO |
 | `ERR-PHOTO-GOE-ORIGIN-001` | fechar fotosíntesis oxigénica con el GOE | producción y acumulación son simultáneas | balance de fuentes/sumideros y escala | DOCUMENTADO |
+| `ERR-GOE-INSTANT-001` | dibujar la GOE como interruptor global | un cruce local fecha todo el sistema | intervalos, cuencas y memoria separados | DOCUMENTADO |
+| `ERR-GOE-SMIF-OXYMETER-001` | convertir pérdida de `S‑MIF` en porcentaje de `O₂` | umbral fotoquímico es medición continua | modelo, rango y reservorio explícitos | DOCUMENTADO |
+| `ERR-GOE-RED-BED-001` | usar todo sedimento rojo como proxy atmosférico preciso | hematita siempre primaria y coetánea | textura, singenicidad y facies | DOCUMENTADO |
+| `ERR-GOE-OCEAN-GLOBAL-001` | extender plataforma oxigenada a todo el océano | mezcla vertical instantánea | profundidad, transectos y proxies múltiples | DOCUMENTADO |
+| `ERR-GOE-GLACIATION-PROOF-001` | usar glaciación como prueba causal de `O₂` | coincidencia fija dirección | orden temporal y predicciones rivales | DOCUMENTADO |
+| `ERR-GOE-MODERN-001` | interpretar “Gran” como nivel moderno | importancia equivale a `21 %` | separar régimen, cota y amplitud | DOCUMENTADO |
 | `ERR-LUNAR-APOLLO-INDEPENDENT-001` | tratar sitios Apollo como testigos independientes | ejecta local y sin transporte global | cartografía, Th, geoquímica y escalado de Imbrium | DOCUMENTADO |
 | `ERR-IMPACT-MOON-EARTH-001` | convertir cronología lunar en esterilización terrestre | escala constante de tasa y efecto | dinámica, hidrocodes, atmósfera/océano y archivo terrestre | DOCUMENTADO |
 | `ERR-LUNAR-ABSENCE-001` | “sin fundido antiguo” = “sin impacto antiguo” | supervivencia uniforme hacia atrás | sesgo de preservación y evidencia positiva `4.22–4.33 Ga` | DOCUMENTADO |
@@ -666,3 +672,51 @@ El Gran Evento de Oxidación registra acumulación persistente, no la primera ox
 ### Corrección
 
 Separar producción bruta, producción neta, sumideros, escala local y atmósfera. Tratar el retraso como una pregunta causal propia.
+
+## ERR-GOE-INSTANT-001 — Un intervalo convertido en interruptor
+
+La pérdida de `S‑MIF` puede ser rápida en una sucesión, mientras pérdidas previas, retornos y memoria de cuenca abarcan más de cien millones de años.
+
+### Corrección
+
+Indicar si la fecha pertenece a inicio operacional, cruce local, última señal o estabilización. Dibujar intervalos y huecos, no una sola línea global.
+
+## ERR-GOE-SMIF-OXYMETER-001 — El azufre convertido en porcentaje
+
+`S‑MIF` responde a fotoquímica, ozono, composición atmosférica y preservación. Su ausencia indica un umbral bajo condiciones modeladas; no mide continuamente `pO₂`.
+
+### Corrección
+
+Reportar umbral, modelo y reservorio. No convertir `Δ³³S = 0` en una concentración sin otra calibración.
+
+## ERR-GOE-RED-BED-001 — Todo rojo se volvió aire oxigenado
+
+Hematita y color pueden formarse durante depósito, diagénesis o meteorización posterior. La primera aparición depende además de facies y preservación.
+
+### Corrección
+
+Demostrar textura, edad y ambiente de oxidación; combinar con minerales detríticos y proxies atmosféricos independientes.
+
+## ERR-GOE-OCEAN-GLOBAL-001 — La plataforma heredó todo el océano
+
+El intercambio aire–mar oxigena primero aguas someras. Respiración, estratificación y reductores pueden mantener anoxia profunda.
+
+### Corrección
+
+Nombrar profundidad, facies y extensión. Exigir transectos y proxies integrados antes de afirmar «océano oxigenado» sin calificativo.
+
+## ERR-GOE-GLACIATION-PROOF-001 — El hielo eligió una flecha causal
+
+Glaciación y oxigenación próximas en el tiempo no establecen si `O₂` destruyó metano, si el clima movió la fotoquímica o si un tercer proceso controló ambos.
+
+### Corrección
+
+Resolver orden temporal y comparar predicciones cuantitativas de direcciones rivales; usar la glaciación como condición, no como oxímetro.
+
+## ERR-GOE-MODERN-001 — «Grande» se volvió 21 %
+
+La reorganización fue planetaria, pero las cotas defendibles de `pO₂` abarcan órdenes de magnitud y muchos proxies responden a umbrales muy inferiores al nivel actual.
+
+### Corrección
+
+Separar importancia biogeoquímica de amplitud. Usar `PAL` con definición explícita y no traducir «oxigenado» como «moderno».

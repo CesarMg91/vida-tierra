@@ -59,7 +59,7 @@ Una investigación pasa de `EN_DESARROLLO` a `AUDITADO` cuando:
 
 | Orden | ID | Pregunta |
 |---:|---|---|
-| 015 | `INV-PROT-GOE-001` | ¿Cómo sabemos que aumentó el oxígeno? |
+| 015 | `INV-PROT-GOE-001` | [¿Cómo sabemos que aumentó el oxígeno?](05_proterozoico/INVESTIGACION_015_GRAN_OXIDACION.md) — **AUDITADO** |
 | 016 | `INV-LIFE-LUCA-001` | ¿Qué se puede reconstruir de LUCA y qué no? |
 | 017 | `INV-LIFE-EUK-001` | ¿Cómo inferimos origen de eucariotas y endosimbiosis? |
 | 018 | `INV-LIFE-SEX-001` | ¿Cuándo y por qué apareció reproducción sexual? |
@@ -152,6 +152,7 @@ Después de disponer de la secuencia base:
 - `v0.1.11`: Investigación 012 + historia del cataclismo lunar + función muestra–evento–flujo y discrepancia de South Pole–Aitken.
 - `v0.1.12`: Investigación 013 + historia de las biosignaturas arcaicas + cadena edad–indigeneidad–singenicidad–biogenicidad.
 - `v0.1.13`: Investigación 014 + historia del récord de oxígeno + cuatro relojes y cadena fototrofía–oasis–atmósfera.
+- `v0.1.14`: Investigación 015 + historia de la Gran Oxidación + mapa reservorio–proxy y cadena roca–señal–atmósfera.
 - `v0.2`: Hadeano/Arcaico auditados.
 - `v0.3`: Proterozoico y origen/temprana evolución de la vida.
 - `v0.4`: Fanerozoico completo.

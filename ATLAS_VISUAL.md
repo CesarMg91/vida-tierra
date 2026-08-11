@@ -192,6 +192,20 @@ El mapa separa cuatro relojes: fototrofía a `3.416 Ga`, un oasis posible a `≥
 
 La cadena bifurca los donadores reducidos y el agua, y luego añade los sumideros. Hace visible por qué `fotosíntesis`, `producción de O₂` y `oxigenación planetaria` no son sinónimos.
 
+## 16. Investigación 015 — Gran Oxidación
+
+![Portada conceptual de la Gran Oxidación](assets/visuales/hero-gran-oxidacion.png)
+
+> **Portada conceptual:** conecta una costa paleoproterozoica, meteorización rica en hierro, mares estratificados, lutitas y análisis isotópico moderno. No es una localidad, una curva de `pO₂` ni una transición instantánea observada.
+
+![Mapa de evidencia de la Gran Oxidación](assets/visuales/mapa-investigacion-015.svg)
+
+El mapa separa `S‑MIF` atmosférico, meteorización continental, plataforma somera y océano profundo. La barra temporal expresa un intervalo de integración, no un porcentaje medido.
+
+![Cadena de un proxy a la atmósfera](assets/visuales/de-proxy-a-atmosfera.svg)
+
+La cadena obliga a atravesar muestra, señal, proceso y reservorio antes del claim. Sus ramas muestran cuatro fallos distintos: alteración, memoria crustal, heterogeneidad marina y conversión modelada a concentración.
+
 ## Procedencia
 
 El registro de creación, límites y prompt de cada pieza está en [`assets/visuales/README.md`](assets/visuales/README.md).

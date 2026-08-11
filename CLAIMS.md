@@ -113,6 +113,14 @@ Este archivo es el índice canónico. La letra de confianza califica exactamente
 | `CLAIM-PHOTO-O2-ACCUM-001` | Producción de `O₂`, oasis local y acumulación atmosférica persistente son estados distintos; la última exige superar sumideros y no fecha el origen metabólico. | A para distinción; B-COND para historia terrestre | AUDITADO | `EVID-PHOTO-SINKS-001`, `EVID-OXYGENIC-PONGOLA-MOFE-001` | `INV-ARCHEAN-PHOTOSYNTHESIS-001` |
 | `CLAIM-PHOTO-BIOMARKER-001` | Los hopanos/esteranos arcaicos clásicos no son un reloj válido de cianobacterias o fotosíntesis oxigénica porque fallan controles de singenicidad y contaminación. | B para retirar el archivo; D-E como reloj | AUDITADO | `EVID-PHOTO-BIOMARKER-CLEAN-001` | `INV-ARCHEAN-PHOTOSYNTHESIS-001` |
 | `CLAIM-PHOTO-DIRECT-FOSSIL-001` | Tilacoides intracelulares de *Navifusa* documentan directamente fotótrofos oxigénicos a `1.78–1.73 Ga`, pero no el origen del metabolismo. | B para el mínimo; E como fecha de origen | AUDITADO | `EVID-PHOTO-THYLAKOID-001` | `INV-ARCHEAN-PHOTOSYNTHESIS-001` |
+| `CLAIM-GOE-ATMOSPHERE-001` | El `O₂` atmosférico cruzó un umbral persistente durante la transición paleoproterozoica, demostrado principalmente por el cambio de régimen del S. | B-COND | AUDITADO | `EVID-GOE-SMIF-001`, `EVID-GOE-GEOCHRON-001` | `INV-PROT-GOE-001` |
+| `CLAIM-GOE-PROTRACTED-001` | La Gran Oxidación fue una transición prolongada/asíncrona con cruces locales rápidos, pulsos y memoria de cuenca, no un instante global único. | B-COND | AUDITADO | `EVID-GOE-GEOCHRON-001`, `EVID-GOE-SMIF-MEMORY-001` | `INV-PROT-GOE-001` |
+| `CLAIM-GOE-SMIF-001` | Grandes anomalías `S‑MIF` distinguen un régimen atmosférico muy pobre en `O₂`; su pérdida fija un umbral modelado, no un porcentaje continuo. | B para régimen; C-D para cota | AUDITADO | `EVID-GOE-SMIF-001`, `EVID-GOE-SMIF-MEMORY-001` | `INV-PROT-GOE-001` |
+| `CLAIM-GOE-WEATHERING-001` | La meteorización continental se hizo más oxidativa durante la transición, aunque pirita detrítica muestra intervalos de oxidación todavía limitada. | B-COND | AUDITADO | `EVID-GOE-WEATHERING-001` | `INV-PROT-GOE-001` |
+| `CLAIM-GOE-OCEAN-001` | Plataformas someras desarrollaron oxigenación persistente hacia `~2.32 Ga`, mientras gran parte del océano profundo permaneció anóxica. | B-COND | AUDITADO | `EVID-GOE-OCEAN-001` | `INV-PROT-GOE-001` |
+| `CLAIM-GOE-LEVEL-001` | El cambio relativo de `pO₂` está establecido, pero su trayectoria absoluta durante la GOE sigue abierta por órdenes de magnitud. | B para cambio; D para curva | AUDITADO | `EVID-GOE-SMIF-001`, `EVID-GOE-WEATHERING-001`, `EVID-GOE-OCEAN-001` | `INV-PROT-GOE-001` |
+| `CLAIM-GOE-GLACIATION-001` | Glaciaciones, magmatismo y oxigenación están temporalmente acoplados, sin una dirección causal única demostrada. | C para acoplamiento; D para causalidad | AUDITADO | `EVID-GOE-GLACIAL-001`, `EVID-GOE-MODEL-001` | `INV-PROT-GOE-001` |
+| `CLAIM-GOE-CAUSE-001` | Ningún aumento de fuente, reducción de sumidero o retroalimentación única explica de forma identificada toda la transición. | D-E | AUDITADO | `EVID-GOE-MODEL-001` y matriz `EVID-GOE-*` | `INV-PROT-GOE-001` |
 
 ## Fichas resumidas
 
@@ -518,6 +526,48 @@ Este archivo es el índice canónico. La letra de confianza califica exactamente
 - **Puente:** la arquitectura identifica de forma directa fotótrofos oxigénicos con tilacoides.
 - **Límite:** primera preservación directa conocida no es primera aparición histórica.
 - **Confianza:** B para la identificación/mínimo del clado; E para usar `~1.75 Ga` como origen de fotosíntesis oxigénica.
+
+### CLAIM-GOE-ATMOSPHERE-001 / GOE-PROTRACTED-001
+
+- **Formulación:** el `O₂` atmosférico cruzó uno o más umbrales de persistencia durante una transición paleoproterozoica principal que se acota operacionalmente en `~2.45–2.32 Ga`.
+- **Convergencia:** pérdida/reaparición de `S‑MIF`, edades U–Pb/Re–Os, minerales detríticos y proxies marinos.
+- **Tempo:** un cruce puede durar `1–10 Ma` en una sección y el sistema completo registrar pulsos/memoria durante >100 Ma.
+- **No afirma:** una frontera sincrónica, una curva monotónica ni `O₂` moderno.
+- **Confianza:** `B-COND` para acumulación/transición; `D-E` para instante global único.
+
+### CLAIM-GOE-SMIF-001
+
+- **Dato:** grandes `Δ³³S/Δ³⁶S` se producen/preservan bajo una atmósfera funcionalmente anóxica y desaparecen de forma sostenida en el Paleoproterozoico.
+- **Puente:** `O₂/O₃` modifican la fotoquímica y el ciclo superficial de S por encima de un umbral modelado, aproximadamente `10⁻⁷–10⁻⁵ PAL` según escenario.
+- **Límite:** ausencia de `S‑MIF` no es un oxímetro; presencia tardía puede ser aire contemporáneo o sulfuro arcaico reciclado.
+- **Confianza:** B para el vínculo de régimen; C-D para un umbral numérico único.
+
+### CLAIM-GOE-WEATHERING-001
+
+- **Dato:** desaparición general de minerales redox sensibles, paleosuelos/capas rojas y cambios de Mo/S indican meteorización más oxidativa; pirita detrítica huroniana muestra que el proceso seguía incompleto en intervalos.
+- **Escala:** un frente de meteorización integra litología, exposición, transporte y cinética, no sólo `pO₂`.
+- **Cota:** el caso Espanola/Serpent es compatible con `<5 × 10⁻⁴ PAL`, condicionada al modelo y al catchment.
+- **Confianza:** B-COND para aumento de oxidación continental; C-D para la cota transferida globalmente.
+
+### CLAIM-GOE-OCEAN-001
+
+- **Dato:** V/Tl en lutitas `2.32–2.26 Ga` registra expansión de sumideros oxidados y fondos someros con `≥10 μM O₂` después de la pérdida grande de `S‑MIF` en Transvaal.
+- **Geometría:** plataformas oxigenadas podían coexistir con un interior oceánico funcionalmente anóxico.
+- **No afirma:** que todo el océano se equilibrara con el aire ni que `≥4 × 10⁻² PAL` sea una medición directa.
+- **Confianza:** B-COND para oxigenación somera persistente y anoxia profunda extensa; C-D para cota atmosférica derivada.
+
+### CLAIM-GOE-LEVEL-001
+
+- **Formulación:** la magnitud absoluta de `pO₂` durante la GOE no está cerrada; cotas de S, O, meteorización y V responden a umbrales, reservorios y edades distintos.
+- **Regla:** no ordenar valores heterogéneos como si fueran una serie temporal de un mismo instrumento.
+- **Confianza:** B para cambio relativo de régimen; D para una trayectoria cuantitativa global.
+
+### CLAIM-GOE-GLACIATION-001 / GOE-CAUSE-001
+
+- **Dato:** glaciaciones, magmatismo y proxies de oxígeno se superponen temporalmente; modelos permiten que clima mueva el umbral y que `O₂` destruya `CH₄`.
+- **Alternativas:** aumento de producción, enterramiento, reducción de sumideros, nutrientes, gases volcánicos, escape de H y retroalimentaciones climáticas.
+- **No afirma:** dirección causal única ni disparador identificado.
+- **Confianza:** C para acoplamiento temporal/mecanismos viables; D-E para pesos y causa histórica única.
 
 ## Claims futuros
 
