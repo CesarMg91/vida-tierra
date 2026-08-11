@@ -55,6 +55,7 @@ La fase fundacional contiene:
 - la undécima investigación: [`¿Cómo se restringe una atmósfera sin muestras de aire?`](03_hadeano/INVESTIGACION_011_ATMOSFERA_HADEANA.md);
 - la duodécima investigación: [`¿Pico tardío, cola de acreción o modelo híbrido?`](03_hadeano/INVESTIGACION_012_IMPACTOS_HADEANOS.md);
 - la decimotercera investigación: [`¿Cuál es la evidencia de vida más antigua?`](04_arcaico/INVESTIGACION_013_VIDA_MAS_ANTIGUA.md);
+- la decimocuarta investigación: [`¿Cuándo surgieron fotosíntesis y producción de oxígeno?`](04_arcaico/INVESTIGACION_014_FOTOSINTESIS_OXIGENO.md);
 - un [`ATLAS_VISUAL.md`](ATLAS_VISUAL.md) con procedencia y límites explícitos.
 
 “Preliminar” significa que la cronología organiza el programa de trabajo; no convierte automáticamente cada fecha en una conclusión cerrada. Los estados de auditoría muestran qué ha sido investigado en profundidad y qué sigue pendiente.

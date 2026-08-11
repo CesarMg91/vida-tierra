@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1000" viewBox="0 0 1600 1000" role="img" aria-labelledby="title desc">
+  <title id="title">Mapa de evidencia de la Investigación 014 sobre fotosíntesis y oxígeno</title>
+  <desc id="desc">Cuatro relojes separan fototrofía, oxígeno local, oxidación fechada y acumulación atmosférica. Las evidencias de Buck Reef, Pongola y La-Ce no fechan el mismo evento.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#061920"/><stop offset="1" stop-color="#1b151c"/></linearGradient>
+    <linearGradient id="core" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#5cc3b8"/><stop offset=".5" stop-color="#c6aa54"/><stop offset="1" stop-color="#c66b4f"/></linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%"><feDropShadow dx="0" dy="9" stdDeviation="11" flood-color="#000" flood-opacity=".36"/></filter>
+    <marker id="arrow" markerWidth="11" markerHeight="11" refX="9" refY="5.5" orient="auto"><path d="M0 0 L11 5.5 L0 11 Z" fill="#65c9c1"/></marker>
+    <style>
+      .k{font:600 22px Inter,Segoe UI,sans-serif;letter-spacing:4px;fill:#70d0c8}.t{font:700 45px Inter,Segoe UI,sans-serif;fill:#f3eee6}.s{font:400 20px Inter,Segoe UI,sans-serif;fill:#a7b7c1}
+      .card{fill:#142832;stroke:#355765;stroke-width:2}.ct{font:700 22px Inter,Segoe UI,sans-serif;fill:#f2eee7}.m{font:700 21px Inter,Segoe UI,sans-serif;fill:#79d1c9}.b{font:400 17px Inter,Segoe UI,sans-serif;fill:#c0cbd1}.sm{font:400 16px Inter,Segoe UI,sans-serif;fill:#9babb3}.warn{font:600 16px Inter,Segoe UI,sans-serif;fill:#e2a16b}.dark{font:700 23px Inter,Segoe UI,sans-serif;fill:#071820}.tag{font:700 16px Inter,Segoe UI,sans-serif;fill:#071820}.axis{font:600 17px Inter,Segoe UI,sans-serif;fill:#8fa4ad}
+    </style>
+  </defs>
+  <rect width="1600" height="1000" fill="url(#bg)"/><circle cx="1480" cy="100" r="260" fill="#7a482f" opacity=".14"/><circle cx="80" cy="925" r="300" fill="#286c63" opacity=".16"/>
+  <text class="k" x="75" y="66">INVESTIGACIÓN 014 · CUATRO RELOJES</text>
+  <text class="t" x="75" y="128">Producir oxígeno no equivale a llenar la atmósfera</text>
+  <text class="s" x="75" y="172">Cada archivo fija un límite distinto; la innovación molecular siempre es anterior o igual a su huella.</text>
+
+  <g filter="url(#shadow)">
+    <g transform="translate(55 226)"><rect class="card" width="350" height="258" rx="22"/><rect width="350" height="11" rx="6" fill="#58bbae"/><text class="ct" x="24" y="57">Buck Reef</text><text class="m" x="24" y="94">3.416 Ga · C↑</text><text class="b" x="24" y="132">Tapetes carbonosos ligados</text><text class="b" x="24" y="160">a zona fótica y facies</text><text class="warn" x="24" y="207">Fototrofía, no O₂</text><text class="sm" x="24" y="233">Anoxigénica probable · H₂ C-D</text></g>
+    <g transform="translate(435 226)"><rect class="card" width="350" height="258" rx="22"/><rect width="350" height="11" rx="6" fill="#94b35d"/><text class="ct" x="24" y="57">Pongola</text><text class="m" x="24" y="94">≥2.95 Ga · C↑</text><text class="b" x="24" y="132">Mo + Fe + ciclo de Mn</text><text class="b" x="24" y="160">en aguas superficiales</text><text class="warn" x="24" y="207">Oasis local de O₂</text><text class="sm" x="24" y="233">Cr atmosférico debilitado</text></g>
+    <g transform="translate(815 226)"><rect class="card" width="350" height="258" rx="22"/><rect width="350" height="11" rx="6" fill="#d1a54e"/><text class="ct" x="24" y="57">Tres plataformas</text><text class="m" x="24" y="94">2.87–2.78 Ga · B-COND</text><text class="b" x="24" y="132">Ce negativo + reloj</text><text class="b" x="24" y="160">¹³⁸La–¹³⁸Ce singenético</text><text class="warn" x="24" y="207">O₂ local por 2.87 Ga</text><text class="sm" x="24" y="233">No fecha la primera enzima</text></g>
+    <g transform="translate(1195 226)"><rect class="card" width="350" height="258" rx="22"/><rect width="350" height="11" rx="6" fill="#c56a4e"/><text class="ct" x="24" y="57">Atmósfera</text><text class="m" x="24" y="94">2.45–2.32 Ga</text><text class="b" x="24" y="132">Producción neta supera</text><text class="b" x="24" y="160">sumideros y persiste</text><text class="warn" x="24" y="207">Evento posterior</text><text class="sm" x="24" y="233">Se auditará en Inv. 015</text></g>
+  </g>
+
+  <g stroke="#65c9c1" stroke-width="4" fill="none" marker-end="url(#arrow)" opacity=".84"><path d="M230 505 C230 565 575 560 680 620"/><path d="M610 505 C610 560 705 574 748 620"/><path d="M990 505 C990 560 895 574 852 620"/><path d="M1370 505 C1370 565 1025 560 920 620"/></g>
+  <g filter="url(#shadow)"><rect x="405" y="610" width="790" height="156" rx="78" fill="url(#core)"/><text class="dark" x="800" y="660" text-anchor="middle">FOTOTROFÍA ≠ OXIGÉNICA ≠ OASIS ≠ ATMÓSFERA</text><text class="dark" x="800" y="700" text-anchor="middle">edad mínima preservada ≠ fecha exacta del origen</text><rect x="738" y="724" width="124" height="32" rx="16" fill="#f7ead9"/><text class="tag" x="800" y="746" text-anchor="middle">AUDITADO</text></g>
+  <line x1="800" y1="779" x2="800" y2="820" stroke="#65c9c1" stroke-width="4" marker-end="url(#arrow)"/>
+
+  <g>
+    <rect x="55" y="838" width="470" height="112" rx="22" fill="#173038" stroke="#4c7d7a" stroke-width="2"/><text class="ct" x="83" y="877">Huella más antigua de luz</text><text class="sm" x="83" y="906">Buck Reef: fototrofía, donador abierto</text><text class="sm" x="83" y="930">y sin prueba positiva de O₂.</text>
+    <rect x="565" y="838" width="470" height="112" rx="22" fill="#302a27" stroke="#816c54" stroke-width="2"/><text class="ct" x="593" y="877">Límite fuerte de O₂</text><text class="sm" x="593" y="906">La–Ce fecha oxidación en tres mares;</text><text class="sm" x="593" y="930">la causa biológica sigue condicionada.</text>
+    <rect x="1075" y="838" width="470" height="112" rx="22" fill="#342426" stroke="#8b5b59" stroke-width="2"/><text class="ct" x="1103" y="877">Lo que no sabemos</text><text class="sm" x="1103" y="906">Primer linaje, secuencia molecular y</text><text class="sm" x="1103" y="930">demora exacta hasta la atmósfera.</text>
+  </g>
+</svg>

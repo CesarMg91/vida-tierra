@@ -51,9 +51,9 @@ Una investigación pasa de `EN_DESARROLLO` a `AUDITADO` cuando:
 | 011 | `INV-HADEAN-ATMOSPHERE-001` | [¿Cómo se restringe una atmósfera sin muestras de aire?](03_hadeano/INVESTIGACION_011_ATMOSFERA_HADEANA.md) — **AUDITADO** |
 | 012 | `INV-HADEAN-IMPACTS-001` | [¿Pico tardío, cola de acreción o modelo híbrido?](03_hadeano/INVESTIGACION_012_IMPACTOS_HADEANOS.md) — **AUDITADO** |
 | 013 | `INV-ARCHEAN-LIFE-001` | [¿Cuál es la evidencia de vida más antigua?](04_arcaico/INVESTIGACION_013_VIDA_MAS_ANTIGUA.md) — **AUDITADO** |
-| 014 | `INV-ARCHEAN-PHOTOSYNTHESIS-001` | ¿Cuándo surgieron fotosíntesis y producción de oxígeno? |
+| 014 | `INV-ARCHEAN-PHOTOSYNTHESIS-001` | [¿Cuándo surgieron fotosíntesis y producción de oxígeno?](04_arcaico/INVESTIGACION_014_FOTOSINTESIS_OXIGENO.md) — **AUDITADO** |
 
-**Salida de fase:** separar fechas de habitabilidad, evidencia de vida y origen real de la vida.
+**Salida de fase:** separar habitabilidad, evidencia de vida, fototrofía, producción local de `O₂` y oxigenación planetaria.
 
 ## Fase 3 — Proterozoico y complejidad celular
 
@@ -151,6 +151,7 @@ Después de disponer de la secuencia base:
 - `v0.1.10`: Investigación 011 + historia de la atmósfera por variables + cadena zircon–fundido–gas–aire y límites poshadeanos.
 - `v0.1.11`: Investigación 012 + historia del cataclismo lunar + función muestra–evento–flujo y discrepancia de South Pole–Aitken.
 - `v0.1.12`: Investigación 013 + historia de las biosignaturas arcaicas + cadena edad–indigeneidad–singenicidad–biogenicidad.
+- `v0.1.13`: Investigación 014 + historia del récord de oxígeno + cuatro relojes y cadena fototrofía–oasis–atmósfera.
 - `v0.2`: Hadeano/Arcaico auditados.
 - `v0.3`: Proterozoico y origen/temprana evolución de la vida.
 - `v0.4`: Fanerozoico completo.

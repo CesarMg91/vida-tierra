@@ -64,6 +64,12 @@ Una controversia no implica empate. Registra qué parte está realmente abierta,
 | `CONT-LIFE-SAGLEK-001` | Vida `>3.95 Ga` en Labrador | grafito ligero singenético en metasedimento antiguo | protolito más joven/indeterminado y grafito de fluidos | abierta; récord no establecido | D-E |
 | `CONT-LIFE-ZIRCON-4100-001` | Grafito en zircon de `4.10 Ga` | carbono primario potencialmente biogénico | fraccionamiento abiótico y ausencia de contexto/población | abierta sobre un objeto | E para biosfera |
 | `CONT-LIFE-APEX-001` | Filamentos del Apex Chert | microfósiles con composiciones por morfotipo | artefactos carbonosos de vetas/minerales | abierta; ya no sostiene solo el umbral | D |
+| `CONT-PHOTO-BUCKREEF-001` | Metabolismo de Buck Reef | fotosíntesis anoxigénica basada en `H₂` | otros donadores y microoasis consumidos | abierta sobre donador | C / C-D |
+| `CONT-OXYGENIC-PONGOLA-001` | Escala del `O₂` a `≥2.95 Ga` | oasis local por Mo/Fe | señal atmosférica de Cr alterada modernamente | local favorecido; aire abierto | C↑ local; D aire por Cr |
+| `CONT-PHOTO-MARBLEBAR-001` | Hematita de `3.46 Ga` | precipitado primario en mar oxigenado | reemplazo posterior de minerales Fe | reemplazo favorecido | B reemplazo; D-E mar |
+| `CONT-PHOTO-BIOMARKER-001` | Hopanos/esteranos arcaicos | moléculas singenéticas de productores | entrada tardía y contaminación | récord clásico retirado | B para corrección |
+| `CONT-PHOTO-CLOCK-001` | Edad molecular de fotosíntesis oxigénica | raíz arcaica de PSII/cianobacterias | nodo, calibración y tasas variables | abierta | C-D |
+| `CONT-PHOTO-PRODUCTION-ACCUM-001` | Demora hasta el GOE | cambio de fuente/productividad | cambio de sumideros/retroalimentaciones | abierta | D para pesos/secuencia |
 
 ## CONT-COSMOS-H0-001 — Dos rutas hacia la tasa actual
 
@@ -581,3 +587,45 @@ El grafito parece primario dentro de un zircon concordante de `4.10 Ga` y su `δ
 Los defensores señalan morfologías filamentosas y composiciones C correlacionadas por “taxón”. La alternativa sostiene que los objetos son bordes, dendritas o agregados carbonosos secundarios en vetas hidrotermales. Si la clasificación morfológica no representa células, una correlación por morfotipo no es una taxonomía independiente.
 
 **Prueba discriminatoria:** reconstrucción 3-D continua de pared/lumen, contexto sedimentario primario y química confinada a la pared en muestras nuevas con procedencia inequívoca.
+
+## CONT-PHOTO-BUCKREEF-001 — Luz sin identificar el donador
+
+La distribución de tapetes carbonosos en zona fótica favorece fototrofía a `3.416 Ga`. Siderita y falta de oxidación extensa favorecen una vía anoxigénica; `H₂` hidrotermal es una solución propuesta, no una molécula fósil.
+
+**Alternativas fuertes:** otros donadores reducidos como S o `Fe²⁺`, combinación de fototrofías y microoasis de `O₂` consumidos antes de dejar señal.
+
+**Prueba discriminatoria:** asociaciones minerales/isotópicas que cuantifiquen el donador y modelos que reproduzcan el gradiente completo, no sólo un horizonte de C.
+
+## CONT-OXYGENIC-PONGOLA-001 — Oasis real, atmósfera no heredada
+
+Mo/Fe en testigos apoyan oxidación superficial y ciclo de Mn a `≥2.95 Ga`. La señal de Cr usada para estimar `O₂` atmosférico no se reprodujo en interiores y se atribuyó a meteorización moderna.
+
+**Límite:** retirar Cr no retira Mo/Fe; conservar Mo/Fe no restaura la cifra atmosférica.
+
+**Prueba discriminatoria:** múltiples testigos y cuencas con co-localización de Mn, Mo, Fe y proxies atmosféricos inmunes a meteorización moderna.
+
+## CONT-PHOTO-MARBLEBAR-001 — Edad de roca frente a edad de hematita
+
+La hematita de Marble Bar fue interpretada como precipitado primario en un mar de `3.46 Ga`. Microtexturas posteriores favorecen reemplazo de minerales Fe precursores.
+
+**Prueba discriminatoria:** relaciones deposicionales no ambiguas, inclusiones selladas o cronómetro que feche directamente el fraccionamiento/oxidación y excluya fluidos tardíos.
+
+## CONT-PHOTO-BIOMARKER-001 — Una molécula diagnóstica puede ser joven
+
+Hopanos y esteranos extraídos parecían identificar productores arcaicos. Carbono *in situ*, gradientes interior–exterior y blancos ultralimpios muestran entrada posterior/contaminación en el archivo clásico.
+
+**Límite:** especificidad y singenicidad son puertas separadas; mejorar la primera no repara la segunda.
+
+**Prueba discriminatoria:** compuesto dentro de matriz no fracturada, distribución coherente con facies, madurez térmica concordante, blancos negativos y replicación en testigos independientes.
+
+## CONT-PHOTO-CLOCK-001 — ¿Qué nodo fecha el reloj?
+
+Relojes de D1/D2 y cianobacterias favorecen raíces arcaicas, pero una duplicación de proteína, la aparición del complejo oxidante de agua y el ancestro corona de cianobacterias no son el mismo evento.
+
+**Prueba discriminatoria:** calibraciones fósiles más antiguas con identidad cerrada, análisis de sensibilidad de tasas y concordancia entre genes con historias de transferencia distintas.
+
+## CONT-PHOTO-PRODUCTION-ACCUM-001 — El retraso no tiene una sola causa
+
+La producción de `O₂` precede a su acumulación persistente. Compiten explicaciones basadas en productividad/nutrientes, enterramiento de carbono, estado redox volcánico, sumideros crustales, escape de H y retroalimentaciones atmosféricas.
+
+**Prueba discriminatoria:** series temporales que vinculen cambios independientes de fuentes y sumideros con proxies atmosféricos y oceánicos, evitando usar el GOE como causa y fecha a la vez.

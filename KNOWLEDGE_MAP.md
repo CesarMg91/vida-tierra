@@ -309,3 +309,20 @@ comparación poblacional ────→ límite temporal con confianza heredada
 ```
 
 Véase `INV-ARCHEAN-LIFE-001` en `04_arcaico`, su mapa en `assets/visuales/mapa-investigacion-013.svg` y la cadena en `assets/visuales/de-senal-a-biosignatura.svg`.
+
+La ruta específica de la fotosíntesis y el oxígeno es:
+
+```text
+tapetes + zona fótica ───────→ fototrofía por 3.416 Ga ─────────────┐
+donadores + redox ───────────→ anoxigénica probable ────────────────┤
+Mn/Mo/Fe en testigo ─────────→ oasis local ≥2.95 Ga ────────────────┤
+Ce negativo + reloj La–Ce ───→ oxidación singenética por 2.87 Ga ───┤
+D1/D2 + fósiles + HGT ───────→ ventana molecular condicionada ─────┤
+tilacoides en célula ─────────→ productor directo ~1.75 Ga ─────────┘
+                                         ↓
+                 fotosíntesis oxigénica por 2.87 Ga: B-COND
+                 Pongola puede adelantar el mínimo: C↑
+                 origen exacto y demora atmosférica: D–E
+```
+
+Véase `INV-ARCHEAN-PHOTOSYNTHESIS-001` en `04_arcaico`, su mapa en `assets/visuales/mapa-investigacion-014.svg` y la cadena en `assets/visuales/de-fototrofia-a-oxigenacion.svg`.
