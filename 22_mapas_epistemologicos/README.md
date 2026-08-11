@@ -9,3 +9,4 @@ Grafos de dependencias entre objetos, mediciones, principios, modelos, claims y 
 - [`MAPA_005_FORMACION_SISTEMA_SOLAR.md`](MAPA_005_FORMACION_SISTEMA_SOLAR.md): discos análogos, fósiles locales, transporte, reservorios y planetesimales.
 - [`MAPA_006_ACRECION_TIERRA.md`](MAPA_006_ACRECION_TIERRA.md): Hf–W, manto, N-cuerpos, colisiones, acreción tardía, procedencia y cinco definiciones de final.
 - [`MAPA_007_NUCLEO_TIERRA.md`](MAPA_007_NUCLEO_TIERRA.md): fases sísmicas, modos, geodesia, siderófilos, física mineral, Hf–W, paleomagnetismo y dependencias compartidas.
+- [`MAPA_008_ORIGEN_LUNA.md`](MAPA_008_ORIGEN_LUNA.md): órbita, interior, rocas, isótopos, volátiles, cronómetros y competencia entre familias de impacto.

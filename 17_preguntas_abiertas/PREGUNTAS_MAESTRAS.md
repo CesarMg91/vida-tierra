@@ -32,6 +32,11 @@ La clasificación expresa cuánto restringe hoy la evidencia, no cuán interesan
 | `OPEN-EARTH-CORE-AGE-001` | ¿Cuándo nucleó el núcleo interno? | fue posterior a la diferenciación primordial | conductividad, flujo térmico y lectura paleomagnética | D |
 | `OPEN-EARTH-CORE-STRAT-001` | ¿Existen capas estables junto a CMB o ICB y cómo evolucionan? | algunas señales permiten heterogeneidad y estratificación | resolución sísmica y múltiples causas térmico-químicas | D |
 | `OPEN-MOON-ORIGIN-001` | ¿Cuándo y bajo qué geometría se formó la Luna? | formación/diferenciación muy tempranas; relación Tierra–Luna estrecha | muestras y modelos de impacto/enfriamiento | C |
+| `OPEN-MOON-THEIA-001` | ¿Qué masa, composición y procedencia tuvo el impactor? | debió participar en un impacto viable; aportes quedan en modelos/isótopos | no sobrevive como objeto identificable | D-E |
+| `OPEN-MOON-MIXING-001` | ¿Cuánto se mezclaron proto-Tierra, proyectil, vapor y disco? | semejanza isotópica exige fuente cercana, mezcla o Tierra dominante | transporte multiespecie y muestreo limitado | D |
+| `OPEN-MOON-ANGMOM-001` | ¿Cómo evolucionó el momento angular temprano? | mareas transfieren momento; escenarios altos requieren pérdida | resonancias y disipación tempranas no observadas | D |
+| `OPEN-MOON-MULTI-001` | ¿Una colisión dominante o varios moonlets? | ambas familias pueden producir material lunar | supervivencia, fusión y química modeladas | D |
+| `OPEN-MOON-MAGMAOCEAN-001` | ¿Qué profundidad y duración tuvo el océano de magma lunar? | hubo diferenciación extensa y temprana | cobertura de muestras y estructura profunda | C-D |
 | `OPEN-HADEAN-CRUST-001` | ¿Cómo era la primera corteza? | zircon y rocas raras prueban diferenciación temprana | preservación excepcional y escala local | D |
 | `OPEN-HADEAN-OCEAN-001` | ¿Cuándo apareció un océano estable y de qué volumen? | algunos zircones son compatibles con agua superficial a 4.4 Ga | proxies indirectos y destrucción del registro | D |
 | `OPEN-LIFE-ORIGIN-001` | ¿Cómo comenzó exactamente la vida? | química, ambientes y mecanismos parciales plausibles | no hay archivo directo ni secuencia única | E para mecanismo histórico exacto |
