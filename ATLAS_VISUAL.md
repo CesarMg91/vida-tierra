@@ -52,6 +52,20 @@ El mapa separa señal, magnitud calibrada, diagnóstico y claim. Una población 
 
 Las rutas no fijan umbrales de masa. Composición, rotación, pérdida de masa, compañeras y mecanismo de explosión aparecen como modificadores explícitos.
 
+## 6. Investigación 005 — Formación del Sistema Solar
+
+![Portada conceptual de los dos archivos de la formación solar](assets/visuales/hero-formacion-sistema-solar.png)
+
+> **Portada conceptual:** yuxtapone un disco análogo, una nebulosa reconstruida y fósiles analizados hoy. No es una fotografía del joven Sistema Solar ni asigna planetas a los huecos.
+
+![Mapa de evidencia de la formación solar](assets/visuales/mapa-investigacion-005.svg)
+
+El mapa obliga a recorrer señal, magnitud calibrada, puente y claim. La existencia del disco queda separada de su masa, radio y mecanismos todavía abiertos.
+
+![Dos archivos de la formación solar](assets/visuales/dos-archivos-formacion-solar.svg)
+
+La comparación muestra por qué los discos de otras estrellas enseñan física posible y los meteoritos/cometas conservan genealogía local, sin convertirlos en pruebas totalmente independientes.
+
 ## Procedencia
 
 El registro de creación, límites y prompt de cada pieza está en [`assets/visuales/README.md`](assets/visuales/README.md).
