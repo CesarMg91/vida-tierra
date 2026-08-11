@@ -160,6 +160,16 @@ El propósito no es presentar la ciencia como una sucesión de fracasos ni como 
 | `ERR-SILURIAN-COOKSONIA-FOREST-001` | ejes diminutos convertidos en bosque | nombre implica altura/cobertura | escala, tejido y paisaje separados | DOCUMENTADO |
 | `ERR-SILURIAN-PNEUMODESMUS-RANK-001` | “más antiguo” tratado como propiedad estable | anatomía y edad comparten evidencia | rutas independientes y ranking provisional | DOCUMENTADO |
 | `ERR-SILURIAN-SCORPION-LAND-001` | silueta de escorpión prueba terrestreidad | parecido/nombre sustituyen caracteres | redescripción, aparato respiratorio y facies | DOCUMENTADO |
+| `ERR-DEVONIAN-TREE-FOREST-001` | un árbol aislado se volvió bosque | altura/madera sustituyen organización espacial | bases in situ, densidad, extensión y definición explícita | DOCUMENTADO |
+| `ERR-DEVONIAN-FIRST-FOREST-001` | “primer bosque” tratado como fecha definitiva | ranking de hallazgo confundido con origen | edad, criterio y provisionalidad publicados | DOCUMENTADO |
+| `ERR-DEVONIAN-FOREST-CO2-001` | bosques explican solos la caída de CO₂ | mecanismo plausible convertido en presupuesto global | proxies prebosque y balance multifuente | DOCUMENTADO |
+| `ERR-DEVONIAN-FISH-ORIGIN-001` | «edad de los peces» fecha su origen | etiqueta histórica leída literalmente | separar origen, FAD, disparidad, riqueza y dominancia | DOCUMENTADO |
+| `ERR-DEVONIAN-PRIMITIVE-LADDER-001` | placodermos y «acantodios» como peldaños simples | cajas parafiléticas tratadas como grados homogéneos | caracteres, mosaicos y árboles con sensibilidad | DOCUMENTADO |
+| `ERR-DEVONIAN-TIKTAALIK-ANCESTOR-001` | `Tiktaalik` como pez exacto que salió a tierra | transicional equivale a ancestro/conducta | filogenia, mosaico anatómico y función separadas | DOCUMENTADO |
+| `ERR-DEVONIAN-DIGITS-LAND-001` | dígitos prueban vida terrestre | anatomía confundida con hábitat | radios de aleta, histología, pistas y biomecánica | DOCUMENTADO |
+| `ERR-DEVONIAN-ZACHELMIE-CERTAINTY-001` | una huella identifica especie y ambiente | productor/depósito inferidos sin cuerpo | morfología, facies y alternativas separadas | DOCUMENTADO |
+| `ERR-DEVONIAN-ONE-EXTINCTION-001` | una sola extinción devónica instantánea | pulsos, agotamiento y métricas comprimidos | Kellwasser/Hangenberg y escalas de tasa separadas | DOCUMENTADO |
+| `ERR-DEVONIAN-PROXY-CAUSE-001` | anoxia, Hg o esporas malformadas nombran la causa | señal o mecanismo sustituyen cadena causal | sincronía, dosis, selectividad y rivales explícitos | DOCUMENTADO |
 | `ERR-LUNAR-APOLLO-INDEPENDENT-001` | tratar sitios Apollo como testigos independientes | ejecta local y sin transporte global | cartografía, Th, geoquímica y escalado de Imbrium | DOCUMENTADO |
 | `ERR-IMPACT-MOON-EARTH-001` | convertir cronología lunar en esterilización terrestre | escala constante de tasa y efecto | dinámica, hidrocodes, atmósfera/océano y archivo terrestre | DOCUMENTADO |
 | `ERR-LUNAR-ABSENCE-001` | “sin fundido antiguo” = “sin impacto antiguo” | supervivencia uniforme hacia atrás | sesgo de preservación y evidencia positiva `4.22–4.33 Ga` | DOCUMENTADO |
@@ -1449,3 +1459,83 @@ Registrar por separado identidad, función, horizonte, bloque, biozona y geocron
 ### Corrección
 
 Codificar caracteres, revisar todos los ejemplares y exigir contexto/anatomía terrestre antes de reconstruir hábitat.
+
+## ERR-DEVONIAN-TREE-FOREST-001 — Un tronco recibió un dosel
+
+La presencia de una planta arborescente no demuestra densidad, extensión, varias generaciones ni un bosque. Árbol es anatomía individual; bosque es organización espacial/ecológica.
+
+### Corrección
+
+Publicar definición y exigir posición de crecimiento, repetición, espaciamiento, superficie y contexto antes de usar «bosque».
+
+## ERR-DEVONIAN-FIRST-FOREST-001 — El ranking pareció origen
+
+«Más antiguo conocido» resume el archivo expuesto bajo una definición y escala temporal; un nuevo afloramiento puede desplazarlo sin cambiar el proceso evolutivo.
+
+### Corrección
+
+Añadir «conocido», edad/intervalo, criterio de bosque y fecha de revisión; evitar «apareció por primera vez».
+
+## ERR-DEVONIAN-FOREST-CO2-001 — Los árboles movieron solos la atmósfera
+
+Raíces y vegetación ofrecen mecanismos reales de meteorización y secuestro, pero CO₂, desgasificación, relieve, paleogeografía y preservación forman un balance acoplado.
+
+### Corrección
+
+Contrastar proxies anteriores a bosques, cuantificar flujos e incertidumbres y separar existencia del mecanismo de su peso global.
+
+## ERR-DEVONIAN-FISH-ORIGIN-001 — Una edad cultural se volvió nacimiento
+
+Peces y mandíbulas preceden al Devónico. El periodo registra radiaciones, disparidad y abundancia distintas por clado, no la fabricación súbita de «los peces».
+
+### Corrección
+
+Usar la etiqueta entre comillas y declarar si se mide riqueza, ocurrencias, disparidad, ecospace o dominancia.
+
+## ERR-DEVONIAN-PRIMITIVE-LADDER-001 — Dos cajones formaron una escalera
+
+Placodermos y «acantodios» no son pasos uniformes rumbo a peces modernos. Sus caracteres se distribuyen como mosaicos y varias agrupaciones tradicionales son grados/parafilias.
+
+### Corrección
+
+Mostrar árbol con incertidumbre, taxones concretos y caracteres; no ordenar siluetas de «primitivo» a «avanzado».
+
+## ERR-DEVONIAN-TIKTAALIK-ANCESTOR-001 — Un mosaico se convirtió en protagonista
+
+`Tiktaalik` es informativo porque reúne rasgos, no porque esté demostrado como ancestro directo ni porque preserve una caminata fuera del agua.
+
+### Corrección
+
+Decir «taxón transicional cercano al tallo», separar anatomía/capacidad/conducta y conservar ramas laterales.
+
+## ERR-DEVONIAN-DIGITS-LAND-001 — La mano obligó a salir
+
+`Elpistostege` muestra dígitos dentro de una aleta con radios y `Acanthostega` era marcadamente acuático. La novedad anatómica antecede a la ecología terrestre obligada.
+
+### Corrección
+
+Registrar por separado homología, soporte de peso, pista, ambiente, respiración y ciclo vital.
+
+## ERR-DEVONIAN-ZACHELMIE-CERTAINTY-001 — Una pista recibió cuerpo y paisaje
+
+Una huella puede restringir contacto y secuencia sin conservar identidad, anatomía completa o el ambiente durante toda la vida del productor.
+
+### Corrección
+
+Separar biogenicidad, productor mínimo, patrón locomotor, facies y atribución taxonómica; publicar alternativas fuertes.
+
+## ERR-DEVONIAN-ONE-EXTINCTION-001 — Dos crisis se comprimieron en una fecha
+
+Kellwasser, pérdidas prolongadas y Hangenberg afectan tiempos, grupos y métricas distintos. Un pico local no resume toda la biodiversidad devónica tardía.
+
+### Corrección
+
+Nombrar evento, cuenca, ventana, denominador y corrección de muestreo; no promediar pulsos como uno.
+
+## ERR-DEVONIAN-PROXY-CAUSE-001 — Una señal geoquímica se volvió asesino
+
+Anoxia/euxinia pueden ser mecanismos de estrés; Hg puede sugerir aportes; esporas malformadas pueden ser respuesta. Ninguna señal sola identifica desencadenante, dosis y mortalidad.
+
+### Corrección
+
+Exigir preservación, sincronía, magnitud, distribución, mecanismo, selectividad y predicciones que separen volcanismo, nutrientes, clima y UV-B.

@@ -520,3 +520,26 @@ facies + transporte ──────────→ hábitat frente a depósit
 ```
 
 Véase `INV-SILURIAN-001` en `06_paleozoico`, su mapa en `assets/visuales/mapa-investigacion-024.svg` y la cadena en `assets/visuales/de-aparicion-a-ecosistema-terrestre.svg`.
+
+### Investigación 025 — Bosques, peces y tetrápodos devónicos
+
+```text
+GSSP de Klonk ──correlación──> intervalo Devónico
+                                   └── no fecha bosque, pez o paso a tierra
+
+tallos/bases in situ + espaciamiento + paleosuelo ──> rodal/bosque local
+raíces + sedimento + canales ──> transformación del paisaje
+                                   └── CO₂ global exige balance y forzamientos rivales
+
+anatomía + filogenia + edad ──> mosaicos de gnathostomos
+aleta/huesos/dígitos ──> capacidad anatómica
+huella + sustrato ──> interacción locomotora local
+                                   └── vida terrestre permanente: inferencia adicional
+
+rangos + edad + facies + proxies ──> crisis Kellwasser/Hangenberg
+                                   └── causa exige sincronía, mecanismo y selectividad
+```
+
+La arquitectura conserva seis relojes: límite, bosque, paisaje/CO₂, diversidad de peces, transición locomotora y crisis terminales. Una nueva FAD o un nuevo «bosque más antiguo» modifica un mínimo preservado, no obliga a reescribir todos los relojes.
+
+Véase `INV-DEVONIAN-001` en `06_paleozoico`, su mapa en `assets/visuales/mapa-investigacion-025.svg` y la doble cadena en `assets/visuales/de-fosil-a-bosque-y-de-aleta-a-tierra.svg`.

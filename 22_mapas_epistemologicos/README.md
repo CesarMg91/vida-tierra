@@ -26,3 +26,4 @@ Grafos de dependencias entre objetos, mediciones, principios, modelos, claims y 
 - [`MAPA_022_RADIACION_CAMBRICA.md`](MAPA_022_RADIACION_CAMBRICA.md): límite, cuerpos, trazas, esqueletos, Lagerstätten, filogenias, genómica y ambiente sin fundir aparición preservada con divergencia o diversificación.
 - [`MAPA_023_RADIACION_ORDOVICICA.md`](MAPA_023_RADIACION_ORDOVICICA.md): ocurrencias, muestreo, ecospace, clima/redox, archivos terrestres y LOME sin confundir riqueza, función, presencia mínima o mecanismo causal.
 - [`MAPA_024_RECUPERACION_SILURICA.md`](MAPA_024_RECUPERACION_SILURICA.md): límite, recuperación, eventos, esporas, tejidos, respiración, interacción y costa sin fundir edad, función, hábitat o ecosistema.
+- [`MAPA_025_BOSQUES_PECES_TETRAPODOS.md`](MAPA_025_BOSQUES_PECES_TETRAPODOS.md): seis relojes y tres cadenas que separan árbol, bosque, paisaje, pez, extremidad, locomoción, crisis y causa.

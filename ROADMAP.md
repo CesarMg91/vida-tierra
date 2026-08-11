@@ -74,7 +74,7 @@ Una investigación pasa de `EN_DESARROLLO` a `AUDITADO` cuando:
 | 022 | `INV-CAMBRIAN-001` | [¿Fue súbita la radiación cámbrica o está comprimida por el registro?](06_paleozoico/INVESTIGACION_022_RADIACION_CAMBRICA.md) — **AUDITADO** |
 | 023 | `INV-ORDOVICIAN-001` | [¿Fue la radiación ordovícica un evento global y qué terminó con ella?](06_paleozoico/INVESTIGACION_023_RADIACION_ORDOVICICA.md) — **AUDITADO** |
 | 024 | `INV-SILURIAN-001` | [¿Cómo se recuperó la vida en el Silúrico y cuándo se ensamblaron ecosistemas terrestres?](06_paleozoico/INVESTIGACION_024_RECUPERACION_SILURICA.md) — **AUDITADO** |
-| 025 | `INV-DEVONIAN-001` | bosques, peces y transición agua–tierra |
+| 025 | `INV-DEVONIAN-001` | [¿Fue el Devónico la «edad de los peces» y cómo transformaron bosques y tetrápodos la Tierra?](06_paleozoico/INVESTIGACION_025_BOSQUES_PECES_TETRAPODOS.md) — **AUDITADO** |
 | 026 | `INV-CARBONIFEROUS-001` | carbón, oxígeno, gigantismo y amniotas |
 | 027 | `INV-PERMIAN-001` | Pangea, sinápsidos y mayor extinción |
 | 028 | `INV-TRIASSIC-001` | recuperación, dinosaurios y mamíferos tempranos |
@@ -162,6 +162,7 @@ Después de disponer de la secuencia base:
 - `v0.1.21`: Investigación 022 + historia de la radiación cámbrica + mapa de relojes/archivos y cadena aparición–radiación.
 - `v0.1.22`: Investigación 023 + historia de la GOBE/LOME + mapa de tres archivos y cadena ocurrencia–biodiversificación.
 - `v0.1.23`: Investigación 024 + historia de recuperación/terrestrialización + mapa de cuatro relojes y cadena aparición–ecosistema.
+- `v0.1.24`: Investigación 025 + historia de bosques/peces/tetrápodos + mapa de seis relojes y cadenas fósil–bosque, aleta–tierra y señal–causa.
 - `v0.2`: Hadeano/Arcaico auditados.
 - `v0.3`: Proterozoico y origen/temprana evolución de la vida.
 - `v0.4`: Fanerozoico completo.

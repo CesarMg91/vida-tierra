@@ -237,6 +237,28 @@ Este archivo es el índice canónico. La letra de confianza califica exactamente
 | `CLAIM-SILURIAN-PNEUMODESMUS-001` | Los poros de `Pneumodesmus` apoyan respiración aérea; nuevas esporas/circones favorecen edad Wenlock tardía tras una propuesta devónica, con correlación aún crítica. | B respiración; B-COND edad | AUDITADO | `EVID-SILURIAN-PNEUMODESMUS-ANATOMY-001`, `EVID-SILURIAN-PNEUMODESMUS-AGE-001` | `INV-SILURIAN-001` |
 | `CLAIM-SILURIAN-FOODWEB-001` | Coprolitos con esporas y cutículas depredadoras demuestran consumo, reciclaje y al menos dos niveles animales, sin identificar productores ni red completa. | B-COND | AUDITADO | `EVID-SILURIAN-LAND-INTERACTIONS-001` | `INV-SILURIAN-001` |
 | `CLAIM-SILURIAN-COASTAL-ARCHIVE-001` | El registro costero mezcla transporte continental, depósito marginal y preservación; parecido o asociación no prueban terrestreidad ni convivencia. | A tafonomía; B-COND casos | AUDITADO | `EVID-SILURIAN-COASTAL-ARCHIVE-001` | `INV-SILURIAN-001` |
+| `CLAIM-DEVONIAN-SCOPE-001` | El Devónico contiene relojes parcialmente independientes para límite, bosques, paisaje, peces, locomoción y crisis; «edad de los peces» no los sincroniza. | A-SEM; B pluralidad | AUDITADO | conjunto `EVID-DEVONIAN-*` | `INV-DEVONIAN-001` |
+| `CLAIM-DEVONIAN-BOUNDARY-001` | La base formal del Devónico/Lochkoviense está en Klonk, bajo la FAD de `Uncinatograptus uniformis`; no fecha el origen de bosques o peces. | A límite; B edad | AUDITADO | `EVID-DEVONIAN-BOUNDARY-001` | `INV-DEVONIAN-001` |
+| `CLAIM-DEVONIAN-FOREST-DEFINITION-001` | Árbol, rodal, bosque, dosel y cobertura continental son objetos distintos; altura o madera aisladas no demuestran bosque. | A-SEM | AUDITADO | `EVID-DEVONIAN-FOREST-STAND-001` | `INV-DEVONIAN-001` |
+| `CLAIM-DEVONIAN-FOREST-EARLY-001` | Hangman Sandstone conserva actualmente el bosque espacial más antiguo conocido, de edad eifeliense; el ranking depende de definición, datación y muestreo. | B | AUDITADO | `EVID-DEVONIAN-FOREST-STAND-001` | `INV-DEVONIAN-001` |
+| `CLAIM-DEVONIAN-FOREST-DIVERSITY-001` | Gilboa reunió cladoxilópsidas arborescentes, licófitas y formas lianoides; un bosque devónico no fue una versión joven de uno moderno. | B | AUDITADO | `EVID-DEVONIAN-FOREST-ARCHITECTURE-001` | `INV-DEVONIAN-001` |
+| `CLAIM-DEVONIAN-ROOTS-001` | Cairo conserva sistemas radicales profundos y ramificados tipo `Archaeopteris`, distintos de las bases someras de Gilboa. | B | AUDITADO | `EVID-DEVONIAN-FOREST-ROOTS-001` | `INV-DEVONIAN-001` |
+| `CLAIM-DEVONIAN-LANDSCAPE-001` | Raíces y vegetación devónicas alteraron suelos, riberas y almacenamiento de sedimento, aunque la magnitud regional y global permanece modelada. | B-COND | AUDITADO | `EVID-DEVONIAN-FOREST-LANDSCAPE-001` | `INV-DEVONIAN-001` |
+| `CLAIM-DEVONIAN-CO2-001` | Bosques pudieron intensificar meteorización y flujo de carbono, pero datos de CO₂ bajo antes de su expansión impiden atribuirles por sí solos la caída devónica. | B datos; C-D peso causal | AUDITADO | `EVID-DEVONIAN-CO2-001` | `INV-DEVONIAN-001` |
+| `CLAIM-DEVONIAN-FISH-TIMING-001` | «Edad de los peces» describe una diversificación y disparidad notables, no el origen de peces ni mandíbulas, que tienen registros anteriores. | A-SEM; B patrón | AUDITADO | `EVID-DEVONIAN-FISH-DISPARITY-001` | `INV-DEVONIAN-001` |
+| `CLAIM-DEVONIAN-FISH-MOSAIC-001` | Placodermos y «acantodios» contienen mosaicos de caracteres; tratarlos como peldaños homogéneos distorsiona la filogenia de gnathostomos. | B-COND | AUDITADO | `EVID-DEVONIAN-FISH-ANATOMY-001` | `INV-DEVONIAN-001` |
+| `CLAIM-DEVONIAN-FISH-REPRODUCTION-001` | `Materpiscis` documenta embrión y conexión materna compatibles con viviparidad y fecundación interna en placodermos. | B | AUDITADO | `EVID-DEVONIAN-FISH-REPRODUCTION-001` | `INV-DEVONIAN-001` |
+| `CLAIM-DEVONIAN-TRANSITION-MOSAIC-001` | La transición pez–tetrápodo distribuye cráneo, respiración, cintura, aleta/extremidad y locomoción entre taxones y tiempos distintos. | B | AUDITADO | `EVID-DEVONIAN-TRANSITION-FINS-001`, `EVID-DEVONIAN-LOCOMOTION-001` | `INV-DEVONIAN-001` |
+| `CLAIM-DEVONIAN-TIKTAALIK-001` | `Tiktaalik` combina escamas y radios con cuello, cintura y apéndices robustos; es transicional sin ser ancestro directo probado ni caminante terrestre demostrado. | B | AUDITADO | `EVID-DEVONIAN-TRANSITION-FINS-001` | `INV-DEVONIAN-001` |
+| `CLAIM-DEVONIAN-DIGITS-001` | `Elpistostege` conserva húmero, radio, ulna, carpos y dígitos dentro de una aleta con radios; la mano comenzó antes de perder la aleta. | B | AUDITADO | `EVID-DEVONIAN-TRANSITION-FINS-001` | `INV-DEVONIAN-001` |
+| `CLAIM-DEVONIAN-TRACKS-001` | Zachełmie conserva pistas compatibles con productores tetrápodos más antiguas que los cuerpos inequívocos conocidos; productor y ambiente exactos siguen abiertos. | B-COND | AUDITADO | `EVID-DEVONIAN-TRACKS-MORPHOLOGY-001`, `EVID-DEVONIAN-TRACKS-ENVIRONMENT-001` | `INV-DEVONIAN-001` |
+| `CLAIM-DEVONIAN-AQUATIC-TETRAPODS-001` | Dígitos y extremidades precedieron a una vida terrestre obligada: `Acanthostega`, `Parmastega` y otros conservan adaptaciones acuáticas o mixtas. | B | AUDITADO | `EVID-DEVONIAN-TETRAPOD-AQUATIC-001` | `INV-DEVONIAN-001` |
+| `CLAIM-DEVONIAN-LOCOMOTION-001` | Capacidad locomotora no se deriva de un hueso aislado; articulaciones, cuerpo, sustrato y modelos recuperan un paisaje funcional diverso. | B-COND | AUDITADO | `EVID-DEVONIAN-LOCOMOTION-001` | `INV-DEVONIAN-001` |
+| `CLAIM-DEVONIAN-CRISES-001` | El Devónico tardío reunió pérdidas y recambios prolongados con pulsos Kellwasser y Hangenberg; no fue una extinción instantánea única. | B | AUDITADO | `EVID-DEVONIAN-KELLWASSER-TIME-001`, `EVID-DEVONIAN-HANGENBERG-VERTEBRATES-001` | `INV-DEVONIAN-001` |
+| `CLAIM-DEVONIAN-KELLWASSER-001` | Los pulsos Kellwasser fueron breves en secciones de alta resolución dentro de una pérdida más larga de diversidad; tiempo local no equivale a sincronía mundial. | B-COND | AUDITADO | `EVID-DEVONIAN-KELLWASSER-TIME-001`, `EVID-DEVONIAN-KELLWASSER-ECOLOGY-001` | `INV-DEVONIAN-001` |
+| `CLAIM-DEVONIAN-HANGENBERG-001` | Hangenberg fue una crisis terminal propia y un filtro mayor para vertebrados, no un epílogo menor de Kellwasser. | B | AUDITADO | `EVID-DEVONIAN-HANGENBERG-VERTEBRATES-001`, `EVID-DEVONIAN-HANGENBERG-REDOX-001` | `INV-DEVONIAN-001` |
+| `CLAIM-DEVONIAN-EXTINCTION-RATES-001` | La magnitud de una crisis cambia al medir extinción, agotamiento, diversidad neta, ecospace o invasiones; las métricas no son intercambiables. | A-SEM; B patrón | AUDITADO | `EVID-DEVONIAN-KELLWASSER-ECOLOGY-001`, `EVID-DEVONIAN-HANGENBERG-VERTEBRATES-001` | `INV-DEVONIAN-001` |
+| `CLAIM-DEVONIAN-CAUSES-001` | Redox, nutrientes, clima, meteorización, volcanismo y UV-B forman hipótesis comprobables, pero ninguna señal aislada cierra desencadenante, mecanismo y mortalidad para ambas crisis. | B señales; C-D causas | AUDITADO | `EVID-DEVONIAN-CAUSES-001`, `EVID-DEVONIAN-HANGENBERG-REDOX-001` | `INV-DEVONIAN-001` |
 
 ## Fichas resumidas
 
@@ -1495,6 +1517,162 @@ Este archivo es el índice canónico. La letra de confianza califica exactamente
 - **Puente:** facies, transporte y anatomía distinguen procedencia de hábitat.
 - **Límite:** Lagerstätten y similitud pueden concentrar falsas certezas.
 - **Confianza:** `A` filtro; `B-COND` por caso.
+
+## Investigación 025 — Bosques, peces y tetrápodos devónicos
+
+### CLAIM-DEVONIAN-SCOPE-001
+
+- **Dato/definición:** seis relojes usan archivos y escalas diferentes.
+- **Puente:** separarlos impide que una etiqueta de periodo imponga simultaneidad.
+- **No afirma:** una revolución única de peces, bosques y tierra firme.
+- **Confianza:** `A-SEM`; `B` pluralidad.
+
+### CLAIM-DEVONIAN-BOUNDARY-001
+
+- **Dato:** Klonk fija el horizonte bajo la FAD de `U. uniformis`.
+- **Puente:** un GSSP define correlación cronoestratigráfica, no innovación biológica.
+- **Límite:** la edad numérica puede revisarse.
+- **Confianza:** `A` límite; `B` edad.
+
+### CLAIM-DEVONIAN-FOREST-DEFINITION-001
+
+- **Dato/definición:** árbol, rodal, bosque, dosel y cobertura no son sinónimos.
+- **Puente:** posición in situ, densidad y sustrato prueban organización espacial.
+- **No afirma:** distribución continental desde un solo afloramiento.
+- **Confianza:** `A-SEM`.
+
+### CLAIM-DEVONIAN-FOREST-EARLY-001
+
+- **Dato:** Hangman conserva tallos/bases in situ y espaciamiento eifelienses.
+- **Puente:** repetición espacial sobre una superficie permite llamarlo bosque local.
+- **Límite:** ranking expuesto a nuevos hallazgos y definiciones.
+- **Confianza:** `B`.
+
+### CLAIM-DEVONIAN-FOREST-DIVERSITY-001
+
+- **Dato:** Gilboa combina arquitecturas y hábitos vegetales distintos.
+- **Puente:** partes asociadas, bases y distribución reconstruyen comunidad mínima.
+- **No afirma:** copa, densidad o funcionamiento modernos.
+- **Confianza:** `B`.
+
+### CLAIM-DEVONIAN-ROOTS-001
+
+- **Dato:** Cairo conserva raíces profundas, ramificadas y radialmente extensas.
+- **Puente:** anatomía y paleosuelo las vinculan con plantas tipo `Archaeopteris`.
+- **Límite:** localidad no mide cobertura global.
+- **Confianza:** `B`.
+
+### CLAIM-DEVONIAN-LANDSCAPE-001
+
+- **Dato:** paleosuelos y depósitos fluviales cambian junto con profundidad radical.
+- **Puente:** estabilización, retención y meteorización ofrecen mecanismos físicos.
+- **Límite:** magnitud regional/global exige modelado.
+- **Confianza:** `B-COND`.
+
+### CLAIM-DEVONIAN-CO2-001
+
+- **Dato:** una reconstrucción estima CO₂ bajo antes y durante expansión forestal.
+- **Puente:** el balance global debe incluir vegetación, volcanismo, paleogeografía y preservación.
+- **No afirma:** que los bosques no influyeran, ni que fueran el único control.
+- **Confianza:** `B` datos; `C-D` peso.
+
+### CLAIM-DEVONIAN-FISH-TIMING-001
+
+- **Dato:** la disparidad mandibular crece antes de algunas sustituciones taxonómicas devónicas.
+- **Puente:** morfometría funcional separa diversidad de forma, riqueza y origen.
+- **No afirma:** nacimiento de peces o mandíbulas en el Devónico.
+- **Confianza:** `A-SEM`; `B` patrón.
+
+### CLAIM-DEVONIAN-FISH-MOSAIC-001
+
+- **Dato:** fósiles basales combinan rasgos repartidos entre grupos tradicionales.
+- **Puente:** matrices filogenéticas sustituyen una escalera por mosaicos ramificados.
+- **Límite:** topologías cambian con homología y muestreo.
+- **Confianza:** `B-COND`.
+
+### CLAIM-DEVONIAN-FISH-REPRODUCTION-001
+
+- **Dato:** `Materpiscis` conserva embrión articulado y cordón mineralizado.
+- **Puente:** posición, desarrollo y conexión excluyen una presa ordinaria.
+- **No afirma:** origen de fecundación interna o viviparidad.
+- **Confianza:** `B`.
+
+### CLAIM-DEVONIAN-TRANSITION-MOSAIC-001
+
+- **Dato:** cráneo, cintura, apéndice, respiración y locomoción cambian en secuencias distintas.
+- **Puente:** comparación filogenética ordena módulos sin imponer una marcha lineal.
+- **No afirma:** un único «pez que salió».
+- **Confianza:** `B`.
+
+### CLAIM-DEVONIAN-TIKTAALIK-001
+
+- **Dato:** `Tiktaalik` conserva radios/escamas y rasgos de cuello, cintura y apéndice robusto.
+- **Puente:** anatomía + estratigrafía sitúan un mosaico transicional.
+- **No afirma:** ancestro directo o caminata terrestre observada.
+- **Confianza:** `B`.
+
+### CLAIM-DEVONIAN-DIGITS-001
+
+- **Dato:** CT de `Elpistostege` muestra dígitos dentro de una aleta con radios.
+- **Puente:** relaciones posicionales sustentan homologías del autopodio.
+- **No afirma:** mano portante o terrestrialidad.
+- **Confianza:** `B`.
+
+### CLAIM-DEVONIAN-TRACKS-001
+
+- **Dato:** Zachełmie conserva secuencias de impresiones compatibles con tetrápodos.
+- **Puente:** morfología, patrón y sustrato restringen productor y conducta.
+- **Límite:** sin cuerpo asociado; facies e identidad debatidas.
+- **Confianza:** `B-COND`.
+
+### CLAIM-DEVONIAN-AQUATIC-TETRAPODS-001
+
+- **Dato:** `Acanthostega`, `Parmastega` y otros combinan extremidades con adaptaciones acuáticas.
+- **Puente:** anatomía e histología separan dígitos de ciclo vital terrestre.
+- **No afirma:** incapacidad de incursiones fuera del agua.
+- **Confianza:** `B`.
+
+### CLAIM-DEVONIAN-LOCOMOTION-001
+
+- **Dato:** articulaciones y proporciones producen capacidades diferentes entre taxones.
+- **Puente:** modelos multisegmento prueban movimientos bajo sustratos explícitos.
+- **Límite:** tejido blando, control motor y conducta no se preservan.
+- **Confianza:** `B-COND`.
+
+### CLAIM-DEVONIAN-CRISES-001
+
+- **Dato:** rangos y estratos separan Kellwasser de Hangenberg y pérdidas de fondo.
+- **Puente:** cronología y selectividad distinguen pulsos dentro de un intervalo largo.
+- **No afirma:** una catástrofe instantánea.
+- **Confianza:** `B`.
+
+### CLAIM-DEVONIAN-KELLWASSER-001
+
+- **Dato:** un modelo belga resuelve pulsos locales de ~90 y ~110 kyr cerca del F–F.
+- **Puente:** capas fechadas y biozonas convierten profundidad en tiempo.
+- **Límite:** sección y modelo no fijan sincronía mundial.
+- **Confianza:** `B-COND`.
+
+### CLAIM-DEVONIAN-HANGENBERG-001
+
+- **Dato:** el recambio terminal elimina linajes de vertebrados y reorganiza supervivientes.
+- **Puente:** patrones antes/después separan el filtro Hangenberg de Kellwasser.
+- **Límite:** magnitud y mecanismo cambian por archivo.
+- **Confianza:** `B`.
+
+### CLAIM-DEVONIAN-EXTINCTION-RATES-001
+
+- **Dato:** tasas, agotamiento, diversidad neta y ecospace ofrecen magnitudes distintas.
+- **Puente:** declarar denominador y ventana evita comparar métricas como equivalentes.
+- **No afirma:** que toda discrepancia sea sólo semántica.
+- **Confianza:** `A-SEM`; `B` patrón.
+
+### CLAIM-DEVONIAN-CAUSES-001
+
+- **Dato:** redox, Hg, meteorización, nutrientes, esporas y biomarcadores prueban eslabones distintos.
+- **Puente:** causa requiere sincronía, dosis, mecanismo ambiental y selectividad biológica.
+- **No afirma:** un motor universal para Kellwasser y Hangenberg.
+- **Confianza:** `B` señales; `C-D` causas.
 
 ## Claims futuros
 
