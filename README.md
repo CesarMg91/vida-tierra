@@ -65,6 +65,7 @@ La fase fundacional contiene:
 - la vigesimoprimera investigación: [`¿Qué eran los organismos ediacáricos y cómo vivían?`](05_proterozoico/INVESTIGACION_021_EDIACARA.md);
 - la vigesimosegunda investigación: [`¿Fue súbita la radiación cámbrica o está comprimida por el registro?`](06_paleozoico/INVESTIGACION_022_RADIACION_CAMBRICA.md);
 - la vigesimotercera investigación: [`¿Fue la radiación ordovícica un evento global y qué terminó con ella?`](06_paleozoico/INVESTIGACION_023_RADIACION_ORDOVICICA.md);
+- la vigesimocuarta investigación: [`¿Cómo se recuperó la vida en el Silúrico y cuándo se ensamblaron ecosistemas terrestres?`](06_paleozoico/INVESTIGACION_024_RECUPERACION_SILURICA.md);
 - un [`ATLAS_VISUAL.md`](ATLAS_VISUAL.md) con procedencia y límites explícitos.
 
 “Preliminar” significa que la cronología organiza el programa de trabajo; no convierte automáticamente cada fecha en una conclusión cerrada. Los estados de auditoría muestran qué ha sido investigado en profundidad y qué sigue pendiente.
