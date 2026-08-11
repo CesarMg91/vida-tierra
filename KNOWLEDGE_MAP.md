@@ -196,3 +196,20 @@ H/N + reservorios NC/CC ──→ procedencia y retención ───────
 ```
 
 Véase `INV-EARTH-ACCRETION-001` en `02_formacion_tierra`, su mapa en `assets/visuales/mapa-investigacion-006.svg` y la distinción de hitos en `assets/visuales/cinco-finales-acrecion.svg`.
+
+La ruta específica del núcleo terrestre es:
+
+```text
+P, PKP, PKIKP, SKS ───────→ discontinuidades + estado mecánico ─┐
+modos normales ───────────→ perfiles globales de ρ, Vp y Vs ────┤
+masa + I/MR² ─────────────→ concentración central de masa ──────┤
+siderófilos del manto ─────→ separación metal–silicato ─────────┤
+experimentos P–T ─────────→ Fe–Ni + elementos ligeros ──────────┤
+182W + Hf/W ──────────────→ diferenciación integrada temprana ──┤
+paleomagnetismo + calor ──→ geodinamo y nucleación interna ─────┘
+                                      ↓
+            existencia/geometría/estado global: A–B
+            composición detallada/edad interna: C–D
+```
+
+Véase `INV-EARTH-CORE-001` en `02_formacion_tierra`, su mapa en `assets/visuales/mapa-investigacion-007.svg` y la guía conceptual de fases en `assets/visuales/fases-sismicas-nucleo.svg`.

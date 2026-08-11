@@ -57,6 +57,13 @@ Este archivo es el índice canónico. La letra de confianza califica exactamente
 | `CLAIM-EARTH-VOLATILES-001` | Material isotópicamente semejante a condritas de enstatita contiene suficiente H para ser una fuente posible de parte del agua terrestre; esto no fija su fracción, momento ni excluye aportes carbonáceos. | B para posibilidad; C para fracción | AUDITADO | `EVID-EARTH-HYDROGEN-001`, `EVID-EARTH-MANTLE-PARTITION-001` | `INV-EARTH-ACCRETION-001` |
 | `CLAIM-EARTH-MOON-CLOCK-001` | HSE del manto combinados con la relación simulada entre último impacto gigante y masa posterior favorecen un evento lunar posterior a la mayor parte del crecimiento; `95 ± 32 Ma` es una edad modelo condicionada. | B para posterioridad; C-COND para valor | AUDITADO | `EVID-EARTH-HSE-001` | `INV-EARTH-ACCRETION-001` |
 | `CLAIM-EARTH-BOUNDARY-001` | “Fin de la formación terrestre” puede significar 50 % o 90 % de masa, último impacto gigante, fin de equilibrio núcleo–manto o fin de acreción tardía; no existe una fecha única independiente de definición y modelo. | A-SEM; D para curva exacta | AUDITADO | matriz conjunta `EVID-EARTH-*` | `INV-EARTH-ACCRETION-001` |
+| `CLAIM-EARTH-CORE-EXIST-001` | La Tierra posee una región central separada del manto por una discontinuidad global de radio aproximado 3480 km. | A | AUDITADO | `EVID-EARTH-CORE-PKP-001`, `EVID-EARTH-CORE-MODES-001`, `EVID-EARTH-CORE-MOI-001` | `INV-EARTH-CORE-001` |
+| `CLAIM-EARTH-CORE-LIQUID-001` | El núcleo externo transmite compresión pero tiene módulo de corte efectivo y `Vs` aproximadamente cero en escalas sísmicas. | A | AUDITADO | `EVID-EARTH-CORE-SHEAR-001`, `EVID-EARTH-CORE-MODES-001` | `INV-EARTH-CORE-001` |
+| `CLAIM-EARTH-CORE-INNER-001` | Existe un núcleo interno sólido de radio aproximado 1221.5 km; su estructura fina y anisotropía tienen mayor incertidumbre. | A para existencia/solidez; B-C para estructura | AUDITADO | `EVID-EARTH-CORE-ICB-001`, `EVID-EARTH-CORE-MODES-001` | `INV-EARTH-CORE-001` |
+| `CLAIM-EARTH-CORE-MASS-001` | Masa, radio, momento de inercia y perfiles sísmicos muestran una concentración central de masa muy superior a la de una esfera homogénea. | A para concentración; B-COND para perfil particular | AUDITADO | `EVID-EARTH-CORE-MOI-001`, `EVID-EARTH-CORE-MODES-001` | `INV-EARTH-CORE-001` |
+| `CLAIM-EARTH-CORE-COMPOSITION-001` | El núcleo es una aleación dominada por Fe, con Ni y uno o varios elementos ligeros; la receta exacta sigue abierta. | B-COND para familia; D para porcentajes exactos | AUDITADO | `EVID-EARTH-CORE-SIDEROPHILE-001`, `EVID-EARTH-CORE-MINERALPHYS-001` | `INV-EARTH-CORE-001` |
+| `CLAIM-EARTH-CORE-TIMING-001` | La segregación metal–silicato principal acompañó la acreción temprana en múltiples episodios y no fecha la nucleación posterior del núcleo interno. | B-COND para proceso temprano; C para fecha única | AUDITADO | `EVID-EARTH-CORE-HFW-001` | `INV-EARTH-CORE-001` |
+| `CLAIM-EARTH-CORE-DYNAMO-001` | El campo geomagnético es compatible con una dínamo en una envoltura central conductora, rotante y convectiva; no determina por sí solo composición ni edad. | B-COND | AUDITADO | `EVID-EARTH-CORE-DYNAMO-001`, `EVID-EARTH-CORE-PALEO-001` | `INV-EARTH-CORE-001` |
 | `CLAIM-MOON-AGE-001` | La Luna y su corteza inicial se formaron muy temprano, probablemente dentro de los primeros ~60–100 Ma del Sistema Solar. | C | TRAZADO | `EVID-MOON-ZIRCON-001`, `EVID-EARTH-HFW-001` | `INV-EARTH-AGE-001` |
 | `CLAIM-HADEAN-ZIRCON-001` | Un zircon detrítico de Jack Hills conserva una edad U–Pb de 4404 ± 8 Ma, entre los materiales terrestres conocidos más antiguos. | B | TRAZADO | `EVID-HADEAN-JH-ZIRCON-001` | `INV-EARTH-AGE-001` |
 | `CLAIM-HADEAN-WATER-001` | Algunos zircones hadeanos son compatibles con interacción previa entre su material fuente y agua líquida cerca de la superficie hacia 4.4 Ga. | C | TRAZADO | `EVID-HADEAN-OXYGEN-001` | `INV-EARTH-AGE-001` |
@@ -274,6 +281,56 @@ Este archivo es el índice canónico. La letra de confianza califica exactamente
 - **Actualización clave:** el artículo de Sole et al. (2025) aporta concordancia entre sistemas Sm–Nd de vidas muy distintas en intrusiones relacionadas petrológicamente.
 - **Distinción:** fechar una intrusión da una edad directa del evento de cristalización interpretado; la edad de la roca encajante es un límite mínimo por relación de corte.
 - **Pendiente:** replicación independiente, auditoría completa del suplemento y reconciliación con edades U–Pb más jóvenes y críticas estratigráficas previas.
+
+### CLAIM-EARTH-CORE-EXIST-001
+
+- **Formulación:** la Tierra posee una región central separada del manto por una discontinuidad global de radio aproximado `3480 km`.
+- **Datos:** ramas `PKP`, reflejos `PcP/ScS`, sombras, modos normales y geodesia.
+- **No afirma:** que la frontera sea una esfera lisa, que una sola llegada determine el radio ni que la sismología identifique elementos.
+- **Confianza:** A; una alternativa debe reproducir simultáneamente tiempos, conversiones, modos, masa y momento.
+
+### CLAIM-EARTH-CORE-LIQUID-001
+
+- **Formulación:** el núcleo externo se comporta como fluido en escalas sísmicas: su módulo de corte efectivo y `Vs` son aproximadamente cero, mientras transmite compresión.
+- **Corrección semántica:** energía S puede convertirse a K y volver a S (`SKS`); no existe propagación de corte ordinaria dentro del líquido.
+- **Falsador:** una rama de corte global, repetible y compatible con módulo finito en la envoltura central.
+- **Confianza:** A.
+
+### CLAIM-EARTH-CORE-INNER-001
+
+- **Formulación:** existe un núcleo interno sólido, de radio aproximado `1221.5 km`, con velocidad/rigidez distintas y anisotropía global.
+- **Datos:** `PKIKP/PKPdf`, `PKiKP`, modos y residuales dependientes de dirección.
+- **Límite:** hemisferios, textura, rotación y salto de densidad no tienen la misma confianza que existencia/estado.
+- **Confianza:** A para existencia y solidez; B-C para estructura fina.
+
+### CLAIM-EARTH-CORE-MASS-001
+
+- **Formulación:** la masa terrestre está mucho más concentrada hacia el centro que en una esfera uniforme; PREM usa `I/(MR²)=0.3308` frente a `0.4` uniforme.
+- **Puente:** masa, radio, momento y perfiles sísmicos restringen conjuntamente `ρ(r)`.
+- **No afirma:** que el momento de inercia, aislado, identifique una frontera o una composición única.
+- **Confianza:** A para concentración; B-COND para un perfil de densidad particular.
+
+### CLAIM-EARTH-CORE-COMPOSITION-001
+
+- **Formulación:** el núcleo es una aleación dominada por Fe, con Ni mayor secundario (~5 %) y uno o varios elementos ligeros.
+- **Convergencia:** balance cosmoquímico, depleciones siderófilas, densidad/velocidades y aleaciones a alta P–T.
+- **Abierto:** fracciones de O, Si, S, C e H, temperatura, fases y distribución radial.
+- **Confianza:** B-COND para familia Fe–Ni+ligeros; D para receta porcentual exacta.
+
+### CLAIM-EARTH-CORE-TIMING-001
+
+- **Formulación:** la segregación metal–silicato principal acompañó la acreción temprana en múltiples episodios, no un hundimiento único instantáneo.
+- **Reloj:** Hf–W registra separación integrada mientras `182Hf` estaba vivo.
+- **Dependencias:** `M(t)`, composición, P–T–`fO₂`, fracción de metal y silicato equilibrados, mezcla posterior.
+- **Distinción:** no fecha la nucleación posterior del núcleo interno.
+- **Confianza:** B-COND para multietapa temprana; C para una edad única.
+
+### CLAIM-EARTH-CORE-DYNAMO-001
+
+- **Formulación:** el campo geomagnético es compatible con una dínamo en una envoltura central conductora, rotante y convectiva.
+- **Corroboración:** MHD reproduce campos autosostenidos y reversiones bajo parámetros accesibles.
+- **No afirma:** receta química, fuente de flotabilidad única, edad exacta del núcleo interno ni réplica histórica.
+- **Confianza:** A para dínamo central activa moderna; C-D para mecanismo/energía en cada época.
 
 ## Claims futuros
 
