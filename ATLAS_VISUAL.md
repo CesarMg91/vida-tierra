@@ -472,6 +472,20 @@ El mapa conserva seis relojes: límites, órbita/hielo, MPT, cambios abruptos, e
 
 La doble cadena muestra por qué una frecuencia orbital necesita retroalimentaciones para producir hielo y por qué el último fósil necesita calibración, tafonomía y detectabilidad antes de convertirse en intervalo de extinción o modelo causal.
 
+## 36. Investigación 035 — Separación de linajes: un árbol, muchos genomas
+
+![Portada conceptual de la separación de los linajes humanos y otros simios](assets/visuales/hero-separacion-linajes-humanos-otros-simios.png)
+
+> **Portada conceptual:** separa cromosomas completos, tríos, haplotipos recombinantes, árboles génicos, estratigrafía fósil y fusión del cromosoma 2 en ventanas de evidencia. No representa al ancestro común, una pareja, hibridación observada, una fecha exacta ni un porcentaje único de semejanza.
+
+![Mapa de evidencia de la separación de los linajes](assets/visuales/mapa-investigacion-035.svg)
+
+El mapa conserva seis rutas: topología, diferencia genómica, tasa por tríos/generaciones, coalescencia/ILS, calibración fósil y estructura cromosómica. El centro distingue separación poblacional de TMRCA local.
+
+![Cadenas desde diferencia genómica hasta separación y desde fósil hasta calibración](assets/visuales/de-diferencia-genomica-a-separacion-y-de-fosil-a-calibracion.svg)
+
+La doble cadena muestra por qué una divergencia necesita denominador, tasa y coalescente antes de producir tiempo, y por qué un fósil necesita identidad, posición, horizonte y edad antes de imponer un mínimo.
+
 ## Procedencia
 
 El registro de creación, límites y prompt de cada pieza está en [`assets/visuales/README.md`](assets/visuales/README.md).

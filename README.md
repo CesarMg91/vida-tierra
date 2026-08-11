@@ -76,6 +76,7 @@ La fase fundacional contiene:
 - la trigésima segunda investigación: [`¿Cómo reconstruimos la recuperación paleógena, las radiaciones de mamíferos, primates y ballenas, y el PETM sin dibujar una marcha inevitable?`](08_cenozoico/INVESTIGACION_032_PALEOGENO_RECUPERACION_MAMIFEROS_PRIMATES_BALLENAS_PETM.md);
 - la trigésima tercera investigación: [`¿Cómo reconstruimos pastizales, primates, clima y el istmo de Panamá sin convertir el Neógeno en una cadena causal única?`](08_cenozoico/INVESTIGACION_033_NEOGENO_PASTIZALES_PRIMATES_CLIMA_ISTMO_PANAMA.md);
 - la trigésima cuarta investigación: [`¿Cómo reconstruimos glaciaciones, megafauna y cambios rápidos sin fundir seis relojes cuaternarios?`](08_cenozoico/INVESTIGACION_034_CUATERNARIO_GLACIACIONES_MEGAFAUNA_CAMBIOS_RAPIDOS.md);
+- la trigésima quinta investigación: [`¿Cómo fechamos la separación del linaje humano respecto de otros simios si cada región del genoma tiene una historia distinta?`](08_cenozoico/INVESTIGACION_035_SEPARACION_LINAJES_HUMANOS_OTROS_SIMIOS.md);
 - un [`ATLAS_VISUAL.md`](ATLAS_VISUAL.md) con procedencia y límites explícitos.
 
 “Preliminar” significa que la cronología organiza el programa de trabajo; no convierte automáticamente cada fecha en una conclusión cerrada. Los estados de auditoría muestran qué ha sido investigado en profundidad y qué sigue pendiente.
