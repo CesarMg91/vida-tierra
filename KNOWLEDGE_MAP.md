@@ -720,3 +720,30 @@ oído/tobillo/pelvis cetáceos ───────────> mosaico terres
 La arquitectura conserva cinco relojes: límites, recuperación, radiaciones mamalianas, mosaicos primates/cetáceos y clima. La señal del PETM es robusta; su presupuesto de fuentes no está cerrado. La transición cetácea y los primeros primates se sostienen por conjuntos de caracteres, no por semejanzas dibujadas ni filas de ancestros.
 
 Véase `INV-PALEOGENE-001` en `08_cenozoico`, su mapa en `assets/visuales/mapa-investigacion-032.svg` y la doble cadena en `assets/visuales/de-diente-a-nodo-y-de-isotopo-a-clima.svg`.
+
+### Investigación 033 — Neógeno: pastizales, primates, clima e istmo de Panamá
+
+```text
+GSSP + magnetozona + astrocronología ──> fronteras formales ─────────┐
+δ18O + Mg/Ca + CO₂ + modelo ───────────> temperatura/hielo ─────────┤
+                                                       └── edad ≠ evento ≠ causa única
+
+fitolito + polen + paleosuelo ─────────> presencia/estructura ──────┐
+δ13C de esmalte/suelo ─────────────────> dieta/biomasa C4 ──────────┼──> paisaje condicionado
+diente + desgaste + filogenia ─────────> dieta/abrasión ────────────┘
+                                                       └── pasto ≠ pastizal ≠ dominio C4
+
+hueso + CT + articulación ─────────────> carácter/capacidad ────────┐
+matriz + taxones + modelo ─────────────> nodo hominoideo ───────────┼──> diversidad ramificada
+geografía + edad ──────────────────────> historia biogeográfica ────┘
+                                                       └── semejanza/basal ≠ ancestro humano
+
+circón/procedencia + levantamiento ────> tierra emergida ───────────┐
+salinidad/circulación + batimetría ────> restricción/cierre ────────┼──> istmo escalonado
+ocurrencias + modelos de tasas ────────> dispersión/extinción ──────┘
+                                                       └── primer cruce ≠ puente continuo
+```
+
+La arquitectura conserva cinco relojes: fronteras, clima, vegetación, hominoideos e istmo/intercambio. La expansión C4 tardía no fecha el origen de los pastos; un mosaico locomotor no identifica una marcha humana; y una señal de tierra emergida no fija por sí sola el cierre oceánico o terrestre. La asimetría del GABI exige separar llegada de supervivencia.
+
+Véase `INV-NEOGENE-001` en `08_cenozoico`, su mapa en `assets/visuales/mapa-investigacion-033.svg` y la doble cadena en `assets/visuales/de-fitolito-a-habitat-y-de-circon-a-istmo.svg`.

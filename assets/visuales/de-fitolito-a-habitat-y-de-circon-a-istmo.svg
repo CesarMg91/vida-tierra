@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Cadenas de inferencia de fitolito a hábitat y de circón a istmo</title>
+  <desc id="desc">Dos rutas paralelas muestran los pasos y pérdidas entre un microfósil vegetal y un hábitat, y entre un circón detrítico y una etapa de la formación del istmo de Panamá.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#081719"/><stop offset="1" stop-color="#13282a"/></linearGradient>
+    <style>.h{font:700 40px 'Segoe UI',Arial,sans-serif;fill:#f4ead7}.sh{font:700 25px 'Segoe UI',Arial,sans-serif}.b{font:700 18px 'Segoe UI',Arial,sans-serif;fill:#fff}.t{font:16px 'Segoe UI',Arial,sans-serif;fill:#dce7e3}.s{font:15px 'Segoe UI',Arial,sans-serif;fill:#aebfbb}.warn{font:700 15px 'Segoe UI',Arial,sans-serif;fill:#efbf80}.node{stroke-width:2;rx:14}.a{fill:none;stroke-width:4}.d{fill:none;stroke:#bfc9c3;stroke-width:2;stroke-dasharray:7 8}</style>
+    <marker id="m1" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0 0L10 5L0 10z" fill="#8ea557"/></marker>
+    <marker id="m2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0 0L10 5L0 10z" fill="#d59154"/></marker>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg)"/><text x="70" y="70" class="h">DOS CADENAS, DOS CAMBIOS DE ESCALA</text>
+  <text x="70" y="108" class="s">Cada puente añade significado y supuestos; ninguno autoriza saltar directamente al paisaje o al istmo.</text>
+
+  <rect x="55" y="145" width="715" height="655" rx="24" fill="#20281d" stroke="#667843" stroke-width="2"/>
+  <text x="90" y="195" class="sh" fill="#cbd984">FITOLITO → HÁBITAT</text><text x="90" y="225" class="s">Gramíneas, dosel y fisiología C3/C4</text>
+  <g>
+    <rect x="90" y="265" width="240" height="88" class="node" fill="#3c4926" stroke="#82964c"/><text x="110" y="295" class="b">1  OBJETO</text><text x="110" y="325" class="t">partícula silícea</text>
+    <path d="M330 309H410" class="a" stroke="#8ea557" marker-end="url(#m1)"/><rect x="420" y="265" width="300" height="88" class="node" fill="#3c4926" stroke="#82964c"/>
+    <text x="440" y="295" class="b">2  CONTEXTO</text><text x="440" y="325" class="t">edad, facies, retrabajo</text>
+    <path d="M570 353V405" class="a" stroke="#8ea557" marker-end="url(#m1)"/><rect x="420" y="415" width="300" height="88" class="node" fill="#3c4926" stroke="#82964c"/>
+    <text x="440" y="445" class="b">3  CLASIFICACIÓN</text><text x="440" y="475" class="t">morfotipo y productor probable</text>
+    <path d="M420 459H340" class="a" stroke="#8ea557" marker-end="url(#m1)"/><rect x="90" y="415" width="240" height="88" class="node" fill="#3c4926" stroke="#82964c"/>
+    <text x="110" y="445" class="b">4  TAFONOMÍA</text><text x="110" y="475" class="t">producción y transporte</text>
+    <path d="M210 503V555" class="a" stroke="#8ea557" marker-end="url(#m1)"/><rect x="90" y="565" width="240" height="88" class="node" fill="#3c4926" stroke="#82964c"/>
+    <text x="110" y="595" class="b">5  TRIANGULACIÓN</text><text x="110" y="625" class="t">polen, suelo, esmalte, cera</text>
+    <path d="M330 609H410" class="a" stroke="#8ea557" marker-end="url(#m1)"/><rect x="420" y="565" width="300" height="88" class="node" fill="#53652e" stroke="#cbd984"/>
+    <text x="440" y="595" class="b">6  RESULTADO</text><text x="440" y="625" class="t">mosaico vegetal condicionado</text>
+  </g>
+  <path d="M90 700H720" class="d"/><text x="90" y="734" class="warn">SALTO PROHIBIDO</text><text x="245" y="734" class="t">un fitolito → sabana continental</text>
+  <text x="90" y="768" class="s">Presencia, abundancia, apertura y C4 necesitan controles diferentes.</text>
+
+  <rect x="830" y="145" width="715" height="655" rx="24" fill="#271f1b" stroke="#72482e" stroke-width="2"/>
+  <text x="865" y="195" class="sh" fill="#edaa70">CIRCÓN → ETAPA DEL ISTMO</text><text x="865" y="225" class="s">Procedencia, paleodrenaje y conectividad</text>
+  <g>
+    <rect x="865" y="265" width="240" height="88" class="node" fill="#51321f" stroke="#b87242"/><text x="885" y="295" class="b">1  GRANO</text><text x="885" y="325" class="t">circón detrítico</text>
+    <path d="M1105 309H1185" class="a" stroke="#d59154" marker-end="url(#m2)"/><rect x="1195" y="265" width="300" height="88" class="node" fill="#51321f" stroke="#b87242"/>
+    <text x="1215" y="295" class="b">2  MEDICIÓN</text><text x="1215" y="325" class="t">edad U–Pb y firma</text>
+    <path d="M1345 353V405" class="a" stroke="#d59154" marker-end="url(#m2)"/><rect x="1195" y="415" width="300" height="88" class="node" fill="#51321f" stroke="#b87242"/>
+    <text x="1215" y="445" class="b">3  PROCEDENCIA</text><text x="1215" y="475" class="t">fuentes rivales y mezcla</text>
+    <path d="M1195 459H1115" class="a" stroke="#d59154" marker-end="url(#m2)"/><rect x="865" y="415" width="240" height="88" class="node" fill="#51321f" stroke="#b87242"/>
+    <text x="885" y="445" class="b">4  TRANSPORTE</text><text x="885" y="475" class="t">río, costa y cuenca</text>
+    <path d="M985 503V555" class="a" stroke="#d59154" marker-end="url(#m2)"/><rect x="865" y="565" width="240" height="88" class="node" fill="#51321f" stroke="#b87242"/>
+    <text x="885" y="595" class="b">5  CONTRASTE</text><text x="885" y="625" class="t">plancton, salinidad, genes</text>
+    <path d="M1105 609H1185" class="a" stroke="#d59154" marker-end="url(#m2)"/><rect x="1195" y="565" width="300" height="88" class="node" fill="#6a4125" stroke="#edaa70"/>
+    <text x="1215" y="595" class="b">6  RESULTADO</text><text x="1215" y="625" class="t">conexión o cierre delimitado</text>
+  </g>
+  <path d="M865 700H1495" class="d"/><text x="865" y="734" class="warn">SALTO PROHIBIDO</text><text x="1020" y="734" class="t">fuente panameña → océano cerrado</text>
+  <text x="865" y="768" class="s">Arco, isla, paso profundo, agua superficial y puente tienen relojes distintos.</text>
+  <text x="70" y="855" class="s">INV-NEOGENE-001 · La escala de la conclusión debe coincidir con la escala del objeto y del puente.</text>
+</svg>

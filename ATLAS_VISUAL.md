@@ -444,6 +444,20 @@ El mapa conserva cinco relojes: fronteras formales, recuperación, radiaciones m
 
 La doble cadena muestra que un diente necesita contexto, homología, matriz y calibración antes de convertirse en nodo, y que una excursión isotópica necesita reservorio, tiempo y balance antes de convertirse en fuente o tasa.
 
+## 34. Investigación 033 — Neógeno: cinco relojes, no una cadena
+
+![Portada conceptual del Neógeno](assets/visuales/hero-neogeno-pastizales-primates-clima-istmo-panama.png)
+
+> **Portada conceptual:** distribuye clima, vegetación, fósiles hominoideos, geología del istmo y biogeografía en ventanas no coetáneas. No representa una sabana global, ancestros humanos directos, una fecha única del puente ni una causa climática suficiente.
+
+![Mapa de evidencia del Neógeno](assets/visuales/mapa-investigacion-033.svg)
+
+El mapa conserva cinco relojes: fronteras, clima, vegetación, hominoideos e istmo/GABI. Cada columna separa detector, traducción y salto prohibido.
+
+![Cadenas desde fitolito hasta hábitat y desde circón hasta istmo](assets/visuales/de-fitolito-a-habitat-y-de-circon-a-istmo.svg)
+
+La doble cadena muestra por qué un fitolito no basta para declarar una sabana C4 y por qué circones transportados no equivalen a una barrera terrestre continua.
+
 ## Procedencia
 
 El registro de creación, límites y prompt de cada pieza está en [`assets/visuales/README.md`](assets/visuales/README.md).

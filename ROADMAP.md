@@ -89,7 +89,7 @@ En cada periodo se auditarán primero sus límites cronoestratigráficos y despu
 | Orden | ID | Pregunta |
 |---:|---|---|
 | 032 | `INV-PALEOGENE-001` | [¿Cómo reconstruimos recuperación, mamíferos, primates, ballenas y PETM sin una marcha inevitable?](08_cenozoico/INVESTIGACION_032_PALEOGENO_RECUPERACION_MAMIFEROS_PRIMATES_BALLENAS_PETM.md) — **AUDITADO** |
-| 033 | `INV-NEOGENE-001` | pastizales, primates, clima e istmo de Panamá |
+| 033 | `INV-NEOGENE-001` | [¿Cómo reconstruimos pastizales, primates, clima y el istmo de Panamá sin una cadena causal única?](08_cenozoico/INVESTIGACION_033_NEOGENO_PASTIZALES_PRIMATES_CLIMA_ISTMO_PANAMA.md) — **AUDITADO** |
 | 034 | `INV-QUATERNARY-001` | glaciaciones, megafauna y cambios rápidos |
 | 035 | `INV-HOMININ-SPLIT-001` | ¿Cómo se fecha la separación con otros simios? |
 | 036 | `INV-HOMININ-EARLY-001` | Sahelanthropus, Orrorin y Ardipithecus |
@@ -170,6 +170,7 @@ Después de disponer de la secuencia base:
 - `v0.1.29`: Investigación 030 + historia de angiospermas/redes + mapas de cinco archivos y cadenas polen–red y carácter–corona, actualizados con relojes vegetales de 2026 y cráneo de `Vegavis` de 2025.
 - `v0.1.30`: Investigación 031 + historia de la atribución K–Pg + mapas de seis archivos y cadenas anomalía–impacto/forzamiento–extinción, actualizados con Ni isotópico, ecología planctónica y modelado térmico de 2026.
 - `v0.1.31`: Investigación 032 + historia de los cinco relojes paleógenos + mapas de fronteras, radiaciones, mosaicos anatómicos y clima, actualizados con `Purgatorius`, `Kalakocetus` y zheléstidos de 2026.
+- `v0.1.32`: Investigación 033 + historia de los cinco relojes neógenos + mapas de clima, vegetación, hominoideos, formación escalonada del istmo y GABI, con controversias y falsadores explícitos.
 - `v0.2`: Hadeano/Arcaico auditados.
 - `v0.3`: Proterozoico y origen/temprana evolución de la vida.
 - `v0.4`: Fanerozoico completo.

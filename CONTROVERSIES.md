@@ -243,6 +243,15 @@ Una controversia no implica empate. Registra qué parte está realmente abierta,
 | `CONT-PALEOGENE-PETM-RATE-001` | ¿Cuán rápido entró el carbono? | desfase clima–C impone ≥4 kyr en un registro | suavizado, hiatos y otros núcleos permiten pulsos más rápidos | milenios apoyados; detalle abierto | B-COND |
 | `CONT-PALEOGENE-PETM-BIOTA-001` | ¿El enanismo fue evolución, plasticidad o inmigración? | serie dental sigue clima y tamaño | taxonomía, alometría y movimiento poblacional covarían | cambio regional robusto; mecanismo abierto | B patrón; C causa |
 | `CONT-PALEOGENE-EOT-001` | ¿Qué pesó más en EOT: CO₂, órbita, circulación o hielo? | dos pasos unen enfriamiento y eustasia | proxies/forzamientos comparten edad y modelos | umbral climático robusto; pesos abiertos | B-COND |
+| `CONT-NEOGENE-MMCT-001` | ¿Qué controló la transición climática del Mioceno medio? | enfriamiento e hielo antártico avanzan en fase | CO₂, órbita y circulación covarían | transición robusta; pesos abiertos | B-COND |
+| `CONT-NEOGENE-C4-EXPANSION-001` | ¿Cuándo se expandió la biomasa C4? | isótopos registran aumento amplio en `8–6 Ma` | regiones y proxies muestran inicios distintos | expansión tardía fuerte; sincronía abierta | B-COND |
+| `CONT-NEOGENE-GRASS-MAMMAL-001` | ¿Los pastizales causaron dientes hipsodontos? | dieta, abrasión y apertura están asociadas en varios archivos | polvo, suelo y linaje pueden desacoplarlos | asociación regional; causalidad abierta | B-COND |
+| `CONT-NEOGENE-HOMINOID-LOCOMOTION-001` | ¿`Danuvius` practicaba bipedalismo habitual? | suspensión y combinación locomotora son anatómicamente plausibles | la reconstrucción bípeda excede la señal disponible | mosaico apoyado; bipedalismo discutido | B anatomía; C función |
+| `CONT-NEOGENE-HOMINOID-ORIGIN-001` | ¿Se originaron los homininos en Eurasia? | hominoideos tardíos euroasiáticos amplían la biogeografía | nodo, muestreo y retorno a África no están resueltos | hipótesis abierta | C-D |
+| `CONT-NEOGENE-PANAMA-CLOSURE-001` | ¿Cuándo se «cerró» el istmo de Panamá? | varias señales registran emergencia y restricción progresivas | superficie, profundidad y continuidad usan umbrales distintos | cierre sensu stricto ~`2.8 Ma`; historia escalonada | B-COND |
+| `CONT-NEOGENE-PANAMA-BIOGEOGRAPHY-001` | ¿Los cruces tempranos exigen un puente continuo? | fósiles documentan dispersión anterior al GABI principal | rafting, arcos insulares y sesgos permiten alternativas | cruce robusto; ruta abierta | B-COND |
+| `CONT-NEOGENE-GABI-ASYMMETRY-001` | ¿Por qué dominó el componente norteño? | base amplia recupera mayor extinción de nativos sudamericanos | muestreo, taxonomía y ambiente afectan magnitudes | extinción diferencial fuerte; reparto fino abierto | B-COND |
+| `CONT-NEOGENE-PANAMA-CLIMATE-001` | ¿El cierre de Panamá disparó la glaciación norteña? | circulación cambió durante la emergencia | sincronía, modelos y otros forzamientos no aíslan una causa única | contribución posible; dominancia no demostrada | C-COND |
 
 ## CONT-COSMOS-H0-001 — Dos rutas hacia la tasa actual
 
@@ -1846,3 +1855,57 @@ La talla estimada disminuye con calentamiento y se recupera. Selección, plastic
 Enfriamiento profundo precede o acompaña una expansión mayor de hielo. `CO₂`, órbita y circulación interactúan y comparten proxies.
 
 **Prueba discriminatoria:** `CO₂`, temperatura, eustasia y hielo en una cronología común con simulaciones fuera de muestra.
+
+## CONT-NEOGENE-MMCT-001 — Una transición y varios controles
+
+El enfriamiento cercano a `13.9 Ma` y el crecimiento del hielo antártico aparecen acoplados en registros oceánicos. La coincidencia no reparte por sí sola el peso de CO₂, configuración orbital, circulación ni retroalimentaciones del hielo; además, algunos termómetros dependen de pH y química del agua.
+
+**Prueba discriminatoria:** series de temperatura, pH, CO₂ y volumen de hielo con cronología común, más modelos que predigan fases y amplitudes fuera de los datos usados para ajustarlos.
+
+## CONT-NEOGENE-C4-EXPANSION-001 — Presencia temprana y biomasa tardía
+
+La señal isotópica continental registra una expansión extensa de biomasa C4 entre `8 y 6 Ma`, pero fitolitos y suelos documentan abundancia local mucho antes. «Aparecer», «ser abundante» y «dominar» no comparten umbral.
+
+**Prueba discriminatoria:** transectos regionales pareados de `δ13C`, fitolitos, polen y paleosuelos que midan cobertura con la misma resolución temporal.
+
+## CONT-NEOGENE-GRASS-MAMMAL-001 — Pasto, polvo y dientes
+
+Hipsodoncia, cambios de dieta y hábitats abiertos suelen coincidir, pero Patagonia muestra que coronas altas pueden preceder o no seguir el dominio de pastos. Abrasivos externos, suelo, aridez y herencia filogenética ofrecen mecanismos alternativos.
+
+**Prueba discriminatoria:** microdesgaste, mesodesgaste, fitolitos, isótopos y polvo atmosférico medidos en las mismas faunas y niveles.
+
+## CONT-NEOGENE-HOMINOID-LOCOMOTION-001 — Suspensión no equivale a marcha humana
+
+`Danuvius` conserva una combinación relevante de miembros y articulaciones. La suspensión es ampliamente aceptada; interpretar esa combinación como bipedalismo habitual depende de postura, carga, tejido blando y comparaciones discutidas.
+
+**Prueba discriminatoria:** nuevos esqueletos asociados, huellas o modelado musculoesquelético que prediga cargas articulares incompatibles con alternativas arbóreas.
+
+## CONT-NEOGENE-HOMINOID-ORIGIN-001 — Eurasia como hipótesis biogeográfica
+
+`Anadoluvius` y otros hominoideos muestran diversidad euroasiática tardía y hacen posible una historia con dispersión hacia África. No identifican automáticamente al ancestro de homininos ni resuelven sesgos del registro africano y euroasiático.
+
+**Prueba discriminatoria:** fósiles africanos y euroasiáticos de `12–7 Ma` con anatomía comparable y topologías estables bajo matrices independientes.
+
+## CONT-NEOGENE-PANAMA-CLOSURE-001 — Una palabra para cuatro umbrales
+
+Circones y procedencia pueden registrar tierra emergida o transporte a `15–13 Ma`; señales oceanográficas registran restricción progresiva; una conexión terrestre continua y somera se consolida mucho después. Cada archivo responde a geometría y umbrales distintos.
+
+**Prueba discriminatoria:** paleobatimetría cuantitativa que satisfaga a la vez transporte sedimentario, intercambio oceánico, salinidad y rutas biológicas.
+
+## CONT-NEOGENE-PANAMA-BIOGEOGRAPHY-001 — Cruzar antes del puente
+
+Dispersantes tempranos prueban llegada, no la ruta. Islas, pasos someros, balsas naturales, error de edad y registro incompleto pueden producir cruces sin una autopista terrestre permanente.
+
+**Prueba discriminatoria:** fósiles seriados en ambos lados, edades directas y modelos de dispersión que comparen probabilidades bajo cada paleogeografía.
+
+## CONT-NEOGENE-GABI-ASYMMETRY-001 — Dispersión o supervivencia diferencial
+
+El predominio posterior de linajes norteamericanos se narró como mayor invasión hacia el sur. Una base de unas veinte mil ocurrencias favorece, en cambio, mayor extinción de mamíferos sudamericanos nativos como motor principal de la asimetría.
+
+**Prueba discriminatoria:** modelos conjuntos de preservación, dispersión, especiación y extinción con taxonomía armonizada y validación regional.
+
+## CONT-NEOGENE-PANAMA-CLIMATE-001 — Istmo y glaciación del norte
+
+La emergencia alteró intercambios oceánicos, pero la glaciación del hemisferio norte también depende de CO₂, órbita, tectónica y retroalimentaciones. La cercanía temporal no identifica un interruptor único, y el cierre fue gradual.
+
+**Prueba discriminatoria:** simulaciones que reproduzcan circulación, salinidad, calor y hielo con paleobatimetrías fechadas, comparadas contra escenarios sin cierre y con forzamientos alternativos.

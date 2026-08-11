@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Mapa de evidencia de la Investigación 033 sobre el Neógeno</title>
+  <desc id="desc">Cinco columnas separan fronteras, clima, vegetación, hominoideos y mamíferos, y las etapas del istmo de Panamá y del intercambio americano.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#07191b"/><stop offset="1" stop-color="#10282a"/></linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%"><feDropShadow dx="0" dy="8" stdDeviation="9" flood-color="#000" flood-opacity=".35"/></filter>
+    <style>
+      .h1{font:700 40px 'Segoe UI',Arial,sans-serif;fill:#f2ead9}.sub{font:20px 'Segoe UI',Arial,sans-serif;fill:#b8cdca}.k{font:700 22px 'Segoe UI',Arial,sans-serif;fill:#fff}.t{font:18px 'Segoe UI',Arial,sans-serif;fill:#e8e5da}.s{font:16px 'Segoe UI',Arial,sans-serif;fill:#bac9c6}.tag{font:700 14px 'Segoe UI',Arial,sans-serif;letter-spacing:1.5px}.line{stroke:#86aaa6;stroke-width:3;fill:none}.dash{stroke:#86aaa6;stroke-width:2;stroke-dasharray:7 8;fill:none}.card{stroke:#426764;stroke-width:2;rx:18;filter:url(#shadow)}
+    </style>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0 0L10 5L0 10z" fill="#86aaa6"/></marker>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <circle cx="1400" cy="80" r="180" fill="#183b3c" opacity=".35"/>
+  <text x="70" y="72" class="h1">NEÓGENO: CINCO RELOJES, NO UNA CADENA</text>
+  <text x="72" y="108" class="sub">Objeto → medición → puente → inferencia delimitada → salto prohibido</text>
+
+  <g transform="translate(55 155)">
+    <rect class="card" width="280" height="570" fill="#17393a"/><rect width="280" height="58" rx="18" fill="#2d7771"/><rect y="40" width="280" height="18" fill="#2d7771"/>
+    <text x="22" y="38" class="k">1  FRONTERAS</text><text x="22" y="94" class="tag" fill="#79d2c6">OBJETOS</text>
+    <text x="22" y="127" class="t"><tspan x="22">Lemme–Carrosio</tspan><tspan x="22" dy="28">Eraclea Minoa</tspan><tspan x="22" dy="28">Monte San Nicola</tspan></text>
+    <path d="M140 208V254" class="line" marker-end="url(#arrow)"/><text x="22" y="287" class="tag" fill="#79d2c6">MIDE</text>
+    <text x="22" y="320" class="t"><tspan x="22">lecho, ciclo, polaridad</tspan><tspan x="22" dy="28">y correlación</tspan></text>
+    <path d="M140 375V421" class="line" marker-end="url(#arrow)"/><text x="22" y="454" class="tag" fill="#79d2c6">PERMITE</text>
+    <text x="22" y="487" class="t"><tspan x="22">23.04 → 5.333</tspan><tspan x="22" dy="28">→ 2.58 Ma</tspan></text><text x="22" y="548" class="s">No explica un evento.</text>
+  </g>
+
+  <g transform="translate(355 155)">
+    <rect class="card" width="280" height="570" fill="#172f3e"/><rect width="280" height="58" rx="18" fill="#39708f"/><rect y="40" width="280" height="18" fill="#39708f"/>
+    <text x="20" y="38" class="k">2  CLIMA</text><text x="22" y="94" class="tag" fill="#a8d9f0">ARCHIVOS</text>
+    <text x="22" y="127" class="t"><tspan x="22">testigos + foraminíferos</tspan><tspan x="22" dy="28">lípidos + carbonato</tspan><tspan x="22" dy="28">órbita + CO₂</tspan></text>
+    <path d="M140 208V254" class="line" marker-end="url(#arrow)"/><text x="22" y="287" class="tag" fill="#a8d9f0">SEPARA</text>
+    <text x="22" y="320" class="t"><tspan x="22">temperatura / pH</tspan><tspan x="22" dy="28">hielo / clima regional</tspan></text>
+    <path d="M140 375V421" class="line" marker-end="url(#arrow)"/><text x="22" y="454" class="tag" fill="#a8d9f0">PERMITE</text>
+    <text x="22" y="487" class="t"><tspan x="22">MCO, MMCT y</tspan><tspan x="22" dy="28">enfriamiento tardío</tspan></text><text x="22" y="548" class="s">Global ≠ uniforme.</text>
+  </g>
+
+  <g transform="translate(655 155)">
+    <rect class="card" width="280" height="570" fill="#26362d"/><rect width="280" height="58" rx="18" fill="#667843"/><rect y="40" width="280" height="18" fill="#667843"/>
+    <text x="20" y="38" class="k">3  VEGETACIÓN</text><text x="22" y="94" class="tag" fill="#d4d890">DATOS</text>
+    <text x="22" y="127" class="t"><tspan x="22">fitolitos + polen</tspan><tspan x="22" dy="28">paleosuelo + ceras</tspan><tspan x="22" dy="28">δ13C de esmalte</tspan></text>
+    <path d="M140 208V254" class="line" marker-end="url(#arrow)"/><text x="22" y="287" class="tag" fill="#d4d890">RELOJES</text>
+    <text x="22" y="320" class="t"><tspan x="22">origen / diversidad</tspan><tspan x="22" dy="28">dominio / C3–C4</tspan></text>
+    <path d="M140 375V421" class="line" marker-end="url(#arrow)"/><text x="22" y="454" class="tag" fill="#d4d890">PERMITE</text>
+    <text x="22" y="487" class="t"><tspan x="22">mosaicos locales y</tspan><tspan x="22" dy="28">expansiones amplias</tspan></text><text x="22" y="548" class="s">Dieta ≠ cobertura.</text>
+  </g>
+
+  <g transform="translate(955 155)">
+    <rect class="card" width="280" height="570" fill="#2f2937"/><rect width="280" height="58" rx="18" fill="#765b91"/><rect y="40" width="280" height="18" fill="#765b91"/>
+    <text x="20" y="38" class="k">4  HOMINOIDEOS</text><text x="22" y="94" class="tag" fill="#d7c2ed">OBJETOS</text>
+    <text x="22" y="127" class="t"><tspan x="22">diente + cráneo + CT</tspan><tspan x="22" dy="28">vértebra + pelvis</tspan><tspan x="22" dy="28">miembros + matriz</tspan></text>
+    <path d="M140 208V254" class="line" marker-end="url(#arrow)"/><text x="22" y="287" class="tag" fill="#d7c2ed">PUENTES</text>
+    <text x="22" y="320" class="t"><tspan x="22">homología / árbol</tspan><tspan x="22" dy="28">biomecánica / contexto</tspan></text>
+    <path d="M140 375V421" class="line" marker-end="url(#arrow)"/><text x="22" y="454" class="tag" fill="#d7c2ed">PERMITE</text>
+    <text x="22" y="487" class="t"><tspan x="22">nodos y capacidades</tspan><tspan x="22" dy="28">condicionados</tspan></text><text x="22" y="548" class="s">No crea una marcha humana.</text>
+  </g>
+
+  <g transform="translate(1255 155)">
+    <rect class="card" width="290" height="570" fill="#392d25"/><rect width="290" height="58" rx="18" fill="#9a603b"/><rect y="40" width="290" height="18" fill="#9a603b"/>
+    <text x="20" y="38" class="k">5  PANAMÁ + GABI</text><text x="22" y="94" class="tag" fill="#efbd87">ARCHIVOS</text>
+    <text x="22" y="127" class="t"><tspan x="22">circones + estratos</tspan><tspan x="22" dy="28">plancton + salinidad</tspan><tspan x="22" dy="28">genes + ocurrencias</tspan></text>
+    <path d="M145 208V254" class="line" marker-end="url(#arrow)"/><text x="22" y="287" class="tag" fill="#efbd87">SEPARA</text>
+    <text x="22" y="320" class="t"><tspan x="22">arco / paso / puente</tspan><tspan x="22" dy="28">dispersión / extinción</tspan></text>
+    <path d="M145 375V421" class="line" marker-end="url(#arrow)"/><text x="22" y="454" class="tag" fill="#efbd87">PERMITE</text>
+    <text x="22" y="487" class="t"><tspan x="22">cierre por etapas y</tspan><tspan x="22" dy="28">tasas condicionadas</tspan></text><text x="22" y="548" class="s">Cruce ≠ cierre final.</text>
+  </g>
+
+  <path d="M190 754H1400" class="dash"/><text x="70" y="806" class="k">CONVERGENCIA PERMITIDA</text>
+  <text x="70" y="841" class="sub">tiempo + clima + vegetación + anatomía + paleogeografía → historia reticulada con escalas explícitas</text>
+  <text x="1240" y="842" class="s">INV-NEOGENE-001</text>
+</svg>

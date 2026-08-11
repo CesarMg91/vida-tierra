@@ -252,6 +252,20 @@ El propósito no es presentar la ciencia como una sucesión de fracasos ni como 
 | `ERR-PALEOGENE-PETM-MODERN-001` | PETM es una copia de emisiones modernas | magnitud/calor convertidos en igualdad de tasa | masa, tasa, fondo y geografía declarados | DOCUMENTADO |
 | `ERR-PALEOGENE-SIFRHIPPUS-GLOBAL-001` | todos los mamíferos se hicieron enanos | serie regional convertida en regla planetaria | taxón, región, masa y mecanismo limitados | DOCUMENTADO |
 | `ERR-PALEOGENE-EOT-INSTANT-001` | el hielo antártico apareció a `33.9 Ma` | GSSP convertido en interruptor climático | pasos isotópicos, eustasia y modelo de hielo separados | DOCUMENTADO |
+| `ERR-NEOGENE-AGE-EVENT-001` | una cifra del Neógeno es un evento físico | edad calibrada convertida en proceso | horizonte, calibración, señal y causa separados | DOCUMENTADO |
+| `ERR-NEOGENE-GRASS-ORIGIN-001` | los pastos aparecieron en el Mioceno | expansión ecológica convertida en origen del clado | presencia, diversidad, abundancia y dominio separados | DOCUMENTADO |
+| `ERR-NEOGENE-GRASSLAND-C4-001` | pastizal significa ecosistema C4 | forma de vegetación convertida en vía fotosintética | estructura, cobertura e isótopos declarados | DOCUMENTADO |
+| `ERR-NEOGENE-C4-GLOBAL-001` | C4 dominó el planeta a la vez | tendencia amplia convertida en sincronía universal | región, proxy, umbral y edad explícitos | DOCUMENTADO |
+| `ERR-NEOGENE-TOOTH-VEGETATION-001` | un diente reconstruye todo el paisaje | dieta/abrasión individual convertida en vegetación regional | escalas y proxies pareados | DOCUMENTADO |
+| `ERR-NEOGENE-HYPSODONTY-GRASS-001` | coronas altas prueban consumo de pasto | ecomorfología convertida en causa única | polvo, suelo, dieta y filogenia comparados | DOCUMENTADO |
+| `ERR-NEOGENE-CLIMATE-UNIFORM-001` | el Mioceno se enfrió de manera continua | tendencia global convertida en trayectoria local uniforme | fases, cuencas y proxies separados | DOCUMENTADO |
+| `ERR-NEOGENE-APE-LADDER-001` | los simios miocenos forman una escalera humana | diversidad ramificada convertida en genealogía | árbol, mosaicos y ramas laterales explícitos | DOCUMENTADO |
+| `ERR-NEOGENE-DANUVIUS-HUMAN-001` | `Danuvius` caminaba como un humano | capacidad discutida convertida en conducta moderna | suspensión, postura y carga separadas | DOCUMENTADO |
+| `ERR-NEOGENE-ALESI-GIBBON-001` | `Alesi` era un gibón | convergencia craneal convertida en identidad corona | edad ontogenética, matriz y nodo declarados | DOCUMENTADO |
+| `ERR-NEOGENE-EURASIA-ORIGIN-001` | un fósil turco prueba el origen europeo humano | hipótesis biogeográfica convertida en demostración | nodo, muestreo y rutas alternativas | DOCUMENTADO |
+| `ERR-NEOGENE-PANAMA-DATE-001` | el istmo se cerró en una única fecha | umbrales distintos colapsados | emergencia, restricción, continuidad y profundidad separadas | DOCUMENTADO |
+| `ERR-NEOGENE-FIRST-CROSSING-001` | el primer fósil migrante fecha el puente | llegada convertida en infraestructura terrestre | ruta, edad, detectabilidad y paleogeografía | DOCUMENTADO |
+| `ERR-NEOGENE-PANAMA-ICE-001` | Panamá causó por sí solo la glaciación norteña | coincidencia y mecanismo posible convertidos en suficiencia | contrafactuales y forzamientos múltiples | DOCUMENTADO |
 | `ERR-LUNAR-APOLLO-INDEPENDENT-001` | tratar sitios Apollo como testigos independientes | ejecta local y sin transporte global | cartografía, Th, geoquímica y escalado de Imbrium | DOCUMENTADO |
 | `ERR-IMPACT-MOON-EARTH-001` | convertir cronología lunar en esterilización terrestre | escala constante de tasa y efecto | dinámica, hidrocodes, atmósfera/océano y archivo terrestre | DOCUMENTADO |
 | `ERR-LUNAR-ABSENCE-001` | “sin fundido antiguo” = “sin impacto antiguo” | supervivencia uniforme hacia atrás | sesgo de preservación y evidencia positiva `4.22–4.33 Ga` | DOCUMENTADO |
@@ -2277,3 +2291,115 @@ La base oligocena es un punto formal; enfriamiento y crecimiento glacial cruzan 
 ### Corrección
 
 Separar GSSP, `δ18O`, temperatura, nivel del mar y volumen de hielo modelado.
+
+## ERR-NEOGENE-AGE-EVENT-001 — La cifra hizo ocurrir el cambio
+
+Una edad numérica calibra un horizonte; no es el horizonte, el evento ni su mecanismo.
+
+### Corrección
+
+Declarar objeto fechado, método, incertidumbre, señal correlacionada y cadena causal aparte.
+
+## ERR-NEOGENE-GRASS-ORIGIN-001 — Los pastos nacieron en el Mioceno
+
+La expansión de ambientes herbáceos no fecha el origen de Poaceae, que es anterior.
+
+### Corrección
+
+Separar fósil mínimo, diversificación, abundancia local, apertura y dominio ecológico.
+
+## ERR-NEOGENE-GRASSLAND-C4-001 — Todo pastizal es C4
+
+Un paisaje abierto puede ser C3, C4 o mixto; la arquitectura de la vegetación no diagnostica la vía fotosintética.
+
+### Corrección
+
+Cruzar estructura, fitolitos, polen, `δ13C` y contexto climático.
+
+## ERR-NEOGENE-C4-GLOBAL-001 — Una expansión mundial instantánea
+
+La tendencia de `8–6 Ma` integra regiones con inicios, magnitudes y archivos distintos.
+
+### Corrección
+
+Informar cuenca, taxón o sustrato, proxy, umbral de biomasa y resolución.
+
+## ERR-NEOGENE-TOOTH-VEGETATION-001 — Un diente es un mapa
+
+Esmalte y desgaste informan dieta y abrasión de un organismo; el paisaje exige muestreo poblacional y proxies vegetales.
+
+### Corrección
+
+Separar individuo, población, comunidad y región, y buscar convergencia entre archivos.
+
+## ERR-NEOGENE-HYPSODONTY-GRASS-001 — Corona alta, pasto probado
+
+La hipsodoncia puede responder a abrasivos externos, suelo, aridez, dieta y herencia, no sólo a sílice del pasto.
+
+### Corrección
+
+Contrastar dientes con fitolitos, polvo, paleosuelos, microdesgaste y filogenia.
+
+## ERR-NEOGENE-CLIMATE-UNIFORM-001 — Un Mioceno que sólo se enfría
+
+Óptimo, transición media y enfriamiento tardío incluyen fases, regiones y proxies no idénticos.
+
+### Corrección
+
+Nombrar ventana, latitud, archivo, calibración y variable física.
+
+## ERR-NEOGENE-APE-LADDER-001 — Simios en fila hacia nosotros
+
+Los hominoideos miocenos son ramas con mosaicos y homoplasias, no estaciones de una marcha humana.
+
+### Corrección
+
+Usar árboles, nodos y módulos anatómicos; evitar flechas de ancestro directo sin evidencia.
+
+## ERR-NEOGENE-DANUVIUS-HUMAN-001 — Un bípedo humano en los árboles
+
+La anatomía permite discutir combinaciones locomotoras, pero no filma frecuencia, postura habitual ni marcha humana.
+
+### Corrección
+
+Separar carácter, capacidad, rendimiento y conducta; incluir interpretaciones publicadas rivales.
+
+## ERR-NEOGENE-ALESI-GIBBON-001 — Una semejanza hace un gibón
+
+El cráneo infantil presenta rasgos convergentes con gibones, pero su análisis lo sitúa como hominoideo de tallo.
+
+### Corrección
+
+Incorporar ontogenia, matriz completa, topologías alternativas y caracteres no craneales.
+
+## ERR-NEOGENE-EURASIA-ORIGIN-001 — Un fósil decide el continente de origen
+
+Una posición y distribución compatibles con una hipótesis no eliminan sesgo de muestreo ni rutas rivales.
+
+### Corrección
+
+Exigir nodos estables, series africanas/euroasiáticas comparables y modelos biogeográficos explícitos.
+
+## ERR-NEOGENE-PANAMA-DATE-001 — La fecha única del istmo
+
+Emergencia, transporte sedimentario, restricción oceánica, somerización y continuidad terrestre cruzan umbrales diferentes.
+
+### Corrección
+
+Nombrar qué definición de cierre usa cada fecha y qué proxy la sustenta.
+
+## ERR-NEOGENE-FIRST-CROSSING-001 — El migrante construye el puente
+
+La primera ocurrencia prueba presencia mínima; no distingue una ruta continua de islas, balsas o un registro anterior perdido.
+
+### Corrección
+
+Comparar paleogeografía, capacidad de dispersión, datación y detectabilidad.
+
+## ERR-NEOGENE-PANAMA-ICE-001 — Panamá encendió el hielo
+
+Modificar circulación es un mecanismo plausible, no una demostración de necesidad o suficiencia para la glaciación norteña.
+
+### Corrección
+
+Comparar contrafactuales con CO₂, órbita, otras tectónicas y retroalimentaciones, y exigir predicciones observables.
