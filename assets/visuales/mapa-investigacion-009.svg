@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1000" viewBox="0 0 1600 1000" role="img" aria-labelledby="title desc">
+  <title id="title">Mapa de evidencia de la primera corteza terrestre</title>
+  <desc id="desc">Tres rutas distinguen zircon detrítico, roca preservada e intrusión que corta; convergen en diferenciación temprana sin determinar volumen continental o régimen tectónico global.</desc>
+  <defs>
+    <style>
+      .bg{fill:#071221}.card{fill:#0d1d31;stroke:#30445f;stroke-width:2}.out{fill:#142239;stroke-width:2.5}.h1{fill:#f5f7fb;font:700 42px Georgia,serif}.sub{fill:#9fb0c8;font:22px 'Segoe UI',sans-serif}.k{fill:#5de1f2;font:700 18px 'Segoe UI',sans-serif;letter-spacing:1.5px}.t{fill:#f4f6fa;font:700 26px Georgia,serif}.b{fill:#b9c5d7;font:20px 'Segoe UI',sans-serif}.m{fill:#9aaac0;font:18px Consolas,monospace}.fine{stroke:#617895;stroke-width:4;fill:none}.arrow{stroke:#5de1f2;stroke-width:6;fill:none}.gold{stroke:#f3b34c}.cyan{stroke:#42d6d9}.green{stroke:#65d09a}.purple{stroke:#ba7af2}.warn{fill:#f5d470;font:700 23px Georgia,serif}
+    </style>
+    <marker id="a" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto"><path d="M0,0 L12,6 L0,12 Z" fill="#5de1f2"/></marker>
+    <linearGradient id="zir" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#f6ddb1"/><stop offset="1" stop-color="#6fd3da"/></linearGradient>
+  </defs>
+  <rect width="1600" height="1000" class="bg"/>
+  <circle cx="1470" cy="80" r="180" fill="#f3b34c" opacity=".05"/>
+  <text x="65" y="75" class="h1">Tres archivos, tres tipos de edad</text>
+  <text x="65" y="115" class="sub">El sustantivo fechado decide qué parte de la primera corteza podemos reconstruir.</text>
+
+  <g transform="translate(65 170)">
+    <rect width="455" height="390" rx="26" class="card"/>
+    <text x="28" y="45" class="k">JACK HILLS · MINERAL</text><text x="28" y="88" class="t">Zircon detrítico</text>
+    <polygon points="105,125 186,158 171,278 87,305 42,225" fill="url(#zir)" opacity=".9"/>
+    <path d="M86 160L151 181 143 260 93 276 65 222Z M96 185L133 198 128 240 97 250 81 220Z" fill="none" stroke="#f7f0dc" stroke-width="4" opacity=".7"/>
+    <text x="215" y="145" class="m">U–Pb + concordia</text><text x="215" y="178" class="m">sonda atómica</text><text x="215" y="211" class="m">Hf · O · trazas</text>
+    <path d="M40 325H415" class="fine"/><text x="28" y="355" class="b">Cristalizó hasta 4404 ± 8 Ma</text><text x="28" y="382" class="m">roca fuente perdida · B</text>
+  </g>
+
+  <g transform="translate(572 170)">
+    <rect width="455" height="390" rx="26" class="card"/>
+    <text x="28" y="45" class="k">ACASTA · PROTOLITO</text><text x="28" y="88" class="t">Ortogneis preservado</text>
+    <path d="M45 151 Q135 102 220 157 T410 148 M45 183 Q140 135 225 188 T410 180 M45 216 Q135 168 225 220 T410 211 M45 249 Q140 200 225 252 T410 244" fill="none" stroke="#e9dfc7" stroke-width="14" opacity=".85"/>
+    <path d="M45 166 Q135 117 220 172 T410 163 M45 200 Q140 151 225 204 T410 196 M45 233 Q135 184 225 236 T410 228" fill="none" stroke="#485971" stroke-width="12"/>
+    <path d="M40 325H415" class="fine"/><text x="28" y="355" class="b">Protolito hasta 4031 ± 3 Ma</text><text x="28" y="382" class="m">metamorfismo posterior · B</text>
+  </g>
+
+  <g transform="translate(1079 170)">
+    <rect width="455" height="390" rx="26" class="card"/>
+    <text x="28" y="45" class="k">NUVVUAGITTUQ · CORTE</text><text x="28" y="88" class="t">Intrusión + encajante</text>
+    <path d="M45 125H410V284H45Z" fill="#233d3e"/><path d="M72 138L105 175 80 212 125 266 M185 132L157 180 202 228 178 278 M315 134L285 188 340 236 307 278" class="fine" opacity=".8"/>
+    <path d="M246 118L298 118 249 292 196 292Z" fill="#c58c68" stroke="#f3b34c" stroke-width="4"/>
+    <text x="65" y="312" class="m">huésped</text><text x="252" y="312" class="m">intrusión</text>
+    <path d="M40 325H415" class="fine"/><text x="28" y="355" class="b">Intrusión ~4.16 Ga</text><text x="28" y="382" class="m">huésped anterior · B-PROV / C</text>
+  </g>
+
+  <g marker-end="url(#a)" class="arrow"><path d="M292 585V642"/><path d="M800 585V642"/><path d="M1307 585V642"/></g>
+  <g transform="translate(95 665)"><rect width="1410" height="150" rx="28" class="out cyan"/>
+    <text x="35" y="48" class="k">CONVERGENCIA · B-COND</text><text x="35" y="92" class="t">Diferenciación, magmas evolucionados y retrabajo cortical antes de 4.0 Ga</text>
+    <text x="35" y="126" class="b">Mineral, cuerpo rocoso y contacto usan archivos distintos; no son tres nombres para la misma prueba.</text>
+  </g>
+  <g transform="translate(95 845)"><rect width="1410" height="90" rx="24" class="out purple"/>
+    <text x="30" y="37" class="warn">Borde abierto · C–E</text><text x="330" y="37" class="b">volumen continental · tierras emergidas · placas globales · mecanismo térmico</text>
+    <text x="30" y="68" class="m">La precisión de la edad no se transfiere automáticamente a la geodinámica.</text>
+  </g>
+  <text x="65" y="977" class="m">Diagrama conceptual reproducible · INV-HADEAN-CRUST-001 · 2026-08-10</text>
+</svg>

@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1000" viewBox="0 0 1600 1000" role="img" aria-labelledby="title desc">
+  <title id="title">Tres archivos de la primera corteza</title>
+  <desc id="desc">Comparación entre un mineral detrítico, un protolito preservado y una intrusión datada que limita la edad de su encajante, con lo que cada archivo conserva y destruye.</desc>
+  <defs><style>
+    .bg{fill:#071221}.panel{fill:#0d1d31;stroke:#30445f;stroke-width:2}.h1{fill:#f5f7fb;font:700 42px Georgia,serif}.sub{fill:#9fb0c8;font:22px 'Segoe UI',sans-serif}.head{fill:#5de1f2;font:700 18px 'Segoe UI',sans-serif;letter-spacing:1px}.row{fill:#f4f6fa;font:700 22px Georgia,serif}.b{fill:#b9c5d7;font:18px 'Segoe UI',sans-serif}.m{fill:#9aaac0;font:17px Consolas,monospace}.line{stroke:#30445f;stroke-width:2}.yes{fill:#42d6a4}.part{fill:#f4c45e}.no{fill:#9b6bd1}.tag{fill:#142239;stroke-width:2}.gold{stroke:#f3b34c}.cyan{stroke:#42d6d9}.purple{stroke:#ba7af2}
+  </style></defs>
+  <rect width="1600" height="1000" class="bg"/>
+  <text x="65" y="75" class="h1">Lo que sobrevive determina lo que puede afirmarse</text>
+  <text x="65" y="113" class="sub">Los tres archivos ganan y pierden información diferente; “más antiguo” necesita un objeto explícito.</text>
+
+  <g transform="translate(55 160)">
+    <rect width="1490" height="620" rx="26" class="panel"/>
+    <text x="35" y="55" class="head">ARCHIVO</text><text x="410" y="55" class="head">EDAD DIRECTA</text><text x="680" y="55" class="head">CONTEXTO</text><text x="930" y="55" class="head">FUENTE / PROCESO</text><text x="1265" y="55" class="head">ESCALA</text>
+    <path d="M30 82H1460 M30 245H1460 M30 408H1460" class="line"/><path d="M370 25V590 M640 25V590 M890 25V590 M1225 25V590" class="line"/>
+
+    <g transform="translate(0 105)">
+      <text x="35" y="35" class="row">Zircon de Jack Hills</text><text x="35" y="68" class="m">mineral detrítico</text><text x="35" y="100" class="b">roca natal destruida</text>
+      <circle cx="485" cy="52" r="18" class="yes"/><text x="520" y="60" class="b">cristal</text>
+      <circle cx="730" cy="52" r="18" class="no"/><text x="765" y="60" class="b">procedencia perdida</text>
+      <circle cx="985" cy="52" r="18" class="yes"/><text x="1020" y="44" class="b">Hf · O · trazas</text><text x="1020" y="72" class="m">magma inferido</text>
+      <circle cx="1320" cy="52" r="18" class="no"/><text x="1355" y="44" class="b">grano</text><text x="1355" y="72" class="m">no planeta</text>
+    </g>
+
+    <g transform="translate(0 268)">
+      <text x="35" y="35" class="row">Gneis de Acasta</text><text x="35" y="68" class="m">unidad deformada</text><text x="35" y="100" class="b">protolito preservado</text>
+      <circle cx="485" cy="52" r="18" class="yes"/><text x="520" y="60" class="b">protolito</text>
+      <circle cx="730" cy="52" r="18" class="part"/><text x="765" y="44" class="b">campo + roca</text><text x="765" y="72" class="m">superficie perdida</text>
+      <circle cx="985" cy="52" r="18" class="yes"/><text x="1020" y="44" class="b">petrología</text><text x="1020" y="72" class="m">mecanismo abierto</text>
+      <circle cx="1320" cy="52" r="18" class="part"/><text x="1355" y="44" class="b">unidad</text><text x="1355" y="72" class="m">no global</text>
+    </g>
+
+    <g transform="translate(0 431)">
+      <text x="35" y="35" class="row">Nuvvuagittuq</text><text x="35" y="68" class="m">intrusión + huésped</text><text x="35" y="100" class="b">terreno metamórfico</text>
+      <circle cx="485" cy="52" r="18" class="part"/><text x="520" y="44" class="b">intrusión</text><text x="520" y="72" class="m">huésped = límite</text>
+      <circle cx="730" cy="52" r="18" class="yes"/><text x="765" y="44" class="b">relación de corte</text><text x="765" y="72" class="m">estratigrafía difícil</text>
+      <circle cx="985" cy="52" r="18" class="part"/><text x="1020" y="44" class="b">Sm–Nd + campo</text><text x="1020" y="72" class="m">herencia/reset</text>
+      <circle cx="1320" cy="52" r="18" class="part"/><text x="1355" y="44" class="b">local</text><text x="1355" y="72" class="m">replicar</text>
+    </g>
+  </g>
+
+  <g transform="translate(85 815)"><rect width="1430" height="105" rx="24" class="tag gold"/>
+    <text x="30" y="42" class="row">Regla de traducción</text><text x="320" y="42" class="b">cristalizó ≠ afloró ≠ se extrajo del manto ≠ fue intruido ≠ sobrevivió intacto</text>
+    <text x="30" y="76" class="m">El verbo protege la edad contra una extrapolación semántica.</text>
+  </g>
+  <g transform="translate(85 945)"><circle cx="15" cy="0" r="13" class="yes"/><text x="40" y="7" class="m">conserva directamente</text><circle cx="290" cy="0" r="13" class="part"/><text x="315" y="7" class="m">conserva con modelo/límite</text><circle cx="670" cy="0" r="13" class="no"/><text x="695" y="7" class="m">no conserva</text><text x="1080" y="7" class="m">INV-HADEAN-CRUST-001</text></g>
+</svg>

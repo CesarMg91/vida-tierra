@@ -108,6 +108,20 @@ Cinco archivos restringen la familia causal: órbita, interior, rocas, isótopos
 
 La matriz no proclama ganador numérico: muestra qué resuelve cada familia y dónde traslada la incertidumbre, especialmente isótopos y momento angular.
 
+## 10. Investigación 009 — Primera corteza terrestre
+
+![Portada conceptual de los archivos de la primera corteza](assets/visuales/hero-corteza-hadeana.png)
+
+> **Portada conceptual:** enlaza un zircon detrítico, gneis plegado, un terreno máfico cortado por una intrusión y análisis modernos. Los tres archivos son localidades y escalas distintas; no es una reconstrucción del paisaje hadeano.
+
+![Mapa de evidencia de la primera corteza](assets/visuales/mapa-investigacion-009.svg)
+
+El mapa obliga a nombrar qué se fecha: cristal, protolito o intrusión. La convergencia apoya diferenciación cortical temprana, pero conserva aparte volumen, continentes y geodinámica.
+
+![Tres archivos de la corteza hadeana](assets/visuales/tres-archivos-corteza-hadeana.svg)
+
+La matriz compara qué memoria gana y pierde cada archivo. Los colores significan conservación directa, conservación mediante límite/modelo o ausencia; no son una puntuación de calidad.
+
 ## Procedencia
 
 El registro de creación, límites y prompt de cada pieza está en [`assets/visuales/README.md`](assets/visuales/README.md).

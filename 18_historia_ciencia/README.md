@@ -9,3 +9,4 @@ Historia de cómo se reconstruyó la historia: creencias previas, evidencia disr
 - [`HISTORIA_006_ACRECION_TIERRA.md`](HISTORIA_006_ACRECION_TIERRA.md): de Safronov y Wetherill a Hf–W condicionado, impactos no perfectos y modelos geoquímico-dinámicos acoplados.
 - [`HISTORIA_007_NUCLEO_TIERRA.md`](HISTORIA_007_NUCLEO_TIERRA.md): de Oldham, Gutenberg y Lehmann a PREM, anisotropía, física mineral, geodinamo y las dos edades del núcleo.
 - [`HISTORIA_008_ORIGEN_LUNA.md`](HISTORIA_008_ORIGEN_LUNA.md): de fisión/captura/coacreción a Apollo, el impacto gigante, la crisis isotópica, sinestias y moonlets.
+- [`HISTORIA_009_CORTEZA_HADEANA.md`](HISTORIA_009_CORTEZA_HADEANA.md): de un “tiempo sin rocas” a zircones, Acasta, Sm–Nd y estilos corticales hadeanos diversos.

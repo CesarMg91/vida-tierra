@@ -37,7 +37,9 @@ La clasificación expresa cuánto restringe hoy la evidencia, no cuán interesan
 | `OPEN-MOON-ANGMOM-001` | ¿Cómo evolucionó el momento angular temprano? | mareas transfieren momento; escenarios altos requieren pérdida | resonancias y disipación tempranas no observadas | D |
 | `OPEN-MOON-MULTI-001` | ¿Una colisión dominante o varios moonlets? | ambas familias pueden producir material lunar | supervivencia, fusión y química modeladas | D |
 | `OPEN-MOON-MAGMAOCEAN-001` | ¿Qué profundidad y duración tuvo el océano de magma lunar? | hubo diferenciación extensa y temprana | cobertura de muestras y estructura profunda | C-D |
-| `OPEN-HADEAN-CRUST-001` | ¿Cómo era la primera corteza? | zircon y rocas raras prueban diferenciación temprana | preservación excepcional y escala local | D |
+| `OPEN-HADEAN-CRUST-001` | ¿Qué volumen y composición tenía la primera corteza? | zircon, Acasta y NGB prueban diferenciación/retrabajo tempranos | preservación excepcional, sesgo mineral y escala local | D |
+| `OPEN-HADEAN-TECTONICS-001` | ¿Coexistieron placas, subducción local, tapa estancada, plumas e impactos? | Jack Hills/Barberton registran diversidad geoquímica | trazas no identifican cinemática global y los archivos son detríticos | D |
+| `OPEN-HADEAN-NGB-001` | ¿Qué unidades de Nuvvuagittuq son hadeanas? | intrusiones ~4.16 Ga y encajantes anteriores están fortalecidas | estratigrafía, metamorfismo, sedimentos ~3.78 Ga y replicación | C-D |
 | `OPEN-HADEAN-OCEAN-001` | ¿Cuándo apareció un océano estable y de qué volumen? | algunos zircones son compatibles con agua superficial a 4.4 Ga | proxies indirectos y destrucción del registro | D |
 | `OPEN-LIFE-ORIGIN-001` | ¿Cómo comenzó exactamente la vida? | química, ambientes y mecanismos parciales plausibles | no hay archivo directo ni secuencia única | E para mecanismo histórico exacto |
 | `OPEN-LIFE-LOCATION-001` | ¿Dónde apareció la primera vida? | varios ambientes compatibles | biogenicidad/edad y movilidad temprana | E |

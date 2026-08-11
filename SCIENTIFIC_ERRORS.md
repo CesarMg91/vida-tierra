@@ -41,6 +41,9 @@ El propósito no es presentar la ciencia como una sucesión de fracasos ni como 
 | `ERR-MOON-SIMULATION-PHOTO-001` | usar una simulación como video del impacto | viabilidad confundida con identidad | ensambles, condiciones y fallos | DOCUMENTADO |
 | `ERR-MOON-DRY-001` | depleción volátil significa ausencia de agua | promedio global confundido con cero | abundancia por reservorio y etapa | DOCUMENTADO |
 | `ERR-MOON-IMPACT-TIME-001` | una edad de zircon fecha el choque | cristalización/cierre confundidos con contacto | cronómetros y eventos separados | DOCUMENTADO |
+| `ERR-HADEAN-ZIRCON-ROCK-001` | llamar “roca de 4.4 Ga” a un zircon detrítico | mineral y roca huésped/fuente confundidos | nombrar objeto, dominio y evento fechado | DOCUMENTADO |
+| `ERR-HADEAN-CONTINENT-001` | convertir magma félsico en continente moderno global | composición extrapolada a área, elevación y tectónica | separar magma, corteza, tierra emergida y placa | DOCUMENTADO |
+| `ERR-HADEAN-MODELAGE-001` | leer edad Hf/Sm–Nd de fuente como cristalización directa | evolución de reservorio y mezcla omitidas | distinguir edad mineral, isócrona, extracción y límite de corte | DOCUMENTADO |
 | `ERR-GEO-KELVIN-001` | Tierra de decenas de Ma por enfriamiento | fuente térmica y transporte incompletos | radioactividad, convección y geocronología isotópica | DOCUMENTADO |
 | `ERR-GEO-SEDIMENT-001` | edad global por tasa media de sedimentación | tasa constante, registro completo y sin reciclaje | estratigrafía, discordancias y relojes radiométricos | SEMILLA |
 | `ERR-GEO-LEAD-001` | mediciones de Pb sin control ultralimpio | blanco despreciable | laboratorios limpios, blancos y química de trazas | DOCUMENTADO |
@@ -76,6 +79,30 @@ La hipótesis cósmica se fortaleció con otras frecuencias, el espectro de cuer
 ### Lección
 
 Descartar explicaciones instrumentales es parte de la evidencia positiva. Una anomalía persistente no adquiere origen remoto hasta superar pruebas locales y hacer predicciones nuevas.
+
+## ERR-HADEAN-ZIRCON-ROCK-001 — Un cristal convertido en roca
+
+El zircon W74/2-36 conserva un dominio de `4404 ± 8 Ma`, pero hoy forma parte de un metasedimento mucho más joven. La roca ígnea donde cristalizó fue erosionada y no está disponible como afloramiento.
+
+### Corrección
+
+Nombrar siempre objeto y evento: “un dominio del zircon cristalizó”. No escribir “la roca de Jack Hills se formó hace 4.4 Ga” ni dibujar el grano como un continente preservado.
+
+## ERR-HADEAN-CONTINENT-001 — De magma félsico a continente moderno
+
+Un zircon puede exigir un magma evolucionado; Hf puede registrar retrabajo. Ninguna de esas señales mide área, espesor, elevación, estabilidad o movimiento de una placa.
+
+### Corrección
+
+Separar cuatro niveles: composición del fundido, cuerpo cortical, tierra emergida y placa duradera. La confianza debe disminuir al subir de escala si no aparecen datos nuevos.
+
+## ERR-HADEAN-MODELAGE-001 — Una intersección de reservorios tratada como cumpleaños
+
+Lu–Hf y Sm–Nd pueden fechar cristalización mediante una isócrona bien justificada o estimar cuándo una fuente se separó/retrabajó bajo un modelo. Herencia, mezcla y reseteo pueden conservar memoria más antigua que la roca.
+
+### Corrección
+
+Declarar si la cifra es edad de dominio mineral, pendiente isócrona, extracción modelo, metamorfismo o límite por corte. La precisión numérica no borra esa semántica.
 
 ## ERR-EARTH-HFW-STOPWATCH-001 — Una razón no imprime un final
 
