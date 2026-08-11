@@ -206,6 +206,20 @@ El mapa separa `S‑MIF` atmosférico, meteorización continental, plataforma so
 
 La cadena obliga a atravesar muestra, señal, proceso y reservorio antes del claim. Sus ramas muestran cuatro fallos distintos: alteración, memoria crustal, heterogeneidad marina y conversión modelada a concentración.
 
+## 17. Investigación 016 — LUCA
+
+![Portada conceptual de LUCA](assets/visuales/hero-luca.png)
+
+> **Portada conceptual:** conecta una población microbiana hipotética y gradientes hidrotermales con árboles, secuencias y proteínas actuales. No representa una célula conocida, un hábitat demostrado ni DNA ancestral recuperado.
+
+![Mapa de evidencia de LUCA](assets/visuales/mapa-investigacion-016.svg)
+
+El mapa divide la reconstrucción en núcleo robusto, arquitectura condicionada y retrato abierto. Hace visible que la confianza no pertenece a «LUCA» en bloque, sino a cada propiedad delimitada.
+
+![Cadena de un gen actual a LUCA](assets/visuales/de-gen-a-luca.svg)
+
+La cadena atraviesa homología, árbol del gen, reconciliación y función. Sus cinco puertas impiden convertir presencia moderna, HGT o anotación en biografía ancestral sin declarar el modelo.
+
 ## Procedencia
 
 El registro de creación, límites y prompt de cada pieza está en [`assets/visuales/README.md`](assets/visuales/README.md).

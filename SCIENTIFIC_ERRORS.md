@@ -79,6 +79,12 @@ El propósito no es presentar la ciencia como una sucesión de fracasos ni como 
 | `ERR-GOE-OCEAN-GLOBAL-001` | extender plataforma oxigenada a todo el océano | mezcla vertical instantánea | profundidad, transectos y proxies múltiples | DOCUMENTADO |
 | `ERR-GOE-GLACIATION-PROOF-001` | usar glaciación como prueba causal de `O₂` | coincidencia fija dirección | orden temporal y predicciones rivales | DOCUMENTADO |
 | `ERR-GOE-MODERN-001` | interpretar “Gran” como nivel moderno | importancia equivale a `21 %` | separar régimen, cota y amplitud | DOCUMENTADO |
+| `ERR-LUCA-FIRST-LIFE-001` | llamar a LUCA «la primera vida» | último ancestro y origen químico son el mismo evento | definición del nodo + historia pre‑LUCA | DOCUMENTADO |
+| `ERR-LUCA-SINGLE-CELL-001` | dibujar LUCA como una célula individual observada | nodo equivale a individuo y todos los genes coalescen juntos | población, intervalos y genealogías de genes | DOCUMENTADO |
+| `ERR-LUCA-PRESENT-SHARED-001` | contar todo gen compartido como ancestral | distribución presente implica herencia vertical | árboles, D/T/L y ortología | DOCUMENTADO |
+| `ERR-LUCA-RECOVERED-GENOME-001` | presentar una reconstrucción como genoma recuperado | probabilidad de familia equivale a secuencia física | declarar modelo, umbral y ausencia de bases/orden | DOCUMENTADO |
+| `ERR-LUCA-THREE-DOMAINS-001` | dibujar tres troncos celulares primarios equivalentes | Eukaryota diverge directamente de LUCA aparte de Archaea | filogenómica arqueana + endosimbiosis | DOCUMENTADO |
+| `ERR-LUCA-PORTRAIT-001` | convertir metabolismo/hábitat modelados en retrato | compatibilidad identifica fisiología, lugar y aspecto | separar familia, ruta, flujo, ambiente y confianza | DOCUMENTADO |
 | `ERR-LUNAR-APOLLO-INDEPENDENT-001` | tratar sitios Apollo como testigos independientes | ejecta local y sin transporte global | cartografía, Th, geoquímica y escalado de Imbrium | DOCUMENTADO |
 | `ERR-IMPACT-MOON-EARTH-001` | convertir cronología lunar en esterilización terrestre | escala constante de tasa y efecto | dinámica, hidrocodes, atmósfera/océano y archivo terrestre | DOCUMENTADO |
 | `ERR-LUNAR-ABSENCE-001` | “sin fundido antiguo” = “sin impacto antiguo” | supervivencia uniforme hacia atrás | sesgo de preservación y evidencia positiva `4.22–4.33 Ga` | DOCUMENTADO |
@@ -720,3 +726,51 @@ La reorganización fue planetaria, pero las cotas defendibles de `pO₂` abarcan
 ### Corrección
 
 Separar importancia biogeoquímica de amplitud. Usar `PAL` con definición explícita y no traducir «oxigenado» como «moderno».
+
+## ERR-LUCA-FIRST-LIFE-001 — El último ancestro se volvió el primero
+
+LUCA es el ancestro común más reciente de los linajes celulares supervivientes. Su traducción compleja implica etapas anteriores; linajes tempranos pudieron extinguirse.
+
+### Corrección
+
+Definir el conjunto de descendientes y el nodo. Reservar «origen de la vida» para la transición prebiótica que la filogenia de supervivientes no observa.
+
+## ERR-LUCA-SINGLE-CELL-001 — Un punto del árbol se volvió individuo
+
+Los diagramas comprimen poblaciones y divergencias prolongadas en nodos. En microbios, cada gen puede tener un tiempo e historia de transferencia distintos.
+
+### Corrección
+
+Escribir «población ancestral» y distinguir coalescencia de genes, divergencia de poblaciones y aparición de rasgos. No ilustrar una célula como espécimen conocido.
+
+## ERR-LUCA-PRESENT-SHARED-001 — Distribución convertida en verticalidad
+
+Un gen presente hoy en Bacteria y Archaea puede ser ancestral, transferido, duplicado, reemplazado o perdido de forma diferencial.
+
+### Corrección
+
+Construir el árbol del gen, probar ortología y reconciliar duplicación/transferencia/pérdida con árboles alternativos. Reportar probabilidad, no sólo presencia.
+
+## ERR-LUCA-RECOVERED-GENOME-001 — Probabilidades convertidas en DNA
+
+Los inventarios de LUCA asignan familias y funciones bajo filtros o modelos. No recuperan bases, cromosomas, orden génico ni una muestra ancestral.
+
+### Corrección
+
+Nombrar «reconstrucción de contenido génico», publicar umbral y sensibilidad y separar número estimado de identidad de cada familia.
+
+## ERR-LUCA-THREE-DOMAINS-001 — Una clasificación histórica se volvió genealogía fija
+
+Reconocer tres dominios reveló Archaea, pero la evidencia posterior sitúa el componente informacional eucariota dentro del marco arqueano y añade una herencia mitocondrial bacteriana.
+
+### Corrección
+
+Para LUCA, dibujar la divergencia primaria `Bacteria | Archaea`; representar Eukaryota y endosimbiosis como historia posterior y reticulada.
+
+## ERR-LUCA-PORTRAIT-001 — Una ruta se volvió una chimenea
+
+Genes compatibles con `H₂`, Wood–Ljungdahl o estabilidad térmica no observan dirección de flujo, dieta obligada, temperatura ni localidad.
+
+### Corrección
+
+Separar presencia de familia, función ancestral, ruta completa, balance energético y ambiente. Etiquetar toda escena como síntesis conceptual y conservar alternativas visibles.
