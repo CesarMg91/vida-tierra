@@ -168,6 +168,18 @@ Este archivo es el índice canónico. La letra de confianza califica exactamente
 | `CLAIM-MULTI-COMPLEXITY-001` | Gran tamaño no equivale a complejidad; tejidos, transporte y coordinación permiten superar límites de difusión y conflicto. | A-SEM; B mecanismo | AUDITADO | `EVID-MULTI-PHYLOGENY-001`, `EVID-MULTI-OXYGEN-001` | `INV-LIFE-MULTI-001` |
 | `CLAIM-MULTI-OXYGEN-001` | Oxígeno puede habilitar o limitar cuerpos según metabolismo, difusión y ambiente; no fue un disparador universal demostrado. | B contexto; E disparador universal | AUDITADO | `EVID-MULTI-OXYGEN-001` | `INV-LIFE-MULTI-001` |
 | `CLAIM-MULTI-FOSSIL-001` | Franceville es candidato C-D; *Qingshania* fija multicelularidad eucariota probable a ~1.635 Ga y *Bangiomorpha* desarrollo diferenciado a 1.047 Ga, todos como mínimos condicionados. | B-D por caso | AUDITADO | `EVID-MULTI-FOSSIL-001` | `INV-LIFE-MULTI-001` |
+| `CLAIM-SNOWBALL-DEFINITION-001` | Depósito glacial, hielo tropical, episodio global, estado de albedo alto y océano sellado son afirmaciones diferentes. | A-SEM | AUDITADO | marco operacional + `EVID-SNOWBALL-SEDIMENT-001` | `INV-PROT-SNOWBALL-001` |
+| `CLAIM-SNOWBALL-TWO-EPISODES-001` | El Criogénico conserva dos episodios glaciales principales, Sturtiano y Marinoano, correlacionables entre paleocontinentes. | A-B | AUDITADO | `EVID-SNOWBALL-GEOCHRON-001`, `EVID-SNOWBALL-SEDIMENT-001` | `INV-PROT-SNOWBALL-001` |
+| `CLAIM-SNOWBALL-LOCAL-GLOBAL-001` | Facies prueban hielo local; edad, correlación y paleolatitud permiten inferir alcance casi global sin que un afloramiento observe el planeta. | B local; B-COND global | AUDITADO | `EVID-SNOWBALL-SEDIMENT-001`, `EVID-SNOWBALL-PALEOMAG-001` | `INV-PROT-SNOWBALL-001` |
+| `CLAIM-SNOWBALL-PALEOLATITUDE-001` | Varias sucesiones glaciales criogénicas se depositaron a latitudes tropicales bajo magnetizaciones primarias y campo axial-dipolar. | B por conjunto | AUDITADO | `EVID-SNOWBALL-PALEOMAG-001` | `INV-PROT-SNOWBALL-001` |
+| `CLAIM-SNOWBALL-OCEAN-COVER-001` | Hielo tropical y modelos apoyan un estado casi global, pero cobertura oceánica gruesa, completa y continua no está observada. | B-COND casi global; D hard | AUDITADO | `EVID-SNOWBALL-CLIMATE-001` | `INV-PROT-SNOWBALL-001` |
+| `CLAIM-SNOWBALL-DURATION-001` | Sturtiana duró ~56–58 Myr (`~717–659 Ma`) y Marinoana ~4 Myr (`~639–635.2 Ma`) bajo la geocronología actual. | B-COND | AUDITADO | `EVID-SNOWBALL-GEOCHRON-001` | `INV-PROT-SNOWBALL-001` |
+| `CLAIM-SNOWBALL-DYNAMICS-001` | Sedimentos y modelos permiten variabilidad orbital, agua local y hielo dinámico; ciclos Sturtianos nieve–invernadero son una hipótesis 2026, no consenso. | B dinámica; D-PROV ciclos | AUDITADO | `EVID-SNOWBALL-DYNAMICS-001` | `INV-PROT-SNOWBALL-001` |
+| `CLAIM-SNOWBALL-CAPS-001` | Carbonatos de capa registran reorganización posglacial extendida, pero su agua, alcalinidad y duración admiten mecanismos multietapa. | B cambio; D mecanismo único | AUDITADO | `EVID-SNOWBALL-CAPS-001` | `INV-PROT-SNOWBALL-001` |
+| `CLAIM-SNOWBALL-INITIATION-001` | Hielo–albedo hace viable entrada abrupta; Franklin, meteorización tropical y ruptura de Rodinia son candidatos condicionados, no una causa única. | B física; C-D disparador | AUDITADO | `EVID-SNOWBALL-INIT-001` | `INV-PROT-SNOWBALL-001` |
+| `CLAIM-SNOWBALL-DEGLACIATION-001` | Acumulación de `CO₂` probablemente contribuyó a la salida, cuyo umbral depende de nubes, albedo, polvo, presión, agua abierta y meteorización. | B-COND participación; D umbral | AUDITADO | `EVID-SNOWBALL-EXIT-001` | `INV-PROT-SNOWBALL-001` |
+| `CLAIM-SNOWBALL-REFUGIA-001` | Redox, nitrógeno y fósiles documentan hábitats/productividad locales durante hielo; no miden un océano abierto global. | B-COND | AUDITADO | `EVID-SNOWBALL-REFUGIA-001` | `INV-PROT-SNOWBALL-001` |
+| `CLAIM-SNOWBALL-EVOLUTION-001` | Snowball precedió cambios ediacáricos y pudo alterar nutrientes/nichos, pero no se ha aislado como causa de la radiación animal. | C mecanismos; E causa única | AUDITADO | `EVID-SNOWBALL-EVOLUTION-001` | `INV-PROT-SNOWBALL-001` |
 
 ## Fichas resumidas
 
@@ -935,6 +947,92 @@ Este archivo es el índice canónico. La letra de confianza califica exactamente
 - **Puente:** edad + singenicidad + células/morfología + afinidad producen mínimos por taxón.
 - **No afirma:** parentesco, aptitud colectiva ni fecha del primer origen.
 - **Confianza:** `C-D` Franceville/afinidades discutidas; `B-COND` *Qingshania* y mínimos posteriores.
+
+## Investigación 020 — Snowball Earth
+
+### CLAIM-SNOWBALL-DEFINITION-001
+
+- **Dato/definición:** facies, paleolatitud, sincronía, estado climático y cobertura oceánica responden preguntas de escalas distintas.
+- **Puente:** una cadena explícita impide que «Snowball» herede automáticamente la formulación más extrema.
+- **No afirma:** que la frontera entre hard, thin y waterbelt sea una etiqueta estratigráfica directa.
+- **Confianza:** `A-SEM`.
+
+### CLAIM-SNOWBALL-TWO-EPISODES-001
+
+- **Dato:** unidades glaciales y carbonatos asociados se agrupan en intervalos Sturtiano y Marinoano en varios paleocontinentes.
+- **Puente:** U–Pb/Re–Os y sucesión estratigráfica distinguen dos episodios separados por un intervalo no glacial.
+- **Límite:** cada avance local no fue necesariamente simultáneo.
+- **Confianza:** `A-B`.
+
+### CLAIM-SNOWBALL-LOCAL-GLOBAL-001
+
+- **Dato:** dropstones, estrías, till, deformación y facies marinas prueban procesos de hielo en cuencas concretas.
+- **Puente:** repetición coetánea + paleolatitud tropical + física de albedo amplían la escala.
+- **No afirma:** que una diamictita o cap individual observe cobertura global.
+- **Confianza:** `B` local; `B-COND` casi global.
+
+### CLAIM-SNOWBALL-PALEOLATITUDE-001
+
+- **Dato:** componentes magnéticos de unidades criogénicas devuelven inclinaciones bajas; evaporitas apoyan campo axial-dipolar/oblicuidad baja.
+- **Puente:** pruebas de pliegue/reversión y portador sostienen primariedad antes de convertir inclinación en latitud.
+- **Límite:** remagnetización y compactación se evalúan por formación.
+- **Confianza:** `B` por conjunto.
+
+### CLAIM-SNOWBALL-OCEAN-COVER-001
+
+- **Dato:** hielo continental alcanzó trópicos y modelos admiten estados estables de albedo alto.
+- **Puente:** balances radiativos y dinámica de hielo extrapolan entre sitios.
+- **No afirma:** hielo grueso, opaco y continuo sobre todo océano.
+- **Confianza:** `B-COND` casi global; `D` hard continuo.
+
+### CLAIM-SNOWBALL-DURATION-001
+
+- **Dato:** edades internas y de terminación acotan Sturtiana `~717–659 Ma` y Marinoana `~639–635.2 Ma`.
+- **Puente:** posición estratigráfica y correlación convierten edades de capas en límites de intervalo.
+- **Límite:** hiatos y asincronía de avances no están dentro del error analítico.
+- **Confianza:** `B-COND`.
+
+### CLAIM-SNOWBALL-DYNAMICS-001
+
+- **Dato:** ciclos sedimentarios, formaciones de hierro y varvas preservan variabilidad dentro de intervalos glaciales.
+- **Puente:** modelos orbitales reproducen oscilaciones; un modelo de carbono 2026 permite ciclos nieve–invernadero Sturtianos.
+- **No afirma:** que las capas registren 56 Myr continuos de alternancia global.
+- **Confianza:** `B` para dinámica; `D-PROV` para ciclos Sturtianos.
+
+### CLAIM-SNOWBALL-CAPS-001
+
+- **Dato:** carbonatos distintivos cubren muchas unidades glaciales Sturtianas/Marinoanas.
+- **Puente:** contacto, transgresión, isótopos y modelos conectan deshielo con mezcla y alcalinidad.
+- **No afirma:** una sola agua parental, tasa o mecanismo en todos los caps.
+- **Confianza:** `B` para reorganización; `D` para mecanismo único.
+
+### CLAIM-SNOWBALL-INITIATION-001
+
+- **Dato:** Franklin precede por ~`0.9–1.6 Myr` al inicio Sturtiano refinado; paleogeografía y basalto tropical alteran meteorización.
+- **Puente:** modelos acoplan consumo de `CO₂` con realimentación hielo–albedo.
+- **Límite:** coincidencia y capacidad no identifican causa histórica exclusiva; Marinoana difiere.
+- **Confianza:** `B` física; `C-D` disparador.
+
+### CLAIM-SNOWBALL-DEGLACIATION-001
+
+- **Dato:** volcanismo suministra `CO₂`; caps/proxies registran cambio posglacial, pero estimaciones y umbrales divergen.
+- **Puente:** balances de carbono y clima conectan gas, forzamiento y caída de albedo.
+- **Límite:** nubes, polvo, presión, meteorización y geometría cambian el umbral.
+- **Confianza:** `B-COND` participación; `D` valor/ruta exacta.
+
+### CLAIM-SNOWBALL-REFUGIA-001
+
+- **Dato:** Fe, Ce, N y fósiles documentan oásis oxigenados, productividad y macroalgas dentro de intervalos glaciales.
+- **Puente:** facies y posición estratigráfica sitúan hábitats cerca de líneas de apoyo o aguas costeras.
+- **No afirma:** área global, continuidad o un único tipo de refugio.
+- **Confianza:** `B-COND`.
+
+### CLAIM-SNOWBALL-EVOLUTION-001
+
+- **Dato:** glaciaciones preceden cambios ediacáricos y alteraron erosión, nutrientes, redox y hábitats.
+- **Puente:** modelos/ecología proponen selección, fertilización y apertura de nichos.
+- **No afirma:** que Snowball originara animales ni que toda innovación sea posglacial.
+- **Confianza:** `C` para mecanismos posibles; `E` para causa única.
 
 ## Claims futuros
 

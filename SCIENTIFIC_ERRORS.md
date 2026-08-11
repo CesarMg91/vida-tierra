@@ -112,6 +112,15 @@ El propósito no es presentar la ciencia como una sucesión de fracasos ni como 
 | `ERR-MULTI-OXYGEN-TRIGGER-001` | oxígeno convertido en interruptor universal | contexto ambiental equivale a causa de cada origen | mecanismo y cronología por linaje | DOCUMENTADO |
 | `ERR-MULTI-FOSSIL-BIRTH-001` | primer fósil convertido en nacimiento | aparición preservada coincide con innovación | mínimo condicionado + afinidad explícita | DOCUMENTADO |
 | `ERR-MULTI-ANIMAL-TEMPLATE-001` | animales convertidos en plantilla universal | otros linajes son etapas incompletas | comparación funcional sin jerarquía zoológica | DOCUMENTADO |
+| `ERR-SNOWBALL-DIAMICTITE-001` | diamictita convertida automáticamente en glaciar | textura identifica agente | paquete de facies y deformación | DOCUMENTADO |
+| `ERR-SNOWBALL-MODERN-LATITUDE-001` | latitud moderna proyectada al Criogénico | continentes no se movieron | paleomagnetismo + tectónica + edad | DOCUMENTADO |
+| `ERR-SNOWBALL-ONE-OUTCROP-001` | un afloramiento convertido en planeta | depósito local prueba cobertura global | cadena local–sincronía–latitud–modelo | DOCUMENTADO |
+| `ERR-SNOWBALL-WHITE-BALL-001` | nombre convertido en océano sellado | Snowball tiene una sola geometría | nivel de cobertura y fase explícitos | DOCUMENTADO |
+| `ERR-SNOWBALL-TWO-IDENTICAL-001` | Sturtiana y Marinoana tratadas como copias | misma etiqueta implica duración/mecanismo iguales | cronologías y balances separados | DOCUMENTADO |
+| `ERR-SNOWBALL-CO2-STOPWATCH-001` | `CO₂` convertido en cronómetro directo | desgasificación y meteorización conocidas | balance, nubes, albedo y presión | DOCUMENTADO |
+| `ERR-SNOWBALL-CAP-INSTANT-001` | cap convertido en foto del deshielo | contacto abrupto implica depósito instantáneo/único | facies, etapas, agua y edad interna | DOCUMENTADO |
+| `ERR-SNOWBALL-LIFE-EXTINCT-001` | hielo global convertido en esterilización | océano medio representa todos los refugios | evidencia local de hábitats/productividad | DOCUMENTADO |
+| `ERR-SNOWBALL-ANIMALS-001` | Snowball convertido en creador de animales | sucesión temporal demuestra causalidad | mecanismos y cronologías rivales | DOCUMENTADO |
 | `ERR-LUNAR-APOLLO-INDEPENDENT-001` | tratar sitios Apollo como testigos independientes | ejecta local y sin transporte global | cartografía, Th, geoquímica y escalado de Imbrium | DOCUMENTADO |
 | `ERR-IMPACT-MOON-EARTH-001` | convertir cronología lunar en esterilización terrestre | escala constante de tasa y efecto | dinámica, hidrocodes, atmósfera/océano y archivo terrestre | DOCUMENTADO |
 | `ERR-LUNAR-ABSENCE-001` | “sin fundido antiguo” = “sin impacto antiguo” | supervivencia uniforme hacia atrás | sesgo de preservación y evidencia positiva `4.22–4.33 Ga` | DOCUMENTADO |
@@ -1017,3 +1026,75 @@ Tejidos y desarrollo embrionario describen una ruta. Algas, hongos, mixobacteria
 ### Corrección
 
 Comparar funciones equivalentes sin exigir anatomía animal y sin representar otros linajes como ensayos incompletos de Metazoa.
+
+## ERR-SNOWBALL-DIAMICTITE-001 — La textura ya tenía clima
+
+Un diamictita sólo describe clastos mal seleccionados en matriz. Flujos de escombros, tectónica o colapso submarino pueden parecerse al till.
+
+### Corrección
+
+Exigir dropstones con deformación, estrías, pavimentos, glacitectónica y arquitectura de facies; reportar alternativas.
+
+## ERR-SNOWBALL-MODERN-LATITUDE-001 — El mapa actual viajó al Criogénico
+
+Encontrar tillita hoy cerca del ecuador no prueba hielo tropical: los continentes se desplazaron cientos de millones de años.
+
+### Corrección
+
+Combinar edad de depósito, bloque tectónico y remanencia primaria; expresar paleolatitud con incertidumbre.
+
+## ERR-SNOWBALL-ONE-OUTCROP-001 — Un clasto congeló el planeta
+
+Un afloramiento prueba procesos en una cuenca. Globalidad añade correlación, paleogeografía y física del clima.
+
+### Corrección
+
+Mantener separadas las cinco escalas y no contar sitios del mismo bloque/calibración como réplicas planetarias.
+
+## ERR-SNOWBALL-WHITE-BALL-001 — El nombre se volvió fotografía
+
+Snowball puede significar hielo tropical/casi global sin resolver si hubo leads, hielo fino o cinturones de agua.
+
+### Corrección
+
+Nombrar `hard`, `thin ice`, `waterbelt` o fase dinámica y asignar confianza a la geometría exacta.
+
+## ERR-SNOWBALL-TWO-IDENTICAL-001 — Dos episodios se volvieron copias
+
+La Sturtiana duró ~56–58 Myr y la Marinoana ~4 Myr bajo el marco actual; su entrada, carbono y dinámica no tienen por qué coincidir.
+
+### Corrección
+
+Modelar y fechar cada episodio por separado antes de buscar un mecanismo común.
+
+## ERR-SNOWBALL-CO2-STOPWATCH-001 — El gas se volvió cronómetro
+
+Dividir un umbral supuesto por desgasificación moderna ignora meteorización subglacial/fondo marino, nubes, polvo, presión y albedo.
+
+### Corrección
+
+Declarar todos los flujos y parámetros; presentar una familia de tiempos/umbrales, no un valor observado.
+
+## ERR-SNOWBALL-CAP-INSTANT-001 — El contacto abrupto se volvió instante universal
+
+Un carbonato de capa puede comenzar tras deshielo y acumular etapas de mezcla/alkalinidad durante tiempos distintos.
+
+### Corrección
+
+Separar contacto, tasa, duración, agua parental y mecanismo mediante facies, isótopos, magnetismo y edades internas.
+
+## ERR-SNOWBALL-LIFE-EXTINCT-001 — Hielo global se volvió esterilización
+
+La vida atravesó ambos episodios y hay evidencia de productividad/oásis. El océano profundo anóxico no representa todos los márgenes y superficies.
+
+### Corrección
+
+Mapear refugios por facies, fase, luz, redox y metabolismo; no extrapolar un ambiente a la biosfera.
+
+## ERR-SNOWBALL-ANIMALS-001 — El deshielo creó animales
+
+La radiación ediacárica ocurrió después y pudo recibir nutrientes/nichos, pero varias raíces eucariotas y quizá animales anteceden a las glaciaciones.
+
+### Corrección
+
+Separar precedencia, mecanismo y predicción exclusiva; comparar oxígeno, tectónica, ecología y sesgo fósil.

@@ -20,3 +20,4 @@ Historia de cómo se reconstruyó la historia: creencias previas, evidencia disr
 - [`HISTORIA_017_EUCARIOGENESIS.md`](HISTORIA_017_EUCARIOGENESIS.md): de las semejanzas organelares y el DNA mitocondrial a Asgard, cultivos, criotomografía y filogenómica de dos genealogías integradas.
 - [`HISTORIA_018_SEXO.md`](HISTORIA_018_SEXO.md): de la fusión nuclear y reducción cromosómica a Spo11, fusógenos y la reconstrucción de un ciclo sexual anterior a LECA.
 - [`HISTORIA_019_MULTICELULARIDAD.md`](HISTORIA_019_MULTICELULARIDAD.md): de clasificar colonias y tejidos a filogenias, genomas comparados y evolución experimental de transiciones grupales repetidas.
+- [`HISTORIA_020_SNOWBALL_EARTH.md`](HISTORIA_020_SNOWBALL_EARTH.md): de diamictitas tropicales y la hipótesis de Kirschvink a geocronología de alta precisión, modelos climáticos competidores y refugios locales.

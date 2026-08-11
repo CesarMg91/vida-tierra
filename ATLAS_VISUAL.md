@@ -262,6 +262,20 @@ El mapa conserva separadas filogenias, modos de desarrollo, genómica comparada,
 
 La cadena distingue proximidad, grupo persistente, ciclo heredable, selección entre grupos e integración. Tamaño, número de células, individualidad y complejidad no se heredan automáticamente entre niveles.
 
+## 21. Investigación 020 — Snowball Earth
+
+![Portada conceptual de Snowball Earth](assets/visuales/hero-snowball-earth.png)
+
+> **Portada conceptual:** superpone hielo tropical, agua oscura ambigua, diamictita, estrías, carbonato de capa, paleomagnetismo, zircon y modelado como archivos distintos. No representa una fotografía planetaria, una cobertura oceánica completa ni una única ruta de salida.
+
+![Mapa de evidencia de Snowball Earth](assets/visuales/mapa-investigacion-020.svg)
+
+El mapa separa sedimentología, geocronología, paleomagnetismo, física climática, carbonatos de capa y refugios. La convergencia sostiene dos glaciaciones de escala global; el estado exacto de la superficie oceánica sigue dependiendo de modelos y extrapolaciones.
+
+![Cadena desde diamictita hasta un modelo Snowball](assets/visuales/de-diamictita-a-snowball.svg)
+
+La cadena impide saltar de una roca glacial local a un planeta completamente blanco. Cada transición —origen glacial, edad, paleolatitud, correlación y estado climático— necesita evidencia propia y conserva falsadores distintos.
+
 ## Procedencia
 
 El registro de creación, límites y prompt de cada pieza está en [`assets/visuales/README.md`](assets/visuales/README.md).
