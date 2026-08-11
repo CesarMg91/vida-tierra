@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1000" viewBox="0 0 1600 1000" role="img" aria-labelledby="title desc">
+  <title id="title">Mapa de evidencia de la Investigación 012 sobre impactos hadeanos</title>
+  <desc id="desc">Cuatro archivos convergen en bombardeo temprano intenso, pero procedencia, preservación y modelos impiden identificar un pico terminal único a 3.9 mil millones de años.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#07131d"/><stop offset="1" stop-color="#17131e"/></linearGradient>
+    <linearGradient id="core" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#d18a4e"/><stop offset=".52" stop-color="#b65c43"/><stop offset="1" stop-color="#8d72c4"/></linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%"><feDropShadow dx="0" dy="9" stdDeviation="11" flood-color="#000" flood-opacity=".36"/></filter>
+    <marker id="arrow" markerWidth="11" markerHeight="11" refX="9" refY="5.5" orient="auto"><path d="M0 0 L11 5.5 L0 11 Z" fill="#68c6d9"/></marker>
+    <style>
+      .k{font:600 22px Inter,Segoe UI,sans-serif;letter-spacing:4px;fill:#72ccde}.t{font:700 46px Inter,Segoe UI,sans-serif;fill:#f3eee6}.s{font:400 20px Inter,Segoe UI,sans-serif;fill:#a7b7c1}
+      .card{fill:#142631;stroke:#355364;stroke-width:2}.ct{font:700 23px Inter,Segoe UI,sans-serif;fill:#f2eee7}.m{font:700 21px Inter,Segoe UI,sans-serif;fill:#77d0e1}.b{font:400 17px Inter,Segoe UI,sans-serif;fill:#c0cbd1}.sm{font:400 16px Inter,Segoe UI,sans-serif;fill:#95a8b3}.warn{font:600 16px Inter,Segoe UI,sans-serif;fill:#e2a16b}.dark{font:700 24px Inter,Segoe UI,sans-serif;fill:#09141c}.tag{font:700 17px Inter,Segoe UI,sans-serif;fill:#09141c}
+    </style>
+  </defs>
+  <rect width="1600" height="1000" fill="url(#bg)"/><circle cx="1460" cy="92" r="260" fill="#51356e" opacity=".17"/><circle cx="95" cy="920" r="300" fill="#8e4723" opacity=".13"/>
+  <text class="k" x="80" y="68">INVESTIGACIÓN 012 · MAPA DE EVIDENCIA</text>
+  <text class="t" x="80" y="132">Una concentración de edades no es todavía un pico</text>
+  <text class="s" x="80" y="176">Cada archivo restringe una parte distinta: evento, procedencia, acumulación o población de proyectiles.</text>
+
+  <g filter="url(#shadow)">
+    <g transform="translate(70 225)"><rect class="card" width="345" height="238" rx="22"/><rect width="345" height="11" rx="6" fill="#d68e50"/><text class="ct" x="24" y="56">Edades agrupadas</text><text class="m" x="24" y="94">Apollo · 3.85–4.00 Ga</text><text class="b" x="24" y="130">Perturbación y fundidos reales</text><text class="b" x="24" y="158">en una colección seleccionada</text><text class="warn" x="24" y="202">No cuentan proyectiles</text></g>
+    <g transform="translate(440 225)"><rect class="card" width="345" height="238" rx="22"/><rect width="345" height="11" rx="6" fill="#aa6750"/><text class="ct" x="24" y="56">Procedencia Imbrium</text><text class="m" x="24" y="94">Ejecta en sitios Apollo</text><text class="b" x="24" y="130">Un evento puede aparecer</text><text class="b" x="24" y="158">en muchas brechas y lugares</text><text class="warn" x="24" y="202">Independencia parcial</text></g>
+    <g transform="translate(810 225)"><rect class="card" width="345" height="238" rx="22"/><rect width="345" height="11" rx="6" fill="#9b75c8"/><text class="ct" x="24" y="56">Anclas más antiguas</text><text class="m" x="24" y="94">4.22 · 4.25 · 4.33 Ga</text><text class="b" x="24" y="130">Impactos/eventos grandes</text><text class="b" x="24" y="158">anteriores a la ventana tardía</text><text class="warn" x="24" y="202">SPA aún disputada</text></g>
+    <g transform="translate(1180 225)"><rect class="card" width="350" height="238" rx="22"/><rect width="350" height="11" rx="6" fill="#d2b75b"/><text class="ct" x="24" y="56">Cráteres y dinámica</text><text class="m" x="24" y="94">Acumulación + modelos</text><text class="b" x="24" y="130">Cola, repunte o mezcla</text><text class="b" x="24" y="158">según fuentes y anclas</text><text class="warn" x="24" y="202">Compatibilidad, no genealogía</text></g>
+  </g>
+
+  <g stroke="#68c6d9" stroke-width="4" fill="none" marker-end="url(#arrow)" opacity=".8"><path d="M242 480 C242 548 560 548 670 608"/><path d="M612 480 C612 540 700 555 742 608"/><path d="M982 480 C982 540 900 555 858 608"/><path d="M1355 480 C1355 548 1045 548 930 608"/></g>
+  <g filter="url(#shadow)"><rect x="455" y="598" width="690" height="145" rx="72" fill="url(#core)"/><text class="dark" x="800" y="654" text-anchor="middle">Bombardeo temprano intenso y prolongado</text><text class="dark" x="800" y="690" text-anchor="middle">histograma observado ≠ flujo instantáneo</text><rect x="748" y="709" width="104" height="32" rx="16" fill="#f7ead9"/><text class="tag" x="800" y="731" text-anchor="middle">B-COND</text></g>
+  <line x1="800" y1="756" x2="800" y2="803" stroke="#68c6d9" stroke-width="4" marker-end="url(#arrow)"/>
+
+  <g>
+    <rect x="70" y="818" width="455" height="122" rx="22" fill="#182b35" stroke="#477588" stroke-width="2"/><text class="ct" x="98" y="858">Cola de acreción</text><text class="sm" x="98" y="887">B-COND · fondo alto y decreciente</text><text class="sm" x="98" y="912">Borrado preferente del archivo antiguo</text>
+    <rect x="573" y="818" width="455" height="122" rx="22" fill="#2c2731" stroke="#725e82" stroke-width="2"/><text class="ct" x="601" y="858">Historia híbrida</text><text class="sm" x="601" y="887">C–D · repunte ancho sobre la cola</text><text class="sm" x="601" y="912">Fuente y amplitud aún abiertas</text>
+    <rect x="1075" y="818" width="455" height="122" rx="22" fill="#332326" stroke="#87575d" stroke-width="2"/><text class="ct" x="1103" y="858">Pico terminal único</text><text class="sm" x="1103" y="887">D · no exigido por las edades</text><text class="sm" x="1103" y="912">Evidencia positiva anterior a 4.0 Ga</text>
+  </g>
+</svg>

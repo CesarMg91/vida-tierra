@@ -91,7 +91,12 @@ Este archivo es el índice canónico. La letra de confianza califica exactamente
 | `CLAIM-HADEAN-NGB-001` | Intrusiones metagabroicas de Nuvvuagittuq produjeron isócronas `146Sm–142Nd` y `147Sm–143Nd` próximas a 4.16 Ga en el estudio de 2025. | B-PROV | AUDITADO | `EVID-HADEAN-NGB-001`, `EVID-HADEAN-NGB-LEGACY-001` | `INV-EARTH-AGE-001`, `INV-HADEAN-CRUST-001` |
 | `CLAIM-HADEAN-NGB-002` | Las rocas encajantes cortadas por esas intrusiones son anteriores al evento de ~4.16 Ga si el contacto es intrusivo; esto es un límite local, no una edad exacta de todo el cinturón. | C-LOCAL | AUDITADO | `EVID-HADEAN-NGB-001`, `EVID-HADEAN-NGB-DETRITAL-001` | `INV-EARTH-AGE-001`, `INV-HADEAN-CRUST-001` |
 | `CLAIM-HADEAN-CRUST-DIVERSITY-001` | Poblaciones de zircon de Jack Hills y Barberton son compatibles con estilos corticales contemporáneos distintos; no se justifica imponer un único régimen geodinámico global al Hadeano. | C | AUDITADO | `EVID-HADEAN-ZIRCON-DIVERSITY-001` | `INV-HADEAN-CRUST-001` |
-| `CLAIM-HADEAN-LHB-001` | Hubo una intensificación global, breve y única de impactos cerca de 3.9 Ga. | D | TRAZADO | `EVID-HADEAN-LUNAR-IMPACT-001` | `INV-EARTH-AGE-001` |
+| `CLAIM-HADEAN-BOMBARDMENT-001` | La Luna y el archivo terrestre posterior exigen un bombardeo temprano mucho más intenso que el actual y declinante en términos generales; la forma fina de la curva no es única. | B-COND | AUDITADO | `EVID-HADEAN-LUNAR-IMPACT-001`, `EVID-LUNAR-CRATER-STRAT-001`, `EVID-ARCHEAN-SPHERULE-001` | `INV-HADEAN-IMPACTS-001` |
+| `CLAIM-HADEAN-LHB-001` | Una intensificación global, breve y única cerca de 3.9 Ga no está establecida: edades agrupadas, cola decreciente y modelos híbridos son compatibles con subconjuntos del archivo. | D para pico único | AUDITADO | `EVID-LUNAR-AGECLUSTER-001`, `EVID-LUNAR-ARGON-BIAS-001`, `EVID-LUNAR-PRE39-BASIN-001` | `INV-EARTH-AGE-001`, `INV-HADEAN-IMPACTS-001` |
+| `CLAIM-LUNAR-BASINS-EARLY-001` | Fundidos de impacto a `4.22 Ga` y candidatos de South Pole–Aitken a `4.25` o `4.33 Ga` demuestran una época de grandes impactos anterior a 4.0 Ga; la edad exacta de SPA sigue abierta. | B-COND; B-PROV/C para SPA | AUDITADO | `EVID-LUNAR-PRE39-BASIN-001`, `EVID-LUNAR-SPA-001` | `INV-HADEAN-IMPACTS-001` |
+| `CLAIM-LUNAR-IMBRIUM-BIAS-001` | La procedencia de los sitios Apollo y la distribución de ejecta de Imbrium impiden tratar todas las edades `~3.9 Ga` como eventos geográficamente independientes. | B-COND | AUDITADO | `EVID-LUNAR-IMBRIUM-PROVENANCE-001`, `EVID-LUNAR-AGECLUSTER-001` | `INV-HADEAN-IMPACTS-001` |
+| `CLAIM-HADEAN-IMPACT-EARTH-001` | La Tierra debió recibir más impactos integrados que la Luna para una población común, pero su cronología, energía y efectos no se obtienen multiplicando el registro lunar por una constante. | B-COND para más impactos; D-E para curva/efectos | AUDITADO | `EVID-IMPACT-DYNAMICS-001`, `EVID-ARCHEAN-SPHERULE-001` | `INV-HADEAN-IMPACTS-001` |
+| `CLAIM-HADEAN-IMPACT-SURVIVAL-001` | La supervivencia de zircones y señales de agua hadeanas es compatible con impactos extremos pero exige heterogeneidad espacial o temporal; no favorece esterilización global continua de todos los reservorios. | C | AUDITADO | `EVID-LUNAR-CRATER-STRAT-001`, `EVID-HADEAN-JH-ZIRCON-001`, `EVID-HADEAN-HYDRO-MODEL-001` | `INV-HADEAN-WATER-001`, `INV-HADEAN-IMPACTS-001` |
 
 ## Fichas resumidas
 
@@ -408,6 +413,27 @@ Este archivo es el índice canónico. La letra de confianza califica exactamente
 - **Condiciones:** equilibrio fluido–aire, solubilidades, presión de emplazamiento, elevación y preservación.
 - **No afirma:** presión hadeana ni una continuidad de cientos de millones de años.
 - **Confianza:** B-COND para la cota en cada época; E para copiarla al Hadeano.
+
+### CLAIM-HADEAN-BOMBARDMENT-001 / LHB-001
+
+- **Dato:** cuencas, cráteres, fundidos y esférulas exigen una tasa temprana elevada; las edades recuperadas se concentran parcialmente cerca de Imbrium.
+- **Puente:** convertir esos archivos en flujo requiere procedencia, supervivencia, respuesta isotópica y función de producción.
+- **Límite:** una época intensa no demuestra una única subida global estrecha.
+- **Confianza:** B-COND para intensidad/declive general; D para el pico terminal único.
+
+### CLAIM-LUNAR-BASINS-EARLY-001 / IMBRIUM-BIAS-001
+
+- **Dato:** 67955 registra un fundido de escala de cuenca a `4.22 ± 0.01 Ga`; candidatos SPA registran `4.25` o `4.32–4.33 Ga`; Apollo muestreó ejecta de Imbrium.
+- **Condiciones:** minerales deben pertenecer al fundido, y composición/cartografía deben identificar su cuenca.
+- **No afirma:** que cada edad antigua sea SPA ni que toda brecha `~3.9 Ga` sea Imbrium.
+- **Confianza:** B-COND para cuencas anteriores a 4.0 Ga y sesgo de procedencia; edad de SPA B-PROV/C según ruta.
+
+### CLAIM-HADEAN-IMPACT-EARTH-001 / SURVIVAL-001
+
+- **Dato:** escala gravitacional Tierra–Luna, esférulas arqueanas y supervivencia de archivos minerales/acuosos.
+- **Puente:** población de proyectiles, velocidad, atmósfera, océano, corteza y refugios.
+- **No afirma:** una curva de esterilización ni océanos globalmente vaporizados en cada evento.
+- **Confianza:** B-COND para más encuentros integrados; C para supervivencia heterogénea; D-E para efectos históricos exactos.
 
 ## Claims futuros
 

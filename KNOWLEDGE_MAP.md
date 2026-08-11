@@ -277,3 +277,19 @@ N/Ar + vesículas arqueanas → cotas posteriores de presión ──────
 ```
 
 Véase `INV-HADEAN-ATMOSPHERE-001` en `03_hadeano`, su mapa en `assets/visuales/mapa-investigacion-011.svg` y la cadena en `assets/visuales/de-magma-a-aire.svg`.
+
+La ruta específica del bombardeo hadeano es:
+
+```text
+edad isotópica + textura ─────────→ cierre, cristalización o reinicio ─┐
+composición + cartografía ────────→ procedencia y evento candidato ───┤
+cráteres + superposición ─────────→ orden y densidad acumulada ────────┤
+preservación + transporte ────────→ función de selección ──────────────┤
+dinámica de poblaciones ──────────→ familias de flujo compatibles ─────┘
+                                            ↓
+              bombardeo temprano intenso/declinante: B-COND
+              pico terminal único a ~3.9 Ga: D
+              curva y efectos exactos sobre la Tierra: D–E
+```
+
+Véase `INV-HADEAN-IMPACTS-001` en `03_hadeano`, su mapa en `assets/visuales/mapa-investigacion-012.svg` y la cadena en `assets/visuales/de-muestra-a-flujo-impactos.svg`.

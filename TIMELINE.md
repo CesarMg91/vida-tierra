@@ -52,7 +52,12 @@ Versión 0.2; corte de fuentes: **2026-08-10**. Ordena la investigación desde l
 | `TIME-EOARCHEAN-ANOXIA-001` | antes de ~3770 Ma | depósito de sulfuros con S-MIF bajo una atmósfera sin O₂ libre apreciable | edad/contexto sedimentario y preservación metamórfica; es posterior al Hadeano | 32S–33S–34S y petrología de Isua | `SRC-FARQUHAR-2000`, `SRC-PAPINEAU-2006` | B-COND para época; C-D hacia Hadeano | AUDITADO |
 | `TIME-ARCHEAN-XE-001` | ~3.3 Ga | inclusiones capturan Xe atmosférico aún distinto del moderno y desgasificación mantélica intensa | fecha del cuarzo/inclusión; mecanismo de escape y componente inicial modelados | Xe/Kr/Ar en inclusiones | `SRC-AVICE-2017` | B-COND | AUDITADO |
 | `TIME-ARCHEAN-PRESSURE-001` | 3.5–3.0 Ga y 2.7 Ga | límites de `pN₂` por inclusiones y de presión total por vesículas | dos épocas y variables; no se extrapolan al Hadeano | N–Ar y paleobarometría vesicular | `SRC-MARTY-2013`, `SRC-SOM-2016` | B-COND para época; E para Hadeano | AUDITADO |
-| `TIME-HADEAN-IMPACTS-001` | ~4.2–3.5 Ga | intervalo de bombardeo elevado con historia exacta discutida | fuerte sesgo de muestra; no asumir un pico único | fundidos lunares, cráteres, esférulas, modelos | `SRC-BOTTKE-2017`, `SRC-CHAPMAN-2007` | B para intensidad; D para pico | TRAZADO |
+| `TIME-LUNAR-EARLY-MAGMATIC-001` | 4.338–4.334 Ga | zircones Apollo registran un evento magmático breve compatible con gran lámina de impacto, quizá SPA | edad del zircon precisa; identidad de la cuenca modelada | U–Pb ID-TIMS, Hf y trazas | `SRC-BARBONI-2024` | B para evento; C para SPA | AUDITADO |
+| `TIME-LUNAR-SPA-001` | 4.32–4.33 Ga o `4247 ± 5 Ma` | dos familias asignan edades distintas a South Pole–Aitken | meteorito sin sitio frente a clastos Chang’e‑6 retrabajados; no promediar | U–Pb/Pb–Pb, petrología, composición y cartografía | `SRC-JOY-2025`, `SRC-SU-2025` | B-PROV para 4.25; C para 4.33 | AUDITADO |
+| `TIME-LUNAR-BASIN-4220-001` | `4.22 ± 0.01 Ga` | cristalización de fundido lunar 67955 por impacto de escala de cuenca | cuenca no identificada y una sola roca | U–Pb en zirconolita/apatita + petrología | `SRC-NORMAN-NEMCHIN-2014` | B-COND | AUDITADO |
+| `TIME-LUNAR-IMBRIUM-001` | ~3.92–3.85 Ga | Imbrium y su ejecta dominan parte de la colección Apollo y el grupo tardío de edades | rango según cronómetro/procedencia; no equivale a pico global | U–Pb/Ar–Ar, geología y ejecta | `SRC-TERA-1974`, `SRC-HASKIN-1998` | B para evento; D para pico global | AUDITADO |
+| `TIME-HADEAN-IMPACTS-001` | ~4.4–3.8 Ga, con cola posterior | época prolongada de cuencas e impactos intensos; forma exacta discutida | preservación y muestra sesgadas; cola, repunte ancho e híbrido sobreviven | fundidos lunares, cráteres y modelos dinámicos | `SRC-MORBIDELLI-2012`, `SRC-NESVORNY-2023`, `SRC-BOTTKE-2017` | B-COND para intensidad; D para pico único | AUDITADO |
+| `TIME-ARCHEAN-SPHERULES-001` | 3.47–3.24 Ga | capas terrestres registran grandes impactos cuando el flujo seguía sobre el moderno | más joven que Hadeano; registro incompleto y tamaño modelado | estratigrafía, esférulas y escalado de ejecta | `SRC-JOHNSON-MELOSH-2012`, `SRC-BOTTKE-2012` | B para impactos; C para tasa | AUDITADO |
 
 ## II. Arcaico y Proterozoico
 
@@ -132,4 +137,4 @@ En esta sección una fecha arqueológica no demuestra por sí sola “propiedad�
 
 ## Próxima acción cronológica
 
-Las investigaciones extensas auditadas llegan de `INV-EARTH-AGE-001` a `INV-HADEAN-ATMOSPHERE-001`, con las piezas cósmicas, estelares, solares y planetarias intermedias. El siguiente trabajo cronológico es `INV-HADEAN-IMPACTS-001`; deberá separar pico tardío, cola decreciente, sesgo lunar y registro terrestre.
+Las investigaciones extensas auditadas llegan de `INV-EARTH-AGE-001` a `INV-HADEAN-IMPACTS-001`, con las piezas cósmicas, estelares, solares y planetarias intermedias. El siguiente trabajo cronológico es `INV-ARCHEAN-LIFE-001`; deberá separar biogenicidad, edad, contexto sedimentario y contaminación.

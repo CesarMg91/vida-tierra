@@ -53,6 +53,7 @@ La fase fundacional contiene:
 - la novena investigación: [`¿Qué conservan zircones, Acasta y Nuvvuagittuq de la primera corteza?`](02_formacion_tierra/INVESTIGACION_009_CORTEZA_HADEANA.md);
 - la décima investigación: [`¿Cuándo hubo agua líquida y qué significa la señal de oxígeno?`](03_hadeano/INVESTIGACION_010_AGUA_HADEANA.md);
 - la undécima investigación: [`¿Cómo se restringe una atmósfera sin muestras de aire?`](03_hadeano/INVESTIGACION_011_ATMOSFERA_HADEANA.md);
+- la duodécima investigación: [`¿Pico tardío, cola de acreción o modelo híbrido?`](03_hadeano/INVESTIGACION_012_IMPACTOS_HADEANOS.md);
 - un [`ATLAS_VISUAL.md`](ATLAS_VISUAL.md) con procedencia y límites explícitos.
 
 “Preliminar” significa que la cronología organiza el programa de trabajo; no convierte automáticamente cada fecha en una conclusión cerrada. Los estados de auditoría muestran qué ha sido investigado en profundidad y qué sigue pendiente.

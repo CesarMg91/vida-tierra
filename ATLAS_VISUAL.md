@@ -150,6 +150,20 @@ El mapa sitúa cada archivo junto a la variable que conserva. Los zircones se ac
 
 La cadena impide tres saltos: `fO₂` no es porcentaje de O₂, gas de equilibrio no es aire retenido y una cota arqueana no es una cota hadeana.
 
+## 13. Investigación 012 — Impactos hadeanos
+
+![Portada conceptual del bombardeo hadeano](assets/visuales/hero-impactos-hadeanos.png)
+
+> **Portada conceptual:** reúne Luna, Tierra, muestras, esférulas e instrumentación moderna. No muestra un evento concreto, no fija la edad de South Pole–Aitken y no representa una curva de flujo observada.
+
+![Mapa de evidencia del bombardeo hadeano](assets/visuales/mapa-investigacion-012.svg)
+
+El mapa distingue la señal tardía real de Apollo, el sesgo de Imbrium, las anclas anteriores a 4.0 Ga y el papel condicionado de cráteres/dinámica. Cola e historia híbrida sobreviven mejor que un pico terminal único.
+
+![Cadena de una muestra al flujo de impactos](assets/visuales/de-muestra-a-flujo-impactos.svg)
+
+La cadena impide cuatro atajos: una edad no cuenta un proyectil, el lugar de hallazgo no fija origen, un histograma no es flujo y un impacto lunar no equivale a esterilización terrestre.
+
 ## Procedencia
 
 El registro de creación, límites y prompt de cada pieza está en [`assets/visuales/README.md`](assets/visuales/README.md).

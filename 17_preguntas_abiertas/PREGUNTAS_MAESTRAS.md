@@ -48,6 +48,11 @@ La clasificación expresa cuánto restringe hoy la evidencia, no cuán interesan
 | `OPEN-HADEAN-ATMOSPHERE-PRESSURE-001` | ¿Qué presión total y parcial tenía el aire hadeano? | existen modelos y paleobarómetros arqueanos posteriores | no hay barómetro coetáneo ni continuidad demostrada | E para cifra exacta |
 | `OPEN-HADEAN-ATMOSPHERE-ESCAPE-001` | ¿Cuánto H y Xe se perdió bajo el Sol joven? | D/H y Xe arqueano exigen límites/evolución bajo modelos | componente inicial, EUV, acoplamiento y cronología degenerados | C-D |
 | `OPEN-HADEAN-ATMOSPHERE-O2-001` | ¿Cuánto se puede retroceder desde la anoxia de ~3.77 Ga? | S-MIF favorece muy poco O₂ en el Eoarcaico | el Hadeano carece de sedimentos atmosféricos continuos | C-D para continuidad |
+| `OPEN-HADEAN-IMPACT-FLUX-001` | ¿Cuál fue la forma del flujo entre 4.5 y 3.8 Ga? | fue intenso y declinó; hay cuencas anteriores a 4.0 Ga | borrado, reinicio, muestreo y anclas escasas | D para curva fina |
+| `OPEN-LUNAR-SPA-AGE-001` | ¿Se formó SPA a ~4.25 o ~4.33 Ga? | ambas edades pertenecen a materiales de impacto plausibles | asignación de meteorito/clastos a la lámina original | C-D |
+| `OPEN-LUNAR-IMBRIUM-PROVENANCE-001` | ¿Qué fracción de las brechas Apollo procede de Imbrium? | ejecta alcanzó sitios de tierras altas y domina familias Th-rich | mezcla, cuencas locales y procedencia individual | C-D |
+| `OPEN-IMPACT-SOURCE-001` | ¿Qué poblaciones produjeron cada fase del bombardeo? | remanentes, asteroides y quizá cometas son dinámicamente viables | poblaciones iniciales desaparecidas y firmas de proyectil escasas | D |
+| `OPEN-IMPACT-EARTH-EFFECTS-001` | ¿Qué impactos alteraron océano, atmósfera y habitabilidad terrestre? | la Tierra recibió más y hubo impactos grandes en el Arcaico | escalado lunar, archivo terrestre destruido y refugios | D-E |
 | `OPEN-LIFE-ORIGIN-001` | ¿Cómo comenzó exactamente la vida? | química, ambientes y mecanismos parciales plausibles | no hay archivo directo ni secuencia única | E para mecanismo histórico exacto |
 | `OPEN-LIFE-LOCATION-001` | ¿Dónde apareció la primera vida? | varios ambientes compatibles | biogenicidad/edad y movilidad temprana | E |
 | `OPEN-LIFE-MULTIPLE-001` | ¿Hubo múltiples orígenes independientes? | toda vida conocida comparte rasgos profundos | extinción temprana borra alternativas | E |
