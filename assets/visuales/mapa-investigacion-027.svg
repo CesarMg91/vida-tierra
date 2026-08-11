@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1120" viewBox="0 0 1600 1120" role="img" aria-labelledby="title desc">
+  <title id="title">Pérmico: cuatro archivos, cuatro límites</title>
+  <desc id="desc">Matriz que separa evidencia de Pangea, sinápsidos, cronología de extinción y mecanismos ambientales de conclusiones que esos archivos no demuestran.</desc>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0 0 10 5 0 10Z" fill="#9bd5c8"/></marker>
+    <style>
+      .bg{fill:#07191b}.title{fill:#f5ead7;font:700 42px system-ui,sans-serif}.sub{fill:#b8c9c8;font:20px system-ui,sans-serif}.head{fill:#f3ce83;font:700 20px system-ui,sans-serif;letter-spacing:1px}.box{stroke-width:1.4}.b1{fill:#183b36;stroke:#4e8876}.b2{fill:#243a40;stroke:#5d8b98}.b3{fill:#303142;stroke:#777492}.no{fill:#3c2922;stroke:#a86638}.h{fill:#f5ead7;font:700 21px system-ui,sans-serif}.t{fill:#c4d1ce;font:17px system-ui,sans-serif}.arrow{stroke:#9bd5c8;stroke-width:4;marker-end:url(#arrow)}.rule{fill:#0f2929;stroke:#b27c2e;stroke-width:2}.r1{fill:#ffcc69;font:700 19px system-ui,sans-serif}.r2{fill:#aebfbc;font:15px system-ui,sans-serif}
+    </style>
+  </defs>
+  <rect class="bg" width="1600" height="1120"/>
+  <circle cx="1450" cy="90" r="205" fill="#7e5526" opacity=".10"/><circle cx="175" cy="1055" r="240" fill="#2c7466" opacity=".10"/>
+  <text class="title" x="80" y="66">Pérmico: cuatro archivos, cuatro límites</text>
+  <text class="sub" x="80" y="101">Mapa, árbol y crisis sólo se sostienen por cadenas distintas.</text>
+  <text class="head" x="82" y="154">OBJETO</text><text class="head" x="423" y="154">MEDICIÓN</text><text class="head" x="808" y="154">RESULTADO PERMITIDO</text><text class="head" x="1204" y="154">NO DEMUESTRA</text>
+
+  <g transform="translate(64 178)">
+    <rect class="box b1" width="292" height="185" rx="18"/><text class="h" x="26" y="39">Suturas, polos, fósiles</text><text class="t" x="26" y="74">orógenos · procedencia</text><text class="t" x="26" y="102">dirección e inclinación</text><text class="t" x="26" y="130">facies · distribución</text>
+    <path class="arrow" d="M292 92H328"/><rect class="box b1" x="336" width="336" height="185" rx="18"/><text class="h" x="362" y="39">Reconstrucción conjunta</text><text class="t" x="362" y="74">primariedad magnética</text><text class="t" x="362" y="102">bloques + edad + rotación</text><text class="t" x="362" y="130">cinemática compatible</text>
+    <path class="arrow" d="M672 92H710"/><rect class="box b1" x="720" width="356" height="185" rx="18"/><text class="h" x="746" y="39">Pangea condicionada</text><text class="t" x="746" y="74">masa principal reunida</text><text class="t" x="746" y="102">terrenos y mares internos</text><text class="t" x="746" y="130">familias A/B explícitas</text>
+    <path class="arrow" d="M1076 92H1114"/><rect class="box no" x="1120" width="352" height="185" rx="18"/><text class="h" x="1146" y="39">Fotografía orbital</text><text class="t" x="1146" y="74">longitud GPS</text><text class="t" x="1146" y="102">una placa y un clima</text><text class="t" x="1146" y="130">movimiento sin modelo</text>
+  </g>
+
+  <g transform="translate(64 386)">
+    <rect class="box b2" width="292" height="185" rx="18"/><text class="h" x="26" y="39">Cráneos, húmeros, velas</text><text class="t" x="26" y="74">caracteres anatómicos</text><text class="t" x="26" y="102">forma 3D · histología</text><text class="t" x="26" y="130">edad y localidad</text>
+    <path class="arrow" d="M292 92H328"/><rect class="box b2" x="336" width="336" height="185" rx="18"/><text class="h" x="362" y="39">Árbol y función</text><text class="t" x="362" y="74">homología + matriz</text><text class="t" x="362" y="102">paisaje de rendimiento</text><text class="t" x="362" y="130">modelo térmico</text>
+    <path class="arrow" d="M672 92H710"/><rect class="box b2" x="720" width="356" height="185" rx="18"/><text class="h" x="746" y="39">Radiaciones en mosaico</text><text class="t" x="746" y="74">tallo mamaliano</text><text class="t" x="746" y="102">postura condicionada</text><text class="t" x="746" y="130">varias funciones posibles</text>
+    <path class="arrow" d="M1076 92H1114"/><rect class="box no" x="1120" width="352" height="185" rx="18"/><text class="h" x="1146" y="39">Escalera a mamífero</text><text class="t" x="1146" y="74">ancestro directo</text><text class="t" x="1146" y="102">marcha filmada</text><text class="t" x="1146" y="130">una función de la vela</text>
+  </g>
+
+  <g transform="translate(64 594)">
+    <rect class="box b3" width="292" height="185" rx="18"/><text class="h" x="26" y="39">Cenizas, magmas, rangos</text><text class="t" x="26" y="74">circones U–Pb</text><text class="t" x="26" y="102">lava · sill · fósiles</text><text class="t" x="26" y="130">capas y biozonas</text>
+    <path class="arrow" d="M292 92H328"/><rect class="box b3" x="336" width="336" height="185" rx="18"/><text class="h" x="362" y="39">Tres cronologías</text><text class="t" x="362" y="74">capa fechada</text><text class="t" x="362" y="102">horizonte de extinción</text><text class="t" x="362" y="130">fase de Traps</text>
+    <path class="arrow" d="M672 92H710"/><rect class="box b3" x="720" width="356" height="185" rx="18"/><text class="h" x="746" y="39">Coincidencia resoluble</text><text class="t" x="746" y="74">~61 ± 48 kyr marinos</text><text class="t" x="746" y="102">inicio de sills próximo</text><text class="t" x="746" y="130">magnitud con intervalo</text>
+    <path class="arrow" d="M1076 92H1114"/><rect class="box no" x="1120" width="352" height="185" rx="18"/><text class="h" x="1146" y="39">Un día y una capa</text><text class="t" x="1146" y="74">GSSP = toda muerte</text><text class="t" x="1146" y="102">96 % de toda la vida</text><text class="t" x="1146" y="130">tierra/mar simultáneos</text>
+  </g>
+
+  <g transform="translate(64 802)">
+    <rect class="box b2" width="292" height="185" rx="18"/><text class="h" x="26" y="39">Boro, C, U, Fe, polen</text><text class="t" x="26" y="74">pH · isótopos · redox</text><text class="t" x="26" y="102">UV absorbente</text><text class="t" x="26" y="130">selectividad fósil</text>
+    <path class="arrow" d="M292 92H328"/><rect class="box b2" x="336" width="336" height="185" rx="18"/><text class="h" x="362" y="39">Calibración + modelo</text><text class="t" x="362" y="74">carbonato y reservorio</text><text class="t" x="362" y="102">circulación + fisiología</text><text class="t" x="362" y="130">alteración y alternativas</text>
+    <path class="arrow" d="M672 92H710"/><rect class="box b2" x="720" width="356" height="185" rx="18"/><text class="h" x="746" y="39">Cadena multiestrés</text><text class="t" x="746" y="74">calor + acidificación</text><text class="t" x="746" y="102">hipoxia/euxinia regional</text><text class="t" x="746" y="130">UV y extremos posibles</text>
+    <path class="arrow" d="M1076 92H1114"/><rect class="box no" x="1120" width="352" height="185" rx="18"/><text class="h" x="1146" y="39">Un asesino universal</text><text class="t" x="1146" y="74">proxy = mortalidad</text><text class="t" x="1146" y="102">océano homogéneo</text><text class="t" x="1146" y="130">modelo = observación</text>
+  </g>
+
+  <rect class="rule" x="64" y="1020" width="1472" height="68" rx="18"/><text class="r1" x="800" y="1050" text-anchor="middle">REGLA: objeto + tiempo + escala + calibración + alternativa</text><text class="r2" x="800" y="1076" text-anchor="middle">Un polo, un hueso, una ceniza o un proxy no contienen por sí solos un planeta ni una causa.</text>
+</svg>

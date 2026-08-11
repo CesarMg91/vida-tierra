@@ -282,6 +282,31 @@ Este archivo es el índice canónico. La letra de confianza califica exactamente
 | `CLAIM-CARBONIFEROUS-AMNIOTE-TRACKS-001` | Huellas tournaisienses de Snowy Plains con cinco dígitos y garras se atribuyen a un amniota/saurópsido probable y adelantan el mínimo 35–40 Myr, condicionado a productor y edad. | B-COND | AUDITADO | `EVID-CARBONIFEROUS-AMNIOTE-TRACKS-001` | `INV-CARBONIFEROUS-001` |
 | `CLAIM-CARBONIFEROUS-AMNIOTE-BODIES-001` | `Hylonomus` conserva un cuerpo amniota corona bashkiriense temprano, mínimo corporal que no fija origen, lugar ni huevo. | B | AUDITADO | `EVID-CARBONIFEROUS-AMNIOTE-BODIES-001` | `INV-CARBONIFEROUS-001` |
 | `CLAIM-CARBONIFEROUS-RAINFOREST-TETRAPODS-001` | El recambio forestal fue real, pero endemismo y explosión de tetrápodos/amniotas no sobreviven como consecuencia simple al corregir muestreo y espacio. | B recambio; D causa simple | AUDITADO | `EVID-CARBONIFEROUS-TETRAPOD-DIVERSITY-001` | `INV-CARBONIFEROUS-001` |
+| `CLAIM-PERMIAN-SCOPE-001` | Límite, ensamblaje continental, clima, radiaciones sinápsidas y crisis bióticas usan archivos y relojes diferentes; el nombre Pérmico no los sincroniza. | A-SEM; B pluralidad | AUDITADO | conjunto `EVID-PERMIAN-*` | `INV-PERMIAN-001` |
+| `CLAIM-PERMIAN-BOUNDARY-001` | Aidaralash Creek fija la base mediante `Streptognathodus isolatus`; Meishan fija el techo por `Hindeodus parvus`, no por la mortalidad en sí. | A límites; B edades | AUDITADO | `EVID-PERMIAN-BOUNDARY-001` | `INV-PERMIAN-001` |
+| `CLAIM-PERMIAN-SUBDIVISIONS-001` | Cisuraliense, Guadalupiense y Lopingiense contienen nueve pisos cuyos GSSP y calibraciones siguen revisión institucional. | A arquitectura; B calibración | AUDITADO | `EVID-PERMIAN-SUBDIVISIONS-001` | `INV-PERMIAN-001` |
+| `CLAIM-PERMIAN-PANGEA-ASSEMBLY-001` | Pangea se ensambló mediante colisiones y suturas prolongadas; terrenos asiáticos y Cimmeria conservaron historias periféricas durante el Pérmico. | B | AUDITADO | `EVID-PERMIAN-PANGEA-SUTURES-001` | `INV-PERMIAN-001` |
+| `CLAIM-PERMIAN-PANGEA-EVIDENCE-001` | Suturas, procedencias, fósiles, paleomagnetismo y cinemática se combinan para reconstruir Pangea; ningún archivo entrega por sí solo un globo completo. | B | AUDITADO | `EVID-PERMIAN-PANGEA-SUTURES-001`, `EVID-PERMIAN-PANGEA-PALEOMAG-001` | `INV-PERMIAN-001` |
+| `CLAIM-PERMIAN-PANGEA-CONFIGURATION-001` | Las configuraciones A/B expresan incertidumbre real en longitud, inclinación y deformación; no ponen en duda el ensamblaje amplio. | C-D | AUDITADO | `EVID-PERMIAN-PANGEA-CONFIG-001` | `INV-PERMIAN-001` |
+| `CLAIM-PERMIAN-CLIMATE-MOSAIC-001` | Continentalidad, relieve, latitud, mares y `CO₂` produjeron interiores áridos, monzones y regiones húmedas, no un desierto planetario uniforme. | B | AUDITADO | `EVID-PERMIAN-CLIMATE-001` | `INV-PERMIAN-001` |
+| `CLAIM-PERMIAN-DEGLACIATION-001` | La Edad de Hielo del Paleozoico tardío menguó por pulsos durante el Pérmico y no terminó de golpe en su base. | B | AUDITADO | `EVID-PERMIAN-DEGLACIATION-001` | `INV-PERMIAN-001` |
+| `CLAIM-PERMIAN-SYNAPSID-DEFINITION-001` | Synapsida incluye a los mamíferos; fenestra y rasgos fósiles diagnostican linajes, pero la pertenencia moderna depende del árbol. | A-SEM; B diagnóstico | AUDITADO | `EVID-PERMIAN-SYNAPSID-PHYLO-001` | `INV-PERMIAN-001` |
+| `CLAIM-PERMIAN-PELYCOSAUR-001` | «Pelicosaurio» es un grado parafilético de sinápsidos tempranos, no un clado que pueda excluir Therapsida sin perder descendientes. | A-SEM; B topología | AUDITADO | `EVID-PERMIAN-SYNAPSID-PHYLO-001` | `INV-PERMIAN-001` |
+| `CLAIM-PERMIAN-DIMETRODON-001` | `Dimetrodon` fue un esfenacodóntido no mamífero, no dinosaurio ni ancestro humano directo demostrado. | A-B | AUDITADO | `EVID-PERMIAN-DIMETRODON-001` | `INV-PERMIAN-001` |
+| `CLAIM-PERMIAN-SAIL-001` | Histología y modelos permiten termorregulación, exhibición u otras funciones de la vela; no identifican una función dominante universal. | C-D | AUDITADO | `EVID-PERMIAN-SAIL-001` | `INV-PERMIAN-001` |
+| `CLAIM-PERMIAN-THERAPSIDS-001` | Un gorgonopsio temprano de Mallorca desplaza el mínimo y favorece una radiación terápsida inicial más amplia que el registro clásico Rusia–Karoo. | B-COND | AUDITADO | `EVID-PERMIAN-THERAPSIDS-001` | `INV-PERMIAN-001` |
+| `CLAIM-PERMIAN-LOCOMOTION-001` | Más de 200 taxones rechazan una marcha simple de extendido a erguido; la postura parasagital habitual surgió mucho después del Pérmico. | B-COND | AUDITADO | `EVID-PERMIAN-LOCOMOTION-001` | `INV-PERMIAN-001` |
+| `CLAIM-PERMIAN-CYNODONTS-001` | Los cinodontos pérmicos conocidos están fuera de Mammalia; rasgos mamalianos se ensamblaron en mosaico sobre una larga línea fantasma. | B-COND | AUDITADO | `EVID-PERMIAN-CYNODONTS-001` | `INV-PERMIAN-001` |
+| `CLAIM-PERMIAN-CAPITANIAN-001` | La crisis capitaniense fue separada de la terminal y se relaciona con Emeishan y anoxia, aunque su sincronía y extensión siguen abiertas. | B | AUDITADO | `EVID-PERMIAN-CAPITANIAN-001` | `INV-PERMIAN-001` |
+| `CLAIM-PERMIAN-EPME-TIMING-001` | La pérdida marina principal ocurrió entre `251.941 ± 0.037` y `251.880 ± 0.031 Ma`, unos `61 ± 48 kyr`, según un modelo de capas fechadas. | B-COND | AUDITADO | `EVID-PERMIAN-EPME-TIME-001` | `INV-PERMIAN-001` |
+| `CLAIM-PERMIAN-EPME-MAGNITUDE-001` | Un reanálisis estima cerca de `81 %` de especies marinas para el pulso terminal; `90–96 % de toda la vida` mezcla eventos, denominadores y archivos. | B ranking; C porcentaje | AUDITADO | `EVID-PERMIAN-EPME-MAGNITUDE-001` | `INV-PERMIAN-001` |
+| `CLAIM-PERMIAN-TRAPS-001` | El magmatismo siberiano abarcó antes/durante/después; el inicio de sills cerca de `251.907 ± 0.067 Ma` es un pulso causal fuerte, no una emisión medida. | A-B tiempo; B-COND causa | AUDITADO | `EVID-PERMIAN-TRAPS-TIME-001` | `INV-PERMIAN-001` |
+| `CLAIM-PERMIAN-CARBON-001` | Una inversión estima `~36,000 Gt C` en `~168 kyr` y picos `~5 Gt C/año`; son resultados condicionados por fuente, calibración y modelo. | C-COND | AUDITADO | `EVID-PERMIAN-CARBON-001` | `INV-PERMIAN-001` |
+| `CLAIM-PERMIAN-KILLCHAIN-001` | Volátiles, calentamiento, acidificación, pérdida de oxígeno, nutrientes y euxinia forman una cascada causal heterogénea hasta la mortalidad. | B mecanismos; C-D pesos | AUDITADO | `EVID-PERMIAN-ACIDIFICATION-001`, `EVID-PERMIAN-ANOXIA-PHYSIOLOGY-001` | `INV-PERMIAN-001` |
+| `CLAIM-PERMIAN-UVB-001` | Polen y experimentos apoyan estrés UV-B en secciones concretas, pero no miden un agujero de ozono global. | B local; C-D global | AUDITADO | `EVID-PERMIAN-UV-CLIMATE-001` | `INV-PERMIAN-001` |
+| `CLAIM-PERMIAN-MEGAELNINO-001` | Proxies y un modelo de 2024 permiten oscilaciones tipo mega-El Niño como amplificador; no sustituyen el forzamiento volcánico. | C-D-PROV | AUDITADO | `EVID-PERMIAN-UV-CLIMATE-001` | `INV-PERMIAN-001` |
+| `CLAIM-PERMIAN-TERRESTRIAL-TIMING-001` | Karoo y Cathaysia no entregan un horizonte terrestre mundial único; sincronía depende de región, variable y resolución. | C-D | AUDITADO | `EVID-PERMIAN-TERRESTRIAL-TIME-001` | `INV-PERMIAN-001` |
+| `CLAIM-PERMIAN-SURVIVAL-001` | Supervivencia y severidad cambian con taxón, hábitat, fisiología y métrica; no existe un censo equivalente para toda la biosfera. | B patrón; C magnitudes | AUDITADO | `EVID-PERMIAN-EPME-MAGNITUDE-001`, `EVID-PERMIAN-ANOXIA-PHYSIOLOGY-001` | `INV-PERMIAN-001` |
 
 ## Fichas resumidas
 
@@ -1859,6 +1884,183 @@ Este archivo es el índice canónico. La letra de confianza califica exactamente
 - **Puente:** controlar espacio y muestreo separa recambio floral real de una supuesta explosión automática de tetrápodos.
 - **Límite:** el archivo y los modelos espaciales siguen incompletos.
 - **Confianza:** `B` sesgo; `D` causa simple.
+
+## Investigación 027 — Pangea, sinápsidos y la extinción terminal del Pérmico
+
+### CLAIM-PERMIAN-SCOPE-001
+
+- **Dato/definición:** límites, placas, paleoclima, parentesco, crisis y mecanismos proceden de archivos con resoluciones distintas.
+- **Puente:** separarlos impide que el nombre del periodo funcione como reloj o causa universal.
+- **No afirma:** uniformidad temporal, espacial o biológica.
+- **Confianza:** `A-SEM`; `B` pluralidad.
+
+### CLAIM-PERMIAN-BOUNDARY-001
+
+- **Dato:** Aidaralash Creek y Meishan fijan base y techo mediante FAD de conodontos; ICS asigna `298.9 ± 0.15` y `251.902 ± 0.024 Ma`.
+- **Puente:** GSSP correlaciona un horizonte formal; las edades se calibran y la mortandad se identifica aparte.
+- **No afirma:** que los bioeventos sean perfectamente sincrónicos ni que la extinción defina el techo.
+- **Confianza:** `A` límites; `B` edades.
+
+### CLAIM-PERMIAN-SUBDIVISIONS-001
+
+- **Dato:** tres series contienen nueve pisos y la subcomisión publica GSSP ratificados, redefinidos y candidatos.
+- **Puente:** la arquitectura permite localizar episodios sin tratarlos como un Pérmico homogéneo.
+- **Límite:** calibraciones y estado institucional pueden cambiar.
+- **Confianza:** `A` arquitectura; `B` calibración.
+
+### CLAIM-PERMIAN-PANGEA-ASSEMBLY-001
+
+- **Dato:** suturas varisco–alleganianas y urálicas, terrenos asiáticos y apertura de Neotetis registran una secuencia prolongada.
+- **Puente:** edades, procedencias y cinemática enlazan colisiones hoy separadas.
+- **No afirma:** una placa única ni una fecha instantánea de «formación».
+- **Confianza:** `B`.
+
+### CLAIM-PERMIAN-PANGEA-EVIDENCE-001
+
+- **Dato:** orógenos, rocas, fósiles, polos paleomagnéticos y balances de placas restringen propiedades diferentes.
+- **Puente:** su intersección selecciona reconstrucciones físicamente compatibles.
+- **Límite:** longitud absoluta, deformación y bloques poco muestreados.
+- **Confianza:** `B`.
+
+### CLAIM-PERMIAN-PANGEA-CONFIGURATION-001
+
+- **Dato:** algunos polos apoyan Pangea B temprana y A tardía; otras correcciones reducen el desplazamiento requerido.
+- **Puente:** paleolatitud/orientación y continuidad tectónica permiten comparar las geometrías.
+- **No afirma:** dos supercontinentes observados ni duda sobre el ensamblaje amplio.
+- **Confianza:** `C-D`.
+
+### CLAIM-PERMIAN-CLIMATE-MOSAIC-001
+
+- **Dato:** modelos, facies y paleosuelos recuperan continentalidad, monzones, aridez interior y márgenes más húmedos.
+- **Puente:** relieve, latitud, mares, hielo y `CO₂` producen campos regionales distintos.
+- **No afirma:** un continente entero desértico.
+- **Confianza:** `B`.
+
+### CLAIM-PERMIAN-DEGLACIATION-001
+
+- **Dato:** depósitos glaciares y proxies registran avance/retiro de hielo gondwánico y deglaciación escalonada.
+- **Puente:** series regionales reemplazan una frontera climática instantánea.
+- **Límite:** duración y alcance varían con región y definición.
+- **Confianza:** `B`.
+
+### CLAIM-PERMIAN-SYNAPSID-DEFINITION-001
+
+- **Dato/definición:** Synapsida contiene al ancestro común del linaje y todos sus descendientes, incluidos mamíferos.
+- **Puente:** anatomía fósil se codifica en matrices que estiman esa pertenencia.
+- **No afirma:** que una fenestra aislada resuelva todo fósil.
+- **Confianza:** `A-SEM`; `B` diagnóstico.
+
+### CLAIM-PERMIAN-PELYCOSAUR-001
+
+- **Dato:** Therapsida emerge dentro del conjunto tradicional llamado Pelycosauria.
+- **Puente:** excluir al descendiente vuelve parafilética la caja histórica.
+- **Límite:** «pelicosaurio» conserva utilidad descriptiva si se declara grado.
+- **Confianza:** `A-SEM`; `B` topología.
+
+### CLAIM-PERMIAN-DIMETRODON-001
+
+- **Dato:** cráneo, dientes y postcráneo sitúan `Dimetrodon` entre esfenacodóntidos del tallo mamaliano.
+- **Puente:** el árbol lo separa de Dinosauria y no demuestra descendencia directa hacia humanos.
+- **No afirma:** fisiología o conducta mamaliana.
+- **Confianza:** `A-B`.
+
+### CLAIM-PERMIAN-SAIL-001
+
+- **Dato:** modelos estiman intercambio térmico y la histología muestra vascularización/crecimiento variables entre velas.
+- **Puente:** esas capacidades permiten hipótesis de termorregulación, exhibición o multifunción.
+- **No afirma:** conducta ni presión selectiva dominante.
+- **Confianza:** `C-D`.
+
+### CLAIM-PERMIAN-THERAPSIDS-001
+
+- **Dato:** un gorgonopsio temprano de Mallorca aparece ya profundamente anidado fuera del archivo clásico Rusia–Karoo.
+- **Puente:** edad y posición filogenética exigen una historia previa más larga y geográficamente amplia.
+- **Límite:** un mínimo regional no localiza el origen.
+- **Confianza:** `B-COND`.
+
+### CLAIM-PERMIAN-LOCOMOTION-001
+
+- **Dato:** morfometría 3D de húmeros y rasgos funcionales de más de 200 taxones recupera radiaciones posturales sucesivas.
+- **Puente:** paisajes funcionales contradicen una transición lineal única.
+- **Límite:** músculo, cintura, miembro posterior y conducta no se observan completos.
+- **Confianza:** `B-COND`.
+
+### CLAIM-PERMIAN-CYNODONTS-001
+
+- **Dato:** micro-CT y matrices sitúan cuerpos cinodontos tardopérmicos después de una larga divergencia inferida.
+- **Puente:** rasgos dentales, palatales y mandibulares se mapean por separado en el árbol.
+- **No afirma:** pelo, lactancia ni pertenencia a Mammalia por un carácter aislado.
+- **Confianza:** `B-COND`.
+
+### CLAIM-PERMIAN-CAPITANIAN-001
+
+- **Dato:** pérdidas marinas, basaltos de Emeishan, excursiones isotópicas y redox identifican una crisis anterior a la terminal.
+- **Puente:** estratigrafía separa eventos y evita sumar automáticamente sus porcentajes.
+- **Límite:** alcance global, pulsos y efecto terrestre.
+- **Confianza:** `B`.
+
+### CLAIM-PERMIAN-EPME-TIMING-001
+
+- **Dato:** circones CA-ID-TIMS y modelos edad–profundidad sitúan la fase principal en `~61 ± 48 kyr`.
+- **Puente:** cenizas fechadas transfieren tiempo a horizontes biológicos correlacionados.
+- **No afirma:** un día, una generación ni sincronía perfecta mundial.
+- **Confianza:** `B-COND`.
+
+### CLAIM-PERMIAN-EPME-MAGNITUDE-001
+
+- **Dato:** separación de fondo, agrupamiento, Signor–Lipps y crisis capitaniense produce `~81 %` de especies marinas terminales.
+- **Puente:** declarar denominador/método conserva el ranking sin inflar la biosfera completa.
+- **Límite:** no es censo y no se transfiere a tierra, microbios, plantas u hongos.
+- **Confianza:** `B` ranking; `C` porcentaje.
+
+### CLAIM-PERMIAN-TRAPS-001
+
+- **Dato:** U–Pb fecha magmatismo antes/durante/después y el inicio de grandes sills cerca de `251.907 ± 0.067 Ma`.
+- **Puente:** intrusiones en sedimentos ricos en volátiles conectan sincronía con mecanismo de emisión.
+- **Límite:** composición y flujo temporal de gases no se midieron directamente.
+- **Confianza:** `A-B` tiempo; `B-COND` causa.
+
+### CLAIM-PERMIAN-CARBON-001
+
+- **Dato:** una inversión conjunta estima `~36,000 Gt C`, `~168 kyr` y máximos `~5 Gt C/año`.
+- **Puente:** isótopos, pH y temperatura restringen el carbono requerido bajo una familia de modelos.
+- **No afirma:** conteo directo de chimeneas ni fuente isotópica única.
+- **Confianza:** `C-COND`.
+
+### CLAIM-PERMIAN-KILLCHAIN-001
+
+- **Dato:** boro, P/Fe, redox, temperatura y selectividad fisiológica sostienen acidificación, desoxigenación y estrés térmico.
+- **Puente:** ordenar volátiles → carbono/clima → océano/hábitat → mortalidad conecta desencadenante y selección.
+- **Límite:** mecanismos covarían y sus pesos cambian por región/taxón.
+- **Confianza:** `B` mecanismos; `C-D` pesos.
+
+### CLAIM-PERMIAN-UVB-001
+
+- **Dato:** malformaciones, compuestos absorbentes y experimentos muestran daño compatible con UV-B elevado.
+- **Puente:** respuesta vegetal y química del polen restringen exposición en secciones concretas.
+- **No afirma:** ozono o dosis planetaria medidos.
+- **Confianza:** `B` local; `C-D` global.
+
+### CLAIM-PERMIAN-MEGAELNINO-001
+
+- **Dato:** isótopos, sedimentos y un modelo de 2024 recuperan oscilaciones climáticas extremas tipo ENSO.
+- **Puente:** la dinámica ofrece una ruta para amplificar calor, sequía e incendios bajo forzamiento volcánico.
+- **Límite:** geografía, parámetros y analogía con ENSO moderno.
+- **Confianza:** `C-D-PROV`.
+
+### CLAIM-PERMIAN-TERRESTRIAL-TIMING-001
+
+- **Dato:** Karoo favorece proximidad tierra–mar; tobas de Cathaysia sitúan el colapso forestal después del inicio marino.
+- **Puente:** comparar variable, región y resolución permite diacronía sin contradicción automática.
+- **No afirma:** una línea terrestre mundial única.
+- **Confianza:** `C-D`.
+
+### CLAIM-PERMIAN-SURVIVAL-001
+
+- **Dato:** pérdidas y supervivientes cambian entre clados, latitudes, hábitats y métricas.
+- **Puente:** fisiología y exposición explican selectividad mejor que una fracción de «toda la vida».
+- **Límite:** abundancia y linajes mal fosilizables no ofrecen censo global.
+- **Confianza:** `B` patrón; `C` magnitudes.
 
 ## Claims futuros
 

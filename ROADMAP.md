@@ -76,7 +76,7 @@ Una investigación pasa de `EN_DESARROLLO` a `AUDITADO` cuando:
 | 024 | `INV-SILURIAN-001` | [¿Cómo se recuperó la vida en el Silúrico y cuándo se ensamblaron ecosistemas terrestres?](06_paleozoico/INVESTIGACION_024_RECUPERACION_SILURICA.md) — **AUDITADO** |
 | 025 | `INV-DEVONIAN-001` | [¿Fue el Devónico la «edad de los peces» y cómo transformaron bosques y tetrápodos la Tierra?](06_paleozoico/INVESTIGACION_025_BOSQUES_PECES_TETRAPODOS.md) — **AUDITADO** |
 | 026 | `INV-CARBONIFEROUS-001` | [¿Por qué se acumuló tanto carbón en el Carbonífero y cómo se relacionaron oxígeno, incendios, gigantismo y amniotas?](06_paleozoico/INVESTIGACION_026_CARBON_OXIGENO_AMNIOTAS.md) — **AUDITADO** |
-| 027 | `INV-PERMIAN-001` | Pangea, sinápsidos y mayor extinción |
+| 027 | `INV-PERMIAN-001` | [¿Cómo se ensambló Pangea, qué eran los sinápsidos y por qué la mayor extinción no tuvo una sola causa?](06_paleozoico/INVESTIGACION_027_PANGEA_SINAPSIDOS_EXTINCION.md) — **AUDITADO** |
 | 028 | `INV-TRIASSIC-001` | recuperación, dinosaurios y mamíferos tempranos |
 | 029 | `INV-JURASSIC-001` | aves, dinosaurios y tectónica |
 | 030 | `INV-CRETACEOUS-001` | flores, insectos, aves y mamíferos |
@@ -164,6 +164,7 @@ Después de disponer de la secuencia base:
 - `v0.1.23`: Investigación 024 + historia de recuperación/terrestrialización + mapa de cuatro relojes y cadena aparición–ecosistema.
 - `v0.1.24`: Investigación 025 + historia de bosques/peces/tetrápodos + mapa de seis relojes y cadenas fósil–bosque, aleta–tierra y señal–causa.
 - `v0.1.25`: Investigación 026 + historia de carbón/oxígeno/amniotas + mapa de cuatro archivos y cadenas turba–carbón y huella–amniota.
+- `v0.1.26`: Investigación 027 + historia de Pangea/sinápsidos/extinción + mapa de cuatro archivos y cadenas roca–Pangea y magma–extinción.
 - `v0.2`: Hadeano/Arcaico auditados.
 - `v0.3`: Proterozoico y origen/temprana evolución de la vida.
 - `v0.4`: Fanerozoico completo.
