@@ -617,3 +617,26 @@ rangos + selectividad ────────────> extinción y supervi
 La arquitectura conserva ocho relojes: límites, riqueza, función/red, clima, radiación arcosauria, origen dinosauriano, caracteres mamaliaformes y crisis terminal. `Nyasasaurus`, Guiyang o `Brasilodon` pueden cambiar una rama sin imponer por sí solos una fecha global.
 
 Véase `INV-TRIASSIC-001` en `07_mesozoico`, su mapa en `assets/visuales/mapa-investigacion-028.svg` y la doble cadena en `assets/visuales/de-fosil-a-nodo-y-de-camp-a-recambio.svg`.
+
+### Investigación 029 — Pangea, dinosaurios, avialanos y mamaliaformes jurásicos
+
+```text
+falla/cuenca + margen restaurado ─────> extensión y ruptura ───────────┐
+anomalía + zona de fractura ──────────> fondo oceánico ────────────────┼──> fragmentación diacrónica
+polo + circuito de placas ────────────> posición/rotación ─────────────┘
+                                             └── rift no equivale a océano
+
+C/U–Pb + magma/sill ──────────────────> fuente y tiempo ───────────────┐
+Mo/U + modelo de caja ────────────────> fracción anóxica/euxínica ─────┼──> evento toarciense
+ocurrencia + rasgo + red ─────────────> cascada y recuperación ────────┘
+                                             └── lutita no equivale al océano entero
+
+pluma/ala/cola + CT ──────────────────> carácter/capacidad ────────────┐
+matriz + definición ──────────────────> nodo avialano ─────────────────┼──> mosaico, no escalera
+esqueleto/patagio/diente/cemento ─────> nicho/crecimiento mamaliaforme ┘
+                                             └── tallo no equivale a corona
+```
+
+La arquitectura conserva ocho relojes: base/techo, rifting, expansión oceánica, T-OAE, radiación dinosauriana, gigantismo saurópodo, mosaico avialano y radiación mamaliaforme. La publicación de `Zhengheornis` en julio de 2026 muestra que una nueva cola fósil puede cambiar el orden de caracteres sin reescribir la tectónica, el redox o la corona aviana.
+
+Véase `INV-JURASSIC-001` en `07_mesozoico`, su mapa en `assets/visuales/mapa-investigacion-029.svg` y la doble cadena en `assets/visuales/de-rift-a-oceano-y-de-pluma-a-vuelo.svg`.

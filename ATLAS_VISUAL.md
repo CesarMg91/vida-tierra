@@ -388,6 +388,20 @@ El mapa separa límites, métricas de recuperación, clima, árbol arcosaurio, a
 
 La doble cadena exige edad, anatomía, homología y árbol para asignar un nodo; y fase magmática, gases, forzamiento, exposición, selectividad y rangos corregidos para explicar el recambio.
 
+## 30. Investigación 029 — Jurásico en transición
+
+![Portada conceptual del Jurásico](assets/visuales/hero-jurasico-pangea-dinosaurios-avialanos-mamaliaformes.png)
+
+> **Portada conceptual:** separa rift/océano naciente, T-OAE, dinosaurios, fósiles avialanos y ecomorfologías mamaliaformes. No afirma coetaneidad, costa exacta, anoxia total, ancestros directos ni organismos modernos.
+
+![Mapa de evidencia del Jurásico](assets/visuales/mapa-investigacion-029.svg)
+
+El mapa conserva cinco rutas: tiempo/placas, T-OAE, dinosaurios, avialanos y mamaliaformes. Cada una declara su objeto, puente y salto prohibido.
+
+![Cadenas desde rift hasta océano y desde pluma hasta vuelo](assets/visuales/de-rift-a-oceano-y-de-pluma-a-vuelo.svg)
+
+La doble cadena muestra por qué una falla no es todavía fondo oceánico y por qué una impresión de pluma no es todavía conducta aérea ni ave corona.
+
 ## Procedencia
 
 El registro de creación, límites y prompt de cada pieza está en [`assets/visuales/README.md`](assets/visuales/README.md).
