@@ -396,3 +396,21 @@ Bangiomorpha + Re–Os ─────────→ mínimo fósil condicionad
 ```
 
 Véase `INV-LIFE-SEX-001` en `10_evolucion_vida`, su mapa en `assets/visuales/mapa-investigacion-018.svg` y la cadena en `assets/visuales/de-intercambio-a-ciclo-sexual.svg`.
+
+La ruta específica de los orígenes de la multicelularidad es:
+
+```text
+filogenias amplias ──────────→ orígenes independientes por clado ───┐
+división / agregación ───────→ modo de formación y parentesco ──────┤
+genomas + perturbaciones ────→ cooptación de módulos previos ───────┤
+ciclos y propágulos ─────────→ heredabilidad y aptitud grupales ────┤
+evolución experimental ──────→ rutas causalmente accesibles ────────┤
+fósiles + estratigrafía ─────→ edades mínimas condicionadas ────────┘
+                                           ↓
+                  orígenes repetidos: B
+                  clonalidad facilita integración: B-COND
+                  individuo y complejidad por caso: C-D
+                  primer origen y causa histórica: D-E
+```
+
+Véase `INV-LIFE-MULTI-001` en `10_evolucion_vida`, su mapa en `assets/visuales/mapa-investigacion-019.svg` y la cadena en `assets/visuales/de-celulas-a-individuo.svg`.

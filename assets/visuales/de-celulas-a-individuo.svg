@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Cadena desde células asociadas hasta un individuo multicelular</title>
+  <desc id="desc">Ocho etapas conceptuales separan asociación, formación, reproducción, herencia, selección, conflicto, diferenciación y complejidad; cuatro puertas previenen inferencias excesivas.</desc>
+  <defs>
+    <marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto"><path d="M0,0 L12,6 L0,12 Z" fill="#9fb4c7"/></marker>
+    <linearGradient id="bar" x1="0" x2="1"><stop stop-color="#55cbd1"/><stop offset="0.48" stop-color="#a892df"/><stop offset="1" stop-color="#f2a15f"/></linearGradient>
+    <filter id="shadow"><feDropShadow dx="0" dy="8" stdDeviation="7" flood-color="#02080d" flood-opacity="0.55"/></filter>
+  </defs>
+  <rect width="1600" height="900" fill="#0a1a27"/>
+  <text x="64" y="66" fill="#f1f4f7" font-family="Georgia,serif" font-size="40" font-weight="700">De células asociadas a un individuo multicelular</text>
+  <text x="64" y="101" fill="#aebdca" font-family="Segoe UI,sans-serif" font-size="18">La cadena es lógica, no una secuencia histórica universal; cada origen puede saltar, combinar o perder etapas.</text>
+  <rect x="64" y="139" width="1471" height="10" rx="5" fill="url(#bar)"/>
+
+  <g filter="url(#shadow)">
+    <rect x="54" y="198" width="160" height="150" rx="20" fill="#164753" stroke="#58ccd2" stroke-width="2"/>
+    <rect x="247" y="198" width="160" height="150" rx="20" fill="#1d465a" stroke="#73bad9" stroke-width="2"/>
+    <rect x="440" y="198" width="160" height="150" rx="20" fill="#31435e" stroke="#8fa5df" stroke-width="2"/>
+    <rect x="633" y="198" width="160" height="150" rx="20" fill="#453c5b" stroke="#ae95df" stroke-width="2"/>
+    <rect x="826" y="198" width="160" height="150" rx="20" fill="#563b58" stroke="#ca8ec8" stroke-width="2"/>
+    <rect x="1019" y="198" width="160" height="150" rx="20" fill="#633c4d" stroke="#df869d" stroke-width="2"/>
+    <rect x="1212" y="198" width="160" height="150" rx="20" fill="#6b443c" stroke="#e5957f" stroke-width="2"/>
+    <rect x="1405" y="198" width="140" height="150" rx="20" fill="#74492f" stroke="#efa15f" stroke-width="2"/>
+  </g>
+  <g stroke="#9fb4c7" stroke-width="4" marker-end="url(#arrow)">
+    <line x1="214" y1="273" x2="239" y2="273"/><line x1="407" y1="273" x2="432" y2="273"/><line x1="600" y1="273" x2="625" y2="273"/>
+    <line x1="793" y1="273" x2="818" y2="273"/><line x1="986" y1="273" x2="1011" y2="273"/><line x1="1179" y1="273" x2="1204" y2="273"/>
+    <line x1="1372" y1="273" x2="1397" y2="273"/>
+  </g>
+  <g font-family="Segoe UI,sans-serif" font-weight="700" font-size="16" fill="#f2f5f7">
+    <text x="78" y="247">Asociación</text><text x="271" y="247">Formación</text><text x="464" y="247">Propágulo</text><text x="657" y="247">Herencia</text>
+    <text x="850" y="247">Selección</text><text x="1043" y="247">Conflicto</text><text x="1236" y="247">Diferenciar</text><text x="1429" y="247">Complejidad</text>
+  </g>
+  <g font-family="Consolas,monospace" font-size="13" fill="#c0ced8">
+    <text x="78" y="283">coexistir o</text><text x="78" y="307">adherirse</text>
+    <text x="271" y="283">clonal,</text><text x="271" y="307">agregativa</text>
+    <text x="464" y="283">fragmento,</text><text x="464" y="307">espora, célula</text>
+    <text x="657" y="283">rasgo de grupo</text><text x="657" y="307">reaparece</text>
+    <text x="850" y="283">éxito entre</text><text x="850" y="307">grupos</text>
+    <text x="1043" y="283">parentesco,</text><text x="1043" y="307">policing</text>
+    <text x="1236" y="283">tareas y</text><text x="1236" y="307">estados</text>
+    <text x="1429" y="283">transporte</text><text x="1429" y="307">+ tejidos</text>
+  </g>
+
+  <text x="64" y="417" fill="#f1f4f7" font-family="Georgia,serif" font-size="20" font-weight="700">Puertas epistemológicas</text>
+  <g filter="url(#shadow)">
+    <rect x="64" y="449" width="340" height="118" rx="18" fill="#352c35" stroke="#df778b" stroke-width="2"/>
+    <rect x="430" y="449" width="340" height="118" rx="18" fill="#352c35" stroke="#df778b" stroke-width="2"/>
+    <rect x="796" y="449" width="340" height="118" rx="18" fill="#352c35" stroke="#df778b" stroke-width="2"/>
+    <rect x="1162" y="449" width="373" height="118" rx="18" fill="#352c35" stroke="#df778b" stroke-width="2"/>
+  </g>
+  <g font-family="Georgia,serif" font-size="17" font-weight="700" fill="#f3c5ad">
+    <text x="89" y="489">Colonia ≠ individuo</text><text x="455" y="489">Tamaño ≠ complejidad</text><text x="821" y="489">Gen ≠ transición</text><text x="1187" y="489">Experimento ≠ historia</text>
+  </g>
+  <g font-family="Consolas,monospace" font-size="13" fill="#c9bcc0">
+    <text x="89" y="522">falta probar ciclo, herencia</text><text x="89" y="544">y aptitud colectiva</text>
+    <text x="455" y="522">milímetros no prueban tipos</text><text x="455" y="544">celulares ni transporte</text>
+    <text x="821" y="522">adhesión predice capacidad;</text><text x="821" y="544">regulación coordina el ciclo</text>
+    <text x="1187" y="522">selección impuesta prueba ruta,</text><text x="1187" y="544">no causalidad proterozoica</text>
+  </g>
+
+  <g filter="url(#shadow)">
+    <rect x="64" y="625" width="715" height="164" rx="22" fill="#143f49" stroke="#55cbd1" stroke-width="2"/>
+    <rect x="820" y="625" width="715" height="164" rx="22" fill="#4a3931" stroke="#efa15f" stroke-width="2"/>
+  </g>
+  <text x="93" y="665" fill="#f1f4f7" font-family="Georgia,serif" font-size="19" font-weight="700">Lo que converge</text>
+  <text x="93" y="704" fill="#bfd1d6" font-family="Consolas,monospace" font-size="14">• filogenias separan múltiples ganancias y pérdidas</text>
+  <text x="93" y="735" fill="#bfd1d6" font-family="Consolas,monospace" font-size="14">• ciclos, parentesco y experimentos hacen medible al grupo</text>
+  <text x="93" y="766" fill="#bfd1d6" font-family="Consolas,monospace" font-size="14">• genomas muestran cooptación en linajes independientes</text>
+  <text x="849" y="665" fill="#f1f4f7" font-family="Georgia,serif" font-size="19" font-weight="700">Resultado delimitado</text>
+  <text x="849" y="704" fill="#d8c7bc" font-family="Consolas,monospace" font-size="14">Las células formaron individuos colectivos muchas veces.</text>
+  <text x="849" y="735" fill="#d8c7bc" font-family="Consolas,monospace" font-size="14">Complejidad alta fue más rara. Primer origen, conteo exacto,</text>
+  <text x="849" y="766" fill="#d8c7bc" font-family="Consolas,monospace" font-size="14">causas y secuencias permanecen condicionados.</text>
+  <text x="800" y="851" text-anchor="middle" fill="#aebdca" font-family="Consolas,monospace" font-size="16">Cadena conceptual: las ocho cajas no son peldaños obligatorios ni una cronología única.</text>
+</svg>

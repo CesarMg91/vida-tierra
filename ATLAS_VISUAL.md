@@ -248,6 +248,20 @@ El mapa conserva separadas seis rutas: bioquímica de Spo11/fusógenos, repertor
 
 La cadena exige distinguir transferencia, recombinación, compatibilidad, fusión, ploidía y meiosis. Evita llamar sexo a cualquier mezcla de DNA y separa el ciclo ancestral probable de la anisogamia derivada.
 
+## 20. Investigación 019 — Orígenes de la multicelularidad
+
+![Portada conceptual de los orígenes de la multicelularidad](assets/visuales/hero-multicelularidad.png)
+
+> **Portada conceptual:** reúne colonias clonales, agregados, filamentos, hifas, rosetas, fósiles y archivos moleculares como rutas distintas. No representa una escalera hacia animales, un primer organismo, una causa universal ni una escena histórica única.
+
+![Mapa de evidencia de la multicelularidad](assets/visuales/mapa-investigacion-019.svg)
+
+El mapa conserva separadas filogenias, modos de desarrollo, genómica comparada, ciclos grupales, evolución experimental y fósiles. El número de orígenes depende de qué rasgo se cuenta y de la definición de complejidad.
+
+![Cadena desde asociación celular hasta individuo multicelular](assets/visuales/de-celulas-a-individuo.svg)
+
+La cadena distingue proximidad, grupo persistente, ciclo heredable, selección entre grupos e integración. Tamaño, número de células, individualidad y complejidad no se heredan automáticamente entre niveles.
+
 ## Procedencia
 
 El registro de creación, límites y prompt de cada pieza está en [`assets/visuales/README.md`](assets/visuales/README.md).

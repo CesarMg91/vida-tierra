@@ -103,6 +103,15 @@ El propósito no es presentar la ciencia como una sucesión de fracasos ni como 
 | `ERR-SEX-ORIGIN-BENEFIT-001` | mantenimiento moderno convertido en causa de origen | ciclo integrado equivale a módulos nacientes | origen, estabilización y mantenimiento separados | DOCUMENTADO |
 | `ERR-SEX-MALE-FEMALE-001` | mating types convertidos en macho/hembra | compatibilidad implica anisogamia | términos definidos por tamaño/función de gameto | DOCUMENTADO |
 | `ERR-SEX-FOSSIL-BIRTH-001` | primer fósil sexual convertido en origen | preservación coincide con innovación | mínimo condicionado + cadena molecular separada | DOCUMENTADO |
+| `ERR-MULTI-COLONY-ORGANISM-001` | toda asociación convertida en organismo | proximidad implica reproducción y aptitud grupal | nivel y criterio operacional explícitos | DOCUMENTADO |
+| `ERR-MULTI-ONE-ORIGIN-001` | multicelularidad tratada como origen único | una palabra funcional implica homología completa | reconstrucción por clado, modo y componente | DOCUMENTADO |
+| `ERR-MULTI-LADDER-001` | colonias dibujadas como escalón hacia animales | evolución avanza hacia un destino | árbol de rutas independientes y linajes actuales | DOCUMENTADO |
+| `ERR-MULTI-GENE-001` | gen local convertido en interruptor universal | una mutación explica todas las transiciones | habilitación, cooptación y convergencia separadas | DOCUMENTADO |
+| `ERR-MULTI-LAB-HISTORY-001` | experimento convertido en repetición histórica | accesibilidad causal identifica el pasado | tratamiento, taxón y alcance declarados | DOCUMENTADO |
+| `ERR-MULTI-SIZE-COMPLEXITY-001` | tamaño convertido en complejidad | más células implican más integración | tipos, transporte, comunicación y ciclo medidos | DOCUMENTADO |
+| `ERR-MULTI-OXYGEN-TRIGGER-001` | oxígeno convertido en interruptor universal | contexto ambiental equivale a causa de cada origen | mecanismo y cronología por linaje | DOCUMENTADO |
+| `ERR-MULTI-FOSSIL-BIRTH-001` | primer fósil convertido en nacimiento | aparición preservada coincide con innovación | mínimo condicionado + afinidad explícita | DOCUMENTADO |
+| `ERR-MULTI-ANIMAL-TEMPLATE-001` | animales convertidos en plantilla universal | otros linajes son etapas incompletas | comparación funcional sin jerarquía zoológica | DOCUMENTADO |
 | `ERR-LUNAR-APOLLO-INDEPENDENT-001` | tratar sitios Apollo como testigos independientes | ejecta local y sin transporte global | cartografía, Th, geoquímica y escalado de Imbrium | DOCUMENTADO |
 | `ERR-IMPACT-MOON-EARTH-001` | convertir cronología lunar en esterilización terrestre | escala constante de tasa y efecto | dinámica, hidrocodes, atmósfera/océano y archivo terrestre | DOCUMENTADO |
 | `ERR-LUNAR-ABSENCE-001` | “sin fundido antiguo” = “sin impacto antiguo” | supervivencia uniforme hacia atrás | sesgo de preservación y evidencia positiva `4.22–4.33 Ga` | DOCUMENTADO |
@@ -936,3 +945,75 @@ Usar `+`, `−` u otros tipos cuando corresponda; reservar macho/hembra para pro
 ### Corrección
 
 Escribir «mínimo fósil condicionado», separar edad de roca y función, y mantener la reconstrucción molecular como una cadena independiente.
+
+## ERR-MULTI-COLONY-ORGANISM-001 — Toda asociación se llamó organismo
+
+Un biofilm, agregado o colonia puede cooperar sin tener reproducción grupal heredable ni aptitud colectiva desacoplada.
+
+### Corrección
+
+Declarar si se observa proximidad, adhesión, ciclo grupal, cuello de botella, división de trabajo o individualidad; no trasladar automáticamente una propiedad a las demás.
+
+## ERR-MULTI-ONE-ORIGIN-001 — Una palabra funcional se volvió una genealogía
+
+Animales, plantas, algas pardas, algas rojas, hongos y sistemas procariotas no heredaron una única arquitectura multicelular completa.
+
+### Corrección
+
+Reconstruir por clado y por componente; reservar homología para rasgos cuya ascendencia esté apoyada y contar orígenes bajo una definición explícita.
+
+## ERR-MULTI-LADDER-001 — La colonia se dibujó camino al animal
+
+Linajes unicelulares, coloniales y agregativos actuales no son peldaños detenidos hacia nosotros; poseen historias propias y pueden perder o ganar integración.
+
+### Corrección
+
+Usar árboles ramificados, parientes laterales y rutas independientes. Separar aumento de tamaño, individualidad y complejidad.
+
+## ERR-MULTI-GENE-001 — Una mutación local se volvió interruptor universal
+
+Cambiar `ACE2` basta para impedir separación madre–hija en levadura, pero otros clados construyen grupos con adhesión, matriz, filamentos o compartimentación distintas.
+
+### Corrección
+
+Describir qué paso habilita el gen en el organismo probado; integrar redes reguladoras, ecología y homología antes de generalizar.
+
+## ERR-MULTI-LAB-HISTORY-001 — El tubo de ensayo se volvió máquina del tiempo
+
+La selección por sedimentación o depredación demuestra que una transición es accesible bajo condiciones conocidas. No identifica la presión que actuó hace miles de millones de años.
+
+### Corrección
+
+Informar taxón, preadaptaciones, régimen, duración, réplicas y respuesta. Presentar el resultado como prueba de mecanismo o posibilidad, no como repetición histórica.
+
+## ERR-MULTI-SIZE-COMPLEXITY-001 — Más grande se volvió más complejo
+
+Un grupo macroscópico puede repetir un solo tipo celular; una estructura pequeña puede coordinar transporte, señalización y diferenciación.
+
+### Corrección
+
+Medir por separado tamaño, número de tipos, dependencia, geometría, comunicación, transporte, reproducción y control de conflicto.
+
+## ERR-MULTI-OXYGEN-TRIGGER-001 — El oxígeno encendió todos los linajes
+
+Disponibilidad de `O₂`, respiración, difusión y ecología pueden favorecer algunas expansiones, pero no existe coincidencia temporal ni requisito universal para todos los modos multicelulares.
+
+### Corrección
+
+Formular predicciones por clado y rasgo, incluir rutas anaerobias y no convertir sucesión temporal amplia en causalidad.
+
+## ERR-MULTI-FOSSIL-BIRTH-001 — La primera preservación se volvió nacimiento
+
+Franceville, *Qingshania*, *Bangiomorpha* o *Proterocladus* fijan apariciones bajo interpretaciones diferentes; ninguno observa el primer grupo multicelular.
+
+### Corrección
+
+Escribir `≥ edad mínima`, separar edad, biogenicidad, afinidad, nivel de organización y continuidad con coronas modernas.
+
+## ERR-MULTI-ANIMAL-TEMPLATE-001 — El animal se volvió medida universal
+
+Tejidos y desarrollo embrionario describen una ruta. Algas, hongos, mixobacterias y cianobacterias resuelven adhesión, cooperación y diferenciación con arquitecturas distintas.
+
+### Corrección
+
+Comparar funciones equivalentes sin exigir anatomía animal y sin representar otros linajes como ensayos incompletos de Metazoa.

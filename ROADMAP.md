@@ -63,7 +63,7 @@ Una investigación pasa de `EN_DESARROLLO` a `AUDITADO` cuando:
 | 016 | `INV-LIFE-LUCA-001` | [¿Qué se puede reconstruir de LUCA y qué no?](09_origen_vida/INVESTIGACION_016_LUCA.md) — **AUDITADO** |
 | 017 | `INV-LIFE-EUK-001` | [¿Cómo inferimos el origen de eucariotas y la endosimbiosis mitocondrial?](10_evolucion_vida/INVESTIGACION_017_EUCARIOGENESIS.md) — **AUDITADO** |
 | 018 | `INV-LIFE-SEX-001` | [¿Cómo inferimos el origen y la función evolutiva del sexo?](10_evolucion_vida/INVESTIGACION_018_SEXO.md) — **AUDITADO** |
-| 019 | `INV-LIFE-MULTI-001` | ¿Cuántas veces surgió multicelularidad? |
+| 019 | `INV-LIFE-MULTI-001` | [¿Cuántas veces surgió la multicelularidad y cuándo un grupo se volvió individuo?](10_evolucion_vida/INVESTIGACION_019_MULTICELULARIDAD.md) — **AUDITADO** |
 | 020 | `INV-PROT-SNOWBALL-001` | ¿La Tierra estuvo globalmente congelada? |
 | 021 | `INV-EDIACARA-001` | ¿Qué eran los organismos ediacáricos y cómo vivían? |
 
@@ -156,6 +156,7 @@ Después de disponer de la secuencia base:
 - `v0.1.15`: Investigación 016 + historia molecular de LUCA + mapa por capas y cadena gen–ancestro.
 - `v0.1.16`: Investigación 017 + historia de la endosimbiosis + mapa de dos genealogías y cadena simbiosis–orgánulo.
 - `v0.1.17`: Investigación 018 + historia de la citología sexual + mapa modular y cadena intercambio–ciclo sexual.
+- `v0.1.18`: Investigación 019 + historia del concepto de multicelularidad + mapa de orígenes independientes y cadena grupo–individuo.
 - `v0.2`: Hadeano/Arcaico auditados.
 - `v0.3`: Proterozoico y origen/temprana evolución de la vida.
 - `v0.4`: Fanerozoico completo.
