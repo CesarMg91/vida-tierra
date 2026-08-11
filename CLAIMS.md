@@ -132,6 +132,18 @@ Este archivo es el índice canónico. La letra de confianza califica exactamente
 | `CLAIM-LUCA-GENOME-001` | Un modelo probabilístico estima para LUCA un genoma de `2.49–2.99 Mb` y `2,451–2,855` proteínas; son extrapolaciones, no secuencia recuperada. | C-COND | AUDITADO | `EVID-LUCA-MOODY-RECON-001` | `INV-LIFE-LUCA-001` |
 | `CLAIM-LUCA-AGE-001` | Relojes de parálogos pre‑LUCA son compatibles con un nodo cercano a `4.2 Ga`, pero edad y precisión dependen de calibraciones, priors y modelos de tasa. | C-D | AUDITADO | `EVID-LUCA-MOODY-CLOCK-001`, `EVID-LUCA-BETTS-CLOCK-001` | `INV-LIFE-LUCA-001` |
 | `CLAIM-LUCA-ECOSYSTEM-001` | LUCA representa mejor una población dentro de un ecosistema preexistente que un individuo aislado en un planeta vacío. | B-SEM para población; C para ecosistema | AUDITADO | `EVID-LUCA-MOODY-RECON-001` + lógica poblacional | `INV-LIFE-LUCA-001` |
+| `CLAIM-EUK-TWO-DOMAIN-001` | La herencia nuclear informacional de Eukaryota deriva de Archaea; su herencia mitocondrial añade una rama bacteriana. | A-COND | AUDITADO | `EVID-EUK-ASGARD-PHYLO-001`, `EVID-EUK-MITO-PHYLO-001` | `INV-LIFE-EUK-001` |
+| `CLAIM-EUK-ASGARD-HOST-001` | Asgard contiene los parientes arqueanos conocidos más próximos de Eukaryota; la rama exacta sigue sensible a muestreo/modelo. | A-B amplia; C-D fina | AUDITADO | `EVID-EUK-ASGARD-PHYLO-001` | `INV-LIFE-EUK-001` |
+| `CLAIM-EUK-ASGARD-ESP-001` | Actina/profilina, ESCRT, ubiquitina y remodelado de membranas muestran que piezas de complejidad eucariota tienen raíces Asgard. | B | AUDITADO | `EVID-EUK-ASGARD-ESP-001`, `EVID-EUK-PROMETHEO-001` | `INV-LIFE-EUK-001` |
+| `CLAIM-EUK-MITO-ENDOSYMBIOSIS-001` | La mitocondria deriva de una bacteria Alpha-relacionada integrada por endosimbiosis; el donante exacto no está identificado. | A-COND; B-COND Alpha | AUDITADO | `EVID-EUK-MITO-PHYLO-001`, `EVID-EUK-MRO-001` | `INV-LIFE-EUK-001` |
+| `CLAIM-EUK-MITO-LECA-001` | LECA ya era mitocondriado; mitosomas, hidrogenosomas y pérdidas completas son estados derivados. | A-B | AUDITADO | `EVID-EUK-MRO-001`, `EVID-EUK-LECA-RECON-001` | `INV-LIFE-EUK-001` |
+| `CLAIM-EUK-LECA-COMPLEX-001` | LECA poseía núcleo, endomembranas, citoesqueleto, ciclo celular y otros sistemas eucariotas complejos. | A-B por sistema | AUDITADO | `EVID-EUK-LECA-RECON-001` | `INV-LIFE-EUK-001` |
+| `CLAIM-EUK-GENE-MOSAIC-001` | El repertorio reconstruido de LECA combina ascendencia Asgard, Alpha y otras transferencias; los porcentajes dependen del método. | B para mosaico; C-D para fracciones | AUDITADO | `EVID-EUK-ANCESTRY-TOBIASSON-001`, `EVID-EUK-ANCESTRY-BERNABEU-001` | `INV-LIFE-EUK-001` |
+| `CLAIM-EUK-SEQUENCE-001` | Duplicaciones fechadas favorecen que parte sustancial de la complejidad del huésped precediera a la adquisición mitocondrial. | C-COND | AUDITADO | `EVID-EUK-DUPLICATIONS-001`, `EVID-EUK-ANCESTRY-TOBIASSON-001` | `INV-LIFE-EUK-001` |
+| `CLAIM-EUK-AGE-001` | Eucariogénesis fue un proceso prolongado; FECA, endosimbiosis y LECA no tienen una sola fecha intercambiable. | C-D | AUDITADO | `EVID-EUK-DUPLICATIONS-001`, `EVID-EUK-FOSSIL-REDOX-001` | `INV-LIFE-EUK-001` |
+| `CLAIM-EUK-FOSSIL-MINIMUM-001` | Fósiles de ~1.75–1.4 Ga establecen una edad mínima para células eucariotas ya complejas, no para su origen. | B-C | AUDITADO | `EVID-EUK-FOSSIL-REDOX-001` | `INV-LIFE-EUK-001` |
+| `CLAIM-EUK-OXYGEN-001` | Los eucariotas fósiles tempranos muestreados se asociaban principalmente con fondos oxigenados y probablemente eran aerobios. | C-COND | AUDITADO | `EVID-EUK-FOSSIL-REDOX-001` | `INV-LIFE-EUK-001` |
+| `CLAIM-EUK-PLASTID-DISTINCT-001` | Los plastidios proceden de una endosimbiosis cianobacteriana posterior en un huésped eucariota ya mitocondriado. | A-B | AUDITADO | filogenias/genomas de plastidios; marco comparativo | `INV-LIFE-EUK-001` |
 
 ## Fichas resumidas
 
@@ -641,6 +653,92 @@ Este archivo es el índice canónico. La letra de confianza califica exactamente
 - **Modelo:** flujos de acetato, materia orgánica y `H₂` permiten una comunidad temprana ya establecida.
 - **Límite:** el modelo muestra coherencia, no identifica taxones contemporáneos.
 - **Confianza:** `B-SEM` para población; `C` para ecosistema modelado.
+
+## Investigación 017 — Eucariogénesis
+
+### CLAIM-EUK-TWO-DOMAIN-001
+
+- **Dato:** árboles de proteínas de traducción, transcripción y replicación agrupan la herencia nuclear eucariota con Archaea; la mitocondria aporta una rama bacteriana superpuesta.
+- **Puente:** la congruencia entre marcadores resistentes a HGT aproxima la genealogía del huésped.
+- **No afirma:** que cada gen eucariota sea arqueano ni que tres dominios sean inútiles como clasificación.
+- **Confianza:** `A-COND` para ascendencia arqueana; la raíz y los marcadores condicionan el modelo.
+
+### CLAIM-EUK-ASGARD-HOST-001
+
+- **Dato:** filogenómica de marcadores conservados coloca Eukaryota dentro o como hermana de Asgard; Asgard reúne los parientes arqueanos conocidos más próximos.
+- **Límite:** Heimdallarchaeia, Hodarchaeales o una rama Asgard más profunda cambian con taxones, MAG quiméricos, composición y modelos.
+- **No afirma:** que una Asgard moderna sea ancestro directo.
+- **Confianza:** `A-B` para afinidad amplia; `C-D` para la rama exacta.
+
+### CLAIM-EUK-ASGARD-ESP-001
+
+- **Dato:** metagenomas, proteínas purificadas, cultivos y criotomografía documentan actina/profilina, ESCRT, ubiquitina, remodelado de membranas, protrusiones y Lokiactina.
+- **Puente:** homología estructural y función conservada permiten colocar componentes antes de LECA.
+- **No afirma:** núcleo, endocitosis, fagocitosis o célula eucariota completa en Asgard.
+- **Confianza:** `B` para raíces arqueanas de piezas; `C-D` para capacidad celular ancestral.
+
+### CLAIM-EUK-MITO-ENDOSYMBIOSIS-001
+
+- **Dato:** genoma/ribosoma mitocondriales, filogenias, doble membrana, cardiolipina, transferencia nuclear e importación forman un paquete de ascendencia bacteriana.
+- **Puente:** la integración hereditaria y reducción explican la distribución y dependencia organelar.
+- **No afirma:** una fagocitosis específica ni una especie donante actual.
+- **Confianza:** `A-COND` para endosimbiosis bacteriana; `B-COND` para afinidad Alpha; `C-D` para posición fina.
+
+### CLAIM-EUK-MITO-LECA-001
+
+- **Dato:** los grandes linajes poseen mitocondria o derivados; supuestos Archezoa contienen MRO, y *Monocercomonoides* perdió el orgánulo secundariamente tras sustituir ISC por SUF.
+- **Puente:** homología de importación/metabolismo y posición filogenética reconstruyen una presencia anterior a la radiación.
+- **No afirma:** que cada eucariota actual conserve orgánulo ni genoma mitocondrial.
+- **Confianza:** `A-B`.
+
+### CLAIM-EUK-LECA-COMPLEX-001
+
+- **Dato:** homólogos de núcleo/poros, endomembranas, tráfico, citoesqueleto, motores, mitosis, meiosis, spliceosoma, peroxisomas y mitocondria se distribuyen en ramas profundas.
+- **Puente:** reconstrucción comparativa con pérdidas y árboles de familias.
+- **No afirma:** que todas las piezas aparecieran juntas o que LECA fuera el primer eucariota.
+- **Confianza:** `A-B` por sistema; detalle funcional `B-C`.
+
+### CLAIM-EUK-GENE-MOSAIC-001
+
+- **Dato:** árboles de miles de familias de LECA recuperan ascendencia Asgard, Alpha y otras bacterias, con posibles transferencias virales.
+- **Puente:** árboles restringidos, bases amplias y dirección de HGT asignan orígenes probables.
+- **Límite:** definiciones de LECA-OG, muestreo, HGT en socios, paralogía y linajes no muestreados cambian porcentajes.
+- **Confianza:** `B` para mosaico; `C-D` para fracciones y donantes menores.
+
+### CLAIM-EUK-SEQUENCE-001
+
+- **Dato/modelo:** duplicaciones asociadas con citoesqueleto, tráfico, endomembranas, fagocitosis y núcleo fueron fechadas antes de la divergencia del tallo mitocondrial en Kay et al.
+- **Puente:** una duplicación precede la especialización de sus parálogos y se fecha con reloj relajado/calibraciones.
+- **Límite:** fecha máxima de función, asignación funcional moderna, topología, tasas y calibraciones.
+- **Confianza:** `C-COND` para huésped complejizado antes de mitocondria; no consenso definitivo.
+
+### CLAIM-EUK-AGE-001
+
+- **Dato/modelo:** relojes de divergencias y duplicaciones sitúan eucariogénesis a lo largo de un intervalo arqueano–paleoproterozoico; fósiles aportan mínimos mucho más jóvenes.
+- **No afirma:** una fecha única para FECA, endosimbiosis y LECA.
+- **Límite:** nodos, funciones, calibraciones y tasas no son equivalentes entre estudios.
+- **Confianza:** `C-D`.
+
+### CLAIM-EUK-FOSSIL-MINIMUM-001
+
+- **Dato:** microfósiles de `~1.75–1.4 Ga` combinan tamaños, paredes y complejidad compatibles con eucariotas; formas adicionales cerca de `1.63 Ga` apoyan diversidad/multicelularidad bajo afinidad condicionada.
+- **Puente:** edad del estrato + singenicidad + rasgos que superan alternativas procarióticas.
+- **No afirma:** edad de origen, FECA, LECA ni adquisición mitocondrial.
+- **Confianza:** `B-C` según taxón y rasgo.
+
+### CLAIM-EUK-OXYGEN-001
+
+- **Dato:** fósiles eucariotas de `~1.75–1.4 Ga` aparecen casi exclusivamente en muestras de fondos oxigenados; genomas Asgard modernos conservan capacidades variables frente a O₂.
+- **Puente:** distribución controlada por facies/redox favorece aerobiosis obligada, facultativa o microaerofilia en los fósiles muestreados.
+- **No afirma:** que O₂ causara endosimbiosis ni un umbral global.
+- **Confianza:** `C-COND` para ecología fósil; `D` para causalidad de origen.
+
+### CLAIM-EUK-PLASTID-DISTINCT-001
+
+- **Dato:** genomas, ribosomas y árboles colocan plastidios con Cyanobacteria dentro de un huésped eucariota ya mitocondriado.
+- **Puente:** otra endosimbiosis primaria y transferencias posteriores explican el orgánulo fotosintético.
+- **No afirma:** simultaneidad, mismo donante o mecanismo físico idéntico a mitocondria.
+- **Confianza:** `A-B`.
 
 ## Claims futuros
 

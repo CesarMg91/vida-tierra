@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Cadena de inferencia desde simbiosis hasta orgánulo</title>
+  <desc id="desc">La cadena distingue asociación ecológica, transmisión, reducción del genoma, transferencia nuclear, importación de proteínas, coordinación metabólica y orgánulo. Debajo, puertas epistemológicas muestran que una asociación o un gen bacteriano no prueban por sí solos la endosimbiosis histórica.</desc>
+  <defs>
+    <linearGradient id="bg2" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#07131e"/><stop offset="1" stop-color="#172638"/></linearGradient>
+    <linearGradient id="flow" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#5dc8c7"/><stop offset=".5" stop-color="#8b8fe8"/><stop offset="1" stop-color="#eda46e"/></linearGradient>
+    <marker id="arr2" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto"><path d="M0 0 L12 6 L0 12Z" fill="#a9bac8"/></marker>
+    <filter id="sh2" x="-20%" y="-20%" width="140%" height="140%"><feDropShadow dx="0" dy="7" stdDeviation="8" flood-color="#000812" flood-opacity=".55"/></filter>
+    <style>.h{font:700 42px system-ui,sans-serif;fill:#f5f8fb}.s{font:400 19px system-ui,sans-serif;fill:#b9c8d5}.n{font:800 18px system-ui,sans-serif;fill:#0b1520}.t{font:700 19px system-ui,sans-serif;fill:#f4f7fa}.x{font:400 15px system-ui,sans-serif;fill:#d0dae3}.warn{font:700 17px system-ui,sans-serif;fill:#ffd0b0}.box{filter:url(#sh2);stroke-width:2}.a{fill:none;stroke:#a9bac8;stroke-width:3;marker-end:url(#arr2)}</style>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg2)"/>
+  <text x="70" y="68" class="h">De asociación a orgánulo: qué exige la integración</text>
+  <text x="70" y="101" class="s">Una cadena causal posible; sus etapas no están preservadas como una película histórica.</text>
+  <rect x="70" y="145" width="1460" height="10" rx="5" fill="url(#flow)"/>
+
+  <g>
+    <rect x="65" y="210" width="185" height="150" rx="22" class="box" fill="#16404b" stroke="#5dc8c7"/><circle cx="98" cy="242" r="18" fill="#5dc8c7"/><text x="98" y="248" text-anchor="middle" class="n">1</text><text x="92" y="289" class="t">Asociación</text><text x="92" y="317" class="x">intercambio metabólico</text><text x="92" y="341" class="x">y contacto persistente</text>
+    <path d="M250 285 H275" class="a"/>
+    <rect x="285" y="210" width="185" height="150" rx="22" class="box" fill="#1d3d52" stroke="#79b6d6"/><circle cx="318" cy="242" r="18" fill="#79b6d6"/><text x="318" y="248" text-anchor="middle" class="n">2</text><text x="312" y="289" class="t">Transmisión</text><text x="312" y="317" class="x">socio heredado entre</text><text x="312" y="341" class="x">generaciones del huésped</text>
+    <path d="M470 285 H495" class="a"/>
+    <rect x="505" y="210" width="185" height="150" rx="22" class="box" fill="#283953" stroke="#959fe4"/><circle cx="538" cy="242" r="18" fill="#959fe4"/><text x="538" y="248" text-anchor="middle" class="n">3</text><text x="532" y="289" class="t">Reducción</text><text x="532" y="317" class="x">pérdida del genoma</text><text x="532" y="341" class="x">endosimbionte</text>
+    <path d="M690 285 H715" class="a"/>
+    <rect x="725" y="210" width="185" height="150" rx="22" class="box" fill="#343650" stroke="#b099df"/><circle cx="758" cy="242" r="18" fill="#b099df"/><text x="758" y="248" text-anchor="middle" class="n">4</text><text x="752" y="289" class="t">Transferencia</text><text x="752" y="317" class="x">genes al núcleo</text><text x="752" y="341" class="x">y expresión útil</text>
+    <path d="M910 285 H935" class="a"/>
+    <rect x="945" y="210" width="185" height="150" rx="22" class="box" fill="#46354a" stroke="#ce91c6"/><circle cx="978" cy="242" r="18" fill="#ce91c6"/><text x="978" y="248" text-anchor="middle" class="n">5</text><text x="972" y="289" class="t">Importación</text><text x="972" y="317" class="x">proteínas dirigidas</text><text x="972" y="341" class="x">de vuelta al socio</text>
+    <path d="M1130 285 H1155" class="a"/>
+    <rect x="1165" y="210" width="185" height="150" rx="22" class="box" fill="#53383d" stroke="#e28e9a"/><circle cx="1198" cy="242" r="18" fill="#e28e9a"/><text x="1198" y="248" text-anchor="middle" class="n">6</text><text x="1192" y="289" class="t">Coordinación</text><text x="1192" y="317" class="x">división, energía</text><text x="1192" y="341" class="x">y metabolitos</text>
+    <path d="M1350 285 H1375" class="a"/>
+    <rect x="1385" y="210" width="150" height="150" rx="22" class="box" fill="#65402d" stroke="#f0aa70"/><circle cx="1418" cy="242" r="18" fill="#f0aa70"/><text x="1418" y="248" text-anchor="middle" class="n">7</text><text x="1412" y="289" class="t">Orgánulo</text><text x="1412" y="317" class="x">dependencia</text><text x="1412" y="341" class="x">hereditaria</text>
+  </g>
+
+  <text x="70" y="435" class="t">Puertas que debe atravesar la inferencia</text>
+  <g>
+    <rect x="70" y="470" width="330" height="105" rx="17" fill="#2d2730" stroke="#db7b7b" stroke-width="2"/><text x="95" y="505" class="warn">Contacto ≠ internalización</text><text x="95" y="535" class="x">Protrusiones y sintrofía muestran</text><text x="95" y="559" class="x">capacidad, no el episodio ancestral.</text>
+    <rect x="430" y="470" width="330" height="105" rx="17" fill="#2d2730" stroke="#db7b7b" stroke-width="2"/><text x="455" y="505" class="warn">Gen bacteriano ≠ mitocondrial</text><text x="455" y="535" class="x">HGT, pérdidas y socios adicionales</text><text x="455" y="559" class="x">compiten con transferencia organelar.</text>
+    <rect x="790" y="470" width="330" height="105" rx="17" fill="#2d2730" stroke="#db7b7b" stroke-width="2"/><text x="815" y="505" class="warn">Doble membrana ≠ mecanismo</text><text x="815" y="535" class="x">No distingue fagocitosis, protrusión,</text><text x="815" y="559" class="x">invaginación o huésped adicional.</text>
+    <rect x="1150" y="470" width="380" height="105" rx="17" fill="#2d2730" stroke="#db7b7b" stroke-width="2"/><text x="1175" y="505" class="warn">LECA mitocondriado ≠ fecha</text><text x="1175" y="535" class="x">Sólo fija que la integración ocurrió</text><text x="1175" y="559" class="x">antes de la radiación superviviente.</text>
+  </g>
+
+  <rect x="70" y="630" width="705" height="165" rx="22" fill="#17313e" stroke="#5dc8c7" stroke-width="2" filter="url(#sh2)"/>
+  <text x="100" y="674" class="t">Evidencia que converge</text>
+  <text x="100" y="710" class="x">• genoma y ribosoma mitocondriales de ascendencia bacteriana</text>
+  <text x="100" y="740" class="x">• transferencia nuclear + señales y máquinas de importación</text>
+  <text x="100" y="770" class="x">• mitocondrias, mitosomas e hidrogenosomas homólogos</text>
+
+  <rect x="825" y="630" width="705" height="165" rx="22" fill="#3b2c2b" stroke="#f0aa70" stroke-width="2" filter="url(#sh2)"/>
+  <text x="855" y="674" class="t">Resultado delimitado</text>
+  <text x="855" y="710" class="x">La mitocondria procede de un endosimbionte Alpha-relacionado</text>
+  <text x="855" y="740" class="x">integrado antes de LECA. La especie donante, la topología física</text>
+  <text x="855" y="770" class="x">y el orden respecto al núcleo continúan abiertos.</text>
+
+  <text x="800" y="850" text-anchor="middle" class="s">Cadena conceptual: una asociación moderna no es un fósil y una ruta plausible no es la única historia.</text>
+</svg>

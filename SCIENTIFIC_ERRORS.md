@@ -85,6 +85,15 @@ El propósito no es presentar la ciencia como una sucesión de fracasos ni como 
 | `ERR-LUCA-RECOVERED-GENOME-001` | presentar una reconstrucción como genoma recuperado | probabilidad de familia equivale a secuencia física | declarar modelo, umbral y ausencia de bases/orden | DOCUMENTADO |
 | `ERR-LUCA-THREE-DOMAINS-001` | dibujar tres troncos celulares primarios equivalentes | Eukaryota diverge directamente de LUCA aparte de Archaea | filogenómica arqueana + endosimbiosis | DOCUMENTADO |
 | `ERR-LUCA-PORTRAIT-001` | convertir metabolismo/hábitat modelados en retrato | compatibilidad identifica fisiología, lugar y aspecto | separar familia, ruta, flujo, ambiente y confianza | DOCUMENTADO |
+| `ERR-EUK-ASGARD-ANCESTOR-001` | llamar ancestro a una Asgard moderna | pariente equivale a estado ancestral congelado | árbol + reconstrucción de estados | DOCUMENTADO |
+| `ERR-EUK-MITO-BACTERIUM-001` | tratar mitocondria como bacteria intacta | reducción e integración no cambian identidad/sistemas | organelogénesis, importación y transferencia | DOCUMENTADO |
+| `ERR-EUK-AMITO-PRIMITIVE-001` | usar ausencia de mitocondria como estado primitivo | simplicidad presente conserva orden histórico | MRO, filogenia y pérdida secundaria | DOCUMENTADO |
+| `ERR-EUK-LECA-FIRST-001` | confundir LECA con primer eucariota | último ancestro común marca origen de todos sus rasgos | tallo FECA–LECA y nodo explícito | DOCUMENTADO |
+| `ERR-EUK-ENGULFMENT-OBSERVED-001` | ilustrar fagocitosis como episodio observado | protrusión/doble membrana identifican mecanismo | alternativas y predicciones topológicas | DOCUMENTADO |
+| `ERR-EUK-RICKETTSIA-001` | identificar donante como *Rickettsia* | afinidad Alpha fina equivale a especie actual | topología condicionada y muestreo | DOCUMENTADO |
+| `ERR-EUK-GENE-PERCENT-001` | leer porcentajes de pipeline como composición de LECA | denominadores/modelos son intercambiables | definición, no asignados y reanálisis común | DOCUMENTADO |
+| `ERR-EUK-FOSSIL-BIRTH-001` | usar fósil más antiguo como fecha de origen | preservación es inmediata y afinidad cerrada | edad mínima + corona/tallo | DOCUMENTADO |
+| `ERR-EUK-OXYGEN-TRIGGER-001` | hacer del O₂ una causa única por correlación | nicho fósil fecha y causa endosimbiosis | cronología y modelos causales rivales | DOCUMENTADO |
 | `ERR-LUNAR-APOLLO-INDEPENDENT-001` | tratar sitios Apollo como testigos independientes | ejecta local y sin transporte global | cartografía, Th, geoquímica y escalado de Imbrium | DOCUMENTADO |
 | `ERR-IMPACT-MOON-EARTH-001` | convertir cronología lunar en esterilización terrestre | escala constante de tasa y efecto | dinámica, hidrocodes, atmósfera/océano y archivo terrestre | DOCUMENTADO |
 | `ERR-LUNAR-ABSENCE-001` | “sin fundido antiguo” = “sin impacto antiguo” | supervivencia uniforme hacia atrás | sesgo de preservación y evidencia positiva `4.22–4.33 Ga` | DOCUMENTADO |
@@ -774,3 +783,75 @@ Genes compatibles con `H₂`, Wood–Ljungdahl o estabilidad térmica no observa
 ### Corrección
 
 Separar presencia de familia, función ancestral, ruta completa, balance energético y ambiente. Etiquetar toda escena como síntesis conceptual y conservar alternativas visibles.
+
+## ERR-EUK-ASGARD-ANCESTOR-001 — El pariente moderno se volvió abuelo
+
+*Prometheoarchaeum* y *Lokiarchaeum* son descendientes actuales de ramas Asgard; han evolucionado durante miles de millones de años y no representan FECA congelado.
+
+### Corrección
+
+Escribir «pariente arqueano conocido» y reconstruir estados con árboles. Separar el fenotipo observado hoy de la probabilidad ancestral.
+
+## ERR-EUK-MITO-BACTERIUM-001 — Una mitocondria se volvió bacteria cautiva sin transformación
+
+El orgánulo perdió/transfirió gran parte de su genoma, reclutó proteínas del huésped y depende de importación y coordinación celular. No es una especie bacteriana actual conservada intacta.
+
+### Corrección
+
+Describir organelogénesis: transmisión, reducción, transferencia, retargeting e integración. Reservar «protomitochondrion» para el ancestro bacteriano inferido.
+
+## ERR-EUK-AMITO-PRIMITIVE-001 — Ausencia convertida en estado anterior
+
+Mitosomas e hidrogenosomas son derivados mitocondriales. *Monocercomonoides* carece del orgánulo por pérdida secundaria tras adquirir SUF.
+
+### Corrección
+
+Usar posición filogenética, proteínas de importación y rutas `Fe–S`. No ordenar organismos por «simplicidad» sin reconstrucción ancestral.
+
+## ERR-EUK-LECA-FIRST-001 — Último ancestro común convertido en primer eucariota
+
+LECA ya poseía una arquitectura compleja y pudo estar separado de FECA por un tallo prolongado con poblaciones extinguidas.
+
+### Corrección
+
+Nombrar el nodo y el conjunto de descendientes. No usar la presencia en LECA como fecha de aparición ni como orden de adquisición.
+
+## ERR-EUK-ENGULFMENT-OBSERVED-001 — Una ilustración se volvió evidencia
+
+Protrusiones Asgard, sintrofía y una doble membrana son compatibles con varios mecanismos. Ningún cultivo reproduce el episodio histórico completo.
+
+### Corrección
+
+Etiquetar `E³`, fagocitosis, invaginación y huéspedes adicionales como modelos. Exigir predicciones de topología, herencia e importación.
+
+## ERR-EUK-RICKETTSIA-001 — Afinidad amplia convertida en especie donante
+
+Las filogenias colocan la mitocondria cerca o dentro de Alphaproteobacteria con sensibilidad de taxones/modelos. Rickettsiales es una afinidad posible, no la identificación de una *Rickettsia* moderna como ancestro.
+
+### Corrección
+
+Usar «bacteria Alpha-relacionada» y reportar la topología del estudio. Separar orden hermano, ancestro común y especie donante.
+
+## ERR-EUK-GENE-PERCENT-001 — Un pipeline se volvió composición química de LECA
+
+Porcentajes Asgard, Alpha u otros dependen de ortogrupos, bases, umbrales, HGT, pérdidas y familias sin asignación. Estudios de 2026 no cuentan el mismo denominador.
+
+### Corrección
+
+Publicar definición del proteoma, método y no asignados. Comparar tendencias bajo reanálisis común; no sumar porcentajes de estudios distintos.
+
+## ERR-EUK-FOSSIL-BIRTH-001 — El primer fósil se volvió nacimiento
+
+Un fósil establece presencia mínima después del origen y su afinidad puede ser de tallo o corona. No conserva FECA, LECA ni la entrada mitocondrial por definición.
+
+### Corrección
+
+Escribir `≥ edad mínima`, separar edad de roca y afinidad, y mantener relojes moleculares como una cadena distinta.
+
+## ERR-EUK-OXYGEN-TRIGGER-001 — Correlación ecológica convertida en causa única
+
+El GOE precede fósiles eucariotas y los más antiguos muestreados prefieren fondos oxigenados. Eso no prueba que un umbral de `O₂` desencadenara la simbiosis.
+
+### Corrección
+
+Separar disponibilidad, capacidad respiratoria, esteroles, ecología y cronología de nodos. Comparar predicciones de modelos anaerobios, microaerobios y aerobios.

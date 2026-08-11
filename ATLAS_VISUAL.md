@@ -220,6 +220,20 @@ El mapa divide la reconstrucción en núcleo robusto, arquitectura condicionada 
 
 La cadena atraviesa homología, árbol del gen, reconciliación y función. Sus cinco puertas impiden convertir presencia moderna, HGT o anotación en biografía ancestral sin declarar el modelo.
 
+## 18. Investigación 017 — Eucariogénesis
+
+![Portada conceptual de la eucariogénesis](assets/visuales/hero-eucariogenesis.png)
+
+> **Portada conceptual:** reúne arqueas Asgard, socios bacterianos, una célula reconstruida, árbol molecular y microfósiles proterozoicos. No muestra una fagocitosis observada ni fija huésped, donante, membranas, orden o fecha.
+
+![Mapa de evidencia de la eucariogénesis](assets/visuales/mapa-investigacion-017.svg)
+
+El mapa conserva separadas cinco rutas: genealogía nuclear, piezas/células Asgard, genealogía mitocondrial, reconstrucción de LECA y tiempo. La afinidad amplia no hereda automáticamente precisión de especie o mecanismo.
+
+![Cadena desde simbiosis hasta orgánulo](assets/visuales/de-simbiosis-a-organelo.svg)
+
+La cadena hace explícitas transmisión, reducción, transferencia, importación y coordinación. Impide convertir contacto, un gen bacteriano, doble membrana o presencia en LECA en una película histórica.
+
 ## Procedencia
 
 El registro de creación, límites y prompt de cada pieza está en [`assets/visuales/README.md`](assets/visuales/README.md).
