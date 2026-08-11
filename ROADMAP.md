@@ -47,7 +47,7 @@ Una investigación pasa de `EN_DESARROLLO` a `AUDITADO` cuando:
 | Orden | ID | Pregunta |
 |---:|---|---|
 | 009 | `INV-HADEAN-CRUST-001` | [¿Qué conservan zircones, Acasta y Nuvvuagittuq de la primera corteza?](02_formacion_tierra/INVESTIGACION_009_CORTEZA_HADEANA.md) — **AUDITADO** |
-| 010 | `INV-HADEAN-WATER-001` | ¿Cuándo hubo agua líquida y qué significa la señal de oxígeno? |
+| 010 | `INV-HADEAN-WATER-001` | [¿Cuándo hubo agua líquida y qué significa la señal de oxígeno?](03_hadeano/INVESTIGACION_010_AGUA_HADEANA.md) — **AUDITADO** |
 | 011 | `INV-HADEAN-ATMOSPHERE-001` | ¿Cómo se restringe una atmósfera sin muestras de aire? |
 | 012 | `INV-HADEAN-IMPACTS-001` | ¿Pico tardío, cola de acreción o modelo híbrido? |
 | 013 | `INV-ARCHEAN-LIFE-001` | ¿Cuál es la evidencia de vida más antigua? |
@@ -147,6 +147,7 @@ Después de disponer de la secuencia base:
 - `v0.1.6`: Investigación 007 + historia del descubrimiento del núcleo + rutas sísmicas, geoquímicas, mineralógicas y magnéticas.
 - `v0.1.7`: Investigación 008 + historia del impacto lunar + matriz de restricciones y modelos competidores.
 - `v0.1.8`: Investigación 009 + historia del archivo hadeano + comparación mineral/protolito/intrusión y límites geodinámicos.
+- `v0.1.9`: Investigación 010 + historia de la hidrosfera inferida + cadena `δ18O`–fuente–agua y límites de océano/clima.
 - `v0.2`: Hadeano/Arcaico auditados.
 - `v0.3`: Proterozoico y origen/temprana evolución de la vida.
 - `v0.4`: Fanerozoico completo.

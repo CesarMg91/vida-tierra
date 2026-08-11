@@ -1,0 +1,106 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1000" viewBox="0 0 1600 1000" role="img" aria-labelledby="title desc">
+  <title id="title">Mapa de evidencia de la Investigación 010 sobre agua hadeana</title>
+  <desc id="desc">Cuatro archivos de evidencia convergen en agua líquida y una hidrosfera temprana, mientras océano global y clima estable conservan confianza baja.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#08131f"/>
+      <stop offset="1" stop-color="#101923"/>
+    </linearGradient>
+    <linearGradient id="water" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#6ed3e6"/>
+      <stop offset="1" stop-color="#3a88b8"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="10" stdDeviation="12" flood-color="#000" flood-opacity=".3"/>
+    </filter>
+    <marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto">
+      <path d="M0,0 L12,6 L0,12 Z" fill="#64c7dc"/>
+    </marker>
+    <style>
+      .kicker{font:600 24px Inter,Segoe UI,sans-serif;letter-spacing:4px;fill:#6ed3e6}
+      .title{font:700 48px Inter,Segoe UI,sans-serif;fill:#f3f0e8}
+      .sub{font:400 22px Inter,Segoe UI,sans-serif;fill:#aab8c4}
+      .card{fill:#142431;stroke:#315063;stroke-width:2}
+      .cardTitle{font:700 25px Inter,Segoe UI,sans-serif;fill:#f1eee5}
+      .body{font:400 19px Inter,Segoe UI,sans-serif;fill:#bdcbd4}
+      .metric{font:700 24px Inter,Segoe UI,sans-serif;fill:#7bd7e8}
+      .small{font:400 17px Inter,Segoe UI,sans-serif;fill:#91a5b2}
+      .conclusion{font:700 25px Inter,Segoe UI,sans-serif;fill:#08131f}
+      .confidence{font:700 19px Inter,Segoe UI,sans-serif;fill:#08131f}
+    </style>
+  </defs>
+  <rect width="1600" height="1000" fill="url(#bg)"/>
+  <circle cx="1440" cy="120" r="250" fill="#153b50" opacity=".22"/>
+  <circle cx="80" cy="920" r="300" fill="#784b27" opacity=".12"/>
+
+  <text class="kicker" x="90" y="82">INVESTIGACIÓN 010 · MAPA DE EVIDENCIA</text>
+  <text class="title" x="90" y="145">¿Qué demuestra realmente el oxígeno?</text>
+  <text class="sub" x="90" y="190">La señal está en minerales y rocas; el agua aparece al reconstruir su historia previa.</text>
+
+  <g filter="url(#shadow)">
+    <rect class="card" x="90" y="245" rx="24" width="330" height="255"/>
+    <rect x="90" y="245" rx="24" width="330" height="12" fill="#d5a45b"/>
+    <text class="cardTitle" x="120" y="300">Jack Hills · señal pesada</text>
+    <text class="metric" x="120" y="345">5.3–7.3 ‰</text>
+    <text class="body" x="120" y="382">Dominios magmáticos</text>
+    <text class="body" x="120" y="411">hasta 4325–4200 Ma</text>
+    <text class="small" x="120" y="452">Fuente previamente alterada</text>
+    <text class="small" x="120" y="477">por agua a baja temperatura</text>
+
+    <rect class="card" x="455" y="245" rx="24" width="330" height="255"/>
+    <rect x="455" y="245" rx="24" width="330" height="12" fill="#6ed3e6"/>
+    <text class="cardTitle" x="485" y="300">Jack Hills · señal ligera</text>
+    <text class="metric" x="485" y="345">hasta 2.0 ‰</text>
+    <text class="body" x="485" y="382">Episodio a 4.0–3.9 Ga</text>
+    <text class="body" x="485" y="411">en población filtrada</text>
+    <text class="small" x="485" y="452">Modelos requieren agua</text>
+    <text class="small" x="485" y="477">meteórica y sistema somero</text>
+
+    <rect class="card" x="820" y="245" rx="24" width="330" height="255"/>
+    <rect x="820" y="245" rx="24" width="330" height="12" fill="#9a8bd3"/>
+    <text class="cardTitle" x="850" y="300">Acasta</text>
+    <text class="metric" x="850" y="345">≥3.99–3.96 Ga</text>
+    <text class="body" x="850" y="382">O primario bimodal</text>
+    <text class="body" x="850" y="411">con control de hidratación</text>
+    <text class="small" x="850" y="452">Fusión/asimilación de</text>
+    <text class="small" x="850" y="477">corteza hidrotermal somera</text>
+
+    <rect class="card" x="1185" y="245" rx="24" width="325" height="255"/>
+    <rect x="1185" y="245" rx="24" width="325" height="12" fill="#5db294"/>
+    <text class="cardTitle" x="1215" y="300">Nuvvuagittuq</text>
+    <text class="metric" x="1215" y="345">O triple + H</text>
+    <text class="body" x="1215" y="382">Alteración hidrotermal</text>
+    <text class="body" x="1215" y="411">de roca máfica antigua</text>
+    <text class="small" x="1215" y="452">Objeto independiente;</text>
+    <text class="small" x="1215" y="477">edad exacta debatida</text>
+  </g>
+
+  <path d="M255 520 C255 590 610 570 700 635" fill="none" stroke="#64c7dc" stroke-width="4" opacity=".75" marker-end="url(#arrow)"/>
+  <path d="M620 520 C620 575 700 590 745 635" fill="none" stroke="#64c7dc" stroke-width="4" opacity=".75" marker-end="url(#arrow)"/>
+  <path d="M985 520 C985 575 880 590 835 635" fill="none" stroke="#64c7dc" stroke-width="4" opacity=".75" marker-end="url(#arrow)"/>
+  <path d="M1347 520 C1347 590 990 570 900 635" fill="none" stroke="#64c7dc" stroke-width="4" opacity=".75" marker-end="url(#arrow)"/>
+
+  <g filter="url(#shadow)">
+    <rect x="535" y="630" width="530" height="132" rx="66" fill="url(#water)"/>
+    <text class="conclusion" text-anchor="middle" x="800" y="686">Agua líquida interactuó con roca</text>
+    <text class="conclusion" text-anchor="middle" x="800" y="721">cerca de la superficie muy temprano</text>
+    <rect x="755" y="735" width="90" height="34" rx="17" fill="#dff8fb"/>
+    <text class="confidence" text-anchor="middle" x="800" y="759">B–C</text>
+  </g>
+
+  <line x1="800" y1="780" x2="800" y2="834" stroke="#64c7dc" stroke-width="4" marker-end="url(#arrow)"/>
+
+  <g>
+    <rect x="130" y="850" width="400" height="92" rx="20" fill="#172a35" stroke="#527182" stroke-width="2"/>
+    <text class="cardTitle" x="160" y="888">Hidrosfera hacia ~4.3 Ga</text>
+    <text class="small" x="160" y="919">C · escala y continuidad no medidas</text>
+
+    <rect x="600" y="850" width="400" height="92" rx="20" fill="#2b2731" stroke="#7e687d" stroke-width="2"/>
+    <text class="cardTitle" x="630" y="888">Océano global moderno</text>
+    <text class="small" x="630" y="919">D · volumen y conexión no observados</text>
+
+    <rect x="1070" y="850" width="400" height="92" rx="20" fill="#312527" stroke="#855f5d" stroke-width="2"/>
+    <text class="cardTitle" x="1100" y="888">Clima estable y habitable</text>
+    <text class="small" x="1100" y="919">E · el proxy no entrega clima</text>
+  </g>
+</svg>

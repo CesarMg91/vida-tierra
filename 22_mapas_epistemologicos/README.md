@@ -11,3 +11,4 @@ Grafos de dependencias entre objetos, mediciones, principios, modelos, claims y 
 - [`MAPA_007_NUCLEO_TIERRA.md`](MAPA_007_NUCLEO_TIERRA.md): fases sísmicas, modos, geodesia, siderófilos, física mineral, Hf–W, paleomagnetismo y dependencias compartidas.
 - [`MAPA_008_ORIGEN_LUNA.md`](MAPA_008_ORIGEN_LUNA.md): órbita, interior, rocas, isótopos, volátiles, cronómetros y competencia entre familias de impacto.
 - [`MAPA_009_CORTEZA_HADEANA.md`](MAPA_009_CORTEZA_HADEANA.md): mineral detrítico, protolito preservado e intrusión que corta; edades directas, límites y extrapolación planetaria.
+- [`MAPA_010_AGUA_HADEANA.md`](MAPA_010_AGUA_HADEANA.md): microdominio, magma, roca fuente y agua; cada flecha declara supuestos y pérdida de escala.

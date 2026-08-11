@@ -51,6 +51,7 @@ La fase fundacional contiene:
 - la séptima investigación: [`¿Cómo sabemos que existe el núcleo terrestre, qué contiene y cuándo se diferenció?`](02_formacion_tierra/INVESTIGACION_007_NUCLEO_TIERRA.md);
 - la octava investigación: [`¿Cómo se formó la Luna y qué parte del impacto podemos reconstruir?`](02_formacion_tierra/INVESTIGACION_008_ORIGEN_LUNA.md);
 - la novena investigación: [`¿Qué conservan zircones, Acasta y Nuvvuagittuq de la primera corteza?`](02_formacion_tierra/INVESTIGACION_009_CORTEZA_HADEANA.md);
+- la décima investigación: [`¿Cuándo hubo agua líquida y qué significa la señal de oxígeno?`](03_hadeano/INVESTIGACION_010_AGUA_HADEANA.md);
 - un [`ATLAS_VISUAL.md`](ATLAS_VISUAL.md) con procedencia y límites explícitos.
 
 “Preliminar” significa que la cronología organiza el programa de trabajo; no convierte automáticamente cada fecha en una conclusión cerrada. Los estados de auditoría muestran qué ha sido investigado en profundidad y qué sigue pendiente.
