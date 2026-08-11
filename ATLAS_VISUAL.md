@@ -164,6 +164,20 @@ El mapa distingue la señal tardía real de Apollo, el sesgo de Imbrium, las anc
 
 La cadena impide cuatro atajos: una edad no cuenta un proyectil, el lugar de hallazgo no fija origen, un histograma no es flujo y un impacto lunar no equivale a esterilización terrestre.
 
+## 14. Investigación 013 — Vida más antigua
+
+![Portada conceptual de las biosignaturas arcaicas](assets/visuales/hero-vida-mas-antigua.png)
+
+> **Portada conceptual:** reúne un ambiente arcaico, laminación, microestructuras carbonosas y observación microscópica moderna. No representa una localidad, un fósil ni una escena observada.
+
+![Mapa de evidencia de la vida más antigua](assets/visuales/mapa-investigacion-013.svg)
+
+El mapa compara Strelley Pool, Dresser, Isua y candidatas más antiguas sin ordenarlas como ganadoras por edad. Cada propuesta debe atravesar las puertas de indigeneidad, singenicidad y biogenicidad.
+
+![Cadena de una señal a una biosignatura](assets/visuales/de-senal-a-biosignatura.svg)
+
+La cadena separa cinco preguntas: qué objeto se fecha, si la señal pertenece a la muestra, si estaba allí al depositarse, si supera alternativas abióticas y qué edad mínima puede sostener. La antigüedad de la roca no resuelve las cuatro restantes.
+
 ## Procedencia
 
 El registro de creación, límites y prompt de cada pieza está en [`assets/visuales/README.md`](assets/visuales/README.md).

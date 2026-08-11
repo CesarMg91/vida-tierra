@@ -57,6 +57,13 @@ Una controversia no implica empate. Registra qué parte está realmente abierta,
 | `CONT-LUNAR-IMBRIUM-BIAS-001` | Independencia de edades Apollo | varias cuencas próximas en el tiempo | ejecta de Imbrium domina sitios/brechas | abierta en fracción | B-COND para sesgo |
 | `CONT-IMPACT-SOURCE-001` | Fuente del bombardeo temprano | inestabilidad, E-belt y asteroides | planetesimales remanentes y cola de acreción | abierta | C-D |
 | `CONT-IMPACT-EARTH-SCALING-001` | Del registro lunar al efecto terrestre | población común y mayor captura terrestre | atmósfera, océano, velocidad y archivo alteran escala | abierta | D-E para curva/efecto |
+| `CONT-LIFE-STRELLEY-DRESSER-001` | Umbral morfológico/contextual más antiguo | Strelley `~3.43 Ga` como paquete más robusto | Dresser `~3.48 Ga` como paquete más antiguo | abierta en el récord, no en vida por 3.43 | B-COND / C↑ |
+| `CONT-LIFE-ISUA-CARBON-001` | Carbono y metabolismos de Isua `≥3.7 Ga` | detrito orgánico biogénico con respiración anaerobia | grafito/fluidos y fraccionamientos metamórficos parciales | fortalecida en 2025–2026; abierta | C↑ |
+| `CONT-LIFE-ISUA-STROM-001` | Conos de Isua | estromatolitos marinos de `3.7 Ga` | deformación de metasedimentos alterados | reevaluada; deformación favorecida | B para deformación; D para biogenicidad |
+| `CONT-LIFE-NUV-001` | Fósiles de Nuvvuagittuq | tubos/filamentos y paquete mineral de vida de ventila | jardines químicos Fe–Si y edad del horizonte abierta | abierta | D-E |
+| `CONT-LIFE-SAGLEK-001` | Vida `>3.95 Ga` en Labrador | grafito ligero singenético en metasedimento antiguo | protolito más joven/indeterminado y grafito de fluidos | abierta; récord no establecido | D-E |
+| `CONT-LIFE-ZIRCON-4100-001` | Grafito en zircon de `4.10 Ga` | carbono primario potencialmente biogénico | fraccionamiento abiótico y ausencia de contexto/población | abierta sobre un objeto | E para biosfera |
+| `CONT-LIFE-APEX-001` | Filamentos del Apex Chert | microfósiles con composiciones por morfotipo | artefactos carbonosos de vetas/minerales | abierta; ya no sostiene solo el umbral | D |
 
 ## CONT-COSMOS-H0-001 — Dos rutas hacia la tasa actual
 
@@ -524,3 +531,53 @@ Wild 2 contiene material refractario de alta temperatura lejos de su región de 
 **Mecanismos rivales:** difusión turbulenta, flujos meridionales, vientos magnetizados, outflows con retorno, movimiento de cuerpos o evolución de máximos de presión.
 
 **Prueba discriminatoria:** abundancias y edades de refractarios a distintas distancias/cometas, mapas químicos de discos y modelos acoplados que predigan tanto el transporte como la supervivencia de reservorios.
+
+## CONT-LIFE-STRELLEY-DRESSER-001 — Dos maneras de fijar el umbral
+
+Strelley Pool ofrece el paquete más integrado: arrecife, siete morfotipos, facies, microestructuras, paredes carbonosas y tafonomía. Dresser es unos `50 Ma` más antiguo y combina MISS, azufre y un sistema de fuentes termales, pero su ambiente también produce más miméticos abióticos.
+
+**Práctica conservadora:** afirmar vida por `≥3.43 Ga` y presentar Dresser `~3.48 Ga` como probable.
+
+**Prueba discriminatoria:** nuevas secciones Dresser con microestructuras orgánicas 3-D, población tafonómica y química co-localizada que un modelo hidrotermal no reproduzca.
+
+## CONT-LIFE-ISUA-CARBON-001 — Un caso sin célula visible
+
+El grafito de Isua sigue horizontes sedimentarios, aparece dentro de minerales y forma una población isotópica más estrecha que la de vetas. Eso favorece detrito orgánico. Valores de C/S/Fe permiten inferir respiraciones anaerobias, pero metamorfismo, fluidos y rutas de S comparten parte del espacio de resultados.
+
+**Alternativa fuerte:** carbono reducido abiótico o redistribuido fue incorporado en sedimentos y después fraccionado/encerrado durante metamorfismo.
+
+**Prueba discriminatoria:** réplicas en nuevos testigos, co-localización nanométrica de heteroátomos y C, cronología de inclusión, isótopos múltiples y modelos abióticos cuantitativos de toda la población.
+
+## CONT-LIFE-ISUA-STROM-001 — La tercera dimensión decide
+
+La interpretación biológica se apoyó en perfiles cónicos/dómicos. La reinterpretación deformacional usa orientación, continuidad 3-D, fábrica de roca y química. Esta última explica mejor el material examinado.
+
+**Límite:** no demuestra ausencia de vida en Isua y no reduce automáticamente la confianza del grafito sedimentario.
+
+**Prueba discriminatoria:** estructuras nuevas con laminación acrecional convexa en 3-D, crecimiento sobre relieve y orientación independiente de la deformación.
+
+## CONT-LIFE-NUV-001 — Roca hadeana, horizonte y forma abiertos
+
+Las intrusiones de `~4.16 Ga` fortalecen la antigüedad local de Nuvvuagittuq. Los tubos/filamentos de hematita y el paquete mineral/carbonoso son compatibles con vida de ventila, pero jardines químicos Fe–Si producen formas semejantes y la unidad portadora no hereda automáticamente la fecha de toda roca encajante.
+
+**Prueba discriminatoria:** cartografía/fecha del horizonte, paredes carbonosas singenéticas, septación o reproducción, población tafonómica y diferencias composicionales predichas frente a jardines químicos.
+
+## CONT-LIFE-SAGLEK-001 — ¿Qué edad y qué carbono?
+
+El argumento `>3.95 Ga` necesita que el protolito portador tenga esa edad y que el grafito sea singenético. Reevaluaciones de campo debilitan el primer puente; inclusiones fluidas y grafito de distinta cristalinidad muestran precipitación metamórfica para parte del segundo.
+
+**Alternativa fuerte:** materia orgánica más antigua existió, fue craqueada y alimentó fluidos que precipitaron grafito secundario; la señal puede conservar ascendencia biológica sin fechar su posición actual.
+
+**Prueba discriminatoria:** zircon detrítico/volcánico o relaciones de corte que cierren la edad del estrato, más inclusiones protegidas anteriores a metamorfismo.
+
+## CONT-LIFE-ZIRCON-4100-001 — Un grano no es una biosfera
+
+El grafito parece primario dentro de un zircon concordante de `4.10 Ga` y su `δ13C` es compatible con vida. También es un único objeto, sin población, facies ni firma exclusiva.
+
+**Prueba discriminatoria:** reproducir inclusiones en zircones independientes, fechar/relacionar el carbono precursor y añadir composiciones o estructuras que excluyan fraccionamiento abiótico.
+
+## CONT-LIFE-APEX-001 — La química depende del objeto que clasifica
+
+Los defensores señalan morfologías filamentosas y composiciones C correlacionadas por “taxón”. La alternativa sostiene que los objetos son bordes, dendritas o agregados carbonosos secundarios en vetas hidrotermales. Si la clasificación morfológica no representa células, una correlación por morfotipo no es una taxonomía independiente.
+
+**Prueba discriminatoria:** reconstrucción 3-D continua de pared/lumen, contexto sedimentario primario y química confinada a la pared en muestras nuevas con procedencia inequívoca.
