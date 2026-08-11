@@ -130,6 +130,16 @@ El propósito no es presentar la ciencia como una sucesión de fracasos ni como 
 | `ERR-EDIACARA-OXYGEN-SWITCH-001` | oxígeno convertido en interruptor animal | condición necesaria = causa suficiente | umbral local y modelo multivariable | DOCUMENTADO |
 | `ERR-EDIACARA-ABSENCE-EXTINCTION-001` | ausencia convertida en extinción global | registro tiene detectabilidad constante | facies, ventana, muestreo y rangos | DOCUMENTADO |
 | `ERR-EDIACARA-FAILED-EXPERIMENT-001` | biota convertida en experimento fallido | evolución tiene meta cámbrica/moderna | clados y funciones evaluados sin teleología | DOCUMENTADO |
+| `ERR-CAMBRIAN-INSTANT-001` | radiación dibujada como instante | etiqueta comparte un único reloj | curvas e intervalos por indicador | DOCUMENTADO |
+| `ERR-CAMBRIAN-BOUNDARY-CAUSE-001` | GSSP convertido en causa biológica | límite formal inicia procesos globales | definición, edad y mecanismo separados | DOCUMENTADO |
+| `ERR-CAMBRIAN-NO-PRECURSORS-001` | animales aparecen sin precursores | ausencia corporal equivale a divergencia ausente | Ediacárico, trazas y relojes | DOCUMENTADO |
+| `ERR-CAMBRIAN-ALL-PHYLA-001` | todos los filos aparecen completos | nombre moderno = corona terminada | tallo/corona y mosaicos | DOCUMENTADO |
+| `ERR-CAMBRIAN-NO-TRANSITIONS-001` | rareza convertida en ausencia de transiciones | transición debe parecer intermedio lineal | caracteres y árbol ramificado | DOCUMENTADO |
+| `ERR-CAMBRIAN-LAGERSTATTE-CENSUS-001` | Lagerstätte convertida en censo mundial | preservación excepcional es neutral | facies, tejidos y detectabilidad | DOCUMENTADO |
+| `ERR-CAMBRIAN-SKELETON-ORIGIN-001` | primer elemento convertido en origen único | biomineralización es una innovación homóloga | mineral, función y clado separados | DOCUMENTADO |
+| `ERR-CAMBRIAN-OXYGEN-SWITCH-001` | oxígeno convertido en interruptor único | condición suficiente y global | proxies locales + causalidad multivariable | DOCUMENTADO |
+| `ERR-CAMBRIAN-GENE-MAGIC-001` | toolkit convertido en explosión automática | gen presente produce anatomía | regulación, expresión y ecología | DOCUMENTADO |
+| `ERR-CAMBRIAN-NO-EXTINCTION-001` | radiación narrada como subida continua | diversidad creciente excluye pérdidas | rangos, Sinsk y muestreo | DOCUMENTADO |
 | `ERR-LUNAR-APOLLO-INDEPENDENT-001` | tratar sitios Apollo como testigos independientes | ejecta local y sin transporte global | cartografía, Th, geoquímica y escalado de Imbrium | DOCUMENTADO |
 | `ERR-IMPACT-MOON-EARTH-001` | convertir cronología lunar en esterilización terrestre | escala constante de tasa y efecto | dinámica, hidrocodes, atmósfera/océano y archivo terrestre | DOCUMENTADO |
 | `ERR-LUNAR-ABSENCE-001` | “sin fundido antiguo” = “sin impacto antiguo” | supervivencia uniforme hacia atrás | sesgo de preservación y evidencia positiva `4.22–4.33 Ga` | DOCUMENTADO |
@@ -1179,3 +1189,83 @@ Llamar a toda la biota “experimento fallido” supone que producir anatomías 
 ### Corrección
 
 Comparar funciones, caracteres y descendencia por linaje, sin convertir extinción o rareza en fracaso.
+
+## ERR-CAMBRIAN-INSTANT-001 — Una metáfora recibió duración cero
+
+Diversidad, disparidad, esqueletos, trazas y redes se aceleraron, pero sus curvas no empiezan en una sola capa y algunas cruzan el límite desde el Ediacárico.
+
+### Corrección
+
+Nombrar indicador, región, umbral y duración; usar “rápida geológicamente” sólo junto a un intervalo explícito.
+
+## ERR-CAMBRIAN-BOUNDARY-CAUSE-001 — El GSSP encendió la evolución
+
+Fortune Head fija una convención correlacionable mediante una aparición local. Una frontera formal no genera genes, oxígeno ni depredación.
+
+### Corrección
+
+Separar punto físico, edad numérica, señal correlacionada y mecanismo causal; exigir cronología independiente para este último.
+
+## ERR-CAMBRIAN-NO-PRECURSORS-001 — Antes de la capa no había animales
+
+Trazas, biomineralización y animales ediacáricos preceden el límite; los relojes permiten divergencias aún anteriores con intervalos amplios.
+
+### Corrección
+
+Tratar la FAD como mínimo preservado y buscar archivos apropiados para tamaño, tejido, conducta y facies anteriores.
+
+## ERR-CAMBRIAN-ALL-PHYLA-001 — Los filos llegaron terminados
+
+Los nombres de coronas modernas aplicados retrospectivamente esconden grupos tallo con combinaciones incompletas o extintas de caracteres.
+
+### Corrección
+
+Asignar cada fósil a nodo mínimo, declarar caracteres diagnósticos y no convertir semejanza general en corona.
+
+## ERR-CAMBRIAN-NO-TRANSITIONS-001 — Un árbol fue juzgado como escalera
+
+Una forma transicional no tiene que ser mitad de dos animales modernos. Debe combinar estados esperados en una rama y edad compatibles.
+
+### Corrección
+
+Evaluar mosaicos carácter por carácter en árboles con tallos; probar homología y tafonomía antes de exigir una silueta intermedia.
+
+## ERR-CAMBRIAN-LAGERSTATTE-CENSUS-001 — La ventana se volvió océano completo
+
+Chengjiang, Qingjiang y Burgess conservan cuerpos blandos de facies, edades y filtros distintos. Ausencia o abundancia local no mide automáticamente la biosfera.
+
+### Corrección
+
+Modelar tejido preservable, ambiente, área, colecta y correlación antes de comparar diversidad global.
+
+## ERR-CAMBRIAN-SKELETON-ORIGIN-001 — Un fragmento inventó un esqueleto universal
+
+Tubos, conchas, placas y escleritos emplean minerales, genes y funciones diferentes; además, mineralizar aumenta detectabilidad.
+
+### Corrección
+
+Reconstruir escleritomas, microestructura y filogenia por clado; separar origen biológico de primera preservación abundante.
+
+## ERR-CAMBRIAN-OXYGEN-SWITCH-001 — El oxígeno apretó un botón
+
+Oxígeno puede habilitar metabolismo activo, pero los proxies registran cuencas heterogéneas y las faunas también alteran redox y nutrientes.
+
+### Corrección
+
+Especificar reservorio, umbral fisiológico, tiempo y dirección causal; comparar modelos con alimento, temperatura, ecología y desarrollo.
+
+## ERR-CAMBRIAN-GENE-MAGIC-001 — Tener genes produjo cuerpos automáticamente
+
+Familias regulatorias ancestrales preceden la radiación, pero presencia no demuestra expresión, interacción, innovación anatómica ni ventaja ecológica.
+
+### Corrección
+
+Separar familia, función experimental, red regulatoria, fenotipo y fecha; buscar cambios de regulación además de inventario.
+
+## ERR-CAMBRIAN-NO-EXTINCTION-001 — La diversidad sólo pudo subir
+
+Rangos siberianos muestran pérdidas y recambios como Sinsk dentro del intervalo de radiación. Una tendencia neta ascendente puede contener crisis.
+
+### Corrección
+
+Representar apariciones y desapariciones con incertidumbre, controles de muestreo y correlación por paleoplaca.

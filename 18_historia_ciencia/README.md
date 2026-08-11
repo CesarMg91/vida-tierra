@@ -22,3 +22,4 @@ Historia de cómo se reconstruyó la historia: creencias previas, evidencia disr
 - [`HISTORIA_019_MULTICELULARIDAD.md`](HISTORIA_019_MULTICELULARIDAD.md): de clasificar colonias y tejidos a filogenias, genomas comparados y evolución experimental de transiciones grupales repetidas.
 - [`HISTORIA_020_SNOWBALL_EARTH.md`](HISTORIA_020_SNOWBALL_EARTH.md): de diamictitas tropicales y la hipótesis de Kirschvink a geocronología de alta precisión, modelos climáticos competidores y refugios locales.
 - [`HISTORIA_021_EDIACARA.md`](HISTORIA_021_EDIACARA.md): de medusoides precámbricos y frondas a tafonomía, superficies censales, biomarcadores y afinidades evaluadas por taxón.
+- [`HISTORIA_022_RADIACION_CAMBRICA.md`](HISTORIA_022_RADIACION_CAMBRICA.md): de la dificultad de Darwin y los “monstruos” de Burgess a grupos tallo, relojes desacoplados, geocronología de alta precisión y radiaciones sucesivas.

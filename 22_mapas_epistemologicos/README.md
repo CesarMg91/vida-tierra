@@ -23,3 +23,4 @@ Grafos de dependencias entre objetos, mediciones, principios, modelos, claims y 
 - [`MAPA_019_MULTICELULARIDAD.md`](MAPA_019_MULTICELULARIDAD.md): modos de formación, filogenias, genómica, ciclos grupales, experimentos y fósiles sin confundir asociación, individuo y complejidad.
 - [`MAPA_020_SNOWBALL_EARTH.md`](MAPA_020_SNOWBALL_EARTH.md): sedimentos, edades, paleolatitudes, modelos, carbonatos y refugios sin confundir glaciación global con océano completamente sellado.
 - [`MAPA_021_EDIACARA.md`](MAPA_021_EDIACARA.md): tiempo, preservación, morfogénesis, conducta, comunidad y moléculas sin saltar desde una impresión a un taxón moderno.
+- [`MAPA_022_RADIACION_CAMBRICA.md`](MAPA_022_RADIACION_CAMBRICA.md): límite, cuerpos, trazas, esqueletos, Lagerstätten, filogenias, genómica y ambiente sin fundir aparición preservada con divergencia o diversificación.

@@ -103,7 +103,13 @@ Los límites numéricos siguen `SRC-ICS-2026` (tabla 2026/06). La evidencia de c
 
 | ID | Fecha/intervalo | Evento delimitado | Incertidumbre / evidencia | Fuente | Confianza | Estado |
 |---|---:|---|---|---|---|---|
-| `TIME-CAMBRIAN-BASE-001` | 538.8 ± 0.6 Ma | base del Cámbrico/Fanerozoico | GSSP + edad calibrada; “explosión” biológica abarca más tiempo | `SRC-ICS-2026`, `SRC-ERWIN-2011` | A límite; B edad | SEMILLA |
+| `TIME-CAMBRIAN-BASE-001` | 538.8 ± 0.6 Ma | base formal del Cámbrico/Fanerozoico en Fortune Head | GSSP asociado a FAD local de `Treptichnus/Trichophycus pedum`; no fecha origen animal y su edad absoluta puede revisarse | `SRC-ISCS-CAMBRIAN-2007`, `SRC-ICS-2026`, `SRC-LINNEMANN-2019`, `SRC-NELSON-CAMBRIAN-2023` | A límite; B edad; C correlación global | AUDITADO |
+| `TIME-CAMBRIAN-RADIATION-001` | ~`539–518 Ma` para una fase principal; más amplia según indicador | radiaciones animales tempranas de cuerpos, esqueletos, conducta y ecología | intervalo operacional, no un evento único; divergencias y precursores son anteriores y expansiones posteriores continúan | `SRC-ERWIN-2011`, `SRC-WOOD-CAMBRIAN-2019`, `SRC-DALEY-EUARTHROPODA-2018` | B orden/fase; C bordes | AUDITADO |
+| `TIME-CAMBRIAN-SUBSTRATE-001` | Ediacárico terminal–Serie 2, ~20 Myr en Chapel Island | expansión escalonada de profundidad, tiering e icnodisparidad | trazas fechan conducta mínima y ambiente; no identifican siempre productor ni patrón global | `SRC-MANGANO-BUATOIS-2014`, `SRC-GOUGEON-2025`, `SRC-PARRY-2017` | B local; C global | AUDITADO |
+| `TIME-CAMBRIAN-SSF-001` | ~`539–529 Ma`, dependiente de región y zonación | diversificación de pequeños fósiles esqueletizados | elementos aislados, FAD sensible a muestreo y correlación entre cuencas | `SRC-YANG-SSF-2016`, `SRC-ZHU-CAMBRIAN-2017`, `SRC-BENGTSON-1992` | B-COND | AUDITADO |
+| `TIME-CAMBRIAN-CHENGJIANG-001` | edad máxima robusta `518.03 ± 0.69/0.71 Ma` | Lagerstätte de Chengjiang y radiación de anatomías blandas | edad de depósito/capa, no cumpleaños de taxones ni divergencias | `SRC-YANG-CHENGJIANG-2018` | B | AUDITADO |
+| `TIME-CAMBRIAN-QINGJIANG-001` | ~`518 Ma` | Lagerstätte de Qingjiang en ambiente de plataforma distal | correlación bioestratigráfica y edad aproximada; comunidad local y muestreo inicial | `SRC-FU-QINGJIANG-2019` | B-COND | AUDITADO |
+| `TIME-CAMBRIAN-SINSK-001` | ~`513 Ma`, según correlación siberiana | recambio de Sinsk entre dos fases de diversidad esqueletizada | edad, extensión global y causa ambiental permanecen abiertas | `SRC-ZHURAVLEV-WOOD-2018`, `SRC-WOOD-CAMBRIAN-2019`, `SRC-HE-OXYGEN-2019` | B local; C-D global/causa | AUDITADO |
 | `TIME-ORDOVICIAN-BASE-001` | 486.85 ± 1.5 Ma | base del Ordovícico | GSSP y calibración | `SRC-ICS-2026` | A/B | SEMILLA |
 | `TIME-ORDOVICIAN-EXT-001` | ~445–443 Ma | extinción fin-Ordovícico | pulsos y causas no se reducen al límite del periodo | fósiles, facies, isótopos; por registrar | B para extinción; C para causalidad | SEMILLA |
 | `TIME-SILURIAN-BASE-001` | 443.1 ± 0.9 Ma | base del Silúrico | GSSP y calibración | `SRC-ICS-2026` | A/B | SEMILLA |
@@ -160,4 +166,4 @@ En esta sección una fecha arqueológica no demuestra por sí sola “propiedad�
 
 ## Próxima acción cronológica
 
-Las investigaciones extensas auditadas llegan de `INV-EARTH-AGE-001` a `INV-EDIACARA-001`. El siguiente trabajo es la radiación cámbrica: deberá separar divergencia, primera aparición preservada, diversidad, disparidad, biomineralización, trazas, ventanas tafonómicas y duración.
+Las investigaciones extensas auditadas llegan de `INV-EARTH-AGE-001` a `INV-CAMBRIAN-001`. El siguiente trabajo es la radiación ordovícica: deberá separar diversificación taxonómica y ecológica, provincialismo, biodiversidad aparente, sesgo de roca y la extinción del final del Ordovícico.

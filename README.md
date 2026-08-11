@@ -63,6 +63,7 @@ La fase fundacional contiene:
 - la decimonovena investigación: [`¿Cuántas veces surgió la multicelularidad y cuándo un grupo se volvió individuo?`](10_evolucion_vida/INVESTIGACION_019_MULTICELULARIDAD.md);
 - la vigésima investigación: [`¿Estuvo la Tierra globalmente congelada durante el Criogénico?`](05_proterozoico/INVESTIGACION_020_SNOWBALL_EARTH.md);
 - la vigesimoprimera investigación: [`¿Qué eran los organismos ediacáricos y cómo vivían?`](05_proterozoico/INVESTIGACION_021_EDIACARA.md);
+- la vigesimosegunda investigación: [`¿Fue súbita la radiación cámbrica o está comprimida por el registro?`](06_paleozoico/INVESTIGACION_022_RADIACION_CAMBRICA.md);
 - un [`ATLAS_VISUAL.md`](ATLAS_VISUAL.md) con procedencia y límites explícitos.
 
 “Preliminar” significa que la cronología organiza el programa de trabajo; no convierte automáticamente cada fecha en una conclusión cerrada. Los estados de auditoría muestran qué ha sido investigado en profundidad y qué sigue pendiente.
