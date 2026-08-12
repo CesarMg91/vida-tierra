@@ -18,6 +18,10 @@ claims:
 
 # Investigación 001 — ¿Cómo sabemos la edad de la Tierra?
 
+![Mapa de evidencia de la Investigación 001](../assets/visuales/mapa-investigacion-001.svg)
+
+![Las dos cadenas de uranio como prueba interna](../assets/visuales/dos-cadenas-uranio.svg)
+
 ## Respuesta breve
 
 No existe un cronómetro que muestre “4.54 mil millones de años” al introducir una roca terrestre. Tampoco existe una roca intacta de la primera Tierra. El valor se reconstruye mediante una red de inferencias:

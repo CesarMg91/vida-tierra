@@ -1,0 +1,120 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1040" viewBox="0 0 1600 1040" role="img" aria-labelledby="title desc">
+  <title id="title">Mapa de evidencia de la edad de la Tierra</title>
+  <desc id="desc">Cinco archivos restringen el intervalo de formación terrestre: plomo de meteoritos, inclusiones refractarias, tungsteno del manto, zircones lunares y el zircon terrestre superviviente. Convergen en torno a 4.5 Ga sin fechar un instante de nacimiento y sin ser cinco pruebas independientes.</desc>
+  <defs>
+    <style>
+      .bg{fill:#071221}.card{fill:#0d1d31;stroke:#30445f;stroke-width:2}.out{fill:#142239;stroke-width:2.5}
+      .h1{fill:#f5f7fb;font:700 42px Georgia,serif}.sub{fill:#9fb0c8;font:22px 'Segoe UI',sans-serif}
+      .k{fill:#5de1f2;font:700 14px 'Segoe UI',sans-serif;letter-spacing:1.2px}
+      .t{fill:#f4f6fa;font:700 20px Georgia,serif}
+      .b{fill:#b9c5d7;font:16px 'Segoe UI',sans-serif}
+      .m{fill:#9aaac0;font:13px Consolas,monospace}
+      .num{fill:#f3b34c;font:700 22px Georgia,serif}
+      .fine{stroke:#617895;stroke-width:3;fill:none}.arrow{stroke:#5de1f2;stroke-width:6;fill:none}
+      .cyan{stroke:#42d6d9}.purple{stroke:#ba7af2}
+      .warn{fill:#f5d470;font:700 23px Georgia,serif}
+    </style>
+    <marker id="a" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto"><path d="M0,0 L12,6 L0,12 Z" fill="#5de1f2"/></marker>
+    <linearGradient id="zir" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#f6ddb1"/><stop offset="1" stop-color="#6fd3da"/></linearGradient>
+  </defs>
+  <rect width="1600" height="1040" class="bg"/>
+  <circle cx="1470" cy="80" r="180" fill="#f3b34c" opacity=".05"/>
+  <text x="65" y="75" class="h1">Cinco archivos para un intervalo</text>
+  <text x="65" y="115" class="sub">Ninguna roca terrestre fecha la Tierra. El intervalo se reconstruye desde materiales que no son la Tierra.</text>
+
+  <g transform="translate(65 165)">
+    <rect width="278" height="440" rx="22" class="card"/>
+    <text x="22" y="38" class="k">METEORITOS · Pb–Pb</text>
+    <text x="22" y="72" class="t">Plomo de</text><text x="22" y="98" class="t">Canyon Diablo</text>
+    <circle cx="139" cy="185" r="52" fill="#3b4a5f" stroke="#8fa3bd" stroke-width="3"/>
+    <path d="M104 158 L128 176 L112 202 M160 160 L176 190 L152 210" class="fine" opacity=".8"/>
+    <text x="22" y="272" class="m">separación química de Pb</text>
+    <text x="22" y="296" class="m">blanco de laboratorio</text>
+    <text x="22" y="320" class="m">espectrometría de masas</text>
+    <path d="M18 348H260" class="fine"/>
+    <text x="22" y="382" class="num">4.55 ± 0.07 Ga</text>
+    <text x="22" y="408" class="b">edad común de evolución</text>
+    <text x="22" y="430" class="m">modelo de Pb inicial · A</text>
+  </g>
+
+  <g transform="translate(365 165)">
+    <rect width="278" height="440" rx="22" class="card"/>
+    <text x="22" y="38" class="k">CAIs · TIEMPO CERO</text>
+    <text x="22" y="72" class="t">Inclusiones</text><text x="22" y="98" class="t">refractarias</text>
+    <circle cx="139" cy="185" r="54" fill="#1b2b40" stroke="#617895" stroke-width="3"/>
+    <path d="M112 158 Q139 143 168 162 Q182 190 162 214 Q134 228 111 208 Q99 182 112 158Z" fill="#e9dfc7" opacity=".85"/>
+    <text x="22" y="272" class="m">razón U corregida</text>
+    <text x="22" y="296" class="m">isócronas Pb–Pb</text>
+    <text x="22" y="320" class="m">grano a grano</text>
+    <path d="M18 348H260" class="fine"/>
+    <text x="22" y="382" class="num">4567.30 ± 0.16 Ma</text>
+    <text x="22" y="408" class="b">primeros sólidos solares</text>
+    <text x="22" y="430" class="m">no es la Tierra · B</text>
+  </g>
+
+  <g transform="translate(665 165)">
+    <rect width="278" height="440" rx="22" class="card"/>
+    <text x="22" y="38" class="k">Hf–W · ACRECIÓN</text>
+    <text x="22" y="72" class="t">Tungsteno</text><text x="22" y="98" class="t">del manto</text>
+    <circle cx="139" cy="185" r="54" fill="#233d3e" stroke="#65d09a" stroke-width="3"/>
+    <circle cx="139" cy="185" r="24" fill="#c58c68" stroke="#f3b34c" stroke-width="3"/>
+    <path d="M139 131 V161 M139 209 V239" stroke="#65d09a" stroke-width="3"/>
+    <text x="22" y="272" class="m">radionúclido extinto</text>
+    <text x="22" y="296" class="m">partición metal–silicato</text>
+    <text x="22" y="320" class="m">anomalías de 182W</text>
+    <path d="M18 348H260" class="fine"/>
+    <text x="22" y="382" class="num">decenas de Ma</text>
+    <text x="22" y="408" class="b">núcleo y acreción temprana</text>
+    <text x="22" y="430" class="m">depende del equilibrio · B-COND</text>
+  </g>
+
+  <g transform="translate(965 165)">
+    <rect width="278" height="440" rx="22" class="card"/>
+    <text x="22" y="38" class="k">LUNA · LÍMITE</text>
+    <text x="22" y="72" class="t">Zircones</text><text x="22" y="98" class="t">lunares</text>
+    <circle cx="139" cy="185" r="54" fill="#c9cdd4" opacity=".85"/>
+    <circle cx="118" cy="168" r="13" fill="#9aa1ab"/><circle cx="158" cy="200" r="9" fill="#9aa1ab"/><circle cx="132" cy="212" r="7" fill="#9aa1ab"/>
+    <text x="22" y="272" class="m">U–Pb + petrología</text>
+    <text x="22" y="296" class="m">océano de magma</text>
+    <text x="22" y="320" class="m">procedencia limitada</text>
+    <path d="M18 348H260" class="fine"/>
+    <text x="22" y="382" class="num">corteza ~4.51 Ga</text>
+    <text x="22" y="408" class="b">el impacto fue anterior</text>
+    <text x="22" y="430" class="m">fecha indirecta · C</text>
+  </g>
+
+  <g transform="translate(1265 165)">
+    <rect width="278" height="440" rx="22" class="card"/>
+    <text x="22" y="38" class="k">JACK HILLS · TERRESTRE</text>
+    <text x="22" y="72" class="t">Zircon</text><text x="22" y="98" class="t">detrítico</text>
+    <polygon points="139,132 190,163 176,232 108,244 92,175" fill="url(#zir)" opacity=".9"/>
+    <path d="M118 162 L166 178 L158 220 L122 228 L106 190Z" fill="none" stroke="#f7f0dc" stroke-width="3" opacity=".7"/>
+    <text x="22" y="272" class="m">U–Pb concordante</text>
+    <text x="22" y="296" class="m">sonda atómica</text>
+    <text x="22" y="320" class="m">δ18O del dominio</text>
+    <path d="M18 348H260" class="fine"/>
+    <text x="22" y="382" class="num">4404 ± 8 Ma</text>
+    <text x="22" y="408" class="b">llega 163 Ma tarde</text>
+    <text x="22" y="430" class="m">límite mínimo · B</text>
+  </g>
+
+  <g marker-end="url(#a)" class="arrow">
+    <path d="M204 625V678"/><path d="M504 625V678"/><path d="M804 625V678"/><path d="M1104 625V678"/><path d="M1404 625V678"/>
+  </g>
+
+  <g transform="translate(95 700)">
+    <rect width="1410" height="152" rx="28" class="out cyan"/>
+    <text x="35" y="46" class="k">CONVERGENCIA</text>
+    <text x="35" y="90" class="t">La Tierra se formó hace aproximadamente 4.5 Ga, por acreción prolongada</text>
+    <text x="35" y="124" class="b">A para el orden de magnitud · B para la cifra operacional de 4.54 Ga · el evento duró decenas de Ma</text>
+  </g>
+
+  <g transform="translate(95 878)">
+    <rect width="1410" height="96" rx="24" class="out purple"/>
+    <text x="30" y="38" class="warn">Dependencia compartida</text>
+    <text x="360" y="38" class="b">constantes de decaimiento · química del Pb · premisa de un Sistema Solar común</text>
+    <text x="30" y="72" class="m">Cinco archivos no son cinco votos independientes: la fuerza viene de que fallan de maneras distintas, no de que coincidan.</text>
+  </g>
+
+  <text x="65" y="1012" class="m">Diagrama conceptual reproducible · INV-EARTH-AGE-001 · 2026-08-12</text>
+</svg>

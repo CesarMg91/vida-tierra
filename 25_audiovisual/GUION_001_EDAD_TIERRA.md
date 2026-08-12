@@ -68,7 +68,7 @@ Notación de registros según [`POLITICA_VISUAL.md`](POLITICA_VISUAL.md): `[GEN]
 **Voz:** Era cuantitativo. Era falsable. Era una mejora enorme sobre las cronologías anteriores, que no tenían ningún mecanismo físico detrás. Y dio decenas de millones de años. El resultado era preciso. Y era falso.
 
 ### P-09 · 3:35–4:10
-**Imagen:** `[SVG]` Diagrama de dos columnas: «lo que el modelo incluía» / «lo que faltaba».
+**Imagen:** `[SVG]` `reloj-termico-incompleto.svg`. Se revela primero la columna verde, luego la dorada.
 **Voz:** Faltaban dos cosas que nadie podía conocer todavía. El calor radiogénico: la Tierra no se está enfriando pasivamente, tiene una fuente interna. Y la convección del manto, que transporta calor de una forma que la conducción no describe.
 **Rótulo:** `DIAGRAMA` · `ERR-GEO-KELVIN-001`
 
@@ -92,7 +92,7 @@ Notación de registros según [`POLITICA_VISUAL.md`](POLITICA_VISUAL.md): `[GEN]
 **Rótulo:** `EVIDENCIA` · `CLAIM-GEO-UPB-001` · `A-COND`
 
 ### P-13 · 5:40–6:15
-**Imagen:** `[SVG]` Las dos cadenas de decaimiento, animadas en paralelo a distinta velocidad.
+**Imagen:** `[SVG]` `dos-cadenas-uranio.svg`. Las dos cadenas avanzan en paralelo; la dorada completa seis vueltas mientras la turquesa completa una.
 **Voz:** Esa redundancia es lo que convierte una medición en una prueba. No es un reloj que hay que creerse. Son dos relojes que pueden delatarse mutuamente.
 **Rótulo:** `DIAGRAMA`
 
@@ -128,7 +128,12 @@ Notación de registros según [`POLITICA_VISUAL.md`](POLITICA_VISUAL.md): `[GEN]
 
 ## Bloque 5 — Qué sostiene realmente esa cifra · 9:15–10:45
 
-### P-19 · 9:15–9:45
+### P-18b · 9:15–9:35 · recapitulación
+**Imagen:** `[SVG]` `mapa-investigacion-001.svg`. Las cinco tarjetas aparecen una a una y convergen en la caja inferior.
+**Voz:** Y no fue un solo archivo. Meteoritos, inclusiones refractarias, tungsteno del manto, zircones lunares y el zircon terrestre. Cinco materiales distintos, con formas distintas de fallar, restringiendo el mismo intervalo.
+**Rótulo:** `DIAGRAMA`
+
+### P-19 · 9:35–10:00
 **Imagen:** `[SVG]` `cadena-inferencia.svg`, recorrida de izquierda a derecha.
 **Voz:** Pero fíjate en lo que ese resultado no dice. Nadie observó formarse la Tierra. Lo que se midió fueron razones isotópicas en materiales actuales. De ahí a «la Tierra se formó hace cuatro mil quinientos millones de años» hay una cadena, y cada eslabón tiene supuestos.
 **Rótulo:** `DIAGRAMA`
@@ -185,8 +190,17 @@ Notación de registros según [`POLITICA_VISUAL.md`](POLITICA_VISUAL.md): `[GEN]
 
 1. **Biografía de Patterson.** El guion evita deliberadamente el relato personal —la lucha contra la gasolina con plomo, la sala limpia como epopeya individual— porque **no está auditado en este repositorio**. `SRC-PATTERSON-1956` respalda el resultado científico, no la biografía. Si se quiere ese material, hay que registrar fuentes biográficas en `SOURCES.md` antes de grabarlo. Es exactamente la disciplina que el proyecto exige.
 2. **Cifra de Kelvin.** El guion dice «decenas de millones de años», que es lo que sostiene `ERR-GEO-KELVIN-001`. No dar una cifra concreta sin registrar fuente.
-3. **Falta `mapa-investigacion-001.svg`.** La investigación fundacional es la única sin mapa de evidencia. Conviene crearlo: sirve al repositorio y al episodio.
-4. **SVG nuevos que este guion necesita:** las dos cadenas de decaimiento (P-13) y la comparación modelo térmico completo/incompleto (P-09).
+3. **Tabla de los seis nacimientos (P-05).** Se anima directamente desde la tabla de la sección 0 de la investigación; no necesita SVG propio, pero sí una versión legible en vídeo.
+
+## Diagramas disponibles
+
+| Plano | Archivo |
+|---|---|
+| P-09 | [`reloj-termico-incompleto.svg`](../assets/visuales/reloj-termico-incompleto.svg) |
+| P-13 | [`dos-cadenas-uranio.svg`](../assets/visuales/dos-cadenas-uranio.svg) |
+| P-18b | [`mapa-investigacion-001.svg`](../assets/visuales/mapa-investigacion-001.svg) |
+| P-19 | [`cadena-inferencia.svg`](../assets/visuales/cadena-inferencia.svg) |
+| P-21 | [`escala-confianza.svg`](../assets/visuales/escala-confianza.svg) |
 
 ## Registro de planos generados
 

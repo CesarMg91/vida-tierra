@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="820" viewBox="0 0 1600 820" role="img" aria-labelledby="title desc">
+  <title id="title">Las dos cadenas de uranio como prueba interna</title>
+  <desc id="desc">El uranio 238 y el uranio 235 decaen a plomo 206 y plomo 207 a velocidades muy distintas. Una muestra cerrada desde un mismo evento debe dar la misma edad por ambas cadenas; la discrepancia delata pérdida de plomo, herencia o mezcla. Las dos cadenas comparten constantes, por lo que no son relojes plenamente independientes.</desc>
+  <defs>
+    <style>
+      .bg{fill:#071221}.card{fill:#0d1d31;stroke:#30445f;stroke-width:2}.out{fill:#142239;stroke-width:2.5}
+      .h1{fill:#f5f7fb;font:700 42px Georgia,serif}.sub{fill:#9fb0c8;font:22px 'Segoe UI',sans-serif}
+      .k{fill:#5de1f2;font:700 16px 'Segoe UI',sans-serif;letter-spacing:1.4px}
+      .t{fill:#f4f6fa;font:700 24px Georgia,serif}
+      .b{fill:#b9c5d7;font:18px 'Segoe UI',sans-serif}
+      .m{fill:#9aaac0;font:15px Consolas,monospace}
+      .iso{fill:#f4f6fa;font:700 22px Consolas,monospace}
+      .num{fill:#f3b34c;font:700 20px Georgia,serif}
+      .fine{stroke:#617895;stroke-width:3;fill:none}
+      .slow{stroke:#42d6d9;stroke-width:7;fill:none}
+      .fast{stroke:#f3b34c;stroke-width:7;fill:none}
+      .green{stroke:#65d09a}.purple{stroke:#ba7af2}
+      .warn{fill:#f5d470;font:700 22px Georgia,serif}
+    </style>
+    <marker id="ac" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto"><path d="M0,0 L12,6 L0,12 Z" fill="#42d6d9"/></marker>
+    <marker id="ag" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto"><path d="M0,0 L12,6 L0,12 Z" fill="#f3b34c"/></marker>
+    <marker id="aw" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto"><path d="M0,0 L12,6 L0,12 Z" fill="#5de1f2"/></marker>
+  </defs>
+  <rect width="1600" height="820" class="bg"/>
+  <circle cx="1450" cy="90" r="170" fill="#42d6d9" opacity=".05"/>
+  <text x="65" y="75" class="h1">Dos relojes que pueden delatarse mutuamente</text>
+  <text x="65" y="115" class="sub">No es un reloj que haya que creerse. Es una redundancia que convierte una medición en una prueba.</text>
+
+  <g transform="translate(65 165)">
+    <rect width="1470" height="150" rx="24" class="card"/>
+    <text x="30" y="42" class="k">CADENA LENTA</text>
+    <text x="30" y="92" class="iso">238U</text>
+    <path d="M110 84 H1010" class="slow" marker-end="url(#ac)"/>
+    <text x="430" y="72" class="m">14 desintegraciones intermedias</text>
+    <text x="1040" y="92" class="iso">206Pb</text>
+    <text x="30" y="128" class="num">semivida 4.4683 ± 0.0024 Ga</text>
+    <text x="1180" y="128" class="b">una vuelta en la edad del planeta</text>
+  </g>
+
+  <g transform="translate(65 340)">
+    <rect width="1470" height="150" rx="24" class="card"/>
+    <text x="30" y="42" class="k">CADENA RÁPIDA</text>
+    <text x="30" y="92" class="iso">235U</text>
+    <path d="M110 84 H1010" class="fast" marker-end="url(#ag)"/>
+    <text x="430" y="72" class="m">11 desintegraciones intermedias</text>
+    <text x="1040" y="92" class="iso">207Pb</text>
+    <text x="30" y="128" class="num">semivida 0.70381 ± 0.00048 Ga</text>
+    <text x="1180" y="128" class="b">seis vueltas en el mismo tiempo</text>
+  </g>
+
+  <g marker-end="url(#aw)" stroke="#5de1f2" stroke-width="6" fill="none">
+    <path d="M480 500V552"/><path d="M1120 500V552"/>
+  </g>
+
+  <g transform="translate(180 570)">
+    <rect width="600" height="132" rx="24" class="out green"/>
+    <text x="30" y="42" class="k">CONCORDANCIA</text>
+    <text x="30" y="82" class="t">Las dos edades coinciden</text>
+    <text x="30" y="112" class="b">el sistema permaneció cerrado desde el evento</text>
+  </g>
+
+  <g transform="translate(820 570)">
+    <rect width="600" height="132" rx="24" class="out purple"/>
+    <text x="30" y="42" class="k">DISCORDANCIA</text>
+    <text x="30" y="82" class="t">Las dos edades divergen</text>
+    <text x="30" y="112" class="b">pérdida de plomo · herencia · dominios mezclados</text>
+  </g>
+
+  <text x="65" y="752" class="warn">Comparten constantes</text>
+  <text x="360" y="752" class="b">las dos cadenas usan las mismas semividas medidas: son una prueba interna, no dos relojes independientes.</text>
+  <text x="65" y="790" class="m">Diagrama conceptual reproducible · semividas de Jaffey et al. 1971 · INV-EARTH-AGE-001 · 2026-08-12</text>
+</svg>

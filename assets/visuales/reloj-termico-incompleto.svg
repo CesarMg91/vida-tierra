@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="860" viewBox="0 0 1600 860" role="img" aria-labelledby="title desc">
+  <title id="title">El reloj térmico incompleto del siglo XIX</title>
+  <desc id="desc">El cálculo térmico decimonónico aplicaba conducción del calor a observaciones reales y producía una edad de decenas de millones de años. Omitía el calentamiento radiogénico y la convección del manto, de modo que el resultado era cuantitativo, falsable, preciso y falso.</desc>
+  <defs>
+    <style>
+      .bg{fill:#071221}.card{fill:#0d1d31;stroke:#30445f;stroke-width:2}.out{fill:#142239;stroke-width:2.5}
+      .h1{fill:#f5f7fb;font:700 42px Georgia,serif}.sub{fill:#9fb0c8;font:22px 'Segoe UI',sans-serif}
+      .k{fill:#5de1f2;font:700 16px 'Segoe UI',sans-serif;letter-spacing:1.4px}
+      .kw{fill:#f5d470;font:700 16px 'Segoe UI',sans-serif;letter-spacing:1.4px}
+      .t{fill:#f4f6fa;font:700 24px Georgia,serif}
+      .b{fill:#b9c5d7;font:18px 'Segoe UI',sans-serif}
+      .m{fill:#9aaac0;font:15px Consolas,monospace}
+      .num{fill:#f3b34c;font:700 28px Georgia,serif}
+      .fine{stroke:#617895;stroke-width:3;fill:none}
+      .green{stroke:#65d09a}.gold{stroke:#f3b34c}.purple{stroke:#ba7af2}
+      .quote{fill:#f5f7fb;font:italic 700 30px Georgia,serif}
+    </style>
+    <marker id="a" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto"><path d="M0,0 L12,6 L0,12 Z" fill="#5de1f2"/></marker>
+    <linearGradient id="hot" x1="0" y1="1" x2="0" y2="0"><stop stop-color="#8a2f1a"/><stop offset=".55" stop-color="#c8621f"/><stop offset="1" stop-color="#3b4a5f"/></linearGradient>
+  </defs>
+  <rect width="1600" height="860" class="bg"/>
+  <circle cx="1460" cy="90" r="170" fill="#c8621f" opacity=".06"/>
+  <text x="65" y="75" class="h1">Una ecuación correcta sobre un modelo incompleto</text>
+  <text x="65" y="115" class="sub">El cálculo era cuantitativo y falsable. El resultado era preciso. Y era falso.</text>
+
+  <g transform="translate(65 165)">
+    <rect width="700" height="360" rx="24" class="out green"/>
+    <text x="32" y="46" class="k">LO QUE EL MODELO INCLUÍA</text>
+    <rect x="32" y="72" width="240" height="250" rx="10" fill="url(#hot)" opacity=".85"/>
+    <path d="M52 300 H252 M52 260 H252 M52 220 H252 M52 180 H252" class="fine" opacity=".5"/>
+    <text x="300" y="112" class="b">conducción del calor</text>
+    <text x="300" y="154" class="b">gradiente geotérmico medido</text>
+    <text x="300" y="196" class="b">estado inicial fundido</text>
+    <text x="300" y="238" class="b">propiedades térmicas de la roca</text>
+    <text x="300" y="296" class="m">física real, aplicada con rigor</text>
+  </g>
+
+  <g transform="translate(835 165)">
+    <rect width="700" height="360" rx="24" class="out gold"/>
+    <text x="32" y="46" class="kw">LO QUE FALTABA</text>
+    <circle cx="152" cy="150" r="58" fill="#233d3e" stroke="#65d09a" stroke-width="3"/>
+    <path d="M152 96 V128 M152 172 V204 M98 150 H130 M174 150 H206" stroke="#65d09a" stroke-width="4"/>
+    <path d="M92 300 Q152 240 212 300 Q272 240 332 300" fill="none" stroke="#c8621f" stroke-width="6"/>
+    <text x="300" y="112" class="b">calentamiento radiogénico</text>
+    <text x="300" y="154" class="b">convección del manto</text>
+    <text x="300" y="196" class="b">condiciones iniciales inciertas</text>
+    <text x="300" y="238" class="b">estructura interna desconocida</text>
+    <text x="300" y="296" class="m">nada de esto podía conocerse aún</text>
+  </g>
+
+  <g marker-end="url(#a)" stroke="#5de1f2" stroke-width="6" fill="none">
+    <path d="M415 540V590"/><path d="M1185 540V590"/>
+  </g>
+
+  <g transform="translate(95 608)">
+    <rect width="1410" height="110" rx="26" class="out purple"/>
+    <text x="35" y="46" class="k">RESULTADO</text>
+    <text x="300" y="52" class="num">decenas de millones de años</text>
+    <text x="35" y="88" class="b">Una cifra calculable, comprobable y equivocada por dos órdenes de magnitud.</text>
+  </g>
+
+  <text x="800" y="790" text-anchor="middle" class="quote">Una ecuación correcta no salva un modelo con física omitida.</text>
+  <text x="65" y="832" class="m">Diagrama conceptual reproducible · ERR-GEO-KELVIN-001 · INV-EARTH-AGE-001 · 2026-08-12</text>
+</svg>
