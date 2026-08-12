@@ -25,8 +25,13 @@ function Get-RelativeDisplayPath {
     return $fullPath.Replace('\', '/')
 }
 
+# Solo contenido de investigación: se excluye todo lo generado o instalado
+# por el sitio Next.js, que también contiene archivos .md.
+$excludedDirs = '\.git', 'node_modules', '\.next', 'public', 'out'
+$excludePattern = '[\\/](' + ($excludedDirs -join '|') + ')[\\/]'
+
 $markdownFiles = Get-ChildItem -LiteralPath $RepositoryRoot -Recurse -File -Filter '*.md' |
-    Where-Object { $_.FullName -notmatch '[\\/]\.git[\\/]' }
+    Where-Object { $_.FullName -notmatch $excludePattern }
 
 foreach ($file in $markdownFiles) {
     $text = [System.IO.File]::ReadAllText($file.FullName)

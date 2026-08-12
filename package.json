@@ -1,0 +1,28 @@
+{
+  "name": "vida-tierra",
+  "version": "0.1.35",
+  "private": true,
+  "description": "Sitio de lectura para la investigacion epistemologica '¿Como sabemos lo que sabemos?'",
+  "scripts": {
+    "prepare-site": "node scripts/prepare-site.mjs",
+    "dev": "npm run prepare-site && next dev",
+    "build": "npm run prepare-site && next build",
+    "start": "next start",
+    "validate": "pwsh -NoProfile -File scripts/validate-repository.ps1",
+    "validate:citas": "node scripts/validate-citations.mjs"
+  },
+  "dependencies": {
+    "gray-matter": "^4.0.3",
+    "next": "^15.5.4",
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1",
+    "rehype-autolink-headings": "^7.1.0",
+    "rehype-slug": "^6.0.0",
+    "rehype-stringify": "^10.0.1",
+    "remark-gfm": "^4.0.1",
+    "remark-parse": "^11.0.0",
+    "remark-rehype": "^11.1.2",
+    "unified": "^11.0.5",
+    "unist-util-visit": "^5.0.0"
+  }
+}

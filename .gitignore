@@ -22,3 +22,11 @@ _borradores_locales/
 *.mp4
 *.mov
 *.psd
+
+# Sitio Next.js (generado)
+node_modules/
+.next/
+out/
+public/
+next-env.d.ts
+scripts/.citations-cache.json
