@@ -272,6 +272,12 @@ Una controversia no implica empate. Registra qué parte está realmente abierta,
 | `CONT-HOMININ-SPLIT-GENE-FLOW-001` | ¿Hubo flujo Homo–Pan tras el inicio? | modelos con migración pueden ajustar mejor algunas señales | ILS, estructura y selección producen patrones solapados | plausible; duración y magnitud no establecidas | C-D |
 | `CONT-HOMININ-SPLIT-SIMILARITY-001` | ¿Qué porcentaje de similitud es correcto? | identidad en bases alineables responde una métrica legítima | indels, copias, repeticiones y estructura usan otros denominadores | no hay porcentaje universal | A-SEM |
 | `CONT-HOMININ-SPLIT-FOSSIL-IDENTITY-001` | ¿Los fósiles cercanos pertenecen al linaje correcto? | caracteres derivados apoyan afinidades hominina/gorilina | convergencia y material fragmentario permiten posiciones rivales | edad más robusta que posición | B edad; C afinidad |
+| `CONT-EARLY-HOMININ-SAHEL-ASSOCIATION-001` | ¿Fémur y ulnae de TM 266 pertenecen a `Sahelanthropus`? | misma localidad y ausencia conocida de otro hominoideo | no articulados; otro hominoideo es posible | hipótesis parsimoniosa, no identidad | A procedencia; C taxón |
+| `CONT-EARLY-HOMININ-SAHEL-BIPED-001` | ¿Era `Sahelanthropus` bípedo habitual? | 2022/2026 recuperan rasgos de carga bípeda | 2024 cuestiona exclusividad; forma general tipo `Pan` | alguna bipedestación favorecida; frecuencia abierta | B-COND |
+| `CONT-EARLY-HOMININ-ORRORIN-AFFINITY-001` | ¿Qué prueba el fémur de `Orrorin`? | corteza y geometría apoyan bipedalismo | mosaico con apes miocenos no fija rama/ancestro | función mejor apoyada que genealogía | B función; C afinidad |
+| `CONT-EARLY-HOMININ-ARDI-LOCOMOTION-001` | ¿Trepa cuidadosa generalizada o repertorio africano suspensorio? | reconstrucción 2009 reduce suspensión | pie 2019, mano 2021 y talus 2025 recuperan señales africanas | repertorio mosaico; pesos abiertos | B-COND |
+| `CONT-EARLY-HOMININ-ARDI-HABITAT-001` | ¿Woodland/bosque abierto o sabana arbolada? | fauna/botánica apoyan cobertura leñosa | paleosuelos permiten ≤25 % de dosel | mosaico y escala explican parte del desacuerdo | B-LOCAL |
+| `CONT-EARLY-HOMININ-PHYLOGENY-001` | ¿Qué candidatos están dentro de Hominini? | caracteres derivados y matrices apoyan rama humana | homoplasia, ausencia y asociación permiten posiciones externas | Ardi más estable; Sahel/Orrorin abiertos | B-C para Ardi; C para otros |
 
 ## CONT-COSMOS-H0-001 — Dos rutas hacia la tasa actual
 
@@ -2049,3 +2055,39 @@ Identidad de bases alineables y contenido estructuralmente distinto miden aspect
 `Sahelanthropus` y `Chororapithecus` importan por sus edades; su poder calibrador depende de caracteres y posiciones discutidos.
 
 **Prueba discriminatoria:** material asociado craneal y postcraneal, contexto directo y matrices que incluyan convergencia funcional.
+
+## CONT-EARLY-HOMININ-SAHEL-ASSOCIATION-001 — Una localidad no articula un cuerpo
+
+El fémur y las ulnae comparten TM 266 con el holotipo, y atribuirlos al único hominoideo reconocido es parsimonioso. Pero no estaban articulados ni son del mismo individuo demostrado.
+
+**Prueba discriminatoria:** nuevos restos dentales y postcraneales articulados o diagnósticos que demuestren uno o más hominoideos en la localidad.
+
+## CONT-EARLY-HOMININ-SAHEL-BIPED-001 — Rasgos derivados dentro de forma tipo `Pan`
+
+Los análisis de 2022 y 2026 favorecen bipedalismo temprano; la crítica de 2024 niega que los rasgos previos demuestren habitualidad. La combinación de tamaño/forma general tipo `Pan` y rasgos de cadera/rodilla bípedos es precisamente el mosaico a explicar.
+
+**Prueba discriminatoria:** fémures asociados adicionales, muestras comparativas amplias y predicción fuera de muestra de frecuencia/carga.
+
+## CONT-EARLY-HOMININ-ORRORIN-AFFINITY-001 — Cargar en dos piernas no identifica un abuelo
+
+La geometría femoral de `Orrorin` apoya carga bípeda, pero las afinidades varían con inclusión de simios miocenos, australopitecos y Homo. Función y parentesco comparten forma, no inferencia.
+
+**Prueba discriminatoria:** cráneo y postcráneo asociados con caracteres independientes y matrices que reproduzcan la función sin usarla dos veces.
+
+## CONT-EARLY-HOMININ-ARDI-LOCOMOTION-001 — Un repertorio sin análogo vivo
+
+La interpretación inicial de trepa cuidadosa y no suspensoria compite con análisis de pie, mano y talus que recuperan afinidades de simios africanos. Todos admiten bipedalismo con vida arbórea; difieren en el repertorio ancestral.
+
+**Prueba discriminatoria:** modelos multirregionales del esqueleto que predigan conjuntamente carga de pelvis, pie, mano y tobillo en muestras experimentales.
+
+## CONT-EARLY-HOMININ-ARDI-HABITAT-001 — Dosel, dieta y parche no miden el mismo radio
+
+Fauna, fitolitos y botánica favorecen woodland; paleosuelos isotópicos permiten una matriz más abierta. Parte de la controversia surge de categorías y escalas distintas.
+
+**Prueba discriminatoria:** transectos estratigráficos co-localizados que integren paleosuelos, fitolitos, fauna e isótopos con funciones espaciales declaradas.
+
+## CONT-EARLY-HOMININ-PHYLOGENY-001 — Basal, lateral o externo
+
+Más caracteres estabilizan `Ar. ramidus` como hominino basal. `Sahelanthropus` y `Orrorin` conservan mayor ausencia y asociación indirecta; bipedalidad podría ser convergente o ancestral.
+
+**Prueba discriminatoria:** nuevos conjuntos asociados, matrices abiertas con simios miocenos y análisis de sensibilidad a cada carácter funcional.

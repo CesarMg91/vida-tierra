@@ -298,6 +298,22 @@ El propósito no es presentar la ciencia como una sucesión de fracasos ni como 
 | `ERR-HOMININ-SPLIT-T2T-FINAL-001` | un genoma T2T representa toda la especie | referencia convertida en pangenoma | múltiples individuos/especies y diversidad | DOCUMENTADO |
 | `ERR-HOMININ-SPLIT-CHROMOSOME2-CLOCK-001` | cromosoma 2 fecha o causó la separación | carácter de rama convertido en reloj/mecanismo | sintenia separada de edad y fenotipo | DOCUMENTADO |
 | `ERR-HOMININ-SPLIT-HYBRIDIZATION-FACT-001` | la hibridación tardía Homo–Pan es un hecho | preferencia de modelo convertida en observación | selección, ILS, estructura y pruebas predictivas | DOCUMENTADO |
+| `ERR-EARLY-HOMININ-OLDEST-ANCESTOR-001` | el candidato más antiguo es nuestro ancestro | edad convertida en genealogía | rango + filogenia + ramas alternativas | DOCUMENTADO |
+| `ERR-EARLY-HOMININ-BIPED-TAXON-001` | todo bípedo mioceno es hominino | función convertida en sinapomorfía exclusiva | polarización, convergencia y caracteres múltiples | DOCUMENTADO |
+| `ERR-EARLY-HOMININ-SAME-LOCALITY-001` | piezas de una localidad son un individuo | proximidad convertida en articulación | tafonomía, congruencia y asociación graduada | DOCUMENTADO |
+| `ERR-EARLY-HOMININ-HYPODIGM-BODY-001` | el hipodigma describe un cuerpo real | varios individuos compuestos como esqueleto | pieza, individuo y taxón separados | DOCUMENTADO |
+| `ERR-EARLY-HOMININ-ROCK-BIRTHDAY-001` | la fecha de una toba es la edad exacta del fósil | horizonte convertido en cumpleaños | intervalo estratigráfico y retrabajo | DOCUMENTADO |
+| `ERR-EARLY-HOMININ-PRECISION-IDENTITY-001` | un reloj preciso garantiza la asociación | incertidumbres de objeto mezcladas | geocronología y procedencia auditadas aparte | DOCUMENTADO |
+| `ERR-EARLY-HOMININ-RECONSTRUCTION-OBSERVED-001` | cráneo/pelvis reconstruidos son formas observadas | modelo tratado como muestra intacta | landmarks, alternativas y sensibilidad | DOCUMENTADO |
+| `ERR-EARLY-HOMININ-SAHEL-FINAL-001` | 2026 resolvió definitivamente `Sahelanthropus` | nuevo análisis borra asociación/filogenia | separar apoyo bípedo, taxón y ancestro | DOCUMENTADO |
+| `ERR-EARLY-HOMININ-ORRORIN-HOMO-001` | el fémur de `Orrorin` es más humano y lleva a Homo | función/parecido convertidos en línea | muestra miocena, australopitecos y mosaico | DOCUMENTADO |
+| `ERR-EARLY-HOMININ-ARDI-LCA-001` | Ardi es el último ancestro Homo–Pan | taxón posterior usado como nodo | rango, rama y ancestro desconocido | DOCUMENTADO |
+| `ERR-EARLY-HOMININ-ARDI-MODERN-GAIT-001` | Ardi caminaba como humano moderno | bipedalidad colapsa geometrías distintas | pelvis, hallux, pie y repertorio separados | DOCUMENTADO |
+| `ERR-EARLY-HOMININ-CANINE-SOCIAL-001` | caninos pequeños prueban monogamia/provisión | función dental convertida en organización social | alternativas y evidencia conductual independiente | DOCUMENTADO |
+| `ERR-EARLY-HOMININ-HABITAT-CAUSE-001` | bosque o sabana causó el bipedalismo | correlación local convertida en selección | mecanismo, comparación y predicción | DOCUMENTADO |
+| `ERR-EARLY-HOMININ-SAVANNA-UNIFORM-001` | África miocena fue una sabana uniforme | proxy/localidad universalizados | escala, parches y múltiples proxies | DOCUMENTADO |
+| `ERR-EARLY-HOMININ-MOSAIC-LADDER-001` | rasgos mosaico son pasos intermedios de una escalera | modularidad convertida en progreso | árbol ramificado y módulos funcionales | DOCUMENTADO |
+| `ERR-EARLY-HOMININ-ONE-LOCOMOTION-001` | “bípedo” excluye trepa o suspensión | repertorio reducido a etiqueta binaria | frecuencia y regiones anatómicas múltiples | DOCUMENTADO |
 | `ERR-LUNAR-APOLLO-INDEPENDENT-001` | tratar sitios Apollo como testigos independientes | ejecta local y sin transporte global | cartografía, Th, geoquímica y escalado de Imbrium | DOCUMENTADO |
 | `ERR-IMPACT-MOON-EARTH-001` | convertir cronología lunar en esterilización terrestre | escala constante de tasa y efecto | dinámica, hidrocodes, atmósfera/océano y archivo terrestre | DOCUMENTADO |
 | `ERR-LUNAR-ABSENCE-001` | “sin fundido antiguo” = “sin impacto antiguo” | supervivencia uniforme hacia atrás | sesgo de preservación y evidencia positiva `4.22–4.33 Ga` | DOCUMENTADO |
@@ -2691,3 +2707,131 @@ La propuesta de hibridación tardía compite con ILS, estructura y selección.
 ### Corrección
 
 Exigir predicciones exclusivas, validación fuera de muestra y comparación de modelos.
+
+## ERR-EARLY-HOMININ-OLDEST-ANCESTOR-001 — La antigüedad como parentesco
+
+Un fósil anterior puede ser rama lateral o quedar fuera del clado.
+
+### Corrección
+
+Combinar rango, caracteres y topologías; mantener “ancestro directo” como hipótesis extraordinaria.
+
+## ERR-EARLY-HOMININ-BIPED-TAXON-001 — Dos piernas como pasaporte
+
+Bipedalidad puede ser facultativa, convergente o más antigua que la rama.
+
+### Corrección
+
+Polarizar el rasgo y exigir un conjunto craneodental/postcraneal independiente.
+
+## ERR-EARLY-HOMININ-SAME-LOCALITY-001 — Una coordenada como articulación
+
+TM 266 contiene piezas cercanas, no un esqueleto demostrado.
+
+### Corrección
+
+Reportar articulación, superficie, transporte, duplicación de elementos y taxones alternativos.
+
+## ERR-EARLY-HOMININ-HYPODIGM-BODY-001 — Un collage que nunca vivió
+
+El holotipo dental y fémures de `Orrorin` representan varios individuos.
+
+### Corrección
+
+Marcar en cada inferencia si pertenece a pieza, individuo o hipodigma.
+
+## ERR-EARLY-HOMININ-ROCK-BIRTHDAY-001 — La toba como acta de nacimiento
+
+El reloj fecha un mineral/horizonte; el organismo pudo morir dentro de un intervalo.
+
+### Corrección
+
+Conservar distancia estratigráfica, correlación y posibilidad de retrabajo.
+
+## ERR-EARLY-HOMININ-PRECISION-IDENTITY-001 — Decimales que reparan procedencia
+
+Una edad muy precisa no demuestra qué taxón produjo el hueso.
+
+### Corrección
+
+Mantener columnas independientes de error cronológico, asociación y afinidad.
+
+## ERR-EARLY-HOMININ-RECONSTRUCTION-OBSERVED-001 — El modelo convertido en original
+
+Toumaï y la pelvis de Ardi requirieron retrodeformación o recomposición.
+
+### Corrección
+
+Publicar landmarks, variantes y sensibilidad de la conclusión a reconstrucciones plausibles.
+
+## ERR-EARLY-HOMININ-SAHEL-FINAL-001 — Una actualización como sentencia
+
+El análisis de 2026 fortalece bipedalidad, pero conserva forma tipo `Pan` y asociación indirecta.
+
+### Corrección
+
+Actualizar el peso de evidencia sin borrar controversias de pertenencia y filogenia.
+
+## ERR-EARLY-HOMININ-ORRORIN-HOMO-001 — Un fémur hacia nosotros
+
+La semejanza de carga no hace a `Orrorin` más próximo a `Homo` que a australopitecos.
+
+### Corrección
+
+Separar función, espacio morfométrico y árbol; incluir simios miocenos.
+
+## ERR-EARLY-HOMININ-ARDI-LCA-001 — Ardi ocupando el nodo
+
+`Ar. ramidus` vivió más de un millón de años después del split modelado.
+
+### Corrección
+
+Usarlo para restringir estados ancestrales, no para identificar al ancestro.
+
+## ERR-EARLY-HOMININ-ARDI-MODERN-GAIT-001 — Todo bipedalismo como el nuestro
+
+Hallux divergente, pie y pelvis indican una solución distinta.
+
+### Corrección
+
+Describir cargas y módulos, no proyectar una zancada humana completa.
+
+## ERR-EARLY-HOMININ-CANINE-SOCIAL-001 — Un diente como familia
+
+Caninos reducidos admiten varias ecologías y sistemas reproductivos.
+
+### Corrección
+
+Tratar vida social como hipótesis con predicciones independientes, no como lectura dental.
+
+## ERR-EARLY-HOMININ-HABITAT-CAUSE-001 — Paisaje como mecanismo automático
+
+Woodland o sabana correlacionados no prueban qué ventaja seleccionó bipedalidad.
+
+### Corrección
+
+Especificar coste/beneficio, comparación y predicciones entre ambientes.
+
+## ERR-EARLY-HOMININ-SAVANNA-UNIFORM-001 — Un continente de un color
+
+Toros-Menalla y Aramis preservan parches y proxies locales.
+
+### Corrección
+
+Declarar radio, estación, productor y heterogeneidad de cada indicador.
+
+## ERR-EARLY-HOMININ-MOSAIC-LADDER-001 — Módulos como peldaños
+
+La combinación de rasgos no ordena taxones en progreso inevitable.
+
+### Corrección
+
+Representar ramas y caracteres separados, incluyendo convergencias y reversiones.
+
+## ERR-EARLY-HOMININ-ONE-LOCOMOTION-001 — Una etiqueta excluyente
+
+Los fósiles pueden cargar en dos piernas y seguir trepando o suspendiéndose.
+
+### Corrección
+
+Reconstruir repertorios con frecuencia incierta y evidencia por región anatómica.

@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Dos cadenas: de fragmento a taxón y de hueso a locomoción</title>
+  <desc id="desc">Dos rutas paralelas muestran cómo la asociación y la filogenia difieren de la biomecánica locomotora, con una zona de unión condicionada y saltos prohibidos.</desc>
+  <defs>
+    <linearGradient id="bg2" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#0a1622"/><stop offset="1" stop-color="#21172a"/></linearGradient>
+    <marker id="a2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10z" fill="#65c7c4"/></marker>
+    <style>.h2{font:700 34px system-ui,Segoe UI,sans-serif;fill:#f5e8ce}.sh{font:700 23px system-ui,Segoe UI,sans-serif;fill:#f1c681}.t{font:600 18px system-ui,Segoe UI,sans-serif;fill:#e5edf1}.n2{font:500 16px system-ui,Segoe UI,sans-serif;fill:#b8c9d3}.box{fill:#132b3d;stroke:#4a98a2;stroke-width:2}.arr{stroke:#65c7c4;stroke-width:4;fill:none;marker-end:url(#a2)}.bad{font:700 17px system-ui,Segoe UI,sans-serif;fill:#f0a1a1}</style>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg2)"/>
+  <text x="70" y="70" class="h2">Dos rutas que deben reunirse sin confundirse</text>
+  <text x="70" y="108" class="n2" style="font-size:19px">La pertenencia taxonómica no sale del mismo cálculo que la función locomotora.</text>
+
+  <text x="70" y="165" class="sh">RUTA A · FRAGMENTO → TAXÓN</text>
+  <g>
+    <rect x="70" y="195" width="220" height="105" rx="18" class="box"/><text x="92" y="233" class="t">PIEZA</text><text x="92" y="263" class="n2">inventario · integridad</text>
+    <rect x="335" y="195" width="220" height="105" rx="18" class="box"/><text x="357" y="233" class="t">PROCEDENCIA</text><text x="357" y="263" class="n2">localidad · horizonte</text>
+    <rect x="600" y="195" width="220" height="105" rx="18" class="box"/><text x="622" y="233" class="t">ASOCIACIÓN</text><text x="622" y="263" class="n2">individuo · hipodigma</text>
+    <rect x="865" y="195" width="220" height="105" rx="18" class="box"/><text x="887" y="233" class="t">DIAGNÓSTICO</text><text x="887" y="263" class="n2">variación · caracteres</text>
+    <rect x="1130" y="195" width="220" height="105" rx="18" class="box"/><text x="1152" y="233" class="t">MATRIZ</text><text x="1152" y="263" class="n2">outgroups · soporte</text>
+    <rect x="1395" y="195" width="145" height="105" rx="18" fill="#d8aa65"/><text x="1416" y="233" style="font:700 18px system-ui;fill:#15202a">RAMA</text><text x="1416" y="263" style="font:600 15px system-ui;fill:#28323a">condicionada</text>
+    <path d="M290 248H327" class="arr"/><path d="M555 248H592" class="arr"/><path d="M820 248H857" class="arr"/><path d="M1085 248H1122" class="arr"/><path d="M1350 248H1387" class="arr"/>
+  </g>
+
+  <text x="70" y="385" class="sh">RUTA B · HUESO → REPERTORIO LOCOMOTOR</text>
+  <g>
+    <rect x="70" y="415" width="220" height="105" rx="18" class="box"/><text x="92" y="453" class="t">FORMA</text><text x="92" y="483" class="n2">CT · deformación</text>
+    <rect x="335" y="415" width="220" height="105" rx="18" class="box"/><text x="357" y="453" class="t">GEOMETRÍA</text><text x="357" y="483" class="n2">corteza · articulación</text>
+    <rect x="600" y="415" width="220" height="105" rx="18" class="box"/><text x="622" y="453" class="t">ALOMETRÍA</text><text x="622" y="483" class="n2">tamaño · sexo · edad</text>
+    <rect x="865" y="415" width="220" height="105" rx="18" class="box"/><text x="887" y="453" class="t">COMPARACIÓN</text><text x="887" y="483" class="n2">muestra · conducta viva</text>
+    <rect x="1130" y="415" width="220" height="105" rx="18" class="box"/><text x="1152" y="453" class="t">MECÁNICA</text><text x="1152" y="483" class="n2">carga · predicción</text>
+    <rect x="1395" y="415" width="145" height="105" rx="18" fill="#d8aa65"/><text x="1416" y="453" style="font:700 18px system-ui;fill:#15202a">FUNCIÓN</text><text x="1416" y="483" style="font:600 15px system-ui;fill:#28323a">probable</text>
+    <path d="M290 468H327" class="arr"/><path d="M555 468H592" class="arr"/><path d="M820 468H857" class="arr"/><path d="M1085 468H1122" class="arr"/><path d="M1350 468H1387" class="arr"/>
+  </g>
+
+  <path d="M1468 307V407" stroke="#d8aa65" stroke-width="4" stroke-dasharray="10 9"/>
+  <rect x="1110" y="570" width="430" height="105" rx="20" fill="#272033" stroke="#d8aa65" stroke-width="2"/>
+  <text x="1135" y="608" class="sh" style="font-size:20px">UNIÓN CONDICIONADA</text>
+  <text x="1135" y="638" class="n2">función + caracteres + polaridad</text><text x="1135" y="663" class="n2">pueden fortalecer una rama; no identificar un ancestro</text>
+  <path d="M1468 520V562" stroke="#d8aa65" stroke-width="4" marker-end="url(#a2)"/>
+
+  <rect x="70" y="590" width="960" height="200" rx="22" fill="#241b28" stroke="#a95666" stroke-width="2"/>
+  <text x="98" y="630" class="bad">SALTOS PROHIBIDOS</text>
+  <text x="98" y="670" class="t">misma localidad → mismo individuo</text><text x="515" y="670" class="t">rasgo bípedo → hominino</text>
+  <text x="98" y="710" class="t">edad antigua → ancestro</text><text x="515" y="710" class="t">morfología intermedia → eslabón lineal</text>
+  <text x="98" y="750" class="t">woodland/sabana → causa</text><text x="515" y="750" class="t">reconstrucción → anatomía observada</text>
+
+  <rect x="1110" y="710" width="430" height="80" rx="20" fill="#17392f" stroke="#5fbf91" stroke-width="2"/>
+  <text x="1135" y="744" style="font:700 18px system-ui;fill:#9ee0bb">SALIDA VÁLIDA</text>
+  <text x="1135" y="772" class="n2">taxón candidato + repertorio con incertidumbre</text>
+  <text x="1310" y="855" class="n2">INV 036 · diseño epistemológico</text>
+</svg>

@@ -26,6 +26,7 @@ fuentes:
   - SRC-FLORES-2010
   - SRC-KOSCHWANEZ-2011
   - SRC-SCHIRRMEISTER-2011
+  - SRC-SCHIRRMEISTER-2013
   - SRC-RATCLIFF-2012
   - SRC-ALEGADO-2012
   - SRC-FISHER-2013
@@ -205,7 +206,7 @@ Un agregado milimétrico puede tener un solo tipo celular; una colonia microscó
 
 Oxígeno permite rendimientos energéticos altos y condiciona difusión en cuerpos grandes. El registro conecta algunos organismos macroscópicos con ambientes oxigenados. Pero una correlación temporal no constituye un interruptor universal.
 
-Las cianobacterias multicelulares preceden o acompañan grandes cambios de oxígeno bajo relojes muy condicionados (`SRC-SCHIRRMEISTER-2011`). En el experimento de 2023, las líneas anaerobias de levadura alcanzaron los grupos más grandes, porque evitaron una limitación de oxígeno interna que restringía otros tratamientos (`SRC-BOZDAG-2023`). El resultado no vuelve irrelevante al oxígeno: muestra que su efecto depende de metabolismo, tamaño, transporte y ambiente (`CLAIM-MULTI-OXYGEN-001`).
+Las cianobacterias multicelulares preceden o acompañan grandes cambios de oxígeno bajo relojes muy condicionados (`SRC-SCHIRRMEISTER-2011`, `SRC-SCHIRRMEISTER-2013`). En el experimento de 2023, las líneas anaerobias de levadura alcanzaron los grupos más grandes, porque evitaron una limitación de oxígeno interna que restringía otros tratamientos (`SRC-BOZDAG-2023`). El resultado no vuelve irrelevante al oxígeno: muestra que su efecto depende de metabolismo, tamaño, transporte y ambiente (`CLAIM-MULTI-OXYGEN-001`).
 
 ## 12. El fósil conserva cuerpos, no niveles de selección
 

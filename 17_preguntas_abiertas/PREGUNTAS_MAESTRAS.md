@@ -206,6 +206,15 @@ La clasificación expresa cuánto restringe hoy la evidencia, no cuán interesan
 | `OPEN-HUMAN-CONSCIOUS-001` | ¿Cuándo apareció conciencia simbólica? | arte/ritual prueban conductas en contextos concretos | definición y subdeterminación psicológica | E para experiencia interna |
 | `OPEN-NEAND-EXT-001` | ¿Por qué desaparecieron poblaciones neandertales? | mezcla, demografía, clima y competencia contribuyeron | causas correlacionadas y datos regionales | C-D |
 | `OPEN-AMERICAS-001` | ¿Cuándo y por qué rutas llegaron los primeros humanos a América? | presencia pre-Clovis y White Sands ~23–21 ka | validez/escasez de yacimientos y rutas | C |
+| `OPEN-EARLY-HOMININ-SAHEL-ASSOCIATION-001` | ¿Pertenecen fémur y ulnae de TM 266 a `Sahelanthropus`? | misma localidad y único hominoideo reconocido | no articulados; puede existir otro taxón | C |
+| `OPEN-EARLY-HOMININ-SAHEL-BIPED-001` | ¿Con qué frecuencia y mecánica caminaba en dos piernas? | rasgos femorales 2026 apoyan bipedalidad | forma tipo `Pan`, muestra única y conducta no observada | C-D |
+| `OPEN-EARLY-HOMININ-ORRORIN-HYPODIGM-001` | ¿Cuántos taxones/individuos contiene el hipodigma de `Orrorin`? | contexto y diagnóstico permiten una especie operativa | piezas dispersas y muestreo incompleto | C |
+| `OPEN-EARLY-HOMININ-ARDI-RECONSTRUCTION-001` | ¿Qué aspectos de pelvis y cráneo de Ardi son robustos a otra reconstrucción? | CT y remontajes generan anatomía coherente | deformación severa y landmarks/modelos alternativos | C-D |
+| `OPEN-EARLY-HOMININ-LCA-LOCOMOTION-001` | ¿Cómo se movía el último ancestro Homo–Pan? | fósiles y simios vivos restringen repertorios | homoplasia, ramas laterales y ausencia del nodo | D |
+| `OPEN-EARLY-HOMININ-PHYLOGENY-001` | ¿Qué candidatos miocenos están realmente dentro de Hominini? | Ardi estable; rasgos acumulativos en Sahel/Orrorin | caracteres ausentes, funcionales y asociados indirectamente | C-D |
+| `OPEN-EARLY-HOMININ-HABITAT-SCALE-001` | ¿Cómo variaban cobertura y recursos alrededor de Aramis y TM 266? | múltiples proxies demuestran heterogeneidad | cada proxy integra escalas y productores distintos | C |
+| `OPEN-EARLY-HOMININ-SOCIAL-001` | ¿Qué conducta social acompañó la reducción canina? | dimorfismo y función dental restringen algunas hipótesis | sistema social no fosiliza y existen muchas alternativas | D-E |
+| `OPEN-EARLY-HOMININ-DIVERSITY-001` | ¿Cuántos linajes bípedos coexistieron entre `7 y 4.4 Ma`? | tres géneros nombrados y mosaicos distintos | hipodigmas escasos, taxonomía y geografía desigual | D |
 
 ## Tipos de “no sabemos”
 

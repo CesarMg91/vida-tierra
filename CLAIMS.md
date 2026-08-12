@@ -507,6 +507,34 @@ Este archivo es el índice canónico. La letra de confianza califica exactamente
 | `CLAIM-HOMININ-SPLIT-CHROMOSOME2-001` | La fusión que originó el cromosoma humano 2 es un cambio derivado de nuestra rama, no un reloj ni una causa de humanidad. | A estructura; A-SEM alcance | AUDITADO | `EVID-HOMININ-SPLIT-CHROMOSOME2-001` | `INV-HOMININ-SPLIT-001` |
 | `CLAIM-HOMININ-SPLIT-STRUCTURAL-VARIATION-001` | Genomas T2T catalogan en promedio ~`327 Mb` o `10 %` estructuralmente divergente por linaje; esa métrica no equivale a porcentaje de bases distintas. | B-COND | AUDITADO | `EVID-HOMININ-SPLIT-T2T-001` | `INV-HOMININ-SPLIT-001` |
 | `CLAIM-HOMININ-SPLIT-RECONSTRUCTION-LIMIT-001` | Ningún simio vivo ni fósil aislado reproduce al ancestro común; su anatomía debe reconstruirse carácter por carácter. | A-SEM; C anatomía | AUDITADO | síntesis comparada de `EVID-HOMININ-SPLIT-*` | `INV-HOMININ-SPLIT-001` |
+| `CLAIM-EARLY-HOMININ-SCOPE-001` | “Primer hominino” puede significar fósil más antiguo, rama basal, primer bípedo o ancestro directo; son preguntas distintas. | A-SEM | AUDITADO | `EVID-EARLY-HOMININ-METHOD-001` | `INV-HOMININ-EARLY-001` |
+| `CLAIM-EARLY-HOMININ-DEFINITION-001` | Hominino designa pertenencia al lado humano tras el split Homo–Pan y se infiere aquí con caracteres polarizados, no con parecido general. | A-SEM; C-COND asignación | AUDITADO | `EVID-EARLY-HOMININ-METHOD-001`, `EVID-ARDI-PHYLOGENY-001` | `INV-HOMININ-EARLY-001` |
+| `CLAIM-EARLY-HOMININ-MOSAIC-001` | Caninos, cráneo, pelvis, fémur, mano y pie evolucionan modularmente; su combinación no es un “intermedio” lineal. | A-SEM; B fósiles | AUDITADO | `EVID-SAHEL-POSTCRANIAL-001`, `EVID-ORRORIN-MOSAIC-001`, `EVID-ARDI-CLIMBING-001` | `INV-HOMININ-EARLY-001` |
+| `CLAIM-EARLY-HOMININ-ASSOCIATION-001` | Articulación, misma superficie, misma localidad e hipodigma ofrecen fuerzas distintas de asociación y deben preceder a la inferencia funcional. | A-MET | AUDITADO | `EVID-SAHEL-ASSOCIATION-001`, `EVID-ORRORIN-HYPODIGM-001`, `EVID-ARDI-SKELETON-001` | `INV-HOMININ-EARLY-001` |
+| `CLAIM-EARLY-HOMININ-AGE-CONTEXT-001` | Los relojes fechan minerales, sedimentos o polaridad; asignar la edad al fósil exige horizonte, correlación y control de retrabajo. | A-MET; B-COND | AUDITADO | `EVID-EARLY-HOMININ-AGE-001` | `INV-HOMININ-EARLY-001` |
+| `CLAIM-EARLY-HOMININ-BIPEDALISM-001` | Forma articular, corteza e inserciones restringen cargas habituales mediante comparación y biomecánica, no observan una zancada pasada. | A-SEM; B-COND | AUDITADO | `EVID-SAHEL-POSTCRANIAL-001`, `EVID-ORRORIN-FEMUR-001`, `EVID-ARDI-PELVIS-001` | `INV-HOMININ-EARLY-001` |
+| `CLAIM-EARLY-HOMININ-BIPED-NOT-TAXON-001` | Alguna bipedalidad no demuestra por sí sola Hominini si el rasgo fue ancestral, facultativo o convergente. | A-SEM; C historia | AUDITADO | `EVID-EARLY-HOMININ-METHOD-001`, `EVID-SAHEL-2026-001` | `INV-HOMININ-EARLY-001` |
+| `CLAIM-SAHELANTHROPUS-AGE-001` | TM 266 se sitúa prudentemente cerca de `7 Ma`; biochronología y enterramiento cosmogénico no proporcionan un día ni igual precisión a todos los restos. | B-COND | AUDITADO | `EVID-EARLY-HOMININ-AGE-001` | `INV-HOMININ-EARLY-001` |
+| `CLAIM-SAHELANTHROPUS-CRANIUM-001` | El cráneo deformado de Toumaï combina rasgos propuestos homininos; su base reconstruida es compatible con postura erguida, no una marcha observada. | B anatomía; C-COND función | AUDITADO | `EVID-SAHEL-CRANIAL-001` | `INV-HOMININ-EARLY-001` |
+| `CLAIM-SAHELANTHROPUS-ASSOCIATION-001` | El fémur y dos ulnae de TM 266 comparten localidad con el cráneo, pero no estaban articulados ni pertenecen al mismo individuo demostrado. | A procedencia; C taxón | AUDITADO | `EVID-SAHEL-ASSOCIATION-001` | `INV-HOMININ-EARLY-001` |
+| `CLAIM-SAHELANTHROPUS-BIPED-2026-001` | La reevaluación de 2026 identifica proporciones y rasgos femorales compatibles con bipedalismo temprano pese a tamaño y forma general próximos a `Pan`. | B-COND | AUDITADO | `EVID-SAHEL-2026-001` | `INV-HOMININ-EARLY-001` |
+| `CLAIM-SAHELANTHROPUS-ARBOREAL-001` | Las ulnae y el mosaico postcraneal apoyan actividad arbórea sustancial junto con alguna bipedestación; su frecuencia relativa no está observada. | B-COND | AUDITADO | `EVID-SAHEL-POSTCRANIAL-001`, `EVID-SAHEL-2026-001` | `INV-HOMININ-EARLY-001` |
+| `CLAIM-SAHELANTHROPUS-HABITAT-001` | Sedimentos, fauna y fitolitos de Toros-Menalla apoyan un mosaico lacustre con cobertura leñosa variable, no sabana uniforme ni causalidad locomotora. | B-LOCAL | AUDITADO | `EVID-SAHEL-HABITAT-001` | `INV-HOMININ-EARLY-001` |
+| `CLAIM-SAHELANTHROPUS-STATUS-001` | La condición hominina de `Sahelanthropus` es un caso acumulativo plausible y discutido; ni edad ni bipedalidad identifican ancestro directo. | C-COND | AUDITADO | `EVID-SAHEL-CRANIAL-001`, `EVID-SAHEL-2026-001` | `INV-HOMININ-EARLY-001` |
+| `CLAIM-ORRORIN-AGE-001` | `Orrorin` se resume cerca de `6 Ma`; `5.88–5.72 Ma` corresponde al Lukeino superior de Kapcheberek y no a toda ocurrencia. | B-COND | AUDITADO | `EVID-ORRORIN-AGE-001` | `INV-HOMININ-EARLY-001` |
+| `CLAIM-ORRORIN-HYPODIGM-001` | El holotipo mandibular y los fémures de `Orrorin` pertenecen a un hipodigma de varios individuos/localidades, no a un esqueleto. | A-B | AUDITADO | `EVID-ORRORIN-HYPODIGM-001` | `INV-HOMININ-EARLY-001` |
+| `CLAIM-ORRORIN-FEMUR-001` | Geometría y distribución cortical de fémures atribuidos a `Orrorin` apoyan carga bípeda habitual mejor que afinidad directa con `Homo`. | B-COND | AUDITADO | `EVID-ORRORIN-FEMUR-001` | `INV-HOMININ-EARLY-001` |
+| `CLAIM-ORRORIN-MOSAIC-001` | El fémur de `Orrorin` comparte aspectos con simios miocenos y homininos posteriores; muestra y alometría condicionan su posición funcional. | B-COND | AUDITADO | `EVID-ORRORIN-MOSAIC-001` | `INV-HOMININ-EARLY-001` |
+| `CLAIM-ARDIPITHECUS-KADABBA-001` | `Ar. kadabba` (`~5.8–5.2 Ma`) se distingue por un C/P3 más primitivo; la escasez postcraneal limita su locomoción. | B taxón/edad; C función | AUDITADO | `EVID-ARDI-KADABBA-001` | `INV-HOMININ-EARLY-001` |
+| `CLAIM-ARDIPITHECUS-RAMIDUS-AGE-001` | Toba, estratigrafía y geoquímica sitúan Aramis cerca de `4.4 Ma`; es edad del depósito, no cumpleaños del individuo. | B | AUDITADO | `EVID-ARDI-AGE-001` | `INV-HOMININ-EARLY-001` |
+| `CLAIM-ARDIPITHECUS-SKELETON-001` | ARA-VP-6/500 asocia muchas regiones de un individuo, pero aplastamiento y fragmentación hacen modeladas varias formas reconstruidas. | A asociación; C forma | AUDITADO | `EVID-ARDI-SKELETON-001` | `INV-HOMININ-EARLY-001` |
+| `CLAIM-ARDIPITHECUS-BIPED-001` | La pelvis reconstruida, pie y base craneal apoyan bipedalismo terrestre temprano sin equivaler a eficacia humana moderna. | B-COND | AUDITADO | `EVID-ARDI-PELVIS-001`, `EVID-ARDI-FOOT-001` | `INV-HOMININ-EARLY-001` |
+| `CLAIM-ARDIPITHECUS-FOOT-001` | El pie de Ardi combinó hallux divergente/prensil con rigidez y propulsión lateral; no tiene un análogo vivo exacto. | B-COND | AUDITADO | `EVID-ARDI-FOOT-001` | `INV-HOMININ-EARLY-001` |
+| `CLAIM-ARDIPITHECUS-CLIMBING-001` | Mano, pie y talus apoyan prensión, suspensión o trepa vertical junto con impulso bípedo; el peso de cada conducta permanece abierto. | B-COND | AUDITADO | `EVID-ARDI-CLIMBING-001` | `INV-HOMININ-EARLY-001` |
+| `CLAIM-ARDIPITHECUS-DENTITION-001` | Dentición y caninos de `Ar. ramidus` restringen dieta y dimorfismo, pero no demuestran monogamia, provisión ni estructura familiar. | B anatomía; D conducta | AUDITADO | `EVID-ARDI-DENTITION-001` | `INV-HOMININ-EARLY-001` |
+| `CLAIM-ARDIPITHECUS-PALEOENVIRONMENT-001` | Aramis fue un ambiente arbolado/abierto en mosaico; proxies discrepan sobre cobertura y escala, no sostienen una dicotomía causal simple. | B-LOCAL | AUDITADO | `EVID-ARDI-HABITAT-001` | `INV-HOMININ-EARLY-001` |
+| `CLAIM-ARDIPITHECUS-PHYLOGENY-001` | Una matriz ampliada de ~`26 %` a ~`78 %` de caracteres recupera `Ar. ramidus` como hominino basal, condicionado a codificación y modelo. | B-COND | AUDITADO | `EVID-ARDI-PHYLOGENY-001` | `INV-HOMININ-EARLY-001` |
+| `CLAIM-EARLY-HOMININ-ANCESTRY-LIMIT-001` | Ningún candidato es ancestro directo demostrado ni la secuencia temporal prueba una cadena lineal entre géneros. | A-SEM; D genealogía | AUDITADO | `EVID-EARLY-HOMININ-ANCESTRY-LIMIT-001` | `INV-HOMININ-EARLY-001` |
 
 ## Fichas resumidas
 
@@ -2875,6 +2903,56 @@ Este archivo es el índice canónico. La letra de confianza califica exactamente
 - **Observación:** sintenia y repeticiones teloméricas internas prueban una fusión derivada.
 - **Resultado permitido:** cambio estructural en la rama humana.
 - **Salto prohibido:** usarlo como fecha del split o explicación causal de los rasgos humanos.
+
+## Investigación 036 — Primeros homininos, asociación y locomoción
+
+### CLAIM-EARLY-HOMININ-SCOPE-001 / DEFINITION-001 / MOSAIC-001 / ANCESTRY-LIMIT-001
+
+- **Separación:** edad, función, rama y genealogía no son resultados intercambiables.
+- **Resultado:** el registro documenta combinaciones anatómicas mosaico cerca del split.
+- **Límite:** ningún orden cronológico identifica una línea ancestral directa.
+
+### CLAIM-EARLY-HOMININ-ASSOCIATION-001 / AGE-CONTEXT-001 / BIPEDALISM-001 / BIPED-NOT-TAXON-001
+
+- **Método:** procedencia e identidad se auditan antes de usar biomecánica.
+- **Puente:** un reloj fecha contexto; comparación convierte forma en carga probable.
+- **Límite:** precisión geológica o bipedalidad no reparan asociación/filogenia.
+
+### CLAIM-SAHELANTHROPUS-AGE-001 / CRANIUM-001 / ASSOCIATION-001 / BIPED-2026-001
+
+- **Archivo:** cráneo deformado y postcráneos no articulados de TM 266.
+- **Actualización:** 2026 recupera rasgos femorales bípedos junto con forma general tipo `Pan`.
+- **Límite:** atribución del fémur/ulnae y reconstrucción craneal siguen condicionadas.
+
+### CLAIM-SAHELANTHROPUS-ARBOREAL-001 / HABITAT-001 / STATUS-001
+
+- **Repertorio:** alguna bipedestación coexistió probablemente con actividad arbórea sustancial.
+- **Ambiente:** mosaico lacustre/leñoso local, no sabana uniforme.
+- **Estado:** hominino plausible, ancestro directo no demostrado.
+
+### CLAIM-ORRORIN-AGE-001 / HYPODIGM-001 / FEMUR-001 / MOSAIC-001
+
+- **Reloj:** `~6 Ma`, con intervalos precisos ligados a secciones concretas.
+- **Función:** fémur compatible con carga bípeda habitual.
+- **Límite:** hipodigma multiindividuo y mosaico no identifican una línea hacia `Homo`.
+
+### CLAIM-ARDIPITHECUS-KADABBA-001 / RAMIDUS-AGE-001 / SKELETON-001 / PHYLOGENY-001
+
+- **Archivo:** `kadabba` es escaso; ARA-VP-6/500 ofrece asociación corporal excepcional pero deformada.
+- **Filogenia:** mayor cobertura favorece posición basal hominina.
+- **Límite:** basal no significa ancestral y la matriz sigue siendo morfológica.
+
+### CLAIM-ARDIPITHECUS-BIPED-001 / FOOT-001 / CLIMBING-001
+
+- **Mosaico:** pelvis y pie apoyan bipedalismo; hallux, mano y talus apoyan prensión, suspensión o trepa.
+- **Actualización:** 2019–2025 reintroducen afinidades africanas en pie, mano y tobillo.
+- **Límite:** no existe frecuencia conductual fosilizada ni equivalente vivo exacto.
+
+### CLAIM-ARDIPITHECUS-DENTITION-001 / PALEOENVIRONMENT-001
+
+- **Objeto:** dientes informan función/dieta; proxies ambientales informan parches y cobertura.
+- **Resultado:** dieta generalista y ambiente mosaico son defendibles.
+- **Salto prohibido:** extraer organización social o causa única del bipedalismo.
 
 ## Claims futuros
 

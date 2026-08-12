@@ -92,7 +92,7 @@ En cada periodo se auditarán primero sus límites cronoestratigráficos y despu
 | 033 | `INV-NEOGENE-001` | [¿Cómo reconstruimos pastizales, primates, clima y el istmo de Panamá sin una cadena causal única?](08_cenozoico/INVESTIGACION_033_NEOGENO_PASTIZALES_PRIMATES_CLIMA_ISTMO_PANAMA.md) — **AUDITADO** |
 | 034 | `INV-QUATERNARY-001` | [¿Cómo reconstruimos glaciaciones, megafauna y cambios rápidos sin fundir seis relojes?](08_cenozoico/INVESTIGACION_034_CUATERNARIO_GLACIACIONES_MEGAFAUNA_CAMBIOS_RAPIDOS.md) — **AUDITADO** |
 | 035 | `INV-HOMININ-SPLIT-001` | [¿Cómo fechamos la separación del linaje humano respecto de otros simios si cada región del genoma tiene una historia distinta?](08_cenozoico/INVESTIGACION_035_SEPARACION_LINAJES_HUMANOS_OTROS_SIMIOS.md) — **AUDITADO** |
-| 036 | `INV-HOMININ-EARLY-001` | Sahelanthropus, Orrorin y Ardipithecus |
+| 036 | `INV-HOMININ-EARLY-001` | [¿Cómo identificamos a los primeros homininos si edad, bipedalismo y parentesco no son la misma evidencia?](08_cenozoico/INVESTIGACION_036_PRIMEROS_HOMININOS_SAHELANTHROPUS_ORRORIN_ARDIPITHECUS.md) — **AUDITADO** |
 | 037 | `INV-AUSTRALOPITH-001` | australopitecos y Paranthropus |
 | 038 | `INV-HOMO-EARLY-001` | habilis, erectus y categorías tempranas de Homo |
 | 039 | `INV-HOMO-MIDDLE-001` | heidelbergensis y poblaciones del Pleistoceno medio |
@@ -173,6 +173,7 @@ Después de disponer de la secuencia base:
 - `v0.1.32`: Investigación 033 + historia de los cinco relojes neógenos + mapas de clima, vegetación, hominoideos, formación escalonada del istmo y GABI, con controversias y falsadores explícitos.
 - `v0.1.33`: Investigación 034 + historia de los seis relojes cuaternarios + mapas de órbita, hielo, MPT, cambios abruptos y extinción/atribución, actualizados con hielo antártico antiguo de 2026.
 - `v0.1.34`: Investigación 035 + historia del reloj molecular al mosaico T2T + mapas de topología, divergencia, mutación, coalescencia, fósiles y estructura cromosómica, con ILS y flujo génico explícitamente separados.
+- `v0.1.35`: Investigación 036 + historia del “eslabón” a hipodigmas y modelos + mapas de asociación, geocronología, función, ambiente y filogenia, actualizados con tobillo de Ardi 2025 y fémur atribuido a `Sahelanthropus` 2026.
 - `v0.2`: Hadeano/Arcaico auditados.
 - `v0.3`: Proterozoico y origen/temprana evolución de la vida.
 - `v0.4`: Fanerozoico completo.

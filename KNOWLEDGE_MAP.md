@@ -799,3 +799,30 @@ sintenia + fusión cromosoma 2 ─────────> cambio derivado de r
 La arquitectura conserva seis rutas: topología, divergencia, tasa, coalescencia, calibración fósil y estructura cromosómica. El árbol Homo–Pan es robusto; la separación cae prudentemente cerca de `~5.5–7 Ma`, pero inicio, fin de flujo y coalescencias no coinciden necesariamente. Los genomas T2T amplían regiones comparables y elevan la ILS visible sin convertir una referencia en pangenoma. El cromosoma 2 confirma una transformación de rama, no su fecha.
 
 Véase `INV-HOMININ-SPLIT-001` en `08_cenozoico`, su mapa en `assets/visuales/mapa-investigacion-035.svg` y la doble cadena en `assets/visuales/de-diferencia-genomica-a-separacion-y-de-fosil-a-calibracion.svg`.
+
+### Investigación 036 — Primeros homininos, asociación y locomoción
+
+```text
+contexto geológico ──> edad de horizonte ───────────────────────────┐
+pieza + localidad ───> asociación de individuo/hipodigma ───────┐  │
+CT + reconstrucción ─> forma corregida ───────────────────────┐  │  │
+corteza + articulación + comparación ─> función probable ────┤  │  │
+caracteres + outgroups + matriz ───────> rama condicionada ───┴──┴──┘
+                                                │
+                                                └─> candidato basal ≠ ancestro directo
+```
+
+La arquitectura impide que una ruta sustituya a otra. `Sahelanthropus` combina un cráneo deformado y postcráneos no articulados: 2026 fortaleció señales bípedas sin resolver la pertenencia ni la genealogía. `Orrorin` ofrece un fémur compatible con carga bípeda dentro de un hipodigma compuesto. `Ardipithecus` aporta el esqueleto parcial asociado más informativo; pelvis y pie apoyan bipedalismo, mientras mano y talus sostienen un repertorio arbóreo más amplio que el modelo inicial.
+
+```text
+Sahelanthropus: misma localidad ─┐
+Orrorin: hipodigma compuesto ────┼─> tres fuerzas de asociación diferentes
+Ardi: esqueleto parcial asociado ┘
+
+edad → orden temporal
+orden temporal ⇏ anagénesis
+bipedalidad → función probable
+bipedalidad ⇏ Hominini automático
+```
+
+Véase `INV-HOMININ-EARLY-001` en `08_cenozoico`, su mapa en `assets/visuales/mapa-investigacion-036.svg` y la doble cadena en `assets/visuales/de-fragmento-a-taxon-y-de-hueso-a-locomocion.svg`.

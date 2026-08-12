@@ -486,6 +486,20 @@ El mapa conserva seis rutas: topología, diferencia genómica, tasa por tríos/g
 
 La doble cadena muestra por qué una divergencia necesita denominador, tasa y coalescente antes de producir tiempo, y por qué un fósil necesita identidad, posición, horizonte y edad antes de imponer un mínimo.
 
+## 37. Investigación 036 — Primeros homininos: fragmentos, funciones y ramas
+
+![Portada conceptual de los primeros homininos](assets/visuales/hero-primeros-homininos-sahelanthropus-orrorin-ardipithecus.png)
+
+> **Portada conceptual:** separa cráneo y postcráneo de `Sahelanthropus`, hipodigma dental/femoral de `Orrorin` y esqueleto parcial reconstruido de `Ardipithecus` en vitrinas independientes. No representa individuos vivos, asociaciones demostradas, marcha observada ni ancestros directos.
+
+![Mapa de evidencia de los primeros homininos](assets/visuales/mapa-investigacion-036.svg)
+
+El mapa conserva cinco archivos —contexto/edad, asociación, forma/función, ambiente y filogenia— y compara tres fuerzas de asociación sin convertirlas en una escalera.
+
+![Cadenas de fragmento a taxón y de hueso a locomoción](assets/visuales/de-fragmento-a-taxon-y-de-hueso-a-locomocion.svg)
+
+La doble cadena muestra por qué procedencia, diagnóstico y matriz producen una rama condicionada, mientras geometría, alometría y biomecánica producen una función probable. Sólo se reúnen al final y ninguna identifica por sí sola un ancestro.
+
 ## Procedencia
 
 El registro de creación, límites y prompt de cada pieza está en [`assets/visuales/README.md`](assets/visuales/README.md).
