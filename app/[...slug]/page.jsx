@@ -1,7 +1,9 @@
 import { notFound } from "next/navigation";
 import { getIndex, getDoc } from "../../lib/content.mjs";
 
-export const dynamicParams = false;
+// En produccion solo existen las rutas generadas en el build. En desarrollo se
+// admiten rutas nuevas, para poder abrir un .md recien escrito sin reiniciar.
+export const dynamicParams = process.env.NODE_ENV !== "production";
 
 export function generateStaticParams() {
   return getIndex().map((d) => ({ slug: d.slug.split("/") }));
