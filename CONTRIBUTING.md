@@ -32,3 +32,17 @@ Usa las plantillas de [`00_metodologia/plantillas`](00_metodologia/plantillas/RE
 ## Revisión
 
 La lista de control de [`00_metodologia/WORKFLOW.md`](00_metodologia/WORKFLOW.md) debe completarse antes de marcar un bloque como auditado.
+
+Antes de dar por auditada una fuente nueva, verifícala contra Crossref:
+
+```bash
+node scripts/validate-citations.mjs --nuevos
+```
+
+Debe cerrar con `Titulos que no corresponden al DOI: 0`. Un enlace que abre no garantiza que lleve al trabajo citado: el título registrado tiene que coincidir con el publicado. Ejecuta también `scripts/validate-repository.ps1` para comprobar enlaces, IDs y las once secciones obligatorias.
+
+## Licencia de las aportaciones
+
+Al contribuir aceptas que tu aportación se publique bajo las licencias del proyecto: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.es) para el contenido y [MIT](LICENSE) para el código. Los detalles están en [`LICENCIAS.md`](LICENCIAS.md).
+
+No incorpores texto, figuras ni tablas de terceros sin permiso o sin una licencia compatible. Describir el contenido de una fuente y registrar su DOI es siempre preferible a reproducirla.

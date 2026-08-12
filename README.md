@@ -133,4 +133,6 @@ Este repositorio es una investigación educativa abierta en construcción. No su
 
 ## Licencia
 
-Todavía no se ha elegido una licencia. Que el repositorio sea público permite leerlo, pero no concede por sí solo derechos generales de reutilización. La selección de licencia se mantiene como una decisión pendiente del propietario.
+El contenido de investigación se publica bajo [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.es): puede copiarse, traducirse, adaptarse y reutilizarse, incluso comercialmente, con la única condición de dar crédito. El código del sitio se publica bajo [MIT](LICENSE).
+
+Los artículos citados en [`SOURCES.md`](SOURCES.md) pertenecen a sus autores y editoriales; esta licencia no se extiende a ellos. Los detalles, las formas de atribución recomendadas y los límites están en [`LICENCIAS.md`](LICENCIAS.md).
