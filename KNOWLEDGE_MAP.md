@@ -923,3 +923,31 @@ Harbin → H. longi propuesto + proteína/mtDNA → denisovano, rango zoológico
 La arquitectura africana separa diversidad observada de un «último ancestro virtual» modelado. La controversia `rhodesiensis/bodoensis` separa prioridad, descolonización y coherencia biológica. Aroeira mantiene fósil, Achelense y fuego como archivos asociados pero no equivalentes.
 
 Véase `INV-HOMO-MIDDLE-001` en `08_cenozoico`, su mapa en `assets/visuales/mapa-investigacion-039.svg` y la doble cadena en `assets/visuales/de-mandibula-a-especie-de-molecula-a-poblacion.svg`.
+
+### Investigación 040 — Neandertales, denisovanos y mestizaje
+
+```text
+fósil + contexto ───────────────────────> individuo / hipodigma ────────────────────┐
+ADN o proteína + daño + comparadores ───> rama molecular ──────────────────────────┤
+genoma diploide + parentesco ───────────> ancestría individual / F1 ───────────────┤
+alelos + D/f + tractos ─────────────────> flujo poblacional condicionado ─────────┤
+recombinación + edad de muestra ────────> intervalo generacional/calendario ───────┤
+frecuencia + demografía + selección ────> ancestría retenida / adaptación ─────────┘
+                                                     │
+                                                     └─> no hay una escena social observada
+```
+
+El mapa mantiene dos historias complementarias. Neandertal parte de un expediente fósil y recibe genomas; denisovano parte de una genealogía molecular y después adquiere forma mediante Xiahe, Penghu y Harbin. Denisova 11 une ambas ramas en un individuo F1, mientras los tractos de cohortes reconstruyen procesos poblacionales.
+
+```text
+1997 mtDNA neandertal → línea materna sin aporte detectable ≠ aislamiento total
+2010 nuclear → asimetría compartida → flujo favorecido bajo modelo
+Denisova 11 → madre N + padre D → acontecimiento directo ≠ frecuencia
+Oase / Bacho → tractos largos → ancestros recientes
+Iasi / Sümer → tractos seriados → periodo compartido ~50.5–43.5 / 49–45 ka
+Xiahe / Penghu / Harbin → moléculas → afinidad denisovana ≠ taxón cerrado
+```
+
+La fracción actual no es una etiqueta corporal. Es el mosaico que un detector reconoce después de recombinación, selección, deriva y migración. La estructura ancestral es el adversario explícito de los pulsos simples; los pedigrees y tractos muy largos aportan pruebas que no dependen del mismo modo de esa alternativa.
+
+Véase `INV-NEAND-DENIS-001` en `08_cenozoico`, su mapa en `assets/visuales/mapa-investigacion-040.svg` y la doble cadena en `assets/visuales/de-fragmento-a-linaje-y-de-segmento-a-historia-demografica.svg`.

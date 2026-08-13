@@ -337,6 +337,19 @@ El propósito no es presentar la ciencia como una sucesión de fracasos ni como 
 | `ERR-HOMO-MIDDLE-HARBIN-LONGI-FINAL-001` | `H. longi` cerró la identidad de Harbin | primer nombre tratado como final | evidencia morfológica y molecular revisable | DOCUMENTADO |
 | `ERR-HOMO-MIDDLE-ACHEULEAN-TAXON-001` | un bifaz identifica especie | industria convertida en firma biológica | contexto, acción y fabricante separados | DOCUMENTADO |
 | `ERR-HOMO-MIDDLE-REGIONAL-LADDER-001` | África–Europa–Asia son estaciones lineales | geografía/edad convertidas en marcha | paleodemos ramificados y solapamientos | DOCUMENTADO |
+| `ERR-NEAND-PERCENT-BODY-001` | «somos 2 % neandertales» como cuerpo | tractos convertidos en partes corporales | referencia, denominador y fracción retenida | DOCUMENTADO |
+| `ERR-NEAND-PERCENT-ORIGINAL-001` | porcentaje actual = mezcla inicial | selección/recombinación omitidas | valor inicial y retenido separados | DOCUMENTADO |
+| `ERR-NEAND-MTDNA-NO-MIX-001` | sin mtDNA no hubo mestizaje | locus materno sustituye al nuclear | genealogías por compartimento | DOCUMENTADO |
+| `ERR-NEAND-AFRICA-ZERO-001` | África tiene cero ancestría neandertal | muestra histórica universalizada | retroflujo, estructura y población declarados | DOCUMENTADO |
+| `ERR-NEAND-ONE-EVENT-001` | hubo un solo cruce | componente compartido convertido en historia total | episodios, direcciones y escalas separadas | DOCUMENTADO |
+| `ERR-DENISOVA11-COMMON-001` | un F1 prueba cruces frecuentes | acontecimiento convertido en prevalencia | denominador/muestreo explícitos | DOCUMENTADO |
+| `ERR-DENISOVAN-CAVE-ONLY-001` | denisovanos sólo en Altái | sitio epónimo convertido en rango | Xiahe, Baishiya, Penghu y Harbin integrados | DOCUMENTADO |
+| `ERR-DENISOVAN-ASIAN-FOSSIL-001` | todo fósil asiático robusto es denisovano | semejanza convertida en molécula | candidato y asignación separados | DOCUMENTADO |
+| `ERR-PROTEIN-GENOME-001` | proteína equivale a genoma | pocas posiciones convertidas en demografía | cobertura y resolución molecular | DOCUMENTADO |
+| `ERR-EPAS1-GIFT-001` | denisovanos «regalaron» altura | proceso personificado y comprimido | origen, selección y función separados | DOCUMENTADO |
+| `ERR-INTERBREEDING-ONE-SPECIES-001` | flujo fértil obliga a una especie | compatibilidad convertida en nomenclatura | concepto de especie declarado | DOCUMENTADO |
+| `ERR-NEAND-LAST-FOSSIL-001` | último fósil = último individuo | detección convertida en extinción exacta | intervalo regional y Signor–Lipps | DOCUMENTADO |
+| `ERR-HOMININ-GENOME-STORY-001` | genoma conserva romance/guerra/identidad | parentesco convertido en motivo social | biología y conducta separadas | DOCUMENTADO |
 | `ERR-IMPACT-MOON-EARTH-001` | convertir cronología lunar en esterilización terrestre | escala constante de tasa y efecto | dinámica, hidrocodes, atmósfera/océano y archivo terrestre | DOCUMENTADO |
 | `ERR-LUNAR-ABSENCE-001` | “sin fundido antiguo” = “sin impacto antiguo” | supervivencia uniforme hacia atrás | sesgo de preservación y evidencia positiva `4.22–4.33 Ga` | DOCUMENTADO |
 
@@ -2953,3 +2966,107 @@ Ordenar fósiles por continente y edad produce una marcha ficticia que ignora so
 ### Corrección
 
 Representar paleodemos ramificados, intervalos y conexiones hipotéticas sin flechas de ancestro.
+
+## ERR-NEAND-PERCENT-BODY-001 — «Somos dos por ciento neandertales» como cuerpo
+
+La cifra resume tractos clasificados en un genoma analizable. No significa que una parte corporal, dos de cada cien células o el resto del genoma sea «sapiens puro».
+
+### Corrección
+
+Declarar individuo/población, referencia, detector, denominador y fecha de la estimación.
+
+## ERR-NEAND-PERCENT-ORIGINAL-001 — El porcentaje actual fue la mezcla inicial
+
+Recombinación, selección, deriva y migración alteraron cantidad y distribución durante miles de generaciones.
+
+### Corrección
+
+Usar «ancestría retenida estimada» y separar la fracción inicial modelada.
+
+## ERR-NEAND-MTDNA-NO-MIX-001 — Sin mtDNA, sin mestizaje
+
+El mtDNA es una línea materna y puede perderse aunque persista aporte nuclear.
+
+### Corrección
+
+Comparar loci uniparentales y nuclear; tratar su discordancia como dato.
+
+## ERR-NEAND-AFRICA-ZERO-001 — Toda África tiene cero ancestría neandertal
+
+Retroflujo eurasiático, estructura y elección de referencias hacen que la distribución no sea binaria ni idéntica entre poblaciones.
+
+### Corrección
+
+Nombrar muestra y modelo; no convertir una comparación de 2010 en frontera continental eterna.
+
+## ERR-NEAND-ONE-EVENT-001 — Hubo un solo cruce
+
+El periodo compartido explica gran parte de la señal actual, pero Oase, Bacho Kiro, flujo inverso y Denisova 11 prueban otras escalas y momentos.
+
+### Corrección
+
+Separar componente compartido, contactos locales y direcciones.
+
+## ERR-DENISOVA11-COMMON-001 — Un F1 demuestra cruces frecuentes
+
+Denisova 11 prueba un individuo y la posibilidad biológica. Su hallazgo entre pocos genomas puede reflejar zona de contacto y selección de muestra.
+
+### Corrección
+
+No estimar prevalencia sin denominador representativo y modelo de hallazgo.
+
+## ERR-DENISOVAN-CAVE-ONLY-001 — Los denisovanos vivieron sólo en Denisova
+
+Xiahe, Baishiya, Penghu y Harbin amplían el rango mediante proteína, sedimento o ADN.
+
+### Corrección
+
+Mapear tipos de evidencia y sus intervalos; no convertir el sitio epónimo en distribución.
+
+## ERR-DENISOVAN-ASIAN-FOSSIL-001 — Todo fósil asiático robusto es denisovano
+
+La morfología puede converger o retener estados ancestrales. Sólo algunos fósiles tienen conexión molecular.
+
+### Corrección
+
+Rotular «candidato» hasta que proteína, ADN o una matriz predictiva independiente discriminen afinidad.
+
+## ERR-PROTEIN-GENOME-001 — Una proteína equivale a un genoma
+
+Los péptidos cubren pocas posiciones informativas y no recuperan demografía, recombinación o todo el parentesco nuclear.
+
+### Corrección
+
+Publicar cobertura proteica, variantes, referencias y alternativas de persistencia ancestral.
+
+## ERR-EPAS1-GIFT-001 — Los denisovanos «regalaron» adaptación a la altura
+
+Introgresión del haplotipo, selección, variante causal y fisiología son pasos separados; la población donante exacta no está muestreada.
+
+### Corrección
+
+Describir segmento, afinidad, frecuencia, prueba funcional y contexto ambiental sin personificar poblaciones.
+
+## ERR-INTERBREEDING-ONE-SPECIES-001 — Descendencia fértil obliga a una especie
+
+Los conceptos de especie toleran diferente flujo; compatibilidad no elimina estructura ni fija nomenclatura fósil.
+
+### Corrección
+
+Declarar concepto de especie y mantener linaje/población separados del nombre.
+
+## ERR-NEAND-LAST-FOSSIL-001 — El último fósil es el último neandertal
+
+El registro tiene muestreo, calibración y desfase de Signor–Lipps. Los finales son intervalos regionales.
+
+### Corrección
+
+Usar «última detección conocida/modelada» y actualizar por sitio.
+
+## ERR-HOMININ-GENOME-STORY-001 — Un genoma conserva romance, guerra o identidad
+
+Ancestría y parentesco no contienen consentimiento, motivo, etnicidad o institución.
+
+### Corrección
+
+Limitarse a relaciones biológicas y exigir archivos arqueológicos independientes para conducta.

@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">De fragmento a linaje y de segmento a historia demográfica</title>
+  <desc id="desc">Dos cadenas paralelas muestran los controles necesarios para inferir afinidad molecular y flujo génico sin convertirlos en especie, encuentro o porcentaje corporal.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#111827"/><stop offset="1" stop-color="#241525"/></linearGradient>
+    <marker id="arr" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0 0L9 3L0 6Z" fill="#aab8c5"/></marker>
+    <filter id="sh"><feDropShadow dx="0" dy="7" stdDeviation="8" flood-opacity=".28"/></filter>
+    <style>
+      .h{font:700 34px system-ui,sans-serif;fill:#f7f0e7}.sub{font:400 17px system-ui,sans-serif;fill:#bec9d2}.lane{font:700 22px system-ui,sans-serif;fill:#fff}.t{font:600 16px system-ui,sans-serif;fill:#f8f1e7}.s{font:400 13px system-ui,sans-serif;fill:#cbd5de}.warn{font:700 15px system-ui,sans-serif;fill:#ffd08a}.box{rx:15;stroke-width:1.5;filter:url(#sh)}.blue{fill:#1a3045;stroke:#74a9dc}.orange{fill:#3b291c;stroke:#d99c5d}.teal{fill:#193a39;stroke:#57c0b8}.purple{fill:#35213d;stroke:#bd82c9}.red{fill:#422124;stroke:#da7478}.arrow{stroke:#aab8c5;stroke-width:2.5;fill:none;marker-end:url(#arr)}
+    </style>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <text x="70" y="66" class="h">Dos cadenas, dos objetos finales</text>
+  <text x="70" y="98" class="sub">La cadena superior identifica afinidad; la inferior compara historias demográficas. Ninguna observa una escena social.</text>
+
+  <text x="70" y="150" class="lane">A · DEL FRAGMENTO A UNA RAMA MOLECULAR</text>
+  <rect x="65" y="180" width="210" height="125" class="box blue"/><text x="90" y="218" class="t">Muestra</text><text x="90" y="249" class="s">hueso · diente</text><text x="90" y="271" class="s">sedimento · proteína</text>
+  <rect x="325" y="180" width="210" height="125" class="box teal"/><text x="350" y="218" class="t">Procedencia</text><text x="350" y="249" class="s">capa · asociación</text><text x="350" y="271" class="s">muestreo destructivo</text>
+  <rect x="585" y="180" width="210" height="125" class="box teal"/><text x="610" y="218" class="t">Autenticación</text><text x="610" y="249" class="s">daño · blancos</text><text x="610" y="271" class="s">contaminación</text>
+  <rect x="845" y="180" width="210" height="125" class="box blue"/><text x="870" y="218" class="t">Lectura</text><text x="870" y="249" class="s">alelos · péptidos</text><text x="870" y="271" class="s">cobertura y error</text>
+  <rect x="1105" y="180" width="210" height="125" class="box purple"/><text x="1130" y="218" class="t">Comparadores</text><text x="1130" y="249" class="s">N · D · sapiens</text><text x="1130" y="271" class="s">árbol por locus</text>
+  <rect x="1365" y="180" width="170" height="125" class="box orange"/><text x="1390" y="218" class="t">Afinidad</text><text x="1390" y="249" class="s">rama molecular</text><text x="1390" y="276" class="warn">≠ especie</text>
+  <path d="M275 242H315" class="arrow"/><path d="M535 242H575" class="arrow"/><path d="M795 242H835" class="arrow"/><path d="M1055 242H1095" class="arrow"/><path d="M1315 242H1355" class="arrow"/>
+  <rect x="65" y="330" width="1470" height="62" class="box red"/><text x="90" y="367" class="warn">CUELLO DE BOTELLA · una referencia conocida puede ser pariente del donante, no el donante; una proteína no cubre un genoma.</text>
+
+  <text x="70" y="470" class="lane">B · DEL SEGMENTO A UNA HISTORIA DEMOGRÁFICA</text>
+  <rect x="65" y="500" width="210" height="125" class="box blue"/><text x="90" y="538" class="t">Genomas</text><text x="90" y="569" class="s">antiguos · actuales</text><text x="90" y="591" class="s">grupo externo</text>
+  <rect x="325" y="500" width="210" height="125" class="box teal"/><text x="350" y="538" class="t">Asimetría</text><text x="350" y="569" class="s">D · f · covarianza</text><text x="350" y="591" class="s">árbol simple falla</text>
+  <rect x="585" y="500" width="210" height="125" class="box purple"/><text x="610" y="538" class="t">Tractos</text><text x="610" y="569" class="s">longitud · posición</text><text x="610" y="591" class="s">recombinación</text>
+  <rect x="845" y="500" width="210" height="125" class="box purple"/><text x="870" y="538" class="t">Modelos rivales</text><text x="870" y="569" class="s">flujo · estructura</text><text x="870" y="591" class="s">error · continuidad</text>
+  <rect x="1105" y="500" width="210" height="125" class="box orange"/><text x="1130" y="538" class="t">Intervalo</text><text x="1130" y="569" class="s">generaciones + edad</text><text x="1130" y="591" class="s">magnitud condicionada</text>
+  <rect x="1365" y="500" width="170" height="125" class="box red"/><text x="1390" y="538" class="t">Resultado</text><text x="1390" y="569" class="s">flujo favorecido</text><text x="1390" y="596" class="warn">≠ encuentro</text>
+  <path d="M275 562H315" class="arrow"/><path d="M535 562H575" class="arrow"/><path d="M795 562H835" class="arrow"/><path d="M1055 562H1095" class="arrow"/><path d="M1315 562H1355" class="arrow"/>
+  <rect x="65" y="650" width="1470" height="62" class="box red"/><text x="90" y="687" class="warn">CUELLO DE BOTELLA · estructura ignorada puede producir falsos pulsos; tractos largos y pedigrees añaden poder discriminatorio.</text>
+
+  <rect x="65" y="750" width="470" height="86" class="box teal"/><text x="90" y="784" class="t">DIRECTO: Denisova 11</text><text x="90" y="810" class="s">parentaje individual; frecuencia abierta</text>
+  <rect x="565" y="750" width="470" height="86" class="box purple"/><text x="590" y="784" class="t">POBLACIONAL: tractos compartidos</text><text x="590" y="810" class="s">flujo/tiempo bajo modelo; escena ausente</text>
+  <rect x="1065" y="750" width="470" height="86" class="box orange"/><text x="1090" y="784" class="t">RETENIDO: porcentaje actual</text><text x="1090" y="810" class="s">selección/deriva; no mezcla original</text>
+  <text x="70" y="875" class="sub">INV-NEAND-DENIS-001 · SVG original · N = referencia neandertal; D = referencia denisovana</text>
+</svg>

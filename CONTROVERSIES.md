@@ -314,6 +314,16 @@ Una controversia no implica empate. Registra qué parte está realmente abierta,
 | `CONT-HOMO-MIDDLE-EUROPE-ACCRETION-001` | ¿Acreción neandertal lineal o mosaico regional? | Sima concentra rasgos derivados tempranos | Aroeira y otros fósiles combinan señales | evolución mosaico firme; continuidad abierta | B-COND |
 | `CONT-HOMO-MIDDLE-ASIA-001` | ¿`H. longi` nombra a denisovanos asiáticos? | Harbin une cráneo y moléculas denisovanas | un individuo no define diversidad ni rango | afinidad firme; sinonimia abierta | B afinidad; C nombre |
 | `CONT-HOMO-MIDDLE-TOOLS-001` | ¿Achelense y fuego identifican taxón o cognición? | asociaciones recurrentes documentan técnica | transmisión/convergencia y autor ausente | acción/asociación firmes; fabricante abierto | B proceso; D autor |
+| `CONT-NEAND-DENIS-SPECIES-001` | ¿Especies, subespecies o poblaciones? | diferenciación morfológica/genómica | flujo fértil y conceptos de especie distintos | estructura y reproducción firmes; rango abierto | B biología; C nombre |
+| `CONT-NEAND-ADMIXTURE-MODEL-001` | ¿Mezcla o estructura ancestral? | tractos/series favorecen flujo | estructura ignorada puede imitar eventos | contacto firme en casos directos; detalle abierto | B-COND |
+| `CONT-NEAND-FLOW-DURATION-001` | ¿Pulso, periodo o recurrencia? | periodo compartido `~50.5–43.5 ka` | contactos continuos/locales adicionales | componente común firme; duración condicionada | B-COND |
+| `CONT-NEAND-DONOR-001` | ¿Qué población neandertal fue donante? | población emparentada con referencias | donantes regionales no muestreados | afinidad general; identidad abierta | C |
+| `CONT-NEAND-DISAPPEARANCE-001` | ¿Extinción, absorción o ambas? | desaparición demográfica regional | descendencia parcial por introgresión | ambas ocurrieron; pesos abiertos | B patrón; D pesos |
+| `CONT-DENISOVAN-DIVERSITY-001` | ¿Cuántas ramas denisovanas? | al menos dos contribuciones diferenciadas | flujo continuo/estructura y más ramas | pluralidad B; número C-D | B-COND |
+| `CONT-DENISOVAN-FOSSILS-ASIA-001` | ¿Qué fósiles asiáticos son denisovanos? | Xiahe, Penghu y Harbin moleculares | semejanza de otros fósiles puede converger | tres afinidades firmes; resto abierto | B/C |
+| `CONT-PENGHU-AGE-001` | ¿En cuál ventana vivió Penghu 1? | `10–70 ka` | `130–190 ka` | afinidad firme; edad bimodal | C edad |
+| `CONT-EPAS1-ADAPTATION-001` | ¿Qué se introgresó y qué fue seleccionado? | haplotipo denisovano-like bajo selección | donante/variante/efecto dependientes del fondo | introgresión fuerte; mecanismo fino abierto | B-COND |
+| `CONT-HOMININ-CONTACT-SOCIAL-001` | ¿Qué contexto social tuvieron los contactos? | genomas restringen parentesco/dirección | múltiples conductas producen igual señal | biología accesible; motivos subdeterminados | D-E |
 
 ## CONT-COSMOS-H0-001 — Dos rutas hacia la tasa actual
 
@@ -2342,3 +2352,63 @@ Harbin fue nombrado `H. longi` por morfología y después vinculado molecularmen
 Achelense y fuego aparecen en contextos con fósiles diferentes y también sin fabricantes diagnósticos. Transmisión, convergencia y movilidad pueden desacoplar tradición técnica de taxón.
 
 **Prueba discriminatoria:** asociaciones directas replicadas, residuos o moléculas del agente y análisis que separen presencia de industria, innovación, uso y fabricante.
+
+## CONT-NEAND-DENIS-SPECIES-001 — ¿Especies, subespecies o poblaciones?
+
+Morfología, genealogías profundas y estructura permiten separarlas; Denisova 11 y otros flujos demuestran compatibilidad reproductiva parcial. Ninguno de esos criterios obliga a una categoría zoológica única.
+
+**Prueba discriminatoria:** diagnósticos que predigan agrupación de nuevos fósiles, genomas regionales y un concepto de especie declarado antes de clasificar.
+
+## CONT-NEAND-ADMIXTURE-MODEL-001 — Mezcla frente a estructura ancestral
+
+Tractos, asimetrías y series temporales favorecen flujo; simulaciones muestran que estructura ignorada puede fabricar eventos bajo algunos métodos.
+
+**Prueba discriminatoria:** comparación conjunta de `D/f`, longitudes, genealogías, diversidad y genomas antiguos seriados bajo modelos espaciales y con flujo.
+
+## CONT-NEAND-FLOW-DURATION-001 — Pulso, periodo extendido o contactos recurrentes
+
+Los intervalos `50.5–43.5` y `49–45 ka` describen un componente compartido; Oase y Bacho Kiro documentan episodios adicionales. Un único pulso es una aproximación, no un acontecimiento observado.
+
+**Prueba discriminatoria:** más genomas entre `55–40 ka`, resolución de tractos y modelos que comparen explícitamente pulso, intervalo y migración continua.
+
+## CONT-NEAND-DONOR-001 — ¿Qué neandertales aportaron la señal?
+
+La población donante principal divergió de varios neandertales tardíos muestreados. Altái, Vindija y Chagyrskaya son comparadores, no necesariamente donantes directos.
+
+**Prueba discriminatoria:** genomas de alta cobertura del Levante, Cáucaso y regiones intermedias anteriores/durante el contacto.
+
+## CONT-NEAND-DISAPPEARANCE-001 — Extinción, absorción o ambas
+
+Las últimas detecciones fósiles y arqueológicas indican desaparición regional; segmentos actuales prueban descendencia parcial. No miden qué fracción demográfica fue absorbida ni una causa única.
+
+**Prueba discriminatoria:** series genómicas terminales, tamaños efectivos robustos, ancestría sapiens en neandertales tardíos y modelos demográficos ligados a cronología local.
+
+## CONT-DENISOVAN-DIVERSITY-001 — ¿Cuántas ramas denisovanas?
+
+Tractos en Oceanía y Asia requieren donantes con afinidades distintas respecto a Altái. El número de pulsos depende de modelos y los donantes no están secuenciados directamente.
+
+**Prueba discriminatoria:** genomas de fósiles del sur, este y sudeste asiático, más modelos continuos que compitan con pulsos discretos.
+
+## CONT-DENISOVAN-FOSSILS-ASIA-001 — ¿Qué fósiles asiáticos son denisovanos?
+
+Xiahe, Penghu y Harbin tienen vínculo molecular. Dali, Jinniushan, Hualongdong y otros fósiles pueden compartir rasgos sin que semejanza pruebe la misma rama.
+
+**Prueba discriminatoria:** proteína o ADN autenticados y matrices morfológicas entrenadas sin circularidad sobre individuos moleculares.
+
+## CONT-PENGHU-AGE-001 — Dos ventanas para una mandíbula
+
+La biocronología y nivel marino permiten `10–70` o `130–190 ka`. La procedencia dragada impide elegir con estratigrafía primaria.
+
+**Prueba discriminatoria:** datación directa de material adherido o del fósil con comportamiento de sistema demostrado y análisis tafonómico del depósito marino.
+
+## CONT-EPAS1-ADAPTATION-001 — Origen del haplotipo y efecto adaptativo
+
+Afinidad denisovana y selección son fuertes; donante exacto, variante causal, momento de aumento y efectos dependientes del fondo siguen abiertos.
+
+**Prueba discriminatoria:** haplotipos antiguos seriados, edición/ensayos funcionales y fenotipos en fondos genéticos y altitudes diferentes.
+
+## CONT-HOMININ-CONTACT-SOCIAL-001 — Lo que los genomas no narran
+
+Pedigrees y dirección de flujo restringen parentescos biológicos. No discriminan consentimiento, captura, alianza, residencia, identidad o significado cultural.
+
+**Prueba discriminatoria:** ninguna señal genética aislada; se requerirían contextos arqueológicos repetidos y aun así muchas motivaciones podrían seguir infradeterminadas.

@@ -231,6 +231,16 @@ Los límites numéricos siguen `SRC-ICS-2026` (tabla 2026/06). La evidencia de c
 | `TIME-AROEIRA-001` | `390–436 ka` | cráneo Aroeira 3, Achelense y fuego en Gruta da Aroeira | U-series y estratigrafía; asociación no identifica fabricante | `SRC-DAURA-AROEIRA-2017`, `SRC-SANZ-AROEIRA-FIRE-2020` | B-COND | AUDITADO |
 | `TIME-KABWE-001` | `299 ± 25 ka` | cráneo Broken Hill/Kabwe | U-series/ESR directo con historia de incorporación de uranio modelada | `SRC-GRUN-KABWE-2020` | B-COND | AUDITADO |
 | `TIME-HARBIN-001` | `>146 ka` | cráneo de Harbin de afinidad denisovana | edad mínima/procedencia indirecta; proteína y mtDNA identifican afinidad | `SRC-NI-HARBIN-2021`, `SRC-FU-HARBIN-PROTEOME-2025`, `SRC-FU-HARBIN-MTDNA-2025` | B afinidad; C edad/taxón | AUDITADO |
+| `TIME-DENISOVA-EARLY-001` | mtDNA desde `~250 ka`; fósiles `~200 ka` | primeras detecciones locales denisovanas de la cueva | 150 OSL, 963 sedimentos, fósiles y modelo bayesiano | `SRC-BROWN-EARLIEST-DENISOVANS-2022`, `SRC-JACOBS-DENISOVA-CHRONOLOGY-2025` | B-COND | AUDITADO |
+| `TIME-XIAHE-001` | `>160 ka` | mandíbula de Xiahe de afinidad denisovana | proteína dental y U-series de costra; mínimo, no muerte exacta | `SRC-CHEN-XIAHE-2019` | B afinidad/mínimo | AUDITADO |
+| `TIME-SAPIENS-TO-NEAND-001` | `>100 ka` y episodios posteriores modelados | flujo desde poblaciones relacionadas con sapiens hacia neandertales | comparación de modelos/genomas; dirección y estructura condicionadas | `SRC-KUHLWILM-EARLY-FLOW-2016`, `SRC-LI-RECURRENT-FLOW-2024` | B-COND | AUDITADO |
+| `TIME-DENISOVA11-001` | aprox. `50–90 ka` | individuo F1 de madre neandertal y padre denisovano | genoma y cronología de la cueva; rango amplio | `SRC-SLON-DENISOVA11-2018`, `SRC-DOUKA-DENISOVA-2019` | A-B parentaje; C edad | AUDITADO |
+| `TIME-BAISHIYA-DENISOVAN-001` | `~100`, `~60`, quizá `~45 ka`; costilla `48–32 ka` | recurrencias denisovanas en meseta tibetana | mtDNA sedimentario, OSL/14C y proteína costal | `SRC-ZHANG-BAISHIYA-DNA-2020`, `SRC-XIA-BAISHIYA-2024` | B-COND | AUDITADO |
+| `TIME-NEAND-ADMIXTURE-SHARED-001` | `50.5–43.5 ka`; estimación independiente `49–45 ka` | periodo principal de flujo neandertal compartido por no africanos muestreados | longitudes/colocalización de tractos y genomas seriados | `SRC-IASI-NEAND-ANCESTRY-2024`, `SRC-SUMER-RANIS-ZLATY-2024` | B-COND | AUDITADO |
+| `TIME-BACHO-NEAND-001` | `45.93–42.58 ka` | tres humanos modernos con ancestros neandertales recientes | `14C`, genomas y tractos | `SRC-HAJDINJAK-BACHO-2021` | B | AUDITADO |
+| `TIME-OASE-NEAND-001` | `42–37 ka` | Oase 1 con `6–9 %` y ancestro neandertal 4–6 generaciones atrás | `14C`, captura y segmentos `>50 cM` | `SRC-FU-OASE-2015` | B | AUDITADO |
+| `TIME-NEAND-LAST-001` | cerca de `40 ka`, variable por región | últimas detecciones neandertales modeladas | `14C` ultrafiltrado y Bayes; no último individuo | `SRC-HIGHAM-NEAND-DISAPPEARANCE-2014` | B-COND | AUDITADO |
+| `TIME-PENGHU-DENISOVAN-001` | `10–70 ka` o `130–190 ka` | Penghu 1, varón denisovano | proteína identifica afinidad/sexo; biocronología y nivel marino dejan dos ventanas | `SRC-TSUTAYA-PENGHU-2025` | B afinidad; C edad | AUDITADO |
 | `TIME-MEGAFAUNA-AUSTRALIA-001` | `45–43.1 ka` en el registro publicado | caída de señal de grandes herbívoros en suroeste de Australia | *Sporormiella* y edad–profundidad; no fecha toda Australia ni un agente directo | `SRC-VAN-DER-KAARS-AUSTRALIA-2017`, `SRC-RULE-AUSTRALIA-2012` | B-COND regional | AUDITADO |
 | `TIME-LGM-001` | ~`26.5–19/20 ka` | intervalo del Último Máximo Glacial | síntesis de máximos regionales; no un día sincrónico mundial | `SRC-CLARK-LGM-2009` | B | AUDITADO |
 | `TIME-MEGAFAUNA-AMERICAS-001` | principalmente ~`14–11 ka`, variable por región/taxón | pulsos terminales de megafauna en las Américas | últimas apariciones calibradas y detectabilidad; no último individuo | `SRC-FAITH-SUROVELL-2009`, `SRC-METCALF-PATAGONIA-2016`, `SRC-STEWART-NORTHAMERICA-2021` | B patrón; C causa | AUDITADO |
@@ -278,6 +288,6 @@ En esta sección una fecha arqueológica no demuestra por sí sola “propiedad�
 
 ## Próxima acción cronológica
 
-Las investigaciones extensas auditadas llegan de `INV-EARTH-AGE-001` a `INV-HOMININ-EARLY-001`. El siguiente trabajo es `INV-AUSTRALOPITH-001`: deberá separar especie, localidad, locomoción, dieta, dimorfismo, cronología y parentesco de australopitecos y `Paranthropus` sin dibujar una escalera hacia `Homo`.
+Las investigaciones extensas auditadas llegan de `INV-EARTH-AGE-001` a `INV-NEAND-DENIS-001`. El siguiente trabajo es `INV-HOMO-OTHER-001`: deberá separar cronología, anatomía, contexto, conducta y parentesco de `H. floresiensis`, `H. luzonensis`, `H. naledi` y otras poblaciones tardías sin tratarlas como reliquias o escalones.
 
 La línea temática `INV-CIV-ORIGINS-001` permanece separada en estado `TRAZADO`; organiza expedientes regionales, pero no cambia la próxima acción de la secuencia global.

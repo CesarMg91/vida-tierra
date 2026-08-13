@@ -634,6 +634,37 @@ Este archivo es el índice canónico. La letra de confianza califica exactamente
 | `CLAIM-HARBIN-DENISOVAN-2025-001` | Proteínas del petroso y mtDNA del cálculo dental vinculan al individuo de Harbin con denisovanos. | B | AUDITADO | `EVID-HARBIN-MOLECULAR-001` | `INV-HOMO-MIDDLE-001` |
 | `CLAIM-HOMO-MIDDLE-REGIONAL-001` | Paleodemos conectados y estructura regional explican parte del mosaico, pero número, flujo y persistencia permanecen condicionados. | B-COND | AUDITADO | `EVID-HOMO-MIDDLE-REGIONAL-001` | `INV-HOMO-MIDDLE-001` |
 | `CLAIM-HOMO-MIDDLE-TOOLS-LIMIT-001` | Achelense, fuego y otras asociaciones arqueológicas no constituyen firmas taxonómicas automáticas. | A contra atribución; D fabricante | AUDITADO | `EVID-AROEIRA-FIRE-001`, `EVID-HOMO-MIDDLE-METHOD-001` | `INV-HOMO-MIDDLE-001` |
+| `CLAIM-NEAND-DENIS-SCOPE-001` | Taxón fósil, rama molecular, ancestría individual, flujo poblacional y fracción retenida son resultados distintos. | A-SEM | AUDITADO | `EVID-NEAND-DENIS-METHOD-001` | `INV-NEAND-DENIS-001` |
+| `CLAIM-NEAND-OPERATIONAL-001` | «Neandertal» puede designar un hipodigma fósil o poblaciones genómicas de referencia; ningún individuo representa todo el rango. | A-SEM; B aplicación | AUDITADO | `EVID-NEAND-DENIS-METHOD-001`, `EVID-LATE-NEAND-001` | `INV-NEAND-DENIS-001` |
+| `CLAIM-DENISOVAN-OPERATIONAL-001` | «Denisovano» es una categoría molecular de poblaciones afines a referencias de Denisova; no tiene rango zoológico resuelto por sí sola. | A-SEM; B aplicación | AUDITADO | `EVID-DENISOVA-DISCOVERY-001`, `EVID-XIAHE-PROTEOME-001`, `EVID-PENGHU-PROTEOME-001` | `INV-NEAND-DENIS-001` |
+| `CLAIM-HOMININ-ADMIXTURE-DEFINITION-001` | F1, mezcla poblacional e introgresión retenida describen escalas diferentes y no observan contexto social. | A-SEM | AUDITADO | `EVID-NEAND-DENIS-METHOD-001`, `EVID-DENISOVA11-GENOME-001` | `INV-NEAND-DENIS-001` |
+| `CLAIM-NEAND-MTDNA-1997-001` | El mtDNA del espécimen tipo quedó fuera de la variación humana moderna muestreada; ausencia mitocondrial no excluye aporte nuclear. | B | AUDITADO | `EVID-NEAND-MTDNA-1997-001` | `INV-NEAND-DENIS-001` |
+| `CLAIM-NEAND-GENOME-2010-001` | El borrador neandertal mostró mayor compartición de alelos con no africanos y estimó `1–4 %` de aporte bajo su modelo. | B-COND | AUDITADO | `EVID-NEAND-DRAFT-2010-001` | `INV-NEAND-DENIS-001` |
+| `CLAIM-NEAND-ANCESTRY-SHARED-001` | La mayor parte de la ancestría neandertal compartida por no africanos muestreados procede de un periodo común, sin excluir contactos adicionales. | B-COND | AUDITADO | `EVID-NEAND-ADMIXTURE-2024-001` | `INV-NEAND-DENIS-001` |
+| `CLAIM-NEAND-ADMIXTURE-DATE-2024-001` | Dos análisis sitúan el periodo compartido aproximadamente en `50.5–43.5 ka` y `49–45 ka`, condicionado por muestras, recombinación y modelo. | B-COND | AUDITADO | `EVID-NEAND-ADMIXTURE-2024-001` | `INV-NEAND-DENIS-001` |
+| `CLAIM-ARCHAIC-PERCENT-LIMIT-001` | Un porcentaje arcaico es fracción de tractos clasificados bajo referencia y denominador; no identidad total, cuerpo, ancestros ni mezcla inicial. | A-SEM | AUDITADO | `EVID-NEAND-DRAFT-2010-001`, `EVID-NEAND-SELECTION-001` | `INV-NEAND-DENIS-001` |
+| `CLAIM-NEAND-SELECTION-001` | Recombinación, deriva, migración y selección alteraron la distribución neandertal retenida y produjeron regiones empobrecidas/enriquecidas. | B-COND | AUDITADO | `EVID-NEAND-SELECTION-001` | `INV-NEAND-DENIS-001` |
+| `CLAIM-OASE-RECENT-NEAND-001` | Oase 1 conserva `6–9 %` y segmentos mayores de `50 cM`, compatibles con un ancestro neandertal 4–6 generaciones antes. | B | AUDITADO | `EVID-OASE-NEAND-001` | `INV-NEAND-DENIS-001` |
+| `CLAIM-BACHO-RECENT-NEAND-001` | Tres individuos de Bacho Kiro de `45.93–42.58 ka` tenían ancestros neandertales pocas generaciones atrás. | B | AUDITADO | `EVID-BACHO-NEAND-001` | `INV-NEAND-DENIS-001` |
+| `CLAIM-SAPIENS-TO-NEAND-001` | Genomas neandertales apoyan flujo recurrente desde poblaciones relacionadas con humanos modernos, incluido un episodio oriental `>100 ka`. | B-COND | AUDITADO | `EVID-SAPIENS-TO-NEAND-001` | `INV-NEAND-DENIS-001` |
+| `CLAIM-LATE-NEAND-STRUCTURE-001` | Cinco genomas tardíos muestran estructura relacionada con geografía y una población donante distinta de los ejemplares tardíos muestreados. | B-COND | AUDITADO | `EVID-LATE-NEAND-001` | `INV-NEAND-DENIS-001` |
+| `CLAIM-NEAND-SOCIAL-LOCAL-001` | Trece neandertales de dos cuevas del Altái apoyan parentesco cercano, comunidad pequeña y migración femenina bajo el mejor modelo local. | B-LOCAL-COND | AUDITADO | `EVID-NEAND-SOCIAL-001` | `INV-NEAND-DENIS-001` |
+| `CLAIM-NEAND-LAST-DETECTION-001` | La desaparición neandertal cerca de `40 ka` es un conjunto de últimas detecciones regionales modeladas, no la fecha del último individuo. | B-COND | AUDITADO | `EVID-NEAND-LAST-001` | `INV-NEAND-DENIS-001` |
+| `CLAIM-DENISOVA-MTDNA-2010-001` | El mtDNA de una falange de Denisova reveló una genealogía hominina no reconocida previamente. | A-B | AUDITADO | `EVID-DENISOVA-DISCOVERY-001` | `INV-NEAND-DENIS-001` |
+| `CLAIM-DENISOVA-GENOME-2010-001` | ADN nuclear situó denisovanos como grupo hermano de neandertales y distinto de humanos actuales. | B | AUDITADO | `EVID-DENISOVA-DISCOVERY-001`, `EVID-DENISOVA-HIGHCOV-001` | `INV-NEAND-DENIS-001` |
+| `CLAIM-DENISOVA-CAVE-CHRONOLOGY-2025-001` | `150` edades ópticas y `963` sedimentos sitúan mtDNA denisovano desde `~250 ka` y fósiles desde `~200 ka` en Denisova. | B-COND | AUDITADO | `EVID-DENISOVA-CHRONOLOGY-001` | `INV-NEAND-DENIS-001` |
+| `CLAIM-XIAHE-DENISOVAN-001` | Proteínas dentales vinculan Xiahe con denisovanos y una costra fija un mínimo de `160 ka`. | B | AUDITADO | `EVID-XIAHE-PROTEOME-001` | `INV-NEAND-DENIS-001` |
+| `CLAIM-BAISHIYA-DENISOVAN-001` | Sedimentos y una costilla proteómica documentan recurrencias denisovanas en Baishiya hasta una capa de `48–32 ka`. | B-COND | AUDITADO | `EVID-BAISHIYA-DNA-PROTEIN-001` | `INV-NEAND-DENIS-001` |
+| `CLAIM-PENGHU-DENISOVAN-2025-001` | `4 241` residuos de aminoácidos y variantes informativas identifican Penghu 1 como denisovano masculino. | B | AUDITADO | `EVID-PENGHU-PROTEOME-001` | `INV-NEAND-DENIS-001` |
+| `CLAIM-PENGHU-AGE-LIMIT-001` | Penghu 1 carece de estratigrafía primaria y sólo puede situarse en `10–70` o `130–190 ka`. | C | AUDITADO | `EVID-PENGHU-PROTEOME-001` | `INV-NEAND-DENIS-001` |
+| `CLAIM-DENISOVA11-F1-001` | El genoma de Denisova 11 demuestra madre neandertal y padre denisovano de primera generación. | A-B | AUDITADO | `EVID-DENISOVA11-GENOME-001` | `INV-NEAND-DENIS-001` |
+| `CLAIM-DENISOVA11-OLDER-FLOW-001` | El padre denisovano de Denisova 11 ya portaba segmentos neandertales de contacto anterior. | B | AUDITADO | `EVID-DENISOVA11-GENOME-001` | `INV-NEAND-DENIS-001` |
+| `CLAIM-DENISOVAN-MELANESIAN-001` | El genoma denisovano de 2010 estimó `4–6 %` de contribución a melanesios bajo su panel y modelo históricos. | B-COND | AUDITADO | `EVID-DENISOVAN-MODERN-001` | `INV-NEAND-DENIS-001` |
+| `CLAIM-DENISOVAN-MULTIPULSE-001` | Tractos actuales requieren al menos dos contribuciones de poblaciones denisovanas con distinta cercanía a la referencia de Altái. | B-COND | AUDITADO | `EVID-DENISOVAN-MODERN-001` | `INV-NEAND-DENIS-001` |
+| `CLAIM-EPAS1-DENISOVAN-001` | El haplotipo tibetano de `EPAS1` apoya introgresión desde una población denisovana o relacionada y selección posterior. | B-COND | AUDITADO | `EVID-EPAS1-001` | `INV-NEAND-DENIS-001` |
+| `CLAIM-ADAPTIVE-INTROGRESSION-LIMIT-001` | Afinidad, aumento de frecuencia y efecto fisiológico son pasos distintos; el donante exacto y ventaja universal no están demostrados. | A-SEM; B-COND aplicación | AUDITADO | `EVID-EPAS1-001` | `INV-NEAND-DENIS-001` |
+| `CLAIM-ADMIXTURE-STRUCTURE-ADVERSARY-001` | Simulaciones estructuradas sin mezcla produjeron falsos tractos/eventos en métodos probados; estructura debe competir como modelo. | A-MET; C aplicación total | AUDITADO | `EVID-STRUCTURE-ADVERSARY-001` | `INV-NEAND-DENIS-001` |
+| `CLAIM-INTERBREEDING-TAXON-LIMIT-001` | Flujo fértil no obliga a una sola especie y diferenciación morfológica no implica aislamiento absoluto. | A-SEM; C rango | AUDITADO | `EVID-NEAND-DENIS-METHOD-001`, `EVID-DENISOVA11-GENOME-001` | `INV-NEAND-DENIS-001` |
 
 ## Fichas resumidas
 
@@ -3256,6 +3287,72 @@ Este archivo es el índice canónico. La letra de confianza califica exactamente
 - **Cambio:** `H. longi` fue propuesto por morfología; proteína y mtDNA vinculan el individuo con denisovanos.
 - **Resultado:** afinidad poblacional fuerte para un cráneo casi completo.
 - **Límite:** “denisovano” no fija por sí solo rango zoológico o sinonimia.
+
+## Investigación 040 — Neandertales, denisovanos y mestizaje
+
+### CLAIM-NEAND-DENIS-SCOPE-001 / NEAND-OPERATIONAL-001 / DENISOVAN-OPERATIONAL-001
+
+- **Separación:** fósil, referencia molecular, individuo, población y segmento retenido no son equivalentes.
+- **Resultado:** neandertales tienen expediente fósil y genómico; denisovanos nacen como rama molecular después conectada a formas.
+- **Límite:** ningún genoma o proteoma individual define todo el rango ni resuelve el nombre zoológico.
+
+### CLAIM-NEAND-MTDNA-1997-001 / GENOME-2010-001 / ANCESTRY-SHARED-001
+
+- **Historia:** mtDNA no mostró contribución materna; nuclear reveló asimetría y flujo.
+- **Reloj:** dos análisis de 2024 sitúan el periodo compartido en `50.5–43.5` y `49–45 ka`.
+- **Límite:** un intervalo de flujo no es un encuentro único ni excluye episodios locales.
+
+### CLAIM-ARCHAIC-PERCENT-LIMIT-001 / NEAND-SELECTION-001
+
+- **Medida:** fracción de tractos reconocidos bajo referencia, filtro y denominador.
+- **Transformación:** recombinación, selección, deriva y migración cambian el mosaico.
+- **Límite:** porcentaje no es identidad total, cuerpo, número de ancestros ni mezcla inicial.
+
+### CLAIM-OASE-RECENT-NEAND-001 / BACHO-RECENT-NEAND-001 / SAPIENS-TO-NEAND-001
+
+- **Individuos:** Oase y Bacho Kiro conservan ancestros neandertales recientes.
+- **Dirección:** neandertales también recibieron flujo de poblaciones relacionadas con sapiens.
+- **Límite:** linajes antiguos pueden no aportar a poblaciones posteriores muestreadas.
+
+### CLAIM-LATE-NEAND-STRUCTURE-001 / SOCIAL-LOCAL-001 / LAST-DETECTION-001
+
+- **Poblaciones:** geografía predice parte de afinidad y el Altái conserva una pequeña comunidad emparentada.
+- **Final:** últimas detecciones se concentran cerca de `40 ka` regionalmente.
+- **Límite:** dos cuevas no definen la sociedad neandertal; última detección no es último individuo.
+
+### CLAIM-DENISOVA-MTDNA-2010-001 / GENOME-2010-001 / CAVE-CHRONOLOGY-2025-001
+
+- **Descubrimiento:** una falange reveló primero mtDNA y después una rama nuclear hermana de neandertales.
+- **Cueva:** `150` edades y `963` sedimentos documentan recurrencias desde `~250 ka`.
+- **Límite:** presencia de linaje en sedimento no identifica cuerpos o industrias.
+
+### CLAIM-XIAHE-DENISOVAN-001 / BAISHIYA-DENISOVAN-001 / PENGHU-DENISOVAN-2025-001
+
+- **Expansión:** proteínas y sedimentos conectan Altái, meseta tibetana y margen subtropical.
+- **Penghu:** afinidad/sexo son fuertes; edad queda en dos ventanas.
+- **Límite:** fósiles asiáticos parecidos sin biomoléculas siguen siendo candidatos.
+
+### CLAIM-DENISOVA11-F1-001 / DENISOVA11-OLDER-FLOW-001
+
+- **Directo:** el genoma demuestra madre neandertal y padre denisovano.
+- **Profundo:** el padre ya portaba ancestría neandertal anterior.
+- **Límite:** un F1 prueba acontecimiento y posibilidad, no frecuencia universal.
+
+### CLAIM-DENISOVAN-MELANESIAN-001 / MULTIPULSE-001
+
+- **Resultado:** Oceanía y Asia conservan señales de donantes denisovanos diferenciados.
+- **Límite:** Altái es referencia, no donante universal ni inventario completo de ramas.
+
+### CLAIM-EPAS1-DENISOVAN-001 / ADAPTIVE-INTROGRESSION-LIMIT-001
+
+- **Convergencia:** afinidad del haplotipo, frecuencia y selección apoyan introgresión adaptativa.
+- **Límite:** fuente exacta, fondo genético, mecanismo y ventaja en cada ambiente se separan.
+
+### CLAIM-ADMIXTURE-STRUCTURE-ADVERSARY-001 / INTERBREEDING-TAXON-LIMIT-001
+
+- **Adversario:** estructura ignorada puede crear falsos pulsos en simulaciones.
+- **Resistencia:** pedigree F1 y tractos muy largos no dependen del mismo modo de ese adversario.
+- **Taxonomía:** compatibilidad reproductiva y nombre de especie no son la misma prueba.
 
 ## Claims futuros
 
