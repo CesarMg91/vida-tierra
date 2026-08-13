@@ -24,6 +24,20 @@ Una letra no corona una disciplina: califica la frase exacta escrita en un claim
 
 El mapa muestra convergencia, no independencia total. CMB, BAO y nucleosíntesis comparten parte del modelo temprano; supernovas y edades estelares cambian instrumentos y sistemáticas.
 
+## 4. Investigación 003 — Origen de los elementos
+
+![Historia conceptual de la nucleosíntesis](assets/visuales/hero-origen-elementos.png)
+
+> **Portada conceptual:** aproxima una secuencia de procesos y archivos en una sola escena. No está a escala ni asigna elementos exclusivos.
+
+![Mapa epistemológico del origen de los elementos](assets/visuales/mapa-investigacion-003.svg)
+
+El mapa separa señales, puentes físicos y claims. Las dependencias de atmósfera, red nuclear, transporte u opacidad se muestran como modelo, no como observación.
+
+![Matriz de contribuciones nucleosintéticas](assets/visuales/matriz-origen-elementos.svg)
+
+Los puntos indican contribuciones características o parciales. No son porcentajes ni una tabla de propiedad: isótopos de un mismo elemento pueden recorrer historias distintas.
+
 ## Procedencia
 
 El registro de creación, límites y prompt de cada pieza está en [`assets/visuales/README.md`](assets/visuales/README.md).
