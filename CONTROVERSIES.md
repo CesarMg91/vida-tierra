@@ -294,6 +294,16 @@ Una controversia no implica empate. Registra qué parte está realmente abierta,
 | `CONT-PARANTHROPUS-DIET-001` | ¿Era `P. boisei` especialista de alimentos duros? | cráneo/dientes resisten altas cargas y C4 domina isótopos | microdesgaste y ecología no identifican un alimento duro único | gran capacidad + C4; menú exacto abierto | B-COND |
 | `CONT-PARANTHROPUS-TOOLS-001` | ¿`Paranthropus` fabricó Oldowan? | mano capaz y dientes junto a industria/fauna procesada | capacidad y proximidad no identifican agente | posible, no demostrado | D autoría |
 | `CONT-PROBUSTUS-DIMORPHISM-001` | ¿Dimorfismo o cambio temporal en `P. robustus`? | tamaño/forma se interpretaron sexualmente | DNH 155 temprano encaja mejor con microevolución | ambos procesos posibles; tiempo no debe omitirse | B-COND |
+| `CONT-HOMO-GENUS-001` | ¿Qué combinación define al género `Homo`? | cerebro, dientes, cara, cuerpo y ecología aportan señales | ningún umbral aislado es necesario y suficiente | género útil; frontera temprana condicionada | B-COND |
+| `CONT-HOMO-HABILIS-HYPODIGM-001` | ¿Qué fósiles pertenecen a `H. habilis`? | OH 7 y material semejante comparten rasgos | reconstrucción y dientes revelan heterogeneidad | núcleo histórico firme; contenido abierto | B-COND |
+| `CONT-HOMO-RUDOLFENSIS-001` | ¿`H. rudolfensis` es una especie distinta? | cara y mandíbulas de Koobi forman otro patrón | muestra, dimorfismo y fronteras de especie compiten | morfología distinta; rango taxonómico abierto | B morfología; C especie |
+| `CONT-HOMO-ERECTUS-ORIGIN-001` | ¿Dónde y cuándo emergió `H. erectus`? | Drimolen y Turkana aportan candidatos tempranos | registro fragmentario y diagnóstico varían | África favorecida; localidad/origen exactos abiertos | B-C |
+| `CONT-HOMO-ERECTUS-ERGASTER-001` | ¿`H. ergaster` africano es distinto de `H. erectus`? | diferencias regionales permiten separación | mosaicos y continuidad permiten especie amplia | convención activa; no resuelta por geografía | C |
+| `CONT-HOMO-DMANISI-LUMPING-001` | ¿Dmanisi reúne todo `Homo` temprano en una especie? | gran variación local cabe en una población | una localidad no cubre África y Asia por millones de años | variación local firme; lumping global abierto | A local; C global |
+| `CONT-HOMO-TOOLS-MAKER-001` | ¿Quién produjo Oldowan, Achelense y hueso trabajado? | industrias coinciden con varios homininos | proximidad contextual no identifica individuo o especie | acción técnica firme; fabricante abierto | B industria; D autor |
+| `CONT-HOMO-BODY-PLAN-001` | ¿El cuerpo moderno apareció de golpe con `H. erectus`? | Nariokotome muestra talla y miembros largos | DAN5, Dmanisi, edad y región revelan mosaico | patrón importante; uniformidad y salto no demostrados | B-COND |
+| `CONT-HOMO-DISPERSAL-ASIA-001` | ¿Qué taxón llegó primero a Asia y por qué ruta? | Dmanisi, Shangchen y Java fijan presencias mínimas | herramientas sin fósiles y hiatos no identifican ruta | dispersión temprana firme; agente/ruta abiertos | B presencia; C-D agente |
+| `CONT-HOMO-ERECTUS-PROTEIN-001` | ¿Las proteínas prueban introgresión de `H. erectus`? | seis esmaltes comparten variantes AMBN | pocas posiciones y modelos demográficos no equivalen a ADN | proteínas auténticas; historia de flujo provisional | B péptidos; C-D genealogía |
 
 ## CONT-COSMOS-H0-001 — Dos rutas hacia la tasa actual
 
@@ -2202,3 +2212,63 @@ KNM-ER 101000 demuestra capacidad de precisión/potencia; Nyayanga demuestra ind
 La gran diferencia entre cráneos se explicó mediante dimorfismo. DNH 155, temprano y morfológicamente distinto, favorece microevolución temporal; eso no elimina dimorfismo dentro de cada población.
 
 **Prueba discriminatoria:** muestras estratificadas mayores con edad dental, estimación sexual independiente y morfometría que compare modelos sexo, tiempo y sexo+tiempo.
+
+## CONT-HOMO-GENUS-001 — Un género sin llave única
+
+Reducir `Homo` a cerebro grande, dientes pequeños, cuerpo moderno o herramientas produce fronteras diferentes. La práctica taxonómica integra combinaciones y parentesco hipotético; el registro temprano conserva mosaicos y piezas incompletas.
+
+**Prueba discriminatoria:** matrices abiertas con taxones de transición, caracteres no redundantes y análisis que retiren por separado cerebro, dentición y postcráneo.
+
+## CONT-HOMO-HABILIS-HYPODIGM-001 — El tipo no contiene toda la especie
+
+OH 7 fija el nombre, pero su mandíbula reconstruida y el resto del material atribuido no forman una variación simple. Ampliar o restringir el hipodigma cambia la diagnosis.
+
+**Prueba discriminatoria:** fósiles asociados craneodentales de intervalos estrechos y modelos de variación que controlen edad, sexo, tamaño y procedencia.
+
+## CONT-HOMO-RUDOLFENSIS-001 — Otra forma no decide por sí sola otro nombre
+
+KNM-ER 1470 y nuevos fósiles sostienen una combinación facial y mandibular diferente. Que esa agrupación sea especie, dimorfismo o estructura poblacional exige más que separación morfométrica.
+
+**Prueba discriminatoria:** series asociadas mayores que recuperen grupos reproducibles bajo modelos alternativos de dimorfismo y variación geográfica.
+
+## CONT-HOMO-ERECTUS-ORIGIN-001 — El primer detectado no es el lugar de nacimiento
+
+DNH 134 y KNM-ER 2598 llevan la presencia propuesta de `H. erectus` hacia `~2 Ma`. Ambos son parciales y sus contextos fechan detecciones; no ubican por sí solos el evento de especiación.
+
+**Prueba discriminatoria:** fósiles diagnósticos adicionales entre `2.2–1.8 Ma`, en secuencias africanas continuas y con relojes independientes.
+
+## CONT-HOMO-ERECTUS-ERGASTER-001 — Una frontera que no coincide con el mapa
+
+Separar África como `H. ergaster` reconoce diferencias útiles; reunir África y Asia reconoce continuidad y variación. DAN5 y Dmanisi muestran que los rasgos no se ordenan en dos paquetes geográficos puros.
+
+**Prueba discriminatoria:** análisis global preregistrado que compare modelos de una y varias especies con error de reconstrucción y estructura temporal explícitos.
+
+## CONT-HOMO-DMANISI-LUMPING-001 — Cinco cráneos no son todos los continentes
+
+Dmanisi demuestra que una población local puede ser muy variable. Usar esa observación para colapsar taxones africanos y asiáticos separados por grandes distancias y tiempos es una extrapolación adicional.
+
+**Prueba discriminatoria:** modelos jerárquicos que comparen variación individual, local, temporal y continental sin usar Dmanisi como único parámetro.
+
+## CONT-HOMO-TOOLS-MAKER-001 — Industria sin firma
+
+Namorotukunan, Kokiselei y Olduvai documentan gestos técnicos distintos. La coexistencia con uno o más homininos produce candidatos, no una identificación de especie fabricante.
+
+**Prueba discriminatoria:** asociación anatómica inequívoca, residuos o patrones técnicos que predigan diferencias y se validen fuera del sitio usado para proponerlas.
+
+## CONT-HOMO-BODY-PLAN-001 — Nariokotome es un individuo extraordinario
+
+KNM-WT 15000 prueba que un joven poseía talla y miembros largos. Su completitud no autoriza convertirlo en plantilla de todo `H. erectus`; cráneos pequeños y cuerpos incompletos dejan heterogeneidad abierta.
+
+**Prueba discriminatoria:** postcráneos asociados y adultos de varias regiones/edades, analizados con alometría y ontogenia comunes.
+
+## CONT-HOMO-DISPERSAL-ASIA-001 — Presencia antes que itinerario
+
+Dmanisi, Shangchen y Java ordenan presencias mínimas, pero Shangchen carece de fósiles y los hiatos no son caminos observados. Tecnología sencilla tampoco identifica taxón.
+
+**Prueba discriminatoria:** sitios intermedios bien fechados con fósiles diagnósticos y conjuntos arqueológicos en posición primaria.
+
+## CONT-HOMO-ERECTUS-PROTEIN-001 — Péptidos no son un genoma fantasma
+
+Las variantes AMBN de seis ejemplares son datos biomoleculares extraordinarios. Traducirlas a contribución denisovana o “superarcaica” requiere modelos y pocas posiciones; no se recuperó ADN de `H. erectus`.
+
+**Prueba discriminatoria:** más proteínas informativas en individuos y regiones independientes, simulaciones de genealogías rivales y, si fuera preservable, secuencias genómicas directas.

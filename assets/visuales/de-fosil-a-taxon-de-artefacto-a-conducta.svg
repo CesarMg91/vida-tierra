@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">De fósil a taxón y de artefacto a conducta</title>
+  <desc id="desc">Dos carriles paralelos muestran que asignar un fósil a un taxón y atribuir un artefacto a una conducta requieren cadenas de inferencia distintas, con controles y límites propios.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0e1521"/><stop offset="1" stop-color="#182935"/></linearGradient>
+    <filter id="shadow" x="-12%" y="-12%" width="124%" height="136%"><feDropShadow dx="0" dy="7" stdDeviation="8" flood-color="#000" flood-opacity=".3"/></filter>
+    <marker id="arrowA" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0 0l10 5-10 5z" fill="#b792cc"/></marker>
+    <marker id="arrowB" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0 0l10 5-10 5z" fill="#e0b661"/></marker>
+    <style>
+      .h1{font:700 38px system-ui,sans-serif;fill:#f5ebd8}.sub{font:400 19px system-ui,sans-serif;fill:#bdccd2}.lane{font:700 24px system-ui,sans-serif;fill:#fff}.head{font:700 18px system-ui,sans-serif;fill:#fff}.body{font:400 15px system-ui,sans-serif;fill:#dbe6ea}.small{font:600 14px system-ui,sans-serif;fill:#b8cbd1}.box{stroke-width:2;filter:url(#shadow)}.a{stroke:#b792cc;stroke-width:3;fill:none;marker-end:url(#arrowA)}.b{stroke:#e0b661;stroke-width:3;fill:none;marker-end:url(#arrowB)}
+    </style>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <text x="70" y="66" class="h1">Dos archivos · dos cadenas · dos límites</text>
+  <text x="70" y="102" class="sub">Un fósil no trae su etiqueta; un artefacto no conserva la firma de quien lo produjo.</text>
+
+  <rect x="55" y="145" width="1490" height="280" rx="24" fill="#1b2030" stroke="#8e72aa" stroke-width="2"/>
+  <text x="85" y="186" class="lane">CARRIL A · DE FÓSIL A TAXÓN</text>
+  <rect x="85" y="225" width="245" height="125" rx="16" class="box" fill="#3a3043" stroke="#b792cc"/>
+  <text x="110" y="264" class="head">RESTO Y CONTEXTO</text><text x="110" y="296" class="body">pieza · posición · edad</text><text x="110" y="326" class="small">¿Es comparable?</text>
+  <path d="M330 287H390" class="a"/>
+  <rect x="390" y="225" width="245" height="125" rx="16" class="box" fill="#352d40" stroke="#b792cc"/>
+  <text x="415" y="264" class="head">CARACTERES</text><text x="415" y="296" class="body">medición · imagen · forma</text><text x="415" y="326" class="small">¿Qué se preservó?</text>
+  <path d="M635 287H695" class="a"/>
+  <rect x="695" y="225" width="245" height="125" rx="16" class="box" fill="#302a3b" stroke="#b792cc"/>
+  <text x="720" y="264" class="head">VARIACIÓN</text><text x="720" y="296" class="body">edad · sexo · deformación</text><text x="720" y="326" class="small">¿Uno o varios grupos?</text>
+  <path d="M940 287H1000" class="a"/>
+  <rect x="1000" y="225" width="245" height="125" rx="16" class="box" fill="#2d2838" stroke="#b792cc"/>
+  <text x="1025" y="264" class="head">MODELO TAXONÓMICO</text><text x="1025" y="296" class="body">diagnóstico · hipodigma</text><text x="1025" y="326" class="small">Lumping o splitting.</text>
+  <path d="M1245 287H1305" class="a"/>
+  <rect x="1305" y="225" width="205" height="125" rx="16" class="box" fill="#432f49" stroke="#d0a6e0"/>
+  <text x="1330" y="264" class="head">TAXÓN</text><text x="1330" y="296" class="body">asignación revisable</text><text x="1330" y="326" class="small">No prueba ancestro.</text>
+  <text x="85" y="396" class="small">Control decisivo: cambiar muestra, codificación o modelo y comprobar si el resultado persiste.</text>
+
+  <rect x="55" y="465" width="1490" height="280" rx="24" fill="#262419" stroke="#c69d4f" stroke-width="2"/>
+  <text x="85" y="506" class="lane">CARRIL B · DE ARTEFACTO A CONDUCTA</text>
+  <rect x="85" y="545" width="245" height="125" rx="16" class="box" fill="#443a26" stroke="#e0b661"/>
+  <text x="110" y="584" class="head">OBJETO Y CONTEXTO</text><text x="110" y="616" class="body">estrato · superficie · unión</text><text x="110" y="646" class="small">¿Está en posición?</text>
+  <path d="M330 607H390" class="b"/>
+  <rect x="390" y="545" width="245" height="125" rx="16" class="box" fill="#3e3624" stroke="#e0b661"/>
+  <text x="415" y="584" class="head">TRAZAS</text><text x="415" y="616" class="body">fractura · filo · percusión</text><text x="415" y="646" class="small">¿Natural o antrópica?</text>
+  <path d="M635 607H695" class="b"/>
+  <rect x="695" y="545" width="245" height="125" rx="16" class="box" fill="#393222" stroke="#e0b661"/>
+  <text x="720" y="584" class="head">RÉPLICA Y USO</text><text x="720" y="616" class="body">cadena operativa · desgaste</text><text x="720" y="646" class="small">¿Qué acción encaja?</text>
+  <path d="M940 607H1000" class="b"/>
+  <rect x="1000" y="545" width="245" height="125" rx="16" class="box" fill="#342f20" stroke="#e0b661"/>
+  <text x="1025" y="584" class="head">ASOCIACIÓN</text><text x="1025" y="616" class="body">espacio · tiempo · candidatos</text><text x="1025" y="646" class="small">Coexistir no es autoría.</text>
+  <path d="M1245 607H1305" class="b"/>
+  <rect x="1305" y="545" width="205" height="125" rx="16" class="box" fill="#4b3e24" stroke="#f0c96f"/>
+  <text x="1330" y="584" class="head">CONDUCTA</text><text x="1330" y="616" class="body">inferencia graduada</text><text x="1330" y="646" class="small">Autor puede quedar abierto.</text>
+  <text x="85" y="716" class="small">Control decisivo: descartar procesos naturales y separar el gesto técnico de la identidad del productor.</text>
+
+  <rect x="265" y="790" width="1070" height="68" rx="28" fill="#090e16" stroke="#df7b70" stroke-width="2"/>
+  <text x="800" y="819" class="head" text-anchor="middle">MORFOLOGÍA ≠ ESPECIE · ASOCIACIÓN ≠ AUTORÍA</text>
+  <text x="800" y="845" class="small" text-anchor="middle">La conclusión fuerte nunca puede exceder al eslabón más débil de su cadena.</text>
+</svg>

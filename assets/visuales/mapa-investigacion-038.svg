@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Mapa epistemológico de Homo temprano</title>
+  <desc id="desc">Ocho rutas separan cronología, taxonomía, anatomía, distribución, tecnología, crecimiento, biomoléculas y genealogía para mostrar qué permite inferir cada archivo y dónde termina su alcance.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0d1420"/>
+      <stop offset="1" stop-color="#172a35"/>
+    </linearGradient>
+    <filter id="shadow" x="-12%" y="-12%" width="124%" height="136%">
+      <feDropShadow dx="0" dy="7" stdDeviation="8" flood-color="#000" flood-opacity=".32"/>
+    </filter>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0 0l10 5-10 5z" fill="#83c9c3"/>
+    </marker>
+    <style>
+      .h1{font:700 38px system-ui,sans-serif;fill:#f5ebd8}.sub{font:400 19px system-ui,sans-serif;fill:#b9cbd2}.head{font:700 20px system-ui,sans-serif;fill:#fff}.body{font:400 16px system-ui,sans-serif;fill:#dce7ea}.small{font:600 14px system-ui,sans-serif;fill:#b7cbd0}.box{stroke-width:2;filter:url(#shadow)}.line{stroke:#83c9c3;stroke-width:2.5;fill:none;marker-end:url(#arrow)}
+    </style>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <text x="70" y="65" class="h1">Investigación 038 · archivos distintos, inferencias distintas</text>
+  <text x="70" y="99" class="sub">La edad, el nombre, la conducta y la genealogía no salen del mismo instrumento.</text>
+
+  <rect x="480" y="135" width="640" height="112" rx="22" class="box" fill="#263747" stroke="#e0b66d"/>
+  <text x="800" y="177" class="head" text-anchor="middle">ARCHIVOS OBSERVABLES</text>
+  <text x="800" y="211" class="body" text-anchor="middle">fósil · estrato · artefacto · contexto · superficie dental · proteína</text>
+  <text x="800" y="235" class="small" text-anchor="middle">primero: procedencia, asociación, preservación y comparabilidad</text>
+
+  <path d="M610 247C490 280 350 283 240 320" class="line"/>
+  <path d="M680 247C630 282 600 286 560 320" class="line"/>
+  <path d="M750 247C740 282 755 288 755 320" class="line"/>
+  <path d="M850 247C865 282 865 288 865 320" class="line"/>
+  <path d="M930 247C980 282 990 286 1040 320" class="line"/>
+  <path d="M995 247C1110 278 1270 284 1360 320" class="line"/>
+
+  <rect x="55" y="320" width="340" height="160" rx="18" class="box" fill="#25384a" stroke="#68b4ca"/>
+  <text x="80" y="358" class="head">1 · CRONOLOGÍA</text>
+  <text x="80" y="392" class="body">reloj → horizonte → resto</text>
+  <text x="80" y="422" class="body">edad de depósito, no de origen</text>
+  <text x="80" y="454" class="small">Toba, paleomagnetismo, estratigrafía.</text>
+
+  <rect x="420" y="320" width="340" height="160" rx="18" class="box" fill="#3a3043" stroke="#b88fc6"/>
+  <text x="445" y="358" class="head">2 · TAXONOMÍA</text>
+  <text x="445" y="392" class="body">carácter → variación → diagnóstico</text>
+  <text x="445" y="422" class="body">hipodigma y modelo comparativo</text>
+  <text x="445" y="454" class="small">Un nombre es una hipótesis revisable.</text>
+
+  <rect x="785" y="320" width="340" height="160" rx="18" class="box" fill="#294139" stroke="#78c59b"/>
+  <text x="810" y="358" class="head">3 · ANATOMÍA</text>
+  <text x="810" y="392" class="body">forma → función posible</text>
+  <text x="810" y="422" class="body">tamaño · locomoción · desarrollo</text>
+  <text x="810" y="454" class="small">Capacidad no equivale a conducta.</text>
+
+  <rect x="1150" y="320" width="395" height="160" rx="18" class="box" fill="#49362a" stroke="#d7a36b"/>
+  <text x="1175" y="358" class="head">4 · DISTRIBUCIÓN</text>
+  <text x="1175" y="392" class="body">sitio fechado → presencia mínima</text>
+  <text x="1175" y="422" class="body">África · Cáucaso · Asia</text>
+  <text x="1175" y="454" class="small">Primer hallazgo ≠ primera llegada.</text>
+
+  <path d="M245 480C245 525 245 530 245 565" class="line"/>
+  <path d="M600 480C600 525 600 530 600 565" class="line"/>
+  <path d="M965 480C965 525 965 530 965 565" class="line"/>
+  <path d="M1360 480C1360 525 1360 530 1360 565" class="line"/>
+
+  <rect x="55" y="565" width="340" height="160" rx="18" class="box" fill="#443a26" stroke="#e1b75f"/>
+  <text x="80" y="603" class="head">5 · TECNOLOGÍA</text>
+  <text x="80" y="637" class="body">artefacto → gesto técnico</text>
+  <text x="80" y="667" class="body">→ productores candidatos</text>
+  <text x="80" y="699" class="small">La asociación no firma al autor.</text>
+
+  <rect x="420" y="565" width="340" height="160" rx="18" class="box" fill="#254044" stroke="#6fc4bd"/>
+  <text x="445" y="603" class="head">6 · CRECIMIENTO</text>
+  <text x="445" y="637" class="body">microestructura dental → ritmo</text>
+  <text x="445" y="667" class="body">edad individual, no especie entera</text>
+  <text x="445" y="699" class="small">Mosaico de rasgos juveniles.</text>
+
+  <rect x="785" y="565" width="340" height="160" rx="18" class="box" fill="#273b50" stroke="#75aee8"/>
+  <text x="810" y="603" class="head">7 · BIOMOLÉCULAS</text>
+  <text x="810" y="637" class="body">péptido → variante → afinidad</text>
+  <text x="810" y="667" class="body">proteína ≠ genoma recuperado</text>
+  <text x="810" y="699" class="small">Pocas posiciones, control de daño.</text>
+
+  <rect x="1150" y="565" width="395" height="160" rx="18" class="box" fill="#35304b" stroke="#a49be8"/>
+  <text x="1175" y="603" class="head">8 · GENEALOGÍA</text>
+  <text x="1175" y="637" class="body">matriz + modelo → topologías</text>
+  <text x="1175" y="667" class="body">compatibilidad, no filiación directa</text>
+  <text x="1175" y="699" class="small">Depende de muestra y codificación.</text>
+
+  <rect x="255" y="780" width="1090" height="72" rx="28" fill="#090f18" stroke="#df7b70" stroke-width="2"/>
+  <text x="800" y="810" class="head" text-anchor="middle">EDAD ≠ TAXÓN ≠ FUNCIÓN ≠ AUTOR ≠ PARENTESCO</text>
+  <text x="800" y="838" class="small" text-anchor="middle">Cada flecha exige su propio archivo, instrumento, supuesto y prueba de refutación.</text>
+</svg>

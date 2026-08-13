@@ -579,6 +579,33 @@ Este archivo es el índice canónico. La letra de confianza califica exactamente
 | `CLAIM-PBOISEI-HAND-2025-001` | KNM-ER 101000 asocia inequívocamente mano y pie con `P. boisei`: combina precisión/potencia manual y pie bípedo, sin probar tecnología. | A asociación; B función; D autoría | AUDITADO | `EVID-PBOISEI-HAND-001` | `INV-AUSTRALOPITH-001` |
 | `CLAIM-PROBUSTUS-MICROEVOLUTION-001` | DNH 155 favorece cambio temporal dentro de `P. robustus` para diferencias antes explicadas principalmente por dimorfismo. | B-COND | AUDITADO | `EVID-PROBUSTUS-EVOLUTION-001` | `INV-AUSTRALOPITH-001` |
 | `CLAIM-PARANTHROPUS-TOOL-LIMIT-001` | Dientes de `Paranthropus` junto a Oldowan en Nyayanga y una mano capaz en `P. boisei` no identifican al fabricante. | A contra atribución; D autoría | AUDITADO | `EVID-NYAYANGA-001`, `EVID-PBOISEI-HAND-001` | `INV-AUSTRALOPITH-001` |
+| `CLAIM-HOMO-EARLY-SCOPE-001` | Entre `~2.8 Ma` y el Pleistoceno medio, `Homo` temprano documenta poblaciones y morfologías solapadas, no una sucesión lineal `habilis → erectus`. | B | AUDITADO | `EVID-HOMO-METHOD-001`, `EVID-HOMO-LEDI-001`, `EVID-HABILIS-ERECTUS-ILERET-001` | `INV-HOMO-EARLY-001` |
+| `CLAIM-HOMO-GENUS-DEFINITION-001` | El género `Homo` no posee un umbral único operativo de cerebro, dientes, cuerpo o tecnología; su delimitación combina caracteres y modelo comparativo. | A-SEM | AUDITADO | `EVID-HOMO-METHOD-001`, `EVID-HOMO-LEDI-001` | `INV-HOMO-EARLY-001` |
+| `CLAIM-HOMO-TAXONOMY-MOSAIC-001` | Los primeros `Homo` combinan rasgos en mosaico; una pieza aislada puede apoyar afinidad sin resolver especie ni genealogía. | B-COND | AUDITADO | `EVID-HOMO-METHOD-001`, `EVID-HOMO-LEDI-001`, `EVID-HABILIS-OH7-001` | `INV-HOMO-EARLY-001` |
+| `CLAIM-HOMO-ANCESTRY-LIMIT-001` | Edad, semejanza o posición basal no demuestran que un espécimen de `Homo` temprano sea ancestro directo de otro taxón. | A-SEM; D genealogía | AUDITADO | `EVID-HOMO-METHOD-001`, `EVID-HOMO-LEDI-001` | `INV-HOMO-EARLY-001` |
+| `CLAIM-HOMO-LEDI-AGE-001` | LD 350-1 procede de un contexto de `2.80–2.75 Ma`; dientes posteriores de Ledi-Geraru documentan `Homo` a `2.78` y `2.59 Ma`. | B | AUDITADO | `EVID-HOMO-LEDI-001` | `INV-HOMO-EARLY-001` |
+| `CLAIM-HOMO-LEDI-IDENTITY-001` | LD 350-1 y los dientes de Ledi-Geraru apoyan afinidad con `Homo`, pero no una especie ni una relación ancestro-descendiente seguras. | C-COND | AUDITADO | `EVID-HOMO-LEDI-001` | `INV-HOMO-EARLY-001` |
+| `CLAIM-HABILIS-OH7-001` | OH 7 sostiene el nombre `Homo habilis`; su reconstrucción revisada amplía la disparidad mandibular y craneal del `Homo` temprano. | B | AUDITADO | `EVID-HABILIS-OH7-001` | `INV-HOMO-EARLY-001` |
+| `CLAIM-HABILIS-DIVERSITY-001` | La variación mandibular, dental y craneal atribuida a `H. habilis` excede una forma simple y mantiene abierto el contenido de su hipodigma. | B-COND | AUDITADO | `EVID-HABILIS-OH7-001`, `EVID-HABILIS-DENTAL-001` | `INV-HOMO-EARLY-001` |
+| `CLAIM-RUDOLFENSIS-DISTINCT-001` | KNM-ER 1470 y fósiles de Koobi Fora sostienen una agrupación morfológica distinta, aunque su rango de especie `H. rudolfensis` sigue condicionado. | B morfología; C especie | AUDITADO | `EVID-RUDOLFENSIS-KOOBI-001` | `INV-HOMO-EARLY-001` |
+| `CLAIM-HOMO-EARLY-COEXISTENCE-001` | Morfologías distintas de `Homo` coexistieron en África oriental, y `Australopithecus`, `Paranthropus` y `Homo erectus` coincidieron temporalmente en África meridional. | B | AUDITADO | `EVID-RUDOLFENSIS-KOOBI-001`, `EVID-ERECTUS-EARLIEST-001` | `INV-HOMO-EARLY-001` |
+| `CLAIM-ERECTUS-EARLIEST-001` | DNH 134 cerca de `2.04–1.95 Ma` y KNM-ER 2598 anterior a `1.855 Ma` son candidatos tempranos de `H. erectus`; los extremos dependen de contexto y taxonomía. | B-C | AUDITADO | `EVID-ERECTUS-EARLIEST-001` | `INV-HOMO-EARLY-001` |
+| `CLAIM-ERECTUS-MOSAIC-001` | DAN5, Dmanisi y otros fósiles muestran que `H. erectus` temprano no fue morfológicamente uniforme y conservó combinaciones regionales mosaico. | B-COND | AUDITADO | `EVID-ERECTUS-DAN5-001`, `EVID-DMANISI-SKULLS-001` | `INV-HOMO-EARLY-001` |
+| `CLAIM-ERECTUS-HABILIS-OVERLAP-001` | Fósiles de Ileret apoyan solapamiento temporal de `H. habilis` y `H. erectus`, incompatible con una sustitución instantánea. | B | AUDITADO | `EVID-HABILIS-ERECTUS-ILERET-001` | `INV-HOMO-EARLY-001` |
+| `CLAIM-ERECTUS-ERGASTER-TAXONOMY-001` | Separar `H. ergaster` africano de `H. erectus` asiático o reunirlos en una especie amplia es una elección taxonómica activa, no una frontera geográfica automática. | C | AUDITADO | `EVID-ERECTUS-DAN5-001`, `EVID-ERECTUS-BODY-001` | `INV-HOMO-EARLY-001` |
+| `CLAIM-ERECTUS-BODY-001` | KNM-WT 15000 documenta en un individuo juvenil un cuerpo alto y miembros largos, pero no representa por sí solo toda la variación de `H. erectus`. | A-LOCAL; B distribución | AUDITADO | `EVID-ERECTUS-BODY-001` | `INV-HOMO-EARLY-001` |
+| `CLAIM-ERECTUS-RANGE-001` | Contextos fechados sostienen presencia temprana de homininos fuera de África en Dmanisi y Asia; límites y taxón exacto varían entre sitios. | B presencia; C límites | AUDITADO | `EVID-DMANISI-CONTEXT-001`, `EVID-ASIA-DISPERSAL-001`, `EVID-JAVA-CHRONOLOGY-001` | `INV-HOMO-EARLY-001` |
+| `CLAIM-DMANISI-AGE-001` | Dmanisi registra ocupaciones y fósiles entre `~1.85 y 1.78 Ma` mediante estratigrafía, paleomagnetismo y geocronología. | A-B | AUDITADO | `EVID-DMANISI-CONTEXT-001` | `INV-HOMO-EARLY-001` |
+| `CLAIM-DMANISI-VARIATION-001` | Los cráneos de Dmanisi demuestran gran variación dentro de una población local, pero no obligan por sí solos a reunir todo `Homo` temprano en una especie. | A local; C global | AUDITADO | `EVID-DMANISI-SKULLS-001` | `INV-HOMO-EARLY-001` |
+| `CLAIM-DMANISI-GROWTH-001` | La microestructura dental de D2700 indica muerte a `11.4 ± 0.6` años y un patrón de crecimiento mosaico, condicionado a un individuo. | B-COND | AUDITADO | `EVID-DMANISI-GROWTH-001` | `INV-HOMO-EARLY-001` |
+| `CLAIM-ASIA-EARLY-TOOLS-001` | Shangchen documenta artefactos desde `~2.12 Ma`, pero sin fósiles asociados no identifica la especie productora. | B presencia; D taxón | AUDITADO | `EVID-ASIA-DISPERSAL-001` | `INV-HOMO-EARLY-001` |
+| `CLAIM-JAVA-CHRONOLOGY-001` | Sangiran sitúa la primera aparición local de `H. erectus` alrededor de `1.3 Ma` y antes de `1.5 Ma`; Ngandong registra una supervivencia tardía de `117–108 ka`. | B-COND | AUDITADO | `EVID-JAVA-CHRONOLOGY-001` | `INV-HOMO-EARLY-001` |
+| `CLAIM-HOMO-TOOLS-ATTRIBUTION-001` | Oldowan, Achelense y herramientas óseas documentan acciones técnicas, pero su asociación no permite asignar automáticamente autoría a `Homo` o a una especie. | A contra atribución; D fabricante | AUDITADO | `EVID-OLDOWAN-NAMOROTUKUNAN-001`, `EVID-ACHEULEAN-KOKISELEI-001`, `EVID-BONE-TOOLS-OLDUVAI-001` | `INV-HOMO-EARLY-001` |
+| `CLAIM-OLDOWAN-CONTINUITY-2025-001` | Namorotukunan conserva Oldowan en tres horizontes de `2.75–2.44 Ma`, apoyando continuidad tecnológica durante cambio ambiental plioceno. | B | AUDITADO | `EVID-OLDOWAN-NAMOROTUKUNAN-001` | `INV-HOMO-EARLY-001` |
+| `CLAIM-ACHEULEAN-EARLY-001` | Kokiselei documenta Achelense cerca de `1.76 Ma`, mostrando que Oldowan y Achelense pudieron coexistir. | B | AUDITADO | `EVID-ACHEULEAN-KOKISELEI-001` | `INV-HOMO-EARLY-001` |
+| `CLAIM-BONE-TOOLS-2025-001` | Olduvai documenta producción sistemática de 27 herramientas óseas cerca de `1.5 Ma`, sin productor taxonómico identificado. | B | AUDITADO | `EVID-BONE-TOOLS-OLDUVAI-001` | `INV-HOMO-EARLY-001` |
+| `CLAIM-ERECTUS-PROTEINS-2026-001` | Proteínas de esmalte recuperadas de seis `H. erectus` chinos contienen dos variantes compartidas de ameloblastina, con autenticidad evaluada. | B | AUDITADO | `EVID-ERECTUS-PROTEOMICS-001` | `INV-HOMO-EARLY-001` |
+| `CLAIM-ERECTUS-INTROGRESSION-LIMIT-001` | La afinidad proteica compatible con contribución denisovana o “superarcaica” es una inferencia modelada con pocas posiciones, no ADN ni prueba directa de introgresión. | C-D-COND | AUDITADO | `EVID-ERECTUS-PROTEOMICS-001` | `INV-HOMO-EARLY-001` |
 
 ## Fichas resumidas
 
@@ -3096,6 +3123,61 @@ Este archivo es el índice canónico. La letra de confianza califica exactamente
 - **Asociación:** KNM-ER 101000 une mano/pie y material diagnóstico de `P. boisei`.
 - **Cambio:** DNH 155 recupera evolución temporal donde dimorfismo era explicación principal.
 - **Límite:** un individuo o secuencia regional no define conducta/tendencia universal.
+
+## Investigación 038 — Homo temprano
+
+### CLAIM-HOMO-EARLY-SCOPE-001 / GENUS-DEFINITION-001 / TAXONOMY-MOSAIC-001 / ANCESTRY-LIMIT-001
+
+- **Archivo:** fósiles fragmentarios, contextos geológicos, artefactos y biomoléculas con cadenas separadas.
+- **Resultado:** `Homo` temprano es una diversidad ramificada y mosaico; no existe un umbral único que defina el género.
+- **Límite:** afinidad, edad y semejanza no identifican una especie ni un ancestro directo.
+
+### CLAIM-HOMO-LEDI-AGE-001 / LEDI-IDENTITY-001
+
+- **Observación:** LD 350-1 está entre `2.80–2.75 Ma`; dientes de Ledi-Geraru registran `Homo` a `2.78/2.59 Ma`.
+- **Puente:** caracteres mandibulares/dentales comparados apoyan afinidad genérica.
+- **Límite:** restos fragmentarios no resuelven especie o genealogía.
+
+### CLAIM-HABILIS-OH7-001 / HABILIS-DIVERSITY-001 / RUDOLFENSIS-DISTINCT-001
+
+- **Archivo:** OH 7 reconstruido, dientes y fósiles de Koobi Fora.
+- **Resultado:** hay más de una combinación morfológica contemporánea en el `Homo` temprano.
+- **Límite:** composición del hipodigma de `habilis` y rango de `rudolfensis` dependen del modelo taxonómico.
+
+### CLAIM-HOMO-EARLY-COEXISTENCE-001 / ERECTUS-EARLIEST-001 / ERECTUS-HABILIS-OVERLAP-001
+
+- **Cronología:** Drimolen/Turkana sitúan candidatos tempranos de `erectus` hacia `~2 Ma`; Ileret extiende el solapamiento con `habilis`.
+- **Resultado:** coexistencia sustituye la narrativa de reemplazo instantáneo.
+- **Límite:** extremos son detecciones condicionadas por muestra, contexto y diagnóstico.
+
+### CLAIM-ERECTUS-MOSAIC-001 / ERECTUS-ERGASTER-TAXONOMY-001 / ERECTUS-BODY-001
+
+- **Archivo:** DAN5 reconstruido y el esqueleto juvenil KNM-WT 15000.
+- **Resultado:** miembros largos coexistieron con cráneos pequeños y combinaciones regionales variables.
+- **Límite:** un individuo completo no vuelve uniforme a la especie; `ergaster/erectus` sigue siendo una decisión taxonómica.
+
+### CLAIM-ERECTUS-RANGE-001 / DMANISI-AGE-001 / DMANISI-VARIATION-001 / DMANISI-GROWTH-001
+
+- **Presencia:** Dmanisi registra ocupación `1.85–1.78 Ma` y gran variación craneal local.
+- **Ontogenia:** D2700 murió a `11.4 ± 0.6` años bajo lectura microestructural y muestra crecimiento mosaico.
+- **Límite:** sitio, población e individuo no representan automáticamente todo `Homo` temprano.
+
+### CLAIM-ASIA-EARLY-TOOLS-001 / JAVA-CHRONOLOGY-001
+
+- **Asia:** Shangchen documenta artefactos a `~2.12 Ma` sin fósil; Sangiran registra `H. erectus` local cerca de `1.3 Ma` y Ngandong hasta `117–108 ka`.
+- **Límite:** primera/última detección no equivalen a llegada/extinción, y una industria no identifica taxón.
+
+### CLAIM-HOMO-TOOLS-ATTRIBUTION-001 / OLDOWAN-CONTINUITY-2025-001 / ACHEULEAN-EARLY-001 / BONE-TOOLS-2025-001
+
+- **Observación:** Namorotukunan conserva Oldowan `2.75–2.44 Ma`, Kokiselei Achelense `~1.76 Ma` y Olduvai herramientas óseas `~1.5 Ma`.
+- **Resultado:** hay continuidad, coexistencia y diversificación técnica.
+- **Límite:** el productor taxonómico permanece abierto en los tres expedientes.
+
+### CLAIM-ERECTUS-PROTEINS-2026-001 / ERECTUS-INTROGRESSION-LIMIT-001
+
+- **Observación:** seis esmaltes chinos preservan péptidos y dos variantes AMBN compartidas.
+- **Resultado:** el archivo molecular de `H. erectus` ya no es exclusivamente morfológico.
+- **Límite:** proteína no es ADN; pocas posiciones no demuestran por sí solas introgresión ni una población donante.
 
 ## Claims futuros
 
