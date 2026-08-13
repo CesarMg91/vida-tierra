@@ -180,3 +180,19 @@ CAIs y meteoritos
 ```
 
 Véase `INV-EARTH-AGE-001` en `02_formacion_tierra`.
+
+La ruta específica de acreción terrestre es:
+
+```text
+182W + Hf/W ──────────────→ separación integrada + equilibrio ─┐
+manto multielemental ─────→ partición metal–silicato ──────────┤
+HSE + Ru + W antiguo ─────→ masa/procedencia tardía ───────────┤
+masas + órbitas ──────────→ ensambles N-cuerpos ───────────────┤
+hidrocódigos ─────────────→ fusión / hit-and-run / erosión ────┤
+H/N + reservorios NC/CC ──→ procedencia y retención ───────────┘
+                                      ↓
+             crecimiento y núcleo multietapa: B-COND
+             curva/impactores/final únicos: D–E
+```
+
+Véase `INV-EARTH-ACCRETION-001` en `02_formacion_tierra`, su mapa en `assets/visuales/mapa-investigacion-006.svg` y la distinción de hitos en `assets/visuales/cinco-finales-acrecion.svg`.

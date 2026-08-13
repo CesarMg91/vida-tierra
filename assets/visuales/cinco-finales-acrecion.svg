@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="920" viewBox="0 0 1600 920" role="img" aria-labelledby="title2 desc2">
+  <title id="title2">Cinco finales distintos de la acreción terrestre</title>
+  <desc id="desc2">Una línea conceptual distingue media masa, noventa por ciento de masa, último impacto gigante, fin del reequilibrio núcleo-manto y cola de acreción tardía. No asigna fechas universales.</desc>
+  <defs>
+    <linearGradient id="bg2" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#08121a"/><stop offset="1" stop-color="#1c1719"/></linearGradient>
+    <linearGradient id="mass" x1="0" y1="1" x2="1" y2="0"><stop stop-color="#427f94"/><stop offset="0.65" stop-color="#d07a45"/><stop offset="1" stop-color="#efc576"/></linearGradient>
+    <filter id="sh"><feDropShadow dx="0" dy="8" stdDeviation="11" flood-opacity="0.32"/></filter>
+    <style>.s{font-family:Inter,"Segoe UI",Arial,sans-serif}.t{font-size:42px;font-weight:700;fill:#f7f1e8}.sub{font-size:20px;fill:#b7c3cb}.h{font-size:22px;font-weight:700;fill:#f6eee4}.b{font-size:18px;fill:#d6dfe4}.sm{font-size:15px;fill:#a8b6c0}.num{font-size:24px;font-weight:800;fill:#0d161c}.label{font-size:16px;font-weight:700;letter-spacing:1.1px}.warn{font-size:18px;font-weight:700;fill:#f0c77d}</style>
+  </defs>
+  <rect width="1600" height="920" fill="url(#bg2)"/>
+  <circle cx="1450" cy="70" r="230" fill="#d37542" opacity="0.06"/><circle cx="70" cy="870" r="250" fill="#3b8da2" opacity="0.05"/>
+  <g class="s">
+    <text x="76" y="74" class="t">“La Tierra terminó de formarse” no tiene una sola definición</text>
+    <text x="76" y="110" class="sub">Los hitos pueden solaparse y su posición depende del modelo; las distancias son conceptuales, no una escala cronológica.</text>
+
+    <!-- mass curve -->
+    <g transform="translate(105 158)">
+      <line x1="0" y1="330" x2="1380" y2="330" stroke="#526873" stroke-width="3"/>
+      <line x1="0" y1="330" x2="0" y2="15" stroke="#526873" stroke-width="3"/>
+      <text x="-12" y="370" class="sm">CAIs / t = 0</text><text x="1250" y="370" class="sm">cola prolongada</text>
+      <text transform="translate(-55 258) rotate(-90)" class="label" fill="#9eb3bd">MASA ACUMULADA</text>
+      <path d="M0 330 C120 320 185 275 255 205 C350 110 480 70 650 50 C810 32 1010 25 1370 18 L1370 330 Z" fill="url(#mass)" opacity="0.23"/>
+      <path d="M0 330 C120 320 185 275 255 205 C350 110 480 70 650 50 C810 32 1010 25 1370 18" fill="none" stroke="url(#mass)" stroke-width="9" stroke-linecap="round"/>
+      <path d="M760 48 C860 82 910 130 970 160" fill="none" stroke="#d56e45" stroke-width="3" stroke-dasharray="7 8"/>
+      <text x="980" y="162" class="sm">un choque puede erosionar</text>
+      <path d="M970 165 C1020 120 1070 75 1135 45" fill="none" stroke="#d56e45" stroke-width="3" stroke-dasharray="7 8"/>
+      <circle cx="255" cy="205" r="18" fill="#82c7d2"/><text x="247" y="213" class="num">1</text>
+      <circle cx="650" cy="50" r="18" fill="#b3d9c9"/><text x="642" y="58" class="num">2</text>
+      <circle cx="900" cy="34" r="18" fill="#e69a59"/><text x="892" y="42" class="num">3</text>
+      <circle cx="1085" cy="26" r="18" fill="#e3b36c"/><text x="1077" y="34" class="num">4</text>
+      <circle cx="1330" cy="19" r="18" fill="#efd18d"/><text x="1322" y="27" class="num">5</text>
+      <line x1="255" y1="225" x2="255" y2="330" stroke="#82c7d2" stroke-dasharray="5 6"/><line x1="650" y1="70" x2="650" y2="330" stroke="#b3d9c9" stroke-dasharray="5 6"/><line x1="900" y1="54" x2="900" y2="330" stroke="#e69a59" stroke-dasharray="5 6"/><line x1="1085" y1="46" x2="1085" y2="330" stroke="#e3b36c" stroke-dasharray="5 6"/><line x1="1330" y1="39" x2="1330" y2="330" stroke="#efd18d" stroke-dasharray="5 6"/>
+      <text x="175" y="410" class="sm">tiempo desde el ancla CAI →</text>
+    </g>
+
+    <!-- five cards -->
+    <g filter="url(#sh)">
+      <rect x="58" y="620" width="278" height="226" rx="22" fill="#173341" stroke="#3d7486"/>
+      <rect x="359" y="620" width="278" height="226" rx="22" fill="#1b3434" stroke="#4d776e"/>
+      <rect x="660" y="620" width="278" height="226" rx="22" fill="#3b2924" stroke="#8e543d"/>
+      <rect x="961" y="620" width="278" height="226" rx="22" fill="#3b3026" stroke="#8f6b43"/>
+      <rect x="1262" y="620" width="278" height="226" rx="22" fill="#3d3528" stroke="#9c8152"/>
+    </g>
+    <circle cx="91" cy="656" r="18" fill="#82c7d2"/><text x="83" y="664" class="num">1</text><text x="121" y="663" class="h">50 % de masa</text>
+    <text x="80" y="705" class="b">Hito de una curva M(t).</text><text x="80" y="735" class="b">No fecha una roca ni el</text><text x="80" y="765" class="b">último impacto gigante.</text><text x="80" y="811" class="sm">Principal archivo: N-cuerpos</text>
+    <circle cx="392" cy="656" r="18" fill="#b3d9c9"/><text x="384" y="664" class="num">2</text><text x="422" y="663" class="h">90 % de masa</text>
+    <text x="381" y="705" class="b">Resume crecimiento mayor,</text><text x="381" y="735" class="b">pero el 10 % restante puede</text><text x="381" y="765" class="b">cambiar Luna y núcleo.</text><text x="381" y="811" class="sm">Principal archivo: ensambles</text>
+    <circle cx="693" cy="656" r="18" fill="#e69a59"/><text x="685" y="664" class="num">3</text><text x="723" y="650" class="h">Último impacto</text><text x="723" y="676" class="h">gigante</text>
+    <text x="682" y="718" class="b">Candidato a formar la Luna.</text><text x="682" y="748" class="b">No implica que dejaran de</text><text x="682" y="778" class="b">llegar cuerpos menores.</text><text x="682" y="817" class="sm">Luna + dinámica + HSE</text>
+    <circle cx="994" cy="656" r="18" fill="#e3b36c"/><text x="986" y="664" class="num">4</text><text x="1024" y="650" class="h">Fin del equilibrio</text><text x="1024" y="676" class="h">núcleo–manto</text>
+    <text x="983" y="718" class="b">Depende de cuánto metal</text><text x="983" y="748" class="b">tocó cuánto silicato, no</text><text x="983" y="778" class="b">solo del tiempo orbital.</text><text x="983" y="817" class="sm">Hf–W + partición</text>
+    <circle cx="1295" cy="656" r="18" fill="#efd18d"/><text x="1287" y="664" class="num">5</text><text x="1325" y="650" class="h">Fin de la acreción</text><text x="1325" y="676" class="h">tardía</text>
+    <text x="1284" y="718" class="b">Cola de fragmentos y</text><text x="1284" y="748" class="b">planetesimales. No posee</text><text x="1284" y="778" class="b">una frontera instantánea.</text><text x="1284" y="817" class="sm">HSE + Ru/W + dinámica</text>
+
+    <rect x="354" y="868" width="892" height="34" rx="17" fill="#1a252b" stroke="#5b7079"/><text x="430" y="891" class="warn">Regla:</text><text x="500" y="891" class="b">toda cifra debe decir cuál final fecha y qué modelo la convierte en tiempo.</text>
+  </g>
+</svg>

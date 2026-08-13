@@ -66,6 +66,20 @@ El mapa obliga a recorrer señal, magnitud calibrada, puente y claim. La existen
 
 La comparación muestra por qué los discos de otras estrellas enseñan física posible y los meteoritos/cometas conservan genealogía local, sin convertirlos en pruebas totalmente independientes.
 
+## 7. Investigación 006 — Acreción terrestre
+
+![Portada conceptual de la acreción terrestre](assets/visuales/hero-acrecion-tierra.png)
+
+> **Portada conceptual:** conecta embriones, un impacto oblicuo, metal/silicato y laboratorio moderno. No representa una colisión concreta, una secuencia cronológica ni una imagen del joven Sistema Solar.
+
+![Mapa de evidencia de la acreción terrestre](assets/visuales/mapa-investigacion-006.svg)
+
+Cinco rutas separan razón medida y puente: Hf–W, manto multielemental, dinámica N-cuerpos, HSE/Ru/W y procedencia/volátiles. La alta precisión isotópica no se confunde con una curva histórica exacta.
+
+![Cinco finales distintos de la acreción terrestre](assets/visuales/cinco-finales-acrecion.svg)
+
+La lámina distingue media masa, 90 % de masa, último impacto gigante, fin del equilibrio núcleo–manto y acreción tardía. Las distancias son conceptuales y la curva incluye erosión para evitar crecimiento monotónico ficticio.
+
 ## Procedencia
 
 El registro de creación, límites y prompt de cada pieza está en [`assets/visuales/README.md`](assets/visuales/README.md).
