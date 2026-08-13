@@ -361,3 +361,20 @@ reloj + calibraciones ─────→ edad modelada, no fósil ────�
 ```
 
 Véase `INV-LIFE-LUCA-001` en `09_origen_vida`, su mapa en `assets/visuales/mapa-investigacion-016.svg` y la cadena en `assets/visuales/de-gen-a-luca.svg`.
+
+La ruta específica de la eucariogénesis es:
+
+```text
+genes informacionales ──→ árbol arqueano ──────────────→ afinidad Asgard ─────┐
+ESP + estructuras ──────→ función/célula Asgard ───────→ piezas previas ──────┤
+genoma/ribosoma mito ───→ árbol bacteriano ────────────→ endosimbiosis Alpha ┤
+MRO + pérdidas ─────────→ reconstrucción comparativa ──→ LECA mitocondriado ──┤
+sistemas eucariotas ────→ ortología/pérdidas ──────────→ LECA complejo ───────┤
+duplicaciones + fósiles ─→ reloj / edad mínima ─────────→ intervalo condicionado┘
+                                             ↓
+                     dos genealogías integradas: A-COND / A-B
+                     rama, orden y ecología: C-COND / C-D
+                     engullimiento, membranas y especie: D-E
+```
+
+Véase `INV-LIFE-EUK-001` en `10_evolucion_vida`, su mapa en `assets/visuales/mapa-investigacion-017.svg` y la cadena en `assets/visuales/de-simbiosis-a-organelo.svg`.

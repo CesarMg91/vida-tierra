@@ -17,3 +17,4 @@ Historia de cómo se reconstruyó la historia: creencias previas, evidencia disr
 - [`HISTORIA_014_FOTOSINTESIS_OXIGENO.md`](HISTORIA_014_FOTOSINTESIS_OXIGENO.md): de equiparar tapetes con cianobacterias a fechar por separado fototrofía, oxidación singenética, oasis locales y atmósfera.
 - [`HISTORIA_015_GRAN_OXIDACION.md`](HISTORIA_015_GRAN_OXIDACION.md): de minerales detríticos y capas rojas a `S‑MIF`, testigos continuos, memoria crustal y proxies separados para aire y océano.
 - [`HISTORIA_016_LUCA.md`](HISTORIA_016_LUCA.md): del bloque procariota al `rRNA`, la raíz por parálogos, la prueba formal de ascendencia común y los inventarios probabilísticos de LUCA.
+- [`HISTORIA_017_EUCARIOGENESIS.md`](HISTORIA_017_EUCARIOGENESIS.md): de las semejanzas organelares y el DNA mitocondrial a Asgard, cultivos, criotomografía y filogenómica de dos genealogías integradas.

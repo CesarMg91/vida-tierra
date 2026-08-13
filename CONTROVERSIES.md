@@ -82,6 +82,14 @@ Una controversia no implica empate. Registra qué parte está realmente abierta,
 | `CONT-LUCA-REPLICATION-001` | Genoma y replisoma | DNA con PolD ancestral reemplazada | otra replicasa o etapa RNA/DNA | DNA probable; aparato abierto | B-COND / D |
 | `CONT-LUCA-METABOLISM-001` | Fisiología y hábitat | acetógeno termófilo hidrotermal | metabolismo mixto en sedimentos/ambientes diversos | abierta por función/escala | C-D |
 | `CONT-LUCA-AGE-001` | Edad del nodo | concentración cerca de `4.2 Ga` | límite amplio >`3.9 Ga` o nodo prolongado | modelada | C-D |
+| `CONT-EUK-ASGARD-PLACEMENT-001` | Rama del huésped | Hodarchaeales/Heimdall | hermana o rama profunda Asgard | afinidad amplia firme | C-D fina |
+| `CONT-EUK-MITO-DONOR-001` | Donante mitocondrial | dentro de Alphaproteobacteria | hermana/profunda respecto a Alpha muestreada | Alpha-relacionado | C-D fina |
+| `CONT-EUK-MITO-TIMING-001` | Orden de innovaciones | mitocondria temprana habilita complejidad | huésped complejizado antes de captura | duplicaciones favorecen tarde | C-COND |
+| `CONT-EUK-ENGULFMENT-001` | Internalización | fagocitosis/invaginación | protrusiones, sintrofía o huésped adicional | mecanismo abierto | D-E |
+| `CONT-EUK-MEMBRANE-001` | Transición lipídica | reemplazo/mezcla desde huésped arqueano | continuidad bacteriana con evento adicional | abierta | D |
+| `CONT-EUK-GENE-DONORS-001` | Socios adicionales | HGT dispersa desde vecinos | endosimbiosis serial/virus | interacción no identificada | C-D |
+| `CONT-EUK-OXYGEN-001` | Papel de O₂ | motor energético/esteroles | oportunidad ecológica posterior | causalidad abierta | D |
+| `CONT-EUK-FOSSIL-001` | Edad/afinidad fósil | tallo eucariota temprano | ramas corona o miméticos/afinidad abierta | mínimo por taxón | C-D |
 
 ## CONT-COSMOS-H0-001 — Dos rutas hacia la tasa actual
 
@@ -719,3 +727,51 @@ Weiss y Moody recuperan señales de anaerobiosis, `H₂`, ferredoxina y Wood–L
 El reloj con parálogos y *cross‑bracing* concentra la edad cerca de `4.2 Ga`, muy cerca del inicio de habitabilidad posible. Otros análisis sostienen principalmente un límite anterior a `3.9 Ga`. El intervalo estrecho hereda fósiles, priors, máximo lunar, tasas y cinco familias.
 
 **Prueba discriminatoria:** nuevos parálogos pre‑LUCA, calibraciones que no compartan los mismos proxies y análisis que retiren por turnos familia, calibración, máximo y modelo de tasa.
+
+## CONT-EUK-ASGARD-PLACEMENT-001 — El pariente amplio es más estable que el apellido
+
+Eukaryota se recupera con o dentro de Asgard en la mayoría de análisis recientes. La posición fina ha oscilado entre Hodarchaeales/Heimdallarchaeia, hermana de Heimdallarchaeia y ramas más profundas cuando cambian MAG, quimerismo, marcadores y modelos.
+
+**Prueba discriminatoria:** genomas cerrados de nuevas líneas, árboles de familias concordantes, recodificación y modelos sitio/rama-heterogéneos que mantengan posición al retirar taxones problemáticos.
+
+## CONT-EUK-MITO-DONOR-001 — Alpha-relacionado no significa *Rickettsia*
+
+Martijn et al. situaron mitocondrias como rama profunda anterior a Alphaproteobacteria muestreadas; Fan et al. las situaron dentro, próximas a Rickettsiales y linajes marinos. Ambos recuperan ascendencia bacteriana relacionada con Alpha, pero difieren en el nodo fino.
+
+**Prueba discriminatoria:** muestreo de diversidad profunda, modelos que acomoden composición y reducción organelar y familias sin HGT que converjan en la misma topología.
+
+## CONT-EUK-MITO-TIMING-001 — ¿Energía primero o huésped complejo?
+
+Los modelos de mitocondria temprana hacen de la energía organelar una condición de expansión eucariota. Duplicaciones fechadas y repertorios Asgard favorecen en cambio citoesqueleto, membranas y otras innovaciones antes de la captura.
+
+**Prueba discriminatoria:** duplicaciones independientes con función ancestral reconstruida, cronologías resistentes a calibraciones y un modelo celular viable que prediga qué innovaciones pueden preceder a importación mitocondrial.
+
+## CONT-EUK-ENGULFMENT-001 — Una protrusión no conserva el verbo histórico
+
+MK-D1 y *Lokiarchaeum ossiferum* poseen protrusiones; sólo el segundo muestra citoesqueleto Lokiactina observado. `E³`, invaginación, fagocitosis temprana y huéspedes adicionales explican de modo distinto la internalización.
+
+**Prueba discriminatoria:** un intermediario natural o experimental con socio transmitido, cierre de membranas, transferencia útil, direccionamiento proteico y coordinación de división, no sólo contacto.
+
+## CONT-EUK-MEMBRANE-001 — La división lipídica atraviesa la célula eucariota
+
+Un huésped arqueano aporta lípidos éter/glicerol‑1‑fosfato; la superficie eucariota es principalmente bacteriana. Compiten reemplazo, mezcla transitoria, invaginación con topología específica y un huésped bacteriano adicional.
+
+**Prueba discriminatoria:** raíces concordantes de enzimas lipídicas, reconstrucción funcional y balance de costos de retargeting que explique superficie, núcleo, endomembranas y mitocondria a la vez.
+
+## CONT-EUK-GENE-DONORS-001 — Un mosaico no es un censo de simbiontes
+
+Tobiasson et al. recuperan dominio Asgard y señal Alpha funcionalmente concentrada; Bernabeu et al. encuentran oleadas de Myxococcota, Planctomycetota y posible mediación viral. Los pipelines no definen ni muestrean el proteoma de LECA de la misma manera.
+
+**Prueba discriminatoria:** árboles manualmente curados de familias diagnósticas, dirección de HGT, estabilidad entre bases y predicciones ecológicas que distingan endosimbionte, alimento, vecino, virus o transferencia dentro del socio.
+
+## CONT-EUK-OXYGEN-001 — Contexto aeróbico sin interruptor causal
+
+Fósiles tempranos se concentran en fondos oxigenados y probablemente eran aerobios. Genomas Asgard permiten capacidades variables de respiración y detoxificación. Nada de ello fecha ni obliga a que `O₂` iniciara la endosimbiosis.
+
+**Prueba discriminatoria:** cronología que separe disponibilidad ambiental, capacidad del huésped, metabolismo del endosimbionte y expansión ecológica, con modelos que predigan magnitudes y no sólo coexistencia.
+
+## CONT-EUK-FOSSIL-001 — Una edad mínima no localiza FECA ni LECA
+
+Paredes, ornamentación, tamaño y multicelularidad apoyan eucariotas en el Paleoproterozoico tardío/Mesoproterozoico temprano. Afinidades corona frente a tallo y candidatos más antiguos siguen discutidos; biomarcadores añaden rutas biosintéticas, no cuerpos taxonómicos.
+
+**Prueba discriminatoria:** ultraestructura, química orgánica *in situ*, series ontogenéticas y edad replicada que sitúen un fósil dentro de una rama corona bajo matrices explícitas.

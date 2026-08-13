@@ -58,6 +58,7 @@ La fase fundacional contiene:
 - la decimocuarta investigación: [`¿Cuándo surgieron fotosíntesis y producción de oxígeno?`](04_arcaico/INVESTIGACION_014_FOTOSINTESIS_OXIGENO.md);
 - la decimoquinta investigación: [`¿Cómo sabemos que aumentó el oxígeno?`](05_proterozoico/INVESTIGACION_015_GRAN_OXIDACION.md);
 - la decimosexta investigación: [`¿Qué se puede reconstruir de LUCA y qué no?`](09_origen_vida/INVESTIGACION_016_LUCA.md);
+- la decimoséptima investigación: [`¿Cómo inferimos el origen de eucariotas y la endosimbiosis mitocondrial?`](10_evolucion_vida/INVESTIGACION_017_EUCARIOGENESIS.md);
 - un [`ATLAS_VISUAL.md`](ATLAS_VISUAL.md) con procedencia y límites explícitos.
 
 “Preliminar” significa que la cronología organiza el programa de trabajo; no convierte automáticamente cada fecha en una conclusión cerrada. Los estados de auditoría muestran qué ha sido investigado en profundidad y qué sigue pendiente.
