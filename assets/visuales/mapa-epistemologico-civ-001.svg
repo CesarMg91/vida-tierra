@@ -1,0 +1,153 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1050" role="img" aria-labelledby="title desc">
+  <title id="title">Mapa epistemológico CIV-001: rutas paralelas desde archivos arqueológicos hasta inferencias sociales</title>
+  <desc id="desc">Cinco carriles muestran evidencia, medición, inferencia y límite para residencia, producción, urbanismo, administración y autoridad. Las rutas son paralelas y no forman etapas obligatorias.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#081522"/>
+      <stop offset="1" stop-color="#10273a"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#02080d" flood-opacity="0.35"/>
+    </filter>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#8ea5b7"/>
+    </marker>
+    <style>
+      .title{font:700 44px system-ui,-apple-system,"Segoe UI",sans-serif;fill:#f4f8fb}
+      .subtitle{font:400 21px system-ui,-apple-system,"Segoe UI",sans-serif;fill:#b8c8d5}
+      .lane-title{font:700 24px system-ui,-apple-system,"Segoe UI",sans-serif;fill:#f8fbfd}
+      .stage{font:700 15px system-ui,-apple-system,"Segoe UI",sans-serif;letter-spacing:1.5px;fill:#7f9ab0}
+      .body{font:500 18px system-ui,-apple-system,"Segoe UI",sans-serif;fill:#e7eef3}
+      .small{font:400 15px system-ui,-apple-system,"Segoe UI",sans-serif;fill:#c0ced8}
+      .limit{font:600 16px system-ui,-apple-system,"Segoe UI",sans-serif;fill:#ffd9ae}
+      .card{fill:#132d41;stroke:#31526a;stroke-width:1.5}
+      .measure{fill:#14394a;stroke:#39738a;stroke-width:1.5}
+      .infer{fill:#173b37;stroke:#4c8e78;stroke-width:1.5}
+      .bound{fill:#3a2b24;stroke:#a36d42;stroke-width:1.5}
+      .connector{stroke:#8ea5b7;stroke-width:2.5;fill:none;marker-end:url(#arrow)}
+    </style>
+  </defs>
+
+  <rect width="1600" height="1050" fill="url(#bg)"/>
+  <circle cx="1450" cy="95" r="240" fill="#2a6c7b" opacity="0.10"/>
+  <circle cx="120" cy="930" r="280" fill="#8a5b35" opacity="0.08"/>
+
+  <text x="80" y="78" class="title">CIV-001 · inferir sin fabricar una escalera</text>
+  <text x="80" y="116" class="subtitle">Cada afirmación exige su propio archivo, medición y puente. Los carriles pueden cruzarse; ninguno implica al siguiente.</text>
+
+  <g transform="translate(80 158)">
+    <text x="0" y="0" class="stage">ARCHIVO</text>
+    <text x="345" y="0" class="stage">MEDICIÓN</text>
+    <text x="690" y="0" class="stage">INFERENCIA ACOTADA</text>
+    <text x="1085" y="0" class="stage">LÍMITE EXPLÍCITO</text>
+  </g>
+
+  <g filter="url(#shadow)">
+    <g transform="translate(60 188)">
+      <rect width="1480" height="142" rx="18" class="card"/>
+      <rect width="250" height="142" rx="18" fill="#17526b"/>
+      <text x="28" y="49" class="lane-title">RESIDENCIA</text>
+      <text x="28" y="80" class="small">arquitectura · pisos</text>
+      <text x="28" y="104" class="small">fauna comensal</text>
+      <path d="M270 71 H340" class="connector"/>
+      <rect x="360" y="24" width="270" height="94" rx="14" class="measure"/>
+      <text x="382" y="55" class="body">estación · duración</text>
+      <text x="382" y="83" class="body">ocupación · descarte</text>
+      <text x="382" y="105" class="small">asociación estratigráfica</text>
+      <path d="M650 71 H710" class="connector"/>
+      <rect x="730" y="24" width="320" height="94" rx="14" class="infer"/>
+      <text x="752" y="59" class="body">movilidad residencial reducida</text>
+      <text x="752" y="89" class="small">en ese contexto y lapso</text>
+      <path d="M1070 71 H1120" class="connector"/>
+      <rect x="1140" y="24" width="310" height="94" rx="14" class="bound"/>
+      <text x="1162" y="57" class="limit">≠ residencia anual automática</text>
+      <text x="1162" y="88" class="limit">≠ agricultura</text>
+    </g>
+
+    <g transform="translate(60 346)">
+      <rect width="1480" height="142" rx="18" class="card"/>
+      <rect width="250" height="142" rx="18" fill="#315b45"/>
+      <text x="28" y="49" class="lane-title">PRODUCCIÓN</text>
+      <text x="28" y="80" class="small">plantas · fauna</text>
+      <text x="28" y="104" class="small">suelos · estructuras</text>
+      <path d="M270 71 H340" class="connector"/>
+      <rect x="360" y="24" width="270" height="94" rx="14" class="measure"/>
+      <text x="382" y="55" class="body">morfología · ADN</text>
+      <text x="382" y="83" class="body">isótopos · fitolitos</text>
+      <text x="382" y="105" class="small">secuencia y frecuencia</text>
+      <path d="M650 71 H710" class="connector"/>
+      <rect x="730" y="24" width="320" height="94" rx="14" class="infer"/>
+      <text x="752" y="59" class="body">manejo · cultivo</text>
+      <text x="752" y="89" class="body">domesticación</text>
+      <path d="M1070 71 H1120" class="connector"/>
+      <rect x="1140" y="24" width="310" height="94" rx="14" class="bound"/>
+      <text x="1162" y="57" class="limit">≠ dependencia alimentaria</text>
+      <text x="1162" y="88" class="limit">≠ aldea o Estado</text>
+    </g>
+
+    <g transform="translate(60 504)">
+      <rect width="1480" height="142" rx="18" class="card"/>
+      <rect width="250" height="142" rx="18" fill="#5e4b2e"/>
+      <text x="28" y="49" class="lane-title">URBANISMO</text>
+      <text x="28" y="80" class="small">superficie · densidad</text>
+      <text x="28" y="104" class="small">talleres · infraestructura</text>
+      <path d="M270 71 H340" class="connector"/>
+      <rect x="360" y="24" width="270" height="94" rx="14" class="measure"/>
+      <text x="382" y="55" class="body">prospección · SIG</text>
+      <text x="382" y="83" class="body">jerarquía regional</text>
+      <text x="382" y="105" class="small">fases comparables</text>
+      <path d="M650 71 H710" class="connector"/>
+      <rect x="730" y="24" width="320" height="94" rx="14" class="infer"/>
+      <text x="752" y="59" class="body">concentración y funciones</text>
+      <text x="752" y="89" class="body">urbanas distribuidas</text>
+      <path d="M1070 71 H1120" class="connector"/>
+      <rect x="1140" y="24" width="310" height="94" rx="14" class="bound"/>
+      <text x="1162" y="57" class="limit">≠ umbral universal</text>
+      <text x="1162" y="88" class="limit">≠ Estado identificado</text>
+    </g>
+
+    <g transform="translate(60 662)">
+      <rect width="1480" height="142" rx="18" class="card"/>
+      <rect width="250" height="142" rx="18" fill="#58416e"/>
+      <text x="28" y="49" class="lane-title">ADMINISTRACIÓN</text>
+      <text x="28" y="80" class="small">sellos · pesos · almacenes</text>
+      <text x="28" y="104" class="small">tablillas · fichas</text>
+      <path d="M270 71 H340" class="connector"/>
+      <rect x="360" y="24" width="270" height="94" rx="14" class="measure"/>
+      <text x="382" y="55" class="body">género · operación</text>
+      <text x="382" y="83" class="body">procedencia · archivo</text>
+      <text x="382" y="105" class="small">lectura y seriación</text>
+      <path d="M650 71 H710" class="connector"/>
+      <rect x="730" y="24" width="320" height="94" rx="14" class="infer"/>
+      <text x="752" y="59" class="body">registro y coordinación</text>
+      <text x="752" y="89" class="body">de una operación</text>
+      <path d="M1070 71 H1120" class="connector"/>
+      <rect x="1140" y="24" width="310" height="94" rx="14" class="bound"/>
+      <text x="1162" y="57" class="limit">≠ alfabetización general</text>
+      <text x="1162" y="88" class="limit">≠ dominio territorial</text>
+    </g>
+
+    <g transform="translate(60 820)">
+      <rect width="1480" height="142" rx="18" class="card"/>
+      <rect width="250" height="142" rx="18" fill="#6a3741"/>
+      <text x="28" y="49" class="lane-title">AUTORIDAD</text>
+      <text x="28" y="80" class="small">tributo · cargos · obras</text>
+      <text x="28" y="104" class="small">coerción · negociación</text>
+      <path d="M270 71 H340" class="connector"/>
+      <rect x="360" y="24" width="270" height="94" rx="14" class="measure"/>
+      <text x="382" y="55" class="body">alcance · recurrencia</text>
+      <text x="382" y="83" class="body">respuestas locales</text>
+      <text x="382" y="105" class="small">convergencia de archivos</text>
+      <path d="M650 71 H710" class="connector"/>
+      <rect x="730" y="24" width="320" height="94" rx="14" class="infer"/>
+      <text x="752" y="59" class="body">formas y límites del poder</text>
+      <text x="752" y="89" class="body">político en contexto</text>
+      <path d="M1070 71 H1120" class="connector"/>
+      <rect x="1140" y="24" width="310" height="94" rx="14" class="bound"/>
+      <text x="1162" y="57" class="limit">≠ centralización necesaria</text>
+      <text x="1162" y="88" class="limit">≠ imperio por tamaño</text>
+    </g>
+  </g>
+
+  <text x="800" y="1014" text-anchor="middle" class="subtitle">Regla de lectura: correlación entre carriles abre una prueba; no autoriza una equivalencia.</text>
+</svg>
