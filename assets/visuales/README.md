@@ -532,6 +532,32 @@ La portada corregida conserva los archivos como vitrinas separadas y elimina fig
 
 La imagen final se inspeccionó a resolución original. Es una composición editorial generativa y no una fotografía de excavación: las piezas, capas, bandejas, agrupaciones y líneas no reproducen procedencias, escalas, asociaciones, taxones, fosas o marcas reales. La composición evita cuerpos completos, rostros y escenas conductuales; la proximidad visual no prueba autoría, contemporaneidad ni parentesco.
 
+## Investigación 042 — Origen africano de *Homo sapiens*
+
+| Archivo | Tipo | Creación | Evidencia o claim | Límite |
+|---|---|---|---|---|
+| `hero-origen-africano-homo-sapiens.png` | portada editorial generada | OpenAI ImageGen, 2026-08-13 | archivos fósiles, cronológicos, arqueológicos y genómicos separados | no reproduce fósiles, una cuna, personas, rutas o genealogías reales |
+| `mapa-investigacion-042.svg` | diagrama original | SVG manual del proyecto, 2026-08-13 | cinco productos y confianza graduada | nodos no son localidades ni poblaciones observadas |
+| `de-fosil-a-clado-y-de-genoma-a-estructura.svg` | doble cadena original | SVG manual del proyecto, 2026-08-13 | dos cadenas de inferencia y resultados fuera de alcance | no representa un árbol filogenético ni cromosomas reales |
+
+## Prompt de la portada de la Investigación 042
+
+**Modo:** generación nueva y una edición correctiva con OpenAI ImageGen. Copia final inspeccionada en `assets/visuales/hero-origen-africano-homo-sapiens.png`. Primera salida: `C:\Users\HUAWEI\.codex\generated_images\019ff9f8-176a-7ea1-b727-e17c6df17b82\exec-c8ef76d3-f161-45d8-85d8-6b55873dbfb3.png`. Edición correctiva: `C:\Users\HUAWEI\.codex\generated_images\019ff9f8-176a-7ea1-b727-e17c6df17b82\exec-fd46e897-7666-40bc-b25a-75cd6ab38235.png`.
+
+La primera salida, registrada en el commit `5fb07a2`, contenía en la bandeja izquierda una reconstrucción de yeso con nariz y labios. Esa figura contradecía la prohibición de rostros y el límite editorial de no reconstruir personas. La petición incompatible de un fragmento de yeso con rasgos faciales se retiró del prompt vigente; la salida se conserva únicamente como antecedente trazable y no como portada válida.
+
+Se aplicó a esa primera salida la siguiente edición correctiva:
+
+> Use case: precise object edit of an existing 16:9 editorial museum-archive cover.
+>
+> Edit only one object in Image 1: in the left evidence bay, replace the pale plaster facial reconstruction fragment—the object with a recognizable nose and lips between the heated flints and the mandible—with a small group of generic, weathered, incomplete fossil bone fragments. Use irregular broken cranial plates and one partial facial-bone edge such as an incomplete orbital or zygomatic-adjacent fragment, visibly separated and fragmentary. These must read as dry fossil bone, never as a cast or reconstruction. There must be no intact face, no recognizable visage, no nose, no lips, no skin, no soft tissue, no fleshed anatomy, and no portrait-like arrangement.
+>
+> Strict invariants: preserve the rest of the image as closely as possible—the exact wide 16:9 composition and crop; camera angle; all tray boundaries and blank tabs; microscope/thermoluminescence instrument; heated flints; the separate mandible; central stratigraphic block, magnifier, cranial-vault fragment and mandible; right-side fragments, sample tube and glass scientific inlay; foreground braided threads and their paths; separate obsidian-and-pigment tray; lighting, dark charcoal/navy palette, amber and teal accents, material textures, focus and negative space. Do not add, remove, move, relight or redesign any other object.
+>
+> No text, letters, numbers, labels, logos, watermark, map, people, faces, skin, complete skulls, full skeletons, silhouettes, evolutionary sequence, arrows, family tree or exact recognizable fossil replica. The final image remains a sober conceptual museum still life, not a documentary assemblage.
+
+La edición final se inspeccionó a resolución original: el elemento objetado quedó sustituido por tres fragmentos óseos genéricos, separados e incompletos, sin nariz, labios, piel ni apariencia de rostro. El resto de la composición conserva las mismas bandejas y clases de evidencia. El montaje no reproduce un sitio, una asociación o una escala real; las tres bandejas no equivalen a regiones con fronteras; los hilos son metáfora de modelos de estructura y flujo, no ADN observado, rutas migratorias ni un número probado de poblaciones. La bandeja lítica permanece separada para no atribuir automáticamente tecnología a un taxón.
+
 ## Reglas de mantenimiento
 
 - conservar SVG con `title` y `desc` accesibles;

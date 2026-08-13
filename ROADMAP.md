@@ -98,7 +98,7 @@ En cada periodo se auditarán primero sus límites cronoestratigráficos y despu
 | 039 | `INV-HOMO-MIDDLE-001` | [¿Cómo reconstruimos las poblaciones humanas del Pleistoceno medio sin convertir Homo heidelbergensis en un cajón de sastre ni cada fósil en un ancestro?](08_cenozoico/INVESTIGACION_039_HOMO_PLEISTOCENO_MEDIO_HEIDELBERGENSIS.md) — **AUDITADO** |
 | 040 | `INV-NEAND-DENIS-001` | [¿Cómo sabemos quiénes fueron neandertales y denisovanos y cuándo hubo mestizaje sin confundir un fósil, una genealogía y un porcentaje de ancestría?](08_cenozoico/INVESTIGACION_040_NEANDERTALES_DENISOVANOS_MESTIZAJE.md) — **AUDITADO** |
 | 041 | `INV-HOMO-OTHER-001` | [¿Cómo reconstruimos a Homo floresiensis, H. luzonensis y H. naledi sin confundir morfología mosaico, asociación arqueológica y conducta?](08_cenozoico/INVESTIGACION_041_FLORESIENSIS_NALEDI_DIVERSIDAD_TARDIA.md) — **AUDITADO** |
-| 042 | `INV-SAPIENS-ORIGIN-001` | origen africano: región única o población estructurada |
+| 042 | `INV-SAPIENS-ORIGIN-001` | [¿Cómo sabemos que Homo sapiens surgió en África: una región única o poblaciones estructuradas?](08_cenozoico/INVESTIGACION_042_ORIGEN_AFRICANO_HOMO_SAPIENS.md) — **AUDITADO** |
 
 ## Fase 6 — Expansión, mente y civilización
 
@@ -123,7 +123,7 @@ Esta línea abre un marco comparativo antes de que la secuencia global alcance `
 |---:|---|---|---|
 | CIV-001 | `INV-CIV-ORIGINS-001` | [sedentarismo, almacenamiento, domesticaciones, urbanismo, administración y autoridad en carriles regionales](14_civilizaciones/INVESTIGACION_CIV_001_ORIGENES_ALDEAS_CIUDADES_ESTADOS.md) | **TRAZADO** |
 
-El marco crítico y el programa regional están en [`14_civilizaciones/MARCO_CRITICO_CIVILIZACION.md`](14_civilizaciones/MARCO_CRITICO_CIVILIZACION.md) y [`14_civilizaciones/PROGRAMA_CRONOLOGICO_GLOBAL.md`](14_civilizaciones/PROGRAMA_CRONOLOGICO_GLOBAL.md). La próxima investigación de la secuencia global sigue siendo `INV-AUSTRALOPITH-001`.
+El marco crítico y el programa regional están en [`14_civilizaciones/MARCO_CRITICO_CIVILIZACION.md`](14_civilizaciones/MARCO_CRITICO_CIVILIZACION.md) y [`14_civilizaciones/PROGRAMA_CRONOLOGICO_GLOBAL.md`](14_civilizaciones/PROGRAMA_CRONOLOGICO_GLOBAL.md). La próxima investigación de la secuencia global es `INV-SAPIENS-OoA-001`.
 
 ## Fase 7 — Ramas transversales
 
@@ -190,6 +190,7 @@ Después de disponer de la secuencia base:
 - `v0.1.38`: Investigación 039 + historia de Mauer/Sima/Bodo/Kabwe a paleodemos y genealogías + mapas de ocho productos y dos cadenas, actualizados con Harbin 2025 y Casablanca 2026.
 - `v0.1.39`: Investigación 040 + historia de neandertales/denisovanos desde mtDNA a genealogías reticuladas + mapas de cinco escalas y dos cadenas, actualizados con cronología de Denisova, Penghu y Harbin de 2025.
 - `v0.1.40`: Investigación 041 + historia de formas humanas tardías mosaico + mapas de cuatro resultados y dos cadenas, actualizados con clima y revisión de Rising Star de 2025 y tafonomía de Flores/filogenia de Luzón de 2026.
+- `v0.1.41`: Investigación 042 + historia de la cuna única a poblaciones estructuradas + mapas de cinco productos y dos cadenas, actualizados con `cobraa` 2025, genomas meridionales y Amanzi Springs de 2026.
 - `v0.2`: Hadeano/Arcaico auditados.
 - `v0.3`: Proterozoico y origen/temprana evolución de la vida.
 - `v0.4`: Fanerozoico completo.

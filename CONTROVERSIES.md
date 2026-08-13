@@ -334,6 +334,13 @@ Una controversia no implica empate. Registra qué parte está realmente abierta,
 | `CONT-NALEDI-BURIAL-001` | ¿Hubo entierro cultural en Dinaledi? | concentraciones, articulación y cobertura selectiva | límites/relleno debatidos y geoquímica solapada | depósito inusual B; entierro C | C |
 | `CONT-NALEDI-ENGRAVINGS-001` | ¿Las marcas son artificiales, antiguas y de `H. naledi`? | microestrías e intersecciones | meteorización, fecha y visitantes posteriores | artificialidad C; edad/autor D | C-D |
 | `CONT-NALEDI-PHYLOGENY-001` | ¿Dónde se ubica `H. naledi` dentro de `Homo`? | matrices lo recuperan dentro del género | morfología mosaico, ausencias y sin ADN | afinidad condicionada; ancestro abierto | C |
+| `CONT-SAPIENS-SINGLE-CRADLE-001` | ¿Región única o emergencia africana distribuida? | fósiles norte–este–sur y estructura favorecen proceso amplio | cuna única oculta por muestreo | África A-B; geografía C-D | C |
+| `CONT-SAPIENS-TAXON-001` | ¿Qué fósiles pertenecen al clado temprano? | Irhoud/Omo/Herto representan mosaicos sapiens | criterios más estrechos o taxones regionales | afinidades B; fronteras C | C |
+| `CONT-SAPIENS-STRUCTURE-MODELS-001` | ¿Tallo débil o separación profunda con pulso? | ambos superan panmixia simple en su familia | flujo continuo, múltiples pulsos/selección | estructura favorecida; historia exacta abierta | C |
+| `CONT-SAPIENS-GHOST-001` | ¿Introgresión arcaica o estructura ancestral? | señal fantasma en poblaciones occidentales | estructura omitida imita aporte | señal C; donante D | C-D |
+| `CONT-SAPIENS-SOUTH-GEOGRAPHY-001` | ¿Divergencia profunda localiza el origen en el sur? | linajes y ADN antiguo meridionales son profundos/diversos | migración y mezcla desacoplan muestra y tallo | archivo crucial; cuna no demostrada | C-D |
+| `CONT-SAPIENS-MSA-001` | ¿MSA es marcador de población o tradición regional? | asociaciones tempranas con paisaje sapiens | convergencia/transmisión entre poblaciones | conducta B; taxón D | C |
+| `CONT-SAPIENS-PAN-AFRICAN-001` | ¿Qué significa «pan-africano»? | registro fósil/conductual distribuido | panmixia o red continua no observadas | distribución B; demografía condicionada | B-COND |
 
 ## CONT-COSMOS-H0-001 — Dos rutas hacia la tasa actual
 
@@ -2482,3 +2489,45 @@ Microestrías e intersecciones apoyan alteración artificial de algunas líneas.
 Cladística morfológica ubica `H. naledi` dentro de `Homo`, pero la combinación de estados, las ausencias y el gran intervalo fantasma permiten varias posiciones.
 
 **Prueba discriminatoria:** proteínas o ADN auténticos, fósiles intermedios completos y análisis de sensibilidad a caracteres correlacionados y homoplasia.
+
+## CONT-SAPIENS-SINGLE-CRADLE-001 — Región única frente a emergencia distribuida
+
+Irhoud, Omo, Herto y Florisbad cubren norte, este y sur, pero no muestrean África de modo uniforme ni prueban una red. Una región única podría quedar oculta por preservación; una distribución de fósiles no mide conectividad.
+
+**Prueba discriminatoria:** fósiles bien fechados en regiones submuestreadas, gradientes morfológicos/temporales predichos antes del hallazgo y biomoléculas regionales.
+
+## CONT-SAPIENS-TAXON-001 — ¿Qué rasgos definen el clado temprano?
+
+Jebel Irhoud combina cara y dentición sapiens con neurocráneo alargado; Florisbad e Herto reciben nombres variables. Ampliar el clado captura evolución mosaico, pero puede borrar diferencias de poblaciones y criterios diagnósticos.
+
+**Prueba discriminatoria:** hipodigmas mayores, análisis de deformación y alometría, criterios publicados antes de clasificar y biomoléculas cuando sea posible.
+
+## CONT-SAPIENS-STRUCTURE-MODELS-001 — Tallo débil frente a separación profunda
+
+El modelo 2023 favorece tallos débilmente diferenciados con flujo; `cobraa` 2025 favorece separación `~1.5 Ma` y pulso `~300 ka`. Las familias permiten eventos y tamaños distintos.
+
+**Prueba discriminatoria:** predicciones sobre genomas antiguos/no usados, simulaciones cruzadas entre modelos y sensibilidad a tasas, selección y flujo múltiple.
+
+## CONT-SAPIENS-GHOST-001 — Introgresión arcaica frente a estructura ancestral
+
+Espectros y tramos de África occidental son compatibles con un donante fantasma; estructura no modelada puede producir señales semejantes. Sin referencia, «fantasma» no identifica fósil o especie.
+
+**Prueba discriminatoria:** genoma donante, patrones conjuntos en varias regiones y modelos que permitan simultáneamente estructura continua e introgresión.
+
+## CONT-SAPIENS-SOUTH-GEOGRAPHY-001 — Divergencia profunda no localiza el origen
+
+Linajes meridionales de divergencia profunda y ADN holoceno diverso hacen del sur un archivo crucial. Migración, continuidad parcial y mezcla impiden convertir la procedencia de muestras en coordenada ancestral.
+
+**Prueba discriminatoria:** serie pleistocena regional, comparación contemporánea norte–este–centro–oeste–sur y modelos espaciales con fósiles.
+
+## CONT-SAPIENS-MSA-001 — Tecnología como tradición, convergencia o marcador poblacional
+
+Olorgesailie y Amanzi muestran transiciones regionales diferentes. MSA agrupa decisiones técnicas que pueden transmitirse, converger o cruzar poblaciones; no es sinónimo biológico de sapiens.
+
+**Prueba discriminatoria:** asociaciones repetidas con fósiles diagnósticos, cadenas operativas de alta resolución y modelos de transmisión que predigan distribución.
+
+## CONT-SAPIENS-PAN-AFRICAN-001 — Registro distribuido frente a panmixia
+
+«Pan-africano» describe correctamente que el archivo relevante no cabe en una sola región. Se vuelve engañoso si implica apareamiento aleatorio o conectividad continua a escala continental.
+
+**Prueba discriminatoria:** estimaciones regionales de flujo a través del tiempo y comparación explícita de aislamiento, migración intermitente y panmixia.

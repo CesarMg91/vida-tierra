@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Del fósil al clado y del genoma a la estructura</title>
+  <desc id="desc">Dos cadenas paralelas muestran qué puentes permiten inferir afinidad sapiens o estructura poblacional y qué conclusiones permanecen fuera.</desc>
+  <defs>
+    <linearGradient id="bg2" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#101824"/><stop offset="1" stop-color="#202b36"/></linearGradient>
+    <marker id="arr2" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto"><path d="M0 0 L0 6 L9 3 z" fill="#91a9b8"/></marker>
+    <style>
+      .title{font:700 34px 'Segoe UI',Arial,sans-serif;fill:#fff8ea}
+      .lane{font:700 24px 'Segoe UI',Arial,sans-serif;fill:#e9b86f;letter-spacing:.8px}
+      .head{font:700 20px 'Segoe UI',Arial,sans-serif;fill:#fff8ea}
+      .body{font:400 17px 'Segoe UI',Arial,sans-serif;fill:#d6e0e5}
+      .small{font:400 15px 'Segoe UI',Arial,sans-serif;fill:#afc0ca}
+      .nodeA{fill:#192d3c;stroke:#54758c;stroke-width:2;rx:18}
+      .nodeB{fill:#213b3d;stroke:#64aaa3;stroke-width:2;rx:18}
+      .no{fill:#3b2a27;stroke:#c67f58;stroke-width:2;rx:18}
+      .line{fill:none;stroke:#91a9b8;stroke-width:3;marker-end:url(#arr2)}
+      .gate{font:600 12px 'Segoe UI',Arial,sans-serif;fill:#8fc6c0;text-anchor:middle}
+    </style>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg2)"/>
+  <text x="70" y="68" class="title">Dos cadenas, dos objetos de inferencia</text>
+
+  <text x="70" y="132" class="lane">A · DEL FÓSIL AL CLADO</text>
+  <g transform="translate(70 165)"><rect class="nodeA" width="250" height="132"/><text x="24" y="39" class="head">Fragmento</text><text x="24" y="72" class="body">procedencia · lado</text><text x="24" y="101" class="body">madurez · deformación</text></g>
+  <path class="line" d="M320 231 H375"/><text x="347" y="215" class="gate">medir</text>
+  <g transform="translate(375 165)"><rect class="nodeA" width="250" height="132"/><text x="24" y="39" class="head">Caracteres</text><text x="24" y="72" class="body">forma · tamaño</text><text x="24" y="101" class="body">estructura interna</text></g>
+  <path class="line" d="M625 231 H680"/><text x="652" y="215" class="gate">comparar</text>
+  <g transform="translate(680 165)"><rect class="nodeA" width="250" height="132"/><text x="24" y="39" class="head">Mosaico</text><text x="24" y="72" class="body">muestra · alometría</text><text x="24" y="101" class="body">variación</text></g>
+  <path class="line" d="M930 231 H985"/><text x="957" y="215" class="gate">definir</text>
+  <g transform="translate(985 165)"><rect class="nodeB" width="250" height="132"/><text x="24" y="39" class="head">Afinidad sapiens</text><text x="24" y="72" class="body">hipótesis taxonómica</text><text x="24" y="101" class="body">graduada</text></g>
+  <path class="line" d="M1235 231 H1290"/>
+  <g transform="translate(1290 165)"><rect class="no" width="240" height="132"/><text x="24" y="39" class="head">No entrega</text><text x="24" y="72" class="body">primer individuo</text><text x="24" y="101" class="body">ancestro directo</text></g>
+
+  <text x="70" y="398" class="lane">B · DEL GENOMA A LA ESTRUCTURA</text>
+  <g transform="translate(70 432)"><rect class="nodeA" width="250" height="146"/><text x="24" y="39" class="head">Genomas</text><text x="24" y="72" class="body">actuales o antiguos</text><text x="24" y="101" class="body">variantes · ligamiento</text><text x="24" y="127" class="small">muestra y consentimiento</text></g>
+  <path class="line" d="M320 505 H375"/><text x="347" y="489" class="gate">resumir</text>
+  <g transform="translate(375 432)"><rect class="nodeA" width="250" height="146"/><text x="24" y="39" class="head">Estadísticos</text><text x="24" y="72" class="body">LD · SFS · TMRCA</text><text x="24" y="101" class="body">tramos contiguos</text><text x="24" y="127" class="small">señal, no historia</text></g>
+  <path class="line" d="M625 505 H680"/><text x="652" y="489" class="gate">modelar</text>
+  <g transform="translate(680 432)"><rect class="nodeA" width="250" height="146"/><text x="24" y="39" class="head">Alternativas</text><text x="24" y="72" class="body">panmixia · flujo</text><text x="24" y="101" class="body">pulso · fantasma</text><text x="24" y="127" class="small">tasas y selección</text></g>
+  <path class="line" d="M930 505 H985"/><text x="957" y="489" class="gate">predecir</text>
+  <g transform="translate(985 432)"><rect class="nodeB" width="250" height="146"/><text x="24" y="39" class="head">Estructura</text><text x="24" y="72" class="body">historia compatible</text><text x="24" y="101" class="body">confianza condicionada</text><text x="24" y="127" class="small">B-COND / C</text></g>
+  <path class="line" d="M1235 505 H1290"/>
+  <g transform="translate(1290 432)"><rect class="no" width="240" height="146"/><text x="24" y="39" class="head">No entrega</text><text x="24" y="72" class="body">fósil · especie</text><text x="24" y="101" class="body">coordenada del tallo</text><text x="24" y="127" class="small">sin puente adicional</text></g>
+
+  <g transform="translate(70 668)">
+    <rect x="0" y="0" width="1460" height="154" rx="22" fill="#162633" stroke="#405a6b" stroke-width="2"/>
+    <text x="28" y="42" class="head">Convergencia permitida</text>
+    <text x="28" y="77" class="body">Fósiles distribuidos + cronologías independientes + diversidad genómica → origen africano y proceso complejo.</text>
+    <text x="28" y="111" class="body">No permitido: fósil más antiguo = cuna; TMRCA = especie; muestra moderna = ubicación ancestral; MSA = fabricante.</text>
+    <text x="28" y="138" class="small">Prueba discriminatoria: ADN africano más próximo a 300–200 ka y predicciones fuera del conjunto usado para ajustar.</text>
+  </g>
+</svg>
