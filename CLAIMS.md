@@ -156,6 +156,18 @@ Este archivo es el índice canónico. La letra de confianza califica exactamente
 | `CLAIM-SEX-COST-001` | Los costos de sexo dependen del ciclo y el «doble costo de machos» no se aplica a toda sexualidad. | A-B definido; C general | AUDITADO | `EVID-SEX-EXPERIMENTS-001` | `INV-LIFE-SEX-001` |
 | `CLAIM-SEX-ANISOGAMY-001` | Mating types no equivalen a macho/hembra; la anisogamia es derivada y surgió repetidamente. | B; C rutas | AUDITADO | `EVID-SEX-ANISOGAMY-VOLVOX-001`, `EVID-SEX-BANGIOMORPHA-001` | `INV-LIFE-SEX-001` |
 | `CLAIM-SEX-FOSSIL-001` | *Bangiomorpha* a `1.047 +0.013/−0.017 Ga` ofrece un mínimo condicionado para sexo diferenciado, no una fecha de origen. | B-COND; C anisogamia | AUDITADO | `EVID-SEX-BANGIOMORPHA-001` | `INV-LIFE-SEX-001` |
+| `CLAIM-MULTI-DEFINITION-001` | Asociación, grupo, ciclo heredable, individuo y multicelularidad compleja son niveles distintos; contar células no resuelve la unidad evolutiva. | A-SEM | AUDITADO | marco operacional + `EVID-MULTI-INDIVIDUALITY-001` | `INV-LIFE-MULTI-001` |
+| `CLAIM-MULTI-REPEATED-001` | La multicelularidad surgió repetidamente en bacterias y eucariotas; el número exacto depende de definición, árbol y pérdidas. | A-B multiplicidad; C conteo | AUDITADO | `EVID-MULTI-PHYLOGENY-001`, `EVID-MULTI-CYANO-001` | `INV-LIFE-MULTI-001` |
+| `CLAIM-MULTI-MODES-001` | Desarrollo clonal, agregación y compartimentación son rutas diferentes de formación multicelular. | A-B | AUDITADO | `EVID-MULTI-MODES-001` | `INV-LIFE-MULTI-001` |
+| `CLAIM-MULTI-CLONALITY-001` | El desarrollo clonal eleva parentesco y facilita cooperación/complejidad, sin eliminar conflicto ni ser una ley lógica absoluta. | B; C universalidad | AUDITADO | `EVID-MULTI-MODES-001`, `EVID-MULTI-INDIVIDUALITY-001` | `INV-LIFE-MULTI-001` |
+| `CLAIM-MULTI-COOPTION-001` | Linajes independientes reutilizaron adhesión, señalización, ciclo celular y regulación preexistentes; no existe un gen maestro universal. | B | AUDITADO | `EVID-MULTI-VOLVOCINE-001`, `EVID-MULTI-BROWN-FUNGI-001` | `INV-LIFE-MULTI-001` |
+| `CLAIM-MULTI-ANIMAL-ROOTS-001` | Herramientas de adhesión/señalización y diferenciación temporal anteceden a animales; parientes unicelulares actuales no son ancestros congelados. | B | AUDITADO | `EVID-MULTI-CHOANO-001` | `INV-LIFE-MULTI-001` |
+| `CLAIM-MULTI-LIFE-CYCLE-001` | Un ciclo que reproduce grupos y hereda rasgos permite selección/adaptación colectiva y una transición gradual de individualidad. | B-COND | AUDITADO | `EVID-MULTI-INDIVIDUALITY-001` | `INV-LIFE-MULTI-001` |
+| `CLAIM-MULTI-EXPERIMENT-001` | Multicelularidad simple puede evolucionar rápidamente bajo sedimentación, depredación, bienes públicos o ciclos impuestos; eso prueba rutas, no historias profundas. | A-B local; D historia | AUDITADO | `EVID-MULTI-EXPERIMENT-001` | `INV-LIFE-MULTI-001` |
+| `CLAIM-MULTI-DIFFERENTIATION-001` | División espacial del trabajo puede cooptar estados temporales ancestrales y depende de intercambio, topología y ciclo. | B-COND | AUDITADO | `EVID-MULTI-CYANO-001`, `EVID-MULTI-VOLVOCINE-001` | `INV-LIFE-MULTI-001` |
+| `CLAIM-MULTI-COMPLEXITY-001` | Gran tamaño no equivale a complejidad; tejidos, transporte y coordinación permiten superar límites de difusión y conflicto. | A-SEM; B mecanismo | AUDITADO | `EVID-MULTI-PHYLOGENY-001`, `EVID-MULTI-OXYGEN-001` | `INV-LIFE-MULTI-001` |
+| `CLAIM-MULTI-OXYGEN-001` | Oxígeno puede habilitar o limitar cuerpos según metabolismo, difusión y ambiente; no fue un disparador universal demostrado. | B contexto; E disparador universal | AUDITADO | `EVID-MULTI-OXYGEN-001` | `INV-LIFE-MULTI-001` |
+| `CLAIM-MULTI-FOSSIL-001` | Franceville es candidato C-D; *Qingshania* fija multicelularidad eucariota probable a ~1.635 Ga y *Bangiomorpha* desarrollo diferenciado a 1.047 Ga, todos como mínimos condicionados. | B-D por caso | AUDITADO | `EVID-MULTI-FOSSIL-001` | `INV-LIFE-MULTI-001` |
 
 ## Fichas resumidas
 
@@ -837,6 +849,92 @@ Este archivo es el índice canónico. La letra de confianza califica exactamente
 - **Puente:** afinidad y patrón de desarrollo permiten interpretar reproducción sexual diferenciada y usar la edad de roca como mínimo condicionado.
 - **No afirma:** observación de meiosis, fecha del origen del sexo ni edad de LECA.
 - **Confianza:** `B-COND` para presencia sexual; `C` para anisogamia/oogamia.
+
+## Investigación 019 — Orígenes de la multicelularidad
+
+### CLAIM-MULTI-DEFINITION-001
+
+- **Dato/definición:** asociación, grupo persistente, ciclo heredable, individuo colectivo y complejidad describen propiedades acumulables pero no equivalentes.
+- **Puente:** herencia, variación y éxito diferencial del grupo operacionalizan una unidad evolutiva.
+- **No afirma:** una frontera metafísica única ni que todo biofilm sea organismo.
+- **Confianza:** `A-SEM`.
+
+### CLAIM-MULTI-REPEATED-001
+
+- **Dato:** filogenias separan soluciones multicelulares en bacterias, animales, plantas, algas rojas/pardas/verdes, hongos y agregados protistas.
+- **Puente:** ancestros unicelulares/simples entre clados y programas no homólogos exigen ganancias independientes o pérdidas múltiples.
+- **Límite:** el conteo cambia con definición, resolución del árbol y tratamiento de hongos, sincitios y formas simples.
+- **Confianza:** `A-B` para multiplicidad; `C` para número exacto.
+
+### CLAIM-MULTI-MODES-001
+
+- **Dato:** grupos se forman por hijas que permanecen unidas, agregación de células libres o compartimentación de filamentos/sincitios.
+- **Puente:** microscopía de desarrollo y ciclos distinguen geometría y procedencia celular.
+- **No afirma:** que un modo determine por sí solo el destino evolutivo.
+- **Confianza:** `A-B`.
+
+### CLAIM-MULTI-CLONALITY-001
+
+- **Dato:** desarrollo clonal inicia grupos con parentesco alto; complejidad alta conocida se asocia comparativamente con clonación.
+- **Puente:** parentesco alinea beneficios indirectos y reduce mezcla de genotipos.
+- **Límite:** mutación somática y conflicto persisten; agregación puede añadir reconocimiento y policing.
+- **Confianza:** `B`; `C` para requisito universal.
+
+### CLAIM-MULTI-COOPTION-001
+
+- **Dato:** Volvox/Gonium, holozoos, algas pardas y hongos modifican familias de adhesión, señalización, matriz y regulación ya presentes.
+- **Puente:** ortología, función y cambios de expresión sitúan piezas antes y reconfiguración durante la transición.
+- **No afirma:** ausencia de genes nuevos ni un programa compartido por todos los linajes.
+- **Confianza:** `B`.
+
+### CLAIM-MULTI-ANIMAL-ROOTS-001
+
+- **Dato:** coanoflagelados y *Capsaspora* poseen herramientas de adhesión/señalización y estados regulatorios anteriores a Metazoa.
+- **Puente:** posición hermana y homología reconstruyen capacidades preanimales.
+- **No afirma:** que rosetas modernas sean embriones ni ancestros directos.
+- **Confianza:** `B`.
+
+### CLAIM-MULTI-LIFE-CYCLE-001
+
+- **Dato:** grupos con propágulos, variación heredable y éxito colectivo acumulan adaptaciones a nivel de grupo en experimentos.
+- **Puente:** seguimiento de ciclos separa tasa celular de persistencia/reproducción colectiva.
+- **Límite:** individualidad es gradual y el régimen experimental impone una ecología.
+- **Confianza:** `B-COND`.
+
+### CLAIM-MULTI-EXPERIMENT-001
+
+- **Dato:** levadura, *Chlamydomonas* y *Pseudomonas* evolucionan grupos bajo sedimentación, depredación, cooperación o selección de ciclos.
+- **Puente:** controles y repetición asignan causalidad dentro del tratamiento.
+- **No afirma:** la presión que originó un clado natural concreto.
+- **Confianza:** `A-B` local; `D` para biografía profunda.
+
+### CLAIM-MULTI-DIFFERENTIATION-001
+
+- **Dato:** heterocistos, soma/germen volvocino y estados holozoos conectan tareas incompatibles con regulación temporal/espacial.
+- **Puente:** expresión, función y destino celular miden división de trabajo.
+- **Límite:** muerte o estado distinto no equivale automáticamente a tipo celular heredable.
+- **Confianza:** `B-COND`.
+
+### CLAIM-MULTI-COMPLEXITY-001
+
+- **Dato:** cuerpos grandes enfrentan difusión, desechos, mecánica y señalización; linajes complejos poseen intercambio y transporte que alivian esos límites.
+- **Puente:** fisiología y anatomía conectan escala con canales/tejidos.
+- **No afirma:** que tamaño produzca complejidad ni que complejidad sea progreso inevitable.
+- **Confianza:** `A-SEM` para distinción; `B` para mecanismos.
+
+### CLAIM-MULTI-OXYGEN-001
+
+- **Dato:** oxígeno eleva rendimiento pero también genera gradientes; levaduras anaerobias experimentales alcanzaron macroscopia extrema.
+- **Puente:** metabolismo y difusión determinan el signo del efecto según cuerpo y ambiente.
+- **No afirma:** irrelevancia del oxígeno ni un disparador universal.
+- **Confianza:** `B` para contexto; `E` para causa única universal.
+
+### CLAIM-MULTI-FOSSIL-001
+
+- **Dato:** Franceville (~2.1 Ga), *Qingshania* (~1.635 Ga), candidatos rojos (~1.6 Ga), *Bangiomorpha* (1.047 Ga) y *Proterocladus* (~1.0 Ga) conservan grados distintos de organización.
+- **Puente:** edad + singenicidad + células/morfología + afinidad producen mínimos por taxón.
+- **No afirma:** parentesco, aptitud colectiva ni fecha del primer origen.
+- **Confianza:** `C-D` Franceville/afinidades discutidas; `B-COND` *Qingshania* y mínimos posteriores.
 
 ## Claims futuros
 

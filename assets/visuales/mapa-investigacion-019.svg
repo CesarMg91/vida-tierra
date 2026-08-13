@@ -1,0 +1,100 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1000" viewBox="0 0 1600 1000" role="img" aria-labelledby="title desc">
+  <title id="title">Mapa de evidencia de los múltiples orígenes de la multicelularidad</title>
+  <desc id="desc">Cinco rutas separan filogenia, modos de desarrollo, genómica, experimentos y tiempo fósil, con niveles de confianza y preguntas abiertas.</desc>
+  <defs>
+    <marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto"><path d="M0,0 L12,6 L0,12 Z" fill="#9eb3c7"/></marker>
+    <filter id="shadow"><feDropShadow dx="0" dy="8" stdDeviation="8" flood-color="#02080d" flood-opacity="0.5"/></filter>
+  </defs>
+  <rect width="1600" height="1000" fill="#0a1a27"/>
+  <text x="64" y="67" fill="#f1f4f7" font-family="Georgia,serif" font-size="38" font-weight="700">Multicelularidad: orígenes repetidos, individuos condicionados</text>
+  <text x="64" y="101" fill="#aebdca" font-family="Segoe UI,sans-serif" font-size="18">Cada ruta contesta otra pregunta. Una colonia no hereda automáticamente la confianza de un organismo.</text>
+
+  <text x="64" y="151" fill="#f1f4f7" font-family="Georgia,serif" font-size="21" font-weight="700">1 · Árbol y conteo</text>
+  <g filter="url(#shadow)">
+    <rect x="64" y="169" width="280" height="105" rx="16" fill="#164653" stroke="#55c8cf" stroke-width="2"/>
+    <rect x="405" y="169" width="280" height="105" rx="16" fill="#1f465b" stroke="#79bfe1" stroke-width="2"/>
+    <rect x="746" y="169" width="330" height="105" rx="16" fill="#294d63" stroke="#7fd3ec" stroke-width="2"/>
+  </g>
+  <line x1="344" y1="221" x2="397" y2="221" stroke="#9eb3c7" stroke-width="4" marker-end="url(#arrow)"/>
+  <line x1="685" y1="221" x2="738" y2="221" stroke="#9eb3c7" stroke-width="4" marker-end="url(#arrow)"/>
+  <text x="88" y="207" fill="#f1f4f7" font-family="Segoe UI,sans-serif" font-size="18" font-weight="700">Estados uni / multicelulares</text>
+  <text x="88" y="238" fill="#b9cad6" font-family="Consolas,monospace" font-size="14">bacterias + eucariotas</text>
+  <text x="429" y="207" fill="#f1f4f7" font-family="Segoe UI,sans-serif" font-size="18" font-weight="700">Árbol + definición</text>
+  <text x="429" y="238" fill="#b9cad6" font-family="Consolas,monospace" font-size="14">ganancias, pérdidas, clados</text>
+  <text x="770" y="205" fill="#f1f4f7" font-family="Segoe UI,sans-serif" font-size="18" font-weight="700">Muchos orígenes</text>
+  <text x="770" y="236" fill="#b9cad6" font-family="Consolas,monospace" font-size="14">número exacto condicionado</text>
+  <text x="770" y="260" fill="#8eddf1" font-family="Georgia,serif" font-size="17" font-weight="700">A-B · C para conteo</text>
+
+  <text x="64" y="327" fill="#f1f4f7" font-family="Georgia,serif" font-size="21" font-weight="700">2 · Formación del grupo y conflicto</text>
+  <g filter="url(#shadow)">
+    <rect x="64" y="345" width="280" height="105" rx="16" fill="#3b3654" stroke="#a995e9" stroke-width="2"/>
+    <rect x="405" y="345" width="280" height="105" rx="16" fill="#4b3a5a" stroke="#c99ae1" stroke-width="2"/>
+    <rect x="746" y="345" width="330" height="105" rx="16" fill="#51405e" stroke="#d2a5e6" stroke-width="2"/>
+  </g>
+  <line x1="344" y1="397" x2="397" y2="397" stroke="#9eb3c7" stroke-width="4" marker-end="url(#arrow)"/>
+  <line x1="685" y1="397" x2="738" y2="397" stroke="#9eb3c7" stroke-width="4" marker-end="url(#arrow)"/>
+  <text x="88" y="383" fill="#f1f4f7" font-family="Segoe UI,sans-serif" font-size="18" font-weight="700">Clonal / agregativo</text>
+  <text x="88" y="414" fill="#cfc5dc" font-family="Consolas,monospace" font-size="14">o sincitio / filamento</text>
+  <text x="429" y="383" fill="#f1f4f7" font-family="Segoe UI,sans-serif" font-size="18" font-weight="700">Parentesco + ciclo</text>
+  <text x="429" y="414" fill="#cfc5dc" font-family="Consolas,monospace" font-size="14">herencia y conflicto</text>
+  <text x="770" y="381" fill="#f1f4f7" font-family="Segoe UI,sans-serif" font-size="18" font-weight="700">Cooperación accesible</text>
+  <text x="770" y="412" fill="#cfc5dc" font-family="Consolas,monospace" font-size="14">clonalidad facilita, no obliga</text>
+  <text x="770" y="436" fill="#d9b7ef" font-family="Georgia,serif" font-size="17" font-weight="700">B · C para universalidad</text>
+
+  <text x="64" y="503" fill="#f1f4f7" font-family="Georgia,serif" font-size="21" font-weight="700">3 · Genomas y desarrollo</text>
+  <g filter="url(#shadow)">
+    <rect x="64" y="521" width="280" height="105" rx="16" fill="#174c40" stroke="#74d6af" stroke-width="2"/>
+    <rect x="405" y="521" width="280" height="105" rx="16" fill="#235344" stroke="#80d9b4" stroke-width="2"/>
+    <rect x="746" y="521" width="330" height="105" rx="16" fill="#285c4c" stroke="#8be1bd" stroke-width="2"/>
+  </g>
+  <line x1="344" y1="573" x2="397" y2="573" stroke="#9eb3c7" stroke-width="4" marker-end="url(#arrow)"/>
+  <line x1="685" y1="573" x2="738" y2="573" stroke="#9eb3c7" stroke-width="4" marker-end="url(#arrow)"/>
+  <text x="88" y="559" fill="#f1f4f7" font-family="Segoe UI,sans-serif" font-size="18" font-weight="700">Holozoos + volvocinas</text>
+  <text x="88" y="590" fill="#bdd6cd" font-family="Consolas,monospace" font-size="14">pardas + hongos</text>
+  <text x="429" y="559" fill="#f1f4f7" font-family="Segoe UI,sans-serif" font-size="18" font-weight="700">Ortología + regulación</text>
+  <text x="429" y="590" fill="#bdd6cd" font-family="Consolas,monospace" font-size="14">función y estado ancestral</text>
+  <text x="770" y="557" fill="#f1f4f7" font-family="Segoe UI,sans-serif" font-size="18" font-weight="700">Cooptación recurrente</text>
+  <text x="770" y="588" fill="#bdd6cd" font-family="Consolas,monospace" font-size="14">sin gen maestro universal</text>
+  <text x="770" y="612" fill="#9ae9c8" font-family="Georgia,serif" font-size="17" font-weight="700">B</text>
+
+  <text x="64" y="679" fill="#f1f4f7" font-family="Georgia,serif" font-size="21" font-weight="700">4 · Experimento y causalidad</text>
+  <g filter="url(#shadow)">
+    <rect x="64" y="697" width="280" height="105" rx="16" fill="#694326" stroke="#efa15f" stroke-width="2"/>
+    <rect x="405" y="697" width="280" height="105" rx="16" fill="#704b2c" stroke="#efac68" stroke-width="2"/>
+    <rect x="746" y="697" width="330" height="105" rx="16" fill="#765332" stroke="#f3b36f" stroke-width="2"/>
+  </g>
+  <line x1="344" y1="749" x2="397" y2="749" stroke="#9eb3c7" stroke-width="4" marker-end="url(#arrow)"/>
+  <line x1="685" y1="749" x2="738" y2="749" stroke="#9eb3c7" stroke-width="4" marker-end="url(#arrow)"/>
+  <text x="88" y="735" fill="#f1f4f7" font-family="Segoe UI,sans-serif" font-size="18" font-weight="700">Levadura + alga + bacteria</text>
+  <text x="88" y="766" fill="#dbc9b9" font-family="Consolas,monospace" font-size="14">selección manipulada</text>
+  <text x="429" y="735" fill="#f1f4f7" font-family="Segoe UI,sans-serif" font-size="18" font-weight="700">Rasgos + aptitud</text>
+  <text x="429" y="766" fill="#dbc9b9" font-family="Consolas,monospace" font-size="14">grupo, propágulo, herencia</text>
+  <text x="770" y="733" fill="#f1f4f7" font-family="Segoe UI,sans-serif" font-size="18" font-weight="700">Ruta posible</text>
+  <text x="770" y="764" fill="#dbc9b9" font-family="Consolas,monospace" font-size="14">no causa histórica</text>
+  <text x="770" y="788" fill="#f5bd82" font-family="Georgia,serif" font-size="17" font-weight="700">A-B local · D profunda</text>
+
+  <text x="1130" y="151" fill="#f1f4f7" font-family="Georgia,serif" font-size="21" font-weight="700">5 · Tiempo y complejidad</text>
+  <g filter="url(#shadow)">
+    <rect x="1130" y="169" width="405" height="140" rx="18" fill="#473c52" stroke="#bd91cf" stroke-width="2"/>
+    <rect x="1130" y="337" width="405" height="140" rx="18" fill="#3f4650" stroke="#aeb7c2" stroke-width="2"/>
+    <rect x="1130" y="505" width="405" height="155" rx="18" fill="#432f38" stroke="#e27f96" stroke-width="2"/>
+    <rect x="1130" y="688" width="405" height="114" rx="18" fill="#16434d" stroke="#5bc7d0" stroke-width="2"/>
+  </g>
+  <text x="1156" y="205" fill="#f1f4f7" font-family="Segoe UI,sans-serif" font-size="18" font-weight="700">Franceville · ~2.1 Ga</text>
+  <text x="1156" y="238" fill="#cfc5d5" font-family="Consolas,monospace" font-size="14">cuerpos coloniales propuestos</text>
+  <text x="1156" y="267" fill="#d5a8e4" font-family="Georgia,serif" font-size="17" font-weight="700">C-D · afinidad abierta</text>
+  <text x="1156" y="373" fill="#f1f4f7" font-family="Segoe UI,sans-serif" font-size="18" font-weight="700">Qingshania · ~1.635 Ga</text>
+  <text x="1156" y="406" fill="#c8d0d8" font-family="Consolas,monospace" font-size="14">filamentos celulares eucariotas</text>
+  <text x="1156" y="435" fill="#d4dce3" font-family="Georgia,serif" font-size="17" font-weight="700">B-COND</text>
+  <text x="1156" y="541" fill="#f1f4f7" font-family="Segoe UI,sans-serif" font-size="18" font-weight="700">Bangiomorpha · 1.047 Ga</text>
+  <text x="1156" y="574" fill="#d4bdc4" font-family="Consolas,monospace" font-size="14">desarrollo + sexo diferenciados</text>
+  <text x="1156" y="606" fill="#ed9bb0" font-family="Georgia,serif" font-size="17" font-weight="700">B-COND</text>
+  <text x="1156" y="637" fill="#d4bdc4" font-family="Consolas,monospace" font-size="14">mínimo, no primer origen</text>
+  <text x="1156" y="725" fill="#f1f4f7" font-family="Segoe UI,sans-serif" font-size="18" font-weight="700">No proyectar una escalera</text>
+  <text x="1156" y="757" fill="#b8d0d4" font-family="Consolas,monospace" font-size="14">tamaño ≠ tejido ≠ individuo</text>
+  <text x="1156" y="784" fill="#8de1e7" font-family="Georgia,serif" font-size="17" font-weight="700">rasgos y linajes separados</text>
+
+  <rect x="64" y="857" width="1471" height="95" rx="18" fill="#0b2231" stroke="#56768c" stroke-width="2"/>
+  <text x="800" y="896" text-anchor="middle" fill="#f1f4f7" font-family="Segoe UI,sans-serif" font-size="18" font-weight="700">Núcleo robusto: múltiples orígenes, modos diversos y cooptación de herramientas anteriores</text>
+  <text x="800" y="929" text-anchor="middle" fill="#aebdca" font-family="Consolas,monospace" font-size="14">Abierto: conteo exacto, primer ciclo, causas históricas, umbral de individualidad y rutas hacia complejidad.</text>
+</svg>

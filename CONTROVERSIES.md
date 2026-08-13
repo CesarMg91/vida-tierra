@@ -98,6 +98,14 @@ Una controversia no implica empate. Registra qué parte está realmente abierta,
 | `CONT-SEX-FUSOGEN-001` | Historia de fusexinas | familia celular antigua | transferencia/elementos móviles y reemplazos | dirección abierta | C-D |
 | `CONT-SEX-ANISOGAMY-001` | Origen de gametos desiguales | competencia/tamaño de cigoto bajo selección | limitación, conflicto y rutas reguladoras distintas | múltiples orígenes | C-D |
 | `CONT-SEX-FOSSIL-001` | Lectura de *Bangiomorpha* | alga bangial con sexo diferenciado | afinidad/ciclo menos específicos | mínimo condicionado | B-C |
+| `CONT-MULTI-COUNT-001` | ¿Cuántas veces surgió la multicelularidad? | múltiples orígenes independientes; seis clados bajo la definición eucariota compleja clásica | más eventos al contar agregación, filamentos, procariotas o niveles de complejidad por separado | abierta por definición y reconstrucción | B para repetición; D para cifra única |
+| `CONT-MULTI-ORGANISM-001` | ¿Cuándo un grupo es un individuo? | ciclo grupal heredable, variación entre grupos y éxito colectivo operacionalizan individualidad | integración fisiológica, cuello de botella o conflicto controlado pueden exigir umbrales distintos | abierta por criterio, no puramente verbal | C-D |
+| `CONT-MULTI-MODES-001` | Quedarse juntos o reunirse | desarrollo clonal favorece alto parentesco e integración compleja | agregación, filamentos y compartimentación también producen cooperación persistente | múltiples rutas; pesos abiertos | B para diversidad; C para consecuencias generales |
+| `CONT-MULTI-DRIVERS-001` | Presión inicial de selección | depredación, bienes públicos y sedimentación favorecen grupos en experimentos | ambiente, dispersión, estrés y otras ecologías pueden dominar históricamente | abierta por linaje | C para mecanismos; D para causa histórica |
+| `CONT-MULTI-GENETICS-001` | Innovación génica o cooptación | adhesión, señalización, ciclo celular y regulación preexistentes se reutilizan | expansiones, genes nuevos y cambios de arquitectura también importan por clado | combinación dependiente del linaje | B-C |
+| `CONT-MULTI-OXYGEN-001` | Papel del oxígeno | capacidad energética y ecología oxigenada pudieron facilitar tamaño/complejidad en ciertos clados | rutas anaerobias y resultados experimentales muestran que no es interruptor universal | contexto causal abierto | D para disparador único |
+| `CONT-MULTI-FRANCEVILLE-001` | Organismalidad de Franceville | estructuras biogénicas con crecimiento colonial coordinado a ~2.1 Ga | procesos sedimentarios/diagenéticos y menor integración biológica | abierta | C-D para biogenicidad; D-E para afinidad |
+| `CONT-MULTI-FOSSIL-AFFINITY-001` | Afinidad de fósiles mesoproterozoicos | *Qingshania*, *Rafatazmia* y otros registran multicelularidad eucariota temprana | convergencia morfológica y posición tallo/corona menos específica | mínimos condicionados | B-C para células; C-D para afinidad fina |
 
 ## CONT-COSMOS-H0-001 — Dos rutas hacia la tasa actual
 
@@ -831,3 +839,51 @@ Modelos de competencia, limitación de gametos, tamaño de cigoto y conflicto pr
 Morfología y desarrollo apoyan afinidad bangial y sexo diferenciado; convergencia, tallo/corona y falta de gametos preservados limitan la lectura. La edad Re–Os fecha la aparición estratigráfica, no el mecanismo molecular.
 
 **Prueba discriminatoria:** poblaciones mejor preservadas con gametangios/etapas conectadas, química orgánica *in situ*, afinidad filogenética morfológica y edades replicadas de los horizontes.
+
+## CONT-MULTI-COUNT-001 — El número cambia con la definición
+
+La multicelularidad compleja eucariota clásica se distribuye en seis grandes clados, pero «multicelularidad» también abarca filamentos, agregados, colonias clonales y arquitecturas procariotas. Un solo entero mezcla unidades históricas diferentes.
+
+**Prueba discriminatoria:** una ontología explícita de rasgos y modos de desarrollo aplicada a una filogenia amplia, con análisis de sensibilidad a pérdidas, convergencia y umbrales de complejidad.
+
+## CONT-MULTI-ORGANISM-001 — Un grupo no se vuelve individuo en un instante
+
+Propágulos, heredabilidad grupal y éxito diferencial permiten medir una transición darwiniana. Sin embargo, cuello de botella, división de trabajo, dependencia fisiológica y supresión de conflicto pueden aparecer en órdenes distintos.
+
+**Prueba discriminatoria:** experimentos longitudinales que midan simultáneamente heredabilidad, aptitud celular y colectiva, reproducción grupal, conflicto y reversibilidad a través de ciclos completos.
+
+## CONT-MULTI-MODES-001 — Clonalidad facilita; agregación también resuelve problemas
+
+Quedarse juntos tras la división produce grupos de alto parentesco y se asocia con complejidad. Reunirse permite colonizar, alimentarse o resistir con rapidez, pero introduce genotipos distintos; ninguna ruta se reduce a una etiqueta absoluta.
+
+**Prueba discriminatoria:** comparaciones hermanas y experimentos que manipulen modo de formación, parentesco, dispersión y control de tramposos sin confundirlos con tamaño o ecología.
+
+## CONT-MULTI-DRIVERS-001 — Los experimentos muestran causas posibles, no la causa antigua
+
+Depredación, sedimentación, cooperación metabólica y estrés generan selección por grupos en sistemas modernos. El archivo fósil rara vez conserva la presión selectiva y una misma arquitectura puede responder a causas diferentes.
+
+**Prueba discriminatoria:** predicciones exclusivas por mecanismo —morfología, ecología, dinámica de propágulos y firma genómica— contrastadas en múltiples transiciones independientes.
+
+## CONT-MULTI-GENETICS-001 — Cooptación recurrente sin un programa universal
+
+Choanoflagelados, volvocinas, algas pardas y hongos muestran reutilización de adhesión, señalización, ciclo celular y regulación. El peso de genes nuevos, duplicaciones y cambios cis-regulatorios varía entre clados.
+
+**Prueba discriminatoria:** reconstrucción y perturbación funcional de módulos ancestrales en transiciones independientes, con denominadores genómicos y criterios equivalentes de innovación.
+
+## CONT-MULTI-OXYGEN-001 — Capacidad energética no es un interruptor
+
+El oxígeno puede aumentar rendimiento y permitir ecologías o tamaños determinados, pero multicelularidad procariota, agregativa y experimental puede operar sin una atmósfera moderna. En levadura snowflake, el régimen anaerobio produjo los grupos mayores del experimento de largo plazo.
+
+**Prueba discriminatoria:** diseños factoriales de oxígeno, difusión, tamaño y mecánica en varios linajes, junto con cronologías que separen disponibilidad ambiental de aparición de cada rasgo.
+
+## CONT-MULTI-FRANCEVILLE-001 — Grandes estructuras sin taxón seguro
+
+Las estructuras de Franceville poseen morfología y distribución compatibles con crecimiento colonial coordinado en ambientes oxigenados. Procesos sedimentarios, diagénesis y falta de anatomía diagnóstica mantienen abierta su biogenicidad fuerte y su nivel de individualidad.
+
+**Prueba discriminatoria:** microestructuras celulares repetibles, química orgánica singenética *in situ*, gradientes de crecimiento y series ontogenéticas que excluyan concreciones o deformación física.
+
+## CONT-MULTI-FOSSIL-AFFINITY-001 — Células antiguas no fijan una rama fina
+
+Filamentos compartimentados como *Qingshania* y fósiles tridimensionales como *Rafatazmia* apoyan eucariotas multicelulares mesoproterozoicos. Asignarlos a coronas modernas exige más que tamaño, ramificación o tabiques convergentes.
+
+**Prueba discriminatoria:** poblaciones con ontogenia conectada, ultraestructura diagnóstica, química orgánica, matrices morfológicas explícitas y edades estratigráficas replicadas.
