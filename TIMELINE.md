@@ -181,8 +181,14 @@ Los límites numéricos siguen `SRC-ICS-2026` (tabla 2026/06). La evidencia de c
 
 | ID | Fecha/intervalo | Evento delimitado | Incertidumbre y evidencia | Fuente | Confianza | Estado |
 |---|---:|---|---|---|---|---|
-| `TIME-PETM-001` | ~56 Ma | Máximo Térmico Paleoceno–Eoceno | inicio/duración dependen de astrocronología y capas | C isotópico, temperatura y sedimentos; por registrar | B | SEMILLA |
-| `TIME-NEOGENE-BASE-001` | 23.04 Ma | base del Neógeno | GSSP y calibración | `SRC-ICS-2026` | A/B | SEMILLA |
+| `TIME-PALEOGENE-001` | `66.0–23.04 Ma` | Paleógeno: Paleoceno, Eoceno y Oligoceno | números calibran; GSSP definen bases en roca | `SRC-ICS-2026`, `SRC-ICS-YPRESIAN-2026`, `SRC-ICS-RUPELIAN-2026`, `SRC-ICS-AQUITANIAN-2026` | A arquitectura; B edades | AUDITADO |
+| `TIME-PALEOCENE-RECOVERY-001` | `0–1 Myr` pos-K–Pg; fases ~`100–300 kyr` | recuperación continental temprana en Corral Bluffs | una cuenca; riqueza, talla y flora tienen relojes distintos | `SRC-LYSON-RECOVERY-2019` | B-COND regional | AUDITADO |
+| `TIME-PURGATORIUS-001` | `105–139 kyr` pos-K–Pg para ocurrencias de C29r | purgatóridos/primates de tallo tempranos | dientes y magnetocrono; nodo y origen pueden anteceder | `SRC-WILSON-PURGATORIUS-2021`, `SRC-CHESTER-PURGATORIUS-2026` | A-B edad/presencia; B-COND nodo | AUDITADO |
+| `TIME-PETM-001` | ~`56.0 Ma`; inicio ≥`4 kyr`; recuperación >`100 kyr` por carbonato | CIE, calentamiento y acidificación del PETM | resolución y modelo controlan tasa/duración; frontera formal usa inicio de CIE | `SRC-ICS-YPRESIAN-2026`, `SRC-ZACHOS-PETM-2005`, `SRC-ZEEBE-PETM-RATE-2016` | A-B evento; B-COND tasa | AUDITADO |
+| `TIME-EUPRIMATE-001` | ~`56–55 Ma`; `Archicebus` ~`55 Ma` | primeros euprimates inequívocos y esqueleto temprano | mínimo fósil no fecha origen; topología de `Archicebus` condicionada | `SRC-NI-ARCHICEBUS-2013`, `SRC-SMITH-TEILHARDINA-2006` | A-B mínimo; B-COND posición | AUDITADO |
+| `TIME-CETACEAN-TRANSITION-001` | ~`53–34 Ma` | mosaico de cetáceos terrestres, anfibios y acuáticos obligados durante el Eoceno | intervalo compuesto; taxones son ramas y rasgos no cambian sincrónicamente | `SRC-THEWISSEN-PAKICETUS-2001`, `SRC-THEWISSEN-AMBULOCETUS-1994`, `SRC-GINGERICH-PROTOCETIDS-2001`, `SRC-WAQAS-CETACEAN-2026` | B | AUDITADO |
+| `TIME-EOT-001` | ~`34.4–33.7 Ma`; base oligocena `33.9 Ma` | transición Eoceno–Oligoceno, caída eustática y expansión del hielo | dos pasos; frontera, temperatura, eustasia y volumen no son sinónimos | `SRC-ICS-RUPELIAN-2026`, `SRC-EOT-SEA-LEVEL-2023` | B-COND | AUDITADO |
+| `TIME-NEOGENE-BASE-001` | 23.04 Ma | base del Neógeno/Mioceno y fin del Paleógeno | GSSP aquitaniense y calibración vigente | `SRC-ICS-2026`, `SRC-ICS-AQUITANIAN-2026` | A horizonte; B edad | AUDITADO |
 | `TIME-HOMININ-SPLIT-001` | ~8–6 Ma | divergencia de linajes humano/chimpancé estimada | intervalo de reloj molecular; fósiles no fijan el nodo por sí solos | genomas, calibraciones y fósiles; por registrar | C | SEMILLA |
 | `TIME-HOMININ-EARLY-001` | ~7–4.4 Ma | Sahelanthropus, Orrorin y Ardipithecus | edades de contextos; taxonomía/locomoción discutidas | huesos, geología y comparación; por registrar | C | SEMILLA |
 | `TIME-QUATERNARY-BASE-001` | 2.58 Ma | base del Cuaternario | GSSP y calibración | `SRC-ICS-2026` | A/B | SEMILLA |

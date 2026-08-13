@@ -430,6 +430,20 @@ El mapa conserva seis archivos: frontera formal, impacto, Deccan, forzamientos, 
 
 La doble cadena muestra que identificar Chicxulub exige convergencia de objetos distintos y que un aerosol modelado sólo alcanza mecanismo biológico cuando predice el patrón fósil.
 
+## 33. Investigación 032 — Paleógeno: cinco relojes, no una marcha
+
+![Portada conceptual del Paleógeno](assets/visuales/hero-paleogeno-recuperacion-mamiferos-primates-ballenas-petm.png)
+
+> **Portada conceptual:** separa testigo y microfósiles, mamíferos, primates, fósiles cetáceos, volcanismo, PETM y hielo antártico. No representa coexistencia, ancestros directos, tamaños comunes, una fila evolutiva ni una fuente climática única.
+
+![Mapa de evidencia del Paleógeno](assets/visuales/mapa-investigacion-032.svg)
+
+El mapa conserva cinco relojes: fronteras formales, recuperación, radiaciones mamalianas, mosaicos primates/cetáceos y clima. Cada columna declara qué mide y qué salto prohíbe.
+
+![Cadenas desde diente hasta nodo y desde isótopo hasta clima](assets/visuales/de-diente-a-nodo-y-de-isotopo-a-clima.svg)
+
+La doble cadena muestra que un diente necesita contexto, homología, matriz y calibración antes de convertirse en nodo, y que una excursión isotópica necesita reservorio, tiempo y balance antes de convertirse en fuente o tasa.
+
 ## Procedencia
 
 El registro de creación, límites y prompt de cada pieza está en [`assets/visuales/README.md`](assets/visuales/README.md).

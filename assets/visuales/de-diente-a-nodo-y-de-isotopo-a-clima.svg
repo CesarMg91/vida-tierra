@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Cadenas de inferencia de diente a nodo y de isótopo a clima</title>
+  <desc id="desc">Dos rutas paralelas muestran los pasos y pérdidas de información entre fósiles y nodos filogenéticos, y entre isótopos y reconstrucciones del PETM.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#081719"/><stop offset="1" stop-color="#13282a"/></linearGradient>
+    <style>
+      .h{font:700 40px 'Segoe UI',Arial,sans-serif;fill:#f4ead7}.sh{font:700 25px 'Segoe UI',Arial,sans-serif}.b{font:700 18px 'Segoe UI',Arial,sans-serif;fill:#fff}.t{font:16px 'Segoe UI',Arial,sans-serif;fill:#dce7e3}.s{font:15px 'Segoe UI',Arial,sans-serif;fill:#aebfbb}.warn{font:700 15px 'Segoe UI',Arial,sans-serif;fill:#efbf80}.node{stroke-width:2;rx:14}.a{fill:none;stroke-width:4}.d{fill:none;stroke:#bfc9c3;stroke-width:2;stroke-dasharray:7 8}
+    </style>
+    <marker id="m1" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0 0L10 5L0 10z" fill="#d59154"/></marker>
+    <marker id="m2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0 0L10 5L0 10z" fill="#65a8b6"/></marker>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <text x="70" y="70" class="h">DOS CADENAS, DOS TIPOS DE PÉRDIDA</text>
+  <text x="70" y="108" class="s">La medición gana significado mediante modelos; cada puente también añade supuestos.</text>
+
+  <rect x="55" y="145" width="715" height="655" rx="24" fill="#271f1b" stroke="#72482e" stroke-width="2"/>
+  <text x="90" y="195" class="sh" fill="#edaa70">DIENTE → NODO FILOGENÉTICO</text>
+  <text x="90" y="225" class="s">Mamíferos, Purgatorius y cetáceos</text>
+  <g>
+    <rect x="90" y="265" width="240" height="88" class="node" fill="#51321f" stroke="#b87242"/>
+    <text x="110" y="295" class="b">1  OBJETO</text><text x="110" y="325" class="t">diente en matriz rocosa</text>
+    <path d="M330 309H410" class="a" stroke="#d59154" marker-end="url(#m1)"/>
+    <rect x="420" y="265" width="300" height="88" class="node" fill="#51321f" stroke="#b87242"/>
+    <text x="440" y="295" class="b">2  CONTEXTO</text><text x="440" y="325" class="t">edad, posición, retrabajo</text>
+
+    <path d="M570 353V405" class="a" stroke="#d59154" marker-end="url(#m1)"/>
+    <rect x="420" y="415" width="300" height="88" class="node" fill="#51321f" stroke="#b87242"/>
+    <text x="440" y="445" class="b">3  CARACTERES</text><text x="440" y="475" class="t">homología, desgaste, codificación</text>
+    <path d="M420 459H340" class="a" stroke="#d59154" marker-end="url(#m1)"/>
+    <rect x="90" y="415" width="240" height="88" class="node" fill="#51321f" stroke="#b87242"/>
+    <text x="110" y="445" class="b">4  MATRIZ</text><text x="110" y="475" class="t">taxones y árboles rivales</text>
+
+    <path d="M210 503V555" class="a" stroke="#d59154" marker-end="url(#m1)"/>
+    <rect x="90" y="565" width="240" height="88" class="node" fill="#51321f" stroke="#b87242"/>
+    <text x="110" y="595" class="b">5  CALIBRACIÓN</text><text x="110" y="625" class="t">fósil, reloj, ocurrencias</text>
+    <path d="M330 609H410" class="a" stroke="#d59154" marker-end="url(#m1)"/>
+    <rect x="420" y="565" width="300" height="88" class="node" fill="#6a4125" stroke="#edaa70"/>
+    <text x="440" y="595" class="b">6  RESULTADO</text><text x="440" y="625" class="t">posición y edad probabilísticas</text>
+  </g>
+  <path d="M90 700H720" class="d"/>
+  <text x="90" y="734" class="warn">SALTO PROHIBIDO</text>
+  <text x="245" y="734" class="t">forma parecida → ancestro directo</text>
+  <text x="90" y="768" class="s">El mismo diente no es evidencia independiente en taxonomía, dieta y reloj.</text>
+
+  <rect x="830" y="145" width="715" height="655" rx="24" fill="#16272d" stroke="#356a77" stroke-width="2"/>
+  <text x="865" y="195" class="sh" fill="#83c3cf">ISÓTOPO → CLIMA Y CARBONO</text>
+  <text x="865" y="225" class="s">PETM y transición Eoceno–Oligoceno</text>
+  <g>
+    <rect x="865" y="265" width="240" height="88" class="node" fill="#1f4650" stroke="#4f93a2"/>
+    <text x="885" y="295" class="b">1  MUESTRA</text><text x="885" y="325" class="t">carbonato o materia orgánica</text>
+    <path d="M1105 309H1185" class="a" stroke="#65a8b6" marker-end="url(#m2)"/>
+    <rect x="1195" y="265" width="300" height="88" class="node" fill="#1f4650" stroke="#4f93a2"/>
+    <text x="1215" y="295" class="b">2  MEDICIÓN</text><text x="1215" y="325" class="t">δ13C, δ11B, δ18O</text>
+
+    <path d="M1345 353V405" class="a" stroke="#65a8b6" marker-end="url(#m2)"/>
+    <rect x="1195" y="415" width="300" height="88" class="node" fill="#1f4650" stroke="#4f93a2"/>
+    <text x="1215" y="445" class="b">3  CALIBRACIÓN</text><text x="1215" y="475" class="t">reservorio, pH, temperatura</text>
+    <path d="M1195 459H1115" class="a" stroke="#65a8b6" marker-end="url(#m2)"/>
+    <rect x="865" y="415" width="240" height="88" class="node" fill="#1f4650" stroke="#4f93a2"/>
+    <text x="885" y="445" class="b">4  TIEMPO</text><text x="885" y="475" class="t">edad–profundidad e hiatos</text>
+
+    <path d="M985 503V555" class="a" stroke="#65a8b6" marker-end="url(#m2)"/>
+    <rect x="865" y="565" width="240" height="88" class="node" fill="#1f4650" stroke="#4f93a2"/>
+    <text x="885" y="595" class="b">5  MODELO</text><text x="885" y="625" class="t">balance, clima, circulación</text>
+    <path d="M1105 609H1185" class="a" stroke="#65a8b6" marker-end="url(#m2)"/>
+    <rect x="1195" y="565" width="300" height="88" class="node" fill="#285968" stroke="#83c3cf"/>
+    <text x="1215" y="595" class="b">6  RESULTADO</text><text x="1215" y="625" class="t">rango de C, pH, hielo o tasa</text>
+  </g>
+  <path d="M865 700H1495" class="d"/>
+  <text x="865" y="734" class="warn">SALTO PROHIBIDO</text>
+  <text x="1020" y="734" class="t">excursión → fuente única observada</text>
+  <text x="865" y="768" class="s">Boro, carbono y temperatura pueden compartir edad y modelo de reservorios.</text>
+
+  <text x="70" y="855" class="s">INV-PALEOGENE-001 · La confianza final no puede superar sin explicación el puente más débil.</text>
+</svg>
