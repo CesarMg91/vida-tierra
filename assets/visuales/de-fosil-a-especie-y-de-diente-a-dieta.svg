@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="820" viewBox="0 0 1600 820" role="img" aria-labelledby="title desc">
+  <title id="title">De fósil a especie y de diente a dieta</title>
+  <desc id="desc">Dos cadenas paralelas muestran los controles necesarios para inferir una especie desde fósiles y una dieta desde anatomía, isótopos y microdesgaste.</desc>
+  <defs>
+    <linearGradient id="bg2" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#121725"/><stop offset="1" stop-color="#192536"/></linearGradient>
+    <marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0l10 5-10 5z" fill="#9dc9c4"/></marker>
+    <style>.t{font:700 36px system-ui,sans-serif;fill:#f4ead9}.s{font:400 19px system-ui,sans-serif;fill:#b9c8d4}.h{font:700 22px system-ui,sans-serif;fill:#fff}.b{font:400 17px system-ui,sans-serif;fill:#dce6e9}.n{font:600 15px system-ui,sans-serif;fill:#b7c8cf}.c{rx:17;stroke-width:2}.l{fill:none;stroke:#9dc9c4;stroke-width:3;marker-end:url(#a)}</style>
+  </defs>
+  <rect width="1600" height="820" fill="url(#bg2)"/>
+  <text x="70" y="64" class="t">Dos cadenas de inferencia · dos familias de error</text>
+  <text x="70" y="101" class="s">No basta con acumular piezas o proxies: hay que declarar el puente y su alternativa.</text>
+
+  <text x="70" y="162" class="h">A · DEL FÓSIL A LA ESPECIE</text>
+  <rect x="70" y="195" width="240" height="125" class="c" fill="#26394a" stroke="#6eb5c8"/>
+  <text x="95" y="235" class="h">PIEZA</text><text x="95" y="269" class="b">forma preservada</text><text x="95" y="297" class="n">+ procedencia</text>
+  <path d="M310 258H385" class="l"/>
+  <rect x="385" y="195" width="250" height="125" class="c" fill="#3c3244" stroke="#bb91c7"/>
+  <text x="410" y="235" class="h">CORRECCIÓN</text><text x="410" y="269" class="b">deformación · edad</text><text x="410" y="297" class="n">sexo · tamaño</text>
+  <path d="M635 258H710" class="l"/>
+  <rect x="710" y="195" width="250" height="125" class="c" fill="#2d403c" stroke="#7fc3a0"/>
+  <text x="735" y="235" class="h">VARIACIÓN</text><text x="735" y="269" class="b">muestra comparativa</text><text x="735" y="297" class="n">intra vs. interespecífica</text>
+  <path d="M960 258H1035" class="l"/>
+  <rect x="1035" y="195" width="250" height="125" class="c" fill="#44362d" stroke="#d2a46c"/>
+  <text x="1060" y="235" class="h">DIAGNÓSTICO</text><text x="1060" y="269" class="b">combinación repetible</text><text x="1060" y="297" class="n">predice nuevos hallazgos</text>
+  <path d="M1285 258H1360" class="l"/>
+  <rect x="1360" y="195" width="180" height="125" class="c" fill="#243245" stroke="#e3bd71"/>
+  <text x="1385" y="235" class="h">TAXÓN</text><text x="1385" y="269" class="b">hipótesis</text><text x="1385" y="297" class="n">revisable</text>
+  <rect x="390" y="341" width="820" height="43" rx="21" fill="#111722" stroke="#d9736b"/>
+  <text x="800" y="369" class="n" text-anchor="middle">Alternativa permanente: ontogenia · dimorfismo · población · deformación</text>
+
+  <text x="70" y="455" class="h">B · DEL DIENTE A LA DIETA</text>
+  <rect x="70" y="488" width="270" height="135" class="c" fill="#43372b" stroke="#d6a76e"/>
+  <text x="95" y="528" class="h">ANATOMÍA</text><text x="95" y="562" class="b">fuerza y resistencia</text><text x="95" y="591" class="n">capacidad, no consumo</text>
+  <rect x="395" y="488" width="270" height="135" class="c" fill="#29413b" stroke="#78c39d"/>
+  <text x="420" y="528" class="h">ISÓTOPOS</text><text x="420" y="562" class="b">C3 / C4 y procedencia</text><text x="420" y="591" class="n">promedio de formación</text>
+  <rect x="720" y="488" width="270" height="135" class="c" fill="#3a3044" stroke="#b590c7"/>
+  <text x="745" y="528" class="h">MICRODESGASTE</text><text x="745" y="562" class="b">textura reciente</text><text x="745" y="591" class="n">ventana corta</text>
+  <rect x="1045" y="488" width="270" height="135" class="c" fill="#263a4b" stroke="#6db7cb"/>
+  <text x="1070" y="528" class="h">RESIDUOS</text><text x="1070" y="562" class="b">partículas preservadas</text><text x="1070" y="591" class="n">sesgo de conservación</text>
+  <path d="M205 623C205 680 550 672 735 704" class="l"/>
+  <path d="M530 623C530 660 650 675 735 704" class="l"/>
+  <path d="M855 623C855 660 810 675 775 704" class="l"/>
+  <path d="M1180 623C1180 680 930 672 815 704" class="l"/>
+  <rect x="650" y="690" width="300" height="92" class="c" fill="#243245" stroke="#e2ba6e"/>
+  <text x="800" y="728" class="h" text-anchor="middle">DIETA CONDICIONADA</text>
+  <text x="800" y="758" class="n" text-anchor="middle">recursos y ventanas, no menú total</text>
+  <text x="1335" y="544" class="s">≠</text><text x="1390" y="528" class="h">UN ALIMENTO</text><text x="1390" y="562" class="b">universal</text><text x="1390" y="591" class="n">o “especialista” simple</text>
+</svg>

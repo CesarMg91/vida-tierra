@@ -500,6 +500,20 @@ El mapa conserva cinco archivos —contexto/edad, asociación, forma/función, a
 
 La doble cadena muestra por qué procedencia, diagnóstico y matriz producen una rama condicionada, mientras geometría, alometría y biomecánica producen una función probable. Sólo se reúnen al final y ninguna identifica por sí sola un ancestro.
 
+## 38. Investigación 037 — Australopitecos y Paranthropus: diversidad sin marcha
+
+![Portada conceptual de australopitecos y Paranthropus](assets/visuales/hero-australopitecos-paranthropus.png)
+
+> **Portada conceptual:** separa cráneo, mandíbula, mano, pie, estratigrafía, huella e isótopos. No representa individuos vivos, un solo cuerpo, especies a escala, sucesión lineal, dieta observada ni ancestro directo.
+
+![Mapa epistemológico de australopitecos y Paranthropus](assets/visuales/mapa-investigacion-037.svg)
+
+El mapa conserva seis rutas —edad, taxón, locomoción, dieta, tecnología y parentesco— y evita que un resultado sustituya al siguiente.
+
+![Cadenas de fósil a especie y de diente a dieta](assets/visuales/de-fosil-a-especie-y-de-diente-a-dieta.svg)
+
+La doble cadena declara controles de ontogenia, dimorfismo y deformación para la taxonomía, y conserva anatomía, isótopos, microdesgaste y residuos como ventanas dietarias no equivalentes.
+
 ## Procedencia
 
 El registro de creación, límites y prompt de cada pieza está en [`assets/visuales/README.md`](assets/visuales/README.md).
