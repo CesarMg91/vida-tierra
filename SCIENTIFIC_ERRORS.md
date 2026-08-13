@@ -6,6 +6,14 @@ El propósito no es presentar la ciencia como una sucesión de fracasos ni como 
 
 | ID | Caso | Supuesto que falló | Mecanismo de corrección | Estado |
 |---|---|---|---|---|
+| `ERR-EUROPE-ONE-ARRIVAL-001` | sitio más antiguo = llegada única | presencia, establecimiento y continuidad fundidos | separar episodios y contribución | DOCUMENTADO |
+| `ERR-EUROPE-TECHNOLOGY-TAXON-001` | tecnocomplejo = especie | industria usada como fósil biológico | exigir asociación local diagnóstica | DOCUMENTADO |
+| `ERR-EUROPE-OVERLAP-CONTACT-001` | intervalos = convivencia cara a cara | escala y resolución omitidas | declarar escala y puente de contacto | DOCUMENTADO |
+| `ERR-EUROPE-ADMIXTURE-LOCATION-001` | reloj genómico = lugar europeo | tiempo de recombinación convertido en coordenada | separar cuándo, dónde y quién | DOCUMENTADO |
+| `ERR-EUROPE-LAST-DATE-EXTINCTION-001` | última muestra = último individuo | preservación y colas omitidas | modelar ventana regional | DOCUMENTADO |
+| `ERR-NW-NO-FLOW-NO-CONTACT-001` | no flujo NW = no contacto europeo | muestra regional extrapolada | reportar alcance y potencia | DOCUMENTADO |
+| `ERR-NEAND-ISOLATION-DEGENERATION-001` | aislamiento = degeneración causal | estructura, carga y aptitud fundidas | exigir tendencia y mecanismo | DOCUMENTADO |
+| `ERR-EUROPE-REPLACEMENT-SCENE-001` | reemplazo = escena violenta | cambio demográfico teatralizado | comparar mecanismos regionales | DOCUMENTADO |
 | `ERR-COSMOS-STATIC-001` | universo estático impuesto a ecuaciones dinámicas | estabilidad y preferencia filosófica tratadas como dato | soluciones de Friedmann/Lemaître, corrimientos y distancias | DOCUMENTADO |
 | `ERR-COSMOS-HUBBLE-SCALE-001` | valor histórico de `H0` demasiado alto y edad demasiado corta | peldaños de distancia mal calibrados y `1/H0` tratado como edad suficiente | Cefeidas recalibradas, poblaciones estelares, `H(z)` y aceleración | DOCUMENTADO |
 | `ERR-COSMOS-CMB-NOISE-001` | exceso de microondas tratado inicialmente como posible aparato/entorno | presupuesto de ruido o primer plano incompleto | auditoría de antena, multibanda, FIRAS y mapas CMB | DOCUMENTADO como proceso, no como mala práctica |
@@ -3376,3 +3384,67 @@ Persistencia regional de linajes no implica que lenguas, prácticas, identidades
 ### Corrección
 
 Auditar continuidad biológica, demográfica, material, lingüística y territorial con archivos independientes y gobernanza comunitaria.
+
+## ERR-EUROPE-ONE-ARRIVAL-001 — El sitio más antiguo fija una llegada única
+
+Apidima, Mandrin, Bacho Kiro y Ranis no tienen igual objeto, confianza o continuidad. Una presencia puede pertenecer a una incursión sin descendencia detectable.
+
+### Corrección
+
+Nombrar el objeto y hablar de episodios o límites locales; reservar establecimiento para evidencia demográfica independiente.
+
+## ERR-EUROPE-TECHNOLOGY-TAXON-001 — Una industria identifica automáticamente una especie
+
+LRJ, IUP, Uluzziense, Neroniano o Protoauriñaciense son clasificaciones de conjuntos. El fabricante sólo se atribuye donde resto/biomolécula y procedencia sostienen la asociación.
+
+### Corrección
+
+Escribir «sapiens asociado al LRJ de Ranis» y no «LRJ = sapiens».
+
+## ERR-EUROPE-OVERLAP-CONTACT-001 — Intervalos superpuestos prueban convivencia cara a cara
+
+Dos distribuciones pueden solaparse en Europa o una región sin que individuos compartan lugar, generación o interacción.
+
+### Corrección
+
+Declarar escala y método; exigir procedencia, intercambio o señal biológica local para contacto.
+
+## ERR-EUROPE-ADMIXTURE-LOCATION-001 — El reloj genómico sitúa la mezcla en Europa
+
+La longitud de tramos estima generaciones desde flujo; no contiene coordenadas. Ust’-Ishim ni el pulso compartido fijan el lugar.
+
+### Corrección
+
+Separar «cuándo bajo modelo» de «dónde» y combinar con genomas/sitios intermedios.
+
+## ERR-EUROPE-LAST-DATE-EXTINCTION-001 — La última fecha es el instante de extinción
+
+La última muestra depende de preservación, excavación, contaminación, calibración y modelo de colas.
+
+### Corrección
+
+Publicar una ventana regional de última aparición y sensibilidad al muestreo.
+
+## ERR-NW-NO-FLOW-NO-CONTACT-001 — Sin flujo reciente en la muestra significa sin contacto en Europa
+
+Bossoms Mesa 2026 limita señal detectable en 27 restos de 10 sitios del noroeste. Contacto sin descendencia, otras regiones o generaciones quedan fuera.
+
+### Corrección
+
+Mantener alcance regional/muestral y reportar potencia de detección.
+
+## ERR-NEAND-ISOLATION-DEGENERATION-001 — Aislamiento demuestra degeneración y extinción
+
+Thorin evidencia aislamiento local; la serie del noroeste no muestra deterioro genético progresivo. Tamaño pequeño, carga y aptitud no son equivalentes.
+
+### Corrección
+
+Exigir tendencia temporal replicada y un mecanismo de aptitud antes de proponer causa general.
+
+## ERR-EUROPE-REPLACEMENT-SCENE-001 — Reemplazo fue una escena violenta observada
+
+«Reemplazo» resume cambios de frecuencia/presencia y puede coexistir con absorción genética. No registra un encuentro, intención o mecanismo único.
+
+### Corrección
+
+Comparar mecanismos regionales y representar el proceso como cambio demográfico, no teatro histórico.

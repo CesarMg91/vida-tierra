@@ -621,6 +621,20 @@ El mapa recorre objeto, medición, asociación, modelo y adversario antes de sep
 
 Los carriles mantienen aparte cuerpos/mínimos, sitios, mar/modelos y genomas. Muna no fecha directamente pigmento o autor; Laili es ausencia local; la divergencia papú–australiana no es desembarco.
 
+## 46. Investigación 045 — Llegada de sapiens a Europa y coexistencia neandertal
+
+![Portada editorial de archivos fósiles, estratigráficos, tecnológicos y genómicos](assets/visuales/hero-llegada-sapiens-europa-coexistencia.png)
+
+> **Portada editorial:** separa restos genéricos, dos bloques estratigráficos, conjuntos líticos y módulos moleculares. No reproduce un sitio, tecnocomplejo, genoma o encuentro; las bandas solapadas son una metáfora de intervalos, no contacto.
+
+![Mapa epistemológico de cinco cadenas](assets/visuales/mapa-investigacion-045.svg)
+
+El mapa conduce por objeto, procedencia, medición, asociación y escala. Las líneas discontinuas impiden saltar de tecnología a taxón, de solapamiento a contacto o de reloj genómico a lugar.
+
+![Cronología multiarquivo de Europa entre 60 y 38 ka](assets/visuales/cronologia-solapamientos-europa.svg)
+
+Los carriles separan restos/taxón, tecnocomplejos, últimas apariciones neandertales y genética. Las posiciones son aproximadas y ninguna intersección representa cohabitación observada.
+
 ## Procedencia
 
 El registro de creación, límites y prompt de cada pieza está en [`assets/visuales/README.md`](assets/visuales/README.md).

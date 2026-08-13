@@ -6,6 +6,13 @@ Una controversia no implica empate. Registra qué parte está realmente abierta,
 
 | ID | Tema | Explicación dominante o práctica | Alternativa fuerte | Estado | Confianza en la síntesis |
 |---|---|---|---|---|---|
+| `CONT-EUROPE-FIRST-ARRIVAL-001` | primera llegada europea | Bacho Kiro/Ranis son las asociaciones convergentes tempranas | Apidima o Mandrin serían incursiones anteriores | abierta por definición/evidencia | B para `47–43 ka`; C-D antes |
+| `CONT-MANDRIN-NERONIAN-001` | taxón y asociación de Mandrin | molar sapiens asociado a Neroniano `56.8–51.7 ka` | taxón o asociación estratigráfica no seguros | abierta | C-COND |
+| `CONT-EUROPE-TECHNOCOMPLEX-TAXON-001` | industria y fabricante | asociaciones sapiens locales para IUP/LRJ/Protoauriñaciense | transmisión, convergencia o fabricantes distintos | abierta por conjunto | B local; C extensión |
+| `CONT-EUROPE-OVERLAP-CONTACT-001` | solapamiento y contacto | coexistencia cronológica regional | intervalos sin encuentro/flujo local | abierta a resolución local | B-COND solapamiento; D contacto |
+| `CONT-NEAND-DISAPPEARANCE-TIMING-001` | final neandertal | ventanas regionales asincrónicas | sesgo de preservación/fechado mueve últimas apariciones | abierta en precisión | B-COND |
+| `CONT-NEAND-GENETIC-DECLINE-001` | deterioro genético | estructura/aislamiento local sin tendencia general demostrada | carga creciente pudo afectar algunos grupos | abierta regionalmente | B contra tendencia NW; D causa global |
+| `CONT-EUROPE-REPLACEMENT-MECHANISM-001` | mecanismo del reemplazo | mosaico de demografía, ambiente e interacción | mecanismo dominante regional o general | abierta | C-D |
 | `CONT-COSMOS-H0-001` | Tensión de Hubble | sistemáticas residuales o extensión física todavía no identificada; no hay resolución única | calibración local, modelado temprano o nueva física específica | abierta | B para la discrepancia; D para su causa |
 | `CONT-COSMOS-DARKENERGY-001` | ¿Constante cosmológica o componente dinámica? | `Λ` constante describe bien el conjunto base | `w(z)` dinámico o gravedad modificada; DESI cambia restricciones | abierta | B-COND para aceleración; D para mecanismo |
 | `CONT-COSMOS-BEGIN-001` | ¿La fase caliente fue el comienzo absoluto? | el modelo probado se detiene en un límite temprano sin afirmar ontología | inflación eterna, rebote, fase previa o comienzo cuántico | abierta y parcialmente fuera del acceso observacional | E para mecanismo exacto |
@@ -2615,3 +2622,45 @@ Malaspinas y colaboradores estimaron `25–40 ka`; Silcocks y colaboradores, `~4
 Poblaciones papúes conservan componentes denisovanos divergentes, compatibles con más de un episodio o donante estructurado. Una afinidad moderna no localiza el contacto ni convierte fósiles robustos de Asia/Wallacea en denisovanos.
 
 **Prueba discriminatoria:** ADN/proteína de fósiles regionales, genomas antiguos seriados y modelos que comparen múltiples pulsos con estructura continua del donante.
+
+## CONT-EUROPE-FIRST-ARRIVAL-001 — Una primera llegada o episodios distintos
+
+Apidima propone una presencia `>210 ka`; Mandrin, `56.8–51.7 ka`; Bacho Kiro y Ranis enlazan varios archivos alrededor de `47–43 ka`. Las tres clases no tienen igual taxón, asociación o continuidad y no deben competir por un único punto inaugural.
+
+**Prueba discriminatoria:** restos diagnósticos directamente fechados, secuencias regionales replicadas y genomas capaces de distinguir incursión sin descendencia de establecimiento.
+
+## CONT-MANDRIN-NERONIAN-001 — Taxón y asociación de Mandrin
+
+El molar deciduo y la capa E sustentan una incursión sapiens propuesta; la atribución dental, la asociación y la equivalencia Neroniano–sapiens fueron cuestionadas. La edad modelada de la capa no fecha directamente el diente.
+
+**Prueba discriminatoria:** nuevo material humano diagnóstico en capa íntegra, datación directa y reanálisis independientes ciegos del diente y la formación del depósito.
+
+## CONT-EUROPE-TECHNOCOMPLEX-TAXON-001 — Industria y fabricante
+
+Bacho Kiro/IUP, Ranis/LRJ y Bombrini–Fumane/Protoauriñaciense tienen asociaciones locales fuertes; Cavallo/Uluzziense conserva una disputa tafonómica. La semejanza tecnológica puede reflejar transmisión, convergencia o clasificación, no sólo identidad biológica.
+
+**Prueba discriminatoria:** restos o biomoléculas de fabricantes en múltiples conjuntos íntegros, con pruebas fuera de los sitios que definieron la asociación.
+
+## CONT-EUROPE-OVERLAP-CONTACT-001 — Solapamiento temporal frente a contacto
+
+Modelos continentales y regionales producen ventanas milenarias, pero Bossoms Mesa 2026 no detectó flujo sapiens reciente en neandertales del noroeste pese al solapamiento. Intersección de distribuciones no es interacción local.
+
+**Prueba discriminatoria:** muestreo espacial/temporal denso, objetos con transferencia demostrada, procedencias de alta resolución y genomas con potencia declarada para flujo reciente.
+
+## CONT-NEAND-DISAPPEARANCE-TIMING-001 — Fin continental o finales regionales
+
+Higham 2014, Devièse 2021, Djakovic 2022 e Italia 2024 producen ventanas diferentes por región, muestra y método. El último fechado disponible es un estimador afectado por preservación y no el último individuo.
+
+**Prueba discriminatoria:** nuevas series de datación específica, modelos con selección explícita y comparación de regiones bajo el mismo protocolo.
+
+## CONT-NEAND-GENETIC-DECLINE-001 — Aislamiento local frente a deterioro general
+
+Thorin demuestra aislamiento de un linaje; el conjunto del noroeste de 2026 no muestra acumulación progresiva de carga, caída de heterocigosidad o aumento de HBD. Estructura y grupos pequeños no equivalen automáticamente a colapso genético.
+
+**Prueba discriminatoria:** series temporales regionales anteriores al final que repliquen una tendencia y la conecten con aptitud mediante modelos comparativos, no sólo tamaño efectivo.
+
+## CONT-EUROPE-REPLACEMENT-MECHANISM-001 — Competencia, absorción o mosaico causal
+
+La desaparición arqueológica de neandertales y la expansión sapiens coocurren, mientras ancestría neandertal persiste. Competencia, clima, demografía, redes, absorción y azar pueden combinarse de modo regionalmente distinto.
+
+**Prueba discriminatoria:** modelos que publiquen predicciones independientes para cronología, movilidad, tamaños, flujo y ambiente y que superen alternativas en regiones no usadas para ajustarlos.

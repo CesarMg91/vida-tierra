@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Cronología multiarquivo de sapiens y neandertales en Europa</title>
+  <desc id="desc">Eje aproximado entre 60 y 38 mil años antes del presente con carriles separados para fósiles, tecnocomplejos, modelos de solapamiento y genética. Las barras no representan contacto.</desc>
+  <defs>
+    <style>
+      .bg{fill:#08131f}.lane{fill:#0f2433}.grid{stroke:#315064;stroke-width:1}.txt{font-family:Inter,Segoe UI,sans-serif;fill:#eaf1f4}.muted{fill:#9eb2bd}.teal{fill:#56c5bd}.amber{fill:#dba45f}.violet{fill:#9784cf}.red{fill:#d77d77}.outline{fill:none;stroke:#eaf1f4;stroke-width:2;stroke-dasharray:8 6}.h1{font-size:36px;font-weight:700}.h2{font-size:23px;font-weight:650}.body{font-size:18px}.tiny{font-size:15px}
+    </style>
+  </defs>
+  <rect class="bg" width="1600" height="900"/>
+  <text class="txt h1" x="70" y="58">Europa 60–38 ka: intervalos distintos, no una convivencia observada</text>
+  <text class="muted body" x="70" y="94">Posiciones aproximadas · ka/cal BP y edades moleculares no son relojes intercambiables</text>
+
+  <g transform="translate(310 128)">
+    <line class="grid" x1="0" y1="0" x2="0" y2="650"/><line class="grid" x1="218" y1="0" x2="218" y2="650"/><line class="grid" x1="436" y1="0" x2="436" y2="650"/><line class="grid" x1="655" y1="0" x2="655" y2="650"/><line class="grid" x1="873" y1="0" x2="873" y2="650"/><line class="grid" x1="1092" y1="0" x2="1092" y2="650"/>
+    <text class="txt body" x="-12" y="-18">60</text><text class="txt body" x="205" y="-18">56</text><text class="txt body" x="423" y="-18">52</text><text class="txt body" x="642" y="-18">48</text><text class="txt body" x="860" y="-18">44</text><text class="txt body" x="1078" y="-18">40 ka</text>
+  </g>
+
+  <rect class="lane" x="55" y="145" width="1490" height="132" rx="14"/>
+  <text class="teal h2" x="75" y="177">RESTOS / TAXÓN</text>
+  <rect class="outline" x="437" y="194" width="278" height="25" rx="6"/><text class="txt tiny" x="447" y="212">Mandrin 56.8–51.7 · disputado</text>
+  <rect class="teal" x="966" y="194" width="150" height="25" rx="6"/><text class="bg tiny" x="976" y="212">Bacho ~46–44</text>
+  <rect class="teal" x="963" y="231" width="258" height="25" rx="6"/><text class="bg tiny" x="973" y="249">Ranis 47.5–42.2</text>
+  <circle class="violet" cx="1128" cy="207" r="12"/><text class="txt tiny" x="1148" y="212">Zlatý kůň ~45, edad molecular</text>
+
+  <rect class="lane" x="55" y="292" width="1490" height="142" rx="14"/>
+  <text class="amber h2" x="75" y="324">TECNOCOMPLEJOS</text>
+  <rect class="outline" x="430" y="341" width="290" height="24" rx="6"/><text class="txt tiny" x="440" y="358">Neroniano · hereda disputa</text>
+  <rect class="amber" x="914" y="341" width="222" height="24" rx="6"/><text class="bg tiny" x="924" y="358">IUP Bacho · local</text>
+  <rect class="amber" x="963" y="374" width="258" height="24" rx="6"/><text class="bg tiny" x="973" y="391">LRJ Ranis · local</text>
+  <rect class="outline" x="1065" y="405" width="165" height="20" rx="6"/><text class="txt tiny" x="1075" y="420">Uluzziense cond.</text>
+  <rect class="amber" x="1178" y="341" width="180" height="24" rx="6"/><text class="bg tiny" x="1188" y="358">Protoauriñaciense</text>
+
+  <rect class="lane" x="55" y="449" width="1490" height="142" rx="14"/>
+  <text class="red h2" x="75" y="481">NEANDERTALES / ÚLTIMAS APARICIONES</text>
+  <rect class="red" x="1037" y="500" width="250" height="25" rx="6"/><text class="bg tiny" x="1047" y="518">Europa 41.03–39.26 cal BP</text>
+  <rect class="red" x="865" y="537" width="198" height="25" rx="6"/><text class="bg tiny" x="875" y="555">NW 44.2–40.6 cal BP</text>
+  <text class="muted tiny" x="1080" y="555">finales asincrónicos; Italia puede contener hiato</text>
+
+  <rect class="lane" x="55" y="606" width="1490" height="157" rx="14"/>
+  <text class="violet h2" x="75" y="638">GENÉTICA / CONTACTO</text>
+  <rect class="violet" x="790" y="655" width="410" height="25" rx="6"/><text class="bg tiny" x="800" y="673">pulso compartido ~50.5–43.5 / ~49–45 · lugar abierto</text>
+  <rect class="violet" x="981" y="692" width="205" height="25" rx="6"/><text class="bg tiny" x="991" y="710">ancestros recientes Bacho/Oase</text>
+  <rect class="outline" x="1010" y="726" width="282" height="24" rx="6"/><text class="txt tiny" x="1020" y="743">NW neandertal: sin flujo reciente detectable</text>
+
+  <text class="muted body" x="70" y="814">Una barra es una ventana publicada o modelada. Su intersección no demuestra encuentro, intercambio ni mestizaje local.</text>
+  <text class="muted body" x="70" y="852">Mandrin y Uluzziense están delineados por su condición discutida. Bossoms Mesa 2026 limita la inferencia a 27 restos de 10 sitios del noroeste.</text>
+  <text class="muted tiny" x="70" y="882">Diagrama original del proyecto · no es una curva de probabilidad ni reproduce datos de figura.</text>
+</svg>

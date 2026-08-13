@@ -106,7 +106,7 @@ En cada periodo se auditarán primero sus límites cronoestratigráficos y despu
 |---:|---|---|
 | 043 | `INV-SAPIENS-OoA-001` | [¿Cuántas salidas de África hubo y cuáles dejaron descendencia?](13_migraciones/INVESTIGACION_043_SALIDAS_AFRICA_DESCENDENCIA.md) — **AUDITADO** |
 | 044 | `INV-MIGR-ASIA-AUS-001` | [¿Cómo se poblaron Asia y Sahul sin convertir sitios, rutas y genomas en una sola historia?](13_migraciones/INVESTIGACION_044_POBLAMIENTO_ASIA_SAHUL.md) — **AUDITADO** |
-| 045 | `INV-MIGR-EUROPE-001` | llegada a Europa y coexistencia |
+| 045 | `INV-MIGR-EUROPE-001` | [¿Cuándo llegó sapiens a Europa y qué significa coexistir con neandertales?](13_migraciones/INVESTIGACION_045_LLEGADA_EUROPA_COEXISTENCIA_NEANDERTALES.md) — **AUDITADO** |
 | 046 | `INV-MIGR-AMERICAS-001` | ¿cuándo y por qué rutas se poblaron las Américas? |
 | 047 | `INV-MIND-TOOLS-FIRE-001` | herramientas, fuego y cooperación |
 | 048 | `INV-MIND-LANGUAGE-001` | ¿cuándo apareció lenguaje y qué huellas puede dejar? |
@@ -193,6 +193,7 @@ Después de disponer de la secuencia base:
 - `v0.1.41`: Investigación 042 + historia de la cuna única a poblaciones estructuradas + mapas de cinco productos y dos cadenas, actualizados con `cobraa` 2025, genomas meridionales y Amanzi Springs de 2026.
 - `v0.1.42`: Investigación 043 + historia de la salida única a dispersiones repetidas + mapas de presencia, expansión y descendencia, actualizados con Ranis/Zlatý kůň, hub persa y expansión de nicho africano.
 - `v0.1.43`: Investigación 044 + historia de la flecha a archivos incompatibles + mapas de cortafuegos y cronología multiarquivo, actualizados con Muna 2026, Laili, paleocorrientes y genómica indígena.
+- `v0.1.44`: Investigación 045 + historia de la sustitución lineal al mosaico regional + mapas de cadenas y cronología multiarquivo, actualizados con Bacho Kiro, Ranis, Mandrin, calendarios regionales y diversidad neandertal de 2026.
 - `v0.2`: Hadeano/Arcaico auditados.
 - `v0.3`: Proterozoico y origen/temprana evolución de la vida.
 - `v0.4`: Fanerozoico completo.
