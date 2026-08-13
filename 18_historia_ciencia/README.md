@@ -48,3 +48,4 @@ Historia de cómo se reconstruyó la historia: creencias previas, evidencia disr
 - [`HISTORIA_045_LLEGADA_EUROPA_COEXISTENCIA_NEANDERTALES.md`](HISTORIA_045_LLEGADA_EUROPA_COEXISTENCIA_NEANDERTALES.md): de la sustitución lineal a asociaciones locales, cronologías regionales y genealogías reticuladas que separan presencia, solapamiento y flujo.
 - [`HISTORIA_046_POBLAMIENTO_AMERICAS.md`](HISTORIA_046_POBLAMIENTO_AMERICAS.md): de Clovis-first a sitios pre-Clovis, corredores paleoambientales, genealogías con tiempo y procedencia/gobernanza indígena.
 - [`HISTORIA_047_HERRAMIENTAS_FUEGO_COOPERACION.md`](HISTORIA_047_HERRAMIENTAS_FUEGO_COOPERACION.md): de la herramienta-signo a cadenas de objeto, proceso, agente, fuego, transmisión y cooperación graduada.
+- [`HISTORIA_048_ORIGEN_LENGUAJE.md`](HISTORIA_048_ORIGEN_LENGUAJE.md): de un órgano o gen decisivo a un mosaico de capacidades biológicas, comparaciones delimitadas y emergencia cultural.

@@ -3898,6 +3898,78 @@ Este archivo es el índice canónico. La letra de confianza califica exactamente
 - **Complemento:** enseñanza/gesto/lenguaje mejoran transmisión bajo protocolos actuales.
 - **Decisión:** forma compatible con enseñanza no demuestra necesidad histórica ni fecha lenguaje.
 
+## Registro tabular de la Investigación 048
+
+| ID | Afirmación delimitada | Confianza | Estado | Evidencias principales | Investigación |
+|---|---|---|---|---|---|
+| `CLAIM-LANGUAGE-SCOPE-001` | Habla, lenguaje, comunicación, simbolismo y sus componentes no son sinónimos; cada resultado exige unidad y proxy explícitos. | A-SEM | AUDITADO | `EVID-LANGUAGE-METHOD-001` | `INV-MIND-LANGUAGE-001` |
+| `CLAIM-LANGUAGE-NO-SINGLE-DATE-001` | Ningún archivo disponible sincroniza producción, percepción, semántica, sintaxis, pragmática y transmisión; no hay fecha empírica única para el origen del lenguaje. | B para el límite; D para fecha única | AUDITADO | `EVID-LANGUAGE-METHOD-001`, `EVID-HYOID-LANGUAGE-001`, `EVID-FOXP2-CLINICAL-EVOLUTION-001`, `EVID-LANGUAGE-CULTURAL-TRANSMISSION-001` | `INV-MIND-LANGUAGE-001` |
+| `CLAIM-HYOID-SPEECH-CAPACITY-001` | Hioides de Sima `~430 ka` y Kebara `~60 ka` muestran morfología/biomecánica compatibles con producción vocal humana, sin fijar tejidos, habla o gramática. | B/B-COND | AUDITADO | `EVID-HYOID-LANGUAGE-001` | `INV-MIND-LANGUAGE-001` |
+| `CLAIM-NEANDERTHAL-HEARING-CAPACITY-001` | La transmisión auditiva modelada de neandertales es semejante a humanos actuales y compatible con comunicación vocal eficiente; no observa mensajes o comprensión lingüística. | B-COND | AUDITADO | `EVID-AUDITORY-LANGUAGE-001` | `INV-MIND-LANGUAGE-001` |
+| `CLAIM-BREATHING-PROXY-CONDITIONAL-001` | El canal vertebral torácico es un proxy discutido de inervación/control respiratorio; no fecha control cortical, habla o lenguaje. | C-COND | AUDITADO | `EVID-BREATHING-LANGUAGE-001` | `INV-MIND-LANGUAGE-001` |
+| `CLAIM-ENDOCAST-LANGUAGE-LIMIT-001` | Los endocastos restringen forma y organización superficial, pero no preservan citoarquitectura, conectividad, actividad, lateralización funcional o gramática. | A-SEM límite; C forma funcional | AUDITADO | `EVID-ENDOCAST-LANGUAGE-001` | `INV-MIND-LANGUAGE-001` |
+| `CLAIM-FOXP2-NOT-LANGUAGE-GENE-001` | `FOXP2` es un factor de transcripción pleiotrópico relevante para desarrollo sensorimotor y habla, no un gen suficiente o exclusivo del lenguaje. | A | AUDITADO | `EVID-FOXP2-CLINICAL-EVOLUTION-001`, `EVID-FOXP2-MODELS-001` | `INV-MIND-LANGUAGE-001` |
+| `CLAIM-FOXP2-SELECTION-REVISED-001` | Genomas poblacionalmente diversos no recuperan el barrido selectivo reciente de `FOXP2`; la cronología adaptativa original queda revisada. | B | AUDITADO | `EVID-FOXP2-SELECTION-001` | `INV-MIND-LANGUAGE-001` |
+| `CLAIM-INTROGRESSION-NOT-LANGUAGE-PACKAGE-001` | Compartir variantes de `FOXP2` con neandertales no demuestra introgresión ni transmisión de un paquete lingüístico; herencia ancestral y red funcional deben separarse. | A-SEM; D paquete | AUDITADO | `EVID-FOXP2-CLINICAL-EVOLUTION-001`, `EVID-FOXP2-SELECTION-001` | `INV-MIND-LANGUAGE-001` |
+| `CLAIM-REGULATORY-LANGUAGE-2026-LIMIT-001` | Regiones regulatorias antiguas se asocian con capacidad lingüística infantil actual, pero no observan fenotipo lingüístico de neandertales u otra población fósil. | B-COND actual; D fósil | AUDITADO | `EVID-LANGUAGE-REGULATION-2026-001` | `INV-MIND-LANGUAGE-001` |
+| `CLAIM-COMPARATIVE-MOSAIC-001` | Aprendizaje vocal, turnos, contextualidad y combinación aparecen por separado en aves, primates y cetáceos; son componentes comparables, no una escalera o ancestro directo. | B-COND | AUDITADO | `EVID-COMPARATIVE-TURNTAKING-001`, `EVID-COMPARATIVE-COMBINATORIALITY-001`, `EVID-FOXP2-MODELS-001` | `INV-MIND-LANGUAGE-001` |
+| `CLAIM-CULTURAL-TRANSMISSION-STRUCTURE-001` | Cadenas experimentales muestran que la transmisión iterada puede aumentar aprendibilidad y estructura sin diseñador central. | B | AUDITADO | `EVID-LANGUAGE-CULTURAL-TRANSMISSION-001` | `INV-MIND-LANGUAGE-001` |
+| `CLAIM-SIGN-LANGUAGE-SPEECH-SEPARATION-001` | Lenguas de señas emergentes documentan convenciones y organización gramatical sin habla, y cambios entre cohortes; no recrean el primer origen biológico. | B | AUDITADO | `EVID-SIGN-LANGUAGE-EMERGENCE-001` | `INV-MIND-LANGUAGE-001` |
+| `CLAIM-LANGUAGE-BIOLOGY-CULTURE-SCALES-001` | Capacidades biológicas profundas, emergencia de sistemas, transmisión y diversificación histórica operan en escalas distintas y no comparten un reloj automático. | A-SEM | AUDITADO | `EVID-LANGUAGE-METHOD-001`, `EVID-LANGUAGE-CULTURAL-TRANSMISSION-001`, `EVID-LANGUAGE-HISTORICAL-DEPTH-001` | `INV-MIND-LANGUAGE-001` |
+| `CLAIM-GLOTTOCHRONOLOGY-DEPTH-LIMIT-001` | Filogenias de familias pueden estimar divergencias de miles de años bajo supuestos; no identifican el origen profundo del lenguaje por extrapolación. | A-SEM límite; C-MOD fecha familiar | AUDITADO | `EVID-LANGUAGE-HISTORICAL-DEPTH-001` | `INV-MIND-LANGUAGE-001` |
+
+## Investigación 048 — Origen del lenguaje
+
+### CLAIM-LANGUAGE-SCOPE-001 / LANGUAGE-NO-SINGLE-DATE-001
+
+- **Componentes:** producción, audición, aprendizaje, semántica, combinación, pragmática, turnos, desplazamiento, productividad y transmisión.
+- **Archivos:** fósil, genético, comparado, experimental e histórico tienen resoluciones diferentes.
+- **Decisión:** una fecha única permanece no identificada; no se promedian proxies.
+
+### CLAIM-HYOID-SPEECH-CAPACITY-001 / NEANDERTHAL-HEARING-CAPACITY-001
+
+- **Sima:** hioides humanos en contexto revisado `~430 ka`.
+- **Kebara:** forma y microarquitectura semejantes a comparadores actuales `~60 ka`.
+- **Oído:** banda ocupada neandertal modelada semejante a *H. sapiens*.
+- **Límite:** compatibilidad anatómica no conserva voz, fonemas, semántica o gramática.
+
+### CLAIM-BREATHING-PROXY-CONDITIONAL-001 / ENDOCAST-LANGUAGE-LIMIT-001
+
+- **Canal torácico:** dimensión ósea → inervación → control respiratorio es una cadena condicionada.
+- **Endocasto:** superficie y asimetría no preservan citoarquitectura, tractos o actividad.
+- **Confianza:** C-COND para función parcial; D para lenguaje a partir de esos proxies.
+
+### CLAIM-FOXP2-NOT-LANGUAGE-GENE-001 / FOXP2-SELECTION-REVISED-001
+
+- **Clínica:** variantes patógenas afectan desarrollo motor del habla y otros dominios.
+- **Arcaicos:** dos sustituciones proteicas estaban en neandertales.
+- **Modelos:** ratón y pinzón aíslan circuitos/aprendizaje, no gramática.
+- **Revisión:** la señal de barrido reciente desaparece con muestreo poblacional más diverso.
+
+### CLAIM-INTROGRESSION-NOT-LANGUAGE-PACKAGE-001 / REGULATORY-LANGUAGE-2026-LIMIT-001
+
+- **Mecanismos:** herencia ancestral, flujo génico y convergencia no son sinónimos.
+- **2026:** asociación regulatoria actual restringe arquitectura antigua, no conducta fósil.
+- **No autorizado:** variante o región como paquete de fonología, léxico, pragmática y sintaxis.
+
+### CLAIM-COMPARATIVE-MOSAIC-001
+
+- **Observado:** copia vocal en aves, turnos de marmoseta, codas contextuales/combinatorias y combinaciones de bonobo.
+- **Regla:** comparar sólo el componente operacionalizado.
+- **Límite:** especie actual no es ancestro sustituto; suma de componentes no crea lenguaje completo.
+
+### CLAIM-CULTURAL-TRANSMISSION-STRUCTURE-001 / SIGN-LANGUAGE-SPEECH-SEPARATION-001
+
+- **Laboratorio:** la transmisión iterada puede regularizar y estructurar sistemas.
+- **Comunidades:** lenguas de señas emergentes muestran convención y gramática sin habla.
+- **Límite:** participantes tienen biología humana actual; no fechan el Paleolítico.
+
+### CLAIM-LANGUAGE-BIOLOGY-CULTURE-SCALES-001 / GLOTTOCHRONOLOGY-DEPTH-LIMIT-001
+
+- **Relojes:** edad fósil, genealogía de variante, generaciones de transmisión y divergencia familiar son distintos.
+- **Filogenia:** una raíz familiar modelada no es la primera lengua.
+- **Falsador:** estabilidad profunda bajo datos, calibraciones y modelos realmente independientes.
+
 ## Claims futuros
 
 Las entradas cronológicas todavía no auditadas permanecen como eventos `SEMILLA` en `TIMELINE.md`. Se convertirán en claims al llegar su turno en el roadmap; así se evita otorgar apariencia de auditoría a fechas usadas inicialmente solo como orientación.

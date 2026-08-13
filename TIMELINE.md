@@ -358,8 +358,23 @@ Las fechas de esta sección corresponden a capas, objetos o eventos térmicos co
 | `TIME-BARNHAM-IGNITION-001` | `~400 ka` | producción deliberada de fuego inferida | calor + bifaces térmicos + pirita rara transportada; chispa no observada | `SRC-DAVIS-BARNHAM-2026` | B-COND | AUDITADO |
 | `TIME-SCHONINGEN-001` | `~200 ka` revisado | armas y caza coordinada probable en Schöningen | aminoácidos/comparadores; episodios, taxón y roles condicionados | `SRC-HUTSON-SCHONINGEN-2025` | C/B-COND | AUDITADO |
 
+## VII. Capacidades y archivos relacionados con lenguaje
+
+Las edades de fósiles restringen anatomía u organización; las fechas de estudio y de familias lingüísticas usan otros relojes. Ninguna entrada fecha por sí sola el origen del lenguaje.
+
+| ID | Fecha/intervalo | Evento delimitado | Incertidumbre y evidencia | Fuente | Confianza | Estado |
+|---|---:|---|---|---|---|---|
+| `TIME-EARLY-HOMO-ENDOCAST-001` | `~1.9 Ma` | KNM-ER 3732 conserva patrón inferior frontal parecido al chimpancé | endocasto/sulcos; superficie no es citoarquitectura o lenguaje | `SRC-BEAUDET-BROCA-2023` | B forma; D lenguaje | AUDITADO |
+| `TIME-HOMO-BRAIN-REORG-001` | después de `~1.5 Ma` | organización frontal más derivada aparece en la muestra de *Homo* | endocastos y atlas; taxonomía, variación y función condicionadas | `SRC-PONCE-BRAIN-2021` | B-COND forma | AUDITADO |
+| `TIME-FOXP2-SHARED-001` | anterior a la separación sapiens–neandertal | dos sustituciones proteicas de `FOXP2` compartidas | ADN antiguo y comparativa; no fecha habla ni prueba introgresión | `SRC-KRAUSE-FOXP2-2007`, `SRC-ATKINSON-FOXP2-2018` | B estado; D conducta | AUDITADO |
+| `TIME-SIMA-HYOID-001` | `~430 ka` | dos hioides de morfología humana en Sima de los Huesos | huesos y cronología revisada; tejidos/conducta ausentes | `SRC-MARTINEZ-HYOID-2008`, `SRC-ARNOLD-SIMA-2014` | B | AUDITADO |
+| `TIME-KEBARA-HYOID-001` | `~60 ka` | hioides Kebara 2 de forma y microarquitectura semejantes a actuales | mismo espécimen para morfología/FEA; no voz o gramática | `SRC-ARENSBURG-HYOID-1989`, `SRC-DASTASIO-HYOID-2013` | B/B-COND | AUDITADO |
+| `TIME-INDOEUROPEAN-MODEL-001` | raíz `~8.1 ka` bajo modelo | divergencia estimada de la familia indoeuropea | cognados, ancestros muestreados y calibraciones; no origen del lenguaje | `SRC-HEGGARTY-INDOEUROPEAN-2023` | C-MOD | AUDITADO |
+| `TIME-NSL-EMERGENCE-001` | desde la década de 1970; estudio 2004 | cohortes de Lengua de Señas Nicaragüense sistematizan segmentación | historia comunitaria observada; no «prelenguaje» paleolítico | `SRC-SENGHAS-NSL-2004` | B | AUDITADO |
+| `TIME-LANGUAGE-REGULATION-2026-001` | estudio publicado 2026; regiones evolucionadas antes de la separación arcaica | asociación regulatoria con capacidades lingüísticas actuales | cohortes/ensayos; fecha de región no es fecha de conducta | `SRC-CASTEN-REGULATION-2026` | B-COND actual; D fósil | AUDITADO |
+
 ## Próxima acción cronológica
 
-Las investigaciones extensas auditadas llegan de `INV-EARTH-AGE-001` a `INV-MIND-TOOLS-FIRE-001`. El siguiente trabajo es `INV-MIND-LANGUAGE-001`: deberá separar anatomía, capacidad vocal/auditiva, señal convencional, transmisión, sintaxis y lenguaje sin convertir un proxy aislado en habla observada.
+Las investigaciones extensas auditadas llegan de `INV-EARTH-AGE-001` a `INV-MIND-LANGUAGE-001`. `INV-MIND-SYMBOL-001` permanece pendiente y no se inicia sin revisión, fusión y asignación formal posteriores.
 
 La línea temática `INV-CIV-ORIGINS-001` permanece separada en estado `TRAZADO`; organiza expedientes regionales, pero no cambia la próxima acción de la secuencia global.

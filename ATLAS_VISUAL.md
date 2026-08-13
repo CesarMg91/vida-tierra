@@ -663,6 +663,20 @@ El mapa separa objeto, proceso, agente, taxón y transmisión; y material calent
 
 Los carriles distinguen tecnología, archivo térmico y cooperación entre `3.3 Ma` y `0.2 Ma`. Cada marca fecha un expediente material; no representa el nacimiento universal de una capacidad ni una marcha evolutiva.
 
+## 49. Investigación 048 — Origen del lenguaje
+
+![Portada editorial de archivos anatómicos, acústicos, regulatorios y culturales separados](assets/visuales/hero-origen-lenguaje.png)
+
+> **Portada editorial:** presenta un hioides genérico aislado, moldes/endocastos no diagnósticos, módulos acústicos sin voz registrada y series abstractas de transmisión/red. Los compartimentos no son coetáneos ni proceden de un individuo o sitio; su cercanía no prueba habla, gramática, genoma lingüístico o progreso.
+
+![Mapa epistemológico de cuatro archivos y resultados parciales](assets/visuales/mapa-investigacion-048.svg)
+
+El mapa separa fósiles, genética, conducta comparada y transmisión. Las líneas continuas llegan sólo a capacidad parcial, red de desarrollo, componente comparable o mecanismo cultural; las discontinuas marcan voz, significado, sintaxis, lengua fósil y fecha única no conservados.
+
+![Cronología de cuatro relojes incompatibles](assets/visuales/cronologia-archivos-lenguaje.svg)
+
+Los paneles usan escalas independientes para fósiles, estados/estudios genéticos, observaciones actuales y lenguas históricas. Las marcas fechan objetos, publicaciones, cohortes o divergencias modeladas; ninguna representa el nacimiento del lenguaje.
+
 ## Procedencia
 
 El registro de creación, límites y prompt de cada pieza está en [`assets/visuales/README.md`](assets/visuales/README.md).
