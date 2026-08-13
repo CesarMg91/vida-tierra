@@ -1087,3 +1087,29 @@ Thorin local + diversidad NW → estructura → deterioro general: no
 La síntesis sustituye la escena de reemplazo por un mosaico de episodios, regiones y genealogías. Desaparición arqueológica y absorción genética parcial pueden coexistir; ninguna fuente asigna un mecanismo causal continental único.
 
 Véase `INV-MIGR-EUROPE-001` en `13_migraciones`, su mapa en `assets/visuales/mapa-investigacion-045.svg` y la cronología multiarquivo en `assets/visuales/cronologia-solapamientos-europa.svg`.
+
+### Investigación 046 — Poblamiento de las Américas
+
+```text
+huella/hueso/lítico + procedencia + reloj ─────> presencia local ─────────────┐
+sitios replicados + escala regional ───────────> expansión ───────────────────┤
+hielo/costa + exposición + paleoecología ──────> corredor compatible ─────────┤
+individuo antiguo + genoma + edad ─────────────> genealogía muestreada ───────┤
+genomas actuales + consentimiento + modelo ────> dispersiones posteriores ────┘
+                                                                                │
+                                                                                └─> no hay primera entrada o ruta automática
+```
+
+White Sands combina semillas, polen, OSL y geocronología paleolacustre para sostener presencia local `~23–21 ka`; no identifica población o ruta. Bluefish conserva una señal condicionada. Nipéhe/Cooper’s Ferry, Page-Ladson, Paisley, Friedkin y Gault forman anclas distintas entre `~16 y 14 ka`.
+
+```text
+costa por sectores ~17 ka → viable C → uso histórico abierto
+corredor completo 13.8 ± 0.5 ka → apertura B-COND → uso inicial D
+Clovis 13.05–12.75 ka → tecnocomplejo B → primera población: no
+USR1 11.5 ka → individuo/rama B-COND → fecha de entrada: no
+Monte Verde 14.5 vs 8.2–4.2 ka → cronología abierta → ruta: no
+```
+
+La fuente genómica de 2026 amplía diversidad y recupera al menos tres dispersiones hacia Sudamérica, pero sus cross-coalescence no fechan un sitio. Consentimiento, acuerdos comunitarios, acceso controlado y devolución de resultados son parte de la procedencia; comunidades actuales no funcionan como proxies sin tiempo.
+
+Véase `INV-MIGR-AMERICAS-001` en `13_migraciones`, su mapa en `assets/visuales/mapa-investigacion-046.svg` y la cronología multiarquivo en `assets/visuales/cronologia-archivos-americas.svg`.

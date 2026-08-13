@@ -1,0 +1,110 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Mapa epistemológico de la Investigación 046</title>
+  <desc id="desc">Diagrama de cinco filtros que separa objeto, asociación, reloj, escala y resultado. Las líneas discontinuas marcan saltos no autorizados hacia primera entrada, ruta usada o población.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#07131d"/>
+      <stop offset="1" stop-color="#111b26"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="8" stdDeviation="10" flood-color="#000" flood-opacity=".28"/>
+    </filter>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#6fc5c2"/>
+    </marker>
+    <marker id="warn" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#e2a95b"/>
+    </marker>
+    <style>
+      .t{font-family:Inter,Segoe UI,Arial,sans-serif;fill:#edf3f5}.muted{fill:#a9bac3}.small{font-size:18px}.body{font-size:21px}.label{font-size:16px;letter-spacing:1.8px;font-weight:700}.head{font-size:29px;font-weight:700}.title{font-size:42px;font-weight:750}.card{fill:#112532;stroke:#294657;stroke-width:2}.card2{fill:#172735;stroke:#526574;stroke-width:2}.ok{stroke:#6fc5c2;stroke-width:4;fill:none;marker-end:url(#arrow)}.jump{stroke:#e2a95b;stroke-width:3.5;stroke-dasharray:11 10;fill:none;marker-end:url(#warn)}
+    </style>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <circle cx="1450" cy="90" r="240" fill="#15313b" opacity=".26"/>
+  <circle cx="90" cy="850" r="280" fill="#4d321e" opacity=".18"/>
+
+  <text class="t title" x="80" y="76">De un objeto a una afirmación continental</text>
+  <text class="t muted body" x="80" y="112">Cinco filtros conservan qué se midió, dónde aplica y qué salto todavía requiere evidencia.</text>
+
+  <g filter="url(#shadow)">
+    <rect class="card" x="70" y="175" rx="20" width="265" height="300"/>
+    <text class="t label" x="96" y="211">1 · OBJETO</text>
+    <text class="t head" x="96" y="254">Archivo actual</text>
+    <text class="t body" x="96" y="301">huella · hueso</text>
+    <text class="t body" x="96" y="334">lítico · sedimento</text>
+    <text class="t body" x="96" y="367">resto · genoma</text>
+    <line x1="96" y1="395" x2="309" y2="395" stroke="#35576a"/>
+    <text class="t muted small" x="96" y="424">No contiene por sí solo</text>
+    <text class="t muted small" x="96" y="447">una migración.</text>
+
+    <rect class="card" x="370" y="175" rx="20" width="265" height="300"/>
+    <text class="t label" x="396" y="211">2 · ASOCIACIÓN</text>
+    <text class="t head" x="396" y="254">Procedencia</text>
+    <text class="t body" x="396" y="301">agencia humana</text>
+    <text class="t body" x="396" y="334">capa íntegra</text>
+    <text class="t body" x="396" y="367">objeto correcto</text>
+    <line x1="396" y1="395" x2="609" y2="395" stroke="#35576a"/>
+    <text class="t muted small" x="396" y="424">Fecha antigua sin agencia</text>
+    <text class="t muted small" x="396" y="447">no es ocupación.</text>
+
+    <rect class="card" x="670" y="175" rx="20" width="265" height="300"/>
+    <text class="t label" x="696" y="211">3 · RELOJ</text>
+    <text class="t head" x="696" y="254">Qué fecha</text>
+    <text class="t body" x="696" y="301">14C · OSL · U-series</text>
+    <text class="t body" x="696" y="334">10Be · estratigrafía</text>
+    <text class="t body" x="696" y="367">recombinación</text>
+    <line x1="696" y1="395" x2="909" y2="395" stroke="#35576a"/>
+    <text class="t muted small" x="696" y="424">Cada reloj conserva</text>
+    <text class="t muted small" x="696" y="447">su evento y modelo.</text>
+
+    <rect class="card" x="970" y="175" rx="20" width="265" height="300"/>
+    <text class="t label" x="996" y="211">4 · ESCALA</text>
+    <text class="t head" x="996" y="254">Dónde aplica</text>
+    <text class="t body" x="996" y="301">objeto · capa · sitio</text>
+    <text class="t body" x="996" y="334">región · corredor</text>
+    <text class="t body" x="996" y="367">continente · población</text>
+    <line x1="996" y1="395" x2="1209" y2="395" stroke="#35576a"/>
+    <text class="t muted small" x="996" y="424">Generalizar requiere</text>
+    <text class="t muted small" x="996" y="447">replicación y modelo.</text>
+
+    <rect class="card" x="1270" y="175" rx="20" width="265" height="300"/>
+    <text class="t label" x="1296" y="211">5 · RESULTADO</text>
+    <text class="t head" x="1296" y="254">Afirmación</text>
+    <text class="t body" x="1296" y="301">presencia local</text>
+    <text class="t body" x="1296" y="334">expansión</text>
+    <text class="t body" x="1296" y="367">corredor compatible</text>
+    <line x1="1296" y1="395" x2="1509" y2="395" stroke="#35576a"/>
+    <text class="t muted small" x="1296" y="424">Confianza y falsador</text>
+    <text class="t muted small" x="1296" y="447">quedan explícitos.</text>
+  </g>
+
+  <path class="ok" d="M335 312 H358"/>
+  <path class="ok" d="M635 312 H658"/>
+  <path class="ok" d="M935 312 H958"/>
+  <path class="ok" d="M1235 312 H1258"/>
+
+  <rect class="card2" x="70" y="520" rx="18" width="445" height="130"/>
+  <text class="t label" x="96" y="554">SALIDA VÁLIDA</text>
+  <text class="t head" x="96" y="594">Presencia local</text>
+  <text class="t muted small" x="96" y="625">objeto humano + contexto + edad</text>
+
+  <rect class="card2" x="577" y="520" rx="18" width="445" height="130"/>
+  <text class="t label" x="603" y="554">SALIDA VÁLIDA</text>
+  <text class="t head" x="603" y="594">Corredor compatible</text>
+  <text class="t muted small" x="603" y="625">apertura + biota + continuidad ambiental</text>
+
+  <rect class="card2" x="1084" y="520" rx="18" width="445" height="130"/>
+  <text class="t label" x="1110" y="554">SALIDA VÁLIDA</text>
+  <text class="t head" x="1110" y="594">Historia genealógica</text>
+  <text class="t muted small" x="1110" y="625">individuos + variantes + modelo</text>
+
+  <path class="jump" d="M292 650 C292 715 400 720 480 760"/>
+  <path class="jump" d="M800 650 V760"/>
+  <path class="jump" d="M1307 650 C1307 715 1200 720 1120 760"/>
+
+  <rect x="365" y="748" width="870" height="92" rx="20" fill="#2d241c" stroke="#a8763d" stroke-width="2"/>
+  <text class="t label" x="405" y="781" fill="#f2c37d">PUENTE AÚN NO AUTORIZADO</text>
+  <text class="t head" x="405" y="819">primera entrada · ruta usada · población única</text>
+
+  <text class="t muted small" x="80" y="875">Línea continua: operación sustentada · Línea discontinua: exige evidencia independiente.</text>
+</svg>

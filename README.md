@@ -88,6 +88,7 @@ La fase fundacional contiene:
 - la cuadragésima tercera investigación: [`¿Cuántas salidas de África hubo y cuáles dejaron descendencia?`](13_migraciones/INVESTIGACION_043_SALIDAS_AFRICA_DESCENDENCIA.md);
 - la cuadragésima cuarta investigación: [`¿Cómo se poblaron Asia y Sahul sin convertir sitios, rutas y genomas en una sola historia?`](13_migraciones/INVESTIGACION_044_POBLAMIENTO_ASIA_SAHUL.md);
 - la cuadragésima quinta investigación: [`¿Cuándo llegó Homo sapiens a Europa y qué significa «coexistir» con neandertales?`](13_migraciones/INVESTIGACION_045_LLEGADA_EUROPA_COEXISTENCIA_NEANDERTALES.md);
+- la cuadragésima sexta investigación: [`¿Cuándo y por qué rutas se poblaron las Américas?`](13_migraciones/INVESTIGACION_046_POBLAMIENTO_AMERICAS.md);
 - un [`ATLAS_VISUAL.md`](ATLAS_VISUAL.md) con procedencia y límites explícitos.
 
 “Preliminar” significa que la cronología organiza el programa de trabajo; no convierte automáticamente cada fecha en una conclusión cerrada. Los estados de auditoría muestran qué ha sido investigado en profundidad y qué sigue pendiente.

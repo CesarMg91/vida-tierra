@@ -635,6 +635,20 @@ El mapa conduce por objeto, procedencia, medición, asociación y escala. Las l�
 
 Los carriles separan restos/taxón, tecnocomplejos, últimas apariciones neandertales y genética. Las posiciones son aproximadas y ninguna intersección representa cohabitación observada.
 
+## 47. Investigación 046 — Poblamiento de las Américas
+
+![Portada editorial de archivos estratigráficos, arqueológicos, ambientales y genómicos](assets/visuales/hero-poblamiento-americas.png)
+
+> **Portada editorial:** separa un bloque estratigráfico sin huellas, objetos genéricos, un relieve mineral y módulos moleculares. El relieve es compuesto y no georreferenciado: no reproduce Beringia, una paleocosta, el corredor interior o ruta alguna; la disposición de bandejas no favorece costa, interior o mezcla.
+
+![Mapa epistemológico de cinco filtros](assets/visuales/mapa-investigacion-046.svg)
+
+El mapa conduce por objeto, asociación, reloj, escala y resultado. Las líneas discontinuas impiden convertir presencia en primera entrada, viabilidad en trayecto o genealogía en coordenada.
+
+![Cronología multiarquivo de las Américas entre 30 y 10 ka](assets/visuales/cronologia-archivos-americas.svg)
+
+Los carriles separan sitios, ambiente, tecnología y genomas. White Sands es presencia local; las aperturas son ambientales; Clovis es tecnocomplejo; Monte Verde se conserva como controversia y no se promedian sus cronologías.
+
 ## Procedencia
 
 El registro de creación, límites y prompt de cada pieza está en [`assets/visuales/README.md`](assets/visuales/README.md).

@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Cronología multiarquivo del poblamiento de las Américas</title>
+  <desc id="desc">Cronología conceptual entre 30 y 10 mil años antes del presente con carriles separados para sitios, ambiente, tecnocomplejos y genomas. Monte Verde se representa como controversia y ninguna barra indica una ruta.</desc>
+  <defs>
+    <linearGradient id="bg2" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#07121c"/>
+      <stop offset="1" stop-color="#111d28"/>
+    </linearGradient>
+    <pattern id="hatch" width="10" height="10" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="10" height="10" fill="#57412e"/>
+      <line x1="0" y1="0" x2="0" y2="10" stroke="#d6a15c" stroke-width="4" opacity=".7"/>
+    </pattern>
+    <style>
+      .t{font-family:Inter,Segoe UI,Arial,sans-serif;fill:#edf3f5}.muted{fill:#a9bac3}.axis{stroke:#6e8390;stroke-width:2}.grid{stroke:#27404f;stroke-width:1.5}.title{font-size:40px;font-weight:750}.head{font-size:23px;font-weight:700}.body{font-size:18px}.small{font-size:15px}.lane{fill:#0e202c;stroke:#274657;stroke-width:1.5}.strong{fill:#5bb7b3}.cond{fill:#d2a15e}.model{fill:#718aa8}.tech{fill:#9d79b8}.open{fill:url(#hatch);stroke:#e0ad66;stroke-width:2}
+    </style>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg2)"/>
+  <text class="t title" x="70" y="65">Cronología multiarquivo · 30–10 ka</text>
+  <text class="t muted body" x="70" y="101">Posiciones aproximadas; edad de sitio, ambiente, tecnocomplejo y genoma no son el mismo reloj.</text>
+
+  <!-- plot: x=300 at 30 ka, x=1450 at 10 ka; 57.5 px/ka -->
+  <line class="axis" x1="300" y1="150" x2="1450" y2="150"/>
+  <g class="t body" text-anchor="middle">
+    <text x="300" y="136">30 ka</text><text x="587.5" y="136">25</text><text x="875" y="136">20</text><text x="1162.5" y="136">15</text><text x="1450" y="136">10</text>
+  </g>
+  <g class="grid">
+    <line x1="300" y1="150" x2="300" y2="760"/><line x1="587.5" y1="150" x2="587.5" y2="760"/><line x1="875" y1="150" x2="875" y2="760"/><line x1="1162.5" y1="150" x2="1162.5" y2="760"/><line x1="1450" y1="150" x2="1450" y2="760"/>
+  </g>
+
+  <rect class="lane" x="275" y="180" width="1200" height="155" rx="18"/>
+  <text class="t head" x="70" y="224">SITIOS / PRESENCIA</text>
+  <text class="t muted small" x="70" y="251">agencia + contexto + reloj</text>
+  <rect class="cond" x="627" y="205" width="80" height="32" rx="9"/><text class="t small" x="637" y="226">Bluefish ~24</text>
+  <rect class="strong" x="703" y="252" width="120" height="34" rx="9"/><text class="t small" x="713" y="274">White Sands 23–21</text>
+  <rect class="cond" x="1096" y="205" width="78" height="32" rx="9"/><text class="t small" x="1106" y="226">Nipéhe ~16</text>
+  <rect class="strong" x="1125" y="252" width="170" height="34" rx="9"/><text class="t small" x="1135" y="274">anclas ~15.8–14.2</text>
+  <rect class="open" x="300" y="298" width="85" height="24" rx="7"/><text class="t small" x="397" y="315">Chiquihuite 33–31, fuera de eje / disputado</text>
+
+  <rect class="lane" x="275" y="355" width="1200" height="130" rx="18"/>
+  <text class="t head" x="70" y="398">AMBIENTE</text>
+  <text class="t muted small" x="70" y="425">viabilidad, no uso humano</text>
+  <rect class="model" x="875" y="385" width="175" height="32" rx="9"/><text class="t small" x="886" y="406">costa: sectores ~20–17</text>
+  <rect class="model" x="1214" y="430" width="45" height="32" rx="9"/><text class="t small" x="1270" y="451">corredor completo 13.8 ± 0.5</text>
+
+  <rect class="lane" x="275" y="505" width="1200" height="105" rx="18"/>
+  <text class="t head" x="70" y="548">TECNOLOGÍA</text>
+  <text class="t muted small" x="70" y="575">no equivale a población</text>
+  <rect class="tech" x="1270" y="541" width="18" height="34" rx="7"/>
+  <text class="t small" x="1300" y="563">Clovis 13.05–12.75 ka</text>
+
+  <rect class="lane" x="275" y="630" width="1200" height="130" rx="18"/>
+  <text class="t head" x="70" y="673">GENOMAS</text>
+  <text class="t muted small" x="70" y="700">ramas/modelos, no entrada</text>
+  <rect class="model" x="760" y="660" width="225" height="32" rx="9"/><text class="t small" x="771" y="681">Ancient Beringian split ~22–18.1</text>
+  <rect class="model" x="1019" y="707" width="167" height="32" rx="9"/><text class="t small" x="1029" y="728">NNA/SNA ~17.5–14.6</text>
+  <circle cx="1364" cy="676" r="14" fill="#6fc5c2"/><text class="t small" x="1388" y="682">USR1, cuerpo ~11.5 ka</text>
+
+  <rect x="70" y="785" width="980" height="82" rx="18" fill="#172633" stroke="#3b596a" stroke-width="2"/>
+  <text class="t head" x="96" y="819">Monte Verde: expediente cronológico abierto</text>
+  <text class="t body" x="96" y="850">contexto clásico ~14.5 ka ↔ redatación 2026: 8.2–4.2 ka (fuera del eje) · no se promedian</text>
+
+  <rect x="1080" y="785" width="395" height="82" rx="18" fill="#2d241c" stroke="#a8763d" stroke-width="2"/>
+  <text class="t head" x="1106" y="819">Lectura prohibida</text>
+  <text class="t body" x="1106" y="850">barra solapada ≠ ruta o contacto</text>
+
+  <g transform="translate(1180 62)">
+    <rect class="strong" width="22" height="14" rx="3"/><text class="t small" x="30" y="13">presencia fuerte</text>
+    <rect class="cond" x="0" y="26" width="22" height="14" rx="3"/><text class="t small" x="30" y="39">condicionada</text>
+    <rect class="model" x="150" width="22" height="14" rx="3"/><text class="t small" x="180" y="13">modelo/ambiente</text>
+    <rect class="open" x="150" y="26" width="22" height="14" rx="3"/><text class="t small" x="180" y="39">controversia</text>
+  </g>
+</svg>
