@@ -649,6 +649,20 @@ El mapa conduce por objeto, asociación, reloj, escala y resultado. Las líneas 
 
 Los carriles separan sitios, ambiente, tecnología y genomas. White Sands es presencia local; las aperturas son ambientales; Clovis es tecnocomplejo; Monte Verde se conserva como controversia y no se promedian sus cronologías.
 
+## 48. Investigación 047 — Herramientas, fuego y cooperación
+
+![Portada editorial de archivos líticos, térmicos y espaciales separados](assets/visuales/hero-herramientas-fuego-cooperacion.png)
+
+> **Portada editorial:** distribuye núcleos, lascas, un bloque sedimentario térmico, muestras y grupos abstractos de remontaje en compartimentos no coetáneos. No reproduce un sitio, hogar, fabricante o acto cooperativo; la zona rojiza no es llama ni prueba de ignición.
+
+![Mapa epistemológico de objetos, fuego e inferencias sociales](assets/visuales/mapa-investigacion-047.svg)
+
+El mapa separa objeto, proceso, agente, taxón y transmisión; y material calentado, combustión, control, recurrencia e ignición. Las líneas discontinuas señalan los saltos que exigen evidencia independiente.
+
+![Cronología multiarquivo de tecnología, fuego y cooperación](assets/visuales/cronologia-archivos-tecnologia-fuego.svg)
+
+Los carriles distinguen tecnología, archivo térmico y cooperación entre `3.3 Ma` y `0.2 Ma`. Cada marca fecha un expediente material; no representa el nacimiento universal de una capacidad ni una marcha evolutiva.
+
 ## Procedencia
 
 El registro de creación, límites y prompt de cada pieza está en [`assets/visuales/README.md`](assets/visuales/README.md).
