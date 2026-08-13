@@ -1,0 +1,116 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1120" viewBox="0 0 1600 1120" role="img" aria-labelledby="title desc">
+  <title id="title">Mapa de evidencia de la formación del Sistema Solar</title>
+  <desc id="desc">Cinco rutas conectan señales actuales con magnitudes calibradas, puentes físicos y afirmaciones delimitadas. Una franja inferior separa inferencias robustas de causas todavía abiertas.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#07111f"/>
+      <stop offset="0.55" stop-color="#0d1d2d"/>
+      <stop offset="1" stop-color="#151726"/>
+    </linearGradient>
+    <linearGradient id="head" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#18364b"/>
+      <stop offset="1" stop-color="#272847"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="8" stdDeviation="10" flood-color="#000" flood-opacity="0.28"/>
+    </filter>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto">
+      <path d="M0,0 L10,5 L0,10 Z" fill="#6e93a8"/>
+    </marker>
+    <style>
+      .sans{font-family:Inter,"Segoe UI",Arial,sans-serif}.title{font-size:42px;font-weight:700;fill:#f5f0e7}.subtitle{font-size:20px;fill:#aebdca}.col{font-size:19px;font-weight:700;letter-spacing:1.6px;fill:#d8e5ec}.lane{font-size:22px;font-weight:700;fill:#f5f0e7}.body{font-size:18px;fill:#d3dde4}.small{font-size:16px;fill:#aebdca}.tag{font-size:15px;font-weight:700;fill:#08131e}.open{font-size:18px;font-weight:700;fill:#f3cf86}.robust{font-size:18px;font-weight:700;fill:#a7e3ca}
+    </style>
+  </defs>
+  <rect width="1600" height="1120" fill="url(#bg)"/>
+  <circle cx="1450" cy="120" r="240" fill="#c88655" opacity="0.05"/>
+  <circle cx="100" cy="1030" r="300" fill="#4ea5ad" opacity="0.04"/>
+
+  <g class="sans">
+    <text x="90" y="78" class="title">¿Cómo inferimos un disco solar que ya no existe?</text>
+    <text x="90" y="112" class="subtitle">Señal → magnitud calibrada → puente físico → claim; ninguna flecha es una observación directa del pasado.</text>
+
+    <rect x="70" y="150" width="1460" height="62" rx="16" fill="url(#head)"/>
+    <text x="105" y="189" class="col">SEÑAL ACTUAL</text>
+    <text x="445" y="189" class="col">MAGNITUD CALIBRADA</text>
+    <text x="825" y="189" class="col">PUENTE</text>
+    <text x="1190" y="189" class="col">CLAIM DELIMITADO</text>
+
+    <!-- lane 1 -->
+    <g filter="url(#shadow)">
+      <rect x="70" y="235" width="1460" height="135" rx="20" fill="#122636" stroke="#2e5367"/>
+      <rect x="88" y="257" width="285" height="91" rx="14" fill="#17384b"/>
+      <rect x="402" y="257" width="330" height="91" rx="14" fill="#173140"/>
+      <rect x="780" y="257" width="330" height="91" rx="14" fill="#242d3d"/>
+      <rect x="1158" y="257" width="348" height="91" rx="14" fill="#203342"/>
+    </g>
+    <text x="105" y="288" class="lane">Discos jóvenes</text><text x="105" y="317" class="body">visibilidades + líneas</text><text x="105" y="340" class="small">ALMA / cúmulos</text>
+    <text x="420" y="288" class="body">brillo, radio, contraste,</text><text x="420" y="315" class="body">velocidad Doppler y fracción</text><text x="420" y="340" class="small">temperatura y opacidad condicionan</text>
+    <text x="800" y="288" class="body">interferometría + transferencia</text><text x="800" y="315" class="body">radiativa + dinámica orbital</text><text x="800" y="340" class="small">análogos físicos, no genealogía</text>
+    <text x="1178" y="288" class="robust">Discos estructurados: A</text><text x="1178" y="317" class="body">causa planetaria individual: C</text><text x="1178" y="340" class="small">CLAIM-SOLAR-DISK / SUBSTRUCTURE</text>
+
+    <!-- lane 2 -->
+    <g filter="url(#shadow)">
+      <rect x="70" y="390" width="1460" height="135" rx="20" fill="#1e262e" stroke="#675747"/>
+      <rect x="88" y="412" width="285" height="91" rx="14" fill="#3b3128"/>
+      <rect x="402" y="412" width="330" height="91" rx="14" fill="#352f2b"/>
+      <rect x="780" y="412" width="330" height="91" rx="14" fill="#302f35"/>
+      <rect x="1158" y="412" width="348" height="91" rx="14" fill="#38332d"/>
+    </g>
+    <text x="105" y="443" class="lane">CAIs + cóndrulos</text><text x="105" y="472" class="body">U, Pb y minerales</text><text x="105" y="495" class="small">archivo material local</text>
+    <text x="420" y="443" class="body">4567.30 ± 0.16 Ma</text><text x="420" y="470" class="body">+ episodios hasta ~3 Ma</text><text x="420" y="495" class="small">edades de objetos analizados</text>
+    <text x="800" y="443" class="body">decaimiento Pb–Pb + cierre</text><text x="800" y="470" class="body">+ significado del evento</text><text x="800" y="495" class="small">tiempo cero operacional</text>
+    <text x="1178" y="443" class="robust">Cronología temprana: B</text><text x="1178" y="472" class="body">no “cumpleaños” instantáneo</text><text x="1178" y="495" class="small">CLAIM-SOLAR-AGE / CHRONOLOGY</text>
+
+    <!-- lane 3 -->
+    <g filter="url(#shadow)">
+      <rect x="70" y="545" width="1460" height="135" rx="20" fill="#202734" stroke="#625b7d"/>
+      <rect x="88" y="567" width="285" height="91" rx="14" fill="#312f4a"/>
+      <rect x="402" y="567" width="330" height="91" rx="14" fill="#2b3047"/>
+      <rect x="780" y="567" width="330" height="91" rx="14" fill="#2d2c42"/>
+      <rect x="1158" y="567" width="348" height="91" rx="14" fill="#302f48"/>
+    </g>
+    <text x="105" y="598" class="lane">26Al + CC/NC</text><text x="105" y="627" class="body">Mg*, Mo, W, O, Ti, Cr</text><text x="105" y="650" class="small">razones y agrupaciones</text>
+    <text x="420" y="598" class="body">isócrona fósil + reservorios</text><text x="420" y="625" class="body">persistentes durante varios Ma</text><text x="420" y="650" class="small">muestras y tiempo cero compartidos</text>
+    <text x="800" y="598" class="body">decaimiento extinto + mezcla</text><text x="800" y="625" class="body">incompleta + modelos de barrera</text><text x="800" y="650" class="small">Júpiter es inferencia causal</text>
+    <text x="1178" y="598" class="robust">26Al presente: A</text><text x="1178" y="627" class="body">CC/NC: A; causa joviana: C</text><text x="1178" y="650" class="small">RADIONUCLIDE / RESERVOIRS</text>
+
+    <!-- lane 4 -->
+    <g filter="url(#shadow)">
+      <rect x="70" y="700" width="1460" height="135" rx="20" fill="#152c2e" stroke="#3a6967"/>
+      <rect x="88" y="722" width="285" height="91" rx="14" fill="#1b4240"/>
+      <rect x="402" y="722" width="330" height="91" rx="14" fill="#203b3b"/>
+      <rect x="780" y="722" width="330" height="91" rx="14" fill="#27363b"/>
+      <rect x="1158" y="722" width="348" height="91" rx="14" fill="#203d3b"/>
+    </g>
+    <text x="105" y="753" class="lane">Wild 2 + remanencia</text><text x="105" y="782" class="body">grano refractario + campo</text><text x="105" y="805" class="small">Stardust / magnetometría</text>
+    <text x="420" y="753" class="body">mineral de alta T en cometa</text><text x="420" y="780" class="body">+ paleointensidad 54 ± 21 μT</text><text x="420" y="805" class="small">trayectoria y fidelidad no directas</text>
+    <text x="800" y="753" class="body">condensación + reubicación</text><text x="800" y="780" class="body">+ adquisición de remanencia</text><text x="800" y="805" class="small">movilidad y campo en el disco</text>
+    <text x="1178" y="753" class="robust">Transporte: B</text><text x="1178" y="782" class="body">campo nebular: B-COND</text><text x="1178" y="805" class="small">TRANSPORT / MAGNETIC</text>
+
+    <!-- lane 5 -->
+    <g filter="url(#shadow)">
+      <rect x="70" y="855" width="1460" height="135" rx="20" fill="#272426" stroke="#75564c"/>
+      <rect x="88" y="877" width="285" height="91" rx="14" fill="#49352f"/>
+      <rect x="402" y="877" width="330" height="91" rx="14" fill="#403431"/>
+      <rect x="780" y="877" width="330" height="91" rx="14" fill="#383437"/>
+      <rect x="1158" y="877" width="348" height="91" rx="14" fill="#40332f"/>
+    </g>
+    <text x="105" y="908" class="lane">Polvo + meteoritos</text><text x="105" y="937" class="body">colisiones, Hf–W</text><text x="105" y="960" class="small">laboratorio / cómputo / muestra</text>
+    <text x="420" y="908" class="body">adhesión ↔ fragmentación</text><text x="420" y="935" class="body">+ diferenciación muy temprana</text><text x="420" y="960" class="small">la deriva limita crecimiento</text>
+    <text x="800" y="908" class="body">arrastre + retroacción</text><text x="800" y="935" class="body">+ autogravedad + reloj Hf–W</text><text x="800" y="960" class="small">simulación no es genealogía</text>
+    <text x="1178" y="908" class="robust">Cuerpos tempranos: B</text><text x="1178" y="937" class="body">mecanismo único: D</text><text x="1178" y="960" class="small">PLANETESIMAL / GROWTH</text>
+
+    <path d="M374 302 H395" stroke="#6e93a8" stroke-width="2" marker-end="url(#arrow)"/>
+    <path d="M733 302 H773" stroke="#6e93a8" stroke-width="2" marker-end="url(#arrow)"/>
+    <path d="M1111 302 H1151" stroke="#6e93a8" stroke-width="2" marker-end="url(#arrow)"/>
+    <path d="M374 457 H395 M733 457 H773 M1111 457 H1151" stroke="#6e93a8" stroke-width="2" marker-end="url(#arrow)"/>
+    <path d="M374 612 H395 M733 612 H773 M1111 612 H1151" stroke="#6e93a8" stroke-width="2" marker-end="url(#arrow)"/>
+    <path d="M374 767 H395 M733 767 H773 M1111 767 H1151" stroke="#6e93a8" stroke-width="2" marker-end="url(#arrow)"/>
+    <path d="M374 922 H395 M733 922 H773 M1111 922 H1151" stroke="#6e93a8" stroke-width="2" marker-end="url(#arrow)"/>
+
+    <rect x="70" y="1015" width="940" height="66" rx="16" fill="#14372f" stroke="#3d826d"/>
+    <text x="95" y="1043" class="robust">ROBUSTO</text><text x="218" y="1043" class="body">existió un disco; procesó y transportó sólidos;</text><text x="218" y="1068" class="body">reservorios persistieron y planetesimales aparecieron pronto.</text>
+    <rect x="1030" y="1015" width="500" height="66" rx="16" fill="#3c3024" stroke="#8d6d42"/>
+    <text x="1055" y="1043" class="open">ABIERTO</text><text x="1160" y="1043" class="body">masa, radio, barrera, transporte</text><text x="1160" y="1068" class="body">y mecanismo planetesimal exactos.</text>
+  </g>
+</svg>

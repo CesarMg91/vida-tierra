@@ -18,6 +18,11 @@ Una controversia no implica empate. Registra qué parte está realmente abierta,
 | `CONT-STARS-MASSLOSS-001` | Pérdida de masa y estrellas que explotan | vientos y episodios dependientes de fase/metallicidad dentro de modelos evolutivos | clumping, binariedad o erupciones cambian masa final y pueden ocultar/fallar explosiones | abierta | B para existencia; C-D para historia individual |
 | `CONT-STARS-BINARY-001` | Estrella aislada frente a evolución interactuante | tracks aislados como base, síntesis binaria para población real | una fracción mayor/menor de interacción cambia supernovas y remanentes | abierta en pesos, no en relevancia | A para relevancia; C para fracciones por ambiente |
 | `CONT-STARS-REMNANT-001` | Mapa masa inicial → remanente | masa del núcleo y pérdida predicen distribuciones WD/NS/BH | rotación, compañera, fallback y mecanismo de explosión rompen umbrales rígidos | abierta y probabilística | B para clases; C-D para frontera individual |
+| `CONT-SOLAR-GAPS-001` | ¿Un hueco contiene un planeta? | interacción planeta–disco explica algunas morfologías/cinemática | hielo, MHD, presión, opacidad o fotoevaporación | abierta caso por caso | A para hueco; C para causa sin diagnóstico adicional |
+| `CONT-SOLAR-AL26-001` | Fuente y distribución de `26Al` | incorporación temprana de material estelar con mezcla amplia | inyección heterogénea, producción local o reservorios pobres/ricos | abierta | A para presencia; D para fuente exacta |
+| `CONT-SOLAR-JUPITER-001` | ¿Júpiter separó CC y NC? | núcleo joviano temprano como barrera de deriva | máximos de presión no jovianos o zonación temporal | abierta y modelada | A para dicotomía; C para causa joviana |
+| `CONT-SOLAR-PLANETESIMAL-001` | ¿Cómo se formaron los primeros planetesimales? | concentración colectiva + colapso bajo condiciones favorables | crecimiento poroso, trampas, inestabilidad gravitatoria u oleadas mixtas | abierta | B para mecanismos viables; D para dominancia histórica |
+| `CONT-SOLAR-MIXING-001` | Transporte radial frente a reservorios persistentes | mezcla turbulenta/vientos con barreras parciales | transporte por cuerpos/chorros o zonación temporal | abierta en mecanismo/caudal | A para reubicación; C-D para proceso |
 | `CONT-EARTH-AGE-001` | ¿Qué significa “edad de la Tierra”? | valor operacional ~4.54 Ga ligado a formación/acreción temprana | usar hitos separados: CAIs, masa acumulada, núcleo, Luna, corteza | abierta por definición, no por orden de magnitud | B |
 | `CONT-EARTH-UPB-001` | ¿Qué tan independientes son las edades radiométricas? | convergencia de múltiples minerales/sistemas | dependencia común de calibraciones, contexto y modelos | parcialmente resuelta | B |
 | `CONT-MOON-AGE-001` | Momento del impacto formador de la Luna | temprano, en primeras decenas de Ma | impacto o reequilibrio más tardío; zircones fechan corteza, no colisión | abierta | C |
@@ -253,3 +258,51 @@ Influyen:
 **Alternativa fuerte:** “islas” de explodibilidad y rutas binarias pueden hacer no monótona la relación entre masa inicial y resultado. Dos estrellas con masas iniciales cercanas pueden acabar en remanentes distintos.
 
 **Prueba discriminatoria:** progenitores confirmados por desaparición, censos de supernovas fallidas, masas de remanentes, asterosismología de núcleos y modelos que predigan simultáneamente explosión, nucleosíntesis y población compacta.
+
+## CONT-SOLAR-GAPS-001 — La morfología no nombra al escultor
+
+DSHARP demuestra que anillos y huecos son comunes en su muestra seleccionada. Un planeta puede abrir una depresión y crear máximos de presión, pero el continuo milimétrico combina densidad, temperatura, opacidad y tamaños de grano.
+
+**Explicación planetaria:** simulaciones hidrodinámicas producen huecos, bordes y perturbaciones cinemáticas; un objeto independiente o una desviación localizada del flujo refuerza el caso.
+
+**Alternativas fuertes:** líneas de hielo, zonación de crecimiento, vórtices, inestabilidades MHD, auto-gravedad, sombras y fotoevaporación.
+
+**Prueba discriminatoria:** combinar continuo multibanda, líneas de gas ópticamente distintas, temperatura, cinemática de alta resolución y búsqueda directa. La forma sola no decide.
+
+## CONT-SOLAR-AL26-001 — Un radionúclido presente, una procedencia abierta
+
+La isócrona fósil hace robusta la presencia de `26Al` en ciertas CAIs. El desacuerdo se sitúa antes y alrededor de esa incorporación.
+
+- **Inyección externa:** vientos de estrella masiva o supernova enriquecen la nube/disco.
+- **Producción local o combinada:** irradiación energética aporta una fracción y el material se mezcla de forma no uniforme.
+- **Heterogeneidad primordial:** reservorios diferentes reciben inventarios distintos, alterando cronología relativa y calentamiento.
+
+**Prueba discriminatoria:** cronología absoluta Pb–Pb y múltiples cronómetros extintos en fases co-genéticas, mapeo por reservorio y modelos que reproduzcan simultáneamente `26Al`, otros radionúclidos y probabilidades ambientales.
+
+## CONT-SOLAR-JUPITER-001 — La barrera no está dentro del meteorito
+
+La agrupación CC/NC y su persistencia temporal son datos. Kruijer et al. interpretaron que un Júpiter temprano impidió deriva de sólidos entre reservorios.
+
+**Modelo dominante en esta familia:** un núcleo joviano crece pronto, abre o modifica el flujo y mantiene separación durante la vida del gas.
+
+**Alternativas fuertes:** máximos de presión por dinámica del disco, frentes temporales de formación planetesimal o muestreo radial/temporal sin una barrera planetaria única.
+
+**Prueba discriminatoria:** modelos predictivos que reproduzcan edades de cuerpos, patrones multielementales, transporte de refractarios y arquitectura final sin ajustar la barrera después del dato.
+
+## CONT-SOLAR-PLANETESIMAL-001 — Del agregado al cuerpo gravitante
+
+Laboratorio y dinámica muestran barreras de rebote, fragmentación y deriva. La inestabilidad de flujo concentra sólidos y simulaciones con autogravedad forman cúmulos, pero las condiciones de umbral dependen de tamaño, abundancia, turbulencia y presión.
+
+**Familia colectiva:** guijarros se concentran en filamentos o trampas y colapsan gravitacionalmente.
+
+**Familia incremental/mixta:** porosidad, hielo, transferencia de masa y trampas permiten crecer semillas que luego alimentan concentración o acreción.
+
+**Prueba discriminatoria:** distribuciones de tamaños, binariedad/rotación de cuerpos pequeños, cronología por reservorio y observaciones de concentración en discos que una misma simulación prediga antes de calibrar.
+
+## CONT-SOLAR-MIXING-001 — Mucho transporte, no una licuadora
+
+Wild 2 contiene material refractario de alta temperatura lejos de su región de formación esperable. CC/NC conserva separación isotópica. La solución debe permitir movilidad selectiva y barreras parciales.
+
+**Mecanismos rivales:** difusión turbulenta, flujos meridionales, vientos magnetizados, outflows con retorno, movimiento de cuerpos o evolución de máximos de presión.
+
+**Prueba discriminatoria:** abundancias y edades de refractarios a distintas distancias/cometas, mapas químicos de discos y modelos acoplados que predigan tanto el transporte como la supervivencia de reservorios.

@@ -6,3 +6,4 @@ Grafos de dependencias entre objetos, mediciones, principios, modelos, claims y 
 - [`MAPA_002_EDAD_UNIVERSO.md`](MAPA_002_EDAD_UNIVERSO.md): expansión, CMB, BBN, `H(z)` y borde epistemológico.
 - [`MAPA_003_ORIGEN_ELEMENTOS.md`](MAPA_003_ORIGEN_ELEMENTOS.md): líneas, reacciones, neutrinos, transitorios, granos y presupuestos isotópicos.
 - [`MAPA_004_EVOLUCION_ESTELAR.md`](MAPA_004_EVOLUCION_ESTELAR.md): paralaje, masas, cúmulos, oscilaciones, formación, colapso y remanentes.
+- [`MAPA_005_FORMACION_SISTEMA_SOLAR.md`](MAPA_005_FORMACION_SISTEMA_SOLAR.md): discos análogos, fósiles locales, transporte, reservorios y planetesimales.

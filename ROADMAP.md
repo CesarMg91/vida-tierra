@@ -35,7 +35,7 @@ Una investigación pasa de `EN_DESARROLLO` a `AUDITADO` cuando:
 | 002 | `INV-COSMOS-AGE-001` | ¿Cómo sabemos que el universo tiene una historia y una edad finita? | expansión, CMB, BBN, SN Ia, BAO, edades estelares, tensiones y límites |
 | 003 | `INV-COSMOS-ELEMENTS-001` | [¿Cómo sabemos dónde y cómo se formaron los elementos?](01_cosmos/INVESTIGACION_003_ORIGEN_ELEMENTOS.md) | espectros, neutrinos, BBN, Tc, supernovas, kilonovas, rayos cósmicos y meteoritos — **AUDITADO** |
 | 004 | `INV-COSMOS-STARS-001` | [¿Cómo inferimos nacimiento, evolución y muerte de estrellas?](01_cosmos/INVESTIGACION_004_EVOLUCION_ESTELAR.md) | paralaje, binarias, cúmulos, sismología, formación, neutrinos y remanentes — **AUDITADO** |
-| 005 | `INV-SOLAR-FORMATION-001` | ¿Cómo inferimos una nebulosa y disco protoplanetario? | discos observados, meteoritos, dinámica, modelos |
+| 005 | `INV-SOLAR-FORMATION-001` | [¿Cómo inferimos una nebulosa y disco protoplanetario?](01_cosmos/INVESTIGACION_005_FORMACION_SISTEMA_SOLAR.md) | dos archivos, CAIs/cóndrulos, `26Al`, CC/NC, Wild 2, magnetismo y planetesimales — **AUDITADO** |
 | 006 | `INV-EARTH-ACCRETION-001` | ¿Cómo ocurrió y cuánto duró la acreción terrestre? | cronómetros extintos, dinámica N-cuerpos, composiciones |
 | 007 | `INV-EARTH-CORE-001` | ¿Cómo sabemos que existe núcleo y cuándo se diferenció? | sismología, densidad, siderófilos, Hf–W |
 | 008 | `INV-MOON-ORIGIN-001` | ¿Cómo se formó la Luna? | muestras lunares, isótopos, momento angular, alternativas |
@@ -142,6 +142,7 @@ Después de disponer de la secuencia base:
 - `v0.1.1`: Investigación 002 + atlas visual inicial + prólogo cósmico.
 - `v0.1.2`: Investigación 003 + historia de la nucleosíntesis + matriz visual de contribuciones.
 - `v0.1.3`: Investigación 004 + historia de la evolución estelar + rutas visuales ramificadas.
+- `v0.1.4`: Investigación 005 + historia de la hipótesis nebular + mapa de los dos archivos de la formación solar.
 - `v0.2`: Hadeano/Arcaico auditados.
 - `v0.3`: Proterozoico y origen/temprana evolución de la vida.
 - `v0.4`: Fanerozoico completo.

@@ -149,6 +149,23 @@ composición + rotación + pérdida + binariedad → rutas, no ciclo universal
 
 Véase `INV-COSMOS-STARS-001` en `01_cosmos`, su mapa en `assets/visuales/mapa-investigacion-004.svg` y las rutas en `assets/visuales/rutas-evolucion-estelar.svg`.
 
+La ruta de formación del Sistema Solar es:
+
+```text
+OTROS SISTEMAS JÓVENES                 ARCHIVO LOCAL
+visibilidades + continuo ─────┐        CAIs/cóndrulos + Pb–Pb ───────┐
+líneas moleculares + Doppler ─┼→       26Al + Hf–W ─────────────────┤
+fracción de discos por edad ──┘        CC/NC + Wild 2 + remanencia ─┤
+          ↓                                      ↓                   │
+discos estructurados como clase          cronología, transporte,     │
+                                         mezcla parcial y cuerpos ───┘
+                    \                    /
+                     → origen en disco protoplanetario (A-COND)
+                       masa/radio/mecanismos exactos (C–D)
+```
+
+Véase `INV-SOLAR-FORMATION-001` en `01_cosmos`, su mapa en `assets/visuales/mapa-investigacion-005.svg` y la comparación en `assets/visuales/dos-archivos-formacion-solar.svg`.
+
 La ruta terrestre es:
 
 ```text

@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="950" viewBox="0 0 1600 950" role="img" aria-labelledby="title2 desc2">
+  <title id="title2">Dos archivos para reconstruir la formación del Sistema Solar</title>
+  <desc id="desc2">Comparación entre discos observados ahora alrededor de otras estrellas y fósiles materiales del Sistema Solar. Ambos convergen en un origen en disco, pero dejan abierta la biografía exacta.</desc>
+  <defs>
+    <linearGradient id="bg2" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#07121e"/><stop offset="1" stop-color="#171824"/></linearGradient>
+    <linearGradient id="left" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#15384a"/><stop offset="1" stop-color="#102533"/></linearGradient>
+    <linearGradient id="right" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#45352b"/><stop offset="1" stop-color="#2c2727"/></linearGradient>
+    <filter id="s2"><feDropShadow dx="0" dy="8" stdDeviation="12" flood-opacity="0.3"/></filter>
+    <style>.s{font-family:Inter,"Segoe UI",Arial,sans-serif}.t{font-size:42px;font-weight:700;fill:#f5f0e7}.sub{font-size:20px;fill:#b7c4ce}.h{font-size:28px;font-weight:700;fill:#f5f0e7}.k{font-size:18px;font-weight:700;letter-spacing:1.2px;fill:#8fd3df}.kr{font-size:18px;font-weight:700;letter-spacing:1.2px;fill:#e8b982}.b{font-size:19px;fill:#d9e1e6}.sm{font-size:16px;fill:#aebcc6}.c{font-size:23px;font-weight:700;fill:#f3e7cd}.yes{font-size:20px;font-weight:700;fill:#a8e4ca}.no{font-size:18px;font-weight:700;fill:#efb99f}</style>
+  </defs>
+  <rect width="1600" height="950" fill="url(#bg2)"/>
+  <g class="s">
+    <text x="80" y="72" class="t">Dos archivos, una inferencia conjunta</text>
+    <text x="80" y="108" class="sub">El análogo muestra física posible; el fósil local conserva genealogía fragmentaria.</text>
+
+    <g filter="url(#s2)">
+      <rect x="70" y="150" width="650" height="575" rx="28" fill="url(#left)" stroke="#34677d" stroke-width="2"/>
+      <rect x="880" y="150" width="650" height="575" rx="28" fill="url(#right)" stroke="#7b5d48" stroke-width="2"/>
+    </g>
+
+    <circle cx="155" cy="230" r="50" fill="#2e6075"/><circle cx="155" cy="230" r="9" fill="#f0c884"/>
+    <ellipse cx="155" cy="230" rx="38" ry="16" fill="none" stroke="#8bc6d4" stroke-width="5"/><ellipse cx="155" cy="230" rx="48" ry="24" fill="none" stroke="#548da1" stroke-width="3"/>
+    <text x="230" y="218" class="h">ARCHIVO ANÁLOGO</text><text x="230" y="252" class="sub">otras estrellas jóvenes, observadas hoy</text>
+    <text x="110" y="316" class="k">OBJETOS Y DETECTORES</text>
+    <text x="110" y="352" class="b">• continuo milimétrico de polvo</text><text x="110" y="384" class="b">• líneas moleculares y efecto Doppler</text><text x="110" y="416" class="b">• anillos, huecos, espirales y trampas</text><text x="110" y="448" class="b">• fracción de discos en cúmulos por edad</text>
+    <text x="110" y="506" class="k">LO QUE SÍ ENSEÑA</text>
+    <text x="110" y="542" class="b">Los discos existen como clase física, rotan,</text><text x="110" y="572" class="b">evolucionan y concentran sólidos.</text>
+    <rect x="105" y="615" width="580" height="75" rx="14" fill="#0d1d28" stroke="#3a6879"/>
+    <text x="125" y="645" class="no">LÍMITE</text><text x="218" y="645" class="b">no es el pasado del Sol</text><text x="125" y="674" class="sm">ni todo hueco es un planeta; brillo no equivale directamente a masa.</text>
+
+    <circle cx="965" cy="230" r="50" fill="#654735"/><circle cx="950" cy="218" r="11" fill="#f0d0a4"/><circle cx="980" cy="242" r="13" fill="#aa6e45"/><circle cx="982" cy="210" r="7" fill="#d2aa75"/>
+    <text x="1040" y="218" class="h">ARCHIVO FÓSIL LOCAL</text><text x="1040" y="252" class="sub">muestras e historia del Sistema Solar</text>
+    <text x="920" y="316" class="kr">OBJETOS Y DETECTORES</text>
+    <text x="920" y="352" class="b">• CAIs, cóndrulos y meteoritos diferenciados</text><text x="920" y="384" class="b">• Pb–Pb, 26Al–26Mg, Hf–W y CC/NC</text><text x="920" y="416" class="b">• granos Stardust del cometa Wild 2</text><text x="920" y="448" class="b">• remanencia magnética y órbitas actuales</text>
+    <text x="920" y="506" class="kr">LO QUE SÍ ENSEÑA</text>
+    <text x="920" y="542" class="b">La cronología local, el procesamiento, el</text><text x="920" y="572" class="b">transporte y la formación temprana de cuerpos.</text>
+    <rect x="915" y="615" width="580" height="75" rx="14" fill="#211d1e" stroke="#775a48"/>
+    <text x="935" y="645" class="no">LÍMITE</text><text x="1028" y="645" class="b">archivo incompleto y seleccionado</text><text x="935" y="674" class="sm">no conserva geometría global, trayectorias individuales ni una muestra aleatoria.</text>
+
+    <path d="M720 420 C790 420 810 460 880 460" fill="none" stroke="#6f96a8" stroke-width="4"/>
+    <path d="M880 510 C810 510 790 550 720 550" fill="none" stroke="#a98566" stroke-width="4"/>
+    <circle cx="800" cy="485" r="44" fill="#161e27" stroke="#c7aa7e" stroke-width="3"/>
+    <text x="786" y="494" class="c">+</text>
+
+    <g filter="url(#s2)">
+      <rect x="180" y="770" width="1240" height="130" rx="26" fill="#152d2c" stroke="#4c8776" stroke-width="2"/>
+    </g>
+    <text x="220" y="810" class="yes">INFERENCIA CONJUNTA</text>
+    <text x="470" y="810" class="c">existió un disco solar activo, con transporte, mezcla incompleta y planetesimales tempranos.</text>
+    <line x1="220" y1="838" x2="1380" y2="838" stroke="#40635d"/>
+    <text x="220" y="873" class="no">NO RECUPERA DE FORMA ÚNICA</text>
+    <text x="520" y="873" class="b">masa, radio, fuente de 26Al, barrera CC/NC, transporte ni mecanismo planetesimal exactos.</text>
+  </g>
+</svg>
