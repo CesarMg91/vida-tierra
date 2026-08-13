@@ -748,6 +748,22 @@ Este archivo es el índice canónico. La letra de confianza califica exactamente
 | `CLAIM-EARLY-PRESENCE-CONTINUITY-LIMIT-001` | Una presencia temprana fuera de África no demuestra continuidad local ni aporte a poblaciones posteriores. | A-SEM; B aplicación | AUDITADO | `EVID-OOA-METHOD-001`, `EVID-MISLIYA-001`, `EVID-TAM-PA-LING-001` | `INV-SAPIENS-OoA-001` |
 | `CLAIM-SINGLE-SUCCESSFUL-SHORTHAND-001` | «Una salida exitosa» sólo es una abreviatura de ascendencia mayoritaria compartida; no identifica un único cruce, grupo o corredor. | A-SEM | AUDITADO | `EVID-OOA-METHOD-001`, `EVID-OOA-GENOMIC-MAJOR-001` | `INV-SAPIENS-OoA-001` |
 | `CLAIM-OOA-SAMPLING-BIAS-001` | Cuevas, zonas áridas y genomas preservados sobrerrepresentan regiones y ramas; vacíos o ausencia molecular no son ausencia histórica. | A-SEM; B aplicación | AUDITADO | `EVID-OOA-METHOD-001` | `INV-SAPIENS-OoA-001` |
+| `CLAIM-ASIA-SAHUL-SCOPE-001` | Presencia, cronología, corredor posible, capacidad marítima, población/ascendencia y continuidad son resultados distintos. | A-SEM | AUDITADO | `EVID-ASIA-SAHUL-METHOD-001` | `INV-MIGR-ASIA-AUS-001` |
+| `CLAIM-FUYAN-CHRONOLOGY-REVISION-001` | ADN antiguo y datación multimétodo mostraron que algunos dientes de cuevas del sur de China no heredaban la gran antigüedad de espeleotemas o sedimentos asociados. | B | AUDITADO | `EVID-FUYAN-REDATING-001` | `INV-MIGR-ASIA-AUS-001` |
+| `CLAIM-SULAWESI-ART-MINIMUM-001` | Calcita sobre una plantilla de mano de Muna fija un mínimo de `67.8 ka` para el motivo; la fecha no mide directamente el pigmento y la autoría sapiens es contextual. | B-COND mínimo; C taxón | AUDITADO | `EVID-MUNA-ART-001` | `INV-MIGR-ASIA-AUS-001` |
+| `CLAIM-WALLACEA-WATER-CROSSING-001` | Aun con bajo nivel del mar, Sunda y Sahul permanecieron separados por canales de Wallacea; alcanzar Sahul exigió varios cruces de agua. | A geografía; B aplicación | AUDITADO | `EVID-WALLACEA-CROSSING-001` | `INV-MIGR-ASIA-AUS-001` |
+| `CLAIM-SAHUL-MARITIME-CAPACITY-001` | La colonización persistente de Sahul exige capacidad marítima suficiente y probablemente control direccional/repetición, sin identificar tipo de embarcación o técnica. | B-COND capacidad; D vehículo | AUDITADO | `EVID-WALLACEA-CROSSING-001`, `EVID-SAHUL-DEMOGRAPHY-001` | `INV-MIGR-ASIA-AUS-001` |
+| `CLAIM-LAILI-LOCAL-ABSENCE-001` | Laili conserva sedimento sin ocupación detectada entre `59 y 54 ka` y un inicio intenso hacia `44 ka`; la ausencia es local, no regional. | B-LOCAL; D regional | AUDITADO | `EVID-LAILI-SEQUENCE-001` | `INV-MIGR-ASIA-AUS-001` |
+| `CLAIM-ASIA-SAHUL-ROUTES-OPEN-001` | Modelos de coste, visibilidad y paleocorrientes favorecen variantes norte o mixtas, pero ninguna ruta completa ha sido observada y opciones meridionales siguen abiertas. | C | AUDITADO | `EVID-SAHUL-ROUTE-MODELS-001`, `EVID-LAILI-SEQUENCE-001` | `INV-MIGR-ASIA-AUS-001` |
+| `CLAIM-SAHUL-ARRIVAL-WINDOW-001` | Múltiples contextos hacen firme el poblamiento de Sahul hacia `~50–45 ka`; una llegada `~65 ka` depende de la asociación estratigráfica de Madjedbebe. | B ventana; C-COND extremo | AUDITADO | `EVID-SAHUL-ARRIVAL-001`, `EVID-SAHUL-EARLY-001` | `INV-MIGR-ASIA-AUS-001` |
+| `CLAIM-SAHUL-RAPID-DISPERSAL-001` | Ocupación temprana de ambientes tropicales y de altura y modelos espaciales hacen viable una expansión continental en pocos milenios, no miden una velocidad histórica única. | B adaptación; C-MOD tasa | AUDITADO | `EVID-SAHUL-ARRIVAL-001`, `EVID-SAHUL-DISPERSAL-MODEL-001` | `INV-MIGR-ASIA-AUS-001` |
+| `CLAIM-SAHUL-FOUNDING-SIZE-MODEL-001` | Un modelo estima `1,300–1,550` fundadores censales o llegadas repetidas de `≥130` personas durante `~700–900` años; son condiciones de viabilidad, no un censo. | C-MOD | AUDITADO | `EVID-SAHUL-DEMOGRAPHY-001` | `INV-MIGR-ASIA-AUS-001` |
+| `CLAIM-SAHUL-GENETIC-DIVERGENCE-001` | Genomas actuales modelan separación papú–australiana en `25–40 ka` o `~47 ka` (`95 % HPD 27–64 ka`); ninguna estimación fecha el desembarco. | C-MOD | AUDITADO | `EVID-SAHUL-DIVERGENCE-001` | `INV-MIGR-ASIA-AUS-001` |
+| `CLAIM-SAHUL-REGIONAL-STRUCTURE-001` | Autosomas y mitogenomas apoyan estructura regional australiana profunda; continuidad biológica parcial no equivale a identidad cultural o lingüística inmutable. | B patrón; C-MOD tiempos | AUDITADO | `EVID-SAHUL-STRUCTURE-001` | `INV-MIGR-ASIA-AUS-001` |
+| `CLAIM-DENISOVAN-WALLACEA-OPEN-001` | Papúes conservan varias ascendencias denisovanas divergentes, pero genomas actuales no localizan con seguridad la mezcla ni identifican un fósil donante en Wallacea. | B señal; C-D geografía | AUDITADO | `EVID-PAPUAN-DENISOVAN-001` | `INV-MIGR-ASIA-AUS-001` |
+| `CLAIM-SAHUL-DROWNED-RECORD-001` | Costas y plataformas pleistocenas hoy sumergidas introducen un sesgo de preservación espacial; vacíos terrestres no prueban ausencia humana. | A-SEM; B aplicación | AUDITADO | `EVID-ASIA-SAHUL-METHOD-001`, `EVID-SAHUL-ROUTE-MODELS-001` | `INV-MIGR-ASIA-AUS-001` |
+| `CLAIM-SAHUL-GENOMIC-GOVERNANCE-001` | Consentimiento, gobernanza indígena, selección comunitaria y acceso forman parte de la procedencia y límites de los datos genómicos de Sahul. | A-MET | AUDITADO | `EVID-SAHUL-STRUCTURE-001` | `INV-MIGR-ASIA-AUS-001` |
+| `CLAIM-ASIA-SAHUL-CONFIDENCE-001` | Cruces de agua y poblamiento `~50–45 ka` reciben A–B; extremos tempranos B-COND/C; ruta, fundadores y divergencias C-MOD; vehículo y continuidad cultural D. | A-SEM | AUDITADO | síntesis de `EVID-ASIA-SAHUL-*`, `EVID-SAHUL-*` | `INV-MIGR-ASIA-AUS-001` |
 
 ## Fichas resumidas
 
@@ -3614,6 +3630,34 @@ Este archivo es el índice canónico. La letra de confianza califica exactamente
 - **Papúa:** el aporte de una salida anterior es dependiente de modelo.
 - **Hub:** la meseta persa es una localización inferida, no excavada genéticamente para el intervalo.
 - **Nicho:** expansión ecológica precede/coincide con la fase mayor sin probar causa única.
+
+## Investigación 044 — Poblamiento de Asia y Sahul
+
+### CLAIM-ASIA-SAHUL-SCOPE-001 / ASIA-SAHUL-CONFIDENCE-001
+
+- **Escalas:** presencia, fecha, corredor, capacidad, demografía, ascendencia y continuidad se auditan por separado.
+- **Robusto:** Wallacea exigió agua y Sahul estaba poblado hacia `~50–45 ka`.
+- **Condicionado:** Muna, Lida Ajer y Madjedbebe conservan límites diferentes.
+- **Abierto:** ruta exacta, vehículo, censo fundador y continuidad cultural.
+
+### CLAIM-SULAWESI-ART-MINIMUM-001 / LAILI-LOCAL-ABSENCE-001 / ASIA-SAHUL-ROUTES-OPEN-001
+
+- **Muna:** U-series mide calcita sobre el motivo y fija un mínimo, no autoría directa.
+- **Laili:** sedimento estéril adversa una estación meridional temprana simple sólo en el sitio.
+- **Rutas:** coste mínimo y paleocorrientes producen predicciones, no trayectorias observadas.
+
+### CLAIM-SAHUL-MARITIME-CAPACITY-001 / FOUNDING-SIZE-MODEL-001 / RAPID-DISPERSAL-001
+
+- **Geografía:** al menos varios cruces de agua fueron necesarios.
+- **Simulación:** control direccional, tamaño viable y rapidez dependen de parámetros.
+- **No afirma:** balsa/canoa concreta, flota observada, censo o velocidad histórica uniforme.
+
+### CLAIM-SAHUL-GENETIC-DIVERGENCE-001 / REGIONAL-STRUCTURE-001 / DENISOVAN-WALLACEA-OPEN-001
+
+- **Divergencia:** los intervalos papú–australianos son demográficos, no fechas de sitio.
+- **Estructura:** señal biológica no congela cultura, lengua o territorio.
+- **Denisova:** múltiples ascendencias no localizan automáticamente mezcla o fósil donante.
+- **Procedencia:** gobernanza indígena y representatividad son parte del dato.
 
 ## Claims futuros
 

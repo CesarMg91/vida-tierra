@@ -310,14 +310,21 @@ En esta sección una fecha arqueológica no demuestra por sí sola “propiedad�
 | `TIME-TAM-PA-LING-001` | intervalo conservador `92–65 ka`; presencia al menos `~68 ka` | sapiens en Laos | varios restos/relojes y modelo de depósito; sin ADN | `SRC-FREIDLINE-TAM-PA-LING-2023` | B-COND | AUDITADO |
 | `TIME-LIDA-AJER-001` | `73–63 ka` | humanos modernos en Sumatra | dientes y cronología de cueva; asociación condicionada | `SRC-WESTAWAY-LIDA-AJER-2017` | C-COND | AUDITADO |
 | `TIME-OOA-MAJOR-001` | `~70–50 ka` | fase de expansión ancestral mayor de no africanos | genomas actuales/antiguos; intervalo dependiente de tasas y estructura | `SRC-MALLICK-SGDP-2016`, `SRC-MALASPINAS-SAHUL-2016`, `SRC-SUMER-RANIS-ZLATY-2024` | B-COND | AUDITADO |
+| `TIME-MUNA-ART-001` | mínimo `67.8 ka` | plantilla de mano de Muna anterior a calcita fechada | LA-U-series de recubrimiento; pigmento/autor no fechados directamente | `SRC-OKTAVIANA-MUNA-2026` | B-COND mínimo; C taxón | AUDITADO |
 | `TIME-MADJEDBEBE-001` | `~65 ka` | ocupación propuesta de Sahul | artefactos y OSL; integridad/blanqueo discutidos | `SRC-CLARKSON-MADJEDBEBE-2017` | C-COND | AUDITADO |
+| `TIME-LAILI-STERILE-001` | `59–54 ka` | sedimento sin ocupación humana detectada en Laili | OSL, microfacies y ausencia local; no cubre Timor | `SRC-SHIPTON-LAILI-2024` | B-LOCAL | AUDITADO |
 | `TIME-RANIS-ZLATY-001` | `49.54–42.20 ka cal BP` | rama temprana Ranis/Zlatý kůň | genomas, parentesco y radiocarbono; sin aporte posterior detectable | `SRC-SUMER-RANIS-ZLATY-2024` | B-COND | AUDITADO |
+| `TIME-IVANE-HIGHLANDS-001` | `49–44 ka` | ocupación y adaptación en tierras altas de Nueva Guinea | excavación, herramientas, plantas y cronología | `SRC-SUMMERHAYES-IVANE-2010` | B-COND | AUDITADO |
+| `TIME-LAILI-OCCUPATION-001` | inicio mediano `43.95 ka` (`48.56–42.80`) | comienzo abrupto de ocupación intensa | Bayes de `14C`/OSL y micromorfología | `SRC-SHIPTON-LAILI-2024` | B-COND | AUDITADO |
+| `TIME-NIAH-ACTIVITY-001` | `~46–34 ka` | Deep Skull y episodios de actividad en Niah | archivo, cronostratigrafía, AMS/U-series | `SRC-BARKER-NIAH-2007` | B-COND | AUDITADO |
 | `TIME-UST-ISHIM-001` | `~45 ka` | individuo temprano de Siberia occidental | genoma y tramos; una persona no fija población fundadora | `SRC-FU-UST-ISHIM-2014` | B | AUDITADO |
 | `TIME-BACHO-KIRO-ANCESTRY-001` | `~45.9–42.6 ka` | rama IUP con mezcla neandertal reciente y afinidad oriental | tres genomas/fechas; continuidad desigual | `SRC-HAJDINJAK-BACHO-2021` | B-COND | AUDITADO |
 | `TIME-TIANYUAN-001` | `~40 ka` | estructura asiática oriental temprana | un genoma con afinidad posterior; ruta exacta ausente | `SRC-YANG-TIANYUAN-2017` | B-COND | AUDITADO |
+| `TIME-SAHUL-DIVERGENCE-001` | `25–40 ka` o `~47 ka` (`27–64`) | separación papú–australiana modelada | WGS, ABC/coalescencia; no fecha llegada | `SRC-MALASPINAS-SAHUL-2016`, `SRC-SILCOCKS-AUSTRALIAN-2023` | C-MOD | AUDITADO |
+| `TIME-AUSTRALIAN-STRUCTURE-001` | `~35–26 ka` | separaciones regionales australianas modeladas | cuatro comunidades, WGS y ABC | `SRC-SILCOCKS-AUSTRALIAN-2023` | C-MOD | AUDITADO |
 
 ## Próxima acción cronológica
 
-Las investigaciones extensas auditadas llegan de `INV-EARTH-AGE-001` a `INV-SAPIENS-OoA-001`. El siguiente trabajo es `INV-MIGR-ASIA-AUS-001`: deberá separar cronología de Sunda/Sahul, cruces de agua, arqueología, genómica y continuidad regional.
+Las investigaciones extensas auditadas llegan de `INV-EARTH-AGE-001` a `INV-MIGR-ASIA-AUS-001`. El siguiente trabajo es `INV-MIGR-EUROPE-001`: deberá separar llegada, coexistencia, reemplazo, mezcla y diversidad regional en Europa.
 
 La línea temática `INV-CIV-ORIGINS-001` permanece separada en estado `TRAZADO`; organiza expedientes regionales, pero no cambia la próxima acción de la secuencia global.

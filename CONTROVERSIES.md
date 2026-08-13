@@ -347,6 +347,12 @@ Una controversia no implica empate. Registra qué parte está realmente abierta,
 | `CONT-OOA-PERSIAN-HUB-001` | Meseta persa como hub | hub `~70–45 ka` favorecido por proxies | Arabia, Levante o sur de Asia | abierta | C |
 | `CONT-OOA-MADJEDBEBE-001` | Ocupación de Sahul hacia `65 ka` | asociación artefacto–OSL íntegra | movimiento/blanqueo alteran edad | abierta | C-COND |
 | `CONT-OOA-SUCCESS-001` | Significado de «salida exitosa» | persistencia/ascendencia mayoritaria | término sugiere viaje o superioridad | abierta por definición | A-SEM; B aplicación |
+| `CONT-ASIA-SAHUL-ROUTES-001` | ¿Ruta norte, sur o combinación? | paleocorrientes/LCP favorecen norte o mixtas | costas sumergidas, Laili local y pasos meridionales posibles | abierta | C |
+| `CONT-SULAWESI-AUTHOR-001` | ¿Quién produjo la plantilla de Muna? | mínimo `67.8 ka`, estilo y contexto favorecen sapiens | calcita fecha mínimo; no hay cuerpo/ADN del autor | abierta | B-COND edad; C taxón |
+| `CONT-SAHUL-MARITIME-MEANS-001` | ¿Qué medio permitió cruzar Wallacea? | geografía y simulación exigen capacidad/control | deriva parcial, balsa, canoa y organización no preservadas | capacidad favorecida; medio abierto | B-COND / D |
+| `CONT-SAHUL-FOUNDERS-001` | ¿Cuántas personas fundaron Sahul? | viabilidad modelada `1,300–1,550` o flujos `≥130` | tasas, estructura, llegadas y capacidad de carga alternativas | abierta/modelada | C-MOD |
+| `CONT-SAHUL-DIVERGENCE-001` | ¿Cuándo se separaron ancestros papúes y australianos? | `25–40 ka` o `~47 ka [27–64]` según cohortes/modelos | flujo, tasas, topologías y muestras actuales | historia profunda; fecha exacta abierta | C-MOD |
+| `CONT-DENISOVAN-WALLACEA-001` | ¿Dónde y con quién ocurrió la mezcla denisovana papú? | varias ascendencias arcaicas divergentes | referencias escasas y geografía no identificada | mezcla B; lugar/taxón C-D | C-D |
 
 ## CONT-COSMOS-H0-001 — Dos rutas hacia la tasa actual
 
@@ -2573,3 +2579,39 @@ OSL y artefactos sostienen una ocupación antigua; críticos han discutido blanq
 Una expansión dejó la mayor parte de la ascendencia no africana actual, mientras otras ramas no muestran contribución posterior detectable. Llamarla «exitosa» puede sugerir intención, ventaja biológica o fracaso total de otras poblaciones.
 
 **Prueba discriminatoria:** no es una disputa sobre valor sino sobre definición; todo uso debe declarar si mide persistencia local, expansión demográfica o aporte genómico detectable.
+
+## CONT-ASIA-SAHUL-ROUTES-001 — Norte, sur o una historia combinada
+
+Modelos de intervisibilidad y coste favorecen rutas septentrionales; paleocorrientes de 2026 refuerzan norte o combinaciones en varios intervalos. Laili registra sedimento sin ocupación `59–54 ka` y actividad intensa desde `~44 ka`, lo que debilita que ese abrigo sea una estación meridional temprana simple. Sin embargo, costas pleistocenas están sumergidas y una ausencia local no cubre Timor ni Wallacea.
+
+**Prueba discriminatoria:** secuencias basales continuas anteriores a `50 ka` en islas predichas por rutas rivales, paleogeografía de igual resolución y modelos evaluados en sitios no usados para ajustarlos.
+
+## CONT-SULAWESI-AUTHOR-001 — Edad mínima y autoría de Muna
+
+La costra superpuesta fija un mínimo de `67.8 ka` para la plantilla. La mano representada y la tradición regional hacen plausible la autoría sapiens, pero no existe cuerpo, ADN o herramienta del ejecutor en el episodio fechado. Un hominino arcaico no está demostrado ni totalmente excluido por la medición.
+
+**Prueba discriminatoria:** fechas replicadas por debajo y encima del pigmento, contexto arqueológico coetáneo con restos diagnósticos y análisis técnico que no use autoría como premisa.
+
+## CONT-SAHUL-MARITIME-MEANS-001 — Capacidad necesaria, vehículo ausente
+
+Los canales de Wallacea nunca se cerraron. Deriva pura ofrece éxito bajo en varios escenarios; avance direccional y viajes repetidos mejoran la viabilidad. Esto favorece capacidad marítima suficiente, pero el registro no conserva balsa, canoa, vela, tripulación o intención de cada cruce.
+
+**Prueba discriminatoria:** tecnología náutica directa, conjuntos costeros coetáneos, modelos de deriva/corriente con incertidumbre y señales demográficas incompatibles con llegadas raras.
+
+## CONT-SAHUL-FOUNDERS-001 — Población viable frente a censo
+
+El intervalo `1,300–1,550` y la alternativa de llegadas `≥130` durante `~700–900` años salen de tasas de cazadores-recolectores, estructura de edad, productividad y umbral de cuasi-extinción. Otras tasas, flujo o rescates demográficos pueden moverlo.
+
+**Prueba discriminatoria:** genomas antiguos próximos a la entrada, modelos con priors alternativos y simulaciones que integren incertidumbre de capacidad de carga, parentesco y frecuencia de viajes.
+
+## CONT-SAHUL-DIVERGENCE-001 — Divergencia genómica no es desembarco
+
+Malaspinas y colaboradores estimaron `25–40 ka`; Silcocks y colaboradores, `~47 ka` con `95 % HPD 27–64 ka`. Los intervalos reflejan diferentes cohortes y familias de modelo y se solapan ampliamente. Separación puede ocurrir después de una llegada compartida y coexistir con flujo.
+
+**Prueba discriminatoria:** genomas antiguos de Australia y Nueva Guinea `60–30 ka`, más sensibilidad cruzada a tasas, generaciones, topologías y migración posterior.
+
+## CONT-DENISOVAN-WALLACEA-001 — Señal arcaica sin coordenadas
+
+Poblaciones papúes conservan componentes denisovanos divergentes, compatibles con más de un episodio o donante estructurado. Una afinidad moderna no localiza el contacto ni convierte fósiles robustos de Asia/Wallacea en denisovanos.
+
+**Prueba discriminatoria:** ADN/proteína de fósiles regionales, genomas antiguos seriados y modelos que comparen múltiples pulsos con estructura continua del donante.

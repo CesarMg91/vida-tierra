@@ -378,6 +378,12 @@ El propósito no es presentar la ciencia como una sucesión de fracasos ni como 
 | `ERR-OOA-CLIMATE-CAUSE-001` | corredor habitable = migración causada | idoneidad convertida en presencia/motor | usar clima como restricción | DOCUMENTADO |
 | `ERR-OOA-SUCCESS-SUPERIORITY-001` | persistencia = superioridad | métrica demográfica convertida en valor | nombrar expansión o aporte | DOCUMENTADO |
 | `ERR-OOA-ROUTE-FROM-AFFINITY-001` | afinidad genética dibuja ruta | grafo sin coordenadas convertido en mapa | combinar cronología y sitios | DOCUMENTADO |
+| `ERR-ASIA-SAHUL-SITE-ROUTE-001` | un sitio temprano dibuja la ruta | punto local convertido en itinerario | usar sitios para restringir, no trazar | DOCUMENTADO |
+| `ERR-SULAWESI-CALCITE-PIGMENT-001` | U-series fecha directamente el pigmento/autor | recubrimiento convertido en motivo y taxón | declarar dirección del mínimo | DOCUMENTADO |
+| `ERR-SAHUL-CROSSING-BOAT-001` | cruce necesario prueba canoa o vela | capacidad convertida en tecnología concreta | separar barrera, desempeño y vehículo | DOCUMENTADO |
+| `ERR-SAHUL-MODEL-CENSUS-001` | simulación de fundadores es un censo | salida paramétrica convertida en observación | declarar priors y sensibilidad | DOCUMENTADO |
+| `ERR-SAHUL-SPLIT-LANDFALL-001` | divergencia papú–australiana fecha llegada | split modelado convertido en desembarco | mantener relojes separados | DOCUMENTADO |
+| `ERR-SAHUL-GENETIC-CULTURE-001` | estructura genética prueba cultura inmutable | continuidad biológica proyectada a identidad | exigir archivos culturales propios | DOCUMENTADO |
 | `ERR-IMPACT-MOON-EARTH-001` | convertir cronología lunar en esterilización terrestre | escala constante de tasa y efecto | dinámica, hidrocodes, atmósfera/océano y archivo terrestre | DOCUMENTADO |
 | `ERR-LUNAR-ABSENCE-001` | “sin fundido antiguo” = “sin impacto antiguo” | supervivencia uniforme hacia atrás | sesgo de preservación y evidencia positiva `4.22–4.33 Ga` | DOCUMENTADO |
 
@@ -3322,3 +3328,51 @@ Dos poblaciones pueden compartir ascendencia tras movimientos no muestreados, me
 ### Corrección
 
 Combinar cronología, paleogeografía y sitios intermedios; presentar rutas como hipótesis con alternativas.
+
+## ERR-ASIA-SAHUL-SITE-ROUTE-001 — Un sitio temprano dibuja un itinerario
+
+Tam Pà Ling, Lida Ajer o Muna fijan presencias/mínimos locales. Entre ellos quedan distancias, generaciones, costas perdidas y corredores alternativos.
+
+### Corrección
+
+Usar cada sitio para excluir o permitir combinaciones cronogeográficas; no unir puntos con una flecha como si fuese un rastro.
+
+## ERR-SULAWESI-CALCITE-PIGMENT-001 — U-series fechó pigmento y autor
+
+La medición de Muna procede de calcita superpuesta. Su edad convierte el motivo subyacente en anterior, pero no entrega el momento exacto de pintar ni la identidad biológica del ejecutor.
+
+### Corrección
+
+Escribir «mínimo de `67.8 ka` para el motivo»; etiquetar autoría sapiens como inferencia contextual separada.
+
+## ERR-SAHUL-CROSSING-BOAT-001 — Cruce necesario equivale a canoa observada
+
+La paleogeografía demuestra canales y la simulación restringe desempeño. Ninguna conserva material, diseño o nombre de la embarcación.
+
+### Corrección
+
+Inferir capacidad marítima mínima y mantener vehículo, tripulación y técnica en D hasta obtener evidencia directa.
+
+## ERR-SAHUL-MODEL-CENSUS-001 — El modelo contó a los fundadores
+
+`1,300–1,550` o `≥130` por viaje son condiciones de viabilidad bajo tasas, productividad y umbrales elegidos. No son personas excavadas.
+
+### Corrección
+
+Nombrar el resultado como intervalo modelado y publicar sensibilidad a estructura de edad, flujo, mortalidad y capacidad de carga.
+
+## ERR-SAHUL-SPLIT-LANDFALL-001 — La divergencia genética fecha el desembarco
+
+La separación papú–australiana puede ser posterior a una llegada compartida y admite flujo. Sus fechas dependen de tasa, generación, topología y muestra.
+
+### Corrección
+
+Comparar intervalos genómicos con límites arqueológicos sin identificarlos; no usar coalescencia o split como fecha de sitio.
+
+## ERR-SAHUL-GENETIC-CULTURE-001 — Estructura genética demuestra una cultura inmutable
+
+Persistencia regional de linajes no implica que lenguas, prácticas, identidades o territorios hayan permanecido sin cambio durante decenas de milenios.
+
+### Corrección
+
+Auditar continuidad biológica, demográfica, material, lingüística y territorial con archivos independientes y gobernanza comunitaria.

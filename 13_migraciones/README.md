@@ -3,3 +3,4 @@
 Expansiones dentro y fuera de África, Asia, Sahul, Europa, Américas y Oceanía. Cruza arqueología, genética, cronología, paleoclima y lingüística evaluando su independencia.
 
 - [`INVESTIGACION_043_SALIDAS_AFRICA_DESCENDENCIA.md`](INVESTIGACION_043_SALIDAS_AFRICA_DESCENDENCIA.md): múltiples presencias fuera de África, una expansión ancestral mayor y ramas con descendencia detectable desigual, sin contar sitios como salidas.
+- [`INVESTIGACION_044_POBLAMIENTO_ASIA_SAHUL.md`](INVESTIGACION_044_POBLAMIENTO_ASIA_SAHUL.md): presencia, rutas posibles, cruces de Wallacea, demografía y estructura papú–australiana separados, sin convertir una fecha de sitio en itinerario o continuidad.

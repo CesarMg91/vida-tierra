@@ -578,6 +578,24 @@ La primera salida cumplía las invariantes científicas, pero contenía una dimi
 
 La edición final se reinspeccionó a resolución original y no conserva texto ni pseudotexto visible. La mandíbula es incompleta y no forma un rostro; los demás restos son fragmentarios. La proximidad entre bandejas no implica contemporaneidad, asociación, identidad, ruta o descendencia. Los cordones son una metáfora editorial de detectabilidad y no deben leerse como datos cromosómicos.
 
+## Investigación 044 — Poblamiento de Asia y Sahul
+
+| Archivo | Tipo | Creación | Evidencia o claim | Límite |
+|---|---|---|---|---|
+| `hero-poblamiento-asia-sahul.png` | portada editorial generada | OpenAI ImageGen, 2026-08-13 | archivos arqueológicos, geográficos y genómicos separados | relieve compuesto/no georreferenciado; no reconstruye costa o ruta |
+| `mapa-investigacion-044.svg` | diagrama original | SVG manual del proyecto, 2026-08-13 | cinco cortafuegos y cinco resultados no sinónimos | flechas son operaciones inferenciales, no movimientos humanos |
+| `cronologia-archivos-asia-sahul.svg` | cronología original | SVG manual del proyecto, 2026-08-13 | cuatro carriles con objetos y límites de fecha distintos | posiciones aproximadas; no promedia intervalos ni fecha llegada única |
+
+## Prompt de la portada de la Investigación 044
+
+**Modo:** generación nueva con OpenAI ImageGen. Copia final inspeccionada a resolución original en `assets/visuales/hero-poblamiento-asia-sahul.png`. Salida original conservada: `C:\Users\HUAWEI\.codex\generated_images\019ff9f8-176a-7ea1-b727-e17c6df17b82\exec-b4f68fd3-c23b-4ba5-bf85-b7bcaeef8afb.png`.
+
+> Use case: scientific-educational. Asset type: wide 16:9 editorial hero cover for a rigorous Spanish open-science research chapter about the peopling of Asia, Wallacea, and Sahul, emphasizing that archaeological sites, sea-crossing models, and genomic inferences are different evidence classes. Create a premium museum conservation-table still life, viewed obliquely from above, with a continuous composition and clearly separated, non-coeval evidence bays. Left: layered limestone and calcite fragments beside a small patch of red ochre pigment on rough mineral substrate, plus a few generic incomplete dry fossil bone fragments and two isolated teeth, all visibly fragmentary and never arranged as a face. Center: a shallow relief of generic island stepping-stones and submerged shelf contours made from dark stone and mineral resin, separated by deep teal water channels; it must be abstract physical geography, not a literal map, with no routes or arrows. Right: sediment cores, a few generic stone flakes, shell fragments, a tiny charcoal sample, and restrained translucent bead-like genomic strands in separate trays, strictly abstract and unlabeled. The overall message is evidence moving from object to measurement to bounded inference, not a voyage scene. Dark charcoal and deep navy background, warm ochre and fossil ivory materials, restrained teal water, copper analytical accents, sober conservation lighting, generous negative space in upper center, crisp key objects, natural museum textures, documentary realism with editorial restraint. No people, no humans, no hands, no faces, no recognizable visage, no nose, no lips, no skin, no living beings, no body silhouette, no full skeleton, no complete skull, no reconstructed portrait, no boat, no canoe, no raft, no footprints, no map labels, no continental outlines, no national borders, no flags, no route lines, no arrows, no family tree, no evolutionary procession, no literal DNA double helix, no readable text, letters, numbers, dates, labels, symbols, logos, watermark, sci-fi interface, glowing hologram, fantasy, or violence.
+
+La salida final no contiene personas, rostros, barcos, flechas, texto o pseudotexto. Los restos son genéricos, secos, incompletos y no forman un individuo. Aunque el panel central tiene una lectura deliberadamente cartográfica, es un **relieve editorial compuesto y no georreferenciado**: no corresponde a una paleocosta reconstruida, no es un mapa de Sunda–Wallacea–Sahul, no reproduce bathimetría, distancias, tamaños, intervisibilidad o corrientes, y no debe usarse como dato geográfico. La proximidad, orientación o secuencia de sus fragmentos no favorece un corredor septentrional, meridional o mixto. Las bandejas derechas tampoco reproducen núcleos, herramientas, especies, genomas o asociaciones reales.
+
+Los dos SVG se renderizaron e inspeccionaron a `1600 × 900`. `mapa-investigacion-044.svg` usa flechas únicamente para operaciones epistemológicas; `cronologia-archivos-asia-sahul.svg` coloca intervalos de forma aproximada dentro de una ventana `90–20 ka` y conserva en texto el objeto y la incertidumbre. Ninguno es un mapa migratorio, una reconstrucción de viaje o una genealogía observada.
+
 ## Reglas de mantenimiento
 
 - conservar SVG con `title` y `desc` accesibles;
