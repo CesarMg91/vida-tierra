@@ -1165,3 +1165,36 @@ regulación 2026 → asociación actual B-COND → fenotipo fósil: D
 Marmosetas, pinzones, cachalotes y bonobos aíslan turnos, aprendizaje vocal, contextualidad y combinación; no forman una escalera. Cadenas artificiales y lenguas de señas emergentes muestran que la estructura puede formarse culturalmente, pero parten de humanos actuales y no fechan el Paleolítico. La raíz modelada de una familia histórica tampoco equivale al origen biocultural.
 
 Véase `INV-MIND-LANGUAGE-001` en `11_evolucion_humana`, su mapa en `assets/visuales/mapa-investigacion-048.svg` y la cronología multirreloj en `assets/visuales/cronologia-archivos-lenguaje.svg`.
+
+### Investigación 049 — Entierros, arte, música, ritual y símbolos
+
+```text
+cuerpo + posición + sedimento ───────────────> proceso deposicional ───────┐
+pigmento + receta + residuo ─────────────────> selección y uso ────────────┤
+perforación + desgaste + serie ──────────────> ornamento/convención ───────┤
+trazo + gesto + calcita ─────────────────────> agencia y límite de edad ───┤
+tubo + manufactura + contexto ───────────────> instrumento/tradición ──────┤
+disposición + acceso + U–Th ─────────────────> organización espacial ──────┘
+                                                                            │
+                                                                            └─> significado, cosmología, identidad o lengua no automáticos
+```
+
+Shanidar y La Ferrassie favorecen depósitos deliberados con límites distintos; La Chapelle permanece ambigua. Las abejas ofrecen una alternativa concreta al «ramo» de Shanidar. Panga ya Saidi conserva un entierro infantil robusto sin prueba de religión. Dinaledi mantiene la controversia registrada en 041.
+
+```text
+Blombos ~100 ka → mezcla de ocre A/B → superficie/función D
+concha perforada + desgaste → ornamento B-COND → identidad D
+Trinil/Gorham/Roche-Cotard → marca deliberada B → significado D
+```
+
+Iberia, Sulawesi y Muna separan costra e imagen. U–Th sobre calcita superpuesta produce una edad mínima; autoría y narración requieren otros puentes. Una cifra precisa no convierte carbonato en pigmento fechado directamente.
+
+```text
+Suabia → manufactura + serie → aerófonos/tradición regional B
+Divje Babe → acústica posible + tafonomía rival → instrumento C/D-ABIERTA
+Bruniquel → construcción profunda + edad/acceso B → ritual/cosmología D
+```
+
+Convención material restringe comunicación pero no conserva sintaxis o lengua concreta. La presencia pleistocena de prácticas denominadas simbólicas tampoco las convierte en causa única de domesticación, sedentarismo o urbanización.
+
+Véase `INV-MIND-SYMBOL-001` en `11_evolucion_humana`, su mapa en `assets/visuales/mapa-investigacion-049.svg` y la cronología multiarquivo en `assets/visuales/cronologia-archivos-simbolismo.svg`.

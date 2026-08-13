@@ -677,6 +677,20 @@ El mapa separa fósiles, genética, conducta comparada y transmisión. Las líne
 
 Los paneles usan escalas independientes para fósiles, estados/estudios genéticos, observaciones actuales y lenguas históricas. Las marcas fechan objetos, publicaciones, cohortes o divergencias modeladas; ninguna representa el nacimiento del lenguaje.
 
+## 50. Investigación 049 — Entierros, arte, música, ritual y símbolos
+
+![Portada editorial de archivos materiales no coetáneos](assets/visuales/hero-simbolismo-ritual-arte-musica.png)
+
+> **Portada editorial:** pigmentos, objetos perforados, calcita, incisiones, tubos óseos y piedras son genéricos y físicamente separados. No proceden de un sitio o época común; no copian arte real y no prueban significado, ejecución, tradición musical o ritual.
+
+![Mapa epistemológico del archivo al salto abierto](assets/visuales/mapa-investigacion-049.svg)
+
+Las filas separan cuerpo/sedimento, pigmento/ornamento, trazado/calcita, candidato acústico y disposición profunda. Las líneas continuas representan controles directos, las ámbar puentes condicionados y las rojas aquello que no se conserva.
+
+![Cronología multiarquivo de objetos, depósitos, estructuras y mínimos](assets/visuales/cronologia-archivos-simbolismo.svg)
+
+Tres paneles evitan comprimir `0.54 Ma–35 ka` en una falsa marcha. Los símbolos distinguen objeto, depósito, estructura y mínimo de calcita; ninguna marca fecha un origen universal o conecta tradiciones.
+
 ## Procedencia
 
 El registro de creación, límites y prompt de cada pieza está en [`assets/visuales/README.md`](assets/visuales/README.md).

@@ -50,3 +50,4 @@ Grafos de dependencias entre objetos, mediciones, principios, modelos, claims y 
 - [`MAPA_046_POBLAMIENTO_AMERICAS.md`](MAPA_046_POBLAMIENTO_AMERICAS.md): filtros desde objeto, agencia, reloj y escala hasta presencia, expansión, corredor y genealogía, con ruta/entrada como puentes no automáticos.
 - [`MAPA_047_HERRAMIENTAS_FUEGO_COOPERACION.md`](MAPA_047_HERRAMIENTAS_FUEGO_COOPERACION.md): objeto, fabricante, transmisión, peldaños térmicos y cooperación se conectan sólo mediante puentes explícitos.
 - [`MAPA_048_ORIGEN_LENGUAJE.md`](MAPA_048_ORIGEN_LENGUAJE.md): cuatro rutas desde fósil, gen, conducta y transmisión hasta capacidades parciales, con habla, gramática y fecha única marcadas como no conservadas.
+- [`MAPA_049_SIMBOLISMO_RITUAL_ARTE_MUSICA.md`](MAPA_049_SIMBOLISMO_RITUAL_ARTE_MUSICA.md): rutas desde cuerpo, pigmento, objeto, trazo, calcita, tubo y disposición hasta resultados delimitados, con significado, cosmología y lengua como saltos abiertos.

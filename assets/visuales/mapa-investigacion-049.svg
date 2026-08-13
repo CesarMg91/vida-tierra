@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Mapa epistemológico de entierros, arte, música, ritual y símbolos</title>
+  <desc id="desc">Cinco archivos materiales separados muestran observación, prueba discriminante, resultado permitido y salto abierto. No implica coetaneidad, difusión ni progreso.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#111923"/><stop offset="1" stop-color="#1e2934"/></linearGradient>
+    <filter id="shadow"><feDropShadow dx="0" dy="5" stdDeviation="7" flood-opacity=".25"/></filter>
+    <style>
+      .h1{font:700 38px system-ui,sans-serif;fill:#f6f1e8}.sub{font:400 19px system-ui,sans-serif;fill:#b9c4cd}
+      .head{font:700 17px system-ui,sans-serif;letter-spacing:1.7px;fill:#a9bac7}.row{font:700 22px system-ui,sans-serif;fill:#f6f1e8}
+      .txt{font:400 17px system-ui,sans-serif;fill:#d9e0e5}.small{font:400 15px system-ui,sans-serif;fill:#bbc6ce}
+      .ok{fill:none;stroke:#76c6aa;stroke-width:4}.cond{fill:none;stroke:#e0b96d;stroke-width:4;stroke-dasharray:11 8}
+      .open{fill:none;stroke:#dc7b78;stroke-width:4;stroke-dasharray:5 10}.panel{fill:#23313d;stroke:#40515f;stroke-width:2}
+    </style>
+    <marker id="arrowOk" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0 10 5 0 10z" fill="#76c6aa"/></marker>
+    <marker id="arrowCond" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0 10 5 0 10z" fill="#e0b96d"/></marker>
+    <marker id="arrowOpen" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0 10 5 0 10z" fill="#dc7b78"/></marker>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <text x="70" y="55" class="h1">DEL ARCHIVO MATERIAL AL SIGNIFICADO NO PRESERVADO</text>
+  <text x="70" y="90" class="sub">Cada fila es una cadena independiente. Proximidad visual ≠ coetaneidad, difusión o tradición común.</text>
+
+  <text x="70" y="135" class="head">ARCHIVO OBSERVADO</text><text x="430" y="135" class="head">PRUEBA DISCRIMINANTE</text>
+  <text x="820" y="135" class="head">RESULTADO PERMITIDO</text><text x="1210" y="135" class="head">SALTO ABIERTO</text>
+
+  <g filter="url(#shadow)">
+    <rect x="55" y="155" width="1490" height="120" rx="18" class="panel"/>
+    <rect x="55" y="288" width="1490" height="120" rx="18" class="panel"/>
+    <rect x="55" y="421" width="1490" height="120" rx="18" class="panel"/>
+    <rect x="55" y="554" width="1490" height="120" rx="18" class="panel"/>
+    <rect x="55" y="687" width="1490" height="120" rx="18" class="panel"/>
+  </g>
+
+  <g>
+    <text x="82" y="191" class="row">CUERPO + SEDIMENTO</text><text x="82" y="220" class="txt">articulación, acceso, relleno</text><text x="82" y="247" class="small">cada sitio conserva otra resolución</text>
+    <text x="438" y="191" class="txt">fosa, microtafonomía,</text><text x="438" y="219" class="txt">procesos naturales</text>
+    <path d="M355 219H420" class="ok" marker-end="url(#arrowOk)"/><path d="M700 219H800" class="cond" marker-end="url(#arrowCond)"/>
+    <text x="827" y="191" class="txt">depósito deliberado</text><text x="827" y="219" class="small">tratamiento: condicionado</text>
+    <path d="M1090 219H1190" class="open" marker-end="url(#arrowOpen)"/><text x="1218" y="191" class="txt">rito · duelo · religión</text><text x="1218" y="219" class="small">no heredados por una fosa</text>
+
+    <text x="82" y="324" class="row">PIGMENTO + OBJETO</text><text x="82" y="353" class="txt">receta, perforación, desgaste</text><text x="82" y="380" class="small">uso y montaje por separado</text>
+    <text x="438" y="324" class="txt">residuo, soporte, serie,</text><text x="438" y="352" class="txt">controles naturales</text>
+    <path d="M355 352H420" class="ok" marker-end="url(#arrowOk)"/><path d="M700 352H800" class="cond" marker-end="url(#arrowCond)"/>
+    <text x="827" y="324" class="txt">proceso · ornamento</text><text x="827" y="352" class="small">convención si hay recurrencia</text>
+    <path d="M1090 352H1190" class="open" marker-end="url(#arrowOpen)"/><text x="1218" y="324" class="txt">identidad · referente</text><text x="1218" y="352" class="small">color llamativo no los codifica</text>
+
+    <text x="82" y="457" class="row">TRAZO + CALCITA</text><text x="82" y="486" class="txt">incisión, figura, costra</text><text x="82" y="513" class="small">pigmento y reloj son objetos distintos</text>
+    <text x="438" y="457" class="txt">secuencia de gesto, relación</text><text x="438" y="485" class="txt">sobre/bajo, U–Th</text>
+    <path d="M355 485H420" class="ok" marker-end="url(#arrowOk)"/><path d="M700 485H800" class="cond" marker-end="url(#arrowCond)"/>
+    <text x="827" y="457" class="txt">agencia · edad mínima</text><text x="827" y="485" class="small">composición: claim separado</text>
+    <path d="M1090 485H1190" class="open" marker-end="url(#arrowOpen)"/><text x="1218" y="457" class="txt">relato · autor observado</text><text x="1218" y="485" class="small">calcita no fecha el gesto exacto</text>
+
+    <text x="82" y="590" class="row">TUBO ÓSEO</text><text x="82" y="619" class="txt">orificios, bordes, contexto</text><text x="82" y="646" class="small">acústica viene después de agencia</text>
+    <text x="438" y="590" class="txt">manufactura frente a diente,</text><text x="438" y="618" class="txt">uso y piezas asociadas</text>
+    <path d="M355 618H420" class="ok" marker-end="url(#arrowOk)"/><path d="M700 618H800" class="cond" marker-end="url(#arrowCond)"/>
+    <text x="827" y="590" class="txt">instrumento · tradición local</text><text x="827" y="618" class="small">Divje Babe: agencia abierta</text>
+    <path d="M1090 618H1190" class="open" marker-end="url(#arrowOpen)"/><text x="1218" y="590" class="txt">ejecución · melodía</text><text x="1218" y="618" class="small">«suena» no conserva música</text>
+
+    <text x="82" y="723" class="row">DISPOSICIÓN PROFUNDA</text><text x="82" y="752" class="txt">estructura, calor, acceso</text><text x="82" y="779" class="small">Bruniquel: actividad en oscuridad</text>
+    <text x="438" y="723" class="txt">U–Th, 3D, geomorfología,</text><text x="438" y="751" class="txt">fases y alternativas</text>
+    <path d="M355 751H420" class="ok" marker-end="url(#arrowOk)"/><path d="M700 751H800" class="cond" marker-end="url(#arrowCond)"/>
+    <text x="827" y="723" class="txt">organización espacial</text><text x="827" y="751" class="small">formalización: condicionada</text>
+    <path d="M1090 751H1190" class="open" marker-end="url(#arrowOpen)"/><text x="1218" y="723" class="txt">ritual · santuario</text><text x="1218" y="751" class="small">función no identificada</text>
+  </g>
+
+  <g transform="translate(70 855)"><path d="M0 0h55" class="ok"/><text x="68" y="6" class="small">observado/medido</text><path d="M270 0h55" class="cond"/><text x="338" y="6" class="small">condicionado</text><path d="M530 0h55" class="open"/><text x="598" y="6" class="small">salto abierto</text><text x="1000" y="6" class="small">INV-MIND-SYMBOL-001 · v0.1.48</text></g>
+</svg>

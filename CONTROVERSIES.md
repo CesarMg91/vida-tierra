@@ -2835,3 +2835,65 @@ Anatomía y redes pueden cambiar gradualmente, mientras convenciones y gramátic
 Modelos bayesianos hacen explícitos datos y calibraciones dentro de familias. Con profundidad aumentan pérdida de cognados, préstamo, tasas variables y alternativas reticulares. Una raíz familiar no calibra el primer sistema lingüístico.
 
 **Prueba discriminatoria:** recuperación estable de parentescos y fechas antiguas en simulaciones y controles históricos ocultos, robusta a préstamo, codificación, priors y topologías de red.
+
+## Registro tabular de la Investigación 049
+
+| ID | Pregunta | Posiciones activas | Evidencia que discrimina | Estado |
+|---|---|---|---|---|
+| `CONT-SYMBOL-IDENTIFICATION-001` | ¿Cuándo un patrón material permite inferir símbolo? | intención; decoración; convención; referencia simbólica | recurrencia, contexto de uso, transmisión y predicciones no circulares | ABIERTA |
+| `CONT-NEANDERTHAL-BURIALS-001` | ¿Qué depósitos neandertales son entierros deliberados? | fosa/cobertura; uso de depresión natural; muerte in situ/relleno | microestratigrafía, límites, tafonomía y reexcavación por caso | ABIERTA/HETEROGÉNEA |
+| `CONT-SHANIDAR-FLOWERS-001` | ¿Las concentraciones de polen derivan de plantas funerarias? | plantas colocadas; abejas; mezcla de agentes | espacialidad, taxones, nidos, estacionalidad y muestras nuevas | ABIERTA |
+| `CONT-PIGMENT-FUNCTION-001` | ¿Para qué se prepararon mezclas de ocre? | señal visual/corporal; adhesivo; curtido/protección; uso mixto | residuos sobre soportes, recetas, desgaste y experimentos ciegos | ABIERTA |
+| `CONT-ORNAMENT-MEANING-001` | ¿El ornamento implica símbolo/identidad? | presentación estética/social; convención referencial; función técnica | montaje, recurrencia, distribución social y contexto independiente | ABIERTA |
+| `CONT-IBERIAN-CAVE-ART-001` | ¿Son robustos los mínimos `>64.8 ka` y la atribución neandertal? | asociación/sistema válidos; muestreo/modelo cuestionados | perfiles replicados, datos U–Th crudos, relación inequívoca y controles detritales | ABIERTA |
+| `CONT-SULAWESI-NARRATIVE-001` | ¿Una composición figurativa permite inferir narración? | interacción visual intencional; yuxtaposición/lectura moderna | contemporaneidad, superposición, criterios preregistrados y acuerdo ciego | ABIERTA |
+| `CONT-DIVJE-BABE-001` | ¿Divje Babe I es un instrumento fabricado? | aerófono neandertal; perforación por carnívoros/fractura | microhuellas, negativos de diente, cadena técnica y réplicas tafonómicas | ABIERTA |
+| `CONT-BRUNIQUEL-FUNCTION-001` | ¿Qué función tuvieron las estructuras profundas? | técnica/logística; señalización; práctica social formalizada; ritual | fases, residuos, circulación, repetición y comparadores funcionales | ABIERTA |
+
+## CONT-SYMBOL-IDENTIFICATION-001 — Agencia no es significado
+
+La intención puede sostenerse mediante secuencia de gestos y exclusión de procesos naturales. Una convención requiere distribución o repetición social; un símbolo añade una relación referencial. Llamar «símbolo» a toda marca geométrica hace circular la conclusión.
+
+**Prueba discriminatoria:** patrón recurrente que prediga selección, contexto o respuesta fuera del objeto con que se definió, más alternativas funcionales evaluadas.
+
+## CONT-NEANDERTHAL-BURIALS-001 — Casos con historias distintas
+
+Shanidar y La Ferrassie favorecen depósito deliberado; La Chapelle sigue condicionado por excavación histórica. El desacuerdo no enfrenta una capacidad neandertal universal contra incapacidad: compara procesos deposicionales locales.
+
+**Prueba discriminatoria:** nuevos cuerpos en contexto intacto, microexcavación, límites de rasgo, relleno y tafonomía preregistrados.
+
+## CONT-SHANIDAR-FLOWERS-001 — Del polen al agente
+
+Concentraciones de polen no identifican plantas completas ni quién las llevó. Abejas solitarias ofrecen una alternativa específica; un aporte antrópico parcial no queda lógicamente excluido.
+
+**Prueba discriminatoria:** muestreo tridimensional nuevo de polen/nidos, fenología y control de lluvia polínica por microambiente.
+
+## CONT-PIGMENT-FUNCTION-001 / CONT-ORNAMENT-MEANING-001
+
+Procesar ocre y suspender objetos son prácticas materiales demostrables. Presentación corporal, adhesivo, protección, identidad y referencia simbólica generan predicciones distintas. Una misma sustancia u objeto pudo tener funciones múltiples.
+
+**Prueba discriminatoria:** residuo sobre soporte, recetas repetidas, desgaste de montaje y distribución social/espacial que no se usen simultáneamente para definir y probar el significado.
+
+## CONT-IBERIAN-CAVE-ART-001 — Precisión analítica y asociación
+
+La U–Th puede ser precisa sobre la costra; el claim depende además de que esa costra esté estratigráficamente unida al motivo, conserve sistema cerrado y tenga detrito tratado. La autoría neandertal se infiere del mínimo y la demografía regional.
+
+**Prueba discriminatoria:** réplicas de perfiles superpuestos inequívocos, datos y modelos abiertos, y consistencia entre submuestras estratigráficamente ordenadas.
+
+## CONT-SULAWESI-NARRATIVE-001 — Composición y relato
+
+Figuras relacionadas espacialmente pueden representar interacción. «Narración» añade contemporaneidad, lectura de acción y posiblemente secuencia. La edad mínima de una figura no fecha automáticamente todo el panel.
+
+**Prueba discriminatoria:** análisis de superposición/composición, criterios de narratividad previos a la lectura y pruebas ciegas con alternativas.
+
+## CONT-DIVJE-BABE-001 — Acústica sin agencia suficiente
+
+La pieza produce sonidos bajo reconstrucción, pero esa propiedad no decide cómo se formaron los orificios. Comparadores de carnívoros mantienen una explicación no instrumental.
+
+**Prueba discriminatoria:** microhuellas incompatibles con dientes/fractura y una secuencia de manufactura replicable, idealmente apoyada por piezas asociadas.
+
+## CONT-BRUNIQUEL-FUNCTION-001 — Organización sin cosmología
+
+Edad, profundidad, disposición y calor hacen difícil una formación natural. Ninguno distingue por sí solo manejo técnico del espacio, actividad social formalizada o rito.
+
+**Prueba discriminatoria:** residuos, distribución de trabajo, fases repetidas y predicciones espaciales que separen funciones antes de etiquetarlas.

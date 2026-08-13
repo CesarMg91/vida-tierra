@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Cronología multiarquivo de simbolismo, entierros, imágenes y música</title>
+  <desc id="desc">Tres paneles de escala independiente distinguen objeto, depósito, estructura y edad mínima de calcita. No representa una línea de progreso ni el origen universal de conductas.</desc>
+  <defs>
+    <style>
+      .bg{fill:#101820}.panel{fill:#1d2933;stroke:#3d4c57;stroke-width:2}.h1{font:700 36px system-ui,sans-serif;fill:#f7f0e5}
+      .sub{font:400 18px system-ui,sans-serif;fill:#bac6ce}.ph{font:700 21px system-ui,sans-serif;fill:#f7f0e5}.axis{stroke:#71818d;stroke-width:2}
+      .tick{font:500 15px system-ui,sans-serif;fill:#c9d2d8}.lane{font:700 15px system-ui,sans-serif;fill:#9fb0bc;letter-spacing:1px}
+      .lab{font:600 15px system-ui,sans-serif;fill:#eef1f2}.note{font:400 13px system-ui,sans-serif;fill:#bdc8cf}
+      .obj{fill:#73c7aa}.dep{fill:#d49d71}.min{fill:#78a8d8}.str{fill:#c786c6}.open{fill:none;stroke:#e4bc69;stroke-width:3;stroke-dasharray:7 6}
+    </style>
+    <marker id="minArrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0 10 5 0 10z" fill="#78a8d8"/></marker>
+  </defs>
+  <rect width="1600" height="900" class="bg"/>
+  <text x="60" y="60" class="h1">CRONOLOGÍA MULTIARCHIVO: FECHA DEL OBJETO ≠ ORIGEN DE LA CONDUCTA</text>
+  <text x="60" y="96" class="sub">Paneles con escalas independientes. Los mínimos de calcita apuntan hacia edades más antiguas; no son fechas exactas del pigmento.</text>
+
+  <rect x="50" y="130" width="1500" height="190" rx="18" class="panel"/>
+  <text x="75" y="165" class="ph">A · ARCHIVO TEMPRANO AISLADO</text>
+  <line x1="230" y1="236" x2="1450" y2="236" class="axis"/>
+  <text x="85" y="230" class="lane">OBJETO</text>
+  <text x="220" y="269" class="tick">550 ka</text><text x="800" y="269" class="tick">490 ka</text><text x="1395" y="269" class="tick">430 ka</text>
+  <rect x="300" y="205" width="1080" height="50" rx="12" fill="#253743"/>
+  <circle cx="780" cy="230" r="11" class="obj"/><text x="802" y="222" class="lab">Trinil · incisión en concha</text><text x="802" y="244" class="note">intervalo aproximado 0.54–0.43 Ma · agencia B · significado D</text>
+
+  <rect x="50" y="340" width="1500" height="260" rx="18" class="panel"/>
+  <text x="75" y="375" class="ph">B · 200–100 ka: ESTRUCTURA, CONTEXTO Y OBJETOS</text>
+  <text x="75" y="430" class="lane">ESTRUCTURA</text><text x="75" y="488" class="lane">ORNAMENTO</text><text x="75" y="546" class="lane">PROCESO</text>
+  <line x1="230" y1="405" x2="1450" y2="405" class="axis"/>
+  <g class="tick"><text x="215" y="397">200</text><text x="452" y="397">180</text><text x="695" y="397">160</text><text x="938" y="397">140</text><text x="1182" y="397">120</text><text x="1420" y="397">100 ka</text></g>
+  <rect x="511" y="418" width="24" height="24" rx="4" class="str"/><text x="545" y="435" class="lab">Bruniquel 176.5 ± 2.1 ka</text>
+  <path d="M920 420v28" class="open"/><text x="690" y="454" class="note">cierre antes de 142.9 ± 1.3 ka</text>
+  <circle cx="944" cy="482" r="10" class="obj"/><text x="960" y="475" class="lab">Bizmoune ≥142</text>
+  <circle cx="1067" cy="482" r="10" class="obj"/><text x="1083" y="505" class="lab">Krapina ~130</text>
+  <circle cx="1249" cy="482" r="10" class="obj"/><text x="1265" y="487" class="lab">Aviones ~115</text>
+  <circle cx="1440" cy="540" r="10" class="obj"/><text x="1200" y="566" class="lab">Blombos · mezcla de ocre ~100 ka</text>
+
+  <rect x="50" y="620" width="1500" height="240" rx="18" class="panel"/>
+  <text x="75" y="655" class="ph">C · 100–35 ka: DEPÓSITOS, MARCAS, MÍNIMOS E INSTRUMENTOS</text>
+  <text x="75" y="710" class="lane">DEPÓSITO</text><text x="75" y="763" class="lane">MARCA/OBJETO</text><text x="75" y="816" class="lane">CALCITA MÍNIMA</text>
+  <line x1="230" y1="683" x2="1450" y2="683" class="axis"/>
+  <g class="tick"><text x="215" y="676">100</text><text x="580" y="676">80</text><text x="955" y="676">60</text><text x="1325" y="676">40</text><text x="1415" y="676">35 ka</text></g>
+  <rect x="625" y="697" width="20" height="20" transform="rotate(45 635 707)" class="dep"/><text x="655" y="712" class="lab">Panga 78.3 ± 4.1</text>
+  <circle cx="650" cy="756" r="9" class="obj"/><text x="666" y="761" class="lab">Blombos ~77–73</text>
+  <path d="M820 810h-175" stroke="#78a8d8" stroke-width="4" marker-end="url(#minArrow)"/><circle cx="820" cy="810" r="9" class="min"/><text x="835" y="804" class="lab">Muna mínimo 67.8</text><text x="835" y="825" class="note">costra sobre plantilla</text>
+  <path d="M875 850h-180" stroke="#78a8d8" stroke-width="4" marker-end="url(#minArrow)"/><circle cx="875" cy="850" r="9" class="min"/><text x="890" y="850" class="lab">Iberia &gt;64.8 propuesto</text>
+  <circle cx="1017" cy="756" r="9" class="obj"/><text x="1033" y="761" class="lab">La Roche-Cotard &gt;57 ± 3</text>
+  <path d="M1125 810h-130" stroke="#78a8d8" stroke-width="4" marker-end="url(#minArrow)"/><circle cx="1125" cy="810" r="9" class="min"/><text x="1140" y="804" class="lab">Karampuang mínimo 51.2</text>
+  <path d="M1180 850h-100" stroke="#78a8d8" stroke-width="4" marker-end="url(#minArrow)"/><circle cx="1180" cy="850" r="9" class="min"/><text x="1195" y="850" class="lab">Bulu’ Sipong mínimo 48</text>
+  <circle cx="1290" cy="756" r="9" class="obj"/><text x="1306" y="750" class="lab">Aerófonos de Suabia</text><text x="1306" y="770" class="note">contexto ~43–42</text>
+
+  <g transform="translate(65 880)"><circle cx="0" cy="0" r="9" class="obj"/><text x="18" y="5" class="note">objeto/proceso</text><rect x="160" y="-9" width="18" height="18" transform="rotate(45 169 0)" class="dep"/><text x="190" y="5" class="note">depósito</text><rect x="305" y="-9" width="18" height="18" rx="3" class="str"/><text x="334" y="5" class="note">estructura</text><circle cx="475" cy="0" r="9" class="min"/><path d="M465 0h-50" stroke="#78a8d8" stroke-width="3" marker-end="url(#minArrow)"/><text x="494" y="5" class="note">edad mínima de imagen</text><text x="1120" y="5" class="note">Sin línea de progreso · INV-MIND-SYMBOL-001</text></g>
+</svg>
