@@ -318,6 +318,20 @@ El mapa separa tres historias: radiaciones marinas sucesivas, mínimos terrestre
 
 La cadena impide saltar de una colección a la biosfera, de una edad local a sincronía o de una coincidencia ambiental a causa. Riqueza y ecospace permanecen como métricas diferentes.
 
+## 25. Investigación 024 — Recuperación silúrica y ensamblaje terrestre
+
+![Portada conceptual de la recuperación silúrica](assets/visuales/hero-recuperacion-silurica.png)
+
+> **Portada conceptual:** separa lutitas/graptolitos, recuperación marina, biota terrestre baja, microfósiles, artrópodos y proxies. No representa una comunidad real, una escala literal ni una conquista simultánea.
+
+![Mapa de evidencia de la recuperación silúrica](assets/visuales/mapa-investigacion-024.svg)
+
+El mapa conserva cuatro relojes: límite formal, recuperación marina, perturbaciones y ensamblaje terrestre. La edad y la respiración de `Pneumodesmus` se muestran como rutas independientes.
+
+![Cadena desde una aparición fósil hasta un ecosistema terrestre](assets/visuales/de-aparicion-a-ecosistema-terrestre.svg)
+
+La cadena exige identidad, edad, contexto, función, procedencia e interacción antes de proponer una red. Una FAD fija un mínimo; costa o semejanza no prueban hábitat.
+
 ## Procedencia
 
 El registro de creación, límites y prompt de cada pieza está en [`assets/visuales/README.md`](assets/visuales/README.md).

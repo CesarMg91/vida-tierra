@@ -492,3 +492,31 @@ temperatura + eustasia + redox → estresores acoplados por pulso ────�
 ```
 
 Véase `INV-ORDOVICIAN-001` en `06_paleozoico`, su mapa en `assets/visuales/mapa-investigacion-023.svg` y la cadena en `assets/visuales/de-ocurrencias-a-biodiversificacion.svg`.
+
+La ruta específica de la recuperación silúrica y el ensamblaje terrestre es:
+
+```text
+Dob’s Linn + A. ascensus ─────→ base formal ─────────────────────────────┐
+ocurrencias + línea de base ──→ riqueza por región/métrica ──────────────┤
+rasgos + dominancia ──────────→ composición y ecospace ──────────────────┼─→ recuperaciones marinas plurales
+marcos + constructores ───────→ arrecifes antiguos regionales ───────────┤
+cuerpos + filogenia ──────────→ mínimo/disparidad gnathostoma ───────────┘
+
+rangos + biozonas ────────────→ Ireviken / Mulde / Lau ──────────────────┐
+C/S/I/Fe + facies ────────────→ reservorios, redox y nivel ──────────────┴─→ mecanismos condicionados
+
+criptosporas previas ─────────→ continuidad terrestre ──────────────────┐
+triletes + transporte ────────→ productor reproductivo mínimo ───────────┤
+eje + esporangio + traqueida ─→ cuerpo / vascularidad por ejemplar ──────┤
+filamento + crecimiento ──────→ hongo mínimo ────────────────────────────┼─→ ensamblaje terrestre local
+cutícula + espiráculo ────────→ respiración aérea ───────────────────────┤
+coprolito + contenido ────────→ ingestión y reciclaje ───────────────────┤
+facies + transporte ──────────→ hábitat frente a depósito ───────────────┘
+                                  │
+                                  ├── recuperación general: A-B
+                                  ├── tiempo único global: E
+                                  ├── tierra ensamblada: B-COND
+                                  └── bosque/conquista: E
+```
+
+Véase `INV-SILURIAN-001` en `06_paleozoico`, su mapa en `assets/visuales/mapa-investigacion-024.svg` y la cadena en `assets/visuales/de-aparicion-a-ecosistema-terrestre.svg`.

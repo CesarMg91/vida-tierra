@@ -150,6 +150,16 @@ El propósito no es presentar la ciencia como una sucesión de fracasos ni como 
 | `ERR-ORDOVICIAN-LOME-INSTANT-001` | LOME reducida a una fecha | límite formal equivale a extinción | dos fases, rangos y cronología | DOCUMENTADO |
 | `ERR-ORDOVICIAN-LOME-ONECAUSE-001` | ambos pulsos reciben la misma causa | coincidencia ambiental identifica mortalidad | clima–eustasia–redox + selectividad | DOCUMENTADO |
 | `ERR-ORDOVICIAN-RECOVERY-001` | primer aumento llamado recuperación total | riqueza, composición y función rebotan juntas | declarar métrica, escala y referencia | DOCUMENTADO |
+| `ERR-SILURIAN-ONECLOCK-001` | una cifra fecha toda la recuperación | región/métrica son intercambiables | separar línea de base, cobertura y variable | DOCUMENTADO |
+| `ERR-SILURIAN-REWIND-001` | riqueza restaurada equivale a comunidad restaurada | composición y función siguen al conteo | medir taxones, dominancia, rasgos y redes | DOCUMENTADO |
+| `ERR-SILURIAN-MODERN-REEF-001` | arrecife silúrico dibujado como coral moderno | función implica constructores actuales | identificar estromatoporoideos/tabulados y facies | DOCUMENTADO |
+| `ERR-SILURIAN-JAWS-ORIGIN-001` | cuerpo articulado convertido en origen de mandíbulas | FAD fecha divergencia | mínimo fósil + filogenia + archivo anterior | DOCUMENTADO |
+| `ERR-SILURIAN-ISOTOPE-CAUSE-001` | excursión `δ13C` usada como causa | correlación/reservorio miden mortalidad | proxy → reservorio → mecanismo → selectividad | DOCUMENTADO |
+| `ERR-SILURIAN-LAND-CONQUEST-001` | tierra vacía hasta el Silúrico | cuerpos visibles agotan el archivo | continuidad ordovícica + archivos silúricos | DOCUMENTADO |
+| `ERR-SILURIAN-SPORE-VASCULAR-001` | una espora prueba xilema | reproducción identifica anatomía corporal | conexión espora–esporangio–traqueida | DOCUMENTADO |
+| `ERR-SILURIAN-COOKSONIA-FOREST-001` | ejes diminutos convertidos en bosque | nombre implica altura/cobertura | escala, tejido y paisaje separados | DOCUMENTADO |
+| `ERR-SILURIAN-PNEUMODESMUS-RANK-001` | “más antiguo” tratado como propiedad estable | anatomía y edad comparten evidencia | rutas independientes y ranking provisional | DOCUMENTADO |
+| `ERR-SILURIAN-SCORPION-LAND-001` | silueta de escorpión prueba terrestreidad | parecido/nombre sustituyen caracteres | redescripción, aparato respiratorio y facies | DOCUMENTADO |
 | `ERR-LUNAR-APOLLO-INDEPENDENT-001` | tratar sitios Apollo como testigos independientes | ejecta local y sin transporte global | cartografía, Th, geoquímica y escalado de Imbrium | DOCUMENTADO |
 | `ERR-IMPACT-MOON-EARTH-001` | convertir cronología lunar en esterilización terrestre | escala constante de tasa y efecto | dinámica, hidrocodes, atmósfera/océano y archivo terrestre | DOCUMENTADO |
 | `ERR-LUNAR-ABSENCE-001` | “sin fundido antiguo” = “sin impacto antiguo” | supervivencia uniforme hacia atrás | sesgo de preservación y evidencia positiva `4.22–4.33 Ga` | DOCUMENTADO |
@@ -1359,3 +1369,83 @@ Una comunidad puede recuperar modos funcionales sin recuperar riqueza, composici
 ### Corrección
 
 Declarar línea base, métrica, región y escala temporal; comparar riqueza, ecospace y redes en paralelo.
+
+## ERR-SILURIAN-ONECLOCK-001 — Una cifra recuperó todo el planeta
+
+Los ~5 Myr de Laurentia, 15–20 Myr de compilaciones y ≥35 Myr de otra curva no miden el mismo conjunto con igual cobertura.
+
+### Corrección
+
+Publicar línea de base, clados, región, bins, método y variable junto a cada duración.
+
+## ERR-SILURIAN-REWIND-001 — Volver a contar igual fue volver a ser igual
+
+Inmigración y supervivencia pueden restaurar riqueza mientras cambian dominancia, composición y ecospace.
+
+### Corrección
+
+Comparar conteos, beta-diversidad, abundancia y rasgos; evitar “recuperación total” sin criterio.
+
+## ERR-SILURIAN-MODERN-REEF-001 — El Paleozoico recibió un arrecife tropical actual
+
+Estromatoporoideos, tabulados, rugosos y microbios formaban arquitecturas distintas de las escleractinias modernas.
+
+### Corrección
+
+Nombrar constructores, facies, relieve y región; ilustrar marcos bajos/antiguos y declarar reconstrucción.
+
+## ERR-SILURIAN-JAWS-ORIGIN-001 — Chongqing inventó las mandíbulas
+
+La excepcional preservación revela cuerpos completos; la divergencia debe preceder al mínimo fósil y tiene archivos fragmentarios anteriores.
+
+### Corrección
+
+Separar fecha del estrato, FAD de cuerpo articulado, restos aislados y nodo filogenético.
+
+## ERR-SILURIAN-ISOTOPE-CAUSE-001 — Una curva de carbono se volvió asesino
+
+`δ13C` registra la composición de un reservorio bajo fraccionamientos. No mide directamente oxígeno, temperatura o mortalidad.
+
+### Corrección
+
+Exigir preservación, reservorio, sincronía, mecanismo y selectividad; contrastar proxies independientes.
+
+## ERR-SILURIAN-LAND-CONQUEST-001 — La vida saltó por primera vez a tierra
+
+Criptosporas y trazas ordovícicas preceden cuerpos silúricos más visibles. La expansión no comienza desde un continente estéril.
+
+### Corrección
+
+Usar “continuidad”, “ensamblaje” y “mínimo preservado”; reservar origen para análisis filogenético/cronológico.
+
+## ERR-SILURIAN-SPORE-VASCULAR-001 — Tres radios construyeron xilema
+
+La marca trilete informa sobre una tétrada reproductiva. No conserva traqueidas ni el cuerpo productor.
+
+### Corrección
+
+Separar espora, esporangio, eje y tejido; elevar confianza sólo cuando están en conexión anatómica.
+
+## ERR-SILURIAN-COOKSONIA-FOREST-001 — Un tallo diminuto levantó un bosque
+
+Los cooksonioides eran ejes bajos, sin hojas/raíces modernas, y muchos no preservan tejido vascular.
+
+### Corrección
+
+Mostrar escala centimétrica, sustrato abierto y ejemplares aislados; no inferir cobertura o dosel.
+
+## ERR-SILURIAN-PNEUMODESMUS-RANK-001 — “El más antiguo” pareció una anatomía
+
+Los poros respiratorios y la edad de la roca tienen rutas probatorias distintas. Cambiar la edad altera el ranking, no borra automáticamente el espiráculo.
+
+### Corrección
+
+Registrar por separado identidad, función, horizonte, bloque, biozona y geocronología; formular rankings como provisionales.
+
+## ERR-SILURIAN-SCORPION-LAND-001 — Una silueta recibió pulmones
+
+`Parioscorpio` parecía escorpión hasta que más ejemplares mostraron otra anatomía y afinidad problemática. Un nombre no conserva aparato respiratorio.
+
+### Corrección
+
+Codificar caracteres, revisar todos los ejemplares y exigir contexto/anatomía terrestre antes de reconstruir hábitat.

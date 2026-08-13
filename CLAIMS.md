@@ -221,6 +221,22 @@ Este archivo es el índice canónico. La letra de confianza califica exactamente
 | `CLAIM-ORDOVICIAN-LOME-PULSES-001` | La extinción del final del Ordovícico tuvo dos fases rápidas de renovación; duración, magnitud y sincronía exactas dependen de sección, correlación y base de datos. | B dos fases; C bordes | AUDITADO | `EVID-ORDOVICIAN-LOME-GEOCHRON-001`, `EVID-ORDOVICIAN-LOME-SELECTIVITY-001` | `INV-ORDOVICIAN-001` |
 | `CLAIM-ORDOVICIAN-LOME-CAUSES-001` | Enfriamiento, glaciación, eustasia, calentamiento y anoxia/euxinia formaron una crisis acoplada; los pesos y mecanismos de mortalidad variaron entre pulsos y cuencas. | B-COND marco; C-D pesos | AUDITADO | `EVID-ORDOVICIAN-LOME-SELECTIVITY-001`, `EVID-ORDOVICIAN-LOME-REDOX-001` | `INV-ORDOVICIAN-001` |
 | `CLAIM-ORDOVICIAN-RECOVERY-001` | La recuperación posterior fue distinta según riqueza, composición y ecospace: algunas arquitecturas persistieron mientras la riqueza tardó decenas de millones de años bajo ciertas métricas. | B-COND | AUDITADO | `EVID-ORDOVICIAN-OCCURRENCES-001`, `EVID-ORDOVICIAN-ECOLOGY-001` | `INV-ORDOVICIAN-001` |
+| `CLAIM-SILURIAN-SCOPE-001` | El Silúrico reúne recuperaciones marinas y ensamblajes terrestres parcialmente independientes; no fue una recuperación global ni una conquista de tierra únicas. | A-SEM; B proceso plural | AUDITADO | conjunto `EVID-SILURIAN-*` | `INV-SILURIAN-001` |
+| `CLAIM-SILURIAN-BOUNDARY-001` | La base formal en Dob’s Linn, asociada a la FAD de `Akidograptus ascensus`, define el Silúrico/Rhuddaniense y no el fin de la recuperación. | A límite; B edad | AUDITADO | `EVID-SILURIAN-BOUNDARY-001` | `INV-SILURIAN-001` |
+| `CLAIM-SILURIAN-RECOVERY-SCALE-001` | La riqueza bentónica volvió en ~5 Myr en Laurentia bajo una base estandarizada, mientras curvas globales estiman intervalos mucho mayores; escala y métrica explican la diferencia. | B-COND | AUDITADO | `EVID-SILURIAN-RECOVERY-DIVERSITY-001` | `INV-SILURIAN-001` |
+| `CLAIM-SILURIAN-RECOVERY-COMPOSITION-001` | Recuperar riqueza no restauró automáticamente composición, dominancia, función o ecospace; supervivencia e inmigración reensamblaron comunidades. | B | AUDITADO | `EVID-SILURIAN-RECOVERY-COMPOSITION-001` | `INV-SILURIAN-001` |
+| `CLAIM-SILURIAN-REEFS-001` | Arrecifes coral–estromatoporoideos reaparecieron regionalmente durante el Aeroniense; no fueron arrecifes modernos ni una recuperación mundial simultánea. | B | AUDITADO | `EVID-SILURIAN-REEFS-001` | `INV-SILURIAN-001` |
+| `CLAIM-SILURIAN-GNATHOSTOMES-001` | Fósiles articulados del Telychiense revelan gnathostomos corporalmente diversos y una historia previa; su FAD no fecha el origen de las mandíbulas. | B | AUDITADO | `EVID-SILURIAN-GNATHOSTOMES-001` | `INV-SILURIAN-001` |
+| `CLAIM-SILURIAN-EVENTS-001` | Ireviken, Mulde y Lau/Kozłowskii fueron renovaciones bióticas y biogeoquímicas reales que interrumpieron el periodo con alcance variable. | B eventos; C sincronía/magnitud | AUDITADO | `EVID-SILURIAN-EVENTS-001` | `INV-SILURIAN-001` |
+| `CLAIM-SILURIAN-REDOX-001` | Carbono, azufre, yodo y facies apoyan cambios de clima, nivel y redox por evento, pero ninguna excursión `δ13C` identifica sola causa o mortalidad. | B-COND ambiente; C-D causas | AUDITADO | `EVID-SILURIAN-EVENTS-REDOX-001` | `INV-SILURIAN-001` |
+| `CLAIM-SILURIAN-LAND-CONTINUITY-001` | La vida terrestre tiene mínimos ordovícicos; el Silúrico amplió esporas, cuerpos e interacciones en vez de iniciar una colonización desde cero. | B | AUDITADO | `EVID-SILURIAN-LAND-SPORES-001`, `EVID-SILURIAN-LAND-BODIES-001` | `INV-SILURIAN-001` |
+| `CLAIM-SILURIAN-SPORES-001` | El aumento de esporas triletes registra una transición reproductiva compatible con radiación vascular, condicionada por productor, transporte y facies. | B-COND | AUDITADO | `EVID-SILURIAN-LAND-SPORES-001` | `INV-SILURIAN-001` |
+| `CLAIM-SILURIAN-VASCULAR-001` | Ejes tipo `Cooksonia` documentan poliesporangiófitos pequeños; sólo ejemplares con traqueidas in situ prueban vascularidad inequívoca. | B cuerpos; A-B tejido por ejemplar | AUDITADO | `EVID-SILURIAN-LAND-BODIES-001` | `INV-SILURIAN-001` |
+| `CLAIM-SILURIAN-FUNGI-001` | `Tortotubus` conserva crecimiento filamentoso compatible con Fungi y posible procesamiento del sustrato, sin fijar Dikarya, seta o simbiosis. | B-COND | AUDITADO | `EVID-SILURIAN-LAND-FUNGI-001` | `INV-SILURIAN-001` |
+| `CLAIM-SILURIAN-ARTHROPODS-001` | Cutículas de miriápodos y arácnidos tardíos sostienen animales terrestres y depredación; la primera preservación no es la primera llegada. | B-COND | AUDITADO | `EVID-SILURIAN-LAND-ARTHROPODS-001` | `INV-SILURIAN-001` |
+| `CLAIM-SILURIAN-PNEUMODESMUS-001` | Los poros de `Pneumodesmus` apoyan respiración aérea; nuevas esporas/circones favorecen edad Wenlock tardía tras una propuesta devónica, con correlación aún crítica. | B respiración; B-COND edad | AUDITADO | `EVID-SILURIAN-PNEUMODESMUS-ANATOMY-001`, `EVID-SILURIAN-PNEUMODESMUS-AGE-001` | `INV-SILURIAN-001` |
+| `CLAIM-SILURIAN-FOODWEB-001` | Coprolitos con esporas y cutículas depredadoras demuestran consumo, reciclaje y al menos dos niveles animales, sin identificar productores ni red completa. | B-COND | AUDITADO | `EVID-SILURIAN-LAND-INTERACTIONS-001` | `INV-SILURIAN-001` |
+| `CLAIM-SILURIAN-COASTAL-ARCHIVE-001` | El registro costero mezcla transporte continental, depósito marginal y preservación; parecido o asociación no prueban terrestreidad ni convivencia. | A tafonomía; B-COND casos | AUDITADO | `EVID-SILURIAN-COASTAL-ARCHIVE-001` | `INV-SILURIAN-001` |
 
 ## Fichas resumidas
 
@@ -1365,6 +1381,120 @@ Este archivo es el índice canónico. La letra de confianza califica exactamente
 - **Puente:** separar composición, riqueza y función evita llamar recuperación a una sola métrica.
 - **Límite:** bases y escalas regionales cambian la duración estimada.
 - **Confianza:** `B-COND`.
+
+## Investigación 024 — Recuperación silúrica y ensamblaje terrestre
+
+### CLAIM-SILURIAN-SCOPE-001
+
+- **Dato/definición:** límite, riqueza marina, cuerpos terrestres e interacciones usan archivos diferentes.
+- **Puente:** separar relojes evita que “Silúrico” imponga una transición simultánea.
+- **No afirma:** recuperación o conquista únicas.
+- **Confianza:** `A-SEM`; `B` pluralidad.
+
+### CLAIM-SILURIAN-BOUNDARY-001
+
+- **Dato:** el GSSP está 1.6 m sobre la base de Birkhill Shale y coincide con `A. ascensus`.
+- **Puente:** la sección ratificada define la base aun si cambia su calibración numérica.
+- **No afirma:** origen del graptolito o final de la LOME.
+- **Confianza:** `A` límite; `B` edad.
+
+### CLAIM-SILURIAN-RECOVERY-SCALE-001
+
+- **Dato:** Laurentia recupera riqueza en ~5 Myr bajo estandarización; otras curvas arrojan 15–20 o ≥35 Myr.
+- **Puente:** región, muestreo, línea de base y métrica explican resultados no equivalentes.
+- **Límite:** ningún valor es cronómetro de toda la biosfera.
+- **Confianza:** `B-COND`.
+
+### CLAIM-SILURIAN-RECOVERY-COMPOSITION-001
+
+- **Dato:** linajes supervivientes e inmigrantes cambian dominancia y composición.
+- **Puente:** rasgos y filogenias comparan comunidad además de contar géneros.
+- **No afirma:** retorno de la misma red o ecospace.
+- **Confianza:** `B`.
+
+### CLAIM-SILURIAN-REEFS-001
+
+- **Dato:** marcos coral–estromatoporoideos aeroniences aparecen en South China y Laurentia.
+- **Puente:** constructores, relieve y facies documentan función arrecifal regional.
+- **Límite:** composición antigua, plataformas selectivas y pocas regiones.
+- **Confianza:** `B`.
+
+### CLAIM-SILURIAN-GNATHOSTOMES-001
+
+- **Dato:** Chongqing conserva cuerpos completos de gnathostomos de ~436 Ma; mandíbulas amplían disparidad temprana.
+- **Puente:** caracteres + filogenia convierten fósil articulado en mínimo del linaje.
+- **No afirma:** origen en el yacimiento.
+- **Confianza:** `B`.
+
+### CLAIM-SILURIAN-EVENTS-001
+
+- **Dato:** rangos, facies y quimioestratigrafía separan Ireviken, Mulde y Lau.
+- **Puente:** correlaciones repetidas distinguen perturbaciones de ruido local.
+- **Límite:** extensión y magnitud cambian por grupo/cuenca.
+- **Confianza:** `B` eventos; `C` globalidad fina.
+
+### CLAIM-SILURIAN-REDOX-001
+
+- **Dato:** C, S, I y facies registran reservorios y estados ambientales no idénticos.
+- **Puente:** sincronía, modelo y selectividad son necesarios para proponer causa.
+- **No afirma:** que `δ13C` mida oxígeno, temperatura o muerte directamente.
+- **Confianza:** `B-COND` ambiente; `C-D` pesos.
+
+### CLAIM-SILURIAN-LAND-CONTINUITY-001
+
+- **Dato:** criptosporas y trazas ordovícicas preceden cuerpos silúricos más diagnósticos.
+- **Puente:** mínimos sucesivos documentan continuidad y expansión.
+- **No afirma:** continente vacío antes del Silúrico.
+- **Confianza:** `B`.
+
+### CLAIM-SILURIAN-SPORES-001
+
+- **Dato:** asociaciones triletes aumentan y su abundancia cambia con proximidad costera.
+- **Puente:** pared, tétrada y estratigrafía restringen reproducción/productor mínimo.
+- **Límite:** cuerpo, xilema y cobertura no se preservan.
+- **Confianza:** `B-COND`.
+
+### CLAIM-SILURIAN-VASCULAR-001
+
+- **Dato:** ejes con esporangios aparecen en Wenlock; traqueidas in situ en Ludlow.
+- **Puente:** anatomía interna separa poliesporangiófito de vascular inequívoco.
+- **No afirma:** que todo `Cooksonia` tenga xilema o forme bosque.
+- **Confianza:** `B` cuerpos; `A-B` tejido por ejemplar.
+
+### CLAIM-SILURIAN-FUNGI-001
+
+- **Dato:** `Tortotubus` forma filamentos ramificados/anastomosados.
+- **Puente:** morfogénesis y caracteres filogenéticos apoyan Fungi.
+- **Límite:** nodo, función, simbiosis y cuerpo fructífero abiertos.
+- **Confianza:** `B-COND`.
+
+### CLAIM-SILURIAN-ARTHROPODS-001
+
+- **Dato:** Ludford Lane conserva centípedos y un trigonotárbido depredador.
+- **Puente:** cutícula, morfología y contexto apoyan vida terrestre.
+- **Límite:** preservación fragmentaria y red incompleta.
+- **Confianza:** `B-COND`.
+
+### CLAIM-SILURIAN-PNEUMODESMUS-001
+
+- **Dato:** poros valvulados apoyan espiráculos; palinología/circones nuevos favorecen Wenlock tardío.
+- **Puente:** homología prueba función y correlación prueba edad por rutas independientes.
+- **Límite:** ejemplar único clave, bloques estructurales y circones detríticos/tobáceos.
+- **Confianza:** `B` respiración; `B-COND` edad.
+
+### CLAIM-SILURIAN-FOODWEB-001
+
+- **Dato:** coprolitos contienen esporas/cutículas; cutículas depredadoras añaden nivel trófico.
+- **Puente:** contenido ingerido y ecología funcional restringen interacción mínima.
+- **No afirma:** identidad de consumidores o flujos cuantificados.
+- **Confianza:** `B-COND`.
+
+### CLAIM-SILURIAN-COASTAL-ARCHIVE-001
+
+- **Dato:** esporas, ejes y cutículas llegan a depósitos marinos/marginales; `Parioscorpio` no es escorpión seguro.
+- **Puente:** facies, transporte y anatomía distinguen procedencia de hábitat.
+- **Límite:** Lagerstätten y similitud pueden concentrar falsas certezas.
+- **Confianza:** `A` filtro; `B-COND` por caso.
 
 ## Claims futuros
 

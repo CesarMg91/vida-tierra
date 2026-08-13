@@ -144,6 +144,16 @@ Una controversia no implica empate. Registra qué parte está realmente abierta,
 | `CONT-ORDOVICIAN-LOME-TIMING-001` | Duración y sincronía de dos pulsos | CA-ID-TIMS de South China resuelve fases sub-Myr | correlaciones/globalidad permiten pulsos más protractados | dos fases robustas; bordes abiertos | B fases; C global |
 | `CONT-ORDOVICIAN-LOME-CAUSES-001` | Glaciación, anoxia, volcanismo o tasa | secuencia climática–eustática–redox acoplada | un motor domina uno o ambos pulsos | abierta en pesos y mortalidad | B-COND marco; C-D pesos |
 | `CONT-ORDOVICIAN-RECOVERY-001` | ¿Recuperación rápida o retrasada? | ecospace/arquitecturas sobreviven relativamente | riqueza previa tarda ≥35 Myr bajo algunas curvas | abierta por métrica y escala | B-COND |
+| `CONT-SILURIAN-RECOVERY-SCALE-001` | ¿~5 Myr o ≥35 Myr? | Laurentia estandarizada recupera rápido | curvas globales y otras métricas tardan mucho más | abierta por escala/base | B-COND |
+| `CONT-SILURIAN-RECOVERY-METRIC-001` | ¿Qué significa recuperar? | riqueza vuelve a una línea de base | composición, dominancia y función forman otro estado | abierta por variable | B |
+| `CONT-SILURIAN-REEFS-001` | ¿Retorno global de arrecifes? | South China y Laurentia muestran marcos aeroniences | plataformas/facies preservan mosaicos regionales | abierta en cobertura | B regional; C global |
+| `CONT-SILURIAN-EVENTS-001` | Alcance de Ireviken, Mulde y Lau | rangos y quimioestratigrafía reconocen tres pulsos | magnitud/sincronía cambian fuera de Gotland | eventos resueltos; bordes abiertos | B; C globalidad |
+| `CONT-SILURIAN-REDOX-001` | ¿Qué causó cada evento? | nivel, enfriamiento y aguas reductoras ofrecen mecanismos | reservorios/diagénesis y selectividad permiten secuencias distintas | abierta en pesos | B-COND ambiente; C-D causa |
+| `CONT-SILURIAN-SPORES-001` | ¿Las triletes marcan radiación vascular? | transición coincide con macrofósiles | productor puede estar en tallo y abundancia sigue la costa | abierta en identidad | B-COND |
+| `CONT-SILURIAN-VASCULAR-001` | ¿Todo `Cooksonia` fue vascular? | forma simple encaja con poliesporangiófitos | sólo algunos ejemplares conservan traqueidas | vascularidad por ejemplar | B cuerpos; A-B tejido |
+| `CONT-SILURIAN-FUNGI-001` | Afinidad y función de `Tortotubus` | crecimiento sostiene Fungi y cordones del sustrato | no fija Dikarya, descomposición o simbiosis | Fungi probable; función abierta | B-COND |
+| `CONT-SILURIAN-PNEUMODESMUS-001` | Edad del respirador aéreo | nuevas esporas/circones favorecen Wenlock tardío | bloques/facies y circones permitieron edad devónica | abierta en correlación fina | B respiración; B-COND edad |
+| `CONT-SILURIAN-COASTAL-001` | ¿Terrestre, transportado o acuático? | anatomía/contexto sostienen varios casos terrestres | costa y Lagerstätte mezclan procedencia y hábitat | abierta por taxón | B-COND |
 
 ## CONT-COSMOS-H0-001 — Dos rutas hacia la tasa actual
 
@@ -1153,3 +1163,63 @@ La narrativa clásica separa glaciación/eustasia y deglaciación/anoxia; proxie
 Riqueza, composición, ecospace y dominancia tienen tiempos diferentes. Persistir con funciones parecidas no equivale a recuperar los mismos taxones ni el mismo número.
 
 **Prueba discriminatoria:** series Silúrico–Devónicas con taxonomía estable, muestreo corregido y métricas paralelas de riqueza, rasgos, redes y diversidad regional/global.
+
+## CONT-SILURIAN-RECOVERY-SCALE-001 — Varios cronómetros legítimos
+
+Laurentia recupera riqueza bentónica en ~5 Myr bajo estandarización; curvas agregadas necesitan mucho más. No son dos estimaciones del mismo universo muestral.
+
+**Prueba discriminatoria:** análisis preregistrado con los mismos clados, bins, línea de base y cobertura aplicado a varias paleoplacas y escalas agregadas.
+
+## CONT-SILURIAN-RECOVERY-METRIC-001 — Volver sin ser la misma comunidad
+
+Riqueza puede rebotar mediante inmigración mientras composición, dominancia y ecospace cambian. La palabra recuperación oculta el denominador si no declara variable.
+
+**Prueba discriminatoria:** series paralelas de riqueza, beta-diversidad, rasgos, abundancia y redes con intervalos de incertidumbre compartidos.
+
+## CONT-SILURIAN-REEFS-001 — Arquitectura regional, etiqueta global
+
+South China y Laurentia conservan arrecifes aeroniences correlacionables, pero la disponibilidad de carbonatos y la preservación controlan dónde puede verse el retorno.
+
+**Prueba discriminatoria:** volumen, diversidad y constructores por paleoplaca normalizados por área/tiempo de plataforma carbonatada.
+
+## CONT-SILURIAN-EVENTS-001 — Tres nombres buscan bordes comunes
+
+Ireviken, Mulde y Lau son señales bióticas/geoquímicas repetidas; sus inicios, magnitudes y taxones afectados no se trasladan automáticamente desde Gotland a todo océano.
+
+**Prueba discriminatoria:** biozonas y edades de alta resolución en múltiples paleocuencas con taxonomía común y facies equivalentes.
+
+## CONT-SILURIAN-REDOX-001 — Correlacionar no mata
+
+Euxinia, enfriamiento y nivel del mar son mecanismos plausibles por evento. Las curvas de carbono pueden cambiar por entierro, productividad, circulación o diagénesis y no seleccionan al agente por sí solas.
+
+**Prueba discriminatoria:** proxies co-ubicados con rangos, fisiología y predicciones exclusivas de mortalidad por profundidad y cuenca.
+
+## CONT-SILURIAN-SPORES-001 — Una señal reproductiva sin tallo
+
+Las triletes enlazan meiosis y dispersión, y su expansión coincide con cuerpos más diagnósticos. El productor exacto y la relación con la corona vascular no están preservados.
+
+**Prueba discriminatoria:** esporas in situ dentro de esporangios conectados a ejes con anatomía conductora, repetidas en localidades independientes.
+
+## CONT-SILURIAN-VASCULAR-001 — El nombre no sustituye la traqueida
+
+`Cooksonia` agrupa una morfología externa simple. Asignar vascularidad a todo ejemplar extrapola desde fósiles que sí conservan tejido a otros que sólo conservan contorno.
+
+**Prueba discriminatoria:** anatomía interna mediante secciones/microtomografía y esporas in situ en material tipo y nuevas poblaciones.
+
+## CONT-SILURIAN-FUNGI-001 — Un hongo sin seta ni oficio conocido
+
+El crecimiento de `Tortotubus` favorece Fungi, pero no define clado moderno ni demuestra descomposición, micorriza o estabilización global de suelo.
+
+**Prueba discriminatoria:** caracteres ultraestructurales/químicos adicionales y asociaciones repetidas en posición de crecimiento con sustratos o huéspedes identificados.
+
+## CONT-SILURIAN-PNEUMODESMUS-001 — Anatomía estable, calendario revisado
+
+Los espiráculos probables y la edad dependen de pruebas diferentes. Nuevas esporas/circones favorecen Wenlock tardío, pero la conexión entre bloques y nivel fosilífero sigue siendo el cuello de botella.
+
+**Prueba discriminatoria:** ceniza primaria directamente intercalada en el bloque fosilífero, CA-ID-TIMS y palinología co-localizada con estructura resuelta.
+
+## CONT-SILURIAN-COASTAL-001 — El depósito no es el hábitat
+
+Esporas y cuerpos continentales pueden terminar en mar; organismos acuáticos pueden parecer terrestres. `Parioscorpio` muestra cómo más ejemplares deshacen una silueta convincente.
+
+**Prueba discriminatoria:** anatomía respiratoria/locomotora, facies, orientación, desgaste y repetición en contextos inequívocamente no marinos.
