@@ -41,6 +41,9 @@ Una controversia no implica empate. Registra qué parte está realmente abierta,
 | `CONT-MOON-MAGMAOCEAN-001` | ¿Océano de magma global? | diferenciación extensa con flotación de plagioclasa | magmatismo seriado, fundido parcial o múltiples reservorios | abierta en extensión/duración | B para fusión extensa; C-D para geometría |
 | `CONT-HADEAN-WATER-001` | ¿Había océanos a 4.4 Ga? | zircones sugieren agua superficial/corteza reciclada | señal de fuente o alteración sin océano global persistente | abierta | C |
 | `CONT-HADEAN-NGB-001` | Edad de Nuvvuagittuq | intrusiones de ~4.16 Ga y encajantes más antiguas | edades arqueanas ~3.8 Ga o edades modelo heredadas/reset | reabierta y fortalecida en 2025 | C-B-PROV |
+| `CONT-HADEAN-CRUST-VOLUME-001` | Volumen/composición de la primera corteza | zircones y Acasta registran magmas evolucionados/retrabajo | protocrust globalmente máfica y sesgo de preservación | abierta | B para existencia; D para volumen |
+| `CONT-HADEAN-TECTONICS-001` | Régimen geodinámico hadeano | subducción/arco en parte de Jack Hills | tapa estancada, plumas, goteo e impactos; diversidad regional | abierta | C |
+| `CONT-HADEAN-ACASTA-001` | Fuente y calor de Idiwhaa | fusión somera de basalto hidratado; analogía islandesa | impacto, pluma, enterramiento u otros mecanismos | abierta en mecanismo | C para fuente; D para calor |
 | `CONT-HADEAN-LHB-001` | ¿Hubo un cataclismo único a ~3.9 Ga? | episodio elevado o combinación de poblaciones | cola monótona de acreción y sesgo de muestras Apollo | abierta | D para pico único |
 
 ## CONT-COSMOS-H0-001 — Dos rutas hacia la tasa actual
@@ -247,6 +250,28 @@ El grano registra una historia local de fuente cortical y alteración. Aun acept
 ## CONT-HADEAN-NGB-001 — Las rocas más antiguas
 
 El debate histórico enfrentó edades modelo `146Sm–142Nd` de hasta ~4.28 Ga con edades U–Pb y `147Sm–143Nd` más jóvenes. Sole et al. (2025) analizaron intrusiones metagabroicas y reportaron concordancia de los dos relojes Sm–Nd cerca de 4.16 Ga, además de relaciones de corte que vuelven más antiguas a las encajantes.
+
+La evidencia contraria no desaparece: zircones detríticos de metasedimentos asociados limitan su depósito a ~3.75–3.78 Ga, y metamorfismo/mezcla pueden heredar anomalías de una fuente más antigua. La pregunta decisiva es qué paquetes están realmente correlacionados y si las regresiones pertenecen a cuerpos co-genéticos.
+
+**Prueba discriminatoria:** nuevas intrusiones cartografiadas y muestreadas a ciegas, isócronas mineral–roca en laboratorios independientes, geocronómetros adicionales y una estratigrafía que explique conjuntamente contactos y sedimentos.
+
+## CONT-HADEAN-CRUST-VOLUME-001 — El superviviente no es un censo
+
+Zircon resiste erosión, transporte y metamorfismo y se concentra en sedimentos. Esa propiedad conserva el Hadeano, pero favorece magmas y minerales específicos. La presencia de fuentes evolucionadas es robusta; su proporción planetaria no se obtiene contando granos supervivientes.
+
+**Prueba discriminatoria:** poblaciones con procedencia y selección cuantificadas, residuos máficos complementarios, presupuestos Hf–Nd de terrenos independientes y modelos de preservación que predigan la distribución observada.
+
+## CONT-HADEAN-TECTONICS-001 — Una firma de arco no es un mapa de placas
+
+U/Nb, Sc/Yb, Hf, O e inclusiones pueden favorecer fusión hidratada y enterramiento. Plumas, impactos y retrabajo intracortical pueden compartir parte de esas señales. El estudio comparativo de 2026 favorece estilos contemporáneos distintos entre Jack Hills y Barberton, no una etiqueta global.
+
+**Prueba discriminatoria:** clasificadores geoquímicos establecidos antes del análisis, múltiples terrenos, gradientes P–T y relaciones cinemáticas coherentes que separen subducción local de placas rígidas globales.
+
+## CONT-HADEAN-ACASTA-001 — La edad no elige la fuente de calor
+
+Idiwhaa es una roca evolucionada de ~4.02 Ga compatible con fusión somera de protocrust máfica hidratada. Analogía islandesa e impacto reproducen subconjuntos de la química/física, pero no identifican el evento histórico.
+
+**Prueba discriminatoria:** firmas de choque co-genéticas, edades y texturas que conecten el fundido a un impacto; o una alternativa térmica que reproduzca presión, volumen, composición y duración con menos ajustes.
 
 **Por qué no se cierra automáticamente:** una publicación reciente necesita replicación; la interpretación depende de petrología, co-geneticidad, metamorfismo y significado de isócrona. `4.16 Ga` fecha la intrusión interpretada, mientras que la roca cortada recibe un límite mínimo.
 

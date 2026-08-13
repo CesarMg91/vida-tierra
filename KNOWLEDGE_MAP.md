@@ -229,3 +229,19 @@ SPH + disco + enfriamiento→ familias mecánicamente viables ─────┘
 ```
 
 Véase `INV-MOON-ORIGIN-001` en `02_formacion_tierra`, su mapa en `assets/visuales/mapa-investigacion-008.svg` y la matriz en `assets/visuales/restricciones-origen-luna.svg`.
+
+La ruta específica de la primera corteza es:
+
+```text
+zircon detrítico + U–Pb ───→ edad de cristal, roca fuente perdida ─┐
+Hf + O + trazas ───────────→ fuente diferenciada / retrabajo ─────┤
+Acasta + U–Pb de campo ────→ protolito preservado ~4.03 Ga ───────┤
+petrología de Idiwhaa ─────→ fuente máfica hidratada ──────────────┤
+dos Sm–Nd en NGB ──────────→ intrusión ~4.16 Ga ──────────────────┤
+contacto de corte NGB ─────→ encajante anterior ───────────────────┘
+                                      ↓
+                 diferenciación temprana: B-COND
+                 volumen / placas globales: D–E
+```
+
+Véase `INV-HADEAN-CRUST-001` en `02_formacion_tierra`, su mapa en `assets/visuales/mapa-investigacion-009.svg` y la comparación en `assets/visuales/tres-archivos-corteza-hadeana.svg`.
