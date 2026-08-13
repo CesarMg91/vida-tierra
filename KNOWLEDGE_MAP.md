@@ -1034,3 +1034,30 @@ idoneidad climática ≠ presencia
 Papúa conserva una controversia entre una expansión principal y una contribución anterior pequeña. La meseta persa y la ampliación del nicho africano son hipótesis geográficas/ecológicas condicionadas. Ninguna sustituye al cuerpo o genoma que falta.
 
 Véase `INV-SAPIENS-OoA-001` en `13_migraciones`, su mapa en `assets/visuales/mapa-investigacion-043.svg` y la doble cadena en `assets/visuales/de-presencia-a-dispersion-y-de-genoma-a-descendencia.svg`.
+
+### Investigación 044 — Poblamiento de Asia y Sahul
+
+```text
+resto/motivo + procedencia + reloj ───────────> presencia o mínimo local ───────┐
+bathimetría + nivel del mar ─────────────────> barrera acuática necesaria ─────┤
+corrientes + visibilidad + coste ────────────> corredor posible ───────────────┤
+sedimento + micromorfología ─────────────────> ocupación / ausencia local ─────┤
+demografía + ambiente ───────────────────────> viabilidad y rapidez modeladas ┤
+genomas + afinidad + coalescencia ───────────> divergencia / estructura ───────┘
+                                                                                │
+                                                                                └─> no hay ruta, bote, censo o continuidad automáticos
+```
+
+Tam Pà Ling y Lida Ajer fijan presencias condicionadas. Fuyan muestra que un cuerpo no hereda sin control la edad de su cueva. Muna conserva un mínimo U-series del motivo, no una fecha directa del pigmento o del autor. Laili aporta una ausencia local `59–54 ka` y ocupación intensa desde `~44 ka`; Madjedbebe conserva un extremo `~65 ka` discutido.
+
+```text
+Wallacea exige agua → capacidad marítima B-COND → vehículo D
+LCP/paleocorrientes → norte o mixto C → viaje observado: no
+modelo fundador → 1,300–1,550 / flujos ≥130 → censo: no
+split papú–australiano → 25–40 o ~47 ka → desembarco: no
+estructura regional → persistencia biológica → cultura inmutable: no
+```
+
+La síntesis conserva firme el poblamiento de Sahul hacia `~50–45 ka`, deja condicional el extremo de `~65 ka` y abre rutas, vehículo, tamaño real y lugar de mezcla denisovana. Costas sumergidas y preservación tropical dominan el sesgo espacial.
+
+Véase `INV-MIGR-ASIA-AUS-001` en `13_migraciones`, su mapa en `assets/visuales/mapa-investigacion-044.svg` y la cronología multiarquivo en `assets/visuales/cronologia-archivos-asia-sahul.svg`.

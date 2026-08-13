@@ -1,0 +1,116 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Mapa epistemológico de la Investigación 044</title>
+  <desc id="desc">Cadena desde objetos arqueológicos, sedimentos, geografía y genomas hasta resultados separados de presencia, cronología, corredor, capacidad marítima y ascendencia, con límites explícitos.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#101821"/>
+      <stop offset="1" stop-color="#172b32"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="8" stdDeviation="10" flood-color="#000" flood-opacity="0.26"/>
+    </filter>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto">
+      <path d="M0 0 L10 5 L0 10 Z" fill="#d3a15f"/>
+    </marker>
+    <style>
+      .h1{font:700 38px system-ui,-apple-system,"Segoe UI",sans-serif;fill:#f4ead8}
+      .sub{font:400 19px system-ui,-apple-system,"Segoe UI",sans-serif;fill:#b9c8ca}
+      .cap{font:700 17px system-ui,-apple-system,"Segoe UI",sans-serif;letter-spacing:.08em;fill:#dfb06b}
+      .boxTitle{font:700 22px system-ui,-apple-system,"Segoe UI",sans-serif;fill:#f5ead6}
+      .body{font:400 17px system-ui,-apple-system,"Segoe UI",sans-serif;fill:#d1dcdb}
+      .small{font:400 15px system-ui,-apple-system,"Segoe UI",sans-serif;fill:#aebebf}
+      .result{font:700 19px system-ui,-apple-system,"Segoe UI",sans-serif;fill:#102129}
+      .resultSub{font:500 15px system-ui,-apple-system,"Segoe UI",sans-serif;fill:#2a4147}
+      .limit{font:650 16px system-ui,-apple-system,"Segoe UI",sans-serif;fill:#ffc98d}
+    </style>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <circle cx="1460" cy="72" r="150" fill="#1d4d55" opacity=".18"/>
+  <circle cx="90" cy="810" r="210" fill="#9b5d32" opacity=".12"/>
+
+  <text x="90" y="82" class="h1">Del objeto al resultado: cinco cortafuegos</text>
+  <text x="90" y="116" class="sub">Asia y Sahul · cada flecha añade una operación, un supuesto y una posible pérdida de escala</text>
+
+  <g filter="url(#shadow)">
+    <rect x="90" y="178" width="245" height="230" rx="20" fill="#21333b" stroke="#49636a"/>
+    <rect x="380" y="178" width="245" height="230" rx="20" fill="#21333b" stroke="#49636a"/>
+    <rect x="670" y="178" width="245" height="230" rx="20" fill="#21333b" stroke="#49636a"/>
+    <rect x="960" y="178" width="245" height="230" rx="20" fill="#21333b" stroke="#49636a"/>
+    <rect x="1250" y="178" width="260" height="230" rx="20" fill="#21333b" stroke="#49636a"/>
+  </g>
+
+  <text x="118" y="218" class="cap">1 · OBJETO</text>
+  <text x="118" y="258" class="boxTitle">Qué existe hoy</text>
+  <text x="118" y="295" class="body">resto · motivo</text>
+  <text x="118" y="323" class="body">artefacto · sedimento</text>
+  <text x="118" y="351" class="body">costa · genoma</text>
+  <text x="118" y="384" class="small">con procedencia y unidad</text>
+
+  <text x="408" y="218" class="cap">2 · MEDICIÓN</text>
+  <text x="408" y="258" class="boxTitle">Qué registra</text>
+  <text x="408" y="295" class="body">U–Th · OSL · ¹⁴C</text>
+  <text x="408" y="323" class="body">microfacies · bathimetría</text>
+  <text x="408" y="351" class="body">variantes · LD · IBD</text>
+  <text x="408" y="384" class="small">señal + incertidumbre</text>
+
+  <text x="698" y="218" class="cap">3 · ASOCIACIÓN</text>
+  <text x="698" y="258" class="boxTitle">Qué pertenece</text>
+  <text x="698" y="295" class="body">costra sobre pigmento</text>
+  <text x="698" y="323" class="body">artefacto en estrato</text>
+  <text x="698" y="351" class="body">muestra en población</text>
+  <text x="698" y="384" class="small">integridad y comparadores</text>
+
+  <text x="988" y="218" class="cap">4 · MODELO</text>
+  <text x="988" y="258" class="boxTitle">Qué transforma</text>
+  <text x="988" y="295" class="body">Bayes · LCP · deriva</text>
+  <text x="988" y="323" class="body">demografía · ABC</text>
+  <text x="988" y="351" class="body">coalescencia · flujo</text>
+  <text x="988" y="384" class="small">alternativas y priors</text>
+
+  <text x="1278" y="218" class="cap">5 · ADVERSARIO</text>
+  <text x="1278" y="258" class="boxTitle">Qué podría imitarlo</text>
+  <text x="1278" y="295" class="body">mezcla · sistema abierto</text>
+  <text x="1278" y="323" class="body">bioturbación · deriva</text>
+  <text x="1278" y="351" class="body">estructura · muestreo</text>
+  <text x="1278" y="384" class="small">prueba discriminatoria</text>
+
+  <path d="M335 293 H370" stroke="#d3a15f" stroke-width="4" marker-end="url(#arrow)"/>
+  <path d="M625 293 H660" stroke="#d3a15f" stroke-width="4" marker-end="url(#arrow)"/>
+  <path d="M915 293 H950" stroke="#d3a15f" stroke-width="4" marker-end="url(#arrow)"/>
+  <path d="M1205 293 H1240" stroke="#d3a15f" stroke-width="4" marker-end="url(#arrow)"/>
+
+  <text x="90" y="478" class="cap">RESULTADOS PERMITIDOS · NO SON SINÓNIMOS</text>
+  <g filter="url(#shadow)">
+    <rect x="90" y="515" width="266" height="102" rx="18" fill="#d9b476"/>
+    <rect x="379" y="515" width="266" height="102" rx="18" fill="#b8d7d2"/>
+    <rect x="668" y="515" width="266" height="102" rx="18" fill="#7fb4b4"/>
+    <rect x="957" y="515" width="266" height="102" rx="18" fill="#e2c696"/>
+    <rect x="1246" y="515" width="266" height="102" rx="18" fill="#9fc1c9"/>
+  </g>
+  <text x="223" y="558" text-anchor="middle" class="result">PRESENCIA</text>
+  <text x="223" y="586" text-anchor="middle" class="resultSub">local + intervalo</text>
+  <text x="512" y="558" text-anchor="middle" class="result">CRONOLOGÍA</text>
+  <text x="512" y="586" text-anchor="middle" class="resultSub">del objeto fechado</text>
+  <text x="801" y="558" text-anchor="middle" class="result">CORREDOR</text>
+  <text x="801" y="586" text-anchor="middle" class="resultSub">posible bajo modelo</text>
+  <text x="1090" y="558" text-anchor="middle" class="result">CAPACIDAD</text>
+  <text x="1090" y="586" text-anchor="middle" class="resultSub">marítima mínima</text>
+  <text x="1379" y="558" text-anchor="middle" class="result">ASCENDENCIA</text>
+  <text x="1379" y="586" text-anchor="middle" class="resultSub">y estructura modeladas</text>
+
+  <g stroke="#d87954" stroke-width="3" stroke-dasharray="9 8" opacity=".95">
+    <path d="M223 617 V682"/>
+    <path d="M512 617 V682"/>
+    <path d="M801 617 V682"/>
+    <path d="M1090 617 V682"/>
+    <path d="M1379 617 V682"/>
+  </g>
+  <text x="223" y="716" text-anchor="middle" class="limit">≠ ruta completa</text>
+  <text x="512" y="716" text-anchor="middle" class="limit">≠ llegada continental</text>
+  <text x="801" y="716" text-anchor="middle" class="limit">≠ trayecto observado</text>
+  <text x="1090" y="716" text-anchor="middle" class="limit">≠ bote identificado</text>
+  <text x="1379" y="716" text-anchor="middle" class="limit">≠ cultura inmutable</text>
+
+  <rect x="90" y="772" width="1420" height="68" rx="18" fill="#1b252c" stroke="#4b6167"/>
+  <text x="800" y="813" text-anchor="middle" class="body">Confianza: A–B · agua y poblamiento ~50–45 ka  |  C · rutas, extremos y demografía  |  D · vehículo y continuidad cultural total</text>
+</svg>

@@ -607,6 +607,20 @@ El mapa separa cinco archivos y cuatro productos; impide convertir un sitio en s
 
 La doble cadena conserva el objeto fechado y el umbral genómico. El puente entre presencia y continuidad requiere evidencia independiente y no se dibuja como una flecha geográfica.
 
+## 45. Investigación 044 — Poblamiento de Asia y Sahul
+
+![Portada editorial de archivos arqueológicos, marinos y genómicos](assets/visuales/hero-poblamiento-asia-sahul.png)
+
+> **Portada editorial:** reúne fragmentos minerales, restos genéricos, sedimentos, industria, conchas y señales genómicas en bandejas separadas. El relieve central es compuesto y no georreferenciado: no reconstruye una paleocosta ni un mapa de Sunda–Wallacea–Sahul, y su secuencia de fragmentos no favorece ruta norte, sur o mixta.
+
+![Mapa epistemológico de cinco cortafuegos](assets/visuales/mapa-investigacion-044.svg)
+
+El mapa recorre objeto, medición, asociación, modelo y adversario antes de separar presencia, cronología, corredor, capacidad y ascendencia. Cada resultado declara la inferencia que no autoriza.
+
+![Cronología multiarquivo de Asia y Sahul](assets/visuales/cronologia-archivos-asia-sahul.svg)
+
+Los carriles mantienen aparte cuerpos/mínimos, sitios, mar/modelos y genomas. Muna no fecha directamente pigmento o autor; Laili es ausencia local; la divergencia papú–australiana no es desembarco.
+
 ## Procedencia
 
 El registro de creación, límites y prompt de cada pieza está en [`assets/visuales/README.md`](assets/visuales/README.md).

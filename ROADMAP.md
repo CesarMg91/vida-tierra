@@ -105,7 +105,7 @@ En cada periodo se auditarán primero sus límites cronoestratigráficos y despu
 | Orden | ID | Pregunta |
 |---:|---|---|
 | 043 | `INV-SAPIENS-OoA-001` | [¿Cuántas salidas de África hubo y cuáles dejaron descendencia?](13_migraciones/INVESTIGACION_043_SALIDAS_AFRICA_DESCENDENCIA.md) — **AUDITADO** |
-| 044 | `INV-MIGR-ASIA-AUS-001` | poblamiento de Asia y Sahul |
+| 044 | `INV-MIGR-ASIA-AUS-001` | [¿Cómo se poblaron Asia y Sahul sin convertir sitios, rutas y genomas en una sola historia?](13_migraciones/INVESTIGACION_044_POBLAMIENTO_ASIA_SAHUL.md) — **AUDITADO** |
 | 045 | `INV-MIGR-EUROPE-001` | llegada a Europa y coexistencia |
 | 046 | `INV-MIGR-AMERICAS-001` | ¿cuándo y por qué rutas se poblaron las Américas? |
 | 047 | `INV-MIND-TOOLS-FIRE-001` | herramientas, fuego y cooperación |
@@ -123,7 +123,7 @@ Esta línea abre un marco comparativo antes de que la secuencia global alcance `
 |---:|---|---|---|
 | CIV-001 | `INV-CIV-ORIGINS-001` | [sedentarismo, almacenamiento, domesticaciones, urbanismo, administración y autoridad en carriles regionales](14_civilizaciones/INVESTIGACION_CIV_001_ORIGENES_ALDEAS_CIUDADES_ESTADOS.md) | **TRAZADO** |
 
-El marco crítico y el programa regional están en [`14_civilizaciones/MARCO_CRITICO_CIVILIZACION.md`](14_civilizaciones/MARCO_CRITICO_CIVILIZACION.md) y [`14_civilizaciones/PROGRAMA_CRONOLOGICO_GLOBAL.md`](14_civilizaciones/PROGRAMA_CRONOLOGICO_GLOBAL.md). La próxima investigación de la secuencia global es `INV-MIGR-ASIA-AUS-001`.
+El marco crítico y el programa regional están en [`14_civilizaciones/MARCO_CRITICO_CIVILIZACION.md`](14_civilizaciones/MARCO_CRITICO_CIVILIZACION.md) y [`14_civilizaciones/PROGRAMA_CRONOLOGICO_GLOBAL.md`](14_civilizaciones/PROGRAMA_CRONOLOGICO_GLOBAL.md). La próxima investigación de la secuencia global es `INV-MIGR-EUROPE-001`.
 
 ## Fase 7 — Ramas transversales
 
@@ -192,6 +192,7 @@ Después de disponer de la secuencia base:
 - `v0.1.40`: Investigación 041 + historia de formas humanas tardías mosaico + mapas de cuatro resultados y dos cadenas, actualizados con clima y revisión de Rising Star de 2025 y tafonomía de Flores/filogenia de Luzón de 2026.
 - `v0.1.41`: Investigación 042 + historia de la cuna única a poblaciones estructuradas + mapas de cinco productos y dos cadenas, actualizados con `cobraa` 2025, genomas meridionales y Amanzi Springs de 2026.
 - `v0.1.42`: Investigación 043 + historia de la salida única a dispersiones repetidas + mapas de presencia, expansión y descendencia, actualizados con Ranis/Zlatý kůň, hub persa y expansión de nicho africano.
+- `v0.1.43`: Investigación 044 + historia de la flecha a archivos incompatibles + mapas de cortafuegos y cronología multiarquivo, actualizados con Muna 2026, Laili, paleocorrientes y genómica indígena.
 - `v0.2`: Hadeano/Arcaico auditados.
 - `v0.3`: Proterozoico y origen/temprana evolución de la vida.
 - `v0.4`: Fanerozoico completo.
