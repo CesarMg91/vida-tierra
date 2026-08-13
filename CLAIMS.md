@@ -665,6 +665,40 @@ Este archivo es el índice canónico. La letra de confianza califica exactamente
 | `CLAIM-ADAPTIVE-INTROGRESSION-LIMIT-001` | Afinidad, aumento de frecuencia y efecto fisiológico son pasos distintos; el donante exacto y ventaja universal no están demostrados. | A-SEM; B-COND aplicación | AUDITADO | `EVID-EPAS1-001` | `INV-NEAND-DENIS-001` |
 | `CLAIM-ADMIXTURE-STRUCTURE-ADVERSARY-001` | Simulaciones estructuradas sin mezcla produjeron falsos tractos/eventos en métodos probados; estructura debe competir como modelo. | A-MET; C aplicación total | AUDITADO | `EVID-STRUCTURE-ADVERSARY-001` | `INV-NEAND-DENIS-001` |
 | `CLAIM-INTERBREEDING-TAXON-LIMIT-001` | Flujo fértil no obliga a una sola especie y diferenciación morfológica no implica aislamiento absoluto. | A-SEM; C rango | AUDITADO | `EVID-NEAND-DENIS-METHOD-001`, `EVID-DENISOVA11-GENOME-001` | `INV-NEAND-DENIS-001` |
+| `CLAIM-HOMO-OTHER-SCOPE-001` | Taxón, presencia, capacidad funcional, conducta, autoría y genealogía requieren objetos y puentes distintos. | A-SEM | AUDITADO | `EVID-HOMO-OTHER-METHOD-001` | `INV-HOMO-OTHER-001` |
+| `CLAIM-LATE-DIVERSITY-NONLINEAR-001` | Formas humanas anatómicamente mosaico coexistieron a escala amplia durante el Pleistoceno medio/tardío; no forman una escalera ni prueban encuentros. | B patrón; A contra escalera | AUDITADO | `EVID-HOMO-OTHER-METHOD-001`, `EVID-FLORES-CHRONOLOGY-001`, `EVID-NALEDI-DATE-001` | `INV-HOMO-OTHER-001` |
+| `CLAIM-TAXONOMY-SPECIES-LIMIT-001` | Un taxón fósil es una hipótesis diagnóstica sobre un hipodigma; no observa por sí solo aislamiento reproductivo, población completa o ancestro. | A-SEM; B aplicación | AUDITADO | `EVID-HOMO-OTHER-METHOD-001` | `INV-HOMO-OTHER-001` |
+| `CLAIM-FLORES-TAXON-001` | LB1 y restos de más individuos sostienen `H. floresiensis` por una combinación anatómica no reducida a variación humana moderna normal. | B | AUDITADO | `EVID-FLORES-TYPE-001` | `INV-HOMO-OTHER-001` |
+| `CLAIM-FLORES-CHRONOLOGY-2016-001` | La estratigrafía revisada sitúa cuerpos de Liang Bua en `~100–60 ka` y artefactos asociados en `~190–50 ka`; la asociación cercana a `12 ka` era incorrecta. | B-COND | AUDITADO | `EVID-FLORES-CHRONOLOGY-001` | `INV-HOMO-OTHER-001` |
+| `CLAIM-FLORES-WOLO-SEGE-001` | Artefactos bajo una ignimbrita de `1.02 ± 0.02 Ma` prueban presencia hominina anterior a esa erupción en Flores. | B | AUDITADO | `EVID-WOLO-SEGE-001` | `INV-HOMO-OTHER-001` |
+| `CLAIM-MATA-MENGE-AGE-001` | Fósiles y herramientas de Mata Menge proceden de depósitos de `~0.65–0.773 Ma`, resumidos cerca de `700 ka`. | B-COND | AUDITADO | `EVID-MATA-MENGE-CONTEXT-001` | `INV-HOMO-OTHER-001` |
+| `CLAIM-MATA-MENGE-AFFINITY-001` | Tamaño y rasgos dentognáticos compartidos hacen compatible una continuidad entre Mata Menge y Liang Bua, sin demostrar ancestro directo. | B-COND | AUDITADO | `EVID-MATA-MENGE-CONTEXT-001`, `EVID-MATA-MENGE-HUMERUS-001` | `INV-HOMO-OTHER-001` |
+| `CLAIM-LUZON-TAXON-001` | Trece elementos de al menos tres individuos sostienen `H. luzonensis` por su combinación dental y postcraneal. | B-COND | AUDITADO | `EVID-LUZON-TYPE-001` | `INV-HOMO-OTHER-001` |
+| `CLAIM-LUZON-CALLAO-DATE-001` | El metatarsiano CCH1 tiene una edad U-series mínima de `66.7 ± 1 ka`. | B-COND | AUDITADO | `EVID-CALLAO-DATE-001` | `INV-HOMO-OTHER-001` |
+| `CLAIM-LUZON-KALINGA-001` | Kalinga conserva 57 artefactos y un rinoceronte modificado entre `777 y 631 ka`, evidencia de actividad hominina sin fósil autor. | B | AUDITADO | `EVID-KALINGA-001` | `INV-HOMO-OTHER-001` |
+| `CLAIM-KALINGA-CALLAO-LINK-OPEN-001` | La presencia antigua de Kalinga no demuestra continuidad genealógica ni autoría por `H. luzonensis` de Callao. | A contra enlace; D autor | AUDITADO | `EVID-KALINGA-001`, `EVID-LUZON-TYPE-001` | `INV-HOMO-OTHER-001` |
+| `CLAIM-NALEDI-DEPOSITION-001` | Dinaledi contiene cuerpos relativamente completos, dominados por `H. naledi`, sin señal clara de carnívoros o transporte hidráulico; el proceso final sigue debatido. | B contexto; C proceso | AUDITADO | `EVID-NALEDI-CONTEXT-001`, `EVID-NALEDI-BURIAL-001` | `INV-HOMO-OTHER-001` |
+| `CLAIM-NALEDI-DATE-001` | Relojes y estratigrafía combinados restringen la deposición de Dinaledi a `335–236 ka`. | B-COND | AUDITADO | `EVID-NALEDI-DATE-001` | `INV-HOMO-OTHER-001` |
+| `CLAIM-NALEDI-LESEDI-001` | Lesedi aporta 131 restos de al menos tres individuos anatómicamente congruentes, incluido un cráneo de `~610 ml`; no hereda automáticamente la edad de Dinaledi. | B | AUDITADO | `EVID-NALEDI-LESEDI-001` | `INV-HOMO-OTHER-001` |
+| `CLAIM-FLORES-MOSAIC-001` | Cráneo, dentición, pelvis, proporciones, muñeca y pie de `H. floresiensis` forman un mosaico no ordenable en una escala lineal. | B | AUDITADO | `EVID-FLORES-TYPE-001`, `EVID-FLORES-WRIST-FOOT-001` | `INV-HOMO-OTHER-001` |
+| `CLAIM-FLORES-FOOT-WRIST-001` | La muñeca conserva configuraciones comparativamente basales y el pie es bípedo pero largo y mosaico. | B | AUDITADO | `EVID-FLORES-WRIST-FOOT-001` | `INV-HOMO-OTHER-001` |
+| `CLAIM-FLORES-PATHOLOGY-LIMIT-001` | Patologías propuestas para LB1 son adversarios necesarios, pero no explican de forma suficiente el hipodigma ni la pequeñez de Mata Menge. | B-COND | AUDITADO | `EVID-FLORES-TYPE-001`, `EVID-FLORES-PATHOLOGY-001`, `EVID-MATA-MENGE-HUMERUS-001` | `INV-HOMO-OTHER-001` |
+| `CLAIM-FLORES-ORIGIN-OPEN-001` | Una derivación insular de `H. erectus` asiático está favorecida por Mata Menge, pero matrices y homoplasia mantienen abierta la genealogía exacta. | B-COND | AUDITADO | `EVID-MATA-MENGE-HUMERUS-001`, `EVID-FLORES-PHYLOGENY-001` | `INV-HOMO-OTHER-001` |
+| `CLAIM-MATA-MENGE-BODY-2024-001` | El húmero adulto SOA-MM9 estima una longitud `9–16 %` menor que LB1 y apoya cuerpos diminutos en Flores hacia `700 ka`. | B-COND | AUDITADO | `EVID-MATA-MENGE-HUMERUS-001` | `INV-HOMO-OTHER-001` |
+| `CLAIM-FLORES-BEHAVIOR-2026-001` | Marcas de corte prueban acceso hominino a `Stegodon`; la tafonomía favorece carroñeo y no demuestra caza coordinada ni fuego controlado en esos niveles. | B marcas; C estrategia | AUDITADO | `EVID-FLORES-BEHAVIOR-001` | `INV-HOMO-OTHER-001` |
+| `CLAIM-FLORES-CLIMATE-2025-001` | Proxies registran una caída de lluvia de `~37 %` entre `76 y 61 ka` y máxima aridez estival `61–55 ka`; contribución al declive es plausible, no causalidad única. | B señal; C causa | AUDITADO | `EVID-FLORES-CLIMATE-001` | `INV-HOMO-OTHER-001` |
+| `CLAIM-FLORES-SAPIENS-CONTACT-OPEN-001` | Cuerpos de `H. floresiensis` terminan antes de la señal sapiens local de `~46 ka`; no hay encuentro, competencia o exterminio demostrados. | B secuencia; D interacción | AUDITADO | `EVID-FLORES-CHRONOLOGY-001`, `EVID-FLORES-CLIMATE-001` | `INV-HOMO-OTHER-001` |
+| `CLAIM-LUZON-PHYLOGENY-2026-001` | Árboles discordantes y homoplasia dejan abierta la posición de `H. luzonensis`; dientes/índices favorecen afinidad con `H. erectus` asiático. | C | AUDITADO | `EVID-LUZON-PHYLOGENY-001` | `INV-HOMO-OTHER-001` |
+| `CLAIM-ISLAND-CROSSING-LIMIT-001` | Presencia en islas oceánicas exige cruce de barreras acuáticas, pero no distingue dispersión accidental, transporte natural o navegación intencional. | A contra intención; C mecanismo | AUDITADO | `EVID-HOMO-OTHER-METHOD-001`, `EVID-WOLO-SEGE-001`, `EVID-KALINGA-001` | `INV-HOMO-OTHER-001` |
+| `CLAIM-NALEDI-TAXON-001` | Más de 1,500 especímenes iniciales de al menos quince individuos sostienen `H. naledi` como taxón anatómico. | B | AUDITADO | `EVID-NALEDI-TYPE-001` | `INV-HOMO-OTHER-001` |
+| `CLAIM-NALEDI-MOSAIC-001` | `H. naledi` combina endocráneo pequeño, hombro/tronco basales, mano mosaico y pie ampliamente bípedo. | B | AUDITADO | `EVID-NALEDI-TYPE-001`, `EVID-NALEDI-HAND-FOOT-001` | `INV-HOMO-OTHER-001` |
+| `CLAIM-NALEDI-TOOLS-LIMIT-001` | Mano y muñeca permiten inferir capacidades de manipulación, pero no hay industria segura en Dinaledi que identifique a `H. naledi` como fabricante. | B capacidad; D autor | AUDITADO | `EVID-NALEDI-HAND-FOOT-001` | `INV-HOMO-OTHER-001` |
+| `CLAIM-NALEDI-BURIAL-2025-001` | La versión revisada favorece entierro cultural, pero evaluación experta dividida y reanálisis geoarqueológico mantienen la conclusión controvertida. | C | AUDITADO | `EVID-NALEDI-BURIAL-001`, `EVID-NALEDI-BURIAL-ADVERSARY-001` | `INV-HOMO-OTHER-001` |
+| `CLAIM-NALEDI-ENGRAVINGS-2025-001` | Algunas líneas de Rising Star pueden ser artificiales, pero su edad y autoría por `H. naledi` no están demostradas. | C artificialidad; D fecha/autor | AUDITADO | `EVID-NALEDI-ENGRAVINGS-001` | `INV-HOMO-OTHER-001` |
+| `CLAIM-NALEDI-PHYLOGENY-001` | Análisis morfológicos sitúan `H. naledi` dentro de `Homo` bajo modelos condicionados, sin ancestro directo identificado. | C | AUDITADO | `EVID-NALEDI-PHYLOGENY-001` | `INV-HOMO-OTHER-001` |
+| `CLAIM-FLORES-MODERN-PYGMY-001` | Genomas humanos actuales de Flores/ISEA no muestran contribución adicional sustancial detectable de un taxón insular desconocido; eso no prueba ausencia histórica de contacto. | B-COND señal; D contacto | AUDITADO | `EVID-FLORES-GENOMICS-001` | `INV-HOMO-OTHER-001` |
+| `CLAIM-BRAIN-BEHAVIOR-LIMIT-001` | Volumen endocraneal no determina por sí solo capacidad, conducta realizada, simbolismo o simplicidad social. | A-SEM | AUDITADO | `EVID-HOMO-OTHER-METHOD-001`, `EVID-NALEDI-TYPE-001` | `INV-HOMO-OTHER-001` |
+| `CLAIM-FLORES-LIANG-BUA-ASSOCIATION-001` | La asociación de artefactos y fauna con `H. floresiensis` apoya actividad hominina local, pero no asigna cada pieza o marca a un individuo. | B asociación; C-D autoría | AUDITADO | `EVID-FLORES-CHRONOLOGY-001`, `EVID-FLORES-BEHAVIOR-001` | `INV-HOMO-OTHER-001` |
 
 ## Fichas resumidas
 
@@ -3353,6 +3387,72 @@ Este archivo es el índice canónico. La letra de confianza califica exactamente
 - **Adversario:** estructura ignorada puede crear falsos pulsos en simulaciones.
 - **Resistencia:** pedigree F1 y tractos muy largos no dependen del mismo modo de ese adversario.
 - **Taxonomía:** compatibilidad reproductiva y nombre de especie no son la misma prueba.
+
+## Investigación 041 — *Homo floresiensis*, *H. luzonensis*, *H. naledi* y diversidad tardía
+
+### CLAIM-HOMO-OTHER-SCOPE-001 / TAXONOMY-SPECIES-LIMIT-001 / LATE-DIVERSITY-NONLINEAR-001
+
+- **Separación:** taxón, presencia, capacidad, conducta, autor y genealogía son salidas distintas.
+- **Patrón:** poblaciones anatómicamente mosaico persistieron tardíamente en Asia insular y África.
+- **Límite:** coexistencia continental no prueba encuentro y un nombre no observa aislamiento reproductivo.
+
+### CLAIM-FLORES-TAXON-001 / MOSAIC-001 / PATHOLOGY-LIMIT-001
+
+- **Base:** LB1 y restos de más individuos conservan una combinación repetida y no moderna normal.
+- **Adversario:** patologías específicas deben compararse, pero no explican por sí solas todo el hipodigma ni Mata Menge.
+- **Límite:** diagnóstico taxonómico y normalidad clínica individual no son la misma pregunta.
+
+### CLAIM-FLORES-CHRONOLOGY-2016-001 / WOLO-SEGE-001 / MATA-MENGE-AGE-001
+
+- **Tres relojes:** tecnología antes de `1.02 Ma`, cuerpos cerca de `700 ka` y cuerpos tipo `~100–60 ka`.
+- **Corrección:** una inconformidad eliminó la asociación de LB1 con sedimentos cercanos a `12 ka`.
+- **Límite:** herramienta antigua, cuerpo intermedio y taxón tardío no forman automáticamente una genealogía continua.
+
+### CLAIM-MATA-MENGE-AFFINITY-001 / BODY-2024-001 / FLORES-ORIGIN-OPEN-001
+
+- **Resultado:** dientes, mandíbula y un húmero adulto apoyan una población muy pequeña hacia `700 ka`.
+- **Modelo favorecido:** reducción insular desde `H. erectus` asiático.
+- **Límite:** húmero incompleto, intervalo largo y homoplasia impiden observar al ancestro.
+
+### CLAIM-FLORES-BEHAVIOR-2026-001 / CLIMATE-2025-001 / SAPIENS-CONTACT-OPEN-001
+
+- **Conducta:** marcas prueban acceso a carcasas; carroñeo es favorecido y fuego local no está demostrado.
+- **Ambiente:** aridificación converge con la última presencia fósil sin probar extinción monocausal.
+- **Contacto:** la señal sapiens local es posterior; encuentro o exterminio siguen abiertos.
+
+### CLAIM-LUZON-TAXON-001 / CALLAO-DATE-001 / KALINGA-001
+
+- **Callao:** trece elementos sostienen un taxón tardío y un metatarsiano tiene mínimo `66.7 ± 1 ka`.
+- **Kalinga:** carnicería y herramientas prueban presencia hacia `709 ± 68 ka`.
+- **Límite:** seis siglos de milenios y ausencia de fósil impiden asignar fabricante o continuidad.
+
+### CLAIM-LUZON-PHYLOGENY-2026-001 / ISLAND-CROSSING-LIMIT-001
+
+- **Filogenia:** dientes e índices favorecen afinidad con `H. erectus`; árboles anatómicos discordantes mantienen C.
+- **Dispersión:** alcanzar islas exige cruzar agua, no intención náutica demostrada.
+
+### CLAIM-NALEDI-TAXON-001 / MOSAIC-001 / DATE-001 / LESEDI-001
+
+- **Base:** Dinaledi y Lesedi conservan muchos restos con anatomía congruente y mosaico.
+- **Reloj:** Dinaledi se restringe a `335–236 ka`; Lesedi no hereda sin medición el mismo intervalo.
+- **Límite:** forma comparativamente basal no es cronómetro.
+
+### CLAIM-NALEDI-DEPOSITION-001 / BURIAL-2025-001 / ENGRAVINGS-2025-001
+
+- **Contexto:** acumulación profunda y dominada por homininos reduce varios agentes naturales simples.
+- **Entierro:** versión revisada y adversarios geoarqueológicos producen evaluación dividida, nivel C.
+- **Marcas:** artificialidad es plausible; fecha y autoría por `H. naledi` permanecen D.
+
+### CLAIM-NALEDI-TOOLS-LIMIT-001 / BRAIN-BEHAVIOR-LIMIT-001 / NALEDI-PHYLOGENY-001
+
+- **Capacidad:** mano y pie permiten inferencias funcionales, no industria ni ritual.
+- **Cerebro:** volumen no funciona como veredicto positivo o negativo sobre conducta.
+- **Genealogía:** sin ADN, matrices incompletas y homoplasia condicionan la rama.
+
+### CLAIM-FLORES-MODERN-PYGMY-001 / FLORES-LIANG-BUA-ASSOCIATION-001
+
+- **Genomas actuales:** ausencia de señal adicional limita introgresión retenida, no contacto histórico.
+- **Asociación:** proximidad estratigráfica apoya actividad local, pero no identifica cada mano autora.
 
 ## Claims futuros
 

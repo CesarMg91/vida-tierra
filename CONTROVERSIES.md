@@ -324,6 +324,16 @@ Una controversia no implica empate. Registra qué parte está realmente abierta,
 | `CONT-PENGHU-AGE-001` | ¿En cuál ventana vivió Penghu 1? | `10–70 ka` | `130–190 ka` | afinidad firme; edad bimodal | C edad |
 | `CONT-EPAS1-ADAPTATION-001` | ¿Qué se introgresó y qué fue seleccionado? | haplotipo denisovano-like bajo selección | donante/variante/efecto dependientes del fondo | introgresión fuerte; mecanismo fino abierto | B-COND |
 | `CONT-HOMININ-CONTACT-SOCIAL-001` | ¿Qué contexto social tuvieron los contactos? | genomas restringen parentesco/dirección | múltiples conductas producen igual señal | biología accesible; motivos subdeterminados | D-E |
+| `CONT-FLORES-TAXON-PATHOLOGY-001` | ¿Especie insular o humano moderno con patología? | rasgos repetidos, mosaico y Mata Menge | patologías pueden afectar LB1 | taxón favorecido; diagnóstico individual limitado | B-COND |
+| `CONT-FLORES-ORIGIN-001` | ¿Deriva de `H. erectus` o de una rama más basal? | Mata Menge favorece reducción de erectus | matrices recuperan afinidades basales | derivación erectus favorecida; rama exacta abierta | B-COND/C |
+| `CONT-FLORES-BEHAVIOR-001` | ¿Cazó, carroñeó y controló fuego? | corte y herramientas prueban acceso | tafonomía favorece carroñeo; fuego no aparece in situ | acceso B; estrategia C; fuego D | B-D |
+| `CONT-FLORES-DISAPPEARANCE-001` | ¿Clima, sapiens u otros procesos explican su final? | aridificación coincide con última presencia | señal sapiens es posterior y hay hiatos | presión climática plausible; causa abierta | C-D |
+| `CONT-LUZON-KALINGA-LINK-001` | ¿Kalinga y Callao pertenecen al mismo linaje? | ambas presencias están en Luzón | >600 kyr, sitios separados y Kalinga sin fósil | presencia firme; continuidad/autor abiertos | B presencia; D enlace |
+| `CONT-ISLAND-CROSSING-001` | ¿Cruce intencional o dispersión accidental? | islas exigen atravesar agua | registro no conserva intención ni medio | cruce B; mecanismo C-D | C-D |
+| `CONT-LUZON-PHYLOGENY-001` | ¿Qué parentesco tiene `H. luzonensis`? | dientes favorecen `H. erectus` asiático | árboles discordantes y homoplasia | taxón B-COND; genealogía C | C |
+| `CONT-NALEDI-BURIAL-001` | ¿Hubo entierro cultural en Dinaledi? | concentraciones, articulación y cobertura selectiva | límites/relleno debatidos y geoquímica solapada | depósito inusual B; entierro C | C |
+| `CONT-NALEDI-ENGRAVINGS-001` | ¿Las marcas son artificiales, antiguas y de `H. naledi`? | microestrías e intersecciones | meteorización, fecha y visitantes posteriores | artificialidad C; edad/autor D | C-D |
+| `CONT-NALEDI-PHYLOGENY-001` | ¿Dónde se ubica `H. naledi` dentro de `Homo`? | matrices lo recuperan dentro del género | morfología mosaico, ausencias y sin ADN | afinidad condicionada; ancestro abierto | C |
 
 ## CONT-COSMOS-H0-001 — Dos rutas hacia la tasa actual
 
@@ -2412,3 +2422,63 @@ Afinidad denisovana y selección son fuertes; donante exacto, variante causal, m
 Pedigrees y dirección de flujo restringen parentescos biológicos. No discriminan consentimiento, captura, alianza, residencia, identidad o significado cultural.
 
 **Prueba discriminatoria:** ninguna señal genética aislada; se requerirían contextos arqueológicos repetidos y aun así muchas motivaciones podrían seguir infradeterminadas.
+
+## CONT-FLORES-TAXON-PATHOLOGY-001 — Taxón frente a patología individual
+
+LB1 motivó hipótesis de microcefalia y síndrome de Down. Rasgos compartidos por otros individuos y la pequeñez de Mata Menge hacen insuficiente convertir todo el hipodigma en una singularidad clínica, aunque LB1 pudo tener variación individual.
+
+**Prueba discriminatoria:** más individuos asociados, ontogenias comparables, criterios clínicos registrados antes del diagnóstico y fósiles insulares con las mismas combinaciones.
+
+## CONT-FLORES-ORIGIN-001 — `H. erectus` reducido frente a rama basal
+
+Mandíbula, dientes y húmero de Mata Menge favorecen reducción insular desde `H. erectus` asiático. Matrices previas recuperaron una posición más basal; la homoplasia y los caracteres faltantes pueden mover el árbol.
+
+**Prueba discriminatoria:** cráneo y postcráneo de `1.0–0.7 Ma`, proteínas o ADN auténticos y matrices que evalúen explícitamente convergencia insular.
+
+## CONT-FLORES-BEHAVIOR-001 — Acceso, estrategia y fuego
+
+Marcas de corte y herramientas demuestran actividad técnica; partes y orden de agentes favorecen carroñeo de `Stegodon`. La muestra no identifica cada autor ni excluye toda caza. Combustión sapiens posterior no fecha fuego en niveles floresiensis.
+
+**Prueba discriminatoria:** hogares in situ repetidos con micromorfología, residuos y termometría; conjuntos de carcasas que discriminen acceso primario y secundario.
+
+## CONT-FLORES-DISAPPEARANCE-001 — Aridificación, contacto o proceso local
+
+La aridificación de `76–61 ka` coincide con el final del registro fósil. La señal sapiens local desde `~46 ka` no solapa directamente los cuerpos conocidos. Una última presencia no equivale a fecha de extinción.
+
+**Prueba discriminatoria:** secuencias continuas `70–40 ka`, más localidades de Flores, ADN/proteínas ambientales y modelos ecológicos con mecanismos y controles regionales.
+
+## CONT-LUZON-KALINGA-LINK-001 — Dos presencias, una genealogía no observada
+
+Kalinga documenta actividad hacia `709 ± 68 ka`; Callao conserva `H. luzonensis` al menos a `66.7 ± 1 ka`. La misma isla no compensa el intervalo, la distancia ni la ausencia de cuerpo en Kalinga.
+
+**Prueba discriminatoria:** fósiles diagnósticos asociados a Kalinga y una secuencia intermedia de localidades fechadas.
+
+## CONT-ISLAND-CROSSING-001 — Llegar no revela intención
+
+Flores y Luzón exigieron atravesar barreras acuáticas. Deriva accidental, transporte por eventos y tecnología deliberada pueden producir presencia arqueológica sin dejar el medio de viaje.
+
+**Prueba discriminatoria:** conjuntos costeros repetidos, embarcaciones o tecnología directamente relacionada, patrones demográficos incompatibles con llegadas raras y modelos de deriva calibrados.
+
+## CONT-LUZON-PHYLOGENY-001 — Homoplasia insular y pocos restos
+
+Los caracteres dentales e índices favorecen una relación con `H. erectus` asiático, mientras regiones postcraneales producen árboles discordantes. La insularidad puede generar reversión o convergencia.
+
+**Prueba discriminatoria:** cráneo, mandíbula más completa, postcráneo asociado y biomoléculas antiguas de Callao.
+
+## CONT-NALEDI-BURIAL-001 — Acumulación excepcional frente a entierro cultural
+
+La profundidad, dominancia hominina y articulación parcial hacen inusual la acumulación. La versión revisada propone fosas y cobertura rápida; revisores y reanálisis cuestionan límites, relleno y separación geoquímica.
+
+**Prueba discriminatoria:** excavación independiente y ciega de concentraciones no abiertas, secciones completas, micro-CT/micromorfología, controles fuera de rasgo y predicciones publicadas antes de excavar.
+
+## CONT-NALEDI-ENGRAVINGS-001 — Marca, fecha y autor son tres pruebas
+
+Microestrías e intersecciones apoyan alteración artificial de algunas líneas. La pared carece de fecha directa y la proximidad a restos no excluye visitantes posteriores.
+
+**Prueba discriminatoria:** datación física del recubrimiento o superficie, replicación traceológica ciega y evidencia independiente del agente en el mismo episodio.
+
+## CONT-NALEDI-PHYLOGENY-001 — Una rama sin biomoléculas
+
+Cladística morfológica ubica `H. naledi` dentro de `Homo`, pero la combinación de estados, las ausencias y el gran intervalo fantasma permiten varias posiciones.
+
+**Prueba discriminatoria:** proteínas o ADN auténticos, fósiles intermedios completos y análisis de sensibilidad a caracteres correlacionados y homoplasia.

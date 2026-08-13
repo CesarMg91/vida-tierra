@@ -97,7 +97,7 @@ En cada periodo se auditarán primero sus límites cronoestratigráficos y despu
 | 038 | `INV-HOMO-EARLY-001` | [¿Cómo reconocemos a Homo temprano, habilis y erectus si fósiles, herramientas, cuerpos y moléculas responden preguntas distintas?](08_cenozoico/INVESTIGACION_038_HOMO_TEMPRANO_HABILIS_ERECTUS.md) — **AUDITADO** |
 | 039 | `INV-HOMO-MIDDLE-001` | [¿Cómo reconstruimos las poblaciones humanas del Pleistoceno medio sin convertir Homo heidelbergensis en un cajón de sastre ni cada fósil en un ancestro?](08_cenozoico/INVESTIGACION_039_HOMO_PLEISTOCENO_MEDIO_HEIDELBERGENSIS.md) — **AUDITADO** |
 | 040 | `INV-NEAND-DENIS-001` | [¿Cómo sabemos quiénes fueron neandertales y denisovanos y cuándo hubo mestizaje sin confundir un fósil, una genealogía y un porcentaje de ancestría?](08_cenozoico/INVESTIGACION_040_NEANDERTALES_DENISOVANOS_MESTIZAJE.md) — **AUDITADO** |
-| 041 | `INV-HOMO-OTHER-001` | floresiensis, naledi y diversidad tardía |
+| 041 | `INV-HOMO-OTHER-001` | [¿Cómo reconstruimos a Homo floresiensis, H. luzonensis y H. naledi sin confundir morfología mosaico, asociación arqueológica y conducta?](08_cenozoico/INVESTIGACION_041_FLORESIENSIS_NALEDI_DIVERSIDAD_TARDIA.md) — **AUDITADO** |
 | 042 | `INV-SAPIENS-ORIGIN-001` | origen africano: región única o población estructurada |
 
 ## Fase 6 — Expansión, mente y civilización
@@ -188,6 +188,8 @@ Después de disponer de la secuencia base:
 - `v0.1.36`: Investigación 037 + historia de Taung/Lucy/“cascanueces” a hipodigmas y proxies + mapas de seis rutas, actualizados con `A. deyiremeda` y mano de `P. boisei` de 2025, `Paranthropus` del Afar y locomoción sudafricana de 2026.
 - `v0.1.37`: Investigación 038 + historia de Java/OH 7/Dmanisi a hipodigmas, variación y paleoproteómica + mapas de ocho rutas y dos cadenas, actualizados con Oldowan y anatomía craneofacial de 2025 y proteínas de `H. erectus` de 2026.
 - `v0.1.38`: Investigación 039 + historia de Mauer/Sima/Bodo/Kabwe a paleodemos y genealogías + mapas de ocho productos y dos cadenas, actualizados con Harbin 2025 y Casablanca 2026.
+- `v0.1.39`: Investigación 040 + historia de neandertales/denisovanos desde mtDNA a genealogías reticuladas + mapas de cinco escalas y dos cadenas, actualizados con cronología de Denisova, Penghu y Harbin de 2025.
+- `v0.1.40`: Investigación 041 + historia de formas humanas tardías mosaico + mapas de cuatro resultados y dos cadenas, actualizados con clima y revisión de Rising Star de 2025 y tafonomía de Flores/filogenia de Luzón de 2026.
 - `v0.2`: Hadeano/Arcaico auditados.
 - `v0.3`: Proterozoico y origen/temprana evolución de la vida.
 - `v0.4`: Fanerozoico completo.

@@ -350,6 +350,17 @@ El propósito no es presentar la ciencia como una sucesión de fracasos ni como 
 | `ERR-INTERBREEDING-ONE-SPECIES-001` | flujo fértil obliga a una especie | compatibilidad convertida en nomenclatura | concepto de especie declarado | DOCUMENTADO |
 | `ERR-NEAND-LAST-FOSSIL-001` | último fósil = último individuo | detección convertida en extinción exacta | intervalo regional y Signor–Lipps | DOCUMENTADO |
 | `ERR-HOMININ-GENOME-STORY-001` | genoma conserva romance/guerra/identidad | parentesco convertido en motivo social | biología y conducta separadas | DOCUMENTADO |
+| `ERR-HOMO-OTHER-LADDER-001` | formas mosaico son reliquias o escalones | combinación anatómica ordenada linealmente | taxones locales y ramas abiertas | DOCUMENTADO |
+| `ERR-FLORES-12KA-001` | `H. floresiensis` vivió hasta hace 12 ka | asociación estratigráfica antigua conservada tras revisión | cuerpos `~100–60 ka`; artefactos separados | DOCUMENTADO |
+| `ERR-FLORES-PATHOLOGY-SPECIES-001` | un diagnóstico de LB1 elimina todo el taxón | individuo tipo sustituye al hipodigma | patologías y repetición entre individuos separadas | DOCUMENTADO |
+| `ERR-FLORES-TOOLS-MAKER-001` | toda herramienta de Flores fue hecha por `H. floresiensis` | presencia convertida en autoría | sitio, intervalo, cuerpo y pieza separados | DOCUMENTADO |
+| `ERR-FLORES-CLIMATE-CAUSE-001` | la sequía extinguió a `H. floresiensis` | correlación convertida en causa única | presión plausible y última detección graduadas | DOCUMENTADO |
+| `ERR-LUZON-KALINGA-ANCESTOR-001` | Kalinga demuestra ancestros de `H. luzonensis` | misma isla convertida en genealogía | presencia y continuidad separadas | DOCUMENTADO |
+| `ERR-ISLAND-BOAT-001` | llegar a una isla prueba navegación deliberada | cruce convertido en intención/tecnología | mecanismos de dispersión competidores | DOCUMENTADO |
+| `ERR-NALEDI-BRAIN-BEHAVIOR-001` | cerebro pequeño prueba conducta simple o hace extraordinario todo hallazgo | volumen convertido en psicología | anatomía, capacidad y acción separadas | DOCUMENTADO |
+| `ERR-NALEDI-DEPOSITION-BURIAL-001` | no hay alternativa simple, por tanto hubo entierro ritual | descarte incompleto convertido en intención | depósito, fosa, cobertura y significado separados | DOCUMENTADO |
+| `ERR-NALEDI-MARKS-AUTHOR-001` | marcas cercanas fueron grabadas por `H. naledi` | proximidad convertida en fecha y autor | artificialidad, cronología y agente separados | DOCUMENTADO |
+| `ERR-NO-DNA-NO-CONTACT-OTHER-001` | no detectar ADN insular moderno prueba que nunca hubo contacto | ausencia retenida convertida en historia total | poder, deriva, extinción y muestra declarados | DOCUMENTADO |
 | `ERR-IMPACT-MOON-EARTH-001` | convertir cronología lunar en esterilización terrestre | escala constante de tasa y efecto | dinámica, hidrocodes, atmósfera/océano y archivo terrestre | DOCUMENTADO |
 | `ERR-LUNAR-ABSENCE-001` | “sin fundido antiguo” = “sin impacto antiguo” | supervivencia uniforme hacia atrás | sesgo de preservación y evidencia positiva `4.22–4.33 Ga` | DOCUMENTADO |
 
@@ -3070,3 +3081,91 @@ Ancestría y parentesco no contienen consentimiento, motivo, etnicidad o institu
 ### Corrección
 
 Limitarse a relaciones biológicas y exigir archivos arqueológicos independientes para conducta.
+
+## ERR-HOMO-OTHER-LADDER-001 — Formas mosaico como reliquias o peldaños
+
+Estados comparativamente basales y derivados pueden coexistir en un cuerpo. Ordenarlos en una escala de inferior a moderno sustituye la filogenia por una narrativa.
+
+### Corrección
+
+Describir cada región, comparadores, edad y modelo; dibujar ramas y homoplasias, no una marcha.
+
+## ERR-FLORES-12KA-001 — `H. floresiensis` sobrevivió hasta hace 12 mil años
+
+Las primeras excavaciones asociaron LB1 con sedimentos jóvenes contiguos. La inconformidad expuesta en 2016 mostró que el pedestal fósil era más antiguo.
+
+### Corrección
+
+Usar cuerpos `~100–60 ka` y artefactos `~190–50 ka`; no extender la especie por la edad de una pieza asociada.
+
+## ERR-FLORES-PATHOLOGY-SPECIES-001 — Diagnosticar LB1 elimina el taxón
+
+Una patología posible afecta la interpretación del individuo; no explica automáticamente rasgos repetidos en otras piezas ni la pequeñez de Mata Menge.
+
+### Corrección
+
+Evaluar diagnóstico clínico, variación individual y diagnóstico taxonómico como hipótesis relacionadas pero no equivalentes.
+
+## ERR-FLORES-TOOLS-MAKER-001 — Toda herramienta de Flores tiene nombre de especie
+
+Wolo Sege no conserva fabricante; Mata Menge y Liang Bua tienen asociaciones de fuerza distinta. Una tecnología puede persistir, converger o ser usada por más de una población.
+
+### Corrección
+
+Registrar pieza, capa, intervalo, taxones posibles y fuerza de asociación antes de asignar autor.
+
+## ERR-FLORES-CLIMATE-CAUSE-001 — La aridificación fue la extinción
+
+La convergencia entre sequedad y última presencia genera una hipótesis causal, no observa mortalidad, emigración o desaparición total.
+
+### Corrección
+
+Usar «contribuyente plausible al declive/abandono local» y buscar mecanismo, replicación regional y alternativas.
+
+## ERR-LUZON-KALINGA-ANCESTOR-001 — Kalinga es el ancestro de Callao
+
+Los sitios comparten isla, pero están separados por más de seiscientos mil años y Kalinga carece de fósil diagnóstico.
+
+### Corrección
+
+Mantener presencia antigua y taxón tardío como nodos separados hasta hallar fósiles o una secuencia intermedia.
+
+## ERR-ISLAND-BOAT-001 — Cruzar agua demuestra navegación intencional
+
+Un evento de llegada puede proceder de deriva, transporte natural, tecnología o combinaciones. El resultado geográfico no preserva intención.
+
+### Corrección
+
+Modelar barrera, corrientes, frecuencia de llegadas y evidencia tecnológica sin usar «navegante» como dato.
+
+## ERR-NALEDI-BRAIN-BEHAVIOR-001 — El volumen cerebral decide la conducta
+
+Usar el endocráneo para negar capacidad o para presentar cualquier acción como «sorprendente» presupone la conclusión.
+
+### Corrección
+
+Medir acción desde artefacto, traza y contexto; tratar anatomía como capacidad limitada, no psicología.
+
+## ERR-NALEDI-DEPOSITION-BURIAL-001 — Depósito inusual equivale a entierro ritual
+
+Excluir agua y carnívoros reduce alternativas. No observa excavación de fosa, cobertura deliberada ni significado cultural sin microcontexto adicional.
+
+### Corrección
+
+Graduar acumulación, depósito deliberado, fosa, entierro cultural y ritual como claims separados.
+
+## ERR-NALEDI-MARKS-AUTHOR-001 — Proximidad identifica al grabador
+
+Una línea artificial sin fecha puede haber sido hecha antes, durante o después de la deposición de los cuerpos.
+
+### Corrección
+
+Separar naturaleza de la marca, edad de superficie y agente; exigir un puente independiente para cada flecha.
+
+## ERR-NO-DNA-NO-CONTACT-OTHER-001 — Ausencia actual equivale a ausencia histórica
+
+Una contribución puede no dejar descendencia, perderse por deriva/selección o quedar bajo el poder del detector, sobre todo sin genoma donante.
+
+### Corrección
+
+Informar población, referencia, señal mínima detectable y la diferencia entre «no detectado» y «no ocurrió».
