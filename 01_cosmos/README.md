@@ -8,7 +8,7 @@ Este módulo reconstruye el prólogo anterior a la Tierra: historia térmica del
 |---:|---|---|---|
 | 002 | [`¿Cómo sabemos que el universo tiene una historia y una edad finita?`](INVESTIGACION_002_EDAD_E_HISTORIA_DEL_UNIVERSO.md) | AUDITADO | fija expansión, CMB, BBN y escala temporal |
 | 003 | [`¿Cómo sabemos dónde y cómo se formaron los elementos?`](INVESTIGACION_003_ORIGEN_ELEMENTOS.md) | AUDITADO | distingue BBN, fusión, AGB, supernovas, fusiones compactas y espalación |
-| 004 | `INV-COSMOS-STARS-001` | PENDIENTE | conectar física estelar con enriquecimiento y edades |
+| 004 | [`¿Cómo inferimos el nacimiento, la evolución y la muerte de las estrellas?`](INVESTIGACION_004_EVOLUCION_ESTELAR.md) | AUDITADO | conecta masa, poblaciones, sismología y remanentes sin imponer un ciclo universal |
 | 005 | `INV-SOLAR-FORMATION-001` | PENDIENTE | pasar de poblaciones estelares al sistema protoplanetario local |
 
 ## Regla específica del módulo
@@ -28,3 +28,4 @@ Un telescopio no “ve el Big Bang”, la nucleosíntesis o la edad. Registra se
 
 - Investigación 002: [`mapa visual`](../assets/visuales/mapa-investigacion-002.svg) y [`grafo auditable`](../22_mapas_epistemologicos/MAPA_002_EDAD_UNIVERSO.md).
 - Investigación 003: [`mapa de evidencia`](../assets/visuales/mapa-investigacion-003.svg), [`matriz de contribuciones`](../assets/visuales/matriz-origen-elementos.svg) y [`grafo auditable`](../22_mapas_epistemologicos/MAPA_003_ORIGEN_ELEMENTOS.md).
+- Investigación 004: [`mapa de evidencia`](../assets/visuales/mapa-investigacion-004.svg), [`rutas ramificadas`](../assets/visuales/rutas-evolucion-estelar.svg) y [`grafo auditable`](../22_mapas_epistemologicos/MAPA_004_EVOLUCION_ESTELAR.md).

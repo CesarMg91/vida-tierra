@@ -38,6 +38,20 @@ El mapa separa señales, puentes físicos y claims. Las dependencias de atmósfe
 
 Los puntos indican contribuciones características o parciales. No son porcentajes ni una tabla de propiedad: isótopos de un mismo elemento pueden recorrer historias distintas.
 
+## 5. Investigación 004 — Evolución estelar
+
+![Portada conceptual de rutas estelares](assets/visuales/hero-evolucion-estelar.png)
+
+> **Portada conceptual:** reúne formación, poblaciones y remanentes distintos. Ninguna estrella recorre todos los objetos de la escena y el agujero negro se representa por su sistema, no como observación directa del horizonte.
+
+![Mapa epistemológico de la evolución estelar](assets/visuales/mapa-investigacion-004.svg)
+
+El mapa separa señal, magnitud calibrada, diagnóstico y claim. Una población H–R no se presenta como película temporal.
+
+![Rutas ramificadas de evolución estelar](assets/visuales/rutas-evolucion-estelar.svg)
+
+Las rutas no fijan umbrales de masa. Composición, rotación, pérdida de masa, compañeras y mecanismo de explosión aparecen como modificadores explícitos.
+
 ## Procedencia
 
 El registro de creación, límites y prompt de cada pieza está en [`assets/visuales/README.md`](assets/visuales/README.md).

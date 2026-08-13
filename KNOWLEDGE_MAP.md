@@ -132,6 +132,23 @@ tasas + eyección + mezcla galáctica   → inventario solar (fracciones abierta
 
 Véase `INV-COSMOS-ELEMENTS-001` en `01_cosmos`, su mapa en `assets/visuales/mapa-investigacion-003.svg` y la matriz en `assets/visuales/matriz-origen-elementos.svg`.
 
+La ruta de evolución estelar es:
+
+```text
+paralaje + flujo + color              → distancia, luminosidad y población H–R
+órbitas + eclipses                    → masas y radios dinámicos
+cúmulos aproximadamente coetáneos     → orden por masa y edades condicionadas
+oscilaciones                          → estado de combustión interior
+líneas moleculares + disco + chorro   → acreción protostelar
+órbitas WD + cúmulos                  → relación masa inicial–final
+progenitor desaparecido + neutrinos   → colapso de núcleo en casos observados
+timing + binarias compactas           → estrellas de neutrones y agujeros negros
+                                       ↓
+composición + rotación + pérdida + binariedad → rutas, no ciclo universal
+```
+
+Véase `INV-COSMOS-STARS-001` en `01_cosmos`, su mapa en `assets/visuales/mapa-investigacion-004.svg` y las rutas en `assets/visuales/rutas-evolucion-estelar.svg`.
+
 La ruta terrestre es:
 
 ```text
