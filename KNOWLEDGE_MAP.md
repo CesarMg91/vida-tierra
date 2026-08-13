@@ -976,3 +976,29 @@ pared: línea → artificialidad C → fecha D → autor D
 Sin ADN antiguo de estas tres especies, genealogía y flujo no pueden heredarse de parecido. La homoplasia insular compite con parentesco; el volumen endocraneal no decide conducta. La convergencia entre clima y última presencia genera una hipótesis causal, no una extinción observada.
 
 Véase `INV-HOMO-OTHER-001` en `08_cenozoico`, su mapa en `assets/visuales/mapa-investigacion-041.svg` y la doble cadena en `assets/visuales/de-fragmento-a-taxon-y-de-camara-a-conducta.svg`.
+
+### Investigación 042 — Origen africano de *Homo sapiens*: región única o estructura
+
+```text
+fósil + procedencia + morfología ───────────────> afinidad sapiens temprana
+material fechado + relación estratigráfica ─────> edad local / mínimo
+sitios norte–este–sur ──────────────────────────> distribución africana
+genoma + estadístico + modelos competidores ────> estructura condicionada
+artefacto + procedencia + contexto ─────────────> conducta situada
+                                                  │
+                                                  └─> no hay cuna, especie o coordenada automáticas
+```
+
+El mapa separa Irhoud, Omo, Herto y Florisbad: TL en sílex no es edad directa de hueso; una toba superior produce un mínimo; una edad ESR no estabiliza taxonomía. La distribución sostiene un origen africano y un mosaico, pero no observa flujo entre localidades.
+
+```text
+mtDNA → TMRCA de locus ≠ primera mujer / población / especie
+LD + diversidad → tallo débil con flujo (modelo 2023)
+coalescencias vecinas → separación/pulso profundo (cobraa 2025)
+SFS + tramos → introgresión fantasma (modelo 2020)
+ADN holoceno → diversidad previa a mezclas ≠ genoma de 300 ka
+```
+
+La discrepancia entre modelos es parte del conocimiento: estructura ancestral está favorecida sobre panmixia simple, mientras número, duración y geografía de tallos permanecen C–D. Olorgesailie y Amanzi añaden conducta regional sin convertir MSA u obsidiana en taxón o flujo génico.
+
+Véase `INV-SAPIENS-ORIGIN-001` en `08_cenozoico`, su mapa en `assets/visuales/mapa-investigacion-042.svg` y la doble cadena en `assets/visuales/de-fosil-a-clado-y-de-genoma-a-estructura.svg`.

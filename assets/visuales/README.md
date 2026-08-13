@@ -532,6 +532,22 @@ La portada corregida conserva los archivos como vitrinas separadas y elimina fig
 
 La imagen final se inspeccionó a resolución original. Es una composición editorial generativa y no una fotografía de excavación: las piezas, capas, bandejas, agrupaciones y líneas no reproducen procedencias, escalas, asociaciones, taxones, fosas o marcas reales. La composición evita cuerpos completos, rostros y escenas conductuales; la proximidad visual no prueba autoría, contemporaneidad ni parentesco.
 
+## Investigación 042 — Origen africano de *Homo sapiens*
+
+| Archivo | Tipo | Creación | Evidencia o claim | Límite |
+|---|---|---|---|---|
+| `hero-origen-africano-homo-sapiens.png` | portada editorial generada | OpenAI ImageGen, 2026-08-13 | archivos fósiles, cronológicos, arqueológicos y genómicos separados | no reproduce fósiles, una cuna, personas, rutas o genealogías reales |
+| `mapa-investigacion-042.svg` | diagrama original | SVG manual del proyecto, 2026-08-13 | cinco productos y confianza graduada | nodos no son localidades ni poblaciones observadas |
+| `de-fosil-a-clado-y-de-genoma-a-estructura.svg` | doble cadena original | SVG manual del proyecto, 2026-08-13 | dos cadenas de inferencia y resultados fuera de alcance | no representa un árbol filogenético ni cromosomas reales |
+
+## Prompt de la portada de la Investigación 042
+
+**Modo:** generación nueva con OpenAI ImageGen. Copia final inspeccionada en `assets/visuales/hero-origen-africano-homo-sapiens.png`. Salida original conservada: `C:\Users\HUAWEI\.codex\generated_images\019ff9f8-176a-7ea1-b727-e17c6df17b82\exec-c8ef76d3-f161-45d8-85d8-6b55873dbfb3.png`.
+
+> Create a polished 16:9 editorial museum-archive cover image for a Spanish scientific research chapter about the African origin of Homo sapiens: a single region versus a structured ancestral population. No text anywhere. No people, no faces, no skin, no full skulls, no continent silhouette, no geographic map, no modern borders, no flags, no migration arrows, no evolutionary march, no family tree. Build a dark archival tabletop with three clearly separate, non-geographic evidence bays. Left bay: North African heated flint, a partial neutral plaster facial fragment and mandible fragment, a subtle thermoluminescence instrument glow, stratigraphic labels represented only as blank abstract tabs. Center bay: East African volcanic ash layers in a cut sediment block, a partial cranial vault fragment and a small chin-bearing mandible fragment, mineral grains under magnification. Right bay: southern African partial cranial fragments, an ancient-DNA sample tube, restrained chromosome and coalescent-ribbon motifs rendered as scientific glass inlays. In the foreground, several translucent braided threads connect some bays, separate at other points, and reconnect, with visible gaps: a metaphor for weakly structured populations and gene flow, not a literal lineage. Place a small separate archaeology tray with obsidian flakes and red mineral pigment, visibly distinct from fossil trays to avoid implying taxonomic authorship. Color palette: charcoal and deep navy, warm amber mineral light, restrained oxidized rust and teal accents. Museum-grade photorealistic still life, sober scientific editorial design, tactile stone, glass and paper textures, strong hierarchy, generous negative space, subtle depth of field, accurate archaeological ambience. The image must clearly read as a conceptual reconstruction rather than a documentary photograph of one real assemblage; avoid recognizable exact fossil replicas. No labels, numbers, letters, watermarks, logos, decorative glyphs, or pseudo-writing.
+
+La imagen final se inspeccionó a resolución original. Las piezas son genéricas y el montaje no reproduce un sitio, una asociación o una escala real. Las tres bandejas no equivalen a regiones con fronteras; los hilos son metáfora de modelos de estructura y flujo, no ADN observado, rutas migratorias ni un número probado de poblaciones. La bandeja lítica permanece separada para no atribuir automáticamente tecnología a un taxón.
+
 ## Reglas de mantenimiento
 
 - conservar SVG con `title` y `desc` accesibles;

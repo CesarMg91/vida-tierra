@@ -699,6 +699,35 @@ Este archivo es el índice canónico. La letra de confianza califica exactamente
 | `CLAIM-FLORES-MODERN-PYGMY-001` | Genomas humanos actuales de Flores/ISEA no muestran contribución adicional sustancial detectable de un taxón insular desconocido; eso no prueba ausencia histórica de contacto. | B-COND señal; D contacto | AUDITADO | `EVID-FLORES-GENOMICS-001` | `INV-HOMO-OTHER-001` |
 | `CLAIM-BRAIN-BEHAVIOR-LIMIT-001` | Volumen endocraneal no determina por sí solo capacidad, conducta realizada, simbolismo o simplicidad social. | A-SEM | AUDITADO | `EVID-HOMO-OTHER-METHOD-001`, `EVID-NALEDI-TYPE-001` | `INV-HOMO-OTHER-001` |
 | `CLAIM-FLORES-LIANG-BUA-ASSOCIATION-001` | La asociación de artefactos y fauna con `H. floresiensis` apoya actividad hominina local, pero no asigna cada pieza o marca a un individuo. | B asociación; C-D autoría | AUDITADO | `EVID-FLORES-CHRONOLOGY-001`, `EVID-FLORES-BEHAVIOR-001` | `INV-HOMO-OTHER-001` |
+| `CLAIM-SAPIENS-ORIGIN-SCOPE-001` | Primer fósil, afinidad taxonómica, coalescencia, divergencia poblacional y origen de especie son resultados distintos. | A-SEM | AUDITADO | `EVID-SAPIENS-ORIGIN-METHOD-001` | `INV-SAPIENS-ORIGIN-001` |
+| `CLAIM-SAPIENS-AFRICAN-ORIGIN-001` | La convergencia fósil y genómica sitúa en África la emergencia del clado ancestral de las poblaciones humanas actuales. | A-B | AUDITADO | `EVID-JEBEL-IRHOUD-MORPH-001`, `EVID-OMO-I-AGE-001`, `EVID-AFRICA-MORPH-DIVERSITY-001`, `EVID-WEAK-STEM-001` | `INV-SAPIENS-ORIGIN-001` |
+| `CLAIM-SAPIENS-SINGLE-CRADLE-LIMIT-001` | El archivo disponible no discrimina una región fundadora única frente a una emergencia distribuida con conectividad variable. | B contra unicidad; C geografía | AUDITADO | `EVID-SAPIENS-ORIGIN-METHOD-001`, `EVID-AFRICA-MORPH-DIVERSITY-001` | `INV-SAPIENS-ORIGIN-001` |
+| `CLAIM-SAPIENS-MOSAIC-001` | Los fósiles africanos tempranos atribuidos o próximos a `H. sapiens` combinan rasgos en mosaico y no forman un paquete anatómico instantáneo. | B | AUDITADO | `EVID-JEBEL-IRHOUD-MORPH-001`, `EVID-HERTO-001`, `EVID-AFRICA-MORPH-DIVERSITY-001` | `INV-SAPIENS-ORIGIN-001` |
+| `CLAIM-JEBEL-IRHOUD-TAXON-001` | Cara, mandíbula y dientes de Jebel Irhoud apoyan una fase temprana del clado sapiens, junto con neurocráneo comparativamente alargado. | B | AUDITADO | `EVID-JEBEL-IRHOUD-MORPH-001` | `INV-SAPIENS-ORIGIN-001` |
+| `CLAIM-JEBEL-IRHOUD-DATE-001` | Sílex calentado de la unidad fosilífera da `315 ± 34 ka` por TL y un diente recalculado `286 ± 32 ka` por US-ESR; la edad de cuerpos depende de asociación. | B-COND | AUDITADO | `EVID-JEBEL-IRHOUD-DATE-001` | `INV-SAPIENS-ORIGIN-001` |
+| `CLAIM-OMO-I-MINIMUM-AGE-001` | La KHS Tuff correlacionada con Shala fija para Omo I una edad mínima de `233 ± 22 ka`, no una edad exacta de muerte. | B-COND | AUDITADO | `EVID-OMO-I-AGE-001` | `INV-SAPIENS-ORIGIN-001` |
+| `CLAIM-HERTO-CONTEXT-001` | Herto documenta una población sapiens de `~160–154 ka`; subespecie y posición ancestral exacta son interpretaciones revisables. | B presencia; C taxonomía | AUDITADO | `EVID-HERTO-001` | `INV-SAPIENS-ORIGIN-001` |
+| `CLAIM-FLORISBAD-AGE-001` | Un diente atribuido al expediente Florisbad produjo `259 ± 35 ka` por ESR, con asociación histórica y dosis ambiental complejas. | C | AUDITADO | `EVID-FLORISBAD-001` | `INV-SAPIENS-ORIGIN-001` |
+| `CLAIM-AFRICA-FOSSIL-DISTRIBUTION-001` | Irhoud, Omo, Herto y Florisbad distribuyen expedientes relevantes entre norte, este y sur; esa distribución no prueba contemporaneidad ni flujo entre sitios. | B distribución; A límite | AUDITADO | `EVID-JEBEL-IRHOUD-MORPH-001`, `EVID-OMO-I-AGE-001`, `EVID-HERTO-001`, `EVID-FLORISBAD-001` | `INV-SAPIENS-ORIGIN-001` |
+| `CLAIM-SAPIENS-METAPOPULATION-001` | Una metapoblación africana conecta grupos locales mediante flujo cambiante sin exigir panmixia ni especies separadas. | A-SEM; C aplicación | AUDITADO | `EVID-SAPIENS-ORIGIN-METHOD-001`, `EVID-WEAK-STEM-001` | `INV-SAPIENS-ORIGIN-001` |
+| `CLAIM-SAPIENS-WEAK-STEM-2023-001` | Un modelo de tallos débilmente diferenciados y conectados por flujo ajusta LD/diversidad; sitúa divergencias entre poblaciones actuales en `120–135 ka`. | B-COND | AUDITADO | `EVID-WEAK-STEM-001` | `INV-SAPIENS-ORIGIN-001` |
+| `CLAIM-SAPIENS-WEAK-STEM-GEOGRAPHY-LIMIT-001` | El modelo de tallo débil no localiza los tallos ni asigna fósiles; la procedencia de muestras actuales no fija geografía ancestral. | A-SEM; B aplicación | AUDITADO | `EVID-WEAK-STEM-001`, `EVID-GENOME-DIVERSITY-PANEL-001` | `INV-SAPIENS-ORIGIN-001` |
+| `CLAIM-SAPIENS-DEEP-STRUCTURE-2025-001` | `cobraa` favorece bajo su modelo una separación `~1.5 Ma` y reunión `~300 ka` con contribución aproximada `80:20`. | C | AUDITADO | `EVID-DEEP-STRUCTURE-COBRAA-001` | `INV-SAPIENS-ORIGIN-001` |
+| `CLAIM-SAPIENS-DEMOGRAPHIC-IDENTIFIABILITY-001` | Tallo débil, separación-pulso e introgresión fantasma pueden explicar señales solapadas; la familia de modelos condiciona tiempos y eventos. | A-MET; C historia | AUDITADO | `EVID-WEAK-STEM-001`, `EVID-DEEP-STRUCTURE-COBRAA-001`, `EVID-GHOST-ARCHAIC-001` | `INV-SAPIENS-ORIGIN-001` |
+| `CLAIM-SAPIENS-ARCHAIC-GHOST-OPEN-001` | Cuatro poblaciones occidentales contienen señal compatible con aporte arcaico fantasma de `2–19 %` bajo un modelo, pero donante y distinción frente a estructura siguen abiertos. | C | AUDITADO | `EVID-GHOST-ARCHAIC-001` | `INV-SAPIENS-ORIGIN-001` |
+| `CLAIM-SOUTH-AFRICA-DIVERGENCE-2017-001` | Genomas antiguos de hasta `~2 ka` permitieron estimar divergencia de poblaciones actuales en `350–260 ka`; el tiempo profundo es modelado. | B-COND | AUDITADO | `EVID-SOUTH-AFRICA-DIVERGENCE-001` | `INV-SAPIENS-ORIGIN-001` |
+| `CLAIM-SOUTH-AFRICA-GENOMES-2026-001` | Veintiocho genomas de `10.2–0.15 ka` muestran diversidad y continuidad holocenas meridionales, sin observar poblaciones de `~300 ka`. | B | AUDITADO | `EVID-SOUTH-AFRICA-ANCIENT-GENOMES-001` | `INV-SAPIENS-ORIGIN-001` |
+| `CLAIM-AFRICAN-ADNA-TIME-LIMIT-001` | El ADN antiguo africano disponible para este problema es Holoceno/Pleistoceno final y no muestrea directamente el intervalo `~300–200 ka`. | A | AUDITADO | `EVID-SOUTH-AFRICA-ANCIENT-GENOMES-001`, `EVID-AFRICA-FORAGER-ADNA-001` | `INV-SAPIENS-ORIGIN-001` |
+| `CLAIM-MTDNA-EVE-LIMIT-001` | La TMRCA mitocondrial identifica la genealogía de un locus materno, no una única mujer viva, población fundadora o fecha de especie. | A-SEM | AUDITADO | `EVID-MTDNA-GENEALOGY-001` | `INV-SAPIENS-ORIGIN-001` |
+| `CLAIM-COALESCENCE-SPLIT-LIMIT-001` | Coalescencia de copias génicas, separación de poblaciones y especiación no son el mismo tiempo, especialmente con flujo posterior. | A-SEM | AUDITADO | `EVID-SAPIENS-ORIGIN-METHOD-001`, `EVID-MTDNA-GENEALOGY-001` | `INV-SAPIENS-ORIGIN-001` |
+| `CLAIM-MSA-NOT-TAXONOMIC-001` | La Middle Stone Age es una categoría tecnológica regional y no identifica por sí sola especie ni fabricante. | A-SEM | AUDITADO | `EVID-OLORGESAILIE-MSA-001`, `EVID-AMANZI-MSA-001` | `INV-SAPIENS-ORIGIN-001` |
+| `CLAIM-OLORGESAILIE-NETWORKS-001` | En Olorgesailie, MSA, pigmento y obsidiana de fuentes `≥25–50 km` apoyan movilidad o intercambio hacia `≥295–~320 ka`. | B | AUDITADO | `EVID-OLORGESAILIE-MSA-001` | `INV-SAPIENS-ORIGIN-001` |
+| `CLAIM-OLORGESAILIE-GENEFLOW-LIMIT-001` | Transporte de obsidiana no mide apareamiento, flujo génico ni identidad taxonómica del fabricante. | A-SEM; B aplicación | AUDITADO | `EVID-OLORGESAILIE-MSA-001` | `INV-SAPIENS-ORIGIN-001` |
+| `CLAIM-AMANZI-REGIONAL-2026-001` | Amanzi Springs conserva `~379–95 ka` y una emergencia MSA local de `~230 ± 18 ka`, distinta de trayectorias regionales más antiguas. | B-COND | AUDITADO | `EVID-AMANZI-MSA-001` | `INV-SAPIENS-ORIGIN-001` |
+| `CLAIM-SAPIENS-BEHAVIOR-MOSAIC-001` | Tecnología, pigmento y redes aparecen en combinaciones regionales y tiempos distintos; no forman un paquete conductual universal y súbito. | B | AUDITADO | `EVID-OLORGESAILIE-MSA-001`, `EVID-AMANZI-MSA-001` | `INV-SAPIENS-ORIGIN-001` |
+| `CLAIM-PAN-AFRICAN-NOT-PANMIXIA-001` | «Pan-africano» puede describir un registro distribuido sin implicar una población continental panmíctica o conectividad continua. | A-SEM; B aplicación | AUDITADO | `EVID-SAPIENS-ORIGIN-METHOD-001`, `EVID-WEAK-STEM-001` | `INV-SAPIENS-ORIGIN-001` |
+| `CLAIM-SAPIENS-ORIGIN-CONFIDENCE-001` | Origen africano recibe A–B; emergencia distribuida B; modelo estructural B-COND/C; región, número y cronología de tallos C–D. | A-SEM | AUDITADO | síntesis de `EVID-SAPIENS-*`, `EVID-JEBEL-*`, `EVID-OMO-*` | `INV-SAPIENS-ORIGIN-001` |
+| `CLAIM-SAPIENS-SAMPLING-BIAS-001` | Preservación, excavación y muestreo genómico sobrerrepresentan algunas cuencas y poblaciones; vacíos regionales no demuestran ausencia histórica. | A-SEM; B aplicación | AUDITADO | `EVID-SAPIENS-ORIGIN-METHOD-001`, `EVID-GENOME-DIVERSITY-PANEL-001` | `INV-SAPIENS-ORIGIN-001` |
 
 ## Fichas resumidas
 
@@ -3453,6 +3482,74 @@ Este archivo es el índice canónico. La letra de confianza califica exactamente
 
 - **Genomas actuales:** ausencia de señal adicional limita introgresión retenida, no contacto histórico.
 - **Asociación:** proximidad estratigráfica apoya actividad local, pero no identifica cada mano autora.
+
+## Investigación 042 — Origen africano de *Homo sapiens*: región única o poblaciones estructuradas
+
+### CLAIM-SAPIENS-ORIGIN-SCOPE-001 / COALESCENCE-SPLIT-LIMIT-001
+
+- **Separación:** fósil, taxón, fecha, locus, divergencia y especiación son objetos distintos.
+- **Puente:** cada cifra conserva material, método, modelo y escala.
+- **Límite:** coincidencia cronológica no convierte dos relojes en una medición común.
+
+### CLAIM-SAPIENS-AFRICAN-ORIGIN-001 / SINGLE-CRADLE-LIMIT-001 / MOSAIC-001
+
+- **Resultado:** la convergencia sitúa la emergencia del clado en África.
+- **Patrón:** Irhoud, Omo, Herto y Florisbad distribuyen cronologías y mosaicos entre regiones.
+- **Límite:** sitio más antiguo conocido y lugar de origen no son equivalentes.
+
+### CLAIM-JEBEL-IRHOUD-TAXON-001 / DATE-001
+
+- **Anatomía:** cara/dentición apoyan sapiens temprano; neurocráneo conserva diferencias.
+- **Relojes:** TL `315 ± 34 ka` y US-ESR `286 ± 32 ka` convergen.
+- **Dependencia:** la TL fecha sílex calentado y llega al cuerpo por asociación.
+
+### CLAIM-OMO-I-MINIMUM-AGE-001 / HERTO-CONTEXT-001 / FLORISBAD-AGE-001
+
+- **Omo:** una toba superior fija mínimo `233 ± 22 ka`.
+- **Herto:** presencia `~160–154 ka`; nombre subespecífico y ascendencia son revisables.
+- **Florisbad:** `259 ± 35 ka` es importante pero depende de asociación/dosis complejas.
+
+### CLAIM-SAPIENS-WEAK-STEM-2023-001 / GEOGRAPHY-LIMIT-001
+
+- **Modelo:** tallos débilmente diferenciados con flujo explican LD y diversidad.
+- **Predicción:** divergencias entre poblaciones actuales `120–135 ka`, no entre especies.
+- **Límite:** las muestras actuales no localizan poblaciones ancestrales.
+
+### CLAIM-SAPIENS-DEEP-STRUCTURE-2025-001 / DEMOGRAPHIC-IDENTIFIABILITY-001
+
+- **Resultado:** `cobraa` favorece separación `~1.5 Ma` y reunión `~300 ka` bajo un pulso.
+- **Adversario:** tallo continuo, varios pulsos, selección y tasas no son la misma familia.
+- **Confianza:** estructura C; historia exacta no observada.
+
+### CLAIM-SAPIENS-ARCHAIC-GHOST-OPEN-001
+
+- **Señal:** `2–19 %` arcaico fantasma bajo un modelo occidental.
+- **Límite:** el donante carece de referencia y estructura puede imitar introgresión.
+- **Prueba:** genoma donante o predicciones que separen ambas historias.
+
+### CLAIM-SOUTH-AFRICA-DIVERGENCE-2017-001 / GENOMES-2026-001 / AFRICAN-ADNA-TIME-LIMIT-001
+
+- **Ganancia:** ADN antiguo reduce la distorsión de mezclas recientes y revela diversidad perdida.
+- **Rango:** los 28 genomas 2026 son `10.2–0.15 ka` y enteramente holocenos.
+- **Límite:** no existe aún ADN directo del intervalo `~300–200 ka`.
+
+### CLAIM-MTDNA-EVE-LIMIT-001
+
+- **Resultado:** mtDNA apoya raíz africana de una genealogía materna.
+- **Corrección:** MRCA no significa única mujer, población fundadora o primera sapiens.
+- **Generalización:** cada locus tiene historia coalescente propia.
+
+### CLAIM-MSA-NOT-TAXONOMIC-001 / OLORGESAILIE-NETWORKS-001 / AMANZI-REGIONAL-2026-001
+
+- **Conducta:** pigmento, puntas y obsidiana sostienen prácticas y movilidad.
+- **Regionalidad:** Amanzi sitúa una transición local `~230 ± 18 ka`.
+- **Límite:** tecnología no identifica genes, especie o panmixia.
+
+### CLAIM-PAN-AFRICAN-NOT-PANMIXIA-001 / ORIGIN-CONFIDENCE-001 / SAMPLING-BIAS-001
+
+- **Lenguaje:** «pan-africano» describe distribución sin prometer homogeneidad.
+- **Sesgo:** preservación y excavación dejan regiones enteras poco visibles.
+- **Confianza:** África A–B; estructura B-COND/C; geografía fina C–D.
 
 ## Claims futuros
 

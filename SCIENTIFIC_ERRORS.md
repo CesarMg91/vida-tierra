@@ -361,6 +361,15 @@ El propósito no es presentar la ciencia como una sucesión de fracasos ni como 
 | `ERR-NALEDI-DEPOSITION-BURIAL-001` | no hay alternativa simple, por tanto hubo entierro ritual | descarte incompleto convertido en intención | depósito, fosa, cobertura y significado separados | DOCUMENTADO |
 | `ERR-NALEDI-MARKS-AUTHOR-001` | marcas cercanas fueron grabadas por `H. naledi` | proximidad convertida en fecha y autor | artificialidad, cronología y agente separados | DOCUMENTADO |
 | `ERR-NO-DNA-NO-CONTACT-OTHER-001` | no detectar ADN insular moderno prueba que nunca hubo contacto | ausencia retenida convertida en historia total | poder, deriva, extinción y muestra declarados | DOCUMENTADO |
+| `ERR-SAPIENS-OLDEST-BIRTHPLACE-001` | fósil más antiguo = lugar de nacimiento | primera detección convertida en evento de especie | muestreo, fecha y geografía separados | DOCUMENTADO |
+| `ERR-SAPIENS-PANAFRICA-PANMIXIA-001` | pan-africano = población homogénea | distribución convertida en apareamiento | flujo, estructura y panmixia modelados | DOCUMENTADO |
+| `ERR-SAPIENS-EVE-WOMAN-001` | Eva mitocondrial fue la primera/única mujer | TMRCA de locus convertida en población | herencia, deriva y loci separados | DOCUMENTADO |
+| `ERR-SAPIENS-TMRCA-SPECIES-001` | coalescencia fecha especie | tiempo génico convertido en separación/especiación | escalas y flujo posterior declarados | DOCUMENTADO |
+| `ERR-SAPIENS-MODEL-POPULATIONS-001` | dos componentes modelados = dos especies | variables latentes reificadas | modelo, población y taxón separados | DOCUMENTADO |
+| `ERR-SAPIENS-MODERN-SAMPLE-GEOGRAPHY-001` | muestra actual localiza tallo ancestral | geografía reciente proyectada al pasado | migración, mezcla y espacio explícitos | DOCUMENTADO |
+| `ERR-SAPIENS-MSA-MAKER-001` | MSA identifica a `H. sapiens` | tecnología convertida en taxón | asociación y convergencia evaluadas | DOCUMENTADO |
+| `ERR-SAPIENS-OBSIDIAN-GENEFLOW-001` | obsidiana distante prueba mestizaje | transporte convertido en apareamiento | movilidad, intercambio y genes separados | DOCUMENTADO |
+| `ERR-SAPIENS-HOLOCENE-CONTINUITY-001` | continuidad de 9 ka = aislamiento de 300 ka | extrapolación temporal sin archivo | intervalo observado limitado | DOCUMENTADO |
 | `ERR-IMPACT-MOON-EARTH-001` | convertir cronología lunar en esterilización terrestre | escala constante de tasa y efecto | dinámica, hidrocodes, atmósfera/océano y archivo terrestre | DOCUMENTADO |
 | `ERR-LUNAR-ABSENCE-001` | “sin fundido antiguo” = “sin impacto antiguo” | supervivencia uniforme hacia atrás | sesgo de preservación y evidencia positiva `4.22–4.33 Ga` | DOCUMENTADO |
 
@@ -3169,3 +3178,75 @@ Una contribución puede no dejar descendencia, perderse por deriva/selección o 
 ### Corrección
 
 Informar población, referencia, señal mínima detectable y la diferencia entre «no detectado» y «no ocurrió».
+
+## ERR-SAPIENS-OLDEST-BIRTHPLACE-001 — El fósil más antiguo marca el lugar de nacimiento
+
+La primera detección conocida depende de preservación, excavación, fecha y definición taxonómica. Es un mínimo del archivo, no un acontecimiento de especiación.
+
+### Corrección
+
+Decir «expediente más antiguo conocido bajo estos criterios» y buscar predicciones regionales, no coronar una cuna.
+
+## ERR-SAPIENS-PANAFRICA-PANMIXIA-001 — Pan-africano significa una población homogénea
+
+Una distribución continental de fósiles o tecnologías no mide tasas de apareamiento. Grupos conectados intermitentemente pueden conservar estructura.
+
+### Corrección
+
+Separar distribución, movilidad, intercambio y flujo génico; reservar panmixia para un modelo demográfico explícito.
+
+## ERR-SAPIENS-EVE-WOMAN-001 — La Eva mitocondrial fue la primera o única mujer
+
+La TMRCA mitocondrial es el ancestro de un locus materno superviviente. Otras mujeres contemporáneas pudieron contribuir al genoma nuclear.
+
+### Corrección
+
+Nombrar locus, herencia, reloj y deriva; no convertir una genealogía en población o especie.
+
+## ERR-SAPIENS-TMRCA-SPECIES-001 — Una coalescencia fecha el origen de la especie
+
+Copias génicas pueden coalescer antes o después de separaciones poblacionales; el flujo posterior desacopla tiempos.
+
+### Corrección
+
+Informar TMRCA, divergencia y especiación por separado y con el modelo que conecta cada magnitud.
+
+## ERR-SAPIENS-MODEL-POPULATIONS-001 — Dos componentes del modelo son dos especies reales
+
+Tallos, ramas A/B o poblaciones fantasma son variables latentes. Su número depende de la familia de modelos y no asigna nombres fósiles.
+
+### Corrección
+
+Usar «componente/población ancestral inferida bajo el modelo» hasta obtener evidencia discriminatoria independiente.
+
+## ERR-SAPIENS-MODERN-SAMPLE-GEOGRAPHY-001 — La localidad de una muestra actual localiza a su ancestro profundo
+
+Migración, mezcla y reemplazo transforman la distribución durante cientos de milenios.
+
+### Corrección
+
+Modelar espacio y tiempo; no proyectar etiquetas etnográficas o nacionales actuales sobre tallos ancestrales.
+
+## ERR-SAPIENS-MSA-MAKER-001 — MSA identifica automáticamente a *Homo sapiens*
+
+Una tecnología puede transmitirse o converger y suele carecer de fósil diagnóstico asociado.
+
+### Corrección
+
+Registrar conjunto, fecha, cadena operativa, asociación y posibles fabricantes; mantener conducta y taxonomía en claims distintos.
+
+## ERR-SAPIENS-OBSIDIAN-GENEFLOW-001 — Transporte de obsidiana prueba mestizaje
+
+Una materia prima distante puede circular por movilidad, intercambio en cadena o movimientos de objetos sin apareamiento.
+
+### Corrección
+
+Inferir transporte y red social condicionada; exigir genómica u otra evidencia demográfica para flujo génico.
+
+## ERR-SAPIENS-HOLOCENE-CONTINUITY-001 — Continuidad de 9 mil años demuestra aislamiento de 300 mil
+
+El ADN holoceno mejora el archivo, pero extrapolar treinta veces su duración ignora migraciones y cuellos de botella no muestreados.
+
+### Corrección
+
+Limitar la continuidad al intervalo observado y conservar el Pleistoceno medio como inferencia modelada.

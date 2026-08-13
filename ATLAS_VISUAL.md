@@ -579,6 +579,20 @@ El mapa conserva cuatro productos —taxón anatómico, presencia hominina, capa
 
 La doble cadena exige procedencia, repetición y comparadores para nombrar; y procesos, microcontexto y adversarios para atribuir conducta. Una acumulación excepcional no se convierte por descarte en ritual.
 
+## 43. Investigación 042 — Origen africano de *Homo sapiens* y poblaciones estructuradas
+
+![Portada editorial de archivos fósiles, estratigráficos y genómicos](assets/visuales/hero-origen-africano-homo-sapiens.png)
+
+> **Portada editorial:** distribuye sílex calentado, fragmentos genéricos, estrato de tefra, bandeja arqueológica y señales genómicas en archivos no geográficos. No reproduce especímenes, una cuna, fronteras, rutas migratorias, personas o una genealogía observada.
+
+![Mapa epistemológico del origen africano de Homo sapiens](assets/visuales/mapa-investigacion-042.svg)
+
+El mapa conserva cinco productos —afinidad fósil, edad local, distribución africana, estructura demográfica y conducta situada— y asigna A–B al origen africano, B-COND/C al marco estructural y C–D a la geografía exacta.
+
+![Cadenas del fósil al clado y del genoma a la estructura](assets/visuales/de-fosil-a-clado-y-de-genoma-a-estructura.svg)
+
+La doble cadena impide transformar el fósil más antiguo en lugar de nacimiento o el mejor ajuste genómico en especie, fósil o coordenada ancestral.
+
 ## Procedencia
 
 El registro de creación, límites y prompt de cada pieza está en [`assets/visuales/README.md`](assets/visuales/README.md).
