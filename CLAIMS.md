@@ -357,6 +357,30 @@ Este archivo es el índice canónico. La letra de confianza califica exactamente
 | `CLAIM-JURASSIC-MAMMALIAFORM-DENTITION-001` | Docodontiformes y terios desarrollaron complejidad trituradora por rutas distintas; forma parecida no implica homología. | B-COND | AUDITADO | `EVID-JURASSIC-MAMMALIAFORM-DENTITION-001` | `INV-JURASSIC-001` |
 | `CLAIM-JURASSIC-MAMMALIAFORM-GROWTH-001` | Estrategias de crecimiento más mamalianas aparecen a mitad del Jurásico, aún por debajo de tasas modernas comparables. | B-COND | AUDITADO | `EVID-JURASSIC-MAMMALIAFORM-GROWTH-001` | `INV-JURASSIC-001` |
 | `CLAIM-JURASSIC-JK-TURNOVER-001` | El recambio J–K cambia al corregir roca, colecciones, nivel marino y filogenia; no demuestra un pulso mundial instantáneo. | B-COND; D pulso único | AUDITADO | `EVID-JURASSIC-JK-TURNOVER-001` | `INV-JURASSIC-001` |
+| `CLAIM-CRETACEOUS-SCOPE-001` | Calendario, origen/radiación/dominancia vegetal, interacción insectil, tallo/corona aviana y radiación mamaliana son problemas relacionados pero no simultáneos ni equivalentes. | A-SEM | AUDITADO | conjunto `EVID-CRETACEOUS-BOUNDARIES-001`, `EVID-CRETACEOUS-ANGIOSPERM-FOSSIL-001`, `EVID-CRETACEOUS-INSECT-RATES-001`, `EVID-CRETACEOUS-ASTERIORNIS-001`, `EVID-CRETACEOUS-EUTHERIAN-001` | `INV-CRETACEOUS-001` |
+| `CLAIM-CRETACEOUS-BOUNDARIES-001` | ICS 2026 calibra el Cretácico en `143.1 ± 0.6–66.0 Ma`; las cifras no sustituyen los estratotipos. | B | AUDITADO | `EVID-CRETACEOUS-BOUNDARIES-001` | `INV-CRETACEOUS-001` |
+| `CLAIM-CRETACEOUS-SUBDIVISIONS-001` | Dos series y doce pisos forman la arquitectura formal cretácica, con estados de ratificación distintos. | A arquitectura; B estado | AUDITADO | `EVID-CRETACEOUS-SUBDIVISIONS-001` | `INV-CRETACEOUS-001` |
+| `CLAIM-CRETACEOUS-BASE-STATUS-001` | El Berriasiense y la base cretácica carecen de GSSP ratificado al `2026-08-11`, aunque existe una edad numérica vigente. | A estado; B edad | AUDITADO | `EVID-CRETACEOUS-BOUNDARIES-001` | `INV-CRETACEOUS-001` |
+| `CLAIM-CRETACEOUS-TOP-001` | La base daniense está en la base de la arcilla limítrofe de El Kef; la eyección de impacto suprayacente pertenece al Daniense. | A horizonte; B edad | AUDITADO | `EVID-CRETACEOUS-BOUNDARIES-001` | `INV-CRETACEOUS-001` |
+| `CLAIM-CRETACEOUS-ANGIOSPERM-FOSSIL-001` | Polen cretácico temprano aporta el mínimo inequívoco de angiospermas bajo caracteres diagnósticos; no fecha su origen. | A-B | AUDITADO | `EVID-CRETACEOUS-ANGIOSPERM-FOSSIL-001` | `INV-CRETACEOUS-001` |
+| `CLAIM-CRETACEOUS-ANGIOSPERM-CLOCK-001` | Modelos de ocurrencias/preservación y relojes de 2021/2026 permiten una corona angiospérmica precretácica, especialmente jurásica tardía, sin convertirla en cuerpo fósil. | C-PROV | AUDITADO | `EVID-CRETACEOUS-ANGIOSPERM-CLOCK-001` | `INV-CRETACEOUS-001` |
+| `CLAIM-CRETACEOUS-ANGIOSPERM-RADIATION-001` | Polen y órganos documentan un aumento escalonado; la venación supera el rango no angiospérmico muestreado hacia `106–100 Ma`. | A-B diversidad; B-COND función | AUDITADO | `EVID-CRETACEOUS-ANGIOSPERM-FOSSIL-001`, `EVID-CRETACEOUS-ANGIOSPERM-FUNCTION-001` | `INV-CRETACEOUS-001` |
+| `CLAIM-CRETACEOUS-ANGIOSPERM-DOMINANCE-001` | Diversidad, abundancia, biomasa, porte y dosel angiospérmicos fueron regionalmente desacoplados. | B-COND; D uniformidad global | AUDITADO | `EVID-CRETACEOUS-ANGIOSPERM-FUNCTION-001` | `INV-CRETACEOUS-001` |
+| `CLAIM-CRETACEOUS-FLOWER-ANCESTOR-001` | Una reconstrucción de `13 444` observaciones favorece una flor corona bisexual, radial y con múltiples órganos separados; es un nodo modelado, no un fósil. | C-COND | AUDITADO | `EVID-CRETACEOUS-FLOWER-ANCESTOR-001` | `INV-CRETACEOUS-001` |
+| `CLAIM-CRETACEOUS-POLLINATION-PREANGIOSPERM-001` | Una mosca de probóscide larga conserva polen gimnospérmico en ámbar de ~`105 Ma`, apoyando visita o polinización probable local. | A-B local | AUDITADO | `EVID-CRETACEOUS-GYMNOSPERM-POLLINATION-001` | `INV-CRETACEOUS-001` |
+| `CLAIM-CRETACEOUS-POLLINATION-DIRECT-001` | Escarabajos de ~`99–98 Ma` conservan polen angiospérmico adherido, ingerido o en coprolitos; transporte/ingesta no miden eficacia fecundante. | A-B local; C eficacia | AUDITADO | `EVID-CRETACEOUS-ANGIOSPERM-POLLINATION-001` | `INV-CRETACEOUS-001` |
+| `CLAIM-CRETACEOUS-INSECT-DIVERSIFICATION-001` | Muchos linajes insectiles preceden a las angiospermas; modelos recuperan efectos específicos y desfasados sobre originación y extinción. | B-COND | AUDITADO | `EVID-CRETACEOUS-INSECT-RATES-001` | `INV-CRETACEOUS-001` |
+| `CLAIM-CRETACEOUS-AVIALAN-DIVERSITY-001` | Las aves de Jehol muestran menor disparidad funcional que ensamblajes modernos bajo morfometría/simulación; una Lagerstätte no representa todo el Cretácico. | B-COND | AUDITADO | `EVID-CRETACEOUS-AVIALAN-DISPARITY-001` | `INV-CRETACEOUS-001` |
+| `CLAIM-CRETACEOUS-ICHTHYORNIS-MOSAIC-001` | El cráneo de `Ichthyornis` combina dientes mandibulares, punta premaxilar edéntula/pico y rasgos derivados en mosaico. | A-B | AUDITADO | `EVID-CRETACEOUS-ICHTHYORNIS-001` | `INV-CRETACEOUS-001` |
+| `CLAIM-CRETACEOUS-CROWN-BIRD-DEFINITION-001` | Avialae del tallo no equivale a Aves corona; la pertenencia de un fósil requiere definición de nodo, matriz y sensibilidad. | A-SEM; B-COND por fósil | AUDITADO | `EVID-CRETACEOUS-ASTERIORNIS-001`, `EVID-CRETACEOUS-VEGAVIS-001` | `INV-CRETACEOUS-001` |
+| `CLAIM-CRETACEOUS-ASTERIORNIS-001` | Un cráneo tridimensional de ~`66.7 Ma` recupera a `Asteriornis` cerca de Galloanserae; un fósil no fija por sí solo toda la edad de la corona. | B-COND | AUDITADO | `EVID-CRETACEOUS-ASTERIORNIS-001` | `INV-CRETACEOUS-001` |
+| `CLAIM-CRETACEOUS-VEGAVIS-001` | Un cráneo de `69.2–68.4 Ma` fortalece la posición de `Vegavis` dentro de aves corona y una ecología de captura submarina. | B-PROV | AUDITADO | `EVID-CRETACEOUS-VEGAVIS-001` | `INV-CRETACEOUS-001` |
+| `CLAIM-CRETACEOUS-MAMMAL-SCOPE-001` | Los mamíferos cretácicos incluyen varias ramas, tallas, dietas y geografías; tallo y corona no son equivalentes. | A-SEM; A-B diversidad mínima | AUDITADO | `EVID-CRETACEOUS-REPENOMAMUS-001`, `EVID-CRETACEOUS-EUTHERIAN-001` | `INV-CRETACEOUS-001` |
+| `CLAIM-CRETACEOUS-REPENOMAMUS-001` | Dos especies amplían la talla mamaliana conocida; un ejemplar conserva restos abdominales de `Psittacosaurus` juvenil sin distinguir caza de carroñeo. | A-B | AUDITADO | `EVID-CRETACEOUS-REPENOMAMUS-001` | `INV-CRETACEOUS-001` |
+| `CLAIM-CRETACEOUS-MULTITUBERCULATE-001` | Complejidad dental, talla y herbivoría de multituberculados aumentaron al menos `20 Myr` antes de K–Pg; el vínculo angiospérmico es condicionado. | B-COND | AUDITADO | `EVID-CRETACEOUS-MULTITUBERCULATE-001` | `INV-CRETACEOUS-001` |
+| `CLAIM-CRETACEOUS-THERIAN-RADIATION-001` | La morfometría dental recupera mayor disparidad y amplitud dietaria teria `10–20 Myr` antes de K–Pg. | B-COND | AUDITADO | `EVID-CRETACEOUS-THERIAN-001` | `INV-CRETACEOUS-001` |
+| `CLAIM-CRETACEOUS-EUTHERIAN-CROWN-001` | `Ambolestes` y matrices distinguen euterios del tallo de Placentalia; la edad de la corona placentaria sigue disputada. | A-SEM; B-COND posiciones; C-D edad | AUDITADO | `EVID-CRETACEOUS-EUTHERIAN-001` | `INV-CRETACEOUS-001` |
+| `CLAIM-CRETACEOUS-GONDWANATHERIA-001` | `Vintana` y `Adalatherium` documentan anatomía mamaliana gondwánica e insular distintiva, con relaciones filogenéticas aún variables. | A-B anatomía; C-COND relaciones | AUDITADO | `EVID-CRETACEOUS-GONDWANATHERIA-001` | `INV-CRETACEOUS-001` |
 
 ## Fichas resumidas
 
@@ -2355,6 +2379,128 @@ Este archivo es el índice canónico. La letra de confianza califica exactamente
 - **Dato:** curvas de tetrápodos responden a correcciones de roca/nivel marino.
 - **No afirma:** ausencia de todo recambio ni extinción mundial instantánea.
 - **Confianza:** `B-COND`; `D` pulso único.
+
+## Investigación 030 — Cretácico: flores, insectos, aves y mamíferos
+
+### CLAIM-CRETACEOUS-SCOPE-001
+- **Dato/alcance:** separa calendario, origen/radiación/dominancia vegetal, interacción insectil, tallo/corona aviana y radiación mamaliana.
+- **No afirma:** una revolución simultánea ni causalidad única de las angiospermas.
+- **Confianza:** `A-SEM`.
+
+### CLAIM-CRETACEOUS-BOUNDARIES-001
+- **Dato:** ICS 2026 calibra el Cretácico en `143.1 ± 0.6–66.0 Ma`.
+- **Límite:** el número no define el lecho y puede revisarse.
+- **Confianza:** `B`.
+
+### CLAIM-CRETACEOUS-SUBDIVISIONS-001
+- **Dato:** doce pisos forman dos series; sus GSSP tienen estados distintos.
+- **Límite:** ratificaciones y marcadores se actualizan.
+- **Confianza:** `A` arquitectura; `B` estado vivo.
+
+### CLAIM-CRETACEOUS-BASE-STATUS-001
+- **Dato institucional:** el Berriasiense y la base cretácica carecen de GSSP ratificado al `2026-08-11`.
+- **No afirma:** ausencia de correlación o de edad numérica útil.
+- **Confianza:** `A` estado; `B` edad.
+
+### CLAIM-CRETACEOUS-TOP-001
+- **Dato:** la base daniense está en la base de la arcilla limítrofe de El Kef; la eyección queda por encima.
+- **No afirma:** mecanismo completo de extinción.
+- **Confianza:** `A` horizonte; `B` edad.
+
+### CLAIM-CRETACEOUS-ANGIOSPERM-FOSSIL-001
+- **Dato:** polen cretácico temprano aporta el mínimo inequívoco bajo caracteres diagnósticos.
+- **Límite:** primer fósil no fecha origen ni primer individuo.
+- **Confianza:** `A-B`.
+
+### CLAIM-CRETACEOUS-ANGIOSPERM-CLOCK-001
+- **Dato:** modelos de ocurrencias/preservación y reloj molecular de 2021/2026 permiten una corona precretácica, especialmente jurásica tardía.
+- **Límite:** no existe cuerpo jurásico inequívoco equivalente; priors, tasas y calibraciones condicionan la salida.
+- **Confianza:** `C-PROV`.
+
+### CLAIM-CRETACEOUS-ANGIOSPERM-RADIATION-001
+- **Dato:** polen y órganos documentan aumento escalonado; venación supera rango no angiospérmico hacia `106–100 Ma`.
+- **No afirma:** un único pulso o mecanismo.
+- **Confianza:** `A-B` diversidad; `B-COND` función.
+
+### CLAIM-CRETACEOUS-ANGIOSPERM-DOMINANCE-001
+- **Dato:** diversidad, abundancia, biomasa, porte y dosel fueron regionalmente desacoplados.
+- **No afirma:** dominancia mundial instantánea.
+- **Confianza:** `B-COND`; `D` uniformidad global.
+
+### CLAIM-CRETACEOUS-FLOWER-ANCESTOR-001
+- **Dato:** reconstrucción de `13 444` observaciones favorece flor corona bisexual, radial y con múltiples órganos separados.
+- **Límite:** nodo/modelo, no fósil ni morfología del tallo.
+- **Confianza:** `C-COND`.
+
+### CLAIM-CRETACEOUS-POLLINATION-PREANGIOSPERM-001
+- **Dato:** mosca de probóscide larga conserva polen gimnospérmico en ámbar de ~`105 Ma`.
+- **Puente:** anatomía + contacto sostienen visita/polinización probable.
+- **Confianza:** `A-B` local.
+
+### CLAIM-CRETACEOUS-POLLINATION-DIRECT-001
+- **Dato:** escarabajos de ~`99–98 Ma` conservan polen angiospérmico adherido, ingerido o en coprolitos.
+- **Límite:** transporte/ingesta no miden eficacia fecundante; procedencia del ámbar condiciona.
+- **Confianza:** `A-B` local; `C` eficacia.
+
+### CLAIM-CRETACEOUS-INSECT-DIVERSIFICATION-001
+- **Dato:** muchos linajes insectiles preceden a angiospermas; modelos recuperan efectos específicos y desfasados sobre originación/extinción.
+- **No afirma:** flores crearon insectos ni ausencia de efecto.
+- **Confianza:** `B-COND`.
+
+### CLAIM-CRETACEOUS-AVIALAN-DIVERSITY-001
+- **Dato:** aves de Jehol tienen disparidad funcional menor que ensamblajes modernos bajo morfometría/simulación.
+- **Límite:** una Lagerstätte no agota ecologías cretácicas.
+- **Confianza:** `B-COND`.
+
+### CLAIM-CRETACEOUS-ICHTHYORNIS-MOSAIC-001
+- **Dato:** cráneo 3D combina dientes mandibulares, punta premaxilar edéntula/pico y rasgos derivados.
+- **No afirma:** «mitad reptil», dieta moderna o ancestro directo.
+- **Confianza:** `A-B`.
+
+### CLAIM-CRETACEOUS-CROWN-BIRD-DEFINITION-001
+- **Dato/definición:** Avialae del tallo no equivale a Aves corona; pertenencia requiere matriz y nodo declarado.
+- **No afirma:** que un pico o cola corta diagnostiquen corona.
+- **Confianza:** `A-SEM`; `B-COND` por fósil.
+
+### CLAIM-CRETACEOUS-ASTERIORNIS-001
+- **Dato:** cráneo tridimensional de ~`66.7 Ma` recupera combinación galliforme/anseriforme cerca de Galloanserae.
+- **Límite:** fósil único, topología y edad de corona anterior no fijada.
+- **Confianza:** `B-COND`.
+
+### CLAIM-CRETACEOUS-VEGAVIS-001
+- **Dato:** cráneo de `69.2–68.4 Ma` fortalece posición dentro de aves corona y ecología de captura submarina.
+- **Límite:** posiciones rivales históricas y resultado de 2025.
+- **Confianza:** `B-PROV`.
+
+### CLAIM-CRETACEOUS-MAMMAL-SCOPE-001
+- **Dato/alcance:** mamíferos cretácicos incluyen varias ramas, tamaños, dietas y geografías; tallo y corona se separan.
+- **No afirma:** aspecto de ratón moderno ni paquete ecológico único.
+- **Confianza:** `A-SEM`; `A-B` diversidad mínima.
+
+### CLAIM-CRETACEOUS-REPENOMAMUS-001
+- **Dato:** dos especies amplían tamaño; un ejemplar conserva restos abdominales de `Psittacosaurus` juvenil.
+- **Límite:** consumo directo no distingue caza/carroñeo ni frecuencia.
+- **Confianza:** `A-B`.
+
+### CLAIM-CRETACEOUS-MULTITUBERCULATE-001
+- **Dato:** complejidad dental, tamaño y herbivoría aumentaron al menos `20 Myr` antes de K–Pg.
+- **Límite:** vínculo con angiospermas es correlacional/mecanístico condicionado.
+- **Confianza:** `B-COND`.
+
+### CLAIM-CRETACEOUS-THERIAN-RADIATION-001
+- **Dato:** morfometría dental recupera aumento de disparidad y dieta teria `10–20 Myr` antes de K–Pg.
+- **Límite:** riqueza y disparidad no coinciden; dieta no agota nicho.
+- **Confianza:** `B-COND`.
+
+### CLAIM-CRETACEOUS-EUTHERIAN-CROWN-001
+- **Dato:** `Ambolestes` y matrices distinguen euterios del tallo de Placentalia; la edad de corona sigue disputada.
+- **No afirma:** ausencia definitiva de placentarios cretácicos.
+- **Confianza:** `A-SEM`; `B-COND` posiciones; `C-D` edad corona.
+
+### CLAIM-CRETACEOUS-GONDWANATHERIA-001
+- **Dato:** `Vintana` y `Adalatherium` documentan anatomía y diversidad gondwánica/insular distintiva.
+- **Límite:** registro escaso y topología variable.
+- **Confianza:** `A-B` anatomía; `C-COND` relaciones.
 
 ## Claims futuros
 

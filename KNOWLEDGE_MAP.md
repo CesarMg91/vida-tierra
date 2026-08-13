@@ -640,3 +640,30 @@ esqueleto/patagio/diente/cemento ─────> nicho/crecimiento mamaliaforme
 La arquitectura conserva ocho relojes: base/techo, rifting, expansión oceánica, T-OAE, radiación dinosauriana, gigantismo saurópodo, mosaico avialano y radiación mamaliaforme. La publicación de `Zhengheornis` en julio de 2026 muestra que una nueva cola fósil puede cambiar el orden de caracteres sin reescribir la tectónica, el redox o la corona aviana.
 
 Véase `INV-JURASSIC-001` en `07_mesozoico`, su mapa en `assets/visuales/mapa-investigacion-029.svg` y la doble cadena en `assets/visuales/de-rift-a-oceano-y-de-pluma-a-vuelo.svg`.
+
+### Investigación 030 — Flores, insectos, aves y mamíferos cretácicos
+
+```text
+GSSP + biozona + datación ───────────> límites y pisos ───────────────┐
+estado de ratificación ──────────────> frontera formal/revisable ─────┘
+                                             └── intervalo no fecha innovaciones
+
+mesofósil/polen/hoja + estrato ──────> presencia y rasgo mínimos ─────┐
+ocurrencias + muestreo ──────────────> radiación/diversidad ──────────┤
+venación + función ──────────────────> capacidad fisiológica ─────────┼──> transformación angiosperma
+reloj + calibraciones/modelo ────────> edad de nodo ──────────────────┘
+                                             └── reloj no es cuerpo; diversidad no es dominio
+
+insecto + polen + ámbar ─────────────> interacción local directa ─────┐
+rasgos + redes + modelo temporal ────> asociación macroevolutiva ─────┼──> red condicionada
+                                             └── interacción no prueba coevolución pareada
+
+cráneo/diente/pico + CT ─────────────> mosaico avialano ──────────────┐
+matriz + definición de nodo ─────────> ave corona condicionada ───────┤
+esqueleto/diente + rasgo + árbol ────> nicho/radiación mamaliana ─────┘
+                                             └── rasgo moderno no equivale a corona
+```
+
+La arquitectura conserva nueve relojes: límites, fósiles de angiospermas, divergencia molecular, expansión funcional, interacciones, tasas de insectos, mosaicos avialanos, aves corona y radiaciones mamalianas. El límite K–Pg cierra el intervalo, pero sus mecanismos y selectividad se reservan para la Investigación 031.
+
+Véase `INV-CRETACEOUS-001` en `07_mesozoico`, su mapa en `assets/visuales/mapa-investigacion-030.svg` y la doble cadena en `assets/visuales/de-polen-a-red-y-de-caracter-a-corona.svg`.

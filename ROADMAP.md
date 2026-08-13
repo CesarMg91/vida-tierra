@@ -79,7 +79,7 @@ Una investigación pasa de `EN_DESARROLLO` a `AUDITADO` cuando:
 | 027 | `INV-PERMIAN-001` | [¿Cómo se ensambló Pangea, qué eran los sinápsidos y por qué la mayor extinción no tuvo una sola causa?](06_paleozoico/INVESTIGACION_027_PANGEA_SINAPSIDOS_EXTINCION.md) — **AUDITADO** |
 | 028 | `INV-TRIASSIC-001` | [¿Cómo se reconstruyó la biosfera triásica y cuándo aparecieron dinosaurios y mamaliaformes?](07_mesozoico/INVESTIGACION_028_RECUPERACION_DINOSAURIOS_MAMALIAFORMES.md) — **AUDITADO** |
 | 029 | `INV-JURASSIC-001` | [¿Cómo fragmentó el Jurásico a Pangea y qué revela sobre dinosaurios, avialanos y mamaliaformes?](07_mesozoico/INVESTIGACION_029_JURASICO_PANGEA_DINOSAURIOS_AVIALANOS_MAMMALIAFORMES.md) — **AUDITADO** |
-| 030 | `INV-CRETACEOUS-001` | flores, insectos, aves y mamíferos |
+| 030 | `INV-CRETACEOUS-001` | [¿Cómo transformaron las angiospermas las redes cretácicas y qué revelan insectos, aves y mamíferos?](07_mesozoico/INVESTIGACION_030_CRETACICO_FLORES_INSECTOS_AVES_MAMIFEROS.md) — **AUDITADO** |
 | 031 | `INV-KPG-001` | impacto, Deccan y mecanismos de extinción |
 
 En cada periodo se auditarán primero sus límites cronoestratigráficos y después las narraciones biológicas.
@@ -167,6 +167,7 @@ Después de disponer de la secuencia base:
 - `v0.1.26`: Investigación 027 + historia de Pangea/sinápsidos/extinción + mapa de cuatro archivos y cadenas roca–Pangea y magma–extinción.
 - `v0.1.27`: Investigación 028 + historia de recuperación/dinosaurios/mamaliaformes + mapa de relojes y cadenas fósil–nodo y CAMP–recambio.
 - `v0.1.28`: Investigación 029 + historia jurásica + mapas de cinco archivos y cadenas rift–océano y pluma–vuelo, actualizados con evidencia avialana de 2026.
+- `v0.1.29`: Investigación 030 + historia de angiospermas/redes + mapas de cinco archivos y cadenas polen–red y carácter–corona, actualizados con relojes vegetales de 2026 y cráneo de `Vegavis` de 2025.
 - `v0.2`: Hadeano/Arcaico auditados.
 - `v0.3`: Proterozoico y origen/temprana evolución de la vida.
 - `v0.4`: Fanerozoico completo.
