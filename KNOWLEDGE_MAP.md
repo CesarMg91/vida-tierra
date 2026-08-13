@@ -570,3 +570,27 @@ huella + dedos/garras + edad ──> amniota tournaisiense probable
 La arquitectura conserva siete relojes: límite, turba, coalificación, hielo/vegetación, oxígeno/fuego, tamaño y amniotas. Un nuevo proxy atmosférico o una nueva huella puede mover su reloj sin convertir todos los demás en dependientes.
 
 Véase `INV-CARBONIFEROUS-001` en `06_paleozoico`, su mapa en `assets/visuales/mapa-investigacion-026.svg` y la doble cadena en `assets/visuales/de-turba-a-carbon-y-de-huella-a-amniota.svg`.
+
+### Investigación 027 — Pangea, sinápsidos y extinción terminal
+
+```text
+suturas + orógenos + procedencia ──> bloques y colisiones ─────────────┐
+paleomagnetismo ───────────────────> latitud + rotación ────────────────┼──> Pangea condicionada
+fósiles + facies + cinemática ─────> prueba cruzada ───────────────────┘
+                                        └── longitud y configuración A/B abiertas
+
+cráneo/dientes + matriz ───────────> árbol sinápsido
+húmero 3D + comparadores ──────────> función/postura condicionada
+espina + histología + térmica ─────> vela multifuncional posible
+                                        └── no ancestro, escalera ni conducta observada
+
+ceniza + U–Pb ─────────────────────> tiempo de crisis ─────────────────┐
+lava/sill + U–Pb ──────────────────> fase de Traps ────────────────────┤
+C/B/U/Fe/S + modelo ───────────────> carbono, pH, redox y clima ───────┼──> cadena causal
+rangos + muestreo + fisiología ────> magnitud y selectividad ──────────┘
+                                        └── no 96 % de toda la vida ni un asesino único
+```
+
+La arquitectura conserva siete relojes: límites, ensamblaje continental, clima/deglaciación, filogenia sinápsida, crisis capitaniense, cronología terminal y mecanismos de mortalidad. Un nuevo polo, fósil o proxy puede mover un reloj sin convertir los demás en copias.
+
+Véase `INV-PERMIAN-001` en `06_paleozoico`, su mapa en `assets/visuales/mapa-investigacion-027.svg` y la doble cadena en `assets/visuales/de-roca-a-pangea-y-de-volcan-a-extincion.svg`.

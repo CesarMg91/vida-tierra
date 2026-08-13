@@ -180,6 +180,16 @@ El propósito no es presentar la ciencia como una sucesión de fracasos ni como 
 | `ERR-CARBONIFEROUS-AMNIOTE-EGG-001` | las huellas probaron un huevo amniótico | pertenencia de linaje sustituye tejido reproductivo | icnología, cuerpos y reconstrucción filogenética separadas | DOCUMENTADO |
 | `ERR-CARBONIFEROUS-HYLONOMUS-ORIGIN-001` | `Hylonomus` fue el primer amniota y lugar de origen | mínimo corporal convertido en divergencia | FAD, nodo, rango fantasma y huellas separados | DOCUMENTADO |
 | `ERR-CARBONIFEROUS-RAINFOREST-CAUSE-001` | colapso forestal causó automáticamente radiación amniota | correlación y riqueza cruda sustituyen causalidad | estandarización, espacio y modelos neutrales | DOCUMENTADO |
+| `ERR-PERMIAN-PANGEA-INSTANT-001` | Pangea apareció de golpe al comenzar el Pérmico | nombre del periodo usado como reloj tectónico | suturas, colisiones y terrenos por intervalo | DOCUMENTADO |
+| `ERR-PERMIAN-PANGEA-DESERT-001` | todo Pangea fue un desierto uniforme | continentalidad extrapolada sobre relieve/latitud/costas | facies, hielo, proxies y GCM regionales | DOCUMENTADO |
+| `ERR-PERMIAN-DIMETRODON-DINOSAUR-001` | `Dimetrodon` fue dinosaurio | silueta popular sustituye filogenia | caracteres y nodos sinápsido/dinosaurio | DOCUMENTADO |
+| `ERR-PERMIAN-DIMETRODON-ANCESTOR-001` | `Dimetrodon` fue nuestro ancestro directo | parentesco lateral convertido en genealogía | nodo, grupo tallo y ancestro desconocido | DOCUMENTADO |
+| `ERR-PERMIAN-PELYCOSAUR-CLADE-001` | Pelycosauria es un clado anterior a Therapsida | grado parafilético dibujado como peldaño | árbol con descendientes incluidos | DOCUMENTADO |
+| `ERR-PERMIAN-SAIL-RADIATOR-001` | la vela fue exclusivamente radiador | capacidad física convertida en función seleccionada | histología, alometría y alternativas | DOCUMENTADO |
+| `ERR-PERMIAN-SYNAPSID-LADDER-001` | sinápsidos marcharon linealmente hacia postura mamaliana | árbol/radiaciones convertidos en progreso | paisajes funcionales y mosaicos | DOCUMENTADO |
+| `ERR-PERMIAN-ONE-EXTINCTION-001` | hubo una sola extinción pérmica de millones de años | Capitaniense y terminal sumadas | eventos, volcanismos y pulsos separados | DOCUMENTADO |
+| `ERR-PERMIAN-96-LIFE-001` | murió 96 % de toda la vida | estimador marino convertido en censo biosférico | denominador, corrección, reino y hábitat | DOCUMENTADO |
+| `ERR-PERMIAN-VOLCANO-ONECAUSE-001` | una erupción mató todo directamente | desencadenante confundido con mecanismo de muerte | pulso, gases, clima, océano y selectividad | DOCUMENTADO |
 | `ERR-LUNAR-APOLLO-INDEPENDENT-001` | tratar sitios Apollo como testigos independientes | ejecta local y sin transporte global | cartografía, Th, geoquímica y escalado de Imbrium | DOCUMENTADO |
 | `ERR-IMPACT-MOON-EARTH-001` | convertir cronología lunar en esterilización terrestre | escala constante de tasa y efecto | dinámica, hidrocodes, atmósfera/océano y archivo terrestre | DOCUMENTADO |
 | `ERR-LUNAR-ABSENCE-001` | “sin fundido antiguo” = “sin impacto antiguo” | supervivencia uniforme hacia atrás | sesgo de preservación y evidencia positiva `4.22–4.33 Ga` | DOCUMENTADO |
@@ -1629,3 +1639,83 @@ Recambio vegetal, fragmentación y diversidad coinciden en parte, pero riqueza c
 ### Corrección
 
 Estandarizar muestreo, comparar modelos espaciales/filogenéticos y exigir predicciones que distingan fragmentación de preservación y colecta.
+
+## ERR-PERMIAN-PANGEA-INSTANT-001 — El mapa encajó en una fecha
+
+Pangea se ensambló mediante colisiones que comenzaron antes y continuaron durante el Pérmico, mientras bloques periféricos conservaban océanos entre sí. Una frontera estratigráfica no inicia ese proceso.
+
+### Corrección
+
+Fechar sutura, colisión y apertura/cierre por bloque; usar intervalos y no una única fecha ceremonial.
+
+## ERR-PERMIAN-PANGEA-DESERT-001 — La continentalidad secó cada costa
+
+Interiores extensos favorecen aridez, pero latitud, relieve, monzones, hielo y mares marginales crearon mosaicos húmedos y secos. Una propiedad media no cubre un supercontinente.
+
+### Corrección
+
+Anclar cada clima a paleolatitud, facies, proxy, estación e intervalo; reservar «árido» para regiones documentadas.
+
+## ERR-PERMIAN-DIMETRODON-DINOSAUR-001 — Una vela entró al parque jurásico
+
+`Dimetrodon` es un sinápsido esfenacodóntido anterior a los dinosaurios. La postura popular y los dientes no sustituyen los caracteres que separan los nodos.
+
+### Corrección
+
+Mostrar un árbol mínimo Synapsida–Sauropsida–Dinosauria y fechar sus ramas antes de comparar apariencia.
+
+## ERR-PERMIAN-DIMETRODON-ANCESTOR-001 — Cercanía se volvió paternidad
+
+Estar más cerca de mamíferos que de dinosaurios significa compartir un ancestro común más reciente. No identifica a `Dimetrodon` como especie de la línea directa humana.
+
+### Corrección
+
+Decir «pariente del tallo mamaliano» y distinguir taxón hermano, ancestro común y ancestro directo no observado.
+
+## ERR-PERMIAN-PELYCOSAUR-CLADE-001 — Un grado recibió descendencia selectiva
+
+El conjunto tradicional excluye Therapsida aunque ésta está anidada entre sus ramas. Esa exclusión lo vuelve parafilético, no una etapa natural completa.
+
+### Corrección
+
+Usar «sinápsidos de grado pelicosaurio» entre comillas o nombrar clados monofiléticos concretos.
+
+## ERR-PERMIAN-SAIL-RADIATOR-001 — Una ecuación decidió conducta
+
+Una superficie vascularizada puede intercambiar calor. El modelo no observa selección, exhibición, reconocimiento ni multifunción, y las velas no comparten una histología única.
+
+### Corrección
+
+Separar capacidad física, desempeño, uso conductual y ventaja selectiva; comparar predicciones rivales.
+
+## ERR-PERMIAN-SYNAPSID-LADDER-001 — Cada rama avanzó hacia nosotros
+
+Terápsidos y cinodontos radiaron con combinaciones funcionales propias; postura y anatomía variaron y revirtieron. Los mamíferos no eran la meta del Pérmico.
+
+### Corrección
+
+Dibujar árboles con mosaicos de caracteres y paisajes funcionales, no una secuencia de siluetas ascendente.
+
+## ERR-PERMIAN-ONE-EXTINCTION-001 — Diez millones de años se volvieron un instante
+
+La crisis capitaniense y la terminal tienen volcanismos, redox y pérdidas separables. Sumarlas infla magnitud y borra la pregunta causal de cada una.
+
+### Corrección
+
+Declarar evento, intervalo, sección, clado y métrica; no sumar pérdidas sin modelar supervivencia y fondo.
+
+## ERR-PERMIAN-96-LIFE-001 — Un estimador marino censó la biosfera
+
+Las cifras altas dependen de especies marinas, bins y correcciones, y a veces integran la crisis previa. No cuentan microbios, hongos, plantas ni todos los ecosistemas terrestres.
+
+### Corrección
+
+Publicar denominador y método; preferir «crisis marina más severa» y el estimador condicionado `~81 %` cuando corresponda.
+
+## ERR-PERMIAN-VOLCANO-ONECAUSE-001 — El desencadenante saltó hasta cada muerte
+
+Los Traps ofrecen tiempo, escala y gases, pero la mortalidad ocurrió mediante carbono, calentamiento, acidificación, hipoxia/euxinia, nutrientes y estrés terrestre selectivo.
+
+### Corrección
+
+Escribir la cadena causal completa, cuantificar cada puente y permitir pesos distintos por región, ambiente y organismo.

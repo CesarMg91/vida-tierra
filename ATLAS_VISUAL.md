@@ -360,6 +360,20 @@ El mapa distingue cuatro archivos: una veta no prueba un planeta pantanoso, carb
 
 La doble cadena muestra qué pasos son físicos y cuáles inferenciales. La veta exige preservación y maduración; el mínimo amniota exige identidad del rastro, edad de formación y puente filogenético.
 
+## 28. Investigación 027 — Pangea, sinápsidos y extinción terminal
+
+![Portada conceptual del Pérmico](assets/visuales/hero-pangea-sinapsidos-extincion-permica.png)
+
+> **Portada conceptual:** reúne alternativas de reconstrucción continental, un sinápsido con vela, un terápsido, un fósil cinodonto, hielo, Traps, sills y un océano estratificado. Es un montaje de archivos y tiempos: no es mapa exacto, convivencia local, genealogía lineal ni una erupción instantánea.
+
+![Mapa de evidencia de Pangea, sinápsidos y extinción](assets/visuales/mapa-investigacion-027.svg)
+
+El mapa distingue reconstrucción tectónica, filogenia/función, cronología y ambiente. Un polo no fija longitud, un húmero no filma una marcha, una ceniza no fecha directamente cada muerte y un proxy no identifica un asesino universal.
+
+![Cadenas desde roca hasta Pangea y desde magma hasta extinción](assets/visuales/de-roca-a-pangea-y-de-volcan-a-extincion.svg)
+
+La doble cadena hace visibles los pasos perdidos: la paleogeografía exige solución cinemática y prueba cruzada; la causalidad exige gas, forzamiento, ambiente, exposición, selectividad y rangos corregidos.
+
 ## Procedencia
 
 El registro de creación, límites y prompt de cada pieza está en [`assets/visuales/README.md`](assets/visuales/README.md).

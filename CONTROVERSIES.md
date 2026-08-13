@@ -174,6 +174,16 @@ Una controversia no implica empate. Registra qué parte está realmente abierta,
 | `CONT-CARBONIFEROUS-ROMERS-GAP-001` | ¿Vacío evolutivo o de roca? | nuevas faunas llenan parte del Tournaisiense | exposición y muestreo siguen espacialmente desiguales | sesgo fuerte; señal residual abierta | B-COND |
 | `CONT-CARBONIFEROUS-AMNIOTE-TRACKS-001` | ¿Snowy Plains registra un amniota corona? | cinco dígitos, garras y patrón favorecen saurópsido/amniota | cuerpo ausente, edad transferida y convergencia mantienen condición | interpretación probable, no definitiva | B-COND |
 | `CONT-CARBONIFEROUS-RAINFOREST-TETRAPODS-001` | ¿El recambio forestal disparó diversificación? | fragmentación ofrece mecanismo y ocurrencias crudas sugieren endemismo | correcciones y modelos neutrales debilitan la consecuencia simple | recambio real; causalidad abierta | B ambiente; D causa simple |
+| `CONT-PERMIAN-PANGEA-CONFIG-001` | ¿Pangea B temprana pasó a Pangea A? | algunos polos exigen desplazamiento longitudinal grande | correcciones de inclinación/polos y mecánica reducen esa necesidad | ensamblaje robusto; geometría fina abierta | B Pangea; C-D A/B |
+| `CONT-PERMIAN-CLIMATE-001` | ¿Qué controló el mosaico climático? | continentalidad y latitud explican parte de aridez/monzón | relieve, hielo, `CO₂` y mares cambian la señal regional | marco robusto; pesos abiertos | B; C pesos |
+| `CONT-PERMIAN-SAIL-001` | ¿Para qué servían las velas sinápsidas? | área/vascularización permiten intercambio térmico | diversidad histológica y selección sexual permiten exhibición/multifunción | capacidad térmica sí; función dominante abierta | C-D |
+| `CONT-PERMIAN-THERAPSID-ORIGIN-001` | ¿Dónde y cuándo surgieron los terápsidos? | Rusia/Karoo concentran registro clásico | Mallorca temprano/anidado exige historia ecuatorial previa | mínimo desplazado; origen abierto | B-COND |
+| `CONT-PERMIAN-LOCOMOTION-001` | ¿La postura evolucionó de extendida a erguida? | algunas series anatómicas parecen direccionales | morfometría amplia recupera radiaciones y reversiones | escalera rechazada; hábitos por taxón abiertos | B-COND |
+| `CONT-PERMIAN-CAPITANIAN-001` | ¿Una o dos crisis capitaniense y qué alcance? | Emeishan, pérdidas y redox coinciden | regiones/proxies difieren en pulsos y sincronía | crisis separada robusta; bordes abiertos | B; C-D detalle |
+| `CONT-PERMIAN-EPME-MAGNITUDE-001` | ¿Murió 81, 90 o 96 %? | todas las métricas recuperan crisis marina excepcional | denominador, fondo, bins y Capitaniense cambian porcentaje | ranking robusto; cifra condicionada | B ranking; C porcentaje |
+| `CONT-PERMIAN-TRAPS-PULSE-001` | ¿Qué pulso de los Traps fue decisivo? | magmatismo coincide y tiene escala suficiente | lavas, sills, metamorfismo y gases se solapan | sills candidato fuerte; presupuesto abierto | A-B tiempo; B-C causa |
+| `CONT-PERMIAN-KILLCHAIN-001` | ¿Qué mecanismo mató y dónde? | calor, acidificación y desoxigenación tienen proxies/modelos | sulfuro, alimento, UV-B y extremos cambian por ambiente | red causal robusta; pesos abiertos | B mecanismos; C-D pesos |
+| `CONT-PERMIAN-TERRESTRIAL-TIMING-001` | ¿Fueron sincrónicas las crisis de tierra y mar? | Karoo favorece proximidad | Cathaysia fecha colapso tropical posterior | depende de región/variable; no línea mundial | C-D |
 
 ## CONT-COSMOS-H0-001 — Dos rutas hacia la tasa actual
 
@@ -1363,3 +1373,63 @@ Snowy Plains combina pentadactilia, garras y secuencias que favorecen un product
 La fragmentación forestal puede producir aislamiento y endemismo, pero ocurrencias fósiles desiguales imitan esos patrones. Estandarización y modelos neutrales reducen la necesidad de una explosión causal única.
 
 **Prueba discriminatoria:** bases con cobertura comparable, filogenias fechadas y modelos espaciales que predigan cambios de diversificación/endemismo más allá de preservación y colecta.
+
+## CONT-PERMIAN-PANGEA-CONFIG-001 — Un supercontinente, varias longitudes
+
+Pangea amplia está sostenida por suturas y cinemática. El desacuerdo A/B aparece al convertir paleolatitudes y rotaciones en un ajuste longitudinal: polos, inclinación somera y deformación intracontinental admiten soluciones diferentes.
+
+**Prueba discriminatoria:** polos primarios coetáneos, corregidos y replicados a ambos lados de las suturas, junto con una cinemática que cierre océanos sin cizalla inverosímil.
+
+## CONT-PERMIAN-CLIMATE-001 — El continente no decide solo
+
+Una gran masa terrestre favorece continentalidad, pero no fija lluvia ni temperatura por sí sola. Relieve, hielo, `CO₂`, latitud y océanos marginales pueden producir respuestas opuestas entre regiones.
+
+**Prueba discriminatoria:** ensambles multiproxy paleolatitudinales comparados con experimentos GCM que perturben un forzamiento por vez y predigan estacionalidad, no sólo media anual.
+
+## CONT-PERMIAN-SAIL-001 — Una capacidad no identifica selección
+
+Las velas intercambiaban calor y algunas espinas estaban vascularizadas; eso prueba capacidad. La diversidad histológica y la posibilidad de exhibición impiden convertir el cálculo térmico en una función evolutiva exclusiva.
+
+**Prueba discriminatoria:** series ontogenéticas/sexuales con tejidos y alometrías que predigan señales distintas para termorregulación, exhibición o reserva.
+
+## CONT-PERMIAN-THERAPSID-ORIGIN-001 — La primera vitrina no es la cuna
+
+Rusia y Karoo preservan radiaciones clásicas; un gorgonopsio temprano de Mallorca ya aparece anidado. El nuevo mínimo exige línea fantasma, pero una localidad ecuatorial no demuestra allí la divergencia.
+
+**Prueba discriminatoria:** fósiles cisuralienses diagnósticos y fechados de varias paleolatitudes, incorporados a modelos filogenéticos/biogeográficos con muestreo explícito.
+
+## CONT-PERMIAN-LOCOMOTION-001 — Variación antes que escalera
+
+La postura mamaliana se dibujó como progreso continuo. Húmeros 3D y paisajes funcionales recuperan múltiples combinaciones, acercamientos y alejamientos de la parasagitalidad durante casi toda la historia sinápsida.
+
+**Prueba discriminatoria:** modelos de cuerpo completo validados en animales vivos que integren cintura, músculos, miembro posterior y pistas por taxón fósil.
+
+## CONT-PERMIAN-CAPITANIAN-001 — Separar no termina de contar
+
+Fósiles, Emeishan y anoxia distinguen la crisis capitaniense de la terminal. Registros de uranio y biodiversidad aún difieren sobre uno/dos pulsos, extensión oceánica y expresión terrestre.
+
+**Prueba discriminatoria:** edades de alta precisión, taxonomía estandarizada y proxies redox replicados en paleocuencas conectadas y aisladas para cada pulso.
+
+## CONT-PERMIAN-EPME-MAGNITUDE-001 — El porcentaje hereda su denominador
+
+`~81 %` surge al separar fondo, agrupamiento y Capitaniense; `90–96 %` procede de otras bases/correcciones. Ninguno es una fracción medida de toda la biosfera.
+
+**Prueba discriminatoria:** estimadores preregistrados sobre bases taxonómicas auditadas, con curvas de detectabilidad y resultados separados por especie, género, función, mar y tierra.
+
+## CONT-PERMIAN-TRAPS-PULSE-001 — Volumen no es tasa ni composición
+
+Los Traps actuaron antes, durante y después. El inicio de sills ofrece sincronía y contacto con sedimentos fértiles, pero lavas, metamorfismo y pulsos gaseosos pueden contribuir sin dejar el mismo archivo.
+
+**Prueba discriminatoria:** edades/trazadores de volátiles que predigan masa, composición y tasa de emisión pulso por pulso antes de compararlas con carbono, temperatura y extinción.
+
+## CONT-PERMIAN-KILLCHAIN-001 — Una red de muerte no reparte culpas sola
+
+Calor, acidificación, hipoxia/euxinia, nutrientes, UV-B y extremos cuentan con eslabones empíricos. Covarían y afectan de modo diferente a un braquiópodo, un bosque tropical o un vertebrado de alta latitud.
+
+**Prueba discriminatoria:** predicciones espaciales y selectivas exclusivas de cada combinación, contrastadas con cronologías/proxies independientes y fisiología por clado.
+
+## CONT-PERMIAN-TERRESTRIAL-TIMING-001 — «Sincrónico» necesita resolución
+
+Karoo aproxima fases terrestres y marinas dentro de su incertidumbre; Cathaysia fecha un colapso forestal posterior al inicio marino. Ecosistema, variable y paleolatitud no son réplicas de un mismo horizonte.
+
+**Prueba discriminatoria:** redes de tobas CA-ID-TIMS que atraviesen la transición en varias paleolatitudes y midan en las mismas capas cuerpos, polen, abundancia, fuego y facies.

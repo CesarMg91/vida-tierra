@@ -28,3 +28,4 @@ Grafos de dependencias entre objetos, mediciones, principios, modelos, claims y 
 - [`MAPA_024_RECUPERACION_SILURICA.md`](MAPA_024_RECUPERACION_SILURICA.md): límite, recuperación, eventos, esporas, tejidos, respiración, interacción y costa sin fundir edad, función, hábitat o ecosistema.
 - [`MAPA_025_BOSQUES_PECES_TETRAPODOS.md`](MAPA_025_BOSQUES_PECES_TETRAPODOS.md): seis relojes y tres cadenas que separan árbol, bosque, paisaje, pez, extremidad, locomoción, crisis y causa.
 - [`MAPA_026_CARBON_OXIGENO_AMNIOTAS.md`](MAPA_026_CARBON_OXIGENO_AMNIOTAS.md): cuatro archivos y cadenas que separan turba, carbón, atmósfera, fuego, tamaño, rastro y reproducción inferida.
+- [`MAPA_027_PANGEA_SINAPSIDOS_EXTINCION.md`](MAPA_027_PANGEA_SINAPSIDOS_EXTINCION.md): tres grafos para reconstruir Pangea, parentesco/función sinápsida y la cadena causal de la extinción terminal sin confundir mapa, ancestro, proxy y mortalidad.
