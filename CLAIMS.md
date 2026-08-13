@@ -429,6 +429,31 @@ Este archivo es el índice canónico. La letra de confianza califica exactamente
 | `CLAIM-PALEOGENE-PETM-RATE-001` | Un modelo estima inicio ≥`4 kyr` y tasa sostenida <`1.1 Pg C/año`; el PETM no replica la velocidad industrial moderna. | B-COND | AUDITADO | `EVID-PALEOGENE-PETM-RATE-001` | `INV-PALEOGENE-001` |
 | `CLAIM-PALEOGENE-PETM-BIOTA-001` | `Sifrhippus` redujo ~`30 %` su masa estimada y luego se recuperó en Wyoming; es una respuesta regional, no una regla universal. | B-COND regional | AUDITADO | `EVID-PALEOGENE-PETM-BIOTA-001` | `INV-PALEOGENE-001` |
 | `CLAIM-PALEOGENE-EOT-001` | La transición Eoceno–Oligoceno (~`34.4–33.7 Ma`) registra dos pasos isotópicos, caída eustática y expansión del hielo antártico, no un instante único. | B-COND | AUDITADO | `EVID-PALEOGENE-EOT-001` | `INV-PALEOGENE-001` |
+| `CLAIM-NEOGENE-SCOPE-001` | Fronteras, clima, vegetación, evolución mamaliana y formación de Panamá son cinco relojes relacionados pero no sustituibles. | A-SEM | AUDITADO | `EVID-NEOGENE-BOUNDARIES-001`, `EVID-NEOGENE-CLIMATE-MMCT-001`, `EVID-NEOGENE-GRASS-DIVERSIFICATION-001`, `EVID-NEOGENE-HOMINOID-LOCOMOTION-001`, `EVID-NEOGENE-PANAMA-FINAL-001` | `INV-NEOGENE-001` |
+| `CLAIM-NEOGENE-BOUNDARIES-001` | El Neógeno se calibra `23.04–2.58 Ma` e incluye Mioceno y Plioceno; sus fronteras son GSSP físicos, no sólo cifras. | A arquitectura; B edades | AUDITADO | `EVID-NEOGENE-BOUNDARIES-001` | `INV-NEOGENE-001` |
+| `CLAIM-NEOGENE-PLIOCENE-GSSP-001` | La base del Plioceno/Zancliense está en la base de la Formación Trubi en Eraclea Minoa y se calibra en `5.333 Ma`. | A horizonte; B edad | AUDITADO | `EVID-NEOGENE-BOUNDARIES-001` | `INV-NEOGENE-001` |
+| `CLAIM-NEOGENE-END-001` | El Neógeno termina en la base gelasiense de Monte San Nicola, que define Pleistoceno y Cuaternario a `2.58 Ma`. | A horizonte; B edad | AUDITADO | `EVID-NEOGENE-BOUNDARIES-001` | `INV-NEOGENE-001` |
+| `CLAIM-NEOGENE-CLIMATE-OPTIMUM-001` | El Óptimo Climático del Mioceno (~`17–15 Ma`) fue una ventana cálida con respuestas antárticas, no un Neógeno uniformemente tropical o sin hielo. | B-COND | AUDITADO | `EVID-NEOGENE-CLIMATE-MCO-001` | `INV-NEOGENE-001` |
+| `CLAIM-NEOGENE-MMCT-001` | La MMCT cerca de `14 Ma` acopló enfriamiento austral y expansión rápida del hielo bajo `CO₂` decreciente y ritmo orbital; los pesos causales siguen abiertos. | B-COND | AUDITADO | `EVID-NEOGENE-CLIMATE-MMCT-001` | `INV-NEOGENE-001` |
+| `CLAIM-NEOGENE-CLIMATE-MOSAIC-001` | El enfriamiento tardomioceno fue amplio, pero aridificación, monzones, fuego y vegetación respondieron regionalmente y con desfases. | B global; B-COND regional | AUDITADO | `EVID-NEOGENE-CLIMATE-LATE-001` | `INV-NEOGENE-001` |
+| `CLAIM-NEOGENE-GRASS-ORIGIN-001` | Las gramíneas y linajes de hábitat abierto anteceden al Neógeno; una expansión miocena no es su origen. | A-B | AUDITADO | `EVID-NEOGENE-GRASS-DIVERSIFICATION-001` | `INV-NEOGENE-001` |
+| `CLAIM-NEOGENE-GRASS-DIVERSIFICATION-001` | Fitolitos norteamericanos muestran gramíneas abiertas diversas hacia `34 Ma`, antes de su dominancia ecológica. | B-COND regional | AUDITADO | `EVID-NEOGENE-GRASS-DIVERSIFICATION-001` | `INV-NEOGENE-001` |
+| `CLAIM-NEOGENE-GRASS-DOMINANCE-001` | En Norteamérica la dominancia de gramíneas abiertas siguió `7–11 Myr` después de su diversificación; diversidad y cobertura tienen relojes distintos. | B-COND regional | AUDITADO | `EVID-NEOGENE-GRASS-DIVERSIFICATION-001` | `INV-NEOGENE-001` |
+| `CLAIM-NEOGENE-C4-EARLY-001` | Nueve complejos de África oriental registran `C4` localmente abundante y hábitats heterogéneos entre `~21–16 Ma`. | B-COND regional | AUDITADO | `EVID-NEOGENE-C4-EARLY-001` | `INV-NEOGENE-001` |
+| `CLAIM-NEOGENE-C4-EXPANSION-001` | El esmalte fósil registra un aumento intercontinental de biomasa `C4` entre `8–6 Ma`; es expansión, no origen ni causa única. | B-COND | AUDITADO | `EVID-NEOGENE-C4-EXPANSION-001` | `INV-NEOGENE-001` |
+| `CLAIM-NEOGENE-C4-PROXY-001` | Esmalte, fitolitos, paleosuelos y biomarcadores miden dieta, vegetación local y aporte regional diferentes; no son porcentajes intercambiables de cobertura. | A-SEM; B-COND | AUDITADO | `EVID-NEOGENE-C4-EARLY-001`, `EVID-NEOGENE-C4-EXPANSION-001` | `INV-NEOGENE-001` |
+| `CLAIM-NEOGENE-MAMMAL-ECOMORPHOLOGY-001` | La hipsodoncia responde a desgaste por dieta, polvo, arena o ceniza y no demuestra por sí sola un pastizal ni pastoreo. | B-COND | AUDITADO | `EVID-NEOGENE-MAMMAL-ECOMORPHOLOGY-001` | `INV-NEOGENE-001` |
+| `CLAIM-NEOGENE-HOMINOID-ROOT-001` | `Rukwapithecus` y un cercopitecoideo de tallo a `25.2 Ma` llevan ambas ramas catarrinas al Oligoceno; son mínimos fósiles, no el nodo observado. | A-B edad; B-COND posición | AUDITADO | `EVID-NEOGENE-HOMINOID-ROOT-001` | `INV-NEOGENE-001` |
+| `CLAIM-NEOGENE-HOMINOID-DIVERSITY-001` | Los hominoideos miocenos fueron una radiación africana y eurasiática ramificada; la mayoría no son etapas ni coronas vivas demostradas. | A-B diversidad; B-COND nodos | AUDITADO | `EVID-NEOGENE-HOMINOID-ROOT-001`, `EVID-NEOGENE-HOMINOID-ALESI-001`, `EVID-NEOGENE-HOMINOID-BIOGEOGRAPHY-001` | `INV-NEOGENE-001` |
+| `CLAIM-NEOGENE-HOMINOID-ALESI-001` | El cráneo infantil de `Alesi`, `13 Ma`, apoya un hominoideo de tallo; su cara parecida a gibón probablemente es convergente. | A-B anatomía/edad; B-COND posición | AUDITADO | `EVID-NEOGENE-HOMINOID-ALESI-001` | `INV-NEOGENE-001` |
+| `CLAIM-NEOGENE-HOMINOID-LOCOMOTION-001` | Moroto vincula versatilidad con hábitat heterogéneo; `Danuvius` apoya suspensión/trepa, mientras su supuesto bipedismo sigue discutido. | B-COND | AUDITADO | `EVID-NEOGENE-HOMINOID-LOCOMOTION-001` | `INV-NEOGENE-001` |
+| `CLAIM-NEOGENE-HOMINOID-ORIGIN-001` | Simios mediterráneos permiten hipótesis eurasiática o dispersión africana; no fijan el origen geográfico de homininos ni la rama humana. | C-COND | AUDITADO | `EVID-NEOGENE-HOMINOID-BIOGEOGRAPHY-001` | `INV-NEOGENE-001` |
+| `CLAIM-NEOGENE-PANAMA-CLOCKS-001` | Arco, islas, restricción profunda, cierre somero, puente terrestre y dispersión biológica son relojes distintos de “Panamá”. | A-SEM | AUDITADO | `EVID-NEOGENE-PANAMA-PROVENANCE-001`, `EVID-NEOGENE-PANAMA-FINAL-001`, `EVID-NEOGENE-GABI-001` | `INV-NEOGENE-001` |
+| `CLAIM-NEOGENE-PANAMA-MIOCENE-001` | Circones y paleodrenajes apoyan conexión Panamá–Sudamérica hacia `15–13 Ma`, condicionada por fuente, transporte y pasos marinos alternativos. | B datos; C-COND cierre | AUDITADO | `EVID-NEOGENE-PANAMA-PROVENANCE-001` | `INV-NEOGENE-001` |
+| `CLAIM-NEOGENE-PANAMA-FINAL-CLOSURE-001` | Geología y señales marinas/terrestres convergen en un istmo *sensu stricto* cerca de `2.8 Ma`, tras una restricción gradual. | B-COND | AUDITADO | `EVID-NEOGENE-PANAMA-FINAL-001` | `INV-NEOGENE-001` |
+| `CLAIM-NEOGENE-GABI-EARLY-001` | Pulsos biológicos precedieron el cierre final; islas, balsas o conexiones transitorias permiten dispersión sin puente permanente. | B patrón; C-COND ruta | AUDITADO | `EVID-NEOGENE-GABI-001` | `INV-NEOGENE-001` |
+| `CLAIM-NEOGENE-GABI-ASYMMETRY-001` | Un modelo de ~`20 000` ocurrencias atribuye la asimetría mamaliana sobre todo a mayor extinción de nativos sudamericanos, no a mayor dispersión norteña. | B-COND | AUDITADO | `EVID-NEOGENE-GABI-ASYMMETRY-001` | `INV-NEOGENE-001` |
+| `CLAIM-NEOGENE-PANAMA-CLIMATE-001` | Panamá pudo modular salinidad y circulación, pero no constituye causa suficiente única del enfriamiento ni de la glaciación cuaternaria. | B mecanismo; C pesos | AUDITADO | `EVID-NEOGENE-PANAMA-CLIMATE-001` | `INV-NEOGENE-001` |
 
 ## Fichas resumidas
 
@@ -2671,6 +2696,50 @@ Este archivo es el índice canónico. La letra de confianza califica exactamente
 
 - **Formulación:** dos pasos y varias proxies separan frontera, enfriamiento, eustasia y hielo.
 - **Límite:** `δ18O` mezcla temperatura y volumen; la extensión glacial es modelada.
+
+## Investigación 033 — Neógeno: pastizales, primates, clima e istmo de Panamá
+
+### CLAIM-NEOGENE-SCOPE-001 / BOUNDARIES-001 / PLIOCENE-GSSP-001 / END-001
+
+- **Formulación:** el intervalo formal, sus edades calibradas y los procesos que contiene son relojes relacionados, pero no intercambiables.
+- **No afirma:** que `23.04`, `5.333` o `2.58 Ma` expliquen por sí mismos un cambio climático, ecológico o biogeográfico.
+- **Confianza:** A para definición y horizontes; B para calibraciones numéricas.
+
+### CLAIM-NEOGENE-CLIMATE-OPTIMUM-001 / MMCT-001 / CLIMATE-MOSAIC-001
+
+- **Formulación:** óptimo, transición climática media y enfriamiento tardío se reconstruyen con series marinas, cronologías orbitales, proxies y modelos que no tienen resolución ni sensibilidad idénticas.
+- **No afirma:** enfriamiento monótono, sincronía perfecta entre cuencas ni causalidad exclusiva de CO₂ u órbita.
+- **Falsador:** series independientes que inviertan de manera reproducible el orden entre temperatura, hielo y carbono.
+
+### CLAIM-NEOGENE-GRASS-ORIGIN-001 / GRASS-DIVERSIFICATION-001 / GRASS-DOMINANCE-001 / C4-EARLY-001 / C4-EXPANSION-001
+
+- **Formulación:** origen de Poaceae, presencia de hábitats abiertos, abundancia regional y expansión de biomasa C4 son eventos distintos.
+- **No afirma:** que los pastizales nacieran en el Mioceno, que toda apertura fuera C4 ni que la expansión de `8–6 Ma` fuese simultánea y mundial.
+- **Prueba discriminatoria:** series pareadas de fitolitos, polen, isótopos, paleosuelos y abundancia con edad y facies comunes.
+
+### CLAIM-NEOGENE-C4-PROXY-001 / MAMMAL-ECOMORPHOLOGY-001
+
+- **Formulación:** carbono, fitolitos y dientes restringen dieta, vegetación, abrasión y uso del hábitat desde objetos diferentes.
+- **No afirma:** que un diente identifique por sí solo una sabana C4 o que hipsodoncia mida únicamente consumo de pasto.
+- **Confianza:** B-COND; C cuando se extrapola de un taxón o cuenca al paisaje global.
+
+### CLAIM-NEOGENE-HOMINOID-ROOT-001 / DIVERSITY-001 / ALESI-001 / LOCOMOTION-001 / ORIGIN-001
+
+- **Formulación:** fósiles africanos y euroasiáticos documentan diversidad hominoidea y combinaciones locomotoras ramificadas; los nodos dependen de matrices y definiciones.
+- **No afirma:** que `Alesi` fuera un gibón, que `Danuvius` caminara como humano ni que `Anadoluvius` demuestre por sí solo un origen europeo de los homininos.
+- **Límite:** la divergencia humano–chimpancé y la identidad del hominino más antiguo pertenecen a las investigaciones 035–036.
+
+### CLAIM-NEOGENE-PANAMA-CLOCKS-001 / PANAMA-MIOCENE-001 / PANAMA-FINAL-CLOSURE-001
+
+- **Formulación:** procedencia de circones, levantamiento, restricción oceánica y cierre somero final responden a preguntas distintas; el cierre sensu stricto se sitúa cerca de `2.8 Ma`.
+- **No afirma:** que evidencia de tierra emergida a `15–13 Ma` equivalga a una barrera terrestre continua ni que exista una única «fecha del istmo».
+- **Prueba discriminatoria:** modelos paleobatimétricos que expliquen simultáneamente procedencia, salinidad, circulación y fósiles a ambos lados.
+
+### CLAIM-NEOGENE-GABI-EARLY-001 / GABI-ASYMMETRY-001 / PANAMA-CLIMATE-001
+
+- **Formulación:** intercambios anteriores al pulso principal, cierre final y asimetría posterior se separan por taxón, ruta, dispersión y extinción.
+- **No afirma:** que el primer cruce feche el puente completo, que más linajes norteños cruzaran necesariamente al sur ni que Panamá causara por sí solo la glaciación del hemisferio norte.
+- **Confianza:** B-COND para patrón fósil y asimetría; C-D para pesos causales climáticos globales.
 
 ## Claims futuros
 
