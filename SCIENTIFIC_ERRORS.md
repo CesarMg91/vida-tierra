@@ -121,6 +121,15 @@ El propósito no es presentar la ciencia como una sucesión de fracasos ni como 
 | `ERR-SNOWBALL-CAP-INSTANT-001` | cap convertido en foto del deshielo | contacto abrupto implica depósito instantáneo/único | facies, etapas, agua y edad interna | DOCUMENTADO |
 | `ERR-SNOWBALL-LIFE-EXTINCT-001` | hielo global convertido en esterilización | océano medio representa todos los refugios | evidencia local de hábitats/productividad | DOCUMENTADO |
 | `ERR-SNOWBALL-ANIMALS-001` | Snowball convertido en creador de animales | sucesión temporal demuestra causalidad | mecanismos y cronologías rivales | DOCUMENTADO |
+| `ERR-EDIACARA-PERIOD-BIOTA-001` | periodo y macrobiota convertidos en sinónimos | todo lo ediacárico pertenece a la asociación clásica | separar Ediacárico, Lantian/Weng’an y macrobiota ~574–539 Ma | DOCUMENTADO |
+| `ERR-EDIACARA-ALL-ANIMALS-001` | toda impresión declarada animal | biota/fauna es un clado | expediente de afinidad por taxón | DOCUMENTADO |
+| `ERR-EDIACARA-FRONDS-PLANTS-001` | frondas convertidas en plantas | apariencia foliar prueba fotosíntesis | paleoprofundidad, arquitectura y nutrición | DOCUMENTADO |
+| `ERR-EDIACARA-DISCS-JELLYFISH-001` | discos convertidos en medusas | contorno radial equivale a cuerpo medusoide | unión a frondas, tafonomía y anatomía | DOCUMENTADO |
+| `ERR-EDIACARA-SHAPE-TAXON-001` | silueta convertida en parentesco | semejanza = homología | tafonomía, desarrollo, conducta y matriz explícita | DOCUMENTADO |
+| `ERR-EDIACARA-THREE-STAGES-001` | tres asociaciones tratadas como etapas exclusivas | cluster implica intervalo sin solapamiento | edad + facies + detectabilidad | DOCUMENTADO |
+| `ERR-EDIACARA-OXYGEN-SWITCH-001` | oxígeno convertido en interruptor animal | condición necesaria = causa suficiente | umbral local y modelo multivariable | DOCUMENTADO |
+| `ERR-EDIACARA-ABSENCE-EXTINCTION-001` | ausencia convertida en extinción global | registro tiene detectabilidad constante | facies, ventana, muestreo y rangos | DOCUMENTADO |
+| `ERR-EDIACARA-FAILED-EXPERIMENT-001` | biota convertida en experimento fallido | evolución tiene meta cámbrica/moderna | clados y funciones evaluados sin teleología | DOCUMENTADO |
 | `ERR-LUNAR-APOLLO-INDEPENDENT-001` | tratar sitios Apollo como testigos independientes | ejecta local y sin transporte global | cartografía, Th, geoquímica y escalado de Imbrium | DOCUMENTADO |
 | `ERR-IMPACT-MOON-EARTH-001` | convertir cronología lunar en esterilización terrestre | escala constante de tasa y efecto | dinámica, hidrocodes, atmósfera/océano y archivo terrestre | DOCUMENTADO |
 | `ERR-LUNAR-ABSENCE-001` | “sin fundido antiguo” = “sin impacto antiguo” | supervivencia uniforme hacia atrás | sesgo de preservación y evidencia positiva `4.22–4.33 Ga` | DOCUMENTADO |
@@ -1098,3 +1107,75 @@ La radiación ediacárica ocurrió después y pudo recibir nutrientes/nichos, pe
 ### Corrección
 
 Separar precedencia, mecanismo y predicción exclusiva; comparar oxígeno, tectónica, ecología y sesgo fósil.
+
+## ERR-EDIACARA-PERIOD-BIOTA-001 — Seiscientos treinta y cinco millones se volvieron una fauna
+
+El Ediacárico comienza cerca de `635 Ma`, pero la macrobiota clásica bien datada aparece hacia `574 Ma`. Lantian, Weng’an, microfósiles y comunidades de Ediacara son archivos distintos.
+
+### Corrección
+
+Nombrar periodo, biota/yacimiento, estilo fósil e intervalo por separado.
+
+## ERR-EDIACARA-ALL-ANIMALS-001 — “Biota” se volvió “reino animal”
+
+`Dickinsonia`, `Kimberella` y trazas apoyan animales; otros morfotipos conservan afinidad abierta y `Beltanelliformis` tiene señal cianobacteriana.
+
+### Corrección
+
+Asignar confianza y nodo mínimo por taxón; no heredar animalidad por convivencia o parecido.
+
+## ERR-EDIACARA-FRONDS-PLANTS-001 — Una fronda produjo fotosíntesis
+
+Varios rangomorfos vivieron bajo la zona fótica y su ramificación no tiene anatomía foliar/vascular.
+
+### Corrección
+
+Usar “frondoso” como geometría; probar profundidad, fijación, flujo y modelos de alimentación.
+
+## ERR-EDIACARA-DISCS-JELLYFISH-001 — Un círculo aprendió a nadar
+
+Muchos discos son anclajes de frondas, moldes o cuerpos bentónicos. La simetría radial es altamente convergente.
+
+### Corrección
+
+Buscar continuidad con tallo/cuerpo, relieve, deformación y caracteres diagnósticos antes de asignar medusoide.
+
+## ERR-EDIACARA-SHAPE-TAXON-001 — La silueta saltó al árbol
+
+Compactación y reología transforman un organismo 3D en un molde 2D. Parecido no distingue homología de convergencia.
+
+### Corrección
+
+Encadenar contexto → tafonomía → anatomía → desarrollo/conducta → caracteres → nodo.
+
+## ERR-EDIACARA-THREE-STAGES-001 — Avalon, White Sea y Nama hicieron fila
+
+Los clusters conservan señal temporal, pero edades 2026 muestran solapamiento y las facies seleccionan comunidades/preservación.
+
+### Corrección
+
+Tratar cada ocurrencia con edad, ambiente y probabilidad de detección; no usar la etiqueta como fecha automática.
+
+## ERR-EDIACARA-OXYGEN-SWITCH-001 — El oxígeno encendió animales
+
+Oxígeno puede limitar tamaño, actividad y esqueletos sin fechar el origen genético ni explicar alimento, sustrato y ecología.
+
+### Corrección
+
+Separar nivel local, área habitable, requisito fisiológico y causa evolutiva suficiente.
+
+## ERR-EDIACARA-ABSENCE-EXTINCTION-001 — El último molde se volvió la última población
+
+Una última aparición puede coincidir con cambio de facies, ventana tafonómica o muestreo. También existen pérdidas biológicas reales.
+
+### Corrección
+
+Modelar detectabilidad y comparar facies equivalentes antes/después; buscar selectividad y continuidad independiente.
+
+## ERR-EDIACARA-FAILED-EXPERIMENT-001 — La evolución recibió una meta
+
+Llamar a toda la biota “experimento fallido” supone que producir anatomías modernas era su objetivo y borra animales que sí participan de la radiación.
+
+### Corrección
+
+Comparar funciones, caracteres y descendencia por linaje, sin convertir extinción o rareza en fracaso.

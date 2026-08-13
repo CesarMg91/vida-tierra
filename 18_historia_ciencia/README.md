@@ -21,3 +21,4 @@ Historia de cómo se reconstruyó la historia: creencias previas, evidencia disr
 - [`HISTORIA_018_SEXO.md`](HISTORIA_018_SEXO.md): de la fusión nuclear y reducción cromosómica a Spo11, fusógenos y la reconstrucción de un ciclo sexual anterior a LECA.
 - [`HISTORIA_019_MULTICELULARIDAD.md`](HISTORIA_019_MULTICELULARIDAD.md): de clasificar colonias y tejidos a filogenias, genomas comparados y evolución experimental de transiciones grupales repetidas.
 - [`HISTORIA_020_SNOWBALL_EARTH.md`](HISTORIA_020_SNOWBALL_EARTH.md): de diamictitas tropicales y la hipótesis de Kirschvink a geocronología de alta precisión, modelos climáticos competidores y refugios locales.
+- [`HISTORIA_021_EDIACARA.md`](HISTORIA_021_EDIACARA.md): de medusoides precámbricos y frondas a tafonomía, superficies censales, biomarcadores y afinidades evaluadas por taxón.

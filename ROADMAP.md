@@ -65,7 +65,7 @@ Una investigación pasa de `EN_DESARROLLO` a `AUDITADO` cuando:
 | 018 | `INV-LIFE-SEX-001` | [¿Cómo inferimos el origen y la función evolutiva del sexo?](10_evolucion_vida/INVESTIGACION_018_SEXO.md) — **AUDITADO** |
 | 019 | `INV-LIFE-MULTI-001` | [¿Cuántas veces surgió la multicelularidad y cuándo un grupo se volvió individuo?](10_evolucion_vida/INVESTIGACION_019_MULTICELULARIDAD.md) — **AUDITADO** |
 | 020 | `INV-PROT-SNOWBALL-001` | [¿Estuvo la Tierra globalmente congelada durante el Criogénico?](05_proterozoico/INVESTIGACION_020_SNOWBALL_EARTH.md) — **AUDITADO** |
-| 021 | `INV-EDIACARA-001` | ¿Qué eran los organismos ediacáricos y cómo vivían? |
+| 021 | `INV-EDIACARA-001` | [¿Qué eran los organismos ediacáricos y cómo vivían?](05_proterozoico/INVESTIGACION_021_EDIACARA.md) — **AUDITADO** |
 
 ## Fase 4 — Fanerozoico: radiaciones, tierra firme y extinciones
 
@@ -158,6 +158,7 @@ Después de disponer de la secuencia base:
 - `v0.1.17`: Investigación 018 + historia de la citología sexual + mapa modular y cadena intercambio–ciclo sexual.
 - `v0.1.18`: Investigación 019 + historia del concepto de multicelularidad + mapa de orígenes independientes y cadena grupo–individuo.
 - `v0.1.19`: Investigación 020 + historia de Snowball Earth + mapa de archivos independientes y cadena diamictita–modelo climático.
+- `v0.1.20`: Investigación 021 + historia de la biota ediacárica + mapa por taxón y cadena impresión–afinidad.
 - `v0.2`: Hadeano/Arcaico auditados.
 - `v0.3`: Proterozoico y origen/temprana evolución de la vida.
 - `v0.4`: Fanerozoico completo.

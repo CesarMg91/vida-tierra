@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1000" viewBox="0 0 1600 1000" role="img" aria-labelledby="title desc">
+  <title id="title">Mapa epistemológico de la biota ediacárica</title>
+  <desc id="desc">Seis rutas separan tiempo, preservación, desarrollo, conducta, comunidades y moléculas antes de inferir modo de vida y afinidad.</desc>
+  <defs>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="150%"><feDropShadow dx="0" dy="8" stdDeviation="5" flood-color="#020911" flood-opacity="0.72"/></filter>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="9" markerHeight="9" orient="auto"><path d="M0 0 10 5 0 10z" fill="#adc8da"/></marker>
+    <style>
+      .bg{fill:#071a27}.title{font:700 42px Georgia,serif;fill:#f3f6f8}.sub{font:18px Arial,sans-serif;fill:#afc0cb}.head{font:700 21px Georgia,serif;fill:#f1f4f6}.box{stroke-width:2}.label{font:700 17px Arial,sans-serif;fill:#f5f7f8}.small{font:13px Consolas,monospace;fill:#c6d0d7}.conf{font:700 17px Georgia,serif}.foot{font:700 18px Arial,sans-serif;fill:#eef4f7}.note{font:13px Consolas,monospace;fill:#aebfca}.line{stroke:#adc8da;stroke-width:5;fill:none;marker-end:url(#arrow)}
+    </style>
+  </defs>
+  <rect class="bg" width="1600" height="1000"/>
+  <text class="title" x="64" y="66">Ediacara: capa, molde, conducta y parentesco</text>
+  <text class="sub" x="64" y="101">La silueta se observa; la anatomía viva, el modo de vida y el nodo filogenético requieren puentes distintos.</text>
+
+  <text class="head" x="64" y="153">1 · Tiempo: ¿cuándo quedó enterrado?</text>
+  <g filter="url(#shadow)"><rect class="box" x="64" y="168" rx="18" width="280" height="108" fill="#3c3c68" stroke="#9a93e8"/><rect class="box" x="398" y="168" rx="18" width="280" height="108" fill="#4a3e68" stroke="#b58ee0"/><rect class="box" x="732" y="168" rx="18" width="322" height="108" fill="#534067" stroke="#ce8fda"/></g>
+  <text class="label" x="88" y="206">Toba + zircon U–Pb</text><text class="small" x="88" y="238">arriba / dentro / debajo</text>
+  <text class="label" x="422" y="206">Orden + edad–profundidad</text><text class="small" x="422" y="238">hiatos y correlación</text>
+  <text class="label" x="756" y="206">574.17 Ma → 538.8 Ma</text><text class="conf" x="756" y="244" fill="#d7a5e8">ventana clásica B</text>
+  <path class="line" d="M344 222 H391"/><path class="line" d="M678 222 H725"/>
+
+  <text class="head" x="64" y="331">2 · Preservación: ¿qué parte produjo el molde?</text>
+  <g filter="url(#shadow)"><rect class="box" x="64" y="346" rx="18" width="280" height="108" fill="#714c36" stroke="#e59c67"/><rect class="box" x="398" y="346" rx="18" width="280" height="108" fill="#6d463d" stroke="#e78876"/><rect class="box" x="732" y="346" rx="18" width="322" height="108" fill="#704153" stroke="#e27e9c"/></g>
+  <text class="label" x="88" y="384">Molde + película + pirita</text><text class="small" x="88" y="416">relieve, textura, mineral</text>
+  <text class="label" x="422" y="384">Tafonomía + reología</text><text class="small" x="422" y="416">colapso y estructura resistente</text>
+  <text class="label" x="756" y="384">Anatomía delimitada</text><text class="conf" x="756" y="422" fill="#f0a0b2">B-COND</text>
+  <path class="line" d="M344 400 H391"/><path class="line" d="M678 400 H725"/>
+
+  <text class="head" x="64" y="509">3 · Desarrollo: ¿cómo crecía?</text>
+  <g filter="url(#shadow)"><rect class="box" x="64" y="524" rx="18" width="280" height="108" fill="#205b4a" stroke="#55cf9d"/><rect class="box" x="398" y="524" rx="18" width="280" height="108" fill="#285c4f" stroke="#76d7ad"/><rect class="box" x="732" y="524" rx="18" width="322" height="108" fill="#29634f" stroke="#68d9ab"/></g>
+  <text class="label" x="88" y="562">Tamaños + unidades</text><text class="small" x="88" y="594">polaridad y alometría</text>
+  <text class="label" x="422" y="562">Secuencia ontogenética</text><text class="small" x="422" y="594">adición, inflación, ramificación</text>
+  <text class="label" x="756" y="562">Programa regulado</text><text class="conf" x="756" y="600" fill="#8be5bd">B · nodo C-D</text>
+  <path class="line" d="M344 578 H391"/><path class="line" d="M678 578 H725"/>
+
+  <text class="head" x="64" y="687">4 · Conducta: ¿se movía o alimentaba?</text>
+  <g filter="url(#shadow)"><rect class="box" x="64" y="702" rx="18" width="280" height="108" fill="#164c59" stroke="#4cc5d4"/><rect class="box" x="398" y="702" rx="18" width="280" height="108" fill="#1c5267" stroke="#72bddd"/><rect class="box" x="732" y="702" rx="18" width="322" height="108" fill="#214e63" stroke="#72bddd"/></g>
+  <text class="label" x="88" y="740">Cuerpo + traza</text><text class="small" x="88" y="772">dirección, tamaño, continuidad</text>
+  <text class="label" x="422" y="740">Productor congruente</text><text class="small" x="422" y="772">locomoción / raspado / tapete</text>
+  <text class="label" x="756" y="740">Conducta localizada</text><text class="conf" x="756" y="778" fill="#82d6e1">B-COND</text>
+  <path class="line" d="M344 756 H391"/><path class="line" d="M678 756 H725"/>
+
+  <text class="head" x="1120" y="153">5 · Población y comunidad</text>
+  <g filter="url(#shadow)"><rect class="box" x="1120" y="168" rx="18" width="416" height="142" fill="#4a3841" stroke="#e68098"/><rect class="box" x="1120" y="332" rx="18" width="416" height="142" fill="#493f57" stroke="#c59bd9"/><rect class="box" x="1120" y="496" rx="18" width="416" height="142" fill="#264f58" stroke="#60c7d4"/><rect class="box" x="1120" y="660" rx="18" width="416" height="150" fill="#574334" stroke="#e6ad76"/></g>
+  <text class="label" x="1148" y="206">Posición + orientación</text><text class="small" x="1148" y="239">pares, clusters, corrientes, facies</text><text class="conf" x="1148" y="276" fill="#ef9db0">nicho / reclutamiento B-C</text>
+  <text class="label" x="1148" y="370">6 · Moléculas y ambiente</text><text class="small" x="1148" y="403">fósil vs matriz vs blanco</text><text class="conf" x="1148" y="440" fill="#d9b3e8">animalidad / alimento B-COND</text>
+  <text class="label" x="1148" y="534">Caracteres comparables</text><text class="small" x="1148" y="567">homología, convergencia, ausencia</text><text class="conf" x="1148" y="604" fill="#8bd8e1">afinidad por taxón B-D</text>
+  <text class="label" x="1148" y="698">Resultado: biota plural</text><text class="small" x="1148" y="731">animales + ramas abiertas</text><text class="conf" x="1148" y="768" fill="#f2c28e">clado único E</text>
+
+  <rect x="64" y="866" rx="20" width="1472" height="96" fill="#102b3b" stroke="#547f98" stroke-width="2"/>
+  <text class="foot" x="800" y="904" text-anchor="middle">Núcleo robusto: comunidades macroscópicas diversas con varias conductas y algunos animales</text>
+  <text class="note" x="800" y="934" text-anchor="middle">Abierto: anatomía 3D, dieta, nodos, control de asociaciones, reproducción y causas de recambio.</text>
+</svg>

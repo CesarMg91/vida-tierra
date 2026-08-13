@@ -276,6 +276,20 @@ El mapa separa sedimentología, geocronología, paleomagnetismo, física climát
 
 La cadena impide saltar de una roca glacial local a un planeta completamente blanco. Cada transición —origen glacial, edad, paleolatitud, correlación y estado climático— necesita evidencia propia y conserva falsadores distintos.
 
+## 22. Investigación 021 — Biota ediacárica
+
+![Portada conceptual de la biota ediacárica](assets/visuales/hero-ediacara.png)
+
+> **Portada conceptual:** distribuye rangomorfos, `Dickinsonia`, un `Kimberella` cauteloso, trazas, `Cloudina`, moldes, zircon y biomarcadores en ventanas distintas. No representa convivencia, una anatomía observada o un clado único.
+
+![Mapa de evidencia de la biota ediacárica](assets/visuales/mapa-investigacion-021.svg)
+
+El mapa mantiene separadas edad, preservación, morfogénesis, conducta, población y moléculas. Un taxón puede estar bien establecido como animal y conservar incierta su posición fina.
+
+![Cadena desde una impresión hasta un organismo](assets/visuales/de-impresion-a-organismo.svg)
+
+La cadena fuerza ocho controles entre molde y afinidad. Relieve no equivale a piel, forma no equivale a homología, proximidad no identifica al productor y animal no significa miembro de una corona moderna.
+
 ## Procedencia
 
 El registro de creación, límites y prompt de cada pieza está en [`assets/visuales/README.md`](assets/visuales/README.md).
