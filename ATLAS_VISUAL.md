@@ -332,6 +332,20 @@ El mapa conserva cuatro relojes: límite formal, recuperación marina, perturbac
 
 La cadena exige identidad, edad, contexto, función, procedencia e interacción antes de proponer una red. Una FAD fija un mínimo; costa o semejanza no prueban hábitat.
 
+## 26. Investigación 025 — Bosques, peces y tetrápodos devónicos
+
+![Portada conceptual del Devónico](assets/visuales/hero-bosques-peces-tetrapodos-devonicos.png)
+
+> **Portada conceptual:** separa rodal y raíces, peces, elpistostegaliano sumergido, huellas, huesos y lutitas de crisis. No representa convivencia, anatomía diagnóstica, marcha evolutiva ni una causa universal.
+
+![Mapa de evidencia de bosques, peces y tetrápodos](assets/visuales/mapa-investigacion-025.svg)
+
+El mapa mantiene seis relojes y hace visibles sus dependencias: el límite no fecha innovaciones, un rodal no mide cobertura planetaria, los dígitos no prueban vida terrestre y una señal redox no identifica por sí sola el desencadenante.
+
+![Cadenas desde fósiles hasta bosque y desde aleta hasta tierra](assets/visuales/de-fosil-a-bosque-y-de-aleta-a-tierra.svg)
+
+La doble cadena separa observación, asociación, definición, escala y mecanismo. Permite desplazar un ranking fósil o reinterpretar una huella sin colapsar el resto de la reconstrucción.
+
 ## Procedencia
 
 El registro de creación, límites y prompt de cada pieza está en [`assets/visuales/README.md`](assets/visuales/README.md).

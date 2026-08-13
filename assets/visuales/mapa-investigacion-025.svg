@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1000" viewBox="0 0 1600 1000" role="img" aria-labelledby="title desc">
+  <title id="title">Mapa de evidencia de bosques, peces, tetrápodos y crisis devónicas</title>
+  <desc id="desc">Diagrama con cuatro columnas que separan objetos observados, mediciones, inferencias permitidas y límites para el registro terrestre, vertebrado y geoquímico del Devónico.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#07151a"/>
+      <stop offset="1" stop-color="#142228"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="8" stdDeviation="10" flood-color="#000" flood-opacity="0.28"/>
+    </filter>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#7fb8b1"/>
+    </marker>
+    <style>
+      .title{font:700 42px 'Segoe UI',Arial,sans-serif;fill:#f2ead8}
+      .sub{font:400 21px 'Segoe UI',Arial,sans-serif;fill:#b9cbc8}
+      .head{font:700 22px 'Segoe UI',Arial,sans-serif;letter-spacing:1.4px;fill:#f6dfab}
+      .cardTitle{font:700 23px 'Segoe UI',Arial,sans-serif;fill:#f4ead5}
+      .body{font:400 18px 'Segoe UI',Arial,sans-serif;fill:#d5dfdc}
+      .small{font:400 16px 'Segoe UI',Arial,sans-serif;fill:#abc1bd}
+      .rule{font:700 20px 'Segoe UI',Arial,sans-serif;fill:#ffd27f}
+      .line{stroke:#7fb8b1;stroke-width:3;fill:none;marker-end:url(#arrow)}
+    </style>
+  </defs>
+  <rect width="1600" height="1000" fill="url(#bg)"/>
+  <circle cx="1410" cy="115" r="190" fill="#a86e38" opacity="0.08"/>
+  <circle cx="175" cy="880" r="245" fill="#2f8c83" opacity="0.08"/>
+
+  <text x="80" y="72" class="title">Devónico: tres archivos, cuatro pasos</text>
+  <text x="80" y="108" class="sub">Observar no es medir; medir no es inferir; inferir no elimina el límite.</text>
+
+  <text x="85" y="166" class="head">OBJETO</text>
+  <text x="430" y="166" class="head">MEDICIÓN</text>
+  <text x="820" y="166" class="head">RESULTADO PERMITIDO</text>
+  <text x="1210" y="166" class="head">NO DEMUESTRA</text>
+
+  <g filter="url(#shadow)">
+    <rect x="70" y="195" width="285" height="190" rx="18" fill="#17332f" stroke="#487b6d"/>
+    <rect x="405" y="195" width="330" height="190" rx="18" fill="#122a2c" stroke="#487b6d"/>
+    <rect x="790" y="195" width="350" height="190" rx="18" fill="#193036" stroke="#487b6d"/>
+    <rect x="1190" y="195" width="340" height="190" rx="18" fill="#33251f" stroke="#9b6746"/>
+  </g>
+  <text x="95" y="235" class="cardTitle">Paleosuelo y árboles</text>
+  <text x="95" y="270" class="body"><tspan x="95" dy="0">raíces, tocones, detrito</tspan><tspan x="95" dy="29">y superficie compartida</tspan><tspan x="95" dy="29">Hangman · Gilboa · Cairo</tspan></text>
+  <text x="430" y="235" class="cardTitle">Geometría y contexto</text>
+  <text x="430" y="270" class="body"><tspan x="430">posición de vida · espacio</tspan><tspan x="430" dy="29">profundidad · ramificación</tspan><tspan x="430" dy="29">facies · planta–sedimento</tspan></text>
+  <text x="815" y="235" class="cardTitle">Bosque local y función</text>
+  <text x="815" y="270" class="body"><tspan x="815">rodal mínimo · arquitectura</tspan><tspan x="815" dy="29">volumen de suelo probable</tspan><tspan x="815" dy="29">efecto geomorfológico local</tspan></text>
+  <text x="1215" y="235" class="cardTitle">Planeta forestado</text>
+  <text x="1215" y="270" class="body"><tspan x="1215">origen real del bosque</tspan><tspan x="1215" dy="29">cobertura continental</tspan><tspan x="1215" dy="29">caída global de CO₂</tspan></text>
+
+  <path d="M355 290 H395" class="line"/><path d="M735 290 H780" class="line"/><path d="M1140 290 H1180" class="line"/>
+
+  <g filter="url(#shadow)">
+    <rect x="70" y="420" width="285" height="190" rx="18" fill="#19313a" stroke="#4f8594"/>
+    <rect x="405" y="420" width="330" height="190" rx="18" fill="#142b35" stroke="#4f8594"/>
+    <rect x="790" y="420" width="350" height="190" rx="18" fill="#1b303b" stroke="#4f8594"/>
+    <rect x="1190" y="420" width="340" height="190" rx="18" fill="#33251f" stroke="#9b6746"/>
+  </g>
+  <text x="95" y="460" class="cardTitle">Cuerpos y rastros</text>
+  <text x="95" y="495" class="body"><tspan x="95">aletas · radiales · dígitos</tspan><tspan x="95" dy="29">cráneos · húmeros · pelvis</tspan><tspan x="95" dy="29">huellas sobre sustrato</tspan></text>
+  <text x="430" y="460" class="cardTitle">Anatomía y mecánica</text>
+  <text x="430" y="495" class="body"><tspan x="430">caracteres · homología</tspan><tspan x="430" dy="29">movilidad · histología</tspan><tspan x="430" dy="29">secuencia del rastro</tspan></text>
+  <text x="815" y="460" class="cardTitle">Módulos de transición</text>
+  <text x="815" y="495" class="body"><tspan x="815">patrón digital · soporte</tspan><tspan x="815" dy="29">capacidad condicionada</tspan><tspan x="815" dy="29">ecología acuática/anfibia</tspan></text>
+  <text x="1215" y="460" class="cardTitle">Una salida única</text>
+  <text x="1215" y="495" class="body"><tspan x="1215">ancestro directo</tspan><tspan x="1215" dy="29">marcha terrestre habitual</tspan><tspan x="1215" dy="29">ciclo vital terrestre</tspan></text>
+
+  <path d="M355 515 H395" class="line"/><path d="M735 515 H780" class="line"/><path d="M1140 515 H1180" class="line"/>
+
+  <g filter="url(#shadow)">
+    <rect x="70" y="645" width="285" height="190" rx="18" fill="#2d2b32" stroke="#736a83"/>
+    <rect x="405" y="645" width="330" height="190" rx="18" fill="#242833" stroke="#736a83"/>
+    <rect x="790" y="645" width="350" height="190" rx="18" fill="#282d37" stroke="#736a83"/>
+    <rect x="1190" y="645" width="340" height="190" rx="18" fill="#33251f" stroke="#9b6746"/>
+  </g>
+  <text x="95" y="685" class="cardTitle">Capas y biota</text>
+  <text x="95" y="720" class="body"><tspan x="95">rangos · lutitas · tobas</tspan><tspan x="95" dy="29">pirita · Hg · esporas</tspan><tspan x="95" dy="29">Kellwasser · Hangenberg</tspan></text>
+  <text x="430" y="685" class="cardTitle">Reloj, tasas, proxies</text>
+  <text x="430" y="720" class="body"><tspan x="430">U–Pb · ciclos · FAD/LAD</tspan><tspan x="430" dy="29">origination/extinción</tspan><tspan x="430" dy="29">C · U · Os · Hg · Ce</tspan></text>
+  <text x="815" y="685" class="cardTitle">Crisis separadas</text>
+  <text x="815" y="720" class="body"><tspan x="815">tempo por sección</tspan><tspan x="815" dy="29">anoxia/euxinia condicionada</tspan><tspan x="815" dy="29">filtro biótico por pulso</tspan></text>
+  <text x="1215" y="685" class="cardTitle">Una causa universal</text>
+  <text x="1215" y="720" class="body"><tspan x="1215">Hg = volcán automático</tspan><tspan x="1215" dy="29">lutita = océano entero</tspan><tspan x="1215" dy="29">Kellwasser = Hangenberg</tspan></text>
+
+  <path d="M355 740 H395" class="line"/><path d="M735 740 H780" class="line"/><path d="M1140 740 H1180" class="line"/>
+
+  <rect x="70" y="875" width="1460" height="78" rx="18" fill="#10282b" stroke="#a67845" stroke-width="2"/>
+  <text x="800" y="908" text-anchor="middle" class="rule">REGLA: mínimo fósil + escala + puente + alternativa</text>
+  <text x="800" y="938" text-anchor="middle" class="small">Un ranking, una forma o una excursión no contienen por sí solos una historia global.</text>
+</svg>

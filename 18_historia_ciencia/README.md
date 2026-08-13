@@ -25,3 +25,4 @@ Historia de cómo se reconstruyó la historia: creencias previas, evidencia disr
 - [`HISTORIA_022_RADIACION_CAMBRICA.md`](HISTORIA_022_RADIACION_CAMBRICA.md): de la dificultad de Darwin y los “monstruos” de Burgess a grupos tallo, relojes desacoplados, geocronología de alta precisión y radiaciones sucesivas.
 - [`HISTORIA_023_RADIACION_ORDOVICICA.md`](HISTORIA_023_RADIACION_ORDOVICICA.md): de Lapworth y las faunas evolutivas a bases globales, proxies de clima/redox, criptosporas y cronología de dos pulsos terminales.
 - [`HISTORIA_024_RECUPERACION_SILURICA.md`](HISTORIA_024_RECUPERACION_SILURICA.md): del periodo poscrisis y el invernadero estable a métricas de recuperación, eventos internos, tejidos, respiración aérea y redes terrestres.
+- [`HISTORIA_025_BOSQUES_PECES_TETRAPODOS.md`](HISTORIA_025_BOSQUES_PECES_TETRAPODOS.md): de la «edad de los peces» y los tocones de Gilboa a raíces, embriones, tomografía, huellas, biomecánica y crisis devónicas separadas.

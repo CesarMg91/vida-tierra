@@ -154,6 +154,16 @@ Una controversia no implica empate. Registra qué parte está realmente abierta,
 | `CONT-SILURIAN-FUNGI-001` | Afinidad y función de `Tortotubus` | crecimiento sostiene Fungi y cordones del sustrato | no fija Dikarya, descomposición o simbiosis | Fungi probable; función abierta | B-COND |
 | `CONT-SILURIAN-PNEUMODESMUS-001` | Edad del respirador aéreo | nuevas esporas/circones favorecen Wenlock tardío | bloques/facies y circones permitieron edad devónica | abierta en correlación fina | B respiración; B-COND edad |
 | `CONT-SILURIAN-COASTAL-001` | ¿Terrestre, transportado o acuático? | anatomía/contexto sostienen varios casos terrestres | costa y Lagerstätte mezclan procedencia y hábitat | abierta por taxón | B-COND |
+| `CONT-DEVONIAN-EARLIEST-FOREST-001` | ¿Cuál es el bosque más antiguo? | Hangman conserva un rodal eifeliense espacialmente explícito | otros registros pueden contener árboles/raíces más antiguos bajo otra definición | ranking provisional | B actual; C-D exhaustividad |
+| `CONT-DEVONIAN-ROOTS-CO2-001` | ¿Bosques causaron la caída de CO₂? | raíces y meteorización ofrecen un mecanismo de secuestro | CO₂ ya bajo antes de expansión forestal y otros flujos covarían | influencia plausible; peso abierto | B datos; C-D peso |
+| `CONT-DEVONIAN-FISH-AGE-001` | ¿Fue realmente la «edad de los peces»? | gran disparidad, abundancia y radiaciones justifican la etiqueta histórica | peces y mandíbulas se originaron antes; grupos responden en momentos distintos | resuelta semánticamente | A-SEM; B patrones |
+| `CONT-DEVONIAN-GNATHOSTOME-TREE-001` | Posición de placodermos y «acantodios» | caracteres derivados agrupan algunos linajes | mosaicos, fósiles incompletos y matrices cambian topología basal | abierta | B-COND |
+| `CONT-DEVONIAN-ZACHELMIE-IDENTITY-001` | ¿Quién hizo las huellas de Zachełmie? | secuencias/morfología son compatibles con tetrápodos | falta productor y se discuten estructuras alternativas/criterios | abierta | B-COND |
+| `CONT-DEVONIAN-ZACHELMIE-HABITAT-001` | ¿Laguna marina o ambiente no marino? | facies marginales someras admiten locomoción acuática | sedimentología y escala de asociación permiten reconstrucciones distintas | abierta | C |
+| `CONT-DEVONIAN-DIGITS-LAND-001` | ¿Dígitos evolucionaron para caminar en tierra? | autopodio robusto puede facilitar apoyo | `Elpistostege` conserva dígitos en aleta y `Acanthostega` era acuático | origen acuático robusto; función inicial abierta | B; C función |
+| `CONT-DEVONIAN-LOCOMOTION-001` | ¿Cómo se movían los primeros tetrápodos? | algunas articulaciones permiten apoyo/propulsión | modelos recuperan capacidades distintas según taxón y sustrato | abierta por taxón | B-COND |
+| `CONT-DEVONIAN-EXTINCTION-TEMPO-001` | ¿Pulsos catastróficos o agotamiento prolongado? | secciones resuelven pulsos Kellwasser cortos | bases globales muestran pérdidas, invasiones y diversidad deprimida por más tiempo | ambas escalas compatibles; sincronía abierta | B local; C global |
+| `CONT-DEVONIAN-CAUSES-001` | ¿Qué causó Kellwasser y Hangenberg? | anoxia/euxinia son mecanismos recurrentes con varios proxies | volcanismo, meteorización/nutrientes, clima y UV-B difieren por pulso/sección | abierta en desencadenantes y pesos | B ambiente; C-D causas |
 
 ## CONT-COSMOS-H0-001 — Dos rutas hacia la tasa actual
 
@@ -1223,3 +1233,63 @@ Los espiráculos probables y la edad dependen de pruebas diferentes. Nuevas espo
 Esporas y cuerpos continentales pueden terminar en mar; organismos acuáticos pueden parecer terrestres. `Parioscorpio` muestra cómo más ejemplares deshacen una silueta convincente.
 
 **Prueba discriminatoria:** anatomía respiratoria/locomotora, facies, orientación, desgaste y repetición en contextos inequívocamente no marinos.
+
+## CONT-DEVONIAN-EARLIEST-FOREST-001 — El ranking depende del sustantivo
+
+Hangman es el bosque espacial más antiguo publicado bajo una definición que exige plantas arborescentes repetidas in situ. Un árbol aislado, raíces sin tallos o madera dispersa pueden ser anteriores sin formar el mismo objeto.
+
+**Prueba discriminatoria:** superficie más antigua bien datada con individuos autóctonos, espaciamiento reproducible, anatomía arborescente y contexto sedimentario.
+
+## CONT-DEVONIAN-ROOTS-CO2-001 — Un mecanismo no fija su peso planetario
+
+Raíces profundas pueden aumentar meteorización, suelos y almacenamiento de carbono. La reconstrucción de Dahl et al. permite CO₂ relativamente bajo antes de bosques extensos, por lo que vegetación, paleogeografía, desgasificación y preservación deben resolverse conjuntamente.
+
+**Prueba discriminatoria:** series multiproxy anteriores/durante/posteriores a expansión forestal, con balances de flujo y paleogeografía que predigan magnitud y patrón espacial.
+
+## CONT-DEVONIAN-FISH-AGE-001 — Una etiqueta histórica no es un reloj de origen
+
+La frase resume la visibilidad, diversidad y disparidad devónicas. Se vuelve falsa si implica que los peces o las mandíbulas nacieron entonces, o que placodermos, condrictios y osteíctios compartieron un solo pulso.
+
+**Resolución de trabajo:** conservarla entre comillas como síntesis cultural y acompañarla de la métrica concreta.
+
+## CONT-DEVONIAN-GNATHOSTOME-TREE-001 — Las cajas tradicionales se ramifican
+
+«Placodermos» y «acantodios» reúnen combinaciones de caracteres cuya distribución altera el tallo/corona de gnathostomos. Matrices, homologías y taxones incompletos producen topologías competidoras.
+
+**Prueba discriminatoria:** nuevos esqueletos articulados con neurocráneo, mandíbulas y endoesqueleto, más análisis de sensibilidad a codificación/modelo.
+
+## CONT-DEVONIAN-ZACHELMIE-IDENTITY-001 — Una pista sin esqueleto
+
+Las secuencias de Zachełmie son compatibles con un productor tetrápodo y extienden el mínimo icnológico. La ausencia del productor impide asignarlo a un taxón o anatomía corporal concreta.
+
+**Prueba discriminatoria:** huellas diagnósticas adicionales con detalle de dígitos, secuencia y preservación, idealmente asociadas a restos corporales del mismo horizonte.
+
+## CONT-DEVONIAN-ZACHELMIE-HABITAT-001 — El sedimento limita la conducta
+
+Reconstrucciones lagunares/marginales y lecturas alternativas no marinas modifican si las pisadas representan apoyo subacuático, exposición somera o desplazamiento emergido. Depósito y momento de impresión tampoco son automáticamente idénticos.
+
+**Prueba discriminatoria:** microfacies y trazadores ambientales co-localizados con las pistas, continuidad lateral y superficies repetidas sin retrabajo.
+
+## CONT-DEVONIAN-DIGITS-LAND-001 — La mano nació dentro del agua
+
+`Elpistostege` conserva dígitos dentro de una aleta con radios y `Acanthostega` combina dígitos con especialización acuática. Esto desacopla origen anatómico y uso terrestre, pero no identifica la función selectiva inicial.
+
+**Prueba discriminatoria:** articulaciones y musculatura inferible en series cercanas al nodo, contrastadas con biomecánica acuática y terrestre.
+
+## CONT-DEVONIAN-LOCOMOTION-001 — No hubo una sola primera marcha
+
+`Ichthyostega`, `Acanthostega` y elpistostegalianos ocupan paisajes funcionales distintos. Un rango articular potencial no observa la conducta, y agua, fango o sustrato firme cambian las soluciones.
+
+**Prueba discriminatoria:** modelos validados con organismos vivos, pistas atribuibles y esqueletos tridimensionales que predigan patrones de contacto distintos.
+
+## CONT-DEVONIAN-EXTINCTION-TEMPO-001 — Pulso local y crisis larga pueden coexistir
+
+Kellwasser contiene intervalos sedimentarios breves en secciones de alta resolución, mientras bases de rangos recuperan agotamiento e invasiones a escalas mayores. La aparente contradicción nace de medir proceso, región y denominador diferentes.
+
+**Prueba discriminatoria:** U–Pb/astrocronología replicada en varias cuencas y tasas corregidas con los mismos bins, taxonomía y modelo de preservación.
+
+## CONT-DEVONIAN-CAUSES-001 — Señal, mecanismo y muerte
+
+Anoxia/euxinia aparecen repetidamente, pero no determinan por sí solas qué las inició ni cómo afectaron cada clado. Volcanismo, meteorización, nutrientes, clima y UV-B pueden operar en secuencias distintas para Kellwasser y Hangenberg.
+
+**Prueba discriminatoria:** orden temporal subevento por subevento, magnitud suficiente, distribución espacial y selectividad biológica predicha antes de conocer el resultado.

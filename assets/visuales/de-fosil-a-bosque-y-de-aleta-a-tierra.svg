@@ -1,0 +1,109 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="960" viewBox="0 0 1600 960" role="img" aria-labelledby="title desc">
+  <title id="title">De un fósil a un bosque y de una aleta a la vida terrestre</title>
+  <desc id="desc">Dos escaleras paralelas muestran los pasos inferenciales desde una planta arborescente hasta un efecto planetario y desde huesos de aleta hasta un ciclo vital terrestre, indicando dónde termina la evidencia devónica.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#081419"/><stop offset="1" stop-color="#15242a"/>
+    </linearGradient>
+    <linearGradient id="green" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#285b4b"/><stop offset="1" stop-color="#3f7258"/>
+    </linearGradient>
+    <linearGradient id="blue" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#244c5b"/><stop offset="1" stop-color="#3c6b78"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="7" stdDeviation="9" flood-color="#000" flood-opacity="0.3"/>
+    </filter>
+    <marker id="arrowG" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0 0 L0 6 L9 3 Z" fill="#93c9a7"/></marker>
+    <marker id="arrowB" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0 0 L0 6 L9 3 Z" fill="#91c5d2"/></marker>
+    <style>
+      .title{font:700 40px 'Segoe UI',Arial,sans-serif;fill:#f3ead8}
+      .sub{font:400 20px 'Segoe UI',Arial,sans-serif;fill:#b7cac7}
+      .col{font:700 27px 'Segoe UI',Arial,sans-serif;fill:#f6dda7}
+      .step{font:700 21px 'Segoe UI',Arial,sans-serif;fill:#f4ead8}
+      .body{font:400 17px 'Segoe UI',Arial,sans-serif;fill:#d3dfdc}
+      .tag{font:700 15px 'Segoe UI',Arial,sans-serif;letter-spacing:.8px;fill:#071419}
+      .warn{font:700 18px 'Segoe UI',Arial,sans-serif;fill:#ffd082}
+      .note{font:400 17px 'Segoe UI',Arial,sans-serif;fill:#b7cac7}
+      .gline{stroke:#93c9a7;stroke-width:3;fill:none;marker-end:url(#arrowG)}
+      .bline{stroke:#91c5d2;stroke-width:3;fill:none;marker-end:url(#arrowB)}
+    </style>
+  </defs>
+  <rect width="1600" height="960" fill="url(#bg)"/>
+  <path d="M800 150 V840" stroke="#53656a" stroke-width="2" stroke-dasharray="8 12"/>
+  <text x="800" y="62" text-anchor="middle" class="title">Dos transiciones, dos escaleras de evidencia</text>
+  <text x="800" y="98" text-anchor="middle" class="sub">Subir un peldaño requiere una observación nueva; ninguno aparece por narrativa.</text>
+
+  <text x="400" y="155" text-anchor="middle" class="col">PLANTA → BOSQUE → PLANETA</text>
+  <text x="1200" y="155" text-anchor="middle" class="col">ALETA → EXTREMIDAD → TIERRA</text>
+
+  <g filter="url(#shadow)">
+    <rect x="95" y="205" width="610" height="94" rx="18" fill="url(#green)"/>
+    <rect x="895" y="205" width="610" height="94" rx="18" fill="url(#blue)"/>
+  </g>
+  <circle cx="130" cy="238" r="17" fill="#b5d8bd"/><text x="130" y="244" text-anchor="middle" class="tag">1</text>
+  <text x="165" y="239" class="step">Cuerpo arborescente</text>
+  <text x="165" y="270" class="body">eje + soporte + arquitectura → árbol mínimo</text>
+  <circle cx="930" cy="238" r="17" fill="#b9dbe1"/><text x="930" y="244" text-anchor="middle" class="tag">1</text>
+  <text x="965" y="239" class="step">Endoesqueleto de aleta</text>
+  <text x="965" y="270" class="body">húmero + radio/ulna + radiales → homología mínima</text>
+
+  <path d="M400 299 V327" class="gline"/><path d="M1200 299 V327" class="bline"/>
+
+  <g filter="url(#shadow)">
+    <rect x="95" y="335" width="610" height="94" rx="18" fill="#2d594c" stroke="#78aa89"/>
+    <rect x="895" y="335" width="610" height="94" rx="18" fill="#294f5c" stroke="#6e9eaa"/>
+  </g>
+  <circle cx="130" cy="368" r="17" fill="#b5d8bd"/><text x="130" y="374" text-anchor="middle" class="tag">2</text>
+  <text x="165" y="369" class="step">Superficie con varios individuos</text>
+  <text x="165" y="400" class="body">posición + raíces + espaciamiento → bosque local</text>
+  <circle cx="930" cy="368" r="17" fill="#b9dbe1"/><text x="930" y="374" text-anchor="middle" class="tag">2</text>
+  <text x="965" y="369" class="step">Patrón digital dentro de la aleta</text>
+  <text x="965" y="400" class="body">radiales ordenados + radios dérmicos → mosaico</text>
+
+  <path d="M400 429 V457" class="gline"/><path d="M1200 429 V457" class="bline"/>
+
+  <g filter="url(#shadow)">
+    <rect x="95" y="465" width="610" height="94" rx="18" fill="#305344" stroke="#78aa89"/>
+    <rect x="895" y="465" width="610" height="94" rx="18" fill="#304b57" stroke="#6e9eaa"/>
+  </g>
+  <circle cx="130" cy="498" r="17" fill="#b5d8bd"/><text x="130" y="504" text-anchor="middle" class="tag">3</text>
+  <text x="165" y="499" class="step">Interacción con suelo y sedimento</text>
+  <text x="165" y="530" class="body">raíces + detrito + facies → ingeniería local</text>
+  <circle cx="930" cy="498" r="17" fill="#b9dbe1"/><text x="930" y="504" text-anchor="middle" class="tag">3</text>
+  <text x="965" y="499" class="step">Soporte y capacidad locomotora</text>
+  <text x="965" y="530" class="body">articulación + postura + sustrato → función condicionada</text>
+
+  <path d="M400 559 V587" class="gline"/><path d="M1200 559 V587" class="bline"/>
+
+  <g filter="url(#shadow)">
+    <rect x="95" y="595" width="610" height="94" rx="18" fill="#344b3f" stroke="#9b8b56" stroke-dasharray="7 7"/>
+    <rect x="895" y="595" width="610" height="94" rx="18" fill="#34464e" stroke="#a68b58" stroke-dasharray="7 7"/>
+  </g>
+  <circle cx="130" cy="628" r="17" fill="#e4c77e"/><text x="130" y="634" text-anchor="middle" class="tag">4</text>
+  <text x="165" y="629" class="step">Efecto regional</text>
+  <text x="165" y="660" class="body">cobertura + productividad + exportación → presupuesto</text>
+  <circle cx="930" cy="628" r="17" fill="#e4c77e"/><text x="930" y="634" text-anchor="middle" class="tag">4</text>
+  <text x="965" y="629" class="step">Uso terrestre habitual</text>
+  <text x="965" y="660" class="body">rastros repetidos + anatomía + hábitat → ecología</text>
+
+  <path d="M400 689 V717" class="gline"/><path d="M1200 689 V717" class="bline"/>
+
+  <g filter="url(#shadow)">
+    <rect x="95" y="725" width="610" height="94" rx="18" fill="#3b3a34" stroke="#b9794f" stroke-width="2" stroke-dasharray="8 7"/>
+    <rect x="895" y="725" width="610" height="94" rx="18" fill="#3b3a34" stroke="#b9794f" stroke-width="2" stroke-dasharray="8 7"/>
+  </g>
+  <circle cx="130" cy="758" r="17" fill="#e5a979"/><text x="130" y="764" text-anchor="middle" class="tag">5</text>
+  <text x="165" y="759" class="step">Forzamiento planetario</text>
+  <text x="165" y="790" class="body">balance de CO₂ + clima + controles rivales</text>
+  <circle cx="930" cy="758" r="17" fill="#e5a979"/><text x="930" y="764" text-anchor="middle" class="tag">5</text>
+  <text x="965" y="759" class="step">Ciclo vital terrestre</text>
+  <text x="965" y="790" class="body">adultos + juveniles + reproducción fuera del agua</text>
+
+  <rect x="95" y="854" width="610" height="58" rx="15" fill="#11292a" stroke="#8bae83"/>
+  <text x="400" y="879" text-anchor="middle" class="warn">El Devónico observa fuerte 1–3</text>
+  <text x="400" y="900" text-anchor="middle" class="note">4–5 requieren cobertura, flujos y modelos.</text>
+  <rect x="895" y="854" width="610" height="58" rx="15" fill="#11292a" stroke="#7ba4af"/>
+  <text x="1200" y="879" text-anchor="middle" class="warn">El Devónico observa fuerte 1–3</text>
+  <text x="1200" y="900" text-anchor="middle" class="note">4 es desigual; 5 no está demostrado.</text>
+</svg>
