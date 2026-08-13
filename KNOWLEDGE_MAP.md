@@ -1061,3 +1061,29 @@ estructura regional → persistencia biológica → cultura inmutable: no
 La síntesis conserva firme el poblamiento de Sahul hacia `~50–45 ka`, deja condicional el extremo de `~65 ka` y abre rutas, vehículo, tamaño real y lugar de mezcla denisovana. Costas sumergidas y preservación tropical dominan el sesgo espacial.
 
 Véase `INV-MIGR-ASIA-AUS-001` en `13_migraciones`, su mapa en `assets/visuales/mapa-investigacion-044.svg` y la cronología multiarquivo en `assets/visuales/cronologia-archivos-asia-sahul.svg`.
+
+### Investigación 045 — Llegada de sapiens a Europa y coexistencia neandertal
+
+```text
+resto + procedencia + taxón + reloj ─────────> presencia local ───────────────┐
+industria + integridad + fabricante ─────────> asociación tecnológica ────────┤
+primeras/últimas apariciones + región ───────> solapamiento cronológico ──────┤
+genoma + tramos + recombinación ─────────────> mestizaje / contribución ───────┤
+serie regional + preservación + modelo ──────> desaparición regional ─────────┘
+                                                                                │
+                                                                                └─> no hay contacto, taxón universal o causa única automáticos
+```
+
+Bacho Kiro y Ranis sostienen presencia sapiens alrededor de `47–43 ka`; Zlatý kůň pertenece a una rama temprana sin tecnocomplejo seguro. Mandrin y Apidima permanecen condicionados. Uluzziense, Protoauriñaciense, LRJ e IUP conservan su escala de asociación.
+
+```text
+intervalos europeos/regionales → coexistencia cronológica B-COND → encuentro D
+Bacho/Oase → ancestros neandertales recientes B → lugar exacto abierto
+pulso compartido → ~50.5–43.5 / ~49–45 ka C-MOD → coordenada D
+NW 2026 → sin flujo reciente detectable B-REG → ausencia europea total: no
+Thorin local + diversidad NW → estructura → deterioro general: no
+```
+
+La síntesis sustituye la escena de reemplazo por un mosaico de episodios, regiones y genealogías. Desaparición arqueológica y absorción genética parcial pueden coexistir; ninguna fuente asigna un mecanismo causal continental único.
+
+Véase `INV-MIGR-EUROPE-001` en `13_migraciones`, su mapa en `assets/visuales/mapa-investigacion-045.svg` y la cronología multiarquivo en `assets/visuales/cronologia-solapamientos-europa.svg`.

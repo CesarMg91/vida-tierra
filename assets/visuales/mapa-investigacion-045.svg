@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Mapa epistemológico de la llegada de Homo sapiens a Europa</title>
+  <desc id="desc">Cinco cadenas separan objetos, mediciones, inferencias, escalas y resultados. Líneas discontinuas marcan saltos no autorizados entre solapamiento y contacto, y entre tecnología y taxón.</desc>
+  <defs>
+    <style>
+      .bg{fill:#08131f}.panel{fill:#102333;stroke:#315068;stroke-width:2}.head{fill:#17364a}.txt{font-family:Inter,Segoe UI,sans-serif;fill:#eaf1f4}.muted{fill:#a8bac4}.teal{fill:#56c5bd}.amber{fill:#e0ab67}.red{fill:#e58b82}.line{stroke:#56c5bd;stroke-width:3;fill:none;marker-end:url(#a)}.dash{stroke:#e58b82;stroke-width:3;stroke-dasharray:10 9;fill:none}.small{font-size:18px}.body{font-size:21px}.label{font-size:17px;font-weight:700;letter-spacing:1px}.h1{font-size:38px;font-weight:700}.h2{font-size:25px;font-weight:650}
+    </style>
+    <marker id="a" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#56c5bd"/></marker>
+  </defs>
+  <rect class="bg" width="1600" height="900"/>
+  <text class="txt h1" x="70" y="65">Llegada, coexistencia y mestizaje: cinco cadenas, no una escena</text>
+  <text class="muted body" x="70" y="103">Europa ≠ región ≠ sitio ≠ capa · fecha ≠ contacto · tecnocomplejo ≠ taxón</text>
+
+  <g transform="translate(70 145)">
+    <rect class="panel" width="1460" height="112" rx="18"/><rect class="head" width="220" height="112" rx="18"/>
+    <text class="teal label" x="25" y="40">PRESENCIA</text><text class="txt h2" x="25" y="77">resto humano</text>
+    <text class="txt body" x="260" y="38">procedencia + anatomía / proteína / mtDNA + fecha del objeto correcto</text>
+    <path class="line" d="M270 76 H1025"/><text class="txt body" x="1050" y="82">presencia local condicionada</text>
+  </g>
+
+  <g transform="translate(70 275)">
+    <rect class="panel" width="1460" height="112" rx="18"/><rect class="head" width="220" height="112" rx="18"/>
+    <text class="amber label" x="25" y="40">TECNOLOGÍA</text><text class="txt h2" x="25" y="77">conjunto lítico</text>
+    <text class="txt body" x="260" y="38">integridad + asociación local con fabricante diagnóstico</text>
+    <path class="line" d="M270 76 H1025"/><text class="txt body" x="1050" y="82">fabricante en ese contexto</text>
+  </g>
+
+  <g transform="translate(70 405)">
+    <rect class="panel" width="1460" height="112" rx="18"/><rect class="head" width="220" height="112" rx="18"/>
+    <text class="teal label" x="25" y="40">SOLAPAMIENTO</text><text class="txt h2" x="25" y="77">dos intervalos</text>
+    <text class="txt body" x="260" y="38">modelos de primera/última aparición + escala espacial declarada</text>
+    <path class="line" d="M270 76 H1025"/><text class="txt body" x="1050" y="82">coexistencia cronológica</text>
+  </g>
+
+  <g transform="translate(70 535)">
+    <rect class="panel" width="1460" height="112" rx="18"/><rect class="head" width="220" height="112" rx="18"/>
+    <text class="amber label" x="25" y="40">MESTIZAJE</text><text class="txt h2" x="25" y="77">genoma / tramos</text>
+    <text class="txt body" x="260" y="38">autenticación + recombinación + modelo de generaciones</text>
+    <path class="line" d="M270 76 H1025"/><text class="txt body" x="1050" y="82">ancestro o flujo detectable</text>
+  </g>
+
+  <g transform="translate(70 665)">
+    <rect class="panel" width="1460" height="112" rx="18"/><rect class="head" width="220" height="112" rx="18"/>
+    <text class="teal label" x="25" y="40">DESAPARICIÓN</text><text class="txt h2" x="25" y="77">últimas señales</text>
+    <text class="txt body" x="260" y="38">series regionales + preservación + demografía + ambiente</text>
+    <path class="line" d="M270 76 H1025"/><text class="txt body" x="1050" y="82">final regional modelado</text>
+  </g>
+
+  <path class="dash" d="M1180 387 V405"/><text class="red small" x="1200" y="402">no implica taxón universal</text>
+  <path class="dash" d="M1180 517 V535"/><text class="red small" x="1200" y="532">no implica contacto</text>
+  <path class="dash" d="M1180 647 V665"/><text class="red small" x="1200" y="662">no fija lugar</text>
+  <text class="muted small" x="70" y="835">Línea continua = operación sustentada · línea discontinua = salto que requiere evidencia independiente.</text>
+  <text class="muted small" x="70" y="870">Diagrama conceptual; no representa rutas, poblaciones, sitios, objetos ni proporciones reales.</text>
+</svg>

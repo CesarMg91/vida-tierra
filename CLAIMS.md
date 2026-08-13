@@ -764,6 +764,24 @@ Este archivo es el índice canónico. La letra de confianza califica exactamente
 | `CLAIM-SAHUL-DROWNED-RECORD-001` | Costas y plataformas pleistocenas hoy sumergidas introducen un sesgo de preservación espacial; vacíos terrestres no prueban ausencia humana. | A-SEM; B aplicación | AUDITADO | `EVID-ASIA-SAHUL-METHOD-001`, `EVID-SAHUL-ROUTE-MODELS-001` | `INV-MIGR-ASIA-AUS-001` |
 | `CLAIM-SAHUL-GENOMIC-GOVERNANCE-001` | Consentimiento, gobernanza indígena, selección comunitaria y acceso forman parte de la procedencia y límites de los datos genómicos de Sahul. | A-MET | AUDITADO | `EVID-SAHUL-STRUCTURE-001` | `INV-MIGR-ASIA-AUS-001` |
 | `CLAIM-ASIA-SAHUL-CONFIDENCE-001` | Cruces de agua y poblamiento `~50–45 ka` reciben A–B; extremos tempranos B-COND/C; ruta, fundadores y divergencias C-MOD; vehículo y continuidad cultural D. | A-SEM | AUDITADO | síntesis de `EVID-ASIA-SAHUL-*`, `EVID-SAHUL-*` | `INV-MIGR-ASIA-AUS-001` |
+| `CLAIM-EUROPE-ARRIVAL-SCOPE-001` | Presencia fósil, atribución taxonómica, tecnocomplejo, intervalo, solapamiento, contacto, mestizaje, contribución y desaparición son resultados distintos y dependientes de escala. | A-SEM | AUDITADO | `EVID-EUROPE-METHOD-001` | `INV-MIGR-EUROPE-001` |
+| `CLAIM-EUROPE-EARLY-INCURSIONS-001` | Apidima y Mandrin, aun si se confirman, registrarían episodios anteriores condicionados y no una única población fundadora o continuidad hasta `~45 ka`. | C-D | AUDITADO | `EVID-APIDIMA-001`, `EVID-MANDRIN-001` | `INV-MIGR-EUROPE-001` |
+| `CLAIM-MANDRIN-PRESENCE-OPEN-001` | Mandrin capa E propone sapiens `56.8–51.7 ka cal BP` mediante un molar y el Neroniano, pero taxón y asociación siguen disputados. | C-COND | AUDITADO | `EVID-MANDRIN-001` | `INV-MIGR-EUROPE-001` |
+| `CLAIM-BACHO-KIRO-PRESENCE-001` | Restos identificados por morfología, proteómica y mtDNA sitúan sapiens en el IUP de Bacho Kiro aproximadamente `46–44 ka`. | B | AUDITADO | `EVID-BACHO-KIRO-EUROPE-001` | `INV-MIGR-EUROPE-001` |
+| `CLAIM-RANIS-LRJ-SAPIENS-001` | Restos humanos con mtDNA y fechas directas asocian sapiens con el LRJ de Ranis `~47–42 ka`; la asociación no se universaliza a todo LRJ. | B local; C extensión | AUDITADO | `EVID-RANIS-LRJ-001` | `INV-MIGR-EUROPE-001` |
+| `CLAIM-ZLATY-KUN-RANIS-POPULATION-001` | Genomas de Ranis y Zlatý kůň representan una población temprana emparentada sin contribución posterior detectable; Zlatý kůň carece de tecnocomplejo seguro. | B-COND | AUDITADO | `EVID-RANIS-ZLATY-CONTINUITY-001`, `EVID-ZLATY-KUN-AGE-001` | `INV-MIGR-EUROPE-001` |
+| `CLAIM-TECHNOCOMPLEX-TAXON-LIMIT-001` | Una asociación local entre resto diagnóstico e industria no convierte el tecnocomplejo en taxón universal. | A-SEM | AUDITADO | `EVID-EUROPE-METHOD-001`, `EVID-ITALY-TECHNOCOMPLEX-001` | `INV-MIGR-EUROPE-001` |
+| `CLAIM-ULUZZIAN-ATTRIBUTION-CONDITIONAL-001` | Los molares de Cavallo apoyan una asociación sapiens–Uluzziense, condicionada por la controversia sobre integridad y procedencia. | C-COND | AUDITADO | `EVID-ITALY-TECHNOCOMPLEX-001` | `INV-MIGR-EUROPE-001` |
+| `CLAIM-PROTOAURIGNACIAN-SAPIENS-001` | Diente de Bombrini y mtDNA de Fumane apoyan fabricantes sapiens del Protoauriñaciense en esos contextos, no en cada conjunto homónimo. | B-COND | AUDITADO | `EVID-ITALY-TECHNOCOMPLEX-001` | `INV-MIGR-EUROPE-001` |
+| `CLAIM-EUROPE-OVERLAP-MOSAIC-001` | Los intervalos de sapiens y neandertales se solapan de forma regionalmente variable; Europa, región, sitio y capa no producen la misma duración. | B-COND | AUDITADO | `EVID-EUROPE-DISAPPEARANCE-001`, `EVID-REGIONAL-OVERLAP-001`, `EVID-ITALY-TRANSITION-001` | `INV-MIGR-EUROPE-001` |
+| `CLAIM-REGIONAL-OVERLAP-NOT-CONTACT-001` | La intersección de intervalos de primera/última aparición demuestra coexistencia cronológica en una escala, no encuentro, intercambio o flujo local. | A-SEM; B aplicación | AUDITADO | `EVID-EUROPE-METHOD-001`, `EVID-NW-NEAND-2026-001` | `INV-MIGR-EUROPE-001` |
+| `CLAIM-NEAND-DISAPPEARANCE-REGIONAL-001` | Las últimas apariciones neandertales son asincrónicas y modeladas; no fijan un día continental de extinción. | B-COND | AUDITADO | `EVID-EUROPE-DISAPPEARANCE-001`, `EVID-REGIONAL-OVERLAP-001`, `EVID-ITALY-TRANSITION-001` | `INV-MIGR-EUROPE-001` |
+| `CLAIM-RECENT-ADMIXTURE-EUROPE-001` | Individuos de Bacho Kiro y Oase tuvieron ancestros neandertales en pocas generaciones, prueba de mestizaje genealógico sin localizar cada encuentro. | B | AUDITADO | `EVID-EUROPE-RECENT-ADMIXTURE-001` | `INV-MIGR-EUROPE-001` |
+| `CLAIM-SHARED-NEAND-ADMIXTURE-WINDOW-001` | Genomas estiman el episodio compartido de mezcla en `~50.5–43.5 ka` o `~49–45 ka`; el reloj no proporciona una coordenada europea. | B señal; C-MOD tiempo; D lugar | AUDITADO | `EVID-SHARED-ADMIXTURE-CLOCK-001` | `INV-MIGR-EUROPE-001` |
+| `CLAIM-NW-NEAND-NO-RECENT-FLOW-2026-001` | En 27 restos neandertales de 10 sitios del noroeste europeo no se detectó flujo sapiens reciente, pese al solapamiento temporal; el límite es regional y muestral. | B-REG; D global | AUDITADO | `EVID-NW-NEAND-2026-001` | `INV-MIGR-EUROPE-001` |
+| `CLAIM-NEAND-GENETIC-DETERIORATION-LIMIT-2026-001` | La muestra tardía del noroeste no muestra acumulación progresiva de carga, pérdida de heterocigosidad o aumento de HBD que sustente deterioro genético como causa general. | B-REG; D causa global | AUDITADO | `EVID-NW-NEAND-2026-001`, `EVID-THORIN-ISOLATION-001` | `INV-MIGR-EUROPE-001` |
+| `CLAIM-EUROPE-REPLACEMENT-NOT-SINGLE-EVENT-001` | El reemplazo describe cambios regionales de presencia y frecuencia, compatibles con absorción parcial; no identifica un mecanismo único ni una escena observada. | A-SEM; C causal | AUDITADO | `EVID-EUROPE-DISAPPEARANCE-001`, `EVID-EUROPE-RECENT-ADMIXTURE-001`, `EVID-NW-NEAND-2026-001` | `INV-MIGR-EUROPE-001` |
+| `CLAIM-EUROPE-COEXISTENCE-CONFIDENCE-001` | Presencia Bacho/Ranis y mestizaje individual reciben B; solapamiento/tecnocomplejos B-COND; Mandrin/Apidima C-D; contacto desde fechas, lugar del pulso y causa única D. | A-SEM | AUDITADO | síntesis de `EVID-EUROPE-*`, `EVID-RANIS-*`, `EVID-NW-NEAND-*` | `INV-MIGR-EUROPE-001` |
 
 ## Fichas resumidas
 
@@ -3658,6 +3676,46 @@ Este archivo es el índice canónico. La letra de confianza califica exactamente
 - **Estructura:** señal biológica no congela cultura, lengua o territorio.
 - **Denisova:** múltiples ascendencias no localizan automáticamente mezcla o fósil donante.
 - **Procedencia:** gobernanza indígena y representatividad son parte del dato.
+
+## Investigación 045 — Llegada de sapiens a Europa y coexistencia neandertal
+
+### CLAIM-EUROPE-ARRIVAL-SCOPE-001 / EUROPE-COEXISTENCE-CONFIDENCE-001
+
+- **Escalas:** Europa, región, sitio, capa, objeto e individuo no son intercambiables.
+- **Robusto:** Bacho Kiro y Ranis documentan sapiens alrededor de `47–43 ka`.
+- **Condicionado:** Mandrin, Apidima y extensiones taxonómicas de tecnocomplejos.
+- **Abierto:** contacto desde intervalos, lugar del pulso compartido y causa única del final.
+
+### CLAIM-BACHO-KIRO-PRESENCE-001 / RANIS-LRJ-SAPIENS-001 / ZLATY-KUN-RANIS-POPULATION-001
+
+- **Bacho Kiro:** cuerpo, proteínas/mtDNA y reloj convergen para el IUP local.
+- **Ranis:** restos, mtDNA y fechas directas convergen para el LRJ local.
+- **Zlatý kůň:** genoma y parentesco sostienen una rama temprana; no hay industria segura.
+- **Límite:** asociación local no transforma IUP o LRJ en especies.
+
+### CLAIM-EUROPE-OVERLAP-MOSAIC-001 / REGIONAL-OVERLAP-NOT-CONTACT-001 / NEAND-DISAPPEARANCE-REGIONAL-001
+
+- **Cronología:** modelos producen ventanas regionales asincrónicas.
+- **No afirma:** encuentro, intercambio, coocupación o último individuo.
+- **Adversario:** noroeste 2026 combina solapamiento amplio con ausencia de flujo reciente detectable en la muestra.
+
+### CLAIM-RECENT-ADMIXTURE-EUROPE-001 / SHARED-NEAND-ADMIXTURE-WINDOW-001
+
+- **Genealogías:** Bacho Kiro y Oase contienen ancestros neandertales recientes.
+- **Reloj:** el pulso compartido se modela `~50.5–43.5/49–45 ka`.
+- **Geografía:** una estimación temporal no localiza el encuentro en Europa.
+
+### CLAIM-NW-NEAND-NO-RECENT-FLOW-2026-001 / NEAND-GENETIC-DETERIORATION-LIMIT-2026-001
+
+- **Muestra:** 27 restos de 10 sitios del noroeste, con Goyet `~45 ka`.
+- **Resultado:** no flujo sapiens reciente detectable ni deterioro genético progresivo.
+- **Límite:** no niega contacto en toda Europa ni convierte un grupo aislado en causa general.
+
+### CLAIM-EUROPE-REPLACEMENT-NOT-SINGLE-EVENT-001
+
+- **Descripción:** cambia la presencia/frecuencia regional de poblaciones y archivos.
+- **Compatibilidad:** desaparición neandertal y absorción genética parcial coexisten.
+- **No afirma:** violencia, intención, superioridad o mecanismo causal único.
 
 ## Claims futuros
 

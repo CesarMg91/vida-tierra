@@ -4,3 +4,4 @@ Expansiones dentro y fuera de África, Asia, Sahul, Europa, Américas y Oceanía
 
 - [`INVESTIGACION_043_SALIDAS_AFRICA_DESCENDENCIA.md`](INVESTIGACION_043_SALIDAS_AFRICA_DESCENDENCIA.md): múltiples presencias fuera de África, una expansión ancestral mayor y ramas con descendencia detectable desigual, sin contar sitios como salidas.
 - [`INVESTIGACION_044_POBLAMIENTO_ASIA_SAHUL.md`](INVESTIGACION_044_POBLAMIENTO_ASIA_SAHUL.md): presencia, rutas posibles, cruces de Wallacea, demografía y estructura papú–australiana separados, sin convertir una fecha de sitio en itinerario o continuidad.
+- [`INVESTIGACION_045_LLEGADA_EUROPA_COEXISTENCIA_NEANDERTALES.md`](INVESTIGACION_045_LLEGADA_EUROPA_COEXISTENCIA_NEANDERTALES.md): presencias sapiens, tecnocomplejos, solapamientos regionales, mestizaje y desaparición neandertal separados, sin convertir fechas coincidentes en contacto.

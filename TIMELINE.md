@@ -313,18 +313,25 @@ En esta sección una fecha arqueológica no demuestra por sí sola “propiedad�
 | `TIME-MUNA-ART-001` | mínimo `67.8 ka` | plantilla de mano de Muna anterior a calcita fechada | LA-U-series de recubrimiento; pigmento/autor no fechados directamente | `SRC-OKTAVIANA-MUNA-2026` | B-COND mínimo; C taxón | AUDITADO |
 | `TIME-MADJEDBEBE-001` | `~65 ka` | ocupación propuesta de Sahul | artefactos y OSL; integridad/blanqueo discutidos | `SRC-CLARKSON-MADJEDBEBE-2017` | C-COND | AUDITADO |
 | `TIME-LAILI-STERILE-001` | `59–54 ka` | sedimento sin ocupación humana detectada en Laili | OSL, microfacies y ausencia local; no cubre Timor | `SRC-SHIPTON-LAILI-2024` | B-LOCAL | AUDITADO |
+| `TIME-MANDRIN-NERONIAN-001` | `56.8–51.7 ka cal BP` | presencia sapiens propuesta en Mandrin, capa E | edad de capa, molar/Neroniano; taxón y asociación disputados | `SRC-SLIMAK-MANDRIN-2022`, `SRC-ZILHAO-TRANSITION-2024` | C-COND | AUDITADO |
+| `TIME-SHARED-NEAND-ADMIXTURE-001` | `~50.5–43.5 ka` o `~49–45 ka` | episodio compartido de mezcla neandertal modelado | tramos, recombinación y generación; no localiza el encuentro | `SRC-IASI-NEAND-ANCESTRY-2024`, `SRC-SUMER-RANIS-ZLATY-2024` | C-MOD tiempo; D lugar | AUDITADO |
 | `TIME-RANIS-ZLATY-001` | `49.54–42.20 ka cal BP` | rama temprana Ranis/Zlatý kůň | genomas, parentesco y radiocarbono; sin aporte posterior detectable | `SRC-SUMER-RANIS-ZLATY-2024` | B-COND | AUDITADO |
+| `TIME-RANIS-LRJ-001` | capas `47.5–43.26 ka`; huesos `46.95–42.20 ka cal BP` | sapiens asociado al LRJ de Ranis | 13 fragmentos, mtDNA, fechas directas y Bayes; extensión no automática | `SRC-MYLOPOTAMITAKI-RANIS-2024` | B local | AUDITADO |
+| `TIME-BACHO-KIRO-IUP-001` | `45.82–43.65 ka cal BP`; inicio posible `46.94 ka` | sapiens asociado al IUP de Bacho Kiro | restos, proteómica/mtDNA, AMS y Bayes | `SRC-HUBLIN-BACHO-2020`, `SRC-FEWLASS-BACHO-2020` | B | AUDITADO |
 | `TIME-IVANE-HIGHLANDS-001` | `49–44 ka` | ocupación y adaptación en tierras altas de Nueva Guinea | excavación, herramientas, plantas y cronología | `SRC-SUMMERHAYES-IVANE-2010` | B-COND | AUDITADO |
 | `TIME-LAILI-OCCUPATION-001` | inicio mediano `43.95 ka` (`48.56–42.80`) | comienzo abrupto de ocupación intensa | Bayes de `14C`/OSL y micromorfología | `SRC-SHIPTON-LAILI-2024` | B-COND | AUDITADO |
 | `TIME-NIAH-ACTIVITY-001` | `~46–34 ka` | Deep Skull y episodios de actividad en Niah | archivo, cronostratigrafía, AMS/U-series | `SRC-BARKER-NIAH-2007` | B-COND | AUDITADO |
 | `TIME-UST-ISHIM-001` | `~45 ka` | individuo temprano de Siberia occidental | genoma y tramos; una persona no fija población fundadora | `SRC-FU-UST-ISHIM-2014` | B | AUDITADO |
 | `TIME-BACHO-KIRO-ANCESTRY-001` | `~45.9–42.6 ka` | rama IUP con mezcla neandertal reciente y afinidad oriental | tres genomas/fechas; continuidad desigual | `SRC-HAJDINJAK-BACHO-2021` | B-COND | AUDITADO |
+| `TIME-NW-NEAND-GOYET-001` | Goyet `~45 ka`; serie tardía regional | neandertales del noroeste sin flujo sapiens reciente detectable | 27 restos/10 sitios; alcance y detectabilidad regionales | `SRC-BOSSOMS-MESA-NEAND-2026` | B-REG | AUDITADO |
+| `TIME-NW-NEAND-DISAPPEARANCE-001` | `44.2–40.6 ka cal BP` | última aparición neandertal modelada en noroeste europeo | hidroxiprolina específica; últimas muestras, no instante | `SRC-DEVIESE-NW-EUROPE-2021` | B-COND | AUDITADO |
+| `TIME-NEAND-EUROPE-END-001` | `41.03–39.26 ka cal BP` | final musteriense modelado en Europa | 40 sitios; asociación industria-taxón y selección | `SRC-HIGHAM-NEAND-DISAPPEARANCE-2014` | B-COND | AUDITADO |
 | `TIME-TIANYUAN-001` | `~40 ka` | estructura asiática oriental temprana | un genoma con afinidad posterior; ruta exacta ausente | `SRC-YANG-TIANYUAN-2017` | B-COND | AUDITADO |
 | `TIME-SAHUL-DIVERGENCE-001` | `25–40 ka` o `~47 ka` (`27–64`) | separación papú–australiana modelada | WGS, ABC/coalescencia; no fecha llegada | `SRC-MALASPINAS-SAHUL-2016`, `SRC-SILCOCKS-AUSTRALIAN-2023` | C-MOD | AUDITADO |
 | `TIME-AUSTRALIAN-STRUCTURE-001` | `~35–26 ka` | separaciones regionales australianas modeladas | cuatro comunidades, WGS y ABC | `SRC-SILCOCKS-AUSTRALIAN-2023` | C-MOD | AUDITADO |
 
 ## Próxima acción cronológica
 
-Las investigaciones extensas auditadas llegan de `INV-EARTH-AGE-001` a `INV-MIGR-ASIA-AUS-001`. El siguiente trabajo es `INV-MIGR-EUROPE-001`: deberá separar llegada, coexistencia, reemplazo, mezcla y diversidad regional en Europa.
+Las investigaciones extensas auditadas llegan de `INV-EARTH-AGE-001` a `INV-MIGR-EUROPE-001`. El siguiente trabajo es `INV-MIGR-AMERICAS-001`: deberá separar presencia, cronología, rutas, población y continuidad en el poblamiento de las Américas.
 
 La línea temática `INV-CIV-ORIGINS-001` permanece separada en estado `TRAZADO`; organiza expedientes regionales, pero no cambia la próxima acción de la secuencia global.
