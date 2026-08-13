@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1000" viewBox="0 0 1600 1000" role="img" aria-labelledby="title desc">
+  <title id="title">Restricciones y modelos del origen lunar</title>
+  <desc id="desc">Una matriz conceptual compara cinco familias de origen lunar contra masa y hierro, isótopos, volátiles, momento angular y cronología; ninguna satisface todo sin condiciones.</desc>
+  <defs><style>
+    .bg{fill:#071221}.panel{fill:#0d1d31;stroke:#30445f;stroke-width:2}.h1{fill:#f5f7fb;font:700 42px Georgia,serif}.sub{fill:#9fb0c8;font:22px 'Segoe UI',sans-serif}.head{fill:#5de1f2;font:700 18px 'Segoe UI',sans-serif;letter-spacing:1px}.row{fill:#f4f6fa;font:700 21px Georgia,serif}.b{fill:#b9c5d7;font:18px 'Segoe UI',sans-serif}.m{fill:#9aaac0;font:17px Consolas,monospace}.ok{fill:#42d6a4}.mid{fill:#f4c45e}.open{fill:#ba7af2}.line{stroke:#30445f;stroke-width:2}.ring{fill:none;stroke:#5de1f2;stroke-width:4;opacity:.8}
+  </style></defs>
+  <rect width="1600" height="1000" class="bg"/>
+  <text x="65" y="75" class="h1">El modelo debe cruzar todas las puertas</text>
+  <text x="65" y="113" class="sub">Resolver una tensión no autoriza ignorar las demás; los colores expresan ajuste condicionado, no una puntuación final.</text>
+
+  <g transform="translate(55 165)">
+    <rect width="1490" height="645" rx="24" class="panel"/>
+    <text x="35" y="55" class="head">FAMILIA</text>
+    <text x="390" y="55" class="head">MASA + POCO FE</text>
+    <text x="625" y="55" class="head">ISÓTOPOS</text>
+    <text x="835" y="55" class="head">VOLÁTILES</text>
+    <text x="1045" y="55" class="head">MOMENTO L</text>
+    <text x="1270" y="55" class="head">EDAD / PROB.</text>
+    <path d="M30 80H1460 M30 190H1460 M30 300H1460 M30 410H1460 M30 520H1460" class="line"/>
+    <path d="M350 25V615 M590 25V615 M800 25V615 M1010 25V615 M1240 25V615" class="line"/>
+
+    <g transform="translate(0 95)"><text x="35" y="35" class="row">Canónico</text><text x="35" y="65" class="m">Theia ~marciana</text><circle cx="445" cy="42" r="17" class="ok"/><circle cx="690" cy="42" r="17" class="mid"/><circle cx="900" cy="42" r="17" class="mid"/><circle cx="1120" cy="42" r="17" class="ok"/><circle cx="1350" cy="42" r="17" class="mid"/></g>
+    <g transform="translate(0 205)"><text x="35" y="35" class="row">Equilibrio</text><text x="35" y="65" class="m">vapor compartido</text><circle cx="445" cy="42" r="17" class="ok"/><circle cx="690" cy="42" r="17" class="ok"/><circle cx="900" cy="42" r="17" class="mid"/><circle cx="1120" cy="42" r="17" class="ok"/><circle cx="1350" cy="42" r="17" class="mid"/></g>
+    <g transform="translate(0 315)"><text x="35" y="35" class="row">Alto L</text><text x="35" y="65" class="m">Tierra rápida / pares</text><circle cx="445" cy="42" r="17" class="ok"/><circle cx="690" cy="42" r="17" class="ok"/><circle cx="900" cy="42" r="17" class="mid"/><circle cx="1120" cy="42" r="17" class="open"/><circle cx="1350" cy="42" r="17" class="mid"/></g>
+    <g transform="translate(0 425)"><text x="35" y="35" class="row">Sinestia</text><text x="35" y="65" class="m">estructura vaporizada</text><circle cx="445" cy="42" r="17" class="ok"/><circle cx="690" cy="42" r="17" class="ok"/><circle cx="900" cy="42" r="17" class="ok"/><circle cx="1120" cy="42" r="17" class="open"/><circle cx="1350" cy="42" r="17" class="mid"/></g>
+    <g transform="translate(0 535)"><text x="35" y="35" class="row">Múltiples</text><text x="35" y="65" class="m">fusión de moonlets</text><circle cx="445" cy="42" r="17" class="mid"/><circle cx="690" cy="42" r="17" class="mid"/><circle cx="900" cy="42" r="17" class="open"/><circle cx="1120" cy="42" r="17" class="mid"/><circle cx="1350" cy="42" r="17" class="open"/></g>
+  </g>
+
+  <g transform="translate(70 850)"><circle cx="15" cy="15" r="14" class="ok"/><text x="45" y="22" class="b">ajuste fuerte dentro del marco</text><circle cx="355" cy="15" r="14" class="mid"/><text x="385" y="22" class="b">condicionado o parcial</text><circle cx="680" cy="15" r="14" class="open"/><text x="710" y="22" class="b">tensión abierta</text></g>
+  <text x="70" y="930" class="m">Matriz editorial, no metaanálisis cuantitativo · los modelos tienen variantes y comparten dependencias</text>
+  <text x="70" y="963" class="m">INV-MOON-ORIGIN-001 · 2026-08-10</text>
+</svg>

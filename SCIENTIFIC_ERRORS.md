@@ -35,6 +35,12 @@ El propósito no es presentar la ciencia como una sucesión de fracasos ni como 
 | `ERR-EARTH-CORE-WEIGHT-001` | explicar el núcleo porque “lo pesado se hunde” | densidad sin termodinámica ni afinidad química | diferenciación metal–silicato y partición | DOCUMENTADO |
 | `ERR-EARTH-CORE-METEORITE-001` | llamar a un meteorito de hierro muestra del núcleo terrestre | análogo planetario convertido en fragmento genealógico | procedencia meteórica y comparación condicionada | DOCUMENTADO |
 | `ERR-EARTH-CORE-ONEAGE-001` | asignar una sola edad al núcleo | segregación temprana y nucleación interna confundidas | cronología de dos procesos | DOCUMENTADO |
+| `ERR-MOON-PACIFIC-001` | presentar el Pacífico como cicatriz de la Luna | cuenca joven convertida en fósil hadeano | tectónica de placas y dinámica angular | DOCUMENTADO |
+| `ERR-MOON-THEIA-DETECTED-001` | narrar Theia como planeta observado | variable de modelo convertida en objeto muestreado | separar nombre, familia y cuerpo histórico | DOCUMENTADO |
+| `ERR-MOON-IDENTICAL-001` | decir que Tierra y Luna son isotópicamente idénticas | semejanza de sistemas seleccionados extrapolada | matriz por isótopo, litología y precisión | DOCUMENTADO |
+| `ERR-MOON-SIMULATION-PHOTO-001` | usar una simulación como video del impacto | viabilidad confundida con identidad | ensambles, condiciones y fallos | DOCUMENTADO |
+| `ERR-MOON-DRY-001` | depleción volátil significa ausencia de agua | promedio global confundido con cero | abundancia por reservorio y etapa | DOCUMENTADO |
+| `ERR-MOON-IMPACT-TIME-001` | una edad de zircon fecha el choque | cristalización/cierre confundidos con contacto | cronómetros y eventos separados | DOCUMENTADO |
 | `ERR-GEO-KELVIN-001` | Tierra de decenas de Ma por enfriamiento | fuente térmica y transporte incompletos | radioactividad, convección y geocronología isotópica | DOCUMENTADO |
 | `ERR-GEO-SEDIMENT-001` | edad global por tasa media de sedimentación | tasa constante, registro completo y sin reciclaje | estratigrafía, discordancias y relojes radiométricos | SEMILLA |
 | `ERR-GEO-LEAD-001` | mediciones de Pb sin control ultralimpio | blanco despreciable | laboratorios limpios, blancos y química de trazas | DOCUMENTADO |
@@ -178,6 +184,30 @@ El núcleo metálico se segregó mientras la Tierra acrecía. El núcleo interno
 ### Lección
 
 Antes de publicar una edad, hay que nombrar el evento físico fechado.
+
+## ERR-MOON-PACIFIC-001 — Una cuenca joven no es una cicatriz hadeana
+
+La corteza oceánica del Pacífico se crea y recicla por tectónica de placas y es enormemente posterior al origen lunar. La geometría tampoco satisface una fisión simple. **Lección:** una semejanza cartográfica no reemplaza edad, volumen y dinámica.
+
+## ERR-MOON-THEIA-DETECTED-001 — El nombre volvió tangible una variable
+
+Theia nombra al impactor hipotético; no existe una muestra identificada ni una órbita recuperada. **Lección:** nombrar una entidad modelada ayuda a discutirla, pero no eleva su biografía a dato.
+
+## ERR-MOON-IDENTICAL-001 — Parecido extremo no es identidad universal
+
+O y Ti son muy semejantes; V, W, K y algunas litologías contienen diferencias o historias posteriores. **Lección:** la precisión y el sistema deben acompañar siempre a “igual”.
+
+## ERR-MOON-SIMULATION-PHOTO-001 — Un impacto posible no es el impacto
+
+Una ejecución fija masa, giro, ángulo, EOS y resolución. Otra entrada produce otra Luna o ninguna. **Lección:** la simulación prueba consecuencias y viabilidad; la identidad exige predicciones exclusivas.
+
+## ERR-MOON-DRY-001 — Depletado no significa vacío
+
+La Luna tiene menos de muchos volátiles que la Tierra silicatada y aun conserva agua en algunos reservorios. **Lección:** abundancia relativa, distribución y ausencia son afirmaciones distintas.
+
+## ERR-MOON-IMPACT-TIME-001 — El mineral no vio el contacto
+
+Zircon fecha cristalización/cierre; Hf–W fecha separación bajo un modelo; HSE–dinámica fecha un último gigante condicionado. **Lección:** antes de comparar edades hay que comparar eventos.
 
 ## ERR-GEO-KELVIN-001 — El reloj térmico incompleto
 

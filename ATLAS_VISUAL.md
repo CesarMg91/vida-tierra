@@ -94,6 +94,20 @@ Cinco rutas distinguen geometría y estado sísmicos, concentración de masa, co
 
 La lámina separa P, PKP, PKIKP y SKS por tramos. Las trayectorias son esquemáticas, no rayos calculados; SKS recuerda que la energía puede cruzar el núcleo externo como compresión aunque el líquido no sostenga cizalla.
 
+## 9. Investigación 008 — Origen de la Luna
+
+![Portada conceptual del origen lunar](assets/visuales/hero-origen-luna.png)
+
+> **Portada conceptual:** conecta una colisión modelada, un disco y muestras medidas hoy. No es una fotografía de Theia ni fija una geometría histórica.
+
+![Mapa de evidencia del origen lunar](assets/visuales/mapa-investigacion-008.svg)
+
+Cinco archivos restringen la familia causal: órbita, interior, rocas, isótopos y volátiles. El mapa separa el origen por impacto de la proporción Tierra–Theia y del escenario exacto.
+
+![Restricciones de los modelos de origen lunar](assets/visuales/restricciones-origen-luna.svg)
+
+La matriz no proclama ganador numérico: muestra qué resuelve cada familia y dónde traslada la incertidumbre, especialmente isótopos y momento angular.
+
 ## Procedencia
 
 El registro de creación, límites y prompt de cada pieza está en [`assets/visuales/README.md`](assets/visuales/README.md).

@@ -35,6 +35,10 @@ Una controversia no implica empate. Registra qué parte está realmente abierta,
 | `CONT-EARTH-CORE-INNER-001` | ¿Cómo está estructurado el núcleo interno? | sólido anisótropo y heterogéneo a gran escala | capas, textura, hemisferios, rotación diferencial o evolución temporal distintas | abierta | A para solidez; C-D para estructura fina |
 | `CONT-EARTH-CORE-AGE-001` | ¿Cuándo nucleó el núcleo interno? | nucleación posterior a la diferenciación primordial | edades desde centenares de Ma hasta más de 1 Ga según conductividad y evolución térmica | abierta y modelada | B para posterioridad; D para edad exacta |
 | `CONT-MOON-AGE-001` | Momento del impacto formador de la Luna | temprano, en primeras decenas de Ma | impacto o reequilibrio más tardío; zircones fechan corteza, no colisión | abierta | C |
+| `CONT-MOON-ISOTOPES-001` | ¿Por qué Tierra y Luna son tan semejantes? | progenitores cercanos + mezcla/procedencia terrestre variable | impacto canónico con Theia condrítica y pequeñas diferencias preservadas | abierta en pesos | A para semejanza; C-D para causa |
+| `CONT-MOON-ANGMOM-001` | Momento angular inicial y pérdida posterior | impacto cercano al valor actual o evolución mareal moderada | estado inicial alto con resonancias que retiran momento | abierta | A para actual; D para ruta temprana |
+| `CONT-MOON-SINGLE-MULTI-001` | ¿Una colisión dominante o varios moonlets? | un último impacto gigante forma el disco principal | sucesión de impactos menores y fusión de satélites | abierta | B para impactos; D para número |
+| `CONT-MOON-MAGMAOCEAN-001` | ¿Océano de magma global? | diferenciación extensa con flotación de plagioclasa | magmatismo seriado, fundido parcial o múltiples reservorios | abierta en extensión/duración | B para fusión extensa; C-D para geometría |
 | `CONT-HADEAN-WATER-001` | ¿Había océanos a 4.4 Ga? | zircones sugieren agua superficial/corteza reciclada | señal de fuente o alteración sin océano global persistente | abierta | C |
 | `CONT-HADEAN-NGB-001` | Edad de Nuvvuagittuq | intrusiones de ~4.16 Ga y encajantes más antiguas | edades arqueanas ~3.8 Ga o edades modelo heredadas/reset | reabierta y fortalecida en 2025 | C-B-PROV |
 | `CONT-HADEAN-LHB-001` | ¿Hubo un cataclismo único a ~3.9 Ga? | episodio elevado o combinación de poblaciones | cola monótona de acreción y sesgo de muestras Apollo | abierta | D para pico único |
@@ -211,6 +215,22 @@ La separación metal–silicato ocurrió durante la acreción temprana; la crist
 Los zircones lunares antiguos demuestran que existía corteza diferenciada muy temprano si su edad es primaria. No miden el impacto gigante. Hf–W y otros cronómetros conectan separación de reservorios con modelos de equilibrio metal–silicato. La edad del impacto se infiere al exigir que ocurra antes de la diferenciación fechada.
 
 **Prueba discriminatoria:** más muestras lunares con procedencia conocida, cronómetros múltiples sobre las mismas litologías y modelos que predigan conjuntamente edades, química y dinámica orbital.
+
+## CONT-MOON-ISOTOPES-001 — Parecido no identifica mecanismo
+
+O y Ti establecen parentesco estrecho; V, W y litologías de O conservan diferencias pequeñas. Compiten una Theia nacida cerca, equilibrio vapor–magma, un disco mayormente terrestre o una combinación. **Prueba discriminatoria:** matriz multielemental en muestras profundas y de cara lejana, con correcciones comunes y predicciones previas de cada modelo.
+
+## CONT-MOON-ANGMOM-001 — El estado actual no es una condición inicial
+
+El impacto canónico aproxima el momento actual. Escenarios de alta energía producen más y dependen de resonancias solares/mareas para retirarlo. **Prueba discriminatoria:** integraciones estables que alcancen simultáneamente semieje, inclinación, excentricidad, giro terrestre y disipación plausible sin ajuste retrospectivo.
+
+## CONT-MOON-SINGLE-MULTI-001 — Una Luna, ¿un disco?
+
+Un impacto tardío dominante explica una Luna masiva; impactos múltiples hacen moonlets comunes y promedian procedencias. La fusión, supervivencia y química de esos moonlets siguen modeladas. **Prueba discriminatoria:** simulaciones acopladas desde impactos hasta satélite final que predigan masa, composición, corteza y órbita.
+
+## CONT-MOON-MAGMAOCEAN-001 — Anortosita no mide profundidad
+
+La flotación de plagioclasa y reservorios complementarios favorecen fusión extensa. Globalidad, espesor, convección, overturn y magmatismo serial admiten variantes. **Prueba discriminatoria:** muestras de cuencas profundas/cara lejana, sismología global y edades co-genéticas que conecten corteza y manto.
 
 ## CONT-HADEAN-WATER-001 — De `δ18O` a océanos
 

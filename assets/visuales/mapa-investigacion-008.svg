@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1000" viewBox="0 0 1600 1000" role="img" aria-labelledby="title desc">
+  <title id="title">Mapa de evidencia del origen de la Luna</title>
+  <desc id="desc">Cinco rutas de evidencia conectan órbita, interior, rocas, isótopos y volátiles con una familia de origen por impacto; abajo se separan conclusión robusta y escenarios todavía abiertos.</desc>
+  <defs>
+    <style>
+      .bg{fill:#071221}.card{fill:#0d1d31;stroke:#30445f;stroke-width:2}.out{fill:#142239;stroke-width:2.5}.h1{fill:#f5f7fb;font:700 42px Georgia,serif}.sub{fill:#9fb0c8;font:22px 'Segoe UI',sans-serif}.k{fill:#5de1f2;font:700 18px 'Segoe UI',sans-serif;letter-spacing:1.6px}.t{fill:#f4f6fa;font:700 25px Georgia,serif}.b{fill:#b9c5d7;font:20px 'Segoe UI',sans-serif}.m{fill:#9aaac0;font:18px Consolas,monospace}.arrow{stroke:#5de1f2;stroke-width:6;fill:none}.cyan{stroke:#25d6f2}.gold{stroke:#f7a600}.purple{stroke:#ba7af2}.white{stroke:#dfe8f5}.fine{stroke:#6d809b;stroke-width:4;fill:none}
+    </style>
+    <marker id="a" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto"><path d="M0,0 L12,6 L0,12 Z" fill="#5de1f2"/></marker>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#ffb000"/><stop offset="1" stop-color="#ef4055"/></linearGradient>
+  </defs>
+  <rect width="1600" height="1000" class="bg"/>
+  <circle cx="1450" cy="80" r="170" fill="#f7a600" opacity=".05"/>
+  <text x="70" y="78" class="h1">¿Cómo restringimos un origen que nadie observó?</text>
+  <text x="70" y="116" class="sub">Cada archivo mide una propiedad; el impacto es el modelo conjunto, no una imagen recuperada.</text>
+
+  <g transform="translate(60 175)">
+    <rect width="280" height="310" rx="25" class="card"/>
+    <text x="25" y="42" class="k">ÓRBITA</text><text x="25" y="82" class="t">Masa y momento</text>
+    <circle cx="110" cy="164" r="55" fill="none" stroke="#7890ac" stroke-width="12"/><circle cx="110" cy="164" r="17" fill="url(#g)"/>
+    <path d="M170 105 Q255 165 185 230" class="fine"/><circle cx="213" cy="143" r="9" fill="#5de1f2"/>
+    <text x="25" y="265" class="m">L actual + mareas</text><text x="25" y="292" class="b">Condición de borde</text>
+  </g>
+  <g transform="translate(365 175)">
+    <rect width="280" height="310" rx="25" class="card"/>
+    <text x="25" y="42" class="k">INTERIOR</text><text x="25" y="82" class="t">Poco hierro</text>
+    <circle cx="140" cy="166" r="78" fill="#7387a2"/><circle cx="140" cy="166" r="24" fill="url(#g)"/>
+    <path d="M42 215 Q140 285 238 215" fill="none" stroke="#5de1f2" stroke-width="5"/>
+    <text x="25" y="265" class="m">sismo + gravedad</text><text x="25" y="292" class="b">Núcleo pequeño</text>
+  </g>
+  <g transform="translate(670 175)">
+    <rect width="280" height="310" rx="25" class="card"/>
+    <text x="25" y="42" class="k">ROCAS</text><text x="25" y="82" class="t">Fundido temprano</text>
+    <path d="M50 218 L85 122 128 215Z" fill="#e7e1d1"/><path d="M112 218 L155 100 202 218Z" fill="#59677a"/><circle cx="213" cy="147" r="31" fill="#b888cf"/>
+    <text x="25" y="265" class="m">anortosita + zircon</text><text x="25" y="292" class="b">Diferenciación</text>
+  </g>
+  <g transform="translate(975 175)">
+    <rect width="280" height="310" rx="25" class="card"/>
+    <text x="25" y="42" class="k">ISÓTOPOS</text><text x="25" y="82" class="t">Parecidos, no uno</text>
+    <circle cx="95" cy="158" r="52" fill="#5de1f2" opacity=".75"/><circle cx="178" cy="158" r="52" fill="#ba7af2" opacity=".75"/>
+    <circle cx="136" cy="158" r="24" fill="#f4f6fa" opacity=".7"/>
+    <text x="25" y="250" class="m">O · Ti · V · W</text><text x="25" y="281" class="b">Fuente + mezcla</text>
+  </g>
+  <g transform="translate(1280 175)">
+    <rect width="260" height="310" rx="25" class="card"/>
+    <text x="25" y="42" class="k">VOLÁTILES</text><text x="25" y="82" class="t">Calor y presión</text>
+    <path d="M55 210 Q130 75 205 210" fill="none" stroke="url(#g)" stroke-width="18" opacity=".9"/>
+    <circle cx="92" cy="174" r="8" fill="#f5d470"/><circle cx="142" cy="130" r="8" fill="#f5d470"/><circle cx="183" cy="177" r="8" fill="#f5d470"/>
+    <text x="25" y="265" class="m">K + depleciones</text><text x="25" y="292" class="b">Vapor/condensación</text>
+  </g>
+
+  <g marker-end="url(#a)" class="arrow"><path d="M200 505 L200 575"/><path d="M505 505 L505 575"/><path d="M810 505 L810 575"/><path d="M1115 505 L1115 575"/><path d="M1410 505 L1410 575"/></g>
+
+  <g transform="translate(65 600)"><rect width="470" height="220" rx="25" class="out cyan"/><text x="30" y="48" class="k">CONCLUSIÓN · B-COND</text><text x="30" y="92" class="t">Impacto + material en órbita</text><text x="30" y="133" class="b">Mejor ajuste conjunto de masa,</text><text x="30" y="164" class="b">poco Fe, fusión y parentesco.</text><text x="30" y="198" class="m">Familia causal, no trayectoria única</text></g>
+  <g transform="translate(565 600)"><rect width="430" height="220" rx="25" class="out gold"/><text x="30" y="48" class="k">PROCEDENCIA · C–D</text><text x="30" y="92" class="t">Tierra / Theia / mezcla</text><text x="30" y="133" class="b">Similitud primordial, equilibrio</text><text x="30" y="164" class="b">o disco principalmente terrestre.</text><text x="30" y="198" class="m">Los isótopos no votan por separado</text></g>
+  <g transform="translate(1025 600)"><rect width="510" height="220" rx="25" class="out purple"/><text x="30" y="48" class="k">ESCENARIO · D–E</text><text x="30" y="92" class="t">Canónico · alto L · sinestia · varios</text><text x="30" y="133" class="b">Cada familia hereda ecuación de estado,</text><text x="30" y="164" class="b">resolución y evolución mareal.</text><text x="30" y="198" class="m">Theia no fue observada directamente</text></g>
+
+  <text x="70" y="890" fill="#f5d470" class="t">Regla de lectura</text><text x="285" y="890" class="sub">una ejecución que forma una Luna demuestra viabilidad, no identidad histórica.</text>
+  <text x="70" y="946" class="m">Diagrama conceptual reproducible · INV-MOON-ORIGIN-001 · 2026-08-10</text>
+</svg>

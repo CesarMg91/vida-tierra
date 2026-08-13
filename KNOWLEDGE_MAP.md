@@ -213,3 +213,19 @@ paleomagnetismo + calor ──→ geodinamo y nucleación interna ────�
 ```
 
 Véase `INV-EARTH-CORE-001` en `02_formacion_tierra`, su mapa en `assets/visuales/mapa-investigacion-007.svg` y la guía conceptual de fases en `assets/visuales/fases-sismicas-nucleo.svg`.
+
+La ruta específica del origen lunar es:
+
+```text
+masa + órbita + giro ─────→ momento angular / mareas ───────────┐
+núcleo pequeño ───────────→ eyección preferente de silicato ────┤
+anortositas + zircon ─────→ fusión y diferenciación tempranas ──┤
+O + Ti + V + W ───────────→ fuente, mezcla y acreción tardía ────┤
+K + volátiles ────────────→ vapor, pérdida y condensación ───────┤
+SPH + disco + enfriamiento→ familias mecánicamente viables ─────┘
+                                      ↓
+                 impacto + reacreción: B-COND
+                 Theia/geometría exactas: D–E
+```
+
+Véase `INV-MOON-ORIGIN-001` en `02_formacion_tierra`, su mapa en `assets/visuales/mapa-investigacion-008.svg` y la matriz en `assets/visuales/restricciones-origen-luna.svg`.
