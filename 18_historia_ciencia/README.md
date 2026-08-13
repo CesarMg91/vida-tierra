@@ -23,3 +23,4 @@ Historia de cómo se reconstruyó la historia: creencias previas, evidencia disr
 - [`HISTORIA_020_SNOWBALL_EARTH.md`](HISTORIA_020_SNOWBALL_EARTH.md): de diamictitas tropicales y la hipótesis de Kirschvink a geocronología de alta precisión, modelos climáticos competidores y refugios locales.
 - [`HISTORIA_021_EDIACARA.md`](HISTORIA_021_EDIACARA.md): de medusoides precámbricos y frondas a tafonomía, superficies censales, biomarcadores y afinidades evaluadas por taxón.
 - [`HISTORIA_022_RADIACION_CAMBRICA.md`](HISTORIA_022_RADIACION_CAMBRICA.md): de la dificultad de Darwin y los “monstruos” de Burgess a grupos tallo, relojes desacoplados, geocronología de alta precisión y radiaciones sucesivas.
+- [`HISTORIA_023_RADIACION_ORDOVICICA.md`](HISTORIA_023_RADIACION_ORDOVICICA.md): de Lapworth y las faunas evolutivas a bases globales, proxies de clima/redox, criptosporas y cronología de dos pulsos terminales.

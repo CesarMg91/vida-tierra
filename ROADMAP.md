@@ -72,7 +72,7 @@ Una investigación pasa de `EN_DESARROLLO` a `AUDITADO` cuando:
 | Orden | ID | Periodo/pregunta central |
 |---:|---|---|
 | 022 | `INV-CAMBRIAN-001` | [¿Fue súbita la radiación cámbrica o está comprimida por el registro?](06_paleozoico/INVESTIGACION_022_RADIACION_CAMBRICA.md) — **AUDITADO** |
-| 023 | `INV-ORDOVICIAN-001` | diversificación marina, primeras tierras y extinción |
+| 023 | `INV-ORDOVICIAN-001` | [¿Fue la radiación ordovícica un evento global y qué terminó con ella?](06_paleozoico/INVESTIGACION_023_RADIACION_ORDOVICICA.md) — **AUDITADO** |
 | 024 | `INV-SILURIAN-001` | plantas vasculares, artrópodos y costas |
 | 025 | `INV-DEVONIAN-001` | bosques, peces y transición agua–tierra |
 | 026 | `INV-CARBONIFEROUS-001` | carbón, oxígeno, gigantismo y amniotas |
@@ -160,6 +160,7 @@ Después de disponer de la secuencia base:
 - `v0.1.19`: Investigación 020 + historia de Snowball Earth + mapa de archivos independientes y cadena diamictita–modelo climático.
 - `v0.1.20`: Investigación 021 + historia de la biota ediacárica + mapa por taxón y cadena impresión–afinidad.
 - `v0.1.21`: Investigación 022 + historia de la radiación cámbrica + mapa de relojes/archivos y cadena aparición–radiación.
+- `v0.1.22`: Investigación 023 + historia de la GOBE/LOME + mapa de tres archivos y cadena ocurrencia–biodiversificación.
 - `v0.2`: Hadeano/Arcaico auditados.
 - `v0.3`: Proterozoico y origen/temprana evolución de la vida.
 - `v0.4`: Fanerozoico completo.

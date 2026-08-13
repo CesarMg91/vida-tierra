@@ -1,0 +1,131 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">De ocurrencias fósiles a una hipótesis de biodiversificación</title>
+  <desc id="desc">Cadena de inferencia que parte de fósiles localizados, pasa por contexto, identificación, tiempo, detectabilidad, métricas de diversidad y ecospace, y llega a pruebas causales. Tres compuertas impiden confundir muestra con biosfera, correlación con sincronía y coincidencia con causa.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#081522"/>
+      <stop offset="1" stop-color="#201a27"/>
+    </linearGradient>
+    <linearGradient id="card" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#183746"/>
+      <stop offset="1" stop-color="#102631"/>
+    </linearGradient>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0 10 5 0 10z" fill="#73d4db"/>
+    </marker>
+    <marker id="arrow2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0 10 5 0 10z" fill="#e7b96b"/>
+    </marker>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="7" stdDeviation="8" flood-color="#000" flood-opacity="0.35"/>
+    </filter>
+    <style>
+      .sans { font-family: Inter, "Segoe UI", Arial, sans-serif; }
+      .title { font-size: 45px; font-weight: 750; fill: #f2f6f5; letter-spacing: -0.6px; }
+      .subtitle { font-size: 20px; fill: #b8cbd0; }
+      .num { font-size: 16px; font-weight: 800; fill: #081522; }
+      .head { font-size: 23px; font-weight: 720; fill: #f3f5f2; }
+      .body { font-size: 16px; fill: #c5d4d5; }
+      .gate { font-size: 16px; font-weight: 750; letter-spacing: 1.2px; fill: #f4c97d; }
+      .gateSmall { font-size: 12px; fill: #c7d1d2; }
+      .small { font-size: 15px; fill: #aebfc3; }
+      .kicker { font-size: 16px; font-weight: 700; letter-spacing: 2px; fill: #75d7dc; }
+    </style>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <circle cx="1470" cy="100" r="220" fill="#356575" opacity="0.12"/>
+  <circle cx="90" cy="840" r="250" fill="#7c3e59" opacity="0.10"/>
+
+  <g class="sans">
+    <text x="80" y="72" class="kicker">CADENA DE INFERENCIA · INVESTIGACIÓN 023</text>
+    <text x="80" y="128" class="title">De ocurrencias fósiles a una biodiversificación</text>
+    <text x="80" y="166" class="subtitle">Cada paso añade información, pero también supuestos que deben quedar visibles.</text>
+
+    <path d="M280 315 H405" stroke="#73d4db" stroke-width="3" marker-end="url(#arrow)"/>
+    <path d="M655 315 H780" stroke="#73d4db" stroke-width="3" marker-end="url(#arrow)"/>
+    <path d="M1030 315 H1155" stroke="#73d4db" stroke-width="3" marker-end="url(#arrow)"/>
+    <path d="M1280 405 V500" stroke="#e7b96b" stroke-width="3" marker-end="url(#arrow2)"/>
+    <path d="M1155 605 H1030" stroke="#73d4db" stroke-width="3" marker-end="url(#arrow)"/>
+    <path d="M780 605 H655" stroke="#73d4db" stroke-width="3" marker-end="url(#arrow)"/>
+    <path d="M405 605 H280" stroke="#73d4db" stroke-width="3" marker-end="url(#arrow)"/>
+
+    <g filter="url(#shadow)">
+      <rect x="70" y="225" width="210" height="180" rx="22" fill="url(#card)" stroke="#3b7181"/>
+      <rect x="405" y="225" width="250" height="180" rx="22" fill="url(#card)" stroke="#3b7181"/>
+      <rect x="780" y="225" width="250" height="180" rx="22" fill="url(#card)" stroke="#3b7181"/>
+      <rect x="1155" y="225" width="250" height="180" rx="22" fill="url(#card)" stroke="#3b7181"/>
+      <rect x="1155" y="515" width="250" height="180" rx="22" fill="url(#card)" stroke="#7d6540"/>
+      <rect x="780" y="515" width="250" height="180" rx="22" fill="url(#card)" stroke="#7d6540"/>
+      <rect x="405" y="515" width="250" height="180" rx="22" fill="url(#card)" stroke="#7d6540"/>
+      <rect x="70" y="515" width="210" height="180" rx="22" fill="#35212b" stroke="#99536d"/>
+    </g>
+
+    <g>
+      <circle cx="105" cy="258" r="18" fill="#73d4db"/><text x="105" y="264" text-anchor="middle" class="num">1</text>
+      <text x="96" y="302" class="head">Ocurrencia</text>
+      <text x="96" y="337" class="body">fósil + coordenada</text>
+      <text x="96" y="363" class="body">+ colección</text>
+      <text x="96" y="388" class="small">No es un censo.</text>
+
+      <circle cx="440" cy="258" r="18" fill="#73d4db"/><text x="440" y="264" text-anchor="middle" class="num">2</text>
+      <text x="431" y="302" class="head">Contexto</text>
+      <text x="431" y="337" class="body">facies · roca · área</text>
+      <text x="431" y="363" class="body">esfuerzo · preservación</text>
+      <text x="431" y="388" class="small">La ventana selecciona.</text>
+
+      <circle cx="815" cy="258" r="18" fill="#73d4db"/><text x="815" y="264" text-anchor="middle" class="num">3</text>
+      <text x="806" y="302" class="head">Identidad</text>
+      <text x="806" y="337" class="body">taxón · sinonimia</text>
+      <text x="806" y="363" class="body">rasgo · gremio</text>
+      <text x="806" y="388" class="small">Revisión cambia conteos.</text>
+
+      <circle cx="1190" cy="258" r="18" fill="#73d4db"/><text x="1190" y="264" text-anchor="middle" class="num">4</text>
+      <text x="1181" y="302" class="head">Tiempo</text>
+      <text x="1181" y="337" class="body">biozona · ceniza</text>
+      <text x="1181" y="363" class="body">correlación · duración</text>
+      <text x="1181" y="388" class="small">Capa ≠ nodo evolutivo.</text>
+
+      <circle cx="1190" cy="548" r="18" fill="#e7b96b"/><text x="1190" y="554" text-anchor="middle" class="num">5</text>
+      <text x="1181" y="592" class="head">Detectabilidad</text>
+      <text x="1181" y="627" class="body">estandarización</text>
+      <text x="1181" y="653" class="body">submuestreo · modelos</text>
+      <text x="1181" y="678" class="small">Corregir no recrea todo.</text>
+
+      <circle cx="815" cy="548" r="18" fill="#e7b96b"/><text x="815" y="554" text-anchor="middle" class="num">6</text>
+      <text x="806" y="592" class="head">Curvas</text>
+      <text x="806" y="627" class="body">riqueza · origen</text>
+      <text x="806" y="653" class="body">extinción · endemicidad</text>
+      <text x="806" y="678" class="small">Métrica + intervalo.</text>
+
+      <circle cx="440" cy="548" r="18" fill="#e7b96b"/><text x="440" y="554" text-anchor="middle" class="num">7</text>
+      <text x="431" y="592" class="head">Ecología</text>
+      <text x="431" y="627" class="body">ecospace · tiering</text>
+      <text x="431" y="653" class="body">plankton · arrecifes</text>
+      <text x="431" y="678" class="small">No equivale a riqueza.</text>
+
+      <circle cx="105" cy="548" r="18" fill="#e69caf"/><text x="105" y="554" text-anchor="middle" class="num">8</text>
+      <text x="96" y="592" class="head">Causa</text>
+      <text x="96" y="627" class="body">predicción + desfase</text>
+      <text x="96" y="653" class="body">control + alternativa</text>
+      <text x="96" y="678" class="small">Coincidir no basta.</text>
+    </g>
+
+    <rect x="287" y="282" width="111" height="66" rx="14" fill="#2d2730" stroke="#e7b96b"/>
+    <text x="342.5" y="308" text-anchor="middle" class="gate">PUERTA 1</text>
+    <text x="342.5" y="333" text-anchor="middle" class="gateSmall">muestra ≠ biosfera</text>
+
+    <rect x="1037" y="282" width="111" height="66" rx="14" fill="#2d2730" stroke="#e7b96b"/>
+    <text x="1092.5" y="308" text-anchor="middle" class="gate">PUERTA 2</text>
+    <text x="1092.5" y="333" text-anchor="middle" class="gateSmall">edad ≠ sincronía</text>
+
+    <rect x="287" y="572" width="111" height="66" rx="14" fill="#2d2730" stroke="#e7b96b"/>
+    <text x="342.5" y="598" text-anchor="middle" class="gate">PUERTA 3</text>
+    <text x="342.5" y="623" text-anchor="middle" class="gateSmall">patrón ≠ causa</text>
+
+    <rect x="70" y="760" width="1335" height="86" rx="22" fill="#111f29" stroke="#455b66"/>
+    <text x="100" y="796" class="kicker" fill="#b9cbd0">RESULTADO AUDITABLE</text>
+    <text x="100" y="827" class="body">Una radiación se sostiene cuando patrones taxonómicos y ecológicos persisten bajo correcciones y sus causas hacen predicciones separables.</text>
+    <text x="1440" y="797" class="kicker" fill="#e69caf">LÍMITE</text>
+    <text x="1440" y="827" class="small">Nunca un censo total.</text>
+  </g>
+</svg>

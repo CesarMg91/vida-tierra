@@ -205,6 +205,22 @@ Este archivo es el índice canónico. La letra de confianza califica exactamente
 | `CLAIM-CAMBRIAN-DEVELOPMENT-001` | Capacidades regulatorias animales precedieron la fase fósil principal y las tasas tempranas se aceleraron; genes presentes no prueban por sí solos causa ni fecha. | C | AUDITADO | `EVID-CAMBRIAN-GENOMICS-001` | `INV-CAMBRIAN-001` |
 | `CLAIM-CAMBRIAN-ENVIRONMENT-001` | Oxígeno y nutrientes habilitaron y modularon hábitats, pero sus fluctuaciones estuvieron acopladas a biología y no constituyen una causa suficiente única. | B-COND condición; C-D pesos | AUDITADO | `EVID-CAMBRIAN-REDOX-001` | `INV-CAMBRIAN-001` |
 | `CLAIM-CAMBRIAN-TURNOVER-001` | Extinciones como Sinsk separaron fases y redistribuyeron tallos y coronas; su alcance global y mecanismo permanecen abiertos. | B local; C global | AUDITADO | `EVID-CAMBRIAN-TURNOVER-001` | `INV-CAMBRIAN-001` |
+| `CLAIM-ORDOVICIAN-SCOPE-001` | La GOBE agrupa radiaciones marinas pelágicas, bentónicas, arrecifales y biogeográficas sucesivas; no fue un evento único ni sincrónico. | A-SEM; B proceso plural | AUDITADO | conjunto `EVID-ORDOVICIAN-*` | `INV-ORDOVICIAN-001` |
+| `CLAIM-ORDOVICIAN-BOUNDARY-001` | La base formal del Ordovícico en Green Point, asociada a la FAD de `Iapetognathus fluctivagus`, define una unidad y no el inicio de la GOBE. | A límite; B edad | AUDITADO | `EVID-ORDOVICIAN-BOUNDARY-001` | `INV-ORDOVICIAN-001` |
+| `CLAIM-ORDOVICIAN-CHRONOLOGY-001` | Las expansiones planctónica, bentónica y arrecifal se solaparon pero alcanzaron máximos en intervalos diferentes del Cámbrico tardío al Ordovícico tardío. | B | AUDITADO | `EVID-ORDOVICIAN-OCCURRENCES-001`, `EVID-ORDOVICIAN-ECOLOGY-001` | `INV-ORDOVICIAN-001` |
+| `CLAIM-ORDOVICIAN-DIVERSITY-001` | Un gran aumento de riqueza marina ordovícica persiste entre clados, regiones y métodos, aunque ninguna curva es un censo global de organismos vivos. | A-B | AUDITADO | `EVID-ORDOVICIAN-OCCURRENCES-001`, `EVID-ORDOVICIAN-SAMPLING-001` | `INV-ORDOVICIAN-001` |
+| `CLAIM-ORDOVICIAN-SAMPLING-001` | Magnitud, inicio y velocidad de la señal dependen de roca, colecciones, taxonomía, facies, paleocontinente y duración de intervalos. | A para sesgo; B-COND para corrección | AUDITADO | `EVID-ORDOVICIAN-SAMPLING-001` | `INV-ORDOVICIAN-001` |
+| `CLAIM-ORDOVICIAN-ECOLOGY-001` | Durante el Ordovícico aumentaron la ocupación de ecospace, tiering, suspensión, depredación y construcción de hábitat; riqueza, disparidad, biomasa y función no son intercambiables. | B | AUDITADO | `EVID-ORDOVICIAN-ECOLOGY-001` | `INV-ORDOVICIAN-001` |
+| `CLAIM-ORDOVICIAN-PLANKTON-001` | La diversificación planctónica amplió la columna de agua y redes tróficas antes o durante varios pulsos bentónicos, sin medir por sí sola productividad global. | B para radiación; C-COND para mecanismo trófico | AUDITADO | `EVID-ORDOVICIAN-PLANKTON-001` | `INV-ORDOVICIAN-001` |
+| `CLAIM-ORDOVICIAN-REEFS-001` | Arrecifes ordovícicos diversos añadieron relieve y nichos en pulsos regionales; fueron amplificadores además de posibles efectos de la diversificación. | B-COND | AUDITADO | `EVID-ORDOVICIAN-REEFS-001` | `INV-ORDOVICIAN-001` |
+| `CLAIM-ORDOVICIAN-BIOGEOGRAPHY-001` | Provincialismo, inmigración y área de plataforma contribuyeron al patrón global; la suma de paleocontinentes oculta dinámicas locales distintas. | B-COND | AUDITADO | `EVID-ORDOVICIAN-OCCURRENCES-001`, `EVID-ORDOVICIAN-SAMPLING-001` | `INV-ORDOVICIAN-001` |
+| `CLAIM-ORDOVICIAN-CLIMATE-001` | El enfriamiento prolongado amplió espacio térmico habitable y contribuyó a la radiación, pero no fija por sí solo el mecanismo que redujo `CO₂` ni los pesos causales. | B-COND | AUDITADO | `EVID-ORDOVICIAN-CLIMATE-001` | `INV-ORDOVICIAN-001` |
+| `CLAIM-ORDOVICIAN-OXYGEN-001` | La disponibilidad y estabilidad de oxígeno modularon hábitats a escalas regionales y oceánicas distintas; no se observa un interruptor mundial único. | B-COND modulación; D causa única | AUDITADO | `EVID-ORDOVICIAN-REDOX-001` | `INV-ORDOVICIAN-001` |
+| `CLAIM-ORDOVICIAN-TERRESTRIAL-001` | Criptosporas de `~473–471 Ma` sostienen vida terrestre de grado embriofítico y trazas tardías sostienen actividad animal no marina, sin probar bosques, flora vascular ni productor corporal. | B-COND plantas; C animales | AUDITADO | `EVID-ORDOVICIAN-TERRESTRIAL-001` | `INV-ORDOVICIAN-001` |
+| `CLAIM-ORDOVICIAN-METEOR-001` | La ruptura del progenitor de condritas L cerca de `468.0 ± 0.3 Ma` produjo gran flujo extraterrestre, pero ocurrió después de iniciada la radiación principal y no explica la GOBE completa. | A-B evento; E causa única | AUDITADO | `EVID-ORDOVICIAN-METEOR-001` | `INV-ORDOVICIAN-001` |
+| `CLAIM-ORDOVICIAN-LOME-PULSES-001` | La extinción del final del Ordovícico tuvo dos fases rápidas de renovación; duración, magnitud y sincronía exactas dependen de sección, correlación y base de datos. | B dos fases; C bordes | AUDITADO | `EVID-ORDOVICIAN-LOME-GEOCHRON-001`, `EVID-ORDOVICIAN-LOME-SELECTIVITY-001` | `INV-ORDOVICIAN-001` |
+| `CLAIM-ORDOVICIAN-LOME-CAUSES-001` | Enfriamiento, glaciación, eustasia, calentamiento y anoxia/euxinia formaron una crisis acoplada; los pesos y mecanismos de mortalidad variaron entre pulsos y cuencas. | B-COND marco; C-D pesos | AUDITADO | `EVID-ORDOVICIAN-LOME-SELECTIVITY-001`, `EVID-ORDOVICIAN-LOME-REDOX-001` | `INV-ORDOVICIAN-001` |
+| `CLAIM-ORDOVICIAN-RECOVERY-001` | La recuperación posterior fue distinta según riqueza, composición y ecospace: algunas arquitecturas persistieron mientras la riqueza tardó decenas de millones de años bajo ciertas métricas. | B-COND | AUDITADO | `EVID-ORDOVICIAN-OCCURRENCES-001`, `EVID-ORDOVICIAN-ECOLOGY-001` | `INV-ORDOVICIAN-001` |
 
 ## Fichas resumidas
 
@@ -1235,6 +1251,120 @@ Este archivo es el índice canónico. La letra de confianza califica exactamente
 - **Puente:** rangos y rasgos separan radiación, pérdida y recuperación.
 - **Límite:** correlación, facies y globalidad del evento.
 - **Confianza:** `B` local; `C` global.
+
+## Investigación 023 — Radiación ordovícica y crisis terminal
+
+### CLAIM-ORDOVICIAN-SCOPE-001
+
+- **Dato/definición:** clados, gremios, paleoplacas y arrecifes producen cronologías parcialmente desacopladas.
+- **Puente:** GOBE es una etiqueta para la suma de radiaciones, no una capa o variable universal.
+- **No afirma:** una sola fecha, curva o causa.
+- **Confianza:** `A-SEM`; `B` para pluralidad.
+
+### CLAIM-ORDOVICIAN-BOUNDARY-001
+
+- **Dato:** Green Point fija el GSSP mediante la FAD local de `Iapetognathus fluctivagus`; ICS asigna `486.85 ± 1.5 Ma`.
+- **Puente:** el horizonte ratificado define la base aunque la calibración numérica pueda revisarse.
+- **No afirma:** origen del conodonto o comienzo de la biodiversificación.
+- **Confianza:** `A` límite; `B` edad.
+
+### CLAIM-ORDOVICIAN-CHRONOLOGY-001
+
+- **Dato:** microfósiles pelágicos, bentos y arrecifes aumentan en órdenes y regiones distintos.
+- **Puente:** rangos y correlaciones reconstruyen olas solapadas.
+- **Límite:** bordes dependen de grupo, bin y definición amplia o estrecha.
+- **Confianza:** `B`.
+
+### CLAIM-ORDOVICIAN-DIVERSITY-001
+
+- **Dato:** varias compilaciones recuperan un aumento grande de riqueza marina.
+- **Puente:** persistencia bajo clados y métodos distintos favorece señal biológica real.
+- **No afirma:** número absoluto de organismos o especies globales vivas.
+- **Confianza:** `A-B`.
+
+### CLAIM-ORDOVICIAN-SAMPLING-001
+
+- **Dato:** roca, colecciones, facies, taxonomía y duración del bin covarían con ocurrencias.
+- **Puente:** estandarización y modelos comparan cuánto cambia la curva al controlar detectabilidad.
+- **Límite:** ningún ajuste recupera lo no preservado ni vuelve global una paleoplaca.
+- **Confianza:** `A` para sesgos; `B-COND` para correcciones.
+
+### CLAIM-ORDOVICIAN-ECOLOGY-001
+
+- **Dato:** rasgos funcionales muestran más tiering, pelagicidad, suspensión, depredación y construcción.
+- **Puente:** ecospace y morfología comparados documentan reorganización además de riqueza.
+- **No afirma:** biomasa global ni disparidad idéntica en todo clado.
+- **Confianza:** `B`.
+
+### CLAIM-ORDOVICIAN-PLANKTON-001
+
+- **Dato:** acritárquidos, graptolitos, conodontos y otros componentes pelágicos amplían sus rangos/diversidad.
+- **Puente:** redes y exportación de carbono hacen plausible una retroalimentación con suspensívoros.
+- **Límite:** morfotipos no miden directamente productividad o flujo global.
+- **Confianza:** `B` radiación; `C-COND` mecanismo.
+
+### CLAIM-ORDOVICIAN-REEFS-001
+
+- **Dato:** asociaciones de microbios, esponjas, briozoos, algas y corales tempranos crecen regionalmente.
+- **Puente:** relieve, sustrato duro y flujo generan nuevos microhábitats.
+- **Límite:** constructor, edad y preservación varían; no son arrecifes modernos.
+- **Confianza:** `B-COND`.
+
+### CLAIM-ORDOVICIAN-BIOGEOGRAPHY-001
+
+- **Dato:** paleocontinentes muestran curvas distintas y eventos de inmigración.
+- **Puente:** aislamiento, área de plataforma y dispersión conectan diversidad local, beta y global.
+- **No afirma:** que tectónica determine por sí sola origination.
+- **Confianza:** `B-COND`.
+
+### CLAIM-ORDOVICIAN-CLIMATE-001
+
+- **Dato:** apatito de conodontos y modelos recuperan enfriamiento prolongado y expansión de nichos térmicos.
+- **Puente:** temperatura modifica metabolismo, solubilidad de oxígeno, circulación y gradientes.
+- **Límite:** fisiología moderna, paleogeografía y causa de retiro de `CO₂` son modeladas.
+- **Confianza:** `B-COND`.
+
+### CLAIM-ORDOVICIAN-OXYGEN-001
+
+- **Dato:** C/S, `δ238U` e `I/Ca` registran historias globales y locales que no coinciden punto por punto.
+- **Puente:** la escala de cada proxy delimita oxigenación, estabilidad o mezcla regional.
+- **No afirma:** ascenso global sincrónico o suficiencia causal.
+- **Confianza:** `B-COND` modulación; `D` interruptor.
+
+### CLAIM-ORDOVICIAN-TERRESTRIAL-001
+
+- **Dato:** criptosporas dapingienses y trazas tardías aparecen en contextos terrestres.
+- **Puente:** pared/geometría y sedimentología identifican productores embriofíticos probables y actividad animal mínima.
+- **Límite:** cuerpos, cobertura, permanencia y nodo exacto no se preservan.
+- **Confianza:** `B-COND` plantas; `C` animales.
+
+### CLAIM-ORDOVICIAN-METEOR-001
+
+- **Dato:** cromita, meteoritos fósiles y edades sitúan la ruptura L cerca de `468.0 ± 0.3 Ma`.
+- **Puente:** polvo pudo forzar clima sólo bajo una carga, duración y respuesta radiativa cuantificadas.
+- **Límite:** la radiación principal ya estaba en marcha; solapamiento regional no prueba causa global.
+- **Confianza:** `A-B` evento; `E` causa única de GOBE.
+
+### CLAIM-ORDOVICIAN-LOME-PULSES-001
+
+- **Dato:** rangos y una cronología CA-ID-TIMS de South China resuelven dos fases terminales.
+- **Puente:** desapariciones correlacionadas separan renovación biológica de un único límite formal.
+- **Límite:** duraciones locales/modeladas y magnitud dependiente del denominador.
+- **Confianza:** `B` dos fases; `C` bordes globales.
+
+### CLAIM-ORDOVICIAN-LOME-CAUSES-001
+
+- **Dato:** selectividad térmica/de hábitat y proxies redox coinciden con glaciación, eustasia, calentamiento y anoxia variables.
+- **Puente:** una secuencia clima–plataforma–nutrientes–oxígeno produce estresores distintos.
+- **No afirma:** un mecanismo de mortalidad o un reparto idéntico entre cuencas.
+- **Confianza:** `B-COND` marco; `C-D` pesos.
+
+### CLAIM-ORDOVICIAN-RECOVERY-001
+
+- **Dato:** curvas taxonómicas y ecospace responden en ritmos diferentes tras la crisis.
+- **Puente:** separar composición, riqueza y función evita llamar recuperación a una sola métrica.
+- **Límite:** bases y escalas regionales cambian la duración estimada.
+- **Confianza:** `B-COND`.
 
 ## Claims futuros
 
