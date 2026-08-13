@@ -1,0 +1,123 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1050" role="img" aria-labelledby="title desc">
+  <title id="title">Cronología sincronizada CIV-001 por carriles regionales</title>
+  <desc id="desc">Selección comparativa de contextos entre 23 mil y 3 mil años calibrados antes del presente en cinco carriles regionales. Las marcas no representan primeros universales.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#081522"/>
+      <stop offset="1" stop-color="#10273a"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-30%" width="140%" height="160%">
+      <feDropShadow dx="0" dy="7" stdDeviation="9" flood-color="#02080d" flood-opacity="0.35"/>
+    </filter>
+    <style>
+      .title{font:700 43px system-ui,-apple-system,"Segoe UI",sans-serif;fill:#f4f8fb}
+      .subtitle{font:400 20px system-ui,-apple-system,"Segoe UI",sans-serif;fill:#b8c8d5}
+      .axis{font:600 16px system-ui,-apple-system,"Segoe UI",sans-serif;fill:#a9bbc9}
+      .lane{font:700 20px system-ui,-apple-system,"Segoe UI",sans-serif;fill:#f6f9fb}
+      .event{font:700 16px system-ui,-apple-system,"Segoe UI",sans-serif;fill:#f8fbfd}
+      .detail{font:500 14px system-ui,-apple-system,"Segoe UI",sans-serif;fill:#d7e3ea}
+      .note{font:500 16px system-ui,-apple-system,"Segoe UI",sans-serif;fill:#ffd9ae}
+      .grid{stroke:#365166;stroke-width:1;stroke-dasharray:5 8}
+      .base{stroke:#61798b;stroke-width:2}
+    </style>
+  </defs>
+
+  <rect width="1600" height="1050" fill="url(#bg)"/>
+  <circle cx="1460" cy="80" r="230" fill="#3e8190" opacity="0.11"/>
+  <text x="80" y="76" class="title">CIV-001 · sincronizar sin declarar “el primero”</text>
+  <text x="80" y="114" class="subtitle">Ventanas aproximadas en ka cal BP; cada bloque conserva su método, escala y margen propios.</text>
+
+  <g transform="translate(300 160)">
+    <line x1="0" y1="0" x2="1200" y2="0" class="base"/>
+    <g class="axis" text-anchor="middle">
+      <text x="0" y="-17">23</text>
+      <text x="480" y="-17">15</text>
+      <text x="678" y="-17">11,7</text>
+      <text x="900" y="-17">8</text>
+      <text x="1080" y="-17">5</text>
+      <text x="1200" y="-17">3</text>
+    </g>
+    <text x="1200" y="-47" text-anchor="end" class="axis">miles de años calibrados antes de 1950</text>
+    <g>
+      <line x1="0" y1="0" x2="0" y2="760" class="grid"/>
+      <line x1="480" y1="0" x2="480" y2="760" class="grid"/>
+      <line x1="678" y1="0" x2="678" y2="760" class="grid"/>
+      <line x1="900" y1="0" x2="900" y2="760" class="grid"/>
+      <line x1="1080" y1="0" x2="1080" y2="760" class="grid"/>
+      <line x1="1200" y1="0" x2="1200" y2="760" class="grid"/>
+    </g>
+  </g>
+
+  <g filter="url(#shadow)">
+    <g transform="translate(70 205)">
+      <rect width="1460" height="126" rx="18" fill="#122d42" stroke="#315a75"/>
+      <text x="28" y="43" class="lane">Suroeste de Asia</text>
+      <text x="28" y="72" class="detail">residencia · almacenamiento</text>
+      <rect x="225" y="22" width="86" height="82" rx="12" fill="#1b607a"/>
+      <text x="268" y="51" text-anchor="middle" class="event">Ohalo II</text>
+      <text x="268" y="76" text-anchor="middle" class="detail">≈23 ka</text>
+      <rect x="690" y="22" width="142" height="82" rx="12" fill="#1b607a"/>
+      <text x="761" y="49" text-anchor="middle" class="event">ʿAin Mallaha</text>
+      <text x="761" y="74" text-anchor="middle" class="detail">≈15 ka · ratones</text>
+      <rect x="880" y="22" width="154" height="82" rx="12" fill="#3f6a4f"/>
+      <text x="957" y="49" text-anchor="middle" class="event">Dhra’</text>
+      <text x="957" y="74" text-anchor="middle" class="detail">11,30–11,18 ka</text>
+    </g>
+
+    <g transform="translate(70 347)">
+      <rect width="1460" height="126" rx="18" fill="#122d42" stroke="#315a75"/>
+      <text x="28" y="43" class="lane">Nilo y noreste de África</text>
+      <text x="28" y="72" class="detail">cronología política modelada</text>
+      <rect x="1248" y="22" width="166" height="82" rx="12" fill="#6c4e78"/>
+      <text x="1331" y="49" text-anchor="middle" class="event">Egipto temprano</text>
+      <text x="1331" y="74" text-anchor="middle" class="detail">≈5,1 ka · modelo</text>
+    </g>
+
+    <g transform="translate(70 489)">
+      <rect width="1460" height="126" rx="18" fill="#122d42" stroke="#315a75"/>
+      <text x="28" y="43" class="lane">Asia oriental</text>
+      <text x="28" y="72" class="detail">trayectoria de domesticación</text>
+      <rect x="1294" y="22" width="130" height="82" rx="12" fill="#3f6a4f"/>
+      <text x="1359" y="49" text-anchor="middle" class="event">Tianluoshan</text>
+      <text x="1359" y="74" text-anchor="middle" class="detail">6,9–6,6 ka</text>
+    </g>
+
+    <g transform="translate(70 631)">
+      <rect width="1460" height="126" rx="18" fill="#122d42" stroke="#315a75"/>
+      <text x="28" y="43" class="lane">Nueva Guinea</text>
+      <text x="28" y="72" class="detail">manejo · cultivo · drenaje</text>
+      <rect x="1020" y="18" width="168" height="90" rx="12" fill="#3f6a4f"/>
+      <text x="1104" y="45" text-anchor="middle" class="event">Kuk · fase 1</text>
+      <text x="1104" y="69" text-anchor="middle" class="detail">10,22–9,91 ka</text>
+      <text x="1104" y="91" text-anchor="middle" class="detail">cultivo inferido</text>
+      <rect x="1285" y="18" width="139" height="90" rx="12" fill="#3f6a4f"/>
+      <text x="1354" y="45" text-anchor="middle" class="event">Kuk · fase 2</text>
+      <text x="1354" y="69" text-anchor="middle" class="detail">6,95–6,44 ka</text>
+      <text x="1354" y="91" text-anchor="middle" class="detail">montículos</text>
+    </g>
+
+    <g transform="translate(70 773)">
+      <rect width="1460" height="126" rx="18" fill="#122d42" stroke="#315a75"/>
+      <text x="28" y="43" class="lane">Américas</text>
+      <text x="28" y="72" class="detail">plantas · monumentos</text>
+      <rect x="1032" y="18" width="150" height="90" rx="12" fill="#3f6a4f"/>
+      <text x="1107" y="45" text-anchor="middle" class="event">Guilá Naquitz</text>
+      <text x="1107" y="69" text-anchor="middle" class="detail">10–8 ka</text>
+      <text x="1107" y="91" text-anchor="middle" class="detail">Cucurbita</text>
+      <rect x="1320" y="18" width="104" height="90" rx="12" fill="#8a5d35"/>
+      <text x="1372" y="45" text-anchor="middle" class="event">Norte Chico</text>
+      <text x="1372" y="69" text-anchor="middle" class="detail">5–3,8 ka</text>
+      <text x="1372" y="91" text-anchor="middle" class="detail">centros</text>
+    </g>
+  </g>
+
+  <g transform="translate(70 925)">
+    <rect width="1460" height="76" rx="16" fill="#2f2925" stroke="#a36d42"/>
+    <text x="28" y="31" class="note">Mesopotamia urbana, ampliada para legibilidad:</text>
+    <text x="397" y="31" class="detail">Tell Brak · fines del V milenio a. e. c.</text>
+    <text x="820" y="31" class="detail">Uruk IV / tablilla P003414 · ≈3350–3200 a. e. c.</text>
+    <text x="28" y="57" class="detail">La escala superior comprime los milenios recientes; las etiquetas conservan los intervalos publicados.</text>
+  </g>
+
+  <text x="800" y="1030" text-anchor="middle" class="subtitle">Selección de expedientes comparables; no catálogo exhaustivo ni lista de “primeras civilizaciones”.</text>
+</svg>
