@@ -18,3 +18,4 @@ Historia de cómo se reconstruyó la historia: creencias previas, evidencia disr
 - [`HISTORIA_015_GRAN_OXIDACION.md`](HISTORIA_015_GRAN_OXIDACION.md): de minerales detríticos y capas rojas a `S‑MIF`, testigos continuos, memoria crustal y proxies separados para aire y océano.
 - [`HISTORIA_016_LUCA.md`](HISTORIA_016_LUCA.md): del bloque procariota al `rRNA`, la raíz por parálogos, la prueba formal de ascendencia común y los inventarios probabilísticos de LUCA.
 - [`HISTORIA_017_EUCARIOGENESIS.md`](HISTORIA_017_EUCARIOGENESIS.md): de las semejanzas organelares y el DNA mitocondrial a Asgard, cultivos, criotomografía y filogenómica de dos genealogías integradas.
+- [`HISTORIA_018_SEXO.md`](HISTORIA_018_SEXO.md): de la fusión nuclear y reducción cromosómica a Spo11, fusógenos y la reconstrucción de un ciclo sexual anterior a LECA.

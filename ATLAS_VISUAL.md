@@ -234,6 +234,20 @@ El mapa conserva separadas cinco rutas: genealogía nuclear, piezas/células Asg
 
 La cadena hace explícitas transmisión, reducción, transferencia, importación y coordinación. Impide convertir contacto, un gen bacteriano, doble membrana o presencia en LECA en una película histórica.
 
+## 19. Investigación 018 — Origen y función evolutiva del sexo
+
+![Portada conceptual del origen del sexo](assets/visuales/hero-origen-sexo.png)
+
+> **Portada conceptual:** reúne células isógamas, aproximación y fusión de membranas, cromosomas homólogos, recombinación, productos haploides y un archivo fósil filamentoso. No muestra el primer ciclo, no identifica una pareja ancestral y no presupone macho/hembra.
+
+![Mapa de evidencia del origen del sexo](assets/visuales/mapa-investigacion-018.svg)
+
+El mapa conserva separadas seis rutas: bioquímica de Spo11/fusógenos, repertorio de LECA, ciclos crípticos, genómica poblacional, experimentos de mantenimiento y mínimo fósil. Compartir genes o modelos no vuelve independientes sus conclusiones.
+
+![Cadena desde intercambio genético hasta ciclo sexual](assets/visuales/de-intercambio-a-ciclo-sexual.svg)
+
+La cadena exige distinguir transferencia, recombinación, compatibilidad, fusión, ploidía y meiosis. Evita llamar sexo a cualquier mezcla de DNA y separa el ciclo ancestral probable de la anisogamia derivada.
+
 ## Procedencia
 
 El registro de creación, límites y prompt de cada pieza está en [`assets/visuales/README.md`](assets/visuales/README.md).
