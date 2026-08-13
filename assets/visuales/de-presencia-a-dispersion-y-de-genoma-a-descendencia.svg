@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Dos cadenas de inferencia para las salidas de África</title>
+  <desc id="desc">La cadena superior va del fósil y estrato a presencia y dispersión; la inferior va del genoma y los tramos a expansión y descendencia detectable. Ambas terminan con límites explícitos.</desc>
+  <defs>
+    <linearGradient id="bg2" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#101725"/><stop offset="1" stop-color="#1d2530"/></linearGradient>
+    <marker id="a2" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0 0L10 5L0 10z" fill="#7998aa"/></marker>
+    <style>
+      .title{font:700 38px system-ui,sans-serif;fill:#f3ead8}.lane{font:700 26px system-ui,sans-serif;fill:#e3c18e}.head{font:700 21px system-ui,sans-serif;fill:#f3ead8}.body{font:500 16px system-ui,sans-serif;fill:#cfdae1}.box{fill:#1c2c3d;stroke:#60879d;stroke-width:2}.out{fill:#243723;stroke:#91ad70;stroke-width:2}.limit{fill:#392824;stroke:#c5805f;stroke-width:2}.line{fill:none;stroke:#7998aa;stroke-width:3;marker-end:url(#a2)}.bridge{fill:none;stroke:#b3875a;stroke-width:2;stroke-dasharray:8 7}
+    </style>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg2)"/>
+  <text x="70" y="70" class="title">Dos archivos · dos inferencias · dos límites</text>
+
+  <text x="70" y="145" class="lane">A · Del fragmento a presencia y dispersión</text>
+  <g transform="translate(70 185)"><rect class="box" width="230" height="125" rx="16"/><text x="20" y="38" class="head">Fragmento</text><text x="20" y="70" class="body">procedencia</text><text x="20" y="96" class="body">anatomía preservada</text></g>
+  <path class="line" d="M300 247H350"/>
+  <g transform="translate(350 185)"><rect class="box" width="230" height="125" rx="16"/><text x="20" y="38" class="head">Reloj</text><text x="20" y="70" class="body">cuerpo o contexto</text><text x="20" y="96" class="body">intervalo + límite</text></g>
+  <path class="line" d="M580 247H630"/>
+  <g transform="translate(630 185)"><rect class="box" width="230" height="125" rx="16"/><text x="20" y="38" class="head">Asociación</text><text x="20" y="70" class="body">unidad e integridad</text><text x="20" y="96" class="body">taxón condicionado</text></g>
+  <path class="line" d="M860 247H910"/>
+  <g transform="translate(910 185)"><rect class="out" width="230" height="125" rx="16"/><text x="20" y="38" class="head">Presencia</text><text x="20" y="70" class="body">mínimo local</text><text x="20" y="96" class="body">en tiempo y región</text></g>
+  <path class="line" d="M1140 247H1190"/>
+  <g transform="translate(1190 185)"><rect class="out" width="230" height="125" rx="16"/><text x="20" y="38" class="head">Dispersión</text><text x="20" y="70" class="body">rango repetido</text><text x="20" y="96" class="body">entre localidades</text></g>
+  <path class="line" d="M1420 247H1460"/>
+  <g transform="translate(1390 330)"><rect class="limit" width="150" height="76" rx="14"/><text x="18" y="32" class="head">≠ conteo</text><text x="18" y="58" class="body">de cruces</text></g>
+  <path class="bridge" d="M1465 310V330"/>
+
+  <text x="70" y="505" class="lane">B · Del genoma a expansión y descendencia detectable</text>
+  <g transform="translate(70 545)"><rect class="box" width="230" height="125" rx="16"/><text x="20" y="38" class="head">Genoma</text><text x="20" y="70" class="body">autenticidad</text><text x="20" y="96" class="body">alelos + segmentos</text></g>
+  <path class="line" d="M300 607H350"/>
+  <g transform="translate(350 545)"><rect class="box" width="230" height="125" rx="16"/><text x="20" y="38" class="head">Comparación</text><text x="20" y="70" class="body">antiguos + actuales</text><text x="20" y="96" class="body">referencias arcaicas</text></g>
+  <path class="line" d="M580 607H630"/>
+  <g transform="translate(630 545)"><rect class="box" width="230" height="125" rx="16"/><text x="20" y="38" class="head">Modelo</text><text x="20" y="70" class="body">estructura + flujo</text><text x="20" y="96" class="body">tasas + detectores</text></g>
+  <path class="line" d="M860 607H910"/>
+  <g transform="translate(910 545)"><rect class="out" width="230" height="125" rx="16"/><text x="20" y="38" class="head">Expansión</text><text x="20" y="70" class="body">fase ancestral</text><text x="20" y="96" class="body">mayoritaria</text></g>
+  <path class="line" d="M1140 607H1190"/>
+  <g transform="translate(1190 545)"><rect class="out" width="230" height="125" rx="16"/><text x="20" y="38" class="head">Descendencia</text><text x="20" y="70" class="body">aporte detectable</text><text x="20" y="96" class="body">o no resuelto</text></g>
+  <g transform="translate(1390 690)"><rect class="limit" width="150" height="76" rx="14"/><text x="18" y="32" class="head">≠ cero</text><text x="18" y="58" class="body">biológico</text></g>
+  <path class="bridge" d="M1465 670V690"/>
+
+  <path class="bridge" d="M1025 310V545"/>
+  <g transform="translate(875 390)"><rect class="limit" width="300" height="80" rx="14"/><text x="20" y="32" class="head">El puente requiere un genoma</text><text x="20" y="59" class="body">presencia no entrega continuidad</text></g>
+  <text x="70" y="835" class="body">Lectura adversarial: el reloj fecha su objeto; el modelo entrega compatibilidad; «no detectable» conserva muestra, referencia y umbral.</text>
+</svg>

@@ -728,6 +728,26 @@ Este archivo es el índice canónico. La letra de confianza califica exactamente
 | `CLAIM-PAN-AFRICAN-NOT-PANMIXIA-001` | «Pan-africano» puede describir un registro distribuido sin implicar una población continental panmíctica o conectividad continua. | A-SEM; B aplicación | AUDITADO | `EVID-SAPIENS-ORIGIN-METHOD-001`, `EVID-WEAK-STEM-001` | `INV-SAPIENS-ORIGIN-001` |
 | `CLAIM-SAPIENS-ORIGIN-CONFIDENCE-001` | Origen africano recibe A–B; emergencia distribuida B; modelo estructural B-COND/C; región, número y cronología de tallos C–D. | A-SEM | AUDITADO | síntesis de `EVID-SAPIENS-*`, `EVID-JEBEL-*`, `EVID-OMO-*` | `INV-SAPIENS-ORIGIN-001` |
 | `CLAIM-SAPIENS-SAMPLING-BIAS-001` | Preservación, excavación y muestreo genómico sobrerrepresentan algunas cuencas y poblaciones; vacíos regionales no demuestran ausencia histórica. | A-SEM; B aplicación | AUDITADO | `EVID-SAPIENS-ORIGIN-METHOD-001`, `EVID-GENOME-DIVERSITY-PANEL-001` | `INV-SAPIENS-ORIGIN-001` |
+| `CLAIM-OOA-SCOPE-001` | Presencia fuera de África, movimiento, dispersión, expansión demográfica y descendencia detectable son resultados distintos. | A-SEM | AUDITADO | `EVID-OOA-METHOD-001` | `INV-SAPIENS-OoA-001` |
+| `CLAIM-OOA-MULTIPLE-DISPERSALS-001` | Fósiles y contextos de Misliya, Al Wusta y Asia sudoriental demuestran que hubo múltiples dispersiones sapiens fuera de África. | B | AUDITADO | `EVID-MISLIYA-001`, `EVID-AL-WUSTA-001`, `EVID-TAM-PA-LING-001`, `EVID-LIDA-AJER-001` | `INV-SAPIENS-OoA-001` |
+| `CLAIM-OOA-COUNT-LIMIT-001` | El registro no permite contar el total de cruces o salidas: un sitio, una fase, un pulso modelado y una población no son unidades equivalentes. | A-SEM; B aplicación | AUDITADO | `EVID-OOA-METHOD-001` | `INV-SAPIENS-OoA-001` |
+| `CLAIM-MISLIYA-PRESENCE-001` | Misliya-1 documenta una presencia sapiens en el Levante entre `194 y 177 ka`, sin continuidad posterior demostrada. | B-COND | AUDITADO | `EVID-MISLIYA-001` | `INV-SAPIENS-OoA-001` |
+| `CLAIM-APIDIMA-EARLY-OPEN-001` | Apidima 1 fue propuesto como sapiens de más de `210 ka`, pero fragmentación, reconstrucción y falta de contexto mantienen taxón y significado poblacional abiertos. | C-D | AUDITADO | `EVID-APIDIMA-001` | `INV-SAPIENS-OoA-001` |
+| `CLAIM-AL-WUSTA-PRESENCE-001` | La falange de Al Wusta documenta sapiens en Arabia interior aproximadamente entre `95 y 86 ka`; el paleolago no demuestra continuidad. | B-COND | AUDITADO | `EVID-AL-WUSTA-001` | `INV-SAPIENS-OoA-001` |
+| `CLAIM-TAM-PA-LING-PRESENCE-001` | Tam Pà Ling documenta sapiens en Laos al menos hacia `68 ka`, con un intervalo conservador del fósil más antiguo de `92–65 ka`. | B-COND | AUDITADO | `EVID-TAM-PA-LING-001` | `INV-SAPIENS-OoA-001` |
+| `CLAIM-LIDA-AJER-PRESENCE-001` | Dientes humanos y cronología de Lida Ajer apoyan presencia en Sumatra entre `73 y 63 ka`, con asociación estratigráfica condicionada. | C-COND | AUDITADO | `EVID-LIDA-AJER-001` | `INV-SAPIENS-OoA-001` |
+| `CLAIM-SAHUL-MINIMUM-LIMIT-001` | Madjedbebe propone ocupación hacia `65 ka`; incluso si se acepta, fija un mínimo de llegada a Sahul, no la fecha de salida africana o el linaje. | C-COND | AUDITADO | `EVID-SAHUL-EARLY-001` | `INV-SAPIENS-OoA-001` |
+| `CLAIM-OOA-MAJOR-ANCESTRY-001` | Una expansión aproximadamente entre `70 y 50 ka` aporta la gran mayoría de la ascendencia de las poblaciones no africanas actuales. | B-COND | AUDITADO | `EVID-OOA-GENOMIC-MAJOR-001`, `EVID-NEAND-ADMIXTURE-2024-001` | `INV-SAPIENS-OoA-001` |
+| `CLAIM-OOA-NEAND-CLOCK-001` | La mezcla neandertal compartida entre `50.5–43.5` o `49–45 ka` restringe una fase ancestral conectada, no la fecha ni ruta exactas de salida. | B-COND | AUDITADO | `EVID-NEAND-ADMIXTURE-2024-001` | `INV-SAPIENS-OoA-001` |
+| `CLAIM-EARLY-EURASIAN-LINEAGES-001` | Ranis/Zlatý kůň, Ust’-Ishim, Oase, Bacho Kiro y Tianyuan representan ramas tempranas con contribuciones posteriores distintas. | B-COND | AUDITADO | `EVID-RANIS-ZLATY-CONTINUITY-001`, `EVID-EURASIAN-EARLY-GENOMES-001` | `INV-SAPIENS-OoA-001` |
+| `CLAIM-DETECTABILITY-NOT-ZERO-DESCENT-001` | La ausencia de contribución genómica detectable no demuestra que una población no tuviera descendencia histórica. | A-SEM | AUDITADO | `EVID-OOA-METHOD-001`, `EVID-RANIS-ZLATY-CONTINUITY-001` | `INV-SAPIENS-OoA-001` |
+| `CLAIM-PAPUAN-EARLY-PULSE-OPEN-001` | Una contribución papú de una expansión anterior, estimada en `~2 %` por un modelo, sigue abierta frente a modelos de una expansión mayor y estructura posterior. | C | AUDITADO | `EVID-PAPUAN-DISPERSAL-MODELS-001` | `INV-SAPIENS-OoA-001` |
+| `CLAIM-PERSIAN-HUB-OPEN-001` | La meseta persa es un hub plausible entre `~70–60` y `45 ka` bajo genómica proxy y paleoclima, no una población localizada directamente. | C | AUDITADO | `EVID-PERSIAN-HUB-001` | `INV-SAPIENS-OoA-001` |
+| `CLAIM-AFRICAN-NICHE-EXPANSION-001` | La amplitud de nicho humano dentro de África aumentó desde `~70 ka` y alcanzó un máximo cerca de `50 ka`; su papel causal en la expansión es condicionado. | B-COND patrón; C causa | AUDITADO | `EVID-AFRICAN-NICHE-001` | `INV-SAPIENS-OoA-001` |
+| `CLAIM-OOA-DATE-OBJECT-LIMIT-001` | Edades de cuerpo, sedimento, artefacto, ocupación y mezcla modelada no son intercambiables. | A-SEM | AUDITADO | `EVID-OOA-METHOD-001` | `INV-SAPIENS-OoA-001` |
+| `CLAIM-EARLY-PRESENCE-CONTINUITY-LIMIT-001` | Una presencia temprana fuera de África no demuestra continuidad local ni aporte a poblaciones posteriores. | A-SEM; B aplicación | AUDITADO | `EVID-OOA-METHOD-001`, `EVID-MISLIYA-001`, `EVID-TAM-PA-LING-001` | `INV-SAPIENS-OoA-001` |
+| `CLAIM-SINGLE-SUCCESSFUL-SHORTHAND-001` | «Una salida exitosa» sólo es una abreviatura de ascendencia mayoritaria compartida; no identifica un único cruce, grupo o corredor. | A-SEM | AUDITADO | `EVID-OOA-METHOD-001`, `EVID-OOA-GENOMIC-MAJOR-001` | `INV-SAPIENS-OoA-001` |
+| `CLAIM-OOA-SAMPLING-BIAS-001` | Cuevas, zonas áridas y genomas preservados sobrerrepresentan regiones y ramas; vacíos o ausencia molecular no son ausencia histórica. | A-SEM; B aplicación | AUDITADO | `EVID-OOA-METHOD-001` | `INV-SAPIENS-OoA-001` |
 
 ## Fichas resumidas
 
@@ -3550,6 +3570,50 @@ Este archivo es el índice canónico. La letra de confianza califica exactamente
 - **Lenguaje:** «pan-africano» describe distribución sin prometer homogeneidad.
 - **Sesgo:** preservación y excavación dejan regiones enteras poco visibles.
 - **Confianza:** África A–B; estructura B-COND/C; geografía fina C–D.
+
+## Investigación 043 — Salidas de África y descendencia detectable
+
+### CLAIM-OOA-SCOPE-001 / COUNT-LIMIT-001 / DATE-OBJECT-LIMIT-001
+
+- **Separación:** presencia, dispersión, expansión y descendencia son escalas no sustituibles.
+- **Relojes:** cuerpo, sedimento, artefacto y mezcla conservan su objeto.
+- **Límite:** no existe un entero total defendible de salidas.
+
+### CLAIM-OOA-MULTIPLE-DISPERSALS-001 / EARLY-PRESENCE-CONTINUITY-LIMIT-001
+
+- **Resultado:** Misliya, Al Wusta y Asia sudoriental prueban dispersiones antes de la fase ancestral principal.
+- **Límite:** varios sitios no implican un episodio por sitio ni continuidad entre ellos.
+- **Confianza:** B para repetición; C–D para genealogías locales.
+
+### CLAIM-MISLIYA-PRESENCE-001 / APIDIMA-EARLY-OPEN-001 / AL-WUSTA-PRESENCE-001
+
+- **Levante:** Misliya fija presencia sapiens `194–177 ka`.
+- **Europa:** Apidima propone `>210 ka`, con taxón y contexto más frágiles.
+- **Arabia:** Al Wusta fija presencia `~95–86 ka`, no corredor permanente.
+
+### CLAIM-TAM-PA-LING-PRESENCE-001 / LIDA-AJER-PRESENCE-001 / SAHUL-MINIMUM-LIMIT-001
+
+- **Asia tropical:** cuerpos y contextos sostienen presencias anteriores a `~68–63 ka`.
+- **Sahul:** Madjedbebe es un mínimo de ocupación discutido, no fecha de salida.
+- **Límite:** sin genoma, afinidad y continuidad permanecen abiertas.
+
+### CLAIM-OOA-MAJOR-ANCESTRY-001 / NEAND-CLOCK-001 / SINGLE-SUCCESSFUL-SHORTHAND-001
+
+- **Resultado:** una expansión `~70–50 ka` aporta casi toda la ascendencia no africana actual.
+- **Reloj:** mezcla neandertal compartida `~50.5–43.5/49–45 ka` restringe una fase conectada.
+- **Lenguaje:** «una salida exitosa» no es un cruce único.
+
+### CLAIM-EARLY-EURASIAN-LINEAGES-001 / DETECTABILITY-NOT-ZERO-DESCENT-001
+
+- **Ramas:** Ranis/Zlatý, Ust’-Ishim, Oase, Bacho Kiro y Tianyuan tuvieron destinos distintos.
+- **Ausencia:** no detectar aporte posterior no prueba cero descendientes.
+- **Muestreo:** un genoma individual no es un censo poblacional.
+
+### CLAIM-PAPUAN-EARLY-PULSE-OPEN-001 / PERSIAN-HUB-OPEN-001 / AFRICAN-NICHE-EXPANSION-001
+
+- **Papúa:** el aporte de una salida anterior es dependiente de modelo.
+- **Hub:** la meseta persa es una localización inferida, no excavada genéticamente para el intervalo.
+- **Nicho:** expansión ecológica precede/coincide con la fase mayor sin probar causa única.
 
 ## Claims futuros
 

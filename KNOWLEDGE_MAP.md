@@ -1002,3 +1002,35 @@ ADN holoceno → diversidad previa a mezclas ≠ genoma de 300 ka
 La discrepancia entre modelos es parte del conocimiento: estructura ancestral está favorecida sobre panmixia simple, mientras número, duración y geografía de tallos permanecen C–D. Olorgesailie y Amanzi añaden conducta regional sin convertir MSA u obsidiana en taxón o flujo génico.
 
 Véase `INV-SAPIENS-ORIGIN-001` en `08_cenozoico`, su mapa en `assets/visuales/mapa-investigacion-042.svg` y la doble cadena en `assets/visuales/de-fosil-a-clado-y-de-genoma-a-estructura.svg`.
+
+### Investigación 043 — Salidas de África y descendencia detectable
+
+```text
+fósil + procedencia + reloj ───────────────> presencia local ──────────────┐
+sitios + intervalos + regiones ────────────> dispersión repetida ─────────┤
+genomas actuales + LD + coalescencia ─────> expansión ancestral mayor ───┤
+tramos neandertales + recombinación ───────> fase conectada fechada ──────┤
+genomas antiguos + afinidad ───────────────> rama / aporte detectable ────┤
+paleoclima + sitios ───────────────────────> corredor o hub plausible ────┘
+                                                                          │
+                                                                          └─> no hay número, ruta o genealogía automáticos
+```
+
+El mapa conserva cuatro escalas. Misliya, Al Wusta, Tam Pà Ling y Lida Ajer entregan presencias; su distribución sostiene dispersiones múltiples sin contar cruces. Genomas actuales recuperan una expansión `~70–50 ka`; tramos neandertales restringen una fase compartida `~50.5–43.5/49–45 ka`, pero no localizan la salida.
+
+```text
+Ranis/Zlatý → rama temprana sin aporte posterior detectable
+Ust’-Ishim → posición temprana, no fundador universal
+Oase → ancestro neandertal reciente, continuidad amplia ausente
+Bacho Kiro → afinidad oriental posterior y mezcla adicional
+Tianyuan → conexión con asiáticos orientales posteriores
+
+no detectable ≠ cero descendientes
+pulso modelado ≠ caravana
+ocupación de Sahul ≠ fecha de salida africana
+idoneidad climática ≠ presencia
+```
+
+Papúa conserva una controversia entre una expansión principal y una contribución anterior pequeña. La meseta persa y la ampliación del nicho africano son hipótesis geográficas/ecológicas condicionadas. Ninguna sustituye al cuerpo o genoma que falta.
+
+Véase `INV-SAPIENS-OoA-001` en `13_migraciones`, su mapa en `assets/visuales/mapa-investigacion-043.svg` y la doble cadena en `assets/visuales/de-presencia-a-dispersion-y-de-genoma-a-descendencia.svg`.

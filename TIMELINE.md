@@ -300,8 +300,24 @@ En esta sección una fecha arqueológica no demuestra por sí sola “propiedad�
 | `TIME-CIV-TELLBRAK-001` | fines del V milenio a. C. | concentración urbana septentrional en Tell Brak | prospección y fase cerámica; superficie no equivale a autoridad central | `SRC-OATES-BRAK-2007`, `SRC-LAWRENCE-URBANISM-2015` | B-COND | TRAZADO |
 | `TIME-CIV-URUK-P003414-001` | ~`3350–3200 a. C.` | tablilla administrativa P003414, fase Uruk IV | datación tipológica/estratigráfica catalogada; un objeto no mide alcance estatal | `SRC-CDLI-P003414` | A objeto/fase; C alcance | TRAZADO |
 
+## V. Migraciones de *Homo sapiens*
+
+| ID | Fecha/intervalo | Evento delimitado | Incertidumbre y evidencia | Fuente | Confianza | Estado |
+|---|---:|---|---|---|---|---|
+| `TIME-APIDIMA-SAPIENS-001` | `>210 ka` | posible presencia sapiens en Apidima | bóveda incompleta, reconstrucción y U-series; taxón/contexto abiertos | `SRC-HARVATI-APIDIMA-2019` | C-D | AUDITADO |
+| `TIME-MISLIYA-001` | `194–177 ka` | presencia sapiens en Misliya | maxilar, anatomía y varios relojes; continuidad no observada | `SRC-HERSHKOVITZ-MISLIYA-2018` | B-COND | AUDITADO |
+| `TIME-AL-WUSTA-001` | `~95–86 ka` | presencia sapiens en Arabia interior | falange, U-series, luminiscencia y paleolago | `SRC-GROUCUTT-AL-WUSTA-2018` | B-COND | AUDITADO |
+| `TIME-TAM-PA-LING-001` | intervalo conservador `92–65 ka`; presencia al menos `~68 ka` | sapiens en Laos | varios restos/relojes y modelo de depósito; sin ADN | `SRC-FREIDLINE-TAM-PA-LING-2023` | B-COND | AUDITADO |
+| `TIME-LIDA-AJER-001` | `73–63 ka` | humanos modernos en Sumatra | dientes y cronología de cueva; asociación condicionada | `SRC-WESTAWAY-LIDA-AJER-2017` | C-COND | AUDITADO |
+| `TIME-OOA-MAJOR-001` | `~70–50 ka` | fase de expansión ancestral mayor de no africanos | genomas actuales/antiguos; intervalo dependiente de tasas y estructura | `SRC-MALLICK-SGDP-2016`, `SRC-MALASPINAS-SAHUL-2016`, `SRC-SUMER-RANIS-ZLATY-2024` | B-COND | AUDITADO |
+| `TIME-MADJEDBEBE-001` | `~65 ka` | ocupación propuesta de Sahul | artefactos y OSL; integridad/blanqueo discutidos | `SRC-CLARKSON-MADJEDBEBE-2017` | C-COND | AUDITADO |
+| `TIME-RANIS-ZLATY-001` | `49.54–42.20 ka cal BP` | rama temprana Ranis/Zlatý kůň | genomas, parentesco y radiocarbono; sin aporte posterior detectable | `SRC-SUMER-RANIS-ZLATY-2024` | B-COND | AUDITADO |
+| `TIME-UST-ISHIM-001` | `~45 ka` | individuo temprano de Siberia occidental | genoma y tramos; una persona no fija población fundadora | `SRC-FU-UST-ISHIM-2014` | B | AUDITADO |
+| `TIME-BACHO-KIRO-ANCESTRY-001` | `~45.9–42.6 ka` | rama IUP con mezcla neandertal reciente y afinidad oriental | tres genomas/fechas; continuidad desigual | `SRC-HAJDINJAK-BACHO-2021` | B-COND | AUDITADO |
+| `TIME-TIANYUAN-001` | `~40 ka` | estructura asiática oriental temprana | un genoma con afinidad posterior; ruta exacta ausente | `SRC-YANG-TIANYUAN-2017` | B-COND | AUDITADO |
+
 ## Próxima acción cronológica
 
-Las investigaciones extensas auditadas llegan de `INV-EARTH-AGE-001` a `INV-SAPIENS-ORIGIN-001`. El siguiente trabajo es `INV-SAPIENS-OoA-001`: deberá distinguir salidas detectadas, contribución a poblaciones posteriores, continuidad regional y una expansión que aportó gran parte de la ancestría no africana actual.
+Las investigaciones extensas auditadas llegan de `INV-EARTH-AGE-001` a `INV-SAPIENS-OoA-001`. El siguiente trabajo es `INV-MIGR-ASIA-AUS-001`: deberá separar cronología de Sunda/Sahul, cruces de agua, arqueología, genómica y continuidad regional.
 
 La línea temática `INV-CIV-ORIGINS-001` permanece separada en estado `TRAZADO`; organiza expedientes regionales, pero no cambia la próxima acción de la secuencia global.

@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1000" viewBox="0 0 1600 1000" role="img" aria-labelledby="title desc">
+  <title id="title">Mapa epistemológico de la Investigación 043</title>
+  <desc id="desc">Cinco archivos de evidencia pasan por mediciones y adversarios antes de producir cuatro resultados distintos: presencia, dispersión, expansión y descendencia detectable.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0d1521"/>
+      <stop offset="1" stop-color="#172335"/>
+    </linearGradient>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto">
+      <path d="M0,0 L10,5 L0,10 z" fill="#6f92a8"/>
+    </marker>
+    <style>
+      .h1{font:700 37px system-ui,sans-serif;fill:#f2e7cf}.h2{font:700 23px system-ui,sans-serif;fill:#f2e7cf}.body{font:500 18px system-ui,sans-serif;fill:#d8e2e8}.small{font:500 16px system-ui,sans-serif;fill:#b9c9d3}.tag{font:700 15px system-ui,sans-serif;fill:#0d1521}.box{fill:#18283a;stroke:#57778b;stroke-width:2}.object{fill:#242c37;stroke:#b58454;stroke-width:2}.model{fill:#1b3040;stroke:#69a5a5;stroke-width:2}.result{fill:#243321;stroke:#93ad72;stroke-width:2}.warn{fill:#3a2923;stroke:#c88963;stroke-width:2}.line{stroke:#6f92a8;stroke-width:3;fill:none;marker-end:url(#arrow)}.dash{stroke:#c88963;stroke-width:2.5;stroke-dasharray:8 7;fill:none;marker-end:url(#arrow)}
+    </style>
+  </defs>
+  <rect width="1600" height="1000" fill="url(#bg)"/>
+  <text x="80" y="70" class="h1">INV 043 · de archivos distintos a resultados distintos</text>
+  <text x="80" y="108" class="body">Un punto, una fecha o un genoma no cuentan por sí solos una «salida».</text>
+
+  <text x="80" y="165" class="h2">1 · Objetos observables</text>
+  <g transform="translate(80 195)">
+    <rect class="object" width="250" height="120" rx="16"/><text x="24" y="38" class="h2">Fósil</text><text x="24" y="70" class="small">fragmento + anatomía</text><text x="24" y="96" class="small">Misliya · Al Wusta</text>
+  </g>
+  <g transform="translate(370 195)">
+    <rect class="object" width="250" height="120" rx="16"/><text x="24" y="38" class="h2">Estrato</text><text x="24" y="70" class="small">grano + asociación</text><text x="24" y="96" class="small">TPL · Lida Ajer</text>
+  </g>
+  <g transform="translate(660 195)">
+    <rect class="object" width="250" height="120" rx="16"/><text x="24" y="38" class="h2">Artefacto</text><text x="24" y="70" class="small">industria + depósito</text><text x="24" y="96" class="small">Sahul condicionado</text>
+  </g>
+  <g transform="translate(950 195)">
+    <rect class="object" width="250" height="120" rx="16"/><text x="24" y="38" class="h2">Genoma</text><text x="24" y="70" class="small">alelos + tramos</text><text x="24" y="96" class="small">antiguo y actual</text>
+  </g>
+  <g transform="translate(1240 195)">
+    <rect class="object" width="250" height="120" rx="16"/><text x="24" y="38" class="h2">Paleoclima</text><text x="24" y="70" class="small">bioma + idoneidad</text><text x="24" y="96" class="small">ventana, no viaje</text>
+  </g>
+
+  <path class="line" d="M205 315 V390 H420"/><path class="line" d="M495 315 V390 H420"/>
+  <path class="line" d="M785 315 V390 H780"/><path class="line" d="M1075 315 V390 H1140"/><path class="line" d="M1365 315 V390 H1140"/>
+  <g transform="translate(250 390)"><rect class="model" width="340" height="125" rx="16"/><text x="24" y="38" class="h2">Procedencia + reloj</text><text x="24" y="72" class="small">taxón · estratigrafía · dosis</text><text x="24" y="99" class="small">unidad realmente fechada</text></g>
+  <g transform="translate(610 390)"><rect class="model" width="340" height="125" rx="16"/><text x="24" y="38" class="h2">Asociación</text><text x="24" y="72" class="small">cuerpo · sedimento · artefacto</text><text x="24" y="99" class="small">integridad y dirección del límite</text></g>
+  <g transform="translate(970 390)"><rect class="model" width="340" height="125" rx="16"/><text x="24" y="38" class="h2">Modelo genético/ecológico</text><text x="24" y="72" class="small">referencias · tasas · proxies</text><text x="24" y="99" class="small">estructura y detectabilidad</text></g>
+  <path class="line" d="M420 515 V590 H330"/><path class="line" d="M780 515 V590 H690"/><path class="line" d="M1140 515 V590 H1050"/>
+
+  <text x="80" y="578" class="h2">2 · Productos que no deben fundirse</text>
+  <g transform="translate(80 610)"><rect class="result" width="300" height="130" rx="18"/><text x="24" y="42" class="h2">Presencia local</text><text x="24" y="77" class="body">cuerpo o actividad</text><rect x="24" y="94" width="92" height="25" rx="12" fill="#93ad72"/><text x="42" y="112" class="tag">A–C</text></g>
+  <g transform="translate(450 610)"><rect class="result" width="300" height="130" rx="18"/><text x="24" y="42" class="h2">Dispersión</text><text x="24" y="77" class="body">rango ampliado</text><rect x="24" y="94" width="92" height="25" rx="12" fill="#93ad72"/><text x="43" y="112" class="tag">B</text></g>
+  <g transform="translate(820 610)"><rect class="result" width="300" height="130" rx="18"/><text x="24" y="42" class="h2">Expansión mayor</text><text x="24" y="77" class="body">ascendencia compartida</text><rect x="24" y="94" width="112" height="25" rx="12" fill="#93ad72"/><text x="43" y="112" class="tag">B-COND</text></g>
+  <g transform="translate(1190 610)"><rect class="result" width="300" height="130" rx="18"/><text x="24" y="42" class="h2">Descendencia</text><text x="24" y="77" class="body">aporte detectable</text><rect x="24" y="94" width="112" height="25" rx="12" fill="#93ad72"/><text x="43" y="112" class="tag">B–D</text></g>
+
+  <path class="dash" d="M230 740 V805 H315"/><path class="dash" d="M600 740 V805 H685"/><path class="dash" d="M970 740 V805 H1055"/><path class="dash" d="M1340 740 V805 H1375"/>
+  <g transform="translate(80 815)"><rect class="warn" width="300" height="105" rx="16"/><text x="22" y="38" class="h2">≠ salida contada</text><text x="22" y="72" class="small">un sitio no es un cruce</text></g>
+  <g transform="translate(450 815)"><rect class="warn" width="300" height="105" rx="16"/><text x="22" y="38" class="h2">≠ ruta exacta</text><text x="22" y="72" class="small">rango no dibuja trayecto</text></g>
+  <g transform="translate(820 815)"><rect class="warn" width="300" height="105" rx="16"/><text x="22" y="38" class="h2">≠ caravana única</text><text x="22" y="72" class="small">pulso es una abstracción</text></g>
+  <g transform="translate(1190 815)"><rect class="warn" width="300" height="105" rx="16"/><text x="22" y="38" class="h2">≠ cero descendientes</text><text x="22" y="72" class="small">ausencia depende del umbral</text></g>
+  <text x="80" y="965" class="small">Lectura: cada flecha conserva material, reloj, asociación, modelo y adversario. Este diagrama no es geográfico.</text>
+</svg>

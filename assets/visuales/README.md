@@ -558,6 +558,26 @@ Se aplicó a esa primera salida la siguiente edición correctiva:
 
 La edición final se inspeccionó a resolución original: el elemento objetado quedó sustituido por tres fragmentos óseos genéricos, separados e incompletos, sin nariz, labios, piel ni apariencia de rostro. El resto de la composición conserva las mismas bandejas y clases de evidencia. El montaje no reproduce un sitio, una asociación o una escala real; las tres bandejas no equivalen a regiones con fronteras; los hilos son metáfora de modelos de estructura y flujo, no ADN observado, rutas migratorias ni un número probado de poblaciones. La bandeja lítica permanece separada para no atribuir automáticamente tecnología a un taxón.
 
+## Investigación 043 — Salidas de África y descendencia detectable
+
+| Archivo | Tipo | Creación | Evidencia o claim | Límite |
+|---|---|---|---|---|
+| `hero-salidas-africa-descendencia.png` | portada editorial generada | OpenAI ImageGen, 2026-08-13 | archivos fósiles, arqueológicos, cronológicos y genómicos separados | no reproduce fósiles, sitios, rutas, cromosomas o genealogías reales |
+| `mapa-investigacion-043.svg` | diagrama original | SVG manual del proyecto, 2026-08-13 | cinco archivos y cuatro productos de inferencia | nodos no son localidades ni poblaciones observadas |
+| `de-presencia-a-dispersion-y-de-genoma-a-descendencia.svg` | doble cadena original | SVG manual del proyecto, 2026-08-13 | presencia/dispersión y expansión/descendencia con límites | no cuenta cruces ni representa un árbol genealógico |
+
+## Prompt de la portada de la Investigación 043
+
+**Modo:** generación nueva y una edición correctiva con OpenAI ImageGen. Copia final inspeccionada en `assets/visuales/hero-salidas-africa-descendencia.png`. Primera salida: `C:\Users\HUAWEI\.codex\generated_images\019ff9f8-176a-7ea1-b727-e17c6df17b82\exec-93a825a6-8c70-4b6c-aa16-446c877e31c7.png`. Salida corregida: `C:\Users\HUAWEI\.codex\generated_images\019ff9f8-176a-7ea1-b727-e17c6df17b82\exec-1cf6c064-e4b4-4013-aa0e-0b78550c5651.png`.
+
+> Use case: scientific-educational. Asset type: wide 16:9 editorial hero cover for a rigorous Spanish open-science research chapter about repeated Homo sapiens dispersals out of Africa and which lineages left detectable descendants. Create a dark museum conservation archive as a sober continuous evidence tableau. Keep physically separate, non-coeval bays: only small irregular fragmentary fossil bone pieces and an isolated partial jaw edge beside sediment and mineral dating samples; stone flakes, a stratigraphic core and a luminescence sample; tiny ancient-bone powder vials and abstract chromosome-like ribbons, with several traces fading while one broad braided set persists and branches; and an abstract ecological-niche panel made only of layered mineral textures and unlabeled bands. The fading and surviving ribbons are conceptual, never routes or a family tree. Premium museum-science editorial still life, wide oblique top-down composition, controlled conservation lighting, charcoal navy, fossil ivory, muted ochre, restrained teal and copper, generous dark negative space. Every fossil visibly incomplete; dry bone only. Keep archaeology, chronology, fossils and genomics independent. No people, faces, recognizable visage, nose, lips, skin, soft tissue, living beings, body silhouettes, full skeletons, complete skulls, portraits, maps, continents, coastlines, migration arrows, route lines, boats, footprints, family trees, evolutionary lineups, DNA double helix, readable text, letters, numbers, dates, labels, logos, watermark, sci-fi interface, glowing holograms, flags, modern borders, violence or fantasy.
+
+La primera salida cumplía las invariantes científicas, pero contenía una diminuta marca parecida a texto en la bandeja genómica. Se aplicó una corrección limitada:
+
+> Remove only the tiny pale text-like mark in the upper-left area of the central-right genomic ribbon tray, just above the first thin dark ribbon near the top sample vial. Replace it with the same plain matte black tray surface. Preserve the exact crop, aspect ratio, camera angle, all tray boundaries, every fossil fragment, the incomplete jaw, stone tools, sediment core, sample vials, thin fading ribbons, broad braided branching ribbons, stratigraphic panel, lighting, palette, materials, focus and negative space. Change nothing else. The corrected image must contain no readable or pseudo-readable text, letters, numbers, labels, symbols, logos or watermark. Do not add objects, faces, people, maps, arrows, routes, skulls, bodies or diagrams.
+
+La edición final se reinspeccionó a resolución original y no conserva texto ni pseudotexto visible. La mandíbula es incompleta y no forma un rostro; los demás restos son fragmentarios. La proximidad entre bandejas no implica contemporaneidad, asociación, identidad, ruta o descendencia. Los cordones son una metáfora editorial de detectabilidad y no deben leerse como datos cromosómicos.
+
 ## Reglas de mantenimiento
 
 - conservar SVG con `title` y `desc` accesibles;

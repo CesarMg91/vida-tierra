@@ -341,6 +341,12 @@ Una controversia no implica empate. Registra qué parte está realmente abierta,
 | `CONT-SAPIENS-SOUTH-GEOGRAPHY-001` | ¿Divergencia profunda localiza el origen en el sur? | linajes y ADN antiguo meridionales son profundos/diversos | migración y mezcla desacoplan muestra y tallo | archivo crucial; cuna no demostrada | C-D |
 | `CONT-SAPIENS-MSA-001` | ¿MSA es marcador de población o tradición regional? | asociaciones tempranas con paisaje sapiens | convergencia/transmisión entre poblaciones | conducta B; taxón D | C |
 | `CONT-SAPIENS-PAN-AFRICAN-001` | ¿Qué significa «pan-africano»? | registro fósil/conductual distribuido | panmixia o red continua no observadas | distribución B; demografía condicionada | B-COND |
+| `CONT-OOA-COUNT-001` | ¿Cuántas salidas pueden contarse? | múltiples dispersiones, total desconocido | sitio, fase y pulso como unidades no equivalentes | abierta | B para repetición; D para total |
+| `CONT-APIDIMA-SAPIENS-001` | Taxón de Apidima 1 | sapiens temprano `>210 ka` | reconstrucción/deformación y contexto insuficientes | abierta | C-D |
+| `CONT-OOA-PAPUAN-EARLY-001` | Aporte papú de una expansión temprana | expansión mayoritaria común | `~2 %` temprano o estructura alternativa | abierta | C |
+| `CONT-OOA-PERSIAN-HUB-001` | Meseta persa como hub | hub `~70–45 ka` favorecido por proxies | Arabia, Levante o sur de Asia | abierta | C |
+| `CONT-OOA-MADJEDBEBE-001` | Ocupación de Sahul hacia `65 ka` | asociación artefacto–OSL íntegra | movimiento/blanqueo alteran edad | abierta | C-COND |
+| `CONT-OOA-SUCCESS-001` | Significado de «salida exitosa» | persistencia/ascendencia mayoritaria | término sugiere viaje o superioridad | abierta por definición | A-SEM; B aplicación |
 
 ## CONT-COSMOS-H0-001 — Dos rutas hacia la tasa actual
 
@@ -2531,3 +2537,39 @@ Olorgesailie y Amanzi muestran transiciones regionales diferentes. MSA agrupa de
 «Pan-africano» describe correctamente que el archivo relevante no cabe en una sola región. Se vuelve engañoso si implica apareamiento aleatorio o conectividad continua a escala continental.
 
 **Prueba discriminatoria:** estimaciones regionales de flujo a través del tiempo y comparación explícita de aislamiento, migración intermitente y panmixia.
+
+## CONT-OOA-COUNT-001 — ¿Cuántas salidas pueden contarse?
+
+Misliya, Al Wusta, Tam Pà Ling y otros sitios demuestran presencias tempranas; los genomas recuperan pulsos y expansiones bajo modelos. Un sitio puede pertenecer a una dispersión prolongada, y una dispersión puede dejar varios sitios. No existe una unidad observacional común que produzca un entero total.
+
+**Prueba discriminatoria:** series regionales continuas con cuerpos/genomas, modelos que definan de antemano qué constituye un evento y sensibilidad a flujo continuo frente a pulsos.
+
+## CONT-APIDIMA-SAPIENS-001 — Taxón y contexto de Apidima 1
+
+La reconstrucción de una bóveda parcial y un mínimo U-series `>210 ka` sustentan la propuesta sapiens; deformación, ausencia de cara/dientes y falta de contexto arqueológico cerrado debilitan la asignación y su significado poblacional.
+
+**Prueba discriminatoria:** nuevas regiones diagnósticas, reconstrucciones independientes ciegas, análisis de sensibilidad a deformación y materiales asociados fechables.
+
+## CONT-OOA-PAPUAN-EARLY-001 — Pulso temprano en Papúa frente a estructura
+
+Pagani y colaboradores propusieron `≥2 %` de aporte de una expansión anterior; Malaspinas y colaboradores favorecieron una expansión principal para la divergencia papú-australiana. Referencias, grafos y estructura pueden mover una señal pequeña.
+
+**Prueba discriminatoria:** ADN antiguo de Asia sudoriental y Sahul `80–45 ka`, simulaciones cruzadas y modelos que permitan simultáneamente estructura continua, mezcla y reemplazo.
+
+## CONT-OOA-PERSIAN-HUB-001 — Meseta persa frente a otros hubs
+
+Afinidad genómica proxy y paleoclima favorecen la meseta persa para la fase `~70–45 ka`, pero no existe un genoma directo de esa población y Arabia, Levante o sur de Asia están desigualmente muestreados.
+
+**Prueba discriminatoria:** fósiles y genomas seriados del intervalo en corredores rivales, más modelos paleoclimáticos de resolución comparable y predicciones publicadas antes de excavar.
+
+## CONT-OOA-MADJEDBEBE-001 — Ocupación de Sahul hacia 65 ka
+
+OSL y artefactos sostienen una ocupación antigua; críticos han discutido blanqueo, movimiento vertical e integridad. Aun aceptada, la fecha no identifica taxón, genoma o momento de salida africana.
+
+**Prueba discriminatoria:** nuevas excavaciones independientes, micromorfología, refits tridimensionales, relojes adicionales y contextos regionales coetáneos.
+
+## CONT-OOA-SUCCESS-001 — «Éxito» como persistencia, no superioridad
+
+Una expansión dejó la mayor parte de la ascendencia no africana actual, mientras otras ramas no muestran contribución posterior detectable. Llamarla «exitosa» puede sugerir intención, ventaja biológica o fracaso total de otras poblaciones.
+
+**Prueba discriminatoria:** no es una disputa sobre valor sino sobre definición; todo uso debe declarar si mide persistencia local, expansión demográfica o aporte genómico detectable.
