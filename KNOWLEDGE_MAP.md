@@ -245,3 +245,19 @@ contacto de corte NGB ─────→ encajante anterior ──────�
 ```
 
 Véase `INV-HADEAN-CRUST-001` en `02_formacion_tierra`, su mapa en `assets/visuales/mapa-investigacion-009.svg` y la comparación en `assets/visuales/tres-archivos-corteza-hadeana.svg`.
+
+La ruta específica del agua hadeana es:
+
+```text
+U–Pb + textura + hidratación ─→ dominio de zircon primario ──────┐
+δ18O alto ────────────────────→ protolito alterado a baja T ─────┤
+δ18O bajo ────────────────────→ roca hidrotermal/agua meteórica ─┤
+Acasta + O bimodal ───────────→ fuente somera preservada ────────┤
+NGB + O triple + H ───────────→ alteración hidrotermal antigua ──┤
+desgasificación + clima ──────→ trayectorias físicamente viables ┘
+                                      ↓
+             agua–roca / hidrosfera temprana: B–C
+             océano global / clima estable: D–E
+```
+
+Véase `INV-HADEAN-WATER-001` en `03_hadeano`, su mapa en `assets/visuales/mapa-investigacion-010.svg` y la cadena en `assets/visuales/cadena-oxigeno-agua.svg`.

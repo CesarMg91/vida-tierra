@@ -44,6 +44,10 @@ El propósito no es presentar la ciencia como una sucesión de fracasos ni como 
 | `ERR-HADEAN-ZIRCON-ROCK-001` | llamar “roca de 4.4 Ga” a un zircon detrítico | mineral y roca huésped/fuente confundidos | nombrar objeto, dominio y evento fechado | DOCUMENTADO |
 | `ERR-HADEAN-CONTINENT-001` | convertir magma félsico en continente moderno global | composición extrapolada a área, elevación y tectónica | separar magma, corteza, tierra emergida y placa | DOCUMENTADO |
 | `ERR-HADEAN-MODELAGE-001` | leer edad Hf/Sm–Nd de fuente como cristalización directa | evolución de reservorio y mezcla omitidas | distinguir edad mineral, isócrona, extracción y límite de corte | DOCUMENTADO |
+| `ERR-HADEAN-ZIRCON-OCEAN-001` | decir que un zircon contiene evidencia directa de un océano | proxy de fuente convertido en muestra de agua y escala global | reconstruir agua–roca → fuente → magma → zircon | DOCUMENTADO |
+| `ERR-HADEAN-WATER-DATE-001` | fechar el agua con la edad U–Pb del zircon | proceso anterior y cristalización confundidos | usar la edad mineral como límite posterior de alteración | DOCUMENTADO |
+| `ERR-HADEAN-COOL-CLIMATE-001` | “Tierra temprana fría” como clima global benigno | contraste con océano de magma convertido en termómetro climático | separar fase líquida local, hidrosfera, clima y habitabilidad | DOCUMENTADO |
+| `ERR-HADEAN-OXYGEN-O2-001` | leer `δ18O` como oxígeno atmosférico | cociente de isótopos estables confundido con abundancia/redox de `O₂` | separar isótopos de silicato, fugacidad y atmósfera | DOCUMENTADO |
 | `ERR-GEO-KELVIN-001` | Tierra de decenas de Ma por enfriamiento | fuente térmica y transporte incompletos | radioactividad, convección y geocronología isotópica | DOCUMENTADO |
 | `ERR-GEO-SEDIMENT-001` | edad global por tasa media de sedimentación | tasa constante, registro completo y sin reciclaje | estratigrafía, discordancias y relojes radiométricos | SEMILLA |
 | `ERR-GEO-LEAD-001` | mediciones de Pb sin control ultralimpio | blanco despreciable | laboratorios limpios, blancos y química de trazas | DOCUMENTADO |
@@ -103,6 +107,38 @@ Lu–Hf y Sm–Nd pueden fechar cristalización mediante una isócrona bien just
 ### Corrección
 
 Declarar si la cifra es edad de dominio mineral, pendiente isócrona, extracción modelo, metamorfismo o límite por corte. La precisión numérica no borra esa semántica.
+
+## ERR-HADEAN-ZIRCON-OCEAN-001 — Un proxy convertido en agua
+
+La microsonda mide `18O/16O` en zircon. El valor se traduce a magma mediante fraccionamiento y después a una roca fuente alterada mediante petrología. El agua aparece como explicación de una etapa previa; no está observada como gota, inclusión oceánica o cuerpo cartografiado.
+
+### Corrección
+
+Escribir “material fuente alterado por agua líquida somera” antes de evaluar “hidrosfera”. Reservar “océano global” para evidencia de volumen y conexión que el zircon no aporta.
+
+## ERR-HADEAN-WATER-DATE-001 — El cristal no fechó la primera lluvia
+
+U–Pb fecha la cristalización del dominio. Para que el magma herede oxígeno supracrustal, la roca tuvo que intercambiar con agua, ser enterrada y fundirse antes. La separación entre esos pasos no está medida.
+
+### Corrección
+
+Usar la edad del zircon como límite posterior: “la interacción ocurrió antes de ~4.325 Ga”. No llamarla fecha de nacimiento del océano.
+
+## ERR-HADEAN-COOL-CLIMATE-001 — “Fría” se volvió pronóstico
+
+La expresión *cool early Earth* contrastó corteza y agua líquida con una superficie continuamente fundida. Fue simplificada como planeta templado, estable y habitable.
+
+### Corrección
+
+Declarar la referencia: suficientemente fría en algún lugar/intervalo para agua líquida y alteración. Temperatura media, atmósfera, impactos, duración y habitabilidad necesitan proxies independientes.
+
+## ERR-HADEAN-OXYGEN-O2-001 — El nombre del elemento cambió la pregunta
+
+`δ18O` compara `18O/16O` en el oxígeno estructural de un mineral. No mide cuánto oxígeno molecular había en el aire ni si la atmósfera era oxidante. Una roca anóxica puede conservar una firma de isótopos estables de agua–roca.
+
+### Corrección
+
+Separar tres expedientes: isótopos estables para fuente/agua, fugacidad o valencias para redox del magma y proxies geoquímicos para `O₂` atmosférico. La atmósfera se audita en la Investigación 011.
 
 ## ERR-EARTH-HFW-STOPWATCH-001 — Una razón no imprime un final
 

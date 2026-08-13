@@ -40,7 +40,10 @@ La clasificación expresa cuánto restringe hoy la evidencia, no cuán interesan
 | `OPEN-HADEAN-CRUST-001` | ¿Qué volumen y composición tenía la primera corteza? | zircon, Acasta y NGB prueban diferenciación/retrabajo tempranos | preservación excepcional, sesgo mineral y escala local | D |
 | `OPEN-HADEAN-TECTONICS-001` | ¿Coexistieron placas, subducción local, tapa estancada, plumas e impactos? | Jack Hills/Barberton registran diversidad geoquímica | trazas no identifican cinemática global y los archivos son detríticos | D |
 | `OPEN-HADEAN-NGB-001` | ¿Qué unidades de Nuvvuagittuq son hadeanas? | intrusiones ~4.16 Ga y encajantes anteriores están fortalecidas | estratigrafía, metamorfismo, sedimentos ~3.78 Ga y replicación | C-D |
-| `OPEN-HADEAN-OCEAN-001` | ¿Cuándo apareció un océano estable y de qué volumen? | algunos zircones son compatibles con agua superficial a 4.4 Ga | proxies indirectos y destrucción del registro | D |
+| `OPEN-HADEAN-OCEAN-001` | ¿Cuándo apareció un océano estable y de qué volumen? | agua alteró roca antes de ~4.3–4.2 Ga; NGB añade archivo hidrotermal | proxies no miden volumen/conectividad y el registro fue destruido | D |
+| `OPEN-HADEAN-HYDROCYCLE-001` | ¿Cuán extendidos eran precipitación, infiltración y tierra emergida a 4.0 Ga? | zircon sub-manto apoya agua meteórica en Jack Hills | archivo regional, composición del agua y mezcla modeladas | C-D |
+| `OPEN-HADEAN-NGB-WATER-001` | ¿Qué edad y composición tenía el fluido de Nuvvuagittuq? | O triple + H favorecen agua comparable isotópicamente a marina | edad de unidad, metamorfismo y fraccionamiento | C-D |
+| `OPEN-HADEAN-CLIMATE-001` | ¿Cuánto duraban los intervalos de agua líquida entre impactos y volcanismo? | agua–roca ocurrió y modelos permiten condensación temprana | atmósfera, flujo de impactos y temperatura sin archivo directo | D-E |
 | `OPEN-LIFE-ORIGIN-001` | ¿Cómo comenzó exactamente la vida? | química, ambientes y mecanismos parciales plausibles | no hay archivo directo ni secuencia única | E para mecanismo histórico exacto |
 | `OPEN-LIFE-LOCATION-001` | ¿Dónde apareció la primera vida? | varios ambientes compatibles | biogenicidad/edad y movilidad temprana | E |
 | `OPEN-LIFE-MULTIPLE-001` | ¿Hubo múltiples orígenes independientes? | toda vida conocida comparte rasgos profundos | extinción temprana borra alternativas | E |

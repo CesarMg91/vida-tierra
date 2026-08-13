@@ -10,3 +10,4 @@ Historia de cómo se reconstruyó la historia: creencias previas, evidencia disr
 - [`HISTORIA_007_NUCLEO_TIERRA.md`](HISTORIA_007_NUCLEO_TIERRA.md): de Oldham, Gutenberg y Lehmann a PREM, anisotropía, física mineral, geodinamo y las dos edades del núcleo.
 - [`HISTORIA_008_ORIGEN_LUNA.md`](HISTORIA_008_ORIGEN_LUNA.md): de fisión/captura/coacreción a Apollo, el impacto gigante, la crisis isotópica, sinestias y moonlets.
 - [`HISTORIA_009_CORTEZA_HADEANA.md`](HISTORIA_009_CORTEZA_HADEANA.md): de un “tiempo sin rocas” a zircones, Acasta, Sm–Nd y estilos corticales hadeanos diversos.
+- [`HISTORIA_010_AGUA_HADEANA.md`](HISTORIA_010_AGUA_HADEANA.md): de un Hadeano infernal a señales de oxígeno depuradas y una hidrosfera temprana con escala todavía abierta.

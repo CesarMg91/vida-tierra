@@ -122,6 +122,20 @@ El mapa obliga a nombrar qué se fecha: cristal, protolito o intrusión. La conv
 
 La matriz compara qué memoria gana y pierde cada archivo. Los colores significan conservación directa, conservación mediante límite/modelo o ausencia; no son una puntuación de calidad.
 
+## 11. Investigación 010 — Agua hadeana
+
+![Portada conceptual de la cadena agua–roca–magma–zircon](assets/visuales/hero-agua-hadeana.png)
+
+> **Portada conceptual:** reúne agua local, alteración, fusión, un zircon ampliado y medición actual. No es paisaje, escala ni evidencia directa de océano.
+
+![Mapa de evidencia del agua hadeana](assets/visuales/mapa-investigacion-010.svg)
+
+El mapa compara Jack Hills pesado/ligero, Acasta y Nuvvuagittuq. La convergencia apoya agua–roca temprana; las cajas inferiores impiden heredar esa confianza a océano global o clima.
+
+![Cadena de inferencia de oxígeno a agua](assets/visuales/cadena-oxigeno-agua.svg)
+
+La cadena separa seis pasos desde la microsonda hasta la escala planetaria. Las advertencias naranjas nombran lo que se pierde en cada traducción.
+
 ## Procedencia
 
 El registro de creación, límites y prompt de cada pieza está en [`assets/visuales/README.md`](assets/visuales/README.md).

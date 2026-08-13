@@ -39,7 +39,11 @@ Una controversia no implica empate. Registra qué parte está realmente abierta,
 | `CONT-MOON-ANGMOM-001` | Momento angular inicial y pérdida posterior | impacto cercano al valor actual o evolución mareal moderada | estado inicial alto con resonancias que retiran momento | abierta | A para actual; D para ruta temprana |
 | `CONT-MOON-SINGLE-MULTI-001` | ¿Una colisión dominante o varios moonlets? | un último impacto gigante forma el disco principal | sucesión de impactos menores y fusión de satélites | abierta | B para impactos; D para número |
 | `CONT-MOON-MAGMAOCEAN-001` | ¿Océano de magma global? | diferenciación extensa con flotación de plagioclasa | magmatismo seriado, fundido parcial o múltiples reservorios | abierta en extensión/duración | B para fusión extensa; C-D para geometría |
-| `CONT-HADEAN-WATER-001` | ¿Había océanos a 4.4 Ga? | zircones sugieren agua superficial/corteza reciclada | señal de fuente o alteración sin océano global persistente | abierta | C |
+| `CONT-HADEAN-WATER-001` | ¿Qué parte de `δ18O` exige agua superficial? | dominios filtrados favorecen protolitos alterados a baja T | fuente/alteración secundaria o fraccionamiento alternativo | abierta en puente, no en dato | C |
+| `CONT-HADEAN-OCEAN-001` | ¿Había océano global a ~4.3 Ga? | hidrosfera somera y reciclaje son compatibles con océano | reservorios locales/intermitentes sin volumen conocido | abierta | D |
+| `CONT-HADEAN-HYDROCYCLE-001` | ¿Operaba lluvia e infiltración a 4.0 Ga? | zircon sub-manto requiere agua meteórica en modelos publicados | composición inicial/mezcla o alcance regional | abierta y reciente | C |
+| `CONT-HADEAN-NGB-WATER-001` | ¿Qué edad tiene el fluido registrado en NGB? | O triple + H favorecen hidrosfera muy antigua | metamorfismo y edad 4.3–3.8 Ga condicionan | abierta | C-PROV |
+| `CONT-HADEAN-CLIMATE-001` | ¿Agua líquida implica clima estable? | modelos permiten condensación y retirada rápida de CO₂ | impactos, atmósfera y variabilidad no medidos | abierta | E para historia exacta |
 | `CONT-HADEAN-NGB-001` | Edad de Nuvvuagittuq | intrusiones de ~4.16 Ga y encajantes más antiguas | edades arqueanas ~3.8 Ga o edades modelo heredadas/reset | reabierta y fortalecida en 2025 | C-B-PROV |
 | `CONT-HADEAN-CRUST-VOLUME-001` | Volumen/composición de la primera corteza | zircones y Acasta registran magmas evolucionados/retrabajo | protocrust globalmente máfica y sesgo de preservación | abierta | B para existencia; D para volumen |
 | `CONT-HADEAN-TECTONICS-001` | Régimen geodinámico hadeano | subducción/arco en parte de Jack Hills | tapa estancada, plumas, goteo e impactos; diversidad regional | abierta | C |
@@ -239,13 +243,37 @@ La flotación de plagioclasa y reservorios complementarios favorecen fusión ext
 
 ### Explicación fuerte favorable
 
-Valores altos de `δ18O` en zircon magmático requieren material precursor alterado a baja temperatura; la vía conocida más plausible involucra agua cerca de la superficie, luego enterramiento y fusión.
+Dominios altos y bajos de `δ18O` que superan controles de edad, zonación, discordancia e hidratación requieren material precursor afectado por procesos supracrustales. La vía petrológica mejor apoyada involucra agua cerca de la superficie, seguida por enterramiento, fusión o asimilación.
 
 ### Alternativa fuerte
 
-El grano registra una historia local de fuente cortical y alteración. Aun aceptando agua líquida, no determina un océano global, estable o semejante al moderno. Dominios alterados o mezclados pueden amplificar la lectura.
+Dominios secundarios, mezcla y fuentes no estándar pueden explicar parte de la dispersión. Aun aceptando agua líquida, el grano registra historia local de una fuente y no determina volumen, conectividad o duración.
 
-**Prueba discriminatoria:** replicación microestructural/isotópica en muchos granos independientes, coherencia entre O, Hf, Ti e inclusiones, y modelos que excluyan fuentes sin agua superficial.
+**Prueba discriminatoria:** protocolos predefinidos de filtrado aplicados a poblaciones externas, co-localización de edad/O/trazas e hidratación, y calibraciones que intenten reproducir la distribución sin protolito alterado.
+
+## CONT-HADEAN-OCEAN-001 — Hidrosfera no es batimetría
+
+La interacción agua–roca hacia `4.3–4.2 Ga` vuelve probable alguna hidrosfera. “Océano” añade área conectada, profundidad, masa y continuidad. Un zircon no conserva esas variables y NGB reconstruye composición isotópica, no volumen global.
+
+**Prueba discriminatoria:** presupuestos independientes de agua manto–superficie, proxies de presión/emersión en varias regiones, modelos de preservación y archivos sedimentarios o hidrotermales coetáneos con contexto.
+
+## CONT-HADEAN-HYDROCYCLE-001 — De agua a lluvia
+
+Valores sub-manto a `4.0–3.9 Ga` se reproducen con roca alterada por agua meteórica, lo que implica evaporación, transporte y precipitación. La inferencia depende de composición del agua, mezcla y representatividad regional.
+
+**Prueba discriminatoria:** repetir el patrón ligero en terrenos independientes, combinar O triple/H con zircon y verificar que controles de hidratación eliminan causas tardías.
+
+## CONT-HADEAN-NGB-WATER-001 — Fluido antiguo, reloj discutido
+
+O triple e H favorecen alteración hidrotermal de baja temperatura por agua semejante isotópicamente a marina. La roca fue metamorfizada y la edad del protolito NGB se expresa entre interpretaciones de `4.3–3.8 Ga`; el fluido no tiene un reloj directo aislado.
+
+**Prueba discriminatoria:** geocronología co-localizada con minerales de alteración, replicación de O/H por laboratorio y mapa que conecte inequívocamente las muestras con unidades fechadas.
+
+## CONT-HADEAN-CLIMATE-001 — “Fría” respecto de qué
+
+La presencia de agua líquida descarta una superficie global continuamente fundida durante el episodio registrado. No fija temperatura media, atmósfera, frecuencia de impactos ni duración. Modelos de desgasificación prueban trayectorias posibles bajo entradas declaradas.
+
+**Prueba discriminatoria:** proxies climáticos independientes, química atmosférica, termometría contextual y modelos que reproduzcan simultáneamente agua–roca, energía de impactos y balance radiativo.
 
 ## CONT-HADEAN-NGB-001 — Las rocas más antiguas
 
@@ -272,10 +300,6 @@ U/Nb, Sc/Yb, Hf, O e inclusiones pueden favorecer fusión hidratada y enterramie
 Idiwhaa es una roca evolucionada de ~4.02 Ga compatible con fusión somera de protocrust máfica hidratada. Analogía islandesa e impacto reproducen subconjuntos de la química/física, pero no identifican el evento histórico.
 
 **Prueba discriminatoria:** firmas de choque co-genéticas, edades y texturas que conecten el fundido a un impacto; o una alternativa térmica que reproduzca presión, volumen, composición y duración con menos ajustes.
-
-**Por qué no se cierra automáticamente:** una publicación reciente necesita replicación; la interpretación depende de petrología, co-geneticidad, metamorfismo y significado de isócrona. `4.16 Ga` fecha la intrusión interpretada, mientras que la roca cortada recibe un límite mínimo.
-
-**Prueba discriminatoria:** muestreos autorizados y replicados por equipos independientes, isócronas minerales y roca total coherentes, cronómetros adicionales y cartografía publicada a escala que confirme relaciones.
 
 ## CONT-HADEAN-LHB-001 — Cataclismo lunar tardío
 
