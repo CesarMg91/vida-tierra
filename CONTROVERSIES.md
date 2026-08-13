@@ -1,6 +1,6 @@
 # Registro maestro de controversias
 
-Una controversia no implica empate. Registra qué parte está realmente abierta, qué datos comparten las posiciones y qué prueba movería la balanza. Corte: **2026-08-10**.
+Una controversia no implica empate. Registra qué parte está realmente abierta, qué datos comparten las posiciones y qué prueba movería la balanza. Corte: **2026-08-11**.
 
 ## Índice
 
@@ -184,6 +184,17 @@ Una controversia no implica empate. Registra qué parte está realmente abierta,
 | `CONT-PERMIAN-TRAPS-PULSE-001` | ¿Qué pulso de los Traps fue decisivo? | magmatismo coincide y tiene escala suficiente | lavas, sills, metamorfismo y gases se solapan | sills candidato fuerte; presupuesto abierto | A-B tiempo; B-C causa |
 | `CONT-PERMIAN-KILLCHAIN-001` | ¿Qué mecanismo mató y dónde? | calor, acidificación y desoxigenación tienen proxies/modelos | sulfuro, alimento, UV-B y extremos cambian por ambiente | red causal robusta; pesos abiertos | B mecanismos; C-D pesos |
 | `CONT-PERMIAN-TERRESTRIAL-TIMING-001` | ¿Fueron sincrónicas las crisis de tierra y mar? | Karoo favorece proximidad | Cathaysia fecha colapso tropical posterior | depende de región/variable; no línea mundial | C-D |
+| `CONT-TRIASSIC-RECOVERY-001` | ¿Cuándo terminó la recuperación? | riqueza marina vuelve cerca de ~5 Myr y Guiyang revela complejidad temprana | función/redes y tierra permanecen perturbadas más tiempo | abierta por métrica y región | B local; C-D global |
+| `CONT-TRIASSIC-HOTHOUSE-001` | ¿Qué sostuvo el calor temprano? | retroalimentación carbono–sílice y pérdida vegetal reproducen persistencia | desgasificación residual y otros bucles pueden contribuir | estado robusto; mecanismo abierto | B estado; C-PROV causa |
+| `CONT-TRIASSIC-NYASASAURUS-001` | ¿`Nyasasaurus` pertenece a Dinosauria? | caracteres humerales/vertebrales permiten incluirlo | posición hermana inmediata también es compatible | abierta por material | C-D |
+| `CONT-TRIASSIC-CPE-001` | ¿El CPE impulsó dinosaurios? | huellas/cuerpos y ambiente coinciden | muestreo, clima y oportunidad no fijan dirección causal | coincidencia robusta; causa abierta | B tiempo; C-D causa |
+| `CONT-TRIASSIC-DINOSAUR-DOMINANCE-001` | ¿Qué controló el dominio diacrónico? | clima restringió expansión en trópicos | incumbencia, recursos, preservación e innovación | abierta en pesos/regiones | B patrón; C-D causa |
+| `CONT-TRIASSIC-MAMMAL-CROWN-001` | ¿Mammalia corona llegó al Triásico? | algunas topologías incluyen haramíyidos | `Haramiyavia` fuera de corona retrasa el nodo | abierta por árbol/definición | C-D |
+| `CONT-TRIASSIC-BRASILODON-001` | ¿Qué implica la difiodoncia propuesta? | serie mandibular apoya reemplazo limitado | muestra/ontogenia y homología no entregan paquete mamaliano | rasgo condicionado; identidad abierta | B-COND; D corona |
+| `CONT-TRIASSIC-JAW-HOMOPLASY-001` | ¿Cuántas veces surgió la articulación mamaliana? | micro-CT recupera homoplasia en `Riograndia` | deformación y topología pueden mover homología | abierta en detalle | B |
+| `CONT-TRIASSIC-CAMP-PHASE-001` | ¿Qué fase de CAMP fue decisiva? | intrusiones/sills preceden lavas conservadas | eruptivas, intrusivas y termogénicas se solapan | tiempo fuerte; gases abiertos | A-B tiempo; C causa |
+| `CONT-TRIASSIC-ETE-KILLCHAIN-001` | ¿Qué mecanismo mató y dónde? | calor, acidificación, desoxigenación y estrés terrestre convergen | pesos varían por ambiente y clado | red robusta; reparto abierto | B mecanismos; C-D pesos |
+| `CONT-TRIASSIC-AFTERMATH-001` | ¿Por qué se expandieron los dinosaurios después? | pérdida de incumbentes abrió ecospace | clima, innovación, azar y competencia también influyen | oportunidad apoyada; superioridad no demostrada | B-COND |
 
 ## CONT-COSMOS-H0-001 — Dos rutas hacia la tasa actual
 
@@ -1433,3 +1444,69 @@ Calor, acidificación, hipoxia/euxinia, nutrientes, UV-B y extremos cuentan con 
 Karoo aproxima fases terrestres y marinas dentro de su incertidumbre; Cathaysia fecha un colapso forestal posterior al inicio marino. Ecosistema, variable y paleolatitud no son réplicas de un mismo horizonte.
 
 **Prueba discriminatoria:** redes de tobas CA-ID-TIMS que atraviesen la transición en varias paleolatitudes y midan en las mismas capas cuerpos, polen, abundancia, fuego y facies.
+
+## CONT-TRIASSIC-RECOVERY-001 — Una recuperación, varios cronómetros
+
+Riqueza genérica marina, equidad, abundancia, niveles tróficos y estabilidad de red no regresaron al mismo tiempo. Guiyang demuestra complejidad local temprana, mientras bases globales y tetrápodos continentales conservan recuperación prolongada; ninguna métrica representa por sí sola a la biosfera.
+
+**Prueba discriminatoria:** series estandarizadas y cofechadas de riqueza, abundancia y estructura trófica en varias cuencas, con protocolos de muestreo y detectabilidad comparables.
+
+## CONT-TRIASSIC-HOTHOUSE-001 — El calor persistente admite varios bucles
+
+El superinvernadero temprano está apoyado por proxies, pero su duración puede emerger de reciclaje carbono–sílice, colapso vegetal, desgasificación residual, anoxia y retroalimentaciones acopladas. Los modelos recientes reproducen partes del registro sin medir directamente el peso histórico de cada bucle.
+
+**Prueba discriminatoria:** predicciones fuera de muestra y espacialmente distintas de cada mecanismo, contrastadas con series independientes de temperatura, arcillas, sílice, vegetación, carbono y redox.
+
+## CONT-TRIASSIC-NYASASAURUS-001 — El signo de interrogación es filogenético
+
+El húmero y las vértebras de `Nyasasaurus` reúnen caracteres próximos a Dinosauria, pero el material fragmentario permite recuperarlo dentro del clado o como hermano inmediato. La primera opción adelanta el mínimo; la segunda sólo restringe el tallo cercano.
+
+**Prueba discriminatoria:** material craneal y postcraneal asociado, bien fechado, que aporte sinapomorfías no ambiguas y estabilice su posición en matrices independientes.
+
+## CONT-TRIASSIC-CPE-001 — Coincidencia no asigna el motor
+
+Huellas, cuerpos y cambios ambientales vinculan la diversificación dinosauriana con el Episodio Pluvial Carniense. Sin embargo, Wrangellia, clima, vegetación, extinciones, oportunidad ecológica y muestreo covarían, y distintos clados responden de manera desigual.
+
+**Prueba discriminatoria:** cronologías de alta precisión que comparen tasas antes/durante/después del CPE en varias paleolatitudes y produzcan predicciones exclusivas para clima, volcanismo y sesgo de preservación.
+
+## CONT-TRIASSIC-DINOSAUR-DOMINANCE-001 — El dominio no tuvo una sola fecha
+
+Faunas tropicales de Chinle muestran dinosaurios raros durante parte del Triásico tardío, mientras otras latitudes registran expansión anterior. Clima, recursos, incumbencia pseudosuquia y preservación pueden producir esa diacronía sin una causa universal.
+
+**Prueba discriminatoria:** abundancias y ocupación de nicho corregidas por muestreo en transectos paleolatitudinales, comparadas con modelos climáticos y la distribución simultánea de competidores.
+
+## CONT-TRIASSIC-MAMMAL-CROWN-001 — Un diente mueve la edad de una corona
+
+La posición de haramíyidos dentro o fuera de Mammalia corona cambia cuánto se extiende el linaje vivo hacia el Triásico. `Haramiyavia` añade mandíbula y oclusión, pero matrices, caracteres faltantes y definiciones del nodo todavía sostienen topologías rivales.
+
+**Prueba discriminatoria:** cráneos y postcráneos triásicos más completos, matrices integradas y análisis de sensibilidad que mantengan la misma posición bajo codificaciones y modelos alternativos.
+
+## CONT-TRIASSIC-BRASILODON-001 — Difiodoncia no resuelve identidad completa
+
+Tres mandíbulas de `Brasilodon` se interpretan como etapas de reemplazo limitado. Incluso si la difiodoncia es correcta, no prueba por sí sola corona mamaliana, lactancia, pelo, endotermia moderna ni condición placentaria.
+
+**Prueba discriminatoria:** series ontogenéticas mayores con cráneo/postcráneo asociado y caracteres independientes que separen homología mamaliana de convergencia o reemplazo incompletamente muestreado.
+
+## CONT-TRIASSIC-JAW-HOMOPLASY-001 — Una articulación puede aparecer más de una vez
+
+Micro-CT revisó los contactos de `Brasilodon` y `Riograndia` y recuperó una articulación dentario–escamosal independiente en este último. Deformación, segmentación y topología filogenética condicionan si el parecido es homólogo o convergente.
+
+**Prueba discriminatoria:** ejemplares no deformados y articulados, reconstruidos por equipos independientes y analizados en árboles que incluyan transiciones mandibulares y oído medio como caracteres separados.
+
+## CONT-TRIASSIC-CAMP-PHASE-001 — La primera lava no es el primer pulso
+
+Edades U–Pb sitúan intrusiones CAMP y sills en sedimentos orgánicos antes de las coladas superficiales conservadas. La fase que más gases emitió puede no coincidir con el volumen de lava visible, y masa, composición y tasa siguen inferidas.
+
+**Prueba discriminatoria:** geocronología densa de lavas, diques y sills enlazada a trazadores de fuente y balances de volátiles pulso por pulso.
+
+## CONT-TRIASSIC-ETE-KILLCHAIN-001 — Coincidir no reparte mortalidad
+
+CAMP, carbono, mercurio, calentamiento, acidificación, desoxigenación y colapso vegetal forman una cadena plausible. Sus señales covarían y su selectividad difiere entre plataformas, océano abierto y tierra, por lo que no existe todavía un porcentaje causal universal.
+
+**Prueba discriminatoria:** cronologías y mapas de selectividad que predigan respuestas distintas para calor, pH, oxígeno y estrés terrestre, contrastados en las mismas secciones y clados.
+
+## CONT-TRIASSIC-AFTERMATH-001 — Oportunidad no demuestra superioridad previa
+
+La pérdida de muchos pseudosuquios y otros incumbentes precede la expansión jurásica de dinosaurios. El orden es compatible con liberación ecológica, pero no observa competencia directa ni excluye clima, contingencia, innovación y azar de supervivencia.
+
+**Prueba discriminatoria:** modelos de ocupación y rasgos que predigan qué linajes debían expandirse bajo liberación, frente a clima o innovación, y acierten en regiones independientes.

@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="980" viewBox="0 0 1600 980" role="img" aria-labelledby="title desc">
+  <title id="title">Dos cadenas: de fósil a nodo y de CAMP a recambio</title>
+  <desc id="desc">Diagrama en dos columnas con seis pasos para inferir un nodo evolutivo y seis pasos para conectar la provincia magmática CAMP con extinción y expansión de supervivientes.</desc>
+  <defs>
+    <marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0 0 10 5 0 10Z" fill="#9ddbd5"/></marker>
+    <style>
+      .bg{fill:#061719}.title{fill:#f6ead7;font:700 42px system-ui,sans-serif}.sub{fill:#b8c9c8;font:19px system-ui,sans-serif}.col{fill:#f3ce83;font:700 27px system-ui,sans-serif}.box{stroke-width:1.4}.l1{fill:#284d44;stroke:#6ea78c}.l2{fill:#33493f;stroke:#89965e}.r1{fill:#344e58;stroke:#69a9b6}.r2{fill:#3b4143;stroke:#98784d}.last{fill:#342f2a;stroke:#d16f39;stroke-width:2}.h{fill:#f6ead7;font:700 20px system-ui,sans-serif}.t{fill:#c4d0cd;font:16px system-ui,sans-serif}.n{fill:#102326;font:700 16px system-ui,sans-serif}.c1{fill:#dce8a3}.c2{fill:#bfe6ed}.c3{fill:#f1cf7b}.c4{fill:#f0a06d}.arrow{stroke:#9ddbd5;stroke-width:3;marker-end:url(#a)}.dash{stroke:#6c9291;stroke-width:2;stroke-dasharray:8 10}.foot{fill:#0e292a;stroke-width:1.5}.ft{fill:#ffcf68;font:700 17px system-ui,sans-serif}.fs{fill:#b7c7c4;font:15px system-ui,sans-serif}
+    </style>
+  </defs>
+  <rect class="bg" width="1600" height="980"/>
+  <text class="title" x="800" y="58" text-anchor="middle">Dos cadenas que no admiten atajos</text>
+  <text class="sub" x="800" y="92" text-anchor="middle">La izquierda reconstruye parentesco; la derecha reconstruye causalidad y oportunidad.</text>
+  <text class="col" x="400" y="145" text-anchor="middle">FÓSIL → CARÁCTER → NODO</text>
+  <text class="col" x="1200" y="145" text-anchor="middle">CAMP → CRISIS → RECAMBIO</text>
+  <line class="dash" x1="800" y1="142" x2="800" y2="916"/>
+
+  <g transform="translate(88 184)">
+    <rect class="box l1" width="624" height="86" rx="17"/><circle class="c1" cx="37" cy="33" r="18"/><text class="n" x="37" y="39" text-anchor="middle">1</text><text class="h" x="72" y="34">Objeto y contexto</text><text class="t" x="72" y="64">hueso, diente o huella + capa + localidad</text>
+    <path class="arrow" d="M312 86V116"/>
+    <rect class="box l1" y="116" width="624" height="86" rx="17"/><circle class="c1" cx="37" cy="149" r="18"/><text class="n" x="37" y="155" text-anchor="middle">2</text><text class="h" x="72" y="150">Homología o productor</text><text class="t" x="72" y="180">anatomía 3D + ontogenia + tafonomía</text>
+    <path class="arrow" d="M312 202V232"/>
+    <rect class="box l2" y="232" width="624" height="86" rx="17"/><circle class="c1" cx="37" cy="265" r="18"/><text class="n" x="37" y="271" text-anchor="middle">3</text><text class="h" x="72" y="266">Carácter codificado</text><text class="t" x="72" y="296">estado, ausencia, incertidumbre y convergencia</text>
+    <path class="arrow" d="M312 318V348"/>
+    <rect class="box l2" y="348" width="624" height="86" rx="17"/><circle class="c3" cx="37" cy="381" r="18"/><text class="n" x="37" y="387" text-anchor="middle">4</text><text class="h" x="72" y="382">Matriz, definición y modelo</text><text class="t" x="72" y="412">Dinosauria o Mammalia: topologías alternativas</text>
+    <path class="arrow" d="M312 434V464"/>
+    <rect class="box l2" y="464" width="624" height="86" rx="17" stroke-dasharray="7 7"/><circle class="c3" cx="37" cy="497" r="18"/><text class="n" x="37" y="503" text-anchor="middle">5</text><text class="h" x="72" y="498">Nodo condicionado</text><text class="t" x="72" y="528">dinosauriforme/dinosaurio · tallo/corona</text>
+    <path class="arrow" d="M312 550V580"/>
+    <rect class="last" y="580" width="624" height="86" rx="17"/><circle class="c4" cx="37" cy="613" r="18"/><text class="n" x="37" y="619" text-anchor="middle">6</text><text class="h" x="72" y="614">Mínimo, no nacimiento</text><text class="t" x="72" y="644">edad de capa + línea fantasma + error explícito</text>
+  </g>
+
+  <g transform="translate(888 184)">
+    <rect class="box r1" width="624" height="86" rx="17"/><circle class="c2" cx="37" cy="33" r="18"/><text class="n" x="37" y="39" text-anchor="middle">1</text><text class="h" x="72" y="34">Fase magmática fechada</text><text class="t" x="72" y="64">dique + sill + lava + U–Pb + geometría</text>
+    <path class="arrow" d="M312 86V116"/>
+    <rect class="box r1" y="116" width="624" height="86" rx="17"/><circle class="c2" cx="37" cy="149" r="18"/><text class="n" x="37" y="155" text-anchor="middle">2</text><text class="h" x="72" y="150">Fuente y tasa de volátiles</text><text class="t" x="72" y="180">magma + huésped orgánico → CO₂, SO₂, Hg</text>
+    <path class="arrow" d="M312 202V232"/>
+    <rect class="box r1" y="232" width="624" height="86" rx="17"/><circle class="c2" cx="37" cy="265" r="18"/><text class="n" x="37" y="271" text-anchor="middle">3</text><text class="h" x="72" y="266">Forzamiento del sistema</text><text class="t" x="72" y="296">calor + carbono + lluvia + circulación</text>
+    <path class="arrow" d="M312 318V348"/>
+    <rect class="box r2" y="348" width="624" height="86" rx="17" stroke-dasharray="7 7"/><circle class="c3" cx="37" cy="381" r="18"/><text class="n" x="37" y="387" text-anchor="middle">4</text><text class="h" x="72" y="382">Hábitat y exposición</text><text class="t" x="72" y="412">pH + O₂ + temperatura + fuego: regionales</text>
+    <path class="arrow" d="M312 434V464"/>
+    <rect class="box r2" y="464" width="624" height="86" rx="17" stroke-dasharray="7 7"/><circle class="c3" cx="37" cy="497" r="18"/><text class="n" x="37" y="503" text-anchor="middle">5</text><text class="h" x="72" y="498">Mortalidad y supervivencia</text><text class="t" x="72" y="528">fisiología + dieta + latitud + azar histórico</text>
+    <path class="arrow" d="M312 550V580"/>
+    <rect class="last" y="580" width="624" height="86" rx="17"/><circle class="c4" cx="37" cy="613" r="18"/><text class="n" x="37" y="619" text-anchor="middle">6</text><text class="h" x="72" y="614">Nichos libres y expansión</text><text class="t" x="72" y="644">oportunidad poscrisis; no superioridad probada</text>
+  </g>
+
+  <rect class="foot" x="88" y="884" width="624" height="65" rx="16" stroke="#789452"/><text class="ft" x="400" y="913" text-anchor="middle">Un rasgo no contiene un linaje completo</text><text class="fs" x="400" y="937" text-anchor="middle">Convergencia y definición cambian el nodo.</text>
+  <rect class="foot" x="888" y="884" width="624" height="65" rx="16" stroke="#5c98a4"/><text class="ft" x="1200" y="913" text-anchor="middle">La oportunidad aparece al final de la cadena</text><text class="fs" x="1200" y="937" text-anchor="middle">Supervivir no demuestra haber causado la pérdida rival.</text>
+</svg>

@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1120" viewBox="0 0 1600 1120" role="img" aria-labelledby="title desc">
+  <title id="title">Triásico: cuatro archivos y cuatro saltos prohibidos</title>
+  <desc id="desc">Matriz que separa las pruebas de recuperación, radiación arcosauria, evolución mammaliaforme y crisis de CAMP de conclusiones que esos archivos no permiten por sí solos.</desc>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0 0 10 5 0 10Z" fill="#9bd5c8"/></marker>
+    <style>
+      .bg{fill:#07191b}.title{fill:#f5ead7;font:700 42px system-ui,sans-serif}.sub{fill:#b8c9c8;font:20px system-ui,sans-serif}.head{fill:#f3ce83;font:700 20px system-ui,sans-serif;letter-spacing:1px}.box{stroke-width:1.4}.b1{fill:#183b36;stroke:#4e8876}.b2{fill:#243a40;stroke:#5d8b98}.b3{fill:#303142;stroke:#777492}.b4{fill:#3c3930;stroke:#918052}.no{fill:#3c2922;stroke:#a86638}.h{fill:#f5ead7;font:700 21px system-ui,sans-serif}.t{fill:#c4d1ce;font:17px system-ui,sans-serif}.arrow{stroke:#9bd5c8;stroke-width:4;marker-end:url(#arrow)}.rule{fill:#0f2929;stroke:#b27c2e;stroke-width:2}.r1{fill:#ffcc69;font:700 19px system-ui,sans-serif}.r2{fill:#aebfbc;font:15px system-ui,sans-serif}
+    </style>
+  </defs>
+  <rect class="bg" width="1600" height="1120"/>
+  <circle cx="1450" cy="90" r="205" fill="#8b482d" opacity=".10"/><circle cx="175" cy="1055" r="240" fill="#2c7466" opacity=".10"/>
+  <text class="title" x="80" y="66">Triásico: cuatro archivos, cuatro inferencias</text>
+  <text class="sub" x="80" y="101">Recuperación, nodo y crisis sólo se sostienen por cadenas distintas.</text>
+  <text class="head" x="82" y="154">OBJETO</text><text class="head" x="423" y="154">MEDICIÓN</text><text class="head" x="808" y="154">RESULTADO PERMITIDO</text><text class="head" x="1204" y="154">NO DEMUESTRA</text>
+
+  <g transform="translate(64 178)">
+    <rect class="box b1" width="292" height="185" rx="18"/><text class="h" x="26" y="39">Fósiles y ocurrencias</text><text class="t" x="26" y="74">taxón · edad · localidad</text><text class="t" x="26" y="102">rasgos · abundancia</text><text class="t" x="26" y="130">temperatura · redox</text>
+    <path class="arrow" d="M292 92H328"/><rect class="box b1" x="336" width="336" height="185" rx="18"/><text class="h" x="362" y="39">Métricas separadas</text><text class="t" x="362" y="74">riqueza estandarizada</text><text class="t" x="362" y="102">equidad + función + red</text><text class="t" x="362" y="130">escala local/global</text>
+    <path class="arrow" d="M672 92H710"/><rect class="box b1" x="720" width="356" height="185" rx="18"/><text class="h" x="746" y="39">Recuperaciones múltiples</text><text class="t" x="746" y="74">Guiyang complejo temprano</text><text class="t" x="746" y="102">riqueza ~5 Myr</text><text class="t" x="746" y="130">red aún reestructurada</text>
+    <path class="arrow" d="M1076 92H1114"/><rect class="box no" x="1120" width="352" height="185" rx="18"/><text class="h" x="1146" y="39">Un planeta ya curado</text><text class="t" x="1146" y="74">una fecha universal</text><text class="t" x="1146" y="102">Lagerstätte = océano</text><text class="t" x="1146" y="130">riqueza = estabilidad</text>
+  </g>
+
+  <g transform="translate(64 386)">
+    <rect class="box b2" width="292" height="185" rx="18"/><text class="h" x="26" y="39">Huesos, huellas, edades</text><text class="t" x="26" y="74">caracteres homólogos</text><text class="t" x="26" y="102">productor probable</text><text class="t" x="26" y="130">circón y capa</text>
+    <path class="arrow" d="M292 92H328"/><rect class="box b2" x="336" width="336" height="185" rx="18"/><text class="h" x="362" y="39">Árbol + muestreo</text><text class="t" x="362" y="74">matriz y topología</text><text class="t" x="362" y="102">líneas fantasma</text><text class="t" x="362" y="130">abundancia por cuenca</text>
+    <path class="arrow" d="M672 92H710"/><rect class="box b2" x="720" width="356" height="185" rx="18"/><text class="h" x="746" y="39">Radiación por fases</text><text class="t" x="746" y="74">dos líneas arcosaurias</text><text class="t" x="746" y="102">mínimo dinosauriano</text><text class="t" x="746" y="130">dominio diacrónico</text>
+    <path class="arrow" d="M1076 92H1114"/><rect class="box no" x="1120" width="352" height="185" rx="18"/><text class="h" x="1146" y="39">Dinosaurios inevitables</text><text class="t" x="1146" y="74">primer individuo</text><text class="t" x="1146" y="102">victoria competitiva</text><text class="t" x="1146" y="130">dominio desde el origen</text>
+  </g>
+
+  <g transform="translate(64 594)">
+    <rect class="box b3" width="292" height="185" rx="18"/><text class="h" x="26" y="39">Dientes y mandíbulas</text><text class="t" x="26" y="74">ontogenia · desgaste</text><text class="t" x="26" y="102">micro-CT 3D</text><text class="t" x="26" y="130">cemento · foramen</text>
+    <path class="arrow" d="M292 92H328"/><rect class="box b3" x="336" width="336" height="185" rx="18"/><text class="h" x="362" y="39">Carácter + definición</text><text class="t" x="362" y="74">reemplazo dental</text><text class="t" x="362" y="102">articulación/homoplasia</text><text class="t" x="362" y="130">corona vs. tallo</text>
+    <path class="arrow" d="M672 92H710"/><rect class="box b3" x="720" width="356" height="185" rx="18"/><text class="h" x="746" y="39">Mosaico mammaliaforme</text><text class="t" x="746" y="74">difiodoncia probable</text><text class="t" x="746" y="102">mandíbula experimental</text><text class="t" x="746" y="130">fisiología condicionada</text>
+    <path class="arrow" d="M1076 92H1114"/><rect class="box no" x="1120" width="352" height="185" rx="18"/><text class="h" x="1146" y="39">Ratón placentario</text><text class="t" x="1146" y="74">leche y pelo observados</text><text class="t" x="1146" y="102">corona por un rasgo</text><text class="t" x="1146" y="130">paquete instantáneo</text>
+  </g>
+
+  <g transform="translate(64 802)">
+    <rect class="box b4" width="292" height="185" rx="18"/><text class="h" x="26" y="39">Diques, sills, Hg, rangos</text><text class="t" x="26" y="74">U–Pb · geometría</text><text class="t" x="26" y="102">C · polen · redox</text><text class="t" x="26" y="130">FO/LO y abundancia</text>
+    <path class="arrow" d="M292 92H328"/><rect class="box b4" x="336" width="336" height="185" rx="18"/><text class="h" x="362" y="39">Tiempo + mecanismo</text><text class="t" x="362" y="74">fase intrusiva/eruptiva</text><text class="t" x="362" y="102">gas → clima → hábitat</text><text class="t" x="362" y="130">exposición + fisiología</text>
+    <path class="arrow" d="M672 92H710"/><rect class="box b4" x="720" width="356" height="185" rx="18"/><text class="h" x="746" y="39">Crisis multiestrés</text><text class="t" x="746" y="74">CAMP sincrónica</text><text class="t" x="746" y="102">calor · ácido · poco O₂</text><text class="t" x="746" y="130">oportunidad poscrisis</text>
+    <path class="arrow" d="M1076 92H1114"/><rect class="box no" x="1120" width="352" height="185" rx="18"/><text class="h" x="1146" y="39">Un volcán coronador</text><text class="t" x="1146" y="74">lava = inicio</text><text class="t" x="1146" y="102">Hg = muerte directa</text><text class="t" x="1146" y="130">superioridad superviviente</text>
+  </g>
+
+  <rect class="rule" x="64" y="1020" width="1472" height="68" rx="18"/><text class="r1" x="800" y="1050" text-anchor="middle">REGLA: métrica + nodo + tiempo + escala + alternativa</text><text class="r2" x="800" y="1076" text-anchor="middle">Una aparición, un diente o una colada no contienen por sí solos una recuperación, un origen ni una causa.</text>
+</svg>
