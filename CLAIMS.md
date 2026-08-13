@@ -454,6 +454,33 @@ Este archivo es el índice canónico. La letra de confianza califica exactamente
 | `CLAIM-NEOGENE-GABI-EARLY-001` | Pulsos biológicos precedieron el cierre final; islas, balsas o conexiones transitorias permiten dispersión sin puente permanente. | B patrón; C-COND ruta | AUDITADO | `EVID-NEOGENE-GABI-001` | `INV-NEOGENE-001` |
 | `CLAIM-NEOGENE-GABI-ASYMMETRY-001` | Un modelo de ~`20 000` ocurrencias atribuye la asimetría mamaliana sobre todo a mayor extinción de nativos sudamericanos, no a mayor dispersión norteña. | B-COND | AUDITADO | `EVID-NEOGENE-GABI-ASYMMETRY-001` | `INV-NEOGENE-001` |
 | `CLAIM-NEOGENE-PANAMA-CLIMATE-001` | Panamá pudo modular salinidad y circulación, pero no constituye causa suficiente única del enfriamiento ni de la glaciación cuaternaria. | B mecanismo; C pesos | AUDITADO | `EVID-NEOGENE-PANAMA-CLIMATE-001` | `INV-NEOGENE-001` |
+| `CLAIM-QUATERNARY-SCOPE-001` | El Cuaternario exige separar fronteras, órbita, MPT, cambios abruptos, deglaciación y extinciones como seis relojes. | A-SEM | AUDITADO | `EVID-QUATERNARY-BOUNDARIES-001`, `EVID-QUATERNARY-ORBITAL-001`, `EVID-QUATERNARY-MPT-001`, `EVID-QUATERNARY-ABRUPT-001`, `EVID-QUATERNARY-LGM-001`, `EVID-QUATERNARY-MEGAFAUNA-GLOBAL-001` | `INV-QUATERNARY-001` |
+| `CLAIM-QUATERNARY-BOUNDARIES-001` | El Cuaternario/Pleistoceno comienza en Monte San Nicola a `2.58 Ma`; el Holoceno comienza en NGRIP2 a `11 700 yr b2k`. | A horizonte; B edades | AUDITADO | `EVID-QUATERNARY-BOUNDARIES-001` | `INV-QUATERNARY-001` |
+| `CLAIM-QUATERNARY-CHIBANIAN-GSSP-001` | La base chibaniense es la base de Byk-E en Chiba, calibrada en `774.1 ka`, no el punto medio exacto de Matuyama–Brunhes. | A horizonte; B edad | AUDITADO | `EVID-QUATERNARY-CHIBANIAN-001` | `INV-QUATERNARY-001` |
+| `CLAIM-QUATERNARY-UPPER-PLEISTOCENE-001` | La base del Pleistoceno superior carece todavía de GSSP ratificado. | A | AUDITADO | `EVID-QUATERNARY-BOUNDARIES-001` | `INV-QUATERNARY-001` |
+| `CLAIM-QUATERNARY-HOLOCENE-GSSP-001` | El GSSP holoceno registra el final abrupto del Younger Dryas en NGRIP2 y se calibra en `11 700 yr b2k`. | A horizonte; B edad | AUDITADO | `EVID-QUATERNARY-BOUNDARIES-001` | `INV-QUATERNARY-001` |
+| `CLAIM-QUATERNARY-ANTHROPOCENE-STATUS-001` | IUGS/ICS rechazó en 2024 formalizar el Antropoceno como época basada en 1952; el concepto sigue siendo utilizable fuera de ese rango formal. | A decisión | AUDITADO | `EVID-QUATERNARY-ANTHROPOCENE-001` | `INV-QUATERNARY-001` |
+| `CLAIM-QUATERNARY-ORBITAL-PACING-001` | Frecuencias próximas a precesión, oblicuidad y ~`100 kyr` aparecen en registros glaciares, pero requieren retroalimentaciones para producir amplitud. | A-B patrón; B-COND mecanismo | AUDITADO | `EVID-QUATERNARY-ORBITAL-001` | `INV-QUATERNARY-001` |
+| `CLAIM-QUATERNARY-DELTA18O-001` | El `δ18O` bentónico combina temperatura profunda y volumen de hielo; LR04 es una pila correlacionada, no una medición pura independiente. | A-SEM; B-COND | AUDITADO | `EVID-QUATERNARY-LR04-001` | `INV-QUATERNARY-001` |
+| `CLAIM-QUATERNARY-ICE-CO2-001` | Burbujas antárticas miden gases antiguos hasta `800 ka`, con diferencia de edad gas–hielo y suavizado por cierre de poros. | A medición; B cronología | AUDITADO | `EVID-QUATERNARY-ICE-CO2-001` | `INV-QUATERNARY-001` |
+| `CLAIM-QUATERNARY-MPT-PATTERN-001` | La MPT transformó ciclos dominados por `41 kyr` en oscilaciones más largas y asimétricas entre ~`1.2–0.7 Ma`. | A-B | AUDITADO | `EVID-QUATERNARY-MPT-001` | `INV-QUATERNARY-001` |
+| `CLAIM-QUATERNARY-MPT-CAUSE-001` | CO₂, erosión de regolito, umbrales del manto y océano son mecanismos rivales o complementarios; ninguno es causa única demostrada. | C-COND | AUDITADO | `EVID-QUATERNARY-MPT-001` | `INV-QUATERNARY-001` |
+| `CLAIM-QUATERNARY-MPT-CO2-2026-001` | Hielo discontinuo de Allan Hills sugiere caída media pequeña antes de la MPT y estabilidad aproximada durante ella; no constituye serie continua. | B-PROV patrón; C causa | AUDITADO | `EVID-QUATERNARY-MPT-CO2-2026-001` | `INV-QUATERNARY-001` |
+| `CLAIM-QUATERNARY-LGM-001` | El Último Máximo Glacial fue un intervalo aproximado `26.5–19/20 ka`, con máximos regionales no idénticos. | B | AUDITADO | `EVID-QUATERNARY-LGM-001` | `INV-QUATERNARY-001` |
+| `CLAIM-QUATERNARY-ABRUPT-GREENLAND-001` | Testigos groenlandeses registran transiciones en años o décadas; su velocidad es regional antes de sincronización externa. | A-B regional | AUDITADO | `EVID-QUATERNARY-ABRUPT-001` | `INV-QUATERNARY-001` |
+| `CLAIM-QUATERNARY-BIPOLAR-SEESAW-001` | La respuesta antártica gradual sigue cambios abruptos del norte por ~`200 años`, compatible con un balancín bipolar. | B-COND | AUDITADO | `EVID-QUATERNARY-BIPOLAR-001` | `INV-QUATERNARY-001` |
+| `CLAIM-QUATERNARY-YD-REGIONAL-001` | El Younger Dryas produjo respuestas hidroclimáticas heterogéneas; no fue un enfriamiento mundial idéntico. | B | AUDITADO | `EVID-QUATERNARY-YD-001` | `INV-QUATERNARY-001` |
+| `CLAIM-QUATERNARY-YD-IMPACT-001` | La hipótesis de impacto del Younger Dryas permanece disputada y no está establecida por cronología ni marcadores exclusivos. | B crítica; D mecanismo | AUDITADO | `EVID-QUATERNARY-YD-IMPACT-001` | `INV-QUATERNARY-001` |
+| `CLAIM-QUATERNARY-RADIOCARBON-001` | Una edad radiocarbónica necesita calibración y corrección de reservorio para producir una distribución calendario. | A-SEM; B | AUDITADO | `EVID-QUATERNARY-RADIOCARBON-001` | `INV-QUATERNARY-001` |
+| `CLAIM-QUATERNARY-MEGAFAUNA-DEFINITION-001` | «Megafauna» usa umbrales variables —comúnmente ~`44 kg`, a veces otros— que cambian listas y tasas. | A-SEM | AUDITADO | `EVID-QUATERNARY-MEGAFAUNA-GLOBAL-001` | `INV-QUATERNARY-001` |
+| `CLAIM-QUATERNARY-MEGAFAUNA-SELECTIVITY-001` | Las pérdidas tardocuaternarias fueron desproporcionadas entre mamíferos grandes, no una muestra aleatoria de la fauna. | A-B | AUDITADO | `EVID-QUATERNARY-MEGAFAUNA-SELECTIVITY-001` | `INV-QUATERNARY-001` |
+| `CLAIM-QUATERNARY-MEGAFAUNA-TIMING-001` | Última aparición observada, intervalo de extinción y causa son inferencias distintas condicionadas por tafonomía y detectabilidad. | A-SEM; B-COND | AUDITADO | `EVID-QUATERNARY-MEGAFAUNA-TIMING-001` | `INV-QUATERNARY-001` |
+| `CLAIM-QUATERNARY-MEGAFAUNA-GLOBAL-001` | A escala global la severidad de extinción se asocia fuertemente con expansión humana, sin resolver cada mecanismo regional. | B-COND global | AUDITADO | `EVID-QUATERNARY-MEGAFAUNA-GLOBAL-001` | `INV-QUATERNARY-001` |
+| `CLAIM-QUATERNARY-MEGAFAUNA-SPECIES-001` | ADN, rangos y clima muestran respuestas demográficas específicas por especie, incompatibles con una sola trayectoria universal. | B-COND | AUDITADO | `EVID-QUATERNARY-MEGAFAUNA-SPECIES-001` | `INV-QUATERNARY-001` |
+| `CLAIM-QUATERNARY-MEGAFAUNA-AUSTRALIA-001` | Un registro australiano sitúa la caída de señal de megafauna en `45–43.1 ka` y favorece influencia humana, con límites del proxy. | B-COND regional | AUDITADO | `EVID-QUATERNARY-MEGAFAUNA-AUSTRALIA-001` | `INV-QUATERNARY-001` |
+| `CLAIM-QUATERNARY-MEGAFAUNA-PATAGONIA-001` | Patagonia apoya una sinergia entre ocupación humana y calentamiento, no exclusividad universal de uno de los factores. | B-COND regional | AUDITADO | `EVID-QUATERNARY-MEGAFAUNA-PATAGONIA-001` | `INV-QUATERNARY-001` |
+| `CLAIM-QUATERNARY-MEGAFAUNA-NORTHAMERICA-001` | Norteamérica conserva un pulso terminal, pero la atribución relativa a clima y población humana cambia con cronologías y modelos. | B patrón; C causa | AUDITADO | `EVID-QUATERNARY-MEGAFAUNA-NORTHAMERICA-001` | `INV-QUATERNARY-001` |
+| `CLAIM-QUATERNARY-MEGAFAUNA-ECOLOGY-001` | La pérdida de grandes herbívoros pudo alterar fuego y vegetación; secuencias locales no establecen una consecuencia mundial uniforme. | B-COND regional | AUDITADO | `EVID-QUATERNARY-MEGAFAUNA-ECOLOGY-001` | `INV-QUATERNARY-001` |
 
 ## Fichas resumidas
 
@@ -2740,6 +2767,44 @@ Este archivo es el índice canónico. La letra de confianza califica exactamente
 - **Formulación:** intercambios anteriores al pulso principal, cierre final y asimetría posterior se separan por taxón, ruta, dispersión y extinción.
 - **No afirma:** que el primer cruce feche el puente completo, que más linajes norteños cruzaran necesariamente al sur ni que Panamá causara por sí solo la glaciación del hemisferio norte.
 - **Confianza:** B-COND para patrón fósil y asimetría; C-D para pesos causales climáticos globales.
+
+## Investigación 034 — Cuaternario: glaciaciones, megafauna y cambios rápidos
+
+### CLAIM-QUATERNARY-SCOPE-001 / BOUNDARIES-001 / CHIBANIAN-GSSP-001 / UPPER-PLEISTOCENE-001 / HOLOCENE-GSSP-001 / ANTHROPOCENE-STATUS-001
+
+- **Formulación:** las unidades formales dependen de estratotipos ratificados; las cifras sólo las calibran.
+- **No afirma:** que una frontera cause el proceso cercano ni que «Antropoceno» carezca de valor por no ser época formal.
+- **Confianza:** A para horizontes/decisiones; B para edades.
+
+### CLAIM-QUATERNARY-ORBITAL-PACING-001 / DELTA18O-001 / ICE-CO2-001
+
+- **Formulación:** órbita, señal oceánica y aire atrapado observan objetos distintos y se unen mediante modelos de insolación, fraccionamiento y cronología.
+- **No afirma:** órbita suficiente, `δ18O` puro ni edad gas–hielo idéntica.
+- **Falsador:** espectros robustos sin frecuencias orbitales o controles de fraccionamiento/cierre que inviertan las series.
+
+### CLAIM-QUATERNARY-MPT-PATTERN-001 / MPT-CAUSE-001 / MPT-CO2-2026-001
+
+- **Formulación:** el cambio de ritmo es robusto; el mecanismo permanece plural y el hielo antiguo de 2026 restringe versiones de gran caída media de `CO₂`.
+- **Límite:** instantáneas discontinuas no forman una curva continua.
+- **Prueba discriminatoria:** registro continuo pre-MPT con gas, cronología y preservación verificadas, junto con predicciones independientes de erosión y dinámica del manto.
+
+### CLAIM-QUATERNARY-LGM-001 / ABRUPT-GREENLAND-001 / BIPOLAR-SEESAW-001 / YD-REGIONAL-001 / YD-IMPACT-001
+
+- **Formulación:** máxima extensión, cambios abruptos, respuesta bipolar y Younger Dryas tienen escalas y sincronizadores distintos.
+- **No afirma:** fecha máxima universal, señal groenlandesa global ni impacto establecido.
+- **Confianza:** A-B para señales; B-COND para acoplamiento; D para un impacto causal.
+
+### CLAIM-QUATERNARY-RADIOCARBON-001 / MEGAFAUNA-DEFINITION-001 / MEGAFAUNA-TIMING-001 / MEGAFAUNA-SELECTIVITY-001
+
+- **Formulación:** muestra, calibración, umbral corporal, detectabilidad y evento terminal deben declararse antes de comparar extinciones.
+- **No afirma:** que el último fósil sea el último individuo o que exista un corte universal de megafauna.
+- **Falsador:** muestreo denso posterior con restos directos bien identificados y fechados que extienda supervivencias.
+
+### CLAIM-QUATERNARY-MEGAFAUNA-GLOBAL-001 / SPECIES-001 / AUSTRALIA-001 / PATAGONIA-001 / NORTHAMERICA-001 / ECOLOGY-001
+
+- **Formulación:** la señal humana global coexiste con trayectorias específicas y sinergias regionales; las consecuencias ecológicas se prueban localmente.
+- **No afirma:** sobrecaza universal, clima universal ni una cascada ecológica idéntica.
+- **Prueba discriminatoria:** modelos regionales preregistrados que integren llegada humana, clima, abundancia, preservación y predicciones fuera de muestra.
 
 ## Claims futuros
 

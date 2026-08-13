@@ -458,6 +458,20 @@ El mapa conserva cinco relojes: fronteras, clima, vegetación, hominoideos e ist
 
 La doble cadena muestra por qué un fitolito no basta para declarar una sabana C4 y por qué circones transportados no equivalen a una barrera terrestre continua.
 
+## 35. Investigación 034 — Cuaternario: seis relojes, no una Edad de Hielo
+
+![Portada conceptual del Cuaternario](assets/visuales/hero-cuaternario-glaciaciones-megafauna-cambios-rapidos.png)
+
+> **Portada conceptual:** separa sedimentos, microfósiles, hielos, espeleotemas, radiocarbono y restos de megafauna en ventanas no coetáneas. No representa una glaciación única, convivencia literal, impacto, caza ni causa universal.
+
+![Mapa de evidencia del Cuaternario](assets/visuales/mapa-investigacion-034.svg)
+
+El mapa conserva seis relojes: límites, órbita/hielo, MPT, cambios abruptos, extinción y atribución. Cada columna distingue archivo, traducción y salto prohibido.
+
+![Cadenas desde órbita hasta glaciación y desde última aparición hasta extinción](assets/visuales/de-orbita-a-glaciacion-y-de-ultima-aparicion-a-extincion.svg)
+
+La doble cadena muestra por qué una frecuencia orbital necesita retroalimentaciones para producir hielo y por qué el último fósil necesita calibración, tafonomía y detectabilidad antes de convertirse en intervalo de extinción o modelo causal.
+
 ## Procedencia
 
 El registro de creación, límites y prompt de cada pieza está en [`assets/visuales/README.md`](assets/visuales/README.md).
