@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1000" viewBox="0 0 1600 1000" role="img" aria-labelledby="title desc">
+  <title id="title">Mapa de evidencia de la Investigación 029</title>
+  <desc id="desc">Cinco rutas separan cronología y tectónica, evento toarciense, dinosaurios, avialanos y mamaliaformes.</desc>
+  <defs>
+    <style>
+      .bg{fill:#0d1820}.panel{fill:#142732;stroke:#557786;stroke-width:2}.head{font:700 33px system-ui,sans-serif;fill:#f2e6c9}.sub{font:600 23px system-ui,sans-serif;fill:#e5bb73}.txt{font:19px system-ui,sans-serif;fill:#d8e5e5}.small{font:16px system-ui,sans-serif;fill:#abc1c5}.arrow{stroke:#d38b52;stroke-width:4;fill:none;marker-end:url(#m)}.dash{stroke:#7aa3aa;stroke-width:3;stroke-dasharray:8 8;fill:none;marker-end:url(#m2)}
+    </style>
+    <marker id="m" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0 0l10 5-10 5z" fill="#d38b52"/></marker>
+    <marker id="m2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0 0l10 5-10 5z" fill="#7aa3aa"/></marker>
+  </defs>
+  <rect class="bg" width="1600" height="1000"/>
+  <text class="head" x="70" y="70">INVESTIGACIÓN 029 · JURÁSICO COMO RED DE TRANSICIONES</text>
+  <text class="small" x="70" y="104">Objetos medidos → puentes explícitos → resultados condicionados → saltos prohibidos</text>
+
+  <rect class="panel" x="60" y="145" width="470" height="245" rx="22"/>
+  <text class="sub" x="90" y="185">1 · TIEMPO Y PLACAS</text>
+  <text class="txt" x="90" y="226">Kuhjoch · tabla ICS · actas</text>
+  <text class="txt" x="90" y="260">fallas · cuencas · diques</text>
+  <text class="txt" x="90" y="294">márgenes · anomalías · polos</text>
+  <path class="arrow" d="M102 325H385"/>
+  <text class="small" x="90" y="362">límite / rift / ruptura / expansión</text>
+
+  <rect class="panel" x="565" y="145" width="470" height="245" rx="22"/>
+  <text class="sub" x="595" y="185">2 · TOARCIENSE</text>
+  <text class="txt" x="595" y="226">U–Pb · δ¹³C · magmas/sills</text>
+  <text class="txt" x="595" y="260">Mo/U · lutitas · modelo de caja</text>
+  <text class="txt" x="595" y="294">ocurrencias · rasgos · redes</text>
+  <path class="arrow" d="M607 325H890"/>
+  <text class="small" x="595" y="362">fuente → ambiente → cascada</text>
+
+  <rect class="panel" x="1070" y="145" width="470" height="245" rx="22"/>
+  <text class="sub" x="1100" y="185">3 · DINOSAURIOS</text>
+  <text class="txt" x="1100" y="226">esqueleto · alometría · árbol</text>
+  <text class="txt" x="1100" y="260">tejido · marcas de crecimiento</text>
+  <text class="txt" x="1100" y="294">cuello · dieta · neumática</text>
+  <path class="arrow" d="M1112 325H1395"/>
+  <text class="small" x="1100" y="362">masa / tasa / cascada funcional</text>
+
+  <rect class="panel" x="180" y="455" width="570" height="260" rx="22"/>
+  <text class="sub" x="215" y="497">4 · AVIALANOS</text>
+  <text class="txt" x="215" y="540">pluma + distribución + edad</text>
+  <text class="txt" x="215" y="576">hueso alar + CT + comparadores</text>
+  <text class="txt" x="215" y="612">cola + fusión + matriz + definición</text>
+  <path class="arrow" d="M230 647H600"/>
+  <text class="small" x="215" y="686">tegumento / capacidad / nodo condicionado</text>
+
+  <rect class="panel" x="850" y="455" width="570" height="260" rx="22"/>
+  <text class="sub" x="885" y="497">5 · MAMMALIAFORMES</text>
+  <text class="txt" x="885" y="540">esqueleto + patagio + extremidad</text>
+  <text class="txt" x="885" y="576">diente + oclusión + árbol</text>
+  <text class="txt" x="885" y="612">cemento + sincrotrón + comparador</text>
+  <path class="arrow" d="M900 647H1270"/>
+  <text class="small" x="885" y="686">nicho / homoplasia / crecimiento probable</text>
+
+  <path class="dash" d="M530 270H565"/><path class="dash" d="M1035 270H1070"/>
+  <path class="dash" d="M490 390V455"/><path class="dash" d="M1110 390V455"/>
+  <path class="dash" d="M750 585H850"/>
+
+  <rect x="115" y="785" width="1370" height="140" rx="24" fill="#101f28" stroke="#b98252" stroke-width="2"/>
+  <text class="sub" x="150" y="826">REGLA CENTRAL</text>
+  <text class="txt" x="150" y="864">Rift ≠ océano · anoxia ≠ totalidad · pluma ≠ vuelo · avialano ≠ corona</text>
+  <text class="txt" x="150" y="899">mammaliaforme ≠ mamífero moderno · frontera ≠ extinción instantánea</text>
+  <text class="small" x="1180" y="956">Síntesis editorial · 2026-08-11</text>
+</svg>

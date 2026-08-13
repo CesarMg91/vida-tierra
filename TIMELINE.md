@@ -161,8 +161,11 @@ Los límites numéricos siguen `SRC-ICS-2026` (tabla 2026/06). La evidencia de c
 | `TIME-TRIASSIC-CAMP-001` | pulsos alrededor de 201.6–201.5 Ma | actividad eruptiva e intrusiva de CAMP próxima a la extinción terminal | U–Pb fecha rocas; gases, tasas y volumen oculto permanecen inferidos | `SRC-BLACKBURN-CAMP-2013`, `SRC-DAVIES-CAMP-2017` | A-B tiempo; B-COND causa | AUDITADO |
 | `TIME-TRIASSIC-ETE-001` | crisis ~201.51 Ma; límite formal 201.3 ± 0.2 Ma | extinción terminal y base jurásica próximas pero no idénticas | rangos, carbono, Hg y ammonites se correlacionan entre cuencas con incertidumbre | `SRC-DAVIES-CAMP-2017`, `SRC-THIBODEAU-MERCURY-2016`, `SRC-HILLEBRANDT-HETTANGIAN-2013`, `SRC-ICS-2026` | A límite; B-COND crisis | AUDITADO |
 | `TIME-JURASSIC-BASE-001` | 201.3 ± 0.2 Ma | base formal del Jurásico/Hettangiense en Kuhjoch | FO de `Psiloceras spelae tirolicum`; edad revisable y extinción no es el criterio formal | `SRC-HILLEBRANDT-HETTANGIAN-2013`, `SRC-ICS-2026` | A límite; B edad | AUDITADO |
-| `TIME-BIRD-EARLY-001` | ~150 Ma | Archaeopteryx y aves tempranas | edad de calizas; posición filogenética | esqueletos con plumas, anatomía; por registrar | B | SEMILLA |
-| `TIME-CRETACEOUS-BASE-001` | 143.1 ± 0.6 Ma | base del Cretácico | cifra vigente; reemplaza el redondeo antiguo 145 Ma | `SRC-ICS-2026` | A límite; B edad | SEMILLA |
+| `TIME-JURASSIC-ATLANTIC-001` | `~190–180 Ma` según segmento/criterio | transición a corteza oceánica del Atlántico central | rift, ruptura, corteza transicional y anomalía no son el mismo reloj | `SRC-SCHETTINO-ATLANTIC-2009`, `SRC-SETON-RECONSTRUCTIONS-2012` | B-COND | AUDITADO |
+| `TIME-JURASSIC-TOARCIAN-001` | ~183 Ma | perturbación de carbono, calentamiento y expansión anóxica | U–Pb/correlación estrechan tiempo; fuentes y duración por pulso siguen modeladas | `SRC-SELL-TOARCIAN-2014`, `SRC-KUNERT-TOARCIAN-2023` | B tiempo; B-COND mecanismo | AUDITADO |
+| `TIME-JURASSIC-MAMMALIAFORM-RADIATION-001` | Jurásico Medio–Superior | expansión conocida de ecomorfologías y cambio de crecimiento | Lagerstätten y cementocronología registran archivos distintos | `SRC-JI-CASTOROCAUDA-2006`, `SRC-MENG-GLIDERS-2017`, `SRC-NEWHAM-GROWTH-2024` | B-COND | AUDITADO |
+| `TIME-BIRD-EARLY-001` | ~150–148 Ma | avialanos jurásicos con colas largas, abreviadas y fusionadas | anatomía/edad de `Archaeopteryx`, `Baminornis` y `Zhengheornis`; no fecha Aves corona | `SRC-VOETEN-ARCHAEOPTERYX-2018`, `SRC-CHEN-BAMINORNIS-2025`, `SRC-WANG-ZHENGHEORNIS-2026` | B; B-PROV taxón 2026 | AUDITADO |
+| `TIME-CRETACEOUS-BASE-001` | 143.1 ± 0.6 Ma | base numérica vigente del Cretácico | último límite de sistema fanerozoico sin GSSP ratificado al corte | `SRC-ICS-2026`, `SRC-CRETACEOUS-GSSP-2026` | B edad; A estado | AUDITADO |
 | `TIME-ANGIOSPERM-001` | ~135–125 Ma | registro fósil inequívoco temprano de angiospermas | mínimo fósil; divergencias moleculares pueden ser anteriores | polen y macrofósiles; por registrar | B | SEMILLA |
 | `TIME-KPG-001` | 66.0 Ma | límite K–Pg y extinción masiva | GSSP, capa de impacto y calibración | iridio, cuarzo chocado, esférulas, Chicxulub, fósiles | `SRC-SCHULTE-2010`, `SRC-ICS-2026` | A para impacto/límite; B causalidad dominante | SEMILLA |
 
@@ -202,4 +205,4 @@ En esta sección una fecha arqueológica no demuestra por sí sola “propiedad�
 
 ## Próxima acción cronológica
 
-Las investigaciones extensas auditadas llegan de `INV-EARTH-AGE-001` a `INV-TRIASSIC-001`. El siguiente trabajo es el Jurásico: deberá separar base formal, ruptura de Pangea, diversificación dinosauriana, origen/expansión de aves y radiación de mamaliaformes en sus distintos relojes.
+Las investigaciones extensas auditadas llegan de `INV-EARTH-AGE-001` a `INV-JURASSIC-001`. El siguiente trabajo es el Cretácico: deberá separar frontera basal pendiente, tectónica/clima, radiaciones de angiospermas y aves/mamíferos, y la crisis K–Pg en sus distintos relojes.

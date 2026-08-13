@@ -200,6 +200,16 @@ El propósito no es presentar la ciencia como una sucesión de fracasos ni como 
 | `ERR-TRIASSIC-MAMMAL-PACKAGE-001` | los rasgos mamalianos aparecieron juntos | mosaico y homoplasia convertidos en escalera | reconstrucción carácter por carácter | DOCUMENTADO |
 | `ERR-TRIASSIC-CAMP-LAVA-001` | la primera lava inició CAMP | afloramiento eruptivo igualado a sistema magmático | lavas, diques, sills y gases separados | DOCUMENTADO |
 | `ERR-TRIASSIC-DINOSAUR-VICTORY-001` | la extinción premió al mejor competidor | supervivencia/expansión convertidas en superioridad | oportunidad, clima, innovación y competencia comparados | DOCUMENTADO |
+| `ERR-JURASSIC-JK-GSSP-001` | la base cretácica ya tiene clavo dorado | cifra ICS convertida en GSSP | estado institucional y calibración separados | DOCUMENTADO |
+| `ERR-JURASSIC-PANGEA-SNAP-001` | Pangea se partió en una fecha | rift, ruptura y expansión fundidos | objeto/segmento de apertura declarados | DOCUMENTADO |
+| `ERR-JURASSIC-ANOXIC-OCEAN-001` | todo el océano jurásico estuvo anóxico | evento/facies convertidos en estado total | proxies locales + balance global | DOCUMENTADO |
+| `ERR-JURASSIC-SAUROPOD-OXYGEN-001` | oxígeno alto fabricó saurópodos gigantes | correlación ambiental convertida en causa única | cascada funcional y pruebas cuantitativas | DOCUMENTADO |
+| `ERR-JURASSIC-FEATHER-FLIGHT-001` | toda pluma demuestra vuelo | tegumento convertido en conducta | superficie, articulación, potencia y carga | DOCUMENTADO |
+| `ERR-JURASSIC-ARCHAEOPTERYX-HALF-001` | `Archaeopteryx` fue mitad reptil/mitad ave | mosaico convertido en escalera | caracteres y nodo filogenético | DOCUMENTADO |
+| `ERR-JURASSIC-PYGOSTYLE-MODERN-001` | pigóstilo significa ave moderna | un módulo convertido en paquete/corona | cola, vuelo y nodo separados | DOCUMENTADO |
+| `ERR-JURASSIC-AVIALAN-ANCESTORS-001` | fósiles jurásicos forman una fila de ancestros | orden de caracteres convertido en genealogía | ramas, homoplasia y mínimos | DOCUMENTADO |
+| `ERR-JURASSIC-MAMMALIAFORM-MOUSE-001` | mamaliaformes fueron ratones modernos | analogía de tamaño convertida en identidad | corona, anatomía y nichos separados | DOCUMENTADO |
+| `ERR-JURASSIC-JK-EXTINCTION-001` | la línea J–K marca una extinción mundial instantánea | frontera/calibración convertida en pulso biológico | rangos y sesgos auditados | DOCUMENTADO |
 | `ERR-LUNAR-APOLLO-INDEPENDENT-001` | tratar sitios Apollo como testigos independientes | ejecta local y sin transporte global | cartografía, Th, geoquímica y escalado de Imbrium | DOCUMENTADO |
 | `ERR-IMPACT-MOON-EARTH-001` | convertir cronología lunar en esterilización terrestre | escala constante de tasa y efecto | dinámica, hidrocodes, atmósfera/océano y archivo terrestre | DOCUMENTADO |
 | `ERR-LUNAR-ABSENCE-001` | “sin fundido antiguo” = “sin impacto antiguo” | supervivencia uniforme hacia atrás | sesgo de preservación y evidencia positiva `4.22–4.33 Ga` | DOCUMENTADO |
@@ -1809,3 +1819,83 @@ Que dinosaurios se expandieran después de perderse muchos incumbentes muestra s
 ### Corrección
 
 Distinguir supervivencia, liberación ecológica, innovación, clima y competencia; exigir predicciones exclusivas antes de atribuir victoria.
+
+## ERR-JURASSIC-JK-GSSP-001 — Una cifra recibió un clavo dorado imaginario
+
+`143.1 ± 0.6 Ma` es la calibración vigente de la base cretácica, pero al corte no existe GSSP ratificado. Edad y estado institucional son campos distintos.
+
+### Corrección
+
+Citar versión de tabla, página del grupo de trabajo y ratificación; actualizar el estado cuando cambie.
+
+## ERR-JURASSIC-PANGEA-SNAP-001 — Pangea se rompió en un instante
+
+Cuencas de rift preceden la ruptura y la primera corteza oceánica cambia por segmento. Una animación continua puede ocultar decenas de millones de años y varios criterios.
+
+### Corrección
+
+Nombrar el objeto fechado: extensión, ruptura, corteza transicional, fondo oceánico o conexión marina.
+
+## ERR-JURASSIC-ANOXIC-OCEAN-001 — El océano entero perdió el oxígeno
+
+Lutitas negras y proxies globales documentan expansión severa, pero modelos estiman una fracción minoritaria del fondo y fuerte heterogeneidad espacial/vertical.
+
+### Corrección
+
+Separar localidad, cuenca y reservorio global; reportar anoxia y euxinia como fracciones con modelo/error.
+
+## ERR-JURASSIC-SAUROPOD-OXYGEN-001 — Una atmósfera fabricó gigantes
+
+No hay una concentración atmosférica única que explique el tamaño saurópodo. Alimentación, cuello, neumática, crecimiento y reproducción interactúan y algunos rasgos preceden al gigantismo.
+
+### Corrección
+
+Comparar predicciones de factores únicos con la cascada funcional y con sauropodomorfos pequeños que comparten rasgos.
+
+## ERR-JURASSIC-FEATHER-FLIGHT-001 — Toda pluma voló
+
+Plumas pennáceas aparecen en paravianos con distribuciones y capacidades diferentes; aislamiento, exhibición e incubación también son funciones plausibles.
+
+### Corrección
+
+Reconstruir superficie, asimetría, articulaciones, resistencia y potencia antes de inferir vuelo.
+
+## ERR-JURASSIC-ARCHAEOPTERYX-HALF-001 — Mitad reptil, mitad ave
+
+`Archaeopteryx` no mezcla dos esencias; posee un conjunto completo de caracteres heredados y derivados en una rama. «Transicional» no significa organismo incompleto.
+
+### Corrección
+
+Mostrar matriz/nodo y describir cada carácter sin una escala lineal de progreso.
+
+## ERR-JURASSIC-PYGOSTYLE-MODERN-001 — Una cola creó un ave moderna
+
+`Baminornis` combina pigóstilo/cinturas derivadas con mano primitiva. El carácter no prueba Aves corona ni aerodinámica moderna.
+
+### Corrección
+
+Separar reducción, fusión, abanico de plumas, capacidad de vuelo y pertenencia filogenética.
+
+## ERR-JURASSIC-AVIALAN-ANCESTORS-001 — Tres fósiles formaron una escalera
+
+`Archaeopteryx`, `Zhengheornis` y `Baminornis` añaden estados caudales, pero pueden ser ramas laterales y no ancestros sucesivos.
+
+### Corrección
+
+Representar árboles y mínimos de caracteres, incluida convergencia/reversión, sin flechas genealógicas directas.
+
+## ERR-JURASSIC-MAMMALIAFORM-MOUSE-001 — Todos eran ratones nocturnos
+
+El tamaño pequeño no convierte mammaliaformes del tallo en roedores modernos. Fósiles documentan agua, excavación, árboles y planeo, con anatomías no coronales.
+
+### Corrección
+
+Nombrar Mammaliaformes/Mammalia, reconstruir ecomorfología y evitar orejas/caras modernas en ilustraciones sin evidencia.
+
+## ERR-JURASSIC-JK-EXTINCTION-001 — Una línea del calendario mató al mundo
+
+La señal de diversidad J–K cambia con roca, colecciones, nivel marino y clado, y el GSSP aún está pendiente. No hay un pulso total equivalente a K–Pg demostrado.
+
+### Corrección
+
+Separar frontera, edad y rangos biológicos; corregir muestreo y exigir sincronía global antes de nombrar extinción masiva instantánea.

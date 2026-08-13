@@ -333,6 +333,31 @@ Este archivo es el índice canónico. La letra de confianza califica exactamente
 | `CLAIM-TRIASSIC-ETE-KILLCHAIN-001` | CAMP, volátiles, calentamiento, acidificación, desoxigenación y estrés terrestre forman una cadena multimecanismo heterogénea. | B mecanismos; C pesos | AUDITADO | `EVID-TRIASSIC-ETE-ENVIRONMENT-001` | `INV-TRIASSIC-001` |
 | `CLAIM-TRIASSIC-DINOSAUR-AFTERMATH-001` | La expansión jurásica de dinosaurios siguió a la pérdida de incumbentes y favorece oportunidad poscrisis, no victoria competitiva demostrada. | B-COND | AUDITADO | `EVID-TRIASSIC-AFTERMATH-001` | `INV-TRIASSIC-001` |
 
+| `CLAIM-JURASSIC-SCOPE-001` | Límites, tectónica, perturbaciones, dinosaurios, avialanos y mamaliaformes usan archivos/relojes distintos; el periodo no los sincroniza. | A-SEM; B pluralidad | AUDITADO | conjunto `EVID-JURASSIC-*` | `INV-JURASSIC-001` |
+| `CLAIM-JURASSIC-BOUNDARIES-001` | Kuhjoch fija la base jurásica por `Psiloceras spelae tirolicum`; `143.1 ± 0.6 Ma` calibra el techo vigente. | A base; B edades/techo | AUDITADO | `EVID-JURASSIC-BOUNDARIES-001` | `INV-JURASSIC-001` |
+| `CLAIM-JURASSIC-SUBDIVISIONS-001` | Tres series contienen once pisos; Oxfordiense y Tithoniense siguen sin definición formal ratificada. | A arquitectura; B estado | AUDITADO | `EVID-JURASSIC-SUBDIVISIONS-001` | `INV-JURASSIC-001` |
+| `CLAIM-JURASSIC-JK-STATUS-001` | La base cretácica sigue siendo el último límite de sistema fanerozoico sin GSSP ratificado al 2026-08-11. | A institucional | AUDITADO | `EVID-JURASSIC-BOUNDARIES-001` | `INV-JURASSIC-001` |
+| `CLAIM-JURASSIC-RIFTING-001` | Extensión, ruptura y expansión son fases distintas y diacrónicas de la fragmentación de Pangea. | A-B patrón; C fechas | AUDITADO | `EVID-JURASSIC-RIFTING-001` | `INV-JURASSIC-001` |
+| `CLAIM-JURASSIC-ATLANTIC-OPENING-001` | El Atlántico central produjo corteza oceánica inicial cerca de `~190–180 Ma`, según segmento/criterio, con expansión muy lenta. | B-COND | AUDITADO | `EVID-JURASSIC-ATLANTIC-001` | `INV-JURASSIC-001` |
+| `CLAIM-JURASSIC-PALEOGEOGRAPHY-001` | Paleomagnetismo sitúa Pangea casi ecuatorial cerca de 200 Ma; paleolongitudes y costas requieren modelos adicionales. | B | AUDITADO | `EVID-JURASSIC-PALEOGEOGRAPHY-001` | `INV-JURASSIC-001` |
+| `CLAIM-JURASSIC-TOARCIAN-TIMING-001` | El T-OAE cerca de 183 Ma coincide con Karoo–Ferrar, carbono ligero y calentamiento; fuente/flujo por pulso siguen condicionados. | B tiempo; B-COND fuente | AUDITADO | `EVID-JURASSIC-TOARCIAN-CARBON-001` | `INV-JURASSIC-001` |
+| `CLAIM-JURASSIC-TOARCIAN-REDOX-001` | La anoxia toarciense se expandió fuertemente pero cubrió una fracción minoritaria del fondo, no todo el océano. | B-COND | AUDITADO | `EVID-JURASSIC-TOARCIAN-REDOX-001` | `INV-JURASSIC-001` |
+| `CLAIM-JURASSIC-TOARCIAN-KILLCHAIN-001` | Carbono, calentamiento, nutrientes, estratificación, anoxia/acidificación y cascadas ecológicas forman una cadena multimecanismo. | B mecanismos; C pesos | AUDITADO | `EVID-JURASSIC-TOARCIAN-ECOLOGY-001` | `INV-JURASSIC-001` |
+| `CLAIM-JURASSIC-DINOSAUR-RADIATION-001` | Masa, disparidad y riqueza dinosaurianas cambiaron a ritmos heterogéneos; no hubo una única explosión jurásica simultánea. | B-COND | AUDITADO | `EVID-JURASSIC-DINOSAUR-MASS-001` | `INV-JURASSIC-001` |
+| `CLAIM-JURASSIC-SAUROPOD-GIGANTISM-001` | El gigantismo saurópodo emerge de una cascada de alimentación, cuello, neumática, crecimiento y reproducción, no de una sola variable. | B-COND | AUDITADO | `EVID-JURASSIC-SAUROPOD-GIGANTISM-001` | `INV-JURASSIC-001` |
+| `CLAIM-JURASSIC-SAUROPOD-GROWTH-001` | Histología muestra crecimiento rápido en sauropodiformes de 1–2 t antes de saurópodos gigantes >10 t. | B | AUDITADO | `EVID-JURASSIC-SAUROPOD-GROWTH-001` | `INV-JURASSIC-001` |
+| `CLAIM-JURASSIC-FEATHERS-001` | Plumas pennáceas se distribuyeron entre paravianos jurásicos con anatomías y capacidades aéreas distintas. | A-B | AUDITADO | `EVID-JURASSIC-PARAVIAN-FEATHERS-001` | `INV-JURASSIC-001` |
+| `CLAIM-JURASSIC-ARCHAEOPTERYX-MOSAIC-001` | `Archaeopteryx` combina alas/plumas de vuelo con dientes, mano no fusionada y cola ósea larga; no es una «mitad» ni ancestro directo probado. | A morfología; B-COND nodo | AUDITADO | `EVID-JURASSIC-ARCHAEOPTERYX-001` | `INV-JURASSIC-001` |
+| `CLAIM-JURASSIC-FLIGHT-001` | Geometría interna de huesos alares apoya vuelo activo de `Archaeopteryx`, probablemente distinto del ciclo de aves modernas. | B-COND | AUDITADO | `EVID-JURASSIC-ARCHAEOPTERYX-001` | `INV-JURASSIC-001` |
+| `CLAIM-JURASSIC-AVIALAN-PHYLOGENY-001` | La posición fina de avialanos/paravianos cambia con taxones y caracteres, aunque la adquisición en mosaico es robusta. | B-COND | AUDITADO | `EVID-JURASSIC-AVIALAN-PHYLO-001` | `INV-JURASSIC-001` |
+| `CLAIM-JURASSIC-BAMINORNIS-001` | `Baminornis` documenta cola corta con pigóstilo y cinturas derivadas en un avialano jurásico, junto a una mano primitiva. | B | AUDITADO | `EVID-JURASSIC-BAMINORNIS-001` | `INV-JURASSIC-001` |
+| `CLAIM-JURASSIC-ZHENGHEORNIS-001` | `Zhengheornis` conserva 15 vértebras caudales abreviadas sin pigóstilo y apoya reducción previa a fusión terminal. | B-PROV | AUDITADO | `EVID-JURASSIC-ZHENGHEORNIS-001` | `INV-JURASSIC-001` |
+| `CLAIM-JURASSIC-CROWN-BIRD-001` | Avialanos jurásicos no prueban que Aves corona ya existiera; tallo avialano y corona son nodos distintos. | A-SEM; D corona jurásica | AUDITADO | `EVID-JURASSIC-AVIALAN-PHYLO-001` | `INV-JURASSIC-001` |
+| `CLAIM-JURASSIC-MAMMALIAFORM-ECODIVERSITY-001` | Mammaliaformes jurásicos muestran nichos semiaquáticos, fosoriales, arbóreos y planeadores, con fuerte sesgo de Lagerstätten. | A-B mínima; C global | AUDITADO | `EVID-JURASSIC-MAMMALIAFORM-ECOLOGY-001` | `INV-JURASSIC-001` |
+| `CLAIM-JURASSIC-MAMMALIAFORM-DENTITION-001` | Docodontiformes y terios desarrollaron complejidad trituradora por rutas distintas; forma parecida no implica homología. | B-COND | AUDITADO | `EVID-JURASSIC-MAMMALIAFORM-DENTITION-001` | `INV-JURASSIC-001` |
+| `CLAIM-JURASSIC-MAMMALIAFORM-GROWTH-001` | Estrategias de crecimiento más mamalianas aparecen a mitad del Jurásico, aún por debajo de tasas modernas comparables. | B-COND | AUDITADO | `EVID-JURASSIC-MAMMALIAFORM-GROWTH-001` | `INV-JURASSIC-001` |
+| `CLAIM-JURASSIC-JK-TURNOVER-001` | El recambio J–K cambia al corregir roca, colecciones, nivel marino y filogenia; no demuestra un pulso mundial instantáneo. | B-COND; D pulso único | AUDITADO | `EVID-JURASSIC-JK-TURNOVER-001` | `INV-JURASSIC-001` |
+
 ## Fichas resumidas
 
 ### CLAIM-COSMOS-HOT-001 / CMB-001
@@ -2208,6 +2233,128 @@ Este archivo es el índice canónico. La letra de confianza califica exactamente
 - **Dato:** pérdida de pseudosuquios no crocodilomorfos precede expansión dinosauriana jurásica.
 - **No afirma:** superioridad o competencia directa como causa.
 - **Confianza:** `B-COND`.
+
+## Investigación 029 — Pangea, dinosaurios, avialanos y mamaliaformes jurásicos
+
+### CLAIM-JURASSIC-SCOPE-001
+- **Dato:** límites, tectónica, redox, anatomía y diversidad tienen archivos/resoluciones diferentes.
+- **Puente:** separarlos impide usar el periodo como causa o reloj universal.
+- **Confianza:** `A-SEM`; `B` pluralidad.
+
+### CLAIM-JURASSIC-BOUNDARIES-001
+- **Dato:** Kuhjoch define la base; ICS calibra base/techo en `201.3 ± 0.2` y `143.1 ± 0.6 Ma`.
+- **No afirma:** que el techo tenga GSSP ratificado ni coincida con un pulso biológico total.
+- **Confianza:** `A` base; `B` edades/techo.
+
+### CLAIM-JURASSIC-SUBDIVISIONS-001
+- **Dato:** once pisos se distribuyen en tres series; Oxfordiense/Tithoniense siguen pendientes.
+- **Límite:** estado institucional actualizable.
+- **Confianza:** `A` arquitectura; `B` estado.
+
+### CLAIM-JURASSIC-JK-STATUS-001
+- **Dato:** fuentes oficiales mantienen la base cretácica sin GSSP ratificado al `2026-08-11`.
+- **Límite:** afirmación institucional, no predicción del resultado.
+- **Confianza:** `A` institucional.
+
+### CLAIM-JURASSIC-RIFTING-001
+- **Dato:** fallas, cuencas, magmas y márgenes ordenan extensión antes de ruptura/expansión.
+- **No afirma:** fecha única o motor exclusivo.
+- **Confianza:** `A-B` patrón; `C` fechas.
+
+### CLAIM-JURASSIC-ATLANTIC-OPENING-001
+- **Dato:** modelos sitúan corteza oceánica inicial central atlántica cerca de `~190–180 Ma`.
+- **Límite:** depende de segmento, criterio y fondo preservado.
+- **Confianza:** `B-COND`.
+
+### CLAIM-JURASSIC-PALEOGEOGRAPHY-001
+- **Dato:** 40 polos paleomagnéticos sostienen una Pangea casi ecuatorial cerca de 200 Ma.
+- **No afirma:** paleolongitud o costa exactas.
+- **Confianza:** `B`.
+
+### CLAIM-JURASSIC-TOARCIAN-TIMING-001
+- **Dato:** U–Pb y δ¹³C enlazan temporalmente Karoo–Ferrar y T-OAE cerca de 183 Ma.
+- **Límite:** flujo y mezcla de fuentes permanecen modelados.
+- **Confianza:** `B` tiempo; `B-COND` fuente.
+
+### CLAIM-JURASSIC-TOARCIAN-REDOX-001
+- **Dato:** Mo/modelo estima expansión máxima del fondo anóxico de orden `~7 %`.
+- **No afirma:** océano entero sin oxígeno.
+- **Confianza:** `B-COND`.
+
+### CLAIM-JURASSIC-TOARCIAN-KILLCHAIN-001
+- **Dato:** ambiente, selectividad y redes enlazan forzamiento con extinciones primarias/secundarias.
+- **Límite:** pesos y transferencia global desde Cleveland Basin.
+- **Confianza:** `B` mecanismos; `C` pesos.
+
+### CLAIM-JURASSIC-DINOSAUR-RADIATION-001
+- **Dato:** masas y árbol producen tasas diferentes entre ramas/intervalos.
+- **No afirma:** una explosión simultánea ni causa única.
+- **Confianza:** `B-COND`.
+
+### CLAIM-JURASSIC-SAUROPOD-GIGANTISM-001
+- **Dato:** alimentación, cuello, neumática, crecimiento y reproducción forman una cascada compatible.
+- **Límite:** contribuciones causales no cuantificadas por separado.
+- **Confianza:** `B-COND`.
+
+### CLAIM-JURASSIC-SAUROPOD-GROWTH-001
+- **Dato:** tejido vascularizado registra crecimiento rápido en sauropodiformes de `1–2 t`.
+- **Puente:** esa capacidad precede a saurópodos `>10 t`, pero no los causa sola.
+- **Confianza:** `B`.
+
+### CLAIM-JURASSIC-FEATHERS-001
+- **Dato:** `Anchiornis`/`Eosinopteryx` preservan plumas con distribuciones distintas.
+- **No afirma:** función original o vuelo en cada taxón.
+- **Confianza:** `A-B`.
+
+### CLAIM-JURASSIC-ARCHAEOPTERYX-MOSAIC-001
+- **Dato:** alas/plumas coexisten con dientes, mano no fusionada y cola larga.
+- **No afirma:** mitad de dos esencias ni ancestro directo.
+- **Confianza:** `A` morfología; `B-COND` nodo.
+
+### CLAIM-JURASSIC-FLIGHT-001
+- **Dato:** geometría cortical de tres ejemplares se aproxima a voladores activos.
+- **Límite:** ciclo, despegue, distancia y frecuencia inferidos.
+- **Confianza:** `B-COND`.
+
+### CLAIM-JURASSIC-AVIALAN-PHYLOGENY-001
+- **Dato:** matrices mueven ramas finas al añadir taxones/caracteres.
+- **Resultado estable:** adquisición modular en un árbol, no escalera.
+- **Confianza:** `B-COND`.
+
+### CLAIM-JURASSIC-BAMINORNIS-001
+- **Dato:** fósil conserva pigóstilo/cinturas derivadas y mano primitiva.
+- **No afirma:** Aves corona ni vuelo moderno.
+- **Confianza:** `B`.
+
+### CLAIM-JURASSIC-ZHENGHEORNIS-001
+- **Dato:** cola de `15` vértebras abreviadas carece de pigóstilo.
+- **Límite:** fósil único y publicación de 2026.
+- **Confianza:** `B-PROV`.
+
+### CLAIM-JURASSIC-CROWN-BIRD-001
+- **Dato/definición:** Avialae del tallo no es Aves corona.
+- **No observado:** fósil jurásico que estabilice el nodo corona.
+- **Confianza:** `A-SEM`; `D` corona jurásica.
+
+### CLAIM-JURASSIC-MAMMALIAFORM-ECODIVERSITY-001
+- **Dato:** cola, garras, proporciones y patagios sostienen cuatro clases de nicho mínimo.
+- **Límite:** concentración geográfica/tafonomía excepcional.
+- **Confianza:** `A-B` mínima; `C` global.
+
+### CLAIM-JURASSIC-MAMMALIAFORM-DENTITION-001
+- **Dato:** pseudotribosfenia docodontiforme difiere de tribosfenia teria.
+- **Puente:** oclusión semejante puede ser convergente.
+- **Confianza:** `B-COND`.
+
+### CLAIM-JURASSIC-MAMMALIAFORM-GROWTH-001
+- **Dato:** cementocronología muestra cambio de crecimiento a mitad del Jurásico.
+- **Límite:** metabolismo y desarrollo se infieren; tasas siguen bajo modernas.
+- **Confianza:** `B-COND`.
+
+### CLAIM-JURASSIC-JK-TURNOVER-001
+- **Dato:** curvas de tetrápodos responden a correcciones de roca/nivel marino.
+- **No afirma:** ausencia de todo recambio ni extinción mundial instantánea.
+- **Confianza:** `B-COND`; `D` pulso único.
 
 ## Claims futuros
 

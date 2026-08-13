@@ -195,6 +195,19 @@ Una controversia no implica empate. Registra qué parte está realmente abierta,
 | `CONT-TRIASSIC-CAMP-PHASE-001` | ¿Qué fase de CAMP fue decisiva? | intrusiones/sills preceden lavas conservadas | eruptivas, intrusivas y termogénicas se solapan | tiempo fuerte; gases abiertos | A-B tiempo; C causa |
 | `CONT-TRIASSIC-ETE-KILLCHAIN-001` | ¿Qué mecanismo mató y dónde? | calor, acidificación, desoxigenación y estrés terrestre convergen | pesos varían por ambiente y clado | red robusta; reparto abierto | B mecanismos; C-D pesos |
 | `CONT-TRIASSIC-AFTERMATH-001` | ¿Por qué se expandieron los dinosaurios después? | pérdida de incumbentes abrió ecospace | clima, innovación, azar y competencia también influyen | oportunidad apoyada; superioridad no demostrada | B-COND |
+| `CONT-JURASSIC-JK-GSSP-001` | ¿Qué fijará formalmente la base cretácica? | cifra ICS y trabajo avanzado del WG | sección/marcador/voto aún pendientes | abierta institucionalmente | A estado; B-D resultado |
+| `CONT-JURASSIC-ATLANTIC-OPENING-001` | ¿Cuándo abrió cada segmento atlántico? | márgenes/anomalías acotan Jurásico temprano | criterio y expansión ultralenta mueven fecha | patrón robusto; fecha abierta | B-COND |
+| `CONT-JURASSIC-RIFT-DRIVER-001` | ¿Qué motor rompió Pangea? | herencia, placas y manto son plausibles | covarianza impide pesos exclusivos | pluralidad robusta; pesos abiertos | C-D |
+| `CONT-JURASSIC-TOARCIAN-CARBON-001` | ¿De dónde vino el carbono ligero? | magmas, sills y huéspedes orgánicos coinciden | masa/tasa por fuente no cierran | mezcla probable; reparto abierto | B-COND |
+| `CONT-JURASSIC-TOARCIAN-ANOXIA-001` | ¿Cuánto océano fue anóxico/euxínico? | proxies globales prueban expansión | modelos/reservorios y cuencas varían | expansión robusta; fracción abierta | B-COND |
+| `CONT-JURASSIC-TOARCIAN-KILLCHAIN-001` | ¿Qué mecanismo causó cada pérdida? | calor, pH, O₂ y redes convergen | señales covariantes y hábitats distintos | red robusta; pesos abiertos | B mecanismos; C-D pesos |
+| `CONT-JURASSIC-SAUROPOD-GIGANTISM-001` | ¿Qué componente hizo gigantes a los saurópodos? | cascada funcional hace viable gran tamaño | pesos/ambiente/historia no aislados | multifactorial robusto; pesos abiertos | B-COND |
+| `CONT-JURASSIC-PARAVIAN-FLIGHT-001` | ¿Cuántos orígenes/pérdidas de vuelo hubo? | plumas y huesos muestran capacidades diversas | topología y biomecánica incompletas | abierta por árbol/función | C-D |
+| `CONT-JURASSIC-AVIALAN-PHYLOGENY-001` | ¿Dónde se anidan los avialanos tempranos? | varios rasgos/nodos son repetibles | taxones y codificación mueven ramas finas | mosaico robusto; nodo abierto | B-COND |
+| `CONT-JURASSIC-TAIL-MOSAIC-001` | ¿Cómo evolucionó la cola avialana? | larga, abreviada y fusionada están preservadas | convergencia, reversión y fósiles únicos | secuencia mínima apoyada; rutas abiertas | B; C-D rutas |
+| `CONT-JURASSIC-CROWN-BIRD-001` | ¿Existía Aves corona en el Jurásico? | tallo avialano ya era diverso | caracteres derivados no fijan corona | no demostrada; edad abierta | D |
+| `CONT-JURASSIC-MAMMALIAFORM-RADIATION-001` | ¿Qué tan global fue la ecomorfología diversa? | varios nichos tienen esqueletos/patagios | Lagerstätten concentran detectabilidad | mínimo robusto; frecuencia abierta | B local; C-D global |
+| `CONT-JURASSIC-JK-TURNOVER-001` | ¿Qué parte del recambio J–K fue biológica? | rangos cambian por clado | roca, nivel marino y colección explican parte | abierta por región/muestreo | B-COND |
 
 ## CONT-COSMOS-H0-001 — Dos rutas hacia la tasa actual
 
@@ -1510,3 +1523,81 @@ CAMP, carbono, mercurio, calentamiento, acidificación, desoxigenación y colaps
 La pérdida de muchos pseudosuquios y otros incumbentes precede la expansión jurásica de dinosaurios. El orden es compatible con liberación ecológica, pero no observa competencia directa ni excluye clima, contingencia, innovación y azar de supervivencia.
 
 **Prueba discriminatoria:** modelos de ocupación y rasgos que predigan qué linajes debían expandirse bajo liberación, frente a clima o innovación, y acierten en regiones independientes.
+
+## CONT-JURASSIC-JK-GSSP-001 — Una cifra sin clavo dorado
+
+La tabla ICS calibra la base cretácica en `143.1 ± 0.6 Ma`, pero el grupo del Berriasiense aún no tenía GSSP ratificado al corte. Cambiar marcador o sección puede alterar correlaciones sin borrar el número útil de la escala.
+
+**Prueba discriminatoria:** propuesta publicada, votación y ratificación ICS con sección accesible, marcador correlacionable y calibración revisada.
+
+## CONT-JURASSIC-ATLANTIC-OPENING-001 — ¿Cuándo «abrió» el Atlántico?
+
+Extensión, ruptura, corteza transicional, primera corteza oceánica y conexión marina producen fechas distintas por segmento. La expansión ultralenta y el fondo perdido dificultan identificar el primer isócrono.
+
+**Prueba discriminatoria:** perfiles sísmicos, muestreo de basamento y geocronología que unan márgenes conjugados con una secuencia de expansión reproducible.
+
+## CONT-JURASSIC-RIFT-DRIVER-001 — Herencia, placas y manto
+
+Estructuras paleozoicas, fuerzas de subducción/borde, anomalía térmica y CAMP pueden contribuir a localizar y sostener el rift. Coincidencia espacial no asigna cuánto trabajo realizó cada motor.
+
+**Prueba discriminatoria:** modelos que predigan geometría, sincronía, subsidencia y volumen magmático fuera del conjunto usado para calibrarlos.
+
+## CONT-JURASSIC-TOARCIAN-CARBON-001 — Una excursión, varias fuentes
+
+Carbono magmático, carbono termogénico de huéspedes orgánicos y retroalimentaciones de reservorios producen señales ligeras. U–Pb y δ¹³C estrechan el tiempo, pero no pesan directamente cada fuente.
+
+**Prueba discriminatoria:** trazadores de fuente y balances pulso a pulso que cierren masa, especiación y tasa atmosférica.
+
+## CONT-JURASSIC-TOARCIAN-ANOXIA-001 — Global no significa total
+
+Mo/U y modelos estiman expansión anóxica/euxínica, mientras cada sección registra una cuenca y diagénesis. La fracción global depende de tamaño de reservorios y condiciones iniciales.
+
+**Prueba discriminatoria:** red paleogeográfica de proxies independientes y modelos que reproduzcan simultáneamente cuencas oxigenadas, anóxicas y euxínicas.
+
+## CONT-JURASSIC-TOARCIAN-KILLCHAIN-001 — Señales covariantes no reparten mortalidad
+
+Calor, pH, oxígeno, nutrientes y redes tróficas cambian juntos. La selectividad local contra infauna apoya disoxia, pero los pesos varían entre hábitats y clados.
+
+**Prueba discriminatoria:** predicciones fisiológicas/estratigráficas exclusivas contrastadas en las mismas secciones, con recuperación y cascadas independientes.
+
+## CONT-JURASSIC-SAUROPOD-GIGANTISM-001 — Una cascada sin porcentajes
+
+Cuello, alimentación, neumática, crecimiento y reproducción hacen viable el gigantismo, pero el modelo no asigna una contribución causal única a cada rasgo ni excluye ambiente e historia.
+
+**Prueba discriminatoria:** modelos energéticos y biomecánicos que retiren componentes, predigan límites de tamaño y acierten en sauropodomorfos no gigantes.
+
+## CONT-JURASSIC-PARAVIAN-FLIGHT-001 — Capacidad, origen y número de vuelos
+
+Plumas y geometría ósea apoyan capacidades aéreas diversas, pero las topologías paravianas cambian cuántas veces se originó, perdió o modificó el vuelo.
+
+**Prueba discriminatoria:** esqueletos articulados con plumas, hombro y esternón, analizados en matrices y modelos aerodinámicos comunes.
+
+## CONT-JURASSIC-AVIALAN-PHYLOGENY-001 — El tallo cambia de ramas
+
+`Archaeopteryx`, anchiornítidos y taxones de Zhenghe cambian posición al variar muestreo y codificación. La anatomía observada permanece, pero los nodos y edades inferidas se mueven.
+
+**Prueba discriminatoria:** matrices integradas, caracteres continuos/sensibilidad y fósiles craneales/postcraneales que estabilicen el mismo nodo bajo modelos alternativos.
+
+## CONT-JURASSIC-TAIL-MOSAIC-001 — Reducir, abreviar y fusionar
+
+`Baminornis` conserva pigóstilo; `Zhengheornis`, cola abreviada sin fusión. Fósiles únicos y preservación incompleta dejan abiertas convergencia, reversión y secuencia entre ramas.
+
+**Prueba discriminatoria:** más avialanos jurásicos con colas articuladas, ontogenia y posición estratigráfica precisa.
+
+## CONT-JURASSIC-CROWN-BIRD-001 — Avialano no fecha la corona
+
+Una anatomía derivada del tallo puede adelantar caracteres sin adelantar el último ancestro común de aves vivas. La edad de Aves corona depende de definición, topología y calibradores posteriores.
+
+**Prueba discriminatoria:** fósil jurásico con sinapomorfías robustas de corona estable bajo matrices amplias y datación reproducible.
+
+## CONT-JURASSIC-MAMMALIAFORM-RADIATION-001 — Nichos reales en ventanas excepcionales
+
+Adaptaciones acuáticas, excavadoras, arbóreas y planeadoras son observables, pero la concentración en Lagerstätten puede magnificar su frecuencia y geografía global.
+
+**Prueba discriminatoria:** esqueletos asociados en regiones/facies ordinarias y modelos de ocupación que incorporen detectabilidad de tejidos blandos.
+
+## CONT-JURASSIC-JK-TURNOVER-001 — Biología o disponibilidad de roca
+
+Diversidad y recambio alrededor de J–K responden a nivel marino, afloramiento, colección, taxonomía y señal biológica. Correcciones europeas no garantizan un patrón mundial.
+
+**Prueba discriminatoria:** bases globales con esfuerzo/roca equivalentes y cronologías que identifiquen pulsos sincrónicos por clado y región.
