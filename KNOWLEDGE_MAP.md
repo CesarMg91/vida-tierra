@@ -293,3 +293,19 @@ dinámica de poblaciones ──────────→ familias de flujo com
 ```
 
 Véase `INV-HADEAN-IMPACTS-001` en `03_hadeano`, su mapa en `assets/visuales/mapa-investigacion-012.svg` y la cadena en `assets/visuales/de-muestra-a-flujo-impactos.svg`.
+
+La ruta específica de la vida más antigua es:
+
+```text
+edad del huésped ───────────→ ¿qué objeto y evento fecha el número? ─┐
+interior + controles ───────→ señal indígena, no contaminación ──────┤
+capas + inclusiones ────────→ señal singenética, no tardía ──────────┤
+3-D + química + facies ─────→ señal biogénica frente a abiótica ─────┤
+comparación poblacional ────→ límite temporal con confianza heredada ┘
+                                         ↓
+                 vida por lo menos hacia ~3.43 Ga: B-COND
+                 señal biológica en Isua ≥3.7 Ga: C↑
+                 origen exacto y candidatas más antiguas: D–E
+```
+
+Véase `INV-ARCHEAN-LIFE-001` en `04_arcaico`, su mapa en `assets/visuales/mapa-investigacion-013.svg` y la cadena en `assets/visuales/de-senal-a-biosignatura.svg`.

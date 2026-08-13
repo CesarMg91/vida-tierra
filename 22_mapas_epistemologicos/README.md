@@ -14,3 +14,4 @@ Grafos de dependencias entre objetos, mediciones, principios, modelos, claims y 
 - [`MAPA_010_AGUA_HADEANA.md`](MAPA_010_AGUA_HADEANA.md): microdominio, magma, roca fuente y agua; cada flecha declara supuestos y pérdida de escala.
 - [`MAPA_011_ATMOSFERA_HADEANA.md`](MAPA_011_ATMOSFERA_HADEANA.md): zircon, fundido, gas, aire procesado y archivos posteriores; redox magmático no se confunde con O₂ atmosférico.
 - [`MAPA_012_IMPACTOS_HADEANOS.md`](MAPA_012_IMPACTOS_HADEANOS.md): muestra, cronómetro, procedencia, evento, cráter y flujo; el histograma observado incorpora una función de selección.
+- [`MAPA_013_VIDA_MAS_ANTIGUA.md`](MAPA_013_VIDA_MAS_ANTIGUA.md): edad del huésped, indigeneidad, singenicidad y biogenicidad; una edad mínima hereda la confianza del puente más débil.

@@ -97,6 +97,14 @@ Este archivo es el índice canónico. La letra de confianza califica exactamente
 | `CLAIM-LUNAR-IMBRIUM-BIAS-001` | La procedencia de los sitios Apollo y la distribución de ejecta de Imbrium impiden tratar todas las edades `~3.9 Ga` como eventos geográficamente independientes. | B-COND | AUDITADO | `EVID-LUNAR-IMBRIUM-PROVENANCE-001`, `EVID-LUNAR-AGECLUSTER-001` | `INV-HADEAN-IMPACTS-001` |
 | `CLAIM-HADEAN-IMPACT-EARTH-001` | La Tierra debió recibir más impactos integrados que la Luna para una población común, pero su cronología, energía y efectos no se obtienen multiplicando el registro lunar por una constante. | B-COND para más impactos; D-E para curva/efectos | AUDITADO | `EVID-IMPACT-DYNAMICS-001`, `EVID-ARCHEAN-SPHERULE-001` | `INV-HADEAN-IMPACTS-001` |
 | `CLAIM-HADEAN-IMPACT-SURVIVAL-001` | La supervivencia de zircones y señales de agua hadeanas es compatible con impactos extremos pero exige heterogeneidad espacial o temporal; no favorece esterilización global continua de todos los reservorios. | C | AUDITADO | `EVID-LUNAR-CRATER-STRAT-001`, `EVID-HADEAN-JH-ZIRCON-001`, `EVID-HADEAN-HYDRO-MODEL-001` | `INV-HADEAN-WATER-001`, `INV-HADEAN-IMPACTS-001` |
+| `CLAIM-LIFE-BY3430-001` | Un paquete multiescala de arrecifes, facies y microestructuras carbonosas establece que la vida microbiana existía como mínimo hacia `3.43 Ga`; no fecha su origen. | B-COND | AUDITADO | `EVID-LIFE-STRELLEY-REEF-001`, `EVID-LIFE-STRELLEY-MICRO-001` | `INV-ARCHEAN-LIFE-001` |
+| `CLAIM-LIFE-STRELLEY-001` | Los estromatolitos y microestructuras de Strelley Pool son más coherentes con una comunidad biológica que con las alternativas abióticas examinadas, por su organización espacial, tafonomía y química combinadas. | B-COND | AUDITADO | `EVID-LIFE-STRELLEY-REEF-001`, `EVID-LIFE-STRELLEY-MICRO-001` | `INV-ARCHEAN-LIFE-001` |
+| `CLAIM-LIFE-DRESSER-001` | Estructuras sedimentarias, contexto de fuentes termales e isótopos de S hacen probable actividad biológica en Dresser hacia `3.48 Ga`, aunque procesos hidrotermales imitan líneas aisladas. | C↑ | AUDITADO | `EVID-LIFE-DRESSER-001` | `INV-ARCHEAN-LIFE-001` |
+| `CLAIM-LIFE-ISUA-CARBON-001` | El grafito distribuido en horizontes metasedimentarios de Isua, con poblaciones y huéspedes distintos de vetas tardías, favorece materia orgánica detrítica biogénica a `≥3.7 Ga`; los metabolismos concretos son menos seguros. | C↑ | AUDITADO | `EVID-LIFE-ISUA-CARBON-001` | `INV-ARCHEAN-LIFE-001` |
+| `CLAIM-LIFE-ISUA-STROM-001` | Las estructuras cónicas de Isua propuestas como estromatolitos de `3.7 Ga` se explican mejor por deformación postdeposicional en el material reanalizado; esto no refuta otras líneas de vida en Isua. | B para la reevaluación; D para origen biológico | AUDITADO | `EVID-LIFE-ISUA-STROM-001` | `INV-ARCHEAN-LIFE-001` |
+| `CLAIM-LIFE-PRE3700-001` | Nuvvuagittuq, Saglek, Akilia y el grafito de un zircon de `4.10 Ga` contienen señales compatibles con vida muy antigua, pero ninguna asegura simultáneamente edad del horizonte, singenicidad y biogenicidad; no establecen vida pre-`3.7 Ga`. | D-E según caso | AUDITADO | `EVID-LIFE-AKILIA-001`, `EVID-LIFE-NUV-001`, `EVID-LIFE-SAGLEK-001`, `EVID-LIFE-ZIRCON-4100-001` | `INV-ARCHEAN-LIFE-001` |
+| `CLAIM-LIFE-ORIGIN-AGE-001` | Toda biosignatura fechada proporciona una edad mínima para la existencia de vida, no la fecha exacta de su origen ni el tiempo transcurrido desde él. | A para la relación lógica; hereda la confianza de cada biosignatura | AUDITADO | `EVID-LIFE-CRITERIA-001` | `INV-ARCHEAN-LIFE-001` |
+| `CLAIM-LIFE-MULTILINE-001` | Una afirmación de vida muy antigua requiere separar indigeneidad, singenicidad y biogenicidad, y gana poder sólo cuando morfología, química, contexto y tafonomía no dependen del mismo posible fallo. | B | AUDITADO | `EVID-LIFE-CRITERIA-001`, `EVID-LIFE-APEX-001` | `INV-ARCHEAN-LIFE-001` |
 
 ## Fichas resumidas
 
@@ -434,6 +442,34 @@ Este archivo es el índice canónico. La letra de confianza califica exactamente
 - **Puente:** población de proyectiles, velocidad, atmósfera, océano, corteza y refugios.
 - **No afirma:** una curva de esterilización ni océanos globalmente vaporizados en cada evento.
 - **Confianza:** B-COND para más encuentros integrados; C para supervivencia heterogénea; D-E para efectos históricos exactos.
+
+### CLAIM-LIFE-BY3430-001 / STRELLEY-001 / DRESSER-001
+
+- **Dato:** Strelley conserva un arrecife de `~3.43 Ga` con morfotipos ligados a facies y microestructuras con paredes, lúmenes, C/N, tafonomía y organización; Dresser añade MISS, S y un sistema de fuentes termales a `~3.48 Ga`.
+- **Convergencia:** población macroscópica, microestructura, química y ambiente restringen alternativas distintas.
+- **Límite:** rutas metabólicas y taxonomía no se leen directamente; hidrotermalismo puede producir fraccionamientos y formas parciales.
+- **Confianza:** B-COND para vida por `≥3.43 Ga`; C↑ para Dresser `~3.48 Ga`.
+
+### CLAIM-LIFE-ISUA-CARBON-001 / ISUA-STROM-001
+
+- **Dato:** grafito de Isua sigue horizontes detritales y aparece dentro de minerales; su población isotópica sedimentaria es más estrecha que la de vetas. Las estructuras cónicas pierden laminación/acreción coherente al verse en 3-D.
+- **Separación:** que los conos sean deformacionales no hace abiótico al carbono; son líneas distintas.
+- **Límite:** `δ13C` se solapa con grafito de fluidos y el metamorfismo altera C/S; respiraciones específicas son inferencias.
+- **Confianza:** C↑ para detrito biogénico; B para reevaluación deformacional; D para cono biológico.
+
+### CLAIM-LIFE-PRE3700-001
+
+- **Dato:** Nuvvuagittuq contiene roca local hadeana y tubos Fe; Saglek/Akilia contienen grafito ligero; un zircon de `4.10 Ga` encierra grafito `δ13C = −24 ± 5 ‰`.
+- **Puente faltante:** fechar el horizonte portador, demostrar encierro temprano y excluir jardines químicos, fluidos C–H–O, deformación y fraccionamiento abiótico.
+- **No afirma:** que la vida no existiera; afirma que las candidatas disponibles no la establecen.
+- **Confianza:** D-E según caso; E para usar el zircon aislado como prueba de biosfera.
+
+### CLAIM-LIFE-ORIGIN-AGE-001 / MULTILINE-001
+
+- **Regla:** una huella sólo impone `origen ≤ edad de la huella` en tiempo transcurrido desde formación terrestre; no mide el intervalo previo perdido.
+- **Pruebas separadas:** indigeneidad, singenicidad y biogenicidad.
+- **Independencia:** varios aparatos sobre un mismo grano no equivalen a varios archivos; facies, población, tafonomía y química a escalas distintas añaden más poder.
+- **Confianza:** A para la relación lógica de mínimo; B para el estándar operativo de paquete multiseñal.
 
 ## Claims futuros
 

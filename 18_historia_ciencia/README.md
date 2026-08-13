@@ -13,3 +13,4 @@ Historia de cómo se reconstruyó la historia: creencias previas, evidencia disr
 - [`HISTORIA_010_AGUA_HADEANA.md`](HISTORIA_010_AGUA_HADEANA.md): de un Hadeano infernal a señales de oxígeno depuradas y una hidrosfera temprana con escala todavía abierta.
 - [`HISTORIA_011_ATMOSFERA_HADEANA.md`](HISTORIA_011_ATMOSFERA_HADEANA.md): de una mezcla primordial elegida a una atmósfera reconstruida por redox, desgasificación, escape, azufre y paleobarometría.
 - [`HISTORIA_012_IMPACTOS_HADEANOS.md`](HISTORIA_012_IMPACTOS_HADEANOS.md): de la concentración Apollo al cataclismo terminal, los sesgos de Imbrium, la cola de acreción y la nueva discrepancia de South Pole–Aitken.
+- [`HISTORIA_013_VIDA_MAS_ANTIGUA.md`](HISTORIA_013_VIDA_MAS_ANTIGUA.md): de las formas y el carbono ligero a paquetes de contexto, microanálisis y controversias tridimensionales sobre las biosignaturas más antiguas.

@@ -59,6 +59,13 @@ El propósito no es presentar la ciencia como una sucesión de fracasos ni como 
 | `ERR-HADEAN-LHB-001` | tratar el cataclismo de 3.9 Ga como hecho único cerrado | colección lunar representativa y edades sin mezcla | microanálisis, meteoritos lunares, nuevas muestras y modelos de sesgo | DOCUMENTADO |
 | `ERR-LUNAR-AGE-EVENT-001` | contar cada edad de muestra como un impacto | cierre/reinicio único y procedencia independiente | petrología, varios cronómetros y asignación muestra–evento | DOCUMENTADO |
 | `ERR-LUNAR-HIST-FLUX-001` | leer un histograma de edades como curva de flujo | selección y preservación constantes | función de respuesta, difusión y modelos de muestreo | DOCUMENTADO |
+| `ERR-LIFE-OLDEST-001` | convertir la candidatura más antigua en “el fósil más antiguo” | publicación y antigüedad sustituyen evaluación comparativa | matriz común de edad, singenicidad, biogenicidad y alternativas | DOCUMENTADO |
+| `ERR-LIFE-HOST-AGE-001` | asignar a una biosignatura la edad del mineral, intrusión o terreno | huésped, horizonte y señal son coetáneos | relaciones de corte, estratigrafía y cronología del objeto portador | DOCUMENTADO |
+| `ERR-LIFE-MORPH-001` | tratar parecido morfológico como identificación biológica | la forma celular es exclusiva de vida | 3-D, población, tafonomía, química y experimentos abióticos | DOCUMENTADO |
+| `ERR-LIFE-ISOTOPE-001` | tratar `δ13C` ligero como diagnóstico único de vida | sólo la fijación biológica fracciona C | petrología, poblaciones, isótopos múltiples y modelos de fluidos | DOCUMENTADO |
+| `ERR-LIFE-ORIGIN-DATE-001` | confundir la evidencia más antigua con la fecha del origen | preservación inmediata y registro completo | expresar límites mínimos y sesgo de preservación | DOCUMENTADO |
+| `ERR-LIFE-INDEP-001` | contar varios aparatos sobre un grano como varias pruebas independientes | cada técnica tiene un origen material distinto | matriz de dependencias por muestra, contexto, modelo y escala | DOCUMENTADO |
+| `ERR-LIFE-TAXONOMY-001` | inferir taxón o metabolismo exactos de una forma/fracción compatible | señal biológica identifica una ruta única | comparar redes abióticas/biológicas y degradar confianza por salto | DOCUMENTADO |
 | `ERR-LUNAR-APOLLO-INDEPENDENT-001` | tratar sitios Apollo como testigos independientes | ejecta local y sin transporte global | cartografía, Th, geoquímica y escalado de Imbrium | DOCUMENTADO |
 | `ERR-IMPACT-MOON-EARTH-001` | convertir cronología lunar en esterilización terrestre | escala constante de tasa y efecto | dinámica, hidrocodes, atmósfera/océano y archivo terrestre | DOCUMENTADO |
 | `ERR-LUNAR-ABSENCE-001` | “sin fundido antiguo” = “sin impacto antiguo” | supervivencia uniforme hacia atrás | sesgo de preservación y evidencia positiva `4.22–4.33 Ga` | DOCUMENTADO |
@@ -367,6 +374,48 @@ La agrupación de edades de muestras Apollo alrededor de 3.9 Ga generó el model
 ### Estado epistemológico
 
 No se marca como error total: el bombardeo temprano intenso está bien respaldado. El error comunicativo/metodológico fue confundir una interpretación particular de su historia temporal con la observación misma. La Investigación 012 documenta evidencia anterior a `4.0 Ga`, sesgo de Imbrium y no unicidad de las edades de meseta.
+
+## ERR-LIFE-OLDEST-001 — El récord no es una categoría científica estable
+
+Una candidata puede ser la más antigua y la menos discriminatoria. Titulares y resúmenes tienden a ordenar por fecha, mientras la evaluación científica debe usar dos ejes: antigüedad y fuerza. Strelley, Isua, Nuvvuagittuq, Saglek y el zircon de Jack Hills no compiten bajo la misma calidad de contexto.
+
+**Corrección:** publicar una escalera de confianza y no una medalla única.
+
+## ERR-LIFE-HOST-AGE-001 — La edad puede pertenecer al objeto equivocado
+
+La edad de un zircon fecha su cristalización; una intrusión fecha el corte; una edad modelo fecha separación de reservorio. Ninguna se transfiere automáticamente a carbono, jaspe o filamento.
+
+**Corrección:** nombrar por separado huésped, protolito, horizonte, inclusión y evento metamórfico.
+
+## ERR-LIFE-MORPH-001 — Parecido sin génesis
+
+Cristales, deformación y jardines químicos producen esferas, tubos, filamentos y conos. La forma 2-D pierde información topológica y puede transformar un borde mineral en una célula aparente.
+
+**Corrección:** reconstrucción 3-D, población, distribución ambiental, pared/lumen y degradación tafonómica.
+
+## ERR-LIFE-ISOTOPE-001 — Una cifra objetiva con causa no única
+
+La vida fracciona carbono, pero reacciones Fischer–Tropsch, reducción de carbonato y precipitación desde fluidos C–H–O también producen grafito ligero. La precisión del valor `δ13C` no resuelve la especificidad causal.
+
+**Corrección:** medir *in situ*, relacionar con mineral y capas, comparar poblaciones y modelar rutas abióticas.
+
+## ERR-LIFE-ORIGIN-DATE-001 — El fósil es un límite mínimo
+
+La primera huella preservada tuvo un productor ya existente. Entre el origen y esa huella pudo transcurrir un intervalo que el reciclaje geológico borró.
+
+**Corrección:** escribir “vida por al menos X” y reservar “origen” para una pregunta todavía abierta.
+
+## ERR-LIFE-INDEP-001 — Tres instrumentos, un mismo fallo
+
+Raman, SIMS y TEM sobre el mismo objeto añaden resolución, pero pueden compartir contaminación, contexto secundario o una clasificación morfológica errónea.
+
+**Corrección:** contar independencia material, espacial, teórica y de escala, no sólo técnicas.
+
+## ERR-LIFE-TAXONOMY-001 — De biosignatura a metabolismo sin escala intermedia
+
+Una pared carbonosa puede apoyar célula; un fraccionamiento de S puede apoyar procesamiento químico. Asignar reducción de sulfato, fotosíntesis o un taxón exige excluir rutas que dejan señales semejantes y demostrar asociación genética entre productos.
+
+**Corrección:** separar “biológico”, “tipo de metabolismo” y “linaje” como claims con confianza propia.
 
 ## ERR-LUNAR-AGE-EVENT-001 — Una edad no cuenta un proyectil
 
