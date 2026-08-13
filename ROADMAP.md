@@ -95,7 +95,7 @@ En cada periodo se auditarán primero sus límites cronoestratigráficos y despu
 | 036 | `INV-HOMININ-EARLY-001` | [¿Cómo identificamos a los primeros homininos si edad, bipedalismo y parentesco no son la misma evidencia?](08_cenozoico/INVESTIGACION_036_PRIMEROS_HOMININOS_SAHELANTHROPUS_ORRORIN_ARDIPITHECUS.md) — **AUDITADO** |
 | 037 | `INV-AUSTRALOPITH-001` | [¿Cómo distinguimos especies, locomoción, dieta y parentesco entre australopitecos y Paranthropus sin convertir su diversidad en una escalera hacia Homo?](08_cenozoico/INVESTIGACION_037_AUSTRALOPITECOS_PARANTHROPUS.md) — **AUDITADO** |
 | 038 | `INV-HOMO-EARLY-001` | [¿Cómo reconocemos a Homo temprano, habilis y erectus si fósiles, herramientas, cuerpos y moléculas responden preguntas distintas?](08_cenozoico/INVESTIGACION_038_HOMO_TEMPRANO_HABILIS_ERECTUS.md) — **AUDITADO** |
-| 039 | `INV-HOMO-MIDDLE-001` | heidelbergensis y poblaciones del Pleistoceno medio |
+| 039 | `INV-HOMO-MIDDLE-001` | [¿Cómo reconstruimos las poblaciones humanas del Pleistoceno medio sin convertir Homo heidelbergensis en un cajón de sastre ni cada fósil en un ancestro?](08_cenozoico/INVESTIGACION_039_HOMO_PLEISTOCENO_MEDIO_HEIDELBERGENSIS.md) — **AUDITADO** |
 | 040 | `INV-NEAND-DENIS-001` | neandertales, denisovanos y mestizaje |
 | 041 | `INV-HOMO-OTHER-001` | floresiensis, naledi y diversidad tardía |
 | 042 | `INV-SAPIENS-ORIGIN-001` | origen africano: región única o población estructurada |
@@ -187,6 +187,7 @@ Después de disponer de la secuencia base:
 - `v0.1.35-civ.1`: marco crítico y programa regional CIV + `INV-CIV-ORIGINS-001` en estado `TRAZADO`, sin alterar la secuencia global pendiente.
 - `v0.1.36`: Investigación 037 + historia de Taung/Lucy/“cascanueces” a hipodigmas y proxies + mapas de seis rutas, actualizados con `A. deyiremeda` y mano de `P. boisei` de 2025, `Paranthropus` del Afar y locomoción sudafricana de 2026.
 - `v0.1.37`: Investigación 038 + historia de Java/OH 7/Dmanisi a hipodigmas, variación y paleoproteómica + mapas de ocho rutas y dos cadenas, actualizados con Oldowan y anatomía craneofacial de 2025 y proteínas de `H. erectus` de 2026.
+- `v0.1.38`: Investigación 039 + historia de Mauer/Sima/Bodo/Kabwe a paleodemos y genealogías + mapas de ocho productos y dos cadenas, actualizados con Harbin 2025 y Casablanca 2026.
 - `v0.2`: Hadeano/Arcaico auditados.
 - `v0.3`: Proterozoico y origen/temprana evolución de la vida.
 - `v0.4`: Fanerozoico completo.

@@ -325,6 +325,18 @@ El propósito no es presentar la ciencia como una sucesión de fracasos ni como 
 | `ERR-HOMO-DISPERSAL-ACHEULEAN-001` | salir de África exigió Achelense | tecnología tardía convertida en requisito | Dmanisi/Shangchen y cronología comparada | DOCUMENTADO |
 | `ERR-HOMO-SHANGCHEN-ERECTUS-001` | las herramientas de Shangchen son fósiles de `H. erectus` | presencia hominina convertida en taxón | fósil diagnóstico y artefacto separados | DOCUMENTADO |
 | `ERR-HOMO-PROTEIN-DNA-001` | se recuperó ADN de `H. erectus` y probó introgresión | péptidos y modelo convertidos en genoma observado | molécula, posiciones e inferencia demográfica declaradas | DOCUMENTADO |
+| `ERR-HOMO-MIDDLE-CATCHALL-001` | todo fósil «intermedio» es `H. heidelbergensis` | grado visual convertido en especie | tipo, diagnóstico e hipodigma explícitos | DOCUMENTADO |
+| `ERR-HOMO-MIDDLE-TYPE-SKULL-001` | existe un cráneo tipo de Heidelberg | reconstrucción compuesta convertida en objeto | la mandíbula de Mauer como único holotipo | DOCUMENTADO |
+| `ERR-HOMO-MIDDLE-TIME-SPECIES-001` | Chibaniense/Homo medio es una especie | intervalo convertido en clado | cronología y taxonomía separadas | DOCUMENTADO |
+| `ERR-HOMO-MIDDLE-MAUER-ANCESTOR-001` | Mauer fue ancestro universal | antigüedad/nombre convertidos en genealogía | afinidad y ancestro directo graduados | DOCUMENTADO |
+| `ERR-HOMO-MIDDLE-SIMA-DENISOVAN-001` | Sima es denisovana por su mtDNA | un locus renombra un paleodemo | mtDNA, nuclear y anatomía integrados | DOCUMENTADO |
+| `ERR-HOMO-MIDDLE-MTDNA-SPECIES-001` | el árbol mitocondrial es el árbol de especie | una línea materna sustituye al genoma | genealogías por locus y demografía | DOCUMENTADO |
+| `ERR-HOMO-MIDDLE-BODO-CANNIBAL-001` | Bodo prueba canibalismo o ritual | marca convertida en motivo | descarnamiento y alternativas separados | DOCUMENTADO |
+| `ERR-HOMO-MIDDLE-KABWE-500KA-001` | Kabwe tiene ~500 ka por parecido | edad heredada sin reloj directo | `299 ± 25 ka` con modelo declarado | DOCUMENTADO |
+| `ERR-HOMO-MIDDLE-BODOENSIS-ACCEPTED-001` | publicar `bodoensis` lo volvió aceptado | propuesta confundida con consenso | propuesta, réplica y uso posterior separados | DOCUMENTADO |
+| `ERR-HOMO-MIDDLE-HARBIN-LONGI-FINAL-001` | `H. longi` cerró la identidad de Harbin | primer nombre tratado como final | evidencia morfológica y molecular revisable | DOCUMENTADO |
+| `ERR-HOMO-MIDDLE-ACHEULEAN-TAXON-001` | un bifaz identifica especie | industria convertida en firma biológica | contexto, acción y fabricante separados | DOCUMENTADO |
+| `ERR-HOMO-MIDDLE-REGIONAL-LADDER-001` | África–Europa–Asia son estaciones lineales | geografía/edad convertidas en marcha | paleodemos ramificados y solapamientos | DOCUMENTADO |
 | `ERR-IMPACT-MOON-EARTH-001` | convertir cronología lunar en esterilización terrestre | escala constante de tasa y efecto | dinámica, hidrocodes, atmósfera/océano y archivo terrestre | DOCUMENTADO |
 | `ERR-LUNAR-ABSENCE-001` | “sin fundido antiguo” = “sin impacto antiguo” | supervivencia uniforme hacia atrás | sesgo de preservación y evidencia positiva `4.22–4.33 Ga` | DOCUMENTADO |
 
@@ -2845,3 +2857,99 @@ Los fósiles pueden cargar en dos piernas y seguir trepando o suspendiéndose.
 ### Corrección
 
 Reconstruir repertorios con frecuencia incierta y evidencia por región anatómica.
+
+## ERR-HOMO-MIDDLE-CATCHALL-001 — Todo lo intermedio es `heidelbergensis`
+
+Edad media, cerebro grande o aspecto «transicional» no forman un diagnóstico. Agrupar por descarte mezcla regiones, tiempos y genealogías.
+
+### Corrección
+
+Comenzar por el tipo, declarar hipodigma y probar caracteres contra modelos regionales rivales.
+
+## ERR-HOMO-MIDDLE-TYPE-SKULL-001 — El cráneo tipo que nunca existió
+
+Ilustraciones populares convierten Mauer en un cráneo o rostro compuesto. El holotipo es una mandíbula sin cráneo asociado.
+
+### Corrección
+
+Rotular cada espécimen y distinguir tipo, reconstrucción, comparador y promedio hipotético.
+
+## ERR-HOMO-MIDDLE-TIME-SPECIES-001 — Chibaniense como especie
+
+«Homo del Pleistoceno medio» es una categoría temporal de trabajo. Sus miembros no comparten necesariamente una especie o rama.
+
+### Corrección
+
+Usar el intervalo para ordenar muestras y después probar agrupaciones biológicas.
+
+## ERR-HOMO-MIDDLE-MAUER-ANCESTOR-001 — El tipo como ancestro universal
+
+Ser antiguo y portar un nombre no convierte al individuo de Mauer en ancestro de neandertales o sapiens.
+
+### Corrección
+
+Separar nomenclatura, afinidad y genealogía directa; esta última suele quedar en nivel D.
+
+## ERR-HOMO-MIDDLE-SIMA-DENISOVAN-001 — Un mtDNA renombra a toda Sima
+
+La mitocondria de afinidad denisovana es un locus; el ADN nuclear y la anatomía acercan la muestra a neandertales.
+
+### Corrección
+
+Conservar genealogías por locus y modelar su discordancia antes de asignar especie.
+
+## ERR-HOMO-MIDDLE-MTDNA-SPECIES-001 — La mitocondria es la especie
+
+MtDNA traza una línea materna no recombinante y puede cruzar fronteras o persistir de forma discordante respecto al genoma.
+
+### Corrección
+
+Integrar nuclear, morfología, contexto y demografía; no usar un árbol mitocondrial como taxonomía completa.
+
+## ERR-HOMO-MIDDLE-BODO-CANNIBAL-001 — Una marca de corte prueba canibalismo
+
+Las marcas de Bodo apoyan descarnamiento. Consumo, ritual, violencia y tratamiento mortuorio requieren evidencia adicional.
+
+### Corrección
+
+Publicar primero agente y acción mínima; registrar los motivos como alternativas no discriminadas.
+
+## ERR-HOMO-MIDDLE-KABWE-500KA-001 — La edad heredada por parecido
+
+Kabwe fue situado durante décadas en rangos amplios. Su datación directa modelada produjo `299 ± 25 ka`.
+
+### Corrección
+
+Vincular cada edad a muestra, sistema y fecha de revisión; no propagar cifras antiguas por morfología.
+
+## ERR-HOMO-MIDDLE-BODOENSIS-ACCEPTED-001 — Publicado equivale a aceptado
+
+Una propuesta taxonómica revisada por pares es una hipótesis formal, no un voto universal. `H. bodoensis` recibió objeciones explícitas de prioridad e hipodigma.
+
+### Corrección
+
+Registrar propuesta, réplicas, código y uso posterior como estados separados.
+
+## ERR-HOMO-MIDDLE-HARBIN-LONGI-FINAL-001 — El primer nombre cerró Harbin
+
+`H. longi` fue propuesto en 2021; proteínas y mtDNA de 2025 vincularon el individuo con denisovanos.
+
+### Corrección
+
+Mantener nombres morfológicos revisables e integrar moléculas sin fingir que ellas resuelven automáticamente el rango zoológico.
+
+## ERR-HOMO-MIDDLE-ACHEULEAN-TAXON-001 — El bifaz firma una especie
+
+Una industria puede transmitirse entre poblaciones, converger o persistir. Aroeira asocia Achelense y fósil, pero no conserva autoría individual.
+
+### Corrección
+
+Separar objeto, cadena operativa, contexto, productor candidato y atribución taxonómica.
+
+## ERR-HOMO-MIDDLE-REGIONAL-LADDER-001 — África, Europa y Asia como estaciones
+
+Ordenar fósiles por continente y edad produce una marcha ficticia que ignora solapamientos, flujo, extinciones y muestreo.
+
+### Corrección
+
+Representar paleodemos ramificados, intervalos y conexiones hipotéticas sin flechas de ancestro.

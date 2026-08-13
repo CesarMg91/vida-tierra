@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="760" viewBox="0 0 1440 760" role="img" aria-labelledby="title desc">
+  <title id="title">De mandíbula a especie y de molécula a población</title>
+  <desc id="desc">Dos cadenas paralelas muestran que un holotipo no basta para una especie continental y que una afinidad molecular no fija automáticamente un nombre zoológico.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#0f1920"/><stop offset="1" stop-color="#203742"/></linearGradient>
+    <marker id="a" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto"><path d="M0 0 L0 6 L9 3z" fill="#b9d0cf"/></marker>
+    <style>.h{font:700 34px system-ui,sans-serif;fill:#f4ece1}.sh{font:700 22px system-ui,sans-serif;fill:#e8d9c6}.box{fill:#e7dfd2;stroke:#b9d0cf;stroke-width:2}.m{fill:#d6e3e4;stroke:#b9d0cf;stroke-width:2}.t{font:600 18px system-ui,sans-serif;fill:#1a2930}.s{font:400 15px system-ui,sans-serif;fill:#42535a}.line{stroke:#b9d0cf;stroke-width:3;fill:none;marker-end:url(#a)}.limit{fill:#bd7657;stroke:#f1c0a6;stroke-width:2}.lt{font:700 18px system-ui,sans-serif;fill:white}</style>
+  </defs>
+  <rect width="1440" height="760" fill="url(#bg)"/>
+  <text x="70" y="62" class="h">Dos cadenas que no deben cerrarse antes de tiempo</text>
+  <text x="70" y="112" class="sh">A · Del tipo al taxón</text>
+  <g transform="translate(70 145)">
+    <rect class="box" x="0" y="0" width="230" height="110" rx="18"/><text class="t" x="115" y="45" text-anchor="middle">Mandíbula de Mauer</text><text class="s" x="115" y="76" text-anchor="middle">objeto portador del nombre</text>
+    <path class="line" d="M230 55 H285"/>
+    <rect class="box" x="285" y="0" width="230" height="110" rx="18"/><text class="t" x="400" y="45" text-anchor="middle">Caracteres</text><text class="s" x="400" y="76" text-anchor="middle">mandibulares comparables</text>
+    <path class="line" d="M515 55 H570"/>
+    <rect class="box" x="570" y="0" width="230" height="110" rx="18"/><text class="t" x="685" y="45" text-anchor="middle">Hipodigma</text><text class="s" x="685" y="76" text-anchor="middle">asignación declarada</text>
+    <path class="line" d="M800 55 H855"/>
+    <rect class="box" x="855" y="0" width="230" height="110" rx="18"/><text class="t" x="970" y="45" text-anchor="middle">Variación + árbol</text><text class="s" x="970" y="76" text-anchor="middle">pruebas de coherencia</text>
+    <path class="line" d="M1085 55 H1140"/>
+    <rect class="limit" x="1140" y="0" width="230" height="110" rx="18"/><text class="lt" x="1255" y="43" text-anchor="middle">Taxón condicionado</text><text class="lt" x="1255" y="74" text-anchor="middle">no especie observada</text>
+  </g>
+  <text x="70" y="350" class="sh">B · De la muestra molecular a la población</text>
+  <g transform="translate(70 385)">
+    <rect class="m" x="0" y="0" width="230" height="110" rx="18"/><text class="t" x="115" y="45" text-anchor="middle">Hueso / cálculo</text><text class="s" x="115" y="76" text-anchor="middle">muestra autenticada</text>
+    <path class="line" d="M230 55 H285"/>
+    <rect class="m" x="285" y="0" width="230" height="110" rx="18"/><text class="t" x="400" y="45" text-anchor="middle">ADN / proteína</text><text class="s" x="400" y="76" text-anchor="middle">fragmentos o péptidos</text>
+    <path class="line" d="M515 55 H570"/>
+    <rect class="m" x="570" y="0" width="230" height="110" rx="18"/><text class="t" x="685" y="45" text-anchor="middle">Variante / árbol</text><text class="s" x="685" y="76" text-anchor="middle">referencias y modelo</text>
+    <path class="line" d="M800 55 H855"/>
+    <rect class="m" x="855" y="0" width="230" height="110" rx="18"/><text class="t" x="970" y="45" text-anchor="middle">Afinidad</text><text class="s" x="970" y="76" text-anchor="middle">genealogía acotada</text>
+    <path class="line" d="M1085 55 H1140"/>
+    <rect class="limit" x="1140" y="0" width="230" height="110" rx="18"/><text class="lt" x="1255" y="43" text-anchor="middle">Población bajo modelo</text><text class="lt" x="1255" y="74" text-anchor="middle">rango zoológico abierto</text>
+  </g>
+  <rect x="180" y="585" width="1080" height="105" rx="24" fill="#111c22" stroke="#d19a7e" stroke-width="2"/>
+  <text x="720" y="628" text-anchor="middle" class="sh">La cronología ordena; la morfología agrupa; las moléculas trazan genealogías.</text>
+  <text x="720" y="662" text-anchor="middle" class="sh" style="fill:#dca182">Ninguna ruta, sola, observa especie, ancestro, fabricante o motivo.</text>
+</svg>
