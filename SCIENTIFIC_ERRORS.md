@@ -315,6 +315,16 @@ El propósito no es presentar la ciencia como una sucesión de fracasos ni como 
 | `ERR-EARLY-HOMININ-MOSAIC-LADDER-001` | rasgos mosaico son pasos intermedios de una escalera | modularidad convertida en progreso | árbol ramificado y módulos funcionales | DOCUMENTADO |
 | `ERR-EARLY-HOMININ-ONE-LOCOMOTION-001` | “bípedo” excluye trepa o suspensión | repertorio reducido a etiqueta binaria | frecuencia y regiones anatómicas múltiples | DOCUMENTADO |
 | `ERR-LUNAR-APOLLO-INDEPENDENT-001` | tratar sitios Apollo como testigos independientes | ejecta local y sin transporte global | cartografía, Th, geoquímica y escalado de Imbrium | DOCUMENTADO |
+| `ERR-HOMO-BRAIN-THRESHOLD-001` | un volumen cerebral mínimo define `Homo` | variable continua convertida en frontera natural | combinación de caracteres y sensibilidad taxonómica | DOCUMENTADO |
+| `ERR-HOMO-HANDY-MAKER-001` | `H. habilis` fabricó herramientas porque significa “hombre hábil” | etimología convertida en observación de autoría | artefacto, contexto y productor separados | DOCUMENTADO |
+| `ERR-HOMO-LINEAR-SUCCESSION-001` | `habilis` se convirtió limpiamente en `erectus` | rangos solapados convertidos en escalera | coexistencia, variación y ramificación | DOCUMENTADO |
+| `ERR-HOMO-DMANISI-ONE-SPECIES-001` | Dmanisi prueba que todo `Homo` temprano fue una especie | variación local universalizada | modelos jerárquicos por tiempo y región | DOCUMENTADO |
+| `ERR-HOMO-ERECTUS-UNIFORM-001` | `H. erectus` tenía un cuerpo y cráneo uniformes | un esqueleto completo convertido en plantilla | individuos, ontogenia y mosaicos regionales | DOCUMENTADO |
+| `ERR-HOMO-ERGASTER-GEOGRAPHY-001` | todo fósil africano es `ergaster` y todo asiático `erectus` | geografía convertida en diagnóstico | caracteres y modelos taxonómicos explícitos | DOCUMENTADO |
+| `ERR-HOMO-TOOL-TAXON-001` | una herramienta identifica la especie que la fabricó | industria convertida en firma biológica | asociación, agentes candidatos y autoría graduada | DOCUMENTADO |
+| `ERR-HOMO-DISPERSAL-ACHEULEAN-001` | salir de África exigió Achelense | tecnología tardía convertida en requisito | Dmanisi/Shangchen y cronología comparada | DOCUMENTADO |
+| `ERR-HOMO-SHANGCHEN-ERECTUS-001` | las herramientas de Shangchen son fósiles de `H. erectus` | presencia hominina convertida en taxón | fósil diagnóstico y artefacto separados | DOCUMENTADO |
+| `ERR-HOMO-PROTEIN-DNA-001` | se recuperó ADN de `H. erectus` y probó introgresión | péptidos y modelo convertidos en genoma observado | molécula, posiciones e inferencia demográfica declaradas | DOCUMENTADO |
 | `ERR-IMPACT-MOON-EARTH-001` | convertir cronología lunar en esterilización terrestre | escala constante de tasa y efecto | dinámica, hidrocodes, atmósfera/océano y archivo terrestre | DOCUMENTADO |
 | `ERR-LUNAR-ABSENCE-001` | “sin fundido antiguo” = “sin impacto antiguo” | supervivencia uniforme hacia atrás | sesgo de preservación y evidencia positiva `4.22–4.33 Ga` | DOCUMENTADO |
 

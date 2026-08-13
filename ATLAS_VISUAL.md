@@ -514,6 +514,20 @@ El mapa conserva seis rutas —edad, taxón, locomoción, dieta, tecnología y p
 
 La doble cadena declara controles de ontogenia, dimorfismo y deformación para la taxonomía, y conserva anatomía, isótopos, microdesgaste y residuos como ventanas dietarias no equivalentes.
 
+## 39. Investigación 038 — Homo temprano: archivos sin escalera
+
+![Portada conceptual de Homo temprano, habilis y erectus](assets/visuales/hero-homo-temprano-habilis-erectus-v2.png)
+
+> **Portada conceptual:** organiza mandíbula, dientes, fragmentos craneales, esqueleto parcial, industrias y una señal proteómica en bandejas independientes. No reproduce especímenes a escala, no reúne un individuo real y no prueba especie, autoría, contemporaneidad ni parentesco.
+
+![Mapa epistemológico de Homo temprano](assets/visuales/mapa-investigacion-038.svg)
+
+El mapa conserva ocho rutas —cronología, taxonomía, anatomía, distribución, tecnología, crecimiento, biomoléculas y genealogía— para impedir que un resultado sustituya al siguiente.
+
+![Cadenas de fósil a taxón y de artefacto a conducta](assets/visuales/de-fosil-a-taxon-de-artefacto-a-conducta.svg)
+
+Los dos carriles declaran controles distintos: forma, variación y modelo para nombrar fósiles; contexto, trazas y réplica para inferir conducta. Ninguno demuestra por sí solo ancestro o fabricante.
+
 ## Procedencia
 
 El registro de creación, límites y prompt de cada pieza está en [`assets/visuales/README.md`](assets/visuales/README.md).

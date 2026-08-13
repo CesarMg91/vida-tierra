@@ -850,3 +850,33 @@ Nyayanga ─> Oldowan + Paranthropus presente ─> fabricante abierto
 ```
 
 Véase `INV-AUSTRALOPITH-001` en `08_cenozoico`, su mapa en `assets/visuales/mapa-investigacion-037.svg` y la doble cadena en `assets/visuales/de-fosil-a-especie-y-de-diente-a-dieta.svg`.
+
+### Investigación 038 — Homo temprano, habilis y erectus
+
+```text
+toba + polaridad + estrato ───────────────> edad/presencia mínima ─────────────┐
+fragmento + CT + comparación ─────────────> afinidad/hipótesis de taxón ──────┤
+esqueleto + ontogenia + alometría ────────> cuerpo y crecimiento locales ─────┤
+sitios fechados + hiatos ─────────────────> distribución muestreada ──────────┤
+artefacto + traza + réplica ──────────────> gesto técnico, autor abierto ─────┤
+péptido + daño + modelo ──────────────────> variante/afinidad condicionada ───┘
+                                                        │
+                                                        └─> ninguna ruta prueba una escalera
+```
+
+Ledi-Geraru fija presencia anterior a una especie segura; OH 7 y Koobi Fora separan el nombre histórico de la variación observada; Drimolen, Turkana, Dmanisi y Asia documentan solapamientos y dispersiones sin trazar una ruta única. Nariokotome aporta un cuerpo individual extraordinario, no una plantilla universal.
+
+```text
+fósil → caracteres → variación → modelo taxonómico → nombre revisable
+artefacto → trazas → cadena operativa → conducta → productores candidatos
+
+morfología ≠ especie
+sitio más antiguo ≠ lugar de origen
+industria ≠ fabricante
+proteína ≠ ADN
+afinidad ≠ introgresión observada
+```
+
+Namorotukunan, Kokiselei y Olduvai sostienen continuidad y diversificación técnica, pero no firman al fabricante. Las proteínas de esmalte de 2026 abren una ruta molecular independiente y limitada: autentican péptidos, no recuperan un genoma de `H. erectus`.
+
+Véase `INV-HOMO-EARLY-001` en `08_cenozoico`, su mapa en `assets/visuales/mapa-investigacion-038.svg` y la doble cadena en `assets/visuales/de-fosil-a-taxon-de-artefacto-a-conducta.svg`.
