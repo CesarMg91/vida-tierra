@@ -105,6 +105,14 @@ Este archivo es el índice canónico. La letra de confianza califica exactamente
 | `CLAIM-LIFE-PRE3700-001` | Nuvvuagittuq, Saglek, Akilia y el grafito de un zircon de `4.10 Ga` contienen señales compatibles con vida muy antigua, pero ninguna asegura simultáneamente edad del horizonte, singenicidad y biogenicidad; no establecen vida pre-`3.7 Ga`. | D-E según caso | AUDITADO | `EVID-LIFE-AKILIA-001`, `EVID-LIFE-NUV-001`, `EVID-LIFE-SAGLEK-001`, `EVID-LIFE-ZIRCON-4100-001` | `INV-ARCHEAN-LIFE-001` |
 | `CLAIM-LIFE-ORIGIN-AGE-001` | Toda biosignatura fechada proporciona una edad mínima para la existencia de vida, no la fecha exacta de su origen ni el tiempo transcurrido desde él. | A para la relación lógica; hereda la confianza de cada biosignatura | AUDITADO | `EVID-LIFE-CRITERIA-001` | `INV-ARCHEAN-LIFE-001` |
 | `CLAIM-LIFE-MULTILINE-001` | Una afirmación de vida muy antigua requiere separar indigeneidad, singenicidad y biogenicidad, y gana poder sólo cuando morfología, química, contexto y tafonomía no dependen del mismo posible fallo. | B | AUDITADO | `EVID-LIFE-CRITERIA-001`, `EVID-LIFE-APEX-001` | `INV-ARCHEAN-LIFE-001` |
+| `CLAIM-PHOTO-BY3416-001` | Tapetes carbonosos organizados por facies establecen fototrofía en Buck Reef por `3.416 Ga`, sin identificar productor ni aparato molecular. | C↑ | AUDITADO | `EVID-PHOTO-BUCKREEF-MATS-001` | `INV-ARCHEAN-PHOTOSYNTHESIS-001` |
+| `CLAIM-PHOTO-ANOXY-001` | El estado redox de Buck Reef favorece fotosíntesis anoxigénica; `H₂` es un donador plausible pero no único. | C para anoxigénica; C-D para `H₂` | AUDITADO | `EVID-PHOTO-BUCKREEF-REDOX-001` | `INV-ARCHEAN-PHOTOSYNTHESIS-001` |
+| `CLAIM-OXYGENIC-BY2870-001` | La fotosíntesis oxigénica producía `O₂` local por `2.87 Ga`; tres plataformas conservan oxidación de Ce fechada como singenética. | B-COND | AUDITADO | `EVID-OXYGENIC-LACE-001` | `INV-ARCHEAN-PHOTOSYNTHESIS-001` |
+| `CLAIM-OXYGENIC-PONGOLA-001` | Mo/Fe de Pongola favorecen un oasis superficial de `O₂` a `≥2.95 Ga`, bajo una atmósfera todavía reducida. | C↑ | AUDITADO | `EVID-OXYGENIC-PONGOLA-MOFE-001`, `EVID-OXYGENIC-PONGOLA-CR-001` | `INV-ARCHEAN-PHOTOSYNTHESIS-001` |
+| `CLAIM-OXYGENIC-ORIGIN-001` | El origen exacto de la fotosíntesis oxigénica no está fechado; geoquímica y relojes son compatibles con origen arcaico anterior a `2.87 Ga`, quizá `~3.4–2.9 Ga`. | C-D para ventana; D-E para fecha/linaje | AUDITADO | `EVID-OXYGENIC-LACE-001`, `EVID-PHOTO-CLOCK-001`, `EVID-PHOTO-MARBLEBAR-001` | `INV-ARCHEAN-PHOTOSYNTHESIS-001` |
+| `CLAIM-PHOTO-O2-ACCUM-001` | Producción de `O₂`, oasis local y acumulación atmosférica persistente son estados distintos; la última exige superar sumideros y no fecha el origen metabólico. | A para distinción; B-COND para historia terrestre | AUDITADO | `EVID-PHOTO-SINKS-001`, `EVID-OXYGENIC-PONGOLA-MOFE-001` | `INV-ARCHEAN-PHOTOSYNTHESIS-001` |
+| `CLAIM-PHOTO-BIOMARKER-001` | Los hopanos/esteranos arcaicos clásicos no son un reloj válido de cianobacterias o fotosíntesis oxigénica porque fallan controles de singenicidad y contaminación. | B para retirar el archivo; D-E como reloj | AUDITADO | `EVID-PHOTO-BIOMARKER-CLEAN-001` | `INV-ARCHEAN-PHOTOSYNTHESIS-001` |
+| `CLAIM-PHOTO-DIRECT-FOSSIL-001` | Tilacoides intracelulares de *Navifusa* documentan directamente fotótrofos oxigénicos a `1.78–1.73 Ga`, pero no el origen del metabolismo. | B para el mínimo; E como fecha de origen | AUDITADO | `EVID-PHOTO-THYLAKOID-001` | `INV-ARCHEAN-PHOTOSYNTHESIS-001` |
 
 ## Fichas resumidas
 
@@ -470,6 +478,46 @@ Este archivo es el índice canónico. La letra de confianza califica exactamente
 - **Pruebas separadas:** indigeneidad, singenicidad y biogenicidad.
 - **Independencia:** varios aparatos sobre un mismo grano no equivalen a varios archivos; facies, población, tafonomía y química a escalas distintas añaden más poder.
 - **Confianza:** A para la relación lógica de mínimo; B para el estándar operativo de paquete multiseñal.
+
+### CLAIM-PHOTO-BY3416-001 / PHOTO-ANOXY-001
+
+- **Dato:** tapetes carbonosos de Buck Reef se distribuyen por facies iluminadas a `3.416 Ga`; siderita y falta de oxidación general favorecen agua anóxica.
+- **Puente:** organización en zona fótica → fototrofía; estado redox + donadores reducidos → metabolismo anoxigénico probable.
+- **Límite:** no identifica taxón, centro de reacción ni donador exacto; `H₂` es una hipótesis más específica.
+- **Confianza:** `C↑` para fototrofía; `C` para anoxigénica; `C-D` para `H₂`.
+
+### CLAIM-OXYGENIC-BY2870-001 / PONGOLA-001
+
+- **Dato:** tres plataformas `2.87–2.78 Ga` conservan Ce negativo fechado por La–Ce como singenético; Pongola `≥2.95 Ga` conserva Mo/Fe compatible con un ciclo de Mn oxidado.
+- **Escala:** ambos archivos registran aguas locales o regionales, no una atmósfera global oxigenada.
+- **Límite:** el oxidante y productor no se observan como célula; Pongola conserva mayor sensibilidad a alteración/modelo.
+- **Confianza:** `B-COND` para producción local por `2.87 Ga`; `C↑` para `≥2.95 Ga`.
+
+### CLAIM-OXYGENIC-ORIGIN-001
+
+- **Dato:** proxies imponen mínimos; relojes D1/D2, fósiles y HGT favorecen raíces arcaicas, compatibles con `~3.4–2.9 Ga`.
+- **Regla:** fecha del proxy `≥` fecha de la innovación en antigüedad; no son iguales salvo evidencia directa del evento.
+- **Límite:** duplicación proteica, aparato funcional y grupo corona cianobacteriano son nodos diferentes.
+- **Confianza:** `C-D` para la ventana molecular; `D-E` para fecha/linaje exactos.
+
+### CLAIM-PHOTO-O2-ACCUM-001
+
+- **Distinción:** oxidar agua produce `O₂`; acumularlo exige que fuentes netas y enterramiento superen sumideros de Fe, S, gases y materia orgánica.
+- **Consecuencia:** un oasis puede coexistir con aire reducido; el GOE no fecha el origen del metabolismo.
+- **Confianza:** A para la distinción de balance; B-COND para su aplicación general a la historia terrestre; mecanismos/pesos exactos abiertos.
+
+### CLAIM-PHOTO-BIOMARKER-001
+
+- **Dato:** hopanos/esteranos arcaicos clásicos no se reproducen por encima de blancos en interiores ultralimpios y muestran entrada posterior al metamorfismo.
+- **Límite:** retirar esos compuestos como reloj no demuestra ausencia de cianobacterias; una especificidad taxonómica mejorada no repara singenicidad.
+- **Confianza:** B para invalidar ese archivo como datación arcaica; D-E para usarlo como origen oxigénico.
+
+### CLAIM-PHOTO-DIRECT-FOSSIL-001
+
+- **Dato:** *Navifusa majensis* de `1.78–1.73 Ga` conserva membranas tilacoidales intracelulares por TEM.
+- **Puente:** la arquitectura identifica de forma directa fotótrofos oxigénicos con tilacoides.
+- **Límite:** primera preservación directa conocida no es primera aparición histórica.
+- **Confianza:** B para la identificación/mínimo del clado; E para usar `~1.75 Ga` como origen de fotosíntesis oxigénica.
 
 ## Claims futuros
 

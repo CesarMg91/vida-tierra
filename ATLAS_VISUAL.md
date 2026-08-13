@@ -178,6 +178,20 @@ El mapa compara Strelley Pool, Dresser, Isua y candidatas más antiguas sin orde
 
 La cadena separa cinco preguntas: qué objeto se fecha, si la señal pertenece a la muestra, si estaba allí al depositarse, si supera alternativas abióticas y qué edad mínima puede sostener. La antigüedad de la roca no resuelve las cuatro restantes.
 
+## 15. Investigación 014 — Fotosíntesis y producción de oxígeno
+
+![Portada conceptual de fotosíntesis y oxígeno arcaicos](assets/visuales/hero-fotosintesis-oxigeno.png)
+
+> **Portada conceptual:** reúne tapetes fototróficos, un oasis local, frentes minerales, muestras y microscopía de épocas distintas. No es una reconstrucción de una localidad ni representa una atmósfera globalmente oxigenada.
+
+![Mapa de evidencia de fotosíntesis y oxígeno](assets/visuales/mapa-investigacion-014.svg)
+
+El mapa separa cuatro relojes: fototrofía a `3.416 Ga`, un oasis posible a `≥2.95 Ga`, oxidación de Ce fechada por `2.87 Ga` y la acumulación atmosférica posterior. Son límites diferentes, no cuatro fechas competidoras del mismo evento.
+
+![Cadena de fototrofía a oxigenación](assets/visuales/de-fototrofia-a-oxigenacion.svg)
+
+La cadena bifurca los donadores reducidos y el agua, y luego añade los sumideros. Hace visible por qué `fotosíntesis`, `producción de O₂` y `oxigenación planetaria` no son sinónimos.
+
 ## Procedencia
 
 El registro de creación, límites y prompt de cada pieza está en [`assets/visuales/README.md`](assets/visuales/README.md).

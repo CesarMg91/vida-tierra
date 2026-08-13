@@ -66,6 +66,13 @@ El propósito no es presentar la ciencia como una sucesión de fracasos ni como 
 | `ERR-LIFE-ORIGIN-DATE-001` | confundir la evidencia más antigua con la fecha del origen | preservación inmediata y registro completo | expresar límites mínimos y sesgo de preservación | DOCUMENTADO |
 | `ERR-LIFE-INDEP-001` | contar varios aparatos sobre un grano como varias pruebas independientes | cada técnica tiene un origen material distinto | matriz de dependencias por muestra, contexto, modelo y escala | DOCUMENTADO |
 | `ERR-LIFE-TAXONOMY-001` | inferir taxón o metabolismo exactos de una forma/fracción compatible | señal biológica identifica una ruta única | comparar redes abióticas/biológicas y degradar confianza por salto | DOCUMENTADO |
+| `ERR-PHOTO-STROM-CYANO-001` | equiparar tapete/estromatolito con cianobacteria oxigénica | forma y fototrofía identifican taxón/donador | separar biogenicidad, metabolismo, redox y taxonomía | DOCUMENTADO |
+| `ERR-PHOTO-O2-GLOBAL-001` | convertir un oasis local en atmósfera oxigenada | escala y mezcla global heredadas del proxy | declarar reservorio, área y tiempo de residencia | DOCUMENTADO |
+| `ERR-PHOTO-HEMATITE-001` | asignar a hematita la edad de la roca huésped | mineral oxidado necesariamente primario | petrografía de reemplazo y reloj del fraccionamiento | DOCUMENTADO |
+| `ERR-PHOTO-BIOMARKER-001` | asumir que un lípido extraído es singenético | interior de roca está libre de entrada tardía | blancos, testigos ultralimpios y análisis *in situ* | DOCUMENTADO |
+| `ERR-PHOTO-PROXY-DATE-001` | usar edad de oxidación como cumpleaños de la innovación | primera huella preserva el origen inmediato | expresar mínimo y dirección del límite | DOCUMENTADO |
+| `ERR-PHOTO-CLOCK-001` | tratar punto de reloj molecular como fecha fósil | calibraciones/tasas/nodos son únicos | distribuciones, sensibilidad y nodo explícito | DOCUMENTADO |
+| `ERR-PHOTO-GOE-ORIGIN-001` | fechar fotosíntesis oxigénica con el GOE | producción y acumulación son simultáneas | balance de fuentes/sumideros y escala | DOCUMENTADO |
 | `ERR-LUNAR-APOLLO-INDEPENDENT-001` | tratar sitios Apollo como testigos independientes | ejecta local y sin transporte global | cartografía, Th, geoquímica y escalado de Imbrium | DOCUMENTADO |
 | `ERR-IMPACT-MOON-EARTH-001` | convertir cronología lunar en esterilización terrestre | escala constante de tasa y efecto | dinámica, hidrocodes, atmósfera/océano y archivo terrestre | DOCUMENTADO |
 | `ERR-LUNAR-ABSENCE-001` | “sin fundido antiguo” = “sin impacto antiguo” | supervivencia uniforme hacia atrás | sesgo de preservación y evidencia positiva `4.22–4.33 Ga` | DOCUMENTADO |
@@ -603,3 +610,59 @@ La adhesión funciona en regímenes microscópicos, pero al crecer cambian energ
 ### Corrección
 
 Separar adhesión, crecimiento de agregados, concentración colectiva, colapso gravitatorio y acreción entre cuerpos. Cada flecha requiere condiciones y evidencia propias.
+
+## ERR-PHOTO-STROM-CYANO-001 — Todo tapete se volvió cianobacteria
+
+Una estructura laminada puede ser microbiana sin identificar taxón, y un tapete fototrófico puede ser anoxigénico. La semejanza con sistemas modernos no conserva el donador de electrones.
+
+### Corrección
+
+Separar biogenicidad, fototrofía, metabolismo y taxonomía. Exigir redox o una estructura/molécula diagnóstica para avanzar cada paso.
+
+## ERR-PHOTO-O2-GLOBAL-001 — Un oasis convertido en planeta
+
+`O₂` producido en una película de agua puede oxidar Mn, Fe o Ce y consumirse antes de mezclarse con el océano o aire. Un proxy local no mide por sí solo presión atmosférica.
+
+### Corrección
+
+Declarar escala espacial, reservorio y tiempo de residencia. Combinar proxies locales con señales atmosféricas y balances globales antes de usar “oxigenación”.
+
+## ERR-PHOTO-HEMATITE-001 — El color rojo heredó la edad de la roca
+
+Hematita presente hoy puede reemplazar un mineral anterior. Fechar el chert no fecha automáticamente el episodio oxidante.
+
+### Corrección
+
+Demostrar textura primaria y singenicidad; cuando sea posible, fechar el fraccionamiento o producto de oxidación, no sólo el huésped.
+
+## ERR-PHOTO-BIOMARKER-001 — Extraído significa antiguo
+
+Una molécula recuperada de una roca puede entrar durante perforación, almacenamiento, fluidos o laboratorio. Su especificidad biológica no resuelve su edad.
+
+### Corrección
+
+Usar interiores, blancos, controles exterior–interior, madurez térmica y posición *in situ*. Singenicidad precede a taxonomía histórica.
+
+## ERR-PHOTO-PROXY-DATE-001 — La huella se volvió cumpleaños
+
+Un proxy de `O₂` a `2.87 Ga` prueba que la innovación ya existía; no que surgiera entonces. Preservación y expansión ecológica introducen un intervalo desconocido.
+
+### Corrección
+
+Escribir “por al menos” o “a más tardar”, con la dirección del límite. Reservar “origen” para un evento que el archivo no observa directamente.
+
+## ERR-PHOTO-CLOCK-001 — El centro de una distribución se volvió fósil
+
+Un reloj molecular depende de calibraciones, topología y modelo de tasa. Duplicación de proteína y aparición del metabolismo completo pueden estar separadas.
+
+### Corrección
+
+Reportar distribución, sensibilidad y nodo exacto. No combinar ventanas incompatibles como si fueran errores instrumentales de una misma medición.
+
+## ERR-PHOTO-GOE-ORIGIN-001 — El efecto planetario fechó la innovación
+
+El Gran Evento de Oxidación registra acumulación persistente, no la primera oxidación del agua. Oasis arcaicos y relojes moleculares preceden ese cambio.
+
+### Corrección
+
+Separar producción bruta, producción neta, sumideros, escala local y atmósfera. Tratar el retraso como una pregunta causal propia.

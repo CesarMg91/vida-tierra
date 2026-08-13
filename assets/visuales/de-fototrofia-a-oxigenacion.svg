@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Cadena desde fototrofía hasta oxigenación atmosférica</title>
+  <desc id="desc">Separa captura de luz, donadores de electrones, oxidación del agua, oxígeno local, sumideros y acumulación atmosférica. Cada paso requiere evidencia propia.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#071920"/><stop offset="1" stop-color="#1b151c"/></linearGradient>
+    <marker id="a" markerWidth="10" markerHeight="10" refX="9" refY="5" orient="auto"><path d="M0 0 L10 5 L0 10 Z" fill="#65c9c1"/></marker>
+    <filter id="sh" x="-20%" y="-20%" width="140%" height="140%"><feDropShadow dx="0" dy="8" stdDeviation="9" flood-color="#000" flood-opacity=".36"/></filter>
+    <style>
+      .k{font:600 22px Inter,Segoe UI,sans-serif;letter-spacing:4px;fill:#70d0c8}.t{font:700 45px Inter,Segoe UI,sans-serif;fill:#f3eee7}.s{font:400 20px Inter,Segoe UI,sans-serif;fill:#a7b7c1}.n{font:700 20px Inter,Segoe UI,sans-serif;fill:#071820}.ct{font:700 21px Inter,Segoe UI,sans-serif;fill:#f3eee7}.b{font:400 16px Inter,Segoe UI,sans-serif;fill:#c0cbd1}.loss{font:600 15px Inter,Segoe UI,sans-serif;fill:#e1a06a}.foot{font:400 17px Inter,Segoe UI,sans-serif;fill:#98aab4}.branch{font:700 17px Inter,Segoe UI,sans-serif;fill:#d8e1df}
+    </style>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg)"/><text class="k" x="65" y="66">DE LA LUZ AL AIRE</text><text class="t" x="65" y="126">La cadena tiene bifurcaciones y sumideros</text><text class="s" x="65" y="169">Un metabolismo puede usar luz sin liberar O₂; producirlo localmente tampoco garantiza que persista.</text>
+
+  <line x1="145" y1="420" x2="1450" y2="420" stroke="#315563" stroke-width="5"/>
+  <g filter="url(#sh)">
+    <g transform="translate(35 264)"><rect width="245" height="314" rx="24" fill="#17333c" stroke="#477d7b" stroke-width="2"/><circle cx="42" cy="42" r="24" fill="#66c9c0"/><text class="n" x="42" y="50" text-anchor="middle">1</text><text class="ct" x="22" y="99">Captura de luz</text><text class="b" x="22" y="138">Energía fotoquímica</text><text class="b" x="22" y="164">y fijación de carbono</text><text class="loss" x="22" y="238">No identifica donador,</text><text class="loss" x="22" y="264">taxón ni O₂.</text></g>
+    <g transform="translate(305 264)"><rect width="245" height="314" rx="24" fill="#273130" stroke="#697b67" stroke-width="2"/><circle cx="42" cy="42" r="24" fill="#9eb45d"/><text class="n" x="42" y="50" text-anchor="middle">2</text><text class="ct" x="22" y="99">Donador</text><text class="b" x="22" y="138">H₂ · H₂S · Fe²⁺</text><text class="b" x="22" y="164">o H₂O</text><text class="loss" x="22" y="238">El carbono no separa</text><text class="loss" x="22" y="264">estas rutas.</text></g>
+    <g transform="translate(575 264)"><rect width="245" height="314" rx="24" fill="#302e27" stroke="#827451" stroke-width="2"/><circle cx="42" cy="42" r="24" fill="#d0a44e"/><text class="n" x="42" y="50" text-anchor="middle">3</text><text class="ct" x="22" y="99">Oxidar agua</text><text class="b" x="22" y="138">Fotosistema II +</text><text class="b" x="22" y="164">complejo Mn–Ca</text><text class="loss" x="22" y="238">Innovación no</text><text class="loss" x="22" y="264">fosilizada en Arcaico.</text></g>
+    <g transform="translate(845 264)"><rect width="245" height="314" rx="24" fill="#293036" stroke="#5a7180" stroke-width="2"/><circle cx="42" cy="42" r="24" fill="#75b9cb"/><text class="n" x="42" y="50" text-anchor="middle">4</text><text class="ct" x="22" y="99">O₂ local</text><text class="b" x="22" y="138">Ce · Mn · Mo · Fe</text><text class="b" x="22" y="164">en agua/sedimento</text><text class="loss" x="22" y="238">Escala y singenicidad</text><text class="loss" x="22" y="264">deben cerrarse.</text></g>
+    <g transform="translate(1115 264)"><rect width="245" height="314" rx="24" fill="#332923" stroke="#8b674e" stroke-width="2"/><circle cx="42" cy="42" r="24" fill="#d17d50"/><text class="n" x="42" y="50" text-anchor="middle">5</text><text class="ct" x="22" y="99">Balance neto</text><text class="b" x="22" y="138">Fuentes frente a</text><text class="b" x="22" y="164">Fe/S/gases/orgánico</text><text class="loss" x="22" y="238">La mayor parte puede</text><text class="loss" x="22" y="264">consumirse.</text></g>
+    <g transform="translate(1385 264)"><rect width="180" height="314" rx="24" fill="#342327" stroke="#8d595f" stroke-width="2"/><circle cx="42" cy="42" r="24" fill="#bd674b"/><text class="n" x="42" y="50" text-anchor="middle">6</text><text class="ct" x="20" y="99">Atmósfera</text><text class="b" x="20" y="138">O₂ persistente</text><text class="b" x="20" y="164">y más global</text><text class="loss" x="20" y="238">No fecha</text><text class="loss" x="20" y="264">el origen.</text></g>
+  </g>
+  <g stroke="#65c9c1" stroke-width="4" marker-end="url(#a)"><path d="M280 420 H297"/><path d="M550 420 H567"/><path d="M820 420 H837"/><path d="M1090 420 H1107"/><path d="M1360 420 H1377"/></g>
+
+  <g transform="translate(305 609)"><rect width="515" height="98" rx="24" fill="#1b2c2c" stroke="#697b67" stroke-width="2"/><text class="branch" x="24" y="38">RAMA ANOXIGÉNICA</text><text class="foot" x="24" y="68">H₂ / H₂S / Fe²⁺ → fototrofía sin O₂</text></g>
+  <path d="M428 578 V600" stroke="#9eb45d" stroke-width="4" marker-end="url(#a)"/>
+  <g transform="translate(845 609)"><rect width="515" height="98" rx="24" fill="#202b31" stroke="#5a7180" stroke-width="2"/><text class="branch" x="24" y="38">RAMA OXIGÉNICA</text><text class="foot" x="24" y="68">H₂O → O₂ local → sólo persiste si supera sumideros</text></g>
+  <path d="M968 578 V600" stroke="#75b9cb" stroke-width="4" marker-end="url(#a)"/>
+
+  <g transform="translate(65 760)"><rect width="1500" height="82" rx="24" fill="#10262d" stroke="#3b6368" stroke-width="2"/><text class="ct" x="28" y="34">Regla de lectura</text><text class="foot" x="28" y="62">Una fecha de oxidación impone un mínimo para la producción de O₂; no observa el origen molecular ni transfiere la señal local a toda la atmósfera.</text></g>
+  <text class="foot" x="800" y="878" text-anchor="middle">LUZ → DONADOR → AGUA O NO → O₂ LOCAL → BALANCE NETO → ATMÓSFERA</text>
+</svg>
