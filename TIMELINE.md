@@ -63,6 +63,7 @@ Versión 0.2; corte de fuentes: **2026-08-10**. Ordena la investigación desde l
 
 | ID | Fecha/intervalo | Evento delimitado | Incertidumbre y qué fecha | Evidencia principal | Fuente | Confianza | Estado |
 |---|---:|---|---|---|---|---|---|
+| `TIME-LUCA-CLOCK-001` | ~`4.2 Ga`; intervalo principal `4.09–4.33 Ga` en un modelo | edad molecular de la población/nodo LUCA inferida con parálogos anteriores a la divergencia | *cross‑bracing*, calibraciones, máximo lunar, priors y tasas; otros análisis sostienen sobre todo `>3.9 Ga`; no es fósil ni fecha de origen | cinco pares de parálogos, 13 calibraciones y relojes ILN/GBM | `SRC-MOODY-2024`, `SRC-BETTS-2018` | C-D | AUDITADO |
 | `TIME-LIFE-OLDER-001` | ~3.75–4.10 Ga | propuestas de vida en Nuvvuagittuq, Saglek/Akilia y un zircon de Jack Hills | edad del huésped, horizonte, singenicidad y biogenicidad no coinciden de forma segura | tubos Fe, grafito ligero, apatita e inclusión en zircon | `SRC-DODD-2017`, `SRC-TASHIRO-2017`, `SRC-BELL-2015`, `SRC-SOLE-2025` | D-E según caso | AUDITADO |
 | `TIME-LIFE-ISUA-001` | ≥3.7 Ga | grafito en horizontes detritales de Isua, interpretado como materia orgánica biogénica | sedimento y carbono contextualizados; metabolismo y especificidad abiótica abiertos | petrografía, SIMS/Raman, C/S y Fe | `SRC-ROSING-1999`, `SRC-HARDING-2025`, `SRC-BOYD-2026` | C↑ para biogenicidad | AUDITADO |
 | `TIME-LIFE-DRESSER-001` | ~3.48 Ga | paquete de Dresser compatible con tapetes y actividad microbiana en fuentes termales | algunas texturas y fracciones tienen miméticos hidrotermales | facies, MISS, S y depósitos de manantial | `SRC-SHEN-2001`, `SRC-NOFFKE-2013`, `SRC-DJOKIC-2017` | C↑ | AUDITADO |
@@ -144,4 +145,4 @@ En esta sección una fecha arqueológica no demuestra por sí sola “propiedad�
 
 ## Próxima acción cronológica
 
-Las investigaciones extensas auditadas llegan de `INV-EARTH-AGE-001` a `INV-PROT-GOE-001`. El siguiente trabajo cronológico es LUCA: deberá separar el ancestro común de la primera vida, una población de un individuo y reconstrucción funcional de genealogía completa.
+Las investigaciones extensas auditadas llegan de `INV-EARTH-AGE-001` a `INV-LIFE-LUCA-001`. El siguiente trabajo es el origen de eucariotas y endosimbiosis: deberá separar huésped arqueano, endosimbionte bacteriano, LECA, adquisición mitocondrial y mosaico génico.

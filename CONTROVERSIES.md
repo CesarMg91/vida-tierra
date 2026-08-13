@@ -76,6 +76,12 @@ Una controversia no implica empate. Registra qué parte está realmente abierta,
 | `CONT-GOE-OCEAN-001` | Extensión marina | plataformas someras oxigenadas | interior oceánico ampliamente anóxico | ambas por profundidad; volumen abierto | B-COND / C-D |
 | `CONT-GOE-GLACIATION-001` | Relación clima–oxígeno | `O₂` destruye `CH₄` y enfría | clima mueve fotoquímica, productividad y sumideros | dirección abierta | D |
 | `CONT-GOE-CAUSE-001` | Disparador de acumulación | aumento de fuente/enterramiento | reducción de sumideros y retroalimentaciones | multicausal; pesos abiertos | D-E |
+| `CONT-LUCA-TREE-NETWORK-001` | Árbol o red temprana | núcleo vertical recuperable | transferencia tan intensa que distintos genes tienen raíces efectivas distintas | árbol central condicionado | C-D |
+| `CONT-LUCA-GENESET-001` | Tamaño del inventario | núcleo conservador de decenas/centenas | genoma procariota de miles de proteínas | depende de filtro/modelo | C-D |
+| `CONT-LUCA-MEMBRANE-001` | Membrana de LUCA | tipo bacteriano o arqueano ancestral | membrana mixta/fijación posterior | abierta | D |
+| `CONT-LUCA-REPLICATION-001` | Genoma y replisoma | DNA con PolD ancestral reemplazada | otra replicasa o etapa RNA/DNA | DNA probable; aparato abierto | B-COND / D |
+| `CONT-LUCA-METABOLISM-001` | Fisiología y hábitat | acetógeno termófilo hidrotermal | metabolismo mixto en sedimentos/ambientes diversos | abierta por función/escala | C-D |
+| `CONT-LUCA-AGE-001` | Edad del nodo | concentración cerca de `4.2 Ga` | límite amplio >`3.9 Ga` o nodo prolongado | modelada | C-D |
 
 ## CONT-COSMOS-H0-001 — Dos rutas hacia la tasa actual
 
@@ -677,3 +683,39 @@ Más `O₂` puede destruir `CH₄` y enfriar. El clima también modifica humedad
 Compiten aumento de productividad o enterramiento, reciclaje de fósforo, disminución de gases reductores, oxidación del manto, escape de H, crecimiento continental y umbrales fotoquímicos. Varias causas pueden actuar juntas y compartir los mismos proxies de salida.
 
 **Prueba discriminatoria:** presupuestos temporales independientes de fuentes y sumideros que reproduzcan simultáneamente S, C, metales, clima y duración, no sólo el cruce de un umbral.
+
+## CONT-LUCA-TREE-NETWORK-001 — Un árbol central dentro de una red
+
+La maquinaria informacional produce una señal arbórea profunda, mientras numerosos genes metabólicos fueron transferidos. Una lectura sostiene que un árbol de especies sigue siendo una aproximación útil para reconciliar genes; otra advierte que antes de estabilizarse los dominios pudo existir una comunidad reticulada sin una genealogía única para todo el genoma.
+
+**Prueba discriminatoria:** concordancia de familias resistentes a HGT bajo árboles alternativos, modelos que incluyan linajes extinguidos y predicciones de transferencia capaces de reproducir simultáneamente topología, distribución y composición.
+
+## CONT-LUCA-GENESET-001 — El umbral fabrica el tamaño
+
+Los inventarios publicados van desde decenas de ortólogos estrictos hasta `355/399` familias conservadoras y estimaciones de ~`2,600` proteínas. No son mediciones rivales de la misma magnitud: responden a criterios distintos de presencia, monofilia, probabilidad, anotación y extrapolación.
+
+**Prueba discriminatoria:** estabilidad del inventario entre KEGG, COG, perfiles estructurales y árboles de especies, con falsos positivos/negativos cuantificados en simulaciones donde la historia real sea conocida.
+
+## CONT-LUCA-MEMBRANE-001 — Antes de la división lipídica
+
+Bacteria y Archaea usan estereoquímica, enlaces y cadenas canónicas diferentes. Compiten un ancestro de tipo bacteriano con reemplazo arqueano, uno arqueano con reemplazo bacteriano, una membrana mixta y una población donde las rutas modernas aún no estaban fijadas.
+
+**Prueba discriminatoria:** raíces concordantes de varias enzimas lipídicas, ausencia explicable de HGT y reconstrucción funcional de estados ancestrales que produzcan una membrana viable bajo el escenario propuesto.
+
+## CONT-LUCA-REPLICATION-001 — DNA probable, máquina reemplazada
+
+Nucleótidos, transcripción y componentes accesorios favorecen DNA. La falta de ortología entre las principales polimerasas, primasas y helicasas permite PolD ancestral, PolB, una replicasa perdida o una etapa RNA/DNA híbrida.
+
+**Prueba discriminatoria:** homologías estructurales/secuenciales de intermediarios, raíces robustas de familias y reconstrucción experimental de una polimerasa ancestral compatible con la distribución moderna.
+
+## CONT-LUCA-METABOLISM-001 — Una ruta no es una dirección ni un hogar
+
+Weiss y Moody recuperan señales de anaerobiosis, `H₂`, ferredoxina y Wood–Ljungdahl. Inferir acetogénesis obligada, termofilia y una chimenea hidrotermal añade función ancestral, dirección de flujo y geolocalización.
+
+**Prueba discriminatoria:** conjuntos completos de enzimas con acoplamiento energético, estados ancestrales funcionales y predicciones ambientales que distingan chimenea, sedimento y metabolismo mixto.
+
+## CONT-LUCA-AGE-001 — Precisión interna junto al límite planetario
+
+El reloj con parálogos y *cross‑bracing* concentra la edad cerca de `4.2 Ga`, muy cerca del inicio de habitabilidad posible. Otros análisis sostienen principalmente un límite anterior a `3.9 Ga`. El intervalo estrecho hereda fósiles, priors, máximo lunar, tasas y cinco familias.
+
+**Prueba discriminatoria:** nuevos parálogos pre‑LUCA, calibraciones que no compartan los mismos proxies y análisis que retiren por turnos familia, calibración, máximo y modelo de tasa.

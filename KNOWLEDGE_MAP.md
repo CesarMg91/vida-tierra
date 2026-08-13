@@ -343,3 +343,21 @@ diamictitas + modelos ───────→ acoplamiento clima–O₂ sin cau
 ```
 
 Véase `INV-PROT-GOE-001` en `05_proterozoico`, su mapa en `assets/visuales/mapa-investigacion-015.svg` y la cadena en `assets/visuales/de-proxy-a-atmosfera.svg`.
+
+La ruta específica de LUCA es:
+
+```text
+rRNA + ribosoma ───────────→ ascendencia y traducción profundas ─────┐
+parálogos pre-LUCA ────────→ raíz Bacteria | Archaea ────────────────┤
+árboles de genes ──────────→ duplicación / transferencia / pérdida ──┤
+reconciliación D/T/L ──────→ P(familia presente en LUCA) ────────────┤
+anotación + estructura ────→ ruta y función candidatas ──────────────┤
+reloj + calibraciones ─────→ edad modelada, no fósil ────────────────┘
+                                         ↓
+                 ascendencia y traducción: A-COND / A-B
+                 célula, energía y DNA: B-COND
+                 inventario, metabolismo y edad exacta: C-D
+                 aspecto, especie y localidad: E
+```
+
+Véase `INV-LIFE-LUCA-001` en `09_origen_vida`, su mapa en `assets/visuales/mapa-investigacion-016.svg` y la cadena en `assets/visuales/de-gen-a-luca.svg`.

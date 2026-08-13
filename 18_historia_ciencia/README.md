@@ -16,3 +16,4 @@ Historia de cómo se reconstruyó la historia: creencias previas, evidencia disr
 - [`HISTORIA_013_VIDA_MAS_ANTIGUA.md`](HISTORIA_013_VIDA_MAS_ANTIGUA.md): de las formas y el carbono ligero a paquetes de contexto, microanálisis y controversias tridimensionales sobre las biosignaturas más antiguas.
 - [`HISTORIA_014_FOTOSINTESIS_OXIGENO.md`](HISTORIA_014_FOTOSINTESIS_OXIGENO.md): de equiparar tapetes con cianobacterias a fechar por separado fototrofía, oxidación singenética, oasis locales y atmósfera.
 - [`HISTORIA_015_GRAN_OXIDACION.md`](HISTORIA_015_GRAN_OXIDACION.md): de minerales detríticos y capas rojas a `S‑MIF`, testigos continuos, memoria crustal y proxies separados para aire y océano.
+- [`HISTORIA_016_LUCA.md`](HISTORIA_016_LUCA.md): del bloque procariota al `rRNA`, la raíz por parálogos, la prueba formal de ascendencia común y los inventarios probabilísticos de LUCA.

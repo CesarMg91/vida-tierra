@@ -1,0 +1,114 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Cadena de una secuencia moderna a un rasgo de LUCA</title>
+  <desc id="desc">Flujo de seis pasos que muestra cómo una secuencia actual se convierte en una inferencia ancestral y dónde pueden intervenir homología incorrecta, transferencia, modelos y salto de función a hábitat.</desc>
+  <defs>
+    <linearGradient id="bg2" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#071820"/>
+      <stop offset="1" stop-color="#102d37"/>
+    </linearGradient>
+    <linearGradient id="flow" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#60d8c3"/>
+      <stop offset="0.55" stop-color="#76cde6"/>
+      <stop offset="1" stop-color="#f1aa59"/>
+    </linearGradient>
+    <filter id="s2" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="7" stdDeviation="10" flood-color="#000" flood-opacity="0.25"/>
+    </filter>
+    <marker id="a2" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto">
+      <path d="M0 0 L12 6 L0 12 Z" fill="#76cbd6"/>
+    </marker>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg2)"/>
+  <text x="80" y="78" fill="#f4f9f8" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="45" font-weight="700">De un gen actual a una afirmación sobre LUCA</text>
+  <text x="82" y="118" fill="#9dbdc5" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="21">Cada puente añade información y también un modo de equivocarse.</text>
+
+  <path d="M145 300 H1450" stroke="url(#flow)" stroke-width="8" opacity="0.75"/>
+
+  <g filter="url(#s2)" font-family="Inter, Segoe UI, Arial, sans-serif">
+    <g transform="translate(55 180)">
+      <circle cx="105" cy="120" r="83" fill="#113c42" stroke="#5ed7c2" stroke-width="4"/>
+      <text x="105" y="100" text-anchor="middle" fill="#73e2ce" font-size="18" font-weight="700">01</text>
+      <text x="105" y="132" text-anchor="middle" fill="#f1fbf9" font-size="22" font-weight="700">SECUENCIA</text>
+      <text x="105" y="158" text-anchor="middle" fill="#bad7d4" font-size="16">dato moderno</text>
+    </g>
+    <g transform="translate(315 180)">
+      <circle cx="105" cy="120" r="83" fill="#123b46" stroke="#6bd1d7" stroke-width="4"/>
+      <text x="105" y="100" text-anchor="middle" fill="#7bdde4" font-size="18" font-weight="700">02</text>
+      <text x="105" y="132" text-anchor="middle" fill="#f1fbfb" font-size="22" font-weight="700">FAMILIA</text>
+      <text x="105" y="158" text-anchor="middle" fill="#bdd5d9" font-size="16">homología</text>
+    </g>
+    <g transform="translate(575 180)">
+      <circle cx="105" cy="120" r="83" fill="#143844" stroke="#70cbe0" stroke-width="4"/>
+      <text x="105" y="100" text-anchor="middle" fill="#84d8eb" font-size="18" font-weight="700">03</text>
+      <text x="105" y="132" text-anchor="middle" fill="#f3fbfc" font-size="22" font-weight="700">ÁRBOL</text>
+      <text x="105" y="158" text-anchor="middle" fill="#bfd3d9" font-size="16">del gen</text>
+    </g>
+    <g transform="translate(835 180)">
+      <circle cx="105" cy="120" r="83" fill="#20383b" stroke="#a4c998" stroke-width="4"/>
+      <text x="105" y="100" text-anchor="middle" fill="#bed8a9" font-size="18" font-weight="700">04</text>
+      <text x="105" y="132" text-anchor="middle" fill="#f7fbf2" font-size="19" font-weight="700">RECONCILIAR</text>
+      <text x="105" y="158" text-anchor="middle" fill="#cbd8c4" font-size="16">D / T / L</text>
+    </g>
+    <g transform="translate(1095 180)">
+      <circle cx="105" cy="120" r="83" fill="#35352f" stroke="#e0bc6b" stroke-width="4"/>
+      <text x="105" y="100" text-anchor="middle" fill="#f3ca70" font-size="18" font-weight="700">05</text>
+      <text x="105" y="132" text-anchor="middle" fill="#fff8eb" font-size="20" font-weight="700">PRESENCIA</text>
+      <text x="105" y="158" text-anchor="middle" fill="#e1d3b7" font-size="16">probabilidad</text>
+    </g>
+    <g transform="translate(1355 180)">
+      <circle cx="105" cy="120" r="83" fill="#403027" stroke="#ed9458" stroke-width="4"/>
+      <text x="105" y="100" text-anchor="middle" fill="#f6a56b" font-size="18" font-weight="700">06</text>
+      <text x="105" y="132" text-anchor="middle" fill="#fff2e9" font-size="20" font-weight="700">RASGO</text>
+      <text x="105" y="158" text-anchor="middle" fill="#e7c8b5" font-size="16">función / hábitat</text>
+    </g>
+  </g>
+
+  <g stroke="#76cbd6" stroke-width="3" marker-end="url(#a2)">
+    <path d="M245 300 H315"/>
+    <path d="M505 300 H575"/>
+    <path d="M765 300 H835"/>
+    <path d="M1025 300 H1095"/>
+    <path d="M1285 300 H1355"/>
+  </g>
+
+  <g font-family="Inter, Segoe UI, Arial, sans-serif" filter="url(#s2)">
+    <rect x="70" y="485" width="250" height="180" rx="23" fill="#152c31" stroke="#4d7e80"/>
+    <text x="95" y="525" fill="#70d9c6" font-size="17" font-weight="700">PUERTA 1</text>
+    <text x="95" y="560" fill="#f0f7f5" font-size="21" font-weight="700">¿Homólogo u análogo?</text>
+    <text x="95" y="596" fill="#b7cdca" font-size="17">Dominio parecido, fusión</text>
+    <text x="95" y="622" fill="#b7cdca" font-size="17">o paralogo oculto pueden</text>
+    <text x="95" y="648" fill="#b7cdca" font-size="17">crear la familia equivocada.</text>
+
+    <rect x="370" y="485" width="250" height="180" rx="23" fill="#152d35" stroke="#4d8290"/>
+    <text x="395" y="525" fill="#78d5df" font-size="17" font-weight="700">PUERTA 2</text>
+    <text x="395" y="560" fill="#f0f7f8" font-size="21" font-weight="700">¿Árbol resuelto?</text>
+    <text x="395" y="596" fill="#bacdd2" font-size="17">Alineamiento, modelo,</text>
+    <text x="395" y="622" fill="#bacdd2" font-size="17">ramas largas y muestreo</text>
+    <text x="395" y="648" fill="#bacdd2" font-size="17">cambian la topología.</text>
+
+    <rect x="670" y="485" width="250" height="180" rx="23" fill="#1e3032" stroke="#74937c"/>
+    <text x="695" y="525" fill="#b1d29f" font-size="17" font-weight="700">PUERTA 3</text>
+    <text x="695" y="560" fill="#f5f8f2" font-size="21" font-weight="700">¿Vertical o HGT?</text>
+    <text x="695" y="596" fill="#c5d2bf" font-size="17">Presencia en dos dominios</text>
+    <text x="695" y="622" fill="#c5d2bf" font-size="17">también puede surgir por</text>
+    <text x="695" y="648" fill="#c5d2bf" font-size="17">transferencia posterior.</text>
+
+    <rect x="970" y="485" width="250" height="180" rx="23" fill="#333228" stroke="#b99857"/>
+    <text x="995" y="525" fill="#ebc56f" font-size="17" font-weight="700">PUERTA 4</text>
+    <text x="995" y="560" fill="#fff8ea" font-size="21" font-weight="700">¿Estado ancestral?</text>
+    <text x="995" y="596" fill="#dfd2b9" font-size="17">Árbol de especies, tasas</text>
+    <text x="995" y="622" fill="#dfd2b9" font-size="17">D/T/L y umbral controlan</text>
+    <text x="995" y="648" fill="#dfd2b9" font-size="17">la probabilidad.</text>
+
+    <rect x="1270" y="485" width="250" height="180" rx="23" fill="#3a2c27" stroke="#c2714b"/>
+    <text x="1295" y="525" fill="#f19a69" font-size="17" font-weight="700">PUERTA 5</text>
+    <text x="1295" y="560" fill="#fff2eb" font-size="21" font-weight="700">¿Función o retrato?</text>
+    <text x="1295" y="596" fill="#e3c7b9" font-size="17">Una enzima no fija flujo,</text>
+    <text x="1295" y="622" fill="#e3c7b9" font-size="17">dieta, temperatura ni</text>
+    <text x="1295" y="648" fill="#e3c7b9" font-size="17">hábitat histórico.</text>
+  </g>
+
+  <rect x="70" y="720" width="1450" height="105" rx="25" fill="#091d25" stroke="#3b616b"/>
+  <text x="795" y="762" text-anchor="middle" fill="#dceaea" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="23" font-weight="700">Regla de auditoría</text>
+  <text x="795" y="799" text-anchor="middle" fill="#a9c5c9" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="20">«Compatible con LUCA» no significa «observado en LUCA»; publique alternativa, sensibilidad y confianza.</text>
+</svg>

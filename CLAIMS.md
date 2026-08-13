@@ -121,6 +121,17 @@ Este archivo es el índice canónico. La letra de confianza califica exactamente
 | `CLAIM-GOE-LEVEL-001` | El cambio relativo de `pO₂` está establecido, pero su trayectoria absoluta durante la GOE sigue abierta por órdenes de magnitud. | B para cambio; D para curva | AUDITADO | `EVID-GOE-SMIF-001`, `EVID-GOE-WEATHERING-001`, `EVID-GOE-OCEAN-001` | `INV-PROT-GOE-001` |
 | `CLAIM-GOE-GLACIATION-001` | Glaciaciones, magmatismo y oxigenación están temporalmente acoplados, sin una dirección causal única demostrada. | C para acoplamiento; D para causalidad | AUDITADO | `EVID-GOE-GLACIAL-001`, `EVID-GOE-MODEL-001` | `INV-PROT-GOE-001` |
 | `CLAIM-GOE-CAUSE-001` | Ningún aumento de fuente, reducción de sumidero o retroalimentación única explica de forma identificada toda la transición. | D-E | AUDITADO | `EVID-GOE-MODEL-001` y matriz `EVID-GOE-*` | `INV-PROT-GOE-001` |
+| `CLAIM-LUCA-COMMON-ANCESTRY-001` | La vida celular conocida comparte una genealogía común; la conclusión no cuenta orígenes sin descendencia muestreada. | A-COND | AUDITADO | `EVID-LUCA-COMMON-001`, `EVID-LUCA-RRNA-001` | `INV-LIFE-LUCA-001` |
+| `CLAIM-LUCA-DEFINITION-001` | LUCA es el último ancestro común de Bacteria y Archaea actuales, no la primera vida ni necesariamente una célula individual. | A-SEM | AUDITADO | definición filogenética + `EVID-LUCA-TRANSLATION-001` | `INV-LIFE-LUCA-001` |
+| `CLAIM-LUCA-ROOT-001` | La raíz principal del árbol celular separa Bacteria de Archaea; Eukaryota es un linaje derivado con herencias arqueana y bacteriana. | B-COND | AUDITADO | `EVID-LUCA-PARALOG-ROOT-001`, `EVID-LUCA-RRNA-001` | `INV-LIFE-LUCA-001` |
+| `CLAIM-LUCA-TRANSLATION-001` | Antes de la divergencia Bacteria–Archaea ya operaban código genético, ribosoma, `tRNA` y un núcleo de traducción. | A-B | AUDITADO | `EVID-LUCA-TRANSLATION-001` | `INV-LIFE-LUCA-001` |
+| `CLAIM-LUCA-CELL-001` | LUCA poseía alguna delimitación funcional capaz de sostener transporte y gradientes; su composición lipídica no está resuelta. | B-COND | AUDITADO | `EVID-LUCA-BIOENERGY-001`, `EVID-LUCA-LIPID-001` | `INV-LIFE-LUCA-001` |
+| `CLAIM-LUCA-DNA-001` | LUCA tenía probablemente un genoma de DNA, aunque no puede identificarse con seguridad su replicasa principal. | B-COND para DNA; C-D para replicasa | AUDITADO | `EVID-LUCA-REPLICATION-001` | `INV-LIFE-LUCA-001` |
+| `CLAIM-LUCA-ENERGY-001` | LUCA conservaba energía mediante ATP y un sistema quimiosmótico transmembrana. | B-COND | AUDITADO | `EVID-LUCA-BIOENERGY-001`, `EVID-LUCA-PARALOG-ROOT-001` | `INV-LIFE-LUCA-001` |
+| `CLAIM-LUCA-METABOLISM-001` | Reconstrucciones distintas favorecen un anaerobio con metabolismo de carbono central; acetogénesis, termofilia y hábitat hidrotermal son más condicionados. | C-COND general; C-D retrato | AUDITADO | `EVID-LUCA-WEISS-001`, `EVID-LUCA-MOODY-RECON-001` | `INV-LIFE-LUCA-001` |
+| `CLAIM-LUCA-GENOME-001` | Un modelo probabilístico estima para LUCA un genoma de `2.49–2.99 Mb` y `2,451–2,855` proteínas; son extrapolaciones, no secuencia recuperada. | C-COND | AUDITADO | `EVID-LUCA-MOODY-RECON-001` | `INV-LIFE-LUCA-001` |
+| `CLAIM-LUCA-AGE-001` | Relojes de parálogos pre‑LUCA son compatibles con un nodo cercano a `4.2 Ga`, pero edad y precisión dependen de calibraciones, priors y modelos de tasa. | C-D | AUDITADO | `EVID-LUCA-MOODY-CLOCK-001`, `EVID-LUCA-BETTS-CLOCK-001` | `INV-LIFE-LUCA-001` |
+| `CLAIM-LUCA-ECOSYSTEM-001` | LUCA representa mejor una población dentro de un ecosistema preexistente que un individuo aislado en un planeta vacío. | B-SEM para población; C para ecosistema | AUDITADO | `EVID-LUCA-MOODY-RECON-001` + lógica poblacional | `INV-LIFE-LUCA-001` |
 
 ## Fichas resumidas
 
@@ -568,6 +579,68 @@ Este archivo es el índice canónico. La letra de confianza califica exactamente
 - **Alternativas:** aumento de producción, enterramiento, reducción de sumideros, nutrientes, gases volcánicos, escape de H y retroalimentaciones climáticas.
 - **No afirma:** dirección causal única ni disparador identificado.
 - **Confianza:** C para acoplamiento temporal/mecanismos viables; D-E para pesos y causa histórica única.
+
+### CLAIM-LUCA-COMMON-ANCESTRY-001 / DEFINITION-001
+
+- **Dato:** código, ribosoma y proteínas conservadas forman un sistema homólogo coordinado; la selección formal de modelos favorece una genealogía común.
+- **Definición:** LUCA es el nodo/población ancestral más reciente de la vida celular conocida, no el primer replicador.
+- **No afirma:** un solo origen químico, ausencia de linajes extinguidos ni una única célula histórica.
+- **Confianza:** `A-COND` para ascendencia común; `A-SEM` para el límite conceptual.
+
+### CLAIM-LUCA-ROOT-001
+
+- **Dato:** pares de genes duplicados antes de LUCA enraízan recíprocamente sus árboles y sitúan Bacteria frente a Archaea/Eukaryota.
+- **Actualización:** Eukaryota no se trata como tercer tronco celular primario; su historia es arqueana y endosimbiótica.
+- **Límite:** HGT, parálogos ocultos, ramas largas y modelos de sustitución pueden mover raíces individuales.
+- **Confianza:** `B-COND`.
+
+### CLAIM-LUCA-TRANSLATION-001
+
+- **Convergencia:** `rRNA`, proteínas ribosomales, `tRNA`, sintetasas y factores de traducción comparten arquitectura y función profunda.
+- **Consecuencia:** el código ya tenía una historia anterior a la divergencia de dominios.
+- **Límite:** no todas las subunidades ni sus secuencias exactas pueden reconstruirse.
+- **Confianza:** `A-B`.
+
+### CLAIM-LUCA-CELL-001 / ENERGY-001
+
+- **Dato:** ATP sintasas y componentes de membrana/transporte poseen duplicaciones y homologías profundas.
+- **Puente:** conservar un gradiente exige una frontera funcional; no especifica estereoquímica ni enlaces lipídicos.
+- **Alternativas:** membrana bacteriana, arqueana, mixta o fijada gradualmente.
+- **Confianza:** `B-COND` para delimitación/quimiosmosis; `D` para composición.
+
+### CLAIM-LUCA-DNA-001
+
+- **Dato:** metabolismo de desoxirribonucleótidos, transcripción DNA‑dependiente, reparación y componentes accesorios son profundos; polimerasas, primasas y helicasas principales difieren.
+- **Alternativas:** replicasa ancestral reemplazada, sistema híbrido RNA/DNA o replicasa perdida.
+- **No afirma:** que PolD esté identificada como la enzima histórica.
+- **Confianza:** `B-COND` para DNA; `C-D` para PolD; `D` para aparato completo.
+
+### CLAIM-LUCA-METABOLISM-001
+
+- **Dato:** filtros de monofilia y reconciliación con HGT favorecen anaerobiosis, ferredoxina, ATP sintasa y partes de Wood–Ljungdahl.
+- **Puente:** familia presente no garantiza función, dirección de flujo ni hábitat.
+- **No afirma:** un termófilo acetógeno obligado viviendo en una chimenea concreta.
+- **Confianza:** `C-COND` para núcleo metabólico; `C-D` para retrato.
+
+### CLAIM-LUCA-GENOME-001
+
+- **Método:** probabilidades de familias KEGG se integran y se traducen a tamaño/número de proteínas mediante regresión de genomas modernos.
+- **Resultado:** `2.75 Mb` y `2,657` proteínas como estimaciones centrales.
+- **Límite:** no recupera bases, cromosomas, orden génico ni cada familia; hereda árbol, anotación y entrenamiento moderno.
+- **Confianza:** `C-COND`.
+
+### CLAIM-LUCA-AGE-001
+
+- **Dato/modelo:** cinco pares de parálogos pre‑LUCA, `13` calibraciones y *cross‑bracing* producen intervalos cerca de `4.09–4.33 Ga`.
+- **Límite:** calibraciones, máximo temporal, priors y tasas comparten dependencia; sensibilidad interna no equivale a datación directa.
+- **Confianza:** `C-D`.
+
+### CLAIM-LUCA-ECOSYSTEM-001
+
+- **Semántica:** un nodo microbiano representa poblaciones; distintos genes no tienen por qué atravesar un único individuo.
+- **Modelo:** flujos de acetato, materia orgánica y `H₂` permiten una comunidad temprana ya establecida.
+- **Límite:** el modelo muestra coherencia, no identifica taxones contemporáneos.
+- **Confianza:** `B-SEM` para población; `C` para ecosistema modelado.
 
 ## Claims futuros
 
