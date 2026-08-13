@@ -56,7 +56,12 @@ El propósito no es presentar la ciencia como una sucesión de fracasos ni como 
 | `ERR-GEO-SEDIMENT-001` | edad global por tasa media de sedimentación | tasa constante, registro completo y sin reciclaje | estratigrafía, discordancias y relojes radiométricos | SEMILLA |
 | `ERR-GEO-LEAD-001` | mediciones de Pb sin control ultralimpio | blanco despreciable | laboratorios limpios, blancos y química de trazas | DOCUMENTADO |
 | `ERR-GEO-URATIO-001` | `238U/235U` idéntico en todos los materiales | homogeneidad isotópica universal | medición específica de U y corrección muestra por muestra | DOCUMENTADO |
-| `ERR-HADEAN-LHB-001` | tratar el cataclismo de 3.9 Ga como hecho único cerrado | colección lunar representativa y edades sin mezcla | microanálisis, meteoritos lunares, nuevas muestras y modelos de sesgo | EN_REVISIÓN |
+| `ERR-HADEAN-LHB-001` | tratar el cataclismo de 3.9 Ga como hecho único cerrado | colección lunar representativa y edades sin mezcla | microanálisis, meteoritos lunares, nuevas muestras y modelos de sesgo | DOCUMENTADO |
+| `ERR-LUNAR-AGE-EVENT-001` | contar cada edad de muestra como un impacto | cierre/reinicio único y procedencia independiente | petrología, varios cronómetros y asignación muestra–evento | DOCUMENTADO |
+| `ERR-LUNAR-HIST-FLUX-001` | leer un histograma de edades como curva de flujo | selección y preservación constantes | función de respuesta, difusión y modelos de muestreo | DOCUMENTADO |
+| `ERR-LUNAR-APOLLO-INDEPENDENT-001` | tratar sitios Apollo como testigos independientes | ejecta local y sin transporte global | cartografía, Th, geoquímica y escalado de Imbrium | DOCUMENTADO |
+| `ERR-IMPACT-MOON-EARTH-001` | convertir cronología lunar en esterilización terrestre | escala constante de tasa y efecto | dinámica, hidrocodes, atmósfera/océano y archivo terrestre | DOCUMENTADO |
+| `ERR-LUNAR-ABSENCE-001` | “sin fundido antiguo” = “sin impacto antiguo” | supervivencia uniforme hacia atrás | sesgo de preservación y evidencia positiva `4.22–4.33 Ga` | DOCUMENTADO |
 
 ## ERR-COSMOS-STATIC-001 — Una preferencia convertida en condición
 
@@ -361,7 +366,47 @@ La agrupación de edades de muestras Apollo alrededor de 3.9 Ga generó el model
 
 ### Estado epistemológico
 
-No se marca como error total: el bombardeo temprano intenso está bien respaldado. El error comunicativo/metodológico fue confundir una interpretación particular de su historia temporal con la observación misma.
+No se marca como error total: el bombardeo temprano intenso está bien respaldado. El error comunicativo/metodológico fue confundir una interpretación particular de su historia temporal con la observación misma. La Investigación 012 documenta evidencia anterior a `4.0 Ga`, sesgo de Imbrium y no unicidad de las edades de meseta.
+
+## ERR-LUNAR-AGE-EVENT-001 — Una edad no cuenta un proyectil
+
+Una edad puede registrar cristalización de fundido, cierre durante enfriamiento o reinicio parcial por un choque posterior. Varias alícuotas pueden pertenecer al mismo evento y una roca puede conservar más de uno. Antes de contar impactos hay que demostrar textura, sistema y procedencia.
+
+### Lección
+
+La precisión del reloj no sustituye la identificación del evento fechado.
+
+## ERR-LUNAR-HIST-FLUX-001 — El histograma no es el cielo
+
+La altura de una barra depende de producción de fundido, supervivencia, transporte, selección y criterio de edad. Modelos de difusión muestran que una cola monótona puede producir un pico aparente de `40Ar/39Ar`.
+
+### Lección
+
+Toda inversión histórica necesita una función de respuesta; sin ella se grafica la colección, no el proceso.
+
+## ERR-LUNAR-APOLLO-INDEPENDENT-001 — Seis sitios no son seis cuencas
+
+Imbrium cubrió Fra Mauro y pudo depositar ejecta grueso en todos los sitios Apollo de tierras altas. Una fecha repetida lejos del borde de Imbrium puede seguir siendo una copia del mismo acontecimiento.
+
+### Lección
+
+La independencia pertenece a la procedencia del objeto, no a la distancia entre cajones de muestra.
+
+## ERR-IMPACT-MOON-EARTH-001 — De cráter lunar a Tierra esterilizada
+
+La Tierra intercepta más cuerpos, pero atmósfera, océano, gravedad, velocidad y corteza modifican el efecto. Además, el registro terrestre se recicla. Multiplicar una tasa lunar por un factor geométrico no produce una curva de habitabilidad.
+
+### Lección
+
+Separar frecuencia de encuentro, energía depositada, extensión ambiental y supervivencia biológica.
+
+## ERR-LUNAR-ABSENCE-001 — La ausencia que el propio proceso fabrica
+
+Los impactos posteriores borran de manera preferencial fundidos y cuencas anteriores. Por ello, la falta de edades >4.0 Ga es esperable bajo más de una historia. La roca 67955 y los candidatos SPA demuestran que al menos parte del archivo antiguo sobrevivió.
+
+### Lección
+
+Una ausencia sólo pesa como evidencia después de estimar la probabilidad de producción, supervivencia y detección.
 
 ## ERR-ELEMENT-SPECTRA-ABUNDANCE-001 — Una línea no es una balanza
 

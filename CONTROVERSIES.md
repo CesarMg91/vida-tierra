@@ -52,7 +52,11 @@ Una controversia no implica empate. Registra qué parte está realmente abierta,
 | `CONT-HADEAN-CRUST-VOLUME-001` | Volumen/composición de la primera corteza | zircones y Acasta registran magmas evolucionados/retrabajo | protocrust globalmente máfica y sesgo de preservación | abierta | B para existencia; D para volumen |
 | `CONT-HADEAN-TECTONICS-001` | Régimen geodinámico hadeano | subducción/arco en parte de Jack Hills | tapa estancada, plumas, goteo e impactos; diversidad regional | abierta | C |
 | `CONT-HADEAN-ACASTA-001` | Fuente y calor de Idiwhaa | fusión somera de basalto hidratado; analogía islandesa | impacto, pluma, enterramiento u otros mecanismos | abierta en mecanismo | C para fuente; D para calor |
-| `CONT-HADEAN-LHB-001` | ¿Hubo un cataclismo único a ~3.9 Ga? | episodio elevado o combinación de poblaciones | cola monótona de acreción y sesgo de muestras Apollo | abierta | D para pico único |
+| `CONT-HADEAN-LHB-001` | ¿Pico terminal, cola o curva híbrida? | agrupación `~3.9 Ga` y repunte ancho/inestabilidad | cola monótona más procedencia, reinicio y borrado | abierta; auditada | B para intensidad; D para pico único |
+| `CONT-LUNAR-SPA-AGE-001` | Edad de South Pole–Aitken | NWA 2995 y zircones: `4.32–4.338 Ga` | noritas Chang’e‑6: `4.247 ± 0.005 Ga` | abierta | B-PROV para 4.25; C para 4.33 como SPA |
+| `CONT-LUNAR-IMBRIUM-BIAS-001` | Independencia de edades Apollo | varias cuencas próximas en el tiempo | ejecta de Imbrium domina sitios/brechas | abierta en fracción | B-COND para sesgo |
+| `CONT-IMPACT-SOURCE-001` | Fuente del bombardeo temprano | inestabilidad, E-belt y asteroides | planetesimales remanentes y cola de acreción | abierta | C-D |
+| `CONT-IMPACT-EARTH-SCALING-001` | Del registro lunar al efecto terrestre | población común y mayor captura terrestre | atmósfera, océano, velocidad y archivo alteran escala | abierta | D-E para curva/efecto |
 
 ## CONT-COSMOS-H0-001 — Dos rutas hacia la tasa actual
 
@@ -331,9 +335,35 @@ Idiwhaa es una roca evolucionada de ~4.02 Ga compatible con fusión somera de pr
 
 ## CONT-HADEAN-LHB-001 — Cataclismo lunar tardío
 
-Las edades de fundidos Apollo se agrupan cerca de cuencas jóvenes y los cuerpos interiores muestran cráteres intensos. Pero la colección Apollo es espacialmente sesgada y los impactos grandes pueden borrar, mezclar o enterrar fundidos anteriores. Un pico breve, una cola decreciente o un modelo híbrido pueden reproducir parte de los datos.
+Las edades de fundidos Apollo se agrupan cerca de cuencas jóvenes y los cuerpos interiores muestran cráteres intensos. Pero la colección Apollo es espacialmente sesgada, edades de Ar pueden agruparse bajo reinicio parcial y los impactos grandes borran, mezclan o entierran fundidos anteriores. El impacto de `4.22 Ga` y los candidatos SPA anteriores a `4.2 Ga` excluyen una ventana que contenga todas las cuencas.
 
 **Estado:** B para “el bombardeo temprano fue mucho mayor que hoy”; D para “hubo una única subida abrupta global a 3.9 Ga”.
+
+**Prueba discriminatoria:** muestras con procedencia inequívoca de varias cuencas, varios cronómetros y una función explícita de supervivencia que sólo pueda reproducirse con una de las curvas.
+
+## CONT-LUNAR-SPA-AGE-001 — Dos edades para la cuenca más antigua
+
+NWA 2995 ofrece varios cronómetros concordantes a `4.32–4.33 Ga`, pero su origen SPA se infiere. Chang’e‑6 aporta procedencia de misión dentro de SPA y noritas de impacto a `4.247 ± 0.005 Ga`, pero los clastos fueron excavados y redistribuidos dentro de la cuenca Apollo. Zircones Apollo a `4.338–4.334 Ga` registran un gran evento magmático cuya identidad tampoco es directa.
+
+**Prueba discriminatoria:** roca de la lámina de fundido SPA conectada por cartografía de alta resolución a su unidad original, no sólo a ejecta retrabajado, y concordancia U–Pb/Pb–Pb/Ar–Ar entre laboratorios.
+
+## CONT-LUNAR-IMBRIUM-BIAS-001 — ¿Cuántos testigos o cuántas copias?
+
+Imbrium distribuyó ejecta por los sitios Apollo de tierras altas y su provincia rica en Th coincide con muchas brechas. Diferencias geoquímicas y cronológicas permiten también cuencas locales o múltiples eventos. La pregunta no es si existe sesgo, sino qué fracción de cada colección comparte origen.
+
+**Prueba discriminatoria:** clasificación ciega de procedencia que combine química de proyectil, trazas, edad y contexto estratigráfico antes de construir histogramas.
+
+## CONT-IMPACT-SOURCE-001 — El mecanismo dinámico no es único
+
+Una inestabilidad de gigantes puede lanzar cometas/asteroides; el E-belt puede prolongar el flujo; planetesimales terrestres remanentes producen una cola intensa y declinante. Todas las familias dependen de poblaciones iniciales desaparecidas y pueden solaparse.
+
+**Prueba discriminatoria:** firmas geoquímicas de proyectiles ligadas a cuencas fechadas y una cronología que exija el decaimiento de una población concreta.
+
+## CONT-IMPACT-EARTH-SCALING-001 — La Luna como placa testigo
+
+La Tierra debe interceptar más cuerpos de una población compartida, pero enfoque gravitacional, velocidad, atmósfera, océano y tectónica cambian tanto el efecto como el archivo. Una razón de impactos no es una razón de esterilización.
+
+**Prueba discriminatoria:** capas terrestres coetáneas con trazadores de proyectil/energía y modelos acoplados que reproduzcan simultáneamente Luna, Tierra y preservación.
 
 ## CONT-ELEMENT-RPROCESS-001 — Sitio probado no equivale a presupuesto cerrado
 
