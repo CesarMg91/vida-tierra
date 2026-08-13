@@ -192,6 +192,19 @@ Este archivo es el índice canónico. La letra de confianza califica exactamente
 | `CLAIM-EDIACARA-REPRODUCTION-001` | Patrones espaciales apoyan reproducción por propágulos/estolones en algunos rangomorfos; su efecto macroevolutivo es modelado y provisional. | C; D-PROV macroevolución | AUDITADO | `EVID-EDIACARA-PALEOECOLOGY-001` | `INV-EDIACARA-001` |
 | `CLAIM-EDIACARA-OXYGEN-001` | Oxígeno limitó el espacio habitable y ciertas ecologías, pero no se ha aislado como interruptor u origen único de la radiación. | B-COND filtro; D-E causa única | AUDITADO | `EVID-EDIACARA-REDOX-001` | `INV-EDIACARA-001` |
 | `CLAIM-EDIACARA-TURNOVER-001` | Hubo pulsos de recambio y pérdida antes del Cámbrico; extinción, ambiente, reemplazo y preservación contribuyeron en proporciones abiertas. | C | AUDITADO | `EVID-EDIACARA-TURNOVER-001`, `EVID-EDIACARA-BIOMINERAL-001` | `INV-EDIACARA-001` |
+| `CLAIM-CAMBRIAN-SCOPE-001` | La radiación cámbrica agrupa divergencia, aparición fósil, diversidad, disparidad, biomineralización, conducta y ecología; no es un evento único. | A-SEM; B proceso plural | AUDITADO | conjunto `EVID-CAMBRIAN-*` | `INV-CAMBRIAN-001` |
+| `CLAIM-CAMBRIAN-BOUNDARY-001` | El límite formal de 538.8 ± 0.6 Ma es un GSSP correlacionable, no la fecha del origen animal ni de toda la radiación. | A límite; B edad | AUDITADO | `EVID-CAMBRIAN-BOUNDARY-001`, `EVID-CAMBRIAN-GEOCHRON-001` | `INV-CAMBRIAN-001` |
+| `CLAIM-CAMBRIAN-CHRONOLOGY-001` | La fase principal fue rápida pero pulsada, empezó con precursores ediacáricos y continuó por Terreneuviense, Serie 2 y fases posteriores. | B | AUDITADO | `EVID-CAMBRIAN-GEOCHRON-001`, `EVID-CAMBRIAN-FIRSTAPPEARANCE-001` | `INV-CAMBRIAN-001` |
+| `CLAIM-CAMBRIAN-DIVERGENCE-001` | Varias divergencias preceden sus primeras apariciones preservadas; la distancia temporal depende de fósiles, calibraciones y modelos de tasa. | C | AUDITADO | `EVID-CAMBRIAN-FIRSTAPPEARANCE-001`, `EVID-CAMBRIAN-GENOMICS-001` | `INV-CAMBRIAN-001` |
+| `CLAIM-CAMBRIAN-PRESERVATION-001` | Esqueletos, trazas y Lagerstätten amplían archivos distintos y selectivos; ninguna ventana constituye un censo global neutral. | A-B | AUDITADO | `EVID-CAMBRIAN-LAGERSTATTEN-001`, `EVID-CAMBRIAN-SKELETONS-001`, `EVID-CAMBRIAN-TRACES-001` | `INV-CAMBRIAN-001` |
+| `CLAIM-CAMBRIAN-STEMCROWN-001` | Muchos organismos problemáticos se integran como grupos tallo; su posición exacta depende de anatomía, homología, descomposición y matriz. | B-COND por taxón | AUDITADO | `EVID-CAMBRIAN-PHYLOGENY-001`, `EVID-CAMBRIAN-LAGERSTATTEN-001` | `INV-CAMBRIAN-001` |
+| `CLAIM-CAMBRIAN-BIOMINERAL-001` | La biomineralización animal surgió repetidamente y su expansión aumentó tanto la defensa/función como la detectabilidad fósil. | B | AUDITADO | `EVID-CAMBRIAN-SKELETONS-001` | `INV-CAMBRIAN-001` |
+| `CLAIM-CAMBRIAN-DISPARITY-001` | La innovación anatómica se aceleró, pero la magnitud de disparidad es específica de clado, caracteres y métrica; no todos los planes aparecieron completos. | B-COND | AUDITADO | `EVID-CAMBRIAN-DISPARITY-001`, `EVID-CAMBRIAN-PHYLOGENY-001` | `INV-CAMBRIAN-001` |
+| `CLAIM-CAMBRIAN-TRACES-001` | Conducta, profundidad y mezcla del sustrato se expandieron por etapas y facies, transformando ecosistemas desde el Ediacárico terminal. | B | AUDITADO | `EVID-CAMBRIAN-TRACES-001` | `INV-CAMBRIAN-001` |
+| `CLAIM-CAMBRIAN-ECOLOGY-001` | Redes, depredación, movilidad y bioturbación formaron retroalimentaciones que amplificaron la radiación sin identificar un gatillo único. | B-C | AUDITADO | `EVID-CAMBRIAN-FOODWEBS-001`, `EVID-CAMBRIAN-TRACES-001` | `INV-CAMBRIAN-001` |
+| `CLAIM-CAMBRIAN-DEVELOPMENT-001` | Capacidades regulatorias animales precedieron la fase fósil principal y las tasas tempranas se aceleraron; genes presentes no prueban por sí solos causa ni fecha. | C | AUDITADO | `EVID-CAMBRIAN-GENOMICS-001` | `INV-CAMBRIAN-001` |
+| `CLAIM-CAMBRIAN-ENVIRONMENT-001` | Oxígeno y nutrientes habilitaron y modularon hábitats, pero sus fluctuaciones estuvieron acopladas a biología y no constituyen una causa suficiente única. | B-COND condición; C-D pesos | AUDITADO | `EVID-CAMBRIAN-REDOX-001` | `INV-CAMBRIAN-001` |
+| `CLAIM-CAMBRIAN-TURNOVER-001` | Extinciones como Sinsk separaron fases y redistribuyeron tallos y coronas; su alcance global y mecanismo permanecen abiertos. | B local; C global | AUDITADO | `EVID-CAMBRIAN-TURNOVER-001` | `INV-CAMBRIAN-001` |
 
 ## Fichas resumidas
 
@@ -1129,6 +1142,99 @@ Este archivo es el índice canónico. La letra de confianza califica exactamente
 - **Puente:** ocurrencias controladas por facies comparan extinción, ambiente, innovación y preservación.
 - **Límite:** ausencia regional o de estilo no es extinción mundial automática.
 - **Confianza:** `C`.
+
+## Investigación 022 — Radiación cámbrica
+
+### CLAIM-CAMBRIAN-SCOPE-001
+
+- **Dato/definición:** cuerpos, trazas, esqueletos, morfoespacios, redes y relojes cambian a ritmos distintos.
+- **Puente:** “radiación” nombra un paquete de expansión evolutiva y ecológica, no un instante estratigráfico.
+- **No afirma:** que toda variable deba compartir principio o final.
+- **Confianza:** `A-SEM`; `B` para proceso plural.
+
+### CLAIM-CAMBRIAN-BOUNDARY-001
+
+- **Dato:** el GSSP de Fortune Head se asocia a `Treptichnus pedum`; ICS asigna `538.8 ± 0.6 Ma`.
+- **Puente:** un horizonte ratificado define la unidad aun si cambia su calibración numérica.
+- **No afirma:** origen de la traza, del productor o de los animales.
+- **Confianza:** `A` para definición; `B` para edad.
+
+### CLAIM-CAMBRIAN-CHRONOLOGY-001
+
+- **Dato:** Jiangchuan, límite E–C, trazas, pequeños esqueletos, Chengjiang/Qingjiang y Sinsk no son simultáneos.
+- **Puente:** edades y rangos controlados por capa reconstruyen una secuencia de pulsos.
+- **Límite:** su duración cambia según variable y correlación.
+- **Confianza:** `B`.
+
+### CLAIM-CAMBRIAN-DIVERGENCE-001
+
+- **Dato:** fósiles diagnósticos dan mínimos; relojes relajados producen nodos precámbricos con intervalos amplios.
+- **Puente:** filogenia conecta fósil, rama y calibración sin identificar la primera población.
+- **Límite:** topología, priors y tasas dominan incertidumbre profunda.
+- **Confianza:** `C`.
+
+### CLAIM-CAMBRIAN-PRESERVATION-001
+
+- **Dato:** partes duras, trazas y tejidos blandos tienen distribuciones y pérdidas diferentes.
+- **Puente:** tafonomía comparativa y controles de facies estiman qué componente puede faltar.
+- **No afirma:** que corregir sesgos recupere un censo completo.
+- **Confianza:** `A-B`.
+
+### CLAIM-CAMBRIAN-STEMCROWN-001
+
+- **Dato:** radiodontos, lobopodios y otros mosaicos adquieren caracteres en órdenes parciales.
+- **Puente:** matrices ubican formas externas a coronas vivas; decay puede desplazar su posición.
+- **No afirma:** que todo problemático esté resuelto o sea ancestro directo.
+- **Confianza:** `B-COND` por taxón.
+
+### CLAIM-CAMBRIAN-BIOMINERAL-001
+
+- **Dato:** tubos ediacáricos y asociaciones cámbricas muestran minerales, microestructuras y escleritomas distintos.
+- **Puente:** distribución filogenética favorece orígenes múltiples por cooptación.
+- **Límite:** una parte aislada puede ocultar organismo y función.
+- **Confianza:** `B`.
+
+### CLAIM-CAMBRIAN-DISPARITY-001
+
+- **Dato:** matrices de artrópodos y metazoos cuantifican ocupación de morfoespacio bajo elecciones explícitas.
+- **Puente:** comparación temporal separa número de taxones de distancia anatómica.
+- **No afirma:** un techo de posibilidades ni todos los filos completos.
+- **Confianza:** `B-COND`.
+
+### CLAIM-CAMBRIAN-TRACES-001
+
+- **Dato:** profundidad, tiering, tamaño y diversidad conductual cambian en sucesiones continuas y entre facies.
+- **Puente:** geometría y sedimento registran conducta e ingeniería aun sin cuerpo.
+- **Límite:** productor y taxón suelen ser desconocidos.
+- **Confianza:** `B`.
+
+### CLAIM-CAMBRIAN-ECOLOGY-001
+
+- **Dato:** contenidos, perforaciones, aparatos funcionales y coocurrencias forman redes con enlaces graduados.
+- **Puente:** depredación y bioturbación generan selección y nuevos nichos recíprocos.
+- **No afirma:** causa inicial ni adaptación exclusiva de cada rasgo.
+- **Confianza:** `B-C`.
+
+### CLAIM-CAMBRIAN-DEVELOPMENT-001
+
+- **Dato:** genómica comparada reconstruye regulación/adhesión ancestrales y relojes de artrópodos recuperan tasas tempranas elevadas.
+- **Puente:** capacidad heredada y cambio de tasa hacen plausible innovación rápida.
+- **Límite:** no se observan redes reguladoras cámbricas ni su expresión.
+- **Confianza:** `C`.
+
+### CLAIM-CAMBRIAN-ENVIRONMENT-001
+
+- **Dato:** Mo/U/N/C/S registran heterogeneidad y pulsos redox correlacionados con fauna.
+- **Puente:** oxígeno/nutrientes delimitan espacio metabólico y productividad.
+- **No afirma:** causalidad unidireccional ni umbral global único.
+- **Confianza:** `B-COND` condición; `C-D` pesos.
+
+### CLAIM-CAMBRIAN-TURNOVER-001
+
+- **Dato:** datos siberianos muestran caída de tallos/arqueociatos y continuidad de coronas alrededor de Sinsk.
+- **Puente:** rangos y rasgos separan radiación, pérdida y recuperación.
+- **Límite:** correlación, facies y globalidad del evento.
+- **Confianza:** `B` local; `C` global.
 
 ## Claims futuros
 

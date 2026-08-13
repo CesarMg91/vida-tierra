@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1000" viewBox="0 0 1600 1000" role="img" aria-labelledby="title desc">
+  <title id="title">Mapa de evidencia de la radiación cámbrica</title>
+  <desc id="desc">Rutas separadas de tiempo, preservación, conducta, filogenia, desarrollo y ambiente convergen en una radiación pulsada, no en una aparición instantánea.</desc>
+  <defs>
+    <filter id="shadow"><feDropShadow dx="0" dy="8" stdDeviation="7" flood-color="#00141d" flood-opacity="0.55"/></filter>
+    <marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto"><path d="M0,0 L12,6 L0,12 Z" fill="#a9c9d8"/></marker>
+    <style>
+      .bg{fill:#061d28}.title{font:700 43px Georgia,serif;fill:#f4f1e8}.sub{font:18px Arial,sans-serif;fill:#b9cbd2}.h{font:700 22px Georgia,serif;fill:#f4f1e8}.box{filter:url(#shadow);stroke-width:2}.bt{font:700 17px Arial,sans-serif;fill:#f7f4ee}.sm{font:13px Consolas,monospace;fill:#d1dce0}.grade{font:700 18px Georgia,serif}.arrow{stroke:#a9c9d8;stroke-width:7;fill:none;marker-end:url(#arrow)}
+    </style>
+  </defs>
+  <rect class="bg" width="1600" height="1000"/>
+  <text class="title" x="64" y="66">Radiación cámbrica: archivos distintos, una transición pulsada</text>
+  <text class="sub" x="64" y="102">Primera aparición, divergencia, disparidad y causa requieren puentes distintos.</text>
+
+  <text class="h" x="64" y="155">1 · Tiempo físico y límite formal</text>
+  <rect class="box" x="64" y="169" rx="18" width="280" height="106" fill="#3b4268" stroke="#9999f2"/>
+  <text class="bt" x="88" y="207">GSSP + traza índice</text><text class="sm" x="88" y="239">horizonte físico, no origen</text>
+  <path class="arrow" d="M350 222 H391"/>
+  <rect class="box" x="398" y="169" rx="18" width="280" height="106" fill="#514164" stroke="#bb88dc"/>
+  <text class="bt" x="422" y="207">U–Pb + correlación</text><text class="sm" x="422" y="239">ceniza, máximo, modelo</text>
+  <path class="arrow" d="M684 222 H725"/>
+  <rect class="box" x="732" y="169" rx="18" width="322" height="106" fill="#63445f" stroke="#da82bb"/>
+  <text class="bt" x="756" y="207">Ventanas 539 → 518 Ma</text><text class="grade" x="756" y="243" fill="#e9add7">fase principal B-COND</text>
+
+  <text class="h" x="64" y="331">2 · Fósil y preservación</text>
+  <rect class="box" x="64" y="345" rx="18" width="280" height="106" fill="#795039" stroke="#e5a05d"/>
+  <text class="bt" x="88" y="383">Conchas + escleritos</text><text class="sm" x="88" y="415">detección y desarticulación</text>
+  <path class="arrow" d="M350 398 H391"/>
+  <rect class="box" x="398" y="345" rx="18" width="280" height="106" fill="#754751" stroke="#e27887"/>
+  <text class="bt" x="422" y="383">Películas + moldes</text><text class="sm" x="422" y="415">tejido, decay, Lagerstätte</text>
+  <path class="arrow" d="M684 398 H725"/>
+  <rect class="box" x="732" y="345" rx="18" width="322" height="106" fill="#6c3f5c" stroke="#d8699b"/>
+  <text class="bt" x="756" y="383">Rango preservado</text><text class="grade" x="756" y="419" fill="#f0a7c8">aparición ≠ origen</text>
+
+  <text class="h" x="64" y="507">3 · Conducta y ecosistema</text>
+  <rect class="box" x="64" y="521" rx="18" width="280" height="106" fill="#185d64" stroke="#46cad2"/>
+  <text class="bt" x="88" y="559">Trazas + tiering</text><text class="sm" x="88" y="591">ancho, profundidad, facies</text>
+  <path class="arrow" d="M350 574 H391"/>
+  <rect class="box" x="398" y="521" rx="18" width="280" height="106" fill="#225b73" stroke="#5ebde4"/>
+  <text class="bt" x="422" y="559">Enlaces alimentarios</text><text class="sm" x="422" y="591">contenido, aparato, certeza</text>
+  <path class="arrow" d="M684 574 H725"/>
+  <rect class="box" x="732" y="521" rx="18" width="322" height="106" fill="#275973" stroke="#6bb7dc"/>
+  <text class="bt" x="756" y="559">Ingeniería escalonada</text><text class="grade" x="756" y="595" fill="#8bd7e8">conducta B</text>
+
+  <text class="h" x="64" y="683">4 · Filogenia, genomas y ambiente</text>
+  <rect class="box" x="64" y="697" rx="18" width="280" height="106" fill="#21634f" stroke="#5bd4a8"/>
+  <text class="bt" x="88" y="735">Caracteres + árbol</text><text class="sm" x="88" y="767">homología, tallo, corona</text>
+  <path class="arrow" d="M350 750 H391"/>
+  <rect class="box" x="398" y="697" rx="18" width="280" height="106" fill="#315d57" stroke="#71c7ad"/>
+  <text class="bt" x="422" y="735">Genes + reloj</text><text class="sm" x="422" y="767">capacidad, nodo, priors</text>
+  <path class="arrow" d="M684 750 H725"/>
+  <rect class="box" x="732" y="697" rx="18" width="322" height="106" fill="#3d5a52" stroke="#83bda7"/>
+  <text class="bt" x="756" y="735">Redox + nutrientes</text><text class="grade" x="756" y="771" fill="#a7dec9">condición B-COND</text>
+
+  <text class="h" x="1120" y="155">5 · Auditorías cruzadas</text>
+  <rect class="box" x="1120" y="169" rx="18" width="416" height="126" fill="#4b4055" stroke="#b99ccc"/>
+  <text class="bt" x="1148" y="207">Tallo ≠ filo perdido</text><text class="sm" x="1148" y="239">decay + matriz + modelo</text><text class="grade" x="1148" y="270" fill="#cfb3df">afinidad B–D por taxón</text>
+  <rect class="box" x="1120" y="317" rx="18" width="416" height="126" fill="#503e46" stroke="#de8297"/>
+  <text class="bt" x="1148" y="355">Diversidad ≠ disparidad</text><text class="sm" x="1148" y="387">taxones, morfoespacio, función</text><text class="grade" x="1148" y="418" fill="#f0a1b4">magnitud B-COND</text>
+  <rect class="box" x="1120" y="465" rx="18" width="416" height="126" fill="#29515a" stroke="#55bdca"/>
+  <text class="bt" x="1148" y="503">Correlación ≠ mecanismo</text><text class="sm" x="1148" y="535">oxígeno, alimento, ecología, GRN</text><text class="grade" x="1148" y="566" fill="#83d6df">causa única D–E</text>
+  <rect class="box" x="1120" y="613" rx="18" width="416" height="190" fill="#604b37" stroke="#e2a25e"/>
+  <text class="bt" x="1148" y="653">Resultado: radiaciones sucesivas</text>
+  <text class="sm" x="1148" y="687">precursores ediacáricos</text><text class="sm" x="1148" y="716">trazas + esqueletos terreneuvienses</text><text class="sm" x="1148" y="745">Lagerstätten ~518 Ma + Sinsk</text><text class="grade" x="1148" y="780" fill="#f1c38d">aceleración real B</text>
+
+  <rect x="64" y="862" rx="20" width="1472" height="100" fill="#102f3e" stroke="#5e94ad" stroke-width="2"/>
+  <text class="bt" x="800" y="903" text-anchor="middle">Núcleo robusto: el cambio fue rápido, plural y cruzó una frontera convencional</text>
+  <text class="sm" x="800" y="936" text-anchor="middle">Abierto: duración por variable, calibración de base, afinidades finas y pesos causales.</text>
+</svg>

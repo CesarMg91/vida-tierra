@@ -450,3 +450,22 @@ esteroides + redox ───────────→ productor/ambiente condi
 ```
 
 Véase `INV-EDIACARA-001` en `05_proterozoico`, su mapa en `assets/visuales/mapa-investigacion-021.svg` y la cadena en `assets/visuales/de-impresion-a-organismo.svg`.
+
+La ruta específica de la radiación cámbrica es:
+
+```text
+GSSP + FAD + U–Pb ────────────→ límite y edad de capas ──────────────┐
+cuerpos + esqueletos ─────────→ presencia y anatomía preservadas ───┤
+trazas + sustrato ────────────→ conducta e ingeniería ecológica ────┤
+Lagerstätten + descomposición → ventana y detectabilidad ───────────┼─→ radiaciones por indicador
+caracteres + filogenia ───────→ tallos, coronas y orden de ramas ───┤
+genomas + relojes ────────────→ divergencias/tasas condicionadas ───┤
+redox + nutrientes + redes ───→ habilitación y retroalimentación ───┘
+                                  │
+                                  ├── radiación geológicamente rápida: B
+                                  ├── pulsos y sucesión: B-COND
+                                  ├── duración/causa única: D
+                                  └── origen animal en el GSSP: E
+```
+
+Véase `INV-CAMBRIAN-001` en `06_paleozoico`, su mapa en `assets/visuales/mapa-investigacion-022.svg` y la cadena en `assets/visuales/de-aparicion-a-radiacion.svg`.

@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Cadena desde una aparición fósil hasta una radiación evolutiva</title>
+  <desc id="desc">Ocho controles separan una muestra fósil de una afirmación sobre diversificación y sus causas.</desc>
+  <defs>
+    <filter id="shadow"><feDropShadow dx="0" dy="7" stdDeviation="6" flood-color="#00121b" flood-opacity="0.55"/></filter>
+    <marker id="arrow" markerWidth="11" markerHeight="11" refX="9" refY="5.5" orient="auto"><path d="M0,0 L11,5.5 L0,11 Z" fill="#b5ccda"/></marker>
+    <linearGradient id="line" x1="0" x2="1"><stop stop-color="#e4a45f"/><stop offset="0.5" stop-color="#d36d9a"/><stop offset="1" stop-color="#62d3d6"/></linearGradient>
+    <style>
+      .bg{fill:#061d28}.title{font:700 43px Georgia,serif;fill:#f4f1e8}.sub{font:18px Arial,sans-serif;fill:#b8c9d1}.box{filter:url(#shadow);stroke-width:2}.bt{font:700 16px Arial,sans-serif;fill:#f7f3ed}.sm{font:13px Consolas,monospace;fill:#d2dce0}.h{font:700 25px Georgia,serif;fill:#f1eee6}.gate{font:700 19px Georgia,serif;fill:#ffd0c3}.arrow{stroke:#b5ccda;stroke-width:6;fill:none;marker-end:url(#arrow)}
+    </style>
+  </defs>
+  <rect class="bg" width="1600" height="900"/>
+  <text class="title" x="64" y="66">De una aparición fósil a una radiación</text>
+  <text class="sub" x="64" y="102">Cada caja añade información; ninguna autoriza saltar directamente a una causa.</text>
+  <rect x="64" y="138" width="1472" height="10" rx="5" fill="url(#line)"/>
+
+  <g>
+    <rect class="box" x="52" y="198" rx="18" width="164" height="148" fill="#78503a" stroke="#e49b58"/>
+    <text class="bt" x="78" y="238">Muestra</text><text class="sm" x="78" y="275">cuerpo, traza</text><text class="sm" x="78" y="306">o esclerito</text>
+    <path class="arrow" d="M219 272 H243"/>
+    <rect class="box" x="246" y="198" rx="18" width="164" height="148" fill="#7a4942" stroke="#df7d69"/>
+    <text class="bt" x="272" y="238">Contexto</text><text class="sm" x="272" y="275">capa, facies</text><text class="sm" x="272" y="306">y edad</text>
+    <path class="arrow" d="M413 272 H437"/>
+    <rect class="box" x="440" y="198" rx="18" width="164" height="148" fill="#73445b" stroke="#d8759e"/>
+    <text class="bt" x="466" y="238">Preservación</text><text class="sm" x="466" y="275">tejido, decay</text><text class="sm" x="466" y="306">y ventana</text>
+    <path class="arrow" d="M607 272 H631"/>
+    <rect class="box" x="634" y="198" rx="18" width="164" height="148" fill="#67466a" stroke="#c087cf"/>
+    <text class="bt" x="660" y="238">Taxón</text><text class="sm" x="660" y="275">caracteres y</text><text class="sm" x="660" y="306">homologías</text>
+    <path class="arrow" d="M801 272 H825"/>
+    <rect class="box" x="828" y="198" rx="18" width="164" height="148" fill="#504b73" stroke="#9a9cde"/>
+    <text class="bt" x="854" y="238">Nodo</text><text class="sm" x="854" y="275">tallo, corona</text><text class="sm" x="854" y="306">o abierto</text>
+    <path class="arrow" d="M995 272 H1019"/>
+    <rect class="box" x="1022" y="198" rx="18" width="164" height="148" fill="#3b5572" stroke="#7ba7da"/>
+    <text class="bt" x="1048" y="238">Rango</text><text class="sm" x="1048" y="275">FAD, LAD y</text><text class="sm" x="1048" y="306">muestreo</text>
+    <path class="arrow" d="M1189 272 H1213"/>
+    <rect class="box" x="1216" y="198" rx="18" width="164" height="148" fill="#235d69" stroke="#55c5cf"/>
+    <text class="bt" x="1242" y="238">Magnitud</text><text class="sm" x="1242" y="275">diversidad,</text><text class="sm" x="1242" y="306">disparidad</text>
+    <path class="arrow" d="M1383 272 H1407"/>
+    <rect class="box" x="1410" y="198" rx="18" width="138" height="148" fill="#155d63" stroke="#4ed3d0"/>
+    <text class="bt" x="1436" y="238">Causa</text><text class="sm" x="1436" y="275">modelo con</text><text class="sm" x="1436" y="306">rivales</text>
+  </g>
+
+  <text class="h" x="64" y="420">Puertas de auditoría</text>
+  <rect class="box" x="64" y="449" rx="18" width="330" height="122" fill="#463b47" stroke="#e07b98"/>
+  <text class="gate" x="90" y="490">FAD ≠ divergencia</text><text class="sm" x="90" y="526">primer fósil es un mínimo</text><text class="sm" x="90" y="551">condicionado por detectabilidad</text>
+  <rect class="box" x="428" y="449" rx="18" width="330" height="122" fill="#463b47" stroke="#e07b98"/>
+  <text class="gate" x="454" y="490">GSSP ≠ gatillo</text><text class="sm" x="454" y="526">una frontera correlaciona capas</text><text class="sm" x="454" y="551">sin causar la biología</text>
+  <rect class="box" x="792" y="449" rx="18" width="330" height="122" fill="#463b47" stroke="#e07b98"/>
+  <text class="gate" x="818" y="490">Esqueleto ≠ plan corporal</text><text class="sm" x="818" y="526">mineralización cambia visibilidad</text><text class="sm" x="818" y="551">y surge repetidas veces</text>
+  <rect class="box" x="1156" y="449" rx="18" width="380" height="122" fill="#463b47" stroke="#e07b98"/>
+  <text class="gate" x="1182" y="490">Correlación ≠ mecanismo</text><text class="sm" x="1182" y="526">oxígeno, genes y ecología</text><text class="sm" x="1182" y="551">pueden ser causa, efecto o ambos</text>
+
+  <rect class="box" x="64" y="631" rx="20" width="716" height="160" fill="#5c493a" stroke="#e2a15d"/>
+  <text class="h" x="92" y="676">Lo que converge</text>
+  <text class="sm" x="92" y="714">• cambio rápido en varios archivos independientes</text>
+  <text class="sm" x="92" y="744">• precursores antes de la base y pulsos después</text>
+  <text class="sm" x="92" y="774">• expansión de anatomía, conducta y ecosistemas</text>
+  <rect class="box" x="820" y="631" rx="20" width="716" height="160" fill="#185664" stroke="#4acbd2"/>
+  <text class="h" x="848" y="676">Resultado delimitado</text>
+  <text class="sm" x="848" y="714">Radiación acelerada y pulsada: B.</text>
+  <text class="sm" x="848" y="744">Duración y afinidades: B-COND a D.</text>
+  <text class="sm" x="848" y="774">Instante único o causa única: E / D-E.</text>
+
+  <text class="sm" x="800" y="850" text-anchor="middle">La rapidez observada hereda biología + preservación + correlación + definición.</text>
+</svg>

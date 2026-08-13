@@ -124,6 +124,16 @@ Una controversia no implica empate. Registra qué parte está realmente abierta,
 | `CONT-EDIACARA-FEEDING-001` | Alimentación de formas sésiles | osmotrofía por gran superficie | suspensión, simbiosis o interfaz del fondo | abierta por taxón | C-D |
 | `CONT-EDIACARA-OXYGEN-001` | Oxígeno y radiación | expansión de hábitat habilitó tamaño/actividad | niveles locales previos y múltiples limitantes | abierta causalmente | B-COND filtro; D-E causa |
 | `CONT-EDIACARA-EXTINCTION-001` | ¿Extinción, reemplazo o cierre tafonómico? | pulsos de pérdida reales | ambiente, ingenieros, facies y continuidad terminal | abierta/multicausal | C |
+| `CONT-CAMBRIAN-SCOPE-001` | ¿Una explosión o varios procesos? | radiación geológicamente rápida y plural | una fase breve/única según indicador elegido | resuelta semánticamente; duración abierta | A-SEM; B-C bordes |
+| `CONT-CAMBRIAN-BOUNDARY-001` | Edad y correlación de la base | GSSP de Fortune Head con edad ICS vigente | correlaciones U–Pb situarían señales equivalentes en edades tensas | límite formal resuelto; calibración abierta | A límite; B-C edad/correlación |
+| `CONT-CAMBRIAN-DURATION-001` | Duración de la radiación | fase principal de decenas de Myr con pulsos | transición local sub-Myr o intervalo más amplio ediacárico–Miaolingiense | abierta por definición y región | B-C |
+| `CONT-CAMBRIAN-ROCKSCLOCKS-001` | Fósiles frente a relojes moleculares | divergencias preceden primeras apariciones | sobreestimación del reloj o subregistro fósil variable | abierta en magnitud, no en distinción | B principio; C-D intervalo |
+| `CONT-CAMBRIAN-PHYLA-001` | “Filos” completos al inicio | muchos taxones son mosaicos de grupos tallo | asignaciones a coronas o ramas independientes | abierta por taxón; relato clásico debilitado | B tallos; C-D nodos finos |
+| `CONT-CAMBRIAN-DISPARITY-001` | ¿Máxima disparidad temprana? | ocupación rápida de morfoespacio en algunos clados | expansión gradual o dependiente de métrica/muestra | abierta por clado y método | B-COND |
+| `CONT-CAMBRIAN-TAFONOMY-001` | ¿Lagerstätten como revolución o ventana? | innovación real amplificada por preservación | gran parte del salto aparente procede del archivo | abierta en proporciones | B para ambos; D pesos |
+| `CONT-CAMBRIAN-OXYGEN-001` | Oxígeno como causa | oxigenación habilitó actividad, tamaño y nichos | oxígeno fluctuante/local y biología como motor del redox | abierta causalmente | B-COND condición; D causa |
+| `CONT-CAMBRIAN-CAUSES-001` | Gatillo dominante | retroalimentación multivariable ecológica–ambiental–desarrollo | predominio de depredación, nutrientes, oxígeno o regulación | abierta en pesos y secuencia | C-D |
+| `CONT-CAMBRIAN-SINSK-001` | Alcance del evento de Sinsk | recambio real en plataforma siberiana | crisis regional/muestreo sin pulso mundial sincrónico | abierta globalmente | B local; C-D global |
 
 ## CONT-COSMOS-H0-001 — Dos rutas hacia la tasa actual
 
@@ -1013,3 +1023,63 @@ La oxigenación expande hábitat y sostiene metabolismo activo/esqueletos. Ambie
 Hay pérdidas White Sea–Nama y terminales, pero la preservación cambia y Jiangchuan 2026 muestra coexistencia tardía. Extinción ambiental, reemplazo ecológico y cierre de ventana pueden operar juntos.
 
 **Prueba discriminatoria:** rangos calibrados por taxón en facies comparables a ambos lados de cada pulso, junto con redox, bioturbación y probabilidades de detección.
+
+## CONT-CAMBRIAN-SCOPE-001 — Una etiqueta comprime siete curvas
+
+“Explosión” puede designar divergencia, FAD, diversidad, disparidad, esqueletos, conducta o redes. Todas aceleran alrededor de la transición, pero no comparten inicio, máximo ni unidad de medida.
+
+**Prueba discriminatoria:** declarar indicador y umbral antes de fecharlo; sólo una coincidencia robusta entre curvas independientes justificaría tratarlas como un evento único.
+
+## CONT-CAMBRIAN-BOUNDARY-001 — El clavo dorado no inmoviliza la cifra
+
+Fortune Head define físicamente la base mediante una señal icnológica. Namibia y Wood Canyon muestran que edad absoluta, FAD y correlación pueden tensarse sin abolir el GSSP.
+
+**Prueba discriminatoria:** CA-ID-TIMS denso en secciones que contengan el mismo orden de trazas, excursiones y facies, con correlaciones ciegas y explícitas.
+
+## CONT-CAMBRIAN-DURATION-001 — Cada cronómetro produce otra “explosión”
+
+Una transición local puede ser sub-Myr, la fase canónica cubrir ~20 Myr y el proceso amplio cruzar Ediacárico, Terreneuviense, Serie 2 y Miaolingiense. Elegir extremos distintos cambia el resultado sin cambiar las rocas.
+
+**Prueba discriminatoria:** curvas globales con incertidumbre para cada indicador y criterios de inicio/fin preregistrados, no un intervalo heredado por tradición.
+
+## CONT-CAMBRIAN-ROCKSCLOCKS-001 — La primera huella no es el primer ancestro
+
+Relojes moleculares suelen situar divergencias antes que cuerpos diagnósticos. El desfase puede registrar linajes pequeños/blandos, calibraciones pobres, tasas mal modeladas o una combinación.
+
+**Prueba discriminatoria:** nuevos fósiles calibradores con caracteres de nodo, modelos de reloj contrastados y predicciones sobre dónde deberían aparecer tallos anteriores.
+
+## CONT-CAMBRIAN-PHYLA-001 — Los grupos tallo rompen la fila de filos
+
+Radiodontos, lobopodios y formas como `Hallucigenia` combinan caracteres que las reconstrucciones antiguas separaban. El marco tallo/corona los integra, pero posiciones finas siguen sensibles a homología y pérdida tafonómica.
+
+**Prueba discriminatoria:** anatomía repetible de nuevos ejemplares, matrices independientes y experimentos de descomposición que inviertan o estabilicen nodos concretos.
+
+## CONT-CAMBRIAN-DISPARITY-001 — Mucha forma no significa la misma curva
+
+Algunos clados ocupan morfoespacio rápidamente; otros expanden después. Codificar más caracteres, cambiar distancias o incluir tallos puede mover el máximo sin negar innovación temprana.
+
+**Prueba discriminatoria:** datasets versionados por clado con análisis de sensibilidad a carácter, distancia, muestreo y posición filogenética.
+
+## CONT-CAMBRIAN-TAFONOMY-001 — Una ventana excepcional sigue teniendo cortinas
+
+Chengjiang y Qingjiang conservan tejidos ausentes en registros esqueletizados y, aun siendo coetáneas, difieren en comunidad. Eso demuestra a la vez innovación real y selección de facies/preservación.
+
+**Prueba discriminatoria:** comparar taxones, tejidos y degradación en gradientes ambientales coetáneos, con modelos de detectabilidad y esfuerzo de colecta.
+
+## CONT-CAMBRIAN-OXYGEN-001 — Condición, respuesta y retroalimentación
+
+Más oxígeno puede ampliar actividad y tamaño, pero los proxies son locales y la bioturbación/productividad también cambian ciclos redox. Una coincidencia puede tener causalidad bidireccional.
+
+**Prueba discriminatoria:** transectos coetáneos con proxies múltiples y rasgos fisiológicos que predigan ocupación por encima de umbrales antes de observar los fósiles.
+
+## CONT-CAMBRIAN-CAUSES-001 — Ningún motor viaja solo
+
+Genes regulatorios, oxígeno, nutrientes, depredación, esqueletos y mezcla del sustrato poseen mecanismos plausibles. El problema no es elegir una lista, sino estimar orden, necesidad y retroalimentaciones.
+
+**Prueba discriminatoria:** modelos causales que generen secuencias exclusivas por cuenca/clado y sobrevivan a cronologías de alta resolución y controles de preservación.
+
+## CONT-CAMBRIAN-SINSK-001 — Una crisis regional busca escala mundial
+
+El registro siberiano separa dos fases mediante pérdidas cerca del evento de Sinsk. Correlación mundial, simultaneidad y vínculo con perturbaciones de oxígeno no están cerrados.
+
+**Prueba discriminatoria:** edades y rangos de alta resolución en varias paleoplacas, facies equivalentes y proxies redox que prueben sincronía y selectividad comunes.

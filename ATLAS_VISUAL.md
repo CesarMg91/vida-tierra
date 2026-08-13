@@ -290,6 +290,20 @@ El mapa mantiene separadas edad, preservación, morfogénesis, conducta, poblaci
 
 La cadena fuerza ocho controles entre molde y afinidad. Relieve no equivale a piel, forma no equivale a homología, proximidad no identifica al productor y animal no significa miembro de una corona moderna.
 
+## 23. Investigación 022 — Radiación cámbrica
+
+![Portada conceptual de la radiación cámbrica](assets/visuales/hero-radiacion-cambrica.png)
+
+> **Portada conceptual:** yuxtapone estratos, ceniza/zircon, trazas, pequeños elementos esqueletizados, preservación blanda, filogenias y proxies redox. No representa una comunidad literal, una anatomía taxonómica exacta ni una explosión instantánea.
+
+![Mapa de evidencia de la radiación cámbrica](assets/visuales/mapa-investigacion-022.svg)
+
+El mapa mantiene separados el GSSP, las edades de capas, cuerpos, trazas, esqueletos, ventanas tafonómicas, árboles y ambiente. Su convergencia apoya una radiación rápida y pulsada; no impone una sola fecha, causa o duración.
+
+![Cadena desde aparición preservada hasta radiación](assets/visuales/de-aparicion-a-radiacion.svg)
+
+La cadena exige pasar por identidad, edad, detectabilidad, distribución, filogenia y una métrica declarada antes de hablar de diversificación. Una FAD sólo fija un mínimo de presencia preservada.
+
 ## Procedencia
 
 El registro de creación, límites y prompt de cada pieza está en [`assets/visuales/README.md`](assets/visuales/README.md).
