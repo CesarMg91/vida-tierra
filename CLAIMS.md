@@ -80,6 +80,12 @@ Este archivo es el índice canónico. La letra de confianza califica exactamente
 | `CLAIM-HADEAN-HYDROCYCLE-001` | Zircones de Jack Hills con `δ18O` sub-manto apoyan interacción de agua meteórica con sistemas corticales someros hacia 4.0 Ga o antes, condicionada por modelos de mezcla. | C | AUDITADO | `EVID-HADEAN-METEORIC-001` | `INV-HADEAN-WATER-001` |
 | `CLAIM-HADEAN-NGB-WATER-001` | Oxígeno triple e hidrógeno de rocas máficas de Nuvvuagittuq son compatibles con alteración hidrotermal de baja temperatura por agua isotópicamente semejante a marina; la edad exacta del protolito es discutida. | C-PROV | AUDITADO | `EVID-HADEAN-NGB-HYDRO-001` | `INV-HADEAN-WATER-001` |
 | `CLAIM-HADEAN-COOL-001` | “Tierra temprana fría” significa que existieron intervalos y lugares compatibles con corteza y agua líquida; no mide temperatura media global, estabilidad climática ni habitabilidad continua. | B-SEM para el límite; E para clima global desde zircon | AUDITADO | `EVID-HADEAN-OXYGEN-QA-001`, `EVID-HADEAN-HYDRO-MODEL-001` | `INV-HADEAN-WATER-001` |
+| `CLAIM-HADEAN-MAGMA-REDOX-001` | Oxibarómetros de Ce y U en dominios ígneos de zircon indican que algunos fundidos hadeanos estuvieron aproximadamente entre `FMQ−1` y `FMQ+1` hacia 4.35–4.15 Ga; esto no mide `O₂` atmosférico. | B-COND | AUDITADO | `EVID-HADEAN-ZIRCON-REDOX-001` | `INV-HADEAN-ATMOSPHERE-001` |
+| `CLAIM-HADEAN-ATMOSPHERE-COMPOSITION-001` | El redox, inventario, presión, temperatura y solubilidad restringen familias de gases desgasificados, pero no existe una medición de la composición o presión completas de la atmósfera hadeana. | B-COND para control; E para mezcla exacta | AUDITADO | `EVID-HADEAN-OUTGASSING-001`, `EVID-HADEAN-HYDROGEN-ESCAPE-001` | `INV-HADEAN-ATMOSPHERE-001` |
+| `CLAIM-HADEAN-ATMOSPHERE-O2-001` | Redox magmático cercano a `FMQ` no implica aire con O₂; S-MIF pre-3770 Ma favorece una atmósfera eoarcaica sin oxígeno libre apreciable y sólo limita indirectamente el Hadeano. | B-COND para ~3.77 Ga; C-D para extrapolación | AUDITADO | `EVID-HADEAN-ZIRCON-REDOX-001`, `EVID-EOARCHEAN-SMIF-001` | `INV-HADEAN-ATMOSPHERE-001` |
+| `CLAIM-HADEAN-ATMOSPHERE-ESCAPE-001` | Xenón en cuarzo de ~3.3 Ga registra fraccionamiento atmosférico prolongado y desgasificación mantélica más intensa que la moderna; el mecanismo y la extrapolación al Hadeano son modelados. | B-COND para evolución; C-D para mecanismo | AUDITADO | `EVID-HADEAN-XE-ESCAPE-001` | `INV-HADEAN-ATMOSPHERE-001` |
+| `CLAIM-HADEAN-ATMOSPHERE-DYNAMIC-001` | Desgasificación, condensación, reacciones superficiales, impactos y escape pudieron construir una sucesión de atmósferas; sus pesos y cronología exactos permanecen abiertos. | C | AUDITADO | `EVID-HADEAN-OUTGASSING-001`, `EVID-HADEAN-IMPACT-OUTGASSING-001`, `EVID-HADEAN-XE-ESCAPE-001` | `INV-HADEAN-ATMOSPHERE-001` |
+| `CLAIM-ARCHEAN-ATMOSPHERE-PRESSURE-001` | Inclusiones de 3.5–3.0 Ga y vesículas de 2.7 Ga imponen cotas arqueanas de `pN₂` y presión total bajo sus modelos; no son paleobarómetros del Hadeano. | B-COND para sus épocas; E para copiar al Hadeano | AUDITADO | `EVID-ARCHEAN-PRESSURE-001` | `INV-HADEAN-ATMOSPHERE-001` |
 | `CLAIM-HADEAN-ACASTA-001` | Ortogneises de Acasta conservan edades de protolito ígneo de hasta 4031 ± 3 Ma, aunque su fábrica actual incorpora metamorfismo y deformación posteriores. | B | AUDITADO | `EVID-HADEAN-ACASTA-001` | `INV-EARTH-AGE-001`, `INV-HADEAN-CRUST-001` |
 | `CLAIM-HADEAN-ACASTA-SOURCE-001` | La unidad Idiwhaa de Acasta es compatible con fusión somera de una fuente máfica hidratada; el mecanismo térmico, incluido impacto, no está identificado de forma única. | C para fuente; D para impacto | AUDITADO | `EVID-HADEAN-ACASTA-SOURCE-001` | `INV-HADEAN-CRUST-001` |
 | `CLAIM-HADEAN-NGB-001` | Intrusiones metagabroicas de Nuvvuagittuq produjeron isócronas `146Sm–142Nd` y `147Sm–143Nd` próximas a 4.16 Ga en el estudio de 2025. | B-PROV | AUDITADO | `EVID-HADEAN-NGB-001`, `EVID-HADEAN-NGB-LEGACY-001` | `INV-EARTH-AGE-001`, `INV-HADEAN-CRUST-001` |
@@ -373,6 +379,35 @@ Este archivo es el índice canónico. La letra de confianza califica exactamente
 - **Corroboración:** MHD reproduce campos autosostenidos y reversiones bajo parámetros accesibles.
 - **No afirma:** receta química, fuente de flotabilidad única, edad exacta del núcleo interno ni réplica histórica.
 - **Confianza:** A para dínamo central activa moderna; C-D para mecanismo/energía en cada época.
+
+### CLAIM-HADEAN-MAGMA-REDOX-001 / ATMOSPHERE-COMPOSITION-001
+
+- **Dato:** Ce o estado de U en dominios ígneos de zircon, edad U–Pb, textura y temperatura/calibración.
+- **Puente 1:** el oxibarómetro estima `fO₂` del fundido parental.
+- **Puente 2:** inventario, P–T, solubilidad y equilibrio traducen `fO₂` a especies desgasificadas.
+- **No afirma:** presión parcial, retención, composición del aire ni abundancia de O₂ libre.
+- **Confianza:** B-COND para redox de algunos magmas; E para una mezcla histórica exacta.
+
+### CLAIM-HADEAN-ATMOSPHERE-O2-001
+
+- **Distinción:** `fO₂` en un fundido no es porcentaje de O₂ atmosférico.
+- **Límite más cercano:** S-MIF en sulfuros pre-3770 Ma favorece anoxia en el Eoarcaico.
+- **No afirma:** que el umbral o la composición se mantuvieran constantes durante todo el Hadeano.
+- **Confianza:** B-COND para la época del sulfuro; C-D al retroceder.
+
+### CLAIM-HADEAN-ATMOSPHERE-ESCAPE-001 / DYNAMIC-001
+
+- **Dato:** Xe atmosférico arqueano diferente del moderno y gases nobles radiogénicos.
+- **Mecanismos:** desgasificación, escape, impacto, condensación y secuestro superficial.
+- **Límite:** una huella de evolución no recupera por sí sola la secuencia completa ni su inventario inicial.
+- **Confianza:** B-COND para evolución de Xe; C para atmósferas sucesivas; D para pesos.
+
+### CLAIM-ARCHEAN-ATMOSPHERE-PRESSURE-001
+
+- **Dato:** N/Ar en inclusiones hidrotermales y gradientes de tamaño de vesículas.
+- **Condiciones:** equilibrio fluido–aire, solubilidades, presión de emplazamiento, elevación y preservación.
+- **No afirma:** presión hadeana ni una continuidad de cientos de millones de años.
+- **Confianza:** B-COND para la cota en cada época; E para copiarla al Hadeano.
 
 ## Claims futuros
 

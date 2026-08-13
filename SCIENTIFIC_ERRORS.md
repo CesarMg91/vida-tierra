@@ -48,6 +48,10 @@ El propósito no es presentar la ciencia como una sucesión de fracasos ni como 
 | `ERR-HADEAN-WATER-DATE-001` | fechar el agua con la edad U–Pb del zircon | proceso anterior y cristalización confundidos | usar la edad mineral como límite posterior de alteración | DOCUMENTADO |
 | `ERR-HADEAN-COOL-CLIMATE-001` | “Tierra temprana fría” como clima global benigno | contraste con océano de magma convertido en termómetro climático | separar fase líquida local, hidrosfera, clima y habitabilidad | DOCUMENTADO |
 | `ERR-HADEAN-OXYGEN-O2-001` | leer `δ18O` como oxígeno atmosférico | cociente de isótopos estables confundido con abundancia/redox de `O₂` | separar isótopos de silicato, fugacidad y atmósfera | DOCUMENTADO |
+| `ERR-HADEAN-FO2-O2-001` | leer `fO₂` del magma como porcentaje de O₂ en aire | potencial químico mineral convertido en composición atmosférica | separar valencia/fundido, gas desgasificado y aire acumulado | DOCUMENTADO |
+| `ERR-HADEAN-MODEL-AIR-001` | presentar una salida de desgasificación como muestra de aire | entradas y equilibrio ocultos | nombrar modelo, inventario, P–T, redox y etapa | DOCUMENTADO |
+| `ERR-HADEAN-ARCHEAN-AIR-001` | copiar presión/S-MIF arqueanos al Hadeano | límite posterior convertido en continuidad | conservar época y declarar extrapolación | DOCUMENTADO |
+| `ERR-HADEAN-ONE-ATMOSPHERE-001` | hablar de una atmósfera secundaria estable | impactos, condensación y escape borrados | describir episodios y reservorio abierto | DOCUMENTADO |
 | `ERR-GEO-KELVIN-001` | Tierra de decenas de Ma por enfriamiento | fuente térmica y transporte incompletos | radioactividad, convección y geocronología isotópica | DOCUMENTADO |
 | `ERR-GEO-SEDIMENT-001` | edad global por tasa media de sedimentación | tasa constante, registro completo y sin reciclaje | estratigrafía, discordancias y relojes radiométricos | SEMILLA |
 | `ERR-GEO-LEAD-001` | mediciones de Pb sin control ultralimpio | blanco despreciable | laboratorios limpios, blancos y química de trazas | DOCUMENTADO |
@@ -139,6 +143,38 @@ Declarar la referencia: suficientemente fría en algún lugar/intervalo para agu
 ### Corrección
 
 Separar tres expedientes: isótopos estables para fuente/agua, fugacidad o valencias para redox del magma y proxies geoquímicos para `O₂` atmosférico. La atmósfera se audita en la Investigación 011.
+
+## ERR-HADEAN-FO2-O2-001 — “Oxidado” saltó del magma al cielo
+
+`fO₂` compara potencial químico y equilibrios de valencia en un fundido. Cerca de FMQ favorece gases distintos que cerca de IW, pero no significa que existiera O₂ molecular acumulado. Agua y CO₂ pueden dominar sin una atmósfera oxigenada.
+
+### Corrección
+
+Escribir siempre la cadena `zircon → fundido → gas posible → aire procesado` y asignar un proxy distinto al O₂ atmosférico, como S-MIF para la época disponible.
+
+## ERR-HADEAN-MODEL-AIR-001 — Un porcentaje calculado se volvió muestra
+
+CO `>97 %`, `40–220 bar` o `pH₂ <20 bar` son resultados bajo historias diferentes de inventario, redox, partición y escape. Su precisión numérica no transforma el escenario en aire medido.
+
+### Corrección
+
+Anotar modelo, entradas, variable de salida y sensibilidad. Comparar qué supuesto cambia la respuesta antes de escoger una mezcla narrativa.
+
+## ERR-HADEAN-ARCHEAN-AIR-001 — El barómetro viajó en el tiempo
+
+Una inclusión de 3.3 Ga y una vesícula de 2.7 Ga son archivos atmosféricos valiosos. No pesan ni muestrean automáticamente el Hadeano, separado por impactos, desgasificación y escape.
+
+### Corrección
+
+Usarlos como límites posteriores y pruebas de método; no como condiciones iniciales sin un modelo explícito de continuidad.
+
+## ERR-HADEAN-ONE-ATMOSPHERE-001 — “Secundaria” sonó a definitiva
+
+La etiqueta oculta que un gran impacto puede retirar aire, fundir manto y generar otra desgasificación. Condensación, océano, corteza y escape vuelven a cambiar el reservorio.
+
+### Corrección
+
+Hablar de estados o episodios atmosféricos y separar masa, composición y tiempo. Una reconstrucción debe sobrevivir a reinicios parciales.
 
 ## ERR-EARTH-HFW-STOPWATCH-001 — Una razón no imprime un final
 

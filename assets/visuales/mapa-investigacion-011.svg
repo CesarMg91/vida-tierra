@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1000" viewBox="0 0 1600 1000" role="img" aria-labelledby="title desc">
+  <title id="title">Mapa de evidencia de la Investigación 011 sobre la atmósfera hadeana</title>
+  <desc id="desc">Seis rutas separan redox magmático, gas desgasificado, procesamiento atmosférico, oxígeno libre y límites arqueanos posteriores.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#07121c"/><stop offset="1" stop-color="#18131f"/></linearGradient>
+    <linearGradient id="core" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#d99a4e"/><stop offset="1" stop-color="#9c7cd2"/></linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%"><feDropShadow dx="0" dy="9" stdDeviation="11" flood-color="#000" flood-opacity=".34"/></filter>
+    <marker id="arrow" markerWidth="11" markerHeight="11" refX="9" refY="5.5" orient="auto"><path d="M0 0 L11 5.5 L0 11 Z" fill="#6bc7dc"/></marker>
+    <style>
+      .k{font:600 23px Inter,Segoe UI,sans-serif;letter-spacing:4px;fill:#73cfe2}.t{font:700 47px Inter,Segoe UI,sans-serif;fill:#f4efe7}.s{font:400 21px Inter,Segoe UI,sans-serif;fill:#a9b8c2}
+      .card{fill:#142531;stroke:#355264;stroke-width:2}.ct{font:700 24px Inter,Segoe UI,sans-serif;fill:#f2eee7}.m{font:700 22px Inter,Segoe UI,sans-serif;fill:#7bd3e4}.b{font:400 18px Inter,Segoe UI,sans-serif;fill:#bdcad1}.sm{font:400 16px Inter,Segoe UI,sans-serif;fill:#92a6b1}.dark{font:700 24px Inter,Segoe UI,sans-serif;fill:#08131c}.tag{font:700 17px Inter,Segoe UI,sans-serif;fill:#08131c}.warn{font:600 17px Inter,Segoe UI,sans-serif;fill:#e4a66f}
+    </style>
+  </defs>
+  <rect width="1600" height="1000" fill="url(#bg)"/><circle cx="1450" cy="90" r="260" fill="#52336f" opacity=".17"/><circle cx="100" cy="920" r="300" fill="#8c4b21" opacity=".12"/>
+  <text class="k" x="80" y="72">INVESTIGACIÓN 011 · MAPA DE EVIDENCIA</text>
+  <text class="t" x="80" y="137">¿Qué variable conserva cada archivo?</text>
+  <text class="s" x="80" y="180">Acercarse al Hadeano aleja la muestra del aire; acercarse al aire hace el archivo más joven.</text>
+
+  <g filter="url(#shadow)">
+    <g transform="translate(80 235)"><rect class="card" width="330" height="230" rx="22"/><rect width="330" height="11" rx="6" fill="#d89b4e"/><text class="ct" x="25" y="58">Ce y U en zircon</text><text class="m" x="25" y="98">~4.35–4.15 Ga</text><text class="b" x="25" y="133">fO₂ del fundido parental</text><text class="b" x="25" y="162">aprox. FMQ−1 a FMQ+1</text><text class="warn" x="25" y="202">No mide O₂ en aire</text></g>
+    <g transform="translate(445 235)"><rect class="card" width="330" height="230" rx="22"/><rect width="330" height="11" rx="6" fill="#b06b42"/><text class="ct" x="25" y="58">Océano de magma</text><text class="m" x="25" y="98">CHONS + P–T + redox</text><text class="b" x="25" y="133">Calcula gas y presión</text><text class="b" x="25" y="162">para entradas declaradas</text><text class="warn" x="25" y="202">Salida, no muestra</text></g>
+    <g transform="translate(810 235)"><rect class="card" width="330" height="230" rx="22"/><rect width="330" height="11" rx="6" fill="#9a7dd0"/><text class="ct" x="25" y="58">D/H y xenón</text><text class="m" x="25" y="98">H₂ condicionado · Xe 3.3 Ga</text><text class="b" x="25" y="133">Pérdida y desgasificación</text><text class="b" x="25" y="162">durante evolución temprana</text><text class="warn" x="25" y="202">Mecanismo modelado</text></g>
+    <g transform="translate(1175 235)"><rect class="card" width="345" height="230" rx="22"/><rect width="345" height="11" rx="6" fill="#d1b457"/><text class="ct" x="25" y="58">S-MIF de Isua</text><text class="m" x="25" y="98">pre-3770 Ma</text><text class="b" x="25" y="133">Fotoquímica atmosférica</text><text class="b" x="25" y="162">sin O₂ libre apreciable</text><text class="warn" x="25" y="202">Límite poshadeano</text></g>
+  </g>
+
+  <g stroke="#6bc7dc" stroke-width="4" fill="none" marker-end="url(#arrow)" opacity=".78"><path d="M245 485 C245 555 550 550 650 610"/><path d="M610 485 C610 540 700 555 745 610"/><path d="M975 485 C975 540 900 555 855 610"/><path d="M1348 485 C1348 555 1040 550 950 610"/></g>
+  <g filter="url(#shadow)"><rect x="480" y="602" width="640" height="145" rx="72" fill="url(#core)"/><text class="dark" text-anchor="middle" x="800" y="658">Atmósfera abierta y cambiante</text><text class="dark" text-anchor="middle" x="800" y="694">gas ≠ aire retenido ≠ O₂ libre</text><rect x="755" y="713" width="90" height="32" rx="16" fill="#f8e9d6"/><text class="tag" text-anchor="middle" x="800" y="735">C</text></g>
+  <line x1="800" y1="760" x2="800" y2="811" stroke="#6bc7dc" stroke-width="4" marker-end="url(#arrow)"/>
+
+  <g>
+    <rect x="80" y="825" width="440" height="110" rx="22" fill="#172a35" stroke="#477385" stroke-width="2"/><text class="ct" x="108" y="867">Algunos magmas cerca de FMQ</text><text class="sm" x="108" y="897">B-COND · local, calibrado, no aire</text><text class="sm" x="108" y="920">Ce y U aportan rutas parcialmente distintas</text>
+    <rect x="580" y="825" width="440" height="110" rx="22" fill="#282330" stroke="#705a83" stroke-width="2"/><text class="ct" x="608" y="867">Anoxia hacia ~3.77 Ga</text><text class="sm" x="608" y="897">B-COND · límite eoarcaico</text><text class="sm" x="608" y="920">No fecha toda la historia anterior</text>
+    <rect x="1080" y="825" width="440" height="110" rx="22" fill="#312326" stroke="#82585c" stroke-width="2"/><text class="ct" x="1108" y="867">Mezcla y presión hadeanas</text><text class="sm" x="1108" y="897">D–E · sin muestra completa</text><text class="sm" x="1108" y="920">Paleobarómetros disponibles son posteriores</text>
+  </g>
+</svg>

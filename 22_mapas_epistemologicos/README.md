@@ -12,3 +12,4 @@ Grafos de dependencias entre objetos, mediciones, principios, modelos, claims y 
 - [`MAPA_008_ORIGEN_LUNA.md`](MAPA_008_ORIGEN_LUNA.md): órbita, interior, rocas, isótopos, volátiles, cronómetros y competencia entre familias de impacto.
 - [`MAPA_009_CORTEZA_HADEANA.md`](MAPA_009_CORTEZA_HADEANA.md): mineral detrítico, protolito preservado e intrusión que corta; edades directas, límites y extrapolación planetaria.
 - [`MAPA_010_AGUA_HADEANA.md`](MAPA_010_AGUA_HADEANA.md): microdominio, magma, roca fuente y agua; cada flecha declara supuestos y pérdida de escala.
+- [`MAPA_011_ATMOSFERA_HADEANA.md`](MAPA_011_ATMOSFERA_HADEANA.md): zircon, fundido, gas, aire procesado y archivos posteriores; redox magmático no se confunde con O₂ atmosférico.

@@ -44,6 +44,10 @@ Una controversia no implica empate. Registra qué parte está realmente abierta,
 | `CONT-HADEAN-HYDROCYCLE-001` | ¿Operaba lluvia e infiltración a 4.0 Ga? | zircon sub-manto requiere agua meteórica en modelos publicados | composición inicial/mezcla o alcance regional | abierta y reciente | C |
 | `CONT-HADEAN-NGB-WATER-001` | ¿Qué edad tiene el fluido registrado en NGB? | O triple + H favorecen hidrosfera muy antigua | metamorfismo y edad 4.3–3.8 Ga condicionan | abierta | C-PROV |
 | `CONT-HADEAN-CLIMATE-001` | ¿Agua líquida implica clima estable? | modelos permiten condensación y retirada rápida de CO₂ | impactos, atmósfera y variabilidad no medidos | abierta | E para historia exacta |
+| `CONT-HADEAN-MAGMA-AIR-001` | ¿Cuánto dice `fO₂` del magma sobre el aire? | Ce/U favorecen algunos fundidos cerca de FMQ | gas, retención, reacción y O₂ atmosférico son pasos adicionales | abierta en puentes | B-COND para magma; D para aire |
+| `CONT-HADEAN-ATMOSPHERE-COMPOSITION-001` | ¿Qué gases y presiones dominaron? | redox controla familias; modelos acotan escenarios | inventarios, superficie del océano de magma y episodios no observados | abierta | D-E para mezcla exacta |
+| `CONT-HADEAN-ATMOSPHERE-ESCAPE-001` | ¿Cuánto H/Xe se perdió y cómo? | Xe arqueano y D/H requieren evolución/pérdida bajo modelos | componente inicial, Sol joven y mecanismo correlacionados | abierta | C-D |
+| `CONT-HADEAN-ATMOSPHERE-PRESSURE-001` | ¿Qué presión tenía el Hadeano? | hay cotas arqueanas posteriores | no existe paleobarómetro coetáneo ni continuidad demostrada | abierta | E para cifra exacta |
 | `CONT-HADEAN-NGB-001` | Edad de Nuvvuagittuq | intrusiones de ~4.16 Ga y encajantes más antiguas | edades arqueanas ~3.8 Ga o edades modelo heredadas/reset | reabierta y fortalecida en 2025 | C-B-PROV |
 | `CONT-HADEAN-CRUST-VOLUME-001` | Volumen/composición de la primera corteza | zircones y Acasta registran magmas evolucionados/retrabajo | protocrust globalmente máfica y sesgo de preservación | abierta | B para existencia; D para volumen |
 | `CONT-HADEAN-TECTONICS-001` | Régimen geodinámico hadeano | subducción/arco en parte de Jack Hills | tapa estancada, plumas, goteo e impactos; diversidad regional | abierta | C |
@@ -274,6 +278,30 @@ O triple e H favorecen alteración hidrotermal de baja temperatura por agua seme
 La presencia de agua líquida descarta una superficie global continuamente fundida durante el episodio registrado. No fija temperatura media, atmósfera, frecuencia de impactos ni duración. Modelos de desgasificación prueban trayectorias posibles bajo entradas declaradas.
 
 **Prueba discriminatoria:** proxies climáticos independientes, química atmosférica, termometría contextual y modelos que reproduzcan simultáneamente agua–roca, energía de impactos y balance radiativo.
+
+## CONT-HADEAN-MAGMA-AIR-001 — De valencia mineral a composición del aire
+
+Ce y U preservados en zircon restringen `fO₂` del fundido parental. Traducirlo a gas exige inventario, temperatura, presión de separación y solubilidad; traducir gas a aire exige retención, condensación, reacción y escape. O₂ libre es otra variable.
+
+**Prueba discriminatoria:** oxibarómetros independientes en varios terrenos, experimentos con composiciones/volátiles relevantes y modelos que publiquen cuánto cambia cada flecha.
+
+## CONT-HADEAN-ATMOSPHERE-COMPOSITION-001 — Una mezcla o una sucesión
+
+Escenarios publicados abarcan atmósferas ricas en CO, H₂ o familias H₂O–CO₂–N₂ según redox e inventario. Grandes impactos pueden erosionar y volver a desgasificar. Una cifra de composición identifica un modelo y una etapa, no todo el Hadeano.
+
+**Prueba discriminatoria:** proxies coetáneos de varios gases/presiones, inventarios núcleo–manto mejor restringidos y modelos acoplados que reproduzcan simultáneamente D/H, Xe y archivos superficiales.
+
+## CONT-HADEAN-ATMOSPHERE-ESCAPE-001 — El xenón recuerda una pérdida, no su película
+
+Xe arqueano distinto del moderno prueba evolución prolongada; D/H limita ciertos inventarios de H₂. El mecanismo puede involucrar ionización, acoplamiento con H y flujo EUV, pero la composición inicial y el ritmo del Sol joven permanecen correlacionados.
+
+**Prueba discriminatoria:** serie temporal de Xe/Kr/Ar en inclusiones bien fechadas y un modelo de escape que reproduzca a la vez abundancia, fraccionamiento y agua sin parámetros incompatibles.
+
+## CONT-HADEAN-ATMOSPHERE-PRESSURE-001 — Barómetros fuera de época
+
+Inclusiones de 3.5–3.0 Ga y vesículas de 2.7 Ga acotan su propio aire. Impactos, escape y secuestro pudieron cambiar masa y composición antes de esas fechas; proyectar sus bares hasta 4.3 Ga no está justificado.
+
+**Prueba discriminatoria:** vesículas, inclusiones o equivalentes hadeanos/eoarcaicos con edad de formación y emplazamiento independientes, repetidos en más de un terreno.
 
 ## CONT-HADEAN-NGB-001 — Las rocas más antiguas
 
