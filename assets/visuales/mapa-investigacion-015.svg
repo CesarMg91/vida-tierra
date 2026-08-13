@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1000" viewBox="0 0 1600 1000" role="img" aria-labelledby="title desc">
+  <title id="title">Mapa de evidencia de la Investigación 015 sobre la Gran Oxidación</title>
+  <desc id="desc">Separa umbral atmosférico, meteorización continental, plataformas someras, océano profundo, amplitud y causa. Muestra por qué la Gran Oxidación fue una transición y no un instante.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#061821"/><stop offset=".55" stop-color="#0d2027"/><stop offset="1" stop-color="#21181a"/></linearGradient>
+    <linearGradient id="band" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#a66e43"/><stop offset=".47" stop-color="#70c5ba"/><stop offset="1" stop-color="#378bb1"/></linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%"><feDropShadow dx="0" dy="9" stdDeviation="11" flood-color="#000" flood-opacity=".38"/></filter>
+    <marker id="arrow" markerWidth="11" markerHeight="11" refX="9" refY="5.5" orient="auto"><path d="M0 0 L11 5.5 L0 11 Z" fill="#68c7c0"/></marker>
+    <style>
+      .k{font:600 22px Inter,Segoe UI,sans-serif;letter-spacing:4px;fill:#72d0c8}.t{font:700 44px Inter,Segoe UI,sans-serif;fill:#f3eee6}.s{font:400 20px Inter,Segoe UI,sans-serif;fill:#a8bac2}
+      .card{fill:#132a34;stroke:#365965;stroke-width:2}.ct{font:700 22px Inter,Segoe UI,sans-serif;fill:#f1ece5}.m{font:700 20px Inter,Segoe UI,sans-serif;fill:#7bd1ca}.b{font:400 16px Inter,Segoe UI,sans-serif;fill:#c1ccd1}.sm{font:400 15px Inter,Segoe UI,sans-serif;fill:#99aab2}.warn{font:600 16px Inter,Segoe UI,sans-serif;fill:#e0a06a}.dark{font:700 22px Inter,Segoe UI,sans-serif;fill:#07181d}.tag{font:700 15px Inter,Segoe UI,sans-serif;fill:#07181d}.axis{font:600 16px Inter,Segoe UI,sans-serif;fill:#a5b5bb}.lab{font:700 18px Inter,Segoe UI,sans-serif;fill:#e8e3dc}
+    </style>
+  </defs>
+  <rect width="1600" height="1000" fill="url(#bg)"/><circle cx="1510" cy="40" r="300" fill="#296d83" opacity=".14"/><circle cx="80" cy="950" r="320" fill="#9b582f" opacity=".12"/>
+  <text class="k" x="72" y="64">INVESTIGACIÓN 015 · SEIS MAGNITUDES</text>
+  <text class="t" x="72" y="124">El oxígeno aumentó, pero no todo a la vez</text>
+  <text class="s" x="72" y="168">Atmósfera, continente, plataforma y profundidad responden con proxies, umbrales y relojes diferentes.</text>
+
+  <g filter="url(#shadow)">
+    <g transform="translate(55 225)"><rect class="card" width="350" height="260" rx="22"/><rect width="350" height="11" rx="6" fill="#a86d42"/><text class="ct" x="24" y="57">S‑MIF atmosférico</text><text class="m" x="24" y="94">~2.45–2.32 Ga · B-COND</text><text class="b" x="24" y="132">La fotoquímica cambia cuando</text><text class="b" x="24" y="159">el aire cruza un umbral.</text><text class="warn" x="24" y="207">Umbral, no porcentaje</text><text class="sm" x="24" y="234">Memoria crustal puede retrasar señal.</text></g>
+    <g transform="translate(435 225)"><rect class="card" width="350" height="260" rx="22"/><rect width="350" height="11" rx="6" fill="#bd8648"/><text class="ct" x="24" y="57">Meteorización</text><text class="m" x="24" y="94">pirita · Mo · S · paleosuelos</text><text class="b" x="24" y="132">El frente continental registra</text><text class="b" x="24" y="159">oxidante, transporte y cinética.</text><text class="warn" x="24" y="207">Aún muy poco O₂</text><text class="sm" x="24" y="234">Un caso: &lt;5×10⁻⁴ PAL.</text></g>
+    <g transform="translate(815 225)"><rect class="card" width="350" height="260" rx="22"/><rect width="350" height="11" rx="6" fill="#57bdb5"/><text class="ct" x="24" y="57">Plataforma somera</text><text class="m" x="24" y="94">2.32–2.26 Ga · B-COND</text><text class="b" x="24" y="132">V + Tl requieren expansión</text><text class="b" x="24" y="159">de fondos con O₂.</text><text class="warn" x="24" y="207">≥10 μM en el proxy</text><text class="sm" x="24" y="234">No representa todo el océano.</text></g>
+    <g transform="translate(1195 225)"><rect class="card" width="350" height="260" rx="22"/><rect width="350" height="11" rx="6" fill="#327f9d"/><text class="ct" x="24" y="57">Océano profundo</text><text class="m" x="24" y="94">anoxia persistente · B-COND</text><text class="b" x="24" y="132">Fe, Mo/U y facies permiten</text><text class="b" x="24" y="159">ferruginia o euxinia extensa.</text><text class="warn" x="24" y="207">Superficie ≠ profundidad</text><text class="sm" x="24" y="234">La mezcla no fue instantánea.</text></g>
+  </g>
+
+  <g stroke="#68c7c0" stroke-width="4" fill="none" marker-end="url(#arrow)" opacity=".88"><path d="M230 505 C230 570 565 560 670 626"/><path d="M610 505 C610 565 705 580 748 626"/><path d="M990 505 C990 565 895 580 852 626"/><path d="M1370 505 C1370 570 1035 560 930 626"/></g>
+  <g filter="url(#shadow)"><rect x="370" y="615" width="860" height="158" rx="79" fill="url(#band)"/><text class="dark" x="800" y="661" text-anchor="middle">TRANSICIÓN PROLONGADA · CRUCES LOCALES RÁPIDOS</text><text class="dark" x="800" y="701" text-anchor="middle">umbral ≠ concentración · plataforma ≠ océano · correlación ≠ causa</text><rect x="738" y="730" width="124" height="32" rx="16" fill="#f7ead9"/><text class="tag" x="800" y="751" text-anchor="middle">AUDITADO</text></g>
+
+  <text class="axis" x="65" y="822">INICIO OPERACIONAL</text><text class="axis" x="1390" y="822" text-anchor="end">CONVERGENCIA FUERTE</text>
+  <line x1="72" y1="850" x2="1528" y2="850" stroke="#355663" stroke-width="7" stroke-linecap="round"/>
+  <rect x="270" y="840" width="980" height="20" rx="10" fill="url(#band)"/>
+  <g fill="#f3eee6"><circle cx="270" cy="850" r="12"/><circle cx="860" cy="850" r="12"/><circle cx="1250" cy="850" r="12"/></g>
+  <text class="lab" x="270" y="895" text-anchor="middle">~2.45 Ga</text><text class="sm" x="270" y="922" text-anchor="middle">pulsos / pérdidas iniciales</text>
+  <text class="lab" x="860" y="895" text-anchor="middle">2.426 Ga</text><text class="sm" x="860" y="922" text-anchor="middle">Ongeluk + glaciación</text>
+  <text class="lab" x="1250" y="895" text-anchor="middle">~2.32 Ga</text><text class="sm" x="1250" y="922" text-anchor="middle">S‑MIF grande cesa + V/Tl</text>
+  <text class="s" x="800" y="969" text-anchor="middle">La barra es un intervalo de integración, no una curva medida de pO₂.</text>
+</svg>

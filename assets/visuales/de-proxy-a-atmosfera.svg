@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Cadena de un proxy sedimentario a una inferencia sobre la Gran Oxidación</title>
+  <desc id="desc">Cinco puertas separan muestra, señal, proceso, reservorio y claim. Ramas laterales muestran memoria crustal, alteración, heterogeneidad oceánica y modelo cuantitativo.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#061820"/><stop offset="1" stop-color="#21191b"/></linearGradient>
+    <linearGradient id="flow" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#b77a45"/><stop offset=".52" stop-color="#64c5bc"/><stop offset="1" stop-color="#3f8eaf"/></linearGradient>
+    <filter id="sh" x="-20%" y="-20%" width="140%" height="140%"><feDropShadow dx="0" dy="8" stdDeviation="9" flood-color="#000" flood-opacity=".38"/></filter>
+    <marker id="a" markerWidth="10" markerHeight="10" refX="9" refY="5" orient="auto"><path d="M0 0 L10 5 L0 10 Z" fill="#68c7c0"/></marker>
+    <style>
+      .k{font:600 22px Inter,Segoe UI,sans-serif;letter-spacing:4px;fill:#72d0c8}.t{font:700 44px Inter,Segoe UI,sans-serif;fill:#f3eee7}.s{font:400 20px Inter,Segoe UI,sans-serif;fill:#a8b9c1}.num{font:700 19px Inter,Segoe UI,sans-serif;fill:#08191e}.ct{font:700 21px Inter,Segoe UI,sans-serif;fill:#f2eee7}.b{font:400 16px Inter,Segoe UI,sans-serif;fill:#c1ccd1}.loss{font:600 15px Inter,Segoe UI,sans-serif;fill:#dfa06b}.foot{font:400 17px Inter,Segoe UI,sans-serif;fill:#9cadb4}.branch{font:700 16px Inter,Segoe UI,sans-serif;fill:#e5dfd7}.rule{font:700 20px Inter,Segoe UI,sans-serif;fill:#07181d}
+    </style>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <text class="k" x="65" y="64">DE LA ROCA AL CIELO</text><text class="t" x="65" y="123">Cinco puertas antes de afirmar «aumentó el O₂»</text><text class="s" x="65" y="166">Cada puerta puede fallar por un mecanismo diferente; más precisión analítica no repara un puente causal roto.</text>
+
+  <line x1="145" y1="402" x2="1450" y2="402" stroke="#31545f" stroke-width="5"/>
+  <g filter="url(#sh)">
+    <g transform="translate(45 245)"><rect width="270" height="314" rx="24" fill="#30291f" stroke="#8f6b48" stroke-width="2"/><circle cx="43" cy="42" r="24" fill="#bd824c"/><text class="num" x="43" y="49" text-anchor="middle">1</text><text class="ct" x="23" y="100">Muestra</text><text class="b" x="23" y="140">testigo · facies · edad</text><text class="b" x="23" y="167">mineral primario</text><text class="loss" x="23" y="237">¿Alteración, hueco o</text><text class="loss" x="23" y="264">procedencia equivocada?</text></g>
+    <g transform="translate(355 245)"><rect width="270" height="314" rx="24" fill="#25302e" stroke="#667967" stroke-width="2"/><circle cx="43" cy="42" r="24" fill="#9bb15e"/><text class="num" x="43" y="49" text-anchor="middle">2</text><text class="ct" x="23" y="100">Señal</text><text class="b" x="23" y="140">Δ³³S · pirita · V/Tl</text><text class="b" x="23" y="167">Fe · Mo/U</text><text class="loss" x="23" y="237">¿Medición reproducida</text><text class="loss" x="23" y="264">y authigénica?</text></g>
+    <g transform="translate(665 245)"><rect width="270" height="314" rx="24" fill="#163237" stroke="#477a78" stroke-width="2"/><circle cx="43" cy="42" r="24" fill="#69c9bf"/><text class="num" x="43" y="49" text-anchor="middle">3</text><text class="ct" x="23" y="100">Proceso</text><text class="b" x="23" y="140">fotoquímica · oxidación</text><text class="b" x="23" y="167">adsorción · transporte</text><text class="loss" x="23" y="237">¿Ruta única o varias</text><text class="loss" x="23" y="264">causas compatibles?</text></g>
+    <g transform="translate(975 245)"><rect width="270" height="314" rx="24" fill="#192e38" stroke="#4b7081" stroke-width="2"/><circle cx="43" cy="42" r="24" fill="#62a9c1"/><text class="num" x="43" y="49" text-anchor="middle">4</text><text class="ct" x="23" y="100">Reservorio</text><text class="b" x="23" y="140">aire · suelo · plataforma</text><text class="b" x="23" y="167">océano profundo</text><text class="loss" x="23" y="237">¿Local, regional</text><text class="loss" x="23" y="264">o global?</text></g>
+    <g transform="translate(1285 245)"><rect width="270" height="314" rx="24" fill="#262631" stroke="#665c76" stroke-width="2"/><circle cx="43" cy="42" r="24" fill="#9e87b6"/><text class="num" x="43" y="49" text-anchor="middle">5</text><text class="ct" x="23" y="100">Claim</text><text class="b" x="23" y="140">umbral · extensión</text><text class="b" x="23" y="167">cota · causa</text><text class="loss" x="23" y="237">¿Dice exactamente lo</text><text class="loss" x="23" y="264">que el proxy restringe?</text></g>
+  </g>
+  <g stroke="#68c7c0" stroke-width="4" marker-end="url(#a)"><path d="M315 402 H347"/><path d="M625 402 H657"/><path d="M935 402 H967"/><path d="M1245 402 H1277"/></g>
+
+  <g transform="translate(45 609)"><rect width="350" height="95" rx="22" fill="#33271f" stroke="#8f6b48" stroke-width="2"/><text class="branch" x="22" y="36">MEMORIA CRUSTAL</text><text class="foot" x="22" y="66">S antiguo redepositado ≠ aire contemporáneo</text></g>
+  <path d="M180 559 V600" stroke="#b77a45" stroke-width="4" marker-end="url(#a)"/>
+  <g transform="translate(425 609)"><rect width="350" height="95" rx="22" fill="#27302d" stroke="#667967" stroke-width="2"/><text class="branch" x="22" y="36">ALTERACIÓN</text><text class="foot" x="22" y="66">señal presente hoy ≠ señal deposicional</text></g>
+  <path d="M490 559 V600" stroke="#9bb15e" stroke-width="4" marker-end="url(#a)"/>
+  <g transform="translate(805 609)"><rect width="350" height="95" rx="22" fill="#1a2e37" stroke="#4b7081" stroke-width="2"/><text class="branch" x="22" y="36">HETEROGENEIDAD</text><text class="foot" x="22" y="66">plataforma oxigenada ≠ fondo global</text></g>
+  <path d="M1110 559 V600" stroke="#62a9c1" stroke-width="4" marker-end="url(#a)"/>
+  <g transform="translate(1185 609)"><rect width="370" height="95" rx="22" fill="#292633" stroke="#665c76" stroke-width="2"/><text class="branch" x="22" y="36">MODELO CUANTITATIVO</text><text class="foot" x="22" y="66">umbral o cota ≠ concentración observada</text></g>
+  <path d="M1420 559 V600" stroke="#9e87b6" stroke-width="4" marker-end="url(#a)"/>
+
+  <g filter="url(#sh)"><rect x="165" y="760" width="1270" height="88" rx="44" fill="url(#flow)"/><text class="rule" x="800" y="797" text-anchor="middle">CLAIM MÁXIMO: el aire cruzó un umbral durante una transición prolongada</text><text class="rule" x="800" y="829" text-anchor="middle">No: «todo el planeta alcanzó un porcentaje moderno en una fecha exacta»</text></g>
+  <text class="foot" x="800" y="884" text-anchor="middle">MUESTRA → SEÑAL → PROCESO → RESERVORIO → AFIRMACIÓN CALIBRADA</text>
+</svg>

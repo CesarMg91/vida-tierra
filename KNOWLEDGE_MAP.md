@@ -326,3 +326,20 @@ tilacoides en célula ─────────→ productor directo ~1.75 Ga 
 ```
 
 Véase `INV-ARCHEAN-PHOTOSYNTHESIS-001` en `04_arcaico`, su mapa en `assets/visuales/mapa-investigacion-014.svg` y la cadena en `assets/visuales/de-fototrofia-a-oxigenacion.svg`.
+
+La ruta específica de la Gran Oxidación es:
+
+```text
+S múltiple + fotoquímica ───→ umbral atmosférico cruzado ────────────┐
+U–Pb/Re–Os + testigos ──────→ intervalo y pulsos por cuenca ─────────┤
+procedencia de sulfuros ─────→ memoria crustal frente a aire ────────┤
+pirita + Mo/S + paleosuelos ─→ meteorización aún limitada ───────────┤
+V/Tl + Fe/Mo/U marinos ─────→ plataforma oxigenada / fondo anóxico ─┤
+diamictitas + modelos ───────→ acoplamiento clima–O₂ sin causa única ┘
+                                         ↓
+                 transición atmosférica ~2.45–2.32 Ga: B-COND
+                 plataformas oxigenadas hacia ~2.32 Ga: B-COND
+                 pO₂ exacto y disparador: D–E
+```
+
+Véase `INV-PROT-GOE-001` en `05_proterozoico`, su mapa en `assets/visuales/mapa-investigacion-015.svg` y la cadena en `assets/visuales/de-proxy-a-atmosfera.svg`.

@@ -70,6 +70,12 @@ Una controversia no implica empate. Registra qué parte está realmente abierta,
 | `CONT-PHOTO-BIOMARKER-001` | Hopanos/esteranos arcaicos | moléculas singenéticas de productores | entrada tardía y contaminación | récord clásico retirado | B para corrección |
 | `CONT-PHOTO-CLOCK-001` | Edad molecular de fotosíntesis oxigénica | raíz arcaica de PSII/cianobacterias | nodo, calibración y tasas variables | abierta | C-D |
 | `CONT-PHOTO-PRODUCTION-ACCUM-001` | Demora hasta el GOE | cambio de fuente/productividad | cambio de sumideros/retroalimentaciones | abierta | D para pesos/secuencia |
+| `CONT-GOE-DEFINITION-001` | Límite de la GOE | pérdida final de `S‑MIF` cerca de `2.32 Ga` | transición amplia con inicio/pulsos anteriores | abierta por definición/correlación | B-COND |
+| `CONT-GOE-SMIF-MEMORY-001` | `S‑MIF` tardío | oscilación atmosférica | reciclaje de sulfuro arcaico por cuenca | abierta por horizonte | C-D |
+| `CONT-GOE-LEVEL-001` | Amplitud de `pO₂` | nivel bajo apenas sobre umbrales | pulsos o cotas mucho más altas | abierta por órdenes de magnitud | D |
+| `CONT-GOE-OCEAN-001` | Extensión marina | plataformas someras oxigenadas | interior oceánico ampliamente anóxico | ambas por profundidad; volumen abierto | B-COND / C-D |
+| `CONT-GOE-GLACIATION-001` | Relación clima–oxígeno | `O₂` destruye `CH₄` y enfría | clima mueve fotoquímica, productividad y sumideros | dirección abierta | D |
+| `CONT-GOE-CAUSE-001` | Disparador de acumulación | aumento de fuente/enterramiento | reducción de sumideros y retroalimentaciones | multicausal; pesos abiertos | D-E |
 
 ## CONT-COSMOS-H0-001 — Dos rutas hacia la tasa actual
 
@@ -629,3 +635,45 @@ Relojes de D1/D2 y cianobacterias favorecen raíces arcaicas, pero una duplicaci
 La producción de `O₂` precede a su acumulación persistente. Compiten explicaciones basadas en productividad/nutrientes, enterramiento de carbono, estado redox volcánico, sumideros crustales, escape de H y retroalimentaciones atmosféricas.
 
 **Prueba discriminatoria:** series temporales que vinculen cambios independientes de fuentes y sumideros con proxies atmosféricos y oceánicos, evitando usar el GOE como causa y fecha a la vez.
+
+## CONT-GOE-DEFINITION-001 — ¿Frontera o intervalo?
+
+Una definición estrecha iguala la GOE con la pérdida final de `S‑MIF` grande cerca de `2.33–2.32 Ga`. Una definición sistémica incluye pérdidas iniciales, retornos, glaciaciones, meteorización y estabilización desde `~2.45 Ga` o antes.
+
+**Práctica adoptada:** `~2.45–2.32 Ga` es un intervalo operacional de transición principal; cada estudio conserva además la fecha del horizonte que realmente midió.
+
+**Prueba discriminatoria:** sucesiones continuas y datadas que alineen S, O, minerales detríticos y proxies marinos entre varios cratones sin depender de una sola correlación.
+
+## CONT-GOE-SMIF-MEMORY-001 — El aire y la cuenca pueden escribir la misma anomalía
+
+`S‑MIF` tardío puede indicar retorno atmosférico por debajo del umbral o erosión de sulfuros arcaicos que almacenaban la señal. Ambas rutas producen `Δ³³S ≠ 0` en un sedimento joven.
+
+**Prueba discriminatoria:** procedencia mineral/isotópica, edades de granos/fuentes, relación con facies de drenaje y proxies atmosféricos contemporáneos que no reciclen S.
+
+## CONT-GOE-LEVEL-001 — Cambio seguro, amplitud abierta
+
+S, O, pirita y V aportan cotas separadas por órdenes de magnitud. No pertenecen necesariamente a la misma edad, cuenca, reservorio ni calibración.
+
+**Familia baja:** `pO₂` apenas superó umbrales fotoquímicos y permaneció muy lejos de lo moderno durante largos intervalos.
+
+**Familia alta/pulsante:** episodios mucho más oxigenados coexistieron con mínimos o con proxies de otros reservorios.
+
+**Prueba discriminatoria:** dos o más paleobarómetros cuantitativos independientes y coetáneos, con respuestas distintas a ozono, meteorización y productividad.
+
+## CONT-GOE-OCEAN-001 — Una plataforma no llena el abismo
+
+V/Tl apoya fondos someros oxigenados tras `~2.32 Ga`; Fe y otros metales permiten un océano interior ampliamente ferruginoso o euxínico.
+
+**Prueba discriminatoria:** transectos coetáneos plataforma–talud–cuenca en varios océanos, con V/Tl, especiación de Fe y trazadores de circulación integrados.
+
+## CONT-GOE-GLACIATION-001 — El hielo es causa, efecto y filtro
+
+Más `O₂` puede destruir `CH₄` y enfriar. El clima también modifica humedad, fotoquímica, productividad y meteorización, moviendo proxies y balances de `O₂`.
+
+**Prueba discriminatoria:** cronologías que resuelvan el orden entre cambio de metano/ozono, inicio glacial, flujo volcánico y proxies de O, más modelos que predigan magnitudes sin ajustar el orden después.
+
+## CONT-GOE-CAUSE-001 — Muchas maneras de cambiar el balance
+
+Compiten aumento de productividad o enterramiento, reciclaje de fósforo, disminución de gases reductores, oxidación del manto, escape de H, crecimiento continental y umbrales fotoquímicos. Varias causas pueden actuar juntas y compartir los mismos proxies de salida.
+
+**Prueba discriminatoria:** presupuestos temporales independientes de fuentes y sumideros que reproduzcan simultáneamente S, C, metales, clima y duración, no sólo el cruce de un umbral.
