@@ -414,3 +414,21 @@ fósiles + estratigrafía ─────→ edades mínimas condicionadas ─�
 ```
 
 Véase `INV-LIFE-MULTI-001` en `10_evolucion_vida`, su mapa en `assets/visuales/mapa-investigacion-019.svg` y la cadena en `assets/visuales/de-celulas-a-individuo.svg`.
+
+La ruta específica de Snowball Earth es:
+
+```text
+facies + clastos + estrías ─────→ origen glacial local ───────────────┐
+U–Pb + Re–Os + estratigrafía ──→ edad y correlación entre cuencas ──┤
+paleomagnetismo ────────────────→ hielo depositado a baja latitud ───┤
+balance radiativo + GCM ────────→ familias hard/thin/waterbelt ─────┼─→ modelo Snowball delimitado
+carbonatos de capa + isótopos ─→ reorganización posglacial ─────────┤
+Fe/Ce/Mn + C/N + macrofósiles ─→ refugios locales habitables ───────┘
+                                  │
+                                  ├── dos episodios globales: B
+                                  ├── hielo tropical: B-COND
+                                  ├── océano totalmente sellado: D
+                                  └── causa evolutiva única: E
+```
+
+Véase `INV-PROT-SNOWBALL-001` en `05_proterozoico`, su mapa en `assets/visuales/mapa-investigacion-020.svg` y la cadena en `assets/visuales/de-diamictita-a-snowball.svg`.

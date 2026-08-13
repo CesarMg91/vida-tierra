@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Cadena desde diamictita hasta Snowball Earth</title>
+  <desc id="desc">Ocho puertas separan el objeto sedimentario de una inferencia sobre glaciación tropical global y estado oceánico.</desc>
+  <defs>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="150%"><feDropShadow dx="0" dy="8" stdDeviation="5" flood-color="#020911" flood-opacity="0.7"/></filter>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0 0 10 5 0 10z" fill="#adc8da"/></marker>
+    <linearGradient id="bar" x1="0" x2="1"><stop offset="0" stop-color="#52c6d4"/><stop offset="0.48" stop-color="#9b94e8"/><stop offset="1" stop-color="#f2a35d"/></linearGradient>
+    <style>.bg{fill:#071a27}.title{font:700 42px Georgia,serif;fill:#f3f6f8}.sub{font:18px Arial,sans-serif;fill:#afc0cb}.box{stroke-width:2}.label{font:700 16px Arial,sans-serif;fill:#f4f7f8}.small{font:13px Consolas,monospace;fill:#c2cdd5}.head{font:700 23px Georgia,serif;fill:#f1f4f6}.gate{font:700 18px Georgia,serif;fill:#ffd0bc}.foot{font:14px Consolas,monospace;fill:#aebfca}.line{stroke:#adc8da;stroke-width:5;marker-end:url(#arrow)}</style>
+  </defs>
+  <rect class="bg" width="1600" height="900"/>
+  <text class="title" x="64" y="66">De una diamictita a un planeta casi congelado</text>
+  <text class="sub" x="64" y="101">La cadena es inferencial: cada caja responde otra pregunta y puede fallar por separado.</text>
+  <rect x="64" y="138" width="1472" height="10" rx="5" fill="url(#bar)"/>
+
+  <g filter="url(#shadow)">
+    <rect class="box" x="53" y="198" width="164" height="148" rx="19" fill="#164c59" stroke="#4cc5d4"/>
+    <rect class="box" x="247" y="198" width="164" height="148" rx="19" fill="#1d5265" stroke="#71bddc"/>
+    <rect class="box" x="441" y="198" width="164" height="148" rx="19" fill="#34486c" stroke="#8fa7df"/>
+    <rect class="box" x="635" y="198" width="164" height="148" rx="19" fill="#4a3e68" stroke="#b58ee0"/>
+    <rect class="box" x="829" y="198" width="164" height="148" rx="19" fill="#5e3f62" stroke="#d48fc8"/>
+    <rect class="box" x="1023" y="198" width="164" height="148" rx="19" fill="#704153" stroke="#e27e9c"/>
+    <rect class="box" x="1217" y="198" width="164" height="148" rx="19" fill="#714c36" stroke="#e59c67"/>
+    <rect class="box" x="1411" y="198" width="136" height="148" rx="19" fill="#75502e" stroke="#f0a45f"/>
+  </g>
+  <g>
+    <text class="label" x="78" y="239">Objeto</text><text class="small" x="78" y="278">diamictita</text><text class="small" x="78" y="306">y clastos</text>
+    <text class="label" x="272" y="239">Proceso</text><text class="small" x="272" y="278">hielo, no</text><text class="small" x="272" y="306">flujo</text>
+    <text class="label" x="466" y="239">Edad</text><text class="small" x="466" y="278">capa y</text><text class="small" x="466" y="306">posición</text>
+    <text class="label" x="660" y="239">Correlación</text><text class="small" x="660" y="278">mismo</text><text class="small" x="660" y="306">episodio</text>
+    <text class="label" x="854" y="239">Latitud</text><text class="small" x="854" y="278">remanencia</text><text class="small" x="854" y="306">primaria</text>
+    <text class="label" x="1048" y="239">Escala</text><text class="small" x="1048" y="278">varios</text><text class="small" x="1048" y="306">cratones</text>
+    <text class="label" x="1242" y="239">Clima</text><text class="small" x="1242" y="278">hielo–</text><text class="small" x="1242" y="306">albedo</text>
+    <text class="label" x="1434" y="239">Océano</text><text class="small" x="1434" y="278">hard, thin</text><text class="small" x="1434" y="306">o abierto</text>
+  </g>
+  <g class="line"><line x1="217" y1="272" x2="239" y2="272"/><line x1="411" y1="272" x2="433" y2="272"/><line x1="605" y1="272" x2="627" y2="272"/><line x1="799" y1="272" x2="821" y2="272"/><line x1="993" y1="272" x2="1015" y2="272"/><line x1="1187" y1="272" x2="1209" y2="272"/><line x1="1381" y1="272" x2="1403" y2="272"/></g>
+
+  <text class="head" x="64" y="418">Puertas de auditoría</text>
+  <g filter="url(#shadow)">
+    <rect x="64" y="449" width="340" height="122" rx="19" fill="#3e303b" stroke="#e47d98" stroke-width="2"/>
+    <rect x="430" y="449" width="340" height="122" rx="19" fill="#3e303b" stroke="#e47d98" stroke-width="2"/>
+    <rect x="796" y="449" width="340" height="122" rx="19" fill="#3e303b" stroke="#e47d98" stroke-width="2"/>
+    <rect x="1162" y="449" width="374" height="122" rx="19" fill="#3e303b" stroke="#e47d98" stroke-width="2"/>
+  </g>
+  <text class="gate" x="90" y="490">Diamictita ≠ glaciar</text><text class="small" x="90" y="526">facies y deformación deciden</text><text class="small" x="90" y="550">el agente deposicional</text>
+  <text class="gate" x="456" y="490">Edad ≠ inicio mundial</text><text class="small" x="456" y="526">ceniza acota una capa, no</text><text class="small" x="456" y="550">todos los avances de hielo</text>
+  <text class="gate" x="822" y="490">Latitud ≠ cobertura</text><text class="small" x="822" y="526">hielo tropical no observa</text><text class="small" x="822" y="550">cada superficie oceánica</text>
+  <text class="gate" x="1188" y="490">Modelo ≠ fotografía</text><text class="small" x="1188" y="526">parámetros permiten estados</text><text class="small" x="1188" y="550">rivales y fases cambiantes</text>
+
+  <g filter="url(#shadow)"><rect x="64" y="632" width="716" height="155" rx="21" fill="#174d58" stroke="#4cc5d4" stroke-width="2"/><rect x="820" y="632" width="716" height="155" rx="21" fill="#554238" stroke="#f0a45f" stroke-width="2"/></g>
+  <text class="head" x="92" y="675">Lo que converge</text>
+  <text class="small" x="92" y="713">• glaciación local probada en paquetes de facies</text><text class="small" x="92" y="744">• dos intervalos sincronizados con U–Pb y Re–Os</text><text class="small" x="92" y="775">• hielo continental/marino en paleotrópicos</text>
+  <text class="head" x="850" y="675">Resultado delimitado</text>
+  <text class="small" x="850" y="713">Alcance casi global y estado de albedo alto: B-COND.</text><text class="small" x="850" y="744">Océano sellado, continuidad y causas exactas: D–E.</text><text class="small" x="850" y="775">Dos Snowballs no significan dos climas idénticos.</text>
+  <text class="foot" x="800" y="850" text-anchor="middle">La confianza no aumenta por saltar cajas: hereda la puerta más débil.</text>
+</svg>

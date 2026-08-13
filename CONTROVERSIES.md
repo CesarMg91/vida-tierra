@@ -106,6 +106,15 @@ Una controversia no implica empate. Registra qué parte está realmente abierta,
 | `CONT-MULTI-OXYGEN-001` | Papel del oxígeno | capacidad energética y ecología oxigenada pudieron facilitar tamaño/complejidad en ciertos clados | rutas anaerobias y resultados experimentales muestran que no es interruptor universal | contexto causal abierto | D para disparador único |
 | `CONT-MULTI-FRANCEVILLE-001` | Organismalidad de Franceville | estructuras biogénicas con crecimiento colonial coordinado a ~2.1 Ga | procesos sedimentarios/diagenéticos y menor integración biológica | abierta | C-D para biogenicidad; D-E para afinidad |
 | `CONT-MULTI-FOSSIL-AFFINITY-001` | Afinidad de fósiles mesoproterozoicos | *Qingshania*, *Rafatazmia* y otros registran multicelularidad eucariota temprana | convergencia morfológica y posición tallo/corona menos específica | mínimos condicionados | B-C para células; C-D para afinidad fina |
+| `CONT-SNOWBALL-DEFINITION-001` | ¿Qué significa «globalmente congelada»? | hielo tropical y estado de albedo alto casi global | exigir hielo oceánico grueso, opaco y continuo | abierta por nivel | B-COND casi global; D hard |
+| `CONT-SNOWBALL-PALEOMAG-001` | Paleolatitud de unidades glaciales | componentes primarios y campo axial-dipolar sitúan hielo en trópicos | remagnetización, compactación o campo/oblicuidad no estándar | resuelta por sitio, abierta en algunos | B por conjunto |
+| `CONT-SNOWBALL-HARD-SLUSH-001` | Hard Snowball frente a agua abierta | océano mayormente cubierto con refugios restringidos | thin ice, waterbelt, slushball o Jormungand | abierta en geometría/fase | D para fracción global |
+| `CONT-SNOWBALL-STURTIAN-CONTINUITY-001` | ¿Sturtiana continua durante ~56 Myr? | Snowball prolongado con hielo dinámico | ciclos repetidos Snowball–invernadero propuestos en 2026 | reabierta | B-COND intervalo; D-PROV continuidad/ciclos |
+| `CONT-SNOWBALL-INIT-001` | Disparador de entrada | meteorización de Franklin/ruptura tropical cruza hielo–albedo | gases, paleogeografía y otros forzamientos combinados | abierta | B física; C-D historia |
+| `CONT-SNOWBALL-EXIT-001` | Umbral de deglaciación | acumulación volcánica de `CO₂` reduce estabilidad del hielo | nubes, polvo, presión, agua abierta y meteorización cambian ruta/umbral | abierta cuantitativamente | B-COND participación; D umbral |
+| `CONT-SNOWBALL-CAPS-001` | Formación de carbonatos de capa | invernadero posglacial, meteorización y transgresión | modelo multietapa con fondo marino, agua dulce y tiempos regionales | abierta en mezcla/tiempo | B cambio; D mecanismo único |
+| `CONT-SNOWBALL-LIFE-001` | Refugios durante el hielo | oásis subglaciales/supraglaciales y agua abierta local | cinturones extensos, hielo fino u otros refugios | abierta en distribución | B-COND existencia; D área |
+| `CONT-SNOWBALL-EVOLUTION-001` | Relación con evolución ediacárica | deshielo alteró nutrientes, redox y nichos | tendencias independientes o múltiples causas dominaron | abierta | C mecanismos; E causa única |
 
 ## CONT-COSMOS-H0-001 — Dos rutas hacia la tasa actual
 
@@ -887,3 +896,57 @@ Las estructuras de Franceville poseen morfología y distribución compatibles co
 Filamentos compartimentados como *Qingshania* y fósiles tridimensionales como *Rafatazmia* apoyan eucariotas multicelulares mesoproterozoicos. Asignarlos a coronas modernas exige más que tamaño, ramificación o tabiques convergentes.
 
 **Prueba discriminatoria:** poblaciones con ontogenia conectada, ultraestructura diagnóstica, química orgánica, matrices morfológicas explícitas y edades estratigráficas replicadas.
+
+## CONT-SNOWBALL-DEFINITION-001 — Global no es una sola geometría
+
+Hielo continental y marino llegó a paleotrópicos durante dos episodios correlacionados. Eso apoya un estado planetario extremo, pero no observa cada superficie oceánica ni exige hielo grueso continuo.
+
+**Prueba discriminatoria:** reconstrucciones fechadas de facies, paleolatitud y proxies de intercambio aire–océano capaces de medir área abierta por fase, no sólo presencia de hielo.
+
+## CONT-SNOWBALL-PALEOMAG-001 — Una inclinación debe sobrevivir a su historia
+
+Desmagnetización, pruebas de pliegue/reversión y portadores apoyan paleolatitudes bajas en pilares criogénicos. Algunas unidades fueron remagnetizadas o compactadas; un campo exótico podría alterar la conversión, aunque evaporitas lo debilitan.
+
+**Prueba discriminatoria:** polos coetáneos independientes en rocas ígneas y sedimentarias, corrección de compactación y pruebas de primariedad positivas en múltiples bloques.
+
+## CONT-SNOWBALL-HARD-SLUSH-001 — El océano es la parte menos observada
+
+Hard Snowball, thin ice, waterbelt y Jormungand comparten hielo tropical pero difieren en luz, circulación y área abierta. Refugios fósiles prueban heterogeneidad local; no el mapa global.
+
+**Prueba discriminatoria:** proxies de intercambio, productividad y temperatura con resolución temporal y latitudinal suficiente para excluir áreas abiertas extensas o hielo continuo.
+
+## CONT-SNOWBALL-STURTIAN-CONTINUITY-001 — Cincuenta y seis millones de años bajo examen
+
+El intervalo Sturtiano está bien acotado, pero un Snowball canónico tendería a acumular gases y salir antes. Variabilidad orbital, meteorización persistente y ciclos nieve–invernadero ofrecen resoluciones distintas.
+
+**Prueba discriminatoria:** secciones continuas, datadas, que conecten facies glaciales/no glaciales entre cuencas y midan si los cambios fueron globales, orbitales o locales.
+
+## CONT-SNOWBALL-INIT-001 — Franklin precede, pero no firma una confesión
+
+La LIP Franklin antecede al inicio Sturtiano y sus basaltos tropicales pudieron consumir `CO₂`. Ruptura, escorrentía, paleogeografía, Sol y gases iniciales comparten el umbral; la Marinoana carece de una réplica causal simple.
+
+**Prueba discriminatoria:** edades más precisas de alteración/erosión, flujos de meteorización y modelos que predigan ambos episodios sin ajustar causas distintas después del hecho.
+
+## CONT-SNOWBALL-EXIT-001 — El gas no fija solo el termostato
+
+Desgasificación volcánica aporta `CO₂`, pero el umbral de fusión cambia por nubes, albedo de nieve/hielo, polvo, presión y circulación. Proxies de `pCO₂` posglacial producen lecturas incompatibles.
+
+**Prueba discriminatoria:** proxy atmosférico independiente y replicado, flujos de carbono acotados y modelos intercomparados con física de nubes/hielo que converjan en una ventana.
+
+## CONT-SNOWBALL-CAPS-001 — Una capa, varios reservorios
+
+Los caps registran cambio posglacial y transgresión. Su masa puede combinar alcalinidad del fondo marino sin-glacial, meteorización continental y mezcla con agua de fusión; reversiones y facies complican una duración universal.
+
+**Prueba discriminatoria:** trazadores múltiples de agua/alkalinidad, edades internas, magnetoestratigrafía y balances de masa que separen etapas por cuenca.
+
+## CONT-SNOWBALL-LIFE-001 — Sobrevivir no dibuja el refugio
+
+Macroalgas, N y gradientes de Fe/Ce prueban hábitats y producción locales. Leads, hielo fino, cryoconita, agua de fusión y quimiosíntesis pueden coexistir o dominar en fases diferentes.
+
+**Prueba discriminatoria:** fósiles y biomarcadores sin-glaciales en transectos paleolatitudinales, ligados a facies y redox, que cuantifiquen continuidad y extensión.
+
+## CONT-SNOWBALL-EVOLUTION-001 — Después no significa debido a
+
+Deshielo, erosión y mezcla pudieron fertilizar océanos y abrir nichos; animales y otros eucariotas también poseen raíces anteriores y responden a oxígeno, ecología y preservación.
+
+**Prueba discriminatoria:** cronologías biológicas y ambientales de alta resolución con predicciones exclusivas que distingan pulso de deshielo de tendencias tectónicas/redox independientes.

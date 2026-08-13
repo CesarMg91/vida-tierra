@@ -61,6 +61,7 @@ La fase fundacional contiene:
 - la decimoséptima investigación: [`¿Cómo inferimos el origen de eucariotas y la endosimbiosis mitocondrial?`](10_evolucion_vida/INVESTIGACION_017_EUCARIOGENESIS.md);
 - la decimoctava investigación: [`¿Cómo inferimos el origen y la función evolutiva del sexo?`](10_evolucion_vida/INVESTIGACION_018_SEXO.md);
 - la decimonovena investigación: [`¿Cuántas veces surgió la multicelularidad y cuándo un grupo se volvió individuo?`](10_evolucion_vida/INVESTIGACION_019_MULTICELULARIDAD.md);
+- la vigésima investigación: [`¿Estuvo la Tierra globalmente congelada durante el Criogénico?`](05_proterozoico/INVESTIGACION_020_SNOWBALL_EARTH.md);
 - un [`ATLAS_VISUAL.md`](ATLAS_VISUAL.md) con procedencia y límites explícitos.
 
 “Preliminar” significa que la cronología organiza el programa de trabajo; no convierte automáticamente cada fecha en una conclusión cerrada. Los estados de auditoría muestran qué ha sido investigado en profundidad y qué sigue pendiente.
