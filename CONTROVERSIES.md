@@ -2781,3 +2781,57 @@ Armas, caballos y recurrencia bajo la edad revisada de `~200 ka` favorecen estra
 Enseñanza mejora transmisión en humanos actuales, pero técnicas tempranas y forma general de bifaz pueden reaparecer sin copia directa. Compatibilidad con cultura no demuestra necesidad de una vía específica.
 
 **Prueba discriminatoria:** experimentos preregistrados que separen producto, proceso y saber hacer, más predicciones arqueológicas sobre variación, error y continuidad que distingan copia de reinvención.
+
+## Registro tabular de la Investigación 048
+
+| ID | Núcleo del desacuerdo | Observación compartida | Alternativas principales | Estado |
+|---|---|---|---|---|
+| `CONT-LANGUAGE-SINGLE-ORIGIN-001` | fecha/población única o integración mosaica | los archivos fechan componentes diferentes | salto biológico, umbral cultural, coevolución gradual, emergencias múltiples | ABIERTA |
+| `CONT-NEANDERTHAL-LANGUAGE-001` | alcance lingüístico neandertal | hioides y oído compatibles; genes compartidos | habla eficiente con lenguaje, comunicación vocal compleja no equivalente, sistema distinto | ABIERTA |
+| `CONT-ENDOCAST-BREATHING-001` | valor funcional de endocasto y canal torácico | forma superficial y dimensiones óseas medibles | proxies de control lingüístico, organización motora general, alometría/funciones alternativas | ABIERTA |
+| `CONT-FOXP2-EVOLUTION-001` | historia selectiva y peso de `FOXP2` | causalidad clínica y función sensorimotora | selección antigua, regulación distribuida, demografía sin barrido reciente | REVISADA/ABIERTA |
+| `CONT-ANIMAL-COMPOSITION-001` | componentes homólogos o categorías impuestas | turnos, contexto y combinaciones observados | continuidad parcial, convergencia, repertorios cerrados sin sintaxis humana | ABIERTA |
+| `CONT-LANGUAGE-GRADUAL-EMERGENT-001` | gradualidad biológica o emergencia de sistema | componentes y transmisión tienen escalas distintas | acumulación lenta, umbral interactivo, múltiples transiciones | ABIERTA |
+| `CONT-DEEP-LANGUAGE-TREE-001` | alcance temporal de filogenias lingüísticas | familias históricas pueden modelarse | señal profunda recuperable, erosión/préstamo no identificables, árboles/redes | ABIERTA |
+
+## CONT-LANGUAGE-SINGLE-ORIGIN-001 — Una fecha o un mosaico
+
+No hay archivo que mida a la vez fonación, percepción, semántica, sintaxis, pragmática y transmisión. Una innovación rápida sigue siendo posible como modelo, pero no está fechada por sumar mínimos anatómicos o arqueológicos.
+
+**Prueba discriminatoria:** un proxy específico de integración lingüística, calibrado en actuales y recuperado en contexto fósil independiente; o un modelo que prediga conjuntamente anatomía, genética y conducta sin ajustar cada archivo por separado.
+
+## CONT-NEANDERTHAL-LANGUAGE-001 — Compatibilidad anatómica y sistema
+
+Kebara, Sima, audición modelada y estados de `FOXP2` debilitan una incapacidad simple. Ninguno preserva conversación, productividad o gramática. «Podían hablar» y «usaban una lengua equivalente» tienen evidencias distintas.
+
+**Prueba discriminatoria:** convergencia de proxies funcionales que excluyan comunicación vocal no lingüística, más predicciones arqueológicas de convención/transmisión que no dependan de circularidad taxonómica.
+
+## CONT-ENDOCAST-BREATHING-001 — Superficie e inervación como proxies
+
+Endocastos y canales vertebrales son objetos directos; su función es inferida. Asimetrías aparecen fuera de humanos y el canal puede responder a tamaño o funciones motoras/respiratorias no lingüísticas.
+
+**Prueba discriminatoria:** series actuales con anatomía, histología, conectividad y desempeño funcional; sensibilidad a alometría, sexo, preservación y reconstrucción; predicción ciega sobre comparadores.
+
+## CONT-FOXP2-EVOLUTION-001 — Barrido, regulación y red
+
+El barrido reciente propuesto en 2002 no se recuperó en 2018 con muestreo global. Variantes proteicas compartidas y candidatos regulatorios tienen cronologías diferentes. La función de `FOXP2` es real; su peso histórico no se resume en una mutación.
+
+**Prueba discriminatoria:** cohortes diversas, regulación específica de tejido/desarrollo, modelos demográficos y edición causal de variantes con fenotipos lingüísticos delimitados, no puntuaciones globales.
+
+## CONT-ANIMAL-COMPOSITION-001 — Combinación y composicionalidad
+
+Cachalotes y bonobos producen estructura que supera repertorios simples. El desacuerdo concierne significado, regla productiva, generalización y equivalencia con sintaxis/composicionalidad humana.
+
+**Prueba discriminatoria:** predicciones semánticas preregistradas, generalización a combinaciones nuevas, experimentos de recepción y réplica en grupos/contextos independientes.
+
+## CONT-LANGUAGE-GRADUAL-EMERGENT-001 — Rasgos graduales, sistema emergente
+
+Anatomía y redes pueden cambiar gradualmente, mientras convenciones y gramática pueden estructurarse en pocas generaciones. «Gradual» y «repentino» pueden describir niveles distintos en vez de hipótesis rivales.
+
+**Prueba discriminatoria:** modelos multiescala que separen cambio biológico, aprendizaje individual, dinámica poblacional y transmisión; predicciones sobre velocidad y dependencia de cada nivel.
+
+## CONT-DEEP-LANGUAGE-TREE-001 — Árbol familiar y origen profundo
+
+Modelos bayesianos hacen explícitos datos y calibraciones dentro de familias. Con profundidad aumentan pérdida de cognados, préstamo, tasas variables y alternativas reticulares. Una raíz familiar no calibra el primer sistema lingüístico.
+
+**Prueba discriminatoria:** recuperación estable de parentescos y fechas antiguas en simulaciones y controles históricos ocultos, robusta a préstamo, codificación, priors y topologías de red.

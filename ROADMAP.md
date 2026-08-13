@@ -109,7 +109,7 @@ En cada periodo se auditarán primero sus límites cronoestratigráficos y despu
 | 045 | `INV-MIGR-EUROPE-001` | [¿Cuándo llegó sapiens a Europa y qué significa coexistir con neandertales?](13_migraciones/INVESTIGACION_045_LLEGADA_EUROPA_COEXISTENCIA_NEANDERTALES.md) — **AUDITADO** |
 | 046 | `INV-MIGR-AMERICAS-001` | [¿Cuándo y por qué rutas se poblaron las Américas?](13_migraciones/INVESTIGACION_046_POBLAMIENTO_AMERICAS.md) — **AUDITADO** |
 | 047 | `INV-MIND-TOOLS-FIRE-001` | [¿Qué observamos realmente sobre herramientas, fuego y cooperación, y qué conductas podemos inferir?](11_evolucion_humana/INVESTIGACION_047_HERRAMIENTAS_FUEGO_COOPERACION.md) — **AUDITADO** |
-| 048 | `INV-MIND-LANGUAGE-001` | ¿cuándo apareció lenguaje y qué huellas puede dejar? |
+| 048 | `INV-MIND-LANGUAGE-001` | [¿Cuándo apareció el lenguaje y qué huellas puede dejar?](11_evolucion_humana/INVESTIGACION_048_ORIGEN_LENGUAJE.md) — **AUDITADO** |
 | 049 | `INV-MIND-SYMBOL-001` | entierros, arte, música, ritual y símbolos |
 | 050 | `INV-NEOLITHIC-001` | agriculturas y domesticaciones múltiples |
 | 051 | `INV-CITIES-STATES-001` | aldeas, especialización, jerarquías, ciudades y estados |
@@ -123,7 +123,7 @@ Esta línea abre un marco comparativo antes de que la secuencia global alcance `
 |---:|---|---|---|
 | CIV-001 | `INV-CIV-ORIGINS-001` | [sedentarismo, almacenamiento, domesticaciones, urbanismo, administración y autoridad en carriles regionales](14_civilizaciones/INVESTIGACION_CIV_001_ORIGENES_ALDEAS_CIUDADES_ESTADOS.md) | **TRAZADO** |
 
-El marco crítico y el programa regional están en [`14_civilizaciones/MARCO_CRITICO_CIVILIZACION.md`](14_civilizaciones/MARCO_CRITICO_CIVILIZACION.md) y [`14_civilizaciones/PROGRAMA_CRONOLOGICO_GLOBAL.md`](14_civilizaciones/PROGRAMA_CRONOLOGICO_GLOBAL.md). La próxima investigación de la secuencia global es `INV-MIND-LANGUAGE-001`.
+El marco crítico y el programa regional están en [`14_civilizaciones/MARCO_CRITICO_CIVILIZACION.md`](14_civilizaciones/MARCO_CRITICO_CIVILIZACION.md) y [`14_civilizaciones/PROGRAMA_CRONOLOGICO_GLOBAL.md`](14_civilizaciones/PROGRAMA_CRONOLOGICO_GLOBAL.md). La siguiente entrada global es `INV-MIND-SYMBOL-001`, pendiente de revisión/fusión de la 048 y asignación formal; no se inicia aquí.
 
 ## Fase 7 — Ramas transversales
 
@@ -196,6 +196,7 @@ Después de disponer de la secuencia base:
 - `v0.1.44`: Investigación 045 + historia de la sustitución lineal al mosaico regional + mapas de cadenas y cronología multiarquivo, actualizados con Bacho Kiro, Ranis, Mandrin, calendarios regionales y diversidad neandertal de 2026.
 - `v0.1.45`: Investigación 046 + historia de Clovis-first a una cronología multiarquivo + mapas de filtros y carriles, actualizados con White Sands 2025, Monte Verde y diversidad/genómica indígena de 2026.
 - `v0.1.46`: Investigación 047 + historia de la herramienta-signo a cadenas de inferencia + mapas de objetos, peldaños térmicos y grados de cooperación, actualizados con transporte Oldowan y útiles óseos de 2025, Barnham, tafonomía abierta y experimentos de transmisión de 2026.
+- `v0.1.47`: Investigación 048 + historia del órgano/gen decisivo al mosaico biocultural + mapa de cuatro archivos y cronología multirreloj, actualizados con regulación de 2026, composición animal y transmisión observada.
 - `v0.2`: Hadeano/Arcaico auditados.
 - `v0.3`: Proterozoico y origen/temprana evolución de la vida.
 - `v0.4`: Fanerozoico completo.

@@ -3621,6 +3621,74 @@ Describir primero objetos, episodios y necesidad multiagente; etiquetar las reco
 
 Experimentos actuales distinguen eficacia de enseñanza y necesidad de copia. «Modernidad» agrupa rasgos no coemergentes.
 
+## Registro tabular de la Investigación 048
+
+| ID | Formulación errónea | Fusión indebida | Corrección | Estado |
+|---|---|---|---|---|
+| `ERR-LANGUAGE-SINGLE-DATE-001` | «el lenguaje apareció en X fecha» | componentes y relojes distintos convertidos en evento | nombrar componente, archivo, escala y puente | DOCUMENTADO |
+| `ERR-HYOID-GRAMMAR-001` | hioides humano = habla/gramática humana | capacidad ósea convertida en conducta/sistema | limitar a morfología y biomecánica compatibles | DOCUMENTADO |
+| `ERR-ENDOCAST-BROCA-LANGUAGE-001` | casquete de Broca = área funcional = lenguaje | superficie, citoarquitectura y actividad fundidas | registrar resolución y alternativas | DOCUMENTADO |
+| `ERR-FOXP2-LANGUAGE-GENE-001` | `FOXP2` es «el gen del lenguaje» | necesidad parcial convertida en suficiencia exclusiva | tratar variante, red, pleiotropía y fenotipo | DOCUMENTADO |
+| `ERR-FOXP2-INTROGRESSION-PACKAGE-001` | neandertales transmitieron/recibieron el lenguaje por `FOXP2` | estado compartido, introgresión y conducta fundidos | contrastar herencia ancestral y flujo; no paquete | DOCUMENTADO |
+| `ERR-ANIMAL-LANGUAGE-LADDER-001` | ave/mono/cetáceo representa una etapa del lenguaje | analogía actual convertida en ancestro | comparar componentes sin escalera | DOCUMENTADO |
+| `ERR-SIGN-LANGUAGE-PRIMITIVE-001` | lengua de señas emergente = lenguaje primitivo | modalidad/juventud histórica confundidas con simplicidad biológica | tratarla como lengua humana plena en formación histórica | DOCUMENTADO |
+| `ERR-TOOL-SYMBOL-LANGUAGE-CLOCK-001` | herramienta o símbolo fecha lenguaje | compatibilidad/eficacia convertida en necesidad | probar vías alternativas y predicciones exclusivas | DOCUMENTADO |
+| `ERR-GLOTTOCHRONOLOGY-ORIGIN-001` | extrapolar un reloj léxico hasta la primera lengua | raíz familiar convertida en origen biocultural | declarar horizonte de señal, préstamo y calibración | DOCUMENTADO |
+
+## ERR-LANGUAGE-SINGLE-DATE-001 — Promediar huellas hasta obtener un cumpleaños
+
+La edad de un hioides, una variante, un artefacto y una familia no mide la misma variable. Solaparlas sólo construye una ventana de compatibilidad.
+
+**Corrección:** publicar por separado objeto, componente, reloj, escala e inferencia; conservar «no identificado» cuando falta un proxy de integración.
+
+## ERR-HYOID-GRAMMAR-001 — Un hueso conserva una conversación
+
+El hioides participa en el aparato fonatorio, pero no preserva músculos, control neural, aprendizaje, semántica o sintaxis.
+
+**Corrección:** decir «morfología/biomecánica compatible con producción vocal humana» y enumerar lo no conservado.
+
+## ERR-ENDOCAST-BROCA-LANGUAGE-001 — Leer lenguaje en una superficie endocraneal
+
+Un endocasto puede registrar relieve y asimetría. No reproduce límites histológicos de áreas, conexiones o activación funcional.
+
+**Corrección:** separar molde, reconstrucción, atlas comparador, función propuesta y conducta.
+
+## ERR-FOXP2-LANGUAGE-GENE-001 — Una red reducida a una etiqueta
+
+La causalidad de variantes patógenas no convierte `FOXP2` en suficiente para lenguaje. Sus efectos motores, de desarrollo y en otros taxones muestran pleiotropía.
+
+**Corrección:** nombrar variante, tejido/etapa, fenotipo, comparador y genes/redes asociados; prohibir «gen del lenguaje» salvo para criticar el eslogan.
+
+## ERR-FOXP2-INTROGRESSION-PACKAGE-001 — Estado compartido = introgresión lingüística
+
+Las sustituciones proteicas relevantes anteceden la separación sapiens–neandertal según los datos disponibles. Incluso una variante introgresada no transportaría un sistema cultural completo.
+
+**Corrección:** modelar herencia ancestral, flujo y selección; separar locus de fonología, léxico, pragmática y sintaxis.
+
+## ERR-ANIMAL-LANGUAGE-LADDER-001 — Construir un ancestro con especies actuales
+
+Turnos de marmoseta, canto de pinzón y codas de cachalote pueden ser comparables en componentes distintos. No forman una serie temporal ni un paquete ancestral.
+
+**Corrección:** operacionalizar una propiedad por estudio y decidir homología, convergencia o analogía sin jerarquía.
+
+## ERR-SIGN-LANGUAGE-PRIMITIVE-001 — Confundir modalidad con etapa inferior
+
+Una lengua de señas no es habla incompleta. Lenguas emergentes documentan historia comunitaria reciente dentro de capacidades humanas actuales.
+
+**Corrección:** describir cohortes, estructuras y entorno de contacto; evitar «primitiva» o «fósil viviente».
+
+## ERR-TOOL-SYMBOL-LANGUAGE-CLOCK-001 — Un producto durable sustituye una facultad
+
+Lenguaje puede mejorar transmisión o sostener convenciones, pero resultados similares pueden surgir por observación, gesto, reinvención o aprendizaje no verbal.
+
+**Corrección:** probar necesidad/suficiencia y no fechar lenguaje a partir de compatibilidad.
+
+## ERR-GLOTTOCHRONOLOGY-ORIGIN-001 — Extrapolar más allá de la señal
+
+Las tasas cambian, los cognados se erosionan y el préstamo vuelve reticulada la historia. Un modelo familiar de miles de años no identifica una raíz universal de cientos de miles.
+
+**Corrección:** análisis de sensibilidad, calibraciones independientes, redes de contacto y límite explícito de profundidad.
+
 ### Corrección
 
 Evaluar cada capacidad con predicciones propias y no usar un producto técnico como proxy universal de mente.

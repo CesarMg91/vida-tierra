@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Cronología multirreloj de los archivos relacionados con el lenguaje</title>
+  <desc id="desc">Cuatro paneles con escalas independientes separan edades de fósiles, estados y estudios genéticos, observaciones culturales y comparadas, y diversificación histórica. Ninguna marca representa el nacimiento del lenguaje.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#09131e"/><stop offset="1" stop-color="#16283a"/></linearGradient>
+    <style>.h1{font:700 40px system-ui,Segoe UI,sans-serif;fill:#f3eee4}.sub{font:19px system-ui,Segoe UI,sans-serif;fill:#afc0cc}.panel{fill:#132435;stroke:#31506a;stroke-width:2}.head{font:700 22px system-ui,Segoe UI,sans-serif;fill:#f1eee7}.body{font:16px system-ui,Segoe UI,sans-serif;fill:#d3dde2}.small{font:14px system-ui,Segoe UI,sans-serif;fill:#a9bbc7}.date{font:700 16px system-ui,Segoe UI,sans-serif;fill:#f2d9a7}.axis{stroke:#6f91a7;stroke-width:3}.tick{stroke:#6f91a7;stroke-width:2}.note{font:700 16px system-ui,Segoe UI,sans-serif;fill:#f0afa2}</style>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <text x="70" y="68" class="h1">Cuatro relojes que no deben fundirse</text>
+  <text x="70" y="104" class="sub">Edad del archivo ≠ aparición del componente ≠ emergencia del sistema ≠ origen del lenguaje</text>
+
+  <rect class="panel" x="60" y="142" width="1480" height="162" rx="20"/>
+  <text x="90" y="180" class="head">A · FÓSILES Y CONTEXTOS — escala profunda (logarítmica/esquemática)</text>
+  <line x1="270" y1="242" x2="1450" y2="242" class="axis"/>
+  <g class="tick"><line x1="300" y1="230" x2="300" y2="254"/><line x1="705" y1="230" x2="705" y2="254"/><line x1="1055" y1="230" x2="1055" y2="254"/><line x1="1380" y1="230" x2="1380" y2="254"/></g>
+  <text x="300" y="276" text-anchor="middle" class="small">1.9 Ma</text><text x="705" y="276" text-anchor="middle" class="small">~1.5 Ma</text><text x="1055" y="276" text-anchor="middle" class="small">~430 ka</text><text x="1380" y="276" text-anchor="middle" class="small">~60 ka</text>
+  <circle cx="300" cy="242" r="10" fill="#a78ab1"/><text x="300" y="216" text-anchor="middle" class="date">KNM-ER 3732</text>
+  <circle cx="705" cy="242" r="10" fill="#a78ab1"/><text x="705" y="216" text-anchor="middle" class="date">organización más derivada</text>
+  <circle cx="1055" cy="242" r="10" fill="#d6bc87"/><text x="1055" y="216" text-anchor="middle" class="date">hioides de Sima</text>
+  <circle cx="1380" cy="242" r="10" fill="#d6bc87"/><text x="1380" y="216" text-anchor="middle" class="date">Kebara 2</text>
+
+  <rect class="panel" x="60" y="328" width="1480" height="162" rx="20"/>
+  <text x="90" y="366" class="head">B · GENES Y REGULACIÓN — estado evolutivo y año de estudio son relojes distintos</text>
+  <line x1="270" y1="428" x2="1450" y2="428" class="axis"/>
+  <rect x="300" y="402" width="340" height="52" rx="12" fill="#254a4a"/><text x="470" y="423" text-anchor="middle" class="date">antes de separación sapiens–neandertal</text><text x="470" y="445" text-anchor="middle" class="small">sustituciones / regulación compartida</text>
+  <g><circle cx="835" cy="428" r="9" fill="#79bdb5"/><circle cx="960" cy="428" r="9" fill="#79bdb5"/><circle cx="1085" cy="428" r="9" fill="#79bdb5"/><circle cx="1210" cy="428" r="9" fill="#79bdb5"/><circle cx="1360" cy="428" r="9" fill="#79bdb5"/></g>
+  <g class="small" text-anchor="middle"><text x="835" y="465">2001 clínica</text><text x="960" y="465">2007 aDNA</text><text x="1085" y="465">2013 regulación</text><text x="1210" y="465">2018 sin barrido</text><text x="1360" y="465">2026 red</text></g>
+
+  <rect class="panel" x="60" y="514" width="1480" height="162" rx="20"/>
+  <text x="90" y="552" class="head">C · CONDUCTA Y TRANSMISIÓN OBSERVADAS — generaciones y corpus actuales</text>
+  <line x1="270" y1="614" x2="1450" y2="614" class="axis"/>
+  <g><circle cx="350" cy="614" r="9" fill="#d39f70"/><circle cx="530" cy="614" r="9" fill="#d39f70"/><circle cx="720" cy="614" r="9" fill="#b08ab0"/><circle cx="980" cy="614" r="9" fill="#b08ab0"/><circle cx="1190" cy="614" r="9" fill="#b08ab0"/><circle cx="1375" cy="614" r="9" fill="#b08ab0"/></g>
+  <g class="small" text-anchor="middle"><text x="350" y="590">2004 NSL</text><text x="530" y="648">2008 cadenas</text><text x="720" y="590">2015 turnos</text><text x="980" y="648">2024 revisión</text><text x="1190" y="590">2024 cachalote</text><text x="1375" y="648">2025 bonobo</text></g>
+
+  <rect class="panel" x="60" y="700" width="1480" height="132" rx="20"/>
+  <text x="90" y="738" class="head">D · LENGUAS HISTÓRICAS — documentación y divergencia dentro de sistemas ya lingüísticos</text>
+  <line x1="300" y1="790" x2="1450" y2="790" class="axis"/>
+  <rect x="370" y="766" width="490" height="48" rx="12" fill="#493b42"/><text x="615" y="786" text-anchor="middle" class="date">~8.1 ka · raíz indoeuropea bajo modelo</text><text x="615" y="806" text-anchor="middle" class="small">cognados + calibraciones + supuestos</text>
+  <rect x="1030" y="766" width="350" height="48" rx="12" fill="#493b42"/><text x="1205" y="786" text-anchor="middle" class="date">milenios → presente</text><text x="1205" y="806" text-anchor="middle" class="small">textos, corpus y observación</text>
+
+  <text x="70" y="872" class="note">NINGUNA BARRA ES EL «NACIMIENTO DEL LENGUAJE»</text>
+  <text x="1530" y="872" text-anchor="end" class="small">escalas independientes · posiciones aproximadas · INV-MIND-LANGUAGE-001</text>
+</svg>

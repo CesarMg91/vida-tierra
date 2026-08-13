@@ -1139,3 +1139,29 @@ Schöningen ~200 ka → coordinación probable C/B-COND → parentesco/lenguaje:
 Las marcas óseas se tratan como clasificación con error: pisoteo, carnívoros y cocodrilos son clases adversarias. Experimentos actuales separan eficacia de enseñanza, necesidad de copia y ocurrencia histórica; que una forma pueda transmitirse no demuestra que necesitara esa vía.
 
 Véase `INV-MIND-TOOLS-FIRE-001` en `11_evolucion_humana`, su mapa en `assets/visuales/mapa-investigacion-047.svg` y la cronología multiarquivo en `assets/visuales/cronologia-archivos-tecnologia-fuego.svg`.
+
+### Investigación 048 — Origen del lenguaje
+
+```text
+hioides + oído + contexto ───────────────> capacidad fonatoria/auditiva parcial ───┐
+endocasto + comparadores ────────────────> organización superficial ──────────────┤
+variante + clínica + regulación ─────────> red de desarrollo/aprendizaje ─────────┤
+señal animal + tarea + métrica ──────────> componente comparable ─────────────────┤
+cadena/cohorte + cambio observado ───────> mecanismo cultural ────────────────────┤
+cognados + calibración + modelo ─────────> historia de una familia ───────────────┘
+                                                                                   │
+                                                                                   └─> no hay conversación, gramática o fecha única automáticas
+```
+
+Los hioides de Sima/Kebara y la audición neandertal reducen la plausibilidad de una incapacidad anatómica simple, pero no conservan tejidos, voz o sistema. Endocastos no preservan citoarquitectura; el canal torácico es un proxy condicionado.
+
+```text
+FOXP2 clínico → función de desarrollo A/B → gen suficiente: no
+FOXP2 arcaico → estado compartido B → introgresión de lenguaje: no
+barrido 2002 → no recuperado 2018 → cronología selectiva revisada
+regulación 2026 → asociación actual B-COND → fenotipo fósil: D
+```
+
+Marmosetas, pinzones, cachalotes y bonobos aíslan turnos, aprendizaje vocal, contextualidad y combinación; no forman una escalera. Cadenas artificiales y lenguas de señas emergentes muestran que la estructura puede formarse culturalmente, pero parten de humanos actuales y no fechan el Paleolítico. La raíz modelada de una familia histórica tampoco equivale al origen biocultural.
+
+Véase `INV-MIND-LANGUAGE-001` en `11_evolucion_humana`, su mapa en `assets/visuales/mapa-investigacion-048.svg` y la cronología multirreloj en `assets/visuales/cronologia-archivos-lenguaje.svg`.

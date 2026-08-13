@@ -1,0 +1,106 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Mapa epistemológico de la Investigación 048 sobre el origen del lenguaje</title>
+  <desc id="desc">Cuatro archivos —fósil, genético, comparado y cultural— pasan por mediciones y permiten resultados parciales. Líneas discontinuas marcan los saltos no autorizados hacia habla concreta, gramática, ancestro directo o fecha única.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#08131f"/><stop offset="1" stop-color="#142536"/></linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="130%"><feDropShadow dx="0" dy="8" stdDeviation="8" flood-color="#000" flood-opacity=".25"/></filter>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#78c8c4"/></marker>
+    <marker id="arrowWarn" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#d78374"/></marker>
+    <style>
+      .h1{font:700 42px system-ui,Segoe UI,sans-serif;fill:#f4f0e8}.sub{font:20px system-ui,Segoe UI,sans-serif;fill:#a9bbc8}.head{font:700 22px system-ui,Segoe UI,sans-serif;fill:#eef4f3}.label{font:700 19px system-ui,Segoe UI,sans-serif;fill:#f7f3ea}.body{font:16px system-ui,Segoe UI,sans-serif;fill:#c8d4db}.small{font:14px system-ui,Segoe UI,sans-serif;fill:#a9bbc8}.warn{font:700 17px system-ui,Segoe UI,sans-serif;fill:#f0b1a5}.box{rx:18;filter:url(#shadow)}
+    </style>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <text x="80" y="76" class="h1">Lenguaje: cuatro archivos, ningún reloj soberano</text>
+  <text x="80" y="112" class="sub">Lo conservado restringe componentes; no preserva una conversación ni una gramática.</text>
+
+  <text x="80" y="170" class="head">1 · ARCHIVO</text>
+  <text x="505" y="170" class="head">2 · OPERACIÓN</text>
+  <text x="940" y="170" class="head">3 · RESULTADO PERMITIDO</text>
+
+  <g>
+    <rect class="box" x="70" y="198" width="350" height="126" fill="#203b4d"/>
+    <circle cx="106" cy="238" r="15" fill="#d9c294"/>
+    <text x="136" y="241" class="label">FÓSIL / ANATOMÍA</text>
+    <text x="100" y="275" class="body">hioides · oído · vértebra · endocasto</text>
+    <text x="100" y="302" class="small">objeto, contexto y edad del espécimen</text>
+
+    <rect class="box" x="70" y="346" width="350" height="126" fill="#253849"/>
+    <circle cx="106" cy="386" r="15" fill="#8ab6b1"/>
+    <text x="136" y="389" class="label">GENÉTICO</text>
+    <text x="100" y="423" class="body">secuencia · regulación · clínica · modelo</text>
+    <text x="100" y="450" class="small">variante, red, demografía y pleiotropía</text>
+
+    <rect class="box" x="70" y="494" width="350" height="126" fill="#2b3548"/>
+    <circle cx="106" cy="534" r="15" fill="#b58eb4"/>
+    <text x="136" y="537" class="label">CONDUCTA COMPARADA</text>
+    <text x="100" y="571" class="body">turnos · aprendizaje · contexto · combinación</text>
+    <text x="100" y="598" class="small">especie actual, tarea y métrica explícitas</text>
+
+    <rect class="box" x="70" y="642" width="350" height="126" fill="#3b3541"/>
+    <circle cx="106" cy="682" r="15" fill="#d4a873"/>
+    <text x="136" y="685" class="label">TRANSMISIÓN / HISTORIA</text>
+    <text x="100" y="719" class="body">cadenas · cohortes · corpus · textos</text>
+    <text x="100" y="746" class="small">generaciones observadas y calibraciones</text>
+  </g>
+
+  <g>
+    <rect class="box" x="500" y="198" width="350" height="126" fill="#173a42"/>
+    <text x="530" y="239" class="label">MEDIR Y MODELAR</text>
+    <text x="530" y="275" class="body">forma · microarquitectura · banda auditiva</text>
+    <text x="530" y="302" class="small">comparadores, tejidos ausentes, sensibilidad</text>
+
+    <rect class="box" x="500" y="346" width="350" height="126" fill="#173a42"/>
+    <text x="530" y="387" class="label">AISLAR EFECTO</text>
+    <text x="530" y="423" class="body">asociación · ensayo · expresión · circuito</text>
+    <text x="530" y="450" class="small">causalidad actual no equivale a conducta fósil</text>
+
+    <rect class="box" x="500" y="494" width="350" height="126" fill="#173a42"/>
+    <text x="530" y="535" class="label">OPERACIONALIZAR</text>
+    <text x="530" y="571" class="body">repertorio · tiempo · significado · regla</text>
+    <text x="530" y="598" class="small">homología, convergencia o analogía</text>
+
+    <rect class="box" x="500" y="642" width="350" height="126" fill="#173a42"/>
+    <text x="530" y="683" class="label">SEGUIR EL CAMBIO</text>
+    <text x="530" y="719" class="body">aprendibilidad · convención · diversificación</text>
+    <text x="530" y="746" class="small">laboratorio, comunidad y familia no son escalas iguales</text>
+  </g>
+
+  <g stroke="#78c8c4" stroke-width="4" fill="none" marker-end="url(#arrow)">
+    <path d="M420 261 H490"/><path d="M420 409 H490"/><path d="M420 557 H490"/><path d="M420 705 H490"/>
+    <path d="M850 261 H930"/><path d="M850 409 H930"/><path d="M850 557 H930"/><path d="M850 705 H930"/>
+  </g>
+
+  <g>
+    <rect class="box" x="940" y="198" width="370" height="126" fill="#244838"/>
+    <text x="970" y="239" class="label">CAPACIDAD PARCIAL</text>
+    <text x="970" y="275" class="body">fonación o audición compatible</text>
+    <text x="970" y="302" class="small">B / B-COND</text>
+
+    <rect class="box" x="940" y="346" width="370" height="126" fill="#244838"/>
+    <text x="970" y="387" class="label">RED DE DESARROLLO</text>
+    <text x="970" y="423" class="body">efecto relevante para aprendizaje/motor</text>
+    <text x="970" y="450" class="small">A/B actual · D conducta fósil</text>
+
+    <rect class="box" x="940" y="494" width="370" height="126" fill="#244838"/>
+    <text x="970" y="535" class="label">COMPONENTE COMPARABLE</text>
+    <text x="970" y="571" class="body">turno, copia vocal o combinación delimitada</text>
+    <text x="970" y="598" class="small">B-COND · no escalera</text>
+
+    <rect class="box" x="940" y="642" width="370" height="126" fill="#244838"/>
+    <text x="970" y="683" class="label">MECANISMO CULTURAL</text>
+    <text x="970" y="719" class="body">estructura emergente o historia de una familia</text>
+    <text x="970" y="746" class="small">B dentro de la escala observada</text>
+  </g>
+
+  <rect x="1350" y="198" width="180" height="570" rx="20" fill="#3d2930" stroke="#8b4d54"/>
+  <text x="1380" y="238" class="warn">NO CONSERVADO</text>
+  <g class="body"><text x="1380" y="290">• voz concreta</text><text x="1380" y="334">• significado</text><text x="1380" y="378">• sintaxis</text><text x="1380" y="422">• pragmática</text><text x="1380" y="466">• lengua fósil</text><text x="1380" y="510">• ancestro directo</text><text x="1380" y="554">• fecha única</text></g>
+  <g stroke="#d78374" stroke-width="3" stroke-dasharray="10 9" fill="none" marker-end="url(#arrowWarn)">
+    <path d="M1310 261 H1342"/><path d="M1310 409 H1342"/><path d="M1310 557 H1342"/><path d="M1310 705 H1342"/>
+  </g>
+
+  <line x1="80" y1="832" x2="135" y2="832" stroke="#78c8c4" stroke-width="4"/><text x="150" y="838" class="small">puente sustentado</text>
+  <line x1="340" y1="832" x2="395" y2="832" stroke="#d78374" stroke-width="3" stroke-dasharray="10 9"/><text x="410" y="838" class="small">salto que requiere evidencia independiente</text>
+  <text x="1515" y="856" text-anchor="end" class="small">INV-MIND-LANGUAGE-001 · v0.1.47</text>
+</svg>
