@@ -278,6 +278,12 @@ Una controversia no implica empate. Registra qué parte está realmente abierta,
 | `CONT-EARLY-HOMININ-ARDI-LOCOMOTION-001` | ¿Trepa cuidadosa generalizada o repertorio africano suspensorio? | reconstrucción 2009 reduce suspensión | pie 2019, mano 2021 y talus 2025 recuperan señales africanas | repertorio mosaico; pesos abiertos | B-COND |
 | `CONT-EARLY-HOMININ-ARDI-HABITAT-001` | ¿Woodland/bosque abierto o sabana arbolada? | fauna/botánica apoyan cobertura leñosa | paleosuelos permiten ≤25 % de dosel | mosaico y escala explican parte del desacuerdo | B-LOCAL |
 | `CONT-EARLY-HOMININ-PHYLOGENY-001` | ¿Qué candidatos están dentro de Hominini? | caracteres derivados y matrices apoyan rama humana | homoplasia, ausencia y asociación permiten posiciones externas | Ardi más estable; Sahel/Orrorin abiertos | B-C para Ardi; C para otros |
+| `CONT-CIV-DEFINITION-001` | ¿«Civilización» es una unidad comparable? | permite agrupar configuraciones amplias | arrastra jerarquía y mezcla variables no equivalentes | usar sólo con definición descompuesta | A-SEM |
+| `CONT-CIV-SEQUENCE-001` | ¿Existe una secuencia universal hacia ciudad/Estado? | correlaciones regionales producen órdenes recurrentes | casos desfasados contradicen necesidad y unicidad | no hay escalera necesaria; dependencias locales abiertas | A negación universal; C regularidades |
+| `CONT-CIV-SEDENTISM-001` | ¿Arquitectura y comensales demuestran sedentarismo anual? | recurrencia y nicho doméstico favorecen estancias prolongadas | estacionalidad, hiatus y movilidad logística pueden imitar permanencia | movilidad reducida local; anualidad abierta | B-LOCAL-COND |
+| `CONT-CIV-DOMESTICATION-001` | ¿Cuándo empieza domesticación y cuándo agricultura? | cambios morfológicos/genéticos marcan selección heredable | manejo, cultivo, domesticación y dependencia no coinciden | procesos separables y graduales | B |
+| `CONT-CIV-URBANISM-001` | ¿Una sola vía y umbral definen ciudad? | concentración, densidad y funciones se pueden comparar | escalas regionales y pulsos producen configuraciones distintas | urbanismos múltiples; umbral universal no establecido | B-COND |
+| `CONT-CIV-INEQUALITY-001` | ¿Tamaño de casa mide desigualdad social? | correlaciona con recursos domésticos en varios contextos | hogar, preservación, arquitectura y riqueza no residencial sesgan Gini | proxy útil condicionado, no riqueza total | B-COND |
 
 ## CONT-COSMOS-H0-001 — Dos rutas hacia la tasa actual
 
@@ -2091,3 +2097,39 @@ Fauna, fitolitos y botánica favorecen woodland; paleosuelos isotópicos permite
 Más caracteres estabilizan `Ar. ramidus` como hominino basal. `Sahelanthropus` y `Orrorin` conservan mayor ausencia y asociación indirecta; bipedalidad podría ser convergente o ancestral.
 
 **Prueba discriminatoria:** nuevos conjuntos asociados, matrices abiertas con simios miocenos y análisis de sensibilidad a cada carácter funcional.
+
+## CONT-CIV-DEFINITION-001 — Una palabra no es una medición
+
+«Civilización» permite formular comparaciones amplias, pero su historia singular/plural y sus usos coloniales mezclan descripción con jerarquía. CIV-001 no asigna la etiqueta hasta declarar variables, escala y comparación.
+
+**Prueba discriminatoria:** repetir un análisis interregional con variables explícitas y comprobar si el resultado se conserva al retirar la etiqueta «civilización».
+
+## CONT-CIV-SEQUENCE-001 — Correlación frecuente no es escalera necesaria
+
+Algunas regiones muestran asociaciones entre producción intensiva, aglomeración, administración y autoridad. Otras separan sedentarismo de agricultura, almacenamiento de domesticación o monumentos de cerámica/escritura.
+
+**Prueba discriminatoria:** base cronológica multirregional preregistrada que modele órdenes, ausencias y detectabilidad sin elegir casos por su ajuste a una secuencia.
+
+## CONT-CIV-SEDENTISM-001 — Permanecer deja señales indirectas
+
+Arquitectura renovada y fauna comensal restringen duración e intensidad, pero no observan un calendario anual. Movilidad logística, retorno estacional y hiatus requieren pruebas independientes.
+
+**Prueba discriminatoria:** combinar cemento dental/estacionalidad, microestratigrafía de pisos, ocupaciones de distintas estaciones y señal comensal en la misma fase.
+
+## CONT-CIV-DOMESTICATION-001 — Cuatro procesos bajo una palabra
+
+Manejo, cultivo, domesticación heredable y dependencia económica pueden precederse, solaparse o revertirse. Una semilla diagnóstica no convierte por sí sola a una comunidad en «agrícola».
+
+**Prueba discriminatoria:** series continuas de morfología y aDNA vinculadas a abundancia dietaria, paisaje trabajado y demografía de plantas/animales.
+
+## CONT-CIV-URBANISM-001 — Hubs, upstarts y escalas regionales
+
+Tell Brak y la prospección del norte mesopotámico desafían una difusión meramente meridional. Tamaño, densidad, funciones y centralidad pueden cambiar a ritmos distintos e incluso contraerse.
+
+**Prueba discriminatoria:** prospecciones de cobertura equivalente, cronologías absolutas y estimaciones de densidad/función que predigan trayectorias fuera de la región usada para definir tipos.
+
+## CONT-CIV-INEQUALITY-001 — Una casa aproxima una dimensión
+
+El Gini residencial hace comparables distribuciones arqueológicas, pero depende de qué cuenta como hogar, qué se preserva y cuánta riqueza se expresa fuera de la vivienda. La corrección de 2018 se conserva junto al artículo original.
+
+**Prueba discriminatoria:** comparar en los mismos asentamientos vivienda, dieta, entierro, almacenamiento y bienes con incertidumbre de muestreo propagada.

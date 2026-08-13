@@ -500,6 +500,16 @@ El mapa conserva cinco archivos —contexto/edad, asociación, forma/función, a
 
 La doble cadena muestra por qué procedencia, diagnóstico y matriz producen una rama condicionada, mientras geometría, alometría y biomecánica producen una función probable. Sólo se reúnen al final y ninguna identifica por sí sola un ancestro.
 
+## 38. Línea temática CIV-001 — Procesos paralelos, no escalones
+
+![Mapa epistemológico CIV-001](assets/visuales/mapa-epistemologico-civ-001.svg)
+
+El mapa separa cinco rutas —residencia, producción, urbanismo, administración y autoridad— desde sus archivos hasta una inferencia acotada. Las cajas finales hacen explícitas las equivalencias prohibidas: arquitectura no implica agricultura; domesticación no implica aldea; escritura administrativa no prueba por sí sola dominio territorial.
+
+![Cronología sincronizada CIV-001 por carriles regionales](assets/visuales/cronologia-civ-001-carriles.svg)
+
+La cronología alinea casos de Suroeste de Asia, noreste de África, Asia oriental, Nueva Guinea y Américas. Es una selección de expedientes, no una lista de «primeros» universales; comprime los milenios recientes y conserva en texto los intervalos publicados.
+
 ## Procedencia
 
 El registro de creación, límites y prompt de cada pieza está en [`assets/visuales/README.md`](assets/visuales/README.md).
