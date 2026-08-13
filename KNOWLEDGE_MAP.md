@@ -1113,3 +1113,29 @@ Monte Verde 14.5 vs 8.2–4.2 ka → cronología abierta → ruta: no
 La fuente genómica de 2026 amplía diversidad y recupera al menos tres dispersiones hacia Sudamérica, pero sus cross-coalescence no fechan un sitio. Consentimiento, acuerdos comunitarios, acceso controlado y devolución de resultados son parte de la procedencia; comunidades actuales no funcionan como proxies sin tiempo.
 
 Véase `INV-MIGR-AMERICAS-001` en `13_migraciones`, su mapa en `assets/visuales/mapa-investigacion-046.svg` y la cronología multiarquivo en `assets/visuales/cronologia-archivos-americas.svg`.
+
+### Investigación 047 — Herramientas, fuego y cooperación
+
+```text
+pieza + fractura + conjunto + contexto ───────> secuencia técnica / uso ───────────────┐
+fósil próximo + intervalo ───────────────────> candidatos taxonómicos ────────────────┤
+marca + base experimental + error ───────────> agente más probable ──────────────────┤
+calor + microestratigrafía + distribución ───> combustión / control / recurrencia ───┤
+pirita + sílex + evento térmico ─────────────> ignición inferida ─────────────────────┤
+transporte + refits + episodios ─────────────> organización / coordinación ──────────┘
+                                                                                      │
+                                                                                      └─> no hay especie, enseñanza, lenguaje o moral automáticos
+```
+
+Lomekwi conserva una modificación temprana con contexto discutido. Nyayanga prueba Oldowan temprano y movimiento selectivo de rocas, no autoría de *Paranthropus* o grupo cooperativo. T69 añade producción ósea sistemática sin identificar función o transmisión.
+
+```text
+Wonderwerk ~1.0 Ma → combustión in situ B-COND → ignición: no
+GBY ~790–780 ka → uso reiterado/cocción compatible B-COND → encendido: no
+Barnham ~400 ka → pirita + calor + sílex B-COND → chispa observada: no
+Schöningen ~200 ka → coordinación probable C/B-COND → parentesco/lenguaje: no
+```
+
+Las marcas óseas se tratan como clasificación con error: pisoteo, carnívoros y cocodrilos son clases adversarias. Experimentos actuales separan eficacia de enseñanza, necesidad de copia y ocurrencia histórica; que una forma pueda transmitirse no demuestra que necesitara esa vía.
+
+Véase `INV-MIND-TOOLS-FIRE-001` en `11_evolucion_humana`, su mapa en `assets/visuales/mapa-investigacion-047.svg` y la cronología multiarquivo en `assets/visuales/cronologia-archivos-tecnologia-fuego.svg`.

@@ -2720,3 +2720,64 @@ El estudio de 2026 detecta regiones genómicas con afinidad australasiana en pob
 Cerutti tiene una edad U-series extrema y objetos interpretados como percusión; Chiquihuite tiene una secuencia fechada y objetos propuestos como líticos. Los adversarios cuestionan controles, talla y procesos naturales. El reloj y la agencia son eslabones separados.
 
 **Prueba discriminatoria:** artefactos inequívocos en contexto primario, refits, residuos o microdesgaste diagnóstico, replicación independiente y experimentos capaces de separar geofactos/percusiones naturales.
+
+## Registro tabular de la Investigación 047
+
+| ID | Tema | Explicación dominante o práctica | Alternativa fuerte | Estado | Confianza en la síntesis |
+|---|---|---|---|---|---|
+| `CONT-LOMEKWI-CONTEXT-001` | contexto de Lomekwi 3 | modificación antrópica y edad pliocena del conjunto | piezas diagnósticas retrabajadas o categoría temporal sobrediferenciada | abierta | B/C-COND; D tradición |
+| `CONT-NYAYANGA-MAKER-001` | fabricante de Nyayanga | autor hominino no identificado | *Paranthropus*, *Homo* u otro candidato | abierta | D |
+| `CONT-EARLY-LITHIC-INTENT-001` | intención en conjuntos líticos tempranos | patrón de conjunto favorece talla deliberada | percusión no orientada y otros equifinales | abierta por conjunto | B-COND |
+| `CONT-BONE-MARK-AGENCY-001` | agencia de marcas óseas | corte o percusión hominina en subconjuntos diagnósticos | carnívoros, cocodrilos, pisoteo o fractura | abierta por pieza | B método; C por pieza |
+| `CONT-EARLY-FIRE-LADDER-001` | primeros archivos térmicos | control o recurrencia en casos convergentes | incendio natural, redeposición o calentamiento no controlado | abierta por peldaño | B-COND |
+| `CONT-BARNHAM-IGNITION-001` | ignición en Barnham | convergencia de calor, bifaces y pirita favorece producción deliberada | coocurrencia no funcional o fuego obtenido de otra fuente | abierta, evidencia fuerte | B-COND |
+| `CONT-SCHONINGEN-COOPERATION-001` | coordinación en Schöningen | caza coordinada/especializada | palimpsesto o episodios menos coordinados | abierta en detalle social | C/B-COND |
+| `CONT-TOOLS-TRANSMISSION-001` | transmisión técnica | combinación de copia, enseñanza y reinvención | mayor peso de una sola ruta según técnica | abierta | B para pluralidad; D pesos históricos |
+
+## CONT-LOMEKWI-CONTEXT-001 — Artefactos pliocenos o conjunto parcialmente retrabajado
+
+Harmand y colaboradores enlazaron piezas con depósitos de `3.3 Ma`; Archer y colaboradores cuestionaron si los objetos inequívocos eran también inequívocamente *in situ*. Un modelo posterior no separa Lomekwian y Oldowan sólo por cronología. Artefactualidad, procedencia y categoría cultural son tres disputas.
+
+**Prueba discriminatoria:** nuevas excavaciones con micromorfología, coordenadas tridimensionales, remontajes dentro de depósitos primarios y controles geológicos publicados antes de asignar tradición.
+
+## CONT-NYAYANGA-MAKER-001 — *Paranthropus*, *Homo* u otro tallador
+
+Dos molares de *Paranthropus* aparecen con el Oldowan de Nyayanga, mientras varios taxones pudieron coexistir. La asociación invalida exclusividad automática de *Homo*, pero no firma a *Paranthropus*.
+
+**Prueba discriminatoria:** asociaciones repetidas de restos diagnósticos y residuos/biomoléculas en superficies de uso o depósitos de alta resolución que excluyan mezcla temporal.
+
+## CONT-EARLY-LITHIC-INTENT-001 — Talla deliberada y equifinales de percusión
+
+Capuchinos y macacos producen lascas y núcleos solapados durante percusión no orientada a filos. Los conjuntos homininos añaden selección, núcleos, distribución y uso, pero ninguna variable aislada es universal.
+
+**Prueba discriminatoria:** clasificación ciega fuera de muestra que integre materia prima, secuencias, refits y residuos, y publique falsos positivos por agente.
+
+## CONT-BONE-MARK-AGENCY-001 — Corte, percusión, diente, cocodrilo o pisoteo
+
+Pruebas clásicas lograron alta precisión en clases controladas; bases abiertas más amplias obtienen `74–83 %`. Dikika y otros casos muestran que una edad fuerte no compensa un agente ambiguo.
+
+**Prueba discriminatoria:** imágenes/escaneos replicables, todos los agentes locales pertinentes, pruebas ciegas interanalista y validación sobre fósiles de agencia conocida o controles geológicos.
+
+## CONT-EARLY-FIRE-LADDER-001 — Calentamiento, control, recurrencia e ignición
+
+Wonderwerk y GBY sostienen combustión antropogénica/localizada y recurrencia en grados distintos. Ninguno conserva el método de obtención. Las listas de «primer fuego» cambian de respuesta según el peldaño definido.
+
+**Prueba discriminatoria:** microestratigrafía de episodios separados, gradientes primarios, combustibles/objetos funcionales y aparatos con residuos de producción de chispa o fricción.
+
+## CONT-BARNHAM-IGNITION-001 — Pirita funcional o coocurrencia no diagnóstica
+
+En Barnham, calor localizado, artefactos fracturados y pirita rara transportada forman el expediente más fuerte de producción deliberada a `~400 ka`. La chispa y el uso de cada fragmento no se observan.
+
+**Prueba discriminatoria:** microdesgaste/residuos diagnósticos en pirita/sílex, refits contextuales, replicación mineralógica y exclusión de aporte natural o coleccionismo no funcional.
+
+## CONT-SCHONINGEN-COOPERATION-001 — Caza coordinada o palimpsesto de episodios
+
+Armas, caballos y recurrencia bajo la edad revisada de `~200 ka` favorecen estrategia especializada. Resolución temporal, agentes y asociación no conservan una escena simultánea completa; «neandertal», «familia» y «roles» añaden puentes.
+
+**Prueba discriminatoria:** microestratigrafía y trayectorias que demuestren episodios discretos multiagente, remontajes/fauna espacialmente vinculados y cronología/taxón independientes.
+
+## CONT-TOOLS-TRANSMISSION-001 — Forma técnica, copia y reinvención
+
+Enseñanza mejora transmisión en humanos actuales, pero técnicas tempranas y forma general de bifaz pueden reaparecer sin copia directa. Compatibilidad con cultura no demuestra necesidad de una vía específica.
+
+**Prueba discriminatoria:** experimentos preregistrados que separen producto, proceso y saber hacer, más predicciones arqueológicas sobre variación, error y continuidad que distingan copia de reinvención.

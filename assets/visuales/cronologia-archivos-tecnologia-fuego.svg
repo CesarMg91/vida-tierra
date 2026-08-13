@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Cronología multiarquivo de tecnología, fuego y cooperación</title>
+  <desc id="desc">Tres carriles sitúan expedientes tecnológicos, térmicos y de cooperación entre 3.3 millones y 200 mil años. Las posiciones son aproximadas y no representan inicios universales de capacidades.</desc>
+  <defs>
+    <linearGradient id="bg2" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#06131d"/><stop offset="1" stop-color="#152b38"/></linearGradient>
+    <style>
+      .title{font:700 42px system-ui,sans-serif;fill:#f5f0e6}.sub{font:400 19px system-ui,sans-serif;fill:#b9c9d0}.axis{stroke:#6a8792;stroke-width:2}.grid{stroke:#31505d;stroke-width:1;stroke-dasharray:5 8}.tick{font:600 16px system-ui,sans-serif;fill:#abc0c8}.lane{font:700 22px system-ui,sans-serif;fill:#f0c58d}.card{fill:#132d3a;stroke:#456576;stroke-width:2}.cardt{fill:#173a3f;stroke:#69a9a4;stroke-width:2}.cardc{fill:#352920;stroke:#bf8151;stroke-width:2}.h{font:700 17px system-ui,sans-serif;fill:#f5f0e8}.p{font:400 14px system-ui,sans-serif;fill:#cad7da}.c{font:700 13px system-ui,sans-serif;fill:#86c7c2}.w{font:700 13px system-ui,sans-serif;fill:#efac76}.dot1{fill:#8ec8c5}.dot2{fill:#d8945f}.dot3{fill:#d2bd82}
+    </style>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg2)"/>
+  <text x="75" y="72" class="title">Cronología de expedientes, no de “primeras capacidades”</text>
+  <text x="75" y="106" class="sub">Eje comprimido y no lineal · cada fecha pertenece a un objeto, capa o evento específico</text>
+
+  <line x1="250" y1="165" x2="1510" y2="165" class="axis"/>
+  <g>
+    <line x1="270" y1="150" x2="270" y2="820" class="grid"/><text x="247" y="142" class="tick">3.3 Ma</text>
+    <line x1="500" y1="150" x2="500" y2="820" class="grid"/><text x="477" y="142" class="tick">2.8 Ma</text>
+    <line x1="730" y1="150" x2="730" y2="820" class="grid"/><text x="707" y="142" class="tick">2.0 Ma</text>
+    <line x1="930" y1="150" x2="930" y2="820" class="grid"/><text x="907" y="142" class="tick">1.5 Ma</text>
+    <line x1="1110" y1="150" x2="1110" y2="820" class="grid"/><text x="1088" y="142" class="tick">1.0 Ma</text>
+    <line x1="1280" y1="150" x2="1280" y2="820" class="grid"/><text x="1258" y="142" class="tick">0.8 Ma</text>
+    <line x1="1410" y1="150" x2="1410" y2="820" class="grid"/><text x="1385" y="142" class="tick">0.4 Ma</text>
+    <line x1="1510" y1="150" x2="1510" y2="820" class="grid"/><text x="1482" y="142" class="tick">0.2 Ma</text>
+  </g>
+
+  <text x="60" y="232" class="lane">TECNOLOGÍA</text>
+  <line x1="250" y1="252" x2="1510" y2="252" class="axis"/>
+  <g transform="translate(255 270)"><circle cx="15" cy="-18" r="8" class="dot2"/><rect width="250" height="105" rx="14" class="cardc"/><text x="18" y="30" class="h">Lomekwi 3 · ~3.3 Ma</text><text x="18" y="55" class="p">modificación temprana;</text><text x="18" y="76" class="p">contexto/categoría abiertos</text><text x="18" y="96" class="w">C-COND / D</text></g>
+  <g transform="translate(500 390)"><circle cx="15" cy="-138" r="8" class="dot1"/><rect width="260" height="105" rx="14" class="card"/><text x="18" y="30" class="h">Nyayanga · ~2.9 Ma</text><text x="18" y="55" class="p">Oldowan + procesamiento;</text><text x="18" y="76" class="p">transporte ≥2.6 Ma</text><text x="18" y="96" class="c">B / B-COND</text></g>
+  <g transform="translate(690 270)"><circle cx="40" cy="-18" r="8" class="dot1"/><rect width="230" height="105" rx="14" class="card"/><text x="18" y="30" class="h">Achelense · 1.76 Ma</text><text x="18" y="55" class="p">Kokiselei 4; no</text><text x="18" y="76" class="p">reemplazo instantáneo</text><text x="18" y="96" class="c">B</text></g>
+  <g transform="translate(875 390)"><circle cx="55" cy="-138" r="8" class="dot1"/><rect width="255" height="105" rx="14" class="card"/><text x="18" y="30" class="h">T69 · ~1.5 Ma</text><text x="18" y="55" class="p">27 útiles óseos;</text><text x="18" y="76" class="p">función/transmisión abiertas</text><text x="18" y="96" class="c">B-COND</text></g>
+
+  <text x="60" y="555" class="lane">FUEGO</text>
+  <line x1="250" y1="575" x2="1510" y2="575" class="axis"/>
+  <g transform="translate(1000 595)"><circle cx="110" cy="-20" r="8" class="dot1"/><rect width="235" height="110" rx="14" class="cardt"/><text x="18" y="31" class="h">Wonderwerk · ~1.0 Ma</text><text x="18" y="57" class="p">combustión in situ;</text><text x="18" y="79" class="p">ignición no observada</text><text x="18" y="101" class="c">B-COND</text></g>
+  <g transform="translate(1245 595)"><circle cx="35" cy="-20" r="8" class="dot1"/><rect width="230" height="110" rx="14" class="cardt"/><text x="18" y="31" class="h">GBY · 790–780 ka</text><text x="18" y="57" class="p">uso reiterado + peces</text><text x="18" y="79" class="p">compatibles con cocción</text><text x="18" y="101" class="c">B-COND</text></g>
+  <g transform="translate(1290 440)"><path d="M120 110V135" stroke="#d8945f" stroke-width="3"/><circle cx="120" cy="135" r="8" class="dot2"/><rect width="245" height="110" rx="14" class="cardc"/><text x="16" y="31" class="h">Barnham · ~400 ka</text><text x="16" y="57" class="p">calor + sílex + pirita</text><text x="16" y="79" class="p">ignición inferida</text><text x="16" y="101" class="w">B-COND</text></g>
+
+  <text x="60" y="792" class="lane">COOPERACIÓN</text>
+  <line x1="250" y1="812" x2="1510" y2="812" class="axis"/>
+  <g transform="translate(1260 710)"><path d="M250 102V102" stroke="#d2bd82" stroke-width="3"/><circle cx="250" cy="102" r="8" class="dot3"/><rect width="245" height="95" rx="14" class="cardc"/><text x="16" y="28" class="h">Schöningen · ~200 ka</text><text x="16" y="51" class="p">armas + fauna + repetición;</text><text x="16" y="72" class="p">coordinación probable</text><text x="16" y="90" class="w">C / B-COND</text></g>
+
+  <rect x="75" y="842" width="1450" height="40" rx="12" fill="#102633" stroke="#355665"/>
+  <text x="100" y="868" class="sub">Ausencia de marca anterior ≠ ausencia de conducta · presencia de marca ≠ taxón, enseñanza, lenguaje o institución social</text>
+</svg>

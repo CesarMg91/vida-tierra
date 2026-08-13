@@ -47,3 +47,4 @@ Historia de cómo se reconstruyó la historia: creencias previas, evidencia disr
 - [`HISTORIA_044_POBLAMIENTO_ASIA_SAHUL.md`](HISTORIA_044_POBLAMIENTO_ASIA_SAHUL.md): de costas actuales y flechas únicas a mínimos, ausencias locales, paleocorrientes, demografía y genómica con escalas incompatibles.
 - [`HISTORIA_045_LLEGADA_EUROPA_COEXISTENCIA_NEANDERTALES.md`](HISTORIA_045_LLEGADA_EUROPA_COEXISTENCIA_NEANDERTALES.md): de la sustitución lineal a asociaciones locales, cronologías regionales y genealogías reticuladas que separan presencia, solapamiento y flujo.
 - [`HISTORIA_046_POBLAMIENTO_AMERICAS.md`](HISTORIA_046_POBLAMIENTO_AMERICAS.md): de Clovis-first a sitios pre-Clovis, corredores paleoambientales, genealogías con tiempo y procedencia/gobernanza indígena.
+- [`HISTORIA_047_HERRAMIENTAS_FUEGO_COOPERACION.md`](HISTORIA_047_HERRAMIENTAS_FUEGO_COOPERACION.md): de la herramienta-signo a cadenas de objeto, proceso, agente, fuego, transmisión y cooperación graduada.

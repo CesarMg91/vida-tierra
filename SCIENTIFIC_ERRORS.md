@@ -3529,3 +3529,98 @@ Cerutti y Chiquihuite muestran que una capa o hueso puede estar bien fechado mie
 ### Corrección
 
 Auditar por separado reloj, procedencia, artefactualidad/tafonomía y alternativas con poder de discriminación.
+
+## Registro tabular de la Investigación 047
+
+| ID | Caso | Supuesto que falló | Mecanismo de corrección | Estado |
+|---|---|---|---|---|
+| `ERR-TOOLS-OBJECT-AUTHOR-001` | herramienta = especie fabricante | proximidad y capacidad convertidas en firma | exigir asociación diagnóstica independiente | DOCUMENTADO |
+| `ERR-LOMEKWI-FIRST-TOOL-001` | «primera herramienta» como punto universal | contexto, categoría y muestreo omitidos | delimitar pieza, capa y tradición | DOCUMENTADO |
+| `ERR-REFIT-TEACHING-001` | remontaje = enseñanza | secuencia técnica convertida en escena social | separar proceso material y transmisión | DOCUMENTADO |
+| `ERR-CUTMARK-SIGNATURE-001` | toda incisión = corte | equifinales y error de clasificación omitidos | comparadores ciegos y tasa por clase | DOCUMENTADO |
+| `ERR-FIRE-HEAT-IGNITION-001` | calor = ignición deliberada | peldaños térmicos fusionados | registrar señal, posición, recurrencia y medio de ignición por separado | DOCUMENTADO |
+| `ERR-GBY-FIRE-MAKING-LITERAL-001` | uso reiterado = producción del fuego | obtención no observada | limitarse a control/recurrencia compatibles | DOCUMENTADO |
+| `ERR-BARNHAM-CULTURE-BUNDLE-001` | ignición = cocina, lenguaje y modernidad | una inferencia funcional cargó capacidades distintas | probar cada capacidad con predicciones propias | DOCUMENTADO |
+| `ERR-TRANSPORT-COOPERATION-001` | transporte = cooperación | número y simultaneidad de agentes no observados | exigir resolución multiagente | DOCUMENTADO |
+| `ERR-SCHONINGEN-SOCIAL-SCENE-001` | armas = familia cooperando | archivo material convertido en roles y parentesco | graduar coordinación y dejar abiertas instituciones | DOCUMENTADO |
+| `ERR-TOOL-LANGUAGE-MODERNITY-001` | herramienta = lenguaje/modernidad | producto técnico usado como proxy mental universal | separar eficacia experimental y necesidad histórica | DOCUMENTADO |
+
+## ERR-TOOLS-OBJECT-AUTHOR-001 — Una herramienta identifica a su especie fabricante
+
+Un objeto puede asociarse con varios taxones coetáneos. Los molares de *Paranthropus* en Nyayanga restringen candidatos, no firman las piezas.
+
+### Corrección
+
+Exigir vínculo corporal/biomolecular o asociaciones repetidas de alta resolución y publicar alternativas taxonómicas.
+
+## ERR-LOMEKWI-FIRST-TOOL-001 — Lomekwi es la primera herramienta producida
+
+Es la propuesta conservada más antigua dentro de un contexto discutido. Preservación y descubrimiento no revelan el primer evento histórico.
+
+### Corrección
+
+Usar «expediente más antiguo conocido/condicionado» y separar modificación, contexto y tradición.
+
+## ERR-REFIT-TEACHING-001 — Un remontaje reconstruye una lección colectiva
+
+El remontaje prueba orden físico de extracciones y proximidad deposicional. Una persona o episodios sucesivos pueden producirlo.
+
+### Corrección
+
+Reservar enseñanza para patrones que excluyan reinvención y acción individual bajo modelos explícitos.
+
+## ERR-CUTMARK-SIGNATURE-001 — Toda estría diagnóstica es una firma humana
+
+Pisoteo, dientes de carnívoro/cocodrilo y fractura producen perfiles solapados. Los clasificadores tienen error y clases ausentes.
+
+### Corrección
+
+Publicar comparadores, prueba ciega, error por clase, contexto tafonómico y probabilidad condicionada.
+
+## ERR-FIRE-HEAT-IGNITION-001 — Material calentado demuestra encendido deliberado
+
+Calor puede preceder o seguir ocupación; combustión in situ y control tampoco conservan necesariamente el método de obtención.
+
+### Corrección
+
+Nombrar el peldaño exacto y exigir aparato/residuo funcional para ignición.
+
+## ERR-GBY-FIRE-MAKING-LITERAL-001 — El título de GBY observa fabricación de fuego
+
+Ocho horizontes y concentraciones apoyan uso repetido; no conservan una chispa ni excluyen recolección/mantenimiento de fuego natural.
+
+### Corrección
+
+Traducir el resultado material como uso reiterado y reservar producción para evidencia funcional específica.
+
+## ERR-BARNHAM-CULTURE-BUNDLE-001 — Barnham prueba cocina, lenguaje y vida doméstica
+
+Pirita, sílex y calor localizado sostienen producción deliberada de fuego de forma condicional. Los beneficios posibles no fueron medidos en la superficie.
+
+### Corrección
+
+Separar mecanismo de ignición de frecuencia, función, especie y consecuencias sociales.
+
+## ERR-TRANSPORT-COOPERATION-001 — Transporte de roca demuestra grupo coordinado
+
+Un individuo, varios viajes o múltiples episodios independientes pueden mover materia prima no local.
+
+### Corrección
+
+Exigir simultaneidad, número mínimo de agentes o patrón incompatible con acción individual.
+
+## ERR-SCHONINGEN-SOCIAL-SCENE-001 — Las lanzas muestran una familia cooperando
+
+Armas y fauna favorecen caza coordinada; edad, taxón, participantes, parentesco, roles y habla son inferencias separadas.
+
+### Corrección
+
+Describir primero objetos, episodios y necesidad multiagente; etiquetar las reconstrucciones sociales como modelos.
+
+## ERR-TOOL-LANGUAGE-MODERNITY-001 — Bifaces o fuego equivalen a lenguaje y modernidad
+
+Experimentos actuales distinguen eficacia de enseñanza y necesidad de copia. «Modernidad» agrupa rasgos no coemergentes.
+
+### Corrección
+
+Evaluar cada capacidad con predicciones propias y no usar un producto técnico como proxy universal de mente.

@@ -3793,6 +3793,111 @@ Este archivo es el índice canónico. La letra de confianza califica exactamente
 - **Chiquihuite:** edad del sedimento no decide artefacto frente a geofacto.
 - **Regla:** un reloj fuerte no rescata una asociación débil.
 
+## Registro tabular de la Investigación 047
+
+| ID | Afirmación delimitada | Confianza | Estado | Evidencias principales | Investigación |
+|---|---|---|---|---|---|
+| `CLAIM-MIND-TOOLS-FIRE-SCOPE-001` | Objeto, proceso técnico, uso, asociación, agente, taxón, transmisión social y cooperación son niveles distintos y requieren puentes independientes. | A-SEM | AUDITADO | `EVID-MIND-TOOLS-FIRE-METHOD-001` | `INV-MIND-TOOLS-FIRE-001` |
+| `CLAIM-MIND-TOOLS-FIRE-CONFIDENCE-001` | Los archivos permiten afirmar modificación intencional, combustión localizada y algunos patrones organizativos con más confianza que autor taxonómico, enseñanza, lenguaje o institución social. | B para archivos; D para extensiones fuertes | AUDITADO | `EVID-MIND-TOOLS-FIRE-METHOD-001`, `EVID-LITHIC-EQUIFINALITY-001`, `EVID-TEACHING-LANGUAGE-001` | `INV-MIND-TOOLS-FIRE-001` |
+| `CLAIM-LOMEKWI-CONTEXT-OPEN-001` | Lomekwi 3 contiene piezas compatibles con modificación antrópica, pero el contexto primario completo y su condición de tradición separada siguen condicionados. | B/C-COND objeto-contexto; D tradición | AUDITADO | `EVID-LOMEKWI-001` | `INV-MIND-TOOLS-FIRE-001` |
+| `CLAIM-NYAYANGA-EARLY-OLDOWAN-001` | Nyayanga documenta Oldowan temprano y procesamiento de recursos entre `3.032–2.581 Ma`, con mejor estimación cercana a `2.9 Ma`. | B-COND | AUDITADO | `EVID-NYAYANGA-TOOLS-047-001` | `INV-MIND-TOOLS-FIRE-001` |
+| `CLAIM-NYAYANGA-MAKER-OPEN-001` | Los molares de *Paranthropus* asociados en Nyayanga no identifican al fabricante de los artefactos. | A-SEM para el límite; D autor | AUDITADO | `EVID-NYAYANGA-TOOLS-047-001` | `INV-MIND-TOOLS-FIRE-001` |
+| `CLAIM-NYAYANGA-TRANSPORT-NOT-COOPERATION-001` | La procedencia de rocas no locales en Nyayanga apoya selección y transporte de hasta `~13 km`, pero no cuenta agentes ni demuestra cooperación. | B-COND transporte; D cooperación | AUDITADO | `EVID-NYAYANGA-TRANSPORT-001` | `INV-MIND-TOOLS-FIRE-001` |
+| `CLAIM-OLDOWAN-ACHEULEAN-NONLINEAR-001` | La aparición del Achelense cerca de `1.76 Ma` no implica reemplazo instantáneo del Oldowan. | B | AUDITADO | `EVID-OLDOWAN-ACHEULEAN-T69-001` | `INV-MIND-TOOLS-FIRE-001` |
+| `CLAIM-T69-BONE-TOOLS-2025-001` | Veintisiete huesos de T69 con secuencias de extracción y selección favorecen producción sistemática de útiles óseos hacia `1.5 Ma`; función, autor y transmisión siguen abiertos. | B-COND | AUDITADO | `EVID-OLDOWAN-ACHEULEAN-T69-001` | `INV-MIND-TOOLS-FIRE-001` |
+| `CLAIM-LITHIC-INTENT-EQUIFINALITY-001` | Primates no humanos pueden producir lascas y atributos solapados sin buscar filos; la intención se discrimina mejor a escala de conjunto, núcleos, remontajes y uso. | B | AUDITADO | `EVID-LITHIC-EQUIFINALITY-001` | `INV-MIND-TOOLS-FIRE-001` |
+| `CLAIM-BONE-MARKS-DIAGNOSTIC-CONDITIONAL-001` | Las marcas óseas requieren comparadores de pisoteo, dientes, cocodrilos, percusión y otros equifinales, con error por clase y transferencia al fósil explícitos. | B método; C por pieza | AUDITADO | `EVID-BONE-MARKS-001` | `INV-MIND-TOOLS-FIRE-001` |
+| `CLAIM-FIRE-LADDER-001` | Incendio natural, material calentado, combustión *in situ*, control, recurrencia e ignición son peldaños distintos; ninguno hereda automáticamente los superiores. | A-SEM | AUDITADO | `EVID-MIND-TOOLS-FIRE-METHOD-001`, `EVID-WONDERWERK-FIRE-001`, `EVID-GBY-FIRE-001`, `EVID-BARNHAM-IGNITION-001` | `INV-MIND-TOOLS-FIRE-001` |
+| `CLAIM-WONDERWERK-IN-SITU-FIRE-001` | Ceniza vegetal y hueso quemado microestratificados dentro de Wonderwerk apoyan combustión *in situ* hacia `1.0 Ma`, no un método de ignición observado. | B-COND | AUDITADO | `EVID-WONDERWERK-FIRE-001` | `INV-MIND-TOOLS-FIRE-001` |
+| `CLAIM-GBY-REPEATED-FIRE-001` | Gesher Benot Ya'aqov conserva concentraciones quemadas recurrentes hacia `790 ka` y peces compatibles con cocción, sin revelar cómo se obtuvo el fuego. | B-COND | AUDITADO | `EVID-GBY-FIRE-001` | `INV-MIND-TOOLS-FIRE-001` |
+| `CLAIM-BARNHAM-IGNITION-CONDITIONAL-2026-001` | En Barnham, sedimento calentado, bifaces fracturados por calor y pirita rara transportada favorecen producción deliberada de fuego hacia `400 ka`, aunque no se observa la chispa. | B-COND | AUDITADO | `EVID-BARNHAM-IGNITION-001` | `INV-MIND-TOOLS-FIRE-001` |
+| `CLAIM-TRANSPORT-NOT-COOPERATION-001` | El transporte de materia prima puede ser individual, secuencial o acumulado; por sí solo no demuestra coordinación multiagente. | A-SEM | AUDITADO | `EVID-NYAYANGA-TRANSPORT-001` | `INV-MIND-TOOLS-FIRE-001` |
+| `CLAIM-REFITS-NOT-TEACHING-001` | Los remontajes reconstruyen secuencias de extracción y deposición, no observan maestro, aprendiz ni número de participantes. | A-SEM | AUDITADO | `EVID-REFITS-TRANSMISSION-001` | `INV-MIND-TOOLS-FIRE-001` |
+| `CLAIM-SCHONINGEN-COOPERATION-CONDITIONAL-2025-001` | Armas de madera, fauna y recurrencia en Schöningen bajo una edad revisada cercana a `200 ka` favorecen caza coordinada, pero no fijan taxón, roles, parentesco o habla. | C/B-COND | AUDITADO | `EVID-SCHONINGEN-COOPERATION-001` | `INV-MIND-TOOLS-FIRE-001` |
+| `CLAIM-TOOLS-NOT-TEACHING-001` | Técnicas tempranas y formas generales pueden reaparecer sin copia directa de saber hacer; compatibilidad con enseñanza no demuestra su necesidad histórica. | B para el límite experimental | AUDITADO | `EVID-LITHIC-EQUIFINALITY-001`, `EVID-REFITS-TRANSMISSION-001`, `EVID-TEACHING-LANGUAGE-001`, `EVID-COMPLEXITY-MODEL-001` | `INV-MIND-TOOLS-FIRE-001` |
+| `CLAIM-TOOLS-NOT-LANGUAGE-001` | La eficacia del lenguaje en experimentos de transmisión no permite fechar su origen a partir de una industria o del fuego. | B eficacia; D fecha histórica | AUDITADO | `EVID-TEACHING-LANGUAGE-001`, `EVID-COMPLEXITY-MODEL-001` | `INV-MIND-TOOLS-FIRE-001` |
+
+## Investigación 047 — Herramientas, fuego y cooperación
+
+### CLAIM-MIND-TOOLS-FIRE-SCOPE-001 / MIND-TOOLS-FIRE-CONFIDENCE-001
+
+- **Escalas:** objeto, proceso, uso, asociación, agente, taxón, transmisión y cooperación no son intercambiables.
+- **Robusto:** Oldowan temprano, modificación intencional y combustión localizada/repetida tienen archivos convergentes.
+- **Condicionado:** Lomekwi completo, transporte no local, T69, Barnham y Schöningen.
+- **No sustentado:** herramienta o fuego como prueba automática de lenguaje, altruismo, parentesco, división sexual o moral.
+
+### CLAIM-LOMEKWI-CONTEXT-OPEN-001
+
+- **Objeto:** piezas con fractura y percusión compatibles con modificación antrópica.
+- **Cuello:** vínculo de las piezas diagnósticas con depósitos primarios de `3.3 Ma` y singularidad temporal/cultural.
+- **Confianza:** B/C-COND para modificación; C-COND para contexto completo; D para tradición separada.
+
+### CLAIM-NYAYANGA-EARLY-OLDOWAN-001 / NYAYANGA-MAKER-OPEN-001
+
+- **Resultado:** Oldowan y procesamiento de fauna/plantas entre `3.032–2.581 Ma`, con mejor estimación `~2.9 Ma`.
+- **Fósiles:** dos molares de *Paranthropus* están asociados, no firmados como fabricantes.
+- **Regla:** proximidad taxonómica restringe candidatos; no identifica al tallador.
+
+### CLAIM-NYAYANGA-TRANSPORT-NOT-COOPERATION-001
+
+- **Medición:** rocas no locales y enlaces geoquímicos con fuentes adecuadas hasta `~13 km`.
+- **Inferencia:** selección, transporte y conocimiento del paisaje.
+- **Límite:** no cuenta agentes ni demuestra simultaneidad, cooperación o planificación verbal.
+
+### CLAIM-OLDOWAN-ACHEULEAN-NONLINEAR-001 / T69-BONE-TOOLS-2025-001
+
+- **Cronología:** Achelense en Kokiselei 4 `~1.76 Ma` sin reemplazo instantáneo del Oldowan.
+- **T69:** 27 huesos con series de extracciones y selección taxonómica favorecen producción sistemática `~1.5 Ma`.
+- **Límite:** forma, función, taxón y modo de transmisión conservan incertidumbres distintas.
+
+### CLAIM-LITHIC-INTENT-EQUIFINALITY-001
+
+- **Controles:** capuchinos y macacos producen lascas/atributos solapados sin buscar filos.
+- **Resultado:** una lasca aislada no decide intención; conjunto, núcleos, distribución, refits y uso aumentan discriminación.
+- **No afirma:** los primates actuales fabricaron conjuntos homininos.
+
+### CLAIM-BONE-MARKS-DIAGNOSTIC-CONDITIONAL-001
+
+- **Equifinales:** pisoteo, carnívoros, cocodrilos, caída de rocas y fractura sedimentaria.
+- **Calibración:** pruebas ciegas controladas pueden ser muy precisas; base abierta 2026 produce `74–83 %` según clases.
+- **Regla:** publicar comparadores, error por clase, transferencia al fósil y agentes ausentes.
+
+### CLAIM-FIRE-LADDER-001
+
+- **Peldaños:** incendio natural → material calentado → combustión in situ → control → recurrencia → ignición.
+- **Relojes:** capa, evento térmico y tradición de uso no son equivalentes.
+- **Límite:** un peldaño no hereda automáticamente los superiores.
+
+### CLAIM-WONDERWERK-IN-SITU-FIRE-001 / GBY-REPEATED-FIRE-001
+
+- **Wonderwerk:** ceniza vegetal y hueso quemado microestratificados dentro de la cueva `~1.0 Ma`.
+- **GBY:** concentraciones quemadas en varios horizontes `~790 ka` y peces compatibles con cocción.
+- **Límite:** control/recurrencia fuertes; método de ignición no observado.
+
+### CLAIM-BARNHAM-IGNITION-CONDITIONAL-2026-001
+
+- **Convergencia:** sedimento calentado, bifaces fracturados por calor y pirita rara/transportada en `~400 ka`.
+- **Resultado:** producción deliberada de fuego es la explicación conjunta más fuerte disponible.
+- **Límite:** no se observa chispa ni se demuestra especie, cocina, habitualidad diaria o lenguaje.
+
+### CLAIM-TRANSPORT-NOT-COOPERATION-001 / REFITS-NOT-TEACHING-001
+
+- **Transporte:** puede ser individual o acumulado; requiere pruebas de simultaneidad para cooperación.
+- **Refits:** reconstruyen secuencia de extracciones/deposición, no maestro, aprendiz o número de personas.
+- **Organización:** debe excluir formación postdeposicional y palimpsesto.
+
+### CLAIM-SCHONINGEN-COOPERATION-CONDITIONAL-2025-001
+
+- **Archivo:** armas de madera, fauna, recurrencia y edad revisada `~200 ka`.
+- **Inferencia:** caza coordinada/especializada probable.
+- **Límite:** fabricantes, participantes, parentesco, roles, habla y moral no fueron observados.
+
+### CLAIM-TOOLS-NOT-TEACHING-001 / TOOLS-NOT-LANGUAGE-001
+
+- **Experimentos:** técnicas tempranas y forma general de bifaz pueden reaparecer sin copia directa de saber hacer.
+- **Complemento:** enseñanza/gesto/lenguaje mejoran transmisión bajo protocolos actuales.
+- **Decisión:** forma compatible con enseñanza no demuestra necesidad histórica ni fecha lenguaje.
+
 ## Claims futuros
 
 Las entradas cronológicas todavía no auditadas permanecen como eventos `SEMILLA` en `TIMELINE.md`. Se convertirán en claims al llegar su turno en el roadmap; así se evita otorgar apariencia de auditoría a fechas usadas inicialmente solo como orientación.

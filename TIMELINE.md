@@ -341,8 +341,25 @@ En esta sección una fecha arqueológica no demuestra por sí sola “propiedad�
 | `TIME-MONTE-VERDE-001` | `~14.5 ka` clásico frente a `8.2–4.2 ka` propuesto en 2026 | cronología del componente MV-II reabierta | unidades, tefra y objetos asociados no tienen correlación aceptada común | `SRC-DILLEHAY-MONTE-VERDE-2008`, `SRC-SUROVELL-MONTE-VERDE-2026` | D/ABIERTA | AUDITADO |
 | `TIME-AMERICAS-GENOMIC-DISPERSALS-001` | Holoceno temprano–tardío; intervalos modelados | al menos tres dispersiones hacia Sudamérica y diferenciación posterior | genomas actuales/antiguos y coalescencia; no fecha entrada | `SRC-CASTRO-E-SILVA-AMERICAS-2026` | B-COND patrón; C-MOD tiempos | AUDITADO |
 
+## VI. Herramientas, fuego y cooperación
+
+Las fechas de esta sección corresponden a capas, objetos o eventos térmicos concretos. No son comienzos universales de capacidad, tradición, especie o institución social.
+
+| ID | Fecha/intervalo | Evento delimitado | Incertidumbre y evidencia | Fuente | Confianza | Estado |
+|---|---:|---|---|---|---|---|
+| `TIME-LOMEKWI-047-001` | `~3.3 Ma` propuesto | modificación lítica en Lomekwi 3 | artefactualidad fuerte en piezas; procedencia primaria/categoría disputadas | `SRC-HARMAND-LOMEKWI-2015`, `SRC-ARCHER-LOMEKWI-2020`, `SRC-FLICKER-LOMEKWI-2023` | C-COND contexto; D tradición | AUDITADO |
+| `TIME-NYAYANGA-047-001` | `3.032–2.581 Ma`; mejor `~2.9 Ma` | Oldowan y procesamiento en Nyayanga | dos molares de *Paranthropus* no identifican fabricante | `SRC-PLUMMER-NYAYANGA-2023` | B conjunto; D autor | AUDITADO |
+| `TIME-NYAYANGA-TRANSPORT-001` | al menos `~2.6 Ma` | selección/movimiento de rocas no locales hasta `~13 km` | fuentes antiguas exactas no preservadas; agentes no contados | `SRC-FINESTONE-NYAYANGA-2025` | B-COND transporte | AUDITADO |
+| `TIME-NAMOROTUKUNAN-047-001` | `2.75–2.44 Ma` | persistencia de tecnología Oldowan | tres horizontes y multiproxy; no tradición biológica | `SRC-BRAUN-NAMOROTUKUNAN-2025` | B-COND | AUDITADO |
+| `TIME-ACHEULEAN-EARLY-047-001` | `~1.76 Ma` | Achelense en Kokiselei 4 | contexto/paleomagnetismo; no reemplazo instantáneo | `SRC-LEPRE-ACHEULEAN-2011` | B | AUDITADO |
+| `TIME-T69-BONE-TOOLS-001` | `~1.5 Ma` | producción sistemática de útiles óseos en T69 | 27 piezas + controles; función/autor/transmisión abiertos | `SRC-DELATORRE-BONE-2025` | B-COND | AUDITADO |
+| `TIME-WONDERWERK-FIRE-001` | `~1.0 Ma` | combustión in situ dentro de Wonderwerk | ceniza/hueso + microestratigrafía; no ignición | `SRC-BERNA-WONDERWERK-2012` | B-COND | AUDITADO |
+| `TIME-GBY-FIRE-001` | `~790–780 ka` | uso reiterado de fuego y peces compatibles con cocción | varios horizontes/proxy térmico; no método de obtención | `SRC-GOREN-INBAR-GBY-2004`, `SRC-ALPERSON-AFIL-GBY-2008`, `SRC-ZOHAR-FISH-2022` | B-COND | AUDITADO |
+| `TIME-BARNHAM-IGNITION-001` | `~400 ka` | producción deliberada de fuego inferida | calor + bifaces térmicos + pirita rara transportada; chispa no observada | `SRC-DAVIS-BARNHAM-2026` | B-COND | AUDITADO |
+| `TIME-SCHONINGEN-001` | `~200 ka` revisado | armas y caza coordinada probable en Schöningen | aminoácidos/comparadores; episodios, taxón y roles condicionados | `SRC-HUTSON-SCHONINGEN-2025` | C/B-COND | AUDITADO |
+
 ## Próxima acción cronológica
 
-Las investigaciones extensas auditadas llegan de `INV-EARTH-AGE-001` a `INV-MIGR-AMERICAS-001`. El siguiente trabajo es `INV-MIND-TOOLS-FIRE-001`: deberá separar herramienta, producción, uso, control del fuego, mantenimiento, cooperación y transmisión sin convertir capacidad en conducta observada.
+Las investigaciones extensas auditadas llegan de `INV-EARTH-AGE-001` a `INV-MIND-TOOLS-FIRE-001`. El siguiente trabajo es `INV-MIND-LANGUAGE-001`: deberá separar anatomía, capacidad vocal/auditiva, señal convencional, transmisión, sintaxis y lenguaje sin convertir un proxy aislado en habla observada.
 
 La línea temática `INV-CIV-ORIGINS-001` permanece separada en estado `TRAZADO`; organiza expedientes regionales, pero no cambia la próxima acción de la secuencia global.
