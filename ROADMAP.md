@@ -115,6 +115,16 @@ En cada periodo se auditarán primero sus límites cronoestratigráficos y despu
 | 051 | `INV-CITIES-STATES-001` | aldeas, especialización, jerarquías, ciudades y estados |
 | 052 | `INV-CIVILIZATIONS-001` | comparación arqueológica de primeras civilizaciones |
 
+## Línea temática anticipada CIV — subíndice propio
+
+Esta línea abre un marco comparativo antes de que la secuencia global alcance `050–052`. No renumera, sustituye ni marca como completas las investigaciones `037–051`.
+
+| Orden temático | ID | Alcance | Estado |
+|---:|---|---|---|
+| CIV-001 | `INV-CIV-ORIGINS-001` | [sedentarismo, almacenamiento, domesticaciones, urbanismo, administración y autoridad en carriles regionales](14_civilizaciones/INVESTIGACION_CIV_001_ORIGENES_ALDEAS_CIUDADES_ESTADOS.md) | **TRAZADO** |
+
+El marco crítico y el programa regional están en [`14_civilizaciones/MARCO_CRITICO_CIVILIZACION.md`](14_civilizaciones/MARCO_CRITICO_CIVILIZACION.md) y [`14_civilizaciones/PROGRAMA_CRONOLOGICO_GLOBAL.md`](14_civilizaciones/PROGRAMA_CRONOLOGICO_GLOBAL.md). La próxima investigación de la secuencia global sigue siendo `INV-AUSTRALOPITH-001`.
+
 ## Fase 7 — Ramas transversales
 
 Después de disponer de la secuencia base:
@@ -174,6 +184,7 @@ Después de disponer de la secuencia base:
 - `v0.1.33`: Investigación 034 + historia de los seis relojes cuaternarios + mapas de órbita, hielo, MPT, cambios abruptos y extinción/atribución, actualizados con hielo antártico antiguo de 2026.
 - `v0.1.34`: Investigación 035 + historia del reloj molecular al mosaico T2T + mapas de topología, divergencia, mutación, coalescencia, fósiles y estructura cromosómica, con ILS y flujo génico explícitamente separados.
 - `v0.1.35`: Investigación 036 + historia del “eslabón” a hipodigmas y modelos + mapas de asociación, geocronología, función, ambiente y filogenia, actualizados con tobillo de Ardi 2025 y fémur atribuido a `Sahelanthropus` 2026.
+- `v0.1.35-civ.1`: marco crítico y programa regional CIV + `INV-CIV-ORIGINS-001` en estado `TRAZADO`, sin alterar la secuencia global pendiente.
 - `v0.1.36`: Investigación 037 + historia de Taung/Lucy/“cascanueces” a hipodigmas y proxies + mapas de seis rutas, actualizados con `A. deyiremeda` y mano de `P. boisei` de 2025, `Paranthropus` del Afar y locomoción sudafricana de 2026.
 - `v0.2`: Hadeano/Arcaico auditados.
 - `v0.3`: Proterozoico y origen/temprana evolución de la vida.

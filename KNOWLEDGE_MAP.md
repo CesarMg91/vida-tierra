@@ -827,6 +827,20 @@ bipedalidad ⇏ Hominini automático
 
 Véase `INV-HOMININ-EARLY-001` en `08_cenozoico`, su mapa en `assets/visuales/mapa-investigacion-036.svg` y la doble cadena en `assets/visuales/de-fragmento-a-taxon-y-de-hueso-a-locomocion.svg`.
 
+### Línea temática CIV-001 — De archivos locales a comparaciones regionales
+
+```text
+arquitectura + estacionalidad + comensales ──> movilidad residencial acotada ─┐
+semillas + morfología + secuencia ──────────> manejo / domesticación ────────┤
+superficie + densidad + funciones ──────────> urbanismo regional ────────────┼─> comparación histórica
+tablillas + sellos + almacenes ─────────────> operaciones administrativas ───┤
+tributo + obras + coerción + negociación ───> alcance de autoridad ──────────┘
+
+sedentarismo ⇏ agricultura ⇏ ciudad ⇏ escritura ⇏ Estado
+correlación entre rutas = hipótesis para probar, no equivalencia
+```
+
+La arquitectura usa casos desfasados y regiones distintas para someter a prueba una secuencia universal. Una edad pertenece primero a una muestra y a un contexto; cada salto a práctica, institución o escala requiere asociación y archivos adicionales. Véanse [`INV-CIV-ORIGINS-001`](14_civilizaciones/INVESTIGACION_CIV_001_ORIGENES_ALDEAS_CIUDADES_ESTADOS.md), el [`marco crítico`](14_civilizaciones/MARCO_CRITICO_CIVILIZACION.md), la [`cronología regional`](21_cronologias/CRONOLOGIA_CIV_001_CARRILES_REGIONALES.md) y el [`mapa epistemológico`](22_mapas_epistemologicos/MAPA_CIV_001_ORIGENES.md).
 ### Investigación 037 — Australopitecos y Paranthropus
 
 ```text

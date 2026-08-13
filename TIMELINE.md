@@ -252,7 +252,17 @@ En esta sección una fecha arqueológica no demuestra por sí sola “propiedad�
 | `TIME-INDUS-URBAN-001` | ~2600–1900 a. C. | fase urbana madura del Indo | cronologías regionales y asociación de fases | ciudades, pesos, sellos, producción y ambiente; fuentes por registrar | B | SEMILLA |
 | `TIME-CHINA-EARLYSTATE-001` | ~1900–1500 a. C. | complejidad estatal temprana Erlitou/Edad del Bronce | relación con “Xia” textual es discutida | asentamiento, bronces, palacios, `14C` | `SRC-LIU-2012` + primarias por registrar | B para arqueología; D para identificación textual |
 | `TIME-MESOAMERICA-EARLY-001` | ~1500–900 a. C. | centros olmecas y complejidad regional temprana | trayectorias múltiples; no origen único de Mesoamérica | montículos, escultura, intercambio y `14C`; por registrar | B-C | SEMILLA |
+| `TIME-CIV-OHALO-001` | ~`23 ka cal BP` | seis estructuras y pisos de ocupación de Ohalo II | edades de contexto; duración de cada estancia no equivale a residencia anual | `SRC-NADEL-OHALO-2004` | B-LOCAL | TRAZADO |
+| `TIME-CIV-AINMALLAHA-001` | ~`15 ka cal BP` | señal comensal de ratón en ʿAin Mallaha dentro de la secuencia natufiense | proxy ecológico de movilidad residencial; no fecha agricultura | `SRC-WEISSBROD-MICE-2017` | B-LOCAL-COND | TRAZADO |
+| `TIME-CIV-DHRA-001` | `11.30–11.18 ka cal BP` | graneros predomésticos excavados en Dhra’ | función y fase arqueológica; no identifica contenido ni propiedad por sí solas | `SRC-KUIJT-DHRA-2009` | B-LOCAL | TRAZADO |
+| `TIME-CIV-KUK-001` | `10.22–9.91` y `6.95–6.44 ka cal BP` | fase 1 de manejo/cultivo y fase 2 de montículos en Kuk | interpretación geomorfológica y botánica local; no paquete neolítico | `SRC-DENHAM-KUK-2003` | B-LOCAL-COND | TRAZADO |
+| `TIME-CIV-GUILA-001` | ~`10–8 ka cal BP` | especímenes de `Cucurbita pepo` en Guilá Naquitz | nueve fechas AMS y diagnóstico morfológico; no dependencia agrícola regional | `SRC-SMITH-CUCURBITA-1997` | B-LOCAL-COND | TRAZADO |
+| `TIME-CIV-TIANLUOSHAN-001` | ~`6.9–6.6 ka cal BP` | cambio gradual de espiguillas y presencia de arroz en Tianluoshan | serie arqueobotánica corta; proporción preservada no es población completa | `SRC-FULLER-RICE-2009` | B-LOCAL-COND | TRAZADO |
+| `TIME-CIV-TELLBRAK-001` | fines del V milenio a. C. | concentración urbana septentrional en Tell Brak | prospección y fase cerámica; superficie no equivale a autoridad central | `SRC-OATES-BRAK-2007`, `SRC-LAWRENCE-URBANISM-2015` | B-COND | TRAZADO |
+| `TIME-CIV-URUK-P003414-001` | ~`3350–3200 a. C.` | tablilla administrativa P003414, fase Uruk IV | datación tipológica/estratigráfica catalogada; un objeto no mide alcance estatal | `SRC-CDLI-P003414` | A objeto/fase; C alcance | TRAZADO |
 
 ## Próxima acción cronológica
 
 Las investigaciones extensas auditadas llegan de `INV-EARTH-AGE-001` a `INV-HOMININ-EARLY-001`. El siguiente trabajo es `INV-AUSTRALOPITH-001`: deberá separar especie, localidad, locomoción, dieta, dimorfismo, cronología y parentesco de australopitecos y `Paranthropus` sin dibujar una escalera hacia `Homo`.
+
+La línea temática `INV-CIV-ORIGINS-001` permanece separada en estado `TRAZADO`; organiza expedientes regionales, pero no cambia la próxima acción de la secuencia global.

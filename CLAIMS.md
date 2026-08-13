@@ -535,6 +535,18 @@ Este archivo es el índice canónico. La letra de confianza califica exactamente
 | `CLAIM-ARDIPITHECUS-PALEOENVIRONMENT-001` | Aramis fue un ambiente arbolado/abierto en mosaico; proxies discrepan sobre cobertura y escala, no sostienen una dicotomía causal simple. | B-LOCAL | AUDITADO | `EVID-ARDI-HABITAT-001` | `INV-HOMININ-EARLY-001` |
 | `CLAIM-ARDIPITHECUS-PHYLOGENY-001` | Una matriz ampliada de ~`26 %` a ~`78 %` de caracteres recupera `Ar. ramidus` como hominino basal, condicionado a codificación y modelo. | B-COND | AUDITADO | `EVID-ARDI-PHYLOGENY-001` | `INV-HOMININ-EARLY-001` |
 | `CLAIM-EARLY-HOMININ-ANCESTRY-LIMIT-001` | Ningún candidato es ancestro directo demostrado ni la secuencia temporal prueba una cadena lineal entre géneros. | A-SEM; D genealogía | AUDITADO | `EVID-EARLY-HOMININ-ANCESTRY-LIMIT-001` | `INV-HOMININ-EARLY-001` |
+| `CLAIM-CIV-CATEGORY-001` | «Civilización» es una etiqueta histórica/comparativa, no una variable medida; cada uso debe descomponerse en observables. | A-SEM | TRAZADO | `EVID-CIV-CONCEPT-HISTORY-001`, `EVID-CIV-CHILDE-CRITERIA-001` | `INV-CIV-ORIGINS-001` |
+| `CLAIM-CIV-DATING-CONTEXT-001` | Una edad arqueométrica pertenece a la muestra y su contexto; vincularla con un acontecimiento exige demostrar asociación y puente inferencial. | A-SEM | TRAZADO | `EVID-QUATERNARY-RADIOCARBON-001`, `EVID-CIV-EGYPT-CHRONOLOGY-001` | `INV-CIV-ORIGINS-001` |
+| `CLAIM-CIV-SEQUENCE-NONUNIVERSAL-001` | La comparación regional rechaza como necesaria una secuencia universal sedentarismo–agricultura–aldea–ciudad–escritura–Estado. | A para negar universalidad; C para dependencias frecuentes | TRAZADO | `EVID-CIV-MICE-AINMALLAHA-001`, `EVID-CIV-DHRA-GRANARIES-001`, `EVID-CIV-KUK-001`, `EVID-CIV-GUILA-CUCURBITA-001`, `EVID-CIV-TELLBRAK-SURVEY-001`, `EVID-CIV-NORTECHICO-DATES-001` | `INV-CIV-ORIGINS-001` |
+| `CLAIM-CIV-SEDENTISM-BEFORE-AGRICULTURE-001` | El patrón comensal de ratón en ʿAin Mallaha apoya movilidad residencial reducida cerca de `15 ka cal BP`, antes de la agricultura. | B-LOCAL-COND | TRAZADO | `EVID-CIV-MICE-AINMALLAHA-001` | `INV-CIV-ORIGINS-001` |
+| `CLAIM-CIV-STORAGE-BEFORE-DOMESTICATION-001` | Dhra’ conserva graneros de `11.30–11.18 ka cal BP` en contexto previo a cereales morfológicamente domesticados. | B-LOCAL | TRAZADO | `EVID-CIV-DHRA-GRANARIES-001` | `INV-CIV-ORIGINS-001` |
+| `CLAIM-CIV-DOMESTICATION-MULTIREGIONAL-001` | Series arqueobotánicas apoyan cambios domesticatorios graduales, paralelos y convergentes en varias regiones, no un foco ni instante únicos. | B | TRAZADO | `EVID-CIV-DOMESTICATION-COMPARATIVE-001`, `EVID-CIV-KUK-001`, `EVID-CIV-GUILA-CUCURBITA-001`, `EVID-CIV-TIANLUOSHAN-RICE-001` | `INV-CIV-ORIGINS-001` |
+| `CLAIM-CIV-KUK-CULTIVATION-001` | En Kuk, la fase 1 (`10.22–9.91 ka cal BP`) apoya manejo/cultivo y la fase 2 (`6.95–6.44 ka`) montículos intensivos, dentro de una trayectoria local. | B-LOCAL-COND | TRAZADO | `EVID-CIV-KUK-001` | `INV-CIV-ORIGINS-001` |
+| `CLAIM-CIV-GUILA-CUCURBITA-001` | Nueve fechas AMS y morfología de `Cucurbita pepo` sitúan ejemplares domesticados de Guilá Naquitz en ~`10–8 ka cal BP`. | B-LOCAL-COND | TRAZADO | `EVID-CIV-GUILA-CUCURBITA-001` | `INV-CIV-ORIGINS-001` |
+| `CLAIM-CIV-RICE-TRAJECTORY-001` | En Tianluoshan (`6.9–6.6 ka cal BP`), las bases no desprendibles publicadas suben de `27 %` a `39 %` y el arroz de `8 %` a `24 %` del conjunto vegetal. | B-LOCAL-COND | TRAZADO | `EVID-CIV-TIANLUOSHAN-RICE-001` | `INV-CIV-ORIGINS-001` |
+| `CLAIM-CIV-URBANISM-MULTIPATH-001` | Tell Brak y la prospección regional apoyan rutas y pulsos múltiples de urbanización en Mesopotamia septentrional, no una difusión sur–norte única. | B-COND | TRAZADO | `EVID-CIV-TELLBRAK-SURVEY-001`, `EVID-CIV-NMESO-URBAN-PATHS-001` | `INV-CIV-ORIGINS-001` |
+| `CLAIM-CIV-WRITING-ADMIN-001` | P003414 es una tablilla administrativa excavada de Uruk IV; prueba un registro local, no alfabetización general ni alcance estatal. | A objeto/género; C alcance | TRAZADO | `EVID-CIV-CDLI-P003414-001` | `INV-CIV-ORIGINS-001` |
+| `CLAIM-CIV-INEQUALITY-PROXY-001` | En la muestra publicada de 64 sitios, el Gini de tamaño de vivienda aumenta con domesticación/escala política y más en Eurasia posneolítica; proxy, cobertura y corrección limitan el patrón. | B-COND | TRAZADO | `EVID-CIV-HOUSE-GINI-001` | `INV-CIV-ORIGINS-001` |
 | `CLAIM-AUSTRALOPITH-SCOPE-001` | Entre `~4.2 y 1.2 Ma`, australopitecos y `Paranthropus` documentan diversidad ramificada, no una etapa única hacia `Homo`. | B | AUDITADO | `EVID-AUSTRALOPITH-METHOD-001`, `EVID-AUSTRALOPITH-AGE-001` | `INV-AUSTRALOPITH-001` |
 | `CLAIM-AUSTRALOPITH-TAXONOMY-001` | Una especie fósil exige comparar combinación de caracteres contra ontogenia, sexo, tamaño, población y deformación; un rasgo aislado no basta. | A-MET | AUDITADO | `EVID-AUSTRALOPITH-METHOD-001`, `EVID-KENYANTHROPUS-001`, `EVID-DEYIREMEDA-001` | `INV-AUSTRALOPITH-001` |
 | `CLAIM-AUSTRALOPITH-DIVERSITY-001` | Rangos solapados y morfologías distintas sostienen varias formas contemporáneas, con apoyo taxonómico desigual. | B-COND | AUDITADO | `EVID-MRD-001`, `EVID-PLIOCENE-DIVERSITY-001` | `INV-AUSTRALOPITH-001` |
@@ -2986,6 +2998,31 @@ Este archivo es el índice canónico. La letra de confianza califica exactamente
 - **Resultado:** dieta generalista y ambiente mosaico son defendibles.
 - **Salto prohibido:** extraer organización social o causa única del bipedalismo.
 
+## Línea temática CIV-001 — Procesos, cronologías y categorías
+
+### CLAIM-CIV-CATEGORY-001 / DATING-CONTEXT-001 / SEQUENCE-NONUNIVERSAL-001
+
+- **Separación:** «civilización» se despliega en variables; una fecha pertenece primero a una muestra; el orden de variables se prueba por región.
+- **Resultado:** los casos comparados contradicen una cadena necesaria y universal entre sedentarismo, agricultura, ciudad, escritura y Estado.
+- **Límite:** negar una secuencia universal no niega correlaciones históricas locales ni autoriza una causalidad alternativa única.
+
+### CLAIM-CIV-SEDENTISM-BEFORE-AGRICULTURE-001 / STORAGE-BEFORE-DOMESTICATION-001
+
+- **Archivos:** cambio de proporciones entre ratón doméstico y silvestre en ʿAin Mallaha; estructuras elevadas interpretadas como graneros en Dhra’.
+- **Resultado:** movilidad residencial reducida y almacenamiento pueden anteceder a agricultura y domesticación morfológica.
+- **Límite:** no quedan demostradas residencia anual, contenido almacenado, propiedad ni desigualdad.
+
+### CLAIM-CIV-DOMESTICATION-MULTIREGIONAL-001 / KUK-CULTIVATION-001 / GUILA-CUCURBITA-001 / RICE-TRAJECTORY-001
+
+- **Archivos:** suelos y rasgos de cultivo, morfología vegetal, fitolitos, bases de espiguilla y series `14C` en regiones distintas.
+- **Resultado:** manejo, cultivo, domesticación morfológica y dependencia son transiciones separables, graduales y repetidas.
+- **Límite:** cada caso es local y preserva especies, resoluciones y puentes diferentes; no constituye una trayectoria global completa.
+
+### CLAIM-CIV-URBANISM-MULTIPATH-001 / WRITING-ADMIN-001 / INEQUALITY-PROXY-001
+
+- **Archivos:** prospección de asentamientos, una tablilla catalogada y tamaño de vivienda en una muestra comparativa.
+- **Resultado:** el urbanismo tuvo pulsos regionales múltiples; escritura documenta operaciones; vivienda puede aproximar desigualdad material.
+- **Límite:** ciudad, administración y Estado no son equivalentes; una tablilla no mide territorio y un Gini de casas no observa riqueza total.
 ## Investigación 037 — Australopitecos y Paranthropus
 
 ### CLAIM-AUSTRALOPITH-SCOPE-001 / TAXONOMY-001 / DIVERSITY-001 / ANCESTRY-LIMIT-001
