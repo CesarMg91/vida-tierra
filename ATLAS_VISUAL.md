@@ -551,6 +551,20 @@ El mapa conserva ocho productos —tiempo, tipo, paleodemo, morfología, molécu
 
 Los dos carriles muestran límites complementarios: un holotipo necesita hipodigma, variación y árbol para sostener especie; una molécula necesita autenticación, referencias y demografía para sostener población. Ninguno fija por sí solo el rango zoológico.
 
+## 41. Investigación 040 — Neandertales, denisovanos y mestizaje
+
+![Portada conceptual de neandertales, denisovanos y mestizaje](assets/visuales/hero-neandertales-denisovanos-mestizaje.png)
+
+> **Portada conceptual:** distribuye huesos, sedimento, péptidos, ADN antiguo, un genoma parental y mosaicos de tractos en vitrinas no coetáneas. No reproduce especímenes, anatomía diagnóstica, personas, encuentros, frecuencia ni porcentajes.
+
+![Mapa epistemológico de neandertales, denisovanos y mestizaje](assets/visuales/mapa-investigacion-040.svg)
+
+El mapa conserva cinco escalas —fósil, molécula, individuo, población y retención— y muestra qué método autoriza cada puente y qué conclusión queda fuera.
+
+![Cadenas de fragmento a linaje y de segmento a historia demográfica](assets/visuales/de-fragmento-a-linaje-y-de-segmento-a-historia-demografica.svg)
+
+La doble cadena separa autenticación/afinidad de estadística/tractos/modelo. Un F1 es evidencia directa de parentaje; un porcentaje actual sigue siendo una inferencia poblacional transformada por la historia.
+
 ## Procedencia
 
 El registro de creación, límites y prompt de cada pieza está en [`assets/visuales/README.md`](assets/visuales/README.md).

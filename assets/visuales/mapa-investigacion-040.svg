@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Mapa epistemológico de neandertales, denisovanos y mestizaje</title>
+  <desc id="desc">Cinco carriles separan fósil, molécula, individuo, población y ancestría retenida, con puentes de método y límites de inferencia.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#101725"/><stop offset="1" stop-color="#1c1424"/></linearGradient>
+    <filter id="shadow"><feDropShadow dx="0" dy="8" stdDeviation="9" flood-opacity=".3"/></filter>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0 0L9 3L0 6Z" fill="#92a7b8"/></marker>
+    <style>
+      .h1{font:700 34px system-ui,sans-serif;fill:#f4eee4}.sub{font:400 17px system-ui,sans-serif;fill:#b9c5cf}.lane{font:700 20px system-ui,sans-serif;fill:#fff}.t{font:600 17px system-ui,sans-serif;fill:#f6f1e9}.s{font:400 14px system-ui,sans-serif;fill:#cad3db}.limit{font:600 14px system-ui,sans-serif;fill:#ffcc87}.box{rx:16;filter:url(#shadow);stroke-width:1.5}.a{stroke:#58c4c1;fill:#173238}.b{stroke:#7fa5e8;fill:#1d2942}.c{stroke:#d79c5e;fill:#392719}.d{stroke:#bd82c9;fill:#34203b}.e{stroke:#8ab36f;fill:#25351f}.arr{fill:none;stroke:#92a7b8;stroke-width:2.4;marker-end:url(#arrow)}
+    </style>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <text x="70" y="70" class="h1">Cinco escalas que no deben colapsarse</text>
+  <text x="70" y="103" class="sub">Cada columna cambia de objeto, instrumento y pregunta; las flechas son puentes condicionados.</text>
+
+  <text x="90" y="158" class="lane">1 · FÓSIL / CONTEXTO</text>
+  <rect x="65" y="185" width="260" height="130" class="box a"/>
+  <text x="90" y="220" class="t">Hueso · diente · capa</text><text x="90" y="251" class="s">anatomía · U-series · OSL</text><text x="90" y="278" class="s">individuo y presencia local</text>
+  <rect x="65" y="346" width="260" height="105" class="box a"/>
+  <text x="90" y="381" class="limit">NO ENTREGA</text><text x="90" y="409" class="s">genoma continental</text><text x="90" y="432" class="s">ni autor de industria</text>
+
+  <text x="395" y="158" class="lane">2 · MOLÉCULA</text>
+  <rect x="370" y="185" width="260" height="130" class="box b"/>
+  <text x="395" y="220" class="t">ADN · péptidos</text><text x="395" y="251" class="s">daño · blancos · variantes</text><text x="395" y="278" class="s">afinidad con referencias</text>
+  <rect x="370" y="346" width="260" height="105" class="box b"/>
+  <text x="395" y="381" class="limit">NO FIJA</text><text x="395" y="409" class="s">especie zoológica</text><text x="395" y="432" class="s">ni población completa</text>
+
+  <text x="700" y="158" class="lane">3 · INDIVIDUO</text>
+  <rect x="675" y="185" width="260" height="130" class="box c"/>
+  <text x="700" y="220" class="t">Genoma diploide</text><text x="700" y="251" class="s">parentaje · heterocigosidad</text><text x="700" y="278" class="s">Denisova 11: hija F1</text>
+  <rect x="675" y="346" width="260" height="105" class="box c"/>
+  <text x="700" y="381" class="limit">NO MIDE</text><text x="700" y="409" class="s">frecuencia de contactos</text><text x="700" y="432" class="s">ni contexto social</text>
+
+  <text x="1005" y="158" class="lane">4 · POBLACIÓN</text>
+  <rect x="980" y="185" width="260" height="130" class="box d"/>
+  <text x="1005" y="220" class="t">Alelos · tractos · series</text><text x="1005" y="251" class="s">D/f · HMM · recombinación</text><text x="1005" y="278" class="s">flujo, dirección, intervalo</text>
+  <rect x="980" y="346" width="260" height="105" class="box d"/>
+  <text x="1005" y="381" class="limit">DEPENDE DE</text><text x="1005" y="409" class="s">estructura · referencia</text><text x="1005" y="432" class="s">mapa y demografía</text>
+
+  <text x="1310" y="158" class="lane">5 · RETENCIÓN</text>
+  <rect x="1285" y="185" width="250" height="130" class="box e"/>
+  <text x="1310" y="220" class="t">Mosaico actual</text><text x="1310" y="251" class="s">recombinación · selección</text><text x="1310" y="278" class="s">fracción reconocida</text>
+  <rect x="1285" y="346" width="250" height="105" class="box e"/>
+  <text x="1310" y="381" class="limit">NO SIGNIFICA</text><text x="1310" y="409" class="s">porcentaje corporal</text><text x="1310" y="432" class="s">ni mezcla inicial</text>
+
+  <path d="M325 250H360" class="arr"/><path d="M630 250H665" class="arr"/><path d="M935 250H970" class="arr"/><path d="M1240 250H1275" class="arr"/>
+
+  <rect x="65" y="520" width="720" height="285" class="box b"/>
+  <text x="95" y="563" class="lane">CONVERGENCIAS FUERTES</text>
+  <text x="95" y="607" class="t">Denisova 11</text><text x="310" y="607" class="s">nuclear + mtDNA + mosaico cromosómico</text>
+  <text x="95" y="651" class="t">Evento compartido</text><text x="310" y="651" class="s">genomas antiguos + actuales + longitud de tractos</text>
+  <text x="95" y="695" class="t">Denisovanos asiáticos</text><text x="310" y="695" class="s">proteína + sedimento + ADN de varios sitios</text>
+  <text x="95" y="739" class="t">EPAS1</text><text x="310" y="739" class="s">afinidad + frecuencia + selección + fisiología</text>
+  <text x="95" y="778" class="limit">Independencia alta sólo cuando cambian muestra, sitio y método.</text>
+
+  <rect x="815" y="520" width="720" height="285" class="box c"/>
+  <text x="845" y="563" class="lane">ADVERSARIOS Y FALSADORES</text>
+  <text x="845" y="607" class="t">Estructura ancestral</text><text x="1080" y="607" class="s">puede imitar pulsos bajo modelos simples</text>
+  <text x="845" y="651" class="t">Referencia sesgada</text><text x="1080" y="651" class="s">Altái no representa todas las ramas</text>
+  <text x="845" y="695" class="t">Contaminación</text><text x="1080" y="695" class="s">exige daño, blancos y replicación</text>
+  <text x="845" y="739" class="t">Nuevos genomas</text><text x="1080" y="739" class="s">pueden reasignar donantes y fósiles</text>
+  <text x="845" y="778" class="limit">Un F1 resiste al adversario estructural; su prevalencia no.</text>
+  <text x="70" y="860" class="sub">INV-NEAND-DENIS-001 · diagrama original · no representa fronteras, rostros, encuentros ni porcentajes literales</text>
+</svg>
