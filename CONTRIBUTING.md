@@ -41,6 +41,19 @@ node scripts/validate-citations.mjs --nuevos
 
 Debe cerrar con `Titulos que no corresponden al DOI: 0`. Un enlace que abre no garantiza que lleve al trabajo citado: el título registrado tiene que coincidir con el publicado. Ejecuta también `scripts/validate-repository.ps1` para comprobar enlaces, IDs y las once secciones obligatorias.
 
+## Gate antes de publicar una rama
+
+Cada `push` a una rama conectada crea un Preview de Vercel. Para evitar despliegues fallidos y notificaciones repetidas, agrupa primero los commits coherentes y ejecuta localmente:
+
+```powershell
+powershell -NoProfile -ExecutionPolicy Bypass -File scripts/validate-repository.ps1
+node scripts/validate-citations.mjs --nuevos
+npm.cmd run build
+git diff --check
+```
+
+Publica la rama una sola vez después de que los cuatro controles terminen correctamente. Un Preview verde comprueba el artefacto desplegado; no sustituye las validaciones científicas ni bibliográficas.
+
 ## Licencia de las aportaciones
 
 Al contribuir aceptas que tu aportación se publique bajo las licencias del proyecto: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.es) para el contenido y [MIT](LICENSE) para el código. Los detalles están en [`LICENCIAS.md`](LICENCIAS.md).
