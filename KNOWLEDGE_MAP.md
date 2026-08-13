@@ -826,3 +826,27 @@ bipedalidad ⇏ Hominini automático
 ```
 
 Véase `INV-HOMININ-EARLY-001` en `08_cenozoico`, su mapa en `assets/visuales/mapa-investigacion-036.svg` y la doble cadena en `assets/visuales/de-fragmento-a-taxon-y-de-hueso-a-locomocion.svg`.
+
+### Investigación 037 — Australopitecos y Paranthropus
+
+```text
+reloj + procedencia ─────────────────> edad del contexto ────────────┐
+forma + variación + deformación ─────> hipótesis de taxón ───────────┤
+esqueleto/huella + biomecánica ──────> repertorio locomotor ─────────┤
+anatomía + δ13C + microdesgaste ─────> dieta por ventanas ───────────┤
+artefacto/marca + tafonomía ─────────> acción/productores candidatos ┤
+caracteres + matriz ─────────────────> topología condicionada ───────┘
+                                                          │
+                                                          └─> no hay una escalera única
+```
+
+MRD convierte una secuencia aparente en solapamiento posible; Dikika y Laetoli separan cuerpo de huella; `A. deyiremeda` muestra cómo nuevos fósiles fortalecen un taxón sin articular todas sus piezas. En `Paranthropus`, aparato masticatorio, isótopos, mano y Oldowan responden preguntas diferentes: capacidad no es menú y capacidad manual no es autoría.
+
+```text
+MRD + frontal de Hadar ─> solapamiento ≥~100 kyr ─> anagénesis estricta debilitada
+pie BRT + dentición local ─> atribución parsimoniosa ─> mismo individuo no demostrado
+KNM-ER 101000 ─> mano/pie de P. boisei ─> precisión y potencia ≠ herramienta fabricada
+Nyayanga ─> Oldowan + Paranthropus presente ─> fabricante abierto
+```
+
+Véase `INV-AUSTRALOPITH-001` en `08_cenozoico`, su mapa en `assets/visuales/mapa-investigacion-037.svg` y la doble cadena en `assets/visuales/de-fosil-a-especie-y-de-diente-a-dieta.svg`.

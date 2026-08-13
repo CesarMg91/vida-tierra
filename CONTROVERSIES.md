@@ -278,6 +278,16 @@ Una controversia no implica empate. Registra qué parte está realmente abierta,
 | `CONT-EARLY-HOMININ-ARDI-LOCOMOTION-001` | ¿Trepa cuidadosa generalizada o repertorio africano suspensorio? | reconstrucción 2009 reduce suspensión | pie 2019, mano 2021 y talus 2025 recuperan señales africanas | repertorio mosaico; pesos abiertos | B-COND |
 | `CONT-EARLY-HOMININ-ARDI-HABITAT-001` | ¿Woodland/bosque abierto o sabana arbolada? | fauna/botánica apoyan cobertura leñosa | paleosuelos permiten ≤25 % de dosel | mosaico y escala explican parte del desacuerdo | B-LOCAL |
 | `CONT-EARLY-HOMININ-PHYLOGENY-001` | ¿Qué candidatos están dentro de Hominini? | caracteres derivados y matrices apoyan rama humana | homoplasia, ausencia y asociación permiten posiciones externas | Ardi más estable; Sahel/Orrorin abiertos | B-C para Ardi; C para otros |
+| `CONT-AUSTRALOPITH-SPECIES-001` | ¿Cuántas especies pliocenas distinguimos? | combinaciones diagnósticas, geografía y coexistencia | variación, dimorfismo, deformación y muestras pequeñas | diversidad real; número exacto abierto | B diversidad; C nombres raros |
+| `CONT-AUSTRALOPITH-ANAGENESIS-001` | ¿`anamensis` se transformó íntegramente en `afarensis`? | orden temporal y continuidad de caracteres | MRD/frontal apoyan solapamiento ≥`~100 kyr` | anagénesis estricta debilitada; descendencia parcial posible | B-COND |
+| `CONT-AUSTRALOPITH-ARBOREAL-001` | ¿Cuánta arborealidad persistió? | escápulas, falanges y pies conservan señales trepadoras | algunos rasgos pueden ser retenciones con poco uso | capacidad B; frecuencia C-D | B-COND |
+| `CONT-AUSTRALOPITH-LAETOLI-A-001` | ¿Qué produjo el rastro A de Laetoli? | pisadas reexcavadas difieren de G/S y comparan con paso cruzado | pocas huellas, sustrato y anatomía desconocida | locomotor distinto plausible; taxón abierto | C-COND |
+| `CONT-AUSTRALOPITH-CAVE-DATING-001` | ¿Qué edad tienen Sterkfontein y sus fósiles? | cosmogénicos, paleomagnetismo y espeleotemas acotan procesos | retrabajo y modelos de relleno conectan relojes/fósiles de modo distinto | edades locales condicionadas, no fecha única | B-COND |
+| `CONT-AUSTRALOPITH-HOMO-ANCESTRY-001` | ¿`garhi`, `sediba` u otro fue ancestro de `Homo`? | edad y rasgos compartidos producen candidatos | `Homo` anterior, homoplasia y ramas laterales impiden genealogía | caracteres informativos; ancestro directo no establecido | C afinidad; D genealogía |
+| `CONT-PARANTHROPUS-MONOPHYLY-001` | ¿Las formas robustas forman un solo clado? | paquete craneodental y continuidad oriental | adaptación masticatoria puede converger; sur/oriente difieren | monofilia plausible, no cerrada | C-COND |
+| `CONT-PARANTHROPUS-DIET-001` | ¿Era `P. boisei` especialista de alimentos duros? | cráneo/dientes resisten altas cargas y C4 domina isótopos | microdesgaste y ecología no identifican un alimento duro único | gran capacidad + C4; menú exacto abierto | B-COND |
+| `CONT-PARANTHROPUS-TOOLS-001` | ¿`Paranthropus` fabricó Oldowan? | mano capaz y dientes junto a industria/fauna procesada | capacidad y proximidad no identifican agente | posible, no demostrado | D autoría |
+| `CONT-PROBUSTUS-DIMORPHISM-001` | ¿Dimorfismo o cambio temporal en `P. robustus`? | tamaño/forma se interpretaron sexualmente | DNH 155 temprano encaja mejor con microevolución | ambos procesos posibles; tiempo no debe omitirse | B-COND |
 
 ## CONT-COSMOS-H0-001 — Dos rutas hacia la tasa actual
 
@@ -2091,3 +2101,63 @@ Fauna, fitolitos y botánica favorecen woodland; paleosuelos isotópicos permite
 Más caracteres estabilizan `Ar. ramidus` como hominino basal. `Sahelanthropus` y `Orrorin` conservan mayor ausencia y asociación indirecta; bipedalidad podría ser convergente o ancestral.
 
 **Prueba discriminatoria:** nuevos conjuntos asociados, matrices abiertas con simios miocenos y análisis de sensibilidad a cada carácter funcional.
+
+## CONT-AUSTRALOPITH-SPECIES-001 — Diversidad sin inflación automática
+
+`A. deyiremeda`, `Kenyanthropus` y otros nombres describen combinaciones propuestas, pero sus muestras no igualan la de `A. afarensis`. Rechazar todo lo raro como variación y nombrar cada diferencia cometen errores simétricos.
+
+**Prueba discriminatoria:** nuevos especímenes diagnósticos, idealmente asociados, que caigan en grupos reproducibles tras controlar edad, sexo, tamaño y deformación.
+
+## CONT-AUSTRALOPITH-ANAGENESIS-001 — Un solapamiento cambia la flecha
+
+La secuencia `A. anamensis → A. afarensis` conserva plausibilidad poblacional. MRD y el frontal temprano de Hadar impiden tratarla como reemplazo completo sin ramificación durante al menos `~100 kyr`.
+
+**Prueba discriminatoria:** series densas `4.0–3.7 Ma` con diagnósticos craneodentales y modelos explícitos de evolución dentro/entre poblaciones.
+
+## CONT-AUSTRALOPITH-ARBOREAL-001 — Capacidad, retención o conducta
+
+Escápula, falanges y pies muestran capacidades arbóreas en varios taxones. El hueso integra carga y desarrollo, pero no registra minutos en el dosel; un rasgo puede persistir después de perder frecuencia conductual.
+
+**Prueba discriminatoria:** modelos multirregionales que predigan estructura externa/interna en primates con conductas cuantificadas y luego clasifiquen fósiles fuera de muestra.
+
+## CONT-AUSTRALOPITH-LAETOLI-A-001 — Cinco huellas y un productor abierto
+
+La reexcavación valida el rastro A y su patrón no coincide fácilmente con G/S. Paso cruzado, anatomía distinta y deformación del sustrato compiten; ninguna opción escribe un nombre de especie.
+
+**Prueba discriminatoria:** más pasos continuos, huellas de mano/pie asociadas o modelos de sustrato que predigan rasgos no usados en el ajuste.
+
+## CONT-AUSTRALOPITH-CAVE-DATING-001 — El reloj fecha una parte de la cueva
+
+Núclidos cosmogénicos fechan enterramiento de sedimento, U–Pb crecimiento de calcita y paleomagnetismo una polaridad adquirida. Su desacuerdo puede señalar mezcla o modelos de depósito distintos, no un promedio legítimo.
+
+**Prueba discriminatoria:** transectos tridimensionales con varios relojes sobre las mismas unidades, procedencia de clastos y predicciones de retrabajo.
+
+## CONT-AUSTRALOPITH-HOMO-ANCESTRY-001 — Parecido no es acta genealógica
+
+`A. garhi` y `A. sediba` combinan rasgos relevantes para `Homo`; la edad de `sediba` es tardía respecto de fósiles atribuidos a `Homo`. Un taxón lateral puede preservar una anatomía cercana al nodo sin ser el ancestro.
+
+**Prueba discriminatoria:** matrices con taxones y caracteres ampliados que mantengan topología bajo sensibilidad y nuevos fósiles del intervalo `3–2 Ma`.
+
+## CONT-PARANTHROPUS-MONOPHYLY-001 — Un aparato robusto puede converger
+
+`P. aethiopicus`, `P. boisei` y `P. robustus` comparten un paquete craneodental llamativo. Como muchos caracteres responden a la misma función masticatoria, no son votos filogenéticos plenamente independientes.
+
+**Prueba discriminatoria:** postcráneos diagnósticos asociados, caracteres internos menos funcionales y matrices que modelen correlación/homoplasia.
+
+## CONT-PARANTHROPUS-DIET-001 — Cascanueces sin nuez identificada
+
+Megadoncia y cara robusta permiten altas cargas. `δ13C` identifica una base C4 dominante en `P. boisei`, mientras microdesgaste y paleoecología no fijan un alimento duro cotidiano. Recursos de respaldo pueden seleccionar anatomía extrema sin dominar el promedio.
+
+**Prueba discriminatoria:** series intraindividuales combinando isótopos, microdesgaste, residuos, mecánica y disponibilidad local con ventanas declaradas.
+
+## CONT-PARANTHROPUS-TOOLS-001 — Mano y herramienta todavía separadas
+
+KNM-ER 101000 demuestra capacidad de precisión/potencia; Nyayanga demuestra industria y presencia de `Paranthropus`. Son dos premisas compatibles con autoría, no una observación de autoría.
+
+**Prueba discriminatoria:** herramientas con residuos/huellas diagnósticos, asociación anatómica inequívoca o patrones de uso exclusivos predichos por la mano.
+
+## CONT-PROBUSTUS-DIMORPHISM-001 — Sexo y tiempo pueden operar juntos
+
+La gran diferencia entre cráneos se explicó mediante dimorfismo. DNH 155, temprano y morfológicamente distinto, favorece microevolución temporal; eso no elimina dimorfismo dentro de cada población.
+
+**Prueba discriminatoria:** muestras estratificadas mayores con edad dental, estimación sexual independiente y morfometría que compare modelos sexo, tiempo y sexo+tiempo.
