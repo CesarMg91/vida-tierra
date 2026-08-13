@@ -93,7 +93,7 @@ En cada periodo se auditarán primero sus límites cronoestratigráficos y despu
 | 034 | `INV-QUATERNARY-001` | [¿Cómo reconstruimos glaciaciones, megafauna y cambios rápidos sin fundir seis relojes?](08_cenozoico/INVESTIGACION_034_CUATERNARIO_GLACIACIONES_MEGAFAUNA_CAMBIOS_RAPIDOS.md) — **AUDITADO** |
 | 035 | `INV-HOMININ-SPLIT-001` | [¿Cómo fechamos la separación del linaje humano respecto de otros simios si cada región del genoma tiene una historia distinta?](08_cenozoico/INVESTIGACION_035_SEPARACION_LINAJES_HUMANOS_OTROS_SIMIOS.md) — **AUDITADO** |
 | 036 | `INV-HOMININ-EARLY-001` | [¿Cómo identificamos a los primeros homininos si edad, bipedalismo y parentesco no son la misma evidencia?](08_cenozoico/INVESTIGACION_036_PRIMEROS_HOMININOS_SAHELANTHROPUS_ORRORIN_ARDIPITHECUS.md) — **AUDITADO** |
-| 037 | `INV-AUSTRALOPITH-001` | australopitecos y Paranthropus |
+| 037 | `INV-AUSTRALOPITH-001` | [¿Cómo distinguimos especies, locomoción, dieta y parentesco entre australopitecos y Paranthropus sin convertir su diversidad en una escalera hacia Homo?](08_cenozoico/INVESTIGACION_037_AUSTRALOPITECOS_PARANTHROPUS.md) — **AUDITADO** |
 | 038 | `INV-HOMO-EARLY-001` | habilis, erectus y categorías tempranas de Homo |
 | 039 | `INV-HOMO-MIDDLE-001` | heidelbergensis y poblaciones del Pleistoceno medio |
 | 040 | `INV-NEAND-DENIS-001` | neandertales, denisovanos y mestizaje |
@@ -185,6 +185,7 @@ Después de disponer de la secuencia base:
 - `v0.1.34`: Investigación 035 + historia del reloj molecular al mosaico T2T + mapas de topología, divergencia, mutación, coalescencia, fósiles y estructura cromosómica, con ILS y flujo génico explícitamente separados.
 - `v0.1.35`: Investigación 036 + historia del “eslabón” a hipodigmas y modelos + mapas de asociación, geocronología, función, ambiente y filogenia, actualizados con tobillo de Ardi 2025 y fémur atribuido a `Sahelanthropus` 2026.
 - `v0.1.35-civ.1`: marco crítico y programa regional CIV + `INV-CIV-ORIGINS-001` en estado `TRAZADO`, sin alterar la secuencia global pendiente.
+- `v0.1.36`: Investigación 037 + historia de Taung/Lucy/“cascanueces” a hipodigmas y proxies + mapas de seis rutas, actualizados con `A. deyiremeda` y mano de `P. boisei` de 2025, `Paranthropus` del Afar y locomoción sudafricana de 2026.
 - `v0.2`: Hadeano/Arcaico auditados.
 - `v0.3`: Proterozoico y origen/temprana evolución de la vida.
 - `v0.4`: Fanerozoico completo.

@@ -27,11 +27,25 @@ function Get-RelativeDisplayPath {
 
 # Solo contenido de investigación: se excluye todo lo generado o instalado
 # por el sitio Next.js, que también contiene archivos .md.
-$excludedDirs = '\.git', 'node_modules', '\.next', 'public', 'out'
-$excludePattern = '[\\/](' + ($excludedDirs -join '|') + ')[\\/]'
+$excludedDirs = @(
+    '\.git',
+    '\.agents',
+    '\.claude',
+    '\.codex',
+    'node_modules',
+    '\.next',
+    'public',
+    'out',
+    '_borradores_locales',
+    '_privado'
+)
+$excludePattern = '(^|[\\/])(' + ($excludedDirs -join '|') + ')([\\/]|$)'
 
 $markdownFiles = Get-ChildItem -LiteralPath $RepositoryRoot -Recurse -File -Filter '*.md' |
-    Where-Object { $_.FullName -notmatch $excludePattern }
+    Where-Object {
+        $relativePath = $_.FullName.Substring($RepositoryRoot.Length).TrimStart([char[]]@('\', '/'))
+        $relativePath -notmatch $excludePattern
+    }
 
 foreach ($file in $markdownFiles) {
     $text = [System.IO.File]::ReadAllText($file.FullName)
@@ -132,7 +146,7 @@ $requiredSections = @(
     '^## QU. TODAV.A NO SABEMOS$'
 )
 
-$investigations = Get-ChildItem -LiteralPath $RepositoryRoot -Recurse -File -Filter 'INVESTIGACION_*.md'
+$investigations = $markdownFiles | Where-Object { $_.Name -like 'INVESTIGACION_*.md' }
 foreach ($file in $investigations) {
     $text = [System.IO.File]::ReadAllText($file.FullName)
     foreach ($section in $requiredSections) {

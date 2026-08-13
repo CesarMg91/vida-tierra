@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Mapa epistemológico de australopitecos y Paranthropus</title>
+  <desc id="desc">Seis rutas independientes conectan fósiles y contextos con edad, taxón, locomoción, dieta, tecnología y parentesco, sin convertirlas en una escalera evolutiva.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#101523"/>
+      <stop offset="1" stop-color="#172638"/>
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="130%">
+      <feDropShadow dx="0" dy="8" stdDeviation="9" flood-color="#000" flood-opacity=".28"/>
+    </filter>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0l10 5-10 5z" fill="#87c7c2"/>
+    </marker>
+    <style>
+      .h1{font:700 38px system-ui,sans-serif;fill:#f4ead6}.sub{font:400 20px system-ui,sans-serif;fill:#b9c8d3}.head{font:700 22px system-ui,sans-serif;fill:#fff}.body{font:400 17px system-ui,sans-serif;fill:#dbe4e8}.small{font:600 15px system-ui,sans-serif;fill:#afc4cb}.box{stroke-width:2;rx:20;filter:url(#shadow)}.line{stroke:#87c7c2;stroke-width:3;fill:none;marker-end:url(#arrow)}
+    </style>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <text x="80" y="72" class="h1">Investigación 037 · seis rutas, ningún escalón</text>
+  <text x="80" y="108" class="sub">El mismo fósil puede alimentar varias inferencias; eso no las vuelve intercambiables.</text>
+
+  <rect x="565" y="150" width="470" height="118" class="box" fill="#263447" stroke="#e2b86d"/>
+  <text x="800" y="190" class="head" text-anchor="middle">ARCHIVOS</text>
+  <text x="800" y="224" class="body" text-anchor="middle">fósil · estrato · huella · diente · artefacto</text>
+  <text x="800" y="250" class="small" text-anchor="middle">primero: procedencia, asociación y preservación</text>
+
+  <path d="M720 268C590 310 390 315 270 360" class="line"/>
+  <path d="M760 268C690 315 645 320 575 360" class="line"/>
+  <path d="M790 268C780 320 800 320 800 360" class="line"/>
+  <path d="M825 268C880 315 960 320 1040 360" class="line"/>
+  <path d="M870 268C1010 310 1230 315 1330 360" class="line"/>
+
+  <rect x="80" y="360" width="330" height="184" class="box" fill="#253849" stroke="#6fb3c9"/>
+  <text x="105" y="402" class="head">1 · EDAD</text>
+  <text x="105" y="438" class="body">reloj → objeto fechado</text>
+  <text x="105" y="468" class="body">→ horizonte → fósil</text>
+  <text x="105" y="510" class="small">No fecha el origen biológico.</text>
+
+  <rect x="445" y="360" width="330" height="184" class="box" fill="#3a3042" stroke="#b891c6"/>
+  <text x="470" y="402" class="head">2 · TAXÓN</text>
+  <text x="470" y="438" class="body">forma → variación</text>
+  <text x="470" y="468" class="body">→ diagnóstico → hipodigma</text>
+  <text x="470" y="510" class="small">Controla edad, sexo y deformación.</text>
+
+  <rect x="810" y="360" width="330" height="184" class="box" fill="#284039" stroke="#7ac39c"/>
+  <text x="835" y="402" class="head">3 · LOCOMOCIÓN</text>
+  <text x="835" y="438" class="body">forma → carga → capacidad</text>
+  <text x="835" y="468" class="body">→ repertorio probable</text>
+  <text x="835" y="510" class="small">Capacidad no mide frecuencia.</text>
+
+  <rect x="1175" y="360" width="345" height="184" class="box" fill="#49362a" stroke="#d7a36b"/>
+  <text x="1200" y="402" class="head">4 · DIETA</text>
+  <text x="1200" y="438" class="body">anatomía · δ13C · desgaste</text>
+  <text x="1200" y="468" class="body">ventanas y preguntas distintas</text>
+  <text x="1200" y="510" class="small">Robustez no es un menú.</text>
+
+  <path d="M610 544C610 600 450 610 390 640" class="line"/>
+  <path d="M975 544C975 600 1110 610 1190 640" class="line"/>
+
+  <rect x="225" y="640" width="500" height="150" class="box" fill="#293448" stroke="#e0b45d"/>
+  <text x="250" y="683" class="head">5 · TECNOLOGÍA</text>
+  <text x="250" y="720" class="body">artefacto/marca → acción → productores candidatos</text>
+  <text x="250" y="754" class="small">Compartir horizonte no firma al fabricante.</text>
+
+  <rect x="875" y="640" width="500" height="150" class="box" fill="#34304a" stroke="#9e98e6"/>
+  <text x="900" y="683" class="head">6 · PARENTESCO</text>
+  <text x="900" y="720" class="body">caracteres → matriz/modelo → topologías</text>
+  <text x="900" y="754" class="small">Basal o parecido no significa ancestro directo.</text>
+
+  <rect x="330" y="825" width="940" height="50" rx="25" fill="#0c111b" stroke="#dc786f" stroke-width="2"/>
+  <text x="800" y="858" class="head" text-anchor="middle">EDAD ≠ TAXÓN ≠ FUNCIÓN ≠ DIETA ≠ AUTOR ≠ ANCESTRO</text>
+</svg>

@@ -547,6 +547,38 @@ Este archivo es el índice canónico. La letra de confianza califica exactamente
 | `CLAIM-CIV-URBANISM-MULTIPATH-001` | Tell Brak y la prospección regional apoyan rutas y pulsos múltiples de urbanización en Mesopotamia septentrional, no una difusión sur–norte única. | B-COND | TRAZADO | `EVID-CIV-TELLBRAK-SURVEY-001`, `EVID-CIV-NMESO-URBAN-PATHS-001` | `INV-CIV-ORIGINS-001` |
 | `CLAIM-CIV-WRITING-ADMIN-001` | P003414 es una tablilla administrativa excavada de Uruk IV; prueba un registro local, no alfabetización general ni alcance estatal. | A objeto/género; C alcance | TRAZADO | `EVID-CIV-CDLI-P003414-001` | `INV-CIV-ORIGINS-001` |
 | `CLAIM-CIV-INEQUALITY-PROXY-001` | En la muestra publicada de 64 sitios, el Gini de tamaño de vivienda aumenta con domesticación/escala política y más en Eurasia posneolítica; proxy, cobertura y corrección limitan el patrón. | B-COND | TRAZADO | `EVID-CIV-HOUSE-GINI-001` | `INV-CIV-ORIGINS-001` |
+| `CLAIM-AUSTRALOPITH-SCOPE-001` | Entre `~4.2 y 1.2 Ma`, australopitecos y `Paranthropus` documentan diversidad ramificada, no una etapa única hacia `Homo`. | B | AUDITADO | `EVID-AUSTRALOPITH-METHOD-001`, `EVID-AUSTRALOPITH-AGE-001` | `INV-AUSTRALOPITH-001` |
+| `CLAIM-AUSTRALOPITH-TAXONOMY-001` | Una especie fósil exige comparar combinación de caracteres contra ontogenia, sexo, tamaño, población y deformación; un rasgo aislado no basta. | A-MET | AUDITADO | `EVID-AUSTRALOPITH-METHOD-001`, `EVID-KENYANTHROPUS-001`, `EVID-DEYIREMEDA-001` | `INV-AUSTRALOPITH-001` |
+| `CLAIM-AUSTRALOPITH-DIVERSITY-001` | Rangos solapados y morfologías distintas sostienen varias formas contemporáneas, con apoyo taxonómico desigual. | B-COND | AUDITADO | `EVID-MRD-001`, `EVID-PLIOCENE-DIVERSITY-001` | `INV-AUSTRALOPITH-001` |
+| `CLAIM-AUSTRALOPITH-AGE-CONTEXT-001` | Los relojes fechan minerales, polaridad o enterramiento; unirlos al fósil exige procedencia, correlación y control de retrabajo. | A-MET; B-COND | AUDITADO | `EVID-AUSTRALOPITH-AGE-001`, `EVID-AFRICANUS-AGE-001` | `INV-AUSTRALOPITH-001` |
+| `CLAIM-AUSTRALOPITH-LOCOMOTION-MOSAIC-001` | Bipedalidad habitual coexistió con grados distintos de uso arbóreo; ninguna especie representa una marcha universal hacia locomoción moderna. | B-COND | AUDITADO | `EVID-AFAR-SKELETON-001`, `EVID-DEYIREMEDA-001`, `EVID-SEDIBA-MOSAIC-001`, `EVID-LOCOMOTION-2026-001` | `INV-AUSTRALOPITH-001` |
+| `CLAIM-AUSTRALOPITH-DIET-PROXY-001` | Anatomía masticatoria, isótopos, microdesgaste y residuos miden capacidades o ventanas distintas y no deben traducirse como un menú único. | A-MET | AUDITADO | `EVID-AFRICANUS-DIET-001`, `EVID-SEDIBA-DIET-001`, `EVID-PBOISEI-DIET-001` | `INV-AUSTRALOPITH-001` |
+| `CLAIM-AUSTRALOPITH-TOOL-ATTRIBUTION-001` | Lomekwi, Dikika y Nyayanga amplían tecnología/uso de piedra temprano, pero asociación contextual no identifica fabricante o agente a nivel de especie. | A contra atribución; C acción | AUDITADO | `EVID-EARLY-TOOLS-001`, `EVID-NYAYANGA-001` | `INV-AUSTRALOPITH-001` |
+| `CLAIM-AUSTRALOPITH-ANCESTRY-LIMIT-001` | Edad, semejanza o posición basal no demuestran que un taxón fósil sea ancestro directo de `Homo` o de otro género. | A-SEM; D genealogía | AUDITADO | `EVID-AUSTRALOPITH-METHOD-001`, `EVID-GARHI-001`, `EVID-SEDIBA-MOSAIC-001` | `INV-AUSTRALOPITH-001` |
+| `CLAIM-AANAMENSIS-AGE-001` | `A. anamensis` se documenta aproximadamente entre `4.2 y 3.8 Ma`; los extremos son límites de muestreo/contexto. | B-COND | AUDITADO | `EVID-ANAMENSIS-001`, `EVID-MRD-001` | `INV-AUSTRALOPITH-001` |
+| `CLAIM-AANAMENSIS-BIPED-001` | La tibia de Kanapoi presenta geometría compatible con carga bípeda habitual ya cerca de `4.1 Ma`. | B-COND | AUDITADO | `EVID-ANAMENSIS-001` | `INV-AUSTRALOPITH-001` |
+| `CLAIM-AANAMENSIS-MRD-001` | El cráneo MRD de `~3.8 Ma` amplía y diferencia la morfología craneal de `A. anamensis`. | B | AUDITADO | `EVID-MRD-001` | `INV-AUSTRALOPITH-001` |
+| `CLAIM-AANAMENSIS-OVERLAP-001` | MRD y un frontal temprano de `A. afarensis` apoyan un solapamiento mínimo de `~100 kyr`, debilitando anagénesis estricta sin excluir descendencia parcial. | B-COND | AUDITADO | `EVID-MRD-001` | `INV-AUSTRALOPITH-001` |
+| `CLAIM-AFAR-AGE-001` | `A. afarensis` ocupa prudentemente `~3.9–2.9 Ma`, con precisión distinta entre localidades. | B-COND | AUDITADO | `EVID-AFAR-SKELETON-001`, `EVID-LAETOLI-001` | `INV-AUSTRALOPITH-001` |
+| `CLAIM-AFAR-BIPED-001` | Esqueleto y huellas apoyan bipedalidad habitual de `A. afarensis` sin exigir marcha idéntica a humanos actuales. | A-B | AUDITADO | `EVID-AFAR-SKELETON-001`, `EVID-LAETOLI-001` | `INV-AUSTRALOPITH-001` |
+| `CLAIM-AFAR-ARBOREAL-001` | Escápula y falanges de Dikika apoyan capacidad arbórea persistente junto con bipedalidad; la frecuencia conductual no está preservada. | B-COND | AUDITADO | `EVID-AFAR-SKELETON-001` | `INV-AUSTRALOPITH-001` |
+| `CLAIM-AFAR-LAETOLI-001` | Laetoli registra bipedalidad y diversidad de pisadas; la huella no porta una identificación taxonómica y su biomecánica depende del sustrato/modelo. | B conducta; C productor | AUDITADO | `EVID-LAETOLI-001` | `INV-AUSTRALOPITH-001` |
+| `CLAIM-AFAR-DIET-001` | La variación isotópica comparada de `A. afarensis` es compatible con recursos C3/C4 diversos, no una dieta uniforme de especie. | B-COND | AUDITADO | `EVID-DEYIREMEDA-001` | `INV-AUSTRALOPITH-001` |
+| `CLAIM-MIDDLE-PLIOCENE-DIVERSITY-001` | `A. afarensis`, `A. deyiremeda`, `Kenyanthropus` y otros candidatos hacen plausible una diversidad pliocena media mayor que una sola especie, con diagnósticos desiguales. | B-COND | AUDITADO | `EVID-PLIOCENE-DIVERSITY-001`, `EVID-KENYANTHROPUS-001`, `EVID-DEYIREMEDA-001` | `INV-AUSTRALOPITH-001` |
+| `CLAIM-ADEYIREMEDA-FOOT-001` | Nuevos fósiles refuerzan `A. deyiremeda`; el pie BRT se atribuye parsimoniosamente y apoya prensión pedal/arborealidad, pero no está articulado con los dientes. | B taxón/función; C asociación | AUDITADO | `EVID-DEYIREMEDA-001` | `INV-AUSTRALOPITH-001` |
+| `CLAIM-KENYANTHROPUS-STATUS-001` | KNM-WT 40000 sostiene una morfología facial propuesta como `Kenyanthropus platyops`, condicionada por deformación y muestra pequeña. | C-COND | AUDITADO | `EVID-KENYANTHROPUS-001` | `INV-AUSTRALOPITH-001` |
+| `CLAIM-AAFRICANUS-AGE-001` | `A. africanus` abarca depósitos sudafricanos de edad compleja; `3.67 ± 0.16 Ma` para Little Foot es enterramiento/modelo y no fecha universal del taxón. | B-COND | AUDITADO | `EVID-AFRICANUS-AGE-001` | `INV-AUSTRALOPITH-001` |
+| `CLAIM-AAFRICANUS-MOSAIC-001` | `A. africanus` combina bipedalidad, capacidades arbóreas y dietas variables; Taung o Little Foot no representan por sí solos toda la especie. | B-COND | AUDITADO | `EVID-AFRICANUS-DIET-001`, `EVID-LOCOMOTION-2026-001` | `INV-AUSTRALOPITH-001` |
+| `CLAIM-AGARHI-STATUS-001` | `A. garhi` de `~2.5 Ma` presenta un mosaico relevante para el origen de `Homo`, pero muestra y asociación no prueban ancestro directo ni fabricante. | C-COND | AUDITADO | `EVID-GARHI-001` | `INV-AUSTRALOPITH-001` |
+| `CLAIM-ASEDIBA-AGE-001` | U–Pb, paleomagnetismo y estratigrafía sitúan Malapa y `A. sediba` cerca de `1.98 Ma`. | B | AUDITADO | `EVID-SEDIBA-AGE-001` | `INV-AUSTRALOPITH-001` |
+| `CLAIM-ASEDIBA-MOSAIC-001` | Esqueletos de `A. sediba` asocian columna, pelvis, mano, pie y cráneo mosaico; semejanza con `Homo` informa caracteres, no genealogía directa. | B anatomía; C filogenia | AUDITADO | `EVID-SEDIBA-MOSAIC-001` | `INV-AUSTRALOPITH-001` |
+| `CLAIM-PARANTHROPUS-DEFINITION-001` | `Paranthropus` agrupa aparatos masticatorios robustos; robustez describe capacidad anatómica y no alimento único. | A anatomía; A-SEM alcance | AUDITADO | `EVID-PARANTHROPUS-MORPH-001`, `EVID-PBOISEI-DIET-001` | `INV-AUSTRALOPITH-001` |
+| `CLAIM-PARANTHROPUS-MONOPHYLY-001` | La monofilia de `P. aethiopicus`, `P. boisei` y `P. robustus` es plausible pero condicionada por convergencia masticatoria, matrices y ausencia de datos. | C-COND | AUDITADO | `EVID-PARANTHROPUS-PHYLOGENY-001` | `INV-AUSTRALOPITH-001` |
+| `CLAIM-PARANTHROPUS-AFAR-2026-001` | MLP-3000 extiende `Paranthropus` al Afar y a `2.9–2.5 Ma` (`~2.6 Ma` estimado), sin asignación segura a especie. | B género/edad; C especie | AUDITADO | `EVID-PARANTHROPUS-AFAR-001` | `INV-AUSTRALOPITH-001` |
+| `CLAIM-PBOISEI-DIET-001` | `P. boisei` consumió recursos C4 de forma dominante; anatomía, isótopos y desgaste no identifican un único alimento duro ni causa simple de extinción. | B-COND | AUDITADO | `EVID-PBOISEI-DIET-001` | `INV-AUSTRALOPITH-001` |
+| `CLAIM-PBOISEI-HAND-2025-001` | KNM-ER 101000 asocia inequívocamente mano y pie con `P. boisei`: combina precisión/potencia manual y pie bípedo, sin probar tecnología. | A asociación; B función; D autoría | AUDITADO | `EVID-PBOISEI-HAND-001` | `INV-AUSTRALOPITH-001` |
+| `CLAIM-PROBUSTUS-MICROEVOLUTION-001` | DNH 155 favorece cambio temporal dentro de `P. robustus` para diferencias antes explicadas principalmente por dimorfismo. | B-COND | AUDITADO | `EVID-PROBUSTUS-EVOLUTION-001` | `INV-AUSTRALOPITH-001` |
+| `CLAIM-PARANTHROPUS-TOOL-LIMIT-001` | Dientes de `Paranthropus` junto a Oldowan en Nyayanga y una mano capaz en `P. boisei` no identifican al fabricante. | A contra atribución; D autoría | AUDITADO | `EVID-NYAYANGA-001`, `EVID-PBOISEI-HAND-001` | `INV-AUSTRALOPITH-001` |
 
 ## Fichas resumidas
 
@@ -2991,6 +3023,79 @@ Este archivo es el índice canónico. La letra de confianza califica exactamente
 - **Archivos:** prospección de asentamientos, una tablilla catalogada y tamaño de vivienda en una muestra comparativa.
 - **Resultado:** el urbanismo tuvo pulsos regionales múltiples; escritura documenta operaciones; vivienda puede aproximar desigualdad material.
 - **Límite:** ciudad, administración y Estado no son equivalentes; una tablilla no mide territorio y un Gini de casas no observa riqueza total.
+## Investigación 037 — Australopitecos y Paranthropus
+
+### CLAIM-AUSTRALOPITH-SCOPE-001 / TAXONOMY-001 / DIVERSITY-001 / ANCESTRY-LIMIT-001
+
+- **Separación:** especie, rango, función y genealogía son operaciones distintas.
+- **Resultado:** múltiples morfologías y solapamientos sustituyen una etapa australopiteca única.
+- **Límite:** el taxón más antiguo o parecido a `Homo` no es ancestro directo demostrado.
+
+### CLAIM-AUSTRALOPITH-AGE-CONTEXT-001
+
+- **Objeto:** toba, polaridad, calcita, sedimento o enterramiento cosmogénico.
+- **Puente:** procedencia y modelo de depósito asignan edad al fósil.
+- **Límite:** extremos fósiles son mínimos/máximos muestreados, no eventos biológicos exactos.
+
+### CLAIM-AUSTRALOPITH-LOCOMOTION-MOSAIC-001 / AFAR-BIPED-001 / AFAR-ARBOREAL-001
+
+- **Archivo:** pelvis, fémur, escápula, falanges, pie y huellas cambian región y escala.
+- **Resultado:** bipedalidad habitual coexistió con capacidad arbórea variable.
+- **Límite:** capacidad anatómica no cuantifica tiempo ni conducta observada.
+
+### CLAIM-AUSTRALOPITH-DIET-PROXY-001 / AFAR-DIET-001 / PBOISEI-DIET-001
+
+- **Ventanas:** anatomía mide capacidad; `δ13C` base C3/C4; microdesgaste contacto reciente; cálculo residuos preservados.
+- **Resultado:** `P. boisei` muestra C4 dominante y otros taxones dietas variables.
+- **Límite:** ningún proxy identifica solo el menú taxonómico o la extinción.
+
+### CLAIM-AUSTRALOPITH-TOOL-ATTRIBUTION-001 / PARANTHROPUS-TOOL-LIMIT-001
+
+- **Observación:** artefactos, marcas, fauna procesada y dientes pueden compartir contexto.
+- **Puente:** diagnóstico tafonómico identifica acción; asociación independiente debería identificar productor.
+- **Límite:** Lomekwi, Dikika y Nyayanga no firman una especie fabricante.
+
+### CLAIM-AANAMENSIS-AGE-001 / BIPED-001 / MRD-001 / OVERLAP-001
+
+- **Archivo:** Kanapoi/Allia Bay más cráneo MRD de Woranso-Mille.
+- **Resultado:** `~4.2–3.8 Ma`, carga bípeda y morfología craneal distinguible.
+- **Actualización:** solapamiento ≥`~100 kyr` con `A. afarensis` debilita anagénesis estricta.
+
+### CLAIM-AFAR-AGE-001 / LAETOLI-001
+
+- **Rango:** `~3.9–2.9 Ma`, con precisión local desigual.
+- **Conducta:** Laetoli conserva pisadas bípedas y más de un patrón plausible.
+- **Límite:** huella y biomecánica no identifican taxón sin puente adicional.
+
+### CLAIM-MIDDLE-PLIOCENE-DIVERSITY-001 / ADEYIREMEDA-FOOT-001 / KENYANTHROPUS-STATUS-001
+
+- **Resultado:** varias formas coetáneas son plausibles, no igualmente seguras.
+- **2025:** nuevos dientes/mandíbulas fortalecen `A. deyiremeda`, dieta C3 y atribución del pie BRT.
+- **Límite:** pie no articulado; `Kenyanthropus` conserva deformación y muestra pequeña.
+
+### CLAIM-AAFRICANUS-AGE-001 / AFRICANUS-MOSAIC-001
+
+- **Reloj:** cuevas exigen fechar proceso y asociación; `Little Foot` tiene `3.67 ± 0.16 Ma` bajo enterramiento modelado.
+- **Biología:** locomoción y dieta cambian entre individuos/ventanas.
+- **Límite:** una cueva, un cráneo juvenil o un esqueleto no agotan la especie.
+
+### CLAIM-AGARHI-STATUS-001 / ASEDIBA-AGE-001 / ASEDIBA-MOSAIC-001
+
+- **Resultado:** ambos taxones conservan mosaicos relevantes para discutir el origen de `Homo`.
+- **Fortaleza:** Malapa asocia regiones corporales y fecha cerca de `1.98 Ma`.
+- **Límite:** candidatura o semejanza no resuelven topología ni ancestro directo.
+
+### CLAIM-PARANTHROPUS-DEFINITION-001 / MONOPHYLY-001 / AFAR-2026-001
+
+- **Definición:** robustez masticatoria es un paquete anatómico, no dieta observada.
+- **2026:** MLP-3000 amplía presencia temprana/geográfica del género.
+- **Límite:** especie de MLP-3000 y monofilia del género permanecen condicionadas.
+
+### CLAIM-PBOISEI-HAND-2025-001 / PROBUSTUS-MICROEVOLUTION-001
+
+- **Asociación:** KNM-ER 101000 une mano/pie y material diagnóstico de `P. boisei`.
+- **Cambio:** DNH 155 recupera evolución temporal donde dimorfismo era explicación principal.
+- **Límite:** un individuo o secuencia regional no define conducta/tendencia universal.
 
 ## Claims futuros
 

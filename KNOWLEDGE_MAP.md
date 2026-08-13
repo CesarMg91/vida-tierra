@@ -841,3 +841,26 @@ correlación entre rutas = hipótesis para probar, no equivalencia
 ```
 
 La arquitectura usa casos desfasados y regiones distintas para someter a prueba una secuencia universal. Una edad pertenece primero a una muestra y a un contexto; cada salto a práctica, institución o escala requiere asociación y archivos adicionales. Véanse [`INV-CIV-ORIGINS-001`](14_civilizaciones/INVESTIGACION_CIV_001_ORIGENES_ALDEAS_CIUDADES_ESTADOS.md), el [`marco crítico`](14_civilizaciones/MARCO_CRITICO_CIVILIZACION.md), la [`cronología regional`](21_cronologias/CRONOLOGIA_CIV_001_CARRILES_REGIONALES.md) y el [`mapa epistemológico`](22_mapas_epistemologicos/MAPA_CIV_001_ORIGENES.md).
+### Investigación 037 — Australopitecos y Paranthropus
+
+```text
+reloj + procedencia ─────────────────> edad del contexto ────────────┐
+forma + variación + deformación ─────> hipótesis de taxón ───────────┤
+esqueleto/huella + biomecánica ──────> repertorio locomotor ─────────┤
+anatomía + δ13C + microdesgaste ─────> dieta por ventanas ───────────┤
+artefacto/marca + tafonomía ─────────> acción/productores candidatos ┤
+caracteres + matriz ─────────────────> topología condicionada ───────┘
+                                                          │
+                                                          └─> no hay una escalera única
+```
+
+MRD convierte una secuencia aparente en solapamiento posible; Dikika y Laetoli separan cuerpo de huella; `A. deyiremeda` muestra cómo nuevos fósiles fortalecen un taxón sin articular todas sus piezas. En `Paranthropus`, aparato masticatorio, isótopos, mano y Oldowan responden preguntas diferentes: capacidad no es menú y capacidad manual no es autoría.
+
+```text
+MRD + frontal de Hadar ─> solapamiento ≥~100 kyr ─> anagénesis estricta debilitada
+pie BRT + dentición local ─> atribución parsimoniosa ─> mismo individuo no demostrado
+KNM-ER 101000 ─> mano/pie de P. boisei ─> precisión y potencia ≠ herramienta fabricada
+Nyayanga ─> Oldowan + Paranthropus presente ─> fabricante abierto
+```
+
+Véase `INV-AUSTRALOPITH-001` en `08_cenozoico`, su mapa en `assets/visuales/mapa-investigacion-037.svg` y la doble cadena en `assets/visuales/de-fosil-a-especie-y-de-diente-a-dieta.svg`.
