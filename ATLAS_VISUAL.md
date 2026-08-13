@@ -416,6 +416,20 @@ El mapa conserva cinco rutas: tiempo formal, angiospermas, insectos, aves y mam�
 
 La doble cadena impide que una asociación local se convierta automáticamente en coevolución global y que un pico, diente o rasgo aislado se convierta en prueba de pertenencia a una corona.
 
+## 32. Investigación 031 — K–Pg: impacto, volcanismo y recuperación
+
+![Portada conceptual del K–Pg](assets/visuales/hero-kpg-impacto-deccan-extincion-recuperacion.png)
+
+> **Portada conceptual:** yuxtapone la sección limítrofe, el cráter enterrado y parcialmente marino, los basaltos de Deccan y ventanas de supervivencia/recuperación. No representa una escena simultánea, una escala común, incendios mundiales observados ni una causa única.
+
+![Mapa de evidencia del K–Pg](assets/visuales/mapa-investigacion-031.svg)
+
+El mapa conserva seis archivos: frontera formal, impacto, Deccan, forzamientos, selectividad y recuperación. Cada columna declara lo que permite inferir y el salto que prohíbe.
+
+![Cadenas desde anomalía hasta impacto y desde forzamiento hasta extinción](assets/visuales/de-anomalia-a-impacto-y-de-forzamiento-a-extincion.svg)
+
+La doble cadena muestra que identificar Chicxulub exige convergencia de objetos distintos y que un aerosol modelado sólo alcanza mecanismo biológico cuando predice el patrón fósil.
+
 ## Procedencia
 
 El registro de creación, límites y prompt de cada pieza está en [`assets/visuales/README.md`](assets/visuales/README.md).

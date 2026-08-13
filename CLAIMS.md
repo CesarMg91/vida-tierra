@@ -381,6 +381,30 @@ Este archivo es el índice canónico. La letra de confianza califica exactamente
 | `CLAIM-CRETACEOUS-THERIAN-RADIATION-001` | La morfometría dental recupera mayor disparidad y amplitud dietaria teria `10–20 Myr` antes de K–Pg. | B-COND | AUDITADO | `EVID-CRETACEOUS-THERIAN-001` | `INV-CRETACEOUS-001` |
 | `CLAIM-CRETACEOUS-EUTHERIAN-CROWN-001` | `Ambolestes` y matrices distinguen euterios del tallo de Placentalia; la edad de la corona placentaria sigue disputada. | A-SEM; B-COND posiciones; C-D edad | AUDITADO | `EVID-CRETACEOUS-EUTHERIAN-001` | `INV-CRETACEOUS-001` |
 | `CLAIM-CRETACEOUS-GONDWANATHERIA-001` | `Vintana` y `Adalatherium` documentan anatomía mamaliana gondwánica e insular distintiva, con relaciones filogenéticas aún variables. | A-B anatomía; C-COND relaciones | AUDITADO | `EVID-CRETACEOUS-GONDWANATHERIA-001` | `INV-CRETACEOUS-001` |
+| `CLAIM-KPG-SCOPE-001` | Frontera formal, impacto, pulsos Deccan, forzamientos, selectividad y recuperación son seis relojes relacionados pero no sustituibles. | A-SEM | AUDITADO | conjunto `EVID-KPG-BOUNDARY-001`, `EVID-KPG-CRATER-LINK-001`, `EVID-KPG-DECCAN-CHRON-001`, `EVID-KPG-WINTER-001`, `EVID-KPG-EXTINCTION-001`, `EVID-KPG-RECOVERY-HETEROCHRONY-001` | `INV-KPG-001` |
+| `CLAIM-KPG-BOUNDARY-001` | La base daniense se calibra en `66.0 Ma` y se define en la base de la arcilla de El Kef; la eyección suprayacente no es el lecho formal. | A horizonte; B edad | AUDITADO | `EVID-KPG-BOUNDARY-001` | `INV-KPG-001` |
+| `CLAIM-KPG-IRIDIUM-001` | Anomalías de iridio coincidentes con K–Pg en varias regiones exigen un aporte extraordinario y sostienen origen extraterrestre al integrarse con otros ejecta. | A-B | AUDITADO | `EVID-KPG-IMPACT-PROVENANCE-001` | `INV-KPG-001` |
+| `CLAIM-KPG-CRATER-001` | Geofísica, pozos, rocas de choque y perforación identifican una estructura de impacto enterrada de `~180–200 km` en Chicxulub. | A-B; B tamaño | AUDITADO | `EVID-KPG-CRATER-001` | `INV-KPG-001` |
+| `CLAIM-KPG-CRATER-LINK-001` | Edad, ejecta y un pico de iridio dentro del cráter enlazan Chicxulub con la capa mundial de K–Pg. | A-B | AUDITADO | `EVID-KPG-CRATER-LINK-001` | `INV-KPG-001` |
+| `CLAIM-KPG-IMPACTOR-001` | Isótopos de Ni de 2026 restringen el impactor a condritas CO o ciertas carbonáceas no agrupadas; no fijan su órbita. | B-PROV | AUDITADO | `EVID-KPG-IMPACTOR-001` | `INV-KPG-001` |
+| `CLAIM-KPG-FIRST-DAY-001` | Un núcleo del anillo de pico conserva `~130 m` de brecha/fundido y sedimentos de colapso, inundación y retorno de tsunami del primer día. | A-B local | AUDITADO | `EVID-KPG-FIRST-DAY-001` | `INV-KPG-001` |
+| `CLAIM-KPG-DECCAN-TIMING-001` | Deccan estuvo activo antes y después de K–Pg; su cronología de pulsos se resuelve mediante U–Pb y `40Ar/39Ar`. | A-B | AUDITADO | `EVID-KPG-DECCAN-CHRON-001` | `INV-KPG-001` |
+| `CLAIM-KPG-DECCAN-DISAGREEMENT-001` | Modelos publicados asignan fracciones distintas del volumen Deccan antes/después del límite, desde mayoría posterior hasta `~70 %` previo en una recalibración de 2025. | B-COND | AUDITADO | `EVID-KPG-DECCAN-CHRON-001` | `INV-KPG-001` |
+| `CLAIM-KPG-DECCAN-CLIMATE-001` | Un proxy de turba registra enfriamiento de `~5 °C`, <`10 kyr`, unos `30 kyr` antes del límite y retorno térmico previo al pulso de extinción. | B-COND regional | AUDITADO | `EVID-KPG-DECCAN-CLIMATE-001` | `INV-KPG-001` |
+| `CLAIM-KPG-IMPACT-DECCAN-001` | Chicxulub pudo modular el estilo eruptivo de una provincia Deccan ya activa; plausibilidad y correlación no demuestran disparo. | C-COND | AUDITADO | `EVID-KPG-DECCAN-TRIGGER-001` | `INV-KPG-001` |
+| `CLAIM-KPG-CAUSAL-ATTRIBUTION-001` | La evidencia integrada atribuye el pulso abrupto de extinción principalmente a Chicxulub y conserva Deccan como perturbación y posible estresor. | A impacto; B-COND reparto | AUDITADO | `EVID-KPG-CAUSAL-ATTRIBUTION-001` | `INV-KPG-001` |
+| `CLAIM-KPG-THERMAL-PULSE-001` | Reentrada de ejecta pudo generar calor e incendios extensos; un modelo de 2026 amplifica el pulso con polvo fino, sin probar combustión de cada bosque. | C-PROV global | AUDITADO | `EVID-KPG-THERMAL-PULSE-001` | `INV-KPG-001` |
+| `CLAIM-KPG-IMPACT-WINTER-001` | Polvo, sulfato y hollín redujeron luz y enfriaron el planeta; duración y magnitud exactas dependen del inventario y transporte modelados. | B mecanismo; C-COND curva | AUDITADO | `EVID-KPG-WINTER-001` | `INV-KPG-001` |
+| `CLAIM-KPG-OCEAN-ACIDIFICATION-001` | Isótopos de boro apoyan una caída superficial de `~0.25` pH, pero modelos recientes no requieren acidificación como causa primaria de la selectividad planctónica. | B-COND pH; C peso | AUDITADO | `EVID-KPG-OCEAN-001` | `INV-KPG-001` |
+| `CLAIM-KPG-EXTINCTION-SCOPE-001` | K–Pg eliminó aproximadamente `75 %` de especies y varios clados completos, con intensidad variable entre archivos, regiones y métricas. | B | AUDITADO | `EVID-KPG-EXTINCTION-001` | `INV-KPG-001` |
+| `CLAIM-KPG-MARINE-SELECTIVITY-001` | Oscuridad, estrategia trófica y umbrales energéticos dependientes del tamaño reproducen gran parte de la selectividad planctónica en un modelo de 2026. | C-PROV | AUDITADO | `EVID-KPG-MARINE-SELECTIVITY-001` | `INV-KPG-001` |
+| `CLAIM-KPG-PLANT-COLLAPSE-001` | Caída de polen arbóreo y picos regionales de esporas de helechos registran colapso/recolonización forestal, no incendio mundial uniforme. | A-B regional; C global | AUDITADO | `EVID-KPG-PLANTS-001` | `INV-KPG-001` |
+| `CLAIM-KPG-BIRD-SELECTIVITY-001` | Una reconstrucción filogenética vincula colapso forestal con supervivencia profunda predominantemente terrestre de aves corona. | B-COND | AUDITADO | `EVID-KPG-BIRDS-001` | `INV-KPG-001` |
+| `CLAIM-KPG-MAMMAL-SELECTIVITY-001` | En registros norteamericanos sobrevivieron mejor mamíferos pequeños, comunes, extendidos y generalistas; también hubo extinción e inmigración. | B-COND regional | AUDITADO | `EVID-KPG-MAMMALS-001` | `INV-KPG-001` |
+| `CLAIM-KPG-DINOSAUR-DECLINE-001` | La tendencia dinosauriana pre-K–Pg depende de modelo y muestreo; faunas de Nuevo México conservan diversidad/provincialidad hasta `~66.0 Ma`. | B local; C-D global | AUDITADO | `EVID-KPG-DINOSAURS-001` | `INV-KPG-001` |
+| `CLAIM-KPG-CRATER-RECOVERY-001` | El cráter fue recolonizado en años y reunió una comunidad planctónica diversa en decenas de milenios. | B-COND local | AUDITADO | `EVID-KPG-CRATER-RECOVERY-001` | `INV-KPG-001` |
+| `CLAIM-KPG-CONTINENTAL-RECOVERY-001` | Corral Bluffs registra recuperación escalonada de riqueza/tamaño mamalianos y floras durante los primeros `100–300 kyr`. | B-COND regional | AUDITADO | `EVID-KPG-CONTINENTAL-RECOVERY-001` | `INV-KPG-001` |
+| `CLAIM-KPG-RECOVERY-HETEROCHRONY-001` | Presencia, productividad, riqueza, disparidad, redes y exportación de carbono se recuperaron a ritmos de años a millones de años. | B-COND | AUDITADO | `EVID-KPG-RECOVERY-HETEROCHRONY-001` | `INV-KPG-001` |
 
 ## Fichas resumidas
 
@@ -2501,6 +2525,85 @@ Este archivo es el índice canónico. La letra de confianza califica exactamente
 - **Dato:** `Vintana` y `Adalatherium` documentan anatomía y diversidad gondwánica/insular distintiva.
 - **Límite:** registro escaso y topología variable.
 - **Confianza:** `A-B` anatomía; `C-COND` relaciones.
+
+## Investigación 031 — K–Pg: impacto, Deccan, extinción y recuperación
+
+### CLAIM-KPG-SCOPE-001
+
+- **Formulación:** seis relojes impiden que frontera, causa y recuperación se conviertan en una sola raya.
+- **No afirma:** independencia total; las cadenas comparten edad y algunos archivos.
+- **Falsador:** una variable común que prediga sin pérdida todas las posiciones, mecanismos y recuperaciones.
+
+### CLAIM-KPG-BOUNDARY-001
+
+- **Formulación:** GSSP y edad calibrada son convenciones respaldadas por una sección, no el mecanismo.
+- **No afirma:** que el impacto ocurrió después en sentido causal por estar la eyección encima del lecho formal.
+
+### CLAIM-KPG-IRIDIUM-001 / CRATER-001 / CRATER-LINK-001
+
+- **Formulación:** geoquímica, mineralogía, geofísica y estratigrafía forman una cadena redundante hacia Chicxulub.
+- **Independencia:** instrumentos y objetos cambian; la correlación temporal/geológica es compartida.
+- **Alternativa fuerte:** volcanismo u otro impacto debe reproducir simultáneamente ejecta, geometría, edad y señal interna.
+- **Confianza:** A-B; el rango de diámetro conserva dependencia de definición/geofísica.
+
+### CLAIM-KPG-IMPACTOR-001
+
+- **Formulación:** Ni isotópico restringe una familia meteorítica.
+- **No afirma:** órbita, reservorio exacto ni inventario total de volátiles.
+- **Estado:** provisional por novedad y necesidad de replicación.
+
+### CLAIM-KPG-FIRST-DAY-001
+
+- **Formulación:** el núcleo resuelve dinámica local en minutos–años.
+- **No afirma:** una cronología mundial de mortalidad.
+
+### CLAIM-KPG-DECCAN-TIMING-001 / DISAGREEMENT-001 / CLIMATE-001
+
+- **Formulación:** actividad pre y posfrontera es robusta; volumen por pulso y emisión no lo son por igual.
+- **Alternativa fuerte:** una cronología que reconcilie secciones y coloque gases letales inmediatamente antes del pulso.
+- **Falsador:** edades/volúmenes independientes que hagan converger los repartos actuales.
+
+### CLAIM-KPG-IMPACT-DECCAN-001
+
+- **Formulación:** existe un mecanismo físicamente plausible de modulación sísmica.
+- **No afirma:** iniciación de Deccan ni respuesta demostrada de cada sistema magmático.
+
+### CLAIM-KPG-CAUSAL-ATTRIBUTION-001
+
+- **Formulación:** Chicxulub explica mejor sincronía, ejecta y abrupta selectividad; Deccan conserva efectos reales.
+- **Alternativa fuerte:** un pulso volcánico con gas medido que reproduzca el mismo orden mundial sin impacto dominante.
+
+### CLAIM-KPG-THERMAL-PULSE-001 / IMPACT-WINTER-001
+
+- **Formulación:** reentrada y aerosoles producen forzamientos distintos y dependientes de partículas.
+- **No afirma:** incendios uniformes ni un único valor global de oscuridad.
+- **Falsador:** inventarios que reduzcan opacidad/dosis por debajo de umbrales compatibles con fósiles.
+
+### CLAIM-KPG-OCEAN-ACIDIFICATION-001
+
+- **Formulación:** acidificación está respaldada como perturbación; su peso letal relativo sigue abierto.
+- **Independencia:** boro, carbono, fósiles y EcoGENIE comparten clima pero no detector.
+
+### CLAIM-KPG-EXTINCTION-SCOPE-001 / MARINE-SELECTIVITY-001
+
+- **Formulación:** pérdida masiva y filtros energéticos se distinguen.
+- **No afirma:** que `75 %` describa cada clado o que el modelo represente cada especie.
+
+### CLAIM-KPG-PLANT-COLLAPSE-001 / BIRD-SELECTIVITY-001 / MAMMAL-SELECTIVITY-001
+
+- **Formulación:** polen, árboles filogenéticos y fósiles prueban filtros terrestres complementarios.
+- **Límite:** cobertura norteamericana y preservación desigual impiden universalizar frecuencias.
+
+### CLAIM-KPG-DINOSAUR-DECLINE-001
+
+- **Formulación:** tendencia previa y desaparición terminal son hipótesis distintas.
+- **Prueba discriminatoria:** series terminales equivalentes en varias provincias y modelos que predigan datos omitidos.
+
+### CLAIM-KPG-CRATER-RECOVERY-001 / CONTINENTAL-RECOVERY-001 / RECOVERY-HETEROCHRONY-001
+
+- **Formulación:** la recuperación necesita variable, región y reloj.
+- **No afirma:** retorno a la comunidad cretácica ni sincronía global.
+- **Confianza:** B-COND; alta para orden local, menor para extrapolación.
 
 ## Claims futuros
 
