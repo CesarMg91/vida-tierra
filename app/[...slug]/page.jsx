@@ -1,9 +1,10 @@
 import { notFound } from "next/navigation";
 import { getIndex, getDoc } from "../../lib/content.mjs";
 
-// En produccion solo existen las rutas generadas en el build. En desarrollo se
-// admiten rutas nuevas, para poder abrir un .md recien escrito sin reiniciar.
-export const dynamicParams = process.env.NODE_ENV !== "production";
+// El valor debe ser un literal para que Next.js pueda analizar la configuración
+// durante el build. Las rutas publicadas son las enumeradas por
+// generateStaticParams; al agregar un .md nuevo se reinicia el servidor local.
+export const dynamicParams = false;
 
 export function generateStaticParams() {
   return getIndex().map((d) => ({ slug: d.slug.split("/") }));
