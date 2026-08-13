@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="900" viewBox="0 0 1440 900" role="img" aria-labelledby="title desc">
+  <title id="title">Mapa de evidencia de la Investigación 039</title>
+  <desc id="desc">Ocho rutas separan tiempo, tipo, paleodemo, morfología, moléculas, conducta, región y nomenclatura para las poblaciones humanas del Pleistoceno medio.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#101820"/><stop offset="1" stop-color="#192b35"/></linearGradient>
+    <filter id="shadow"><feDropShadow dx="0" dy="8" stdDeviation="9" flood-opacity=".25"/></filter>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#9fc7cf"/></marker>
+    <style>
+      .h{font:700 36px system-ui,sans-serif;fill:#f2eadf}.s{font:400 18px system-ui,sans-serif;fill:#bcd0d4}.t{font:700 20px system-ui,sans-serif;fill:#172229}.b{font:400 16px system-ui,sans-serif;fill:#24343b}.n{font:700 15px system-ui,sans-serif;fill:#f4eadc}.line{stroke:#9fc7cf;stroke-width:3;fill:none;marker-end:url(#arrow)}.dash{stroke:#d38c68;stroke-width:3;stroke-dasharray:9 8;fill:none}.card{filter:url(#shadow);stroke:#c8d9d7;stroke-width:2}.tag{rx:16}
+    </style>
+  </defs>
+  <rect width="1440" height="900" fill="url(#bg)"/>
+  <text x="72" y="70" class="h">Homo del Pleistoceno medio: ocho productos, no una especie automática</text>
+  <text x="72" y="104" class="s">Cada ruta conserva su objeto, transformación, resultado y límite.</text>
+  <g transform="translate(70 150)">
+    <g transform="translate(0 0)"><rect class="card" width="290" height="210" rx="18" fill="#e9d9bf"/><text x="24" y="38" class="t">1 · TIEMPO</text><text x="24" y="72" class="b">señal física → edad</text><text x="24" y="101" class="b">→ procedencia → fósil</text><path d="M24 126 H266" stroke="#8e7256"/><text x="24" y="158" class="b">No fecha el origen</text><text x="24" y="184" class="b">ni la especie.</text></g>
+    <g transform="translate(330 0)"><rect class="card" width="290" height="210" rx="18" fill="#d7e3df"/><text x="24" y="38" class="t">2 · TIPO</text><text x="24" y="72" class="b">Mauer → holotipo</text><text x="24" y="101" class="b">→ hipodigma propuesto</text><path d="M24 126 H266" stroke="#66837e"/><text x="24" y="158" class="b">Una mandíbula no</text><text x="24" y="184" class="b">contiene un cráneo.</text></g>
+    <g transform="translate(660 0)"><rect class="card" width="290" height="210" rx="18" fill="#d8d0c7"/><text x="24" y="38" class="t">3 · PALEODEMO</text><text x="24" y="72" class="b">Sima → individuos</text><text x="24" y="101" class="b">→ variación local</text><path d="M24 126 H266" stroke="#786d63"/><text x="24" y="158" class="b">Una población no</text><text x="24" y="184" class="b">representa Europa.</text></g>
+    <g transform="translate(990 0)"><rect class="card" width="290" height="210" rx="18" fill="#d9e1eb"/><text x="24" y="38" class="t">4 · MORFOLOGÍA</text><text x="24" y="72" class="b">CT → caracteres</text><text x="24" y="101" class="b">→ mosaico / afinidad</text><path d="M24 126 H266" stroke="#6c7e96"/><text x="24" y="158" class="b">Semejanza no es</text><text x="24" y="184" class="b">ascendencia directa.</text></g>
+    <g transform="translate(0 270)"><rect class="card" width="290" height="210" rx="18" fill="#cbdde5"/><text x="24" y="38" class="t">5 · MOLÉCULAS</text><text x="24" y="72" class="b">ADN / proteína</text><text x="24" y="101" class="b">→ genealogía / afinidad</text><path d="M24 126 H266" stroke="#5b8192"/><text x="24" y="158" class="b">Una genealogía no</text><text x="24" y="184" class="b">fija el rango zoológico.</text></g>
+    <g transform="translate(330 270)"><rect class="card" width="290" height="210" rx="18" fill="#ead2c3"/><text x="24" y="38" class="t">6 · CONDUCTA</text><text x="24" y="72" class="b">marca / artefacto</text><text x="24" y="101" class="b">→ acción mínima</text><path d="M24 126 H266" stroke="#9c7059"/><text x="24" y="158" class="b">No conserva motivo</text><text x="24" y="184" class="b">ni fabricante.</text></g>
+    <g transform="translate(660 270)"><rect class="card" width="290" height="210" rx="18" fill="#dfe2c7"/><text x="24" y="38" class="t">7 · REGIÓN</text><text x="24" y="72" class="b">sitios → distribuciones</text><text x="24" y="101" class="b">→ estructura / flujo</text><path d="M24 126 H266" stroke="#7d8761"/><text x="24" y="158" class="b">Continente no es</text><text x="24" y="184" class="b">población homogénea.</text></g>
+    <g transform="translate(990 270)"><rect class="card" width="290" height="210" rx="18" fill="#e3d1df"/><text x="24" y="38" class="t">8 · NOMBRE</text><text x="24" y="72" class="b">tipo + código</text><text x="24" y="101" class="b">+ hipótesis biológica</text><path d="M24 126 H266" stroke="#8d6d88"/><text x="24" y="158" class="b">Propuesta no es</text><text x="24" y="184" class="b">consenso.</text></g>
+  </g>
+  <path class="line" d="M215 665 C215 730 510 728 640 760"/>
+  <path class="line" d="M545 665 C545 720 640 720 680 758"/>
+  <path class="line" d="M875 665 C875 720 790 720 750 758"/>
+  <path class="line" d="M1205 665 C1205 730 910 728 780 760"/>
+  <rect x="480" y="750" width="480" height="94" rx="28" fill="#bd7a58" filter="url(#shadow)"/>
+  <text x="720" y="789" text-anchor="middle" class="n" style="font-size:22px">MODELO EXPLÍCITO Y REVISABLE</text>
+  <text x="720" y="819" text-anchor="middle" class="n">taxón · población · historia regional</text>
+  <path class="dash" d="M1010 797 H1320"/><text x="1165" y="785" text-anchor="middle" class="s">no produce un ancestro observado</text>
+</svg>

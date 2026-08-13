@@ -894,3 +894,32 @@ afinidad ≠ introgresión observada
 Namorotukunan, Kokiselei y Olduvai sostienen continuidad y diversificación técnica, pero no firman al fabricante. Las proteínas de esmalte de 2026 abren una ruta molecular independiente y limitada: autentican péptidos, no recuperan un genoma de `H. erectus`.
 
 Véase `INV-HOMO-EARLY-001` en `08_cenozoico`, su mapa en `assets/visuales/mapa-investigacion-038.svg` y la doble cadena en `assets/visuales/de-fosil-a-taxon-de-artefacto-a-conducta.svg`.
+
+### Investigación 039 — Homo del Pleistoceno medio, tipos y paleodemos
+
+```text
+señal física + contexto ───────────────> edad del fósil ────────────────────────┐
+holotipo + caracteres comparables ────> hipodigma / taxón condicionado ────────┤
+paleodemo + variación ─────────────────> distribución local ────────────────────┤
+CT + matriz ───────────────────────────> mosaico / afinidad morfológica ─────────┤
+mtDNA + nuclear + proteína ────────────> genealogías / afinidad poblacional ────┤
+sitios + morfometría ──────────────────> estructura regional modelada ──────────┤
+marca + artefacto + fuego ─────────────> acción / asociación mínima ────────────┤
+código + prioridad + diagnóstico ──────> nombre revisable ──────────────────────┘
+                                                         │
+                                                         └─> no hay especie paraguas automática
+```
+
+Mauer fija un nombre desde una mandíbula, no un cráneo continental. Casablanca y `H. antecessor` restringen la vecindad del nodo cerca de `~770 ka` sin identificar un ancestro. Sima ofrece un paleodemo con anatomía y núcleo neandertales, pero mtDNA de afinidad denisovana; la discordancia es el resultado que deben explicar los modelos.
+
+```text
+Mauer → tipo + 609 ± 40 ka → alcance taxonómico abierto
+Sima → ~430 ka + 28 individuos → paleodemo, no toda Europa
+Bodo → marca de corte → descarnamiento, no motivo
+Kabwe → 299 ± 25 ka → coexistencia temporal, no genealogía
+Harbin → H. longi propuesto + proteína/mtDNA → denisovano, rango zoológico abierto
+```
+
+La arquitectura africana separa diversidad observada de un «último ancestro virtual» modelado. La controversia `rhodesiensis/bodoensis` separa prioridad, descolonización y coherencia biológica. Aroeira mantiene fósil, Achelense y fuego como archivos asociados pero no equivalentes.
+
+Véase `INV-HOMO-MIDDLE-001` en `08_cenozoico`, su mapa en `assets/visuales/mapa-investigacion-039.svg` y la doble cadena en `assets/visuales/de-mandibula-a-especie-de-molecula-a-poblacion.svg`.

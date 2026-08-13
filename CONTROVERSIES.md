@@ -304,6 +304,16 @@ Una controversia no implica empate. Registra qué parte está realmente abierta,
 | `CONT-HOMO-BODY-PLAN-001` | ¿El cuerpo moderno apareció de golpe con `H. erectus`? | Nariokotome muestra talla y miembros largos | DAN5, Dmanisi, edad y región revelan mosaico | patrón importante; uniformidad y salto no demostrados | B-COND |
 | `CONT-HOMO-DISPERSAL-ASIA-001` | ¿Qué taxón llegó primero a Asia y por qué ruta? | Dmanisi, Shangchen y Java fijan presencias mínimas | herramientas sin fósiles y hiatos no identifican ruta | dispersión temprana firme; agente/ruta abiertos | B presencia; C-D agente |
 | `CONT-HOMO-ERECTUS-PROTEIN-001` | ¿Las proteínas prueban introgresión de `H. erectus`? | seis esmaltes comparten variantes AMBN | pocas posiciones y modelos demográficos no equivalen a ADN | proteínas auténticas; historia de flujo provisional | B péptidos; C-D genealogía |
+| `CONT-HOMO-MIDDLE-HEIDELBERGENSIS-001` | ¿`H. heidelbergensis` es especie amplia, rama europea o cajón de sastre? | tipo de Mauer y continuidad permiten una agrupación | falta cráneo tipo; regiones forman conjuntos distintos | tipo/edad firmes; hipodigma abierto | A tipo; C especie |
+| `CONT-HOMO-MIDDLE-RHODESIENSIS-001` | ¿Debe usarse `H. rhodesiensis`? | prioridad histórica y tipo disponible | carga colonial, diagnóstico y uso variable | prioridad, ética y biología deben separarse | C |
+| `CONT-HOMO-MIDDLE-BODOENSIS-001` | ¿`H. bodoensis` resuelve el registro africano? | diagnóstico y modelo regional publicados | prioridad e hipodigma refutados | propuesta real; aceptación controvertida | A debate; C taxón |
+| `CONT-HOMO-MIDDLE-LCA-001` | ¿Dónde y cómo era el último ancestro común? | fósiles/proteínas cerca de `765–550 ka` | geografía, flujo y forma no observados | vecindad restringida; población exacta abierta | C-COND |
+| `CONT-HOMO-MIDDLE-SIMA-TAXON-001` | ¿Cómo nombrar el paleodemo de Sima? | anatomía y núcleo próximos a neandertales | rasgos primitivos y usos europeos de `heidelbergensis` | afinidad fuerte; rango taxonómico abierto | B afinidad; C taxón |
+| `CONT-HOMO-MIDDLE-SIMA-MTDNA-001` | ¿Qué explica la discordancia molecular de Sima? | mtDNA denisovano-afín y nuclear neandertal | estructura, flujo y reemplazo compiten | discordancia firme; mecanismo abierto | B dato; C mecanismo |
+| `CONT-HOMO-MIDDLE-AFRICA-STRUCTURE-001` | ¿Una rama africana o metapoblaciones conectadas? | diversidad fósil y rasgos distribuidos | cronologías, regiones y ausencia de ADN equivalente | estructura probable; número/flujo abiertos | B-COND |
+| `CONT-HOMO-MIDDLE-EUROPE-ACCRETION-001` | ¿Acreción neandertal lineal o mosaico regional? | Sima concentra rasgos derivados tempranos | Aroeira y otros fósiles combinan señales | evolución mosaico firme; continuidad abierta | B-COND |
+| `CONT-HOMO-MIDDLE-ASIA-001` | ¿`H. longi` nombra a denisovanos asiáticos? | Harbin une cráneo y moléculas denisovanas | un individuo no define diversidad ni rango | afinidad firme; sinonimia abierta | B afinidad; C nombre |
+| `CONT-HOMO-MIDDLE-TOOLS-001` | ¿Achelense y fuego identifican taxón o cognición? | asociaciones recurrentes documentan técnica | transmisión/convergencia y autor ausente | acción/asociación firmes; fabricante abierto | B proceso; D autor |
 
 ## CONT-COSMOS-H0-001 — Dos rutas hacia la tasa actual
 
@@ -2272,3 +2282,63 @@ Dmanisi, Shangchen y Java ordenan presencias mínimas, pero Shangchen carece de 
 Las variantes AMBN de seis ejemplares son datos biomoleculares extraordinarios. Traducirlas a contribución denisovana o “superarcaica” requiere modelos y pocas posiciones; no se recuperó ADN de `H. erectus`.
 
 **Prueba discriminatoria:** más proteínas informativas en individuos y regiones independientes, simulaciones de genealogías rivales y, si fuera preservable, secuencias genómicas directas.
+
+## CONT-HOMO-MIDDLE-HEIDELBERGENSIS-001 — ¿Especie, rama europea o cajón de sastre?
+
+El tipo de Mauer es una mandíbula de `609 ± 40 ka`; usos amplios agregan cráneos europeos y africanos que no pueden compararse con un cráneo tipo inexistente. Una especie politípica puede explicar continuidad; varios paleodemos o especies pueden explicar agrupaciones regionales.
+
+**Prueba discriminatoria:** diagnóstico aplicable al holotipo y a muestras ampliadas, matrices independientes que recuperen monofilia y nuevos restos asociados que unan mandíbula, cráneo y postcráneo.
+
+## CONT-HOMO-MIDDLE-RHODESIENSIS-001 — Prioridad histórica, carga colonial y biología
+
+`H. rhodesiensis` posee prioridad histórica sobre algunos reemplazos propuestos, pero su uso, diagnóstico y nombre colonial son discutidos. Validez nomenclatural, elección ética de lenguaje y coherencia del hipodigma no son la misma prueba.
+
+**Prueba discriminatoria:** revisión formal del tipo y código, diagnóstico reproducible y política de nomenclatura que declare por separado prioridad, estabilidad, comunicación y alcance biológico.
+
+## CONT-HOMO-MIDDLE-BODOENSIS-001 — Una propuesta no resuelve por publicación
+
+`H. bodoensis` intenta reagrupar fósiles africanos y retirar etiquetas problemáticas. Sus críticos sostienen que es sinónimo menor y que no resuelve variación ni genealogía.
+
+**Prueba discriminatoria:** cumplimiento nomenclatural independiente, hipodigma predefinido y topologías/morfometrías que separen de forma estable el grupo frente a alternativas.
+
+## CONT-HOMO-MIDDLE-LCA-001 — ¿Dónde estuvo el último ancestro común?
+
+Proteomas, fósiles de Casablanca y modelos genómicos colocan candidatos cerca de `765–550 ka`, pero población ancestral, área y morfología no están observadas directamente. Eurasia, África o estructura transregional producen predicciones diferentes.
+
+**Prueba discriminatoria:** fósiles contextualizados en ambos lados del intervalo, moléculas antiguas y modelos que comparen explícitamente geografía, flujo y extinción de ramas.
+
+## CONT-HOMO-MIDDLE-SIMA-TAXON-001 — El paleodemo no cabe limpiamente en un nombre
+
+Sima combina anatomía derivada neandertal, rasgos primitivos y ADN nuclear neandertal. Puede representar neandertales tempranos, una población hermana o parte de un `heidelbergensis` europeo restringido.
+
+**Prueba discriminatoria:** proteomas/genomas de otros fósiles europeos cercanos en edad y un diagnóstico que prediga qué especímenes se agrupan antes de analizarlos.
+
+## CONT-HOMO-MIDDLE-SIMA-MTDNA-001 — Tres historias para una discordancia
+
+El mtDNA de Sima es de afinidad denisovana y el núcleo, neandertal. Reemplazo mitocondrial por flujo, estructura ancestral y persistencia/azar de linajes son alternativas compatibles en distinto grado.
+
+**Prueba discriminatoria:** más individuos de Sima, mtDNA/nuclear de poblaciones anteriores y posteriores y comparación bayesiana de modelos demográficos.
+
+## CONT-HOMO-MIDDLE-AFRICA-STRUCTURE-001 — Una cuna o poblaciones conectadas
+
+La diversidad de Bodo, Kabwe, Jebel Irhoud y otros fósiles puede reflejar una rama amplia variable, linajes regionales o metapoblaciones conectadas. Cronologías y regiones anatómicas desiguales permiten varios ajustes.
+
+**Prueba discriminatoria:** ADN/proteínas africanas, series fechadas y matrices que modelen espacio, tiempo, deformación y flujo sin asumir primero el número de especies.
+
+## CONT-HOMO-MIDDLE-EUROPE-ACCRETION-001 — ¿Acreción neandertal lineal o mosaico regional?
+
+Sima apoya aparición temprana de módulos faciales derivados; Aroeira y otros fósiles muestran combinaciones distintas. Una acreción gradual puede coexistir con estructura, flujo y extinciones locales.
+
+**Prueba discriminatoria:** series europeas densas, datación directa, caracteres por módulos y moléculas que distingan continuidad local de repoblación.
+
+## CONT-HOMO-MIDDLE-ASIA-001 — `H. longi`, denisovanos y nombres asiáticos
+
+Harbin fue nombrado `H. longi` por morfología y después vinculado molecularmente con denisovanos. Puede ser un nombre zoológico para parte de la rama, un sinónimo o un hipodigma demasiado amplio.
+
+**Prueba discriminatoria:** proteínas/ADN de Dali, Jinniushan, Hualongdong y otros fósiles, más una revisión del tipo que integre nomenclatura y diversidad molecular.
+
+## CONT-HOMO-MIDDLE-TOOLS-001 — Industria, especie y cognición
+
+Achelense y fuego aparecen en contextos con fósiles diferentes y también sin fabricantes diagnósticos. Transmisión, convergencia y movilidad pueden desacoplar tradición técnica de taxón.
+
+**Prueba discriminatoria:** asociaciones directas replicadas, residuos o moléculas del agente y análisis que separen presencia de industria, innovación, uso y fabricante.

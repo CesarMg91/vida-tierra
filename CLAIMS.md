@@ -606,6 +606,34 @@ Este archivo es el índice canónico. La letra de confianza califica exactamente
 | `CLAIM-BONE-TOOLS-2025-001` | Olduvai documenta producción sistemática de 27 herramientas óseas cerca de `1.5 Ma`, sin productor taxonómico identificado. | B | AUDITADO | `EVID-BONE-TOOLS-OLDUVAI-001` | `INV-HOMO-EARLY-001` |
 | `CLAIM-ERECTUS-PROTEINS-2026-001` | Proteínas de esmalte recuperadas de seis `H. erectus` chinos contienen dos variantes compartidas de ameloblastina, con autenticidad evaluada. | B | AUDITADO | `EVID-ERECTUS-PROTEOMICS-001` | `INV-HOMO-EARLY-001` |
 | `CLAIM-ERECTUS-INTROGRESSION-LIMIT-001` | La afinidad proteica compatible con contribución denisovana o “superarcaica” es una inferencia modelada con pocas posiciones, no ADN ni prueba directa de introgresión. | C-D-COND | AUDITADO | `EVID-ERECTUS-PROTEOMICS-001` | `INV-HOMO-EARLY-001` |
+| `CLAIM-HOMO-MIDDLE-SCOPE-001` | Intervalo, fósil, taxón, afinidad molecular, paleodemo, región y conducta son productos distintos en el estudio de `Homo` del Pleistoceno medio. | A-SEM | AUDITADO | `EVID-HOMO-MIDDLE-METHOD-001` | `INV-HOMO-MIDDLE-001` |
+| `CLAIM-HOMO-MIDDLE-TIMEBIN-001` | El Chibaniense es una edad formal con base en `774.1 ka`; no constituye una especie ni una unidad biológica. | A | AUDITADO | `EVID-HOMO-MIDDLE-METHOD-001` | `INV-HOMO-MIDDLE-001` |
+| `CLAIM-HOMO-MIDDLE-TAXONOMY-001` | `H. heidelbergensis`, `H. rhodesiensis`, `H. bodoensis`, “Homo arcaico” y “Homo del Pleistoceno medio” no son sinónimos automáticos ni hipodigmas equivalentes. | A-SEM; C aplicación | AUDITADO | `EVID-HOMO-MIDDLE-METHOD-001`, `EVID-BODOENSIS-DEBATE-001` | `INV-HOMO-MIDDLE-001` |
+| `CLAIM-HEIDELBERGENSIS-TYPE-001` | La mandíbula de Mauer es el holotipo de `H. heidelbergensis`; no existe un cráneo tipo asociado. | A | AUDITADO | `EVID-MAUER-TYPE-001` | `INV-HOMO-MIDDLE-001` |
+| `CLAIM-HEIDELBERGENSIS-MAUER-AGE-001` | La datación combinada sitúa la mandíbula de Mauer en `609 ± 40 ka`. | B | AUDITADO | `EVID-MAUER-TYPE-001` | `INV-HOMO-MIDDLE-001` |
+| `CLAIM-HEIDELBERGENSIS-MAUER-LIMIT-001` | Extender `H. heidelbergensis` desde una mandíbula a cráneos africanos/euroasiáticos exige un diagnóstico e hipodigma explícitos. | A-SEM; C taxón | AUDITADO | `EVID-MAUER-TYPE-001`, `EVID-HOMO-MIDDLE-REGIONAL-001` | `INV-HOMO-MIDDLE-001` |
+| `CLAIM-HOMO-MIDDLE-ANCESTRY-LIMIT-001` | Edad, posición basal, semejanza o grupo hermano no identifican por sí solos un espécimen como ancestro directo. | A-SEM; D genealogía | AUDITADO | `EVID-ANTECESSOR-PROTEOME-001`, `EVID-CASABLANCA-2026-001` | `INV-HOMO-MIDDLE-001` |
+| `CLAIM-ANTECESSOR-PROTEOME-001` | El proteoma dental de `H. antecessor` lo sitúa como grupo hermano próximo del clado de homininos posteriores bajo el análisis publicado. | B-COND | AUDITADO | `EVID-ANTECESSOR-PROTEOME-001` | `INV-HOMO-MIDDLE-001` |
+| `CLAIM-CASABLANCA-773KA-2026-001` | Fósiles de Thomas Quarry I proceden de contexto próximo a la inversión Matuyama–Brunhes, con edad nominal `773 ± 4 ka`. | B | AUDITADO | `EVID-CASABLANCA-2026-001` | `INV-HOMO-MIDDLE-001` |
+| `CLAIM-CASABLANCA-AFFINITY-001` | Los fósiles de Casablanca difieren de `H. antecessor` y se ubican basales respecto al linaje de `H. sapiens` bajo la matriz publicada. | B-COND | AUDITADO | `EVID-CASABLANCA-2026-001` | `INV-HOMO-MIDDLE-001` |
+| `CLAIM-SIMA-AGE-001` | Luminiscencia y paleomagnetismo sitúan Sima de los Huesos cerca de `430 ka`. | B | AUDITADO | `EVID-SIMA-CHRONOLOGY-001` | `INV-HOMO-MIDDLE-001` |
+| `CLAIM-SIMA-MORPH-MOSAIC-001` | Los 17 cráneos reconstruidos de Sima concentran rasgos neandertales derivados en cara/anterior y conservan rasgos más primitivos en otras regiones. | B | AUDITADO | `EVID-SIMA-CRANIA-001` | `INV-HOMO-MIDDLE-001` |
+| `CLAIM-SIMA-MTDNA-001` | El mtDNA recuperado de Sima presenta mayor afinidad con el linaje denisovano conocido que con neandertales. | B | AUDITADO | `EVID-SIMA-MTDNA-001` | `INV-HOMO-MIDDLE-001` |
+| `CLAIM-SIMA-NUCLEAR-001` | El ADN nuclear de individuos de Sima es más afín a neandertales. | B | AUDITADO | `EVID-SIMA-NUCLEAR-001` | `INV-HOMO-MIDDLE-001` |
+| `CLAIM-SIMA-DISCORDANCE-001` | La discordancia mtDNA/nuclear de Sima permite estructura, flujo o reemplazo mitocondrial; no prueba por sí sola un evento concreto. | B dato; C mecanismo | AUDITADO | `EVID-SIMA-MTDNA-001`, `EVID-SIMA-NUCLEAR-001` | `INV-HOMO-MIDDLE-001` |
+| `CLAIM-NEAND-DENIS-SPLIT-MIN-001` | La separación de las ramas neandertal y denisovana debe preceder a la población de Sima de `~430 ka`; su fecha exacta depende de modelo. | B-COND | AUDITADO | `EVID-SIMA-NUCLEAR-001` | `INV-HOMO-MIDDLE-001` |
+| `CLAIM-AROEIRA-MOSAIC-001` | Aroeira 3, fechado entre `390–436 ka`, amplía la diversidad morfológica europea del Pleistoceno medio. | B-COND | AUDITADO | `EVID-AROEIRA-CRANIUM-001` | `INV-HOMO-MIDDLE-001` |
+| `CLAIM-AROEIRA-TECH-LIMIT-001` | La asociación de Aroeira 3 con Achelense y fuego no identifica fabricante, control del fuego ni especie mediante la industria. | A contra atribución; D autor | AUDITADO | `EVID-AROEIRA-CRANIUM-001`, `EVID-AROEIRA-FIRE-001` | `INV-HOMO-MIDDLE-001` |
+| `CLAIM-BODO-DEFLESHING-001` | Las marcas del cráneo de Bodo son compatibles con descarnamiento intencional mediante piedra. | B | AUDITADO | `EVID-BODO-CUTMARKS-001` | `INV-HOMO-MIDDLE-001` |
+| `CLAIM-BODO-MOTIVE-LIMIT-001` | Las marcas de Bodo no distinguen por sí solas consumo, ritual, tratamiento mortuorio o violencia. | A contra motivo; D motivo | AUDITADO | `EVID-BODO-CUTMARKS-001` | `INV-HOMO-MIDDLE-001` |
+| `CLAIM-KABWE-AGE-001` | La datación directa de Broken Hill/Kabwe produce `299 ± 25 ka`, con historia de uranio modelada. | B-COND | AUDITADO | `EVID-KABWE-DIRECT-DATE-001` | `INV-HOMO-MIDDLE-001` |
+| `CLAIM-AFRICA-MIDDLE-DIVERSITY-001` | Morfometría y cronologías apoyan diversidad regional africana; un último ancestro virtual es un modelo, no un fósil. | B-COND | AUDITADO | `EVID-AFRICA-MORPH-DIVERSITY-001` | `INV-HOMO-MIDDLE-001` |
+| `CLAIM-BODOENSIS-PROPOSAL-001` | `Homo bodoensis` fue propuesto formalmente en 2022 para reorganizar parte del registro africano. | A | AUDITADO | `EVID-BODOENSIS-DEBATE-001` | `INV-HOMO-MIDDLE-001` |
+| `CLAIM-BODOENSIS-STATUS-001` | La validez nomenclatural y filogenética de `H. bodoensis` fue refutada explícitamente y permanece controvertida. | A estado; C taxón | AUDITADO | `EVID-BODOENSIS-DEBATE-001` | `INV-HOMO-MIDDLE-001` |
+| `CLAIM-HARBIN-MORPH-NAME-001` | El cráneo de Harbin fue convertido en holotipo de `H. longi` en 2021 sobre análisis morfológico y procedencia/edad indirectas. | A propuesta; C taxón | AUDITADO | `EVID-HARBIN-MORPH-001` | `INV-HOMO-MIDDLE-001` |
+| `CLAIM-HARBIN-DENISOVAN-2025-001` | Proteínas del petroso y mtDNA del cálculo dental vinculan al individuo de Harbin con denisovanos. | B | AUDITADO | `EVID-HARBIN-MOLECULAR-001` | `INV-HOMO-MIDDLE-001` |
+| `CLAIM-HOMO-MIDDLE-REGIONAL-001` | Paleodemos conectados y estructura regional explican parte del mosaico, pero número, flujo y persistencia permanecen condicionados. | B-COND | AUDITADO | `EVID-HOMO-MIDDLE-REGIONAL-001` | `INV-HOMO-MIDDLE-001` |
+| `CLAIM-HOMO-MIDDLE-TOOLS-LIMIT-001` | Achelense, fuego y otras asociaciones arqueológicas no constituyen firmas taxonómicas automáticas. | A contra atribución; D fabricante | AUDITADO | `EVID-AROEIRA-FIRE-001`, `EVID-HOMO-MIDDLE-METHOD-001` | `INV-HOMO-MIDDLE-001` |
 
 ## Fichas resumidas
 
@@ -3178,6 +3206,56 @@ Este archivo es el índice canónico. La letra de confianza califica exactamente
 - **Observación:** seis esmaltes chinos preservan péptidos y dos variantes AMBN compartidas.
 - **Resultado:** el archivo molecular de `H. erectus` ya no es exclusivamente morfológico.
 - **Límite:** proteína no es ADN; pocas posiciones no demuestran por sí solas introgresión ni una población donante.
+
+## Investigación 039 — Homo del Pleistoceno medio
+
+### CLAIM-HOMO-MIDDLE-SCOPE-001 / TIMEBIN-001 / TAXONOMY-001
+
+- **Separación:** intervalo, tipo, hipodigma, paleodemo, región, molécula y conducta no son equivalentes.
+- **Resultado:** el Chibaniense contiene poblaciones diferenciadas, no una especie formal única.
+- **Límite:** una categoría temporal o grado morfológico no resuelve taxonomía.
+
+### CLAIM-HEIDELBERGENSIS-TYPE-001 / MAUER-AGE-001 / MAUER-LIMIT-001
+
+- **Objeto:** la mandíbula de Mauer porta el nombre y fecha `609 ± 40 ka`.
+- **Resultado:** la edad del tipo está mejor resuelta que el alcance de su especie.
+- **Límite:** no existe cráneo tipo; hipodigmas amplios requieren puente explícito.
+
+### CLAIM-ANTECESSOR-PROTEOME-001 / CASABLANCA-773KA-2026-001 / CASABLANCA-AFFINITY-001
+
+- **Borde:** TD6 y Casablanca muestran poblaciones distintas cerca de `~770 ka`.
+- **Resultado:** proteínas y morfología restringen vecindad del nodo sapiens–neandertal/denisovano.
+- **Límite:** basal o grupo hermano no significa ancestro directo.
+
+### CLAIM-SIMA-AGE-001 / MORPH-MOSAIC-001 / MTDNA-001 / NUCLEAR-001 / DISCORDANCE-001
+
+- **Paleodemo:** `~430 ka`, al menos 28 individuos y 17 cráneos reconstruidos.
+- **Moléculas:** mtDNA de afinidad denisovana; nuclear de afinidad neandertal.
+- **Límite:** la discordancia es observada; su mecanismo demográfico no.
+
+### CLAIM-AROEIRA-MOSAIC-001 / TECH-LIMIT-001 / BODO-DEFLESHING-001 / MOTIVE-LIMIT-001
+
+- **Observación:** Aroeira combina fósil, Achelense y fuego; Bodo conserva marcas de corte.
+- **Resultado:** diversidad anatómica y acciones/asociaciones locales.
+- **Límite:** ni industria identifica especie ni marca identifica motivo.
+
+### CLAIM-KABWE-AGE-001 / AFRICA-MIDDLE-DIVERSITY-001 / HOMO-MIDDLE-REGIONAL-001
+
+- **Reloj:** Kabwe tiene `299 ± 25 ka`, no una edad heredada por semejanza.
+- **Resultado:** África conserva diversidad y estructura regional plausibles.
+- **Límite:** un ancestro virtual es salida de modelo, no fósil.
+
+### CLAIM-BODOENSIS-PROPOSAL-001 / BODOENSIS-STATUS-001
+
+- **Hecho:** la especie fue propuesta y recibió una refutación nomenclatural/evolutiva.
+- **Estado:** propuesta controvertida.
+- **Límite:** objetivo decolonial, validez de nombre y coherencia biológica son pruebas distintas.
+
+### CLAIM-HARBIN-MORPH-NAME-001 / HARBIN-DENISOVAN-2025-001
+
+- **Cambio:** `H. longi` fue propuesto por morfología; proteína y mtDNA vinculan el individuo con denisovanos.
+- **Resultado:** afinidad poblacional fuerte para un cráneo casi completo.
+- **Límite:** “denisovano” no fija por sí solo rango zoológico o sinonimia.
 
 ## Claims futuros
 

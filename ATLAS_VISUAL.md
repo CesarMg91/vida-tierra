@@ -537,6 +537,20 @@ El mapa conserva ocho rutas —cronología, taxonomía, anatomía, distribución
 
 Los dos carriles declaran controles distintos: forma, variación y modelo para nombrar fósiles; contexto, trazas y réplica para inferir conducta. Ninguno demuestra por sí solo ancestro o fabricante.
 
+## 40. Investigación 039 — Homo del Pleistoceno medio: expedientes, no cajón de sastre
+
+![Portada conceptual de Homo del Pleistoceno medio](assets/visuales/hero-homo-pleistoceno-medio-heidelbergensis.png)
+
+> **Portada conceptual:** distribuye mandíbula tipo, fósiles regionales, estratigrafía, marcas, industria, datación, proteína y mtDNA en ocho vitrinas. Es un montaje no coetáneo y no identifica especies, ancestros, autores ni motivos.
+
+![Mapa epistemológico de Homo del Pleistoceno medio](assets/visuales/mapa-investigacion-039.svg)
+
+El mapa conserva ocho productos —tiempo, tipo, paleodemo, morfología, moléculas, conducta, región y nombre— y los reúne sólo mediante un modelo explícito y revisable.
+
+![Cadenas de mandíbula a especie y de molécula a población](assets/visuales/de-mandibula-a-especie-de-molecula-a-poblacion.svg)
+
+Los dos carriles muestran límites complementarios: un holotipo necesita hipodigma, variación y árbol para sostener especie; una molécula necesita autenticación, referencias y demografía para sostener población. Ninguno fija por sí solo el rango zoológico.
+
 ## Procedencia
 
 El registro de creación, límites y prompt de cada pieza está en [`assets/visuales/README.md`](assets/visuales/README.md).
