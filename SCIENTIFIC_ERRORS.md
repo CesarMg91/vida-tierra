@@ -3692,3 +3692,73 @@ Las tasas cambian, los cognados se erosionan y el préstamo vuelve reticulada la
 ### Corrección
 
 Evaluar cada capacidad con predicciones propias y no usar un producto técnico como proxy universal de mente.
+
+## Registro tabular de la Investigación 049
+
+| ID | Error | Por qué falla | Corrección operativa |
+|---|---|---|---|
+| `ERR-GEOMETRY-SYMBOL-001` | geometría = significado | intención, convención y referencia son claims diferentes | probar agencia, uso, recurrencia y significado por separado |
+| `ERR-BURIAL-RELIGION-001` | fosa = religión | depósito no conserva doctrina, emoción o ceremonia | graduar cuerpo → depósito → tratamiento → rito → creencia |
+| `ERR-SHANIDAR-FLOWERS-001` | polen = ramo funerario | abejas y otros agentes concentran polen | identificar agente y contemporaneidad antes de conducta |
+| `ERR-PIGMENT-BODYPAINT-001` | ocre = pintura corporal | ocre tiene usos técnicos y múltiples soportes | registrar receta, residuo, superficie y alternativas |
+| `ERR-ORNAMENT-IDENTITY-001` | ornamento = etnia/estatus | uso corporal no codifica una identidad legible | exigir distribución social independiente |
+| `ERR-CALCITE-IMAGE-DATE-001` | edad de costra = fecha exacta de imagen | sobre/bajo producen límites, no el gesto | declarar muestra, relación y dirección mínima/máxima |
+| `ERR-CAVEART-AUTHOR-001` | fecha mínima = autor observado | taxón se infiere por contexto poblacional | separar reloj, imagen y atribución |
+| `ERR-SOUND-INSTRUMENT-001` | «suena» = instrumento | agentes naturales pueden producir formas acústicas | demostrar manufactura, uso y recurrencia |
+| `ERR-BRUNIQUEL-RITUAL-001` | cueva profunda = santuario | rareza/oscuridad no especifican función | comparar organización, logística, técnica y formalización |
+| `ERR-SYMBOL-LANGUAGE-001` | símbolo = lenguaje moderno | un signo no conserva sintaxis o sistema | enlazar componentes concretos de 048, no una esencia |
+| `ERR-SYMBOL-NEOLITHIC-001` | simbolismo causó el Neolítico | antecedencia y presencia no son suficiencia causal | probar mecanismos de domesticación/almacenamiento por separado |
+
+## ERR-GEOMETRY-SYMBOL-001 — Leer significado en la forma
+
+Una incisión regular puede ser deliberada sin ser referencial. Trinil muestra precisamente que agencia y significado tienen resoluciones distintas.
+
+**Corrección:** describir surco, secuencia, función posible y recurrencia; reservar «símbolo» para un puente convencional independiente.
+
+## ERR-BURIAL-RELIGION-001 — Convertir gestión de un cuerpo en teología
+
+Una fosa puede proteger, retirar, recordar o manejar un cuerpo. Ninguna opción identifica por sí sola creencia posmortal, duelo o ceremonia.
+
+**Corrección:** registrar el peldaño máximo observado y qué evidencia adicional exigirían ofrenda, rito y creencia.
+
+## ERR-SHANIDAR-FLOWERS-001 — Usar polen como ramo
+
+Polen concentrado no conserva necesariamente flores completas y tiene agentes no humanos plausibles.
+
+**Corrección:** auditar taxones, espacialidad, nidos, estación, intrusión y historia de muestra.
+
+## ERR-PIGMENT-BODYPAINT-001 — Asignar una superficie ausente
+
+Preparar ocre prueba una receta; la piel no está preservada. Adhesivo, tratamiento y otras superficies permanecen posibles.
+
+**Corrección:** localizar residuos sobre soporte y probar propiedades funcionales con controles.
+
+## ERR-ORNAMENT-IDENTITY-001 — Leer etnia o estatus en suspensión
+
+Perforación y desgaste pueden demostrar montaje. El contenido social exige una distribución que no se definió usando la misma pieza.
+
+**Corrección:** separar uso corporal, convención, referente e identidad; declarar D cuando el último no existe.
+
+## ERR-CALCITE-IMAGE-DATE-001 / ERR-CAVEART-AUTHOR-001
+
+La U–Th mide carbonato. Una costra encima aporta un mínimo; debajo, un límite anterior al pigmento. El autor sigue siendo una atribución contextual.
+
+**Corrección:** escribir «costra de X, imagen al menos Y» y registrar asociación, detrito, sistema y población regional por separado.
+
+## ERR-SOUND-INSTRUMENT-001 — Confundir posibilidad acústica con manufactura
+
+Una cavidad natural puede resonar. Divje Babe no se decide tocando una réplica, sino distinguiendo huellas humanas de mordedura/fractura.
+
+**Corrección:** probar agencia primero; luego diseño, uso, serie y tradición.
+
+## ERR-BRUNIQUEL-RITUAL-001 — Hacer del desconocimiento una ceremonia
+
+Oscuridad, costo y geometría muestran organización, pero «sin función conocida» no significa «ritual».
+
+**Corrección:** formular alternativas técnicas/logísticas/sociales y predicciones espaciales antes de nombrar función.
+
+## ERR-SYMBOL-LANGUAGE-001 / ERR-SYMBOL-NEOLITHIC-001
+
+Una convención material puede restringir comunicación, no sintaxis o lengua concreta. Su existencia pleistocena tampoco causa automáticamente domesticación o aldeas.
+
+**Corrección:** enlazar sólo mecanismos observables: aprendizaje/transmisión para 048; subsistencia, almacenamiento y demografía para 050.

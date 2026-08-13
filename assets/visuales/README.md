@@ -686,6 +686,30 @@ La segunda salida fue inspeccionada a resolución original y aprobada también p
 
 Los dos SVG se diseñaron y renderizaron a `1600 × 900`, con `title` y `desc` accesibles, y se inspeccionaron a resolución original. En la primera inspección, `cronologia-archivos-lenguaje.svg` mostró una colisión entre la etiqueta de 2008 y una nota redundante; la nota se eliminó y el SVG fue reinspeccionado. `mapa-investigacion-048.svg` usa líneas continuas para resultados autorizados y discontinuas para lo no conservado. `cronologia-archivos-lenguaje.svg` declara escalas independientes y no representa una marcha o fecha inaugural.
 
+## Investigación 049 — Entierros, arte, música, ritual y símbolos
+
+| Archivo | Tipo | Creación | Evidencia o claim | Límite |
+|---|---|---|---|---|
+| `hero-simbolismo-ritual-arte-musica.png` | portada editorial generada | OpenAI ImageGen, 2026-08-13 | cinco clases de archivo material separadas | composición no probatoria; no coetaneidad, significado, ejecución o ritual |
+| `mapa-investigacion-049.svg` | diagrama epistemológico original | SVG manual del proyecto, 2026-08-13 | archivo → prueba → resultado → salto abierto | filas no forman secuencia, difusión o tradición común |
+| `cronologia-archivos-simbolismo.svg` | cronología multiarquivo original | SVG manual del proyecto, 2026-08-13 | objeto, depósito, estructura y mínimo de calcita | paneles independientes; no origen o progreso universal |
+
+## Prompt y revisión de la portada de la Investigación 049
+
+**Modo:** generación nueva con OpenAI ImageGen. Primera salida aprobada y copiada sin edición: `C:\Users\HUAWEI\.codex\generated_images\019ff9f8-176a-7ea1-b727-e17c6df17b82\exec-19d6b392-f47e-4de7-b4ed-d86c5faae5eb.png` → `assets/visuales/hero-simbolismo-ritual-arte-musica.png`. Dimensiones: `1672 × 941`; tamaño: `2,312,839` bytes; SHA-256: `bb17b580dfc468548100fe12755ba72e2bf279c1bfbd917a43c3c01a4ced8806`.
+
+> Create one original 16:9 editorial museum-archive cover image for a rigorous Spanish scientific research package about how material archives constrain inferences of burial, art, music, ritual, and symbols. No title and absolutely no text, letters, numbers, labels, glyphs, pseudo-writing, diagrams, maps, arrows, timelines, or progress lines.
+>
+> Composition: a dark neutral conservation work surface viewed in a slightly oblique overhead museum-photography style, divided only by physical spacing into five non-coeval analytical bays. Bay one: small raw ochre/mineral pigment pieces, a plain ceramic residue tray, and generic microscope sample slides with blank translucent surfaces. Bay two: a few generic broken shell-like mineral fragments and small perforated objects with realistic wear, not identifiable to any real archaeological specimen and not arranged as jewelry. Bay three: a cut calcite-and-sediment stratigraphic sample beside a generic stone fragment bearing a sparse set of abstract shallow incisions that do not copy any known cave art, icon, alphabet, symbol, or recognizable figure. Bay four: two generic incomplete hollow bone fragments with broken ends and a few drilled circular apertures, presented as acoustic test specimens, not as a reconstructed named flute. Bay five: a small non-monumental geometric disposition of ordinary stone fragments used as an analytical spatial sample, with no altar or ceremonial appearance.
+>
+> Strict exclusions: no people, bodies, skeletons, skulls, graves, tomb recreations, faces, hands, animals, figurative cave art, copied artifacts, instruments being played, fire, flames, altars, temples, religious objects, dramatic ritual scene, prehistoric interior, speech imagery, musical notation, glowing magical effects, or any suggestion that the objects share one time or place. The image must read as a restrained contemporary conservation archive, not a narrative reconstruction and not proof of meaning. Materials scientifically plausible, nuanced earth pigments, graphite, calcite white, bone ivory, charcoal gray, cool museum lighting, subtle depth, generous clean negative space in the upper-left for later web overlay. High detail, photorealistic editorial still life, 16:9 landscape.
+
+La salida se inspeccionó a resolución original y recibió revisión independiente `PASS`. Se conserva exactamente sin edición. No contiene cuerpos, tumbas, figuras, arte copiado, glifos, pseudotexto, altar ni escena. Las incisiones son abstractas y genéricas; los tubos incompletos sólo leen como candidatos acústicos, no como ejecución o tradición; la disposición pétrea no prueba rito.
+
+Los cinco compartimentos son **no coetáneos** y no reproducen sitio, colección, artefacto o asociación reales. Su cercanía no implica difusión, una tradición común, significado compartido o sistema simbólico. El color no demuestra uso corporal; los objetos perforados no codifican identidad; la calcita no fecha una imagen representada; los tubos no conservan música; las piedras no representan ceremonia.
+
+Los SVG incluyen `title` y `desc` accesibles y se revisaron a su `viewBox` original. `mapa-investigacion-049.svg` usa línea continua para prueba directa, discontinua ámbar para puentes condicionados y roja para significado/ritual no preservados. `cronologia-archivos-simbolismo.svg` divide la escala en tres paneles para evitar compresión engañosa y distingue objetos, depósitos, estructuras y mínimos de calcita. Ninguno copia arte paleolítico ni representa una línea de progreso.
+
 ## Reglas de mantenimiento
 
 - conservar SVG con `title` y `desc` accesibles;

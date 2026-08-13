@@ -3970,6 +3970,42 @@ Este archivo es el índice canónico. La letra de confianza califica exactamente
 - **Filogenia:** una raíz familiar modelada no es la primera lengua.
 - **Falsador:** estabilidad profunda bajo datos, calibraciones y modelos realmente independientes.
 
+## Registro tabular de la Investigación 049
+
+| ID | Afirmación delimitada | Confianza | Estado | Evidencias principales | Investigación |
+|---|---|---|---|---|---|
+| `CLAIM-SYMBOL-SCOPE-001` | Material seleccionado, modificación, ornamento, convención, representación, símbolo y sistema simbólico son resultados distintos. | A-SEM | AUDITADO | `EVID-SYMBOL-METHOD-001` | `INV-MIND-SYMBOL-001` |
+| `CLAIM-SYMBOL-MEANING-LIMIT-001` | El archivo material puede restringir agencia, uso y recurrencia sin identificar por sí solo significado, cosmología o identidad. | A-SEM | AUDITADO | `EVID-SYMBOL-METHOD-001` | `INV-MIND-SYMBOL-001` |
+| `CLAIM-SYMBOL-PRESERVATION-ASYMMETRY-001` | Piedra, mineral, concha y hueso sobreviven de modo desigual frente a fibra, voz, movimiento y conducta; ausencia preservada no equivale a ausencia conductual. | A-SEM/B | AUDITADO | `EVID-SYMBOL-METHOD-001` | `INV-MIND-SYMBOL-001` |
+| `CLAIM-BURIAL-NOT-RELIGION-001` | Un depósito deliberado o una fosa no demuestran por sí solos rito, duelo, estatus, religión o creencia posmortal. | A-SEM | AUDITADO | `EVID-NEANDERTHAL-BURIAL-001`, `EVID-PANGA-BURIAL-001` | `INV-MIND-SYMBOL-001` |
+| `CLAIM-NEANDERTHAL-BURIAL-HETEROGENEOUS-001` | Algunos casos neandertales favorecen depósito deliberado, pero calidad, resolución y alternativas varían por sitio y no autorizan una propiedad taxonómica uniforme. | B-COND | AUDITADO | `EVID-NEANDERTHAL-BURIAL-001` | `INV-MIND-SYMBOL-001` |
+| `CLAIM-SHANIDAR-BURIAL-001` | Articulación y estratigrafía de Shanidar Z favorecen depósito deliberado y posible uso repetido del lugar. | B-COND | AUDITADO | `EVID-NEANDERTHAL-BURIAL-001` | `INV-MIND-SYMBOL-001` |
+| `CLAIM-SHANIDAR-FLOWERS-OPEN-001` | Las concentraciones de polen de Shanidar no demuestran flores funerarias: abejas explican al menos parte del patrón y otros aportes permanecen abiertos. | C/D-ABIERTA | AUDITADO | `EVID-SHANIDAR-POLLEN-001` | `INV-MIND-SYMBOL-001` |
+| `CLAIM-PANGA-BURIAL-001` | Panga ya Saidi conserva un entierro deliberado infantil fechado `78.3 ± 4.1 ka`, sin preservar motivo o creencia. | B | AUDITADO | `EVID-PANGA-BURIAL-001` | `INV-MIND-SYMBOL-001` |
+| `CLAIM-PIGMENT-USE-OPEN-001` | Blombos demuestra procesamiento/almacenamiento de una mezcla rica en ocre `~100 ka`; su aplicación final permanece abierta. | A proceso; D aplicación | AUDITADO | `EVID-BLOMBOS-PIGMENT-MARKS-001` | `INV-MIND-SYMBOL-001` |
+| `CLAIM-MARKS-NOT-MEANING-001` | Incisiones y trazos deliberados pueden establecer agencia sin recuperar función, código o significado. | A-SEM/B agencia | AUDITADO | `EVID-BLOMBOS-PIGMENT-MARKS-001`, `EVID-INTENTIONAL-MARKS-001` | `INV-MIND-SYMBOL-001` |
+| `CLAIM-ORNAMENT-CONVENTION-CONDITIONAL-001` | Series perforadas con desgaste y montaje apoyan ornamento/convención mejor que piezas aisladas, pero no revelan identidad o significado. | B-COND | AUDITADO | `EVID-SHELL-ORNAMENTS-001` | `INV-MIND-SYMBOL-001` |
+| `CLAIM-NEANDERTHAL-ORNAMENTS-001` | Aviones y Krapina apoyan selección, modificación y probable ornamentación neandertal sin fijar función social específica. | B-COND | AUDITADO | `EVID-NEANDERTHAL-ORNAMENTS-001` | `INV-MIND-SYMBOL-001` |
+| `CLAIM-GEOMETRY-NOT-SYMBOL-001` | Una geometría intencional no demuestra por sí sola convención compartida o significado simbólico. | A-SEM | AUDITADO | `EVID-INTENTIONAL-MARKS-001`, `EVID-BLOMBOS-PIGMENT-MARKS-001` | `INV-MIND-SYMBOL-001` |
+| `CLAIM-IBERIAN-CAVE-ART-CONDITIONAL-001` | Costras ibéricas producen mínimos `>64.8 ka` si asociación y sistema U–Th son válidos; autoría neandertal es contextual, no observada. | B-COND mínimo; C autor | AUDITADO | `EVID-IBERIAN-CAVE-ART-001` | `INV-MIND-SYMBOL-001` |
+| `CLAIM-SULAWESI-FIGURATIVE-MINIMUM-001` | Karampuang conserva una composición presente al menos `51.2 ka` y Bulu’ Sipong 4 al menos `48 ka`; «narración» es más inferencial que el mínimo. | B mínimo; C narración | AUDITADO | `EVID-SULAWESI-IMAGES-001` | `INV-MIND-SYMBOL-001` |
+| `CLAIM-AURIGNACIAN-MUSIC-001` | Aerófonos manufacturados y repetidos en Suabia sostienen instrumentos y una tradición regional; no preservan ejecución, melodía o función. | B | AUDITADO | `EVID-AURIGNACIAN-FLUTES-001` | `INV-MIND-SYMBOL-001` |
+| `CLAIM-DIVJE-BABE-OPEN-001` | El hueso de Divje Babe puede producir sonido, pero manufactura hominina e instrumento siguen abiertos frente a alternativas tafonómicas. | C/D-ABIERTA | AUDITADO | `EVID-DIVJE-TAFONOMY-001` | `INV-MIND-SYMBOL-001` |
+| `CLAIM-BRUNIQUEL-SPATIAL-ORGANIZATION-001` | Bruniquel demuestra actividad neandertal organizada en profundidad a `176.5 ± 2.1 ka`, con acceso rápidamente oscuro. | B | AUDITADO | `EVID-BRUNIQUEL-STRUCTURES-001` | `INV-MIND-SYMBOL-001` |
+| `CLAIM-BRUNIQUEL-RITUAL-LIMIT-001` | Disposición, profundidad, costo y calor en Bruniquel no identifican por sí solos rito, santuario o cosmología. | A-SEM; D función | AUDITADO | `EVID-BRUNIQUEL-STRUCTURES-001` | `INV-MIND-SYMBOL-001` |
+| `CLAIM-SYMBOL-NOT-LANGUAGE-001` | Convención o simbolismo material no preservan sintaxis, modalidad, vocabulario ni lengua concreta. | A-SEM | AUDITADO | `EVID-SYMBOL-CROSSBOUNDARY-001` | `INV-MIND-SYMBOL-001` |
+| `CLAIM-SYMBOL-NOT-NEOLITHIC-CAUSE-001` | Simbolismo pleistoceno antecede al Neolítico, pero su presencia no demuestra que causara domesticación, sedentarismo o jerarquía. | A-SEM | AUDITADO | `EVID-SYMBOL-CROSSBOUNDARY-001` | `INV-MIND-SYMBOL-001` |
+
+## Investigación 049 — Entierros, arte, música, ritual y símbolos
+
+- **Escalera:** materia → agencia → uso → recurrencia/convención; significado necesita archivo independiente.
+- **Entierro:** depósito deliberado no hereda rito o creencia; los casos neandertales se califican por sitio.
+- **Pigmentos/ornamentos:** preparación, perforación y desgaste restringen acciones; no leen identidad.
+- **Imágenes:** la calcita aporta mínimos/máximos, no fecha directa del pigmento ni autor observado.
+- **Música:** manufactura y recurrencia sostienen aerófonos; «suena» no identifica instrumento.
+- **Ritual:** Bruniquel restringe organización y acceso, no cosmología.
+- **Fronteras:** convención no prueba lengua; simbolismo no es causa única del Neolítico.
+
 ## Claims futuros
 
 Las entradas cronológicas todavía no auditadas permanecen como eventos `SEMILLA` en `TIMELINE.md`. Se convertirán en claims al llegar su turno en el roadmap; así se evita otorgar apariencia de auditoría a fechas usadas inicialmente solo como orientación.

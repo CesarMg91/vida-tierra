@@ -91,6 +91,7 @@ La fase fundacional contiene:
 - la cuadragésima sexta investigación: [`¿Cuándo y por qué rutas se poblaron las Américas?`](13_migraciones/INVESTIGACION_046_POBLAMIENTO_AMERICAS.md);
 - la cuadragésima séptima investigación: [`¿Qué observamos realmente sobre herramientas, fuego y cooperación, y qué conductas podemos inferir?`](11_evolucion_humana/INVESTIGACION_047_HERRAMIENTAS_FUEGO_COOPERACION.md);
 - la cuadragésima octava investigación: [`¿Cuándo apareció el lenguaje y qué huellas puede dejar?`](11_evolucion_humana/INVESTIGACION_048_ORIGEN_LENGUAJE.md);
+- la cuadragésima novena investigación: [`Entierros, arte, música, ritual y símbolos: ¿qué permiten inferir los archivos materiales?`](11_evolucion_humana/INVESTIGACION_049_SIMBOLISMO_RITUAL_ARTE_MUSICA.md);
 - un [`ATLAS_VISUAL.md`](ATLAS_VISUAL.md) con procedencia y límites explícitos.
 
 “Preliminar” significa que la cronología organiza el programa de trabajo; no convierte automáticamente cada fecha en una conclusión cerrada. Los estados de auditoría muestran qué ha sido investigado en profundidad y qué sigue pendiente.

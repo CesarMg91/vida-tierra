@@ -373,8 +373,28 @@ Las edades de fósiles restringen anatomía u organización; las fechas de estud
 | `TIME-NSL-EMERGENCE-001` | desde la década de 1970; estudio 2004 | cohortes de Lengua de Señas Nicaragüense sistematizan segmentación | historia comunitaria observada; no «prelenguaje» paleolítico | `SRC-SENGHAS-NSL-2004` | B | AUDITADO |
 | `TIME-LANGUAGE-REGULATION-2026-001` | estudio publicado 2026; regiones evolucionadas antes de la separación arcaica | asociación regulatoria con capacidades lingüísticas actuales | cohortes/ensayos; fecha de región no es fecha de conducta | `SRC-CASTEN-REGULATION-2026` | B-COND actual; D fósil | AUDITADO |
 
+## VIII. Archivos materiales de depósito, imagen, ornamento, música y actividad formalizada
+
+Las fechas corresponden a objeto, capa, costra o estructura. No forman una línea de progreso, no son comienzos universales y no prueban significado compartido.
+
+| ID | Fecha/intervalo | Evento delimitado | Incertidumbre y evidencia | Fuente | Confianza | Estado |
+|---|---:|---|---|---|---|---|
+| `TIME-TRINIL-ENGRAVING-001` | `~0.54–0.43 Ma` | concha de Trinil con incisión geométrica deliberada | colección histórica y límites combinados; función/significado ausentes | `SRC-JOORDENS-TRINIL-2015` | B agencia; D significado | AUDITADO |
+| `TIME-BRUNIQUEL-STRUCTURES-001` | `176.5 ± 2.1 ka`; cierre anterior a `142.9 ± 1.3 ka` | estructuras profundas y acceso antiguo a Bruniquel | U–Th, 3D y geomorfología; función abierta | `SRC-JAUBERT-BRUNIQUEL-2016`, `SRC-GENUITE-BRUNIQUEL-2026` | B organización; D ritual | AUDITADO |
+| `TIME-BIZMOUNE-ORNAMENTS-001` | depósitos `≥142 ka` | 33 objetos de concha modificados en Bizmoune | contexto/U-series y uso por pieza condicionados | `SRC-SEHASSEH-BIZMOUNE-2021` | B-COND | AUDITADO |
+| `TIME-KRAPINA-TALONS-001` | `~130 ka` | ocho garras modificadas compatibles con montaje | cortes, muescas y pulido; soporte/función ausentes | `SRC-RADOVCIC-KRAPINA-2015` | B-COND | AUDITADO |
+| `TIME-AVIONES-SHELLS-001` | `~115 ka` | conchas/pigmentos en contexto neandertal | U-series del contexto; simbolismo inferido | `SRC-HOFFMANN-AVIONES-2018` | B-COND | AUDITADO |
+| `TIME-BLOMBOS-OCHRE-001` | `~100 ka` | procesamiento y almacenamiento de mezcla rica en ocre | receta directa; aplicación ausente | `SRC-HENSHILWOOD-OCHRE-2011` | A/B proceso | AUDITADO |
+| `TIME-PANGA-BURIAL-001` | `78.3 ± 4.1 ka` | entierro infantil de Panga ya Saidi | OSL, fosa, articulación y tafonomía; no religión | `SRC-MARTINON-PANGA-2021` | B | AUDITADO |
+| `TIME-BLOMBOS-ENGRAVING-001` | `~77–73 ka` | incisiones y trazos deliberados de Blombos | contexto, microscopía y experimento; significado abierto | `SRC-HENSHILWOOD-ENGRAVING-2002`, `SRC-HENSHILWOOD-DRAWING-2018` | B agencia | AUDITADO |
+| `TIME-IBERIAN-CAVE-ART-001` | mínimos `>64.8 ka` propuestos | motivos ibéricos anteriores a calcita | asociación/sistema y atribución debatidos | `SRC-HOFFMANN-IBERIAN-ART-2018`, `SRC-SLIMAK-IBERIAN-COMMENT-2018`, `SRC-HOFFMANN-IBERIAN-RESPONSE-2018` | B/C-COND | AUDITADO |
+| `TIME-ROCHE-COTARD-MARKS-001` | cueva cerrada `>57 ± 3 ka` | marcas digitales no figurativas humanas | 50 edades OSL y experimentos; significado ausente | `SRC-MARQUET-ROCHE-COTARD-2023` | B | AUDITADO |
+| `TIME-KARAMPUANG-IMAGE-001` | mínimo `51.2 ka` | composición figurativa de Leang Karampuang | calcita `53.5 ± 2.3 ka`; narración más inferencial | `SRC-OKTAVIANA-NARRATIVE-2024` | B mínimo; C narración | AUDITADO |
+| `TIME-AURIGNACIAN-FLUTES-001` | inicio regional modelado `~43–42 ka cal BP` | aerófonos de Suabia en Auriñaciense temprano | manufactura y `14C`; no primera música mundial | `SRC-CONARD-FLUTES-2009`, `SRC-HIGHAM-GEISSEN-2012` | B | AUDITADO |
+| `TIME-SHANIDAR-DEPOSITION-001` | Paleolítico medio tardío; sin fecha directa adoptada aquí | depósito neandertal articulado y polen reabierto | tafonomía/palinología; no se importa una edad contextual como fecha exacta | `SRC-POMEROY-SHANIDAR-2020`, `SRC-HUNT-SHANIDAR-POLLEN-2023` | B-COND depósito; C/D flores | AUDITADO |
+
 ## Próxima acción cronológica
 
-Las investigaciones extensas auditadas llegan de `INV-EARTH-AGE-001` a `INV-MIND-LANGUAGE-001`. `INV-MIND-SYMBOL-001` permanece pendiente y no se inicia sin revisión, fusión y asignación formal posteriores.
+Las investigaciones extensas auditadas llegan de `INV-EARTH-AGE-001` a `INV-MIND-SYMBOL-001`. La Investigación 050 permanece pendiente y no se inicia sin revisión, fusión y asignación formal posteriores.
 
 La línea temática `INV-CIV-ORIGINS-001` permanece separada en estado `TRAZADO`; organiza expedientes regionales, pero no cambia la próxima acción de la secuencia global.
