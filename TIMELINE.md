@@ -255,6 +255,14 @@ Los límites numéricos siguen `SRC-ICS-2026` (tabla 2026/06). La evidencia de c
 | `TIME-BONE-TOOLS-EARLY-001` | cerca de `1.5 Ma` | producción sistemática de herramientas óseas en Olduvai | 27 objetos; fabricante y función fina abiertos | `SRC-DELATORRE-BONE-2025` | B industria; D autor | AUDITADO |
 | `TIME-SANGIRAN-ERECTUS-001` | cerca de `1.3 Ma`; menor de `1.5 Ma` | primera aparición local controlada de `H. erectus` en Sangiran | primera detección y correlación regional, no llegada exacta | `SRC-MATSUURA-SANGIRAN-2020` | B-COND | AUDITADO |
 | `TIME-NGANDONG-ERECTUS-001` | `117–108 ka` | última aparición conocida de `H. erectus` en Ngandong | depósito fluvial y última detección; no último individuo | `SRC-RIZAL-NGANDONG-2020` | B-COND | AUDITADO |
+| `TIME-FLORES-WOLO-SEGE-001` | anterior a `1.02 ± 0.02 Ma` | presencia hominina en Wolo Sege, Flores | artefactos bajo ignimbrita `40Ar/39Ar`; no identifica fabricante | `SRC-BRUMM-WOLO-SEGE-2010` | B | AUDITADO |
+| `TIME-LUZON-KALINGA-001` | `777–631 ka` (`709 ± 68 ka`) | actividad hominina en Kalinga, Luzón | ESR, paleomagnetismo, herramientas y rinoceronte modificado; sin fósil autor | `SRC-INGICCO-KALINGA-2018` | B | AUDITADO |
+| `TIME-FLORES-MATA-MENGE-001` | aproximadamente `700 ka` (`0.65–0.773 Ma`) | cuerpos pequeños y herramientas de Mata Menge | varios relojes/contexto; afinidad con Liang Bua condicionada | `SRC-BRUMM-MATA-MENGE-2016`, `SRC-VAN-DEN-BERGH-MATA-MENGE-2016`, `SRC-KAIFU-MATA-MENGE-2024` | B-COND | AUDITADO |
+| `TIME-NALEDI-DINALEDI-001` | `335–236 ka` | deposición de `H. naledi` en Dinaledi | OSL, U-Th, paleomagnetismo y US-ESR; no fecha intención | `SRC-DIRKS-NALEDI-DATE-2017` | B-COND | AUDITADO |
+| `TIME-FLORES-LIANG-BUA-001` | cuerpos `~100–60 ka`; artefactos `~190–50 ka` | presencia fósil de `H. floresiensis` y contexto arqueológico | estratigrafía revisada y varios relojes; artefacto no prolonga automáticamente el taxón | `SRC-SUTIKNA-FLORES-2016` | B-COND | AUDITADO |
+| `TIME-FLORES-ARIDIFICATION-001` | lluvia decrece `76–61 ka`; aridez máxima `61–55 ka` | aridificación de Flores coincidente con última presencia | estalagmita y esmalte; correlación no causa única | `SRC-GAGAN-FLORES-CLIMATE-2025` | B señal; C causa | AUDITADO |
+| `TIME-LUZON-CALLAO-001` | mínimo `66.7 ± 1 ka` | metatarsiano CCH1 de Callao | U-series directa/modelada; mínimo, no inicio de linaje | `SRC-MIJARES-CALLAO-2010`, `SRC-DETROIT-LUZONENSIS-2019` | B-COND | AUDITADO |
+| `TIME-FLORES-SAPIENS-LOCAL-001` | aproximadamente `46 ka` | señal local de `H. sapiens` en Liang Bua | estratigrafía/tecnología posterior a cuerpos floresiensis; no prueba encuentro | `SRC-SUTIKNA-FLORES-2016`, `SRC-VEATCH-FLORES-TAFONOMY-2026` | B-COND | AUDITADO |
 | `TIME-SAPIENS-EARLY-001` | ~315–233 ka | primeros fósiles atribuidos a Homo sapiens en un marco pan-africano | fechas de yacimientos; mosaico morfológico | fósiles, termoluminiscencia/ESR/U-series y genética | `SRC-HUBLIN-2017` + fuentes por registrar | B para presencia; C modelo de origen | SEMILLA |
 | `TIME-SAPIENS-OOA-001` | ~70–50 ka, con salidas anteriores | expansión que aportó gran parte de ascendencia no africana actual | intervalo demográfico, no una marcha única | genomas modernos/antiguos y arqueología; por registrar | B-C | SEMILLA |
 | `TIME-SAHUL-001` | ≥50–65 ka | presencia humana temprana en Sahul | límites mínimos dependen de yacimiento/método | arqueología, luminiscencia, paleogeografía; por registrar | B-C | SEMILLA |
@@ -288,6 +296,6 @@ En esta sección una fecha arqueológica no demuestra por sí sola “propiedad�
 
 ## Próxima acción cronológica
 
-Las investigaciones extensas auditadas llegan de `INV-EARTH-AGE-001` a `INV-NEAND-DENIS-001`. El siguiente trabajo es `INV-HOMO-OTHER-001`: deberá separar cronología, anatomía, contexto, conducta y parentesco de `H. floresiensis`, `H. luzonensis`, `H. naledi` y otras poblaciones tardías sin tratarlas como reliquias o escalones.
+Las investigaciones extensas auditadas llegan de `INV-EARTH-AGE-001` a `INV-HOMO-OTHER-001`. El siguiente trabajo es `INV-SAPIENS-ORIGIN-001`: deberá contrastar un origen africano puntual con poblaciones estructuradas y conservar separadas primera detección fósil, divergencia, conectividad y emergencia del mosaico sapiens.
 
 La línea temática `INV-CIV-ORIGINS-001` permanece separada en estado `TRAZADO`; organiza expedientes regionales, pero no cambia la próxima acción de la secuencia global.

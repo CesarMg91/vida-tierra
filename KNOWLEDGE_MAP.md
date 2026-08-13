@@ -951,3 +951,28 @@ Xiahe / Penghu / Harbin → moléculas → afinidad denisovana ≠ taxón cerrad
 La fracción actual no es una etiqueta corporal. Es el mosaico que un detector reconoce después de recombinación, selección, deriva y migración. La estructura ancestral es el adversario explícito de los pulsos simples; los pedigrees y tractos muy largos aportan pruebas que no dependen del mismo modo de esa alternativa.
 
 Véase `INV-NEAND-DENIS-001` en `08_cenozoico`, su mapa en `assets/visuales/mapa-investigacion-040.svg` y la doble cadena en `assets/visuales/de-fragmento-a-linaje-y-de-segmento-a-historia-demografica.svg`.
+
+### Investigación 041 — *Homo floresiensis*, *H. luzonensis*, *H. naledi* y diversidad tardía
+
+```text
+fragmento + procedencia + caracteres + comparadores ──> taxón anatómico
+herramienta o marca + fecha + contexto ────────────────> presencia hominina
+mano / muñeca / pie + biomecánica ─────────────────────> capacidad funcional
+conjunto + tafonomía + microestratigrafía ─────────────> conducta condicionada
+matriz morfológica + modelo ────────────────────────────> afinidad filogenética
+                                                       │
+                                                       └─> no hay autor, intención o ancestro automáticos
+```
+
+El mapa conserva tres archivos regionales. Flores encadena tecnología anterior a `1.02 Ma`, cuerpos pequeños de Mata Menge hacia `700 ka` y el hipodigma de Liang Bua `~100–60 ka`. Luzón separa actividad de Kalinga `709 ± 68 ka` del taxón tardío de Callao. Rising Star une un hipodigma amplio con fecha `335–236 ka`, pero mantiene abierta la transformación de acumulación en entierro.
+
+```text
+Flores: Wolo Sege → presencia; Mata Menge → cuerpo; Liang Bua → taxón y conducta local
+Luzón: Kalinga → actividad ≠ Callao → H. luzonensis
+Rising Star: cuerpos → proceso de deposición → fosa propuesta → entierro C
+pared: línea → artificialidad C → fecha D → autor D
+```
+
+Sin ADN antiguo de estas tres especies, genealogía y flujo no pueden heredarse de parecido. La homoplasia insular compite con parentesco; el volumen endocraneal no decide conducta. La convergencia entre clima y última presencia genera una hipótesis causal, no una extinción observada.
+
+Véase `INV-HOMO-OTHER-001` en `08_cenozoico`, su mapa en `assets/visuales/mapa-investigacion-041.svg` y la doble cadena en `assets/visuales/de-fragmento-a-taxon-y-de-camara-a-conducta.svg`.

@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">De fragmento a taxón y de cámara a conducta</title>
+  <desc id="desc">Dos cadenas paralelas muestran las inferencias necesarias para diagnosticar un taxón fósil y para atribuir una conducta a una acumulación de cueva.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#111923"/><stop offset="1" stop-color="#201522"/></linearGradient>
+    <filter id="shadow"><feDropShadow dx="0" dy="7" stdDeviation="8" flood-opacity=".32"/></filter>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0 0L9 3L0 6Z" fill="#a7b5bf"/></marker>
+    <style>
+      .h1{font:700 34px system-ui,sans-serif;fill:#f7efe5}.sub{font:400 17px system-ui,sans-serif;fill:#bdc8d0}.head{font:700 23px system-ui,sans-serif;fill:#fff}.t{font:600 17px system-ui,sans-serif;fill:#f5f0e9}.s{font:400 14px system-ui,sans-serif;fill:#cbd4da}.warn{font:600 14px system-ui,sans-serif;fill:#ffd08b}.box{rx:15;stroke-width:1.5;filter:url(#shadow)}.teal{fill:#17383a;stroke:#55c4bd}.blue{fill:#1d2c45;stroke:#7fa9e5}.amber{fill:#3a291b;stroke:#dda060}.violet{fill:#35213c;stroke:#be86ce}.arr{fill:none;stroke:#a7b5bf;stroke-width:2.3;marker-end:url(#arrow)}.dash{fill:none;stroke:#d7a56b;stroke-width:2;stroke-dasharray:8 7}
+    </style>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <text x="70" y="67" class="h1">Dos cadenas, dos puntos de llegada</text>
+  <text x="70" y="100" class="sub">El taxón se infiere desde anatomía comparada; la conducta, desde contexto y tafonomía. Ninguna cadena sustituye a la otra.</text>
+
+  <text x="70" y="158" class="head">A · DEL FRAGMENTO AL TAXÓN</text>
+  <rect x="70" y="190" width="250" height="120" class="box teal"/><text x="95" y="228" class="t">1. Procedencia</text><text x="95" y="259" class="s">pieza · capa · orientación</text><text x="95" y="284" class="s">alteración y asociación</text>
+  <rect x="380" y="190" width="250" height="120" class="box teal"/><text x="405" y="228" class="t">2. Caracteres</text><text x="405" y="259" class="s">medición · repetibilidad</text><text x="405" y="284" class="s">edad y sexo estimados</text>
+  <rect x="690" y="190" width="250" height="120" class="box blue"/><text x="715" y="228" class="t">3. Comparadores</text><text x="715" y="259" class="s">Homo · variación moderna</text><text x="715" y="284" class="s">patologías específicas</text>
+  <rect x="1000" y="190" width="250" height="120" class="box blue"/><text x="1025" y="228" class="t">4. Combinación</text><text x="1025" y="259" class="s">mosaico · individuos</text><text x="1025" y="284" class="s">ausencias y homoplasia</text>
+  <rect x="1310" y="190" width="220" height="120" class="box violet"/><text x="1335" y="228" class="t">5. Taxón</text><text x="1335" y="259" class="s">diagnóstico revisable</text><text x="1335" y="284" class="warn">≠ genealogía</text>
+  <path d="M320 250H370" class="arr"/><path d="M630 250H680" class="arr"/><path d="M940 250H990" class="arr"/><path d="M1250 250H1300" class="arr"/>
+
+  <text x="70" y="395" class="head">B · DE LA CÁMARA A LA CONDUCTA</text>
+  <rect x="70" y="427" width="250" height="120" class="box amber"/><text x="95" y="465" class="t">1. Conjunto</text><text x="95" y="496" class="s">cuerpos · fauna · roca</text><text x="95" y="521" class="s">distribución espacial</text>
+  <rect x="380" y="427" width="250" height="120" class="box amber"/><text x="405" y="465" class="t">2. Procesos</text><text x="405" y="496" class="s">agua · gravedad · fauna</text><text x="405" y="521" class="s">fractura · descomposición</text>
+  <rect x="690" y="427" width="250" height="120" class="box blue"/><text x="715" y="465" class="t">3. Microcontexto</text><text x="715" y="496" class="s">límites · relleno · contactos</text><text x="715" y="521" class="s">articulación y secuencia</text>
+  <rect x="1000" y="427" width="250" height="120" class="box blue"/><text x="1025" y="465" class="t">4. Adversarios</text><text x="1025" y="496" class="s">trampa · reworking</text><text x="1025" y="521" class="s">visitante posterior</text>
+  <rect x="1310" y="427" width="220" height="120" class="box violet"/><text x="1335" y="465" class="t">5. Conducta</text><text x="1335" y="496" class="s">confianza graduada</text><text x="1335" y="521" class="warn">≠ intención leída</text>
+  <path d="M320 487H370" class="arr"/><path d="M630 487H680" class="arr"/><path d="M940 487H990" class="arr"/><path d="M1250 487H1300" class="arr"/>
+
+  <rect x="70" y="630" width="700" height="170" class="box teal"/>
+  <text x="95" y="670" class="head">PUENTE PERMITIDO</text>
+  <text x="95" y="711" class="t">El fósil puede identificar el taxón presente</text><text x="95" y="743" class="s">si comparte unidad, fecha y procedencia controlada con el evento.</text>
+  <text x="95" y="772" class="warn">Asociación fuerte todavía no observa la mano individual.</text>
+
+  <rect x="830" y="630" width="700" height="170" class="box amber"/>
+  <text x="855" y="670" class="head">ATAJOS PROHIBIDOS</text>
+  <text x="855" y="711" class="t">herramienta cercana → especie autora</text><text x="855" y="742" class="t">cámara difícil → ritual</text><text x="855" y="773" class="t">cerebro pequeño → conducta simple</text>
+  <path d="M420 630C420 590 1180 590 1180 630" class="dash"/>
+  <text x="70" y="860" class="sub">INV-HOMO-OTHER-001 · diagrama original · cadenas de inferencia, no reconstrucción anatómica ni escena funeraria</text>
+</svg>

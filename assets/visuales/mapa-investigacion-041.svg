@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Mapa epistemológico de floresiensis, luzonensis y naledi</title>
+  <desc id="desc">Cuatro carriles separan taxón anatómico, presencia hominina, capacidad funcional y conducta situada, con límites de inferencia y adversarios.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#0d1720"/><stop offset="1" stop-color="#211526"/></linearGradient>
+    <filter id="shadow"><feDropShadow dx="0" dy="8" stdDeviation="9" flood-opacity=".3"/></filter>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0 0L9 3L0 6Z" fill="#93a8b8"/></marker>
+    <style>
+      .h1{font:700 34px system-ui,sans-serif;fill:#f5eee4}.sub{font:400 17px system-ui,sans-serif;fill:#bac7d0}.lane{font:700 20px system-ui,sans-serif;fill:#fff}.t{font:600 17px system-ui,sans-serif;fill:#f6f1e9}.s{font:400 14px system-ui,sans-serif;fill:#cad4dc}.limit{font:600 14px system-ui,sans-serif;fill:#ffd08e}.box{rx:16;filter:url(#shadow);stroke-width:1.5}.a{stroke:#53c5bd;fill:#16363a}.b{stroke:#79a8e8;fill:#1c2b44}.c{stroke:#d99b5d;fill:#3a281a}.d{stroke:#b982cf;fill:#35203c}.arr{fill:none;stroke:#93a8b8;stroke-width:2.4;marker-end:url(#arrow)}
+    </style>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <text x="70" y="70" class="h1">Cuatro resultados que no deben fusionarse</text>
+  <text x="70" y="103" class="sub">Cada carril responde una pregunta distinta; cercanía espacial o temporal no reemplaza el puente de método.</text>
+
+  <text x="90" y="158" class="lane">1 · TAXÓN ANATÓMICO</text>
+  <rect x="65" y="185" width="340" height="140" class="box a"/>
+  <text x="90" y="220" class="t">Fragmentos con procedencia</text><text x="90" y="251" class="s">caracteres · repetición · comparadores</text><text x="90" y="281" class="s">hipodigma y diagnóstico revisable</text>
+  <rect x="65" y="356" width="340" height="110" class="box a"/>
+  <text x="90" y="391" class="limit">NO ENTREGA</text><text x="90" y="419" class="s">ancestro directo, genoma</text><text x="90" y="442" class="s">ni especie biológica observada</text>
+
+  <text x="485" y="158" class="lane">2 · PRESENCIA HOMININA</text>
+  <rect x="460" y="185" width="340" height="140" class="box b"/>
+  <text x="485" y="220" class="t">Herramienta · marca · capa</text><text x="485" y="251" class="s">manufactura · carnicería · reloj</text><text x="485" y="281" class="s">agente hominino en lugar y tiempo</text>
+  <rect x="460" y="356" width="340" height="110" class="box b"/>
+  <text x="485" y="391" class="limit">NO IDENTIFICA</text><text x="485" y="419" class="s">fabricante taxonómico</text><text x="485" y="442" class="s">ni continuidad genealógica</text>
+
+  <text x="880" y="158" class="lane">3 · CAPACIDAD FUNCIONAL</text>
+  <rect x="855" y="185" width="340" height="140" class="box c"/>
+  <text x="880" y="220" class="t">Muñeca · mano · pie</text><text x="880" y="251" class="s">geometría · cargas · comparación</text><text x="880" y="281" class="s">locomoción y manipulación compatibles</text>
+  <rect x="855" y="356" width="340" height="110" class="box c"/>
+  <text x="880" y="391" class="limit">NO DEMUESTRA</text><text x="880" y="419" class="s">herramienta fabricada</text><text x="880" y="442" class="s">ni conducta realizada</text>
+
+  <text x="1275" y="158" class="lane">4 · CONDUCTA SITUADA</text>
+  <rect x="1250" y="185" width="285" height="140" class="box d"/>
+  <text x="1275" y="220" class="t">Conjunto + contexto</text><text x="1275" y="251" class="s">tafonomía · microestrato</text><text x="1275" y="281" class="s">acción con confianza graduada</text>
+  <rect x="1250" y="356" width="285" height="110" class="box d"/>
+  <text x="1275" y="391" class="limit">NO LEE</text><text x="1275" y="419" class="s">intención o simbolismo</text><text x="1275" y="442" class="s">sin controles independientes</text>
+
+  <path d="M405 255H450" class="arr"/><path d="M800 255H845" class="arr"/><path d="M1195 255H1240" class="arr"/>
+
+  <rect x="65" y="530" width="720" height="280" class="box b"/>
+  <text x="95" y="574" class="lane">CONVERGENCIAS FUERTES</text>
+  <text x="95" y="618" class="t">Flores</text><text x="285" y="618" class="s">Liang Bua + Mata Menge + Wolo Sege</text>
+  <text x="95" y="661" class="t">Luzón</text><text x="285" y="661" class="s">Callao fósil + Kalinga arqueológico</text>
+  <text x="95" y="704" class="t">Rising Star</text><text x="285" y="704" class="s">anatomía + contexto + relojes múltiples</text>
+  <text x="95" y="747" class="t">Conducta</text><text x="285" y="747" class="s">marca + experimento + orden tafonómico</text>
+  <text x="95" y="781" class="limit">Convergencia no autoriza fusionar objeto, autor y causa.</text>
+
+  <rect x="815" y="530" width="720" height="280" class="box c"/>
+  <text x="845" y="574" class="lane">ADVERSARIOS Y FALSADORES</text>
+  <text x="845" y="618" class="t">Patología</text><text x="1080" y="618" class="s">puede afectar al individuo tipo</text>
+  <text x="845" y="661" class="t">Homoplasia</text><text x="1080" y="661" class="s">puede imitar parentesco insular</text>
+  <text x="845" y="704" class="t">Reworking</text><text x="1080" y="704" class="s">puede romper asociación estratigráfica</text>
+  <text x="845" y="747" class="t">Proceso natural</text><text x="1080" y="747" class="s">puede agrupar cuerpos o marcar roca</text>
+  <text x="845" y="781" class="limit">ADN, fechas directas y microestratigrafía podrían reordenar el mapa.</text>
+  <text x="70" y="860" class="sub">INV-HOMO-OTHER-001 · diagrama original · no representa cuerpos, fronteras, navegación ni rituales</text>
+</svg>

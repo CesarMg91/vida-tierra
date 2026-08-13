@@ -565,6 +565,20 @@ El mapa conserva cinco escalas —fósil, molécula, individuo, población y ret
 
 La doble cadena separa autenticación/afinidad de estadística/tractos/modelo. Un F1 es evidencia directa de parentaje; un porcentaje actual sigue siendo una inferencia poblacional transformada por la historia.
 
+## 42. Investigación 041 — *Homo floresiensis*, *H. luzonensis*, *H. naledi* y diversidad tardía
+
+![Portada editorial de archivos fósiles insulares y de cueva](assets/visuales/hero-floresiensis-naledi-diversidad-tardia.png)
+
+> **Portada editorial:** reúne estratos volcánicos, fragmentos, herramientas, bandejas de dientes, concentraciones abstractas y una superficie con líneas. No reproduce especímenes, cuerpos, entierros, navegación, autores, contemporaneidad ni anatomía diagnóstica.
+
+![Mapa epistemológico de taxón, presencia, capacidad y conducta](assets/visuales/mapa-investigacion-041.svg)
+
+El mapa conserva cuatro productos —taxón anatómico, presencia hominina, capacidad funcional y conducta situada— y explicita que ninguno entrega por sí solo genealogía, autor o intención.
+
+![Cadenas de fragmento a taxón y de cámara a conducta](assets/visuales/de-fragmento-a-taxon-y-de-camara-a-conducta.svg)
+
+La doble cadena exige procedencia, repetición y comparadores para nombrar; y procesos, microcontexto y adversarios para atribuir conducta. Una acumulación excepcional no se convierte por descarte en ritual.
+
 ## Procedencia
 
 El registro de creación, límites y prompt de cada pieza está en [`assets/visuales/README.md`](assets/visuales/README.md).

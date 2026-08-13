@@ -524,6 +524,14 @@ La primera salida introdujo perfiles humanos/animales en el panel inferior y un 
 
 La portada corregida conserva los archivos como vitrinas separadas y elimina figuras que podían sugerir identidades o una genealogía literal. Sigue siendo una composición editorial generativa: no reproduce especímenes, dimensiones, cromosomas, espectros, tractos ni frecuencias reales; la proximidad no prueba contemporaneidad, parentesco o un único episodio.
 
+## Prompt de la portada de la Investigación 041
+
+**Modo:** generación nueva con OpenAI ImageGen. Copia final inspeccionada en `assets/visuales/hero-floresiensis-naledi-diversidad-tardia.png`. Salida original conservada: `C:\Users\HUAWEI\.codex\generated_images\019ff9f8-176a-7ea1-b727-e17c6df17b82\exec-6b0dd401-09ee-406b-9b20-5870dc929f99.png`.
+
+> Create a cinematic documentary museum-archive editorial hero image, landscape 16:9, for a rigorous scientific research dossier about Homo floresiensis, Homo luzonensis, and Homo naledi. No humans, no faces, no skin, no living figures, no full skeletons, no burial scene, no ritual, no boats, no maps, no text, no letters, no labels, no borders, no watermark. Compose a continuous triptych-like scene without divider lines: LEFT, a volcanic tropical island excavation archive with dark stratigraphic layers, a tiny partial humerus fragment, a small jaw fragment, stone flakes, and a pale volcanic ash band displayed as evidence; CENTER, a humid limestone cave archive with a few teeth and curved finger/toe bone fragments in shallow specimen trays, cave sediment and measured grid pins; RIGHT, a deep dark cave chamber represented abstractly through sediment contours, three subtle evidence clusters shown only as pale fragment arrangements beneath translucent layer sheets, plus a separate rock panel with ambiguous intersecting incised lines—never resembling a body or burial. Museum conservation lighting, charcoal navy background, warm amber mineral highlights, restrained teal and muted violet accents, realistic materials, shallow depth of field but key evidence sharp, scholarly and cautious mood, high visual coherence, generous dark negative space near the upper center for potential title overlay but include no typography. Avoid sensationalism and avoid anatomical reconstruction.
+
+La imagen final se inspeccionó a resolución original. Es una composición editorial generativa y no una fotografía de excavación: las piezas, capas, bandejas, agrupaciones y líneas no reproducen procedencias, escalas, asociaciones, taxones, fosas o marcas reales. La composición evita cuerpos completos, rostros y escenas conductuales; la proximidad visual no prueba autoría, contemporaneidad ni parentesco.
+
 ## Reglas de mantenimiento
 
 - conservar SVG con `title` y `desc` accesibles;
