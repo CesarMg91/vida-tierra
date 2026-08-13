@@ -31,6 +31,9 @@ Una controversia no implica empate. Registra qué parte está realmente abierta,
 | `CONT-EARTH-MOON-LAST-001` | ¿El impacto lunar fue el último gigante y cuándo? | Luna apareció temprano tras la mayor parte del crecimiento | último gigante distinto, reequilibrio o edades lunares no equivalentes | abierta | C |
 | `CONT-EARTH-LATEVENEER-001` | ¿Cuánto y de dónde vino el aporte tardío? | HSE/Ru/W requieren o favorecen una cola pequeña | retención, metal tardío, reservorios no muestreados | abierta | B-COND |
 | `CONT-EARTH-WATER-001` | ¿Cuándo y desde qué reservorios llegó el agua? | fuentes interiores y exteriores son capaces de contribuir | fracciones, pérdida y portadores degenerados | abierta | C |
+| `CONT-EARTH-CORE-COMPOSITION-001` | ¿Qué elementos ligeros contiene el núcleo? | aleación Fe–Ni con varios elementos ligeros | proporciones distintas de O, Si, S, C, H y estratificación | abierta cuantitativamente | A para Fe dominante; C-D para mezcla exacta |
+| `CONT-EARTH-CORE-INNER-001` | ¿Cómo está estructurado el núcleo interno? | sólido anisótropo y heterogéneo a gran escala | capas, textura, hemisferios, rotación diferencial o evolución temporal distintas | abierta | A para solidez; C-D para estructura fina |
+| `CONT-EARTH-CORE-AGE-001` | ¿Cuándo nucleó el núcleo interno? | nucleación posterior a la diferenciación primordial | edades desde centenares de Ma hasta más de 1 Ga según conductividad y evolución térmica | abierta y modelada | B para posterioridad; D para edad exacta |
 | `CONT-MOON-AGE-001` | Momento del impacto formador de la Luna | temprano, en primeras decenas de Ma | impacto o reequilibrio más tardío; zircones fechan corteza, no colisión | abierta | C |
 | `CONT-HADEAN-WATER-001` | ¿Había océanos a 4.4 Ga? | zircones sugieren agua superficial/corteza reciclada | señal de fuente o alteración sin océano global persistente | abierta | C |
 | `CONT-HADEAN-NGB-001` | Edad de Nuvvuagittuq | intrusiones de ~4.16 Ga y encajantes más antiguas | edades arqueanas ~3.8 Ga o edades modelo heredadas/reset | reabierta y fortalecida en 2025 | C-B-PROV |
@@ -168,6 +171,40 @@ Condritas de enstatita contienen suficiente H para invalidar la premisa de un in
 La controversia no se resuelve asignando una fuente exclusiva. Debe estimar entradas, portadores, pérdidas y reservorios internos/superficiales con incertidumbres correlacionadas.
 
 **Prueba discriminatoria:** H, N, C y gases nobles en materiales representativos, dinámica de entrega y modelos de retención que reproduzcan simultáneamente manto, atmósfera y océanos.
+
+## CONT-EARTH-CORE-COMPOSITION-001 — Densidad no deletrea una receta
+
+### Datos compartidos
+
+- La sismología y la masa terrestre requieren un reservorio central muy denso.
+- Las velocidades y densidades del núcleo no coinciden con hierro puro bajo las mismas condiciones.
+- La afinidad siderófila y los meteoritos permiten una aleación dominada por Fe, con Ni y elementos ligeros.
+
+### Práctica dominante
+
+Combinar perfiles sísmicos, ecuaciones de estado a alta presión y temperatura, partición metal–silicato y balances cosmoquímicos. Esa convergencia favorece Fe–Ni con una fracción menor de elementos ligeros, no una fórmula única medida in situ.
+
+### Alternativas fuertes
+
+O, Si, S, C e H pueden contribuir en proporciones diferentes y no necesariamente uniformes. Temperatura, estados de espín, fases minerales, estratificación y la composición del manto introducen degeneraciones. Los experimentos de `SRC-ALFE-2002`, `SRC-BADRO-2007` y `SRC-BADRO-2014` restringen combinaciones, pero no cierran el presupuesto.
+
+**Prueba discriminatoria:** ecuaciones de estado y partición multicomponente reproducibles a condiciones del núcleo, junto con perfiles sísmicos más finos y un balance que satisfaga simultáneamente densidad, velocidades, abundancias y evolución térmica.
+
+## CONT-EARTH-CORE-INNER-001 — Sólido no significa simple
+
+Fases que atraviesan el centro, modos normales y modelos globales sostienen un núcleo interno sólido. El desacuerdo empieza al describir su textura: anisotropía cristalina, hemisferios, capas, orientación, tamaño de grano y posible cambio temporal.
+
+La señal es pequeña y atraviesa manto y núcleo externo; cobertura desigual de terremotos y estaciones, heterogeneidad del manto y selección de fases pueden imitar parte del patrón. `SRC-MORELLI-1986` abrió una familia de explicaciones anisótropas, no una tomografía definitiva de cada cristal.
+
+**Prueba discriminatoria:** nuevas geometrías de rayos, arreglos oceánicos, observaciones repetidas, modos normales y predicciones mineralógicas que expliquen conjuntamente tiempos, atenuación y dispersión sin absorber la señal en correcciones del manto.
+
+## CONT-EARTH-CORE-AGE-001 — El núcleo tiene dos edades
+
+La separación metal–silicato ocurrió durante la acreción temprana; la cristalización del núcleo interno sólido ocurrió mucho después, cuando el núcleo externo se enfrió hasta cruzar el liquidus. Confundirlas produce una falsa fecha única.
+
+`SRC-LABROSSE-2001` obtuvo una edad cercana a 1 Ga en su evolución térmica y discutió un límite superior de aproximadamente 2.5 Ga sin fuente radiactiva interna. `SRC-BONO-2019` interpretó un episodio paleomagnético de ~565 Ma como señal de nucleación y crecimiento rápido. Ambas rutas dependen de conductividad, flujo en la frontera núcleo–manto, composición y lectura del registro magnético.
+
+**Prueba discriminatoria:** paleointensidades y direcciones replicadas en minerales bien fechados, propiedades térmicas a presión extrema y modelos que reproduzcan simultáneamente geodinamo, enfriamiento del manto, radio del núcleo interno y presupuesto energético.
 
 ## CONT-MOON-AGE-001 — Formación lunar
 

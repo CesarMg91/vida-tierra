@@ -80,6 +80,20 @@ Cinco rutas separan razón medida y puente: Hf–W, manto multielemental, dinám
 
 La lámina distingue media masa, 90 % de masa, último impacto gigante, fin del equilibrio núcleo–manto y acreción tardía. Las distancias son conceptuales y la curva incluye erosión para evitar crecimiento monotónico ficticio.
 
+## 8. Investigación 007 — Núcleo terrestre
+
+![Portada conceptual del núcleo terrestre](assets/visuales/hero-nucleo-tierra.png)
+
+> **Portada conceptual:** reúne un corte terrestre, trayectorias sísmicas, una celda de alta presión y un campo magnético. No es una tomografía, no está a escala y no identifica una receta química.
+
+![Mapa de evidencia del núcleo terrestre](assets/visuales/mapa-investigacion-007.svg)
+
+Cinco rutas distinguen geometría y estado sísmicos, concentración de masa, composición Fe–Ni ligera, diferenciación temprana y geodinamo. Sus dependencias se conservan visibles: una convergencia no equivale a cinco observaciones independientes.
+
+![Fases sísmicas conceptuales del núcleo](assets/visuales/fases-sismicas-nucleo.svg)
+
+La lámina separa P, PKP, PKIKP y SKS por tramos. Las trayectorias son esquemáticas, no rayos calculados; SKS recuerda que la energía puede cruzar el núcleo externo como compresión aunque el líquido no sostenga cizalla.
+
 ## Procedencia
 
 El registro de creación, límites y prompt de cada pieza está en [`assets/visuales/README.md`](assets/visuales/README.md).

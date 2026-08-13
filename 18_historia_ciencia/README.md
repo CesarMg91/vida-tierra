@@ -7,3 +7,4 @@ Historia de cómo se reconstruyó la historia: creencias previas, evidencia disr
 - [`HISTORIA_004_EVOLUCION_ESTELAR.md`](HISTORIA_004_EVOLUCION_ESTELAR.md): de la clasificación y el H–R a cúmulos, púlsares, sismología, Gaia y remanentes compactos.
 - [`HISTORIA_005_FORMACION_SISTEMA_SOLAR.md`](HISTORIA_005_FORMACION_SISTEMA_SOLAR.md): de Kant/Laplace y los encuentros estelares a meteoritos, ALMA, Stardust y planetesimales colectivos.
 - [`HISTORIA_006_ACRECION_TIERRA.md`](HISTORIA_006_ACRECION_TIERRA.md): de Safronov y Wetherill a Hf–W condicionado, impactos no perfectos y modelos geoquímico-dinámicos acoplados.
+- [`HISTORIA_007_NUCLEO_TIERRA.md`](HISTORIA_007_NUCLEO_TIERRA.md): de Oldham, Gutenberg y Lehmann a PREM, anisotropía, física mineral, geodinamo y las dos edades del núcleo.

@@ -29,6 +29,12 @@ El propósito no es presentar la ciencia como una sucesión de fracasos ni como 
 | `ERR-EARTH-MOON-END-001` | igualar impacto lunar con fin total de acreción | confundir último gigante, equilibrio y cola tardía | cronología de hitos y HSE/Ru/W | DOCUMENTADO |
 | `ERR-EARTH-METEORITE-RECIPE-001` | usar una condrita como receta exacta de la Tierra | semejanza isotópica convertida en identidad química | balance multielemental y reservorios | DOCUMENTADO |
 | `ERR-EARTH-LATEVENEER-WATER-001` | atribuir toda el agua a un veneer exterior tardío | interior supuesto seco y capacidad confundida con historia | H/N en EC, múltiples portadores y retención | DOCUMENTADO |
+| `ERR-EARTH-CORE-SHADOW-001` | decir que la sombra sísmica está vacía de ondas | ausencia geométrica convertida en silencio absoluto | fases refractadas, difractadas y sensibilidad finita | DOCUMENTADO |
+| `ERR-EARTH-CORE-SWAVE-001` | afirmar que ninguna energía S cruza el núcleo | confundir propagación de cizalla con conversión de modo | distinguir S, K y fases SKS | DOCUMENTADO |
+| `ERR-EARTH-CORE-CHEMISTRY-001` | hacer que la sismología identifique elementos | densidad/velocidad convertidas en análisis químico | unir mineralogía, geoquímica y ecuaciones de estado | DOCUMENTADO |
+| `ERR-EARTH-CORE-WEIGHT-001` | explicar el núcleo porque “lo pesado se hunde” | densidad sin termodinámica ni afinidad química | diferenciación metal–silicato y partición | DOCUMENTADO |
+| `ERR-EARTH-CORE-METEORITE-001` | llamar a un meteorito de hierro muestra del núcleo terrestre | análogo planetario convertido en fragmento genealógico | procedencia meteórica y comparación condicionada | DOCUMENTADO |
+| `ERR-EARTH-CORE-ONEAGE-001` | asignar una sola edad al núcleo | segregación temprana y nucleación interna confundidas | cronología de dos procesos | DOCUMENTADO |
 | `ERR-GEO-KELVIN-001` | Tierra de decenas de Ma por enfriamiento | fuente térmica y transporte incompletos | radioactividad, convección y geocronología isotópica | DOCUMENTADO |
 | `ERR-GEO-SEDIMENT-001` | edad global por tasa media de sedimentación | tasa constante, registro completo y sin reciclaje | estratigrafía, discordancias y relojes radiométricos | SEMILLA |
 | `ERR-GEO-LEAD-001` | mediciones de Pb sin control ultralimpio | blanco despreciable | laboratorios limpios, blancos y química de trazas | DOCUMENTADO |
@@ -124,6 +130,54 @@ Eso no invierte el exclusivismo: tampoco prueba que toda el agua fuera interior.
 ### Lección
 
 Demostrar capacidad de una fuente elimina una imposibilidad; no mide automáticamente su cuota histórica.
+
+## ERR-EARTH-CORE-SHADOW-001 — Una sombra no es silencio
+
+La zona de sombra clásica describe geometrías en las que las llegadas directas de ciertas fases P disminuyen o desaparecen por refracción fuerte en la frontera núcleo–manto. No es una región terrestre donde jamás llegue energía sísmica: existen fases difractadas, reflejadas, convertidas y ondas que recorren otros caminos.
+
+### Lección
+
+Una ausencia definida por fase, distancia y banda no debe convertirse en ausencia universal del fenómeno.
+
+## ERR-EARTH-CORE-SWAVE-001 — La letra inicial no conserva el modo
+
+El líquido no soporta propagación de cizalla estática y los modelos asignan `Vs=0` al núcleo externo. Aun así, una fase SKS entra como S, viaja como P en el líquido (`K`) y vuelve a salir como S. Decir “las ondas S nunca cruzan el núcleo” borra la conversión que hace útil a la propia observación.
+
+### Lección
+
+Nombrar cada tramo de una fase evita confundir el modo físico con la energía completa de la señal.
+
+## ERR-EARTH-CORE-CHEMISTRY-001 — Una velocidad no es un espectro químico
+
+Los tiempos de viaje y modos normales restringen velocidades, densidad y discontinuidades. Fe, Ni y los elementos ligeros se infieren al combinar esos perfiles con abundancias, partición metal–silicato y física mineral a alta presión. Ningún sismograma aislado contiene etiquetas elementales.
+
+### Lección
+
+Cuando varias composiciones producen propiedades elásticas parecidas, la química requiere evidencia independiente.
+
+## ERR-EARTH-CORE-WEIGHT-001 — “Lo pesado se hunde” omite el mecanismo
+
+La gravedad favorece configuraciones de menor energía, pero la segregación exigió fusión, conectividad o gotas de metal, contraste de densidad y afinidades químicas dependientes de presión, temperatura y fugacidad de oxígeno. Algunos elementos pesados permanecen en el silicato; otros más ligeros entran en el metal.
+
+### Lección
+
+La masa atómica no sustituye a la fase, la densidad del material ni al coeficiente de partición.
+
+## ERR-EARTH-CORE-METEORITE-001 — Un análogo no cayó desde nuestro centro
+
+Los meteoritos de hierro son fragmentos de núcleos de pequeños cuerpos diferenciados. Informan sobre segregación metálica y composiciones planetarias posibles, pero no atravesaron el manto terrestre ni muestrean directamente el núcleo de la Tierra.
+
+### Lección
+
+La analogía comparada ensancha la evidencia; una genealogía inventada la debilita.
+
+## ERR-EARTH-CORE-ONEAGE-001 — Dos transiciones bajo una palabra
+
+El núcleo metálico se segregó mientras la Tierra acrecía. El núcleo interno sólido nucleó después de una larga evolución térmica del núcleo externo. Hf–W restringe el primer proceso; paleomagnetismo y modelos térmicos intentan fechar el segundo.
+
+### Lección
+
+Antes de publicar una edad, hay que nombrar el evento físico fechado.
 
 ## ERR-GEO-KELVIN-001 — El reloj térmico incompleto
 

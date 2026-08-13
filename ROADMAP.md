@@ -37,7 +37,7 @@ Una investigación pasa de `EN_DESARROLLO` a `AUDITADO` cuando:
 | 004 | `INV-COSMOS-STARS-001` | [¿Cómo inferimos nacimiento, evolución y muerte de estrellas?](01_cosmos/INVESTIGACION_004_EVOLUCION_ESTELAR.md) | paralaje, binarias, cúmulos, sismología, formación, neutrinos y remanentes — **AUDITADO** |
 | 005 | `INV-SOLAR-FORMATION-001` | [¿Cómo inferimos una nebulosa y disco protoplanetario?](01_cosmos/INVESTIGACION_005_FORMACION_SISTEMA_SOLAR.md) | dos archivos, CAIs/cóndrulos, `26Al`, CC/NC, Wild 2, magnetismo y planetesimales — **AUDITADO** |
 | 006 | `INV-EARTH-ACCRETION-001` | [¿Cómo ocurrió y cuánto duró la acreción terrestre?](02_formacion_tierra/INVESTIGACION_006_ACRECION_TIERRA.md) | Hf–W condicionado, diferenciación multietapa, N-cuerpos, colisiones, procedencia, HSE y agua — **AUDITADO** |
-| 007 | `INV-EARTH-CORE-001` | ¿Cómo sabemos que existe núcleo y cuándo se diferenció? | sismología, densidad, siderófilos, Hf–W |
+| 007 | `INV-EARTH-CORE-001` | [¿Cómo sabemos que existe el núcleo terrestre, qué contiene y cuándo se diferenció?](02_formacion_tierra/INVESTIGACION_007_NUCLEO_TIERRA.md) | sismología, modos normales, momento de inercia, física mineral, siderófilos, Hf–W y geodinamo — **AUDITADO** |
 | 008 | `INV-MOON-ORIGIN-001` | ¿Cómo se formó la Luna? | muestras lunares, isótopos, momento angular, alternativas |
 
 **Salida de fase:** cronología de hitos 4.567–4.4 Ga con incertidumbres de medición y modelo separadas.
@@ -144,6 +144,7 @@ Después de disponer de la secuencia base:
 - `v0.1.3`: Investigación 004 + historia de la evolución estelar + rutas visuales ramificadas.
 - `v0.1.4`: Investigación 005 + historia de la hipótesis nebular + mapa de los dos archivos de la formación solar.
 - `v0.1.5`: Investigación 006 + historia de la acreción moderna + mapa de cinco archivos/finales terrestres.
+- `v0.1.6`: Investigación 007 + historia del descubrimiento del núcleo + rutas sísmicas, geoquímicas, mineralógicas y magnéticas.
 - `v0.2`: Hadeano/Arcaico auditados.
 - `v0.3`: Proterozoico y origen/temprana evolución de la vida.
 - `v0.4`: Fanerozoico completo.
