@@ -282,6 +282,22 @@ El propósito no es presentar la ciencia como una sucesión de fracasos ni como 
 | `ERR-QUATERNARY-OVERKILL-UNIVERSAL-001` | la caza explica todas las extinciones | señal humana global convertida en mecanismo único | taxón, región, clima y vía causal | DOCUMENTADO |
 | `ERR-QUATERNARY-CLIMATE-UNIVERSAL-001` | el clima explica todas las extinciones | covariación convertida en motor suficiente | eventos previos, humanos y selectividad | DOCUMENTADO |
 | `ERR-QUATERNARY-ANTHROPOCENE-FORMAL-001` | el Antropoceno ya es una época oficial | concepto común convertido en rango ratificado | decisión IUGS/ICS y uso distinguidos | DOCUMENTADO |
+| `ERR-HOMININ-SPLIT-CHIMP-ANCESTOR-001` | humanos descienden de chimpancés actuales | pariente vivo colocado en el nodo ancestral | árbol ramificado y polarización con outgroups | DOCUMENTADO |
+| `ERR-HOMININ-SPLIT-COMMON-COUPLE-001` | una pareja ancestral se dividió en dos especies | genealogía de individuos convertida en especiación | población ancestral y coalescente | DOCUMENTADO |
+| `ERR-HOMININ-SPLIT-ONE-DATE-001` | existe una fecha exacta única de separación | inicio, fin de flujo y TMRCA colapsados | evento y distribución declarados | DOCUMENTADO |
+| `ERR-HOMININ-SPLIT-GENE-TREE-SPECIES-001` | cada gen debe mostrar el árbol de especies | genealogía local convertida en topología universal | recombinación e ILS modeladas | DOCUMENTADO |
+| `ERR-HOMININ-SPLIT-DIVERGENCE-SPLIT-001` | diferencia genética igual a tiempo de split | diversidad ancestral omitida | coalescencia, tasa y demografía | DOCUMENTADO |
+| `ERR-HOMININ-SPLIT-ILS-HYBRID-001` | toda discordancia demuestra hibridación | ILS ignorada como predicción nula | frecuencias, tractos y modelos rivales | DOCUMENTADO |
+| `ERR-HOMININ-SPLIT-CLOCK-CONSTANT-001` | una tasa constante sirve para todo sitio y rama | heterogeneidad molecular ignorada | clases de sustitución y relojes relajados | DOCUMENTADO |
+| `ERR-HOMININ-SPLIT-MUTATION-SUBSTITUTION-001` | mutación de novo equivale a sustitución fijada | deriva/selección omitidas | transmisión y fijación separadas | DOCUMENTADO |
+| `ERR-HOMININ-SPLIT-GENERATION-CONSTANT-001` | una generación dura siempre lo mismo | historia de vida moderna universalizada | edades parentales y sensibilidad por rama | DOCUMENTADO |
+| `ERR-HOMININ-SPLIT-FOSSIL-ANCESTOR-001` | el fósil más antiguo es el ancestro común | mínimo y semejanza convertidos en identidad | filogenia y rango fantasma | DOCUMENTADO |
+| `ERR-HOMININ-SPLIT-FOSSIL-MAXIMUM-001` | ausencia de fósiles más antiguos fija un máximo | preservación/búsqueda tratadas como completas | modelo de muestreo y máximo justificado | DOCUMENTADO |
+| `ERR-HOMININ-SPLIT-SIMILARITY-PERCENT-001` | un porcentaje resume toda semejanza | denominadores y variantes mezclados | métricas por clase y región | DOCUMENTADO |
+| `ERR-HOMININ-SPLIT-STRUCTURAL-ADD-001` | `10 %` estructural se suma a SNP como bases distintas | métricas no equivalentes agregadas | ontología de variantes y denominador | DOCUMENTADO |
+| `ERR-HOMININ-SPLIT-T2T-FINAL-001` | un genoma T2T representa toda la especie | referencia convertida en pangenoma | múltiples individuos/especies y diversidad | DOCUMENTADO |
+| `ERR-HOMININ-SPLIT-CHROMOSOME2-CLOCK-001` | cromosoma 2 fecha o causó la separación | carácter de rama convertido en reloj/mecanismo | sintenia separada de edad y fenotipo | DOCUMENTADO |
+| `ERR-HOMININ-SPLIT-HYBRIDIZATION-FACT-001` | la hibridación tardía Homo–Pan es un hecho | preferencia de modelo convertida en observación | selección, ILS, estructura y pruebas predictivas | DOCUMENTADO |
 | `ERR-LUNAR-APOLLO-INDEPENDENT-001` | tratar sitios Apollo como testigos independientes | ejecta local y sin transporte global | cartografía, Th, geoquímica y escalado de Imbrium | DOCUMENTADO |
 | `ERR-IMPACT-MOON-EARTH-001` | convertir cronología lunar en esterilización terrestre | escala constante de tasa y efecto | dinámica, hidrocodes, atmósfera/océano y archivo terrestre | DOCUMENTADO |
 | `ERR-LUNAR-ABSENCE-001` | “sin fundido antiguo” = “sin impacto antiguo” | supervivencia uniforme hacia atrás | sesgo de preservación y evidencia positiva `4.22–4.33 Ga` | DOCUMENTADO |
@@ -2547,3 +2563,131 @@ IUGS/ICS rechazó en 2024 la propuesta formal basada en 1952.
 ### Corrección
 
 Separar concepto interdisciplinario, evento geológico y rango cronoestratigráfico.
+
+## ERR-HOMININ-SPLIT-CHIMP-ANCESTOR-001 — Un pariente vivo colocado detrás de nosotros
+
+Chimpancé y bonobo siguieron evolucionando desde su separación de nuestra rama.
+
+### Corrección
+
+Reconstruir caracteres ancestrales con outgroups y no copiar un taxón moderno.
+
+## ERR-HOMININ-SPLIT-COMMON-COUPLE-001 — Una pareja como especie
+
+Una población contiene muchos linajes y tiempos coalescentes; dos individuos no representan el proceso de especiación.
+
+### Corrección
+
+Usar población ancestral, tamaño efectivo y distribución de genealogías.
+
+## ERR-HOMININ-SPLIT-ONE-DATE-001 — Un interruptor de especie
+
+Inicio de restricción, fin de flujo, reconocimiento fósil y TMRCA son objetos distintos.
+
+### Corrección
+
+Nombrar el evento y publicar su intervalo/modelo.
+
+## ERR-HOMININ-SPLIT-GENE-TREE-SPECIES-001 — Un locus como árbol completo
+
+Recombinación e ILS hacen esperables topologías locales discordantes.
+
+### Corrección
+
+Inferir el árbol de especies desde distribuciones de árboles génicos.
+
+## ERR-HOMININ-SPLIT-DIVERGENCE-SPLIT-001 — Diferencia convertida en calendario
+
+La divergencia incluye sustituciones posteriores y diversidad ancestral.
+
+### Corrección
+
+Modelar tasa, coalescencia, recombinación y población ancestral.
+
+## ERR-HOMININ-SPLIT-ILS-HYBRID-001 — Discordancia con una sola causa
+
+ILS produce discordancia incluso sin migración posterior.
+
+### Corrección
+
+Comparar longitudes y frecuencias de tractos bajo ILS, estructura, selección y flujo.
+
+## ERR-HOMININ-SPLIT-CLOCK-CONSTANT-001 — Un metrónomo para todo el genoma
+
+Ramas y clases de sustitución acumulan cambios a ritmos distintos.
+
+### Corrección
+
+Usar modelos relajados, clases de sitio y sensibilidad de calibración.
+
+## ERR-HOMININ-SPLIT-MUTATION-SUBSTITUTION-001 — Nacer equivale a fijarse
+
+Una mutación observada en un descendiente todavía atraviesa deriva y selección.
+
+### Corrección
+
+Separar tasa de aparición por generación y tasa de sustitución histórica.
+
+## ERR-HOMININ-SPLIT-GENERATION-CONSTANT-001 — La misma duración de generación
+
+Madurez y edades reproductivas cambian entre ramas y a través del tiempo.
+
+### Corrección
+
+Incorporar historia de vida y propagar su incertidumbre a años.
+
+## ERR-HOMININ-SPLIT-FOSSIL-ANCESTOR-001 — El más antiguo como progenitor
+
+Un fósil puede ser rama hermana y su primera aparición observada es un mínimo de muestreo.
+
+### Corrección
+
+Separar edad, posición filogenética, mínimo y ancestro directo.
+
+## ERR-HOMININ-SPLIT-FOSSIL-MAXIMUM-001 — El silencio como frontera dura
+
+El registro tropical de simios es incompleto y desigual.
+
+### Corrección
+
+Justificar máximos con preservación, exposición y esfuerzo de búsqueda.
+
+## ERR-HOMININ-SPLIT-SIMILARITY-PERCENT-001 — Una cifra sin denominador
+
+Bases alineables, indels, copias y repeticiones no comparten automáticamente métrica.
+
+### Corrección
+
+Declarar región, ortología, ploidía y clase de variante.
+
+## ERR-HOMININ-SPLIT-STRUCTURAL-ADD-001 — Porcentajes sumados sin ontología
+
+Contenido estructuralmente divergente puede incluir bases ya contadas o no alineables.
+
+### Corrección
+
+Reportar categorías no solapadas o explicar su intersección.
+
+## ERR-HOMININ-SPLIT-T2T-FINAL-001 — Referencia completa como población completa
+
+Dos haplotipos resuelven una muestra, no toda la diversidad de una especie.
+
+### Corrección
+
+Construir pangenomas poblacionales y ampliar especies/subespecies.
+
+## ERR-HOMININ-SPLIT-CHROMOSOME2-CLOCK-001 — Una fusión como fecha y causa
+
+La fusión identifica un cambio derivado, pero no contiene una edad absoluta ni explica por sí misma fenotipos humanos.
+
+### Corrección
+
+Separar evidencia de estructura, polaridad, cronología y función.
+
+## ERR-HOMININ-SPLIT-HYBRIDIZATION-FACT-001 — Un ajuste contado como episodio
+
+La propuesta de hibridación tardía compite con ILS, estructura y selección.
+
+### Corrección
+
+Exigir predicciones exclusivas, validación fuera de muestra y comparación de modelos.

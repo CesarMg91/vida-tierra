@@ -263,6 +263,15 @@ Una controversia no implica empate. Registra qué parte está realmente abierta,
 | `CONT-QUATERNARY-MEGAFAUNA-AUSTRALIA-001` | ¿Qué causó las pérdidas australianas? | declive precede al gran cambio vegetal en un registro | proxy fecal y cronologías continentales se discuten | influencia humana favorecida; escala abierta | B-COND |
 | `CONT-QUATERNARY-MEGAFAUNA-PATAGONIA-001` | ¿Clima o humanos en Patagonia? | pérdida coincide con calentamiento y ocupación | preservación y resolución limitan pesos | sinergia favorecida | B-COND |
 | `CONT-QUATERNARY-MEGAFAUNA-NORTHAMERICA-001` | ¿Qué explica el pulso norteamericano? | últimas apariciones se concentran terminalmente | SPD y proxies humanos/climáticos dan atribuciones distintas | pulso fuerte; causa debatida | B patrón; C causa |
+| `CONT-HOMININ-SPLIT-DATE-001` | ¿Cuándo se separaron Homo y `Pan`? | modelos genómicos recientes concentran `5.5–6.3 Ma` | tasas, fósiles y definición de split amplían ~`5.5–7 Ma` o más | Mioceno tardío robusto; bordes abiertos | B-COND |
+| `CONT-HOMININ-SPLIT-MUTATION-RATE-001` | ¿Qué tasa convierte diferencias en años? | tríos proporcionan mutación reciente por generación | sustitución histórica y clases de sitio varían | variación demostrada; extrapolación abierta | B-COND |
+| `CONT-HOMININ-SPLIT-GENERATION-001` | ¿Cuánto duraban generaciones ancestrales? | datos silvestres y efectos parentales informan la conversión | historia de vida miocena no está observada | moderna medible; ancestral modelada | C-COND |
+| `CONT-HOMININ-SPLIT-FOSSIL-CALIBRATION-001` | ¿Qué fósil calibra cada nodo? | especímenes diagnósticos fijan mínimos | afinidad de fósiles cercanos cambia con matrices y caracteres | método claro; asignaciones abiertas | B-COND |
+| `CONT-HOMININ-SPLIT-ILS-001` | ¿Cuánta discordancia es ILS? | coalescente explica gran fracción por población ancestral | estructura, selección y flujo alteran el mosaico | ILS robusta; fracción/modelo abiertos | B-COND |
+| `CONT-HOMININ-SPLIT-X-001` | ¿Por qué el X tiene baja divergencia/ILS? | tamaño efectivo y barridos fuertes reducen genealogía profunda | flujo o hibridación también pueden contribuir | selección fuerte plausible; pesos abiertos | C-COND |
+| `CONT-HOMININ-SPLIT-GENE-FLOW-001` | ¿Hubo flujo Homo–Pan tras el inicio? | modelos con migración pueden ajustar mejor algunas señales | ILS, estructura y selección producen patrones solapados | plausible; duración y magnitud no establecidas | C-D |
+| `CONT-HOMININ-SPLIT-SIMILARITY-001` | ¿Qué porcentaje de similitud es correcto? | identidad en bases alineables responde una métrica legítima | indels, copias, repeticiones y estructura usan otros denominadores | no hay porcentaje universal | A-SEM |
+| `CONT-HOMININ-SPLIT-FOSSIL-IDENTITY-001` | ¿Los fósiles cercanos pertenecen al linaje correcto? | caracteres derivados apoyan afinidades hominina/gorilina | convergencia y material fragmentario permiten posiciones rivales | edad más robusta que posición | B edad; C afinidad |
 
 ## CONT-COSMOS-H0-001 — Dos rutas hacia la tasa actual
 
@@ -1986,3 +1995,57 @@ ADN y `14C` apoyan pérdida cuando calentamiento y presencia humana coexistieron
 La concentración de últimas apariciones es fuerte. Modelos basados en sumas de probabilidad y proxies demográficos pueden favorecer clima, mientras otras síntesis favorecen influencia humana.
 
 **Prueba discriminatoria:** fechas directas adicionales y modelos de observación que separen abundancia real, esfuerzo de muestreo y calibración.
+
+## CONT-HOMININ-SPLIT-DATE-001 — Un intervalo con varios significados
+
+`5.5–6.3 Ma` es una estimación precisa dentro del análisis T2T 2025; `~5.5–7 Ma` conserva sensibilidad a tasas, generaciones, estructura y mínimos fósiles. Inicio de restricción, fin de flujo y coalescencia media no tienen por qué coincidir.
+
+**Prueba discriminatoria:** modelos conjuntos preregistrados que comparen tasas, calibraciones y definiciones de split sobre pangenomas T2T poblacionales.
+
+## CONT-HOMININ-SPLIT-MUTATION-RATE-001 — Del trío reciente al Mioceno
+
+Tríos cuentan de novo, pero fijación, espectro y generaciones transforman esa medición antes de aplicarla a divergencia antigua.
+
+**Prueba discriminatoria:** grandes paneles familiares multiespecie, multigeneracionales y estratificados por edad parental y clase de sitio.
+
+## CONT-HOMININ-SPLIT-GENERATION-001 — Años que dependen de la vida
+
+Generaciones modernas de chimpancés y gorilas son observables; las ancestrales responden a madurez, fecundidad y longevidad que pudieron cambiar.
+
+**Prueba discriminatoria:** modelos de historia de vida que predigan simultáneamente tasas de trío y varios nodos fósiles externos.
+
+## CONT-HOMININ-SPLIT-FOSSIL-CALIBRATION-001 — El mínimo cambia de rama
+
+Una edad geológica puede ser sólida mientras la posición del fósil cambia. La calibración debe moverse con la filogenia, no conservarse por tradición.
+
+**Prueba discriminatoria:** nuevos caracteres independientes, matrices abiertas y análisis de sensibilidad que retiren cada fósil candidato.
+
+## CONT-HOMININ-SPLIT-ILS-001 — Discordancia esperada, cantidad modelada
+
+ILS es una consecuencia robusta de separaciones próximas. Su porcentaje depende de regiones accesibles, referencias, recombinación y estructura ancestral.
+
+**Prueba discriminatoria:** pangenomas completos que predigan fuera de muestra frecuencias y longitudes de las tres topologías.
+
+## CONT-HOMININ-SPLIT-X-001 — Un cromosoma con demografía y selección propias
+
+El X combina menor tamaño efectivo, herencia sexual, recombinación y selección. Un patrón joven no elige por sí solo entre barrido y flujo.
+
+**Prueba discriminatoria:** ajuste conjunto de diversidad, ILS, espectro mutacional y tractos bajo selección y migración explícitas.
+
+## CONT-HOMININ-SPLIT-GENE-FLOW-001 — Separación prolongada no es cruce observado
+
+Algunos CoalHMM favorecen aislamiento con migración; críticas y alternativas muestran que la señal no identifica una hibridación tardía fuerte de forma única.
+
+**Prueba discriminatoria:** simulaciones predictivas con estructura ancestral, selección y flujo comparadas sobre estadísticas no usadas en el ajuste.
+
+## CONT-HOMININ-SPLIT-SIMILARITY-001 — El denominador decide la cifra
+
+Identidad de bases alineables y contenido estructuralmente distinto miden aspectos reales, pero no pueden sumarse ni sustituirse sin una ontología de variantes.
+
+**Prueba discriminatoria:** informes con ortología, regiones excluidas, ploidía y cada clase de variante publicados por separado.
+
+## CONT-HOMININ-SPLIT-FOSSIL-IDENTITY-001 — Cerca en edad no equivale a dentro del linaje
+
+`Sahelanthropus` y `Chororapithecus` importan por sus edades; su poder calibrador depende de caracteres y posiciones discutidos.
+
+**Prueba discriminatoria:** material asociado craneal y postcraneal, contexto directo y matrices que incluyan convergencia funcional.

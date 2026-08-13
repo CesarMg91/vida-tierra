@@ -775,3 +775,27 @@ humanos + clima + ecología ──────────> atribución regional
 La arquitectura conserva seis relojes: fronteras, ritmo orbital, MPT, cambios abruptos, deglaciación y extinciones. El patrón orbital y los episodios rápidos tienen apoyo alto; la causa de la MPT y el disparo del Younger Dryas permanecen abiertos en distinto grado. Las pérdidas de megafauna son selectivas y asincrónicas: la señal humana global no elimina clima, ecología ni diferencias entre especies y regiones.
 
 Véase `INV-QUATERNARY-001` en `08_cenozoico`, su mapa en `assets/visuales/mapa-investigacion-034.svg` y la doble cadena en `assets/visuales/de-orbita-a-glaciacion-y-de-ultima-aparicion-a-extincion.svg`.
+
+### Investigación 035 — Separación de los linajes humanos y otros simios
+
+```text
+homología + outgroups + genomas ──────> topología de especies ───────────┐
+SNP + indel + copia + estructura ─────> divergencia con denominador ────┤
+                                                        └── parecido ≠ ancestro; porcentaje ≠ universal
+
+tríos + edad parental ─────────────────> mutación por generación ────────┐
+historia de vida + clases de sitio ────> tasa anual condicionada ───────┤
+                                                        └── mutación ≠ sustitución; generación ≠ año fijo
+
+recombinación + árboles locales ───────> coalescencia e ILS ─────────────┐
+estructura + selección + migración ────> modelo demográfico ─────────────┼──> separación poblacional
+                                                        └── TMRCA ≠ split; ILS ≠ hibridación
+
+espécimen + carácter + horizonte ──────> mínimo fósil condicionado ─────┐
+sintenia + fusión cromosoma 2 ─────────> cambio derivado de rama ───────┘
+                                                        └── fósil ≠ nodo; estructura ≠ reloj
+```
+
+La arquitectura conserva seis rutas: topología, divergencia, tasa, coalescencia, calibración fósil y estructura cromosómica. El árbol Homo–Pan es robusto; la separación cae prudentemente cerca de `~5.5–7 Ma`, pero inicio, fin de flujo y coalescencias no coinciden necesariamente. Los genomas T2T amplían regiones comparables y elevan la ILS visible sin convertir una referencia en pangenoma. El cromosoma 2 confirma una transformación de rama, no su fecha.
+
+Véase `INV-HOMININ-SPLIT-001` en `08_cenozoico`, su mapa en `assets/visuales/mapa-investigacion-035.svg` y la doble cadena en `assets/visuales/de-diferencia-genomica-a-separacion-y-de-fosil-a-calibracion.svg`.

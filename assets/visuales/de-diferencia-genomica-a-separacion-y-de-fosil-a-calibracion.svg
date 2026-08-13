@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">De diferencia genómica a separación y de fósil a calibración</title>
+  <desc id="desc">Dos cadenas paralelas muestran los pasos y supuestos necesarios para transformar diferencias genómicas en tiempos de separación y fósiles en calibraciones mínimas.</desc>
+  <defs>
+    <linearGradient id="bg2" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#07141a"/>
+      <stop offset="1" stop-color="#17172a"/>
+    </linearGradient>
+    <marker id="arr2" markerWidth="9" markerHeight="9" refX="8" refY="4.5" orient="auto"><path d="M0 0L9 4.5L0 9Z" fill="#829ca8"/></marker>
+    <filter id="sh2" x="-15%" y="-20%" width="130%" height="140%"><feDropShadow dx="0" dy="6" stdDeviation="7" flood-opacity=".3"/></filter>
+    <style>
+      .kick{font:600 18px 'Segoe UI',Arial,sans-serif;letter-spacing:3px;fill:#71d3cc}
+      .ttl{font:700 38px 'Segoe UI',Arial,sans-serif;fill:#f4efe6}
+      .sub{font:400 19px 'Segoe UI',Arial,sans-serif;fill:#b3c4c9}
+      .lane{font:700 25px 'Segoe UI',Arial,sans-serif;fill:#f7f1e8}
+      .n{font:700 15px 'Segoe UI',Arial,sans-serif;fill:#07141a}
+      .step{font:700 18px 'Segoe UI',Arial,sans-serif;fill:#eef3f2}
+      .detail{font:400 14px 'Segoe UI',Arial,sans-serif;fill:#adc0c5}
+      .warning{font:600 16px 'Segoe UI',Arial,sans-serif;fill:#f0c67b}
+      .foot{font:500 14px 'Segoe UI',Arial,sans-serif;fill:#91a7ad}
+      .arrow{stroke:#829ca8;stroke-width:2;fill:none;marker-end:url(#arr2)}
+    </style>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg2)"/>
+  <text x="70" y="65" class="kick">INVESTIGACIÓN 035 · DOS CADENAS DE INFERENCIA</text>
+  <text x="70" y="115" class="ttl">Del objeto medido al tiempo permitido</text>
+  <text x="70" y="150" class="sub">Una fecha defendible conserva cada transformación; ningún fósil ni porcentaje salta directo al nodo.</text>
+
+  <rect x="55" y="190" width="1490" height="275" rx="25" fill="#0e252d" stroke="#2d686b" stroke-width="2"/>
+  <text x="90" y="235" class="lane">A · Diferencia genómica → separación poblacional</text>
+
+  <path class="arrow" d="M265 333H310"/><path class="arrow" d="M485 333H530"/><path class="arrow" d="M705 333H750"/><path class="arrow" d="M925 333H970"/><path class="arrow" d="M1145 333H1190"/><path class="arrow" d="M1365 333H1410"/>
+  <g filter="url(#sh2)"><rect x="90" y="275" width="175" height="120" rx="16" fill="#173641"/><circle cx="115" cy="300" r="16" fill="#70d0c8"/><text x="115" y="305" text-anchor="middle" class="n">1</text><text x="110" y="340" class="step">Secuencia</text><text x="110" y="367" class="detail">lectura y asamblea</text></g>
+  <g filter="url(#sh2)"><rect x="310" y="275" width="175" height="120" rx="16" fill="#173641"/><circle cx="335" cy="300" r="16" fill="#70d0c8"/><text x="335" y="305" text-anchor="middle" class="n">2</text><text x="330" y="340" class="step">Comparación</text><text x="330" y="367" class="detail">ortología + alineamiento</text></g>
+  <g filter="url(#sh2)"><rect x="530" y="275" width="175" height="120" rx="16" fill="#173641"/><circle cx="555" cy="300" r="16" fill="#70d0c8"/><text x="555" y="305" text-anchor="middle" class="n">3</text><text x="550" y="340" class="step">Divergencia</text><text x="550" y="367" class="detail">métrica + denominador</text></g>
+  <g filter="url(#sh2)"><rect x="750" y="275" width="175" height="120" rx="16" fill="#1c3241"/><circle cx="775" cy="300" r="16" fill="#76a4d3"/><text x="775" y="305" text-anchor="middle" class="n">4</text><text x="770" y="340" class="step">Tasa</text><text x="770" y="367" class="detail">mutación + sustitución</text></g>
+  <g filter="url(#sh2)"><rect x="970" y="275" width="175" height="120" rx="16" fill="#252e43"/><circle cx="995" cy="300" r="16" fill="#9180c4"/><text x="995" y="305" text-anchor="middle" class="n">5</text><text x="990" y="340" class="step">Coalescente</text><text x="990" y="367" class="detail">ILS + recombinación</text></g>
+  <g filter="url(#sh2)"><rect x="1190" y="275" width="175" height="120" rx="16" fill="#2e2b3f"/><circle cx="1215" cy="300" r="16" fill="#b191c5"/><text x="1215" y="305" text-anchor="middle" class="n">6</text><text x="1210" y="340" class="step">Demografía</text><text x="1210" y="367" class="detail">generación + flujo</text></g>
+  <g filter="url(#sh2)"><rect x="1410" y="275" width="105" height="120" rx="16" fill="#4a3924" stroke="#d5a85d"/><circle cx="1435" cy="300" r="16" fill="#e0b463"/><text x="1435" y="305" text-anchor="middle" class="n">7</text><text x="1430" y="340" class="step">Split</text><text x="1430" y="367" class="detail">distribución</text></g>
+  <text x="90" y="435" class="warning">Salto prohibido: diferencia de secuencia = fecha de especie.</text>
+
+  <rect x="55" y="495" width="1490" height="275" rx="25" fill="#262116" stroke="#8a6b38" stroke-width="2"/>
+  <text x="90" y="540" class="lane">B · Fósil → calibración mínima</text>
+  <path class="arrow" d="M265 638H310"/><path class="arrow" d="M485 638H530"/><path class="arrow" d="M705 638H750"/><path class="arrow" d="M925 638H970"/><path class="arrow" d="M1145 638H1190"/><path class="arrow" d="M1365 638H1410"/>
+  <g filter="url(#sh2)"><rect x="90" y="580" width="175" height="120" rx="16" fill="#382e1d"/><circle cx="115" cy="605" r="16" fill="#e0b463"/><text x="115" y="610" text-anchor="middle" class="n">1</text><text x="110" y="645" class="step">Espécimen</text><text x="110" y="672" class="detail">identidad + contexto</text></g>
+  <g filter="url(#sh2)"><rect x="310" y="580" width="175" height="120" rx="16" fill="#382e1d"/><circle cx="335" cy="605" r="16" fill="#e0b463"/><text x="335" y="610" text-anchor="middle" class="n">2</text><text x="330" y="645" class="step">Caracteres</text><text x="330" y="672" class="detail">diagnóstico explícito</text></g>
+  <g filter="url(#sh2)"><rect x="530" y="580" width="175" height="120" rx="16" fill="#3c3020"/><circle cx="555" cy="605" r="16" fill="#dca95a"/><text x="555" y="610" text-anchor="middle" class="n">3</text><text x="550" y="645" class="step">Posición</text><text x="550" y="672" class="detail">rama + matriz</text></g>
+  <g filter="url(#sh2)"><rect x="750" y="580" width="175" height="120" rx="16" fill="#393126"/><circle cx="775" cy="605" r="16" fill="#c99f68"/><text x="775" y="610" text-anchor="middle" class="n">4</text><text x="770" y="645" class="step">Horizonte</text><text x="770" y="672" class="detail">asociación + correlación</text></g>
+  <g filter="url(#sh2)"><rect x="970" y="580" width="175" height="120" rx="16" fill="#3a3030"/><circle cx="995" cy="605" r="16" fill="#c98c73"/><text x="995" y="610" text-anchor="middle" class="n">5</text><text x="990" y="645" class="step">Edad</text><text x="990" y="672" class="detail">método + incertidumbre</text></g>
+  <g filter="url(#sh2)"><rect x="1190" y="580" width="175" height="120" rx="16" fill="#41322a"/><circle cx="1215" cy="605" r="16" fill="#d19a68"/><text x="1215" y="610" text-anchor="middle" class="n">6</text><text x="1210" y="645" class="step">Mínimo</text><text x="1210" y="672" class="detail">si está en la rama</text></g>
+  <g filter="url(#sh2)"><rect x="1410" y="580" width="105" height="120" rx="16" fill="#4a3924" stroke="#d5a85d"/><circle cx="1435" cy="605" r="16" fill="#e0b463"/><text x="1435" y="610" text-anchor="middle" class="n">7</text><text x="1430" y="645" class="step">Prior</text><text x="1430" y="672" class="detail">del nodo</text></g>
+  <text x="90" y="740" class="warning">Salto prohibido: fósil más antiguo = ancestro común = fecha exacta.</text>
+
+  <rect x="55" y="800" width="1490" height="55" rx="14" fill="#101e25" stroke="#334a53"/>
+  <text x="80" y="833" class="foot">Control cruzado: una tasa debe ser compatible con otros nodos; una calibración no puede validar el reloj que ella misma fijó.</text>
+</svg>

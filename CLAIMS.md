@@ -481,6 +481,32 @@ Este archivo es el índice canónico. La letra de confianza califica exactamente
 | `CLAIM-QUATERNARY-MEGAFAUNA-PATAGONIA-001` | Patagonia apoya una sinergia entre ocupación humana y calentamiento, no exclusividad universal de uno de los factores. | B-COND regional | AUDITADO | `EVID-QUATERNARY-MEGAFAUNA-PATAGONIA-001` | `INV-QUATERNARY-001` |
 | `CLAIM-QUATERNARY-MEGAFAUNA-NORTHAMERICA-001` | Norteamérica conserva un pulso terminal, pero la atribución relativa a clima y población humana cambia con cronologías y modelos. | B patrón; C causa | AUDITADO | `EVID-QUATERNARY-MEGAFAUNA-NORTHAMERICA-001` | `INV-QUATERNARY-001` |
 | `CLAIM-QUATERNARY-MEGAFAUNA-ECOLOGY-001` | La pérdida de grandes herbívoros pudo alterar fuego y vegetación; secuencias locales no establecen una consecuencia mundial uniforme. | B-COND regional | AUDITADO | `EVID-QUATERNARY-MEGAFAUNA-ECOLOGY-001` | `INV-QUATERNARY-001` |
+| `CLAIM-HOMININ-SPLIT-SCOPE-001` | Fechar la separación de los linajes humanos exige distinguir topología, divergencia, coalescencia, mutación, generaciones, calibración fósil y flujo génico. | A-SEM | AUDITADO | síntesis de `EVID-HOMININ-SPLIT-*` | `INV-HOMININ-SPLIT-001` |
+| `CLAIM-HOMININ-SPLIT-COMMON-ANCESTOR-001` | El último ancestro común fue una población con muchos linajes génicos, no necesariamente un individuo o una pareja en una fecha única. | A-SEM | AUDITADO | `EVID-HOMININ-SPLIT-COALHMM-001`, `EVID-HOMININ-SPLIT-ILS-001` | `INV-HOMININ-SPLIT-001` |
+| `CLAIM-HOMININ-SPLIT-TREE-TOPOLOGY-001` | Humanos y `Pan` son ramas hermanas vivas; gorila y orangután divergieron antes, aunque loci individuales puedan apoyar topologías discordantes. | A | AUDITADO | `EVID-HOMININ-SPLIT-T2T-001`, `EVID-HOMININ-SPLIT-ILS-001` | `INV-HOMININ-SPLIT-001` |
+| `CLAIM-HOMININ-SPLIT-GENOMIC-DIVERGENCE-001` | La divergencia genómica combina cambios posteriores al split y diversidad/coalescencia ancestral; no es una fecha directa. | A-SEM; B-COND | AUDITADO | `EVID-HOMININ-SPLIT-CHIMP-DIVERGENCE-001`, `EVID-HOMININ-SPLIT-COALHMM-001` | `INV-HOMININ-SPLIT-001` |
+| `CLAIM-HOMININ-SPLIT-SIMILARITY-METRIC-001` | Todo porcentaje de similitud depende de regiones comparadas, denominador y tratamiento de SNP, indels, duplicaciones y estructura. | A-SEM | AUDITADO | `EVID-HOMININ-SPLIT-CHIMP-DIVERGENCE-001`, `EVID-HOMININ-SPLIT-T2T-001` | `INV-HOMININ-SPLIT-001` |
+| `CLAIM-HOMININ-SPLIT-T2T-2025-001` | Las referencias de 2025 caracterizaron ~`99.5 %` del contenido y llevaron `74 %` de cromosomas diploides muestreados a T2T, sin censar poblaciones. | A-B muestra; B generalización | AUDITADO | `EVID-HOMININ-SPLIT-T2T-001` | `INV-HOMININ-SPLIT-001` |
+| `CLAIM-HOMININ-SPLIT-SPECIES-SPLIT-001` | Inicio de separación, fin de flujo y aislamiento reproductivo completo son parámetros distintos, no un instante universal observado. | A-SEM; C-COND para duración | AUDITADO | `EVID-HOMININ-SPLIT-COALHMM-001`, `EVID-HOMININ-SPLIT-GENE-FLOW-001` | `INV-HOMININ-SPLIT-001` |
+| `CLAIM-HOMININ-SPLIT-COALESCENCE-001` | El TMRCA de un locus suele anteceder a la separación poblacional y varía a lo largo del genoma por recombinación. | A-SEM; B-COND | AUDITADO | `EVID-HOMININ-SPLIT-COALHMM-001` | `INV-HOMININ-SPLIT-001` |
+| `CLAIM-HOMININ-SPLIT-ILS-001` | La ILS esperada por separaciones próximas y población ancestral grande produce árboles génicos discordantes sin refutar el árbol de especies ni demostrar hibridación. | A-B | AUDITADO | `EVID-HOMININ-SPLIT-ILS-001` | `INV-HOMININ-SPLIT-001` |
+| `CLAIM-HOMININ-SPLIT-ILS-T2T-001` | Estimaciones de ILS aumentaron de ~`30 %` a `36.5 %` y `39.5 %` autosómico al cambiar referencias, regiones y modelos; no son porcentajes directamente intercambiables. | B-COND | AUDITADO | `EVID-HOMININ-SPLIT-ILS-001`, `EVID-HOMININ-SPLIT-ILS-T2T-001` | `INV-HOMININ-SPLIT-001` |
+| `CLAIM-HOMININ-SPLIT-X-MOSAIC-001` | El X tiene tamaño efectivo, recombinación y selección particulares; su baja divergencia admite flujo, barridos y sesgos como alternativas. | B-COND | AUDITADO | `EVID-HOMININ-SPLIT-X-001`, `EVID-HOMININ-SPLIT-SEX-CHROMOSOMES-001` | `INV-HOMININ-SPLIT-001` |
+| `CLAIM-HOMININ-SPLIT-MUTATION-RATE-001` | Mutación de novo por generación y sustitución fijada por año no son la misma tasa ni se convierten sin modelo. | A-SEM; B medida | AUDITADO | `EVID-HOMININ-SPLIT-TRIOS-001`, `EVID-HOMININ-SPLIT-RATE-HETEROGENEITY-001` | `INV-HOMININ-SPLIT-001` |
+| `CLAIM-HOMININ-SPLIT-PARENTAL-AGE-001` | Las mutaciones de novo aumentan con edades parentales y muestran mayor contribución paterna en grandes simios. | A-B | AUDITADO | `EVID-HOMININ-SPLIT-TRIOS-001` | `INV-HOMININ-SPLIT-001` |
+| `CLAIM-HOMININ-SPLIT-GENERATION-TIME-001` | Duración generacional y edades reproductivas distintas entre ramas modifican la tasa anual y las fechas de divergencia. | B-COND | AUDITADO | `EVID-HOMININ-SPLIT-GENERATION-001`, `EVID-HOMININ-SPLIT-TRIOS-001` | `INV-HOMININ-SPLIT-001` |
+| `CLAIM-HOMININ-SPLIT-RATE-HETEROGENEITY-001` | La tasa molecular varía entre ramas y tipos de sustitución; CpG puede ser más regular que otras clases, sin crear un reloj universal. | B-COND | AUDITADO | `EVID-HOMININ-SPLIT-RATE-HETEROGENEITY-001` | `INV-HOMININ-SPLIT-001` |
+| `CLAIM-HOMININ-SPLIT-FOSSIL-CALIBRATION-001` | Una calibración fósil reproducible exige espécimen, caracteres, posición filogenética, localidad, horizonte, edad y distribución justificadas. | A-MET | AUDITADO | `EVID-HOMININ-SPLIT-FOSSIL-CALIBRATION-001` | `INV-HOMININ-SPLIT-001` |
+| `CLAIM-HOMININ-SPLIT-FOSSIL-MINIMUM-001` | Un fósil fija como máximo un mínimo de rama condicionado a su afinidad; ausencia más antigua no crea por sí sola un máximo duro. | A-SEM; B-COND | AUDITADO | `EVID-HOMININ-SPLIT-FOSSIL-CALIBRATION-001`, `EVID-HOMININ-SPLIT-FOSSIL-NEAR-NODES-001` | `INV-HOMININ-SPLIT-001` |
+| `CLAIM-HOMININ-SPLIT-HOMO-PAN-TIMING-001` | La síntesis prudente sitúa la separación Homo–Pan en ~`5.5–7 Ma`; `5.5–6.3 Ma` es la estimación específica del modelo T2T 2025. | B-COND | AUDITADO | `EVID-HOMININ-SPLIT-TIMING-T2T-001`, `EVID-HOMININ-SPLIT-FOSSIL-NEAR-NODES-001` | `INV-HOMININ-SPLIT-001` |
+| `CLAIM-HOMININ-SPLIT-AFRICAN-APE-TIMING-001` | El modelo T2T 2025 estimó la separación de gorila respecto de Homo–Pan en `10.6–10.9 Ma`. | B-COND estudio | AUDITADO | `EVID-HOMININ-SPLIT-TIMING-T2T-001` | `INV-HOMININ-SPLIT-001` |
+| `CLAIM-HOMININ-SPLIT-ORANGUTAN-TIMING-001` | El modelo T2T 2025 estimó la separación de orangutanes en `18.2–19.6 Ma`. | B-COND estudio | AUDITADO | `EVID-HOMININ-SPLIT-TIMING-T2T-001` | `INV-HOMININ-SPLIT-001` |
+| `CLAIM-HOMININ-SPLIT-PAN-TIMING-001` | Chimpancés y bonobos se separaron ampliamente cerca de `1–2 Ma`, con flujo posterior entre algunas poblaciones. | B-COND | AUDITADO | `EVID-HOMININ-SPLIT-PAN-001`, `EVID-HOMININ-SPLIT-PAN-GENE-FLOW-001` | `INV-HOMININ-SPLIT-001` |
+| `CLAIM-HOMININ-SPLIT-GENE-FLOW-001` | Modelos de aislamiento con migración pueden favorecer una separación Homo–Pan prolongada, pero su identificación depende de alternativas, tasa y recombinación. | C-COND | AUDITADO | `EVID-HOMININ-SPLIT-GENE-FLOW-001` | `INV-HOMININ-SPLIT-001` |
+| `CLAIM-HOMININ-SPLIT-GENE-FLOW-CONTROVERSY-001` | La hibridación tardía Homo–Pan no está demostrada; señales del X y reticulación dentro de `Pan` no bastan para establecerla. | B contra afirmación; D mecanismo | AUDITADO | `EVID-HOMININ-SPLIT-X-001`, `EVID-HOMININ-SPLIT-PAN-GENE-FLOW-001` | `INV-HOMININ-SPLIT-001` |
+| `CLAIM-HOMININ-SPLIT-CHROMOSOME2-001` | La fusión que originó el cromosoma humano 2 es un cambio derivado de nuestra rama, no un reloj ni una causa de humanidad. | A estructura; A-SEM alcance | AUDITADO | `EVID-HOMININ-SPLIT-CHROMOSOME2-001` | `INV-HOMININ-SPLIT-001` |
+| `CLAIM-HOMININ-SPLIT-STRUCTURAL-VARIATION-001` | Genomas T2T catalogan en promedio ~`327 Mb` o `10 %` estructuralmente divergente por linaje; esa métrica no equivale a porcentaje de bases distintas. | B-COND | AUDITADO | `EVID-HOMININ-SPLIT-T2T-001` | `INV-HOMININ-SPLIT-001` |
+| `CLAIM-HOMININ-SPLIT-RECONSTRUCTION-LIMIT-001` | Ningún simio vivo ni fósil aislado reproduce al ancestro común; su anatomía debe reconstruirse carácter por carácter. | A-SEM; C anatomía | AUDITADO | síntesis comparada de `EVID-HOMININ-SPLIT-*` | `INV-HOMININ-SPLIT-001` |
 
 ## Fichas resumidas
 
@@ -2805,6 +2831,50 @@ Este archivo es el índice canónico. La letra de confianza califica exactamente
 - **Formulación:** la señal humana global coexiste con trayectorias específicas y sinergias regionales; las consecuencias ecológicas se prueban localmente.
 - **No afirma:** sobrecaza universal, clima universal ni una cascada ecológica idéntica.
 - **Prueba discriminatoria:** modelos regionales preregistrados que integren llegada humana, clima, abundancia, preservación y predicciones fuera de muestra.
+
+## Investigación 035 — Separación de los linajes humanos y otros simios
+
+### CLAIM-HOMININ-SPLIT-SCOPE-001 / COMMON-ANCESTOR-001 / TREE-TOPOLOGY-001 / RECONSTRUCTION-LIMIT-001
+
+- **Alcance:** separa relación filogenética, población ancestral y reconstrucción anatómica.
+- **Control:** millones de caracteres sostienen el árbol; ningún taxón vivo ocupa el nodo ancestral.
+- **Límite:** topología robusta no entrega una pareja, una anatomía completa ni una fecha instantánea.
+
+### CLAIM-HOMININ-SPLIT-GENOMIC-DIVERGENCE-001 / SIMILARITY-METRIC-001 / T2T-2025-001 / STRUCTURAL-VARIATION-001
+
+- **Objeto:** bases alineables, indels, duplicaciones, repeticiones y estructura usan denominadores diferentes.
+- **Resultado:** T2T amplía territorio comparable y muestra variación antes invisible.
+- **Límite:** referencia casi completa no equivale a pangenoma ni `10 %` estructural a bases sustituidas.
+
+### CLAIM-HOMININ-SPLIT-SPECIES-SPLIT-001 / COALESCENCE-001 / ILS-001 / ILS-T2T-001
+
+- **Modelo:** recombinación divide el genoma en genealogías; el coalescente las conecta con población ancestral.
+- **Resultado:** ILS grande es esperable entre separaciones africanas próximas.
+- **Límite:** TMRCA de locus, inicio del split y fin de flujo no son intercambiables.
+
+### CLAIM-HOMININ-SPLIT-X-MOSAIC-001 / GENE-FLOW-001 / GENE-FLOW-CONTROVERSY-001 / PAN-TIMING-001
+
+- **Alternativas:** flujo, estructura ancestral, tasa y selección pueden producir señales solapadas.
+- **Control:** reticulación en `Pan` demuestra posibilidad histórica, no flujo Homo–Pan.
+- **Estado:** aislamiento prolongado es plausible; hibridación tardía fuerte no está establecida.
+
+### CLAIM-HOMININ-SPLIT-MUTATION-RATE-001 / PARENTAL-AGE-001 / GENERATION-TIME-001 / RATE-HETEROGENEITY-001
+
+- **Medición:** tríos cuentan mutaciones recientes y edades parentales.
+- **Puente:** generaciones, fijación y espectro convierten por generación en por año.
+- **Límite:** extrapolar al Mioceno requiere sensibilidad a historia de vida y clase de sitio.
+
+### CLAIM-HOMININ-SPLIT-FOSSIL-CALIBRATION-001 / FOSSIL-MINIMUM-001 / HOMO-PAN-TIMING-001 / AFRICAN-APE-TIMING-001 / ORANGUTAN-TIMING-001
+
+- **Calibración:** un fósil fija mínimo sólo si su identidad, rama, horizonte y edad son defendibles.
+- **Síntesis:** Homo–Pan ~`5.5–7 Ma`; los intervalos más estrechos pertenecen a modelos concretos.
+- **Límite:** el fósil más antiguo no es el primer individuo ni el ancestro común.
+
+### CLAIM-HOMININ-SPLIT-CHROMOSOME2-001
+
+- **Observación:** sintenia y repeticiones teloméricas internas prueban una fusión derivada.
+- **Resultado permitido:** cambio estructural en la rama humana.
+- **Salto prohibido:** usarlo como fecha del split o explicación causal de los rasgos humanos.
 
 ## Claims futuros
 
