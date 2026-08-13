@@ -593,6 +593,20 @@ El mapa conserva cinco productos —afinidad fósil, edad local, distribución a
 
 La doble cadena impide transformar el fósil más antiguo en lugar de nacimiento o el mejor ajuste genómico en especie, fósil o coordenada ancestral.
 
+## 44. Investigación 043 — Salidas de África y descendencia detectable
+
+![Portada editorial de evidencias separadas para las dispersiones sapiens](assets/visuales/hero-salidas-africa-descendencia.png)
+
+> **Portada editorial:** conserva fósiles fragmentarios, industria, sedimento, muestras y cordones genómicos en bandejas separadas. Los cordones que se apagan o ramifican son metáforas; no representan rutas, cromosomas, pueblos, genealogías o porcentajes reales.
+
+![Mapa epistemológico de presencia, dispersión, expansión y descendencia](assets/visuales/mapa-investigacion-043.svg)
+
+El mapa separa cinco archivos y cuatro productos; impide convertir un sitio en salida, rango en ruta, pulso en caravana o ausencia de señal en cero descendientes.
+
+![Cadenas de presencia a dispersión y de genoma a descendencia](assets/visuales/de-presencia-a-dispersion-y-de-genoma-a-descendencia.svg)
+
+La doble cadena conserva el objeto fechado y el umbral genómico. El puente entre presencia y continuidad requiere evidencia independiente y no se dibuja como una flecha geográfica.
+
 ## Procedencia
 
 El registro de creación, límites y prompt de cada pieza está en [`assets/visuales/README.md`](assets/visuales/README.md).

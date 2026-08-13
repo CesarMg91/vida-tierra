@@ -370,6 +370,14 @@ El propósito no es presentar la ciencia como una sucesión de fracasos ni como 
 | `ERR-SAPIENS-MSA-MAKER-001` | MSA identifica a `H. sapiens` | tecnología convertida en taxón | asociación y convergencia evaluadas | DOCUMENTADO |
 | `ERR-SAPIENS-OBSIDIAN-GENEFLOW-001` | obsidiana distante prueba mestizaje | transporte convertido en apareamiento | movilidad, intercambio y genes separados | DOCUMENTADO |
 | `ERR-SAPIENS-HOLOCENE-CONTINUITY-001` | continuidad de 9 ka = aislamiento de 300 ka | extrapolación temporal sin archivo | intervalo observado limitado | DOCUMENTADO |
+| `ERR-OOA-SITE-EQUALS-EXIT-001` | un sitio equivale a una salida | unidad arqueológica convertida en movimiento | contar por escala y mantener total abierto | DOCUMENTADO |
+| `ERR-OOA-EARLIEST-ANCESTOR-001` | fósil más antiguo = fundador | antigüedad convertida en genealogía | separar presencia y continuidad | DOCUMENTADO |
+| `ERR-OOA-SINGLE-ARROW-001` | expansión mayor = caravana única | pulso modelado convertido en viaje | distinguir cruce, dispersión y expansión | DOCUMENTADO |
+| `ERR-OOA-NO-SIGNAL-NO-DESCENT-001` | no detectable = sin descendientes | detector tratado como censo histórico | declarar umbral, muestra y referencia | DOCUMENTADO |
+| `ERR-OOA-SAHUL-DATES-DEPARTURE-001` | fecha de Sahul = salida africana | llegada y partida confundidas | mantener relojes geográficos separados | DOCUMENTADO |
+| `ERR-OOA-CLIMATE-CAUSE-001` | corredor habitable = migración causada | idoneidad convertida en presencia/motor | usar clima como restricción | DOCUMENTADO |
+| `ERR-OOA-SUCCESS-SUPERIORITY-001` | persistencia = superioridad | métrica demográfica convertida en valor | nombrar expansión o aporte | DOCUMENTADO |
+| `ERR-OOA-ROUTE-FROM-AFFINITY-001` | afinidad genética dibuja ruta | grafo sin coordenadas convertido en mapa | combinar cronología y sitios | DOCUMENTADO |
 | `ERR-IMPACT-MOON-EARTH-001` | convertir cronología lunar en esterilización terrestre | escala constante de tasa y efecto | dinámica, hidrocodes, atmósfera/océano y archivo terrestre | DOCUMENTADO |
 | `ERR-LUNAR-ABSENCE-001` | “sin fundido antiguo” = “sin impacto antiguo” | supervivencia uniforme hacia atrás | sesgo de preservación y evidencia positiva `4.22–4.33 Ga` | DOCUMENTADO |
 
@@ -3250,3 +3258,67 @@ El ADN holoceno mejora el archivo, pero extrapolar treinta veces su duración ig
 ### Corrección
 
 Limitar la continuidad al intervalo observado y conservar el Pleistoceno medio como inferencia modelada.
+
+## ERR-OOA-SITE-EQUALS-EXIT-001 — Un sitio equivale a una salida
+
+Una dispersión puede dejar varios sitios y muchas dispersiones no dejar ninguno conocido. Localidad, fase, población y cruce son unidades distintas.
+
+### Corrección
+
+Contar presencias mínimas por intervalo y declarar que el número de movimientos permanece abierto.
+
+## ERR-OOA-EARLIEST-ANCESTOR-001 — El fósil más antiguo fuera de África fundó a los no africanos
+
+Antigüedad y posición genealógica son ejes diferentes; Misliya o Apidima no conservan genomas que los enlacen con poblaciones posteriores.
+
+### Corrección
+
+Decir «presencia temprana» y exigir ADN/proteína o predicciones demográficas discriminatorias para continuidad.
+
+## ERR-OOA-SINGLE-ARROW-001 — Una expansión mayor fue una sola caravana
+
+Un pulso demográfico resume separación/flujo bajo un modelo y puede contener estructura, pausas, retornos y varias rutas.
+
+### Corrección
+
+Usar «expansión ancestral mayor» y separar cruce físico, dispersión multigeneracional y ramificación.
+
+## ERR-OOA-NO-SIGNAL-NO-DESCENT-001 — Sin aporte detectable significa sin descendientes
+
+Deriva, selección, reemplazo y umbral del detector pueden borrar una contribución aun si hubo reproducción.
+
+### Corrección
+
+Registrar referencia, muestra, método y poder de detección; escribir «sin contribución detectable en las poblaciones muestreadas».
+
+## ERR-OOA-SAHUL-DATES-DEPARTURE-001 — La primera fecha de Sahul fecha la salida africana
+
+Llegar a Sahul es el extremo de una cadena de dispersiones y cruces; la edad de un sedimento australiano no fecha el inicio africano.
+
+### Corrección
+
+Tratar la ocupación como límite de llegada condicionado y conservar por separado los relojes genómicos.
+
+## ERR-OOA-CLIMATE-CAUSE-001 — Un corredor húmedo causó la migración
+
+Idoneidad ambiental permite ocupación; no observa presencia, dirección, motivación o presión demográfica.
+
+### Corrección
+
+Usar el clima como restricción o mecanismo candidato y exigir cuerpos, artefactos o genomas independientes.
+
+## ERR-OOA-SUCCESS-SUPERIORITY-001 — La salida «exitosa» fue biológicamente superior
+
+«Éxito» suele medir persistencia o ascendencia detectable, no capacidades intrínsecas, intención o mérito.
+
+### Corrección
+
+Nombrar la métrica —expansión, continuidad o aporte— y evitar lenguaje de valor.
+
+## ERR-OOA-ROUTE-FROM-AFFINITY-001 — La afinidad genética dibuja la ruta
+
+Dos poblaciones pueden compartir ascendencia tras movimientos no muestreados, mezcla y reemplazo. Un grafo no contiene coordenadas salvo que se modelen explícitamente.
+
+### Corrección
+
+Combinar cronología, paleogeografía y sitios intermedios; presentar rutas como hipótesis con alternativas.

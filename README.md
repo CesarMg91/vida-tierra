@@ -85,6 +85,7 @@ La fase fundacional contiene:
 - la cuadragésima investigación: [`¿Cómo sabemos quiénes fueron neandertales y denisovanos y cuándo hubo mestizaje sin confundir un fósil, una genealogía y un porcentaje de ancestría?`](08_cenozoico/INVESTIGACION_040_NEANDERTALES_DENISOVANOS_MESTIZAJE.md);
 - la cuadragésima primera investigación: [`¿Cómo reconstruimos a Homo floresiensis, H. luzonensis y H. naledi sin confundir morfología mosaico, asociación arqueológica y conducta?`](08_cenozoico/INVESTIGACION_041_FLORESIENSIS_NALEDI_DIVERSIDAD_TARDIA.md);
 - la cuadragésima segunda investigación: [`¿Cómo sabemos que Homo sapiens surgió en África: una región única o poblaciones estructuradas?`](08_cenozoico/INVESTIGACION_042_ORIGEN_AFRICANO_HOMO_SAPIENS.md);
+- la cuadragésima tercera investigación: [`¿Cuántas salidas de África hubo y cuáles dejaron descendencia?`](13_migraciones/INVESTIGACION_043_SALIDAS_AFRICA_DESCENDENCIA.md);
 - un [`ATLAS_VISUAL.md`](ATLAS_VISUAL.md) con procedencia y límites explícitos.
 
 “Preliminar” significa que la cronología organiza el programa de trabajo; no convierte automáticamente cada fecha en una conclusión cerrada. Los estados de auditoría muestran qué ha sido investigado en profundidad y qué sigue pendiente.
