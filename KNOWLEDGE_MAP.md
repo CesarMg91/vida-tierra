@@ -543,3 +543,30 @@ rangos + edad + facies + proxies ──> crisis Kellwasser/Hangenberg
 La arquitectura conserva seis relojes: límite, bosque, paisaje/CO₂, diversidad de peces, transición locomotora y crisis terminales. Una nueva FAD o un nuevo «bosque más antiguo» modifica un mínimo preservado, no obliga a reescribir todos los relojes.
 
 Véase `INV-DEVONIAN-001` en `06_paleozoico`, su mapa en `assets/visuales/mapa-investigacion-025.svg` y la doble cadena en `assets/visuales/de-fosil-a-bosque-y-de-aleta-a-tierra.svg`.
+
+### Investigación 026 — Carbón, oxígeno, gigantismo y amniotas carboníferos
+
+```text
+materia vegetal + saturación ──> turba
+turba + espacio + enterramiento ──> paleoturba preservada
+compactación + temperatura + tiempo ──> carbón de rango concreto
+                                      └── no implica pantano global
+
+C/S + balance ────────────────> O₂ modelado ────────────────┐
+carbón vegetal + combustión ──> ventana de O₂/fuego ────────┼──> atmósfera condicionada
+halita + gas + corrección ─────> valor de muestra ──────────┘
+                                      └── no existe 35 % directamente medido
+
+alas + fisiología ──> tamaño máximo posible
+exuvio + alometría ──> Arthropleura gigante estimado
+micro-CT juvenil ────> parentesco miriápodo
+                                      └── O₂ no es causa suficiente ni dieta observada
+
+esqueleto + árbol ─────────────> amniota corporal mínimo
+huella + dedos/garras + edad ──> amniota tournaisiense probable
+                                      └── productor, huevo y origen exactos permanecen abiertos
+```
+
+La arquitectura conserva siete relojes: límite, turba, coalificación, hielo/vegetación, oxígeno/fuego, tamaño y amniotas. Un nuevo proxy atmosférico o una nueva huella puede mover su reloj sin convertir todos los demás en dependientes.
+
+Véase `INV-CARBONIFEROUS-001` en `06_paleozoico`, su mapa en `assets/visuales/mapa-investigacion-026.svg` y la doble cadena en `assets/visuales/de-turba-a-carbon-y-de-huella-a-amniota.svg`.
