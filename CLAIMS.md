@@ -782,6 +782,25 @@ Este archivo es el índice canónico. La letra de confianza califica exactamente
 | `CLAIM-NEAND-GENETIC-DETERIORATION-LIMIT-2026-001` | La muestra tardía del noroeste no muestra acumulación progresiva de carga, pérdida de heterocigosidad o aumento de HBD que sustente deterioro genético como causa general. | B-REG; D causa global | AUDITADO | `EVID-NW-NEAND-2026-001`, `EVID-THORIN-ISOLATION-001` | `INV-MIGR-EUROPE-001` |
 | `CLAIM-EUROPE-REPLACEMENT-NOT-SINGLE-EVENT-001` | El reemplazo describe cambios regionales de presencia y frecuencia, compatibles con absorción parcial; no identifica un mecanismo único ni una escena observada. | A-SEM; C causal | AUDITADO | `EVID-EUROPE-DISAPPEARANCE-001`, `EVID-EUROPE-RECENT-ADMIXTURE-001`, `EVID-NW-NEAND-2026-001` | `INV-MIGR-EUROPE-001` |
 | `CLAIM-EUROPE-COEXISTENCE-CONFIDENCE-001` | Presencia Bacho/Ranis y mestizaje individual reciben B; solapamiento/tecnocomplejos B-COND; Mandrin/Apidima C-D; contacto desde fechas, lugar del pulso y causa única D. | A-SEM | AUDITADO | síntesis de `EVID-EUROPE-*`, `EVID-RANIS-*`, `EVID-NW-NEAND-*` | `INV-MIGR-EUROPE-001` |
+| `CLAIM-AMERICAS-SCOPE-001` | Fecha de muestra, presencia local, primer poblamiento, expansión demográfica, corredor viable, ruta usada y estructura genética son resultados distintos y dependientes de escala. | A-SEM | AUDITADO | `EVID-AMERICAS-METHOD-001` | `INV-MIGR-AMERICAS-001` |
+| `CLAIM-WHITE-SANDS-LGM-PRESENCE-001` | Huellas, `14C` de semillas/polen, OSL y geocronología paleolacustre sostienen presencia humana local en White Sands aproximadamente `23–21 ka`. | B-LOCAL | AUDITADO | `EVID-WHITE-SANDS-001` | `INV-MIGR-AMERICAS-001` |
+| `CLAIM-WHITE-SANDS-ROUTE-LIMIT-001` | La edad de White Sands no fecha la primera entrada, identifica población ni selecciona una ruta continental. | A-SEM; B aplicación | AUDITADO | `EVID-WHITE-SANDS-001`, `EVID-AMERICAS-METHOD-001` | `INV-MIGR-AMERICAS-001` |
+| `CLAIM-BLUEFISH-PRESENCE-CONDITIONAL-001` | Un pequeño conjunto de huesos con marcas y AMS, incluida una pieza de `~24 ka cal BP`, favorece presencia humana en Beringia oriental si el diagnóstico tafonómico es correcto. | C-COND | AUDITADO | `EVID-BLUEFISH-001` | `INV-MIGR-AMERICAS-001` |
+| `CLAIM-PRECLOVIS-ANCHORS-001` | Cooper’s Ferry/Nipéhe, Page-Ladson, Paisley, Friedkin y Gault documentan múltiples presencias/tradiciones pre-Clovis entre aproximadamente `16 y 14 ka`, con independencia desigual. | B-COND | AUDITADO | `EVID-COOPERS-FERRY-001`, `EVID-PRECLOVIS-ANCHORS-001` | `INV-MIGR-AMERICAS-001` |
+| `CLAIM-COOPERS-FERRY-CONDITIONAL-001` | Rasgos, líticos y cronología sitúan ocupación en Cooper’s Ferry/Nipéhe cerca de `16 ka`; semejanza con puntas asiáticas no demuestra genealogía o ruta transpacífica. | B-COND local; D ruta | AUDITADO | `EVID-COOPERS-FERRY-001` | `INV-MIGR-AMERICAS-001` |
+| `CLAIM-MONTE-VERDE-CHRONOLOGY-OPEN-2026-001` | La edad `~14.5 ka` de MV-II está reabierta por una redatación independiente de 2026 que propone Holoceno medio; equivalencia de unidades, tefra y objetos asociados siguen disputados. | D/ABIERTA | AUDITADO | `EVID-MONTE-VERDE-001` | `INV-MIGR-AMERICAS-001` |
+| `CLAIM-CLOVIS-TECHNOCOMPLEX-001` | Clovis fue un tecnocomplejo extendido aproximadamente `13,050–12,750 cal BP`, no la primera población ni un marcador biológico universal. | B cronología; A-SEM límite | AUDITADO | `EVID-CLOVIS-001` | `INV-MIGR-AMERICAS-001` |
+| `CLAIM-PACIFIC-COAST-VIABILITY-001` | Sectores del corredor costero nororiental del Pacífico estaban desglaciados y ecológicamente productivos hacia `~17 ka`; esto demuestra viabilidad regional, no uso humano. | B ambiente; C uso | AUDITADO | `EVID-PACIFIC-COAST-001` | `INV-MIGR-AMERICAS-001` |
+| `CLAIM-ICE-FREE-CORRIDOR-LATE-001` | El corredor interior quedó completamente abierto cerca de `13.8 ± 0.5 ka` y su viabilidad biológica fue escalonada; pudo servir movimientos posteriores, no explica por sí solo presencias más antiguas al sur. | B-COND apertura; D uso inicial | AUDITADO | `EVID-ICE-FREE-CORRIDOR-001` | `INV-MIGR-AMERICAS-001` |
+| `CLAIM-AMERICAS-ROUTES-OPEN-001` | Costa del Pacífico, corredor interior en fases posteriores y rutas mixtas son compatibles en grados distintos; ninguna trayectoria completa está observada ni existe una ruta única establecida. | C | AUDITADO | `EVID-PACIFIC-COAST-001`, `EVID-ICE-FREE-CORRIDOR-001`, `EVID-AMERICAS-METHOD-001` | `INV-MIGR-AMERICAS-001` |
+| `CLAIM-SUBMERGED-RECORD-001` | Paleocostas hoy sumergidas producen un sesgo espacial real, pero no sustituyen evidencia positiva ni vuelven infalsable una ruta costera. | A-SEM; B aplicación | AUDITADO | `EVID-PACIFIC-COAST-001`, `EVID-AMERICAS-METHOD-001` | `INV-MIGR-AMERICAS-001` |
+| `CLAIM-BERINGIAN-STANDSTILL-MODEL-001` | Un intervalo de aislamiento/estructura beringiana es favorecido por modelos genómicos, pero no corresponde a una aldea, duración única o punto de entrada observados. | B-COND estructura; D geografía fina | AUDITADO | `EVID-BERINGIAN-GENOMICS-001` | `INV-MIGR-AMERICAS-001` |
+| `CLAIM-ANCIENT-BERINGIANS-001` | El genoma USR1 de `~11.5 ka` representa una rama Ancient Beringian; su separación modelada no fecha el cruce continental. | B-COND | AUDITADO | `EVID-ANCIENT-BERINGIAN-001` | `INV-MIGR-AMERICAS-001` |
+| `CLAIM-GENOMIC-SPLIT-NOT-ENTRY-001` | Una separación coalescente o de ramas genéticas no proporciona por sí sola fecha, lugar o número de entradas a las Américas. | A-SEM; B aplicación | AUDITADO | `EVID-BERINGIAN-GENOMICS-001`, `EVID-ANCIENT-BERINGIAN-001` | `INV-MIGR-AMERICAS-001` |
+| `CLAIM-AMERICAS-INTERNAL-DISPERSALS-2026-001` | Un estudio de 128 genomas actuales, integrado con genomas antiguos, favorece al menos tres dispersiones hacia Sudamérica y afinidad australasiana regional; describe historia posterior bajo modelo, no la entrada. | B-COND patrón; C-MOD historia | AUDITADO | `EVID-AMERICAS-INTERNAL-DISPERSALS-2026-001` | `INV-MIGR-AMERICAS-001` |
+| `CLAIM-AMERICAS-GENOMIC-GOVERNANCE-001` | Consentimiento, acuerdos comunitarios, devolución de resultados, acceso controlado y representatividad forman parte de la procedencia y límites de datos genómicos indígenas. | A-MET | AUDITADO | `EVID-AMERICAS-INTERNAL-DISPERSALS-2026-001` | `INV-MIGR-AMERICAS-001` |
+| `CLAIM-EXTREME-SITES-OPEN-001` | Cerutti y Chiquihuite conservan edades o contextos reales, pero la agencia humana/artefactualidad no excluye suficientemente alternativas para fijar una ocupación extrema o ruta. | D Cerutti; C-D-COND Chiquihuite | AUDITADO | `EVID-AMERICAS-EXTREME-SITES-001` | `INV-MIGR-AMERICAS-001` |
+| `CLAIM-AMERICAS-CONFIDENCE-001` | White Sands local y pre-Clovis tardío reciben B; anclas/corredores/genomas B-COND–C; Bluefish C-COND; Monte Verde 2026, Cerutti, ruta única y split como entrada permanecen D/abiertos. | A-SEM | AUDITADO | síntesis de `EVID-AMERICAS-*`, `EVID-WHITE-SANDS-*`, `EVID-PRECLOVIS-*` | `INV-MIGR-AMERICAS-001` |
 
 ## Fichas resumidas
 
@@ -3716,6 +3735,63 @@ Este archivo es el índice canónico. La letra de confianza califica exactamente
 - **Descripción:** cambia la presencia/frecuencia regional de poblaciones y archivos.
 - **Compatibilidad:** desaparición neandertal y absorción genética parcial coexisten.
 - **No afirma:** violencia, intención, superioridad o mecanismo causal único.
+
+## Investigación 046 — Poblamiento de las Américas
+
+### CLAIM-AMERICAS-SCOPE-001 / AMERICAS-CONFIDENCE-001
+
+- **Escalas:** objeto, capa, sitio, región, corredor, continente, individuo y población no son intercambiables.
+- **Robusto:** White Sands registra presencia local `~23–21 ka`; Clovis no fue primero.
+- **Condicionado:** anclas `~16–14 ka`, Bluefish, corredores y tiempos genómicos.
+- **Abierto:** primer ingreso, ruta usada, Monte Verde 2026 y expedientes extremos.
+
+### CLAIM-WHITE-SANDS-LGM-PRESENCE-001 / WHITE-SANDS-ROUTE-LIMIT-001
+
+- **Convergencia:** semillas, polen, OSL y geocronología paleolacustre sostienen la ventana local.
+- **Dependencia:** los relojes comparten correlación estratigráfica y no son cuatro migraciones.
+- **No afirma:** identidad, tamaño, duración total, entrada o corredor.
+
+### CLAIM-BLUEFISH-PRESENCE-CONDITIONAL-001 / PRECLOVIS-ANCHORS-001 / COOPERS-FERRY-CONDITIONAL-001
+
+- **Bluefish:** pocos huesos modificados apoyan presencia beringiana si las marcas son humanas.
+- **Anclas:** varios sitios `~16–14 ka` prueban multiplicidad pre-Clovis con archivos distintos.
+- **Nipéhe:** asociación local no convierte semejanza de puntas en ruta transpacífica.
+
+### CLAIM-MONTE-VERDE-CHRONOLOGY-OPEN-2026-001
+
+- **Conflicto:** contexto clásico `~14.5 ka` frente a redatación 2026 de Holoceno medio.
+- **Cuello:** equivalencia estratigráfica, posición de tefra y asociación de objetos.
+- **Decisión:** no promediar ni usar el sitio como ancla necesaria de una ruta.
+
+### CLAIM-CLOVIS-TECHNOCOMPLEX-001
+
+- **Cronología:** aproximadamente `13,050–12,750 cal BP`.
+- **Anzick:** asociación local entre individuo y entierro Clovis.
+- **Límite:** tecnocomplejo no es primera población, etnia o lengua.
+
+### CLAIM-PACIFIC-COAST-VIABILITY-001 / ICE-FREE-CORRIDOR-LATE-001 / AMERICAS-ROUTES-OPEN-001
+
+- **Costa:** sectores viables hacia `~17 ka`; gran parte del archivo quedó sumergido.
+- **Interior:** apertura completa `13.8 ± 0.5 ka` y biota escalonada.
+- **Resultado:** oportunidades ambientales, no trayectos humanos observados.
+
+### CLAIM-BERINGIAN-STANDSTILL-MODEL-001 / ANCIENT-BERINGIANS-001 / GENOMIC-SPLIT-NOT-ENTRY-001
+
+- **Modelo:** aislamiento/estructura beringianos son inferencias demográficas.
+- **Cuerpo:** USR1 fecha una persona `~11.5 ka`; su rama se modela en otro tiempo.
+- **Cortafuego:** coalescencia no contiene una coordenada ni un cruce de hielo.
+
+### CLAIM-AMERICAS-INTERNAL-DISPERSALS-2026-001 / AMERICAS-GENOMIC-GOVERNANCE-001
+
+- **Muestra:** 128 genomas, 45 poblaciones, 28 familias lingüísticas y ocho países.
+- **Resultado:** ≥3 dispersiones hacia Sudamérica, diferenciación y afinidad australasiana regional bajo modelo.
+- **Límite:** comunidades actuales no son proxies sin tiempo; acuerdos y acceso son procedencia.
+
+### CLAIM-EXTREME-SITES-OPEN-001
+
+- **Cerutti:** edad del hueso no identifica el agente de fractura.
+- **Chiquihuite:** edad del sedimento no decide artefacto frente a geofacto.
+- **Regla:** un reloj fuerte no rescata una asociación débil.
 
 ## Claims futuros
 

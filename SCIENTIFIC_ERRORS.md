@@ -14,6 +14,15 @@ El propósito no es presentar la ciencia como una sucesión de fracasos ni como 
 | `ERR-NW-NO-FLOW-NO-CONTACT-001` | no flujo NW = no contacto europeo | muestra regional extrapolada | reportar alcance y potencia | DOCUMENTADO |
 | `ERR-NEAND-ISOLATION-DEGENERATION-001` | aislamiento = degeneración causal | estructura, carga y aptitud fundidas | exigir tendencia y mecanismo | DOCUMENTADO |
 | `ERR-EUROPE-REPLACEMENT-SCENE-001` | reemplazo = escena violenta | cambio demográfico teatralizado | comparar mecanismos regionales | DOCUMENTADO |
+| `ERR-AMERICAS-SAMPLE-EVENT-001` | fecha de muestra = fecha de ocupación/entrada | objeto, asociación y evento fundidos | nombrar material y reloj | DOCUMENTADO |
+| `ERR-AMERICAS-FIRST-SITE-001` | sitio más antiguo conocido = primera entrada | preservación/muestreo convertidos en frontera | tratarlo como mínimo local | DOCUMENTADO |
+| `ERR-AMERICAS-CLOVIS-FIRST-001` | Clovis = primera población | tecnocomplejo convertido en taxón/fundador | separar industria, individuo y población | DOCUMENTADO |
+| `ERR-AMERICAS-CORRIDOR-ROUTE-001` | corredor viable = ruta usada | oportunidad ambiental convertida en recorrido | exigir cadena arqueológica | DOCUMENTADO |
+| `ERR-AMERICAS-SPLIT-ENTRY-001` | split genético = cruce continental | genealogía convertida en geografía | separar cuerpo, rama y entrada | DOCUMENTADO |
+| `ERR-AMERICAS-CURRENT-PROXY-001` | comunidad actual = población antigua inmóvil | identidad/lengua/genoma fundidos | introducir tiempo, gobernanza y cambio | DOCUMENTADO |
+| `ERR-AMERICAS-SUBMERGED-PROOF-001` | registro sumergido prueba ruta costera | ausencia usada como evidencia positiva | formular predicciones submarinas | DOCUMENTADO |
+| `ERR-AMERICAS-MONTE-VERDE-VERDICT-001` | una publicación resuelve todo Monte Verde | correlación discutida convertida en veredicto | mantener unidad/objeto explícitos | DOCUMENTADO |
+| `ERR-AMERICAS-AGE-AGENCY-001` | edad extrema valida agencia humana | reloj fuerte rescata artefacto débil | auditar agencia y fecha por separado | DOCUMENTADO |
 | `ERR-COSMOS-STATIC-001` | universo estático impuesto a ecuaciones dinámicas | estabilidad y preferencia filosófica tratadas como dato | soluciones de Friedmann/Lemaître, corrimientos y distancias | DOCUMENTADO |
 | `ERR-COSMOS-HUBBLE-SCALE-001` | valor histórico de `H0` demasiado alto y edad demasiado corta | peldaños de distancia mal calibrados y `1/H0` tratado como edad suficiente | Cefeidas recalibradas, poblaciones estelares, `H(z)` y aceleración | DOCUMENTADO |
 | `ERR-COSMOS-CMB-NOISE-001` | exceso de microondas tratado inicialmente como posible aparato/entorno | presupuesto de ruido o primer plano incompleto | auditoría de antena, multibanda, FIRAS y mapas CMB | DOCUMENTADO como proceso, no como mala práctica |
@@ -3448,3 +3457,75 @@ Exigir tendencia temporal replicada y un mecanismo de aptitud antes de proponer 
 ### Corrección
 
 Comparar mecanismos regionales y representar el proceso como cambio demográfico, no teatro histórico.
+
+## ERR-AMERICAS-SAMPLE-EVENT-001 — Una fecha de muestra fecha automáticamente la entrada
+
+Semilla, polen, carbón, cuarzo, hueso, tefra y roca de exposición registran eventos físicos distintos. Su relación con huella, lítico, ocupación o apertura requiere asociación.
+
+### Corrección
+
+Nombrar el material, el evento que cierra el reloj y el puente contextual antes de traducirlo a historia humana.
+
+## ERR-AMERICAS-FIRST-SITE-001 — El sitio más antiguo conocido es el primer ingreso
+
+La primera evidencia preservada/descubierta es un mínimo local afectado por búsqueda, inundación, erosión y densidad de población.
+
+### Corrección
+
+Separar presencia local, límite continental y modelo de detección; no confundir ausencia de evidencia con una frontera cronológica exacta.
+
+## ERR-AMERICAS-CLOVIS-FIRST-001 — Clovis fue la primera población
+
+Clovis es una clasificación material con cronología definida. Anzick enlaza un individuo a un entierro Clovis, no todo el tecnocomplejo a una población homogénea.
+
+### Corrección
+
+Usar «tecnocomplejo Clovis» y exigir ADN/restos con procedencia para claims biológicos.
+
+## ERR-AMERICAS-CORRIDOR-ROUTE-001 — Apertura o viabilidad demuestran tránsito
+
+Desglaciación, suelo y recursos son filtros de oportunidad. Ninguno observa una persona o cadena de campamentos.
+
+### Corrección
+
+Etiquetar costa/interior como corredores compatibles hasta que sitios y procedencias enlacen un recorrido.
+
+## ERR-AMERICAS-SPLIT-ENTRY-001 — Una separación genética fecha y ubica la entrada
+
+Coalescencia y splits dependen de tasas, generación, estructura y flujo. Pueden ocurrir antes o después de movimiento geográfico.
+
+### Corrección
+
+Comparar intervalos genómicos con cuerpos y sitios fechados sin convertirlos en el mismo reloj.
+
+## ERR-AMERICAS-CURRENT-PROXY-001 — Una comunidad actual es un fósil viviente
+
+Poblaciones cambian por mezcla, deriva, movilidad, colonización y decisiones culturales. Lengua, territorio, identidad y afinidad genética no son equivalentes.
+
+### Corrección
+
+Introducir fecha, procedencia, consentimiento, gobernanza y límites de representatividad en cada comparación.
+
+## ERR-AMERICAS-SUBMERGED-PROOF-001 — Lo que falta bajo el mar prueba la costa
+
+La inundación produce un sesgo de preservación real, pero una ausencia inaccesible no es evidencia positiva de un trayecto.
+
+### Corrección
+
+Producir modelos batimétricos y predicciones verificables mediante núcleos, teledetección y arqueología submarina.
+
+## ERR-AMERICAS-MONTE-VERDE-VERDICT-001 — Una publicación cerró Monte Verde
+
+La redatación 2026 es independiente y materialmente importante, pero su equivalencia estratigráfica con MV-II y la relación de la tefra son impugnadas.
+
+### Corrección
+
+Mantener ambos modelos, sus objetos y la prueba discriminatoria; no promediar fechas ni resolver por autoridad.
+
+## ERR-AMERICAS-AGE-AGENCY-001 — Una edad extrema convierte un objeto en artefacto
+
+Cerutti y Chiquihuite muestran que una capa o hueso puede estar bien fechado mientras el agente humano permanezca abierto.
+
+### Corrección
+
+Auditar por separado reloj, procedencia, artefactualidad/tafonomía y alternativas con poder de discriminación.

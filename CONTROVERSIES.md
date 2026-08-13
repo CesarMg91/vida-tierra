@@ -13,6 +13,14 @@ Una controversia no implica empate. Registra qué parte está realmente abierta,
 | `CONT-NEAND-DISAPPEARANCE-TIMING-001` | final neandertal | ventanas regionales asincrónicas | sesgo de preservación/fechado mueve últimas apariciones | abierta en precisión | B-COND |
 | `CONT-NEAND-GENETIC-DECLINE-001` | deterioro genético | estructura/aislamiento local sin tendencia general demostrada | carga creciente pudo afectar algunos grupos | abierta regionalmente | B contra tendencia NW; D causa global |
 | `CONT-EUROPE-REPLACEMENT-MECHANISM-001` | mecanismo del reemplazo | mosaico de demografía, ambiente e interacción | mecanismo dominante regional o general | abierta | C-D |
+| `CONT-AMERICAS-FIRST-ENTRY-001` | primera entrada continental | presencia robusta pre-Clovis y entrada anterior a esos sitios | primer evento mucho más antiguo o episodios sin continuidad | abierta | B presencia; D primera fecha |
+| `CONT-WHITE-SANDS-CHRONOLOGY-001` | edad de White Sands | cuatro rutas cronológicas favorecen `~23–21 ka` | asociación/retrabajo aún podrían mover parte de la secuencia | muy reducida, no cerrada en detalle | B-LOCAL |
+| `CONT-BLUEFISH-AGENCY-001` | marcas de Bluefish | un subconjunto refleja cortes humanos LGM | carnívoros, raíces, abrasión o historia de colección | abierta | C-COND |
+| `CONT-MONTE-VERDE-2026-001` | edad de MV-II | expediente clásico `~14.5 ka` | redatación 2026 a Holoceno medio | reabierta | D/ABIERTA |
+| `CONT-AMERICAS-ROUTES-001` | costa, interior o mezcla | costa viable por sectores e interior tardío/posterior | varios episodios, rutas mixtas o relojes revisables | abierta | C para compatibilidad; D uso |
+| `CONT-AMERICAS-GENOMIC-ENTRY-001` | splits y entrada | genealogía beringiana estructurada | historias de flujo/estructura con otros tiempos/lugares | abierta/modelada | B-COND estructura; D entrada |
+| `CONT-AMERICAS-AUSTRALASIAN-AFFINITY-001` | afinidad australasiana | señal de una población asiática antigua no muestreada | selección, estructura o modelos alternativos de mezcla | abierta en origen/geografía | B señal; C-D historia |
+| `CONT-AMERICAS-EXTREME-SITES-001` | Cerutti y Chiquihuite | actividad humana muy anterior a anclas aceptadas | procesos naturales/geofactos y asociación insuficiente | abierta | D / C-D-COND |
 | `CONT-COSMOS-H0-001` | Tensión de Hubble | sistemáticas residuales o extensión física todavía no identificada; no hay resolución única | calibración local, modelado temprano o nueva física específica | abierta | B para la discrepancia; D para su causa |
 | `CONT-COSMOS-DARKENERGY-001` | ¿Constante cosmológica o componente dinámica? | `Λ` constante describe bien el conjunto base | `w(z)` dinámico o gravedad modificada; DESI cambia restricciones | abierta | B-COND para aceleración; D para mecanismo |
 | `CONT-COSMOS-BEGIN-001` | ¿La fase caliente fue el comienzo absoluto? | el modelo probado se detiene en un límite temprano sin afirmar ontología | inflación eterna, rebote, fase previa o comienzo cuántico | abierta y parcialmente fuera del acceso observacional | E para mecanismo exacto |
@@ -2664,3 +2672,51 @@ Thorin demuestra aislamiento de un linaje; el conjunto del noroeste de 2026 no m
 La desaparición arqueológica de neandertales y la expansión sapiens coocurren, mientras ancestría neandertal persiste. Competencia, clima, demografía, redes, absorción y azar pueden combinarse de modo regionalmente distinto.
 
 **Prueba discriminatoria:** modelos que publiquen predicciones independientes para cronología, movilidad, tamaños, flujo y ambiente y que superen alternativas en regiones no usadas para ajustarlos.
+
+## CONT-AMERICAS-FIRST-ENTRY-001 — Presencia más antigua conocida frente a primera entrada
+
+White Sands sostiene presencia local `~23–21 ka`; Bluefish y Chiquihuite agregan candidatos con otros cuellos de botella. Ningún sitio preserva necesariamente el primer grupo que entró, y la ausencia anterior está afectada por muestreo y paleocostas sumergidas.
+
+**Prueba discriminatoria:** series regionales anteriores con objetos inequívocos, asociación directa, varios relojes y continuidad espacial; además, modelos de detección que cuantifiquen qué ausencia sería informativa.
+
+## CONT-WHITE-SANDS-CHRONOLOGY-001 — Convergencia de relojes y asociación local
+
+La objeción de carbono antiguo en semillas acuáticas motivó polen terrestre, OSL y geocronología paleolacustre con 26 edades adicionales. La convergencia vuelve débil una explicación de reservorio único, pero los relojes comparten el mismo paisaje y la correlación con cada huella.
+
+**Prueba discriminatoria:** nuevos horizontes rastreados lateralmente, fechas ciegas de materiales terrestres y sedimentología capaz de probar o excluir retrabajo entre superficie y huella.
+
+## CONT-BLUEFISH-AGENCY-001 — Cortes humanos o modificación natural
+
+Quince restos fueron diagnosticados como culturalmente modificados dentro de una colección mucho mayor; seis se fecharon. Carnívoros, raíces, abrasión y excavación por niveles artificiales son alternativas conocidas. La edad de un hueso no corrige una identificación de agente débil.
+
+**Prueba discriminatoria:** clasificación ciega replicada, microtrazas/residuos, refits y experimentos con agentes locales que publiquen tasas de falsos positivos.
+
+## CONT-MONTE-VERDE-2026-001 — Pleistoceno tardío o Holoceno medio
+
+La interpretación clásica asocia MV-II con `~14.5 ka`. Surovell y colaboradores correlacionan exposiciones y una tefra de `~11 ka` por debajo del componente y proponen `8.2–4.2 ka`. Las eLetters disputan que esas secciones intercepten la misma unidad y reclaman explicar objetos/edades originales.
+
+**Prueba discriminatoria:** excavación y muestreo conjuntos sobre perfiles conectados, tefra trazada físicamente hasta MV-II, y datación independiente de objetos in situ con cadena de custodia compartida.
+
+## CONT-AMERICAS-ROUTES-001 — Costa del Pacífico, corredor interior o episodios mixtos
+
+La costa estuvo disponible por sectores alrededor de `~17 ka` y perdió gran parte de su archivo por inundación. El corredor interior abrió completamente cerca de `13.8 ± 0.5 ka` y su viabilidad biológica fue escalonada. Ninguno de esos resultados observa tránsito humano.
+
+**Prueba discriminatoria:** cadenas de sitios costeros/submarinos e interiores con cronología comparable, procedencia lítica/biológica y predicciones espaciales evaluadas fuera de los casos usados para construirlas.
+
+## CONT-AMERICAS-GENOMIC-ENTRY-001 — Estructura beringiana y fecha de cruce
+
+Mitogenomas, autosomas y USR1 favorecen una ascendencia fundadora estructurada y ramas tempranas. Las fechas coalescentes cambian con tasa, generación, topología y flujo; separación puede preceder o seguir una entrada física.
+
+**Prueba discriminatoria:** ADN antiguo más cercano temporal y espacialmente al ingreso, con modelos espaciales que predigan conjuntamente afinidades, arqueología y ambientes sin fijar la geografía como prior.
+
+## CONT-AMERICAS-AUSTRALASIAN-AFFINITY-001 — Señal real, historia abierta
+
+El estudio de 2026 detecta regiones genómicas con afinidad australasiana en poblaciones indígenas sudamericanas y las interpreta mediante una población asiática antigua no muestreada. Selección, muestreo y estructura posterior afectan magnitud y distribución. La señal no es prueba de viaje directo desde Australasia.
+
+**Prueba discriminatoria:** genomas antiguos seriados en Asia nororiental y América, análisis que enmascaren regiones bajo selección y comparación explícita de mezcla, estructura ancestral y rutas geográficas rivales.
+
+## CONT-AMERICAS-EXTREME-SITES-001 — Edad extrema y agencia
+
+Cerutti tiene una edad U-series extrema y objetos interpretados como percusión; Chiquihuite tiene una secuencia fechada y objetos propuestos como líticos. Los adversarios cuestionan controles, talla y procesos naturales. El reloj y la agencia son eslabones separados.
+
+**Prueba discriminatoria:** artefactos inequívocos en contexto primario, refits, residuos o microdesgaste diagnóstico, replicación independiente y experimentos capaces de separar geofactos/percusiones naturales.

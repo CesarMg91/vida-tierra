@@ -618,6 +618,30 @@ La salida corregida se reinspeccionó a resolución original: no contiene rostro
 
 Los dos SVG se diseñaron a `1600 × 900`, con `title` y `desc` accesibles. `mapa-investigacion-045.svg` usa líneas continuas para operaciones sustentadas y discontinuas para saltos que exigen evidencia independiente. `cronologia-solapamientos-europa.svg` separa relojes y escalas; no es una curva de probabilidad, no suma intervalos y no representa rutas o encuentros.
 
+## Investigación 046 — Poblamiento de las Américas
+
+| Archivo | Tipo | Creación | Evidencia o claim | Límite |
+|---|---|---|---|---|
+| `hero-poblamiento-americas.png` | portada editorial generada y corregida | OpenAI ImageGen, 2026-08-13 | archivos estratigráficos, arqueológicos, ambientales y genómicos separados | no reproduce huellas, objetos, paleocosta, mapa, ruta, población o genoma reales |
+| `mapa-investigacion-046.svg` | diagrama original | SVG manual del proyecto, 2026-08-13 | cinco filtros y tres saltos no autorizados | flechas son operaciones inferenciales, no desplazamientos |
+| `cronologia-archivos-americas.svg` | cronología original | SVG manual del proyecto, 2026-08-13 | cuatro carriles entre `30–10 ka` y una controversia fuera de eje | posiciones aproximadas; barras no son rutas, probabilidades o continuidad |
+
+## Prompt y corrección de la portada de la Investigación 046
+
+**Modo:** generación nueva y una edición correctiva con OpenAI ImageGen. Copia final inspeccionada a resolución original en `assets/visuales/hero-poblamiento-americas.png`. Primera salida: `C:\Users\HUAWEI\.codex\generated_images\019ff9f8-176a-7ea1-b727-e17c6df17b82\exec-65148586-9dfd-4f9c-82d3-2c0d87bd7da0.png`. Salida corregida y conservada: `C:\Users\HUAWEI\.codex\generated_images\019ff9f8-176a-7ea1-b727-e17c6df17b82\exec-f305af95-2e56-437d-baf8-1318eb10272b.png`.
+
+> Use case: scientific-educational. Asset type: wide 16:9 editorial hero cover for a rigorous Spanish open-science research chapter about when and by which possible routes the Americas were peopled. Primary request: Create a premium museum conservation-table still life, viewed obliquely from above, with four physically separated, non-coeval evidence bays and generous dark negative space. Left bay: a generic laminated sediment block with subtle irregular compressions, sample vials and no literal footprint reconstruction. Second bay: generic stone flakes, two incomplete stemmed points, charcoal and fragmented animal bone, never replicas of named artefacts. Third bay: abstract glacial mineral slabs and submerged-shelf relief made from stone/resin, strictly geological and non-cartographic, without a coastline, map, arrow or route. Right bay: dark sequencing tiles containing only simple rectangular colour blocks and sparse dots, plus flat segmented analytical ribbons, all unlabeled and non-biological. Documentary-realistic museum-science still life; charcoal navy, fossil ivory, muted ochre, restrained teal and copper; sober conservation lighting. Keep archaeology, chronology, environment and genomics separate. No people, humans, hands, faces, bodies, canoes, boats, footprints, tracks, maps, continental outlines, borders, flags, route lines, arrows, Clovis-first scene, literal DNA helix, readable text, letters, numbers, labels, symbols, logos, watermark, pseudotext, sci-fi interface, glowing hologram, violence or fantasy.
+
+La primera salida conservó la composición, pero la superficie del bloque izquierdo introdujo depresiones con lectura semejante a huellas animales. Aunque no representaban el expediente de White Sands, su apariencia contradecía la prohibición de recrear huellas como observación literal. Se aplicó una edición localizada:
+
+> Edit only the top surface of the sediment block in the far-left evidence bay. Remove every paw-like, footprint-like or track-like depression. Replace them with natural fine horizontal lamination, a few subtle desiccation cracks, small irregular sediment ripples and one shallow non-biological erosion groove. The surface must read unequivocally as generic layered sediment, with no print, toe, pad, hand, foot, trackway, fossil trace or living-agent impression. Preserve the exact wide composition, crop, camera angle, all tray boundaries, sample vials, stone flakes, incomplete stemmed points, charcoal, fragmented animal bone, abstract glacial/mineral relief, sequencing tiles, segmented ribbons, lighting, palette, materials, focus and negative space. Change nothing else. Do not add people, faces, bodies, canoes, boats, arrows, maps, coastlines, routes, text, letters, numbers, labels, symbols, logos, watermark or pseudotext.
+
+La edición final fue inspeccionada a resolución original y recibió revisión independiente `PASS`: la superficie izquierda se lee como estratigrafía irregular, sin huellas; no hay personas, canoas, flechas, texto o pseudotexto. Se conserva exactamente ese asset.
+
+El panel mineral central es un **relieve editorial compuesto y no georreferenciado**. No corresponde a Beringia, Norteamérica, Sudamérica, una paleocosta, una batimetría, el corredor interior o una cadena de islas; no codifica distancias, tamaños, intervisibilidad, corrientes o fechas. La proximidad, orientación, color o secuencia de fragmentos no favorece corredor costero, interior o mixto y no debe usarse como prueba geográfica.
+
+Los dos SVG se diseñaron a `1600 × 900`, con `title` y `desc` accesibles. `mapa-investigacion-046.svg` usa líneas continuas para operaciones sustentadas y discontinuas para saltos que requieren evidencia. `cronologia-archivos-americas.svg` separa sitios, ambiente, tecnocomplejo y genomas; Monte Verde se etiqueta como controversia y sus fechas no se promedian. Ninguno representa una ruta, una frontera, una genealogía literal o un mapa.
+
 ## Reglas de mantenimiento
 
 - conservar SVG con `title` y `desc` accesibles;

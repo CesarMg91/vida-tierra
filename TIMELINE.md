@@ -273,7 +273,7 @@ Los límites numéricos siguen `SRC-ICS-2026` (tabla 2026/06). La evidencia de c
 | `TIME-SAPIENS-OOA-001` | ~70–50 ka, con salidas anteriores | expansión que aportó gran parte de ascendencia no africana actual | intervalo demográfico, no una marcha única | genomas modernos/antiguos y arqueología; por registrar | B-C | SEMILLA |
 | `TIME-SAHUL-001` | ≥50–65 ka | presencia humana temprana en Sahul | límites mínimos dependen de yacimiento/método | arqueología, luminiscencia, paleogeografía; por registrar | B-C | SEMILLA |
 | `TIME-EUROPE-SAPIENS-001` | ~47–42 ka | expansión de sapiens en Europa y solapamiento con neandertales | múltiples pulsos y asociaciones culturales | fósiles, `14C`, ADN antiguo; por registrar | B | SEMILLA |
-| `TIME-AMERICAS-001` | ~23–21 ka en White Sands; poblamiento amplio posterior | presencia humana propuesta durante Último Máximo Glacial | cronología local corroborada; no fecha la primera llegada continental | huellas, polen `14C`, luminiscencia | `SRC-BENNETT-2021`, `SRC-PIGATI-2023` | B-LOCAL; C para historia continental | SEMILLA |
+| `TIME-AMERICAS-001` | `~23–21 ka` | presencia humana local en White Sands durante el Último Máximo Glacial | huellas y cuatro rutas cronológicas; no fecha primera llegada, población o ruta | `SRC-BENNETT-2021`, `SRC-PIGATI-2023`, `SRC-HOLLIDAY-WHITE-SANDS-2025` | B-LOCAL | AUDITADO |
 | `TIME-HOLOCENE-BASE-001` | `11.7 ka` (`11 700 yr b2k`) | base del Holoceno | GSSP NGRIP2 a `1492.45 m`, señalado por cambio abrupto al final del Younger Dryas | `SRC-ICS-HOLOCENE-2026`, `SRC-ICS-2026` | A horizonte; B edad | AUDITADO |
 
 ## V. De cazadores-recolectores a civilizaciones
@@ -329,9 +329,20 @@ En esta sección una fecha arqueológica no demuestra por sí sola “propiedad�
 | `TIME-TIANYUAN-001` | `~40 ka` | estructura asiática oriental temprana | un genoma con afinidad posterior; ruta exacta ausente | `SRC-YANG-TIANYUAN-2017` | B-COND | AUDITADO |
 | `TIME-SAHUL-DIVERGENCE-001` | `25–40 ka` o `~47 ka` (`27–64`) | separación papú–australiana modelada | WGS, ABC/coalescencia; no fecha llegada | `SRC-MALASPINAS-SAHUL-2016`, `SRC-SILCOCKS-AUSTRALIAN-2023` | C-MOD | AUDITADO |
 | `TIME-AUSTRALIAN-STRUCTURE-001` | `~35–26 ka` | separaciones regionales australianas modeladas | cuatro comunidades, WGS y ABC | `SRC-SILCOCKS-AUSTRALIAN-2023` | C-MOD | AUDITADO |
+| `TIME-CHIQUIHUITE-001` | `33–31 ka` propuesto | presencia humana extrema propuesta en Chiquihuite | >50 edades fechan secuencia; artefacto frente a geofacto sigue disputado | `SRC-ARDELEAN-CHIQUIHUITE-2020`, `SRC-CHATTERS-CHIQUIHUITE-2021` | C-D-COND | AUDITADO |
+| `TIME-BLUEFISH-001` | pieza más antigua `~24 ka cal BP` | presencia humana propuesta en Beringia oriental | AMS de huesos con marcas; agencia y contexto condicionan | `SRC-BOURGEON-BLUEFISH-2017` | C-COND | AUDITADO |
+| `TIME-PACIFIC-CORRIDOR-001` | sectores desglaciados/productivos hacia `~17 ka` | viabilidad ambiental del corredor costero nororiental | `10Be` y paleoecología; no tránsito observado | `SRC-LESNEK-PACIFIC-2018` | B ambiente; C uso | AUDITADO |
+| `TIME-COOPERS-FERRY-001` | `~16 ka`; puntas hasta `~15,785 cal BP` | ocupación en Cooper’s Ferry/Nipéhe | rasgos, líticos y `14C`; no genealogía/ruta por semejanza | `SRC-DAVIS-COOPERS-2019`, `SRC-DAVIS-COOPERS-2022` | B-COND | AUDITADO |
+| `TIME-PRECLOVIS-ANCHORS-001` | `~15.8–14.2 ka` | múltiples ocupaciones/tradiciones pre-Clovis | Page-Ladson, Paisley, Friedkin y Gault; archivos desiguales | `SRC-HALLIGAN-PAGE-LADSON-2016`, `SRC-JENKINS-PAISLEY-2012`, `SRC-WATERS-FRIEDKIN-2018`, `SRC-WILLIAMS-GAULT-2018` | B-COND | AUDITADO |
+| `TIME-ICE-FREE-CORRIDOR-001` | apertura completa `13.8 ± 0.5 ka`; viabilidad escalonada | corredor interior físicamente abierto y luego habitable | `10Be` y paleoecología/eDNA; no uso inicial | `SRC-CLARK-CORRIDOR-2022`, `SRC-PEDERSEN-CORRIDOR-2016` | B-COND apertura; D uso | AUDITADO |
+| `TIME-CLOVIS-001` | `13,050–12,750 cal BP` | tecnocomplejo Clovis extendido | modelo de fechas; no primera población | `SRC-WATERS-CLOVIS-2020` | B-COND | AUDITADO |
+| `TIME-ANZICK-001` | `12,707–12,556 cal BP` | individuo directamente asociado con entierro Clovis | cuerpo, contexto, `14C` y genoma; no todo Clovis | `SRC-RASMUSSEN-ANZICK-2014` | B | AUDITADO |
+| `TIME-USR1-001` | `~11.5 ka` | individuo de Upward Sun River y rama Ancient Beringian | edad del cuerpo y genoma; splits son modelos, no entrada | `SRC-MORENO-MAYAR-USR1-2018` | B-COND | AUDITADO |
+| `TIME-MONTE-VERDE-001` | `~14.5 ka` clásico frente a `8.2–4.2 ka` propuesto en 2026 | cronología del componente MV-II reabierta | unidades, tefra y objetos asociados no tienen correlación aceptada común | `SRC-DILLEHAY-MONTE-VERDE-2008`, `SRC-SUROVELL-MONTE-VERDE-2026` | D/ABIERTA | AUDITADO |
+| `TIME-AMERICAS-GENOMIC-DISPERSALS-001` | Holoceno temprano–tardío; intervalos modelados | al menos tres dispersiones hacia Sudamérica y diferenciación posterior | genomas actuales/antiguos y coalescencia; no fecha entrada | `SRC-CASTRO-E-SILVA-AMERICAS-2026` | B-COND patrón; C-MOD tiempos | AUDITADO |
 
 ## Próxima acción cronológica
 
-Las investigaciones extensas auditadas llegan de `INV-EARTH-AGE-001` a `INV-MIGR-EUROPE-001`. El siguiente trabajo es `INV-MIGR-AMERICAS-001`: deberá separar presencia, cronología, rutas, población y continuidad en el poblamiento de las Américas.
+Las investigaciones extensas auditadas llegan de `INV-EARTH-AGE-001` a `INV-MIGR-AMERICAS-001`. El siguiente trabajo es `INV-MIND-TOOLS-FIRE-001`: deberá separar herramienta, producción, uso, control del fuego, mantenimiento, cooperación y transmisión sin convertir capacidad en conducta observada.
 
 La línea temática `INV-CIV-ORIGINS-001` permanece separada en estado `TRAZADO`; organiza expedientes regionales, pero no cambia la próxima acción de la secuencia global.
