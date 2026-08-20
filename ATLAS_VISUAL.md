@@ -708,3 +708,17 @@ El mapa separa restos vegetales, fauna, infraestructura, genomas de especies y g
 ![Cronología de domesticaciones y relojes regionales](assets/visuales/cronologia-domesticaciones-multiples.svg)
 
 Los carriles regionales distinguen fecha de objeto/capa, ventana de rasgo y resultado genómico/modelado. La disposición no propone un centro ni una difusión ganadora; ausencia de marca no equivale a ausencia de manejo.
+
+## 52. Investigación 051 — Aldeas, especialización, jerarquías, ciudades y Estados
+
+![Portada editorial de archivos de asentamiento, producción, administración y distribución](assets/visuales/hero-ciudades-estados.png)
+
+> **Portada editorial:** trama construida, módulo doméstico, almacenamiento/producción, peso o sello sin glifos y perfil abstracto son genéricos, separados y no coetáneos. No forman una región, clase, secuencia o régimen y no prueban ciudad, Estado o causa.
+
+![Matriz de archivos, mediciones e inferencias](assets/visuales/mapa-investigacion-051.svg)
+
+Las filas mantienen separados asentamiento/teledetección, hogares, producción, registros/medidas, entierros/biología y ambiente. Las flechas llegan sólo al resultado permitido; ciudad, clase y Estado exigen puentes independientes.
+
+![Cronología multirreloj y regional](assets/visuales/cronologia-ciudades-estados-multirreloj.svg)
+
+Los carriles muestran ventanas de Mesopotamia, Nilo/Indo/China, Mesoamérica/Andes/Amazonia y África. No son una línea ascendente, no miden «avance» y su alineación no representa difusión, sincronía o causalidad.

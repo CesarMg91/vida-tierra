@@ -2944,3 +2944,64 @@ En Europa hubo migración importante y mezcla; en Anatolia central, continuidad 
 Más población puede coexistir con peor salud media; un granero puede amortiguar riesgo o concentrar control; pastoreo puede aumentar movilidad y exposición. El signo depende de resultado y distribución.
 
 **Prueba discriminatoria:** series dentro de regiones/fases que separen edad, sexo, dieta, acceso, movilidad y preservación, y comparadores no agrícolas contemporáneos.
+
+## Controversias de la Investigación 051
+
+| ID | Pregunta | Hipótesis en competencia | Prueba que discrimina | Estado |
+|---|---|---|---|---|
+| `CONT-CITY-DEFINITION-001` | ¿Qué hace ciudad a un asentamiento? | tamaño/densidad; funciones; centralidad; experiencia urbana; combinación regional | declarar umbral/unidad y probar hogares, funciones, movilidad y red en fases compatibles | ABIERTA POR REGIÓN |
+| `CONT-STATE-IDENTIFICATION-001` | ¿Cuándo coordinación se vuelve Estado? | autoridad distribuida; jerarquía institucional; soberanía/extracción/coerción | archivos convergentes de jurisdicción, adjudicación, tributo y persistencia supralocal | ABIERTA |
+| `CONT-URUK-CAUSES-001` | ¿Qué mecanismos impulsaron urbanización/Estado en Mesopotamia? | demografía; irrigación; comercio; producción; información; coaliciones; combinaciones | precedencia regional, casos negativos y huellas directas de mecanismo | ABIERTA |
+| `CONT-INDUS-POLITICAL-FORM-001` | ¿Qué organización política sostuvo el urbanismo del Indo? | centralización territorial; ciudades autónomas; heterarquía; integración variable | distribución de administración, producción, medidas, barrios y jurisdicción con fase | ABIERTA |
+| `CONT-ERLITOU-STATE-001` | ¿Erlitou fue capital/Estado y con qué alcance? | centro jerárquico; capital regional; Estado territorial; identificación dinástica histórica | asentamientos subordinados, extracción, administración y secuencia que no dependan de textos posteriores | ABIERTA |
+| `CONT-AFRICAN-URBANISM-001` | ¿Cómo reconocer urbanismo africano sin norma importada? | ciudad compacta/central; red de baja densidad; policentrismo; agregación estacional | residencia, funciones, conectividad y autoridad medidas con categorías regionales/locales | ABIERTA POR REGIÓN |
+| `CONT-INEQUALITY-POWER-001` | ¿Cuándo distribución material implica herencia, clase o poder? | variación doméstica; riqueza; rango; transmisión; clase; cargo | series contemporáneas de casas/cuerpos/parentesco/acceso e institución independiente | ABIERTA |
+| `CONT-COLLAPSE-CAUSES-001` | ¿Qué cambió y por qué en episodios llamados colapso? | clima; guerra; economía; epidemia; conflicto interno; transformación multicausal | unidad/resultado, desfase, mecanismo, casos control y continuidad fuera del centro | ABIERTA POR CASO |
+
+## CONT-CITY-DEFINITION-001 — Densidad, función y centralidad
+
+Una aldea grande puede tener población alta sin funciones regionales; una ocupación de baja densidad puede articular barrios, producción, caminos y hinterland. Elegir un umbral después de ver el caso vuelve circular la clasificación.
+
+**Prueba discriminatoria:** definición previa con unidades de superficie/población, diversidad funcional, movilidad cotidiana y posición en red, seguida de sensibilidad a fases y preservación.
+
+## CONT-STATE-IDENTIFICATION-001 — Coordinación no es soberanía
+
+Obras colectivas, almacenes y registros demuestran capacidades, pero pueden organizarse por asociaciones, hogares, consejos, templos o instituciones distribuidas. Estado añade gobierno supralocal persistente, extracción/adjudicación y pretensión territorial bajo la definición usada.
+
+**Prueba discriminatoria:** decisiones o flujos que atraviesen varias comunidades, con agentes, sanción, continuidad y alternativas no estatales evaluadas.
+
+## CONT-URUK-CAUSES-001 — Mecanismos acoplados
+
+Irrigación mareal puede reducir riesgo; rutas comerciales pueden concentrar producción; agregación puede aumentar información y conflicto. Cada variable puede ser causa, efecto o retroalimentación.
+
+**Prueba discriminatoria:** ordenar cronológicamente cambios ambientales, asentamiento, producción, registro y extracción en más de una subregión; incluir lugares con condición causal pero sin resultado.
+
+## CONT-INDUS-POLITICAL-FORM-001 — Estandarización sin palacio evidente
+
+Sellos, pesos, drenajes y repertorios compartidos apoyan integración; su distribución no decide si hubo autoridad territorial única. La ausencia de palacio/tumba real inequívocos no prueba igualdad, y la estandarización no prueba decreto.
+
+**Prueba discriminatoria:** procedencia y contexto de medidas/sellos, concentración de producción, variación entre centros, administración legible y jerarquías de acceso a escala regional.
+
+## CONT-ERLITOU-STATE-001 — Del patrón a la entidad
+
+Cuatro niveles de asentamiento, vías, talleres y patios hacen de Erlitou un centro excepcional. Identificarlo con una capital dinástica o primer Estado añade tradiciones textuales posteriores y criterios políticos.
+
+**Prueba discriminatoria:** evidencia contemporánea de jurisdicción, extracción y subordinación territorial que no se definió sólo por el mismo gradiente de tamaños.
+
+## CONT-AFRICAN-URBANISM-001 — Compacidad y escritura no son requisitos
+
+Jenne-jeno, Great Zimbabwe y otros paisajes africanos fueron interpretados durante historias coloniales que negaron autoría o midieron ciudad contra planta, escritura y monumento ajenos. Corregir el sesgo no exige llamar ciudad/Estado a todo centro grande.
+
+**Prueba discriminatoria:** categorías locales/descendientes, residencia, diversidad funcional, interdependencia y escala política comparadas sin importar un rasgo diagnóstico único.
+
+## CONT-INEQUALITY-POWER-001 — Del proxy a la relación social
+
+Área residencial, dieta, bienes funerarios y acceso son distribuciones parciales. Rango mortuorio puede no ser cargo en vida; parentesco puede organizar sepultura sin clase; casas grandes pueden albergar más personas.
+
+**Prueba discriminatoria:** dos o más proxies independientes, contemporaneidad, unidad doméstica, parentesco/transmisión y evidencia institucional fuera del conjunto usado para definir desigualdad.
+
+## CONT-COLLAPSE-CAUSES-001 — La unidad que cambia
+
+Abandono de un centro puede coexistir con crecimiento periférico; pérdida de escritura con continuidad poblacional; fragmentación política con persistencia técnica. Un proxy climático no decide cuál de esas unidades cambió.
+
+**Prueba discriminatoria:** serie antes/durante/después que separe población, asentamiento, institución, red y práctica; mecanismo causal con desfase y casos regionales negativos.

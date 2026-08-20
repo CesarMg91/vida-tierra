@@ -1224,3 +1224,37 @@ Nanchoc/Moxos → horticultura/paisaje B-COND → centro americano único: no
 Los genomas humanos muestran migración importante en algunas expansiones y continuidad/adopción local en otras. Personas, especies y técnicas son flujos separables. Clima, demografía, nicho, riesgo, almacenamiento y redes se mantienen como modelos con predicciones; dieta, patógenos, trabajo y desigualdad se comparan por fase/grupo sin convertirlos en progreso.
 
 Véase `INV-NEOLITHIC-001` en `14_civilizaciones`, su mapa en `assets/visuales/mapa-investigacion-050.svg` y la cronología multirreloj en `assets/visuales/cronologia-domesticaciones-multiples.svg`.
+
+### Investigación 051 — Aldeas, especialización, jerarquías, ciudades y Estados
+
+```text
+prospección/lidar + fase ───────────────> distribución, densidad, conectividad ─────────┐
+casas/barrios + secuencia ──────────────> residencia, actividad, variación doméstica ──┤
+taller/almacén + residuos/acceso ───────> producción, almacenamiento, especialización ┤
+sello/tablilla/peso + contexto ─────────> registro y práctica metrológica ─────────────┤
+entierro/isótopo/genoma + individuo ────> tratamiento, movilidad, parentesco ──────────┤
+paleoambiente + reloj ──────────────────> oportunidad, restricción y cambio ───────────┘
+                                                                                       │
+                                                                                       └─> ciudad, clase, Estado o causa no automáticos
+```
+
+Mesopotamia conserva rutas urbanas septentrionales y meridionales; P003414 prueba administración local, no alfabetización/territorio. La irrigación mareal propuesta en 2025 es un mecanismo ambiental contrastable, no una vía necesaria al despotismo.
+
+```text
+Egipto → 186 fechas + Bayes → tempo estatal B-COND → soberanía observada: no
+Indo → paisaje + prospección → urbanización/desnucleación B-COND → desaparición: no
+Erlitou → cuatro niveles + vías/talleres → centralidad B → capital/Estado C-COND
+```
+
+Mesoamérica separa plataforma monumental, huella urbana, hogares y rasgos lidar. Norte Chico fecha monumentos sin decidir régimen; la Alta Amazonia documenta urbanismo-jardín sin ciudad compacta. Jenne-jeno muestra funciones urbanas sin centralización demostrada; Great Zimbabwe combina solapamiento, no coetaneidad y población modelada, adversando megaciudad/relevo lineal.
+
+```text
+área de casa → proxy material → Gini B-COND → clase/poder: no
+tumba rica → tratamiento diferencial → rango posible → clase fija: no
+pesos semejantes → práctica metrológica → decreto central: no necesario
+genoma → parentesco/afinidad → etnia/lengua/ciudadanía/Estado: no
+```
+
+Los modelos de demografía, circunscripción, irrigación, guerra, comercio, ritual, información, ecología y agencia conservan predicciones, casos negativos y causalidad inversa. «Colapso» se desagrega en población, asentamiento, institución, red y práctica. CIV-001 permanece `TRAZADO`; la 051 sólo reutiliza IDs cuando la proposición/evidencia es idéntica.
+
+Véase `INV-CITIES-STATES-001` en `14_civilizaciones`, su mapa en `assets/visuales/mapa-investigacion-051.svg` y la cronología regional en `assets/visuales/cronologia-ciudades-estados-multirreloj.svg`.

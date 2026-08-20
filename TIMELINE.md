@@ -284,12 +284,12 @@ En esta sección una fecha arqueológica no demuestra por sí sola “propiedad�
 |---|---:|---|---|---|---|---|
 | `TIME-DOMESTICATION-001` | desde antes de `~11.7 ka`, según variable/región | recolección, cultivo, rasgos, poblaciones y dependencia cambian en mosaico | no existe inicio global; cada archivo fecha una unidad diferente | conjunto de fuentes de `INV-NEOLITHIC-001` | B procesos; C inicios regionales | AUDITADO |
 | `TIME-SETTLEMENT-001` | ~10–7 ka | crecimiento de aldeas permanentes en diversas regiones | sedentarismo y cultivo no siempre coinciden | arquitectura, residuos, entierros y paleoambiente; por registrar | B-C | SEMILLA |
-| `TIME-MESO-CITIES-001` | ~4000–3200 a. C. | urbanización de Uruk y redes regionales | fases cerámicas y `14C`; definición de ciudad | asentamientos, administración y sellos; por registrar | B-C | SEMILLA |
+| `TIME-MESO-CITIES-001` | ~4000–3200 a. C. | urbanización de Uruk y redes regionales | fases cerámicas, superficie y arquitectura; ciudad/Estado separados | `SRC-OATES-BRAK-2007`, `SRC-LAWRENCE-URBANISM-2015`, `SRC-GIOSAN-SUMER-2025` | B-COND | AUDITADO |
 | `TIME-WRITING-001` | ~3400–3200 a. C. | tablillas administrativas tempranas en Mesopotamia | transición de fichas/signos a escritura discutida | tablillas estratificadas y paleografía; por registrar | B | SEMILLA |
-| `TIME-EGYPT-STATE-001` | ~3100 a. C. | consolidación del Estado egipcio temprano | modelo bayesiano + secuencias; “unificación” histórica | `14C`, tumbas, bienes e inscripciones | `SRC-DEE-2013` | B-C | SEMILLA |
-| `TIME-NORTE-CHICO-001` | ~3000–1800 a. C. | centros monumentales de Norte Chico/Caral | `14C` de ocupaciones; significado político variable | arquitectura, algodón, recursos marinos y fechados | `SRC-HAAS-2004` | B para cronología; C organización | SEMILLA |
-| `TIME-INDUS-URBAN-001` | ~2600–1900 a. C. | fase urbana madura del Indo | cronologías regionales y asociación de fases | ciudades, pesos, sellos, producción y ambiente; fuentes por registrar | B | SEMILLA |
-| `TIME-CHINA-EARLYSTATE-001` | ~1900–1500 a. C. | complejidad estatal temprana Erlitou/Edad del Bronce | relación con “Xia” textual es discutida | asentamiento, bronces, palacios, `14C` | `SRC-LIU-2012` + primarias por registrar | B para arqueología; D para identificación textual |
+| `TIME-EGYPT-STATE-001` | ~3100 a. C.; intervalos modelados por fase | consolidación del Estado egipcio temprano | `186` fechas + Bayes; «unificación»/soberanía son inferencias históricas | `SRC-DEE-2013`, `SRC-REIMER-INTCAL20-2020` | B-COND | AUDITADO |
+| `TIME-NORTE-CHICO-001` | ~3000–1800 a. C. | ocupaciones monumentales de Norte Chico/Caral | `95` fechas en `13` sitios; forma política no deriva del reloj | `SRC-HAAS-2004` | B cronología; C organización | AUDITADO |
+| `TIME-INDUS-URBAN-001` | ~2600–1900 a. C.; transformación posterior | fase urbana madura y desnucleación del Indo | prospecciones/fases y paisaje; «colapso» no es desaparición | `SRC-GIOSAN-HARAPPAN-2012`, `SRC-GREEN-PETRIE-2018` | B-COND | AUDITADO |
+| `TIME-CHINA-EARLYSTATE-001` | ~1900–1500 a. C. | centralidad y complejidad política temprana en Erlitou/Yiluo | cuatro niveles, vías, talleres y patios; «Xia»/Estado condicionados | `SRC-LIU-YILUO-2004`, `SRC-ZHAO-ERLITOU-2021` | B archivo; C/D identificación | AUDITADO |
 | `TIME-MESOAMERICA-EARLY-001` | ~1500–900 a. C. | centros olmecas y complejidad regional temprana | trayectorias múltiples; no origen único de Mesoamérica | montículos, escultura, intercambio y `14C`; por registrar | B-C | SEMILLA |
 | `TIME-CIV-OHALO-001` | ~`23 ka cal BP` | seis estructuras y pisos de ocupación de Ohalo II | edades de contexto; duración de cada estancia no equivale a residencia anual | `SRC-NADEL-OHALO-2004` | B-LOCAL | TRAZADO |
 | `TIME-CIV-AINMALLAHA-001` | ~`15 ka cal BP` | señal comensal de ratón en ʿAin Mallaha dentro de la secuencia natufiense | proxy ecológico de movilidad residencial; no fecha agricultura | `SRC-WEISSBROD-MICE-2017` | B-LOCAL-COND | TRAZADO |
@@ -411,8 +411,21 @@ Las entradas separan edad de objeto/capa, frecuencia de rasgo, genealogía y eco
 | `TIME-MAIZE-DISPERSAL-TRAITS-001` | Holoceno medio; muestras con edades propias | linajes de maíz circulan antes de fijación de todos los rasgos posteriores | paleogenómica y arqueología; no hay «final» único | `SRC-KISTLER-MAIZE-2018` | B-COND | AUDITADO |
 | `TIME-ZOONOSES-NEOLITHIC-001` | detectables desde `~6.5 ka`; pico `~5 ka` | zoonosis identificadas en humanos antiguos de Eurasia | 1,313 individuos; preservación y detección no miden primera infección real | `SRC-SIKORA-PATHOGENS-2025` | B-REG | AUDITADO |
 
+## X. Urbanización, formas políticas y transformaciones regionales
+
+Estas ventanas alinean archivos regionales; no son etapas, no presuponen difusión y no convierten una fase de asentamiento en duración de un Estado.
+
+| ID | Fecha/intervalo | Evento delimitado | Incertidumbre y evidencia | Fuente | Confianza | Estado |
+|---|---:|---|---|---|---|---|
+| `TIME-AGUADA-FENIX-051-001` | ~`1000–800 a. C.` | plataforma monumental temprana | lidar, excavación y Bayes; no dinastía/Estado | `SRC-INOMATA-AGUADA-2020` | B | AUDITADO |
+| `TIME-JENNE-JENO-051-001` | desde III a. C.; apogeo `~750–1100 d. C.` | crecimiento urbano, producción e intercambio en Jenne-jeno | secuencia/área >`33 ha`; centralización no demostrada | `SRC-MCINTOSH-JENNE-1981` | B-COND | AUDITADO |
+| `TIME-TEOTIHUACAN-051-001` | auge urbano aproximado siglos I–VI d. C. | ciudad de complejos residenciales y producción especializada | mapa/modelo residencial; población y gobierno condicionados | `SRC-MILLON-TEOTIHUACAN-1970`, `SRC-SMITH-TEOTIHUACAN-2019` | B-COND | AUDITADO |
+| `TIME-UPPER-AMAZON-URBANISM-051-001` | ocupaciones durante ~dos milenios; series desde ~500 a. C. | urbanismo-jardín de plataformas, caminos, drenajes y campos | campo/lidar; coetaneidad y forma política abiertas | `SRC-ROSTAIN-AMAZON-2024` | B-COND | AUDITADO |
+| `TIME-GREAT-ZIMBABWE-051-001` | ocupación `~1000–1800 d. C.`; muros desde XII–XIII | secuencia construida y población simultánea modelada | contextos dañados; sectores no coetáneos y población probablemente <`10,000` | `SRC-CHIRIKURE-GZ-CHRONOLOGY-2013`, `SRC-CHIRIKURE-GZ-POP-2017` | B-COND | AUDITADO |
+| `TIME-STATE-COMPARATIVE-2026-001` | estudio publicado 2025; volumen 2026 | asociaciones modeladas entre grano, tributo, escritura y Estado | `868` culturas; no fecha un Estado ni establece ley causal | `SRC-OPIE-ATKINSON-2025` | B-MOD | AUDITADO |
+
 ## Próxima acción cronológica
 
-Las investigaciones extensas auditadas llegan de `INV-EARTH-AGE-001` a `INV-NEOLITHIC-001`. La Investigación 051 permanece pendiente y no se inicia sin revisión, fusión y asignación formal posteriores.
+Las investigaciones extensas auditadas llegan de `INV-EARTH-AGE-001` a `INV-CITIES-STATES-001`. La Investigación 052 permanece pendiente y no se inicia sin revisión, fusión y asignación formal posteriores.
 
-La línea temática `INV-CIV-ORIGINS-001` permanece separada en estado `TRAZADO`; organiza expedientes regionales, pero no cambia la próxima acción de la secuencia global.
+La línea temática `INV-CIV-ORIGINS-001` permanece separada en estado `TRAZADO`; la 051 reutiliza sólo proposiciones/evidencias idénticas y no cambia ese estado.

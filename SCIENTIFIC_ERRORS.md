@@ -3816,3 +3816,86 @@ Mayor población, ciudades posteriores o productividad no miden bienestar indivi
 La metáfora de conquista supone plan único y omite comportamiento animal, biología vegetal, paisajes y generaciones de conocimiento situado.
 
 **Corrección:** identificar agente y escala causal; registrar procedencia, manejo indígena/local y gobernanza sin proyectar prácticas actuales intactas al pasado.
+
+## Errores auditados de la Investigación 051
+
+| ID | Formulación errónea | Por qué falla | Corrección operativa |
+|---|---|---|---|
+| `ERR-CITIES-STATES-LADDER-001` | aldea→ciudad→Estado→imperio es una escalera universal | variables se desacoplan, revierten y preservan distinto | medir cada resultado y reloj por región |
+| `ERR-LARGE-VILLAGE-CITY-001` | aldea grande = ciudad | población/tamaño no prueban funciones o centralidad | declarar criterios de densidad, función, red y experiencia |
+| `ERR-MONUMENT-STATE-001` | monumento = Estado/dinastía/coerción | inversión admite coordinación distribuida y funciones múltiples | probar jurisdicción, extracción y autoridad por archivo independiente |
+| `ERR-WALL-WAR-STATE-001` | muralla = guerra y Estado | delimitación, agua, animales, acceso o exhibición son alternativas | fechar, analizar diseño/daño y asociar conflicto/institución |
+| `ERR-BURIAL-CLASS-001` | riqueza funeraria = clase fija | rito, edad, parentesco, evento y muestra funeraria median | probar recurrencia, herencia y posición en vida |
+| `ERR-TABLET-WRITING-LITERACY-001` | sello/token/tablilla = escritura y alfabetización general | soporte/género/usuarios y codificación son claims distintos | registrar contenido, distribución y usuarios |
+| `ERR-WRITING-STATE-001` | escritura es requisito universal de Estado | existen Estados sin escritura y registros locales sin Estado territorial | medir gobierno y escritura en ejes separados |
+| `ERR-STANDARDIZATION-CENTRAL-001` | pesos/medidas semejantes = decreto central | copia e interacción pueden converger en tolerancias | comparar contexto, errores y evidencia de emisión |
+| `ERR-HYDRAULIC-DESPOTISM-001` | irrigación = despotismo | infraestructura no identifica propiedad, coerción o gobierno | formular mecanismo, agentes, alternativas y casos negativos |
+| `ERR-ANCESTRY-POLITY-001` | ancestría = etnia/lengua/ciudadanía/clase/Estado | ADN mide genealogía de individuos, no categorías políticas | describir afinidad/parentesco y auditar institución aparte |
+| `ERR-COLLAPSE-DISAPPEARANCE-001` | colapso = desaparición de un pueblo | centros e instituciones pueden caer mientras poblaciones/prácticas continúan | separar transformación, migración, fragmentación y archivo |
+| `ERR-CIV001-SUBSTITUTION-001` | la auditoría 051 vuelve auditado o sustituye CIV-001 | estados e IDs pertenecen a cadenas concretas | conservar CIV-001 `TRAZADO` y reutilizar sólo identidad exacta |
+
+## ERR-CITIES-STATES-LADDER-001 — Convertir comparación en destino
+
+Las regiones combinan sedentarismo, producción, agregación, ciudad, escritura y Estado en órdenes distintos. Una secuencia frecuente no es necesaria, y una etiqueta tardía no puede prestarse al primer evento.
+
+**Corrección:** matriz regional con variable, unidad, fecha, confianza y caso negativo; prohibir flechas sin puente.
+
+## ERR-LARGE-VILLAGE-CITY-001 — Tamaño como esencia urbana
+
+Una población alta puede concentrarse estacionalmente o carecer de funciones regionales. Jenne-jeno y la Alta Amazonia muestran además que funciones urbanas no requieren la compacidad usada en modelos europeos.
+
+**Corrección:** declarar población/densidad, permanencia, diferenciación funcional y relación con hinterland por separado.
+
+## ERR-MONUMENT-STATE-001 — Piedra o plataforma como gobierno
+
+Aguada Fénix y Norte Chico fijan inversión y coordinación. No conservan automáticamente quién decidió, si hubo trabajo forzado, tributo, dinastía o soberanía.
+
+**Corrección:** añadir acceso, secuencia, hogares, producción, jurisdicción y extracción; mantener D para el rasgo no preservado.
+
+## ERR-WALL-WAR-STATE-001 — Arquitectura defensiva como evento
+
+Una pared puede canalizar tránsito, agua o animales, demarcar, exhibir o defender. Incluso una defensa no identifica atacante, guerra concreta ni forma estatal.
+
+**Corrección:** fechar construcción/daño, modelar accesos y terreno, buscar proyectiles/trauma/destrucción y administración contemporánea.
+
+## ERR-BURIAL-CLASS-001 — Muerte como espejo total de vida
+
+Bienes y tratamiento pueden variar por edad, ritual, parentesco o circunstancia. El cementerio puede excluir a gran parte de la población.
+
+**Corrección:** contrastar casas, dieta, trabajo, parentesco y repetición intergeneracional; no llamar clase a un rango funerario aislado.
+
+## ERR-TABLET-WRITING-LITERACY-001 / ERR-WRITING-STATE-001
+
+P003414 prueba una tablilla administrativa local. No cuenta lectores ni territorio. La asociación comparativa escritura–Estado tiene excepciones y depende de codificación/modelo.
+
+**Corrección:** separar soporte, sistema, contenido, usuarios y distribución; construir Estado desde jurisdicción/extracción, no desde letras.
+
+## ERR-STANDARDIZATION-CENTRAL-001 — Uniformidad como firma del palacio
+
+Pesos semejantes pueden copiarse entre comerciantes y propagar errores dentro de tolerancias. También puede existir control institucional local; ninguno se decide por uniformidad sola.
+
+**Corrección:** modelar distribución/error, contexto, talleres, sellos de emisión y casos fuera de control propuesto.
+
+## ERR-HYDRAULIC-DESPOTISM-001 — Del canal al régimen
+
+Agua requiere coordinación en ciertas escalas, pero hogares, asociaciones y comunidades pueden construir/mantener infraestructura. La oportunidad mareal de Sumer no observa coerción.
+
+**Corrección:** identificar inversión, mantenimiento, acceso, sanción y apropiación; comparar sistemas hidráulicos con y sin centralización.
+
+## ERR-ANCESTRY-POLITY-001 — Genetizar instituciones
+
+Un genoma de Rakhigarhi estima afinidad de una persona. No preserva idioma, ciudadanía, oficio ni gobierno; una etiqueta arqueológica tampoco es población biológica homogénea.
+
+**Corrección:** reportar individuo, contexto, parentesco/afinidad y modelo; auditar identidad e institución con archivos propios y gobernanza de muestras.
+
+## ERR-COLLAPSE-DISAPPEARANCE-001 — Borrar continuidad
+
+Desnucleación del Indo o cambio del norte mesopotámico puede redistribuir asentamientos. Pérdida de monumento/escritura no equivale a extinción.
+
+**Corrección:** definir qué unidad y variable caen, rastrear periferias y fases posteriores, y reservar desaparición para evidencia demográfica proporcional.
+
+## ERR-CIV001-SUBSTITUTION-001 — Heredar un estado editorial
+
+Una nueva investigación puede reutilizar una evidencia exacta sin reauditar todo el paquete que la originó. Cambiar CIV-001 de `TRAZADO` por asociación ocultaría claims no revisados.
+
+**Corrección:** conservar IDs/estado originales, crear IDs nuevos para proposiciones nuevas y documentar la reconciliación.
