@@ -282,7 +282,7 @@ En esta sección una fecha arqueológica no demuestra por sí sola “propiedad�
 
 | ID | Fecha/intervalo | Evento delimitado | Incertidumbre y evidencia | Fuente | Confianza | Estado |
 |---|---:|---|---|---|---|---|
-| `TIME-DOMESTICATION-001` | ~11.7–9.0 ka | domesticación gradual de varias plantas/animales en regiones independientes | rasgos aparecen en mosaico; no “revolución” instantánea | morfología, semillas, huesos, genética, `14C`; por registrar | B para procesos; C para inicios exactos | SEMILLA |
+| `TIME-DOMESTICATION-001` | desde antes de `~11.7 ka`, según variable/región | recolección, cultivo, rasgos, poblaciones y dependencia cambian en mosaico | no existe inicio global; cada archivo fecha una unidad diferente | conjunto de fuentes de `INV-NEOLITHIC-001` | B procesos; C inicios regionales | AUDITADO |
 | `TIME-SETTLEMENT-001` | ~10–7 ka | crecimiento de aldeas permanentes en diversas regiones | sedentarismo y cultivo no siempre coinciden | arquitectura, residuos, entierros y paleoambiente; por registrar | B-C | SEMILLA |
 | `TIME-MESO-CITIES-001` | ~4000–3200 a. C. | urbanización de Uruk y redes regionales | fases cerámicas y `14C`; definición de ciudad | asentamientos, administración y sellos; por registrar | B-C | SEMILLA |
 | `TIME-WRITING-001` | ~3400–3200 a. C. | tablillas administrativas tempranas en Mesopotamia | transición de fichas/signos a escritura discutida | tablillas estratificadas y paleografía; por registrar | B | SEMILLA |
@@ -393,8 +393,26 @@ Las fechas corresponden a objeto, capa, costra o estructura. No forman una líne
 | `TIME-AURIGNACIAN-FLUTES-001` | inicio regional modelado `~43–42 ka cal BP` | aerófonos de Suabia en Auriñaciense temprano | manufactura y `14C`; no primera música mundial | `SRC-CONARD-FLUTES-2009`, `SRC-HIGHAM-GEISSEN-2012` | B | AUDITADO |
 | `TIME-SHANIDAR-DEPOSITION-001` | Paleolítico medio tardío; sin fecha directa adoptada aquí | depósito neandertal articulado y polen reabierto | tafonomía/palinología; no se importa una edad contextual como fecha exacta | `SRC-POMEROY-SHANIDAR-2020`, `SRC-HUNT-SHANIDAR-POLLEN-2023` | B-COND depósito; C/D flores | AUDITADO |
 
+## IX. Cultivos, domesticaciones y economías de producción
+
+Las entradas separan edad de objeto/capa, frecuencia de rasgo, genealogía y economía. No forman una ruta de difusión, no son etapas universales y no deben promediarse.
+
+| ID | Fecha/intervalo | Evento delimitado | Incertidumbre y evidencia | Fuente | Confianza | Estado |
+|---|---:|---|---|---|---|---|
+| `TIME-SHUBAYQA-PLANT-PROCESS-001` | `~14.4 ka cal BP` | preparación tipo pan con plantas silvestres en Shubayqa 1 | restos carbonizados, microscopía y `14C`; no cultivo | `SRC-ARRANZ-BREAD-2018` | B | AUDITADO |
+| `TIME-DHRA-STORAGE-050-001` | `~11.3 ka cal BP` | graneros en Dhra’ antes de domesticación local plena | arquitectura/secuencia; contenido y propiedad condicionados | `SRC-KUIJT-DHRA-2009` | B-COND | AUDITADO |
+| `TIME-KUK-CULTIVATION-050-001` | fases desde `~10 ka` | drenaje, manejo de humedal y cultivo en Kuk | estratigrafía, microrestos y fechas; taxón/intensidad varían | `SRC-DENHAM-KUK-2003` | B-COND | AUDITADO |
+| `TIME-MOXOS-CULTIVATION-001` | mandioca `~10.35 ka`; calabaza `~10.25 ka cal BP` | cultivo y paisaje modificado en islas de bosque de Moxos | fitolitos, carbón, perfiles y modelos; asociación local | `SRC-LOMBARDO-AMAZONIA-2020` | B-COND | AUDITADO |
+| `TIME-RICE-EARLY-050-001` | fitolitos `~9.4–9.0 ka cal BP`; serie Tianluoshan `~6.9–6.6 ka cal BP` | cultivo/rasgos de arroz bajo relojes distintos | fitolito-carbono, bulliformes y bases; ambiente/asociación condicionan | `SRC-ZUO-RICE-2017`, `SRC-FULLER-RICE-2009`, `SRC-MA-RICE-2026` | B/C-COND | AUDITADO |
+| `TIME-BALSAS-MAIZE-SQUASH-001` | `≥8.7 ka cal BP` | maíz y calabaza en Xihuatoxtla | almidones, fitolitos, molienda y contexto; ocupación estacional | `SRC-RANERE-BALSAS-2009`, `SRC-PIPERNO-BALSAS-2009` | B | AUDITADO |
+| `TIME-SAHARA-DAIRY-001` | quinto milenio `BCE` | procesamiento de leche en cerámica del Sahara verde | lípidos e isótopos; no mide sedentarismo o dieta total | `SRC-DUNNE-SAHARA-DAIRY-2012` | B | AUDITADO |
+| `TIME-SUDAN-SORGHUM-001` | cuarto milenio `BCE` | mezcla de espiguillas silvestres/domesticadas de sorgo en KG23 | impresiones cerámicas; fase regional de selección | `SRC-WINCHELL-SORGHUM-2017` | B-COND | AUDITADO |
+| `TIME-TILEMSI-MILLET-001` | `~4.5 ka` | mijo perla domesticado con rasgos no sincrónicos | grano/valva, AMS/OSL; asociación y carbono viejo controlados/modelados | `SRC-MANNING-PEARL-MILLET-2011` | B-COND | AUDITADO |
+| `TIME-MAIZE-DISPERSAL-TRAITS-001` | Holoceno medio; muestras con edades propias | linajes de maíz circulan antes de fijación de todos los rasgos posteriores | paleogenómica y arqueología; no hay «final» único | `SRC-KISTLER-MAIZE-2018` | B-COND | AUDITADO |
+| `TIME-ZOONOSES-NEOLITHIC-001` | detectables desde `~6.5 ka`; pico `~5 ka` | zoonosis identificadas en humanos antiguos de Eurasia | 1,313 individuos; preservación y detección no miden primera infección real | `SRC-SIKORA-PATHOGENS-2025` | B-REG | AUDITADO |
+
 ## Próxima acción cronológica
 
-Las investigaciones extensas auditadas llegan de `INV-EARTH-AGE-001` a `INV-MIND-SYMBOL-001`. La Investigación 050 permanece pendiente y no se inicia sin revisión, fusión y asignación formal posteriores.
+Las investigaciones extensas auditadas llegan de `INV-EARTH-AGE-001` a `INV-NEOLITHIC-001`. La Investigación 051 permanece pendiente y no se inicia sin revisión, fusión y asignación formal posteriores.
 
 La línea temática `INV-CIV-ORIGINS-001` permanece separada en estado `TRAZADO`; organiza expedientes regionales, pero no cambia la próxima acción de la secuencia global.

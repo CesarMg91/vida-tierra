@@ -4006,6 +4006,35 @@ Este archivo es el índice canónico. La letra de confianza califica exactamente
 - **Ritual:** Bruniquel restringe organización y acceso, no cosmología.
 - **Fronteras:** convención no prueba lengua; simbolismo no es causa única del Neolítico.
 
+## Registro tabular de la Investigación 050
+
+| ID | Afirmación delimitada | Confianza | Estado | Evidencias principales | Investigación |
+|---|---|---|---|---|---|
+| `CLAIM-NEOLITHIC-SCOPE-001` | Recolección intensiva, manejo, cultivo, selección, domesticación, dependencia, almacenamiento, sedentarismo, pastoralismo y «Neolítico» son variables distintas. | A-SEM | AUDITADO | `EVID-NEOLITHIC-METHOD-001` | `INV-NEOLITHIC-001` |
+| `CLAIM-DOMESTICATION-TRAIT-POPULATION-ECONOMY-001` | Un rasgo domesticado, una población domesticada y una economía dependiente no comparten necesariamente diagnóstico o fecha. | A-SEM/B | AUDITADO | `EVID-NEOLITHIC-METHOD-001`, `EVID-DOMESTICATION-COMPARATIVE-050-001` | `INV-NEOLITHIC-001` |
+| `CLAIM-DOMESTICATION-SYNDROME-NONSYNCHRONOUS-001` | Los rasgos de los «síndromes» de domesticación pueden cambiar a ritmos distintos y no demuestran un evento único. | B | AUDITADO | `EVID-DOMESTICATION-COMPARATIVE-050-001`, `EVID-AFRICA-CEREAL-TRAJECTORIES-001` | `INV-NEOLITHIC-001` |
+| `CLAIM-SWASIA-PREDOMESTIC-001` | Procesamiento, almacenamiento, residencia prolongada y cultivo pre-doméstico precedieron localmente a poblaciones cerealistas plenamente domesticadas. | B-COND | AUDITADO | `EVID-SWASIA-PLANT-PROCESS-001`, `EVID-CIV-DHRA-GRANARIES-001`, `EVID-CIV-MICE-AINMALLAHA-001` | `INV-NEOLITHIC-001` |
+| `CLAIM-BARLEY-MOSAIC-2025-001` | La cebada cultivada conserva un mosaico de haplotipos de múltiples contribuciones silvestres, flujo génico y adaptación; no define una coordenada/fecha única. | B; C-MOD para historia profunda | AUDITADO | `EVID-BARLEY-HAPLOTYPES-2025-001` | `INV-NEOLITHIC-001` |
+| `CLAIM-CHINA-MULTICROP-TRAJECTORIES-001` | Arroz, mijos y cerdos en China responden a archivos y relojes diferentes y no constituyen un paquete sincrónico automático. | B-COND | AUDITADO | `EVID-CHINA-CROP-ARCHIVES-001` | `INV-NEOLITHIC-001` |
+| `CLAIM-RICE-REGIONAL-MOSAIC-2026-001` | Los proxies del bajo Yangtsé favorecen trayectorias subregionales de cultivo/domesticación de arroz, con efecto ambiental y muestreo desiguales. | B-COND | AUDITADO | `EVID-RICE-REGIONAL-2026-001` | `INV-NEOLITHIC-001` |
+| `CLAIM-AFRICA-FOOD-PRODUCTION-MOSAIC-001` | Pastoreo/lechería, sorgo, mijo perla y arroz africano documentan procesos africanos regionales, no una transición continental única. | B-COND | AUDITADO | `EVID-AFRICA-CEREAL-TRAJECTORIES-001`, `EVID-SAHARA-PASTORAL-DAIRY-001` | `INV-NEOLITHIC-001` |
+| `CLAIM-MOBILITY-FOOD-PRODUCTION-SEPARATE-001` | Producción de alimentos puede coexistir con movilidad y sedentarismo puede preceder o existir sin agricultura. | B | AUDITADO | `EVID-SAHARA-PASTORAL-DAIRY-001`, `EVID-CIV-MICE-AINMALLAHA-001` | `INV-NEOLITHIC-001` |
+| `CLAIM-MAIZE-PROTRACTED-DISPERSAL-001` | El maíz circuló hacia Sudamérica antes de que todos sus rasgos posteriores estuvieran fijados y continuó bajo selección/mezcla regional. | B-COND | AUDITADO | `EVID-MESOAMERICA-MAIZE-SQUASH-001`, `EVID-MAIZE-ANCIENT-GENOMES-001` | `INV-NEOLITHIC-001` |
+| `CLAIM-AMAZON-ANDES-MULTIPLE-PATHS-001` | Nanchoc y Moxos documentan horticultura, cultivos y manejo de paisaje escalonados sin un centro panamericano único. | B-COND | AUDITADO | `EVID-ANDES-AMAZON-CULTIVATION-001` | `INV-NEOLITHIC-001` |
+| `CLAIM-FARMER-DISPERSAL-NOT-CULTURE-001` | Movimiento de personas, especies y técnicas puede coincidir o desacoplarse; ancestría no identifica cultura, lengua u oficio agrícola. | A-SEM/B | AUDITADO | `EVID-FARMER-HUMAN-PALEOGENOMES-001` | `INV-NEOLITHIC-001` |
+| `CLAIM-NEOLITHIC-CAUSES-MULTIMODEL-001` | Clima, demografía, nicho, riesgo, trabajo, almacenamiento, propiedad, redes y elección son modelos parciales con predicciones, no necesidades monocausales. | B-SÍNTESIS | AUDITADO | `EVID-NEOLITHIC-CAUSES-001` | `INV-NEOLITHIC-001` |
+| `CLAIM-NEOLITHIC-CONSEQUENCES-VARIABLE-001` | Dieta, salud, patógenos, trabajo, desigualdad, paisaje y población varían por región/fase/grupo; no producen un saldo universal de progreso. | B-COND | AUDITADO | `EVID-NEOLITHIC-CONSEQUENCES-001` | `INV-NEOLITHIC-001` |
+| `CLAIM-DOMESTICATION-COEVOLUTION-AGENCY-001` | Domesticación fue una relación coevolutiva multigeneracional; su documentación debe reconocer procedencia y conocimiento indígena/local sin usar comunidades actuales como proxies atemporales. | A-SEM/B | AUDITADO | `EVID-NEOLITHIC-METHOD-001`, `EVID-ANDES-AMAZON-CULTIVATION-001` | `INV-NEOLITHIC-001` |
+
+## Investigación 050 — Agriculturas y domesticaciones múltiples
+
+- **Unidades:** rasgo, población domesticada y dependencia económica se auditan por separado.
+- **Regiones:** Asia sudoccidental, China, Nueva Guinea, África, Mesoamérica, Andes y Amazonia no se fuerzan a un mismo paquete o reloj.
+- **Movimientos:** personas, especies y técnicas pueden viajar juntas o desacopladas; ancestría no es cultura.
+- **Causas:** cada modelo declara variable, mecanismo, escala y falsador; Holoceno/Younger Dryas no son interruptores globales.
+- **Consecuencias:** salud, trabajo, desigualdad y patógenos se distribuyen por fase y grupo, no miden «progreso».
+- **Agencia:** coevolución y conocimiento situado sustituyen una metáfora unilateral de dominación.
+
 ## Claims futuros
 
 Las entradas cronológicas todavía no auditadas permanecen como eventos `SEMILLA` en `TIMELINE.md`. Se convertirán en claims al llegar su turno en el roadmap; así se evita otorgar apariencia de auditoría a fechas usadas inicialmente solo como orientación.

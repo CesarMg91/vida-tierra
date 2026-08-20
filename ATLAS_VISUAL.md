@@ -694,3 +694,17 @@ Tres paneles evitan comprimir `0.54 Ma–35 ka` en una falsa marcha. Los símbol
 ## Procedencia
 
 El registro de creación, límites y prompt de cada pieza está en [`assets/visuales/README.md`](assets/visuales/README.md).
+
+## 51. Investigación 050 — Agriculturas y domesticaciones múltiples
+
+![Portada editorial de archivos de producción de alimentos separados](assets/visuales/hero-agriculturas-domesticaciones.png)
+
+> **Portada editorial:** semillas/raquis, microrestos, dientes/huesos, sedimentos y módulos de variación son genéricos, no coetáneos y no están asignados a especie o región. La composición no muestra un centro, paquete, ruta, causa o progreso.
+
+![Mapa epistemológico de cinco cadenas de archivo](assets/visuales/mapa-investigacion-050.svg)
+
+El mapa separa restos vegetales, fauna, infraestructura, genomas de especies y genomas humanos. Las líneas continuas llegan a resultados observables; las condicionadas detienen el salto de rasgo a población/economía y de ancestría a cultura.
+
+![Cronología de domesticaciones y relojes regionales](assets/visuales/cronologia-domesticaciones-multiples.svg)
+
+Los carriles regionales distinguen fecha de objeto/capa, ventana de rasgo y resultado genómico/modelado. La disposición no propone un centro ni una difusión ganadora; ausencia de marca no equivale a ausencia de manejo.

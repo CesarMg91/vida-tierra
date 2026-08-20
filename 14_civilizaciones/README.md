@@ -13,4 +13,8 @@ Esta rama compara procesos históricos sin convertir «civilización» en grado 
 
 - [`INV-CIV-ORIGINS-001`](INVESTIGACION_CIV_001_ORIGENES_ALDEAS_CIUDADES_ESTADOS.md) — de residencias y cultivos a ciudades y Estados, sin escalera universal — **TRAZADO**.
 
-`TRAZADO` significa que claims, evidencia, fuentes, alternativas y falsadores están registrados, pero todavía no han pasado la auditoría completa exigida para `AUDITADO`. Esta línea temática usa el subíndice `CIV` y no completa ni sustituye las investigaciones globales `037–051` del [`ROADMAP.md`](../ROADMAP.md).
+## Investigación auditada
+
+- [`INV-NEOLITHIC-001`](INVESTIGACION_050_AGRICULTURAS_DOMESTICACIONES_MULTIPLES.md) — agriculturas y domesticaciones múltiples: rasgo, población, economía, causas y consecuencias bajo relojes regionales — **AUDITADO**.
+
+`TRAZADO` significa que claims, evidencia, fuentes, alternativas y falsadores están registrados, pero todavía no han pasado la auditoría completa exigida para `AUDITADO`. La línea temática usa el subíndice `CIV` y no sustituyó las investigaciones globales; la 050 audita específicamente producción de alimentos sin anticipar ciudades/Estados de la 051.

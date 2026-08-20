@@ -3762,3 +3762,57 @@ Oscuridad, costo y geometría muestran organización, pero «sin función conoci
 Una convención material puede restringir comunicación, no sintaxis o lengua concreta. Su existencia pleistocena tampoco causa automáticamente domesticación o aldeas.
 
 **Corrección:** enlazar sólo mecanismos observables: aprendizaje/transmisión para 048; subsistencia, almacenamiento y demografía para 050.
+
+## Errores auditados de la Investigación 050
+
+| ID | Formulación errónea | Por qué falla | Corrección operativa |
+|---|---|---|---|
+| `ERR-NEOLITHIC-REVOLUTION-PACKAGE-001` | cultivo, domesticación, aldea, cerámica y jerarquía aparecieron juntos | variables y relojes difieren por región | registrar cada variable y su escala |
+| `ERR-DOMESTICATION-SINGLE-TRAIT-001` | un raquis/fitolito/tamaño prueba una especie y economía domesticadas | rasgo, población y dependencia no son equivalentes | exigir serie, frecuencia y archivo económico |
+| `ERR-CROP-GENOME-ORIGIN-001` | un genoma actual localiza y fecha el origen | coalescencia, flujo y pérdidas no fechan cultivo | integrar genomas antiguos y arqueología contextual |
+| `ERR-NEOLITHIC-CLIMATE-SWITCH-001` | Younger Dryas/Holoceno causó globalmente agricultura | sincronía y respuesta varían; clima no es suficiencia | formular mecanismo/predicción regional y casos negativos |
+| `ERR-ANCESTRY-CULTURE-001` | ancestría «agricultora» demuestra oficio, lengua o cultura | ADN humano mide genealogía, no práctica | separar movimiento de personas, especies y técnicas |
+| `ERR-AGRICULTURE-PROGRESS-001` | agricultura mejoró inevitablemente salud y sociedad | resultados se distribuyen y pueden tener signos contrarios | medir resultado, fase, grupo y comparador |
+| `ERR-DOMESTICATION-DOMINATION-001` | humanos planearon y dominaron pasivamente plantas/animales | selección, conducta y nicho coevolucionaron durante generaciones | explicitar escalas de agencia, manejo y conocimiento local |
+
+## ERR-NEOLITHIC-REVOLUTION-PACKAGE-001 — Convertir coincidencia en paquete
+
+Que una capa contenga arquitectura, cerámica y restos de cultivo no demuestra que comenzaron juntos ni que una variable causó las demás. Entre regiones, «Neolítico» puede definir conjuntos diferentes.
+
+**Corrección:** tabla por fase con actividad, rasgo, población, dieta, residencia y almacenamiento; no importar fechas entre columnas.
+
+## ERR-DOMESTICATION-SINGLE-TRAIT-001 — Del rasgo a la economía
+
+Una base no quebradiza o un fitolito compatible puede señalar selección. No cuenta la frecuencia regional, la reproducción de la población ni su peso en el sustento.
+
+**Corrección:** declarar el peldaño observado, comparadores, tasa de error y qué archivo adicional exige el siguiente.
+
+## ERR-CROP-GENOME-ORIGIN-001 — Coalescencia como campo fechado
+
+Un haplotipo puede ser más antiguo que el cultivo y moverse por flujo génico. La diversidad actual excluye linajes extintos y refleja bancos/selección reciente.
+
+**Corrección:** llamar genealogía/modelo al resultado y anclar cultivo con organismos antiguos de procedencia y fecha controladas.
+
+## ERR-NEOLITHIC-CLIMATE-SWITCH-001 — El clima como botón mundial
+
+El Younger Dryas no afectó todas las regiones igual ni coincide con todos los procesos. Incluso donde precede un cambio, necesita un mecanismo que compita con demografía, nicho, redes y elección.
+
+**Corrección:** predecir dirección, desfase y escala; registrar casos donde la transición no ocurrió pese al forzamiento.
+
+## ERR-ANCESTRY-CULTURE-001 — Genetizar la práctica
+
+«Farmer ancestry» es abreviatura de afinidad con individuos arqueológicos asociados a contextos agrícolas. No afirma que cada descendiente sembrara o compartiera lengua, identidad y tecnología.
+
+**Corrección:** describir afinidad/mezcla, luego auditar subsistencia y materiales en el mismo contexto sin transferir la etiqueta.
+
+## ERR-AGRICULTURE-PROGRESS-001 — Una escala moral como medición
+
+Mayor población, ciudades posteriores o productividad no miden bienestar individual. Tampoco lesiones o caries de un sitio prueban deterioro universal.
+
+**Corrección:** desagregar salud, dieta, trabajo, riesgo, desigualdad y población por fase y grupo; evitar un saldo único.
+
+## ERR-DOMESTICATION-DOMINATION-001 — Borrar coevolución y custodias
+
+La metáfora de conquista supone plan único y omite comportamiento animal, biología vegetal, paisajes y generaciones de conocimiento situado.
+
+**Corrección:** identificar agente y escala causal; registrar procedencia, manejo indígena/local y gobernanza sin proyectar prácticas actuales intactas al pasado.
