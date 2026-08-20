@@ -4071,3 +4071,31 @@ Las entradas cronológicas todavía no auditadas permanecen como eventos `SEMILL
 - **Causalidad:** cada modelo declara mecanismo, escala, alternativa y falsador.
 - **Transformación:** «colapso» se traduce a cambios medibles y continuidades posibles.
 - **Reconciliación:** CIV-001 sigue `TRAZADO`; sólo se reutilizan proposiciones idénticas.
+
+## Registro tabular de la Investigación 052
+
+| ID | Afirmación delimitada | Confianza | Estado | Evidencias principales | Investigación |
+|---|---|---|---|---|---|
+| `CLAIM-CIVILIZATIONS-DIMENSIONS-001` | Producción/paisaje, urbanismo, administración, escritura/notación/oralidad, desigualdad, autoridad, imperio, infraestructura, redes, ecología y transformación son dimensiones independientes; no se suman como «civilización». | A-SEM/B-SÍNTESIS | AUDITADO | `EVID-CIVILIZATIONS-METHOD-052-001` | `INV-CIVILIZATIONS-001` |
+| `CLAIM-CIVILIZATIONS-CLOCKS-001` | Edad de muestra, rasgo, fase, sitio, región, institución, corpus e historia biológica son relojes distintos y no se promedian para fechar una entidad política. | A-SEM/B | AUDITADO | `EVID-CIVILIZATIONS-METHOD-052-001`, `EVID-CIVILIZATIONS-EGYPT-052-001`, `EVID-CIVILIZATIONS-CHINA-052-001` | `INV-CIVILIZATIONS-001` |
+| `CLAIM-CIVILIZATIONS-COMPARISON-NONRANKING-001` | La comparación válida contrasta dimensiones, mecanismos y casos negativos; una prioridad cronológica o suma de rasgos no produce ranking de sociedades. | A-SEM/B-SÍNTESIS | AUDITADO | `EVID-CIVILIZATIONS-METHOD-052-001`, `EVID-CIVILIZATIONS-CONTROLS-052-001` | `INV-CIVILIZATIONS-001` |
+| `CLAIM-CIVILIZATIONS-MESOPOTAMIA-PLURAL-001` | Tell Brak, Uruk, Shakhi Kora y las series regionales documentan trayectorias conectadas de urbanización, centralización, dispersión y reorganización, no difusión irreversible desde una sola cuna. | B-COND | AUDITADO | `EVID-CIVILIZATIONS-MESOPOTAMIA-052-001`, `EVID-MESOPOTAMIA-URBAN-PATHS-051-001` | `INV-CIVILIZATIONS-001` |
+| `CLAIM-CIVILIZATIONS-EGYPT-CLOCKS-001` | La cronología bayesiana restringe el tempo de Egipto temprano, pero no observa soberanía, frontera o «unificación» como un instante. | B-COND | AUDITADO | `EVID-CIVILIZATIONS-EGYPT-052-001`, `EVID-EGYPT-CHRONOLOGY-051-001` | `INV-CIVILIZATIONS-001` |
+| `CLAIM-CIVILIZATIONS-INDUS-UNDECIPHERED-001` | El corpus del Indo exhibe orden y regularidades, pero continúa sin lengua, lectura o glotografía demostradas; estructura estadística no es desciframiento. | B estructura; D lengua/lectura | AUDITADO | `EVID-CIVILIZATIONS-INDUS-052-001`, `EVID-CIVILIZATIONS-WRITING-052-001` | `INV-CIVILIZATIONS-001` |
+| `CLAIM-CIVILIZATIONS-CHINA-NAME-LIMIT-001` | Centralidad y rasgos de Erlitou no demuestran por sí solos la identificación con Xia; los huesos oraculares fechan un archivo Shang tardío, no el origen de escritura o autoridad chinas. | B archivo; C-D correspondencia | AUDITADO | `EVID-CIVILIZATIONS-CHINA-052-001` | `INV-CIVILIZATIONS-001` |
+| `CLAIM-CIVILIZATIONS-MESOAMERICA-FORMS-001` | Aguada Fénix, Teotihuacan y paisajes maya separan coordinación monumental, ciudad, conectividad y forma de gobierno; no constituyen un paquete mesoamericano único. | B-COND | AUDITADO | `EVID-CIVILIZATIONS-MESOAMERICA-052-001`, `EVID-MESOAMERICA-SETTLEMENT-051-001` | `INV-CIVILIZATIONS-001` |
+| `CLAIM-CIVILIZATIONS-ANDES-ORALITY-001` | Monumentalidad temprana y administración mediante khipus muestran que Estado/imperio, memoria y registro no requieren escritura glotográfica; cada soporte conserva límites propios. | B-COND | AUDITADO | `EVID-CIVILIZATIONS-ANDES-052-001`, `EVID-ANDES-AMAZON-URBANISM-051-001` | `INV-CIVILIZATIONS-001` |
+| `CLAIM-CIVILIZATIONS-CONTROLS-001` | Jenne-jeno, Great Zimbabwe y la Alta Amazonia falsan escritura, palacio, compacidad pétrea o relevo lineal como requisitos universales de urbanismo o instituciones complejas. | B-COND | AUDITADO | `EVID-CIVILIZATIONS-CONTROLS-052-001`, `EVID-AFRICA-URBAN-POLYCENTRIC-051-001` | `INV-CIVILIZATIONS-001` |
+| `CLAIM-CIVILIZATIONS-NETWORKS-ALTERNATIVES-001` | Similitud, material exótico o técnica compartida son compatibles con intercambio, movilidad, imitación, tributo, saqueo o convergencia; difusión necesita dirección, agentes y reloj. | A-SEM/B | AUDITADO | `EVID-CIVILIZATIONS-NETWORKS-052-001`, `EVID-STANDARDIZATION-051-001` | `INV-CIVILIZATIONS-001` |
+| `CLAIM-CIVILIZATIONS-CAUSES-RECIPROCAL-001` | Clima, ríos, irrigación, demografía, guerra, comercio, tributación, información, ritual y agencia son mecanismos parciales y recíprocos con casos negativos; ninguno explica globalmente una «civilización». | B-SÍNTESIS | AUDITADO | `EVID-CIVILIZATIONS-CAUSES-052-001`, `EVID-STATE-MODELS-051-001` | `INV-CIVILIZATIONS-001` |
+| `CLAIM-CIVILIZATIONS-RECONCILIATION-001` | La 052 compara dimensiones sin duplicar 050/051, no promueve ni sustituye `INV-CIV-ORIGINS-001`, y cierra la secuencia global `001–052` sin declarar otro pendiente. | A-SEM | AUDITADO | `EVID-CIVILIZATIONS-METHOD-052-001` | `INV-CIVILIZATIONS-001` |
+
+## Investigación 052 — Comparación arqueológica de primeras civilizaciones
+
+- **Categoría:** «civilización» es etiqueta historiográfica/navegacional, no esencia ni variable.
+- **Matriz:** once dimensiones con archivos, relojes y límites independientes; no hay suma ni ranking.
+- **Regiones:** Mesopotamia, Nilo, Indo, China, Mesoamérica y Andes conservan asimetrías; África y Amazonia funcionan como controles.
+- **Escrituras:** soporte, sistema, lengua, género, usuarios y oralidad no se ordenan cognitivamente.
+- **Política:** ciudad, Estado e imperio permanecen ejes paralelos.
+- **Causalidad:** redes, ambiente e instituciones tienen alternativas, reciprocidad y falsadores.
+- **Reconciliación:** 050/051 se usan como dependencias; CIV-001 sigue `TRAZADO`; `001–052` queda completo.

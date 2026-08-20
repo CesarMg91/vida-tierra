@@ -3005,3 +3005,54 @@ Jenne-jeno, Great Zimbabwe y otros paisajes africanos fueron interpretados duran
 Abandono de un centro puede coexistir con crecimiento periférico; pérdida de escritura con continuidad poblacional; fragmentación política con persistencia técnica. Un proxy climático no decide cuál de esas unidades cambió.
 
 **Prueba discriminatoria:** serie antes/durante/después que separe población, asentamiento, institución, red y práctica; mecanismo causal con desfase y casos regionales negativos.
+
+## Controversias de la Investigación 052
+
+| ID | Pregunta | Hipótesis en competencia | Prueba que discrimina | Estado |
+|---|---|---|---|---|
+| `CONT-CIVILIZATION-CATEGORY-001` | ¿Debe conservarse «civilización» como categoría comparativa? | abandonarla; usarla como navegación crítica; redefinirla como tipo | declarar dimensiones y probar si el término añade predicción sin jerarquía | ABIERTA CON USO RESTRINGIDO |
+| `CONT-COMPARATIVE-DIMENSIONS-001` | ¿Qué dimensiones son comparables entre regiones? | variables universales; categorías regionales; traducción controlada | invariancia/sensibilidad de resultados y auditoría de categorías locales | ABIERTA |
+| `CONT-URUK-INTERACTION-052-001` | ¿Cómo se relacionaron norte/sur y comunidades de la «expansión Uruk»? | colonia; comercio; adopción; instituciones híbridas; rechazo/dispersión | procedencia, hogares, cronología y respuestas locales por subregión | ABIERTA POR SITIO |
+| `CONT-INDUS-SCRIPT-052-001` | ¿El sistema de signos del Indo codifica lengua? | escritura glotográfica; notación no lingüística; sistema mixto | bilingüe/corpus ampliado, lectura reproducible y predicciones externas | ABIERTA |
+| `CONT-ERLITOU-XIA-052-001` | ¿Qué relación existe entre Erlitou y Xia? | capital dinástica; entidad regional; varias polidades; nombre posterior | archivo contemporáneo independiente de textos retrospectivos y jurisdicción regional | ABIERTA |
+| `CONT-MOHENJO-INEQUALITY-052-001` | ¿Descendió la desigualdad en Mohenjo-daro y por qué? | cambio real; sesgo de fases/planos; gobernanza colectiva; composición doméstica | planos/fases completos, proxies no residenciales y modelo institucional independiente | ABIERTA |
+| `CONT-WRITING-ORALITY-052-001` | ¿Cómo comparar escritura, notación, khipu y oralidad? | continuum; sistemas funcionalmente distintos; sesgo de preservación | corpus/contextos, usuarios y transmisión sin ordenar capacidad cognitiva | ABIERTA |
+| `CONT-CIVILIZATIONS-CAUSES-052-001` | ¿Qué mecanismos explican agregación e instituciones? | clima; hidráulica; guerra; redes; tributación; ritual; agencia; reciprocidad | precedencia, mecanismo y casos negativos con variables preregistradas | ABIERTA POR REGIÓN |
+| `CONT-CIVILIZATIONS-TRANSFORM-052-001` | ¿Qué cambia en episodios llamados colapso? | población; ciudad; institución; red; práctica; archivo | series multiescala antes/durante/después y demografía independiente | ABIERTA POR CASO |
+| `CONT-CIVILIZATIONS-DECOLONIAL-052-001` | ¿Quién define y gobierna la comparación? | autoridad académica central; colaboración; gobernanza indígena/local | acuerdos, permisos, categorías, acceso, autoría y devolución auditables | ABIERTA/SITUADA |
+
+## CONT-CIVILIZATION-CATEGORY-001 — Utilidad sin esencia
+
+Eliminar el término evita parte de su carga, pero no elimina clasificaciones implícitas. Mantenerlo puede facilitar navegación y a la vez reactivar ranking.
+
+**Prueba discriminatoria:** una comparación debe poder expresarse por dimensiones sin perder predicción; si «civilización» añade una conclusión no derivada, esa adición debe justificarse o retirarse.
+
+## CONT-INDUS-SCRIPT-052-001 — Orden sin lectura
+
+Modelos de secuencia detectan estructura, pero sistemas no lingüísticos también pueden estar ordenados. Sin bilingüe, textos largos o lengua conocida, una lectura puede acomodarse retrospectivamente.
+
+**Prueba discriminatoria:** valores que lean un conjunto reservado, expliquen variantes/contextos y produzcan predicciones arqueológicas independientes mejor que alternativas.
+
+## CONT-ERLITOU-XIA-052-001 — Formación arqueológica y nombre histórico
+
+La centralidad de Erlitou está apoyada; la correspondencia dinástica añade textos y cronologías posteriores. Identificar ambos por necesidad vuelve circular el argumento.
+
+**Prueba discriminatoria:** inscripciones contemporáneas seguras o una cadena regional de jurisdicción y sucesión que no dependa del nombre que intenta probar.
+
+## CONT-MOHENJO-INEQUALITY-052-001 — Proxy y fase
+
+El Gini residencial 2026 es reproducible bajo su partición, pero planos tempranos mezclan fases y el área de casa mide una dimensión. Gobernanza colectiva puede explicar el patrón sin estar observada directamente.
+
+**Prueba discriminatoria:** reconstrucción fase por fase, cobertura más representativa, dieta/salud/bienes/acceso y registros de decisiones o bienes públicos.
+
+## CONT-WRITING-ORALITY-052-001 — Archivo conservado y capacidad
+
+Tablillas, huesos y cuerdas tienen propiedades distintas; ausencia de un soporte durable puede reflejar preservación. Clasificarlos por cercanía al alfabeto introduce una jerarquía no medida.
+
+**Prueba discriminatoria:** describir operación, contenido, usuarios y transmisión por sistema, y comparar funciones sin postular déficit cognitivo.
+
+## CONT-CIVILIZATIONS-DECOLONIAL-052-001 — Método y autoridad
+
+Incluir autorías regionales no basta si preguntas, muestras y repositorios continúan fuera de control local. Tampoco existe una única perspectiva comunitaria.
+
+**Prueba discriminatoria:** trazabilidad de acuerdos, decisión sobre muestras/datos, beneficios, coautoría, acceso multilingüe y vías de desacuerdo/retiro.

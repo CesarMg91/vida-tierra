@@ -423,9 +423,14 @@ Estas ventanas alinean archivos regionales; no son etapas, no presuponen difusi�
 | `TIME-UPPER-AMAZON-URBANISM-051-001` | ocupaciones durante ~dos milenios; series desde ~500 a. C. | urbanismo-jardín de plataformas, caminos, drenajes y campos | campo/lidar; coetaneidad y forma política abiertas | `SRC-ROSTAIN-AMAZON-2024` | B-COND | AUDITADO |
 | `TIME-GREAT-ZIMBABWE-051-001` | ocupación `~1000–1800 d. C.`; muros desde XII–XIII | secuencia construida y población simultánea modelada | contextos dañados; sectores no coetáneos y población probablemente <`10,000` | `SRC-CHIRIKURE-GZ-CHRONOLOGY-2013`, `SRC-CHIRIKURE-GZ-POP-2017` | B-COND | AUDITADO |
 | `TIME-STATE-COMPARATIVE-2026-001` | estudio publicado 2025; volumen 2026 | asociaciones modeladas entre grano, tributo, escritura y Estado | `868` culturas; no fecha un Estado ni establece ley causal | `SRC-OPIE-ATKINSON-2025` | B-MOD | AUDITADO |
+| `TIME-SHAKHI-KORA-052-001` | IV milenio a. C.; abandono institucional posterior a una fecha `~3631–3377 cal a. C.` | secuencia de hogares institucionales, materiales locales/Uruk y dispersión | intervalo/cultura material; «rechazo» es inferencia y no fecha una decisión | `SRC-GLATZ-SHAKHI-KORA-2024` | B-COND | AUDITADO |
+| `TIME-INDUS-URBAN-052-001` | fase urbana madura `~2600–1900 a. C.`; transformaciones posteriores | ciudades, paisaje fluvial y redistribución de asentamientos | límites/fases de prospección; no entidad política única | `SRC-GIOSAN-HARAPPAN-2012`, `SRC-GREEN-PETRIE-2018` | B-COND | AUDITADO |
+| `TIME-ERLITOU-YINXU-052-001` | Erlitou: segundo milenio a. C.; Yinxu/archivo oracular `~1254–1041 a. C.` bajo modelo | dos ventanas arqueológicas/textuales no intercambiables | Erlitou≠Xia automático; hueso fecha Shang tardío, no origen de escritura | `SRC-LIU-YILUO-2004`, `SRC-ZHAO-ERLITOU-2021`, `SRC-LIU-ORACLE-BONES-2021` | B-COND; C-D nombre | AUDITADO |
+| `TIME-MOHENJO-INEQUALITY-052-001` | ciudad `~2600–1900 a. C.`; reanálisis publicado 2026 | Gini residencial `0.44` y descenso por agrupación temporal modelada | planos/fases legados y casa como proxy; gobierno no observado | `SRC-GREEN-MOHENJO-2026` | B-COND | AUDITADO |
+| `TIME-KHABUR-RESILIENCE-052-001` | serie `~3000–600 a. C.`; análisis publicado 2026 | crecimiento, conservación, liberación y reorganización en seis periodos | marco de resiliencia y bases armonizadas; no intención social directa | `SRC-PRISS-KHABUR-2026` | B-COND | AUDITADO |
 
 ## Próxima acción cronológica
 
-Las investigaciones extensas auditadas llegan de `INV-EARTH-AGE-001` a `INV-CITIES-STATES-001`. La Investigación 052 permanece pendiente y no se inicia sin revisión, fusión y asignación formal posteriores.
+Las investigaciones extensas auditadas llegan de `INV-EARTH-AGE-001` a `INV-CIVILIZATIONS-001`: la secuencia global `001–052` está completa. No se declara otra investigación global pendiente; cualquier trabajo futuro debe registrarse como expansión regional, metódica o temática explícita.
 
-La línea temática `INV-CIV-ORIGINS-001` permanece separada en estado `TRAZADO`; la 051 reutiliza sólo proposiciones/evidencias idénticas y no cambia ese estado.
+La línea temática `INV-CIV-ORIGINS-001` permanece separada en estado `TRAZADO`; la 052 reutiliza sólo proposiciones/evidencias idénticas de 050/051/CIV-001 y no cambia sus estados.

@@ -1258,3 +1258,45 @@ genoma → parentesco/afinidad → etnia/lengua/ciudadanía/Estado: no
 Los modelos de demografía, circunscripción, irrigación, guerra, comercio, ritual, información, ecología y agencia conservan predicciones, casos negativos y causalidad inversa. «Colapso» se desagrega en población, asentamiento, institución, red y práctica. CIV-001 permanece `TRAZADO`; la 051 sólo reutiliza IDs cuando la proposición/evidencia es idéntica.
 
 Véase `INV-CITIES-STATES-001` en `14_civilizaciones`, su mapa en `assets/visuales/mapa-investigacion-051.svg` y la cronología regional en `assets/visuales/cronologia-ciudades-estados-multirreloj.svg`.
+
+### Investigación 052 — Comparación arqueológica de primeras civilizaciones
+
+```text
+producción/paisaje ─────────┐
+residencia/urbanismo ───────┤
+administración ─────────────┤
+escritura/notación/oralidad ┤
+desigualdad ────────────────┤
+autoridad/Estado/imperio ───┼──> comparación por dimensión + reloj + límite
+infraestructura ────────────┤                 │
+redes/intercambio ──────────┤                 └─> nunca suma, ranking o esencia
+ecología/riesgo ────────────┤
+transformación/persistencia ┘
+```
+
+Mesopotamia conserva norte, sur, interacción y reversión: Tell Brak y Uruk no forman una única flecha; Shakhi Kora documenta hogares institucionales y dispersión; el Khabur descompone reorganización. Egipto muestra que un reloj bayesiano preciso no observa soberanía.
+
+```text
+Indo: paisaje B-COND + signos estructurados B + Gini residencial B-COND
+      → lengua, forma política y clase total permanecen abiertas
+China: Yiluo/Erlitou → centralidad B-COND; Xia C-D
+       huesos Yinxu → archivo Shang tardío B-COND; origen de escritura: no
+```
+
+Aguada Fénix, Teotihuacan y lidar maya separan monumento, ciudad, red y gobierno. Norte Chico separa cronología monumental de Estado; khipus prueban contabilidad en expedientes sin déficit cognitivo. Jenne-jeno, Great Zimbabwe y Alta Amazonia funcionan como casos negativos de escritura, palacio, compacidad o relevo lineal obligatorios.
+
+```text
+objeto semejante/exótico
+  ├─ intercambio
+  ├─ movilidad
+  ├─ imitación
+  ├─ tributo/saqueo
+  └─ convergencia
+
+fecha de objeto ≠ fase ≠ institución ≠ entidad política
+ADN/isótopo ≠ etnia/lengua/ciudadanía/clase/civilización
+```
+
+«Colapso» vuelve a su matriz de población, ciudad, institución, red, práctica y archivo. La 052 depende de 050/051 sin duplicarlas; `INV-CIV-ORIGINS-001` sigue `TRAZADO`. La secuencia global `001–052` queda completa y cualquier trabajo posterior se declara expansión.
+
+Véase `INV-CIVILIZATIONS-001` en `14_civilizaciones`, su matriz en `assets/visuales/matriz-comparacion-civilizaciones.svg` y la cronología por paneles en `assets/visuales/cronologia-civilizaciones-paneles.svg`.
