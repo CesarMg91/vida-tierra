@@ -31,8 +31,8 @@ Una investigación pasa de `EN_DESARROLLO` a `AUDITADO` cuando:
 
 | Orden | ID | Pregunta | Productos mínimos |
 |---:|---|---|---|
-| 001 | `INV-EARTH-AGE-001` | ¿Cómo sabemos la edad de la Tierra y reconstruimos sus primeros cientos de Ma? | U–Pb/Pb–Pb, CAIs, meteoritos, Hf–W, Luna, zircones, adversarios |
-| 002 | `INV-COSMOS-AGE-001` | ¿Cómo sabemos que el universo tiene una historia y una edad finita? | expansión, CMB, BBN, SN Ia, BAO, edades estelares, tensiones y límites |
+| 001 | `INV-EARTH-AGE-001` | [¿Cómo sabemos la edad de la Tierra y reconstruimos sus primeros cientos de Ma?](02_formacion_tierra/INVESTIGACION_001_EDAD_TIERRA.md) | U–Pb/Pb–Pb, CAIs, meteoritos, Hf–W, Luna, zircones, adversarios — **AUDITADO** |
+| 002 | `INV-COSMOS-AGE-001` | [¿Cómo sabemos que el universo tiene una historia y una edad finita?](01_cosmos/INVESTIGACION_002_EDAD_E_HISTORIA_DEL_UNIVERSO.md) | expansión, CMB, BBN, SN Ia, BAO, edades estelares, tensiones y límites — **AUDITADO** |
 | 003 | `INV-COSMOS-ELEMENTS-001` | [¿Cómo sabemos dónde y cómo se formaron los elementos?](01_cosmos/INVESTIGACION_003_ORIGEN_ELEMENTOS.md) | espectros, neutrinos, BBN, Tc, supernovas, kilonovas, rayos cósmicos y meteoritos — **AUDITADO** |
 | 004 | `INV-COSMOS-STARS-001` | [¿Cómo inferimos nacimiento, evolución y muerte de estrellas?](01_cosmos/INVESTIGACION_004_EVOLUCION_ESTELAR.md) | paralaje, binarias, cúmulos, sismología, formación, neutrinos y remanentes — **AUDITADO** |
 | 005 | `INV-SOLAR-FORMATION-001` | [¿Cómo inferimos una nebulosa y disco protoplanetario?](01_cosmos/INVESTIGACION_005_FORMACION_SISTEMA_SOLAR.md) | dos archivos, CAIs/cóndrulos, `26Al`, CC/NC, Wild 2, magnetismo y planetesimales — **AUDITADO** |
