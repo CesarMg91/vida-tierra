@@ -722,3 +722,17 @@ Las filas mantienen separados asentamiento/teledetección, hogares, producción,
 ![Cronología multirreloj y regional](assets/visuales/cronologia-ciudades-estados-multirreloj.svg)
 
 Los carriles muestran ventanas de Mesopotamia, Nilo/Indo/China, Mesoamérica/Andes/Amazonia y África. No son una línea ascendente, no miden «avance» y su alineación no representa difusión, sincronía o causalidad.
+
+## 53. Investigación 052 — Comparación arqueológica de primeras civilizaciones
+
+![Portada editorial de seis archivos comparativos separados](assets/visuales/hero-comparacion-civilizaciones.png)
+
+> **Portada editorial:** seis bandejas contemporáneas separan fragmentos genéricos de asentamiento/sedimento, módulo doméstico, administración sin signos, infraestructura, intercambio/material y archivo ambiental. No son coetáneos, georreferenciados ni atribuibles a región; la composición no representa centro, secuencia, Estado, difusión o grado de «civilización».
+
+![Matriz de dimensiones, archivos y resultados no heredados](assets/visuales/matriz-comparacion-civilizaciones.svg)
+
+La matriz cruza dimensiones con archivo, medición, resultado permitido y salto no heredado. Ninguna fila suma puntos y ninguna columna forma una cronología o jerarquía.
+
+![Cronología por paneles y relojes regionales](assets/visuales/cronologia-civilizaciones-paneles.svg)
+
+Seis paneles regionales distinguen ventanas de muestra/capa, fase, sistema de registro e institución. Cada panel conserva su propio reloj; la posición vertical/horizontal no identifica prioridad, influencia, progreso o ganador.

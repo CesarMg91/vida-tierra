@@ -1,0 +1,120 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Cronología por paneles regionales y relojes independientes de la Investigación 052</title>
+  <desc id="desc">Seis paneles regionales separan fechas de muestras, fases arqueológicas, sistemas de registro e instituciones. No comparten un eje de progreso ni indican prioridad, difusión o ganador.</desc>
+  <defs>
+    <linearGradient id="bg2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#101a23"/>
+      <stop offset="1" stop-color="#182f38"/>
+    </linearGradient>
+    <style>
+      .title{font:700 39px Inter,Segoe UI,sans-serif;fill:#f4efe4}
+      .subtitle{font:400 19px Inter,Segoe UI,sans-serif;fill:#b9cbd0}
+      .ptitle{font:700 22px Inter,Segoe UI,sans-serif;fill:#f6ead6}
+      .clock{font:700 14px Inter,Segoe UI,sans-serif;fill:#102128;letter-spacing:.5px}
+      .body{font:400 16px Inter,Segoe UI,sans-serif;fill:#dce7e7}
+      .limit{font:600 15px Inter,Segoe UI,sans-serif;fill:#ffd7c5}
+      .foot{font:400 16px Inter,Segoe UI,sans-serif;fill:#c0d1d4}
+      .panel{fill:#17343d;stroke:#55747a;stroke-width:1.5}
+      .lane{stroke:#5e8187;stroke-width:4;stroke-linecap:round}
+      .tick{stroke:#d6a85e;stroke-width:3}
+    </style>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg2)"/>
+  <rect x="38" y="30" width="1524" height="830" rx="24" fill="none" stroke="#476a70" stroke-width="2"/>
+  <text class="title" x="70" y="80">Seis paneles, varios relojes: ninguna línea de avance</text>
+  <text class="subtitle" x="70" y="114">Fechas de muestra/capa, fase, sistema e institución permanecen separadas dentro de cada región</text>
+
+  <!-- Panel 1 -->
+  <g transform="translate(60,145)">
+    <rect class="panel" width="475" height="285" rx="18"/>
+    <text class="ptitle" x="22" y="37">Mesopotamia: norte · sur · interacción</text>
+    <rect x="22" y="53" width="105" height="22" rx="11" fill="#d6a85e"/><text class="clock" x="74" y="69" text-anchor="middle">FASE / RED</text>
+    <line class="lane" x1="48" y1="100" x2="430" y2="100"/>
+    <line class="tick" x1="115" y1="90" x2="115" y2="110"/><line class="tick" x1="244" y1="90" x2="244" y2="110"/><line class="tick" x1="365" y1="90" x2="365" y2="110"/>
+    <text class="body" x="49" y="132">Tell Brak / rutas norteñas</text>
+    <text class="body" x="49" y="155">Uruk / corpus y paisaje sur</text>
+    <text class="body" x="49" y="178">Shakhi Kora / dispersión</text>
+    <text class="body" x="49" y="201">Khabur / reorganización en 6 periodos</text>
+    <rect x="22" y="224" width="431" height="42" rx="9" fill="#2c4650"/>
+    <text class="limit" x="238" y="250" text-anchor="middle">No: cuna única · colonia automática · centralización irreversible</text>
+  </g>
+
+  <!-- Panel 2 -->
+  <g transform="translate(562,145)">
+    <rect class="panel" width="475" height="285" rx="18"/>
+    <text class="ptitle" x="22" y="37">Nilo / Egipto: muestra ≠ soberanía</text>
+    <rect x="22" y="53" width="105" height="22" rx="11" fill="#9fc7bd"/><text class="clock" x="74" y="69" text-anchor="middle">T0 → T2</text>
+    <line class="lane" x1="48" y1="100" x2="430" y2="100"/>
+    <line class="tick" x1="95" y1="90" x2="95" y2="110"/><line class="tick" x1="220" y1="90" x2="220" y2="110"/><line class="tick" x1="382" y1="90" x2="382" y2="110"/>
+    <text class="body" x="49" y="132">186 fechas · 74 nuevas · materiales cortos</text>
+    <text class="body" x="49" y="155">seriación + estratigrafía + Bayes</text>
+    <text class="body" x="49" y="178">tempo Predinástico → Primera Dinastía</text>
+    <text class="body" x="49" y="201">institución / territorio: otro reloj (T5)</text>
+    <rect x="22" y="224" width="431" height="42" rx="9" fill="#2c4650"/>
+    <text class="limit" x="238" y="250" text-anchor="middle">No: una fecha exacta de «unificación» o control homogéneo</text>
+  </g>
+
+  <!-- Panel 3 -->
+  <g transform="translate(1064,145)">
+    <rect class="panel" width="475" height="285" rx="18"/>
+    <text class="ptitle" x="22" y="37">Indo: tres archivos incompatibles</text>
+    <rect x="22" y="53" width="105" height="22" rx="11" fill="#d6a85e"/><text class="clock" x="74" y="69" text-anchor="middle">T2 · T6</text>
+    <line class="lane" x1="48" y1="100" x2="430" y2="100"/>
+    <line class="tick" x1="102" y1="90" x2="102" y2="110"/><line class="tick" x1="255" y1="90" x2="255" y2="110"/><line class="tick" x1="390" y1="90" x2="390" y2="110"/>
+    <text class="body" x="49" y="132">~2600–1900 a. C. · ciudades/fases</text>
+    <text class="body" x="49" y="155">paisaje → urbanización / desnucleación</text>
+    <text class="body" x="49" y="178">signos → orden, no desciframiento</text>
+    <text class="body" x="49" y="201">casas → Gini 0.44 / tendencia condicionada</text>
+    <rect x="22" y="224" width="431" height="42" rx="9" fill="#2c4650"/>
+    <text class="limit" x="238" y="250" text-anchor="middle">No: lengua · gobierno · clase heredados entre archivos</text>
+  </g>
+
+  <!-- Panel 4 -->
+  <g transform="translate(60,456)">
+    <rect class="panel" width="475" height="285" rx="18"/>
+    <text class="ptitle" x="22" y="37">China: Erlitou ≠ Yinxu ≠ nombre</text>
+    <rect x="22" y="53" width="105" height="22" rx="11" fill="#9fc7bd"/><text class="clock" x="74" y="69" text-anchor="middle">T2 · T6</text>
+    <line class="lane" x1="48" y1="100" x2="430" y2="100"/>
+    <line class="tick" x1="105" y1="90" x2="105" y2="110"/><line class="tick" x1="238" y1="90" x2="238" y2="110"/><line class="tick" x1="388" y1="90" x2="388" y2="110"/>
+    <text class="body" x="49" y="132">Yiluo / Erlitou · nucleación y recintos</text>
+    <text class="body" x="49" y="155">«Xia» · correspondencia condicionada</text>
+    <text class="body" x="49" y="178">Yinxu · huesos y corpus Shang tardío</text>
+    <text class="body" x="49" y="201">~1254–1041 a. C. bajo serie/modelo</text>
+    <rect x="22" y="224" width="431" height="42" rx="9" fill="#2c4650"/>
+    <text class="limit" x="238" y="250" text-anchor="middle">No: fecha de soporte = origen de escritura o dinastía</text>
+  </g>
+
+  <!-- Panel 5 -->
+  <g transform="translate(562,456)">
+    <rect class="panel" width="475" height="285" rx="18"/>
+    <text class="ptitle" x="22" y="37">Mesoamérica: monumento · ciudad · red</text>
+    <rect x="22" y="53" width="105" height="22" rx="11" fill="#d6a85e"/><text class="clock" x="74" y="69" text-anchor="middle">SITIO / RED</text>
+    <line class="lane" x1="48" y1="100" x2="430" y2="100"/>
+    <line class="tick" x1="110" y1="90" x2="110" y2="110"/><line class="tick" x1="250" y1="90" x2="250" y2="110"/><line class="tick" x1="386" y1="90" x2="386" y2="110"/>
+    <text class="body" x="49" y="132">Aguada Fénix · ~1000–800 a. C.</text>
+    <text class="body" x="49" y="155">Teotihuacan · huella / hogares / población</text>
+    <text class="body" x="49" y="178">paisajes maya · lidar + control terrestre</text>
+    <text class="body" x="49" y="201">cada rasgo conserva fase y función</text>
+    <rect x="22" y="224" width="431" height="42" rx="9" fill="#2c4650"/>
+    <text class="limit" x="238" y="250" text-anchor="middle">No: plataforma = dinastía · lidar = coetaneidad</text>
+  </g>
+
+  <!-- Panel 6 -->
+  <g transform="translate(1064,456)">
+    <rect class="panel" width="475" height="285" rx="18"/>
+    <text class="ptitle" x="22" y="37">Andes + controles: requisitos falsados</text>
+    <rect x="22" y="53" width="105" height="22" rx="11" fill="#9fc7bd"/><text class="clock" x="74" y="69" text-anchor="middle">VARIOS</text>
+    <line class="lane" x1="48" y1="100" x2="430" y2="100"/>
+    <line class="tick" x1="95" y1="90" x2="95" y2="110"/><line class="tick" x1="225" y1="90" x2="225" y2="110"/><line class="tick" x1="392" y1="90" x2="392" y2="110"/>
+    <text class="body" x="49" y="132">Norte Chico · ocupación monumental</text>
+    <text class="body" x="49" y="155">khipus · contabilidad en casos</text>
+    <text class="body" x="49" y="178">Jenne-jeno · Great Zimbabwe</text>
+    <text class="body" x="49" y="201">Alta Amazonia · baja densidad / red</text>
+    <rect x="22" y="224" width="431" height="42" rx="9" fill="#2c4650"/>
+    <text class="limit" x="238" y="250" text-anchor="middle">No: escritura · palacio · compacidad como requisitos</text>
+  </g>
+
+  <rect x="60" y="778" width="1479" height="62" rx="15" fill="#284b54" stroke="#5f7e84"/>
+  <text class="foot" x="800" y="804" text-anchor="middle">Posición dentro de un panel = organización editorial, no escala temporal compartida entre regiones.</text>
+  <text class="foot" x="800" y="828" text-anchor="middle">Ausencia de una marca = archivo no representado aquí; no ausencia histórica · ninguna flecha conecta paneles.</text>
+</svg>

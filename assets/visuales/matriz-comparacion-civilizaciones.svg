@@ -1,0 +1,108 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Matriz de dimensiones, archivos, resultados y no herencia para la Investigación 052</title>
+  <desc id="desc">Once filas comparan dimensiones arqueológicas con sus archivos, resultados delimitados y conclusiones que no se heredan. La matriz no suma, puntúa ni ordena sociedades.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0d1820"/>
+      <stop offset="1" stop-color="#172c34"/>
+    </linearGradient>
+    <style>
+      .title{font:700 40px Inter,Segoe UI,sans-serif;fill:#f4efe4}
+      .subtitle{font:400 20px Inter,Segoe UI,sans-serif;fill:#b9cad0}
+      .head{font:700 20px Inter,Segoe UI,sans-serif;fill:#102128}
+      .label{font:700 18px Inter,Segoe UI,sans-serif;fill:#f6ead6}
+      .body{font:400 17px Inter,Segoe UI,sans-serif;fill:#d8e4e4}
+      .stop{font:600 17px Inter,Segoe UI,sans-serif;fill:#ffd6c4}
+      .foot{font:400 17px Inter,Segoe UI,sans-serif;fill:#bfd0d3}
+      .row{fill:#18343c;stroke:#3f6269;stroke-width:1}
+      .row2{fill:#1b3a42;stroke:#3f6269;stroke-width:1}
+      .divider{stroke:#4d7076;stroke-width:1}
+    </style>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <rect x="38" y="30" width="1524" height="830" rx="24" fill="none" stroke="#476a70" stroke-width="2"/>
+
+  <text class="title" x="70" y="82">Comparar dimensiones sin sumar «civilización»</text>
+  <text class="subtitle" x="70" y="116">Cada fila conserva archivo, resultado máximo y salto no heredado · no es checklist, cronología ni ranking</text>
+
+  <rect x="70" y="145" width="1460" height="52" rx="10" fill="#d6a85e"/>
+  <text class="head" x="88" y="178">DIMENSIÓN</text>
+  <text class="head" x="398" y="178">ARCHIVO / MEDIDA</text>
+  <text class="head" x="766" y="178">RESULTADO DELIMITADO</text>
+  <text class="head" x="1124" y="178">NO HEREDA</text>
+
+  <g transform="translate(0,207)">
+    <rect class="row" x="70" y="0" width="1460" height="52" rx="6"/>
+    <text class="label" x="88" y="32">Producción / paisaje</text>
+    <text class="body" x="398" y="23"><tspan x="398">restos, fauna, sedimentos</tspan><tspan x="398" dy="20">rasgos · frecuencia e inversión</tspan></text>
+    <text class="body" x="766" y="32">manejo o intensificación local</text>
+    <text class="stop" x="1124" y="32">tributo · ciudad · Estado</text>
+
+    <rect class="row2" x="70" y="54" width="1460" height="52" rx="6"/>
+    <text class="label" x="88" y="86">Residencia / urbanismo</text>
+    <text class="body" x="398" y="77"><tspan x="398">casas, superficie, red, lidar</tspan><tspan x="398" dy="20">área · densidad · funciones</tspan></text>
+    <text class="body" x="766" y="86">agregación o ciudad regional</text>
+    <text class="stop" x="1124" y="86">centralización · soberanía</text>
+
+    <rect class="row" x="70" y="108" width="1460" height="52" rx="6"/>
+    <text class="label" x="88" y="140">Administración</text>
+    <text class="body" x="398" y="131"><tspan x="398">sellos, tablillas, pesos, khipus</tspan><tspan x="398" dy="20">operación · serie · acceso</tspan></text>
+    <text class="body" x="766" y="140">registro o coordinación local</text>
+    <text class="stop" x="1124" y="140">escritura · alfabetización · Estado</text>
+
+    <rect class="row2" x="70" y="162" width="1460" height="52" rx="6"/>
+    <text class="label" x="88" y="194">Escritura / notación</text>
+    <text class="body" x="398" y="185"><tspan x="398">soporte, corpus y contexto</tspan><tspan x="398" dy="20">inventario · orden · género</tspan></text>
+    <text class="body" x="766" y="194">sistema; lengua si se demuestra</text>
+    <text class="stop" x="1124" y="194">superioridad · usuarios universales</text>
+
+    <rect class="row" x="70" y="216" width="1460" height="52" rx="6"/>
+    <text class="label" x="88" y="248">Desigualdad</text>
+    <text class="body" x="398" y="239"><tspan x="398">casas, tumbas, dieta, acceso</tspan><tspan x="398" dy="20">distribución por proxy y fase</tspan></text>
+    <text class="body" x="766" y="248">diferencia material medida</text>
+    <text class="stop" x="1124" y="248">rango · clase · poder político</text>
+
+    <rect class="row2" x="70" y="270" width="1460" height="52" rx="6"/>
+    <text class="label" x="88" y="302">Autoridad / Estado</text>
+    <text class="body" x="398" y="293"><tspan x="398">jurisdicción, tributo, cargos</tspan><tspan x="398" dy="20">alcance · recurrencia · sanción</tspan></text>
+    <text class="body" x="766" y="302">institución política condicionada</text>
+    <text class="stop" x="1124" y="302">ciudad · etnia · imperio</text>
+
+    <rect class="row" x="70" y="324" width="1460" height="52" rx="6"/>
+    <text class="label" x="88" y="356">Imperio</text>
+    <text class="body" x="398" y="347"><tspan x="398">incorporación, tributo, presencia</tspan><tspan x="398" dy="20">asimetría · extensión · duración</tspan></text>
+    <text class="body" x="766" y="356">relación imperial delimitada</text>
+    <text class="stop" x="1124" y="356">frontera máxima = control continuo</text>
+
+    <rect class="row2" x="70" y="378" width="1460" height="52" rx="6"/>
+    <text class="label" x="88" y="410">Infraestructura</text>
+    <text class="body" x="398" y="401"><tspan x="398">obra, secuencia, acceso, reparación</tspan><tspan x="398" dy="20">volumen · trabajo · vida útil</tspan></text>
+    <text class="body" x="766" y="410">inversión y coordinación</text>
+    <text class="stop" x="1124" y="410">templo · coerción · dinastía</text>
+
+    <rect class="row" x="70" y="432" width="1460" height="52" rx="6"/>
+    <text class="label" x="88" y="464">Redes / intercambio</text>
+    <text class="body" x="398" y="455"><tspan x="398">procedencia, distribución, técnica</tspan><tspan x="398" dy="20">flujo · distancia · similitud</tspan></text>
+    <text class="body" x="766" y="464">circulación o conectividad</text>
+    <text class="stop" x="1124" y="464">difusión desde una «cuna»</text>
+
+    <rect class="row2" x="70" y="486" width="1460" height="52" rx="6"/>
+    <text class="label" x="88" y="518">Ecología / riesgo</text>
+    <text class="body" x="398" y="509"><tspan x="398">testigos, geoformas, clima, suelo</tspan><tspan x="398" dy="20">evento · tendencia · respuesta</tspan></text>
+    <text class="body" x="766" y="518">oportunidad o restricción</text>
+    <text class="stop" x="1124" y="518">causa política suficiente</text>
+
+    <rect class="row" x="70" y="540" width="1460" height="52" rx="6"/>
+    <text class="label" x="88" y="572">Transformación</text>
+    <text class="body" x="398" y="563"><tspan x="398">población, sitio, institución, red</tspan><tspan x="398" dy="20">cambio diferencial por reloj</tspan></text>
+    <text class="body" x="766" y="572">reorganización o persistencia</text>
+    <text class="stop" x="1124" y="572">desaparición de pueblos</text>
+  </g>
+
+  <line class="divider" x1="372" y1="145" x2="372" y2="799"/>
+  <line class="divider" x1="740" y1="145" x2="740" y2="799"/>
+  <line class="divider" x1="1098" y1="145" x2="1098" y2="799"/>
+
+  <rect x="70" y="821" width="1460" height="27" rx="8" fill="#274952"/>
+  <text class="foot" x="800" y="841" text-anchor="middle">Archivo → medición → resultado limitado · cada salto adicional exige otro archivo, otra escala o un falsador</text>
+</svg>

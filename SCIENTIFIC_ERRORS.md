@@ -3899,3 +3899,86 @@ Desnucleación del Indo o cambio del norte mesopotámico puede redistribuir asen
 Una nueva investigación puede reutilizar una evidencia exacta sin reauditar todo el paquete que la originó. Cambiar CIV-001 de `TRAZADO` por asociación ocultaría claims no revisados.
 
 **Corrección:** conservar IDs/estado originales, crear IDs nuevos para proposiciones nuevas y documentar la reconciliación.
+
+## Errores auditados de la Investigación 052
+
+| ID | Formulación errónea | Por qué falla | Corrección operativa |
+|---|---|---|---|
+| `ERR-CIVILIZATION-SCORE-001` | civilización = suma/puntuación de rasgos | dimensiones no comparten unidad ni herencia | matriz por dimensión, reloj y límite; sin total |
+| `ERR-FIRST-CIVILIZATION-DATE-001` | una fecha antigua identifica la «primera civilización» | se fecha muestra/capa, no una esencia o paquete | nombrar objeto, evento y confianza; prohibir ranking |
+| `ERR-PHASE-POLITY-001` | fase arqueológica = dinastía/Estado | cultura material y entidad política son categorías distintas | exigir jurisdicción, extracción, sucesión y archivo independiente |
+| `ERR-SCRIPT-LANGUAGE-001` | orden de signos = lengua/desciframiento | estructura también aparece en notaciones no glotográficas | reservar lengua/lectura hasta prueba reproducible |
+| `ERR-ORACLE-ORIGIN-001` | hueso oracular fechado = origen de escritura/Estado chino | fecha un soporte Shang tardío, no una tradición completa | separar objeto, corpus, primer testimonio y origen |
+| `ERR-KHIPU-DEFICIT-001` | khipu/oralidad son escritura incompleta | compara sistemas por cercanía a alfabeto, no por operación | medir información, género, usuarios y transmisión sin jerarquía |
+| `ERR-URUK-CRADLE-001` | Uruk difundió ciudad/Estado a periferias pasivas | norte y Shakhi Kora muestran trayectorias/adopciones/reversiones | probar agentes, procedencias y respuestas locales |
+| `ERR-URBANISM-INEQUALITY-001` | urbanización aumenta necesariamente desigualdad | Mohenjo-daro y comparaciones dejan gran variación | medir proxy/fase y separar clase/poder |
+| `ERR-CONTROL-APPENDIX-001` | Jenne-jeno, Great Zimbabwe o Amazonia son anexos incompletos | funcionan como casos negativos de requisitos universales | incorporarlos en la prueba de necesidad |
+| `ERR-NETWORK-DIFFUSION-001` | objeto exótico/semejanza = difusión desde un centro | intercambio, movilidad, copia, tributo y convergencia compiten | procedencia + reloj + agente + alternativa |
+| `ERR-CLIMATE-CIVILIZATION-001` | río/sequía crea o destruye civilización | ambiente necesita mecanismo y respuestas varían | medir oportunidad, mediación, desfase y casos negativos |
+| `ERR-052-SUBSTITUTION-001` | la 052 sustituye 050/051 o vuelve auditado CIV-001 | estados y cadenas pertenecen a investigaciones concretas | reutilizar sólo identidad exacta y conservar `TRAZADO` |
+
+## ERR-CIVILIZATION-SCORE-001 — Variables sin denominador común
+
+Una tablilla, un Gini, un canal y una ciudad no pueden sumarse sin una función de valor arbitraria. La puntuación oculta preservación y convierte diferencia en rango.
+
+**Corrección:** presentar resultados por dimensión con definición, archivo, reloj, no heredado y confianza; no producir total, ganador o línea ascendente.
+
+## ERR-FIRST-CIVILIZATION-DATE-001 — Prioridad de muestra como premio
+
+La fecha más antigua puede pertenecer a carbón residual, primera construcción o una fase local. No fecha simultáneamente escritura, ciudad, Estado o red.
+
+**Corrección:** escribir «fecha del objeto/capa/rasgo» y conservar `T0–T6`; comparar procesos contemporáneos sin ranking.
+
+## ERR-PHASE-POLITY-001 — Erlitou=Xia por definición
+
+Nucleación, talleres y recintos hacen de Erlitou un centro mayor. El nombre Xia y la forma política necesitan correspondencia independiente; proyectarlos desde textos posteriores puede ser circular.
+
+**Corrección:** separar formación, sitio, fase, entidad y nombre; exigir jurisdicción/sucesión o texto contemporáneo.
+
+## ERR-SCRIPT-LANGUAGE-001 / ERR-ORACLE-ORIGIN-001
+
+Un modelo de Markov organiza signos del Indo sin leerlos. AMS de huesos Shang fecha especímenes y grupos, no la invención de escritura ni autoridad.
+
+**Corrección:** registrar soporte, inventario, sistema, lengua, género, usuarios y reloj en campos distintos.
+
+## ERR-KHIPU-DEFICIT-001 — Alfabeto como medida cognitiva
+
+Khipus contables realizan operaciones documentadas sin copiar el soporte gráfico euroasiático. Oralidad y material perecedero sufren preservación distinta.
+
+**Corrección:** comparar funciones, información, distribución y transmisión; declarar lo perdido y evitar «sin escritura = sin historia».
+
+## ERR-URUK-CRADLE-001 — Una flecha sobre interacciones
+
+Material Uruk fuera del sur puede resultar de presencia, intercambio, adopción o imitación. Shakhi Kora conserva secuencias locales y dispersión que una colonia automática no explica.
+
+**Corrección:** procedencia, hogares, cronología, agentes y respuesta local antes de asignar dirección política.
+
+## ERR-URBANISM-INEQUALITY-001 — Densidad como clase
+
+Más habitantes y productividad pueden ampliar diferencias, pero no determinan su magnitud. El Gini residencial de Mohenjo-daro desciende bajo el modelo 2026; tampoco mide desigualdad total.
+
+**Corrección:** declarar proxy, unidad, fase y cobertura; añadir transmisión, acceso y poder con archivos independientes.
+
+## ERR-CONTROL-APPENDIX-001 — Sesgo incorporado en la muestra
+
+Si sólo los casos con escritura/palacio definen civilización, cualquier caso oral/policéntrico queda excluido antes de probar el requisito.
+
+**Corrección:** usar Jenne-jeno, Great Zimbabwe y Amazonia como controles explícitos de necesidad, con categorías situadas.
+
+## ERR-NETWORK-DIFFUSION-001 — Parecido como itinerario
+
+Una composición o estilo puede circular por múltiples agentes; una técnica puede converger. El mapa con flecha única excede el archivo.
+
+**Corrección:** construir árbol de alternativas y elegir sólo con procedencia, dirección, tiempo y contexto institucional.
+
+## ERR-CLIMATE-CIVILIZATION-001 — Ambiente como soberano
+
+Canales y ríos modifican costes; sequías alteran riesgo. No deciden quién coordina, cómo se distribuye el daño o qué institución cambia.
+
+**Corrección:** formular mecanismo local con precedencia y caso negativo; rastrear respuestas divergentes.
+
+## ERR-052-SUBSTITUTION-001 — Cierre editorial como herencia científica
+
+Completar `001–052` no cambia el estado de una investigación temática ni vuelve auditado un marco. Tampoco autoriza duplicar los análisis de producción o instituciones.
+
+**Corrección:** 050, 051 y 052 conservan objetivos/IDs propios; CIV-001 sigue `TRAZADO`; futuros trabajos son expansiones explícitas.
