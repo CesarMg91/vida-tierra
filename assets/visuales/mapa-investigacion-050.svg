@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Mapa epistemológico de agriculturas y domesticaciones múltiples</title>
+  <desc id="desc">Cinco cadenas separan restos vegetales, fauna, infraestructura, genomas de especies y genomas humanos; ninguna produce por sí sola economía, cultura, centro o causa.</desc>
+  <defs>
+    <style>
+      .bg{fill:#0b1117}.panel{fill:#111b24;stroke:#2b4050;stroke-width:2}.head{fill:#172633}.obs{fill:#18323a;stroke:#3f8a8c;stroke-width:1.5}.measure{fill:#242b32;stroke:#687783;stroke-width:1.5}.infer{fill:#332a1d;stroke:#d09a45;stroke-width:1.5}.stop{fill:#321f25;stroke:#c76472;stroke-width:1.5}.bar{stroke:#67808f;stroke-width:2}.cond{stroke:#d09a45;stroke-width:2;stroke-dasharray:8 7}.no{stroke:#c76472;stroke-width:2;stroke-dasharray:4 7}.t{font-family:Arial,Helvetica,sans-serif;fill:#ecf2f5}.muted{fill:#a9bbc5}.teal{fill:#79c2bf}.amber{fill:#edbd6c}.red{fill:#ef8f9a}.title{font-size:30px;font-weight:700}.sub{font-size:16px}.h{font-size:19px;font-weight:700}.label{font-size:13px;font-weight:700;letter-spacing:.8px}.body{font-size:15px}.small{font-size:13px}.foot{font-size:14px}
+    </style>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#67808f"/></marker>
+    <marker id="arrowCond" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#d09a45"/></marker>
+  </defs>
+  <rect class="bg" width="1600" height="900"/>
+  <text class="t title" x="48" y="50">Investigación 050 · Cinco archivos, resultados distintos</text>
+  <text class="t sub muted" x="48" y="80">Objeto o señal → medición → inferencia delimitada. Las cadenas no son coetáneas ni etapas de una revolución.</text>
+  <g transform="translate(48 104)">
+    <line class="bar" x1="0" y1="0" x2="42" y2="0" marker-end="url(#arrow)"/><text class="t small" x="52" y="5">puente directo</text>
+    <line class="cond" x1="190" y1="0" x2="232" y2="0" marker-end="url(#arrowCond)"/><text class="t small" x="242" y="5">puente condicionado</text>
+    <line class="no" x1="405" y1="0" x2="447" y2="0"/><text class="t small" x="457" y="5">salto no autorizado</text>
+  </g>
+
+  <g transform="translate(48 136)">
+    <rect class="panel" width="288" height="576" rx="14"/>
+    <path class="head" d="M14 0 H274 A14 14 0 0 1 288 14 V62 H0 V14 A14 14 0 0 1 14 0Z"/>
+    <text class="t h" x="18" y="29">Restos vegetales</text><text class="t small muted" x="18" y="50">macroresto · fitolito · almidón</text>
+    <rect class="obs" x="16" y="82" width="256" height="92" rx="10"/><text class="t label teal" x="30" y="106">OBSERVADO</text><text class="t body" x="30" y="132">semilla, raquis, residuo</text><text class="t body" x="30" y="154">+ capa y procedencia</text>
+    <line class="bar" x1="144" y1="174" x2="144" y2="202" marker-end="url(#arrow)"/>
+    <rect class="measure" x="16" y="206" width="256" height="92" rx="10"/><text class="t label muted" x="30" y="230">MEDIDO</text><text class="t body" x="30" y="256">taxón, forma, frecuencia</text><text class="t body" x="30" y="278">y reloj de la muestra</text>
+    <line class="cond" x1="144" y1="298" x2="144" y2="326" marker-end="url(#arrowCond)"/>
+    <rect class="infer" x="16" y="330" width="256" height="92" rx="10"/><text class="t label amber" x="30" y="354">INFERIDO</text><text class="t body" x="30" y="380">procesar / cultivar /</text><text class="t body" x="30" y="402">selección de un rasgo</text>
+    <line class="no" x1="144" y1="422" x2="144" y2="450"/>
+    <rect class="stop" x="16" y="454" width="256" height="96" rx="10"/><text class="t label red" x="30" y="478">NO HEREDA</text><text class="t body" x="30" y="504">población domesticada,</text><text class="t body" x="30" y="526">dependencia o «Neolítico»</text>
+  </g>
+
+  <g transform="translate(352 136)">
+    <rect class="panel" width="288" height="576" rx="14"/>
+    <path class="head" d="M14 0 H274 A14 14 0 0 1 288 14 V62 H0 V14 A14 14 0 0 1 14 0Z"/>
+    <text class="t h" x="18" y="29">Fauna y residuos</text><text class="t small muted" x="18" y="50">hueso · diente · isótopo · lípido</text>
+    <rect class="obs" x="16" y="82" width="256" height="92" rx="10"/><text class="t label teal" x="30" y="106">OBSERVADO</text><text class="t body" x="30" y="132">taxón, edad/sexo, cortes</text><text class="t body" x="30" y="154">o residuo de una vasija</text>
+    <line class="bar" x1="144" y1="174" x2="144" y2="202" marker-end="url(#arrow)"/>
+    <rect class="measure" x="16" y="206" width="256" height="92" rx="10"/><text class="t label muted" x="30" y="230">MEDIDO</text><text class="t body" x="30" y="256">mortalidad, forma, dieta</text><text class="t body" x="30" y="278">o producto procesado</text>
+    <line class="cond" x1="144" y1="298" x2="144" y2="326" marker-end="url(#arrowCond)"/>
+    <rect class="infer" x="16" y="330" width="256" height="92" rx="10"/><text class="t label amber" x="30" y="354">INFERIDO</text><text class="t body" x="30" y="380">caza / manejo / dieta</text><text class="t body" x="30" y="402">o lechería local</text>
+    <line class="no" x1="144" y1="422" x2="144" y2="450"/>
+    <rect class="stop" x="16" y="454" width="256" height="96" rx="10"/><text class="t label red" x="30" y="478">NO HEREDA</text><text class="t body" x="30" y="504">reproducción controlada,</text><text class="t body" x="30" y="526">pastoralismo o economía total</text>
+  </g>
+
+  <g transform="translate(656 136)">
+    <rect class="panel" width="288" height="576" rx="14"/>
+    <path class="head" d="M14 0 H274 A14 14 0 0 1 288 14 V62 H0 V14 A14 14 0 0 1 14 0Z"/>
+    <text class="t h" x="18" y="29">Espacio construido</text><text class="t small muted" x="18" y="50">sedimento · canal · granero</text>
+    <rect class="obs" x="16" y="82" width="256" height="92" rx="10"/><text class="t label teal" x="30" y="106">OBSERVADO</text><text class="t body" x="30" y="132">rasgo, relleno, volumen</text><text class="t body" x="30" y="154">+ secuencia de uso</text>
+    <line class="bar" x1="144" y1="174" x2="144" y2="202" marker-end="url(#arrow)"/>
+    <rect class="measure" x="16" y="206" width="256" height="92" rx="10"/><text class="t label muted" x="30" y="230">MEDIDO</text><text class="t body" x="30" y="256">agua, almacenamiento,</text><text class="t body" x="30" y="278">acceso o residencia</text>
+    <line class="cond" x1="144" y1="298" x2="144" y2="326" marker-end="url(#arrowCond)"/>
+    <rect class="infer" x="16" y="330" width="256" height="92" rx="10"/><text class="t label amber" x="30" y="354">INFERIDO</text><text class="t body" x="30" y="380">manejo de paisaje o</text><text class="t body" x="30" y="402">acumulación recurrente</text>
+    <line class="no" x1="144" y1="422" x2="144" y2="450"/>
+    <rect class="stop" x="16" y="454" width="256" height="96" rx="10"/><text class="t label red" x="30" y="478">NO HEREDA</text><text class="t body" x="30" y="504">cultivo, propiedad, aldea</text><text class="t body" x="30" y="526">o Estado</text>
+  </g>
+
+  <g transform="translate(960 136)">
+    <rect class="panel" width="288" height="576" rx="14"/>
+    <path class="head" d="M14 0 H274 A14 14 0 0 1 288 14 V62 H0 V14 A14 14 0 0 1 14 0Z"/>
+    <text class="t h" x="18" y="29">Genoma de especie</text><text class="t small muted" x="18" y="50">antiguo · actual · haplotipo</text>
+    <rect class="obs" x="16" y="82" width="256" height="92" rx="10"/><text class="t label teal" x="30" y="106">OBSERVADO</text><text class="t body" x="30" y="132">secuencia de organismo</text><text class="t body" x="30" y="154">fechado o superviviente</text>
+    <line class="bar" x1="144" y1="174" x2="144" y2="202" marker-end="url(#arrow)"/>
+    <rect class="measure" x="16" y="206" width="256" height="92" rx="10"/><text class="t label muted" x="30" y="230">MEDIDO / MODELADO</text><text class="t body" x="30" y="256">linaje, alelo, mezcla,</text><text class="t body" x="30" y="278">selección o coalescencia</text>
+    <line class="cond" x1="144" y1="298" x2="144" y2="326" marker-end="url(#arrowCond)"/>
+    <rect class="infer" x="16" y="330" width="256" height="92" rx="10"/><text class="t label amber" x="30" y="354">INFERIDO</text><text class="t body" x="30" y="380">historia de población</text><text class="t body" x="30" y="402">y flujo génico</text>
+    <line class="no" x1="144" y1="422" x2="144" y2="450"/>
+    <rect class="stop" x="16" y="454" width="256" height="96" rx="10"/><text class="t label red" x="30" y="478">NO HEREDA</text><text class="t body" x="30" y="504">un campo, centro o fecha</text><text class="t body" x="30" y="526">arqueológica única</text>
+  </g>
+
+  <g transform="translate(1264 136)">
+    <rect class="panel" width="288" height="576" rx="14"/>
+    <path class="head" d="M14 0 H274 A14 14 0 0 1 288 14 V62 H0 V14 A14 14 0 0 1 14 0Z"/>
+    <text class="t h" x="18" y="29">Genoma humano</text><text class="t small muted" x="18" y="50">individuo · fecha · contexto</text>
+    <rect class="obs" x="16" y="82" width="256" height="92" rx="10"/><text class="t label teal" x="30" y="106">OBSERVADO</text><text class="t body" x="30" y="132">genoma de una persona</text><text class="t body" x="30" y="154">con procedencia y edad</text>
+    <line class="bar" x1="144" y1="174" x2="144" y2="202" marker-end="url(#arrow)"/>
+    <rect class="measure" x="16" y="206" width="256" height="92" rx="10"/><text class="t label muted" x="30" y="230">MEDIDO / MODELADO</text><text class="t body" x="30" y="256">parentesco, afinidad,</text><text class="t body" x="30" y="278">mezcla o continuidad</text>
+    <line class="cond" x1="144" y1="298" x2="144" y2="326" marker-end="url(#arrowCond)"/>
+    <rect class="infer" x="16" y="330" width="256" height="92" rx="10"/><text class="t label amber" x="30" y="354">INFERIDO</text><text class="t body" x="30" y="380">movimiento o continuidad</text><text class="t body" x="30" y="402">biológica regional</text>
+    <line class="no" x1="144" y1="422" x2="144" y2="450"/>
+    <rect class="stop" x="16" y="454" width="256" height="96" rx="10"/><text class="t label red" x="30" y="478">NO HEREDA</text><text class="t body" x="30" y="504">cultivo, oficio, cultura,</text><text class="t body" x="30" y="526">lengua o identidad</text>
+  </g>
+
+  <rect class="panel" x="48" y="738" width="1504" height="112" rx="14"/>
+  <text class="t h" x="70" y="772">Resultado comparable</text>
+  <text class="t body" x="70" y="800">Actividad local → frecuencia de rasgo → población biológica → dependencia económica: cada flecha exige serie, escala y reloj propios.</text>
+  <text class="t body amber" x="70" y="827">No centro único · no paquete universal · no causa automática · no línea de progreso.</text>
+  <text class="t foot muted" x="1552" y="874" text-anchor="end">Composición epistemológica; no representa regiones, especies, difusión ni coetaneidad.</text>
+</svg>

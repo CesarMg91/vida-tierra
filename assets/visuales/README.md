@@ -710,6 +710,26 @@ Los cinco compartimentos son **no coetáneos** y no reproducen sitio, colección
 
 Los SVG incluyen `title` y `desc` accesibles y se revisaron a su `viewBox` original. `mapa-investigacion-049.svg` usa línea continua para prueba directa, discontinua ámbar para puentes condicionados y roja para significado/ritual no preservados. `cronologia-archivos-simbolismo.svg` divide la escala en tres paneles para evitar compresión engañosa y distingue objetos, depósitos, estructuras y mínimos de calcita. Ninguno copia arte paleolítico ni representa una línea de progreso.
 
+## Investigación 050 — Agriculturas y domesticaciones múltiples
+
+| Archivo | Tipo | Creación | Evidencia o claim | Límite |
+|---|---|---|---|---|
+| `hero-agriculturas-domesticaciones.png` | portada editorial generada | OpenAI ImageGen, 2026-08-13 | cinco clases genéricas de archivo separadas | composición no probatoria; no coetaneidad, especie, región, centro o causalidad |
+| `mapa-investigacion-050.svg` | diagrama epistemológico original | SVG manual del proyecto, 2026-08-13 | cinco cadenas desde objeto/señal a resultado delimitado | flechas son operaciones inferenciales, no domesticación o difusión |
+| `cronologia-domesticaciones-multiples.svg` | cronología multirreloj original | SVG manual del proyecto, 2026-08-13 | objetos/capas, ventanas de práctica/rasgo y modelos | carriles no son ruta, paquete, centro o progreso |
+
+## Prompt y revisión de la portada de la Investigación 050
+
+**Modo:** generación nueva con OpenAI ImageGen. Primera salida aprobada sin edición: `C:\Users\HUAWEI\.codex\generated_images\019ff9f8-176a-7ea1-b727-e17c6df17b82\exec-d7cd7bc1-b249-4edd-9f2b-c489db6c0513.png`. Destino del paquete: `assets/visuales/hero-agriculturas-domesticaciones.png`. Dimensiones originales: `1672 × 941`; tamaño: `2,138,620` bytes; SHA-256: `3de2af4d9535de36b2bcc725d76cd742119ba7227d5aed0de71d88b9eca2ce71`.
+
+> Create a 16:9 editorial scientific still-life cover image, exactly 1600×900 if supported, viewed from a slightly elevated near-top-down angle. A dark neutral museum-conservation worktable divided into five physically separate archival trays or zones, each clearly non-coeval and not assigned to any region or species: (1) a small group of generic irregular ancient seeds and broken rachis-like plant fragments, deliberately varied and imperfect, no perfect wheat ears; (2) a glass slide tray with abstract translucent phytolith-like microresidue shapes under a small circular optical window, no text or numbers; (3) a tray with one generic fragmented animal tooth and a few incomplete non-diagnostic bone splinters, no complete animal, no posed animal; (4) a compact soil/sediment block with subtle layers and one simple recessed storage-like cavity, clearly an archaeological material sample rather than a village or building; (5) a set of small abstract variation modules made of mineral tiles with branching-but-non-directional relationships, explicitly not a DNA helix and not a progress arrow. Warm amber side light and cool teal fill, high material realism, precise museum archive aesthetic, restrained cinematic contrast, generous clean negative space through the upper third for webpage title overlay (but do not render any title). Composition must read as a comparative archive, not a landscape or map. No people, no faces, no hands, no bodies, no idyllic villages, no modern fields, no map, no geographic outlines, no route arrows, no temple, no city, no domestic animals posing, no livestock scene, no perfect grain emblem, no DNA helix, no ladder, no upward line, no text, no letters, no labels, no numerals, no symbols resembling writing, no logos, no watermark. The objects are generic, separated, non-coeval, and their proximity must not imply a single center, causal sequence, diffusion, or progress.
+
+La salida se inspeccionó a resolución original. No contiene personas, rostros, manos, cuerpos, aldea, campo moderno, mapa, flecha, templo, ciudad, animal posando, hélice, texto o pseudotexto. Los fragmentos vegetales son irregulares y no forman una espiga emblemática; el diente y los huesos son genéricos e incompletos; la cavidad permanece dentro de un bloque sedimentario; los módulos son una red mineral no direccional.
+
+Los cinco compartimentos son **no coetáneos** y no reproducen sitio, colección, especie o región. Su cercanía no define centro, paquete, difusión, causalidad ni progreso. La imagen no identifica una práctica: semillas no prueban cultivo, microrestos no prueban domesticación, un diente no prueba rebaño, una cavidad no prueba propiedad y la red mineral no es un genoma observado.
+
+Los SVG se diseñaron, rasterizaron exactamente a `1600 × 900` con Sharp e inspeccionaron a resolución original incluyendo los cuatro bordes. `mapa-investigacion-050.svg` conserva completos título, leyenda, cinco cadenas, síntesis y pie. `cronologia-domesticaciones-multiples.svg` conserva completos título, leyenda, siete carriles, marcadores y pie; una primera rasterización reveló solape de etiquetas en el carril africano, corregido únicamente mediante anclajes/posiciones y reinspeccionado. Ninguno contiene mapas geográficos o flechas de difusión.
+
 ## Reglas de mantenimiento
 
 - conservar SVG con `title` y `desc` accesibles;

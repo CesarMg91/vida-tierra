@@ -1198,3 +1198,29 @@ Bruniquel → construcción profunda + edad/acceso B → ritual/cosmología D
 Convención material restringe comunicación pero no conserva sintaxis o lengua concreta. La presencia pleistocena de prácticas denominadas simbólicas tampoco las convierte en causa única de domesticación, sedentarismo o urbanización.
 
 Véase `INV-MIND-SYMBOL-001` en `11_evolucion_humana`, su mapa en `assets/visuales/mapa-investigacion-049.svg` y la cronología multiarquivo en `assets/visuales/cronologia-archivos-simbolismo.svg`.
+
+### Investigación 050 — Agriculturas y domesticaciones múltiples
+
+```text
+macro/microresto + procedencia + reloj ───────> taxón / actividad / rasgo ────────────────┐
+fauna + edad-sexo + isótopos ─────────────────> caza / dieta / manejo ────────────────────┤
+sedimento + canal/granero + secuencia ────────> paisaje / almacenamiento / residencia ───┤
+genoma de especie + edad/modelo ──────────────> linaje / alelo / flujo ───────────────────┤
+genoma humano + individuo + fecha ────────────> afinidad / mezcla / continuidad ─────────┘
+                                                                                          │
+                                                                                          └─> no hay domesticación, economía, cultura o causa automáticas
+```
+
+Asia sudoccidental separa preparación vegetal, almacenamiento, cultivo y cambio de raquis; cebada 2025 añade mosaico haplotípico sin coordenada única. China separa arroz, mijos, cerdos y movilidad humana; arroz 2026 conserva variación subregional y efecto ambiental.
+
+```text
+Kuk → manejo/cultivo por fases B-COND → paquete cerealista: no
+Sahara → residuo lácteo B → sedentarismo/cereal: no
+KG23/Tilemsi → rasgos escalonados B-COND → revolución africana: no
+Xihuatoxtla → maíz/calabaza ≥8.7 ka B → tríada/aldea plena: no
+Nanchoc/Moxos → horticultura/paisaje B-COND → centro americano único: no
+```
+
+Los genomas humanos muestran migración importante en algunas expansiones y continuidad/adopción local en otras. Personas, especies y técnicas son flujos separables. Clima, demografía, nicho, riesgo, almacenamiento y redes se mantienen como modelos con predicciones; dieta, patógenos, trabajo y desigualdad se comparan por fase/grupo sin convertirlos en progreso.
+
+Véase `INV-NEOLITHIC-001` en `14_civilizaciones`, su mapa en `assets/visuales/mapa-investigacion-050.svg` y la cronología multirreloj en `assets/visuales/cronologia-domesticaciones-multiples.svg`.

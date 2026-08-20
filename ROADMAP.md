@@ -111,19 +111,19 @@ En cada periodo se auditarán primero sus límites cronoestratigráficos y despu
 | 047 | `INV-MIND-TOOLS-FIRE-001` | [¿Qué observamos realmente sobre herramientas, fuego y cooperación, y qué conductas podemos inferir?](11_evolucion_humana/INVESTIGACION_047_HERRAMIENTAS_FUEGO_COOPERACION.md) — **AUDITADO** |
 | 048 | `INV-MIND-LANGUAGE-001` | [¿Cuándo apareció el lenguaje y qué huellas puede dejar?](11_evolucion_humana/INVESTIGACION_048_ORIGEN_LENGUAJE.md) — **AUDITADO** |
 | 049 | `INV-MIND-SYMBOL-001` | [Entierros, arte, música, ritual y símbolos: ¿qué permiten inferir los archivos materiales?](11_evolucion_humana/INVESTIGACION_049_SIMBOLISMO_RITUAL_ARTE_MUSICA.md) — **AUDITADO** |
-| 050 | `INV-NEOLITHIC-001` | agriculturas y domesticaciones múltiples |
+| 050 | `INV-NEOLITHIC-001` | [¿Cómo se construyeron, detectaron y compararon las agriculturas y domesticaciones múltiples?](14_civilizaciones/INVESTIGACION_050_AGRICULTURAS_DOMESTICACIONES_MULTIPLES.md) — **AUDITADO** |
 | 051 | `INV-CITIES-STATES-001` | aldeas, especialización, jerarquías, ciudades y estados |
 | 052 | `INV-CIVILIZATIONS-001` | comparación arqueológica de primeras civilizaciones |
 
 ## Línea temática anticipada CIV — subíndice propio
 
-Esta línea abre un marco comparativo antes de que la secuencia global alcance `050–052`. No renumera, sustituye ni marca como completas las investigaciones `037–051`.
+Esta línea abrió un marco comparativo antes de que la secuencia global alcanzara `050–052`. No renumera ni sustituye las investigaciones globales.
 
 | Orden temático | ID | Alcance | Estado |
 |---:|---|---|---|
 | CIV-001 | `INV-CIV-ORIGINS-001` | [sedentarismo, almacenamiento, domesticaciones, urbanismo, administración y autoridad en carriles regionales](14_civilizaciones/INVESTIGACION_CIV_001_ORIGENES_ALDEAS_CIUDADES_ESTADOS.md) | **TRAZADO** |
 
-El marco crítico y el programa regional están en [`14_civilizaciones/MARCO_CRITICO_CIVILIZACION.md`](14_civilizaciones/MARCO_CRITICO_CIVILIZACION.md) y [`14_civilizaciones/PROGRAMA_CRONOLOGICO_GLOBAL.md`](14_civilizaciones/PROGRAMA_CRONOLOGICO_GLOBAL.md). La siguiente entrada global es la Investigación 050 (`INV-NEOLITHIC-001`), pendiente de revisión/fusión de la 049 y asignación formal; no se inicia aquí.
+El marco crítico y el programa regional están en [`14_civilizaciones/MARCO_CRITICO_CIVILIZACION.md`](14_civilizaciones/MARCO_CRITICO_CIVILIZACION.md) y [`14_civilizaciones/PROGRAMA_CRONOLOGICO_GLOBAL.md`](14_civilizaciones/PROGRAMA_CRONOLOGICO_GLOBAL.md). La Investigación 050 audita producción de alimentos; la siguiente entrada global es la 051 (`INV-CITIES-STATES-001`), que permanece pendiente.
 
 ## Fase 7 — Ramas transversales
 
@@ -198,6 +198,7 @@ Después de disponer de la secuencia base:
 - `v0.1.46`: Investigación 047 + historia de la herramienta-signo a cadenas de inferencia + mapas de objetos, peldaños térmicos y grados de cooperación, actualizados con transporte Oldowan y útiles óseos de 2025, Barnham, tafonomía abierta y experimentos de transmisión de 2026.
 - `v0.1.47`: Investigación 048 + historia del órgano/gen decisivo al mosaico biocultural + mapa de cuatro archivos y cronología multirreloj, actualizados con regulación de 2026, composición animal y transmisión observada.
 - `v0.1.48`: Investigación 049 + historia de los emblemas de «modernidad» a cadenas de inferencia + mapas de archivo, significado y relojes incompatibles, actualizados con Shanidar, Sulawesi y Bruniquel hasta 2026.
+- `v0.1.49`: Investigación 050 + historia de la revolución única a domesticaciones relacionales + mapas de archivos y relojes regionales, actualizados con cebada 2025, arroz 2026 y paleopatología molecular.
 - `v0.2`: Hadeano/Arcaico auditados.
 - `v0.3`: Proterozoico y origen/temprana evolución de la vida.
 - `v0.4`: Fanerozoico completo.

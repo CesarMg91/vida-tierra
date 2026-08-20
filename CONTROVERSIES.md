@@ -2897,3 +2897,50 @@ La pieza produce sonidos bajo reconstrucción, pero esa propiedad no decide cóm
 Edad, profundidad, disposición y calor hacen difícil una formación natural. Ninguno distingue por sí solo manejo técnico del espacio, actividad social formalizada o rito.
 
 **Prueba discriminatoria:** residuos, distribución de trabajo, fases repetidas y predicciones espaciales que separen funciones antes de etiquetarlas.
+
+## Controversias de la Investigación 050
+
+| ID | Pregunta | Hipótesis en competencia | Prueba que discrimina | Estado |
+|---|---|---|---|---|
+| `CONT-NEOLITHIC-DEFINITION-001` | ¿Cuándo empieza una transición neolítica? | primer cultivo; primer rasgo; población domesticada; dependencia; paquete cronocultural | declarar unidad y medir series de práctica, rasgo, dieta y organización | ABIERTA POR REGIÓN |
+| `CONT-DOMESTICATION-CENTERS-FLOW-001` | ¿Un cultivo procede de un centro o de poblaciones conectadas? | fundador único; múltiples domesticaciones; cultivo fundador + flujo silvestre/local | genomas antiguos densos, macrorestos fechados y modelos con linajes extintos | ABIERTA POR TAXÓN |
+| `CONT-RICE-DOMESTICATION-PROXIES-001` | ¿Qué miden fitolitos/bulliformes y bases de espiguilla de arroz? | estado domesticado; respuesta ambiental; maduración/cosecha; mezcla | calibración ciega moderna, macrorestos coetáneos, fechas directas y series subregionales | ABIERTA |
+| `CONT-NEOLITHIC-CAUSES-001` | ¿Qué causó intensificación, cultivo y dependencia? | clima; demografía; nicho; riesgo; trabajo; almacenamiento/propiedad; redes/elección | precedencia y covariación regional con predicciones registradas y alternativas | ABIERTA |
+| `CONT-FARMER-DIFFUSION-001` | ¿Cómo se difundieron agriculturas? | migración de personas; especies/técnicas; mezcla; adopción local; combinaciones | transectos de ADN humano/cultivo, cultura material y subsistencia fechados por sitio | ABIERTA POR REGIÓN |
+| `CONT-NEOLITHIC-CONSEQUENCES-001` | ¿Producción de alimentos mejoró o deterioró vida y equidad? | efecto neto positivo; negativo; distribución variable por fase/grupo | series longitudinales con dieta, patógenos, trabajo, demografía y acceso | ABIERTA |
+
+## CONT-NEOLITHIC-DEFINITION-001 — El comienzo depende de la variable
+
+Una semilla procesada, una siembra, un raquis no quebradizo y una dieta dependiente pueden estar separados por milenios. Elegir uno como «inicio» sin nombrarlo hace que regiones parezcan concordar o divergir por definición.
+
+**Prueba discriminatoria:** matriz sitio–fase con práctica, frecuencia de rasgo, reproducción poblacional y contribución económica fechadas independientemente.
+
+## CONT-DOMESTICATION-CENTERS-FLOW-001 — Punto, población o red
+
+Los parientes silvestres actuales y la diversidad moderna pueden señalar fuentes, pero flujo génico, extinción y traslado alteran el mapa. Cebada 2025 favorece un mosaico de haplotipos; eso no decide por decreto entre cultivo fundador y varios episodios.
+
+**Prueba discriminatoria:** genomas antiguos anteriores/durante/posteriores al cambio, asociados con macrorestos diagnósticos y modelos que permitan poblaciones no muestreadas.
+
+## CONT-RICE-DOMESTICATION-PROXIES-001 — Morfología, agua y asociación
+
+Decoraciones bulliformes y bases de espiguilla no responden exactamente al mismo mecanismo. Ambiente, maduración y cosecha pueden afectar algunos criterios. Una fecha precisa sobre fitolito sigue condicionada por su carbono y asociación.
+
+**Prueba discriminatoria:** comparadores cultivados/silvestres bajo ambientes controlados, clasificación ciega, macrorestos directamente fechados y repetición entre subregiones.
+
+## CONT-NEOLITHIC-CAUSES-001 — Del correlato al mecanismo
+
+Holoceno y Younger Dryas pueden cambiar riesgo y recursos sin obligar una respuesta. Demografía, almacenamiento y redes pueden ser causa, consecuencia o retroalimentación. Una explicación que acomoda cada caso después de observarlo no discrimina.
+
+**Prueba discriminatoria:** especificar antes variable, signo, desfase, escala y caso negativo; comparar regiones independientes sin cambiar el mecanismo auxiliar.
+
+## CONT-FARMER-DIFFUSION-001 — Tres flujos
+
+En Europa hubo migración importante y mezcla; en Anatolia central, continuidad local fuerte; especies y prácticas circularon además entre grupos. «Demic» y «cultural» son extremos, no identidades mutuamente excluyentes.
+
+**Prueba discriminatoria:** alinear para cada sitio cambio de ancestría humana, llegada de linajes de cultivo/animal y repertorio técnico, con ventanas que no se presten fechas entre archivos.
+
+## CONT-NEOLITHIC-CONSEQUENCES-001 — Progreso y catástrofe como promedios
+
+Más población puede coexistir con peor salud media; un granero puede amortiguar riesgo o concentrar control; pastoreo puede aumentar movilidad y exposición. El signo depende de resultado y distribución.
+
+**Prueba discriminatoria:** series dentro de regiones/fases que separen edad, sexo, dieta, acceso, movilidad y preservación, y comparadores no agrícolas contemporáneos.
