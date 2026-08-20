@@ -112,7 +112,7 @@ En cada periodo se auditarán primero sus límites cronoestratigráficos y despu
 | 048 | `INV-MIND-LANGUAGE-001` | [¿Cuándo apareció el lenguaje y qué huellas puede dejar?](11_evolucion_humana/INVESTIGACION_048_ORIGEN_LENGUAJE.md) — **AUDITADO** |
 | 049 | `INV-MIND-SYMBOL-001` | [Entierros, arte, música, ritual y símbolos: ¿qué permiten inferir los archivos materiales?](11_evolucion_humana/INVESTIGACION_049_SIMBOLISMO_RITUAL_ARTE_MUSICA.md) — **AUDITADO** |
 | 050 | `INV-NEOLITHIC-001` | [¿Cómo se construyeron, detectaron y compararon las agriculturas y domesticaciones múltiples?](14_civilizaciones/INVESTIGACION_050_AGRICULTURAS_DOMESTICACIONES_MULTIPLES.md) — **AUDITADO** |
-| 051 | `INV-CITIES-STATES-001` | aldeas, especialización, jerarquías, ciudades y estados |
+| 051 | `INV-CITIES-STATES-001` | [¿Cómo distinguimos aldeas, especialización, jerarquías, ciudades y Estados sin una escalera universal?](14_civilizaciones/INVESTIGACION_051_CIUDADES_ESTADOS.md) — **AUDITADO** |
 | 052 | `INV-CIVILIZATIONS-001` | comparación arqueológica de primeras civilizaciones |
 
 ## Línea temática anticipada CIV — subíndice propio
@@ -123,7 +123,7 @@ Esta línea abrió un marco comparativo antes de que la secuencia global alcanza
 |---:|---|---|---|
 | CIV-001 | `INV-CIV-ORIGINS-001` | [sedentarismo, almacenamiento, domesticaciones, urbanismo, administración y autoridad en carriles regionales](14_civilizaciones/INVESTIGACION_CIV_001_ORIGENES_ALDEAS_CIUDADES_ESTADOS.md) | **TRAZADO** |
 
-El marco crítico y el programa regional están en [`14_civilizaciones/MARCO_CRITICO_CIVILIZACION.md`](14_civilizaciones/MARCO_CRITICO_CIVILIZACION.md) y [`14_civilizaciones/PROGRAMA_CRONOLOGICO_GLOBAL.md`](14_civilizaciones/PROGRAMA_CRONOLOGICO_GLOBAL.md). La Investigación 050 audita producción de alimentos; la siguiente entrada global es la 051 (`INV-CITIES-STATES-001`), que permanece pendiente.
+El marco crítico y el programa regional están en [`14_civilizaciones/MARCO_CRITICO_CIVILIZACION.md`](14_civilizaciones/MARCO_CRITICO_CIVILIZACION.md) y [`14_civilizaciones/PROGRAMA_CRONOLOGICO_GLOBAL.md`](14_civilizaciones/PROGRAMA_CRONOLOGICO_GLOBAL.md). La Investigación 050 audita producción de alimentos y la 051 audita asentamientos, instituciones y formas políticas. CIV-001 permanece `TRAZADO`; la siguiente entrada global pendiente es la 052 (`INV-CIVILIZATIONS-001`).
 
 ## Fase 7 — Ramas transversales
 
@@ -199,6 +199,7 @@ Después de disponer de la secuencia base:
 - `v0.1.47`: Investigación 048 + historia del órgano/gen decisivo al mosaico biocultural + mapa de cuatro archivos y cronología multirreloj, actualizados con regulación de 2026, composición animal y transmisión observada.
 - `v0.1.48`: Investigación 049 + historia de los emblemas de «modernidad» a cadenas de inferencia + mapas de archivo, significado y relojes incompatibles, actualizados con Shanidar, Sulawesi y Bruniquel hasta 2026.
 - `v0.1.49`: Investigación 050 + historia de la revolución única a domesticaciones relacionales + mapas de archivos y relojes regionales, actualizados con cebada 2025, arroz 2026 y paleopatología molecular.
+- `v0.1.50`: Investigación 051 + historia de etapas/urban revolution a hogares, paisajes e instituciones contrastables + matriz de archivos y cronología regional, actualizadas con urbanismo amazónico, morfodinámica de Sumer y comparación de formación estatal 2025–2026.
 - `v0.2`: Hadeano/Arcaico auditados.
 - `v0.3`: Proterozoico y origen/temprana evolución de la vida.
 - `v0.4`: Fanerozoico completo.

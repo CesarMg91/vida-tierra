@@ -1,0 +1,136 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Investigación 051: archivos, mediciones e inferencias</title>
+  <desc id="desc">Matriz de seis cadenas epistemológicas. Cada fila separa archivo material, medición, resultado limitado, puente adicional y conclusión que no se hereda.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#101a20"/>
+      <stop offset="1" stop-color="#19252c"/>
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-20%" width="120%" height="140%">
+      <feDropShadow dx="0" dy="3" stdDeviation="4" flood-color="#000" flood-opacity=".28"/>
+    </filter>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10Z" fill="#79b8b1"/>
+    </marker>
+    <style>
+      .t{font-family:Inter,Segoe UI,Arial,sans-serif;fill:#edf3f1}.muted{fill:#a9bbb9}.head{font-size:18px;font-weight:700;letter-spacing:1.4px}.body{font-size:17px;font-weight:650}.small{font-size:14px}.tiny{font-size:13px}.box{stroke-width:1.5}.flow{fill:none;stroke:#79b8b1;stroke-width:2;marker-end:url(#arrow)}.gate{fill:none;stroke:#d7a657;stroke-width:2;stroke-dasharray:7 6;marker-end:url(#arrow)}
+    </style>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <circle cx="1450" cy="100" r="150" fill="#244047" opacity=".22"/>
+  <circle cx="120" cy="820" r="190" fill="#283b35" opacity=".20"/>
+
+  <text class="t" x="60" y="58" font-size="31" font-weight="760">Investigación 051 · del archivo a la forma política</text>
+  <text class="t muted" x="60" y="91" font-size="17">Seis cadenas independientes: medir una fila no completa las demás ni produce una escala de «civilización».</text>
+
+  <g class="t head">
+    <rect x="60" y="126" width="245" height="50" rx="10" fill="#21343b" stroke="#46666a"/>
+    <rect x="335" y="126" width="245" height="50" rx="10" fill="#21343b" stroke="#46666a"/>
+    <rect x="610" y="126" width="265" height="50" rx="10" fill="#21343b" stroke="#46666a"/>
+    <rect x="905" y="126" width="280" height="50" rx="10" fill="#3b3324" stroke="#9a7540"/>
+    <rect x="1215" y="126" width="325" height="50" rx="10" fill="#3b2828" stroke="#8b5555"/>
+    <text x="182.5" y="158" text-anchor="middle">ARCHIVO</text>
+    <text x="457.5" y="158" text-anchor="middle">MEDICIÓN</text>
+    <text x="742.5" y="158" text-anchor="middle">RESULTADO LIMITADO</text>
+    <text x="1045" y="158" text-anchor="middle">PUENTE ADICIONAL</text>
+    <text x="1377.5" y="158" text-anchor="middle">NO HEREDADO</text>
+  </g>
+
+  <g filter="url(#shadow)">
+    <!-- Row 1 -->
+    <g>
+      <rect class="box" x="60" y="202" width="245" height="78" rx="12" fill="#1e3437" stroke="#4c7777"/>
+      <rect class="box" x="335" y="202" width="245" height="78" rx="12" fill="#203840" stroke="#4d7781"/>
+      <rect class="box" x="610" y="202" width="265" height="78" rx="12" fill="#233b3a" stroke="#57847d"/>
+      <rect class="box" x="905" y="202" width="280" height="78" rx="12" fill="#3d3525" stroke="#a77e42"/>
+      <rect class="box" x="1215" y="202" width="325" height="78" rx="12" fill="#3c292b" stroke="#98595f"/>
+      <text class="t body" x="182.5" y="232" text-anchor="middle">Prospección · lidar</text><text class="t small muted" x="182.5" y="257" text-anchor="middle">rasgo / sitio / fase</text>
+      <text class="t body" x="457.5" y="232" text-anchor="middle">área · densidad</text><text class="t small muted" x="457.5" y="257" text-anchor="middle">distancia · conexión</text>
+      <text class="t body" x="742.5" y="232" text-anchor="middle">patrón de asentamiento</text><text class="t small muted" x="742.5" y="257" text-anchor="middle">centralidad condicionada</text>
+      <text class="t body" x="1045" y="232" text-anchor="middle">fase + hogares + funciones</text><text class="t small muted" x="1045" y="257" text-anchor="middle">control terrestre</text>
+      <text class="t body" x="1377.5" y="232" text-anchor="middle">ciudad · Estado</text><text class="t small muted" x="1377.5" y="257" text-anchor="middle">población exacta</text>
+    </g>
+    <!-- Row 2 -->
+    <g>
+      <rect class="box" x="60" y="298" width="245" height="78" rx="12" fill="#1e3437" stroke="#4c7777"/>
+      <rect class="box" x="335" y="298" width="245" height="78" rx="12" fill="#203840" stroke="#4d7781"/>
+      <rect class="box" x="610" y="298" width="265" height="78" rx="12" fill="#233b3a" stroke="#57847d"/>
+      <rect class="box" x="905" y="298" width="280" height="78" rx="12" fill="#3d3525" stroke="#a77e42"/>
+      <rect class="box" x="1215" y="298" width="325" height="78" rx="12" fill="#3c292b" stroke="#98595f"/>
+      <text class="t body" x="182.5" y="328" text-anchor="middle">Casas · barrios</text><text class="t small muted" x="182.5" y="353" text-anchor="middle">planta / acceso / fase</text>
+      <text class="t body" x="457.5" y="328" text-anchor="middle">superficie · inversión</text><text class="t small muted" x="457.5" y="353" text-anchor="middle">contenido · distribución</text>
+      <text class="t body" x="742.5" y="328" text-anchor="middle">actividad doméstica</text><text class="t small muted" x="742.5" y="353" text-anchor="middle">variación material</text>
+      <text class="t body" x="1045" y="328" text-anchor="middle">unidad + contemporaneidad</text><text class="t small muted" x="1045" y="353" text-anchor="middle">transmisión independiente</text>
+      <text class="t body" x="1377.5" y="328" text-anchor="middle">hogar · clase · poder</text><text class="t small muted" x="1377.5" y="353" text-anchor="middle">identidad fija</text>
+    </g>
+    <!-- Row 3 -->
+    <g>
+      <rect class="box" x="60" y="394" width="245" height="78" rx="12" fill="#1e3437" stroke="#4c7777"/>
+      <rect class="box" x="335" y="394" width="245" height="78" rx="12" fill="#203840" stroke="#4d7781"/>
+      <rect class="box" x="610" y="394" width="265" height="78" rx="12" fill="#233b3a" stroke="#57847d"/>
+      <rect class="box" x="905" y="394" width="280" height="78" rx="12" fill="#3d3525" stroke="#a77e42"/>
+      <rect class="box" x="1215" y="394" width="325" height="78" rx="12" fill="#3c292b" stroke="#98595f"/>
+      <text class="t body" x="182.5" y="424" text-anchor="middle">Almacén · taller</text><text class="t small muted" x="182.5" y="449" text-anchor="middle">estructura / residuo</text>
+      <text class="t body" x="457.5" y="424" text-anchor="middle">capacidad · volumen</text><text class="t small muted" x="457.5" y="449" text-anchor="middle">pericia · acceso</text>
+      <text class="t body" x="742.5" y="424" text-anchor="middle">almacenar · producir</text><text class="t small muted" x="742.5" y="449" text-anchor="middle">especialización parcial</text>
+      <text class="t body" x="1045" y="424" text-anchor="middle">dedicación + dependencia</text><text class="t small muted" x="1045" y="449" text-anchor="middle">agente y control</text>
+      <text class="t body" x="1377.5" y="424" text-anchor="middle">tributo · oficio pleno</text><text class="t small muted" x="1377.5" y="449" text-anchor="middle">taller estatal</text>
+    </g>
+    <!-- Row 4 -->
+    <g>
+      <rect class="box" x="60" y="490" width="245" height="78" rx="12" fill="#1e3437" stroke="#4c7777"/>
+      <rect class="box" x="335" y="490" width="245" height="78" rx="12" fill="#203840" stroke="#4d7781"/>
+      <rect class="box" x="610" y="490" width="265" height="78" rx="12" fill="#233b3a" stroke="#57847d"/>
+      <rect class="box" x="905" y="490" width="280" height="78" rx="12" fill="#3d3525" stroke="#a77e42"/>
+      <rect class="box" x="1215" y="490" width="325" height="78" rx="12" fill="#3c292b" stroke="#98595f"/>
+      <text class="t body" x="182.5" y="520" text-anchor="middle">Sello · tablilla · peso</text><text class="t small muted" x="182.5" y="545" text-anchor="middle">soporte / masa / contexto</text>
+      <text class="t body" x="457.5" y="520" text-anchor="middle">género · contenido</text><text class="t small muted" x="457.5" y="545" text-anchor="middle">tolerancia · clúster</text>
+      <text class="t body" x="742.5" y="520" text-anchor="middle">registro · metrología</text><text class="t small muted" x="742.5" y="545" text-anchor="middle">administración local</text>
+      <text class="t body" x="1045" y="520" text-anchor="middle">usuarios + jurisdicción</text><text class="t small muted" x="1045" y="545" text-anchor="middle">emisión/control</text>
+      <text class="t body" x="1377.5" y="520" text-anchor="middle">alfabetización · Estado</text><text class="t small muted" x="1377.5" y="545" text-anchor="middle">decreto central</text>
+    </g>
+    <!-- Row 5 -->
+    <g>
+      <rect class="box" x="60" y="586" width="245" height="78" rx="12" fill="#1e3437" stroke="#4c7777"/>
+      <rect class="box" x="335" y="586" width="245" height="78" rx="12" fill="#203840" stroke="#4d7781"/>
+      <rect class="box" x="610" y="586" width="265" height="78" rx="12" fill="#233b3a" stroke="#57847d"/>
+      <rect class="box" x="905" y="586" width="280" height="78" rx="12" fill="#3d3525" stroke="#a77e42"/>
+      <rect class="box" x="1215" y="586" width="325" height="78" rx="12" fill="#3c292b" stroke="#98595f"/>
+      <text class="t body" x="182.5" y="616" text-anchor="middle">Entierro · isótopo · ADN</text><text class="t small muted" x="182.5" y="641" text-anchor="middle">individuo / tejido</text>
+      <text class="t body" x="457.5" y="616" text-anchor="middle">tratamiento · dieta</text><text class="t small muted" x="457.5" y="641" text-anchor="middle">movilidad · parentesco</text>
+      <text class="t body" x="742.5" y="616" text-anchor="middle">historia biológica</text><text class="t small muted" x="742.5" y="641" text-anchor="middle">diferenciación mortuoria</text>
+      <text class="t body" x="1045" y="616" text-anchor="middle">vida social + recurrencia</text><text class="t small muted" x="1045" y="641" text-anchor="middle">muestra representativa</text>
+      <text class="t body" x="1377.5" y="616" text-anchor="middle">etnia · lengua · clase</text><text class="t small muted" x="1377.5" y="641" text-anchor="middle">ciudadanía · Estado</text>
+    </g>
+    <!-- Row 6 -->
+    <g>
+      <rect class="box" x="60" y="682" width="245" height="78" rx="12" fill="#1e3437" stroke="#4c7777"/>
+      <rect class="box" x="335" y="682" width="245" height="78" rx="12" fill="#203840" stroke="#4d7781"/>
+      <rect class="box" x="610" y="682" width="265" height="78" rx="12" fill="#233b3a" stroke="#57847d"/>
+      <rect class="box" x="905" y="682" width="280" height="78" rx="12" fill="#3d3525" stroke="#a77e42"/>
+      <rect class="box" x="1215" y="682" width="325" height="78" rx="12" fill="#3c292b" stroke="#98595f"/>
+      <text class="t body" x="182.5" y="712" text-anchor="middle">Paleoambiente</text><text class="t small muted" x="182.5" y="737" text-anchor="middle">testigo / sedimento / geoforma</text>
+      <text class="t body" x="457.5" y="712" text-anchor="middle">agua · clima · cambio</text><text class="t small muted" x="457.5" y="737" text-anchor="middle">resolución propia</text>
+      <text class="t body" x="742.5" y="712" text-anchor="middle">oportunidad · restricción</text><text class="t small muted" x="742.5" y="737" text-anchor="middle">paisaje modificado</text>
+      <text class="t body" x="1045" y="712" text-anchor="middle">mecanismo + desfase</text><text class="t small muted" x="1045" y="737" text-anchor="middle">casos negativos</text>
+      <text class="t body" x="1377.5" y="712" text-anchor="middle">causa política única</text><text class="t small muted" x="1377.5" y="737" text-anchor="middle">despotismo · colapso total</text>
+    </g>
+  </g>
+
+  <g>
+    <path class="flow" d="M305 241H329"/><path class="flow" d="M580 241H604"/><path class="gate" d="M875 241H899"/><path class="gate" d="M1185 241H1209"/>
+    <path class="flow" d="M305 337H329"/><path class="flow" d="M580 337H604"/><path class="gate" d="M875 337H899"/><path class="gate" d="M1185 337H1209"/>
+    <path class="flow" d="M305 433H329"/><path class="flow" d="M580 433H604"/><path class="gate" d="M875 433H899"/><path class="gate" d="M1185 433H1209"/>
+    <path class="flow" d="M305 529H329"/><path class="flow" d="M580 529H604"/><path class="gate" d="M875 529H899"/><path class="gate" d="M1185 529H1209"/>
+    <path class="flow" d="M305 625H329"/><path class="flow" d="M580 625H604"/><path class="gate" d="M875 625H899"/><path class="gate" d="M1185 625H1209"/>
+    <path class="flow" d="M305 721H329"/><path class="flow" d="M580 721H604"/><path class="gate" d="M875 721H899"/><path class="gate" d="M1185 721H1209"/>
+  </g>
+
+  <g class="t small">
+    <rect x="60" y="790" width="1480" height="48" rx="12" fill="#17282d" stroke="#3e5e63"/>
+    <line x1="88" y1="814" x2="132" y2="814" stroke="#79b8b1" stroke-width="3"/><text x="145" y="820">operación directa o delimitada</text>
+    <line x1="452" y1="814" x2="496" y2="814" stroke="#d7a657" stroke-width="3" stroke-dasharray="7 6"/><text x="509" y="820">puente condicionado: necesita archivo independiente</text>
+    <rect x="1020" y="803" width="18" height="18" rx="3" fill="#3c292b" stroke="#98595f"/><text x="1050" y="820">conclusión no heredada</text>
+  </g>
+  <text class="t tiny muted" x="60" y="866">Composición epistemológica · no es mapa, jerarquía social, secuencia histórica ni lista universal · INV-CITIES-STATES-001 · v0.1.50</text>
+</svg>

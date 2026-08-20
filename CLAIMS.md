@@ -4038,3 +4038,36 @@ Este archivo es el índice canónico. La letra de confianza califica exactamente
 ## Claims futuros
 
 Las entradas cronológicas todavía no auditadas permanecen como eventos `SEMILLA` en `TIMELINE.md`. Se convertirán en claims al llegar su turno en el roadmap; así se evita otorgar apariencia de auditoría a fechas usadas inicialmente solo como orientación.
+
+## Registro tabular de la Investigación 051
+
+| ID | Afirmación delimitada | Confianza | Estado | Evidencias principales | Investigación |
+|---|---|---|---|---|---|
+| `CLAIM-CITIES-STATES-SCOPE-001` | Residencia, aldea, agregación, densidad, especialización, administración, desigualdad, jerarquía, autoridad, coerción, ciudad, Estado e imperio son resultados operacionales distintos. | A-SEM | AUDITADO | `EVID-CITIES-STATES-METHOD-001` | `INV-CITIES-STATES-001` |
+| `CLAIM-CITIES-STATES-NONINHERITANCE-001` | Ningún resultado hereda automáticamente los demás; una secuencia comparativa requiere puentes y relojes por archivo. | A-SEM/B | AUDITADO | `EVID-CITIES-STATES-METHOD-001`, `EVID-ARCHIVE-MATRIX-051-001` | `INV-CITIES-STATES-001` |
+| `CLAIM-URBANISM-STATE-SEPARATE-001` | Puede haber ciudad sin Estado centralizado demostrado y Estado sin gran ciudad; tamaño y forma política deben medirse por separado. | A-SEM/B-COND | AUDITADO | `EVID-AFRICA-URBAN-POLYCENTRIC-051-001`, `EVID-EGYPT-CHRONOLOGY-051-001`, `EVID-ANDES-AMAZON-URBANISM-051-001` | `INV-CITIES-STATES-001` |
+| `CLAIM-ARCHIVES-DIFFERENT-QUESTIONS-001` | Prospección, casas, arquitectura pública, producción, entierros, registros, medidas, isótopos, genomas y paleoambiente responden preguntas y escalas diferentes. | A-SEM | AUDITADO | `EVID-ARCHIVE-MATRIX-051-001` | `INV-CITIES-STATES-001` |
+| `CLAIM-HYDRAULIC-NOT-DESPOTISM-001` | Infraestructura o oportunidad hidráulica puede restringir coordinación y producción, pero no implica despotismo, coerción o Estado por necesidad. | B-SÍNTESIS | AUDITADO | `EVID-MESOPOTAMIA-URBAN-PATHS-051-001`, `EVID-STATE-MODELS-051-001` | `INV-CITIES-STATES-001` |
+| `CLAIM-EGYPT-STATE-CHRONOLOGY-001` | El modelo bayesiano restringe el tempo de formación estatal egipcia; fechas de muestras no observan soberanía, frontera o «unificación». | B-COND | AUDITADO | `EVID-EGYPT-CHRONOLOGY-051-001`, `EVID-CIV-EGYPT-CHRONOLOGY-001` | `INV-CITIES-STATES-001` |
+| `CLAIM-INDUS-DEURBANIZATION-TRANSFORMATION-001` | La desurbanización del Indo implicó desnucleación y redistribución de asentamientos/prácticas, no desaparición automática de sus poblaciones. | B-COND | AUDITADO | `EVID-INDUS-LANDSCAPE-051-001` | `INV-CITIES-STATES-001` |
+| `CLAIM-ERLITOU-STATE-CONDITIONAL-001` | Nucleación, cuatro niveles de asentamiento, vías, talleres y edificios apoyan centralidad de Erlitou; capital/realeza/Estado requieren jurisdicción y extracción adicionales. | B para archivo; C-COND forma política | AUDITADO | `EVID-ERLITOU-SETTLEMENT-051-001` | `INV-CITIES-STATES-001` |
+| `CLAIM-MONUMENT-NOT-STATE-001` | Inversión monumental demuestra coordinación e inversión bajo contexto; no identifica automáticamente dinastía, coerción, templo o Estado. | A-SEM/B | AUDITADO | `EVID-MESOAMERICA-SETTLEMENT-051-001`, `EVID-ANDES-AMAZON-URBANISM-051-001` | `INV-CITIES-STATES-001` |
+| `CLAIM-ANDES-MONUMENT-NOT-STATE-001` | Las fechas de Norte Chico fijan ocupaciones monumentales aproximadamente `3000–1800 a. C.` sin decidir la forma política. | B cronología; C organización | AUDITADO | `EVID-CIV-NORTECHICO-DATES-001`, `EVID-ANDES-AMAZON-URBANISM-051-001` | `INV-CITIES-STATES-001` |
+| `CLAIM-AFRICA-URBANISM-POLYCENTRIC-001` | Jenne-jeno y Great Zimbabwe muestran urbanismo, redes y policentrismo africanos sin exigir ciudad compacta, escritura o relevo lineal de capitales. | B-COND | AUDITADO | `EVID-AFRICA-URBAN-POLYCENTRIC-051-001` | `INV-CITIES-STATES-001` |
+| `CLAIM-INEQUALITY-MULTIDIMENSIONAL-001` | Variación doméstica, riqueza, transmisión, rango, clase y poder político requieren proxies y puentes distintos. | A-SEM/B | AUDITADO | `EVID-INEQUALITY-051-001`, `EVID-CIV-HOUSE-GINI-001` | `INV-CITIES-STATES-001` |
+| `CLAIM-STANDARDIZATION-NOT-CENTRAL-001` | Medidas estandarizadas pueden emerger por copia e interacción entre usuarios; no prueban control central sin archivo institucional. | B-COND | AUDITADO | `EVID-STANDARDIZATION-051-001` | `INV-CITIES-STATES-001` |
+| `CLAIM-WRITING-NOT-STATE-REQUIREMENT-001` | Escritura y Estado están asociados en comparaciones, pero existen Estados sin escritura y registros locales no demuestran alfabetización o soberanía. | B-SÍNTESIS | AUDITADO | `EVID-WRITING-STATE-051-001`, `EVID-CIV-CDLI-P003414-001` | `INV-CITIES-STATES-001` |
+| `CLAIM-STATE-CAUSES-MULTIMODEL-001` | Demografía, circunscripción, irrigación, guerra, comercio, ritual, información, ecología y agencia son hipótesis parciales, causales o recíprocas, con predicciones y falsadores. | B-SÍNTESIS | AUDITADO | `EVID-STATE-MODELS-051-001` | `INV-CITIES-STATES-001` |
+| `CLAIM-COLLAPSE-TRANSFORMATION-001` | «Colapso» debe desagregarse en transformación, fragmentación, migración, cambio institucional o pérdida diferencial de archivo; no equivale a desaparición de pueblos. | B-SÍNTESIS | AUDITADO | `EVID-COLLAPSE-TRANSFORM-051-001`, `EVID-INDUS-LANDSCAPE-051-001` | `INV-CITIES-STATES-001` |
+| `CLAIM-ANCESTRY-NOT-POLITY-001` | Parentesco y ancestría no identifican por sí solos etnia, lengua, ciudadanía, clase, oficio, Estado o imperio. | A-SEM | AUDITADO | `EVID-ANCESTRY-POLITY-051-001` | `INV-CITIES-STATES-001` |
+| `CLAIM-CIV051-RECONCILIATION-001` | La 051 profundiza y audita sin sustituir `INV-CIV-ORIGINS-001`; los IDs CIV reutilizados conservan proposición y estado `TRAZADO`. | A-SEM | AUDITADO | `EVID-CITIES-STATES-METHOD-001` | `INV-CITIES-STATES-001` |
+
+## Investigación 051 — Aldeas, ciudades y Estados
+
+- **Partición:** dieciocho categorías operacionales sin herencia automática.
+- **Regiones:** Mesopotamia, Nilo, Indo, China, Mesoamérica, Andes/Amazonia y África se comparan sin plantilla ni reloj único.
+- **Archivos:** asentamiento, hogares, producción, registros, medidas, entierros, ambiente y biología conservan preguntas separadas.
+- **Política:** ciudad, Estado e imperio necesitan criterios propios; monumento, muralla y escritura no funcionan como atajos.
+- **Causalidad:** cada modelo declara mecanismo, escala, alternativa y falsador.
+- **Transformación:** «colapso» se traduce a cambios medibles y continuidades posibles.
+- **Reconciliación:** CIV-001 sigue `TRAZADO`; sólo se reutilizan proposiciones idénticas.

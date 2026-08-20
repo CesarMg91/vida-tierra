@@ -1,0 +1,111 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Cronología regional multirreloj de ciudades y Estados</title>
+  <desc id="desc">Cuatro paneles con escalas temporales independientes para Mesopotamia y Nilo, Indo y China, Mesoamérica y Andes-Amazonia, y África occidental y austral.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#111b22"/><stop offset="1" stop-color="#1b282f"/></linearGradient>
+    <style>
+      .t{font-family:Inter,Segoe UI,Arial,sans-serif;fill:#edf3f1}.muted{fill:#aebfbd}.panel{fill:#192a31;stroke:#3f5c64;stroke-width:1.5}.axis{stroke:#6e8788;stroke-width:1.5}.tick{stroke:#526b6d;stroke-width:1}.label{font-size:15px;font-weight:650}.small{font-size:13px}.tiny{font-size:12px}.barA{fill:#4f8f91}.barB{fill:#a47742}.barC{fill:#6d8f68}.barD{fill:#85677f}.dot{stroke:#e8f0ed;stroke-width:1.4}
+    </style>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <circle cx="1490" cy="80" r="160" fill="#27424a" opacity=".18"/><circle cx="80" cy="840" r="180" fill="#2c4038" opacity=".17"/>
+
+  <text class="t" x="55" y="58" font-size="31" font-weight="760">Investigación 051 · cronologías regionales, no una escalera</text>
+  <text class="t muted" x="55" y="91" font-size="17">Cada panel usa su propio reloj. Las barras delimitan archivos y fases; no miden «avance», Estado continuo, difusión ni causalidad.</text>
+
+  <!-- Panel A -->
+  <g transform="translate(55 130)">
+    <rect class="panel" width="355" height="640" rx="16"/>
+    <text class="t" x="22" y="40" font-size="20" font-weight="730">Mesopotamia · Nilo</text>
+    <text class="t muted small" x="22" y="64">escala local: 4600–3000 a. C.</text>
+    <line class="axis" x1="35" y1="108" x2="325" y2="108"/>
+    <g class="t tiny muted" text-anchor="middle">
+      <line class="tick" x1="35" y1="100" x2="35" y2="116"/><text x="35" y="133">4600</text>
+      <line class="tick" x1="108" y1="100" x2="108" y2="116"/><text x="108" y="133">4200</text>
+      <line class="tick" x1="180" y1="100" x2="180" y2="116"/><text x="180" y="133">3800</text>
+      <line class="tick" x1="253" y1="100" x2="253" y2="116"/><text x="253" y="133">3400</text>
+      <line class="tick" x1="325" y1="100" x2="325" y2="116"/><text x="325" y="133">3000</text>
+    </g>
+    <text class="t label" x="22" y="184">Tell Brak</text><text class="t muted small" x="22" y="205">concentración urbana septentrional</text>
+    <rect class="barA" x="44" y="222" width="92" height="22" rx="8"/><text class="t tiny" x="90" y="238" text-anchor="middle">fines V mil. a. C.</text>
+    <text class="t label" x="22" y="300">P003414 · Uruk IV</text><text class="t muted small" x="22" y="321">objeto administrativo, no territorio</text>
+    <rect class="barB" x="246" y="338" width="28" height="22" rx="8"/><text class="t tiny" x="260" y="381" text-anchor="middle">3350–3200</text>
+    <text class="t label" x="22" y="435">Egipto temprano</text><text class="t muted small" x="22" y="456">186 fechas + modelo bayesiano</text>
+    <circle class="barD dot" cx="307" cy="481" r="11"/><text class="t tiny" x="307" y="512" text-anchor="middle">~3100</text>
+    <rect x="22" y="548" width="311" height="66" rx="10" fill="#23363c" stroke="#465f64"/>
+    <text class="t small" x="36" y="575">Relojes: superficie/fase, objeto,</text><text class="t small" x="36" y="596">muestra + priors. No se promedian.</text>
+  </g>
+
+  <!-- Panel B -->
+  <g transform="translate(435 130)">
+    <rect class="panel" width="355" height="640" rx="16"/>
+    <text class="t" x="22" y="40" font-size="20" font-weight="730">Indo · China</text>
+    <text class="t muted small" x="22" y="64">escala local: 2700–1400 a. C.</text>
+    <line class="axis" x1="35" y1="108" x2="325" y2="108"/>
+    <g class="t tiny muted" text-anchor="middle">
+      <line class="tick" x1="35" y1="100" x2="35" y2="116"/><text x="35" y="133">2700</text>
+      <line class="tick" x1="108" y1="100" x2="108" y2="116"/><text x="108" y="133">2375</text>
+      <line class="tick" x1="180" y1="100" x2="180" y2="116"/><text x="180" y="133">2050</text>
+      <line class="tick" x1="253" y1="100" x2="253" y2="116"/><text x="253" y="133">1725</text>
+      <line class="tick" x1="325" y1="100" x2="325" y2="116"/><text x="325" y="133">1400</text>
+    </g>
+    <text class="t label" x="22" y="184">Indo urbano maduro</text><text class="t muted small" x="22" y="205">centros + red; política discutida</text>
+    <rect class="barA" x="57" y="222" width="156" height="22" rx="8"/><text class="t tiny" x="135" y="238" text-anchor="middle">2600–1900 a. C.</text>
+    <text class="t label" x="22" y="300">Desnucleación</text><text class="t muted small" x="22" y="321">redistribución, no desaparición</text>
+    <rect class="barD" x="213" y="338" width="73" height="22" rx="8"/><text class="t tiny" x="249.5" y="381" text-anchor="middle">después de ~1900</text>
+    <text class="t label" x="22" y="435">Erlitou / Yiluo</text><text class="t muted small" x="22" y="456">nucleación, vías, talleres, niveles</text>
+    <rect class="barB" x="213" y="474" width="90" height="22" rx="8"/><text class="t tiny" x="258" y="512" text-anchor="middle">~1900–1500</text>
+    <rect x="22" y="548" width="311" height="66" rx="10" fill="#23363c" stroke="#465f64"/>
+    <text class="t small" x="36" y="575">Relojes: fase urbana, prospección,</text><text class="t small" x="36" y="596">paisaje y edificio. «Estado» es puente.</text>
+  </g>
+
+  <!-- Panel C -->
+  <g transform="translate(815 130)">
+    <rect class="panel" width="355" height="640" rx="16"/>
+    <text class="t" x="22" y="40" font-size="20" font-weight="730">Américas</text>
+    <text class="t muted small" x="22" y="64">relojes locales: 3000 a. C.–1500 d. C.</text>
+    <text class="t label" x="22" y="118">Norte Chico</text><text class="t muted small" x="22" y="139">95 fechas · 13 sitios monumentales</text>
+    <rect class="barA" x="35" y="156" width="108" height="22" rx="8"/><text class="t tiny" x="89" y="194" text-anchor="middle">3000–1800 a. C.</text>
+    <text class="t label" x="22" y="241">Aguada Fénix</text><text class="t muted small" x="22" y="262">plataforma; coordinación ≠ Estado</text>
+    <rect class="barB" x="168" y="279" width="32" height="22" rx="8"/><text class="t tiny" x="184" y="317" text-anchor="middle">1000–800 a. C.</text>
+    <text class="t label" x="22" y="364">Teotihuacan</text><text class="t muted small" x="22" y="385">huella residencial; gobierno abierto</text>
+    <rect class="barD" x="218" y="402" width="49" height="22" rx="8"/><text class="t tiny" x="242.5" y="440" text-anchor="middle">siglos I–VI d. C.</text>
+    <text class="t label" x="22" y="487">Alta Amazonia</text><text class="t muted small" x="22" y="508">urbanismo-jardín · fases múltiples</text>
+    <rect class="barC" x="200" y="525" width="105" height="22" rx="8"/><text class="t tiny" x="252.5" y="563" text-anchor="middle">~dos milenios</text>
+    <rect x="22" y="575" width="311" height="39" rx="10" fill="#23363c" stroke="#465f64"/>
+    <text class="t tiny" x="36" y="599">Monumento, ciudad compacta y Estado: ejes separados.</text>
+  </g>
+
+  <!-- Panel D -->
+  <g transform="translate(1195 130)">
+    <rect class="panel" width="350" height="640" rx="16"/>
+    <text class="t" x="22" y="40" font-size="20" font-weight="730">África occidental · austral</text>
+    <text class="t muted small" x="22" y="64">escala local: 300 a. C.–1800 d. C.</text>
+    <line class="axis" x1="35" y1="108" x2="320" y2="108"/>
+    <g class="t tiny muted" text-anchor="middle">
+      <line class="tick" x1="35" y1="100" x2="35" y2="116"/><text x="35" y="133">300 a. C.</text>
+      <line class="tick" x1="103" y1="100" x2="103" y2="116"/><text x="103" y="133">200</text>
+      <line class="tick" x1="171" y1="100" x2="171" y2="116"/><text x="171" y="133">700</text>
+      <line class="tick" x1="239" y1="100" x2="239" y2="116"/><text x="239" y="133">1200</text>
+      <line class="tick" x1="320" y1="100" x2="320" y2="116"/><text x="320" y="133">1800 d. C.</text>
+    </g>
+    <text class="t label" x="22" y="184">Jenne-jeno</text><text class="t muted small" x="22" y="205">residencia, hierro, intercambio</text>
+    <rect class="barC" x="42" y="222" width="231" height="22" rx="8"/><text class="t tiny" x="157.5" y="238" text-anchor="middle">III a. C.–~1400 d. C.</text>
+    <text class="t label" x="22" y="300">Apogeo Jenne-jeno</text><text class="t muted small" x="22" y="321">área &gt;33 ha; centralización abierta</text>
+    <rect class="barA" x="178" y="338" width="48" height="22" rx="8"/><text class="t tiny" x="202" y="381" text-anchor="middle">~750–1100</text>
+    <text class="t label" x="22" y="435">Great Zimbabwe</text><text class="t muted small" x="22" y="456">fases no coetáneas y solapamiento</text>
+    <rect class="barB" x="211" y="474" width="109" height="22" rx="8"/><text class="t tiny" x="265.5" y="512" text-anchor="middle">~1000–1800</text>
+    <rect x="22" y="548" width="306" height="66" rx="10" fill="#23363c" stroke="#465f64"/>
+    <text class="t small" x="36" y="575">Relojes: secuencia, área, Bayes y</text><text class="t small" x="36" y="596">población modelada. No relevo lineal.</text>
+  </g>
+
+  <g class="t small">
+    <rect x="55" y="795" width="1490" height="48" rx="12" fill="#17282d" stroke="#3e5e63"/>
+    <rect class="barA" x="80" y="810" width="28" height="16" rx="5"/><text x="120" y="824">asentamiento / fase</text>
+    <rect class="barB" x="345" y="810" width="28" height="16" rx="5"/><text x="385" y="824">objeto / construcción</text>
+    <rect class="barC" x="665" y="810" width="28" height="16" rx="5"/><text x="705" y="824">red / trayectoria</text>
+    <rect class="barD" x="935" y="810" width="28" height="16" rx="5"/><text x="975" y="824">transformación / modelo</text>
+    <circle class="barD dot" cx="1310" cy="818" r="8"/><text x="1330" y="824">evento aproximado</text>
+  </g>
+  <text class="t tiny muted" x="55" y="872">Ventanas regionales no equivalentes · barras no conectadas · ausencia de barra no significa ausencia de urbanismo, desigualdad o autoridad · v0.1.50</text>
+</svg>
