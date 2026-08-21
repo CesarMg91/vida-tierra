@@ -736,3 +736,23 @@ La matriz cruza dimensiones con archivo, medición, resultado permitido y salto 
 ![Cronología por paneles y relojes regionales](assets/visuales/cronologia-civilizaciones-paneles.svg)
 
 Seis paneles regionales distinguen ventanas de muestra/capa, fase, sistema de registro e institución. Cada panel conserva su propio reloj; la posición vertical/horizontal no identifica prioridad, influencia, progreso o ganador.
+
+## Portadas incorporadas para la experiencia pública
+
+### Investigación 001 — Edad de la Tierra
+
+![Portada editorial de archivos geocronológicos separados](assets/visuales/hero-edad-tierra.png)
+
+Meteorito, zircon, roca e instrumental son genéricos y no forman una muestra, un laboratorio o una medición reales. La composición representa convergencia de archivos, no una lectura directa de la edad terrestre.
+
+### Investigación 002 — Historia y edad del universo
+
+![Portada editorial de archivos cosmológicos separados](assets/visuales/hero-edad-universo.png)
+
+Espectro, fondo de microondas, relación distancia–corrimiento y población estelar son metáforas de clases de evidencia. Ninguna placa contiene datos publicados y el campo de fondo no representa una explosión central ni una geometría observada del universo completo.
+
+### CIV-001 — De aldeas a ciudades y Estados
+
+![Portada editorial de archivos arqueológicos comparativos](assets/visuales/hero-civ-001-origenes.png)
+
+Las bandejas son genéricas, no georreferenciadas y no coetáneas. No forman una secuencia, un centro, una ruta o una escala de progreso. La bandeja vacía representa evidencia no disponible; no prueba ausencia histórica.

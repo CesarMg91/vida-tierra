@@ -26,6 +26,7 @@ _borradores_locales/
 # Sitio Next.js (generado)
 node_modules/
 .next/
+.generated/
 out/
 public/
 next-env.d.ts

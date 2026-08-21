@@ -32,6 +32,10 @@ fuentes:
 
 # Investigación 002 — ¿Cómo sabemos que el universo tiene una historia y una edad finita?
 
+![Portada editorial de archivos cosmológicos independientes](../assets/visuales/hero-edad-universo.png)
+
+La portada es una **composición editorial no probatoria**. Las placas representan clases de observación separadas —espectros, fondo de microondas, relaciones distancia–corrimiento y poblaciones estelares—; no son datos reales, no están a escala y no dibujan una explosión desde un centro.
+
 ![Convergencia de evidencias cosmológicas](../assets/visuales/mapa-investigacion-002.svg)
 
 > **Pregunta de primeros principios:** si nadie pudiera citarnos un libro de cosmología, ¿qué señales actuales permitirían reconstruir que el universo fue más caliente y denso, que se ha expandido y que, dentro de un modelo contrastado, su historia observable abarca aproximadamente 13.8 mil millones de años?

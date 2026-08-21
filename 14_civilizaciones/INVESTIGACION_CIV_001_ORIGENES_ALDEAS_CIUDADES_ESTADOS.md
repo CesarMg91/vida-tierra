@@ -43,6 +43,10 @@ fuentes:
 
 # CIV-001 — De residencias y cultivos a ciudades y Estados, sin una escalera universal
 
+![Portada editorial de archivos comparativos no coetáneos](../assets/visuales/hero-civ-001-origenes.png)
+
+La portada es una **composición editorial no probatoria**. Las bandejas contienen archivos genéricos y no coetáneos; la disposición paralela no representa regiones, una secuencia, una ruta, un ranking ni una forma política. El compartimento vacío hace visible que dato ausente no equivale a ausencia histórica.
+
 ![Mapa epistemológico de sedentarismo, producción, urbanismo, administración y Estado](../assets/visuales/mapa-epistemologico-civ-001.svg)
 
 ![Cronología sincronizada por carriles regionales](../assets/visuales/cronologia-civ-001-carriles.svg)

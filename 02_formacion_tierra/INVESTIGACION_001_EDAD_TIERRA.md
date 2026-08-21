@@ -1,7 +1,7 @@
 ---
 id: INV-EARTH-AGE-001
 titulo: "¿Cómo sabemos la edad de la Tierra y cómo reconstruimos sus primeros cientos de millones de años?"
-estado: AUDITADO_V0.1
+estado: AUDITADO
 ultima_revision: 2026-08-10
 claims:
   - CLAIM-EARTH-AGE-001
@@ -17,6 +17,10 @@ claims:
 ---
 
 # Investigación 001 — ¿Cómo sabemos la edad de la Tierra?
+
+![Portada editorial de archivos geocronológicos separados](../assets/visuales/hero-edad-tierra.png)
+
+La portada es una **composición editorial no probatoria**. Meteorito, zircon, roca estratificada e instrumental son genéricos y no proceden de una misma muestra o medición. Su convergencia visual no sustituye calibración, procedencia, sistemas isotópicos ni modelos de formación.
 
 ![Mapa de evidencia de la Investigación 001](../assets/visuales/mapa-investigacion-001.svg)
 

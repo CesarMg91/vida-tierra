@@ -40,3 +40,9 @@ function copyDir(src, dest) {
 
 copyDir(SRC, DEST);
 console.log(`prepare-site: ${copied} archivos copiados, ${skipped} sin cambios -> public/assets/`);
+
+const { buildPublicData, writeGeneratedContent, writePublicData } = await import("./public-data-core.mjs");
+const publicData = buildPublicData();
+writePublicData(publicData);
+writeGeneratedContent(publicData);
+console.log(`prepare-site: ${publicData.catalog.length} investigaciones indexadas -> public/data/`);

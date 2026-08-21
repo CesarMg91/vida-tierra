@@ -3,8 +3,9 @@
 import { useState } from "react";
 import { usePathname } from "next/navigation";
 import Link from "next/link";
+import type { ContentIndexRecord, NavData } from "../lib/content";
 
-function itemLabel(doc, sectionName) {
+function itemLabel(doc: ContentIndexRecord, sectionName: string) {
   if (!doc.file.endsWith("README.md")) return doc.title;
   // El README de la propia seccion la presenta; los de subcarpetas se nombran
   // por su carpeta, para no repetir "Presentación" dentro de un mismo grupo.
@@ -13,14 +14,14 @@ function itemLabel(doc, sectionName) {
   return dir.slice(sectionName.length + 1).replace(/_/g, " ");
 }
 
-export default function Sidebar({ nav }) {
+export default function Sidebar({ nav }: { nav: NavData }) {
   const pathname = usePathname();
   const [open, setOpen] = useState(false);
   const current = decodeURIComponent(pathname).replace(/^\//, "");
 
   return (
     <>
-      <button className="nav-toggle" onClick={() => setOpen((v) => !v)} aria-expanded={open}>
+      <button type="button" className="nav-toggle" onClick={() => setOpen((value) => !value)} aria-expanded={open}>
         {open ? "Cerrar índice" : "Índice"}
       </button>
       <nav className={`sidebar${open ? " open" : ""}`} aria-label="Índice del repositorio">

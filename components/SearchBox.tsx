@@ -1,19 +1,21 @@
 "use client";
 
 import { useMemo, useRef, useState, useEffect } from "react";
+import type { KeyboardEvent as ReactKeyboardEvent } from "react";
 import { useRouter } from "next/navigation";
+import type { SearchIndexRecord } from "../lib/content";
 
 /** Quita acentos y baja a minusculas para buscar sin tildes. */
-function fold(s) {
+function fold(s: string) {
   return s.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase();
 }
 
-export default function SearchBox({ index }) {
+export default function SearchBox({ index }: { index: SearchIndexRecord[] }) {
   const router = useRouter();
   const [q, setQ] = useState("");
   const [focused, setFocused] = useState(false);
   const [cursor, setCursor] = useState(0);
-  const boxRef = useRef(null);
+  const boxRef = useRef<HTMLDivElement>(null);
 
   const folded = useMemo(
     () => index.map((d) => ({ ...d, ft: fold(d.t), fh: d.h.map(fold), fs: fold(d.s) })),
@@ -44,12 +46,12 @@ export default function SearchBox({ index }) {
   useEffect(() => setCursor(0), [q]);
 
   useEffect(() => {
-    function onDocClick(e) {
-      if (boxRef.current && !boxRef.current.contains(e.target)) setFocused(false);
+    function onDocClick(event: MouseEvent) {
+      if (boxRef.current && event.target instanceof Node && !boxRef.current.contains(event.target)) setFocused(false);
     }
-    function onKey(e) {
-      if (e.key === "/" && document.activeElement?.tagName !== "INPUT") {
-        e.preventDefault();
+    function onKey(event: KeyboardEvent) {
+      if (event.key === "/" && document.activeElement?.tagName !== "INPUT") {
+        event.preventDefault();
         boxRef.current?.querySelector("input")?.focus();
       }
     }
@@ -61,24 +63,24 @@ export default function SearchBox({ index }) {
     };
   }, []);
 
-  function go(slug) {
+  function go(slug: string) {
     setQ("");
     setFocused(false);
     router.push(`/${slug}`);
   }
 
-  function onKeyDown(e) {
+  function onKeyDown(event: ReactKeyboardEvent<HTMLInputElement>) {
     if (!results.length) return;
-    if (e.key === "ArrowDown") {
-      e.preventDefault();
+    if (event.key === "ArrowDown") {
+      event.preventDefault();
       setCursor((c) => (c + 1) % results.length);
-    } else if (e.key === "ArrowUp") {
-      e.preventDefault();
+    } else if (event.key === "ArrowUp") {
+      event.preventDefault();
       setCursor((c) => (c - 1 + results.length) % results.length);
-    } else if (e.key === "Enter") {
-      e.preventDefault();
+    } else if (event.key === "Enter") {
+      event.preventDefault();
       go(results[cursor].s);
-    } else if (e.key === "Escape") {
+    } else if (event.key === "Escape") {
       setFocused(false);
     }
   }
@@ -98,7 +100,7 @@ export default function SearchBox({ index }) {
         <ul className="search-results">
           {results.map((r, i) => (
             <li key={r.s}>
-              <button className={i === cursor ? "active" : ""} onMouseEnter={() => setCursor(i)} onClick={() => go(r.s)}>
+              <button type="button" className={i === cursor ? "active" : ""} onMouseEnter={() => setCursor(i)} onClick={() => go(r.s)}>
                 <span className="sr-title">{r.t}</span>
                 <span className="sr-path">{r.g || "raíz"}</span>
               </button>
