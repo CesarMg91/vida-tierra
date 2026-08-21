@@ -64,8 +64,22 @@ export function researchKeyFromFile(file) {
   const name = path.posix.basename(normalizePath(file));
   const numeric = name.match(/^INVESTIGACION_(\d{3})_/);
   if (numeric) return numeric[1];
-  if (/^INVESTIGACION_CIV_001_/.test(name)) return "CIV-001";
+  const thematic = name.match(/^INVESTIGACION_(CIV)_(\d{3})_/);
+  if (thematic) return `${thematic[1]}-${thematic[2]}`;
   return null;
+}
+
+export function thematicResearchOrder(key) {
+  const match = String(key ?? "").match(/^CIV-(\d{3})$/);
+  return match ? Number(match[1]) : null;
+}
+
+export function compareResearchRecords(a, b) {
+  if (a.order !== null && b.order !== null) return a.order - b.order;
+  if (a.order !== null) return -1;
+  if (b.order !== null) return 1;
+  return (thematicResearchOrder(a.key) ?? Number.MAX_SAFE_INTEGER) -
+    (thematicResearchOrder(b.key) ?? Number.MAX_SAFE_INTEGER);
 }
 
 export function listResearchFiles(files = walkMarkdown()) {
@@ -275,7 +289,7 @@ export function createResearchRecord(file, editorialCatalog) {
   const status = String(parsed.data.estado ?? "");
   return {
     id: String(parsed.data.id ?? ""),
-    order: key === "CIV-001" ? null : Number(key),
+    order: thematicResearchOrder(key) === null ? Number(key) : null,
     key,
     slug: fileToSlug(file),
     file,
@@ -402,7 +416,7 @@ export function buildPublicData() {
   const researchFiles = listResearchFiles(files);
   const catalog = researchFiles
     .map((file) => createResearchRecord(file, editorial))
-    .sort((a, b) => (a.order ?? Number.MAX_SAFE_INTEGER) - (b.order ?? Number.MAX_SAFE_INTEGER));
+    .sort(compareResearchRecords);
   const catalogBySlug = new Map(catalog.map((record) => [record.slug, record]));
 
   const siteIndex = [];

@@ -48,6 +48,7 @@ export default function ResearchExplorer({ records }: { records: CatalogListingR
   }, [collection, duration, era, query, records, status, theme]);
 
   const hasFilters = Boolean(query || collection || era || theme || status || duration);
+  const thematic = records.filter((record) => record.order === null);
 
   return (
     <div className="explorer-app">
@@ -94,7 +95,12 @@ export default function ResearchExplorer({ records }: { records: CatalogListingR
 
       <div className="result-count" aria-live="polite">
         <strong>{filtered.length}</strong> {filtered.length === 1 ? "investigación" : "investigaciones"}
-        {records.some((record) => record.order === null) && <span>CIV-001 se muestra como línea temática TRAZADO.</span>}
+        {thematic.length > 0 && (
+          <span>
+            {thematic.length === 1 ? "La línea temática CIV" : `Las ${thematic.length} líneas temáticas CIV`} se muestra
+            {thematic.length === 1 ? "" : "n"} fuera de la secuencia global.
+          </span>
+        )}
       </div>
 
       {filtered.length > 0 ? (
@@ -103,7 +109,7 @@ export default function ResearchExplorer({ records }: { records: CatalogListingR
             <article className="research-card" key={record.slug}>
               <Link className="research-card-image" href={`/${record.slug}`}>
                 <Image src={record.hero} alt="" fill sizes="(max-width: 700px) 92vw, (max-width: 1100px) 44vw, 30vw" />
-                <span className="research-order">{record.order === null ? "CIV-001" : String(record.order).padStart(3, "0")}</span>
+                <span className="research-order">{record.order === null ? record.key : String(record.order).padStart(3, "0")}</span>
               </Link>
               <div className="research-card-body">
                 <div className="research-card-meta">

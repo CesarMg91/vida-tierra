@@ -43,8 +43,8 @@ const chapters = [
 export default function CivilizationsPage() {
   const map = getCivilizationMapData();
   const catalog = getCatalog();
-  const dossierKeys = new Set(["050", "051", "052", "CIV-001"]);
-  const dossiers = catalog.filter((record) => dossierKeys.has(record.key));
+  const globalDossierKeys = new Set(["050", "051", "052"]);
+  const dossiers = catalog.filter((record) => globalDossierKeys.has(record.key) || record.key.startsWith("CIV-"));
 
   return (
     <div className="civilizations-experience">
@@ -176,7 +176,7 @@ export default function CivilizationsPage() {
         <div className="section-heading">
           <div>
             <p className="eyebrow">Corpus canónico</p>
-            <h2 id="dossiers-title">Cuatro expedientes detrás de la experiencia</h2>
+            <h2 id="dossiers-title">{dossiers.length} expedientes detrás de la experiencia</h2>
           </div>
           <p>El viaje y el comparador derivan de estos documentos; no agregan conclusiones nuevas.</p>
         </div>
@@ -185,7 +185,7 @@ export default function CivilizationsPage() {
             <article key={record.slug}>
               <div className="civilization-dossier-meta">
                 {record.order === null ? <FlaskConical aria-hidden="true" /> : <BookOpen aria-hidden="true" />}
-                <span>{record.order === null ? "TRAZADO · CIV-001" : `INVESTIGACIÓN ${String(record.order).padStart(3, "0")}`}</span>
+                <span>{record.order === null ? `${record.status} · ${record.key}` : `INVESTIGACIÓN ${String(record.order).padStart(3, "0")}`}</span>
               </div>
               <h3>{record.shortTitle}</h3>
               <p>{record.summary}</p>
