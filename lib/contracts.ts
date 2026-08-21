@@ -18,6 +18,32 @@ export type ResearchRecord = {
   sourceIds: string[];
 };
 
+export type CatalogRecord = ResearchRecord & {
+  key: string;
+  file: string;
+  featured: boolean;
+};
+
+export type CatalogListingRecord = Pick<
+  CatalogRecord,
+  "key" | "id" | "order" | "slug" | "title" | "shortTitle" | "status" | "collection" | "era" | "themes" | "summary" | "readingMinutes" | "hero"
+>;
+
+export type CatalogProgressRecord = Pick<CatalogRecord, "order" | "slug" | "shortTitle">;
+
+export type SearchDocument = {
+  slug: string;
+  title: string;
+  section: string;
+  type: string;
+  headings: string[];
+  summary: string;
+  ids: string[];
+  themes: string[];
+  era: string;
+  status: string;
+};
+
 export type ReaderStateV1 = {
   completed: string[];
   bookmarks: Array<{ slug: string; heading?: string }>;

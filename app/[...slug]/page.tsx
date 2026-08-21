@@ -35,7 +35,8 @@ export default async function DocPage({ params }: PageProps) {
   if (!doc) notFound();
 
   return (
-    <article className="doc">
+    <div className="document-page page-shell">
+      <article className="doc">
       {doc.estado && (
         <p className={`estado estado-${doc.estado}`} title={ESTADOS[doc.estado] ?? ""}>
           {doc.estado.replace(/_/g, " ")}
@@ -43,6 +44,7 @@ export default async function DocPage({ params }: PageProps) {
       )}
       <div dangerouslySetInnerHTML={{ __html: doc.html }} />
       <footer className="doc-footer">
+        <a href="/explorar">Volver a Explorar</a>
         <a
           href={`https://github.com/CesarMg91/vida-tierra/blob/main/${doc.file}`}
           target="_blank"
@@ -51,6 +53,7 @@ export default async function DocPage({ params }: PageProps) {
           Ver la fuente de esta página en GitHub
         </a>
       </footer>
-    </article>
+      </article>
+    </div>
   );
 }
