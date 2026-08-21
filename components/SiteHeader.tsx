@@ -2,8 +2,9 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { BookOpenText, Menu, X } from "lucide-react";
+import { Menu, X } from "lucide-react";
 import { useState } from "react";
+import BrandMark from "./BrandMark";
 import SearchDialog from "./SearchDialog";
 import ThemeToggle from "./ThemeToggle";
 
@@ -23,7 +24,7 @@ export default function SiteHeader() {
   return (
     <header className="site-header">
       <Link className="site-brand" href="/" aria-label="Ir a la portada">
-        <BookOpenText aria-hidden="true" />
+        <BrandMark className="brand-mark" aria-hidden="true" />
         <span>¿Cómo sabemos?</span>
       </Link>
       <nav className={menuOpen ? "primary-nav is-open" : "primary-nav"} aria-label="Navegación principal">

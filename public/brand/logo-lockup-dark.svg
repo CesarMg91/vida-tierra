@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 160" role="img" aria-labelledby="title desc">
+  <title id="title">¿Cómo sabemos lo que sabemos?</title>
+  <desc id="desc">Identidad de la plataforma de historia profunda y evidencia abierta.</desc>
+  <svg x="12" y="12" width="136" height="136" viewBox="0 0 64 64">
+
+  <circle cx="32" cy="32" r="28" fill="#0B0D0E" stroke="#B88949" stroke-width="3.25"/>
+  <g fill="none" stroke="#779B88" stroke-linecap="round" stroke-width="3.5">
+    <path d="M13.5 30.5C17.7 20.1 24 15 32 15s14.3 5.1 18.5 15.5"/>
+    <path d="M17.5 37C21.3 28.8 26.1 25 32 25s10.7 3.8 14.5 12"/>
+    <path d="M22 43.25C24.9 37.8 28.1 35.5 32 35.5s7.1 2.3 10 7.75"/>
+  </g>
+  <path d="M32 11.75V49" fill="none" stroke="#F2EADB" stroke-linecap="round" stroke-width="2.4"/>
+  <g fill="#B88949" stroke="#F2EADB" stroke-width="1.7">
+    <circle cx="32" cy="15" r="3.1"/>
+    <circle cx="32" cy="25" r="3.1"/>
+    <circle cx="32" cy="35.5" r="3.1"/>
+    <circle cx="32" cy="48" r="6.25" stroke-width="2.2"/>
+  </g>
+</svg>
+  <text x="174" y="74" fill="#F2EADB" font-family="Georgia, 'Times New Roman', serif" font-size="34" font-weight="600">¿Cómo sabemos lo que sabemos?</text>
+  <text x="176" y="109" fill="#B8AE9F" font-family="Arial, sans-serif" font-size="14" letter-spacing="2.6">HISTORIA PROFUNDA · EVIDENCIA ABIERTA</text>
+</svg>
