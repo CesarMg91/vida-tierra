@@ -69,6 +69,32 @@ const claimIds = new Set(data.knowledge.claims.map((record) => record.id));
 const evidenceIds = new Set(data.knowledge.evidence.map((record) => record.id));
 const sourceIds = new Set(data.knowledge.sources.map((record) => record.id));
 const researchIds = new Set(data.catalog.map((record) => record.id));
+const researchSlugs = new Set(data.catalog.map((record) => record.slug));
+
+const datingData = JSON.parse(fs.readFileSync(path.join(ROOT, "content", "civilization-dating.json"), "utf8"));
+const datingKinds = ["sample", "measurement", "calendar", "context", "phase", "event"];
+check(datingData.schemaVersion === 1, "el módulo de fechado usa una versión de esquema desconocida");
+check(researchSlugs.has(datingData.researchSlug), `el módulo de fechado apunta a un expediente inexistente: ${datingData.researchSlug}`);
+check(Array.isArray(datingData.cases) && datingData.cases.length > 0, "el módulo de fechado no contiene casos");
+check(duplicates(datingData.cases.map((record) => record.id)).length === 0, "el módulo de fechado contiene casos duplicados");
+for (const datingCase of datingData.cases) {
+  check(Boolean(datingCase.title) && Boolean(datingCase.region), `${datingCase.id} no declara título o región`);
+  check(Array.isArray(datingCase.methods) && datingCase.methods.length > 0, `${datingCase.id} no declara métodos`);
+  check(Array.isArray(datingCase.layers), `${datingCase.id} no declara capas`);
+  check(
+    JSON.stringify(datingCase.layers?.map((layer) => layer.kind)) === JSON.stringify(datingKinds),
+    `${datingCase.id} no conserva las seis capas canónicas en orden`,
+  );
+  for (const layer of datingCase.layers ?? []) {
+    check(Boolean(layer.observed) && Boolean(layer.inference) && Boolean(layer.limit), `${datingCase.id}/${layer.kind} tiene un estado vacío`);
+    check(layer.claimIds?.length > 0, `${datingCase.id}/${layer.kind} no enlaza claims`);
+    check(layer.evidenceIds?.length > 0, `${datingCase.id}/${layer.kind} no enlaza evidencias`);
+    check(layer.sourceIds?.length > 0, `${datingCase.id}/${layer.kind} no enlaza fuentes`);
+    for (const id of layer.claimIds ?? []) check(claimIds.has(id), `${datingCase.id}/${layer.kind} enlaza un claim inexistente: ${id}`);
+    for (const id of layer.evidenceIds ?? []) check(evidenceIds.has(id), `${datingCase.id}/${layer.kind} enlaza una evidencia inexistente: ${id}`);
+    for (const id of layer.sourceIds ?? []) check(sourceIds.has(id), `${datingCase.id}/${layer.kind} enlaza una fuente inexistente: ${id}`);
+  }
+}
 
 for (const record of data.catalog) {
   for (const id of record.claimIds) check(claimIds.has(id), `${record.key} enlaza un claim inexistente: ${id}`);

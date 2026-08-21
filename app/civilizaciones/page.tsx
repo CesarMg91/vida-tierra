@@ -4,7 +4,9 @@ import Link from "next/link";
 import { ArrowDown, ArrowRight, BookOpen, FlaskConical, Scale } from "lucide-react";
 import CivilizationTimeline from "../../components/CivilizationTimeline";
 import CivilizationsAtlas from "../../components/CivilizationsAtlas";
+import CivilizationDatingLab from "../../components/CivilizationDatingLab";
 import { chronologyLanes, civilizationCases } from "../../lib/civilizations";
+import { civilizationDating } from "../../lib/civilization-dating";
 import { getCivilizationMapData } from "../../lib/civilization-map";
 import { getCatalog } from "../../lib/public-data";
 import { createPageMetadata } from "../../lib/site";
@@ -128,6 +130,17 @@ export default function CivilizationsPage() {
           <p>El mapa usa geometría física de Natural Earth. Los círculos sólo ubican sitios o regiones con incertidumbre editorial.</p>
         </div>
         <CivilizationsAtlas cases={civilizationCases} map={map} />
+      </section>
+
+      <section className="civilization-dating-section" aria-labelledby="dating-title">
+        <div className="section-heading">
+          <div>
+            <p className="eyebrow">Laboratorio cronológico</p>
+            <h2 id="dating-title">Una fecha no es un acontecimiento</h2>
+          </div>
+          <p>Recorre seis capas auditadas. Cada una separa lo observado, la inferencia permitida, el límite y las fuentes canónicas.</p>
+        </div>
+        <CivilizationDatingLab data={civilizationDating} />
       </section>
 
       <section className="civilization-chronology-section" aria-labelledby="chronology-title">

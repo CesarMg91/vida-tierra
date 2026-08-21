@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Matriz comparativa de métodos de fechado, productos y fallos</title>
+  <desc id="desc">Siete filas comparan estratigrafía y seriación, radiocarbono, dendrocronología, luminiscencia, arqueomagnetismo, tefrocronología y textos o sincronismos. Las columnas muestran observación, producto y límite principal.</desc>
+  <rect width="1600" height="900" fill="#121510"/>
+  <rect x="58" y="52" width="1484" height="796" rx="28" fill="#1b2019" stroke="#50604f" stroke-width="2"/>
+  <text x="94" y="112" fill="#f1e5cf" font-family="Georgia,serif" font-size="43" font-weight="700">Métodos: productos distintos, fallos distintos</text>
+  <text x="96" y="150" fill="#b9c2b2" font-family="Arial,sans-serif" font-size="21">Convergencia no significa sumar fechas: primero se conserva qué observa cada reloj.</text>
+
+  <g font-family="Arial,sans-serif">
+    <rect x="92" y="190" width="1416" height="58" rx="12" fill="#354638"/>
+    <g fill="#f6eddc" font-size="20" font-weight="700"><text x="118" y="227">Método</text><text x="385" y="227">Observa / compara</text><text x="775" y="227">Producto legítimo</text><text x="1130" y="227">Fallo que no debe ocultarse</text></g>
+    <g font-size="18">
+      <g transform="translate(0 262)"><rect x="92" width="1416" height="76" rx="10" fill="#252921"/><text x="118" y="32" fill="#e8b477" font-weight="700">Estratigrafía</text><text x="118" y="57" fill="#e8b477">y seriación</text><text x="385" y="34" fill="#e8e0d1">superposición, coocurrencia, frecuencia</text><text x="775" y="34" fill="#e8e0d1">orden, TPQ / TAQ, secuencia relativa</text><text x="1130" y="34" fill="#d8b8a0">intrusión, residualidad, tipo ≠ pueblo</text></g>
+      <g transform="translate(0 348)"><rect x="92" width="1416" height="76" rx="10" fill="#20251f"/><text x="118" y="45" fill="#e8b477" font-weight="700">Radiocarbono AMS</text><text x="385" y="34" fill="#e8e0d1">actividad de 14C en una muestra</text><text x="775" y="34" fill="#e8e0d1">distribución calendario condicionada</text><text x="1130" y="34" fill="#d8b8a0">contaminación, meseta, reservorio, madera vieja</text></g>
+      <g transform="translate(0 434)"><rect x="92" width="1416" height="76" rx="10" fill="#252921"/><text x="118" y="45" fill="#e8b477" font-weight="700">Dendro / wiggle</text><text x="385" y="34" fill="#e8e0d1">anillos y separaciones conocidas</text><text x="775" y="34" fill="#e8e0d1">año del anillo o ajuste de secuencia</text><text x="1130" y="34" fill="#d8b8a0">borde ausente, almacenamiento, reutilización</text></g>
+      <g transform="translate(0 520)"><rect x="92" width="1416" height="76" rx="10" fill="#20251f"/><text x="118" y="45" fill="#e8b477" font-weight="700">Luminiscencia</text><text x="385" y="34" fill="#e8e0d1">dosis desde el último reinicio</text><text x="775" y="34" fill="#e8e0d1">tiempo desde luz o calentamiento</text><text x="1130" y="34" fill="#d8b8a0">blanqueamiento incompleto, mezcla, tasa</text></g>
+      <g transform="translate(0 606)"><rect x="92" width="1416" height="76" rx="10" fill="#252921"/><text x="118" y="45" fill="#e8b477" font-weight="700">Arqueomagnetismo</text><text x="385" y="34" fill="#e8e0d1">remanencia al enfriarse</text><text x="775" y="34" fill="#e8e0d1">modos contra curva regional</text><text x="1130" y="34" fill="#d8b8a0">desplazamiento, alteración, referencia escasa</text></g>
+      <g transform="translate(0 692)"><rect x="92" width="1416" height="76" rx="10" fill="#20251f"/><text x="118" y="45" fill="#e8b477" font-weight="700">Tefrocronología</text><text x="385" y="34" fill="#e8e0d1">posición y huella geoquímica</text><text x="775" y="34" fill="#e8e0d1">correlación / isócrona condicionada</text><text x="1130" y="34" fill="#d8b8a0">parecido visual, retrabajo, edad transferida</text></g>
+      <g transform="translate(0 778)"><rect x="92" width="1416" height="52" rx="10" fill="#252921"/><text x="118" y="33" fill="#e8b477" font-weight="700">Textos / sincronismos</text><text x="385" y="33" fill="#e8e0d1">nombres, años, copias, fenómenos</text><text x="775" y="33" fill="#e8e0d1">ancla histórica condicionada</text><text x="1130" y="33" fill="#d8b8a0">laguna, homónimo, calendario, circularidad</text></g>
+    </g>
+  </g>
+</svg>

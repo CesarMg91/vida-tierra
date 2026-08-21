@@ -54,3 +54,6 @@ Grafos de dependencias entre objetos, mediciones, principios, modelos, claims y 
 - [`MAPA_050_AGRICULTURAS_DOMESTICACIONES_MULTIPLES.md`](MAPA_050_AGRICULTURAS_DOMESTICACIONES_MULTIPLES.md): cadenas desde macro/microrestos, fauna, infraestructura y genomas hasta actividad, rasgo, población y economía sin centro, paquete o causa únicos.
 - [`MAPA_051_CIUDADES_ESTADOS.md`](MAPA_051_CIUDADES_ESTADOS.md): matriz desde asentamiento, hogares, producción, registros, medidas, cuerpos y ambiente hasta resultados políticos delimitados, con relojes regionales y falsadores.
 - [`MAPA_052_COMPARACION_PRIMERAS_CIVILIZACIONES.md`](MAPA_052_COMPARACION_PRIMERAS_CIVILIZACIONES.md): matriz dimensional, paneles regionales, relojes, cadenas de escritura, política, desigualdad, causalidad, redes y transformación sin suma ni ranking.
+## Civilizaciones
+
+- [`MAPA_CIV_002_FECHADO.md`](MAPA_CIV_002_FECHADO.md) — seis capas, dependencias, casos y falsadores del fechado — **AUDITADO**.

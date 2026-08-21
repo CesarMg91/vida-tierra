@@ -434,3 +434,24 @@ Estas ventanas alinean archivos regionales; no son etapas, no presuponen difusi�
 Las investigaciones extensas auditadas llegan de `INV-EARTH-AGE-001` a `INV-CIVILIZATIONS-001`: la secuencia global `001–052` está completa. No se declara otra investigación global pendiente; cualquier trabajo futuro debe registrarse como expansión regional, metódica o temática explícita.
 
 La línea temática `INV-CIV-ORIGINS-001` permanece separada en estado `TRAZADO`; la 052 reutiliza sólo proposiciones/evidencias idénticas de 050/051/CIV-001 y no cambia sus estados.
+
+## XI. Historia de los relojes arqueológicos y sus pruebas
+
+Estas entradas fechan publicaciones, innovaciones o casos. No son etapas de progreso y no convierten el año de publicación en edad del archivo estudiado.
+
+| ID | Fecha/intervalo | Evento delimitado | Incertidumbre y evidencia | Fuente | Confianza | Estado |
+|---|---:|---|---|---|---|---|
+| `TIME-CIV-PETRIE-SEQUENCE-1901-001` | `1901` | primera descripción publicada del método de *Sequence Dating* de Petrie | orden de unos `900` grupos en `51` secciones; no calendario absoluto | `SRC-PETRIE-SEQUENCE-UCL` | B-HIST | AUDITADO |
+| `TIME-CIV-BAYES-RADIOCARBON-2009-001` | `2009` | publicación de formulaciones arqueológicas de Bayes y outliers/offsets | método y supuestos; no fecha un caso por sí solo | `SRC-BRONK-RAMSEY-BAYES-2009`, `SRC-BRONK-RAMSEY-OUTLIERS-2009` | A método | AUDITADO |
+| `TIME-CIV-THERA-2006-001` | resultado publicado `2006`; intervalo propuesto `1627–1600 a. C.` | colocación radiocarbónica de rama de olivo de Santorini | último anillo, curva y sincronismos revisados después | `SRC-FRIEDRICH-THERA-2006` | B resultado; C-D evento exacto | AUDITADO |
+| `TIME-CIV-EGYPT-MODEL-2013-001` | estudio `2013`; fases del IV milenio a. C. | `186` resultados y Bayes restringen el tempo de Egipto temprano | no fecha «unificación» ni soberanía | `SRC-DEE-2013` | B-COND | AUDITADO |
+| `TIME-CIV-GREAT-ZIMBABWE-MODEL-2013-001` | estudio `2013`; muros desde XII–XIII d. C. bajo modelo | reconstrucción cronológica desde fechas, estratigrafía y arquitectura | contextos coloniales dañados; sectores no coetáneos | `SRC-CHIRIKURE-GZ-CHRONOLOGY-2013` | B-COND | AUDITADO |
+| `TIME-CIV-MININO-FRE-2013-001` | estudio `2013`; offset local `490 ± 80` años `14C` | nueve pares estiman reservorio dulceacuícola en Minino | corrección local y de baja resolución | `SRC-WOOD-MININO-2013` | B-LOCAL | AUDITADO |
+| `TIME-CIV-MESOPOTAMIA-DENDRO-2016-001` | estudio `2016`; archivo del segundo milenio a. C. | anillos y `14C` de Kültepe/Acemhöyük favorecen marco compatible con cronología media | asociación madera–edificio–texto y modelo | `SRC-MANNING-MESOPOTAMIA-2016` | B-COND | AUDITADO |
+| `TIME-CIV-THERA-ANNUAL-2018-001` | `2018` | registro anual de `14C` modifica la evaluación de Thera | estructura de curva; no identifica anillo de erupción | `SRC-PEARSON-THERA-2018` | B-COND | AUDITADO |
+| `TIME-CIV-INTCAL20-2020-001` | `2020`; verificación `2026-08-21` | publicación de IntCal20/SHCal20/Marine20 y confirmación de que seguían como familia oficial activa al corte | estándar versionado y sustituible; offsets locales persisten | `SRC-REIMER-INTCAL20-2020`, `SRC-HOGG-SHCAL20-2020`, `SRC-HEATON-MARINE20-2020` | A | AUDITADO |
+| `TIME-CIV-THERASIA-2023-001` | `2023`; distribución del II milenio a. C. | rama de olivo de Therasia aumenta probabilidad de colocación en siglo XVI a. C. | intervalos amplios y modelo; no año exacto | `SRC-PEARSON-THERASIA-2023` | B-COND | AUDITADO |
+
+## Próxima acción de la línea CIV
+
+La secuencia global `001–052` permanece completa. CIV-002 es una expansión metódica `AUDITADO` fuera de esa numeración y prepara los expedientes regionales `CIV-003+`. CIV-001 conserva `TRAZADO`.

@@ -803,3 +803,13 @@ La primera salida incluyó por error un fósil geológico en el extremo derecho 
 - registrar fecha, herramienta, prompt o código y transformaciones;
 - distinguir `conceptual`, `reconstrucción`, `dato`, `mapa` y `diagrama`;
 - si cambia un claim, revisar también todos los visuales que lo resuman.
+
+## CIV-002 — Fechado arqueológico e histórico
+
+| Archivo | Origen | Dimensiones | SHA-256 / trazabilidad | Límite |
+|---|---|---:|---|---|
+| `hero-civ-002-fechado-arqueologico.png` | OpenAI ImageGen, edición correctiva del 2026-08-21 | `1672 × 941` | `02e86f7cbae94c30ff523747ab2ea6f45cc41897310a3fd832525c9ac29f354c` | composición conceptual; no datos, artefactos identificables ni calculadora |
+| `cadena-muestra-acontecimiento-civ-002.svg` | SVG manual determinista | `1600 × 900` | código fuente versionado | puentes inferenciales, no cronología o progreso |
+| `matriz-metodos-fechado-civ-002.svg` | SVG manual determinista | `1600 × 900` | código fuente versionado | productos/fallos; no ranking universal de métodos |
+
+La primera salida raster (`exec-98cd8be0-aa6e-400d-905f-b4125153734c.png`) se rechazó porque la curva contenía ejes y microcifras inventadas. La salida final (`exec-55ef2a30-bb92-4b6c-aa9a-174295fcfad5.png`) sustituyó únicamente el papel por bandas abstractas sin texto, números, ejes o grilla. El prompt completo, el prompt correctivo, las rutas de origen y los límites se conservan en [`ATLAS_VISUAL.md`](../../ATLAS_VISUAL.md#54-civ-002--una-fecha-no-es-un-acontecimiento).

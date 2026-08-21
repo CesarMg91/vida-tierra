@@ -183,7 +183,7 @@ La coetaneidad también tiene niveles:
 5. trayectoria regional;
 6. duración de una institución o entidad política.
 
-Una misma cifra no debe circular entre esos relojes (`CLAIM-CIV-DATING-CONTEXT-001`, reutilizado sin cambiar su estado `TRAZADO`).
+Una misma cifra no debe circular entre esos relojes. En el corte editorial de la 051, `CLAIM-CIV-DATING-CONTEXT-001` fue reutilizado sin cambiar su estado `TRAZADO`; CIV-002 auditó posteriormente esa proposición exacta. La promoción posterior no vuelve auditado este pasaje de forma retroactiva ni promueve CIV-001.
 
 ## 3. Mesopotamia: ciudades, administración y ambiente no forman una monocausa
 

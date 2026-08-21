@@ -756,3 +756,33 @@ Espectro, fondo de microondas, relación distancia–corrimiento y población es
 ![Portada editorial de archivos arqueológicos comparativos](assets/visuales/hero-civ-001-origenes.png)
 
 Las bandejas son genéricas, no georreferenciadas y no coetáneas. No forman una secuencia, un centro, una ruta o una escala de progreso. La bandeja vacía representa evidencia no disponible; no prueba ausencia histórica.
+
+## 54. CIV-002 — Una fecha no es un acontecimiento
+
+![Portada editorial de CIV-002](assets/visuales/hero-civ-002-fechado-arqueologico.png)
+
+![Cadena muestra–acontecimiento](assets/visuales/cadena-muestra-acontecimiento-civ-002.svg)
+
+![Matriz de métodos de fechado](assets/visuales/matriz-metodos-fechado-civ-002.svg)
+
+| Archivo | Tipo | Procedencia | Qué representa | Límite obligatorio |
+|---|---|---|---|---|
+| `hero-civ-002-fechado-arqueologico.png` | portada editorial conceptual | OpenAI ImageGen, generación + edición localizada, 2026-08-21 | estaciones genéricas de muestra, anillos, estratigrafía, medición, curva, archivo y fase | no datos reales, artefactos identificables, coetaneidad, secuencia ni cálculo |
+| `cadena-muestra-acontecimiento-civ-002.svg` | diagrama epistemológico original | SVG manual del proyecto, 2026-08-21 | seis capas y puentes que deben demostrarse | las flechas son inferencias, no tiempo ni causalidad universal |
+| `matriz-metodos-fechado-civ-002.svg` | matriz metódica original | SVG manual del proyecto, 2026-08-21 | observación, producto legítimo y fallo por método | no compara exactitud universal ni elige un método «mejor» |
+
+### Procedencia de la portada
+
+Primera salida rechazada por contener ejes y microcifras inventadas en el papel de calibración: `C:\Users\HUAWEI\.codex\generated_images\019fedb0-8f24-7e33-8d16-d2418ba3378e\exec-98cd8be0-aa6e-400d-905f-b4125153734c.png`.
+
+Edición final aprobada: `C:\Users\HUAWEI\.codex\generated_images\019fedb0-8f24-7e33-8d16-d2418ba3378e\exec-55ef2a30-bb92-4b6c-aa9a-174295fcfad5.png`. Destino: `assets/visuales/hero-civ-002-fechado-arqueologico.png`. Dimensiones: `1672 × 941`. SHA-256: `02e86f7cbae94c30ff523747ab2ea6f45cc41897310a3fd832525c9ac29f354c`.
+
+**Prompt de generación:**
+
+> Use case: scientific-educational. Asset type: wide 16:9 editorial cover for CIV-002 of a rigorous Spanish archaeology website. Primary request: create a museum-quality archaeological dating laboratory still life that communicates the chain from sample to historical interpretation without text or a universal timeline. Scene/backdrop: a dark obsidian museum-laboratory evidence table divided into six subtly connected but independent work areas. Subjects: generic charred seed in a small specimen tray, a wood cross-section with visible growth rings, an undecorated pottery sherd beside a stratigraphic sediment profile, a clean AMS sample holder, an abstract printed radiocarbon calibration curve with no readable labels or numbers, archival cards and a small architectural phase model. Arrange them as parallel evidence stations connected only by restrained copper thread, with one clearly incomplete tray signaling missing evidence. Style/medium: cinematic editorial archaeological photography, tactile museum specimen realism, high detail, sober and credible, not an infographic. Composition/framing: horizontal 16:9, primary evidence across center and right, dark negative space on the left for future HTML title, no embedded copy. Lighting/mood: low-key museum lighting, warm copper edge highlights, restrained mineral-green shadows, scholarly and contemplative. Color palette: obsidian, charcoal, parchment, copper, amber, aged stone, mineral green. Constraints: every object generic and non-identifiable; no replicas of famous artifacts, no people, no skulls or human remains, no readable inscriptions, dates, labels, arrows, map borders, flags, logos, UI, ranking scale or watermark. Avoid: sci-fi scanner, treasure aesthetic, fantasy ruins, glowing holograms, exact ancient monument, calculator interface, evolutionary staircase, a single arrow implying measurement equals event.
+
+**Edición correctiva localizada:**
+
+> Edit only the rectangular paper chart at the lower center of the referenced image. Remove every axis, tick mark, number, letter, label, grid coordinate, and any other readable or pseudo-readable writing from that paper. Replace them with a clean, text-free abstract radiocarbon-style probability ribbon: three restrained charcoal and mineral-green undulating bands on plain aged parchment, with no border scale, no grid, no symbols and no numerical markings. Preserve exactly the rest of the image: composition, camera, trays, charred seed, wood rings, sherd, sediment block, metal holder, archive cards, phase model, empty tray, copper thread, lighting, palette, texture and dimensions. Do not add anything elsewhere.
+
+La portada es una composición conceptual contemporánea. El fragmento cerámico, el sedimento, la madera, la bandeja metálica, las tarjetas, el modelo arquitectónico y la curva abstracta no proceden de un mismo sitio ni representan datos publicados. El hilo de cobre expresa trazabilidad editorial, no asociación arqueológica ni secuencia automática. La bandeja vacía significa archivo faltante, no ausencia histórica.

@@ -1,14 +1,14 @@
 ---
 id: PROGRAM-CIV-001
 estado: SEMILLA
-ultima_revision: 2026-08-13
+ultima_revision: 2026-08-21
 ---
 
 # Programa cronológico global por carriles regionales
 
 ## Cómo leer este programa
 
-Este archivo organiza preguntas futuras; **no declara auditadas las investigaciones globales 037–051 ni sustituye su secuencia**. Los intervalos son ventanas de trabajo deliberadamente anchas. Una línea empieza cuando existe un archivo observable pertinente, no cuando una región «entra en la civilización».
+Este archivo organiza expansiones temáticas y regionales; **no altera la secuencia global completa 001–052 ni hereda sus estados**. Los intervalos son ventanas de trabajo deliberadamente anchas. Una línea empieza cuando existe un archivo observable pertinente, no cuando una región «entra en la civilización».
 
 La sincronización evita dos errores opuestos:
 
@@ -67,7 +67,7 @@ Los bordes de cada ventana son ayudas gráficas. Las fechas canónicas pertenece
 La numeración futura se asignará al iniciar cada expediente para no crear IDs vacíos. La prioridad no será «la civilización más antigua», sino cerrar dependencias metodológicas:
 
 1. `INV-CIV-ORIGINS-001` — variables y contraejemplos a una escalera universal (esta entrega).
-2. Fechado arqueológico histórico — asociación de muestra, calibración, modelos bayesianos, seriación y sincronismos.
+2. [`INV-CIV-DATING-001`](INVESTIGACION_CIV_002_FECHADO_ARQUEOLOGICO_HISTORICO.md) — fechado arqueológico e histórico: asociación de muestra, calibración, modelos bayesianos, seriación y sincronismos — **AUDITADO como CIV-002**.
 3. Nombres e identidades — cultura material, lengua, ADN, etnicidad, endónimos y exónimos.
 4. Asia sudoccidental — de campamentos y aldeas a urbanismos del norte y sur.
 5. Nilo y África nororiental — pastoralismos, agregación y formación estatal.
