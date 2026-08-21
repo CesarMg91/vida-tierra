@@ -2,13 +2,15 @@ import assert from "node:assert/strict";
 import test from "node:test";
 import {
   buildPublicData,
+  compareResearchRecords,
   extractIds,
+  researchKeyFromFile,
   registryRows,
   tableRowsFromMarkdown,
 } from "../scripts/public-data-core.mjs";
 import { renderMarkdownForTest } from "../lib/content.ts";
 
-test("el catálogo conserva 52 órdenes globales y CIV-001 fuera de la secuencia", () => {
+test("el catálogo conserva 52 órdenes globales y la línea CIV fuera de la secuencia", () => {
   const { catalog } = buildPublicData();
   assert.equal(catalog.length, 53);
   assert.deepEqual(
@@ -18,6 +20,21 @@ test("el catálogo conserva 52 órdenes globales y CIV-001 fuera de la secuencia
   const thematic = catalog.find((record) => record.key === "CIV-001");
   assert.equal(thematic?.order, null);
   assert.equal(thematic?.status, "TRAZADO");
+});
+
+test("las investigaciones temáticas CIV se reconocen y ordenan sin casos especiales", () => {
+  assert.equal(researchKeyFromFile("14_civilizaciones/INVESTIGACION_CIV_001_ORIGENES.md"), "CIV-001");
+  assert.equal(researchKeyFromFile("14_civilizaciones/INVESTIGACION_CIV_002_FECHADO.md"), "CIV-002");
+  assert.equal(researchKeyFromFile("14_civilizaciones/INVESTIGACION_CIV_999_PRUEBA.md"), "CIV-999");
+  assert.equal(researchKeyFromFile("14_civilizaciones/INVESTIGACION_CIV_02_INVALIDA.md"), null);
+
+  const records = [
+    { key: "CIV-010", order: null },
+    { key: "002", order: 2 },
+    { key: "CIV-002", order: null },
+    { key: "001", order: 1 },
+  ].sort(compareResearchRecords);
+  assert.deepEqual(records.map((record) => record.key), ["001", "002", "CIV-002", "CIV-010"]);
 });
 
 test("las tablas GFM se leen como AST y preservan barras escapadas dentro de celdas", () => {

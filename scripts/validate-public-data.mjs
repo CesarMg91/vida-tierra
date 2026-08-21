@@ -5,6 +5,7 @@ import {
   PUBLIC_STATUSES,
   buildPublicData,
   readEditorialCatalog,
+  thematicResearchOrder,
 } from "./public-data-core.mjs";
 
 const data = buildPublicData();
@@ -20,8 +21,6 @@ function duplicates(values) {
   return values.filter((value) => (seen.has(value) ? true : (seen.add(value), false)));
 }
 
-check(data.catalog.length === 53, `se esperaban 53 investigaciones y se encontraron ${data.catalog.length}`);
-
 const numeric = data.catalog.filter((record) => record.order !== null);
 const orders = numeric.map((record) => record.order);
 check(numeric.length === 52, `se esperaban 52 investigaciones numeradas y se encontraron ${numeric.length}`);
@@ -30,7 +29,18 @@ for (let order = 1; order <= 52; order += 1) {
   check(orders.includes(order), `falta la Investigación ${String(order).padStart(3, "0")}`);
 }
 
-check(data.catalog.some((record) => record.key === "CIV-001" && record.order === null), "falta CIV-001 como línea TRAZADO");
+const thematic = data.catalog.filter((record) => record.order === null);
+const thematicOrders = thematic.map((record) => thematicResearchOrder(record.key));
+check(thematic.length > 0, "falta la línea temática CIV");
+check(thematicOrders.every((order) => order !== null), "hay una investigación sin orden que no usa una clave CIV-NNN");
+check(duplicates(thematicOrders).length === 0, `órdenes CIV duplicados: ${duplicates(thematicOrders).join(", ")}`);
+const lastThematicOrder = Math.max(0, ...thematicOrders.filter((order) => order !== null));
+for (let order = 1; order <= lastThematicOrder; order += 1) {
+  check(thematicOrders.includes(order), `falta la investigación temática CIV-${String(order).padStart(3, "0")}`);
+}
+
+check(data.catalog.length === Object.keys(editorial.records).length, "el catálogo público y el catálogo editorial tienen tamaños distintos");
+check(duplicates(data.catalog.map((record) => record.key)).length === 0, "hay claves de investigación duplicadas");
 check(duplicates(data.catalog.map((record) => record.id)).length === 0, "hay IDs de investigación duplicados");
 check(duplicates(data.catalog.map((record) => record.slug)).length === 0, "hay slugs de investigación duplicados");
 
