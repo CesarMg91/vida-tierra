@@ -21,7 +21,8 @@ export default function Home() {
           src="/assets/visuales/hero-historia-profunda.png"
           alt="Transición conceptual del cosmos a la Tierra, la vida, la humanidad y las primeras ciudades"
           fill
-          priority
+          preload
+          fetchPriority="high"
           sizes="100vw"
         />
         <div className="home-hero-shade" />

@@ -2,6 +2,14 @@
 
 Historia profunda de la Tierra, la vida y el ser humano desde primeros principios.
 
+## Experiencia pública
+
+**[Explorar la versión pública](https://vida-tierra.vercel.app)**
+
+La versión `0.2.0` convierte el corpus en una experiencia editorial navegable: viaje guiado, biblioteca y búsqueda, cronología, lector por capas, laboratorio de evidencia y un atlas comparativo de Civilizaciones. No requiere cuenta; el progreso permanece en el dispositivo.
+
+El sitio usa `https://vida-tierra.vercel.app` como URL canónica. Otro dominio puede sustituirlo definiendo `SITE_URL` en el entorno de build, sin cambiar el código.
+
 ![Historia profunda del cosmos, la Tierra, la vida y la humanidad](assets/visuales/hero-historia-profunda.png)
 
 > **Ilustración conceptual:** comprime épocas distintas y no está a escala. Su procedencia y límites se registran en el [`ATLAS_VISUAL.md`](ATLAS_VISUAL.md).
@@ -32,9 +40,9 @@ Y toda investigación debe distinguir explícitamente:
 - las alternativas y anomalías;
 - el grado de confianza y qué podría falsar la conclusión.
 
-## Estado actual
+## Estado actual · v0.2.0
 
-La fase fundacional contiene:
+La experiencia pública contiene:
 
 - la arquitectura auditable del repositorio;
 - plantillas para investigaciones, afirmaciones, evidencias, fuentes, controversias y errores;

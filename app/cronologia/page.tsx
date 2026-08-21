@@ -2,8 +2,13 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { ArrowRight, Clock3 } from "lucide-react";
 import { getCatalog } from "../../lib/public-data";
+import { createPageMetadata } from "../../lib/site";
 
-export const metadata: Metadata = { title: "Cronología — ¿Cómo sabemos lo que sabemos?" };
+export const metadata: Metadata = createPageMetadata({
+  title: "Cronología",
+  description: "Historia profunda organizada por escalas, regiones y márgenes de incertidumbre, sin comprimir todos los procesos en un solo reloj.",
+  pathname: "/cronologia",
+});
 
 export default function TimelinePage() {
   const catalog = getCatalog();

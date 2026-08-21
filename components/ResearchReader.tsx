@@ -251,7 +251,7 @@ export default function ResearchReader({
       />
 
       <header className="reader-hero">
-        <Image src={record.hero} alt="" fill priority sizes="100vw" />
+        <Image src={record.hero} alt="" fill preload fetchPriority="high" sizes="100vw" />
         <div className="reader-hero-shade" />
         <div className="reader-hero-copy">
           <p>{record.collection} · {record.era}</p>

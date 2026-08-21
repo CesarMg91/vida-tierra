@@ -6,6 +6,8 @@ import { getCatalog, getResearchKnowledge } from "../../lib/public-data";
 import ResearchEvidence from "../../components/ResearchEvidence";
 import ResearchReader from "../../components/ResearchReader";
 import ResearchSummary from "../../components/ResearchSummary";
+import StructuredData from "../../components/StructuredData";
+import { absoluteUrl, AUTHOR_NAME, createPageMetadata, SITE_NAME } from "../../lib/site";
 
 // El valor debe ser un literal para que Next.js pueda analizar la configuración
 // durante el build. Las rutas publicadas son las enumeradas por
@@ -21,7 +23,15 @@ type PageProps = { params: Promise<{ slug: string[] }> };
 export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
   const { slug } = await params;
   const doc = await getDoc(slug.join("/"));
-  return { title: doc ? `${doc.title} — ¿Cómo sabemos lo que sabemos?` : "No encontrado" };
+  if (!doc) return { title: "No encontrado", robots: { index: false, follow: false } };
+  const record = getCatalog().find((item) => item.slug === doc.slug);
+  return createPageMetadata({
+    title: doc.title,
+    description: record?.summary ?? `${doc.title}. Documento abierto del proyecto ${SITE_NAME}.`,
+    pathname: `/${doc.slug}`,
+    image: record?.hero,
+    type: record ? "article" : "website",
+  });
 }
 
 const ESTADOS: Record<string, string> = {
@@ -41,6 +51,27 @@ export default async function DocPage({ params }: PageProps) {
 
   const catalog = getCatalog();
   const record = catalog.find((item) => item.slug === doc.slug);
+  const structuredData = {
+    "@context": "https://schema.org",
+    "@type": record ? "Article" : "CreativeWork",
+    "@id": `${absoluteUrl(`/${doc.slug}`)}#document`,
+    url: absoluteUrl(`/${doc.slug}`),
+    headline: doc.title,
+    name: doc.title,
+    description: record?.summary ?? `${doc.title}. Documento abierto del proyecto ${SITE_NAME}.`,
+    inLanguage: "es",
+    isAccessibleForFree: true,
+    license: "https://creativecommons.org/licenses/by/4.0/",
+    author: { "@type": "Person", name: AUTHOR_NAME },
+    isPartOf: { "@id": `${absoluteUrl("/")}#project` },
+    ...(record ? {
+      dateModified: record.updatedAt,
+      image: absoluteUrl(record.hero),
+      articleSection: record.collection,
+      keywords: record.themes.join(", "),
+      mainEntityOfPage: absoluteUrl(`/${doc.slug}`),
+    } : {}),
+  };
   if (record && doc.readerSections) {
     const mentionedIds = [...doc.html.matchAll(/data-knowledge-id="([^"]+)"/g)].map((match) => match[1]);
     const knowledge = getResearchKnowledge(record, mentionedIds);
@@ -64,7 +95,9 @@ export default async function DocPage({ params }: PageProps) {
     };
 
     return (
-      <ResearchReader
+      <>
+        <StructuredData data={structuredData} />
+        <ResearchReader
         record={readerRecord}
         toc={doc.toc}
         previous={neighbor(previousRecord)}
@@ -80,30 +113,34 @@ export default async function DocPage({ params }: PageProps) {
           </div>
         )}
         evidence={<ResearchEvidence knowledge={knowledge} falsifiersHtml={doc.readerSections.falsifiersHtml} />}
-      />
+        />
+      </>
     );
   }
 
   return (
-    <div className="document-page page-shell">
-      <article className="doc">
-        {doc.estado && (
-          <p className={`estado estado-${doc.estado}`} title={ESTADOS[doc.estado] ?? ""}>
-            {doc.estado.replace(/_/g, " ")}
-          </p>
-        )}
-        <div dangerouslySetInnerHTML={{ __html: doc.html }} />
-        <footer className="doc-footer">
-          <Link href="/explorar">Volver a Explorar</Link>
-          <a
-            href={`https://github.com/CesarMg91/vida-tierra/blob/main/${doc.file}`}
-            target="_blank"
-            rel="noreferrer"
-          >
-            Ver la fuente de esta página en GitHub
-          </a>
-        </footer>
-      </article>
-    </div>
+    <>
+      <StructuredData data={structuredData} />
+      <div className="document-page page-shell">
+        <article className="doc">
+          {doc.estado && (
+            <p className={`estado estado-${doc.estado}`} title={ESTADOS[doc.estado] ?? ""}>
+              {doc.estado.replace(/_/g, " ")}
+            </p>
+          )}
+          <div dangerouslySetInnerHTML={{ __html: doc.html }} />
+          <footer className="doc-footer">
+            <Link href="/explorar">Volver a Explorar</Link>
+            <a
+              href={`https://github.com/CesarMg91/vida-tierra/blob/main/${doc.file}`}
+              target="_blank"
+              rel="noreferrer"
+            >
+              Ver la fuente de esta página en GitHub
+            </a>
+          </footer>
+        </article>
+      </div>
+    </>
   );
 }

@@ -7,11 +7,14 @@ import CivilizationsAtlas from "../../components/CivilizationsAtlas";
 import { chronologyLanes, civilizationCases } from "../../lib/civilizations";
 import { getCivilizationMapData } from "../../lib/civilization-map";
 import { getCatalog } from "../../lib/public-data";
+import { createPageMetadata } from "../../lib/site";
 
-export const metadata: Metadata = {
-  title: "Civilizaciones — ¿Cómo sabemos lo que sabemos?",
+export const metadata: Metadata = createPageMetadata({
+  title: "Civilizaciones",
   description: "Viaje comparativo por las primeras civilizaciones: archivos, inferencias, límites y fuentes sin una escala universal de avance.",
-};
+  pathname: "/civilizaciones",
+  image: "/assets/visuales/hero-comparacion-civilizaciones.png",
+});
 
 const chapters = [
   {
@@ -51,7 +54,8 @@ export default function CivilizationsPage() {
           src="/assets/visuales/hero-comparacion-civilizaciones.png"
           alt="Mesa de investigación con mapas, registros y objetos arqueológicos comparados"
           fill
-          priority
+          preload
+          fetchPriority="high"
           sizes="100vw"
         />
         <div className="civilizations-hero-shade" />

@@ -2,8 +2,7 @@
 
 import Link from "next/link";
 import { Check, ExternalLink, Scale, Share2 } from "lucide-react";
-import { usePathname, useRouter, useSearchParams } from "next/navigation";
-import { useState } from "react";
+import { useState, useSyncExternalStore } from "react";
 import {
   civilizationCases,
   civilizationDimensions,
@@ -22,11 +21,28 @@ const stateLabels: Record<ComparisonState, string> = {
   contrary: "Evidencia contraria",
 };
 
+const comparisonChangeEvent = "vt-comparison-change";
+
+function subscribeToLocation(onStoreChange: () => void) {
+  window.addEventListener("popstate", onStoreChange);
+  window.addEventListener(comparisonChangeEvent, onStoreChange);
+  return () => {
+    window.removeEventListener("popstate", onStoreChange);
+    window.removeEventListener(comparisonChangeEvent, onStoreChange);
+  };
+}
+
+function getLocationSnapshot() {
+  return window.location.search;
+}
+
+function getServerLocationSnapshot() {
+  return "";
+}
+
 export default function CivilizationComparator() {
-  const router = useRouter();
-  const pathname = usePathname();
-  const searchParams = useSearchParams();
-  const selection = parseComparisonState(searchParams);
+  const locationSearch = useSyncExternalStore(subscribeToLocation, getLocationSnapshot, getServerLocationSnapshot);
+  const selection = parseComparisonState(new URLSearchParams(locationSearch));
   const [mobileChoice, setMobileChoice] = useState<CivilizationDimensionKey>(selection.dimensions[0]);
   const [shareStatus, setShareStatus] = useState("");
   const mobileDimension = selection.dimensions.includes(mobileChoice) ? mobileChoice : selection.dimensions[0];
@@ -35,7 +51,12 @@ export default function CivilizationComparator() {
     .filter((item): item is (typeof civilizationCases)[number] => Boolean(item));
 
   function update(cases: string[], dimensions: CivilizationDimensionKey[]) {
-    router.replace(`${pathname}?${serializeComparisonState(cases, dimensions)}`, { scroll: false });
+    window.history.replaceState(
+      window.history.state,
+      "",
+      `${window.location.pathname}?${serializeComparisonState(cases, dimensions)}`,
+    );
+    window.dispatchEvent(new Event(comparisonChangeEvent));
   }
 
   function toggleCase(id: string) {
