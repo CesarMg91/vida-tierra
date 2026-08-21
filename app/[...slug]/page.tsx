@@ -1,5 +1,6 @@
 import { notFound } from "next/navigation";
-import { getIndex, getDoc } from "../../lib/content.mjs";
+import type { Metadata } from "next";
+import { getIndex, getDoc } from "../../lib/content";
 
 // El valor debe ser un literal para que Next.js pueda analizar la configuración
 // durante el build. Las rutas publicadas son las enumeradas por
@@ -10,13 +11,15 @@ export function generateStaticParams() {
   return getIndex().map((d) => ({ slug: d.slug.split("/") }));
 }
 
-export async function generateMetadata({ params }) {
+type PageProps = { params: Promise<{ slug: string[] }> };
+
+export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
   const { slug } = await params;
   const doc = await getDoc(slug.join("/"));
   return { title: doc ? `${doc.title} — ¿Cómo sabemos lo que sabemos?` : "No encontrado" };
 }
 
-const ESTADOS = {
+const ESTADOS: Record<string, string> = {
   AUDITADO: "Cadena completa: adversario, incertidumbre y falsadores revisados.",
   REPLICADO: "Además existe reproducción o reanálisis independiente documentado.",
   TRAZADO: "Claim, evidencia y fuente enlazados.",
@@ -26,7 +29,7 @@ const ESTADOS = {
   RETIRADO: "Formulación abandonada, conservada para historial.",
 };
 
-export default async function DocPage({ params }) {
+export default async function DocPage({ params }: PageProps) {
   const { slug } = await params;
   const doc = await getDoc(slug.join("/"));
   if (!doc) notFound();

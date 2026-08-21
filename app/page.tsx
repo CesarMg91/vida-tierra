@@ -1,4 +1,4 @@
-import { getDoc } from "../lib/content.mjs";
+import { getDoc } from "../lib/content";
 
 export default async function Home() {
   const doc = await getDoc("README");

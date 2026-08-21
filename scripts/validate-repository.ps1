@@ -32,6 +32,7 @@ $excludedDirs = @(
     '\.agents',
     '\.claude',
     '\.codex',
+    '\.generated',
     'node_modules',
     '\.next',
     'public',
