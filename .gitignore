@@ -28,6 +28,7 @@ node_modules/
 .next/
 .generated/
 out/
-public/
+public/*
+!public/brand/
 next-env.d.ts
 scripts/.citations-cache.json

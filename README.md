@@ -14,6 +14,12 @@ El sitio usa `https://vida-tierra.vercel.app` como URL canónica. Otro dominio p
 
 > **Ilustración conceptual:** comprime épocas distintas y no está a escala. Su procedencia y límites se registran en el [`ATLAS_VISUAL.md`](ATLAS_VISUAL.md).
 
+## Identidad visual
+
+![¿Cómo sabemos lo que sabemos? — Historia profunda y evidencia abierta](public/brand/logo-lockup-dark-1520.png)
+
+El [kit de marca](assets/marca/README.md) contiene el símbolo maestro, lockups para fondos claros y oscuros, versiones monocromáticas, avatar social, favicon, Apple Touch Icon e iconos PWA. Todas las exportaciones se regeneran desde un SVG determinista con `npm run brand:build`.
+
 Este repositorio público investiga cómo se reconstruyen acontecimientos que nadie observó directamente. Su pregunta rectora no es “¿qué dicen los libros?”, sino:
 
 > Si desaparecieran los manuales y no pudiéramos confiar inicialmente en ninguna autoridad, ¿qué observaciones, mediciones, experimentos y razonamientos permitirían reconstruir esta conclusión?

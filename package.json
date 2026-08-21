@@ -5,6 +5,7 @@
   "private": true,
   "description": "Sitio de lectura para la investigacion epistemologica '¿Como sabemos lo que sabemos?'",
   "scripts": {
+    "brand:build": "node scripts/generate-brand-assets.mjs",
     "prepare-site": "node scripts/prepare-site.mjs",
     "dev": "npm run prepare-site && next dev",
     "build": "npm run prepare-site && next build",
