@@ -3,8 +3,13 @@ import { Suspense } from "react";
 import EvidenceChain from "../../components/EvidenceChain";
 import EvidenceExplorer from "../../components/EvidenceExplorer";
 import { getKnowledgeCounts } from "../../lib/public-data";
+import { createPageMetadata } from "../../lib/site";
 
-export const metadata: Metadata = { title: "Evidencia — ¿Cómo sabemos lo que sabemos?" };
+export const metadata: Metadata = createPageMetadata({
+  title: "Evidencia",
+  description: "Explorador público de claims, evidencias, fuentes, controversias y errores con sus relaciones trazables.",
+  pathname: "/evidencia",
+});
 
 export default function EvidencePage() {
   const counts = getKnowledgeCounts();

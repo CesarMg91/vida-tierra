@@ -2,11 +2,13 @@ import type { Metadata } from "next";
 import { Suspense } from "react";
 import ResearchExplorer from "../../components/ResearchExplorer";
 import { getCatalog } from "../../lib/public-data";
+import { createPageMetadata } from "../../lib/site";
 
-export const metadata: Metadata = {
-  title: "Explorar investigaciones — ¿Cómo sabemos lo que sabemos?",
+export const metadata: Metadata = createPageMetadata({
+  title: "Explorar investigaciones",
   description: "Biblioteca filtrable de investigaciones sobre el cosmos, la Tierra, la vida, la humanidad y las civilizaciones.",
-};
+  pathname: "/explorar",
+});
 
 export default function ExplorePage() {
   const catalog = getCatalog().map(({

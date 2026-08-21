@@ -111,6 +111,34 @@ Interacciones y aceptación verificadas con datos reales:
 
 No quedan diferencias accionables P0, P1 o P2 en el alcance del PR 4.
 
+## Extensión PR 5 — descubrimiento, privacidad y lanzamiento v0.2.0
+
+La capa de lanzamiento preserva la referencia contractual y añade solamente superficies coherentes con el sistema aprobado: pie global, transparencia, política de privacidad y metadatos de publicación. La portada final se volvió a comparar visualmente con la referencia en el mismo pase; conserva encuadre, jerarquía, titular, navegación, cobre/ámbar y transición museo–laboratorio sin introducir activos decorativos ajenos.
+
+- **Referencia contractual:** `C:\Users\HUAWEI\.codex\generated_images\019fedb0-8f24-7e33-8d16-d2418ba3378e\exec-88e9637c-fa99-4f49-929e-aa013dcccd77.png`.
+- **Portada final 1440 px:** `C:\Users\HUAWEI\.codex\visualizations\2026\08\10\019fedb0-8f24-7e33-8d16-d2418ba3378e\vida-tierra-pr5\home-1440-final.png`.
+- **Política de privacidad 1440/390 px:** `privacy-1440-final.png` y `privacy-390-final.png` en el mismo directorio de QA.
+- **Comparador final 390 px:** `comparator-390-final.png`.
+- **Lighthouse móvil:** `lighthouse-home-mobile-release.json`.
+
+Hallazgos cerrados durante la revisión:
+
+1. El comparador prerenderizaba un fallback pequeño y desplazaba el documento al hidratar (CLS 0.19–0.29). Se eliminó el bailout de `useSearchParams`, se renderizó el comparador completo desde el HTML estático y la URL pasó a un almacén externo sincronizado. Resultado final: CLS 0 con casos y dimensiones compartibles intactos.
+2. Las fuentes autoalojadas usaban `font-display: swap` sin ajuste métrico explícito. Se migraron a `next/font/local`, con precarga, fallbacks ajustados y variables compartidas por todo el sistema.
+3. El hero original se servía sin optimización y la primera auditoría Lighthouse obtuvo 75 en rendimiento. Se activaron AVIF/WebP responsivos, `srcset`, preload y `fetchPriority="high"`; la auditoría final obtuvo 93.
+4. La ausencia de favicon generaba el único error de consola y reducía buenas prácticas a 96. El icono final se genera como PNG de 64×64 a partir del hero documentado; responde 200 y elevó buenas prácticas a 100.
+5. Analytics y Speed Insights quedaron limitados al entorno Vercel. Antes de enviar mediciones se eliminan consulta y fragmento; la búsqueda, filtros, IDs, marcadores y progreso no se transmiten.
+
+Aceptación final verificada:
+
+- Lighthouse móvil: **93 rendimiento, 100 accesibilidad, 100 buenas prácticas y 100 SEO**; CLS 0 y TBT 91.5 ms.
+- Navegador local de producción a 390 px: portada LCP 744 ms, comparador LCP 388 ms, ambos CLS 0 y sin scroll horizontal.
+- Axe WCAG 2.2 A/AA: 0 violaciones en portada, privacidad, Cómo sabemos, lector y comparador; los únicos elementos incompletos requieren comprobación manual por estar sobre gradientes fotográficos y fueron revisados visualmente.
+- 235 páginas estáticas; canonical productivo, Open Graph, Twitter Cards, `Article`/`CreativeWork` JSON-LD, sitemap con 230 URLs, robots y favicon válidos.
+- Cabeceras de tipo, encuadre, referencia, permisos, aislamiento y HSTS presentes; `SITE_URL` permite cambiar de dominio sin tocar código.
+- 23/23 pruebas de contenido, lector, búsqueda, Civilizaciones, privacidad, metadatos y seguridad; validadores estructural, datos públicos, DOI, TypeScript y `git diff --check` verdes.
+- No quedan diferencias accionables P0, P1 o P2 para el lanzamiento.
+
 ## Resultado final
 
 final result: passed

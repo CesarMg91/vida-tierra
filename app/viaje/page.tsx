@@ -1,11 +1,13 @@
 import type { Metadata } from "next";
 import JourneyClient from "../../components/JourneyClient";
 import { getCatalog } from "../../lib/public-data";
+import { createPageMetadata } from "../../lib/site";
 
-export const metadata: Metadata = {
-  title: "Iniciar viaje — ¿Cómo sabemos lo que sabemos?",
+export const metadata: Metadata = createPageMetadata({
+  title: "Iniciar viaje",
   description: "Recorrido guiado por 52 investigaciones, del cosmos a las primeras civilizaciones.",
-};
+  pathname: "/viaje",
+});
 
 export default function JourneyPage() {
   const catalog = getCatalog().map(({

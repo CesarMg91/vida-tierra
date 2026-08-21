@@ -1,6 +1,6 @@
 {
   "name": "vida-tierra",
-  "version": "0.1.51",
+  "version": "0.2.0",
   "type": "module",
   "private": true,
   "description": "Sitio de lectura para la investigacion epistemologica '¿Como sabemos lo que sabemos?'",
@@ -21,6 +21,8 @@
     "@fontsource/ibm-plex-mono": "^5.3.0",
     "@fontsource/ibm-plex-sans": "^5.3.0",
     "@fontsource/source-serif-4": "^5.3.0",
+    "@vercel/analytics": "^2.0.1",
+    "@vercel/speed-insights": "^2.0.0",
     "d3-geo": "^3.1.1",
     "gray-matter": "^4.0.3",
     "lucide-react": "^1.33.0",
