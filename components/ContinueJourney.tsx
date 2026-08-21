@@ -21,9 +21,10 @@ export default function ContinueJourney({ catalog }: { catalog: CatalogProgressR
   const next = catalog.find((record) => record.order !== null && !state.completed.includes(record.slug));
   const target = last || next || catalog.find((record) => record.order === 1);
   if (!target) return null;
+  const resumeHash = last && state.lastVisited?.heading ? `#${state.lastVisited.heading}` : "";
 
   return (
-    <Link className="continue-card" href={`/${target.slug}`}>
+    <Link className="continue-card" href={`/${target.slug}${resumeHash}`}>
       <History aria-hidden="true" />
       <span>
         <small>{last ? "Continúa donde te quedaste" : "Tu próximo paso"}</small>

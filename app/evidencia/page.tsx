@@ -1,28 +1,27 @@
 import type { Metadata } from "next";
-import Link from "next/link";
-import { AlertTriangle, ArrowRight, BookMarked, Fingerprint, MessageSquareText } from "lucide-react";
+import { Suspense } from "react";
 import EvidenceChain from "../../components/EvidenceChain";
+import EvidenceExplorer from "../../components/EvidenceExplorer";
 import { getKnowledgeCounts } from "../../lib/public-data";
 
 export const metadata: Metadata = { title: "Evidencia — ¿Cómo sabemos lo que sabemos?" };
 
 export default function EvidencePage() {
   const counts = getKnowledgeCounts();
-  const records = [
-    { title: "Claims", count: counts.claims, href: "/CLAIMS", icon: MessageSquareText, text: "Afirmaciones delimitadas, confianza y estado." },
-    { title: "Evidencias", count: counts.evidence, href: "/EVIDENCE_LEDGER", icon: Fingerprint, text: "Observación, método, supuestos y límites." },
-    { title: "Fuentes", count: counts.sources, href: "/SOURCES", icon: BookMarked, text: "Referencia, acceso, resultado usado y limitaciones." },
-    { title: "Controversias", count: counts.controversies, href: "/CONTROVERSIES", icon: AlertTriangle, text: "Desacuerdos reales y datos discriminantes." },
-  ];
   return (
     <div className="page-shell evidence-page">
-      <header className="portal-hero compact"><p className="eyebrow">Laboratorio público</p><h1>Recorre una conclusión hasta sus datos</h1><p>El explorador relacional completo llegará en el PR 3. Desde ahora, la cadena y todos los registros maestros tienen una entrada pública estable.</p></header>
-      <EvidenceChain />
-      <div className="registry-grid">
-        {records.map(({ title, count, href, icon: Icon, text }) => (
-          <article key={title}><Icon aria-hidden="true" /><span>{count.toLocaleString("es-MX")}</span><h2>{title}</h2><p>{text}</p><Link href={href}>Abrir registro <ArrowRight aria-hidden="true" /></Link></article>
-        ))}
-      </div>
+      <header className="portal-hero compact">
+        <p className="eyebrow">Laboratorio público · {Object.values(counts).reduce((sum, value) => sum + value, 0).toLocaleString("es-MX")} registros</p>
+        <h1>Recorre una conclusión hasta sus datos</h1>
+        <p>Busca por ID o concepto, cambia de registro y abre cada relación sin perder el contexto. Las consultas permanecen en tu dispositivo.</p>
+      </header>
+      <section className="evidence-method-preview" aria-labelledby="evidence-method-title">
+        <div><p className="eyebrow">El puente mínimo</p><h2 id="evidence-method-title">Una cadena, no una lista de autoridades</h2></div>
+        <EvidenceChain />
+      </section>
+      <Suspense fallback={<p className="registry-loading">Preparando el laboratorio…</p>}>
+        <EvidenceExplorer />
+      </Suspense>
     </div>
   );
 }

@@ -54,6 +54,28 @@ No quedan diferencias accionables P0, P1 o P2.
 - Axe WCAG 2 A/AA: 0 violaciones en portada, viaje, explorar, cronología, civilizaciones, evidencia y cómo sabemos.
 - Core Web Vitals locales en desarrollo: CLS 0, FCP 228 ms, LCP 228 ms; el build de producción generó 229/229 páginas.
 
+## Extensión PR 3 — lector y laboratorio
+
+El lector y `/evidencia` reutilizan sin desviaciones el sistema aprobado en PR 2: obsidiana, cobre, Source Serif 4 e IBM Plex, bordes rectos, IDs monoespaciados y jerarquía “museo vivo + laboratorio”. La maqueta elegida contractualmente cubre la portada; estas superficies nuevas se juzgaron contra ese lenguaje, el contrato funcional del plan y estados reales del corpus, no contra una pantalla inventada.
+
+- **Lector 1440 px:** `C:\Users\HUAWEI\.codex\visualizations\2026\08\10\019fedb0-8f24-7e33-8d16-d2418ba3378e\vida-tierra-pr3\reader-hero-fixed-1440.png`.
+- **Resumen completo 1440 px:** `C:\Users\HUAWEI\.codex\visualizations\2026\08\10\019fedb0-8f24-7e33-8d16-d2418ba3378e\vida-tierra-pr3\reader-summary-1440.png`.
+- **Cadena de evidencia 1440 px:** `C:\Users\HUAWEI\.codex\visualizations\2026\08\10\019fedb0-8f24-7e33-8d16-d2418ba3378e\vida-tierra-pr3\reader-evidence-1440.png`.
+- **Lector y evidencia móvil 390 px:** `reader-mobile-390.png` y `reader-evidence-mobile-390.png` en el mismo directorio de QA.
+- **Laboratorio 1440/390 px:** `evidence-explorer-1440.png` y `evidence-explorer-mobile-390.png`.
+
+Hallazgos cerrados durante la revisión:
+
+1. Un título largo de la Investigación 052 podía salir por encima del hero. Se amplió el ancho editorial, se redujo la escala máxima y se hizo adaptable la altura; la captura final muestra título y metadatos completos.
+2. El registro de confianza exponía cientos de modificadores como opciones independientes. Se sustituyó por los grados canónicos A–E del sistema metodológico, manteniendo la formulación completa dentro de cada tarjeta.
+3. Los IDs dentro de `summary` producían controles interactivos anidados. El resumen conserva el ID como etiqueta y el enlace contextual se trasladó al cuerpo expandido.
+4. Los controles iconográficos móviles recibieron nombres accesibles explícitos. Axe WCAG 2.2 A/AA termina con 0 violaciones en lector y laboratorio, tanto a 390 como a 1440 px.
+5. La impresión inicial mantenía tablas completas y dejaba saltos excesivos. Se habilitaron saltos por fila, repetición del encabezado y protección de títulos; el PDF de prueba bajó de 20 a 19 páginas y se inspeccionaron portada, tablas intermedias y cierre sin recortes ni superposiciones.
+
+Interacciones verificadas con datos reales: tres modos y navegación por teclado; claim → evidencia → fuente en drawer modal; citas Markdown/APA/BibTeX; marcador, completado, modo, progreso y encabezado en `vt-reader-v1`; búsqueda sin tilde; filtros A–E y por estado; URLs de consulta/tipo/ID; deep link directo a una fuente; tarjetas paginadas; impresión y PDF; cero scroll horizontal a 390 px.
+
+No quedan diferencias accionables P0, P1 o P2 en el alcance del PR 3.
+
 ## Resultado final
 
 final result: passed
