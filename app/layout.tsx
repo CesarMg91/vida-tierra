@@ -1,11 +1,14 @@
 import "./globals.css";
+import "@fontsource/source-serif-4/latin-ext-400.css";
+import "@fontsource/source-serif-4/latin-ext-600.css";
+import "@fontsource/ibm-plex-sans/latin-ext-400.css";
+import "@fontsource/ibm-plex-sans/latin-ext-500.css";
+import "@fontsource/ibm-plex-sans/latin-ext-600.css";
+import "@fontsource/ibm-plex-mono/latin-ext-400.css";
 import type { Metadata, Viewport } from "next";
 import Script from "next/script";
 import type { ReactNode } from "react";
-import Sidebar from "../components/Sidebar";
-import ThemeToggle from "../components/ThemeToggle";
-import SearchBox from "../components/SearchBox";
-import { getNav, getSearchIndex } from "../lib/content";
+import SiteHeader from "../components/SiteHeader";
 
 export const metadata: Metadata = {
   title: "¿Cómo sabemos lo que sabemos?",
@@ -20,12 +23,9 @@ export const viewport: Viewport = {
 };
 
 // Evita el parpadeo de tema claro antes de que hidrate React.
-const THEME_SCRIPT = `(function(){try{var t=localStorage.getItem('vt-theme');if(!t)t=window.matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light';document.documentElement.dataset.theme=t;}catch(e){}})();`;
+const THEME_SCRIPT = `(function(){try{var t=localStorage.getItem('vt-theme')||'dark';document.documentElement.dataset.theme=t;}catch(e){document.documentElement.dataset.theme='dark';}})();`;
 
 export default function RootLayout({ children }: Readonly<{ children: ReactNode }>) {
-  const nav = getNav();
-  const search = getSearchIndex();
-
   return (
     <html lang="es" suppressHydrationWarning>
       <head>
@@ -35,20 +35,8 @@ export default function RootLayout({ children }: Readonly<{ children: ReactNode 
       </head>
       <body>
         <a className="skip-link" href="#contenido">Saltar al contenido</a>
-        <header className="topbar">
-          <a className="brand" href="/">
-            <span className="brand-mark" aria-hidden="true" />
-            <span>¿Cómo sabemos lo que sabemos?</span>
-          </a>
-          <div className="topbar-actions">
-            <SearchBox index={search} />
-            <ThemeToggle />
-          </div>
-        </header>
-        <div className="shell">
-          <Sidebar nav={nav} />
-          <main id="contenido">{children}</main>
-        </div>
+        <SiteHeader />
+        <main id="contenido" className="site-main">{children}</main>
       </body>
     </html>
   );
