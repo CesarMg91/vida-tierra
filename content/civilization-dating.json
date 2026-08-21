@@ -1,0 +1,76 @@
+{
+  "schemaVersion": 1,
+  "researchSlug": "14_civilizaciones/INVESTIGACION_CIV_002_FECHADO_ARQUEOLOGICO_HISTORICO",
+  "cases": [
+    {
+      "id": "egipto-temprano",
+      "title": "Egipto temprano",
+      "region": "Valle y delta del Nilo",
+      "methods": ["AMS", "seriación", "modelado bayesiano"],
+      "layers": [
+        { "kind": "sample", "observed": "Semillas y otros materiales de vida corta procedentes de contextos funerarios.", "inference": "La biografía del carbono se aproxima al crecimiento del organismo fechado.", "limit": "La muerte de la planta no observa una institución política.", "claimIds": ["CLAIM-CIV-SAMPLE-SELECTION-001"], "evidenceIds": ["EVID-CIV-EGYPT-DATING-002"], "sourceIds": ["SRC-DEE-2013"] },
+        { "kind": "measurement", "observed": "186 resultados radiocarbónicos, 74 nuevos, con determinaciones individuales.", "inference": "Actividad de 14C compatible con edades convencionales publicadas.", "limit": "La determinación aún no es una fecha calendario ni una fase.", "claimIds": ["CLAIM-CIV-RADIOCARBON-CALIBRATION-001"], "evidenceIds": ["EVID-CIV-EGYPT-DATING-002"], "sourceIds": ["SRC-DEE-2013"] },
+        { "kind": "calendar", "observed": "Distribuciones calibradas bajo curva y probabilidades explícitas.", "inference": "Ventanas calendario condicionadas para cada muestra.", "limit": "Mesetas y modos no se reducen a un promedio.", "claimIds": ["CLAIM-CIV-RADIOCARBON-CALIBRATION-001"], "evidenceIds": ["EVID-CIV-RADIOCARBON-CURVES-001"], "sourceIds": ["SRC-REIMER-INTCAL20-2020"] },
+        { "kind": "context", "observed": "Procedencia funeraria y orden arqueológico registrados.", "inference": "Las muestras restringen los conjuntos con los que están asociadas.", "limit": "Residualidad, intrusión y selección funeraria requieren control.", "claimIds": ["CLAIM-CIV-DATING-CONTEXT-001"], "evidenceIds": ["EVID-CIV-EGYPT-CHRONOLOGY-001"], "sourceIds": ["SRC-DEE-2013"] },
+        { "kind": "phase", "observed": "Seriación y restricciones de secuencia integradas por Bayes.", "inference": "Inicio, final y tempo de fases tempranas bajo el modelo.", "limit": "Los límites dependen de asociación, priors y forma de fase.", "claimIds": ["CLAIM-CIV-BAYES-MODEL-001"], "evidenceIds": ["EVID-CIV-EGYPT-DATING-002"], "sourceIds": ["SRC-DEE-2013", "SRC-BRONK-RAMSEY-BAYES-2009"] },
+        { "kind": "event", "observed": "Cambios convergentes de fases, cementerios, iconografía y administración.", "inference": "Tempo condicionado de consolidación social y política.", "limit": "No está demostrado un instante físico único de «unificación», soberanía o frontera.", "claimIds": ["CLAIM-CIV-EGYPT-CHRONOLOGY-002"], "evidenceIds": ["EVID-CIV-EGYPT-DATING-002"], "sourceIds": ["SRC-DEE-2013"] }
+      ]
+    },
+    {
+      "id": "mesopotamia-anatolia",
+      "title": "Mesopotamia y Anatolia",
+      "region": "Kültepe y Acemhöyük",
+      "methods": ["dendrocronología", "wiggle matching", "epónimos"],
+      "layers": [
+        { "kind": "sample", "observed": "Maderas de construcción con secuencias de anillos; algunas conservan borde.", "inference": "Los anillos pertenecen a árboles usados en edificios concretos.", "limit": "Madera, tala, construcción y uso no son el mismo evento.", "claimIds": ["CLAIM-CIV-DENDRO-WIGGLE-001"], "evidenceIds": ["EVID-CIV-DENDRO-MESOPOTAMIA-001"], "sourceIds": ["SRC-MANNING-MESOPOTAMIA-2016"] },
+        { "kind": "measurement", "observed": "Series de 14C medidas en anillos con separaciones conocidas.", "inference": "Patrón radiocarbónico interno reproducible entre laboratorios.", "limit": "Outliers, pretatamiento y error de curva siguen modelados.", "claimIds": ["CLAIM-CIV-DENDRO-WIGGLE-001"], "evidenceIds": ["EVID-CIV-DENDRO-MESOPOTAMIA-001"], "sourceIds": ["SRC-MANNING-MESOPOTAMIA-2016"] },
+        { "kind": "calendar", "observed": "Wiggle matching de secuencias contra la curva de calibración.", "inference": "Colocaciones calendario de anillos y posibles años de tala.", "limit": "Curva, offset regional y borde condicionan el ajuste.", "claimIds": ["CLAIM-CIV-RADIOCARBON-CALIBRATION-001"], "evidenceIds": ["EVID-CIV-DENDRO-MESOPOTAMIA-001"], "sourceIds": ["SRC-MANNING-MESOPOTAMIA-2016"] },
+        { "kind": "context", "observed": "Maderas asociadas a palacios y objetos textuales de Kültepe/Acemhöyük.", "inference": "La tala restringe construcción o reparación cuando el borde y uso son defendibles.", "limit": "Almacenamiento, reutilización y remodelación pueden separar eventos.", "claimIds": ["CLAIM-CIV-DATING-CONTEXT-001"], "evidenceIds": ["EVID-CIV-HISTORICAL-SYNCHRONISMS-001"], "sourceIds": ["SRC-MANNING-MESOPOTAMIA-2016"] },
+        { "kind": "phase", "observed": "Secuencias arbóreas y edificios se ordenan en un marco del segundo milenio a. C.", "inference": "El modelo favorece una colocación compatible con la cronología media.", "limit": "Es resultado condicionado, no año independiente para cada edificio.", "claimIds": ["CLAIM-CIV-MESOPOTAMIA-CHRONOLOGY-001"], "evidenceIds": ["EVID-CIV-DENDRO-MESOPOTAMIA-001"], "sourceIds": ["SRC-MANNING-MESOPOTAMIA-2016"] },
+        { "kind": "event", "observed": "Tablillas y epónimos enlazados con contextos arquitectónicos.", "inference": "Sincronismos históricos restringidos por la cadena material.", "limit": "Un epónimo no fecha toda madera ni demuestra simultaneidad regional.", "claimIds": ["CLAIM-CIV-HISTORICAL-SYNCHRONISM-001"], "evidenceIds": ["EVID-CIV-HISTORICAL-SYNCHRONISMS-001"], "sourceIds": ["SRC-MANNING-MESOPOTAMIA-2016"] }
+      ]
+    },
+    {
+      "id": "thera",
+      "title": "Thera / Santorini",
+      "region": "Egeo",
+      "methods": ["radiocarbono", "anillos de olivo", "sincronismos"],
+      "layers": [
+        { "kind": "sample", "observed": "Ramas de olivo enterradas por depósitos eruptivos en Santorini y Therasia.", "inference": "La madera creció antes de quedar sepultada.", "limit": "El crecimiento discontinuo dificulta identificar el último anillo.", "claimIds": ["CLAIM-CIV-THERA-OPEN-001"], "evidenceIds": ["EVID-CIV-THERA-001"], "sourceIds": ["SRC-FRIEDRICH-THERA-2006", "SRC-PEARSON-THERASIA-2023"] },
+        { "kind": "measurement", "observed": "Determinaciones 14C y estudios anatómicos/modernos de olivo.", "inference": "Actividad radiocarbónica y estructura de crecimiento medibles.", "limit": "Buena medición no resuelve qué anillo representa la erupción.", "claimIds": ["CLAIM-CIV-PRECISION-ACCURACY-001"], "evidenceIds": ["EVID-CIV-THERA-001"], "sourceIds": ["SRC-EHRLICH-OLIVE-2018"] },
+        { "kind": "calendar", "observed": "Distribuciones afectadas por meseta, estructura anual y posibles offsets.", "inference": "Probabilidad entre finales del XVII y el XVI a. C. bajo modelos publicados.", "limit": "No existe un año único demostrado por la curva.", "claimIds": ["CLAIM-CIV-THERA-OPEN-001"], "evidenceIds": ["EVID-CIV-THERA-001"], "sourceIds": ["SRC-PEARSON-THERA-2018", "SRC-PEARSON-THERASIA-2023"] },
+        { "kind": "context", "observed": "Ramas asociadas con depósitos eruptivos y estratigrafías insulares.", "inference": "El sepultamiento se relaciona estrechamente con la erupción.", "limit": "Retrabajo, anatomía y relación exacta del borde deben evaluarse por muestra.", "claimIds": ["CLAIM-CIV-DATING-CONTEXT-001"], "evidenceIds": ["EVID-CIV-THERA-001"], "sourceIds": ["SRC-FRIEDRICH-THERA-2006", "SRC-PEARSON-THERASIA-2023"] },
+        { "kind": "phase", "observed": "La erupción se relaciona con secuencias arqueológicas del Egeo y Mediterráneo oriental.", "inference": "Ventanas comparables bajo sincronismos declarados.", "limit": "Las fases regionales no comparten automáticamente los mismos límites.", "claimIds": ["CLAIM-CIV-HISTORICAL-SYNCHRONISM-001"], "evidenceIds": ["EVID-CIV-THERA-001"], "sourceIds": ["SRC-PEARSON-THERA-2018"] },
+        { "kind": "event", "observed": "Una gran erupción y depósitos asociados están demostrados.", "inference": "Acontecimiento del segundo milenio a. C. con ventana restringida.", "limit": "Fecha exacta y alineación histórica continúan abiertas; no demostrado no significa sin evidencia.", "claimIds": ["CLAIM-CIV-THERA-OPEN-001"], "evidenceIds": ["EVID-CIV-THERA-001"], "sourceIds": ["SRC-FRIEDRICH-THERA-2006", "SRC-PEARSON-THERA-2018", "SRC-PEARSON-THERASIA-2023"] }
+      ]
+    },
+    {
+      "id": "great-zimbabwe",
+      "title": "Great Zimbabwe",
+      "region": "África austral",
+      "methods": ["radiocarbono", "estratigrafía legada", "Bayes"],
+      "layers": [
+        { "kind": "sample", "observed": "Materiales orgánicos conservados de excavaciones y contextos de calidad desigual.", "inference": "Cada muestra conserva una edad y procedencia documentada en grado variable.", "limit": "Una muestra sin procedencia fina no recupera el depósito destruido.", "claimIds": ["CLAIM-CIV-GREAT-ZIMBABWE-CHRONOLOGY-001"], "evidenceIds": ["EVID-CIV-GREAT-ZIMBABWE-DATING-001"], "sourceIds": ["SRC-CHIRIKURE-GZ-CHRONOLOGY-2013"] },
+        { "kind": "measurement", "observed": "Determinaciones radiocarbónicas históricas y recientes reanalizadas.", "inference": "Edades convencionales comparables bajo control de calidad.", "limit": "La precisión instrumental no restaura asociación perdida.", "claimIds": ["CLAIM-CIV-PRECISION-ACCURACY-001"], "evidenceIds": ["EVID-CIV-GREAT-ZIMBABWE-DATING-001"], "sourceIds": ["SRC-CHIRIKURE-GZ-CHRONOLOGY-2013"] },
+        { "kind": "calendar", "observed": "Determinaciones calibradas y agrupadas con incertidumbre explícita.", "inference": "Ventanas calendario para ocupación y construcción.", "limit": "Fechas antiguas pueden carecer de metadata necesaria para correcciones finas.", "claimIds": ["CLAIM-CIV-RADIOCARBON-CALIBRATION-001"], "evidenceIds": ["EVID-CIV-GREAT-ZIMBABWE-DATING-001"], "sourceIds": ["SRC-CHIRIKURE-GZ-CHRONOLOGY-2013"] },
+        { "kind": "context", "observed": "Estratigrafía preservada, arquitectura y notas legadas con daños coloniales documentados.", "inference": "Algunas muestras pueden asignarse a sectores y episodios.", "limit": "Los sectores y rellenos no fueron todos coetáneos.", "claimIds": ["CLAIM-CIV-DATING-CONTEXT-001"], "evidenceIds": ["EVID-CIV-GREAT-ZIMBABWE-DATING-001"], "sourceIds": ["SRC-CHIRIKURE-GZ-CHRONOLOGY-2013"] },
+        { "kind": "phase", "observed": "Radiocarbono, estratigrafía y arquitectura integrados en una secuencia.", "inference": "Muros desde fines del XII/inicios del XIII y desarrollos posteriores bajo modelo.", "limit": "La fase conserva calidad desigual y sensibilidad a contextos legados.", "claimIds": ["CLAIM-CIV-GREAT-ZIMBABWE-CHRONOLOGY-001"], "evidenceIds": ["EVID-CIV-GREAT-ZIMBABWE-DATING-001"], "sourceIds": ["SRC-CHIRIKURE-GZ-CHRONOLOGY-2013"] },
+        { "kind": "event", "observed": "Construcción, ocupación y transformación ocurrieron en episodios no idénticos.", "inference": "Historia urbana prolongada y espacialmente desigual.", "limit": "No está demostrada una sucesión lineal de «capitales» desde estilos aislados.", "claimIds": ["CLAIM-CIV-GREAT-ZIMBABWE-CHRONOLOGY-001"], "evidenceIds": ["EVID-CIV-GREAT-ZIMBABWE-DATING-001"], "sourceIds": ["SRC-CHIRIKURE-GZ-CHRONOLOGY-2013"] }
+      ]
+    },
+    {
+      "id": "minino",
+      "title": "Minino: reservorio dulceacuícola",
+      "region": "Noroeste de Rusia",
+      "methods": ["radiocarbono pareado", "isótopos estables", "reservorio"],
+      "layers": [
+        { "kind": "sample", "observed": "Nueve pares de hueso humano y bienes funerarios de herbívoros.", "inference": "Los pares comparten un contexto funerario bajo asociación evaluada.", "limit": "Cada material incorporó carbono por cadenas tróficas distintas.", "claimIds": ["CLAIM-CIV-MININO-RESERVOIR-001"], "evidenceIds": ["EVID-CIV-MININO-001"], "sourceIds": ["SRC-WOOD-MININO-2013"] },
+        { "kind": "measurement", "observed": "14C en pares y valores de isótopos estables C/N.", "inference": "Diferencias sistemáticas entre humanos y controles terrestres.", "limit": "Los isótopos no predijeron el offset individual.", "claimIds": ["CLAIM-CIV-RADIOCARBON-RESERVOIR-001"], "evidenceIds": ["EVID-CIV-MININO-001"], "sourceIds": ["SRC-WOOD-MININO-2013"] },
+        { "kind": "calendar", "observed": "Efecto local estimado cerca de 490 ± 80 años 14C.", "inference": "Corrección local aproximada para una cronología de baja resolución.", "limit": "No es una constante mundial ni una corrección individual exacta.", "claimIds": ["CLAIM-CIV-MININO-RESERVOIR-001"], "evidenceIds": ["EVID-CIV-MININO-001"], "sourceIds": ["SRC-WOOD-MININO-2013"] },
+        { "kind": "context", "observed": "Pares procedentes de los mismos entierros.", "inference": "La diferencia se interpreta como reservorio bajo contemporaneidad funeraria.", "limit": "Biografías de objetos y formación del entierro siguen siendo supuestos evaluados.", "claimIds": ["CLAIM-CIV-DATING-CONTEXT-001"], "evidenceIds": ["EVID-CIV-MININO-001"], "sourceIds": ["SRC-WOOD-MININO-2013"] },
+        { "kind": "phase", "observed": "Conjunto funerario mesolítico-neolítico con cronología corregida a baja resolución.", "inference": "Orden aproximado de entierros bajo offset local.", "limit": "La variación individual impide fases finas sin controles adicionales.", "claimIds": ["CLAIM-CIV-RADIOCARBON-RESERVOIR-001"], "evidenceIds": ["EVID-CIV-MININO-001"], "sourceIds": ["SRC-WOOD-MININO-2013"] },
+        { "kind": "event", "observed": "Prácticas funerarias y dieta acuática están documentadas por archivos distintos.", "inference": "La cronología del cementerio requiere incorporar el reservorio.", "limit": "No se demuestra una fecha exacta de transición social ni se exporta el offset a otras poblaciones.", "claimIds": ["CLAIM-CIV-MININO-RESERVOIR-001"], "evidenceIds": ["EVID-CIV-MININO-001"], "sourceIds": ["SRC-WOOD-MININO-2013"] }
+      ]
+    }
+  ]
+}

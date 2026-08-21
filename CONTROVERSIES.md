@@ -3056,3 +3056,34 @@ Tablillas, huesos y cuerdas tienen propiedades distintas; ausencia de un soporte
 Incluir autorías regionales no basta si preguntas, muestras y repositorios continúan fuera de control local. Tampoco existe una única perspectiva comunitaria.
 
 **Prueba discriminatoria:** trazabilidad de acuerdos, decisión sobre muestras/datos, beneficios, coautoría, acceso multilingüe y vías de desacuerdo/retiro.
+
+## Controversias de CIV-002 — Fechado arqueológico e histórico
+
+| ID | Pregunta | Hipótesis en competencia | Prueba que discrimina | Estado |
+|---|---|---|---|---|
+| `CONT-CIV-DATING-THERA-001` | ¿Dónde se sitúa la erupción de Thera en calendario e historia? | final XVII a. C.; mediados XVI; distribuciones/offsets alternativos | ramas con anatomía segura, series anuales, curvas/offsets explícitos y sincronismos independientes | ABIERTA |
+| `CONT-CIV-DATING-CURVE-OFFSET-001` | ¿Qué curva/offset corresponde a una muestra? | IntCal; SHCal; mezcla; Marine+ΔR; offset regional; reservorio dulceacuícola | origen del carbono, archivo local pareado y sensibilidad entre curvas | ABIERTA POR MUESTRA/REGIÓN |
+| `CONT-CIV-DATING-PRIORS-001` | ¿Qué estructura bayesiana representa una fase? | uniforme; trapezoidal; secuencia; duración informada; mezcla | comparación predictiva, sensibilidad y justificación arqueológica previa | ABIERTA POR MODELO |
+| `CONT-CIV-DATING-OLD-WOOD-001` | ¿Cuánto separa crecimiento, tala, uso y deposición? | uso inmediato; almacenamiento; reutilización; residualidad | taxón/parte, borde, marcas, remontaje, contexto y fechas de vida corta | ABIERTA POR OBJETO |
+| `CONT-CIV-DATING-RESERVOIR-001` | ¿Puede corregirse el reservorio dulceacuícola? | offset estable local; variación individual; dieta/ambiente variable | pares contemporáneos, fauna basal, hidrología e isótopos con validación externa | ABIERTA/LOCAL |
+| `CONT-CIV-DATING-SYNCHRONISM-001` | ¿Qué sincronismos textuales/astronómicos transfieren una edad? | identidad única; homónimo; copia; calendario alternativo; corregencia | texto contemporáneo, transmisión, fenómeno único y solución reservada | ABIERTA POR ARCHIVO |
+| `CONT-CIV-DATING-GZ-LEGACY-001` | ¿Cuánta cronología puede recuperarse en Great Zimbabwe? | secuencia robusta parcial; estilos lineales; múltiples áreas no coetáneas | nuevas excavaciones intactas, procedencia legada y modelos sensibles | ABIERTA CON LÍMITE DE ARCHIVO |
+| `CONT-CIV-DATING-INDEPENDENCE-001` | ¿Cuántos resultados son realmente independientes? | contar mediciones; contar muestras/contextos; grafo de dependencias | auditar curva, laboratorio, lote, contexto, prior, sincronismo y dataset compartidos | ABIERTA POR ANÁLISIS |
+
+## CONT-CIV-DATING-THERA-001 — Intervalo preciso, acontecimiento abierto
+
+La rama de 2006, la anatomía de olivos modernos, el registro anual de `14C` y la rama de Therasia no comparten todos los supuestos. Elegir sólo el resultado que coincide con una cronología histórica convierte la comparación en confirmación.
+
+**Prueba discriminatoria:** publicar modelos rivales con las mismas curvas/offsets, muestras de borde verificable y sincronismos evaluados sin usar la fecha objetivo como criterio de selección.
+
+## CONT-CIV-DATING-PRIORS-001 — La forma de fase es información
+
+Una fase uniforme supone actividad igualmente posible entre límites; una forma trapezoidal permite crecimiento/declive; una secuencia impone orden. Ninguna estructura viene del laboratorio.
+
+**Prueba discriminatoria:** predicciones fuera de muestra, sensibilidad de límites y explicación arqueológica previa a conocer el posterior.
+
+## CONT-CIV-DATING-INDEPENDENCE-001 — Convergencia con ancestros comunes
+
+Dos edades pueden compartir curva; dendro y `14C`, anillos; texto y fase, una identificación; dos artículos, una misma muestra. La convergencia sigue siendo informativa, pero su peso no se multiplica por el número de citas.
+
+**Prueba discriminatoria:** grafo público que distinga nodos de datos, contexto, referencia y modelo antes de combinar resultados.

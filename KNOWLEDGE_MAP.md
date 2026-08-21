@@ -1300,3 +1300,44 @@ ADN/isótopo ≠ etnia/lengua/ciudadanía/clase/civilización
 «Colapso» vuelve a su matriz de población, ciudad, institución, red, práctica y archivo. La 052 depende de 050/051 sin duplicarlas; `INV-CIV-ORIGINS-001` sigue `TRAZADO`. La secuencia global `001–052` queda completa y cualquier trabajo posterior se declara expansión.
 
 Véase `INV-CIVILIZATIONS-001` en `14_civilizaciones`, su matriz en `assets/visuales/matriz-comparacion-civilizaciones.svg` y la cronología por paneles en `assets/visuales/cronologia-civilizaciones-paneles.svg`.
+
+### CIV-002 — Cómo fechamos el pasado humano
+
+```text
+muestra ──► medición ──► distribución calendario
+  │              │                 │
+  │ biografía    │ curva/offset    │ asociación
+  ▼              ▼                 ▼
+residualidad   precisión        contexto
+                                   │
+                              orden + Bayes
+                                   ▼
+                                  fase
+                                   │
+                         archivo independiente
+                                   ▼
+                             acontecimiento
+```
+
+Los nodos no heredan significado. Radiocarbono AMS mide carbono; dendrocronología, anillos; OSL, último reinicio; arqueomagnetismo, remanencia; tefrocronología, correlación; textos, redacción/transmisión. Cada uno entrega un producto y transfiere dependencias distintas.
+
+```text
+Egipto: 186 edades + seriación + Bayes → tempo de fases
+        ⇢ «unificación» instantánea: no observada
+
+Kültepe/Acemhöyük: anillos + 14C + epónimos → marco condicionado
+        ⇢ madera = edificio = texto: no
+
+Thera: olivos + curva anual + sincronismos → modelos en tensión
+        ⇢ año exacto: abierto
+
+Great Zimbabwe: fechas + arquitectura + contexto legado → secuencia parcial
+        ⇢ precisión restaura procedencia destruida: no
+
+Minino: pares + 14C + isótopos → reservorio local
+        ⇢ corrección universal: no
+```
+
+`CLAIM-CIV-DATING-CONTEXT-001` pasa de `TRAZADO` a `AUDITADO` por la cadena de CIV-002. El cambio pertenece al claim exacto: `INV-CIV-ORIGINS-001` conserva `TRAZADO`, y 051/052 conservan notas del estado que tenía el claim en sus cortes.
+
+Véase `INV-CIV-DATING-001` en `14_civilizaciones`, `MAPA_CIV_002_FECHADO.md`, `CRONOLOGIA_CIV_002_RELOJES_SINCRONISMOS.md` y los visuales `cadena-muestra-acontecimiento-civ-002.svg` y `matriz-metodos-fechado-civ-002.svg`.

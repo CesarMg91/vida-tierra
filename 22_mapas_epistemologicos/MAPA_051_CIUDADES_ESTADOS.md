@@ -342,7 +342,7 @@ Errores recurrentes:
 | Elemento CIV-001 | Uso en 051 | Estado conservado |
 |---|---|---|
 | `CLAIM-CIV-CATEGORY-001` | categoría no medida | `TRAZADO` |
-| `CLAIM-CIV-DATING-CONTEXT-001` | reloj de muestra/contexto | `TRAZADO` |
+| `CLAIM-CIV-DATING-CONTEXT-001` | reloj de muestra/contexto; `TRAZADO` en el corte 051, auditado después por CIV-002 | `TRAZADO EN ESTE CORTE` |
 | `CLAIM-CIV-SEQUENCE-NONUNIVERSAL-001` | niega escalera necesaria | `TRAZADO` |
 | `CLAIM-CIV-URBANISM-MULTIPATH-001` | Tell Brak/rutas regionales | `TRAZADO` |
 | `CLAIM-CIV-WRITING-ADMIN-001` | P003414 local | `TRAZADO` |

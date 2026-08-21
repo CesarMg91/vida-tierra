@@ -12,7 +12,7 @@ import { renderMarkdownForTest } from "../lib/content.ts";
 
 test("el catálogo conserva 52 órdenes globales y la línea CIV fuera de la secuencia", () => {
   const { catalog } = buildPublicData();
-  assert.equal(catalog.length, 53);
+  assert.equal(catalog.length, 54);
   assert.deepEqual(
     catalog.filter((record) => record.order !== null).map((record) => record.order),
     Array.from({ length: 52 }, (_, index) => index + 1),
@@ -20,6 +20,10 @@ test("el catálogo conserva 52 órdenes globales y la línea CIV fuera de la sec
   const thematic = catalog.find((record) => record.key === "CIV-001");
   assert.equal(thematic?.order, null);
   assert.equal(thematic?.status, "TRAZADO");
+  assert.deepEqual(
+    catalog.filter((record) => record.order === null).map((record) => [record.key, record.status]),
+    [["CIV-001", "TRAZADO"], ["CIV-002", "AUDITADO"]],
+  );
 });
 
 test("las investigaciones temáticas CIV se reconocen y ordenan sin casos especiales", () => {
@@ -54,12 +58,12 @@ test("los comodines editoriales no se convierten en IDs inexistentes", () => {
 
 test("todos los registros maestros quedan materializados", () => {
   const rows = registryRows();
-  assert.equal(rows.claims.length, 894);
-  assert.equal(rows.evidence.length, 752);
-  assert.equal(rows.sources.length, 1151);
-  assert.equal(rows.controversies.length, 410);
-  assert.equal(rows.errors.length, 458);
-  assert.equal(rows.timeline.length, 344);
+  assert.equal(rows.claims.length, 911);
+  assert.equal(rows.evidence.length, 765);
+  assert.equal(rows.sources.length, 1166);
+  assert.equal(rows.controversies.length, 418);
+  assert.equal(rows.errors.length, 468);
+  assert.equal(rows.timeline.length, 354);
 });
 
 test("cada claim llega a evidencia y fuentes publicables", () => {

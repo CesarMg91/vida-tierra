@@ -3982,3 +3982,36 @@ Canales y ríos modifican costes; sequías alteran riesgo. No deciden quién coo
 Completar `001–052` no cambia el estado de una investigación temática ni vuelve auditado un marco. Tampoco autoriza duplicar los análisis de producción o instituciones.
 
 **Corrección:** 050, 051 y 052 conservan objetivos/IDs propios; CIV-001 sigue `TRAZADO`; futuros trabajos son expansiones explícitas.
+
+## Errores auditados de CIV-002
+
+| ID | Formulación errónea | Por qué falla | Corrección |
+|---|---|---|---|
+| `ERR-CIV-DATING-LAB-EVENT-001` | la fecha de laboratorio es la fecha de la ciudad, Estado o erupción | el instrumento mide una muestra; contexto, fase y acontecimiento requieren puentes | nombrar los seis niveles y detenerse donde termina la evidencia |
+| `ERR-CIV-DATING-BP-CALENDAR-001` | `14C BP` equivale a años calendario antes del presente | BP es edad convencional respecto de 1950 y la actividad atmosférica varió | publicar curva/versiones y distribución calibrada |
+| `ERR-CIV-DATING-SIGMA-001` | `±` del laboratorio es el intervalo calendario | calibración puede ensanchar o dividir la probabilidad | conservar determinación y distribución como productos distintos |
+| `ERR-CIV-DATING-MEAN-001` | varios modos calibrados se resumen por su promedio | la media puede caer en una zona de probabilidad baja | publicar intervalos/modos y masa de probabilidad |
+| `ERR-CIV-DATING-INDEPENDENCE-001` | más fechas o artículos implican independencia | pueden compartir muestra, curva, contexto, prior o sincronismo | construir grafo de dependencias y contar nodos únicos |
+| `ERR-CIV-DATING-PRECISION-001` | un posterior estrecho demuestra exactitud | priors fuertes o sesgos compartidos pueden estrechar un resultado desplazado | sensibilidad, controles y validación independiente |
+| `ERR-CIV-DATING-TYPE-POLITY-001` | una fase cerámica identifica una dinastía o pueblo | el tipo ordena materiales; nombre/institución pertenecen a otro archivo | exigir inscripción contemporánea o puente histórico independiente |
+| `ERR-CIV-DATING-TEPHRA-001` | cenizas parecidas proceden de la misma erupción | apariencia no demuestra huella ni deposición primaria | estratigrafía, mineralogía y geoquímica con alternativas |
+| `ERR-CIV-DATING-RING-USE-001` | el último anillo fecha automáticamente construcción y uso | borde puede faltar; tala, almacenamiento, reparación y reutilización difieren | publicar borde/parte, límite y asociación arquitectónica |
+| `ERR-CIV-DATING-EMPTY-ZERO-001` | dato ausente significa cero, ausencia histórica o evidencia contraria | son estados epistémicos diferentes | etiquetar `dato ausente`, `no demostrado` y `evidencia contraria` por separado |
+
+## ERR-CIV-DATING-LAB-EVENT-001 — Una cifra que salta cinco puentes
+
+El salto borra biografía del material, calibración, formación de contexto, fase y definición del acontecimiento.
+
+**Corrección:** la cita pública debe poder completar: «se fechó ___; la medición produjo ___; bajo ___ se infiere ___; no demuestra ___».
+
+## ERR-CIV-DATING-PRECISION-001 — Decimales como autoridad
+
+La precisión interna puede ser excelente aunque el objetivo esté desplazado por madera vieja, reservorio, intrusión o identificación histórica errónea.
+
+**Corrección:** informar precisión y exactitud con controles diferentes; no añadir decimales que el contexto no sostiene.
+
+## ERR-CIV-DATING-INDEPENDENCE-001 — Contar publicaciones como réplicas
+
+Una revisión y el artículo primario no son dos observaciones. Tampoco lo son dos modelos de la misma muestra si comparten la misma curva y contexto.
+
+**Corrección:** contar muestras, contextos, referencias y modelos mediante un grafo de procedencia.

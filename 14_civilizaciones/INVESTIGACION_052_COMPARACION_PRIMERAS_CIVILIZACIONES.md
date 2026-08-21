@@ -121,6 +121,8 @@ La tabla no es un checklist. La ausencia de una celda puede ser histórica, tafo
 
 Una fecha de muestra no fecha automáticamente una fase; una fase no fecha una soberanía; un nombre histórico no se proyecta sin prueba sobre un conjunto arqueológico. Éste es el núcleo de `CLAIM-CIVILIZATIONS-CLOCKS-001`.
 
+**Nota de estado temporal.** En el corte de la 052, `CLAIM-CIV-DATING-CONTEXT-001` continuaba `TRAZADO`. CIV-002 auditó después la misma proposición mediante una cadena de seis niveles. Esa auditoría posterior no altera el estado histórico de este corte ni promueve CIV-001.
+
 ## 3. Mesopotamia: norte, sur y expansión sin una sola cuna
 
 ### Norte y sur

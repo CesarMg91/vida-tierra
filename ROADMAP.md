@@ -122,8 +122,9 @@ Esta línea abrió un marco comparativo antes de que la secuencia global alcanza
 | Orden temático | ID | Alcance | Estado |
 |---:|---|---|---|
 | CIV-001 | `INV-CIV-ORIGINS-001` | [sedentarismo, almacenamiento, domesticaciones, urbanismo, administración y autoridad en carriles regionales](14_civilizaciones/INVESTIGACION_CIV_001_ORIGENES_ALDEAS_CIUDADES_ESTADOS.md) | **TRAZADO** |
+| CIV-002 | `INV-CIV-DATING-001` | [fechado arqueológico e histórico: muestra, medición, calendario, contexto, fase y acontecimiento](14_civilizaciones/INVESTIGACION_CIV_002_FECHADO_ARQUEOLOGICO_HISTORICO.md) | **AUDITADO** |
 
-El marco crítico y el programa regional están en [`14_civilizaciones/MARCO_CRITICO_CIVILIZACION.md`](14_civilizaciones/MARCO_CRITICO_CIVILIZACION.md) y [`14_civilizaciones/PROGRAMA_CRONOLOGICO_GLOBAL.md`](14_civilizaciones/PROGRAMA_CRONOLOGICO_GLOBAL.md). La Investigación 050 audita producción de alimentos, la 051 asentamientos/instituciones y la 052 la comparación dimensional final. CIV-001 permanece `TRAZADO`; la secuencia global `001–052` queda completa y no declara otra investigación global pendiente. Todo trabajo posterior deberá registrarse como expansión regional, metódica o temática explícita.
+El marco crítico y el programa regional están en [`14_civilizaciones/MARCO_CRITICO_CIVILIZACION.md`](14_civilizaciones/MARCO_CRITICO_CIVILIZACION.md) y [`14_civilizaciones/PROGRAMA_CRONOLOGICO_GLOBAL.md`](14_civilizaciones/PROGRAMA_CRONOLOGICO_GLOBAL.md). La Investigación 050 audita producción de alimentos, la 051 asentamientos/instituciones y la 052 la comparación dimensional final. CIV-002 añade el fundamento cronológico sin crear una Investigación 053; promueve sólo `CLAIM-CIV-DATING-CONTEXT-001`. CIV-001 permanece `TRAZADO`; la secuencia global `001–052` queda completa. El siguiente expediente será regional y usará subíndice CIV.
 
 ## Fase 7 — Ramas transversales
 
@@ -201,6 +202,7 @@ Después de disponer de la secuencia base:
 - `v0.1.49`: Investigación 050 + historia de la revolución única a domesticaciones relacionales + mapas de archivos y relojes regionales, actualizados con cebada 2025, arroz 2026 y paleopatología molecular.
 - `v0.1.50`: Investigación 051 + historia de etapas/urban revolution a hogares, paisajes e instituciones contrastables + matriz de archivos y cronología regional, actualizadas con urbanismo amazónico, morfodinámica de Sumer y comparación de formación estatal 2025–2026.
 - `v0.1.51`: Investigación 052 + historia de «civilización» como jerarquía a comparación dimensional + matriz de no herencia y cronología por paneles regionales, actualizadas con Shakhi Kora, desigualdad de Mohenjo-daro, relojes Shang y escrituras comparadas hasta 2026; cierra la secuencia global `001–052`.
+- `v0.2.1`: CIV-002 + historia de seriación/radiocarbono/Bayes + cronología especializada + cadena de seis capas + matriz de métodos + módulo público «Una fecha no es un acontecimiento»; prepara expedientes regionales sin renumerar `001–052`.
 - `v0.2`: Hadeano/Arcaico auditados.
 - `v0.3`: Proterozoico y origen/temprana evolución de la vida.
 - `v0.4`: Fanerozoico completo.

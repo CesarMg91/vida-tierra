@@ -53,3 +53,6 @@ Historia de cómo se reconstruyó la historia: creencias previas, evidencia disr
 - [`HISTORIA_050_AGRICULTURAS_DOMESTICACIONES_MULTIPLES.md`](HISTORIA_050_AGRICULTURAS_DOMESTICACIONES_MULTIPLES.md): de la «revolución neolítica» y los centros únicos a rasgos, poblaciones, economías y relaciones coevolutivas con relojes regionales.
 - [`HISTORIA_051_CIUDADES_ESTADOS.md`](HISTORIA_051_CIUDADES_ESTADOS.md): de etapas, «revolución urbana» y monocausas a hogares, heterarquía, paisajes, arqueometría, gobernanza e instituciones contrastables.
 - [`HISTORIA_052_COMPARACION_PRIMERAS_CIVILIZACIONES.md`](HISTORIA_052_COMPARACION_PRIMERAS_CIVILIZACIONES.md): de «civilización» como jerarquía colonial, etapa y checklist a comparación explícita por dimensiones, relojes, redes, archivos y gobernanza.
+## Civilizaciones
+
+- [`HISTORIA_CIV_002_FECHADO_ARQUEOLOGICO_HISTORICO.md`](HISTORIA_CIV_002_FECHADO_ARQUEOLOGICO_HISTORICO.md) — de seriación y anillos a calibración, Bayes y trazabilidad — **AUDITADO**.

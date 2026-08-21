@@ -6,7 +6,7 @@ Historia profunda de la Tierra, la vida y el ser humano desde primeros principio
 
 **[Explorar la versión pública](https://vida-tierra.vercel.app)**
 
-La versión `0.2.0` convierte el corpus en una experiencia editorial navegable: viaje guiado, biblioteca y búsqueda, cronología, lector por capas, laboratorio de evidencia y un atlas comparativo de Civilizaciones. No requiere cuenta; el progreso permanece en el dispositivo.
+La versión `0.2.1` añade CIV-002, una auditoría de cómo se transfiere una medición desde muestra a calendario, contexto, fase y acontecimiento, junto con el módulo público «Una fecha no es un acontecimiento». Conserva la experiencia editorial de `0.2.0` y el progreso local sin cuenta.
 
 El sitio usa `https://vida-tierra.vercel.app` como URL canónica. Otro dominio puede sustituirlo definiendo `SITE_URL` en el entorno de build, sin cambiar el código.
 
@@ -46,7 +46,7 @@ Y toda investigación debe distinguir explícitamente:
 - las alternativas y anomalías;
 - el grado de confianza y qué podría falsar la conclusión.
 
-## Estado actual · v0.2.0
+## Estado actual · v0.2.1
 
 La experiencia pública contiene:
 
@@ -93,6 +93,7 @@ La experiencia pública contiene:
 - la trigésima quinta investigación: [`¿Cómo fechamos la separación del linaje humano respecto de otros simios si cada región del genoma tiene una historia distinta?`](08_cenozoico/INVESTIGACION_035_SEPARACION_LINAJES_HUMANOS_OTROS_SIMIOS.md);
 - la trigésima sexta investigación: [`¿Cómo identificamos a los primeros homininos si edad, bipedalismo y parentesco no son la misma evidencia?`](08_cenozoico/INVESTIGACION_036_PRIMEROS_HOMININOS_SAHELANTHROPUS_ORRORIN_ARDIPITHECUS.md);
 - una línea temática anticipada, con subíndice propio: [`CIV-001 — ¿Cómo distinguimos sedentarismo, agricultura, aldeas, ciudades y Estados sin una escalera universal?`](14_civilizaciones/INVESTIGACION_CIV_001_ORIGENES_ALDEAS_CIUDADES_ESTADOS.md) — **TRAZADO**; no completa ni sustituye las investigaciones globales `037–052`;
+- una expansión metódica auditada: [`CIV-002 — ¿Cómo pasamos de medir una muestra a fechar una ocupación, una fase o un acontecimiento histórico?`](14_civilizaciones/INVESTIGACION_CIV_002_FECHADO_ARQUEOLOGICO_HISTORICO.md) — **AUDITADO**; no crea una Investigación 053 ni promueve CIV-001;
 - la trigésima séptima investigación: [`¿Cómo distinguimos especies, locomoción, dieta y parentesco entre australopitecos y Paranthropus sin convertir su diversidad en una escalera hacia Homo?`](08_cenozoico/INVESTIGACION_037_AUSTRALOPITECOS_PARANTHROPUS.md);
 - la trigésima octava investigación: [`¿Cómo reconocemos a Homo temprano, habilis y erectus si fósiles, herramientas, cuerpos y moléculas responden preguntas distintas?`](08_cenozoico/INVESTIGACION_038_HOMO_TEMPRANO_HABILIS_ERECTUS.md);
 - la trigésima novena investigación: [`¿Cómo reconstruimos las poblaciones humanas del Pleistoceno medio sin convertir Homo heidelbergensis en un cajón de sastre ni cada fósil en un ancestro?`](08_cenozoico/INVESTIGACION_039_HOMO_PLEISTOCENO_MEDIO_HEIDELBERGENSIS.md);

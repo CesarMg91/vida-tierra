@@ -1146,6 +1146,39 @@ svg { stroke-width: 1.7; }
 .comparison-state-key dt { display: inline-block; }
 .comparison-state-key dd { margin: 0.6rem 0 0; color: var(--ink-muted); font-size: 0.86rem; }
 
+.civilization-dating-section { width: min(100%, var(--content-w)); margin-inline: auto; padding: clamp(5rem, 10vw, 9rem) 1rem; border-top: 1px solid rgba(222,184,113,0.18); }
+.dating-lab { border: 1px solid rgba(222,184,113,0.25); background: #0c0f0f; box-shadow: 0 34px 90px rgba(0,0,0,0.25); }
+.dating-lab-toolbar { display: flex; align-items: end; justify-content: space-between; gap: 2rem; padding: 1.3rem; border-bottom: 1px solid rgba(222,184,113,0.22); background: #121616; }
+.dating-lab-toolbar > div:first-child { display: grid; flex: 1 1 28rem; gap: 0.45rem; max-width: 38rem; }
+.dating-lab-toolbar label { color: #b8aa97; font-family: var(--font-plex-sans), Arial, sans-serif; font-size: 0.65rem; letter-spacing: 0.08em; text-transform: uppercase; }
+.dating-lab-toolbar select { width: 100%; min-height: 3.25rem; padding: 0 2.6rem 0 0.85rem; border: 1px solid rgba(222,184,113,0.32); border-radius: 0; background: #1a1e1c; color: #f1e7d8; font-family: var(--font-source-serif), Georgia, serif; font-size: 1.05rem; }
+.dating-methods { display: flex; flex-wrap: wrap; justify-content: flex-end; gap: 0.4rem; }
+.dating-methods span { padding: 0.38rem 0.58rem; border: 1px solid rgba(133,165,133,0.35); color: #a9c1a7; font-family: var(--font-plex-mono), Consolas, monospace; font-size: 0.58rem; text-transform: uppercase; }
+.dating-chain { display: grid; grid-template-columns: repeat(6, minmax(0, 1fr)); margin: 0; padding: 0; list-style: none; }
+.dating-chain > li { display: flex; min-width: 0; flex-direction: column; padding: 1.05rem; border-right: 1px solid rgba(222,184,113,0.18); }
+.dating-chain > li:last-child { border-right: 0; background: linear-gradient(180deg, rgba(171,102,52,0.1), transparent 55%); }
+.dating-layer-heading { display: flex; align-items: center; gap: 0.65rem; min-height: 3.3rem; border-bottom: 1px solid rgba(222,184,113,0.18); }
+.dating-layer-heading span { display: grid; flex: 0 0 auto; width: 2rem; height: 2rem; place-items: center; border-radius: 50%; background: #34483a; color: #dce8d8; font-family: var(--font-plex-mono), Consolas, monospace; font-size: 0.62rem; }
+.dating-chain > li:last-child .dating-layer-heading span { background: #985c34; color: #fff0da; }
+.dating-layer-heading h3 { margin: 0; color: #e7b477; font-size: 1rem; font-weight: 500; line-height: 1.05; }
+.dating-chain dl { display: grid; margin: 0; }
+.dating-chain dl > div { min-height: 11.2rem; padding: 0.9rem 0; border-bottom: 1px solid rgba(222,184,113,0.14); }
+.dating-chain dt { margin-bottom: 0.45rem; color: #a79c8d; font-family: var(--font-plex-sans), Arial, sans-serif; font-size: 0.56rem; letter-spacing: 0.07em; text-transform: uppercase; }
+.dating-chain dd { margin: 0; color: #d0c8bc; font-size: 0.76rem; line-height: 1.55; }
+.dating-chain .dating-limit { min-height: 12rem; }
+.dating-chain .dating-limit dt { color: #d79a70; }
+.dating-chain .dating-limit dd { color: #d9bca6; }
+.dating-references { display: grid; gap: 0.42rem; margin-top: auto; padding-top: 0.9rem; }
+.dating-references a { display: flex; align-items: start; gap: 0.3rem; color: #b68a50; font-family: var(--font-plex-mono), Consolas, monospace; font-size: 0.5rem; line-height: 1.4; overflow-wrap: anywhere; }
+.dating-references a:hover { color: #e5bc7e; }
+.dating-references svg { flex: 0 0 auto; width: 0.65rem; height: 0.65rem; margin-top: 0.05rem; }
+.dating-lab-footer { display: flex; align-items: center; justify-content: space-between; gap: 2rem; padding: 1.3rem; border-top: 1px solid rgba(222,184,113,0.22); background: #151a17; }
+.dating-lab-footer strong { color: #b8cfb7; font-family: var(--font-source-serif), Georgia, serif; font-size: 1.1rem; font-weight: 500; }
+.dating-lab-footer p { max-width: 58rem; margin: 0.35rem 0 0; color: #9d968b; font-size: 0.78rem; }
+.dating-lab-footer .button { flex: 0 0 auto; }
+.dating-empty { display: flex; align-items: center; gap: 0.75rem; padding: 2rem; border: 1px dashed rgba(222,184,113,0.3); color: #d0c5b5; }
+.dating-empty svg { flex: 0 0 auto; color: #d79a70; }
+
 @media (max-width: 1120px) {
   .civilizations-hero-ledger { right: 1.5rem; }
   .civilization-atlas { grid-template-columns: minmax(0, 1.45fr) minmax(17rem, 0.55fr); }
@@ -1153,6 +1186,9 @@ svg { stroke-width: 1.7; }
   .adversarial-section { grid-template-columns: 1fr; }
   .civilization-dossier-grid { grid-template-columns: repeat(2, 1fr); }
   .case-picker { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+  .dating-chain { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+  .dating-chain > li:nth-child(3) { border-right: 0; }
+  .dating-chain > li:nth-child(-n+3) { border-bottom: 1px solid rgba(222,184,113,0.18); }
 }
 
 @media (max-width: 840px) {
@@ -1181,6 +1217,15 @@ svg { stroke-width: 1.7; }
   .comparison-cell dl div { min-height: 0; border-right: 1px solid var(--line); }
   .comparison-cell dl div:last-child { border-right: 0; }
   .comparison-state-key { grid-template-columns: 1fr; gap: 1rem; padding: 2rem; }
+  .dating-lab-toolbar, .dating-lab-footer { align-items: stretch; flex-direction: column; }
+  .dating-lab-toolbar > div:first-child { flex: 0 1 auto; max-width: none; }
+  .dating-methods { justify-content: flex-start; }
+  .dating-chain { grid-template-columns: 1fr; }
+  .dating-chain > li, .dating-chain > li:nth-child(3) { position: relative; border-right: 0; border-bottom: 1px solid rgba(222,184,113,0.18); }
+  .dating-chain > li:last-child { border-bottom: 0; }
+  .dating-chain dl { grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 1rem; }
+  .dating-chain dl > div, .dating-chain .dating-limit { min-height: 0; border-bottom: 0; }
+  .dating-references { grid-template-columns: repeat(3, minmax(0, 1fr)); }
 }
 
 @media (max-width: 620px) {
@@ -1195,7 +1240,7 @@ svg { stroke-width: 1.7; }
   .civilizations-hero-ledger div { padding: 0.7rem; }
   .civilizations-hero-ledger dd { font-size: 1.6rem; }
   .civilizations-visual-limit { display: none; }
-  .civilizations-thesis, .civilization-chapters, .civilization-chronology-section, .civilizations-comparator-callout, .civilization-dossiers { padding-block: 4.5rem; }
+  .civilizations-thesis, .civilization-chapters, .civilization-dating-section, .civilization-chronology-section, .civilizations-comparator-callout, .civilization-dossiers { padding-block: 4.5rem; }
   .civilizations-experience .section-heading { align-items: start; }
   .civilization-chapter-image { min-height: 15rem; }
   .civilization-chapter-copy { min-height: 0; padding: 2rem 1.2rem; }
@@ -1219,6 +1264,9 @@ svg { stroke-width: 1.7; }
   .comparison-cell dl { grid-template-columns: 1fr; }
   .comparison-cell dl div { border-right: 0; }
   .comparison-state-key { margin-top: 4rem; padding: 1.2rem; }
+  .dating-chain dl { grid-template-columns: 1fr; gap: 0; }
+  .dating-chain dl > div { padding-block: 0.8rem; border-bottom: 1px solid rgba(222,184,113,0.12); }
+  .dating-references { grid-template-columns: 1fr; }
 }
 
 @media print {
@@ -1228,7 +1276,10 @@ svg { stroke-width: 1.7; }
   .civilizations-hero-copy { position: static; width: auto; padding: 2rem 0; color: #111; }
   .civilizations-hero-copy > p:not(.eyebrow) { color: #333; }
   .civilizations-hero-ledger { position: static; color: #111; }
-  .civilizations-thesis, .civilization-chapters, .civilization-atlas-section, .civilization-chronology-section, .adversarial-section, .civilizations-comparator-callout, .civilization-dossiers { width: auto; padding: 1rem 0; background: #fff; color: #111; }
+  .civilizations-thesis, .civilization-chapters, .civilization-atlas-section, .civilization-dating-section, .civilization-chronology-section, .adversarial-section, .civilizations-comparator-callout, .civilization-dossiers { width: auto; padding: 1rem 0; background: #fff; color: #111; }
+  .dating-lab-toolbar select { color: #111; background: #fff; }
+  .dating-chain { display: block; }
+  .dating-chain > li { break-inside: avoid; border: 1px solid #bbb; }
   .comparison-dimension { display: block !important; break-before: page; }
   .comparison-case-grid { display: table; width: 100%; }
   .comparison-cell { display: table-cell; width: 33%; break-inside: avoid; }
