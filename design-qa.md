@@ -76,6 +76,41 @@ Interacciones verificadas con datos reales: tres modos y navegación por teclado
 
 No quedan diferencias accionables P0, P1 o P2 en el alcance del PR 3.
 
+## Extensión PR 4 — viaje, atlas y comparador de Civilizaciones
+
+La experiencia conserva la verdad visual seleccionada y el sistema ya aprobado: fondo obsidiana, cobre y ámbar como señal, Source Serif 4 para narrativa, IBM Plex para interfaz, bordes rectos y fotografías documentadas del propio proyecto. La comparación directa entre la referencia y la captura final confirmó jerarquía, contraste, navegación suspendida, hero panorámico, titular editorial y paso continuo de museo a laboratorio.
+
+- **Referencia contractual:** `C:\Users\HUAWEI\.codex\generated_images\019fedb0-8f24-7e33-8d16-d2418ba3378e\exec-88e9637c-fa99-4f49-929e-aa013dcccd77.png`.
+- **Viaje completo 1440 px:** `C:\Users\HUAWEI\.codex\visualizations\2026\08\10\019fedb0-8f24-7e33-8d16-d2418ba3378e\vida-tierra-pr4-civilizaciones-1440.png`.
+- **Comparador completo 1440 px:** `C:\Users\HUAWEI\.codex\visualizations\2026\08\10\019fedb0-8f24-7e33-8d16-d2418ba3378e\vida-tierra-pr4-comparador-1440.png`.
+- **Estados móviles 390 px:** `vida-tierra-pr4-civilizaciones-390.png` y `vida-tierra-pr4-comparador-390.png` en el mismo directorio de QA.
+- **Matriz responsive:** `vida-tierra-pr4-civilizaciones-768.png` y `vida-tierra-pr4-civilizaciones-1024.png`, además de las capturas 390/1440.
+
+Hallazgos cerrados durante la revisión:
+
+1. El SVG cartográfico contenía controles enfocables dentro de un contenedor `role="img"`; se convirtió en grupo accesible con título y descripción, conservando los marcadores como botones de teclado.
+2. Dos grupos con nombre accesible carecían de rol. Atlas y cronología recibieron semántica de grupo explícita.
+3. La atribución y el caso activo del atlas fallaban contraste por una diferencia mínima o por mezcla de fondos; se elevaron los tonos de número, región y atribución.
+4. Los resúmenes canónicos podían volver demasiado altas las cuatro tarjetas de expediente; se acotaron a diez líneas sin tocar el contenido fuente ni el enlace al manuscrito completo.
+5. El comparador móvil se redujo deliberadamente a una dimensión visible a la vez; el selector adhesivo preserva las dimensiones elegidas y evita una matriz ilegible.
+
+Interacciones y aceptación verificadas con datos reales:
+
+- selección por mapa y por lista; Alta Amazonia actualiza título, periodo, límite cartográfico y fuente sin navegación;
+- selección de uno a tres casos; al llegar a tres, los restantes se deshabilitan y vuelven a habilitarse al quitar uno;
+- casos y dimensiones se serializan en `?casos=...&dimensiones=...`, sobreviven a la navegación y descartan valores desconocidos;
+- cambio móvil entre Urbanismo, Escritura y Autoridad con una única sección expuesta;
+- cada celda entrega archivo observado, inferencia permitida, límite y al menos un ID existente;
+- `No demostrado`, `Dato ausente` y `Evidencia contraria` permanecen estados visuales y semánticos distintos;
+- el mapa usa geometría Natural Earth 1:110m y círculos geodésicos de incertidumbre; no dibuja fronteras históricas;
+- alternativa textual tabular del atlas, navegación por teclado y foco visible;
+- Axe WCAG 2.2 A/AA: 0 violaciones en viaje y comparador a 390 y 1024 px; sólo quedan comprobaciones manuales de contraste sobre gradientes del hero;
+- anchuras medidas 390/390 y 1024/1024, sin scroll horizontal;
+- Core Web Vitals locales de producción a 390 px: viaje FCP/LCP 92 ms, TTFB 4.9 ms, CLS 0; comparador FCP/LCP 52 ms, TTFB 2.3 ms, CLS 0;
+- 19/19 pruebas, typecheck y build estático de 231/231 páginas verdes.
+
+No quedan diferencias accionables P0, P1 o P2 en el alcance del PR 4.
+
 ## Resultado final
 
 final result: passed

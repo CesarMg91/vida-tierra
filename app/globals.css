@@ -885,3 +885,351 @@ svg { stroke-width: 1.7; }
   .doc img, .doc blockquote, .claim-chain, .knowledge-card, .doc tr { break-inside: avoid; }
   .doc thead { display: table-header-group; }
 }
+
+/* Civilizations flagship */
+
+.civilizations-experience {
+  --civilization-paper: #090b0c;
+  --civilization-raised: #111415;
+  --civilization-soft: #171a1a;
+  background: var(--civilization-paper);
+  color: #f2eadb;
+}
+
+.civilizations-hero {
+  position: relative;
+  min-height: min(58rem, 92svh);
+  overflow: hidden;
+  background: #030506;
+}
+.civilizations-hero-image { object-fit: cover; object-position: center 46%; }
+.civilizations-hero-shade {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  background:
+    linear-gradient(90deg, rgba(3,5,6,0.94) 0%, rgba(3,5,6,0.66) 36%, rgba(3,5,6,0.14) 72%),
+    linear-gradient(0deg, #090b0c 0%, rgba(3,5,6,0.06) 38%, rgba(3,5,6,0.36) 100%);
+}
+.civilizations-hero-copy {
+  position: absolute;
+  z-index: 2;
+  top: clamp(11rem, 25vh, 16rem);
+  left: max(1.5rem, calc((100vw - var(--content-w)) / 2));
+  width: min(43rem, calc(100vw - 3rem));
+}
+.civilizations-hero-copy h1 {
+  max-width: 10ch;
+  margin: 0;
+  font-size: clamp(4rem, 7.2vw, 7.6rem);
+  font-weight: 400;
+  line-height: 0.88;
+  letter-spacing: -0.045em;
+  text-wrap: balance;
+}
+.civilizations-hero-copy > p:not(.eyebrow) {
+  max-width: 39rem;
+  margin: 1.5rem 0 1.7rem;
+  color: #d1c5b5;
+  font-size: clamp(1.05rem, 1.65vw, 1.35rem);
+}
+.civilizations-hero-actions { display: flex; flex-wrap: wrap; gap: 0.8rem; }
+.civilizations-ghost-button { border-color: rgba(239,219,183,0.34); background: rgba(7,9,10,0.6); color: #f5ede0; backdrop-filter: blur(9px); }
+.civilizations-hero-ledger {
+  position: absolute;
+  z-index: 2;
+  right: max(1.5rem, calc((100vw - var(--content-w)) / 2));
+  bottom: 4rem;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(6rem, 1fr));
+  margin: 0;
+  border-block: 1px solid rgba(222,184,113,0.28);
+}
+.civilizations-hero-ledger div { display: flex; min-width: 7.5rem; flex-direction: column-reverse; padding: 0.8rem 1rem; border-right: 1px solid rgba(222,184,113,0.2); }
+.civilizations-hero-ledger div:last-child { border-right: 0; }
+.civilizations-hero-ledger dt { color: #b9afa0; font-family: "IBM Plex Sans", sans-serif; font-size: 0.65rem; letter-spacing: 0.08em; text-transform: uppercase; }
+.civilizations-hero-ledger dd { margin: 0; color: #e8c58a; font-size: 2.1rem; line-height: 1; }
+.civilizations-visual-limit { position: absolute; z-index: 2; right: 1rem; bottom: 0.45rem; margin: 0; color: rgba(245,237,224,0.48); font-family: "IBM Plex Sans", sans-serif; font-size: 0.62rem; }
+
+.civilizations-thesis,
+.civilization-chapters,
+.civilization-atlas-section,
+.civilization-chronology-section,
+.adversarial-section,
+.civilizations-comparator-callout,
+.civilization-dossiers {
+  width: min(100% - 2rem, var(--content-w));
+  margin: 0 auto;
+  padding-block: clamp(4.5rem, 9vw, 9rem);
+}
+.civilizations-experience .section-heading { align-items: end; }
+.civilizations-experience .section-heading > p { max-width: 35rem; margin: 0; color: #a9a092; }
+.civilizations-thesis { display: grid; grid-template-columns: minmax(0, 1fr) minmax(20rem, 0.75fr); gap: clamp(3rem, 9vw, 9rem); }
+.civilizations-thesis h2 { max-width: 16ch; margin: 0; font-size: clamp(2.7rem, 5vw, 5.5rem); font-weight: 400; line-height: 0.98; letter-spacing: -0.035em; }
+.civilizations-thesis-copy { padding-top: 2.4rem; }
+.civilizations-thesis-copy > p { color: #afa596; }
+.civilizations-thesis-copy .civilizations-lede { color: #eadfce; font-size: clamp(1.2rem, 2vw, 1.55rem); line-height: 1.45; }
+.civilizations-thesis-copy .text-link { margin-top: 1rem; color: #d9b574; }
+
+.civilization-chapters { border-top: 1px solid rgba(222,184,113,0.18); }
+.civilization-chapter-list { border-top: 1px solid rgba(222,184,113,0.22); }
+.civilization-chapter-list article { display: grid; grid-template-columns: minmax(18rem, 0.8fr) minmax(22rem, 1.2fr); min-height: 25rem; border-bottom: 1px solid rgba(222,184,113,0.22); }
+.civilization-chapter-list article:nth-child(even) { grid-template-columns: minmax(22rem, 1.2fr) minmax(18rem, 0.8fr); }
+.civilization-chapter-list article:nth-child(even) .civilization-chapter-image { order: 2; }
+.civilization-chapter-image { position: relative; min-height: 25rem; overflow: hidden; background: #151718; }
+.civilization-chapter-image::after { content: ""; position: absolute; inset: 0; background: linear-gradient(90deg, rgba(6,8,9,0.05), rgba(6,8,9,0.52)); }
+.civilization-chapter-list article:nth-child(even) .civilization-chapter-image::after { background: linear-gradient(270deg, rgba(6,8,9,0.05), rgba(6,8,9,0.52)); }
+.civilization-chapter-image img { object-fit: cover; transition: transform 500ms ease; }
+.civilization-chapter-list article:hover .civilization-chapter-image img { transform: scale(1.025); }
+.civilization-chapter-copy { display: flex; flex-direction: column; justify-content: center; padding: clamp(2rem, 5vw, 5rem); background: #101314; }
+.civilization-chapter-copy > span { color: #b88949; font-family: "IBM Plex Mono", monospace; font-size: 0.72rem; }
+.civilization-chapter-copy h3 { max-width: 15ch; margin: 1.1rem 0; font-size: clamp(2rem, 3.6vw, 3.7rem); font-weight: 400; line-height: 1.02; }
+.civilization-chapter-copy p { max-width: 38rem; margin: 0 0 1.3rem; color: #ada395; }
+.civilization-chapter-copy .text-link { align-self: flex-start; color: #d6b275; }
+
+.civilization-atlas-section { width: 100%; max-width: none; padding-inline: max(1rem, calc((100vw - var(--content-w)) / 2)); background: #111415; }
+.civilization-atlas-section .section-heading { width: min(100%, var(--content-w)); margin-inline: auto; }
+.civilization-atlas { display: grid; grid-template-columns: minmax(0, 1.7fr) minmax(18rem, 0.62fr); width: min(100%, var(--content-w)); margin: 0 auto; border: 1px solid rgba(222,184,113,0.22); background: #0b0e0f; box-shadow: 0 34px 90px rgba(0,0,0,0.28); }
+.atlas-map-panel { min-width: 0; border-right: 1px solid rgba(222,184,113,0.2); }
+.atlas-map-head { display: flex; align-items: center; justify-content: space-between; gap: 1rem; padding: 1rem 1.2rem; border-bottom: 1px solid rgba(222,184,113,0.18); font-family: "IBM Plex Sans", sans-serif; }
+.atlas-map-head > div { display: flex; flex-direction: column; }
+.atlas-map-head span { color: #af8651; font-size: 0.64rem; letter-spacing: 0.1em; text-transform: uppercase; }
+.atlas-map-head strong { font-size: 0.95rem; font-weight: 500; }
+.atlas-map-head p { display: flex; align-items: center; gap: 0.45rem; max-width: 24rem; margin: 0; color: #968e83; font-size: 0.7rem; }
+.atlas-map-head svg { flex: 0 0 auto; width: 1rem; color: #c59455; }
+.civilization-map { display: block; width: 100%; height: auto; background: radial-gradient(circle at 52% 45%, #172021, #090c0d 65%); }
+.atlas-graticule { fill: none; stroke: rgba(184,137,73,0.11); stroke-width: 0.75; }
+.atlas-land { fill: #252a28; stroke: rgba(222,184,113,0.28); stroke-width: 0.8; vector-effect: non-scaling-stroke; }
+.atlas-marker { cursor: pointer; outline: none; }
+.atlas-marker:focus-visible .atlas-point-halo { stroke: #f4d39c; stroke-width: 4; }
+.atlas-uncertainty { fill: rgba(184,137,73,0.11); stroke: rgba(222,184,113,0.48); stroke-width: 1.2; stroke-dasharray: 4 4; vector-effect: non-scaling-stroke; transition: 180ms ease; }
+.atlas-point-halo { fill: rgba(9,11,12,0.82); stroke: #b88949; stroke-width: 1.5; vector-effect: non-scaling-stroke; transition: 180ms ease; }
+.atlas-point { fill: #e4bd7b; stroke: #090b0c; stroke-width: 1; vector-effect: non-scaling-stroke; }
+.atlas-marker text { fill: #e8d7bc; font-family: "IBM Plex Mono", monospace; font-size: 13px; font-weight: 400; paint-order: stroke; stroke: #0c0f10; stroke-width: 4px; }
+.atlas-marker.is-adversarial .atlas-uncertainty { fill: rgba(119,155,136,0.12); stroke: rgba(119,155,136,0.64); }
+.atlas-marker.is-adversarial .atlas-point-halo { stroke: #779b88; }
+.atlas-marker:hover .atlas-uncertainty, .atlas-marker.is-active .atlas-uncertainty { fill: rgba(222,184,113,0.24); stroke: #e1b972; }
+.atlas-marker.is-active .atlas-point-halo { fill: rgba(184,137,73,0.24); stroke: #f0c882; }
+.atlas-attribution { padding: 0.65rem 1rem; border-top: 1px solid rgba(222,184,113,0.16); color: #a9a197; font-family: "IBM Plex Sans", sans-serif; font-size: 0.62rem; }
+.atlas-case-panel { position: relative; min-width: 0; padding: clamp(1.5rem, 3vw, 2.6rem); overflow: hidden; }
+.atlas-case-number { position: absolute; right: -0.05em; top: -0.22em; color: rgba(222,184,113,0.08); font-family: "Source Serif 4", serif; font-size: 9rem; line-height: 1; }
+.atlas-case-panel h3 { position: relative; margin: 0; font-size: clamp(2rem, 3vw, 3.1rem); font-weight: 400; line-height: 1; }
+.atlas-case-panel > p:not(.eyebrow):not(.atlas-period) { color: #aaa094; }
+.atlas-period { color: #d0ae74; font-family: "IBM Plex Mono", monospace; font-size: 0.7rem; }
+.atlas-anchor-note { display: grid; grid-template-columns: auto 1fr; gap: 0.6rem; margin: 1.6rem 0; padding: 0.9rem 0; border-block: 1px solid rgba(222,184,113,0.17); color: #968d80; font-family: "IBM Plex Sans", sans-serif; font-size: 0.72rem; line-height: 1.5; }
+.atlas-anchor-note svg { width: 1rem; color: #c09558; }
+.atlas-sources { display: flex; flex-direction: column; gap: 0.4rem; }
+.atlas-sources > span { margin-bottom: 0.3rem; color: #8e867c; font-family: "IBM Plex Sans", sans-serif; font-size: 0.64rem; letter-spacing: 0.08em; text-transform: uppercase; }
+.atlas-sources a { display: flex; align-items: start; gap: 0.35rem; color: #caa76d; font-family: "IBM Plex Mono", monospace; font-size: 0.62rem; overflow-wrap: anywhere; }
+.atlas-sources svg { flex: 0 0 auto; width: 0.75rem; }
+.atlas-case-list { grid-column: 1 / -1; display: grid; grid-template-columns: repeat(5, 1fr); background: rgba(222,184,113,0.15); gap: 1px; border-top: 1px solid rgba(222,184,113,0.18); }
+.atlas-case-list button { display: grid; grid-template-columns: auto 1fr; gap: 0.05rem 0.55rem; min-width: 0; min-height: 4.2rem; padding: 0.8rem; border: 0; background: #101314; color: #f0e7d8; cursor: pointer; text-align: left; }
+.atlas-case-list button[aria-pressed="true"] { background: rgba(184,137,73,0.18); box-shadow: inset 0 -2px #c89755; }
+.atlas-case-list button[aria-pressed="true"] > span { color: #e0bd82; }
+.atlas-case-list button[aria-pressed="true"] small { color: #c9c1b5; }
+.atlas-case-list button > span { grid-row: 1 / 3; color: #9b7648; font-family: "IBM Plex Mono", monospace; font-size: 0.62rem; }
+.atlas-case-list strong { min-width: 0; overflow: hidden; font-family: "IBM Plex Sans", sans-serif; font-size: 0.75rem; font-weight: 500; text-overflow: ellipsis; white-space: nowrap; }
+.atlas-case-list small { min-width: 0; overflow: hidden; color: #857e74; font-family: "IBM Plex Sans", sans-serif; font-size: 0.6rem; text-overflow: ellipsis; white-space: nowrap; }
+.atlas-text-equivalent { grid-column: 1 / -1; border-top: 1px solid rgba(222,184,113,0.18); }
+.atlas-text-equivalent summary { padding: 0.85rem 1rem; color: #c29d65; cursor: pointer; font-family: "IBM Plex Sans", sans-serif; font-size: 0.72rem; }
+.atlas-text-equivalent .table-scroll { margin: 0; }
+.atlas-text-equivalent table { width: 100%; border-collapse: collapse; font-family: "IBM Plex Sans", sans-serif; font-size: 0.72rem; }
+.atlas-text-equivalent caption { padding: 0.8rem; color: #a69d90; text-align: left; }
+.atlas-text-equivalent th, .atlas-text-equivalent td { padding: 0.65rem; border: 1px solid rgba(222,184,113,0.15); text-align: left; vertical-align: top; }
+
+.civilization-chronology-section { border-top: 1px solid rgba(222,184,113,0.18); }
+.civilization-chronology { border: 1px solid rgba(222,184,113,0.2); }
+.chronology-scale-warning { display: flex; align-items: center; gap: 1.4rem; padding: 0.8rem 1rem; border-bottom: 1px solid rgba(222,184,113,0.18); background: rgba(184,137,73,0.08); font-family: "IBM Plex Sans", sans-serif; }
+.chronology-scale-warning span { flex: 0 0 auto; color: #dbb779; font-size: 0.68rem; letter-spacing: 0.1em; text-transform: uppercase; }
+.chronology-scale-warning p { margin: 0; color: #9e9588; font-size: 0.72rem; }
+.chronology-lane { display: grid; grid-template-columns: minmax(14rem, 0.4fr) minmax(0, 1.6fr); border-bottom: 1px solid rgba(222,184,113,0.18); }
+.chronology-lane:last-child { border-bottom: 0; }
+.chronology-lane > header { padding: 1.3rem; background: #101314; }
+.chronology-lane > header > span { color: #a77d49; font-family: "IBM Plex Mono", monospace; font-size: 0.65rem; }
+.chronology-lane h3 { margin: 1rem 0 0.5rem; font-size: 1.45rem; font-weight: 400; line-height: 1.1; }
+.chronology-lane header p { margin: 0; color: #968e83; font-size: 0.78rem; }
+.chronology-lane ol { display: grid; grid-template-columns: repeat(var(--lane-columns, 4), minmax(10rem, 1fr)); margin: 0; padding: 0; background: rgba(222,184,113,0.14); gap: 1px; list-style: none; }
+.chronology-lane:nth-child(3) ol { --lane-columns: 3; }
+.chronology-lane:nth-child(5) ol { --lane-columns: 2; }
+.chronology-lane li { min-width: 0; padding: 1.2rem; background: #0c0f10; }
+.chronology-lane time { display: block; color: #d3ab6c; font-family: "IBM Plex Mono", monospace; font-size: 0.67rem; }
+.chronology-lane strong { display: block; margin-top: 0.65rem; font-size: 1rem; }
+.chronology-lane li p { margin: 0.45rem 0 1rem; color: #938b80; font-size: 0.76rem; line-height: 1.5; }
+.chronology-lane li a { display: inline-flex; align-items: center; gap: 0.3rem; color: #b89159; font-family: "IBM Plex Mono", monospace; font-size: 0.55rem; overflow-wrap: anywhere; }
+.chronology-lane li svg { flex: 0 0 auto; width: 0.7rem; }
+
+.adversarial-section { width: 100%; max-width: none; display: grid; grid-template-columns: minmax(16rem, 0.55fr) minmax(0, 1.45fr); gap: clamp(3rem, 7vw, 7rem); padding-inline: max(1rem, calc((100vw - var(--content-w)) / 2)); background: #151918; }
+.adversarial-section > header h2 { margin: 0; font-size: clamp(2.4rem, 4.2vw, 4.4rem); font-weight: 400; line-height: 1; }
+.adversarial-section > header > p:last-child { color: #a49a8e; }
+.adversarial-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 1px; background: rgba(119,155,136,0.28); border: 1px solid rgba(119,155,136,0.28); }
+.adversarial-grid article { min-height: 16rem; padding: 1.3rem; background: #0f1312; }
+.adversarial-grid article > span { color: #779b88; font-family: "IBM Plex Mono", monospace; font-size: 0.65rem; }
+.adversarial-grid h3 { margin: 2rem 0 0.6rem; font-size: 1.55rem; font-weight: 400; }
+.adversarial-grid p { color: #9e968b; font-size: 0.84rem; }
+.adversarial-grid a { display: inline-flex; align-items: center; gap: 0.4rem; color: #91b39f; font-family: "IBM Plex Sans", sans-serif; font-size: 0.75rem; }
+.adversarial-grid svg { width: 0.8rem; }
+
+.civilizations-comparator-callout { display: flex; align-items: end; justify-content: space-between; gap: 3rem; }
+.civilizations-comparator-callout h2 { max-width: 16ch; margin: 0; font-size: clamp(2.8rem, 5vw, 5.2rem); font-weight: 400; line-height: 0.96; }
+.civilizations-comparator-callout > div > p:last-child { max-width: 45rem; color: #a8a093; }
+.civilizations-comparator-callout > .button { flex: 0 0 auto; }
+.civilization-dossiers { border-top: 1px solid rgba(222,184,113,0.18); }
+.civilization-dossier-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 1px; background: rgba(222,184,113,0.18); border: 1px solid rgba(222,184,113,0.18); }
+.civilization-dossier-grid article { display: flex; min-width: 0; min-height: 22rem; flex-direction: column; padding: 1.3rem; background: #101314; }
+.civilization-dossier-meta { display: flex; align-items: center; gap: 0.45rem; color: #b68a50; font-family: "IBM Plex Mono", monospace; font-size: 0.58rem; }
+.civilization-dossier-meta svg { flex: 0 0 auto; width: 0.9rem; }
+.civilization-dossier-grid h3 { margin: 2rem 0 0.8rem; font-size: 1.45rem; font-weight: 400; line-height: 1.1; }
+.civilization-dossier-grid p { display: -webkit-box; max-height: 15.5rem; overflow: hidden; color: #968e83; font-size: 0.82rem; -webkit-box-orient: vertical; -webkit-line-clamp: 10; }
+.civilization-dossier-grid .card-link { align-self: flex-start; margin-top: auto; color: #c49c62; font-size: 0.75rem; }
+
+/* Civilizations comparator */
+
+.civilization-compare-page { --comparison-accent: var(--copper); width: min(100% - 2rem, 88rem); }
+.comparison-page-hero { max-width: 72rem; }
+.comparison-back-link { display: inline-flex; align-items: center; gap: 0.4rem; margin-bottom: 2.5rem; color: var(--ink-muted); font-family: "IBM Plex Sans", sans-serif; font-size: 0.78rem; }
+.comparison-back-link svg { width: 0.9rem; }
+.comparison-app { border-top: 1px solid var(--line-strong); }
+.comparison-controls { padding: 2.5rem 0; border-bottom: 1px solid var(--line); }
+.comparison-control-head { display: flex; align-items: end; justify-content: space-between; gap: 2rem; margin-bottom: 1.3rem; }
+.comparison-control-head > div > span { color: var(--copper); font-family: "IBM Plex Mono", monospace; font-size: 0.65rem; text-transform: uppercase; }
+.comparison-control-head h2 { margin: 0.35rem 0 0; font-size: clamp(1.7rem, 3vw, 2.7rem); font-weight: 400; line-height: 1.1; }
+.comparison-control-head > p { margin: 0; color: var(--ink-muted); font-family: "IBM Plex Sans", sans-serif; font-size: 0.72rem; }
+.case-picker { display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); gap: 1px; background: var(--line); border: 1px solid var(--line); }
+.case-picker label { position: relative; display: grid; grid-template-columns: auto minmax(0, 1fr); align-items: center; gap: 0.65rem; min-width: 0; min-height: 4.6rem; padding: 0.8rem; background: var(--paper-raised); cursor: pointer; }
+.case-picker label.is-selected { background: color-mix(in srgb, var(--copper) 13%, var(--paper-raised)); box-shadow: inset 0 -2px var(--copper); }
+.case-picker label:has(input:disabled) { cursor: not-allowed; opacity: 0.46; }
+.case-picker input { position: absolute; opacity: 0; pointer-events: none; }
+.case-check { display: grid; place-items: center; width: 1.35rem; height: 1.35rem; border: 1px solid var(--line-strong); color: transparent; }
+.case-picker .is-selected .case-check { border-color: var(--copper); background: var(--copper); color: #fff8eb; }
+.case-check svg { width: 0.85rem; }
+.case-picker label > span:last-child { min-width: 0; }
+.case-picker strong, .case-picker small { display: block; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.case-picker strong { font-family: "IBM Plex Sans", sans-serif; font-size: 0.75rem; font-weight: 500; }
+.case-picker small { margin-top: 0.18rem; color: var(--ink-muted); font-family: "IBM Plex Sans", sans-serif; font-size: 0.6rem; }
+.dimension-picker { display: flex; flex-wrap: wrap; gap: 0.45rem; }
+.dimension-picker button { min-height: 2.6rem; padding: 0.45rem 0.85rem; border: 1px solid var(--line); border-radius: 999px; background: var(--paper-raised); color: var(--ink-muted); cursor: pointer; font-family: "IBM Plex Sans", sans-serif; font-size: 0.72rem; }
+.dimension-picker button.is-selected { border-color: var(--copper); background: color-mix(in srgb, var(--copper) 14%, var(--paper-raised)); color: var(--ink); }
+.comparison-toolbar { display: flex; align-items: center; justify-content: space-between; gap: 1rem; padding: 1rem 0; }
+.comparison-guardrail { display: flex; align-items: center; gap: 0.7rem; color: var(--ink-muted); font-family: "IBM Plex Sans", sans-serif; font-size: 0.75rem; }
+.comparison-guardrail svg { flex: 0 0 auto; width: 1.15rem; color: var(--mineral); }
+.comparison-guardrail strong { color: var(--ink); }
+.comparison-toolbar .button { flex: 0 0 auto; border-color: var(--line-strong); background: var(--paper-soft); color: var(--ink); cursor: pointer; }
+.mobile-dimension-select { display: none; }
+.comparison-results { margin-top: 1rem; }
+.comparison-dimension { margin-bottom: 4.5rem; scroll-margin-top: calc(var(--header-h) + 1rem); }
+.comparison-dimension > header { display: grid; grid-template-columns: minmax(10rem, 0.36fr) minmax(14rem, 0.64fr); gap: 0.4rem 2rem; padding: 1rem 0; border-bottom: 1px solid var(--line-strong); }
+.comparison-dimension > header > span { grid-row: 1 / 3; color: var(--copper); font-family: "IBM Plex Mono", monospace; font-size: 0.65rem; text-transform: uppercase; }
+.comparison-dimension > header h2 { margin: 0; font-size: clamp(1.8rem, 3vw, 2.8rem); font-weight: 400; line-height: 1.05; }
+.comparison-dimension > header p { margin: 0; color: var(--ink-muted); }
+.comparison-case-grid { display: grid; grid-template-columns: repeat(var(--case-count), minmax(0, 1fr)); gap: 1px; background: var(--line); border-inline: 1px solid var(--line); border-bottom: 1px solid var(--line); }
+.comparison-cell { display: flex; min-width: 0; flex-direction: column; background: var(--paper-raised); }
+.comparison-cell-head { display: flex; align-items: start; justify-content: space-between; gap: 0.8rem; min-height: 7rem; padding: 1rem; border-bottom: 1px solid var(--line); }
+.comparison-cell-head > div > span { color: var(--ink-muted); font-family: "IBM Plex Sans", sans-serif; font-size: 0.62rem; text-transform: uppercase; }
+.comparison-cell-head h3 { margin: 0.25rem 0 0; font-size: 1.35rem; font-weight: 400; line-height: 1.1; }
+.comparison-cell-head > strong, .comparison-state-key dt { flex: 0 0 auto; padding: 0.23rem 0.42rem; border: 1px solid currentColor; color: var(--copper); font-family: "IBM Plex Sans", sans-serif; font-size: 0.55rem; font-weight: 500; line-height: 1.25; text-transform: uppercase; }
+[data-state="missing"] { color: #8d8981 !important; }
+[data-state="not-demonstrated"] { color: #d3a365 !important; }
+[data-state="contrary"] { color: var(--mineral) !important; }
+[data-state="observed"] { color: #9dad7a !important; }
+.comparison-cell dl { margin: 0; }
+.comparison-cell dl div { min-height: 10rem; padding: 1rem; border-bottom: 1px solid var(--line); }
+.comparison-cell dt { margin-bottom: 0.5rem; color: var(--copper); font-family: "IBM Plex Sans", sans-serif; font-size: 0.62rem; letter-spacing: 0.08em; text-transform: uppercase; }
+.comparison-cell dd { margin: 0; color: var(--ink-muted); font-size: 0.84rem; line-height: 1.55; }
+.comparison-cell-sources { display: flex; flex-direction: column; gap: 0.35rem; margin-top: auto; padding: 1rem; }
+.comparison-cell-sources a { display: flex; align-items: start; gap: 0.3rem; color: var(--copper); font-family: "IBM Plex Mono", monospace; font-size: 0.57rem; overflow-wrap: anywhere; }
+.comparison-cell-sources svg { flex: 0 0 auto; width: 0.7rem; }
+.comparison-state-key { display: grid; grid-template-columns: 0.7fr 1.3fr; gap: 3rem; margin-top: 7rem; padding: 3rem; border: 1px solid var(--line-strong); background: var(--paper-soft); }
+.comparison-state-key h2 { max-width: 16ch; margin: 0; font-size: clamp(2rem, 3.5vw, 3.6rem); font-weight: 400; line-height: 1.02; }
+.comparison-state-key dl { display: grid; margin: 0; }
+.comparison-state-key dl div { padding: 1rem 0; border-bottom: 1px solid var(--line); }
+.comparison-state-key dl div:last-child { border-bottom: 0; }
+.comparison-state-key dt { display: inline-block; }
+.comparison-state-key dd { margin: 0.6rem 0 0; color: var(--ink-muted); font-size: 0.86rem; }
+
+@media (max-width: 1120px) {
+  .civilizations-hero-ledger { right: 1.5rem; }
+  .civilization-atlas { grid-template-columns: minmax(0, 1.45fr) minmax(17rem, 0.55fr); }
+  .atlas-case-list { grid-template-columns: repeat(5, 1fr); }
+  .adversarial-section { grid-template-columns: 1fr; }
+  .civilization-dossier-grid { grid-template-columns: repeat(2, 1fr); }
+  .case-picker { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+}
+
+@media (max-width: 840px) {
+  .civilizations-hero { min-height: 50rem; }
+  .civilizations-hero-copy { top: 10rem; }
+  .civilizations-hero-copy h1 { font-size: clamp(3.8rem, 12vw, 6rem); }
+  .civilizations-hero-ledger { right: 1rem; bottom: 3.2rem; left: 1rem; }
+  .civilizations-hero-ledger div { min-width: 0; }
+  .civilizations-thesis { grid-template-columns: 1fr; gap: 1rem; }
+  .civilizations-thesis-copy { padding-top: 0; }
+  .civilization-chapter-list article, .civilization-chapter-list article:nth-child(even) { grid-template-columns: 1fr; }
+  .civilization-chapter-list article:nth-child(even) .civilization-chapter-image { order: 0; }
+  .civilization-chapter-image { min-height: 20rem; }
+  .civilization-chapter-copy { min-height: 22rem; }
+  .civilization-atlas { grid-template-columns: 1fr; }
+  .atlas-map-panel { border-right: 0; border-bottom: 1px solid rgba(222,184,113,0.2); }
+  .atlas-case-panel { min-height: 25rem; }
+  .atlas-case-list { grid-template-columns: repeat(2, 1fr); }
+  .chronology-lane { grid-template-columns: 1fr; }
+  .chronology-lane ol { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .civilizations-comparator-callout { align-items: start; flex-direction: column; }
+  .comparison-dimension > header { grid-template-columns: 1fr; }
+  .comparison-dimension > header > span { grid-row: auto; }
+  .comparison-case-grid { grid-template-columns: 1fr; }
+  .comparison-cell dl { display: grid; grid-template-columns: repeat(3, 1fr); }
+  .comparison-cell dl div { min-height: 0; border-right: 1px solid var(--line); }
+  .comparison-cell dl div:last-child { border-right: 0; }
+  .comparison-state-key { grid-template-columns: 1fr; gap: 1rem; padding: 2rem; }
+}
+
+@media (max-width: 620px) {
+  .civilizations-hero { min-height: 46rem; }
+  .civilizations-hero-image { object-position: 58% center; }
+  .civilizations-hero-shade { background: linear-gradient(0deg, #090b0c 0%, rgba(3,5,6,0.28) 58%, rgba(3,5,6,0.62) 100%), linear-gradient(90deg, rgba(3,5,6,0.82), rgba(3,5,6,0.12)); }
+  .civilizations-hero-copy { top: 8rem; }
+  .civilizations-hero-copy h1 { max-width: 9ch; font-size: clamp(3.2rem, 15vw, 4.8rem); }
+  .civilizations-hero-copy > p:not(.eyebrow) { font-size: 1rem; }
+  .civilizations-hero-actions { align-items: stretch; flex-direction: column; width: fit-content; }
+  .civilizations-hero-ledger { bottom: 2.6rem; }
+  .civilizations-hero-ledger div { padding: 0.7rem; }
+  .civilizations-hero-ledger dd { font-size: 1.6rem; }
+  .civilizations-visual-limit { display: none; }
+  .civilizations-thesis, .civilization-chapters, .civilization-chronology-section, .civilizations-comparator-callout, .civilization-dossiers { padding-block: 4.5rem; }
+  .civilizations-experience .section-heading { align-items: start; }
+  .civilization-chapter-image { min-height: 15rem; }
+  .civilization-chapter-copy { min-height: 0; padding: 2rem 1.2rem; }
+  .atlas-map-head { align-items: start; flex-direction: column; }
+  .civilization-map { min-height: 18rem; object-fit: cover; }
+  .atlas-case-list { grid-template-columns: 1fr 1fr; }
+  .atlas-case-list button { min-height: 4rem; }
+  .chronology-scale-warning { align-items: start; flex-direction: column; gap: 0.35rem; }
+  .chronology-lane ol { grid-template-columns: 1fr; }
+  .adversarial-section { padding-block: 4.5rem; }
+  .adversarial-grid, .civilization-dossier-grid { grid-template-columns: 1fr; }
+  .case-picker { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .comparison-control-head { align-items: start; flex-direction: column; gap: 0.5rem; }
+  .comparison-toolbar { align-items: stretch; flex-direction: column; }
+  .comparison-guardrail { align-items: start; }
+  .mobile-dimension-select { display: flex; flex-direction: column; gap: 0.4rem; position: sticky; z-index: 20; top: calc(var(--header-h) + 0.5rem); margin: 0.8rem 0 1.5rem; padding: 0.75rem; border: 1px solid var(--line-strong); background: color-mix(in srgb, var(--paper) 94%, transparent); backdrop-filter: blur(12px); }
+  .mobile-dimension-select span { color: var(--ink-muted); font-family: "IBM Plex Sans", sans-serif; font-size: 0.65rem; text-transform: uppercase; }
+  .mobile-dimension-select select { min-height: 2.5rem; padding: 0 0.6rem; border: 1px solid var(--line); background: var(--paper-raised); color: var(--ink); font-family: "IBM Plex Sans", sans-serif; }
+  .comparison-dimension { display: none; }
+  .comparison-dimension.is-mobile-active { display: block; }
+  .comparison-cell dl { grid-template-columns: 1fr; }
+  .comparison-cell dl div { border-right: 0; }
+  .comparison-state-key { margin-top: 4rem; padding: 1.2rem; }
+}
+
+@media print {
+  .civilizations-hero-image, .civilizations-hero-shade, .civilizations-hero-actions, .atlas-case-list, .comparison-controls, .comparison-toolbar, .mobile-dimension-select { display: none !important; }
+  .civilizations-experience { background: #fff; color: #111; }
+  .civilizations-hero { min-height: 0; background: #fff; }
+  .civilizations-hero-copy { position: static; width: auto; padding: 2rem 0; color: #111; }
+  .civilizations-hero-copy > p:not(.eyebrow) { color: #333; }
+  .civilizations-hero-ledger { position: static; color: #111; }
+  .civilizations-thesis, .civilization-chapters, .civilization-atlas-section, .civilization-chronology-section, .adversarial-section, .civilizations-comparator-callout, .civilization-dossiers { width: auto; padding: 1rem 0; background: #fff; color: #111; }
+  .comparison-dimension { display: block !important; break-before: page; }
+  .comparison-case-grid { display: table; width: 100%; }
+  .comparison-cell { display: table-cell; width: 33%; break-inside: avoid; }
+}
