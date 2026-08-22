@@ -786,3 +786,35 @@ Edición final aprobada: `C:\Users\HUAWEI\.codex\generated_images\019fedb0-8f24-
 > Edit only the rectangular paper chart at the lower center of the referenced image. Remove every axis, tick mark, number, letter, label, grid coordinate, and any other readable or pseudo-readable writing from that paper. Replace them with a clean, text-free abstract radiocarbon-style probability ribbon: three restrained charcoal and mineral-green undulating bands on plain aged parchment, with no border scale, no grid, no symbols and no numerical markings. Preserve exactly the rest of the image: composition, camera, trays, charred seed, wood rings, sherd, sediment block, metal holder, archive cards, phase model, empty tray, copper thread, lighting, palette, texture and dimensions. Do not add anything elsewhere.
 
 La portada es una composición conceptual contemporánea. El fragmento cerámico, el sedimento, la madera, la bandeja metálica, las tarjetas, el modelo arquitectónico y la curva abstracta no proceden de un mismo sitio ni representan datos publicados. El hilo de cobre expresa trazabilidad editorial, no asociación arqueológica ni secuencia automática. La bandeja vacía significa archivo faltante, no ausencia histórica.
+
+## 55. CIV-003 — Cinco paisajes, ninguna cuna
+
+![Portada editorial de CIV-003](assets/visuales/hero-civ-003-asia-sudoccidental.png)
+
+![Carriles regionales](assets/visuales/carriles-asia-sudoccidental-civ-003.svg)
+
+![Cadena de sitio a región](assets/visuales/cadena-sitio-region-civ-003.svg)
+
+| Archivo | Tipo | Procedencia | Qué representa | Límite obligatorio |
+|---|---|---|---|---|
+| `hero-civ-003-asia-sudoccidental.png` | portada editorial conceptual | OpenAI ImageGen, generación + edición localizada, 2026-08-21 | cinco estaciones genéricas y no coetáneas de archivo arqueológico regional | no sitios reales, mapa, secuencia, identidad, difusión o escala de avance |
+| `carriles-asia-sudoccidental-civ-003.svg` | diagrama regional original | SVG manual del proyecto, 2026-08-21 | cinco carriles con archivos y límites | alineación no indica prioridad, sincronía o influencia |
+| `cadena-sitio-region-civ-003.svg` | diagrama epistemológico original | SVG manual del proyecto, 2026-08-21 | operaciones entre objeto, contexto, proxy, patrón e interacción | flechas no heredan pueblo, lengua, Estado o «civilización» |
+
+### Procedencia de la portada
+
+Primera salida rechazada porque un fragmento de arcilla contenía una hilera de perforaciones capaz de leerse como signo o pseudotexto: `C:\Users\HUAWEI\.codex\generated_images\019fedb0-8f24-7e33-8d16-d2418ba3378e\exec-a3b5a8aa-1d2c-4a16-81f1-c42278f5017a.png`.
+
+Edición final aprobada: `C:\Users\HUAWEI\.codex\generated_images\019fedb0-8f24-7e33-8d16-d2418ba3378e\exec-575d624c-2810-4193-b8ad-29d84855cd0b.png`. Destino: `assets/visuales/hero-civ-003-asia-sudoccidental.png`. Dimensiones: `1672 × 941`. SHA-256: `ea37bea8ba614ffaf164b46c139273603e8a629db20c0d427e34c7b491366c2a`.
+
+**Prompt de generación:**
+
+> Use case: scientific-educational. Asset type: wide 16:9 editorial cover for CIV-003 of a rigorous Spanish open-science archaeology website. Primary request: create a museum-quality archaeological evidence-table still life about multiple regional trajectories in Southwest Asia from camps and villages to northern and southern urbanisms, without depicting a single cradle, a universal revolution or a timeline. Scene/backdrop: a dark obsidian conservation table divided into five clearly separate, non-coeval evidence bays. Subjects: generic charred plant remains and sediment; grinding fragment, incomplete architectural model and sediment vial; abstract settlement-survey tiles; plain sealing fragment and isotope/ancestry samples; alluvial core, mudbrick plan blocks and a blank clay fragment. Include one empty tray. Style: sober cinematic conservation photography, generous dark negative space at left, five parallel clusters, no dominant object. Constraints: no people, bodies, human remains, animals, reconstructed settlement, temple, ziggurat, famous monument, map, border, route, arrow, staircase, ranking, cuneiform, readable text, pseudotext, logo, watermark, UI or fantasy.
+
+**Edición correctiva localizada:**
+
+> Edit only the pale irregular clay fragment in the fourth evidence tray, the fragment currently showing a horizontal row of small holes or dot-like marks. Remove every hole, dot, incision, repeated mark, sign, symbol, glyph and pseudo-writing from that one fragment. Replace its face with completely plain, naturally weathered, undecorated clay with subtle irregular mineral texture and a broken edge. Preserve exactly everything else.
+
+La portada se inspeccionó a resolución original. No contiene personas, restos humanos, mapas, fronteras, rutas, texto o pseudotexto. Las cinco estaciones son contemporáneas como composición editorial, pero no representan un sitio, fase o región reales. La bandeja vacía señala archivo no disponible, no ausencia histórica.
+
+Los SVG se diseñaron a `1600 × 900` con `title` y `desc`. El primero alinea carriles sin un eje temporal común; el segundo usa línea continua para operaciones auditadas y discontinua para saltos que exigen otro archivo.

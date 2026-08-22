@@ -96,6 +96,20 @@ for (const datingCase of datingData.cases) {
   }
 }
 
+const swasiaData = JSON.parse(fs.readFileSync(path.join(ROOT, "content", "civilization-swasia.json"), "utf8"));
+check(swasiaData.schemaVersion === 1, "el módulo regional usa una versión de esquema desconocida");
+check(researchSlugs.has(swasiaData.researchSlug), `el módulo regional apunta a un expediente inexistente: ${swasiaData.researchSlug}`);
+check(Array.isArray(swasiaData.regions) && swasiaData.regions.length === 5, "el módulo regional debe contener cinco paisajes");
+check(duplicates(swasiaData.regions.map((record) => record.id)).length === 0, "el módulo regional contiene paisajes duplicados");
+for (const region of swasiaData.regions) {
+  check(Boolean(region.label) && Boolean(region.window), `${region.id} no declara nombre o ventana`);
+  check(Boolean(region.archive) && Boolean(region.inference) && Boolean(region.limit), `${region.id} no separa archivo, inferencia y límite`);
+  check(Array.isArray(region.sites) && region.sites.length > 0, `${region.id} no declara sitios o escalas`);
+  for (const id of region.claimIds ?? []) check(claimIds.has(id), `${region.id} enlaza un claim inexistente: ${id}`);
+  for (const id of region.evidenceIds ?? []) check(evidenceIds.has(id), `${region.id} enlaza una evidencia inexistente: ${id}`);
+  for (const id of region.sourceIds ?? []) check(sourceIds.has(id), `${region.id} enlaza una fuente inexistente: ${id}`);
+}
+
 for (const record of data.catalog) {
   for (const id of record.claimIds) check(claimIds.has(id), `${record.key} enlaza un claim inexistente: ${id}`);
   for (const id of record.sourceIds) check(sourceIds.has(id), `${record.key} enlaza una fuente inexistente: ${id}`);

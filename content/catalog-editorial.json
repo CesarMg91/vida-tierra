@@ -69,6 +69,7 @@
     "051": { "shortTitle": "Ciudades y Estados", "status": "AUDITADO", "themes": ["urbanismo", "Estado", "desigualdad"] },
     "052": { "shortTitle": "Primeras civilizaciones comparadas", "status": "AUDITADO", "themes": ["comparación", "civilizaciones", "transformación"], "featured": true },
     "CIV-001": { "shortTitle": "De aldeas a ciudades y Estados", "status": "TRAZADO", "themes": ["sedentarismo", "urbanismo", "administración"], "featured": true },
-    "CIV-002": { "shortTitle": "Cómo fechamos el pasado", "status": "AUDITADO", "themes": ["cronología", "radiocarbono", "arqueometría", "modelado bayesiano"], "featured": true }
+    "CIV-002": { "shortTitle": "Cómo fechamos el pasado", "status": "AUDITADO", "themes": ["cronología", "radiocarbono", "arqueometría", "modelado bayesiano"], "featured": true },
+    "CIV-003": { "shortTitle": "Asia sudoccidental: trayectorias múltiples", "status": "AUDITADO", "themes": ["Asia sudoccidental", "Neolítico", "urbanismo", "movilidad", "parentesco"], "featured": true }
   }
 }

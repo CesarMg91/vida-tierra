@@ -57,3 +57,5 @@ Grafos de dependencias entre objetos, mediciones, principios, modelos, claims y 
 ## Civilizaciones
 
 - [`MAPA_CIV_002_FECHADO.md`](MAPA_CIV_002_FECHADO.md) — seis capas, dependencias, casos y falsadores del fechado — **AUDITADO**.
+
+- [`MAPA_CIV_003_ASIA_SUDOCCIDENTAL.md`](MAPA_CIV_003_ASIA_SUDOCCIDENTAL.md) — del objeto al patrón regional, con identidad, Estado y civilización como saltos no heredados — **AUDITADO**.

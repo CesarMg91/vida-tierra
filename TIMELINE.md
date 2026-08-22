@@ -455,3 +455,26 @@ Estas entradas fechan publicaciones, innovaciones o casos. No son etapas de prog
 ## Próxima acción de la línea CIV
 
 La secuencia global `001–052` permanece completa. CIV-002 es una expansión metódica `AUDITADO` fuera de esa numeración y prepara los expedientes regionales `CIV-003+`. CIV-001 conserva `TRAZADO`.
+
+## XII. Asia sudoccidental por archivos regionales
+
+Las fechas pertenecen a objetos, muestras, fases o publicaciones. No son estaciones de una revolución ni una ruta desde «campamento» hacia «civilización».
+
+| ID | Fecha/intervalo | Evento delimitado | Incertidumbre y evidencia | Fuente | Confianza | Estado |
+|---|---:|---|---|---|---|---|
+| `TIME-CIV-SWASIA-OHALO-001` | `~23 ka cal BP` | estructuras, plantas y ocupación repetida en Ohalo II | 45 edades y contexto; residencia anual/cultivo condicionados | `SRC-NADEL-OHALO-2004`, `SRC-SNIR-CULTIVATION-2015` | B ocupación; C cultivo | AUDITADO |
+| `TIME-CIV-SWASIA-AINMALLAHA-001` | `~15 ka cal BP` | nicho comensal compatible con movilidad residencial reducida | proporciones de ratón; proxy local, no calendario anual | `SRC-WEISSBROD-MICE-2017` | B-LOCAL-COND | AUDITADO |
+| `TIME-CIV-SWASIA-DHRA-001` | `11.30–11.18 ka cal BP` | almacenamiento predoméstico en Dhra’ | ~3 % excavado; contenido/propiedad abiertos | `SRC-KUIJT-DHRA-2009` | B-LOCAL | AUDITADO |
+| `TIME-CIV-SWASIA-GOBEKLI-001` | X–IX milenios a. C. | recintos y procesamiento cerealista en Göbekli Tepe | fases/rellenos; templo y banquete no observados directamente | `SRC-DIETRICH-GOBEKLI-2019`, `SRC-BANNING-GOBEKLI-2011` | B archivo; C función | AUDITADO |
+| `TIME-CIV-SWASIA-ASIKLI-001` | IX–VIII milenios a. C. | proceso de manejo ovicaprino en Aşıklı Höyük | fauna + sales; pastoralismo completo no heredado | `SRC-STINER-ASIKLI-2014`, `SRC-ABELL-ASIKLI-2019` | B-LOCAL-COND | AUDITADO |
+| `TIME-CIV-SWASIA-JERICHO-001` | X–VII milenios a. C. | muestra isotópica mayoritariamente local en Jericó | 44 individuos; baselines y selección funeraria | `SRC-WANG-JERICHO-2023` | B-LOCAL-COND | AUDITADO |
+| `TIME-CIV-SWASIA-CATALHOYUK-001` | `7100–5950 a. C.` | parentesco/coenterramiento cambia y conexiones maternas persisten | 131 paleogenomas; no matriarcado/población total | `SRC-YUNCU-CATALHOYUK-2025` | B-LOCAL-COND | AUDITADO |
+| `TIME-CIV-SWASIA-SYRIA-MOBILITY-001` | IX–VI milenios a. C. | movilidad temprana baja y aumento tardío en cinco sitios | 71 dientes/11 posibles no locales; infancia y baselines | `SRC-PLUG-MOBILITY-2025` | B-LOCAL-COND | AUDITADO |
+| `TIME-CIV-SWASIA-TELLBRAK-001` | V–IV milenios a. C. | concentración y urbanismo septentrionales | prospección/cerámica; población/política condicionadas | `SRC-OATES-BRAK-2007`, `SRC-LAWRENCE-URBANISM-2015` | B-COND | AUDITADO |
+| `TIME-CIV-SWASIA-SHAKHI-001` | IV milenio a. C. | hogares institucionales y dispersión posterior | «rechazo» es inferencia, no decisión fechada | `SRC-GLATZ-SHAKHI-KORA-2024` | B-COND | AUDITADO |
+| `TIME-CIV-SWASIA-URUK-001` | Uruk IV, IV milenio a. C. | tablilla administrativa `P003414` | objeto/género local; alcance estatal desconocido | `SRC-CDLI-P003414` | A objeto; C alcance | AUDITADO |
+| `TIME-CIV-SWASIA-LAGASH-001` | III milenio a. C. | arquitectura densa y multicentrismo económico en Lagash | UAV/geofísica; población 60k–120k modelada | `SRC-MCMAHON-LAGASH-2023` | B-COND | AUDITADO |
+
+## Próxima acción de la línea CIV
+
+CIV-003 inaugura los expedientes regionales auditados. CIV-001 conserva `TRAZADO`; la secuencia global `001–052` permanece completa. El siguiente expediente regional recomendado es Nilo y África nororiental, usando los mismos controles de nombres, relojes y escalas.

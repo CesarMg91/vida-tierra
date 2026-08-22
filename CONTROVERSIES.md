@@ -3087,3 +3087,81 @@ Una fase uniforme supone actividad igualmente posible entre límites; una forma 
 Dos edades pueden compartir curva; dendro y `14C`, anillos; texto y fase, una identificación; dos artículos, una misma muestra. La convergencia sigue siendo informativa, pero su peso no se multiplica por el número de citas.
 
 **Prueba discriminatoria:** grafo público que distinga nodos de datos, contexto, referencia y modelo antes de combinar resultados.
+
+## CIV-003 — Controversias regionales de Asia sudoccidental
+
+### CONT-CIV-SWASIA-OHALO-CULTIVATION-001 — Cultivo o recolección intensiva
+
+Proto-malezas, herramientas y concentración vegetal en Ohalo II sostienen cultivo experimental propuesto; hábitat perturbado y recolección selectiva pueden producir parte del patrón.
+
+**Prueba discriminatoria:** series espaciales/morfológicas independientes que distingan siembra-cosecha de selección en parches silvestres.
+
+### CONT-CIV-SWASIA-SEDENTISM-001 — Grado de residencia natufiense
+
+Arquitectura, herramientas pesadas, cementerios y ratones comensales favorecen ocupación intensiva; estacionalidad, movilidad logística y variación entre sitios impiden convertirla en residencia anual uniforme.
+
+**Prueba discriminatoria:** estacionalidad multimétodo y continuidad de pisos/depósitos a resolución intraanual.
+
+### CONT-CIV-SWASIA-MONUMENT-FUNCTION-001 — Templo, casa o edificio múltiple
+
+Göbekli Tepe y otros edificios PPNA contienen inversión y simbolismo; los modelos de santuario, agregación, residencia y uso múltiple compiten.
+
+**Prueba discriminatoria:** accesos, techumbre, residuos, microdesgaste, distribución y secuencia de remodelación que predigan funciones diferentes.
+
+### CONT-CIV-SWASIA-DOMESTICATION-TEMPO-001 — Centros y velocidad
+
+Morfología, genomas y manejo muestran cambios no simultáneos. Continúa abierto cuánto fue selección local, flujo génico o circulación de poblaciones ya manejadas.
+
+**Prueba discriminatoria:** series directamente fechadas con rasgos, haplotipos y ecología local en la misma secuencia.
+
+### CONT-CIV-SWASIA-KINSHIP-001 — Casa, parentesco y líneas maternas
+
+Los paleogenomas revelan conexiones maternas y cambios de parentesco; matrilocalidad, descendencia, cuidado y autoridad no son intercambiables.
+
+**Prueba discriminatoria:** adultos/subadultos representativos, isótopos de movilidad, pedigrees, dieta y distribución de bienes por fase.
+
+### CONT-CIV-SWASIA-MOBILITY-001 — Patrilocalidad tardía en Siria
+
+Cinco de seis posibles no locales en Sabi Abyad son mujeres; muestra pequeña, baselines y clasificación sexual hacen tentativa la inferencia patrilocal.
+
+**Prueba discriminatoria:** replicación multisitio con Sr/O, genomas, sexo y baselines de alta resolución.
+
+### CONT-CIV-SWASIA-CLIMATE-001 — Eventos 9.2/8.2 ka y cambio social
+
+La síntesis regional rechaza un colapso sincrónico, pero impactos locales y desfases pueden quedar ocultos por resolución radiocarbónica.
+
+**Prueba discriminatoria:** exposición hidroclimática local, cronologías de alta resolución y respuestas arqueológicas con controles cercanos.
+
+### CONT-CIV-SWASIA-URBAN-NORTH-SOUTH-001 — Precedencia y difusión
+
+Tell Brak y el norte muestran concentraciones propias; materiales Uruk prueban interacción. El peso relativo de crecimiento local, migración e instituciones meridionales varía por fase.
+
+**Prueba discriminatoria:** cronologías, procedencia, movilidad y patrones domésticos que separen objetos importados, productores y poblaciones.
+
+### CONT-CIV-SWASIA-SOUTH-LANDSCAPE-001 — Morfodinámica y urbanización
+
+Canales y marismas condicionaron producción y movilidad; convertir un mecanismo hidrológico plausible en causa económica o política permanece abierto.
+
+**Prueba discriminatoria:** testigos fechados, paleocanales y asentamientos que predigan secuencias espaciales bajo modelos alternativos.
+
+### CONT-CIV-SWASIA-SHAKHI-AGENCY-001 — Dispersión como rechazo
+
+La dispersión posterior a hogares institucionales contradice irreversibilidad, pero «rechazo» atribuye agencia sin un texto de decisión.
+
+**Prueba discriminatoria:** microsecuencia, destrucción/abandono, redistribución doméstica y continuidad regional que separen salida, conflicto y reorganización.
+
+
+### Índice tabular CIV-003
+
+| ID | Tema | Explicación dominante o práctica | Alternativa fuerte | Estado | Confianza en la síntesis |
+|---|---|---|---|---|---|
+| `CONT-CIV-SWASIA-OHALO-CULTIVATION-001` | cultivo en Ohalo II | cultivo experimental propuesto | recolección intensiva/hábitat perturbado | abierta | C-COND |
+| `CONT-CIV-SWASIA-SEDENTISM-001` | residencia natufiense | ocupación intensiva/movilidad reducida | estacionalidad y movilidad logística variables | abierta por sitio | B-LOCAL-COND |
+| `CONT-CIV-SWASIA-MONUMENT-FUNCTION-001` | función monumental | agregación/ritual y usos especiales | residencia o multifunción | abierta | B archivo; C función |
+| `CONT-CIV-SWASIA-DOMESTICATION-TEMPO-001` | centros/velocidad | procesos graduales y regionales | pulsos más rápidos o poblaciones circulantes | abierta | B-COND |
+| `CONT-CIV-SWASIA-KINSHIP-001` | casa y parentesco | configuraciones cambiantes/conexiones maternas | otras afiliaciones y residencias | abierta socialmente | B-LOCAL-COND |
+| `CONT-CIV-SWASIA-MOBILITY-001` | patrilocalidad tardía | sesgo femenino compatible con patrilocalidad | muestra/baseline/otros tipos de movilidad | tentativa | C-COND |
+| `CONT-CIV-SWASIA-CLIMATE-001` | eventos 9.2/8.2 ka | resiliencia regional/respuestas locales | impactos locales subresueltos | abierta localmente | B-REG |
+| `CONT-CIV-SWASIA-URBAN-NORTH-SOUTH-001` | urbanismos norte/sur | rutas propias conectadas | mayor peso de difusión/migración por fase | abierta por fase | B-COND |
+| `CONT-CIV-SWASIA-SOUTH-LANDSCAPE-001` | morfodinámica | paisaje fluvial condicionante | otros mecanismos económicos/políticos | abierta causalmente | C-COND mecanismo |
+| `CONT-CIV-SWASIA-SHAKHI-AGENCY-001` | dispersión de Shakhi Kora | reorganización/rechazo inferido | ambiente, conflicto o cambio de uso | abierta | B secuencia; C agencia |

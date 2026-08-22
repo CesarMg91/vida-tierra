@@ -56,3 +56,5 @@ Historia de cómo se reconstruyó la historia: creencias previas, evidencia disr
 ## Civilizaciones
 
 - [`HISTORIA_CIV_002_FECHADO_ARQUEOLOGICO_HISTORICO.md`](HISTORIA_CIV_002_FECHADO_ARQUEOLOGICO_HISTORICO.md) — de seriación y anillos a calibración, Bayes y trazabilidad — **AUDITADO**.
+
+- [`HISTORIA_CIV_003_ASIA_SUDOCCIDENTAL.md`](HISTORIA_CIV_003_ASIA_SUDOCCIDENTAL.md) — de la revolución/cuna única a archivos regionales, proxies, movilidad y urbanismos conectados — **AUDITADO**.
