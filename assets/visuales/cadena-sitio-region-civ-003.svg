@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Cadena inferencial desde un objeto hasta una trayectoria regional</title>
+  <desc id="desc">Seis estaciones separan objeto, contexto, proxy, relación local, patrón regional e interacción. Las flechas finales discontinuas indican que identidad, Estado y civilización no se heredan.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#0a0e10"/><stop offset="1" stop-color="#191613"/></linearGradient>
+    <style>.k{font:19px Consolas,monospace;letter-spacing:2px;fill:#c59658}.h{font:31px Georgia,serif;fill:#efe3d1}.t{font:20px Arial,sans-serif;fill:#c8c0b4}.s{font:16px Consolas,monospace;fill:#9fb79f}.n{fill:#151c1b;stroke:#756244;stroke-width:2}.a{stroke:#789078;stroke-width:3;fill:none}.d{stroke:#b06a48;stroke-width:3;stroke-dasharray:11 10;fill:none}.bad{fill:#291b18;stroke:#a15f43;stroke-width:2}</style>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <text x="80" y="78" class="k">CIV-003 · MAPA EPISTEMOLÓGICO</text>
+  <text x="80" y="132" class="h" font-size="44">Del sitio al relato regional</text>
+  <text x="80" y="170" class="t">Cada flecha necesita procedencia, comparación o mecanismo; ninguna transmite significado automáticamente.</text>
+  <g transform="translate(70 260)">
+    <rect class="n" width="210" height="190" rx="4"/><text x="22" y="43" class="k">01 · OBJETO</text><text x="22" y="85" class="h">muestra</text><text x="22" y="120" class="t">edificio · diente</text><text x="22" y="150" class="t">semilla · tablilla</text>
+    <path class="a" d="M210 95H255"/><text x="221" y="82" class="s">fecha</text>
+    <g transform="translate(255)"><rect class="n" width="210" height="190" rx="4"/><text x="22" y="43" class="k">02 · CONTEXTO</text><text x="22" y="85" class="h">asociación</text><text x="22" y="120" class="t">fase · depósito</text><text x="22" y="150" class="t">biografía</text></g>
+    <path class="a" d="M465 95H510"/><text x="475" y="82" class="s">control</text>
+    <g transform="translate(510)"><rect class="n" width="210" height="190" rx="4"/><text x="22" y="43" class="k">03 · PROXY</text><text x="22" y="85" class="h">medición</text><text x="22" y="120" class="t">Sr/O · fauna</text><text x="22" y="150" class="t">densidad · ADN</text></g>
+    <path class="a" d="M720 95H765"/><text x="730" y="82" class="s">puente</text>
+    <g transform="translate(765)"><rect class="n" width="210" height="190" rx="4"/><text x="22" y="43" class="k">04 · LOCAL</text><text x="22" y="85" class="h">relación</text><text x="22" y="120" class="t">movilidad · manejo</text><text x="22" y="150" class="t">registro · residencia</text></g>
+    <path class="a" d="M975 95H1020"/><text x="982" y="82" class="s">serie</text>
+    <g transform="translate(1020)"><rect class="n" width="210" height="190" rx="4"/><text x="22" y="43" class="k">05 · REGIÓN</text><text x="22" y="85" class="h">patrón</text><text x="22" y="120" class="t">asentamientos</text><text x="22" y="150" class="t">variación espacial</text></g>
+    <path class="a" d="M1230 95H1275"/><text x="1234" y="82" class="s">mecanismo</text>
+    <g transform="translate(1275)"><rect class="n" width="210" height="190" rx="4"/><text x="22" y="43" class="k">06 · RED</text><text x="22" y="85" class="h">interacción</text><text x="22" y="120" class="t">objeto · persona</text><text x="22" y="150" class="t">técnica · institución</text></g>
+  </g>
+  <g transform="translate(170 560)">
+    <rect class="bad" width="1260" height="200" rx="4"/>
+    <text x="36" y="48" class="k">SALTOS NO HEREDADOS</text>
+    <text x="36" y="102" class="h">tipo material</text><path class="d" d="M245 92H350"/><text x="370" y="102" class="h">pueblo</text><path class="d" d="M520 92H625"/><text x="645" y="102" class="h">lengua</text><path class="d" d="M805 92H910"/><text x="930" y="102" class="h">Estado</text><path class="d" d="M1080 92H1160"/>
+    <text x="36" y="158" class="t">Una coincidencia no aporta el mecanismo que falta. “Civilización” no es el último nodo de esta cadena.</text>
+  </g>
+  <text x="80" y="840" class="s">línea continua = operación auditada · línea discontinua = inferencia que requiere un archivo independiente</text>
+</svg>

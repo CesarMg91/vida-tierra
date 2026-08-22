@@ -4015,3 +4015,81 @@ La precisión interna puede ser excelente aunque el objetivo esté desplazado po
 Una revisión y el artículo primario no son dos observaciones. Tampoco lo son dos modelos de la misma muestra si comparten la misma curva y contexto.
 
 **Corrección:** contar muestras, contextos, referencias y modelos mediante un grafo de procedencia.
+
+## CIV-003 — Errores científicos que la síntesis regional debe evitar
+
+### ERR-CIV-SWASIA-FERTILE-CRESCENT-001 — Usar «Creciente Fértil» como agente
+
+Una figura geográfica no inventa, migra o exporta. Reúne zonas con ecologías y archivos distintos.
+
+**Corrección:** nombrar sitio, microregión, fecha, objeto que circuló y mecanismo.
+
+### ERR-CIV-SWASIA-CULTURE-PEOPLE-001 — Convertir fase material en pueblo
+
+PPNA, PPNB, Ubaid o Uruk no son endónimos y no contienen automáticamente lengua, ascendencia o gobierno.
+
+**Corrección:** declarar si la unidad es cerámica, cronológica, espacial, genética o textual.
+
+### ERR-CIV-SWASIA-NEOLITHIC-REVOLUTION-001 — Tratar producción como interruptor
+
+Procesamiento, cultivo, domesticación, manejo y dependencia pueden separarse por milenios.
+
+**Corrección:** publicar cada rasgo y reloj; no asignar una fecha única de «agricultura».
+
+### ERR-CIV-SWASIA-MONUMENT-TEMPLE-001 — Monumento igual a templo/Estado
+
+Escala, pilares y simbolismo no prueban función exclusiva ni institución política.
+
+**Corrección:** comparar residuos, accesos, uso, remodelación y alternativas.
+
+### ERR-CIV-SWASIA-MOUSE-SEDENTISM-001 — Ratón igual a residencia anual
+
+El comensalismo responde a intensidad del nicho humano, no registra un calendario completo de ocupación.
+
+**Corrección:** tratarlo como proxy local y combinar estacionalidad independiente.
+
+### ERR-CIV-SWASIA-GENOME-IDENTITY-001 — Ascendencia igual a etnia
+
+Afinidades genómicas y parentesco no recuperan autodenominación, lengua o ciudadanía.
+
+**Corrección:** mantener persona, población estadística y categoría social en nodos distintos.
+
+### ERR-CIV-SWASIA-MATERNAL-MATRIARCHY-001 — Línea materna igual a matriarcado
+
+Conexiones maternas entre coenterramientos no miden autoridad, residencia, herencia o reparto del trabajo.
+
+**Corrección:** formular cada hipótesis social y sus predicciones independientes.
+
+### ERR-CIV-SWASIA-CLIMATE-COLLAPSE-001 — Evento climático igual a colapso
+
+La coincidencia no demuestra exposición, mecanismo, sincronía o respuesta uniforme.
+
+**Corrección:** comparar localidades expuestas y controles, con desfase explícito.
+
+### ERR-CIV-SWASIA-CITY-SELFCONTAINED-001 — Ciudad autosuficiente
+
+La concentración urbana depende de animales, plantas, agua, personas y materiales de paisajes más amplios.
+
+**Corrección:** reconstruir flujos y no inferir mercado, tributo o coerción sin archivo.
+
+### ERR-CIV-SWASIA-BIRTH-CIVILIZATION-001 — Fechar el nacimiento de la civilización
+
+Una muestra, granero, edificio, ciudad o tablilla pertenece a una variable; ninguna fecha el compuesto entero.
+
+**Corrección:** sustituir prioridad por cadena observable y declarar dónde termina.
+
+
+### Índice tabular CIV-003
+
+| ID | Caso | Supuesto que falló | Mecanismo de corrección | Estado |
+|---|---|---|---|---|
+| `ERR-CIV-SWASIA-FERTILE-CRESCENT-001` | «Creciente Fértil» como agente | geografía = sociedad inventora | sitio, objeto y mecanismo explícitos | DOCUMENTADO |
+| `ERR-CIV-SWASIA-CULTURE-PEOPLE-001` | fase = pueblo | tipo material hereda identidad | separar unidad arqueológica/social | DOCUMENTADO |
+| `ERR-CIV-SWASIA-NEOLITHIC-REVOLUTION-001` | producción como interruptor | procesos fundidos en fecha única | medir rasgo/población/economía | DOCUMENTADO |
+| `ERR-CIV-SWASIA-MONUMENT-TEMPLE-001` | monumento = templo/Estado | inversión hereda función/institución | residuos, accesos y alternativas | DOCUMENTADO |
+| `ERR-CIV-SWASIA-MOUSE-SEDENTISM-001` | ratón = residencia anual | proxy ecológico convertido en calendario | estacionalidad independiente | DOCUMENTADO |
+| `ERR-CIV-SWASIA-GENOME-IDENTITY-001` | ADN = etnia/lengua | afinidad estadística hereda identidad | separar persona, población y categoría | DOCUMENTADO |
+| `ERR-CIV-SWASIA-MATERNAL-MATRIARCHY-001` | línea materna = matriarcado | parentesco hereda autoridad | pruebas separadas de residencia/poder | DOCUMENTADO |
+| `ERR-CIV-SWASIA-CLIMATE-COLLAPSE-001` | clima = colapso | coincidencia hereda causalidad uniforme | exposición, mecanismo y control | DOCUMENTADO |
+| `ERR-CIV-SWASIA-CITY-SELFCONTAINED-001` | ciudad autosuficiente | concentración omite hinterland | reconstruir flujos y mecanismo | DOCUMENTADO |
+| `ERR-CIV-SWASIA-BIRTH-CIVILIZATION-001` | fecha de nacimiento | muestra/fase = compuesto civilizatorio | desagregar variables y escalas | DOCUMENTADO |

@@ -1,0 +1,66 @@
+{
+  "schemaVersion": 1,
+  "researchSlug": "14_civilizaciones/INVESTIGACION_CIV_003_ASIA_SUDOCCIDENTAL_CAMPAMENTOS_ALDEAS_URBANISMOS",
+  "regions": [
+    {
+      "id": "levante-sur",
+      "label": "Levante meridional",
+      "window": "23–7 ka cal BP",
+      "sites": ["Ohalo II", "ʿAin Mallaha", "Dhra’", "Jericó"],
+      "archive": "Estructuras, plantas, ratones comensales, almacenamiento e isótopos dentales en contextos y relojes distintos.",
+      "inference": "Inversión residencial, movilidad reducida y almacenamiento pudieron preceder a domesticación plena; Jericó fue mayoritariamente local en la muestra publicada.",
+      "limit": "No demuestra una aldea agrícola originaria, residencia anual en todos los casos, propiedad del grano ni identidad étnica.",
+      "claimIds": ["CLAIM-CIV-SEDENTISM-BEFORE-AGRICULTURE-001", "CLAIM-CIV-STORAGE-BEFORE-DOMESTICATION-001", "CLAIM-CIV-SWASIA-MOBILITY-001"],
+      "evidenceIds": ["EVID-CIV-MICE-AINMALLAHA-001", "EVID-CIV-DHRA-GRANARIES-001", "EVID-CIV-SWASIA-JERICHO-001"],
+      "sourceIds": ["SRC-WEISSBROD-MICE-2017", "SRC-KUIJT-DHRA-2009", "SRC-WANG-JERICHO-2023"]
+    },
+    {
+      "id": "anatolia",
+      "label": "Anatolia central y sudoriental",
+      "window": "10.º–6.º milenios a. C.",
+      "sites": ["Göbekli Tepe", "Aşıklı Höyük", "Çatalhöyük"],
+      "archive": "Arquitectura monumental, molienda, fauna/sales de orina, entierros, bioarqueología y paleogenomas.",
+      "inference": "Manejo animal y configuraciones domésticas cambiaron gradualmente; la inversión monumental admite usos comunales o múltiples.",
+      "limit": "Monumento no equivale a templo o Estado; conexiones maternas no demuestran matriarcado ni una forma residencial universal.",
+      "claimIds": ["CLAIM-CIV-SWASIA-HERDING-001", "CLAIM-CIV-SWASIA-MONUMENT-LIMIT-001", "CLAIM-CIV-SWASIA-KINSHIP-001"],
+      "evidenceIds": ["EVID-CIV-SWASIA-ASIKLI-001", "EVID-CIV-SWASIA-GOBEKLI-WF16-001", "EVID-CIV-SWASIA-KINSHIP-001"],
+      "sourceIds": ["SRC-ABELL-ASIKLI-2019", "SRC-DIETRICH-GOBEKLI-2019", "SRC-YUNCU-CATALHOYUK-2025"]
+    },
+    {
+      "id": "alta-mesopotamia",
+      "label": "Éufrates medio y Alta Mesopotamia",
+      "window": "10.º–4.º milenios a. C.",
+      "sites": ["WF16", "Mureybet", "Sabi Abyad", "Tell Brak"],
+      "archive": "Arquitectura comunal, isótopos de 71 dientes y prospecciones de concentración urbana.",
+      "inference": "Movilidad y pertenencia variaron; el norte desarrolló concentraciones y pulsos urbanos propios.",
+      "limit": "Los posibles no locales no son etnias; tamaño y cerámica no fijan población, capital o régimen.",
+      "claimIds": ["CLAIM-CIV-SWASIA-MOBILITY-001", "CLAIM-CIV-URBANISM-MULTIPATH-001"],
+      "evidenceIds": ["EVID-CIV-SWASIA-SYRIA-MOBILITY-001", "EVID-CIV-TELLBRAK-SURVEY-001"],
+      "sourceIds": ["SRC-PLUG-MOBILITY-2025", "SRC-OATES-BRAK-2007", "SRC-LAWRENCE-URBANISM-2015"]
+    },
+    {
+      "id": "piedemontes-orientales",
+      "label": "Zagros y piedemontes orientales",
+      "window": "Neolítico–4.º milenio a. C.",
+      "sites": ["Zagros neolítico", "Shakhi Kora"],
+      "archive": "Afinidades paleogenómicas, excavación, geofísica, arqueobotánica y cuatro hogares institucionales.",
+      "inference": "Hubo conexión y mezcla sin homogeneidad; una centralización local pudo dispersarse o reorganizarse.",
+      "limit": "Ascendencia no es cultura o lengua; «rechazo» no es una decisión textual observada.",
+      "claimIds": ["CLAIM-CIV-SWASIA-ANCESTRY-NOT-IDENTITY-001", "CLAIM-CIV-SWASIA-CENTRALIZATION-REVERSIBLE-001"],
+      "evidenceIds": ["EVID-CIV-SWASIA-GENOMES-001", "EVID-CIVILIZATIONS-MESOPOTAMIA-052-001"],
+      "sourceIds": ["SRC-MARCHI-FARMERS-2022", "SRC-GLATZ-SHAKHI-KORA-2024"]
+    },
+    {
+      "id": "sur-aluvial",
+      "label": "Mesopotamia meridional",
+      "window": "4.º–3.º milenios a. C.",
+      "sites": ["Uruk", "Lagash", "llanuras aluviales"],
+      "archive": "Tablilla catalogada, UAV, prospección, magnetometría, testigos y 577 conjuntos zooarqueológicos regionales.",
+      "inference": "Existieron registros administrativos, urbanismo denso/multicéntrico y abastecimiento rural variable.",
+      "limit": "Una tablilla no mide alfabetización o territorio; población y mecanismos políticos siguen modelados.",
+      "claimIds": ["CLAIM-CIV-WRITING-ADMIN-001", "CLAIM-CIV-SWASIA-SOUTH-LANDSCAPE-001", "CLAIM-CIV-SWASIA-URBAN-HINTERLAND-001"],
+      "evidenceIds": ["EVID-CIV-CDLI-P003414-001", "EVID-CIV-SWASIA-LAGASH-001", "EVID-CIV-SWASIA-PROVISIONING-001"],
+      "sourceIds": ["SRC-CDLI-P003414", "SRC-MCMAHON-LAGASH-2023", "SRC-GAASTRA-PROVISIONING-2024"]
+    }
+  ]
+}

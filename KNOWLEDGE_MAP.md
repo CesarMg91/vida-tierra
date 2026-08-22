@@ -1341,3 +1341,43 @@ Minino: pares + 14C + isótopos → reservorio local
 `CLAIM-CIV-DATING-CONTEXT-001` pasa de `TRAZADO` a `AUDITADO` por la cadena de CIV-002. El cambio pertenece al claim exacto: `INV-CIV-ORIGINS-001` conserva `TRAZADO`, y 051/052 conservan notas del estado que tenía el claim en sus cortes.
 
 Véase `INV-CIV-DATING-001` en `14_civilizaciones`, `MAPA_CIV_002_FECHADO.md`, `CRONOLOGIA_CIV_002_RELOJES_SINCRONISMOS.md` y los visuales `cadena-muestra-acontecimiento-civ-002.svg` y `matriz-metodos-fechado-civ-002.svg`.
+
+### CIV-003 — Asia sudoccidental: del sitio a la trayectoria regional
+
+```text
+objeto / muestra / edificio / persona
+              ↓ procedencia + fecha
+          contexto local
+              ↓ proxy declarado
+       relación o práctica delimitada
+              ↓ serie comparable
+      patrón de asentamiento regional
+              ↓ mecanismo probado
+        interacción entre regiones
+```
+
+Cinco paisajes se conservan separados: Levante meridional, Anatolia, Éufrates/Alta Mesopotamia, Zagros/piedemontes y sur aluvial. La comparación no permite `tipo → pueblo → lengua → Estado` ni `muestra → nacimiento de civilización`.
+
+```text
+Ohalo II       → construcción/plantas; cultivo C-COND
+ʿAin Mallaha   → comensalismo; movilidad reducida B-LOCAL-COND
+Dhra’          → almacenamiento predoméstico B-LOCAL
+Aşıklı         → manejo ovicaprino gradual B-LOCAL-COND
+Göbekli/WF16   → arquitectura especial; templo/Estado no heredados
+Jericó/Siria   → movilidad individual; identidad no recuperada
+Çatalhöyük     → parentesco cambiante; matriarcado no demostrado
+```
+
+La escala urbana separa norte y sur sin aislarlos:
+
+```text
+Tell Brak/series norte → rutas y pulsos propios
+Uruk/P003414           → operación administrativa local
+Lagash                 → densidad + multicentrismo
+245 sitios             → abastecimiento urbano-rural variable
+Shakhi Kora            → centralización reversible
+```
+
+Por CIV-003 pasan a `AUDITADO` cinco claims exactos antes trazados: secuencia no universal, sedentarismo antes de agricultura, almacenamiento antes de domesticación, urbanismo multipolar y tablilla administrativa con alcance limitado. CIV-001 no cambia de estado.
+
+Véase `INV-CIV-SWASIA-001`, `MAPA_CIV_003_ASIA_SUDOCCIDENTAL.md`, `CRONOLOGIA_CIV_003_ASIA_SUDOCCIDENTAL.md`, `carriles-asia-sudoccidental-civ-003.svg` y `cadena-sitio-region-civ-003.svg`.

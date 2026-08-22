@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Cinco carriles regionales de Asia sudoccidental</title>
+  <desc id="desc">Diagrama que separa Levante meridional, Anatolia, Alta Mesopotamia, piedemontes orientales y Mesopotamia meridional. Cada carril muestra archivos observados y un límite; no es una línea de progreso.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#0b1011"/><stop offset="1" stop-color="#171512"/></linearGradient>
+    <style>
+      .sans{font-family:Arial,sans-serif}.mono{font-family:Consolas,monospace}.serif{font-family:Georgia,serif}
+      .lane{fill:#141a19;stroke:#6f5a3c;stroke-width:1}.k{font:19px Consolas,monospace;letter-spacing:2px;fill:#c39456}.h{font:30px Georgia,serif;fill:#efe3d1}.t{font:20px Arial,sans-serif;fill:#c9c2b8}.l{font:18px Arial,sans-serif;fill:#d6a27b}.small{font:16px Consolas,monospace;fill:#91ad92}.node{fill:#27352d;stroke:#779176;stroke-width:1}.rule{stroke:#8b6a43;stroke-width:2}.dash{stroke:#a96545;stroke-width:2;stroke-dasharray:8 8}
+    </style>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <text x="80" y="76" class="k">CIV-003 · ARCHIVOS REGIONALES</text>
+  <text x="80" y="124" class="serif" font-size="42" fill="#f2e7d6">Cinco paisajes, ninguna cuna</text>
+  <text x="80" y="160" class="t">La alineación facilita comparar; no indica prioridad, difusión ni avance.</text>
+
+  <g transform="translate(80 205)">
+    <rect class="lane" width="1440" height="112"/>
+    <text x="28" y="38" class="k">01 · LEVANTE MERIDIONAL</text><text x="28" y="78" class="h">Ohalo II · ʿAin Mallaha · Dhra’ · Jericó</text>
+    <circle class="node" cx="690" cy="56" r="14"/><circle class="node" cx="890" cy="56" r="14"/><circle class="node" cx="1090" cy="56" r="14"/>
+    <path class="rule" d="M704 56H876M904 56H1076"/>
+    <text x="680" y="95" class="small">residencia</text><text x="872" y="95" class="small">almacenamiento</text><text x="1080" y="95" class="small">movilidad</text>
+    <text x="1240" y="45" class="l">Límite</text><text x="1240" y="76" class="t">no aldea originaria</text>
+  </g>
+  <g transform="translate(80 332)">
+    <rect class="lane" width="1440" height="112"/>
+    <text x="28" y="38" class="k">02 · ANATOLIA</text><text x="28" y="78" class="h">Göbekli Tepe · Aşıklı Höyük · Çatalhöyük</text>
+    <circle class="node" cx="690" cy="56" r="14"/><circle class="node" cx="890" cy="56" r="14"/><circle class="node" cx="1090" cy="56" r="14"/>
+    <path class="rule" d="M704 56H876M904 56H1076"/>
+    <text x="660" y="95" class="small">arquitectura</text><text x="865" y="95" class="small">manejo</text><text x="1060" y="95" class="small">parentesco</text>
+    <text x="1240" y="45" class="l">Límite</text><text x="1240" y="76" class="t">no templo/matriarcado</text>
+  </g>
+  <g transform="translate(80 459)">
+    <rect class="lane" width="1440" height="112"/>
+    <text x="28" y="38" class="k">03 · ÉUFRATES Y ALTA MESOPOTAMIA</text><text x="28" y="78" class="h">WF16 · aldeas sirias · Tell Brak</text>
+    <circle class="node" cx="690" cy="56" r="14"/><circle class="node" cx="890" cy="56" r="14"/><circle class="node" cx="1090" cy="56" r="14"/>
+    <path class="rule" d="M704 56H876M904 56H1076"/>
+    <text x="662" y="95" class="small">agregación</text><text x="850" y="95" class="small">isótopos</text><text x="1055" y="95" class="small">urbanismo</text>
+    <text x="1240" y="45" class="l">Límite</text><text x="1240" y="76" class="t">no difusión única</text>
+  </g>
+  <g transform="translate(80 586)">
+    <rect class="lane" width="1440" height="112"/>
+    <text x="28" y="38" class="k">04 · ZAGROS Y PIEDEMONTES</text><text x="28" y="78" class="h">genomas regionales · Shakhi Kora</text>
+    <circle class="node" cx="790" cy="56" r="14"/><circle class="node" cx="1040" cy="56" r="14"/>
+    <path class="rule" d="M804 56H1026"/>
+    <text x="750" y="95" class="small">afinidad/mezcla</text><text x="998" y="95" class="small">dispersión</text>
+    <text x="1240" y="45" class="l">Límite</text><text x="1240" y="76" class="t">no etnia/decisión textual</text>
+  </g>
+  <g transform="translate(80 713)">
+    <rect class="lane" width="1440" height="112"/>
+    <text x="28" y="38" class="k">05 · SUR ALUVIAL</text><text x="28" y="78" class="h">Uruk · Lagash · redes rurales</text>
+    <circle class="node" cx="690" cy="56" r="14"/><circle class="node" cx="890" cy="56" r="14"/><circle class="node" cx="1090" cy="56" r="14"/>
+    <path class="rule" d="M704 56H876M904 56H1076"/>
+    <text x="645" y="95" class="small">administración</text><text x="855" y="95" class="small">densidad</text><text x="1040" y="95" class="small">abastecimiento</text>
+    <text x="1240" y="45" class="l">Límite</text><text x="1240" y="76" class="t">no Estado autosuficiente</text>
+  </g>
+  <path class="dash" d="M700 842H1120"/><text x="80" y="865" class="l">línea discontinua = salto que exige mecanismo</text>
+</svg>

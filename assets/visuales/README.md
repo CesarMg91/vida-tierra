@@ -813,3 +813,13 @@ La primera salida incluyó por error un fósil geológico en el extremo derecho 
 | `matriz-metodos-fechado-civ-002.svg` | SVG manual determinista | `1600 × 900` | código fuente versionado | productos/fallos; no ranking universal de métodos |
 
 La primera salida raster (`exec-98cd8be0-aa6e-400d-905f-b4125153734c.png`) se rechazó porque la curva contenía ejes y microcifras inventadas. La salida final (`exec-55ef2a30-bb92-4b6c-aa9a-174295fcfad5.png`) sustituyó únicamente el papel por bandas abstractas sin texto, números, ejes o grilla. El prompt completo, el prompt correctivo, las rutas de origen y los límites se conservan en [`ATLAS_VISUAL.md`](../../ATLAS_VISUAL.md#54-civ-002--una-fecha-no-es-un-acontecimiento).
+
+## CIV-003 — Asia sudoccidental
+
+| Archivo | Origen | Dimensiones | SHA-256 / trazabilidad | Límite |
+|---|---|---:|---|---|
+| `hero-civ-003-asia-sudoccidental.png` | OpenAI ImageGen, edición correctiva del 2026-08-21 | `1672 × 941` | `ea37bea8ba614ffaf164b46c139273603e8a629db20c0d427e34c7b491366c2a` | composición conceptual; no sitio, mapa, secuencia o centro |
+| `carriles-asia-sudoccidental-civ-003.svg` | SVG manual determinista | `1600 × 900` | código fuente versionado | carriles analíticos, no prioridad o difusión |
+| `cadena-sitio-region-civ-003.svg` | SVG manual determinista | `1600 × 900` | código fuente versionado | operaciones inferenciales, no identidades heredadas |
+
+La primera salida raster (`exec-a3b5a8aa-1d2c-4a16-81f1-c42278f5017a.png`) se rechazó por una hilera de perforaciones semejante a pseudotexto. La salida final (`exec-575d624c-2810-4193-b8ad-29d84855cd0b.png`) sustituyó únicamente ese fragmento por arcilla lisa. El prompt, la corrección y los límites completos se conservan en [`ATLAS_VISUAL.md`](../../ATLAS_VISUAL.md#55-civ-003--cinco-paisajes-ninguna-cuna).
