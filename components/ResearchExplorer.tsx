@@ -49,6 +49,7 @@ export default function ResearchExplorer({ records }: { records: CatalogListingR
 
   const hasFilters = Boolean(query || collection || era || theme || status || duration);
   const thematic = records.filter((record) => record.order === null);
+  const thematicSeries = [...new Set(thematic.map((record) => record.key.match(/^([A-Z][A-Z0-9]{1,7})-/)?.[1]).filter(Boolean))];
 
   return (
     <div className="explorer-app">
@@ -97,7 +98,8 @@ export default function ResearchExplorer({ records }: { records: CatalogListingR
         <strong>{filtered.length}</strong> {filtered.length === 1 ? "investigación" : "investigaciones"}
         {thematic.length > 0 && (
           <span>
-            {thematic.length === 1 ? "La línea temática CIV" : `Las ${thematic.length} líneas temáticas CIV`} se muestra
+            {thematic.length} {thematic.length === 1 ? "investigación temática" : "investigaciones temáticas"} en{" "}
+            {thematicSeries.length} {thematicSeries.length === 1 ? "serie" : "series"} ({thematicSeries.join(", ")}) se muestra
             {thematic.length === 1 ? "" : "n"} fuera de la secuencia global.
           </span>
         )}

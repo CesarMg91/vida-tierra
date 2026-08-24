@@ -1,5 +1,12 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
+  "thematicSeries": {
+    "CIV": {
+      "label": "Civilizaciones",
+      "description": "Métodos y expedientes regionales para comparar trayectorias humanas sin escalas universales.",
+      "route": "/civilizaciones"
+    }
+  },
   "sectionDefaults": {
     "01_cosmos": { "collection": "Cosmos", "era": "Historia cósmica", "themes": ["cosmología", "astrofísica"] },
     "02_formacion_tierra": { "collection": "Tierra", "era": "Formación de la Tierra", "themes": ["geociencias", "sistema solar"] },

@@ -7,10 +7,11 @@ import {
   researchKeyFromFile,
   registryRows,
   tableRowsFromMarkdown,
+  thematicResearchKey,
 } from "../scripts/public-data-core.mjs";
 import { renderMarkdownForTest } from "../lib/content.ts";
 
-test("el catálogo conserva 52 órdenes globales y la línea CIV fuera de la secuencia", () => {
+test("el catálogo conserva 52 órdenes globales y las series temáticas fuera de la secuencia", () => {
   const { catalog } = buildPublicData();
   assert.equal(catalog.length, 55);
   assert.deepEqual(
@@ -26,19 +27,24 @@ test("el catálogo conserva 52 órdenes globales y la línea CIV fuera de la sec
   );
 });
 
-test("las investigaciones temáticas CIV se reconocen y ordenan sin casos especiales", () => {
+test("las investigaciones temáticas se reconocen y ordenan por serie sin casos especiales", () => {
   assert.equal(researchKeyFromFile("14_civilizaciones/INVESTIGACION_CIV_001_ORIGENES.md"), "CIV-001");
   assert.equal(researchKeyFromFile("14_civilizaciones/INVESTIGACION_CIV_002_FECHADO.md"), "CIV-002");
-  assert.equal(researchKeyFromFile("14_civilizaciones/INVESTIGACION_CIV_999_PRUEBA.md"), "CIV-999");
+  assert.equal(researchKeyFromFile("15_medicina/INVESTIGACION_MED_001_TRATAMIENTOS.md"), "MED-001");
+  assert.equal(researchKeyFromFile("16_fisica/INVESTIGACION_FIS_999_PRUEBA.md"), "FIS-999");
   assert.equal(researchKeyFromFile("14_civilizaciones/INVESTIGACION_CIV_02_INVALIDA.md"), null);
+  assert.equal(researchKeyFromFile("15_medicina/INVESTIGACION_med_001_INVALIDA.md"), null);
+  assert.deepEqual(thematicResearchKey("MED-012"), { series: "MED", order: 12 });
+  assert.equal(thematicResearchKey("MED-12"), null);
 
   const records = [
+    { key: "MED-001", order: null },
     { key: "CIV-010", order: null },
     { key: "002", order: 2 },
     { key: "CIV-002", order: null },
     { key: "001", order: 1 },
   ].sort(compareResearchRecords);
-  assert.deepEqual(records.map((record) => record.key), ["001", "002", "CIV-002", "CIV-010"]);
+  assert.deepEqual(records.map((record) => record.key), ["001", "002", "CIV-002", "CIV-010", "MED-001"]);
 });
 
 test("las tablas GFM se leen como AST y preservan barras escapadas dentro de celdas", () => {
