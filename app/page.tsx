@@ -9,7 +9,7 @@ import { getCatalog, getKnowledgeCounts } from "../lib/public-data";
 export default function Home() {
   const catalog = getCatalog();
   const counts = getKnowledgeCounts();
-  const featuredKeys = new Set(["002", "013", "035", "050", "052"]);
+  const featuredKeys = new Set(["002", "013", "035", "050", "052", "MED-001"]);
   const featured = catalog.filter((record) => featuredKeys.has(record.key));
   const progressCatalog = catalog.map(({ order, slug, shortTitle }) => ({ order, slug, shortTitle }));
 
@@ -64,7 +64,7 @@ export default function Home() {
       <section className="home-featured section-light" aria-labelledby="featured-title">
         <header className="section-heading">
           <div>
-            <p className="eyebrow">Cinco puertas de entrada</p>
+            <p className="eyebrow">Seis puertas de entrada</p>
             <h2 id="featured-title">Empieza por la pregunta que te atrape</h2>
           </div>
           <Link className="text-link" href="/explorar">Ver las {catalog.length} investigaciones <ArrowRight aria-hidden="true" /></Link>

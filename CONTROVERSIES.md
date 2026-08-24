@@ -3165,3 +3165,40 @@ La dispersión posterior a hogares institucionales contradice irreversibilidad, 
 | `CONT-CIV-SWASIA-URBAN-NORTH-SOUTH-001` | urbanismos norte/sur | rutas propias conectadas | mayor peso de difusión/migración por fase | abierta por fase | B-COND |
 | `CONT-CIV-SWASIA-SOUTH-LANDSCAPE-001` | morfodinámica | paisaje fluvial condicionante | otros mecanismos económicos/políticos | abierta causalmente | C-COND mecanismo |
 | `CONT-CIV-SWASIA-SHAKHI-AGENCY-001` | dispersión de Shakhi Kora | reorganización/rechazo inferido | ambiente, conflicto o cambio de uso | abierta | B secuencia; C agencia |
+
+## Controversias MED-001
+
+### CONT-MED-REPORTING-VALIDITY-001 — Adherencia a checklist como calidad
+
+CONSORT/SPIRIT mejoran transparencia, pero se discute cuánto cambia la conducta metodológica frente a sólo el informe. **Prueba discriminatoria:** protocolos, registros, datos y estudios metaepidemiológicos que separen reporte de sesgo observado.
+
+### CONT-MED-SHAM-ETHICS-001 — Necesidad y proporcionalidad de simulación
+
+Un control simulado puede aislar componentes específicos y a la vez producir riesgo sin beneficio terapéutico. **Prueba discriminatoria:** necesidad para la pregunta, riesgo incremental mínimo, consentimiento, factibilidad de controles menos invasivos y valor social.
+
+### CONT-MED-SURROGATES-001 — Cuándo un marcador transporta efecto clínico
+
+CAST refuta la herencia automática, no todos los sustitutos. **Prueba discriminatoria:** validación causal y empírica por intervención, enfermedad, mecanismo y desenlace clínico.
+
+### CONT-MED-SURGICAL-EXPERTISE-001 — Estandarización frente a representatividad
+
+Restringir operadores protege fidelidad, pero puede reducir transportabilidad; ampliar centros representa práctica y aumenta variación. **Prueba discriminatoria:** interacción preespecificada, modelos jerárquicos y calidad observada de ejecución.
+
+### CONT-MED-SUBGROUPS-001 — Heterogeneidad real frente a hallazgo multiplicado
+
+Promedios pueden ocultar modificación de efecto, mientras múltiples subgrupos producen falsos positivos. **Prueba discriminatoria:** hipótesis previa, interacción, escala, replicación y coherencia causal.
+
+### CONT-MED-OBSERVATIONAL-CAUSAL-001 — Efecto residual en registros
+
+Emular un ensayo objetivo corrige errores de diseño, no confusión no medida. **Prueba discriminatoria:** controles negativos, sensibilidad cuantitativa, instrumentos válidos cuando existan, resultados concordantes bajo diseños con sesgos distintos.
+
+### Índice tabular MED-001
+
+| ID | Tema | Tensión | Estado | Confianza |
+|---|---|---|---|---|
+| `CONT-MED-REPORTING-VALIDITY-001` | transparencia | reporte vs validez | abierta | A distinción |
+| `CONT-MED-SHAM-ETHICS-001` | simulación | aislamiento vs riesgo | caso por caso | B |
+| `CONT-MED-SURROGATES-001` | sustitutos | señal vs beneficio clínico | dependiente de contexto | B |
+| `CONT-MED-SURGICAL-EXPERTISE-001` | operador | fidelidad vs transportabilidad | abierta por técnica | B |
+| `CONT-MED-SUBGROUPS-001` | heterogeneidad | modificador vs multiplicidad | abierta | B-C |
+| `CONT-MED-OBSERVATIONAL-CAUSAL-001` | registros | emulación vs confusión residual | abierta | B-C |

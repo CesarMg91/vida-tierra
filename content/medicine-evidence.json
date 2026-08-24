@@ -1,0 +1,62 @@
+{
+  "schemaVersion": 1,
+  "researchSlug": "15_medicina/INVESTIGACION_MED_001_INTERVENCIONES_EFICACIA_DANOS",
+  "cases": [
+    {
+      "id": "fidelity",
+      "title": "FIDELITY: mejoría frente a efecto específico",
+      "scope": "Rotura degenerativa medial sin artrosis · 146 participantes · 12 meses",
+      "design": "aleatorizado, doble ciego, control procedimental simulado",
+      "layers": [
+        { "kind": "question", "observed": "Personas de 35–65 años, síntomas compatibles y criterios definidos.", "inference": "Pregunta sobre resección artroscópica en esa población seleccionada.", "limit": "No representa trauma agudo, artrosis ni toda indicación artroscópica.", "claimIds": ["CLAIM-MED-QUESTION-001"], "evidenceIds": ["EVID-MED-FIDELITY-001"], "sourceIds": ["SRC-MED-FIDELITY-2013"] },
+        { "kind": "comparison", "observed": "Meniscectomía parcial frente a artroscopia simulada con cuidados estandarizados.", "inference": "Contraste del componente de resección sobre los componentes compartidos.", "limit": "La simulación también tiene riesgo y no es comparador universal.", "claimIds": ["CLAIM-MED-COMPARATOR-001", "CLAIM-MED-SHAM-001"], "evidenceIds": ["EVID-MED-FIDELITY-001"], "sourceIds": ["SRC-MED-FIDELITY-2013"] },
+        { "kind": "outcomes", "observed": "Lysholm, WOMET y dolor posejercicio preespecificados a 12 meses.", "inference": "Función/síntomas medidos con escalas declaradas.", "limit": "No cubre todos los daños o resultados tardíos.", "claimIds": ["CLAIM-MED-OUTCOMES-001"], "evidenceIds": ["EVID-MED-FIDELITY-001"], "sourceIds": ["SRC-MED-FIDELITY-2013"] },
+        { "kind": "estimate", "observed": "Diferencias entre grupos pequeñas con intervalos que no apoyaron superioridad relevante.", "inference": "La mejoría común no aisló beneficio de la resección.", "limit": "No significativo no significa identidad exacta entre procedimientos.", "claimIds": ["CLAIM-MED-FIDELITY-001"], "evidenceIds": ["EVID-MED-FIDELITY-001"], "sourceIds": ["SRC-MED-FIDELITY-2013"] },
+        { "kind": "applicability", "observed": "Cirujanos experimentados y población estrecha sin artrosis.", "inference": "Buena prueba del contraste bajo esas condiciones.", "limit": "Otros pacientes, técnicas, operadores y tiempos requieren otro puente.", "claimIds": ["CLAIM-MED-TRANSPORTABILITY-001"], "evidenceIds": ["EVID-MED-TRANSPORTABILITY-DECISION-001"], "sourceIds": ["SRC-MED-FIDELITY-2013", "SRC-MED-WHO-TRIALS-2024"] },
+        { "kind": "decision", "observed": "Un efecto promedio acotado y daños observados durante el ensayo.", "inference": "Informa una conversación clínica para casos comparables.", "limit": "La plataforma no indica ni contraindica cirugía para una persona.", "claimIds": ["CLAIM-MED-DECISION-001"], "evidenceIds": ["EVID-MED-TRANSPORTABILITY-DECISION-001"], "sourceIds": ["SRC-MED-GRADE-BOOK-2026"] }
+      ]
+    },
+    {
+      "id": "cast",
+      "title": "CAST: marcador favorable, desenlace adverso",
+      "scope": "Personas posinfarto con ectopia ventricular · 1498 participantes",
+      "design": "aleatorizado, fármaco activo frente a placebo",
+      "layers": [
+        { "kind": "question", "observed": "Pacientes posinfarto en quienes fármacos suprimían ectopia.", "inference": "Probar si suprimir la ectopia reducía muerte arrítmica.", "limit": "No es una prueba de todos los antiarrítmicos o sustitutos.", "claimIds": ["CLAIM-MED-QUESTION-001"], "evidenceIds": ["EVID-MED-CAST-001"], "sourceIds": ["SRC-MED-CAST-1991"] },
+        { "kind": "comparison", "observed": "Encainida/flecainida frente a placebo bajo asignación aleatoria.", "inference": "Contraste de las estrategias en la población incluida.", "limit": "Mecanismos y atención pertenecen a la época y protocolo.", "claimIds": ["CLAIM-MED-RANDOMIZATION-001"], "evidenceIds": ["EVID-MED-CAST-001"], "sourceIds": ["SRC-MED-CAST-1991"] },
+        { "kind": "outcomes", "observed": "Supresión de ectopia y mortalidad se conservaron como resultados distintos.", "inference": "La mortalidad prueba el desenlace clínico que el marcador debía anticipar.", "limit": "Un marcador puede ser válido en otros contextos si se demuestra.", "claimIds": ["CLAIM-MED-OUTCOMES-001"], "evidenceIds": ["EVID-MED-CAST-001"], "sourceIds": ["SRC-MED-CAST-1991"] },
+        { "kind": "estimate", "observed": "43 muertes arrítmicas con fármacos activos frente a 16 con placebo.", "inference": "La estrategia produjo exceso de mortalidad en el ensayo.", "limit": "No identifica por sí sola cada mecanismo del daño.", "claimIds": ["CLAIM-MED-SURROGATE-CAST-001"], "evidenceIds": ["EVID-MED-CAST-001"], "sourceIds": ["SRC-MED-CAST-1991"] },
+        { "kind": "applicability", "observed": "Posinfarto, ectopia seleccionada y dos fármacos concretos.", "inference": "Cortafuego general contra heredar beneficio desde un sustituto.", "limit": "No permite descartar sustitutos validados para otras decisiones.", "claimIds": ["CLAIM-MED-TRANSPORTABILITY-001"], "evidenceIds": ["EVID-MED-CAST-001"], "sourceIds": ["SRC-MED-CAST-1991"] },
+        { "kind": "decision", "observed": "Beneficio aparente del marcador y daño del desenlace clínico.", "inference": "El desenlace importante domina el balance de esa comparación.", "limit": "No es consejo farmacológico actual ni regla sin contexto.", "claimIds": ["CLAIM-MED-DECISION-001"], "evidenceIds": ["EVID-MED-TRANSPORTABILITY-DECISION-001"], "sourceIds": ["SRC-MED-GRADE-BOOK-2026"] }
+      ]
+    },
+    {
+      "id": "surgical-system",
+      "title": "Cirugía: la maniobra vive dentro de un sistema",
+      "scope": "Intervenciones dependientes de operador, equipo, centro y madurez técnica",
+      "design": "IDEAL + ensayo convencional o basado en experiencia + vigilancia",
+      "layers": [
+        { "kind": "question", "observed": "Técnica, etapa de innovación e indicación descritas.", "inference": "Pregunta ajustada a la madurez de la intervención.", "limit": "Una etapa IDEAL no certifica beneficio.", "claimIds": ["CLAIM-MED-SURGERY-OPERATOR-001"], "evidenceIds": ["EVID-MED-SURGERY-METHOD-001"], "sourceIds": ["SRC-MED-IDEAL-2019"] },
+        { "kind": "comparison", "observed": "Operadores elegibles, experiencia, cointervenciones y calidad técnica.", "inference": "Contraste entre rutas ejecutables con fidelidad.", "limit": "Estandarizar puede reducir representatividad de práctica.", "claimIds": ["CLAIM-MED-COMPARATOR-001"], "evidenceIds": ["EVID-MED-SURGERY-METHOD-001"], "sourceIds": ["SRC-MED-IDEAL-RCT-2013", "SRC-MED-EXPERTISE-RCT-2005"] },
+        { "kind": "outcomes", "observed": "Función, mortalidad, complicaciones, conversión, reintervención y calidad técnica.", "inference": "Beneficio y daño a escalas complementarias.", "limit": "Indicadores técnicos no sustituyen experiencia del paciente.", "claimIds": ["CLAIM-MED-OUTCOMES-001", "CLAIM-MED-HARMS-001"], "evidenceIds": ["EVID-MED-OUTCOMES-HARMS-001"], "sourceIds": ["SRC-MED-CONSORT-HARMS-2022", "SRC-MED-COMET-2017"] },
+        { "kind": "estimate", "observed": "Pacientes agrupados por cirujano/centro y técnica que puede cambiar.", "inference": "Modelo jerárquico y análisis por etapa/experiencia cuando proceda.", "limit": "Volumen no equivale automáticamente a competencia.", "claimIds": ["CLAIM-MED-SURGERY-OPERATOR-001"], "evidenceIds": ["EVID-MED-SURGERY-METHOD-001"], "sourceIds": ["SRC-MED-IDEAL-RCT-2013"] },
+        { "kind": "applicability", "observed": "Experiencia y recursos de los centros participantes.", "inference": "Traslado a equipos con capacidades comparables.", "limit": "El nombre de la operación no transporta el sistema completo.", "claimIds": ["CLAIM-MED-TRANSPORTABILITY-001"], "evidenceIds": ["EVID-MED-TRANSPORTABILITY-DECISION-001"], "sourceIds": ["SRC-MED-WHO-TRIALS-2024"] },
+        { "kind": "decision", "observed": "Efecto, daños, madurez, alternativas y capacidad local.", "inference": "Balance para un contexto quirúrgico definido.", "limit": "No genera indicación individual ni privilegia innovación.", "claimIds": ["CLAIM-MED-DECISION-001"], "evidenceIds": ["EVID-MED-TRANSPORTABILITY-DECISION-001"], "sourceIds": ["SRC-MED-GRADE-BOOK-2026"] }
+      ]
+    },
+    {
+      "id": "target-trial",
+      "title": "Registro: emular antes de estimar",
+      "scope": "Datos observacionales cuando un ensayo no existe o no responde largo plazo/daños raros",
+      "design": "emulación explícita de un ensayo objetivo",
+      "layers": [
+        { "kind": "question", "observed": "Elegibilidad, estrategias, tiempo cero y seguimiento declarados.", "inference": "Protocolo hipotético contra el cual auditar el análisis.", "limit": "Declararlo no crea intercambio aleatorio.", "claimIds": ["CLAIM-MED-TARGET-TRIAL-001"], "evidenceIds": ["EVID-MED-TARGET-TRIAL-001"], "sourceIds": ["SRC-MED-TARGET-TRIAL-2016"] },
+        { "kind": "comparison", "observed": "Personas que inician estrategias comparables en el mismo tiempo cero.", "inference": "Reduce sesgos evitables de elegibilidad y tiempo.", "limit": "Indicaciones clínicas pueden dejar confusión no medida.", "claimIds": ["CLAIM-MED-COMPARATOR-001"], "evidenceIds": ["EVID-MED-TARGET-TRIAL-001"], "sourceIds": ["SRC-MED-TARGET-TRIAL-2016"] },
+        { "kind": "outcomes", "observed": "Eventos registrados en práctica, incluso raros o tardíos.", "inference": "Frecuencia y asociaciones bajo captura definida.", "limit": "Codificación y pérdidas pueden depender de exposición y pronóstico.", "claimIds": ["CLAIM-MED-HARMS-001"], "evidenceIds": ["EVID-MED-OUTCOMES-HARMS-001"], "sourceIds": ["SRC-MED-CONSORT-HARMS-2022"] },
+        { "kind": "estimate", "observed": "Ajuste por variables medidas bajo modelo y supuestos.", "inference": "Efecto causal si intercambio, positividad y consistencia son defendibles.", "limit": "Más filas reducen ruido; no confusión sistemática.", "claimIds": ["CLAIM-MED-TARGET-TRIAL-001"], "evidenceIds": ["EVID-MED-TARGET-TRIAL-001"], "sourceIds": ["SRC-MED-TARGET-TRIAL-2016"] },
+        { "kind": "applicability", "observed": "Población de práctica capturada por la base.", "inference": "Puede representar grupos excluidos del ensayo.", "limit": "Cobertura de una base no equivale a población objetivo completa.", "claimIds": ["CLAIM-MED-TRANSPORTABILITY-001"], "evidenceIds": ["EVID-MED-TRANSPORTABILITY-DECISION-001"], "sourceIds": ["SRC-MED-WHO-TRIALS-2024"] },
+        { "kind": "decision", "observed": "Estimación observacional con supuestos y sensibilidad explícitos.", "inference": "Complementa ensayos para daños, duración y práctica.", "limit": "No asciende automáticamente por tamaño ni sustituye juicio clínico.", "claimIds": ["CLAIM-MED-DECISION-001"], "evidenceIds": ["EVID-MED-TRANSPORTABILITY-DECISION-001"], "sourceIds": ["SRC-MED-GRADE-BOOK-2026"] }
+      ]
+    }
+  ]
+}

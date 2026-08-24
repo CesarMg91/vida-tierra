@@ -1381,3 +1381,29 @@ Shakhi Kora            → centralización reversible
 Por CIV-003 pasan a `AUDITADO` cinco claims exactos antes trazados: secuencia no universal, sedentarismo antes de agricultura, almacenamiento antes de domesticación, urbanismo multipolar y tablilla administrativa con alcance limitado. CIV-001 no cambia de estado.
 
 Véase `INV-CIV-SWASIA-001`, `MAPA_CIV_003_ASIA_SUDOCCIDENTAL.md`, `CRONOLOGIA_CIV_003_ASIA_SUDOCCIDENTAL.md`, `carriles-asia-sudoccidental-civ-003.svg` y `cadena-sitio-region-civ-003.svg`.
+
+### MED-001 — De la intervención a un efecto aplicable
+
+```text
+P + I + C + O + tiempo + estimando
+                ↓
+         protocolo / registro
+                ↓
+    asignación → seguimiento → resultado
+                ↓
+      estimación + riesgo de sesgo
+                ↓
+       síntesis + certeza por desenlace
+                ↓
+       población y sistema objetivo
+                ↓
+     efectos + daños + carga + valores
+                ↓
+          decisión clínica situada
+```
+
+Cortafuegos principales: `pre–post ≠ efecto`, `reportado ≠ válido`, `marcador ≠ beneficio`, `no significativo ≠ equivalente`, `sin señal de daño ≠ seguro`, `promedio ≠ individuo`.
+
+En cirugía, técnica, operador, equipo, centro, aprendizaje y cuidados concomitantes entran como dependencias medibles. CAST prueba la ruptura sustituto–desenlace; FIDELITY prueba la ruptura mejoría–componente específico. Ningún caso se exporta fuera de su población y comparador sin un puente.
+
+Véase `INV-MED-INTERVENTIONS-001`, `MAPA_MED_001_INTERVENCIONES.md`, `CRONOLOGIA_MED_001_EVIDENCIA_CLINICA.md`, `cadena-pregunta-decision-med-001.svg` y `matriz-evidencia-intervenciones-med-001.svg`.
