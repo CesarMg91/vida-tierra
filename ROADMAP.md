@@ -217,5 +217,9 @@ Despu√©s de disponer de la secuencia base:
 | Orden tem√°tico | ID | Alcance | Estado |
 |---:|---|---|---|
 | MED-001 | `INV-MED-INTERVENTIONS-001` | [efectos, comparadores, desenlaces, da√±os, cirug√≠a y aplicabilidad](15_medicina/INVESTIGACION_MED_001_INTERVENCIONES_EFICACIA_DANOS.md) | **AUDITADO** |
+| MED-002 | `INV-MED-DIAGNOSTICS-001` | [uso previsto, exactitud, probabilidad, utilidad y consecuencias](15_medicina/INVESTIGACION_MED_002_PRUEBAS_DIAGNOSTICAS_DECISIONES.md) | **AUDITADO** |
 
 `MED-001` inaugura Medicina sin cerrar ni renumerar CIV. La cadencia recomendada alterna dominios: MED-001 ‚Üí CIV-004 (Nilo/√Åfrica nororiental) ‚Üí MED-002 (pruebas diagn√≥sticas) ‚Üí CIV-005 (nombres e identidades). La entrega p√∫blica de MED-001 corresponde a `v0.3.0`.
+
+**Actualizaci¢n 2026-08-24:** MED-002 se complet¢ inmediatamente despuÇs de MED-001 por decisi¢n editorial. La siguiente expansi¢n recomendada vuelve a Civilizaciones con CIV-004 (Nilo y µfrica nororiental), sin cerrar ninguna de las dos l°neas.
+La entrega p£blica de MED-002 corresponde a `v0.3.1`.

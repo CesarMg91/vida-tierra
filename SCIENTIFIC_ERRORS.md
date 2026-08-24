@@ -4138,3 +4138,17 @@ Riesgo basal, alternativas y preferencias cambian el balance. **Correcci√≥n:** s
 | `ERR-MED-SURGEON-VOLUME-SKILL-001` | volumen = habilidad | confusi√≥n de sistema | calidad observada/modelo | DOCUMENTADO |
 | `ERR-MED-META-TRUTH-001` | promedio = certeza | sesgos/dependencia | s√≠ntesis por pregunta | DOCUMENTADO |
 | `ERR-MED-AVERAGE-PATIENT-001` | promedio = indicaci√≥n | riesgo/preferencia omitidos | decisi√≥n situada | DOCUMENTADO |
+## Errores cient°ficos que MED-002 debe impedir
+
+| ID | Error | Por quÇ falla | Correcci¢n m°nima | Estado |
+|---|---|---|---|---|
+| `ERR-MED-DX-ACCURACY-UTILITY-001` | declarar utilidad porque sensibilidad o AUC son altas | exactitud no mide acciones ni desenlaces | auditar comparador, consecuencias y ruta | ACTIVO |
+| `ERR-MED-DX-GOLD-STANDARD-001` | llamar ÆoroØ a una referencia sin examinarla | puede ser imperfecta, incorporada o dependiente | describir operaci¢n, cegamiento y limitaciones | ACTIVO |
+| `ERR-MED-DX-SPECTRUM-001` | validar con casos extremos y controles sanos | simplifica la clasificaci¢n respecto de pr†ctica | incluir espectro de uso y subgrupos relevantes | ACTIVO |
+| `ERR-MED-DX-VERIFICATION-001` | verificar s¢lo positivos | oculta falsos negativos y sesga estimaciones | seguimiento/referencia comparable y flujo completo | ACTIVO |
+| `ERR-MED-DX-THRESHOLD-001` | elegir umbral despuÇs de mirar resultados y presentarlo como fijado | optimiza azar y sobreestima desempe§o | preespecificar o validar independientemente | ACTIVO |
+| `ERR-MED-DX-PREDICTIVE-001` | transportar valor predictivo sin riesgo basal | depende de selecci¢n y frecuencia de condici¢n | recalcular y validar en poblaci¢n objetivo | ACTIVO |
+| `ERR-MED-DX-INDETERMINATE-001` | borrar fallos tÇcnicos e indeterminados | cambia denominador y maquilla factibilidad | mostrar frecuencia, manejo y sensibilidad | ACTIVO |
+| `ERR-MED-DX-AUC-001` | confundir discriminaci¢n con calibraci¢n | un modelo puede ordenar bien y estimar riesgos mal | reportar calibraci¢n y validaci¢n externa | ACTIVO |
+| `ERR-MED-DX-EARLY-001` | inferir vidas salvadas por diagn¢stico m†s temprano o cambio de estadio | anticipaci¢n, duraci¢n y sobrediagn¢stico pueden explicar la se§al | medir desenlaces importantes en estrategia comparada | ACTIVO |
+| `ERR-MED-DX-AI-001` | tratar una versi¢n de IA como instrumento estable y universal | datos, prevalencia, flujo y software cambian | versionar, vigilar deriva, equidad y consecuencias | ACTIVO |
