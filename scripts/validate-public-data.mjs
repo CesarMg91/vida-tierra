@@ -5,7 +5,7 @@ import {
   PUBLIC_STATUSES,
   buildPublicData,
   readEditorialCatalog,
-  thematicResearchOrder,
+  thematicResearchKey,
 } from "./public-data-core.mjs";
 
 const data = buildPublicData();
@@ -21,6 +21,17 @@ function duplicates(values) {
   return values.filter((value) => (seen.has(value) ? true : (seen.add(value), false)));
 }
 
+check(editorial.schemaVersion === 2, `versión de catálogo editorial no soportada: ${editorial.schemaVersion}`);
+for (const [series, metadata] of Object.entries(editorial.thematicSeries ?? {})) {
+  check(/^[A-Z][A-Z0-9]{1,7}$/.test(series), `código de serie temática inválido: ${series}`);
+  check(Boolean(metadata?.label), `la serie ${series} no declara label`);
+  check(Boolean(metadata?.description), `la serie ${series} no declara description`);
+  check(
+    typeof metadata?.route === "string" && metadata.route.startsWith("/"),
+    `la serie ${series} no declara una ruta pública absoluta`,
+  );
+}
+
 const numeric = data.catalog.filter((record) => record.order !== null);
 const orders = numeric.map((record) => record.order);
 check(numeric.length === 52, `se esperaban 52 investigaciones numeradas y se encontraron ${numeric.length}`);
@@ -30,13 +41,30 @@ for (let order = 1; order <= 52; order += 1) {
 }
 
 const thematic = data.catalog.filter((record) => record.order === null);
-const thematicOrders = thematic.map((record) => thematicResearchOrder(record.key));
-check(thematic.length > 0, "falta la línea temática CIV");
-check(thematicOrders.every((order) => order !== null), "hay una investigación sin orden que no usa una clave CIV-NNN");
-check(duplicates(thematicOrders).length === 0, `órdenes CIV duplicados: ${duplicates(thematicOrders).join(", ")}`);
-const lastThematicOrder = Math.max(0, ...thematicOrders.filter((order) => order !== null));
-for (let order = 1; order <= lastThematicOrder; order += 1) {
-  check(thematicOrders.includes(order), `falta la investigación temática CIV-${String(order).padStart(3, "0")}`);
+const thematicSeries = editorial.thematicSeries ?? {};
+const parsedThematic = thematic.map((record) => ({ record, key: thematicResearchKey(record.key) }));
+check(thematic.length > 0, "falta al menos una línea temática");
+check(parsedThematic.every(({ key }) => key !== null), "hay una investigación sin orden que no usa una clave SERIE-NNN");
+
+const recordsBySeries = new Map();
+for (const { record, key } of parsedThematic) {
+  if (!key) continue;
+  check(Boolean(thematicSeries[key.series]), `la serie ${key.series} no está declarada en thematicSeries`);
+  if (!recordsBySeries.has(key.series)) recordsBySeries.set(key.series, []);
+  recordsBySeries.get(key.series).push({ record, order: key.order });
+}
+
+for (const [series, records] of recordsBySeries) {
+  const seriesOrders = records.map(({ order }) => order);
+  check(duplicates(seriesOrders).length === 0, `órdenes ${series} duplicados: ${duplicates(seriesOrders).join(", ")}`);
+  const lastSeriesOrder = Math.max(0, ...seriesOrders);
+  for (let order = 1; order <= lastSeriesOrder; order += 1) {
+    check(seriesOrders.includes(order), `falta la investigación temática ${series}-${String(order).padStart(3, "0")}`);
+  }
+}
+
+for (const series of Object.keys(thematicSeries)) {
+  check(recordsBySeries.has(series), `la serie editorial ${series} no contiene investigaciones`);
 }
 
 check(data.catalog.length === Object.keys(editorial.records).length, "el catálogo público y el catálogo editorial tienen tamaños distintos");
