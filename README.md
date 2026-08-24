@@ -6,7 +6,7 @@ Historia profunda de la Tierra, la vida y el ser humano desde primeros principio
 
 **[Explorar la versión pública](https://vida-tierra.vercel.app)**
 
-La versión `0.2.2` añade CIV-003, el primer expediente regional auditado: campamentos, aldeas y urbanismos de Asia sudoccidental bajo cinco paisajes de evidencia, junto con el módulo público «Cinco paisajes, ninguna cuna». Conserva CIV-002 como fundamento cronológico y la experiencia editorial sin cuentas.
+La versión `0.3.0` inaugura la serie temática Medicina con MED-001: efectos, comparadores, daños, cirugía y aplicabilidad, junto con el módulo público «Una mejoría no basta». CIV-001–003 y sus rutas se conservan íntegros; la secuencia global continúa cerrada en `001–052`.
 
 El sitio usa `https://vida-tierra.vercel.app` como URL canónica. Otro dominio puede sustituirlo definiendo `SITE_URL` en el entorno de build, sin cambiar el código.
 
@@ -46,7 +46,7 @@ Y toda investigación debe distinguir explícitamente:
 - las alternativas y anomalías;
 - el grado de confianza y qué podría falsar la conclusión.
 
-## Estado actual · v0.2.2
+## Estado actual · v0.3.0
 
 La experiencia pública contiene:
 
@@ -95,6 +95,7 @@ La experiencia pública contiene:
 - una línea temática anticipada, con subíndice propio: [`CIV-001 — ¿Cómo distinguimos sedentarismo, agricultura, aldeas, ciudades y Estados sin una escalera universal?`](14_civilizaciones/INVESTIGACION_CIV_001_ORIGENES_ALDEAS_CIUDADES_ESTADOS.md) — **TRAZADO**; no completa ni sustituye las investigaciones globales `037–052`;
 - una expansión metódica auditada: [`CIV-002 — ¿Cómo pasamos de medir una muestra a fechar una ocupación, una fase o un acontecimiento histórico?`](14_civilizaciones/INVESTIGACION_CIV_002_FECHADO_ARQUEOLOGICO_HISTORICO.md) — **AUDITADO**; no crea una Investigación 053 ni promueve CIV-001;
 - el primer expediente regional auditado: [`CIV-003 — ¿Cómo reconstruimos campamentos, aldeas y urbanismos de Asia sudoccidental sin una cuna única?`](14_civilizaciones/INVESTIGACION_CIV_003_ASIA_SUDOCCIDENTAL_CAMPAMENTOS_ALDEAS_URBANISMOS.md) — **AUDITADO**; promueve sólo cinco claims exactos de CIV-001;
+- la primera investigación médica auditada: [MED-001 — ¿Cómo sabemos si una intervención médica o quirúrgica funciona, para quién y con qué daños?](15_medicina/INVESTIGACION_MED_001_INTERVENCIONES_EFICACIA_DANOS.md) — **AUDITADO**; inaugura MED sin cerrar ni renumerar CIV;
 - la trigésima séptima investigación: [`¿Cómo distinguimos especies, locomoción, dieta y parentesco entre australopitecos y Paranthropus sin convertir su diversidad en una escalera hacia Homo?`](08_cenozoico/INVESTIGACION_037_AUSTRALOPITECOS_PARANTHROPUS.md);
 - la trigésima octava investigación: [`¿Cómo reconocemos a Homo temprano, habilis y erectus si fósiles, herramientas, cuerpos y moléculas responden preguntas distintas?`](08_cenozoico/INVESTIGACION_038_HOMO_TEMPRANO_HABILIS_ERECTUS.md);
 - la trigésima novena investigación: [`¿Cómo reconstruimos las poblaciones humanas del Pleistoceno medio sin convertir Homo heidelbergensis en un cajón de sastre ni cada fósil en un ancestro?`](08_cenozoico/INVESTIGACION_039_HOMO_PLEISTOCENO_MEDIO_HEIDELBERGENSIS.md);

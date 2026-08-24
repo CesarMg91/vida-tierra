@@ -138,6 +138,29 @@ for (const region of swasiaData.regions) {
   for (const id of region.sourceIds ?? []) check(sourceIds.has(id), `${region.id} enlaza una fuente inexistente: ${id}`);
 }
 
+const medicineData = JSON.parse(fs.readFileSync(path.join(ROOT, "content", "medicine-evidence.json"), "utf8"));
+const clinicalKinds = ["question", "comparison", "outcomes", "estimate", "applicability", "decision"];
+check(medicineData.schemaVersion === 1, "el módulo médico usa una versión de esquema desconocida");
+check(researchSlugs.has(medicineData.researchSlug), `el módulo médico apunta a un expediente inexistente: ${medicineData.researchSlug}`);
+check(Array.isArray(medicineData.cases) && medicineData.cases.length > 0, "el módulo médico no contiene casos");
+check(duplicates(medicineData.cases.map((record) => record.id)).length === 0, "el módulo médico contiene casos duplicados");
+for (const clinicalCase of medicineData.cases) {
+  check(Boolean(clinicalCase.title) && Boolean(clinicalCase.scope) && Boolean(clinicalCase.design), `${clinicalCase.id} no declara título, alcance o diseño`);
+  check(
+    JSON.stringify(clinicalCase.layers?.map((layer) => layer.kind)) === JSON.stringify(clinicalKinds),
+    `${clinicalCase.id} no conserva las seis capas clínicas en orden`,
+  );
+  for (const layer of clinicalCase.layers ?? []) {
+    check(Boolean(layer.observed) && Boolean(layer.inference) && Boolean(layer.limit), `${clinicalCase.id}/${layer.kind} tiene un estado vacío`);
+    check(layer.claimIds?.length > 0, `${clinicalCase.id}/${layer.kind} no enlaza claims`);
+    check(layer.evidenceIds?.length > 0, `${clinicalCase.id}/${layer.kind} no enlaza evidencias`);
+    check(layer.sourceIds?.length > 0, `${clinicalCase.id}/${layer.kind} no enlaza fuentes`);
+    for (const id of layer.claimIds ?? []) check(claimIds.has(id), `${clinicalCase.id}/${layer.kind} enlaza un claim inexistente: ${id}`);
+    for (const id of layer.evidenceIds ?? []) check(evidenceIds.has(id), `${clinicalCase.id}/${layer.kind} enlaza una evidencia inexistente: ${id}`);
+    for (const id of layer.sourceIds ?? []) check(sourceIds.has(id), `${clinicalCase.id}/${layer.kind} enlaza una fuente inexistente: ${id}`);
+  }
+}
+
 for (const record of data.catalog) {
   for (const id of record.claimIds) check(claimIds.has(id), `${record.key} enlaza un claim inexistente: ${id}`);
   for (const id of record.sourceIds) check(sourceIds.has(id), `${record.key} enlaza una fuente inexistente: ${id}`);

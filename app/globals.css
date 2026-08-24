@@ -1344,3 +1344,79 @@ svg { stroke-width: 1.7; }
 @media print {
   .site-footer, .launch-transparency { display: none !important; }
 }
+
+/* Medicine — clinical evidence without personal advice */
+
+.medicine-experience { background: var(--paper); color: var(--ink); }
+.medicine-hero { position: relative; min-height: min(52rem, 88vh); overflow: hidden; background: #090c0d; color: #f4ead8; }
+.medicine-hero > img { object-fit: cover; object-position: center; }
+.medicine-hero-shade { position: absolute; inset: 0; background: linear-gradient(90deg, rgba(5,7,8,.92) 0%, rgba(5,7,8,.72) 38%, rgba(5,7,8,.12) 75%), linear-gradient(0deg, rgba(5,7,8,.75), transparent 50%); }
+.medicine-hero-copy { position: relative; z-index: 2; display: grid; align-content: center; width: min(100% - 2rem, 88rem); min-height: min(52rem, 88vh); margin-inline: auto; }
+.medicine-hero-copy h1 { max-width: 9ch; margin: .6rem 0 1rem; font-size: clamp(4rem, 8.5vw, 8.2rem); font-weight: 400; line-height: .87; letter-spacing: -.045em; }
+.medicine-hero-copy > p:not(.eyebrow) { max-width: 42rem; color: #c9c0b2; font-size: clamp(1.05rem, 1.7vw, 1.35rem); }
+.medicine-hero-copy > div { display: flex; align-items: center; gap: 1.2rem; margin-top: 1.4rem; }
+.medicine-text-link { display: inline-flex; align-items: center; gap: .35rem; color: #e4c083; font-family: var(--font-plex-sans), Arial, sans-serif; font-size: .78rem; }
+.medicine-text-link svg { width: .9rem; }
+.medicine-visual-limit { position: absolute; z-index: 2; right: 1rem; bottom: 1rem; max-width: 32rem; margin: 0; color: #b3aa9c; font-family: var(--font-plex-sans), Arial, sans-serif; font-size: .62rem; }
+
+.medicine-boundary { display: grid; grid-template-columns: minmax(18rem,.8fr) minmax(20rem,1.2fr); gap: clamp(2rem,6vw,7rem); width: min(100% - 2rem, 88rem); margin-inline: auto; padding: clamp(3rem,7vw,6rem) 0; border-bottom: 1px solid var(--line-strong); }
+.medicine-boundary > div { display: grid; grid-template-columns: auto 1fr; align-items: center; column-gap: .6rem; }
+.medicine-boundary svg { width: 1.1rem; color: var(--mineral); }
+.medicine-boundary h2 { grid-column: 1 / -1; max-width: 13ch; margin: .6rem 0 0; font-size: clamp(2.6rem,5vw,5rem); font-weight: 400; line-height: .95; }
+.medicine-boundary > p { align-self: end; margin: 0; color: var(--ink-muted); font-size: clamp(1.05rem,1.5vw,1.25rem); }
+
+.medicine-principles, .medicine-lab-section, .medicine-method-grid, .medicine-dossiers { width: min(100% - 2rem, 88rem); margin-inline: auto; padding: clamp(4rem,8vw,8rem) 0; }
+.medicine-principles > header { display: grid; grid-template-columns: .7fr 1.3fr; align-items: end; margin-bottom: 2rem; }
+.medicine-principles h2, .medicine-method-grid > header h2 { max-width: 13ch; margin: .4rem 0 0; font-size: clamp(2.8rem,5vw,5.2rem); font-weight: 400; line-height: .95; }
+.medicine-principles > div { display: grid; grid-template-columns: repeat(4,1fr); gap: 1px; border: 1px solid var(--line); background: var(--line); }
+.medicine-principles article { min-width: 0; padding: clamp(1.2rem,2.5vw,2.3rem); background: var(--paper-raised); }
+.medicine-principles article > span { color: var(--copper); font-family: var(--font-plex-mono), Consolas, monospace; font-size: .68rem; }
+.medicine-principles h3 { margin: 2.5rem 0 .8rem; font-size: 1.5rem; font-weight: 500; }
+.medicine-principles article p { color: var(--ink-muted); }
+
+.medicine-lab-section { border-top: 1px solid var(--line-strong); }
+.clinical-lab { border: 1px solid var(--line-strong); background: #0d1112; color: #eee4d2; }
+.clinical-toolbar { display: grid; grid-template-columns: minmax(18rem,.65fr) minmax(24rem,1.35fr); gap: 2rem; padding: clamp(1.2rem,3vw,2.2rem); border-bottom: 1px solid #36423f; }
+.clinical-toolbar label, .clinical-toolbar dt { color: #9aab9f; font-family: var(--font-plex-sans), Arial, sans-serif; font-size: .64rem; letter-spacing: .08em; text-transform: uppercase; }
+.clinical-toolbar select { width: 100%; min-height: 3rem; margin-top: .5rem; padding: 0 .7rem; border: 1px solid #4b5b56; background: #141a1b; color: #eee4d2; font: .86rem var(--font-plex-sans), Arial, sans-serif; }
+.clinical-toolbar > dl { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; margin: 0; }
+.clinical-toolbar dd { margin: .4rem 0 0; color: #c8c0b3; font-size: .93rem; }
+.clinical-chain { display: grid; grid-template-columns: repeat(3,1fr); gap: 1px; margin: 0; padding: 1px; background: #35403e; list-style: none; }
+.clinical-chain > li { min-width: 0; padding: 1.4rem; background: #13191a; }
+.clinical-chain header { display: flex; align-items: baseline; gap: .7rem; }
+.clinical-chain header span { color: #c58a4b; font: .65rem var(--font-plex-mono), Consolas, monospace; }
+.clinical-chain h3 { margin: 0; font-size: 1.55rem; font-weight: 500; }
+.clinical-chain dl { display: grid; gap: .9rem; margin: 1.5rem 0; }
+.clinical-chain dl > div { padding-top: .75rem; border-top: 1px solid #303a38; }
+.clinical-chain dt { color: #8fa69b; font: .62rem var(--font-plex-sans), Arial, sans-serif; letter-spacing: .07em; text-transform: uppercase; }
+.clinical-chain dd { margin: .35rem 0 0; color: #c9c0b3; font-size: .9rem; }
+.clinical-chain .clinical-limit { border-color: #7a5535; }
+.clinical-limit dt, .clinical-limit dd { color: #d6ab6d; }
+.clinical-references { display: flex; flex-wrap: wrap; gap: .35rem; }
+.clinical-references a { display: inline-flex; align-items: center; gap: .25rem; max-width: 100%; padding: .3rem .45rem; border: 1px solid #3a4844; color: #a9c4b8; font: .58rem var(--font-plex-mono), Consolas, monospace; overflow-wrap: anywhere; }
+.clinical-references svg { flex: 0 0 auto; width: .7rem; }
+.clinical-lab-footer { display: flex; align-items: center; justify-content: space-between; gap: 2rem; padding: 1.5rem; border-top: 1px solid #7a5535; }
+.clinical-lab-footer strong { color: #e6c07d; }
+.clinical-lab-footer p { margin: .3rem 0 0; color: #aaa296; font-size: .82rem; }
+.clinical-empty { display: flex; gap: .8rem; padding: 2rem; border: 1px solid var(--line); }
+.clinical-empty svg { width: 1rem; color: var(--copper); }
+
+.medicine-method-grid { border-top: 1px solid var(--line-strong); }
+.medicine-method-grid > header { display: grid; grid-template-columns: .7fr 1.3fr; gap: 2rem; align-items: end; margin-bottom: 2.5rem; }
+.medicine-method-grid > div { display: grid; grid-template-columns: repeat(3,1fr); gap: 1px; background: var(--line); border: 1px solid var(--line); }
+.medicine-method-grid article { padding: clamp(1.4rem,3vw,2.8rem); background: var(--paper-raised); }
+.medicine-method-grid article svg { width: 1.3rem; color: var(--copper); }
+.medicine-method-grid h3 { margin: 2rem 0 .7rem; font-size: 2rem; font-weight: 400; }
+.medicine-method-grid article p { color: var(--ink-muted); }
+.medicine-dossiers { border-top: 1px solid var(--line-strong); }
+.medicine-dossiers > div:last-child { display: grid; grid-template-columns: repeat(2,1fr); gap: 1rem; }
+.medicine-dossiers article { padding: clamp(1.5rem,3vw,2.5rem); border: 1px solid var(--line); background: var(--paper-raised); }
+.medicine-dossiers article > span, .medicine-dossiers article > p:first-of-type { color: var(--copper); font: .65rem var(--font-plex-mono), Consolas, monospace; }
+.medicine-dossiers h3 { margin: 1.5rem 0 .7rem; font-size: 2rem; font-weight: 400; }
+.medicine-dossiers article > p:not(:first-of-type) { color: var(--ink-muted); }
+.medicine-dossiers article a { display: inline-flex; align-items: center; gap: .3rem; color: var(--copper); font: .76rem var(--font-plex-sans), Arial, sans-serif; }
+.medicine-dossiers article a svg { width: .8rem; }
+
+@media (max-width: 900px) { .medicine-principles > div, .clinical-chain { grid-template-columns: repeat(2,1fr); } .clinical-toolbar, .medicine-boundary { grid-template-columns: 1fr; } }
+@media (max-width: 620px) { .medicine-hero, .medicine-hero-copy { min-height: 44rem; } .medicine-hero > img { object-position: 63% center; } .medicine-hero-copy h1 { max-width: 8ch; font-size: clamp(3.8rem,18vw,5.5rem); } .medicine-hero-copy > div, .clinical-lab-footer { align-items: stretch; flex-direction: column; } .medicine-visual-limit { display:none; } .medicine-principles > header, .medicine-method-grid > header { grid-template-columns: 1fr; } .medicine-principles > div, .clinical-chain, .medicine-method-grid > div, .medicine-dossiers > div:last-child { grid-template-columns: 1fr; } .clinical-toolbar > dl { grid-template-columns: 1fr; } }
+@media print { .medicine-hero > img, .medicine-hero-shade, .medicine-hero-copy > div, .clinical-toolbar select, .clinical-references { display:none !important; } .medicine-hero, .medicine-hero-copy { min-height:0; background:#fff; color:#111; } .medicine-experience, .clinical-lab, .clinical-chain > li { background:#fff; color:#111; } .clinical-chain { display:block; } .clinical-chain > li { break-inside:avoid; border:1px solid #bbb; } }

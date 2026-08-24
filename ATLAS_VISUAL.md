@@ -818,3 +818,33 @@ Edición final aprobada: `C:\Users\HUAWEI\.codex\generated_images\019fedb0-8f24-
 La portada se inspeccionó a resolución original. No contiene personas, restos humanos, mapas, fronteras, rutas, texto o pseudotexto. Las cinco estaciones son contemporáneas como composición editorial, pero no representan un sitio, fase o región reales. La bandeja vacía señala archivo no disponible, no ausencia histórica.
 
 Los SVG se diseñaron a `1600 × 900` con `title` y `desc`. El primero alinea carriles sin un eje temporal común; el segundo usa línea continua para operaciones auditadas y discontinua para saltos que exigen otro archivo.
+
+## 56. MED-001 — Una mejoría no basta
+
+![Portada editorial de MED-001](assets/visuales/hero-med-001-intervenciones.png)
+
+![Cadena desde pregunta hasta decisión](assets/visuales/cadena-pregunta-decision-med-001.svg)
+
+![Matriz de diseños, productos y fallos](assets/visuales/matriz-evidencia-intervenciones-med-001.svg)
+
+| Archivo | Tipo | Procedencia | Qué representa | Límite obligatorio |
+|---|---|---|---|---|
+| `hero-med-001-intervenciones.png` | portada editorial conceptual | OpenAI ImageGen, generación nueva, 2026-08-24 | protocolo, comparadores, desenlaces, balance y población como estaciones genéricas | no ensayo, datos, resultado, hospital o decisión reales |
+| `cadena-pregunta-decision-med-001.svg` | diagrama epistemológico original | SVG manual del proyecto, 2026-08-24 | operaciones entre pregunta, comparación, resultado, estimación, traslado y decisión | no algoritmo, calculadora o consejo clínico |
+| `matriz-evidencia-intervenciones-med-001.svg` | matriz metódica original | SVG manual del proyecto, 2026-08-24 | producto legítimo, control y fallo por objeto de evidencia | filas no forman ranking ni jerarquía universal |
+
+### Procedencia de la portada
+
+Salida original aprobada sin edición: `C:\Users\HUAWEI\.codex\generated_images\019fedb0-8f24-7e33-8d16-d2418ba3378e\exec-ad4ee2ac-c07e-480e-a9a1-ece069fa92d4.png`. Destino: `assets/visuales/hero-med-001-intervenciones.png`. Dimensiones: `1672 × 941`; tamaño: `1,791,053` bytes; SHA-256: `ca5c80cf6c4032a3ad4ada62e28fd7aae7130f684376ccfa2247687d0237e466`.
+
+**Prompt de generación:**
+
+> Use case: scientific-educational. Asset type: panoramic website hero for an evidence-based medicine research dossier. Primary request: an epistemological clinical evidence worktable showing how a treatment claim is audited from a patient-important question to comparison, outcomes, harms, and applicability. Scene/backdrop: a quiet contemporary surgical research room at dawn, dark obsidian background with warm parchment light; no active operation and no identifiable patient. Subject: central sterile stainless-steel table with six physically distinct evidence stations connected by a subtle copper thread: an anonymized protocol folder, two sealed allocation envelopes, paired identical procedure trays representing comparator fairness, a transparent outcomes chart with abstract non-readable marks, a balanced harms/benefits ledger, and a diverse set of neutral wooden patient silhouettes at the far end representing applicability. Style/medium: museum-quality editorial still-life photography, scientifically sober, tactile realism, refined but not luxurious. Composition/framing: wide 16:9 landscape, strong left-to-right chain, generous negative space in the upper-left for page title added later in HTML; all objects fully visible, no cropped instruments. Lighting/mood: restrained directional amber light, calm, rigorous, humane. Color palette: obsidian, parchment, ink, copper, amber, mineral green, stainless steel. Materials/textures: brushed steel, archival paper, glass, cotton, wood, fine copper wire. Constraints: no text, no letters, no numbers, no logos, no brand marks, no screens with legible content, no medications, no blood, no incision, no patient body, no surgeon portrait, no anatomy spectacle; the two procedure trays must look equally credible; represent uncertainty without alarm. Avoid: stock-photo doctors posing, glowing holograms, blue futuristic UI, dramatic emergency room, false molecular decorations, identifiable hospital branding, watermark.
+
+### Revisión y límites
+
+La salida se inspeccionó a resolución original. No contiene personas, cuerpos, sangre, intervención activa, fármacos, marca hospitalaria, logos o texto legible. El papel del protocolo y el libro muestran pequeñas marcas abstractas generadas que no deben leerse como contenido, datos o registro real; la placa transparente contiene curvas y barras decorativas sin ejes interpretables. En la interfaz, la portada siempre se acompaña de un límite explícito.
+
+Las dos bandejas de instrumental son genéricas y de peso visual equivalente. No representan técnicas específicas, esterilidad operativa ni un comparador éticamente adecuado por sí mismas. La balanza no calcula un balance beneficio–daño; las figuras de madera no representan una muestra o grupo demográfico real; el hilo de cobre expresa trazabilidad editorial, no causalidad.
+
+Los SVG se construyeron con `width="1600"`, `height="900"`, `viewBox="0 0 1600 900"`, `title` y `desc`. La cadena termina en decisión situada con un puente discontinuo; la matriz declara expresamente que no es un ranking. Ninguno recibe datos personales o produce recomendaciones.

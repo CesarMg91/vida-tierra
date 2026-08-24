@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Cadena de evidencia clínica desde la pregunta hasta la decisión</title>
+  <desc id="desc">Siete estaciones separan pregunta causal, asignación, comparación, desenlaces, estimación, aplicabilidad y decisión. Los puentes declaran el límite de cada inferencia.</desc>
+  <defs>
+    <style>
+      .bg{fill:#0d1112}.panel{fill:#151b1c;stroke:#3f4b49;stroke-width:2}.n{fill:#c68a48}.k{fill:#e5c88d;font:600 18px 'IBM Plex Mono',monospace;letter-spacing:2px}.h{fill:#f1e8d7;font:500 27px 'Source Serif 4',serif}.p{fill:#b8b1a5;font:18px 'IBM Plex Sans',sans-serif}.limit{fill:#dcad63;font:16px 'IBM Plex Sans',sans-serif}.line{fill:none;stroke:#bd7e42;stroke-width:4}.dash{fill:none;stroke:#758e83;stroke-width:3;stroke-dasharray:10 10}.foot{fill:#8f9994;font:17px 'IBM Plex Sans',sans-serif}.tag{fill:#172320;stroke:#55766b;stroke-width:1}.tagtext{fill:#9fc2b3;font:15px 'IBM Plex Mono',monospace}
+    </style>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#bd7e42"/></marker>
+  </defs>
+  <rect class="bg" width="1600" height="900"/>
+  <text class="k" x="90" y="78">MED-001 · CADENA INFERENCIAL</text>
+  <text class="h" x="90" y="126" style="font-size:42px">Una mejoría no basta</text>
+  <text class="p" x="90" y="162">Cada estación responde una pregunta distinta. Ninguna flecha es automática.</text>
+
+  <path class="line" marker-end="url(#arrow)" d="M245 366H365"/>
+  <path class="line" marker-end="url(#arrow)" d="M565 366H685"/>
+  <path class="line" marker-end="url(#arrow)" d="M885 366H1005"/>
+  <path class="line" marker-end="url(#arrow)" d="M1205 366H1325"/>
+
+  <g transform="translate(70 220)"><rect class="panel" width="250" height="292" rx="12"/><circle class="n" cx="34" cy="35" r="18"/><text class="k" x="27" y="42" style="fill:#111">01</text><text class="h" x="25" y="84">Pregunta</text><text class="p" x="25" y="122"><tspan x="25">Población · estrategia</tspan><tspan x="25" dy="28">comparador · desenlace</tspan><tspan x="25" dy="28">tiempo · estimando</tspan></text><text class="limit" x="25" y="243"><tspan x="25">Límite:</tspan><tspan x="25" dy="24">pregunta vaga, efecto vago</tspan></text></g>
+  <g transform="translate(390 220)"><rect class="panel" width="250" height="292" rx="12"/><circle class="n" cx="34" cy="35" r="18"/><text class="k" x="27" y="42" style="fill:#111">02</text><text class="h" x="25" y="84">Comparación</text><text class="p" x="25" y="122"><tspan x="25">Secuencia y ocultamiento</tspan><tspan x="25" dy="28">control creíble</tspan><tspan x="25" dy="28">cointervenciones visibles</tspan></text><text class="limit" x="25" y="243"><tspan x="25">Límite:</tspan><tspan x="25" dy="24">asignar no evita todo sesgo</tspan></text></g>
+  <g transform="translate(710 220)"><rect class="panel" width="250" height="292" rx="12"/><circle class="n" cx="34" cy="35" r="18"/><text class="k" x="27" y="42" style="fill:#111">03</text><text class="h" x="25" y="84">Resultados</text><text class="p" x="25" y="122"><tspan x="25">Beneficios y daños</tspan><tspan x="25" dy="28">datos faltantes</tspan><tspan x="25" dy="28">tiempo y multiplicidad</tspan></text><text class="limit" x="25" y="243"><tspan x="25">Límite:</tspan><tspan x="25" dy="24">marcador no hereda beneficio</tspan></text></g>
+  <g transform="translate(1030 220)"><rect class="panel" width="250" height="292" rx="12"/><circle class="n" cx="34" cy="35" r="18"/><text class="k" x="27" y="42" style="fill:#111">04</text><text class="h" x="25" y="84">Estimación</text><text class="p" x="25" y="122"><tspan x="25">Efecto e intervalo</tspan><tspan x="25" dy="28">riesgo de sesgo</tspan><tspan x="25" dy="28">certeza por desenlace</tspan></text><text class="limit" x="25" y="243"><tspan x="25">Límite:</tspan><tspan x="25" dy="24">umbral no mide importancia</tspan></text></g>
+  <g transform="translate(1350 220)"><rect class="panel" width="180" height="292" rx="12"/><circle class="n" cx="34" cy="35" r="18"/><text class="k" x="27" y="42" style="fill:#111">05</text><text class="h" x="25" y="84">Traslado</text><text class="p" x="25" y="122"><tspan x="25">Riesgo basal</tspan><tspan x="25" dy="28">persona · equipo</tspan><tspan x="25" dy="28">centro · sistema</tspan></text><text class="limit" x="25" y="243"><tspan x="25">Límite:</tspan><tspan x="25" dy="24">promedio ≠ individuo</tspan></text></g>
+
+  <path class="dash" d="M194 560V630H1406V560"/>
+  <rect class="tag" x="585" y="608" width="430" height="48" rx="24"/><text class="tagtext" x="623" y="638">valores · carga · factibilidad · alternativas</text>
+  <rect class="panel" x="500" y="700" width="600" height="90" rx="12" style="stroke:#bd7e42"/>
+  <text class="h" x="800" y="740" text-anchor="middle">Decisión clínica situada</text>
+  <text class="p" x="800" y="770" text-anchor="middle">No es una salida automática del ensayo ni de la plataforma.</text>
+  <text class="foot" x="90" y="850">Líneas continuas: operaciones que deben documentarse · línea discontinua: puente contextual que exige juicio explícito</text>
+</svg>

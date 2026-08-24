@@ -211,3 +211,11 @@ Después de disponer de la secuencia base:
 - `v0.5`: evolución humana y migraciones.
 - `v0.6`: civilizaciones y genética humana.
 - `v1.0`: primera síntesis integral con revisión externa.
+
+## Línea temática MED — subíndice propio
+
+| Orden temático | ID | Alcance | Estado |
+|---:|---|---|---|
+| MED-001 | `INV-MED-INTERVENTIONS-001` | [efectos, comparadores, desenlaces, daños, cirugía y aplicabilidad](15_medicina/INVESTIGACION_MED_001_INTERVENCIONES_EFICACIA_DANOS.md) | **AUDITADO** |
+
+`MED-001` inaugura Medicina sin cerrar ni renumerar CIV. La cadencia recomendada alterna dominios: MED-001 → CIV-004 (Nilo/África nororiental) → MED-002 (pruebas diagnósticas) → CIV-005 (nombres e identidades). La entrega pública de MED-001 corresponde a `v0.3.0`.

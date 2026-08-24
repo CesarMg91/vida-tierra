@@ -4093,3 +4093,48 @@ Una muestra, granero, edificio, ciudad o tablilla pertenece a una variable; ning
 | `ERR-CIV-SWASIA-CLIMATE-COLLAPSE-001` | clima = colapso | coincidencia hereda causalidad uniforme | exposición, mecanismo y control | DOCUMENTADO |
 | `ERR-CIV-SWASIA-CITY-SELFCONTAINED-001` | ciudad autosuficiente | concentración omite hinterland | reconstruir flujos y mecanismo | DOCUMENTADO |
 | `ERR-CIV-SWASIA-BIRTH-CIVILIZATION-001` | fecha de nacimiento | muestra/fase = compuesto civilizatorio | desagregar variables y escalas | DOCUMENTADO |
+
+## Errores científicos MED-001
+
+### ERR-MED-BEFORE-AFTER-EFFECT-001 — Mejoró, por tanto funcionó
+
+Historia natural, regresión, expectativa y cointervención siguen abiertas. **Corrección:** estimar diferencia frente a un comparador creíble.
+
+### ERR-MED-RANDOMIZED-MAGIC-001 — «Aleatorizado» como sello
+
+La etiqueta no demuestra ocultamiento, seguimiento, medición o reporte. **Corrección:** auditar el resultado con protocolo, registro y RoB 2.
+
+### ERR-MED-NONSIGNIFICANT-EQUIVALENT-001 — No significativo igual a no efecto
+
+El intervalo puede incluir beneficio y daño relevantes. **Corrección:** publicar estimación, intervalo y márgenes preespecificados.
+
+### ERR-MED-SURROGATE-BENEFIT-001 — Marcador mejor igual a beneficio
+
+CAST documenta una ruptura entre supresión de ectopia y mortalidad. **Corrección:** validar el sustituto y conservar desenlaces importantes.
+
+### ERR-MED-NO-HARM-SAFE-001 — Sin diferencia igual a seguridad
+
+Pocos eventos o seguimiento corto producen imprecisión. **Corrección:** denominadores, tiempo, gravedad y vigilancia complementaria.
+
+### ERR-MED-SURGEON-VOLUME-SKILL-001 — Volumen igual a competencia
+
+Volumen puede correlacionar con equipo, selección y rescate. **Corrección:** medir calidad técnica y modelar operador/centro.
+
+### ERR-MED-META-TRUTH-001 — Metaanálisis como verdad superior
+
+Promediar no elimina sesgos, indirectitud o dependencia. **Corrección:** comparar preguntas, diseños, riesgo y heterogeneidad.
+
+### ERR-MED-AVERAGE-PATIENT-001 — Promedio igual a indicación individual
+
+Riesgo basal, alternativas y preferencias cambian el balance. **Corrección:** separar efecto, certeza, aplicabilidad y decisión.
+
+| ID | Error | Mecanismo | Corrección | Estado |
+|---|---|---|---|---|
+| `ERR-MED-BEFORE-AFTER-EFFECT-001` | mejoría = efecto | curso y contexto sin control | comparador creíble | DOCUMENTADO |
+| `ERR-MED-RANDOMIZED-MAGIC-001` | etiqueta = validez | dominios posteriores heredados | auditoría por resultado | DOCUMENTADO |
+| `ERR-MED-NONSIGNIFICANT-EQUIVALENT-001` | p ≥ 0.05 = equivalencia | imprecisión ignorada | intervalo y margen | DOCUMENTADO |
+| `ERR-MED-SURROGATE-BENEFIT-001` | marcador = beneficio | puente no validado | desenlace clínico/validación | DOCUMENTADO |
+| `ERR-MED-NO-HARM-SAFE-001` | ausencia = seguridad | poca potencia/tiempo | vigilancia y denominador | DOCUMENTADO |
+| `ERR-MED-SURGEON-VOLUME-SKILL-001` | volumen = habilidad | confusión de sistema | calidad observada/modelo | DOCUMENTADO |
+| `ERR-MED-META-TRUTH-001` | promedio = certeza | sesgos/dependencia | síntesis por pregunta | DOCUMENTADO |
+| `ERR-MED-AVERAGE-PATIENT-001` | promedio = indicación | riesgo/preferencia omitidos | decisión situada | DOCUMENTADO |

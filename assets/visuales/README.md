@@ -823,3 +823,15 @@ La primera salida raster (`exec-98cd8be0-aa6e-400d-905f-b4125153734c.png`) se re
 | `cadena-sitio-region-civ-003.svg` | SVG manual determinista | `1600 × 900` | código fuente versionado | operaciones inferenciales, no identidades heredadas |
 
 La primera salida raster (`exec-a3b5a8aa-1d2c-4a16-81f1-c42278f5017a.png`) se rechazó por una hilera de perforaciones semejante a pseudotexto. La salida final (`exec-575d624c-2810-4193-b8ad-29d84855cd0b.png`) sustituyó únicamente ese fragmento por arcilla lisa. El prompt, la corrección y los límites completos se conservan en [`ATLAS_VISUAL.md`](../../ATLAS_VISUAL.md#55-civ-003--cinco-paisajes-ninguna-cuna).
+
+## MED-001 — Intervenciones, efectos y daños
+
+| Archivo | Origen | Dimensiones | SHA-256 / trazabilidad | Límite |
+|---|---|---:|---|---|
+| `hero-med-001-intervenciones.png` | OpenAI ImageGen, generación nueva del 2026-08-24 | `1672 × 941` | `ca5c80cf6c4032a3ad4ada62e28fd7aae7130f684376ccfa2247687d0237e466` | composición conceptual; no datos, hospital, ensayo ni recomendación |
+| `cadena-pregunta-decision-med-001.svg` | SVG manual determinista | `1600 × 900` | código fuente versionado | puentes inferenciales, no algoritmo clínico |
+| `matriz-evidencia-intervenciones-med-001.svg` | SVG manual determinista | `1600 × 900` | código fuente versionado | productos/fallos, no jerarquía universal |
+
+Primera salida aprobada sin edición: `C:\Users\HUAWEI\.codex\generated_images\019fedb0-8f24-7e33-8d16-d2418ba3378e\exec-ad4ee2ac-c07e-480e-a9a1-ece069fa92d4.png` → `assets/visuales/hero-med-001-intervenciones.png`. Tamaño: `1,791,053` bytes. El prompt completo y los límites se conservan en [`ATLAS_VISUAL.md`](../../ATLAS_VISUAL.md#56-med-001--una-mejoría-no-basta).
+
+La escena contiene marcas abstractas no legibles en papeles y una placa transparente; no son datos, escalas o resultados publicados. Las bandejas, sobres, balanza y figuras son metáforas editoriales contemporáneas. Los dos SVG incluyen `title` y `desc`, declaran sus productos y no calculan riesgos, tratamientos o decisiones.

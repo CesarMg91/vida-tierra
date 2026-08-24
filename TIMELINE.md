@@ -478,3 +478,20 @@ Las fechas pertenecen a objetos, muestras, fases o publicaciones. No son estacio
 ## Próxima acción de la línea CIV
 
 CIV-003 inaugura los expedientes regionales auditados. CIV-001 conserva `TRAZADO`; la secuencia global `001–052` permanece completa. El siguiente expediente regional recomendado es Nilo y África nororiental, usando los mismos controles de nombres, relojes y escalas.
+
+## XIII. MED-001 — Historia de herramientas para estimar efectos
+
+| ID | Fecha/intervalo | Evento delimitado | Incertidumbre y evidencia | Fuente | Confianza | Estado |
+|---|---:|---|---|---|---|---|
+| `TIME-MED-CAST-1991-001` | `1991` | informe final de mortalidad/morbilidad de CAST | caso posinfarto y fármacos concretos | `SRC-MED-CAST-1991` | A | AUDITADO |
+| `TIME-MED-EXPERTISE-2005-001` | `2005` | formulación de ensayos basados en experiencia | propuesta metódica, no superioridad universal | `SRC-MED-EXPERTISE-RCT-2005` | B-MÉTODO | AUDITADO |
+| `TIME-MED-FIDELITY-2013-001` | `2013` | FIDELITY compara meniscectomía y simulación | 146 participantes, 12 meses | `SRC-MED-FIDELITY-2013` | A ensayo | AUDITADO |
+| `TIME-MED-IDEAL-2019-001` | `2013–2019` | desarrollo y actualización de IDEAL | marco quirúrgico por etapas | `SRC-MED-IDEAL-RCT-2013`, `SRC-MED-IDEAL-2019` | A método | AUDITADO |
+| `TIME-MED-CONSORT-NPT-2017-001` | `2017` | actualización de reporte no farmacológico | extensión; se usa con CONSORT 2025 | `SRC-MED-CONSORT-NPT-2017` | A | AUDITADO |
+| `TIME-MED-ROB2-2019-001` | `2019` | RoB 2 formaliza sesgo por resultado | requiere juicio y documentación | `SRC-MED-ROB2-2019` | A | AUDITADO |
+| `TIME-MED-ICH-E9R1-2019-001` | `2019` | ICH E9(R1) formaliza estimandos | no decide pertinencia clínica | `SRC-MED-ICH-E9R1-2019` | A | AUDITADO |
+| `TIME-MED-PRISMA-2020-001` | `2020–2021` | PRISMA 2020 actualiza reporte de revisiones | reporte no elimina sesgo | `SRC-MED-PRISMA-2020` | A | AUDITADO |
+| `TIME-MED-HARMS-2022-001` | `2022–2023` | CONSORT Harms actualizado | no aumenta potencia para eventos raros | `SRC-MED-CONSORT-HARMS-2022` | A | AUDITADO |
+| `TIME-MED-WHO-2024-001` | `2024` | WHO publica buenas prácticas globales | implementación dependiente de sistemas | `SRC-MED-WHO-TRIALS-2024` | A | AUDITADO |
+| `TIME-MED-SPIRIT-CONSORT-2025-001` | `2025` | SPIRIT/CONSORT sustituyen versiones previas | guías de reporte | `SRC-MED-SPIRIT-2025`, `SRC-MED-CONSORT-2025` | A | AUDITADO |
+| `TIME-MED-GRADE-2026-001` | corte `2026-08-24` | GRADE Book en reemplazo progresivo del manual | recurso vivo y versionado | `SRC-MED-GRADE-BOOK-2026` | A documental | AUDITADO |
