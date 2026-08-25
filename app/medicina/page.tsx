@@ -4,44 +4,57 @@ import Link from "next/link";
 import { ArrowDown, ArrowRight, BookOpen, HeartPulse, ShieldCheck, Stethoscope } from "lucide-react";
 import ClinicalEvidenceLab from "../../components/ClinicalEvidenceLab";
 import DiagnosticEvidenceLab from "../../components/DiagnosticEvidenceLab";
+import HistoricalMedicineLab from "../../components/HistoricalMedicineLab";
 import { diagnosticEvidence } from "../../lib/diagnostic-evidence";
+import { historicalMedicineEvidence } from "../../lib/historical-medicine-evidence";
 import { medicineEvidence } from "../../lib/medicine-evidence";
 import { getCatalog } from "../../lib/public-data";
 import { createPageMetadata } from "../../lib/site";
 
 export const metadata: Metadata = createPageMetadata({
-  title: "Medicina — intervenciones, diagnóstico y decisiones",
-  description: "Cómo auditamos intervenciones y pruebas diagnósticas: comparadores, sesgos, efectos, exactitud, daños, utilidad y decisiones sin consejo personal.",
+  title: "Historia de la medicina — archivos, cuidado y evidencia",
+  description: "Cómo reconstruimos la historia mundial de la medicina desde huesos, biomoléculas, objetos y textos sin confundir huella, diagnóstico, práctica o eficacia.",
   pathname: "/medicina",
-  image: "/assets/visuales/hero-med-001-intervenciones.png",
+  image: "/assets/visuales/hero-med-003-origenes-medicina.png",
 });
 
 const principles = [
-  ["Pregunta antes que etiqueta", "Población, estrategias, desenlace, tiempo y estimando deben existir antes de interpretar."],
-  ["Daños con el mismo protagonismo", "Denominador, gravedad, horizonte e incertidumbre no quedan relegados a una nota."],
-  ["Cirugía como sistema", "Técnica, operador, equipo, centro y aprendizaje forman parte de la evidencia."],
-  ["Decisión situada", "El promedio informa; no decide automáticamente por una persona."],
+  ["Archivo antes que relato", "Espécimen, procedencia, fecha y asociación se auditan antes de interpretar una huella."],
+  ["Lesión no es diagnóstico", "Diferencial, fisiopatología y conservación limitan lo que un cuerpo puede demostrar."],
+  ["Presencia no es práctica", "ADN, residuo, objeto o texto no heredan automáticamente síntomas, intención o eficacia."],
+  ["Decisión situada", "En la medicina contemporánea, el promedio informa; no decide automáticamente por una persona."],
 ] as const;
 
 export default function MedicinePage() {
   const dossiers = getCatalog().filter((record) => record.key.startsWith("MED-"));
+
   return (
     <div className="medicine-experience">
-      <header className="medicine-hero">
-        <Image src="/assets/visuales/hero-med-001-intervenciones.png" alt="Mesa editorial con protocolo, comparadores, desenlaces, balance y población" fill preload fetchPriority="high" sizes="100vw" />
+      <header className="medicine-hero medicine-history-hero">
+        <Image
+          src="/assets/visuales/hero-med-003-origenes-medicina.png"
+          alt="Mesa de conservación con seis archivos materiales separados para investigar los orígenes de la medicina"
+          fill
+          preload
+          fetchPriority="high"
+          sizes="100vw"
+        />
         <div className="medicine-hero-shade" />
         <div className="medicine-hero-copy">
-          <p className="eyebrow">Nueva serie temática · Medicina</p>
-          <h1>Una mejoría no basta</h1>
-          <p>Del tratamiento observado al efecto causal: comparadores, desenlaces, daños, cirugía y aplicabilidad con los límites a la vista.</p>
-          <div><Link className="button button-primary" href="#laboratorio">Abrir laboratorio <ArrowDown aria-hidden="true" /></Link><Link className="medicine-text-link" href="/15_medicina/INVESTIGACION_MED_001_INTERVENCIONES_EFICACIA_DANOS">Leer MED-001 <ArrowRight aria-hidden="true" /></Link></div>
+          <p className="eyebrow">Historia mundial de la medicina</p>
+          <h1>No existe un fósil único</h1>
+          <p>De la huella superviviente al cuidado, la intervención y el sistema médico: una cronología global con cada salto inferencial a la vista.</p>
+          <div>
+            <Link className="button button-primary" href="#historia">Abrir archivo histórico <ArrowDown aria-hidden="true" /></Link>
+            <Link className="medicine-text-link" href="/15_medicina/INVESTIGACION_MED_003_ORIGENES_ARCHIVO_CUIDADO">Leer MED-003 <ArrowRight aria-hidden="true" /></Link>
+          </div>
         </div>
-        <p className="medicine-visual-limit">Composición editorial contemporánea; no contiene datos clínicos ni representa un ensayo real.</p>
+        <p className="medicine-visual-limit">Composición editorial no probatoria; las bandejas no son coetáneas ni una colección arqueológica real.</p>
       </header>
 
       <section className="medicine-boundary">
-        <div><ShieldCheck aria-hidden="true" /><p className="eyebrow">Límite de seguridad</p><h2>Educación metodológica, no consulta</h2></div>
-        <p>Este portal no solicita síntomas, antecedentes, imágenes, estudios ni identificadores. No calcula riesgo individual ni recomienda iniciar, suspender o elegir tratamientos.</p>
+        <div><ShieldCheck aria-hidden="true" /><p className="eyebrow">Límite de seguridad</p><h2>Historia y método, no consulta</h2></div>
+        <p>El portal no solicita síntomas, antecedentes, imágenes, estudios ni identificadores. Reconstruye cómo sabemos lo que sabemos y no calcula riesgo individual ni recomienda pruebas o tratamientos.</p>
       </section>
 
       <section className="medicine-principles" aria-labelledby="medicine-principles-title">
@@ -49,22 +62,30 @@ export default function MedicinePage() {
         <div>{principles.map(([title, text], index) => <article key={title}><span>{String(index + 1).padStart(2, "0")}</span><h3>{title}</h3><p>{text}</p></article>)}</div>
       </section>
 
-      <section className="medicine-lab-section" id="laboratorio" aria-labelledby="medicine-lab-title">
+      <section className="medicine-lab-section historical-lab-section" id="historia" aria-labelledby="historical-lab-title">
+        <div className="section-heading">
+          <div><p className="eyebrow">Archivo histórico de la medicina</p><h2 id="historical-lab-title">De la huella al sistema</h2></div>
+          <p>Elige un caso. Seis capas separan espécimen, contexto, huella, interpretación, conducta y sistema médico.</p>
+        </div>
+        <HistoricalMedicineLab data={historicalMedicineEvidence} />
+      </section>
+
+      <section className="medicine-lab-section" id="intervenciones" aria-labelledby="medicine-lab-title">
         <div className="section-heading"><div><p className="eyebrow">Laboratorio de evidencia clínica</p><h2 id="medicine-lab-title">De la pregunta a la decisión</h2></div><p>Elige un caso. Cada capa separa archivo observado, inferencia permitida y límite.</p></div>
         <ClinicalEvidenceLab data={medicineEvidence} />
       </section>
+
       <section className="medicine-lab-section diagnostic-lab-section" id="diagnostico" aria-labelledby="diagnostic-lab-title">
         <div className="section-heading"><div><p className="eyebrow">Laboratorio de evidencia diagnóstica</p><h2 id="diagnostic-lab-title">Una prueba no es una decisión</h2></div><p>Compara cuatro casos. Cada recorrido conserva población, prueba, referencia, rendimiento, manejo y desenlace.</p></div>
         <DiagnosticEvidenceLab data={diagnosticEvidence} />
       </section>
 
-
       <section className="medicine-method-grid" aria-labelledby="medicine-method-title">
-        <header><p className="eyebrow">Lo que la etiqueta no garantiza</p><h2 id="medicine-method-title">Reporte, sesgo y aplicabilidad son juicios distintos</h2></header>
+        <header><p className="eyebrow">Lo que una etiqueta no garantiza</p><h2 id="medicine-method-title">Documento, validez y efecto son juicios distintos</h2></header>
         <div>
-          <article><BookOpen aria-hidden="true" /><h3>Reportar</h3><p>SPIRIT, CONSORT, PRISMA y TIDieR muestran qué se planeó y qué ocurrió. No certifican validez.</p></article>
-          <article><Stethoscope aria-hidden="true" /><h3>Estimar</h3><p>RoB 2, el estimando y el intervalo pertenecen a un resultado concreto, no al prestigio del artículo.</p></article>
-          <article><HeartPulse aria-hidden="true" /><h3>Decidir</h3><p>Certeza, riesgo basal, daños, carga, factibilidad y preferencias completan el puente clínico.</p></article>
+          <article><BookOpen aria-hidden="true" /><h3>Reconstruir</h3><p>Huesos, moléculas, objetos y textos conservan productos distintos. Ninguno sustituye automáticamente a los demás.</p></article>
+          <article><Stethoscope aria-hidden="true" /><h3>Estimar</h3><p>Diseño, comparador, sesgo e intervalo pertenecen a una pregunta concreta, no al prestigio del archivo.</p></article>
+          <article><HeartPulse aria-hidden="true" /><h3>Decidir</h3><p>Certeza, riesgo basal, daños, carga, factibilidad y preferencias completan el puente clínico contemporáneo.</p></article>
         </div>
       </section>
 

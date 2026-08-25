@@ -1399,6 +1399,13 @@ svg { stroke-width: 1.7; }
 .clinical-lab-footer strong { color: #e6c07d; }
 .clinical-lab-footer p { margin: .3rem 0 0; color: #aaa296; font-size: .82rem; }
 .clinical-empty { display: flex; gap: .8rem; padding: 2rem; border: 1px solid var(--line); }
+.historical-lab-section { background: linear-gradient(180deg, transparent, color-mix(in srgb, var(--copper) 4%, transparent)); }
+.historical-medicine-lab { border-color: #785f42; }
+.historical-medicine-lab .clinical-toolbar { background: linear-gradient(120deg, rgba(117,83,47,.24), transparent 55%); }
+.historical-medicine-lab .clinical-chain > li:nth-child(6) { box-shadow: inset 0 -3px #667f70; }
+@media (max-width: 480px) {
+  .historical-medicine-lab .clinical-toolbar select { padding-right: .35rem; font-size: .78rem; }
+}
 .diagnostic-lab-section { background: linear-gradient(180deg, transparent, color-mix(in srgb, var(--mineral) 4%, transparent)); }
 .diagnostic-lab { border-color: #546b62; }
 .diagnostic-lab .clinical-toolbar { background: linear-gradient(120deg, rgba(55,87,74,.22), transparent 55%); }

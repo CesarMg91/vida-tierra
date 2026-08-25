@@ -9,7 +9,7 @@ import { getCatalog, getKnowledgeCounts } from "../lib/public-data";
 export default function Home() {
   const catalog = getCatalog();
   const counts = getKnowledgeCounts();
-  const featuredKeys = new Set(["002", "013", "035", "050", "052", "MED-001"]);
+  const featuredKeys = new Set(["002", "013", "035", "050", "052", "MED-003"]);
   const featured = catalog.filter((record) => featuredKeys.has(record.key));
   const progressCatalog = catalog.map(({ order, slug, shortTitle }) => ({ order, slug, shortTitle }));
 
@@ -28,7 +28,7 @@ export default function Home() {
         <div className="home-hero-shade" />
         <div className="home-hero-content">
           <h1 id="home-title"><span>¿Cómo sabemos</span><span>lo que sabemos?</span></h1>
-          <p className="home-deck">La historia del cosmos, la Tierra,<br />la vida y la humanidad.</p>
+          <p className="home-deck">La historia del cosmos, la Tierra,<br />la vida, la humanidad y la medicina.</p>
           <div className="hero-actions">
             <Link className="button button-primary" href="/viaje">
               Comenzar el viaje <ArrowRight aria-hidden="true" />

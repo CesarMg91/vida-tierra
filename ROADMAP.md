@@ -218,8 +218,12 @@ Después de disponer de la secuencia base:
 |---:|---|---|---|
 | MED-001 | `INV-MED-INTERVENTIONS-001` | [efectos, comparadores, desenlaces, daños, cirugía y aplicabilidad](15_medicina/INVESTIGACION_MED_001_INTERVENCIONES_EFICACIA_DANOS.md) | **AUDITADO** |
 | MED-002 | `INV-MED-DIAGNOSTICS-001` | [uso previsto, exactitud, probabilidad, utilidad y consecuencias](15_medicina/INVESTIGACION_MED_002_PRUEBAS_DIAGNOSTICAS_DECISIONES.md) | **AUDITADO** |
+| MED-003 | `INV-MED-ORIGINS-001` | [archivos, cuidado, intervención, biomoléculas y límites del origen](15_medicina/INVESTIGACION_MED_003_ORIGENES_ARCHIVO_CUIDADO.md) | **AUDITADO** |
 
-`MED-001` inaugura Medicina sin cerrar ni renumerar CIV. La cadencia recomendada alterna dominios: MED-001 → CIV-004 (Nilo/África nororiental) → MED-002 (pruebas diagnósticas) → CIV-005 (nombres e identidades). La entrega pública de MED-001 corresponde a `v0.3.0`.
+MED-001 y MED-002 establecen el laboratorio transversal para evaluar intervenciones y pruebas. MED-003 abre la secuencia histórica mundial y sustituye cualquier fecha de nacimiento única por una cadena de seis capas.
 
-**Actualizaci�n 2026-08-24:** MED-002 se complet� inmediatamente despu�s de MED-001 por decisi�n editorial. La siguiente expansi�n recomendada vuelve a Civilizaciones con CIV-004 (Nilo y �frica nororiental), sin cerrar ninguna de las dos l�neas.
-La entrega p�blica de MED-002 corresponde a `v0.3.1`.
+El programa MED-003–MED-033 está en [PROGRAMA_CRONOLOGICO_HISTORIA_MEDICINA.md](15_medicina/PROGRAMA_CRONOLOGICO_HISTORIA_MEDICINA.md), con contrato común en [ESTANDAR_EVIDENCIA_HISTORICA_MEDICINA.md](15_medicina/ESTANDAR_EVIDENCIA_HISTORICA_MEDICINA.md). CIV conserva su numeración, rutas y programa independiente; ninguna línea se cierra para abrir la otra.
+
+La siguiente investigación prevista es MED-004: Mesopotamia y valle del Nilo, donde cuerpos, objetos, archivos administrativos y textos terapéuticos coexistirán sin heredar automáticamente práctica o eficacia.
+
+Entregas públicas: MED-001 = `v0.3.0`; MED-002 = `v0.3.1`; MED-003 = `v0.3.2`.

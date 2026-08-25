@@ -3202,14 +3202,26 @@ Emular un ensayo objetivo corrige errores de diseño, no confusión no medida. *
 | `CONT-MED-SURGICAL-EXPERTISE-001` | operador | fidelidad vs transportabilidad | abierta por técnica | B |
 | `CONT-MED-SUBGROUPS-001` | heterogeneidad | modificador vs multiplicidad | abierta | B-C |
 | `CONT-MED-OBSERVATIONAL-CAUSAL-001` | registros | emulación vs confusión residual | abierta | B-C |
-## Controversias de MED-002 - Pruebas diagn�sticas
+## Controversias de MED-002 - Pruebas diagnósticas
 
 | ID | Controversia | Posiciones plausibles | Evidencia que discrimina | Estado |
 |---|---|---|---|---|
-| `CONT-MED-DX-REFERENCE-001` | c�mo evaluar cuando la referencia es imperfecta | referencia compuesta, seguimiento, modelos latentes o adjudicaci�n | independencia, cegamiento, sensibilidad y an�lisis de supuestos | ABIERTA |
-| `CONT-MED-DX-THRESHOLD-001` | qu� umbral usar | priorizar falsos negativos, falsos positivos, beneficio neto o recursos | consecuencias preespecificadas y validaci�n externa | ABIERTA POR USO |
-| `CONT-MED-DX-SCREENING-001` | cu�ndo detectar antes produce beneficio | etapa temprana tratable frente a sobrediagn�stico y sesgos temporales | ensayo de estrategia con desenlaces importantes y seguimiento suficiente | ABIERTA POR PROGRAMA |
-| `CONT-MED-DX-AI-001` | cu�ndo un modelo de IA est� listo para pr�ctica | exactitud externa suficiente frente a impacto prospectivo obligatorio | calibraci�n, deriva, equidad, integraci�n y desenlaces | ABIERTA |
-| `CONT-MED-DX-INDETERMINATE-001` | c�mo tratar resultados indeterminados | excluir, repetir, modelar o clasificar como fallo | flujo completo, razones, denominador y consecuencias | ABIERTA POR RUTA |
-| `CONT-MED-DX-UTILITY-BRIDGE-001` | cu�ndo basta un puente causal sin ensayo prueba-tratamiento | evidencia enlazada frente a ensayo directo | robustez de cada eslab�n, da�os y modificadores | ABIERTA |
-| `CONT-MED-DX-TRANSPORT-001` | cu�nto viaja el rendimiento | m�tricas relativamente estables frente a dependencia de espectro/sistema | validaci�n externa temporal, geogr�fica y cl�nica | ABIERTA POR PRUEBA |
+| `CONT-MED-DX-REFERENCE-001` | cómo evaluar cuando la referencia es imperfecta | referencia compuesta, seguimiento, modelos latentes o adjudicación | independencia, cegamiento, sensibilidad y análisis de supuestos | ABIERTA |
+| `CONT-MED-DX-THRESHOLD-001` | qué umbral usar | priorizar falsos negativos, falsos positivos, beneficio neto o recursos | consecuencias preespecificadas y validación externa | ABIERTA POR USO |
+| `CONT-MED-DX-SCREENING-001` | cuándo detectar antes produce beneficio | etapa temprana tratable frente a sobrediagnóstico y sesgos temporales | ensayo de estrategia con desenlaces importantes y seguimiento suficiente | ABIERTA POR PROGRAMA |
+| `CONT-MED-DX-AI-001` | cuándo un modelo de IA está listo para práctica | exactitud externa suficiente frente a impacto prospectivo obligatorio | calibración, deriva, equidad, integración y desenlaces | ABIERTA |
+| `CONT-MED-DX-INDETERMINATE-001` | cómo tratar resultados indeterminados | excluir, repetir, modelar o clasificar como fallo | flujo completo, razones, denominador y consecuencias | ABIERTA POR RUTA |
+| `CONT-MED-DX-UTILITY-BRIDGE-001` | cuándo basta un puente causal sin ensayo prueba-tratamiento | evidencia enlazada frente a ensayo directo | robustez de cada eslabón, daños y modificadores | ABIERTA |
+| `CONT-MED-DX-TRANSPORT-001` | cuánto viaja el rendimiento | métricas relativamente estables frente a dependencia de espectro/sistema | validación externa temporal, geográfica y clínica | ABIERTA POR PRUEBA |
+
+## Controversias de MED-003 — Archivos y orígenes de la medicina
+
+| ID | Controversia | Posiciones plausibles | Evidencia que discrimina | Estado |
+|---|---|---|---|---|
+| `CONT-MED-HIST-BORNEO-001` | mecanismo de pérdida de la extremidad de TB1 | amputación intencional frente a trauma fisario, infección o autoamputación | microestructura, imagen adicional, comparadores clínicos y experimentales | ABIERTA |
+| `CONT-MED-HIST-CARE-001` | umbral para inferir asistencia | dependencia grave necesariamente asistida frente a autosuficiencia parcial o apoyos ambientales | modelo funcional, patología completa, contexto y analogías limitadas | ABIERTA POR CASO |
+| `CONT-MED-HIST-TREPANATION-001` | clasificación y resultado de aperturas craneales | intervención intencional frente a anomalía, trauma, infección o tafonomía | huellas, bordes, remodelación, contexto y series comparables | ABIERTA POR EJEMPLAR |
+| `CONT-MED-HIST-SELF-MEDICATION-001` | significado de plantas en cálculo | alimento, ambiente o contaminación frente a automedicación | patrón individual, enfermedad independiente, dosis y selección recurrente | NO DEMOSTRADO |
+| `CONT-MED-HIST-RETROSPECTIVE-DX-001` | traducción de textos a diagnósticos modernos | categoría histórica autónoma frente a correspondencia biomédica parcial | filología, contexto, conjunto sintomático y archivos independientes | ABIERTA POR PASAJE |
+| `CONT-MED-HIST-PATHOGEN-SCALE-001` | escala de una señal microbiana | presencia individual frente a enfermedad, epidemia o fecha de origen | tejido, lesiones, contexto, series representativas y filogenia | ABIERTA POR ESCALA |
+| `CONT-MED-HIST-ARCHIVE-BIAS-001` | representatividad del archivo médico antiguo | patrón real frente a preservación, excavación, colección y tecnología | muestreo multirregional, materiales alternativos y análisis de ausencia | ABIERTA |

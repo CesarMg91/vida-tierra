@@ -21,6 +21,27 @@ function duplicates(values) {
   return values.filter((value) => (seen.has(value) ? true : (seen.add(value), false)));
 }
 
+const textExtensions = new Set([".md", ".json", ".ts", ".tsx", ".mjs", ".svg", ".css", ".cff", ".yml", ".yaml", ".txt"]);
+const ignoredTextDirectories = new Set([".git", ".next", "node_modules"]);
+
+function textFiles(directory) {
+  const files = [];
+  for (const entry of fs.readdirSync(directory, { withFileTypes: true })) {
+    if (ignoredTextDirectories.has(entry.name)) continue;
+    const target = path.join(directory, entry.name);
+    if (entry.isDirectory()) files.push(...textFiles(target));
+    else if (textExtensions.has(path.extname(entry.name).toLowerCase()) || entry.name === "CITATION.cff") files.push(target);
+  }
+  return files;
+}
+
+for (const file of textFiles(ROOT)) {
+  const value = fs.readFileSync(file, "utf8");
+  const relative = path.relative(ROOT, file).replaceAll("\\", "/");
+  check(!value.includes("\uFFFD"), `${relative} contiene el carácter de sustitución U+FFFD`);
+  check(!/[\u0000-\u0008\u000B\u000C\u000E-\u001F\u007F]/u.test(value), `${relative} contiene caracteres de control no permitidos`);
+}
+
 check(editorial.schemaVersion === 2, `versión de catálogo editorial no soportada: ${editorial.schemaVersion}`);
 for (const [series, metadata] of Object.entries(editorial.thematicSeries ?? {})) {
   check(/^[A-Z][A-Z0-9]{1,7}$/.test(series), `código de serie temática inválido: ${series}`);
@@ -184,6 +205,44 @@ for (const diagnosticCase of diagnosticData.cases) {
     for (const id of layer.claimIds ?? []) check(claimIds.has(id), `${diagnosticCase.id}/${layer.kind} enlaza un claim inexistente: ${id}`);
     for (const id of layer.evidenceIds ?? []) check(evidenceIds.has(id), `${diagnosticCase.id}/${layer.kind} enlaza una evidencia inexistente: ${id}`);
     for (const id of layer.sourceIds ?? []) check(sourceIds.has(id), `${diagnosticCase.id}/${layer.kind} enlaza una fuente inexistente: ${id}`);
+  }
+}
+
+const historicalMedicineData = JSON.parse(fs.readFileSync(path.join(ROOT, "content", "historical-medicine-evidence.json"), "utf8"));
+const historicalMedicineKinds = ["specimen", "context", "trace", "interpretation", "behavior", "system"];
+check(historicalMedicineData.schemaVersion === 1, "el módulo histórico médico usa una versión de esquema desconocida");
+check(
+  researchSlugs.has(historicalMedicineData.researchSlug),
+  `el módulo histórico médico apunta a un expediente inexistente: ${historicalMedicineData.researchSlug}`,
+);
+check(
+  Array.isArray(historicalMedicineData.cases) && historicalMedicineData.cases.length === 4,
+  "el módulo histórico médico debe contener cuatro casos",
+);
+check(
+  duplicates(historicalMedicineData.cases.map((record) => record.id)).length === 0,
+  "el módulo histórico médico contiene casos duplicados",
+);
+for (const historicalCase of historicalMedicineData.cases) {
+  check(
+    Boolean(historicalCase.title) && Boolean(historicalCase.region) && Boolean(historicalCase.archive),
+    `${historicalCase.id} no declara título, región o archivo`,
+  );
+  check(
+    JSON.stringify(historicalCase.layers?.map((layer) => layer.kind)) === JSON.stringify(historicalMedicineKinds),
+    `${historicalCase.id} no conserva las seis capas históricas en orden`,
+  );
+  for (const layer of historicalCase.layers ?? []) {
+    check(
+      Boolean(layer.observed) && Boolean(layer.inference) && Boolean(layer.limit),
+      `${historicalCase.id}/${layer.kind} tiene un estado vacío`,
+    );
+    check(layer.claimIds?.length > 0, `${historicalCase.id}/${layer.kind} no enlaza claims`);
+    check(layer.evidenceIds?.length > 0, `${historicalCase.id}/${layer.kind} no enlaza evidencias`);
+    check(layer.sourceIds?.length > 0, `${historicalCase.id}/${layer.kind} no enlaza fuentes`);
+    for (const id of layer.claimIds ?? []) check(claimIds.has(id), `${historicalCase.id}/${layer.kind} enlaza un claim inexistente: ${id}`);
+    for (const id of layer.evidenceIds ?? []) check(evidenceIds.has(id), `${historicalCase.id}/${layer.kind} enlaza una evidencia inexistente: ${id}`);
+    for (const id of layer.sourceIds ?? []) check(sourceIds.has(id), `${historicalCase.id}/${layer.kind} enlaza una fuente inexistente: ${id}`);
   }
 }
 
