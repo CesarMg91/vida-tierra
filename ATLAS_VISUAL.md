@@ -848,3 +848,32 @@ La salida se inspeccionó a resolución original. No contiene personas, cuerpos,
 Las dos bandejas de instrumental son genéricas y de peso visual equivalente. No representan técnicas específicas, esterilidad operativa ni un comparador éticamente adecuado por sí mismas. La balanza no calcula un balance beneficio–daño; las figuras de madera no representan una muestra o grupo demográfico real; el hilo de cobre expresa trazabilidad editorial, no causalidad.
 
 Los SVG se construyeron con `width="1600"`, `height="900"`, `viewBox="0 0 1600 900"`, `title` y `desc`. La cadena termina en decisión situada con un puente discontinuo; la matriz declara expresamente que no es un ranking. Ninguno recibe datos personales o produce recomendaciones.
+## 57. MED-002 — Una prueba no es una decisión
+
+![Portada editorial de MED-002](assets/visuales/hero-med-002-pruebas-diagnosticas.png)
+
+![Cadena desde población hasta desenlace](assets/visuales/cadena-prueba-decision-med-002.svg)
+
+![Matriz de preguntas, diseños, productos y fallos](assets/visuales/matriz-pruebas-diagnosticas-med-002.svg)
+
+| Archivo | Tipo | Procedencia | Qué representa | Límite obligatorio |
+|---|---|---|---|---|
+| `hero-med-002-pruebas-diagnosticas.png` | portada editorial conceptual | OpenAI ImageGen, generación nueva, 2026-08-24 | seis estaciones genéricas desde población y umbral hasta consecuencias | no datos, prueba, hospital, paciente o ruta clínica reales |
+| `cadena-prueba-decision-med-002.svg` | diagrama epistemológico original | SVG manual del proyecto, 2026-08-24 | puentes entre población, índice, referencia, rendimiento, manejo y desenlace | no algoritmo, calculadora ni protocolo clínico |
+| `matriz-pruebas-diagnosticas-med-002.svg` | matriz metódica original | SVG manual del proyecto, 2026-08-24 | preguntas, diseños, productos y fallos que no deben colapsarse | filas no forman ranking ni jerarquía universal |
+
+### Procedencia de la portada
+
+Salida original aprobada sin edición: `C:\Users\HUAWEI\.codex\generated_images\019fedb0-8f24-7e33-8d16-d2418ba3378e\exec-bff1a683-5230-45f6-bca7-ee13cd3d2eb6.png`. Destino: `assets/visuales/hero-med-002-pruebas-diagnosticas.png`. Dimensiones: `1672 × 941`; tamaño: `1,834,579` bytes; SHA-256: `387046e402fd304fbd97eb24021f448d73e1f9b2744fd8cd2050fe880247568c`.
+
+**Prompt de generación:**
+
+> Use case: scientific-educational. Asset type: wide 16:9 editorial website cover for MED-002 in a rigorous Spanish evidence-medicine platform. Primary request: create a museum-quality diagnostic evidence worktable showing that a test result must pass through population, threshold, reference standard, measured performance, management, and patient-important outcomes before it can support a decision. Scene/backdrop: quiet contemporary clinical research laboratory at dawn, dark obsidian background with warm parchment light; no active care area. Subject: six physically separate evidence stations connected by a subtle copper thread: a small diverse set of neutral wooden population silhouettes; one sealed generic sample container beside an abstract translucent scan plate; a brass threshold gauge with no markings; a separate reference-standard tray; paired frosted glass panels with abstract dots and intervals but no axes; two diverging neutral decision trays ending in a simple balanced outcomes ledger. Include one clearly empty compartment to signal missing evidence. Style/medium: cinematic editorial still-life photography, tactile realism, sober and scientifically credible. Composition/framing: horizontal 16:9 landscape, left-to-right chain, all stations fully visible, generous dark negative space in upper left for HTML title added later, no embedded copy. Lighting/mood: restrained directional amber light, calm, rigorous, humane. Color palette: obsidian, parchment, ink, copper, amber, mineral green, brushed steel. Materials/textures: steel, archival paper, frosted glass, wood, fine copper wire. Constraints: conceptual editorial composition only; no people, patient body, anatomy, blood, needles, medications, disease symbols, diagnostic brand, readable text, letters, numbers, axes, logos, watermark, screen UI, false data or clinical instruction. The sample container must be generic and sealed; the threshold gauge must have no numeric scale. Avoid: stock-photo doctor, dramatic emergency room, glowing holograms, blue futuristic interface, microscope cliché, molecular decoration, biohazard icon, identifiable hospital branding.
+
+### Revisión y límites
+
+La salida se inspeccionó a resolución original. No contiene personas, cuerpos, anatomía, sangre, agujas, fármacos, marcas, texto o números legibles. Los puntos, líneas y barras de los paneles son marcas abstractas sin ejes, unidades o valores; no son resultados, intervalos o datos publicados. La lupa y la pinza son utilería editorial genérica y no representan una técnica.
+
+Las figuras de madera representan diversidad de población sin categorías demográficas; el frasco está vacío y sellado; el disco de latón no mide un umbral; las dos bandejas no recomiendan acciones; el libro no contiene un balance real. El compartimento vacío significa archivo faltante, no ausencia de enfermedad o resultado.
+
+Los SVG se construyeron a `1600 × 900` con `title`, `desc`, tipografía de reserva y texto dentro del lienzo. La cadena usa flechas discontinuas para indicar puentes que exigen evidencia; la matriz declara que no es un ranking. Ninguno recibe entradas, calcula probabilidades o produce recomendaciones.

@@ -3202,3 +3202,14 @@ Emular un ensayo objetivo corrige errores de dise√±o, no confusi√≥n no medida. *
 | `CONT-MED-SURGICAL-EXPERTISE-001` | operador | fidelidad vs transportabilidad | abierta por t√©cnica | B |
 | `CONT-MED-SUBGROUPS-001` | heterogeneidad | modificador vs multiplicidad | abierta | B-C |
 | `CONT-MED-OBSERVATIONAL-CAUSAL-001` | registros | emulaci√≥n vs confusi√≥n residual | abierta | B-C |
+## Controversias de MED-002 - Pruebas diagn¢sticas
+
+| ID | Controversia | Posiciones plausibles | Evidencia que discrimina | Estado |
+|---|---|---|---|---|
+| `CONT-MED-DX-REFERENCE-001` | c¢mo evaluar cuando la referencia es imperfecta | referencia compuesta, seguimiento, modelos latentes o adjudicaci¢n | independencia, cegamiento, sensibilidad y an†lisis de supuestos | ABIERTA |
+| `CONT-MED-DX-THRESHOLD-001` | quÇ umbral usar | priorizar falsos negativos, falsos positivos, beneficio neto o recursos | consecuencias preespecificadas y validaci¢n externa | ABIERTA POR USO |
+| `CONT-MED-DX-SCREENING-001` | cu†ndo detectar antes produce beneficio | etapa temprana tratable frente a sobrediagn¢stico y sesgos temporales | ensayo de estrategia con desenlaces importantes y seguimiento suficiente | ABIERTA POR PROGRAMA |
+| `CONT-MED-DX-AI-001` | cu†ndo un modelo de IA est† listo para pr†ctica | exactitud externa suficiente frente a impacto prospectivo obligatorio | calibraci¢n, deriva, equidad, integraci¢n y desenlaces | ABIERTA |
+| `CONT-MED-DX-INDETERMINATE-001` | c¢mo tratar resultados indeterminados | excluir, repetir, modelar o clasificar como fallo | flujo completo, razones, denominador y consecuencias | ABIERTA POR RUTA |
+| `CONT-MED-DX-UTILITY-BRIDGE-001` | cu†ndo basta un puente causal sin ensayo prueba-tratamiento | evidencia enlazada frente a ensayo directo | robustez de cada eslab¢n, da§os y modificadores | ABIERTA |
+| `CONT-MED-DX-TRANSPORT-001` | cu†nto viaja el rendimiento | mÇtricas relativamente estables frente a dependencia de espectro/sistema | validaci¢n externa temporal, geogr†fica y cl°nica | ABIERTA POR PRUEBA |

@@ -1,0 +1,62 @@
+{
+  "schemaVersion": 1,
+  "researchSlug": "15_medicina/INVESTIGACION_MED_002_PRUEBAS_DIAGNOSTICAS_DECISIONES",
+  "cases": [
+    {
+      "id": "rift",
+      "title": "RIFT: una regla cambia con población y umbral",
+      "scope": "Sospecha de apendicitis · 5,345 adultos de 16–45 años · 154 hospitales del Reino Unido",
+      "design": "cohorte prospectiva multicéntrica y validación de 15 modelos",
+      "layers": [
+        { "kind": "population", "observed": "Adultos de 16–45 años remitidos con sospecha de apendicitis.", "inference": "Espectro de práctica aguda dentro de esa edad y red hospitalaria.", "limit": "No representa infancia, mayores, embarazo ni otros sistemas.", "claimIds": ["CLAIM-MED-DX-SPECTRUM-001"], "evidenceIds": ["EVID-MED-DX-RIFT-001"], "sourceIds": ["SRC-MED-DX-RIFT-2020"] },
+        { "kind": "index", "observed": "Quince puntuaciones aplicadas con componentes y puntos de corte declarados.", "inference": "Clasificación reproducible para cada regla y umbral estudiados.", "limit": "El nombre de la regla no transporta versiones, medición o corte.", "claimIds": ["CLAIM-MED-DX-THRESHOLD-001"], "evidenceIds": ["EVID-MED-DX-RIFT-001"], "sourceIds": ["SRC-MED-DX-RIFT-2020"] },
+        { "kind": "reference", "observed": "Diagnóstico final y resultados quirúrgicos documentados por la cohorte.", "inference": "Contraste entre estratos de riesgo y desenlace registrado.", "limit": "Una referencia clínica compuesta no es verdad perfecta e independiente.", "claimIds": ["CLAIM-MED-DX-REFERENCE-001"], "evidenceIds": ["EVID-MED-DX-BIAS-001"], "sourceIds": ["SRC-MED-DX-QUADAS3-2026", "SRC-MED-DX-RIFT-2020"] },
+        { "kind": "performance", "observed": "AAS ≤8 en mujeres: especificidad 63.1% y fallo 3.7%; AIR ≤2 en hombres: 24.7% y 2.4%.", "inference": "Rendimiento distinto por sexo, regla y corte dentro del estudio.", "limit": "No existe una sensibilidad o especificidad universal de «la puntuación».", "claimIds": ["CLAIM-MED-DX-RIFT-001", "CLAIM-MED-DX-METRICS-001"], "evidenceIds": ["EVID-MED-DX-RIFT-001"], "sourceIds": ["SRC-MED-DX-RIFT-2020"] },
+        { "kind": "management", "observed": "Los autores evaluaron estratos que podrían orientar observación o investigación.", "inference": "Una regla puede organizar una ruta que después debe probarse.", "limit": "Validar clasificación no demuestra que una acción mejore resultados.", "claimIds": ["CLAIM-MED-DX-UTILITY-001"], "evidenceIds": ["EVID-MED-DX-UTILITY-001"], "sourceIds": ["SRC-MED-DX-UTILITY-2012"] },
+        { "kind": "outcome", "observed": "Tasa de fallo y apendicectomía negativa permanecieron visibles y variaron por sexo.", "inference": "Los errores tienen consecuencias medibles además del AUC.", "limit": "El estudio no convierte el módulo en protocolo de manejo actual.", "claimIds": ["CLAIM-MED-DX-RIFT-001"], "evidenceIds": ["EVID-MED-DX-RIFT-001"], "sourceIds": ["SRC-MED-DX-RIFT-2020"] }
+      ]
+    },
+    {
+      "id": "adjust-pe",
+      "title": "ADJUST-PE: el umbral vive dentro de una estrategia",
+      "scope": "Sospecha de embolia pulmonar · 3,346 pacientes · seguimiento de tres meses",
+      "design": "estudio prospectivo de manejo secuencial",
+      "layers": [
+        { "kind": "population", "observed": "Pacientes con sospecha clínica de embolia pulmonar evaluados prospectivamente.", "inference": "Población de una ruta diagnóstica, no población general.", "limit": "Entrada, prevalencia y exclusiones pertenecen a los centros del estudio.", "claimIds": ["CLAIM-MED-DX-INTENDED-USE-001"], "evidenceIds": ["EVID-MED-DX-ADJUST-PE-001"], "sourceIds": ["SRC-MED-DX-ADJUST-PE-2014"] },
+        { "kind": "index", "observed": "Probabilidad clínica seguida de D-dímero con corte convencional o ajustado por edad.", "inference": "El objeto probado fue una secuencia condicionada.", "limit": "El número aislado no reproduce evaluación pretest, ensayo o ruta.", "claimIds": ["CLAIM-MED-DX-ADJUST-PE-001", "CLAIM-MED-DX-QUESTION-001"], "evidenceIds": ["EVID-MED-DX-ADJUST-PE-001"], "sourceIds": ["SRC-MED-DX-ADJUST-PE-2014"] },
+        { "kind": "reference", "observed": "Imagen cuando correspondía y vigilancia de eventos tromboembólicos durante tres meses.", "inference": "Fallo de la estrategia bajo referencia y seguimiento definidos.", "limit": "Seguimiento clínico puede perder eventos y no es referencia instantánea perfecta.", "claimIds": ["CLAIM-MED-DX-REFERENCE-001"], "evidenceIds": ["EVID-MED-DX-ADJUST-PE-001"], "sourceIds": ["SRC-MED-DX-ADJUST-PE-2014"] },
+        { "kind": "performance", "observed": "Hubo 1 evento entre 331 pacientes con resultado entre 500 y el umbral ajustado por edad.", "inference": "Tasa de fallo observada con intervalo bajo esa estrategia.", "limit": "Un evento y su intervalo no equivalen a riesgo cero ni a resultado individual.", "claimIds": ["CLAIM-MED-DX-ADJUST-PE-001"], "evidenceIds": ["EVID-MED-DX-ADJUST-PE-001"], "sourceIds": ["SRC-MED-DX-ADJUST-PE-2014"] },
+        { "kind": "management", "observed": "La imagen se omitió cuando la secuencia predefinida clasificó la embolia como descartada.", "inference": "Efecto de la ruta sobre uso de imagen y seguimiento de fallos.", "limit": "No fue una comparación aleatorizada contra otra ruta.", "claimIds": ["CLAIM-MED-DX-UTILITY-001"], "evidenceIds": ["EVID-MED-DX-ADJUST-PE-001"], "sourceIds": ["SRC-MED-DX-ADJUST-PE-2014"] },
+        { "kind": "outcome", "observed": "Eventos tromboembólicos sintomáticos a tres meses fueron el desenlace de seguridad.", "inference": "Consecuencia clínica observada del manejo en la cohorte.", "limit": "No autoriza consejo personal ni sustituye guías vigentes.", "claimIds": ["CLAIM-MED-DX-ADJUST-PE-001"], "evidenceIds": ["EVID-MED-DX-ADJUST-PE-001"], "sourceIds": ["SRC-MED-DX-ADJUST-PE-2014"] }
+      ]
+    },
+    {
+      "id": "proper",
+      "title": "PROPER: comparar rutas, no sólo pruebas",
+      "scope": "Urgencias · 1,916 pacientes de muy bajo riesgo · 14 centros",
+      "design": "ensayo clínico aleatorizado por conglomerados",
+      "layers": [
+        { "kind": "population", "observed": "Pacientes definidos por clínicos como de muy bajo riesgo para embolia pulmonar.", "inference": "Pregunta de descarte dentro de una entrada estrecha.", "limit": "PERC no fue probado aquí para riesgo moderado/alto o población no seleccionada.", "claimIds": ["CLAIM-MED-DX-PROPER-001", "CLAIM-MED-DX-SPECTRUM-001"], "evidenceIds": ["EVID-MED-DX-PROPER-001"], "sourceIds": ["SRC-MED-DX-PROPER-2018"] },
+        { "kind": "index", "observed": "Regla PERC integrada a la estrategia del servicio.", "inference": "Evaluación de una regla dentro del flujo real.", "limit": "Componentes, formación y adhesión pertenecen al ensayo.", "claimIds": ["CLAIM-MED-DX-INTENDED-USE-001"], "evidenceIds": ["EVID-MED-DX-PROPER-001"], "sourceIds": ["SRC-MED-DX-PROPER-2018"] },
+        { "kind": "reference", "observed": "Seguimiento de eventos tromboembólicos y adjudicación según protocolo.", "inference": "Vigilancia del fallo clínicamente relevante de la ruta.", "limit": "Ningún seguimiento garantiza capturar todo evento.", "claimIds": ["CLAIM-MED-DX-REFERENCE-001"], "evidenceIds": ["EVID-MED-DX-PROPER-001"], "sourceIds": ["SRC-MED-DX-PROPER-2018"] },
+        { "kind": "performance", "observed": "Un evento de seguimiento en PERC y ninguno en control.", "inference": "La comparación conservó visible la tasa de eventos bajo ambas rutas.", "limit": "Pocos eventos producen incertidumbre; cero observado no es imposibilidad.", "claimIds": ["CLAIM-MED-DX-PROPER-001"], "evidenceIds": ["EVID-MED-DX-PROPER-001"], "sourceIds": ["SRC-MED-DX-PROPER-2018"] },
+        { "kind": "management", "observed": "CTPA se usó en 13% con PERC frente a 23% con atención convencional.", "inference": "La estrategia redujo imagen en las condiciones aleatorizadas.", "limit": "Menos imagen no es beneficio por sí solo; requiere daños y fallos.", "claimIds": ["CLAIM-MED-DX-PROPER-001", "CLAIM-MED-DX-UTILITY-001"], "evidenceIds": ["EVID-MED-DX-PROPER-001"], "sourceIds": ["SRC-MED-DX-PROPER-2018"] },
+        { "kind": "outcome", "observed": "Eventos, exposición a CTPA y ruta asistencial se midieron conjuntamente.", "inference": "Una prueba puede evaluarse por consecuencias de estrategia.", "limit": "No se exporta a otra prevalencia, población o práctica sin validación.", "claimIds": ["CLAIM-MED-DX-UTILITY-001"], "evidenceIds": ["EVID-MED-DX-PROPER-001"], "sourceIds": ["SRC-MED-DX-PROPER-2018"] }
+      ]
+    },
+    {
+      "id": "ukctocs",
+      "title": "UKCTOCS: detectar antes no demostró reducir mortalidad",
+      "scope": "Cribado de cáncer ovárico/tubárico · 202,638 mujeres aleatorizadas · mediana 16.3 años",
+      "design": "ensayo aleatorizado de estrategias de cribado con seguimiento prolongado",
+      "layers": [
+        { "kind": "population", "observed": "Mujeres posmenopáusicas incluidas según criterios del ensayo poblacional.", "inference": "Pregunta sobre un programa de cribado en esa población.", "limit": "No representa personas sintomáticas, alto riesgo hereditario u otros programas.", "claimIds": ["CLAIM-MED-DX-INTENDED-USE-001"], "evidenceIds": ["EVID-MED-DX-UKCTOCS-001"], "sourceIds": ["SRC-MED-DX-UKCTOCS-2021"] },
+        { "kind": "index", "observed": "Cribado multimodal o ecográfico bajo algoritmos y rondas definidos.", "inference": "Comparación de programas completos frente a no cribado.", "limit": "No es una prueba aislada ni una versión tecnológica universal.", "claimIds": ["CLAIM-MED-DX-QUESTION-001"], "evidenceIds": ["EVID-MED-DX-UKCTOCS-001"], "sourceIds": ["SRC-MED-DX-UKCTOCS-2021"] },
+        { "kind": "reference", "observed": "Diagnósticos, estadio y muertes por cáncer ovárico/tubárico adjudicados a largo plazo.", "inference": "Separación entre detección, estadio y mortalidad.", "limit": "Clasificación causal de muerte también exige adjudicación y seguimiento.", "claimIds": ["CLAIM-MED-DX-REFERENCE-001"], "evidenceIds": ["EVID-MED-DX-UKCTOCS-001"], "sourceIds": ["SRC-MED-DX-UKCTOCS-2021"] },
+        { "kind": "performance", "observed": "El programa multimodal desplazó la distribución de estadio.", "inference": "La estrategia cambió cuándo o qué enfermedad se detectó.", "limit": "Cambio de estadio puede coexistir con anticipación y sobrediagnóstico.", "claimIds": ["CLAIM-MED-DX-UKCTOCS-001"], "evidenceIds": ["EVID-MED-DX-UKCTOCS-001"], "sourceIds": ["SRC-MED-DX-UKCTOCS-2021"] },
+        { "kind": "management", "observed": "Resultados de cribado activaron evaluación y tratamiento dentro del programa.", "inference": "El efecto incluye todas las acciones posteriores, no sólo la sensibilidad.", "limit": "Intervenciones, carga y falsos positivos son parte inseparable de utilidad.", "claimIds": ["CLAIM-MED-DX-UTILITY-001"], "evidenceIds": ["EVID-MED-DX-UTILITY-001", "EVID-MED-DX-UKCTOCS-001"], "sourceIds": ["SRC-MED-DX-UTILITY-2012", "SRC-MED-DX-UKCTOCS-2021"] },
+        { "kind": "outcome", "observed": "No hubo reducción significativa de mortalidad por cáncer ovárico/tubárico.", "inference": "El cambio de estadio no demostró el beneficio clínico esperado en el ensayo.", "limit": "No responde otros cánceres, poblaciones, algoritmos o tecnologías.", "claimIds": ["CLAIM-MED-DX-UKCTOCS-001", "CLAIM-MED-DX-UTILITY-001"], "evidenceIds": ["EVID-MED-DX-UKCTOCS-001"], "sourceIds": ["SRC-MED-DX-UKCTOCS-2021"] }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Matriz de preguntas, diseños, productos y fallos en evaluación diagnóstica</title>
+  <desc id="desc">Cinco filas comparan exactitud, comparación de pruebas, impacto en manejo, efecto sobre desenlaces y modelos predictivos. No es un ranking.</desc>
+  <defs>
+    <linearGradient id="bg2" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#0c1111"/><stop offset="1" stop-color="#171b19"/></linearGradient>
+    <style>
+      .eyebrow{font:600 16px 'IBM Plex Sans',Arial,sans-serif;letter-spacing:3px;fill:#b98a50}
+      .title{font:400 48px 'Source Serif 4',Georgia,serif;fill:#f0e6d3}
+      .head{font:600 14px 'IBM Plex Sans',Arial,sans-serif;letter-spacing:2px;fill:#91a89c}
+      .row{font:500 24px 'Source Serif 4',Georgia,serif;fill:#eee3d0}
+      .body{font:400 17px 'IBM Plex Sans',Arial,sans-serif;fill:#bcc4bf}
+      .bad{font:500 16px 'IBM Plex Sans',Arial,sans-serif;fill:#d7aa70}
+      .foot{font:400 16px 'IBM Plex Sans',Arial,sans-serif;fill:#87958e}
+    </style>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg2)"/>
+  <text class="eyebrow" x="80" y="70">MED-002 · PRODUCTOS QUE NO DEBEN COLAPSARSE</text>
+  <text class="title" x="80" y="132">El diseño depende de la pregunta</text>
+  <text class="foot" x="1520" y="126" text-anchor="end">Matriz horizontal · ninguna fila es superior por defecto</text>
+
+  <g transform="translate(80 188)">
+    <rect width="1440" height="70" fill="#17201e" stroke="#415049"/>
+    <text class="head" x="24" y="43">PREGUNTA</text><text class="head" x="322" y="43">DISEÑO MÍNIMO</text><text class="head" x="690" y="43">PRODUCTO LEGÍTIMO</text><text class="head" x="1060" y="43">FALLO QUE NO RESUELVE</text>
+
+    <g transform="translate(0 70)"><rect width="1440" height="112" fill="#111817" stroke="#35413d"/><text class="row" x="24" y="40">¿Clasifica?</text><text class="body" x="24" y="72">exactitud</text><text class="body" x="322" y="40">Cohorte con índice y referencia</text><text class="body" x="322" y="70">comparables, flujo completo</text><text class="body" x="690" y="40">Sensibilidad/especificidad</text><text class="body" x="690" y="70">por umbral + incertidumbre</text><text class="bad" x="1060" y="40">Utilidad o beneficio</text><text class="bad" x="1060" y="70">para otra población</text></g>
+    <g transform="translate(0 182)"><rect width="1440" height="112" fill="#141b1a" stroke="#35413d"/><text class="row" x="24" y="40">¿Cuál prueba?</text><text class="body" x="24" y="72">comparación</text><text class="body" x="322" y="40">Pruebas emparejadas o rutas</text><text class="body" x="322" y="70">asignadas bajo misma referencia</text><text class="body" x="690" y="40">Diferencia de rendimiento</text><text class="body" x="690" y="70">y errores discordantes</text><text class="bad" x="1060" y="40">Comparación indirecta</text><text class="bad" x="1060" y="70">entre espectros distintos</text></g>
+    <g transform="translate(0 294)"><rect width="1440" height="112" fill="#111817" stroke="#35413d"/><text class="row" x="24" y="40">¿Cambia manejo?</text><text class="body" x="24" y="72">impacto</text><text class="body" x="322" y="40">Ruta prospectiva con acciones</text><text class="body" x="322" y="70">y comparador predefinidos</text><text class="body" x="690" y="40">Decisiones, uso de pruebas</text><text class="body" x="690" y="70">y fallos de la estrategia</text><text class="bad" x="1060" y="40">Que la acción mejore</text><text class="bad" x="1060" y="70">desenlaces importantes</text></g>
+    <g transform="translate(0 406)"><rect width="1440" height="112" fill="#141b1a" stroke="#6a5035"/><text class="row" x="24" y="40">¿Ayuda?</text><text class="body" x="24" y="72">utilidad clínica</text><text class="body" x="322" y="40">Ensayo prueba–tratamiento</text><text class="body" x="322" y="70">o puente causal completo</text><text class="body" x="690" y="40">Beneficios, daños, carga</text><text class="body" x="690" y="70">y recursos frente a alternativa</text><text class="bad" x="1060" y="40">Respuesta individual</text><text class="bad" x="1060" y="70">fuera del ensayo</text></g>
+    <g transform="translate(0 518)"><rect width="1440" height="112" fill="#111817" stroke="#35413d"/><text class="row" x="24" y="40">¿Predice?</text><text class="body" x="24" y="72">modelo / IA</text><text class="body" x="322" y="40">Desarrollo separado de</text><text class="body" x="322" y="70">validación externa e impacto</text><text class="body" x="690" y="40">Discriminación + calibración</text><text class="body" x="690" y="70">+ desempeño por grupo/tiempo</text><text class="bad" x="1060" y="40">Estabilidad, equidad</text><text class="bad" x="1060" y="70">o utilidad prospectiva</text></g>
+  </g>
+  <path d="M80 842H1520" stroke="#43504b"/>
+  <text class="foot" x="80" y="873">Reporte completo ≠ bajo riesgo de sesgo · validación externa ≠ vigilancia futura · detección temprana ≠ mortalidad reducida</text>
+</svg>

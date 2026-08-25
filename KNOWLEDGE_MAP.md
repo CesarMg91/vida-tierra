@@ -1407,3 +1407,35 @@ Cortafuegos principales: `pre‚Äìpost ‚â† efecto`, `reportado ‚â† v√°lido`, `marc
 En cirug√≠a, t√©cnica, operador, equipo, centro, aprendizaje y cuidados concomitantes entran como dependencias medibles. CAST prueba la ruptura sustituto‚Äìdesenlace; FIDELITY prueba la ruptura mejor√≠a‚Äìcomponente espec√≠fico. Ning√∫n caso se exporta fuera de su poblaci√≥n y comparador sin un puente.
 
 V√©ase `INV-MED-INTERVENTIONS-001`, `MAPA_MED_001_INTERVENCIONES.md`, `CRONOLOGIA_MED_001_EVIDENCIA_CLINICA.md`, `cadena-pregunta-decision-med-001.svg` y `matriz-evidencia-intervenciones-med-001.svg`.
+### MED-002 - De una se§al a una consecuencia
+
+```text
+poblaci¢n + uso previsto + condici¢n objetivo
+                   
+       prueba °ndice + umbral
+                   
+    referencia + verificaci¢n + flujo
+                   
+ exactitud / calibraci¢n / incertidumbre
+                   
+ probabilidad o clasificaci¢n contextual
+                   
+       acci¢n frente a comparador
+                   
+ beneficios + da§os + carga + recursos
+                   
+         desenlace para pacientes
+```
+
+Cortafuegos principales: `detecci¢n ? diagn¢stico`, `exactitud ? utilidad`, `AUC ? calibraci¢n`, `diagn¢stico temprano ? beneficio`, `referencia ? verdad perfecta`, `validaci¢n interna ? transporte`.
+
+RIFT conserva sexo, umbral y tasa de fallo; ADJUST-PE conserva la estrategia secuencial; PROPER compara rutas; UKCTOCS separa cambio de estadio y mortalidad. Los cuatro son expedientes met¢dicos, no protocolos ni recomendaciones actuales.
+
+Para modelos e IA:
+
+```text
+desarrollo  validaci¢n externa  impacto prospectivo  vigilancia
+    ¿ƒƒƒƒƒƒƒƒ ninguna flecha se hereda autom†ticamente ƒƒƒƒƒƒƒƒŸ
+```
+
+VÇase `INV-MED-DIAGNOSTICS-001`, `MAPA_MED_002_PRUEBAS_DIAGNOSTICAS.md`, `CRONOLOGIA_MED_002_PRUEBAS_DIAGNOSTICAS.md`, `cadena-prueba-decision-med-002.svg` y `matriz-pruebas-diagnosticas-med-002.svg`.

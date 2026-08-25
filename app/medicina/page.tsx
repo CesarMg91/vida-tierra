@@ -3,13 +3,15 @@ import Image from "next/image";
 import Link from "next/link";
 import { ArrowDown, ArrowRight, BookOpen, HeartPulse, ShieldCheck, Stethoscope } from "lucide-react";
 import ClinicalEvidenceLab from "../../components/ClinicalEvidenceLab";
+import DiagnosticEvidenceLab from "../../components/DiagnosticEvidenceLab";
+import { diagnosticEvidence } from "../../lib/diagnostic-evidence";
 import { medicineEvidence } from "../../lib/medicine-evidence";
 import { getCatalog } from "../../lib/public-data";
 import { createPageMetadata } from "../../lib/site";
 
 export const metadata: Metadata = createPageMetadata({
-  title: "Medicina — evidencia, efectos y decisiones",
-  description: "Cómo auditamos intervenciones médicas y quirúrgicas: comparadores, efectos, daños, sesgos, aplicabilidad y decisiones sin consejo personal.",
+  title: "Medicina — intervenciones, diagnóstico y decisiones",
+  description: "Cómo auditamos intervenciones y pruebas diagnósticas: comparadores, sesgos, efectos, exactitud, daños, utilidad y decisiones sin consejo personal.",
   pathname: "/medicina",
   image: "/assets/visuales/hero-med-001-intervenciones.png",
 });
@@ -51,6 +53,11 @@ export default function MedicinePage() {
         <div className="section-heading"><div><p className="eyebrow">Laboratorio de evidencia clínica</p><h2 id="medicine-lab-title">De la pregunta a la decisión</h2></div><p>Elige un caso. Cada capa separa archivo observado, inferencia permitida y límite.</p></div>
         <ClinicalEvidenceLab data={medicineEvidence} />
       </section>
+      <section className="medicine-lab-section diagnostic-lab-section" id="diagnostico" aria-labelledby="diagnostic-lab-title">
+        <div className="section-heading"><div><p className="eyebrow">Laboratorio de evidencia diagnóstica</p><h2 id="diagnostic-lab-title">Una prueba no es una decisión</h2></div><p>Compara cuatro casos. Cada recorrido conserva población, prueba, referencia, rendimiento, manejo y desenlace.</p></div>
+        <DiagnosticEvidenceLab data={diagnosticEvidence} />
+      </section>
+
 
       <section className="medicine-method-grid" aria-labelledby="medicine-method-title">
         <header><p className="eyebrow">Lo que la etiqueta no garantiza</p><h2 id="medicine-method-title">Reporte, sesgo y aplicabilidad son juicios distintos</h2></header>
@@ -62,7 +69,7 @@ export default function MedicinePage() {
       </section>
 
       <section className="medicine-dossiers" aria-labelledby="medicine-dossiers-title">
-        <div className="section-heading"><div><p className="eyebrow">Corpus canónico</p><h2 id="medicine-dossiers-title">{dossiers.length} expediente médico auditado</h2></div><p>La experiencia deriva del Markdown y de los registros maestros; no duplica conclusiones.</p></div>
+        <div className="section-heading"><div><p className="eyebrow">Corpus canónico</p><h2 id="medicine-dossiers-title">{dossiers.length} expedientes médicos auditados</h2></div><p>La experiencia deriva del Markdown y de los registros maestros; no duplica conclusiones.</p></div>
         <div>{dossiers.map((record) => <article key={record.key}><span>{record.key}</span><p>{record.status} · {record.readingMinutes} min</p><h3>{record.shortTitle}</h3><p>{record.summary}</p><Link href={`/${record.slug}`}>Abrir expediente <ArrowRight aria-hidden="true" /></Link></article>)}</div>
       </section>
     </div>

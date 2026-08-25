@@ -835,3 +835,14 @@ La primera salida raster (`exec-a3b5a8aa-1d2c-4a16-81f1-c42278f5017a.png`) se re
 Primera salida aprobada sin edición: `C:\Users\HUAWEI\.codex\generated_images\019fedb0-8f24-7e33-8d16-d2418ba3378e\exec-ad4ee2ac-c07e-480e-a9a1-ece069fa92d4.png` → `assets/visuales/hero-med-001-intervenciones.png`. Tamaño: `1,791,053` bytes. El prompt completo y los límites se conservan en [`ATLAS_VISUAL.md`](../../ATLAS_VISUAL.md#56-med-001--una-mejoría-no-basta).
 
 La escena contiene marcas abstractas no legibles en papeles y una placa transparente; no son datos, escalas o resultados publicados. Las bandejas, sobres, balanza y figuras son metáforas editoriales contemporáneas. Los dos SVG incluyen `title` y `desc`, declaran sus productos y no calculan riesgos, tratamientos o decisiones.
+## MED-002 — Pruebas diagnósticas y decisiones
+
+| Archivo | Origen | Dimensiones | SHA-256 / trazabilidad | Límite |
+|---|---|---:|---|---|
+| `hero-med-002-pruebas-diagnosticas.png` | OpenAI ImageGen, generación nueva del 2026-08-24 | `1672 × 941` | `387046e402fd304fbd97eb24021f448d73e1f9b2744fd8cd2050fe880247568c` | composición conceptual; no datos, paciente, prueba, hospital o recomendación |
+| `cadena-prueba-decision-med-002.svg` | SVG manual determinista | `1600 × 900` | código fuente versionado | puentes inferenciales, no algoritmo o calculadora |
+| `matriz-pruebas-diagnosticas-med-002.svg` | SVG manual determinista | `1600 × 900` | código fuente versionado | productos/fallos, no ranking universal |
+
+Salida original aprobada sin edición: `C:\Users\HUAWEI\.codex\generated_images\019fedb0-8f24-7e33-8d16-d2418ba3378e\exec-bff1a683-5230-45f6-bca7-ee13cd3d2eb6.png` → `assets/visuales/hero-med-002-pruebas-diagnosticas.png`. Tamaño: `1,834,579` bytes. El prompt completo y los límites se conservan en [`ATLAS_VISUAL.md`](../../ATLAS_VISUAL.md#57-med-002--una-prueba-no-es-una-decisión).
+
+Los paneles incluyen puntos, líneas y barras abstractos sin ejes, números, unidades o datos reales. Las figuras, el frasco, el disco de latón, las bandejas y el libro son metáforas editoriales. Los SVG incluyen `title` y `desc` y no aceptan datos personales ni producen decisiones.

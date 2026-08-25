@@ -13,7 +13,7 @@ import { renderMarkdownForTest } from "../lib/content.ts";
 
 test("el catálogo conserva 52 órdenes globales y las series temáticas fuera de la secuencia", () => {
   const { catalog } = buildPublicData();
-  assert.equal(catalog.length, 56);
+  assert.equal(catalog.length, 57);
   assert.deepEqual(
     catalog.filter((record) => record.order !== null).map((record) => record.order),
     Array.from({ length: 52 }, (_, index) => index + 1),
@@ -23,7 +23,7 @@ test("el catálogo conserva 52 órdenes globales y las series temáticas fuera d
   assert.equal(thematic?.status, "TRAZADO");
   assert.deepEqual(
     catalog.filter((record) => record.order === null).map((record) => [record.key, record.status]),
-    [["CIV-001", "TRAZADO"], ["CIV-002", "AUDITADO"], ["CIV-003", "AUDITADO"], ["MED-001", "AUDITADO"]],
+    [["CIV-001", "TRAZADO"], ["CIV-002", "AUDITADO"], ["CIV-003", "AUDITADO"], ["MED-001", "AUDITADO"], ["MED-002", "AUDITADO"]],
   );
 });
 
@@ -31,6 +31,7 @@ test("las investigaciones temáticas se reconocen y ordenan por serie sin casos 
   assert.equal(researchKeyFromFile("14_civilizaciones/INVESTIGACION_CIV_001_ORIGENES.md"), "CIV-001");
   assert.equal(researchKeyFromFile("14_civilizaciones/INVESTIGACION_CIV_002_FECHADO.md"), "CIV-002");
   assert.equal(researchKeyFromFile("15_medicina/INVESTIGACION_MED_001_TRATAMIENTOS.md"), "MED-001");
+  assert.equal(researchKeyFromFile("15_medicina/INVESTIGACION_MED_002_DIAGNOSTICO.md"), "MED-002");
   assert.equal(researchKeyFromFile("16_fisica/INVESTIGACION_FIS_999_PRUEBA.md"), "FIS-999");
   assert.equal(researchKeyFromFile("14_civilizaciones/INVESTIGACION_CIV_02_INVALIDA.md"), null);
   assert.equal(researchKeyFromFile("15_medicina/INVESTIGACION_med_001_INVALIDA.md"), null);
@@ -64,12 +65,12 @@ test("los comodines editoriales no se convierten en IDs inexistentes", () => {
 
 test("todos los registros maestros quedan materializados", () => {
   const rows = registryRows();
-  assert.equal(rows.claims.length, 939);
-  assert.equal(rows.evidence.length, 787);
-  assert.equal(rows.sources.length, 1197);
-  assert.equal(rows.controversies.length, 434);
-  assert.equal(rows.errors.length, 486);
-  assert.equal(rows.timeline.length, 378);
+  assert.equal(rows.claims.length, 956);
+  assert.equal(rows.evidence.length, 797);
+  assert.equal(rows.sources.length, 1216);
+  assert.equal(rows.controversies.length, 441);
+  assert.equal(rows.errors.length, 496);
+  assert.equal(rows.timeline.length, 394);
 });
 
 test("cada claim llega a evidencia y fuentes publicables", () => {

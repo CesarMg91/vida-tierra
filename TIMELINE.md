@@ -495,3 +495,23 @@ CIV-003 inaugura los expedientes regionales auditados. CIV-001 conserva `TRAZADO
 | `TIME-MED-WHO-2024-001` | `2024` | WHO publica buenas pr√°cticas globales | implementaci√≥n dependiente de sistemas | `SRC-MED-WHO-TRIALS-2024` | A | AUDITADO |
 | `TIME-MED-SPIRIT-CONSORT-2025-001` | `2025` | SPIRIT/CONSORT sustituyen versiones previas | gu√≠as de reporte | `SRC-MED-SPIRIT-2025`, `SRC-MED-CONSORT-2025` | A | AUDITADO |
 | `TIME-MED-GRADE-2026-001` | corte `2026-08-24` | GRADE Book en reemplazo progresivo del manual | recurso vivo y versionado | `SRC-MED-GRADE-BOOK-2026` | A documental | AUDITADO |
+## MED-002 - Hitos de la evaluaci¢n diagn¢stica
+
+| ID | Fecha | Evento | QuÇ cambi¢ | L°mite |
+|---|---:|---|---|---|
+| `TIME-MED-DX-SPECTRUM-1978` | 1978 | Ransohoff-Feinstein | explicit¢ problemas de espectro y sesgo | marco hist¢rico |
+| `TIME-MED-DX-DESIGN-1999` | 1999 | Lijmer et al. | document¢ sesgos relacionados con dise§o | muestra hist¢rica |
+| `TIME-MED-DX-DECISION-2006` | 2006 | curva de decisi¢n | formaliz¢ beneficio neto por umbral | depende de consecuencias |
+| `TIME-MED-DX-UTILITY-2012` | 2012 | m†s all† de exactitud | separ¢ exactitud y utilidad | marco, no resultado cl°nico |
+| `TIME-MED-DX-PREVALENCE-2013` | 2013 | variaci¢n contextual | mostr¢ rendimiento sensible a contexto | heterogeneidad multicausal |
+| `TIME-MED-DX-ADJUST-2014` | 2014 | ADJUST-PE | evalu¢ estrategia secuencial ajustada por edad | cohorte de manejo |
+| `TIME-MED-DX-STARD-2015` | 2015 | STARD 2015 | actualiz¢ reporte DTA | no certifica validez |
+| `TIME-MED-DX-PRISMA-2018` | 2018 | PRISMA-DTA | estandariz¢ reporte de revisiones DTA | depende de estudios |
+| `TIME-MED-DX-PROPER-2018` | 2018 | PROPER | compar¢ rutas diagn¢sticas por conglomerados | muy bajo riesgo |
+| `TIME-MED-DX-TARGETED-2019` | 2019 | evaluaci¢n dirigida | aline¢ posici¢n, hip¢tesis y dise§o | marco |
+| `TIME-MED-DX-RIFT-2020` | 2020 | RIFT | valid¢ reglas de apendicitis multicÇntricas | 16-45 a§os |
+| `TIME-MED-DX-UKCTOCS-2021` | 2021 | seguimiento UKCTOCS | separ¢ cambio de estadio y mortalidad | programa concreto |
+| `TIME-MED-DX-COCHRANE-2023` | 2023 | Cochrane DTA 2.0 | actualiz¢ s°ntesis diagn¢stica | recurso vivo |
+| `TIME-MED-DX-TRIPOD-2024` | 2024 | TRIPOD+AI | actualiz¢ reporte de modelos | no prueba utilidad |
+| `TIME-MED-DX-AI-2025` | 2025 | PROBAST+AI y STARD-AI | actualiz¢ sesgo y reporte de IA | juicio por uso |
+| `TIME-MED-DX-QUADAS3-2026` | 2026 | QUADAS-3 | sustituy¢ QUADAS-2 | herramienta por estimaci¢n |
