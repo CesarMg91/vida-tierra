@@ -1407,35 +1407,57 @@ Cortafuegos principales: `pre–post ≠ efecto`, `reportado ≠ válido`, `marc
 En cirugía, técnica, operador, equipo, centro, aprendizaje y cuidados concomitantes entran como dependencias medibles. CAST prueba la ruptura sustituto–desenlace; FIDELITY prueba la ruptura mejoría–componente específico. Ningún caso se exporta fuera de su población y comparador sin un puente.
 
 Véase `INV-MED-INTERVENTIONS-001`, `MAPA_MED_001_INTERVENCIONES.md`, `CRONOLOGIA_MED_001_EVIDENCIA_CLINICA.md`, `cadena-pregunta-decision-med-001.svg` y `matriz-evidencia-intervenciones-med-001.svg`.
-### MED-002 - De una se�al a una consecuencia
+### MED-002 - De una señal a una consecuencia
 
 ```text
-poblaci�n + uso previsto + condici�n objetivo
-                   
-       prueba �ndice + umbral
-                   
-    referencia + verificaci�n + flujo
-                   
- exactitud / calibraci�n / incertidumbre
-                   
- probabilidad o clasificaci�n contextual
-                   
-       acci�n frente a comparador
-                   
- beneficios + da�os + carga + recursos
-                   
+población + uso previsto + condición objetivo
+                   ↓
+       prueba índice + umbral
+                   ↓
+    referencia + verificación + flujo
+                   ↓
+ exactitud / calibración / incertidumbre
+                   ↓
+ probabilidad o clasificación contextual
+                   ↓
+       acción frente a comparador
+                   ↓
+ beneficios + daños + carga + recursos
+                   ↓
          desenlace para pacientes
 ```
 
-Cortafuegos principales: `detecci�n ? diagn�stico`, `exactitud ? utilidad`, `AUC ? calibraci�n`, `diagn�stico temprano ? beneficio`, `referencia ? verdad perfecta`, `validaci�n interna ? transporte`.
+Cortafuegos principales: `detección ? diagnóstico`, `exactitud ? utilidad`, `AUC ? calibración`, `diagnóstico temprano ? beneficio`, `referencia ? verdad perfecta`, `validación interna ? transporte`.
 
-RIFT conserva sexo, umbral y tasa de fallo; ADJUST-PE conserva la estrategia secuencial; PROPER compara rutas; UKCTOCS separa cambio de estadio y mortalidad. Los cuatro son expedientes met�dicos, no protocolos ni recomendaciones actuales.
+RIFT conserva sexo, umbral y tasa de fallo; ADJUST-PE conserva la estrategia secuencial; PROPER compara rutas; UKCTOCS separa cambio de estadio y mortalidad. Los cuatro son expedientes metódicos, no protocolos ni recomendaciones actuales.
 
 Para modelos e IA:
 
 ```text
-desarrollo  validaci�n externa  impacto prospectivo  vigilancia
-    ��������� ninguna flecha se hereda autom�ticamente ���������
+desarrollo → validación externa → impacto prospectivo → vigilancia
+    ───────── ninguna flecha se hereda automáticamente ─────────
 ```
 
-V�ase `INV-MED-DIAGNOSTICS-001`, `MAPA_MED_002_PRUEBAS_DIAGNOSTICAS.md`, `CRONOLOGIA_MED_002_PRUEBAS_DIAGNOSTICAS.md`, `cadena-prueba-decision-med-002.svg` y `matriz-pruebas-diagnosticas-med-002.svg`.
+Véase `INV-MED-DIAGNOSTICS-001`, `MAPA_MED_002_PRUEBAS_DIAGNOSTICAS.md`, `CRONOLOGIA_MED_002_PRUEBAS_DIAGNOSTICAS.md`, `cadena-prueba-decision-med-002.svg` y `matriz-pruebas-diagnosticas-med-002.svg`.
+
+### MED-003 — Del archivo superviviente al sistema médico
+
+~~~text
+espécimen / testimonio
+          ↓
+contexto + fecha + asociación
+          ↓
+huella observada
+          ↓
+diferencial + comparación
+          ↓
+conducta posible
+          ↓
+sistema médico histórico
+~~~
+
+Cada flecha puede romperse. Los cortafuegos principales son: lesión ≠ diagnóstico; remodelación ≠ tratamiento eficaz; asistencia ≠ motivo; defecto ≠ operación; ADN patógeno ≠ síntomas, muerte, prevalencia u origen; residuo ≠ automedicación; texto ≠ práctica; primero documentado ≠ nacimiento de la medicina.
+
+Man Bac modela dependencia y asistencia; Liang Tebo conserva un desacuerdo diagnóstico; las trepanaciones separan modificación, supervivencia e indicación; cálculo, paleofeces y ADN antiguo separan exposición, presencia molecular y escala poblacional; los textos añaden voces sin volverse expedientes clínicos transparentes.
+
+Véase 15_medicina/INVESTIGACION_MED_003_ORIGENES_ARCHIVO_CUIDADO.md, 22_mapas_epistemologicos/MAPA_MED_003_ORIGENES_MEDICINA.md, 21_cronologias/CRONOLOGIA_MED_003_ORIGENES_MEDICINA.md, assets/visuales/cadena-archivo-sistema-med-003.svg y assets/visuales/matriz-huellas-inferencias-med-003.svg.

@@ -4138,17 +4138,32 @@ Riesgo basal, alternativas y preferencias cambian el balance. **Corrección:** s
 | `ERR-MED-SURGEON-VOLUME-SKILL-001` | volumen = habilidad | confusión de sistema | calidad observada/modelo | DOCUMENTADO |
 | `ERR-MED-META-TRUTH-001` | promedio = certeza | sesgos/dependencia | síntesis por pregunta | DOCUMENTADO |
 | `ERR-MED-AVERAGE-PATIENT-001` | promedio = indicación | riesgo/preferencia omitidos | decisión situada | DOCUMENTADO |
-## Errores cient�ficos que MED-002 debe impedir
+## Errores científicos que MED-002 debe impedir
 
-| ID | Error | Por qu� falla | Correcci�n m�nima | Estado |
+| ID | Error | Por qué falla | Corrección mínima | Estado |
 |---|---|---|---|---|
 | `ERR-MED-DX-ACCURACY-UTILITY-001` | declarar utilidad porque sensibilidad o AUC son altas | exactitud no mide acciones ni desenlaces | auditar comparador, consecuencias y ruta | ACTIVO |
-| `ERR-MED-DX-GOLD-STANDARD-001` | llamar �oro� a una referencia sin examinarla | puede ser imperfecta, incorporada o dependiente | describir operaci�n, cegamiento y limitaciones | ACTIVO |
-| `ERR-MED-DX-SPECTRUM-001` | validar con casos extremos y controles sanos | simplifica la clasificaci�n respecto de pr�ctica | incluir espectro de uso y subgrupos relevantes | ACTIVO |
-| `ERR-MED-DX-VERIFICATION-001` | verificar s�lo positivos | oculta falsos negativos y sesga estimaciones | seguimiento/referencia comparable y flujo completo | ACTIVO |
-| `ERR-MED-DX-THRESHOLD-001` | elegir umbral despu�s de mirar resultados y presentarlo como fijado | optimiza azar y sobreestima desempe�o | preespecificar o validar independientemente | ACTIVO |
-| `ERR-MED-DX-PREDICTIVE-001` | transportar valor predictivo sin riesgo basal | depende de selecci�n y frecuencia de condici�n | recalcular y validar en poblaci�n objetivo | ACTIVO |
-| `ERR-MED-DX-INDETERMINATE-001` | borrar fallos t�cnicos e indeterminados | cambia denominador y maquilla factibilidad | mostrar frecuencia, manejo y sensibilidad | ACTIVO |
-| `ERR-MED-DX-AUC-001` | confundir discriminaci�n con calibraci�n | un modelo puede ordenar bien y estimar riesgos mal | reportar calibraci�n y validaci�n externa | ACTIVO |
-| `ERR-MED-DX-EARLY-001` | inferir vidas salvadas por diagn�stico m�s temprano o cambio de estadio | anticipaci�n, duraci�n y sobrediagn�stico pueden explicar la se�al | medir desenlaces importantes en estrategia comparada | ACTIVO |
-| `ERR-MED-DX-AI-001` | tratar una versi�n de IA como instrumento estable y universal | datos, prevalencia, flujo y software cambian | versionar, vigilar deriva, equidad y consecuencias | ACTIVO |
+| `ERR-MED-DX-GOLD-STANDARD-001` | llamar «oro» a una referencia sin examinarla | puede ser imperfecta, incorporada o dependiente | describir operación, cegamiento y limitaciones | ACTIVO |
+| `ERR-MED-DX-SPECTRUM-001` | validar con casos extremos y controles sanos | simplifica la clasificación respecto de práctica | incluir espectro de uso y subgrupos relevantes | ACTIVO |
+| `ERR-MED-DX-VERIFICATION-001` | verificar sólo positivos | oculta falsos negativos y sesga estimaciones | seguimiento/referencia comparable y flujo completo | ACTIVO |
+| `ERR-MED-DX-THRESHOLD-001` | elegir umbral después de mirar resultados y presentarlo como fijado | optimiza azar y sobreestima desempeño | preespecificar o validar independientemente | ACTIVO |
+| `ERR-MED-DX-PREDICTIVE-001` | transportar valor predictivo sin riesgo basal | depende de selección y frecuencia de condición | recalcular y validar en población objetivo | ACTIVO |
+| `ERR-MED-DX-INDETERMINATE-001` | borrar fallos técnicos e indeterminados | cambia denominador y maquilla factibilidad | mostrar frecuencia, manejo y sensibilidad | ACTIVO |
+| `ERR-MED-DX-AUC-001` | confundir discriminación con calibración | un modelo puede ordenar bien y estimar riesgos mal | reportar calibración y validación externa | ACTIVO |
+| `ERR-MED-DX-EARLY-001` | inferir vidas salvadas por diagnóstico más temprano o cambio de estadio | anticipación, duración y sobrediagnóstico pueden explicar la señal | medir desenlaces importantes en estrategia comparada | ACTIVO |
+| `ERR-MED-DX-AI-001` | tratar una versión de IA como instrumento estable y universal | datos, prevalencia, flujo y software cambian | versionar, vigilar deriva, equidad y consecuencias | ACTIVO |
+
+## Errores científicos que MED-003 debe impedir
+
+| ID | Error | Por qué falla | Corrección mínima | Estado |
+|---|---|---|---|---|
+| `ERR-MED-HIST-HEALED-TREATED-001` | remodelado = tratado o curado | sólo demuestra respuesta vital y tiempo | separar supervivencia, intervención y efecto | ACTIVO |
+| `ERR-MED-HIST-DISABILITY-COMPASSION-001` | discapacidad superviviente = compasión | asistencia no identifica motivo ni calidad de vida | modelar función y conservar motivos como abiertos | ACTIVO |
+| `ERR-MED-HIST-DEFECT-SURGERY-001` | defecto = operación | desarrollo, trauma, infección y tafonomía pueden converger | exigir diferencial, huellas y contexto | ACTIVO |
+| `ERR-MED-HIST-DNA-DISEASE-001` | ADN patógeno = enfermedad o causa de muerte | presencia molecular no adjudica síntomas o causalidad | declarar tejido, taxón, autenticación y escala | ACTIVO |
+| `ERR-MED-HIST-DETECTION-ORIGIN-001` | primera detección = origen | depende de muestreo, preservación y ancestros no observados | usar “primero documentado en la muestra” | ACTIVO |
+| `ERR-MED-HIST-RESIDUE-MEDICINE-001` | planta detectada = medicamento | alimento, ambiente y contaminación siguen abiertos | exigir selección, contexto, dosis y efecto independientes | ACTIVO |
+| `ERR-MED-HIST-TEXT-PRACTICE-001` | receta escrita = práctica general o eficacia | texto, ejecución, acceso y resultado son archivos distintos | auditar género, transmisión y evidencia material | ACTIVO |
+| `ERR-MED-HIST-FIRST-BIRTHDATE-001` | hallazgo antiguo = nacimiento de la medicina | no existe un acontecimiento operacional único | comparar archivos y trayectorias regionales | ACTIVO |
+| `ERR-MED-HIST-ABSENCE-001` | ausencia de señal = ausencia de cuidado o enfermedad | los archivos preservan tejidos y grupos selectivamente | declarar visibilidad y sesgo de muestra | ACTIVO |
+| `ERR-MED-HIST-PROGRESS-LADDER-001` | historia = escalera de superstición a ciencia | borra coexistencia, pérdida, coerción y circulación | usar cronologías regionales y productos comparables | ACTIVO |

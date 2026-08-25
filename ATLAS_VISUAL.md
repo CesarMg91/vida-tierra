@@ -877,3 +877,39 @@ La salida se inspeccionó a resolución original. No contiene personas, cuerpos,
 Las figuras de madera representan diversidad de población sin categorías demográficas; el frasco está vacío y sellado; el disco de latón no mide un umbral; las dos bandejas no recomiendan acciones; el libro no contiene un balance real. El compartimento vacío significa archivo faltante, no ausencia de enfermedad o resultado.
 
 Los SVG se construyeron a `1600 × 900` con `title`, `desc`, tipografía de reserva y texto dentro del lienzo. La cadena usa flechas discontinuas para indicar puentes que exigen evidencia; la matriz declara que no es un ranking. Ninguno recibe entradas, calcula probabilidades o produce recomendaciones.
+
+## 58. MED-003 — No existe un fósil único de la medicina
+
+![Portada editorial de MED-003](assets/visuales/hero-med-003-origenes-medicina.png)
+
+![Cadena desde archivo hasta sistema médico](assets/visuales/cadena-archivo-sistema-med-003.svg)
+
+![Matriz de huellas, inferencias y límites](assets/visuales/matriz-huellas-inferencias-med-003.svg)
+
+| Archivo | Tipo | Procedencia | Qué representa | Límite obligatorio |
+|---|---|---|---|---|
+| `hero-med-003-origenes-medicina.png` | portada editorial conceptual | OpenAI ImageGen, generación + edición correctiva, 2026-08-24 | seis estaciones genéricas de archivo osteológico, material, biomolecular y textual | no colección, sitio, periodo, diagnóstico, práctica, sistema o progreso reales |
+| `cadena-archivo-sistema-med-003.svg` | diagrama epistemológico original | SVG manual del proyecto, 2026-08-24 | seis transiciones desde espécimen/testimonio hasta sistema médico | ninguna flecha hereda intención, profesión o eficacia |
+| `matriz-huellas-inferencias-med-003.svg` | matriz metódica original | SVG manual del proyecto, 2026-08-24 | productos legítimos y fallos de hueso, molécula, residuo, objeto y texto | filas no forman ranking, cronología o escala universal |
+
+### Procedencia de la portada
+
+Primera salida rechazada por pseudotexto demasiado reconocible en la quinta bandeja: `C:\Users\HUAWEI\.codex\generated_images\019fedb0-8f24-7e33-8d16-d2418ba3378e\exec-b5e84a54-9c4c-479d-b17d-7630fb9254a6.png`.
+
+Edición final aprobada: `C:\Users\HUAWEI\.codex\generated_images\019fedb0-8f24-7e33-8d16-d2418ba3378e\exec-4f3b4bb5-951a-4bff-87bd-b95c69f97a28.png`. Destino: `assets/visuales/hero-med-003-origenes-medicina.png`. Dimensiones: `1672 × 941`; tamaño: `2,092,832` bytes; SHA-256: `8f8cbd8146edb6a5a7514b57fe47113cbb1a26931652287b1591eddeeac71f01`.
+
+**Prompt de generación inicial:**
+
+> Use case: scientific-educational. Asset type: wide 16:9 editorial website cover for MED-003 in a rigorous Spanish open-science history-of-medicine platform. Primary request: create a museum-quality conservation worktable about how the earliest history of medicine is reconstructed from incomplete, non-equivalent archives rather than one origin event. Scene/backdrop: dark obsidian museum laboratory with warm amber archival light and generous negative space in the upper left for an HTML title. Subject: six physically separate evidence trays of equal visual weight: a few generic incomplete bone fragments with no face or diagnostic lesion; an undecorated stone or ceramic object; a sealed generic biomolecular sample; a small neutral mineralized-residue fragment; an old manuscript fragment with only faint unreadable non-semantic marks; and one clearly empty compartment. Connect the trays only with a subtle copper thread that does not imply chronology. Style/medium: cinematic editorial still-life photography, tactile conservation realism, sober and humane. Composition/framing: horizontal landscape, all trays fully visible, no dominant object, no route, staircase or progress line. Color palette: obsidian, parchment, ink, copper, amber and mineral green. Constraints: no people, hands, faces, complete skull, reconstructed patient, active procedure, blood, wound, surgery scene, medicinal plants presented as treatment, modern clinical device, map, timeline, arrows, ranking, readable text, letters, numbers, medical symbol, logo, watermark, false data or fantasy. The empty tray means missing archive, not absence of medicine.
+
+**Edición correctiva localizada:**
+
+> Edit this exact MED-003 editorial cover. Change only the rectangular tan manuscript-like fragment in the fifth evidence tray, immediately to the left of the empty wooden compartment. Remove every line, dot, letter-like mark, glyph, incision, repeated symbol, pseudo-writing and cuneiform-like texture from that one fragment. Replace its entire visible face with completely blank, plain, naturally weathered, undecorated fibrous material in muted parchment-brown, with only subtle irregular fiber/mineral texture and torn edges. It must not resemble a tablet, manuscript, inscription, recipe, label or written document. Preserve exactly everything else: canvas and 16:9 framing, six trays, generic incomplete bone fragments, sealed vial, stone and ceramic fragments, empty compartment, copper thread, magnifying glass, caliper, tweezers, tools, books, background, lamp, lighting, shadows, color and negative space. Do not add or remove any other object. No text, marks, symbols, logos or watermark anywhere.
+
+### Revisión y límites
+
+La edición final se revisó a resolución original. No contiene personas, rostros, cuerpos completos, sangre, herida, procedimiento, paciente, texto, números, glifos o pseudotexto. Los fragmentos óseos son genéricos, pequeños e incompletos; no reproducen Man Bac, Liang Tebo, una trepanación o una colección real. La muestra, el residuo y los objetos son utilería editorial sin contenido analítico.
+
+El fragmento de la quinta bandeja quedó completamente liso, sin escritura, receta, etiqueta o inscripción. Las seis bandejas son no coetáneas y no forman una cronología; el hilo expresa trazabilidad editorial, no difusión o causalidad. El compartimento vacío representa visibilidad limitada del archivo.
+
+Los SVG se diseñaron a `1600 × 900` con `title`, `desc` y tipografía de reserva. Se rasterizaron e inspeccionaron a esa resolución: títulos, pies, paneles y bordes permanecen completos, legibles y sin recortes. La cadena marca rupturas entre seis capas; la matriz impide heredar diagnóstico, cuidado, intención, tratamiento, prevalencia o eficacia desde una sola huella. Ninguno calcula, recomienda o recibe datos personales.

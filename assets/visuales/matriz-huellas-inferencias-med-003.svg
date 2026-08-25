@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Matriz de archivos históricos, productos legítimos y límites</title>
+  <desc id="desc">Seis filas comparan hueso, defecto, cálculo dental, ADN patógeno, objeto y texto. Las columnas separan archivo observado, inferencia permitida y límite.</desc>
+  <defs><style>
+    .bg{fill:#15130f}.head{fill:#2a2117}.a{fill:#201d17}.b{fill:#252119}.grid{stroke:#5e543f;stroke-width:2}.ink{fill:#eee2c8}.muted{fill:#b9ab91}.copper{fill:#bd7b45}.green{fill:#7f9a84}.amber{fill:#d0a25f}.k{font:600 19px 'IBM Plex Sans',Arial,sans-serif;letter-spacing:2px}.h{font:600 36px 'Source Serif 4',Georgia,serif}.t{font:400 18px 'IBM Plex Sans',Arial,sans-serif}.th{font:600 19px 'IBM Plex Sans',Arial,sans-serif}.id{font:600 16px 'IBM Plex Mono',Consolas,monospace}
+  </style></defs>
+  <rect class="bg" width="1600" height="900"/>
+  <text class="k copper" x="70" y="66">MED-003 · MATRIZ DE NO HERENCIA</text>
+  <text class="h ink" x="70" y="116">Qué conserva cada archivo — y dónde debe detenerse</text>
+  <text class="t muted" x="70" y="150">Ninguna fila autoriza por sí sola un sistema médico, una indicación o un efecto.</text>
+
+  <g transform="translate(60 188)">
+    <rect class="head" width="1480" height="76" rx="14"/>
+    <text class="th amber" x="28" y="47">ARCHIVO</text>
+    <text class="th amber" x="290" y="47">OBSERVADO</text>
+    <text class="th green" x="700" y="47">INFERENCIA PERMITIDA</text>
+    <text class="th copper" x="1110" y="47">LÍMITE</text>
+
+    <g transform="translate(0 76)">
+      <rect class="a" width="1480" height="96"/><path class="grid" d="M260 0V96M670 0V96M1080 0V96M0 96H1480"/>
+      <text class="id ink" x="28" y="40">HUESO</text><text class="t muted" x="28" y="67">remodelado</text>
+      <text class="t ink" x="290" y="41">respuesta vital</text><text class="t ink" x="290" y="68">y supervivencia</text>
+      <text class="t green" x="700" y="41">impacto funcional</text><text class="t green" x="700" y="68">bajo comparación</text>
+      <text class="t copper" x="1110" y="41">no identifica tratamiento</text><text class="t copper" x="1110" y="68">ni motivo</text>
+    </g>
+    <g transform="translate(0 172)">
+      <rect class="b" width="1480" height="96"/><path class="grid" d="M260 0V96M670 0V96M1080 0V96M0 96H1480"/>
+      <text class="id ink" x="28" y="40">DEFECTO</text><text class="t muted" x="28" y="67">óseo</text>
+      <text class="t ink" x="290" y="41">geometría, bordes</text><text class="t ink" x="290" y="68">y remodelación</text>
+      <text class="t green" x="700" y="41">intervención compatible</text><text class="t green" x="700" y="68">tras diferencial</text>
+      <text class="t copper" x="1110" y="41">no demuestra indicación</text><text class="t copper" x="1110" y="68">ni eficacia</text>
+    </g>
+    <g transform="translate(0 268)">
+      <rect class="a" width="1480" height="96"/><path class="grid" d="M260 0V96M670 0V96M1080 0V96M0 96H1480"/>
+      <text class="id ink" x="28" y="40">CÁLCULO</text><text class="t muted" x="28" y="67">dental</text>
+      <text class="t ink" x="290" y="41">microrestos, ADN</text><text class="t ink" x="290" y="68">y proteínas</text>
+      <text class="t green" x="700" y="41">exposición oral</text><text class="t green" x="700" y="68">y comunidad parcial</text>
+      <text class="t copper" x="1110" y="41">no demuestra dosis</text><text class="t copper" x="1110" y="68">ni automedicación</text>
+    </g>
+    <g transform="translate(0 364)">
+      <rect class="b" width="1480" height="96"/><path class="grid" d="M260 0V96M670 0V96M1080 0V96M0 96H1480"/>
+      <text class="id ink" x="28" y="40">ADN</text><text class="t muted" x="28" y="67">patógeno</text>
+      <text class="t ink" x="290" y="41">secuencia autenticada</text><text class="t ink" x="290" y="68">en una muestra</text>
+      <text class="t green" x="700" y="41">presencia y relación</text><text class="t green" x="700" y="68">filogenética</text>
+      <text class="t copper" x="1110" y="41">no prueba síntomas, muerte</text><text class="t copper" x="1110" y="68">o prevalencia</text>
+    </g>
+    <g transform="translate(0 460)">
+      <rect class="a" width="1480" height="96"/><path class="grid" d="M260 0V96M670 0V96M1080 0V96M0 96H1480"/>
+      <text class="id ink" x="28" y="40">OBJETO</text><text class="t muted" x="28" y="67">o espacio</text>
+      <text class="t ink" x="290" y="41">manufactura, residuo</text><text class="t ink" x="290" y="68">y asociación</text>
+      <text class="t green" x="700" y="41">función compatible</text><text class="t green" x="700" y="68">y práctica situada</text>
+      <text class="t copper" x="1110" y="41">no crea profesión</text><text class="t copper" x="1110" y="68">por semejanza</text>
+    </g>
+    <g transform="translate(0 556)">
+      <rect class="b" width="1480" height="96" rx="0 0 14 14"/><path class="grid" d="M260 0V96M670 0V96M1080 0V96"/>
+      <text class="id ink" x="28" y="40">TEXTO</text><text class="t muted" x="28" y="67">o imagen</text>
+      <text class="t ink" x="290" y="41">categoría, receta</text><text class="t ink" x="290" y="68">o norma</text>
+      <text class="t green" x="700" y="41">repertorio y discurso</text><text class="t green" x="700" y="68">documentados</text>
+      <text class="t copper" x="1110" y="41">no demuestra uso general</text><text class="t copper" x="1110" y="68">ni resultado</text>
+    </g>
+  </g>
+  <text class="k amber" x="70" y="865">PRIMERO CONOCIDO ≠ ORIGEN REAL · CRONOLOGÍA ≠ PROGRESO UNIVERSAL</text>
+</svg>

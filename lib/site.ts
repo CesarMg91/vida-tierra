@@ -1,9 +1,9 @@
 import type { Metadata } from "next";
 
 export const SITE_NAME = "¿Cómo sabemos lo que sabemos?";
-export const SITE_DESCRIPTION = "Historia profunda del cosmos, la Tierra, la vida, la humanidad y las civilizaciones con cada cadena de inferencia visible.";
+export const SITE_DESCRIPTION = "Historia profunda del cosmos, la Tierra, la vida, la humanidad, las civilizaciones y la medicina con cada cadena de inferencia visible.";
 export const SITE_URL = (process.env.SITE_URL ?? "https://vida-tierra.vercel.app").replace(/\/+$/, "");
-export const SITE_VERSION = "0.3.1";
+export const SITE_VERSION = "0.3.2";
 export const AUTHOR_NAME = "Cesar Mendez";
 export const REPOSITORY_URL = "https://github.com/CesarMg91/vida-tierra";
 export const DEFAULT_OG_IMAGE = "/assets/visuales/hero-historia-profunda.png";

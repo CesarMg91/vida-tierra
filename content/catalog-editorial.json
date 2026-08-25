@@ -8,7 +8,7 @@
     },
     "MED": {
       "label": "Medicina",
-      "description": "Métodos para auditar efectos, daños, diagnóstico, pronóstico y decisiones clínicas sin consejo personal.",
+      "description": "Historia mundial y métodos para auditar cuidado, enfermedad, intervenciones, diagnóstico y decisiones sin consejo personal.",
       "route": "/medicina"
     }
   },
@@ -26,7 +26,7 @@
     "11_evolucion_humana": { "collection": "Humanidad", "era": "Pleistoceno", "themes": ["evolución humana", "arqueología"] },
     "13_migraciones": { "collection": "Humanidad", "era": "Pleistoceno tardío", "themes": ["migraciones", "genómica"] },
     "14_civilizaciones": { "collection": "Civilizaciones", "era": "Holoceno", "themes": ["arqueología", "historia social"] },
-    "15_medicina": { "collection": "Medicina", "era": "Evidencia clínica", "themes": ["epidemiología clínica", "cirugía", "causalidad"] }
+    "15_medicina": { "collection": "Medicina", "era": "Historia y evidencia médica", "themes": ["historia de la medicina", "epidemiología clínica", "cirugía", "causalidad"] }
   },
   "records": {
     "001": { "shortTitle": "Edad de la Tierra", "status": "AUDITADO", "themes": ["geocronología", "meteoritos", "zircones"], "featured": true },
@@ -84,6 +84,7 @@
     "CIV-001": { "shortTitle": "De aldeas a ciudades y Estados", "status": "TRAZADO", "themes": ["sedentarismo", "urbanismo", "administración"], "featured": true },
     "CIV-002": { "shortTitle": "Cómo fechamos el pasado", "status": "AUDITADO", "themes": ["cronología", "radiocarbono", "arqueometría", "modelado bayesiano"], "featured": true },
     "CIV-003": { "shortTitle": "Asia sudoccidental: trayectorias múltiples", "status": "AUDITADO", "themes": ["Asia sudoccidental", "Neolítico", "urbanismo", "movilidad", "parentesco"], "featured": true },
+    "MED-003": { "shortTitle": "Orígenes: archivos, cuidado e intervención", "status": "AUDITADO", "themes": ["historia de la medicina", "paleopatología", "bioarqueología", "ADN antiguo", "cuidado"], "featured": true },
     "MED-002": { "shortTitle": "Cómo sabemos si una prueba ayuda a decidir", "status": "AUDITADO", "themes": ["diagnóstico", "sensibilidad", "sesgo", "utilidad clínica", "inteligencia artificial"], "featured": true },
     "MED-001": { "shortTitle": "Cómo sabemos si una intervención funciona", "status": "AUDITADO", "themes": ["ensayos clínicos", "cirugía", "efectos", "daños", "aplicabilidad"], "featured": true }
   }

@@ -495,23 +495,46 @@ CIV-003 inaugura los expedientes regionales auditados. CIV-001 conserva `TRAZADO
 | `TIME-MED-WHO-2024-001` | `2024` | WHO publica buenas prácticas globales | implementación dependiente de sistemas | `SRC-MED-WHO-TRIALS-2024` | A | AUDITADO |
 | `TIME-MED-SPIRIT-CONSORT-2025-001` | `2025` | SPIRIT/CONSORT sustituyen versiones previas | guías de reporte | `SRC-MED-SPIRIT-2025`, `SRC-MED-CONSORT-2025` | A | AUDITADO |
 | `TIME-MED-GRADE-2026-001` | corte `2026-08-24` | GRADE Book en reemplazo progresivo del manual | recurso vivo y versionado | `SRC-MED-GRADE-BOOK-2026` | A documental | AUDITADO |
-## MED-002 - Hitos de la evaluaci�n diagn�stica
+## MED-002 - Hitos de la evaluación diagnóstica
 
-| ID | Fecha | Evento | Qu� cambi� | L�mite |
+| ID | Fecha | Evento | Qué cambió | Límite |
 |---|---:|---|---|---|
-| `TIME-MED-DX-SPECTRUM-1978` | 1978 | Ransohoff-Feinstein | explicit� problemas de espectro y sesgo | marco hist�rico |
-| `TIME-MED-DX-DESIGN-1999` | 1999 | Lijmer et al. | document� sesgos relacionados con dise�o | muestra hist�rica |
-| `TIME-MED-DX-DECISION-2006` | 2006 | curva de decisi�n | formaliz� beneficio neto por umbral | depende de consecuencias |
-| `TIME-MED-DX-UTILITY-2012` | 2012 | m�s all� de exactitud | separ� exactitud y utilidad | marco, no resultado cl�nico |
-| `TIME-MED-DX-PREVALENCE-2013` | 2013 | variaci�n contextual | mostr� rendimiento sensible a contexto | heterogeneidad multicausal |
-| `TIME-MED-DX-ADJUST-2014` | 2014 | ADJUST-PE | evalu� estrategia secuencial ajustada por edad | cohorte de manejo |
-| `TIME-MED-DX-STARD-2015` | 2015 | STARD 2015 | actualiz� reporte DTA | no certifica validez |
-| `TIME-MED-DX-PRISMA-2018` | 2018 | PRISMA-DTA | estandariz� reporte de revisiones DTA | depende de estudios |
-| `TIME-MED-DX-PROPER-2018` | 2018 | PROPER | compar� rutas diagn�sticas por conglomerados | muy bajo riesgo |
-| `TIME-MED-DX-TARGETED-2019` | 2019 | evaluaci�n dirigida | aline� posici�n, hip�tesis y dise�o | marco |
-| `TIME-MED-DX-RIFT-2020` | 2020 | RIFT | valid� reglas de apendicitis multic�ntricas | 16-45 a�os |
-| `TIME-MED-DX-UKCTOCS-2021` | 2021 | seguimiento UKCTOCS | separ� cambio de estadio y mortalidad | programa concreto |
-| `TIME-MED-DX-COCHRANE-2023` | 2023 | Cochrane DTA 2.0 | actualiz� s�ntesis diagn�stica | recurso vivo |
-| `TIME-MED-DX-TRIPOD-2024` | 2024 | TRIPOD+AI | actualiz� reporte de modelos | no prueba utilidad |
-| `TIME-MED-DX-AI-2025` | 2025 | PROBAST+AI y STARD-AI | actualiz� sesgo y reporte de IA | juicio por uso |
-| `TIME-MED-DX-QUADAS3-2026` | 2026 | QUADAS-3 | sustituy� QUADAS-2 | herramienta por estimaci�n |
+| `TIME-MED-DX-SPECTRUM-1978` | 1978 | Ransohoff-Feinstein | explicitó problemas de espectro y sesgo | marco histórico |
+| `TIME-MED-DX-DESIGN-1999` | 1999 | Lijmer et al. | documentó sesgos relacionados con diseño | muestra histórica |
+| `TIME-MED-DX-DECISION-2006` | 2006 | curva de decisión | formalizó beneficio neto por umbral | depende de consecuencias |
+| `TIME-MED-DX-UTILITY-2012` | 2012 | más allá de la exactitud | separó exactitud y utilidad | marco, no resultado clínico |
+| `TIME-MED-DX-PREVALENCE-2013` | 2013 | variación contextual | mostró rendimiento sensible a contexto | heterogeneidad multicausal |
+| `TIME-MED-DX-ADJUST-2014` | 2014 | ADJUST-PE | evaluó estrategia secuencial ajustada por edad | cohorte de manejo |
+| `TIME-MED-DX-STARD-2015` | 2015 | STARD 2015 | actualizó reporte DTA | no certifica validez |
+| `TIME-MED-DX-PRISMA-2018` | 2018 | PRISMA-DTA | estandarizó reporte de revisiones DTA | depende de estudios |
+| `TIME-MED-DX-PROPER-2018` | 2018 | PROPER | comparó rutas diagnósticas por conglomerados | muy bajo riesgo |
+| `TIME-MED-DX-TARGETED-2019` | 2019 | evaluación dirigida | alineó posición, hipótesis y diseño | marco |
+| `TIME-MED-DX-RIFT-2020` | 2020 | RIFT | validó reglas de apendicitis multicéntricas | 16-45 años |
+| `TIME-MED-DX-UKCTOCS-2021` | 2021 | seguimiento UKCTOCS | separó cambio de estadio y mortalidad | programa concreto |
+| `TIME-MED-DX-COCHRANE-2023` | 2023 | Cochrane DTA 2.0 | actualizó síntesis diagnóstica | recurso vivo |
+| `TIME-MED-DX-TRIPOD-2024` | 2024 | TRIPOD+AI | actualizó reporte de modelos | no prueba utilidad |
+| `TIME-MED-DX-AI-2025` | 2025 | PROBAST+AI y STARD-AI | actualizó sesgo y reporte de IA | juicio por uso |
+| `TIME-MED-DX-QUADAS3-2026` | 2026 | QUADAS-3 | sustituyó QUADAS-2 | herramienta por estimación |
+
+## MED-003 — Hitos de los archivos históricos de la medicina
+
+| ID | Fecha/intervalo | Evento delimitado | Incertidumbre y evidencia | Fuente | Confianza | Estado |
+|---|---:|---|---|---|---|---|
+| `TIME-MED-HIST-UPPER-PALEO-001` | antes de 30 ka | restos humanos pueden conservar supervivencia, trauma e intervención discutida | archivo desigual; no fecha el origen de la medicina | `SRC-MED-HIST-MALONEY-2022`, `SRC-MED-HIST-MURPHY-2023`, `SRC-MED-HIST-VLOK-2023` | B-COND | AUDITADO |
+| `TIME-MED-HIST-MANBAC-001` | 1867–1524 a. e. c. | Man Bac M9 documenta limitación prolongada y asistencia probable | fecha del entierro, no inicio universal del cuidado | `SRC-MED-HIST-OXENHAM-2009`, `SRC-MED-HIST-TILLEY-OXENHAM-2011` | B-COND | AUDITADO |
+| `TIME-MED-HIST-TREPANATION-001` | prehistoria–periodos históricos | múltiples regiones conservan aperturas craneales y remodelación | técnica, intención e indicación deben resolverse por caso | `SRC-MED-HIST-VERANO-2016`, `SRC-MED-HIST-KUSHNER-2018` | B-COND | AUDITADO |
+| `TIME-MED-HIST-TEXTS-001` | desde milenios III–II a. e. c. | textos médicos y administrativos amplían categorías, recetas y roles | fecha del testimonio no equivale a origen de la práctica | `SRC-MED-HIST-MITCHELL-2011` | B documental | AUDITADO |
+| `TIME-MED-HIST-COMPASSION-1991` | 1991 | Dettwyler formaliza el límite entre supervivencia y compasión | crítica de inferencia, no negación de asistencia | `SRC-MED-HIST-DETTWYLER-1991` | A-SEM | AUDITADO |
+| `TIME-MED-HIST-OSTEOLOGICAL-1992` | 1992 | paradoja osteológica explicita selección y supervivencia | marco debe aplicarse a cada colección | `SRC-MED-HIST-WOOD-1992` | A método | AUDITADO |
+| `TIME-MED-HIST-MANBAC-2009` | 2009 | publicación anatómica de M9 | diagnóstico funcional condicionado por preservación | `SRC-MED-HIST-OXENHAM-2009` | B-COND | AUDITADO |
+| `TIME-MED-HIST-CARE-2011` | 2011 | modelo bioarqueológico del cuidado | asistencia no revela motivo | `SRC-MED-HIST-TILLEY-OXENHAM-2011`, `SRC-MED-HIST-DETTWYLER-1991` | B método | AUDITADO |
+| `TIME-MED-HIST-TEXT-DX-2011` | 2011 | crítica al diagnóstico retrospectivo desde textos | cada pasaje exige marco filológico | `SRC-MED-HIST-MITCHELL-2011` | A método | AUDITADO |
+| `TIME-MED-HIST-PLAGUE-GENOME-2011` | 2011 | genoma borrador de Y. pestis de la Peste Negra | presencia genética no agota epidemiología histórica | `SRC-MED-HIST-BOS-2011` | A muestra | AUDITADO |
+| `TIME-MED-HIST-CALCULUS-2012` | 2012 | residuos de El Sidrón reabren dieta y uso de plantas | automedicación no queda demostrada por residuo | `SRC-MED-HIST-HARDY-2012` | B muestra | AUDITADO |
+| `TIME-MED-HIST-ORAL-MICROBIOME-2013` | 2013–2014 | cálculo dental se consolida como archivo de microbioma y proteínas | conservación y boca limitan transporte | `SRC-MED-HIST-ADLER-2013`, `SRC-MED-HIST-WARINNER-2014` | B-LOCAL | AUDITADO |
+| `TIME-MED-HIST-TREPANATION-2016` | 2016 | diferencial formal para trepanación | remodelación puede ocultar mecanismo | `SRC-MED-HIST-VERANO-2016` | A método | AUDITADO |
+| `TIME-MED-HIST-NEANDERTHAL-DNA-2017` | 2017 | ADN de cálculo amplía archivo de dieta y microbioma | conducta y tratamiento siguen inferidos | `SRC-MED-HIST-WEYRICH-2017` | B muestra | AUDITADO |
+| `TIME-MED-HIST-HOPS-2019` | 2019 | HOPS automatiza cribado y autenticación de patógenos | taxonomía depende de referencia y cobertura | `SRC-MED-HIST-HOPS-2019` | A método | AUDITADO |
+| `TIME-MED-HIST-GUT-2021` | 2021 | genomas microbianos reconstruidos de paleofeces | preservación excepcional y muestra regional | `SRC-MED-HIST-WIBOWO-2021` | B-LOCAL | AUDITADO |
+| `TIME-MED-HIST-BORNEO-2022` | 2022–2023 | publicación y debate de Liang Tebo | mecanismo exacto permanece abierto | `SRC-MED-HIST-MALONEY-2022`, `SRC-MED-HIST-MURPHY-2023`, `SRC-MED-HIST-VLOK-2023` | B-COND | AUDITADO |
+| `TIME-MED-HIST-PATHOGENS-2025` | 2025 | cribado de patógenos en 1,313 individuos antiguos | gran escala no elimina sesgo geográfico/funerario | `SRC-MED-HIST-SIKORA-2025` | B-REG | AUDITADO |

@@ -1,0 +1,98 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Cadena de seis capas desde un archivo hasta un sistema médico</title>
+  <desc id="desc">Espécimen, contexto, huella, interpretación, conducta y sistema aparecen como estaciones separadas. Cada flecha exige evidencia propia y ninguna capa se hereda automáticamente.</desc>
+  <defs>
+    <style>
+      .bg{fill:#15130f}.panel{fill:#201d17;stroke:#6f624a;stroke-width:2}.accent{fill:#bd7b45}.mineral{fill:#67806e}.ink{fill:#eee2c8}.muted{fill:#b9ab91}.warn{fill:#d0a25f}.line{stroke:#bd7b45;stroke-width:4;fill:none}.dash{stroke:#6f624a;stroke-width:2;stroke-dasharray:7 9}.k{font:600 20px 'IBM Plex Sans',Arial,sans-serif;letter-spacing:2px}.h{font:600 34px 'Source Serif 4',Georgia,serif}.t{font:400 19px 'IBM Plex Sans',Arial,sans-serif}.s{font:500 16px 'IBM Plex Mono',Consolas,monospace}.n{font:700 25px 'IBM Plex Mono',Consolas,monospace}
+    </style>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#bd7b45"/></marker>
+  </defs>
+  <rect class="bg" width="1600" height="900"/>
+  <text class="k accent" x="80" y="78">MED-003 · CADENA INFERENCIAL</text>
+  <text class="h ink" x="80" y="130">Una huella no es todavía una historia médica</text>
+  <text class="t muted" x="80" y="166">Cada transición necesita contexto, comparación y alternativas explícitas.</text>
+
+  <path class="line" d="M270 455H330M520 455H580M770 455H830M1020 455H1080M1270 455H1330" marker-end="url(#arrow)"/>
+
+  <g transform="translate(50 220)">
+    <rect class="panel" width="220" height="470" rx="22"/>
+    <circle class="accent" cx="44" cy="48" r="24"/><text class="n bg" x="29" y="57">01</text>
+    <text class="h ink" x="24" y="108">Espécimen</text>
+    <path class="dash" d="M24 132H196"/>
+    <text class="s mineral" x="24" y="174">OBSERVADO</text>
+    <text class="t ink" x="24" y="207"><tspan x="24">resto, muestra,</tspan><tspan x="24" dy="28">objeto o texto</tspan></text>
+    <text class="s warn" x="24" y="292">EXIGE</text>
+    <text class="t muted" x="24" y="325"><tspan x="24">autenticidad</tspan><tspan x="24" dy="28">e integridad</tspan></text>
+    <text class="s accent" x="24" y="407">NO HEREDA</text>
+    <text class="t muted" x="24" y="440">significado</text>
+  </g>
+
+  <g transform="translate(300 220)">
+    <rect class="panel" width="220" height="470" rx="22"/>
+    <circle class="accent" cx="44" cy="48" r="24"/><text class="n bg" x="29" y="57">02</text>
+    <text class="h ink" x="24" y="108">Contexto</text>
+    <path class="dash" d="M24 132H196"/>
+    <text class="s mineral" x="24" y="174">OBSERVADO</text>
+    <text class="t ink" x="24" y="207"><tspan x="24">fecha, estrato,</tspan><tspan x="24" dy="28">asociación</tspan></text>
+    <text class="s warn" x="24" y="292">EXIGE</text>
+    <text class="t muted" x="24" y="325"><tspan x="24">tafonomía y</tspan><tspan x="24" dy="28">procedencia</tspan></text>
+    <text class="s accent" x="24" y="407">NO HEREDA</text>
+    <text class="t muted" x="24" y="440">contemporaneidad</text>
+  </g>
+
+  <g transform="translate(550 220)">
+    <rect class="panel" width="220" height="470" rx="22"/>
+    <circle class="accent" cx="44" cy="48" r="24"/><text class="n bg" x="29" y="57">03</text>
+    <text class="h ink" x="24" y="108">Huella</text>
+    <path class="dash" d="M24 132H196"/>
+    <text class="s mineral" x="24" y="174">OBSERVADO</text>
+    <text class="t ink" x="24" y="207"><tspan x="24">lesión, marca,</tspan><tspan x="24" dy="28">molécula, frase</tspan></text>
+    <text class="s warn" x="24" y="292">EXIGE</text>
+    <text class="t muted" x="24" y="325"><tspan x="24">descripción</tspan><tspan x="24" dy="28">y controles</tspan></text>
+    <text class="s accent" x="24" y="407">NO HEREDA</text>
+    <text class="t muted" x="24" y="440">diagnóstico</text>
+  </g>
+
+  <g transform="translate(800 220)">
+    <rect class="panel" width="220" height="470" rx="22"/>
+    <circle class="accent" cx="44" cy="48" r="24"/><text class="n bg" x="29" y="57">04</text>
+    <text class="h ink" x="24" y="108">Interpretación</text>
+    <path class="dash" d="M24 132H196"/>
+    <text class="s mineral" x="24" y="174">PRODUCTO</text>
+    <text class="t ink" x="24" y="207"><tspan x="24">diferencial y</tspan><tspan x="24" dy="28">comparación</tspan></text>
+    <text class="s warn" x="24" y="292">EXIGE</text>
+    <text class="t muted" x="24" y="325"><tspan x="24">alternativas</tspan><tspan x="24" dy="28">discriminantes</tspan></text>
+    <text class="s accent" x="24" y="407">NO HEREDA</text>
+    <text class="t muted" x="24" y="440">intención</text>
+  </g>
+
+  <g transform="translate(1050 220)">
+    <rect class="panel" width="220" height="470" rx="22"/>
+    <circle class="accent" cx="44" cy="48" r="24"/><text class="n bg" x="29" y="57">05</text>
+    <text class="h ink" x="24" y="108">Conducta</text>
+    <path class="dash" d="M24 132H196"/>
+    <text class="s mineral" x="24" y="174">PRODUCTO</text>
+    <text class="t ink" x="24" y="207"><tspan x="24">asistencia,</tspan><tspan x="24" dy="28">técnica, uso</tspan></text>
+    <text class="s warn" x="24" y="292">EXIGE</text>
+    <text class="t muted" x="24" y="325"><tspan x="24">dependencia o</tspan><tspan x="24" dy="28">patrón repetido</tspan></text>
+    <text class="s accent" x="24" y="407">NO HEREDA</text>
+    <text class="t muted" x="24" y="440">eficacia</text>
+  </g>
+
+  <g transform="translate(1300 220)">
+    <rect class="panel" width="250" height="470" rx="22"/>
+    <circle class="mineral" cx="44" cy="48" r="24"/><text class="n bg" x="29" y="57">06</text>
+    <text class="h ink" x="24" y="108">Sistema</text>
+    <path class="dash" d="M24 132H226"/>
+    <text class="s mineral" x="24" y="174">PRODUCTO</text>
+    <text class="t ink" x="24" y="207"><tspan x="24">roles, corpus,</tspan><tspan x="24" dy="28">institución</tspan></text>
+    <text class="s warn" x="24" y="292">EXIGE</text>
+    <text class="t muted" x="24" y="325"><tspan x="24">reproducción</tspan><tspan x="24" dy="28">y consecuencias</tspan></text>
+    <text class="s accent" x="24" y="407">NO HEREDA</text>
+    <text class="t muted" x="24" y="440">progreso universal</text>
+  </g>
+
+  <rect x="80" y="748" width="1440" height="86" rx="18" fill="#2a2117" stroke="#bd7b45" stroke-width="2"/>
+  <text class="k warn" x="110" y="783">CORTAFUEGO</text>
+  <text class="t ink" x="110" y="815">lesión ≠ diagnóstico · supervivencia ≠ tratamiento · presencia ≠ prevalencia · texto ≠ eficacia</text>
+</svg>

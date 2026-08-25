@@ -5,14 +5,14 @@ type: dataset
 authors:
   - family-names: "Mendez"
     given-names: "Cesar"
-version: 0.3.1
+version: 0.3.2
 date-released: 2026-08-24
 url: "https://vida-tierra.vercel.app"
 repository-code: "https://github.com/CesarMg91/vida-tierra"
 license: CC-BY-4.0
 abstract: >-
   Corpus editorial abierto en español sobre historia profunda del cosmos,
-  la Tierra, la vida, la humanidad y las civilizaciones. Cada investigación
+  la Tierra, la vida, la humanidad, las civilizaciones y la medicina. Cada investigación
   explicita claims, evidencias, fuentes, métodos, controversias, límites y
   posibles falsadores.
 keywords:
@@ -21,6 +21,7 @@ keywords:
   - ciencia abierta
   - arqueologia
   - civilizaciones
+  - historia de la medicina
 preferred-citation:
   type: generic
   title: "¿Cómo sabemos lo que sabemos?"

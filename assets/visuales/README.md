@@ -846,3 +846,13 @@ La escena contiene marcas abstractas no legibles en papeles y una placa transpar
 Salida original aprobada sin edición: `C:\Users\HUAWEI\.codex\generated_images\019fedb0-8f24-7e33-8d16-d2418ba3378e\exec-bff1a683-5230-45f6-bca7-ee13cd3d2eb6.png` → `assets/visuales/hero-med-002-pruebas-diagnosticas.png`. Tamaño: `1,834,579` bytes. El prompt completo y los límites se conservan en [`ATLAS_VISUAL.md`](../../ATLAS_VISUAL.md#57-med-002--una-prueba-no-es-una-decisión).
 
 Los paneles incluyen puntos, líneas y barras abstractos sin ejes, números, unidades o datos reales. Las figuras, el frasco, el disco de latón, las bandejas y el libro son metáforas editoriales. Los SVG incluyen `title` y `desc` y no aceptan datos personales ni producen decisiones.
+
+## MED-003 — Archivos y orígenes de la medicina
+
+- `hero-med-003-origenes-medicina.png`: edición correctiva final de OpenAI ImageGen `exec-4f3b4bb5-951a-4bff-87bd-b95c69f97a28.png`, 2026-08-24; `1672 × 941`, `2,092,832` bytes, SHA-256 `8f8cbd8146edb6a5a7514b57fe47113cbb1a26931652287b1591eddeeac71f01`.
+- `cadena-archivo-sistema-med-003.svg`: SVG original del proyecto, `1600 × 900`, con título y descripción accesibles.
+- `matriz-huellas-inferencias-med-003.svg`: SVG original del proyecto, `1600 × 900`, con título y descripción accesibles.
+
+La primera salida, `exec-b5e84a54-9c4c-479d-b17d-7630fb9254a6.png`, fue rechazada porque la quinta bandeja contenía pseudotexto demasiado reconocible. La edición final dejó ese fragmento completamente liso. El prompt inicial, la instrucción correctiva y los límites están registrados en `ATLAS_VISUAL.md`, sección 58.
+
+La portada es una composición no probatoria: fragmentos, muestra, objetos, material liso y bandeja vacía no forman una colección, sitio, periodo o sistema médico reales. Los SVG fueron rasterizados e inspeccionados a `1600 × 900`; no presentan recortes o texto ilegible.
