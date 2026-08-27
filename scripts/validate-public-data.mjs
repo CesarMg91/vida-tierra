@@ -286,6 +286,46 @@ for (const documentaryCase of documentaryMedicineData.cases) {
   }
 }
 
+const southAsianMedicineData = JSON.parse(
+  fs.readFileSync(path.join(ROOT, "content", "south-asian-medicine-evidence.json"), "utf8"),
+);
+const southAsianMedicineKinds = ["testimony", "reading", "stratum", "circulation", "practice", "consequence"];
+check(southAsianMedicineData.schemaVersion === 1, "el módulo médico de Asia meridional usa una versión de esquema desconocida");
+check(
+  researchSlugs.has(southAsianMedicineData.researchSlug),
+  `el módulo médico de Asia meridional apunta a un expediente inexistente: ${southAsianMedicineData.researchSlug}`,
+);
+check(
+  Array.isArray(southAsianMedicineData.cases) && southAsianMedicineData.cases.length === 5,
+  "el módulo médico de Asia meridional debe contener cinco casos",
+);
+check(
+  duplicates(southAsianMedicineData.cases.map((record) => record.id)).length === 0,
+  "el módulo médico de Asia meridional contiene casos duplicados",
+);
+for (const southAsianCase of southAsianMedicineData.cases) {
+  check(
+    Boolean(southAsianCase.title) && Boolean(southAsianCase.region) && Boolean(southAsianCase.archive),
+    `${southAsianCase.id} no declara título, región o archivo`,
+  );
+  check(
+    JSON.stringify(southAsianCase.layers?.map((layer) => layer.kind)) === JSON.stringify(southAsianMedicineKinds),
+    `${southAsianCase.id} no conserva las seis capas de corpus y práctica en orden`,
+  );
+  for (const layer of southAsianCase.layers ?? []) {
+    check(
+      Boolean(layer.observed) && Boolean(layer.inference) && Boolean(layer.limit),
+      `${southAsianCase.id}/${layer.kind} tiene un estado vacío`,
+    );
+    check(layer.claimIds?.length > 0, `${southAsianCase.id}/${layer.kind} no enlaza claims`);
+    check(layer.evidenceIds?.length > 0, `${southAsianCase.id}/${layer.kind} no enlaza evidencias`);
+    check(layer.sourceIds?.length > 0, `${southAsianCase.id}/${layer.kind} no enlaza fuentes`);
+    for (const id of layer.claimIds ?? []) check(claimIds.has(id), `${southAsianCase.id}/${layer.kind} enlaza un claim inexistente: ${id}`);
+    for (const id of layer.evidenceIds ?? []) check(evidenceIds.has(id), `${southAsianCase.id}/${layer.kind} enlaza una evidencia inexistente: ${id}`);
+    for (const id of layer.sourceIds ?? []) check(sourceIds.has(id), `${southAsianCase.id}/${layer.kind} enlaza una fuente inexistente: ${id}`);
+  }
+}
+
 for (const record of data.catalog) {
   for (const id of record.claimIds) check(claimIds.has(id), `${record.key} enlaza un claim inexistente: ${id}`);
   for (const id of record.sourceIds) check(sourceIds.has(id), `${record.key} enlaza una fuente inexistente: ${id}`);

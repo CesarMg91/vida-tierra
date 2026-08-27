@@ -52,7 +52,7 @@ export default function DiagnosticEvidenceLab({ data }: { data: DiagnosticEviden
               <div><dt>Inferencia permitida</dt><dd>{layer.inference}</dd></div>
               <div className="clinical-limit"><dt>Límite</dt><dd>{layer.limit}</dd></div>
             </dl>
-            <div className="clinical-references" aria-label={`Referencias de ${labels[layer.kind]}`}>
+            <div className="clinical-references" role="group" aria-label={`Referencias de ${labels[layer.kind]}`}>
               {layer.claimIds.map((id) => <Link key={id} href={`/evidencia?id=${encodeURIComponent(id)}`}><FlaskConical aria-hidden="true" />{id}</Link>)}
               {layer.evidenceIds.map((id) => <Link key={id} href={`/evidencia?id=${encodeURIComponent(id)}`}><Link2 aria-hidden="true" />{id}</Link>)}
               {layer.sourceIds.map((id) => <Link key={id} href={`/evidencia?id=${encodeURIComponent(id)}`}><BookOpenText aria-hidden="true" />{id}</Link>)}

@@ -3239,3 +3239,16 @@ Emular un ensayo objetivo corrige errores de diseño, no confusión no medida. *
 | `CONT-MED-EGY-DEIR-REPRESENTATION-001` | generalización desde Deir el-Medina | modelo de cuidado egipcio frente a comunidad estatal excepcional | sitios comparables, archivos domésticos y denominadores | ABIERTA |
 | `CONT-MED-EGY-INVISIBLE-CARE-001` | visibilidad de mujeres y cuidado doméstico | baja participación formal frente a subregistro por titulatura y soporte | hogares, cartas, objetos, restos y textos no oficiales | ABIERTA |
 | `CONT-MED-ANE-TRANSMISSION-001` | circulación regional | intercambio puntual frente a transmisión sostenida de repertorios | cronología, intermediarios, préstamos y cadenas textuales | ABIERTA |
+
+## Controversias de MED-005 — Asia meridional
+
+| ID | Controversia | Posiciones plausibles | Evidencia que discrimina | Estado |
+|---|---|---|---|---|
+| `CONT-MED-SA-CARAKA-DATE-001` | cronología de las capas de Caraka | núcleo de últimos siglos a. e. c. frente a redacciones más tardías y estratos desplazados | citas seguras, lengua, paralelos, manuscritos y colofones datables | ABIERTA POR ESTRATO |
+| `CONT-MED-SA-SUSRUTA-DATE-001` | formación de la *Suśrutasaṃhitā* | comienzos en últimos siglos a. e. c. frente a configuración posterior de secciones y *Uttaratantra* | testigos anteriores, citas, aparato crítico y estratigrafía textual | ABIERTA POR ESTRATO |
+| `CONT-MED-SA-KL699-RELATION-001` | relación entre KL 699 y otras recensiones | rama temprana relativamente conservadora frente a tradición contaminada con cambios propios | stemma, errores compartidos, paleografía y análisis material | ABIERTA |
+| `CONT-MED-SA-SURGERY-PRACTICE-001` | cuánto se ejecutaron las operaciones descritas | repertorio práctico frente a norma, entrenamiento o compilación textual | instrumentos, cuerpos, series de casos, comentarios y archivos situados | NO CUANTIFICADO |
+| `CONT-MED-SA-RHINOPLASTY-CONTINUITY-001` | continuidad hasta la rinoplastia de 1794 | transmisión sostenida o reactivada frente a semejanza técnica y tradiciones regionales distintas | intermediarios, vocabulario, linajes de práctica y variantes operativas | ABIERTA |
+| `CONT-MED-SA-MATERIA-IDENTITY-001` | identidad de plantas y sustancias | taxón estable frente a nombres polisémicos, sustituciones y cambios regionales | especímenes, residuos, morfología, comentarios, procedencia y química | ABIERTA POR INGREDIENTE |
+| `CONT-MED-SA-HOSPITAL-FUNCTION-001` | función y alcance de instalaciones tempranas | hospital especializado frente a monasterio o complejo de función mixta | arquitectura, sellos en contexto, inscripciones, instrumental y residuos | ABIERTA POR SITIO |
+| `CONT-MED-SA-TRANSMISSION-001` | dirección y profundidad de transmisiones | traducción directa y redes sostenidas frente a préstamos selectivos y convergencia | pasajes paralelos, fechas, lenguas intermediarias y agentes identificables | ABIERTA POR RUTA |

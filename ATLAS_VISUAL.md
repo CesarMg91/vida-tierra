@@ -944,3 +944,33 @@ La salida se inspeccionó completa. No contiene personas, cuerpos, momias, escen
 Los objetos son genéricos, incompletos y contemporáneos sólo como composición editorial. No reproducen Nínive, Sakikkû, las Leyes de Hammurabi, Ebers, Edwin Smith, Lahun o Deir el-Medina. Su cercanía no demuestra contacto, transmisión, sincronía, práctica o eficacia.
 
 Los SVG se construyeron a `1600 × 900` con `title`, `desc` y tipografía de reserva. La cadena marca cinco no-herencias; la matriz compara productos sin sumar puntuaciones. Ninguno calcula, diagnostica, recomienda o recibe datos personales.
+
+## 60. MED-005 — Un corpus no es una fecha
+
+![Portada editorial de MED-005](assets/visuales/hero-med-005-asia-meridional.png)
+
+![Cadena desde testimonio hasta consecuencia](assets/visuales/cadena-testimonio-practica-med-005.svg)
+
+![Matriz de archivos de Asia meridional](assets/visuales/matriz-archivos-asia-meridional-med-005.svg)
+
+| Archivo | Tipo | Procedencia | Qué representa | Límite obligatorio |
+|---|---|---|---|---|
+| `hero-med-005-asia-meridional.png` | portada editorial conceptual | OpenAI ImageGen, generación nueva, 2026-08-27 | zonas separadas de soportes genéricos, modelo dental didáctico y ficha arquitectónica | no objeto, colección, escritura, sitio, cronología, práctica o transmisión reales |
+| `cadena-testimonio-practica-med-005.svg` | diagrama epistemológico original | SVG manual del proyecto, 2026-08-27 | seis operaciones entre testimonio, lectura, estrato, circulación, práctica y consecuencia | las flechas no heredan traducción, composición, difusión, ejecución o eficacia |
+| `matriz-archivos-asia-meridional-med-005.svg` | matriz documental original | SVG manual del proyecto, 2026-08-27 | producto fuerte, inferencia y límite de siete archivos | las filas no forman ranking, cronología continua ni prioridad cultural |
+
+### Procedencia de la portada
+
+Salida original aprobada sin edición: `C:\Users\HUAWEI\.codex\generated_images\019fedb0-8f24-7e33-8d16-d2418ba3378e\exec-54e69a98-2155-4c2e-9b9c-4ad150595ad8.png`. Destino: `assets/visuales/hero-med-005-asia-meridional.png`. Dimensiones: `1672 × 941`; tamaño: `2,278,946` bytes; SHA-256: `5bf703e27044e5ca1354db608663f09e728240ec525ed10d37d2a500e45ac8f7`.
+
+**Prompt de generación:**
+
+> Use case: stylized-concept. Asset type: wide website hero for a public history-of-medicine research portal. Primary request: an original museum-conservation still life expressing that a medical corpus is assembled from different kinds of evidence, not a single ancient book or date. Scene/backdrop: dark obsidian conservation table in a quiet archive, subtle mineral-green wall shadow, no recognizable museum or archaeological site. Subject: four clearly separate evidence zones that never overlap: several generic blank palm-leaf folio strips with binding holes and no writing; irregular birch-bark fragments with no writing; one neutral weathered stone inscription-like fragment with no readable glyphs; one small abstract enamel-colored molar study model beside a simple architectural floor-plan token with no markings. Thin copper and amber threads visually suggest routes of copying and translation without physically joining the objects. Style/medium: cinematic editorial still-life photography with museum realism, tactile materials, restrained depth of field, historically respectful but explicitly non-reconstructive. Composition/framing: 16:9 landscape, low three-quarter overhead viewpoint, main evidence cluster across the right two-thirds, calm usable negative space in the upper-left for white website copy, no cropped objects at the edges. Lighting/mood: warm copper side light and cool mineral-green fill, scholarly, quiet, precise, high contrast sufficient for a dark text overlay. Color palette: obsidian, parchment, copper, amber, mineral green. Materials/textures: dry palm leaf, fibrous birch bark, weathered stone, enamel-like study resin, linen conservation supports. Constraints: every object generic and physically separated; no people, no hands, no faces, no bodies, no blood, no surgery, no medicine bottles, no herbs arranged as remedies, no modern medical instruments, no national symbols, no religious iconography, no exact historical artifact, no readable writing, no letters, no numbers, no labels, no logos, no watermark. Avoid: fantasy glow, mystical aura, Ayurveda wellness branding, spa imagery, decorative Sanskrit, colonial explorer imagery, fake manuscript text, visual claim that all objects are coeval.
+
+### Revisión y límites
+
+La salida se inspeccionó completa. No contiene personas, manos, cuerpos, sangre, escenas clínicas, medicamentos, plantas preparadas, iconografía religiosa, marcas, etiquetas o texto legible. Los folios, corteza y piedra son genéricos. El molar es un modelo didáctico contemporáneo con corte anatómico visible, no un diente arqueológico; la ficha arquitectónica es abstracta y no reproduce Kumrahār o Tirumukkūḍal.
+
+Las zonas y los hilos son metáforas editoriales. Su cercanía no afirma coetaneidad, procedencia común, traducción, transmisión, continuidad o eficacia. La portada no reproduce KL 699, Bower, un edicto de Aśoka ni ningún manuscrito identificable.
+
+Los SVG se construyeron a `1600 × 900` con `title`, `desc` y tipografía de reserva. La cadena marca cinco no-herencias y la matriz compara siete archivos sin puntuarlos. Ninguno calcula, recomienda, diagnostica o recibe datos personales.

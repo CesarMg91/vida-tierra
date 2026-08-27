@@ -84,6 +84,7 @@
     "CIV-001": { "shortTitle": "De aldeas a ciudades y Estados", "status": "TRAZADO", "themes": ["sedentarismo", "urbanismo", "administración"], "featured": true },
     "CIV-002": { "shortTitle": "Cómo fechamos el pasado", "status": "AUDITADO", "themes": ["cronología", "radiocarbono", "arqueometría", "modelado bayesiano"], "featured": true },
     "CIV-003": { "shortTitle": "Asia sudoccidental: trayectorias múltiples", "status": "AUDITADO", "themes": ["Asia sudoccidental", "Neolítico", "urbanismo", "movilidad", "parentesco"], "featured": true },
+    "MED-005": { "shortTitle": "Asia meridional: un corpus no es una fecha", "status": "AUDITADO", "themes": ["historia de la medicina", "Asia meridional", "Ayurveda", "filología", "cirugía", "transmisión"], "featured": true },
     "MED-004": { "shortTitle": "Mesopotamia y Nilo: del documento a la práctica", "status": "AUDITADO", "themes": ["historia de la medicina", "Mesopotamia", "Egipto antiguo", "papirología", "asiriología", "práctica médica"], "featured": true },
     "MED-003": { "shortTitle": "Orígenes: archivos, cuidado e intervención", "status": "AUDITADO", "themes": ["historia de la medicina", "paleopatología", "bioarqueología", "ADN antiguo", "cuidado"], "featured": true },
     "MED-002": { "shortTitle": "Cómo sabemos si una prueba ayuda a decidir", "status": "AUDITADO", "themes": ["diagnóstico", "sensibilidad", "sesgo", "utilidad clínica", "inteligencia artificial"], "featured": true },

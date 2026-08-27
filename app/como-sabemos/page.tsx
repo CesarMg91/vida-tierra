@@ -27,7 +27,7 @@ export default function HowWeKnowPage() {
         </div>
         <div className="launch-transparency-links">
           <Link href="/privacidad"><ShieldCheck aria-hidden="true" /><span><strong>Privacidad</strong>Qué se guarda y qué no se recopila</span><ArrowRight aria-hidden="true" /></Link>
-          <a href="https://github.com/CesarMg91/vida-tierra/blob/main/CITATION.cff" target="_blank" rel="noreferrer"><Quote aria-hidden="true" /><span><strong>Citar el proyecto</strong>Metadatos reutilizables de la versión 0.3.3</span><ArrowRight aria-hidden="true" /></a>
+          <a href="https://github.com/CesarMg91/vida-tierra/blob/main/CITATION.cff" target="_blank" rel="noreferrer"><Quote aria-hidden="true" /><span><strong>Citar el proyecto</strong>Metadatos reutilizables de la versión 0.3.4</span><ArrowRight aria-hidden="true" /></a>
         </div>
       </section>
     </div>

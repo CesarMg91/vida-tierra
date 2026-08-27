@@ -1484,3 +1484,25 @@ Los cortafuegos principales son: copia ≠ composición; receta ≠ uso; uso ≠
 Nínive sostiene corpus y técnica escrita, Sakikkû clasificación histórica, Hammurabi norma jerárquica, Edwin Smith estructura de caso, Lahun salud reproductiva documentada y Deir el-Medina práctica situada. Ninguno hereda cobertura o eficacia.
 
 Véase 15_medicina/INVESTIGACION_MED_004_MESOPOTAMIA_VALLE_NILO.md, 22_mapas_epistemologicos/MAPA_MED_004_MESOPOTAMIA_NILO.md, 21_cronologias/CRONOLOGIA_MED_004_MESOPOTAMIA_NILO.md, assets/visuales/cadena-documento-practica-med-004.svg y assets/visuales/matriz-archivos-med-004.svg.
+
+### MED-005 — Un corpus no es una fecha
+
+```text
+testimonio material
+        ↓
+lectura + observación
+        ↓
+estrato + cronología
+        ↓
+circulación + traducción
+        ↓
+práctica situada
+        ↓
+consecuencia observada
+```
+
+Los cortafuegos principales son: cuerpo ≠ diagnóstico textual; copia ≠ composición; nombre tradicional ≠ biografía fechada; descripción ≠ ejecución; política ≠ institución; nombre de planta ≠ especie o formulación; antigüedad ≠ eficacia; semejanza ≠ transmisión; ausencia del canon ≠ ausencia de cuidado.
+
+Mehrgarh sostiene modificación dental, Caraka y Suśruta historias editoriales por capas, KL 699 una copia de 878, Bower circulación centroasiática, Aśoka una política promulgada, Kumrahār una instalación probable y Tirumukkūḍal una institución local dotada. Ninguno hereda por sí solo continuidad, cobertura o efecto.
+
+Véase 15_medicina/INVESTIGACION_MED_005_ASIA_MERIDIONAL_AYURVEDA_TRANSMISIONES.md, 22_mapas_epistemologicos/MAPA_MED_005_ASIA_MERIDIONAL.md, 21_cronologias/CRONOLOGIA_MED_005_ASIA_MERIDIONAL.md, assets/visuales/cadena-testimonio-practica-med-005.svg y assets/visuales/matriz-archivos-asia-meridional-med-005.svg.

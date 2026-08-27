@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Del testimonio material a la consecuencia</title>
+  <desc id="desc">Seis capas separan testimonio, lectura, estrato y cronología, circulación, práctica situada y consecuencia. Entre capas se señalan las propiedades que no deben heredarse automáticamente.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#161712"/><stop offset="1" stop-color="#24342e"/></linearGradient>
+    <filter id="shadow"><feDropShadow dx="0" dy="8" stdDeviation="10" flood-opacity=".24"/></filter>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <text x="90" y="105" fill="#e4b46d" font-family="Georgia,serif" font-size="25" letter-spacing="4">MED-005 · CADENA DE INFERENCIA</text>
+  <text x="90" y="165" fill="#f3ead8" font-family="Georgia,serif" font-size="50">Un corpus no es una fecha ni una práctica</text>
+  <text x="90" y="210" fill="#b9b4a8" font-family="Arial,sans-serif" font-size="23">Cada puente exige un archivo propio; conservar un texto no demuestra ejecutarlo ni obtener un efecto.</text>
+
+  <g font-family="Arial,sans-serif" filter="url(#shadow)">
+    <g transform="translate(90 285)">
+      <rect width="430" height="180" rx="18" fill="#f1e7d2"/>
+      <text x="28" y="42" fill="#9a5b31" font-size="18" font-weight="700">01 · TESTIMONIO</text>
+      <text x="28" y="83" fill="#231f19" font-size="28" font-weight="700">Cuerpo, soporte, edificio</text>
+      <text x="28" y="120" fill="#4d483f" font-size="20">¿Qué existe, dónde y desde cuándo?</text>
+      <rect x="28" y="142" width="216" height="5" rx="2" fill="#b46d3b"/>
+    </g>
+    <g transform="translate(585 285)">
+      <rect width="430" height="180" rx="18" fill="#f1e7d2"/>
+      <text x="28" y="42" fill="#9a5b31" font-size="18" font-weight="700">02 · LECTURA</text>
+      <text x="28" y="83" fill="#231f19" font-size="28" font-weight="700">Rasgo, signo, variante</text>
+      <text x="28" y="120" fill="#4d483f" font-size="20">¿Qué observación o pasaje se sostiene?</text>
+      <rect x="28" y="142" width="216" height="5" rx="2" fill="#b46d3b"/>
+    </g>
+    <g transform="translate(1080 285)">
+      <rect width="430" height="180" rx="18" fill="#f1e7d2"/>
+      <text x="28" y="42" fill="#9a5b31" font-size="18" font-weight="700">03 · ESTRATO Y FECHA</text>
+      <text x="28" y="83" fill="#231f19" font-size="28" font-weight="700">Copia, redacción, capa</text>
+      <text x="28" y="120" fill="#4d483f" font-size="20">¿Qué cronología tiene esta parte?</text>
+      <rect x="28" y="142" width="216" height="5" rx="2" fill="#b46d3b"/>
+    </g>
+    <g transform="translate(90 575)">
+      <rect width="430" height="180" rx="18" fill="#d9e3d8"/>
+      <text x="28" y="42" fill="#386557" font-size="18" font-weight="700">04 · CIRCULACIÓN</text>
+      <text x="28" y="83" fill="#1c2924" font-size="28" font-weight="700">Copia, traducción, red</text>
+      <text x="28" y="120" fill="#44534c" font-size="20">¿Quién lo movió o transformó?</text>
+      <rect x="28" y="142" width="216" height="5" rx="2" fill="#528574"/>
+    </g>
+    <g transform="translate(585 575)">
+      <rect width="430" height="180" rx="18" fill="#d9e3d8"/>
+      <text x="28" y="42" fill="#386557" font-size="18" font-weight="700">05 · PRÁCTICA SITUADA</text>
+      <text x="28" y="83" fill="#1c2924" font-size="28" font-weight="700">Persona, acción, lugar</text>
+      <text x="28" y="120" fill="#44534c" font-size="20">¿Qué conducta ocurrió realmente?</text>
+      <rect x="28" y="142" width="216" height="5" rx="2" fill="#528574"/>
+    </g>
+    <g transform="translate(1080 575)">
+      <rect width="430" height="180" rx="18" fill="#d9e3d8"/>
+      <text x="28" y="42" fill="#386557" font-size="18" font-weight="700">06 · CONSECUENCIA</text>
+      <text x="28" y="83" fill="#1c2924" font-size="28" font-weight="700">Acceso, cuerpo, resultado</text>
+      <text x="28" y="120" fill="#44534c" font-size="20">¿Qué cambió y a qué se atribuye?</text>
+      <rect x="28" y="142" width="216" height="5" rx="2" fill="#528574"/>
+    </g>
+  </g>
+
+  <g fill="none" stroke="#e4b46d" stroke-width="4" stroke-linecap="round">
+    <path d="M530 375h42"/><path d="M1025 375h42"/>
+    <path d="M1295 480v52H305v30"/>
+    <path d="M530 665h42"/><path d="M1025 665h42"/>
+  </g>
+  <g fill="#e4b46d">
+    <path d="M572 375l-13-9v18z"/><path d="M1067 375l-13-9v18z"/>
+    <path d="M305 562l-9-13h18z"/><path d="M572 665l-13-9v18z"/><path d="M1067 665l-13-9v18z"/>
+  </g>
+  <g font-family="Arial,sans-serif" font-size="18" fill="#f3d7a4" text-anchor="middle">
+    <text x="552" y="260">no hereda traducción</text>
+    <text x="1047" y="260">no hereda composición</text>
+    <text x="800" y="515">no hereda difusión</text>
+    <text x="552" y="550">no hereda ejecución</text>
+    <text x="1047" y="550">no hereda eficacia</text>
+  </g>
+  <text x="90" y="830" fill="#b9b4a8" font-family="Arial,sans-serif" font-size="20">Una ruptura limita la afirmación: no borra el testimonio que sí se conserva.</text>
+</svg>
