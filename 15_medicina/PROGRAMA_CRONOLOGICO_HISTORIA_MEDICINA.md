@@ -82,3 +82,7 @@ CIV-003+ contextos regionales ─────────────┘
 ```
 
 El programa es revisable: un expediente puede dividirse si una región queda comprimida o si el archivo exige cronologías distintas. La clave temática expresa orden editorial, no jerarquía cultural ni grado de desarrollo.
+
+## Estado editorial
+
+MED-003, MED-004 y MED-005 están auditados. El siguiente expediente cronológico es MED-006 — China y Asia oriental. El cambio de región no implica relevo lineal: las cronologías se solapan y las conexiones sólo se atribuyen cuando una ruta, texto, objeto o agente las documenta.

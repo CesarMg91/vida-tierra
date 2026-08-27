@@ -4185,3 +4185,20 @@ Riesgo basal, alternativas y preferencias cambian el balance. **Corrección:** s
 | `ERR-MED-ANE-RECIPE-EFFECTIVE-001` | receta o ingrediente bioactivo = tratamiento eficaz | faltan dosis, ejecución, comparador y daños | separar texto, práctica y efecto | ACTIVO |
 | `ERR-MED-ANE-TITLE-COVERAGE-001` | título profesional = acceso poblacional | titulatura selecciona élites y no da denominador | buscar redes, hogares y distribución | ACTIVO |
 | `ERR-MED-EGY-MUMMY-POPULATION-001` | momias publicadas representan la población | selección mortuoria, museal y técnica | declarar muestra y sesgos | ACTIVO |
+
+## Errores científicos que MED-005 debe impedir
+
+| ID | Error | Por qué falla | Corrección mínima | Estado |
+|---|---|---|---|---|
+| `ERR-MED-SA-SUSRUTA-600BCE-001` | fechar a Suśruta como cirujano individual de 600 a. e. c. | convierte una obra estratificada en biografía y año únicos | declarar capas, intervalos y testigos datados | ACTIVO |
+| `ERR-MED-SA-FATHER-SURGERY-001` | nombrar al “padre de la cirugía” como conclusión histórica | prioridad depende de archivo, definición y supervivencia documental | comparar productos sin genealogía honorífica | ACTIVO |
+| `ERR-MED-SA-MANUSCRIPT-COMPOSITION-001` | fecha de manuscrito = fecha de composición | una copia puede preservar, alterar o combinar estratos anteriores | separar soporte, copia, redacción y pasaje | ACTIVO |
+| `ERR-MED-SA-MEHRGARH-AYURVEDA-001` | los dientes de Mehrgarh prueban Ayurveda neolítico | modificación dental no contiene vocabulario ni transmisión textual | limitar a intervención *in vivo* situada | ACTIVO |
+| `ERR-MED-SA-VEDIC-CANON-001` | los Vedas ya contienen completos Caraka o Suśruta | comparten algunos términos pero difieren en género y transmisión | auditar término, pasaje, estrato y continuidad | ACTIVO |
+| `ERR-MED-SA-ASHOKA-HOSPITALS-001` | Aśoka construyó hospitales en todo su imperio | el edicto menciona tratamiento y plantas, no edificios, camas o personal | citar el contenido exacto y buscar archivos de ejecución | ACTIVO |
+| `ERR-MED-SA-RECIPE-PRACTICE-001` | receta o procedimiento escrito = práctica general | faltan ejecución, frecuencia, acceso y aprendizaje | buscar cuerpos, instrumentos, comentarios y casos | ACTIVO |
+| `ERR-MED-SA-PLANT-SPECIES-001` | nombre sánscrito = especie farmacológica estable | sinonimia, polisemia y sustitución regional rompen la equivalencia | declarar identidad, parte, procedencia y formulación | ACTIVO |
+| `ERR-MED-SA-ANCIENT-EFFICACY-001` | antigüedad o persistencia = eficacia y seguridad | no controla comparador, selección, resultados o daños | evaluar con el contrato causal de MED-001 | ACTIVO |
+| `ERR-MED-SA-CONTINUOUS-RHINOPLASTY-001` | similitud entre Suśruta y 1794 prueba continuidad ininterrumpida | faltan intermediarios y cambian técnica, contexto y zona donante | documentar cadena o conservar continuidad abierta | ACTIVO |
+| `ERR-MED-SA-SANSKRIT-COMPLETE-001` | el canon sánscrito representa todo el cuidado regional | subregistra hogares, oralidad, parto y actores sin título | contrastar soportes y declarar invisibilidad | ACTIVO |
+| `ERR-MED-SA-RANKING-001` | una tradición fue la medicina más antigua o avanzada | archivos distintos hacen variar cualquier prioridad | comparar por dimensión sin puntuación universal | ACTIVO |

@@ -6,10 +6,12 @@ import ClinicalEvidenceLab from "../../components/ClinicalEvidenceLab";
 import DiagnosticEvidenceLab from "../../components/DiagnosticEvidenceLab";
 import DocumentaryMedicineLab from "../../components/DocumentaryMedicineLab";
 import HistoricalMedicineLab from "../../components/HistoricalMedicineLab";
+import SouthAsianMedicineLab from "../../components/SouthAsianMedicineLab";
 import { diagnosticEvidence } from "../../lib/diagnostic-evidence";
 import { documentaryMedicineEvidence } from "../../lib/documentary-medicine-evidence";
 import { historicalMedicineEvidence } from "../../lib/historical-medicine-evidence";
 import { medicineEvidence } from "../../lib/medicine-evidence";
+import { southAsianMedicineEvidence } from "../../lib/south-asian-medicine-evidence";
 import { getCatalog } from "../../lib/public-data";
 import { createPageMetadata } from "../../lib/site";
 
@@ -17,7 +19,7 @@ export const metadata: Metadata = createPageMetadata({
   title: "Historia de la medicina — archivos, cuidado y evidencia",
   description: "Cómo reconstruimos la historia mundial de la medicina desde huesos, biomoléculas, objetos y textos sin confundir huella, diagnóstico, práctica o eficacia.",
   pathname: "/medicina",
-  image: "/assets/visuales/hero-med-004-mesopotamia-nilo.png",
+  image: "/assets/visuales/hero-med-005-asia-meridional.png",
 });
 
 const principles = [
@@ -34,8 +36,8 @@ export default function MedicinePage() {
     <div className="medicine-experience">
       <header className="medicine-hero medicine-history-hero">
         <Image
-          src="/assets/visuales/hero-med-004-mesopotamia-nilo.png"
-          alt="Mesa de conservación con fragmentos de tablillas y papiros separados para comparar archivos médicos antiguos"
+          src="/assets/visuales/hero-med-005-asia-meridional.png"
+          alt="Mesa de conservación con folios, corteza, inscripción y archivo corporal separados para comparar testimonios médicos"
           fill
           preload
           fetchPriority="high"
@@ -44,14 +46,14 @@ export default function MedicinePage() {
         <div className="medicine-hero-shade" />
         <div className="medicine-hero-copy">
           <p className="eyebrow">Historia mundial de la medicina</p>
-          <h1>Un documento no es una práctica</h1>
-          <p>Tablillas, papiros, cartas, leyes, cuerpos y ostraca muestran partes distintas de la medicina documentada en Mesopotamia y el valle del Nilo.</p>
+          <h1>Un corpus no es una fecha</h1>
+          <p>Cuerpos, manuscritos, estratos, traducciones, edificios y resultados cuentan historias distintas de las tradiciones médicas de Asia meridional.</p>
           <div>
-            <Link className="button button-primary" href="#documentos">Seguir la cadena <ArrowDown aria-hidden="true" /></Link>
-            <Link className="medicine-text-link" href="/15_medicina/INVESTIGACION_MED_004_MESOPOTAMIA_VALLE_NILO">Leer MED-004 <ArrowRight aria-hidden="true" /></Link>
+            <Link className="button button-primary" href="#corpus">Seguir la cadena <ArrowDown aria-hidden="true" /></Link>
+            <Link className="medicine-text-link" href="/15_medicina/INVESTIGACION_MED_005_ASIA_MERIDIONAL_AYURVEDA_TRANSMISIONES">Leer MED-005 <ArrowRight aria-hidden="true" /></Link>
           </div>
         </div>
-        <p className="medicine-visual-limit">Composición editorial no probatoria: los fragmentos son genéricos, no coetáneos y no reproducen una colección arqueológica real.</p>
+        <p className="medicine-visual-limit">Composición editorial no probatoria: los soportes son genéricos, físicamente separados y no reproducen una colección o manuscrito real.</p>
       </header>
 
       <section className="medicine-boundary">
@@ -62,6 +64,14 @@ export default function MedicinePage() {
       <section className="medicine-principles" aria-labelledby="medicine-principles-title">
         <header><p className="eyebrow">Contrato de lectura</p><h2 id="medicine-principles-title">Cuatro cortafuegos</h2></header>
         <div>{principles.map(([title, text], index) => <article key={title}><span>{String(index + 1).padStart(2, "0")}</span><h3>{title}</h3><p>{text}</p></article>)}</div>
+      </section>
+
+      <section className="medicine-lab-section documentary-lab-section" id="corpus" aria-labelledby="south-asian-lab-title">
+        <div className="section-heading">
+          <div><p className="eyebrow">MED-005 · laboratorio de corpus y práctica</p><h2 id="south-asian-lab-title">Del testimonio a la consecuencia</h2></div>
+          <p>Elige un caso. Seis capas separan soporte, lectura, estrato, circulación, práctica situada y consecuencia observada.</p>
+        </div>
+        <SouthAsianMedicineLab data={southAsianMedicineEvidence} />
       </section>
 
       <section className="medicine-lab-section documentary-lab-section" id="documentos" aria-labelledby="documentary-lab-title">

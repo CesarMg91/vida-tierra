@@ -564,3 +564,33 @@ CIV-003 inaugura los expedientes regionales auditados. CIV-001 conserva `TRAZADO
 | `TIME-MED-MESO-NINMED-DIGITAL-001` | 2022 | NinMed publica corpus y técnicas enlazables | lagunas persisten | `SRC-MED-ANE-NINMED-CORPUS-2022` | A/B documental | AUDITADO |
 | `TIME-MED-MESO-SAKIKKU-2025-001` | 2025 | nuevos testigos y joins revisan Sakikkû 1–6 | canon abierto | `SRC-MED-ANE-HEESSEL-2025` | B documental | AUDITADO |
 | `TIME-MED-EGY-SDOH-2026-001` | 2026 | determinantes sociales aplicados a Deir el-Medina | requiere comunidad contextualizada | `SRC-MED-EGY-AUSTIN-SDOH-2026` | B método/local | AUDITADO |
+
+## MED-005 — Hitos de las tradiciones médicas de Asia meridional y sus transmisiones
+
+| ID | Fecha/intervalo | Evento delimitado | Incertidumbre y evidencia | Fuente | Confianza | Estado |
+|---|---:|---|---|---|---|---|
+| `TIME-MED-SA-MEHRGARH-001` | hace 7,500–9,000 años | once molares de nueve adultos fueron perforados *in vivo* en Mehrgarh | cronología/contexto y desgaste; motivo y oficio ausentes | `SRC-MED-SA-COPPA-2006` | A/B material | AUDITADO |
+| `TIME-MED-SA-VEDIC-001` | II–I milenios a. e. c., según estrato | textos védicos conservan términos, plantas y acciones de sanación | transmisión textual y cronología relativa; no compendio clásico | `SRC-MED-SA-WUJASTYK-DATE-2026` | B histórico | AUDITADO |
+| `TIME-MED-SA-BALATHAL-001` | ca. 2000 a. e. c. | individuo de Balathal con patrón favorecido como lepra lepromatosa | diagnóstico diferencial; categoría histórica desconocida | `SRC-MED-SA-ROBBINS-2009` | B-COND | AUDITADO |
+| `TIME-MED-SA-BURZAHOM-001` | hace más de 4,000 años | cráneo de Burzahom con apertura interpretada como trepanación | huellas y contexto; indicación y desenlace abiertos | `SRC-MED-SA-SANKHYAN-2001` | B-COND | AUDITADO |
+| `TIME-MED-SA-ASHOKA-001` | siglo III a. e. c. | edicto rupestre II promulga tratamiento, plantas, pozos y árboles | inscripción política; no hospitales ni ejecución medida | `SRC-MED-SA-WUJASTYK-HOSPITALS-2022` | A documental/B aplicación | AUDITADO |
+| `TIME-MED-SA-CARAKA-EARLY-001` | ca. siglo II a. e. c.–I e. c. | intervalo tentativo para una composición temprana de Caraka | filología y paralelos; no fecha instrumental | `SRC-MED-SA-WUJASTYK-HOSPITALS-2022`, `SRC-MED-SA-MAAS-2010` | B-COND | AUDITADO |
+| `TIME-MED-SA-SUSRUTA-BEGIN-001` | últimos siglos a. e. c., tentativo | posibles comienzos de capas de la *Suśrutasaṃhitā* | estratigrafía textual; no autor individual fechado | `SRC-MED-SA-WUJASTYK-DATE-2026` | B histórico | AUDITADO |
+| `TIME-MED-SA-DRDHABALA-001` | 300–500 e. c. | intervalo propuesto para revisión de Dṛḍhabala y conocimiento de una forma de Suśruta | citas y tradición textual | `SRC-MED-SA-MAAS-2010`, `SRC-MED-SA-WUJASTYK-DATE-2026` | B-COND | AUDITADO |
+| `TIME-MED-SA-KUMRAHAR-001` | ca. 300–450 e. c. | edificio y sellos de *ārogyavihāra* en Kumrahār | asociación arqueológica/epigráfica; función exacta abierta | `SRC-MED-SA-WUJASTYK-HOSPITALS-2022` | B-LOCAL-COND | AUDITADO |
+| `TIME-MED-SA-BOWER-001` | ca. 500–550 e. c. | copia del Manuscrito Bower por varias manos cerca de Kucha | paleografía revisada; contexto de hallazgo limitado | `SRC-MED-SA-HOERNLE-BOWER-1912`, `SRC-MED-SA-SANDER-BOWER-1987` | A/B material | AUDITADO |
+| `TIME-MED-SA-CHINA-001` | siglos II–VI e. c. | recepción y traducción selectiva de conceptos médicos indios en textos budistas chinos | pasajes y traductores; alcance no uniforme | `SRC-MED-SA-LU-2025` | B histórico | AUDITADO |
+| `TIME-MED-SA-BAGHDAD-001` | desde finales del siglo VIII e. c. | Caraka conocido mediante rutas persas y árabes en Bagdad | testimonios de traducción; contenido y uso parciales | `SRC-MED-SA-WUJASTYK-HOSPITALS-2022` | B histórico | AUDITADO |
+| `TIME-MED-SA-KL699-001` | 878 e. c. | copia del manuscrito KL 699 de la *Suśrutasaṃhitā* | fecha segura del testigo; no de cada pasaje | `SRC-MED-SA-SUSRUTA-PROJECT1-2026`, `SRC-MED-SA-UNESCO-KL699-2013` | A material | AUDITADO |
+| `TIME-MED-SA-TIRUMUKKUDAL-001` | finales del siglo XI e. c. | inscripción registra institución de quince camas con personal y suministros | dotación local; no cobertura regional | `SRC-MED-SA-WUJASTYK-HOSPITALS-2022` | A documental/B función | AUDITADO |
+| `TIME-MED-SA-COWASJEE-001` | 1794 | publicación británica del caso Cowasjee con colgajo frontal | práctica moderna temprana situada; continuidad antigua no demostrada | `SRC-MED-SA-WUJASTYK-SURGERY-2023` | B caso/C continuidad | AUDITADO |
+| `TIME-MED-SA-BOWER-EDITION-001` | 1893–1912 | Hoernle publica facsímil, transliteración y traducción del Bower | edición colonial; fecha luego revisada | `SRC-MED-SA-HOERNLE-BOWER-1912` | A documental | AUDITADO |
+| `TIME-MED-SA-BOWER-REDATE-001` | 1987 | Sander propone ca. 500–550 e. c. para Bower | argumento paleográfico | `SRC-MED-SA-SANDER-BOWER-1987` | B-COND | AUDITADO |
+| `TIME-MED-SA-MEHRGARH-PUB-001` | 2006 | microscopía y microtomografía publican la serie dental de Mehrgarh | once dientes y nueve individuos | `SRC-MED-SA-COPPA-2006` | A/B material | AUDITADO |
+| `TIME-MED-SA-KL699-STUDY-001` | 2009–2021 | KL 699 y tres manuscritos nepaleses se incorporan a la historia textual crítica | relaciones stemmáticas revisables | `SRC-MED-SA-WUJASTYK-MANUSCRIPT-2009`, `SRC-MED-SA-KLEBANOV-2021` | B textual | AUDITADO |
+| `TIME-MED-SA-CARAKA-COLLATION-001` | 2009–2012 | colación vienesa y edición SARIT hacen visibles variantes y pasajes | muestras/ediciones no equivalen al autógrafo | `SRC-MED-SA-VIENNA-CARAKA-2009`, `SRC-MED-SA-SARIT-CARAKA-2012` | A/B documental | AUDITADO |
+| `TIME-MED-SA-HOSPITALS-REVIEW-001` | 2022 | revisión separa idea textual, política, edificio e institución | depende de archivo y función por caso | `SRC-MED-SA-WUJASTYK-HOSPITALS-2022` | A método/B histórico | AUDITADO |
+| `TIME-MED-SA-SURGERY-EDITION-001` | 2023 | edición nepalesa publica variantes de reparación auricular y nasal | texto no aporta serie de resultados | `SRC-MED-SA-WUJASTYK-SURGERY-2023` | A/B documental | AUDITADO |
+| `TIME-MED-SA-SUSRUTA-PROJECT1-001` | 2024 | Suśruta Project 1 completa la transcripción diplomática de los testigos nepaleses | edición abierta; original perdido | `SRC-MED-SA-SUSRUTA-PROJECT1-2026` | A documental/B textual | AUDITADO |
+| `TIME-MED-SA-TRANSLATION-2025-001` | 2025 | análisis compara estrategias chinas de traducción médica | corpus budista seleccionado | `SRC-MED-SA-LU-2025` | B histórico | AUDITADO |
+| `TIME-MED-SA-SUSRUTA-DATE-2026-001` | 2026 | balance filológico rechaza 600 a. e. c. como fecha segura de un autor único | conclusión vigente, revisable por nuevos testigos | `SRC-MED-SA-WUJASTYK-DATE-2026` | B histórico | AUDITADO |

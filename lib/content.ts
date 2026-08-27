@@ -67,6 +67,10 @@ export function fileToSlug(file: string): string {
   return file.replace(/\.md$/, "");
 }
 
+export function isResearchDocument(file: string): boolean {
+  return /(^|[\\/])INVESTIGACION_(?:\d{3}|[A-Z][A-Z0-9]{1,7}_\d{3})_/.test(file);
+}
+
 let generatedIndexCache: GeneratedIndexRecord[] | null = null;
 const CACHE_INDEX = process.env.NODE_ENV === "production";
 
@@ -308,7 +312,7 @@ async function buildDoc(slug: string): Promise<ContentDocument | null> {
   if (!doc) return null;
   const raw = fs.readFileSync(path.join(GENERATED_DOCUMENTS_DIR, doc.generatedFile), "utf8");
   const { content, data } = matter(raw);
-  const isResearch = /(^|\/)INVESTIGACION_(?:\d{3}|CIV_\d{3})_/i.test(doc.file);
+  const isResearch = isResearchDocument(doc.file);
   const processed = await processorFor(doc.file, isResearch).process(content);
   const html = String(processed);
   let readerSections: ContentDocument["readerSections"];

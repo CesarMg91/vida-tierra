@@ -1,7 +1,16 @@
 import assert from "node:assert/strict";
 import test from "node:test";
 import { formatCitation } from "../lib/citations.ts";
-import { extractMarkdownSection, renderMarkdownForTest } from "../lib/content.ts";
+import { extractMarkdownSection, isResearchDocument, renderMarkdownForTest } from "../lib/content.ts";
+
+test("el lector reconoce investigaciones globales y líneas temáticas canónicas", () => {
+  assert.equal(isResearchDocument("02_formacion_tierra/INVESTIGACION_001_EDAD_TIERRA.md"), true);
+  assert.equal(isResearchDocument("14_civilizaciones/INVESTIGACION_CIV_003_MESOPOTAMIA.md"), true);
+  assert.equal(isResearchDocument("15_medicina/INVESTIGACION_MED_005_ASIA_MERIDIONAL.md"), true);
+  assert.equal(isResearchDocument("16_fisica/INVESTIGACION_FIS_001_MEDICION.md"), true);
+  assert.equal(isResearchDocument("15_medicina/INVESTIGACION_med_005_INVALIDA.md"), false);
+  assert.equal(isResearchDocument("15_medicina/HISTORIA_MED_005_ASIA_MERIDIONAL.md"), false);
+});
 
 test("las capas breves se extraen por estructura Markdown y no rompen tablas", () => {
   const markdown = `# Investigación

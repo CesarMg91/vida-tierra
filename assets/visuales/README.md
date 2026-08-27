@@ -869,3 +869,15 @@ La portada es una composición no probatoria: fragmentos, muestra, objetos, mate
 Salida original aprobada sin edición: `C:\Users\HUAWEI\.codex\generated_images\019fedb0-8f24-7e33-8d16-d2418ba3378e\exec-b3845f64-ec56-48df-8655-fdac6e2e5884.png` → `assets/visuales/hero-med-004-mesopotamia-nilo.png`; tamaño `2,624,607` bytes. El prompt completo y los límites están en `ATLAS_VISUAL.md`, sección 59.
 
 La portada separa físicamente fragmentos genéricos de arcilla y papiro; no reproduce piezas identificables ni ofrece texto legible. Los SVG incluyen `title` y `desc`, no convierten documento en práctica y no producen consejos clínicos.
+
+## MED-005 — Asia meridional
+
+| Archivo | Origen | Dimensiones | SHA-256 / trazabilidad | Límite |
+|---|---|---:|---|---|
+| `hero-med-005-asia-meridional.png` | OpenAI ImageGen, generación nueva del 2026-08-27 | `1672 × 941` | `5bf703e27044e5ca1354db608663f09e728240ec525ed10d37d2a500e45ac8f7` | composición conceptual; no colección, escritura, cronología, transmisión o práctica reales |
+| `cadena-testimonio-practica-med-005.svg` | SVG manual determinista | `1600 × 900` | código fuente versionado | seis capas inferenciales; no herencia automática |
+| `matriz-archivos-asia-meridional-med-005.svg` | SVG manual determinista | `1600 × 900` | código fuente versionado | productos y límites; no ranking ni cronología continua |
+
+Salida original aprobada sin edición: `C:\Users\HUAWEI\.codex\generated_images\019fedb0-8f24-7e33-8d16-d2418ba3378e\exec-54e69a98-2155-4c2e-9b9c-4ad150595ad8.png` → `assets/visuales/hero-med-005-asia-meridional.png`; tamaño `2,278,946` bytes. El prompt completo y los límites están en `ATLAS_VISUAL.md`, sección 60.
+
+La portada separa físicamente folios genéricos, corteza, piedra y modelos didácticos; no reproduce piezas identificables ni ofrece texto legible. Los SVG incluyen `title` y `desc`, separan copia, composición, práctica y consecuencia, y no producen consejos clínicos.
