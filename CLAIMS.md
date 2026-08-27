@@ -4217,3 +4217,28 @@ Las entradas cronológicas todavía no auditadas permanecen como eventos `SEMILL
 | `CLAIM-MED-HIST-VISIBILITY-001` | Los archivos conservados seleccionan tejidos, supervivientes, entierros, colecciones y regiones; ausencia de señal no demuestra ausencia de cuidado o enfermedad. | A método/B alcance | AUDITADO | `EVID-MED-HIST-OSTEOLOGY-001`, `EVID-MED-HIST-BIOMOLECULAR-001` | INV-MED-ORIGINS-001 |
 | `CLAIM-MED-HIST-NO-BIRTHDATE-001` | Ninguna muestra o texto fecha un acontecimiento operacional único llamado nacimiento de la medicina; «primero conocido» es un límite del archivo. | A-SEM | AUDITADO | `EVID-MED-HIST-SYNTHESIS-001` | INV-MED-ORIGINS-001 |
 | `CLAIM-MED-HIST-NONLINEAR-001` | La historia mundial de la medicina no forma una escala universal de progreso: conserva trayectorias regionales, circulación, pérdidas, coerción y cambios de producto. | A-SEM/B histórico | AUDITADO | `EVID-MED-HIST-SYNTHESIS-001` | INV-MED-ORIGINS-001 |
+
+
+## MED-004 — Mesopotamia y valle del Nilo
+
+| ID | Afirmación delimitada | Confianza | Estado | Evidencias principales | Investigación |
+|---|---|---|---|---|---|
+| `CLAIM-MED-ANE-ARCHIVE-001` | Tablilla, papiro, ostracon, ley, carta y cuerpo son archivos con productos distintos; ninguno hereda automáticamente práctica o efecto. | A-SEM | AUDITADO | `EVID-MED-ANE-METHOD-001` | `INV-MED-ANE-001` |
+| `CLAIM-MED-ANE-COPY-001` | Fecha material, fecha de copia, composición propuesta y uso son cronologías distintas. | A método | AUDITADO | `EVID-MED-ANE-METHOD-001` | `INV-MED-ANE-001` |
+| `CLAIM-MED-ANE-GENRE-001` | Receta, pronóstico, carta, norma y registro laboral responden preguntas distintas y no comparten denominador. | A-SEM | AUDITADO | `EVID-MED-ANE-GENRES-001` | `INV-MED-ANE-001` |
+| `CLAIM-MED-ANE-MAGIC-BINARY-001` | “Magia” y “medicina racional” no describen cajas históricas opuestas: observación, preparados, recitación y ritual coexisten. | A/B histórico | AUDITADO | `EVID-MED-ANE-ROLES-001` | `INV-MED-ANE-001` |
+| `CLAIM-MED-MESO-CORPUS-001` | La Enciclopedia Médica de Nínive es una compilación neoasiria estructurada sobre tradiciones anteriores; no fecha el comienzo de la terapéutica. | A/B documental | AUDITADO | `EVID-MED-MESO-NINMED-001` | `INV-MED-ANE-001` |
+| `CLAIM-MED-MESO-ROLES-001` | Āšipu y asû presentan diferencias y solapamientos variables; traducirlos como mago y médico modernos crea fronteras demasiado rígidas. | B histórico | AUDITADO | `EVID-MED-ANE-ROLES-001`, `EVID-MED-ANE-COURT-001` | `INV-MED-ANE-001` |
+| `CLAIM-MED-MESO-DIAGNOSIS-001` | Sakikkû organiza signos, etiologías y pronósticos en una epistemología propia; no entrega diagnósticos biomédicos transparentes. | B documental | AUDITADO | `EVID-MED-MESO-SAKIKKU-001` | `INV-MED-ANE-001` |
+| `CLAIM-MED-MESO-THERAPY-001` | Textos terapéuticos conservan ingredientes, procesamiento y vías; etiquetas de “probado” no suministran comparador, denominador o daños. | B documental/A límite | AUDITADO | `EVID-MED-MESO-THERAPY-001` | `INV-MED-ANE-001` |
+| `CLAIM-MED-MESO-PRACTICE-001` | Cartas de corte documentan consultas y decisiones situadas, pero seleccionan élites y episodios comunicables. | B-LOCAL | AUDITADO | `EVID-MED-ANE-COURT-001` | `INV-MED-ANE-001` |
+| `CLAIM-MED-MESO-LAW-001` | Las leyes de Hammurabi 215–223 representan honorarios y consecuencias jerárquicos; no prueban aplicación uniforme ni cobertura. | A documental/B interpretación | AUDITADO | `EVID-MED-MESO-HAMMURABI-001` | `INV-MED-ANE-001` |
+| `CLAIM-MED-EGY-CORPUS-001` | Los papiros egipcios conservan géneros, fechas y procedencias distintas; no constituyen una medicina nacional uniforme durante milenios. | A/B documental | AUDITADO | `EVID-MED-EGY-PAPYRI-001` | `INV-MED-ANE-001` |
+| `CLAIM-MED-EGY-TRAUMA-001` | Edwin Smith documenta estructura textual de examen, juicio, pronóstico y tratamiento; no demuestra resultados ni el nacimiento de la cirugía. | B documental/A límite | AUDITADO | `EVID-MED-EGY-SMITH-001` | `INV-MED-ANE-001` |
+| `CLAIM-MED-EGY-REPRODUCTION-001` | UC 32057 documenta categorías y procedimientos reproductivos; no prueba exactitud, ejecución, experiencia de pacientes o autoría femenina. | B documental | AUDITADO | `EVID-MED-EGY-LAHUN-001` | `INV-MED-ANE-001` |
+| `CLAIM-MED-EGY-ROLES-001` | Los títulos hacen visibles especialistas de élite pero subrepresentan cuidado doméstico, partería y actores sin titulatura. | B histórico | AUDITADO | `EVID-MED-EGY-TITLES-001` | `INV-MED-ANE-001` |
+| `CLAIM-MED-EGY-DEIR-001` | Deir el-Medina documenta ausencia por enfermedad y redes de apoyo en una comunidad estatal especializada; no representa todo Egipto. | B-LOCAL | AUDITADO | `EVID-MED-EGY-DEIR-001` | `INV-MED-ANE-001` |
+| `CLAIM-MED-EGY-BODIES-001` | Restos y CT muestran patología e intervención posible bajo fuerte selección; rara vez conectan una lesión con una receta o causa de muerte. | B-COND | AUDITADO | `EVID-MED-EGY-BODIES-001`, `EVID-MED-EGY-DENTAL-001` | `INV-MED-ANE-001` |
+| `CLAIM-MED-ANE-EFFICACY-001` | Texto preciso o ingrediente bioactivo hoy no demuestra eficacia histórica de una fórmula: especie, dosis, preparación, indicación, desenlace y daños pueden faltar. | A-SEM | AUDITADO | `EVID-MED-ANE-EFFICACY-001` | `INV-MED-ANE-001` |
+| `CLAIM-MED-ANE-CIRCULATION-001` | Cartas prueban circulación situada de especialistas y sustancias entre cortes; similitud aislada no demuestra transmisión, dirección o escala. | B histórico | AUDITADO | `EVID-MED-ANE-CIRCULATION-001` | `INV-MED-ANE-001` |
+| `CLAIM-MED-ANE-NONRANKING-001` | Mesopotamia y el valle del Nilo deben compararse por archivo y producto, no mediante una escala universal de avance o prioridad. | A-SEM | AUDITADO | `EVID-MED-ANE-SYNTHESIS-001` | `INV-MED-ANE-001` |

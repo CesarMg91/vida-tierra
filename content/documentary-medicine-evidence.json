@@ -1,0 +1,316 @@
+{
+  "schemaVersion": 1,
+  "researchSlug": "15_medicina/INVESTIGACION_MED_004_MESOPOTAMIA_VALLE_NILO",
+  "cases": [
+    {
+      "id": "nineveh-encyclopaedia",
+      "title": "Nínive — una enciclopedia reconstruida",
+      "region": "Mesopotamia septentrional",
+      "archive": "Fragmentos, duplicados, colofones y catálogo de una compilación real",
+      "layers": [
+        {
+          "kind": "object",
+          "observed": "Fragmentos neoasirios conservan tratados reunidos en la biblioteca de Asurbanipal.",
+          "inference": "Existen testigos materiales situados de una compilación médica real.",
+          "limit": "La fecha de las tablillas no fecha el comienzo de las tradiciones copiadas.",
+          "claimIds": ["CLAIM-MED-ANE-ARCHIVE-001"],
+          "evidenceIds": ["EVID-MED-MESO-NINMED-001"],
+          "sourceIds": ["SRC-MED-ANE-NINMED-PROJECT-2022"]
+        },
+        {
+          "kind": "text",
+          "observed": "Duplicados, uniones y catálogos permiten restaurar pasajes y ordenarlos.",
+          "inference": "Puede reconstruirse parcialmente una arquitectura de doce tratados.",
+          "limit": "La restauración depende de testigos fragmentarios y puede cambiar con nuevos joins.",
+          "claimIds": ["CLAIM-MED-ANE-COPY-001"],
+          "evidenceIds": ["EVID-MED-MESO-NINMED-001"],
+          "sourceIds": ["SRC-MED-ANE-NINMED-CORPUS-2022"]
+        },
+        {
+          "kind": "genre",
+          "observed": "Tratados terapéuticos organizan afecciones y procedimientos de la cabeza a los pies.",
+          "inference": "La compilación expresa trabajo erudito y una clasificación textual.",
+          "limit": "Manual, catálogo y texto escolar no equivalen automáticamente a historia clínica.",
+          "claimIds": ["CLAIM-MED-MESO-CORPUS-001"],
+          "evidenceIds": ["EVID-MED-MESO-NINMED-001"],
+          "sourceIds": ["SRC-MED-ANE-GELLER-2010"]
+        },
+        {
+          "kind": "circulation",
+          "observed": "Recensiones regionales y materiales anteriores fueron reunidos bajo patronazgo real.",
+          "inference": "Hubo transmisión, selección y estandarización entre escribas.",
+          "limit": "El archivo palaciego no mide acceso doméstico ni cobertura regional.",
+          "claimIds": ["CLAIM-MED-MESO-CORPUS-001"],
+          "evidenceIds": ["EVID-MED-MESO-NINMED-001"],
+          "sourceIds": ["SRC-MED-ANE-PANAYOTOV-2016"]
+        },
+        {
+          "kind": "practice",
+          "observed": "Los textos describen trituración, cocción, vendajes, gotas, fumigaciones y recitaciones.",
+          "inference": "Puede reconstruirse un repertorio técnico escrito.",
+          "limit": "Una operación copiada no prueba ejecución, frecuencia o destinatario.",
+          "claimIds": ["CLAIM-MED-MESO-THERAPY-001"],
+          "evidenceIds": ["EVID-MED-MESO-THERAPY-001"],
+          "sourceIds": ["SRC-MED-ANE-NINMED-TECHNIQUES-2022"]
+        },
+        {
+          "kind": "consequence",
+          "observed": "Algunos pasajes califican remedios como probados, sin comparadores ni desenlaces atribuibles.",
+          "inference": "El texto conserva una afirmación histórica de autoridad o experiencia.",
+          "limit": "No demostrado: efecto causal, daños, dosis efectiva o beneficio poblacional.",
+          "claimIds": ["CLAIM-MED-ANE-EFFICACY-001"],
+          "evidenceIds": ["EVID-MED-ANE-EFFICACY-001"],
+          "sourceIds": ["SRC-MED-ANE-NINMED-TECHNIQUES-2022"]
+        }
+      ]
+    },
+    {
+      "id": "sakikku-diagnostic-series",
+      "title": "Sakikkû — clasificar no es diagnosticar hoy",
+      "region": "Mesopotamia",
+      "archive": "Serie diagnóstica fragmentaria, duplicados y nuevos joins",
+      "layers": [
+        {
+          "kind": "object",
+          "observed": "Múltiples tablillas y fragmentos conservan capítulos de la serie Sakikkû.",
+          "inference": "La serie tuvo testigos materiales y transmisión escrita.",
+          "limit": "El corpus está incompleto y sus piezas no proceden de un solo contexto.",
+          "claimIds": ["CLAIM-MED-ANE-ARCHIVE-001"],
+          "evidenceIds": ["EVID-MED-MESO-SAKIKKU-001"],
+          "sourceIds": ["SRC-MED-ANE-HEESSEL-2025"]
+        },
+        {
+          "kind": "text",
+          "observed": "Nuevos testigos y uniones modificaron en 2025 la reconstrucción de capítulos 1–6.",
+          "inference": "La edición crítica mejora al sumar relaciones físicas y textuales.",
+          "limit": "La reconstrucción vigente no es una copia intacta ni definitiva.",
+          "claimIds": ["CLAIM-MED-ANE-COPY-001"],
+          "evidenceIds": ["EVID-MED-MESO-SAKIKKU-001"],
+          "sourceIds": ["SRC-MED-ANE-HEESSEL-2025"]
+        },
+        {
+          "kind": "genre",
+          "observed": "Enunciados condicionales relacionan signos, agentes causales y pronósticos.",
+          "inference": "Sakikkû organiza observación y juicio dentro de una epistemología propia.",
+          "limit": "Sus categorías no se traducen transparentemente a diagnósticos biomédicos.",
+          "claimIds": ["CLAIM-MED-MESO-DIAGNOSIS-001"],
+          "evidenceIds": ["EVID-MED-MESO-SAKIKKU-001"],
+          "sourceIds": ["SRC-MED-ANE-GELLER-2010"]
+        },
+        {
+          "kind": "circulation",
+          "observed": "Duplicados y comentarios muestran copia y enseñanza entre escribas.",
+          "inference": "Hubo transmisión escolar de secuencias diagnósticas.",
+          "limit": "Copiar o enseñar no demuestra uso junto a pacientes.",
+          "claimIds": ["CLAIM-MED-MESO-DIAGNOSIS-001"],
+          "evidenceIds": ["EVID-MED-MESO-SAKIKKU-001"],
+          "sourceIds": ["SRC-MED-ANE-SCURLOCK-2014"]
+        },
+        {
+          "kind": "practice",
+          "observed": "La serie prescribe qué observar y qué pronóstico enunciar.",
+          "inference": "Puede estudiarse un ideal escrito de evaluación.",
+          "limit": "No identifica cuántas evaluaciones ocurrieron ni quiénes fueron examinados.",
+          "claimIds": ["CLAIM-MED-MESO-DIAGNOSIS-001"],
+          "evidenceIds": ["EVID-MED-MESO-SAKIKKU-001"],
+          "sourceIds": ["SRC-MED-ANE-GELLER-2010"]
+        },
+        {
+          "kind": "consequence",
+          "observed": "Los pronósticos pertenecen al texto; no sobreviven seguimientos comparables.",
+          "inference": "Puede analizarse la lógica pronóstica histórica.",
+          "limit": "No demostrado: exactitud, utilidad clínica o efecto sobre supervivencia.",
+          "claimIds": ["CLAIM-MED-ANE-EFFICACY-001"],
+          "evidenceIds": ["EVID-MED-ANE-EFFICACY-001"],
+          "sourceIds": ["SRC-MED-ANE-GELLER-2010"]
+        }
+      ]
+    },
+    {
+      "id": "hammurabi-legal-passages",
+      "title": "Hammurabi 215–223 — norma no es frecuencia",
+      "region": "Babilonia",
+      "archive": "Colección normativa monumental y traducciones jurídicas",
+      "layers": [
+        {
+          "kind": "object",
+          "observed": "Una estela y copias posteriores conservan una colección atribuida a Hammurabi.",
+          "inference": "Existe un programa normativo real con historia material.",
+          "limit": "El monumento no es un registro de procedimientos realizados.",
+          "claimIds": ["CLAIM-MED-ANE-ARCHIVE-001"],
+          "evidenceIds": ["EVID-MED-MESO-HAMMURABI-001"],
+          "sourceIds": ["SRC-MED-ANE-HAMMURABI-ROTH-1995"]
+        },
+        {
+          "kind": "text",
+          "observed": "Los parágrafos describen acciones del asû, honorarios y consecuencias.",
+          "inference": "Pueden compararse formulaciones jurídicas por acción y estatus.",
+          "limit": "Traducción, restitución y contexto condicionan cada equivalencia.",
+          "claimIds": ["CLAIM-MED-MESO-LAW-001"],
+          "evidenceIds": ["EVID-MED-MESO-HAMMURABI-001"],
+          "sourceIds": ["SRC-MED-ANE-NINMED-SURGERY-2022"]
+        },
+        {
+          "kind": "genre",
+          "observed": "El pasaje pertenece a una colección que representa orden y justicia reales.",
+          "inference": "Documenta una valoración normativa jerárquica del cuerpo y el trabajo.",
+          "limit": "Una norma no es tabla de honorarios observados ni código profesional moderno.",
+          "claimIds": ["CLAIM-MED-ANE-GENRE-001", "CLAIM-MED-MESO-LAW-001"],
+          "evidenceIds": ["EVID-MED-ANE-GENRES-001", "EVID-MED-MESO-HAMMURABI-001"],
+          "sourceIds": ["SRC-MED-ANE-HAMMURABI-ROTH-1995"]
+        },
+        {
+          "kind": "circulation",
+          "observed": "La colección fue copiada fuera de su inscripción monumental.",
+          "inference": "El texto tuvo recepción jurídica y escolar.",
+          "limit": "Recepción textual no demuestra aplicación homogénea.",
+          "claimIds": ["CLAIM-MED-MESO-LAW-001"],
+          "evidenceIds": ["EVID-MED-MESO-HAMMURABI-001"],
+          "sourceIds": ["SRC-MED-ANE-HAMMURABI-ROTH-1995"]
+        },
+        {
+          "kind": "practice",
+          "observed": "Las cláusulas presuponen acciones atribuibles a un asû.",
+          "inference": "Es legítimo inferir categorías normativas de trabajo especializado.",
+          "limit": "No ofrece denominador, expediente judicial ni tasa de ejecución.",
+          "claimIds": ["CLAIM-MED-MESO-LAW-001"],
+          "evidenceIds": ["EVID-MED-MESO-HAMMURABI-001"],
+          "sourceIds": ["SRC-MED-ANE-NINMED-SURGERY-2022"]
+        },
+        {
+          "kind": "consequence",
+          "observed": "El texto prescribe pagos o sanciones según resultado y estatus.",
+          "inference": "La consecuencia jurídica imaginada estaba estratificada.",
+          "limit": "No demostrado: cumplimiento, cobertura, calidad o resultado sanitario real.",
+          "claimIds": ["CLAIM-MED-MESO-LAW-001"],
+          "evidenceIds": ["EVID-MED-MESO-HAMMURABI-001"],
+          "sourceIds": ["SRC-MED-ANE-HAMMURABI-ROTH-1995"]
+        }
+      ]
+    },
+    {
+      "id": "edwin-smith-papyrus",
+      "title": "Edwin Smith — caso escrito no es resultado",
+      "region": "Valle del Nilo",
+      "archive": "Rollo con 48 casos traumáticos y capas compositivas discutidas",
+      "layers": [
+        {
+          "kind": "object",
+          "observed": "El rollo conservado es una copia del segundo milenio a. e. c.",
+          "inference": "Puede fecharse y describirse el objeto material existente.",
+          "limit": "La fecha del rollo no fija por sí sola la composición de cada pasaje.",
+          "claimIds": ["CLAIM-MED-ANE-COPY-001"],
+          "evidenceIds": ["EVID-MED-EGY-SMITH-001"],
+          "sourceIds": ["SRC-MED-EGY-UCL-HEALING-2002"]
+        },
+        {
+          "kind": "text",
+          "observed": "Conserva 48 casos, glosas y una secuencia incompleta desde la cabeza.",
+          "inference": "La arquitectura textual y sus repeticiones son analizables.",
+          "limit": "Lagunas, traducción y estratos impiden tratarlo como una voz única.",
+          "claimIds": ["CLAIM-MED-EGY-TRAUMA-001"],
+          "evidenceIds": ["EVID-MED-EGY-SMITH-001"],
+          "sourceIds": ["SRC-MED-EGY-NYAM-SMITH-2010"]
+        },
+        {
+          "kind": "genre",
+          "observed": "Muchos casos articulan título, examen, juicio, pronóstico y tratamiento.",
+          "inference": "Conserva razonamiento estructurado sobre trauma.",
+          "limit": "El formato no equivale a expediente clínico longitudinal moderno.",
+          "claimIds": ["CLAIM-MED-EGY-TRAUMA-001"],
+          "evidenceIds": ["EVID-MED-EGY-SMITH-001"],
+          "sourceIds": ["SRC-MED-EGY-VANMID-2010"]
+        },
+        {
+          "kind": "circulation",
+          "observed": "El rollo copia y comenta materiales cuya historia anterior se discute.",
+          "inference": "Hubo transmisión y trabajo editorial antes de la copia conservada.",
+          "limit": "No puede inferirse continuidad inalterada ni acceso poblacional.",
+          "claimIds": ["CLAIM-MED-ANE-COPY-001"],
+          "evidenceIds": ["EVID-MED-ANE-METHOD-001"],
+          "sourceIds": ["SRC-MED-EGY-QUIRKE-2020"]
+        },
+        {
+          "kind": "practice",
+          "observed": "El texto prescribe examen, vendajes, observación o no intervención.",
+          "inference": "Puede reconstruirse un repertorio escrito de manejo del trauma.",
+          "limit": "No sobreviven operador, paciente, ejecución o frecuencia para la mayoría.",
+          "claimIds": ["CLAIM-MED-EGY-TRAUMA-001"],
+          "evidenceIds": ["EVID-MED-EGY-SMITH-001"],
+          "sourceIds": ["SRC-MED-EGY-UCL-HEALING-2002"]
+        },
+        {
+          "kind": "consequence",
+          "observed": "Juicios pronósticos y tratamientos no incluyen desenlaces comparativos.",
+          "inference": "Puede estudiarse qué resultado anticipaba el texto.",
+          "limit": "No demostrado: eficacia, seguridad ni nacimiento de la cirugía.",
+          "claimIds": ["CLAIM-MED-ANE-EFFICACY-001"],
+          "evidenceIds": ["EVID-MED-ANE-EFFICACY-001"],
+          "sourceIds": ["SRC-MED-EGY-VANMID-2010"]
+        }
+      ]
+    },
+    {
+      "id": "deir-el-medina-absence",
+      "title": "Deir el-Medina — una comunidad situada",
+      "region": "Alto Egipto",
+      "archive": "Ostraca, cartas, restos y redes de una comunidad estatal",
+      "layers": [
+        {
+          "kind": "object",
+          "observed": "Ostraca conservan 69 anotaciones de ausencia analizadas como enfermedad.",
+          "inference": "Existen testimonios situados de interrupciones del trabajo.",
+          "limit": "El archivo selecciona trabajadores y categorías registrables.",
+          "claimIds": ["CLAIM-MED-EGY-DEIR-001"],
+          "evidenceIds": ["EVID-MED-EGY-DEIR-001"],
+          "sourceIds": ["SRC-MED-EGY-AUSTIN-SICK-2015"]
+        },
+        {
+          "kind": "text",
+          "observed": "Las entradas identifican días, personas y motivos con resolución desigual.",
+          "inference": "Pueden contarse patrones bajo la escala temporal elegida.",
+          "limit": "Una ausencia no entrega diagnóstico, gravedad o experiencia.",
+          "claimIds": ["CLAIM-MED-ANE-GENRE-001"],
+          "evidenceIds": ["EVID-MED-ANE-GENRES-001"],
+          "sourceIds": ["SRC-MED-EGY-AUSTIN-SICK-2015"]
+        },
+        {
+          "kind": "genre",
+          "observed": "Son documentos laborales, no historias clínicas.",
+          "inference": "Informan cómo una administración hizo visible la enfermedad.",
+          "limit": "No son prevalencia sin población, tiempo en riesgo y reglas de registro.",
+          "claimIds": ["CLAIM-MED-ANE-GENRE-001"],
+          "evidenceIds": ["EVID-MED-ANE-GENRES-001"],
+          "sourceIds": ["SRC-MED-EGY-AUSTIN-SICK-2015"]
+        },
+        {
+          "kind": "circulation",
+          "observed": "Registros, cartas, raciones y redes familiares se cruzan en el sitio.",
+          "inference": "Puede reconstruirse un entorno social de apoyo parcialmente subsidiado.",
+          "limit": "Deir el-Medina no representa hogares rurales ni todo Egipto.",
+          "claimIds": ["CLAIM-MED-EGY-DEIR-001"],
+          "evidenceIds": ["EVID-MED-EGY-DEIR-001"],
+          "sourceIds": ["SRC-MED-EGY-AUSTIN-SDOH-2026"]
+        },
+        {
+          "kind": "practice",
+          "observed": "Ausencias, especialistas, raciones y ayuda aparecen en archivos complementarios.",
+          "inference": "La enfermedad alteró trabajo y activó respuestas situadas.",
+          "limit": "No equivale a hospital, licencia universal o cobertura moderna.",
+          "claimIds": ["CLAIM-MED-EGY-DEIR-001"],
+          "evidenceIds": ["EVID-MED-EGY-DEIR-001"],
+          "sourceIds": ["SRC-MED-EGY-AUSTIN-OA-2016"]
+        },
+        {
+          "kind": "consequence",
+          "observed": "Los registros muestran tiempo perdido, no desenlaces clínicos comparables.",
+          "inference": "Puede estudiarse una consecuencia laboral y social.",
+          "limit": "No demostrado: eficacia, causa de cada ausencia o beneficio general.",
+          "claimIds": ["CLAIM-MED-ANE-EFFICACY-001", "CLAIM-MED-EGY-DEIR-001"],
+          "evidenceIds": ["EVID-MED-ANE-EFFICACY-001", "EVID-MED-EGY-DEIR-001"],
+          "sourceIds": ["SRC-MED-EGY-AUSTIN-SICK-2015"]
+        }
+      ]
+    }
+  ]
+}

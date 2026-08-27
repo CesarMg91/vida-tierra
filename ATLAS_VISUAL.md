@@ -913,3 +913,34 @@ La edición final se revisó a resolución original. No contiene personas, rostr
 El fragmento de la quinta bandeja quedó completamente liso, sin escritura, receta, etiqueta o inscripción. Las seis bandejas son no coetáneas y no forman una cronología; el hilo expresa trazabilidad editorial, no difusión o causalidad. El compartimento vacío representa visibilidad limitada del archivo.
 
 Los SVG se diseñaron a `1600 × 900` con `title`, `desc` y tipografía de reserva. Se rasterizaron e inspeccionaron a esa resolución: títulos, pies, paneles y bordes permanecen completos, legibles y sin recortes. La cadena marca rupturas entre seis capas; la matriz impide heredar diagnóstico, cuidado, intención, tratamiento, prevalencia o eficacia desde una sola huella. Ninguno calcula, recomienda o recibe datos personales.
+
+
+## 59. MED-004 — Un documento no es una práctica
+
+![Portada editorial de MED-004](assets/visuales/hero-med-004-mesopotamia-nilo.png)
+
+![Cadena desde objeto hasta consecuencia](assets/visuales/cadena-documento-practica-med-004.svg)
+
+![Matriz de archivos documentales](assets/visuales/matriz-archivos-med-004.svg)
+
+| Archivo | Tipo | Procedencia | Qué representa | Límite obligatorio |
+|---|---|---|---|---|
+| `hero-med-004-mesopotamia-nilo.png` | portada editorial conceptual | OpenAI ImageGen, generación nueva, 2026-08-27 | dos zonas separadas de fragmentos genéricos de arcilla y papiro | no colección, texto, sitio, periodo, sistema, práctica o efecto reales |
+| `cadena-documento-practica-med-004.svg` | diagrama epistemológico original | SVG manual del proyecto, 2026-08-27 | seis operaciones entre objeto, texto, género, circulación, práctica y consecuencia | las flechas no heredan fecha, acceso, ejecución o eficacia |
+| `matriz-archivos-med-004.svg` | matriz documental original | SVG manual del proyecto, 2026-08-27 | producto fuerte, inferencia y límite de cinco archivos | las filas no forman ranking, cronología ni prioridad cultural |
+
+### Procedencia de la portada
+
+Salida original aprobada sin edición: `C:\Users\HUAWEI\.codex\generated_images\019fedb0-8f24-7e33-8d16-d2418ba3378e\exec-b3845f64-ec56-48df-8655-fdac6e2e5884.png`. Destino: `assets/visuales/hero-med-004-mesopotamia-nilo.png`. Dimensiones: `1672 × 941`; tamaño: `2,624,607` bytes; SHA-256: `a1ba02c306de5b3e36449a1c3eb6597a160abd7096848687f7b2cb673c347851`.
+
+**Prompt de generación:**
+
+> Use case: historical-scene. Asset type: wide website hero and editorial cover for an audited history-of-medicine research dossier. Primary request: an original, museum-grade conservation-table still life that visually contrasts Mesopotamian and ancient Egyptian medical archives without implying that the objects belonged together or that a written recipe proves clinical practice. Scene/backdrop: dark obsidian conservation table divided subtly into two clearly separate archival zones, with neutral museum supports. Subject: on one zone, several incomplete generic clay tablet fragments with abstract cuneiform-like wedge impressions; on the other, several incomplete generic papyrus fragments and one small ostracon with faint non-readable marks; between them, neutral conservation tools, cotton thread, a scale card without numbers, and soft archival supports. Style/medium: highly realistic editorial museum photography, materially accurate clay, papyrus fibers and ceramic surfaces, restrained scientific-documentary aesthetic. Composition/framing: 16:9 landscape, slightly oblique top-down view, balanced central negative space for webpage overlay, all fragments separated and visibly incomplete, no single pristine “master text”. Lighting/mood: warm copper side light and cool mineral-green fill, low-key but legible, contemplative and rigorous rather than mystical. Color palette: parchment, obsidian, ink, copper, amber and mineral green. Materials/textures: chipped fired clay, fibrous aged papyrus, matte ceramic, acid-free supports, subtle dust only. Constraints: no people, no hands, no faces, no bodies, no mummies, no readable text, no legible hieroglyphs, no exact historical artifact reproduction, no anachronistic instruments, no decorative symbols, no maps, no labels, no logos, no watermark; do not merge clay and papyrus into one artifact; preserve clear physical separation between archives. Avoid: treasure-room fantasy, glowing magic, pristine scrolls, complete famous papyri, cinematic archaeology adventure, pseudo-hieroglyphic headlines, modern laboratory screens.
+
+### Revisión y límites
+
+La salida se inspeccionó completa. No contiene personas, cuerpos, momias, escenas clínicas, mapas, marcas, etiquetas o texto legible. La escala sin números y los instrumentos son utilería de conservación; no miden las piezas. Las marcas de los fragmentos son abstractas y no deben leerse como transcripción, diagnóstico, receta o contenido histórico. Arcilla y papiro permanecen en zonas físicas separadas.
+
+Los objetos son genéricos, incompletos y contemporáneos sólo como composición editorial. No reproducen Nínive, Sakikkû, las Leyes de Hammurabi, Ebers, Edwin Smith, Lahun o Deir el-Medina. Su cercanía no demuestra contacto, transmisión, sincronía, práctica o eficacia.
+
+Los SVG se construyeron a `1600 × 900` con `title`, `desc` y tipografía de reserva. La cadena marca cinco no-herencias; la matriz compara productos sin sumar puntuaciones. Ninguno calcula, diagnostica, recomienda o recibe datos personales.
