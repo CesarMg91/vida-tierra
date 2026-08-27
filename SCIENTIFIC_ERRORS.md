@@ -4167,3 +4167,21 @@ Riesgo basal, alternativas y preferencias cambian el balance. **Corrección:** s
 | `ERR-MED-HIST-FIRST-BIRTHDATE-001` | hallazgo antiguo = nacimiento de la medicina | no existe un acontecimiento operacional único | comparar archivos y trayectorias regionales | ACTIVO |
 | `ERR-MED-HIST-ABSENCE-001` | ausencia de señal = ausencia de cuidado o enfermedad | los archivos preservan tejidos y grupos selectivamente | declarar visibilidad y sesgo de muestra | ACTIVO |
 | `ERR-MED-HIST-PROGRESS-LADDER-001` | historia = escalera de superstición a ciencia | borra coexistencia, pérdida, coerción y circulación | usar cronologías regionales y productos comparables | ACTIVO |
+
+
+## Errores científicos que MED-004 debe impedir
+
+| ID | Error | Por qué falla | Corrección mínima | Estado |
+|---|---|---|---|---|
+| `ERR-MED-ANE-FIRST-MEDICINE-001` | una tablilla o papiro es el nacimiento de la medicina | primero conservado depende del archivo | declarar objeto y producto fechado | ACTIVO |
+| `ERR-MED-ANE-RANKING-001` | decidir qué civilización fue más avanzada | soportes y productos no son equivalentes | comparar dimensiones sin puntuación | ACTIVO |
+| `ERR-MED-ANE-MAGIC-SCIENCE-001` | separar magia irracional y medicina racional | categorías, agentes y acciones coexistían | describir epistemología histórica | ACTIVO |
+| `ERR-MED-MESO-ASU-ASHIPU-001` | asû = médico moderno y āšipu = mago | roles solapan y cambian por contexto | auditar título, repertorio y periodo | ACTIVO |
+| `ERR-MED-MESO-NINMED-BEGINNING-001` | Nínive inventó la terapéutica | compiló tradiciones anteriores | separar tradición, recensión y compilación | ACTIVO |
+| `ERR-MED-MESO-HAMMURABI-ENFORCEMENT-001` | la estela prueba un sistema de responsabilidad aplicado | norma monumental no es expediente judicial | buscar práctica y recepción independientes | ACTIVO |
+| `ERR-MED-EGY-SMITH-MODERN-SURGERY-001` | Edwin Smith es un manual quirúrgico moderno | estructura textual no equivale a práctica o resultado | conservar género, copia y límites | ACTIVO |
+| `ERR-MED-EGY-PAPYRUS-NATIONAL-001` | un papiro representa toda la medicina egipcia | conservación y procedencia son excepcionales | comparar corpus, fechas y regiones | ACTIVO |
+| `ERR-MED-EGY-DEIR-UNIVERSAL-001` | Deir el-Medina prueba sanidad universal | era comunidad especializada y estatal | generalizar sólo con sitios comparables | ACTIVO |
+| `ERR-MED-ANE-RECIPE-EFFECTIVE-001` | receta o ingrediente bioactivo = tratamiento eficaz | faltan dosis, ejecución, comparador y daños | separar texto, práctica y efecto | ACTIVO |
+| `ERR-MED-ANE-TITLE-COVERAGE-001` | título profesional = acceso poblacional | titulatura selecciona élites y no da denominador | buscar redes, hogares y distribución | ACTIVO |
+| `ERR-MED-EGY-MUMMY-POPULATION-001` | momias publicadas representan la población | selección mortuoria, museal y técnica | declarar muestra y sesgos | ACTIVO |

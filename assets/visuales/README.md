@@ -856,3 +856,16 @@ Los paneles incluyen puntos, líneas y barras abstractos sin ejes, números, uni
 La primera salida, `exec-b5e84a54-9c4c-479d-b17d-7630fb9254a6.png`, fue rechazada porque la quinta bandeja contenía pseudotexto demasiado reconocible. La edición final dejó ese fragmento completamente liso. El prompt inicial, la instrucción correctiva y los límites están registrados en `ATLAS_VISUAL.md`, sección 58.
 
 La portada es una composición no probatoria: fragmentos, muestra, objetos, material liso y bandeja vacía no forman una colección, sitio, periodo o sistema médico reales. Los SVG fueron rasterizados e inspeccionados a `1600 × 900`; no presentan recortes o texto ilegible.
+
+
+## MED-004 — Mesopotamia y valle del Nilo
+
+| Archivo | Origen | Dimensiones | SHA-256 / trazabilidad | Límite |
+|---|---|---:|---|---|
+| `hero-med-004-mesopotamia-nilo.png` | OpenAI ImageGen, generación nueva del 2026-08-27 | `1672 × 941` | `a1ba02c306de5b3e36449a1c3eb6597a160abd7096848687f7b2cb673c347851` | composición conceptual; no colección, texto, práctica o efecto reales |
+| `cadena-documento-practica-med-004.svg` | SVG manual determinista | `1600 × 900` | código fuente versionado | seis capas inferenciales; no herencia automática |
+| `matriz-archivos-med-004.svg` | SVG manual determinista | `1600 × 900` | código fuente versionado | productos y límites; no ranking |
+
+Salida original aprobada sin edición: `C:\Users\HUAWEI\.codex\generated_images\019fedb0-8f24-7e33-8d16-d2418ba3378e\exec-b3845f64-ec56-48df-8655-fdac6e2e5884.png` → `assets/visuales/hero-med-004-mesopotamia-nilo.png`; tamaño `2,624,607` bytes. El prompt completo y los límites están en `ATLAS_VISUAL.md`, sección 59.
+
+La portada separa físicamente fragmentos genéricos de arcilla y papiro; no reproduce piezas identificables ni ofrece texto legible. Los SVG incluyen `title` y `desc`, no convierten documento en práctica y no producen consejos clínicos.

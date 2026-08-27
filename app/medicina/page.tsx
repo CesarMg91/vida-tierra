@@ -4,8 +4,10 @@ import Link from "next/link";
 import { ArrowDown, ArrowRight, BookOpen, HeartPulse, ShieldCheck, Stethoscope } from "lucide-react";
 import ClinicalEvidenceLab from "../../components/ClinicalEvidenceLab";
 import DiagnosticEvidenceLab from "../../components/DiagnosticEvidenceLab";
+import DocumentaryMedicineLab from "../../components/DocumentaryMedicineLab";
 import HistoricalMedicineLab from "../../components/HistoricalMedicineLab";
 import { diagnosticEvidence } from "../../lib/diagnostic-evidence";
+import { documentaryMedicineEvidence } from "../../lib/documentary-medicine-evidence";
 import { historicalMedicineEvidence } from "../../lib/historical-medicine-evidence";
 import { medicineEvidence } from "../../lib/medicine-evidence";
 import { getCatalog } from "../../lib/public-data";
@@ -15,7 +17,7 @@ export const metadata: Metadata = createPageMetadata({
   title: "Historia de la medicina — archivos, cuidado y evidencia",
   description: "Cómo reconstruimos la historia mundial de la medicina desde huesos, biomoléculas, objetos y textos sin confundir huella, diagnóstico, práctica o eficacia.",
   pathname: "/medicina",
-  image: "/assets/visuales/hero-med-003-origenes-medicina.png",
+  image: "/assets/visuales/hero-med-004-mesopotamia-nilo.png",
 });
 
 const principles = [
@@ -32,8 +34,8 @@ export default function MedicinePage() {
     <div className="medicine-experience">
       <header className="medicine-hero medicine-history-hero">
         <Image
-          src="/assets/visuales/hero-med-003-origenes-medicina.png"
-          alt="Mesa de conservación con seis archivos materiales separados para investigar los orígenes de la medicina"
+          src="/assets/visuales/hero-med-004-mesopotamia-nilo.png"
+          alt="Mesa de conservación con fragmentos de tablillas y papiros separados para comparar archivos médicos antiguos"
           fill
           preload
           fetchPriority="high"
@@ -42,14 +44,14 @@ export default function MedicinePage() {
         <div className="medicine-hero-shade" />
         <div className="medicine-hero-copy">
           <p className="eyebrow">Historia mundial de la medicina</p>
-          <h1>No existe un fósil único</h1>
-          <p>De la huella superviviente al cuidado, la intervención y el sistema médico: una cronología global con cada salto inferencial a la vista.</p>
+          <h1>Un documento no es una práctica</h1>
+          <p>Tablillas, papiros, cartas, leyes, cuerpos y ostraca muestran partes distintas de la medicina documentada en Mesopotamia y el valle del Nilo.</p>
           <div>
-            <Link className="button button-primary" href="#historia">Abrir archivo histórico <ArrowDown aria-hidden="true" /></Link>
-            <Link className="medicine-text-link" href="/15_medicina/INVESTIGACION_MED_003_ORIGENES_ARCHIVO_CUIDADO">Leer MED-003 <ArrowRight aria-hidden="true" /></Link>
+            <Link className="button button-primary" href="#documentos">Seguir la cadena <ArrowDown aria-hidden="true" /></Link>
+            <Link className="medicine-text-link" href="/15_medicina/INVESTIGACION_MED_004_MESOPOTAMIA_VALLE_NILO">Leer MED-004 <ArrowRight aria-hidden="true" /></Link>
           </div>
         </div>
-        <p className="medicine-visual-limit">Composición editorial no probatoria; las bandejas no son coetáneas ni una colección arqueológica real.</p>
+        <p className="medicine-visual-limit">Composición editorial no probatoria: los fragmentos son genéricos, no coetáneos y no reproducen una colección arqueológica real.</p>
       </header>
 
       <section className="medicine-boundary">
@@ -60,6 +62,14 @@ export default function MedicinePage() {
       <section className="medicine-principles" aria-labelledby="medicine-principles-title">
         <header><p className="eyebrow">Contrato de lectura</p><h2 id="medicine-principles-title">Cuatro cortafuegos</h2></header>
         <div>{principles.map(([title, text], index) => <article key={title}><span>{String(index + 1).padStart(2, "0")}</span><h3>{title}</h3><p>{text}</p></article>)}</div>
+      </section>
+
+      <section className="medicine-lab-section documentary-lab-section" id="documentos" aria-labelledby="documentary-lab-title">
+        <div className="section-heading">
+          <div><p className="eyebrow">MED-004 · laboratorio documental</p><h2 id="documentary-lab-title">Del objeto a la consecuencia</h2></div>
+          <p>Elige un caso. Seis capas separan objeto, texto, género, circulación, práctica situada y consecuencia.</p>
+        </div>
+        <DocumentaryMedicineLab data={documentaryMedicineEvidence} />
       </section>
 
       <section className="medicine-lab-section historical-lab-section" id="historia" aria-labelledby="historical-lab-title">

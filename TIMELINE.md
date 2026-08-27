@@ -538,3 +538,29 @@ CIV-003 inaugura los expedientes regionales auditados. CIV-001 conserva `TRAZADO
 | `TIME-MED-HIST-GUT-2021` | 2021 | genomas microbianos reconstruidos de paleofeces | preservación excepcional y muestra regional | `SRC-MED-HIST-WIBOWO-2021` | B-LOCAL | AUDITADO |
 | `TIME-MED-HIST-BORNEO-2022` | 2022–2023 | publicación y debate de Liang Tebo | mecanismo exacto permanece abierto | `SRC-MED-HIST-MALONEY-2022`, `SRC-MED-HIST-MURPHY-2023`, `SRC-MED-HIST-VLOK-2023` | B-COND | AUDITADO |
 | `TIME-MED-HIST-PATHOGENS-2025` | 2025 | cribado de patógenos en 1,313 individuos antiguos | gran escala no elimina sesgo geográfico/funerario | `SRC-MED-HIST-SIKORA-2025` | B-REG | AUDITADO |
+
+
+## MED-004 — Hitos de la medicina documentada en Mesopotamia y el valle del Nilo
+
+| ID | Fecha/intervalo | Evento delimitado | Incertidumbre y evidencia | Fuente | Confianza | Estado |
+|---|---:|---|---|---|---|---|
+| `TIME-MED-ANE-SUMERIAN-RECIPES-001` | finales milenio III–inicios II a. e. c. | recetas terapéuticas sumerias conservadas | texto no fecha origen de práctica | `SRC-MED-ANE-SCURLOCK-2014` | B documental | AUDITADO |
+| `TIME-MED-EGY-LAHUN-001` | ca. 1850–1700 a. e. c. | UC 32057 registra salud reproductiva | aplicación y resultado desconocidos | `SRC-MED-EGY-KAHUN-UCL-2002` | B documental | AUDITADO |
+| `TIME-MED-MESO-HAMMURABI-001` | ca. 1792–1750 a. e. c. | leyes 215–223 regulan ciertas acciones del asû | aplicación no demostrada por estela | `SRC-MED-ANE-HAMMURABI-ROTH-1995` | A documental/B práctica | AUDITADO |
+| `TIME-MED-EGY-SMITH-001` | siglos XVII–XVI a. e. c. | copia de Edwin Smith conserva 48 casos | composición previa discutida | `SRC-MED-EGY-UCL-HEALING-2002`, `SRC-MED-EGY-NYAM-SMITH-2010` | B documental | AUDITADO |
+| `TIME-MED-EGY-EBERS-001` | último cuarto siglo XVI a. e. c. | rollo Ebers documenta centenares de unidades | pieza excepcional, no corpus completo | `SRC-MED-EGY-EBERS-LEIPZIG-2016` | A documental | AUDITADO |
+| `TIME-MED-ANE-CIRCULATION-001` | siglos XIV–XIII a. e. c. | cartas registran circulación cortesana de especialistas y sustancias | no difusión poblacional | `SRC-MED-ANE-EGY-CONTACTS-2020` | B histórico | AUDITADO |
+| `TIME-MED-EGY-DEIR-001` | siglos XIII–XI a. e. c. | ostraca registran enfermedad y ausencias | comunidad estatal especializada | `SRC-MED-EGY-AUSTIN-SICK-2015` | B-LOCAL | AUDITADO |
+| `TIME-MED-MESO-SAKIKKU-001` | ca. siglo XI a. e. c. | tradición canónica de Sakikkû | depende de testigos posteriores | `SRC-MED-ANE-GELLER-2010`, `SRC-MED-ANE-HEESSEL-2025` | B documental | AUDITADO |
+| `TIME-MED-MESO-NINMED-001` | siglo VII a. e. c. | compilación de Nínive organiza doce tratados | culminación real, no comienzo | `SRC-MED-ANE-NINMED-PROJECT-2022` | A/B documental | AUDITADO |
+| `TIME-MED-EGY-SMITH-MODERN-001` | 1862–1930 | compra, conservación y edición moderna de Edwin Smith | procedencia mediada por mercado | `SRC-MED-EGY-NYAM-SMITH-2010` | A documental | AUDITADO |
+| `TIME-MED-EGY-EBERS-MODERN-001` | 1872/73–1875 | adquisición y facsímil de Ebers | contexto de hallazgo incierto | `SRC-MED-EGY-EBERS-LEIPZIG-2016` | A documental | AUDITADO |
+| `TIME-MED-ANE-SAA-1993-001` | 1993 | SAA 10 publica cartas eruditas neoasirias | archivo cortesano | `SRC-MED-ANE-SAA10-P334526-1993` | A documental | AUDITADO |
+| `TIME-MED-EGY-HEADACHE-2001-001` | 2001 | crítica del diagnóstico de cefalea/migraña | corpus diminuto | `SRC-MED-EGY-KARENBERG-2001` | A método | AUDITADO |
+| `TIME-MED-EGY-UCL-2002-001` | 2002 | UCL publica manuscritos y cautelas en línea | traducciones revisables | `SRC-MED-EGY-UCL-HEALING-2002` | A documental | AUDITADO |
+| `TIME-MED-ANE-GELLER-2010-001` | 2010 | síntesis integra cartas, recetas y comentarios | interpretación dependiente del corpus | `SRC-MED-ANE-GELLER-2010` | B histórico | AUDITADO |
+| `TIME-MED-EGY-DEIR-2015-001` | 2015–2016 | ausencias y osteoartritis se analizan conjuntamente | sitio excepcional | `SRC-MED-EGY-AUSTIN-SICK-2015`, `SRC-MED-EGY-AUSTIN-OA-2016` | B-LOCAL | AUDITADO |
+| `TIME-MED-ANE-PANAYOTOV-2016-001` | 2016 | transmisión terapéutica estudiada por versiones | recepción no equivale a uso clínico | `SRC-MED-ANE-PANAYOTOV-2016` | B histórico | AUDITADO |
+| `TIME-MED-MESO-NINMED-DIGITAL-001` | 2022 | NinMed publica corpus y técnicas enlazables | lagunas persisten | `SRC-MED-ANE-NINMED-CORPUS-2022` | A/B documental | AUDITADO |
+| `TIME-MED-MESO-SAKIKKU-2025-001` | 2025 | nuevos testigos y joins revisan Sakikkû 1–6 | canon abierto | `SRC-MED-ANE-HEESSEL-2025` | B documental | AUDITADO |
+| `TIME-MED-EGY-SDOH-2026-001` | 2026 | determinantes sociales aplicados a Deir el-Medina | requiere comunidad contextualizada | `SRC-MED-EGY-AUSTIN-SDOH-2026` | B método/local | AUDITADO |

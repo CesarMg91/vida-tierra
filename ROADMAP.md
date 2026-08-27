@@ -219,11 +219,12 @@ Después de disponer de la secuencia base:
 | MED-001 | `INV-MED-INTERVENTIONS-001` | [efectos, comparadores, desenlaces, daños, cirugía y aplicabilidad](15_medicina/INVESTIGACION_MED_001_INTERVENCIONES_EFICACIA_DANOS.md) | **AUDITADO** |
 | MED-002 | `INV-MED-DIAGNOSTICS-001` | [uso previsto, exactitud, probabilidad, utilidad y consecuencias](15_medicina/INVESTIGACION_MED_002_PRUEBAS_DIAGNOSTICAS_DECISIONES.md) | **AUDITADO** |
 | MED-003 | `INV-MED-ORIGINS-001` | [archivos, cuidado, intervención, biomoléculas y límites del origen](15_medicina/INVESTIGACION_MED_003_ORIGENES_ARCHIVO_CUIDADO.md) | **AUDITADO** |
+| MED-004 | `INV-MED-ANE-001` | [Mesopotamia y valle del Nilo: tablillas, papiros, cuerpos, especialistas y prácticas](15_medicina/INVESTIGACION_MED_004_MESOPOTAMIA_VALLE_NILO.md) | **AUDITADO** |
 
-MED-001 y MED-002 establecen el laboratorio transversal para evaluar intervenciones y pruebas. MED-003 abre la secuencia histórica mundial y sustituye cualquier fecha de nacimiento única por una cadena de seis capas.
+MED-001 y MED-002 establecen el laboratorio transversal para evaluar intervenciones y pruebas. MED-003 abre la secuencia histórica mundial y sustituye cualquier fecha de nacimiento única por una cadena de seis capas. MED-004 audita los primeros archivos escritos densos de Mesopotamia y el valle del Nilo mediante la cadena objeto–texto–género–circulación–práctica–consecuencia.
 
 El programa MED-003–MED-033 está en [PROGRAMA_CRONOLOGICO_HISTORIA_MEDICINA.md](15_medicina/PROGRAMA_CRONOLOGICO_HISTORIA_MEDICINA.md), con contrato común en [ESTANDAR_EVIDENCIA_HISTORICA_MEDICINA.md](15_medicina/ESTANDAR_EVIDENCIA_HISTORICA_MEDICINA.md). CIV conserva su numeración, rutas y programa independiente; ninguna línea se cierra para abrir la otra.
 
-La siguiente investigación prevista es MED-004: Mesopotamia y valle del Nilo, donde cuerpos, objetos, archivos administrativos y textos terapéuticos coexistirán sin heredar automáticamente práctica o eficacia.
+La siguiente investigación prevista es MED-005: Asia meridional, donde se separarán cuerpo, texto, materia médica, tradición manuscrita y práctica situada sin proyectar retrospectivamente sistemas tardíos.
 
-Entregas públicas: MED-001 = `v0.3.0`; MED-002 = `v0.3.1`; MED-003 = `v0.3.2`.
+Entregas públicas: MED-001 = `v0.3.0`; MED-002 = `v0.3.1`; MED-003 = `v0.3.2`; MED-004 = `v0.3.3`.

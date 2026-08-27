@@ -1461,3 +1461,26 @@ Cada flecha puede romperse. Los cortafuegos principales son: lesión ≠ diagnó
 Man Bac modela dependencia y asistencia; Liang Tebo conserva un desacuerdo diagnóstico; las trepanaciones separan modificación, supervivencia e indicación; cálculo, paleofeces y ADN antiguo separan exposición, presencia molecular y escala poblacional; los textos añaden voces sin volverse expedientes clínicos transparentes.
 
 Véase 15_medicina/INVESTIGACION_MED_003_ORIGENES_ARCHIVO_CUIDADO.md, 22_mapas_epistemologicos/MAPA_MED_003_ORIGENES_MEDICINA.md, 21_cronologias/CRONOLOGIA_MED_003_ORIGENES_MEDICINA.md, assets/visuales/cadena-archivo-sistema-med-003.svg y assets/visuales/matriz-huellas-inferencias-med-003.svg.
+
+
+### MED-004 — Del documento a la práctica
+
+```text
+objeto conservado
+        ↓
+lectura + restauración
+        ↓
+género documental
+        ↓
+circulación + acceso
+        ↓
+práctica situada
+        ↓
+consecuencia observada
+```
+
+Los cortafuegos principales son: copia ≠ composición; receta ≠ uso; uso ≠ efecto; título ≠ profesión moderna; norma ≠ aplicación; ausencia laboral ≠ diagnóstico; cuerpo ≠ tratamiento; semejanza ≠ transmisión; primero conservado ≠ invención.
+
+Nínive sostiene corpus y técnica escrita, Sakikkû clasificación histórica, Hammurabi norma jerárquica, Edwin Smith estructura de caso, Lahun salud reproductiva documentada y Deir el-Medina práctica situada. Ninguno hereda cobertura o eficacia.
+
+Véase 15_medicina/INVESTIGACION_MED_004_MESOPOTAMIA_VALLE_NILO.md, 22_mapas_epistemologicos/MAPA_MED_004_MESOPOTAMIA_NILO.md, 21_cronologias/CRONOLOGIA_MED_004_MESOPOTAMIA_NILO.md, assets/visuales/cadena-documento-practica-med-004.svg y assets/visuales/matriz-archivos-med-004.svg.

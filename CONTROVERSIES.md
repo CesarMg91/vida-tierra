@@ -3225,3 +3225,17 @@ Emular un ensayo objetivo corrige errores de diseño, no confusión no medida. *
 | `CONT-MED-HIST-RETROSPECTIVE-DX-001` | traducción de textos a diagnósticos modernos | categoría histórica autónoma frente a correspondencia biomédica parcial | filología, contexto, conjunto sintomático y archivos independientes | ABIERTA POR PASAJE |
 | `CONT-MED-HIST-PATHOGEN-SCALE-001` | escala de una señal microbiana | presencia individual frente a enfermedad, epidemia o fecha de origen | tejido, lesiones, contexto, series representativas y filogenia | ABIERTA POR ESCALA |
 | `CONT-MED-HIST-ARCHIVE-BIAS-001` | representatividad del archivo médico antiguo | patrón real frente a preservación, excavación, colección y tecnología | muestreo multirregional, materiales alternativos y análisis de ausencia | ABIERTA |
+
+
+## Controversias de MED-004 — Mesopotamia y valle del Nilo
+
+| ID | Controversia | Posiciones plausibles | Evidencia que discrimina | Estado |
+|---|---|---|---|---|
+| `CONT-MED-ANE-ROLES-001` | frontera entre especialistas | oficios diferenciados frente a repertorios solapados y variables | cartas, colofones, títulos, recetas y contexto por periodo | ABIERTA POR REGIÓN |
+| `CONT-MED-MESO-SAKIKKU-001` | contorno y fecha del canon | edición estable frente a reconstrucción revisable | nuevos testigos, joins, catálogos y colofones | ABIERTA |
+| `CONT-MED-EGY-SMITH-COMPOSITION-001` | fecha de composición de Edwin Smith | copia del siglo XVII–XVI con capas anteriores de distinta antigüedad | paleografía, lengua, paralelos y estratigrafía textual | ABIERTA |
+| `CONT-MED-ANE-RETROSPECTIVE-DX-001` | equivalencia de categorías antiguas | correspondencia biomédica parcial frente a categoría histórica no traducible | conjunto de signos, filología, cuerpo y diferencial | ABIERTA POR PASAJE |
+| `CONT-MED-ANE-EFFICACY-001` | efecto de recetas antiguas | plausibilidad/actividad de componentes frente a eficacia histórica no demostrada | identificación, reconstrucción, dosis, comparador y daños | NO DEMOSTRADA |
+| `CONT-MED-EGY-DEIR-REPRESENTATION-001` | generalización desde Deir el-Medina | modelo de cuidado egipcio frente a comunidad estatal excepcional | sitios comparables, archivos domésticos y denominadores | ABIERTA |
+| `CONT-MED-EGY-INVISIBLE-CARE-001` | visibilidad de mujeres y cuidado doméstico | baja participación formal frente a subregistro por titulatura y soporte | hogares, cartas, objetos, restos y textos no oficiales | ABIERTA |
+| `CONT-MED-ANE-TRANSMISSION-001` | circulación regional | intercambio puntual frente a transmisión sostenida de repertorios | cronología, intermediarios, préstamos y cadenas textuales | ABIERTA |
