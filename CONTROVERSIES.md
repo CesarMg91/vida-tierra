@@ -3252,3 +3252,16 @@ Emular un ensayo objetivo corrige errores de diseño, no confusión no medida. *
 | `CONT-MED-SA-MATERIA-IDENTITY-001` | identidad de plantas y sustancias | taxón estable frente a nombres polisémicos, sustituciones y cambios regionales | especímenes, residuos, morfología, comentarios, procedencia y química | ABIERTA POR INGREDIENTE |
 | `CONT-MED-SA-HOSPITAL-FUNCTION-001` | función y alcance de instalaciones tempranas | hospital especializado frente a monasterio o complejo de función mixta | arquitectura, sellos en contexto, inscripciones, instrumental y residuos | ABIERTA POR SITIO |
 | `CONT-MED-SA-TRANSMISSION-001` | dirección y profundidad de transmisiones | traducción directa y redes sostenidas frente a préstamos selectivos y convergencia | pasajes paralelos, fechas, lenguas intermediarias y agentes identificables | ABIERTA POR RUTA |
+
+## Controversias de MED-006 — China y Asia oriental
+
+| ID | Controversia | Posiciones plausibles | Evidencia que discrimina | Estado |
+|---|---|---|---|---|
+| `CONT-MED-EA-NEIJING-DATE-001` | cronología de las capas del *Huangdi neijing* | materiales imperiales tempranos frente a recensiones y comentarios decisivos posteriores | manuscritos, citas fechadas, variantes y estratigrafía textual | ABIERTA POR ESTRATO |
+| `CONT-MED-EA-TIANHUI-BIANQUE-001` | relación del corpus Tianhui con Bian Que | escuela o linaje asociado frente a atribución editorial retrospectiva | título antiguo, colofón, cadena de citas o testigo independiente | ABIERTA |
+| `CONT-MED-EA-FIGURINE-FUNCTION-001` | función de la figurilla lacada de Tianhui | instrumento didáctico, modelo conceptual, objeto ritual o combinación | contexto, desgaste, pigmento, paralelos y archivos de uso | ABIERTA |
+| `CONT-MED-EA-PIERCING-CONTINUITY-001` | relación entre punción temprana y acupuntura posterior | continuidad técnica transformada frente a repertorios distintos reunidos retrospectivamente | instrumentos, trayectorias, vocabulario, manuscritos intermedios y casos | ABIERTA POR OPERACIÓN |
+| `CONT-MED-EA-SHANGHAN-RECONSTRUCTION-001` | formación del *Shanghan lun* y *Jingui yaolüe* | núcleo atribuible a Zhang Ji frente a compilación y reconstrucción de varias capas | citas, recensiones, manuscritos y aparato crítico | ABIERTA POR ESTRATO |
+| `CONT-MED-EA-MATERIA-IDENTITY-001` | identidad de sustancias históricas | taxón relativamente estable frente a nombres polisémicos y sustituciones regionales | especímenes, residuos, procedencia, morfología, química y comentarios | ABIERTA POR INGREDIENTE |
+| `CONT-MED-EA-INSTITUTION-REACH-001` | alcance de farmacopeas, exámenes y compilaciones oficiales | normalización extendida frente a norma cortesana de implementación desigual | nóminas, compras, copias, archivos locales y denominadores | NO CUANTIFICADO |
+| `CONT-MED-EA-TRANSMISSION-001` | dirección y profundidad de transmisiones regionales | préstamos directos y sostenidos frente a selección, traducción, convergencia o rutas intermediarias | pasajes paralelos, cronología, lengua, agentes y copias situadas | ABIERTA POR RUTA |

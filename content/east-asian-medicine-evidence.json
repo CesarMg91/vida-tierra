@@ -1,0 +1,316 @@
+{
+  "schemaVersion": 1,
+  "researchSlug": "15_medicina/INVESTIGACION_MED_006_CHINA_ASIA_ORIENTAL_CANONES_PRACTICAS",
+  "cases": [
+    {
+      "id": "mawangdui-manuscripts",
+      "title": "Mawangdui — antes del canon recibido",
+      "region": "Changsha, China",
+      "archive": "Seda y tablillas selladas en la tumba 3 antes de 168 a. e. c.",
+      "layers": [
+        {
+          "kind": "witness",
+          "observed": "La tumba 3 conservó manuscritos de vasos, cauterización, recetas, ejercicios, sexualidad y respiración.",
+          "inference": "Las copias depositadas existían antes del cierre de la tumba en 168 a. e. c.",
+          "limit": "La fecha de depósito no fecha la composición de cada pasaje.",
+          "claimIds": ["CLAIM-MED-EA-MAWANGDUI-001"],
+          "evidenceIds": ["EVID-MED-EA-EARLY-MANUSCRIPTS-001"],
+          "sourceIds": ["SRC-MED-EA-HARPER-1998"]
+        },
+        {
+          "kind": "reading",
+          "observed": "La edición distingue once vasos y técnicas de moxa sin el repertorio completo de puntos de cánones posteriores.",
+          "inference": "Puede compararse un vocabulario corporal temprano con sistemas transmitidos después.",
+          "limit": "Traducir *mai* como meridiano puede ocultar diferencias históricas.",
+          "claimIds": ["CLAIM-MED-EA-MAWANGDUI-001"],
+          "evidenceIds": ["EVID-MED-EA-EARLY-MANUSCRIPTS-001"],
+          "sourceIds": ["SRC-MED-EA-HARPER-1998", "SRC-MED-EA-COOK-2023"]
+        },
+        {
+          "kind": "stratum",
+          "observed": "Los manuscritos excavados difieren de la forma recibida del *Huangdi neijing*.",
+          "inference": "Algunos repertorios tempranos precedieron y fueron reorganizados por compilaciones posteriores.",
+          "limit": "No son un borrador lineal ni el sistema canónico ya completo.",
+          "claimIds": ["CLAIM-MED-EA-NEIJING-001"],
+          "evidenceIds": ["EVID-MED-EA-CANON-LAYERS-001"],
+          "sourceIds": ["SRC-MED-EA-COOK-2023"]
+        },
+        {
+          "kind": "operation",
+          "observed": "Los textos formulan recorridos de vasos, cauterización y otras prácticas corporales.",
+          "inference": "Existió un repertorio técnico y conceptual escrito.",
+          "limit": "Descripción no equivale a ejecución, frecuencia o continuidad actual.",
+          "claimIds": ["CLAIM-MED-EA-MAWANGDUI-001"],
+          "evidenceIds": ["EVID-MED-EA-EARLY-MANUSCRIPTS-001"],
+          "sourceIds": ["SRC-MED-EA-HARPER-1998"]
+        },
+        {
+          "kind": "institution",
+          "observed": "El archivo sobrevivió en un entierro de élite, no en un registro poblacional de atención.",
+          "inference": "El acceso a ciertos manuscritos estuvo conectado con redes letradas y privilegiadas.",
+          "limit": "La tumba no representa hogares, parteras o practicantes sin título.",
+          "claimIds": ["CLAIM-MED-EA-VISIBILITY-001"],
+          "evidenceIds": ["EVID-MED-EA-VISIBILITY-001"],
+          "sourceIds": ["SRC-MED-EA-LO-2009"]
+        },
+        {
+          "kind": "consequence",
+          "observed": "Los manuscritos no conservan denominadores, comparadores, daños ni resultados atribuibles.",
+          "inference": "Puede estudiarse qué acciones y resultados esperaba la tradición escrita.",
+          "limit": "No demostrado: beneficio, seguridad o exactitud clínica de las prácticas.",
+          "claimIds": ["CLAIM-MED-EA-EFFICACY-001"],
+          "evidenceIds": ["EVID-MED-EA-EFFICACY-001"],
+          "sourceIds": ["SRC-MED-IDEAL-2019"]
+        }
+      ]
+    },
+    {
+      "id": "tianhui-corpus",
+      "title": "Tianhui — una atribución permanece abierta",
+      "region": "Chengdu, China",
+      "archive": "Cientos de tiras de bambú y figurilla lacada de comienzos del siglo II a. e. c.",
+      "layers": [
+        {
+          "kind": "witness",
+          "observed": "La tumba M3 conservó varios manuscritos médicos y una figurilla corporal de 14.5 cm.",
+          "inference": "Un corpus materialmente asociado existía en la fecha del depósito.",
+          "limit": "Fragmentación y remontaje condicionan el número y orden de unidades.",
+          "claimIds": ["CLAIM-MED-EA-TIANHUI-001"],
+          "evidenceIds": ["EVID-MED-EA-TIANHUI-001"],
+          "sourceIds": ["SRC-MED-EA-LIU-2024"]
+        },
+        {
+          "kind": "reading",
+          "observed": "Facsímil, transcripción y títulos editoriales organizan textos sobre vasos, diagnóstico, fórmulas, punción y veterinaria.",
+          "inference": "Las lecturas pueden cotejarse y discutirse públicamente.",
+          "limit": "Un título moderno no prueba el título, autor o unidad antiguos.",
+          "claimIds": ["CLAIM-MED-EA-ATTRIBUTION-001"],
+          "evidenceIds": ["EVID-MED-EA-ATTRIBUTION-001"],
+          "sourceIds": ["SRC-MED-EA-LIU-2024"]
+        },
+        {
+          "kind": "stratum",
+          "observed": "El corpus fue copiado a comienzos del siglo II a. e. c. y comparte rasgos con repertorios atribuidos a Bian Que.",
+          "inference": "Puede investigarse una relación histórica con esa tradición.",
+          "limit": "No existe una firma que identifique a Bian Que como autor personal.",
+          "claimIds": ["CLAIM-MED-EA-ATTRIBUTION-001"],
+          "evidenceIds": ["EVID-MED-EA-ATTRIBUTION-001"],
+          "sourceIds": ["SRC-MED-EA-COOK-2023", "SRC-MED-EA-LIU-2024"]
+        },
+        {
+          "kind": "operation",
+          "observed": "Un manuscrito describe punción de *mai* y la figurilla materializa líneas corporales.",
+          "inference": "Puede reconstruirse una técnica y una representación tempranas.",
+          "limit": "No son idénticas sin residuo a la acupuntura actual ni demuestran la función de la figurilla.",
+          "claimIds": ["CLAIM-MED-EA-PIERCING-001", "CLAIM-MED-EA-FIGURINE-001"],
+          "evidenceIds": ["EVID-MED-EA-PIERCING-001", "EVID-MED-EA-FIGURINE-001"],
+          "sourceIds": ["SRC-MED-EA-LO-PIERCING-2024", "SRC-MED-EA-LIU-2024"]
+        },
+        {
+          "kind": "institution",
+          "observed": "El conjunto proviene de una tumba y su asociación escolar se reconstruye desde textos y tradición posterior.",
+          "inference": "Pudo pertenecer a una red letrada con repertorios compartidos.",
+          "limit": "Ocupante, propietario, copista, autor y practicante no son identidades intercambiables.",
+          "claimIds": ["CLAIM-MED-EA-ATTRIBUTION-001"],
+          "evidenceIds": ["EVID-MED-EA-ATTRIBUTION-001"],
+          "sourceIds": ["SRC-MED-EA-COOK-2023"]
+        },
+        {
+          "kind": "consequence",
+          "observed": "El corpus no contiene una serie de pacientes con comparador, seguimiento y daños.",
+          "inference": "Puede estudiarse la formulación histórica de técnicas y pronósticos.",
+          "limit": "No demostrado: frecuencia de uso, cobertura o efecto atribuible.",
+          "claimIds": ["CLAIM-MED-EA-EFFICACY-001"],
+          "evidenceIds": ["EVID-MED-EA-EFFICACY-001"],
+          "sourceIds": ["SRC-MED-EA-LO-PIERCING-2024"]
+        }
+      ]
+    },
+    {
+      "id": "wuwei-formulas",
+      "title": "Wuwei — una fórmula no es un resultado",
+      "region": "Gansu, China",
+      "archive": "Tiras y tablillas médicas de Han oriental",
+      "layers": [
+        {
+          "kind": "witness",
+          "observed": "Tiras y tablillas conservan fórmulas, cantidades, restricciones, punción y compra de materia médica.",
+          "inference": "Existió un archivo técnico regional con detalles operativos.",
+          "limit": "La procedencia de tumba y la secuencia material no están completas en todos los casos.",
+          "claimIds": ["CLAIM-MED-EA-WUWEI-001"],
+          "evidenceIds": ["EVID-MED-EA-WUWEI-001"],
+          "sourceIds": ["SRC-MED-EA-YANG-BROWN-2017"]
+        },
+        {
+          "kind": "reading",
+          "observed": "La edición compara fotografías, variantes gráficas y unidades históricas.",
+          "inference": "Puede reconstruirse preparación y administración con incertidumbre explícita.",
+          "limit": "Variantes y sustancias sin paralelo impiden una traducción única.",
+          "claimIds": ["CLAIM-MED-EA-MATERIA-001"],
+          "evidenceIds": ["EVID-MED-EA-MATERIA-001"],
+          "sourceIds": ["SRC-MED-EA-YANG-BROWN-2017"]
+        },
+        {
+          "kind": "stratum",
+          "observed": "La escritura y el contexto sitúan el archivo en Han oriental.",
+          "inference": "Fecha una práctica de escritura médica regional.",
+          "limit": "No fecha el origen de cada receta ni un canon nacional.",
+          "claimIds": ["CLAIM-MED-EA-ARCHIVES-001"],
+          "evidenceIds": ["EVID-MED-EA-METHOD-001"],
+          "sourceIds": ["SRC-MED-EA-YANG-BROWN-2017"]
+        },
+        {
+          "kind": "operation",
+          "observed": "Las fórmulas especifican componentes, medidas, preparación, administración y prohibiciones.",
+          "inference": "Puede describirse un repertorio escrito más estandarizado que varias colecciones anteriores.",
+          "limit": "La instrucción no demuestra que se preparó o administró en cada caso.",
+          "claimIds": ["CLAIM-MED-EA-WUWEI-001"],
+          "evidenceIds": ["EVID-MED-EA-WUWEI-001"],
+          "sourceIds": ["SRC-MED-EA-YANG-BROWN-2017"]
+        },
+        {
+          "kind": "institution",
+          "observed": "Un registro de compra conecta sustancias, cantidades y una economía local.",
+          "inference": "La práctica escrita dependía de adquisición y circulación de materiales.",
+          "limit": "No entrega cobertura, regulación o acceso de una población.",
+          "claimIds": ["CLAIM-MED-EA-WUWEI-001"],
+          "evidenceIds": ["EVID-MED-EA-WUWEI-001"],
+          "sourceIds": ["SRC-MED-EA-YANG-BROWN-2017"]
+        },
+        {
+          "kind": "consequence",
+          "observed": "Algunas fórmulas afirman efectos, pero no preservan comparadores, denominadores o daños atribuibles.",
+          "inference": "Puede reconstruirse la expectativa terapéutica del texto.",
+          "limit": "No demostrado: eficacia histórica o beneficio de una formulación moderna homónima.",
+          "claimIds": ["CLAIM-MED-EA-EFFICACY-001"],
+          "evidenceIds": ["EVID-MED-EA-EFFICACY-001"],
+          "sourceIds": ["SRC-MED-IDEAL-2019"]
+        }
+      ]
+    },
+    {
+      "id": "ishinpo-compilation",
+      "title": "Ishinpō — recibir también es transformar",
+      "region": "Japón",
+      "archive": "Compilación de 984 y copia Nakarai posterior",
+      "layers": [
+        {
+          "kind": "witness",
+          "observed": "La copia Nakarai conserva treinta rollos y capas manuscritas de una compilación presentada en 984.",
+          "inference": "Existe un testigo material de recepción y conservación japonesa.",
+          "limit": "La copia conservada no es el ejemplar original íntegro de 984.",
+          "claimIds": ["CLAIM-MED-EA-ISHINPO-001"],
+          "evidenceIds": ["EVID-MED-EA-ISHINPO-001"],
+          "sourceIds": ["SRC-MED-EA-JAPAN-ISHINPO-2026"]
+        },
+        {
+          "kind": "reading",
+          "observed": "La obra cita más de doscientos textos chinos y otras fuentes, varias perdidas fuera de ella.",
+          "inference": "Las citas permiten reconstruir selección y preservación documental.",
+          "limit": "Una cita puede abreviar, reordenar o reinterpretar su fuente.",
+          "claimIds": ["CLAIM-MED-EA-ISHINPO-001"],
+          "evidenceIds": ["EVID-MED-EA-ISHINPO-001"],
+          "sourceIds": ["SRC-MED-EA-LOC-ISHINPO-2026"]
+        },
+        {
+          "kind": "stratum",
+          "observed": "Compilación de 984, copia posterior, anotaciones y modos de lectura pertenecen a capas distintas.",
+          "inference": "Puede seguirse una historia editorial japonesa de larga duración.",
+          "limit": "La fecha de compilación no fecha el origen de cada pasaje citado.",
+          "claimIds": ["CLAIM-MED-EA-ISHINPO-001"],
+          "evidenceIds": ["EVID-MED-EA-ISHINPO-001"],
+          "sourceIds": ["SRC-MED-EA-JAPAN-ISHINPO-2026", "SRC-MED-EA-LOC-ISHINPO-2026"]
+        },
+        {
+          "kind": "operation",
+          "observed": "Tamba Yasuyori seleccionó, agrupó y ordenó fuentes dentro de treinta rollos.",
+          "inference": "La compilación produjo una arquitectura de conocimiento propia.",
+          "limit": "No es una copia pasiva de una tradición continental uniforme.",
+          "claimIds": ["CLAIM-MED-EA-ISHINPO-001"],
+          "evidenceIds": ["EVID-MED-EA-ISHINPO-001"],
+          "sourceIds": ["SRC-MED-EA-JAPAN-ISHINPO-2026"]
+        },
+        {
+          "kind": "institution",
+          "observed": "La obra fue presentada a la corte y conservada como patrimonio letrado.",
+          "inference": "Tuvo autoridad y circulación en redes cortesanas y eruditas.",
+          "limit": "No es un censo de practicantes, pacientes o cuidado doméstico japonés.",
+          "claimIds": ["CLAIM-MED-EA-VISIBILITY-001"],
+          "evidenceIds": ["EVID-MED-EA-VISIBILITY-001"],
+          "sourceIds": ["SRC-MED-EA-JAPAN-ISHINPO-2026"]
+        },
+        {
+          "kind": "consequence",
+          "observed": "El manuscrito preserva prescripciones, no series comparativas de ejecución y resultados.",
+          "inference": "Puede estudiarse autoridad, transmisión y expectativa terapéutica.",
+          "limit": "No demostrado: práctica nacional uniforme, cobertura o efecto.",
+          "claimIds": ["CLAIM-MED-EA-EFFICACY-001"],
+          "evidenceIds": ["EVID-MED-EA-EFFICACY-001"],
+          "sourceIds": ["SRC-MED-IDEAL-2019"]
+        }
+      ]
+    },
+    {
+      "id": "donguibogam-state",
+      "title": "Donguibogam — norma no es cobertura",
+      "region": "Corea Joseon",
+      "archive": "Compilación cortesana concluida en 1613",
+      "layers": [
+        {
+          "kind": "witness",
+          "observed": "Ediciones históricas conservan una compilación concluida por Heo Jun y un equipo en 1613.",
+          "inference": "La obra y su fecha institucional están documentadas.",
+          "limit": "El libro no representa por sí solo toda la atención coreana.",
+          "claimIds": ["CLAIM-MED-EA-DONGUIBOGAM-001"],
+          "evidenceIds": ["EVID-MED-EA-DONGUIBOGAM-001"],
+          "sourceIds": ["SRC-MED-EA-UNESCO-DONGUIBOGAM-2009"]
+        },
+        {
+          "kind": "reading",
+          "observed": "La compilación reorganiza autoridades y conocimientos previos en una estructura propia.",
+          "inference": "Puede auditarse una selección editorial Joseon.",
+          "limit": "Las categorías del texto no se traducen automáticamente a diagnósticos actuales.",
+          "claimIds": ["CLAIM-MED-EA-DONGUIBOGAM-001"],
+          "evidenceIds": ["EVID-MED-EA-DONGUIBOGAM-001"],
+          "sourceIds": ["SRC-MED-EA-UNESCO-DONGUIBOGAM-2009"]
+        },
+        {
+          "kind": "stratum",
+          "observed": "Fuentes anteriores, trabajo de equipo y edición final pertenecen a momentos distintos.",
+          "inference": "1613 fecha la síntesis, no el nacimiento de cada idea incorporada.",
+          "limit": "Persistencia de una cita no demuestra continuidad operativa sin intermediarios.",
+          "claimIds": ["CLAIM-MED-EA-ARCHIVES-001"],
+          "evidenceIds": ["EVID-MED-EA-METHOD-001"],
+          "sourceIds": ["SRC-MED-EA-UNESCO-DONGUIBOGAM-2009"]
+        },
+        {
+          "kind": "operation",
+          "observed": "La obra selecciona, clasifica y vuelve consultables repertorios médicos diversos.",
+          "inference": "Funcionó como una síntesis editorial y herramienta de referencia.",
+          "limit": "Una prescripción impresa no prueba preparación o ejecución.",
+          "claimIds": ["CLAIM-MED-EA-DONGUIBOGAM-001"],
+          "evidenceIds": ["EVID-MED-EA-DONGUIBOGAM-001"],
+          "sourceIds": ["SRC-MED-EA-UNESCO-DONGUIBOGAM-2009"]
+        },
+        {
+          "kind": "institution",
+          "observed": "La monarquía encargó el proyecto y su edición circuló después en Asia oriental.",
+          "inference": "Existió patrocinio estatal y una red de transmisión regional.",
+          "limit": "Patrocinio no entrega implementación, acceso o abastecimiento poblacional.",
+          "claimIds": ["CLAIM-MED-EA-DONGUIBOGAM-001", "CLAIM-MED-EA-NONRANKING-001"],
+          "evidenceIds": ["EVID-MED-EA-DONGUIBOGAM-001", "EVID-MED-EA-SYNTHESIS-001"],
+          "sourceIds": ["SRC-MED-EA-UNESCO-DONGUIBOGAM-2009"]
+        },
+        {
+          "kind": "consequence",
+          "observed": "El registro patrimonial documenta compilación y conservación, no desenlaces de pacientes.",
+          "inference": "Puede estudiarse la consecuencia editorial e institucional de la obra.",
+          "limit": "No demostrado: cobertura sanitaria, eficacia o seguridad causal.",
+          "claimIds": ["CLAIM-MED-EA-EFFICACY-001"],
+          "evidenceIds": ["EVID-MED-EA-EFFICACY-001"],
+          "sourceIds": ["SRC-MED-IDEAL-2019"]
+        }
+      ]
+    }
+  ]
+}

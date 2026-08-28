@@ -5,10 +5,12 @@ import { ArrowDown, ArrowRight, BookOpen, HeartPulse, ShieldCheck, Stethoscope }
 import ClinicalEvidenceLab from "../../components/ClinicalEvidenceLab";
 import DiagnosticEvidenceLab from "../../components/DiagnosticEvidenceLab";
 import DocumentaryMedicineLab from "../../components/DocumentaryMedicineLab";
+import EastAsianMedicineLab from "../../components/EastAsianMedicineLab";
 import HistoricalMedicineLab from "../../components/HistoricalMedicineLab";
 import SouthAsianMedicineLab from "../../components/SouthAsianMedicineLab";
 import { diagnosticEvidence } from "../../lib/diagnostic-evidence";
 import { documentaryMedicineEvidence } from "../../lib/documentary-medicine-evidence";
+import { eastAsianMedicineEvidence } from "../../lib/east-asian-medicine-evidence";
 import { historicalMedicineEvidence } from "../../lib/historical-medicine-evidence";
 import { medicineEvidence } from "../../lib/medicine-evidence";
 import { southAsianMedicineEvidence } from "../../lib/south-asian-medicine-evidence";
@@ -17,9 +19,9 @@ import { createPageMetadata } from "../../lib/site";
 
 export const metadata: Metadata = createPageMetadata({
   title: "Historia de la medicina — archivos, cuidado y evidencia",
-  description: "Cómo reconstruimos la historia mundial de la medicina desde huesos, biomoléculas, objetos y textos sin confundir huella, diagnóstico, práctica o eficacia.",
+  description: "Cómo reconstruimos la historia mundial de la medicina desde huesos, manuscritos, cánones, instituciones y resultados sin confundir archivo, práctica o eficacia.",
   pathname: "/medicina",
-  image: "/assets/visuales/hero-med-005-asia-meridional.png",
+  image: "/assets/visuales/hero-med-006-china-asia-oriental.png",
 });
 
 const principles = [
@@ -36,8 +38,8 @@ export default function MedicinePage() {
     <div className="medicine-experience">
       <header className="medicine-hero medicine-history-hero">
         <Image
-          src="/assets/visuales/hero-med-005-asia-meridional.png"
-          alt="Mesa de conservación con folios, corteza, inscripción y archivo corporal separados para comparar testimonios médicos"
+          src="/assets/visuales/hero-med-006-china-asia-oriental.png"
+          alt="Mesa de conservación con hueso, bambú, seda, papel y modelos didácticos genéricos separados en seis estaciones"
           fill
           preload
           fetchPriority="high"
@@ -46,11 +48,11 @@ export default function MedicinePage() {
         <div className="medicine-hero-shade" />
         <div className="medicine-hero-copy">
           <p className="eyebrow">Historia mundial de la medicina</p>
-          <h1>Un corpus no es una fecha</h1>
-          <p>Cuerpos, manuscritos, estratos, traducciones, edificios y resultados cuentan historias distintas de las tradiciones médicas de Asia meridional.</p>
+          <h1>Un canon no es una práctica uniforme</h1>
+          <p>Testigos, lecturas, estratos, operaciones, instituciones y consecuencias cuentan historias distintas de China y Asia oriental.</p>
           <div>
-            <Link className="button button-primary" href="#corpus">Seguir la cadena <ArrowDown aria-hidden="true" /></Link>
-            <Link className="medicine-text-link" href="/15_medicina/INVESTIGACION_MED_005_ASIA_MERIDIONAL_AYURVEDA_TRANSMISIONES">Leer MED-005 <ArrowRight aria-hidden="true" /></Link>
+            <Link className="button button-primary" href="#canones">Seguir la cadena <ArrowDown aria-hidden="true" /></Link>
+            <Link className="medicine-text-link" href="/15_medicina/INVESTIGACION_MED_006_CHINA_ASIA_ORIENTAL_CANONES_PRACTICAS">Leer MED-006 <ArrowRight aria-hidden="true" /></Link>
           </div>
         </div>
         <p className="medicine-visual-limit">Composición editorial no probatoria: los soportes son genéricos, físicamente separados y no reproducen una colección o manuscrito real.</p>
@@ -64,6 +66,14 @@ export default function MedicinePage() {
       <section className="medicine-principles" aria-labelledby="medicine-principles-title">
         <header><p className="eyebrow">Contrato de lectura</p><h2 id="medicine-principles-title">Cuatro cortafuegos</h2></header>
         <div>{principles.map(([title, text], index) => <article key={title}><span>{String(index + 1).padStart(2, "0")}</span><h3>{title}</h3><p>{text}</p></article>)}</div>
+      </section>
+
+      <section className="medicine-lab-section documentary-lab-section" id="canones" aria-labelledby="east-asian-lab-title">
+        <div className="section-heading">
+          <div><p className="eyebrow">MED-006 · laboratorio de canon y práctica</p><h2 id="east-asian-lab-title">Del testigo a la consecuencia</h2></div>
+          <p>Elige un archivo. Seis capas separan testigo, lectura, estrato, operación, institución y consecuencia observada.</p>
+        </div>
+        <EastAsianMedicineLab data={eastAsianMedicineEvidence} />
       </section>
 
       <section className="medicine-lab-section documentary-lab-section" id="corpus" aria-labelledby="south-asian-lab-title">

@@ -881,3 +881,15 @@ La portada separa físicamente fragmentos genéricos de arcilla y papiro; no rep
 Salida original aprobada sin edición: `C:\Users\HUAWEI\.codex\generated_images\019fedb0-8f24-7e33-8d16-d2418ba3378e\exec-54e69a98-2155-4c2e-9b9c-4ad150595ad8.png` → `assets/visuales/hero-med-005-asia-meridional.png`; tamaño `2,278,946` bytes. El prompt completo y los límites están en `ATLAS_VISUAL.md`, sección 60.
 
 La portada separa físicamente folios genéricos, corteza, piedra y modelos didácticos; no reproduce piezas identificables ni ofrece texto legible. Los SVG incluyen `title` y `desc`, separan copia, composición, práctica y consecuencia, y no producen consejos clínicos.
+
+## MED-006 — China y Asia oriental
+
+| Archivo | Origen | Dimensiones | SHA-256 / trazabilidad | Límite |
+|---|---|---:|---|---|
+| `hero-med-006-china-asia-oriental.png` | OpenAI ImageGen, generación nueva del 2026-08-27 | `1672 × 941` | `5e7d82d6a139c44945eb1dccaee189d7436c127b58899469de0878596ca178e3` | composición conceptual; no artefacto, escritura, colección, práctica o resultado reales |
+| `cadena-testigo-resultado-med-006.svg` | SVG manual determinista | `1600 × 900` | código fuente versionado | seis capas inferenciales; no herencia automática |
+| `matriz-canones-practicas-med-006.svg` | SVG manual determinista | `1600 × 900` | código fuente versionado | productos y límites; no ranking o progreso |
+
+Salida original aprobada sin edición: `C:\Users\HUAWEI\.codex\generated_images\019fedb0-8f24-7e33-8d16-d2418ba3378e\exec-ce9fb493-5e4d-483e-a3bd-6c466a94d128.png` → `assets/visuales/hero-med-006-china-asia-oriental.png`; tamaño `2,062,773` bytes. El prompt completo y los límites están en `ATLAS_VISUAL.md`, sección 61.
+
+La portada separa físicamente seis estaciones genéricas y no reproduce objetos identificables o texto histórico. Los SVG incluyen `title` y `desc`; fueron inspeccionados completos a `1600 × 900`, separan canon, práctica y consecuencia, y no producen consejos clínicos.

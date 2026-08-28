@@ -1506,3 +1506,25 @@ Los cortafuegos principales son: cuerpo ≠ diagnóstico textual; copia ≠ comp
 Mehrgarh sostiene modificación dental, Caraka y Suśruta historias editoriales por capas, KL 699 una copia de 878, Bower circulación centroasiática, Aśoka una política promulgada, Kumrahār una instalación probable y Tirumukkūḍal una institución local dotada. Ninguno hereda por sí solo continuidad, cobertura o efecto.
 
 Véase 15_medicina/INVESTIGACION_MED_005_ASIA_MERIDIONAL_AYURVEDA_TRANSMISIONES.md, 22_mapas_epistemologicos/MAPA_MED_005_ASIA_MERIDIONAL.md, 21_cronologias/CRONOLOGIA_MED_005_ASIA_MERIDIONAL.md, assets/visuales/cadena-testimonio-practica-med-005.svg y assets/visuales/matriz-archivos-asia-meridional-med-005.svg.
+
+### MED-006 — Un canon no es una práctica uniforme
+
+```text
+testigo material
+        ↓
+lectura + transcripción
+        ↓
+estrato + recensión
+        ↓
+operación formulada
+        ↓
+institución + circulación
+        ↓
+consecuencia observada
+```
+
+Los cortafuegos principales son: aflicción escrita ≠ diagnóstico moderno; voz de autoridad ≠ autor fechado; fecha de tumba ≠ fecha de composición; vaso temprano ≠ meridiano tardío idéntico; línea corporal ≠ técnica ejecutada; canon ≠ práctica uniforme; farmacopea ≠ abastecimiento; tacto clasificado ≠ exactitud diagnóstica; antigüedad ≠ eficacia.
+
+Mawangdui y Zhangjiashan sostienen repertorios tempranos y variantes; Tianhui sostiene canales, punción y una figurilla sin cerrar autoría o función; Wuwei sostiene escritura técnica local; Dunhuang una biblioteca heterogénea; el modelo Song una estandarización didáctica; *Ishinpō* y *Donguibogam* selecciones regionales transformadoras. Ninguno hereda por sí solo cobertura o resultado.
+
+Véase 15_medicina/INVESTIGACION_MED_006_CHINA_ASIA_ORIENTAL_CANONES_PRACTICAS.md, 22_mapas_epistemologicos/MAPA_MED_006_CHINA_ASIA_ORIENTAL.md, 21_cronologias/CRONOLOGIA_MED_006_CHINA_ASIA_ORIENTAL.md, assets/visuales/cadena-testigo-resultado-med-006.svg y assets/visuales/matriz-canones-practicas-med-006.svg.
