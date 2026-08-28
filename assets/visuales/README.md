@@ -929,3 +929,15 @@ La portada separa plano, canal, instrumentos, códice, pliegos multilingües y m
 Salida original aprobada sin edición: `C:\Users\HUAWEI\.codex\generated_images\019fedb0-8f24-7e33-8d16-d2418ba3378e\exec-268ba075-cf3c-4f87-972f-408ed32d082d.png` → `assets/visuales/hero-med-009-africa-fuera-eje-egipcio.png`; tamaño `2,089,775` bytes. El prompt completo y los límites están en `ATLAS_VISUAL.md`, sección 64.
 
 La portada separa fragmentos, muestras, suelo/asentamiento, códice, cerámica/residuo y escucha; no contiene personas o texto legible. Los SVG incluyen `title` y `desc`, distinguen dato ausente de ausencia histórica y no convierten lesión, ciudad, manuscrito o residuo en tratamiento o eficacia.
+
+## MED-010 — Mesoamérica, Andes y otras Américas
+
+| Archivo | Origen | Dimensiones | SHA-256 / trazabilidad | Límite |
+|---|---|---:|---|---|
+| `hero-med-010-mesoamerica-andes-americas.png` | OpenAI ImageGen, generación nueva del 2026-08-27 | `1672 × 941` | `902da91d5240a79777fc72d4edc2c28dff7f165ce1b8f9080b992687bbf1d7bb` | composición conceptual; no colección, pueblo, práctica o códice reales |
+| `cadena-archivo-consecuencia-med-010.svg` | SVG manual determinista | `1600 × 900` | código fuente versionado | seis capas inferenciales; no herencia automática |
+| `matriz-archivos-americas-med-010.svg` | SVG manual determinista | `1600 × 900` | código fuente versionado | seis archivos y límites; no ranking continental |
+
+Salida original aprobada sin edición: `C:\Users\HUAWEI\.codex\generated_images\019fedb0-8f24-7e33-8d16-d2418ba3378e\exec-707fcd57-1d97-493c-9b07-93a0015bfd98.png` → `assets/visuales/hero-med-010-mesoamerica-andes-americas.png`; tamaño `1,749,916` bytes. El prompt completo y los límites están en `ATLAS_VISUAL.md`, sección 65.
+
+La portada separa fragmentos genéricos, moldes dentales, microrestos, sedimento y dos utilerías de códice; no contiene personas, texto legible o réplicas identificables. Los SVG incluyen `title` y `desc`, preservan archivo, procedencia, señal, práctica, consecuencia y límite y no convierten lesión, molécula, planta o receta en beneficio.

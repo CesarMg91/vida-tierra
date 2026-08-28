@@ -1094,3 +1094,33 @@ La salida se inspeccionó completa a resolución original. No contiene personas,
 Las seis estaciones son utilería editorial contemporánea. No reproducen Kerma, Kulubnarti, Aksum, Jenne-jeno, Tombuctú, Tong Hills ni un objeto cultural identificable. La proximidad visual no afirma coetaneidad, identidad, continuidad, práctica o eficacia.
 
 Los SVG se construyeron y rasterizaron a `1600 × 900`, incluyen `title`, `desc` y tipografía de reserva. La primera captura de la matriz reveló una leyenda superpuesta a la última fila; se movió antes del commit y la segunda captura confirmó filas, márgenes y textos completos. La cadena declara cuatro cortafuegos y la matriz compara seis casos sin puntuarlos. Ninguno acepta datos, diagnostica, recomienda o representa tasas.
+
+## 65. MED-010 — Una huella no hereda una historia clínica
+
+![Portada editorial de MED-010](assets/visuales/hero-med-010-mesoamerica-andes-americas.png)
+
+![Cadena desde archivo hasta límite](assets/visuales/cadena-archivo-consecuencia-med-010.svg)
+
+![Matriz de archivos médicos de las Américas](assets/visuales/matriz-archivos-americas-med-010.svg)
+
+| Archivo | Tipo | Procedencia | Qué representa | Límite obligatorio |
+|---|---|---|---|---|
+| `hero-med-010-mesoamerica-andes-americas.png` | portada editorial conceptual | OpenAI ImageGen, generación nueva, 2026-08-27 | seis estaciones genéricas de fragmentos, dientes, microrestos, muestra y códices | no colección, pueblo, práctica o manuscrito reales |
+| `cadena-archivo-consecuencia-med-010.svg` | diagrama epistemológico original | SVG manual del proyecto, 2026-08-27 | archivo, procedencia, señal, práctica, consecuencia y límite | las flechas no heredan intención, beneficio o continuidad |
+| `matriz-archivos-americas-med-010.svg` | matriz documental original | SVG manual del proyecto, 2026-08-27 | seis casos, productos y límites | las filas no representan todas las Américas ni forman ranking |
+
+### Procedencia de la portada
+
+Salida original aprobada sin edición: `C:\Users\HUAWEI\.codex\generated_images\019fedb0-8f24-7e33-8d16-d2418ba3378e\exec-707fcd57-1d97-493c-9b07-93a0015bfd98.png`. Destino: `assets/visuales/hero-med-010-mesoamerica-andes-americas.png`. Dimensiones: `1672 × 941`; tamaño: `1,749,916` bytes; SHA-256: `902da91d5240a79777fc72d4edc2c28dff7f165ce1b8f9080b992687bbf1d7bb`.
+
+**Prompt de generación:**
+
+> Create a wide 16:9 editorial museum-and-laboratory hero image for a rigorous Spanish public-history research dossier titled MED-010, about reconstructing histories of care, intervention, plants, bodies, and colonial manuscripts in Mesoamerica, the Andes, and other regions of the Americas without turning traces into clinical histories. No text, no letters, no numbers, no logos, no flags, no maps, no people, no faces, no blood, no active medical procedure, no fantasy, no stereotyped pan-Indigenous motifs, no replicas of identifiable cultural artifacts, no complete skull. Use a dark obsidian museum table under warm amber and copper light, divided into SIX clearly separated archival stations with ample negative space and no implied single culture or collection: (1) several small generic weathered cranial bone fragments arranged in a shallow conservation tray, incomplete and non-diagnostic, with one abstract circular edge fragment suggesting analysis but not depicting a real specimen; (2) a few generic tooth casts and a separate tiny mineral inlay sample, clearly modern editorial props; (3) a glass microscopy slide with abstract starch-grain silhouettes and a blank laboratory card; (4) a sealed generic sample vial beside a small neutral sediment pellet, no fecal realism; (5) a closed generic herbarium-style folio on European paper with blank illustrated botanical silhouettes and no script; (6) a second closed codex-like conservation mockup with two blank columns and a blank image panel, unmistakably a contemporary prop. Connect nothing physically; use six pools of light to imply archive → provenance → signal → practice → consequence → limit. Palette: parchment, obsidian, ink black, copper, amber, mineral green, subtle deep blue. Photorealistic editorial still life, museum-quality, restrained, scientifically honest, dramatic but not sensational. Leave darker negative space at upper left and center-left for website headline. Every object generic, separated, and clearly a museum/laboratory editorial construction rather than a reconstruction of a real Indigenous collection. High detail, 1672x941 landscape.
+
+### Revisión y límites
+
+La salida se inspeccionó completa a resolución original. No contiene personas, rostros, cuerpos completos, sangre, procedimientos, mapas, banderas, logos o texto legible. Los fragmentos son genéricos, incompletos y no diagnósticos; los dientes son moldes editoriales; los códices son utilería contemporánea sin escritura.
+
+Las seis estaciones no reproducen Cuzco, Holmul, Baking Pot, Copán, Huaca El Paraíso, Piauí, el Libellus o el Códice Florentino. La proximidad visual no afirma coetaneidad, cultura compartida, función, continuidad o eficacia.
+
+Los SVG se construyeron a `1600 × 900`, incluyen `title`, `desc` y tipografía de reserva. La cadena recorre seis capas sin porcentaje ni cálculo; la matriz compara seis archivos sin puntuarlos. La primera rasterización de la matriz mostró la leyenda superpuesta a la sexta fila; se compactaron las filas y la segunda captura confirmó margen y textos completos. Ninguno acepta datos, diagnostica, recomienda o representa tratamientos.
