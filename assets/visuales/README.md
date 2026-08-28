@@ -989,3 +989,15 @@ La portada separa barco y carga, manuscritos, carta, regalo, traducción, impren
 Salida original aprobada sin edición: `C:\Users\HUAWEI\.codex\generated_images\019fedb0-8f24-7e33-8d16-d2418ba3378e\exec-94a8564d-2e52-4be9-ae73-334e36df50ed.png` → `assets/visuales/hero-med-014-epidemias-cuarentenas.png`; tamaño `1,984,695` bytes. El prompt completo y los límites están en `ATLAS_VISUAL.md`, sección 69.
 
 La portada separa libro de mortalidad, muestra arqueológica, proxy de paisaje, lazareto, pase, cordón y cargas desiguales; no contiene personas, cadáveres, texto legible o iconografía sensacionalista. Los SVG incluyen `title` y `desc`, preservan testimonio, agente, magnitud, respuesta, cumplimiento y desigualdad y no convierten relato, genoma, fosa, norma o descenso en diagnóstico, cifra, eficacia o justicia.
+
+## MED-015 — Encuentros coloniales
+
+| Archivo | Origen | Dimensiones | SHA-256 / trazabilidad | Límite |
+|---|---|---:|---|---|
+| `hero-med-015-encuentros-coloniales.png` | OpenAI ImageGen, generación nueva del 2026-08-28 | `1672 × 941` | `72f524f0b43b10c454e22b198f7786a366708179c6c79843d9c1da6e6f46bf58` | composición conceptual; no persona, comunidad, archivo, mina, misión, travesía, planta o acontecimiento reales |
+| `cadena-exposicion-supervivencia-med-015.svg` | SVG manual determinista | `1600 × 900` | código fuente versionado | siete capas inferenciales; no herencia automática |
+| `matriz-encuentros-coloniales-med-015.svg` | SVG manual determinista | `1600 × 900` | código fuente versionado | siete expedientes y límites; no sufrimiento, progreso ni ranking |
+
+Salida original aprobada sin edición: `C:\Users\HUAWEI\.codex\generated_images\019fedb0-8f24-7e33-8d16-d2418ba3378e\exec-017986ca-1f3e-4db0-8f30-cafbd4699072.png` → `assets/visuales/hero-med-015-encuentros-coloniales.png`; tamaño `1,976,358` bytes. El prompt completo y los límites están en `ATLAS_VISUAL.md`, sección 70.
+
+La portada separa registro, muestra, mineral, alimento, navío, herbario y conexiones desiguales; no contiene personas, violencia gráfica, texto legible o réplicas identificables. Los SVG incluyen `title` y `desc`, preservan exposición, violencia, trabajo, nutrición, clasificación, respuesta y supervivencia y no convierten contacto, categoría, cuidado o continuidad en causa, identidad, benevolencia o ausencia de daño.

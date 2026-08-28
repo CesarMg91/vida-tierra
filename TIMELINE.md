@@ -800,3 +800,28 @@ CIV-003 inaugura los expedientes regionales auditados. CIV-001 conserva `TRAZADO
 | `TIME-MED-EPID-BLACKDEATH-REVISION-001` | 2022 | Tian Shan y archivos polínicos revisan origen e impacto | cambio molecular y paleoecológico | `SRC-MED-EPID-SPYROU-2022`, `SRC-MED-EPID-IZDEBSKI-2022` | A publicación | AUDITADO |
 | `TIME-MED-EPID-BRISTOL-REVISION-001` | 2023 | Udale evalúa el daño intradoméstico del encierro | cambio demográfico/causal | `SRC-MED-EPID-UDALE-2023` | A publicación | AUDITADO |
 | `TIME-MED-EPID-MULTIARCHIVE-001` | 2025–2026 | Jerash, Londres y Marsella amplían comparación entre cuerpo, cifra, espacio y sociedad | actualización multiarchivo | `SRC-MED-EPID-ADAPA-2025`, `SRC-MED-EPID-HENDRIX-2026`, `SRC-MED-EPID-OTIS-KANIA-2025`, `SRC-MED-EPID-MCCALLAM-2025` | A publicación/B síntesis | AUDITADO |
+
+## MED-015 — Encuentros coloniales
+
+| ID | Fecha / intervalo | Evento o archivo | Producto | Fuentes | Confianza | Estado |
+|---|---|---|---|---|---|---|
+| `TIME-MED-COL-HISPANIOLA-CONNECTION-001` | 1492 | desembarco castellano en La Española y ampliación de redes atlánticas | conexión fechada | `SRC-MED-COL-COOK-HISPANIOLA-2002` | A histórico | AUDITADO |
+| `TIME-MED-COL-HISPANIOLA-COERCION-001` | 1492–1518 | guerra, captura, repartimiento, minería, ruptura agrícola y hambre | mecanismos previos al brote documentado | `SRC-MED-COL-COOK-HISPANIOLA-2002`, `SRC-MED-COL-LIVIBACCI-2003` | A/B histórico | AUDITADO |
+| `TIME-MED-COL-HISPANIOLA-SMALLPOX-001` | 1518 | primera epidemia de viruela claramente documentada en La Española | episodio específico | `SRC-MED-COL-COOK-HISPANIOLA-2002` | A/B histórico | AUDITADO |
+| `TIME-MED-COL-TEPO-EPIDEMIC-001` | 1545–1550 | crisis epidémica y fosas de Teposcolula-Yucundaa | episodio funerario delimitado | `SRC-MED-COL-WARINNER-2012`, `SRC-MED-COL-SPORES-2007` | A arqueológico/B episodio | AUDITADO |
+| `TIME-MED-COL-PHIL-CONQUEST-001` | 1565–c. 1650 | conquista, tributos, epidemias y descenso demográfico filipino | transformación regional modelada | `SRC-MED-COL-NEWSON-2006`, `SRC-MED-COL-NEWSON-2009` | B histórico | AUDITADO |
+| `TIME-MED-COL-HUANC-MERCURY-001` | 1564–1810 | producción colonial de mercurio en Huancavelica | serie productiva y emisión modelada | `SRC-MED-COL-ROBINS-HAGAN-2012`, `SRC-MED-COL-BROWN-2016` | A producción/B emisión | AUDITADO |
+| `TIME-MED-COL-HUANC-MITA-001` | 1570s–siglo XVIII | reorganización y continuidad de reclutamiento minero coercitivo | régimen laboral cambiante | `SRC-MED-COL-BROWN-2001`, `SRC-MED-COL-BROWN-2016` | A/B histórico | AUDITADO |
+| `TIME-MED-COL-CINCHONA-EARLY-001` | siglo XVII | circulación atlántica temprana de cortezas de *Cinchona* | materia médica y atribución discutida | `SRC-MED-COL-CUVI-2018`, `SRC-MED-COL-CRAWFORD-2016` | A/B histórico | AUDITADO |
+| `TIME-MED-COL-ATLANTIC-VOYAGES-001` | siglos XVII–XIX | millones de personas sometidas a travesías atlánticas forzadas | viajes, embarcados, desembarcados y mortalidad | `SRC-MED-COL-SLAVEVOYAGES` | A datos/B cobertura | AUDITADO |
+| `TIME-MED-COL-JAMAICA-CARE-001` | 1751–1786 | diario de Thistlewood registra práctica médica bajo esclavitud | cuidado coercitivo y agencia filtrada | `SRC-MED-COL-THORNTON-2011` | A documental/B representación | AUDITADO |
+| `TIME-MED-COL-CAL-MISSIONS-001` | 1769–1836 | establecimiento y secularización del sistema de misiones de Alta California | marco institucional y demográfico | `SRC-MED-COL-ECPP-2022`, `SRC-MED-COL-JONES-2021` | A histórico | AUDITADO |
+| `TIME-MED-COL-CAL-LATE-EPIDEMICS-001` | desde 1770 | aparece el perfil catastrófico en California central | inicio regional tardío apoyado | `SRC-MED-COL-JONES-2021` | A datos/B causal | AUDITADO |
+| `TIME-MED-COL-GUAYASES-001` | 1772–1806 | redes de Guayases identifican y remiten plantas a instituciones coloniales | apropiación botánica documentada | `SRC-MED-COL-ALMEIDA-2021` | A/B histórico | AUDITADO |
+| `TIME-MED-COL-SLAVE-MORTALITY-METHOD-001` | 1986 | Steckel y Jensen comparan causas de mortalidad de esclavizados y tripulación | giro cuantitativo por viaje | `SRC-MED-COL-STECKEL-JENSEN-1986` | A publicación | AUDITADO |
+| `TIME-MED-COL-HUANC-HEALTH-HISTORY-001` | 2001 | Brown reconstruye salud laboral en Huancavelica | giro de producción a cuerpos y trabajo | `SRC-MED-COL-BROWN-2001` | A publicación | AUDITADO |
+| `TIME-MED-COL-MOBILITY-POLLUTION-001` | 2009 | isótopos de Newton y sedimentos andinos amplían archivos corporales y ambientales | giro isotópico/paleoambiental | `SRC-MED-COL-SCHROEDER-BARBADOS-2009`, `SRC-MED-COL-COOKE-2009` | A publicación | AUDITADO |
+| `TIME-MED-COL-MULTIARCHIVE-2012-001` | 2012 | Teposcolula y Huancavelica integran cuerpo, dieta, archivo y ambiente | actualización multiarchivo | `SRC-MED-COL-WARINNER-2012`, `SRC-MED-COL-ROBINS-HAGAN-2012` | A publicación | AUDITADO |
+| `TIME-MED-COL-TEPO-GENOMES-001` | 2018 | Paratyphi C se identifica en individuos del cementerio de Teposcolula | agente molecular local | `SRC-MED-COL-VAGENE-2018` | A publicación/molecular | AUDITADO |
+| `TIME-MED-COL-COLONIAL-BOTANY-001` | 2018–2021 | nuevas historias de *Cinchona* y Guayases centran apropiación, redes y crédito | revisión historiográfica colonial | `SRC-MED-COL-CUVI-2018`, `SRC-MED-COL-ALMEIDA-2021` | A publicación | AUDITADO |
+| `TIME-MED-COL-CARIBBEAN-CALIFORNIA-001` | 2021 | genomas caribeños y base californiana revisan extinción e inevitabilidad epidémica | cambio arqueogenómico/demográfico | `SRC-MED-COL-FERNANDES-2021`, `SRC-MED-COL-JONES-2021` | A publicación | AUDITADO |

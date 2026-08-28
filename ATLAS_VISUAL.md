@@ -1244,3 +1244,33 @@ La salida se inspeccionó completa a resolución original. No contiene personas,
 La composición no reproduce Jerash, Kara-Djigach, East Smithfield, Ragusa, Venecia, Bristol, Londres, el Grand Saint-Antoine, Marsella ni una orden, fosa o población real. Proximidad y cordón no afirman ruta, agente, obediencia, eficacia, causalidad o justicia.
 
 Los SVG se construyeron a `1600 × 900`, incluyen `title`, `desc` y tipografía de reserva. La cadena mantiene seis capas y cortafuegos; la matriz compara seis expedientes sin puntuaciones. Ninguno acepta síntomas, calcula mortalidad, diagnostica, recomienda o representa resultados clínicos.
+
+## 70. MED-015 — Contacto no es causa suficiente
+
+![Portada editorial de MED-015](assets/visuales/hero-med-015-encuentros-coloniales.png)
+
+![Cadena desde exposición hasta supervivencia](assets/visuales/cadena-exposicion-supervivencia-med-015.svg)
+
+![Matriz de encuentros coloniales, archivos y límites](assets/visuales/matriz-encuentros-coloniales-med-015.svg)
+
+| Archivo | Tipo | Procedencia | Qué representa | Límite obligatorio |
+|---|---|---|---|---|
+| `hero-med-015-encuentros-coloniales.png` | portada editorial conceptual | OpenAI ImageGen, generación nueva, 2026-08-28 | registros, fragmentos, mineral, alimento, navío, plantas e hilos genéricos | no persona, comunidad, documento, mina, misión, travesía, planta o acontecimiento reales |
+| `cadena-exposicion-supervivencia-med-015.svg` | diagrama epistemológico original | SVG manual del proyecto, 2026-08-28 | exposición, violencia, trabajo, nutrición, clasificación, respuesta y supervivencia | las flechas no heredan infección, causa, carga, identidad, eficacia o ausencia de daño |
+| `matriz-encuentros-coloniales-med-015.svg` | matriz documental original | SVG manual del proyecto, 2026-08-28 | siete expedientes, archivos, mecanismos y límites | las filas no forman sufrimiento, resiliencia, progreso o ranking |
+
+### Procedencia de la portada
+
+Salida original aprobada sin edición: `C:\Users\HUAWEI\.codex\generated_images\019fedb0-8f24-7e33-8d16-d2418ba3378e\exec-017986ca-1f3e-4db0-8f30-cafbd4699072.png`. Destino: `assets/visuales/hero-med-015-encuentros-coloniales.png`. Dimensiones: `1672 × 941`; tamaño: `1,976,358` bytes; SHA-256: `72f524f0b43b10c454e22b198f7786a366708179c6c79843d9c1da6e6f46bf58`.
+
+**Prompt de generación:**
+
+> Create one original 16:9 cinematic editorial museum still-life hero image for a Spanish public history-of-medicine platform. Topic: how colonial encounters restructured bodies, health, labor, food, classification, care, and knowledge without reducing catastrophe to mere contact. Composition: a long obsidian archival table viewed slightly from above; reserve the LEFT 42% as dark, calm, low-detail title-safe negative space. Across the CENTER and RIGHT, arrange seven distinct but subtly connected evidence stations: an unreadable tribute ledger with tally marks; a small respectful archaeological sample tray with generic bone fragments only and absolutely no face or skull display; a sealed piece of cinnabar-like red mineral beside a historical mining token and a closed glass assay vessel, no spills; an unreadable mission register beside generic food remains and a small woven fragment; an abstract wooden ship-hold plan made from model pieces with no shackles, no bodies and no sensationalism; a botanical press containing generic bark, leaves and an unreadable specimen tag; fine copper and mineral-green threads linking the stations while remaining visibly unequal and interrupted. Visual language: living museum plus evidence laboratory, warm chiaroscuro, parchment, copper, amber, mineral green, matte black, historically suggestive but not a reenactment. The image should communicate exposure, violence, labor, nutrition, classification, response, and survival through archives and material traces, never through suffering as spectacle. No people, no gore, no faces, no skulls, no bones arranged as a body, no readable text, no national borders or maps, no logos, no watermark, no modern medical equipment, no decorative DNA helix, no fantasy symbols. Preserve generous dark negative space on the left and keep all important objects away from edges. High-end editorial photography, tactile materials, coherent lighting, restrained detail, 16:9.
+
+### Revisión y límites
+
+La salida se inspeccionó completa a resolución original. No contiene personas, rostros, cráneos, cuerpos, sangre, cadenas, fronteras, logos, instrumentos médicos modernos o texto transcribible. Libro, fragmentos, mineral, recipiente, alimentos, tejido, navío, herbario e hilos son utilería editorial genérica.
+
+La composición no reproduce La Española, Teposcolula, Huancavelica, Potosí, Filipinas, Newton, Jamaica, Alta California, Guayases, una especie de *Cinchona* ni un archivo real. La proximidad entre estaciones no afirma coetaneidad, transmisión, monocausa, identidad, acceso, eficacia, crédito o justicia.
+
+Los SVG se construyeron a `1600 × 900`, incluyen `title`, `desc` y tipografía de reserva. La cadena mantiene siete capas con cortafuegos; la matriz compara siete expedientes sin puntuaciones. Ninguno acepta datos personales, diagnostica, calcula mortalidad, recomienda o representa sufrimiento real.

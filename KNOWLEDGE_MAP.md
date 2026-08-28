@@ -1663,3 +1663,29 @@ Cadena principal: **testimonio → agente → magnitud → respuesta → cumplim
 - `CLAIM-MED-EPID-MODEL-001` impide que relato, positivo, fosa, norma o descenso hereden diagnóstico, cifra, cumplimiento, eficacia o justicia.
 
 Véase 15_medicina/INVESTIGACION_MED_014_EPIDEMIAS_CUARENTENAS.md, 22_mapas_epistemologicos/MAPA_MED_014_EPIDEMIAS_CUARENTENAS.md, 21_cronologias/CRONOLOGIA_MED_014_EPIDEMIAS_CUARENTENAS.md, assets/visuales/cadena-testimonio-desigualdad-med-014.svg y assets/visuales/matriz-epidemias-cuarentenas-med-014.svg.
+
+## MED-015 — Encuentros coloniales
+
+### Pregunta
+
+¿Cómo reconstruir salud, cuerpos y saberes bajo conquista, esclavitud, misión y extracción sin reducir la catástrofe a «contacto»?
+
+### Cadena canónica
+
+`exposición → violencia → trabajo → nutrición → clasificación → respuesta → supervivencia`
+
+Cada flecha es una inferencia que puede detenerse. Exposición no hereda infección; violencia no asigna causa individual; norma laboral no hereda carga uniforme; ración no hereda nutrición; categoría no hereda identidad; respuesta no hereda acceso o eficacia; supervivencia no hereda ausencia de daño.
+
+### Nodos y enlaces
+
+- La Española separa llegada, viruela de 1518, guerra, trabajo, hambre, denominador y continuidad.
+- Teposcolula separa fosa, población funeraria, Paratyphi C, dieta de largo plazo y cocoliztli.
+- Huancavelica–Potosí separa sedimento, producción, emisión modelada, tarea, dosis y legado ambiental.
+- Filipinas separa conectividad, endemicidad, tributo, hogar, descenso y heterogeneidad insular.
+- El Atlántico esclavista separa viaje, imputación, mortalidad, atención, coerción, cementerio y movilidad.
+- Alta California separa visita, asentamiento sostenido, misión, categoría sacramental, mortalidad y persistencia alimentaria.
+- Guayases y *Cinchona* separan planta, nombre, recolección, clasificación, comercio, uso, crédito y beneficio.
+- `CLAIM-MED-COL-MODEL-001` impide que contacto, categoría o circulación hereden causa, identidad o eficacia.
+- `CLAIM-MED-COL-NONRANKING-001` impide convertir archivos heterogéneos en una escala de sufrimiento o progreso.
+
+Véase 15_medicina/INVESTIGACION_MED_015_ENCUENTROS_COLONIALES.md, 22_mapas_epistemologicos/MAPA_MED_015_ENCUENTROS_COLONIALES.md, 21_cronologias/CRONOLOGIA_MED_015_ENCUENTROS_COLONIALES.md, assets/visuales/cadena-exposicion-supervivencia-med-015.svg y assets/visuales/matriz-encuentros-coloniales-med-015.svg.

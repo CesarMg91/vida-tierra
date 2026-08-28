@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Cadena de siete capas desde exposición hasta supervivencia</title>
+  <desc id="desc">Siete capas separan exposición, violencia, trabajo, nutrición, clasificación, respuesta y supervivencia. Entre ellas, cortafuegos impiden heredar infección, causalidad, carga, estado nutricional, identidad, eficacia o ausencia de daño.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#0d1411"/><stop offset="1" stop-color="#281d17"/></linearGradient>
+    <linearGradient id="card" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#242a24"/><stop offset="1" stop-color="#181d19"/></linearGradient>
+    <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#b97a49"/></marker>
+    <style>
+      .k{font:600 20px 'IBM Plex Sans',Arial,sans-serif;letter-spacing:4px;fill:#d19a5d}
+      .t{font:700 52px 'Source Serif 4',Georgia,serif;fill:#f6ead7}
+      .sub{font:400 20px 'IBM Plex Sans',Arial,sans-serif;fill:#cfc3b1}
+      .num{font:700 17px 'IBM Plex Mono',monospace;fill:#15120f}
+      .head{font:700 26px 'Source Serif 4',Georgia,serif;fill:#f4e5cf}
+      .body{font:400 17px 'IBM Plex Sans',Arial,sans-serif;fill:#d1c5b5}
+      .stop{font:600 15px 'IBM Plex Sans',Arial,sans-serif;fill:#efb482}
+      .foot{font:600 19px 'IBM Plex Sans',Arial,sans-serif;fill:#f1dfc7}
+    </style>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <text x="80" y="72" class="k">MED-015 · CADENA CAUSAL</text>
+  <text x="80" y="136" class="t">Contacto no es causa suficiente</text>
+  <text x="80" y="179" class="sub">Cada capa exige archivo, escala y límite propios antes de avanzar a la siguiente.</text>
+
+  <path d="M285 348 H350" stroke="#b97a49" stroke-width="4" marker-end="url(#arrow)"/>
+  <path d="M640 348 H705" stroke="#b97a49" stroke-width="4" marker-end="url(#arrow)"/>
+  <path d="M995 348 H1060" stroke="#b97a49" stroke-width="4" marker-end="url(#arrow)"/>
+  <path d="M1315 470 C1315 545 1160 570 1025 570" stroke="#b97a49" stroke-width="4" fill="none" marker-end="url(#arrow)"/>
+  <path d="M770 674 H705" stroke="#b97a49" stroke-width="4" marker-end="url(#arrow)"/>
+  <path d="M415 674 H350" stroke="#b97a49" stroke-width="4" marker-end="url(#arrow)"/>
+
+  <g transform="translate(60 235)">
+    <rect width="225" height="230" rx="22" fill="url(#card)" stroke="#a66c40"/>
+    <circle cx="38" cy="38" r="19" fill="#d39a58"/><text x="28" y="44" class="num">01</text>
+    <text x="24" y="92" class="head">Exposición</text>
+    <text x="24" y="128" class="body"><tspan x="24">Persona, animal,</tspan><tspan x="24" dy="25">patógeno, sustancia</tspan><tspan x="24" dy="25">o red en relación.</tspan></text>
+    <text x="24" y="207" class="stop">≠ infección</text>
+  </g>
+  <g transform="translate(380 235)">
+    <rect width="260" height="230" rx="22" fill="url(#card)" stroke="#99534b"/>
+    <circle cx="38" cy="38" r="19" fill="#c96357"/><text x="28" y="44" class="num">02</text>
+    <text x="24" y="92" class="head">Violencia</text>
+    <text x="24" y="128" class="body"><tspan x="24">Guerra, captura,</tspan><tspan x="24" dy="25">desplazamiento,</tspan><tspan x="24" dy="25">encierro o amenaza.</tspan></text>
+    <text x="24" y="207" class="stop">≠ causa individual total</text>
+  </g>
+  <g transform="translate(735 235)">
+    <rect width="260" height="230" rx="22" fill="url(#card)" stroke="#9e7643"/>
+    <circle cx="38" cy="38" r="19" fill="#c6934e"/><text x="28" y="44" class="num">03</text>
+    <text x="24" y="92" class="head">Trabajo</text>
+    <text x="24" y="128" class="body"><tspan x="24">Tarea, régimen,</tspan><tspan x="24" dy="25">duración, libertad</tspan><tspan x="24" dy="25">y distribución.</tspan></text>
+    <text x="24" y="207" class="stop">norma ≠ carga uniforme</text>
+  </g>
+  <g transform="translate(1090 235)">
+    <rect width="250" height="230" rx="22" fill="url(#card)" stroke="#768b56"/>
+    <circle cx="38" cy="38" r="19" fill="#90a56c"/><text x="28" y="44" class="num">04</text>
+    <text x="24" y="92" class="head">Nutrición</text>
+    <text x="24" y="128" class="body"><tspan x="24">Alimento, agua,</tspan><tspan x="24" dy="25">tiempo, acceso</tspan><tspan x="24" dy="25">y ecología.</tspan></text>
+    <text x="24" y="207" class="stop">ración ≠ nutrición</text>
+  </g>
+
+  <g transform="translate(60 560)">
+    <rect width="290" height="230" rx="22" fill="url(#card)" stroke="#6e897d"/>
+    <circle cx="38" cy="38" r="19" fill="#75a08f"/><text x="28" y="44" class="num">07</text>
+    <text x="24" y="92" class="head">Supervivencia</text>
+    <text x="24" y="128" class="body"><tspan x="24">Muerte, fecundidad,</tspan><tspan x="24" dy="25">movilidad, continuidad</tspan><tspan x="24" dy="25">y legado.</tspan></text>
+    <text x="24" y="207" class="stop">≠ ausencia de daño</text>
+  </g>
+  <g transform="translate(415 560)">
+    <rect width="290" height="230" rx="22" fill="url(#card)" stroke="#557a69"/>
+    <circle cx="38" cy="38" r="19" fill="#6c9c86"/><text x="28" y="44" class="num">06</text>
+    <text x="24" y="92" class="head">Respuesta</text>
+    <text x="24" y="128" class="body"><tspan x="24">Cuidado, huida,</tspan><tspan x="24" dy="25">negociación, institución</tspan><tspan x="24" dy="25">o remedio ejecutado.</tspan></text>
+    <text x="24" y="207" class="stop">presencia ≠ eficacia</text>
+  </g>
+  <g transform="translate(770 560)">
+    <rect width="290" height="230" rx="22" fill="url(#card)" stroke="#7a6952"/>
+    <circle cx="38" cy="38" r="19" fill="#b49061"/><text x="28" y="44" class="num">05</text>
+    <text x="24" y="92" class="head">Clasificación</text>
+    <text x="24" y="128" class="body"><tspan x="24">Nombre fiscal, racial,</tspan><tspan x="24" dy="25">médico, botánico</tspan><tspan x="24" dy="25">o religioso.</tspan></text>
+    <text x="24" y="207" class="stop">categoría ≠ identidad</text>
+  </g>
+
+  <g transform="translate(1120 575)">
+    <rect width="390" height="192" rx="24" fill="#30251d" stroke="#cc9253" stroke-width="2"/>
+    <text x="28" y="45" class="k" style="font-size:15px;letter-spacing:2px">CORTAFUEGO</text>
+    <text x="28" y="83" class="foot">La secuencia ordena preguntas.</text>
+    <text x="28" y="116" class="body">No representa progreso, inevitabilidad</text>
+    <text x="28" y="143" class="body">ni una escala de sufrimiento.</text>
+    <text x="28" y="170" class="stop">Cada flecha puede detenerse.</text>
+  </g>
+  <text x="80" y="852" class="sub">Producto final: mecanismos y desenlaces situados; nunca una monocausa de «contacto».</text>
+</svg>
