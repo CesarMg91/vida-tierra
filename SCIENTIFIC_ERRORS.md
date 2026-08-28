@@ -4262,3 +4262,23 @@ Riesgo basal, alternativas y preferencias cambian el balance. **Corrección:** s
 | `ERR-MED-RB-PANTOKRATOR-UNIVERSAL-001` | el Pantocrátor demuestra un sistema hospitalario universal | es una norma detallada de una institución concreta | separar prescripción, operación y representatividad | ACTIVO |
 | `ERR-MED-RB-TRANSMISSION-LINEAR-001` | la medicina viajó linealmente de Grecia a Roma, Bizancio y Europa | redes siríacas, árabes, hebreas y latinas transformaron rutas | demostrar cada enlace con testigos y agentes | ACTIVO |
 | `ERR-MED-RB-RANKING-001` | Roma o Bizancio fueron más avanzados por infraestructura o textos | productos no conmensurables no forman una puntuación | comparar una dimensión bajo el mismo archivo | ACTIVO |
+
+## MED-009 — África fuera del eje egipcio
+
+| ID | Error | Por qué falla | Corrección mínima | Estado |
+|---|---|---|---|---|
+| `ERR-MED-AFRICA-ONE-TRADITION-001` | África tuvo una medicina única | homogeniza regiones, periodos, lenguas y archivos | nombrar caso, fecha, soporte y escala | ACTIVO |
+| `ERR-MED-AFRICA-SILENCE-ABSENCE-001` | sin texto no hubo conocimiento o cuidado | preservación y colección son selectivas | declarar qué archivo falta y qué inferencia queda abierta | ACTIVO |
+| `ERR-MED-AFRICA-BONE-DIAGNOSIS-001` | una lesión identifica diagnóstico y tratamiento | morfologías admiten diferenciales y rara vez conservan intervención | separar señal, diferencial, supervivencia y cuidado | ACTIVO |
+| `ERR-MED-AFRICA-HEALED-CARE-001` | toda lesión curada demuestra asistencia especializada | supervivencia no nombra cuidador, intensidad o técnica | modelar discapacidad y ayuda requerida | ACTIVO |
+| `ERR-MED-AFRICA-KERMA-TREPANATION-CERTAIN-001` | K317 prueba trepanación con finalidad médica | trauma y patología siguen en el diferencial | calificar intervención como posible y conservar alternativas | ACTIVO |
+| `ERR-MED-AFRICA-KERMA-EQUALITY-001` | perfiles semejantes prueban igualdad en Kerma | muestra mortuoria y marcadores parciales no cubren experiencia social | declarar denominador, edad y selección | ACTIVO |
+| `ERR-MED-AFRICA-KULUBNARTI-GENETIC-EQUALITY-001` | semejanza genética elimina estratificación | parentesco no mide dieta, estatus, mortuoria o cuidado | integrar archivos sin sustituirlos por ADN | ACTIVO |
+| `ERR-MED-AFRICA-AKSUM-MONUMENT-MEDICINE-001` | monumentalidad aksumita prueba sistema médico complejo | densidad política y archivo corporal son productos distintos | buscar cuerpos, prácticas, personal y consecuencias | ACTIVO |
+| `ERR-MED-AFRICA-MANUSCRIPT-AKSUM-001` | rollos etíopes tardíos describen medicina aksumita | proyecta siglos sin testigos intermedios | fechar copia, composición y ruta por separado | ACTIVO |
+| `ERR-MED-AFRICA-JENNE-CITY-HOSPITAL-001` | toda ciudad compleja tuvo hospitales o médicos institucionales | urbanismo no identifica una función médica | exigir espacio, operación, actores y beneficiarios | ACTIVO |
+| `ERR-MED-AFRICA-TIMBUKTU-ALL-MEDIEVAL-001` | todos los manuscritos de Tombuctú son medievales | inventarios reúnen piezas tardías, breves y de fecha desigual | catalogar cada objeto antes de sumar | ACTIVO |
+| `ERR-MED-AFRICA-RECIPE-PRACTICE-001` | una receta demuestra ejecución frecuente | texto, circulación y práctica son capas distintas | buscar marcas de uso, contexto y actores | ACTIVO |
+| `ERR-MED-AFRICA-TONG-TALENSI-001` | los recipientes antiguos pertenecen automáticamente a talensi históricos | el contexto antecede la etnogénesis inferida | usar analogía sin heredar identidad | ACTIVO |
+| `ERR-MED-AFRICA-RESIDUE-EFFICACY-001` | residuo vegetal demuestra un remedio eficaz | no fija planta, indicación, dosis, comparador o resultado | separar contenido, función y efecto | ACTIVO |
+| `ERR-MED-AFRICA-RANKING-001` | más textos o restos significan medicina más avanzada | preservación no es desempeño social | comparar resolución del archivo, no sociedades en una escala | ACTIVO |

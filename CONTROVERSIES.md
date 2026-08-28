@@ -3294,3 +3294,18 @@ Emular un ensayo objetivo corrige errores de diseño, no confusión no medida. *
 | `CONT-MED-RB-HOSPITAL-ORIGIN-001` | ¿qué continuidad une caridad tardía y hospital posterior? | genealogía institucional directa | convergencias y reinvenciones múltiples | reglas, personal, arquitectura y rutas de patronazgo | ABIERTA |
 | `CONT-MED-RB-PANTOKRATOR-001` | ¿cuánto del typikon del Pantocrátor se ejecutó? | refleja una operación estable y detallada | programa normativo parcialmente realizado | cuentas, turnos, admisiones y testimonios cotidianos | ABIERTA |
 | `CONT-MED-RB-NETWORKS-001` | ¿qué rutas conectaron versiones griegas, siríacas, árabes, hebreas y latinas? | cadenas de traducción identificables | intermediarios perdidos o fuentes compartidas | manuscritos fechados, léxico y colofones | ABIERTA |
+
+## MED-009 — África fuera del eje egipcio
+
+| ID | Pregunta abierta | Posición A | Posición B / alternativa | Evidencia que discrimina | Estado |
+|---|---|---|---|---|---|
+| `CONT-MED-AFRICA-SILENCE-001` | ¿cuánto cuidado queda invisible por preservación y colección? | baja visibilidad refleja prácticas efímeras | parte refleja baja frecuencia o ausencia situada | muestreo sistemático, microresiduos, contexto y comparación regional | ABIERTA |
+| `CONT-MED-AFRICA-KERMA-K317-001` | ¿qué produjo la abertura de K317? | trepanación deliberada con herramienta reutilizada | trauma o lesión patológica remodelada | microestrías diagnósticas, histología y nuevos paralelos | ABIERTA |
+| `CONT-MED-AFRICA-KERMA-CARE-001` | ¿qué apoyo siguió a lesiones incapacitantes nubias? | asistencia doméstica o especializada prolongó supervivencia | adaptación individual con apoyo mínimo | modelado funcional, contexto doméstico y múltiples casos | ABIERTA |
+| `CONT-MED-AFRICA-KULUBNARTI-RS-001` | ¿por qué se usaron R y S? | diferenciación social contemporánea | usos por edad, institución o comunidad mortuoria | datación fina, dieta, movilidad, parentesco y ajuar | ABIERTA |
+| `CONT-MED-AFRICA-AKSUM-PRESERVATION-001` | ¿qué experiencia corporal oculta la preservación aksumita? | el archivo perdido fue socialmente diverso | los restos disponibles capturan sólo contextos muy específicos | nuevas series humanas y análisis tafonómico regional | ABIERTA |
+| `CONT-MED-AFRICA-ETHIOPIC-CONTINUITY-001` | ¿qué elementos de manuscritos tardíos tienen genealogías anteriores? | continuidad parcial de vocabulario y repertorios | reinvención, traducción o convergencia tardía | testigos intermedios, filología y rutas de transmisión | ABIERTA |
+| `CONT-MED-AFRICA-JENNE-SPECIALISTS-001` | ¿hubo especialistas de cuidado identificables en Jenne-jeno? | complejidad urbana hizo posibles roles especializados | cuidado doméstico o archivos hoy no diagnósticos | espacios, conjuntos, residuos, restos y marcas de práctica | ABIERTA |
+| `CONT-MED-AFRICA-TIMBUKTU-USE-001` | ¿cómo circularon y se ejecutaron textos médicos de Tombuctú? | manuales de consulta para practicantes | compilaciones devocionales, docentes o de biblioteca | colofones, marginalia, desgaste, recetas locales y redes de copia | ABIERTA |
+| `CONT-MED-AFRICA-TONG-FUNCTION-001` | ¿qué contenían y para qué sirvieron los recipientes de Tong Hills? | preparación medicinal vegetal | uso ritual o doméstico multifuncional | biomarcadores diagnósticos, microbotánica y conjuntos comparables | ABIERTA |
+| `CONT-MED-AFRICA-ORAL-TIME-001` | ¿qué profundidad cronológica conservan tradiciones concretas? | núcleos transmitidos durante generaciones | reorganización reciente de pasados e identidades | versiones fechadas, lingüística, arqueología y archivo independiente | ABIERTA |

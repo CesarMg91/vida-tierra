@@ -6,7 +6,7 @@ Historia profunda de la Tierra, la vida y el ser humano desde primeros principio
 
 **[Explorar la versión pública](https://vida-tierra.vercel.app)**
 
-La versión `0.3.7` continúa la historia cronológica mundial de la medicina con MED-008: práctica militar, infraestructura urbana, paleoparásitos, hogares, Galeno, compiladores y hospitales bizantinos, separados por vestigio, identificación, función, operación, acceso y consecuencia. Incluye el módulo público «Infraestructura o título no es cobertura ni resultado» y conserva MED-001–007 y CIV-001–003 íntegros; la secuencia global continúa cerrada en `001–052`.
+La versión `0.3.8` continúa la historia cronológica mundial de la medicina con MED-009: archivos de Nubia, Aksum, el Sahel y Ghana septentrional, separados por archivo, procedencia, señal, inferencia, contraste y límite. Incluye el módulo público «Silencio documental no es ausencia de cuidado» y conserva MED-001–008 y CIV-001–003 íntegros; la secuencia global continúa cerrada en `001–052`.
 
 El sitio usa `https://vida-tierra.vercel.app` como URL canónica. Otro dominio puede sustituirlo definiendo `SITE_URL` en el entorno de build, sin cambiar el código.
 
@@ -46,7 +46,7 @@ Y toda investigación debe distinguir explícitamente:
 - las alternativas y anomalías;
 - el grado de confianza y qué podría falsar la conclusión.
 
-## Estado actual · v0.3.7
+## Estado actual · v0.3.8
 
 La experiencia pública contiene:
 
@@ -103,6 +103,7 @@ La experiencia pública contiene:
 - la cuarta investigación histórica de Medicina: [MED-006 — ¿Cómo cambiaron los cánones, pulsos, agujas, farmacopeas e instituciones en China y Asia oriental?](15_medicina/INVESTIGACION_MED_006_CHINA_ASIA_ORIENTAL_CANONES_PRACTICAS.md) — **AUDITADO**; separa testigo, lectura, estrato, operación, institución y consecuencia sin convertir canon en práctica uniforme;
 - la quinta investigación histórica de Medicina: [MED-007 — ¿Qué transformaron observación, pronóstico, escuelas y disección en el Mediterráneo griego y helenístico?](15_medicina/INVESTIGACION_MED_007_MEDITERRANEO_GRIEGO_HELENISTICO.md) — **AUDITADO**; separa testimonio, lectura, género, operación, institución y consecuencia sin inventar un autor único ni una medicina racional uniforme;
 - la sexta investigación histórica de Medicina: [MED-008 — ¿Cómo circularon práctica militar, salud urbana, hospitales y corpus entre Roma y Bizancio?](15_medicina/INVESTIGACION_MED_008_ROMA_BIZANCIO_MEDITERRANEO_TARDIO.md) — **AUDITADO**; separa vestigio, identificación, función, operación, acceso y consecuencia sin convertir infraestructura, título o transmisión en cobertura o resultado;
+- la séptima investigación histórica de Medicina: [MED-009 — ¿Qué archivos permiten reconstruir cuidado y conocimiento en África fuera del eje egipcio?](15_medicina/INVESTIGACION_MED_009_AFRICA_FUERA_EJE_EGIPCIO.md) — **AUDITADO**; separa archivo, procedencia, señal, inferencia, contraste y límite sin convertir silencios o analogías en hechos;
 - la trigésima séptima investigación: [`¿Cómo distinguimos especies, locomoción, dieta y parentesco entre australopitecos y Paranthropus sin convertir su diversidad en una escalera hacia Homo?`](08_cenozoico/INVESTIGACION_037_AUSTRALOPITECOS_PARANTHROPUS.md);
 - la trigésima octava investigación: [`¿Cómo reconocemos a Homo temprano, habilis y erectus si fósiles, herramientas, cuerpos y moléculas responden preguntas distintas?`](08_cenozoico/INVESTIGACION_038_HOMO_TEMPRANO_HABILIS_ERECTUS.md);
 - la trigésima novena investigación: [`¿Cómo reconstruimos las poblaciones humanas del Pleistoceno medio sin convertir Homo heidelbergensis en un cajón de sastre ni cada fósil en un ancestro?`](08_cenozoico/INVESTIGACION_039_HOMO_PLEISTOCENO_MEDIO_HEIDELBERGENSIS.md);

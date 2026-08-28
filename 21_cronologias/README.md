@@ -9,3 +9,4 @@ Cronologías regionales o temáticas y matrices de correlación. La vista global
 ## Medicina
 
 - [`CRONOLOGIA_MED_008_ROMA_BIZANCIO_MEDITERRANEO_TARDIO.md`](CRONOLOGIA_MED_008_ROMA_BIZANCIO_MEDITERRANEO_TARDIO.md) — organización, infraestructura, corpus, hospitales y redes por carriles no heredables — **AUDITADO**.
+- [`CRONOLOGIA_MED_009_AFRICA_FUERA_EJE_EGIPCIO.md`](CRONOLOGIA_MED_009_AFRICA_FUERA_EJE_EGIPCIO.md) — casos regionales, fechas de archivo y métodos sin línea continental de progreso — **AUDITADO**.
