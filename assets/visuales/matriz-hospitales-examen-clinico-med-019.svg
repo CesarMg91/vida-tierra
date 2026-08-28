@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Matriz de hospitales, cabecera y examen clínico</title>
+  <desc id="desc">Ocho expedientes comparados por institución o archivo, producto observado y límite. La tabla evita una historia lineal o un ranking de hospitales.</desc>
+  <defs><linearGradient id="bg2" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#eee0c0"/><stop offset="1" stop-color="#d6c090"/></linearGradient></defs>
+  <rect width="1600" height="900" fill="url(#bg2)"/>
+  <rect x="58" y="48" width="1484" height="804" rx="28" fill="#f8efd9" stroke="#7a4f2d" stroke-width="2"/>
+  <text x="92" y="102" fill="#8b552d" font-family="Arial, sans-serif" font-size="20" font-weight="700" letter-spacing="4">MED-019 · MATRIZ DE OBSERVABILIDAD</text>
+  <text x="92" y="153" fill="#20221f" font-family="Georgia, serif" font-size="44" font-weight="700">Ocho archivos, ocho productos, ninguna escala de progreso</text>
+  <text x="92" y="191" fill="#5a554a" font-family="Arial, sans-serif" font-size="20">Se compara qué hace observable cada institución y dónde debe detenerse la inferencia.</text>
+  <g font-family="Arial, sans-serif">
+    <rect x="92" y="228" width="1416" height="58" rx="10" fill="#243c33"/>
+    <g fill="#f6edd9" font-size="18" font-weight="700"><text x="112" y="264">EXPEDIENTE</text><text x="372" y="264">INSTITUCIÓN / ARCHIVO</text><text x="750" y="264">PRODUCTO RESUELTO</text><text x="1122" y="264">LÍMITE</text></g>
+    <g font-size="17">
+      <g transform="translate(0 298)"><rect x="92" width="1416" height="62" fill="#fffaf0"/><text x="112" y="26" fill="#7a4f2d" font-weight="700">Padua–Leiden</text><text x="112" y="49" fill="#5a554a">siglos XVI–XVIII</text><text x="372" y="38" fill="#252722">curso · sala · red estudiantil</text><text x="750" y="38" fill="#252722">tradición y recepción</text><text x="1122" y="38" fill="#7b3d31">no fundador único</text></g>
+      <g transform="translate(0 360)"><rect x="92" width="1416" height="62" fill="#efe2c5"/><text x="112" y="26" fill="#7a4f2d" font-weight="700">Edimburgo</text><text x="112" y="49" fill="#5a554a">1749–1753</text><text x="372" y="38" fill="#252722">conferencia · caso · cuaderno</text><text x="750" y="38" fill="#252722">razonamiento revisable</text><text x="1122" y="38" fill="#7b3d31">no población completa</text></g>
+      <g transform="translate(0 422)"><rect x="92" width="1416" height="62" fill="#fffaf0"/><text x="112" y="26" fill="#7a4f2d" font-weight="700">París</text><text x="112" y="49" fill="#5a554a">1801–1830s</text><text x="372" y="38" fill="#252722">admisión · signo · autopsia · tabla</text><text x="750" y="38" fill="#252722">correlación clinicopatológica</text><text x="1122" y="38" fill="#7b3d31">no causa ni eficacia</text></g>
+      <g transform="translate(0 484)"><rect x="92" width="1416" height="62" fill="#efe2c5"/><text x="112" y="26" fill="#7a4f2d" font-weight="700">Estambul</text><text x="112" y="49" fill="#5a554a">1827–1900</text><text x="372" y="38" fill="#252722">escuela · hospital · regulación</text><text x="750" y="38" fill="#252722">reforma y coexistencia</text><text x="1122" y="38" fill="#7b3d31">no sustitución uniforme</text></g>
+      <g transform="translate(0 546)"><rect x="92" width="1416" height="62" fill="#fffaf0"/><text x="112" y="26" fill="#7a4f2d" font-weight="700">Ciudad de México</text><text x="112" y="49" fill="#5a554a">1806–1900</text><text x="372" y="38" fill="#252722">hospital · cátedra · laboratorio</text><text x="750" y="38" fill="#252722">espacio clínico híbrido</text><text x="1122" y="38" fill="#7b3d31">no ciudad representada</text></g>
+      <g transform="translate(0 608)"><rect x="92" width="1416" height="62" fill="#efe2c5"/><text x="112" y="26" fill="#7a4f2d" font-weight="700">Calcuta</text><text x="112" y="49" fill="#5a554a">desde 1835</text><text x="372" y="38" fill="#252722">college · sala · disección · caso</text><text x="750" y="38" fill="#252722">archivo y apropiación local</text><text x="1122" y="38" fill="#7b3d31">no neutralidad colonial</text></g>
+      <g transform="translate(0 670)"><rect x="92" width="1416" height="62" fill="#fffaf0"/><text x="112" y="26" fill="#7a4f2d" font-weight="700">Japón Meiji</text><text x="112" y="49" fill="#5a554a">1874–1900</text><text x="372" y="38" fill="#252722">byōin · universidad · examen</text><text x="750" y="38" fill="#252722">institución y licencia</text><text x="1122" y="38" fill="#7b3d31">no superioridad nacional</text></g>
+      <g transform="translate(0 732)"><rect x="92" width="1416" height="62" fill="#efe2c5"/><text x="112" y="26" fill="#7a4f2d" font-weight="700">Expediente</text><text x="112" y="49" fill="#5a554a">siglos XIX–XXI</text><text x="372" y="38" fill="#252722">formulario · índice · voz · auditoría</text><text x="750" y="38" fill="#252722">representación comparable</text><text x="1122" y="38" fill="#7b3d31">no persona completa</text></g>
+    </g>
+  </g>
+  <text x="92" y="830" fill="#38604e" font-family="Arial, sans-serif" font-size="17" font-weight="700">OBSERVADO → INFERENCIA PERMITIDA → LÍMITE → FUENTE</text>
+  <text x="1508" y="830" fill="#6f685c" text-anchor="end" font-family="Arial, sans-serif" font-size="15">Tabla accesible equivalente en MED-019</text>
+</svg>

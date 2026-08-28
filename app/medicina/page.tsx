@@ -14,6 +14,7 @@ import EastAsianMedicineLab from "../../components/EastAsianMedicineLab";
 import EpidemicsQuarantineEvidenceLab from "../../components/EpidemicsQuarantineEvidenceLab";
 import GreekHellenisticMedicineLab from "../../components/GreekHellenisticMedicineLab";
 import HistoricalMedicineLab from "../../components/HistoricalMedicineLab";
+import HospitalBedsideEvidenceLab from "../../components/HospitalBedsideEvidenceLab";
 import IndianOceanEurasianMedicineRouteLab from "../../components/IndianOceanEurasianMedicineRouteLab";
 import IslamicWorldsMedicineNetworkLab from "../../components/IslamicWorldsMedicineNetworkLab";
 import MedievalEuropeJewishMedicineNetworkLab from "../../components/MedievalEuropeJewishMedicineNetworkLab";
@@ -31,6 +32,7 @@ import { eastAsianMedicineEvidence } from "../../lib/east-asian-medicine-evidenc
 import { epidemicsQuarantineEvidence } from "../../lib/epidemics-quarantine-evidence";
 import { greekHellenisticMedicineEvidence } from "../../lib/greek-hellenistic-medicine-evidence";
 import { historicalMedicineEvidence } from "../../lib/historical-medicine-evidence";
+import { hospitalBedsideEvidence } from "../../lib/hospital-bedside-evidence";
 import { indianOceanEurasianMedicineRoutes } from "../../lib/indian-ocean-eurasian-medicine-routes";
 import { islamicWorldsMedicineNetworks } from "../../lib/islamic-worlds-medicine-networks";
 import { medievalEuropeJewishMedicineNetworks } from "../../lib/medieval-europe-jewish-medicine-networks";
@@ -45,7 +47,7 @@ export const metadata: Metadata = createPageMetadata({
   title: "Historia de la medicina — archivos, cuidado y evidencia",
   description: "Cómo reconstruimos la historia mundial de la medicina desde huesos, manuscritos, cánones, instituciones y resultados sin confundir archivo, práctica o eficacia.",
   pathname: "/medicina",
-  image: "/assets/visuales/hero-med-018-microscopia-anatomia-patologica.png",
+  image: "/assets/visuales/hero-med-019-hospitales-cabecera-examen-clinico.png",
 });
 
 const principles = [
@@ -62,8 +64,8 @@ export default function MedicinePage() {
     <div className="medicine-experience">
       <header className="medicine-hero medicine-history-hero">
         <Image
-          src="/assets/visuales/hero-med-018-microscopia-anatomia-patologica.png"
-          alt="Mesa editorial con expediente, espécimen genérico sellado, microtomo, láminas, microscopios y tarjeta de correlación"
+          src="/assets/visuales/hero-med-019-hospitales-cabecera-examen-clinico.png"
+          alt="Sala hospitalaria histórica compuesta con camas vacías, biombo, expediente, estetoscopio temprano y luz que conecta observación y registro"
           fill
           preload
           fetchPriority="high"
@@ -72,14 +74,14 @@ export default function MedicinePage() {
         <div className="medicine-hero-shade" />
         <div className="medicine-hero-copy">
           <p className="eyebrow">Historia mundial de la medicina</p>
-          <h1>Una lesión no contiene una enfermedad por sí sola</h1>
-          <p>Episodio, espécimen, preparación, visualización, lesión, correlación y enfermedad forman una cadena histórica. Ninguna imagen aislada hereda el diagnóstico completo.</p>
+          <h1>Una cama hospitalaria no convierte a una persona en un caso por sí sola</h1>
+          <p>Institución, admisión, encuentro, examen, registro, comparación y decisión forman una cadena histórica. Ningún expediente aislado hereda la persona, la población o el resultado completo.</p>
           <div>
-            <Link className="button button-primary" href="#microscopia-anatomia-patologica">Auditar la cadena <ArrowDown aria-hidden="true" /></Link>
-            <Link className="medicine-text-link" href="/15_medicina/INVESTIGACION_MED_018_MICROSCOPIA_ANATOMIA_PATOLOGICA">Leer MED-018 <ArrowRight aria-hidden="true" /></Link>
+            <Link className="button button-primary" href="#hospitales-cabecera-examen">Auditar la cadena <ArrowDown aria-hidden="true" /></Link>
+            <Link className="medicine-text-link" href="/15_medicina/INVESTIGACION_MED_019_HOSPITALES_CABECERA_EXAMEN_CLINICO">Leer MED-019 <ArrowRight aria-hidden="true" /></Link>
           </div>
         </div>
-        <p className="medicine-visual-limit">Composición editorial no probatoria: utilería genérica; no reproduce manuscrito, aparato, preparación, experimento o acontecimiento reales.</p>
+        <p className="medicine-visual-limit">Composición editorial no probatoria: utilería y arquitectura genéricas; no reproduce un hospital, paciente, examen, expediente o acontecimiento reales.</p>
       </header>
 
       <section className="medicine-boundary">
@@ -90,6 +92,14 @@ export default function MedicinePage() {
       <section className="medicine-principles" aria-labelledby="medicine-principles-title">
         <header><p className="eyebrow">Contrato de lectura</p><h2 id="medicine-principles-title">Cuatro cortafuegos</h2></header>
         <div>{principles.map(([title, text], index) => <article key={title}><span>{String(index + 1).padStart(2, "0")}</span><h3>{title}</h3><p>{text}</p></article>)}</div>
+      </section>
+
+      <section className="medicine-lab-section documentary-lab-section" id="hospitales-cabecera-examen" aria-labelledby="hospital-bedside-lab-title">
+        <div className="section-heading">
+          <div><p className="eyebrow">MED-019 · laboratorio de hospitales y examen clínico</p><h2 id="hospital-bedside-lab-title">De la institución a la decisión</h2></div>
+          <p>Elige un expediente. Siete capas separan acceso, encuentro, técnica, escritura y comparación sin convertir una cama, un signo o una ficha en conocimiento clínico automático.</p>
+        </div>
+        <HospitalBedsideEvidenceLab data={hospitalBedsideEvidence} />
       </section>
 
       <section className="medicine-lab-section documentary-lab-section" id="microscopia-anatomia-patologica" aria-labelledby="microscopy-pathology-lab-title">

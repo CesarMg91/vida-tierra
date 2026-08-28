@@ -1037,3 +1037,15 @@ La portada separa tradiciones textuales, palpación, ligadura, cantidad, óptica
 Salida original aprobada sin edición: `C:\Users\HUAWEI\.codex\generated_images\019fedb0-8f24-7e33-8d16-d2418ba3378e\exec-3f92e740-8af5-4345-9b89-c1beafe98c27.png` → `assets/visuales/hero-med-018-microscopia-anatomia-patologica.png`; tamaño `2,366,937` bytes. El prompt completo y los límites están en `ATLAS_VISUAL.md`, sección 73.
 
 La portada separa episodio, muestra genérica, preparación, lámina, microscopía y correlación sin mostrar cuerpos ni material diagnóstico real. Los SVG incluyen `title` y `desc`, preservan las siete capas y no convierten imagen, lesión, clasificación, volumen institucional o epónimo en diagnóstico, causa, representatividad o beneficio clínico.
+
+## MED-019 — Hospitales, cabecera y examen clínico
+
+| Archivo | Origen | Dimensiones | SHA-256 / trazabilidad | Límite |
+|---|---|---:|---|---|
+| `hero-med-019-hospitales-cabecera-examen-clinico.png` | OpenAI ImageGen, generación nueva del 2026-08-28 | `1672 × 941` | `92facd19a94aa7bf4a9027fa74a86462ff29947330a4728e31a3b331eab0e84e` | composición conceptual; no hospital, paciente, examen, ficha, instrumento compuesto o acontecimiento reales |
+| `cadena-institucion-decision-med-019.svg` | SVG manual determinista | `1600 × 900` | código fuente versionado | siete capas inferenciales; no herencia automática |
+| `matriz-hospitales-examen-clinico-med-019.svg` | SVG manual determinista | `1600 × 900` | código fuente versionado | ocho expedientes y límites; no modernidad, eficacia o ranking |
+
+Salida original aprobada sin edición: `C:\Users\HUAWEI\.codex\generated_images\019fedb0-8f24-7e33-8d16-d2418ba3378e\exec-3479c64e-6207-4471-b8a2-fc748937908c.png` → `assets/visuales/hero-med-019-hospitales-cabecera-examen-clinico.png`; tamaño `1,979,630` bytes. El prompt completo y los límites están en `ATLAS_VISUAL.md`, sección 74.
+
+La portada separa institución, cama, expediente, comparación, examen y decisión sin mostrar pacientes, procedimientos ni reproducir un hospital real. Los SVG incluyen `title` y `desc`, preservan las siete capas y no convierten cama, ingreso, presencia, signo, ficha, serie, licencia o prestigio en población, consentimiento, lesión, persona, causalidad, beneficio o justicia.

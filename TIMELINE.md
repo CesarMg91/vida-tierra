@@ -892,3 +892,26 @@ CIV-003 inaugura los expedientes regionales auditados. CIV-001 conserva `TRAZADO
 | `TIME-MED-PATH-PAPANICOLAOU-1928-001` | 1928 | comunicación de Papanicolaou | células anormales en material cervicovaginal | `SRC-MED-PATH-VILOS-1998` | A/B prioridad | AUDITADO |
 | `TIME-MED-PATH-PAP-TRAUT-1941-001` | 1941 | artículo de Papanicolaou y Traut | serie clínica y valor diagnóstico | `SRC-MED-PATH-PAPANICOLAOU-TRAUT-1941` | A publicación | AUDITADO |
 | `TIME-MED-PATH-PAP-TRAUT-1943-001` | 1943 | monografía del frotis vaginal | protocolo, atlas, categorías y casos | `SRC-MED-PATH-PAPANICOLAOU-TRAUT-1943` | A publicación | AUDITADO |
+
+## MED-019 — Hospitales, cabecera y examen clínico
+
+| ID | Fecha/rango | Evento | Producto | Fuentes | Confianza | Estado |
+|---|---|---|---|---|---|---|
+| `TIME-MED-CLINIC-SYLVIUS-1658-001` | 1658–1672 | enseñanza de Sylvius en Leiden | visitas, examen, discusión y autopsia en una tradición distribuida | `SRC-MED-CLINIC-FIDDES-2023`, `SRC-MED-CLINIC-COOK-2000` | A/B histórico | AUDITADO |
+| `TIME-MED-CLINIC-BOERHAAVE-1714-001` | desde 1714 | demostraciones clínicas de Boerhaave | práctica influyente de escala documentada limitada | `SRC-MED-CLINIC-FIDDES-2023`, `SRC-MED-CLINIC-COOK-2000` | A/B histórico | AUDITADO |
+| `TIME-MED-CLINIC-RUTHERFORD-1749-001` | 1749–1753 | conferencias de Rutherford en Edimburgo | historia, examen, razonamiento y revisión junto a casos | `SRC-MED-CLINIC-CRAIG-2017` | A/B documental | AUDITADO |
+| `TIME-MED-CLINIC-AUENBRUGGER-1761-001` | 1761 | publicación de *Inventum novum* | percusión torácica como técnica de signo | `SRC-MED-CLINIC-AUENBRUGGER-1761` | A publicación | AUDITADO |
+| `TIME-MED-CLINIC-PARIS-ADMISSION-1801-001` | 1801–1803 | oficina central de admisión en París | triaje, ingreso, remisión y denominadores administrativos | `SRC-MED-CLINIC-WEINER-1991` | A/B histórico | AUDITADO |
+| `TIME-MED-CLINIC-SANANDRES-1806-001` | 1806 | cátedra clínica en San Andrés | enseñanza hospitalaria optativa | `SRC-MED-CLINIC-FERNANDEZ-2005`, `SRC-MED-CLINIC-MORALES-2000` | A/B histórico | AUDITADO |
+| `TIME-MED-CLINIC-SANANDRES-1808-001` | 1808 | obligatoriedad de la cátedra | integración curricular de medicina práctica | `SRC-MED-CLINIC-FERNANDEZ-2005` | A/B histórico | AUDITADO |
+| `TIME-MED-CLINIC-CORVISART-1808-001` | 1808 | traducción comentada de Auenbrugger por Corvisart | recepción francesa de la percusión | `SRC-MED-CLINIC-STAHNISCH-2024` | A/B histórico | AUDITADO |
+| `TIME-MED-CLINIC-LAENNEC-1819-001` | 1819 | publicación de *De l'auscultation médiate* | estetoscopio, vocabulario acústico y casos correlacionados | `SRC-MED-CLINIC-LAENNEC-1819` | A publicación | AUDITADO |
+| `TIME-MED-CLINIC-OTTOMAN-SCHOOL-1827-001` | 1827; reorganización 1839 | escuela médica imperial | formación, servicio estatal y regulación profesional | `SRC-MED-CLINIC-SHEFER-2005`, `SRC-MED-CLINIC-RASIMOGLU-2021` | A/B histórico | AUDITADO |
+| `TIME-MED-CLINIC-CALCUTTA-1835-001` | 1835 | fundación del Medical College de Calcuta | enseñanza en inglés, hospital, disección y anatomía mórbida | `SRC-MED-CLINIC-BHATTACHARYA-2015`, `SRC-MED-CLINIC-ANSHU-2016` | A/B histórico | AUDITADO |
+| `TIME-MED-CLINIC-BEZMIALEM-1845-001` | 1845 | apertura del hospital de Bezm-i Alem | caridad, patronazgo, administración y hospital reformado | `SRC-MED-CLINIC-RASIMOGLU-2021` | A/B histórico | AUDITADO |
+| `TIME-MED-CLINIC-JAPAN-ISEI-1874-001` | 1874 | promulgación del *Isei* | marco para establecimientos, enseñanza y práctica | `SRC-MED-CLINIC-KIM-2017`, `SRC-MED-CLINIC-ONISHI-2018` | A/B legal | AUDITADO |
+| `TIME-MED-CLINIC-TOKYO-1877-001` | 1877 | facultad médica y hospital de la Universidad de Tokio | universidad, hospital docente y modelo institucional | `SRC-MED-CLINIC-ONISHI-2018` | A/B institucional | AUDITADO |
+| `TIME-MED-CLINIC-SANANDRES-LAB-1890S-001` | década de 1890 | espacios de análisis y experimento en San Andrés | hospital-escuela-laboratorio híbrido | `SRC-MED-CLINIC-CHAZARO-2021` | A/B espacial | AUDITADO |
+| `TIME-MED-CLINIC-RECORDS-1900S-001` | siglos XIX–XX | expansión de formularios e índices clínicos | expedientes más comparables y selectivos | `SRC-MED-CLINIC-NIBURSKI-2019`, `SRC-MED-CLINIC-LORKOWSKI-2022` | B síntesis | AUDITADO |
+| `TIME-MED-CLINIC-PATIENT-NARRATIVE-1996-001` | 1996 | crítica a la pérdida narrativa en la ficha | análisis de fines, forma y voz del paciente | `SRC-MED-CLINIC-DONNELLY-1996` | A publicación | AUDITADO |
+| `TIME-MED-CLINIC-PATIENT-HISTORY-2007-001` | 2007 | agenda historiográfica centrada en pacientes | agencia, encuentro y archivos alternativos | `SRC-MED-CLINIC-CONDRAU-2007` | A publicación | AUDITADO |

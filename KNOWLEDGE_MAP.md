@@ -1757,3 +1757,18 @@ Véase 15_medicina/INVESTIGACION_MED_017_CIRCULACION_FISIOLOGIA.md, 22_mapas_epi
 - `CLAIM-MED-PATH-NONRANKING-001` impide ordenar archivos por antigüedad, aumento, volumen o parecido con la práctica actual.
 
 Véase 15_medicina/INVESTIGACION_MED_018_MICROSCOPIA_ANATOMIA_PATOLOGICA.md, 22_mapas_epistemologicos/MAPA_MED_018_MICROSCOPIA_ANATOMIA_PATOLOGICA.md, 21_cronologias/CRONOLOGIA_MED_018_MICROSCOPIA_ANATOMIA_PATOLOGICA.md, assets/visuales/cadena-episodio-enfermedad-med-018.svg y assets/visuales/matriz-microscopia-anatomia-patologica-med-018.svg.
+
+## MED-019 — Una cama hospitalaria no convierte a una persona en un caso por sí sola
+
+- Padua–Leiden separa antecedente, sala, demostración, estudiante, transmisión y memoria de fundador.
+- Edimburgo separa conferencia, historia, examen, razonamiento, tratamiento, revisión y fracaso documentado.
+- París separa solicitante, admisión, signo, instrumento, categoría, autopsia, serie y decisión.
+- Estambul separa patronazgo, escuela, hospital, regulación, convivencia terapéutica y práctica efectiva.
+- Ciudad de México separa beneficencia, cátedra, cabecera, anatomía patológica, laboratorio, higiene urbana y control.
+- Calcuta separa institución colonial, selección de pacientes y cuerpos, enseñanza, caso, apropiación local y jerarquía.
+- Japón separa traducción de *byōin*, decreto, hospital, universidad, modelo alemán, examen y licencia.
+- El expediente separa conversación, trabajo de cuidado, formulario, propósito, omisión, comparación y archivo alternativo.
+- `CLAIM-MED-CLINIC-CHAIN-001` impide heredar automáticamente una propiedad entre institución, admisión, encuentro, examen, registro, comparación y decisión.
+- `CLAIM-MED-CLINIC-NONRANKING-001` impide ordenar hospitales por antigüedad, camas, instrumentos, expedientes o parecido con la práctica contemporánea.
+
+Véase 15_medicina/INVESTIGACION_MED_019_HOSPITALES_CABECERA_EXAMEN_CLINICO.md, 22_mapas_epistemologicos/MAPA_MED_019_HOSPITALES_CABECERA_EXAMEN_CLINICO.md y 21_cronologias/CRONOLOGIA_MED_019_HOSPITALES_CABECERA_EXAMEN_CLINICO.md.
