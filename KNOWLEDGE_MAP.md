@@ -1528,3 +1528,24 @@ Los cortafuegos principales son: aflicción escrita ≠ diagnóstico moderno; vo
 Mawangdui y Zhangjiashan sostienen repertorios tempranos y variantes; Tianhui sostiene canales, punción y una figurilla sin cerrar autoría o función; Wuwei sostiene escritura técnica local; Dunhuang una biblioteca heterogénea; el modelo Song una estandarización didáctica; *Ishinpō* y *Donguibogam* selecciones regionales transformadoras. Ninguno hereda por sí solo cobertura o resultado.
 
 Véase 15_medicina/INVESTIGACION_MED_006_CHINA_ASIA_ORIENTAL_CANONES_PRACTICAS.md, 22_mapas_epistemologicos/MAPA_MED_006_CHINA_ASIA_ORIENTAL.md, 21_cronologias/CRONOLOGIA_MED_006_CHINA_ASIA_ORIENTAL.md, assets/visuales/cadena-testigo-resultado-med-006.svg y assets/visuales/matriz-canones-practicas-med-006.svg.
+### MED-007 — Observación escrita no es resultado clínico
+
+```text
+testimonio
+        ↓
+lectura + variante
+        ↓
+género + voz
+        ↓
+operación formulada
+        ↓
+institución + circulación
+        ↓
+consecuencia observada
+```
+
+Los cortafuegos principales son: Hipócrates ≠ corpus; corpus ≠ doctrina única; Cos/Cnido ≠ facultades modernas; caso ≠ cohorte; observación ≠ neutralidad; pronóstico ≠ exactitud validada; instrucción quirúrgica ≠ ejecución; Juramento ≠ licencia universal; *iama* ≠ desenlace consecutivo; decreto ≠ cobertura; disección ≠ efecto; testimonio tardío ≠ vivisección cierta; contacto ≠ préstamo; racionalidad ≠ eficacia.
+
+El corpus sostiene pluralidad escrita; *Epidemias*, formas de curso y pronóstico; los tratados quirúrgicos, operaciones formuladas; Epidauro, memoria votiva pública; los decretos, contratación cívica local; y Alejandría, una ventana excepcional de anatomía humana reconstruida. Ninguno hereda por sí solo práctica uniforme, resultado o superioridad.
+
+Véase 15_medicina/INVESTIGACION_MED_007_MEDITERRANEO_GRIEGO_HELENISTICO.md, 22_mapas_epistemologicos/MAPA_MED_007_MEDITERRANEO_GRIEGO_HELENISTICO.md, 21_cronologias/CRONOLOGIA_MED_007_MEDITERRANEO_GRIEGO_HELENISTICO.md, assets/visuales/cadena-testimonio-consecuencia-med-007.svg y assets/visuales/matriz-archivos-mediterraneo-med-007.svg.

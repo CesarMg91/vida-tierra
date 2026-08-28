@@ -1004,3 +1004,33 @@ La salida se inspeccionó a resolución original. No contiene personas, manos, e
 Los seis objetos son utilería editorial contemporánea y genérica. No reproducen huesos oraculares, Mawangdui, Tianhui, Wuwei, Dunhuang, el hombre de bronce Song, *Ishinpō* o *Donguibogam*. Su secuencia visual explica capas de auditoría y no afirma coetaneidad, procedencia común, transmisión, práctica o eficacia.
 
 Los SVG se construyeron y capturaron a `1600 × 900`, incluyen `title`, `desc` y tipografía de reserva. Se inspeccionaron de borde a borde en `C:\Users\HUAWEI\.codex\visualizations\2026\08\10\019fedb0-8f24-7e33-8d16-d2418ba3378e\med-006-qa\`: títulos, seis tarjetas, cinco filas, pies y márgenes permanecen completos y legibles. La cadena declara cuatro no-herencias y la matriz compara productos sin puntuarlos. Ninguno acepta datos, diagnostica o recomienda.
+
+## 62. MED-007 — Observación escrita no es resultado clínico
+
+![Portada editorial de MED-007](assets/visuales/hero-med-007-mediterraneo-griego-helenistico.png)
+
+![Cadena desde testimonio hasta consecuencia](assets/visuales/cadena-testimonio-consecuencia-med-007.svg)
+
+![Matriz de archivos del Mediterráneo griego y helenístico](assets/visuales/matriz-archivos-mediterraneo-med-007.svg)
+
+| Archivo | Tipo | Procedencia | Qué representa | Límite obligatorio |
+|---|---|---|---|---|
+| `hero-med-007-mediterraneo-griego-helenistico.png` | portada editorial conceptual | OpenAI ImageGen, generación nueva, 2026-08-27 | estaciones genéricas de papiro, inscripción, instrumentos, modelos y archivo | no objeto, manuscrito, colección, cuerpo, práctica o resultado reales |
+| `cadena-testimonio-consecuencia-med-007.svg` | diagrama epistemológico original | SVG manual del proyecto, 2026-08-27 | seis operaciones entre testimonio, lectura, género, operación, institución y consecuencia | las flechas no heredan autoría, ejecución, cobertura o eficacia |
+| `matriz-archivos-mediterraneo-med-007.svg` | matriz documental original | SVG manual del proyecto, 2026-08-27 | inferencia y límite de cinco archivos | las filas no forman ranking, progreso o “milagro griego” |
+
+### Procedencia de la portada
+
+Salida original aprobada sin edición: `C:\Users\HUAWEI\.codex\generated_images\019fedb0-8f24-7e33-8d16-d2418ba3378e\exec-7275b5d8-17d9-41ff-922f-2672553ffbc5.png`. Destino: `assets/visuales/hero-med-007-mediterraneo-griego-helenistico.png`. Dimensiones: `1672 × 941`; tamaño: `2,446,363` bytes; SHA-256: `eee71c1cf08631c78881b62e45ccae075833bf5dd8563c7491872c793704cd08`.
+
+**Prompt de generación:**
+
+> Create a cinematic, historically restrained editorial cover image for a Spanish public-history research platform about evidence in ancient Greek and Hellenistic medicine. Wide 16:9 composition, 1672 x 941 target. A dark obsidian museum conservation table viewed at a shallow three-quarter angle, divided into clearly separated evidence stations: (1) several aged but generic papyrus scroll fragments with abstract Greek-like marks that are NOT readable words and do not imitate a real manuscript; (2) a small pale limestone votive inscription fragment on its own archival support, with only abstract incised marks and no readable text; (3) a few clean bronze surgical instruments such as probe and forceps arranged as museum objects, no blood and no procedure; (4) a neutral anatomical teaching preparation represented only by an open wooden case containing a wax heart model and a small animal-bone reference specimen, explicitly not a human corpse and not a face; (5) a modern archival evidence tag with blank fields and a magnifying lens, no readable typography. Warm copper and amber raking light from upper left, restrained mineral green accents, deep charcoal background, elegant museum-laboratory mood, high material realism, quiet and serious, strong negative space on the left-center for website headline overlay. No people, no portraits, no bust of Hippocrates, no gods, no temple fantasy, no surgery scene, no blood, no gore, no borders, no maps, no stock-photo look, no decorative pseudo-science, no readable letters or numbers, no watermark, no logo.
+
+### Revisión y límites
+
+La salida se inspeccionó completa a resolución original. No contiene personas, rostros, cuerpos humanos, sangre, procedimiento, dioses, templos, mapas, logos, números o palabras legibles. Las marcas de papiro y piedra son abstractas; los instrumentos están limpios; el corazón es un modelo de cera y el fragmento óseo es una referencia animal genérica.
+
+Las estaciones son utilería editorial contemporánea y no forman una colección histórica. La cercanía entre soportes no demuestra coetaneidad, autoría, circulación, práctica o eficacia. La imagen no reproduce un papiro, inscripción, instrumento, cuerpo o preparación identificable.
+
+Los SVG se construyeron a `1600 × 900`, incluyen `title`, `desc` y tipografía de reserva. La cadena declara cuatro no-herencias y la matriz compara cinco archivos sin puntuarlos. Ninguno acepta datos, diagnostica, recomienda o representa tasas de resultados.

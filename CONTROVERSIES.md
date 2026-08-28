@@ -3265,3 +3265,17 @@ Emular un ensayo objetivo corrige errores de diseño, no confusión no medida. *
 | `CONT-MED-EA-MATERIA-IDENTITY-001` | identidad de sustancias históricas | taxón relativamente estable frente a nombres polisémicos y sustituciones regionales | especímenes, residuos, procedencia, morfología, química y comentarios | ABIERTA POR INGREDIENTE |
 | `CONT-MED-EA-INSTITUTION-REACH-001` | alcance de farmacopeas, exámenes y compilaciones oficiales | normalización extendida frente a norma cortesana de implementación desigual | nóminas, compras, copias, archivos locales y denominadores | NO CUANTIFICADO |
 | `CONT-MED-EA-TRANSMISSION-001` | dirección y profundidad de transmisiones regionales | préstamos directos y sostenidos frente a selección, traducción, convergencia o rutas intermediarias | pasajes paralelos, cronología, lengua, agentes y copias situadas | ABIERTA POR RUTA |
+## Controversias de MED-007 — Mediterráneo griego y helenístico
+
+| ID | Pregunta abierta | Posición A | Posición B / alternativa | Evidencia que discrimina | Estado |
+|---|---|---|---|---|---|
+| `CONT-MED-GR-HIPPOCRATES-001` | ¿puede atribuirse algún tratado al Hipócrates histórico? | uno o pocos candidatos plausibles | ninguno identificable con certeza | colofón temprano, tradición manuscrita y estilometría contextual | ABIERTA |
+| `CONT-MED-GR-COS-CNIDUS-001` | ¿qué realidad histórica conservan Cos y Cnido? | redes o posiciones locales diferenciadas | clasificación historiográfica circular | archivos pedagógicos, prosopografía y testigos situados | ABIERTA |
+| `CONT-MED-GR-EPIDEMICS-001` | ¿para qué se escribieron los casos de *Epidemias*? | notas de práctica y memoria clínica | ejemplos, argumentos o compilación docente | papiros tempranos, orden material y paralelos de uso | ABIERTA |
+| `CONT-MED-GR-OATH-001` | ¿cuándo y para quién se formuló el Juramento? | pacto de una comunidad médica específica | texto filosófico, pedagógico o de recepción plural | testigos fechados y referencias contemporáneas | ABIERTA |
+| `CONT-MED-GR-IAMATA-001` | ¿cómo se compusieron las *iamata*? | testimonios reelaborados de peregrinos | composiciones institucionales y literarias | borradores, dedicaciones y secuencia epigráfica | ABIERTA |
+| `CONT-MED-GR-WOMEN-001` | ¿cuánto conocimiento de mujeres fue incorporado al corpus? | recetas y experiencias transmiten saber doméstico | atribución moderna sin indicio explícito suficiente | marcas de voz, redes materiales y archivos externos | ABIERTA |
+| `CONT-MED-GR-PUBLIC-001` | ¿qué implicaba un médico público? | contrato para atender a una comunidad | incentivo, honor o servicio más restringido | contratos, pagos, beneficiarios y cuentas | ABIERTA |
+| `CONT-MED-GR-ALEXANDRIA-001` | ¿cuál fue la escala de la disección humana? | programa sistemático bajo patrocinio ptolemaico | episodios limitados amplificados por recepción | originales, registros institucionales y testimonios independientes | ABIERTA |
+| `CONT-MED-GR-VIVISECTION-001` | ¿Herófilo y Erasístrato vivisectaron condenados? | Celso preserva un hecho histórico | polémica tardía, dependiente o desigual | fuente contemporánea independiente u original anatómico | ABIERTA |
+| `CONT-MED-GR-TRANSMISSION-001` | ¿qué pasó entre archivos egipcios, babilonios y griegos? | contactos transmitieron técnicas y conceptos concretos | convergencia o circulación no médica | cadena de intermediarios, léxico y objetos fechados | ABIERTA |
