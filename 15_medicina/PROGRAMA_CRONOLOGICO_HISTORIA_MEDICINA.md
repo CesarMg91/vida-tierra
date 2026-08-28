@@ -85,4 +85,4 @@ El programa es revisable: un expediente puede dividirse si una región queda com
 
 ## Estado editorial
 
-MED-003, MED-004, MED-005, MED-006, MED-007, MED-008, MED-009, MED-010, MED-011, MED-012, MED-013 y MED-014 están auditados. El siguiente expediente cronológico es MED-015 — encuentros coloniales: conquista, esclavitud, misiones, extracción, cuerpos y saberes locales sin monocausa de “contacto”. El cambio de región o escala política no implica relevo lineal: las cronologías se solapan y las conexiones sólo se atribuyen cuando una ruta, texto, objeto, institución o agente las documenta.
+MED-003, MED-004, MED-005, MED-006, MED-007, MED-008, MED-009, MED-010, MED-011, MED-012, MED-013, MED-014 y MED-015 están auditados. El siguiente expediente cronológico es MED-016 — anatomía, disección e imprenta: cuerpos, imágenes, autoridades textuales y observaciones comparadas sin convertir Europa en escenario único ni disección en corrección automática. El cambio de región o escala política no implica relevo lineal: las cronologías se solapan y las conexiones sólo se atribuyen cuando una ruta, texto, objeto, institución o agente las documenta.

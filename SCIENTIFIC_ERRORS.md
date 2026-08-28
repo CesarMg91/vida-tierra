@@ -4380,3 +4380,22 @@ Riesgo basal, alternativas y preferencias cambian el balance. **Corrección:** s
 | `ERR-MED-EPID-DECLINE-CAUSAL-001` | el descenso de una onda prueba la última medida adoptada | cointervenciones, ecología y susceptibles cambian simultáneamente | construir comparación y temporalidad causal | ACTIVO |
 | `ERR-MED-EPID-MARSEILLE-SHIP-STORY-001` | un barco explica por sí solo cada caso de Marsella | archivo portuario no observa toda cadena de transmisión | separar introducción, amplificación y dispersión | ACTIVO |
 | `ERR-MED-EPID-POLICY-PROGRESS-001` | lazareto, cordón o cifra de mortalidad miden avance sanitario | capacidad, eficacia, coerción y justicia son dimensiones distintas | comparar sin puntuación universal | ACTIVO |
+
+## MED-015 — Encuentros coloniales
+
+| ID | Error | Por qué falla | Corrección | Estado |
+|---|---|---|---|---|
+| `ERR-MED-COL-CONTACT-INFECTION-001` | convertir llegada o conexión en infección | exposición no demuestra entrada, transmisión o enfermedad | identificar agente, contexto y población | ACTIVO |
+| `ERR-MED-COL-POSITIVE-TOTAL-001` | un patógeno positivo explica todas las muertes | muestra, preservación y composición causal son limitadas | delimitar individuo, sitio, periodo y alternativas | ACTIVO |
+| `ERR-MED-COL-GERMS-ONLY-001` | usar gérmenes como explicación total | violencia, trabajo, nutrición y asentamiento modifican exposición y desenlace | modelar mecanismos y distribución | ACTIVO |
+| `ERR-MED-COL-VIOLENCE-DECORATIVE-001` | tratar conquista o esclavitud como contexto decorativo | coerción produce movilidad, archivo, riesgo y acceso | incluir violencia como mecanismo causal | ACTIVO |
+| `ERR-MED-COL-LABOR-UNIFORM-001` | una categoría laboral implica carga uniforme | tarea, duración, técnica, libertad y huida varían | reconstruir exposición por operación | ACTIVO |
+| `ERR-MED-COL-RATION-NUTRITION-001` | ración o isótopo equivalen a nutrición completa | acceso, cantidad, agua, micronutrientes y tiempo difieren | declarar tejido, periodo y dimensión observada | ACTIVO |
+| `ERR-MED-COL-ARCHIVE-CENSUS-001` | tributo, misión o viaje son censos exhaustivos | fueron creados para operaciones selectivas y contienen imputación o evasión | declarar unidad, cobertura y denominador | ACTIVO |
+| `ERR-MED-COL-CATEGORY-IDENTITY-001` | categoría fiscal, racial o religiosa es identidad natural | el archivo produce nombres para gobernar y clasificar | conservar función histórica y autoidentificación abierta | ACTIVO |
+| `ERR-MED-COL-CARE-BENEVOLENCE-001` | atención dentro de coerción demuestra benevolencia | cuidar fuerza laboral puede coexistir con explotación | separar presencia, acceso, consentimiento, efecto y justicia | ACTIVO |
+| `ERR-MED-COL-SURVIVAL-NOHARM-001` | supervivencia implica ausencia de daño | continuidad puede coexistir con mortalidad, desplazamiento y ruptura | medir desenlaces múltiples y tiempo | ACTIVO |
+| `ERR-MED-COL-ANCESTRY-IDENTITY-001` | ascendencia genética decide identidad comunitaria | genética no sustituye historia, pertenencia o autoridad comunitaria | delimitar producto biológico y voces presentes | ACTIVO |
+| `ERR-MED-COL-PLANT-USE-001` | circulación de una planta demuestra uso o eficacia | comercio no conserva paciente, dosis, indicación o comparador | enlazar preparación, administración y resultado | ACTIVO |
+| `ERR-MED-COL-DISCOVERER-001` | atribuir una planta a un descubridor único | recolección, saber, clasificación, comercio y cultivo fueron distribuidos | reconstruir cadena, nombres y silencios | ACTIVO |
+| `ERR-MED-COL-RANKING-001` | comparar mortalidad o persistencia como ranking colonial | archivos, periodos, denominadores y mecanismos son inconmensurables | comparar resolución y dimensiones por separado | ACTIVO |

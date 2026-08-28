@@ -5,6 +5,7 @@ import { ArrowDown, ArrowRight, BookOpen, HeartPulse, ShieldCheck, Stethoscope }
 import AfricanMedicineArchiveLab from "../../components/AfricanMedicineArchiveLab";
 import AmericasMedicineArchiveLab from "../../components/AmericasMedicineArchiveLab";
 import ClinicalEvidenceLab from "../../components/ClinicalEvidenceLab";
+import ColonialEncountersEvidenceLab from "../../components/ColonialEncountersEvidenceLab";
 import DiagnosticEvidenceLab from "../../components/DiagnosticEvidenceLab";
 import DocumentaryMedicineLab from "../../components/DocumentaryMedicineLab";
 import EastAsianMedicineLab from "../../components/EastAsianMedicineLab";
@@ -18,6 +19,7 @@ import RomanByzantineMedicineLab from "../../components/RomanByzantineMedicineLa
 import SouthAsianMedicineLab from "../../components/SouthAsianMedicineLab";
 import { africanMedicineArchives } from "../../lib/african-medicine-archives";
 import { americasMedicineArchives } from "../../lib/americas-medicine-archives";
+import { colonialEncountersEvidence } from "../../lib/colonial-encounters-evidence";
 import { diagnosticEvidence } from "../../lib/diagnostic-evidence";
 import { documentaryMedicineEvidence } from "../../lib/documentary-medicine-evidence";
 import { eastAsianMedicineEvidence } from "../../lib/east-asian-medicine-evidence";
@@ -37,7 +39,7 @@ export const metadata: Metadata = createPageMetadata({
   title: "Historia de la medicina — archivos, cuidado y evidencia",
   description: "Cómo reconstruimos la historia mundial de la medicina desde huesos, manuscritos, cánones, instituciones y resultados sin confundir archivo, práctica o eficacia.",
   pathname: "/medicina",
-  image: "/assets/visuales/hero-med-014-epidemias-cuarentenas.png",
+  image: "/assets/visuales/hero-med-015-encuentros-coloniales.png",
 });
 
 const principles = [
@@ -54,8 +56,8 @@ export default function MedicinePage() {
     <div className="medicine-experience">
       <header className="medicine-hero medicine-history-hero">
         <Image
-          src="/assets/visuales/hero-med-014-epidemias-cuarentenas.png"
-          alt="Mesa editorial con libro de mortalidad, muestra arqueológica, archivos de paisaje, modelo de lazareto, pase sanitario y cordón de control"
+          src="/assets/visuales/hero-med-015-encuentros-coloniales.png"
+          alt="Mesa editorial con registros coloniales, fragmentos arqueológicos, mineral de mercurio, alimentos, modelo de navío y archivo botánico conectados por hilos"
           fill
           preload
           fetchPriority="high"
@@ -64,14 +66,14 @@ export default function MedicinePage() {
         <div className="medicine-hero-shade" />
         <div className="medicine-hero-copy">
           <p className="eyebrow">Historia mundial de la medicina</p>
-          <h1>Un brote narrado no es un diagnóstico ni una cifra</h1>
-          <p>Relatos, genomas, entierros, registros, órdenes y paisajes conservan escalas distintas. Testimonio, agente, magnitud, respuesta, cumplimiento y desigualdad impiden convertir una señal en diagnóstico total o una norma en eficacia.</p>
+          <h1>Contacto no es causa suficiente</h1>
+          <p>Conquista, esclavitud, misión y extracción reorganizaron exposición, violencia, trabajo, nutrición, clasificación, respuestas y supervivencia. Cada capa exige un archivo y un límite antes de explicar catástrofe, cuidado o continuidad.</p>
           <div>
-            <Link className="button button-primary" href="#epidemias-cuarentenas">Auditar el brote <ArrowDown aria-hidden="true" /></Link>
-            <Link className="medicine-text-link" href="/15_medicina/INVESTIGACION_MED_014_EPIDEMIAS_CUARENTENAS">Leer MED-014 <ArrowRight aria-hidden="true" /></Link>
+            <Link className="button button-primary" href="#encuentros-coloniales">Auditar el encuentro <ArrowDown aria-hidden="true" /></Link>
+            <Link className="medicine-text-link" href="/15_medicina/INVESTIGACION_MED_015_ENCUENTROS_COLONIALES">Leer MED-015 <ArrowRight aria-hidden="true" /></Link>
           </div>
         </div>
-        <p className="medicine-visual-limit">Composición editorial no probatoria: utilería genérica; no reproduce víctima, brote, lazareto, documento, población o política reales.</p>
+        <p className="medicine-visual-limit">Composición editorial no probatoria: utilería genérica; no reproduce persona, comunidad, documento, mina, misión, travesía, planta o acontecimiento reales.</p>
       </header>
 
       <section className="medicine-boundary">
@@ -82,6 +84,14 @@ export default function MedicinePage() {
       <section className="medicine-principles" aria-labelledby="medicine-principles-title">
         <header><p className="eyebrow">Contrato de lectura</p><h2 id="medicine-principles-title">Cuatro cortafuegos</h2></header>
         <div>{principles.map(([title, text], index) => <article key={title}><span>{String(index + 1).padStart(2, "0")}</span><h3>{title}</h3><p>{text}</p></article>)}</div>
+      </section>
+
+      <section className="medicine-lab-section documentary-lab-section" id="encuentros-coloniales" aria-labelledby="colonial-encounters-lab-title">
+        <div className="section-heading">
+          <div><p className="eyebrow">MED-015 · laboratorio de encuentros coloniales</p><h2 id="colonial-encounters-lab-title">De la exposición a la supervivencia</h2></div>
+          <p>Elige un expediente. Siete capas separan conexión, coerción, cuerpo, archivo, agencia y desenlace sin reducir la catástrofe a «contacto» ni la continuidad a ausencia de daño.</p>
+        </div>
+        <ColonialEncountersEvidenceLab data={colonialEncountersEvidence} />
       </section>
 
       <section className="medicine-lab-section documentary-lab-section" id="epidemias-cuarentenas" aria-labelledby="epidemics-quarantine-lab-title">

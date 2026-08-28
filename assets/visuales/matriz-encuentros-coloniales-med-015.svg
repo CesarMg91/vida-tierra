@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Matriz de siete encuentros coloniales, archivos y límites</title>
+  <desc id="desc">Siete expedientes comparan archivo dominante, mecanismo mejor resuelto y límite decisivo. La matriz compara resolución y no dolor, progreso o desarrollo.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#101512"/><stop offset="1" stop-color="#241c17"/></linearGradient>
+    <style>
+      .k{font:600 20px 'IBM Plex Sans',Arial,sans-serif;letter-spacing:4px;fill:#cc9253}
+      .t{font:700 48px 'Source Serif 4',Georgia,serif;fill:#f5ead7}
+      .h{font:700 18px 'IBM Plex Sans',Arial,sans-serif;fill:#f4e7d3}
+      .case{font:700 19px 'Source Serif 4',Georgia,serif;fill:#f3e4ce}
+      .body{font:400 15px 'IBM Plex Sans',Arial,sans-serif;fill:#d1c5b5}
+      .lim{font:600 15px 'IBM Plex Sans',Arial,sans-serif;fill:#efb482}
+      .n{font:700 14px 'IBM Plex Mono',monospace;fill:#17130f}
+    </style>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <text x="70" y="68" class="k">MED-015 · MATRIZ COMPARATIVA</text>
+  <text x="70" y="126" class="t">Siete archivos, ninguna monocausa</text>
+  <text x="70" y="166" class="body" style="font-size:18px">Comparamos qué resuelve cada expediente. No ordenamos sufrimiento, civilizaciones ni respuestas.</text>
+
+  <g transform="translate(55 205)">
+    <rect width="1490" height="590" rx="24" fill="#171b18" stroke="#55483a"/>
+    <rect width="1490" height="64" rx="24" fill="#2b322c"/><rect y="40" width="1490" height="24" fill="#2b322c"/>
+    <text x="72" y="40" class="h">EXPEDIENTE</text>
+    <text x="430" y="40" class="h">ARCHIVO DOMINANTE</text>
+    <text x="825" y="40" class="h">RESUELVE MEJOR</text>
+    <text x="1170" y="40" class="h">LÍMITE DECISIVO</text>
+
+    <g transform="translate(0 64)">
+      <rect width="1490" height="75" fill="#1d211d"/><circle cx="35" cy="37" r="17" fill="#c89052"/><text x="26" y="42" class="n">01</text>
+      <text x="65" y="32" class="case">La Española</text><text x="65" y="55" class="body">1492–1518</text>
+      <text x="430" y="31" class="body">tributos + crónicas +</text><text x="430" y="54" class="body">repartimientos + genética</text>
+      <text x="825" y="31" class="body">coerción, subsistencia</text><text x="825" y="54" class="body">y redes biológicas</text>
+      <text x="1170" y="31" class="lim">denominador inicial y</text><text x="1170" y="54" class="lim">causa individual</text>
+    </g>
+    <g transform="translate(0 139)">
+      <rect width="1490" height="75" fill="#181d1a"/><circle cx="35" cy="37" r="17" fill="#73a08d"/><text x="26" y="42" class="n">02</text>
+      <text x="65" y="32" class="case">Teposcolula</text><text x="65" y="55" class="body">1545–1550</text>
+      <text x="430" y="31" class="body">cementerio + isótopos +</text><text x="430" y="54" class="body">ADN antiguo</text>
+      <text x="825" y="31" class="body">episodio, agente candidato</text><text x="825" y="54" class="body">y dieta de largo plazo</text>
+      <text x="1170" y="31" class="lim">composición causal</text><text x="1170" y="54" class="lim">regional</text>
+    </g>
+    <g transform="translate(0 214)">
+      <rect width="1490" height="75" fill="#1d211d"/><circle cx="35" cy="37" r="17" fill="#bd7747"/><text x="26" y="42" class="n">03</text>
+      <text x="65" y="32" class="case">Huancavelica–Potosí</text><text x="65" y="55" class="body">1564–1810</text>
+      <text x="430" y="31" class="body">producción + sedimentos +</text><text x="430" y="54" class="body">suelo + trabajo</text>
+      <text x="825" y="31" class="body">emisión, ambiente y</text><text x="825" y="54" class="body">régimen laboral</text>
+      <text x="1170" y="31" class="lim">dosis y desenlace</text><text x="1170" y="54" class="lim">individual</text>
+    </g>
+    <g transform="translate(0 289)">
+      <rect width="1490" height="75" fill="#181d1a"/><circle cx="35" cy="37" r="17" fill="#8da36f"/><text x="26" y="42" class="n">04</text>
+      <text x="65" y="32" class="case">Filipinas</text><text x="65" y="55" class="body">1565–c. 1650</text>
+      <text x="430" y="31" class="body">tributos + padrones +</text><text x="430" y="54" class="body">misiones + ecología</text>
+      <text x="825" y="31" class="body">variación regional bajo</text><text x="825" y="54" class="body">conquista</text>
+      <text x="1170" y="31" class="lim">población base y</text><text x="1170" y="54" class="lim">cobertura fiscal</text>
+    </g>
+    <g transform="translate(0 364)">
+      <rect width="1490" height="75" fill="#1d211d"/><circle cx="35" cy="37" r="17" fill="#c96357"/><text x="26" y="42" class="n">05</text>
+      <text x="65" y="32" class="case">Atlántico esclavista</text><text x="65" y="55" class="body">travesía + plantación</text>
+      <text x="430" y="31" class="body">viajes + diarios +</text><text x="430" y="54" class="body">cementerio + isótopos</text>
+      <text x="825" y="31" class="body">confinamiento, mortalidad</text><text x="825" y="54" class="body">y movilidad forzada</text>
+      <text x="1170" y="31" class="lim">persona individual y</text><text x="1170" y="54" class="lim">selección funeraria</text>
+    </g>
+    <g transform="translate(0 439)">
+      <rect width="1490" height="75" fill="#181d1a"/><circle cx="35" cy="37" r="17" fill="#769a83"/><text x="26" y="42" class="n">06</text>
+      <text x="65" y="32" class="case">Alta California</text><text x="65" y="55" class="body">1769–1836</text>
+      <text x="430" y="31" class="body">entierros + libros de</text><text x="430" y="54" class="body">misión + fauna</text>
+      <text x="825" y="31" class="body">cambio demográfico y</text><text x="825" y="54" class="body">persistencia alimentaria</text>
+      <text x="1170" y="31" class="lim">causas clínicas y</text><text x="1170" y="54" class="lim">consentimiento</text>
+    </g>
+    <g transform="translate(0 514)">
+      <rect width="1490" height="76" fill="#1d211d"/><circle cx="35" cy="37" r="17" fill="#b59162"/><text x="26" y="42" class="n">07</text>
+      <text x="65" y="32" class="case">Guayases y quina</text><text x="65" y="55" class="body">siglos XVII–XIX</text>
+      <text x="430" y="31" class="body">cartas + plantas +</text><text x="430" y="54" class="body">inventarios + taxonomía</text>
+      <text x="825" y="31" class="body">apropiación, clasificación</text><text x="825" y="54" class="body">y comercio</text>
+      <text x="1170" y="31" class="lim">autoría, práctica y</text><text x="1170" y="54" class="lim">beneficio local</text>
+    </g>
+    <line x1="390" y1="0" x2="390" y2="590" stroke="#4d453b"/>
+    <line x1="785" y1="0" x2="785" y2="590" stroke="#4d453b"/>
+    <line x1="1130" y1="0" x2="1130" y2="590" stroke="#4d453b"/>
+  </g>
+  <text x="70" y="850" class="body" style="font-size:18px">Cortafuego: archivo preciso ≠ causa total · supervivencia ≠ ausencia de daño · circulación ≠ crédito.</text>
+</svg>

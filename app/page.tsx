@@ -9,7 +9,7 @@ import { getCatalog, getKnowledgeCounts } from "../lib/public-data";
 export default function Home() {
   const catalog = getCatalog();
   const counts = getKnowledgeCounts();
-  const featuredKeys = new Set(["002", "013", "035", "050", "052", "MED-014"]);
+  const featuredKeys = new Set(["002", "013", "035", "050", "052", "MED-015"]);
   const featured = catalog.filter((record) => featuredKeys.has(record.key));
   const progressCatalog = catalog.map(({ order, slug, shortTitle }) => ({ order, slug, shortTitle }));
 
@@ -74,7 +74,7 @@ export default function Home() {
             <article key={record.slug} className="featured-card">
               <Link href={`/${record.slug}`} className="featured-image">
                 <Image src={record.hero} alt="" fill sizes="(max-width: 720px) 92vw, 32vw" />
-                <span>{String(record.order).padStart(3, "0")}</span>
+                <span>{record.order === null ? record.key : String(record.order).padStart(3, "0")}</span>
               </Link>
               <div>
                 <p>{record.collection} · {record.readingMinutes} min</p>
