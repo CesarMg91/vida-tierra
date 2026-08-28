@@ -905,3 +905,15 @@ La portada separa físicamente seis estaciones genéricas y no reproduce objetos
 Salida original aprobada sin edición: `C:\Users\HUAWEI\.codex\generated_images\019fedb0-8f24-7e33-8d16-d2418ba3378e\exec-7275b5d8-17d9-41ff-922f-2672553ffbc5.png` → `assets/visuales/hero-med-007-mediterraneo-griego-helenistico.png`; tamaño `2,446,363` bytes. El prompt completo y los límites están en `ATLAS_VISUAL.md`, sección 62.
 
 La portada separa físicamente papiros, inscripción, instrumentos, modelos docentes y ficha de archivo; no reproduce objetos identificables, cuerpos humanos o texto legible. Los SVG incluyen `title` y `desc`, preservan los seis puentes de auditoría y no convierten observación, norma, disección o prestigio en práctica, cobertura o resultado.
+
+## MED-008 — Roma, Bizancio y Mediterráneo tardío
+
+| Archivo | Origen | Dimensiones | SHA-256 / trazabilidad | Límite |
+|---|---|---:|---|---|
+| `hero-med-008-roma-bizancio-mediterraneo-tardio.png` | OpenAI ImageGen, generación nueva del 2026-08-27 | `1672 × 941` | `f974cd2ce6ce6b9026e29f8ead628a98a199a73cc9f10da14f638ae8bd7a4c47` | composición conceptual; no excavación, hospital, cobertura, práctica o resultado reales |
+| `cadena-vestigio-consecuencia-med-008.svg` | SVG manual determinista | `1600 × 900` | código fuente versionado | seis capas inferenciales; no herencia automática |
+| `matriz-infraestructura-practica-med-008.svg` | SVG manual determinista | `1600 × 900` | código fuente versionado | cinco archivos y límites; no ranking ni genealogía lineal |
+
+Salida original aprobada sin edición: `C:\Users\HUAWEI\.codex\generated_images\019fedb0-8f24-7e33-8d16-d2418ba3378e\exec-080fd50f-fbe7-4e7a-9534-61a782e3f6e4.png` → `assets/visuales/hero-med-008-roma-bizancio-mediterraneo-tardio.png`; tamaño `2,322,763` bytes. El prompt completo y los límites están en `ATLAS_VISUAL.md`, sección 63.
+
+La portada separa plano, canal, instrumentos, códice, pliegos multilingües y modelo asistencial; no contiene personas o texto legible. Los SVG incluyen `title` y `desc`, preservan los seis puentes y no convierten edificio, cargo, regla o autoridad en cobertura o resultado.

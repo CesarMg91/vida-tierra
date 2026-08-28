@@ -8,6 +8,7 @@ import DocumentaryMedicineLab from "../../components/DocumentaryMedicineLab";
 import EastAsianMedicineLab from "../../components/EastAsianMedicineLab";
 import GreekHellenisticMedicineLab from "../../components/GreekHellenisticMedicineLab";
 import HistoricalMedicineLab from "../../components/HistoricalMedicineLab";
+import RomanByzantineMedicineLab from "../../components/RomanByzantineMedicineLab";
 import SouthAsianMedicineLab from "../../components/SouthAsianMedicineLab";
 import { diagnosticEvidence } from "../../lib/diagnostic-evidence";
 import { documentaryMedicineEvidence } from "../../lib/documentary-medicine-evidence";
@@ -15,6 +16,7 @@ import { eastAsianMedicineEvidence } from "../../lib/east-asian-medicine-evidenc
 import { greekHellenisticMedicineEvidence } from "../../lib/greek-hellenistic-medicine-evidence";
 import { historicalMedicineEvidence } from "../../lib/historical-medicine-evidence";
 import { medicineEvidence } from "../../lib/medicine-evidence";
+import { romanByzantineMedicineEvidence } from "../../lib/roman-byzantine-medicine-evidence";
 import { southAsianMedicineEvidence } from "../../lib/south-asian-medicine-evidence";
 import { getCatalog } from "../../lib/public-data";
 import { createPageMetadata } from "../../lib/site";
@@ -23,7 +25,7 @@ export const metadata: Metadata = createPageMetadata({
   title: "Historia de la medicina — archivos, cuidado y evidencia",
   description: "Cómo reconstruimos la historia mundial de la medicina desde huesos, manuscritos, cánones, instituciones y resultados sin confundir archivo, práctica o eficacia.",
   pathname: "/medicina",
-  image: "/assets/visuales/hero-med-007-mediterraneo-griego-helenistico.png",
+  image: "/assets/visuales/hero-med-008-roma-bizancio-mediterraneo-tardio.png",
 });
 
 const principles = [
@@ -40,8 +42,8 @@ export default function MedicinePage() {
     <div className="medicine-experience">
       <header className="medicine-hero medicine-history-hero">
         <Image
-          src="/assets/visuales/hero-med-007-mediterraneo-griego-helenistico.png"
-          alt="Mesa de archivo con rollos, tablilla votiva, instrumental y preparación anatómica genéricos separados"
+          src="/assets/visuales/hero-med-008-roma-bizancio-mediterraneo-tardio.png"
+          alt="Archivo estratificado con plano militar, canal hidráulico, instrumentos, códices y sala asistencial genéricos separados"
           fill
           preload
           fetchPriority="high"
@@ -50,14 +52,14 @@ export default function MedicinePage() {
         <div className="medicine-hero-shade" />
         <div className="medicine-hero-copy">
           <p className="eyebrow">Historia mundial de la medicina</p>
-          <h1>Observación escrita no es resultado clínico</h1>
-          <p>Testimonios, lecturas, géneros, operaciones, instituciones y consecuencias separan el archivo griego y helenístico de sus mitos modernos.</p>
+          <h1>Infraestructura o título no es cobertura ni resultado</h1>
+          <p>Vestigios, identificaciones, funciones, operaciones, accesos y consecuencias separan los archivos romanos y bizantinos de instituciones modernas imaginadas.</p>
           <div>
-            <Link className="button button-primary" href="#observacion">Seguir la cadena <ArrowDown aria-hidden="true" /></Link>
-            <Link className="medicine-text-link" href="/15_medicina/INVESTIGACION_MED_007_MEDITERRANEO_GRIEGO_HELENISTICO">Leer MED-007 <ArrowRight aria-hidden="true" /></Link>
+            <Link className="button button-primary" href="#infraestructura">Seguir la cadena <ArrowDown aria-hidden="true" /></Link>
+            <Link className="medicine-text-link" href="/15_medicina/INVESTIGACION_MED_008_ROMA_BIZANCIO_MEDITERRANEO_TARDIO">Leer MED-008 <ArrowRight aria-hidden="true" /></Link>
           </div>
         </div>
-        <p className="medicine-visual-limit">Composición editorial no probatoria: los soportes son genéricos, permanecen separados y no reconstruyen una mesa histórica real.</p>
+        <p className="medicine-visual-limit">Composición editorial no probatoria: los soportes son genéricos, permanecen separados y no reconstruyen una institución histórica real.</p>
       </header>
 
       <section className="medicine-boundary">
@@ -68,6 +70,14 @@ export default function MedicinePage() {
       <section className="medicine-principles" aria-labelledby="medicine-principles-title">
         <header><p className="eyebrow">Contrato de lectura</p><h2 id="medicine-principles-title">Cuatro cortafuegos</h2></header>
         <div>{principles.map(([title, text], index) => <article key={title}><span>{String(index + 1).padStart(2, "0")}</span><h3>{title}</h3><p>{text}</p></article>)}</div>
+      </section>
+
+      <section className="medicine-lab-section documentary-lab-section" id="infraestructura" aria-labelledby="roman-byzantine-lab-title">
+        <div className="section-heading">
+          <div><p className="eyebrow">MED-008 · laboratorio de infraestructura y acceso</p><h2 id="roman-byzantine-lab-title">Del vestigio a la consecuencia</h2></div>
+          <p>Elige un archivo. Seis capas separan identificación, función, operación, acceso y consecuencia observada.</p>
+        </div>
+        <RomanByzantineMedicineLab data={romanByzantineMedicineEvidence} />
       </section>
 
       <section className="medicine-lab-section documentary-lab-section" id="observacion" aria-labelledby="greek-hellenistic-lab-title">

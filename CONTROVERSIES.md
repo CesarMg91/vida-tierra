@@ -3279,3 +3279,18 @@ Emular un ensayo objetivo corrige errores de diseño, no confusión no medida. *
 | `CONT-MED-GR-ALEXANDRIA-001` | ¿cuál fue la escala de la disección humana? | programa sistemático bajo patrocinio ptolemaico | episodios limitados amplificados por recepción | originales, registros institucionales y testimonios independientes | ABIERTA |
 | `CONT-MED-GR-VIVISECTION-001` | ¿Herófilo y Erasístrato vivisectaron condenados? | Celso preserva un hecho histórico | polémica tardía, dependiente o desigual | fuente contemporánea independiente u original anatómico | ABIERTA |
 | `CONT-MED-GR-TRANSMISSION-001` | ¿qué pasó entre archivos egipcios, babilonios y griegos? | contactos transmitieron técnicas y conceptos concretos | convergencia o circulación no médica | cadena de intermediarios, léxico y objetos fechados | ABIERTA |
+
+## MED-008 — Roma, Bizancio y Mediterráneo tardío
+
+| ID | Pregunta abierta | Posición A | Posición B / alternativa | Evidencia que discrimina | Estado |
+|---|---|---|---|---|---|
+| `CONT-MED-RB-ARMY-001` | ¿cuándo se estabilizó una organización médica militar? | estructura imperial formal relativamente extendida | arreglos locales, cambiantes y de estatus ambiguo | series epigráficas, nóminas y cronologías de unidades | ABIERTA |
+| `CONT-MED-RB-VALETUDINARIA-001` | ¿qué complejos funcionaron realmente como valetudinaria? | tipología arquitectónica médica reconocible | edificios multifuncionales o reasignados | inscripción in situ, residuos, fases y registros de uso | ABIERTA |
+| `CONT-MED-RB-INSTRUMENTS-001` | ¿qué objetos fueron usados por especialistas médicos? | tipologías y conjuntos identifican práctica | herramientas domésticas o artesanales multifunción | residuos, desgaste, asociación y depósito primario | ABIERTA |
+| `CONT-MED-RB-SANITATION-001` | ¿qué efectos tuvieron obras hidráulicas concretas? | redujeron exposiciones para parte de la población | redistribuyeron riesgos o beneficiaron usos no sanitarios | series antes/después, acceso y paleopatología local | ABIERTA |
+| `CONT-MED-RB-PARASITES-001` | ¿cómo cambió la carga parasitaria bajo dominio romano? | urbanización y comercio aumentaron especies o exposición | el patrón refleja muestreo y preservación | muestras comparables pre, durante y postromanas | ABIERTA |
+| `CONT-MED-RB-GALEN-001` | ¿cuánto representan los casos galénicos su práctica cotidiana? | memoria clínica basada en episodios reales | selección retórica de éxitos y rivales | borradores, casos independientes y criterios de inclusión | ABIERTA |
+| `CONT-MED-RB-COMPILERS-001` | ¿qué proporción de una compilación es selección, experiencia o adaptación? | predominio de transmisión de autoridades | intervención editorial y práctica sustancial | fuentes paralelas, autógrafos y marcas de uso | ABIERTA |
+| `CONT-MED-RB-HOSPITAL-ORIGIN-001` | ¿qué continuidad une caridad tardía y hospital posterior? | genealogía institucional directa | convergencias y reinvenciones múltiples | reglas, personal, arquitectura y rutas de patronazgo | ABIERTA |
+| `CONT-MED-RB-PANTOKRATOR-001` | ¿cuánto del typikon del Pantocrátor se ejecutó? | refleja una operación estable y detallada | programa normativo parcialmente realizado | cuentas, turnos, admisiones y testimonios cotidianos | ABIERTA |
+| `CONT-MED-RB-NETWORKS-001` | ¿qué rutas conectaron versiones griegas, siríacas, árabes, hebreas y latinas? | cadenas de traducción identificables | intermediarios perdidos o fuentes compartidas | manuscritos fechados, léxico y colofones | ABIERTA |

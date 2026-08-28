@@ -4241,3 +4241,24 @@ Riesgo basal, alternativas y preferencias cambian el balance. **Corrección:** s
 | `ERR-MED-GR-GREEK-ISOLATION-001` | medicina griega se desarrolló aislada | el Mediterráneo documenta movilidad, productos y comunidades híbridas | buscar canal sin inferir préstamo por semejanza | ACTIVO |
 | `ERR-MED-GR-WOMEN-ABSENT-001` | la escasez de autoras demuestra ausencia de cuidadoras | archivo letrado y epigráfico selecciona actores | declarar invisibilidad y buscar evidencias indirectas | ACTIVO |
 | `ERR-MED-GR-RANKING-001` | Grecia produjo la medicina más avanzada de la Antigüedad | soportes y productos regionales no son equivalentes | comparar una dimensión sin puntuación universal | ACTIVO |
+
+## MED-008 — Roma, Bizancio y Mediterráneo tardío
+
+| ID | Error | Por qué falla | Corrección mínima | Estado |
+|---|---|---|---|---|
+| `ERR-MED-RB-ROMAN-PUBLIC-HEALTH-001` | Roma inventó la salud pública moderna | ingeniería, intención, acceso y resultados son capas distintas | nombrar obra, población y consecuencia observada | ACTIVO |
+| `ERR-MED-RB-ARMY-MODERN-001` | la República tuvo un cuerpo médico militar moderno | proyecta organización imperial y categorías actuales sobre archivos fragmentarios | separar periodo, unidad, cargo y fuente | ACTIVO |
+| `ERR-MED-RB-VALETUDINARIUM-HOSPITAL-001` | todo valetudinarium fue un hospital moderno | función probable no fija admisión, operación o cobertura | describir edificio y evidencia convergente | ACTIVO |
+| `ERR-MED-RB-INSTRUMENT-SURGERY-001` | un instrumento prueba una cirugía realizada | forma no identifica operador, uso, frecuencia o resultado | declarar contexto, alternativas y residuos | ACTIVO |
+| `ERR-MED-RB-WATER-HEALTH-001` | acueductos y letrinas hicieron sana a la población | parásitos persistieron y acceso y mantenimiento variaron | auditar exposición y resultado por sitio | ACTIVO |
+| `ERR-MED-RB-PARASITES-USELESS-001` | los parásitos demuestran que toda obra romana fue inútil | presencia refuta protección automática, no cada beneficio o uso | conservar heterogeneidad y límites del muestreo | ACTIVO |
+| `ERR-MED-RB-CIVILIAN-COVERAGE-001` | la población civil tenía hospitales militares equivalentes | la provisión regular civil no está documentada de esa forma | reconstruir hogares, locales, baños y santuarios | ACTIVO |
+| `ERR-MED-RB-WOMEN-ABSENT-001` | las mujeres no practicaban porque faltan autoras | el archivo letrado privilegia varones de élite | separar representación, práctica y voz | ACTIVO |
+| `ERR-MED-RB-GALEN-ROMAN-MEDICINE-001` | Galeno representa toda la medicina romana | un corpus excepcional desplaza prácticas perdidas y no letradas | atribuir obra, género, audiencia y contexto | ACTIVO |
+| `ERR-MED-RB-GALEN-HUMAN-ANATOMY-001` | toda anatomía galénica provino de cuerpos humanos | gran parte deriva de animales e inferencia inter-especie | declarar especie y operación observada | ACTIVO |
+| `ERR-MED-RB-GALEN-TRUE-001` | la larga autoridad de Galeno prueba que tenía razón | recepción y exactitud son resultados diferentes | evaluar proposición y evidencia por separado | ACTIVO |
+| `ERR-MED-RB-BYZANTIUM-PRESERVED-001` | Bizancio sólo preservó medicina griega | compiladores seleccionaron, reorganizaron y adaptaron | rastrear operaciones editoriales e innovación | ACTIVO |
+| `ERR-MED-RB-HOSPITAL-INVENTED-001` | el hospital moderno nació completo en una fecha bizantina | instituciones tempranas mezclaron caridad, alojamiento y tratamiento | auditar función y genealogía por caso | ACTIVO |
+| `ERR-MED-RB-PANTOKRATOR-UNIVERSAL-001` | el Pantocrátor demuestra un sistema hospitalario universal | es una norma detallada de una institución concreta | separar prescripción, operación y representatividad | ACTIVO |
+| `ERR-MED-RB-TRANSMISSION-LINEAR-001` | la medicina viajó linealmente de Grecia a Roma, Bizancio y Europa | redes siríacas, árabes, hebreas y latinas transformaron rutas | demostrar cada enlace con testigos y agentes | ACTIVO |
+| `ERR-MED-RB-RANKING-001` | Roma o Bizancio fueron más avanzados por infraestructura o textos | productos no conmensurables no forman una puntuación | comparar una dimensión bajo el mismo archivo | ACTIVO |

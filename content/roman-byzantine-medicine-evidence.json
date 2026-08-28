@@ -1,0 +1,316 @@
+{
+  "schemaVersion": 1,
+  "researchSlug": "15_medicina/INVESTIGACION_MED_008_ROMA_BIZANCIO_MEDITERRANEO_TARDIO",
+  "cases": [
+    {
+      "id": "legionary-valetudinarium",
+      "title": "Ejército imperial — un edificio no es cobertura",
+      "region": "Fronteras y fuertes del Imperio romano",
+      "archive": "Plantas, fases, inscripciones, cargos e instrumentos",
+      "layers": [
+        {
+          "kind": "trace",
+          "observed": "Algunos fuertes conservan complejos de habitaciones y patios; inscripciones nombran medici y cargos vinculados con unidades.",
+          "inference": "Existe un archivo material y epigráfico de atención militar en contextos imperiales concretos.",
+          "limit": "Los vestigios no forman una muestra completa de todas las unidades, periodos o regiones.",
+          "claimIds": ["CLAIM-MED-RB-ARMY-REPUBLIC-001", "CLAIM-MED-RB-VALETUDINARIA-001"],
+          "evidenceIds": ["EVID-MED-RB-ARMY-DEBATE-001", "EVID-MED-RB-VALETUDINARIA-001"],
+          "sourceIds": ["SRC-MED-RB-SCARBOROUGH-1968", "SRC-MED-RB-NUTTON-1969", "SRC-MED-RB-ALLASONJONES-1999"]
+        },
+        {
+          "kind": "identification",
+          "observed": "Plano, drenaje, localización, fase y paralelos convergen en algunos edificios identificados como valetudinaria.",
+          "inference": "La función médica es probable cuando varios indicadores independientes coinciden.",
+          "limit": "Una planta aislada puede admitir otros usos y un edificio pudo cambiar de función.",
+          "claimIds": ["CLAIM-MED-RB-VALETUDINARIA-001"],
+          "evidenceIds": ["EVID-MED-RB-VALETUDINARIA-001"],
+          "sourceIds": ["SRC-MED-RB-BAKER-2013", "SRC-MED-RB-ALLASONJONES-1999"]
+        },
+        {
+          "kind": "function",
+          "observed": "La arquitectura ofrece separación, circulación y capacidad compatibles con atención de miembros de una unidad.",
+          "inference": "Puede reconstruirse una capacidad asistencial militar situada.",
+          "limit": "Capacidad no demuestra ocupación continua, repertorio terapéutico ni condición de cada usuario.",
+          "claimIds": ["CLAIM-MED-RB-INFRASTRUCTURE-001", "CLAIM-MED-RB-VALETUDINARIA-001"],
+          "evidenceIds": ["EVID-MED-RB-METHOD-001", "EVID-MED-RB-VALETUDINARIA-001"],
+          "sourceIds": ["SRC-MED-RB-BAKER-2013", "SRC-MED-RB-NUTTON-1969"]
+        },
+        {
+          "kind": "operation",
+          "observed": "Cargos e instrumentos apoyan actividad médica, pero rara vez quedan ligados a admisiones y procedimientos del mismo edificio.",
+          "inference": "Hubo actores y repertorios médicos en ciertos entornos militares.",
+          "limit": "No demostrado: que cada objeto se usó allí, por un especialista concreto o con una frecuencia conocida.",
+          "claimIds": ["CLAIM-MED-RB-INSTRUMENTS-001", "CLAIM-MED-RB-VALETUDINARIA-001"],
+          "evidenceIds": ["EVID-MED-RB-INSTRUMENTS-001", "EVID-MED-RB-VALETUDINARIA-001"],
+          "sourceIds": ["SRC-MED-RB-ALLASONJONES-1999", "SRC-MED-RB-CRUMMY-2026"]
+        },
+        {
+          "kind": "access",
+          "observed": "La pertenencia a una unidad estructuraba el acceso; la provisión civil regular equivalente no aparece documentada.",
+          "inference": "La organización militar tuvo beneficiarios delimitados por institución y estatus.",
+          "limit": "No autoriza cobertura de toda tropa, familias, esclavizados, veteranos o población civil.",
+          "claimIds": ["CLAIM-MED-RB-CIVILIAN-001", "CLAIM-MED-RB-INFRASTRUCTURE-001"],
+          "evidenceIds": ["EVID-MED-RB-CIVILIAN-001"],
+          "sourceIds": ["SRC-MED-RB-CRUMMY-2026", "SRC-MED-RB-ALLASONJONES-1999"]
+        },
+        {
+          "kind": "consequence",
+          "observed": "El archivo demuestra capacidad y organización, no series comparables de recuperación, discapacidad, mortalidad o daño.",
+          "inference": "La organización pudo cambiar disponibilidad y continuidad para algunos soldados.",
+          "limit": "No demostrado: beneficio clínico, superioridad o sistema sanitario universal.",
+          "claimIds": ["CLAIM-MED-RB-EFFICACY-001", "CLAIM-MED-RB-NONRANKING-001"],
+          "evidenceIds": ["EVID-MED-RB-EFFICACY-001", "EVID-MED-RB-SYNTHESIS-001"],
+          "sourceIds": ["SRC-MED-RB-BAKER-2013", "SRC-MED-RB-NUTTON-1969"]
+        }
+      ]
+    },
+    {
+      "id": "roman-water-sanitation",
+      "title": "Ciudad romana — agua no es resultado sanitario",
+      "region": "Ciudades del Imperio romano",
+      "archive": "Acueductos, baños, letrinas, sedimentos y paleoparásitos",
+      "layers": [
+        {
+          "kind": "trace",
+          "observed": "Acueductos, fuentes, baños, drenajes y letrinas movieron agua y residuos; muestras arqueológicas conservan huevos de parásitos.",
+          "inference": "Infraestructura y exposición pueden estudiarse con archivos independientes.",
+          "limit": "La conservación, excavación y publicación son geográficamente desiguales.",
+          "claimIds": ["CLAIM-MED-RB-WATER-001", "CLAIM-MED-RB-PARASITES-001"],
+          "evidenceIds": ["EVID-MED-RB-WATER-001", "EVID-MED-RB-PARASITES-ROMAN-001"],
+          "sourceIds": ["SRC-MED-RB-MITCHELL-2017", "SRC-MED-RB-LEDGER-2020"]
+        },
+        {
+          "kind": "identification",
+          "observed": "Forma, pendiente, depósitos y contexto identifican obras hidráulicas; morfología y microscopía identifican taxones parasitarios probables.",
+          "inference": "Puede distinguirse capacidad técnica de presencia biológica mínima.",
+          "limit": "Un huevo puede desplazarse o preservarse de manera diferencial; una estructura puede tener múltiples fases.",
+          "claimIds": ["CLAIM-MED-RB-ARCHIVE-001", "CLAIM-MED-RB-PARASITES-001"],
+          "evidenceIds": ["EVID-MED-RB-METHOD-001", "EVID-MED-RB-PARASITES-EAST-001"],
+          "sourceIds": ["SRC-MED-RB-BAKER-2013", "SRC-MED-RB-LEDGER-2020", "SRC-MED-RB-LEDGER-2024"]
+        },
+        {
+          "kind": "function",
+          "observed": "Las obras abastecieron, evacuaron, bañaron o exhibieron capacidad cívica en combinaciones variables.",
+          "inference": "Pueden reconstruirse flujos y usos previstos o probables.",
+          "limit": "Función hidráulica no demuestra intención sanitaria moderna ni acceso doméstico igual.",
+          "claimIds": ["CLAIM-MED-RB-WATER-001", "CLAIM-MED-RB-INFRASTRUCTURE-001"],
+          "evidenceIds": ["EVID-MED-RB-WATER-001"],
+          "sourceIds": ["SRC-MED-RB-MITCHELL-2017"]
+        },
+        {
+          "kind": "operation",
+          "observed": "Mantenimiento, limpieza, reutilización de excretas, baños compartidos y circulación de alimentos modificaron exposiciones.",
+          "inference": "La operación cotidiana puede explicar por qué infraestructura y transmisión coexistieron.",
+          "limit": "Cada mecanismo necesita evidencia local; ninguno explica por sí solo todo el Imperio.",
+          "claimIds": ["CLAIM-MED-RB-PARASITES-001"],
+          "evidenceIds": ["EVID-MED-RB-PARASITES-ROMAN-001", "EVID-MED-RB-PARASITES-EAST-001"],
+          "sourceIds": ["SRC-MED-RB-MITCHELL-2017", "SRC-MED-RB-LEDGER-2020"]
+        },
+        {
+          "kind": "access",
+          "observed": "Distribución, continuidad y proximidad al agua variaron entre instalaciones públicas, casas, barrios y ciudades.",
+          "inference": "El acceso fue estratificado y no puede inferirse sólo de la capacidad total del acueducto.",
+          "limit": "Faltan denominadores domésticos comparables para gran parte del territorio.",
+          "claimIds": ["CLAIM-MED-RB-INFRASTRUCTURE-001", "CLAIM-MED-RB-WATER-001"],
+          "evidenceIds": ["EVID-MED-RB-WATER-001"],
+          "sourceIds": ["SRC-MED-RB-MITCHELL-2017", "SRC-MED-RB-LEDGER-2024"]
+        },
+        {
+          "kind": "consequence",
+          "observed": "Tricocéfalos, áscaris y otros parásitos persistieron en contextos con infraestructura romana.",
+          "inference": "La consecuencia sanitaria fue heterogénea y no siguió automáticamente de la monumentalidad.",
+          "limit": "No demostrado: prevalencia imperial exacta o inutilidad de cada obra; sí hay evidencia contraria a la protección automática.",
+          "claimIds": ["CLAIM-MED-RB-PARASITES-001", "CLAIM-MED-RB-EFFICACY-001"],
+          "evidenceIds": ["EVID-MED-RB-PARASITES-ROMAN-001", "EVID-MED-RB-PARASITES-EAST-001"],
+          "sourceIds": ["SRC-MED-RB-MITCHELL-2017", "SRC-MED-RB-LEDGER-2020", "SRC-MED-RB-LEDGER-2024"]
+        }
+      ]
+    },
+    {
+      "id": "galen-in-rome",
+      "title": "Galeno en Roma — autoridad no es uniformidad",
+      "region": "Pérgamo, Roma y redes imperiales",
+      "archive": "Tratados, casos, polémicas, anatomía animal y recepción",
+      "layers": [
+        {
+          "kind": "trace",
+          "observed": "Sobrevive un corpus excepcionalmente amplio con relatos de práctica, demostraciones, anatomía, terapéutica y filosofía.",
+          "inference": "Puede reconstruirse con alta resolución el programa intelectual y la persona autoral de Galeno.",
+          "limit": "Supervivencia excepcional introduce sesgo frente a prácticas y autores perdidos.",
+          "claimIds": ["CLAIM-MED-RB-GALEN-CORPUS-001", "CLAIM-MED-RB-GALEN-PRACTICE-001"],
+          "evidenceIds": ["EVID-MED-RB-GALEN-CORPUS-001"],
+          "sourceIds": ["SRC-MED-RB-HANKINSON-2008"]
+        },
+        {
+          "kind": "identification",
+          "observed": "Crítica de autenticidad, obra, pasaje, género y traducción separa textos galénicos, pseudogalénicos y recepción.",
+          "inference": "Las afirmaciones pueden atribuirse con mayor precisión a un testigo y contexto.",
+          "limit": "El corpus tiene pérdidas, variantes y atribuciones discutidas.",
+          "claimIds": ["CLAIM-MED-RB-GALEN-CORPUS-001"],
+          "evidenceIds": ["EVID-MED-RB-GALEN-CORPUS-001"],
+          "sourceIds": ["SRC-MED-RB-HANKINSON-2008"]
+        },
+        {
+          "kind": "function",
+          "observed": "Casos, autobiografía, demostración y polémica enseñan, persuaden y construyen autoridad además de describir.",
+          "inference": "El género permite estudiar estrategias profesionales y epistemología.",
+          "limit": "Un relato exitoso no es una historia clínica consecutiva ni auditoría independiente.",
+          "claimIds": ["CLAIM-MED-RB-GALEN-PRACTICE-001"],
+          "evidenceIds": ["EVID-MED-RB-GALEN-CORPUS-001"],
+          "sourceIds": ["SRC-MED-RB-HANKINSON-2008", "SRC-MED-RB-FLEMMING-2000"]
+        },
+        {
+          "kind": "operation",
+          "observed": "Galeno describe disecciones y vivisecciones animales, inferencias humanas y decisiones clínicas seleccionadas.",
+          "inference": "Puede distinguirse observación animal, inferencia inter-especie y práctica narrada.",
+          "limit": "No debe convertirse una demostración animal en disección humana ni una receta en uso poblacional.",
+          "claimIds": ["CLAIM-MED-RB-GALEN-ANATOMY-001", "CLAIM-MED-RB-GALEN-PRACTICE-001"],
+          "evidenceIds": ["EVID-MED-RB-GALEN-ANATOMY-001"],
+          "sourceIds": ["SRC-MED-RB-HANKINSON-2008"]
+        },
+        {
+          "kind": "access",
+          "observed": "Relatos de pacientes de élite, redes imperiales y circulación manuscrita documentan accesos diferentes a persona y texto.",
+          "inference": "Patronazgo y alfabetización estructuraron autoridad y audiencia.",
+          "limit": "No representa hogares, practicantes no letrados ni todos los habitantes del Imperio.",
+          "claimIds": ["CLAIM-MED-RB-HOUSEHOLD-001", "CLAIM-MED-RB-GALEN-CORPUS-001"],
+          "evidenceIds": ["EVID-MED-RB-HOUSEHOLD-GENDER-001", "EVID-MED-RB-GALEN-CORPUS-001"],
+          "sourceIds": ["SRC-MED-RB-FLEMMING-2000", "SRC-MED-RB-HANKINSON-2008"]
+        },
+        {
+          "kind": "consequence",
+          "observed": "Obras galénicas fueron copiadas, traducidas y comentadas durante siglos.",
+          "inference": "Su consecuencia textual e institucional fue extraordinaria.",
+          "limit": "No demostrado: verdad total, práctica romana uniforme o eficacia por longevidad.",
+          "claimIds": ["CLAIM-MED-RB-GALEN-CORPUS-001", "CLAIM-MED-RB-EFFICACY-001"],
+          "evidenceIds": ["EVID-MED-RB-GALEN-CORPUS-001", "EVID-MED-RB-EFFICACY-001"],
+          "sourceIds": ["SRC-MED-RB-HANKINSON-2008", "SRC-MED-RB-NUTTON-1984"]
+        }
+      ]
+    },
+    {
+      "id": "late-antique-compilers",
+      "title": "Compiladores tardíos — conservar también transforma",
+      "region": "Mediterráneo oriental tardorromano y bizantino",
+      "archive": "Compilaciones, comentarios, farmacopeas e instrumentos descritos",
+      "layers": [
+        {
+          "kind": "trace",
+          "observed": "Obras de Oribasio, Aecio, Alejandro y Pablo conservan selecciones, recetas, casos y técnicas de fuentes múltiples.",
+          "inference": "Puede estudiarse qué materiales sobrevivieron y cómo fueron reordenados.",
+          "limit": "Muchas fuentes subyacentes se perdieron y la dependencia no siempre puede medirse.",
+          "claimIds": ["CLAIM-MED-RB-COMPILERS-001"],
+          "evidenceIds": ["EVID-MED-RB-COMPILERS-001"],
+          "sourceIds": ["SRC-MED-RB-NUTTON-1984", "SRC-MED-RB-DUFFY-1984"]
+        },
+        {
+          "kind": "identification",
+          "observed": "Citas, paralelos, terminología, orden y manuscritos permiten identificar préstamos y variantes.",
+          "inference": "Selección y dependencia pueden reconstruirse por pasaje.",
+          "limit": "Parecido no prueba una ruta directa ni un único intermediario.",
+          "claimIds": ["CLAIM-MED-RB-COMPILERS-001", "CLAIM-MED-RB-NETWORKS-001"],
+          "evidenceIds": ["EVID-MED-RB-COMPILERS-001", "EVID-MED-RB-NETWORKS-001"],
+          "sourceIds": ["SRC-MED-RB-RIDDLE-1984", "SRC-MED-RB-BAADER-1984"]
+        },
+        {
+          "kind": "function",
+          "observed": "Las obras seleccionan, resumen, ordenan y adaptan para enseñanza, consulta o práctica declarada.",
+          "inference": "Compilar fue una operación intelectual y pedagógica, no reproducción neutra.",
+          "limit": "El propósito editorial no demuestra el uso efectivo por cada lector.",
+          "claimIds": ["CLAIM-MED-RB-COMPILERS-001", "CLAIM-MED-RB-INNOVATION-001"],
+          "evidenceIds": ["EVID-MED-RB-TEACHING-001", "EVID-MED-RB-INNOVATION-001"],
+          "sourceIds": ["SRC-MED-RB-DUFFY-1984", "SRC-MED-RB-BOURAS-2020"]
+        },
+        {
+          "kind": "operation",
+          "observed": "Textos describen sustancias, preparaciones, instrumentos y maniobras con distintos grados de detalle.",
+          "inference": "Puede reconstruirse un repertorio escrito y sus cambios.",
+          "limit": "Descripción, disponibilidad material, destreza, frecuencia y resultado permanecen separados.",
+          "claimIds": ["CLAIM-MED-RB-COMPILERS-001", "CLAIM-MED-RB-INSTRUMENTS-001"],
+          "evidenceIds": ["EVID-MED-RB-PHARMACOLOGY-001", "EVID-MED-RB-INSTRUMENTS-001"],
+          "sourceIds": ["SRC-MED-RB-BLIQUEZ-1984", "SRC-MED-RB-SCARBOROUGH-1984"]
+        },
+        {
+          "kind": "access",
+          "observed": "Lengua, copia, formación, corte, monasterio y biblioteca limitaron quién pudo leer o encargar las obras.",
+          "inference": "La circulación manuscrita tuvo públicos e instituciones específicos.",
+          "limit": "Supervivencia en biblioteca no mide acceso social ni uso clínico.",
+          "claimIds": ["CLAIM-MED-RB-NETWORKS-001", "CLAIM-MED-RB-INFRASTRUCTURE-001"],
+          "evidenceIds": ["EVID-MED-RB-NETWORKS-001", "EVID-MED-RB-TEACHING-001"],
+          "sourceIds": ["SRC-MED-RB-BAADER-1984", "SRC-MED-RB-DUFFY-1984"]
+        },
+        {
+          "kind": "consequence",
+          "observed": "Selecciones tardías preservaron materiales, crearon nuevas síntesis y alimentaron traducciones posteriores.",
+          "inference": "La consecuencia fue transmisión transformadora y no simple congelación.",
+          "limit": "No demostrado: progreso continuo, práctica uniforme o efecto terapéutico por transmisión.",
+          "claimIds": ["CLAIM-MED-RB-INNOVATION-001", "CLAIM-MED-RB-NONRANKING-001"],
+          "evidenceIds": ["EVID-MED-RB-INNOVATION-001", "EVID-MED-RB-SYNTHESIS-001"],
+          "sourceIds": ["SRC-MED-RB-BOURAS-2020", "SRC-MED-RB-NUTTON-1984"]
+        }
+      ]
+    },
+    {
+      "id": "byzantine-xenon",
+      "title": "Xenon y Pantocrátor — norma no es operación universal",
+      "region": "Asia Menor, Constantinopla y Mediterráneo cristiano",
+      "archive": "Términos, reglas, personal, arquitectura y tradición institucional",
+      "layers": [
+        {
+          "kind": "trace",
+          "observed": "Fuentes tardoantiguas y medievales nombran instituciones caritativas; el typikon del Pantocrátor prescribe salas, personal y turnos.",
+          "inference": "Existen testigos de organización asistencial con resolución variable.",
+          "limit": "Los términos no son estables ni equivalentes entre siglos, regiones y lenguas.",
+          "claimIds": ["CLAIM-MED-RB-HOSPITAL-CATEGORIES-001", "CLAIM-MED-RB-PANTOKRATOR-001"],
+          "evidenceIds": ["EVID-MED-RB-HOSPITAL-EARLY-001", "EVID-MED-RB-PANTOKRATOR-001"],
+          "sourceIds": ["SRC-MED-RB-HORDEN-2005", "SRC-MED-RB-MILLER-1984"]
+        },
+        {
+          "kind": "identification",
+          "observed": "Nombre, regla, ubicación, patronazgo y personal permiten distinguir instituciones de alojamiento, pobreza, enfermedad y tratamiento.",
+          "inference": "La categoría puede definirse caso por caso mediante funciones documentadas.",
+          "limit": "Traducir todo como hospital borra diferencias; el nombre solo no cierra función.",
+          "claimIds": ["CLAIM-MED-RB-HOSPITAL-CATEGORIES-001"],
+          "evidenceIds": ["EVID-MED-RB-HOSPITAL-EARLY-001"],
+          "sourceIds": ["SRC-MED-RB-HORDEN-2005", "SRC-MED-RB-HORDEN-2012"]
+        },
+        {
+          "kind": "function",
+          "observed": "Caridad, alojamiento, alimento, cuidado de enfermos y tratamiento aparecen en combinaciones históricas distintas.",
+          "inference": "Puede reconstruirse una cartera institucional situada.",
+          "limit": "No existe una esencia única del hospital transmitida intacta desde la Antigüedad.",
+          "claimIds": ["CLAIM-MED-RB-HOSPITAL-CATEGORIES-001", "CLAIM-MED-RB-NONRANKING-001"],
+          "evidenceIds": ["EVID-MED-RB-HOSPITAL-EARLY-001", "EVID-MED-RB-SYNTHESIS-001"],
+          "sourceIds": ["SRC-MED-RB-HORDEN-2012", "SRC-MED-RB-MILLER-1984"]
+        },
+        {
+          "kind": "operation",
+          "observed": "El Pantocrátor prescribe categorías de personal, salas, rotaciones y recursos.",
+          "inference": "El documento permite reconstruir un diseño operativo normativo detallado.",
+          "limit": "Prescripción no prueba cumplimiento cotidiano, ocupación o calidad de cada atención.",
+          "claimIds": ["CLAIM-MED-RB-PANTOKRATOR-001"],
+          "evidenceIds": ["EVID-MED-RB-PANTOKRATOR-001"],
+          "sourceIds": ["SRC-MED-RB-MILLER-1984", "SRC-MED-RB-HORDEN-2005"]
+        },
+        {
+          "kind": "access",
+          "observed": "Pobreza, enfermedad, patronazgo, regla y capacidad estructuraron admisión; los beneficiarios variaron entre instituciones.",
+          "inference": "Acceso debe buscarse en criterios, recursos y exclusiones concretos.",
+          "limit": "No demostrado: gratuidad, continuidad o cobertura universal de Constantinopla o del imperio.",
+          "claimIds": ["CLAIM-MED-RB-INFRASTRUCTURE-001", "CLAIM-MED-RB-PANTOKRATOR-001"],
+          "evidenceIds": ["EVID-MED-RB-PANTOKRATOR-001", "EVID-MED-RB-HOSPITAL-EARLY-001"],
+          "sourceIds": ["SRC-MED-RB-HORDEN-2005", "SRC-MED-RB-HORDEN-2012"]
+        },
+        {
+          "kind": "consequence",
+          "observed": "Las instituciones hicieron durable una combinación de caridad, organización y cuidado y dejaron modelos discutidos por tradiciones posteriores.",
+          "inference": "Puede estudiarse institucionalización y genealogía parcial.",
+          "limit": "No demostrado: nacimiento único del hospital moderno, resultados clínicos o sistema universal.",
+          "claimIds": ["CLAIM-MED-RB-EFFICACY-001", "CLAIM-MED-RB-NONRANKING-001"],
+          "evidenceIds": ["EVID-MED-RB-EFFICACY-001", "EVID-MED-RB-SYNTHESIS-001"],
+          "sourceIds": ["SRC-MED-RB-HORDEN-2005", "SRC-MED-RB-MILLER-1984"]
+        }
+      ]
+    }
+  ]
+}
