@@ -872,3 +872,23 @@ CIV-003 inaugura los expedientes regionales auditados. CIV-001 conserva `TRAZADO
 | `TIME-MED-PHYS-RIVA-ROCCI-1896-001` | 1896 | manguito inflable de Riva-Rocci | presión sistólica clínica más practicable | `SRC-MED-PHYS-BOOTH-1977`, `SRC-MED-PHYS-NOH-2024` | A/B histórico | AUDITADO |
 | `TIME-MED-PHYS-KOROTKOFF-1905-001` | 1905 | sonidos de Korotkoff | estimación auscultatoria sistólica y diastólica | `SRC-MED-PHYS-BOOTH-1977`, `SRC-MED-PHYS-NOH-2024` | A/B histórico | AUDITADO |
 | `TIME-MED-PHYS-VALIDATION-CONTEMP-001` | siglos XX–XXI | estandarización, validación y monitorización | presión como variable clínica y poblacional | `SRC-MED-PHYS-SCHUTTE-2022`, `SRC-MED-PHYS-NOH-2024` | A revisión | AUDITADO |
+
+## MED-018 — Microscopía y anatomía patológica
+
+| ID | Fecha | Evento | Producto delimitado | Fuentes | Confianza | Estado |
+|---|---|---|---|---|---|---|
+| `TIME-MED-PATH-SONG-1247-001` | 1247 | conclusión del *Xiyuan jilu* asociado con Song Ci | manual médico-legal e inspección externa | `SRC-MED-ANAT-WU-2015`, `SRC-MED-PATH-ASEN-2017` | A/B histórico | AUDITADO |
+| `TIME-MED-PATH-MALPIGHI-1661-001` | 1661 | cartas de Malpighi sobre pulmón de rana | preparación e imagen microanatómica | `SRC-MED-PHYS-WEST-MALPIGHI-2013` | A publicación | AUDITADO |
+| `TIME-MED-PATH-HOOKE-1665-001` | 1665 | publicación de *Micrographia* | micrografía impresa y compartimentos de corcho | `SRC-MED-PATH-HOOKE-BHL-1665` | A publicación | AUDITADO |
+| `TIME-MED-PATH-MORGAGNI-1761-001` | 1761 | publicación de *De sedibus* | historias y autopsias organizadas en setenta cartas | `SRC-MED-PATH-MORGAGNI-1761` | A publicación | AUDITADO |
+| `TIME-MED-PATH-BICHAT-1801-001` | 1801 | publicación de *Anatomie générale* | tejidos como sistemas comparables | `SRC-MED-PATH-BICHAT-1801` | A publicación | AUDITADO |
+| `TIME-MED-PATH-CELL-THEORY-1838-001` | 1838–1839 | formulaciones celulares de Schleiden y Schwann | generalización celular vegetal/animal | `SRC-MED-PATH-FLOTTE-2021` | A/B histórico | AUDITADO |
+| `TIME-MED-PATH-ROKITANSKY-1840S-001` | 1840–1846 | manual, cátedra e infraestructura vienesa | nosología macroscópica y autopsia institucional | `SRC-MED-PATH-ROKITANSKY-1849`, `SRC-MED-PATH-CAMPOS-2016` | A/B histórico | AUDITADO |
+| `TIME-MED-PATH-REMAK-1850S-001` | década de 1850 | observaciones y publicaciones de Remak sobre división | continuidad celular | `SRC-MED-PATH-GRZYBOWSKI-2013`, `SRC-MED-PATH-WRIGHT-2011` | A/B histórico | AUDITADO |
+| `TIME-MED-PATH-VIRCHOW-1858-001` | 1858 | conferencias de patología celular | síntesis fisiológica y patológica | `SRC-MED-PATH-VIRCHOW-1860` | A/B edición | AUDITADO |
+| `TIME-MED-PATH-HISTOTECH-1860S-1890S-001` | ca. 1860–1890 | convergencia de microtomía, parafina, fijación y tinciones | lámina histológica más seriable | `SRC-MED-PATH-TITFORD-2006`, `SRC-MED-PATH-FOX-1985` | B rango técnico | AUDITADO |
+| `TIME-MED-PATH-HEMATOXYLIN-1860S-001` | década de 1860 | adaptación de hematoxilina a tinción histológica | contraste nuclear mediante material mesoamericano | `SRC-MED-PATH-TITFORD-2005`, `SRC-MED-PATH-ORTIZHIDALGO-2019` | A/B histórico | AUDITADO |
+| `TIME-MED-PATH-BABES-1927-001` | 1927–1928 | presentación y publicación de Babeș | frotis cervical diagnóstico | `SRC-MED-PATH-HAJDU-2013`, `SRC-MED-PATH-VILOS-1998` | A/B prioridad | AUDITADO |
+| `TIME-MED-PATH-PAPANICOLAOU-1928-001` | 1928 | comunicación de Papanicolaou | células anormales en material cervicovaginal | `SRC-MED-PATH-VILOS-1998` | A/B prioridad | AUDITADO |
+| `TIME-MED-PATH-PAP-TRAUT-1941-001` | 1941 | artículo de Papanicolaou y Traut | serie clínica y valor diagnóstico | `SRC-MED-PATH-PAPANICOLAOU-TRAUT-1941` | A publicación | AUDITADO |
+| `TIME-MED-PATH-PAP-TRAUT-1943-001` | 1943 | monografía del frotis vaginal | protocolo, atlas, categorías y casos | `SRC-MED-PATH-PAPANICOLAOU-TRAUT-1943` | A publicación | AUDITADO |

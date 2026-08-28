@@ -17,6 +17,7 @@ import HistoricalMedicineLab from "../../components/HistoricalMedicineLab";
 import IndianOceanEurasianMedicineRouteLab from "../../components/IndianOceanEurasianMedicineRouteLab";
 import IslamicWorldsMedicineNetworkLab from "../../components/IslamicWorldsMedicineNetworkLab";
 import MedievalEuropeJewishMedicineNetworkLab from "../../components/MedievalEuropeJewishMedicineNetworkLab";
+import MicroscopyPathologyEvidenceLab from "../../components/MicroscopyPathologyEvidenceLab";
 import RomanByzantineMedicineLab from "../../components/RomanByzantineMedicineLab";
 import SouthAsianMedicineLab from "../../components/SouthAsianMedicineLab";
 import { africanMedicineArchives } from "../../lib/african-medicine-archives";
@@ -33,6 +34,7 @@ import { historicalMedicineEvidence } from "../../lib/historical-medicine-eviden
 import { indianOceanEurasianMedicineRoutes } from "../../lib/indian-ocean-eurasian-medicine-routes";
 import { islamicWorldsMedicineNetworks } from "../../lib/islamic-worlds-medicine-networks";
 import { medievalEuropeJewishMedicineNetworks } from "../../lib/medieval-europe-jewish-medicine-networks";
+import { microscopyPathologyEvidence } from "../../lib/microscopy-pathology-evidence";
 import { medicineEvidence } from "../../lib/medicine-evidence";
 import { romanByzantineMedicineEvidence } from "../../lib/roman-byzantine-medicine-evidence";
 import { southAsianMedicineEvidence } from "../../lib/south-asian-medicine-evidence";
@@ -43,7 +45,7 @@ export const metadata: Metadata = createPageMetadata({
   title: "Historia de la medicina — archivos, cuidado y evidencia",
   description: "Cómo reconstruimos la historia mundial de la medicina desde huesos, manuscritos, cánones, instituciones y resultados sin confundir archivo, práctica o eficacia.",
   pathname: "/medicina",
-  image: "/assets/visuales/hero-med-017-circulacion-fisiologia.png",
+  image: "/assets/visuales/hero-med-018-microscopia-anatomia-patologica.png",
 });
 
 const principles = [
@@ -60,8 +62,8 @@ export default function MedicinePage() {
     <div className="medicine-experience">
       <header className="medicine-hero medicine-history-hero">
         <Image
-          src="/assets/visuales/hero-med-017-circulacion-fisiologia.png"
-          alt="Mesa editorial con libros, ligadura, diagrama vascular, microscopio, columna de vidrio y hebras que forman un circuito"
+          src="/assets/visuales/hero-med-018-microscopia-anatomia-patologica.png"
+          alt="Mesa editorial con expediente, espécimen genérico sellado, microtomo, láminas, microscopios y tarjeta de correlación"
           fill
           preload
           fetchPriority="high"
@@ -70,11 +72,11 @@ export default function MedicinePage() {
         <div className="medicine-hero-shade" />
         <div className="medicine-hero-copy">
           <p className="eyebrow">Historia mundial de la medicina</p>
-          <h1>Una ligadura no descubre una circulación por sí sola</h1>
-          <p>Sistema heredado, preparación, intervención, medición, comparación, mecanismo y recepción forman una cadena histórica. Ningún resultado aislado hereda el circuito completo.</p>
+          <h1>Una lesión no contiene una enfermedad por sí sola</h1>
+          <p>Episodio, espécimen, preparación, visualización, lesión, correlación y enfermedad forman una cadena histórica. Ninguna imagen aislada hereda el diagnóstico completo.</p>
           <div>
-            <Link className="button button-primary" href="#circulacion-fisiologia">Auditar el mecanismo <ArrowDown aria-hidden="true" /></Link>
-            <Link className="medicine-text-link" href="/15_medicina/INVESTIGACION_MED_017_CIRCULACION_FISIOLOGIA">Leer MED-017 <ArrowRight aria-hidden="true" /></Link>
+            <Link className="button button-primary" href="#microscopia-anatomia-patologica">Auditar la cadena <ArrowDown aria-hidden="true" /></Link>
+            <Link className="medicine-text-link" href="/15_medicina/INVESTIGACION_MED_018_MICROSCOPIA_ANATOMIA_PATOLOGICA">Leer MED-018 <ArrowRight aria-hidden="true" /></Link>
           </div>
         </div>
         <p className="medicine-visual-limit">Composición editorial no probatoria: utilería genérica; no reproduce manuscrito, aparato, preparación, experimento o acontecimiento reales.</p>
@@ -88,6 +90,14 @@ export default function MedicinePage() {
       <section className="medicine-principles" aria-labelledby="medicine-principles-title">
         <header><p className="eyebrow">Contrato de lectura</p><h2 id="medicine-principles-title">Cuatro cortafuegos</h2></header>
         <div>{principles.map(([title, text], index) => <article key={title}><span>{String(index + 1).padStart(2, "0")}</span><h3>{title}</h3><p>{text}</p></article>)}</div>
+      </section>
+
+      <section className="medicine-lab-section documentary-lab-section" id="microscopia-anatomia-patologica" aria-labelledby="microscopy-pathology-lab-title">
+        <div className="section-heading">
+          <div><p className="eyebrow">MED-018 · laboratorio de microscopía y anatomía patológica</p><h2 id="microscopy-pathology-lab-title">Del episodio a la atribución de enfermedad</h2></div>
+          <p>Elige un expediente. Siete capas separan cuerpo, muestra, transformación, imagen, lesión y correlación sin convertir una lámina o un frotis en diagnóstico automático.</p>
+        </div>
+        <MicroscopyPathologyEvidenceLab data={microscopyPathologyEvidence} />
       </section>
 
       <section className="medicine-lab-section documentary-lab-section" id="circulacion-fisiologia" aria-labelledby="circulation-physiology-lab-title">

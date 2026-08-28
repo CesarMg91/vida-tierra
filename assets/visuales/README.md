@@ -1025,3 +1025,15 @@ La portada separa acceso regulado, procedimiento, diagrama, impresión, comparac
 Salida original aprobada sin edición: `C:\Users\HUAWEI\.codex\generated_images\019fedb0-8f24-7e33-8d16-d2418ba3378e\exec-1791b89c-413e-483e-9554-3536cf41dcb3.png` → `assets/visuales/hero-med-017-circulacion-fisiologia.png`; tamaño `2,127,551` bytes. El prompt completo y los límites están en `ATLAS_VISUAL.md`, sección 72.
 
 La portada separa tradiciones textuales, palpación, ligadura, cantidad, óptica y presión sin mostrar personas, cuerpos o aparatos identificables. Los SVG incluyen `title` y `desc`, preservan las siete capas y no convierten experimento, instrumento, número, publicación o fama en mecanismo completo, exactitud, consenso o resultado clínico.
+
+## MED-018 — Microscopía y anatomía patológica
+
+| Archivo | Origen | Dimensiones | SHA-256 / trazabilidad | Límite |
+|---|---|---:|---|---|
+| `hero-med-018-microscopia-anatomia-patologica.png` | OpenAI ImageGen, generación nueva del 2026-08-28 | `1672 × 941` | `380037543a2da61a588349d8dd6101d256c783bc079fe80eb484e84685c56912` | composición conceptual; no cuerpo, órgano, diagnóstico, espécimen real, colección o acontecimiento |
+| `cadena-episodio-enfermedad-med-018.svg` | SVG manual determinista | `1600 × 900` | código fuente versionado | siete capas inferenciales; no herencia automática |
+| `matriz-microscopia-anatomia-patologica-med-018.svg` | SVG manual determinista | `1600 × 900` | código fuente versionado | ocho expedientes y límites; no prioridad, modernidad o ranking |
+
+Salida original aprobada sin edición: `C:\Users\HUAWEI\.codex\generated_images\019fedb0-8f24-7e33-8d16-d2418ba3378e\exec-3f92e740-8af5-4345-9b89-c1beafe98c27.png` → `assets/visuales/hero-med-018-microscopia-anatomia-patologica.png`; tamaño `2,366,937` bytes. El prompt completo y los límites están en `ATLAS_VISUAL.md`, sección 73.
+
+La portada separa episodio, muestra genérica, preparación, lámina, microscopía y correlación sin mostrar cuerpos ni material diagnóstico real. Los SVG incluyen `title` y `desc`, preservan las siete capas y no convierten imagen, lesión, clasificación, volumen institucional o epónimo en diagnóstico, causa, representatividad o beneficio clínico.

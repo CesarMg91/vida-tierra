@@ -1334,3 +1334,33 @@ La salida se inspeccionó completa a resolución original. No contiene personas,
 La composición no reproduce un tratado galénico, el comentario de Ibn al-Nafīs, un manual chino de pulso, Servet, Colombo, Fabricius, *De motu cordis*, las cartas de Malpighi, *Haemastaticks* ni un aparato real. La proximidad de los objetos no afirma coetaneidad, transmisión, prioridad, réplica, circulación cerrada, exactitud, recepción o beneficio clínico.
 
 Los SVG se construyeron a `1600 × 900`, incluyen `title`, `desc` y tipografía de reserva. La cadena mantiene siete capas con cortafuegos; la matriz compara ocho expedientes sin puntuaciones. Ninguno acepta datos personales, representa una vivisección, calcula flujo o presión, diagnostica, recomienda o simula un resultado clínico.
+
+## 73. MED-018 — Una lesión no contiene una enfermedad por sí sola
+
+![Portada editorial de MED-018](assets/visuales/hero-med-018-microscopia-anatomia-patologica.png)
+
+![Cadena desde episodio hasta enfermedad](assets/visuales/cadena-episodio-enfermedad-med-018.svg)
+
+![Matriz de microscopía, anatomía patológica y límites](assets/visuales/matriz-microscopia-anatomia-patologica-med-018.svg)
+
+| Archivo | Tipo | Procedencia | Qué representa | Límite obligatorio |
+|---|---|---|---|---|
+| `hero-med-018-microscopia-anatomia-patologica.png` | portada editorial conceptual | OpenAI ImageGen, generación nueva, 2026-08-28 | expediente, muestra genérica sellada, microtomo, bloque, láminas, tinciones, microscopios y correlación | no cuerpo, órgano, diagnóstico, espécimen real, colección o acontecimiento |
+| `cadena-episodio-enfermedad-med-018.svg` | diagrama epistemológico original | SVG manual del proyecto, 2026-08-28 | episodio, espécimen, preparación, visualización, lesión, correlación y enfermedad | las flechas no heredan representatividad, neutralidad, causalidad, diagnóstico o beneficio |
+| `matriz-microscopia-anatomia-patologica-med-018.svg` | matriz documental original | SVG manual del proyecto, 2026-08-28 | ocho expedientes, archivos, productos y fallos | las filas no forman prioridad, modernidad, exactitud general o ranking cultural |
+
+### Procedencia de la portada
+
+Salida original aprobada sin edición: `C:\Users\HUAWEI\.codex\generated_images\019fedb0-8f24-7e33-8d16-d2418ba3378e\exec-3f92e740-8af5-4345-9b89-c1beafe98c27.png`. Destino: `assets/visuales/hero-med-018-microscopia-anatomia-patologica.png`. Dimensiones: `1672 × 941`; tamaño: `2,366,937` bytes; SHA-256: `380037543a2da61a588349d8dd6101d256c783bc079fe80eb484e84685c56912`.
+
+**Prompt de generación:**
+
+> Use case: photorealistic-natural. Asset type: wide website hero image for MED-018 in a rigorous Spanish public history-of-medicine platform. Primary request: an original museum-conservation laboratory still life explaining how autopsy, tissue preparation, microscopy, lesion classification, clinicopathological correlation and diagnosis became connected without implying that a slide contains a disease by itself. Scene/backdrop: dark obsidian conservation table in a quiet museum laboratory, warm parchment backdrop fading into deep charcoal. Subject: seven clearly separated evidence stations arranged as a branching chain rather than a linear triumph: a closed generic historical case ledger with blank pages; a sealed neutral specimen jar containing only an abstract pale folded material with no recognizable organ; a small brass microtome beside an uncut paraffin block; several blank glass slides and restrained stain bottles; an early brass microscope; a modern optical microscope eyepiece beside a generic stained slide with abstract non-diagnostic colored shapes; and a blank clinical correlation card with copper threads connecting but never merging the stations. Style/medium: photorealistic editorial museum photography, historically inspired but explicitly generic, sophisticated and materially precise. Composition/framing: cinematic 16:9 landscape, shallow three-quarter overhead angle, main objects weighted toward the right and lower-right, generous dark negative space at upper-left and center-left for responsive web headline, every station physically distinct. Lighting/mood: warm amber raking light, copper highlights, restrained mineral-green accents, quiet investigative mood, deep controlled shadows. Color palette: parchment, obsidian, ink black, copper, amber, mineral green, subtle muted hematoxylin violet and eosin rose only on one abstract slide. Materials/textures: aged paper, brass, glass, wax, dark wood, linen, steel blade guard, archival card. Constraints: no people, no hands, no body, no face, no skull, no bones, no organs, no blood, no gore, no active autopsy, no surgical scene, no named historical artifact, no readable writing, no letters, no numbers, no labels, no logos, no watermark, no decorative floating cells, no DNA helix, no false scientific diagram, no modern hospital room; objects must remain generic and cannot be mistaken for a photograph of one real collection or one diagnostic specimen. Output intent: premium hero image consistent with a museum-laboratory visual system, 1672x941 or closest native 16:9.
+
+### Revisión y límites
+
+La salida se inspeccionó completa a resolución original. No contiene personas, manos, cuerpos, rostros, cráneos, huesos, órganos, sangre, autopsia, cirugía, texto transcribible, logos o equipo hospitalario moderno. Expediente, recipiente, material plegado abstracto, microtomo, bloque, portaobjetos, reactivos, microscopios, tarjeta e hilos son utilería editorial genérica.
+
+La composición no reproduce el *Xiyuan jilu*, *Micrographia*, *De sedibus*, *Anatomie générale*, el hospital de Viena, *Cellular Pathology*, una lámina H&E, un frotis cervical, un espécimen, colección, laboratorio o acontecimiento reales. La proximidad entre objetos no afirma coetaneidad, transmisión, prioridad, diagnóstico, causalidad, eficacia o beneficio.
+
+Los SVG se construyeron a `1600 × 900`, incluyen `title`, `desc` y tipografía de reserva. La cadena mantiene siete capas con cortafuegos; la matriz compara ocho expedientes sin puntuaciones. Ninguno acepta datos personales, muestra tejido diagnóstico, calcula resultados, diagnostica, recomienda o simula un caso clínico.
