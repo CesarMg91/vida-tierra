@@ -941,3 +941,15 @@ La portada separa fragmentos, muestras, suelo/asentamiento, códice, cerámica/r
 Salida original aprobada sin edición: `C:\Users\HUAWEI\.codex\generated_images\019fedb0-8f24-7e33-8d16-d2418ba3378e\exec-707fcd57-1d97-493c-9b07-93a0015bfd98.png` → `assets/visuales/hero-med-010-mesoamerica-andes-americas.png`; tamaño `1,749,916` bytes. El prompt completo y los límites están en `ATLAS_VISUAL.md`, sección 65.
 
 La portada separa fragmentos genéricos, moldes dentales, microrestos, sedimento y dos utilerías de códice; no contiene personas, texto legible o réplicas identificables. Los SVG incluyen `title` y `desc`, preservan archivo, procedencia, señal, práctica, consecuencia y límite y no convierten lesión, molécula, planta o receta en beneficio.
+
+## MED-011 — mundos islámicos
+
+| Archivo | Origen | Dimensiones | SHA-256 / trazabilidad | Límite |
+|---|---|---:|---|---|
+| `hero-med-011-mundos-islamicos.png` | OpenAI ImageGen, generación nueva del 2026-08-27 | `1672 × 941` | `4bb92437ad9bf618788ba1d9d81cc6b9075eec1f462928e949982e0ee4705f87` | composición conceptual; no manuscrito, hospital, botica o práctica reales |
+| `cadena-testigo-consecuencia-med-011.svg` | SVG manual determinista | `1600 × 900` | código fuente versionado | seis capas inferenciales; no herencia automática |
+| `matriz-redes-medicina-med-011.svg` | SVG manual determinista | `1600 × 900` | código fuente versionado | seis redes y límites; no edad de oro ni ranking |
+
+Salida original aprobada sin edición: `C:\Users\HUAWEI\.codex\generated_images\019fedb0-8f24-7e33-8d16-d2418ba3378e\exec-15150650-d211-464f-8999-632db9f3e26b.png` → `assets/visuales/hero-med-011-mundos-islamicos.png`; tamaño `2,645,580` bytes. El prompt completo y los límites están en `ATLAS_VISUAL.md`, sección 66.
+
+La portada separa manuscritos genéricos, cuaderno, aparato óptico, instrumental, maqueta institucional y botica; no contiene personas, cirugía o texto legible. Los SVG incluyen `title` y `desc`, preservan testigo, versión, operación, institución, alcance y consecuencia y no convierten traducción, receta, fundación o norma en práctica o eficacia.

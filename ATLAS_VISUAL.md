@@ -1124,3 +1124,33 @@ La salida se inspeccionó completa a resolución original. No contiene personas,
 Las seis estaciones no reproducen Cuzco, Holmul, Baking Pot, Copán, Huaca El Paraíso, Piauí, el Libellus o el Códice Florentino. La proximidad visual no afirma coetaneidad, cultura compartida, función, continuidad o eficacia.
 
 Los SVG se construyeron a `1600 × 900`, incluyen `title`, `desc` y tipografía de reserva. La cadena recorre seis capas sin porcentaje ni cálculo; la matriz compara seis archivos sin puntuarlos. La primera rasterización de la matriz mostró la leyenda superpuesta a la sexta fila; se compactaron las filas y la segunda captura confirmó margen y textos completos. Ninguno acepta datos, diagnostica, recomienda o representa tratamientos.
+
+## 66. MED-011 — Una traducción no hereda una práctica
+
+![Portada editorial de MED-011](assets/visuales/hero-med-011-mundos-islamicos.png)
+
+![Cadena desde testigo hasta consecuencia](assets/visuales/cadena-testigo-consecuencia-med-011.svg)
+
+![Matriz de redes médicas de los mundos islámicos](assets/visuales/matriz-redes-medicina-med-011.svg)
+
+| Archivo | Tipo | Procedencia | Qué representa | Límite obligatorio |
+|---|---|---|---|---|
+| `hero-med-011-mundos-islamicos.png` | portada editorial conceptual | OpenAI ImageGen, generación nueva, 2026-08-27 | seis estaciones genéricas: manuscritos, notas, óptica, instrumental, institución y botica | no manuscrito, edificio, instrumento, sociedad o práctica reales |
+| `cadena-testigo-consecuencia-med-011.svg` | diagrama epistemológico original | SVG manual del proyecto, 2026-08-27 | testigo, versión, operación, institución, alcance y consecuencia | las flechas discontinuas exigen puente; no heredan práctica o efecto |
+| `matriz-redes-medicina-med-011.svg` | matriz documental original | SVG manual del proyecto, 2026-08-27 | seis redes, archivos, inferencias y límites | las filas no forman edad de oro, origen único o ranking |
+
+### Procedencia de la portada
+
+Salida original aprobada sin edición: `C:\Users\HUAWEI\.codex\generated_images\019fedb0-8f24-7e33-8d16-d2418ba3378e\exec-15150650-d211-464f-8999-632db9f3e26b.png`. Destino: `assets/visuales/hero-med-011-mundos-islamicos.png`. Dimensiones: `1672 × 941`; tamaño: `2,645,580` bytes; SHA-256: `4bb92437ad9bf618788ba1d9d81cc6b9075eec1f462928e949982e0ee4705f87`.
+
+**Prompt de generación:**
+
+> Create a cinematic editorial hero image for a rigorous Spanish public-history research website, aspect ratio 16:9, no text and no people. Theme: interconnected medical knowledge networks across medieval Islamic worlds, circa 9th–14th centuries, shown as six clearly separated evidence stations on one dark obsidian museum worktable: (1) generic layered manuscript folios in different scripts represented only as abstract non-legible marks, with separate colored translation slips and a magnifying lens suggesting collation; (2) a small generic case-notes notebook with loose numbered tabs, no readable writing; (3) a geometric optical apparatus with two apertures, a beam of warm light, and glass lens, clearly distinct from clinical tools; (4) a generic ophthalmic instrument tray with one hollow-needle-like instrument shown as an unverified textual proposal, no eye or surgery; (5) an architectural foundation plan and small wooden scale model of a courtyard institution with separate account tokens, no real building replica; (6) apothecary vessels, balance weights and fragmented prescription slips, no identifiable medicine and no readable labels. Thin copper and mineral-green threads connect the stations but do not form a single linear arrow. Rich parchment, obsidian, copper, amber and mineral-green palette; Source Serif museum sensibility; physically plausible materials; dramatic raking light; high detail; restrained scholarly atmosphere; ample dark negative space at left-center for website heading; no fantasy, no magical glow, no crescent-symbol decoration, no mosque silhouette, no stock-medical iconography, no modern laboratory, no map borders, no invented readable Arabic, Latin or Hebrew lettering, no logos, no watermarks. The image must communicate that manuscript, translation, practice, institution and outcome are distinct evidence layers rather than one triumphant golden-age story.
+
+### Revisión y límites
+
+La salida se inspeccionó completa. No contiene personas, rostros, cuerpos, sangre, cirugía, mapas, banderas, emblemas religiosos, logos o texto legible. Las marcas manuscritas son textura abstracta no transcribible; instrumentos, frascos, plano y maqueta son utilería editorial genérica.
+
+Las estaciones no reproducen el taller de Hunayn, un manuscrito de Galeno, el archivo de al-Razi, el `Canon`, el aparato de Ibn al-Haytham, la aguja de Ammar, el bimaristan de Qalawun o documentos de la Geniza. Hilos y proximidad no afirman flujo lineal, coetaneidad, uso, cobertura o eficacia.
+
+Los SVG se construyeron y rasterizaron a `1600 × 900`, incluyen `title`, `desc` y tipografía de reserva. La revisión confirmó márgenes, seis capas y seis filas completas. La cadena usa flechas discontinuas como puentes auditables; la matriz no contiene puntuaciones. Ninguno acepta datos, diagnostica, recomienda o representa resultados clínicos.

@@ -84,6 +84,7 @@
     "CIV-001": { "shortTitle": "De aldeas a ciudades y Estados", "status": "TRAZADO", "themes": ["sedentarismo", "urbanismo", "administración"], "featured": true },
     "CIV-002": { "shortTitle": "Cómo fechamos el pasado", "status": "AUDITADO", "themes": ["cronología", "radiocarbono", "arqueometría", "modelado bayesiano"], "featured": true },
     "CIV-003": { "shortTitle": "Asia sudoccidental: trayectorias múltiples", "status": "AUDITADO", "themes": ["Asia sudoccidental", "Neolítico", "urbanismo", "movilidad", "parentesco"], "featured": true },
+    "MED-011": { "shortTitle": "Mundos islámicos: traducción no es práctica", "status": "AUDITADO", "themes": ["historia de la medicina", "mundos islámicos", "traducción", "manuscritos", "hospitales", "farmacia", "óptica", "regulación"], "featured": true },
     "MED-010": { "shortTitle": "Américas: una huella no es una historia clínica", "status": "AUDITADO", "themes": ["historia de la medicina", "Mesoamérica", "Andes", "Américas", "trepanación", "odontología", "plantas", "códices", "colonialismo"], "featured": true },
     "MED-009": { "shortTitle": "África: silencio documental no es ausencia", "status": "AUDITADO", "themes": ["historia de la medicina", "África", "Nubia", "Aksum", "Sahel", "bioarqueología", "manuscritos", "tradición oral"], "featured": true },
     "MED-008": { "shortTitle": "Roma y Bizancio: infraestructura no es resultado", "status": "AUDITADO", "themes": ["historia de la medicina", "Roma", "Bizancio", "medicina militar", "salud urbana", "hospitales", "transmisión"], "featured": true },

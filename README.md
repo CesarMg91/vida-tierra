@@ -6,7 +6,7 @@ Historia profunda de la Tierra, la vida y el ser humano desde primeros principio
 
 **[Explorar la versión pública](https://vida-tierra.vercel.app)**
 
-La versión `0.3.9` continúa la historia cronológica mundial de la medicina con MED-010: cuerpos, trepanaciones, dientes, plantas y códices de Mesoamérica, Andes y otras Américas, separados por archivo, procedencia, señal, práctica, consecuencia y límite. Incluye el módulo público «Una huella no hereda una historia clínica» y conserva MED-001–009 y CIV-001–003 íntegros; la secuencia global continúa cerrada en `001–052`.
+La versión `0.3.10` continúa la historia cronológica mundial de la medicina con MED-011: traducción, casos, óptica, hospitales, farmacia y regulación en los mundos islámicos, separados por testigo, versión, operación, institución, alcance y consecuencia. Incluye el módulo público «Una traducción no hereda una práctica» y conserva MED-001–010 y CIV-001–003 íntegros; la secuencia global continúa cerrada en `001–052`.
 
 El sitio usa `https://vida-tierra.vercel.app` como URL canónica. Otro dominio puede sustituirlo definiendo `SITE_URL` en el entorno de build, sin cambiar el código.
 
@@ -46,7 +46,7 @@ Y toda investigación debe distinguir explícitamente:
 - las alternativas y anomalías;
 - el grado de confianza y qué podría falsar la conclusión.
 
-## Estado actual · v0.3.9
+## Estado actual · v0.3.10
 
 La experiencia pública contiene:
 
@@ -105,6 +105,7 @@ La experiencia pública contiene:
 - la sexta investigación histórica de Medicina: [MED-008 — ¿Cómo circularon práctica militar, salud urbana, hospitales y corpus entre Roma y Bizancio?](15_medicina/INVESTIGACION_MED_008_ROMA_BIZANCIO_MEDITERRANEO_TARDIO.md) — **AUDITADO**; separa vestigio, identificación, función, operación, acceso y consecuencia sin convertir infraestructura, título o transmisión en cobertura o resultado;
 - la séptima investigación histórica de Medicina: [MED-009 — ¿Qué archivos permiten reconstruir cuidado y conocimiento en África fuera del eje egipcio?](15_medicina/INVESTIGACION_MED_009_AFRICA_FUERA_EJE_EGIPCIO.md) — **AUDITADO**; separa archivo, procedencia, señal, inferencia, contraste y límite sin convertir silencios o analogías en hechos;
 - la octava investigación histórica de Medicina: [MED-010 — ¿Qué muestran cuerpos, trepanaciones, plantas y códices en Mesoamérica, Andes y otras Américas?](15_medicina/INVESTIGACION_MED_010_MESOAMERICA_ANDES_AMERICAS.md) — **AUDITADO**; separa archivo, procedencia, señal, práctica, consecuencia y límite sin convertir huellas en historias clínicas;
+- la novena investigación histórica de Medicina: [MED-011 — ¿Cómo operaron traducción, observación, hospitales, farmacia y regulación en los mundos islámicos?](15_medicina/INVESTIGACION_MED_011_MUNDOS_ISLAMICOS.md) — **AUDITADO**; separa testigo, versión, operación, institución, alcance y consecuencia sin convertir una edad de oro en bloque homogéneo;
 - la trigésima séptima investigación: [`¿Cómo distinguimos especies, locomoción, dieta y parentesco entre australopitecos y Paranthropus sin convertir su diversidad en una escalera hacia Homo?`](08_cenozoico/INVESTIGACION_037_AUSTRALOPITECOS_PARANTHROPUS.md);
 - la trigésima octava investigación: [`¿Cómo reconocemos a Homo temprano, habilis y erectus si fósiles, herramientas, cuerpos y moléculas responden preguntas distintas?`](08_cenozoico/INVESTIGACION_038_HOMO_TEMPRANO_HABILIS_ERECTUS.md);
 - la trigésima novena investigación: [`¿Cómo reconstruimos las poblaciones humanas del Pleistoceno medio sin convertir Homo heidelbergensis en un cajón de sastre ni cada fósil en un ancestro?`](08_cenozoico/INVESTIGACION_039_HOMO_PLEISTOCENO_MEDIO_HEIDELBERGENSIS.md);

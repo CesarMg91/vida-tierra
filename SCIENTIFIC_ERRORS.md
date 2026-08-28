@@ -4302,3 +4302,23 @@ Riesgo basal, alternativas y preferencias cambian el balance. **Corrección:** s
 | `ERR-MED-AMERICAS-CODEX-PRECONTACT-001` | un códice del siglo XVI es voz precontacto transparente | conquista, traducción, colegio y destinatario median el objeto | leer lengua, imagen y procedencia conjuntamente | ACTIVO |
 | `ERR-MED-AMERICAS-MAGIC-MEDICINE-001` | magia y medicina fueron dos sistemas universales opuestos | impone categorías y traducciones modernas | reconstruir vocabulario y causalidad situados | ACTIVO |
 | `ERR-MED-AMERICAS-CONTINUITY-FOSSIL-001` | una práctica actual explica directamente un resto antiguo | semejanza no prueba transmisión ni identidad inmóvil | exigir cadena histórica y autoridad comunitaria | ACTIVO |
+
+## MED-011 — mundos islámicos
+
+| ID | Error frecuente | Por qué falla | Corrección | Estado |
+|---|---|---|---|---|
+| `ERR-MED-ISLAMIC-HOMOGENEOUS-001` | hablar de “la medicina islámica” como sistema único | mezcla siglos, ciudades, poderes y grupos | declarar lugar, periodo, lengua, actor y archivo | ACTIVO |
+| `ERR-MED-ISLAMIC-ARABIC-MUSLIM-001` | asumir que todo autor en árabe era musulmán o árabe étnico | lengua científica y adscripción no son equivalentes | identificar persona y comunidad sólo con evidencia | ACTIVO |
+| `ERR-MED-ISLAMIC-TRANSLATION-COPY-001` | traducir fue copiar pasivamente a Grecia | cotejo, interpretación, revisión y vocabulario transformaron versiones | reconstruir operaciones y testigos | ACTIVO |
+| `ERR-MED-ISLAMIC-HOUSE-WISDOM-001` | atribuir toda traducción a una Casa de la Sabiduría central | reemplaza redes documentadas por una institución total | exigir patrono, taller y obra concretos | ACTIVO |
+| `ERR-MED-ISLAMIC-RAZI-COHORT-001` | leer los casos de al-Razi como cohorte consecutiva | compilación póstuma no conserva regla de inclusión ni denominador | tratarlos como casos seleccionados | ACTIVO |
+| `ERR-MED-ISLAMIC-CANON-TRIAL-001` | llamar al Canon “primer ensayo clínico” | regla textual no es protocolo ejecutado ni ensayo moderno | describir las siete condiciones y su límite | ACTIVO |
+| `ERR-MED-ISLAMIC-CANON-DECLINE-001` | presentar comentarios como copia durante decadencia | algunos verificaron y modificaron afirmaciones | auditar comentario por comentario | ACTIVO |
+| `ERR-MED-ISLAMIC-OPTICS-METHOD-001` | nombrar a Ibn al-Haytham inventor único del método científico | impone genealogía moderna y borra problemas específicos | describir experimento, inferencia y tradición | ACTIVO |
+| `ERR-MED-ISLAMIC-CATARACT-SUCCESS-001` | convertir la aguja hueca en cirugía exitosa demostrada | descripción no contiene denominador, complicaciones o visión final | separar propuesta, ejecución y resultado | ACTIVO |
+| `ERR-MED-ISLAMIC-WAQF-OPERATION-001` | usar el waqf como registro diario | documento jurídico prescribe un programa | contrastar cuentas, cargos, espacio y testimonios | ACTIVO |
+| `ERR-MED-ISLAMIC-GUNDESHAPUR-FIRST-001` | declarar Gundeshapur primer hospital docente | origen lineal carece de corroboración contemporánea suficiente | declarar definición y testigos | ACTIVO |
+| `ERR-MED-ISLAMIC-GENIZAH-DISPENSED-001` | asumir que toda prescripción fue preparada y tomada | orden, dispensación y administración son actos distintos | buscar documento u objeto de cada operación | ACTIVO |
+| `ERR-MED-ISLAMIC-HISBA-COMPLIANCE-001` | convertir hisba en cumplimiento uniforme | norma no registra inspección ni obediencia | separar jurisdicción, ejecución y sanción | ACTIVO |
+| `ERR-MED-ISLAMIC-LICENSE-UNIVERSAL-001` | convertir el examen de 931/932 en licencia universal | relato tardío de episodio local con excepciones | conservar cadena narrativa y alcance | ACTIVO |
+| `ERR-MED-ISLAMIC-CIRCULATION-EFFICACY-001` | usar difusión de un texto como prueba de verdad o beneficio | autoridad y circulación tienen causas múltiples | exigir resultado y comparación independientes | ACTIVO |
