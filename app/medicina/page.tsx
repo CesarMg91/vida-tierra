@@ -4,6 +4,7 @@ import Link from "next/link";
 import { ArrowDown, ArrowRight, BookOpen, HeartPulse, ShieldCheck, Stethoscope } from "lucide-react";
 import AfricanMedicineArchiveLab from "../../components/AfricanMedicineArchiveLab";
 import AmericasMedicineArchiveLab from "../../components/AmericasMedicineArchiveLab";
+import AnatomyPrintEvidenceLab from "../../components/AnatomyPrintEvidenceLab";
 import ClinicalEvidenceLab from "../../components/ClinicalEvidenceLab";
 import ColonialEncountersEvidenceLab from "../../components/ColonialEncountersEvidenceLab";
 import DiagnosticEvidenceLab from "../../components/DiagnosticEvidenceLab";
@@ -19,6 +20,7 @@ import RomanByzantineMedicineLab from "../../components/RomanByzantineMedicineLa
 import SouthAsianMedicineLab from "../../components/SouthAsianMedicineLab";
 import { africanMedicineArchives } from "../../lib/african-medicine-archives";
 import { americasMedicineArchives } from "../../lib/americas-medicine-archives";
+import { anatomyPrintEvidence } from "../../lib/anatomy-print-evidence";
 import { colonialEncountersEvidence } from "../../lib/colonial-encounters-evidence";
 import { diagnosticEvidence } from "../../lib/diagnostic-evidence";
 import { documentaryMedicineEvidence } from "../../lib/documentary-medicine-evidence";
@@ -39,7 +41,7 @@ export const metadata: Metadata = createPageMetadata({
   title: "Historia de la medicina — archivos, cuidado y evidencia",
   description: "Cómo reconstruimos la historia mundial de la medicina desde huesos, manuscritos, cánones, instituciones y resultados sin confundir archivo, práctica o eficacia.",
   pathname: "/medicina",
-  image: "/assets/visuales/hero-med-015-encuentros-coloniales.png",
+  image: "/assets/visuales/hero-med-016-anatomia-diseccion-imprenta.png",
 });
 
 const principles = [
@@ -56,8 +58,8 @@ export default function MedicinePage() {
     <div className="medicine-experience">
       <header className="medicine-hero medicine-history-hero">
         <Image
-          src="/assets/visuales/hero-med-015-encuentros-coloniales.png"
-          alt="Mesa editorial con registros coloniales, fragmentos arqueológicos, mineral de mercurio, alimentos, modelo de navío y archivo botánico conectados por hilos"
+          src="/assets/visuales/hero-med-016-anatomia-diseccion-imprenta.png"
+          alt="Mesa editorial con manuscritos, instrumental histórico, diagramas anatómicos, tipos de imprenta y marcas de corrección conectados por hilos"
           fill
           preload
           fetchPriority="high"
@@ -66,14 +68,14 @@ export default function MedicinePage() {
         <div className="medicine-hero-shade" />
         <div className="medicine-hero-copy">
           <p className="eyebrow">Historia mundial de la medicina</p>
-          <h1>Contacto no es causa suficiente</h1>
-          <p>Conquista, esclavitud, misión y extracción reorganizaron exposición, violencia, trabajo, nutrición, clasificación, respuestas y supervivencia. Cada capa exige un archivo y un límite antes de explicar catástrofe, cuidado o continuidad.</p>
+          <h1>Un cuerpo abierto no corrige un libro por sí solo</h1>
+          <p>Cuerpo, procedimiento, imagen, texto, comparación, corrección y circulación forman una cadena histórica. Cada capa exige procedencia y límite antes de llamar verdadera, nueva o clínica a una anatomía.</p>
           <div>
-            <Link className="button button-primary" href="#encuentros-coloniales">Auditar el encuentro <ArrowDown aria-hidden="true" /></Link>
-            <Link className="medicine-text-link" href="/15_medicina/INVESTIGACION_MED_015_ENCUENTROS_COLONIALES">Leer MED-015 <ArrowRight aria-hidden="true" /></Link>
+            <Link className="button button-primary" href="#anatomia-imprenta">Auditar la corrección <ArrowDown aria-hidden="true" /></Link>
+            <Link className="medicine-text-link" href="/15_medicina/INVESTIGACION_MED_016_ANATOMIA_DISECCION_IMPRENTA">Leer MED-016 <ArrowRight aria-hidden="true" /></Link>
           </div>
         </div>
-        <p className="medicine-visual-limit">Composición editorial no probatoria: utilería genérica; no reproduce persona, comunidad, documento, mina, misión, travesía, planta o acontecimiento reales.</p>
+        <p className="medicine-visual-limit">Composición editorial no probatoria: utilería genérica; no reproduce cuerpo, disección, manuscrito, lámina, taller o acontecimiento reales.</p>
       </header>
 
       <section className="medicine-boundary">
@@ -84,6 +86,14 @@ export default function MedicinePage() {
       <section className="medicine-principles" aria-labelledby="medicine-principles-title">
         <header><p className="eyebrow">Contrato de lectura</p><h2 id="medicine-principles-title">Cuatro cortafuegos</h2></header>
         <div>{principles.map(([title, text], index) => <article key={title}><span>{String(index + 1).padStart(2, "0")}</span><h3>{title}</h3><p>{text}</p></article>)}</div>
+      </section>
+
+      <section className="medicine-lab-section documentary-lab-section" id="anatomia-imprenta" aria-labelledby="anatomy-print-lab-title">
+        <div className="section-heading">
+          <div><p className="eyebrow">MED-016 · laboratorio de anatomía e imprenta</p><h2 id="anatomy-print-lab-title">Del cuerpo disponible a la circulación</h2></div>
+          <p>Elige un expediente. Siete capas separan acceso, procedimiento, representación, autoridad, contraste, revisión y recepción sin convertir disección, imagen o imprenta en verdad automática.</p>
+        </div>
+        <AnatomyPrintEvidenceLab data={anatomyPrintEvidence} />
       </section>
 
       <section className="medicine-lab-section documentary-lab-section" id="encuentros-coloniales" aria-labelledby="colonial-encounters-lab-title">

@@ -3402,3 +3402,20 @@ Emular un ensayo objetivo corrige errores de diseño, no confusión no medida. *
 | `CONT-MED-COL-CAL-LATE-ONSET-001` | ¿las epidemias precedieron ampliamente a las misiones en California central? | contactos marítimos produjeron ondas tempranas extensas | catástrofe aparece con asentamiento y congregación sostenidos | entierros pre-1770, agentes y cronología regional | INICIO TARDÍO APOYADO regionalmente |
 | `CONT-MED-COL-MISSION-CAUSES-001` | ¿qué significan las causas de muerte misioneras? | etiquetas aproximan diagnósticos clínicos | categorías administrativas varían por escribano y periodo | reglas de clasificación, series enlazadas y paleopatología | ABIERTA por categoría |
 | `CONT-MED-COL-CINCHONA-ATTRIBUTION-001` | ¿a quién puede atribuirse el conocimiento de la quina? | un descubridor o expedición inauguró su uso | saberes, recolectores y mediadores múltiples sostuvieron la cadena | nombres, testimonios locales, especímenes y transferencias | AUTOR ÚNICO RECHAZADO; atribución parcial |
+
+## MED-016 — Anatomía, disección e imprenta
+
+| ID | Pregunta | Hipótesis A | Hipótesis B / alternativas | Qué discrimina | Estado |
+|---|---|---|---|---|---|
+| `CONT-MED-ANAT-MANSUR-GENEALOGY-001` | ¿de dónde procede la serie de figuras de Manṣūr? | transmisión desde una familia gráfica común | rutas múltiples, recomposición o convergencia | testigos intermedios fechados y codicología | ABIERTA |
+| `CONT-MED-ANAT-MANSUR-DISSECTION-001` | ¿las figuras derivan de disección humana directa? | postura y detalle conservan observación corporal | convención y copia explican el programa | nota de procedimiento, boceto o testigo independiente | NO DEMOSTRADO |
+| `CONT-MED-ANAT-BOLOGNA-RUPTURE-001` | ¿la disección boloñesa rompió con autoridad textual? | el cuerpo sustituyó al libro | lectura, ostensión y corte se reordenaron gradualmente | actas y comentarios de sesiones comparables | RUPTURA INSTANTÁNEA RECHAZADA |
+| `CONT-MED-ANAT-BERENGARIO-PRIORITY-001` | ¿Berengario inaugura la anatomía observacional impresa? | sus libros son un comienzo único | prácticas y productos anteriores impiden prioridad universal | producto, territorio y testigo comparables | ABIERTA por definición |
+| `CONT-MED-ANAT-VESALIUS-WORKSHOP-001` | ¿quién produjo las imágenes de la *Fabrica*? | un maestro del taller de Tiziano | varios dibujantes, talladores y Vesalio | bocetos, contratos, bloques y pruebas | ABIERTA |
+| `CONT-MED-ANAT-VESALIUS-REVOLUTION-001` | ¿la *Fabrica* constituye una revolución completa? | reemplaza autoridad por observación | combina ruptura, continuidad y errores | correcciones por estructura y recepción contemporánea | ABIERTA por dimensión |
+| `CONT-MED-ANAT-VALVERDE-COPY-001` | ¿cómo valorar la reutilización de Valverde? | copia no autorizada dependiente | traducción, transformación y crítica con agencia | cotejo figura–texto–edición | ABIERTA sin juicio único |
+| `CONT-MED-ANAT-NS-FIRST-001` | ¿qué fue la “primera anatomía” novohispana o americana? | un evento fija prioridad | autopsia, libro, cátedra y docencia tienen relojes distintos | definición de producto, territorio y testigo | PRIORIDAD ÚNICA RECHAZADA |
+| `CONT-MED-ANAT-ITAKI-SOURCES-001` | ¿qué fuentes exactas compuso Itâkî? | dependencia lineal de un modelo europeo | genealogías persas y europeas más aportes propios | cotejo de cada figura y variante manuscrita | ABIERTA por figura |
+| `CONT-MED-ANAT-JAPAN-1771-001` | ¿qué peso tuvo la demostración de 1771? | conversión decisiva e instantánea | catalizador dentro de una prehistoria larga | fuentes anteriores, memorias y revisiones | CATALIZADOR APOYADO; origen único rechazado |
+| `CONT-MED-ANAT-WANG-OBSERVATION-001` | ¿qué cuerpos observó Wang y con qué regularidad? | serie empírica amplia | encuentros oportunistas con cuerpos incompletos | diarios, fechas, lugares y comparadores | ABIERTA |
+| `CONT-MED-ANAT-CLINICAL-IMPACT-001` | ¿cuándo mejoró resultados la corrección anatómica? | publicación anatómica produce beneficio directo | aplicación depende de fisiología, analgesia, antisepsia y sistema clínico | comparadores contemporáneos y desenlaces | NO DEMOSTRADO en este expediente |

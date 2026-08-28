@@ -310,4 +310,4 @@ La explicación aparece al enlazar exposición, violencia, trabajo, nutrición, 
 
 No contamos con una cifra única de población o mortalidad por mecanismo para La Española, una composición completa de agentes en 1545, dosis individuales de mercurio, censos filipinos exhaustivos, nombres de todas las personas sometidas a la travesía, diagnósticos modernos para causas misioneras ni atribución y compensación completas para quienes sostuvieron las redes botánicas. Tampoco puede construirse un contrafactual universal de colonización sin violencia.
 
-MED-015 cierra el primer gran arco conectado de la historia mundial de la medicina. MED-016 estudiará anatomía, disección e imprenta: cómo cuerpos, imágenes, autoridades textuales y observaciones se compararon sin convertir Europa en único escenario ni disección en corrección automática.
+MED-015 cierra el primer gran arco conectado de la historia mundial de la medicina. MED-016 auditó después anatomía, disección e imprenta: cómo cuerpos, imágenes, autoridades textuales y observaciones se compararon sin convertir Europa en único escenario ni disección en corrección automática.

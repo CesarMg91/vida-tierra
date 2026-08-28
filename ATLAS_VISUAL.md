@@ -1274,3 +1274,33 @@ La salida se inspeccionó completa a resolución original. No contiene personas,
 La composición no reproduce La Española, Teposcolula, Huancavelica, Potosí, Filipinas, Newton, Jamaica, Alta California, Guayases, una especie de *Cinchona* ni un archivo real. La proximidad entre estaciones no afirma coetaneidad, transmisión, monocausa, identidad, acceso, eficacia, crédito o justicia.
 
 Los SVG se construyeron a `1600 × 900`, incluyen `title`, `desc` y tipografía de reserva. La cadena mantiene siete capas con cortafuegos; la matriz compara siete expedientes sin puntuaciones. Ninguno acepta datos personales, diagnostica, calcula mortalidad, recomienda o representa sufrimiento real.
+
+## 71. MED-016 — Un cuerpo abierto no corrige un libro por sí solo
+
+![Portada editorial de MED-016](assets/visuales/hero-med-016-anatomia-diseccion-imprenta.png)
+
+![Cadena desde cuerpo disponible hasta circulación](assets/visuales/cadena-cuerpo-circulacion-med-016.svg)
+
+![Matriz de anatomía, imprenta y límites](assets/visuales/matriz-anatomia-imprenta-med-016.svg)
+
+| Archivo | Tipo | Procedencia | Qué representa | Límite obligatorio |
+|---|---|---|---|---|
+| `hero-med-016-anatomia-diseccion-imprenta.png` | portada editorial conceptual | OpenAI ImageGen, generación nueva, 2026-08-28 | registros, instrumentos, diagramas, tipos, manuscritos, correcciones e hilos genéricos | no cuerpo, disección, lámina, edición, tradición o acontecimiento reales |
+| `cadena-cuerpo-circulacion-med-016.svg` | diagrama epistemológico original | SVG manual del proyecto, 2026-08-28 | cuerpo, procedimiento, imagen, texto, comparación, corrección y circulación | las flechas no heredan representatividad, verdad, práctica, exactitud, adopción o efecto |
+| `matriz-anatomia-imprenta-med-016.svg` | matriz documental original | SVG manual del proyecto, 2026-08-28 | siete expedientes, archivos, productos y límites | las filas no forman modernidad, racionalidad, exactitud general o ranking cultural |
+
+### Procedencia de la portada
+
+Salida original aprobada sin edición: `C:\Users\HUAWEI\.codex\generated_images\019fedb0-8f24-7e33-8d16-d2418ba3378e\exec-69af3e69-aaa1-4064-b4d7-9b4a533c738c.png`. Destino: `assets/visuales/hero-med-016-anatomia-diseccion-imprenta.png`. Dimensiones: `1672 × 941`; tamaño: `2,143,433` bytes; SHA-256: `93dcfea578cb760c394f093d0f17eca9cfc378e988888a1e08e80b546acf85ae`.
+
+**Prompt de generación:**
+
+> Create one original 16:9 cinematic editorial museum still-life hero image for a Spanish public history-of-medicine platform. Topic: how anatomy changed through access to bodies, procedures, diagrams, texts, comparison, correction, translation, and print — without portraying dissection as automatic truth or Europe as the only center. Composition: a long matte obsidian archival table viewed slightly from above; reserve the LEFT 42% as deep, calm, low-detail title-safe negative space. Across the CENTER and RIGHT, arrange seven subtly connected evidence stations: a closed judicial or hospital register with an unreadable tag and a folded undyed linen cloth suggesting regulated access to a body but showing no person or remains; a restrained historical probe and scalpel laid beside a small wooden procedure tray; an original generic hand-drawn schematic anatomical diagram on parchment with no readable words and no copied historical plate; carved woodblocks, movable type pieces and a fresh but unreadable printed proof; two overlapping comparison sheets with tiny neutral geometric anatomical outlines and copper correction marks; a Persian-style bound manuscript, an Ottoman-style manuscript, a Japanese fukurotoji-bound volume and a Qing-style stitched book, all generic, closed or partly open, with no legible script and no reproduction of real pages; a magnifying lens above variant diagrams, with thin copper and mineral-green threads linking stations while several threads visibly break or diverge. Visual language: living museum plus evidence laboratory, warm chiaroscuro, parchment, copper, amber, mineral green, matte black, tactile paper, wood and metal, historically suggestive but not a reenactment. Communicate that observation becomes knowledge only through comparison, correction and circulation. No people, no corpse, no body parts, no bones, no skulls, no gore, no readable text, no religious symbols, no national flags or borders, no logos, no watermark, no modern medical equipment, no decorative DNA helix, no fantasy symbols. Keep every important object away from edges, preserve generous dark negative space on the left, coherent single light source, high-end editorial photography, restrained detail, 16:9.
+
+### Revisión y límites
+
+La salida se inspeccionó completa a resolución original. No contiene personas, cadáveres, partes corporales, huesos, cráneos, sangre, banderas, fronteras, símbolos religiosos, logos, equipo moderno o texto transcribible. Registro, tela, instrumentos, bandeja, diagramas, bloques, tipos, pruebas, libros, lente e hilos son utilería editorial genérica.
+
+La composición no reproduce el manuscrito de Manṣūr, una demostración boloñesa, la *Fabrica*, Valverde, una autopsia novohispana, el manuscrito de Itâkî, *Kaitai shinsho*, *Yilin gaicuo* ni un taller real. La proximidad entre objetos no afirma coetaneidad, ruta, copia, observación directa, corrección, adopción o beneficio.
+
+Los SVG se construyeron a `1600 × 900`, incluyen `title`, `desc` y tipografía de reserva. La cadena mantiene siete capas con cortafuegos y la matriz compara siete expedientes sin puntuaciones. Ninguno acepta datos personales, representa una disección, diagnostica, recomienda o calcula resultados clínicos.

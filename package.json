@@ -1,6 +1,6 @@
 {
   "name": "vida-tierra",
-  "version": "0.3.14",
+  "version": "0.3.15",
   "type": "module",
   "private": true,
   "description": "Sitio de lectura para la investigacion epistemologica '¿Como sabemos lo que sabemos?'",
@@ -16,7 +16,7 @@
     "validate:data": "node scripts/validate-public-data.mjs",
     "normalize:frontmatter": "node scripts/normalize-research-frontmatter.mjs",
     "typecheck": "tsc --noEmit",
-    "test": "node --experimental-strip-types --test tests/*.test.mts"
+    "test": "node --experimental-strip-types --test --test-concurrency=1 tests/*.test.mts"
   },
   "dependencies": {
     "@fontsource/ibm-plex-mono": "^5.3.0",

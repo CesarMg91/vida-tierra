@@ -1001,3 +1001,15 @@ La portada separa libro de mortalidad, muestra arqueológica, proxy de paisaje, 
 Salida original aprobada sin edición: `C:\Users\HUAWEI\.codex\generated_images\019fedb0-8f24-7e33-8d16-d2418ba3378e\exec-017986ca-1f3e-4db0-8f30-cafbd4699072.png` → `assets/visuales/hero-med-015-encuentros-coloniales.png`; tamaño `1,976,358` bytes. El prompt completo y los límites están en `ATLAS_VISUAL.md`, sección 70.
 
 La portada separa registro, muestra, mineral, alimento, navío, herbario y conexiones desiguales; no contiene personas, violencia gráfica, texto legible o réplicas identificables. Los SVG incluyen `title` y `desc`, preservan exposición, violencia, trabajo, nutrición, clasificación, respuesta y supervivencia y no convierten contacto, categoría, cuidado o continuidad en causa, identidad, benevolencia o ausencia de daño.
+
+## MED-016 — Anatomía, disección e imprenta
+
+| Archivo | Origen | Dimensiones | SHA-256 / trazabilidad | Límite |
+|---|---|---:|---|---|
+| `hero-med-016-anatomia-diseccion-imprenta.png` | OpenAI ImageGen, generación nueva del 2026-08-28 | `1672 × 941` | `93dcfea578cb760c394f093d0f17eca9cfc378e988888a1e08e80b546acf85ae` | composición conceptual; no cuerpo, disección, manuscrito, edición o acontecimiento reales |
+| `cadena-cuerpo-circulacion-med-016.svg` | SVG manual determinista | `1600 × 900` | código fuente versionado | siete capas inferenciales; no herencia automática |
+| `matriz-anatomia-imprenta-med-016.svg` | SVG manual determinista | `1600 × 900` | código fuente versionado | siete archivos y límites; no modernidad, exactitud o ranking |
+
+Salida original aprobada sin edición: `C:\Users\HUAWEI\.codex\generated_images\019fedb0-8f24-7e33-8d16-d2418ba3378e\exec-69af3e69-aaa1-4064-b4d7-9b4a533c738c.png` → `assets/visuales/hero-med-016-anatomia-diseccion-imprenta.png`; tamaño `2,143,433` bytes. El prompt completo y los límites están en `ATLAS_VISUAL.md`, sección 71.
+
+La portada separa acceso regulado, procedimiento, diagrama, impresión, comparación, corrección y tradiciones manuscritas sin mostrar cuerpos ni reproducir páginas reales. Los SVG incluyen `title` y `desc`, preservan las siete capas y no convierten apertura, naturalismo, impresión o circulación en verdad, adopción o resultado clínico.
