@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Cadena epistemológica desde testigo hasta alcance</title>
+  <desc id="desc">Seis capas separan el objeto conservado de sus versiones, el currículo, el practicante, el encuentro de cuidado y el alcance observado. Flechas y cortafuegos muestran que una capa no hereda automáticamente la siguiente.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#101312"/><stop offset="1" stop-color="#1c201d"/></linearGradient>
+    <linearGradient id="copper" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#b8733f"/><stop offset="1" stop-color="#e0a15b"/></linearGradient>
+    <filter id="shadow"><feDropShadow dx="0" dy="10" stdDeviation="12" flood-opacity=".3"/></filter>
+    <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#d28a4c"/></marker>
+  </defs>
+  <rect width="1600" height="900" rx="28" fill="url(#bg)"/>
+  <text x="100" y="112" fill="#f5ead9" font-family="Georgia,serif" font-size="47" font-weight="700">Un currículo no hereda una consulta</text>
+  <text x="100" y="162" fill="#b9c8bd" font-family="Arial,sans-serif" font-size="24">MED-012 · seis productos que deben conservarse separados</text>
+  <path d="M190 392 H1410" stroke="url(#copper)" stroke-width="6" marker-end="url(#arrow)" opacity=".82"/>
+  <g font-family="Arial,sans-serif" filter="url(#shadow)">
+    <g transform="translate(72 254)">
+      <rect width="220" height="278" rx="24" fill="#1c2420" stroke="#b8733f" stroke-width="2"/>
+      <text x="28" y="50" fill="#e0a15b" font-size="18" font-weight="700">01</text>
+      <text x="28" y="91" fill="#f5ead9" font-size="27" font-weight="700">TESTIGO</text>
+      <text x="28" y="139" fill="#c8d1cb" font-size="19"><tspan x="28">códice · estatuto</tspan><tspan x="28" dy="29">contrato · regla</tspan></text>
+      <line x1="28" y1="205" x2="192" y2="205" stroke="#52685d"/>
+      <text x="28" y="239" fill="#8fb29c" font-size="17">existe este objeto</text>
+    </g>
+    <g transform="translate(320 254)">
+      <rect width="220" height="278" rx="24" fill="#20241f" stroke="#c07a43" stroke-width="2"/>
+      <text x="28" y="50" fill="#e0a15b" font-size="18" font-weight="700">02</text>
+      <text x="28" y="91" fill="#f5ead9" font-size="27" font-weight="700">VERSIÓN</text>
+      <text x="28" y="139" fill="#c8d1cb" font-size="19"><tspan x="28">selección · glosa</tspan><tspan x="28" dy="29">traducción · revisión</tspan></text>
+      <line x1="28" y1="205" x2="192" y2="205" stroke="#52685d"/>
+      <text x="28" y="239" fill="#8fb29c" font-size="17">esta lectura circuló</text>
+    </g>
+    <g transform="translate(568 254)">
+      <rect width="220" height="278" rx="24" fill="#24231d" stroke="#c78246" stroke-width="2"/>
+      <text x="28" y="50" fill="#e0a15b" font-size="18" font-weight="700">03</text>
+      <text x="28" y="91" fill="#f5ead9" font-size="27" font-weight="700">CURRÍCULO</text>
+      <text x="28" y="139" fill="#c8d1cb" font-size="19"><tspan x="28">lista · comentario</tspan><tspan x="28" dy="29">examen · licencia</tspan></text>
+      <line x1="28" y1="205" x2="192" y2="205" stroke="#52685d"/>
+      <text x="28" y="239" fill="#8fb29c" font-size="17">esta autoridad rigió</text>
+    </g>
+    <g transform="translate(816 254)">
+      <rect width="220" height="278" rx="24" fill="#22251f" stroke="#c98949" stroke-width="2"/>
+      <text x="28" y="50" fill="#e0a15b" font-size="18" font-weight="700">04</text>
+      <text x="28" y="91" fill="#f5ead9" font-size="25" font-weight="700">PRACTICANTE</text>
+      <text x="28" y="139" fill="#c8d1cb" font-size="19"><tspan x="28">nombre · título</tspan><tspan x="28" dy="29">aprendizaje · vínculo</tspan></text>
+      <line x1="28" y1="205" x2="192" y2="205" stroke="#52685d"/>
+      <text x="28" y="239" fill="#8fb29c" font-size="17">este agente aparece</text>
+    </g>
+    <g transform="translate(1064 254)">
+      <rect width="220" height="278" rx="24" fill="#1f2521" stroke="#ce914f" stroke-width="2"/>
+      <text x="28" y="50" fill="#e0a15b" font-size="18" font-weight="700">05</text>
+      <text x="28" y="91" fill="#f5ead9" font-size="27" font-weight="700">ENCUENTRO</text>
+      <text x="28" y="139" fill="#c8d1cb" font-size="19"><tspan x="28">consulta · receta</tspan><tspan x="28" dy="29">pago · operación</tspan></text>
+      <line x1="28" y1="205" x2="192" y2="205" stroke="#52685d"/>
+      <text x="28" y="239" fill="#8fb29c" font-size="17">este acto ocurrió</text>
+    </g>
+    <g transform="translate(1312 254)">
+      <rect width="220" height="278" rx="24" fill="#1b2521" stroke="#daa157" stroke-width="2"/>
+      <text x="28" y="50" fill="#e0a15b" font-size="18" font-weight="700">06</text>
+      <text x="28" y="91" fill="#f5ead9" font-size="27" font-weight="700">ALCANCE</text>
+      <text x="28" y="139" fill="#c8d1cb" font-size="19"><tspan x="28">acceso · daño</tspan><tspan x="28" dy="29">seguimiento · efecto</tspan></text>
+      <line x1="28" y1="205" x2="192" y2="205" stroke="#52685d"/>
+      <text x="28" y="239" fill="#8fb29c" font-size="17">se observó este límite</text>
+    </g>
+  </g>
+  <g font-family="Arial,sans-serif">
+    <rect x="100" y="628" width="1400" height="150" rx="22" fill="#151916" stroke="#52685d"/>
+    <text x="138" y="678" fill="#e0a15b" font-size="19" font-weight="700">CORTAFUEGOS</text>
+    <text x="138" y="720" fill="#f5ead9" font-size="22"><tspan>manuscrito ≠ uso · traducción ≠ comprensión · currículo ≠ consulta · licencia ≠ competencia</tspan></text>
+    <text x="138" y="756" fill="#b9c8bd" font-size="21"><tspan>hospital ≠ clínica moderna · identidad ≠ método · presencia ≠ beneficio</tspan></text>
+  </g>
+  <text x="100" y="842" fill="#87968d" font-family="Arial,sans-serif" font-size="18">Diagrama editorial · no representa un itinerario universal ni una secuencia de progreso.</text>
+</svg>

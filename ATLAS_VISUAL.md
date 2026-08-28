@@ -1154,3 +1154,33 @@ La salida se inspeccionó completa. No contiene personas, rostros, cuerpos, sang
 Las estaciones no reproducen el taller de Hunayn, un manuscrito de Galeno, el archivo de al-Razi, el `Canon`, el aparato de Ibn al-Haytham, la aguja de Ammar, el bimaristan de Qalawun o documentos de la Geniza. Hilos y proximidad no afirman flujo lineal, coetaneidad, uso, cobertura o eficacia.
 
 Los SVG se construyeron y rasterizaron a `1600 × 900`, incluyen `title`, `desc` y tipografía de reserva. La revisión confirmó márgenes, seis capas y seis filas completas. La cadena usa flechas discontinuas como puentes auditables; la matriz no contiene puntuaciones. Ninguno acepta datos, diagnostica, recomienda o representa resultados clínicos.
+
+## 67. MED-012 — Un currículo no hereda una consulta
+
+![Portada editorial de MED-012](assets/visuales/hero-med-012-europa-medieval-tradiciones-judias.png)
+
+![Cadena desde testigo hasta alcance](assets/visuales/cadena-testigo-alcance-med-012.svg)
+
+![Matriz de espacios médicos medievales](assets/visuales/matriz-espacios-medicina-med-012.svg)
+
+| Archivo | Tipo | Procedencia | Qué representa | Límite obligatorio |
+|---|---|---|---|---|
+| `hero-med-012-europa-medieval-tradiciones-judias.png` | portada editorial conceptual | OpenAI ImageGen, generación nueva, 2026-08-27 | códice, cuidado doméstico, tres fascículos, traducción, enseñanza, instrumental y hospital | no manuscrito, contrato, institución, comunidad o práctica reales |
+| `cadena-testigo-alcance-med-012.svg` | diagrama epistemológico original | SVG manual del proyecto, 2026-08-27 | testigo, versión, currículo, practicante, encuentro y alcance | las flechas no heredan consulta, competencia o efecto |
+| `matriz-espacios-medicina-med-012.svg` | matriz documental original | SVG manual del proyecto, 2026-08-27 | seis archivos, productos y límites | las filas no forman progreso, confesión médica o ranking |
+
+### Procedencia de la portada
+
+Salida original aprobada sin edición: `C:\Users\HUAWEI\.codex\generated_images\019fedb0-8f24-7e33-8d16-d2418ba3378e\exec-58757693-70e2-4927-bb29-bd9356658c33.png`. Destino: `assets/visuales/hero-med-012-europa-medieval-tradiciones-judias.png`. Dimensiones: `1672 × 941`; tamaño: `2,046,782` bytes; SHA-256: `387add8c4a32c0e65dbb967c1c585f94d118882036f05120417bf889c82e04b9`.
+
+**Prompt de generación:**
+
+> Create a cinematic editorial museum still-life for a Spanish public history-of-medicine research platform, 16:9 landscape, 1672×941. Theme: medieval Europe and Jewish medical traditions as overlapping networks, never a single civilization or linear progress. A dark obsidian museum table with warm copper and amber light, mineral green accents. Six visually distinct but connected evidence stations arranged without hierarchy: (1) a generic bound parchment codex with abstract unreadable marks and a small later marginal addition, (2) domestic care objects such as a plain ceramic bowl, linen and herbs, (3) three separate manuscript fascicles suggesting the Trotula textual ensemble, (4) a translation desk with loose generic folios in abstract non-legible Latin-like, Hebrew-like and Arabic-like marks, clearly decorative and not real text, (5) a university commentary station with wax tablet, blank charter seal and geometric reading diagram, (6) a modest surgical instrument roll beside a small architectural model of a charitable hospital. Fine copper threads connect objects but branch and loop, not a straight timeline. No people, no faces, no skeletons, no crosses or religious symbols as decoration, no readable words, no modern medical technology, no fantasy magic, no stock-photo aesthetic. Historically inspired materials but explicitly generic editorial reconstruction, photorealistic museum photography, tactile parchment, wood, brass, linen, dramatic but restrained, generous negative space for web hero text on the left, important objects weighted to the right, no border, no watermark, no title.
+
+### Revisión y límites
+
+La salida se inspeccionó completa. No contiene personas, rostros, cuerpos, sangre, cirugía activa, mapas, banderas, logos o texto transcribible. Las marcas manuscritas son textura abstracta; códices, contrato, sello, instrumentos y maqueta son utilería editorial genérica.
+
+Las seis estaciones no reproducen Royal MS 12 D XVII, el Trotula, el Pantegni, una Articella, un estatuto universitario, el tratado de Guy de Chauliac, St John de Cambridge o un contrato de un practicante judío. Los hilos no afirman transmisión lineal, coetaneidad, uso, tolerancia o eficacia.
+
+Los SVG se construyeron a `1600 × 900`, incluyen `title`, `desc` y tipografía de reserva. La cadena mantiene seis capas y cortafuegos; la matriz compara seis archivos sin puntuaciones. Ninguno acepta datos, diagnostica, recomienda o representa resultados clínicos.

@@ -3339,3 +3339,19 @@ Emular un ensayo objetivo corrige errores de diseño, no confusión no medida. *
 | `CONT-MED-ISLAMIC-GENIZAH-PRACTICE-001` | ¿qué recetas de la Geniza fueron dispensadas? | prescripción escrita refleja entrega probable | orden, borrador o nota pudo no ejecutarse | mano, destinatario, recibo, residuo y documentos vinculados | ABIERTA por fragmento |
 | `CONT-MED-ISLAMIC-HISBA-LICENSE-001` | ¿existió licencia médica general? | examen de Bagdad y hisba formaron un sistema | fueron normas y episodios locales variables | registros administrativos seriados entre ciudades y años | ABIERTA; universalidad no demostrada |
 | `CONT-MED-ISLAMIC-GOLDEN-AGE-001` | ¿“edad de oro” describe una trayectoria histórica? | resume concentración de producción letrada | homogeneiza regiones, grupos y cronologías | indicadores definidos por producto y series regionales | ABIERTA como periodización; inválida como ranking |
+
+## MED-012 — Europa medieval y tradiciones judías
+
+| ID | Pregunta | Hipótesis A | Hipótesis B | Qué discrimina | Estado |
+|---|---|---|---|---|---|
+| `CONT-MED-MEDIEVAL-MONASTIC-USE-001` | ¿un códice monástico fue usado en la enfermería? | procedencia refleja uso local | biblioteca, intercambio o consulta externa explican conservación | marcas de uso, cuentas, ubicación e inventario | ABIERTA por testigo |
+| `CONT-MED-MEDIEVAL-RECIPE-EFFECT-001` | ¿una receta practicable produjo beneficio? | disponibilidad y secuencia apoyan ejecución eficaz | pudo no prepararse, administrarse o beneficiar | residuo, caso, daño, comparador y seguimiento | ABIERTA por receta |
+| `CONT-MED-MEDIEVAL-TROTULA-AUTHOR-001` | ¿quién compuso cada parte del Trotula? | Trota explica el conjunto | tres autores y redacciones distintas | testigos tempranos, paralelos y filiación | CERRADA contra autora única; detalles abiertos |
+| `CONT-MED-MEDIEVAL-WOMEN-FREQUENCY-001` | ¿qué proporción del cuidado realizaron mujeres? | archivo visible aproxima participación | instituciones y tribunales subregistran trabajo doméstico | series comparables de pagos, contratos y hogares | ABIERTA |
+| `CONT-MED-MEDIEVAL-SALERNO-INSTITUTION-001` | ¿Salerno fue una escuela fundada en fecha única? | una institución estable nació temprano | redes de maestros y textos se institucionalizaron gradualmente | estatutos contemporáneos, cargos y continuidad | ABIERTA; fecha única no demostrada |
+| `CONT-MED-MEDIEVAL-PANTEGNI-FIDELITY-001` | ¿qué relación guarda cada versión del Pantegni con su fuente árabe? | traducción relativamente estable | selección, pérdida, completado y revisión cambiaron libros | colación integral de testigos árabes y latinos | ABIERTA por libro |
+| `CONT-MED-MEDIEVAL-CURRICULUM-PRACTICE-001` | ¿cuánto del currículo llegó a la consulta? | enseñanza estructuró decisiones | autoridad escolar y práctica divergieron | cuadernos, consilia, contratos y casos vinculados | ABIERTA |
+| `CONT-MED-MEDIEVAL-LICENSE-REACH-001` | ¿qué alcance tuvo la licencia? | examen ordenó ampliamente la práctica | ejecución y excepciones fueron locales | series de licencias, sanciones, renovación y no registrados | ABIERTA por jurisdicción |
+| `CONT-MED-MEDIEVAL-SURGERY-OUTCOME-001` | ¿qué resultados tuvieron catarata y hernia? | experiencia autoral refleja éxito selectivo | selección, abstención y pérdidas sesgan el relato | casos elegibles, tratados, daño y seguimiento | ABIERTA |
+| `CONT-MED-MEDIEVAL-HOSPITAL-MEDICINE-001` | ¿cuánto cuidado médico ofrecía cada hospital? | reglas y nombre implican atención clínica | hospitalidad, sustento y oración dominaron | personal, cuentas, admisiones y tratamientos | ABIERTA por casa |
+| `CONT-MED-MEDIEVAL-JEWISH-MEDICINE-001` | ¿“medicina judía” identifica una tradición distinta? | repertorio comunitario propio la define | lengua, lugar y redes compartidas impiden esencia única | texto, practicante, comunidad y norma especificados | ABIERTA como categoría; esencia rechazada |

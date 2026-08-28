@@ -13,7 +13,7 @@ import { renderMarkdownForTest } from "../lib/content.ts";
 
 test("el catálogo conserva 52 órdenes globales y las series temáticas fuera de la secuencia", () => {
   const { catalog } = buildPublicData();
-  assert.equal(catalog.length, 66);
+  assert.equal(catalog.length, 67);
   assert.deepEqual(
     catalog.filter((record) => record.order !== null).map((record) => record.order),
     Array.from({ length: 52 }, (_, index) => index + 1),
@@ -23,7 +23,7 @@ test("el catálogo conserva 52 órdenes globales y las series temáticas fuera d
   assert.equal(thematic?.status, "TRAZADO");
   assert.deepEqual(
     catalog.filter((record) => record.order === null).map((record) => [record.key, record.status]),
-    [["CIV-001", "TRAZADO"], ["CIV-002", "AUDITADO"], ["CIV-003", "AUDITADO"], ["MED-001", "AUDITADO"], ["MED-002", "AUDITADO"], ["MED-003", "AUDITADO"], ["MED-004", "AUDITADO"], ["MED-005", "AUDITADO"], ["MED-006", "AUDITADO"], ["MED-007", "AUDITADO"], ["MED-008", "AUDITADO"], ["MED-009", "AUDITADO"], ["MED-010", "AUDITADO"], ["MED-011", "AUDITADO"]],
+    [["CIV-001", "TRAZADO"], ["CIV-002", "AUDITADO"], ["CIV-003", "AUDITADO"], ["MED-001", "AUDITADO"], ["MED-002", "AUDITADO"], ["MED-003", "AUDITADO"], ["MED-004", "AUDITADO"], ["MED-005", "AUDITADO"], ["MED-006", "AUDITADO"], ["MED-007", "AUDITADO"], ["MED-008", "AUDITADO"], ["MED-009", "AUDITADO"], ["MED-010", "AUDITADO"], ["MED-011", "AUDITADO"], ["MED-012", "AUDITADO"]],
   );
 });
 
@@ -65,12 +65,12 @@ test("los comodines editoriales no se convierten en IDs inexistentes", () => {
 
 test("todos los registros maestros quedan materializados", () => {
   const rows = registryRows();
-  assert.equal(rows.claims.length, 1146);
-  assert.equal(rows.evidence.length, 966);
-  assert.equal(rows.sources.length, 1399);
-  assert.equal(rows.controversies.length, 522);
-  assert.equal(rows.errors.length, 621);
-  assert.equal(rows.timeline.length, 564);
+  assert.equal(rows.claims.length, 1169);
+  assert.equal(rows.evidence.length, 988);
+  assert.equal(rows.sources.length, 1423);
+  assert.equal(rows.controversies.length, 533);
+  assert.equal(rows.errors.length, 636);
+  assert.equal(rows.timeline.length, 582);
 });
 
 test("cada claim llega a evidencia y fuentes publicables", () => {

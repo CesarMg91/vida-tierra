@@ -730,3 +730,26 @@ CIV-003 inaugura los expedientes regionales auditados. CIV-001 conserva `TRAZADO
 | `TIME-MED-ISLAMIC-SHADHILI-001` | s. XIV | un oculista egipcio cuestiona extracción de catarata | desacuerdo textual, no frecuencia | `SRC-MED-ISLAMIC-SAVAGE-SMITH-2022` | A textual/B alcance | AUDITADO |
 | `TIME-MED-ISLAMIC-CASE-HISTORIOGRAPHY-001` | 2000–2010 | Álvarez-Millán reevalúa casos como fuentes de práctica | cambio historiográfico | `SRC-MED-ISLAMIC-ALVAREZ-MILLAN-2000`, `SRC-MED-ISLAMIC-ALVAREZ-MILLAN-2010` | A publicación | AUDITADO |
 | `TIME-MED-ISLAMIC-HOSPITAL-HISTORIOGRAPHY-001` | 1987–2015 | Dols y Ragab revisan origen y operación de hospitales | cambio historiográfico | `SRC-MED-ISLAMIC-DOLS-1987`, `SRC-MED-ISLAMIC-RAGAB-2015` | A publicación | AUDITADO |
+
+## MED-012 — Europa medieval y tradiciones judías
+
+| ID | Fecha | Evento | Alcance / reloj | Fuente | Confianza | Estado |
+|---|---|---|---|---|---|---|
+| `TIME-MED-MEDIEVAL-CAROLINGIAN-RECIPES-001` | ca. 775–900 | se copian colecciones médicas carolingias | fecha testigos y estratos, no ejecución | `SRC-MED-MEDIEVAL-BURRIDGE-2024` | A/B histórico | AUDITADO |
+| `TIME-MED-MEDIEVAL-BALD-001` | finales s. IX–mediados s. X | se copia Royal MS 12 D XVII | fecha el códice, no cada composición | `SRC-MED-MEDIEVAL-BL-BALD` | A objeto/B rango | AUDITADO |
+| `TIME-MED-MEDIEVAL-CONSTANTINE-001` | ca. 1070–1098/1099 | Constantino trabaja entre Salerno y Monte Cassino | actividad y versiones, no un Pantegni fijo | `SRC-MED-MEDIEVAL-KALTIO-2023` | A/B histórico | AUDITADO |
+| `TIME-MED-MEDIEVAL-TROTULA-001` | finales s. XI–s. XII | se forman y combinan textos del Trotula | estratos y ensamblaje | `SRC-MED-MEDIEVAL-GREEN-1996` | A/B filológico | AUDITADO |
+| `TIME-MED-MEDIEVAL-ARTICELLA-001` | ca. 1100–1250 | la Articella cambia y circula | colección docente variable | `SRC-MED-MEDIEVAL-NLM-MANUSCRIPTS`, `SRC-MED-MEDIEVAL-OBOYLE-1998` | A/B histórico | AUDITADO |
+| `TIME-MED-MEDIEVAL-TOLEDO-001` | segunda mitad s. XII | Gerard y otros traducen en Toledo | programas y versiones concretas | `SRC-MED-MEDIEVAL-BURNETT-2001` | A/B histórico | AUDITADO |
+| `TIME-MED-MEDIEVAL-HEBREW-001` | desde finales s. XII | aumentan traducciones médicas al hebreo | transferencia y adaptación | `SRC-MED-MEDIEVAL-CABALLERO-2012`, `SRC-MED-MEDIEVAL-ZIEGLER-1997` | A/B histórico | AUDITADO |
+| `TIME-MED-MEDIEVAL-ST-JOHN-001` | ca. 1195–1200 | se funda St John de Cambridge | fundación y caridad, no clínica moderna | `SRC-MED-MEDIEVAL-RUBIN-1987` | A/B histórico | AUDITADO |
+| `TIME-MED-MEDIEVAL-UNIVERSITIES-001` | s. XIII | se consolidan facultades médicas en varias ciudades | corporaciones y currículos locales | `SRC-MED-MEDIEVAL-OBOYLE-1998`, `SRC-MED-MEDIEVAL-GARCIA-BALLESTER-1995` | A/B histórico | AUDITADO |
+| `TIME-MED-MEDIEVAL-TADDEO-001` | ca. 1260–1295 | Taddeo Alderotti enseña en Bolonia | actividad docente y comentarios | `SRC-MED-MEDIEVAL-SIRAISI-1981` | A/B histórico | AUDITADO |
+| `TIME-MED-MEDIEVAL-ARAGON-001` | 1285–1345 | archivos aragoneses documentan practicantes y pacientes | encuentros y mercado, no censo total | `SRC-MED-MEDIEVAL-MCVAUGH-1993` | A documental/B alcance | AUDITADO |
+| `TIME-MED-MEDIEVAL-VALENCIA-001` | s. XIV | Valencia registra exámenes y licencias | autorización local | `SRC-MED-MEDIEVAL-GARCIA-MCVAUGH-RUBIO-1989` | A documental/B cumplimiento | AUDITADO |
+| `TIME-MED-MEDIEVAL-GUY-001` | ca. 1300–1368 | vida y actividad de Guy de Chauliac | marco biográfico, no cada operación | `SRC-MED-MEDIEVAL-MCVAUGH-2001` | A/B histórico | AUDITADO |
+| `TIME-MED-MEDIEVAL-CHIRURGIA-001` | 1363 | Guy completa su tratado de cirugía | composición textual | `SRC-MED-MEDIEVAL-MCVAUGH-2001` | A textual | AUDITADO |
+| `TIME-MED-MEDIEVAL-HISTORIOGRAPHY-001` | 1988–1989 | Horden y Green replantean hospital y práctica femenina | cambio historiográfico | `SRC-MED-MEDIEVAL-HORDEN-1988`, `SRC-MED-MEDIEVAL-GREEN-1989` | A publicación | AUDITADO |
+| `TIME-MED-MEDIEVAL-SOCIAL-HISTORY-001` | 1993–1995 | McVaugh, Shatzmiller y García-Ballester estudian práctica y regulación | giro archivístico y social | `SRC-MED-MEDIEVAL-MCVAUGH-1993`, `SRC-MED-MEDIEVAL-SHATZMILLER-1995`, `SRC-MED-MEDIEVAL-GARCIA-BALLESTER-1995` | A publicación | AUDITADO |
+| `TIME-MED-MEDIEVAL-TROTULA-HISTORIOGRAPHY-001` | 1996 | Green reconstruye el desarrollo plural del Trotula | cambio filológico | `SRC-MED-MEDIEVAL-GREEN-1996` | A publicación | AUDITADO |
+| `TIME-MED-MEDIEVAL-RECIPES-HISTORIOGRAPHY-001` | 2024 | Burridge y Batten reevalúan recetas, práctica y cuerpo | cambio metodológico | `SRC-MED-MEDIEVAL-BURRIDGE-2024`, `SRC-MED-MEDIEVAL-BATTEN-2024` | A publicación | AUDITADO |

@@ -11,6 +11,7 @@ import EastAsianMedicineLab from "../../components/EastAsianMedicineLab";
 import GreekHellenisticMedicineLab from "../../components/GreekHellenisticMedicineLab";
 import HistoricalMedicineLab from "../../components/HistoricalMedicineLab";
 import IslamicWorldsMedicineNetworkLab from "../../components/IslamicWorldsMedicineNetworkLab";
+import MedievalEuropeJewishMedicineNetworkLab from "../../components/MedievalEuropeJewishMedicineNetworkLab";
 import RomanByzantineMedicineLab from "../../components/RomanByzantineMedicineLab";
 import SouthAsianMedicineLab from "../../components/SouthAsianMedicineLab";
 import { africanMedicineArchives } from "../../lib/african-medicine-archives";
@@ -21,6 +22,7 @@ import { eastAsianMedicineEvidence } from "../../lib/east-asian-medicine-evidenc
 import { greekHellenisticMedicineEvidence } from "../../lib/greek-hellenistic-medicine-evidence";
 import { historicalMedicineEvidence } from "../../lib/historical-medicine-evidence";
 import { islamicWorldsMedicineNetworks } from "../../lib/islamic-worlds-medicine-networks";
+import { medievalEuropeJewishMedicineNetworks } from "../../lib/medieval-europe-jewish-medicine-networks";
 import { medicineEvidence } from "../../lib/medicine-evidence";
 import { romanByzantineMedicineEvidence } from "../../lib/roman-byzantine-medicine-evidence";
 import { southAsianMedicineEvidence } from "../../lib/south-asian-medicine-evidence";
@@ -31,7 +33,7 @@ export const metadata: Metadata = createPageMetadata({
   title: "Historia de la medicina — archivos, cuidado y evidencia",
   description: "Cómo reconstruimos la historia mundial de la medicina desde huesos, manuscritos, cánones, instituciones y resultados sin confundir archivo, práctica o eficacia.",
   pathname: "/medicina",
-  image: "/assets/visuales/hero-med-011-mundos-islamicos.png",
+  image: "/assets/visuales/hero-med-012-europa-medieval-tradiciones-judias.png",
 });
 
 const principles = [
@@ -48,8 +50,8 @@ export default function MedicinePage() {
     <div className="medicine-experience">
       <header className="medicine-hero medicine-history-hero">
         <Image
-          src="/assets/visuales/hero-med-011-mundos-islamicos.png"
-          alt="Mesa editorial con manuscritos genéricos, cuaderno, aparato óptico, instrumental, modelo institucional y botica unidos por hilos no lineales"
+          src="/assets/visuales/hero-med-012-europa-medieval-tradiciones-judias.png"
+          alt="Mesa editorial con códice, objetos domésticos, fascículos, traducciones, instrumentos y maqueta hospitalaria genéricos unidos por hilos no lineales"
           fill
           preload
           fetchPriority="high"
@@ -58,14 +60,14 @@ export default function MedicinePage() {
         <div className="medicine-hero-shade" />
         <div className="medicine-hero-copy">
           <p className="eyebrow">Historia mundial de la medicina</p>
-          <h1>Una traducción no hereda una práctica</h1>
-          <p>Manuscritos, casos, óptica, hospitales, recetas y normas conservan productos distintos. Testigo, versión, operación, institución, alcance y consecuencia impiden fabricar una edad de oro homogénea.</p>
+          <h1>Un currículo no hereda una consulta</h1>
+          <p>Códices, traducciones, currículos, licencias, contratos y reglas conservan productos distintos. Testigo, versión, currículo, practicante, encuentro y alcance impiden convertir autoridad en atención.</p>
           <div>
-            <Link className="button button-primary" href="#redes-islamicas">Seguir la cadena <ArrowDown aria-hidden="true" /></Link>
-            <Link className="medicine-text-link" href="/15_medicina/INVESTIGACION_MED_011_MUNDOS_ISLAMICOS">Leer MED-011 <ArrowRight aria-hidden="true" /></Link>
+            <Link className="button button-primary" href="#europa-medieval">Seguir la cadena <ArrowDown aria-hidden="true" /></Link>
+            <Link className="medicine-text-link" href="/15_medicina/INVESTIGACION_MED_012_EUROPA_MEDIEVAL_TRADICIONES_JUDIAS">Leer MED-012 <ArrowRight aria-hidden="true" /></Link>
           </div>
         </div>
-        <p className="medicine-visual-limit">Composición editorial no probatoria: utilería genérica; no reproduce manuscrito, instrumento, hospital, botica, sociedad o práctica reales.</p>
+        <p className="medicine-visual-limit">Composición editorial no probatoria: utilería genérica; no reproduce códice, contrato, instrumento, hospital, comunidad o práctica reales.</p>
       </header>
 
       <section className="medicine-boundary">
@@ -76,6 +78,14 @@ export default function MedicinePage() {
       <section className="medicine-principles" aria-labelledby="medicine-principles-title">
         <header><p className="eyebrow">Contrato de lectura</p><h2 id="medicine-principles-title">Cuatro cortafuegos</h2></header>
         <div>{principles.map(([title, text], index) => <article key={title}><span>{String(index + 1).padStart(2, "0")}</span><h3>{title}</h3><p>{text}</p></article>)}</div>
+      </section>
+
+      <section className="medicine-lab-section documentary-lab-section" id="europa-medieval" aria-labelledby="medieval-europe-lab-title">
+        <div className="section-heading">
+          <div><p className="eyebrow">MED-012 · laboratorio de autoridad y encuentro</p><h2 id="medieval-europe-lab-title">Del testigo al alcance</h2></div>
+          <p>Elige un archivo. Seis capas separan versión, enseñanza, agente y encuentro sin convertir currículo, licencia o identidad en práctica.</p>
+        </div>
+        <MedievalEuropeJewishMedicineNetworkLab data={medievalEuropeJewishMedicineNetworks} />
       </section>
 
       <section className="medicine-lab-section documentary-lab-section" id="redes-islamicas" aria-labelledby="islamic-worlds-lab-title">

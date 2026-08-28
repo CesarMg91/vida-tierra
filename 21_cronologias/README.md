@@ -12,3 +12,4 @@ Cronologías regionales o temáticas y matrices de correlación. La vista global
 - [`CRONOLOGIA_MED_009_AFRICA_FUERA_EJE_EGIPCIO.md`](CRONOLOGIA_MED_009_AFRICA_FUERA_EJE_EGIPCIO.md) — casos regionales, fechas de archivo y métodos sin línea continental de progreso — **AUDITADO**.
 - [`CRONOLOGIA_MED_010_MESOAMERICA_ANDES_AMERICAS.md`](CRONOLOGIA_MED_010_MESOAMERICA_ANDES_AMERICAS.md) — cuerpos, plantas, códices e historia de métodos sin fecha de nacimiento ni continuidad automática — **AUDITADO**.
 - [`CRONOLOGIA_MED_011_MUNDOS_ISLAMICOS.md`](CRONOLOGIA_MED_011_MUNDOS_ISLAMICOS.md) — composición, copia, versión, operación, recepción y consecuencia como relojes separados — **AUDITADO**.
+- [`CRONOLOGIA_MED_012_EUROPA_MEDIEVAL_TRADICIONES_JUDIAS.md`](CRONOLOGIA_MED_012_EUROPA_MEDIEVAL_TRADICIONES_JUDIAS.md) — testigo, versión, currículo, practicante, encuentro y alcance como relojes separados — **AUDITADO**.
