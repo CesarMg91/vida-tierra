@@ -1304,3 +1304,33 @@ La salida se inspeccionó completa a resolución original. No contiene personas,
 La composición no reproduce el manuscrito de Manṣūr, una demostración boloñesa, la *Fabrica*, Valverde, una autopsia novohispana, el manuscrito de Itâkî, *Kaitai shinsho*, *Yilin gaicuo* ni un taller real. La proximidad entre objetos no afirma coetaneidad, ruta, copia, observación directa, corrección, adopción o beneficio.
 
 Los SVG se construyeron a `1600 × 900`, incluyen `title`, `desc` y tipografía de reserva. La cadena mantiene siete capas con cortafuegos y la matriz compara siete expedientes sin puntuaciones. Ninguno acepta datos personales, representa una disección, diagnostica, recomienda o calcula resultados clínicos.
+
+## 72. MED-017 — Una ligadura no descubre una circulación por sí sola
+
+![Portada editorial de MED-017](assets/visuales/hero-med-017-circulacion-fisiologia.png)
+
+![Cadena desde sistema heredado hasta recepción](assets/visuales/cadena-sistema-experimento-recepcion-med-017.svg)
+
+![Matriz de circulación, fisiología y límites](assets/visuales/matriz-circulacion-fisiologia-med-017.svg)
+
+| Archivo | Tipo | Procedencia | Qué representa | Límite obligatorio |
+|---|---|---|---|---|
+| `hero-med-017-circulacion-fisiologia.png` | portada editorial conceptual | OpenAI ImageGen, generación nueva, 2026-08-28 | libros, pulso, ligadura, comparación, lente, columna e hilos genéricos | no experimento, aparato, texto, tradición, cuerpo o acontecimiento reales |
+| `cadena-sistema-experimento-recepcion-med-017.svg` | diagrama epistemológico original | SVG manual del proyecto, 2026-08-28 | sistema, preparación, intervención, medición, comparación, mecanismo y recepción | las flechas no heredan observación, cuerpo intacto, mecanismo, exactitud, generalización, beneficio o consenso |
+| `matriz-circulacion-fisiologia-med-017.svg` | matriz documental original | SVG manual del proyecto, 2026-08-28 | ocho expedientes, archivos, productos y fallos | las filas no forman modernidad, prioridad, exactitud general o ranking cultural |
+
+### Procedencia de la portada
+
+Salida original aprobada sin edición: `C:\Users\HUAWEI\.codex\generated_images\019fedb0-8f24-7e33-8d16-d2418ba3378e\exec-1791b89c-413e-483e-9554-3536cf41dcb3.png`. Destino: `assets/visuales/hero-med-017-circulacion-fisiologia.png`. Dimensiones: `1672 × 941`; tamaño: `2,127,551` bytes; SHA-256: `9c03f6d543ab16d73a9747667ba34aaf70b4b5f281a792fb5cf04c1f97016f74`.
+
+**Prompt de generación:**
+
+> Use case: historical-scene. Asset type: wide website hero for the public history-of-medicine research MED-017. Primary request: an original museum-like editorial still life about how circulation and experimental physiology became measurable, without a lone hero or a literal discovery scene. Scene/backdrop: a dark early-modern study-laboratory with a worn oak table, softly receding shelves and an obsidian background. Subject: on the right two-thirds, a carefully arranged chain of generic evidence objects: several closed and open codices from different manuscript and print traditions with no legible writing, a small pulse-taking cushion and neutral wrist-rest suggesting tactile observation, a loose silk ligature beside a schematic branching-vessel drawing, a brass compass and counting tokens suggesting comparison and quantity, a simple seventeenth-century single-lens microscope, a clear vertical glass tube connected to inert brass tubing suggesting an early pressure experiment, and overlapping translucent red and deep-blue threads forming a closed loop without resembling a modern textbook diagram. Style/medium: historically grounded cinematic editorial photography, tactile museum realism, subtle film grain, not fantasy, not an infographic. Composition/framing: 16:9 landscape; restrained wide shot; main objects grouped to the right and lower center; generous calm negative space on the left for white website copy; no central portrait. Lighting/mood: low warm raking light, copper and amber highlights, mineral-green reflections, contemplative and investigative rather than triumphant. Color palette: obsidian, parchment, ink black, aged copper, muted amber, mineral green, restrained deep red and blue. Materials/textures: worn paper fibers, wood grain, tarnished brass, clear hand-blown glass, woven silk. Constraints: no people, no faces, no exposed body, no blood or gore, no living or dead animals, no famous portrait, no readable text, no labels, no logos, no watermark; all objects must look generic and editorial, not replicas of a specific surviving artifact; leave the left side visually quiet. Avoid: lone-genius iconography, heroic pose, operating theatre spectacle, modern hospital equipment, neon colors, stock-photo polish, anatomical heart model, fake scientific labels.
+
+### Revisión y límites
+
+La salida se inspeccionó completa a resolución original. No contiene personas, rostros, cuerpos, sangre, animales, retratos, logos, equipo hospitalario moderno o texto transcribible. Libros, cojín, soporte, ligadura, dibujo, compás, fichas, lente, tubo, conexiones e hilos son utilería editorial genérica.
+
+La composición no reproduce un tratado galénico, el comentario de Ibn al-Nafīs, un manual chino de pulso, Servet, Colombo, Fabricius, *De motu cordis*, las cartas de Malpighi, *Haemastaticks* ni un aparato real. La proximidad de los objetos no afirma coetaneidad, transmisión, prioridad, réplica, circulación cerrada, exactitud, recepción o beneficio clínico.
+
+Los SVG se construyeron a `1600 × 900`, incluyen `title`, `desc` y tipografía de reserva. La cadena mantiene siete capas con cortafuegos; la matriz compara ocho expedientes sin puntuaciones. Ninguno acepta datos personales, representa una vivisección, calcula flujo o presión, diagnostica, recomienda o simula un resultado clínico.

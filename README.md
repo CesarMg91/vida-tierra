@@ -6,7 +6,7 @@ Historia profunda de la Tierra, la vida y el ser humano desde primeros principio
 
 **[Explorar la versión pública](https://vida-tierra.vercel.app)**
 
-La versión `0.3.15` continúa la historia cronológica mundial de la medicina con MED-016: anatomía, disección e imprenta separadas en cuerpo disponible, procedimiento, imagen, texto, comparación, corrección y circulación. Incluye el módulo público «Un cuerpo abierto no corrige un libro por sí solo» y conserva MED-001–015 y CIV-001–003 íntegros; la secuencia global continúa cerrada en `001–052`.
+La versión `0.3.16` continúa la historia cronológica mundial de la medicina con MED-017: circulación y fisiología separadas en sistema heredado, preparación, intervención, medición, comparación, mecanismo y recepción. Incluye el módulo público «Una ligadura no descubre una circulación por sí sola» y conserva MED-001–016 y CIV-001–003 íntegros; la secuencia global continúa cerrada en `001–052`.
 
 El sitio usa `https://vida-tierra.vercel.app` como URL canónica. Otro dominio puede sustituirlo definiendo `SITE_URL` en el entorno de build, sin cambiar el código.
 
@@ -46,7 +46,7 @@ Y toda investigación debe distinguir explícitamente:
 - las alternativas y anomalías;
 - el grado de confianza y qué podría falsar la conclusión.
 
-## Estado actual · v0.3.15
+## Estado actual · v0.3.16
 
 La experiencia pública contiene:
 
@@ -111,6 +111,7 @@ La experiencia pública contiene:
 - la duodécima investigación histórica de Medicina: [MED-014 — ¿Cómo identificamos epidemias, medimos su magnitud y auditamos cuarentenas?](15_medicina/INVESTIGACION_MED_014_EPIDEMIAS_CUARENTENAS.md) — **AUDITADO**; separa testimonio, agente, magnitud, respuesta, cumplimiento y desigualdad sin convertir relato, genoma, fosa u orden en diagnóstico, cifra o eficacia;
 - la decimotercera investigación histórica de Medicina: [MED-015 — ¿Cómo reconstruimos salud y saber bajo conquista, esclavitud, misión y extracción?](15_medicina/INVESTIGACION_MED_015_ENCUENTROS_COLONIALES.md) — **AUDITADO**; separa exposición, violencia, trabajo, nutrición, clasificación, respuesta y supervivencia sin reducir catástrofe a contacto ni continuidad a ausencia de daño;
 - la decimocuarta investigación histórica de Medicina: [MED-016 — ¿Cómo pasamos del cuerpo abierto a una anatomía corregible y circulante?](15_medicina/INVESTIGACION_MED_016_ANATOMIA_DISECCION_IMPRENTA.md) — **AUDITADO**; separa cuerpo, procedimiento, imagen, texto, comparación, corrección y circulación sin convertir disección, naturalismo o imprenta en verdad automática;
+- la decimoquinta investigación histórica de Medicina: [MED-017 — ¿Cómo pasamos de sistemas corporales heredados a circulación, experimento y medición?](15_medicina/INVESTIGACION_MED_017_CIRCULACION_FISIOLOGIA.md) — **AUDITADO**; separa sistema, preparación, intervención, medición, comparación, mecanismo y recepción sin inventar un héroe único ni convertir fisiología en beneficio clínico automático;
 - la trigésima séptima investigación: [`¿Cómo distinguimos especies, locomoción, dieta y parentesco entre australopitecos y Paranthropus sin convertir su diversidad en una escalera hacia Homo?`](08_cenozoico/INVESTIGACION_037_AUSTRALOPITECOS_PARANTHROPUS.md);
 - la trigésima octava investigación: [`¿Cómo reconocemos a Homo temprano, habilis y erectus si fósiles, herramientas, cuerpos y moléculas responden preguntas distintas?`](08_cenozoico/INVESTIGACION_038_HOMO_TEMPRANO_HABILIS_ERECTUS.md);
 - la trigésima novena investigación: [`¿Cómo reconstruimos las poblaciones humanas del Pleistoceno medio sin convertir Homo heidelbergensis en un cajón de sastre ni cada fósil en un ancestro?`](08_cenozoico/INVESTIGACION_039_HOMO_PLEISTOCENO_MEDIO_HEIDELBERGENSIS.md);

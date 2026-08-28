@@ -850,3 +850,25 @@ CIV-003 inaugura los expedientes regionales auditados. CIV-001 conserva `TRAZADO
 | `TIME-MED-ANAT-KAITAI-1774-001` | 1774 | publicación de *Kaitai shinsho* | cinco fascículos traducidos e ilustrados | `SRC-MED-ANAT-NDL-KAITAI` | A publicación | AUDITADO |
 | `TIME-MED-ANAT-KAITAI-1826-001` | 1826 | revisión de Ōtsuki Gentaku | corrección de traducción y nomenclatura | `SRC-MED-ANAT-MICHEL-2018`, `SRC-MED-ANAT-NDL-EXHIBITION` | A/B histórico | AUDITADO |
 | `TIME-MED-ANAT-WANG-1830-001` | 1830 | publicación de *Yilin gaicuo* | crítica anatómica y 25 diagramas | `SRC-MED-ANAT-WANG-CTEXT`, `SRC-MED-ANAT-ANDREWS-1991` | A publicación/B contenido | AUDITADO |
+
+## MED-017 — Circulación y fisiología experimental
+
+| ID | Fecha / intervalo | Evento o archivo | Producto | Fuentes | Confianza | Estado |
+|---|---|---|---|---|---|---|
+| `TIME-MED-PHYS-GALEN-129-216-001` | ca. 129–216 | vida y obras fisiológicas de Galeno | experimentos arteriales dentro de sistema no circulatorio | `SRC-MED-PHYS-GALEN-FURLEY-2014`, `SRC-MED-PHYS-BOYLAN-2007` | A/B textual | AUDITADO |
+| `TIME-MED-PHYS-IBN-CA1242-001` | ca. 1242 | composición aproximada del comentario anatómico de Ibn al-Nafīs | negación septal y tránsito pulmonar | `SRC-MED-ISLAMIC-FANCY-2020`, `SRC-MED-PHYS-WEST-IBN-2008` | B datación/A contenido | AUDITADO |
+| `TIME-MED-PHYS-SERVETUS-1553-001` | 1553 | publicación de *Christianismi restitutio* | formulación pulmonar en obra teológica | `SRC-MED-PHYS-SERVETUS-GONZALEZ-2012` | A publicación | AUDITADO |
+| `TIME-MED-PHYS-VALVERDE-1556-001` | 1556 | publicación de Valverde | formulación pulmonar castellana vinculada con Colombo | `SRC-MED-ANAT-VALVERDE-LOC`, `SRC-MED-PHYS-ELMAGHAWRY-2014` | A publicación/B relación | AUDITADO |
+| `TIME-MED-PHYS-COLOMBO-1559-001` | 1559 | publicación póstuma de *De re anatomica* | descripción pulmonar anatómica | `SRC-MED-PHYS-COLOMBO-EKNOYAN-1997` | A publicación | AUDITADO |
+| `TIME-MED-PHYS-LI-1564-001` | ca. 1564 | composición atribuida de *Bīnhú màixué* | clasificación versificada del pulso | `SRC-MED-PHYS-HSU-2010`, `SRC-MED-PHYS-LI-CTEXT` | B datación/A testigo | AUDITADO |
+| `TIME-MED-PHYS-FABRICIUS-1603-001` | 1603 | publicación de *De venarum ostiolis* | monografía ilustrada de válvulas venosas | `SRC-MED-PHYS-SCULTETUS-2001`, `SRC-MED-PHYS-FABRICIUS-NATURE-1935` | A publicación | AUDITADO |
+| `TIME-MED-PHYS-HARVEY-1616-001` | 1616 | notas de lecciones lumleianas | circulación ya formulada en enseñanza privada | `SRC-MED-PHYS-BYLEBYL-1973`, `SRC-MED-PHYS-BATES-1992` | A/B documental | AUDITADO |
+| `TIME-MED-PHYS-HARVEY-1628-001` | 1628 | publicación de *De motu cordis* | ligaduras, cantidad y circulación repetida | `SRC-MED-PHYS-HARVEY-WELLCOME-1628` | A publicación | AUDITADO |
+| `TIME-MED-PHYS-DESCARTES-1637-001` | 1637 | *Discours de la méthode* reutiliza la circulación | recepción mecanicista no idéntica a Harvey | `SRC-MED-PHYS-MANNING-2022` | A/B textual | AUDITADO |
+| `TIME-MED-PHYS-MALPIGHI-1661-001` | 1661 | publicación de cartas *De pulmonibus* | red capilar pulmonar en rana | `SRC-MED-PHYS-WEST-MALPIGHI-2013` | A publicación | AUDITADO |
+| `TIME-MED-PHYS-HALES-1733-001` | 1733 | publicación de *Haemastaticks* | presión invasiva animal por columna | `SRC-MED-PHYS-HALES-BHL-1733`, `SRC-MED-PHYS-BOOTH-1977` | A publicación | AUDITADO |
+| `TIME-MED-PHYS-POISEUILLE-1828-001` | 1828 | hemodinamómetro de mercurio y medidas arteriales | nueva instrumentación invasiva | `SRC-MED-PHYS-BOOTH-1977`, `SRC-MED-PHYS-NOH-2024` | A/B histórico | AUDITADO |
+| `TIME-MED-PHYS-VIERORDT-1855-001` | 1855 | propuesta de esfigmógrafo y estimación no invasiva | registro de onda arterial | `SRC-MED-PHYS-BOOTH-1977`, `SRC-MED-PHYS-NOH-2024` | A/B histórico | AUDITADO |
+| `TIME-MED-PHYS-RIVA-ROCCI-1896-001` | 1896 | manguito inflable de Riva-Rocci | presión sistólica clínica más practicable | `SRC-MED-PHYS-BOOTH-1977`, `SRC-MED-PHYS-NOH-2024` | A/B histórico | AUDITADO |
+| `TIME-MED-PHYS-KOROTKOFF-1905-001` | 1905 | sonidos de Korotkoff | estimación auscultatoria sistólica y diastólica | `SRC-MED-PHYS-BOOTH-1977`, `SRC-MED-PHYS-NOH-2024` | A/B histórico | AUDITADO |
+| `TIME-MED-PHYS-VALIDATION-CONTEMP-001` | siglos XX–XXI | estandarización, validación y monitorización | presión como variable clínica y poblacional | `SRC-MED-PHYS-SCHUTTE-2022`, `SRC-MED-PHYS-NOH-2024` | A revisión | AUDITADO |

@@ -5,6 +5,7 @@ import { ArrowDown, ArrowRight, BookOpen, HeartPulse, ShieldCheck, Stethoscope }
 import AfricanMedicineArchiveLab from "../../components/AfricanMedicineArchiveLab";
 import AmericasMedicineArchiveLab from "../../components/AmericasMedicineArchiveLab";
 import AnatomyPrintEvidenceLab from "../../components/AnatomyPrintEvidenceLab";
+import CirculationPhysiologyEvidenceLab from "../../components/CirculationPhysiologyEvidenceLab";
 import ClinicalEvidenceLab from "../../components/ClinicalEvidenceLab";
 import ColonialEncountersEvidenceLab from "../../components/ColonialEncountersEvidenceLab";
 import DiagnosticEvidenceLab from "../../components/DiagnosticEvidenceLab";
@@ -21,6 +22,7 @@ import SouthAsianMedicineLab from "../../components/SouthAsianMedicineLab";
 import { africanMedicineArchives } from "../../lib/african-medicine-archives";
 import { americasMedicineArchives } from "../../lib/americas-medicine-archives";
 import { anatomyPrintEvidence } from "../../lib/anatomy-print-evidence";
+import { circulationPhysiologyEvidence } from "../../lib/circulation-physiology-evidence";
 import { colonialEncountersEvidence } from "../../lib/colonial-encounters-evidence";
 import { diagnosticEvidence } from "../../lib/diagnostic-evidence";
 import { documentaryMedicineEvidence } from "../../lib/documentary-medicine-evidence";
@@ -41,7 +43,7 @@ export const metadata: Metadata = createPageMetadata({
   title: "Historia de la medicina — archivos, cuidado y evidencia",
   description: "Cómo reconstruimos la historia mundial de la medicina desde huesos, manuscritos, cánones, instituciones y resultados sin confundir archivo, práctica o eficacia.",
   pathname: "/medicina",
-  image: "/assets/visuales/hero-med-016-anatomia-diseccion-imprenta.png",
+  image: "/assets/visuales/hero-med-017-circulacion-fisiologia.png",
 });
 
 const principles = [
@@ -58,8 +60,8 @@ export default function MedicinePage() {
     <div className="medicine-experience">
       <header className="medicine-hero medicine-history-hero">
         <Image
-          src="/assets/visuales/hero-med-016-anatomia-diseccion-imprenta.png"
-          alt="Mesa editorial con manuscritos, instrumental histórico, diagramas anatómicos, tipos de imprenta y marcas de corrección conectados por hilos"
+          src="/assets/visuales/hero-med-017-circulacion-fisiologia.png"
+          alt="Mesa editorial con libros, ligadura, diagrama vascular, microscopio, columna de vidrio y hebras que forman un circuito"
           fill
           preload
           fetchPriority="high"
@@ -68,14 +70,14 @@ export default function MedicinePage() {
         <div className="medicine-hero-shade" />
         <div className="medicine-hero-copy">
           <p className="eyebrow">Historia mundial de la medicina</p>
-          <h1>Un cuerpo abierto no corrige un libro por sí solo</h1>
-          <p>Cuerpo, procedimiento, imagen, texto, comparación, corrección y circulación forman una cadena histórica. Cada capa exige procedencia y límite antes de llamar verdadera, nueva o clínica a una anatomía.</p>
+          <h1>Una ligadura no descubre una circulación por sí sola</h1>
+          <p>Sistema heredado, preparación, intervención, medición, comparación, mecanismo y recepción forman una cadena histórica. Ningún resultado aislado hereda el circuito completo.</p>
           <div>
-            <Link className="button button-primary" href="#anatomia-imprenta">Auditar la corrección <ArrowDown aria-hidden="true" /></Link>
-            <Link className="medicine-text-link" href="/15_medicina/INVESTIGACION_MED_016_ANATOMIA_DISECCION_IMPRENTA">Leer MED-016 <ArrowRight aria-hidden="true" /></Link>
+            <Link className="button button-primary" href="#circulacion-fisiologia">Auditar el mecanismo <ArrowDown aria-hidden="true" /></Link>
+            <Link className="medicine-text-link" href="/15_medicina/INVESTIGACION_MED_017_CIRCULACION_FISIOLOGIA">Leer MED-017 <ArrowRight aria-hidden="true" /></Link>
           </div>
         </div>
-        <p className="medicine-visual-limit">Composición editorial no probatoria: utilería genérica; no reproduce cuerpo, disección, manuscrito, lámina, taller o acontecimiento reales.</p>
+        <p className="medicine-visual-limit">Composición editorial no probatoria: utilería genérica; no reproduce manuscrito, aparato, preparación, experimento o acontecimiento reales.</p>
       </header>
 
       <section className="medicine-boundary">
@@ -86,6 +88,14 @@ export default function MedicinePage() {
       <section className="medicine-principles" aria-labelledby="medicine-principles-title">
         <header><p className="eyebrow">Contrato de lectura</p><h2 id="medicine-principles-title">Cuatro cortafuegos</h2></header>
         <div>{principles.map(([title, text], index) => <article key={title}><span>{String(index + 1).padStart(2, "0")}</span><h3>{title}</h3><p>{text}</p></article>)}</div>
+      </section>
+
+      <section className="medicine-lab-section documentary-lab-section" id="circulacion-fisiologia" aria-labelledby="circulation-physiology-lab-title">
+        <div className="section-heading">
+          <div><p className="eyebrow">MED-017 · laboratorio de circulación y fisiología</p><h2 id="circulation-physiology-lab-title">Del sistema heredado a la recepción</h2></div>
+          <p>Elige un expediente. Siete capas separan teoría, preparación, manipulación, número, contraste, explicación y recepción sin convertir una ligadura, lente o columna en descubrimiento automático.</p>
+        </div>
+        <CirculationPhysiologyEvidenceLab data={circulationPhysiologyEvidence} />
       </section>
 
       <section className="medicine-lab-section documentary-lab-section" id="anatomia-imprenta" aria-labelledby="anatomy-print-lab-title">
