@@ -953,3 +953,15 @@ La portada separa fragmentos genéricos, moldes dentales, microrestos, sedimento
 Salida original aprobada sin edición: `C:\Users\HUAWEI\.codex\generated_images\019fedb0-8f24-7e33-8d16-d2418ba3378e\exec-15150650-d211-464f-8999-632db9f3e26b.png` → `assets/visuales/hero-med-011-mundos-islamicos.png`; tamaño `2,645,580` bytes. El prompt completo y los límites están en `ATLAS_VISUAL.md`, sección 66.
 
 La portada separa manuscritos genéricos, cuaderno, aparato óptico, instrumental, maqueta institucional y botica; no contiene personas, cirugía o texto legible. Los SVG incluyen `title` y `desc`, preservan testigo, versión, operación, institución, alcance y consecuencia y no convierten traducción, receta, fundación o norma en práctica o eficacia.
+
+## MED-012 — Europa medieval y tradiciones judías
+
+| Archivo | Origen | Dimensiones | SHA-256 / trazabilidad | Límite |
+|---|---|---:|---|---|
+| `hero-med-012-europa-medieval-tradiciones-judias.png` | OpenAI ImageGen, generación nueva del 2026-08-27 | `1672 × 941` | `387add8c4a32c0e65dbb967c1c585f94d118882036f05120417bf889c82e04b9` | composición conceptual; no códice, contrato, institución, comunidad o práctica reales |
+| `cadena-testigo-alcance-med-012.svg` | SVG manual determinista | `1600 × 900` | código fuente versionado | seis capas inferenciales; no herencia automática |
+| `matriz-espacios-medicina-med-012.svg` | SVG manual determinista | `1600 × 900` | código fuente versionado | seis archivos y límites; no progreso ni ranking |
+
+Salida original aprobada sin edición: `C:\Users\HUAWEI\.codex\generated_images\019fedb0-8f24-7e33-8d16-d2418ba3378e\exec-58757693-70e2-4927-bb29-bd9356658c33.png` → `assets/visuales/hero-med-012-europa-medieval-tradiciones-judias.png`; tamaño `2,046,782` bytes. El prompt completo y los límites están en `ATLAS_VISUAL.md`, sección 67.
+
+La portada separa códice, objetos domésticos, fascículos, traducciones, enseñanza, instrumental y una maqueta hospitalaria; no contiene personas, práctica clínica o escritura transcribible. Los SVG incluyen `title` y `desc`, preservan testigo, versión, currículo, practicante, encuentro y alcance y no convierten autoridad, licencia, hospital o identidad en consulta o eficacia.

@@ -4322,3 +4322,23 @@ Riesgo basal, alternativas y preferencias cambian el balance. **Corrección:** s
 | `ERR-MED-ISLAMIC-HISBA-COMPLIANCE-001` | convertir hisba en cumplimiento uniforme | norma no registra inspección ni obediencia | separar jurisdicción, ejecución y sanción | ACTIVO |
 | `ERR-MED-ISLAMIC-LICENSE-UNIVERSAL-001` | convertir el examen de 931/932 en licencia universal | relato tardío de episodio local con excepciones | conservar cadena narrativa y alcance | ACTIVO |
 | `ERR-MED-ISLAMIC-CIRCULATION-EFFICACY-001` | usar difusión de un texto como prueba de verdad o beneficio | autoridad y circulación tienen causas múltiples | exigir resultado y comparación independientes | ACTIVO |
+
+## MED-012 — Europa medieval y tradiciones judías
+
+| ID | Error frecuente | Por qué falla | Corrección | Estado |
+|---|---|---|---|---|
+| `ERR-MED-MEDIEVAL-DARK-AGES-001` | reducir toda medicina medieval a superstición | borra textos, observación, cuidado e instituciones heterogéneas | auditar cada producto sin validar eficacia por antigüedad | ACTIVO |
+| `ERR-MED-MEDIEVAL-MONASTIC-MONOPOLY-001` | asumir que monasterios monopolizaron cuidado | hogar, corte, ciudad y aprendizaje dejaron archivos distintos | separar conservación, propiedad y encuentro | ACTIVO |
+| `ERR-MED-MEDIEVAL-RECIPE-USED-001` | una receta copiada fue preparada y administrada | copia, practicabilidad y ejecución son operaciones distintas | exigir marcas, objetos o episodio vinculado | ACTIVO |
+| `ERR-MED-MEDIEVAL-INGREDIENT-EFFICACY-001` | ingrediente activo moderno prueba remedio eficaz | concentración, preparación, indicación y daño faltan | evaluar producto histórico completo | ACTIVO |
+| `ERR-MED-MEDIEVAL-TROTULA-PERSON-001` | Trotula fue autora única del compendio | el conjunto integra tres obras de genealogías distintas | delimitar Trota y cada texto | ACTIVO |
+| `ERR-MED-MEDIEVAL-WOMEN-ABSENT-001` | ausencia universitaria prueba ausencia de mujeres | el archivo formal subregistra hogar y oficios no corporativos | combinar registros y declarar sesgo | ACTIVO |
+| `ERR-MED-MEDIEVAL-TRANSLATION-PIPE-001` | el saber pasó intacto del islam a Europa | traducción seleccionó, condensó y reescribió | reconstruir versión, agentes y patronazgo | ACTIVO |
+| `ERR-MED-MEDIEVAL-LANGUAGE-IDENTITY-001` | árabe, latín o hebreo determina religión y etnia | lengua de trabajo e identidad no son equivalentes | identificar cada variable por evidencia | ACTIVO |
+| `ERR-MED-MEDIEVAL-SALERNO-FIRST-001` | Salerno fue la primera universidad médica fundada en fecha fija | leyenda y gradualidad institucional exceden esa fórmula | definir escuela, estatuto y testigo | ACTIVO |
+| `ERR-MED-MEDIEVAL-CURRICULUM-CONSULT-001` | currículo demuestra práctica clínica uniforme | lista y comentario no registran cada encuentro | enlazar alumno, decisión y paciente | ACTIVO |
+| `ERR-MED-MEDIEVAL-LICENSE-COMPETENCE-001` | licencia garantiza competencia y cumplimiento | autorización es decisión local, no resultado | auditar examen, práctica, sanción y seguimiento | ACTIVO |
+| `ERR-MED-MEDIEVAL-BARBER-IGNORANT-001` | médico culto y barbero ignorante fueron categorías fijas | títulos, destrezas y funciones se solaparon | reconstruir acto y formación individual | ACTIVO |
+| `ERR-MED-MEDIEVAL-SURGERY-SUCCESS-001` | técnica descrita prueba operación exitosa | faltan elegibilidad, denominador, daño y seguimiento | separar texto, elección, acto y desenlace | ACTIVO |
+| `ERR-MED-MEDIEVAL-HOSPITAL-MODERN-001` | hospital medieval fue clínica moderna | hospitalidad, caridad, sustento y oración variaron por casa | declarar función, población y periodo | ACTIVO |
+| `ERR-MED-MEDIEVAL-JEWISH-ESSENCE-001` | médicos judíos compartieron un método esencial o privilegio universal | lengua, formación, jurisdicción y restricciones variaron | especificar agente, red y archivo | ACTIVO |

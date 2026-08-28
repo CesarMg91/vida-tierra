@@ -1619,3 +1619,18 @@ Véase 15_medicina/INVESTIGACION_MED_010_MESOAMERICA_ANDES_AMERICAS.md, 22_mapas
 - `CLAIM-MED-ISLAMIC-EFFICACY-001` impide que circulación o antigüedad sustituyan efecto medido.
 
 Véase 15_medicina/INVESTIGACION_MED_011_MUNDOS_ISLAMICOS.md, 22_mapas_epistemologicos/MAPA_MED_011_MUNDOS_ISLAMICOS.md, 21_cronologias/CRONOLOGIA_MED_011_MUNDOS_ISLAMICOS.md, assets/visuales/cadena-testigo-consecuencia-med-011.svg y assets/visuales/matriz-redes-medicina-med-011.svg.
+
+## MED-012 — Europa medieval y tradiciones judías
+
+`testigo → versión → currículo → practicante → encuentro → alcance`
+
+- `INV-MED-MEDIEVAL-EUROPE-JEWISH-001` integra seis archivos sin una Europa o medicina judía homogéneas.
+- Códices enlazan `CLAIM-MED-MEDIEVAL-MONASTIC-MIXED-001` con practicabilidad y cuidado doméstico sin heredar uso.
+- Trotula separa conjunto, Trota, participación femenina y voz de pacientes.
+- Traducciones separan fuente, versión, lengua, identidad y recepción.
+- Articella, universidad y licencia separan currículo, autorización, práctica y monopolio.
+- Cirugía y hospital separan texto, elección, caridad, operación y desenlace.
+- Archivos judíos separan identidad, aprendizaje, contrato, restricción y representatividad.
+- `CLAIM-MED-MEDIEVAL-ENCOUNTER-OUTCOME-001` impide que autoridad o circulación sustituyan efecto.
+
+Véase 15_medicina/INVESTIGACION_MED_012_EUROPA_MEDIEVAL_TRADICIONES_JUDIAS.md, 22_mapas_epistemologicos/MAPA_MED_012_EUROPA_MEDIEVAL_TRADICIONES_JUDIAS.md, 21_cronologias/CRONOLOGIA_MED_012_EUROPA_MEDIEVAL_TRADICIONES_JUDIAS.md, assets/visuales/cadena-testigo-alcance-med-012.svg y assets/visuales/matriz-espacios-medicina-med-012.svg.

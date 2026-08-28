@@ -1,0 +1,378 @@
+{
+  "schemaVersion": 1,
+  "researchSlug": "15_medicina/INVESTIGACION_MED_012_EUROPA_MEDIEVAL_TRADICIONES_JUDIAS",
+  "cases": [
+    {
+      "id": "codices-households",
+      "title": "Códices, monasterios y hogares",
+      "region": "Inglaterra y mundo carolingio · siglos VIII–X",
+      "archive": "Royal MS 12 D XVII, recetarios y contextos materiales",
+      "layers": [
+        {
+          "kind": "witness",
+          "observed": "Royal MS 12 D XVII conserva dos libros asociados con Bald, una tercera colección y una adición marginal posterior.",
+          "inference": "El códice es un objeto compuesto y modificado, no la obra transparente de un único autor.",
+          "limit": "La encuadernación conservada no fecha la composición de cada receta.",
+          "claimIds": ["CLAIM-MED-MEDIEVAL-ARCHIVE-001", "CLAIM-MED-MEDIEVAL-MONASTIC-MIXED-001"],
+          "evidenceIds": ["EVID-MED-MEDIEVAL-BALD-MANUSCRIPT-001"],
+          "sourceIds": ["SRC-MED-MEDIEVAL-BL-BALD", "SRC-MED-MEDIEVAL-BATTEN-2024"]
+        },
+        {
+          "kind": "version",
+          "observed": "Recetas heredadas, materiales locales, oraciones y encantamientos fueron seleccionados y copiados juntos.",
+          "inference": "La compilación transformó repertorios previos en un testigo nuevo.",
+          "limit": "Semejanza textual no demuestra transmisión completa ni fecha de origen.",
+          "claimIds": ["CLAIM-MED-MEDIEVAL-MONASTIC-MIXED-001"],
+          "evidenceIds": ["EVID-MED-MEDIEVAL-CAROLINGIAN-RECIPES-001"],
+          "sourceIds": ["SRC-MED-MEDIEVAL-BURRIDGE-2024", "SRC-MED-MEDIEVAL-WALLIS-2010"]
+        },
+        {
+          "kind": "curriculum",
+          "observed": "Los manuscritos podían servir para consulta, lectura, archivo o enseñanza en instituciones religiosas y laicas.",
+          "inference": "Existió conocimiento escrito disponible en más de un entorno.",
+          "limit": "Poseer un códice no prueba un programa docente o un uso terapéutico.",
+          "claimIds": ["CLAIM-MED-MEDIEVAL-HOUSEHOLD-CARE-001"],
+          "evidenceIds": ["EVID-MED-MEDIEVAL-HOUSEHOLD-PRACTICE-001"],
+          "sourceIds": ["SRC-MED-MEDIEVAL-NLM-MANUSCRIPTS", "SRC-MED-MEDIEVAL-BURRIDGE-2024"]
+        },
+        {
+          "kind": "practitioner",
+          "observed": "Los textos nombran pocos agentes y las manos de copia no identifican siempre a quien cuidó.",
+          "inference": "Copista, propietario y practicante deben separarse.",
+          "limit": "El silencio nominal no demuestra ausencia de cuidadores domésticos.",
+          "claimIds": ["CLAIM-MED-MEDIEVAL-HOUSEHOLD-CARE-001"],
+          "evidenceIds": ["EVID-MED-MEDIEVAL-HOUSEHOLD-PRACTICE-001"],
+          "sourceIds": ["SRC-MED-MEDIEVAL-BATTEN-2024", "SRC-MED-MEDIEVAL-BURRIDGE-2024"]
+        },
+        {
+          "kind": "encounter",
+          "observed": "Ingredientes y operaciones permiten evaluar si algunas recetas eran materialmente practicables.",
+          "inference": "Una fórmula pudo prepararse bajo condiciones declaradas.",
+          "limit": "Practicabilidad no demuestra preparación, indicación, dosis o administración.",
+          "claimIds": ["CLAIM-MED-MEDIEVAL-RECIPE-PRACTICALITY-001"],
+          "evidenceIds": ["EVID-MED-MEDIEVAL-CAROLINGIAN-RECIPES-001"],
+          "sourceIds": ["SRC-MED-MEDIEVAL-BURRIDGE-2024"]
+        },
+        {
+          "kind": "reach",
+          "observed": "No existe una serie que conecte cada receta con pacientes, daños y seguimiento.",
+          "inference": "El resultado clínico permanece como producto separado.",
+          "limit": "No demostrado no significa que toda práctica fuera inútil.",
+          "claimIds": ["CLAIM-MED-MEDIEVAL-ENCOUNTER-OUTCOME-001"],
+          "evidenceIds": ["EVID-MED-MEDIEVAL-EFFICACY-001"],
+          "sourceIds": ["SRC-MED-MEDIEVAL-BURRIDGE-2024", "SRC-MED-MEDIEVAL-WALLIS-2010"]
+        }
+      ]
+    },
+    {
+      "id": "trotula-women",
+      "title": "Trotula, Trota y participación femenina",
+      "region": "Salerno y circulación europea · siglos XI–XV",
+      "archive": "122 manuscritos latinos, 52 versiones vernáculas y registros de práctica",
+      "layers": [
+        {
+          "kind": "witness",
+          "observed": "Los testigos conservan tres obras médicas que luego circularon como un conjunto.",
+          "inference": "El objeto de estudio es un ensamblaje textual plural.",
+          "limit": "Una edición impresa tardía no reemplaza las variantes manuscritas.",
+          "claimIds": ["CLAIM-MED-MEDIEVAL-TROTULA-ENSEMBLE-001"],
+          "evidenceIds": ["EVID-MED-MEDIEVAL-TROTULA-MANUSCRIPTS-001"],
+          "sourceIds": ["SRC-MED-MEDIEVAL-GREEN-1996", "SRC-MED-MEDIEVAL-GREEN-TROTULA-2001"]
+        },
+        {
+          "kind": "version",
+          "observed": "Liber de sinthomatibus mulierum, De curis mulierum y De ornatu mulierum tienen historias distintas.",
+          "inference": "Compilación, revisión y traducción cambiaron la autoridad del conjunto.",
+          "limit": "El título Trotula no prueba una autora única.",
+          "claimIds": ["CLAIM-MED-MEDIEVAL-TROTULA-ENSEMBLE-001", "CLAIM-MED-MEDIEVAL-TROTA-ATTRIBUTION-001"],
+          "evidenceIds": ["EVID-MED-MEDIEVAL-TROTULA-MANUSCRIPTS-001"],
+          "sourceIds": ["SRC-MED-MEDIEVAL-GREEN-1996"]
+        },
+        {
+          "kind": "curriculum",
+          "observed": "El conjunto se copió y tradujo ampliamente, pero sus usos cambiaron con lectores y versiones.",
+          "inference": "Fue una autoridad textual influyente sobre salud de las mujeres.",
+          "limit": "Circulación no prueba programa uniforme ni aceptación completa.",
+          "claimIds": ["CLAIM-MED-MEDIEVAL-TROTULA-ENSEMBLE-001"],
+          "evidenceIds": ["EVID-MED-MEDIEVAL-TROTULA-MANUSCRIPTS-001"],
+          "sourceIds": ["SRC-MED-MEDIEVAL-GREEN-TROTULA-2001"]
+        },
+        {
+          "kind": "practitioner",
+          "observed": "Una forma temprana de De curis mulierum se relaciona con Trota; otros archivos documentan mujeres cuidadoras y practicantes.",
+          "inference": "La participación femenina es histórica aunque esté filtrada por el archivo.",
+          "limit": "Trota no hereda autoría del conjunto y los registros no forman un censo.",
+          "claimIds": ["CLAIM-MED-MEDIEVAL-TROTA-ATTRIBUTION-001", "CLAIM-MED-MEDIEVAL-WOMEN-PRACTICE-001"],
+          "evidenceIds": ["EVID-MED-MEDIEVAL-TROTA-WOMEN-001", "EVID-MED-MEDIEVAL-WOMEN-ARCHIVES-001"],
+          "sourceIds": ["SRC-MED-MEDIEVAL-GREEN-1989", "SRC-MED-MEDIEVAL-GREEN-TROTULA-2001"]
+        },
+        {
+          "kind": "encounter",
+          "observed": "Las recetas describen cuerpos, síntomas y tratamientos de mujeres bajo mediación textual.",
+          "inference": "Conservan preguntas y repertorios de cuidado.",
+          "limit": "Texto sobre mujeres no es testimonio directo de todas las pacientes.",
+          "claimIds": ["CLAIM-MED-MEDIEVAL-WOMEN-PRACTICE-001"],
+          "evidenceIds": ["EVID-MED-MEDIEVAL-TROTA-WOMEN-001"],
+          "sourceIds": ["SRC-MED-MEDIEVAL-GREEN-TROTULA-2001", "SRC-MED-MEDIEVAL-CABALLERO-2008"]
+        },
+        {
+          "kind": "reach",
+          "observed": "Versiones latinas y vernáculas ampliaron audiencias potenciales.",
+          "inference": "La autoridad y accesibilidad cambiaron entre lenguas.",
+          "limit": "No se conocen lectoras, frecuencia de uso ni desenlaces de cada versión.",
+          "claimIds": ["CLAIM-MED-MEDIEVAL-ENCOUNTER-OUTCOME-001"],
+          "evidenceIds": ["EVID-MED-MEDIEVAL-EFFICACY-001"],
+          "sourceIds": ["SRC-MED-MEDIEVAL-GREEN-1996", "SRC-MED-MEDIEVAL-CABALLERO-2008"]
+        }
+      ]
+    },
+    {
+      "id": "translation-networks",
+      "title": "Pantegni, Toledo y traducciones hebreas",
+      "region": "Sur de Italia, Toledo y Mediterráneo occidental · siglos XI–XIV",
+      "archive": "Versiones árabe-latinas, revisiones y traducciones al hebreo",
+      "layers": [
+        {
+          "kind": "witness",
+          "observed": "El Pantegni latino, listas toledanas y versiones hebreas sobreviven en múltiples testigos.",
+          "inference": "Varias rutas conectaron obras, patronos y lectores.",
+          "limit": "El testigo conservado puede ser posterior a la primera versión.",
+          "claimIds": ["CLAIM-MED-MEDIEVAL-TRANSLATION-NETWORK-001"],
+          "evidenceIds": ["EVID-MED-MEDIEVAL-TOLEDO-PROGRAM-001", "EVID-MED-MEDIEVAL-PANTEGNI-REVISION-001"],
+          "sourceIds": ["SRC-MED-MEDIEVAL-BURNETT-2001", "SRC-MED-MEDIEVAL-KALTIO-2023"]
+        },
+        {
+          "kind": "version",
+          "observed": "Constantino condensó y reorganizó; una revisión posterior aclaró el estilo de la Theorica.",
+          "inference": "Traducir fue editar para audiencias y usos concretos.",
+          "limit": "Pantegni no es un espejo completo del Kitab al-Malaki.",
+          "claimIds": ["CLAIM-MED-MEDIEVAL-PANTEGNI-VERSION-001"],
+          "evidenceIds": ["EVID-MED-MEDIEVAL-PANTEGNI-REVISION-001"],
+          "sourceIds": ["SRC-MED-MEDIEVAL-KALTIO-2023", "SRC-MED-MEDIEVAL-NLM-ODYSSEY"]
+        },
+        {
+          "kind": "curriculum",
+          "observed": "Versiones greco-árabe-latinas entraron en colecciones docentes junto con otros textos.",
+          "inference": "La traducción cambió el repertorio disponible para enseñar.",
+          "limit": "Disponibilidad no prueba lectura, comprensión o acuerdo.",
+          "claimIds": ["CLAIM-MED-MEDIEVAL-ARTICELLA-CURRICULUM-001"],
+          "evidenceIds": ["EVID-MED-MEDIEVAL-ARTICELLA-MANUSCRIPTS-001"],
+          "sourceIds": ["SRC-MED-MEDIEVAL-NLM-MANUSCRIPTS", "SRC-MED-MEDIEVAL-OBOYLE-1998"]
+        },
+        {
+          "kind": "practitioner",
+          "observed": "Traductores y colaboradores trabajaron entre árabe, latín, hebreo y vernáculos.",
+          "inference": "Lengua de trabajo e identidad religiosa son variables distintas.",
+          "limit": "No todos los agentes quedaron nombrados en colofones o listas.",
+          "claimIds": ["CLAIM-MED-MEDIEVAL-HEBREW-TRANSLATION-001", "CLAIM-MED-MEDIEVAL-JEWISH-NONESSENCE-001"],
+          "evidenceIds": ["EVID-MED-MEDIEVAL-HEBREW-TRANSLATION-001"],
+          "sourceIds": ["SRC-MED-MEDIEVAL-CABALLERO-2012", "SRC-MED-MEDIEVAL-ZIEGLER-1997"]
+        },
+        {
+          "kind": "encounter",
+          "observed": "Los textos no conservan automáticamente la consulta en que una versión fue aplicada.",
+          "inference": "La operación clínica requiere otro archivo.",
+          "limit": "No puede heredarse práctica desde circulación.",
+          "claimIds": ["CLAIM-MED-MEDIEVAL-UNIVERSITY-PRACTICE-001"],
+          "evidenceIds": ["EVID-MED-MEDIEVAL-EFFICACY-001"],
+          "sourceIds": ["SRC-MED-MEDIEVAL-GARCIA-BALLESTER-1995"]
+        },
+        {
+          "kind": "reach",
+          "observed": "La difusión manuscrita muestra recepción desigual entre regiones y siglos.",
+          "inference": "La red tuvo múltiples direcciones y transformaciones.",
+          "limit": "Número de copias no mide exactitud, eficacia o superioridad.",
+          "claimIds": ["CLAIM-MED-MEDIEVAL-NONRANKING-001"],
+          "evidenceIds": ["EVID-MED-MEDIEVAL-SYNTHESIS-001"],
+          "sourceIds": ["SRC-MED-MEDIEVAL-BURNETT-2001", "SRC-MED-MEDIEVAL-ZIEGLER-1997"]
+        }
+      ]
+    },
+    {
+      "id": "university-licensing",
+      "title": "Articella, universidades y licencias",
+      "region": "París, Bolonia, Montpellier y Valencia · siglos XIII–XIV",
+      "archive": "Manuscritos docentes, comentarios, estatutos y autorizaciones",
+      "layers": [
+        {
+          "kind": "witness",
+          "observed": "Articella, glosas, estatutos y licencias sobreviven como productos institucionales diferentes.",
+          "inference": "La enseñanza y la autorización pueden reconstruirse por separado.",
+          "limit": "Un estatuto no describe cada aula ni cada examen.",
+          "claimIds": ["CLAIM-MED-MEDIEVAL-ARTICELLA-CURRICULUM-001", "CLAIM-MED-MEDIEVAL-LICENSING-LOCAL-001"],
+          "evidenceIds": ["EVID-MED-MEDIEVAL-ARTICELLA-MANUSCRIPTS-001", "EVID-MED-MEDIEVAL-VALENCIA-LICENSING-001"],
+          "sourceIds": ["SRC-MED-MEDIEVAL-OBOYLE-1998", "SRC-MED-MEDIEVAL-GARCIA-MCVAUGH-RUBIO-1989"]
+        },
+        {
+          "kind": "version",
+          "observed": "La colección docente cambió al incorporar comentarios, Galeno y textos traducidos.",
+          "inference": "Currículo fue una construcción histórica, no canon inmóvil.",
+          "limit": "No hubo una Articella idéntica en toda universidad.",
+          "claimIds": ["CLAIM-MED-MEDIEVAL-ARTICELLA-CURRICULUM-001"],
+          "evidenceIds": ["EVID-MED-MEDIEVAL-PARIS-CURRICULUM-001"],
+          "sourceIds": ["SRC-MED-MEDIEVAL-OBOYLE-1998", "SRC-MED-MEDIEVAL-NLM-ODYSSEY"]
+        },
+        {
+          "kind": "curriculum",
+          "observed": "París y Bolonia organizaron lectura, comentario y filosofía natural de modos situados.",
+          "inference": "La medicina letrada adquirió autoridad institucional.",
+          "limit": "Autoridad académica no prueba monopolio de cuidado.",
+          "claimIds": ["CLAIM-MED-MEDIEVAL-UNIVERSITY-PRACTICE-001"],
+          "evidenceIds": ["EVID-MED-MEDIEVAL-PARIS-CURRICULUM-001", "EVID-MED-MEDIEVAL-BOLOGNA-TEACHING-001"],
+          "sourceIds": ["SRC-MED-MEDIEVAL-OBOYLE-1998", "SRC-MED-MEDIEVAL-SIRAISI-1981"]
+        },
+        {
+          "kind": "practitioner",
+          "observed": "Físicos, cirujanos, barberos, boticarios, mujeres y empíricos coexistieron en archivos urbanos.",
+          "inference": "El mercado de cuidado fue un continuo con fronteras negociadas.",
+          "limit": "Los títulos cambian por lengua, lugar y documento.",
+          "claimIds": ["CLAIM-MED-MEDIEVAL-PRACTITIONER-CONTINUUM-001"],
+          "evidenceIds": ["EVID-MED-MEDIEVAL-ARAGON-PRACTITIONERS-001"],
+          "sourceIds": ["SRC-MED-MEDIEVAL-MCVAUGH-1993", "SRC-MED-MEDIEVAL-GARCIA-BALLESTER-1995"]
+        },
+        {
+          "kind": "encounter",
+          "observed": "Licencias, contratos y litigios registran autorizaciones y servicios concretos.",
+          "inference": "Una jurisdicción reconoció a un agente para una actividad delimitada.",
+          "limit": "Licencia no hereda competencia, obediencia o resultado.",
+          "claimIds": ["CLAIM-MED-MEDIEVAL-LICENSING-LOCAL-001"],
+          "evidenceIds": ["EVID-MED-MEDIEVAL-VALENCIA-LICENSING-001"],
+          "sourceIds": ["SRC-MED-MEDIEVAL-GARCIA-MCVAUGH-RUBIO-1989"]
+        },
+        {
+          "kind": "reach",
+          "observed": "La documentación privilegia ciudades, cortes y agentes que produjeron archivo.",
+          "inference": "La profesionalización fue parcial y desigual.",
+          "limit": "No existe licencia europea universal ni censo completo.",
+          "claimIds": ["CLAIM-MED-MEDIEVAL-UNIVERSITY-PRACTICE-001", "CLAIM-MED-MEDIEVAL-NONRANKING-001"],
+          "evidenceIds": ["EVID-MED-MEDIEVAL-SYNTHESIS-001"],
+          "sourceIds": ["SRC-MED-MEDIEVAL-GARCIA-BALLESTER-1995", "SRC-MED-MEDIEVAL-MCVAUGH-1993"]
+        }
+      ]
+    },
+    {
+      "id": "surgery-hospitals",
+      "title": "Cirugía, decisión y hospitales",
+      "region": "Francia, Corona de Aragón e Inglaterra · siglos XII–XIV",
+      "archive": "Tratados quirúrgicos, reglas, dotaciones y espacios",
+      "layers": [
+        {
+          "kind": "witness",
+          "observed": "Tratados, reglas hospitalarias y fundaciones conservan géneros distintos.",
+          "inference": "Técnica propuesta e institución deben auditarse con productos separados.",
+          "limit": "Edificio o texto no prueba operación cotidiana.",
+          "claimIds": ["CLAIM-MED-MEDIEVAL-ARCHIVE-001", "CLAIM-MED-MEDIEVAL-HOSPITAL-VARIATION-001"],
+          "evidenceIds": ["EVID-MED-MEDIEVAL-HOSPITAL-LAW-001"],
+          "sourceIds": ["SRC-MED-MEDIEVAL-HORDEN-1988", "SRC-MED-MEDIEVAL-WATSON-2006"]
+        },
+        {
+          "kind": "version",
+          "observed": "Guy de Chauliac reunió autoridades y experiencia en un tratado terminado en 1363.",
+          "inference": "El texto conserva opciones, riesgos y jerarquías de práctica.",
+          "limit": "Compilación no es cuaderno consecutivo de operaciones.",
+          "claimIds": ["CLAIM-MED-MEDIEVAL-SURGERY-TEXT-001"],
+          "evidenceIds": ["EVID-MED-MEDIEVAL-SURGERY-CATARACT-HERNIA-001"],
+          "sourceIds": ["SRC-MED-MEDIEVAL-MCVAUGH-2001"]
+        },
+        {
+          "kind": "curriculum",
+          "observed": "La cirugía tuvo relación variable con enseñanza universitaria y estatus profesional.",
+          "inference": "Teoría y destreza podían combinarse sin una división ocupacional fija.",
+          "limit": "La oposición médico culto/barbero ignorante no describe todo caso.",
+          "claimIds": ["CLAIM-MED-MEDIEVAL-PRACTITIONER-CONTINUUM-001"],
+          "evidenceIds": ["EVID-MED-MEDIEVAL-ARAGON-PRACTITIONERS-001"],
+          "sourceIds": ["SRC-MED-MEDIEVAL-MCVAUGH-1993", "SRC-MED-MEDIEVAL-MCVAUGH-2001"]
+        },
+        {
+          "kind": "practitioner",
+          "observed": "Guy fue llamado cirujano, maestro en medicina y físico según contexto.",
+          "inference": "Título y función eran relacionales.",
+          "limit": "Una biografía célebre no representa a todos los operadores.",
+          "claimIds": ["CLAIM-MED-MEDIEVAL-SURGERY-CHOICE-001"],
+          "evidenceIds": ["EVID-MED-MEDIEVAL-SURGERY-CATARACT-HERNIA-001"],
+          "sourceIds": ["SRC-MED-MEDIEVAL-MCVAUGH-2001"]
+        },
+        {
+          "kind": "encounter",
+          "observed": "Guy describió operaciones de catarata y hernia y en situaciones eligió abstención.",
+          "inference": "El riesgo, la reputación y la selección modificaban decisiones.",
+          "limit": "No hay denominador, complicaciones completas ni seguimiento uniforme.",
+          "claimIds": ["CLAIM-MED-MEDIEVAL-SURGERY-CHOICE-001"],
+          "evidenceIds": ["EVID-MED-MEDIEVAL-SURGERY-CATARACT-HERNIA-001"],
+          "sourceIds": ["SRC-MED-MEDIEVAL-MCVAUGH-2001"]
+        },
+        {
+          "kind": "reach",
+          "observed": "Hospitales como St John alojaron pequeñas comunidades dentro de economías de caridad y oración.",
+          "inference": "Hospitalidad, sustento y cuidado fueron funciones históricas reales.",
+          "limit": "No equivalen a cobertura clínica moderna, curación o atención médica continua.",
+          "claimIds": ["CLAIM-MED-MEDIEVAL-HOSPITAL-CHARITY-001", "CLAIM-MED-MEDIEVAL-HOSPITAL-VARIATION-001"],
+          "evidenceIds": ["EVID-MED-MEDIEVAL-CAMBRIDGE-HOSPITAL-001"],
+          "sourceIds": ["SRC-MED-MEDIEVAL-RUBIN-1987", "SRC-MED-MEDIEVAL-WATSON-2006"]
+        }
+      ]
+    },
+    {
+      "id": "jewish-practitioners",
+      "title": "Practicantes judíos entre jurisdicciones",
+      "region": "Provenza, Iberia e Italia · siglos XII–XV",
+      "archive": "Contratos, salarios, litigios, licencias y traducciones",
+      "layers": [
+        {
+          "kind": "witness",
+          "observed": "Notarios y tribunales documentan médicos judíos en actos concretos.",
+          "inference": "La identidad, el servicio y la jurisdicción pueden situarse.",
+          "limit": "El archivo legal sobrerrepresenta contrato, conflicto y élite.",
+          "claimIds": ["CLAIM-MED-MEDIEVAL-JEWISH-PRACTITIONERS-001"],
+          "evidenceIds": ["EVID-MED-MEDIEVAL-JEWISH-ARCHIVE-001"],
+          "sourceIds": ["SRC-MED-MEDIEVAL-SHATZMILLER-1995", "SRC-MED-MEDIEVAL-MCVAUGH-1993"]
+        },
+        {
+          "kind": "version",
+          "observed": "Textos hebreos adaptaron materiales árabes y latinos, incluso sobre salud de las mujeres.",
+          "inference": "La traducción fue apropiación y negociación cultural.",
+          "limit": "Hebreo no identifica el origen completo del contenido.",
+          "claimIds": ["CLAIM-MED-MEDIEVAL-HEBREW-TRANSLATION-001", "CLAIM-MED-MEDIEVAL-JEWISH-NONESSENCE-001"],
+          "evidenceIds": ["EVID-MED-MEDIEVAL-HEBREW-TRANSLATION-001"],
+          "sourceIds": ["SRC-MED-MEDIEVAL-CABALLERO-2012", "SRC-MED-MEDIEVAL-ZIEGLER-1997"]
+        },
+        {
+          "kind": "curriculum",
+          "observed": "La formación pudo ser familiar, por aprendizaje, libros o acceso institucional desigual.",
+          "inference": "No existió una sola vía judía de cualificación.",
+          "limit": "Ausencia universitaria no equivale a ausencia de aprendizaje.",
+          "claimIds": ["CLAIM-MED-MEDIEVAL-JEWISH-NONESSENCE-001"],
+          "evidenceIds": ["EVID-MED-MEDIEVAL-JEWISH-ARCHIVE-001"],
+          "sourceIds": ["SRC-MED-MEDIEVAL-SHATZMILLER-1995", "SRC-MED-MEDIEVAL-CABALLERO-2012"]
+        },
+        {
+          "kind": "practitioner",
+          "observed": "Hubo médicos y cirujanos judíos, incluidos casos de mujeres, con acceso y títulos variables.",
+          "inference": "Participaron en mercados compartidos bajo restricciones locales.",
+          "limit": "Casos conservados no forman proporción poblacional.",
+          "claimIds": ["CLAIM-MED-MEDIEVAL-JEWISH-PRACTITIONERS-001", "CLAIM-MED-MEDIEVAL-WOMEN-PRACTICE-001"],
+          "evidenceIds": ["EVID-MED-MEDIEVAL-JEWISH-ARCHIVE-001", "EVID-MED-MEDIEVAL-WOMEN-ARCHIVES-001"],
+          "sourceIds": ["SRC-MED-MEDIEVAL-SHATZMILLER-1995", "SRC-MED-MEDIEVAL-GREEN-1989"]
+        },
+        {
+          "kind": "encounter",
+          "observed": "Contratos muestran servicios a pacientes judíos y cristianos junto con prohibiciones y litigios.",
+          "inference": "Aceptación y exclusión coexistieron y se negociaron.",
+          "limit": "Una prohibición no prueba cumplimiento; un contrato no prueba tolerancia general.",
+          "claimIds": ["CLAIM-MED-MEDIEVAL-JEWISH-PRACTITIONERS-001"],
+          "evidenceIds": ["EVID-MED-MEDIEVAL-JEWISH-ARCHIVE-001"],
+          "sourceIds": ["SRC-MED-MEDIEVAL-SHATZMILLER-1995"]
+        },
+        {
+          "kind": "reach",
+          "observed": "Textos y prácticas sobre salud de las mujeres cruzaron comunidades judías y cristianas.",
+          "inference": "Hubo repertorios compartidos y adaptados.",
+          "limit": "Transferencia no implica igualdad de acceso, identidad total o eficacia.",
+          "claimIds": ["CLAIM-MED-MEDIEVAL-JEWISH-NONESSENCE-001", "CLAIM-MED-MEDIEVAL-ENCOUNTER-OUTCOME-001"],
+          "evidenceIds": ["EVID-MED-MEDIEVAL-JEWISH-WOMEN-HEALTH-001", "EVID-MED-MEDIEVAL-EFFICACY-001"],
+          "sourceIds": ["SRC-MED-MEDIEVAL-CABALLERO-2008", "SRC-MED-MEDIEVAL-CABALLERO-2012"]
+        }
+      ]
+    }
+  ]
+}

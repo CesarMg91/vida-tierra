@@ -85,4 +85,4 @@ El programa es revisable: un expediente puede dividirse si una región queda com
 
 ## Estado editorial
 
-MED-003, MED-004, MED-005, MED-006, MED-007, MED-008, MED-009, MED-010 y MED-011 están auditados. El siguiente expediente cronológico es MED-012 — Europa medieval y tradiciones judías: monasterios, universidades, hogares, practicantes y redes textuales. El cambio de región o escala política no implica relevo lineal: las cronologías se solapan y las conexiones sólo se atribuyen cuando una ruta, texto, objeto, institución o agente las documenta.
+MED-003, MED-004, MED-005, MED-006, MED-007, MED-008, MED-009, MED-010, MED-011 y MED-012 están auditados. El siguiente expediente cronológico es MED-013 — rutas del Índico y Eurasia: personas, mercancías, manuscritos e imperios. El cambio de región o escala política no implica relevo lineal: las cronologías se solapan y las conexiones sólo se atribuyen cuando una ruta, texto, objeto, institución o agente las documenta.
