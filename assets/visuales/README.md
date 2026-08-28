@@ -965,3 +965,15 @@ La portada separa manuscritos genéricos, cuaderno, aparato óptico, instrumenta
 Salida original aprobada sin edición: `C:\Users\HUAWEI\.codex\generated_images\019fedb0-8f24-7e33-8d16-d2418ba3378e\exec-58757693-70e2-4927-bb29-bd9356658c33.png` → `assets/visuales/hero-med-012-europa-medieval-tradiciones-judias.png`; tamaño `2,046,782` bytes. El prompt completo y los límites están en `ATLAS_VISUAL.md`, sección 67.
 
 La portada separa códice, objetos domésticos, fascículos, traducciones, enseñanza, instrumental y una maqueta hospitalaria; no contiene personas, práctica clínica o escritura transcribible. Los SVG incluyen `title` y `desc`, preservan testigo, versión, currículo, practicante, encuentro y alcance y no convierten autoridad, licencia, hospital o identidad en consulta o eficacia.
+
+## MED-013 — Rutas del Índico y Eurasia
+
+| Archivo | Origen | Dimensiones | SHA-256 / trazabilidad | Límite |
+|---|---|---:|---|---|
+| `hero-med-013-rutas-indico-eurasia.png` | OpenAI ImageGen, generación nueva del 2026-08-28 | `1672 × 941` | `634d63a02249925f35ddbe15fe3d30a81a5dbe41b2ac9f9dd6c06b05e21ee777` | composición conceptual; no pecio, ruta, manuscrito, sustancia o práctica reales |
+| `cadena-huella-alcance-med-013.svg` | SVG manual determinista | `1600 × 900` | código fuente versionado | seis capas inferenciales; no herencia automática |
+| `matriz-rutas-transferencia-med-013.svg` | SVG manual determinista | `1600 × 900` | código fuente versionado | seis archivos y límites; no centralidad, progreso ni ranking |
+
+Salida original aprobada sin edición: `C:\Users\HUAWEI\.codex\generated_images\019fedb0-8f24-7e33-8d16-d2418ba3378e\exec-ca2c2e25-3223-4e46-9bf3-83a98f610d4e.png` → `assets/visuales/hero-med-013-rutas-indico-eurasia.png`; tamaño `2,339,218` bytes. El prompt completo y los límites están en `ATLAS_VISUAL.md`, sección 68.
+
+La portada separa barco y carga, manuscritos, carta, regalo, traducción, imprenta y plantas con rutas ramificadas; no contiene personas, fronteras, práctica clínica o texto usado como evidencia. Los SVG incluyen `title` y `desc`, preservan huella, identificación, itinerario, mediación, recepción y alcance y no convierten conexión, imperio o impresión en transferencia o eficacia.

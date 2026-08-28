@@ -1184,3 +1184,33 @@ La salida se inspeccionó completa. No contiene personas, rostros, cuerpos, sang
 Las seis estaciones no reproducen Royal MS 12 D XVII, el Trotula, el Pantegni, una Articella, un estatuto universitario, el tratado de Guy de Chauliac, St John de Cambridge o un contrato de un practicante judío. Los hilos no afirman transmisión lineal, coetaneidad, uso, tolerancia o eficacia.
 
 Los SVG se construyeron a `1600 × 900`, incluyen `title`, `desc` y tipografía de reserva. La cadena mantiene seis capas y cortafuegos; la matriz compara seis archivos sin puntuaciones. Ninguno acepta datos, diagnostica, recomienda o representa resultados clínicos.
+
+## 68. MED-013 — Una ruta no demuestra una transferencia
+
+![Portada editorial de MED-013](assets/visuales/hero-med-013-rutas-indico-eurasia.png)
+
+![Cadena desde huella hasta alcance](assets/visuales/cadena-huella-alcance-med-013.svg)
+
+![Matriz de rutas, productos y límites](assets/visuales/matriz-rutas-transferencia-med-013.svg)
+
+| Archivo | Tipo | Procedencia | Qué representa | Límite obligatorio |
+|---|---|---|---|---|
+| `hero-med-013-rutas-indico-eurasia.png` | portada editorial conceptual | OpenAI ImageGen, generación nueva, 2026-08-28 | estaciones genéricas de carga, manuscrito, carta, regalo, traducción, imprenta y rutas ramificadas | no pecio, manuscrito, ruta, sustancia, comunidad o práctica reales |
+| `cadena-huella-alcance-med-013.svg` | diagrama epistemológico original | SVG manual del proyecto, 2026-08-28 | huella, identificación, itinerario, mediación, recepción y alcance | las flechas no heredan función, adopción o efecto |
+| `matriz-rutas-transferencia-med-013.svg` | matriz documental original | SVG manual del proyecto, 2026-08-28 | seis archivos, mediaciones, recepciones y límites | las filas no forman distancia, centralidad, progreso o ranking |
+
+### Procedencia de la portada
+
+Salida original aprobada sin edición: `C:\Users\HUAWEI\.codex\generated_images\019fedb0-8f24-7e33-8d16-d2418ba3378e\exec-ca2c2e25-3223-4e46-9bf3-83a98f610d4e.png`. Destino: `assets/visuales/hero-med-013-rutas-indico-eurasia.png`. Dimensiones: `1672 × 941`; tamaño: `2,339,218` bytes; SHA-256: `634d63a02249925f35ddbe15fe3d30a81a5dbe41b2ac9f9dd6c06b05e21ee777`.
+
+**Prompt de generación:**
+
+> Use case: historical-scene. Asset type: 16:9 website hero for a public-history museum and evidence laboratory, MED-013. Create an original, cinematic museum-editorial still life about how medical knowledge traveled with people, merchandise, manuscripts and empires across the Indian Ocean and Eurasia, circa 800–1600, while visually refusing the idea of one simple Silk Road or automatic transfer. Dark obsidian museum table merging into a barely visible parchment-toned network map; several branching sea and land itineraries, interrupted and uncertain, not a single arrow. Generic archaeological and archival proxies arranged in separate evidence stations: a small wooden ship model with ceramic cargo, translucent amber resin fragments and spice seeds, loose manuscript folios in different undecipherable scripts, a merchant letter and inventory fragments, a sealed diplomatic gift container, a court translation folio with marginal notes, and an early printed botanical page beside unlabelled dried plant specimens. Highly polished photorealistic editorial museum photography, materially plausible, restrained and scholarly, consistent with a living museum plus evidence laboratory. Wide 16:9, generous dark negative space on the left for website copy; evidence stations concentrated center-right; fine copper and mineral-green threads connect only documented stations and visibly stop where inference ends. Warm amber raking light, cool green mineral accents, deep obsidian shadows. No people; no human remains; no sacred or uniquely identifiable artifact replicas; no modern maps or borders; no straight Europe-to-Asia progress arrow; no compass rose; no anachronistic instruments; no false medical procedure; no logos, captions, watermarks or readable text. The image is editorial, not evidentiary.
+
+### Revisión y límites
+
+La salida se inspeccionó completa a resolución original. No contiene personas, cuerpos, sangre, cirugía, banderas, fronteras políticas, logos o rótulos. Las marcas de los folios son textura pseudoescrita no usada como fuente; barco, cerámica, resina, sello, plantas, carta y libros son utilería genérica.
+
+La composición no reproduce el pecio de Belitung, un manuscrito de Dunhuang, un fragmento de la Geniza, un regalo bizantino o islamicate, el `Tānksūqnāma`, el `Huihui yaofang`, los `Colóquios` o una ruta geográfica real. Los hilos ramificados no afirman coetaneidad, dirección, transferencia, adopción o eficacia.
+
+Los SVG se construyeron a `1600 × 900`, incluyen `title`, `desc` y tipografía de reserva. La cadena mantiene seis capas y cortafuegos; la matriz compara seis archivos sin puntuaciones. Ninguno acepta datos, calcula rutas, diagnostica, recomienda o representa resultados clínicos.

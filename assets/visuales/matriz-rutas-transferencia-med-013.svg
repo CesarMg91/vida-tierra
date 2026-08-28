@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Matriz de rutas, productos y límites</title>
+  <desc id="desc">Seis expedientes comparan la huella conservada, la mediación observable, la recepción permitida y el principal salto inválido. Las filas no son puntuaciones ni etapas de progreso.</desc>
+  <defs>
+    <linearGradient id="bg2" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#11100d"/><stop offset=".55" stop-color="#1d1b17"/><stop offset="1" stop-color="#172019"/></linearGradient>
+    <filter id="soft" x="-20%" y="-30%" width="140%" height="170%"><feDropShadow dx="0" dy="8" stdDeviation="10" flood-opacity=".23"/></filter>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg2)"/>
+  <text x="72" y="70" fill="#d69a5d" font-family="IBM Plex Sans, Arial, sans-serif" font-size="18" font-weight="700" letter-spacing="3">MED-013 · MATRIZ COMPARATIVA</text>
+  <text x="72" y="122" fill="#f1e4cf" font-family="Source Serif 4, Georgia, serif" font-size="43" font-weight="700">Seis archivos, seis resoluciones</text>
+  <text x="72" y="160" fill="#bdb5a8" font-family="IBM Plex Sans, Arial, sans-serif" font-size="20">Comparar no es puntuar: cada fila conserva un producto y un límite diferentes.</text>
+
+  <g transform="translate(72 215)" filter="url(#soft)">
+    <rect width="1456" height="566" rx="18" fill="#171512" stroke="#4b463e"/>
+    <rect width="1456" height="72" rx="18" fill="#29251f"/>
+    <path d="M0 54h1456v18H0z" fill="#29251f"/>
+    <g fill="#d69a5d" font-family="IBM Plex Mono, monospace" font-size="14" font-weight="700">
+      <text x="24" y="44">EXPEDIENTE</text>
+      <text x="260" y="44">HUELLA</text>
+      <text x="562" y="44">MEDIACIÓN</text>
+      <text x="870" y="44">RECEPCIÓN PERMITIDA</text>
+      <text x="1178" y="44">NO HEREDA</text>
+    </g>
+    <g stroke="#3d3933" stroke-width="1"><path d="M236 0v566"/><path d="M538 0v566"/><path d="M846 0v566"/><path d="M1154 0v566"/></g>
+    <g stroke="#34312c" stroke-width="1"><path d="M0 154h1456"/><path d="M0 236h1456"/><path d="M0 318h1456"/><path d="M0 400h1456"/><path d="M0 482h1456"/></g>
+    <g font-family="Source Serif 4, Georgia, serif" font-size="22" font-weight="700" fill="#f1e4cf">
+      <text x="24" y="112">Belitung</text><text x="24" y="194">Dunhuang</text><text x="24" y="276">Geniza</text><text x="24" y="358">Regalos y azúcar</text><text x="24" y="440">Cortes mongolas</text><text x="24" y="522">Goa y Orta</text>
+    </g>
+    <g font-family="IBM Plex Sans, Arial, sans-serif" font-size="16" fill="#d9d0c2">
+      <text x="260" y="104"><tspan x="260">pecio, carga</tspan><tspan x="260" dy="22">y resina</tspan></text>
+      <text x="260" y="186"><tspan x="260">folios tibetanos</tspan><tspan x="260" dy="22">y diagramas</tspan></text>
+      <text x="260" y="268"><tspan x="260">cartas, listas,</tspan><tspan x="260" dy="22">recetas, cuadernos</tspan></text>
+      <text x="260" y="350"><tspan x="260">relatos de entrega</tspan><tspan x="260" dy="22">y versiones</tspan></text>
+      <text x="260" y="432"><tspan x="260">cargos, oficinas</tspan><tspan x="260" dy="22">y compilaciones</tspan></text>
+      <text x="260" y="514"><tspan x="260">edición de 1563</tspan><tspan x="260" dy="22">y adaptaciones</tspan></text>
+    </g>
+    <g font-family="IBM Plex Sans, Arial, sans-serif" font-size="16" fill="#c4d3c7">
+      <text x="562" y="104"><tspan x="562">productores, puertos,</tspan><tspan x="562" dy="22">tripulación</tspan></text>
+      <text x="562" y="186"><tspan x="562">copistas, compiladores,</tspan><tspan x="562" dy="22">relatos posteriores</tspan></text>
+      <text x="562" y="268"><tspan x="562">mercader, escriba,</tspan><tspan x="562" dy="22">boticario, practicante</tspan></text>
+      <text x="562" y="350"><tspan x="562">diplomáticos, médicos,</tspan><tspan x="562" dy="22">traductores</tspan></text>
+      <text x="562" y="432"><tspan x="562">patronos, especialistas,</tspan><tspan x="562" dy="22">traductores</tspan></text>
+      <text x="562" y="514"><tspan x="562">informantes, autor,</tspan><tspan x="562" dy="22">impresor, Clusius</tspan></text>
+    </g>
+    <g font-family="IBM Plex Sans, Arial, sans-serif" font-size="16" fill="#d9d0c2">
+      <text x="870" y="104"><tspan x="870">conexión marítima;</tspan><tspan x="870" dy="22">entrega interrumpida</tspan></text>
+      <text x="870" y="186"><tspan x="870">contactos y adaptación</tspan><tspan x="870" dy="22">por pasajes</tspan></text>
+      <text x="870" y="268"><tspan x="870">red agregada y decisión</tspan><tspan x="870" dy="22">escrita según género</tspan></text>
+      <text x="870" y="350"><tspan x="870">entrega y reconfiguración</tspan><tspan x="870" dy="22">textual específicas</tspan></text>
+      <text x="870" y="432"><tspan x="870">capacidad institucional</tspan><tspan x="870" dy="22">y selección</tspan></text>
+      <text x="870" y="514"><tspan x="870">producción relacional</tspan><tspan x="870" dy="22">y recepción editorial</tspan></text>
+    </g>
+    <g font-family="IBM Plex Sans, Arial, sans-serif" font-size="16" fill="#e5ae76">
+      <text x="1178" y="104"><tspan x="1178">función médica, destino,</tspan><tspan x="1178" dy="22">resultado</tspan></text>
+      <text x="1178" y="186"><tspan x="1178">médico viajero o</tspan><tspan x="1178" dy="22">sistema completo</tspan></text>
+      <text x="1178" y="268"><tspan x="1178">un solo lote, paciente</tspan><tspan x="1178" dy="22">o beneficio</tspan></text>
+      <text x="1178" y="350"><tspan x="1178">administración, difusión</tspan><tspan x="1178" dy="22">o eficacia</tspan></text>
+      <text x="1178" y="432"><tspan x="1178">homogeneidad, cobertura</tspan><tspan x="1178" dy="22">o simetría</tspan></text>
+      <text x="1178" y="514"><tspan x="1178">descubridor solitario,</tspan><tspan x="1178" dy="22">adopción o eficacia</tspan></text>
+    </g>
+  </g>
+  <g transform="translate(72 813)">
+    <circle cx="10" cy="10" r="8" fill="#b97945"/><text x="30" y="16" fill="#bdb5a8" font-family="IBM Plex Sans, Arial, sans-serif" font-size="17">La ausencia de un puente es «no demostrado»; no se rellena con una flecha.</text>
+    <text x="1456" y="16" text-anchor="end" fill="#777166" font-family="IBM Plex Mono, monospace" font-size="13">SIN RANKING · SIN RUTA UNIVERSAL</text>
+  </g>
+</svg>
