@@ -1,0 +1,96 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Cadena de inferencia de MED-011: del testigo a la consecuencia</title>
+  <desc id="desc">Seis estaciones distinguen testigo, versión, operación, institución, alcance y consecuencia. Flechas discontinuas indican puentes que deben justificarse; una franja inferior enumera errores de herencia.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#12100d"/>
+      <stop offset="1" stop-color="#211b16"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="12" stdDeviation="14" flood-color="#000" flood-opacity=".35"/>
+    </filter>
+    <marker id="arrow" markerWidth="12" markerHeight="12" refX="9" refY="6" orient="auto">
+      <path d="M1 1l9 5-9 5z" fill="#c1844a"/>
+    </marker>
+    <style>
+      .sans{font-family:"IBM Plex Sans",Arial,sans-serif}.serif{font-family:"Source Serif 4",Georgia,serif}
+      .eyebrow{font-size:19px;letter-spacing:3px;font-weight:700;fill:#d6a16c}.title{font-size:46px;font-weight:600;fill:#f2e6d1}
+      .subtitle{font-size:23px;fill:#c8b9a4}.num{font-size:18px;font-weight:700;fill:#17120e}.label{font-size:28px;font-weight:700;fill:#f5ead7}
+      .question{font-size:20px;fill:#d8cbb8}.product{font-size:18px;fill:#8fc3ad}.limit{font-size:18px;fill:#e4aa75}
+      .footer{font-size:21px;fill:#d7c8b5}.small{font-size:17px;fill:#a99a87}
+    </style>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <path d="M0 170C340 95 575 205 820 130s490-70 780 35V0H0z" fill="#2b3b33" opacity=".48"/>
+  <text x="92" y="82" class="sans eyebrow">MED-011 · CADENA DE INFERENCIA</text>
+  <text x="92" y="140" class="serif title">Una traducción no hereda una práctica</text>
+  <text x="92" y="182" class="sans subtitle">Cada puente necesita testigo, operación y límite propios.</text>
+
+  <g filter="url(#shadow)">
+    <g transform="translate(92 248)">
+      <rect width="218" height="254" rx="18" fill="#2a241e" stroke="#6e5742" stroke-width="2"/>
+      <circle cx="34" cy="34" r="20" fill="#d7a46e"/><text x="34" y="41" text-anchor="middle" class="sans num">01</text>
+      <text x="24" y="86" class="sans label">Testigo</text>
+      <text x="24" y="124" class="sans question"><tspan x="24">¿qué objeto</tspan><tspan x="24" dy="27">sobrevive?</tspan></text>
+      <text x="24" y="193" class="sans product"><tspan x="24">manuscrito · receta</tspan><tspan x="24" dy="25">waqf · edificio</tspan></text>
+      <text x="24" y="235" class="sans limit">≠ corpus completo</text>
+    </g>
+    <g transform="translate(334 248)">
+      <rect width="218" height="254" rx="18" fill="#252820" stroke="#61765f" stroke-width="2"/>
+      <circle cx="34" cy="34" r="20" fill="#87ad91"/><text x="34" y="41" text-anchor="middle" class="sans num">02</text>
+      <text x="24" y="86" class="sans label">Versión</text>
+      <text x="24" y="124" class="sans question"><tspan x="24">¿qué copia o</tspan><tspan x="24" dy="27">revisión conserva?</tspan></text>
+      <text x="24" y="193" class="sans product"><tspan x="24">lengua · mano</tspan><tspan x="24" dy="25">cotejo · comentario</tspan></text>
+      <text x="24" y="235" class="sans limit">≠ voz intacta</text>
+    </g>
+    <g transform="translate(576 248)">
+      <rect width="218" height="254" rx="18" fill="#2a241e" stroke="#6e5742" stroke-width="2"/>
+      <circle cx="34" cy="34" r="20" fill="#d7a46e"/><text x="34" y="41" text-anchor="middle" class="sans num">03</text>
+      <text x="24" y="86" class="sans label">Operación</text>
+      <text x="24" y="124" class="sans question"><tspan x="24">¿qué acción</tspan><tspan x="24" dy="27">describe?</tspan></text>
+      <text x="24" y="193" class="sans product"><tspan x="24">traducir · observar</tspan><tspan x="24" dy="25">preparar · operar</tspan></text>
+      <text x="24" y="235" class="sans limit">≠ ejecución rutinaria</text>
+    </g>
+    <g transform="translate(818 248)">
+      <rect width="218" height="254" rx="18" fill="#252820" stroke="#61765f" stroke-width="2"/>
+      <circle cx="34" cy="34" r="20" fill="#87ad91"/><text x="34" y="41" text-anchor="middle" class="sans num">04</text>
+      <text x="24" y="86" class="sans label">Institución</text>
+      <text x="24" y="124" class="sans question"><tspan x="24">¿qué red la</tspan><tspan x="24" dy="27">sostuvo?</tspan></text>
+      <text x="24" y="193" class="sans product"><tspan x="24">taller · hospital</tspan><tspan x="24" dy="25">mercado · hisba</tspan></text>
+      <text x="24" y="235" class="sans limit">≠ cobertura uniforme</text>
+    </g>
+    <g transform="translate(1060 248)">
+      <rect width="218" height="254" rx="18" fill="#2a241e" stroke="#6e5742" stroke-width="2"/>
+      <circle cx="34" cy="34" r="20" fill="#d7a46e"/><text x="34" y="41" text-anchor="middle" class="sans num">05</text>
+      <text x="24" y="86" class="sans label">Alcance</text>
+      <text x="24" y="124" class="sans question"><tspan x="24">¿a quién, dónde</tspan><tspan x="24" dy="27">y cuándo aplica?</tspan></text>
+      <text x="24" y="193" class="sans product"><tspan x="24">ciudad · grupo</tspan><tspan x="24" dy="25">periodo · exclusión</tspan></text>
+      <text x="24" y="235" class="sans limit">≠ mundo homogéneo</text>
+    </g>
+    <g transform="translate(1302 248)">
+      <rect width="218" height="254" rx="18" fill="#252820" stroke="#61765f" stroke-width="2"/>
+      <circle cx="34" cy="34" r="20" fill="#87ad91"/><text x="34" y="41" text-anchor="middle" class="sans num">06</text>
+      <text x="24" y="86" class="sans label">Consecuencia</text>
+      <text x="24" y="124" class="sans question"><tspan x="24">¿qué cambio se</tspan><tspan x="24" dy="27">midió?</tspan></text>
+      <text x="24" y="193" class="sans product"><tspan x="24">circulación · acceso</tspan><tspan x="24" dy="25">salud · daño</tspan></text>
+      <text x="24" y="235" class="sans limit">≠ beneficio automático</text>
+    </g>
+  </g>
+
+  <g fill="none" stroke="#c1844a" stroke-width="3" stroke-dasharray="8 9" marker-end="url(#arrow)">
+    <path d="M310 375h20"/><path d="M552 375h20"/><path d="M794 375h20"/><path d="M1036 375h20"/><path d="M1278 375h20"/>
+  </g>
+
+  <rect x="92" y="566" width="1428" height="225" rx="22" fill="#161310" stroke="#4a3c30" stroke-width="2"/>
+  <text x="126" y="616" class="sans eyebrow">CORTAFUEGOS</text>
+  <g class="sans footer">
+    <text x="126" y="663">texto ≠ práctica</text>
+    <text x="423" y="663">receta ≠ dispensación</text>
+    <text x="778" y="663">waqf ≠ funcionamiento</text>
+    <text x="1170" y="663">norma ≠ cumplimiento</text>
+    <text x="126" y="711">experimento óptico ≠ resultado clínico</text>
+    <text x="778" y="711">biografía ≠ registro representativo</text>
+    <text x="126" y="759" fill="#d7a46e">circulación ≠ verdad ≠ eficacia</text>
+  </g>
+  <text x="92" y="850" class="sans small">Comparación dimensional, sin “primeros”, flecha civilizatoria ni puntuación de avance.</text>
+</svg>

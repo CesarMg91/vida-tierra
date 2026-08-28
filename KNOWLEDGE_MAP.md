@@ -1605,3 +1605,17 @@ Los cortafuegos principales son: Américas ≠ una tradición; abertura ≠ indi
 Cuzco conserva intervención y supervivencia frecuente sin historia clínica completa; los dientes mayas, técnica, material y un control patológico adversario; Huaca El Paraíso, contacto vegetal individual; Piauí, convergencia entre parásitos y uso medicinal probable; el Libellus y el Códice Florentino, agencia nahua bajo producción colonial situada.
 
 Véase 15_medicina/INVESTIGACION_MED_010_MESOAMERICA_ANDES_AMERICAS.md, 22_mapas_epistemologicos/MAPA_MED_010_MESOAMERICA_ANDES_AMERICAS.md, 21_cronologias/CRONOLOGIA_MED_010_MESOAMERICA_ANDES_AMERICAS.md, assets/visuales/cadena-archivo-consecuencia-med-010.svg y assets/visuales/matriz-archivos-americas-med-010.svg.
+
+## MED-011 — mundos islámicos
+
+`testigo → versión → operación → institución → alcance → consecuencia`
+
+- `INV-MED-ISLAMIC-WORLDS-001` integra seis redes auditadas sin una “edad de oro” homogénea.
+- Traducción enlaza `CLAIM-MED-ISLAMIC-TRANSLATION-001` con `EVID-MED-ISLAMIC-TRANSLATION-RISALA-001` y `EVID-MED-ISLAMIC-GALEN-VERSION-001`.
+- Observación y canon enlazan casos de al-Razi, reglas de Ibn Sina y comentarios sin heredar cohorte o ensayo.
+- Óptica y oftalmología separan experimento, técnica propuesta y desenlace.
+- Bimaristanes separan `waqf`, operación, acceso y resultado; Gundeshapur funciona como control adversario.
+- Geniza, formularios e `hisba` separan prescripción, dispensación, norma y cumplimiento.
+- `CLAIM-MED-ISLAMIC-EFFICACY-001` impide que circulación o antigüedad sustituyan efecto medido.
+
+Véase 15_medicina/INVESTIGACION_MED_011_MUNDOS_ISLAMICOS.md, 22_mapas_epistemologicos/MAPA_MED_011_MUNDOS_ISLAMICOS.md, 21_cronologias/CRONOLOGIA_MED_011_MUNDOS_ISLAMICOS.md, assets/visuales/cadena-testigo-consecuencia-med-011.svg y assets/visuales/matriz-redes-medicina-med-011.svg.

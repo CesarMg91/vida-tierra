@@ -526,6 +526,46 @@ for (const archiveCase of americasMedicineArchiveData.cases) {
   }
 }
 
+const islamicWorldsMedicineNetworkData = JSON.parse(
+  fs.readFileSync(path.join(ROOT, "content", "islamic-worlds-medicine-networks.json"), "utf8"),
+);
+const islamicWorldsMedicineLayerKinds = ["witness", "version", "operation", "institution", "scope", "consequence"];
+check(islamicWorldsMedicineNetworkData.schemaVersion === 1, "el módulo de mundos islámicos usa una versión de esquema desconocida");
+check(
+  researchSlugs.has(islamicWorldsMedicineNetworkData.researchSlug),
+  `el módulo de mundos islámicos apunta a un expediente inexistente: ${islamicWorldsMedicineNetworkData.researchSlug}`,
+);
+check(
+  Array.isArray(islamicWorldsMedicineNetworkData.cases) && islamicWorldsMedicineNetworkData.cases.length === 6,
+  "el módulo de mundos islámicos debe contener seis redes",
+);
+check(
+  duplicates(islamicWorldsMedicineNetworkData.cases.map((record) => record.id)).length === 0,
+  "el módulo de mundos islámicos contiene redes duplicadas",
+);
+for (const networkCase of islamicWorldsMedicineNetworkData.cases) {
+  check(
+    Boolean(networkCase.title) && Boolean(networkCase.region) && Boolean(networkCase.archive),
+    `${networkCase.id} no declara título, región o archivo`,
+  );
+  check(
+    JSON.stringify(networkCase.layers?.map((layer) => layer.kind)) === JSON.stringify(islamicWorldsMedicineLayerKinds),
+    `${networkCase.id} no conserva las seis capas médicas en orden`,
+  );
+  for (const layer of networkCase.layers ?? []) {
+    check(
+      Boolean(layer.observed) && Boolean(layer.inference) && Boolean(layer.limit),
+      `${networkCase.id}/${layer.kind} tiene un estado vacío`,
+    );
+    check(layer.claimIds?.length > 0, `${networkCase.id}/${layer.kind} no enlaza claims`);
+    check(layer.evidenceIds?.length > 0, `${networkCase.id}/${layer.kind} no enlaza evidencias`);
+    check(layer.sourceIds?.length > 0, `${networkCase.id}/${layer.kind} no enlaza fuentes`);
+    for (const id of layer.claimIds ?? []) check(claimIds.has(id), `${networkCase.id}/${layer.kind} enlaza un claim inexistente: ${id}`);
+    for (const id of layer.evidenceIds ?? []) check(evidenceIds.has(id), `${networkCase.id}/${layer.kind} enlaza una evidencia inexistente: ${id}`);
+    for (const id of layer.sourceIds ?? []) check(sourceIds.has(id), `${networkCase.id}/${layer.kind} enlaza una fuente inexistente: ${id}`);
+  }
+}
+
 for (const record of data.catalog) {
   for (const id of record.claimIds) check(claimIds.has(id), `${record.key} enlaza un claim inexistente: ${id}`);
   for (const id of record.sourceIds) check(sourceIds.has(id), `${record.key} enlaza una fuente inexistente: ${id}`);

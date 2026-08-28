@@ -708,3 +708,25 @@ CIV-003 inaugura los expedientes regionales auditados. CIV-001 conserva `TRAZADO
 | `TIME-MED-AMERICAS-FLORENTINE-DIGITAL-001` | 2023 | se publica el Códice Florentino Digital | edición amplía acceso; no borra mediaciones | `SRC-MED-AMERICAS-GETTY-FLORENTINE` | A digital/B editorial | AUDITADO |
 | `TIME-MED-AMERICAS-MAYA-SYNTHESIS-001` | 2024 | Tiesler integra tres milenios de modificación dental maya | síntesis depende de colecciones desiguales | `SRC-MED-AMERICAS-TIESLER-2024` | A historiográfico/B alcance | AUDITADO |
 | `TIME-MED-AMERICAS-TRANSLATION-001` | 2025 | Nesvig reevalúa categorías coloniales de magia y curación | foco temprano-colonial y textual | `SRC-MED-AMERICAS-NESVIG-2025` | A/B histórico | AUDITADO |
+
+## MED-011 — mundos islámicos
+
+| ID | Fecha | Evento | Alcance / reloj | Fuente | Confianza | Estado |
+|---|---|---|---|---|---|---|
+| `TIME-MED-ISLAMIC-HUNAYN-001` | ca. 809–873 | vida y actividad de Hunayn ibn Ishaq | biografía; no fecha cada versión | `SRC-MED-ISLAMIC-PORMANN-SAVAGE-2007` | A/B histórico | AUDITADO |
+| `TIME-MED-ISLAMIC-TRANSLATIONS-001` | s. IX | informe y proyectos greco-siríaco-árabes asociados con Hunayn | producción de versiones y encargos | `SRC-MED-ISLAMIC-VAGELPOHL-2011` | A textual/B fecha | AUDITADO |
+| `TIME-MED-ISLAMIC-RAZI-001` | ca. 854–925 | vida y actividad de al-Razi | marco biográfico; no fecha cada caso | `SRC-MED-ISLAMIC-ALVAREZ-MILLAN-2000` | A/B histórico | AUDITADO |
+| `TIME-MED-ISLAMIC-LICENSING-001` | 931/932 | examen de practicantes atribuido a Sinan ibn Thabit en Bagdad | episodio narrado posteriormente | `SRC-MED-ISLAMIC-IBN-ABI-USAYBIA-2024` | B histórico | AUDITADO |
+| `TIME-MED-ISLAMIC-RAZI-CASES-001` | s. X; compilación posterior | estrato de casos del Kitab al-Tajarib | observación atribuida y edición son relojes distintos | `SRC-MED-ISLAMIC-ALVAREZ-MILLAN-2010` | A textual/B fecha | AUDITADO |
+| `TIME-MED-ISLAMIC-IBN-SINA-001` | 980–1037 | vida de Ibn Sina y composición del Canon | marco autoral; copias y usos son posteriores | `SRC-MED-ISLAMIC-NASSER-2009` | A histórico | AUDITADO |
+| `TIME-MED-ISLAMIC-IBN-HAYTHAM-001` | ca. 965–1040 | vida y obra óptica de Ibn al-Haytham | investigación óptica, no desenlace clínico | `SRC-MED-ISLAMIC-RAYNAUD-2003` | A/B histórico | AUDITADO |
+| `TIME-MED-ISLAMIC-AMMAR-001` | inicios del s. XI | Ammar al-Mawsili describe aguja hueca para catarata | propuesta textual; uso y resultado abiertos | `SRC-MED-ISLAMIC-PEREZ-CAMBRODI-2015` | A textual/B fecha | AUDITADO |
+| `TIME-MED-ISLAMIC-RAZI-COPY-001` | 1094 | copia del manuscrito A17 de al-Hawi | fecha una sección conservada, no el corpus | `SRC-MED-ISLAMIC-NLM-RAZI` | A objeto | AUDITADO |
+| `TIME-MED-ISLAMIC-NURI-001` | 1154 | fundación del bimaristan al-Nuri en Damasco | fundación, no operación invariable | `SRC-MED-ISLAMIC-RAGAB-2015` | A/B histórico | AUDITADO |
+| `TIME-MED-ISLAMIC-CANON-COMMENTARIES-001` | ss. XII–XIV | comentarios árabes al Canon verifican o modifican proposiciones | recepción plural | `SRC-MED-ISLAMIC-FANCY-2020` | A/B histórico | AUDITADO |
+| `TIME-MED-ISLAMIC-GENIZAH-001` | principalmente ss. XI–XIII | prescripciones y cuadernos médicos de la Geniza | estratos documentales variables | `SRC-MED-ISLAMIC-LEV-AMAR-2007`, `SRC-MED-ISLAMIC-LEV-2013` | A documental/B fecha | AUDITADO |
+| `TIME-MED-ISLAMIC-QALAWUN-001` | 1284–1285 | fundación del complejo de Qalawun en El Cairo | waqf, dotación y programa | `SRC-MED-ISLAMIC-RAGAB-2015` | A/B histórico | AUDITADO |
+| `TIME-MED-ISLAMIC-UYUN-001` | s. XIII | Ibn Abi Usaybia compone y amplía su historia de médicos | obra biográfica, no padrón | `SRC-MED-ISLAMIC-IBN-ABI-USAYBIA-2024` | A obra/B representación | AUDITADO |
+| `TIME-MED-ISLAMIC-SHADHILI-001` | s. XIV | un oculista egipcio cuestiona extracción de catarata | desacuerdo textual, no frecuencia | `SRC-MED-ISLAMIC-SAVAGE-SMITH-2022` | A textual/B alcance | AUDITADO |
+| `TIME-MED-ISLAMIC-CASE-HISTORIOGRAPHY-001` | 2000–2010 | Álvarez-Millán reevalúa casos como fuentes de práctica | cambio historiográfico | `SRC-MED-ISLAMIC-ALVAREZ-MILLAN-2000`, `SRC-MED-ISLAMIC-ALVAREZ-MILLAN-2010` | A publicación | AUDITADO |
+| `TIME-MED-ISLAMIC-HOSPITAL-HISTORIOGRAPHY-001` | 1987–2015 | Dols y Ragab revisan origen y operación de hospitales | cambio historiográfico | `SRC-MED-ISLAMIC-DOLS-1987`, `SRC-MED-ISLAMIC-RAGAB-2015` | A publicación | AUDITADO |
