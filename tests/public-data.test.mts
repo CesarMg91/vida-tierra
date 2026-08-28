@@ -13,7 +13,7 @@ import { renderMarkdownForTest } from "../lib/content.ts";
 
 test("el catálogo conserva 52 órdenes globales y las series temáticas fuera de la secuencia", () => {
   const { catalog } = buildPublicData();
-  assert.equal(catalog.length, 67);
+  assert.equal(catalog.length, 68);
   assert.deepEqual(
     catalog.filter((record) => record.order !== null).map((record) => record.order),
     Array.from({ length: 52 }, (_, index) => index + 1),
@@ -23,7 +23,7 @@ test("el catálogo conserva 52 órdenes globales y las series temáticas fuera d
   assert.equal(thematic?.status, "TRAZADO");
   assert.deepEqual(
     catalog.filter((record) => record.order === null).map((record) => [record.key, record.status]),
-    [["CIV-001", "TRAZADO"], ["CIV-002", "AUDITADO"], ["CIV-003", "AUDITADO"], ["MED-001", "AUDITADO"], ["MED-002", "AUDITADO"], ["MED-003", "AUDITADO"], ["MED-004", "AUDITADO"], ["MED-005", "AUDITADO"], ["MED-006", "AUDITADO"], ["MED-007", "AUDITADO"], ["MED-008", "AUDITADO"], ["MED-009", "AUDITADO"], ["MED-010", "AUDITADO"], ["MED-011", "AUDITADO"], ["MED-012", "AUDITADO"]],
+    [["CIV-001", "TRAZADO"], ["CIV-002", "AUDITADO"], ["CIV-003", "AUDITADO"], ["MED-001", "AUDITADO"], ["MED-002", "AUDITADO"], ["MED-003", "AUDITADO"], ["MED-004", "AUDITADO"], ["MED-005", "AUDITADO"], ["MED-006", "AUDITADO"], ["MED-007", "AUDITADO"], ["MED-008", "AUDITADO"], ["MED-009", "AUDITADO"], ["MED-010", "AUDITADO"], ["MED-011", "AUDITADO"], ["MED-012", "AUDITADO"], ["MED-013", "AUDITADO"]],
   );
 });
 
@@ -35,7 +35,7 @@ test("las investigaciones temáticas se reconocen y ordenan por serie sin casos 
   assert.equal(researchKeyFromFile("16_fisica/INVESTIGACION_FIS_999_PRUEBA.md"), "FIS-999");
   assert.equal(researchKeyFromFile("14_civilizaciones/INVESTIGACION_CIV_02_INVALIDA.md"), null);
   assert.equal(researchKeyFromFile("15_medicina/INVESTIGACION_med_001_INVALIDA.md"), null);
-  assert.deepEqual(thematicResearchKey("MED-012"), { series: "MED", order: 12 });
+  assert.deepEqual(thematicResearchKey("MED-013"), { series: "MED", order: 13 });
   assert.equal(thematicResearchKey("MED-12"), null);
 
   const records = [
@@ -65,12 +65,12 @@ test("los comodines editoriales no se convierten en IDs inexistentes", () => {
 
 test("todos los registros maestros quedan materializados", () => {
   const rows = registryRows();
-  assert.equal(rows.claims.length, 1169);
-  assert.equal(rows.evidence.length, 988);
-  assert.equal(rows.sources.length, 1423);
-  assert.equal(rows.controversies.length, 533);
-  assert.equal(rows.errors.length, 636);
-  assert.equal(rows.timeline.length, 582);
+  assert.equal(rows.claims.length, 1192);
+  assert.equal(rows.evidence.length, 1010);
+  assert.equal(rows.sources.length, 1442);
+  assert.equal(rows.controversies.length, 543);
+  assert.equal(rows.errors.length, 650);
+  assert.equal(rows.timeline.length, 599);
 });
 
 test("cada claim llega a evidencia y fuentes publicables", () => {

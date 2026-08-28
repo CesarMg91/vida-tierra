@@ -1634,3 +1634,17 @@ Véase 15_medicina/INVESTIGACION_MED_011_MUNDOS_ISLAMICOS.md, 22_mapas_epistemol
 - `CLAIM-MED-MEDIEVAL-ENCOUNTER-OUTCOME-001` impide que autoridad o circulación sustituyan efecto.
 
 Véase 15_medicina/INVESTIGACION_MED_012_EUROPA_MEDIEVAL_TRADICIONES_JUDIAS.md, 22_mapas_epistemologicos/MAPA_MED_012_EUROPA_MEDIEVAL_TRADICIONES_JUDIAS.md, 21_cronologias/CRONOLOGIA_MED_012_EUROPA_MEDIEVAL_TRADICIONES_JUDIAS.md, assets/visuales/cadena-testigo-alcance-med-012.svg y assets/visuales/matriz-espacios-medicina-med-012.svg.
+
+## MED-013 — Rutas del Índico y Eurasia
+
+Cadena principal: **huella → identificación → itinerario → mediación → recepción → alcance**.
+
+- Belitung separa pecio, identificación material, ruta, función y destino.
+- Dunhuang separa testigo, paralelo, préstamo, relato historiográfico y práctica.
+- La Geniza separa carta, inventario, prescripción, cuaderno y resultado.
+- Los regalos separan entrega, receta, preparado, administración y efecto.
+- Los imperios mongoles separan patronazgo, oficina, compilación, recepción y cobertura.
+- Los `Colóquios` separan informantes, autoridad, taxón, edición y adopción.
+- `CLAIM-MED-ROUTES-MODEL-001` impide que conexión herede transferencia.
+
+Véase 15_medicina/INVESTIGACION_MED_013_RUTAS_INDICO_EURASIA.md, 22_mapas_epistemologicos/MAPA_MED_013_RUTAS_INDICO_EURASIA.md, 21_cronologias/CRONOLOGIA_MED_013_RUTAS_INDICO_EURASIA.md, assets/visuales/cadena-huella-alcance-med-013.svg y assets/visuales/matriz-rutas-transferencia-med-013.svg.

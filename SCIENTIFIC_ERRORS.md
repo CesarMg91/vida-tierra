@@ -4342,3 +4342,22 @@ Riesgo basal, alternativas y preferencias cambian el balance. **Corrección:** s
 | `ERR-MED-MEDIEVAL-SURGERY-SUCCESS-001` | técnica descrita prueba operación exitosa | faltan elegibilidad, denominador, daño y seguimiento | separar texto, elección, acto y desenlace | ACTIVO |
 | `ERR-MED-MEDIEVAL-HOSPITAL-MODERN-001` | hospital medieval fue clínica moderna | hospitalidad, caridad, sustento y oración variaron por casa | declarar función, población y periodo | ACTIVO |
 | `ERR-MED-MEDIEVAL-JEWISH-ESSENCE-001` | médicos judíos compartieron un método esencial o privilegio universal | lengua, formación, jurisdicción y restricciones variaron | especificar agente, red y archivo | ACTIVO |
+
+## MED-013 — Rutas del Índico y Eurasia
+
+| ID | Error | Por qué falla | Corrección | Estado |
+|---|---|---|---|---|
+| `ERR-MED-ROUTES-SILK-ROAD-SINGULAR-001` | dibujar una Ruta de la Seda única y continua | redes marítimas y terrestres fueron múltiples, estacionales e interrumpidas | declarar tramo, fecha, medio y alternativas | ACTIVO |
+| `ERR-MED-ROUTES-PRESENCE-USE-001` | una sustancia presente fue usada como medicina | materiales tuvieron funciones comerciales, técnicas, rituales y alimentarias | exigir contexto funcional o episodio vinculado | ACTIVO |
+| `ERR-MED-ROUTES-NAME-SPECIES-001` | un nombre histórico equivale a una especie moderna estable | polisemia, sinonimia y partes comerciales cambian la unidad | triangular nombre, descripción, espécimen y química | ACTIVO |
+| `ERR-MED-ROUTES-SHIP-PHARMACY-001` | un pecio con resina o especias fue una farmacia flotante | carga y función terapéutica no son equivalentes | separar identificación, transporte, recepción y uso | ACTIVO |
+| `ERR-MED-ROUTES-SIMILARITY-TRANSFER-001` | semejanza léxica, visual o doctrinal prueba préstamo directo | convergencia y fuente común son alternativas | exigir cronología, intermediarios y variantes compartidas | ACTIVO |
+| `ERR-MED-ROUTES-GALEN-TRAVELER-001` | Galeno o un discípulo documentado llevó un sistema completo a Tíbet | relatos tardíos exceden los pocos testigos tempranos | delimitar contactos por pasaje y confianza | ACTIVO |
+| `ERR-MED-ROUTES-GENIZA-MERGE-001` | carta, inventario y prescripción de la Geniza forman una historia clínica | la colección reúne géneros y episodios independientes | enlazar sólo mediante identificadores compartidos | ACTIVO |
+| `ERR-MED-ROUTES-GIFT-EFFICACY-001` | un regalo médico fue administrado y funcionó | entrega, uso y resultado son eventos distintos | exigir preparación, dosis, paciente, daño y seguimiento | ACTIVO |
+| `ERR-MED-ROUTES-TRANSLATION-PIPE-001` | una traducción transmitió conocimiento intacto | selección, omisión, glosa y audiencia reconfiguran el texto | reconstruir versión y operación editorial | ACTIVO |
+| `ERR-MED-ROUTES-EMPIRE-UNIFORM-001` | un imperio creó una medicina uniforme | oficinas y repertorios coexistieron con alcance desigual | desagregar corte, oficina, mercado, comunidad y hogar | ACTIVO |
+| `ERR-MED-ROUTES-BIDIRECTIONAL-SYMMETRY-001` | intercambio en dos direcciones fue simétrico | volumen, poder, archivo y continuidad difieren | medir cada producto y dirección por separado | ACTIVO |
+| `ERR-MED-ROUTES-ORTA-DISCOVERER-001` | Orta descubrió solo las drogas de India | dependió de informantes, mercados, textos y orden colonial | reconocer producción relacional y asimetría | ACTIVO |
+| `ERR-MED-ROUTES-PRINT-ADOPTION-001` | imprimir o traducir un libro demuestra adopción clínica | disponibilidad, lectura, comprensión y práctica no son equivalentes | seguir audiencia, cita, adaptación y encuentro | ACTIVO |
+| `ERR-MED-ROUTES-CIRCULATION-PROGRESS-001` | más conexiones o mayor distancia prueban avance y eficacia | circulación mide red, no seguridad, beneficio o superioridad | comparar dimensiones sin puntuación y auditar efectos aparte | ACTIVO |

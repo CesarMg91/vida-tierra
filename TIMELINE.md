@@ -753,3 +753,25 @@ CIV-003 inaugura los expedientes regionales auditados. CIV-001 conserva `TRAZADO
 | `TIME-MED-MEDIEVAL-SOCIAL-HISTORY-001` | 1993–1995 | McVaugh, Shatzmiller y García-Ballester estudian práctica y regulación | giro archivístico y social | `SRC-MED-MEDIEVAL-MCVAUGH-1993`, `SRC-MED-MEDIEVAL-SHATZMILLER-1995`, `SRC-MED-MEDIEVAL-GARCIA-BALLESTER-1995` | A publicación | AUDITADO |
 | `TIME-MED-MEDIEVAL-TROTULA-HISTORIOGRAPHY-001` | 1996 | Green reconstruye el desarrollo plural del Trotula | cambio filológico | `SRC-MED-MEDIEVAL-GREEN-1996` | A publicación | AUDITADO |
 | `TIME-MED-MEDIEVAL-RECIPES-HISTORIOGRAPHY-001` | 2024 | Burridge y Batten reevalúan recetas, práctica y cuerpo | cambio metodológico | `SRC-MED-MEDIEVAL-BURRIDGE-2024`, `SRC-MED-MEDIEVAL-BATTEN-2024` | A publicación | AUDITADO |
+
+## MED-013 — Rutas del Índico y Eurasia
+
+| ID | Fecha / rango | Evento o testigo | Qué fecha | Fuentes | Confianza | Estado |
+|---|---|---|---|---|---|---|
+| `TIME-MED-ROUTES-DUNHUANG-001` | ca. siglos IX–X | se copian/depositan manuscritos tibetanos médicos de Dunhuang | testigos concretos, no origen de cada técnica | `SRC-MED-ROUTES-YOELI-TLALIM-2012`, `SRC-MED-ROUTES-HAN-2025` | A objeto/B estrato | AUDITADO |
+| `TIME-MED-ROUTES-BELITUNG-001` | ca. 830 | naufraga el barco de Belitung | cierre de un tramo y asociación de carga | `SRC-MED-ROUTES-FLECKER-2001` | A arqueológico | AUDITADO |
+| `TIME-MED-ROUTES-GENIZA-CORPUS-001` | siglos X–XII | se producen cartas, listas y documentos médicos preservados en la Geniza | documentos concretos, no una práctica continua | `SRC-MED-ISLAMIC-LEV-AMAR-2007`, `SRC-MED-ISLAMIC-LEV-2013` | A documental/B uso | AUDITADO |
+| `TIME-MED-ROUTES-INDIA-TRADER-001` | siglo XI | cartas siguen a un mercader entre Egipto, Adén e India | tramos y relaciones de un caso | `SRC-MED-ROUTES-GOITEIN-1987`, `SRC-MED-ROUTES-LAMBOURN-2018` | A documental | AUDITADO |
+| `TIME-MED-ROUTES-GIFTS-001` | siglos XI–XIII | fuentes registran regalos de materia medica entre cortes | entrega narrada, no administración | `SRC-MED-ROUTES-DURAK-2023` | A/B histórico | AUDITADO |
+| `TIME-MED-ROUTES-SUGAR-001` | siglos XII–XIV | circulan y cambian versiones de pociones azucaradas | genealogía textual por recetas | `SRC-MED-ROUTES-BOURAS-VALLIANATOS-2021` | A/B filológico | AUDITADO |
+| `TIME-MED-ROUTES-MONGOL-EMPIRE-001` | 1206–1368 | expansión y fragmentación de imperios mongoles | marco político variable | `SRC-MED-ROUTES-ALLSEN-2001` | A/B histórico | AUDITADO |
+| `TIME-MED-ROUTES-RASHID-001` | ca. 1300–1318 | Rashid al-Din y proyectos relacionados median materiales chinos | actividad y compilación delimitadas | `SRC-MED-ROUTES-BUELL-2007` | A/B histórico | AUDITADO |
+| `TIME-MED-ROUTES-MONGOL-BUREAUS-001` | siglos XIII–XIV | oficinas y especialistas extranjeros operan en China mongola | capacidad institucional, no cobertura | `SRC-MED-ROUTES-BUELL-2021`, `SRC-MED-ROUTES-ROSSABI-MORRISON-2023` | A institución/B alcance | AUDITADO |
+| `TIME-MED-ROUTES-HUIHUI-001` | estratos s. XIV; testigos posteriores | se compilan materiales preservados en el Huihui yaofang | capas textuales, no uso uniforme | `SRC-MED-ROUTES-BUELL-2021` | A/B filológico | AUDITADO |
+| `TIME-MED-ROUTES-PORTUGUESE-INDIA-001` | 1498 | portugueses abren un corredor imperial marítimo a India | nueva conexión europea, no inicio de redes del Índico | `SRC-MED-ROUTES-COSTA-LEITAO-2016` | A histórico | AUDITADO |
+| `TIME-MED-ROUTES-ORTA-GOA-001` | 1534–1563 | Orta trabaja y reúne materiales en Goa | actividad y producción de la obra | `SRC-MED-ROUTES-COSTA-2012` | A/B histórico | AUDITADO |
+| `TIME-MED-ROUTES-ORTA-PRINT-001` | 1563 | se imprimen los Colóquios en Goa | edición príncipe, no adopción | `SRC-MED-ROUTES-CARVALHO-2016` | A editorial | AUDITADO |
+| `TIME-MED-ROUTES-CLUSIUS-001` | 1567–1574 | Clusius abrevia y publica versiones latinas | recepción editorial y nueva audiencia | `SRC-MED-ROUTES-COSTA-LEITAO-2016` | A/B editorial | AUDITADO |
+| `TIME-MED-ROUTES-GENIZA-HISTORIOGRAPHY-001` | 1987–2018 | Goitein y Lambourn reconstruyen mercader y equipaje | giro microhistórico/material | `SRC-MED-ROUTES-GOITEIN-1987`, `SRC-MED-ROUTES-LAMBOURN-2018` | A publicación | AUDITADO |
+| `TIME-MED-ROUTES-BELITUNG-HISTORIOGRAPHY-001` | 2001–2022 | arqueología y crítica patrimonial reevalúan Belitung | cambio material y de procedencia | `SRC-MED-ROUTES-FLECKER-2001`, `SRC-MED-ROUTES-PEARSON-2022` | A publicación | AUDITADO |
+| `TIME-MED-ROUTES-DUNHUANG-HISTORIOGRAPHY-001` | 2012–2025 | se revisan Galeno y moxibustión en Dunhuang | cambio filológico y comparativo | `SRC-MED-ROUTES-YOELI-TLALIM-2012`, `SRC-MED-ROUTES-HAN-2025` | A publicación | AUDITADO |
