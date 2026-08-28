@@ -1689,3 +1689,29 @@ Cada flecha es una inferencia que puede detenerse. Exposición no hereda infecci
 - `CLAIM-MED-COL-NONRANKING-001` impide convertir archivos heterogéneos en una escala de sufrimiento o progreso.
 
 Véase 15_medicina/INVESTIGACION_MED_015_ENCUENTROS_COLONIALES.md, 22_mapas_epistemologicos/MAPA_MED_015_ENCUENTROS_COLONIALES.md, 21_cronologias/CRONOLOGIA_MED_015_ENCUENTROS_COLONIALES.md, assets/visuales/cadena-exposicion-supervivencia-med-015.svg y assets/visuales/matriz-encuentros-coloniales-med-015.svg.
+
+## MED-016 — Anatomía, disección e imprenta
+
+### Pregunta
+
+¿Cómo pasa un cuerpo abierto a sostener una corrección anatómica pública sin heredar verdad, adopción o beneficio?
+
+### Cadena canónica
+
+`cuerpo disponible → procedimiento → imagen → texto y autoridad → comparación → corrección → circulación`
+
+Cada flecha puede detenerse. Cuerpo no hereda representatividad; corte no hereda observación suficiente; imagen no hereda copia directa; texto no hereda práctica; diferencia no hereda error; corrección no hereda efecto; circulación no hereda adopción.
+
+### Nodos y enlaces
+
+- Manṣūr separa tratado, sistemas, genealogía visual, copia y disección no demostrada.
+- Bolonia y Berengario separan institución, roles, icono impreso y observación publicada.
+- Vesalio y Valverde separan cuerpos, mano, taller, corrección, apropiación, edición y recepción.
+- Nueva España separa autopsia de 1576, libro de 1578, cátedra ca. 1620 y disección docente de 1646.
+- Itâkî separa manuscrito, terminología, genealogías visuales y procedimiento desconocido.
+- *Kaitai shinsho* separa prehistoria, demostración, traducción, redibujo, impresión y revisión.
+- China Qing separa forénsica, trauma, cuerpos expuestos, crítica y disección controlada.
+- `CLAIM-MED-ANAT-MODEL-001` impide herencia automática entre las siete capas.
+- `CLAIM-MED-ANAT-NONRANKING-001` impide convertir disección, naturalismo o impresión en escala cultural.
+
+Véase 15_medicina/INVESTIGACION_MED_016_ANATOMIA_DISECCION_IMPRENTA.md, 22_mapas_epistemologicos/MAPA_MED_016_ANATOMIA_DISECCION_IMPRENTA.md, 21_cronologias/CRONOLOGIA_MED_016_ANATOMIA_DISECCION_IMPRENTA.md, assets/visuales/cadena-cuerpo-circulacion-med-016.svg y assets/visuales/matriz-anatomia-imprenta-med-016.svg.

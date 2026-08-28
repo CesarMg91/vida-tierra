@@ -4399,3 +4399,22 @@ Riesgo basal, alternativas y preferencias cambian el balance. **Corrección:** s
 | `ERR-MED-COL-PLANT-USE-001` | circulación de una planta demuestra uso o eficacia | comercio no conserva paciente, dosis, indicación o comparador | enlazar preparación, administración y resultado | ACTIVO |
 | `ERR-MED-COL-DISCOVERER-001` | atribuir una planta a un descubridor único | recolección, saber, clasificación, comercio y cultivo fueron distribuidos | reconstruir cadena, nombres y silencios | ACTIVO |
 | `ERR-MED-COL-RANKING-001` | comparar mortalidad o persistencia como ranking colonial | archivos, periodos, denominadores y mecanismos son inconmensurables | comparar resolución y dimensiones por separado | ACTIVO |
+
+## MED-016 — Anatomía, disección e imprenta
+
+| ID | Error | Por qué falla | Corrección | Estado |
+|---|---|---|---|---|
+| `ERR-MED-ANAT-DISSECTION-TRUTH-001` | diseccionar produce verdad automáticamente | procedimiento, conservación y categorías determinan qué se ve | declarar cuerpo, finalidad, secuencia y comparación | ACTIVO |
+| `ERR-MED-ANAT-CHURCH-BAN-001` | una prohibición eclesiástica medieval explica ausencia de disección | confunde operaciones, jurisdicciones y mitos historiográficos | documentar norma, lugar, periodo y práctica | ACTIVO |
+| `ERR-MED-ANAT-RELIGION-ESSENCE-001` | islam, cristianismo, budismo o confucianismo determinan una actitud corporal única | tradiciones, autoridades e instituciones fueron heterogéneas | estudiar operación local y archivo | ACTIVO |
+| `ERR-MED-ANAT-IMAGE-WINDOW-001` | una lámina es copia directa del cuerpo | dibujante, escala, talla, edición y convención median | reconstruir cadena visual | ACTIVO |
+| `ERR-MED-ANAT-NATURALISM-ACCURACY-001` | más naturalismo significa más exactitud | estilo puede ocultar síntesis o error | comparar estructura y variante específicas | ACTIVO |
+| `ERR-MED-ANAT-PRINT-FIXITY-001` | imprimir fija una versión uniforme | pruebas, bloques, tirajes y revisiones producen variantes | identificar edición y ejemplar | ACTIVO |
+| `ERR-MED-ANAT-PRINT-ADOPTION-001` | circulación impresa demuestra lectura y práctica | disponibilidad no conserva uso o recepción | añadir inventarios, marginalia y aula | ACTIVO |
+| `ERR-MED-ANAT-FIRST-001` | declarar “primera disección” sin producto o territorio | mezcla autopsia, demostración, docencia y prioridad | definir operación, fecha y cobertura | ACTIVO |
+| `ERR-MED-ANAT-AUTOPSY-DISSECTION-001` | autopsia epidémica equivale a disección docente | finalidad, población y registro difieren | conservar relojes separados | ACTIVO |
+| `ERR-MED-ANAT-COPY-NONAGENCY-001` | copiar demuestra pasividad o irrelevancia | selección, traducción y recomposición pueden transformar | cotejar cambios y uso | ACTIVO |
+| `ERR-MED-ANAT-OBSERVATION-CORRECT-001` | rechazar autoridad desde observación valida toda alternativa | un observador también selecciona y se equivoca | exigir comparación y falsadores | ACTIVO |
+| `ERR-MED-ANAT-BODY-REPRESENTATIVE-001` | los cuerpos disponibles representan a toda población | selección penal, hospitalaria y social introduce sesgo | registrar procedencia y exclusiones | ACTIVO |
+| `ERR-MED-ANAT-CORRECTION-CLINICAL-001` | una corrección espacial implica mejor resultado clínico | mecanismo, técnica, acceso y cointervenciones faltan | evaluar desenlaces con otra cadena | ACTIVO |
+| `ERR-MED-ANAT-RANKING-001` | ordenar culturas por disecciones, imprentas o naturalismo | dimensiones no son equivalentes ni universales | comparar productos y límites sin puntuación | ACTIVO |

@@ -825,3 +825,28 @@ CIV-003 inaugura los expedientes regionales auditados. CIV-001 conserva `TRAZADO
 | `TIME-MED-COL-TEPO-GENOMES-001` | 2018 | Paratyphi C se identifica en individuos del cementerio de Teposcolula | agente molecular local | `SRC-MED-COL-VAGENE-2018` | A publicación/molecular | AUDITADO |
 | `TIME-MED-COL-COLONIAL-BOTANY-001` | 2018–2021 | nuevas historias de *Cinchona* y Guayases centran apropiación, redes y crédito | revisión historiográfica colonial | `SRC-MED-COL-CUVI-2018`, `SRC-MED-COL-ALMEIDA-2021` | A publicación | AUDITADO |
 | `TIME-MED-COL-CARIBBEAN-CALIFORNIA-001` | 2021 | genomas caribeños y base californiana revisan extinción e inevitabilidad epidémica | cambio arqueogenómico/demográfico | `SRC-MED-COL-FERNANDES-2021`, `SRC-MED-COL-JONES-2021` | A publicación | AUDITADO |
+
+## MED-016 — Anatomía, disección e imprenta
+
+| ID | Fecha / intervalo | Evento o archivo | Producto | Fuentes | Confianza | Estado |
+|---|---|---|---|---|---|---|
+| `TIME-MED-ANAT-MONDINO-1316-001` | 1316 | finalización de la *Anathomia* de Mondino | guía docente, no primera apertura europea | `SRC-MED-ANAT-MCCALL-2022` | A/B histórico | AUDITADO |
+| `TIME-MED-ANAT-MANSUR-1390-001` | ca. 1390 | composición del tratado de Manṣūr en Shiraz | programa persa de cinco sistemas | `SRC-MED-ANAT-MANSUR-NLM`, `SRC-MED-ANAT-MANSUR-IRANICA` | A/B datación | AUDITADO |
+| `TIME-MED-ANAT-MANSUR-1488-001` | 1488-12-08 | finalización de NLM MS P 18 | copia fechada, no protógrafo | `SRC-MED-ANAT-MANSUR-NLM` | A documental | AUDITADO |
+| `TIME-MED-ANAT-FASCICULUS-1494-001` | 1494 | edición veneciana del *Fasciculus medicinae* | icono impreso de disección | `SRC-MED-ANAT-MCCALL-2022`, `SRC-MED-ANAT-NLM-PRINT` | A publicación | AUDITADO |
+| `TIME-MED-ANAT-BERENGARIO-1521-001` | 1521 | *Commentaria* de Berengario | anatomía ilustrada ligada a observaciones | `SRC-MED-ANAT-BERENGARIO-NLM`, `SRC-MED-ANAT-PARENT-2019` | A publicación | AUDITADO |
+| `TIME-MED-ANAT-BERENGARIO-1523-001` | 1523 | *Isagogae breves* | compendio ilustrado revisado | `SRC-MED-ANAT-BERENGARIO-NLM` | A publicación | AUDITADO |
+| `TIME-MED-ANAT-FABRICA-1543-001` | 1543 | primera edición de la *Fabrica* | libro y taller coordinados | `SRC-MED-ANAT-NLM-DREAM`, `SRC-MED-ANAT-CLARK-1981` | A publicación | AUDITADO |
+| `TIME-MED-ANAT-FABRICA-1555-001` | 1555 | segunda edición de la *Fabrica* | nueva versión, luego anotada | `SRC-MED-ANAT-NUTTON-2012` | A publicación | AUDITADO |
+| `TIME-MED-ANAT-VALVERDE-1556-001` | 1556 | *Historia de la composición del cuerpo humano* | anatomía castellana impresa | `SRC-MED-ANAT-VALVERDE-LOC`, `SRC-MED-ANAT-MARKATOS-2017` | A publicación | AUDITADO |
+| `TIME-MED-ANAT-NS-AUTOPSY-1576-001` | 1576 | autopsias durante epidemia novohispana | examen anatomopatológico | `SRC-MED-ANAT-RODRIGUEZ-SALA-2006`, `SRC-MED-ANAT-CORDERO-1997` | A/B histórico | AUDITADO |
+| `TIME-MED-ANAT-NS-PRINT-1578-001` | 1578 | impresión de *Suma y recopilación de cirugía* | manual quirúrgico, no práctica individual | `SRC-MED-ANAT-PRIMEROS-LIBROS-1578` | A publicación | AUDITADO |
+| `TIME-MED-ANAT-NS-CHAIR-1620-001` | 1619–1621 | disposición y apertura de cátedra de Cirugía y Anatomía | capacidad institucional | `SRC-MED-ANAT-UNAM-ANATOMY`, `SRC-MED-ANAT-RODRIGUEZ-SALA-2006` | A/B fecha | AUDITADO |
+| `TIME-MED-ANAT-ITAKI-1632-001` | ca. 1632 | composición atribuida a Itâkî | manuscrito ilustrado otomano-turco | `SRC-MED-ANAT-BAHSI-2019`, `SRC-MED-ANAT-AKDOGAN-2025` | B datación | AUDITADO |
+| `TIME-MED-ANAT-NS-DISSECTION-1646-001` | 1646-10-08 | disección formal en Ciudad de México | acto docente documentado | `SRC-MED-ANAT-UNAM-ANATOMY` | A documental | AUDITADO |
+| `TIME-MED-ANAT-QING-1742-001` | 1741–1742 | forénsica Qing y *Golden Mirror* | diagramas, listas y trauma | `SRC-MED-ANAT-WU-2015` | A/B histórico | AUDITADO |
+| `TIME-MED-ANAT-QING-1770-001` | 1770 | adición de diagramas esqueléticos forenses | estandarización judicial | `SRC-MED-ANAT-WU-2015` | A/B histórico | AUDITADO |
+| `TIME-MED-ANAT-JAPAN-1771-001` | 1771 | demostración de Kozukappara | catalizador de comparación | `SRC-MED-ANAT-MICHEL-2018`, `SRC-MED-ANAT-NAGOYA-KAITAI` | A/B histórico | AUDITADO |
+| `TIME-MED-ANAT-KAITAI-1774-001` | 1774 | publicación de *Kaitai shinsho* | cinco fascículos traducidos e ilustrados | `SRC-MED-ANAT-NDL-KAITAI` | A publicación | AUDITADO |
+| `TIME-MED-ANAT-KAITAI-1826-001` | 1826 | revisión de Ōtsuki Gentaku | corrección de traducción y nomenclatura | `SRC-MED-ANAT-MICHEL-2018`, `SRC-MED-ANAT-NDL-EXHIBITION` | A/B histórico | AUDITADO |
+| `TIME-MED-ANAT-WANG-1830-001` | 1830 | publicación de *Yilin gaicuo* | crítica anatómica y 25 diagramas | `SRC-MED-ANAT-WANG-CTEXT`, `SRC-MED-ANAT-ANDREWS-1991` | A publicación/B contenido | AUDITADO |
