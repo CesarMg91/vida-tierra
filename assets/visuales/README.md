@@ -893,3 +893,15 @@ La portada separa físicamente folios genéricos, corteza, piedra y modelos did�
 Salida original aprobada sin edición: `C:\Users\HUAWEI\.codex\generated_images\019fedb0-8f24-7e33-8d16-d2418ba3378e\exec-ce9fb493-5e4d-483e-a3bd-6c466a94d128.png` → `assets/visuales/hero-med-006-china-asia-oriental.png`; tamaño `2,062,773` bytes. El prompt completo y los límites están en `ATLAS_VISUAL.md`, sección 61.
 
 La portada separa físicamente seis estaciones genéricas y no reproduce objetos identificables o texto histórico. Los SVG incluyen `title` y `desc`; fueron inspeccionados completos a `1600 × 900`, separan canon, práctica y consecuencia, y no producen consejos clínicos.
+
+## MED-007 — Mediterráneo griego y helenístico
+
+| Archivo | Origen | Dimensiones | SHA-256 / trazabilidad | Límite |
+|---|---|---:|---|---|
+| `hero-med-007-mediterraneo-griego-helenistico.png` | OpenAI ImageGen, generación nueva del 2026-08-27 | `1672 × 941` | `eee71c1cf08631c78881b62e45ccae075833bf5dd8563c7491872c793704cd08` | composición conceptual; no manuscrito, inscripción, instrumento, cuerpo, práctica o efecto reales |
+| `cadena-testimonio-consecuencia-med-007.svg` | SVG manual determinista | `1600 × 900` | código fuente versionado | seis capas inferenciales; no herencia automática |
+| `matriz-archivos-mediterraneo-med-007.svg` | SVG manual determinista | `1600 × 900` | código fuente versionado | productos y límites; no ranking ni “milagro griego” |
+
+Salida original aprobada sin edición: `C:\Users\HUAWEI\.codex\generated_images\019fedb0-8f24-7e33-8d16-d2418ba3378e\exec-7275b5d8-17d9-41ff-922f-2672553ffbc5.png` → `assets/visuales/hero-med-007-mediterraneo-griego-helenistico.png`; tamaño `2,446,363` bytes. El prompt completo y los límites están en `ATLAS_VISUAL.md`, sección 62.
+
+La portada separa físicamente papiros, inscripción, instrumentos, modelos docentes y ficha de archivo; no reproduce objetos identificables, cuerpos humanos o texto legible. Los SVG incluyen `title` y `desc`, preservan los seis puentes de auditoría y no convierten observación, norma, disección o prestigio en práctica, cobertura o resultado.

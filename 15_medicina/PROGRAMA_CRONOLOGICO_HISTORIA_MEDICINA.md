@@ -85,4 +85,4 @@ El programa es revisable: un expediente puede dividirse si una región queda com
 
 ## Estado editorial
 
-MED-003, MED-004, MED-005 y MED-006 están auditados. El siguiente expediente cronológico es MED-007 — Mediterráneo griego y helenístico. El cambio de región no implica relevo lineal: las cronologías se solapan y las conexiones sólo se atribuyen cuando una ruta, texto, objeto o agente las documenta.
+MED-003, MED-004, MED-005, MED-006 y MED-007 están auditados. El siguiente expediente cronológico es MED-008 — Roma, Bizancio y Mediterráneo tardío. El cambio de región o escala política no implica relevo lineal: las cronologías se solapan y las conexiones sólo se atribuyen cuando una ruta, texto, objeto, institución o agente las documenta.

@@ -1,0 +1,316 @@
+{
+  "schemaVersion": 1,
+  "researchSlug": "15_medicina/INVESTIGACION_MED_007_MEDITERRANEO_GRIEGO_HELENISTICO",
+  "cases": [
+    {
+      "id": "hippocratic-corpus",
+      "title": "Corpus hipocrático — una colección, no una firma",
+      "region": "Mediterráneo griego",
+      "archive": "Cerca de sesenta tratados transmitidos bajo el nombre de Hipócrates",
+      "layers": [
+        {
+          "kind": "witness",
+          "observed": "La colección conserva tratados de dieta, pronóstico, cirugía, ginecología, etiología, ética y otros géneros.",
+          "inference": "Puede reconstruirse un archivo médico plural con enorme recepción posterior.",
+          "limit": "La colección no es un autógrafo ni una unidad producida en una sola fecha.",
+          "claimIds": ["CLAIM-MED-GR-CORPUS-001"],
+          "evidenceIds": ["EVID-MED-GR-CORPUS-001"],
+          "sourceIds": ["SRC-MED-GR-PORMANN-2018", "SRC-MED-GR-TOTELIN-2021"]
+        },
+        {
+          "kind": "reading",
+          "observed": "Ediciones, traducciones y comentarios preservan variantes y capas textuales que a veces se contradicen.",
+          "inference": "Las diferencias permiten comparar autores, periodos y posiciones.",
+          "limit": "Una edición crítica no recupera automáticamente el contexto original de cada texto.",
+          "claimIds": ["CLAIM-MED-GR-ARCHIVE-001"],
+          "evidenceIds": ["EVID-MED-GR-CORPUS-001"],
+          "sourceIds": ["SRC-MED-GR-PORMANN-2018"]
+        },
+        {
+          "kind": "genre",
+          "observed": "La colección mezcla tratados polémicos, recetas, aforismos, casos, normas y manuales técnicos.",
+          "inference": "Cada género puede cumplir una función discursiva distinta.",
+          "limit": "Una prescripción, ejemplo o polémica no es una fotografía transparente de la práctica.",
+          "claimIds": ["CLAIM-MED-GR-CORPUS-001"],
+          "evidenceIds": ["EVID-MED-GR-SYNTHESIS-001"],
+          "sourceIds": ["SRC-MED-GR-PORMANN-2018"]
+        },
+        {
+          "kind": "operation",
+          "observed": "Los textos formulan observación, pronóstico, régimen, fármacos y maniobras.",
+          "inference": "Puede estudiarse qué acciones y explicaciones fueron escribibles y transmisibles.",
+          "limit": "Formulación no demuestra ejecución, frecuencia o destreza.",
+          "claimIds": ["CLAIM-MED-GR-SENSES-001", "CLAIM-MED-GR-SURGERY-001"],
+          "evidenceIds": ["EVID-MED-GR-SENSES-001", "EVID-MED-GR-SURGERY-001"],
+          "sourceIds": ["SRC-MED-GR-PERILLI-2018", "SRC-MED-GR-WITT-2018"]
+        },
+        {
+          "kind": "institution",
+          "observed": "Lectores y comentaristas helenísticos y posteriores reunieron textos bajo una autoridad hipocrática.",
+          "inference": "La figura de Hipócrates fue construida por comunidades de transmisión y confianza.",
+          "limit": "Autoridad recibida no identifica al autor histórico de un tratado.",
+          "claimIds": ["CLAIM-MED-GR-HIPPOCRATES-001", "CLAIM-MED-GR-SECTS-001"],
+          "evidenceIds": ["EVID-MED-GR-HIPPOCRATES-001", "EVID-MED-GR-SECTS-001"],
+          "sourceIds": ["SRC-MED-GR-KING-2020", "SRC-MED-GR-BERREY-2015"]
+        },
+        {
+          "kind": "consequence",
+          "observed": "La colección influyó en lectores, profesiones y relatos históricos durante siglos.",
+          "inference": "Puede medirse una consecuencia textual y cultural.",
+          "limit": "No demostrado: autoría personal, práctica uniforme o eficacia por supervivencia.",
+          "claimIds": ["CLAIM-MED-GR-EFFICACY-001", "CLAIM-MED-GR-NONRANKING-001"],
+          "evidenceIds": ["EVID-MED-GR-EFFICACY-001"],
+          "sourceIds": ["SRC-MED-GR-KING-2020"]
+        }
+      ]
+    },
+    {
+      "id": "epidemics-cases",
+      "title": "Epidemias — un caso no es una cohorte",
+      "region": "Tesalia y norte del Egeo, según los relatos",
+      "archive": "Siete libros compuestos con casos, notas, signos y constituciones",
+      "layers": [
+        {
+          "kind": "witness",
+          "observed": "Los libros 1 y 3 conservan pacientes nombrados, secuencias diarias, signos, crisis y desenlaces.",
+          "inference": "Existió una forma de escritura atenta al curso temporal de la enfermedad.",
+          "limit": "Los manuscritos conservados son copias posteriores y la composición exacta es incierta.",
+          "claimIds": ["CLAIM-MED-GR-EPIDEMICS-001"],
+          "evidenceIds": ["EVID-MED-GR-EPIDEMICS-001"],
+          "sourceIds": ["SRC-MED-GR-KING-PHRONTIS-2019"]
+        },
+        {
+          "kind": "reading",
+          "observed": "Los siete libros difieren: algunos contienen casos elaborados; otros, notas y aforismos dispersos.",
+          "inference": "Puede analizarse la colección como capas y usos distintos.",
+          "limit": "Tratar todos los libros como cuaderno de un solo médico borra su heterogeneidad.",
+          "claimIds": ["CLAIM-MED-GR-CORPUS-001", "CLAIM-MED-GR-EPIDEMICS-001"],
+          "evidenceIds": ["EVID-MED-GR-CORPUS-001", "EVID-MED-GR-EPIDEMICS-001"],
+          "sourceIds": ["SRC-MED-GR-PORMANN-2018"]
+        },
+        {
+          "kind": "genre",
+          "observed": "Los casos seleccionan qué síntomas, días, pacientes y desenlaces narrar.",
+          "inference": "Pudieron funcionar como memoria, enseñanza, pronóstico o argumento.",
+          "limit": "No se conocen criterios de inclusión ni denominadores poblacionales.",
+          "claimIds": ["CLAIM-MED-GR-EPIDEMICS-001"],
+          "evidenceIds": ["EVID-MED-GR-EPIDEMICS-001"],
+          "sourceIds": ["SRC-MED-GR-KING-PHRONTIS-2019"]
+        },
+        {
+          "kind": "operation",
+          "observed": "Vista, oído, olfato, tacto, gusto, razonamiento y percepciones del paciente organizan señales.",
+          "inference": "La observación fue multisensorial y permitió formular pronósticos.",
+          "limit": "La teoría puede guiar qué se observa; no hay exactitud o reproducibilidad validadas.",
+          "claimIds": ["CLAIM-MED-GR-SENSES-001", "CLAIM-MED-GR-PROGNOSIS-001"],
+          "evidenceIds": ["EVID-MED-GR-SENSES-001"],
+          "sourceIds": ["SRC-MED-GR-TORRES-2022", "SRC-MED-GR-HAMATI-2022"]
+        },
+        {
+          "kind": "institution",
+          "observed": "Los relatos presentan al practicante observando y anticipando el curso en un mercado competitivo.",
+          "inference": "El pronóstico pudo producir autoridad y organizar decisiones.",
+          "limit": "Reputación profesional no equivale a institución fija o cobertura.",
+          "claimIds": ["CLAIM-MED-GR-PROGNOSIS-001"],
+          "evidenceIds": ["EVID-MED-GR-EPIDEMICS-001"],
+          "sourceIds": ["SRC-MED-GR-PERILLI-2018"]
+        },
+        {
+          "kind": "consequence",
+          "observed": "La colección preservó modelos de caso y pronóstico que lectores posteriores consideraron ejemplares.",
+          "inference": "Puede documentarse influencia sobre escritura y autoridad clínica.",
+          "limit": "No demostrado: cohorte epidemiológica, calibración pronóstica o beneficio atribuible.",
+          "claimIds": ["CLAIM-MED-GR-EFFICACY-001"],
+          "evidenceIds": ["EVID-MED-GR-EFFICACY-001"],
+          "sourceIds": ["SRC-MED-GR-KING-PHRONTIS-2019"]
+        }
+      ]
+    },
+    {
+      "id": "surgical-treatises",
+      "title": "Tratados quirúrgicos — instrucción no es ejecución",
+      "region": "Mediterráneo griego clásico",
+      "archive": "Textos sobre fracturas, articulaciones y heridas de la cabeza",
+      "layers": [
+        {
+          "kind": "witness",
+          "observed": "Los tratados preservan secuencias de inspección, palpación, reducción, vendaje, incisión y trepanación.",
+          "inference": "Un repertorio manual detallado fue escrito y transmitido.",
+          "limit": "La fecha de una copia no es la fecha de cada operación descrita.",
+          "claimIds": ["CLAIM-MED-GR-SURGERY-001"],
+          "evidenceIds": ["EVID-MED-GR-SURGERY-001"],
+          "sourceIds": ["SRC-MED-GR-WITT-2018"]
+        },
+        {
+          "kind": "reading",
+          "observed": "Los textos distinguen tipos de lesión, posiciones, riesgos y correcciones.",
+          "inference": "Puede reconstruirse un razonamiento técnico y pronóstico.",
+          "limit": "Traducciones modernas como ‘cirugía’ o ‘fractura’ requieren contexto semántico.",
+          "claimIds": ["CLAIM-MED-GR-SURGERY-001"],
+          "evidenceIds": ["EVID-MED-GR-SURGERY-001"],
+          "sourceIds": ["SRC-MED-GR-WITT-2018"]
+        },
+        {
+          "kind": "genre",
+          "observed": "Son instrucciones técnicas y discusiones de indicación, no expedientes consecutivos de pacientes.",
+          "inference": "El género busca hacer enseñable una operación.",
+          "limit": "No conserva adherencia, desviaciones ni selección de casos reales.",
+          "claimIds": ["CLAIM-MED-GR-ARCHIVE-001"],
+          "evidenceIds": ["EVID-MED-GR-SURGERY-001"],
+          "sourceIds": ["SRC-MED-GR-WITT-2018"]
+        },
+        {
+          "kind": "operation",
+          "observed": "Reducción, tracción y vendaje se describen con orden y precauciones.",
+          "inference": "Las maniobras podían ser conceptualizadas, comunicadas y quizá practicadas.",
+          "limit": "‘Quizá practicadas’ no identifica operador, frecuencia, competencia o analgesia.",
+          "claimIds": ["CLAIM-MED-GR-SURGERY-001"],
+          "evidenceIds": ["EVID-MED-GR-SURGERY-001"],
+          "sourceIds": ["SRC-MED-GR-WITT-2018"]
+        },
+        {
+          "kind": "institution",
+          "observed": "El Juramento y otros textos formulan enseñanza, reputación y límites de intervención.",
+          "inference": "Existieron relaciones pedagógicas y divisiones de trabajo situadas.",
+          "limit": "La cláusula de la piedra no prueba un gremio quirúrgico universal.",
+          "claimIds": ["CLAIM-MED-GR-OATH-001"],
+          "evidenceIds": ["EVID-MED-GR-OATH-001"],
+          "sourceIds": ["SRC-MED-GR-LEVEN-2018"]
+        },
+        {
+          "kind": "consequence",
+          "observed": "Los tratados influyeron en comentarios y repertorios quirúrgicos posteriores.",
+          "inference": "Puede documentarse transmisión de operaciones.",
+          "limit": "No demostrado: tasa de éxito, daño, discapacidad o superioridad frente a alternativas.",
+          "claimIds": ["CLAIM-MED-GR-EFFICACY-001"],
+          "evidenceIds": ["EVID-MED-GR-EFFICACY-001"],
+          "sourceIds": ["SRC-MED-GR-WITT-2018"]
+        }
+      ]
+    },
+    {
+      "id": "epidaurus-iamata",
+      "title": "Epidauro — relato votivo no es tasa de curación",
+      "region": "Epidauro, Peloponeso",
+      "archive": "Cuatro estelas de fines del siglo IV a. e. c. con setenta relatos",
+      "layers": [
+        {
+          "kind": "witness",
+          "observed": "Las estelas conservan curas, castigos, oráculos y otros prodigios atribuidos a Asclepio.",
+          "inference": "Un santuario reunió y exhibió públicamente una memoria de intervención divina.",
+          "limit": "La fecha de inscripción no fecha cada episodio narrado.",
+          "claimIds": ["CLAIM-MED-GR-IAMATA-001"],
+          "evidenceIds": ["EVID-MED-GR-IAMATA-001"],
+          "sourceIds": ["SRC-MED-GR-SOLIN-2013"]
+        },
+        {
+          "kind": "reading",
+          "observed": "Algunos relatos nombran persona y procedencia; otros son anónimos y su orden está compuesto.",
+          "inference": "Puede estudiarse selección, audiencia y geografía de peregrinación.",
+          "limit": "Nombre y lugar no convierten el relato en historia clínica verificada.",
+          "claimIds": ["CLAIM-MED-GR-IAMATA-001"],
+          "evidenceIds": ["EVID-MED-GR-IAMATA-001"],
+          "sourceIds": ["SRC-MED-GR-SOLIN-2013"]
+        },
+        {
+          "kind": "genre",
+          "observed": "Las narraciones seleccionan finales ejemplares y casos de duda, castigo o fertilidad.",
+          "inference": "La composición podía construir confianza, esperanza y obediencia.",
+          "limit": "Publicidad y memoria no son un registro neutral de resultados.",
+          "claimIds": ["CLAIM-MED-GR-ASCLEPIUS-001", "CLAIM-MED-GR-IAMATA-001"],
+          "evidenceIds": ["EVID-MED-GR-IAMATA-001"],
+          "sourceIds": ["SRC-MED-GR-SOLIN-2013", "SRC-MED-GR-SCOTT-2018"]
+        },
+        {
+          "kind": "operation",
+          "observed": "Los relatos describen incubación, sueños, acciones del dios y algunas respuestas del peregrino.",
+          "inference": "Puede reconstruirse una secuencia ritual y narrativa esperada.",
+          "limit": "No separa espontaneidad, cuidados concurrentes, recuerdo o edición.",
+          "claimIds": ["CLAIM-MED-GR-ASCLEPIUS-001"],
+          "evidenceIds": ["EVID-MED-GR-IAMATA-001"],
+          "sourceIds": ["SRC-MED-GR-SOLIN-2013"]
+        },
+        {
+          "kind": "institution",
+          "observed": "Autoridades del santuario escogieron, grabaron y colocaron los relatos ante una audiencia.",
+          "inference": "La exhibición fue una operación institucional de autoridad y memoria.",
+          "limit": "No demuestra que santuarios y médicos fueran categorías sociales excluyentes.",
+          "claimIds": ["CLAIM-MED-GR-ASCLEPIUS-001"],
+          "evidenceIds": ["EVID-MED-GR-SYNTHESIS-001"],
+          "sourceIds": ["SRC-MED-GR-SCOTT-2018"]
+        },
+        {
+          "kind": "consequence",
+          "observed": "Los relatos hicieron visibles desenlaces deseados y atrajeron lectura pública.",
+          "inference": "Puede estudiarse una consecuencia emocional, reputacional y religiosa.",
+          "limit": "No demostrado: setenta curaciones consecutivas, tasa de éxito o efecto causal.",
+          "claimIds": ["CLAIM-MED-GR-EFFICACY-001"],
+          "evidenceIds": ["EVID-MED-GR-EFFICACY-001"],
+          "sourceIds": ["SRC-MED-GR-SOLIN-2013"]
+        }
+      ]
+    },
+    {
+      "id": "alexandrian-anatomy",
+      "title": "Alejandría — disección no es vivisección cierta",
+      "region": "Alejandría ptolemaica",
+      "archive": "Fragmentos y testimonios posteriores sobre Herófilo y Erasístrato",
+      "layers": [
+        {
+          "kind": "witness",
+          "observed": "Las obras de ambos anatomistas están perdidas; sobreviven citas, resúmenes y polémicas posteriores.",
+          "inference": "Puede reconstruirse parcialmente su vocabulario y algunas distinciones anatómicas.",
+          "limit": "No poseemos un tratado original completo ni registro institucional contemporáneo.",
+          "claimIds": ["CLAIM-MED-GR-ALEXANDRIA-001"],
+          "evidenceIds": ["EVID-MED-GR-ALEXANDRIA-001"],
+          "sourceIds": ["SRC-MED-GR-BUBB-2022"]
+        },
+        {
+          "kind": "reading",
+          "observed": "Autores posteriores atribuyen disección humana y distribuyen de forma desigual la acusación de vivisección.",
+          "inference": "La tradición puede compararse por fecha, dependencia, propósito y silencio.",
+          "limit": "Repetición tardía no crea testimonios independientes.",
+          "claimIds": ["CLAIM-MED-GR-VIVISECTION-001"],
+          "evidenceIds": ["EVID-MED-GR-VIVISECTION-001"],
+          "sourceIds": ["SRC-MED-GR-SCARBOROUGH-1976", "SRC-MED-GR-LONGRIGG-1975"]
+        },
+        {
+          "kind": "genre",
+          "observed": "Celso presenta un debate metodológico siglos después; otros autores escriben polémica moral o comentario.",
+          "inference": "El género explica por qué se preservó una acusación concreta.",
+          "limit": "Una polémica no es un acta ocular del laboratorio alejandrino.",
+          "claimIds": ["CLAIM-MED-GR-ARCHIVE-001", "CLAIM-MED-GR-VIVISECTION-001"],
+          "evidenceIds": ["EVID-MED-GR-VIVISECTION-001"],
+          "sourceIds": ["SRC-MED-GR-SCARBOROUGH-1976"]
+        },
+        {
+          "kind": "operation",
+          "observed": "La disección humana es apoyada por testimonios convergentes; la vivisección de condenados es una atribución más débil.",
+          "inference": "Puede distinguirse anatomía por cadáver de una acusación sobre cuerpos vivos.",
+          "limit": "Número, procedencia, consentimiento y condiciones de los cuerpos permanecen inciertos.",
+          "claimIds": ["CLAIM-MED-GR-ALEXANDRIA-001", "CLAIM-MED-GR-VIVISECTION-001"],
+          "evidenceIds": ["EVID-MED-GR-ALEXANDRIA-001", "EVID-MED-GR-VIVISECTION-001"],
+          "sourceIds": ["SRC-MED-GR-BUBB-2022", "SRC-MED-GR-LONGRIGG-1975"]
+        },
+        {
+          "kind": "institution",
+          "observed": "La actividad se sitúa en la Alejandría ptolemaica; la evidencia disminuye después de estos anatomistas.",
+          "inference": "Un entorno político e intelectual excepcional pudo permitir la práctica.",
+          "limit": "Patrocinio real, programa estable y escala no están documentados de forma directa.",
+          "claimIds": ["CLAIM-MED-GR-ALEXANDRIA-001"],
+          "evidenceIds": ["EVID-MED-GR-ALEXANDRIA-001"],
+          "sourceIds": ["SRC-MED-GR-BUBB-2022"]
+        },
+        {
+          "kind": "consequence",
+          "observed": "Distinciones anatómicas fueron citadas y discutidas por tradiciones posteriores.",
+          "inference": "La disección produjo conocimiento anatómico influyente.",
+          "limit": "No demostrado: vivisección cierta, cobertura clínica o mejora terapéutica atribuible.",
+          "claimIds": ["CLAIM-MED-GR-EFFICACY-001", "CLAIM-MED-GR-VIVISECTION-001"],
+          "evidenceIds": ["EVID-MED-GR-EFFICACY-001", "EVID-MED-GR-VIVISECTION-001"],
+          "sourceIds": ["SRC-MED-GR-BUBB-2022"]
+        }
+      ]
+    }
+  ]
+}

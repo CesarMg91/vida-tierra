@@ -4221,3 +4221,23 @@ Riesgo basal, alternativas y preferencias cambian el balance. **Corrección:** s
 | `ERR-MED-EA-CANON-PRACTICE-001` | presencia en un canon demuestra práctica general | faltan aprendizaje, acceso, ejecución y archivos locales | buscar instituciones y prácticas independientes | ACTIVO |
 | `ERR-MED-EA-ANTIQUITY-EFFICACY-001` | antigüedad, continuidad o patrocinio estatal demuestran eficacia y seguridad | no controlan selección, comparador, resultados ni daños | aplicar contrato causal contemporáneo | ACTIVO |
 | `ERR-MED-EA-RANKING-001` | una tradición fue más antigua o avanzada que otra | los soportes y productos observados no son equivalentes | comparar dimensiones sin puntuación universal | ACTIVO |
+## Errores científicos que MED-007 debe impedir
+
+| ID | Error | Por qué falla | Corrección mínima | Estado |
+|---|---|---|---|---|
+| `ERR-MED-GR-FATHER-001` | Hipócrates fue el padre o inventor de la medicina | existían tradiciones anteriores y no se identifica su autoría del corpus | separar figura, colección y recepción | ACTIVO |
+| `ERR-MED-GR-MIRACLE-001` | Grecia sustituyó magia por ciencia racional | causas naturales, dioses, ritual y técnica coexistieron | documentar género y contexto sin etapas universales | ACTIVO |
+| `ERR-MED-GR-CORPUS-AUTHOR-001` | Hipócrates escribió los sesenta tratados | fechas, estilos y doctrinas son plurales | atribuir al corpus o al tratado, no a una persona | ACTIVO |
+| `ERR-MED-GR-SCHOOLS-001` | Cos y Cnido fueron facultades rivales modernas | la clasificación es tardía y parcialmente circular | nombrar red, posición y evidencia concreta | ACTIVO |
+| `ERR-MED-GR-EPIDEMIOLOGY-001` | *Epidemias* es una base de datos epidemiológica | faltan población, inclusión, denominadores y categorías comparables | tratar cada caso como texto seleccionado | ACTIVO |
+| `ERR-MED-GR-OBSERVATION-NEUTRAL-001` | los casos son observación pura sin teoría | selección y nosología guían lo visible y narrable | declarar género, teoría y alternativas | ACTIVO |
+| `ERR-MED-GR-SURGERY-PRACTICE-001` | una operación escrita prueba ejecución y éxito | faltan operador, frecuencia, complicaciones y seguimiento | separar instrucción, práctica y consecuencia | ACTIVO |
+| `ERR-MED-GR-OATH-UNIVERSAL-001` | todos los médicos antiguos juraban el Juramento | fecha, entorno y recepción son discutidos | tratarlo como norma situada | ACTIVO |
+| `ERR-MED-GR-IAMATA-OUTCOMES-001` | setenta *iamata* son setenta curaciones verificadas | selección pública sin fracasos ni denominador | analizar narrativa y no calcular tasa | ACTIVO |
+| `ERR-MED-GR-PUBLIC-HEALTH-001` | médico cívico equivale a sistema público universal | un cargo u honor local no mide cobertura y acceso | auditar contrato y beneficiarios | ACTIVO |
+| `ERR-MED-GR-DISSECTION-MODERN-001` | disección alejandrina creó anatomía y medicina modernas completas | ventana breve, originales perdidos y efectos separados | delimitar producto anatómico y recepción | ACTIVO |
+| `ERR-MED-GR-VIVISECTION-CERTAIN-001` | Herófilo y Erasístrato vivisectaron con certeza | la acusación llega por fuentes posteriores y desiguales | atribuir la afirmación y conservar controversia | ACTIVO |
+| `ERR-MED-GR-RATIONAL-EFFICACY-001` | explicación racional demuestra eficacia | plausibilidad y causalidad requieren archivos distintos | aplicar MED-001 y MED-002 | ACTIVO |
+| `ERR-MED-GR-GREEK-ISOLATION-001` | medicina griega se desarrolló aislada | el Mediterráneo documenta movilidad, productos y comunidades híbridas | buscar canal sin inferir préstamo por semejanza | ACTIVO |
+| `ERR-MED-GR-WOMEN-ABSENT-001` | la escasez de autoras demuestra ausencia de cuidadoras | archivo letrado y epigráfico selecciona actores | declarar invisibilidad y buscar evidencias indirectas | ACTIVO |
+| `ERR-MED-GR-RANKING-001` | Grecia produjo la medicina más avanzada de la Antigüedad | soportes y productos regionales no son equivalentes | comparar una dimensión sin puntuación universal | ACTIVO |

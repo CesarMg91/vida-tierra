@@ -623,3 +623,23 @@ CIV-003 inaugura los expedientes regionales auditados. CIV-001 conserva `TRAZADO
 | `TIME-MED-EA-TIANHUI-FACSIMILE-001` | 2022 | edición facsimilar vuelve auditables orden, trazos y títulos propuestos | facsímil no elimina decisiones de remontaje | `SRC-MED-EA-LIU-2024` | A documental/B editorial | AUDITADO |
 | `TIME-MED-EA-COOK-001` | 2023 | Cook sintetiza la historia médica de Asia oriental desde textos excavados | selección explícita; no representación poblacional | `SRC-MED-EA-COOK-2023` | A método/B histórico | AUDITADO |
 | `TIME-MED-EA-TIANHUI-PUBLICATION-001` | 2023–2024 | estudios internacionales publican corpus y traducción de punción Tianhui | atribución y función siguen abiertas | `SRC-MED-EA-LIU-2024`, `SRC-MED-EA-LO-PIERCING-2024` | A/B documental | AUDITADO |
+## MED-007 — Hitos de la medicina en el Mediterráneo griego y helenístico
+
+| ID | Fecha/intervalo | Evento delimitado | Incertidumbre y evidencia | Fuente | Confianza | Estado |
+|---|---:|---|---|---|---|---|
+| `TIME-MED-GR-HIPPOCRATES-001` | siglo V a. e. c. | testimonios clásicos reconocen a Hipócrates de Cos como médico | biografía firme mínima; corpus no heredado | `SRC-MED-GR-KING-2020`, `SRC-MED-GR-PORMANN-2018` | B histórico | AUDITADO |
+| `TIME-MED-GR-CORPUS-001` | ca. 450–350 a. e. c. | se compone gran parte de la colección hipocrática | cada tratado y estrato tiene cronología propia | `SRC-MED-GR-TOTELIN-2021` | B textual | AUDITADO |
+| `TIME-MED-GR-SURGERY-001` | siglos V–IV a. e. c. | tratados conservan repertorios de fractura, articulación y heridas de cabeza | fecha textual; ejecución y resultado separados | `SRC-MED-GR-WITT-2018` | A/B documental | AUDITADO |
+| `TIME-MED-GR-EPIDEMICS-001` | siglo IV a. e. c. | *Epidemias* 1 y 3 organizan casos, días y constituciones | composición y función abiertas | `SRC-MED-GR-KING-PHRONTIS-2019` | B textual | AUDITADO |
+| `TIME-MED-GR-OATH-001` | siglo IV a. e. c., tentativo | se formula el Juramento hipocrático | fecha, comunidad y uso discutidos | `SRC-MED-GR-LEVEN-2018` | B-COND | AUDITADO |
+| `TIME-MED-GR-ARISTOTLE-001` | siglo IV a. e. c. | Aristóteles desarrolla comparación y disección animal | textos conservados; transferencia humana limitada | `SRC-MED-GR-BUBB-2022` | A/B textual | AUDITADO |
+| `TIME-MED-GR-IAMATA-001` | fines del siglo IV a. e. c. | cuatro estelas de Epidauro publican setenta *iamata* | relatos seleccionados; episodios pueden ser anteriores | `SRC-MED-GR-SOLIN-2013` | A epigráfico/B composición | AUDITADO |
+| `TIME-MED-GR-PUBLIC-001` | siglos IV–II a. e. c. | ciudades documentan contratación, privilegios y honores de médicos | corpus local y retórica honorífica | `SRC-MED-GR-NUTTON-1977`, `SRC-MED-GR-SAMAMA-2005` | A/B epigráfico | AUDITADO |
+| `TIME-MED-GR-ALEXANDRIA-001` | ca. 300–250 a. e. c. | Herófilo y Erasístrato se asocian con disección humana en Alejandría | obras perdidas y testimonios posteriores | `SRC-MED-GR-BUBB-2022` | B histórico | AUDITADO |
+| `TIME-MED-GR-HEART-001` | siglo III–I a. e. c., tentativo | probable composición tardía de *Sobre el corazón* | propuestas separadas por siglos; autor desconocido | `SRC-MED-GR-HEART-2023` | B-COND | AUDITADO |
+| `TIME-MED-GR-EMPIRICISTS-001` | ca. 175–75 a. e. c. | una comunidad empirista lee intensamente el corpus | reconstrucción desde fragmentos y testimonios | `SRC-MED-GR-BERREY-2015` | B histórico | AUDITADO |
+| `TIME-MED-GR-CELSUS-001` | ca. 25 a. e. c.–50 e. c. | Celso transmite atribución de vivisección de condenados | testimonio romano posterior, no observación coetánea | `SRC-MED-GR-SCARBOROUGH-1976` | A testimonio/C evento | AUDITADO |
+| `TIME-MED-GR-IAMATA-EXCAVATION-001` | 1881–1903 | excavaciones recuperan y publican estelas de Epidauro | historia moderna de hallazgo y edición | `SRC-MED-GR-SOLIN-2013` | A material/B editorial | AUDITADO |
+| `TIME-MED-GR-LONIE-001` | 1978 | Lonie critica la construcción historiográfica Cos/Cnido | argumento revisable por nuevos archivos | `SRC-MED-GR-LONIE-1978` | A método | AUDITADO |
+| `TIME-MED-GR-DISSECTION-REVIEW-001` | 2022 | Bubb integra disección clásica y helenística en historia social | síntesis dependiente de fragmentos | `SRC-MED-GR-BUBB-2022` | A método/B histórico | AUDITADO |
+| `TIME-MED-GR-HEART-REVIEW-001` | 2023 | comentario reevalúa *Sobre el corazón* y su cronología | no resuelve fecha ni especie disecada | `SRC-MED-GR-HEART-2023` | A método/B-COND | AUDITADO |
