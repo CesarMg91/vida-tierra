@@ -6,7 +6,7 @@ Historia profunda de la Tierra, la vida y el ser humano desde primeros principio
 
 **[Explorar la versión pública](https://vida-tierra.vercel.app)**
 
-La versión `0.3.12` continúa la historia cronológica mundial de la medicina con MED-013: barcos, mercancías, manuscritos, cartas, regalos, oficinas imperiales e impresos por el Índico y Eurasia, separados por huella, identificación, itinerario, mediación, recepción y alcance. Incluye el módulo público «Una ruta no demuestra una transferencia» y conserva MED-001–012 y CIV-001–003 íntegros; la secuencia global continúa cerrada en `001–052`.
+La versión `0.3.13` continúa la historia cronológica mundial de la medicina con MED-014: relatos, genomas, entierros, series, órdenes, lazaretos y cordones separados por testimonio, agente, magnitud, respuesta, cumplimiento y desigualdad. Incluye el módulo público «Un brote narrado no es un diagnóstico ni una cifra» y conserva MED-001–013 y CIV-001–003 íntegros; la secuencia global continúa cerrada en `001–052`.
 
 El sitio usa `https://vida-tierra.vercel.app` como URL canónica. Otro dominio puede sustituirlo definiendo `SITE_URL` en el entorno de build, sin cambiar el código.
 
@@ -46,7 +46,7 @@ Y toda investigación debe distinguir explícitamente:
 - las alternativas y anomalías;
 - el grado de confianza y qué podría falsar la conclusión.
 
-## Estado actual · v0.3.12
+## Estado actual · v0.3.13
 
 La experiencia pública contiene:
 
@@ -108,6 +108,7 @@ La experiencia pública contiene:
 - la novena investigación histórica de Medicina: [MED-011 — ¿Cómo operaron traducción, observación, hospitales, farmacia y regulación en los mundos islámicos?](15_medicina/INVESTIGACION_MED_011_MUNDOS_ISLAMICOS.md) — **AUDITADO**; separa testigo, versión, operación, institución, alcance y consecuencia sin convertir una edad de oro en bloque homogéneo;
 - la décima investigación histórica de Medicina: [MED-012 — ¿Cómo convivieron monasterios, universidades, hogares, hospitales, cirujanos y redes judías en la Europa medieval?](15_medicina/INVESTIGACION_MED_012_EUROPA_MEDIEVAL_TRADICIONES_JUDIAS.md) — **AUDITADO**; separa testigo, versión, currículo, practicante, encuentro y alcance sin convertir autoridad, licencia o identidad en consulta;
 - la undécima investigación histórica de Medicina: [MED-013 — ¿Cómo siguieron los conocimientos médicos a personas, mercancías, manuscritos e imperios por el Índico y Eurasia?](15_medicina/INVESTIGACION_MED_013_RUTAS_INDICO_EURASIA.md) — **AUDITADO**; separa huella, identificación, itinerario, mediación, recepción y alcance sin convertir conexión, traducción o impresión en práctica o eficacia;
+- la duodécima investigación histórica de Medicina: [MED-014 — ¿Cómo identificamos epidemias, medimos su magnitud y auditamos cuarentenas?](15_medicina/INVESTIGACION_MED_014_EPIDEMIAS_CUARENTENAS.md) — **AUDITADO**; separa testimonio, agente, magnitud, respuesta, cumplimiento y desigualdad sin convertir relato, genoma, fosa u orden en diagnóstico, cifra o eficacia;
 - la trigésima séptima investigación: [`¿Cómo distinguimos especies, locomoción, dieta y parentesco entre australopitecos y Paranthropus sin convertir su diversidad en una escalera hacia Homo?`](08_cenozoico/INVESTIGACION_037_AUSTRALOPITECOS_PARANTHROPUS.md);
 - la trigésima octava investigación: [`¿Cómo reconocemos a Homo temprano, habilis y erectus si fósiles, herramientas, cuerpos y moléculas responden preguntas distintas?`](08_cenozoico/INVESTIGACION_038_HOMO_TEMPRANO_HABILIS_ERECTUS.md);
 - la trigésima novena investigación: [`¿Cómo reconstruimos las poblaciones humanas del Pleistoceno medio sin convertir Homo heidelbergensis en un cajón de sastre ni cada fósil en un ancestro?`](08_cenozoico/INVESTIGACION_039_HOMO_PLEISTOCENO_MEDIO_HEIDELBERGENSIS.md);

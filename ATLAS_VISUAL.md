@@ -1214,3 +1214,33 @@ La salida se inspeccionó completa a resolución original. No contiene personas,
 La composición no reproduce el pecio de Belitung, un manuscrito de Dunhuang, un fragmento de la Geniza, un regalo bizantino o islamicate, el `Tānksūqnāma`, el `Huihui yaofang`, los `Colóquios` o una ruta geográfica real. Los hilos ramificados no afirman coetaneidad, dirección, transferencia, adopción o eficacia.
 
 Los SVG se construyeron a `1600 × 900`, incluyen `title`, `desc` y tipografía de reserva. La cadena mantiene seis capas y cortafuegos; la matriz compara seis archivos sin puntuaciones. Ninguno acepta datos, calcula rutas, diagnostica, recomienda o representa resultados clínicos.
+
+## 69. MED-014 — Un brote narrado no es un diagnóstico ni una cifra
+
+![Portada editorial de MED-014](assets/visuales/hero-med-014-epidemias-cuarentenas.png)
+
+![Cadena desde testimonio hasta desigualdad](assets/visuales/cadena-testimonio-desigualdad-med-014.svg)
+
+![Matriz de epidemias, cuarentenas y límites](assets/visuales/matriz-epidemias-cuarentenas-med-014.svg)
+
+| Archivo | Tipo | Procedencia | Qué representa | Límite obligatorio |
+|---|---|---|---|---|
+| `hero-med-014-epidemias-cuarentenas.png` | portada editorial conceptual | OpenAI ImageGen, generación nueva, 2026-08-28 | libro de mortalidad, muestra, paisaje, lazareto, pase y cordón genéricos | no víctima, brote, documento, institución, población o política reales |
+| `cadena-testimonio-desigualdad-med-014.svg` | diagrama epistemológico original | SVG manual del proyecto, 2026-08-28 | testimonio, agente, magnitud, respuesta, cumplimiento y desigualdad | las flechas no heredan diagnóstico, cifra, ejecución, efecto o justicia |
+| `matriz-epidemias-cuarentenas-med-014.svg` | matriz documental original | SVG manual del proyecto, 2026-08-28 | seis expedientes, archivos, inferencias y límites | las filas no forman severidad, progreso sanitario o ranking |
+
+### Procedencia de la portada
+
+Salida original aprobada sin edición: `C:\Users\HUAWEI\.codex\generated_images\019fedb0-8f24-7e33-8d16-d2418ba3378e\exec-94a8564d-2e52-4be9-ae73-334e36df50ed.png`. Destino: `assets/visuales/hero-med-014-epidemias-cuarentenas.png`. Dimensiones: `1672 × 941`; tamaño: `1,984,695` bytes; SHA-256: `144f055ff947bf7dc2ef60204a28a417c0b18cea4fab27bc1ad62e0c0058375f`.
+
+**Prompt de generación:**
+
+> Create one original 16:9 editorial museum still-life hero image for a Spanish public history-of-medicine research platform. Topic: how historians reconstruct epidemics and quarantines without turning a reported outbreak into an automatic retrospective diagnosis. View from slightly above across a long dark obsidian archival table in a dim museum laboratory. Keep the LEFT 42% deliberately calm, dark, and low-detail as negative space for white website title text. On the CENTER and RIGHT, arrange six clearly separated but visually connected evidence stations: (1) an open historical mortality ledger with abstract unreadable rows and small tally marks, no legible words or numbers; (2) a small archaeological sample tray containing one generic tooth fragment beside a sterile sampling tube, respectful and non-graphic; (3) a rolled regional pollen-core diagram and a simple burial-plan sheet with abstract marks; (4) a miniature wooden port and lazaret/quarantine-island architectural model; (5) a sealed generic health pass and folded municipal order with wax seal, all writing illegible; (6) a thin red cordon thread passing through checkpoints and ending beside household tokens of unequal size, suggesting uneven burdens. Add a small ship model and cargo seal in the background, but no mapped route and no modern border. Warm parchment papers, obsidian shadows, copper instruments, amber highlights and mineral-green glass; subtle shafts of museum light; realistic materials; rigorous, contemplative, humane, premium documentary photography. The composition must communicate layers of evidence, institutions, compliance and inequality, not disease spectacle. No people, no corpses, no gore, no rats, no fleas, no skulls, no plague-doctor mask, no modern medical equipment, no microscope, no biohazard symbol, no readable text, no logo, no watermark, no decorative map borders, no single causal arrow, no implication that quarantine was uniformly effective. Photorealistic editorial still life, cinematic but scientifically restrained, full-bleed 16:9, strong focal clarity on the right, ample left-side title-safe space.
+
+### Revisión y límites
+
+La salida se inspeccionó completa a resolución original. No contiene personas, cadáveres, sangre, ratas, pulgas, cráneos, máscara de médico de peste, instrumentos modernos, fronteras, logos o texto transcribible. Libro, diente, tubo, diagramas, pase, sello, puerto, lazareto, barco, cordón y fichas son utilería editorial genérica.
+
+La composición no reproduce Jerash, Kara-Djigach, East Smithfield, Ragusa, Venecia, Bristol, Londres, el Grand Saint-Antoine, Marsella ni una orden, fosa o población real. Proximidad y cordón no afirman ruta, agente, obediencia, eficacia, causalidad o justicia.
+
+Los SVG se construyeron a `1600 × 900`, incluyen `title`, `desc` y tipografía de reserva. La cadena mantiene seis capas y cortafuegos; la matriz compara seis expedientes sin puntuaciones. Ninguno acepta síntomas, calcula mortalidad, diagnostica, recomienda o representa resultados clínicos.

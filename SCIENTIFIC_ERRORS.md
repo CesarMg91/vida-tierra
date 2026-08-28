@@ -4361,3 +4361,22 @@ Riesgo basal, alternativas y preferencias cambian el balance. **Corrección:** s
 | `ERR-MED-ROUTES-ORTA-DISCOVERER-001` | Orta descubrió solo las drogas de India | dependió de informantes, mercados, textos y orden colonial | reconocer producción relacional y asimetría | ACTIVO |
 | `ERR-MED-ROUTES-PRINT-ADOPTION-001` | imprimir o traducir un libro demuestra adopción clínica | disponibilidad, lectura, comprensión y práctica no son equivalentes | seguir audiencia, cita, adaptación y encuentro | ACTIVO |
 | `ERR-MED-ROUTES-CIRCULATION-PROGRESS-001` | más conexiones o mayor distancia prueban avance y eficacia | circulación mide red, no seguridad, beneficio o superioridad | comparar dimensiones sin puntuación y auditar efectos aparte | ACTIVO |
+
+## MED-014 — Epidemias y cuarentenas
+
+| ID | Error | Por qué falla | Corrección | Estado |
+|---|---|---|---|---|
+| `ERR-MED-EPID-RETRODX-AUTOMATIC-001` | traducir una pestilencia histórica a un diagnóstico moderno por síntomas | signos, género y vocabulario son inespecíficos y cambiantes | declarar diferencial, contexto y prueba independiente | ACTIVO |
+| `ERR-MED-EPID-DNA-DENOMINATOR-001` | un positivo molecular demuestra prevalencia o mortalidad poblacional | la muestra selecciona individuos preservados y excavados | separar agente, numerador, denominador y población | ACTIVO |
+| `ERR-MED-EPID-BURIAL-POPULATION-001` | una fosa representa a toda la ciudad | prácticas funerarias seleccionan cuerpos, tiempo y acceso | auditar formación del depósito y población fuente | ACTIVO |
+| `ERR-MED-EPID-FIRST-PANDEMIC-TOTAL-001` | declarar la primera pandemia catastrófica o irrelevante en todo el Mediterráneo | archivos regionales y proxies no tienen resolución común | estimar por lugar, periodo y denominador | ACTIVO |
+| `ERR-MED-EPID-PHYLOGENY-ROUTE-001` | convertir una filogenia en itinerario de barcos, personas o vectores | árbol genealógico no observa cada movimiento | exigir genomas intermedios y contexto de movilidad | ACTIVO |
+| `ERR-MED-EPID-BLACKDEATH-UNIFORM-001` | aplicar una tasa continental única a la Peste Negra | polen y series locales muestran heterogeneidad | publicar rangos regionales y proxies explícitos | ACTIVO |
+| `ERR-MED-EPID-QUARANTINE-INVENTOR-001` | buscar un inventor único de la cuarentena | norma, duración, oficina, lazareto y ejecución surgieron gradualmente | definir el producto y su jurisdicción | ACTIVO |
+| `ERR-MED-EPID-DECREE-COMPLIANCE-001` | una orden demuestra aplicación y obediencia | texto prescribe; no registra recursos, excepción o cruce | enlazar cuentas, vigilantes, sanciones y hogares | ACTIVO |
+| `ERR-MED-EPID-COMPLIANCE-EFFICACY-001` | aplicación demuestra eficacia o justicia | una medida puede ejecutarse y producir daño desigual | estimar transmisión, daños y distribución aparte | ACTIVO |
+| `ERR-MED-EPID-BRISTOL-BENEFIT-001` | cerrar casas protegió por igual a todos | el encierro pudo elevar mortalidad intradoméstica | separar efecto interior, exterior y sustento | ACTIVO |
+| `ERR-MED-EPID-BILLS-CERTIFICATES-001` | tratar los Bills como certificados clínicos completos | registran entierros y causas atribuidas mediante una cadena social | usar la serie sin falsa confirmación individual | ACTIVO |
+| `ERR-MED-EPID-DECLINE-CAUSAL-001` | el descenso de una onda prueba la última medida adoptada | cointervenciones, ecología y susceptibles cambian simultáneamente | construir comparación y temporalidad causal | ACTIVO |
+| `ERR-MED-EPID-MARSEILLE-SHIP-STORY-001` | un barco explica por sí solo cada caso de Marsella | archivo portuario no observa toda cadena de transmisión | separar introducción, amplificación y dispersión | ACTIVO |
+| `ERR-MED-EPID-POLICY-PROGRESS-001` | lazareto, cordón o cifra de mortalidad miden avance sanitario | capacidad, eficacia, coerción y justicia son dimensiones distintas | comparar sin puntuación universal | ACTIVO |
