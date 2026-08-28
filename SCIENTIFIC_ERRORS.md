@@ -4437,3 +4437,20 @@ Riesgo basal, alternativas y preferencias cambian el balance. **Corrección:** s
 | `ERR-MED-PHYS-PUBLICATION-CONSENSUS-001` | publicación equivale a aceptación | lectores objetan, seleccionan y recombinan | documentar recepción y réplica | ACTIVO |
 | `ERR-MED-PHYS-MECHANISM-BENEFIT-001` | mecanismo correcto implica beneficio terapéutico | falta intervención, comparador, daño y acceso | evaluar resultado clínico con otra cadena | ACTIVO |
 | `ERR-MED-PHYS-RANKING-001` | ordenar tradiciones por parecido con circulación moderna | archivos y preguntas no comparten una escala universal | comparar operaciones, resolución y límites | ACTIVO |
+
+## MED-018 — Microscopía y anatomía patológica
+
+| ID | Error | Por qué falla | Corrección operativa | Estado |
+|---|---|---|---|---|
+| `ERR-MED-PATH-AUTOPSY-INVENTION-001` | Morgagni inventó la autopsia | existían aperturas e inspecciones previas; su producto fue correlación seriada | definir si se compara procedimiento, publicación o correlación | ACTIVO |
+| `ERR-MED-PATH-BICHAT-MICROSCOPE-001` | Bichat descubrió tejidos al microscopio | su programa se apoyó principalmente en disección y pruebas macroscópicas | registrar aparato y operación realmente usados | ACTIVO |
+| `ERR-MED-PATH-HOOKE-MODERN-CELL-001` | Hooke descubrió la célula viva moderna | describió compartimentos de corcho muerto bajo categorías de 1665 | separar nombre, objeto, universalización y función | ACTIVO |
+| `ERR-MED-PATH-VIRCHOW-SOLE-001` | Virchow creó solo la patología celular | síntesis y crédito dependen de Müller, Schwann, Remak y redes | dividir observación, mecanismo, enseñanza y difusión | ACTIVO |
+| `ERR-MED-PATH-SLIDE-LIVING-001` | una H&E muestra el tejido tal como estaba vivo | fijación, inclusión, corte y tinción transforman materia y color | conservar preparación, controles y artefactos | ACTIVO |
+| `ERR-MED-PATH-AUTOPSY-POPULATION-001` | muchas autopsias representan una población | ingreso, muerte, autorización y provisión seleccionan el archivo | declarar denominadores y población fuente | ACTIVO |
+| `ERR-MED-PATH-LESION-CAUSE-001` | toda lesión visible es la causa | puede ser efecto, marcador, secuela, incidental o artefacto | probar temporalidad, mecanismo y discordancias | ACTIVO |
+| `ERR-MED-PATH-PAP-SOLO-001` | el frotis cervical fue una idea individual | eponimia borra desarrollos paralelos, muestras, clínica y técnica | reconstruir contribuciones por producto | ACTIVO |
+| `ERR-MED-PATH-SMEAR-TUMOR-001` | un frotis representa todo el tumor | exfoliación, toma y lectura muestrean una fracción | verificar con contexto, repetición y tejido cuando corresponda | ACTIVO |
+| `ERR-MED-PATH-RETRODX-001` | una imagen histórica permite diagnosticar hoy a una persona | faltan muestra, criterios, alternativas y contexto verificables | limitarse a describir el registro histórico | ACTIVO |
+| `ERR-MED-PATH-RESOLUTION-TRUTH-001` | mayor aumento produce automáticamente mayor verdad | resolución no corrige selección, preparación o categoría | evaluar cadena completa y pregunta | ACTIVO |
+| `ERR-MED-PATH-DIAGNOSIS-BENEFIT-001` | capacidad diagnóstica demuestra beneficio clínico | faltan decisión, intervención, daños, acceso y desenlace | auditar la cadena clínica y poblacional por separado | ACTIVO |

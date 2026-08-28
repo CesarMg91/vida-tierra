@@ -1374,7 +1374,7 @@ svg { stroke-width: 1.7; }
 .medicine-principles h3 { margin: 2.5rem 0 .8rem; font-size: 1.5rem; font-weight: 500; }
 .medicine-principles article p { color: var(--ink-muted); }
 
-.medicine-lab-section { border-top: 1px solid var(--line-strong); scroll-margin-top: calc(var(--header-h) + 1rem); }
+.medicine-lab-section { border-top: 1px solid var(--line-strong); scroll-margin-top: calc(var(--header-h) + 1rem); content-visibility: auto; contain-intrinsic-size: auto 80rem; }
 .clinical-lab { border: 1px solid var(--line-strong); background: #0d1112; color: #eee4d2; }
 .clinical-toolbar { display: grid; grid-template-columns: minmax(18rem,.65fr) minmax(24rem,1.35fr); gap: 2rem; padding: clamp(1.2rem,3vw,2.2rem); border-bottom: 1px solid #36423f; }
 .clinical-toolbar label, .clinical-toolbar dt { color: #9aab9f; font-family: var(--font-plex-sans), Arial, sans-serif; font-size: .64rem; letter-spacing: .08em; text-transform: uppercase; }

@@ -1742,3 +1742,18 @@ Cada flecha puede detenerse. Sistema no hereda observación; preparación no her
 - `CLAIM-MED-PHYS-NONRANKING-001` impide ordenar tradiciones por parecido con una fisiología contemporánea.
 
 Véase 15_medicina/INVESTIGACION_MED_017_CIRCULACION_FISIOLOGIA.md, 22_mapas_epistemologicos/MAPA_MED_017_CIRCULACION_FISIOLOGIA.md, 21_cronologias/CRONOLOGIA_MED_017_CIRCULACION_FISIOLOGIA.md, assets/visuales/cadena-sistema-experimento-recepcion-med-017.svg y assets/visuales/matriz-circulacion-fisiologia-med-017.svg.
+
+## MED-018 — Una lesión no contiene una enfermedad por sí sola
+
+- Song Ci separa manual judicial, inspección externa, categoría histórica, recepción moderna y equivalencia disciplinaria rechazada.
+- La microscopía temprana separa espécimen, lente, luz, preparación, dibujo, impresión, estructura y relación clínica todavía ausente.
+- Morgagni separa episodio, cuerpo post mortem, lesión, correlación, selección y etiología no demostrada.
+- Bichat separa órgano, tejido, operación macroscópica, vitalismo y taxonomía histórica.
+- Rokitansky separa hospital, provisión de cuerpos, prosección, volumen institucional, nosología y mecanismo.
+- La síntesis celular separa observación, división, continuidad, aplicación patológica, docencia, recepción y crédito distribuido.
+- La histotecnología separa fijación, inclusión, orientación, corte, tinción, control, artefacto y trabajo técnico.
+- La citología cervical separa persona viva, toma, frotis, patrón, clasificación, verificación, programa y desenlace.
+- `CLAIM-MED-PATH-CHAIN-001` impide saltar de una imagen preparada a una enfermedad sin conservar las siete capas.
+- `CLAIM-MED-PATH-NONRANKING-001` impide ordenar archivos por antigüedad, aumento, volumen o parecido con la práctica actual.
+
+Véase 15_medicina/INVESTIGACION_MED_018_MICROSCOPIA_ANATOMIA_PATOLOGICA.md, 22_mapas_epistemologicos/MAPA_MED_018_MICROSCOPIA_ANATOMIA_PATOLOGICA.md, 21_cronologias/CRONOLOGIA_MED_018_MICROSCOPIA_ANATOMIA_PATOLOGICA.md, assets/visuales/cadena-episodio-enfermedad-med-018.svg y assets/visuales/matriz-microscopia-anatomia-patologica-med-018.svg.
