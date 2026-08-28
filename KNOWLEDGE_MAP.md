@@ -1585,3 +1585,23 @@ Los cortafuegos principales son: África ≠ una tradición; ausencia de texto �
 Kerma conserva lesión y supervivencia; Kulubnarti muestra corrección multiarquivo; Aksum, preservación corporal desigual; Jenne-jeno, urbanismo sin herencia médica; Tombuctú, repertorio escrito sin práctica automática; Tong Hills, función probable mediante convergencia sin identidad o efecto heredados.
 
 Véase 15_medicina/INVESTIGACION_MED_009_AFRICA_FUERA_EJE_EGIPCIO.md, 22_mapas_epistemologicos/MAPA_MED_009_AFRICA_FUERA_EJE_EGIPCIO.md, 21_cronologias/CRONOLOGIA_MED_009_AFRICA_FUERA_EJE_EGIPCIO.md, assets/visuales/cadena-archivo-limite-med-009.svg y assets/visuales/matriz-archivos-africa-med-009.svg.
+
+### MED-010 — Una huella no hereda una historia clínica
+
+```text
+archivo
+  ↓ procedencia + denominador
+señal
+  ↓ diferencial + controles
+práctica inferida
+  ↓ temporalidad + comparación
+consecuencia observada
+  ↓ población + daño + dato ausente
+límite
+```
+
+Los cortafuegos principales son: Américas ≠ una tradición; abertura ≠ indicación; remodelación ≠ beneficio funcional; porcentaje osteológico ≠ tasa clínica; diente modificado ≠ terapia; molécula ≠ intención; propiedad farmacológica ≠ efecto in vivo; microresto ≠ medicamento; una persona ≠ tradición; coprolito ≠ farmacopea; receta ≠ ejecución; códice colonial ≠ voz precontacto transparente; traducción ≠ equivalencia; co-producción ≠ simetría de poder; continuidad ≠ identidad inmóvil; técnica ≠ superioridad.
+
+Cuzco conserva intervención y supervivencia frecuente sin historia clínica completa; los dientes mayas, técnica, material y un control patológico adversario; Huaca El Paraíso, contacto vegetal individual; Piauí, convergencia entre parásitos y uso medicinal probable; el Libellus y el Códice Florentino, agencia nahua bajo producción colonial situada.
+
+Véase 15_medicina/INVESTIGACION_MED_010_MESOAMERICA_ANDES_AMERICAS.md, 22_mapas_epistemologicos/MAPA_MED_010_MESOAMERICA_ANDES_AMERICAS.md, 21_cronologias/CRONOLOGIA_MED_010_MESOAMERICA_ANDES_AMERICAS.md, assets/visuales/cadena-archivo-consecuencia-med-010.svg y assets/visuales/matriz-archivos-americas-med-010.svg.

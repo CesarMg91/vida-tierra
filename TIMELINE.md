@@ -686,3 +686,25 @@ CIV-003 inaugura los expedientes regionales auditados. CIV-001 conserva `TRAZADO
 | `TIME-MED-AFRICA-CARE-INDEX-001` | 2014 | se publica el Índice de Cuidado | herramienta no identifica cuidadores por sí sola | `SRC-MED-AFRICA-TILLEY-2014` | A método | AUDITADO |
 | `TIME-MED-AFRICA-KULUBNARTI-REVISION-001` | 2021 | síntesis osteológica y paleogenómica revisan categorías de Kulubnarti | no eliminan diferencias sociales | `SRC-MED-AFRICA-GODDE-2021`, `SRC-MED-AFRICA-SIRAK-2021` | A método/B historia | AUDITADO |
 | `TIME-MED-AFRICA-NUBIA-REVIEW-001` | 2026 | síntesis reciente integra bioarqueología, historia de colección y ética nubias | cobertura regional sigue desigual | `SRC-MED-AFRICA-CIESIELSKA-2026` | A historiográfico/B alcance | AUDITADO |
+
+## MED-010 — Mesoamérica, Andes y otras Américas
+
+| ID | Fecha/intervalo | Evento delimitado | Incertidumbre y evidencia | Fuente | Confianza | Estado |
+|---|---:|---|---|---|---|---|
+| `TIME-MED-AMERICAS-PIAUI-001` | ca. 8500–7000 años AP | cinco coprolitos de Piauí conservan polen y parásitos intestinales | fecha el depósito, no el origen de una farmacopea | `SRC-MED-AMERICAS-CHAVES-REINHARD-2006` | A archivo/B función | AUDITADO |
+| `TIME-MED-AMERICAS-HUACA-001` | ca. 2100–1500 a. e. c. | una mujer de Huaca El Paraíso conserva microrestos en cálculo y caries | una persona; aplicación medicinal condicionada | `SRC-MED-AMERICAS-ALLENDE-2022` | A contexto/B-COND función | AUDITADO |
+| `TIME-MED-AMERICAS-TREPANATION-001` | desde ca. 400 a. e. c. | series peruanas documentan trepanaciones, técnicas y remodelación | no fecha invención única o indicación uniforme | `SRC-MED-AMERICAS-KUSHNER-2018` | A/B bioarqueológico | AUDITADO |
+| `TIME-MED-AMERICAS-CUZCO-001` | ca. 1000–1530 e. c., según sitio | 11 sitios de Cuzco aportan 66 individuos y 109 perforaciones | cronología y selección varían dentro de la serie | `SRC-MED-AMERICAS-ANDRUSHKO-2008` | A muestra/B periodo | AUDITADO |
+| `TIME-MED-AMERICAS-LIBELLUS-001` | 1552 | concluye el Libellus en Tlatelolco | objeto colonial; repertorios pueden tener genealogías anteriores | `SRC-MED-AMERICAS-INAH-LIBELLUS` | A documental | AUDITADO |
+| `TIME-MED-AMERICAS-FLORENTINE-001` | ca. 1577 | concluye el Códice Florentino conservado | fecha manuscrito, no cada práctica descrita | `SRC-MED-AMERICAS-GETTY-FLORENTINE` | A documental/B estrato | AUDITADO |
+| `TIME-MED-AMERICAS-COPROLITE-METHOD-001` | 1992 | Sobolik y Gerick relacionan polen y coprolitos diarreicos | inferencia medicinal mantiene usos dietarios alternativos | `SRC-MED-AMERICAS-SOBOLIK-GERICK-1992` | A método/B función | AUDITADO |
+| `TIME-MED-AMERICAS-CIRCULATION-001` | 2001 | Huguet-Termes separa recepción erudita y uso práctico de materia médica americana | archivo institucional parcial | `SRC-MED-AMERICAS-HUGUET-TERMES-2001` | A historiográfico/B alcance | AUDITADO |
+| `TIME-MED-AMERICAS-PIAUI-STUDY-001` | 2006 | análisis crítico estrecha doce géneros a tres casos más fuertes | función probable, efecto no medido | `SRC-MED-AMERICAS-CHAVES-REINHARD-2006` | A método/B-COND función | AUDITADO |
+| `TIME-MED-AMERICAS-CUZCO-STUDY-001` | 2008 | Andrushko y Verano publican la serie comparativa de Cuzco | 83 % depende de cicatrización y muestra | `SRC-MED-AMERICAS-ANDRUSHKO-2008` | A lesión/B desenlace | AUDITADO |
+| `TIME-MED-AMERICAS-CALCULUS-METHOD-001` | 2015 | estudio actualista prueba representatividad de microrestos dentales | señal grupal mejor que intensidad individual | `SRC-MED-AMERICAS-LEONARD-2015` | A método/B transferencia | AUDITADO |
+| `TIME-MED-AMERICAS-NAHUA-METHOD-001` | 2017–2018 | De Vos y Rios Castano contextualizan farmacopea y herbario nahuas | taxón, género y dependencia permanecen revisables | `SRC-MED-AMERICAS-DE-VOS-2017`, `SRC-MED-AMERICAS-RIOS-CASTANO-2018` | A método/B histórico | AUDITADO |
+| `TIME-MED-AMERICAS-MAYA-CONTROL-001` | 2018 | 193 dientes incrustados se comparan con 211 controles | consecuencias patológicas no equivalen a experiencia completa | `SRC-MED-AMERICAS-RAMIREZ-SALOMON-2018` | A muestra/B generalización | AUDITADO |
+| `TIME-MED-AMERICAS-MAYA-CHEMISTRY-001` | 2022 | ATR-FTIR y GC-MS caracterizan ocho cementos mayas | composición no prueba intención o efecto | `SRC-MED-AMERICAS-HERNANDEZ-BOLIO-2022` | A química/B identidad/C efecto | AUDITADO |
+| `TIME-MED-AMERICAS-FLORENTINE-DIGITAL-001` | 2023 | se publica el Códice Florentino Digital | edición amplía acceso; no borra mediaciones | `SRC-MED-AMERICAS-GETTY-FLORENTINE` | A digital/B editorial | AUDITADO |
+| `TIME-MED-AMERICAS-MAYA-SYNTHESIS-001` | 2024 | Tiesler integra tres milenios de modificación dental maya | síntesis depende de colecciones desiguales | `SRC-MED-AMERICAS-TIESLER-2024` | A historiográfico/B alcance | AUDITADO |
+| `TIME-MED-AMERICAS-TRANSLATION-001` | 2025 | Nesvig reevalúa categorías coloniales de magia y curación | foco temprano-colonial y textual | `SRC-MED-AMERICAS-NESVIG-2025` | A/B histórico | AUDITADO |

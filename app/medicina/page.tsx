@@ -3,6 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { ArrowDown, ArrowRight, BookOpen, HeartPulse, ShieldCheck, Stethoscope } from "lucide-react";
 import AfricanMedicineArchiveLab from "../../components/AfricanMedicineArchiveLab";
+import AmericasMedicineArchiveLab from "../../components/AmericasMedicineArchiveLab";
 import ClinicalEvidenceLab from "../../components/ClinicalEvidenceLab";
 import DiagnosticEvidenceLab from "../../components/DiagnosticEvidenceLab";
 import DocumentaryMedicineLab from "../../components/DocumentaryMedicineLab";
@@ -12,6 +13,7 @@ import HistoricalMedicineLab from "../../components/HistoricalMedicineLab";
 import RomanByzantineMedicineLab from "../../components/RomanByzantineMedicineLab";
 import SouthAsianMedicineLab from "../../components/SouthAsianMedicineLab";
 import { africanMedicineArchives } from "../../lib/african-medicine-archives";
+import { americasMedicineArchives } from "../../lib/americas-medicine-archives";
 import { diagnosticEvidence } from "../../lib/diagnostic-evidence";
 import { documentaryMedicineEvidence } from "../../lib/documentary-medicine-evidence";
 import { eastAsianMedicineEvidence } from "../../lib/east-asian-medicine-evidence";
@@ -27,7 +29,7 @@ export const metadata: Metadata = createPageMetadata({
   title: "Historia de la medicina — archivos, cuidado y evidencia",
   description: "Cómo reconstruimos la historia mundial de la medicina desde huesos, manuscritos, cánones, instituciones y resultados sin confundir archivo, práctica o eficacia.",
   pathname: "/medicina",
-  image: "/assets/visuales/hero-med-009-africa-fuera-eje-egipcio.png",
+  image: "/assets/visuales/hero-med-010-mesoamerica-andes-americas.png",
 });
 
 const principles = [
@@ -44,8 +46,8 @@ export default function MedicinePage() {
     <div className="medicine-experience">
       <header className="medicine-hero medicine-history-hero">
         <Image
-          src="/assets/visuales/hero-med-009-africa-fuera-eje-egipcio.png"
-          alt="Seis estaciones editoriales separadas con fragmentos, muestras, perfil de suelo, modelo urbano, códice, recipientes y ficha en blanco"
+          src="/assets/visuales/hero-med-010-mesoamerica-andes-americas.png"
+          alt="Mesa editorial dividida en seis estaciones con cráneo genérico fragmentario, dientes, microrestos, coprolito y códices sin representar una colección real"
           fill
           preload
           fetchPriority="high"
@@ -54,14 +56,14 @@ export default function MedicinePage() {
         <div className="medicine-hero-shade" />
         <div className="medicine-hero-copy">
           <p className="eyebrow">Historia mundial de la medicina</p>
-          <h1>Silencio documental no es ausencia de cuidado</h1>
-          <p>Cuerpos, asentamientos, manuscritos, residuos y tradición oral conservan productos distintos. Procedencia, señal, inferencia, contraste y límite impiden llenar sus silencios con analogías.</p>
+          <h1>Una huella no hereda una historia clínica</h1>
+          <p>Cráneos, dientes, microrestos, coprolitos y códices conservan productos distintos. Procedencia, señal, práctica, consecuencia y límite impiden convertirlos en diagnósticos o tratamientos completos.</p>
           <div>
-            <Link className="button button-primary" href="#archivos-africanos">Seguir la cadena <ArrowDown aria-hidden="true" /></Link>
-            <Link className="medicine-text-link" href="/15_medicina/INVESTIGACION_MED_009_AFRICA_FUERA_EJE_EGIPCIO">Leer MED-009 <ArrowRight aria-hidden="true" /></Link>
+            <Link className="button button-primary" href="#archivos-americas">Seguir la cadena <ArrowDown aria-hidden="true" /></Link>
+            <Link className="medicine-text-link" href="/15_medicina/INVESTIGACION_MED_010_MESOAMERICA_ANDES_AMERICAS">Leer MED-010 <ArrowRight aria-hidden="true" /></Link>
           </div>
         </div>
-        <p className="medicine-visual-limit">Composición editorial no probatoria: soportes genéricos y separados; no reproduce una colección, sociedad, práctica o tradición real.</p>
+        <p className="medicine-visual-limit">Composición editorial no probatoria: soportes genéricos y separados; no reproduce restos, códices, sociedad, práctica o tradición real.</p>
       </header>
 
       <section className="medicine-boundary">
@@ -72,6 +74,14 @@ export default function MedicinePage() {
       <section className="medicine-principles" aria-labelledby="medicine-principles-title">
         <header><p className="eyebrow">Contrato de lectura</p><h2 id="medicine-principles-title">Cuatro cortafuegos</h2></header>
         <div>{principles.map(([title, text], index) => <article key={title}><span>{String(index + 1).padStart(2, "0")}</span><h3>{title}</h3><p>{text}</p></article>)}</div>
+      </section>
+
+      <section className="medicine-lab-section documentary-lab-section" id="archivos-americas" aria-labelledby="americas-archives-lab-title">
+        <div className="section-heading">
+          <div><p className="eyebrow">MED-010 · laboratorio de cuerpo, planta y códice</p><h2 id="americas-archives-lab-title">Del archivo al límite</h2></div>
+          <p>Elige un caso. Seis capas separan procedencia, señal, práctica y consecuencia sin fabricar una historia clínica.</p>
+        </div>
+        <AmericasMedicineArchiveLab data={americasMedicineArchives} />
       </section>
 
       <section className="medicine-lab-section documentary-lab-section" id="archivos-africanos" aria-labelledby="african-archives-lab-title">

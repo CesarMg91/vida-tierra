@@ -3309,3 +3309,18 @@ Emular un ensayo objetivo corrige errores de diseño, no confusión no medida. *
 | `CONT-MED-AFRICA-TIMBUKTU-USE-001` | ¿cómo circularon y se ejecutaron textos médicos de Tombuctú? | manuales de consulta para practicantes | compilaciones devocionales, docentes o de biblioteca | colofones, marginalia, desgaste, recetas locales y redes de copia | ABIERTA |
 | `CONT-MED-AFRICA-TONG-FUNCTION-001` | ¿qué contenían y para qué sirvieron los recipientes de Tong Hills? | preparación medicinal vegetal | uso ritual o doméstico multifuncional | biomarcadores diagnósticos, microbotánica y conjuntos comparables | ABIERTA |
 | `CONT-MED-AFRICA-ORAL-TIME-001` | ¿qué profundidad cronológica conservan tradiciones concretas? | núcleos transmitidos durante generaciones | reorganización reciente de pasados e identidades | versiones fechadas, lingüística, arqueología y archivo independiente | ABIERTA |
+
+## MED-010 — Mesoamérica, Andes y otras Américas
+
+| ID | Pregunta abierta | Posición A | Posición B / alternativa | Evidencia que discrimina | Estado |
+|---|---|---|---|---|---|
+| `CONT-MED-AMERICAS-CUZCO-INDICATION-001` | ¿por qué se realizó cada trepanación de Cuzco? | respuesta a trauma o presión craneal | finalidad ritual, no traumática o combinada | asociación individual, microhuellas, lesión y contexto | ABIERTA |
+| `CONT-MED-AMERICAS-HEALING-RATE-001` | ¿cómo comparar categorías de cicatrización entre series? | reflejan supervivencia temporal comparable | umbrales, preservación y selección cambian el porcentaje | clasificación ciega, histología y metadatos comunes | ABIERTA |
+| `CONT-MED-AMERICAS-SURGERY-COMPARISON-001` | ¿son comparables series andinas y cirugía histórica posterior? | la remodelación permite contraste útil | indicación, severidad y seguimiento impiden ranking | estandarización de caso, tiempo y desenlace | ABIERTA |
+| `CONT-MED-AMERICAS-MAYA-SEALANT-INTENT-001` | ¿se eligieron cementos por propiedades biológicas? | componentes higiénicos fueron seleccionados | adhesión, color, disponibilidad o ritual explican la mezcla | residuos experimentales, recetas, controles y concentración | ABIERTA |
+| `CONT-MED-AMERICAS-MAYA-NET-EFFECT-001` | ¿qué balance tuvo la modificación dental? | buen sellado redujo parte del daño | perforación aumentó caries y lesión pulpar | series comparables por sitio, edad y diseño | ABIERTA |
+| `CONT-MED-AMERICAS-HUACA-APPLICATION-001` | ¿los microrestos de Huaca El Paraíso fueron aplicados a la caries? | ubicación apoya tratamiento local | alimentación, masticación o depósito incidental | distribución intradental, residuos químicos y controles | ABIERTA |
+| `CONT-MED-AMERICAS-PIAUI-MEDICINAL-001` | ¿qué polen de Piauí representa medicación? | convergencia con parásitos indica alivio buscado | dieta, uso múltiple o ingestión accidental | concentración, macrorestos, química y más coprolitos | ABIERTA |
+| `CONT-MED-AMERICAS-LIBELLUS-SOURCES-001` | ¿qué estratos y decisiones integró el Libellus? | preserva repertorios nahuas anteriores | adaptación sustancial al género y destinatario colonial | variantes, léxico, imagen y fuentes paralelas | ABIERTA |
+| `CONT-MED-AMERICAS-FLORENTINE-VOICES-001` | ¿cómo se distribuye agencia en el Códice Florentino? | voces nahuas permanecen distinguibles | cuestionario y edición reconfiguran profundamente el corpus | análisis de variantes, manos, imagen y columnas | ABIERTA |
+| `CONT-MED-AMERICAS-CONTINUITY-001` | ¿qué prácticas tienen continuidad demostrable? | cadenas indígenas preservaron núcleos transformados | reinvención, ruptura o convergencia explican semejanzas | testigos intermedios, lingüística y autoridad comunitaria | ABIERTA |

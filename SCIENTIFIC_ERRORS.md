@@ -4282,3 +4282,23 @@ Riesgo basal, alternativas y preferencias cambian el balance. **Corrección:** s
 | `ERR-MED-AFRICA-TONG-TALENSI-001` | los recipientes antiguos pertenecen automáticamente a talensi históricos | el contexto antecede la etnogénesis inferida | usar analogía sin heredar identidad | ACTIVO |
 | `ERR-MED-AFRICA-RESIDUE-EFFICACY-001` | residuo vegetal demuestra un remedio eficaz | no fija planta, indicación, dosis, comparador o resultado | separar contenido, función y efecto | ACTIVO |
 | `ERR-MED-AFRICA-RANKING-001` | más textos o restos significan medicina más avanzada | preservación no es desempeño social | comparar resolución del archivo, no sociedades en una escala | ACTIVO |
+
+## MED-010 — Mesoamérica, Andes y otras Américas
+
+| ID | Error | Por qué falla | Corrección mínima | Estado |
+|---|---|---|---|---|
+| `ERR-MED-AMERICAS-ONE-TRADITION-001` | las Américas tuvieron una medicina única | homogeniza regiones, cronologías, lenguas y ecologías | nombrar caso, archivo, fecha y escala | ACTIVO |
+| `ERR-MED-AMERICAS-HOLE-DIAGNOSIS-001` | toda abertura craneal fue una operación terapéutica | trauma, lesión y acción perimortem requieren diferencial | separar morfología, remodelación e indicación | ACTIVO |
+| `ERR-MED-AMERICAS-HEALING-SUCCESS-001` | cicatrización equivale a éxito clínico | supervivencia no mide dolor, función o beneficio | llamarla estimación osteológica de supervivencia | ACTIVO |
+| `ERR-MED-AMERICAS-83-PERCENT-001` | 83 % fue una tasa poblacional exacta | depende de muestra funeraria, criterio y denominador | declarar 66 individuos, 109 lesiones y método | ACTIVO |
+| `ERR-MED-AMERICAS-CIVIL-WAR-RANKING-001` | el porcentaje prueba superioridad sobre cirugía moderna | caso, severidad y seguimiento no son equivalentes | usar comparación como controversia, no ranking | ACTIVO |
+| `ERR-MED-AMERICAS-INLAY-DENTISTRY-001` | toda incrustación maya fue restauradora | modificación corporal tuvo significados múltiples | separar técnica, identidad, finalidad y efecto | ACTIVO |
+| `ERR-MED-AMERICAS-MOLECULE-THERAPY-001` | una molécula antibacteriana prueba terapia eficaz | falta intención, concentración, biodisponibilidad y resultado | conservar composición y efecto como capas distintas | ACTIVO |
+| `ERR-MED-AMERICAS-SEALING-NO-HARM-001` | sellado duradero prueba ausencia de daño | controles muestran mayor caries y lesión periapical | incluir el archivo adversario patológico | ACTIVO |
+| `ERR-MED-AMERICAS-CALCULUS-MEDICINE-001` | planta en cálculo dental es un medicamento | alimento, procesamiento y contaminación compiten | auditar ruta, distribución y contexto | ACTIVO |
+| `ERR-MED-AMERICAS-ONE-WOMAN-TRADITION-001` | una mujer de Huaca El Paraíso prueba una tradición | caso individual no entrega prevalencia o transmisión | limitar a contacto e hipótesis local | ACTIVO |
+| `ERR-MED-AMERICAS-POLLEN-PHARMACOPEIA-001` | todo polen potencialmente medicinal fue fármaco | propiedad moderna no conserva motivo de ingestión | graduar por concentración, síntomas y alternativas | ACTIVO |
+| `ERR-MED-AMERICAS-CODEX-PRACTICE-001` | una receta en códice demuestra práctica frecuente | género, circulación y ejecución son capas distintas | buscar marcas de uso, actores y archivos independientes | ACTIVO |
+| `ERR-MED-AMERICAS-CODEX-PRECONTACT-001` | un códice del siglo XVI es voz precontacto transparente | conquista, traducción, colegio y destinatario median el objeto | leer lengua, imagen y procedencia conjuntamente | ACTIVO |
+| `ERR-MED-AMERICAS-MAGIC-MEDICINE-001` | magia y medicina fueron dos sistemas universales opuestos | impone categorías y traducciones modernas | reconstruir vocabulario y causalidad situados | ACTIVO |
+| `ERR-MED-AMERICAS-CONTINUITY-FOSSIL-001` | una práctica actual explica directamente un resto antiguo | semejanza no prueba transmisión ni identidad inmóvil | exigir cadena histórica y autoridad comunitaria | ACTIVO |
