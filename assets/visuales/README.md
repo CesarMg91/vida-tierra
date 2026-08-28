@@ -977,3 +977,15 @@ La portada separa códice, objetos domésticos, fascículos, traducciones, ense�
 Salida original aprobada sin edición: `C:\Users\HUAWEI\.codex\generated_images\019fedb0-8f24-7e33-8d16-d2418ba3378e\exec-ca2c2e25-3223-4e46-9bf3-83a98f610d4e.png` → `assets/visuales/hero-med-013-rutas-indico-eurasia.png`; tamaño `2,339,218` bytes. El prompt completo y los límites están en `ATLAS_VISUAL.md`, sección 68.
 
 La portada separa barco y carga, manuscritos, carta, regalo, traducción, imprenta y plantas con rutas ramificadas; no contiene personas, fronteras, práctica clínica o texto usado como evidencia. Los SVG incluyen `title` y `desc`, preservan huella, identificación, itinerario, mediación, recepción y alcance y no convierten conexión, imperio o impresión en transferencia o eficacia.
+
+## MED-014 — Epidemias y cuarentenas
+
+| Archivo | Origen | Dimensiones | SHA-256 / trazabilidad | Límite |
+|---|---|---:|---|---|
+| `hero-med-014-epidemias-cuarentenas.png` | OpenAI ImageGen, generación nueva del 2026-08-28 | `1672 × 941` | `144f055ff947bf7dc2ef60204a28a417c0b18cea4fab27bc1ad62e0c0058375f` | composición conceptual; no víctima, brote, documento, institución, población o política reales |
+| `cadena-testimonio-desigualdad-med-014.svg` | SVG manual determinista | `1600 × 900` | código fuente versionado | seis capas inferenciales; no herencia automática |
+| `matriz-epidemias-cuarentenas-med-014.svg` | SVG manual determinista | `1600 × 900` | código fuente versionado | seis expedientes y límites; no severidad, progreso ni ranking |
+
+Salida original aprobada sin edición: `C:\Users\HUAWEI\.codex\generated_images\019fedb0-8f24-7e33-8d16-d2418ba3378e\exec-94a8564d-2e52-4be9-ae73-334e36df50ed.png` → `assets/visuales/hero-med-014-epidemias-cuarentenas.png`; tamaño `1,984,695` bytes. El prompt completo y los límites están en `ATLAS_VISUAL.md`, sección 69.
+
+La portada separa libro de mortalidad, muestra arqueológica, proxy de paisaje, lazareto, pase, cordón y cargas desiguales; no contiene personas, cadáveres, texto legible o iconografía sensacionalista. Los SVG incluyen `title` y `desc`, preservan testimonio, agente, magnitud, respuesta, cumplimiento y desigualdad y no convierten relato, genoma, fosa, norma o descenso en diagnóstico, cifra, eficacia o justicia.

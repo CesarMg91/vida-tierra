@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Cadena epistemológica desde testimonio hasta desigualdad</title>
+  <desc id="desc">Seis capas separan el archivo conservado, la identificación del agente, la magnitud, la respuesta, el cumplimiento y la distribución desigual de costos y protección.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#111513"/>
+      <stop offset="1" stop-color="#211b16"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="12" stdDeviation="14" flood-color="#000" flood-opacity=".35"/>
+    </filter>
+    <style>
+      .kicker{font:600 22px 'IBM Plex Sans',Arial,sans-serif;letter-spacing:4px;fill:#c89052}
+      .title{font:700 54px 'Source Serif 4',Georgia,serif;fill:#f4ead7}
+      .sub{font:400 24px 'IBM Plex Sans',Arial,sans-serif;fill:#cfc4b1}
+      .num{font:700 18px 'IBM Plex Mono',monospace;fill:#1a1713}
+      .card-title{font:700 27px 'Source Serif 4',Georgia,serif;fill:#f7eddc}
+      .card-text{font:400 18px 'IBM Plex Sans',Arial,sans-serif;fill:#d5cbbb}
+      .limit{font:600 17px 'IBM Plex Sans',Arial,sans-serif;fill:#f3c98f}
+      .footer{font:600 24px 'Source Serif 4',Georgia,serif;fill:#f4ead7}
+    </style>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <circle cx="1420" cy="110" r="240" fill="#295247" opacity=".13"/>
+  <circle cx="170" cy="810" r="260" fill="#aa6e34" opacity=".10"/>
+  <text x="90" y="80" class="kicker">MED-014 · CADENA DE AUDITORÍA</text>
+  <text x="90" y="145" class="title">Un brote narrado no es un diagnóstico ni una cifra</text>
+  <text x="90" y="188" class="sub">Cada capa conserva su población, escala, alternativa y límite.</text>
+
+  <path d="M185 390 H1415" stroke="#9b6b3d" stroke-width="4" stroke-dasharray="10 14" opacity=".8"/>
+
+  <g filter="url(#shadow)">
+    <g transform="translate(70 265)">
+      <rect width="230" height="360" rx="24" fill="#252821" stroke="#5e725e" stroke-width="2"/>
+      <circle cx="42" cy="43" r="20" fill="#c89052"/><text x="32" y="50" class="num">01</text>
+      <text x="28" y="96" class="card-title">Testimonio</text>
+      <text x="28" y="136" class="card-text"><tspan x="28">Texto, cuerpo,</tspan><tspan x="28" dy="27">molécula, cuenta</tspan><tspan x="28" dy="27">o paisaje.</tspan></text>
+      <line x1="28" y1="235" x2="202" y2="235" stroke="#536257"/>
+      <text x="28" y="270" class="limit"><tspan x="28">No convierte una</tspan><tspan x="28" dy="25">etiqueta en epidemia.</tspan></text>
+    </g>
+    <g transform="translate(316 265)">
+      <rect width="230" height="360" rx="24" fill="#232724" stroke="#547c70" stroke-width="2"/>
+      <circle cx="42" cy="43" r="20" fill="#6f9e8d"/><text x="32" y="50" class="num">02</text>
+      <text x="28" y="96" class="card-title">Agente</text>
+      <text x="28" y="136" class="card-text"><tspan x="28">Categoría histórica</tspan><tspan x="28" dy="27">o patógeno con</tspan><tspan x="28" dy="27">autenticidad.</tspan></text>
+      <line x1="28" y1="235" x2="202" y2="235" stroke="#536257"/>
+      <text x="28" y="270" class="limit"><tspan x="28">Un positivo no es</tspan><tspan x="28" dy="25">toda muerte cercana.</tspan></text>
+    </g>
+    <g transform="translate(562 265)">
+      <rect width="230" height="360" rx="24" fill="#29251f" stroke="#8b6b48" stroke-width="2"/>
+      <circle cx="42" cy="43" r="20" fill="#d2a15f"/><text x="32" y="50" class="num">03</text>
+      <text x="28" y="96" class="card-title">Magnitud</text>
+      <text x="28" y="136" class="card-text"><tspan x="28">Numerador,</tspan><tspan x="28" dy="27">denominador, tiempo</tspan><tspan x="28" dy="27">y territorio.</tspan></text>
+      <line x1="28" y1="235" x2="202" y2="235" stroke="#65543f"/>
+      <text x="28" y="270" class="limit"><tspan x="28">Una ciudad no es</tspan><tspan x="28" dy="25">un continente.</tspan></text>
+    </g>
+    <g transform="translate(808 265)">
+      <rect width="230" height="360" rx="24" fill="#252722" stroke="#657858" stroke-width="2"/>
+      <circle cx="42" cy="43" r="20" fill="#8da36f"/><text x="32" y="50" class="num">04</text>
+      <text x="28" y="96" class="card-title">Respuesta</text>
+      <text x="28" y="136" class="card-text"><tspan x="28">Norma, edificio,</tspan><tspan x="28" dy="27">personal, víveres</tspan><tspan x="28" dy="27">y vigilancia.</tspan></text>
+      <line x1="28" y1="235" x2="202" y2="235" stroke="#536257"/>
+      <text x="28" y="270" class="limit"><tspan x="28">Decreto no es</tspan><tspan x="28" dy="25">operación.</tspan></text>
+    </g>
+    <g transform="translate(1054 265)">
+      <rect width="230" height="360" rx="24" fill="#29231f" stroke="#9a6845" stroke-width="2"/>
+      <circle cx="42" cy="43" r="20" fill="#bd7747"/><text x="32" y="50" class="num">05</text>
+      <text x="28" y="96" class="card-title">Cumplimiento</text>
+      <text x="28" y="136" class="card-text"><tspan x="28">Aplicación, acceso,</tspan><tspan x="28" dy="27">evasión, sanción</tspan><tspan x="28" dy="27">y sustento.</tspan></text>
+      <line x1="28" y1="235" x2="202" y2="235" stroke="#655043"/>
+      <text x="28" y="270" class="limit"><tspan x="28">Operar no prueba</tspan><tspan x="28" dy="25">eficacia.</tspan></text>
+    </g>
+    <g transform="translate(1300 265)">
+      <rect width="230" height="360" rx="24" fill="#28211f" stroke="#a04f45" stroke-width="2"/>
+      <circle cx="42" cy="43" r="20" fill="#c86455"/><text x="32" y="50" class="num">06</text>
+      <text x="28" y="96" class="card-title">Desigualdad</text>
+      <text x="28" y="136" class="card-text"><tspan x="28">Protección, costo,</tspan><tspan x="28" dy="27">coerción, cuidado</tspan><tspan x="28" dy="27">y muerte.</tspan></text>
+      <line x1="28" y1="235" x2="202" y2="235" stroke="#68433e"/>
+      <text x="28" y="270" class="limit"><tspan x="28">El promedio no es</tspan><tspan x="28" dy="25">experiencia universal.</tspan></text>
+    </g>
+  </g>
+
+  <rect x="90" y="690" width="1420" height="118" rx="20" fill="#171b18" stroke="#62513d"/>
+  <text x="130" y="744" class="footer">Relato ≠ diagnóstico · ADN positivo ≠ denominador · orden ≠ cumplimiento</text>
+  <text x="130" y="782" class="sub">Una afirmación sólo avanza cuando el siguiente archivo existe y conserva la misma unidad de análisis.</text>
+</svg>

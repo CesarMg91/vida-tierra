@@ -8,6 +8,7 @@ import ClinicalEvidenceLab from "../../components/ClinicalEvidenceLab";
 import DiagnosticEvidenceLab from "../../components/DiagnosticEvidenceLab";
 import DocumentaryMedicineLab from "../../components/DocumentaryMedicineLab";
 import EastAsianMedicineLab from "../../components/EastAsianMedicineLab";
+import EpidemicsQuarantineEvidenceLab from "../../components/EpidemicsQuarantineEvidenceLab";
 import GreekHellenisticMedicineLab from "../../components/GreekHellenisticMedicineLab";
 import HistoricalMedicineLab from "../../components/HistoricalMedicineLab";
 import IndianOceanEurasianMedicineRouteLab from "../../components/IndianOceanEurasianMedicineRouteLab";
@@ -20,6 +21,7 @@ import { americasMedicineArchives } from "../../lib/americas-medicine-archives";
 import { diagnosticEvidence } from "../../lib/diagnostic-evidence";
 import { documentaryMedicineEvidence } from "../../lib/documentary-medicine-evidence";
 import { eastAsianMedicineEvidence } from "../../lib/east-asian-medicine-evidence";
+import { epidemicsQuarantineEvidence } from "../../lib/epidemics-quarantine-evidence";
 import { greekHellenisticMedicineEvidence } from "../../lib/greek-hellenistic-medicine-evidence";
 import { historicalMedicineEvidence } from "../../lib/historical-medicine-evidence";
 import { indianOceanEurasianMedicineRoutes } from "../../lib/indian-ocean-eurasian-medicine-routes";
@@ -35,7 +37,7 @@ export const metadata: Metadata = createPageMetadata({
   title: "Historia de la medicina — archivos, cuidado y evidencia",
   description: "Cómo reconstruimos la historia mundial de la medicina desde huesos, manuscritos, cánones, instituciones y resultados sin confundir archivo, práctica o eficacia.",
   pathname: "/medicina",
-  image: "/assets/visuales/hero-med-013-rutas-indico-eurasia.png",
+  image: "/assets/visuales/hero-med-014-epidemias-cuarentenas.png",
 });
 
 const principles = [
@@ -52,8 +54,8 @@ export default function MedicinePage() {
     <div className="medicine-experience">
       <header className="medicine-hero medicine-history-hero">
         <Image
-          src="/assets/visuales/hero-med-013-rutas-indico-eurasia.png"
-          alt="Mesa editorial con rutas ramificadas, barco, cargamento, manuscritos, regalos, traducciones y plantas genéricas unidos por hilos discontinuos"
+          src="/assets/visuales/hero-med-014-epidemias-cuarentenas.png"
+          alt="Mesa editorial con libro de mortalidad, muestra arqueológica, archivos de paisaje, modelo de lazareto, pase sanitario y cordón de control"
           fill
           preload
           fetchPriority="high"
@@ -62,14 +64,14 @@ export default function MedicinePage() {
         <div className="medicine-hero-shade" />
         <div className="medicine-hero-copy">
           <p className="eyebrow">Historia mundial de la medicina</p>
-          <h1>Una ruta no demuestra una transferencia</h1>
-          <p>Barcos, mercancías, manuscritos, cartas, regalos, oficinas e impresos conservan productos distintos. Huella, identificación, itinerario, mediación, recepción y alcance impiden convertir conexión en cambio o eficacia.</p>
+          <h1>Un brote narrado no es un diagnóstico ni una cifra</h1>
+          <p>Relatos, genomas, entierros, registros, órdenes y paisajes conservan escalas distintas. Testimonio, agente, magnitud, respuesta, cumplimiento y desigualdad impiden convertir una señal en diagnóstico total o una norma en eficacia.</p>
           <div>
-            <Link className="button button-primary" href="#rutas-indico-eurasia">Seguir la cadena <ArrowDown aria-hidden="true" /></Link>
-            <Link className="medicine-text-link" href="/15_medicina/INVESTIGACION_MED_013_RUTAS_INDICO_EURASIA">Leer MED-013 <ArrowRight aria-hidden="true" /></Link>
+            <Link className="button button-primary" href="#epidemias-cuarentenas">Auditar el brote <ArrowDown aria-hidden="true" /></Link>
+            <Link className="medicine-text-link" href="/15_medicina/INVESTIGACION_MED_014_EPIDEMIAS_CUARENTENAS">Leer MED-014 <ArrowRight aria-hidden="true" /></Link>
           </div>
         </div>
-        <p className="medicine-visual-limit">Composición editorial no probatoria: utilería genérica; no reproduce pecio, manuscrito, ruta, regalo, planta, comunidad o práctica reales.</p>
+        <p className="medicine-visual-limit">Composición editorial no probatoria: utilería genérica; no reproduce víctima, brote, lazareto, documento, población o política reales.</p>
       </header>
 
       <section className="medicine-boundary">
@@ -80,6 +82,14 @@ export default function MedicinePage() {
       <section className="medicine-principles" aria-labelledby="medicine-principles-title">
         <header><p className="eyebrow">Contrato de lectura</p><h2 id="medicine-principles-title">Cuatro cortafuegos</h2></header>
         <div>{principles.map(([title, text], index) => <article key={title}><span>{String(index + 1).padStart(2, "0")}</span><h3>{title}</h3><p>{text}</p></article>)}</div>
+      </section>
+
+      <section className="medicine-lab-section documentary-lab-section" id="epidemias-cuarentenas" aria-labelledby="epidemics-quarantine-lab-title">
+        <div className="section-heading">
+          <div><p className="eyebrow">MED-014 · laboratorio de epidemias y respuestas</p><h2 id="epidemics-quarantine-lab-title">Del testimonio a la desigualdad</h2></div>
+          <p>Elige un expediente. Seis capas separan diagnóstico, denominador, política, ejecución y carga social sin convertir relato, genoma, entierro u orden en una conclusión heredada.</p>
+        </div>
+        <EpidemicsQuarantineEvidenceLab data={epidemicsQuarantineEvidence} />
       </section>
 
       <section className="medicine-lab-section documentary-lab-section" id="rutas-indico-eurasia" aria-labelledby="indian-ocean-eurasia-lab-title">
@@ -100,7 +110,7 @@ export default function MedicinePage() {
 
       <section className="medicine-lab-section documentary-lab-section" id="redes-islamicas" aria-labelledby="islamic-worlds-lab-title">
         <div className="section-heading">
-          <div><p className="eyebrow">MED-011 · laboratorio de redes y versiones</p><h2 id="islamic-worlds-lab-title">Del testigo a la consecuencia</h2></div>
+          <div><p className="eyebrow">MED-011 · laboratorio de redes y versiones</p><h2 id="islamic-worlds-lab-title">Del testigo a la consecuencia en redes</h2></div>
           <p>Elige una red. Seis capas separan copia, operación, institución y alcance sin convertir circulación en eficacia.</p>
         </div>
         <IslamicWorldsMedicineNetworkLab data={islamicWorldsMedicineNetworks} />
@@ -108,7 +118,7 @@ export default function MedicinePage() {
 
       <section className="medicine-lab-section documentary-lab-section" id="archivos-americas" aria-labelledby="americas-archives-lab-title">
         <div className="section-heading">
-          <div><p className="eyebrow">MED-010 · laboratorio de cuerpo, planta y códice</p><h2 id="americas-archives-lab-title">Del archivo al límite</h2></div>
+          <div><p className="eyebrow">MED-010 · laboratorio de cuerpo, planta y códice</p><h2 id="americas-archives-lab-title">Del archivo americano al límite</h2></div>
           <p>Elige un caso. Seis capas separan procedencia, señal, práctica y consecuencia sin fabricar una historia clínica.</p>
         </div>
         <AmericasMedicineArchiveLab data={americasMedicineArchives} />
@@ -132,7 +142,7 @@ export default function MedicinePage() {
 
       <section className="medicine-lab-section documentary-lab-section" id="observacion" aria-labelledby="greek-hellenistic-lab-title">
         <div className="section-heading">
-          <div><p className="eyebrow">MED-007 · laboratorio de archivo y práctica</p><h2 id="greek-hellenistic-lab-title">Del testimonio a la consecuencia</h2></div>
+          <div><p className="eyebrow">MED-007 · laboratorio de archivo y práctica</p><h2 id="greek-hellenistic-lab-title">Del testimonio mediterráneo a la consecuencia</h2></div>
           <p>Elige un archivo. Seis capas separan testimonio, lectura, género, operación, institución y consecuencia observada.</p>
         </div>
         <GreekHellenisticMedicineLab data={greekHellenisticMedicineEvidence} />

@@ -1648,3 +1648,18 @@ Cadena principal: **huella → identificación → itinerario → mediación →
 - `CLAIM-MED-ROUTES-MODEL-001` impide que conexión herede transferencia.
 
 Véase 15_medicina/INVESTIGACION_MED_013_RUTAS_INDICO_EURASIA.md, 22_mapas_epistemologicos/MAPA_MED_013_RUTAS_INDICO_EURASIA.md, 21_cronologias/CRONOLOGIA_MED_013_RUTAS_INDICO_EURASIA.md, assets/visuales/cadena-huella-alcance-med-013.svg y assets/visuales/matriz-rutas-transferencia-med-013.svg.
+
+## MED-014 — Epidemias y cuarentenas
+
+Cadena principal: **testimonio → agente → magnitud → respuesta → cumplimiento → desigualdad**.
+
+- Jerash separa crisis funeraria, individuos positivos y población urbana.
+- Tian Shan y East Smithfield separan genoma, origen filogenético, ruta y mortalidad.
+- Los archivos polínicos separan cambio de paisaje, pérdida de trabajo y tasa de muerte.
+- Ragusa y Venecia separan decreto, oficina, lazareto, ejecución y efecto.
+- Bristol separa protección exterior, mortalidad intradoméstica y distribución del daño.
+- Londres separa Bills, categoría contemporánea, entierro, geografía y denominador.
+- Marsella separa barco, introducción, genoma, cordón, descenso y carga ocupacional.
+- `CLAIM-MED-EPID-MODEL-001` impide que relato, positivo, fosa, norma o descenso hereden diagnóstico, cifra, cumplimiento, eficacia o justicia.
+
+Véase 15_medicina/INVESTIGACION_MED_014_EPIDEMIAS_CUARENTENAS.md, 22_mapas_epistemologicos/MAPA_MED_014_EPIDEMIAS_CUARENTENAS.md, 21_cronologias/CRONOLOGIA_MED_014_EPIDEMIAS_CUARENTENAS.md, assets/visuales/cadena-testimonio-desigualdad-med-014.svg y assets/visuales/matriz-epidemias-cuarentenas-med-014.svg.

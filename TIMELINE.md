@@ -775,3 +775,28 @@ CIV-003 inaugura los expedientes regionales auditados. CIV-001 conserva `TRAZADO
 | `TIME-MED-ROUTES-GENIZA-HISTORIOGRAPHY-001` | 1987–2018 | Goitein y Lambourn reconstruyen mercader y equipaje | giro microhistórico/material | `SRC-MED-ROUTES-GOITEIN-1987`, `SRC-MED-ROUTES-LAMBOURN-2018` | A publicación | AUDITADO |
 | `TIME-MED-ROUTES-BELITUNG-HISTORIOGRAPHY-001` | 2001–2022 | arqueología y crítica patrimonial reevalúan Belitung | cambio material y de procedencia | `SRC-MED-ROUTES-FLECKER-2001`, `SRC-MED-ROUTES-PEARSON-2022` | A publicación | AUDITADO |
 | `TIME-MED-ROUTES-DUNHUANG-HISTORIOGRAPHY-001` | 2012–2025 | se revisan Galeno y moxibustión en Dunhuang | cambio filológico y comparativo | `SRC-MED-ROUTES-YOELI-TLALIM-2012`, `SRC-MED-ROUTES-HAN-2025` | A publicación | AUDITADO |
+
+## MED-014 — Epidemias y cuarentenas
+
+| ID | Fecha / rango | Evento o testigo | Qué fecha | Fuentes | Confianza | Estado |
+|---|---|---|---|---|---|---|
+| `TIME-MED-EPID-FIRST-PANDEMIC-001` | 541–750 | ondas históricas agrupadas como primera pandemia | marco amplio; no fecha cada brote | `SRC-MED-EPID-KELLER-2019`, `SRC-MED-EPID-SARRIS-2022` | A/B histórico | AUDITADO |
+| `TIME-MED-EPID-JERASH-BURIAL-001` | mediados s. VI–inicios s. VII | deposición de la fosa del hipódromo de Jerash | crisis funeraria y contexto molecular | `SRC-MED-EPID-ADAPA-2025`, `SRC-MED-EPID-HENDRIX-2026` | A/B arqueológico | AUDITADO |
+| `TIME-MED-EPID-KYRGYZ-001` | 1338–1339 | lápidas de Kara-Djigach registran pestilencia y genomas basales | episodio local y linaje, no ruta completa | `SRC-MED-EPID-SPYROU-2022` | A documental/molecular | AUDITADO |
+| `TIME-MED-EPID-BLACKDEATH-EUROPE-001` | 1347–1353 | Peste Negra y transformaciones regionales europeas | ondas e impactos variables | `SRC-MED-EPID-BOS-2011`, `SRC-MED-EPID-IZDEBSKI-2022` | A/B histórico | AUDITADO |
+| `TIME-MED-EPID-EASTSMITHFIELD-001` | 1348–1350 | funciona el cementerio extraordinario de East Smithfield | entierro y víctimas muestreadas | `SRC-MED-EPID-BOS-2011` | A arqueológico | AUDITADO |
+| `TIME-MED-EPID-RAGUSA-001` | 1377 | Ragusa prescribe treinta días de espera a llegadas sospechosas | norma local, no eficacia | `SRC-MED-EPID-BLAZINA-2015`, `SRC-MED-EPID-RAVANCIC-2021` | A documental | AUDITADO |
+| `TIME-MED-EPID-VENICE-LAZARET-001` | desde 1423; uso posterior | Venecia institucionaliza aislamiento en lazaretos | fundación y continuidad variable | `SRC-MED-EPID-OSHEIM-2011`, `SRC-MED-EPID-HENDERSON-2020` | A/B histórico | AUDITADO |
+| `TIME-MED-EPID-BRISTOL-001` | 1565–1604 | epidemias y políticas domésticas comparadas en Bristol | hogares y cambios de ejecución | `SRC-MED-EPID-UDALE-2023` | A/B histórico | AUDITADO |
+| `TIME-MED-EPID-BRISTOL-INTENSE-001` | 1603–1604 | aplicación intensa de encierro doméstico en Bristol | periodo comparativo; no cada casa | `SRC-MED-EPID-UDALE-2023` | B cumplimiento | AUDITADO |
+| `TIME-MED-EPID-LONDON-ORDERS-001` | 1665 | Londres publica órdenes contra la peste | programa normativo | `SRC-MED-EPID-LONDON-ORDERS-1665` | A documental | AUDITADO |
+| `TIME-MED-EPID-LONDON-BILLS-001` | 1665–1666 | Bills registran semanalmente la gran epidemia | entierros y causas atribuidas | `SRC-MED-EPID-GREENBERG-2011`, `SRC-MED-EPID-DEATHBYNUMBERS-2026` | A documental/B cobertura | AUDITADO |
+| `TIME-MED-EPID-MARSEILLE-ARRIVAL-001` | mayo–julio de 1720 | Grand Saint-Antoine, decisiones portuarias y primeros registros | secuencia administrativa, no cadena individual completa | `SRC-MED-EPID-SIGNOLI-2022`, `SRC-MED-EPID-MARSEILLE-JOURNAL-1720` | A/B histórico | AUDITADO |
+| `TIME-MED-EPID-MARSEILLE-CRISIS-001` | 1720–1722 | epidemia, cordones, fosas y respuestas en Marsella/Provenza | ondas y operaciones múltiples | `SRC-MED-EPID-SIGNOLI-2022`, `SRC-MED-EPID-MOURRE-1963` | A/B histórico | AUDITADO |
+| `TIME-MED-EPID-MARSEILLE-RELAPSE-001` | 1722 | recaída asociada con individuos de l’Observance | contexto de cinco genomas | `SRC-MED-EPID-BOS-MARSEILLE-2016` | A molecular/B episodio | AUDITADO |
+| `TIME-MED-EPID-MARSEILLE-HISTORIOGRAPHY-001` | 1963 | Mourre reconstruye intendentes y Bureau de Santé | giro archivístico institucional | `SRC-MED-EPID-MOURRE-1963` | A publicación | AUDITADO |
+| `TIME-MED-EPID-RETRODX-METHOD-001` | 2011–2019 | se formalizan cautelas de diagnóstico retrospectivo y paleomicrobiología | cambio metodológico | `SRC-MED-EPID-MITCHELL-2011`, `SRC-MED-EPID-WARINNER-2017`, `SRC-MED-EPID-BOS-2019` | A publicación | AUDITADO |
+| `TIME-MED-EPID-JUSTINIAN-DEBATE-001` | 2019–2022 | genomas y proxies reabren el debate sobre la primera pandemia | cambio historiográfico multiarquivo | `SRC-MED-EPID-KELLER-2019`, `SRC-MED-EPID-MORDECHAI-2019`, `SRC-MED-EPID-SARRIS-2022` | A publicación | AUDITADO |
+| `TIME-MED-EPID-BLACKDEATH-REVISION-001` | 2022 | Tian Shan y archivos polínicos revisan origen e impacto | cambio molecular y paleoecológico | `SRC-MED-EPID-SPYROU-2022`, `SRC-MED-EPID-IZDEBSKI-2022` | A publicación | AUDITADO |
+| `TIME-MED-EPID-BRISTOL-REVISION-001` | 2023 | Udale evalúa el daño intradoméstico del encierro | cambio demográfico/causal | `SRC-MED-EPID-UDALE-2023` | A publicación | AUDITADO |
+| `TIME-MED-EPID-MULTIARCHIVE-001` | 2025–2026 | Jerash, Londres y Marsella amplían comparación entre cuerpo, cifra, espacio y sociedad | actualización multiarchivo | `SRC-MED-EPID-ADAPA-2025`, `SRC-MED-EPID-HENDRIX-2026`, `SRC-MED-EPID-OTIS-KANIA-2025`, `SRC-MED-EPID-MCCALLAM-2025` | A publicación/B síntesis | AUDITADO |
