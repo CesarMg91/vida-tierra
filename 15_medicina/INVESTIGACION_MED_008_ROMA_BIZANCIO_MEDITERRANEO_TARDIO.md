@@ -327,7 +327,7 @@ Si la cadena se detiene en un edificio, un objeto o un texto, la conclusión deb
 
 ## Próximo expediente
 
-MED-009 estudiará el mundo islámico medieval, sus traducciones, hospitales, farmacopeas, óptica y prácticas clínicas. No heredará automáticamente de esta investigación una genealogía lineal ni una institución uniforme.
+MED-009 estudiará archivos de Nubia, Aksum, el Sahel y otras regiones africanas fuera del eje egipcio. No llenará silencios documentales con analogías ni tratará el continente como una tradición médica uniforme.
 
 ## Fuentes auditadas
 

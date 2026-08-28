@@ -917,3 +917,15 @@ La portada separa físicamente papiros, inscripción, instrumentos, modelos doce
 Salida original aprobada sin edición: `C:\Users\HUAWEI\.codex\generated_images\019fedb0-8f24-7e33-8d16-d2418ba3378e\exec-080fd50f-fbe7-4e7a-9534-61a782e3f6e4.png` → `assets/visuales/hero-med-008-roma-bizancio-mediterraneo-tardio.png`; tamaño `2,322,763` bytes. El prompt completo y los límites están en `ATLAS_VISUAL.md`, sección 63.
 
 La portada separa plano, canal, instrumentos, códice, pliegos multilingües y modelo asistencial; no contiene personas o texto legible. Los SVG incluyen `title` y `desc`, preservan los seis puentes y no convierten edificio, cargo, regla o autoridad en cobertura o resultado.
+
+## MED-009 — África fuera del eje egipcio
+
+| Archivo | Origen | Dimensiones | SHA-256 / trazabilidad | Límite |
+|---|---|---:|---|---|
+| `hero-med-009-africa-fuera-eje-egipcio.png` | OpenAI ImageGen, generación nueva del 2026-08-27 | `1671 × 941` | `ae43e4861e7ba05fa8c568e5516ee9c7ea318ac1a138414b6e8792108efcd139` | composición conceptual; no colección, cultura, práctica o continuidad reales |
+| `cadena-archivo-limite-med-009.svg` | SVG manual determinista | `1600 × 900` | código fuente versionado | seis capas inferenciales; no herencia automática |
+| `matriz-archivos-africa-med-009.svg` | SVG manual determinista | `1600 × 900` | código fuente versionado | seis archivos y límites; no ranking continental |
+
+Salida original aprobada sin edición: `C:\Users\HUAWEI\.codex\generated_images\019fedb0-8f24-7e33-8d16-d2418ba3378e\exec-268ba075-cf3c-4f87-972f-408ed32d082d.png` → `assets/visuales/hero-med-009-africa-fuera-eje-egipcio.png`; tamaño `2,089,775` bytes. El prompt completo y los límites están en `ATLAS_VISUAL.md`, sección 64.
+
+La portada separa fragmentos, muestras, suelo/asentamiento, códice, cerámica/residuo y escucha; no contiene personas o texto legible. Los SVG incluyen `title` y `desc`, distinguen dato ausente de ausencia histórica y no convierten lesión, ciudad, manuscrito o residuo en tratamiento o eficacia.

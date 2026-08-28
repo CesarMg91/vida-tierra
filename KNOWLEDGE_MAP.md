@@ -1567,3 +1567,21 @@ Los cortafuegos principales son: valetudinarium ≠ hospital moderno; edificio �
 Los fuertes y las inscripciones sostienen organización militar situada; la infraestructura urbana, capacidad y flujos; la paleoparasitología, transmisión persistente; hogares y género, actores subrepresentados; Galeno, práctica narrada y recepción; los compiladores, transformación editorial; los xenones y el Pantocrátor, instituciones con funciones y normas concretas. Ningún archivo hereda por sí solo cobertura universal, resultado o superioridad.
 
 Véase 15_medicina/INVESTIGACION_MED_008_ROMA_BIZANCIO_MEDITERRANEO_TARDIO.md, 22_mapas_epistemologicos/MAPA_MED_008_ROMA_BIZANCIO_MEDITERRANEO_TARDIO.md, 21_cronologias/CRONOLOGIA_MED_008_ROMA_BIZANCIO_MEDITERRANEO_TARDIO.md, assets/visuales/cadena-vestigio-consecuencia-med-008.svg y assets/visuales/matriz-infraestructura-practica-med-008.svg.
+
+### MED-009 — Silencio documental no es ausencia de cuidado
+
+```text
+archivo
+  ↓ procedencia
+señal
+  ↓ inferencia explícita
+contraste
+  ↓ frontera de población, práctica y tiempo
+límite
+```
+
+Los cortafuegos principales son: África ≠ una tradición; ausencia de texto ≠ ausencia de cuidado; esqueleto ≠ población viva; patología ≠ diagnóstico; remodelación ≠ tratamiento; supervivencia ≠ cuidador identificado; ADN ≠ experiencia social; monumento ≠ sistema médico; manuscrito tardío ≠ Aksum; ciudad ≠ hospital; número de manuscritos ≠ antigüedad; tradición oral ≠ grabación literal; etnografía ≠ fósil; residuo ≠ planta, indicación o eficacia.
+
+Kerma conserva lesión y supervivencia; Kulubnarti muestra corrección multiarquivo; Aksum, preservación corporal desigual; Jenne-jeno, urbanismo sin herencia médica; Tombuctú, repertorio escrito sin práctica automática; Tong Hills, función probable mediante convergencia sin identidad o efecto heredados.
+
+Véase 15_medicina/INVESTIGACION_MED_009_AFRICA_FUERA_EJE_EGIPCIO.md, 22_mapas_epistemologicos/MAPA_MED_009_AFRICA_FUERA_EJE_EGIPCIO.md, 21_cronologias/CRONOLOGIA_MED_009_AFRICA_FUERA_EJE_EGIPCIO.md, assets/visuales/cadena-archivo-limite-med-009.svg y assets/visuales/matriz-archivos-africa-med-009.svg.

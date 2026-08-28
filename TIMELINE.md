@@ -666,3 +666,23 @@ CIV-003 inaugura los expedientes regionales auditados. CIV-001 conserva `TRAZADO
 | `TIME-MED-RB-PARASITOLOGY-REVIEW-001` | 2016–2024 | revisiones y estudios regionales integran paleoparasitología romana | cobertura geográfica todavía desigual | `SRC-MED-RB-MITCHELL-2017`, `SRC-MED-RB-LEDGER-2020`, `SRC-MED-RB-LEDGER-2024` | A método/B generalización | AUDITADO |
 | `TIME-MED-RB-INNOVATION-REVIEW-001` | 2020 | Bouras-Vallianatos audita innovación tardobizantina | foco autoral y cronológico específico | `SRC-MED-RB-BOURAS-2020` | A método/B histórico | AUDITADO |
 | `TIME-MED-RB-COLCHESTER-001` | 2026 | estudio de Colchester reúne instrumentos y contextos urbanos | un conjunto no representa el Imperio | `SRC-MED-RB-CRUMMY-2026` | A material/B alcance | AUDITADO |
+
+## MED-009 — África fuera del eje egipcio
+
+| ID | Fecha/intervalo | Evento delimitado | Incertidumbre y evidencia | Fuente | Confianza | Estado |
+|---|---:|---|---|---|---|---|
+| `TIME-MED-AFRICA-KERMA-001` | ca. 2500–1500 a. e. c. | Reino y cementerios de Kerma conservan series humanas y contextos funerarios | no forman una población o medicina uniforme | `SRC-MED-AFRICA-BUZON-2008`, `SRC-MED-AFRICA-MARTIN-2013` | A/B arqueológico | AUDITADO |
+| `TIME-MED-AFRICA-KERMA-K317-001` | Kerma clásico | K317 sobrevive a una abertura craneal circular | cronología, causa y finalidad exactas siguen abiertas | `SRC-MED-AFRICA-MARTIN-2013` | A lesión/B-COND causa | AUDITADO |
+| `TIME-MED-AFRICA-JENNE-001` | desde ca. siglo III a. e. c. | Jenne-jeno desarrolla ocupación urbana, producción e intercambio | urbanismo no fecha una institución médica | `SRC-MCINTOSH-JENNE-1981` | A/B arqueológico | AUDITADO |
+| `TIME-MED-AFRICA-AKSUM-001` | I milenio a. e. c.–I milenio e. c. | Bieta Giyorgis conserva fases pre, proto y aksumitas | preservación corporal y resolución varían | `SRC-MED-AFRICA-BARD-2025` | A/B arqueológico | AUDITADO |
+| `TIME-MED-AFRICA-KULUBNARTI-001` | ca. 650–1000 e. c. | cementerios R y S fueron usados en gran medida contemporáneamente | función mortuoria interna permanece debatida | `SRC-MED-AFRICA-GODDE-2021`, `SRC-MED-AFRICA-SIRAK-2021` | A datación/B función | AUDITADO |
+| `TIME-MED-AFRICA-TONG-001` | 1463–1553 e. c. | OSL sitúa el contexto de recipientes de Tong Hills | relación con identidad talensi posterior no demostrada | `SRC-MED-AFRICA-FRASER-2012` | A datación/B identidad | AUDITADO |
+| `TIME-MED-AFRICA-TIMBUKTU-001` | siglos XVII–XVIII, rango catalográfico | manuscrito de Tombuctú reúne remedios, diagnóstico, plegarias y amuletos | fecha de compilación y uso permanecen inciertos | `SRC-MED-AFRICA-LOC-TIMBUKTU` | A objeto/B fecha | AUDITADO |
+| `TIME-MED-AFRICA-ETHIOPIC-001` | principalmente siglos XIX–XX en los catálogos usados | códices y rollos etíopes documentan repertorios médicos y protectores tardíos | no retroceden automáticamente hasta Aksum | `SRC-MED-AFRICA-STRELCYN-1972`, `SRC-MED-AFRICA-HAILE-2009` | A documental/B continuidad | AUDITADO |
+| `TIME-MED-AFRICA-JENNE-PUBLICATION-001` | 1981 | McIntosh y McIntosh publican síntesis temprana de Jenne-jeno | interpretación urbana siguió desarrollándose | `SRC-MCINTOSH-JENNE-1981` | A historiográfico | AUDITADO |
+| `TIME-MED-AFRICA-ORAL-HISTORY-001` | 1985 | Vansina sistematiza tradición oral como fuente histórica | no vuelve literal toda memoria | `SRC-MED-AFRICA-VANSINA-1985` | A método | AUDITADO |
+| `TIME-MED-AFRICA-OSTEO-PARADOX-001` | 1992 | el paradigma osteológico formaliza sesgos de inferir salud desde esqueletos | aplicación exige datos locales | `SRC-MED-AFRICA-WOOD-1992` | A método | AUDITADO |
+| `TIME-MED-AFRICA-TONG-ANALYSIS-001` | 2012 | geoquímica orgánica analiza recipientes medicinales de Ghana septentrional | residuo no identifica efecto | `SRC-MED-AFRICA-FRASER-2012` | A método/B función | AUDITADO |
+| `TIME-MED-AFRICA-CARE-INDEX-001` | 2014 | se publica el Índice de Cuidado | herramienta no identifica cuidadores por sí sola | `SRC-MED-AFRICA-TILLEY-2014` | A método | AUDITADO |
+| `TIME-MED-AFRICA-KULUBNARTI-REVISION-001` | 2021 | síntesis osteológica y paleogenómica revisan categorías de Kulubnarti | no eliminan diferencias sociales | `SRC-MED-AFRICA-GODDE-2021`, `SRC-MED-AFRICA-SIRAK-2021` | A método/B historia | AUDITADO |
+| `TIME-MED-AFRICA-NUBIA-REVIEW-001` | 2026 | síntesis reciente integra bioarqueología, historia de colección y ética nubias | cobertura regional sigue desigual | `SRC-MED-AFRICA-CIESIELSKA-2026` | A historiográfico/B alcance | AUDITADO |

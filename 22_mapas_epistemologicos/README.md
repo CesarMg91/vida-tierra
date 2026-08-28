@@ -63,3 +63,4 @@ Grafos de dependencias entre objetos, mediciones, principios, modelos, claims y 
 ## Medicina
 
 - [`MAPA_MED_008_ROMA_BIZANCIO_MEDITERRANEO_TARDIO.md`](MAPA_MED_008_ROMA_BIZANCIO_MEDITERRANEO_TARDIO.md) — vestigio, identificación, función, operación, acceso y consecuencia sin hospital, cobertura o resultado heredados — **AUDITADO**.
+- [`MAPA_MED_009_AFRICA_FUERA_EJE_EGIPCIO.md`](MAPA_MED_009_AFRICA_FUERA_EJE_EGIPCIO.md) — archivo, procedencia, señal, inferencia, contraste y límite sin convertir silencio o analogía en hecho — **AUDITADO**.

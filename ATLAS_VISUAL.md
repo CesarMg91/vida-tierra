@@ -1064,3 +1064,33 @@ La salida se inspeccionó completa a resolución original. No contiene personas,
 La escena es utilería editorial contemporánea y no reconstruye una excavación, archivo o institución. La proximidad visual no demuestra coetaneidad, función, operación, acceso, transmisión ni resultado. El modelo de sala no representa el Pantocrátor ni un hospital identificado.
 
 Los SVG se construyeron a `1600 × 900`, incluyen `title`, `desc` y tipografía de reserva. La cadena declara cuatro cortafuegos y la matriz compara cinco archivos sin puntuarlos. Ninguno acepta datos, diagnostica, recomienda o representa tasas.
+
+## 64. MED-009 — Silencio documental no es ausencia de cuidado
+
+![Portada editorial de MED-009](assets/visuales/hero-med-009-africa-fuera-eje-egipcio.png)
+
+![Cadena desde archivo hasta límite](assets/visuales/cadena-archivo-limite-med-009.svg)
+
+![Matriz de archivos africanos](assets/visuales/matriz-archivos-africa-med-009.svg)
+
+| Archivo | Tipo | Procedencia | Qué representa | Límite obligatorio |
+|---|---|---|---|---|
+| `hero-med-009-africa-fuera-eje-egipcio.png` | portada editorial conceptual | OpenAI ImageGen, generación nueva, 2026-08-27 | seis estaciones genéricas de hueso, muestra, suelo/asentamiento, códice, residuo y escucha | no colección, sitio, pueblo, práctica o continuidad reales |
+| `cadena-archivo-limite-med-009.svg` | diagrama epistemológico original | SVG manual del proyecto, 2026-08-27 | archivo, procedencia, señal, inferencia, contraste y límite | las flechas no heredan ausencia, tratamiento o eficacia |
+| `matriz-archivos-africa-med-009.svg` | matriz documental original | SVG manual del proyecto, 2026-08-27 | seis casos, productos y límites | las filas no representan todo África ni forman ranking |
+
+### Procedencia de la portada
+
+Salida original aprobada sin edición: `C:\Users\HUAWEI\.codex\generated_images\019fedb0-8f24-7e33-8d16-d2418ba3378e\exec-268ba075-cf3c-4f87-972f-408ed32d082d.png`. Destino: `assets/visuales/hero-med-009-africa-fuera-eje-egipcio.png`. Dimensiones: `1671 × 941`; tamaño: `2,089,775` bytes; SHA-256: `ae43e4861e7ba05fa8c568e5516ee9c7ea318ac1a138414b6e8792108efcd139`.
+
+**Prompt de generación:**
+
+> Create a wide 16:9 editorial museum-and-laboratory hero image for a rigorous Spanish public-history research dossier titled MED-009, about reconstructing histories of care and medical knowledge in African regions outside the Egyptian axis without filling archival silences with analogy. No text, no letters, no symbols, no maps, no flags, no logos, no people, no faces, no skulls, no complete human remains, no blood, no medical procedure, no fantasy, no stereotyped pan-African motifs. Use a dark obsidian museum table under warm amber and copper light, visually divided into SIX clearly separated archival stations with ample negative space and no implied single collection: (1) a few small generic weathered bone fragments in a shallow conservation tray, deliberately incomplete and non-diagnostic; (2) neutral labeled-but-blank sample envelopes and a radiocarbon-style calibration strip with no numbers; (3) an architectural soil profile and small abstract settlement model made of clay, not a real site; (4) a closed generic parchment codex with blank edge and a few loose blank folios, no script; (5) two undecorated ceramic sherds and a small residue-analysis vial, physically separate; (6) an empty archival listening station represented by a plain coiled fiber and blank index card, subtle metaphor for oral transmission. Connect nothing physically; use thin pools of light to imply archive → provenance → signal → inference → contrast → limit. Palette: parchment, obsidian, ink black, copper, amber, mineral green. Photorealistic editorial still life, museum-quality, restrained, scientifically honest, dramatic but not sensational. Exact composition should leave darker negative space at upper left and center-left for website headline. All objects generic and unmistakably contemporary editorial props, not replicas of identifiable cultural artifacts. High detail, 1672x941 landscape.
+
+### Revisión y límites
+
+La salida se inspeccionó completa a resolución original. No contiene personas, rostros, cráneos, cuerpos completos, sangre, procedimientos, mapas, banderas, logos, símbolos o texto legible. Los fragmentos óseos son genéricos, incompletos y no diagnósticos; sobres, folios y ficha están en blanco.
+
+Las seis estaciones son utilería editorial contemporánea. No reproducen Kerma, Kulubnarti, Aksum, Jenne-jeno, Tombuctú, Tong Hills ni un objeto cultural identificable. La proximidad visual no afirma coetaneidad, identidad, continuidad, práctica o eficacia.
+
+Los SVG se construyeron y rasterizaron a `1600 × 900`, incluyen `title`, `desc` y tipografía de reserva. La primera captura de la matriz reveló una leyenda superpuesta a la última fila; se movió antes del commit y la segunda captura confirmó filas, márgenes y textos completos. La cadena declara cuatro cortafuegos y la matriz compara seis casos sin puntuarlos. Ninguno acepta datos, diagnostica, recomienda o representa tasas.
