@@ -974,3 +974,33 @@ La salida se inspeccionó completa. No contiene personas, manos, cuerpos, sangre
 Las zonas y los hilos son metáforas editoriales. Su cercanía no afirma coetaneidad, procedencia común, traducción, transmisión, continuidad o eficacia. La portada no reproduce KL 699, Bower, un edicto de Aśoka ni ningún manuscrito identificable.
 
 Los SVG se construyeron a `1600 × 900` con `title`, `desc` y tipografía de reserva. La cadena marca cinco no-herencias y la matriz compara siete archivos sin puntuarlos. Ninguno calcula, recomienda, diagnostica o recibe datos personales.
+
+## 61. MED-006 — Un canon no es una práctica uniforme
+
+![Portada editorial de MED-006](assets/visuales/hero-med-006-china-asia-oriental.png)
+
+![Cadena desde testigo hasta consecuencia](assets/visuales/cadena-testigo-resultado-med-006.svg)
+
+![Matriz de cánones, archivos y prácticas](assets/visuales/matriz-canones-practicas-med-006.svg)
+
+| Archivo | Tipo | Procedencia | Qué representa | Límite obligatorio |
+|---|---|---|---|---|
+| `hero-med-006-china-asia-oriental.png` | portada editorial conceptual | OpenAI ImageGen, generación nueva, 2026-08-27 | seis estaciones genéricas de hueso, bambú, seda, modelo, papel y figura didáctica | no artefacto, escritura, colección, cronología, práctica o resultado reales |
+| `cadena-testigo-resultado-med-006.svg` | diagrama epistemológico original | SVG manual del proyecto, 2026-08-27 | seis puentes entre testigo, lectura, estrato, operación, institución y consecuencia | las flechas no heredan autoría, ejecución, cobertura o eficacia |
+| `matriz-canones-practicas-med-006.svg` | matriz documental original | SVG manual del proyecto, 2026-08-27 | producto fuerte y límite de cinco archivos | las filas no forman ranking, progreso o continuidad uniforme |
+
+### Procedencia de la portada
+
+Salida original aprobada sin edición: `C:\Users\HUAWEI\.codex\generated_images\019fedb0-8f24-7e33-8d16-d2418ba3378e\exec-ce9fb493-5e4d-483e-a3bd-6c466a94d128.png`. Destino: `assets/visuales/hero-med-006-china-asia-oriental.png`. Dimensiones: `1672 × 941`; tamaño: `2,062,773` bytes; SHA-256: `5e7d82d6a139c44945eb1dccaee189d7436c127b58899469de0878596ca178e3`.
+
+**Prompt de generación:**
+
+> Create a single original 16:9 cinematic editorial hero image for a Spanish public-history website about how historians reconstruct medicine in ancient China and East Asia. Museum conservation laboratory at twilight, viewed slightly from above, with six physically separated evidence stations arranged left-to-right on a dark obsidian table: a small generic weathered bone fragment with only abstract non-linguistic scratches; a bundle of blank aged bamboo slips tied loosely; a folded plain silk fragment; a small abstract lacquered wooden anatomical teaching token with subtle unlabeled lines (not a replica of any real artifact, no realistic face, no gendered anatomy); a generic paper codex with blank pages; and a restrained bronze teaching silhouette on a stand with no text or named points. Thin copper threads visually connect but do not touch the stations, suggesting testigo → lectura → estrato → operación → institución → consecuencia. Warm amber raking light, mineral green accents, parchment highlights, deep charcoal background, refined museum atmosphere, high material detail, generous dark negative space on left-center for future web text overlay. No people, no hands, no needles piercing bodies, no blood, no illness, no religious iconography, no national flags, no maps, no readable writing, no Chinese characters, no Latin letters, no numbers, no labels, no captions, no watermarks, no logos. Historically inspired but explicitly generic and non-probatory; avoid copying Mawangdui, Tianhui, Dunhuang, Ishinpo, Donguibogam, oracle bones, or any specific protected cultural object. Photorealistic editorial still life, sophisticated museum exhibition design, 1672x941 or closest native 16:9 output.
+
+### Revisión y límites
+
+La salida se inspeccionó a resolución original. No contiene personas, manos, escena clínica, sangre, enfermedad, mapa, bandera, etiqueta, texto o número legible. Las incisiones del fragmento de hueso, las líneas del modelo lacado y las formas de fondo son marcas abstractas sin transcripción o significado lingüístico. El papel y el textil permanecen en blanco.
+
+Los seis objetos son utilería editorial contemporánea y genérica. No reproducen huesos oraculares, Mawangdui, Tianhui, Wuwei, Dunhuang, el hombre de bronce Song, *Ishinpō* o *Donguibogam*. Su secuencia visual explica capas de auditoría y no afirma coetaneidad, procedencia común, transmisión, práctica o eficacia.
+
+Los SVG se construyeron y capturaron a `1600 × 900`, incluyen `title`, `desc` y tipografía de reserva. Se inspeccionaron de borde a borde en `C:\Users\HUAWEI\.codex\visualizations\2026\08\10\019fedb0-8f24-7e33-8d16-d2418ba3378e\med-006-qa\`: títulos, seis tarjetas, cinco filas, pies y márgenes permanecen completos y legibles. La cadena declara cuatro no-herencias y la matriz compara productos sin puntuarlos. Ninguno acepta datos, diagnostica o recomienda.

@@ -4202,3 +4202,22 @@ Riesgo basal, alternativas y preferencias cambian el balance. **Corrección:** s
 | `ERR-MED-SA-CONTINUOUS-RHINOPLASTY-001` | similitud entre Suśruta y 1794 prueba continuidad ininterrumpida | faltan intermediarios y cambian técnica, contexto y zona donante | documentar cadena o conservar continuidad abierta | ACTIVO |
 | `ERR-MED-SA-SANSKRIT-COMPLETE-001` | el canon sánscrito representa todo el cuidado regional | subregistra hogares, oralidad, parto y actores sin título | contrastar soportes y declarar invisibilidad | ACTIVO |
 | `ERR-MED-SA-RANKING-001` | una tradición fue la medicina más antigua o avanzada | archivos distintos hacen variar cualquier prioridad | comparar por dimensión sin puntuación universal | ACTIVO |
+
+## Errores científicos que MED-006 debe impedir
+
+| ID | Error | Por qué falla | Corrección mínima | Estado |
+|---|---|---|---|---|
+| `ERR-MED-EA-YELLOW-EMPEROR-AUTHOR-001` | el Emperador Amarillo escribió un tratado médico hacia 2600 a. e. c. | confunde una voz de autoridad con autoría y fecha material | separar personaje, diálogo, estrato, recensión y testigo | ACTIVO |
+| `ERR-MED-EA-UNCHANGED-5000-001` | existe una tradición médica china homogénea e inalterada de cinco mil años | manuscritos, cánones y técnicas muestran selección, pérdida y transformación | nombrar archivo, región, periodo y operación | ACTIVO |
+| `ERR-MED-EA-MAWANGDUI-MODERN-SYSTEM-001` | Mawangdui ya contiene completo el sistema moderno de meridianos y acupuntura | cambian número, dirección, órganos, puntos y técnicas | comparar repertorios sin proyectar el sistema tardío | ACTIVO |
+| `ERR-MED-EA-BIANQUE-AUTHOR-001` | Bian Que escribió personalmente los manuscritos de Tianhui | no existe firma o colofón inequívoco y los títulos son editoriales | conservar la asociación como hipótesis | ACTIVO |
+| `ERR-MED-EA-FIGURE-CLINICAL-001` | una figurilla o modelo corporal prueba uso y resultados clínicos | representación no registra operador, frecuencia ni desenlace | separar objeto, función, ejecución y consecuencia | ACTIVO |
+| `ERR-MED-EA-PIERCING-EFFICACY-001` | una descripción antigua de punción demuestra eficacia de la acupuntura | texto y mecanismo propuesto no sustituyen comparador, resultados o daños | evaluar intervenciones con MED-001 | ACTIVO |
+| `ERR-MED-EA-PULSE-ACCURACY-001` | un vocabulario fino del pulso demuestra exactitud diagnóstica | taxonomía táctil no aporta referencia, cegamiento ni reproducibilidad | evaluar pruebas con MED-002 | ACTIVO |
+| `ERR-MED-EA-PHARMACOPOEIA-MODERN-001` | la farmacopea Tang equivale a regulación farmacéutica y control de calidad modernos | norma editorial no prueba identidad, lote, distribución o cumplimiento | auditar texto, suministro, preparación e implementación | ACTIVO |
+| `ERR-MED-EA-DUNHUANG-SCHOOL-001` | los manuscritos de Dunhuang pertenecen a una sola escuela médica | fechas, manos, géneros, lenguas y usos son heterogéneos | tratar la colección como biblioteca distribuida | ACTIVO |
+| `ERR-MED-EA-RECEPTION-COPY-001` | *Ishinpō* y *Donguibogam* son copias pasivas de una medicina china intacta | seleccionar, traducir, ordenar y patrocinar transforman el repertorio | describir operación regional y capas de recepción | ACTIVO |
+| `ERR-MED-EA-MATERIA-SPECIES-001` | un nombre antiguo identifica una especie y formulación estables | polisemia, sustitución, parte, procedencia y procesamiento varían | declarar identidad y preparación por testigo | ACTIVO |
+| `ERR-MED-EA-CANON-PRACTICE-001` | presencia en un canon demuestra práctica general | faltan aprendizaje, acceso, ejecución y archivos locales | buscar instituciones y prácticas independientes | ACTIVO |
+| `ERR-MED-EA-ANTIQUITY-EFFICACY-001` | antigüedad, continuidad o patrocinio estatal demuestran eficacia y seguridad | no controlan selección, comparador, resultados ni daños | aplicar contrato causal contemporáneo | ACTIVO |
+| `ERR-MED-EA-RANKING-001` | una tradición fue más antigua o avanzada que otra | los soportes y productos observados no son equivalentes | comparar dimensiones sin puntuación universal | ACTIVO |

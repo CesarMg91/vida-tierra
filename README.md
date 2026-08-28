@@ -6,7 +6,7 @@ Historia profunda de la Tierra, la vida y el ser humano desde primeros principio
 
 **[Explorar la versión pública](https://vida-tierra.vercel.app)**
 
-La versión `0.3.4` continúa la historia cronológica mundial de la medicina con MED-005: cuerpos, manuscritos, estratos, traducciones, edificios e instituciones de Asia meridional, separados por archivo y cronología. Incluye el módulo público «Un corpus no es una fecha» y conserva MED-001–004 y CIV-001–003 íntegros; la secuencia global continúa cerrada en `001–052`.
+La versión `0.3.5` continúa la historia cronológica mundial de la medicina con MED-006: huesos inscritos, manuscritos excavados, cánones recompuestos, farmacopeas, objetos docentes y compilaciones regionales de China y Asia oriental, separados por producto y límite. Incluye el módulo público «Un canon no es una práctica uniforme» y conserva MED-001–005 y CIV-001–003 íntegros; la secuencia global continúa cerrada en `001–052`.
 
 El sitio usa `https://vida-tierra.vercel.app` como URL canónica. Otro dominio puede sustituirlo definiendo `SITE_URL` en el entorno de build, sin cambiar el código.
 
@@ -46,7 +46,7 @@ Y toda investigación debe distinguir explícitamente:
 - las alternativas y anomalías;
 - el grado de confianza y qué podría falsar la conclusión.
 
-## Estado actual · v0.3.4
+## Estado actual · v0.3.5
 
 La experiencia pública contiene:
 
@@ -100,6 +100,7 @@ La experiencia pública contiene:
 - la primera investigación histórica de Medicina: [MED-003 — ¿Qué permiten reconstruir huesos, biomoléculas, objetos y textos sobre los orígenes del cuidado y la intervención?](15_medicina/INVESTIGACION_MED_003_ORIGENES_ARCHIVO_CUIDADO.md) — **AUDITADO**; inaugura la secuencia cronológica MED-003–MED-033 sin una fecha universal de nacimiento;
 - la segunda investigación histórica de Medicina: [MED-004 — ¿Qué prueban tablillas, papiros, cuerpos y espacios sobre especialistas y prácticas?](15_medicina/INVESTIGACION_MED_004_MESOPOTAMIA_VALLE_NILO.md) — **AUDITADO**; separa documento, género, circulación, práctica y consecuencia en Mesopotamia y el valle del Nilo;
 - la tercera investigación histórica de Medicina: [MED-005 — ¿Cómo fechamos y contextualizamos las tradiciones médicas de Asia meridional?](15_medicina/INVESTIGACION_MED_005_ASIA_MERIDIONAL_AYURVEDA_TRANSMISIONES.md) — **AUDITADO**; separa testimonio, lectura, estrato, circulación, práctica y consecuencia sin convertir antigüedad en eficacia;
+- la cuarta investigación histórica de Medicina: [MED-006 — ¿Cómo cambiaron los cánones, pulsos, agujas, farmacopeas e instituciones en China y Asia oriental?](15_medicina/INVESTIGACION_MED_006_CHINA_ASIA_ORIENTAL_CANONES_PRACTICAS.md) — **AUDITADO**; separa testigo, lectura, estrato, operación, institución y consecuencia sin convertir canon en práctica uniforme;
 - la trigésima séptima investigación: [`¿Cómo distinguimos especies, locomoción, dieta y parentesco entre australopitecos y Paranthropus sin convertir su diversidad en una escalera hacia Homo?`](08_cenozoico/INVESTIGACION_037_AUSTRALOPITECOS_PARANTHROPUS.md);
 - la trigésima octava investigación: [`¿Cómo reconocemos a Homo temprano, habilis y erectus si fósiles, herramientas, cuerpos y moléculas responden preguntas distintas?`](08_cenozoico/INVESTIGACION_038_HOMO_TEMPRANO_HABILIS_ERECTUS.md);
 - la trigésima novena investigación: [`¿Cómo reconstruimos las poblaciones humanas del Pleistoceno medio sin convertir Homo heidelbergensis en un cajón de sastre ni cada fósil en un ancestro?`](08_cenozoico/INVESTIGACION_039_HOMO_PLEISTOCENO_MEDIO_HEIDELBERGENSIS.md);

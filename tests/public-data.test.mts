@@ -13,7 +13,7 @@ import { renderMarkdownForTest } from "../lib/content.ts";
 
 test("el catálogo conserva 52 órdenes globales y las series temáticas fuera de la secuencia", () => {
   const { catalog } = buildPublicData();
-  assert.equal(catalog.length, 60);
+  assert.equal(catalog.length, 61);
   assert.deepEqual(
     catalog.filter((record) => record.order !== null).map((record) => record.order),
     Array.from({ length: 52 }, (_, index) => index + 1),
@@ -23,7 +23,7 @@ test("el catálogo conserva 52 órdenes globales y las series temáticas fuera d
   assert.equal(thematic?.status, "TRAZADO");
   assert.deepEqual(
     catalog.filter((record) => record.order === null).map((record) => [record.key, record.status]),
-    [["CIV-001", "TRAZADO"], ["CIV-002", "AUDITADO"], ["CIV-003", "AUDITADO"], ["MED-001", "AUDITADO"], ["MED-002", "AUDITADO"], ["MED-003", "AUDITADO"], ["MED-004", "AUDITADO"], ["MED-005", "AUDITADO"]],
+    [["CIV-001", "TRAZADO"], ["CIV-002", "AUDITADO"], ["CIV-003", "AUDITADO"], ["MED-001", "AUDITADO"], ["MED-002", "AUDITADO"], ["MED-003", "AUDITADO"], ["MED-004", "AUDITADO"], ["MED-005", "AUDITADO"], ["MED-006", "AUDITADO"]],
   );
 });
 
@@ -65,12 +65,12 @@ test("los comodines editoriales no se convierten en IDs inexistentes", () => {
 
 test("todos los registros maestros quedan materializados", () => {
   const rows = registryRows();
-  assert.equal(rows.claims.length, 1014);
-  assert.equal(rows.evidence.length, 848);
-  assert.equal(rows.sources.length, 1279);
-  assert.equal(rows.controversies.length, 464);
-  assert.equal(rows.errors.length, 530);
-  assert.equal(rows.timeline.length, 457);
+  assert.equal(rows.claims.length, 1037);
+  assert.equal(rows.evidence.length, 868);
+  assert.equal(rows.sources.length, 1295);
+  assert.equal(rows.controversies.length, 472);
+  assert.equal(rows.errors.length, 544);
+  assert.equal(rows.timeline.length, 481);
 });
 
 test("cada claim llega a evidencia y fuentes publicables", () => {

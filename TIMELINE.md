@@ -594,3 +594,32 @@ CIV-003 inaugura los expedientes regionales auditados. CIV-001 conserva `TRAZADO
 | `TIME-MED-SA-SUSRUTA-PROJECT1-001` | 2024 | Suśruta Project 1 completa la transcripción diplomática de los testigos nepaleses | edición abierta; original perdido | `SRC-MED-SA-SUSRUTA-PROJECT1-2026` | A documental/B textual | AUDITADO |
 | `TIME-MED-SA-TRANSLATION-2025-001` | 2025 | análisis compara estrategias chinas de traducción médica | corpus budista seleccionado | `SRC-MED-SA-LU-2025` | B histórico | AUDITADO |
 | `TIME-MED-SA-SUSRUTA-DATE-2026-001` | 2026 | balance filológico rechaza 600 a. e. c. como fecha segura de un autor único | conclusión vigente, revisable por nuevos testigos | `SRC-MED-SA-WUJASTYK-DATE-2026` | B histórico | AUDITADO |
+
+## MED-006 — Hitos de los archivos médicos de China y Asia oriental
+
+| ID | Fecha/intervalo | Evento delimitado | Incertidumbre y evidencia | Fuente | Confianza | Estado |
+|---|---:|---|---|---|---|---|
+| `TIME-MED-EA-ORACLE-001` | ca. 1250–1046 a. e. c. | inscripciones oraculares registran aflicciones y consultas de la corte Shang tardía | paleografía y género; no diagnóstico moderno ni población | `SRC-MED-EA-COOK-2023` | A/B documental | AUDITADO |
+| `TIME-MED-EA-ZHANGJIASHAN-001` | ca. 186 a. e. c. | cierre de la tumba 247 conserva el *Maishu* y repertorios corporales | fecha del depósito, no de cada pasaje | `SRC-MED-EA-COOK-2023` | A material/B textual | AUDITADO |
+| `TIME-MED-EA-MAWANGDUI-001` | 168 a. e. c. | cierre de la tumba 3 fija un *terminus ante quem* para sus manuscritos | copias depositadas; composición anterior abierta | `SRC-MED-EA-HARPER-1998`, `SRC-MED-EA-COOK-2023` | A material/B textual | AUDITADO |
+| `TIME-MED-EA-TIANHUI-EARLY-001` | comienzos del siglo II a. e. c. | manuscritos y figurilla de Tianhui/Laoguanshan fueron copiados y depositados | orden de tiras, títulos y autoría revisables | `SRC-MED-EA-LIU-2024`, `SRC-MED-EA-LO-PIERCING-2024` | A/B material | AUDITADO |
+| `TIME-MED-EA-WUWEI-001` | Han oriental, siglos I–II e. c. | Wuwei conserva fórmulas, cantidades, punción y compra de sustancias | ejecución y taxones no siempre identificables | `SRC-MED-EA-YANG-BROWN-2017` | A/B documental | AUDITADO |
+| `TIME-MED-EA-CANON-FORMATION-001` | siglos II–V e. c. | repertorios atribuidos a Zhang Ji, Wang Shuhe y Huangfu Mi se compilan y reorganizan | autógrafos perdidos y capas reconstruidas | `SRC-MED-EA-COOK-2023` | B histórico | AUDITADO |
+| `TIME-MED-EA-XINXIU-001` | 659 | la corte Tang completa la *Xinxiu bencao* | norma editorial; suministro y cumplimiento no medidos | `SRC-MED-EA-IDP-XINXIU-2026` | A documental/B implementación | AUDITADO |
+| `TIME-MED-EA-DUNHUANG-MOXA-001` | ca. 700–900 | el rollo Or.8210/S.6168 conserva figuras y lugares de moxa | fecha paleográfica; uso y efecto ausentes | `SRC-MED-EA-IDP-MOXA-2026` | A/B material | AUDITADO |
+| `TIME-MED-EA-WANGBING-001` | 762 | Wang Bing concluye una revisión identificable del *Suwen* | fecha de recensión, no origen de todos los pasajes | `SRC-MED-EA-COOK-2023` | B histórico | AUDITADO |
+| `TIME-MED-EA-ISHINPO-001` | 984 | Tamba Yasuyori presenta *Ishinpō* en treinta rollos a la corte japonesa | compilación documentada; práctica nacional no inferida | `SRC-MED-EA-JAPAN-ISHINPO-2026`, `SRC-MED-EA-LOC-ISHINPO-2026` | A documental/B recepción | AUDITADO |
+| `TIME-MED-EA-WANGWEIYI-001` | 1027 | Wang Weiyi produce manual, estela y modelos de bronce para enseñanza | estandarización representacional; resultados no medidos | `SRC-MED-EA-WANGWEIYI-2018` | B histórico | AUDITADO |
+| `TIME-MED-EA-DONGUIBOGAM-001` | 1613 | se concluye *Donguibogam* bajo patrocinio real Joseon | síntesis institucional; cobertura separada | `SRC-MED-EA-UNESCO-DONGUIBOGAM-2009` | A documental/B implementación | AUDITADO |
+| `TIME-MED-EA-ORACLE-RECOGNITION-001` | 1899 | eruditos reconocen escritura antigua en los llamados huesos de dragón | historia del descubrimiento moderno; procedencias tempranas incompletas | `SRC-MED-EA-COOK-2023` | B histórico | AUDITADO |
+| `TIME-MED-EA-MAWANGDUI-EXCAVATION-001` | 1972–1974 | excavación de Mawangdui abre un archivo médico no transmitido | edición y remontaje posteriores revisables | `SRC-MED-EA-HARPER-1998` | A material/B editorial | AUDITADO |
+| `TIME-MED-EA-WUWEI-EXCAVATION-001` | 1972 | hallazgo de los manuscritos médicos de Wuwei | contexto preservado; interpretación acumulativa | `SRC-MED-EA-YANG-BROWN-2017` | A material | AUDITADO |
+| `TIME-MED-EA-ZHANGJIASHAN-EXCAVATION-001` | 1983 | excavación de la tumba 247 añade variantes del *Maishu* | relación textual no lineal | `SRC-MED-EA-COOK-2023` | A material/B textual | AUDITADO |
+| `TIME-MED-EA-HARPER-001` | 1998 | Harper publica estudio y traducción extensa de Mawangdui | interpretación filológica revisable | `SRC-MED-EA-HARPER-1998` | A/B documental | AUDITADO |
+| `TIME-MED-EA-HSU-001` | 2005 | Hsu reconstruye el tacto como tecnología histórica | repertorio sensorial; no exactitud moderna | `SRC-MED-EA-HSU-2005` | A método/B histórico | AUDITADO |
+| `TIME-MED-EA-LO-HISTORY-001` | 2009 | Lo evalúa dos décadas de historia de las artes de sanar chinas | balance historiográfico, no corpus social completo | `SRC-MED-EA-LO-2009` | A método | AUDITADO |
+| `TIME-MED-EA-TIANHUI-EXCAVATION-001` | 2012 | excavación de la tumba M3 de Tianhui recupera tiras y figurilla | reconstrucción editorial posterior | `SRC-MED-EA-LIU-2024` | A material | AUDITADO |
+| `TIME-MED-EA-WUWEI-TRANSLATION-001` | 2017 | Yang y Brown publican introducción y traducción de Wuwei | identificaciones de sustancias permanecen tentativas | `SRC-MED-EA-YANG-BROWN-2017` | A/B documental | AUDITADO |
+| `TIME-MED-EA-TIANHUI-FACSIMILE-001` | 2022 | edición facsimilar vuelve auditables orden, trazos y títulos propuestos | facsímil no elimina decisiones de remontaje | `SRC-MED-EA-LIU-2024` | A documental/B editorial | AUDITADO |
+| `TIME-MED-EA-COOK-001` | 2023 | Cook sintetiza la historia médica de Asia oriental desde textos excavados | selección explícita; no representación poblacional | `SRC-MED-EA-COOK-2023` | A método/B histórico | AUDITADO |
+| `TIME-MED-EA-TIANHUI-PUBLICATION-001` | 2023–2024 | estudios internacionales publican corpus y traducción de punción Tianhui | atribución y función siguen abiertas | `SRC-MED-EA-LIU-2024`, `SRC-MED-EA-LO-PIERCING-2024` | A/B documental | AUDITADO |
