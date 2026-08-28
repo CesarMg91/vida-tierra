@@ -1364,3 +1364,33 @@ La salida se inspeccionó completa a resolución original. No contiene personas,
 La composición no reproduce el *Xiyuan jilu*, *Micrographia*, *De sedibus*, *Anatomie générale*, el hospital de Viena, *Cellular Pathology*, una lámina H&E, un frotis cervical, un espécimen, colección, laboratorio o acontecimiento reales. La proximidad entre objetos no afirma coetaneidad, transmisión, prioridad, diagnóstico, causalidad, eficacia o beneficio.
 
 Los SVG se construyeron a `1600 × 900`, incluyen `title`, `desc` y tipografía de reserva. La cadena mantiene siete capas con cortafuegos; la matriz compara ocho expedientes sin puntuaciones. Ninguno acepta datos personales, muestra tejido diagnóstico, calcula resultados, diagnostica, recomienda o simula un caso clínico.
+
+## 74. MED-019 — Una cama hospitalaria no convierte a una persona en un caso por sí sola
+
+![Portada editorial de MED-019](assets/visuales/hero-med-019-hospitales-cabecera-examen-clinico.png)
+
+![Cadena desde institución hasta decisión](assets/visuales/cadena-institucion-decision-med-019.svg)
+
+![Matriz de hospitales, examen clínico y límites](assets/visuales/matriz-hospitales-examen-clinico-med-019.svg)
+
+| Archivo | Tipo | Procedencia | Qué representa | Límite obligatorio |
+|---|---|---|---|---|
+| `hero-med-019-hospitales-cabecera-examen-clinico.png` | portada editorial conceptual | OpenAI ImageGen, generación nueva, 2026-08-28 | sala vacía, camas, biombo, expediente, tarjetas, instrumental, regla, cuidado e hilos genéricos | no hospital, paciente, examen, expediente, instrumento compuesto o acontecimiento reales |
+| `cadena-institucion-decision-med-019.svg` | diagrama epistemológico original | SVG manual del proyecto, 2026-08-28 | institución, admisión, encuentro, examen, registro, comparación y decisión | las flechas no heredan acceso, representatividad, consentimiento, lesión, persona, causalidad o beneficio |
+| `matriz-hospitales-examen-clinico-med-019.svg` | matriz documental original | SVG manual del proyecto, 2026-08-28 | ocho expedientes, archivos, productos y límites | las filas no forman modernidad, eficacia, prioridad o ranking institucional y cultural |
+
+### Procedencia de la portada
+
+Salida original aprobada sin edición: `C:\Users\HUAWEI\.codex\generated_images\019fedb0-8f24-7e33-8d16-d2418ba3378e\exec-3479c64e-6207-4471-b8a2-fc748937908c.png`. Destino: `assets/visuales/hero-med-019-hospitales-cabecera-examen-clinico.png`. Dimensiones: `1672 × 941`; tamaño: `1,979,630` bytes; SHA-256: `92facd19a94aa7bf4a9027fa74a86462ff29947330a4728e31a3b331eab0e84e`.
+
+**Prompt de generación:**
+
+> Use case: historical-scene. Asset type: wide website hero for an evidence-based public history of medicine. Primary request: an original cinematic editorial tableau about how hospitals, bedside examination, medical records, comparison, and clinical decisions became connected; the image must read as a conceptual museum composition, not as a documentary photograph of one real hospital. Scene/backdrop: a deep, quiet nineteenth-century hospital ward with several neatly made empty iron beds, tall windows, a plain privacy screen, subdued architectural layers suggesting different institutions without copying any named site. Subject: in the foreground, an open but completely blank generic case ledger, loose blank case cards, a wooden monaural stethoscope, simple percussion pleximeter, ink pen, folded clean cloth, and measuring rule; fine copper-colored threads visually connect bed, examination instrument, record, comparison cards, and a final decision marker. Style/medium: high-end historically informed cinematic editorial photography with museum still-life precision, realistic worn paper, wood, iron, linen and plaster; subtle film grain; no fantasy effects. Composition/framing: 16:9-ish wide landscape, low eye-level view down the ward, strong depth, central evidence objects, generous dark negative space for white web copy; objects fully inside frame and readable at hero crop. Lighting/mood: warm amber window light against obsidian and mineral-green shadows; serious, humane, investigative, restrained. Color palette: parchment, ink black, oxidized copper, amber, muted mineral green. Constraints: all beds empty; no patients, no identifiable people, no bodies, no procedures, no blood, no gore; no text, letters, numbers, labels, logos, watermarks or institutional emblems; no modern monitors, plastics, disposable devices, electric screens or contemporary stethoscopes; no false claim that these objects belonged together historically; no national flags; no triumphalist progress imagery. Avoid: staged reenactment with actors, romanticized suffering, steampunk machinery, glowing magic, stock-photo gloss, illegible pseudo-writing, cropped foreground objects.
+
+### Revisión y límites
+
+La salida se inspeccionó completa a resolución original y la copia incorporada conserva el mismo archivo. No contiene personas, pacientes, cuerpos, procedimientos, sangre, logos, emblemas, pantallas, plástico médico moderno o texto transcribible. Sala, camas, biombo, expediente en blanco, tarjetas, estetoscopio monoaural, objeto de percusión, pluma, regla, tela e hilos son utilería editorial genérica.
+
+La composición no reproduce Leiden, Edimburgo, París, Bezm-i Alem, San Andrés, el Medical College de Calcuta, la Universidad de Tokio, una ficha clínica, un encuentro o un hospital reales. La proximidad de objetos no afirma coetaneidad, transmisión, consentimiento, representatividad, exactitud, eficacia, beneficio o justicia.
+
+Los SVG se construyeron a `1600 × 900`, incluyen `title`, `desc` y tipografía de reserva. Tras rasterizarlos se inspeccionaron completos y se corrigió una microfrase. La cadena mantiene siete capas con cortafuegos; la matriz compara ocho expedientes sin puntuaciones. Ninguno acepta datos personales, representa una consulta, calcula resultados, diagnostica, recomienda o simula un caso clínico.
