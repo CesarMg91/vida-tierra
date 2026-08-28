@@ -643,3 +643,26 @@ CIV-003 inaugura los expedientes regionales auditados. CIV-001 conserva `TRAZADO
 | `TIME-MED-GR-LONIE-001` | 1978 | Lonie critica la construcción historiográfica Cos/Cnido | argumento revisable por nuevos archivos | `SRC-MED-GR-LONIE-1978` | A método | AUDITADO |
 | `TIME-MED-GR-DISSECTION-REVIEW-001` | 2022 | Bubb integra disección clásica y helenística en historia social | síntesis dependiente de fragmentos | `SRC-MED-GR-BUBB-2022` | A método/B histórico | AUDITADO |
 | `TIME-MED-GR-HEART-REVIEW-001` | 2023 | comentario reevalúa *Sobre el corazón* y su cronología | no resuelve fecha ni especie disecada | `SRC-MED-GR-HEART-2023` | A método/B-COND | AUDITADO |
+
+## MED-008 — Roma, Bizancio y Mediterráneo tardío
+
+| ID | Fecha/intervalo | Evento delimitado | Incertidumbre y evidencia | Fuente | Confianza | Estado |
+|---|---:|---|---|---|---|---|
+| `TIME-MED-RB-REPUBLIC-001` | siglos III–I a. e. c. | fuentes conservan cuidado militar republicano fragmentario | no sostienen cuerpo voluntario moderno universal | `SRC-MED-RB-SCARBOROUGH-1968`, `SRC-MED-RB-NUTTON-1969` | B histórico | AUDITADO |
+| `TIME-MED-RB-CELSUS-001` | ca. 25 a. e. c.–50 e. c. | Celso compone *De medicina* en latín | texto letrado, no encuesta de práctica romana | `SRC-MED-RB-BAKER-2013` | A textual/B práctica | AUDITADO |
+| `TIME-MED-RB-IMPERIAL-ARMY-001` | siglos I–III e. c. | fuertes e inscripciones documentan médicos y valetudinaria imperiales | función, escala y operación varían por unidad | `SRC-MED-RB-NUTTON-1969`, `SRC-MED-RB-ALLASONJONES-1999` | A/B arqueológico | AUDITADO |
+| `TIME-MED-RB-SORANUS-001` | siglos I–II e. c. | Sorano escribe sobre ginecología y parto | no representa todas las parteras o pacientes | `SRC-MED-RB-FLEMMING-2000` | A textual/B social | AUDITADO |
+| `TIME-MED-RB-GALEN-001` | ca. 129–216 e. c. | Galeno practica y compone un corpus excepcional | casos seleccionados y anatomía principalmente animal | `SRC-MED-RB-HANKINSON-2008` | A documental/B práctica | AUDITADO |
+| `TIME-MED-RB-PARASITES-001` | siglos I a. e. c.–V e. c. | contextos romanos conservan parásitos intestinales | muestreo y preservación no estiman prevalencia imperial | `SRC-MED-RB-MITCHELL-2017`, `SRC-MED-RB-LEDGER-2020` | A presencia/B distribución | AUDITADO |
+| `TIME-MED-RB-ORIBASIUS-001` | ca. 325–403 | Oribasio selecciona y reorganiza medicina griega | compilación no equivale a práctica uniforme | `SRC-MED-RB-NUTTON-1984` | A/B textual | AUDITADO |
+| `TIME-MED-RB-BASIL-001` | ca. 369 | complejo asociado con Basilio institucionaliza caridad a pobres y enfermos | función y genealogía hospitalaria debatidas | `SRC-MED-RB-HORDEN-2005`, `SRC-MED-RB-HORDEN-2012` | B histórico | AUDITADO |
+| `TIME-MED-RB-AETIUS-001` | siglo VI | Aecio de Amida compila repertorios médicos | ejecución y circulación social permanecen abiertas | `SRC-MED-RB-NUTTON-1984`, `SRC-MED-RB-SCARBOROUGH-1984` | A/B textual | AUDITADO |
+| `TIME-MED-RB-ALEXANDER-001` | siglo VI | Alejandro de Tralles combina tradición y observaciones declaradas | casos seleccionados sin denominador | `SRC-MED-RB-NUTTON-1984`, `SRC-MED-RB-DUFFY-1984` | A/B textual | AUDITADO |
+| `TIME-MED-RB-PAUL-001` | siglo VII | Pablo de Egina organiza una síntesis médica y quirúrgica | descripción no prueba frecuencia o resultados | `SRC-MED-RB-BLIQUEZ-1984`, `SRC-MED-RB-DUFFY-1984` | A documental/C efecto | AUDITADO |
+| `TIME-MED-RB-TRANSLATIONS-001` | siglos VI–XII | materiales circulan por versiones siríacas, árabes, hebreas y latinas | cada dirección requiere testigos y agentes | `SRC-MED-RB-BAADER-1984`, `SRC-MED-RB-RIDDLE-1984` | B por ruta | AUDITADO |
+| `TIME-MED-RB-PANTOKRATOR-001` | 1136 | typikon prescribe salas, personal y turnos del Pantocrátor | norma concreta, no diario ni red universal | `SRC-MED-RB-MILLER-1984`, `SRC-MED-RB-HORDEN-2005` | A documental/B operación | AUDITADO |
+| `TIME-MED-RB-AKTOUARIOS-001` | ca. 1275–1330 | Juan Zacarías Actuario desarrolla casos, uroscopia y farmacología | un autor tardío no representa todo Bizancio | `SRC-MED-RB-BOURAS-2020` | A/B histórico | AUDITADO |
+| `TIME-MED-RB-DOP-001` | 1984 | simposio de Dumbarton Oaks conecta práctica, hospitales, objetos, fármacos y transmisión | volumen programático no cierra controversias | `SRC-MED-RB-NUTTON-1984`, `SRC-MED-RB-MILLER-1984`, `SRC-MED-RB-BAADER-1984` | A historiográfico | AUDITADO |
+| `TIME-MED-RB-PARASITOLOGY-REVIEW-001` | 2016–2024 | revisiones y estudios regionales integran paleoparasitología romana | cobertura geográfica todavía desigual | `SRC-MED-RB-MITCHELL-2017`, `SRC-MED-RB-LEDGER-2020`, `SRC-MED-RB-LEDGER-2024` | A método/B generalización | AUDITADO |
+| `TIME-MED-RB-INNOVATION-REVIEW-001` | 2020 | Bouras-Vallianatos audita innovación tardobizantina | foco autoral y cronológico específico | `SRC-MED-RB-BOURAS-2020` | A método/B histórico | AUDITADO |
+| `TIME-MED-RB-COLCHESTER-001` | 2026 | estudio de Colchester reúne instrumentos y contextos urbanos | un conjunto no representa el Imperio | `SRC-MED-RB-CRUMMY-2026` | A material/B alcance | AUDITADO |

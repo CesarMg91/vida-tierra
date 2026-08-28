@@ -1549,3 +1549,21 @@ Los cortafuegos principales son: Hipócrates ≠ corpus; corpus ≠ doctrina ún
 El corpus sostiene pluralidad escrita; *Epidemias*, formas de curso y pronóstico; los tratados quirúrgicos, operaciones formuladas; Epidauro, memoria votiva pública; los decretos, contratación cívica local; y Alejandría, una ventana excepcional de anatomía humana reconstruida. Ninguno hereda por sí solo práctica uniforme, resultado o superioridad.
 
 Véase 15_medicina/INVESTIGACION_MED_007_MEDITERRANEO_GRIEGO_HELENISTICO.md, 22_mapas_epistemologicos/MAPA_MED_007_MEDITERRANEO_GRIEGO_HELENISTICO.md, 21_cronologias/CRONOLOGIA_MED_007_MEDITERRANEO_GRIEGO_HELENISTICO.md, assets/visuales/cadena-testimonio-consecuencia-med-007.svg y assets/visuales/matriz-archivos-mediterraneo-med-007.svg.
+
+### MED-008 — Infraestructura o título no es cobertura ni resultado
+
+```text
+vestigio
+  ↓ identificación
+función
+  ↓ operación documentada
+acceso
+  ↓ archivo de desenlace
+consecuencia
+```
+
+Los cortafuegos principales son: valetudinarium ≠ hospital moderno; edificio ≠ operación; cargo ≠ sistema; instrumento ≠ procedimiento; acueducto ≠ salud poblacional; parásito presente ≠ prevalencia imperial; Galeno ≠ medicina romana; animal ≠ humano; corpus influyente ≠ verdad; compilación ≠ copia pasiva; xenon ≠ institución uniforme; typikon ≠ jornada ejecutada; transmisión ≠ flecha lineal; autoridad ≠ eficacia.
+
+Los fuertes y las inscripciones sostienen organización militar situada; la infraestructura urbana, capacidad y flujos; la paleoparasitología, transmisión persistente; hogares y género, actores subrepresentados; Galeno, práctica narrada y recepción; los compiladores, transformación editorial; los xenones y el Pantocrátor, instituciones con funciones y normas concretas. Ningún archivo hereda por sí solo cobertura universal, resultado o superioridad.
+
+Véase 15_medicina/INVESTIGACION_MED_008_ROMA_BIZANCIO_MEDITERRANEO_TARDIO.md, 22_mapas_epistemologicos/MAPA_MED_008_ROMA_BIZANCIO_MEDITERRANEO_TARDIO.md, 21_cronologias/CRONOLOGIA_MED_008_ROMA_BIZANCIO_MEDITERRANEO_TARDIO.md, assets/visuales/cadena-vestigio-consecuencia-med-008.svg y assets/visuales/matriz-infraestructura-practica-med-008.svg.

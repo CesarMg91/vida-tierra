@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Matriz de archivos, productos y límites de MED-008</title>
+  <desc id="desc">Cinco filas comparan ejército, ciudad, Galeno, compiladores y hospitales mediante archivo observado, inferencia permitida, límite y estado. No hay puntuación ni ranking.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#f0e4ca"/><stop offset="1" stop-color="#d8c5a2"/></linearGradient>
+    <style>
+      .sans{font-family:'IBM Plex Sans',Arial,sans-serif}.mono{font-family:'IBM Plex Mono',Consolas,monospace}.serif{font-family:'Source Serif 4',Georgia,serif}
+      .eye{fill:#b97945;font-size:19px;font-weight:700;letter-spacing:3px}.title{fill:#f6eddc;font-size:43px;font-weight:700}.sub{fill:#c8d4cc;font-size:20px}
+      .head{fill:#f5ecd9;font-size:17px;font-weight:700}.rowtitle{fill:#1d2822;font-size:21px;font-weight:700}.body{fill:#344138;font-size:16px}.limit{fill:#6f342c;font-size:16px}.state{fill:#f6eddc;font-size:14px;font-weight:700;letter-spacing:.8px}.foot{fill:#35443a;font-size:17px}
+    </style>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <path d="M0 0H1600V210H0Z" fill="#18231e"/>
+  <text x="80" y="65" class="sans eye">MED-008 · MATRIZ SIN RANKING</text>
+  <text x="80" y="125" class="serif title" fill="#f6eddc">Archivo, inferencia, límite y estado</text>
+  <text x="80" y="168" class="sans sub" fill="#c8d4cc">Cinco casos; ningún renglón hereda cobertura o eficacia.</text>
+
+  <g transform="translate(70 220)">
+    <rect width="1460" height="54" rx="12" fill="#26372f"/>
+    <text x="24" y="35" class="sans head">CASO</text><text x="310" y="35" class="sans head">ARCHIVO OBSERVADO</text><text x="700" y="35" class="sans head">INFERENCIA PERMITIDA</text><text x="1060" y="35" class="sans head">LÍMITE DECISIVO</text><text x="1340" y="35" class="sans head">ESTADO</text>
+
+    <g transform="translate(0 72)"><rect width="1460" height="98" rx="12" fill="#f7efdE"/><rect width="10" height="98" rx="5" fill="#a8683c"/><text x="24" y="36" class="sans rowtitle">Ejército imperial</text><text x="24" y="64" class="mono body">valetudinarium</text><text x="310" y="35" class="sans body"><tspan x="310">planta · fase · inscripción</tspan><tspan x="310" dy="25">instrumentos · cargos</tspan></text><text x="700" y="35" class="sans body"><tspan x="700">organización militar</tspan><tspan x="700" dy="25">situada</tspan></text><text x="1060" y="35" class="sans limit"><tspan x="1060">admisiones · cobertura</tspan><tspan x="1060" dy="25">desenlaces</tspan></text><rect x="1330" y="25" width="108" height="42" rx="21" fill="#7c5435"/><text x="1384" y="52" text-anchor="middle" class="sans state">PROBABLE</text></g>
+
+    <g transform="translate(0 184)"><rect width="1460" height="98" rx="12" fill="#efe2c8"/><rect width="10" height="98" rx="5" fill="#4e7362"/><text x="24" y="36" class="sans rowtitle">Ciudad romana</text><text x="24" y="64" class="mono body">agua + parásitos</text><text x="310" y="35" class="sans body"><tspan x="310">obras hidráulicas · sedimentos</tspan><tspan x="310" dy="25">huevos de helmintos</tspan></text><text x="700" y="35" class="sans body"><tspan x="700">flujos transformados</tspan><tspan x="700" dy="25">transmisión persistente</tspan></text><text x="1060" y="35" class="sans limit"><tspan x="1060">prevalencia imperial</tspan><tspan x="1060" dy="25">beneficio de cada obra</tspan></text><rect x="1324" y="25" width="120" height="42" rx="21" fill="#456657"/><text x="1384" y="52" text-anchor="middle" class="sans state">HETEROGÉNEO</text></g>
+
+    <g transform="translate(0 296)"><rect width="1460" height="98" rx="12" fill="#f7efde"/><rect width="10" height="98" rx="5" fill="#876749"/><text x="24" y="36" class="sans rowtitle">Galeno en Roma</text><text x="24" y="64" class="mono body">corpus + animales</text><text x="310" y="35" class="sans body"><tspan x="310">casos · polémica · disección</tspan><tspan x="310" dy="25">recepción manuscrita</tspan></text><text x="700" y="35" class="sans body"><tspan x="700">programa autoral</tspan><tspan x="700" dy="25">y autoridad</tspan></text><text x="1060" y="35" class="sans limit"><tspan x="1060">cohorte · especie humana</tspan><tspan x="1060" dy="25">práctica uniforme</tspan></text><rect x="1324" y="25" width="120" height="42" rx="21" fill="#71543c"/><text x="1384" y="52" text-anchor="middle" class="sans state">MEDIADO</text></g>
+
+    <g transform="translate(0 408)"><rect width="1460" height="98" rx="12" fill="#efe2c8"/><rect width="10" height="98" rx="5" fill="#77733c"/><text x="24" y="36" class="sans rowtitle">Compiladores</text><text x="24" y="64" class="mono body">selección + adaptación</text><text x="310" y="35" class="sans body"><tspan x="310">fuentes · glosas · listas</tspan><tspan x="310" dy="25">recetas · instrumentos</tspan></text><text x="700" y="35" class="sans body"><tspan x="700">transmisión</tspan><tspan x="700" dy="25">transformadora</tspan></text><text x="1060" y="35" class="sans limit"><tspan x="1060">uso por lectores</tspan><tspan x="1060" dy="25">efecto terapéutico</tspan></text><rect x="1316" y="25" width="136" height="42" rx="21" fill="#686431"/><text x="1384" y="52" text-anchor="middle" class="sans state">TRANSFORMADO</text></g>
+
+    <g transform="translate(0 520)"><rect width="1460" height="98" rx="12" fill="#f7efde"/><rect width="10" height="98" rx="5" fill="#64546b"/><text x="24" y="36" class="sans rowtitle">Xenon / Pantocrátor</text><text x="24" y="64" class="mono body">regla + institución</text><text x="310" y="35" class="sans body"><tspan x="310">salas · personal · turnos</tspan><tspan x="310" dy="25">caridad · admisión</tspan></text><text x="700" y="35" class="sans body"><tspan x="700">diseño asistencial</tspan><tspan x="700" dy="25">concreto</tspan></text><text x="1060" y="35" class="sans limit"><tspan x="1060">operación diaria · red</tspan><tspan x="1060" dy="25">universal · resultados</tspan></text><rect x="1324" y="25" width="120" height="42" rx="21" fill="#5e4a63"/><text x="1384" y="52" text-anchor="middle" class="sans state">NORMATIVO</text></g>
+  </g>
+  <text x="80" y="875" class="sans foot">Comparar productos no equivale a sumarlos: ejército, ciudad, hogar, autor, monasterio y manuscrito responden preguntas distintas.</text>
+  <text x="1520" y="875" text-anchor="end" class="mono" fill="#65766b" font-size="15">INV-MED-RB-001 · AUDITADO</text>
+</svg>

@@ -4321,3 +4321,29 @@ Las entradas cronológicas todavía no auditadas permanecen como eventos `SEMILL
 | `CLAIM-MED-GR-NETWORKS-001` | personas, productos y textos circularon y se recontextualizaron en el Mediterráneo | Fayum, rutas y contactos documentales | semejanza no establece préstamo o dirección | B por caso | AUDITADO |
 | `CLAIM-MED-GR-EFFICACY-001` | racionalidad, antigüedad y detalle técnico no demuestran eficacia o seguridad | ausencia de comparadores, denominadores y daños sistemáticos | una serie causal adecuada cambiaría el juicio de un procedimiento | A-SEM | AUDITADO |
 | `CLAIM-MED-GR-NONRANKING-001` | la influencia de un archivo no autoriza un ranking universal de tradiciones médicas | comparación por soporte, producto y capa | sólo comparaciones dimensionales equivalentes son legítimas | A-SEM | AUDITADO |
+
+## MED-008 — Roma, Bizancio y Mediterráneo tardío
+
+| ID | Afirmación delimitada | Confianza | Estado | Evidencias principales | Investigación |
+|---|---|---|---|---|---|
+| `CLAIM-MED-RB-ARCHIVE-001` | edificio, inscripción, instrumento, sedimento, texto y regla producen evidencias no equivalentes | A-SEM | AUDITADO | `EVID-MED-RB-METHOD-001`, `EVID-MED-RB-SYNTHESIS-001` | `INV-MED-RB-001` |
+| `CLAIM-MED-RB-INFRASTRUCTURE-001` | infraestructura o título no demuestra operación, acceso, cobertura ni resultado | A-SEM | AUDITADO | `EVID-MED-RB-METHOD-001`, `EVID-MED-RB-WATER-001`, `EVID-MED-RB-HOSPITAL-EARLY-001` | `INV-MED-RB-001` |
+| `CLAIM-MED-RB-ARMY-REPUBLIC-001` | no hay base suficiente para proyectar un cuerpo médico voluntario moderno sobre toda la República romana | B histórico | AUDITADO | `EVID-MED-RB-ARMY-DEBATE-001` | `INV-MED-RB-001` |
+| `CLAIM-MED-RB-VALETUDINARIA-001` | algunos complejos de fuertes imperiales sostienen función médica probable y organización situada | A/B arqueológico | AUDITADO | `EVID-MED-RB-VALETUDINARIA-001` | `INV-MED-RB-001` |
+| `CLAIM-MED-RB-INSTRUMENTS-001` | instrumentos compatibles con medicina documentan repertorios posibles, no operaciones ni propietarios automáticos | A-SEM/B contextual | AUDITADO | `EVID-MED-RB-INSTRUMENTS-001` | `INV-MED-RB-001` |
+| `CLAIM-MED-RB-CIVILIAN-001` | la organización militar no se traduce en provisión regular equivalente para toda la población civil | B histórico | AUDITADO | `EVID-MED-RB-CIVILIAN-001` | `INV-MED-RB-001` |
+| `CLAIM-MED-RB-WATER-001` | obras hidráulicas romanas transformaron flujos con usos y accesos desiguales | A/B arqueológico | AUDITADO | `EVID-MED-RB-WATER-001` | `INV-MED-RB-001` |
+| `CLAIM-MED-RB-PARASITES-001` | parásitos intestinales persistieron en contextos romanos y refutan protección sanitaria automática por infraestructura | A presencia/B generalización | AUDITADO | `EVID-MED-RB-PARASITES-ROMAN-001`, `EVID-MED-RB-PARASITES-EAST-001` | `INV-MED-RB-001` |
+| `CLAIM-MED-RB-HOUSEHOLD-001` | hogares y relaciones de dependencia sostuvieron cuidado poco visible en el archivo monumental y letrado | B histórico | AUDITADO | `EVID-MED-RB-HOUSEHOLD-GENDER-001` | `INV-MED-RB-001` |
+| `CLAIM-MED-RB-WOMEN-001` | mujeres aparecen como pacientes, practicantes y objetos de teoría bajo mediaciones de género y autoría | A/B textual | AUDITADO | `EVID-MED-RB-HOUSEHOLD-GENDER-001` | `INV-MED-RB-001` |
+| `CLAIM-MED-RB-PLURALISM-001` | médicos, hogares, parteras, vendedores, baños, santuarios y amuletos coexistieron sin dos bloques estables racional/irracional | B histórico | AUDITADO | `EVID-MED-RB-HOUSEHOLD-GENDER-001`, `EVID-MED-RB-SYNTHESIS-001` | `INV-MED-RB-001` |
+| `CLAIM-MED-RB-GALEN-PRACTICE-001` | los casos y autobiografía de Galeno permiten estudiar práctica narrada y construcción de autoridad, no una cohorte consecutiva | A textual/B práctica | AUDITADO | `EVID-MED-RB-GALEN-CORPUS-001` | `INV-MED-RB-001` |
+| `CLAIM-MED-RB-GALEN-ANATOMY-001` | gran parte de la anatomía galénica deriva de animales y exige separar especie observada de inferencia humana | A textual | AUDITADO | `EVID-MED-RB-GALEN-ANATOMY-001` | `INV-MED-RB-001` |
+| `CLAIM-MED-RB-GALEN-CORPUS-001` | la enorme supervivencia y recepción del corpus galénico demuestran influencia, no verdad total ni práctica romana uniforme | A documental | AUDITADO | `EVID-MED-RB-GALEN-CORPUS-001` | `INV-MED-RB-001` |
+| `CLAIM-MED-RB-COMPILERS-001` | compiladores tardíos seleccionaron, reorganizaron y adaptaron fuentes en vez de copiarlas pasivamente | A/B textual | AUDITADO | `EVID-MED-RB-COMPILERS-001`, `EVID-MED-RB-TEACHING-001`, `EVID-MED-RB-PHARMACOLOGY-001` | `INV-MED-RB-001` |
+| `CLAIM-MED-RB-INNOVATION-001` | la medicina bizantina produjo innovaciones de género, combinación y uso dentro de tradiciones heredadas | A/B histórico | AUDITADO | `EVID-MED-RB-INNOVATION-001` | `INV-MED-RB-001` |
+| `CLAIM-MED-RB-HOSPITAL-CATEGORIES-001` | xenon, nosokomeion, hospicio y hospital designan instituciones heterogéneas cuya función debe reconstruirse caso por caso | A-SEM/B histórico | AUDITADO | `EVID-MED-RB-HOSPITAL-EARLY-001` | `INV-MED-RB-001` |
+| `CLAIM-MED-RB-PANTOKRATOR-001` | el typikon de 1136 conserva un diseño hospitalario detallado de una institución, no operación perfecta ni red universal | A documental/B operación | AUDITADO | `EVID-MED-RB-PANTOKRATOR-001` | `INV-MED-RB-001` |
+| `CLAIM-MED-RB-NETWORKS-001` | la transmisión por griego, siríaco, árabe, hebreo y latín debe demostrarse mediante testigos, agentes y dependencias | A-SEM/B histórico | AUDITADO | `EVID-MED-RB-NETWORKS-001` | `INV-MED-RB-001` |
+| `CLAIM-MED-RB-EFFICACY-001` | organización, monumentalidad, descripción o longevidad no sustituyen comparadores, denominadores, daños y desenlaces | A-SEM | AUDITADO | `EVID-MED-RB-EFFICACY-001` | `INV-MED-RB-001` |
+| `CLAIM-MED-RB-NONRANKING-001` | Roma, Bizancio y sus vecinos sólo pueden compararse por dimensiones independientes y no por una escala de avance médico | A-SEM | AUDITADO | `EVID-MED-RB-SYNTHESIS-001` | `INV-MED-RB-001` |

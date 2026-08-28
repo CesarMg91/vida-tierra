@@ -59,3 +59,7 @@ Grafos de dependencias entre objetos, mediciones, principios, modelos, claims y 
 - [`MAPA_CIV_002_FECHADO.md`](MAPA_CIV_002_FECHADO.md) — seis capas, dependencias, casos y falsadores del fechado — **AUDITADO**.
 
 - [`MAPA_CIV_003_ASIA_SUDOCCIDENTAL.md`](MAPA_CIV_003_ASIA_SUDOCCIDENTAL.md) — del objeto al patrón regional, con identidad, Estado y civilización como saltos no heredados — **AUDITADO**.
+
+## Medicina
+
+- [`MAPA_MED_008_ROMA_BIZANCIO_MEDITERRANEO_TARDIO.md`](MAPA_MED_008_ROMA_BIZANCIO_MEDITERRANEO_TARDIO.md) — vestigio, identificación, función, operación, acceso y consecuencia sin hospital, cobertura o resultado heredados — **AUDITADO**.

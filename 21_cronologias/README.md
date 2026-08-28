@@ -5,3 +5,7 @@ Cronologías regionales o temáticas y matrices de correlación. La vista global
 - [`CRONOLOGIA_CIV_002_RELOJES_SINCRONISMOS.md`](CRONOLOGIA_CIV_002_RELOJES_SINCRONISMOS.md) — seriación, radiocarbono, curvas, relojes complementarios y sincronismos sin línea universal — **AUDITADO**.
 
 - [`CRONOLOGIA_CIV_003_ASIA_SUDOCCIDENTAL.md`](CRONOLOGIA_CIV_003_ASIA_SUDOCCIDENTAL.md) — cinco carriles regionales y un carril de historia de métodos, sin etapas universales — **AUDITADO**.
+
+## Medicina
+
+- [`CRONOLOGIA_MED_008_ROMA_BIZANCIO_MEDITERRANEO_TARDIO.md`](CRONOLOGIA_MED_008_ROMA_BIZANCIO_MEDITERRANEO_TARDIO.md) — organización, infraestructura, corpus, hospitales y redes por carriles no heredables — **AUDITADO**.

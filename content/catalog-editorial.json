@@ -84,6 +84,7 @@
     "CIV-001": { "shortTitle": "De aldeas a ciudades y Estados", "status": "TRAZADO", "themes": ["sedentarismo", "urbanismo", "administración"], "featured": true },
     "CIV-002": { "shortTitle": "Cómo fechamos el pasado", "status": "AUDITADO", "themes": ["cronología", "radiocarbono", "arqueometría", "modelado bayesiano"], "featured": true },
     "CIV-003": { "shortTitle": "Asia sudoccidental: trayectorias múltiples", "status": "AUDITADO", "themes": ["Asia sudoccidental", "Neolítico", "urbanismo", "movilidad", "parentesco"], "featured": true },
+    "MED-008": { "shortTitle": "Roma y Bizancio: infraestructura no es resultado", "status": "AUDITADO", "themes": ["historia de la medicina", "Roma", "Bizancio", "medicina militar", "salud urbana", "hospitales", "transmisión"], "featured": true },
     "MED-007": { "shortTitle": "Mediterráneo griego: observar no es demostrar", "status": "AUDITADO", "themes": ["historia de la medicina", "Mediterráneo", "Hipócrates", "pronóstico", "cirugía", "anatomía", "epigrafía"], "featured": true },
     "MED-006": { "shortTitle": "China y Asia oriental: un canon no es una práctica", "status": "AUDITADO", "themes": ["historia de la medicina", "China", "Asia oriental", "manuscritos", "cánones", "farmacopeas", "transmisión"], "featured": true },
     "MED-005": { "shortTitle": "Asia meridional: un corpus no es una fecha", "status": "AUDITADO", "themes": ["historia de la medicina", "Asia meridional", "Ayurveda", "filología", "cirugía", "transmisión"], "featured": true },

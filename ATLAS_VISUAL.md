@@ -1034,3 +1034,33 @@ La salida se inspeccionó completa a resolución original. No contiene personas,
 Las estaciones son utilería editorial contemporánea y no forman una colección histórica. La cercanía entre soportes no demuestra coetaneidad, autoría, circulación, práctica o eficacia. La imagen no reproduce un papiro, inscripción, instrumento, cuerpo o preparación identificable.
 
 Los SVG se construyeron a `1600 × 900`, incluyen `title`, `desc` y tipografía de reserva. La cadena declara cuatro no-herencias y la matriz compara cinco archivos sin puntuarlos. Ninguno acepta datos, diagnostica, recomienda o representa tasas de resultados.
+
+## 63. MED-008 — Infraestructura o título no es cobertura ni resultado
+
+![Portada editorial de MED-008](assets/visuales/hero-med-008-roma-bizancio-mediterraneo-tardio.png)
+
+![Cadena desde vestigio hasta consecuencia](assets/visuales/cadena-vestigio-consecuencia-med-008.svg)
+
+![Matriz de infraestructura, práctica y acceso](assets/visuales/matriz-infraestructura-practica-med-008.svg)
+
+| Archivo | Tipo | Procedencia | Qué representa | Límite obligatorio |
+|---|---|---|---|---|
+| `hero-med-008-roma-bizancio-mediterraneo-tardio.png` | portada editorial conceptual | OpenAI ImageGen, generación nueva, 2026-08-27 | seis estaciones genéricas de plano, agua, instrumentos, códice, traducción y sala asistencial | no excavación, colección, manuscrito, hospital, cobertura o resultado reales |
+| `cadena-vestigio-consecuencia-med-008.svg` | diagrama epistemológico original | SVG manual del proyecto, 2026-08-27 | seis operaciones entre vestigio, identificación, función, operación, acceso y consecuencia | las flechas no heredan uso, cobertura o eficacia |
+| `matriz-infraestructura-practica-med-008.svg` | matriz documental original | SVG manual del proyecto, 2026-08-27 | cinco archivos, inferencias y límites | las filas no forman ranking o genealogía universal |
+
+### Procedencia de la portada
+
+Salida original aprobada sin edición: `C:\Users\HUAWEI\.codex\generated_images\019fedb0-8f24-7e33-8d16-d2418ba3378e\exec-080fd50f-fbe7-4e7a-9534-61a782e3f6e4.png`. Destino: `assets/visuales/hero-med-008-roma-bizancio-mediterraneo-tardio.png`. Dimensiones: `1672 × 941`; tamaño: `2,322,763` bytes; SHA-256: `f974cd2ce6ce6b9026e29f8ead628a98a199a73cc9f10da14f638ae8bd7a4c47`.
+
+**Prompt de generación:**
+
+> Create a wide editorial museum-and-laboratory still life for a rigorous Spanish public history-of-medicine project, 16:9, 1672x941 if supported. Dark obsidian and warm parchment palette with restrained copper, amber and mineral green accents; cinematic museum lighting, precise high-detail realism, no fantasy. Arrange six clearly separated evidence stations from left to right and foreground to background, never merging them into a single historical reconstruction: (1) a generic Roman military fort floor plan incised on an unlabelled parchment fragment, with no readable words; (2) a small cutaway water channel, terracotta pipe fragments and a simple latrine drain sample tray, physically separated; (3) several generic Greco-Roman medical instruments on a conservation tray, not in use, no blood; (4) an open late-antique codex with abstract illegible line patterns only, no real writing; (5) stacked manuscript leaves suggesting Greek, Syriac, Arabic, Hebrew and Latin transmission through different material formats, but absolutely no readable or pseudo-readable letters; (6) a small architectural study model of a Byzantine charitable care ward with beds shown empty, not a real operating hospital. Add catalog tags as blank shapes, cotton conservation gloves, thread and a magnifying lens to signal archival method. No people, no faces, no bodies, no patients, no crosses as dominant symbols, no modern medical equipment, no maps with borders, no logos, no titles, no text, no watermark. Keep generous negative space in upper-left/center for responsive website headline. The image must communicate: infrastructure or title does not equal coverage or clinical outcome. Objects must remain visibly separated and generic so the image is editorial, non-probatory and cannot be mistaken for a photograph of one real excavation or historical room.
+
+### Revisión y límites
+
+La salida se inspeccionó completa a resolución original. No contiene personas, rostros, cuerpos, sangre, procedimientos, mapas políticos, logos o texto legible. El plano, el canal, los instrumentos, el códice, los pliegos y el modelo asistencial están físicamente separados; las etiquetas permanecen vacías.
+
+La escena es utilería editorial contemporánea y no reconstruye una excavación, archivo o institución. La proximidad visual no demuestra coetaneidad, función, operación, acceso, transmisión ni resultado. El modelo de sala no representa el Pantocrátor ni un hospital identificado.
+
+Los SVG se construyeron a `1600 × 900`, incluyen `title`, `desc` y tipografía de reserva. La cadena declara cuatro cortafuegos y la matriz compara cinco archivos sin puntuarlos. Ninguno acepta datos, diagnostica, recomienda o representa tasas.
