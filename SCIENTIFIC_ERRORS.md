@@ -4418,3 +4418,22 @@ Riesgo basal, alternativas y preferencias cambian el balance. **Corrección:** s
 | `ERR-MED-ANAT-BODY-REPRESENTATIVE-001` | los cuerpos disponibles representan a toda población | selección penal, hospitalaria y social introduce sesgo | registrar procedencia y exclusiones | ACTIVO |
 | `ERR-MED-ANAT-CORRECTION-CLINICAL-001` | una corrección espacial implica mejor resultado clínico | mecanismo, técnica, acceso y cointervenciones faltan | evaluar desenlaces con otra cadena | ACTIVO |
 | `ERR-MED-ANAT-RANKING-001` | ordenar culturas por disecciones, imprentas o naturalismo | dimensiones no son equivalentes ni universales | comparar productos y límites sin puntuación | ACTIVO |
+
+## MED-017 — Circulación y fisiología experimental
+
+| ID | Error | Por qué falla | Corrección | Estado |
+|---|---|---|---|---|
+| `ERR-MED-PHYS-LONE-HERO-001` | atribuir una circulación completa a un héroe aislado | mezcla problemas, productos, especies, textos y recepciones | reconstruir la cadena y atribuir cada producto | ACTIVO |
+| `ERR-MED-PHYS-LIGATURE-DISCOVERY-001` | una ligadura descubre por sí sola un circuito | modifica flujo local sin mostrar todas las conexiones | integrar preparación, dirección, cantidad y comparación | ACTIVO |
+| `ERR-MED-PHYS-SYSTEM-OBSERVATION-001` | leer un sistema histórico como observación literal | texto, autoridad y ontología median entidades y causas | separar pasaje, operación e inferencia | ACTIVO |
+| `ERR-MED-PHYS-EXPERIMENT-TRUTH-001` | experimentar garantiza un mecanismo correcto | una intervención válida puede integrarse en un sistema falso | probar predicciones múltiples y alternativas | ACTIVO |
+| `ERR-MED-PHYS-ANIMAL-HUMAN-001` | animal equivale automáticamente a humano | especie, escala, ritmo, preparación y estado cambian | declarar puente comparativo y límite | ACTIVO |
+| `ERR-MED-PHYS-PULSE-MODERN-001` | traducir cada pulso histórico a presión o diagnóstico moderno | cualidades, gestos y clasificaciones no son variables idénticas | conservar vocabulario, operación y validación separada | ACTIVO |
+| `ERR-MED-PHYS-SIMILARITY-TRANSMISSION-001` | semejanza textual demuestra influencia | falta acceso, dirección, intermediario y cronología | exigir una ruta documental positiva | ACTIVO |
+| `ERR-MED-PHYS-VALVE-FUNCTION-001` | la forma de una válvula entrega su función | anatomía estática admite mecanismos rivales | añadir intervención dinámica y predicción | ACTIVO |
+| `ERR-MED-PHYS-NUMBER-EXACTNESS-001` | un número histórico es exacto por ser cuantitativo | unidad, aparato y supuestos determinan su alcance | declarar medición, estimación e incertidumbre | ACTIVO |
+| `ERR-MED-PHYS-MICROSCOPE-NEUTRAL-001` | el microscopio muestra una realidad sin mediación | muestra, lente, luz, secado y dibujo producen lo visible | conservar cadena óptica y controles | ACTIVO |
+| `ERR-MED-PHYS-PRESSURE-DIAGNOSIS-001` | una columna arterial animal equivale a hipertensión clínica | no hay método no invasivo, población, umbral o desenlace | separar medición fisiológica de uso clínico | ACTIVO |
+| `ERR-MED-PHYS-PUBLICATION-CONSENSUS-001` | publicación equivale a aceptación | lectores objetan, seleccionan y recombinan | documentar recepción y réplica | ACTIVO |
+| `ERR-MED-PHYS-MECHANISM-BENEFIT-001` | mecanismo correcto implica beneficio terapéutico | falta intervención, comparador, daño y acceso | evaluar resultado clínico con otra cadena | ACTIVO |
+| `ERR-MED-PHYS-RANKING-001` | ordenar tradiciones por parecido con circulación moderna | archivos y preguntas no comparten una escala universal | comparar operaciones, resolución y límites | ACTIVO |

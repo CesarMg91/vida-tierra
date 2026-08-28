@@ -1013,3 +1013,15 @@ La portada separa registro, muestra, mineral, alimento, navío, herbario y conex
 Salida original aprobada sin edición: `C:\Users\HUAWEI\.codex\generated_images\019fedb0-8f24-7e33-8d16-d2418ba3378e\exec-69af3e69-aaa1-4064-b4d7-9b4a533c738c.png` → `assets/visuales/hero-med-016-anatomia-diseccion-imprenta.png`; tamaño `2,143,433` bytes. El prompt completo y los límites están en `ATLAS_VISUAL.md`, sección 71.
 
 La portada separa acceso regulado, procedimiento, diagrama, impresión, comparación, corrección y tradiciones manuscritas sin mostrar cuerpos ni reproducir páginas reales. Los SVG incluyen `title` y `desc`, preservan las siete capas y no convierten apertura, naturalismo, impresión o circulación en verdad, adopción o resultado clínico.
+
+## MED-017 — Circulación y fisiología experimental
+
+| Archivo | Origen | Dimensiones | SHA-256 / trazabilidad | Límite |
+|---|---|---:|---|---|
+| `hero-med-017-circulacion-fisiologia.png` | OpenAI ImageGen, generación nueva del 2026-08-28 | `1672 × 941` | `9c03f6d543ab16d73a9747667ba34aaf70b4b5f281a792fb5cf04c1f97016f74` | composición conceptual; no experimento, aparato, texto, tradición, cuerpo o acontecimiento reales |
+| `cadena-sistema-experimento-recepcion-med-017.svg` | SVG manual determinista | `1600 × 900` | código fuente versionado | siete capas inferenciales; no herencia automática |
+| `matriz-circulacion-fisiologia-med-017.svg` | SVG manual determinista | `1600 × 900` | código fuente versionado | ocho expedientes y límites; no modernidad, prioridad o ranking |
+
+Salida original aprobada sin edición: `C:\Users\HUAWEI\.codex\generated_images\019fedb0-8f24-7e33-8d16-d2418ba3378e\exec-1791b89c-413e-483e-9554-3536cf41dcb3.png` → `assets/visuales/hero-med-017-circulacion-fisiologia.png`; tamaño `2,127,551` bytes. El prompt completo y los límites están en `ATLAS_VISUAL.md`, sección 72.
+
+La portada separa tradiciones textuales, palpación, ligadura, cantidad, óptica y presión sin mostrar personas, cuerpos o aparatos identificables. Los SVG incluyen `title` y `desc`, preservan las siete capas y no convierten experimento, instrumento, número, publicación o fama en mecanismo completo, exactitud, consenso o resultado clínico.

@@ -1715,3 +1715,30 @@ Cada flecha puede detenerse. Cuerpo no hereda representatividad; corte no hereda
 - `CLAIM-MED-ANAT-NONRANKING-001` impide convertir disección, naturalismo o impresión en escala cultural.
 
 Véase 15_medicina/INVESTIGACION_MED_016_ANATOMIA_DISECCION_IMPRENTA.md, 22_mapas_epistemologicos/MAPA_MED_016_ANATOMIA_DISECCION_IMPRENTA.md, 21_cronologias/CRONOLOGIA_MED_016_ANATOMIA_DISECCION_IMPRENTA.md, assets/visuales/cadena-cuerpo-circulacion-med-016.svg y assets/visuales/matriz-anatomia-imprenta-med-016.svg.
+
+## MED-017 — Circulación y fisiología experimental
+
+### Pregunta
+
+¿Cómo pasa un sistema corporal heredado a sostener un mecanismo circulatorio y una medición reproducible sin convertir una ligadura, una lente, un número o un autor en demostración completa?
+
+### Cadena canónica
+
+`sistema heredado → preparación → intervención → medición → comparación → mecanismo → recepción`
+
+Cada flecha puede detenerse. Sistema no hereda observación; preparación no hereda cuerpo intacto; intervención no hereda mecanismo; medición no hereda exactitud; comparación no hereda generalización; mecanismo no hereda beneficio; recepción no hereda consenso.
+
+### Nodos y enlaces
+
+- Galeno separa experimento arterial, especie, sangre, sistema doble, poros y no circulación cerrada.
+- Ibn al-Nafīs separa comentario, corrección septal, tránsito pulmonar, procedimiento no documentado y transmisión no demostrada.
+- El pulso chino separa tacto, posición, cualidad, clasificación, transmisión y validez contemporánea.
+- Servet, Colombo y Valverde separan publicación, género, anatomía, formulación pulmonar y dependencia entre autores.
+- Las válvulas separan presencia, descripción, imagen, función propuesta y uso experimental posterior.
+- Harvey separa especie, ligadura, dirección, cantidad, convergencia, capilar no visto y recepción transformadora.
+- Malpighi separa rana, transparencia, secado, lente, dibujo, red visible y extrapolación humana.
+- Hales separa yegua, canulación, columna, altura, oscilación, presión y uso clínico posterior.
+- `CLAIM-MED-PHYS-MODEL-001` impide herencia automática entre las siete capas.
+- `CLAIM-MED-PHYS-NONRANKING-001` impide ordenar tradiciones por parecido con una fisiología contemporánea.
+
+Véase 15_medicina/INVESTIGACION_MED_017_CIRCULACION_FISIOLOGIA.md, 22_mapas_epistemologicos/MAPA_MED_017_CIRCULACION_FISIOLOGIA.md, 21_cronologias/CRONOLOGIA_MED_017_CIRCULACION_FISIOLOGIA.md, assets/visuales/cadena-sistema-experimento-recepcion-med-017.svg y assets/visuales/matriz-circulacion-fisiologia-med-017.svg.
