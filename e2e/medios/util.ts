@@ -11,6 +11,21 @@ export function prepararCarpetas(rutas: string[]) {
   for (const r of rutas) fs.mkdirSync(r, { recursive: true });
 }
 
+/** Posición de scroll que deja el elemento justo bajo la cabecera fija. */
+export async function yDeAncla(page: import("@playwright/test").Page, selector: string) {
+  return page.evaluate((sel) => {
+    const el = document.querySelector(sel);
+    if (!el) throw new Error(`no existe el ancla «${sel}»`);
+    const cabecera = document.querySelector(".site-header")?.getBoundingClientRect().height ?? 64;
+    return Math.max(0, el.getBoundingClientRect().top + window.scrollY - cabecera - 8);
+  }, selector);
+}
+
+export async function llevarAncla(page: import("@playwright/test").Page, selector: string) {
+  const y = await yDeAncla(page, selector);
+  await page.evaluate((v) => window.scrollTo(0, v), y);
+}
+
 /** Problemas visuales o pasos que no se pudieron ejecutar, para el reporte. */
 const INCIDENCIAS = path.join(SALIDA, "INCIDENCIAS.log");
 

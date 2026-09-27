@@ -10,7 +10,8 @@ import fs from "node:fs";
 import path from "node:path";
 import { CAPTURAS, CANVAS, type Captura } from "./catalogo";
 import { html } from "./lienzo";
-import { SALIDA, prepararCarpetas, anotarIncidencia } from "./util";
+import { rellenar } from "./cifras.mjs";
+import { SALIDA, prepararCarpetas, anotarIncidencia, llevarAncla } from "./util";
 
 const CRUDAS = path.join(SALIDA, "capturas", "crudas");
 const REDES = path.join(SALIDA, "capturas", "redes");
@@ -29,6 +30,12 @@ for (const pieza of CAPTURAS) {
 
     if (pieza.scroll) {
       await page.evaluate((y) => window.scrollTo(0, y), pieza.scroll);
+    }
+    if (pieza.ancla) {
+      await llevarAncla(page, pieza.ancla);
+    }
+    if (pieza.columna) {
+      await mostrarColumna(page, pieza.columna);
     }
     await page.waitForTimeout(pieza.espera ?? 450);
 
@@ -51,6 +58,23 @@ async function aplicarTema(page: import("@playwright/test").Page, pieza: Captura
   }, valor);
 }
 
+/** Desliza la primera tabla ancha hasta que la columna pedida cierre por la
+ *  derecha: así se ve junto a la anterior, como la vería quien desliza. */
+async function mostrarColumna(page: import("@playwright/test").Page, columna: string) {
+  const ok = await page.evaluate((nombre) => {
+    for (const caja of document.querySelectorAll<HTMLElement>(".table-scroll")) {
+      const th = [...caja.querySelectorAll<HTMLElement>("th")].find(
+        (c) => c.textContent?.trim() === nombre,
+      );
+      if (!th) continue;
+      caja.scrollLeft = th.offsetLeft + th.offsetWidth - caja.clientWidth;
+      return true;
+    }
+    return false;
+  }, columna);
+  if (!ok) throw new Error(`no hay una tabla con la columna «${columna}»`);
+}
+
 /** Fotografía el lienzo HTML con la captura ya dentro. */
 async function montarEnLienzo(
   browser: import("@playwright/test").Browser,
@@ -65,7 +89,8 @@ async function montarEnLienzo(
     hasTouch: false,
   });
   try {
-    await lienzo.setContent(html({ titulo: pieza.titulo, tema: pieza.tema, captura: crudo }), {
+    const opciones = { titulo: rellenar(pieza.titulo), pie: pieza.pie, tema: pieza.tema, captura: crudo };
+    await lienzo.setContent(html(opciones), {
       waitUntil: "load",
     });
     // Las fuentes locales deben estar listas antes del disparo.

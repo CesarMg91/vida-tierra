@@ -715,6 +715,17 @@ svg { stroke-width: 1.7; }
 .doc pre code { padding: 0; border: 0; background: none; font-size: inherit; }
 .doc img { display: block; width: 100%; height: auto; margin: 1.8rem auto; border: 1px solid var(--line); }
 .table-scroll { width: 100%; max-width: 100%; overflow-x: auto; margin: 1.5rem 0; }
+/* Pista de desplazamiento: sombra cobre en el borde que aún esconde tabla.
+   Las capas `local` viajan con el contenido y la tapan al llegar al extremo.
+   Degradados lineales, no radiales: en tablas de miles de filas la elipse
+   radial se estira a toda la altura y la sombra sólo se ve a media tabla. */
+.doc .table-scroll {
+  background:
+    linear-gradient(to right, var(--paper) 40%, transparent) left center / 2.5rem 100% no-repeat local,
+    linear-gradient(to left, var(--paper) 40%, transparent) right center / 2.5rem 100% no-repeat local,
+    linear-gradient(to right, color-mix(in srgb, var(--copper) 45%, transparent), transparent) left center / 0.9rem 100% no-repeat scroll,
+    linear-gradient(to left, color-mix(in srgb, var(--copper) 45%, transparent), transparent) right center / 0.9rem 100% no-repeat scroll;
+}
 .doc table, .doc-fragment table { width: 100%; border-collapse: collapse; margin: 0; font-family: var(--font-plex-sans), Arial, sans-serif; font-size: 0.79rem; line-height: 1.45; }
 .doc thead th, .doc-fragment thead th { background: var(--paper-soft); text-align: left; white-space: nowrap; }
 .doc th, .doc td, .doc-fragment th, .doc-fragment td { min-width: 8rem; padding: 0.5rem 0.6rem; border: 1px solid var(--line); vertical-align: top; }

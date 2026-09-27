@@ -15,7 +15,8 @@ import { execFile } from "node:child_process";
 import { promisify } from "node:util";
 import { VIDEOS, CANVAS, PANTALLA, TELEFONO, type Video } from "./catalogo";
 import { html, htmlMascara, htmlIsla } from "./lienzo";
-import { SALIDA, prepararCarpetas, anotarIncidencia } from "./util";
+import { rellenar } from "./cifras.mjs";
+import { SALIDA, prepararCarpetas, anotarIncidencia, yDeAncla } from "./util";
 
 const ejecutar = promisify(execFile);
 
@@ -72,7 +73,10 @@ async function grabar(browser: import("@playwright/test").Browser, pieza: Video)
       if (!inicio) inicio = (Date.now() - t0) / 1000;
       await page.waitForTimeout(paso.espera ?? 800);
     } else if (paso.tipo === "scroll") {
-      await desplazarSuave(page, paso.a, paso.ms);
+      const base = paso.relativo ? await page.evaluate(() => window.scrollY) : 0;
+      await desplazarSuave(page, base + paso.a, paso.ms);
+    } else if (paso.tipo === "ancla") {
+      await desplazarSuave(page, await yDeAncla(page, paso.selector), paso.ms);
     } else {
       await page.waitForTimeout(paso.ms);
     }
@@ -146,7 +150,7 @@ async function montar(
   });
   try {
     await p.setContent(
-      html({ titulo: pieza.titulo, tema: pieza.tema, captura: null, sinIsla: true }),
+      html({ titulo: rellenar(pieza.titulo), pie: pieza.pie, tema: pieza.tema, captura: null, sinIsla: true }),
       { waitUntil: "load" },
     );
     await p.evaluate(() => document.fonts.ready);

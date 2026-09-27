@@ -1,6 +1,7 @@
 /** Genera INDICE.md a partir del catálogo y de lo que realmente existe en disco. */
 import fs from "node:fs";
 import path from "node:path";
+import { rellenar } from "./cifras.mjs";
 
 export async function escribirIndice(salida) {
   // El catálogo es TypeScript: se lee con el stripper nativo de Node.
@@ -18,13 +19,13 @@ export async function escribirIndice(salida) {
   const filasCapturas = CAPTURAS.map((c) => {
     const red = `capturas/redes/${c.id}.png`;
     const estado = hay(red) ? "✅" : "⚠️ falta";
-    return `| \`${c.id}.png\` | ${c.titulo.replace(/\n/g, " ")} | ${c.muestra} | ${c.tema} | ${estado} ${kb(red)} |`;
+    return `| \`${c.id}.png\` | ${rellenar(c.titulo).replace(/\n/g, " ")} | ${c.muestra} | ${c.tema} | ${estado} ${kb(red)} |`;
   }).join("\n");
 
   const filasVideos = VIDEOS.map((v) => {
     const mp4 = `videos/redes/${v.id}.mp4`;
     const estado = hay(mp4) ? "✅" : "⚠️ falta";
-    return `| \`${v.id}.mp4\` | ${v.titulo.replace(/\n/g, " ")} | ${v.muestra} | ${estado} ${kb(mp4)} |`;
+    return `| \`${v.id}.mp4\` | ${rellenar(v.titulo).replace(/\n/g, " ")} | ${v.muestra} | ${estado} ${kb(mp4)} |`;
   }).join("\n");
 
   const incidencias = path.join(salida, "INCIDENCIAS.log");

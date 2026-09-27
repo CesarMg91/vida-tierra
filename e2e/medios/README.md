@@ -45,6 +45,7 @@ videos/redes/          MP4 H.264 1080x1920 a 30 fps
 | Archivo | Qué hace |
 |---|---|
 | `catalogo.ts` | Única fuente de verdad: pantallas, videos y geometría del lienzo |
+| `cifras.mjs` | Lee las cifras de los registros y rellena los marcadores |
 | `lienzo.ts` | El lienzo 1080x1920 en HTML/CSS: marco de iPhone, título y marca |
 | `capturas.medios.ts` | Captura cada pantalla y la monta en el lienzo |
 | `videos.medios.ts` | Graba los recorridos y los compone con ffmpeg |
@@ -58,6 +59,23 @@ Todo sale de `catalogo.ts`. Añade una entrada a `CAPTURAS` o a `VIDEOS` y
 vuelve a correr `npm run medios`: el índice se actualiza solo.
 
 Los títulos usan `\n` para el salto de línea y no deberían pasar de dos líneas.
+
+Para encuadrar una pantalla, prefiere `ancla` (un selector CSS que queda justo
+bajo la cabecera) a `scroll` en píxeles, que se descuadra en cuanto el sitio
+crece. `columna` desliza la primera tabla ancha hasta una columna: en móvil
+las tablas se deslizan de lado y, sin eso, la letra de confianza queda fuera.
+`pie` añade una línea bajo el teléfono; úsalo para declarar una ilustración
+generada cuando el sitio no la declara a esa anchura.
+
+## Cifras
+
+Ningún número se escribe a mano. Títulos y calendario usan marcadores
+—`{investigaciones}`, `{expedientesMed}`, `{afirmaciones}`, `{evidencias}`,
+`{fuentes}`, `{fuentesConDoi}`, `{controversias}`, `{errores}`— que
+[`cifras.mjs`](cifras.mjs) rellena desde `public/data` y `SOURCES.md` en cada
+corrida. Un marcador desconocido detiene la corrida en vez de publicarse tal
+cual. `run.mjs` recompila el sitio si el build es anterior al último commit,
+para que capturas y cifras hablen del mismo sitio.
 
 ## Reglas de contenido
 
