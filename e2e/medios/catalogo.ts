@@ -3,6 +3,9 @@
  *
  * Una sola fuente de verdad para capturas, videos, INDICE.md y el lienzo.
  * Las rutas son las del sitio público; no hay datos privados que simular.
+ *
+ * Las cifras nunca se escriben a mano: `{investigaciones}`, `{afirmaciones}`,
+ * `{fuentes}`… se rellenan desde los registros con `cifras.mjs`.
  */
 
 export const CANVAS = { ancho: 1080, alto: 1920 } as const;
@@ -30,8 +33,17 @@ export interface Captura {
   /** Qué muestra, para INDICE.md. */
   muestra: string;
   tema: Tema;
+  /** Pie bajo el título. Obligatorio si la pantalla muestra una ilustración
+   *  generada que el sitio no declara a esa anchura. */
+  pie?: string;
   /** Píxeles a desplazar antes de capturar. */
   scroll?: number;
+  /** Selector CSS que se lleva al borde superior, bajo la cabecera fija.
+   *  Más estable que `scroll` cuando el contenido cambia de alto. */
+  ancla?: string;
+  /** Encabezado de una columna de la primera tabla desplazable que debe
+   *  quedar a la vista: en móvil las tablas anchas se deslizan de lado. */
+  columna?: string;
   /** Espera extra en ms para animaciones o mapas. */
   espera?: number;
 }
@@ -59,7 +71,7 @@ export const CAPTURAS: Captura[] = [
   {
     id: "03-explorar",
     ruta: "/explorar",
-    titulo: "55 investigaciones\nauditadas",
+    titulo: "{investigaciones} investigaciones\nauditadas",
     muestra: "Catálogo de investigaciones con filtros",
     tema: "oscuro",
   },
@@ -111,18 +123,20 @@ export const CAPTURAS: Captura[] = [
   {
     id: "10-claims",
     ruta: "/CLAIMS",
-    titulo: "925 afirmaciones,\ncada una con su letra",
-    muestra: "Registro maestro de claims con niveles de confianza A–E",
+    titulo: "{afirmaciones} afirmaciones,\ncada una con su letra",
+    muestra: "Registro maestro de claims con la columna de confianza A–E a la vista",
     tema: "oscuro",
-    scroll: 500,
+    ancla: ".doc .table-scroll",
+    columna: "Confianza",
   },
   {
     id: "11-sources",
     ruta: "/SOURCES",
-    titulo: "1180 fuentes\ncon DOI verificado",
-    muestra: "Registro maestro de fuentes con acceso y límites",
+    titulo: "{fuentes} fuentes,\ncada una con sus límites",
+    muestra: "Registro maestro de fuentes con la columna de limitaciones a la vista",
     tema: "oscuro",
-    scroll: 500,
+    ancla: ".doc .table-scroll",
+    columna: "Limitaciones relevantes",
   },
   {
     id: "12-metodologia",
@@ -161,18 +175,20 @@ export const CAPTURAS: Captura[] = [
     muestra: "Página de metodología y autoría del sitio",
     tema: "oscuro",
   },
-  // Cuatro pantallas clave repetidas en tema claro.
+  // Cuatro pantallas clave repetidas en tema claro. La portada abre con una
+  // imagen oscura en ambos temas: en claro se captura la sección de preguntas.
   {
     id: "17-portada-claro",
     ruta: "/",
-    titulo: "La pregunta que\nordena todo",
-    muestra: "Portada en tema claro",
+    titulo: "Empieza por\nuna pregunta",
+    muestra: "Preguntas destacadas de la portada, en tema claro",
     tema: "claro",
+    ancla: ".home-featured",
   },
   {
     id: "18-explorar-claro",
     ruta: "/explorar",
-    titulo: "55 investigaciones\nauditadas",
+    titulo: "{investigaciones} investigaciones\nauditadas",
     muestra: "Catálogo en tema claro",
     tema: "claro",
   },
@@ -186,10 +202,29 @@ export const CAPTURAS: Captura[] = [
   {
     id: "20-claims-claro",
     ruta: "/CLAIMS",
-    titulo: "925 afirmaciones,\ncada una con su letra",
-    muestra: "Registro de claims en tema claro",
+    titulo: "{afirmaciones} afirmaciones,\ncada una con su letra",
+    muestra: "Registro de claims en tema claro, con la columna de confianza",
     tema: "claro",
-    scroll: 500,
+    ancla: ".doc .table-scroll",
+    columna: "Confianza",
+  },
+  // Línea MED: historia de la medicina.
+  {
+    id: "21-medicina",
+    ruta: "/medicina",
+    titulo: "Historia mundial\nde la medicina",
+    pie: "La imagen de la pantalla es una ilustración generada, no un hospital real.",
+    muestra: "Portada de la línea MED; la ilustración generada va declarada en el pie",
+    tema: "oscuro",
+    espera: 1200,
+  },
+  {
+    id: "22-medicina-cadena",
+    ruta: "/medicina",
+    titulo: "Observado, inferido\ny su límite",
+    muestra: "Laboratorio de MED-019: cada eslabón separa observación, inferencia permitida y límite",
+    tema: "oscuro",
+    ancla: "#hospitales-cabecera-examen .clinical-chain > li",
   },
 ];
 
@@ -198,10 +233,13 @@ export interface Video {
   titulo: string;
   muestra: string;
   tema: Tema;
+  /** Pie bajo el teléfono; igual que en las capturas. */
+  pie?: string;
   /** Pasos del recorrido. Cada uno navega o se desplaza. */
   pasos: Array<
     | { tipo: "ir"; ruta: string; espera?: number }
-    | { tipo: "scroll"; a: number; ms: number }
+    | { tipo: "scroll"; a: number; ms: number; /** Suma a la posición actual. */ relativo?: boolean }
+    | { tipo: "ancla"; selector: string; ms: number }
     | { tipo: "pausa"; ms: number }
   >;
 }
@@ -258,6 +296,20 @@ export const VIDEOS: Video[] = [
       { tipo: "scroll", a: 900, ms: 2400 },
       { tipo: "ir", ruta: "/civilizaciones/comparar", espera: 2000 },
       { tipo: "scroll", a: 800, ms: 2400 },
+      { tipo: "pausa", ms: 1200 },
+    ],
+  },
+  {
+    id: "v5-medicina-archivo-no-es-eficacia",
+    titulo: "Archivo no es\neficacia",
+    pie: "La imagen inicial es una ilustración generada, no un hospital real.",
+    muestra: "Línea MED: de la portada al laboratorio de hospitales y examen clínico",
+    tema: "oscuro",
+    pasos: [
+      { tipo: "ir", ruta: "/medicina", espera: 2000 },
+      { tipo: "scroll", a: 1100, ms: 2400 },
+      { tipo: "ancla", selector: "#hospitales-cabecera-examen", ms: 2400 },
+      { tipo: "scroll", a: 700, ms: 2600, relativo: true },
       { tipo: "pausa", ms: 1200 },
     ],
   },

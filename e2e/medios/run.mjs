@@ -37,13 +37,26 @@ const dormir = (ms) => new Promise((r) => setTimeout(r, ms));
 
 let servidor = null;
 
+/** Un build anterior al último commit fotografiaría un sitio que ya no existe
+ *  (y las cifras del kit, que salen de public/data, no coincidirían). */
+function buildViejo() {
+  const id = path.join(RAIZ, ".next", "BUILD_ID");
+  if (!fs.existsSync(id)) return true;
+  const commit = spawnSync("git", ["log", "-1", "--format=%ct"], { cwd: RAIZ, encoding: "utf8" });
+  const segundos = Number.parseInt(commit.stdout, 10);
+  return Number.isFinite(segundos) && fs.statSync(id).mtimeMs < segundos * 1000;
+}
+
 async function levantar() {
   if (await vivo()) {
     console.log(`medios: reutilizo el servidor en ${URL_BASE}`);
+    if (buildViejo()) {
+      console.warn("medios: AVISO, ese servidor sirve un build anterior al último commit");
+    }
     return;
   }
-  if (!fs.existsSync(path.join(RAIZ, ".next"))) {
-    console.log("medios: no hay build, compilando...");
+  if (buildViejo()) {
+    console.log("medios: el build falta o es anterior al último commit, compilando...");
     const b = spawnSync("npm", ["run", "build"], { cwd: RAIZ, stdio: "inherit", shell: true });
     if (b.status !== 0) process.exit(b.status ?? 1);
   }
@@ -87,9 +100,15 @@ try {
   const { escribirIndice } = await import("./indice.mjs");
   await escribirIndice(SALIDA);
 
+  // El calendario lleva marcadores de cifras: se rellenan desde los registros.
   const plantilla = path.join(AQUI, "PUBLICACIONES.plantilla.md");
   if (fs.existsSync(plantilla)) {
-    fs.copyFileSync(plantilla, path.join(SALIDA, "PUBLICACIONES.md"));
+    const { rellenar } = await import("./cifras.mjs");
+    fs.writeFileSync(
+      path.join(SALIDA, "PUBLICACIONES.md"),
+      rellenar(fs.readFileSync(plantilla, "utf8")),
+      "utf8",
+    );
   }
 
   // La carpeta de trabajo de Playwright no es entregable.

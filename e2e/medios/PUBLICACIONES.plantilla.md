@@ -1,6 +1,7 @@
 # Calendario de publicación — dos semanas
 
-Horarios en hora del centro de México. Audiencia: público curioso de ciencia,
+Horarios en hora del centro de México. Las cifras de este calendario se
+rellenan desde los registros maestros cada vez que se regenera el kit. Audiencia: público curioso de ciencia,
 docentes de secundaria y bachillerato, estudiantes, divulgadores y gente que
 desconfía de la ciencia pero no del razonamiento.
 
@@ -30,9 +31,9 @@ desconfía de la ciencia pero no del razonamiento.
 > reconstruir la edad de la Tierra sin creerle a nadie?
 >
 > Llevo meses construyendo la respuesta. No es un blog: es un registro público
-> donde cada afirmación enlaza con su evidencia, su fuente y su DOI. Y donde
-> cada conclusión lleva una letra de la A a la E según cuánto la sostiene la
-> evidencia.
+> donde cada afirmación enlaza con su evidencia, su fuente y, cuando existe,
+> su DOI. Y donde cada conclusión lleva una letra de la A a la E según cuánto
+> la sostiene la evidencia.
 >
 > Está abierto. Enlace en el perfil.
 
@@ -41,12 +42,13 @@ desconfía de la ciencia pero no del razonamiento.
 **LinkedIn** · 08:00 del martes
 
 > Publico un proyecto en el que he trabajado varios meses: un repositorio
-> público que reconstruye la historia de la Tierra y de la vida desde primeros
-> principios, con la cadena de inferencia visible en cada afirmación.
+> público que reconstruye la historia de la Tierra, de la vida y de la
+> humanidad desde primeros principios, con la cadena de inferencia visible en
+> cada afirmación.
 >
-> 55 investigaciones auditadas, 925 afirmaciones con nivel de confianza
-> explícito y 1 180 fuentes con DOI verificado contra Crossref. Contenido bajo
-> CC BY 4.0.
+> {investigaciones} investigaciones auditadas, {afirmaciones} afirmaciones con
+> nivel de confianza explícito y {fuentes} fuentes; {fuentesConDoi} de ellas
+> enlazan un DOI que se verifica contra Crossref. Contenido bajo CC BY 4.0.
 >
 > La pregunta rectora no es qué dicen los manuales, sino qué observaciones
 > permitirían reconstruir la conclusión sin confiar de entrada en ninguna
@@ -61,11 +63,13 @@ desconfía de la ciencia pero no del razonamiento.
 **Pieza:** `capturas/redes/08-investigacion-001.png` + `09-investigacion-001-mapa.png` (carrusel)
 **Redes:** IG carrusel, Facebook
 
-> La cosa más antigua que puedes sostener con la mano es un cristal de circón
-> de 4 404 millones de años. Doscientas micras.
+> Uno de los materiales terrestres más antiguos que se conocen es un cristal
+> de circón de 4 404 ± 8 millones de años. Unas doscientas micras. Confianza:
+> `B`.
 >
-> Y no sirve para fechar la Tierra. Cuando cristalizó, el planeta ya llevaba
-> unos 163 millones de años existiendo. Nuestro testigo más antiguo llegó tarde.
+> Y no sirve para fechar la Tierra. Cristalizó unos 163 millones de años
+> después de los primeros sólidos del Sistema Solar, cuando el planeta ya se
+> había formado. El testigo terrestre más antiguo llegó tarde.
 >
 > Para fechar la Tierra hubo que salir de la Tierra: meteoritos. Y para poder
 > medirlos, alguien tuvo que construir una habitación más limpia que el planeta.
@@ -76,8 +80,9 @@ desconfía de la ciencia pero no del razonamiento.
 
 **X** · 13:00
 
-> Lo más antiguo que puedes tocar tiene 4 404 millones de años y no sirve para
-> fechar la Tierra: llegó 163 millones de años tarde.
+> Uno de los cristales terrestres más antiguos que se conocen tiene 4 404
+> millones de años y no sirve para fechar la Tierra: cristalizó cuando el
+> planeta ya existía.
 >
 > Para fechar la Tierra hubo que salir de la Tierra.
 
@@ -93,11 +98,13 @@ desconfía de la ciencia pero no del razonamiento.
 > La divulgación normal te dice qué se sabe. Casi nunca te dice cuánto.
 >
 > Aquí cada afirmación lleva una letra. `A` si la evidencia converge desde
-> archivos independientes. `D` si es una hipótesis razonable que no se puede
-> probar todavía.
+> archivos independientes. `D` si hay datos reales pero varias explicaciones
+> siguen siendo defendibles.
 >
-> Ejemplo real del registro: que la Tierra tiene ~4 500 millones de años es `A`.
-> Que Ardipithecus sea nuestro ancestro directo es `D`.
+> Ejemplo real del registro: que la Tierra se formó hace unos 4 500 millones de
+> años es `A`; el valor preciso de 4 540 millones es `B`. Que
+> Ardipithecus, o cualquiera de los primeros homininos, sea nuestro ancestro
+> directo es `D`.
 >
 > Publicar una `D` como `D` no debilita el proyecto. Es el proyecto.
 
@@ -127,6 +134,27 @@ desconfía de la ciencia pero no del razonamiento.
 
 ---
 
+### Martes · 19:30 · Historia de la medicina
+
+**Pieza:** `videos/redes/v5-medicina-archivo-no-es-eficacia.mp4`, y en feed
+`capturas/redes/21-medicina.png` + `22-medicina-cadena.png` (carrusel)
+**Redes:** IG Reels, TikTok, Facebook; el carrusel en IG feed y LinkedIn
+
+> Una tablilla, un papiro o el expediente de un hospital prueban que algo se
+> escribió. No prueban que se hiciera así, ni que funcionara.
+>
+> La nueva línea del proyecto recorre la historia mundial de la medicina, de
+> los huesos y las tablillas a la cabecera del enfermo, separando siempre
+> archivo, práctica y eficacia.
+>
+> {expedientesMed} expedientes auditados. Ninguno da consejo médico.
+>
+> La imagen de portada es una ilustración generada, no un hospital real.
+
+`#historiadelamedicina` `#medicina` `#historia` `#cienciaabierta` `#divulgación` `#pensamientocrítico`
+
+---
+
 ### Miércoles · 13:00 · El error como contenido
 
 **Pieza:** `capturas/redes/12-metodologia.png`
@@ -137,8 +165,8 @@ desconfía de la ciencia pero no del razonamiento.
 >
 > Dio decenas de millones de años. Y estaba mal por dos órdenes de magnitud.
 >
-> Faltaban el calor radiogénico y la convección del manto. Nadie podía saberlo
-> todavía.
+> Faltaban el calor radiogénico, que aún no se había descubierto, y la
+> convección del manto.
 >
 > La lección no es que se equivocaran. Es que una ecuación correcta no salva un
 > modelo con física omitida. El repositorio tiene un registro completo de
@@ -171,14 +199,18 @@ desconfía de la ciencia pero no del razonamiento.
 ### Jueves · 18:00 · Utilidad para docentes
 
 **Pieza:** `capturas/redes/03-explorar.png` + `10-claims.png` + `11-sources.png` (carrusel)
+
+En `10-claims` la tabla está deslizada para que se vea la columna de
+confianza, como la vería quien la desliza en el teléfono.
 **Redes:** IG carrusel, Facebook, LinkedIn
 
 > Si das clase de ciencias, esto es tuyo: licencia CC BY 4.0. Puedes copiarlo,
 > traducirlo, adaptarlo y usarlo en tu salón. Solo hay que dar crédito.
 >
-> 55 investigaciones, 925 afirmaciones con su nivel de confianza, 1 180 fuentes
-> con DOI. Y cada afirmación tiene un identificador que permite recorrer la
-> cadena hacia atrás hasta el dato original.
+> {investigaciones} investigaciones, {afirmaciones} afirmaciones con su nivel
+> de confianza y {fuentes} fuentes con su método y sus límites. Y cada
+> afirmación tiene un identificador que permite recorrer la cadena hacia atrás
+> hasta el dato original.
 >
 > Sirve justamente para enseñar lo que casi nunca se enseña: cómo se sabe, y
 > cuánto se sabe.
@@ -225,12 +257,14 @@ desconfía de la ciencia pero no del razonamiento.
 | 1 cada 15 días | Publicación larga en LinkedIn | Un error documentado de `SCIENTIFIC_ERRORS.md` |
 | Al publicar investigación | Todos los formatos | El expediente nuevo, con su letra de confianza |
 
-El repositorio tiene 428 controversias y 478 errores documentados. Eso son
+El repositorio tiene {controversias} controversias y {errores} errores documentados. Eso son
 años de contenido que no hay que inventar: solo hay que traducirlo a vertical.
 
 ## Lo que NO se publica
 
 - Cifras sin su margen ni su letra.
+- Nada que pueda leerse como consejo médico: la línea MED es historia y
+  método, no consulta.
 - Ilustraciones generadas sin declarar que lo son.
 - Comparaciones entre civilizaciones que sugieran ranking o superioridad.
 - Nada que prometa que el proyecto "demuestra" o "prueba definitivamente".

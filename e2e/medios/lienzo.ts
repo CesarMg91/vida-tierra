@@ -127,8 +127,9 @@ body{width:${CANVAS.ancho}px;height:${CANVAS.alto}px;overflow:hidden;
 .titulo{position:absolute;left:78px;right:78px;top:96px;
   font-family:'Serif4',Georgia,serif;font-weight:600;font-size:74px;line-height:1.1;
   letter-spacing:-.4px;text-wrap:balance}
-.pie{position:absolute;left:78px;right:78px;top:${96 + 74 * 1.1 * 2 + 18}px;
-  font-size:27px;line-height:1.35;color:${c.tenue}}
+/* Entre el teléfono y la marca: arriba no cabe junto a dos líneas de título. */
+.pie{position:absolute;left:60px;right:60px;top:${PANTALLA.y + PANTALLA.alto + 14 + 12}px;
+  font-size:22px;line-height:1.2;color:${c.tenue};text-align:center;white-space:nowrap}
 
 /* Marco de iPhone dibujado, no pegado. */
 .telefono{position:absolute;
