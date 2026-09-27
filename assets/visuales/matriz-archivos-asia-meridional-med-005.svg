@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Matriz de archivos médicos de Asia meridional</title>
+  <desc id="desc">Comparación entre dientes de Mehrgarh, capas de Caraka, manuscrito KL 699 de Suśruta, Manuscrito Bower, edicto de Aśoka, edificio de Kumrahār e inscripción de Tirumukkūḍal. Cada archivo sostiene un producto distinto y no hereda continuidad o eficacia.</desc>
+  <rect width="1600" height="900" fill="#f1e7d2"/>
+  <text x="70" y="80" fill="#8b522f" font-family="Georgia,serif" font-size="24" letter-spacing="4">MED-005 · MATRIZ DE ARCHIVOS</text>
+  <text x="70" y="137" fill="#201d18" font-family="Georgia,serif" font-size="46">La antigüedad cambia según el archivo comparado</text>
+  <text x="70" y="180" fill="#5b564d" font-family="Arial,sans-serif" font-size="22">Objeto, corpus, red e institución no compiten por una sola fecha de nacimiento.</text>
+
+  <g font-family="Arial,sans-serif">
+    <rect x="70" y="225" width="1460" height="64" rx="12" fill="#222923"/>
+    <text x="95" y="266" fill="#f5ead7" font-size="19" font-weight="700">ARCHIVO</text>
+    <text x="385" y="266" fill="#f5ead7" font-size="19" font-weight="700">OBSERVA CON FUERZA</text>
+    <text x="830" y="266" fill="#f5ead7" font-size="19" font-weight="700">INFERENCIA PERMITIDA</text>
+    <text x="1210" y="266" fill="#f5ead7" font-size="19" font-weight="700">NO HEREDA</text>
+
+    <g font-size="18">
+      <g transform="translate(70 301)">
+        <rect width="1460" height="68" rx="9" fill="#fffaf0"/>
+        <text x="25" y="29" fill="#8b522f" font-weight="700">Mehrgarh · dientes</text><text x="25" y="52" fill="#5b564d">desgaste y perforación</text>
+        <text x="315" y="41" fill="#29251f">modificación dental <tspan font-style="italic">in vivo</tspan></text>
+        <text x="760" y="41" fill="#29251f">intervención situada</text>
+        <text x="1140" y="41" fill="#7a3e30">Ayurveda · oficio · motivo</text>
+      </g>
+      <g transform="translate(70 379)">
+        <rect width="1460" height="68" rx="9" fill="#e4ece3"/>
+        <text x="25" y="29" fill="#386557" font-weight="700">Caraka · capas</text><text x="25" y="52" fill="#526058">colofones y variantes</text>
+        <text x="315" y="41" fill="#243029">historia editorial multietapa</text>
+        <text x="760" y="41" fill="#243029">intervalos filológicos</text>
+        <text x="1140" y="41" fill="#7a3e30">autor y año únicos</text>
+      </g>
+      <g transform="translate(70 457)">
+        <rect width="1460" height="68" rx="9" fill="#fffaf0"/>
+        <text x="25" y="29" fill="#8b522f" font-weight="700">Suśruta · KL 699</text><text x="25" y="52" fill="#5b564d">hoja de palma · 878</text>
+        <text x="315" y="41" fill="#29251f">recensión nepalesa temprana</text>
+        <text x="760" y="41" fill="#29251f">lecturas y cambios textuales</text>
+        <text x="1140" y="41" fill="#7a3e30">fecha de cada pasaje</text>
+      </g>
+      <g transform="translate(70 535)">
+        <rect width="1460" height="68" rx="9" fill="#e4ece3"/>
+        <text x="25" y="29" fill="#386557" font-weight="700">Bower · manuscrito</text><text x="25" y="52" fill="#526058">Kucha · ca. 500–550</text>
+        <text x="315" y="41" fill="#243029">medicina sánscrita en Asia Central</text>
+        <text x="760" y="41" fill="#243029">circulación material</text>
+        <text x="1140" y="41" fill="#7a3e30">centro único · uso general</text>
+      </g>
+      <g transform="translate(70 613)">
+        <rect width="1460" height="68" rx="9" fill="#fffaf0"/>
+        <text x="25" y="29" fill="#8b522f" font-weight="700">Aśoka · edicto</text><text x="25" y="52" fill="#5b564d">tratamiento y recursos</text>
+        <text x="315" y="41" fill="#29251f">política real promulgada</text>
+        <text x="760" y="41" fill="#29251f">programa administrativo</text>
+        <text x="1140" y="41" fill="#7a3e30">hospitales · ejecución</text>
+      </g>
+      <g transform="translate(70 691)">
+        <rect width="1460" height="68" rx="9" fill="#e4ece3"/>
+        <text x="25" y="29" fill="#386557" font-weight="700">Kumrahār · edificio</text><text x="25" y="52" fill="#526058">sellos de ārogyavihāra</text>
+        <text x="315" y="41" fill="#243029">instalación médica probable</text>
+        <text x="760" y="41" fill="#243029">función monástica local</text>
+        <text x="1140" y="41" fill="#7a3e30">capacidad · resultados</text>
+      </g>
+      <g transform="translate(70 769)">
+        <rect width="1460" height="68" rx="9" fill="#fffaf0"/>
+        <text x="25" y="29" fill="#8b522f" font-weight="700">Tirumukkūḍal · dotación</text><text x="25" y="52" fill="#5b564d">15 camas y personal</text>
+        <text x="315" y="41" fill="#29251f">institución financiada</text>
+        <text x="760" y="41" fill="#29251f">división local de trabajo</text>
+        <text x="1140" y="41" fill="#7a3e30">sistema regional · eficacia</text>
+      </g>
+    </g>
+  </g>
+  <text x="70" y="868" fill="#5b564d" font-family="Arial,sans-serif" font-size="19">Comparar archivos cambia la pregunta; nunca produce un ranking universal de antigüedad o avance.</text>
+</svg>

@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Matriz de expedientes de circulación y fisiología</title>
+  <desc id="desc">Ocho expedientes comparados por archivo, operación, producto y límite. La tabla evita ordenar culturas o descubridores.</desc>
+  <defs><linearGradient id="bg2" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#eee0c0"/><stop offset="1" stop-color="#d6c090"/></linearGradient></defs>
+  <rect width="1600" height="900" fill="url(#bg2)"/>
+  <rect x="58" y="48" width="1484" height="804" rx="28" fill="#f8efd9" stroke="#7a4f2d" stroke-width="2"/>
+  <text x="92" y="102" fill="#8b552d" font-family="Arial, sans-serif" font-size="20" font-weight="700" letter-spacing="4">MED-017 · MATRIZ DE RESOLUCIÓN</text>
+  <text x="92" y="153" fill="#20221f" font-family="Georgia, serif" font-size="44" font-weight="700">Ocho archivos, ocho productos, ningún podio</text>
+  <text x="92" y="191" fill="#5a554a" font-family="Arial, sans-serif" font-size="20">Se compara qué operación resuelve cada expediente y dónde debe detenerse la inferencia.</text>
+
+  <g font-family="Arial, sans-serif">
+    <rect x="92" y="228" width="1416" height="58" rx="10" fill="#243c33"/>
+    <g fill="#f6edd9" font-size="18" font-weight="700"><text x="112" y="264">EXPEDIENTE</text><text x="372" y="264">ARCHIVO / PREPARACIÓN</text><text x="750" y="264">PRODUCTO RESUELTO</text><text x="1122" y="264">LÍMITE</text></g>
+
+    <g font-size="17">
+      <g transform="translate(0 298)"><rect x="92" width="1416" height="62" fill="#fffaf0"/><text x="112" y="26" fill="#7a4f2d" font-weight="700">Galeno</text><text x="112" y="49" fill="#5a554a">siglo II</text><text x="372" y="38" fill="#252722">animal · ligadura · tratado</text><text x="750" y="38" fill="#252722">sangre en arterias</text><text x="1122" y="38" fill="#7b3d31">no circulación cerrada</text></g>
+      <g transform="translate(0 360)"><rect x="92" width="1416" height="62" fill="#efe2c5"/><text x="112" y="26" fill="#7a4f2d" font-weight="700">Ibn al-Nafīs</text><text x="112" y="49" fill="#5a554a">siglo XIII</text><text x="372" y="38" fill="#252722">comentario · crítica anatómica</text><text x="750" y="38" fill="#252722">tránsito pulmonar sin poros</text><text x="1122" y="38" fill="#7b3d31">no influencia latina probada</text></g>
+      <g transform="translate(0 422)"><rect x="92" width="1416" height="62" fill="#fffaf0"/><text x="112" y="26" fill="#7a4f2d" font-weight="700">Pulso chino</text><text x="112" y="49" fill="#5a554a">antigüedad–Ming</text><text x="372" y="38" fill="#252722">tacto · casos · versos</text><text x="750" y="38" fill="#252722">fenomenología y clasificación</text><text x="1122" y="38" fill="#7b3d31">no presión ni circuito moderno</text></g>
+      <g transform="translate(0 484)"><rect x="92" width="1416" height="62" fill="#efe2c5"/><text x="112" y="26" fill="#7a4f2d" font-weight="700">Pulmón latino</text><text x="112" y="49" fill="#5a554a">1553–1559</text><text x="372" y="38" fill="#252722">teología · anatomía · impreso</text><text x="750" y="38" fill="#252722">ruta derecha–pulmón–izquierda</text><text x="1122" y="38" fill="#7b3d31">no dependencia ni sistema total</text></g>
+      <g transform="translate(0 546)"><rect x="92" width="1416" height="62" fill="#fffaf0"/><text x="112" y="26" fill="#7a4f2d" font-weight="700">Válvulas</text><text x="112" y="49" fill="#5a554a">1545–1603</text><text x="372" y="38" fill="#252722">disección · imagen · demostración</text><text x="750" y="38" fill="#252722">estructura y orientación</text><text x="1122" y="38" fill="#7b3d31">forma no fija función</text></g>
+      <g transform="translate(0 608)"><rect x="92" width="1416" height="62" fill="#efe2c5"/><text x="112" y="26" fill="#7a4f2d" font-weight="700">Harvey</text><text x="112" y="49" fill="#5a554a">1616–1628</text><text x="372" y="38" fill="#252722">especies · ligadura · balance</text><text x="750" y="38" fill="#252722">recirculación sistémica</text><text x="1122" y="38" fill="#7b3d31">capilares y secuencia no vistos</text></g>
+      <g transform="translate(0 670)"><rect x="92" width="1416" height="62" fill="#fffaf0"/><text x="112" y="26" fill="#7a4f2d" font-weight="700">Malpighi</text><text x="112" y="49" fill="#5a554a">1660–1661</text><text x="372" y="38" fill="#252722">rana · secado · aumento</text><text x="750" y="38" fill="#252722">red capilar pulmonar</text><text x="1122" y="38" fill="#7b3d31">no fisiología humana total</text></g>
+      <g transform="translate(0 732)"><rect x="92" width="1416" height="62" fill="#efe2c5"/><text x="112" y="26" fill="#7a4f2d" font-weight="700">Hales</text><text x="112" y="49" fill="#5a554a">1733</text><text x="372" y="38" fill="#252722">yegua · cánula · columna</text><text x="750" y="38" fill="#252722">presión y oscilación</text><text x="1122" y="38" fill="#7b3d31">no diagnóstico ni tratamiento</text></g>
+    </g>
+  </g>
+  <text x="92" y="830" fill="#38604e" font-family="Arial, sans-serif" font-size="17" font-weight="700">OBSERVADO → INFERENCIA PERMITIDA → LÍMITE → FUENTE</text>
+  <text x="1508" y="830" fill="#6f685c" text-anchor="end" font-family="Arial, sans-serif" font-size="15">Tabla accesible equivalente en MED-017</text>
+</svg>

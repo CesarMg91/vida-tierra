@@ -1381,3 +1381,394 @@ Shakhi Kora            → centralización reversible
 Por CIV-003 pasan a `AUDITADO` cinco claims exactos antes trazados: secuencia no universal, sedentarismo antes de agricultura, almacenamiento antes de domesticación, urbanismo multipolar y tablilla administrativa con alcance limitado. CIV-001 no cambia de estado.
 
 Véase `INV-CIV-SWASIA-001`, `MAPA_CIV_003_ASIA_SUDOCCIDENTAL.md`, `CRONOLOGIA_CIV_003_ASIA_SUDOCCIDENTAL.md`, `carriles-asia-sudoccidental-civ-003.svg` y `cadena-sitio-region-civ-003.svg`.
+
+### MED-001 — De la intervención a un efecto aplicable
+
+```text
+P + I + C + O + tiempo + estimando
+                ↓
+         protocolo / registro
+                ↓
+    asignación → seguimiento → resultado
+                ↓
+      estimación + riesgo de sesgo
+                ↓
+       síntesis + certeza por desenlace
+                ↓
+       población y sistema objetivo
+                ↓
+     efectos + daños + carga + valores
+                ↓
+          decisión clínica situada
+```
+
+Cortafuegos principales: `pre–post ≠ efecto`, `reportado ≠ válido`, `marcador ≠ beneficio`, `no significativo ≠ equivalente`, `sin señal de daño ≠ seguro`, `promedio ≠ individuo`.
+
+En cirugía, técnica, operador, equipo, centro, aprendizaje y cuidados concomitantes entran como dependencias medibles. CAST prueba la ruptura sustituto–desenlace; FIDELITY prueba la ruptura mejoría–componente específico. Ningún caso se exporta fuera de su población y comparador sin un puente.
+
+Véase `INV-MED-INTERVENTIONS-001`, `MAPA_MED_001_INTERVENCIONES.md`, `CRONOLOGIA_MED_001_EVIDENCIA_CLINICA.md`, `cadena-pregunta-decision-med-001.svg` y `matriz-evidencia-intervenciones-med-001.svg`.
+### MED-002 - De una señal a una consecuencia
+
+```text
+población + uso previsto + condición objetivo
+                   ↓
+       prueba índice + umbral
+                   ↓
+    referencia + verificación + flujo
+                   ↓
+ exactitud / calibración / incertidumbre
+                   ↓
+ probabilidad o clasificación contextual
+                   ↓
+       acción frente a comparador
+                   ↓
+ beneficios + daños + carga + recursos
+                   ↓
+         desenlace para pacientes
+```
+
+Cortafuegos principales: `detección ? diagnóstico`, `exactitud ? utilidad`, `AUC ? calibración`, `diagnóstico temprano ? beneficio`, `referencia ? verdad perfecta`, `validación interna ? transporte`.
+
+RIFT conserva sexo, umbral y tasa de fallo; ADJUST-PE conserva la estrategia secuencial; PROPER compara rutas; UKCTOCS separa cambio de estadio y mortalidad. Los cuatro son expedientes metódicos, no protocolos ni recomendaciones actuales.
+
+Para modelos e IA:
+
+```text
+desarrollo → validación externa → impacto prospectivo → vigilancia
+    ───────── ninguna flecha se hereda automáticamente ─────────
+```
+
+Véase `INV-MED-DIAGNOSTICS-001`, `MAPA_MED_002_PRUEBAS_DIAGNOSTICAS.md`, `CRONOLOGIA_MED_002_PRUEBAS_DIAGNOSTICAS.md`, `cadena-prueba-decision-med-002.svg` y `matriz-pruebas-diagnosticas-med-002.svg`.
+
+### MED-003 — Del archivo superviviente al sistema médico
+
+~~~text
+espécimen / testimonio
+          ↓
+contexto + fecha + asociación
+          ↓
+huella observada
+          ↓
+diferencial + comparación
+          ↓
+conducta posible
+          ↓
+sistema médico histórico
+~~~
+
+Cada flecha puede romperse. Los cortafuegos principales son: lesión ≠ diagnóstico; remodelación ≠ tratamiento eficaz; asistencia ≠ motivo; defecto ≠ operación; ADN patógeno ≠ síntomas, muerte, prevalencia u origen; residuo ≠ automedicación; texto ≠ práctica; primero documentado ≠ nacimiento de la medicina.
+
+Man Bac modela dependencia y asistencia; Liang Tebo conserva un desacuerdo diagnóstico; las trepanaciones separan modificación, supervivencia e indicación; cálculo, paleofeces y ADN antiguo separan exposición, presencia molecular y escala poblacional; los textos añaden voces sin volverse expedientes clínicos transparentes.
+
+Véase 15_medicina/INVESTIGACION_MED_003_ORIGENES_ARCHIVO_CUIDADO.md, 22_mapas_epistemologicos/MAPA_MED_003_ORIGENES_MEDICINA.md, 21_cronologias/CRONOLOGIA_MED_003_ORIGENES_MEDICINA.md, assets/visuales/cadena-archivo-sistema-med-003.svg y assets/visuales/matriz-huellas-inferencias-med-003.svg.
+
+
+### MED-004 — Del documento a la práctica
+
+```text
+objeto conservado
+        ↓
+lectura + restauración
+        ↓
+género documental
+        ↓
+circulación + acceso
+        ↓
+práctica situada
+        ↓
+consecuencia observada
+```
+
+Los cortafuegos principales son: copia ≠ composición; receta ≠ uso; uso ≠ efecto; título ≠ profesión moderna; norma ≠ aplicación; ausencia laboral ≠ diagnóstico; cuerpo ≠ tratamiento; semejanza ≠ transmisión; primero conservado ≠ invención.
+
+Nínive sostiene corpus y técnica escrita, Sakikkû clasificación histórica, Hammurabi norma jerárquica, Edwin Smith estructura de caso, Lahun salud reproductiva documentada y Deir el-Medina práctica situada. Ninguno hereda cobertura o eficacia.
+
+Véase 15_medicina/INVESTIGACION_MED_004_MESOPOTAMIA_VALLE_NILO.md, 22_mapas_epistemologicos/MAPA_MED_004_MESOPOTAMIA_NILO.md, 21_cronologias/CRONOLOGIA_MED_004_MESOPOTAMIA_NILO.md, assets/visuales/cadena-documento-practica-med-004.svg y assets/visuales/matriz-archivos-med-004.svg.
+
+### MED-005 — Un corpus no es una fecha
+
+```text
+testimonio material
+        ↓
+lectura + observación
+        ↓
+estrato + cronología
+        ↓
+circulación + traducción
+        ↓
+práctica situada
+        ↓
+consecuencia observada
+```
+
+Los cortafuegos principales son: cuerpo ≠ diagnóstico textual; copia ≠ composición; nombre tradicional ≠ biografía fechada; descripción ≠ ejecución; política ≠ institución; nombre de planta ≠ especie o formulación; antigüedad ≠ eficacia; semejanza ≠ transmisión; ausencia del canon ≠ ausencia de cuidado.
+
+Mehrgarh sostiene modificación dental, Caraka y Suśruta historias editoriales por capas, KL 699 una copia de 878, Bower circulación centroasiática, Aśoka una política promulgada, Kumrahār una instalación probable y Tirumukkūḍal una institución local dotada. Ninguno hereda por sí solo continuidad, cobertura o efecto.
+
+Véase 15_medicina/INVESTIGACION_MED_005_ASIA_MERIDIONAL_AYURVEDA_TRANSMISIONES.md, 22_mapas_epistemologicos/MAPA_MED_005_ASIA_MERIDIONAL.md, 21_cronologias/CRONOLOGIA_MED_005_ASIA_MERIDIONAL.md, assets/visuales/cadena-testimonio-practica-med-005.svg y assets/visuales/matriz-archivos-asia-meridional-med-005.svg.
+
+### MED-006 — Un canon no es una práctica uniforme
+
+```text
+testigo material
+        ↓
+lectura + transcripción
+        ↓
+estrato + recensión
+        ↓
+operación formulada
+        ↓
+institución + circulación
+        ↓
+consecuencia observada
+```
+
+Los cortafuegos principales son: aflicción escrita ≠ diagnóstico moderno; voz de autoridad ≠ autor fechado; fecha de tumba ≠ fecha de composición; vaso temprano ≠ meridiano tardío idéntico; línea corporal ≠ técnica ejecutada; canon ≠ práctica uniforme; farmacopea ≠ abastecimiento; tacto clasificado ≠ exactitud diagnóstica; antigüedad ≠ eficacia.
+
+Mawangdui y Zhangjiashan sostienen repertorios tempranos y variantes; Tianhui sostiene canales, punción y una figurilla sin cerrar autoría o función; Wuwei sostiene escritura técnica local; Dunhuang una biblioteca heterogénea; el modelo Song una estandarización didáctica; *Ishinpō* y *Donguibogam* selecciones regionales transformadoras. Ninguno hereda por sí solo cobertura o resultado.
+
+Véase 15_medicina/INVESTIGACION_MED_006_CHINA_ASIA_ORIENTAL_CANONES_PRACTICAS.md, 22_mapas_epistemologicos/MAPA_MED_006_CHINA_ASIA_ORIENTAL.md, 21_cronologias/CRONOLOGIA_MED_006_CHINA_ASIA_ORIENTAL.md, assets/visuales/cadena-testigo-resultado-med-006.svg y assets/visuales/matriz-canones-practicas-med-006.svg.
+### MED-007 — Observación escrita no es resultado clínico
+
+```text
+testimonio
+        ↓
+lectura + variante
+        ↓
+género + voz
+        ↓
+operación formulada
+        ↓
+institución + circulación
+        ↓
+consecuencia observada
+```
+
+Los cortafuegos principales son: Hipócrates ≠ corpus; corpus ≠ doctrina única; Cos/Cnido ≠ facultades modernas; caso ≠ cohorte; observación ≠ neutralidad; pronóstico ≠ exactitud validada; instrucción quirúrgica ≠ ejecución; Juramento ≠ licencia universal; *iama* ≠ desenlace consecutivo; decreto ≠ cobertura; disección ≠ efecto; testimonio tardío ≠ vivisección cierta; contacto ≠ préstamo; racionalidad ≠ eficacia.
+
+El corpus sostiene pluralidad escrita; *Epidemias*, formas de curso y pronóstico; los tratados quirúrgicos, operaciones formuladas; Epidauro, memoria votiva pública; los decretos, contratación cívica local; y Alejandría, una ventana excepcional de anatomía humana reconstruida. Ninguno hereda por sí solo práctica uniforme, resultado o superioridad.
+
+Véase 15_medicina/INVESTIGACION_MED_007_MEDITERRANEO_GRIEGO_HELENISTICO.md, 22_mapas_epistemologicos/MAPA_MED_007_MEDITERRANEO_GRIEGO_HELENISTICO.md, 21_cronologias/CRONOLOGIA_MED_007_MEDITERRANEO_GRIEGO_HELENISTICO.md, assets/visuales/cadena-testimonio-consecuencia-med-007.svg y assets/visuales/matriz-archivos-mediterraneo-med-007.svg.
+
+### MED-008 — Infraestructura o título no es cobertura ni resultado
+
+```text
+vestigio
+  ↓ identificación
+función
+  ↓ operación documentada
+acceso
+  ↓ archivo de desenlace
+consecuencia
+```
+
+Los cortafuegos principales son: valetudinarium ≠ hospital moderno; edificio ≠ operación; cargo ≠ sistema; instrumento ≠ procedimiento; acueducto ≠ salud poblacional; parásito presente ≠ prevalencia imperial; Galeno ≠ medicina romana; animal ≠ humano; corpus influyente ≠ verdad; compilación ≠ copia pasiva; xenon ≠ institución uniforme; typikon ≠ jornada ejecutada; transmisión ≠ flecha lineal; autoridad ≠ eficacia.
+
+Los fuertes y las inscripciones sostienen organización militar situada; la infraestructura urbana, capacidad y flujos; la paleoparasitología, transmisión persistente; hogares y género, actores subrepresentados; Galeno, práctica narrada y recepción; los compiladores, transformación editorial; los xenones y el Pantocrátor, instituciones con funciones y normas concretas. Ningún archivo hereda por sí solo cobertura universal, resultado o superioridad.
+
+Véase 15_medicina/INVESTIGACION_MED_008_ROMA_BIZANCIO_MEDITERRANEO_TARDIO.md, 22_mapas_epistemologicos/MAPA_MED_008_ROMA_BIZANCIO_MEDITERRANEO_TARDIO.md, 21_cronologias/CRONOLOGIA_MED_008_ROMA_BIZANCIO_MEDITERRANEO_TARDIO.md, assets/visuales/cadena-vestigio-consecuencia-med-008.svg y assets/visuales/matriz-infraestructura-practica-med-008.svg.
+
+### MED-009 — Silencio documental no es ausencia de cuidado
+
+```text
+archivo
+  ↓ procedencia
+señal
+  ↓ inferencia explícita
+contraste
+  ↓ frontera de población, práctica y tiempo
+límite
+```
+
+Los cortafuegos principales son: África ≠ una tradición; ausencia de texto ≠ ausencia de cuidado; esqueleto ≠ población viva; patología ≠ diagnóstico; remodelación ≠ tratamiento; supervivencia ≠ cuidador identificado; ADN ≠ experiencia social; monumento ≠ sistema médico; manuscrito tardío ≠ Aksum; ciudad ≠ hospital; número de manuscritos ≠ antigüedad; tradición oral ≠ grabación literal; etnografía ≠ fósil; residuo ≠ planta, indicación o eficacia.
+
+Kerma conserva lesión y supervivencia; Kulubnarti muestra corrección multiarquivo; Aksum, preservación corporal desigual; Jenne-jeno, urbanismo sin herencia médica; Tombuctú, repertorio escrito sin práctica automática; Tong Hills, función probable mediante convergencia sin identidad o efecto heredados.
+
+Véase 15_medicina/INVESTIGACION_MED_009_AFRICA_FUERA_EJE_EGIPCIO.md, 22_mapas_epistemologicos/MAPA_MED_009_AFRICA_FUERA_EJE_EGIPCIO.md, 21_cronologias/CRONOLOGIA_MED_009_AFRICA_FUERA_EJE_EGIPCIO.md, assets/visuales/cadena-archivo-limite-med-009.svg y assets/visuales/matriz-archivos-africa-med-009.svg.
+
+### MED-010 — Una huella no hereda una historia clínica
+
+```text
+archivo
+  ↓ procedencia + denominador
+señal
+  ↓ diferencial + controles
+práctica inferida
+  ↓ temporalidad + comparación
+consecuencia observada
+  ↓ población + daño + dato ausente
+límite
+```
+
+Los cortafuegos principales son: Américas ≠ una tradición; abertura ≠ indicación; remodelación ≠ beneficio funcional; porcentaje osteológico ≠ tasa clínica; diente modificado ≠ terapia; molécula ≠ intención; propiedad farmacológica ≠ efecto in vivo; microresto ≠ medicamento; una persona ≠ tradición; coprolito ≠ farmacopea; receta ≠ ejecución; códice colonial ≠ voz precontacto transparente; traducción ≠ equivalencia; co-producción ≠ simetría de poder; continuidad ≠ identidad inmóvil; técnica ≠ superioridad.
+
+Cuzco conserva intervención y supervivencia frecuente sin historia clínica completa; los dientes mayas, técnica, material y un control patológico adversario; Huaca El Paraíso, contacto vegetal individual; Piauí, convergencia entre parásitos y uso medicinal probable; el Libellus y el Códice Florentino, agencia nahua bajo producción colonial situada.
+
+Véase 15_medicina/INVESTIGACION_MED_010_MESOAMERICA_ANDES_AMERICAS.md, 22_mapas_epistemologicos/MAPA_MED_010_MESOAMERICA_ANDES_AMERICAS.md, 21_cronologias/CRONOLOGIA_MED_010_MESOAMERICA_ANDES_AMERICAS.md, assets/visuales/cadena-archivo-consecuencia-med-010.svg y assets/visuales/matriz-archivos-americas-med-010.svg.
+
+## MED-011 — mundos islámicos
+
+`testigo → versión → operación → institución → alcance → consecuencia`
+
+- `INV-MED-ISLAMIC-WORLDS-001` integra seis redes auditadas sin una “edad de oro” homogénea.
+- Traducción enlaza `CLAIM-MED-ISLAMIC-TRANSLATION-001` con `EVID-MED-ISLAMIC-TRANSLATION-RISALA-001` y `EVID-MED-ISLAMIC-GALEN-VERSION-001`.
+- Observación y canon enlazan casos de al-Razi, reglas de Ibn Sina y comentarios sin heredar cohorte o ensayo.
+- Óptica y oftalmología separan experimento, técnica propuesta y desenlace.
+- Bimaristanes separan `waqf`, operación, acceso y resultado; Gundeshapur funciona como control adversario.
+- Geniza, formularios e `hisba` separan prescripción, dispensación, norma y cumplimiento.
+- `CLAIM-MED-ISLAMIC-EFFICACY-001` impide que circulación o antigüedad sustituyan efecto medido.
+
+Véase 15_medicina/INVESTIGACION_MED_011_MUNDOS_ISLAMICOS.md, 22_mapas_epistemologicos/MAPA_MED_011_MUNDOS_ISLAMICOS.md, 21_cronologias/CRONOLOGIA_MED_011_MUNDOS_ISLAMICOS.md, assets/visuales/cadena-testigo-consecuencia-med-011.svg y assets/visuales/matriz-redes-medicina-med-011.svg.
+
+## MED-012 — Europa medieval y tradiciones judías
+
+`testigo → versión → currículo → practicante → encuentro → alcance`
+
+- `INV-MED-MEDIEVAL-EUROPE-JEWISH-001` integra seis archivos sin una Europa o medicina judía homogéneas.
+- Códices enlazan `CLAIM-MED-MEDIEVAL-MONASTIC-MIXED-001` con practicabilidad y cuidado doméstico sin heredar uso.
+- Trotula separa conjunto, Trota, participación femenina y voz de pacientes.
+- Traducciones separan fuente, versión, lengua, identidad y recepción.
+- Articella, universidad y licencia separan currículo, autorización, práctica y monopolio.
+- Cirugía y hospital separan texto, elección, caridad, operación y desenlace.
+- Archivos judíos separan identidad, aprendizaje, contrato, restricción y representatividad.
+- `CLAIM-MED-MEDIEVAL-ENCOUNTER-OUTCOME-001` impide que autoridad o circulación sustituyan efecto.
+
+Véase 15_medicina/INVESTIGACION_MED_012_EUROPA_MEDIEVAL_TRADICIONES_JUDIAS.md, 22_mapas_epistemologicos/MAPA_MED_012_EUROPA_MEDIEVAL_TRADICIONES_JUDIAS.md, 21_cronologias/CRONOLOGIA_MED_012_EUROPA_MEDIEVAL_TRADICIONES_JUDIAS.md, assets/visuales/cadena-testigo-alcance-med-012.svg y assets/visuales/matriz-espacios-medicina-med-012.svg.
+
+## MED-013 — Rutas del Índico y Eurasia
+
+Cadena principal: **huella → identificación → itinerario → mediación → recepción → alcance**.
+
+- Belitung separa pecio, identificación material, ruta, función y destino.
+- Dunhuang separa testigo, paralelo, préstamo, relato historiográfico y práctica.
+- La Geniza separa carta, inventario, prescripción, cuaderno y resultado.
+- Los regalos separan entrega, receta, preparado, administración y efecto.
+- Los imperios mongoles separan patronazgo, oficina, compilación, recepción y cobertura.
+- Los `Colóquios` separan informantes, autoridad, taxón, edición y adopción.
+- `CLAIM-MED-ROUTES-MODEL-001` impide que conexión herede transferencia.
+
+Véase 15_medicina/INVESTIGACION_MED_013_RUTAS_INDICO_EURASIA.md, 22_mapas_epistemologicos/MAPA_MED_013_RUTAS_INDICO_EURASIA.md, 21_cronologias/CRONOLOGIA_MED_013_RUTAS_INDICO_EURASIA.md, assets/visuales/cadena-huella-alcance-med-013.svg y assets/visuales/matriz-rutas-transferencia-med-013.svg.
+
+## MED-014 — Epidemias y cuarentenas
+
+Cadena principal: **testimonio → agente → magnitud → respuesta → cumplimiento → desigualdad**.
+
+- Jerash separa crisis funeraria, individuos positivos y población urbana.
+- Tian Shan y East Smithfield separan genoma, origen filogenético, ruta y mortalidad.
+- Los archivos polínicos separan cambio de paisaje, pérdida de trabajo y tasa de muerte.
+- Ragusa y Venecia separan decreto, oficina, lazareto, ejecución y efecto.
+- Bristol separa protección exterior, mortalidad intradoméstica y distribución del daño.
+- Londres separa Bills, categoría contemporánea, entierro, geografía y denominador.
+- Marsella separa barco, introducción, genoma, cordón, descenso y carga ocupacional.
+- `CLAIM-MED-EPID-MODEL-001` impide que relato, positivo, fosa, norma o descenso hereden diagnóstico, cifra, cumplimiento, eficacia o justicia.
+
+Véase 15_medicina/INVESTIGACION_MED_014_EPIDEMIAS_CUARENTENAS.md, 22_mapas_epistemologicos/MAPA_MED_014_EPIDEMIAS_CUARENTENAS.md, 21_cronologias/CRONOLOGIA_MED_014_EPIDEMIAS_CUARENTENAS.md, assets/visuales/cadena-testimonio-desigualdad-med-014.svg y assets/visuales/matriz-epidemias-cuarentenas-med-014.svg.
+
+## MED-015 — Encuentros coloniales
+
+### Pregunta
+
+¿Cómo reconstruir salud, cuerpos y saberes bajo conquista, esclavitud, misión y extracción sin reducir la catástrofe a «contacto»?
+
+### Cadena canónica
+
+`exposición → violencia → trabajo → nutrición → clasificación → respuesta → supervivencia`
+
+Cada flecha es una inferencia que puede detenerse. Exposición no hereda infección; violencia no asigna causa individual; norma laboral no hereda carga uniforme; ración no hereda nutrición; categoría no hereda identidad; respuesta no hereda acceso o eficacia; supervivencia no hereda ausencia de daño.
+
+### Nodos y enlaces
+
+- La Española separa llegada, viruela de 1518, guerra, trabajo, hambre, denominador y continuidad.
+- Teposcolula separa fosa, población funeraria, Paratyphi C, dieta de largo plazo y cocoliztli.
+- Huancavelica–Potosí separa sedimento, producción, emisión modelada, tarea, dosis y legado ambiental.
+- Filipinas separa conectividad, endemicidad, tributo, hogar, descenso y heterogeneidad insular.
+- El Atlántico esclavista separa viaje, imputación, mortalidad, atención, coerción, cementerio y movilidad.
+- Alta California separa visita, asentamiento sostenido, misión, categoría sacramental, mortalidad y persistencia alimentaria.
+- Guayases y *Cinchona* separan planta, nombre, recolección, clasificación, comercio, uso, crédito y beneficio.
+- `CLAIM-MED-COL-MODEL-001` impide que contacto, categoría o circulación hereden causa, identidad o eficacia.
+- `CLAIM-MED-COL-NONRANKING-001` impide convertir archivos heterogéneos en una escala de sufrimiento o progreso.
+
+Véase 15_medicina/INVESTIGACION_MED_015_ENCUENTROS_COLONIALES.md, 22_mapas_epistemologicos/MAPA_MED_015_ENCUENTROS_COLONIALES.md, 21_cronologias/CRONOLOGIA_MED_015_ENCUENTROS_COLONIALES.md, assets/visuales/cadena-exposicion-supervivencia-med-015.svg y assets/visuales/matriz-encuentros-coloniales-med-015.svg.
+
+## MED-016 — Anatomía, disección e imprenta
+
+### Pregunta
+
+¿Cómo pasa un cuerpo abierto a sostener una corrección anatómica pública sin heredar verdad, adopción o beneficio?
+
+### Cadena canónica
+
+`cuerpo disponible → procedimiento → imagen → texto y autoridad → comparación → corrección → circulación`
+
+Cada flecha puede detenerse. Cuerpo no hereda representatividad; corte no hereda observación suficiente; imagen no hereda copia directa; texto no hereda práctica; diferencia no hereda error; corrección no hereda efecto; circulación no hereda adopción.
+
+### Nodos y enlaces
+
+- Manṣūr separa tratado, sistemas, genealogía visual, copia y disección no demostrada.
+- Bolonia y Berengario separan institución, roles, icono impreso y observación publicada.
+- Vesalio y Valverde separan cuerpos, mano, taller, corrección, apropiación, edición y recepción.
+- Nueva España separa autopsia de 1576, libro de 1578, cátedra ca. 1620 y disección docente de 1646.
+- Itâkî separa manuscrito, terminología, genealogías visuales y procedimiento desconocido.
+- *Kaitai shinsho* separa prehistoria, demostración, traducción, redibujo, impresión y revisión.
+- China Qing separa forénsica, trauma, cuerpos expuestos, crítica y disección controlada.
+- `CLAIM-MED-ANAT-MODEL-001` impide herencia automática entre las siete capas.
+- `CLAIM-MED-ANAT-NONRANKING-001` impide convertir disección, naturalismo o impresión en escala cultural.
+
+Véase 15_medicina/INVESTIGACION_MED_016_ANATOMIA_DISECCION_IMPRENTA.md, 22_mapas_epistemologicos/MAPA_MED_016_ANATOMIA_DISECCION_IMPRENTA.md, 21_cronologias/CRONOLOGIA_MED_016_ANATOMIA_DISECCION_IMPRENTA.md, assets/visuales/cadena-cuerpo-circulacion-med-016.svg y assets/visuales/matriz-anatomia-imprenta-med-016.svg.
+
+## MED-017 — Circulación y fisiología experimental
+
+### Pregunta
+
+¿Cómo pasa un sistema corporal heredado a sostener un mecanismo circulatorio y una medición reproducible sin convertir una ligadura, una lente, un número o un autor en demostración completa?
+
+### Cadena canónica
+
+`sistema heredado → preparación → intervención → medición → comparación → mecanismo → recepción`
+
+Cada flecha puede detenerse. Sistema no hereda observación; preparación no hereda cuerpo intacto; intervención no hereda mecanismo; medición no hereda exactitud; comparación no hereda generalización; mecanismo no hereda beneficio; recepción no hereda consenso.
+
+### Nodos y enlaces
+
+- Galeno separa experimento arterial, especie, sangre, sistema doble, poros y no circulación cerrada.
+- Ibn al-Nafīs separa comentario, corrección septal, tránsito pulmonar, procedimiento no documentado y transmisión no demostrada.
+- El pulso chino separa tacto, posición, cualidad, clasificación, transmisión y validez contemporánea.
+- Servet, Colombo y Valverde separan publicación, género, anatomía, formulación pulmonar y dependencia entre autores.
+- Las válvulas separan presencia, descripción, imagen, función propuesta y uso experimental posterior.
+- Harvey separa especie, ligadura, dirección, cantidad, convergencia, capilar no visto y recepción transformadora.
+- Malpighi separa rana, transparencia, secado, lente, dibujo, red visible y extrapolación humana.
+- Hales separa yegua, canulación, columna, altura, oscilación, presión y uso clínico posterior.
+- `CLAIM-MED-PHYS-MODEL-001` impide herencia automática entre las siete capas.
+- `CLAIM-MED-PHYS-NONRANKING-001` impide ordenar tradiciones por parecido con una fisiología contemporánea.
+
+Véase 15_medicina/INVESTIGACION_MED_017_CIRCULACION_FISIOLOGIA.md, 22_mapas_epistemologicos/MAPA_MED_017_CIRCULACION_FISIOLOGIA.md, 21_cronologias/CRONOLOGIA_MED_017_CIRCULACION_FISIOLOGIA.md, assets/visuales/cadena-sistema-experimento-recepcion-med-017.svg y assets/visuales/matriz-circulacion-fisiologia-med-017.svg.
+
+## MED-018 — Una lesión no contiene una enfermedad por sí sola
+
+- Song Ci separa manual judicial, inspección externa, categoría histórica, recepción moderna y equivalencia disciplinaria rechazada.
+- La microscopía temprana separa espécimen, lente, luz, preparación, dibujo, impresión, estructura y relación clínica todavía ausente.
+- Morgagni separa episodio, cuerpo post mortem, lesión, correlación, selección y etiología no demostrada.
+- Bichat separa órgano, tejido, operación macroscópica, vitalismo y taxonomía histórica.
+- Rokitansky separa hospital, provisión de cuerpos, prosección, volumen institucional, nosología y mecanismo.
+- La síntesis celular separa observación, división, continuidad, aplicación patológica, docencia, recepción y crédito distribuido.
+- La histotecnología separa fijación, inclusión, orientación, corte, tinción, control, artefacto y trabajo técnico.
+- La citología cervical separa persona viva, toma, frotis, patrón, clasificación, verificación, programa y desenlace.
+- `CLAIM-MED-PATH-CHAIN-001` impide saltar de una imagen preparada a una enfermedad sin conservar las siete capas.
+- `CLAIM-MED-PATH-NONRANKING-001` impide ordenar archivos por antigüedad, aumento, volumen o parecido con la práctica actual.
+
+Véase 15_medicina/INVESTIGACION_MED_018_MICROSCOPIA_ANATOMIA_PATOLOGICA.md, 22_mapas_epistemologicos/MAPA_MED_018_MICROSCOPIA_ANATOMIA_PATOLOGICA.md, 21_cronologias/CRONOLOGIA_MED_018_MICROSCOPIA_ANATOMIA_PATOLOGICA.md, assets/visuales/cadena-episodio-enfermedad-med-018.svg y assets/visuales/matriz-microscopia-anatomia-patologica-med-018.svg.
+
+## MED-019 — Una cama hospitalaria no convierte a una persona en un caso por sí sola
+
+- Padua–Leiden separa antecedente, sala, demostración, estudiante, transmisión y memoria de fundador.
+- Edimburgo separa conferencia, historia, examen, razonamiento, tratamiento, revisión y fracaso documentado.
+- París separa solicitante, admisión, signo, instrumento, categoría, autopsia, serie y decisión.
+- Estambul separa patronazgo, escuela, hospital, regulación, convivencia terapéutica y práctica efectiva.
+- Ciudad de México separa beneficencia, cátedra, cabecera, anatomía patológica, laboratorio, higiene urbana y control.
+- Calcuta separa institución colonial, selección de pacientes y cuerpos, enseñanza, caso, apropiación local y jerarquía.
+- Japón separa traducción de *byōin*, decreto, hospital, universidad, modelo alemán, examen y licencia.
+- El expediente separa conversación, trabajo de cuidado, formulario, propósito, omisión, comparación y archivo alternativo.
+- `CLAIM-MED-CLINIC-CHAIN-001` impide heredar automáticamente una propiedad entre institución, admisión, encuentro, examen, registro, comparación y decisión.
+- `CLAIM-MED-CLINIC-NONRANKING-001` impide ordenar hospitales por antigüedad, camas, instrumentos, expedientes o parecido con la práctica contemporánea.
+
+Véase 15_medicina/INVESTIGACION_MED_019_HOSPITALES_CABECERA_EXAMEN_CLINICO.md, 22_mapas_epistemologicos/MAPA_MED_019_HOSPITALES_CABECERA_EXAMEN_CLINICO.md y 21_cronologias/CRONOLOGIA_MED_019_HOSPITALES_CABECERA_EXAMEN_CLINICO.md.

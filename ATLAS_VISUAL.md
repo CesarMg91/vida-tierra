@@ -818,3 +818,579 @@ Edición final aprobada: `C:\Users\HUAWEI\.codex\generated_images\019fedb0-8f24-
 La portada se inspeccionó a resolución original. No contiene personas, restos humanos, mapas, fronteras, rutas, texto o pseudotexto. Las cinco estaciones son contemporáneas como composición editorial, pero no representan un sitio, fase o región reales. La bandeja vacía señala archivo no disponible, no ausencia histórica.
 
 Los SVG se diseñaron a `1600 × 900` con `title` y `desc`. El primero alinea carriles sin un eje temporal común; el segundo usa línea continua para operaciones auditadas y discontinua para saltos que exigen otro archivo.
+
+## 56. MED-001 — Una mejoría no basta
+
+![Portada editorial de MED-001](assets/visuales/hero-med-001-intervenciones.png)
+
+![Cadena desde pregunta hasta decisión](assets/visuales/cadena-pregunta-decision-med-001.svg)
+
+![Matriz de diseños, productos y fallos](assets/visuales/matriz-evidencia-intervenciones-med-001.svg)
+
+| Archivo | Tipo | Procedencia | Qué representa | Límite obligatorio |
+|---|---|---|---|---|
+| `hero-med-001-intervenciones.png` | portada editorial conceptual | OpenAI ImageGen, generación nueva, 2026-08-24 | protocolo, comparadores, desenlaces, balance y población como estaciones genéricas | no ensayo, datos, resultado, hospital o decisión reales |
+| `cadena-pregunta-decision-med-001.svg` | diagrama epistemológico original | SVG manual del proyecto, 2026-08-24 | operaciones entre pregunta, comparación, resultado, estimación, traslado y decisión | no algoritmo, calculadora o consejo clínico |
+| `matriz-evidencia-intervenciones-med-001.svg` | matriz metódica original | SVG manual del proyecto, 2026-08-24 | producto legítimo, control y fallo por objeto de evidencia | filas no forman ranking ni jerarquía universal |
+
+### Procedencia de la portada
+
+Salida original aprobada sin edición: `C:\Users\HUAWEI\.codex\generated_images\019fedb0-8f24-7e33-8d16-d2418ba3378e\exec-ad4ee2ac-c07e-480e-a9a1-ece069fa92d4.png`. Destino: `assets/visuales/hero-med-001-intervenciones.png`. Dimensiones: `1672 × 941`; tamaño: `1,791,053` bytes; SHA-256: `ca5c80cf6c4032a3ad4ada62e28fd7aae7130f684376ccfa2247687d0237e466`.
+
+**Prompt de generación:**
+
+> Use case: scientific-educational. Asset type: panoramic website hero for an evidence-based medicine research dossier. Primary request: an epistemological clinical evidence worktable showing how a treatment claim is audited from a patient-important question to comparison, outcomes, harms, and applicability. Scene/backdrop: a quiet contemporary surgical research room at dawn, dark obsidian background with warm parchment light; no active operation and no identifiable patient. Subject: central sterile stainless-steel table with six physically distinct evidence stations connected by a subtle copper thread: an anonymized protocol folder, two sealed allocation envelopes, paired identical procedure trays representing comparator fairness, a transparent outcomes chart with abstract non-readable marks, a balanced harms/benefits ledger, and a diverse set of neutral wooden patient silhouettes at the far end representing applicability. Style/medium: museum-quality editorial still-life photography, scientifically sober, tactile realism, refined but not luxurious. Composition/framing: wide 16:9 landscape, strong left-to-right chain, generous negative space in the upper-left for page title added later in HTML; all objects fully visible, no cropped instruments. Lighting/mood: restrained directional amber light, calm, rigorous, humane. Color palette: obsidian, parchment, ink, copper, amber, mineral green, stainless steel. Materials/textures: brushed steel, archival paper, glass, cotton, wood, fine copper wire. Constraints: no text, no letters, no numbers, no logos, no brand marks, no screens with legible content, no medications, no blood, no incision, no patient body, no surgeon portrait, no anatomy spectacle; the two procedure trays must look equally credible; represent uncertainty without alarm. Avoid: stock-photo doctors posing, glowing holograms, blue futuristic UI, dramatic emergency room, false molecular decorations, identifiable hospital branding, watermark.
+
+### Revisión y límites
+
+La salida se inspeccionó a resolución original. No contiene personas, cuerpos, sangre, intervención activa, fármacos, marca hospitalaria, logos o texto legible. El papel del protocolo y el libro muestran pequeñas marcas abstractas generadas que no deben leerse como contenido, datos o registro real; la placa transparente contiene curvas y barras decorativas sin ejes interpretables. En la interfaz, la portada siempre se acompaña de un límite explícito.
+
+Las dos bandejas de instrumental son genéricas y de peso visual equivalente. No representan técnicas específicas, esterilidad operativa ni un comparador éticamente adecuado por sí mismas. La balanza no calcula un balance beneficio–daño; las figuras de madera no representan una muestra o grupo demográfico real; el hilo de cobre expresa trazabilidad editorial, no causalidad.
+
+Los SVG se construyeron con `width="1600"`, `height="900"`, `viewBox="0 0 1600 900"`, `title` y `desc`. La cadena termina en decisión situada con un puente discontinuo; la matriz declara expresamente que no es un ranking. Ninguno recibe datos personales o produce recomendaciones.
+## 57. MED-002 — Una prueba no es una decisión
+
+![Portada editorial de MED-002](assets/visuales/hero-med-002-pruebas-diagnosticas.png)
+
+![Cadena desde población hasta desenlace](assets/visuales/cadena-prueba-decision-med-002.svg)
+
+![Matriz de preguntas, diseños, productos y fallos](assets/visuales/matriz-pruebas-diagnosticas-med-002.svg)
+
+| Archivo | Tipo | Procedencia | Qué representa | Límite obligatorio |
+|---|---|---|---|---|
+| `hero-med-002-pruebas-diagnosticas.png` | portada editorial conceptual | OpenAI ImageGen, generación nueva, 2026-08-24 | seis estaciones genéricas desde población y umbral hasta consecuencias | no datos, prueba, hospital, paciente o ruta clínica reales |
+| `cadena-prueba-decision-med-002.svg` | diagrama epistemológico original | SVG manual del proyecto, 2026-08-24 | puentes entre población, índice, referencia, rendimiento, manejo y desenlace | no algoritmo, calculadora ni protocolo clínico |
+| `matriz-pruebas-diagnosticas-med-002.svg` | matriz metódica original | SVG manual del proyecto, 2026-08-24 | preguntas, diseños, productos y fallos que no deben colapsarse | filas no forman ranking ni jerarquía universal |
+
+### Procedencia de la portada
+
+Salida original aprobada sin edición: `C:\Users\HUAWEI\.codex\generated_images\019fedb0-8f24-7e33-8d16-d2418ba3378e\exec-bff1a683-5230-45f6-bca7-ee13cd3d2eb6.png`. Destino: `assets/visuales/hero-med-002-pruebas-diagnosticas.png`. Dimensiones: `1672 × 941`; tamaño: `1,834,579` bytes; SHA-256: `387046e402fd304fbd97eb24021f448d73e1f9b2744fd8cd2050fe880247568c`.
+
+**Prompt de generación:**
+
+> Use case: scientific-educational. Asset type: wide 16:9 editorial website cover for MED-002 in a rigorous Spanish evidence-medicine platform. Primary request: create a museum-quality diagnostic evidence worktable showing that a test result must pass through population, threshold, reference standard, measured performance, management, and patient-important outcomes before it can support a decision. Scene/backdrop: quiet contemporary clinical research laboratory at dawn, dark obsidian background with warm parchment light; no active care area. Subject: six physically separate evidence stations connected by a subtle copper thread: a small diverse set of neutral wooden population silhouettes; one sealed generic sample container beside an abstract translucent scan plate; a brass threshold gauge with no markings; a separate reference-standard tray; paired frosted glass panels with abstract dots and intervals but no axes; two diverging neutral decision trays ending in a simple balanced outcomes ledger. Include one clearly empty compartment to signal missing evidence. Style/medium: cinematic editorial still-life photography, tactile realism, sober and scientifically credible. Composition/framing: horizontal 16:9 landscape, left-to-right chain, all stations fully visible, generous dark negative space in upper left for HTML title added later, no embedded copy. Lighting/mood: restrained directional amber light, calm, rigorous, humane. Color palette: obsidian, parchment, ink, copper, amber, mineral green, brushed steel. Materials/textures: steel, archival paper, frosted glass, wood, fine copper wire. Constraints: conceptual editorial composition only; no people, patient body, anatomy, blood, needles, medications, disease symbols, diagnostic brand, readable text, letters, numbers, axes, logos, watermark, screen UI, false data or clinical instruction. The sample container must be generic and sealed; the threshold gauge must have no numeric scale. Avoid: stock-photo doctor, dramatic emergency room, glowing holograms, blue futuristic interface, microscope cliché, molecular decoration, biohazard icon, identifiable hospital branding.
+
+### Revisión y límites
+
+La salida se inspeccionó a resolución original. No contiene personas, cuerpos, anatomía, sangre, agujas, fármacos, marcas, texto o números legibles. Los puntos, líneas y barras de los paneles son marcas abstractas sin ejes, unidades o valores; no son resultados, intervalos o datos publicados. La lupa y la pinza son utilería editorial genérica y no representan una técnica.
+
+Las figuras de madera representan diversidad de población sin categorías demográficas; el frasco está vacío y sellado; el disco de latón no mide un umbral; las dos bandejas no recomiendan acciones; el libro no contiene un balance real. El compartimento vacío significa archivo faltante, no ausencia de enfermedad o resultado.
+
+Los SVG se construyeron a `1600 × 900` con `title`, `desc`, tipografía de reserva y texto dentro del lienzo. La cadena usa flechas discontinuas para indicar puentes que exigen evidencia; la matriz declara que no es un ranking. Ninguno recibe entradas, calcula probabilidades o produce recomendaciones.
+
+## 58. MED-003 — No existe un fósil único de la medicina
+
+![Portada editorial de MED-003](assets/visuales/hero-med-003-origenes-medicina.png)
+
+![Cadena desde archivo hasta sistema médico](assets/visuales/cadena-archivo-sistema-med-003.svg)
+
+![Matriz de huellas, inferencias y límites](assets/visuales/matriz-huellas-inferencias-med-003.svg)
+
+| Archivo | Tipo | Procedencia | Qué representa | Límite obligatorio |
+|---|---|---|---|---|
+| `hero-med-003-origenes-medicina.png` | portada editorial conceptual | OpenAI ImageGen, generación + edición correctiva, 2026-08-24 | seis estaciones genéricas de archivo osteológico, material, biomolecular y textual | no colección, sitio, periodo, diagnóstico, práctica, sistema o progreso reales |
+| `cadena-archivo-sistema-med-003.svg` | diagrama epistemológico original | SVG manual del proyecto, 2026-08-24 | seis transiciones desde espécimen/testimonio hasta sistema médico | ninguna flecha hereda intención, profesión o eficacia |
+| `matriz-huellas-inferencias-med-003.svg` | matriz metódica original | SVG manual del proyecto, 2026-08-24 | productos legítimos y fallos de hueso, molécula, residuo, objeto y texto | filas no forman ranking, cronología o escala universal |
+
+### Procedencia de la portada
+
+Primera salida rechazada por pseudotexto demasiado reconocible en la quinta bandeja: `C:\Users\HUAWEI\.codex\generated_images\019fedb0-8f24-7e33-8d16-d2418ba3378e\exec-b5e84a54-9c4c-479d-b17d-7630fb9254a6.png`.
+
+Edición final aprobada: `C:\Users\HUAWEI\.codex\generated_images\019fedb0-8f24-7e33-8d16-d2418ba3378e\exec-4f3b4bb5-951a-4bff-87bd-b95c69f97a28.png`. Destino: `assets/visuales/hero-med-003-origenes-medicina.png`. Dimensiones: `1672 × 941`; tamaño: `2,092,832` bytes; SHA-256: `8f8cbd8146edb6a5a7514b57fe47113cbb1a26931652287b1591eddeeac71f01`.
+
+**Prompt de generación inicial:**
+
+> Use case: scientific-educational. Asset type: wide 16:9 editorial website cover for MED-003 in a rigorous Spanish open-science history-of-medicine platform. Primary request: create a museum-quality conservation worktable about how the earliest history of medicine is reconstructed from incomplete, non-equivalent archives rather than one origin event. Scene/backdrop: dark obsidian museum laboratory with warm amber archival light and generous negative space in the upper left for an HTML title. Subject: six physically separate evidence trays of equal visual weight: a few generic incomplete bone fragments with no face or diagnostic lesion; an undecorated stone or ceramic object; a sealed generic biomolecular sample; a small neutral mineralized-residue fragment; an old manuscript fragment with only faint unreadable non-semantic marks; and one clearly empty compartment. Connect the trays only with a subtle copper thread that does not imply chronology. Style/medium: cinematic editorial still-life photography, tactile conservation realism, sober and humane. Composition/framing: horizontal landscape, all trays fully visible, no dominant object, no route, staircase or progress line. Color palette: obsidian, parchment, ink, copper, amber and mineral green. Constraints: no people, hands, faces, complete skull, reconstructed patient, active procedure, blood, wound, surgery scene, medicinal plants presented as treatment, modern clinical device, map, timeline, arrows, ranking, readable text, letters, numbers, medical symbol, logo, watermark, false data or fantasy. The empty tray means missing archive, not absence of medicine.
+
+**Edición correctiva localizada:**
+
+> Edit this exact MED-003 editorial cover. Change only the rectangular tan manuscript-like fragment in the fifth evidence tray, immediately to the left of the empty wooden compartment. Remove every line, dot, letter-like mark, glyph, incision, repeated symbol, pseudo-writing and cuneiform-like texture from that one fragment. Replace its entire visible face with completely blank, plain, naturally weathered, undecorated fibrous material in muted parchment-brown, with only subtle irregular fiber/mineral texture and torn edges. It must not resemble a tablet, manuscript, inscription, recipe, label or written document. Preserve exactly everything else: canvas and 16:9 framing, six trays, generic incomplete bone fragments, sealed vial, stone and ceramic fragments, empty compartment, copper thread, magnifying glass, caliper, tweezers, tools, books, background, lamp, lighting, shadows, color and negative space. Do not add or remove any other object. No text, marks, symbols, logos or watermark anywhere.
+
+### Revisión y límites
+
+La edición final se revisó a resolución original. No contiene personas, rostros, cuerpos completos, sangre, herida, procedimiento, paciente, texto, números, glifos o pseudotexto. Los fragmentos óseos son genéricos, pequeños e incompletos; no reproducen Man Bac, Liang Tebo, una trepanación o una colección real. La muestra, el residuo y los objetos son utilería editorial sin contenido analítico.
+
+El fragmento de la quinta bandeja quedó completamente liso, sin escritura, receta, etiqueta o inscripción. Las seis bandejas son no coetáneas y no forman una cronología; el hilo expresa trazabilidad editorial, no difusión o causalidad. El compartimento vacío representa visibilidad limitada del archivo.
+
+Los SVG se diseñaron a `1600 × 900` con `title`, `desc` y tipografía de reserva. Se rasterizaron e inspeccionaron a esa resolución: títulos, pies, paneles y bordes permanecen completos, legibles y sin recortes. La cadena marca rupturas entre seis capas; la matriz impide heredar diagnóstico, cuidado, intención, tratamiento, prevalencia o eficacia desde una sola huella. Ninguno calcula, recomienda o recibe datos personales.
+
+
+## 59. MED-004 — Un documento no es una práctica
+
+![Portada editorial de MED-004](assets/visuales/hero-med-004-mesopotamia-nilo.png)
+
+![Cadena desde objeto hasta consecuencia](assets/visuales/cadena-documento-practica-med-004.svg)
+
+![Matriz de archivos documentales](assets/visuales/matriz-archivos-med-004.svg)
+
+| Archivo | Tipo | Procedencia | Qué representa | Límite obligatorio |
+|---|---|---|---|---|
+| `hero-med-004-mesopotamia-nilo.png` | portada editorial conceptual | OpenAI ImageGen, generación nueva, 2026-08-27 | dos zonas separadas de fragmentos genéricos de arcilla y papiro | no colección, texto, sitio, periodo, sistema, práctica o efecto reales |
+| `cadena-documento-practica-med-004.svg` | diagrama epistemológico original | SVG manual del proyecto, 2026-08-27 | seis operaciones entre objeto, texto, género, circulación, práctica y consecuencia | las flechas no heredan fecha, acceso, ejecución o eficacia |
+| `matriz-archivos-med-004.svg` | matriz documental original | SVG manual del proyecto, 2026-08-27 | producto fuerte, inferencia y límite de cinco archivos | las filas no forman ranking, cronología ni prioridad cultural |
+
+### Procedencia de la portada
+
+Salida original aprobada sin edición: `C:\Users\HUAWEI\.codex\generated_images\019fedb0-8f24-7e33-8d16-d2418ba3378e\exec-b3845f64-ec56-48df-8655-fdac6e2e5884.png`. Destino: `assets/visuales/hero-med-004-mesopotamia-nilo.png`. Dimensiones: `1672 × 941`; tamaño: `2,624,607` bytes; SHA-256: `a1ba02c306de5b3e36449a1c3eb6597a160abd7096848687f7b2cb673c347851`.
+
+**Prompt de generación:**
+
+> Use case: historical-scene. Asset type: wide website hero and editorial cover for an audited history-of-medicine research dossier. Primary request: an original, museum-grade conservation-table still life that visually contrasts Mesopotamian and ancient Egyptian medical archives without implying that the objects belonged together or that a written recipe proves clinical practice. Scene/backdrop: dark obsidian conservation table divided subtly into two clearly separate archival zones, with neutral museum supports. Subject: on one zone, several incomplete generic clay tablet fragments with abstract cuneiform-like wedge impressions; on the other, several incomplete generic papyrus fragments and one small ostracon with faint non-readable marks; between them, neutral conservation tools, cotton thread, a scale card without numbers, and soft archival supports. Style/medium: highly realistic editorial museum photography, materially accurate clay, papyrus fibers and ceramic surfaces, restrained scientific-documentary aesthetic. Composition/framing: 16:9 landscape, slightly oblique top-down view, balanced central negative space for webpage overlay, all fragments separated and visibly incomplete, no single pristine “master text”. Lighting/mood: warm copper side light and cool mineral-green fill, low-key but legible, contemplative and rigorous rather than mystical. Color palette: parchment, obsidian, ink, copper, amber and mineral green. Materials/textures: chipped fired clay, fibrous aged papyrus, matte ceramic, acid-free supports, subtle dust only. Constraints: no people, no hands, no faces, no bodies, no mummies, no readable text, no legible hieroglyphs, no exact historical artifact reproduction, no anachronistic instruments, no decorative symbols, no maps, no labels, no logos, no watermark; do not merge clay and papyrus into one artifact; preserve clear physical separation between archives. Avoid: treasure-room fantasy, glowing magic, pristine scrolls, complete famous papyri, cinematic archaeology adventure, pseudo-hieroglyphic headlines, modern laboratory screens.
+
+### Revisión y límites
+
+La salida se inspeccionó completa. No contiene personas, cuerpos, momias, escenas clínicas, mapas, marcas, etiquetas o texto legible. La escala sin números y los instrumentos son utilería de conservación; no miden las piezas. Las marcas de los fragmentos son abstractas y no deben leerse como transcripción, diagnóstico, receta o contenido histórico. Arcilla y papiro permanecen en zonas físicas separadas.
+
+Los objetos son genéricos, incompletos y contemporáneos sólo como composición editorial. No reproducen Nínive, Sakikkû, las Leyes de Hammurabi, Ebers, Edwin Smith, Lahun o Deir el-Medina. Su cercanía no demuestra contacto, transmisión, sincronía, práctica o eficacia.
+
+Los SVG se construyeron a `1600 × 900` con `title`, `desc` y tipografía de reserva. La cadena marca cinco no-herencias; la matriz compara productos sin sumar puntuaciones. Ninguno calcula, diagnostica, recomienda o recibe datos personales.
+
+## 60. MED-005 — Un corpus no es una fecha
+
+![Portada editorial de MED-005](assets/visuales/hero-med-005-asia-meridional.png)
+
+![Cadena desde testimonio hasta consecuencia](assets/visuales/cadena-testimonio-practica-med-005.svg)
+
+![Matriz de archivos de Asia meridional](assets/visuales/matriz-archivos-asia-meridional-med-005.svg)
+
+| Archivo | Tipo | Procedencia | Qué representa | Límite obligatorio |
+|---|---|---|---|---|
+| `hero-med-005-asia-meridional.png` | portada editorial conceptual | OpenAI ImageGen, generación nueva, 2026-08-27 | zonas separadas de soportes genéricos, modelo dental didáctico y ficha arquitectónica | no objeto, colección, escritura, sitio, cronología, práctica o transmisión reales |
+| `cadena-testimonio-practica-med-005.svg` | diagrama epistemológico original | SVG manual del proyecto, 2026-08-27 | seis operaciones entre testimonio, lectura, estrato, circulación, práctica y consecuencia | las flechas no heredan traducción, composición, difusión, ejecución o eficacia |
+| `matriz-archivos-asia-meridional-med-005.svg` | matriz documental original | SVG manual del proyecto, 2026-08-27 | producto fuerte, inferencia y límite de siete archivos | las filas no forman ranking, cronología continua ni prioridad cultural |
+
+### Procedencia de la portada
+
+Salida original aprobada sin edición: `C:\Users\HUAWEI\.codex\generated_images\019fedb0-8f24-7e33-8d16-d2418ba3378e\exec-54e69a98-2155-4c2e-9b9c-4ad150595ad8.png`. Destino: `assets/visuales/hero-med-005-asia-meridional.png`. Dimensiones: `1672 × 941`; tamaño: `2,278,946` bytes; SHA-256: `5bf703e27044e5ca1354db608663f09e728240ec525ed10d37d2a500e45ac8f7`.
+
+**Prompt de generación:**
+
+> Use case: stylized-concept. Asset type: wide website hero for a public history-of-medicine research portal. Primary request: an original museum-conservation still life expressing that a medical corpus is assembled from different kinds of evidence, not a single ancient book or date. Scene/backdrop: dark obsidian conservation table in a quiet archive, subtle mineral-green wall shadow, no recognizable museum or archaeological site. Subject: four clearly separate evidence zones that never overlap: several generic blank palm-leaf folio strips with binding holes and no writing; irregular birch-bark fragments with no writing; one neutral weathered stone inscription-like fragment with no readable glyphs; one small abstract enamel-colored molar study model beside a simple architectural floor-plan token with no markings. Thin copper and amber threads visually suggest routes of copying and translation without physically joining the objects. Style/medium: cinematic editorial still-life photography with museum realism, tactile materials, restrained depth of field, historically respectful but explicitly non-reconstructive. Composition/framing: 16:9 landscape, low three-quarter overhead viewpoint, main evidence cluster across the right two-thirds, calm usable negative space in the upper-left for white website copy, no cropped objects at the edges. Lighting/mood: warm copper side light and cool mineral-green fill, scholarly, quiet, precise, high contrast sufficient for a dark text overlay. Color palette: obsidian, parchment, copper, amber, mineral green. Materials/textures: dry palm leaf, fibrous birch bark, weathered stone, enamel-like study resin, linen conservation supports. Constraints: every object generic and physically separated; no people, no hands, no faces, no bodies, no blood, no surgery, no medicine bottles, no herbs arranged as remedies, no modern medical instruments, no national symbols, no religious iconography, no exact historical artifact, no readable writing, no letters, no numbers, no labels, no logos, no watermark. Avoid: fantasy glow, mystical aura, Ayurveda wellness branding, spa imagery, decorative Sanskrit, colonial explorer imagery, fake manuscript text, visual claim that all objects are coeval.
+
+### Revisión y límites
+
+La salida se inspeccionó completa. No contiene personas, manos, cuerpos, sangre, escenas clínicas, medicamentos, plantas preparadas, iconografía religiosa, marcas, etiquetas o texto legible. Los folios, corteza y piedra son genéricos. El molar es un modelo didáctico contemporáneo con corte anatómico visible, no un diente arqueológico; la ficha arquitectónica es abstracta y no reproduce Kumrahār o Tirumukkūḍal.
+
+Las zonas y los hilos son metáforas editoriales. Su cercanía no afirma coetaneidad, procedencia común, traducción, transmisión, continuidad o eficacia. La portada no reproduce KL 699, Bower, un edicto de Aśoka ni ningún manuscrito identificable.
+
+Los SVG se construyeron a `1600 × 900` con `title`, `desc` y tipografía de reserva. La cadena marca cinco no-herencias y la matriz compara siete archivos sin puntuarlos. Ninguno calcula, recomienda, diagnostica o recibe datos personales.
+
+## 61. MED-006 — Un canon no es una práctica uniforme
+
+![Portada editorial de MED-006](assets/visuales/hero-med-006-china-asia-oriental.png)
+
+![Cadena desde testigo hasta consecuencia](assets/visuales/cadena-testigo-resultado-med-006.svg)
+
+![Matriz de cánones, archivos y prácticas](assets/visuales/matriz-canones-practicas-med-006.svg)
+
+| Archivo | Tipo | Procedencia | Qué representa | Límite obligatorio |
+|---|---|---|---|---|
+| `hero-med-006-china-asia-oriental.png` | portada editorial conceptual | OpenAI ImageGen, generación nueva, 2026-08-27 | seis estaciones genéricas de hueso, bambú, seda, modelo, papel y figura didáctica | no artefacto, escritura, colección, cronología, práctica o resultado reales |
+| `cadena-testigo-resultado-med-006.svg` | diagrama epistemológico original | SVG manual del proyecto, 2026-08-27 | seis puentes entre testigo, lectura, estrato, operación, institución y consecuencia | las flechas no heredan autoría, ejecución, cobertura o eficacia |
+| `matriz-canones-practicas-med-006.svg` | matriz documental original | SVG manual del proyecto, 2026-08-27 | producto fuerte y límite de cinco archivos | las filas no forman ranking, progreso o continuidad uniforme |
+
+### Procedencia de la portada
+
+Salida original aprobada sin edición: `C:\Users\HUAWEI\.codex\generated_images\019fedb0-8f24-7e33-8d16-d2418ba3378e\exec-ce9fb493-5e4d-483e-a3bd-6c466a94d128.png`. Destino: `assets/visuales/hero-med-006-china-asia-oriental.png`. Dimensiones: `1672 × 941`; tamaño: `2,062,773` bytes; SHA-256: `5e7d82d6a139c44945eb1dccaee189d7436c127b58899469de0878596ca178e3`.
+
+**Prompt de generación:**
+
+> Create a single original 16:9 cinematic editorial hero image for a Spanish public-history website about how historians reconstruct medicine in ancient China and East Asia. Museum conservation laboratory at twilight, viewed slightly from above, with six physically separated evidence stations arranged left-to-right on a dark obsidian table: a small generic weathered bone fragment with only abstract non-linguistic scratches; a bundle of blank aged bamboo slips tied loosely; a folded plain silk fragment; a small abstract lacquered wooden anatomical teaching token with subtle unlabeled lines (not a replica of any real artifact, no realistic face, no gendered anatomy); a generic paper codex with blank pages; and a restrained bronze teaching silhouette on a stand with no text or named points. Thin copper threads visually connect but do not touch the stations, suggesting testigo → lectura → estrato → operación → institución → consecuencia. Warm amber raking light, mineral green accents, parchment highlights, deep charcoal background, refined museum atmosphere, high material detail, generous dark negative space on left-center for future web text overlay. No people, no hands, no needles piercing bodies, no blood, no illness, no religious iconography, no national flags, no maps, no readable writing, no Chinese characters, no Latin letters, no numbers, no labels, no captions, no watermarks, no logos. Historically inspired but explicitly generic and non-probatory; avoid copying Mawangdui, Tianhui, Dunhuang, Ishinpo, Donguibogam, oracle bones, or any specific protected cultural object. Photorealistic editorial still life, sophisticated museum exhibition design, 1672x941 or closest native 16:9 output.
+
+### Revisión y límites
+
+La salida se inspeccionó a resolución original. No contiene personas, manos, escena clínica, sangre, enfermedad, mapa, bandera, etiqueta, texto o número legible. Las incisiones del fragmento de hueso, las líneas del modelo lacado y las formas de fondo son marcas abstractas sin transcripción o significado lingüístico. El papel y el textil permanecen en blanco.
+
+Los seis objetos son utilería editorial contemporánea y genérica. No reproducen huesos oraculares, Mawangdui, Tianhui, Wuwei, Dunhuang, el hombre de bronce Song, *Ishinpō* o *Donguibogam*. Su secuencia visual explica capas de auditoría y no afirma coetaneidad, procedencia común, transmisión, práctica o eficacia.
+
+Los SVG se construyeron y capturaron a `1600 × 900`, incluyen `title`, `desc` y tipografía de reserva. Se inspeccionaron de borde a borde en `C:\Users\HUAWEI\.codex\visualizations\2026\08\10\019fedb0-8f24-7e33-8d16-d2418ba3378e\med-006-qa\`: títulos, seis tarjetas, cinco filas, pies y márgenes permanecen completos y legibles. La cadena declara cuatro no-herencias y la matriz compara productos sin puntuarlos. Ninguno acepta datos, diagnostica o recomienda.
+
+## 62. MED-007 — Observación escrita no es resultado clínico
+
+![Portada editorial de MED-007](assets/visuales/hero-med-007-mediterraneo-griego-helenistico.png)
+
+![Cadena desde testimonio hasta consecuencia](assets/visuales/cadena-testimonio-consecuencia-med-007.svg)
+
+![Matriz de archivos del Mediterráneo griego y helenístico](assets/visuales/matriz-archivos-mediterraneo-med-007.svg)
+
+| Archivo | Tipo | Procedencia | Qué representa | Límite obligatorio |
+|---|---|---|---|---|
+| `hero-med-007-mediterraneo-griego-helenistico.png` | portada editorial conceptual | OpenAI ImageGen, generación nueva, 2026-08-27 | estaciones genéricas de papiro, inscripción, instrumentos, modelos y archivo | no objeto, manuscrito, colección, cuerpo, práctica o resultado reales |
+| `cadena-testimonio-consecuencia-med-007.svg` | diagrama epistemológico original | SVG manual del proyecto, 2026-08-27 | seis operaciones entre testimonio, lectura, género, operación, institución y consecuencia | las flechas no heredan autoría, ejecución, cobertura o eficacia |
+| `matriz-archivos-mediterraneo-med-007.svg` | matriz documental original | SVG manual del proyecto, 2026-08-27 | inferencia y límite de cinco archivos | las filas no forman ranking, progreso o “milagro griego” |
+
+### Procedencia de la portada
+
+Salida original aprobada sin edición: `C:\Users\HUAWEI\.codex\generated_images\019fedb0-8f24-7e33-8d16-d2418ba3378e\exec-7275b5d8-17d9-41ff-922f-2672553ffbc5.png`. Destino: `assets/visuales/hero-med-007-mediterraneo-griego-helenistico.png`. Dimensiones: `1672 × 941`; tamaño: `2,446,363` bytes; SHA-256: `eee71c1cf08631c78881b62e45ccae075833bf5dd8563c7491872c793704cd08`.
+
+**Prompt de generación:**
+
+> Create a cinematic, historically restrained editorial cover image for a Spanish public-history research platform about evidence in ancient Greek and Hellenistic medicine. Wide 16:9 composition, 1672 x 941 target. A dark obsidian museum conservation table viewed at a shallow three-quarter angle, divided into clearly separated evidence stations: (1) several aged but generic papyrus scroll fragments with abstract Greek-like marks that are NOT readable words and do not imitate a real manuscript; (2) a small pale limestone votive inscription fragment on its own archival support, with only abstract incised marks and no readable text; (3) a few clean bronze surgical instruments such as probe and forceps arranged as museum objects, no blood and no procedure; (4) a neutral anatomical teaching preparation represented only by an open wooden case containing a wax heart model and a small animal-bone reference specimen, explicitly not a human corpse and not a face; (5) a modern archival evidence tag with blank fields and a magnifying lens, no readable typography. Warm copper and amber raking light from upper left, restrained mineral green accents, deep charcoal background, elegant museum-laboratory mood, high material realism, quiet and serious, strong negative space on the left-center for website headline overlay. No people, no portraits, no bust of Hippocrates, no gods, no temple fantasy, no surgery scene, no blood, no gore, no borders, no maps, no stock-photo look, no decorative pseudo-science, no readable letters or numbers, no watermark, no logo.
+
+### Revisión y límites
+
+La salida se inspeccionó completa a resolución original. No contiene personas, rostros, cuerpos humanos, sangre, procedimiento, dioses, templos, mapas, logos, números o palabras legibles. Las marcas de papiro y piedra son abstractas; los instrumentos están limpios; el corazón es un modelo de cera y el fragmento óseo es una referencia animal genérica.
+
+Las estaciones son utilería editorial contemporánea y no forman una colección histórica. La cercanía entre soportes no demuestra coetaneidad, autoría, circulación, práctica o eficacia. La imagen no reproduce un papiro, inscripción, instrumento, cuerpo o preparación identificable.
+
+Los SVG se construyeron a `1600 × 900`, incluyen `title`, `desc` y tipografía de reserva. La cadena declara cuatro no-herencias y la matriz compara cinco archivos sin puntuarlos. Ninguno acepta datos, diagnostica, recomienda o representa tasas de resultados.
+
+## 63. MED-008 — Infraestructura o título no es cobertura ni resultado
+
+![Portada editorial de MED-008](assets/visuales/hero-med-008-roma-bizancio-mediterraneo-tardio.png)
+
+![Cadena desde vestigio hasta consecuencia](assets/visuales/cadena-vestigio-consecuencia-med-008.svg)
+
+![Matriz de infraestructura, práctica y acceso](assets/visuales/matriz-infraestructura-practica-med-008.svg)
+
+| Archivo | Tipo | Procedencia | Qué representa | Límite obligatorio |
+|---|---|---|---|---|
+| `hero-med-008-roma-bizancio-mediterraneo-tardio.png` | portada editorial conceptual | OpenAI ImageGen, generación nueva, 2026-08-27 | seis estaciones genéricas de plano, agua, instrumentos, códice, traducción y sala asistencial | no excavación, colección, manuscrito, hospital, cobertura o resultado reales |
+| `cadena-vestigio-consecuencia-med-008.svg` | diagrama epistemológico original | SVG manual del proyecto, 2026-08-27 | seis operaciones entre vestigio, identificación, función, operación, acceso y consecuencia | las flechas no heredan uso, cobertura o eficacia |
+| `matriz-infraestructura-practica-med-008.svg` | matriz documental original | SVG manual del proyecto, 2026-08-27 | cinco archivos, inferencias y límites | las filas no forman ranking o genealogía universal |
+
+### Procedencia de la portada
+
+Salida original aprobada sin edición: `C:\Users\HUAWEI\.codex\generated_images\019fedb0-8f24-7e33-8d16-d2418ba3378e\exec-080fd50f-fbe7-4e7a-9534-61a782e3f6e4.png`. Destino: `assets/visuales/hero-med-008-roma-bizancio-mediterraneo-tardio.png`. Dimensiones: `1672 × 941`; tamaño: `2,322,763` bytes; SHA-256: `f974cd2ce6ce6b9026e29f8ead628a98a199a73cc9f10da14f638ae8bd7a4c47`.
+
+**Prompt de generación:**
+
+> Create a wide editorial museum-and-laboratory still life for a rigorous Spanish public history-of-medicine project, 16:9, 1672x941 if supported. Dark obsidian and warm parchment palette with restrained copper, amber and mineral green accents; cinematic museum lighting, precise high-detail realism, no fantasy. Arrange six clearly separated evidence stations from left to right and foreground to background, never merging them into a single historical reconstruction: (1) a generic Roman military fort floor plan incised on an unlabelled parchment fragment, with no readable words; (2) a small cutaway water channel, terracotta pipe fragments and a simple latrine drain sample tray, physically separated; (3) several generic Greco-Roman medical instruments on a conservation tray, not in use, no blood; (4) an open late-antique codex with abstract illegible line patterns only, no real writing; (5) stacked manuscript leaves suggesting Greek, Syriac, Arabic, Hebrew and Latin transmission through different material formats, but absolutely no readable or pseudo-readable letters; (6) a small architectural study model of a Byzantine charitable care ward with beds shown empty, not a real operating hospital. Add catalog tags as blank shapes, cotton conservation gloves, thread and a magnifying lens to signal archival method. No people, no faces, no bodies, no patients, no crosses as dominant symbols, no modern medical equipment, no maps with borders, no logos, no titles, no text, no watermark. Keep generous negative space in upper-left/center for responsive website headline. The image must communicate: infrastructure or title does not equal coverage or clinical outcome. Objects must remain visibly separated and generic so the image is editorial, non-probatory and cannot be mistaken for a photograph of one real excavation or historical room.
+
+### Revisión y límites
+
+La salida se inspeccionó completa a resolución original. No contiene personas, rostros, cuerpos, sangre, procedimientos, mapas políticos, logos o texto legible. El plano, el canal, los instrumentos, el códice, los pliegos y el modelo asistencial están físicamente separados; las etiquetas permanecen vacías.
+
+La escena es utilería editorial contemporánea y no reconstruye una excavación, archivo o institución. La proximidad visual no demuestra coetaneidad, función, operación, acceso, transmisión ni resultado. El modelo de sala no representa el Pantocrátor ni un hospital identificado.
+
+Los SVG se construyeron a `1600 × 900`, incluyen `title`, `desc` y tipografía de reserva. La cadena declara cuatro cortafuegos y la matriz compara cinco archivos sin puntuarlos. Ninguno acepta datos, diagnostica, recomienda o representa tasas.
+
+## 64. MED-009 — Silencio documental no es ausencia de cuidado
+
+![Portada editorial de MED-009](assets/visuales/hero-med-009-africa-fuera-eje-egipcio.png)
+
+![Cadena desde archivo hasta límite](assets/visuales/cadena-archivo-limite-med-009.svg)
+
+![Matriz de archivos africanos](assets/visuales/matriz-archivos-africa-med-009.svg)
+
+| Archivo | Tipo | Procedencia | Qué representa | Límite obligatorio |
+|---|---|---|---|---|
+| `hero-med-009-africa-fuera-eje-egipcio.png` | portada editorial conceptual | OpenAI ImageGen, generación nueva, 2026-08-27 | seis estaciones genéricas de hueso, muestra, suelo/asentamiento, códice, residuo y escucha | no colección, sitio, pueblo, práctica o continuidad reales |
+| `cadena-archivo-limite-med-009.svg` | diagrama epistemológico original | SVG manual del proyecto, 2026-08-27 | archivo, procedencia, señal, inferencia, contraste y límite | las flechas no heredan ausencia, tratamiento o eficacia |
+| `matriz-archivos-africa-med-009.svg` | matriz documental original | SVG manual del proyecto, 2026-08-27 | seis casos, productos y límites | las filas no representan todo África ni forman ranking |
+
+### Procedencia de la portada
+
+Salida original aprobada sin edición: `C:\Users\HUAWEI\.codex\generated_images\019fedb0-8f24-7e33-8d16-d2418ba3378e\exec-268ba075-cf3c-4f87-972f-408ed32d082d.png`. Destino: `assets/visuales/hero-med-009-africa-fuera-eje-egipcio.png`. Dimensiones: `1671 × 941`; tamaño: `2,089,775` bytes; SHA-256: `ae43e4861e7ba05fa8c568e5516ee9c7ea318ac1a138414b6e8792108efcd139`.
+
+**Prompt de generación:**
+
+> Create a wide 16:9 editorial museum-and-laboratory hero image for a rigorous Spanish public-history research dossier titled MED-009, about reconstructing histories of care and medical knowledge in African regions outside the Egyptian axis without filling archival silences with analogy. No text, no letters, no symbols, no maps, no flags, no logos, no people, no faces, no skulls, no complete human remains, no blood, no medical procedure, no fantasy, no stereotyped pan-African motifs. Use a dark obsidian museum table under warm amber and copper light, visually divided into SIX clearly separated archival stations with ample negative space and no implied single collection: (1) a few small generic weathered bone fragments in a shallow conservation tray, deliberately incomplete and non-diagnostic; (2) neutral labeled-but-blank sample envelopes and a radiocarbon-style calibration strip with no numbers; (3) an architectural soil profile and small abstract settlement model made of clay, not a real site; (4) a closed generic parchment codex with blank edge and a few loose blank folios, no script; (5) two undecorated ceramic sherds and a small residue-analysis vial, physically separate; (6) an empty archival listening station represented by a plain coiled fiber and blank index card, subtle metaphor for oral transmission. Connect nothing physically; use thin pools of light to imply archive → provenance → signal → inference → contrast → limit. Palette: parchment, obsidian, ink black, copper, amber, mineral green. Photorealistic editorial still life, museum-quality, restrained, scientifically honest, dramatic but not sensational. Exact composition should leave darker negative space at upper left and center-left for website headline. All objects generic and unmistakably contemporary editorial props, not replicas of identifiable cultural artifacts. High detail, 1672x941 landscape.
+
+### Revisión y límites
+
+La salida se inspeccionó completa a resolución original. No contiene personas, rostros, cráneos, cuerpos completos, sangre, procedimientos, mapas, banderas, logos, símbolos o texto legible. Los fragmentos óseos son genéricos, incompletos y no diagnósticos; sobres, folios y ficha están en blanco.
+
+Las seis estaciones son utilería editorial contemporánea. No reproducen Kerma, Kulubnarti, Aksum, Jenne-jeno, Tombuctú, Tong Hills ni un objeto cultural identificable. La proximidad visual no afirma coetaneidad, identidad, continuidad, práctica o eficacia.
+
+Los SVG se construyeron y rasterizaron a `1600 × 900`, incluyen `title`, `desc` y tipografía de reserva. La primera captura de la matriz reveló una leyenda superpuesta a la última fila; se movió antes del commit y la segunda captura confirmó filas, márgenes y textos completos. La cadena declara cuatro cortafuegos y la matriz compara seis casos sin puntuarlos. Ninguno acepta datos, diagnostica, recomienda o representa tasas.
+
+## 65. MED-010 — Una huella no hereda una historia clínica
+
+![Portada editorial de MED-010](assets/visuales/hero-med-010-mesoamerica-andes-americas.png)
+
+![Cadena desde archivo hasta límite](assets/visuales/cadena-archivo-consecuencia-med-010.svg)
+
+![Matriz de archivos médicos de las Américas](assets/visuales/matriz-archivos-americas-med-010.svg)
+
+| Archivo | Tipo | Procedencia | Qué representa | Límite obligatorio |
+|---|---|---|---|---|
+| `hero-med-010-mesoamerica-andes-americas.png` | portada editorial conceptual | OpenAI ImageGen, generación nueva, 2026-08-27 | seis estaciones genéricas de fragmentos, dientes, microrestos, muestra y códices | no colección, pueblo, práctica o manuscrito reales |
+| `cadena-archivo-consecuencia-med-010.svg` | diagrama epistemológico original | SVG manual del proyecto, 2026-08-27 | archivo, procedencia, señal, práctica, consecuencia y límite | las flechas no heredan intención, beneficio o continuidad |
+| `matriz-archivos-americas-med-010.svg` | matriz documental original | SVG manual del proyecto, 2026-08-27 | seis casos, productos y límites | las filas no representan todas las Américas ni forman ranking |
+
+### Procedencia de la portada
+
+Salida original aprobada sin edición: `C:\Users\HUAWEI\.codex\generated_images\019fedb0-8f24-7e33-8d16-d2418ba3378e\exec-707fcd57-1d97-493c-9b07-93a0015bfd98.png`. Destino: `assets/visuales/hero-med-010-mesoamerica-andes-americas.png`. Dimensiones: `1672 × 941`; tamaño: `1,749,916` bytes; SHA-256: `902da91d5240a79777fc72d4edc2c28dff7f165ce1b8f9080b992687bbf1d7bb`.
+
+**Prompt de generación:**
+
+> Create a wide 16:9 editorial museum-and-laboratory hero image for a rigorous Spanish public-history research dossier titled MED-010, about reconstructing histories of care, intervention, plants, bodies, and colonial manuscripts in Mesoamerica, the Andes, and other regions of the Americas without turning traces into clinical histories. No text, no letters, no numbers, no logos, no flags, no maps, no people, no faces, no blood, no active medical procedure, no fantasy, no stereotyped pan-Indigenous motifs, no replicas of identifiable cultural artifacts, no complete skull. Use a dark obsidian museum table under warm amber and copper light, divided into SIX clearly separated archival stations with ample negative space and no implied single culture or collection: (1) several small generic weathered cranial bone fragments arranged in a shallow conservation tray, incomplete and non-diagnostic, with one abstract circular edge fragment suggesting analysis but not depicting a real specimen; (2) a few generic tooth casts and a separate tiny mineral inlay sample, clearly modern editorial props; (3) a glass microscopy slide with abstract starch-grain silhouettes and a blank laboratory card; (4) a sealed generic sample vial beside a small neutral sediment pellet, no fecal realism; (5) a closed generic herbarium-style folio on European paper with blank illustrated botanical silhouettes and no script; (6) a second closed codex-like conservation mockup with two blank columns and a blank image panel, unmistakably a contemporary prop. Connect nothing physically; use six pools of light to imply archive → provenance → signal → practice → consequence → limit. Palette: parchment, obsidian, ink black, copper, amber, mineral green, subtle deep blue. Photorealistic editorial still life, museum-quality, restrained, scientifically honest, dramatic but not sensational. Leave darker negative space at upper left and center-left for website headline. Every object generic, separated, and clearly a museum/laboratory editorial construction rather than a reconstruction of a real Indigenous collection. High detail, 1672x941 landscape.
+
+### Revisión y límites
+
+La salida se inspeccionó completa a resolución original. No contiene personas, rostros, cuerpos completos, sangre, procedimientos, mapas, banderas, logos o texto legible. Los fragmentos son genéricos, incompletos y no diagnósticos; los dientes son moldes editoriales; los códices son utilería contemporánea sin escritura.
+
+Las seis estaciones no reproducen Cuzco, Holmul, Baking Pot, Copán, Huaca El Paraíso, Piauí, el Libellus o el Códice Florentino. La proximidad visual no afirma coetaneidad, cultura compartida, función, continuidad o eficacia.
+
+Los SVG se construyeron a `1600 × 900`, incluyen `title`, `desc` y tipografía de reserva. La cadena recorre seis capas sin porcentaje ni cálculo; la matriz compara seis archivos sin puntuarlos. La primera rasterización de la matriz mostró la leyenda superpuesta a la sexta fila; se compactaron las filas y la segunda captura confirmó margen y textos completos. Ninguno acepta datos, diagnostica, recomienda o representa tratamientos.
+
+## 66. MED-011 — Una traducción no hereda una práctica
+
+![Portada editorial de MED-011](assets/visuales/hero-med-011-mundos-islamicos.png)
+
+![Cadena desde testigo hasta consecuencia](assets/visuales/cadena-testigo-consecuencia-med-011.svg)
+
+![Matriz de redes médicas de los mundos islámicos](assets/visuales/matriz-redes-medicina-med-011.svg)
+
+| Archivo | Tipo | Procedencia | Qué representa | Límite obligatorio |
+|---|---|---|---|---|
+| `hero-med-011-mundos-islamicos.png` | portada editorial conceptual | OpenAI ImageGen, generación nueva, 2026-08-27 | seis estaciones genéricas: manuscritos, notas, óptica, instrumental, institución y botica | no manuscrito, edificio, instrumento, sociedad o práctica reales |
+| `cadena-testigo-consecuencia-med-011.svg` | diagrama epistemológico original | SVG manual del proyecto, 2026-08-27 | testigo, versión, operación, institución, alcance y consecuencia | las flechas discontinuas exigen puente; no heredan práctica o efecto |
+| `matriz-redes-medicina-med-011.svg` | matriz documental original | SVG manual del proyecto, 2026-08-27 | seis redes, archivos, inferencias y límites | las filas no forman edad de oro, origen único o ranking |
+
+### Procedencia de la portada
+
+Salida original aprobada sin edición: `C:\Users\HUAWEI\.codex\generated_images\019fedb0-8f24-7e33-8d16-d2418ba3378e\exec-15150650-d211-464f-8999-632db9f3e26b.png`. Destino: `assets/visuales/hero-med-011-mundos-islamicos.png`. Dimensiones: `1672 × 941`; tamaño: `2,645,580` bytes; SHA-256: `4bb92437ad9bf618788ba1d9d81cc6b9075eec1f462928e949982e0ee4705f87`.
+
+**Prompt de generación:**
+
+> Create a cinematic editorial hero image for a rigorous Spanish public-history research website, aspect ratio 16:9, no text and no people. Theme: interconnected medical knowledge networks across medieval Islamic worlds, circa 9th–14th centuries, shown as six clearly separated evidence stations on one dark obsidian museum worktable: (1) generic layered manuscript folios in different scripts represented only as abstract non-legible marks, with separate colored translation slips and a magnifying lens suggesting collation; (2) a small generic case-notes notebook with loose numbered tabs, no readable writing; (3) a geometric optical apparatus with two apertures, a beam of warm light, and glass lens, clearly distinct from clinical tools; (4) a generic ophthalmic instrument tray with one hollow-needle-like instrument shown as an unverified textual proposal, no eye or surgery; (5) an architectural foundation plan and small wooden scale model of a courtyard institution with separate account tokens, no real building replica; (6) apothecary vessels, balance weights and fragmented prescription slips, no identifiable medicine and no readable labels. Thin copper and mineral-green threads connect the stations but do not form a single linear arrow. Rich parchment, obsidian, copper, amber and mineral-green palette; Source Serif museum sensibility; physically plausible materials; dramatic raking light; high detail; restrained scholarly atmosphere; ample dark negative space at left-center for website heading; no fantasy, no magical glow, no crescent-symbol decoration, no mosque silhouette, no stock-medical iconography, no modern laboratory, no map borders, no invented readable Arabic, Latin or Hebrew lettering, no logos, no watermarks. The image must communicate that manuscript, translation, practice, institution and outcome are distinct evidence layers rather than one triumphant golden-age story.
+
+### Revisión y límites
+
+La salida se inspeccionó completa. No contiene personas, rostros, cuerpos, sangre, cirugía, mapas, banderas, emblemas religiosos, logos o texto legible. Las marcas manuscritas son textura abstracta no transcribible; instrumentos, frascos, plano y maqueta son utilería editorial genérica.
+
+Las estaciones no reproducen el taller de Hunayn, un manuscrito de Galeno, el archivo de al-Razi, el `Canon`, el aparato de Ibn al-Haytham, la aguja de Ammar, el bimaristan de Qalawun o documentos de la Geniza. Hilos y proximidad no afirman flujo lineal, coetaneidad, uso, cobertura o eficacia.
+
+Los SVG se construyeron y rasterizaron a `1600 × 900`, incluyen `title`, `desc` y tipografía de reserva. La revisión confirmó márgenes, seis capas y seis filas completas. La cadena usa flechas discontinuas como puentes auditables; la matriz no contiene puntuaciones. Ninguno acepta datos, diagnostica, recomienda o representa resultados clínicos.
+
+## 67. MED-012 — Un currículo no hereda una consulta
+
+![Portada editorial de MED-012](assets/visuales/hero-med-012-europa-medieval-tradiciones-judias.png)
+
+![Cadena desde testigo hasta alcance](assets/visuales/cadena-testigo-alcance-med-012.svg)
+
+![Matriz de espacios médicos medievales](assets/visuales/matriz-espacios-medicina-med-012.svg)
+
+| Archivo | Tipo | Procedencia | Qué representa | Límite obligatorio |
+|---|---|---|---|---|
+| `hero-med-012-europa-medieval-tradiciones-judias.png` | portada editorial conceptual | OpenAI ImageGen, generación nueva, 2026-08-27 | códice, cuidado doméstico, tres fascículos, traducción, enseñanza, instrumental y hospital | no manuscrito, contrato, institución, comunidad o práctica reales |
+| `cadena-testigo-alcance-med-012.svg` | diagrama epistemológico original | SVG manual del proyecto, 2026-08-27 | testigo, versión, currículo, practicante, encuentro y alcance | las flechas no heredan consulta, competencia o efecto |
+| `matriz-espacios-medicina-med-012.svg` | matriz documental original | SVG manual del proyecto, 2026-08-27 | seis archivos, productos y límites | las filas no forman progreso, confesión médica o ranking |
+
+### Procedencia de la portada
+
+Salida original aprobada sin edición: `C:\Users\HUAWEI\.codex\generated_images\019fedb0-8f24-7e33-8d16-d2418ba3378e\exec-58757693-70e2-4927-bb29-bd9356658c33.png`. Destino: `assets/visuales/hero-med-012-europa-medieval-tradiciones-judias.png`. Dimensiones: `1672 × 941`; tamaño: `2,046,782` bytes; SHA-256: `387add8c4a32c0e65dbb967c1c585f94d118882036f05120417bf889c82e04b9`.
+
+**Prompt de generación:**
+
+> Create a cinematic editorial museum still-life for a Spanish public history-of-medicine research platform, 16:9 landscape, 1672×941. Theme: medieval Europe and Jewish medical traditions as overlapping networks, never a single civilization or linear progress. A dark obsidian museum table with warm copper and amber light, mineral green accents. Six visually distinct but connected evidence stations arranged without hierarchy: (1) a generic bound parchment codex with abstract unreadable marks and a small later marginal addition, (2) domestic care objects such as a plain ceramic bowl, linen and herbs, (3) three separate manuscript fascicles suggesting the Trotula textual ensemble, (4) a translation desk with loose generic folios in abstract non-legible Latin-like, Hebrew-like and Arabic-like marks, clearly decorative and not real text, (5) a university commentary station with wax tablet, blank charter seal and geometric reading diagram, (6) a modest surgical instrument roll beside a small architectural model of a charitable hospital. Fine copper threads connect objects but branch and loop, not a straight timeline. No people, no faces, no skeletons, no crosses or religious symbols as decoration, no readable words, no modern medical technology, no fantasy magic, no stock-photo aesthetic. Historically inspired materials but explicitly generic editorial reconstruction, photorealistic museum photography, tactile parchment, wood, brass, linen, dramatic but restrained, generous negative space for web hero text on the left, important objects weighted to the right, no border, no watermark, no title.
+
+### Revisión y límites
+
+La salida se inspeccionó completa. No contiene personas, rostros, cuerpos, sangre, cirugía activa, mapas, banderas, logos o texto transcribible. Las marcas manuscritas son textura abstracta; códices, contrato, sello, instrumentos y maqueta son utilería editorial genérica.
+
+Las seis estaciones no reproducen Royal MS 12 D XVII, el Trotula, el Pantegni, una Articella, un estatuto universitario, el tratado de Guy de Chauliac, St John de Cambridge o un contrato de un practicante judío. Los hilos no afirman transmisión lineal, coetaneidad, uso, tolerancia o eficacia.
+
+Los SVG se construyeron a `1600 × 900`, incluyen `title`, `desc` y tipografía de reserva. La cadena mantiene seis capas y cortafuegos; la matriz compara seis archivos sin puntuaciones. Ninguno acepta datos, diagnostica, recomienda o representa resultados clínicos.
+
+## 68. MED-013 — Una ruta no demuestra una transferencia
+
+![Portada editorial de MED-013](assets/visuales/hero-med-013-rutas-indico-eurasia.png)
+
+![Cadena desde huella hasta alcance](assets/visuales/cadena-huella-alcance-med-013.svg)
+
+![Matriz de rutas, productos y límites](assets/visuales/matriz-rutas-transferencia-med-013.svg)
+
+| Archivo | Tipo | Procedencia | Qué representa | Límite obligatorio |
+|---|---|---|---|---|
+| `hero-med-013-rutas-indico-eurasia.png` | portada editorial conceptual | OpenAI ImageGen, generación nueva, 2026-08-28 | estaciones genéricas de carga, manuscrito, carta, regalo, traducción, imprenta y rutas ramificadas | no pecio, manuscrito, ruta, sustancia, comunidad o práctica reales |
+| `cadena-huella-alcance-med-013.svg` | diagrama epistemológico original | SVG manual del proyecto, 2026-08-28 | huella, identificación, itinerario, mediación, recepción y alcance | las flechas no heredan función, adopción o efecto |
+| `matriz-rutas-transferencia-med-013.svg` | matriz documental original | SVG manual del proyecto, 2026-08-28 | seis archivos, mediaciones, recepciones y límites | las filas no forman distancia, centralidad, progreso o ranking |
+
+### Procedencia de la portada
+
+Salida original aprobada sin edición: `C:\Users\HUAWEI\.codex\generated_images\019fedb0-8f24-7e33-8d16-d2418ba3378e\exec-ca2c2e25-3223-4e46-9bf3-83a98f610d4e.png`. Destino: `assets/visuales/hero-med-013-rutas-indico-eurasia.png`. Dimensiones: `1672 × 941`; tamaño: `2,339,218` bytes; SHA-256: `634d63a02249925f35ddbe15fe3d30a81a5dbe41b2ac9f9dd6c06b05e21ee777`.
+
+**Prompt de generación:**
+
+> Use case: historical-scene. Asset type: 16:9 website hero for a public-history museum and evidence laboratory, MED-013. Create an original, cinematic museum-editorial still life about how medical knowledge traveled with people, merchandise, manuscripts and empires across the Indian Ocean and Eurasia, circa 800–1600, while visually refusing the idea of one simple Silk Road or automatic transfer. Dark obsidian museum table merging into a barely visible parchment-toned network map; several branching sea and land itineraries, interrupted and uncertain, not a single arrow. Generic archaeological and archival proxies arranged in separate evidence stations: a small wooden ship model with ceramic cargo, translucent amber resin fragments and spice seeds, loose manuscript folios in different undecipherable scripts, a merchant letter and inventory fragments, a sealed diplomatic gift container, a court translation folio with marginal notes, and an early printed botanical page beside unlabelled dried plant specimens. Highly polished photorealistic editorial museum photography, materially plausible, restrained and scholarly, consistent with a living museum plus evidence laboratory. Wide 16:9, generous dark negative space on the left for website copy; evidence stations concentrated center-right; fine copper and mineral-green threads connect only documented stations and visibly stop where inference ends. Warm amber raking light, cool green mineral accents, deep obsidian shadows. No people; no human remains; no sacred or uniquely identifiable artifact replicas; no modern maps or borders; no straight Europe-to-Asia progress arrow; no compass rose; no anachronistic instruments; no false medical procedure; no logos, captions, watermarks or readable text. The image is editorial, not evidentiary.
+
+### Revisión y límites
+
+La salida se inspeccionó completa a resolución original. No contiene personas, cuerpos, sangre, cirugía, banderas, fronteras políticas, logos o rótulos. Las marcas de los folios son textura pseudoescrita no usada como fuente; barco, cerámica, resina, sello, plantas, carta y libros son utilería genérica.
+
+La composición no reproduce el pecio de Belitung, un manuscrito de Dunhuang, un fragmento de la Geniza, un regalo bizantino o islamicate, el `Tānksūqnāma`, el `Huihui yaofang`, los `Colóquios` o una ruta geográfica real. Los hilos ramificados no afirman coetaneidad, dirección, transferencia, adopción o eficacia.
+
+Los SVG se construyeron a `1600 × 900`, incluyen `title`, `desc` y tipografía de reserva. La cadena mantiene seis capas y cortafuegos; la matriz compara seis archivos sin puntuaciones. Ninguno acepta datos, calcula rutas, diagnostica, recomienda o representa resultados clínicos.
+
+## 69. MED-014 — Un brote narrado no es un diagnóstico ni una cifra
+
+![Portada editorial de MED-014](assets/visuales/hero-med-014-epidemias-cuarentenas.png)
+
+![Cadena desde testimonio hasta desigualdad](assets/visuales/cadena-testimonio-desigualdad-med-014.svg)
+
+![Matriz de epidemias, cuarentenas y límites](assets/visuales/matriz-epidemias-cuarentenas-med-014.svg)
+
+| Archivo | Tipo | Procedencia | Qué representa | Límite obligatorio |
+|---|---|---|---|---|
+| `hero-med-014-epidemias-cuarentenas.png` | portada editorial conceptual | OpenAI ImageGen, generación nueva, 2026-08-28 | libro de mortalidad, muestra, paisaje, lazareto, pase y cordón genéricos | no víctima, brote, documento, institución, población o política reales |
+| `cadena-testimonio-desigualdad-med-014.svg` | diagrama epistemológico original | SVG manual del proyecto, 2026-08-28 | testimonio, agente, magnitud, respuesta, cumplimiento y desigualdad | las flechas no heredan diagnóstico, cifra, ejecución, efecto o justicia |
+| `matriz-epidemias-cuarentenas-med-014.svg` | matriz documental original | SVG manual del proyecto, 2026-08-28 | seis expedientes, archivos, inferencias y límites | las filas no forman severidad, progreso sanitario o ranking |
+
+### Procedencia de la portada
+
+Salida original aprobada sin edición: `C:\Users\HUAWEI\.codex\generated_images\019fedb0-8f24-7e33-8d16-d2418ba3378e\exec-94a8564d-2e52-4be9-ae73-334e36df50ed.png`. Destino: `assets/visuales/hero-med-014-epidemias-cuarentenas.png`. Dimensiones: `1672 × 941`; tamaño: `1,984,695` bytes; SHA-256: `144f055ff947bf7dc2ef60204a28a417c0b18cea4fab27bc1ad62e0c0058375f`.
+
+**Prompt de generación:**
+
+> Create one original 16:9 editorial museum still-life hero image for a Spanish public history-of-medicine research platform. Topic: how historians reconstruct epidemics and quarantines without turning a reported outbreak into an automatic retrospective diagnosis. View from slightly above across a long dark obsidian archival table in a dim museum laboratory. Keep the LEFT 42% deliberately calm, dark, and low-detail as negative space for white website title text. On the CENTER and RIGHT, arrange six clearly separated but visually connected evidence stations: (1) an open historical mortality ledger with abstract unreadable rows and small tally marks, no legible words or numbers; (2) a small archaeological sample tray containing one generic tooth fragment beside a sterile sampling tube, respectful and non-graphic; (3) a rolled regional pollen-core diagram and a simple burial-plan sheet with abstract marks; (4) a miniature wooden port and lazaret/quarantine-island architectural model; (5) a sealed generic health pass and folded municipal order with wax seal, all writing illegible; (6) a thin red cordon thread passing through checkpoints and ending beside household tokens of unequal size, suggesting uneven burdens. Add a small ship model and cargo seal in the background, but no mapped route and no modern border. Warm parchment papers, obsidian shadows, copper instruments, amber highlights and mineral-green glass; subtle shafts of museum light; realistic materials; rigorous, contemplative, humane, premium documentary photography. The composition must communicate layers of evidence, institutions, compliance and inequality, not disease spectacle. No people, no corpses, no gore, no rats, no fleas, no skulls, no plague-doctor mask, no modern medical equipment, no microscope, no biohazard symbol, no readable text, no logo, no watermark, no decorative map borders, no single causal arrow, no implication that quarantine was uniformly effective. Photorealistic editorial still life, cinematic but scientifically restrained, full-bleed 16:9, strong focal clarity on the right, ample left-side title-safe space.
+
+### Revisión y límites
+
+La salida se inspeccionó completa a resolución original. No contiene personas, cadáveres, sangre, ratas, pulgas, cráneos, máscara de médico de peste, instrumentos modernos, fronteras, logos o texto transcribible. Libro, diente, tubo, diagramas, pase, sello, puerto, lazareto, barco, cordón y fichas son utilería editorial genérica.
+
+La composición no reproduce Jerash, Kara-Djigach, East Smithfield, Ragusa, Venecia, Bristol, Londres, el Grand Saint-Antoine, Marsella ni una orden, fosa o población real. Proximidad y cordón no afirman ruta, agente, obediencia, eficacia, causalidad o justicia.
+
+Los SVG se construyeron a `1600 × 900`, incluyen `title`, `desc` y tipografía de reserva. La cadena mantiene seis capas y cortafuegos; la matriz compara seis expedientes sin puntuaciones. Ninguno acepta síntomas, calcula mortalidad, diagnostica, recomienda o representa resultados clínicos.
+
+## 70. MED-015 — Contacto no es causa suficiente
+
+![Portada editorial de MED-015](assets/visuales/hero-med-015-encuentros-coloniales.png)
+
+![Cadena desde exposición hasta supervivencia](assets/visuales/cadena-exposicion-supervivencia-med-015.svg)
+
+![Matriz de encuentros coloniales, archivos y límites](assets/visuales/matriz-encuentros-coloniales-med-015.svg)
+
+| Archivo | Tipo | Procedencia | Qué representa | Límite obligatorio |
+|---|---|---|---|---|
+| `hero-med-015-encuentros-coloniales.png` | portada editorial conceptual | OpenAI ImageGen, generación nueva, 2026-08-28 | registros, fragmentos, mineral, alimento, navío, plantas e hilos genéricos | no persona, comunidad, documento, mina, misión, travesía, planta o acontecimiento reales |
+| `cadena-exposicion-supervivencia-med-015.svg` | diagrama epistemológico original | SVG manual del proyecto, 2026-08-28 | exposición, violencia, trabajo, nutrición, clasificación, respuesta y supervivencia | las flechas no heredan infección, causa, carga, identidad, eficacia o ausencia de daño |
+| `matriz-encuentros-coloniales-med-015.svg` | matriz documental original | SVG manual del proyecto, 2026-08-28 | siete expedientes, archivos, mecanismos y límites | las filas no forman sufrimiento, resiliencia, progreso o ranking |
+
+### Procedencia de la portada
+
+Salida original aprobada sin edición: `C:\Users\HUAWEI\.codex\generated_images\019fedb0-8f24-7e33-8d16-d2418ba3378e\exec-017986ca-1f3e-4db0-8f30-cafbd4699072.png`. Destino: `assets/visuales/hero-med-015-encuentros-coloniales.png`. Dimensiones: `1672 × 941`; tamaño: `1,976,358` bytes; SHA-256: `72f524f0b43b10c454e22b198f7786a366708179c6c79843d9c1da6e6f46bf58`.
+
+**Prompt de generación:**
+
+> Create one original 16:9 cinematic editorial museum still-life hero image for a Spanish public history-of-medicine platform. Topic: how colonial encounters restructured bodies, health, labor, food, classification, care, and knowledge without reducing catastrophe to mere contact. Composition: a long obsidian archival table viewed slightly from above; reserve the LEFT 42% as dark, calm, low-detail title-safe negative space. Across the CENTER and RIGHT, arrange seven distinct but subtly connected evidence stations: an unreadable tribute ledger with tally marks; a small respectful archaeological sample tray with generic bone fragments only and absolutely no face or skull display; a sealed piece of cinnabar-like red mineral beside a historical mining token and a closed glass assay vessel, no spills; an unreadable mission register beside generic food remains and a small woven fragment; an abstract wooden ship-hold plan made from model pieces with no shackles, no bodies and no sensationalism; a botanical press containing generic bark, leaves and an unreadable specimen tag; fine copper and mineral-green threads linking the stations while remaining visibly unequal and interrupted. Visual language: living museum plus evidence laboratory, warm chiaroscuro, parchment, copper, amber, mineral green, matte black, historically suggestive but not a reenactment. The image should communicate exposure, violence, labor, nutrition, classification, response, and survival through archives and material traces, never through suffering as spectacle. No people, no gore, no faces, no skulls, no bones arranged as a body, no readable text, no national borders or maps, no logos, no watermark, no modern medical equipment, no decorative DNA helix, no fantasy symbols. Preserve generous dark negative space on the left and keep all important objects away from edges. High-end editorial photography, tactile materials, coherent lighting, restrained detail, 16:9.
+
+### Revisión y límites
+
+La salida se inspeccionó completa a resolución original. No contiene personas, rostros, cráneos, cuerpos, sangre, cadenas, fronteras, logos, instrumentos médicos modernos o texto transcribible. Libro, fragmentos, mineral, recipiente, alimentos, tejido, navío, herbario e hilos son utilería editorial genérica.
+
+La composición no reproduce La Española, Teposcolula, Huancavelica, Potosí, Filipinas, Newton, Jamaica, Alta California, Guayases, una especie de *Cinchona* ni un archivo real. La proximidad entre estaciones no afirma coetaneidad, transmisión, monocausa, identidad, acceso, eficacia, crédito o justicia.
+
+Los SVG se construyeron a `1600 × 900`, incluyen `title`, `desc` y tipografía de reserva. La cadena mantiene siete capas con cortafuegos; la matriz compara siete expedientes sin puntuaciones. Ninguno acepta datos personales, diagnostica, calcula mortalidad, recomienda o representa sufrimiento real.
+
+## 71. MED-016 — Un cuerpo abierto no corrige un libro por sí solo
+
+![Portada editorial de MED-016](assets/visuales/hero-med-016-anatomia-diseccion-imprenta.png)
+
+![Cadena desde cuerpo disponible hasta circulación](assets/visuales/cadena-cuerpo-circulacion-med-016.svg)
+
+![Matriz de anatomía, imprenta y límites](assets/visuales/matriz-anatomia-imprenta-med-016.svg)
+
+| Archivo | Tipo | Procedencia | Qué representa | Límite obligatorio |
+|---|---|---|---|---|
+| `hero-med-016-anatomia-diseccion-imprenta.png` | portada editorial conceptual | OpenAI ImageGen, generación nueva, 2026-08-28 | registros, instrumentos, diagramas, tipos, manuscritos, correcciones e hilos genéricos | no cuerpo, disección, lámina, edición, tradición o acontecimiento reales |
+| `cadena-cuerpo-circulacion-med-016.svg` | diagrama epistemológico original | SVG manual del proyecto, 2026-08-28 | cuerpo, procedimiento, imagen, texto, comparación, corrección y circulación | las flechas no heredan representatividad, verdad, práctica, exactitud, adopción o efecto |
+| `matriz-anatomia-imprenta-med-016.svg` | matriz documental original | SVG manual del proyecto, 2026-08-28 | siete expedientes, archivos, productos y límites | las filas no forman modernidad, racionalidad, exactitud general o ranking cultural |
+
+### Procedencia de la portada
+
+Salida original aprobada sin edición: `C:\Users\HUAWEI\.codex\generated_images\019fedb0-8f24-7e33-8d16-d2418ba3378e\exec-69af3e69-aaa1-4064-b4d7-9b4a533c738c.png`. Destino: `assets/visuales/hero-med-016-anatomia-diseccion-imprenta.png`. Dimensiones: `1672 × 941`; tamaño: `2,143,433` bytes; SHA-256: `93dcfea578cb760c394f093d0f17eca9cfc378e988888a1e08e80b546acf85ae`.
+
+**Prompt de generación:**
+
+> Create one original 16:9 cinematic editorial museum still-life hero image for a Spanish public history-of-medicine platform. Topic: how anatomy changed through access to bodies, procedures, diagrams, texts, comparison, correction, translation, and print — without portraying dissection as automatic truth or Europe as the only center. Composition: a long matte obsidian archival table viewed slightly from above; reserve the LEFT 42% as deep, calm, low-detail title-safe negative space. Across the CENTER and RIGHT, arrange seven subtly connected evidence stations: a closed judicial or hospital register with an unreadable tag and a folded undyed linen cloth suggesting regulated access to a body but showing no person or remains; a restrained historical probe and scalpel laid beside a small wooden procedure tray; an original generic hand-drawn schematic anatomical diagram on parchment with no readable words and no copied historical plate; carved woodblocks, movable type pieces and a fresh but unreadable printed proof; two overlapping comparison sheets with tiny neutral geometric anatomical outlines and copper correction marks; a Persian-style bound manuscript, an Ottoman-style manuscript, a Japanese fukurotoji-bound volume and a Qing-style stitched book, all generic, closed or partly open, with no legible script and no reproduction of real pages; a magnifying lens above variant diagrams, with thin copper and mineral-green threads linking stations while several threads visibly break or diverge. Visual language: living museum plus evidence laboratory, warm chiaroscuro, parchment, copper, amber, mineral green, matte black, tactile paper, wood and metal, historically suggestive but not a reenactment. Communicate that observation becomes knowledge only through comparison, correction and circulation. No people, no corpse, no body parts, no bones, no skulls, no gore, no readable text, no religious symbols, no national flags or borders, no logos, no watermark, no modern medical equipment, no decorative DNA helix, no fantasy symbols. Keep every important object away from edges, preserve generous dark negative space on the left, coherent single light source, high-end editorial photography, restrained detail, 16:9.
+
+### Revisión y límites
+
+La salida se inspeccionó completa a resolución original. No contiene personas, cadáveres, partes corporales, huesos, cráneos, sangre, banderas, fronteras, símbolos religiosos, logos, equipo moderno o texto transcribible. Registro, tela, instrumentos, bandeja, diagramas, bloques, tipos, pruebas, libros, lente e hilos son utilería editorial genérica.
+
+La composición no reproduce el manuscrito de Manṣūr, una demostración boloñesa, la *Fabrica*, Valverde, una autopsia novohispana, el manuscrito de Itâkî, *Kaitai shinsho*, *Yilin gaicuo* ni un taller real. La proximidad entre objetos no afirma coetaneidad, ruta, copia, observación directa, corrección, adopción o beneficio.
+
+Los SVG se construyeron a `1600 × 900`, incluyen `title`, `desc` y tipografía de reserva. La cadena mantiene siete capas con cortafuegos y la matriz compara siete expedientes sin puntuaciones. Ninguno acepta datos personales, representa una disección, diagnostica, recomienda o calcula resultados clínicos.
+
+## 72. MED-017 — Una ligadura no descubre una circulación por sí sola
+
+![Portada editorial de MED-017](assets/visuales/hero-med-017-circulacion-fisiologia.png)
+
+![Cadena desde sistema heredado hasta recepción](assets/visuales/cadena-sistema-experimento-recepcion-med-017.svg)
+
+![Matriz de circulación, fisiología y límites](assets/visuales/matriz-circulacion-fisiologia-med-017.svg)
+
+| Archivo | Tipo | Procedencia | Qué representa | Límite obligatorio |
+|---|---|---|---|---|
+| `hero-med-017-circulacion-fisiologia.png` | portada editorial conceptual | OpenAI ImageGen, generación nueva, 2026-08-28 | libros, pulso, ligadura, comparación, lente, columna e hilos genéricos | no experimento, aparato, texto, tradición, cuerpo o acontecimiento reales |
+| `cadena-sistema-experimento-recepcion-med-017.svg` | diagrama epistemológico original | SVG manual del proyecto, 2026-08-28 | sistema, preparación, intervención, medición, comparación, mecanismo y recepción | las flechas no heredan observación, cuerpo intacto, mecanismo, exactitud, generalización, beneficio o consenso |
+| `matriz-circulacion-fisiologia-med-017.svg` | matriz documental original | SVG manual del proyecto, 2026-08-28 | ocho expedientes, archivos, productos y fallos | las filas no forman modernidad, prioridad, exactitud general o ranking cultural |
+
+### Procedencia de la portada
+
+Salida original aprobada sin edición: `C:\Users\HUAWEI\.codex\generated_images\019fedb0-8f24-7e33-8d16-d2418ba3378e\exec-1791b89c-413e-483e-9554-3536cf41dcb3.png`. Destino: `assets/visuales/hero-med-017-circulacion-fisiologia.png`. Dimensiones: `1672 × 941`; tamaño: `2,127,551` bytes; SHA-256: `9c03f6d543ab16d73a9747667ba34aaf70b4b5f281a792fb5cf04c1f97016f74`.
+
+**Prompt de generación:**
+
+> Use case: historical-scene. Asset type: wide website hero for the public history-of-medicine research MED-017. Primary request: an original museum-like editorial still life about how circulation and experimental physiology became measurable, without a lone hero or a literal discovery scene. Scene/backdrop: a dark early-modern study-laboratory with a worn oak table, softly receding shelves and an obsidian background. Subject: on the right two-thirds, a carefully arranged chain of generic evidence objects: several closed and open codices from different manuscript and print traditions with no legible writing, a small pulse-taking cushion and neutral wrist-rest suggesting tactile observation, a loose silk ligature beside a schematic branching-vessel drawing, a brass compass and counting tokens suggesting comparison and quantity, a simple seventeenth-century single-lens microscope, a clear vertical glass tube connected to inert brass tubing suggesting an early pressure experiment, and overlapping translucent red and deep-blue threads forming a closed loop without resembling a modern textbook diagram. Style/medium: historically grounded cinematic editorial photography, tactile museum realism, subtle film grain, not fantasy, not an infographic. Composition/framing: 16:9 landscape; restrained wide shot; main objects grouped to the right and lower center; generous calm negative space on the left for white website copy; no central portrait. Lighting/mood: low warm raking light, copper and amber highlights, mineral-green reflections, contemplative and investigative rather than triumphant. Color palette: obsidian, parchment, ink black, aged copper, muted amber, mineral green, restrained deep red and blue. Materials/textures: worn paper fibers, wood grain, tarnished brass, clear hand-blown glass, woven silk. Constraints: no people, no faces, no exposed body, no blood or gore, no living or dead animals, no famous portrait, no readable text, no labels, no logos, no watermark; all objects must look generic and editorial, not replicas of a specific surviving artifact; leave the left side visually quiet. Avoid: lone-genius iconography, heroic pose, operating theatre spectacle, modern hospital equipment, neon colors, stock-photo polish, anatomical heart model, fake scientific labels.
+
+### Revisión y límites
+
+La salida se inspeccionó completa a resolución original. No contiene personas, rostros, cuerpos, sangre, animales, retratos, logos, equipo hospitalario moderno o texto transcribible. Libros, cojín, soporte, ligadura, dibujo, compás, fichas, lente, tubo, conexiones e hilos son utilería editorial genérica.
+
+La composición no reproduce un tratado galénico, el comentario de Ibn al-Nafīs, un manual chino de pulso, Servet, Colombo, Fabricius, *De motu cordis*, las cartas de Malpighi, *Haemastaticks* ni un aparato real. La proximidad de los objetos no afirma coetaneidad, transmisión, prioridad, réplica, circulación cerrada, exactitud, recepción o beneficio clínico.
+
+Los SVG se construyeron a `1600 × 900`, incluyen `title`, `desc` y tipografía de reserva. La cadena mantiene siete capas con cortafuegos; la matriz compara ocho expedientes sin puntuaciones. Ninguno acepta datos personales, representa una vivisección, calcula flujo o presión, diagnostica, recomienda o simula un resultado clínico.
+
+## 73. MED-018 — Una lesión no contiene una enfermedad por sí sola
+
+![Portada editorial de MED-018](assets/visuales/hero-med-018-microscopia-anatomia-patologica.png)
+
+![Cadena desde episodio hasta enfermedad](assets/visuales/cadena-episodio-enfermedad-med-018.svg)
+
+![Matriz de microscopía, anatomía patológica y límites](assets/visuales/matriz-microscopia-anatomia-patologica-med-018.svg)
+
+| Archivo | Tipo | Procedencia | Qué representa | Límite obligatorio |
+|---|---|---|---|---|
+| `hero-med-018-microscopia-anatomia-patologica.png` | portada editorial conceptual | OpenAI ImageGen, generación nueva, 2026-08-28 | expediente, muestra genérica sellada, microtomo, bloque, láminas, tinciones, microscopios y correlación | no cuerpo, órgano, diagnóstico, espécimen real, colección o acontecimiento |
+| `cadena-episodio-enfermedad-med-018.svg` | diagrama epistemológico original | SVG manual del proyecto, 2026-08-28 | episodio, espécimen, preparación, visualización, lesión, correlación y enfermedad | las flechas no heredan representatividad, neutralidad, causalidad, diagnóstico o beneficio |
+| `matriz-microscopia-anatomia-patologica-med-018.svg` | matriz documental original | SVG manual del proyecto, 2026-08-28 | ocho expedientes, archivos, productos y fallos | las filas no forman prioridad, modernidad, exactitud general o ranking cultural |
+
+### Procedencia de la portada
+
+Salida original aprobada sin edición: `C:\Users\HUAWEI\.codex\generated_images\019fedb0-8f24-7e33-8d16-d2418ba3378e\exec-3f92e740-8af5-4345-9b89-c1beafe98c27.png`. Destino: `assets/visuales/hero-med-018-microscopia-anatomia-patologica.png`. Dimensiones: `1672 × 941`; tamaño: `2,366,937` bytes; SHA-256: `380037543a2da61a588349d8dd6101d256c783bc079fe80eb484e84685c56912`.
+
+**Prompt de generación:**
+
+> Use case: photorealistic-natural. Asset type: wide website hero image for MED-018 in a rigorous Spanish public history-of-medicine platform. Primary request: an original museum-conservation laboratory still life explaining how autopsy, tissue preparation, microscopy, lesion classification, clinicopathological correlation and diagnosis became connected without implying that a slide contains a disease by itself. Scene/backdrop: dark obsidian conservation table in a quiet museum laboratory, warm parchment backdrop fading into deep charcoal. Subject: seven clearly separated evidence stations arranged as a branching chain rather than a linear triumph: a closed generic historical case ledger with blank pages; a sealed neutral specimen jar containing only an abstract pale folded material with no recognizable organ; a small brass microtome beside an uncut paraffin block; several blank glass slides and restrained stain bottles; an early brass microscope; a modern optical microscope eyepiece beside a generic stained slide with abstract non-diagnostic colored shapes; and a blank clinical correlation card with copper threads connecting but never merging the stations. Style/medium: photorealistic editorial museum photography, historically inspired but explicitly generic, sophisticated and materially precise. Composition/framing: cinematic 16:9 landscape, shallow three-quarter overhead angle, main objects weighted toward the right and lower-right, generous dark negative space at upper-left and center-left for responsive web headline, every station physically distinct. Lighting/mood: warm amber raking light, copper highlights, restrained mineral-green accents, quiet investigative mood, deep controlled shadows. Color palette: parchment, obsidian, ink black, copper, amber, mineral green, subtle muted hematoxylin violet and eosin rose only on one abstract slide. Materials/textures: aged paper, brass, glass, wax, dark wood, linen, steel blade guard, archival card. Constraints: no people, no hands, no body, no face, no skull, no bones, no organs, no blood, no gore, no active autopsy, no surgical scene, no named historical artifact, no readable writing, no letters, no numbers, no labels, no logos, no watermark, no decorative floating cells, no DNA helix, no false scientific diagram, no modern hospital room; objects must remain generic and cannot be mistaken for a photograph of one real collection or one diagnostic specimen. Output intent: premium hero image consistent with a museum-laboratory visual system, 1672x941 or closest native 16:9.
+
+### Revisión y límites
+
+La salida se inspeccionó completa a resolución original. No contiene personas, manos, cuerpos, rostros, cráneos, huesos, órganos, sangre, autopsia, cirugía, texto transcribible, logos o equipo hospitalario moderno. Expediente, recipiente, material plegado abstracto, microtomo, bloque, portaobjetos, reactivos, microscopios, tarjeta e hilos son utilería editorial genérica.
+
+La composición no reproduce el *Xiyuan jilu*, *Micrographia*, *De sedibus*, *Anatomie générale*, el hospital de Viena, *Cellular Pathology*, una lámina H&E, un frotis cervical, un espécimen, colección, laboratorio o acontecimiento reales. La proximidad entre objetos no afirma coetaneidad, transmisión, prioridad, diagnóstico, causalidad, eficacia o beneficio.
+
+Los SVG se construyeron a `1600 × 900`, incluyen `title`, `desc` y tipografía de reserva. La cadena mantiene siete capas con cortafuegos; la matriz compara ocho expedientes sin puntuaciones. Ninguno acepta datos personales, muestra tejido diagnóstico, calcula resultados, diagnostica, recomienda o simula un caso clínico.
+
+## 74. MED-019 — Una cama hospitalaria no convierte a una persona en un caso por sí sola
+
+![Portada editorial de MED-019](assets/visuales/hero-med-019-hospitales-cabecera-examen-clinico.png)
+
+![Cadena desde institución hasta decisión](assets/visuales/cadena-institucion-decision-med-019.svg)
+
+![Matriz de hospitales, examen clínico y límites](assets/visuales/matriz-hospitales-examen-clinico-med-019.svg)
+
+| Archivo | Tipo | Procedencia | Qué representa | Límite obligatorio |
+|---|---|---|---|---|
+| `hero-med-019-hospitales-cabecera-examen-clinico.png` | portada editorial conceptual | OpenAI ImageGen, generación nueva, 2026-08-28 | sala vacía, camas, biombo, expediente, tarjetas, instrumental, regla, cuidado e hilos genéricos | no hospital, paciente, examen, expediente, instrumento compuesto o acontecimiento reales |
+| `cadena-institucion-decision-med-019.svg` | diagrama epistemológico original | SVG manual del proyecto, 2026-08-28 | institución, admisión, encuentro, examen, registro, comparación y decisión | las flechas no heredan acceso, representatividad, consentimiento, lesión, persona, causalidad o beneficio |
+| `matriz-hospitales-examen-clinico-med-019.svg` | matriz documental original | SVG manual del proyecto, 2026-08-28 | ocho expedientes, archivos, productos y límites | las filas no forman modernidad, eficacia, prioridad o ranking institucional y cultural |
+
+### Procedencia de la portada
+
+Salida original aprobada sin edición: `C:\Users\HUAWEI\.codex\generated_images\019fedb0-8f24-7e33-8d16-d2418ba3378e\exec-3479c64e-6207-4471-b8a2-fc748937908c.png`. Destino: `assets/visuales/hero-med-019-hospitales-cabecera-examen-clinico.png`. Dimensiones: `1672 × 941`; tamaño: `1,979,630` bytes; SHA-256: `92facd19a94aa7bf4a9027fa74a86462ff29947330a4728e31a3b331eab0e84e`.
+
+**Prompt de generación:**
+
+> Use case: historical-scene. Asset type: wide website hero for an evidence-based public history of medicine. Primary request: an original cinematic editorial tableau about how hospitals, bedside examination, medical records, comparison, and clinical decisions became connected; the image must read as a conceptual museum composition, not as a documentary photograph of one real hospital. Scene/backdrop: a deep, quiet nineteenth-century hospital ward with several neatly made empty iron beds, tall windows, a plain privacy screen, subdued architectural layers suggesting different institutions without copying any named site. Subject: in the foreground, an open but completely blank generic case ledger, loose blank case cards, a wooden monaural stethoscope, simple percussion pleximeter, ink pen, folded clean cloth, and measuring rule; fine copper-colored threads visually connect bed, examination instrument, record, comparison cards, and a final decision marker. Style/medium: high-end historically informed cinematic editorial photography with museum still-life precision, realistic worn paper, wood, iron, linen and plaster; subtle film grain; no fantasy effects. Composition/framing: 16:9-ish wide landscape, low eye-level view down the ward, strong depth, central evidence objects, generous dark negative space for white web copy; objects fully inside frame and readable at hero crop. Lighting/mood: warm amber window light against obsidian and mineral-green shadows; serious, humane, investigative, restrained. Color palette: parchment, ink black, oxidized copper, amber, muted mineral green. Constraints: all beds empty; no patients, no identifiable people, no bodies, no procedures, no blood, no gore; no text, letters, numbers, labels, logos, watermarks or institutional emblems; no modern monitors, plastics, disposable devices, electric screens or contemporary stethoscopes; no false claim that these objects belonged together historically; no national flags; no triumphalist progress imagery. Avoid: staged reenactment with actors, romanticized suffering, steampunk machinery, glowing magic, stock-photo gloss, illegible pseudo-writing, cropped foreground objects.
+
+### Revisión y límites
+
+La salida se inspeccionó completa a resolución original y la copia incorporada conserva el mismo archivo. No contiene personas, pacientes, cuerpos, procedimientos, sangre, logos, emblemas, pantallas, plástico médico moderno o texto transcribible. Sala, camas, biombo, expediente en blanco, tarjetas, estetoscopio monoaural, objeto de percusión, pluma, regla, tela e hilos son utilería editorial genérica.
+
+La composición no reproduce Leiden, Edimburgo, París, Bezm-i Alem, San Andrés, el Medical College de Calcuta, la Universidad de Tokio, una ficha clínica, un encuentro o un hospital reales. La proximidad de objetos no afirma coetaneidad, transmisión, consentimiento, representatividad, exactitud, eficacia, beneficio o justicia.
+
+Los SVG se construyeron a `1600 × 900`, incluyen `title`, `desc` y tipografía de reserva. Tras rasterizarlos se inspeccionaron completos y se corrigió una microfrase. La cadena mantiene siete capas con cortafuegos; la matriz compara ocho expedientes sin puntuaciones. Ninguno acepta datos personales, representa una consulta, calcula resultados, diagnostica, recomienda o simula un caso clínico.

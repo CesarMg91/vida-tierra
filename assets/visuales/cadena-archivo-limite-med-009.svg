@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Cadena de auditoría de MED-009 desde archivo hasta límite</title>
+  <desc id="desc">Seis estaciones: archivo, procedencia, señal, inferencia, contraste y límite. Cuatro cortafuegos impiden convertir silencio en ausencia, analogía en observación, supervivencia en tratamiento o residuo en eficacia.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#12100d"/><stop offset="1" stop-color="#211a14"/></linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%"><feDropShadow dx="0" dy="10" stdDeviation="10" flood-color="#000" flood-opacity=".35"/></filter>
+    <marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto"><path d="M0 0 12 6 0 12z" fill="#c8874a"/></marker>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <circle cx="1460" cy="92" r="190" fill="#7c9361" opacity=".07"/>
+  <text x="92" y="92" fill="#d89957" font-family="IBM Plex Sans, Arial, sans-serif" font-size="24" letter-spacing="4">MED-009 · CADENA DE AUDITORÍA</text>
+  <text x="92" y="148" fill="#f1e5cf" font-family="Source Serif 4, Georgia, serif" font-size="48" font-weight="700">Silencio documental no es ausencia de cuidado</text>
+  <text x="92" y="190" fill="#b9ae9d" font-family="IBM Plex Sans, Arial, sans-serif" font-size="22">Cada estación produce una pregunta; ninguna hereda automáticamente la respuesta siguiente.</text>
+
+  <g filter="url(#shadow)" font-family="IBM Plex Sans, Arial, sans-serif">
+    <g transform="translate(70 285)"><rect width="220" height="260" rx="18" fill="#2a241d" stroke="#6d8a66" stroke-width="2"/><text x="24" y="42" fill="#d89957" font-size="18">01</text><text x="24" y="82" fill="#fff4df" font-size="29" font-weight="700">Archivo</text><text x="24" y="126" fill="#cbc0ae" font-size="19"><tspan x="24">cuerpo · objeto</tspan><tspan x="24" dy="29">sitio · texto</tspan><tspan x="24" dy="29">relato · colección</tspan></text><path d="M24 218h170" stroke="#6d8a66"/><text x="24" y="245" fill="#8fa282" font-size="16">¿qué existe?</text></g>
+    <g transform="translate(318 285)"><rect width="220" height="260" rx="18" fill="#2a241d" stroke="#6d8a66" stroke-width="2"/><text x="24" y="42" fill="#d89957" font-size="18">02</text><text x="24" y="82" fill="#fff4df" font-size="29" font-weight="700">Procedencia</text><text x="24" y="126" fill="#cbc0ae" font-size="19"><tspan x="24">lugar · fecha</tspan><tspan x="24" dy="29">asociación</tspan><tspan x="24" dy="29">custodia</tspan></text><path d="M24 218h170" stroke="#6d8a66"/><text x="24" y="245" fill="#8fa282" font-size="16">¿de dónde viene?</text></g>
+    <g transform="translate(566 285)"><rect width="220" height="260" rx="18" fill="#2a241d" stroke="#6d8a66" stroke-width="2"/><text x="24" y="42" fill="#d89957" font-size="18">03</text><text x="24" y="82" fill="#fff4df" font-size="29" font-weight="700">Señal</text><text x="24" y="126" fill="#cbc0ae" font-size="19"><tspan x="24">rasgo · medida</tspan><tspan x="24" dy="29">lectura</tspan><tspan x="24" dy="29">incertidumbre</tspan></text><path d="M24 218h170" stroke="#6d8a66"/><text x="24" y="245" fill="#8fa282" font-size="16">¿qué observamos?</text></g>
+    <g transform="translate(814 285)"><rect width="220" height="260" rx="18" fill="#2a241d" stroke="#c8874a" stroke-width="2"/><text x="24" y="42" fill="#d89957" font-size="18">04</text><text x="24" y="82" fill="#fff4df" font-size="29" font-weight="700">Inferencia</text><text x="24" y="126" fill="#cbc0ae" font-size="19"><tspan x="24">hipótesis</tspan><tspan x="24" dy="29">supuestos</tspan><tspan x="24" dy="29">confianza</tspan></text><path d="M24 218h170" stroke="#c8874a"/><text x="24" y="245" fill="#d3a06c" font-size="16">¿qué permite decir?</text></g>
+    <g transform="translate(1062 285)"><rect width="220" height="260" rx="18" fill="#2a241d" stroke="#c8874a" stroke-width="2"/><text x="24" y="42" fill="#d89957" font-size="18">05</text><text x="24" y="82" fill="#fff4df" font-size="29" font-weight="700">Contraste</text><text x="24" y="126" fill="#cbc0ae" font-size="19"><tspan x="24">alternativa</tspan><tspan x="24" dy="29">archivo independiente</tspan><tspan x="24" dy="29">caso adversario</tspan></text><path d="M24 218h170" stroke="#c8874a"/><text x="24" y="245" fill="#d3a06c" font-size="16">¿qué la tensiona?</text></g>
+    <g transform="translate(1310 285)"><rect width="220" height="260" rx="18" fill="#332219" stroke="#d89957" stroke-width="3"/><text x="24" y="42" fill="#d89957" font-size="18">06</text><text x="24" y="82" fill="#fff4df" font-size="29" font-weight="700">Límite</text><text x="24" y="126" fill="#e0cdb5" font-size="19"><tspan x="24">población</tspan><tspan x="24" dy="29">práctica · efecto</tspan><tspan x="24" dy="29">periodo abierto</tspan></text><path d="M24 218h170" stroke="#d89957"/><text x="24" y="245" fill="#e3b985" font-size="16">¿qué falta aún?</text></g>
+  </g>
+  <g stroke="#c8874a" stroke-width="3" marker-end="url(#arrow)"><path d="M292 415h20"/><path d="M540 415h20"/><path d="M788 415h20"/><path d="M1036 415h20"/><path d="M1284 415h20"/></g>
+
+  <g font-family="IBM Plex Sans, Arial, sans-serif">
+    <rect x="70" y="628" width="1460" height="178" rx="22" fill="#171b17" stroke="#5d7457"/>
+    <text x="100" y="670" fill="#8fa282" font-size="18" letter-spacing="3">CORTAFUEGOS</text>
+    <g fill="#efe3cf" font-size="21"><text x="100" y="720">silencio ≠ ausencia</text><text x="450" y="720">analogía ≠ observación</text><text x="815" y="720">supervivencia ≠ tratamiento</text><text x="1210" y="720">residuo ≠ eficacia</text></g>
+    <text x="100" y="767" fill="#aaa090" font-size="18">Un dato ausente mantiene una pregunta abierta; no convierte la ausencia del archivo en una ausencia de la historia.</text>
+  </g>
+</svg>

@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Cadena de seis capas desde el testigo hasta la consecuencia</title>
+  <desc id="desc">Diagrama que separa testigo, lectura, estrato, operación, institución y consecuencia. Entre cada capa se muestra una pregunta que debe resolverse antes de avanzar.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#17130f"/>
+      <stop offset="1" stop-color="#242019"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="10" stdDeviation="12" flood-color="#000" flood-opacity=".35"/>
+    </filter>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#c97a45"/>
+    </marker>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <circle cx="1400" cy="120" r="250" fill="#386c5a" opacity=".10"/>
+  <circle cx="180" cy="780" r="320" fill="#c97a45" opacity=".07"/>
+
+  <text x="96" y="94" fill="#d9985f" font-family="IBM Plex Sans, Arial, sans-serif" font-size="22" font-weight="600" letter-spacing="4">MED-006 · CORTAFUEGO EPISTEMOLÓGICO</text>
+  <text x="96" y="155" fill="#f2eadc" font-family="Source Serif 4, Georgia, serif" font-size="52" font-weight="600">Un canon no es una práctica uniforme</text>
+  <text x="96" y="201" fill="#bfb5a5" font-family="IBM Plex Sans, Arial, sans-serif" font-size="23">Cada puente exige evidencia independiente. La capa anterior no hereda la siguiente.</text>
+
+  <g filter="url(#shadow)" font-family="IBM Plex Sans, Arial, sans-serif">
+    <g transform="translate(96 290)">
+      <rect width="220" height="286" rx="18" fill="#29251e" stroke="#6c6255"/>
+      <text x="24" y="42" fill="#d9985f" font-size="18" font-weight="700">01</text>
+      <text x="24" y="84" fill="#f2eadc" font-size="28" font-weight="700">TESTIGO</text>
+      <path d="M24 112 H196" stroke="#6c6255"/>
+      <text x="24" y="150" fill="#d8cebf" font-size="19">
+        <tspan x="24" dy="0">Hueso, seda,</tspan><tspan x="24" dy="29">bambú, papel,</tspan><tspan x="24" dy="29">objeto o edición</tspan>
+      </text>
+      <text x="24" y="254" fill="#8fb9a8" font-size="16">¿Qué existe?</text>
+    </g>
+    <g transform="translate(336 290)">
+      <rect width="220" height="286" rx="18" fill="#29251e" stroke="#6c6255"/>
+      <text x="24" y="42" fill="#d9985f" font-size="18" font-weight="700">02</text>
+      <text x="24" y="84" fill="#f2eadc" font-size="28" font-weight="700">LECTURA</text>
+      <path d="M24 112 H196" stroke="#6c6255"/>
+      <text x="24" y="150" fill="#d8cebf" font-size="19">
+        <tspan x="24" dy="0">Signos, líneas,</tspan><tspan x="24" dy="29">variantes, daños</tspan><tspan x="24" dy="29">y traducción</tspan>
+      </text>
+      <text x="24" y="254" fill="#8fb9a8" font-size="16">¿Cómo se lee?</text>
+    </g>
+    <g transform="translate(576 290)">
+      <rect width="220" height="286" rx="18" fill="#29251e" stroke="#6c6255"/>
+      <text x="24" y="42" fill="#d9985f" font-size="18" font-weight="700">03</text>
+      <text x="24" y="84" fill="#f2eadc" font-size="28" font-weight="700">ESTRATO</text>
+      <path d="M24 112 H196" stroke="#6c6255"/>
+      <text x="24" y="150" fill="#d8cebf" font-size="19">
+        <tspan x="24" dy="0">Copia, pasaje,</tspan><tspan x="24" dy="29">recensión, cita</tspan><tspan x="24" dy="29">o comentario</tspan>
+      </text>
+      <text x="24" y="254" fill="#8fb9a8" font-size="16">¿Cuándo se formó?</text>
+    </g>
+    <g transform="translate(816 290)">
+      <rect width="220" height="286" rx="18" fill="#29251e" stroke="#6c6255"/>
+      <text x="24" y="42" fill="#d9985f" font-size="18" font-weight="700">04</text>
+      <text x="24" y="84" fill="#f2eadc" font-size="27" font-weight="700">OPERACIÓN</text>
+      <path d="M24 112 H196" stroke="#6c6255"/>
+      <text x="24" y="150" fill="#d8cebf" font-size="19">
+        <tspan x="24" dy="0">Observar, tocar,</tspan><tspan x="24" dy="29">formular, punzar,</tspan><tspan x="24" dy="29">clasificar</tspan>
+      </text>
+      <text x="24" y="254" fill="#8fb9a8" font-size="16">¿Qué acción formula?</text>
+    </g>
+    <g transform="translate(1056 290)">
+      <rect width="220" height="286" rx="18" fill="#29251e" stroke="#6c6255"/>
+      <text x="24" y="42" fill="#d9985f" font-size="18" font-weight="700">05</text>
+      <text x="24" y="84" fill="#f2eadc" font-size="24" font-weight="700">INSTITUCIÓN</text>
+      <path d="M24 112 H196" stroke="#6c6255"/>
+      <text x="24" y="150" fill="#d8cebf" font-size="19">
+        <tspan x="24" dy="0">Selección, copia,</tspan><tspan x="24" dy="29">enseñanza, norma</tspan><tspan x="24" dy="29">y circulación</tspan>
+      </text>
+      <text x="24" y="254" fill="#8fb9a8" font-size="16">¿Quién lo sostiene?</text>
+    </g>
+    <g transform="translate(1296 290)">
+      <rect width="220" height="286" rx="18" fill="#29251e" stroke="#6c6255"/>
+      <text x="24" y="42" fill="#d9985f" font-size="18" font-weight="700">06</text>
+      <text x="24" y="84" fill="#f2eadc" font-size="23" font-weight="700">CONSECUENCIA</text>
+      <path d="M24 112 H196" stroke="#6c6255"/>
+      <text x="24" y="150" fill="#d8cebf" font-size="19">
+        <tspan x="24" dy="0">Ejecución, acceso,</tspan><tspan x="24" dy="29">decisión, resultado</tspan><tspan x="24" dy="29">y daño</tspan>
+      </text>
+      <text x="24" y="254" fill="#8fb9a8" font-size="16">¿Qué cambió?</text>
+    </g>
+  </g>
+
+  <g stroke="#c97a45" stroke-width="3" marker-end="url(#arrow)">
+    <path d="M316 433 H331"/><path d="M556 433 H571"/><path d="M796 433 H811"/><path d="M1036 433 H1051"/><path d="M1276 433 H1291"/>
+  </g>
+
+  <rect x="96" y="646" width="1420" height="132" rx="18" fill="#1d332c" stroke="#477462"/>
+  <text x="126" y="692" fill="#a9d0bf" font-family="IBM Plex Sans, Arial, sans-serif" font-size="18" font-weight="700" letter-spacing="2">NO HERENCIAS</text>
+  <text x="126" y="734" fill="#f2eadc" font-family="Source Serif 4, Georgia, serif" font-size="25">Fecha de tumba ≠ fecha de composición · canon ≠ práctica · institución ≠ cobertura · antigüedad ≠ eficacia</text>
+  <text x="96" y="842" fill="#8f8679" font-family="IBM Plex Mono, Consolas, monospace" font-size="16">MED-006 · visual editorial explicativo · no reproduce un artefacto histórico</text>
+</svg>

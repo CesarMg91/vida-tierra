@@ -3165,3 +3165,304 @@ La dispersión posterior a hogares institucionales contradice irreversibilidad, 
 | `CONT-CIV-SWASIA-URBAN-NORTH-SOUTH-001` | urbanismos norte/sur | rutas propias conectadas | mayor peso de difusión/migración por fase | abierta por fase | B-COND |
 | `CONT-CIV-SWASIA-SOUTH-LANDSCAPE-001` | morfodinámica | paisaje fluvial condicionante | otros mecanismos económicos/políticos | abierta causalmente | C-COND mecanismo |
 | `CONT-CIV-SWASIA-SHAKHI-AGENCY-001` | dispersión de Shakhi Kora | reorganización/rechazo inferido | ambiente, conflicto o cambio de uso | abierta | B secuencia; C agencia |
+
+## Controversias MED-001
+
+### CONT-MED-REPORTING-VALIDITY-001 — Adherencia a checklist como calidad
+
+CONSORT/SPIRIT mejoran transparencia, pero se discute cuánto cambia la conducta metodológica frente a sólo el informe. **Prueba discriminatoria:** protocolos, registros, datos y estudios metaepidemiológicos que separen reporte de sesgo observado.
+
+### CONT-MED-SHAM-ETHICS-001 — Necesidad y proporcionalidad de simulación
+
+Un control simulado puede aislar componentes específicos y a la vez producir riesgo sin beneficio terapéutico. **Prueba discriminatoria:** necesidad para la pregunta, riesgo incremental mínimo, consentimiento, factibilidad de controles menos invasivos y valor social.
+
+### CONT-MED-SURROGATES-001 — Cuándo un marcador transporta efecto clínico
+
+CAST refuta la herencia automática, no todos los sustitutos. **Prueba discriminatoria:** validación causal y empírica por intervención, enfermedad, mecanismo y desenlace clínico.
+
+### CONT-MED-SURGICAL-EXPERTISE-001 — Estandarización frente a representatividad
+
+Restringir operadores protege fidelidad, pero puede reducir transportabilidad; ampliar centros representa práctica y aumenta variación. **Prueba discriminatoria:** interacción preespecificada, modelos jerárquicos y calidad observada de ejecución.
+
+### CONT-MED-SUBGROUPS-001 — Heterogeneidad real frente a hallazgo multiplicado
+
+Promedios pueden ocultar modificación de efecto, mientras múltiples subgrupos producen falsos positivos. **Prueba discriminatoria:** hipótesis previa, interacción, escala, replicación y coherencia causal.
+
+### CONT-MED-OBSERVATIONAL-CAUSAL-001 — Efecto residual en registros
+
+Emular un ensayo objetivo corrige errores de diseño, no confusión no medida. **Prueba discriminatoria:** controles negativos, sensibilidad cuantitativa, instrumentos válidos cuando existan, resultados concordantes bajo diseños con sesgos distintos.
+
+### Índice tabular MED-001
+
+| ID | Tema | Tensión | Estado | Confianza |
+|---|---|---|---|---|
+| `CONT-MED-REPORTING-VALIDITY-001` | transparencia | reporte vs validez | abierta | A distinción |
+| `CONT-MED-SHAM-ETHICS-001` | simulación | aislamiento vs riesgo | caso por caso | B |
+| `CONT-MED-SURROGATES-001` | sustitutos | señal vs beneficio clínico | dependiente de contexto | B |
+| `CONT-MED-SURGICAL-EXPERTISE-001` | operador | fidelidad vs transportabilidad | abierta por técnica | B |
+| `CONT-MED-SUBGROUPS-001` | heterogeneidad | modificador vs multiplicidad | abierta | B-C |
+| `CONT-MED-OBSERVATIONAL-CAUSAL-001` | registros | emulación vs confusión residual | abierta | B-C |
+## Controversias de MED-002 - Pruebas diagnósticas
+
+| ID | Controversia | Posiciones plausibles | Evidencia que discrimina | Estado |
+|---|---|---|---|---|
+| `CONT-MED-DX-REFERENCE-001` | cómo evaluar cuando la referencia es imperfecta | referencia compuesta, seguimiento, modelos latentes o adjudicación | independencia, cegamiento, sensibilidad y análisis de supuestos | ABIERTA |
+| `CONT-MED-DX-THRESHOLD-001` | qué umbral usar | priorizar falsos negativos, falsos positivos, beneficio neto o recursos | consecuencias preespecificadas y validación externa | ABIERTA POR USO |
+| `CONT-MED-DX-SCREENING-001` | cuándo detectar antes produce beneficio | etapa temprana tratable frente a sobrediagnóstico y sesgos temporales | ensayo de estrategia con desenlaces importantes y seguimiento suficiente | ABIERTA POR PROGRAMA |
+| `CONT-MED-DX-AI-001` | cuándo un modelo de IA está listo para práctica | exactitud externa suficiente frente a impacto prospectivo obligatorio | calibración, deriva, equidad, integración y desenlaces | ABIERTA |
+| `CONT-MED-DX-INDETERMINATE-001` | cómo tratar resultados indeterminados | excluir, repetir, modelar o clasificar como fallo | flujo completo, razones, denominador y consecuencias | ABIERTA POR RUTA |
+| `CONT-MED-DX-UTILITY-BRIDGE-001` | cuándo basta un puente causal sin ensayo prueba-tratamiento | evidencia enlazada frente a ensayo directo | robustez de cada eslabón, daños y modificadores | ABIERTA |
+| `CONT-MED-DX-TRANSPORT-001` | cuánto viaja el rendimiento | métricas relativamente estables frente a dependencia de espectro/sistema | validación externa temporal, geográfica y clínica | ABIERTA POR PRUEBA |
+
+## Controversias de MED-003 — Archivos y orígenes de la medicina
+
+| ID | Controversia | Posiciones plausibles | Evidencia que discrimina | Estado |
+|---|---|---|---|---|
+| `CONT-MED-HIST-BORNEO-001` | mecanismo de pérdida de la extremidad de TB1 | amputación intencional frente a trauma fisario, infección o autoamputación | microestructura, imagen adicional, comparadores clínicos y experimentales | ABIERTA |
+| `CONT-MED-HIST-CARE-001` | umbral para inferir asistencia | dependencia grave necesariamente asistida frente a autosuficiencia parcial o apoyos ambientales | modelo funcional, patología completa, contexto y analogías limitadas | ABIERTA POR CASO |
+| `CONT-MED-HIST-TREPANATION-001` | clasificación y resultado de aperturas craneales | intervención intencional frente a anomalía, trauma, infección o tafonomía | huellas, bordes, remodelación, contexto y series comparables | ABIERTA POR EJEMPLAR |
+| `CONT-MED-HIST-SELF-MEDICATION-001` | significado de plantas en cálculo | alimento, ambiente o contaminación frente a automedicación | patrón individual, enfermedad independiente, dosis y selección recurrente | NO DEMOSTRADO |
+| `CONT-MED-HIST-RETROSPECTIVE-DX-001` | traducción de textos a diagnósticos modernos | categoría histórica autónoma frente a correspondencia biomédica parcial | filología, contexto, conjunto sintomático y archivos independientes | ABIERTA POR PASAJE |
+| `CONT-MED-HIST-PATHOGEN-SCALE-001` | escala de una señal microbiana | presencia individual frente a enfermedad, epidemia o fecha de origen | tejido, lesiones, contexto, series representativas y filogenia | ABIERTA POR ESCALA |
+| `CONT-MED-HIST-ARCHIVE-BIAS-001` | representatividad del archivo médico antiguo | patrón real frente a preservación, excavación, colección y tecnología | muestreo multirregional, materiales alternativos y análisis de ausencia | ABIERTA |
+
+
+## Controversias de MED-004 — Mesopotamia y valle del Nilo
+
+| ID | Controversia | Posiciones plausibles | Evidencia que discrimina | Estado |
+|---|---|---|---|---|
+| `CONT-MED-ANE-ROLES-001` | frontera entre especialistas | oficios diferenciados frente a repertorios solapados y variables | cartas, colofones, títulos, recetas y contexto por periodo | ABIERTA POR REGIÓN |
+| `CONT-MED-MESO-SAKIKKU-001` | contorno y fecha del canon | edición estable frente a reconstrucción revisable | nuevos testigos, joins, catálogos y colofones | ABIERTA |
+| `CONT-MED-EGY-SMITH-COMPOSITION-001` | fecha de composición de Edwin Smith | copia del siglo XVII–XVI con capas anteriores de distinta antigüedad | paleografía, lengua, paralelos y estratigrafía textual | ABIERTA |
+| `CONT-MED-ANE-RETROSPECTIVE-DX-001` | equivalencia de categorías antiguas | correspondencia biomédica parcial frente a categoría histórica no traducible | conjunto de signos, filología, cuerpo y diferencial | ABIERTA POR PASAJE |
+| `CONT-MED-ANE-EFFICACY-001` | efecto de recetas antiguas | plausibilidad/actividad de componentes frente a eficacia histórica no demostrada | identificación, reconstrucción, dosis, comparador y daños | NO DEMOSTRADA |
+| `CONT-MED-EGY-DEIR-REPRESENTATION-001` | generalización desde Deir el-Medina | modelo de cuidado egipcio frente a comunidad estatal excepcional | sitios comparables, archivos domésticos y denominadores | ABIERTA |
+| `CONT-MED-EGY-INVISIBLE-CARE-001` | visibilidad de mujeres y cuidado doméstico | baja participación formal frente a subregistro por titulatura y soporte | hogares, cartas, objetos, restos y textos no oficiales | ABIERTA |
+| `CONT-MED-ANE-TRANSMISSION-001` | circulación regional | intercambio puntual frente a transmisión sostenida de repertorios | cronología, intermediarios, préstamos y cadenas textuales | ABIERTA |
+
+## Controversias de MED-005 — Asia meridional
+
+| ID | Controversia | Posiciones plausibles | Evidencia que discrimina | Estado |
+|---|---|---|---|---|
+| `CONT-MED-SA-CARAKA-DATE-001` | cronología de las capas de Caraka | núcleo de últimos siglos a. e. c. frente a redacciones más tardías y estratos desplazados | citas seguras, lengua, paralelos, manuscritos y colofones datables | ABIERTA POR ESTRATO |
+| `CONT-MED-SA-SUSRUTA-DATE-001` | formación de la *Suśrutasaṃhitā* | comienzos en últimos siglos a. e. c. frente a configuración posterior de secciones y *Uttaratantra* | testigos anteriores, citas, aparato crítico y estratigrafía textual | ABIERTA POR ESTRATO |
+| `CONT-MED-SA-KL699-RELATION-001` | relación entre KL 699 y otras recensiones | rama temprana relativamente conservadora frente a tradición contaminada con cambios propios | stemma, errores compartidos, paleografía y análisis material | ABIERTA |
+| `CONT-MED-SA-SURGERY-PRACTICE-001` | cuánto se ejecutaron las operaciones descritas | repertorio práctico frente a norma, entrenamiento o compilación textual | instrumentos, cuerpos, series de casos, comentarios y archivos situados | NO CUANTIFICADO |
+| `CONT-MED-SA-RHINOPLASTY-CONTINUITY-001` | continuidad hasta la rinoplastia de 1794 | transmisión sostenida o reactivada frente a semejanza técnica y tradiciones regionales distintas | intermediarios, vocabulario, linajes de práctica y variantes operativas | ABIERTA |
+| `CONT-MED-SA-MATERIA-IDENTITY-001` | identidad de plantas y sustancias | taxón estable frente a nombres polisémicos, sustituciones y cambios regionales | especímenes, residuos, morfología, comentarios, procedencia y química | ABIERTA POR INGREDIENTE |
+| `CONT-MED-SA-HOSPITAL-FUNCTION-001` | función y alcance de instalaciones tempranas | hospital especializado frente a monasterio o complejo de función mixta | arquitectura, sellos en contexto, inscripciones, instrumental y residuos | ABIERTA POR SITIO |
+| `CONT-MED-SA-TRANSMISSION-001` | dirección y profundidad de transmisiones | traducción directa y redes sostenidas frente a préstamos selectivos y convergencia | pasajes paralelos, fechas, lenguas intermediarias y agentes identificables | ABIERTA POR RUTA |
+
+## Controversias de MED-006 — China y Asia oriental
+
+| ID | Controversia | Posiciones plausibles | Evidencia que discrimina | Estado |
+|---|---|---|---|---|
+| `CONT-MED-EA-NEIJING-DATE-001` | cronología de las capas del *Huangdi neijing* | materiales imperiales tempranos frente a recensiones y comentarios decisivos posteriores | manuscritos, citas fechadas, variantes y estratigrafía textual | ABIERTA POR ESTRATO |
+| `CONT-MED-EA-TIANHUI-BIANQUE-001` | relación del corpus Tianhui con Bian Que | escuela o linaje asociado frente a atribución editorial retrospectiva | título antiguo, colofón, cadena de citas o testigo independiente | ABIERTA |
+| `CONT-MED-EA-FIGURINE-FUNCTION-001` | función de la figurilla lacada de Tianhui | instrumento didáctico, modelo conceptual, objeto ritual o combinación | contexto, desgaste, pigmento, paralelos y archivos de uso | ABIERTA |
+| `CONT-MED-EA-PIERCING-CONTINUITY-001` | relación entre punción temprana y acupuntura posterior | continuidad técnica transformada frente a repertorios distintos reunidos retrospectivamente | instrumentos, trayectorias, vocabulario, manuscritos intermedios y casos | ABIERTA POR OPERACIÓN |
+| `CONT-MED-EA-SHANGHAN-RECONSTRUCTION-001` | formación del *Shanghan lun* y *Jingui yaolüe* | núcleo atribuible a Zhang Ji frente a compilación y reconstrucción de varias capas | citas, recensiones, manuscritos y aparato crítico | ABIERTA POR ESTRATO |
+| `CONT-MED-EA-MATERIA-IDENTITY-001` | identidad de sustancias históricas | taxón relativamente estable frente a nombres polisémicos y sustituciones regionales | especímenes, residuos, procedencia, morfología, química y comentarios | ABIERTA POR INGREDIENTE |
+| `CONT-MED-EA-INSTITUTION-REACH-001` | alcance de farmacopeas, exámenes y compilaciones oficiales | normalización extendida frente a norma cortesana de implementación desigual | nóminas, compras, copias, archivos locales y denominadores | NO CUANTIFICADO |
+| `CONT-MED-EA-TRANSMISSION-001` | dirección y profundidad de transmisiones regionales | préstamos directos y sostenidos frente a selección, traducción, convergencia o rutas intermediarias | pasajes paralelos, cronología, lengua, agentes y copias situadas | ABIERTA POR RUTA |
+## Controversias de MED-007 — Mediterráneo griego y helenístico
+
+| ID | Pregunta abierta | Posición A | Posición B / alternativa | Evidencia que discrimina | Estado |
+|---|---|---|---|---|---|
+| `CONT-MED-GR-HIPPOCRATES-001` | ¿puede atribuirse algún tratado al Hipócrates histórico? | uno o pocos candidatos plausibles | ninguno identificable con certeza | colofón temprano, tradición manuscrita y estilometría contextual | ABIERTA |
+| `CONT-MED-GR-COS-CNIDUS-001` | ¿qué realidad histórica conservan Cos y Cnido? | redes o posiciones locales diferenciadas | clasificación historiográfica circular | archivos pedagógicos, prosopografía y testigos situados | ABIERTA |
+| `CONT-MED-GR-EPIDEMICS-001` | ¿para qué se escribieron los casos de *Epidemias*? | notas de práctica y memoria clínica | ejemplos, argumentos o compilación docente | papiros tempranos, orden material y paralelos de uso | ABIERTA |
+| `CONT-MED-GR-OATH-001` | ¿cuándo y para quién se formuló el Juramento? | pacto de una comunidad médica específica | texto filosófico, pedagógico o de recepción plural | testigos fechados y referencias contemporáneas | ABIERTA |
+| `CONT-MED-GR-IAMATA-001` | ¿cómo se compusieron las *iamata*? | testimonios reelaborados de peregrinos | composiciones institucionales y literarias | borradores, dedicaciones y secuencia epigráfica | ABIERTA |
+| `CONT-MED-GR-WOMEN-001` | ¿cuánto conocimiento de mujeres fue incorporado al corpus? | recetas y experiencias transmiten saber doméstico | atribución moderna sin indicio explícito suficiente | marcas de voz, redes materiales y archivos externos | ABIERTA |
+| `CONT-MED-GR-PUBLIC-001` | ¿qué implicaba un médico público? | contrato para atender a una comunidad | incentivo, honor o servicio más restringido | contratos, pagos, beneficiarios y cuentas | ABIERTA |
+| `CONT-MED-GR-ALEXANDRIA-001` | ¿cuál fue la escala de la disección humana? | programa sistemático bajo patrocinio ptolemaico | episodios limitados amplificados por recepción | originales, registros institucionales y testimonios independientes | ABIERTA |
+| `CONT-MED-GR-VIVISECTION-001` | ¿Herófilo y Erasístrato vivisectaron condenados? | Celso preserva un hecho histórico | polémica tardía, dependiente o desigual | fuente contemporánea independiente u original anatómico | ABIERTA |
+| `CONT-MED-GR-TRANSMISSION-001` | ¿qué pasó entre archivos egipcios, babilonios y griegos? | contactos transmitieron técnicas y conceptos concretos | convergencia o circulación no médica | cadena de intermediarios, léxico y objetos fechados | ABIERTA |
+
+## MED-008 — Roma, Bizancio y Mediterráneo tardío
+
+| ID | Pregunta abierta | Posición A | Posición B / alternativa | Evidencia que discrimina | Estado |
+|---|---|---|---|---|---|
+| `CONT-MED-RB-ARMY-001` | ¿cuándo se estabilizó una organización médica militar? | estructura imperial formal relativamente extendida | arreglos locales, cambiantes y de estatus ambiguo | series epigráficas, nóminas y cronologías de unidades | ABIERTA |
+| `CONT-MED-RB-VALETUDINARIA-001` | ¿qué complejos funcionaron realmente como valetudinaria? | tipología arquitectónica médica reconocible | edificios multifuncionales o reasignados | inscripción in situ, residuos, fases y registros de uso | ABIERTA |
+| `CONT-MED-RB-INSTRUMENTS-001` | ¿qué objetos fueron usados por especialistas médicos? | tipologías y conjuntos identifican práctica | herramientas domésticas o artesanales multifunción | residuos, desgaste, asociación y depósito primario | ABIERTA |
+| `CONT-MED-RB-SANITATION-001` | ¿qué efectos tuvieron obras hidráulicas concretas? | redujeron exposiciones para parte de la población | redistribuyeron riesgos o beneficiaron usos no sanitarios | series antes/después, acceso y paleopatología local | ABIERTA |
+| `CONT-MED-RB-PARASITES-001` | ¿cómo cambió la carga parasitaria bajo dominio romano? | urbanización y comercio aumentaron especies o exposición | el patrón refleja muestreo y preservación | muestras comparables pre, durante y postromanas | ABIERTA |
+| `CONT-MED-RB-GALEN-001` | ¿cuánto representan los casos galénicos su práctica cotidiana? | memoria clínica basada en episodios reales | selección retórica de éxitos y rivales | borradores, casos independientes y criterios de inclusión | ABIERTA |
+| `CONT-MED-RB-COMPILERS-001` | ¿qué proporción de una compilación es selección, experiencia o adaptación? | predominio de transmisión de autoridades | intervención editorial y práctica sustancial | fuentes paralelas, autógrafos y marcas de uso | ABIERTA |
+| `CONT-MED-RB-HOSPITAL-ORIGIN-001` | ¿qué continuidad une caridad tardía y hospital posterior? | genealogía institucional directa | convergencias y reinvenciones múltiples | reglas, personal, arquitectura y rutas de patronazgo | ABIERTA |
+| `CONT-MED-RB-PANTOKRATOR-001` | ¿cuánto del typikon del Pantocrátor se ejecutó? | refleja una operación estable y detallada | programa normativo parcialmente realizado | cuentas, turnos, admisiones y testimonios cotidianos | ABIERTA |
+| `CONT-MED-RB-NETWORKS-001` | ¿qué rutas conectaron versiones griegas, siríacas, árabes, hebreas y latinas? | cadenas de traducción identificables | intermediarios perdidos o fuentes compartidas | manuscritos fechados, léxico y colofones | ABIERTA |
+
+## MED-009 — África fuera del eje egipcio
+
+| ID | Pregunta abierta | Posición A | Posición B / alternativa | Evidencia que discrimina | Estado |
+|---|---|---|---|---|---|
+| `CONT-MED-AFRICA-SILENCE-001` | ¿cuánto cuidado queda invisible por preservación y colección? | baja visibilidad refleja prácticas efímeras | parte refleja baja frecuencia o ausencia situada | muestreo sistemático, microresiduos, contexto y comparación regional | ABIERTA |
+| `CONT-MED-AFRICA-KERMA-K317-001` | ¿qué produjo la abertura de K317? | trepanación deliberada con herramienta reutilizada | trauma o lesión patológica remodelada | microestrías diagnósticas, histología y nuevos paralelos | ABIERTA |
+| `CONT-MED-AFRICA-KERMA-CARE-001` | ¿qué apoyo siguió a lesiones incapacitantes nubias? | asistencia doméstica o especializada prolongó supervivencia | adaptación individual con apoyo mínimo | modelado funcional, contexto doméstico y múltiples casos | ABIERTA |
+| `CONT-MED-AFRICA-KULUBNARTI-RS-001` | ¿por qué se usaron R y S? | diferenciación social contemporánea | usos por edad, institución o comunidad mortuoria | datación fina, dieta, movilidad, parentesco y ajuar | ABIERTA |
+| `CONT-MED-AFRICA-AKSUM-PRESERVATION-001` | ¿qué experiencia corporal oculta la preservación aksumita? | el archivo perdido fue socialmente diverso | los restos disponibles capturan sólo contextos muy específicos | nuevas series humanas y análisis tafonómico regional | ABIERTA |
+| `CONT-MED-AFRICA-ETHIOPIC-CONTINUITY-001` | ¿qué elementos de manuscritos tardíos tienen genealogías anteriores? | continuidad parcial de vocabulario y repertorios | reinvención, traducción o convergencia tardía | testigos intermedios, filología y rutas de transmisión | ABIERTA |
+| `CONT-MED-AFRICA-JENNE-SPECIALISTS-001` | ¿hubo especialistas de cuidado identificables en Jenne-jeno? | complejidad urbana hizo posibles roles especializados | cuidado doméstico o archivos hoy no diagnósticos | espacios, conjuntos, residuos, restos y marcas de práctica | ABIERTA |
+| `CONT-MED-AFRICA-TIMBUKTU-USE-001` | ¿cómo circularon y se ejecutaron textos médicos de Tombuctú? | manuales de consulta para practicantes | compilaciones devocionales, docentes o de biblioteca | colofones, marginalia, desgaste, recetas locales y redes de copia | ABIERTA |
+| `CONT-MED-AFRICA-TONG-FUNCTION-001` | ¿qué contenían y para qué sirvieron los recipientes de Tong Hills? | preparación medicinal vegetal | uso ritual o doméstico multifuncional | biomarcadores diagnósticos, microbotánica y conjuntos comparables | ABIERTA |
+| `CONT-MED-AFRICA-ORAL-TIME-001` | ¿qué profundidad cronológica conservan tradiciones concretas? | núcleos transmitidos durante generaciones | reorganización reciente de pasados e identidades | versiones fechadas, lingüística, arqueología y archivo independiente | ABIERTA |
+
+## MED-010 — Mesoamérica, Andes y otras Américas
+
+| ID | Pregunta abierta | Posición A | Posición B / alternativa | Evidencia que discrimina | Estado |
+|---|---|---|---|---|---|
+| `CONT-MED-AMERICAS-CUZCO-INDICATION-001` | ¿por qué se realizó cada trepanación de Cuzco? | respuesta a trauma o presión craneal | finalidad ritual, no traumática o combinada | asociación individual, microhuellas, lesión y contexto | ABIERTA |
+| `CONT-MED-AMERICAS-HEALING-RATE-001` | ¿cómo comparar categorías de cicatrización entre series? | reflejan supervivencia temporal comparable | umbrales, preservación y selección cambian el porcentaje | clasificación ciega, histología y metadatos comunes | ABIERTA |
+| `CONT-MED-AMERICAS-SURGERY-COMPARISON-001` | ¿son comparables series andinas y cirugía histórica posterior? | la remodelación permite contraste útil | indicación, severidad y seguimiento impiden ranking | estandarización de caso, tiempo y desenlace | ABIERTA |
+| `CONT-MED-AMERICAS-MAYA-SEALANT-INTENT-001` | ¿se eligieron cementos por propiedades biológicas? | componentes higiénicos fueron seleccionados | adhesión, color, disponibilidad o ritual explican la mezcla | residuos experimentales, recetas, controles y concentración | ABIERTA |
+| `CONT-MED-AMERICAS-MAYA-NET-EFFECT-001` | ¿qué balance tuvo la modificación dental? | buen sellado redujo parte del daño | perforación aumentó caries y lesión pulpar | series comparables por sitio, edad y diseño | ABIERTA |
+| `CONT-MED-AMERICAS-HUACA-APPLICATION-001` | ¿los microrestos de Huaca El Paraíso fueron aplicados a la caries? | ubicación apoya tratamiento local | alimentación, masticación o depósito incidental | distribución intradental, residuos químicos y controles | ABIERTA |
+| `CONT-MED-AMERICAS-PIAUI-MEDICINAL-001` | ¿qué polen de Piauí representa medicación? | convergencia con parásitos indica alivio buscado | dieta, uso múltiple o ingestión accidental | concentración, macrorestos, química y más coprolitos | ABIERTA |
+| `CONT-MED-AMERICAS-LIBELLUS-SOURCES-001` | ¿qué estratos y decisiones integró el Libellus? | preserva repertorios nahuas anteriores | adaptación sustancial al género y destinatario colonial | variantes, léxico, imagen y fuentes paralelas | ABIERTA |
+| `CONT-MED-AMERICAS-FLORENTINE-VOICES-001` | ¿cómo se distribuye agencia en el Códice Florentino? | voces nahuas permanecen distinguibles | cuestionario y edición reconfiguran profundamente el corpus | análisis de variantes, manos, imagen y columnas | ABIERTA |
+| `CONT-MED-AMERICAS-CONTINUITY-001` | ¿qué prácticas tienen continuidad demostrable? | cadenas indígenas preservaron núcleos transformados | reinvención, ruptura o convergencia explican semejanzas | testigos intermedios, lingüística y autoridad comunitaria | ABIERTA |
+
+## MED-011 — mundos islámicos
+
+| ID | Pregunta | Hipótesis A | Hipótesis B | Qué discrimina | Estado |
+|---|---|---|---|---|---|
+| `CONT-MED-ISLAMIC-TRANSLATION-CENTER-001` | ¿la traducción médica fue dirigida por un centro único? | una institución central coordinó el programa | patronos, talleres y redes parcialmente conectadas lo produjeron | contratos, colofones, pagos y atribuciones por obra | ABIERTA por proyecto |
+| `CONT-MED-ISLAMIC-RAZI-CASES-001` | ¿cuánto del Kitab al-Tajarib procede de observación directa de al-Razi? | núcleo mayoritariamente suyo | registro estudiantil y edición póstuma transformaron el corpus | estratos, manos, variantes y parentesco manuscrito | ABIERTA |
+| `CONT-MED-ISLAMIC-CANON-FIRST-TRIAL-001` | ¿las siete reglas constituyen un ensayo clínico? | anticipan componentes metodológicos | son criterios textuales sin protocolo ejecutado demostrable | serie contemporánea con aplicación conjunta y resultados | CERRADA contra equivalencia moderna |
+| `CONT-MED-ISLAMIC-OPTICS-METHOD-001` | ¿Ibn al-Haytham inventó el método científico? | su experimentación marca un origen | resolvió problemas ópticos dentro de tradiciones múltiples | definición previa y comparación histórica no teleológica | ABIERTA por definición; origen único rechazado |
+| `CONT-MED-ISLAMIC-CATARACT-001` | ¿se realizó aspiración de catarata con aguja hueca? | Ammar describe experiencia operatoria real | propuesta, instrumento o relato no prueban práctica rutinaria | instrumentos contextuales y series de resultados | ABIERTA |
+| `CONT-MED-ISLAMIC-GUNDESHAPUR-001` | ¿Gundeshapur tuvo el gran hospital docente narrado como origen? | institución preislámica transmitió el modelo | genealogía moderna excede los testigos contemporáneos | archivo contemporáneo de edificio, personal y enseñanza | ABIERTA; evidencia actual insuficiente |
+| `CONT-MED-ISLAMIC-WAQF-OPERATION-001` | ¿cuánto reflejan los waqf la operación hospitalaria? | cláusulas describen práctica estable | registran ideales del fundador y ejecución variable | cuentas, nombramientos, inventarios y series de uso | ABIERTA por institución |
+| `CONT-MED-ISLAMIC-GENIZAH-PRACTICE-001` | ¿qué recetas de la Geniza fueron dispensadas? | prescripción escrita refleja entrega probable | orden, borrador o nota pudo no ejecutarse | mano, destinatario, recibo, residuo y documentos vinculados | ABIERTA por fragmento |
+| `CONT-MED-ISLAMIC-HISBA-LICENSE-001` | ¿existió licencia médica general? | examen de Bagdad y hisba formaron un sistema | fueron normas y episodios locales variables | registros administrativos seriados entre ciudades y años | ABIERTA; universalidad no demostrada |
+| `CONT-MED-ISLAMIC-GOLDEN-AGE-001` | ¿“edad de oro” describe una trayectoria histórica? | resume concentración de producción letrada | homogeneiza regiones, grupos y cronologías | indicadores definidos por producto y series regionales | ABIERTA como periodización; inválida como ranking |
+
+## MED-012 — Europa medieval y tradiciones judías
+
+| ID | Pregunta | Hipótesis A | Hipótesis B | Qué discrimina | Estado |
+|---|---|---|---|---|---|
+| `CONT-MED-MEDIEVAL-MONASTIC-USE-001` | ¿un códice monástico fue usado en la enfermería? | procedencia refleja uso local | biblioteca, intercambio o consulta externa explican conservación | marcas de uso, cuentas, ubicación e inventario | ABIERTA por testigo |
+| `CONT-MED-MEDIEVAL-RECIPE-EFFECT-001` | ¿una receta practicable produjo beneficio? | disponibilidad y secuencia apoyan ejecución eficaz | pudo no prepararse, administrarse o beneficiar | residuo, caso, daño, comparador y seguimiento | ABIERTA por receta |
+| `CONT-MED-MEDIEVAL-TROTULA-AUTHOR-001` | ¿quién compuso cada parte del Trotula? | Trota explica el conjunto | tres autores y redacciones distintas | testigos tempranos, paralelos y filiación | CERRADA contra autora única; detalles abiertos |
+| `CONT-MED-MEDIEVAL-WOMEN-FREQUENCY-001` | ¿qué proporción del cuidado realizaron mujeres? | archivo visible aproxima participación | instituciones y tribunales subregistran trabajo doméstico | series comparables de pagos, contratos y hogares | ABIERTA |
+| `CONT-MED-MEDIEVAL-SALERNO-INSTITUTION-001` | ¿Salerno fue una escuela fundada en fecha única? | una institución estable nació temprano | redes de maestros y textos se institucionalizaron gradualmente | estatutos contemporáneos, cargos y continuidad | ABIERTA; fecha única no demostrada |
+| `CONT-MED-MEDIEVAL-PANTEGNI-FIDELITY-001` | ¿qué relación guarda cada versión del Pantegni con su fuente árabe? | traducción relativamente estable | selección, pérdida, completado y revisión cambiaron libros | colación integral de testigos árabes y latinos | ABIERTA por libro |
+| `CONT-MED-MEDIEVAL-CURRICULUM-PRACTICE-001` | ¿cuánto del currículo llegó a la consulta? | enseñanza estructuró decisiones | autoridad escolar y práctica divergieron | cuadernos, consilia, contratos y casos vinculados | ABIERTA |
+| `CONT-MED-MEDIEVAL-LICENSE-REACH-001` | ¿qué alcance tuvo la licencia? | examen ordenó ampliamente la práctica | ejecución y excepciones fueron locales | series de licencias, sanciones, renovación y no registrados | ABIERTA por jurisdicción |
+| `CONT-MED-MEDIEVAL-SURGERY-OUTCOME-001` | ¿qué resultados tuvieron catarata y hernia? | experiencia autoral refleja éxito selectivo | selección, abstención y pérdidas sesgan el relato | casos elegibles, tratados, daño y seguimiento | ABIERTA |
+| `CONT-MED-MEDIEVAL-HOSPITAL-MEDICINE-001` | ¿cuánto cuidado médico ofrecía cada hospital? | reglas y nombre implican atención clínica | hospitalidad, sustento y oración dominaron | personal, cuentas, admisiones y tratamientos | ABIERTA por casa |
+| `CONT-MED-MEDIEVAL-JEWISH-MEDICINE-001` | ¿“medicina judía” identifica una tradición distinta? | repertorio comunitario propio la define | lengua, lugar y redes compartidas impiden esencia única | texto, practicante, comunidad y norma especificados | ABIERTA como categoría; esencia rechazada |
+
+## MED-013 — Rutas del Índico y Eurasia
+
+| ID | Pregunta | Hipótesis principal | Alternativa | Evidencia discriminante | Estado |
+|---|---|---|---|---|---|
+| `CONT-MED-ROUTES-BELITUNG-ITINERARY-001` | ¿qué puertos conectó el barco de Belitung? | realizó una conexión directa desde Asia occidental o meridional a China | siguió múltiples tramos y transbordos | origen material, tecnología, distribución de carga y comparables portuarios | ABIERTA por tramo |
+| `CONT-MED-ROUTES-RESIN-FUNCTION-001` | ¿para qué se transportó la resina? | tuvo función medicinal o aromática | fue calafateo, incienso, mercancía o uso múltiple | recipiente, residuo asociado, inscripción y contexto funcional | ABIERTA |
+| `CONT-MED-ROUTES-DUNHUANG-DIRECTION-001` | ¿qué paralelos de Dunhuang son préstamos directos? | rasgos viajaron desde una tradición identificable | convergencia, fuente común o varias mediaciones | testigo anterior, variantes intermedias y vocabulario específico | ABIERTA por pasaje |
+| `CONT-MED-ROUTES-GALEN-TIBET-001` | ¿un médico asociado con Galeno llegó a Tíbet? | relatos tardíos preservan un viaje histórico | homónimo, construcción historiográfica o transmisión indirecta | testigo temprano independiente, cronología y biografía | NO DEMOSTRADA; contactos parciales abiertos |
+| `CONT-MED-ROUTES-GENIZA-PATIENT-001` | ¿qué materias importadas llegaron a pacientes concretos? | cartas, listas y recetas reflejan una cadena práctica | pertenecen a lotes, agentes y episodios distintos | identificador, fecha, mano, lote, preparación y paciente comunes | ABIERTA |
+| `CONT-MED-ROUTES-GIFTS-USE-001` | ¿los regalos médicos fueron administrados? | la entrega cortesana condujo a uso | fue prestigio, almacenamiento o redistribución | cuentas, receta, recipiente consumido y relato de administración | ABIERTA |
+| `CONT-MED-ROUTES-SUGAR-DIRECTION-001` | ¿qué dirección siguió cada poción azucarada? | versiones islamicate preceden y explican las bizantinas | fuente común o desarrollo convergente | cronología firme, errores compartidos y secuencia de versiones | RESUELTA por casos; no universal |
+| `CONT-MED-ROUTES-MONGOL-REACH-001` | ¿qué alcance social tuvieron oficinas y especialistas mongoles? | transformaron ampliamente la medicina | servicio cortesano y urbano permaneció selectivo | nóminas, pacientes, sedes, duración y archivos locales | ABIERTA por institución |
+| `CONT-MED-ROUTES-ORTA-BOTANY-001` | ¿qué especie corresponde a cada nombre de Orta? | equivalencia moderna única | nombres polisémicos, drogas compuestas o variantes regionales | espécimen, ilustración, descripción, química y léxico local | ABIERTA por entrada |
+| `CONT-MED-ROUTES-ORTA-AUTHORITY-001` | ¿cómo distribuir autoría entre Orta e informantes? | el autor creó el conocimiento por observación individual | redes locales y coloniales produjeron información y autoridad desigual | atribuciones, variantes, archivos de interlocutores y edición | ABIERTA; descubridor solitario rechazado |
+
+## MED-014 — Epidemias y cuarentenas
+
+| ID | Pregunta | Hipótesis principal | Alternativa | Evidencia discriminante | Estado |
+|---|---|---|---|---|---|
+| `CONT-MED-EPID-RETRODX-001` | ¿cuándo una descripción histórica permite diagnóstico moderno? | conjunto de signos identifica una enfermedad estable | género, traducción y diferenciales impiden equivalencia | muestra molecular, contexto y categorías independientes | ABIERTA por episodio |
+| `CONT-MED-EPID-JERASH-CAUSE-001` | ¿cada persona de la fosa de Jerash murió de peste? | depósito y positivos reflejan una crisis dominada por *Y. pestis* | mezcla de causas dentro de una crisis funeraria | muestreo más amplio, lesiones, distribución y controles | NO DEMOSTRADA individualmente |
+| `CONT-MED-EPID-JUSTINIAN-IMPACT-001` | ¿qué magnitud e impacto tuvo la primera pandemia? | produjo colapso demográfico y económico amplio | impactos graves pero regionales, variables o limitados | denominadores locales, series y proxies independientes | ABIERTA por región |
+| `CONT-MED-EPID-BLACKDEATH-ROUTE-001` | ¿cómo pasó el linaje de Tian Shan a Europa? | una cadena comercial principal explica la dispersión | múltiples tramos, vectores, reservorios o reintroducciones | genomas intermedios fechados y contextos de movilidad | ABIERTA por tramo |
+| `CONT-MED-EPID-BLACKDEATH-MORTALITY-001` | ¿la mortalidad fue uniformemente extrema en Europa? | una tasa alta común describe el continente | mortalidad y reorganización variaron regionalmente | series locales con denominadores y proxies comparables | HETEROGENEIDAD APOYADA; magnitudes abiertas |
+| `CONT-MED-EPID-RAGUSA-PRIORITY-001` | ¿Ragusa inventó la cuarentena? | el acuerdo de 1377 inaugura la institución | antecedentes y desarrollos jurisdiccionales graduales | definición, texto anterior, operación y continuidad | PRIORIDAD depende de definición |
+| `CONT-MED-EPID-QUARANTINE-EFFECT-001` | ¿cuánto redujeron transmisión las cuarentenas tempranas? | aislamiento fue causalmente eficaz | cumplimiento, estacionalidad y medidas concurrentes explican parte del descenso | jurisdicciones comparables, ejecución y series temporales | ABIERTA por política |
+| `CONT-MED-EPID-BRISTOL-BALANCE-001` | ¿el beneficio exterior compensó la mortalidad doméstica? | cerrar hogares protegió al resto de la ciudad | concentró daño sin beneficio neto equivalente | hogares y barrios comparables, movilidad y muertes exteriores | ABIERTA |
+| `CONT-MED-EPID-LONDON-UNDERCOUNT-001` | ¿cuánto subregistraron o clasificaron mal los Bills de 1665? | la serie aproxima la mortalidad por peste | fuga, extramuros y categorías alteran numerador y denominador | entierros individuales, población, testamentos y registros vecinos | ABIERTA |
+| `CONT-MED-EPID-MARSEILLE-INTRODUCTION-001` | ¿el Grand Saint-Antoine fue la única introducción causal? | la secuencia portuaria explica el inicio urbano | varias introducciones o cadenas no observadas | genomas tempranos, cargamentos, tripulaciones y fechas | PROBABLE, no exclusiva demostrada |
+| `CONT-MED-EPID-MARSEILLE-CORDON-001` | ¿qué parte del descenso se debió al cordón? | el cierre territorial terminó la epidemia | estacionalidad, susceptibles y medidas simultáneas contribuyeron | cruces, intensidad, contrafactual regional y tiempo | ABIERTA |
+
+## MED-015 — Encuentros coloniales
+
+| ID | Pregunta | Hipótesis A | Hipótesis B / alternativas | Qué discrimina | Estado |
+|---|---|---|---|---|---|
+| `CONT-MED-COL-HISPANIOLA-BASELINE-001` | ¿cuántas personas vivían en La Española en 1492? | estimaciones altas desde capacidad, crónicas y extrapolación | estimaciones menores desde recuentos y plausibilidad demográfica | unidades, cobertura, fecha y modelo comparables | ABIERTA; catástrofe no depende de cifra única |
+| `CONT-MED-COL-HISPANIOLA-CAUSES-001` | ¿qué peso tuvieron enfermedad, violencia, trabajo y hambre antes de 1518? | patógenos explican la mayor parte | mecanismos coloniales interactuaron antes y durante epidemias | series por periodo, agente, subsistencia y coerción | INTERACCIÓN APOYADA; pesos abiertos |
+| `CONT-MED-COL-TEPO-AGENT-001` | ¿Paratyphi C explica el cocoliztli de 1545? | fue agente principal regional | participó localmente junto con otros agentes o mecanismos | más sitios, individuos, controles y taxones | CANDIDATO FUERTE LOCAL; alcance abierto |
+| `CONT-MED-COL-HUANC-DOSE-001` | ¿qué dosis y desenlaces produjo el mercurio por tarea y residencia? | exposición alta explica morbilidad descrita | tarea, técnica, ventilación y otros riesgos produjeron perfiles distintos | biomarcadores, tareas, concentraciones y comparadores | ABIERTA |
+| `CONT-MED-COL-PHIL-IMMUNITY-001` | ¿la conectividad prehispánica protegió de epidemias coloniales? | exposición previa produjo inmunidad amplia | insularidad, densidad y frecuencia limitaron endemicidad | agentes, movilidad, densidad y series regionales | INMUNIDAD UNIFORME RECHAZADA |
+| `CONT-MED-COL-PHIL-POPULATION-001` | ¿cuánto cayó la población filipina temprana? | tributos aproximan una caída cercana a dos tercios | hogar, cobertura, evasión y migración alteran la magnitud | series fiscales enlazadas con registros independientes | DESCENSO APOYADO; magnitud condicionada |
+| `CONT-MED-COL-ATL-MORTALITY-001` | ¿qué redujo o elevó mortalidad durante la travesía? | duración y abastecimiento dominan | hacinamiento, violencia, enfermedad y selección también cambian | viajes comparables, condiciones, tripulación y rutas | ABIERTA por viaje |
+| `CONT-MED-COL-NEWTON-REPRESENTATION-001` | ¿qué población representa el cementerio de Newton? | aproxima la población esclavizada de la plantación | selección funeraria, tiempo y preservación sesgan el conjunto | cobertura del cementerio, cronología y registros nominales | ABIERTA |
+| `CONT-MED-COL-CAL-LATE-ONSET-001` | ¿las epidemias precedieron ampliamente a las misiones en California central? | contactos marítimos produjeron ondas tempranas extensas | catástrofe aparece con asentamiento y congregación sostenidos | entierros pre-1770, agentes y cronología regional | INICIO TARDÍO APOYADO regionalmente |
+| `CONT-MED-COL-MISSION-CAUSES-001` | ¿qué significan las causas de muerte misioneras? | etiquetas aproximan diagnósticos clínicos | categorías administrativas varían por escribano y periodo | reglas de clasificación, series enlazadas y paleopatología | ABIERTA por categoría |
+| `CONT-MED-COL-CINCHONA-ATTRIBUTION-001` | ¿a quién puede atribuirse el conocimiento de la quina? | un descubridor o expedición inauguró su uso | saberes, recolectores y mediadores múltiples sostuvieron la cadena | nombres, testimonios locales, especímenes y transferencias | AUTOR ÚNICO RECHAZADO; atribución parcial |
+
+## MED-016 — Anatomía, disección e imprenta
+
+| ID | Pregunta | Hipótesis A | Hipótesis B / alternativas | Qué discrimina | Estado |
+|---|---|---|---|---|---|
+| `CONT-MED-ANAT-MANSUR-GENEALOGY-001` | ¿de dónde procede la serie de figuras de Manṣūr? | transmisión desde una familia gráfica común | rutas múltiples, recomposición o convergencia | testigos intermedios fechados y codicología | ABIERTA |
+| `CONT-MED-ANAT-MANSUR-DISSECTION-001` | ¿las figuras derivan de disección humana directa? | postura y detalle conservan observación corporal | convención y copia explican el programa | nota de procedimiento, boceto o testigo independiente | NO DEMOSTRADO |
+| `CONT-MED-ANAT-BOLOGNA-RUPTURE-001` | ¿la disección boloñesa rompió con autoridad textual? | el cuerpo sustituyó al libro | lectura, ostensión y corte se reordenaron gradualmente | actas y comentarios de sesiones comparables | RUPTURA INSTANTÁNEA RECHAZADA |
+| `CONT-MED-ANAT-BERENGARIO-PRIORITY-001` | ¿Berengario inaugura la anatomía observacional impresa? | sus libros son un comienzo único | prácticas y productos anteriores impiden prioridad universal | producto, territorio y testigo comparables | ABIERTA por definición |
+| `CONT-MED-ANAT-VESALIUS-WORKSHOP-001` | ¿quién produjo las imágenes de la *Fabrica*? | un maestro del taller de Tiziano | varios dibujantes, talladores y Vesalio | bocetos, contratos, bloques y pruebas | ABIERTA |
+| `CONT-MED-ANAT-VESALIUS-REVOLUTION-001` | ¿la *Fabrica* constituye una revolución completa? | reemplaza autoridad por observación | combina ruptura, continuidad y errores | correcciones por estructura y recepción contemporánea | ABIERTA por dimensión |
+| `CONT-MED-ANAT-VALVERDE-COPY-001` | ¿cómo valorar la reutilización de Valverde? | copia no autorizada dependiente | traducción, transformación y crítica con agencia | cotejo figura–texto–edición | ABIERTA sin juicio único |
+| `CONT-MED-ANAT-NS-FIRST-001` | ¿qué fue la “primera anatomía” novohispana o americana? | un evento fija prioridad | autopsia, libro, cátedra y docencia tienen relojes distintos | definición de producto, territorio y testigo | PRIORIDAD ÚNICA RECHAZADA |
+| `CONT-MED-ANAT-ITAKI-SOURCES-001` | ¿qué fuentes exactas compuso Itâkî? | dependencia lineal de un modelo europeo | genealogías persas y europeas más aportes propios | cotejo de cada figura y variante manuscrita | ABIERTA por figura |
+| `CONT-MED-ANAT-JAPAN-1771-001` | ¿qué peso tuvo la demostración de 1771? | conversión decisiva e instantánea | catalizador dentro de una prehistoria larga | fuentes anteriores, memorias y revisiones | CATALIZADOR APOYADO; origen único rechazado |
+| `CONT-MED-ANAT-WANG-OBSERVATION-001` | ¿qué cuerpos observó Wang y con qué regularidad? | serie empírica amplia | encuentros oportunistas con cuerpos incompletos | diarios, fechas, lugares y comparadores | ABIERTA |
+| `CONT-MED-ANAT-CLINICAL-IMPACT-001` | ¿cuándo mejoró resultados la corrección anatómica? | publicación anatómica produce beneficio directo | aplicación depende de fisiología, analgesia, antisepsia y sistema clínico | comparadores contemporáneos y desenlaces | NO DEMOSTRADO en este expediente |
+
+## MED-017 — Circulación y fisiología experimental
+
+| ID | Pregunta | Hipótesis A | Hipótesis B / alternativas | Qué discrimina | Estado |
+|---|---|---|---|---|---|
+| `CONT-MED-PHYS-GALEN-EXPERIMENT-001` | ¿qué peso tuvo la intervención animal en el sistema galénico? | fue base causal dominante | coexistió con anatomía, autoridad y razonamiento | protocolos, variantes textuales y resultados fallidos | INTERVENCIÓN APOYADA; peso abierto |
+| `CONT-MED-PHYS-IBN-PROCEDURE-001` | ¿qué observación material sostuvo a Ibn al-Nafīs? | examinó directamente corazón y pulmón | corrigió mediante anatomía razonada y comentario crítico | nota de preparación, testigo independiente o vocabulario operativo | NO DEMOSTRADO |
+| `CONT-MED-PHYS-IBN-LATIN-TRANSMISSION-001` | ¿su formulación alcanzó a Servet o Colombo? | existió una cadena documental directa | semejanza o convergencia sin enlace probado | manuscrito, traducción, inventario, cita o intermediario fechado | ABIERTA; transmisión directa no demostrada |
+| `CONT-MED-PHYS-PULSE-COMMENSURATION-001` | ¿cómo comparar cualidades táctiles históricas con variables instrumentales? | son equivalentes traducibles | pertenecen a ontologías y operaciones parcialmente inconmensurables | protocolo enlazado, observadores y desenlaces | ABIERTA por cualidad |
+| `CONT-MED-PHYS-LATIN-PRIORITY-001` | ¿quién “descubrió” la circulación pulmonar latina? | una prioridad individual resuelve el episodio | publicación, descripción, intervención y transmisión tienen relojes distintos | producto, fecha, pasaje y dependencia explícitos | PRIORIDAD ÚNICA RECHAZADA |
+| `CONT-MED-PHYS-VALVES-PRIORITY-001` | ¿quién descubrió las válvulas venosas? | Fabricius por la monografía ilustrada | autores previos describieron o demostraron productos distintos | definición de notar, mostrar, figurar, explicar y publicar | ABIERTA por producto |
+| `CONT-MED-PHYS-VALVES-FUNCTION-001` | ¿qué función podía atribuirse desde la forma? | orientación bastaba para retorno centrípeto | la función exigía intervención en vivo y otro sistema | pruebas de flujo bajo condiciones comparables | FUNCIÓN NO HEREDADA DE FORMA |
+| `CONT-MED-PHYS-HARVEY-GENESIS-001` | ¿qué observación originó el programa de Harvey? | válvulas, cantidad o un experimento decisivo | convergencia gradual de problemas y operaciones | notas tempranas, fechas y secuencia de ensayos | ABIERTA; instante único rechazado |
+| `CONT-MED-PHYS-HARVEY-NUMBERS-001` | ¿qué exactitud tienen sus cálculos de volumen? | cuantifican flujo fisiológico real | funcionan como límite de plausibilidad con supuestos variables | unidades, capacidades, frecuencias y réplicas históricas | ARGUMENTO DE BALANCE APOYADO; exactitud abierta |
+| `CONT-MED-PHYS-MALPIGHI-ARTIFACT-001` | ¿qué parte de la red depende de preparación y dibujo? | la imagen registra directamente capilares | secado, luz, lente y trazo median la continuidad visible | preparaciones repetidas y comparación óptica | RED APOYADA; apariencia mediada |
+| `CONT-MED-PHYS-HALES-FIRST-001` | ¿Hales realizó la “primera presión arterial”? | una fecha única inaugura el concepto moderno | canulación, manometría, manguito y diagnóstico son productos distintos | definición de presión, instrumento, especie y uso | PRIORIDAD CONDICIONADA |
+| `CONT-MED-PHYS-CLINICAL-IMPACT-001` | ¿cuándo mejoró resultados clínicos la fisiología circulatoria? | el mecanismo produjo beneficio directo | instrumentos, terapias, sistemas y ensayos fueron necesarios | intervención, comparador, desenlace y contexto de aplicación | NO DEMOSTRADO en este expediente |
+
+## MED-018 — Microscopía y anatomía patológica
+
+| ID | Pregunta | Hipótesis principal | Alternativa | Evidencia discriminante | Estado |
+|---|---|---|---|---|---|
+| `CONT-MED-PATH-SONG-EQUIVALENCE-001` | ¿el *Xiyuan jilu* fue anatomía patológica o medicina forense moderna? | la antigüedad de sus procedimientos autoriza equivalencia disciplinaria | fue un manual médico-legal Song con categorías y operaciones propias | disección interna, tejido, microscopía, jurisdicción y uso comparados | EQUIVALENCIA MODERNA RECHAZADA |
+| `CONT-MED-PATH-MICROSCOPE-ORIGIN-001` | ¿quién fundó la microscopía biológica? | un inventor u observador único originó el campo | instrumentos, muestras, dibujo, correspondencia y demostración fueron distribuidos | definir lente, imagen, publicación, réplica y disciplina | ABIERTA por producto; fundador único rechazado |
+| `CONT-MED-PATH-MORGAGNI-CAUSALITY-001` | ¿una lesión localizada explica la causa del episodio? | correlación repetida identifica etiología | localiza un sustrato pero admite causa, efecto, marcador o coincidencia | temporalidad, controles, mecanismo y casos discordantes | ABIERTA por lesión |
+| `CONT-MED-PATH-BICHAT-CATEGORIES-001` | ¿las veintiuna categorías de Bichat son tejidos actuales? | existe equivalencia estable uno a uno | vitalismo, operación y taxonomía histórica exigen reagrupación | criterios originales, propiedades y comparación ciega | ABIERTA por categoría |
+| `CONT-MED-PATH-ROKITANSKY-VOLUME-001` | ¿cuántas autopsias son atribuibles a Rokitansky personalmente? | cifras institucionales resumen su observación individual | prosección, ayudantes, periodos y hospital produjeron el archivo | protocolos firmados, años, funciones y denominadores | ABIERTA; archivo institucional apoyado |
+| `CONT-MED-PATH-CELLULAR-CREDIT-001` | ¿quién creó la patología celular? | Virchow por síntesis y difusión | Müller, Schleiden, Schwann, Remak y otros aportaron productos distintos | observación, publicación, explicación, enseñanza y recepción | PRIORIDAD ÚNICA RECHAZADA |
+| `CONT-MED-PATH-ARTIFACT-001` | ¿un rasgo es lesión o artefacto? | reproduce estructura biológica | fijación, corte, tinción o montaje lo crea o borra | otra preparación, controles, planos y modalidad | ABIERTA por muestra |
+| `CONT-MED-PATH-HEMATOXYLIN-LAB-001` | ¿la hematoxilina tiene una genealogía exclusivamente laboratorial? | su historia comienza como tinte histológico | planta mesoamericana, extracción colonial y tintorería preceden su uso técnico | procedencia material, comercio, química y protocolo | GENEALOGÍA AMPLIADA |
+| `CONT-MED-PATH-PAP-PRIORITY-001` | ¿quién inventó el frotis cervical? | un epónimo resuelve la prioridad | Babeș, los Papanicolaou, Traut y trabajo técnico produjeron pasos no idénticos | fecha, muestra, objetivo, método, verificación y difusión | PRIORIDAD DISTRIBUIDA |
+| `CONT-MED-PATH-PAP-SIGNAL-001` | ¿un frotis anormal equivale a enfermedad? | morfología anormal identifica por sí sola el tumor | puede ser señal verdadera, cambio transitorio, falsa lectura o muestra insuficiente | repetición, biopsia, seguimiento y desenlace | NO EQUIVALENTE; rendimiento por contexto abierto |
+
+## MED-019 — Hospitales, cabecera y examen clínico
+
+| ID | Pregunta | Hipótesis principal | Alternativa | Evidencia discriminante | Estado |
+|---|---|---|---|---|---|
+| `CONT-MED-CLINIC-BOERHAAVE-FOUNDER-001` | ¿Boerhaave fundó la enseñanza junto a la cama? | una figura inició una práctica nueva y transmisible | Padua, Sylvius y generaciones de Leiden produjeron repertorios anteriores; Boerhaave amplificó una recepción | diarios, cursos, salas, camas, fechas y redes de estudiantes | FUNDADOR ÚNICO RECHAZADO |
+| `CONT-MED-CLINIC-BEDSIDE-UNIVERSAL-001` | ¿la cabecera fue una institución universal equivalente? | observar pacientes junto a una cama define el mismo producto en cualquier región | gobierno, ingreso, currículo, personal y archivo transforman el encuentro | comparación por siete capas y archivo local | EQUIVALENCIA UNIVERSAL RECHAZADA |
+| `CONT-MED-CLINIC-PARIS-REVOLUTION-001` | ¿París produjo una ruptura clínica instantánea? | hospital, autopsia e instrumentos sustituyeron un régimen previo | hubo adopciones graduales, traducciones, continuidades, selección y conflicto | cronologías de ingreso, publicación, enseñanza y uso | ABIERTA por institución y técnica |
+| `CONT-MED-CLINIC-SIGN-LESION-001` | ¿un sonido clínico contiene una lesión? | percusión o auscultación identifican directamente el sustrato | signo e interpretación dependen de técnica, aparato, categoría y contraste | repetición, desacuerdo, autopsia, imagen y desenlace | NO EQUIVALENTE |
+| `CONT-MED-CLINIC-OTTOMAN-WESTERNIZATION-001` | ¿la reforma otomana reemplazó una medicina por otra? | una transferencia occidental produjo sustitución uniforme | repertorios coexistieron, compitieron y fueron reconfigurados por Estado y actores locales | currículo, lengua, licencias, personal y práctica fuera de la escuela | SUSTITUCIÓN UNIFORME RECHAZADA |
+| `CONT-MED-CLINIC-COLONIAL-MODERNIZATION-001` | ¿Calcuta puede narrarse sólo como difusión de medicina moderna? | una institución metropolitana transfirió conocimiento a una periferia | estudiantes y médicos indios participaron bajo selección y jerarquía coloniales | autoría, carreras, pacientes, cadáveres, salarios y credenciales | DIFUSIÓN UNIDIRECCIONAL RECHAZADA |
+| `CONT-MED-CLINIC-PATIENT-VOICE-001` | ¿la clínica moderna eliminó la voz del paciente? | signos y registros sustituyeron completamente el relato | ciertos formatos la redujeron mientras cartas, decisiones y otros archivos conservan agencia | contraste entre expediente, correspondencia, diario, demanda y decisión | DESAPARICIÓN UNIVERSAL RECHAZADA |
+| `CONT-MED-CLINIC-RECORD-OBJECTIVITY-001` | ¿un expediente estandarizado es una observación neutral? | mayor estructura elimina selección y sesgo | formulario y finalidad mejoran comparabilidad pero delimitan qué y quién cuenta | versiones del formulario, omisiones, discordancias y usos | ABIERTA por registro |
+| `CONT-MED-CLINIC-CONSENT-HISTORICAL-001` | ¿puede inferirse consentimiento porque una enseñanza ocurrió? | presencia y ausencia de protesta prueban aceptación | dependencia y silencio documental impiden equivalencia; tampoco autorizan inventar una negativa | normas, testimonios, opciones reales, coerción y archivo del encuentro | NO DEMOSTRADO por defecto |
+| `CONT-MED-CLINIC-HOSPITAL-PROGRESS-001` | ¿más camas, instrumentos y expedientes implican mejor medicina? | volumen institucional forma una escala de progreso | observabilidad, acceso, exactitud, eficacia, daño y justicia son dimensiones independientes | denominadores, comparación diagnóstica, resultados y distribución | RANKING UNIVERSAL RECHAZADO |

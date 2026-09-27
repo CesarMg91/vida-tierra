@@ -59,3 +59,11 @@ Grafos de dependencias entre objetos, mediciones, principios, modelos, claims y 
 - [`MAPA_CIV_002_FECHADO.md`](MAPA_CIV_002_FECHADO.md) — seis capas, dependencias, casos y falsadores del fechado — **AUDITADO**.
 
 - [`MAPA_CIV_003_ASIA_SUDOCCIDENTAL.md`](MAPA_CIV_003_ASIA_SUDOCCIDENTAL.md) — del objeto al patrón regional, con identidad, Estado y civilización como saltos no heredados — **AUDITADO**.
+
+## Medicina
+
+- [`MAPA_MED_008_ROMA_BIZANCIO_MEDITERRANEO_TARDIO.md`](MAPA_MED_008_ROMA_BIZANCIO_MEDITERRANEO_TARDIO.md) — vestigio, identificación, función, operación, acceso y consecuencia sin hospital, cobertura o resultado heredados — **AUDITADO**.
+- [`MAPA_MED_009_AFRICA_FUERA_EJE_EGIPCIO.md`](MAPA_MED_009_AFRICA_FUERA_EJE_EGIPCIO.md) — archivo, procedencia, señal, inferencia, contraste y límite sin convertir silencio o analogía en hecho — **AUDITADO**.
+- [`MAPA_MED_010_MESOAMERICA_ANDES_AMERICAS.md`](MAPA_MED_010_MESOAMERICA_ANDES_AMERICAS.md) — archivo, procedencia, señal, práctica, consecuencia y límite sin convertir una huella en historia clínica — **AUDITADO**.
+- [`MAPA_MED_011_MUNDOS_ISLAMICOS.md`](MAPA_MED_011_MUNDOS_ISLAMICOS.md) — testigo, versión, operación, institución, alcance y consecuencia sin convertir traducción, norma o fundación en práctica o efecto — **AUDITADO**.
+- [`MAPA_MED_012_EUROPA_MEDIEVAL_TRADICIONES_JUDIAS.md`](MAPA_MED_012_EUROPA_MEDIEVAL_TRADICIONES_JUDIAS.md) — testigo, versión, currículo, practicante, encuentro y alcance sin convertir autoridad, licencia o identidad en consulta — **AUDITADO**.

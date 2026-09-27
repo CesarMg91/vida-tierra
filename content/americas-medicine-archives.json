@@ -1,0 +1,378 @@
+{
+  "schemaVersion": 1,
+  "researchSlug": "15_medicina/INVESTIGACION_MED_010_MESOAMERICA_ANDES_AMERICAS",
+  "cases": [
+    {
+      "id": "cuzco-trepanation",
+      "title": "Cuzco — remodelación no es historia clínica",
+      "region": "Sierra sur del Perú",
+      "archive": "66 individuos, 109 aberturas craneales y 11 sitios funerarios",
+      "layers": [
+        {
+          "kind": "archive",
+          "observed": "Una serie regional reúne 66 individuos con 109 perforaciones procedentes de 11 sitios del área de Cuzco.",
+          "inference": "Existe una muestra comparativa para estudiar técnica, distribución y remodelación ósea.",
+          "limit": "La serie funeraria no equivale a todos los habitantes, operadores o procedimientos andinos.",
+          "claimIds": ["CLAIM-MED-AMERICAS-SCOPE-001", "CLAIM-MED-AMERICAS-TREPANATION-SAMPLE-001"],
+          "evidenceIds": ["EVID-MED-AMERICAS-CUZCO-SAMPLE-001"],
+          "sourceIds": ["SRC-MED-AMERICAS-ANDRUSHKO-2008"]
+        },
+        {
+          "kind": "provenance",
+          "observed": "Sitio, periodo, individuo y lesión fueron registrados; algunas personas conservan más de una abertura.",
+          "inference": "La procedencia permite comparar técnicas y cambios temporales dentro de la muestra.",
+          "limit": "Colección, conservación, edad y selección mortuoria condicionan el denominador.",
+          "claimIds": ["CLAIM-MED-AMERICAS-ARCHIVE-001", "CLAIM-MED-AMERICAS-ETHICS-001"],
+          "evidenceIds": ["EVID-MED-AMERICAS-CUZCO-SAMPLE-001", "EVID-MED-AMERICAS-ETHICS-001"],
+          "sourceIds": ["SRC-MED-AMERICAS-ANDRUSHKO-2008", "SRC-MED-AMERICAS-RADIN-2018"]
+        },
+        {
+          "kind": "signal",
+          "observed": "Corte circular, raspado, localización y reacción ósea permiten clasificar intervención y supervivencia postoperatoria probable.",
+          "inference": "Remodelación extensa indica que el individuo vivió tiempo suficiente para formar hueso nuevo.",
+          "limit": "Ausencia de remodelación no separa muerte inmediata, intervalo breve, preservación o procedimiento perimortem.",
+          "claimIds": ["CLAIM-MED-AMERICAS-BODY-001", "CLAIM-MED-AMERICAS-TREPANATION-HEALING-001"],
+          "evidenceIds": ["EVID-MED-AMERICAS-CUZCO-HEALING-001"],
+          "sourceIds": ["SRC-MED-AMERICAS-ANDRUSHKO-2008", "SRC-MED-AMERICAS-VERANO-FINGER-2010"]
+        },
+        {
+          "kind": "practice",
+          "observed": "Trauma craneal aparece asociado en parte de la serie y se evitaban zonas anatómicas de mayor riesgo.",
+          "inference": "Algunas trepanaciones pudieron responder a trauma y reflejar aprendizaje técnico acumulado.",
+          "limit": "No demostrado: indicación individual, analgesia, antisepsia, especialidad, cosmología u operador.",
+          "claimIds": ["CLAIM-MED-AMERICAS-TREPANATION-INDICATION-001"],
+          "evidenceIds": ["EVID-MED-AMERICAS-CUZCO-INDICATION-001"],
+          "sourceIds": ["SRC-MED-AMERICAS-ANDRUSHKO-2008", "SRC-MED-AMERICAS-VERANO-FINGER-2010"]
+        },
+        {
+          "kind": "consequence",
+          "observed": "El artículo calculó 83 % de supervivencia a partir de categorías de cicatrización y describió poca infección visible.",
+          "inference": "Muchas personas sobrevivieron más allá del procedimiento y la proporción estimada aumentó en series posteriores.",
+          "limit": "No es una tasa clínica prospectiva: mezcla selección funeraria, caso, duración, función y umbrales de remodelación.",
+          "claimIds": ["CLAIM-MED-AMERICAS-TREPANATION-HEALING-001", "CLAIM-MED-AMERICAS-EFFICACY-001"],
+          "evidenceIds": ["EVID-MED-AMERICAS-CUZCO-HEALING-001", "EVID-MED-AMERICAS-EFFICACY-001"],
+          "sourceIds": ["SRC-MED-AMERICAS-ANDRUSHKO-2008", "SRC-MED-AMERICAS-KUSHNER-2018"]
+        },
+        {
+          "kind": "limit",
+          "observed": "66 individuos y 109 perforaciones sostienen una serie regional, no un ensayo ni una población completa.",
+          "inference": "Puede afirmarse intervención repetida, supervivencia frecuente y variación técnica.",
+          "limit": "No demostrado: beneficio funcional, causa de muerte evitada o superioridad frente a cirugía de otros periodos.",
+          "claimIds": ["CLAIM-MED-AMERICAS-NONRANKING-001", "CLAIM-MED-AMERICAS-EFFICACY-001"],
+          "evidenceIds": ["EVID-MED-AMERICAS-SYNTHESIS-001", "EVID-MED-AMERICAS-EFFICACY-001"],
+          "sourceIds": ["SRC-MED-AMERICAS-ANDRUSHKO-2008", "SRC-MED-AMERICAS-KUSHNER-2018"]
+        }
+      ]
+    },
+    {
+      "id": "maya-dental-inlays",
+      "title": "Incrustaciones mayas — material no es terapia",
+      "region": "Tierras bajas mayas",
+      "archive": "Dientes modificados, cavidades, incrustaciones, selladores y controles no tratados",
+      "layers": [
+        {
+          "kind": "archive",
+          "observed": "Dientes de múltiples sitios conservan limado, perforación, incrustaciones pétreas, rellenos y cementos.",
+          "inference": "El archivo permite estudiar transformación corporal, técnica y materiales.",
+          "limit": "No toda modificación dental tuvo el mismo significado, ejecutor o finalidad.",
+          "claimIds": ["CLAIM-MED-AMERICAS-MAYA-MODIFICATION-001"],
+          "evidenceIds": ["EVID-MED-AMERICAS-MAYA-INLAYS-001"],
+          "sourceIds": ["SRC-MED-AMERICAS-TIESLER-2024"]
+        },
+        {
+          "kind": "provenance",
+          "observed": "Ocho especímenes con selladores proceden de Holmul, Baking Pot y el valle de Copán; otras colecciones aportan controles patológicos.",
+          "inference": "Sitio, pieza y colección permiten no mezclar todos los materiales como una receta única.",
+          "limit": "Ocho análisis composicionales no representan tres milenios ni toda Mesoamérica.",
+          "claimIds": ["CLAIM-MED-AMERICAS-ARCHIVE-001", "CLAIM-MED-AMERICAS-MAYA-SEALANT-001"],
+          "evidenceIds": ["EVID-MED-AMERICAS-MAYA-SEALANTS-001"],
+          "sourceIds": ["SRC-MED-AMERICAS-HERNANDEZ-BOLIO-2022", "SRC-MED-AMERICAS-TIESLER-2024"]
+        },
+        {
+          "kind": "signal",
+          "observed": "ATR-FTIR y GC-MS identificaron mezclas orgánicas compatibles con resinas de Pinaceae, aceites vegetales y bitumen.",
+          "inference": "Los cementos fueron preparados y variaron entre muestras y sitios.",
+          "limit": "Compatibilidad química no identifica con certeza especie, receta, dosis o intención terapéutica.",
+          "claimIds": ["CLAIM-MED-AMERICAS-MAYA-SEALANT-001"],
+          "evidenceIds": ["EVID-MED-AMERICAS-MAYA-SEALANTS-001"],
+          "sourceIds": ["SRC-MED-AMERICAS-HERNANDEZ-BOLIO-2022"]
+        },
+        {
+          "kind": "practice",
+          "observed": "Perforaciones regulares, cementos persistentes y secuencias experimentales sostienen destreza técnica.",
+          "inference": "Practicantes especializados o entrenados realizaron modificaciones en personas vivas.",
+          "limit": "Destreza e identidad social no convierten decoración, cosmología y cuidado en categorías mutuamente excluyentes.",
+          "claimIds": ["CLAIM-MED-AMERICAS-MAYA-MODIFICATION-001", "CLAIM-MED-AMERICAS-CONTINUITY-001"],
+          "evidenceIds": ["EVID-MED-AMERICAS-MAYA-INLAYS-001"],
+          "sourceIds": ["SRC-MED-AMERICAS-TIESLER-2024", "SRC-MED-AMERICAS-RAMIREZ-SALOMON-2018"]
+        },
+        {
+          "kind": "consequence",
+          "observed": "En 193 dientes incrustados y 211 controles, caries y lesiones periapicales fueron más frecuentes en los modificados, aunque muchas incrustaciones conservaron buen sellado.",
+          "inference": "Hubo supervivencia pulpar suficiente para producir reacción y un desempeño técnico promedio notable, junto con daño mayor que en controles.",
+          "limit": "Las colecciones no ofrecen dolor, función, seguimiento individual ni comparabilidad clínica moderna.",
+          "claimIds": ["CLAIM-MED-AMERICAS-MAYA-PATHOSIS-001", "CLAIM-MED-AMERICAS-EFFICACY-001"],
+          "evidenceIds": ["EVID-MED-AMERICAS-MAYA-PATHOSIS-001"],
+          "sourceIds": ["SRC-MED-AMERICAS-RAMIREZ-SALOMON-2018"]
+        },
+        {
+          "kind": "limit",
+          "observed": "Moléculas con propiedades conocidas y sellado duradero coexisten con patología comparativamente mayor.",
+          "inference": "La evidencia sostiene tecnología material compleja y consecuencias mixtas.",
+          "limit": "No demostrado: indicación terapéutica, beneficio neto, efecto antimicrobiano in vivo o equivalencia con odontología restauradora.",
+          "claimIds": ["CLAIM-MED-AMERICAS-EFFICACY-001", "CLAIM-MED-AMERICAS-NONRANKING-001"],
+          "evidenceIds": ["EVID-MED-AMERICAS-MAYA-SEALANTS-001", "EVID-MED-AMERICAS-MAYA-PATHOSIS-001"],
+          "sourceIds": ["SRC-MED-AMERICAS-HERNANDEZ-BOLIO-2022", "SRC-MED-AMERICAS-RAMIREZ-SALOMON-2018"]
+        }
+      ]
+    },
+    {
+      "id": "huaca-el-paraiso",
+      "title": "Huaca El Paraíso — planta no es prescripción",
+      "region": "Costa central del Perú",
+      "archive": "Cálculo dental y sedimento de caries de una mujer del Precerámico tardío",
+      "layers": [
+        {
+          "kind": "archive",
+          "observed": "Un individuo conserva cálculo dental, lesiones y sedimento de caries con microrestos vegetales.",
+          "inference": "El cálculo y la cavidad ofrecen depósitos bucales de alta resolución individual.",
+          "limit": "Una persona no representa una comunidad, sexo, fase ni tradición médica.",
+          "claimIds": ["CLAIM-MED-AMERICAS-HUACA-PLANTS-001", "CLAIM-MED-AMERICAS-SCOPE-001"],
+          "evidenceIds": ["EVID-MED-AMERICAS-HUACA-PLANTS-001"],
+          "sourceIds": ["SRC-MED-AMERICAS-ALLENDE-2022"]
+        },
+        {
+          "kind": "provenance",
+          "observed": "El entierro procede de Huaca El Paraíso y se sitúa en el Precerámico tardío, ca. 2100–1500 a. e. c.",
+          "inference": "Contexto y cronología delimitan el episodio biográfico estudiado.",
+          "limit": "Historia de depósito bucal, excavación y laboratorio debe mantenerse separada.",
+          "claimIds": ["CLAIM-MED-AMERICAS-ARCHIVE-001", "CLAIM-MED-AMERICAS-MICROREMAIN-001"],
+          "evidenceIds": ["EVID-MED-AMERICAS-HUACA-PLANTS-001", "EVID-MED-AMERICAS-MICROREMAIN-METHOD-001"],
+          "sourceIds": ["SRC-MED-AMERICAS-ALLENDE-2022", "SRC-MED-AMERICAS-LEONARD-2015"]
+        },
+        {
+          "kind": "signal",
+          "observed": "Se recuperaron almidones y fitolitos compatibles con plantas consumidas o procesadas en la boca.",
+          "inference": "Hubo contacto oral con materiales vegetales identificables a resolución limitada.",
+          "limit": "Los microrestos predicen mal la intensidad del consumo individual y admiten varias rutas de entrada.",
+          "claimIds": ["CLAIM-MED-AMERICAS-MICROREMAIN-001"],
+          "evidenceIds": ["EVID-MED-AMERICAS-MICROREMAIN-METHOD-001"],
+          "sourceIds": ["SRC-MED-AMERICAS-LEONARD-2015", "SRC-MED-AMERICAS-ALLENDE-2022"]
+        },
+        {
+          "kind": "practice",
+          "observed": "Parte de los microrestos apareció dentro del sedimento de una cavidad y fue comparada con usos vegetales conocidos.",
+          "inference": "Una aplicación local vegetal es una hipótesis posible.",
+          "limit": "Alimento, procesamiento oral, contaminación y depósito incidental siguen siendo alternativas.",
+          "claimIds": ["CLAIM-MED-AMERICAS-HUACA-PLANTS-001"],
+          "evidenceIds": ["EVID-MED-AMERICAS-HUACA-PLANTS-001"],
+          "sourceIds": ["SRC-MED-AMERICAS-ALLENDE-2022"]
+        },
+        {
+          "kind": "consequence",
+          "observed": "La cavidad y el cálculo conservan enfermedad dental y exposición vegetal, no una medición de respuesta.",
+          "inference": "Puede reconstruirse asociación individual entre lesión y microrestos.",
+          "limit": "No hay antes/después, dosis, alivio, seguridad o comparador.",
+          "claimIds": ["CLAIM-MED-AMERICAS-EFFICACY-001"],
+          "evidenceIds": ["EVID-MED-AMERICAS-EFFICACY-001"],
+          "sourceIds": ["SRC-MED-AMERICAS-ALLENDE-2022", "SRC-MED-AMERICAS-LEONARD-2015"]
+        },
+        {
+          "kind": "limit",
+          "observed": "La señal procede de una persona y de un microambiente bucal complejo.",
+          "inference": "Sostiene contacto vegetal y una hipótesis terapéutica graduada.",
+          "limit": "No demostrado: intención medicinal, receta compartida o eficacia; una persona no funda una tradición.",
+          "claimIds": ["CLAIM-MED-AMERICAS-HUACA-PLANTS-001", "CLAIM-MED-AMERICAS-NONRANKING-001"],
+          "evidenceIds": ["EVID-MED-AMERICAS-HUACA-PLANTS-001", "EVID-MED-AMERICAS-SYNTHESIS-001"],
+          "sourceIds": ["SRC-MED-AMERICAS-ALLENDE-2022"]
+        }
+      ]
+    },
+    {
+      "id": "piaui-coprolites",
+      "title": "Piauí — uso probable no es certeza farmacológica",
+      "region": "Boqueirão da Pedra Furada, Brasil",
+      "archive": "Cinco coprolitos humanos, polen y huevos de parásitos intestinales",
+      "layers": [
+        {
+          "kind": "archive",
+          "observed": "Cinco coprolitos humanos datados en ca. 8500–7000 años AP conservan polen y evidencia parasitológica.",
+          "inference": "Un archivo intestinal conecta consumo reciente, ambiente y enfermedad en individuos concretos.",
+          "limit": "Cinco deposiciones no representan a toda la población ni todo el repertorio vegetal.",
+          "claimIds": ["CLAIM-MED-AMERICAS-COPROLITE-001", "CLAIM-MED-AMERICAS-PIAUI-PARASITES-001"],
+          "evidenceIds": ["EVID-MED-AMERICAS-PIAUI-COPROLITES-001"],
+          "sourceIds": ["SRC-MED-AMERICAS-CHAVES-REINHARD-2006"]
+        },
+        {
+          "kind": "provenance",
+          "observed": "Sitio, datación, anatomía del depósito y procesamiento palinológico delimitan cada muestra.",
+          "inference": "El polen dentro de coprolitos reduce algunas rutas de contaminación ambiental.",
+          "limit": "Producción, dispersión, ingestión accidental y preservación varían entre taxones.",
+          "claimIds": ["CLAIM-MED-AMERICAS-ARCHIVE-001", "CLAIM-MED-AMERICAS-COPROLITE-001"],
+          "evidenceIds": ["EVID-MED-AMERICAS-PIAUI-COPROLITES-001"],
+          "sourceIds": ["SRC-MED-AMERICAS-CHAVES-REINHARD-2006", "SRC-MED-AMERICAS-SOBOLIK-GERICK-1992"]
+        },
+        {
+          "kind": "signal",
+          "observed": "Se identificaron doce géneros potencialmente medicinales; huevos de tricocéfalo y anquilostoma indican infección intestinal.",
+          "inference": "Tres géneros ofrecieron una convergencia más fuerte entre concentración, uso posible y síntomas plausibles.",
+          "limit": "Taxón con propiedades conocidas no conserva preparación, dosis o motivo de ingestión.",
+          "claimIds": ["CLAIM-MED-AMERICAS-PIAUI-PARASITES-001", "CLAIM-MED-AMERICAS-COPROLITE-001"],
+          "evidenceIds": ["EVID-MED-AMERICAS-PIAUI-PARASITES-001", "EVID-MED-AMERICAS-PIAUI-COPROLITES-001"],
+          "sourceIds": ["SRC-MED-AMERICAS-CHAVES-REINHARD-2006"]
+        },
+        {
+          "kind": "practice",
+          "observed": "La combinación de parásitos y Anacardium, Borreria y Terminalia fue evaluada como uso medicinal probable.",
+          "inference": "Algunas plantas pudieron ingerirse para aliviar síntomas intestinales.",
+          "limit": "No demostrado: diagnóstico indígena, receta, causalidad individual o exclusión de alimento y otros usos.",
+          "claimIds": ["CLAIM-MED-AMERICAS-COPROLITE-001"],
+          "evidenceIds": ["EVID-MED-AMERICAS-PIAUI-COPROLITES-001"],
+          "sourceIds": ["SRC-MED-AMERICAS-CHAVES-REINHARD-2006"]
+        },
+        {
+          "kind": "consequence",
+          "observed": "Los coprolitos conservan infección y consumo; no documentan cambio posterior de síntomas o carga parasitaria.",
+          "inference": "La convergencia fortalece función probable, no efecto terapéutico.",
+          "limit": "No hay desenlace, comparador, toxicidad ni seguimiento.",
+          "claimIds": ["CLAIM-MED-AMERICAS-EFFICACY-001"],
+          "evidenceIds": ["EVID-MED-AMERICAS-EFFICACY-001"],
+          "sourceIds": ["SRC-MED-AMERICAS-CHAVES-REINHARD-2006"]
+        },
+        {
+          "kind": "limit",
+          "observed": "Sólo tres de doce géneros sostuvieron el argumento más fuerte y aun así bajo inferencia contextual.",
+          "inference": "El caso enseña a graduar función probable en vez de etiquetar todo polen como fármaco.",
+          "limit": "Propiedad farmacológica moderna no retrodiagnostica intención, indicación o eficacia antigua.",
+          "claimIds": ["CLAIM-MED-AMERICAS-EFFICACY-001", "CLAIM-MED-AMERICAS-NONRANKING-001"],
+          "evidenceIds": ["EVID-MED-AMERICAS-SYNTHESIS-001"],
+          "sourceIds": ["SRC-MED-AMERICAS-CHAVES-REINHARD-2006", "SRC-MED-AMERICAS-SOBOLIK-GERICK-1992"]
+        }
+      ]
+    },
+    {
+      "id": "libellus-1552",
+      "title": "Libellus — un herbario colonial no es una ventana intacta",
+      "region": "México central / Tlatelolco",
+      "archive": "Manuscrito ilustrado en latín, papel europeo y encargo colonial fechado en 1552",
+      "layers": [
+        {
+          "kind": "archive",
+          "observed": "El Libellus conserva ilustraciones, nombres y remedios asociados con plantas en un códice fechado en 1552.",
+          "inference": "Es un testigo directo de conocimiento presentado por intelectuales nahuas bajo un proyecto concreto.",
+          "limit": "El objeto no contiene toda la práctica de México central ni una tradición precontacto inmóvil.",
+          "claimIds": ["CLAIM-MED-AMERICAS-LIBELLUS-OBJECT-001"],
+          "evidenceIds": ["EVID-MED-AMERICAS-LIBELLUS-OBJECT-001"],
+          "sourceIds": ["SRC-MED-AMERICAS-INAH-LIBELLUS", "SRC-MED-AMERICAS-RIOS-CASTANO-2018"]
+        },
+        {
+          "kind": "provenance",
+          "observed": "Martín de la Cruz compuso el repertorio; Juan Badiano lo tradujo al latín en el Colegio de Santa Cruz de Tlatelolco, sobre papel europeo y para un patrocinio colonial.",
+          "inference": "Autoría nahua, traducción, soporte, institución y destinatario forman parte del significado del objeto.",
+          "limit": "No se conserva un original nahua independiente que permita deshacer cada decisión de traducción.",
+          "claimIds": ["CLAIM-MED-AMERICAS-COLONIAL-COPRODUCTION-001", "CLAIM-MED-AMERICAS-COLONIAL-FRAMING-001"],
+          "evidenceIds": ["EVID-MED-AMERICAS-COLONIAL-COPRODUCTION-001"],
+          "sourceIds": ["SRC-MED-AMERICAS-INAH-LIBELLUS", "SRC-MED-AMERICAS-DE-VOS-2017"]
+        },
+        {
+          "kind": "signal",
+          "observed": "Texto, imágenes, taxones, partes de plantas, preparaciones y dolencias se organizan como herbario cortesano.",
+          "inference": "Puede estudiarse una selección explícita de materia médica y modos de clasificación.",
+          "limit": "Nombre histórico, imagen y especie botánica moderna no siempre se corresponden uno a uno.",
+          "claimIds": ["CLAIM-MED-AMERICAS-LIBELLUS-OBJECT-001", "CLAIM-MED-AMERICAS-COLONIAL-FRAMING-001"],
+          "evidenceIds": ["EVID-MED-AMERICAS-LIBELLUS-OBJECT-001"],
+          "sourceIds": ["SRC-MED-AMERICAS-RIOS-CASTANO-2018", "SRC-MED-AMERICAS-DE-VOS-2017"]
+        },
+        {
+          "kind": "practice",
+          "observed": "El códice formula preparaciones y usos atribuidos a remedios concretos.",
+          "inference": "Documenta conocimiento prescriptivo disponible dentro de su entorno de producción.",
+          "limit": "Prescripción no demuestra ejecución, frecuencia, acceso, adherencia o uniformidad social.",
+          "claimIds": ["CLAIM-MED-AMERICAS-COLONIAL-COPRODUCTION-001"],
+          "evidenceIds": ["EVID-MED-AMERICAS-COLONIAL-COPRODUCTION-001"],
+          "sourceIds": ["SRC-MED-AMERICAS-INAH-LIBELLUS", "SRC-MED-AMERICAS-RIOS-CASTANO-2018"]
+        },
+        {
+          "kind": "consequence",
+          "observed": "El manuscrito registra recomendaciones; no series consecutivas de pacientes, daños o resultados.",
+          "inference": "Su consecuencia demostrable es documental y de circulación del conocimiento.",
+          "limit": "Eficacia y seguridad de cada preparación requieren otras evidencias.",
+          "claimIds": ["CLAIM-MED-AMERICAS-EFFICACY-001", "CLAIM-MED-AMERICAS-MATERIA-MEDICA-CIRCULATION-001"],
+          "evidenceIds": ["EVID-MED-AMERICAS-EFFICACY-001", "EVID-MED-AMERICAS-CIRCULATION-001"],
+          "sourceIds": ["SRC-MED-AMERICAS-HUGUET-TERMES-2001", "SRC-MED-AMERICAS-INAH-LIBELLUS"]
+        },
+        {
+          "kind": "limit",
+          "observed": "El objeto combina agencia nahua, traducción latina, formato europeo, patronazgo y destino cortesano.",
+          "inference": "Es evidencia de co-producción colonial situada, no de pureza cultural.",
+          "limit": "Ni europeización total ni supervivencia precontacto intacta describen adecuadamente el manuscrito.",
+          "claimIds": ["CLAIM-MED-AMERICAS-COLONIAL-COPRODUCTION-001", "CLAIM-MED-AMERICAS-CONTINUITY-001"],
+          "evidenceIds": ["EVID-MED-AMERICAS-COLONIAL-COPRODUCTION-001"],
+          "sourceIds": ["SRC-MED-AMERICAS-RIOS-CASTANO-2018", "SRC-MED-AMERICAS-DE-VOS-2017"]
+        }
+      ]
+    },
+    {
+      "id": "florentine-codex",
+      "title": "Códice Florentino — dos columnas, muchas mediaciones",
+      "region": "México central / Tlatelolco y Florencia",
+      "archive": "Doce libros con texto náhuatl, interpretación española y casi 2 500 imágenes, concluidos ca. 1577",
+      "layers": [
+        {
+          "kind": "archive",
+          "observed": "El códice reúne doce libros, columnas paralelas en náhuatl y español e imágenes producidas por colaboradores indígenas.",
+          "inference": "Es un archivo multivocal excepcional de conocimiento nahua temprano colonial.",
+          "limit": "Excepcionalidad documental no equivale a exhaustividad social o médica.",
+          "claimIds": ["CLAIM-MED-AMERICAS-FLORENTINE-OBJECT-001"],
+          "evidenceIds": ["EVID-MED-AMERICAS-FLORENTINE-OBJECT-001"],
+          "sourceIds": ["SRC-MED-AMERICAS-GETTY-FLORENTINE", "SRC-MED-AMERICAS-RIOS-CASTANO-2018"]
+        },
+        {
+          "kind": "provenance",
+          "observed": "Fue elaborado en el Colegio de Santa Cruz bajo dirección franciscana, con informantes, escribas y artistas nahuas; el manuscrito terminó en Florencia.",
+          "inference": "Lengua, columna, imagen, cuestionario, edición y custodia son capas de procedencia.",
+          "limit": "La firma de Sahagún no sustituye la autoría distribuida ni revela cada negociación.",
+          "claimIds": ["CLAIM-MED-AMERICAS-COLONIAL-COPRODUCTION-001", "CLAIM-MED-AMERICAS-ETHICS-001"],
+          "evidenceIds": ["EVID-MED-AMERICAS-FLORENTINE-OBJECT-001", "EVID-MED-AMERICAS-ETHICS-001"],
+          "sourceIds": ["SRC-MED-AMERICAS-GETTY-FLORENTINE", "SRC-MED-AMERICAS-RADIN-2018"]
+        },
+        {
+          "kind": "signal",
+          "observed": "El Libro XI, párrafo V, organiza plantas con descripciones, imágenes, nombres y aplicaciones dentro de una enciclopedia más amplia.",
+          "inference": "Permite comparar vocabulario, clasificación, imagen y materia médica en un estrato preciso.",
+          "limit": "Las columnas no son traducciones equivalentes y las categorías editoriales condicionan la lectura.",
+          "claimIds": ["CLAIM-MED-AMERICAS-FLORENTINE-OBJECT-001", "CLAIM-MED-AMERICAS-COLONIAL-FRAMING-001"],
+          "evidenceIds": ["EVID-MED-AMERICAS-FLORENTINE-HERBAL-001"],
+          "sourceIds": ["SRC-MED-AMERICAS-RIOS-CASTANO-2018", "SRC-MED-AMERICAS-GETTY-FLORENTINE"]
+        },
+        {
+          "kind": "practice",
+          "observed": "El texto atribuye preparaciones, especialistas, dolencias y modos de curar a interlocutores y categorías concretos.",
+          "inference": "Documenta repertorios expresados y reformulados en un encuentro colonial.",
+          "limit": "Texto prescriptivo o descriptivo no demuestra ejecución, frecuencia ni aceptación uniforme.",
+          "claimIds": ["CLAIM-MED-AMERICAS-COLONIAL-COPRODUCTION-001", "CLAIM-MED-AMERICAS-COLONIAL-FRAMING-001"],
+          "evidenceIds": ["EVID-MED-AMERICAS-FLORENTINE-HERBAL-001"],
+          "sourceIds": ["SRC-MED-AMERICAS-RIOS-CASTANO-2018", "SRC-MED-AMERICAS-NESVIG-2025"]
+        },
+        {
+          "kind": "consequence",
+          "observed": "El códice circuló como manuscrito y hoy su edición digital vuelve comparables texto, traducción e imagen.",
+          "inference": "Puede auditarse historia intelectual, traducción y recepción con acceso folio a folio.",
+          "limit": "Circulación del archivo no mide resultados corporales de los remedios descritos.",
+          "claimIds": ["CLAIM-MED-AMERICAS-MATERIA-MEDICA-CIRCULATION-001", "CLAIM-MED-AMERICAS-EFFICACY-001"],
+          "evidenceIds": ["EVID-MED-AMERICAS-CIRCULATION-001", "EVID-MED-AMERICAS-EFFICACY-001"],
+          "sourceIds": ["SRC-MED-AMERICAS-GETTY-FLORENTINE", "SRC-MED-AMERICAS-HUGUET-TERMES-2001"]
+        },
+        {
+          "kind": "limit",
+          "observed": "Náhuatl, español e imagen preservan coincidencias y divergencias dentro de una obra temprana colonial.",
+          "inference": "La mediación es evidencia histórica, no ruido que pueda eliminarse por completo.",
+          "limit": "No es una voz precontacto transparente ni una descripción total de la práctica del siglo XVI.",
+          "claimIds": ["CLAIM-MED-AMERICAS-CONTINUITY-001", "CLAIM-MED-AMERICAS-NONRANKING-001"],
+          "evidenceIds": ["EVID-MED-AMERICAS-SYNTHESIS-001"],
+          "sourceIds": ["SRC-MED-AMERICAS-RIOS-CASTANO-2018", "SRC-MED-AMERICAS-DE-VOS-2017"]
+        }
+      ]
+    }
+  ]
+}

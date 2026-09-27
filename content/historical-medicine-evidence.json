@@ -1,0 +1,254 @@
+{
+  "schemaVersion": 1,
+  "researchSlug": "15_medicina/INVESTIGACION_MED_003_ORIGENES_ARCHIVO_CUIDADO",
+  "cases": [
+    {
+      "id": "man-bac-m9",
+      "title": "Man Bac M9 — dependencia y asistencia",
+      "region": "Vietnam septentrional",
+      "archive": "Esqueleto incompleto y contexto funerario",
+      "layers": [
+        {
+          "kind": "specimen",
+          "observed": "Restos de un adulto joven, M9, con preservación desigual.",
+          "inference": "Existe un individuo arqueológico concreto susceptible de análisis osteológico.",
+          "limit": "El esqueleto no conserva todos los segmentos ni tejidos blandos.",
+          "claimIds": ["CLAIM-MED-HIST-ARCHIVE-001"],
+          "evidenceIds": ["EVID-MED-HIST-MANBAC-001"],
+          "sourceIds": ["SRC-MED-HIST-OXENHAM-2009"]
+        },
+        {
+          "kind": "context",
+          "observed": "Entierro de Man Bac fechado por el equipo entre 1867 y 1524 a. e. c.",
+          "inference": "La vida y muerte de M9 pertenecen al intervalo y comunidad muestreados.",
+          "limit": "La fecha del entierro no data el origen del cuidado ni toda la comunidad.",
+          "claimIds": ["CLAIM-MED-HIST-CONTEXT-001"],
+          "evidenceIds": ["EVID-MED-HIST-MANBAC-001"],
+          "sourceIds": ["SRC-MED-HIST-OXENHAM-2009"]
+        },
+        {
+          "kind": "trace",
+          "observed": "Fusiones vertebrales, gracilidad y patrón compatible con limitación prolongada.",
+          "inference": "M9 sobrevivió años con discapacidad funcional grave bajo el modelo publicado.",
+          "limit": "La etiología exacta depende de comparación clínica y preservación incompleta.",
+          "claimIds": ["CLAIM-MED-HIST-LESION-001", "CLAIM-MED-HIST-HEALING-001"],
+          "evidenceIds": ["EVID-MED-HIST-DIAGNOSIS-001", "EVID-MED-HIST-MANBAC-001"],
+          "sourceIds": ["SRC-MED-HIST-OXENHAM-2009", "SRC-MED-HIST-MAYS-2018"]
+        },
+        {
+          "kind": "interpretation",
+          "observed": "El análisis funcional describe dependencia para actividades básicas.",
+          "inference": "La asistencia sostenida es probable si el diagnóstico funcional se mantiene.",
+          "limit": "La inferencia no identifica quién ayudó, con qué frecuencia o mediante qué recursos.",
+          "claimIds": ["CLAIM-MED-HIST-CARE-001"],
+          "evidenceIds": ["EVID-MED-HIST-MANBAC-001"],
+          "sourceIds": ["SRC-MED-HIST-TILLEY-OXENHAM-2011"]
+        },
+        {
+          "kind": "behavior",
+          "observed": "Supervivencia prolongada pese a limitaciones graves.",
+          "inference": "Alguna combinación de apoyo humano y entorno permitió sostener la vida.",
+          "limit": "Compasión, obligación, parentesco, estatus, coerción y calidad de vida no están observados.",
+          "claimIds": ["CLAIM-MED-HIST-MOTIVE-001"],
+          "evidenceIds": ["EVID-MED-HIST-CARE-MOTIVE-001"],
+          "sourceIds": ["SRC-MED-HIST-DETTWYLER-1991", "SRC-MED-HIST-TILLEY-OXENHAM-2011"]
+        },
+        {
+          "kind": "system",
+          "observed": "Un caso individual combina cuerpo, entierro y modelo funcional.",
+          "inference": "La comunidad hizo posible asistencia en este caso.",
+          "limit": "No demuestra una profesión, institución, teoría médica o sistema uniforme.",
+          "claimIds": ["CLAIM-MED-HIST-NO-BIRTHDATE-001"],
+          "evidenceIds": ["EVID-MED-HIST-SYNTHESIS-001"],
+          "sourceIds": ["SRC-MED-HIST-OXENHAM-2009", "SRC-MED-HIST-DETTWYLER-1991"]
+        }
+      ]
+    },
+    {
+      "id": "liang-tebo-tb1",
+      "title": "Liang Tebo TB1 — intervención controvertida",
+      "region": "Borneo oriental",
+      "archive": "Extremidad inferior incompleta, remodelación y contexto funerario",
+      "layers": [
+        {
+          "kind": "specimen",
+          "observed": "TB1 carece de la porción distal de tibia, peroné y pie izquierdos.",
+          "inference": "La pérdida es una característica anatómica real del individuo estudiado.",
+          "limit": "Un patrón de ausencia no identifica por sí solo el mecanismo.",
+          "claimIds": ["CLAIM-MED-HIST-ARCHIVE-001"],
+          "evidenceIds": ["EVID-MED-HIST-BORNEO-001"],
+          "sourceIds": ["SRC-MED-HIST-MALONEY-2022"]
+        },
+        {
+          "kind": "context",
+          "observed": "El entierro y las dataciones sitúan el caso hace al menos unos 31 mil años.",
+          "inference": "La pérdida y supervivencia anteceden ampliamente los archivos escritos.",
+          "limit": "La antigüedad del caso no fecha el nacimiento de la cirugía o la medicina.",
+          "claimIds": ["CLAIM-MED-HIST-CONTEXT-001", "CLAIM-MED-HIST-NO-BIRTHDATE-001"],
+          "evidenceIds": ["EVID-MED-HIST-BORNEO-001", "EVID-MED-HIST-SYNTHESIS-001"],
+          "sourceIds": ["SRC-MED-HIST-MALONEY-2022"]
+        },
+        {
+          "kind": "trace",
+          "observed": "La morfología y remodelación indican pérdida durante la vida y supervivencia prolongada.",
+          "inference": "TB1 vivió años después de la pérdida grave de la extremidad.",
+          "limit": "Remodelación no demuestra asepsia, técnica, analgesia o eficacia terapéutica.",
+          "claimIds": ["CLAIM-MED-HIST-HEALING-001"],
+          "evidenceIds": ["EVID-MED-HIST-BORNEO-001"],
+          "sourceIds": ["SRC-MED-HIST-MALONEY-2022"]
+        },
+        {
+          "kind": "interpretation",
+          "observed": "Autores publicaron geometría compatible con amputación y alternativas traumáticas/infecciosas.",
+          "inference": "La amputación intencional está apoyada, pero compite con mecanismos publicados.",
+          "limit": "No existe todavía un discriminante que cierre el desacuerdo.",
+          "claimIds": ["CLAIM-MED-HIST-INTERVENTION-001", "CLAIM-MED-HIST-BORNEO-001"],
+          "evidenceIds": ["EVID-MED-HIST-INTERVENTION-001", "EVID-MED-HIST-BORNEO-001"],
+          "sourceIds": ["SRC-MED-HIST-MALONEY-2022", "SRC-MED-HIST-MURPHY-2023", "SRC-MED-HIST-VLOK-2023"]
+        },
+        {
+          "kind": "behavior",
+          "observed": "La supervivencia exigió adaptación tras la pérdida de la extremidad.",
+          "inference": "Algún manejo y apoyo son plausibles.",
+          "limit": "No se observan operador, intención, instrumentos, procedimiento o cuidados concretos.",
+          "claimIds": ["CLAIM-MED-HIST-MOTIVE-001"],
+          "evidenceIds": ["EVID-MED-HIST-CARE-MOTIVE-001"],
+          "sourceIds": ["SRC-MED-HIST-DETTWYLER-1991", "SRC-MED-HIST-MALONEY-2022"]
+        },
+        {
+          "kind": "system",
+          "observed": "Un individuo conserva una posible intervención y supervivencia.",
+          "inference": "El caso puede informar capacidades situadas.",
+          "limit": "No demuestra una tradición quirúrgica, especialización o sistema médico regional.",
+          "claimIds": ["CLAIM-MED-HIST-NONLINEAR-001"],
+          "evidenceIds": ["EVID-MED-HIST-SYNTHESIS-001"],
+          "sourceIds": ["SRC-MED-HIST-MALONEY-2022", "SRC-MED-HIST-VLOK-2023"]
+        }
+      ]
+    },
+    {
+      "id": "el-sidron-calculus",
+      "title": "El Sidrón — residuos no equivalen a medicina",
+      "region": "Península ibérica",
+      "archive": "Cálculo dental neandertal",
+      "layers": [
+        {
+          "kind": "specimen",
+          "observed": "Cálculo dental adherido a dientes de individuos excavados.",
+          "inference": "El depósito puede conservar material oral entrampado.",
+          "limit": "No representa toda la dieta, exposición o vida del individuo.",
+          "claimIds": ["CLAIM-MED-HIST-ARCHIVE-001"],
+          "evidenceIds": ["EVID-MED-HIST-RESIDUE-001"],
+          "sourceIds": ["SRC-MED-HIST-HARDY-2012"]
+        },
+        {
+          "kind": "context",
+          "observed": "Las muestras proceden de individuos y contexto arqueológico atribuidos a El Sidrón.",
+          "inference": "Las señales pueden asociarse a esas muestras bajo controles.",
+          "limit": "Procedencia no excluye contaminación, depósito ambiental o mezcla.",
+          "claimIds": ["CLAIM-MED-HIST-CONTEXT-001"],
+          "evidenceIds": ["EVID-MED-HIST-BIOMOLECULAR-001"],
+          "sourceIds": ["SRC-MED-HIST-HARDY-2012", "SRC-MED-HIST-WEYRICH-2017"]
+        },
+        {
+          "kind": "trace",
+          "observed": "Microrestos, compuestos y ADN identifican plantas y componentes del microbioma.",
+          "inference": "Hubo exposición oral a materiales concretos.",
+          "limit": "Identificación taxonómica y vía de entrada conservan incertidumbre.",
+          "claimIds": ["CLAIM-MED-HIST-BIOMOLECULAR-001"],
+          "evidenceIds": ["EVID-MED-HIST-RESIDUE-001", "EVID-MED-HIST-MICROBIOMES-001"],
+          "sourceIds": ["SRC-MED-HIST-HARDY-2012", "SRC-MED-HIST-WEYRICH-2017"]
+        },
+        {
+          "kind": "interpretation",
+          "observed": "Algunos compuestos se asocian hoy con plantas de potencial medicinal.",
+          "inference": "Alimento, ambiente y uso deliberado son hipótesis contrastables.",
+          "limit": "La señal no demuestra automedicación, dosis, indicación o conocimiento farmacológico.",
+          "claimIds": ["CLAIM-MED-HIST-RESIDUE-001"],
+          "evidenceIds": ["EVID-MED-HIST-RESIDUE-001"],
+          "sourceIds": ["SRC-MED-HIST-HARDY-2012", "SRC-MED-HIST-WEYRICH-2017"]
+        },
+        {
+          "kind": "behavior",
+          "observed": "Material vegetal llegó a la cavidad oral.",
+          "inference": "La ingestión o exposición son plausibles.",
+          "limit": "No demostrado: selección terapéutica, repetición, preparación o efecto.",
+          "claimIds": ["CLAIM-MED-HIST-RESIDUE-001"],
+          "evidenceIds": ["EVID-MED-HIST-RESIDUE-001"],
+          "sourceIds": ["SRC-MED-HIST-HARDY-2012"]
+        },
+        {
+          "kind": "system",
+          "observed": "Un archivo molecular individual conserva exposición.",
+          "inference": "Puede aportar una pieza a la historia del uso de plantas.",
+          "limit": "No demuestra medicina neandertal como sistema ni una línea de progreso.",
+          "claimIds": ["CLAIM-MED-HIST-NONLINEAR-001"],
+          "evidenceIds": ["EVID-MED-HIST-SYNTHESIS-001"],
+          "sourceIds": ["SRC-MED-HIST-HARDY-2012", "SRC-MED-HIST-WEYRICH-2017"]
+        }
+      ]
+    },
+    {
+      "id": "ancient-pathogens",
+      "title": "Patógenos antiguos — presencia y escala",
+      "region": "Muestras euroasiáticas de periodos múltiples",
+      "archive": "ADN antiguo de dientes, huesos y otros tejidos",
+      "layers": [
+        {
+          "kind": "specimen",
+          "observed": "Bibliotecas de ADN procedentes de individuos y tejidos arqueológicos.",
+          "inference": "Cada biblioteca representa una muestra material concreta.",
+          "limit": "Cementerios, tejidos y preservación seleccionan quién entra al archivo.",
+          "claimIds": ["CLAIM-MED-HIST-VISIBILITY-001"],
+          "evidenceIds": ["EVID-MED-HIST-BIOMOLECULAR-001"],
+          "sourceIds": ["SRC-MED-HIST-HOPS-2019", "SRC-MED-HIST-SIKORA-2025"]
+        },
+        {
+          "kind": "context",
+          "observed": "Sitio, fecha, tejido y metadatos vinculan secuencias con individuos muestreados.",
+          "inference": "La detección puede situarse temporal y geográficamente.",
+          "limit": "Cobertura desigual no representa automáticamente a la población regional.",
+          "claimIds": ["CLAIM-MED-HIST-CONTEXT-001"],
+          "evidenceIds": ["EVID-MED-HIST-PATHOGEN-001"],
+          "sourceIds": ["SRC-MED-HIST-BOS-2011", "SRC-MED-HIST-SIKORA-2025"]
+        },
+        {
+          "kind": "trace",
+          "observed": "Lecturas mapeadas, patrones de daño y distribución de fragmentos apoyan ADN antiguo.",
+          "inference": "Un taxón puede autenticarse a la resolución permitida por datos y referencias.",
+          "limit": "Baja cobertura, taxones cercanos y contaminación pueden cambiar la asignación.",
+          "claimIds": ["CLAIM-MED-HIST-BIOMOLECULAR-001"],
+          "evidenceIds": ["EVID-MED-HIST-BIOMOLECULAR-001"],
+          "sourceIds": ["SRC-MED-HIST-HOPS-2019"]
+        },
+        {
+          "kind": "interpretation",
+          "observed": "Y. pestis y otros microorganismos se detectan en individuos antiguos autenticados.",
+          "inference": "El microorganismo estuvo presente en la muestra y puede compararse filogenéticamente.",
+          "limit": "Presencia no adjudica síntomas, causa de muerte, prevalencia o fecha de origen.",
+          "claimIds": ["CLAIM-MED-HIST-PATHOGEN-001"],
+          "evidenceIds": ["EVID-MED-HIST-PATHOGEN-001"],
+          "sourceIds": ["SRC-MED-HIST-BOS-2011", "SRC-MED-HIST-SIKORA-2025"]
+        },
+        {
+          "kind": "behavior",
+          "observed": "Distribuciones temporales y genéticas cambian entre muestras.",
+          "inference": "Se pueden proponer circulación y relaciones evolutivas bajo modelos explícitos.",
+          "limit": "Transmisión, cuadro clínico y respuesta social requieren archivos adicionales.",
+          "claimIds": ["CLAIM-MED-HIST-PATHOGEN-001"],
+          "evidenceIds": ["EVID-MED-HIST-PATHOGEN-001"],
+          "sourceIds": ["SRC-MED-HIST-BOS-2011", "SRC-MED-HIST-SIKORA-2025"]
+        },
+        {
+          "kind": "system",
+          "observed": "Series amplias permiten mapas de detección condicionados por muestreo.",
+          "inference": "La paleogenómica amplía la historia de agentes y hospedadores.",
+          "limit": "No reconstruye por sí sola epidemias, cuidados, instituciones o medicina.",
+          "claimIds": ["CLAIM-MED-HIST-NO-BIRTHDATE-001", "CLAIM-MED-HIST-NONLINEAR-001"],
+          "evidenceIds": ["EVID-MED-HIST-SYNTHESIS-001"],
+          "sourceIds": ["SRC-MED-HIST-SIKORA-2025", "SRC-MED-HIST-MITCHELL-2011"]
+        }
+      ]
+    }
+  ]
+}

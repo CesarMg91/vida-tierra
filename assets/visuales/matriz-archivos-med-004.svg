@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Matriz de archivos de MED-004</title>
+  <desc id="desc">Comparación entre corpus terapéutico, serie diagnóstica, norma legal, papiro traumático, registro laboral y cuerpo. Cada archivo tiene un producto fuerte y un límite distinto.</desc>
+  <rect width="1600" height="900" fill="#f1e7d2"/>
+  <text x="80" y="90" fill="#8b522f" font-family="Georgia,serif" font-size="24" letter-spacing="4">MED-004 · MATRIZ DE ARCHIVOS</text>
+  <text x="80" y="148" fill="#201d18" font-family="Georgia,serif" font-size="48">Ningún soporte responde todas las preguntas</text>
+  <text x="80" y="190" fill="#5b564d" font-family="Arial,sans-serif" font-size="22">Leer por producto conservado evita convertir prioridad documental en progreso.</text>
+
+  <g font-family="Arial,sans-serif">
+    <rect x="80" y="245" width="1440" height="72" rx="12" fill="#222923"/>
+    <text x="110" y="290" fill="#f5ead7" font-size="20" font-weight="700">ARCHIVO</text>
+    <text x="445" y="290" fill="#f5ead7" font-size="20" font-weight="700">OBSERVA CON FUERZA</text>
+    <text x="890" y="290" fill="#f5ead7" font-size="20" font-weight="700">INFERENCIA PERMITIDA</text>
+    <text x="1240" y="290" fill="#f5ead7" font-size="20" font-weight="700">NO HEREDA</text>
+
+    <g font-size="19">
+      <g transform="translate(80 332)">
+        <rect width="1440" height="82" rx="10" fill="#fffaf0"/>
+        <text x="30" y="33" fill="#8b522f" font-weight="700">Nínive · terapéutica</text><text x="30" y="60" fill="#5b564d">tablillas y duplicados</text>
+        <text x="365" y="48" fill="#29251f">operaciones y secuencias escritas</text>
+        <text x="810" y="48" fill="#29251f">repertorio técnico textual</text>
+        <text x="1160" y="48" fill="#7a3e30">uso · frecuencia · efecto</text>
+      </g>
+      <g transform="translate(80 424)">
+        <rect width="1440" height="82" rx="10" fill="#e4ece3"/>
+        <text x="30" y="33" fill="#386557" font-weight="700">Sakikkû · diagnóstico</text><text x="30" y="60" fill="#526058">signos y pronósticos</text>
+        <text x="365" y="48" fill="#243029">clasificación y causalidad propia</text>
+        <text x="810" y="48" fill="#243029">epistemología histórica</text>
+        <text x="1160" y="48" fill="#7a3e30">diagnóstico biomédico</text>
+      </g>
+      <g transform="translate(80 516)">
+        <rect width="1440" height="82" rx="10" fill="#fffaf0"/>
+        <text x="30" y="33" fill="#8b522f" font-weight="700">Hammurabi · norma</text><text x="30" y="60" fill="#5b564d">honorarios y sanciones</text>
+        <text x="365" y="48" fill="#29251f">orden jurídico representado</text>
+        <text x="810" y="48" fill="#29251f">valoración jerárquica</text>
+        <text x="1160" y="48" fill="#7a3e30">aplicación · cobertura</text>
+      </g>
+      <g transform="translate(80 608)">
+        <rect width="1440" height="82" rx="10" fill="#e4ece3"/>
+        <text x="30" y="33" fill="#386557" font-weight="700">Edwin Smith · casos</text><text x="30" y="60" fill="#526058">examen y juicio</text>
+        <text x="365" y="48" fill="#243029">estructura del trauma escrito</text>
+        <text x="810" y="48" fill="#243029">manejo prescrito</text>
+        <text x="1160" y="48" fill="#7a3e30">resultado · cirugía moderna</text>
+      </g>
+      <g transform="translate(80 700)">
+        <rect width="1440" height="82" rx="10" fill="#fffaf0"/>
+        <text x="30" y="33" fill="#8b522f" font-weight="700">Deir el-Medina · registro</text><text x="30" y="60" fill="#5b564d">ausencias y redes</text>
+        <text x="365" y="48" fill="#29251f">tiempo laboral y apoyo situado</text>
+        <text x="810" y="48" fill="#29251f">consecuencia social local</text>
+        <text x="1160" y="48" fill="#7a3e30">prevalencia de Egipto</text>
+      </g>
+    </g>
+  </g>
+  <rect x="80" y="817" width="1440" height="2" fill="#b9824e"/>
+  <text x="80" y="855" fill="#5b564d" font-family="Arial,sans-serif" font-size="19">Comparar archivos no produce un ranking: cambia la pregunta que cada uno puede responder.</text>
+</svg>

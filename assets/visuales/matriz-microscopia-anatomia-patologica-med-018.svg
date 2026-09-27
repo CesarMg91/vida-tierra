@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Matriz de expedientes de microscopía y anatomía patológica</title>
+  <desc id="desc">Ocho expedientes comparados por archivo, operación, producto y límite. La tabla evita una historia lineal o un ranking de culturas y descubridores.</desc>
+  <defs><linearGradient id="bg2" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#eee0c0"/><stop offset="1" stop-color="#d6c090"/></linearGradient></defs>
+  <rect width="1600" height="900" fill="url(#bg2)"/>
+  <rect x="58" y="48" width="1484" height="804" rx="28" fill="#f8efd9" stroke="#7a4f2d" stroke-width="2"/>
+  <text x="92" y="102" fill="#8b552d" font-family="Arial, sans-serif" font-size="20" font-weight="700" letter-spacing="4">MED-018 · MATRIZ DE RESOLUCIÓN</text>
+  <text x="92" y="153" fill="#20221f" font-family="Georgia, serif" font-size="44" font-weight="700">Ocho archivos, ocho productos, ninguna escala de progreso</text>
+  <text x="92" y="191" fill="#5a554a" font-family="Arial, sans-serif" font-size="20">Se compara qué relación sostiene cada expediente y dónde debe detenerse la inferencia.</text>
+  <g font-family="Arial, sans-serif">
+    <rect x="92" y="228" width="1416" height="58" rx="10" fill="#243c33"/>
+    <g fill="#f6edd9" font-size="18" font-weight="700"><text x="112" y="264">EXPEDIENTE</text><text x="372" y="264">ARCHIVO / PREPARACIÓN</text><text x="750" y="264">PRODUCTO RESUELTO</text><text x="1122" y="264">LÍMITE</text></g>
+    <g font-size="17">
+      <g transform="translate(0 298)"><rect x="92" width="1416" height="62" fill="#fffaf0"/><text x="112" y="26" fill="#7a4f2d" font-weight="700">Song Ci</text><text x="112" y="49" fill="#5a554a">1247</text><text x="372" y="38" fill="#252722">manual · examen · justicia</text><text x="750" y="38" fill="#252722">procedimiento médico-legal</text><text x="1122" y="38" fill="#7b3d31">no autopsia microscópica</text></g>
+      <g transform="translate(0 360)"><rect x="92" width="1416" height="62" fill="#efe2c5"/><text x="112" y="26" fill="#7a4f2d" font-weight="700">Microscopía</text><text x="112" y="49" fill="#5a554a">siglo XVII</text><text x="372" y="38" fill="#252722">lente · muestra · dibujo</text><text x="750" y="38" fill="#252722">estructuras antes invisibles</text><text x="1122" y="38" fill="#7b3d31">no enfermedad celular</text></g>
+      <g transform="translate(0 422)"><rect x="92" width="1416" height="62" fill="#fffaf0"/><text x="112" y="26" fill="#7a4f2d" font-weight="700">Morgagni</text><text x="112" y="49" fill="#5a554a">1761</text><text x="372" y="38" fill="#252722">historia · autopsia · carta</text><text x="750" y="38" fill="#252722">correlación por órgano</text><text x="1122" y="38" fill="#7b3d31">no causa ni prevalencia</text></g>
+      <g transform="translate(0 484)"><rect x="92" width="1416" height="62" fill="#efe2c5"/><text x="112" y="26" fill="#7a4f2d" font-weight="700">Bichat</text><text x="112" y="49" fill="#5a554a">1799–1801</text><text x="372" y="38" fill="#252722">disección · continuidad · prueba</text><text x="750" y="38" fill="#252722">tejido transversal</text><text x="1122" y="38" fill="#7b3d31">no célula ni categoría actual</text></g>
+      <g transform="translate(0 546)"><rect x="92" width="1416" height="62" fill="#fffaf0"/><text x="112" y="26" fill="#7a4f2d" font-weight="700">Viena</text><text x="112" y="49" fill="#5a554a">1830s–1840s</text><text x="372" y="38" fill="#252722">hospital · autopsia · museo</text><text x="750" y="38" fill="#252722">nosología macroscópica</text><text x="1122" y="38" fill="#7b3d31">no población ni mecanismo</text></g>
+      <g transform="translate(0 608)"><rect x="92" width="1416" height="62" fill="#efe2c5"/><text x="112" y="26" fill="#7a4f2d" font-weight="700">Síntesis celular</text><text x="112" y="49" fill="#5a554a">1838–1860</text><text x="372" y="38" fill="#252722">tumor · división · enseñanza</text><text x="750" y="38" fill="#252722">alteración y continuidad celular</text><text x="1122" y="38" fill="#7b3d31">no héroe ni etiología única</text></g>
+      <g transform="translate(0 670)"><rect x="92" width="1416" height="62" fill="#fffaf0"/><text x="112" y="26" fill="#7a4f2d" font-weight="700">Histotecnología</text><text x="112" y="49" fill="#5a554a">siglos XIX–XX</text><text x="372" y="38" fill="#252722">fijar · incluir · cortar · teñir</text><text x="750" y="38" fill="#252722">lámina contrastada y comparable</text><text x="1122" y="38" fill="#7b3d31">no tejido vivo sin artefacto</text></g>
+      <g transform="translate(0 732)"><rect x="92" width="1416" height="62" fill="#efe2c5"/><text x="112" y="26" fill="#7a4f2d" font-weight="700">Citología cervical</text><text x="112" y="49" fill="#5a554a">1927–1943</text><text x="372" y="38" fill="#252722">frotis · tinción · biopsia</text><text x="750" y="38" fill="#252722">señal en personas vivas</text><text x="1122" y="38" fill="#7b3d31">no tumor ni beneficio automático</text></g>
+    </g>
+  </g>
+  <text x="92" y="830" fill="#38604e" font-family="Arial, sans-serif" font-size="17" font-weight="700">OBSERVADO → INFERENCIA PERMITIDA → LÍMITE → FUENTE</text>
+  <text x="1508" y="830" fill="#6f685c" text-anchor="end" font-family="Arial, sans-serif" font-size="15">Tabla accesible equivalente en MED-018</text>
+</svg>

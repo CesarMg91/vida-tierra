@@ -1,0 +1,378 @@
+{
+  "schemaVersion": 1,
+  "researchSlug": "15_medicina/INVESTIGACION_MED_014_EPIDEMIAS_CUARENTENAS",
+  "cases": [
+    {
+      "id": "jerash-first-pandemic",
+      "title": "Jerash · primera pandemia y fosa urbana",
+      "region": "Mediterráneo oriental · mediados del siglo VI–inicios del VII",
+      "archive": "Fosa del hipódromo, tafonomía, isótopos, cronología y ADN antiguo",
+      "layers": [
+        {
+          "kind": "testimony",
+          "observed": "Las cámaras W2/W3 contienen una deposición rápida y densa de alrededor de 230 individuos.",
+          "inference": "El conjunto registra una crisis funeraria urbana delimitada.",
+          "limit": "La fosa reúne muertos seleccionados por prácticas de entierro; no es una muestra de toda la población.",
+          "claimIds": ["CLAIM-MED-EPID-JERASH-BURIAL-001"],
+          "evidenceIds": ["EVID-MED-EPID-JERASH-BURIAL-001"],
+          "sourceIds": ["SRC-MED-EPID-HENDRIX-2026"]
+        },
+        {
+          "kind": "agent",
+          "observed": "Lecturas dañadas de ADN antiguo recuperan un linaje uniforme de Yersinia pestis en individuos del contexto.",
+          "inference": "Y. pestis participó en el episodio funerario muestreado.",
+          "limit": "Un positivo no asigna causa de muerte a cada individuo ni diagnostica toda pestilencia narrada.",
+          "claimIds": ["CLAIM-MED-EPID-JERASH-PATHOGEN-001"],
+          "evidenceIds": ["EVID-MED-EPID-JERASH-DNA-001"],
+          "sourceIds": ["SRC-MED-EPID-ADAPA-2025", "SRC-MED-EPID-HENDRIX-2026"]
+        },
+        {
+          "kind": "magnitude",
+          "observed": "El depósito conserva cientos de personas en un episodio breve; otros genomas aparecen en sitios europeos dispersos.",
+          "inference": "La primera pandemia alcanzó regiones amplias y pudo producir crisis locales graves.",
+          "limit": "Sitios positivos, individuos excavados y mortalidad imperial tienen denominadores distintos.",
+          "claimIds": ["CLAIM-MED-EPID-JUSTINIAN-SCALE-001"],
+          "evidenceIds": ["EVID-MED-EPID-FIRST-PANDEMIC-GENOMES-001", "EVID-MED-EPID-JERASH-BURIAL-001"],
+          "sourceIds": ["SRC-MED-EPID-KELLER-2019", "SRC-MED-EPID-HENDRIX-2026"]
+        },
+        {
+          "kind": "response",
+          "observed": "La deposición concentrada reemplazó parte del tratamiento funerario ordinario durante la crisis.",
+          "inference": "Hubo una respuesta mortuoria extraordinaria.",
+          "limit": "El patrón funerario no reconstruye por sí solo cuidado, autoridad o medidas preventivas.",
+          "claimIds": ["CLAIM-MED-EPID-JERASH-BURIAL-001"],
+          "evidenceIds": ["EVID-MED-EPID-JERASH-BURIAL-001"],
+          "sourceIds": ["SRC-MED-EPID-HENDRIX-2026"]
+        },
+        {
+          "kind": "compliance",
+          "observed": "La fosa documenta ejecución de una operación de entierro; no conserva órdenes ni listas de responsables.",
+          "inference": "Puede sostenerse coordinación mínima para depositar cuerpos.",
+          "limit": "Dato ausente: quién ordenó, quién trabajó, qué reglas existieron y cómo fueron obedecidas.",
+          "claimIds": ["CLAIM-MED-EPID-MODEL-001"],
+          "evidenceIds": ["EVID-MED-EPID-JERASH-BURIAL-001"],
+          "sourceIds": ["SRC-MED-EPID-HENDRIX-2026"]
+        },
+        {
+          "kind": "inequality",
+          "observed": "Isótopos de infancia son heterogéneos y los enterrados incluyen edades y perfiles diversos.",
+          "inference": "La crisis reunió personas con historias de vida distintas.",
+          "limit": "Isótopo no asigna origen, oficio, estatus ni riesgo relativo; desigualdad urbana permanece abierta.",
+          "claimIds": ["CLAIM-MED-EPID-JUSTINIAN-IMPACT-001", "CLAIM-MED-EPID-NONRANKING-001"],
+          "evidenceIds": ["EVID-MED-EPID-JERASH-BURIAL-001", "EVID-MED-EPID-SYNTHESIS-001"],
+          "sourceIds": ["SRC-MED-EPID-HENDRIX-2026", "SRC-MED-EPID-MORDECHAI-2019"]
+        }
+      ]
+    },
+    {
+      "id": "black-death-evidence-scales",
+      "title": "Peste Negra · genomas, rutas y polen",
+      "region": "Asia central y Europa · 1338–1353",
+      "archive": "Lápidas de Kara-Djigach, genomas, East Smithfield y 261 archivos de polen",
+      "layers": [
+        {
+          "kind": "testimony",
+          "observed": "Lápidas fechadas en 1338–1339 nombran pestilencia; East Smithfield fue creado para entierros de 1348–1350.",
+          "inference": "Dos contextos históricos están firmemente asociados con crisis epidémicas delimitadas.",
+          "limit": "La misma palabra y el mismo tipo de cementerio no vuelven equivalentes todos los episodios.",
+          "claimIds": ["CLAIM-MED-EPID-KYRGYZ-ORIGIN-001", "CLAIM-MED-EPID-EASTSMITHFIELD-PATHOGEN-001"],
+          "evidenceIds": ["EVID-MED-EPID-KYRGYZ-GENOMES-001", "EVID-MED-EPID-EASTSMITHFIELD-GENOME-001"],
+          "sourceIds": ["SRC-MED-EPID-SPYROU-2022", "SRC-MED-EPID-BOS-2011"]
+        },
+        {
+          "kind": "agent",
+          "observed": "Genomas de Y. pestis se reconstruyen en ambos contextos con autenticidad y posición filogenética.",
+          "inference": "Y. pestis causó las epidemias muestreadas y conecta con la segunda pandemia.",
+          "limit": "El genoma no especifica forma clínica ni vuelve casos confirmados a todas las muertes regionales.",
+          "claimIds": ["CLAIM-MED-EPID-KYRGYZ-ORIGIN-001", "CLAIM-MED-EPID-EASTSMITHFIELD-PATHOGEN-001"],
+          "evidenceIds": ["EVID-MED-EPID-KYRGYZ-GENOMES-001", "EVID-MED-EPID-EASTSMITHFIELD-GENOME-001"],
+          "sourceIds": ["SRC-MED-EPID-SPYROU-2022", "SRC-MED-EPID-BOS-2011"]
+        },
+        {
+          "kind": "magnitude",
+          "observed": "1,634 muestras de polen de 261 sitios muestran respuestas regionales heterogéneas del uso del suelo.",
+          "inference": "La mortalidad y reorganización no fueron uniformes en Europa.",
+          "limit": "Polen cereal es proxy de trabajo y paisaje; clima, precios y producción también pueden cambiarlo.",
+          "claimIds": ["CLAIM-MED-EPID-BLACKDEATH-HETEROGENEITY-001"],
+          "evidenceIds": ["EVID-MED-EPID-BLACKDEATH-POLLEN-001"],
+          "sourceIds": ["SRC-MED-EPID-IZDEBSKI-2022"]
+        },
+        {
+          "kind": "response",
+          "observed": "Cementerios extraordinarios y cambios de uso del suelo registran adaptación funeraria y productiva.",
+          "inference": "Comunidades respondieron a mortalidad y pérdida de trabajo de maneras regionales.",
+          "limit": "Cambio posterior no identifica una política única ni su eficacia.",
+          "claimIds": ["CLAIM-MED-EPID-BLACKDEATH-HETEROGENEITY-001"],
+          "evidenceIds": ["EVID-MED-EPID-EASTSMITHFIELD-GENOME-001", "EVID-MED-EPID-BLACKDEATH-POLLEN-001"],
+          "sourceIds": ["SRC-MED-EPID-BOS-2011", "SRC-MED-EPID-IZDEBSKI-2022"]
+        },
+        {
+          "kind": "compliance",
+          "observed": "No existe una política común ni una serie de adherencia que abarque los territorios comparados.",
+          "inference": "No aplicable como juicio continental; debe estudiarse por jurisdicción.",
+          "limit": "Dato ausente no significa ausencia de respuesta local.",
+          "claimIds": ["CLAIM-MED-EPID-MODEL-001"],
+          "evidenceIds": ["EVID-MED-EPID-SYNTHESIS-001"],
+          "sourceIds": ["SRC-MED-EPID-IZDEBSKI-2022"]
+        },
+        {
+          "kind": "inequality",
+          "observed": "Archivo y mortalidad difieren entre ciudades documentadas y regiones rurales poco visibles.",
+          "inference": "Impacto y conocimiento histórico se distribuyen de forma desigual.",
+          "limit": "No puede ordenarse a las regiones por resiliencia con proxies inconmensurables.",
+          "claimIds": ["CLAIM-MED-EPID-BLACKDEATH-HETEROGENEITY-001", "CLAIM-MED-EPID-NONRANKING-001"],
+          "evidenceIds": ["EVID-MED-EPID-BLACKDEATH-POLLEN-001", "EVID-MED-EPID-SYNTHESIS-001"],
+          "sourceIds": ["SRC-MED-EPID-IZDEBSKI-2022"]
+        }
+      ]
+    },
+    {
+      "id": "ragusa-venice-quarantine",
+      "title": "Ragusa y Venecia · regla, oficina y lazareto",
+      "region": "Adriático · 1377–siglo XVII",
+      "archive": "Decretos, oficinas de salud, correspondencia, lazaretos, entierros y dientes",
+      "layers": [
+        {
+          "kind": "testimony",
+          "observed": "El decreto raguseo de 1377 prescribe treinta días fuera de la ciudad para llegadas sospechosas.",
+          "inference": "Existió una regla pública de espera y control de movilidad.",
+          "limit": "No fue todavía una cuarentena uniforme de cuarenta días ni una teoría microbiana.",
+          "claimIds": ["CLAIM-MED-EPID-RAGUSA-TRENTINO-001"],
+          "evidenceIds": ["EVID-MED-EPID-RAGUSA-EDICT-001"],
+          "sourceIds": ["SRC-MED-EPID-BLAZINA-2015", "SRC-MED-EPID-RAVANCIC-2021"]
+        },
+        {
+          "kind": "agent",
+          "observed": "ADN de Y. pestis se detectó en dientes de entierros del Lazzaretto Vecchio.",
+          "inference": "Algunas ondas y enterramientos del sitio estuvieron relacionados con peste.",
+          "limit": "PCR positiva, sitio multiséculo y entierro no asignan todos los individuos ni todas las ondas.",
+          "claimIds": ["CLAIM-MED-EPID-LAZARET-ARCHIVE-001"],
+          "evidenceIds": ["EVID-MED-EPID-VENICE-LAZARET-001"],
+          "sourceIds": ["SRC-MED-EPID-TRAN-2011"]
+        },
+        {
+          "kind": "magnitude",
+          "observed": "El lazareto acumuló entierros de múltiples crisis durante siglos.",
+          "inference": "La institución operó de forma reiterada frente a ondas epidémicas.",
+          "limit": "El número excavado no es el total urbano y mezcla periodos de uso.",
+          "claimIds": ["CLAIM-MED-EPID-LAZARET-ARCHIVE-001"],
+          "evidenceIds": ["EVID-MED-EPID-VENICE-LAZARET-001"],
+          "sourceIds": ["SRC-MED-EPID-TRAN-2011"]
+        },
+        {
+          "kind": "response",
+          "observed": "Ragusa y Venecia mantuvieron oficinas, inspectores, islas, cartas de sanidad y sanciones.",
+          "inference": "Construyeron capacidad administrativa persistente para vigilancia y aislamiento.",
+          "limit": "Capacidad no significa aplicación equivalente a toda nave, mercancía o persona.",
+          "claimIds": ["CLAIM-MED-EPID-QUARANTINE-INSTITUTION-001"],
+          "evidenceIds": ["EVID-MED-EPID-RAGUSA-OFFICE-001", "EVID-MED-EPID-QUARANTINE-COMPARISON-001"],
+          "sourceIds": ["SRC-MED-EPID-BLAZINA-2015", "SRC-MED-EPID-OSHEIM-2011"]
+        },
+        {
+          "kind": "compliance",
+          "observed": "Correspondencia y sanciones documentan inspección, excepciones, evasión y negociación.",
+          "inference": "El cumplimiento fue producido y selectivo, no automático.",
+          "limit": "Infracciones detectadas sobrerrepresentan fallos visibles; obediencia silenciosa carece de lista completa.",
+          "claimIds": ["CLAIM-MED-EPID-QUARANTINE-EFFICACY-001"],
+          "evidenceIds": ["EVID-MED-EPID-QUARANTINE-COMPARISON-001"],
+          "sourceIds": ["SRC-MED-EPID-OSHEIM-2011", "SRC-MED-EPID-HENDERSON-2020"]
+        },
+        {
+          "kind": "inequality",
+          "observed": "Controles separaron viajeros, tripulaciones, mercancías y trabajadores de quienes permanecían dentro.",
+          "inference": "Protección urbana trasladó espera, pérdida y riesgo a grupos específicos.",
+          "limit": "Las fuentes institucionales ven mejor autoridad que experiencia cotidiana de confinados.",
+          "claimIds": ["CLAIM-MED-EPID-RESPONSE-INEQUALITY-001", "CLAIM-MED-EPID-NONRANKING-001"],
+          "evidenceIds": ["EVID-MED-EPID-QUARANTINE-COMPARISON-001", "EVID-MED-EPID-SYNTHESIS-001"],
+          "sourceIds": ["SRC-MED-EPID-HENDERSON-2020"]
+        }
+      ]
+    },
+    {
+      "id": "bristol-household-quarantine",
+      "title": "Bristol · casas selladas y mortalidad doméstica",
+      "region": "Inglaterra · 1565–1604",
+      "archive": "Registros parroquiales enlazados en hogares y normativa de encierro",
+      "layers": [
+        {
+          "kind": "testimony",
+          "observed": "Registros identifican entierros y parroquias; apellidos y secuencias permiten reconstruir hogares probables.",
+          "inference": "Puede compararse concentración temporal de muertes dentro de viviendas.",
+          "limit": "Hogar enlazado es una reconstrucción; movilidad, homónimos y ausencias pueden clasificar mal.",
+          "claimIds": ["CLAIM-MED-EPID-BRISTOL-ENFORCEMENT-001"],
+          "evidenceIds": ["EVID-MED-EPID-BRISTOL-HOUSEHOLDS-001"],
+          "sourceIds": ["SRC-MED-EPID-UDALE-2023"]
+        },
+        {
+          "kind": "agent",
+          "observed": "Las categorías parroquiales identifican peste contemporánea, sin muestras moleculares enlazadas.",
+          "inference": "La serie estudia la respuesta a la peste reconocida por la comunidad.",
+          "limit": "Diagnóstico biológico individual no demostrado; la pregunta principal es política y doméstica.",
+          "claimIds": ["CLAIM-MED-EPID-RETRODX-001"],
+          "evidenceIds": ["EVID-MED-EPID-RETRODX-001"],
+          "sourceIds": ["SRC-MED-EPID-MITCHELL-2011", "SRC-MED-EPID-UDALE-2023"]
+        },
+        {
+          "kind": "magnitude",
+          "observed": "El estudio compara mortalidad intradoméstica entre epidemias y parroquias.",
+          "inference": "La cuarentena intensa pudo aproximadamente duplicar la mortalidad dentro de hogares afectados.",
+          "limit": "No identifica causa individual ni estima con igual precisión muertes evitadas fuera.",
+          "claimIds": ["CLAIM-MED-EPID-BRISTOL-HOUSEHOLD-MORTALITY-001"],
+          "evidenceIds": ["EVID-MED-EPID-BRISTOL-MORTALITY-001"],
+          "sourceIds": ["SRC-MED-EPID-UDALE-2023"]
+        },
+        {
+          "kind": "response",
+          "observed": "Autoridades ordenaron encierro, vigilancia y sustento de casas sospechosas.",
+          "inference": "La vivienda funcionó como unidad de intervención.",
+          "limit": "La misma etiqueta cubre intensidades y suministros distintos entre epidemias.",
+          "claimIds": ["CLAIM-MED-EPID-BRISTOL-ENFORCEMENT-001"],
+          "evidenceIds": ["EVID-MED-EPID-BRISTOL-HOUSEHOLDS-001"],
+          "sourceIds": ["SRC-MED-EPID-UDALE-2023"]
+        },
+        {
+          "kind": "compliance",
+          "observed": "El patrón de 1603–1604 es compatible con ejecución más vigorosa, sobre todo en parroquias acomodadas.",
+          "inference": "Supervisión y protección de élites influyeron en dónde se aplicó la política.",
+          "limit": "La ausencia del patrón no prueba falta total de encierro; la aplicación no fue observada casa por casa.",
+          "claimIds": ["CLAIM-MED-EPID-BRISTOL-ENFORCEMENT-001"],
+          "evidenceIds": ["EVID-MED-EPID-BRISTOL-HOUSEHOLDS-001"],
+          "sourceIds": ["SRC-MED-EPID-UDALE-2023"]
+        },
+        {
+          "kind": "inequality",
+          "observed": "Quienes quedaron sellados compartieron espacio, dependencia alimentaria y mayor mortalidad doméstica.",
+          "inference": "Una política colectiva concentró parte de su daño en hogares intervenidos.",
+          "limit": "El balance entre protección exterior y daño interior permanece abierto.",
+          "claimIds": ["CLAIM-MED-EPID-RESPONSE-INEQUALITY-001", "CLAIM-MED-EPID-BRISTOL-HOUSEHOLD-MORTALITY-001"],
+          "evidenceIds": ["EVID-MED-EPID-BRISTOL-MORTALITY-001"],
+          "sourceIds": ["SRC-MED-EPID-UDALE-2023"]
+        }
+      ]
+    },
+    {
+      "id": "london-1665-bills-orders",
+      "title": "Londres 1665 · Bills, parroquias y casas selladas",
+      "region": "Londres y suburbios · 1665–1666",
+      "archive": "Bills of Mortality, entierros individuales, órdenes municipales y geografía parroquial",
+      "layers": [
+        {
+          "kind": "testimony",
+          "observed": "Los Bills agregan semanalmente entierros por parroquia y causa atribuida.",
+          "inference": "La ciudad produjo una serie temporal y espacial repetida de mortalidad.",
+          "limit": "Registra entierros y clasificaciones, no todos los fallecidos ni certificados clínicos.",
+          "claimIds": ["CLAIM-MED-EPID-LONDON-BILLS-001"],
+          "evidenceIds": ["EVID-MED-EPID-LONDON-BILLS-001"],
+          "sourceIds": ["SRC-MED-EPID-GREENBERG-2011", "SRC-MED-EPID-DEATHBYNUMBERS-2026"]
+        },
+        {
+          "kind": "agent",
+          "observed": "Buscadoras, parroquias y escribanos produjeron la categoría plague; no hay prueba molecular por entrada.",
+          "inference": "La categoría es coherente para seguir la epidemia reconocida dentro de la serie.",
+          "limit": "No equivale a diagnóstico moderno ni excluye clasificación diferencial.",
+          "claimIds": ["CLAIM-MED-EPID-LONDON-CAUSES-001"],
+          "evidenceIds": ["EVID-MED-EPID-LONDON-BILLS-001"],
+          "sourceIds": ["SRC-MED-EPID-GREENBERG-2011"]
+        },
+        {
+          "kind": "magnitude",
+          "observed": "Entierros y bautismos enlazados muestran tiempo y espacio de mortalidad; denominadores cambian por fuga y cobertura.",
+          "inference": "Puede estimarse exceso y comparar parroquias con cautela.",
+          "limit": "Cifra oficial, muertos reales y tasa de residentes no son la misma cantidad.",
+          "claimIds": ["CLAIM-MED-EPID-LONDON-SPATIAL-001", "CLAIM-MED-EPID-LONDON-BILLS-001"],
+          "evidenceIds": ["EVID-MED-EPID-LONDON-BURIALS-001", "EVID-MED-EPID-LONDON-GEOGRAPHY-001"],
+          "sourceIds": ["SRC-MED-EPID-CUMMINS-2016", "SRC-MED-EPID-OTIS-KANIA-2025"]
+        },
+        {
+          "kind": "response",
+          "observed": "Órdenes de 1665 prescriben búsqueda, cierre, vigilancia, entierro, limpieza y reglas para oficios.",
+          "inference": "Existió un programa municipal explícito de control.",
+          "limit": "El impreso no demuestra recursos, continuidad o ejecución igual entre parroquias.",
+          "claimIds": ["CLAIM-MED-EPID-LONDON-ORDERS-001"],
+          "evidenceIds": ["EVID-MED-EPID-LONDON-ORDERS-001"],
+          "sourceIds": ["SRC-MED-EPID-LONDON-ORDERS-1665"]
+        },
+        {
+          "kind": "compliance",
+          "observed": "Normas prevén vigilantes y sanciones; relatos y patrones muestran fuga, ocultamiento y aplicación desigual.",
+          "inference": "La adherencia fue negociada y dependió de vigilancia y sustento.",
+          "limit": "No existe un registro exhaustivo de cada casa cerrada, excepción o cruce.",
+          "claimIds": ["CLAIM-MED-EPID-LONDON-ORDERS-001", "CLAIM-MED-EPID-RESPONSE-INEQUALITY-001"],
+          "evidenceIds": ["EVID-MED-EPID-LONDON-ORDERS-001"],
+          "sourceIds": ["SRC-MED-EPID-LONDON-ORDERS-1665"]
+        },
+        {
+          "kind": "inequality",
+          "observed": "Mortalidad elevada apareció temprano en suburbios pobres; algunos habitantes podían abandonar la ciudad.",
+          "inference": "Lugar, recursos y capacidad de movilidad distribuyeron exposición y coerción.",
+          "limit": "Parroquia no equivale a posición individual y quienes huyeron alteran el denominador.",
+          "claimIds": ["CLAIM-MED-EPID-LONDON-SPATIAL-001", "CLAIM-MED-EPID-RESPONSE-INEQUALITY-001"],
+          "evidenceIds": ["EVID-MED-EPID-LONDON-BURIALS-001", "EVID-MED-EPID-LONDON-GEOGRAPHY-001"],
+          "sourceIds": ["SRC-MED-EPID-CUMMINS-2016", "SRC-MED-EPID-OTIS-KANIA-2025"]
+        }
+      ]
+    },
+    {
+      "id": "marseille-1720",
+      "title": "Marsella · puerto, cordón y recaída",
+      "region": "Marsella y Provenza · 1720–1722",
+      "archive": "Declaraciones portuarias, diario municipal, parroquias, fosa de l'Observance y genomas",
+      "layers": [
+        {
+          "kind": "testimony",
+          "observed": "Muertes del viaje, decisiones sobre el Grand Saint-Antoine y crisis urbana aparecen en archivos contemporáneos.",
+          "inference": "Puede reconstruirse una secuencia portuaria y administrativa de alta resolución.",
+          "limit": "La narración del barco no identifica una cadena única hasta cada caso urbano.",
+          "claimIds": ["CLAIM-MED-EPID-MARSEILLE-QUARANTINE-001"],
+          "evidenceIds": ["EVID-MED-EPID-MARSEILLE-JOURNAL-001", "EVID-MED-EPID-MARSEILLE-REGULATIONS-001"],
+          "sourceIds": ["SRC-MED-EPID-MARSEILLE-JOURNAL-1720", "SRC-MED-EPID-SIGNOLI-2022"]
+        },
+        {
+          "kind": "agent",
+          "observed": "Cinco genomas de Y. pestis proceden de individuos de la recaída de 1722.",
+          "inference": "Y. pestis causó el episodio funerario muestreado y pertenece a la segunda pandemia.",
+          "limit": "El genoma no determina reservorio exacto, forma clínica ni transmisión individual desde el barco.",
+          "claimIds": ["CLAIM-MED-EPID-MARSEILLE-PATHOGEN-001"],
+          "evidenceIds": ["EVID-MED-EPID-MARSEILLE-GENOME-001"],
+          "sourceIds": ["SRC-MED-EPID-BOS-MARSEILLE-2016"]
+        },
+        {
+          "kind": "magnitude",
+          "observed": "Parroquias, fosas y relatos registran mortalidad extrema y una recaída menor en 1722.",
+          "inference": "La crisis tuvo ondas, territorios y cargas sociales diferentes.",
+          "limit": "Población huidiza, registros incompletos y cifras narrativas impiden una tasa única sin rango.",
+          "claimIds": ["CLAIM-MED-EPID-MARSEILLE-INEQUALITY-001"],
+          "evidenceIds": ["EVID-MED-EPID-MARSEILLE-OCCUPATIONS-001", "EVID-MED-EPID-MARSEILLE-JOURNAL-001"],
+          "sourceIds": ["SRC-MED-EPID-SIGNOLI-2022", "SRC-MED-EPID-MARSEILLE-JOURNAL-1720"]
+        },
+        {
+          "kind": "response",
+          "observed": "Bureau de Santé, lazaretos, hospitales, limpieza, certificados y cordón militar fueron activados o reorganizados.",
+          "inference": "La respuesta movilizó capacidad municipal y central a gran escala.",
+          "limit": "Varias medidas simultáneas impiden atribuir el descenso a una sola.",
+          "claimIds": ["CLAIM-MED-EPID-MARSEILLE-CORDON-001", "CLAIM-MED-EPID-MARSEILLE-QUARANTINE-001"],
+          "evidenceIds": ["EVID-MED-EPID-MARSEILLE-REGULATIONS-001", "EVID-MED-EPID-MARSEILLE-CORDON-001"],
+          "sourceIds": ["SRC-MED-EPID-MOURRE-1963", "SRC-MED-EPID-SIGNOLI-2022"]
+        },
+        {
+          "kind": "compliance",
+          "observed": "La nave recibió condiciones menos estrictas que las reglas previstas; después se vigilaron límites y pases.",
+          "inference": "Aplicación selectiva y fallos operativos forman parte del episodio.",
+          "limit": "Interés mercantil no prueba por sí solo corrupción causal ni explica todas las introducciones.",
+          "claimIds": ["CLAIM-MED-EPID-MARSEILLE-QUARANTINE-001", "CLAIM-MED-EPID-MARSEILLE-CORDON-001"],
+          "evidenceIds": ["EVID-MED-EPID-MARSEILLE-REGULATIONS-001", "EVID-MED-EPID-MARSEILLE-CORDON-001"],
+          "sourceIds": ["SRC-MED-EPID-SIGNOLI-2022", "SRC-MED-EPID-MCCALLAM-2025"]
+        },
+        {
+          "kind": "inequality",
+          "observed": "Fuentes describen pérdidas distintas entre oficios, familias, cuidadores y trabajadores expuestos.",
+          "inference": "Trabajo, vivienda, movilidad y deber público distribuyeron riesgo y coerción.",
+          "limit": "Cifras por oficio son parciales y mediadas; no permiten ranking de vulnerabilidad sin denominadores comparables.",
+          "claimIds": ["CLAIM-MED-EPID-MARSEILLE-INEQUALITY-001", "CLAIM-MED-EPID-NONRANKING-001"],
+          "evidenceIds": ["EVID-MED-EPID-MARSEILLE-OCCUPATIONS-001", "EVID-MED-EPID-SYNTHESIS-001"],
+          "sourceIds": ["SRC-MED-EPID-MARSEILLE-JOURNAL-1720", "SRC-MED-EPID-MCCALLAM-2025"]
+        }
+      ]
+    }
+  ]
+}

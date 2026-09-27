@@ -1,5 +1,17 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
+  "thematicSeries": {
+    "CIV": {
+      "label": "Civilizaciones",
+      "description": "Métodos y expedientes regionales para comparar trayectorias humanas sin escalas universales.",
+      "route": "/civilizaciones"
+    },
+    "MED": {
+      "label": "Medicina",
+      "description": "Historia mundial y métodos para auditar cuidado, enfermedad, intervenciones, diagnóstico y decisiones sin consejo personal.",
+      "route": "/medicina"
+    }
+  },
   "sectionDefaults": {
     "01_cosmos": { "collection": "Cosmos", "era": "Historia cósmica", "themes": ["cosmología", "astrofísica"] },
     "02_formacion_tierra": { "collection": "Tierra", "era": "Formación de la Tierra", "themes": ["geociencias", "sistema solar"] },
@@ -13,7 +25,8 @@
     "10_evolucion_vida": { "collection": "Vida", "era": "Grandes transiciones", "themes": ["evolución", "biología"] },
     "11_evolucion_humana": { "collection": "Humanidad", "era": "Pleistoceno", "themes": ["evolución humana", "arqueología"] },
     "13_migraciones": { "collection": "Humanidad", "era": "Pleistoceno tardío", "themes": ["migraciones", "genómica"] },
-    "14_civilizaciones": { "collection": "Civilizaciones", "era": "Holoceno", "themes": ["arqueología", "historia social"] }
+    "14_civilizaciones": { "collection": "Civilizaciones", "era": "Holoceno", "themes": ["arqueología", "historia social"] },
+    "15_medicina": { "collection": "Medicina", "era": "Historia y evidencia médica", "themes": ["historia de la medicina", "epidemiología clínica", "cirugía", "causalidad"] }
   },
   "records": {
     "001": { "shortTitle": "Edad de la Tierra", "status": "AUDITADO", "themes": ["geocronología", "meteoritos", "zircones"], "featured": true },
@@ -70,6 +83,25 @@
     "052": { "shortTitle": "Primeras civilizaciones comparadas", "status": "AUDITADO", "themes": ["comparación", "civilizaciones", "transformación"], "featured": true },
     "CIV-001": { "shortTitle": "De aldeas a ciudades y Estados", "status": "TRAZADO", "themes": ["sedentarismo", "urbanismo", "administración"], "featured": true },
     "CIV-002": { "shortTitle": "Cómo fechamos el pasado", "status": "AUDITADO", "themes": ["cronología", "radiocarbono", "arqueometría", "modelado bayesiano"], "featured": true },
-    "CIV-003": { "shortTitle": "Asia sudoccidental: trayectorias múltiples", "status": "AUDITADO", "themes": ["Asia sudoccidental", "Neolítico", "urbanismo", "movilidad", "parentesco"], "featured": true }
+    "CIV-003": { "shortTitle": "Asia sudoccidental: trayectorias múltiples", "status": "AUDITADO", "themes": ["Asia sudoccidental", "Neolítico", "urbanismo", "movilidad", "parentesco"], "featured": true },
+    "MED-019": { "shortTitle": "Hospital y caso: una cama no basta", "status": "AUDITADO", "themes": ["historia de la medicina", "hospitales", "cabecera", "examen clínico", "expediente", "pacientes", "colonialismo", "admisión", "comparación"], "featured": true },
+    "MED-018": { "shortTitle": "Anatomía patológica: una lesión no basta", "status": "AUDITADO", "themes": ["historia de la medicina", "anatomía patológica", "microscopía", "autopsia", "histología", "citología", "lesión", "diagnóstico", "histotecnología"], "featured": true },
+    "MED-017": { "shortTitle": "Circulación: una ligadura no basta", "status": "AUDITADO", "themes": ["historia de la medicina", "fisiología", "circulación", "pulso", "vivisección", "experimentación", "microscopía", "presión arterial", "medición"], "featured": true },
+    "MED-016": { "shortTitle": "Anatomía e imprenta: abrir no basta", "status": "AUDITADO", "themes": ["historia de la medicina", "anatomía", "disección", "autopsia", "imprenta", "ilustración", "traducción", "forénsica", "corrección"], "featured": true },
+    "MED-015": { "shortTitle": "Encuentros coloniales: contacto no es causa", "status": "AUDITADO", "themes": ["historia de la medicina", "colonialismo", "esclavitud", "misiones", "trabajo", "nutrición", "demografía", "botánica", "supervivencia"], "featured": true },
+    "MED-014": { "shortTitle": "Epidemias y cuarentenas: un brote no es un diagnóstico", "status": "AUDITADO", "themes": ["historia de la medicina", "epidemias", "peste", "paleogenómica", "demografía", "cuarentena", "salud pública", "desigualdad"], "featured": true },
+    "MED-013": { "shortTitle": "Índico y Eurasia: una ruta no es transferencia", "status": "AUDITADO", "themes": ["historia de la medicina", "océano Índico", "Eurasia", "rutas", "comercio", "manuscritos", "traducción", "imperios mongoles", "Goa"], "featured": true },
+    "MED-012": { "shortTitle": "Europa medieval: un currículo no es una consulta", "status": "AUDITADO", "themes": ["historia de la medicina", "Europa medieval", "tradiciones judías", "monasterios", "hogares", "universidades", "cirugía", "hospitales", "traducción"], "featured": true },
+    "MED-011": { "shortTitle": "Mundos islámicos: traducción no es práctica", "status": "AUDITADO", "themes": ["historia de la medicina", "mundos islámicos", "traducción", "manuscritos", "hospitales", "farmacia", "óptica", "regulación"], "featured": true },
+    "MED-010": { "shortTitle": "Américas: una huella no es una historia clínica", "status": "AUDITADO", "themes": ["historia de la medicina", "Mesoamérica", "Andes", "Américas", "trepanación", "odontología", "plantas", "códices", "colonialismo"], "featured": true },
+    "MED-009": { "shortTitle": "África: silencio documental no es ausencia", "status": "AUDITADO", "themes": ["historia de la medicina", "África", "Nubia", "Aksum", "Sahel", "bioarqueología", "manuscritos", "tradición oral"], "featured": true },
+    "MED-008": { "shortTitle": "Roma y Bizancio: infraestructura no es resultado", "status": "AUDITADO", "themes": ["historia de la medicina", "Roma", "Bizancio", "medicina militar", "salud urbana", "hospitales", "transmisión"], "featured": true },
+    "MED-007": { "shortTitle": "Mediterráneo griego: observar no es demostrar", "status": "AUDITADO", "themes": ["historia de la medicina", "Mediterráneo", "Hipócrates", "pronóstico", "cirugía", "anatomía", "epigrafía"], "featured": true },
+    "MED-006": { "shortTitle": "China y Asia oriental: un canon no es una práctica", "status": "AUDITADO", "themes": ["historia de la medicina", "China", "Asia oriental", "manuscritos", "cánones", "farmacopeas", "transmisión"], "featured": true },
+    "MED-005": { "shortTitle": "Asia meridional: un corpus no es una fecha", "status": "AUDITADO", "themes": ["historia de la medicina", "Asia meridional", "Ayurveda", "filología", "cirugía", "transmisión"], "featured": true },
+    "MED-004": { "shortTitle": "Mesopotamia y Nilo: del documento a la práctica", "status": "AUDITADO", "themes": ["historia de la medicina", "Mesopotamia", "Egipto antiguo", "papirología", "asiriología", "práctica médica"], "featured": true },
+    "MED-003": { "shortTitle": "Orígenes: archivos, cuidado e intervención", "status": "AUDITADO", "themes": ["historia de la medicina", "paleopatología", "bioarqueología", "ADN antiguo", "cuidado"], "featured": true },
+    "MED-002": { "shortTitle": "Cómo sabemos si una prueba ayuda a decidir", "status": "AUDITADO", "themes": ["diagnóstico", "sensibilidad", "sesgo", "utilidad clínica", "inteligencia artificial"], "featured": true },
+    "MED-001": { "shortTitle": "Cómo sabemos si una intervención funciona", "status": "AUDITADO", "themes": ["ensayos clínicos", "cirugía", "efectos", "daños", "aplicabilidad"], "featured": true }
   }
 }

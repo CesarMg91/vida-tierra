@@ -4093,3 +4093,376 @@ Una muestra, granero, edificio, ciudad o tablilla pertenece a una variable; ning
 | `ERR-CIV-SWASIA-CLIMATE-COLLAPSE-001` | clima = colapso | coincidencia hereda causalidad uniforme | exposición, mecanismo y control | DOCUMENTADO |
 | `ERR-CIV-SWASIA-CITY-SELFCONTAINED-001` | ciudad autosuficiente | concentración omite hinterland | reconstruir flujos y mecanismo | DOCUMENTADO |
 | `ERR-CIV-SWASIA-BIRTH-CIVILIZATION-001` | fecha de nacimiento | muestra/fase = compuesto civilizatorio | desagregar variables y escalas | DOCUMENTADO |
+
+## Errores científicos MED-001
+
+### ERR-MED-BEFORE-AFTER-EFFECT-001 — Mejoró, por tanto funcionó
+
+Historia natural, regresión, expectativa y cointervención siguen abiertas. **Corrección:** estimar diferencia frente a un comparador creíble.
+
+### ERR-MED-RANDOMIZED-MAGIC-001 — «Aleatorizado» como sello
+
+La etiqueta no demuestra ocultamiento, seguimiento, medición o reporte. **Corrección:** auditar el resultado con protocolo, registro y RoB 2.
+
+### ERR-MED-NONSIGNIFICANT-EQUIVALENT-001 — No significativo igual a no efecto
+
+El intervalo puede incluir beneficio y daño relevantes. **Corrección:** publicar estimación, intervalo y márgenes preespecificados.
+
+### ERR-MED-SURROGATE-BENEFIT-001 — Marcador mejor igual a beneficio
+
+CAST documenta una ruptura entre supresión de ectopia y mortalidad. **Corrección:** validar el sustituto y conservar desenlaces importantes.
+
+### ERR-MED-NO-HARM-SAFE-001 — Sin diferencia igual a seguridad
+
+Pocos eventos o seguimiento corto producen imprecisión. **Corrección:** denominadores, tiempo, gravedad y vigilancia complementaria.
+
+### ERR-MED-SURGEON-VOLUME-SKILL-001 — Volumen igual a competencia
+
+Volumen puede correlacionar con equipo, selección y rescate. **Corrección:** medir calidad técnica y modelar operador/centro.
+
+### ERR-MED-META-TRUTH-001 — Metaanálisis como verdad superior
+
+Promediar no elimina sesgos, indirectitud o dependencia. **Corrección:** comparar preguntas, diseños, riesgo y heterogeneidad.
+
+### ERR-MED-AVERAGE-PATIENT-001 — Promedio igual a indicación individual
+
+Riesgo basal, alternativas y preferencias cambian el balance. **Corrección:** separar efecto, certeza, aplicabilidad y decisión.
+
+| ID | Error | Mecanismo | Corrección | Estado |
+|---|---|---|---|---|
+| `ERR-MED-BEFORE-AFTER-EFFECT-001` | mejoría = efecto | curso y contexto sin control | comparador creíble | DOCUMENTADO |
+| `ERR-MED-RANDOMIZED-MAGIC-001` | etiqueta = validez | dominios posteriores heredados | auditoría por resultado | DOCUMENTADO |
+| `ERR-MED-NONSIGNIFICANT-EQUIVALENT-001` | p ≥ 0.05 = equivalencia | imprecisión ignorada | intervalo y margen | DOCUMENTADO |
+| `ERR-MED-SURROGATE-BENEFIT-001` | marcador = beneficio | puente no validado | desenlace clínico/validación | DOCUMENTADO |
+| `ERR-MED-NO-HARM-SAFE-001` | ausencia = seguridad | poca potencia/tiempo | vigilancia y denominador | DOCUMENTADO |
+| `ERR-MED-SURGEON-VOLUME-SKILL-001` | volumen = habilidad | confusión de sistema | calidad observada/modelo | DOCUMENTADO |
+| `ERR-MED-META-TRUTH-001` | promedio = certeza | sesgos/dependencia | síntesis por pregunta | DOCUMENTADO |
+| `ERR-MED-AVERAGE-PATIENT-001` | promedio = indicación | riesgo/preferencia omitidos | decisión situada | DOCUMENTADO |
+## Errores científicos que MED-002 debe impedir
+
+| ID | Error | Por qué falla | Corrección mínima | Estado |
+|---|---|---|---|---|
+| `ERR-MED-DX-ACCURACY-UTILITY-001` | declarar utilidad porque sensibilidad o AUC son altas | exactitud no mide acciones ni desenlaces | auditar comparador, consecuencias y ruta | ACTIVO |
+| `ERR-MED-DX-GOLD-STANDARD-001` | llamar «oro» a una referencia sin examinarla | puede ser imperfecta, incorporada o dependiente | describir operación, cegamiento y limitaciones | ACTIVO |
+| `ERR-MED-DX-SPECTRUM-001` | validar con casos extremos y controles sanos | simplifica la clasificación respecto de práctica | incluir espectro de uso y subgrupos relevantes | ACTIVO |
+| `ERR-MED-DX-VERIFICATION-001` | verificar sólo positivos | oculta falsos negativos y sesga estimaciones | seguimiento/referencia comparable y flujo completo | ACTIVO |
+| `ERR-MED-DX-THRESHOLD-001` | elegir umbral después de mirar resultados y presentarlo como fijado | optimiza azar y sobreestima desempeño | preespecificar o validar independientemente | ACTIVO |
+| `ERR-MED-DX-PREDICTIVE-001` | transportar valor predictivo sin riesgo basal | depende de selección y frecuencia de condición | recalcular y validar en población objetivo | ACTIVO |
+| `ERR-MED-DX-INDETERMINATE-001` | borrar fallos técnicos e indeterminados | cambia denominador y maquilla factibilidad | mostrar frecuencia, manejo y sensibilidad | ACTIVO |
+| `ERR-MED-DX-AUC-001` | confundir discriminación con calibración | un modelo puede ordenar bien y estimar riesgos mal | reportar calibración y validación externa | ACTIVO |
+| `ERR-MED-DX-EARLY-001` | inferir vidas salvadas por diagnóstico más temprano o cambio de estadio | anticipación, duración y sobrediagnóstico pueden explicar la señal | medir desenlaces importantes en estrategia comparada | ACTIVO |
+| `ERR-MED-DX-AI-001` | tratar una versión de IA como instrumento estable y universal | datos, prevalencia, flujo y software cambian | versionar, vigilar deriva, equidad y consecuencias | ACTIVO |
+
+## Errores científicos que MED-003 debe impedir
+
+| ID | Error | Por qué falla | Corrección mínima | Estado |
+|---|---|---|---|---|
+| `ERR-MED-HIST-HEALED-TREATED-001` | remodelado = tratado o curado | sólo demuestra respuesta vital y tiempo | separar supervivencia, intervención y efecto | ACTIVO |
+| `ERR-MED-HIST-DISABILITY-COMPASSION-001` | discapacidad superviviente = compasión | asistencia no identifica motivo ni calidad de vida | modelar función y conservar motivos como abiertos | ACTIVO |
+| `ERR-MED-HIST-DEFECT-SURGERY-001` | defecto = operación | desarrollo, trauma, infección y tafonomía pueden converger | exigir diferencial, huellas y contexto | ACTIVO |
+| `ERR-MED-HIST-DNA-DISEASE-001` | ADN patógeno = enfermedad o causa de muerte | presencia molecular no adjudica síntomas o causalidad | declarar tejido, taxón, autenticación y escala | ACTIVO |
+| `ERR-MED-HIST-DETECTION-ORIGIN-001` | primera detección = origen | depende de muestreo, preservación y ancestros no observados | usar “primero documentado en la muestra” | ACTIVO |
+| `ERR-MED-HIST-RESIDUE-MEDICINE-001` | planta detectada = medicamento | alimento, ambiente y contaminación siguen abiertos | exigir selección, contexto, dosis y efecto independientes | ACTIVO |
+| `ERR-MED-HIST-TEXT-PRACTICE-001` | receta escrita = práctica general o eficacia | texto, ejecución, acceso y resultado son archivos distintos | auditar género, transmisión y evidencia material | ACTIVO |
+| `ERR-MED-HIST-FIRST-BIRTHDATE-001` | hallazgo antiguo = nacimiento de la medicina | no existe un acontecimiento operacional único | comparar archivos y trayectorias regionales | ACTIVO |
+| `ERR-MED-HIST-ABSENCE-001` | ausencia de señal = ausencia de cuidado o enfermedad | los archivos preservan tejidos y grupos selectivamente | declarar visibilidad y sesgo de muestra | ACTIVO |
+| `ERR-MED-HIST-PROGRESS-LADDER-001` | historia = escalera de superstición a ciencia | borra coexistencia, pérdida, coerción y circulación | usar cronologías regionales y productos comparables | ACTIVO |
+
+
+## Errores científicos que MED-004 debe impedir
+
+| ID | Error | Por qué falla | Corrección mínima | Estado |
+|---|---|---|---|---|
+| `ERR-MED-ANE-FIRST-MEDICINE-001` | una tablilla o papiro es el nacimiento de la medicina | primero conservado depende del archivo | declarar objeto y producto fechado | ACTIVO |
+| `ERR-MED-ANE-RANKING-001` | decidir qué civilización fue más avanzada | soportes y productos no son equivalentes | comparar dimensiones sin puntuación | ACTIVO |
+| `ERR-MED-ANE-MAGIC-SCIENCE-001` | separar magia irracional y medicina racional | categorías, agentes y acciones coexistían | describir epistemología histórica | ACTIVO |
+| `ERR-MED-MESO-ASU-ASHIPU-001` | asû = médico moderno y āšipu = mago | roles solapan y cambian por contexto | auditar título, repertorio y periodo | ACTIVO |
+| `ERR-MED-MESO-NINMED-BEGINNING-001` | Nínive inventó la terapéutica | compiló tradiciones anteriores | separar tradición, recensión y compilación | ACTIVO |
+| `ERR-MED-MESO-HAMMURABI-ENFORCEMENT-001` | la estela prueba un sistema de responsabilidad aplicado | norma monumental no es expediente judicial | buscar práctica y recepción independientes | ACTIVO |
+| `ERR-MED-EGY-SMITH-MODERN-SURGERY-001` | Edwin Smith es un manual quirúrgico moderno | estructura textual no equivale a práctica o resultado | conservar género, copia y límites | ACTIVO |
+| `ERR-MED-EGY-PAPYRUS-NATIONAL-001` | un papiro representa toda la medicina egipcia | conservación y procedencia son excepcionales | comparar corpus, fechas y regiones | ACTIVO |
+| `ERR-MED-EGY-DEIR-UNIVERSAL-001` | Deir el-Medina prueba sanidad universal | era comunidad especializada y estatal | generalizar sólo con sitios comparables | ACTIVO |
+| `ERR-MED-ANE-RECIPE-EFFECTIVE-001` | receta o ingrediente bioactivo = tratamiento eficaz | faltan dosis, ejecución, comparador y daños | separar texto, práctica y efecto | ACTIVO |
+| `ERR-MED-ANE-TITLE-COVERAGE-001` | título profesional = acceso poblacional | titulatura selecciona élites y no da denominador | buscar redes, hogares y distribución | ACTIVO |
+| `ERR-MED-EGY-MUMMY-POPULATION-001` | momias publicadas representan la población | selección mortuoria, museal y técnica | declarar muestra y sesgos | ACTIVO |
+
+## Errores científicos que MED-005 debe impedir
+
+| ID | Error | Por qué falla | Corrección mínima | Estado |
+|---|---|---|---|---|
+| `ERR-MED-SA-SUSRUTA-600BCE-001` | fechar a Suśruta como cirujano individual de 600 a. e. c. | convierte una obra estratificada en biografía y año únicos | declarar capas, intervalos y testigos datados | ACTIVO |
+| `ERR-MED-SA-FATHER-SURGERY-001` | nombrar al “padre de la cirugía” como conclusión histórica | prioridad depende de archivo, definición y supervivencia documental | comparar productos sin genealogía honorífica | ACTIVO |
+| `ERR-MED-SA-MANUSCRIPT-COMPOSITION-001` | fecha de manuscrito = fecha de composición | una copia puede preservar, alterar o combinar estratos anteriores | separar soporte, copia, redacción y pasaje | ACTIVO |
+| `ERR-MED-SA-MEHRGARH-AYURVEDA-001` | los dientes de Mehrgarh prueban Ayurveda neolítico | modificación dental no contiene vocabulario ni transmisión textual | limitar a intervención *in vivo* situada | ACTIVO |
+| `ERR-MED-SA-VEDIC-CANON-001` | los Vedas ya contienen completos Caraka o Suśruta | comparten algunos términos pero difieren en género y transmisión | auditar término, pasaje, estrato y continuidad | ACTIVO |
+| `ERR-MED-SA-ASHOKA-HOSPITALS-001` | Aśoka construyó hospitales en todo su imperio | el edicto menciona tratamiento y plantas, no edificios, camas o personal | citar el contenido exacto y buscar archivos de ejecución | ACTIVO |
+| `ERR-MED-SA-RECIPE-PRACTICE-001` | receta o procedimiento escrito = práctica general | faltan ejecución, frecuencia, acceso y aprendizaje | buscar cuerpos, instrumentos, comentarios y casos | ACTIVO |
+| `ERR-MED-SA-PLANT-SPECIES-001` | nombre sánscrito = especie farmacológica estable | sinonimia, polisemia y sustitución regional rompen la equivalencia | declarar identidad, parte, procedencia y formulación | ACTIVO |
+| `ERR-MED-SA-ANCIENT-EFFICACY-001` | antigüedad o persistencia = eficacia y seguridad | no controla comparador, selección, resultados o daños | evaluar con el contrato causal de MED-001 | ACTIVO |
+| `ERR-MED-SA-CONTINUOUS-RHINOPLASTY-001` | similitud entre Suśruta y 1794 prueba continuidad ininterrumpida | faltan intermediarios y cambian técnica, contexto y zona donante | documentar cadena o conservar continuidad abierta | ACTIVO |
+| `ERR-MED-SA-SANSKRIT-COMPLETE-001` | el canon sánscrito representa todo el cuidado regional | subregistra hogares, oralidad, parto y actores sin título | contrastar soportes y declarar invisibilidad | ACTIVO |
+| `ERR-MED-SA-RANKING-001` | una tradición fue la medicina más antigua o avanzada | archivos distintos hacen variar cualquier prioridad | comparar por dimensión sin puntuación universal | ACTIVO |
+
+## Errores científicos que MED-006 debe impedir
+
+| ID | Error | Por qué falla | Corrección mínima | Estado |
+|---|---|---|---|---|
+| `ERR-MED-EA-YELLOW-EMPEROR-AUTHOR-001` | el Emperador Amarillo escribió un tratado médico hacia 2600 a. e. c. | confunde una voz de autoridad con autoría y fecha material | separar personaje, diálogo, estrato, recensión y testigo | ACTIVO |
+| `ERR-MED-EA-UNCHANGED-5000-001` | existe una tradición médica china homogénea e inalterada de cinco mil años | manuscritos, cánones y técnicas muestran selección, pérdida y transformación | nombrar archivo, región, periodo y operación | ACTIVO |
+| `ERR-MED-EA-MAWANGDUI-MODERN-SYSTEM-001` | Mawangdui ya contiene completo el sistema moderno de meridianos y acupuntura | cambian número, dirección, órganos, puntos y técnicas | comparar repertorios sin proyectar el sistema tardío | ACTIVO |
+| `ERR-MED-EA-BIANQUE-AUTHOR-001` | Bian Que escribió personalmente los manuscritos de Tianhui | no existe firma o colofón inequívoco y los títulos son editoriales | conservar la asociación como hipótesis | ACTIVO |
+| `ERR-MED-EA-FIGURE-CLINICAL-001` | una figurilla o modelo corporal prueba uso y resultados clínicos | representación no registra operador, frecuencia ni desenlace | separar objeto, función, ejecución y consecuencia | ACTIVO |
+| `ERR-MED-EA-PIERCING-EFFICACY-001` | una descripción antigua de punción demuestra eficacia de la acupuntura | texto y mecanismo propuesto no sustituyen comparador, resultados o daños | evaluar intervenciones con MED-001 | ACTIVO |
+| `ERR-MED-EA-PULSE-ACCURACY-001` | un vocabulario fino del pulso demuestra exactitud diagnóstica | taxonomía táctil no aporta referencia, cegamiento ni reproducibilidad | evaluar pruebas con MED-002 | ACTIVO |
+| `ERR-MED-EA-PHARMACOPOEIA-MODERN-001` | la farmacopea Tang equivale a regulación farmacéutica y control de calidad modernos | norma editorial no prueba identidad, lote, distribución o cumplimiento | auditar texto, suministro, preparación e implementación | ACTIVO |
+| `ERR-MED-EA-DUNHUANG-SCHOOL-001` | los manuscritos de Dunhuang pertenecen a una sola escuela médica | fechas, manos, géneros, lenguas y usos son heterogéneos | tratar la colección como biblioteca distribuida | ACTIVO |
+| `ERR-MED-EA-RECEPTION-COPY-001` | *Ishinpō* y *Donguibogam* son copias pasivas de una medicina china intacta | seleccionar, traducir, ordenar y patrocinar transforman el repertorio | describir operación regional y capas de recepción | ACTIVO |
+| `ERR-MED-EA-MATERIA-SPECIES-001` | un nombre antiguo identifica una especie y formulación estables | polisemia, sustitución, parte, procedencia y procesamiento varían | declarar identidad y preparación por testigo | ACTIVO |
+| `ERR-MED-EA-CANON-PRACTICE-001` | presencia en un canon demuestra práctica general | faltan aprendizaje, acceso, ejecución y archivos locales | buscar instituciones y prácticas independientes | ACTIVO |
+| `ERR-MED-EA-ANTIQUITY-EFFICACY-001` | antigüedad, continuidad o patrocinio estatal demuestran eficacia y seguridad | no controlan selección, comparador, resultados ni daños | aplicar contrato causal contemporáneo | ACTIVO |
+| `ERR-MED-EA-RANKING-001` | una tradición fue más antigua o avanzada que otra | los soportes y productos observados no son equivalentes | comparar dimensiones sin puntuación universal | ACTIVO |
+## Errores científicos que MED-007 debe impedir
+
+| ID | Error | Por qué falla | Corrección mínima | Estado |
+|---|---|---|---|---|
+| `ERR-MED-GR-FATHER-001` | Hipócrates fue el padre o inventor de la medicina | existían tradiciones anteriores y no se identifica su autoría del corpus | separar figura, colección y recepción | ACTIVO |
+| `ERR-MED-GR-MIRACLE-001` | Grecia sustituyó magia por ciencia racional | causas naturales, dioses, ritual y técnica coexistieron | documentar género y contexto sin etapas universales | ACTIVO |
+| `ERR-MED-GR-CORPUS-AUTHOR-001` | Hipócrates escribió los sesenta tratados | fechas, estilos y doctrinas son plurales | atribuir al corpus o al tratado, no a una persona | ACTIVO |
+| `ERR-MED-GR-SCHOOLS-001` | Cos y Cnido fueron facultades rivales modernas | la clasificación es tardía y parcialmente circular | nombrar red, posición y evidencia concreta | ACTIVO |
+| `ERR-MED-GR-EPIDEMIOLOGY-001` | *Epidemias* es una base de datos epidemiológica | faltan población, inclusión, denominadores y categorías comparables | tratar cada caso como texto seleccionado | ACTIVO |
+| `ERR-MED-GR-OBSERVATION-NEUTRAL-001` | los casos son observación pura sin teoría | selección y nosología guían lo visible y narrable | declarar género, teoría y alternativas | ACTIVO |
+| `ERR-MED-GR-SURGERY-PRACTICE-001` | una operación escrita prueba ejecución y éxito | faltan operador, frecuencia, complicaciones y seguimiento | separar instrucción, práctica y consecuencia | ACTIVO |
+| `ERR-MED-GR-OATH-UNIVERSAL-001` | todos los médicos antiguos juraban el Juramento | fecha, entorno y recepción son discutidos | tratarlo como norma situada | ACTIVO |
+| `ERR-MED-GR-IAMATA-OUTCOMES-001` | setenta *iamata* son setenta curaciones verificadas | selección pública sin fracasos ni denominador | analizar narrativa y no calcular tasa | ACTIVO |
+| `ERR-MED-GR-PUBLIC-HEALTH-001` | médico cívico equivale a sistema público universal | un cargo u honor local no mide cobertura y acceso | auditar contrato y beneficiarios | ACTIVO |
+| `ERR-MED-GR-DISSECTION-MODERN-001` | disección alejandrina creó anatomía y medicina modernas completas | ventana breve, originales perdidos y efectos separados | delimitar producto anatómico y recepción | ACTIVO |
+| `ERR-MED-GR-VIVISECTION-CERTAIN-001` | Herófilo y Erasístrato vivisectaron con certeza | la acusación llega por fuentes posteriores y desiguales | atribuir la afirmación y conservar controversia | ACTIVO |
+| `ERR-MED-GR-RATIONAL-EFFICACY-001` | explicación racional demuestra eficacia | plausibilidad y causalidad requieren archivos distintos | aplicar MED-001 y MED-002 | ACTIVO |
+| `ERR-MED-GR-GREEK-ISOLATION-001` | medicina griega se desarrolló aislada | el Mediterráneo documenta movilidad, productos y comunidades híbridas | buscar canal sin inferir préstamo por semejanza | ACTIVO |
+| `ERR-MED-GR-WOMEN-ABSENT-001` | la escasez de autoras demuestra ausencia de cuidadoras | archivo letrado y epigráfico selecciona actores | declarar invisibilidad y buscar evidencias indirectas | ACTIVO |
+| `ERR-MED-GR-RANKING-001` | Grecia produjo la medicina más avanzada de la Antigüedad | soportes y productos regionales no son equivalentes | comparar una dimensión sin puntuación universal | ACTIVO |
+
+## MED-008 — Roma, Bizancio y Mediterráneo tardío
+
+| ID | Error | Por qué falla | Corrección mínima | Estado |
+|---|---|---|---|---|
+| `ERR-MED-RB-ROMAN-PUBLIC-HEALTH-001` | Roma inventó la salud pública moderna | ingeniería, intención, acceso y resultados son capas distintas | nombrar obra, población y consecuencia observada | ACTIVO |
+| `ERR-MED-RB-ARMY-MODERN-001` | la República tuvo un cuerpo médico militar moderno | proyecta organización imperial y categorías actuales sobre archivos fragmentarios | separar periodo, unidad, cargo y fuente | ACTIVO |
+| `ERR-MED-RB-VALETUDINARIUM-HOSPITAL-001` | todo valetudinarium fue un hospital moderno | función probable no fija admisión, operación o cobertura | describir edificio y evidencia convergente | ACTIVO |
+| `ERR-MED-RB-INSTRUMENT-SURGERY-001` | un instrumento prueba una cirugía realizada | forma no identifica operador, uso, frecuencia o resultado | declarar contexto, alternativas y residuos | ACTIVO |
+| `ERR-MED-RB-WATER-HEALTH-001` | acueductos y letrinas hicieron sana a la población | parásitos persistieron y acceso y mantenimiento variaron | auditar exposición y resultado por sitio | ACTIVO |
+| `ERR-MED-RB-PARASITES-USELESS-001` | los parásitos demuestran que toda obra romana fue inútil | presencia refuta protección automática, no cada beneficio o uso | conservar heterogeneidad y límites del muestreo | ACTIVO |
+| `ERR-MED-RB-CIVILIAN-COVERAGE-001` | la población civil tenía hospitales militares equivalentes | la provisión regular civil no está documentada de esa forma | reconstruir hogares, locales, baños y santuarios | ACTIVO |
+| `ERR-MED-RB-WOMEN-ABSENT-001` | las mujeres no practicaban porque faltan autoras | el archivo letrado privilegia varones de élite | separar representación, práctica y voz | ACTIVO |
+| `ERR-MED-RB-GALEN-ROMAN-MEDICINE-001` | Galeno representa toda la medicina romana | un corpus excepcional desplaza prácticas perdidas y no letradas | atribuir obra, género, audiencia y contexto | ACTIVO |
+| `ERR-MED-RB-GALEN-HUMAN-ANATOMY-001` | toda anatomía galénica provino de cuerpos humanos | gran parte deriva de animales e inferencia inter-especie | declarar especie y operación observada | ACTIVO |
+| `ERR-MED-RB-GALEN-TRUE-001` | la larga autoridad de Galeno prueba que tenía razón | recepción y exactitud son resultados diferentes | evaluar proposición y evidencia por separado | ACTIVO |
+| `ERR-MED-RB-BYZANTIUM-PRESERVED-001` | Bizancio sólo preservó medicina griega | compiladores seleccionaron, reorganizaron y adaptaron | rastrear operaciones editoriales e innovación | ACTIVO |
+| `ERR-MED-RB-HOSPITAL-INVENTED-001` | el hospital moderno nació completo en una fecha bizantina | instituciones tempranas mezclaron caridad, alojamiento y tratamiento | auditar función y genealogía por caso | ACTIVO |
+| `ERR-MED-RB-PANTOKRATOR-UNIVERSAL-001` | el Pantocrátor demuestra un sistema hospitalario universal | es una norma detallada de una institución concreta | separar prescripción, operación y representatividad | ACTIVO |
+| `ERR-MED-RB-TRANSMISSION-LINEAR-001` | la medicina viajó linealmente de Grecia a Roma, Bizancio y Europa | redes siríacas, árabes, hebreas y latinas transformaron rutas | demostrar cada enlace con testigos y agentes | ACTIVO |
+| `ERR-MED-RB-RANKING-001` | Roma o Bizancio fueron más avanzados por infraestructura o textos | productos no conmensurables no forman una puntuación | comparar una dimensión bajo el mismo archivo | ACTIVO |
+
+## MED-009 — África fuera del eje egipcio
+
+| ID | Error | Por qué falla | Corrección mínima | Estado |
+|---|---|---|---|---|
+| `ERR-MED-AFRICA-ONE-TRADITION-001` | África tuvo una medicina única | homogeniza regiones, periodos, lenguas y archivos | nombrar caso, fecha, soporte y escala | ACTIVO |
+| `ERR-MED-AFRICA-SILENCE-ABSENCE-001` | sin texto no hubo conocimiento o cuidado | preservación y colección son selectivas | declarar qué archivo falta y qué inferencia queda abierta | ACTIVO |
+| `ERR-MED-AFRICA-BONE-DIAGNOSIS-001` | una lesión identifica diagnóstico y tratamiento | morfologías admiten diferenciales y rara vez conservan intervención | separar señal, diferencial, supervivencia y cuidado | ACTIVO |
+| `ERR-MED-AFRICA-HEALED-CARE-001` | toda lesión curada demuestra asistencia especializada | supervivencia no nombra cuidador, intensidad o técnica | modelar discapacidad y ayuda requerida | ACTIVO |
+| `ERR-MED-AFRICA-KERMA-TREPANATION-CERTAIN-001` | K317 prueba trepanación con finalidad médica | trauma y patología siguen en el diferencial | calificar intervención como posible y conservar alternativas | ACTIVO |
+| `ERR-MED-AFRICA-KERMA-EQUALITY-001` | perfiles semejantes prueban igualdad en Kerma | muestra mortuoria y marcadores parciales no cubren experiencia social | declarar denominador, edad y selección | ACTIVO |
+| `ERR-MED-AFRICA-KULUBNARTI-GENETIC-EQUALITY-001` | semejanza genética elimina estratificación | parentesco no mide dieta, estatus, mortuoria o cuidado | integrar archivos sin sustituirlos por ADN | ACTIVO |
+| `ERR-MED-AFRICA-AKSUM-MONUMENT-MEDICINE-001` | monumentalidad aksumita prueba sistema médico complejo | densidad política y archivo corporal son productos distintos | buscar cuerpos, prácticas, personal y consecuencias | ACTIVO |
+| `ERR-MED-AFRICA-MANUSCRIPT-AKSUM-001` | rollos etíopes tardíos describen medicina aksumita | proyecta siglos sin testigos intermedios | fechar copia, composición y ruta por separado | ACTIVO |
+| `ERR-MED-AFRICA-JENNE-CITY-HOSPITAL-001` | toda ciudad compleja tuvo hospitales o médicos institucionales | urbanismo no identifica una función médica | exigir espacio, operación, actores y beneficiarios | ACTIVO |
+| `ERR-MED-AFRICA-TIMBUKTU-ALL-MEDIEVAL-001` | todos los manuscritos de Tombuctú son medievales | inventarios reúnen piezas tardías, breves y de fecha desigual | catalogar cada objeto antes de sumar | ACTIVO |
+| `ERR-MED-AFRICA-RECIPE-PRACTICE-001` | una receta demuestra ejecución frecuente | texto, circulación y práctica son capas distintas | buscar marcas de uso, contexto y actores | ACTIVO |
+| `ERR-MED-AFRICA-TONG-TALENSI-001` | los recipientes antiguos pertenecen automáticamente a talensi históricos | el contexto antecede la etnogénesis inferida | usar analogía sin heredar identidad | ACTIVO |
+| `ERR-MED-AFRICA-RESIDUE-EFFICACY-001` | residuo vegetal demuestra un remedio eficaz | no fija planta, indicación, dosis, comparador o resultado | separar contenido, función y efecto | ACTIVO |
+| `ERR-MED-AFRICA-RANKING-001` | más textos o restos significan medicina más avanzada | preservación no es desempeño social | comparar resolución del archivo, no sociedades en una escala | ACTIVO |
+
+## MED-010 — Mesoamérica, Andes y otras Américas
+
+| ID | Error | Por qué falla | Corrección mínima | Estado |
+|---|---|---|---|---|
+| `ERR-MED-AMERICAS-ONE-TRADITION-001` | las Américas tuvieron una medicina única | homogeniza regiones, cronologías, lenguas y ecologías | nombrar caso, archivo, fecha y escala | ACTIVO |
+| `ERR-MED-AMERICAS-HOLE-DIAGNOSIS-001` | toda abertura craneal fue una operación terapéutica | trauma, lesión y acción perimortem requieren diferencial | separar morfología, remodelación e indicación | ACTIVO |
+| `ERR-MED-AMERICAS-HEALING-SUCCESS-001` | cicatrización equivale a éxito clínico | supervivencia no mide dolor, función o beneficio | llamarla estimación osteológica de supervivencia | ACTIVO |
+| `ERR-MED-AMERICAS-83-PERCENT-001` | 83 % fue una tasa poblacional exacta | depende de muestra funeraria, criterio y denominador | declarar 66 individuos, 109 lesiones y método | ACTIVO |
+| `ERR-MED-AMERICAS-CIVIL-WAR-RANKING-001` | el porcentaje prueba superioridad sobre cirugía moderna | caso, severidad y seguimiento no son equivalentes | usar comparación como controversia, no ranking | ACTIVO |
+| `ERR-MED-AMERICAS-INLAY-DENTISTRY-001` | toda incrustación maya fue restauradora | modificación corporal tuvo significados múltiples | separar técnica, identidad, finalidad y efecto | ACTIVO |
+| `ERR-MED-AMERICAS-MOLECULE-THERAPY-001` | una molécula antibacteriana prueba terapia eficaz | falta intención, concentración, biodisponibilidad y resultado | conservar composición y efecto como capas distintas | ACTIVO |
+| `ERR-MED-AMERICAS-SEALING-NO-HARM-001` | sellado duradero prueba ausencia de daño | controles muestran mayor caries y lesión periapical | incluir el archivo adversario patológico | ACTIVO |
+| `ERR-MED-AMERICAS-CALCULUS-MEDICINE-001` | planta en cálculo dental es un medicamento | alimento, procesamiento y contaminación compiten | auditar ruta, distribución y contexto | ACTIVO |
+| `ERR-MED-AMERICAS-ONE-WOMAN-TRADITION-001` | una mujer de Huaca El Paraíso prueba una tradición | caso individual no entrega prevalencia o transmisión | limitar a contacto e hipótesis local | ACTIVO |
+| `ERR-MED-AMERICAS-POLLEN-PHARMACOPEIA-001` | todo polen potencialmente medicinal fue fármaco | propiedad moderna no conserva motivo de ingestión | graduar por concentración, síntomas y alternativas | ACTIVO |
+| `ERR-MED-AMERICAS-CODEX-PRACTICE-001` | una receta en códice demuestra práctica frecuente | género, circulación y ejecución son capas distintas | buscar marcas de uso, actores y archivos independientes | ACTIVO |
+| `ERR-MED-AMERICAS-CODEX-PRECONTACT-001` | un códice del siglo XVI es voz precontacto transparente | conquista, traducción, colegio y destinatario median el objeto | leer lengua, imagen y procedencia conjuntamente | ACTIVO |
+| `ERR-MED-AMERICAS-MAGIC-MEDICINE-001` | magia y medicina fueron dos sistemas universales opuestos | impone categorías y traducciones modernas | reconstruir vocabulario y causalidad situados | ACTIVO |
+| `ERR-MED-AMERICAS-CONTINUITY-FOSSIL-001` | una práctica actual explica directamente un resto antiguo | semejanza no prueba transmisión ni identidad inmóvil | exigir cadena histórica y autoridad comunitaria | ACTIVO |
+
+## MED-011 — mundos islámicos
+
+| ID | Error frecuente | Por qué falla | Corrección | Estado |
+|---|---|---|---|---|
+| `ERR-MED-ISLAMIC-HOMOGENEOUS-001` | hablar de “la medicina islámica” como sistema único | mezcla siglos, ciudades, poderes y grupos | declarar lugar, periodo, lengua, actor y archivo | ACTIVO |
+| `ERR-MED-ISLAMIC-ARABIC-MUSLIM-001` | asumir que todo autor en árabe era musulmán o árabe étnico | lengua científica y adscripción no son equivalentes | identificar persona y comunidad sólo con evidencia | ACTIVO |
+| `ERR-MED-ISLAMIC-TRANSLATION-COPY-001` | traducir fue copiar pasivamente a Grecia | cotejo, interpretación, revisión y vocabulario transformaron versiones | reconstruir operaciones y testigos | ACTIVO |
+| `ERR-MED-ISLAMIC-HOUSE-WISDOM-001` | atribuir toda traducción a una Casa de la Sabiduría central | reemplaza redes documentadas por una institución total | exigir patrono, taller y obra concretos | ACTIVO |
+| `ERR-MED-ISLAMIC-RAZI-COHORT-001` | leer los casos de al-Razi como cohorte consecutiva | compilación póstuma no conserva regla de inclusión ni denominador | tratarlos como casos seleccionados | ACTIVO |
+| `ERR-MED-ISLAMIC-CANON-TRIAL-001` | llamar al Canon “primer ensayo clínico” | regla textual no es protocolo ejecutado ni ensayo moderno | describir las siete condiciones y su límite | ACTIVO |
+| `ERR-MED-ISLAMIC-CANON-DECLINE-001` | presentar comentarios como copia durante decadencia | algunos verificaron y modificaron afirmaciones | auditar comentario por comentario | ACTIVO |
+| `ERR-MED-ISLAMIC-OPTICS-METHOD-001` | nombrar a Ibn al-Haytham inventor único del método científico | impone genealogía moderna y borra problemas específicos | describir experimento, inferencia y tradición | ACTIVO |
+| `ERR-MED-ISLAMIC-CATARACT-SUCCESS-001` | convertir la aguja hueca en cirugía exitosa demostrada | descripción no contiene denominador, complicaciones o visión final | separar propuesta, ejecución y resultado | ACTIVO |
+| `ERR-MED-ISLAMIC-WAQF-OPERATION-001` | usar el waqf como registro diario | documento jurídico prescribe un programa | contrastar cuentas, cargos, espacio y testimonios | ACTIVO |
+| `ERR-MED-ISLAMIC-GUNDESHAPUR-FIRST-001` | declarar Gundeshapur primer hospital docente | origen lineal carece de corroboración contemporánea suficiente | declarar definición y testigos | ACTIVO |
+| `ERR-MED-ISLAMIC-GENIZAH-DISPENSED-001` | asumir que toda prescripción fue preparada y tomada | orden, dispensación y administración son actos distintos | buscar documento u objeto de cada operación | ACTIVO |
+| `ERR-MED-ISLAMIC-HISBA-COMPLIANCE-001` | convertir hisba en cumplimiento uniforme | norma no registra inspección ni obediencia | separar jurisdicción, ejecución y sanción | ACTIVO |
+| `ERR-MED-ISLAMIC-LICENSE-UNIVERSAL-001` | convertir el examen de 931/932 en licencia universal | relato tardío de episodio local con excepciones | conservar cadena narrativa y alcance | ACTIVO |
+| `ERR-MED-ISLAMIC-CIRCULATION-EFFICACY-001` | usar difusión de un texto como prueba de verdad o beneficio | autoridad y circulación tienen causas múltiples | exigir resultado y comparación independientes | ACTIVO |
+
+## MED-012 — Europa medieval y tradiciones judías
+
+| ID | Error frecuente | Por qué falla | Corrección | Estado |
+|---|---|---|---|---|
+| `ERR-MED-MEDIEVAL-DARK-AGES-001` | reducir toda medicina medieval a superstición | borra textos, observación, cuidado e instituciones heterogéneas | auditar cada producto sin validar eficacia por antigüedad | ACTIVO |
+| `ERR-MED-MEDIEVAL-MONASTIC-MONOPOLY-001` | asumir que monasterios monopolizaron cuidado | hogar, corte, ciudad y aprendizaje dejaron archivos distintos | separar conservación, propiedad y encuentro | ACTIVO |
+| `ERR-MED-MEDIEVAL-RECIPE-USED-001` | una receta copiada fue preparada y administrada | copia, practicabilidad y ejecución son operaciones distintas | exigir marcas, objetos o episodio vinculado | ACTIVO |
+| `ERR-MED-MEDIEVAL-INGREDIENT-EFFICACY-001` | ingrediente activo moderno prueba remedio eficaz | concentración, preparación, indicación y daño faltan | evaluar producto histórico completo | ACTIVO |
+| `ERR-MED-MEDIEVAL-TROTULA-PERSON-001` | Trotula fue autora única del compendio | el conjunto integra tres obras de genealogías distintas | delimitar Trota y cada texto | ACTIVO |
+| `ERR-MED-MEDIEVAL-WOMEN-ABSENT-001` | ausencia universitaria prueba ausencia de mujeres | el archivo formal subregistra hogar y oficios no corporativos | combinar registros y declarar sesgo | ACTIVO |
+| `ERR-MED-MEDIEVAL-TRANSLATION-PIPE-001` | el saber pasó intacto del islam a Europa | traducción seleccionó, condensó y reescribió | reconstruir versión, agentes y patronazgo | ACTIVO |
+| `ERR-MED-MEDIEVAL-LANGUAGE-IDENTITY-001` | árabe, latín o hebreo determina religión y etnia | lengua de trabajo e identidad no son equivalentes | identificar cada variable por evidencia | ACTIVO |
+| `ERR-MED-MEDIEVAL-SALERNO-FIRST-001` | Salerno fue la primera universidad médica fundada en fecha fija | leyenda y gradualidad institucional exceden esa fórmula | definir escuela, estatuto y testigo | ACTIVO |
+| `ERR-MED-MEDIEVAL-CURRICULUM-CONSULT-001` | currículo demuestra práctica clínica uniforme | lista y comentario no registran cada encuentro | enlazar alumno, decisión y paciente | ACTIVO |
+| `ERR-MED-MEDIEVAL-LICENSE-COMPETENCE-001` | licencia garantiza competencia y cumplimiento | autorización es decisión local, no resultado | auditar examen, práctica, sanción y seguimiento | ACTIVO |
+| `ERR-MED-MEDIEVAL-BARBER-IGNORANT-001` | médico culto y barbero ignorante fueron categorías fijas | títulos, destrezas y funciones se solaparon | reconstruir acto y formación individual | ACTIVO |
+| `ERR-MED-MEDIEVAL-SURGERY-SUCCESS-001` | técnica descrita prueba operación exitosa | faltan elegibilidad, denominador, daño y seguimiento | separar texto, elección, acto y desenlace | ACTIVO |
+| `ERR-MED-MEDIEVAL-HOSPITAL-MODERN-001` | hospital medieval fue clínica moderna | hospitalidad, caridad, sustento y oración variaron por casa | declarar función, población y periodo | ACTIVO |
+| `ERR-MED-MEDIEVAL-JEWISH-ESSENCE-001` | médicos judíos compartieron un método esencial o privilegio universal | lengua, formación, jurisdicción y restricciones variaron | especificar agente, red y archivo | ACTIVO |
+
+## MED-013 — Rutas del Índico y Eurasia
+
+| ID | Error | Por qué falla | Corrección | Estado |
+|---|---|---|---|---|
+| `ERR-MED-ROUTES-SILK-ROAD-SINGULAR-001` | dibujar una Ruta de la Seda única y continua | redes marítimas y terrestres fueron múltiples, estacionales e interrumpidas | declarar tramo, fecha, medio y alternativas | ACTIVO |
+| `ERR-MED-ROUTES-PRESENCE-USE-001` | una sustancia presente fue usada como medicina | materiales tuvieron funciones comerciales, técnicas, rituales y alimentarias | exigir contexto funcional o episodio vinculado | ACTIVO |
+| `ERR-MED-ROUTES-NAME-SPECIES-001` | un nombre histórico equivale a una especie moderna estable | polisemia, sinonimia y partes comerciales cambian la unidad | triangular nombre, descripción, espécimen y química | ACTIVO |
+| `ERR-MED-ROUTES-SHIP-PHARMACY-001` | un pecio con resina o especias fue una farmacia flotante | carga y función terapéutica no son equivalentes | separar identificación, transporte, recepción y uso | ACTIVO |
+| `ERR-MED-ROUTES-SIMILARITY-TRANSFER-001` | semejanza léxica, visual o doctrinal prueba préstamo directo | convergencia y fuente común son alternativas | exigir cronología, intermediarios y variantes compartidas | ACTIVO |
+| `ERR-MED-ROUTES-GALEN-TRAVELER-001` | Galeno o un discípulo documentado llevó un sistema completo a Tíbet | relatos tardíos exceden los pocos testigos tempranos | delimitar contactos por pasaje y confianza | ACTIVO |
+| `ERR-MED-ROUTES-GENIZA-MERGE-001` | carta, inventario y prescripción de la Geniza forman una historia clínica | la colección reúne géneros y episodios independientes | enlazar sólo mediante identificadores compartidos | ACTIVO |
+| `ERR-MED-ROUTES-GIFT-EFFICACY-001` | un regalo médico fue administrado y funcionó | entrega, uso y resultado son eventos distintos | exigir preparación, dosis, paciente, daño y seguimiento | ACTIVO |
+| `ERR-MED-ROUTES-TRANSLATION-PIPE-001` | una traducción transmitió conocimiento intacto | selección, omisión, glosa y audiencia reconfiguran el texto | reconstruir versión y operación editorial | ACTIVO |
+| `ERR-MED-ROUTES-EMPIRE-UNIFORM-001` | un imperio creó una medicina uniforme | oficinas y repertorios coexistieron con alcance desigual | desagregar corte, oficina, mercado, comunidad y hogar | ACTIVO |
+| `ERR-MED-ROUTES-BIDIRECTIONAL-SYMMETRY-001` | intercambio en dos direcciones fue simétrico | volumen, poder, archivo y continuidad difieren | medir cada producto y dirección por separado | ACTIVO |
+| `ERR-MED-ROUTES-ORTA-DISCOVERER-001` | Orta descubrió solo las drogas de India | dependió de informantes, mercados, textos y orden colonial | reconocer producción relacional y asimetría | ACTIVO |
+| `ERR-MED-ROUTES-PRINT-ADOPTION-001` | imprimir o traducir un libro demuestra adopción clínica | disponibilidad, lectura, comprensión y práctica no son equivalentes | seguir audiencia, cita, adaptación y encuentro | ACTIVO |
+| `ERR-MED-ROUTES-CIRCULATION-PROGRESS-001` | más conexiones o mayor distancia prueban avance y eficacia | circulación mide red, no seguridad, beneficio o superioridad | comparar dimensiones sin puntuación y auditar efectos aparte | ACTIVO |
+
+## MED-014 — Epidemias y cuarentenas
+
+| ID | Error | Por qué falla | Corrección | Estado |
+|---|---|---|---|---|
+| `ERR-MED-EPID-RETRODX-AUTOMATIC-001` | traducir una pestilencia histórica a un diagnóstico moderno por síntomas | signos, género y vocabulario son inespecíficos y cambiantes | declarar diferencial, contexto y prueba independiente | ACTIVO |
+| `ERR-MED-EPID-DNA-DENOMINATOR-001` | un positivo molecular demuestra prevalencia o mortalidad poblacional | la muestra selecciona individuos preservados y excavados | separar agente, numerador, denominador y población | ACTIVO |
+| `ERR-MED-EPID-BURIAL-POPULATION-001` | una fosa representa a toda la ciudad | prácticas funerarias seleccionan cuerpos, tiempo y acceso | auditar formación del depósito y población fuente | ACTIVO |
+| `ERR-MED-EPID-FIRST-PANDEMIC-TOTAL-001` | declarar la primera pandemia catastrófica o irrelevante en todo el Mediterráneo | archivos regionales y proxies no tienen resolución común | estimar por lugar, periodo y denominador | ACTIVO |
+| `ERR-MED-EPID-PHYLOGENY-ROUTE-001` | convertir una filogenia en itinerario de barcos, personas o vectores | árbol genealógico no observa cada movimiento | exigir genomas intermedios y contexto de movilidad | ACTIVO |
+| `ERR-MED-EPID-BLACKDEATH-UNIFORM-001` | aplicar una tasa continental única a la Peste Negra | polen y series locales muestran heterogeneidad | publicar rangos regionales y proxies explícitos | ACTIVO |
+| `ERR-MED-EPID-QUARANTINE-INVENTOR-001` | buscar un inventor único de la cuarentena | norma, duración, oficina, lazareto y ejecución surgieron gradualmente | definir el producto y su jurisdicción | ACTIVO |
+| `ERR-MED-EPID-DECREE-COMPLIANCE-001` | una orden demuestra aplicación y obediencia | texto prescribe; no registra recursos, excepción o cruce | enlazar cuentas, vigilantes, sanciones y hogares | ACTIVO |
+| `ERR-MED-EPID-COMPLIANCE-EFFICACY-001` | aplicación demuestra eficacia o justicia | una medida puede ejecutarse y producir daño desigual | estimar transmisión, daños y distribución aparte | ACTIVO |
+| `ERR-MED-EPID-BRISTOL-BENEFIT-001` | cerrar casas protegió por igual a todos | el encierro pudo elevar mortalidad intradoméstica | separar efecto interior, exterior y sustento | ACTIVO |
+| `ERR-MED-EPID-BILLS-CERTIFICATES-001` | tratar los Bills como certificados clínicos completos | registran entierros y causas atribuidas mediante una cadena social | usar la serie sin falsa confirmación individual | ACTIVO |
+| `ERR-MED-EPID-DECLINE-CAUSAL-001` | el descenso de una onda prueba la última medida adoptada | cointervenciones, ecología y susceptibles cambian simultáneamente | construir comparación y temporalidad causal | ACTIVO |
+| `ERR-MED-EPID-MARSEILLE-SHIP-STORY-001` | un barco explica por sí solo cada caso de Marsella | archivo portuario no observa toda cadena de transmisión | separar introducción, amplificación y dispersión | ACTIVO |
+| `ERR-MED-EPID-POLICY-PROGRESS-001` | lazareto, cordón o cifra de mortalidad miden avance sanitario | capacidad, eficacia, coerción y justicia son dimensiones distintas | comparar sin puntuación universal | ACTIVO |
+
+## MED-015 — Encuentros coloniales
+
+| ID | Error | Por qué falla | Corrección | Estado |
+|---|---|---|---|---|
+| `ERR-MED-COL-CONTACT-INFECTION-001` | convertir llegada o conexión en infección | exposición no demuestra entrada, transmisión o enfermedad | identificar agente, contexto y población | ACTIVO |
+| `ERR-MED-COL-POSITIVE-TOTAL-001` | un patógeno positivo explica todas las muertes | muestra, preservación y composición causal son limitadas | delimitar individuo, sitio, periodo y alternativas | ACTIVO |
+| `ERR-MED-COL-GERMS-ONLY-001` | usar gérmenes como explicación total | violencia, trabajo, nutrición y asentamiento modifican exposición y desenlace | modelar mecanismos y distribución | ACTIVO |
+| `ERR-MED-COL-VIOLENCE-DECORATIVE-001` | tratar conquista o esclavitud como contexto decorativo | coerción produce movilidad, archivo, riesgo y acceso | incluir violencia como mecanismo causal | ACTIVO |
+| `ERR-MED-COL-LABOR-UNIFORM-001` | una categoría laboral implica carga uniforme | tarea, duración, técnica, libertad y huida varían | reconstruir exposición por operación | ACTIVO |
+| `ERR-MED-COL-RATION-NUTRITION-001` | ración o isótopo equivalen a nutrición completa | acceso, cantidad, agua, micronutrientes y tiempo difieren | declarar tejido, periodo y dimensión observada | ACTIVO |
+| `ERR-MED-COL-ARCHIVE-CENSUS-001` | tributo, misión o viaje son censos exhaustivos | fueron creados para operaciones selectivas y contienen imputación o evasión | declarar unidad, cobertura y denominador | ACTIVO |
+| `ERR-MED-COL-CATEGORY-IDENTITY-001` | categoría fiscal, racial o religiosa es identidad natural | el archivo produce nombres para gobernar y clasificar | conservar función histórica y autoidentificación abierta | ACTIVO |
+| `ERR-MED-COL-CARE-BENEVOLENCE-001` | atención dentro de coerción demuestra benevolencia | cuidar fuerza laboral puede coexistir con explotación | separar presencia, acceso, consentimiento, efecto y justicia | ACTIVO |
+| `ERR-MED-COL-SURVIVAL-NOHARM-001` | supervivencia implica ausencia de daño | continuidad puede coexistir con mortalidad, desplazamiento y ruptura | medir desenlaces múltiples y tiempo | ACTIVO |
+| `ERR-MED-COL-ANCESTRY-IDENTITY-001` | ascendencia genética decide identidad comunitaria | genética no sustituye historia, pertenencia o autoridad comunitaria | delimitar producto biológico y voces presentes | ACTIVO |
+| `ERR-MED-COL-PLANT-USE-001` | circulación de una planta demuestra uso o eficacia | comercio no conserva paciente, dosis, indicación o comparador | enlazar preparación, administración y resultado | ACTIVO |
+| `ERR-MED-COL-DISCOVERER-001` | atribuir una planta a un descubridor único | recolección, saber, clasificación, comercio y cultivo fueron distribuidos | reconstruir cadena, nombres y silencios | ACTIVO |
+| `ERR-MED-COL-RANKING-001` | comparar mortalidad o persistencia como ranking colonial | archivos, periodos, denominadores y mecanismos son inconmensurables | comparar resolución y dimensiones por separado | ACTIVO |
+
+## MED-016 — Anatomía, disección e imprenta
+
+| ID | Error | Por qué falla | Corrección | Estado |
+|---|---|---|---|---|
+| `ERR-MED-ANAT-DISSECTION-TRUTH-001` | diseccionar produce verdad automáticamente | procedimiento, conservación y categorías determinan qué se ve | declarar cuerpo, finalidad, secuencia y comparación | ACTIVO |
+| `ERR-MED-ANAT-CHURCH-BAN-001` | una prohibición eclesiástica medieval explica ausencia de disección | confunde operaciones, jurisdicciones y mitos historiográficos | documentar norma, lugar, periodo y práctica | ACTIVO |
+| `ERR-MED-ANAT-RELIGION-ESSENCE-001` | islam, cristianismo, budismo o confucianismo determinan una actitud corporal única | tradiciones, autoridades e instituciones fueron heterogéneas | estudiar operación local y archivo | ACTIVO |
+| `ERR-MED-ANAT-IMAGE-WINDOW-001` | una lámina es copia directa del cuerpo | dibujante, escala, talla, edición y convención median | reconstruir cadena visual | ACTIVO |
+| `ERR-MED-ANAT-NATURALISM-ACCURACY-001` | más naturalismo significa más exactitud | estilo puede ocultar síntesis o error | comparar estructura y variante específicas | ACTIVO |
+| `ERR-MED-ANAT-PRINT-FIXITY-001` | imprimir fija una versión uniforme | pruebas, bloques, tirajes y revisiones producen variantes | identificar edición y ejemplar | ACTIVO |
+| `ERR-MED-ANAT-PRINT-ADOPTION-001` | circulación impresa demuestra lectura y práctica | disponibilidad no conserva uso o recepción | añadir inventarios, marginalia y aula | ACTIVO |
+| `ERR-MED-ANAT-FIRST-001` | declarar “primera disección” sin producto o territorio | mezcla autopsia, demostración, docencia y prioridad | definir operación, fecha y cobertura | ACTIVO |
+| `ERR-MED-ANAT-AUTOPSY-DISSECTION-001` | autopsia epidémica equivale a disección docente | finalidad, población y registro difieren | conservar relojes separados | ACTIVO |
+| `ERR-MED-ANAT-COPY-NONAGENCY-001` | copiar demuestra pasividad o irrelevancia | selección, traducción y recomposición pueden transformar | cotejar cambios y uso | ACTIVO |
+| `ERR-MED-ANAT-OBSERVATION-CORRECT-001` | rechazar autoridad desde observación valida toda alternativa | un observador también selecciona y se equivoca | exigir comparación y falsadores | ACTIVO |
+| `ERR-MED-ANAT-BODY-REPRESENTATIVE-001` | los cuerpos disponibles representan a toda población | selección penal, hospitalaria y social introduce sesgo | registrar procedencia y exclusiones | ACTIVO |
+| `ERR-MED-ANAT-CORRECTION-CLINICAL-001` | una corrección espacial implica mejor resultado clínico | mecanismo, técnica, acceso y cointervenciones faltan | evaluar desenlaces con otra cadena | ACTIVO |
+| `ERR-MED-ANAT-RANKING-001` | ordenar culturas por disecciones, imprentas o naturalismo | dimensiones no son equivalentes ni universales | comparar productos y límites sin puntuación | ACTIVO |
+
+## MED-017 — Circulación y fisiología experimental
+
+| ID | Error | Por qué falla | Corrección | Estado |
+|---|---|---|---|---|
+| `ERR-MED-PHYS-LONE-HERO-001` | atribuir una circulación completa a un héroe aislado | mezcla problemas, productos, especies, textos y recepciones | reconstruir la cadena y atribuir cada producto | ACTIVO |
+| `ERR-MED-PHYS-LIGATURE-DISCOVERY-001` | una ligadura descubre por sí sola un circuito | modifica flujo local sin mostrar todas las conexiones | integrar preparación, dirección, cantidad y comparación | ACTIVO |
+| `ERR-MED-PHYS-SYSTEM-OBSERVATION-001` | leer un sistema histórico como observación literal | texto, autoridad y ontología median entidades y causas | separar pasaje, operación e inferencia | ACTIVO |
+| `ERR-MED-PHYS-EXPERIMENT-TRUTH-001` | experimentar garantiza un mecanismo correcto | una intervención válida puede integrarse en un sistema falso | probar predicciones múltiples y alternativas | ACTIVO |
+| `ERR-MED-PHYS-ANIMAL-HUMAN-001` | animal equivale automáticamente a humano | especie, escala, ritmo, preparación y estado cambian | declarar puente comparativo y límite | ACTIVO |
+| `ERR-MED-PHYS-PULSE-MODERN-001` | traducir cada pulso histórico a presión o diagnóstico moderno | cualidades, gestos y clasificaciones no son variables idénticas | conservar vocabulario, operación y validación separada | ACTIVO |
+| `ERR-MED-PHYS-SIMILARITY-TRANSMISSION-001` | semejanza textual demuestra influencia | falta acceso, dirección, intermediario y cronología | exigir una ruta documental positiva | ACTIVO |
+| `ERR-MED-PHYS-VALVE-FUNCTION-001` | la forma de una válvula entrega su función | anatomía estática admite mecanismos rivales | añadir intervención dinámica y predicción | ACTIVO |
+| `ERR-MED-PHYS-NUMBER-EXACTNESS-001` | un número histórico es exacto por ser cuantitativo | unidad, aparato y supuestos determinan su alcance | declarar medición, estimación e incertidumbre | ACTIVO |
+| `ERR-MED-PHYS-MICROSCOPE-NEUTRAL-001` | el microscopio muestra una realidad sin mediación | muestra, lente, luz, secado y dibujo producen lo visible | conservar cadena óptica y controles | ACTIVO |
+| `ERR-MED-PHYS-PRESSURE-DIAGNOSIS-001` | una columna arterial animal equivale a hipertensión clínica | no hay método no invasivo, población, umbral o desenlace | separar medición fisiológica de uso clínico | ACTIVO |
+| `ERR-MED-PHYS-PUBLICATION-CONSENSUS-001` | publicación equivale a aceptación | lectores objetan, seleccionan y recombinan | documentar recepción y réplica | ACTIVO |
+| `ERR-MED-PHYS-MECHANISM-BENEFIT-001` | mecanismo correcto implica beneficio terapéutico | falta intervención, comparador, daño y acceso | evaluar resultado clínico con otra cadena | ACTIVO |
+| `ERR-MED-PHYS-RANKING-001` | ordenar tradiciones por parecido con circulación moderna | archivos y preguntas no comparten una escala universal | comparar operaciones, resolución y límites | ACTIVO |
+
+## MED-018 — Microscopía y anatomía patológica
+
+| ID | Error | Por qué falla | Corrección operativa | Estado |
+|---|---|---|---|---|
+| `ERR-MED-PATH-AUTOPSY-INVENTION-001` | Morgagni inventó la autopsia | existían aperturas e inspecciones previas; su producto fue correlación seriada | definir si se compara procedimiento, publicación o correlación | ACTIVO |
+| `ERR-MED-PATH-BICHAT-MICROSCOPE-001` | Bichat descubrió tejidos al microscopio | su programa se apoyó principalmente en disección y pruebas macroscópicas | registrar aparato y operación realmente usados | ACTIVO |
+| `ERR-MED-PATH-HOOKE-MODERN-CELL-001` | Hooke descubrió la célula viva moderna | describió compartimentos de corcho muerto bajo categorías de 1665 | separar nombre, objeto, universalización y función | ACTIVO |
+| `ERR-MED-PATH-VIRCHOW-SOLE-001` | Virchow creó solo la patología celular | síntesis y crédito dependen de Müller, Schwann, Remak y redes | dividir observación, mecanismo, enseñanza y difusión | ACTIVO |
+| `ERR-MED-PATH-SLIDE-LIVING-001` | una H&E muestra el tejido tal como estaba vivo | fijación, inclusión, corte y tinción transforman materia y color | conservar preparación, controles y artefactos | ACTIVO |
+| `ERR-MED-PATH-AUTOPSY-POPULATION-001` | muchas autopsias representan una población | ingreso, muerte, autorización y provisión seleccionan el archivo | declarar denominadores y población fuente | ACTIVO |
+| `ERR-MED-PATH-LESION-CAUSE-001` | toda lesión visible es la causa | puede ser efecto, marcador, secuela, incidental o artefacto | probar temporalidad, mecanismo y discordancias | ACTIVO |
+| `ERR-MED-PATH-PAP-SOLO-001` | el frotis cervical fue una idea individual | eponimia borra desarrollos paralelos, muestras, clínica y técnica | reconstruir contribuciones por producto | ACTIVO |
+| `ERR-MED-PATH-SMEAR-TUMOR-001` | un frotis representa todo el tumor | exfoliación, toma y lectura muestrean una fracción | verificar con contexto, repetición y tejido cuando corresponda | ACTIVO |
+| `ERR-MED-PATH-RETRODX-001` | una imagen histórica permite diagnosticar hoy a una persona | faltan muestra, criterios, alternativas y contexto verificables | limitarse a describir el registro histórico | ACTIVO |
+| `ERR-MED-PATH-RESOLUTION-TRUTH-001` | mayor aumento produce automáticamente mayor verdad | resolución no corrige selección, preparación o categoría | evaluar cadena completa y pregunta | ACTIVO |
+| `ERR-MED-PATH-DIAGNOSIS-BENEFIT-001` | capacidad diagnóstica demuestra beneficio clínico | faltan decisión, intervención, daños, acceso y desenlace | auditar la cadena clínica y poblacional por separado | ACTIVO |
+| `ERR-MED-CLINIC-BED-CASE-001` | una cama hospitalaria convierte a una persona en un caso válido | ingreso, encuentro, examen, registro y selección pueden fallar o representar sólo una fracción | conservar las siete capas y sus denominadores | ACTIVO |
+| `ERR-MED-CLINIC-BOERHAAVE-FATHER-001` | Boerhaave inventó solo la cabecera clínica | hubo antecedentes, colegas, estudiantes y memoria conmemorativa | separar antecedente, práctica, transmisión y mito | ACTIVO |
+| `ERR-MED-CLINIC-PARIS-INSTANT-001` | la clínica moderna nació en París en una fecha | oficina, instrumentos, autopsia y cuantificación tuvieron cronologías distintas | fechar cada producto y su recepción | ACTIVO |
+| `ERR-MED-CLINIC-SIGN-DISEASE-001` | un signo de percusión o auscultación es la enfermedad | es una señal producida e interpretada bajo técnica y contexto | verificar repetición, referencia y discordancias | ACTIVO |
+| `ERR-MED-CLINIC-RECORD-PERSON-001` | el expediente contiene a la persona completa | selecciona información para finalidades institucionales | contrastar voces, actores, omisiones y usos | ACTIVO |
+| `ERR-MED-CLINIC-HOSPITAL-POPULATION-001` | pacientes hospitalarios representan a toda la población | ingreso, urgencia, pobreza, pago, raza, género y jurisdicción seleccionan | declarar población fuente y denominadores | ACTIVO |
+| `ERR-MED-CLINIC-COLONIAL-GIFT-001` | la medicina clínica fue un regalo metropolitano sin agencia local | actores locales apropiaron y transformaron saber dentro de coerción y jerarquía | auditar autoría, poder, trabajo y circulación | ACTIVO |
+| `ERR-MED-CLINIC-MODERNIZATION-REPLACEMENT-001` | una reforma sustituyó inmediatamente prácticas previas | regulación e instituciones coexistieron con repertorios diversos | buscar práctica real fuera del decreto o escuela | ACTIVO |
+| `ERR-MED-CLINIC-PATIENT-SILENT-001` | los pacientes históricos carecieron de voz o agencia | el silencio de un formato no demuestra pasividad | contrastar cartas, diarios, decisiones y otros archivos | ACTIVO |
+| `ERR-MED-CLINIC-PRESENCE-CONSENT-001` | estar presente en enseñanza o examen demuestra consentimiento | dependencia y capacidad desigual de negarse impiden esa equivalencia | separar presencia, norma, opción y testimonio | ACTIVO |
+| `ERR-MED-CLINIC-MORE-DATA-TRUTH-001` | más casos y formularios producen verdad automáticamente | comparabilidad no corrige selección, categorías o errores correlacionados | auditar denominadores, discordancias y propósito | ACTIVO |
+| `ERR-MED-CLINIC-INSTITUTION-BENEFIT-001` | un hospital grande o universitario demuestra beneficio | infraestructura y prestigio no prueban exactitud, eficacia, acceso ni justicia | medir decisiones, daños, desenlaces y distribución | ACTIVO |

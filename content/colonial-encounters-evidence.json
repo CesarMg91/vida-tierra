@@ -1,0 +1,503 @@
+{
+  "schemaVersion": 1,
+  "researchSlug": "15_medicina/INVESTIGACION_MED_015_ENCUENTROS_COLONIALES",
+  "cases": [
+    {
+      "id": "hispaniola-1492-1518",
+      "title": "La Española · colapso antes de una cifra única",
+      "region": "Caribe · 1492–1518",
+      "archive": "Crónicas, tributos, repartimientos, demografía histórica y genomas antiguos y actuales",
+      "layers": [
+        {
+          "kind": "exposure",
+          "observed": "Naves europeas y africanas conectaron poblaciones antes separadas; la primera viruela claramente documentada corresponde a 1518.",
+          "inference": "Las redes biológicas se ampliaron y episodios específicos pueden fecharse cuando el archivo lo permite.",
+          "limit": "Una llegada no diagnostica a sus pasajeros ni atribuye las muertes anteriores o posteriores a un agente único.",
+          "claimIds": ["CLAIM-MED-COL-HISPANIOLA-EXPOSURE-001"],
+          "evidenceIds": ["EVID-MED-COL-HISPANIOLA-DEMOGRAPHY-001"],
+          "sourceIds": ["SRC-MED-COL-COOK-HISPANIOLA-2002", "SRC-MED-COL-LIVIBACCI-2003"]
+        },
+        {
+          "kind": "violence",
+          "observed": "Fuentes tempranas describen guerra, captura, desplazamiento, castigo y desarticulación comunitaria.",
+          "inference": "La violencia colonial fue un mecanismo causal que alteró exposición, movilidad y capacidad de sostener la vida.",
+          "limit": "La existencia de violencia no asigna por sí sola una causa individual de muerte ni elimina la acción de patógenos.",
+          "claimIds": ["CLAIM-MED-COL-HISPANIOLA-COERCION-001"],
+          "evidenceIds": ["EVID-MED-COL-HISPANIOLA-COERCION-001"],
+          "sourceIds": ["SRC-MED-COL-COOK-HISPANIOLA-2002", "SRC-MED-COL-EDWARDS-KELTON-2020"]
+        },
+        {
+          "kind": "labor",
+          "observed": "Repartimientos, tributos y extracción aurífera reorganizaron dónde, cuándo y para quién se trabajaba.",
+          "inference": "El trabajo forzado contribuyó a desplazamiento, fatiga, exposición y pérdida de tiempo de subsistencia.",
+          "limit": "Una categoría laboral o fiscal no describe una dosis corporal uniforme para todas las personas.",
+          "claimIds": ["CLAIM-MED-COL-HISPANIOLA-COERCION-001"],
+          "evidenceIds": ["EVID-MED-COL-HISPANIOLA-COERCION-001"],
+          "sourceIds": ["SRC-MED-COL-COOK-HISPANIOLA-2002"]
+        },
+        {
+          "kind": "nutrition",
+          "observed": "Confiscación de alimentos, abandono agrícola, trabajo minero y hambre aparecen antes del brote de viruela de 1518.",
+          "inference": "La ruptura de subsistencia interactuó con violencia y enfermedad en la catástrofe.",
+          "limit": "Las fuentes no reconstruyen ingesta ni estado nutricional persona por persona.",
+          "claimIds": ["CLAIM-MED-COL-HISPANIOLA-NUTRITION-001"],
+          "evidenceIds": ["EVID-MED-COL-HISPANIOLA-COERCION-001"],
+          "sourceIds": ["SRC-MED-COL-COOK-HISPANIOLA-2002", "SRC-MED-COL-LIVIBACCI-2003"]
+        },
+        {
+          "kind": "classification",
+          "observed": "Crónicas, tributos y repartimientos contaron poblaciones con propósitos, coberturas y fechas diferentes.",
+          "inference": "Puede demostrarse colapso sin fijar una población inicial única.",
+          "limit": "Unidad fiscal, habitante, comunidad y estimación retrospectiva no son denominadores intercambiables.",
+          "claimIds": ["CLAIM-MED-COL-HISPANIOLA-BASELINE-001", "CLAIM-MED-COL-ARCHIVE-001"],
+          "evidenceIds": ["EVID-MED-COL-HISPANIOLA-DEMOGRAPHY-001"],
+          "sourceIds": ["SRC-MED-COL-LIVIBACCI-2003", "SRC-MED-COL-COOK-HISPANIOLA-2002"]
+        },
+        {
+          "kind": "response",
+          "observed": "Huida, reagrupamiento, negociación, cuidado y transformación de redes coexistieron con respuestas coloniales.",
+          "inference": "Las poblaciones actuaron bajo coacción y no fueron receptoras pasivas de una sola fuerza.",
+          "limit": "Archivo fragmentario: una respuesta registrada no demuestra acceso, consentimiento, eficacia o libertad.",
+          "claimIds": ["CLAIM-MED-COL-HISPANIOLA-SURVIVAL-001"],
+          "evidenceIds": ["EVID-MED-COL-HISPANIOLA-ANCESTRY-001"],
+          "sourceIds": ["SRC-MED-COL-FERNANDES-2021", "SRC-MED-COL-SCHROEDER-2018"]
+        },
+        {
+          "kind": "survival",
+          "observed": "Genomas antiguos y actuales conservan ascendencia indígena caribeña pese a mortalidad, desplazamiento y mestizaje forzado.",
+          "inference": "La narrativa de extinción total es incompatible con continuidad biológica y comunidades presentes.",
+          "limit": "Ascendencia genética no decide identidad comunitaria, continuidad cultural completa ni consentimiento histórico.",
+          "claimIds": ["CLAIM-MED-COL-HISPANIOLA-SURVIVAL-001"],
+          "evidenceIds": ["EVID-MED-COL-HISPANIOLA-ANCESTRY-001"],
+          "sourceIds": ["SRC-MED-COL-FERNANDES-2021", "SRC-MED-COL-SCHROEDER-2018"]
+        }
+      ]
+    },
+    {
+      "id": "teposcolula-1545-1550",
+      "title": "Teposcolula-Yucundaa · agente candidato y continuidad",
+      "region": "Mixteca Alta, Nueva España · 1545–1550",
+      "archive": "Fosas de la Gran Plaza, tafonomía, isótopos, ADN antiguo y prácticas funerarias",
+      "layers": [
+        {
+          "kind": "exposure",
+          "observed": "Diez genomas de Salmonella enterica Paratyphi C se reconstruyeron en individuos del cementerio epidémico.",
+          "inference": "Paratyphi C participó probablemente en el episodio local muestreado.",
+          "limit": "Un taxón positivo no convierte todo cocoliztli, síntoma narrado o muerte colonial en fiebre entérica.",
+          "claimIds": ["CLAIM-MED-COL-TEPO-PARATYPHI-001"],
+          "evidenceIds": ["EVID-MED-COL-TEPO-GENOMES-001"],
+          "sourceIds": ["SRC-MED-COL-VAGENE-2018", "SRC-MED-COL-CAMPANA-2014"]
+        },
+        {
+          "kind": "violence",
+          "observed": "El episodio ocurrió dentro de conquista, reducción territorial y reordenamiento del asentamiento.",
+          "inference": "La crisis biológica fue vivida dentro de una transformación colonial coercitiva.",
+          "limit": "El cementerio no mide por sí solo guerra, desplazamiento o coerción individual.",
+          "claimIds": ["CLAIM-MED-COL-TEPO-CONTINUITY-001"],
+          "evidenceIds": ["EVID-MED-COL-TEPO-CEMETERY-001"],
+          "sourceIds": ["SRC-MED-COL-WARINNER-2012", "SRC-MED-COL-SPORES-2007"]
+        },
+        {
+          "kind": "labor",
+          "observed": "El archivo arqueológico documenta cambio agrícola y traslado, pero no una carga laboral individual continua.",
+          "inference": "Trabajo y producción deben reconstruirse con archivos adicionales al cementerio.",
+          "limit": "Dato ausente: oficio, jornada y obligación de cada persona enterrada.",
+          "claimIds": ["CLAIM-MED-COL-MODEL-001"],
+          "evidenceIds": ["EVID-MED-COL-TEPO-CEMETERY-001"],
+          "sourceIds": ["SRC-MED-COL-WARINNER-2012"]
+        },
+        {
+          "kind": "nutrition",
+          "observed": "Isótopos de carbono no muestran una caída del consumo de maíz en la muestra temprano-colonial.",
+          "inference": "No hubo una sustitución dietaria simple y universal en la población muestreada.",
+          "limit": "Isótopos de largo plazo no miden calorías, agua, micronutrientes ni hambre breve.",
+          "claimIds": ["CLAIM-MED-COL-TEPO-DIET-001"],
+          "evidenceIds": ["EVID-MED-COL-TEPO-DIET-001"],
+          "sourceIds": ["SRC-MED-COL-WARINNER-2012"]
+        },
+        {
+          "kind": "classification",
+          "observed": "Cocoliztli es una categoría histórica; el cribado molecular identifica un taxón en una muestra concreta.",
+          "inference": "Categoría narrativa y agente molecular pueden relacionarse sin hacerse equivalentes.",
+          "limit": "No demostrado: que Paratyphi C explique todos los casos, síntomas o regiones incluidos bajo el término.",
+          "claimIds": ["CLAIM-MED-COL-TEPO-CATEGORY-001"],
+          "evidenceIds": ["EVID-MED-COL-TEPO-GENOMES-001"],
+          "sourceIds": ["SRC-MED-COL-VAGENE-2018", "SRC-MED-COL-CAMPANA-2014"]
+        },
+        {
+          "kind": "response",
+          "observed": "Fosas múltiples intrusivas y prácticas cristianas y mixtecas registran una respuesta funeraria extraordinaria.",
+          "inference": "La comunidad reorganizó entierro y memoria durante la crisis.",
+          "limit": "El patrón funerario no reconstruye tratamiento, cuidado o eficacia clínica.",
+          "claimIds": ["CLAIM-MED-COL-TEPO-CEMETERY-001", "CLAIM-MED-COL-TEPO-CONTINUITY-001"],
+          "evidenceIds": ["EVID-MED-COL-TEPO-CEMETERY-001"],
+          "sourceIds": ["SRC-MED-COL-SPORES-2007", "SRC-MED-COL-WARINNER-2012"]
+        },
+        {
+          "kind": "survival",
+          "observed": "ADN mitocondrial, procedencia isotópica y prácticas funerarias apoyan continuidad local y transformación.",
+          "inference": "La comunidad persistió y reconfiguró territorio y prácticas tras la epidemia.",
+          "limit": "Continuidad no significa inmovilidad, ausencia de mortalidad ni ausencia de coerción.",
+          "claimIds": ["CLAIM-MED-COL-TEPO-CONTINUITY-001"],
+          "evidenceIds": ["EVID-MED-COL-TEPO-CEMETERY-001", "EVID-MED-COL-TEPO-DIET-001"],
+          "sourceIds": ["SRC-MED-COL-WARINNER-2012", "SRC-MED-COL-SPORES-2007"]
+        }
+      ]
+    },
+    {
+      "id": "huancavelica-potosi-1564-1810",
+      "title": "Huancavelica y Potosí · mercurio, trabajo y legado",
+      "region": "Andes centrales · 1564–1810 y legado actual",
+      "archive": "Sedimentos, producción, modelos de dispersión, expedientes laborales y suelos",
+      "layers": [
+        {
+          "kind": "exposure",
+          "observed": "Sedimentos registran metalurgia precolonial y una intensificación pronunciada asociada a la refinación colonial de mercurio.",
+          "inference": "La exposición ambiental cambió de escala, técnica y distribución bajo demanda imperial.",
+          "limit": "Sedimento regional no equivale a concentración inhalada ni dosis individual.",
+          "claimIds": ["CLAIM-MED-COL-HUANC-POLLUTION-001"],
+          "evidenceIds": ["EVID-MED-COL-HUANC-SEDIMENT-001"],
+          "sourceIds": ["SRC-MED-COL-COOKE-2009"]
+        },
+        {
+          "kind": "violence",
+          "observed": "Reclutamiento estatal, amenaza, castigo y dependencia de la plata condicionaron el ingreso a la mina.",
+          "inference": "La coerción estructuró quién soportó riesgos y quién recibió beneficios.",
+          "limit": "Coerción institucional no vuelve idéntica la experiencia de mitayos, asalariados, especialistas y fugitivos.",
+          "claimIds": ["CLAIM-MED-COL-HUANC-MITA-001"],
+          "evidenceIds": ["EVID-MED-COL-HUANC-LABOR-001"],
+          "sourceIds": ["SRC-MED-COL-BROWN-2001", "SRC-MED-COL-BROWN-2016"]
+        },
+        {
+          "kind": "labor",
+          "observed": "Mita, trabajo asalariado, especialización, turnos nocturnos, huida y negociación coexistieron.",
+          "inference": "El régimen laboral produjo exposiciones diferenciadas dentro de una estructura coercitiva.",
+          "limit": "La etiqueta mitayo no especifica tarea, duración, ventilación ni exposición de una persona.",
+          "claimIds": ["CLAIM-MED-COL-HUANC-MITA-001"],
+          "evidenceIds": ["EVID-MED-COL-HUANC-RECORDS-001", "EVID-MED-COL-HUANC-LABOR-001"],
+          "sourceIds": ["SRC-MED-COL-BROWN-2001", "SRC-MED-COL-BROWN-2016"]
+        },
+        {
+          "kind": "nutrition",
+          "observed": "Los expedientes mineros describen abastecimiento y conflicto, pero no una serie dietaria individual comparable.",
+          "inference": "Subsistencia y residencia pudieron modificar vulnerabilidad y recuperación.",
+          "limit": "Dato ausente: ingesta, estado nutricional y agua de cada trabajador y familia.",
+          "claimIds": ["CLAIM-MED-COL-ARCHIVE-001"],
+          "evidenceIds": ["EVID-MED-COL-HUANC-RECORDS-001"],
+          "sourceIds": ["SRC-MED-COL-BROWN-2001"]
+        },
+        {
+          "kind": "classification",
+          "observed": "Producción, mita, ocupación y mortalidad notoria aparecen según categorías administrativas y laborales.",
+          "inference": "Las series reconstruyen operación institucional y grupos visibles.",
+          "limit": "Categoría administrativa no es diagnóstico ni exposición uniforme; mujeres, familias y fugitivos son menos visibles.",
+          "claimIds": ["CLAIM-MED-COL-ARCHIVE-001", "CLAIM-MED-COL-HUANC-MITA-001"],
+          "evidenceIds": ["EVID-MED-COL-HUANC-RECORDS-001"],
+          "sourceIds": ["SRC-MED-COL-BROWN-2001", "SRC-MED-COL-BROWN-2016"]
+        },
+        {
+          "kind": "response",
+          "observed": "Ventilación, cambios técnicos, negociación y huida intentaron reducir o evitar peligros.",
+          "inference": "Hubo respuestas situadas con alcance desigual.",
+          "limit": "Reducción de un peligro no vuelve seguro el sistema ni demuestra efecto clínico agregado.",
+          "claimIds": ["CLAIM-MED-COL-HUANC-RESPONSE-001"],
+          "evidenceIds": ["EVID-MED-COL-HUANC-LABOR-001"],
+          "sourceIds": ["SRC-MED-COL-BROWN-2001", "SRC-MED-COL-BROWN-2016"]
+        },
+        {
+          "kind": "survival",
+          "observed": "Modelos estiman cerca de 17 000 toneladas métricas emitidas y suelos actuales conservan contaminación residencial.",
+          "inference": "El régimen dejó un legado ambiental medible más allá de su administración histórica.",
+          "limit": "Emisión modelada y suelo actual no reconstruyen dosis, síntomas, muerte o adaptación histórica individual.",
+          "claimIds": ["CLAIM-MED-COL-HUANC-RISK-001", "CLAIM-MED-COL-HUANC-LEGACY-001"],
+          "evidenceIds": ["EVID-MED-COL-HUANC-MODEL-001", "EVID-MED-COL-HUANC-LEGACY-001"],
+          "sourceIds": ["SRC-MED-COL-ROBINS-HAGAN-2012", "SRC-MED-COL-BROWN-2016"]
+        }
+      ]
+    },
+    {
+      "id": "philippines-1565-1650",
+      "title": "Filipinas · conectividad sin inmunidad uniforme",
+      "region": "Luzón, Visayas y otras islas · 1565–mediados del siglo XVII",
+      "archive": "Tributos, padrones, archivos misioneros, ecología histórica y reconstrucción demográfica",
+      "layers": [
+        {
+          "kind": "exposure",
+          "observed": "Comercio con China, Japón y el sudeste asiático conectaba regiones antes del dominio español.",
+          "inference": "Existieron exposiciones previas diferenciadas por isla, densidad y frecuencia de contacto.",
+          "limit": "Viejo Mundo no es una historia inmunológica uniforme ni prueba endemicidad de toda infección aguda.",
+          "claimIds": ["CLAIM-MED-COL-PHIL-IMMUNITY-001"],
+          "evidenceIds": ["EVID-MED-COL-PHIL-IMMUNITY-001"],
+          "sourceIds": ["SRC-MED-COL-NEWSON-1999"]
+        },
+        {
+          "kind": "violence",
+          "observed": "Conquista, guerra, reasentamiento y pérdida de tierra variaron entre regiones.",
+          "inference": "La dominación alteró movilidad, densidad y vulnerabilidad de formas regionales.",
+          "limit": "Una cronología colonial común no implica intensidad o mecanismo idénticos en cada isla.",
+          "claimIds": ["CLAIM-MED-COL-PHIL-REGIONAL-001"],
+          "evidenceIds": ["EVID-MED-COL-PHIL-REGIONAL-001"],
+          "sourceIds": ["SRC-MED-COL-NEWSON-2006", "SRC-MED-COL-NEWSON-2009"]
+        },
+        {
+          "kind": "labor",
+          "observed": "Tributo, producción y trabajo colonial cambiaron obligaciones y movilidad.",
+          "inference": "El régimen productivo participó en la variación demográfica regional.",
+          "limit": "Un padrón fiscal no mide carga, jornada o coerción individual completas.",
+          "claimIds": ["CLAIM-MED-COL-PHIL-REGIONAL-001"],
+          "evidenceIds": ["EVID-MED-COL-PHIL-TRIBUTES-001"],
+          "sourceIds": ["SRC-MED-COL-NEWSON-2006", "SRC-MED-COL-NEWSON-2009"]
+        },
+        {
+          "kind": "nutrition",
+          "observed": "Pérdida de tierra, reasentamiento, producción y ecologías locales alteraron subsistencia de modo desigual.",
+          "inference": "Nutrición y enfermedad pudieron interactuar sin una trayectoria insular única.",
+          "limit": "Las series fiscales no miden dieta o suficiencia persona por persona.",
+          "claimIds": ["CLAIM-MED-COL-PHIL-REGIONAL-001"],
+          "evidenceIds": ["EVID-MED-COL-PHIL-REGIONAL-001"],
+          "sourceIds": ["SRC-MED-COL-NEWSON-2009"]
+        },
+        {
+          "kind": "classification",
+          "observed": "Tributos, padrones y misiones contaron hogares y personas para fines fiscales y religiosos.",
+          "inference": "Con supuestos explícitos permiten modelar descenso y distribución regional.",
+          "limit": "Tamaño de hogar, cobertura, evasión y migración impiden tratarlos como censos completos.",
+          "claimIds": ["CLAIM-MED-COL-PHIL-ARCHIVE-001", "CLAIM-MED-COL-PHIL-DEMOGRAPHY-001"],
+          "evidenceIds": ["EVID-MED-COL-PHIL-TRIBUTES-001"],
+          "sourceIds": ["SRC-MED-COL-NEWSON-2006", "SRC-MED-COL-NEWSON-2009"]
+        },
+        {
+          "kind": "response",
+          "observed": "Dispersión, movilidad, adaptación productiva y redes locales coexistieron con congregación y misión.",
+          "inference": "Agencia y capacidad de respuesta variaron según territorio y conexión.",
+          "limit": "Una diferencia regional no identifica una medida protectora única ni su eficacia.",
+          "claimIds": ["CLAIM-MED-COL-PHIL-REGIONAL-001"],
+          "evidenceIds": ["EVID-MED-COL-PHIL-REGIONAL-001"],
+          "sourceIds": ["SRC-MED-COL-NEWSON-2009"]
+        },
+        {
+          "kind": "survival",
+          "observed": "La reconstrucción sugiere una caída cercana a dos tercios en Luzón y Visayas hacia mediados del siglo XVII, con fuerte variación.",
+          "inference": "Hubo catástrofe demográfica regionalmente desigual, no una inmunidad protectora universal.",
+          "limit": "Es un modelo documental condicionado por denominador, hogar, cobertura fiscal, evasión y migración.",
+          "claimIds": ["CLAIM-MED-COL-PHIL-DEMOGRAPHY-001", "CLAIM-MED-COL-PHIL-REGIONAL-001"],
+          "evidenceIds": ["EVID-MED-COL-PHIL-TRIBUTES-001", "EVID-MED-COL-PHIL-REGIONAL-001"],
+          "sourceIds": ["SRC-MED-COL-NEWSON-2006", "SRC-MED-COL-NEWSON-2009"]
+        }
+      ]
+    },
+    {
+      "id": "atlantic-slavery-newton",
+      "title": "Atlántico esclavista y Newton · supervivencia bajo coerción",
+      "region": "Atlántico y Barbados/Jamaica · siglos XVII–XVIII",
+      "archive": "SlaveVoyages, diarios de cirujanos, cementerio, esqueletos, isótopos y expedientes de plantación",
+      "layers": [
+        {
+          "kind": "exposure",
+          "observed": "Itinerarios, duración, embarcados, desembarcados y mortalidad documentan confinamiento y movilidad forzada.",
+          "inference": "Puede reconstruirse exposición agregada a hacinamiento, enfermedad, agua y alimento por viaje.",
+          "limit": "Observaciones e imputaciones no recuperan cada persona ni una exposición individual completa.",
+          "claimIds": ["CLAIM-MED-COL-ATL-VOYAGES-001"],
+          "evidenceIds": ["EVID-MED-COL-ATL-DATABASE-001"],
+          "sourceIds": ["SRC-MED-COL-SLAVEVOYAGES"]
+        },
+        {
+          "kind": "violence",
+          "observed": "Captura, transporte forzado, encierro y condición jurídica sostuvieron todo el circuito.",
+          "inference": "La violencia no es contexto externo: produjo la población, el archivo y la distribución del riesgo.",
+          "limit": "Una tasa de mortalidad no mide la totalidad de daño, coerción o pérdida social.",
+          "claimIds": ["CLAIM-MED-COL-ATL-MORTALITY-001", "CLAIM-MED-COL-MONOCAUSE-001"],
+          "evidenceIds": ["EVID-MED-COL-ATL-DATABASE-001", "EVID-MED-COL-ATL-SURGEONS-001"],
+          "sourceIds": ["SRC-MED-COL-SLAVEVOYAGES", "SRC-MED-COL-STECKEL-JENSEN-1986"]
+        },
+        {
+          "kind": "labor",
+          "observed": "La atención de navío y plantación coexistió con transporte, azúcar y valoración productiva de personas cautivas.",
+          "inference": "Cuidado y explotación podían operar simultáneamente dentro del mismo régimen.",
+          "limit": "Atención documentada no demuestra consentimiento, acceso equivalente ni benevolencia institucional.",
+          "claimIds": ["CLAIM-MED-COL-ATL-RACEMED-001"],
+          "evidenceIds": ["EVID-MED-COL-JAMAICA-CARE-001"],
+          "sourceIds": ["SRC-MED-COL-MITCHELL-2024", "SRC-MED-COL-THORNTON-2011"]
+        },
+        {
+          "kind": "nutrition",
+          "observed": "Diarios y análisis históricos relacionan duración, agua, alimentos y hacinamiento con mortalidad de travesía.",
+          "inference": "Abastecimiento y condiciones del viaje modificaron supervivencia.",
+          "limit": "Asociación por viaje no asigna mecanismo o ingesta a cada persona.",
+          "claimIds": ["CLAIM-MED-COL-ATL-MORTALITY-001"],
+          "evidenceIds": ["EVID-MED-COL-ATL-SURGEONS-001"],
+          "sourceIds": ["SRC-MED-COL-STECKEL-JENSEN-1986"]
+        },
+        {
+          "kind": "classification",
+          "observed": "Bases, diarios y medicina colonial clasificaron edad, sexo, origen, color, condición y aptitud productiva.",
+          "inference": "Las categorías permiten analizar operaciones históricas y la fabricación de medicina racial.",
+          "limit": "Categoría administrativa o racial no es una naturaleza corporal ni una identidad autoatribuida.",
+          "claimIds": ["CLAIM-MED-COL-ATL-VOYAGES-001", "CLAIM-MED-COL-ATL-RACEMED-001"],
+          "evidenceIds": ["EVID-MED-COL-ATL-DATABASE-001", "EVID-MED-COL-JAMAICA-CARE-001"],
+          "sourceIds": ["SRC-MED-COL-SLAVEVOYAGES", "SRC-MED-COL-MITCHELL-2024"]
+        },
+        {
+          "kind": "response",
+          "observed": "Personas africanas y afrodescendientes practicaron curación; cirujanos, enfermerías y propietarios también intervinieron.",
+          "inference": "Agencia terapéutica existió bajo condiciones profundamente desiguales.",
+          "limit": "Fuentes de propietarios y médicos filtran saberes; agencia no convierte la práctica en libre ni valida eficacia.",
+          "claimIds": ["CLAIM-MED-COL-ATL-HEALERS-001", "CLAIM-MED-COL-ATL-RACEMED-001"],
+          "evidenceIds": ["EVID-MED-COL-JAMAICA-CARE-001"],
+          "sourceIds": ["SRC-MED-COL-MITCHELL-2024", "SRC-MED-COL-THORNTON-2011"]
+        },
+        {
+          "kind": "survival",
+          "observed": "Newton conserva 46 esqueletos con estrés, lesión e infección inespecífica; isótopos identifican movilidad forzada en una submuestra.",
+          "inference": "El cementerio recupera historias corporales y migración dentro de una plantación concreta.",
+          "limit": "Cementerio, plantación y población atlántica tienen denominadores distintos; sobrevivir al viaje no equivale a bienestar.",
+          "claimIds": ["CLAIM-MED-COL-ATL-PLANTATION-001"],
+          "evidenceIds": ["EVID-MED-COL-NEWTON-HEALTH-001", "EVID-MED-COL-NEWTON-MIGRATION-001"],
+          "sourceIds": ["SRC-MED-COL-SHULER-2011", "SRC-MED-COL-SCHROEDER-BARBADOS-2009"]
+        }
+      ]
+    },
+    {
+      "id": "alta-california-missions",
+      "title": "Alta California · epidemia tardía y persistencia",
+      "region": "California central y sistema de misiones · 1769–1836",
+      "archive": "15 322 entierros, 252 sitios, libros de 21 misiones y restos faunísticos",
+      "layers": [
+        {
+          "kind": "exposure",
+          "observed": "El perfil epidémico catastrófico aparece con asentamientos sostenidos desde 1770, no con toda visita marítima previa.",
+          "inference": "En esta región, colonización permanente y congregación alteraron exposición más que el mero primer contacto.",
+          "limit": "No excluye episodios locales anteriores no preservados ni se generaliza automáticamente a otras regiones.",
+          "claimIds": ["CLAIM-MED-COL-CAL-LATE-ONSET-001"],
+          "evidenceIds": ["EVID-MED-COL-CAL-MORTALITY-001"],
+          "sourceIds": ["SRC-MED-COL-JONES-2021"]
+        },
+        {
+          "kind": "violence",
+          "observed": "Congregación, disciplina, fuga, castigo y pérdida territorial acompañaron el sistema de misiones.",
+          "inference": "La institución redistribuyó movilidad, exposición y capacidad de sostener la vida.",
+          "limit": "Registros misioneros describen mejor administración que consentimiento o experiencia individual completa.",
+          "claimIds": ["CLAIM-MED-COL-CAL-REGISTERS-001"],
+          "evidenceIds": ["EVID-MED-COL-CAL-REGISTERS-001"],
+          "sourceIds": ["SRC-MED-COL-ECPP-2022", "SRC-MED-COL-HACKEL-2012"]
+        },
+        {
+          "kind": "labor",
+          "observed": "Agricultura, ganadería, construcción y servicio de misión dependieron del trabajo indígena.",
+          "inference": "La producción institucional condicionó tiempo, residencia y riesgo.",
+          "limit": "Una matrícula o categoría de misión no describe tarea, jornada o libertad individual.",
+          "claimIds": ["CLAIM-MED-COL-CAL-FOODWAYS-001"],
+          "evidenceIds": ["EVID-MED-COL-CAL-FOODWAYS-001"],
+          "sourceIds": ["SRC-MED-COL-NOE-2023"]
+        },
+        {
+          "kind": "nutrition",
+          "observed": "Restos de Santa Clara muestran ganado junto con caza, pesca, grasa y técnicas culinarias indígenas persistentes.",
+          "inference": "La alimentación se transformó sin sustitución total de prácticas indígenas.",
+          "limit": "Resto faunístico no demuestra ración individual, suficiencia, acceso equitativo o preferencia libre.",
+          "claimIds": ["CLAIM-MED-COL-CAL-FOODWAYS-001"],
+          "evidenceIds": ["EVID-MED-COL-CAL-FOODWAYS-001"],
+          "sourceIds": ["SRC-MED-COL-NOE-2023"]
+        },
+        {
+          "kind": "classification",
+          "observed": "Libros de bautismo, matrimonio y defunción registran nombres cristianos, neófitos, lugares y causas atribuidas.",
+          "inference": "Permiten reconstruir trayectorias y redes cuando se conserva su función administrativa.",
+          "limit": "Categoría sacramental no es identidad transparente; causa registrada no es diagnóstico uniforme.",
+          "claimIds": ["CLAIM-MED-COL-CAL-REGISTERS-001", "CLAIM-MED-COL-ARCHIVE-001"],
+          "evidenceIds": ["EVID-MED-COL-CAL-REGISTERS-001"],
+          "sourceIds": ["SRC-MED-COL-ECPP-2022", "SRC-MED-COL-HACKEL-2012"]
+        },
+        {
+          "kind": "response",
+          "observed": "Movilidad, fuga y persistencia de técnicas alimentarias coexistieron con respuestas institucionales y religiosas.",
+          "inference": "Las comunidades conservaron y reorientaron prácticas bajo coerción.",
+          "limit": "Persistencia material no demuestra ausencia de control, libertad o beneficio clínico.",
+          "claimIds": ["CLAIM-MED-COL-CAL-PERSISTENCE-001", "CLAIM-MED-COL-CAL-FOODWAYS-001"],
+          "evidenceIds": ["EVID-MED-COL-CAL-FOODWAYS-001"],
+          "sourceIds": ["SRC-MED-COL-NOE-2023"]
+        },
+        {
+          "kind": "survival",
+          "observed": "Alta mortalidad y baja fecundidad coexisten con movilidad, descendencia y prácticas reorientadas.",
+          "inference": "Daño demográfico grave no equivale a desaparición histórica.",
+          "limit": "Continuidad no minimiza violencia ni reconstruye automáticamente identidad o experiencia individual.",
+          "claimIds": ["CLAIM-MED-COL-CAL-PERSISTENCE-001", "CLAIM-MED-COL-CAL-LATE-ONSET-001"],
+          "evidenceIds": ["EVID-MED-COL-CAL-MORTALITY-001", "EVID-MED-COL-CAL-REGISTERS-001"],
+          "sourceIds": ["SRC-MED-COL-JONES-2021", "SRC-MED-COL-ECPP-2022"]
+        }
+      ]
+    },
+    {
+      "id": "guayases-cinchona",
+      "title": "Guayases y quina · circulación sin crédito",
+      "region": "Amazonia, Andes y circuitos imperiales · siglos XVII–XIX",
+      "archive": "Aldeamientos, cartas, leyes, jardines, inventarios, especímenes, taxonomía y comercio",
+      "layers": [
+        {
+          "kind": "exposure",
+          "observed": "Cinchona, ipecacuana, guayaco, zarzaparrilla y jalapa circularon por rutas de Europa, América, África y Asia.",
+          "inference": "Materiales concretos estuvieron disponibles en lugares y momentos documentados.",
+          "limit": "Movimiento material no demuestra ingestión individual, indicación, dosis, acceso o eficacia.",
+          "claimIds": ["CLAIM-MED-COL-BOT-TRADE-001"],
+          "evidenceIds": ["EVID-MED-COL-BOT-TRADE-001"],
+          "sourceIds": ["SRC-MED-COL-GANGER-2015"]
+        },
+        {
+          "kind": "violence",
+          "observed": "Estado y expediciones usaron aldeamientos, leyes, monopolios y redes coloniales para obtener plantas y trabajo.",
+          "inference": "La circulación se sostuvo mediante relaciones asimétricas de autoridad y extracción.",
+          "limit": "Asimetría institucional no reconstruye coerción o consentimiento de cada recolector.",
+          "claimIds": ["CLAIM-MED-COL-BOT-APPROPRIATION-001"],
+          "evidenceIds": ["EVID-MED-COL-BOT-GUAYASES-001"],
+          "sourceIds": ["SRC-MED-COL-ALMEIDA-2021", "SRC-MED-COL-CUVI-2018"]
+        },
+        {
+          "kind": "labor",
+          "observed": "Sabedores, recolectores, cascarilleros, cargadores, clasificadores y cultivadores formaron una cadena distribuida.",
+          "inference": "El conocimiento y el material dependieron de trabajo local y mediación múltiple.",
+          "limit": "Muchos nombres, acuerdos y compensaciones no quedaron registrados simétricamente.",
+          "claimIds": ["CLAIM-MED-COL-BOT-CINCHONA-001", "CLAIM-MED-COL-BOT-ATTRIBUTION-001"],
+          "evidenceIds": ["EVID-MED-COL-BOT-CINCHONA-001"],
+          "sourceIds": ["SRC-MED-COL-CUVI-2018", "SRC-MED-COL-CRAWFORD-2016"]
+        },
+        {
+          "kind": "nutrition",
+          "observed": "Los archivos incluyen plantas de alimento junto con medicina, cuerda, tinte y otros usos.",
+          "inference": "Las categorías funcionales se solapaban y dependían del contexto de uso.",
+          "limit": "Inventario botánico no mide dieta, disponibilidad doméstica ni beneficio nutricional.",
+          "claimIds": ["CLAIM-MED-COL-BOT-APPROPRIATION-001"],
+          "evidenceIds": ["EVID-MED-COL-BOT-GUAYASES-001"],
+          "sourceIds": ["SRC-MED-COL-ALMEIDA-2021"]
+        },
+        {
+          "kind": "classification",
+          "observed": "Nombres locales, taxonomía, inventarios y leyendas de descubrimiento reorganizaron plantas y autoridad.",
+          "inference": "Puede seguirse cómo una red convirtió conocimiento situado en categoría imperial o científica.",
+          "limit": "Nombre botánico no conserva automáticamente receta, comunidad de origen, consentimiento o autoría completa.",
+          "claimIds": ["CLAIM-MED-COL-BOT-CINCHONA-001", "CLAIM-MED-COL-BOT-ATTRIBUTION-001"],
+          "evidenceIds": ["EVID-MED-COL-BOT-CINCHONA-001"],
+          "sourceIds": ["SRC-MED-COL-CUVI-2018", "SRC-MED-COL-CRAWFORD-2016"]
+        },
+        {
+          "kind": "response",
+          "observed": "Comunidades sostuvieron usos y recolección; jardines, boticas y expediciones reconfiguraron cultivo y distribución.",
+          "inference": "Hubo transmisión y transformación de prácticas entre agentes desiguales.",
+          "limit": "Presencia de un remedio no demuestra acceso, consentimiento, fidelidad de traducción o eficacia para toda indicación.",
+          "claimIds": ["CLAIM-MED-COL-BOT-TRADE-001", "CLAIM-MED-COL-BOT-ATTRIBUTION-001"],
+          "evidenceIds": ["EVID-MED-COL-BOT-TRADE-001", "EVID-MED-COL-BOT-CINCHONA-001"],
+          "sourceIds": ["SRC-MED-COL-GANGER-2015", "SRC-MED-COL-CRAWFORD-2016"]
+        },
+        {
+          "kind": "survival",
+          "observed": "Plantas y conocimientos persistieron, pero el archivo redistribuyó nombres, propiedad, crédito y beneficios.",
+          "inference": "La continuidad material puede coexistir con apropiación y silenciamiento.",
+          "limit": "Circulación posterior no permite inventar una comunidad originaria, una receta única o compensación histórica.",
+          "claimIds": ["CLAIM-MED-COL-BOT-ATTRIBUTION-001", "CLAIM-MED-COL-BOT-APPROPRIATION-001"],
+          "evidenceIds": ["EVID-MED-COL-BOT-GUAYASES-001", "EVID-MED-COL-BOT-CINCHONA-001"],
+          "sourceIds": ["SRC-MED-COL-ALMEIDA-2021", "SRC-MED-COL-CUVI-2018"]
+        }
+      ]
+    }
+  ]
+}

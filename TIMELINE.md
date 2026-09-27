@@ -478,3 +478,440 @@ Las fechas pertenecen a objetos, muestras, fases o publicaciones. No son estacio
 ## Próxima acción de la línea CIV
 
 CIV-003 inaugura los expedientes regionales auditados. CIV-001 conserva `TRAZADO`; la secuencia global `001–052` permanece completa. El siguiente expediente regional recomendado es Nilo y África nororiental, usando los mismos controles de nombres, relojes y escalas.
+
+## XIII. MED-001 — Historia de herramientas para estimar efectos
+
+| ID | Fecha/intervalo | Evento delimitado | Incertidumbre y evidencia | Fuente | Confianza | Estado |
+|---|---:|---|---|---|---|---|
+| `TIME-MED-CAST-1991-001` | `1991` | informe final de mortalidad/morbilidad de CAST | caso posinfarto y fármacos concretos | `SRC-MED-CAST-1991` | A | AUDITADO |
+| `TIME-MED-EXPERTISE-2005-001` | `2005` | formulación de ensayos basados en experiencia | propuesta metódica, no superioridad universal | `SRC-MED-EXPERTISE-RCT-2005` | B-MÉTODO | AUDITADO |
+| `TIME-MED-FIDELITY-2013-001` | `2013` | FIDELITY compara meniscectomía y simulación | 146 participantes, 12 meses | `SRC-MED-FIDELITY-2013` | A ensayo | AUDITADO |
+| `TIME-MED-IDEAL-2019-001` | `2013–2019` | desarrollo y actualización de IDEAL | marco quirúrgico por etapas | `SRC-MED-IDEAL-RCT-2013`, `SRC-MED-IDEAL-2019` | A método | AUDITADO |
+| `TIME-MED-CONSORT-NPT-2017-001` | `2017` | actualización de reporte no farmacológico | extensión; se usa con CONSORT 2025 | `SRC-MED-CONSORT-NPT-2017` | A | AUDITADO |
+| `TIME-MED-ROB2-2019-001` | `2019` | RoB 2 formaliza sesgo por resultado | requiere juicio y documentación | `SRC-MED-ROB2-2019` | A | AUDITADO |
+| `TIME-MED-ICH-E9R1-2019-001` | `2019` | ICH E9(R1) formaliza estimandos | no decide pertinencia clínica | `SRC-MED-ICH-E9R1-2019` | A | AUDITADO |
+| `TIME-MED-PRISMA-2020-001` | `2020–2021` | PRISMA 2020 actualiza reporte de revisiones | reporte no elimina sesgo | `SRC-MED-PRISMA-2020` | A | AUDITADO |
+| `TIME-MED-HARMS-2022-001` | `2022–2023` | CONSORT Harms actualizado | no aumenta potencia para eventos raros | `SRC-MED-CONSORT-HARMS-2022` | A | AUDITADO |
+| `TIME-MED-WHO-2024-001` | `2024` | WHO publica buenas prácticas globales | implementación dependiente de sistemas | `SRC-MED-WHO-TRIALS-2024` | A | AUDITADO |
+| `TIME-MED-SPIRIT-CONSORT-2025-001` | `2025` | SPIRIT/CONSORT sustituyen versiones previas | guías de reporte | `SRC-MED-SPIRIT-2025`, `SRC-MED-CONSORT-2025` | A | AUDITADO |
+| `TIME-MED-GRADE-2026-001` | corte `2026-08-24` | GRADE Book en reemplazo progresivo del manual | recurso vivo y versionado | `SRC-MED-GRADE-BOOK-2026` | A documental | AUDITADO |
+## MED-002 - Hitos de la evaluación diagnóstica
+
+| ID | Fecha | Evento | Qué cambió | Límite |
+|---|---:|---|---|---|
+| `TIME-MED-DX-SPECTRUM-1978` | 1978 | Ransohoff-Feinstein | explicitó problemas de espectro y sesgo | marco histórico |
+| `TIME-MED-DX-DESIGN-1999` | 1999 | Lijmer et al. | documentó sesgos relacionados con diseño | muestra histórica |
+| `TIME-MED-DX-DECISION-2006` | 2006 | curva de decisión | formalizó beneficio neto por umbral | depende de consecuencias |
+| `TIME-MED-DX-UTILITY-2012` | 2012 | más allá de la exactitud | separó exactitud y utilidad | marco, no resultado clínico |
+| `TIME-MED-DX-PREVALENCE-2013` | 2013 | variación contextual | mostró rendimiento sensible a contexto | heterogeneidad multicausal |
+| `TIME-MED-DX-ADJUST-2014` | 2014 | ADJUST-PE | evaluó estrategia secuencial ajustada por edad | cohorte de manejo |
+| `TIME-MED-DX-STARD-2015` | 2015 | STARD 2015 | actualizó reporte DTA | no certifica validez |
+| `TIME-MED-DX-PRISMA-2018` | 2018 | PRISMA-DTA | estandarizó reporte de revisiones DTA | depende de estudios |
+| `TIME-MED-DX-PROPER-2018` | 2018 | PROPER | comparó rutas diagnósticas por conglomerados | muy bajo riesgo |
+| `TIME-MED-DX-TARGETED-2019` | 2019 | evaluación dirigida | alineó posición, hipótesis y diseño | marco |
+| `TIME-MED-DX-RIFT-2020` | 2020 | RIFT | validó reglas de apendicitis multicéntricas | 16-45 años |
+| `TIME-MED-DX-UKCTOCS-2021` | 2021 | seguimiento UKCTOCS | separó cambio de estadio y mortalidad | programa concreto |
+| `TIME-MED-DX-COCHRANE-2023` | 2023 | Cochrane DTA 2.0 | actualizó síntesis diagnóstica | recurso vivo |
+| `TIME-MED-DX-TRIPOD-2024` | 2024 | TRIPOD+AI | actualizó reporte de modelos | no prueba utilidad |
+| `TIME-MED-DX-AI-2025` | 2025 | PROBAST+AI y STARD-AI | actualizó sesgo y reporte de IA | juicio por uso |
+| `TIME-MED-DX-QUADAS3-2026` | 2026 | QUADAS-3 | sustituyó QUADAS-2 | herramienta por estimación |
+
+## MED-003 — Hitos de los archivos históricos de la medicina
+
+| ID | Fecha/intervalo | Evento delimitado | Incertidumbre y evidencia | Fuente | Confianza | Estado |
+|---|---:|---|---|---|---|---|
+| `TIME-MED-HIST-UPPER-PALEO-001` | antes de 30 ka | restos humanos pueden conservar supervivencia, trauma e intervención discutida | archivo desigual; no fecha el origen de la medicina | `SRC-MED-HIST-MALONEY-2022`, `SRC-MED-HIST-MURPHY-2023`, `SRC-MED-HIST-VLOK-2023` | B-COND | AUDITADO |
+| `TIME-MED-HIST-MANBAC-001` | 1867–1524 a. e. c. | Man Bac M9 documenta limitación prolongada y asistencia probable | fecha del entierro, no inicio universal del cuidado | `SRC-MED-HIST-OXENHAM-2009`, `SRC-MED-HIST-TILLEY-OXENHAM-2011` | B-COND | AUDITADO |
+| `TIME-MED-HIST-TREPANATION-001` | prehistoria–periodos históricos | múltiples regiones conservan aperturas craneales y remodelación | técnica, intención e indicación deben resolverse por caso | `SRC-MED-HIST-VERANO-2016`, `SRC-MED-HIST-KUSHNER-2018` | B-COND | AUDITADO |
+| `TIME-MED-HIST-TEXTS-001` | desde milenios III–II a. e. c. | textos médicos y administrativos amplían categorías, recetas y roles | fecha del testimonio no equivale a origen de la práctica | `SRC-MED-HIST-MITCHELL-2011` | B documental | AUDITADO |
+| `TIME-MED-HIST-COMPASSION-1991` | 1991 | Dettwyler formaliza el límite entre supervivencia y compasión | crítica de inferencia, no negación de asistencia | `SRC-MED-HIST-DETTWYLER-1991` | A-SEM | AUDITADO |
+| `TIME-MED-HIST-OSTEOLOGICAL-1992` | 1992 | paradoja osteológica explicita selección y supervivencia | marco debe aplicarse a cada colección | `SRC-MED-HIST-WOOD-1992` | A método | AUDITADO |
+| `TIME-MED-HIST-MANBAC-2009` | 2009 | publicación anatómica de M9 | diagnóstico funcional condicionado por preservación | `SRC-MED-HIST-OXENHAM-2009` | B-COND | AUDITADO |
+| `TIME-MED-HIST-CARE-2011` | 2011 | modelo bioarqueológico del cuidado | asistencia no revela motivo | `SRC-MED-HIST-TILLEY-OXENHAM-2011`, `SRC-MED-HIST-DETTWYLER-1991` | B método | AUDITADO |
+| `TIME-MED-HIST-TEXT-DX-2011` | 2011 | crítica al diagnóstico retrospectivo desde textos | cada pasaje exige marco filológico | `SRC-MED-HIST-MITCHELL-2011` | A método | AUDITADO |
+| `TIME-MED-HIST-PLAGUE-GENOME-2011` | 2011 | genoma borrador de Y. pestis de la Peste Negra | presencia genética no agota epidemiología histórica | `SRC-MED-HIST-BOS-2011` | A muestra | AUDITADO |
+| `TIME-MED-HIST-CALCULUS-2012` | 2012 | residuos de El Sidrón reabren dieta y uso de plantas | automedicación no queda demostrada por residuo | `SRC-MED-HIST-HARDY-2012` | B muestra | AUDITADO |
+| `TIME-MED-HIST-ORAL-MICROBIOME-2013` | 2013–2014 | cálculo dental se consolida como archivo de microbioma y proteínas | conservación y boca limitan transporte | `SRC-MED-HIST-ADLER-2013`, `SRC-MED-HIST-WARINNER-2014` | B-LOCAL | AUDITADO |
+| `TIME-MED-HIST-TREPANATION-2016` | 2016 | diferencial formal para trepanación | remodelación puede ocultar mecanismo | `SRC-MED-HIST-VERANO-2016` | A método | AUDITADO |
+| `TIME-MED-HIST-NEANDERTHAL-DNA-2017` | 2017 | ADN de cálculo amplía archivo de dieta y microbioma | conducta y tratamiento siguen inferidos | `SRC-MED-HIST-WEYRICH-2017` | B muestra | AUDITADO |
+| `TIME-MED-HIST-HOPS-2019` | 2019 | HOPS automatiza cribado y autenticación de patógenos | taxonomía depende de referencia y cobertura | `SRC-MED-HIST-HOPS-2019` | A método | AUDITADO |
+| `TIME-MED-HIST-GUT-2021` | 2021 | genomas microbianos reconstruidos de paleofeces | preservación excepcional y muestra regional | `SRC-MED-HIST-WIBOWO-2021` | B-LOCAL | AUDITADO |
+| `TIME-MED-HIST-BORNEO-2022` | 2022–2023 | publicación y debate de Liang Tebo | mecanismo exacto permanece abierto | `SRC-MED-HIST-MALONEY-2022`, `SRC-MED-HIST-MURPHY-2023`, `SRC-MED-HIST-VLOK-2023` | B-COND | AUDITADO |
+| `TIME-MED-HIST-PATHOGENS-2025` | 2025 | cribado de patógenos en 1,313 individuos antiguos | gran escala no elimina sesgo geográfico/funerario | `SRC-MED-HIST-SIKORA-2025` | B-REG | AUDITADO |
+
+
+## MED-004 — Hitos de la medicina documentada en Mesopotamia y el valle del Nilo
+
+| ID | Fecha/intervalo | Evento delimitado | Incertidumbre y evidencia | Fuente | Confianza | Estado |
+|---|---:|---|---|---|---|---|
+| `TIME-MED-ANE-SUMERIAN-RECIPES-001` | finales milenio III–inicios II a. e. c. | recetas terapéuticas sumerias conservadas | texto no fecha origen de práctica | `SRC-MED-ANE-SCURLOCK-2014` | B documental | AUDITADO |
+| `TIME-MED-EGY-LAHUN-001` | ca. 1850–1700 a. e. c. | UC 32057 registra salud reproductiva | aplicación y resultado desconocidos | `SRC-MED-EGY-KAHUN-UCL-2002` | B documental | AUDITADO |
+| `TIME-MED-MESO-HAMMURABI-001` | ca. 1792–1750 a. e. c. | leyes 215–223 regulan ciertas acciones del asû | aplicación no demostrada por estela | `SRC-MED-ANE-HAMMURABI-ROTH-1995` | A documental/B práctica | AUDITADO |
+| `TIME-MED-EGY-SMITH-001` | siglos XVII–XVI a. e. c. | copia de Edwin Smith conserva 48 casos | composición previa discutida | `SRC-MED-EGY-UCL-HEALING-2002`, `SRC-MED-EGY-NYAM-SMITH-2010` | B documental | AUDITADO |
+| `TIME-MED-EGY-EBERS-001` | último cuarto siglo XVI a. e. c. | rollo Ebers documenta centenares de unidades | pieza excepcional, no corpus completo | `SRC-MED-EGY-EBERS-LEIPZIG-2016` | A documental | AUDITADO |
+| `TIME-MED-ANE-CIRCULATION-001` | siglos XIV–XIII a. e. c. | cartas registran circulación cortesana de especialistas y sustancias | no difusión poblacional | `SRC-MED-ANE-EGY-CONTACTS-2020` | B histórico | AUDITADO |
+| `TIME-MED-EGY-DEIR-001` | siglos XIII–XI a. e. c. | ostraca registran enfermedad y ausencias | comunidad estatal especializada | `SRC-MED-EGY-AUSTIN-SICK-2015` | B-LOCAL | AUDITADO |
+| `TIME-MED-MESO-SAKIKKU-001` | ca. siglo XI a. e. c. | tradición canónica de Sakikkû | depende de testigos posteriores | `SRC-MED-ANE-GELLER-2010`, `SRC-MED-ANE-HEESSEL-2025` | B documental | AUDITADO |
+| `TIME-MED-MESO-NINMED-001` | siglo VII a. e. c. | compilación de Nínive organiza doce tratados | culminación real, no comienzo | `SRC-MED-ANE-NINMED-PROJECT-2022` | A/B documental | AUDITADO |
+| `TIME-MED-EGY-SMITH-MODERN-001` | 1862–1930 | compra, conservación y edición moderna de Edwin Smith | procedencia mediada por mercado | `SRC-MED-EGY-NYAM-SMITH-2010` | A documental | AUDITADO |
+| `TIME-MED-EGY-EBERS-MODERN-001` | 1872/73–1875 | adquisición y facsímil de Ebers | contexto de hallazgo incierto | `SRC-MED-EGY-EBERS-LEIPZIG-2016` | A documental | AUDITADO |
+| `TIME-MED-ANE-SAA-1993-001` | 1993 | SAA 10 publica cartas eruditas neoasirias | archivo cortesano | `SRC-MED-ANE-SAA10-P334526-1993` | A documental | AUDITADO |
+| `TIME-MED-EGY-HEADACHE-2001-001` | 2001 | crítica del diagnóstico de cefalea/migraña | corpus diminuto | `SRC-MED-EGY-KARENBERG-2001` | A método | AUDITADO |
+| `TIME-MED-EGY-UCL-2002-001` | 2002 | UCL publica manuscritos y cautelas en línea | traducciones revisables | `SRC-MED-EGY-UCL-HEALING-2002` | A documental | AUDITADO |
+| `TIME-MED-ANE-GELLER-2010-001` | 2010 | síntesis integra cartas, recetas y comentarios | interpretación dependiente del corpus | `SRC-MED-ANE-GELLER-2010` | B histórico | AUDITADO |
+| `TIME-MED-EGY-DEIR-2015-001` | 2015–2016 | ausencias y osteoartritis se analizan conjuntamente | sitio excepcional | `SRC-MED-EGY-AUSTIN-SICK-2015`, `SRC-MED-EGY-AUSTIN-OA-2016` | B-LOCAL | AUDITADO |
+| `TIME-MED-ANE-PANAYOTOV-2016-001` | 2016 | transmisión terapéutica estudiada por versiones | recepción no equivale a uso clínico | `SRC-MED-ANE-PANAYOTOV-2016` | B histórico | AUDITADO |
+| `TIME-MED-MESO-NINMED-DIGITAL-001` | 2022 | NinMed publica corpus y técnicas enlazables | lagunas persisten | `SRC-MED-ANE-NINMED-CORPUS-2022` | A/B documental | AUDITADO |
+| `TIME-MED-MESO-SAKIKKU-2025-001` | 2025 | nuevos testigos y joins revisan Sakikkû 1–6 | canon abierto | `SRC-MED-ANE-HEESSEL-2025` | B documental | AUDITADO |
+| `TIME-MED-EGY-SDOH-2026-001` | 2026 | determinantes sociales aplicados a Deir el-Medina | requiere comunidad contextualizada | `SRC-MED-EGY-AUSTIN-SDOH-2026` | B método/local | AUDITADO |
+
+## MED-005 — Hitos de las tradiciones médicas de Asia meridional y sus transmisiones
+
+| ID | Fecha/intervalo | Evento delimitado | Incertidumbre y evidencia | Fuente | Confianza | Estado |
+|---|---:|---|---|---|---|---|
+| `TIME-MED-SA-MEHRGARH-001` | hace 7,500–9,000 años | once molares de nueve adultos fueron perforados *in vivo* en Mehrgarh | cronología/contexto y desgaste; motivo y oficio ausentes | `SRC-MED-SA-COPPA-2006` | A/B material | AUDITADO |
+| `TIME-MED-SA-VEDIC-001` | II–I milenios a. e. c., según estrato | textos védicos conservan términos, plantas y acciones de sanación | transmisión textual y cronología relativa; no compendio clásico | `SRC-MED-SA-WUJASTYK-DATE-2026` | B histórico | AUDITADO |
+| `TIME-MED-SA-BALATHAL-001` | ca. 2000 a. e. c. | individuo de Balathal con patrón favorecido como lepra lepromatosa | diagnóstico diferencial; categoría histórica desconocida | `SRC-MED-SA-ROBBINS-2009` | B-COND | AUDITADO |
+| `TIME-MED-SA-BURZAHOM-001` | hace más de 4,000 años | cráneo de Burzahom con apertura interpretada como trepanación | huellas y contexto; indicación y desenlace abiertos | `SRC-MED-SA-SANKHYAN-2001` | B-COND | AUDITADO |
+| `TIME-MED-SA-ASHOKA-001` | siglo III a. e. c. | edicto rupestre II promulga tratamiento, plantas, pozos y árboles | inscripción política; no hospitales ni ejecución medida | `SRC-MED-SA-WUJASTYK-HOSPITALS-2022` | A documental/B aplicación | AUDITADO |
+| `TIME-MED-SA-CARAKA-EARLY-001` | ca. siglo II a. e. c.–I e. c. | intervalo tentativo para una composición temprana de Caraka | filología y paralelos; no fecha instrumental | `SRC-MED-SA-WUJASTYK-HOSPITALS-2022`, `SRC-MED-SA-MAAS-2010` | B-COND | AUDITADO |
+| `TIME-MED-SA-SUSRUTA-BEGIN-001` | últimos siglos a. e. c., tentativo | posibles comienzos de capas de la *Suśrutasaṃhitā* | estratigrafía textual; no autor individual fechado | `SRC-MED-SA-WUJASTYK-DATE-2026` | B histórico | AUDITADO |
+| `TIME-MED-SA-DRDHABALA-001` | 300–500 e. c. | intervalo propuesto para revisión de Dṛḍhabala y conocimiento de una forma de Suśruta | citas y tradición textual | `SRC-MED-SA-MAAS-2010`, `SRC-MED-SA-WUJASTYK-DATE-2026` | B-COND | AUDITADO |
+| `TIME-MED-SA-KUMRAHAR-001` | ca. 300–450 e. c. | edificio y sellos de *ārogyavihāra* en Kumrahār | asociación arqueológica/epigráfica; función exacta abierta | `SRC-MED-SA-WUJASTYK-HOSPITALS-2022` | B-LOCAL-COND | AUDITADO |
+| `TIME-MED-SA-BOWER-001` | ca. 500–550 e. c. | copia del Manuscrito Bower por varias manos cerca de Kucha | paleografía revisada; contexto de hallazgo limitado | `SRC-MED-SA-HOERNLE-BOWER-1912`, `SRC-MED-SA-SANDER-BOWER-1987` | A/B material | AUDITADO |
+| `TIME-MED-SA-CHINA-001` | siglos II–VI e. c. | recepción y traducción selectiva de conceptos médicos indios en textos budistas chinos | pasajes y traductores; alcance no uniforme | `SRC-MED-SA-LU-2025` | B histórico | AUDITADO |
+| `TIME-MED-SA-BAGHDAD-001` | desde finales del siglo VIII e. c. | Caraka conocido mediante rutas persas y árabes en Bagdad | testimonios de traducción; contenido y uso parciales | `SRC-MED-SA-WUJASTYK-HOSPITALS-2022` | B histórico | AUDITADO |
+| `TIME-MED-SA-KL699-001` | 878 e. c. | copia del manuscrito KL 699 de la *Suśrutasaṃhitā* | fecha segura del testigo; no de cada pasaje | `SRC-MED-SA-SUSRUTA-PROJECT1-2026`, `SRC-MED-SA-UNESCO-KL699-2013` | A material | AUDITADO |
+| `TIME-MED-SA-TIRUMUKKUDAL-001` | finales del siglo XI e. c. | inscripción registra institución de quince camas con personal y suministros | dotación local; no cobertura regional | `SRC-MED-SA-WUJASTYK-HOSPITALS-2022` | A documental/B función | AUDITADO |
+| `TIME-MED-SA-COWASJEE-001` | 1794 | publicación británica del caso Cowasjee con colgajo frontal | práctica moderna temprana situada; continuidad antigua no demostrada | `SRC-MED-SA-WUJASTYK-SURGERY-2023` | B caso/C continuidad | AUDITADO |
+| `TIME-MED-SA-BOWER-EDITION-001` | 1893–1912 | Hoernle publica facsímil, transliteración y traducción del Bower | edición colonial; fecha luego revisada | `SRC-MED-SA-HOERNLE-BOWER-1912` | A documental | AUDITADO |
+| `TIME-MED-SA-BOWER-REDATE-001` | 1987 | Sander propone ca. 500–550 e. c. para Bower | argumento paleográfico | `SRC-MED-SA-SANDER-BOWER-1987` | B-COND | AUDITADO |
+| `TIME-MED-SA-MEHRGARH-PUB-001` | 2006 | microscopía y microtomografía publican la serie dental de Mehrgarh | once dientes y nueve individuos | `SRC-MED-SA-COPPA-2006` | A/B material | AUDITADO |
+| `TIME-MED-SA-KL699-STUDY-001` | 2009–2021 | KL 699 y tres manuscritos nepaleses se incorporan a la historia textual crítica | relaciones stemmáticas revisables | `SRC-MED-SA-WUJASTYK-MANUSCRIPT-2009`, `SRC-MED-SA-KLEBANOV-2021` | B textual | AUDITADO |
+| `TIME-MED-SA-CARAKA-COLLATION-001` | 2009–2012 | colación vienesa y edición SARIT hacen visibles variantes y pasajes | muestras/ediciones no equivalen al autógrafo | `SRC-MED-SA-VIENNA-CARAKA-2009`, `SRC-MED-SA-SARIT-CARAKA-2012` | A/B documental | AUDITADO |
+| `TIME-MED-SA-HOSPITALS-REVIEW-001` | 2022 | revisión separa idea textual, política, edificio e institución | depende de archivo y función por caso | `SRC-MED-SA-WUJASTYK-HOSPITALS-2022` | A método/B histórico | AUDITADO |
+| `TIME-MED-SA-SURGERY-EDITION-001` | 2023 | edición nepalesa publica variantes de reparación auricular y nasal | texto no aporta serie de resultados | `SRC-MED-SA-WUJASTYK-SURGERY-2023` | A/B documental | AUDITADO |
+| `TIME-MED-SA-SUSRUTA-PROJECT1-001` | 2024 | Suśruta Project 1 completa la transcripción diplomática de los testigos nepaleses | edición abierta; original perdido | `SRC-MED-SA-SUSRUTA-PROJECT1-2026` | A documental/B textual | AUDITADO |
+| `TIME-MED-SA-TRANSLATION-2025-001` | 2025 | análisis compara estrategias chinas de traducción médica | corpus budista seleccionado | `SRC-MED-SA-LU-2025` | B histórico | AUDITADO |
+| `TIME-MED-SA-SUSRUTA-DATE-2026-001` | 2026 | balance filológico rechaza 600 a. e. c. como fecha segura de un autor único | conclusión vigente, revisable por nuevos testigos | `SRC-MED-SA-WUJASTYK-DATE-2026` | B histórico | AUDITADO |
+
+## MED-006 — Hitos de los archivos médicos de China y Asia oriental
+
+| ID | Fecha/intervalo | Evento delimitado | Incertidumbre y evidencia | Fuente | Confianza | Estado |
+|---|---:|---|---|---|---|---|
+| `TIME-MED-EA-ORACLE-001` | ca. 1250–1046 a. e. c. | inscripciones oraculares registran aflicciones y consultas de la corte Shang tardía | paleografía y género; no diagnóstico moderno ni población | `SRC-MED-EA-COOK-2023` | A/B documental | AUDITADO |
+| `TIME-MED-EA-ZHANGJIASHAN-001` | ca. 186 a. e. c. | cierre de la tumba 247 conserva el *Maishu* y repertorios corporales | fecha del depósito, no de cada pasaje | `SRC-MED-EA-COOK-2023` | A material/B textual | AUDITADO |
+| `TIME-MED-EA-MAWANGDUI-001` | 168 a. e. c. | cierre de la tumba 3 fija un *terminus ante quem* para sus manuscritos | copias depositadas; composición anterior abierta | `SRC-MED-EA-HARPER-1998`, `SRC-MED-EA-COOK-2023` | A material/B textual | AUDITADO |
+| `TIME-MED-EA-TIANHUI-EARLY-001` | comienzos del siglo II a. e. c. | manuscritos y figurilla de Tianhui/Laoguanshan fueron copiados y depositados | orden de tiras, títulos y autoría revisables | `SRC-MED-EA-LIU-2024`, `SRC-MED-EA-LO-PIERCING-2024` | A/B material | AUDITADO |
+| `TIME-MED-EA-WUWEI-001` | Han oriental, siglos I–II e. c. | Wuwei conserva fórmulas, cantidades, punción y compra de sustancias | ejecución y taxones no siempre identificables | `SRC-MED-EA-YANG-BROWN-2017` | A/B documental | AUDITADO |
+| `TIME-MED-EA-CANON-FORMATION-001` | siglos II–V e. c. | repertorios atribuidos a Zhang Ji, Wang Shuhe y Huangfu Mi se compilan y reorganizan | autógrafos perdidos y capas reconstruidas | `SRC-MED-EA-COOK-2023` | B histórico | AUDITADO |
+| `TIME-MED-EA-XINXIU-001` | 659 | la corte Tang completa la *Xinxiu bencao* | norma editorial; suministro y cumplimiento no medidos | `SRC-MED-EA-IDP-XINXIU-2026` | A documental/B implementación | AUDITADO |
+| `TIME-MED-EA-DUNHUANG-MOXA-001` | ca. 700–900 | el rollo Or.8210/S.6168 conserva figuras y lugares de moxa | fecha paleográfica; uso y efecto ausentes | `SRC-MED-EA-IDP-MOXA-2026` | A/B material | AUDITADO |
+| `TIME-MED-EA-WANGBING-001` | 762 | Wang Bing concluye una revisión identificable del *Suwen* | fecha de recensión, no origen de todos los pasajes | `SRC-MED-EA-COOK-2023` | B histórico | AUDITADO |
+| `TIME-MED-EA-ISHINPO-001` | 984 | Tamba Yasuyori presenta *Ishinpō* en treinta rollos a la corte japonesa | compilación documentada; práctica nacional no inferida | `SRC-MED-EA-JAPAN-ISHINPO-2026`, `SRC-MED-EA-LOC-ISHINPO-2026` | A documental/B recepción | AUDITADO |
+| `TIME-MED-EA-WANGWEIYI-001` | 1027 | Wang Weiyi produce manual, estela y modelos de bronce para enseñanza | estandarización representacional; resultados no medidos | `SRC-MED-EA-WANGWEIYI-2018` | B histórico | AUDITADO |
+| `TIME-MED-EA-DONGUIBOGAM-001` | 1613 | se concluye *Donguibogam* bajo patrocinio real Joseon | síntesis institucional; cobertura separada | `SRC-MED-EA-UNESCO-DONGUIBOGAM-2009` | A documental/B implementación | AUDITADO |
+| `TIME-MED-EA-ORACLE-RECOGNITION-001` | 1899 | eruditos reconocen escritura antigua en los llamados huesos de dragón | historia del descubrimiento moderno; procedencias tempranas incompletas | `SRC-MED-EA-COOK-2023` | B histórico | AUDITADO |
+| `TIME-MED-EA-MAWANGDUI-EXCAVATION-001` | 1972–1974 | excavación de Mawangdui abre un archivo médico no transmitido | edición y remontaje posteriores revisables | `SRC-MED-EA-HARPER-1998` | A material/B editorial | AUDITADO |
+| `TIME-MED-EA-WUWEI-EXCAVATION-001` | 1972 | hallazgo de los manuscritos médicos de Wuwei | contexto preservado; interpretación acumulativa | `SRC-MED-EA-YANG-BROWN-2017` | A material | AUDITADO |
+| `TIME-MED-EA-ZHANGJIASHAN-EXCAVATION-001` | 1983 | excavación de la tumba 247 añade variantes del *Maishu* | relación textual no lineal | `SRC-MED-EA-COOK-2023` | A material/B textual | AUDITADO |
+| `TIME-MED-EA-HARPER-001` | 1998 | Harper publica estudio y traducción extensa de Mawangdui | interpretación filológica revisable | `SRC-MED-EA-HARPER-1998` | A/B documental | AUDITADO |
+| `TIME-MED-EA-HSU-001` | 2005 | Hsu reconstruye el tacto como tecnología histórica | repertorio sensorial; no exactitud moderna | `SRC-MED-EA-HSU-2005` | A método/B histórico | AUDITADO |
+| `TIME-MED-EA-LO-HISTORY-001` | 2009 | Lo evalúa dos décadas de historia de las artes de sanar chinas | balance historiográfico, no corpus social completo | `SRC-MED-EA-LO-2009` | A método | AUDITADO |
+| `TIME-MED-EA-TIANHUI-EXCAVATION-001` | 2012 | excavación de la tumba M3 de Tianhui recupera tiras y figurilla | reconstrucción editorial posterior | `SRC-MED-EA-LIU-2024` | A material | AUDITADO |
+| `TIME-MED-EA-WUWEI-TRANSLATION-001` | 2017 | Yang y Brown publican introducción y traducción de Wuwei | identificaciones de sustancias permanecen tentativas | `SRC-MED-EA-YANG-BROWN-2017` | A/B documental | AUDITADO |
+| `TIME-MED-EA-TIANHUI-FACSIMILE-001` | 2022 | edición facsimilar vuelve auditables orden, trazos y títulos propuestos | facsímil no elimina decisiones de remontaje | `SRC-MED-EA-LIU-2024` | A documental/B editorial | AUDITADO |
+| `TIME-MED-EA-COOK-001` | 2023 | Cook sintetiza la historia médica de Asia oriental desde textos excavados | selección explícita; no representación poblacional | `SRC-MED-EA-COOK-2023` | A método/B histórico | AUDITADO |
+| `TIME-MED-EA-TIANHUI-PUBLICATION-001` | 2023–2024 | estudios internacionales publican corpus y traducción de punción Tianhui | atribución y función siguen abiertas | `SRC-MED-EA-LIU-2024`, `SRC-MED-EA-LO-PIERCING-2024` | A/B documental | AUDITADO |
+## MED-007 — Hitos de la medicina en el Mediterráneo griego y helenístico
+
+| ID | Fecha/intervalo | Evento delimitado | Incertidumbre y evidencia | Fuente | Confianza | Estado |
+|---|---:|---|---|---|---|---|
+| `TIME-MED-GR-HIPPOCRATES-001` | siglo V a. e. c. | testimonios clásicos reconocen a Hipócrates de Cos como médico | biografía firme mínima; corpus no heredado | `SRC-MED-GR-KING-2020`, `SRC-MED-GR-PORMANN-2018` | B histórico | AUDITADO |
+| `TIME-MED-GR-CORPUS-001` | ca. 450–350 a. e. c. | se compone gran parte de la colección hipocrática | cada tratado y estrato tiene cronología propia | `SRC-MED-GR-TOTELIN-2021` | B textual | AUDITADO |
+| `TIME-MED-GR-SURGERY-001` | siglos V–IV a. e. c. | tratados conservan repertorios de fractura, articulación y heridas de cabeza | fecha textual; ejecución y resultado separados | `SRC-MED-GR-WITT-2018` | A/B documental | AUDITADO |
+| `TIME-MED-GR-EPIDEMICS-001` | siglo IV a. e. c. | *Epidemias* 1 y 3 organizan casos, días y constituciones | composición y función abiertas | `SRC-MED-GR-KING-PHRONTIS-2019` | B textual | AUDITADO |
+| `TIME-MED-GR-OATH-001` | siglo IV a. e. c., tentativo | se formula el Juramento hipocrático | fecha, comunidad y uso discutidos | `SRC-MED-GR-LEVEN-2018` | B-COND | AUDITADO |
+| `TIME-MED-GR-ARISTOTLE-001` | siglo IV a. e. c. | Aristóteles desarrolla comparación y disección animal | textos conservados; transferencia humana limitada | `SRC-MED-GR-BUBB-2022` | A/B textual | AUDITADO |
+| `TIME-MED-GR-IAMATA-001` | fines del siglo IV a. e. c. | cuatro estelas de Epidauro publican setenta *iamata* | relatos seleccionados; episodios pueden ser anteriores | `SRC-MED-GR-SOLIN-2013` | A epigráfico/B composición | AUDITADO |
+| `TIME-MED-GR-PUBLIC-001` | siglos IV–II a. e. c. | ciudades documentan contratación, privilegios y honores de médicos | corpus local y retórica honorífica | `SRC-MED-GR-NUTTON-1977`, `SRC-MED-GR-SAMAMA-2005` | A/B epigráfico | AUDITADO |
+| `TIME-MED-GR-ALEXANDRIA-001` | ca. 300–250 a. e. c. | Herófilo y Erasístrato se asocian con disección humana en Alejandría | obras perdidas y testimonios posteriores | `SRC-MED-GR-BUBB-2022` | B histórico | AUDITADO |
+| `TIME-MED-GR-HEART-001` | siglo III–I a. e. c., tentativo | probable composición tardía de *Sobre el corazón* | propuestas separadas por siglos; autor desconocido | `SRC-MED-GR-HEART-2023` | B-COND | AUDITADO |
+| `TIME-MED-GR-EMPIRICISTS-001` | ca. 175–75 a. e. c. | una comunidad empirista lee intensamente el corpus | reconstrucción desde fragmentos y testimonios | `SRC-MED-GR-BERREY-2015` | B histórico | AUDITADO |
+| `TIME-MED-GR-CELSUS-001` | ca. 25 a. e. c.–50 e. c. | Celso transmite atribución de vivisección de condenados | testimonio romano posterior, no observación coetánea | `SRC-MED-GR-SCARBOROUGH-1976` | A testimonio/C evento | AUDITADO |
+| `TIME-MED-GR-IAMATA-EXCAVATION-001` | 1881–1903 | excavaciones recuperan y publican estelas de Epidauro | historia moderna de hallazgo y edición | `SRC-MED-GR-SOLIN-2013` | A material/B editorial | AUDITADO |
+| `TIME-MED-GR-LONIE-001` | 1978 | Lonie critica la construcción historiográfica Cos/Cnido | argumento revisable por nuevos archivos | `SRC-MED-GR-LONIE-1978` | A método | AUDITADO |
+| `TIME-MED-GR-DISSECTION-REVIEW-001` | 2022 | Bubb integra disección clásica y helenística en historia social | síntesis dependiente de fragmentos | `SRC-MED-GR-BUBB-2022` | A método/B histórico | AUDITADO |
+| `TIME-MED-GR-HEART-REVIEW-001` | 2023 | comentario reevalúa *Sobre el corazón* y su cronología | no resuelve fecha ni especie disecada | `SRC-MED-GR-HEART-2023` | A método/B-COND | AUDITADO |
+
+## MED-008 — Roma, Bizancio y Mediterráneo tardío
+
+| ID | Fecha/intervalo | Evento delimitado | Incertidumbre y evidencia | Fuente | Confianza | Estado |
+|---|---:|---|---|---|---|---|
+| `TIME-MED-RB-REPUBLIC-001` | siglos III–I a. e. c. | fuentes conservan cuidado militar republicano fragmentario | no sostienen cuerpo voluntario moderno universal | `SRC-MED-RB-SCARBOROUGH-1968`, `SRC-MED-RB-NUTTON-1969` | B histórico | AUDITADO |
+| `TIME-MED-RB-CELSUS-001` | ca. 25 a. e. c.–50 e. c. | Celso compone *De medicina* en latín | texto letrado, no encuesta de práctica romana | `SRC-MED-RB-BAKER-2013` | A textual/B práctica | AUDITADO |
+| `TIME-MED-RB-IMPERIAL-ARMY-001` | siglos I–III e. c. | fuertes e inscripciones documentan médicos y valetudinaria imperiales | función, escala y operación varían por unidad | `SRC-MED-RB-NUTTON-1969`, `SRC-MED-RB-ALLASONJONES-1999` | A/B arqueológico | AUDITADO |
+| `TIME-MED-RB-SORANUS-001` | siglos I–II e. c. | Sorano escribe sobre ginecología y parto | no representa todas las parteras o pacientes | `SRC-MED-RB-FLEMMING-2000` | A textual/B social | AUDITADO |
+| `TIME-MED-RB-GALEN-001` | ca. 129–216 e. c. | Galeno practica y compone un corpus excepcional | casos seleccionados y anatomía principalmente animal | `SRC-MED-RB-HANKINSON-2008` | A documental/B práctica | AUDITADO |
+| `TIME-MED-RB-PARASITES-001` | siglos I a. e. c.–V e. c. | contextos romanos conservan parásitos intestinales | muestreo y preservación no estiman prevalencia imperial | `SRC-MED-RB-MITCHELL-2017`, `SRC-MED-RB-LEDGER-2020` | A presencia/B distribución | AUDITADO |
+| `TIME-MED-RB-ORIBASIUS-001` | ca. 325–403 | Oribasio selecciona y reorganiza medicina griega | compilación no equivale a práctica uniforme | `SRC-MED-RB-NUTTON-1984` | A/B textual | AUDITADO |
+| `TIME-MED-RB-BASIL-001` | ca. 369 | complejo asociado con Basilio institucionaliza caridad a pobres y enfermos | función y genealogía hospitalaria debatidas | `SRC-MED-RB-HORDEN-2005`, `SRC-MED-RB-HORDEN-2012` | B histórico | AUDITADO |
+| `TIME-MED-RB-AETIUS-001` | siglo VI | Aecio de Amida compila repertorios médicos | ejecución y circulación social permanecen abiertas | `SRC-MED-RB-NUTTON-1984`, `SRC-MED-RB-SCARBOROUGH-1984` | A/B textual | AUDITADO |
+| `TIME-MED-RB-ALEXANDER-001` | siglo VI | Alejandro de Tralles combina tradición y observaciones declaradas | casos seleccionados sin denominador | `SRC-MED-RB-NUTTON-1984`, `SRC-MED-RB-DUFFY-1984` | A/B textual | AUDITADO |
+| `TIME-MED-RB-PAUL-001` | siglo VII | Pablo de Egina organiza una síntesis médica y quirúrgica | descripción no prueba frecuencia o resultados | `SRC-MED-RB-BLIQUEZ-1984`, `SRC-MED-RB-DUFFY-1984` | A documental/C efecto | AUDITADO |
+| `TIME-MED-RB-TRANSLATIONS-001` | siglos VI–XII | materiales circulan por versiones siríacas, árabes, hebreas y latinas | cada dirección requiere testigos y agentes | `SRC-MED-RB-BAADER-1984`, `SRC-MED-RB-RIDDLE-1984` | B por ruta | AUDITADO |
+| `TIME-MED-RB-PANTOKRATOR-001` | 1136 | typikon prescribe salas, personal y turnos del Pantocrátor | norma concreta, no diario ni red universal | `SRC-MED-RB-MILLER-1984`, `SRC-MED-RB-HORDEN-2005` | A documental/B operación | AUDITADO |
+| `TIME-MED-RB-AKTOUARIOS-001` | ca. 1275–1330 | Juan Zacarías Actuario desarrolla casos, uroscopia y farmacología | un autor tardío no representa todo Bizancio | `SRC-MED-RB-BOURAS-2020` | A/B histórico | AUDITADO |
+| `TIME-MED-RB-DOP-001` | 1984 | simposio de Dumbarton Oaks conecta práctica, hospitales, objetos, fármacos y transmisión | volumen programático no cierra controversias | `SRC-MED-RB-NUTTON-1984`, `SRC-MED-RB-MILLER-1984`, `SRC-MED-RB-BAADER-1984` | A historiográfico | AUDITADO |
+| `TIME-MED-RB-PARASITOLOGY-REVIEW-001` | 2016–2024 | revisiones y estudios regionales integran paleoparasitología romana | cobertura geográfica todavía desigual | `SRC-MED-RB-MITCHELL-2017`, `SRC-MED-RB-LEDGER-2020`, `SRC-MED-RB-LEDGER-2024` | A método/B generalización | AUDITADO |
+| `TIME-MED-RB-INNOVATION-REVIEW-001` | 2020 | Bouras-Vallianatos audita innovación tardobizantina | foco autoral y cronológico específico | `SRC-MED-RB-BOURAS-2020` | A método/B histórico | AUDITADO |
+| `TIME-MED-RB-COLCHESTER-001` | 2026 | estudio de Colchester reúne instrumentos y contextos urbanos | un conjunto no representa el Imperio | `SRC-MED-RB-CRUMMY-2026` | A material/B alcance | AUDITADO |
+
+## MED-009 — África fuera del eje egipcio
+
+| ID | Fecha/intervalo | Evento delimitado | Incertidumbre y evidencia | Fuente | Confianza | Estado |
+|---|---:|---|---|---|---|---|
+| `TIME-MED-AFRICA-KERMA-001` | ca. 2500–1500 a. e. c. | Reino y cementerios de Kerma conservan series humanas y contextos funerarios | no forman una población o medicina uniforme | `SRC-MED-AFRICA-BUZON-2008`, `SRC-MED-AFRICA-MARTIN-2013` | A/B arqueológico | AUDITADO |
+| `TIME-MED-AFRICA-KERMA-K317-001` | Kerma clásico | K317 sobrevive a una abertura craneal circular | cronología, causa y finalidad exactas siguen abiertas | `SRC-MED-AFRICA-MARTIN-2013` | A lesión/B-COND causa | AUDITADO |
+| `TIME-MED-AFRICA-JENNE-001` | desde ca. siglo III a. e. c. | Jenne-jeno desarrolla ocupación urbana, producción e intercambio | urbanismo no fecha una institución médica | `SRC-MCINTOSH-JENNE-1981` | A/B arqueológico | AUDITADO |
+| `TIME-MED-AFRICA-AKSUM-001` | I milenio a. e. c.–I milenio e. c. | Bieta Giyorgis conserva fases pre, proto y aksumitas | preservación corporal y resolución varían | `SRC-MED-AFRICA-BARD-2025` | A/B arqueológico | AUDITADO |
+| `TIME-MED-AFRICA-KULUBNARTI-001` | ca. 650–1000 e. c. | cementerios R y S fueron usados en gran medida contemporáneamente | función mortuoria interna permanece debatida | `SRC-MED-AFRICA-GODDE-2021`, `SRC-MED-AFRICA-SIRAK-2021` | A datación/B función | AUDITADO |
+| `TIME-MED-AFRICA-TONG-001` | 1463–1553 e. c. | OSL sitúa el contexto de recipientes de Tong Hills | relación con identidad talensi posterior no demostrada | `SRC-MED-AFRICA-FRASER-2012` | A datación/B identidad | AUDITADO |
+| `TIME-MED-AFRICA-TIMBUKTU-001` | siglos XVII–XVIII, rango catalográfico | manuscrito de Tombuctú reúne remedios, diagnóstico, plegarias y amuletos | fecha de compilación y uso permanecen inciertos | `SRC-MED-AFRICA-LOC-TIMBUKTU` | A objeto/B fecha | AUDITADO |
+| `TIME-MED-AFRICA-ETHIOPIC-001` | principalmente siglos XIX–XX en los catálogos usados | códices y rollos etíopes documentan repertorios médicos y protectores tardíos | no retroceden automáticamente hasta Aksum | `SRC-MED-AFRICA-STRELCYN-1972`, `SRC-MED-AFRICA-HAILE-2009` | A documental/B continuidad | AUDITADO |
+| `TIME-MED-AFRICA-JENNE-PUBLICATION-001` | 1981 | McIntosh y McIntosh publican síntesis temprana de Jenne-jeno | interpretación urbana siguió desarrollándose | `SRC-MCINTOSH-JENNE-1981` | A historiográfico | AUDITADO |
+| `TIME-MED-AFRICA-ORAL-HISTORY-001` | 1985 | Vansina sistematiza tradición oral como fuente histórica | no vuelve literal toda memoria | `SRC-MED-AFRICA-VANSINA-1985` | A método | AUDITADO |
+| `TIME-MED-AFRICA-OSTEO-PARADOX-001` | 1992 | el paradigma osteológico formaliza sesgos de inferir salud desde esqueletos | aplicación exige datos locales | `SRC-MED-AFRICA-WOOD-1992` | A método | AUDITADO |
+| `TIME-MED-AFRICA-TONG-ANALYSIS-001` | 2012 | geoquímica orgánica analiza recipientes medicinales de Ghana septentrional | residuo no identifica efecto | `SRC-MED-AFRICA-FRASER-2012` | A método/B función | AUDITADO |
+| `TIME-MED-AFRICA-CARE-INDEX-001` | 2014 | se publica el Índice de Cuidado | herramienta no identifica cuidadores por sí sola | `SRC-MED-AFRICA-TILLEY-2014` | A método | AUDITADO |
+| `TIME-MED-AFRICA-KULUBNARTI-REVISION-001` | 2021 | síntesis osteológica y paleogenómica revisan categorías de Kulubnarti | no eliminan diferencias sociales | `SRC-MED-AFRICA-GODDE-2021`, `SRC-MED-AFRICA-SIRAK-2021` | A método/B historia | AUDITADO |
+| `TIME-MED-AFRICA-NUBIA-REVIEW-001` | 2026 | síntesis reciente integra bioarqueología, historia de colección y ética nubias | cobertura regional sigue desigual | `SRC-MED-AFRICA-CIESIELSKA-2026` | A historiográfico/B alcance | AUDITADO |
+
+## MED-010 — Mesoamérica, Andes y otras Américas
+
+| ID | Fecha/intervalo | Evento delimitado | Incertidumbre y evidencia | Fuente | Confianza | Estado |
+|---|---:|---|---|---|---|---|
+| `TIME-MED-AMERICAS-PIAUI-001` | ca. 8500–7000 años AP | cinco coprolitos de Piauí conservan polen y parásitos intestinales | fecha el depósito, no el origen de una farmacopea | `SRC-MED-AMERICAS-CHAVES-REINHARD-2006` | A archivo/B función | AUDITADO |
+| `TIME-MED-AMERICAS-HUACA-001` | ca. 2100–1500 a. e. c. | una mujer de Huaca El Paraíso conserva microrestos en cálculo y caries | una persona; aplicación medicinal condicionada | `SRC-MED-AMERICAS-ALLENDE-2022` | A contexto/B-COND función | AUDITADO |
+| `TIME-MED-AMERICAS-TREPANATION-001` | desde ca. 400 a. e. c. | series peruanas documentan trepanaciones, técnicas y remodelación | no fecha invención única o indicación uniforme | `SRC-MED-AMERICAS-KUSHNER-2018` | A/B bioarqueológico | AUDITADO |
+| `TIME-MED-AMERICAS-CUZCO-001` | ca. 1000–1530 e. c., según sitio | 11 sitios de Cuzco aportan 66 individuos y 109 perforaciones | cronología y selección varían dentro de la serie | `SRC-MED-AMERICAS-ANDRUSHKO-2008` | A muestra/B periodo | AUDITADO |
+| `TIME-MED-AMERICAS-LIBELLUS-001` | 1552 | concluye el Libellus en Tlatelolco | objeto colonial; repertorios pueden tener genealogías anteriores | `SRC-MED-AMERICAS-INAH-LIBELLUS` | A documental | AUDITADO |
+| `TIME-MED-AMERICAS-FLORENTINE-001` | ca. 1577 | concluye el Códice Florentino conservado | fecha manuscrito, no cada práctica descrita | `SRC-MED-AMERICAS-GETTY-FLORENTINE` | A documental/B estrato | AUDITADO |
+| `TIME-MED-AMERICAS-COPROLITE-METHOD-001` | 1992 | Sobolik y Gerick relacionan polen y coprolitos diarreicos | inferencia medicinal mantiene usos dietarios alternativos | `SRC-MED-AMERICAS-SOBOLIK-GERICK-1992` | A método/B función | AUDITADO |
+| `TIME-MED-AMERICAS-CIRCULATION-001` | 2001 | Huguet-Termes separa recepción erudita y uso práctico de materia médica americana | archivo institucional parcial | `SRC-MED-AMERICAS-HUGUET-TERMES-2001` | A historiográfico/B alcance | AUDITADO |
+| `TIME-MED-AMERICAS-PIAUI-STUDY-001` | 2006 | análisis crítico estrecha doce géneros a tres casos más fuertes | función probable, efecto no medido | `SRC-MED-AMERICAS-CHAVES-REINHARD-2006` | A método/B-COND función | AUDITADO |
+| `TIME-MED-AMERICAS-CUZCO-STUDY-001` | 2008 | Andrushko y Verano publican la serie comparativa de Cuzco | 83 % depende de cicatrización y muestra | `SRC-MED-AMERICAS-ANDRUSHKO-2008` | A lesión/B desenlace | AUDITADO |
+| `TIME-MED-AMERICAS-CALCULUS-METHOD-001` | 2015 | estudio actualista prueba representatividad de microrestos dentales | señal grupal mejor que intensidad individual | `SRC-MED-AMERICAS-LEONARD-2015` | A método/B transferencia | AUDITADO |
+| `TIME-MED-AMERICAS-NAHUA-METHOD-001` | 2017–2018 | De Vos y Rios Castano contextualizan farmacopea y herbario nahuas | taxón, género y dependencia permanecen revisables | `SRC-MED-AMERICAS-DE-VOS-2017`, `SRC-MED-AMERICAS-RIOS-CASTANO-2018` | A método/B histórico | AUDITADO |
+| `TIME-MED-AMERICAS-MAYA-CONTROL-001` | 2018 | 193 dientes incrustados se comparan con 211 controles | consecuencias patológicas no equivalen a experiencia completa | `SRC-MED-AMERICAS-RAMIREZ-SALOMON-2018` | A muestra/B generalización | AUDITADO |
+| `TIME-MED-AMERICAS-MAYA-CHEMISTRY-001` | 2022 | ATR-FTIR y GC-MS caracterizan ocho cementos mayas | composición no prueba intención o efecto | `SRC-MED-AMERICAS-HERNANDEZ-BOLIO-2022` | A química/B identidad/C efecto | AUDITADO |
+| `TIME-MED-AMERICAS-FLORENTINE-DIGITAL-001` | 2023 | se publica el Códice Florentino Digital | edición amplía acceso; no borra mediaciones | `SRC-MED-AMERICAS-GETTY-FLORENTINE` | A digital/B editorial | AUDITADO |
+| `TIME-MED-AMERICAS-MAYA-SYNTHESIS-001` | 2024 | Tiesler integra tres milenios de modificación dental maya | síntesis depende de colecciones desiguales | `SRC-MED-AMERICAS-TIESLER-2024` | A historiográfico/B alcance | AUDITADO |
+| `TIME-MED-AMERICAS-TRANSLATION-001` | 2025 | Nesvig reevalúa categorías coloniales de magia y curación | foco temprano-colonial y textual | `SRC-MED-AMERICAS-NESVIG-2025` | A/B histórico | AUDITADO |
+
+## MED-011 — mundos islámicos
+
+| ID | Fecha | Evento | Alcance / reloj | Fuente | Confianza | Estado |
+|---|---|---|---|---|---|---|
+| `TIME-MED-ISLAMIC-HUNAYN-001` | ca. 809–873 | vida y actividad de Hunayn ibn Ishaq | biografía; no fecha cada versión | `SRC-MED-ISLAMIC-PORMANN-SAVAGE-2007` | A/B histórico | AUDITADO |
+| `TIME-MED-ISLAMIC-TRANSLATIONS-001` | s. IX | informe y proyectos greco-siríaco-árabes asociados con Hunayn | producción de versiones y encargos | `SRC-MED-ISLAMIC-VAGELPOHL-2011` | A textual/B fecha | AUDITADO |
+| `TIME-MED-ISLAMIC-RAZI-001` | ca. 854–925 | vida y actividad de al-Razi | marco biográfico; no fecha cada caso | `SRC-MED-ISLAMIC-ALVAREZ-MILLAN-2000` | A/B histórico | AUDITADO |
+| `TIME-MED-ISLAMIC-LICENSING-001` | 931/932 | examen de practicantes atribuido a Sinan ibn Thabit en Bagdad | episodio narrado posteriormente | `SRC-MED-ISLAMIC-IBN-ABI-USAYBIA-2024` | B histórico | AUDITADO |
+| `TIME-MED-ISLAMIC-RAZI-CASES-001` | s. X; compilación posterior | estrato de casos del Kitab al-Tajarib | observación atribuida y edición son relojes distintos | `SRC-MED-ISLAMIC-ALVAREZ-MILLAN-2010` | A textual/B fecha | AUDITADO |
+| `TIME-MED-ISLAMIC-IBN-SINA-001` | 980–1037 | vida de Ibn Sina y composición del Canon | marco autoral; copias y usos son posteriores | `SRC-MED-ISLAMIC-NASSER-2009` | A histórico | AUDITADO |
+| `TIME-MED-ISLAMIC-IBN-HAYTHAM-001` | ca. 965–1040 | vida y obra óptica de Ibn al-Haytham | investigación óptica, no desenlace clínico | `SRC-MED-ISLAMIC-RAYNAUD-2003` | A/B histórico | AUDITADO |
+| `TIME-MED-ISLAMIC-AMMAR-001` | inicios del s. XI | Ammar al-Mawsili describe aguja hueca para catarata | propuesta textual; uso y resultado abiertos | `SRC-MED-ISLAMIC-PEREZ-CAMBRODI-2015` | A textual/B fecha | AUDITADO |
+| `TIME-MED-ISLAMIC-RAZI-COPY-001` | 1094 | copia del manuscrito A17 de al-Hawi | fecha una sección conservada, no el corpus | `SRC-MED-ISLAMIC-NLM-RAZI` | A objeto | AUDITADO |
+| `TIME-MED-ISLAMIC-NURI-001` | 1154 | fundación del bimaristan al-Nuri en Damasco | fundación, no operación invariable | `SRC-MED-ISLAMIC-RAGAB-2015` | A/B histórico | AUDITADO |
+| `TIME-MED-ISLAMIC-CANON-COMMENTARIES-001` | ss. XII–XIV | comentarios árabes al Canon verifican o modifican proposiciones | recepción plural | `SRC-MED-ISLAMIC-FANCY-2020` | A/B histórico | AUDITADO |
+| `TIME-MED-ISLAMIC-GENIZAH-001` | principalmente ss. XI–XIII | prescripciones y cuadernos médicos de la Geniza | estratos documentales variables | `SRC-MED-ISLAMIC-LEV-AMAR-2007`, `SRC-MED-ISLAMIC-LEV-2013` | A documental/B fecha | AUDITADO |
+| `TIME-MED-ISLAMIC-QALAWUN-001` | 1284–1285 | fundación del complejo de Qalawun en El Cairo | waqf, dotación y programa | `SRC-MED-ISLAMIC-RAGAB-2015` | A/B histórico | AUDITADO |
+| `TIME-MED-ISLAMIC-UYUN-001` | s. XIII | Ibn Abi Usaybia compone y amplía su historia de médicos | obra biográfica, no padrón | `SRC-MED-ISLAMIC-IBN-ABI-USAYBIA-2024` | A obra/B representación | AUDITADO |
+| `TIME-MED-ISLAMIC-SHADHILI-001` | s. XIV | un oculista egipcio cuestiona extracción de catarata | desacuerdo textual, no frecuencia | `SRC-MED-ISLAMIC-SAVAGE-SMITH-2022` | A textual/B alcance | AUDITADO |
+| `TIME-MED-ISLAMIC-CASE-HISTORIOGRAPHY-001` | 2000–2010 | Álvarez-Millán reevalúa casos como fuentes de práctica | cambio historiográfico | `SRC-MED-ISLAMIC-ALVAREZ-MILLAN-2000`, `SRC-MED-ISLAMIC-ALVAREZ-MILLAN-2010` | A publicación | AUDITADO |
+| `TIME-MED-ISLAMIC-HOSPITAL-HISTORIOGRAPHY-001` | 1987–2015 | Dols y Ragab revisan origen y operación de hospitales | cambio historiográfico | `SRC-MED-ISLAMIC-DOLS-1987`, `SRC-MED-ISLAMIC-RAGAB-2015` | A publicación | AUDITADO |
+
+## MED-012 — Europa medieval y tradiciones judías
+
+| ID | Fecha | Evento | Alcance / reloj | Fuente | Confianza | Estado |
+|---|---|---|---|---|---|---|
+| `TIME-MED-MEDIEVAL-CAROLINGIAN-RECIPES-001` | ca. 775–900 | se copian colecciones médicas carolingias | fecha testigos y estratos, no ejecución | `SRC-MED-MEDIEVAL-BURRIDGE-2024` | A/B histórico | AUDITADO |
+| `TIME-MED-MEDIEVAL-BALD-001` | finales s. IX–mediados s. X | se copia Royal MS 12 D XVII | fecha el códice, no cada composición | `SRC-MED-MEDIEVAL-BL-BALD` | A objeto/B rango | AUDITADO |
+| `TIME-MED-MEDIEVAL-CONSTANTINE-001` | ca. 1070–1098/1099 | Constantino trabaja entre Salerno y Monte Cassino | actividad y versiones, no un Pantegni fijo | `SRC-MED-MEDIEVAL-KALTIO-2023` | A/B histórico | AUDITADO |
+| `TIME-MED-MEDIEVAL-TROTULA-001` | finales s. XI–s. XII | se forman y combinan textos del Trotula | estratos y ensamblaje | `SRC-MED-MEDIEVAL-GREEN-1996` | A/B filológico | AUDITADO |
+| `TIME-MED-MEDIEVAL-ARTICELLA-001` | ca. 1100–1250 | la Articella cambia y circula | colección docente variable | `SRC-MED-MEDIEVAL-NLM-MANUSCRIPTS`, `SRC-MED-MEDIEVAL-OBOYLE-1998` | A/B histórico | AUDITADO |
+| `TIME-MED-MEDIEVAL-TOLEDO-001` | segunda mitad s. XII | Gerard y otros traducen en Toledo | programas y versiones concretas | `SRC-MED-MEDIEVAL-BURNETT-2001` | A/B histórico | AUDITADO |
+| `TIME-MED-MEDIEVAL-HEBREW-001` | desde finales s. XII | aumentan traducciones médicas al hebreo | transferencia y adaptación | `SRC-MED-MEDIEVAL-CABALLERO-2012`, `SRC-MED-MEDIEVAL-ZIEGLER-1997` | A/B histórico | AUDITADO |
+| `TIME-MED-MEDIEVAL-ST-JOHN-001` | ca. 1195–1200 | se funda St John de Cambridge | fundación y caridad, no clínica moderna | `SRC-MED-MEDIEVAL-RUBIN-1987` | A/B histórico | AUDITADO |
+| `TIME-MED-MEDIEVAL-UNIVERSITIES-001` | s. XIII | se consolidan facultades médicas en varias ciudades | corporaciones y currículos locales | `SRC-MED-MEDIEVAL-OBOYLE-1998`, `SRC-MED-MEDIEVAL-GARCIA-BALLESTER-1995` | A/B histórico | AUDITADO |
+| `TIME-MED-MEDIEVAL-TADDEO-001` | ca. 1260–1295 | Taddeo Alderotti enseña en Bolonia | actividad docente y comentarios | `SRC-MED-MEDIEVAL-SIRAISI-1981` | A/B histórico | AUDITADO |
+| `TIME-MED-MEDIEVAL-ARAGON-001` | 1285–1345 | archivos aragoneses documentan practicantes y pacientes | encuentros y mercado, no censo total | `SRC-MED-MEDIEVAL-MCVAUGH-1993` | A documental/B alcance | AUDITADO |
+| `TIME-MED-MEDIEVAL-VALENCIA-001` | s. XIV | Valencia registra exámenes y licencias | autorización local | `SRC-MED-MEDIEVAL-GARCIA-MCVAUGH-RUBIO-1989` | A documental/B cumplimiento | AUDITADO |
+| `TIME-MED-MEDIEVAL-GUY-001` | ca. 1300–1368 | vida y actividad de Guy de Chauliac | marco biográfico, no cada operación | `SRC-MED-MEDIEVAL-MCVAUGH-2001` | A/B histórico | AUDITADO |
+| `TIME-MED-MEDIEVAL-CHIRURGIA-001` | 1363 | Guy completa su tratado de cirugía | composición textual | `SRC-MED-MEDIEVAL-MCVAUGH-2001` | A textual | AUDITADO |
+| `TIME-MED-MEDIEVAL-HISTORIOGRAPHY-001` | 1988–1989 | Horden y Green replantean hospital y práctica femenina | cambio historiográfico | `SRC-MED-MEDIEVAL-HORDEN-1988`, `SRC-MED-MEDIEVAL-GREEN-1989` | A publicación | AUDITADO |
+| `TIME-MED-MEDIEVAL-SOCIAL-HISTORY-001` | 1993–1995 | McVaugh, Shatzmiller y García-Ballester estudian práctica y regulación | giro archivístico y social | `SRC-MED-MEDIEVAL-MCVAUGH-1993`, `SRC-MED-MEDIEVAL-SHATZMILLER-1995`, `SRC-MED-MEDIEVAL-GARCIA-BALLESTER-1995` | A publicación | AUDITADO |
+| `TIME-MED-MEDIEVAL-TROTULA-HISTORIOGRAPHY-001` | 1996 | Green reconstruye el desarrollo plural del Trotula | cambio filológico | `SRC-MED-MEDIEVAL-GREEN-1996` | A publicación | AUDITADO |
+| `TIME-MED-MEDIEVAL-RECIPES-HISTORIOGRAPHY-001` | 2024 | Burridge y Batten reevalúan recetas, práctica y cuerpo | cambio metodológico | `SRC-MED-MEDIEVAL-BURRIDGE-2024`, `SRC-MED-MEDIEVAL-BATTEN-2024` | A publicación | AUDITADO |
+
+## MED-013 — Rutas del Índico y Eurasia
+
+| ID | Fecha / rango | Evento o testigo | Qué fecha | Fuentes | Confianza | Estado |
+|---|---|---|---|---|---|---|
+| `TIME-MED-ROUTES-DUNHUANG-001` | ca. siglos IX–X | se copian/depositan manuscritos tibetanos médicos de Dunhuang | testigos concretos, no origen de cada técnica | `SRC-MED-ROUTES-YOELI-TLALIM-2012`, `SRC-MED-ROUTES-HAN-2025` | A objeto/B estrato | AUDITADO |
+| `TIME-MED-ROUTES-BELITUNG-001` | ca. 830 | naufraga el barco de Belitung | cierre de un tramo y asociación de carga | `SRC-MED-ROUTES-FLECKER-2001` | A arqueológico | AUDITADO |
+| `TIME-MED-ROUTES-GENIZA-CORPUS-001` | siglos X–XII | se producen cartas, listas y documentos médicos preservados en la Geniza | documentos concretos, no una práctica continua | `SRC-MED-ISLAMIC-LEV-AMAR-2007`, `SRC-MED-ISLAMIC-LEV-2013` | A documental/B uso | AUDITADO |
+| `TIME-MED-ROUTES-INDIA-TRADER-001` | siglo XI | cartas siguen a un mercader entre Egipto, Adén e India | tramos y relaciones de un caso | `SRC-MED-ROUTES-GOITEIN-1987`, `SRC-MED-ROUTES-LAMBOURN-2018` | A documental | AUDITADO |
+| `TIME-MED-ROUTES-GIFTS-001` | siglos XI–XIII | fuentes registran regalos de materia medica entre cortes | entrega narrada, no administración | `SRC-MED-ROUTES-DURAK-2023` | A/B histórico | AUDITADO |
+| `TIME-MED-ROUTES-SUGAR-001` | siglos XII–XIV | circulan y cambian versiones de pociones azucaradas | genealogía textual por recetas | `SRC-MED-ROUTES-BOURAS-VALLIANATOS-2021` | A/B filológico | AUDITADO |
+| `TIME-MED-ROUTES-MONGOL-EMPIRE-001` | 1206–1368 | expansión y fragmentación de imperios mongoles | marco político variable | `SRC-MED-ROUTES-ALLSEN-2001` | A/B histórico | AUDITADO |
+| `TIME-MED-ROUTES-RASHID-001` | ca. 1300–1318 | Rashid al-Din y proyectos relacionados median materiales chinos | actividad y compilación delimitadas | `SRC-MED-ROUTES-BUELL-2007` | A/B histórico | AUDITADO |
+| `TIME-MED-ROUTES-MONGOL-BUREAUS-001` | siglos XIII–XIV | oficinas y especialistas extranjeros operan en China mongola | capacidad institucional, no cobertura | `SRC-MED-ROUTES-BUELL-2021`, `SRC-MED-ROUTES-ROSSABI-MORRISON-2023` | A institución/B alcance | AUDITADO |
+| `TIME-MED-ROUTES-HUIHUI-001` | estratos s. XIV; testigos posteriores | se compilan materiales preservados en el Huihui yaofang | capas textuales, no uso uniforme | `SRC-MED-ROUTES-BUELL-2021` | A/B filológico | AUDITADO |
+| `TIME-MED-ROUTES-PORTUGUESE-INDIA-001` | 1498 | portugueses abren un corredor imperial marítimo a India | nueva conexión europea, no inicio de redes del Índico | `SRC-MED-ROUTES-COSTA-LEITAO-2016` | A histórico | AUDITADO |
+| `TIME-MED-ROUTES-ORTA-GOA-001` | 1534–1563 | Orta trabaja y reúne materiales en Goa | actividad y producción de la obra | `SRC-MED-ROUTES-COSTA-2012` | A/B histórico | AUDITADO |
+| `TIME-MED-ROUTES-ORTA-PRINT-001` | 1563 | se imprimen los Colóquios en Goa | edición príncipe, no adopción | `SRC-MED-ROUTES-CARVALHO-2016` | A editorial | AUDITADO |
+| `TIME-MED-ROUTES-CLUSIUS-001` | 1567–1574 | Clusius abrevia y publica versiones latinas | recepción editorial y nueva audiencia | `SRC-MED-ROUTES-COSTA-LEITAO-2016` | A/B editorial | AUDITADO |
+| `TIME-MED-ROUTES-GENIZA-HISTORIOGRAPHY-001` | 1987–2018 | Goitein y Lambourn reconstruyen mercader y equipaje | giro microhistórico/material | `SRC-MED-ROUTES-GOITEIN-1987`, `SRC-MED-ROUTES-LAMBOURN-2018` | A publicación | AUDITADO |
+| `TIME-MED-ROUTES-BELITUNG-HISTORIOGRAPHY-001` | 2001–2022 | arqueología y crítica patrimonial reevalúan Belitung | cambio material y de procedencia | `SRC-MED-ROUTES-FLECKER-2001`, `SRC-MED-ROUTES-PEARSON-2022` | A publicación | AUDITADO |
+| `TIME-MED-ROUTES-DUNHUANG-HISTORIOGRAPHY-001` | 2012–2025 | se revisan Galeno y moxibustión en Dunhuang | cambio filológico y comparativo | `SRC-MED-ROUTES-YOELI-TLALIM-2012`, `SRC-MED-ROUTES-HAN-2025` | A publicación | AUDITADO |
+
+## MED-014 — Epidemias y cuarentenas
+
+| ID | Fecha / rango | Evento o testigo | Qué fecha | Fuentes | Confianza | Estado |
+|---|---|---|---|---|---|---|
+| `TIME-MED-EPID-FIRST-PANDEMIC-001` | 541–750 | ondas históricas agrupadas como primera pandemia | marco amplio; no fecha cada brote | `SRC-MED-EPID-KELLER-2019`, `SRC-MED-EPID-SARRIS-2022` | A/B histórico | AUDITADO |
+| `TIME-MED-EPID-JERASH-BURIAL-001` | mediados s. VI–inicios s. VII | deposición de la fosa del hipódromo de Jerash | crisis funeraria y contexto molecular | `SRC-MED-EPID-ADAPA-2025`, `SRC-MED-EPID-HENDRIX-2026` | A/B arqueológico | AUDITADO |
+| `TIME-MED-EPID-KYRGYZ-001` | 1338–1339 | lápidas de Kara-Djigach registran pestilencia y genomas basales | episodio local y linaje, no ruta completa | `SRC-MED-EPID-SPYROU-2022` | A documental/molecular | AUDITADO |
+| `TIME-MED-EPID-BLACKDEATH-EUROPE-001` | 1347–1353 | Peste Negra y transformaciones regionales europeas | ondas e impactos variables | `SRC-MED-EPID-BOS-2011`, `SRC-MED-EPID-IZDEBSKI-2022` | A/B histórico | AUDITADO |
+| `TIME-MED-EPID-EASTSMITHFIELD-001` | 1348–1350 | funciona el cementerio extraordinario de East Smithfield | entierro y víctimas muestreadas | `SRC-MED-EPID-BOS-2011` | A arqueológico | AUDITADO |
+| `TIME-MED-EPID-RAGUSA-001` | 1377 | Ragusa prescribe treinta días de espera a llegadas sospechosas | norma local, no eficacia | `SRC-MED-EPID-BLAZINA-2015`, `SRC-MED-EPID-RAVANCIC-2021` | A documental | AUDITADO |
+| `TIME-MED-EPID-VENICE-LAZARET-001` | desde 1423; uso posterior | Venecia institucionaliza aislamiento en lazaretos | fundación y continuidad variable | `SRC-MED-EPID-OSHEIM-2011`, `SRC-MED-EPID-HENDERSON-2020` | A/B histórico | AUDITADO |
+| `TIME-MED-EPID-BRISTOL-001` | 1565–1604 | epidemias y políticas domésticas comparadas en Bristol | hogares y cambios de ejecución | `SRC-MED-EPID-UDALE-2023` | A/B histórico | AUDITADO |
+| `TIME-MED-EPID-BRISTOL-INTENSE-001` | 1603–1604 | aplicación intensa de encierro doméstico en Bristol | periodo comparativo; no cada casa | `SRC-MED-EPID-UDALE-2023` | B cumplimiento | AUDITADO |
+| `TIME-MED-EPID-LONDON-ORDERS-001` | 1665 | Londres publica órdenes contra la peste | programa normativo | `SRC-MED-EPID-LONDON-ORDERS-1665` | A documental | AUDITADO |
+| `TIME-MED-EPID-LONDON-BILLS-001` | 1665–1666 | Bills registran semanalmente la gran epidemia | entierros y causas atribuidas | `SRC-MED-EPID-GREENBERG-2011`, `SRC-MED-EPID-DEATHBYNUMBERS-2026` | A documental/B cobertura | AUDITADO |
+| `TIME-MED-EPID-MARSEILLE-ARRIVAL-001` | mayo–julio de 1720 | Grand Saint-Antoine, decisiones portuarias y primeros registros | secuencia administrativa, no cadena individual completa | `SRC-MED-EPID-SIGNOLI-2022`, `SRC-MED-EPID-MARSEILLE-JOURNAL-1720` | A/B histórico | AUDITADO |
+| `TIME-MED-EPID-MARSEILLE-CRISIS-001` | 1720–1722 | epidemia, cordones, fosas y respuestas en Marsella/Provenza | ondas y operaciones múltiples | `SRC-MED-EPID-SIGNOLI-2022`, `SRC-MED-EPID-MOURRE-1963` | A/B histórico | AUDITADO |
+| `TIME-MED-EPID-MARSEILLE-RELAPSE-001` | 1722 | recaída asociada con individuos de l’Observance | contexto de cinco genomas | `SRC-MED-EPID-BOS-MARSEILLE-2016` | A molecular/B episodio | AUDITADO |
+| `TIME-MED-EPID-MARSEILLE-HISTORIOGRAPHY-001` | 1963 | Mourre reconstruye intendentes y Bureau de Santé | giro archivístico institucional | `SRC-MED-EPID-MOURRE-1963` | A publicación | AUDITADO |
+| `TIME-MED-EPID-RETRODX-METHOD-001` | 2011–2019 | se formalizan cautelas de diagnóstico retrospectivo y paleomicrobiología | cambio metodológico | `SRC-MED-EPID-MITCHELL-2011`, `SRC-MED-EPID-WARINNER-2017`, `SRC-MED-EPID-BOS-2019` | A publicación | AUDITADO |
+| `TIME-MED-EPID-JUSTINIAN-DEBATE-001` | 2019–2022 | genomas y proxies reabren el debate sobre la primera pandemia | cambio historiográfico multiarquivo | `SRC-MED-EPID-KELLER-2019`, `SRC-MED-EPID-MORDECHAI-2019`, `SRC-MED-EPID-SARRIS-2022` | A publicación | AUDITADO |
+| `TIME-MED-EPID-BLACKDEATH-REVISION-001` | 2022 | Tian Shan y archivos polínicos revisan origen e impacto | cambio molecular y paleoecológico | `SRC-MED-EPID-SPYROU-2022`, `SRC-MED-EPID-IZDEBSKI-2022` | A publicación | AUDITADO |
+| `TIME-MED-EPID-BRISTOL-REVISION-001` | 2023 | Udale evalúa el daño intradoméstico del encierro | cambio demográfico/causal | `SRC-MED-EPID-UDALE-2023` | A publicación | AUDITADO |
+| `TIME-MED-EPID-MULTIARCHIVE-001` | 2025–2026 | Jerash, Londres y Marsella amplían comparación entre cuerpo, cifra, espacio y sociedad | actualización multiarchivo | `SRC-MED-EPID-ADAPA-2025`, `SRC-MED-EPID-HENDRIX-2026`, `SRC-MED-EPID-OTIS-KANIA-2025`, `SRC-MED-EPID-MCCALLAM-2025` | A publicación/B síntesis | AUDITADO |
+
+## MED-015 — Encuentros coloniales
+
+| ID | Fecha / intervalo | Evento o archivo | Producto | Fuentes | Confianza | Estado |
+|---|---|---|---|---|---|---|
+| `TIME-MED-COL-HISPANIOLA-CONNECTION-001` | 1492 | desembarco castellano en La Española y ampliación de redes atlánticas | conexión fechada | `SRC-MED-COL-COOK-HISPANIOLA-2002` | A histórico | AUDITADO |
+| `TIME-MED-COL-HISPANIOLA-COERCION-001` | 1492–1518 | guerra, captura, repartimiento, minería, ruptura agrícola y hambre | mecanismos previos al brote documentado | `SRC-MED-COL-COOK-HISPANIOLA-2002`, `SRC-MED-COL-LIVIBACCI-2003` | A/B histórico | AUDITADO |
+| `TIME-MED-COL-HISPANIOLA-SMALLPOX-001` | 1518 | primera epidemia de viruela claramente documentada en La Española | episodio específico | `SRC-MED-COL-COOK-HISPANIOLA-2002` | A/B histórico | AUDITADO |
+| `TIME-MED-COL-TEPO-EPIDEMIC-001` | 1545–1550 | crisis epidémica y fosas de Teposcolula-Yucundaa | episodio funerario delimitado | `SRC-MED-COL-WARINNER-2012`, `SRC-MED-COL-SPORES-2007` | A arqueológico/B episodio | AUDITADO |
+| `TIME-MED-COL-PHIL-CONQUEST-001` | 1565–c. 1650 | conquista, tributos, epidemias y descenso demográfico filipino | transformación regional modelada | `SRC-MED-COL-NEWSON-2006`, `SRC-MED-COL-NEWSON-2009` | B histórico | AUDITADO |
+| `TIME-MED-COL-HUANC-MERCURY-001` | 1564–1810 | producción colonial de mercurio en Huancavelica | serie productiva y emisión modelada | `SRC-MED-COL-ROBINS-HAGAN-2012`, `SRC-MED-COL-BROWN-2016` | A producción/B emisión | AUDITADO |
+| `TIME-MED-COL-HUANC-MITA-001` | 1570s–siglo XVIII | reorganización y continuidad de reclutamiento minero coercitivo | régimen laboral cambiante | `SRC-MED-COL-BROWN-2001`, `SRC-MED-COL-BROWN-2016` | A/B histórico | AUDITADO |
+| `TIME-MED-COL-CINCHONA-EARLY-001` | siglo XVII | circulación atlántica temprana de cortezas de *Cinchona* | materia médica y atribución discutida | `SRC-MED-COL-CUVI-2018`, `SRC-MED-COL-CRAWFORD-2016` | A/B histórico | AUDITADO |
+| `TIME-MED-COL-ATLANTIC-VOYAGES-001` | siglos XVII–XIX | millones de personas sometidas a travesías atlánticas forzadas | viajes, embarcados, desembarcados y mortalidad | `SRC-MED-COL-SLAVEVOYAGES` | A datos/B cobertura | AUDITADO |
+| `TIME-MED-COL-JAMAICA-CARE-001` | 1751–1786 | diario de Thistlewood registra práctica médica bajo esclavitud | cuidado coercitivo y agencia filtrada | `SRC-MED-COL-THORNTON-2011` | A documental/B representación | AUDITADO |
+| `TIME-MED-COL-CAL-MISSIONS-001` | 1769–1836 | establecimiento y secularización del sistema de misiones de Alta California | marco institucional y demográfico | `SRC-MED-COL-ECPP-2022`, `SRC-MED-COL-JONES-2021` | A histórico | AUDITADO |
+| `TIME-MED-COL-CAL-LATE-EPIDEMICS-001` | desde 1770 | aparece el perfil catastrófico en California central | inicio regional tardío apoyado | `SRC-MED-COL-JONES-2021` | A datos/B causal | AUDITADO |
+| `TIME-MED-COL-GUAYASES-001` | 1772–1806 | redes de Guayases identifican y remiten plantas a instituciones coloniales | apropiación botánica documentada | `SRC-MED-COL-ALMEIDA-2021` | A/B histórico | AUDITADO |
+| `TIME-MED-COL-SLAVE-MORTALITY-METHOD-001` | 1986 | Steckel y Jensen comparan causas de mortalidad de esclavizados y tripulación | giro cuantitativo por viaje | `SRC-MED-COL-STECKEL-JENSEN-1986` | A publicación | AUDITADO |
+| `TIME-MED-COL-HUANC-HEALTH-HISTORY-001` | 2001 | Brown reconstruye salud laboral en Huancavelica | giro de producción a cuerpos y trabajo | `SRC-MED-COL-BROWN-2001` | A publicación | AUDITADO |
+| `TIME-MED-COL-MOBILITY-POLLUTION-001` | 2009 | isótopos de Newton y sedimentos andinos amplían archivos corporales y ambientales | giro isotópico/paleoambiental | `SRC-MED-COL-SCHROEDER-BARBADOS-2009`, `SRC-MED-COL-COOKE-2009` | A publicación | AUDITADO |
+| `TIME-MED-COL-MULTIARCHIVE-2012-001` | 2012 | Teposcolula y Huancavelica integran cuerpo, dieta, archivo y ambiente | actualización multiarchivo | `SRC-MED-COL-WARINNER-2012`, `SRC-MED-COL-ROBINS-HAGAN-2012` | A publicación | AUDITADO |
+| `TIME-MED-COL-TEPO-GENOMES-001` | 2018 | Paratyphi C se identifica en individuos del cementerio de Teposcolula | agente molecular local | `SRC-MED-COL-VAGENE-2018` | A publicación/molecular | AUDITADO |
+| `TIME-MED-COL-COLONIAL-BOTANY-001` | 2018–2021 | nuevas historias de *Cinchona* y Guayases centran apropiación, redes y crédito | revisión historiográfica colonial | `SRC-MED-COL-CUVI-2018`, `SRC-MED-COL-ALMEIDA-2021` | A publicación | AUDITADO |
+| `TIME-MED-COL-CARIBBEAN-CALIFORNIA-001` | 2021 | genomas caribeños y base californiana revisan extinción e inevitabilidad epidémica | cambio arqueogenómico/demográfico | `SRC-MED-COL-FERNANDES-2021`, `SRC-MED-COL-JONES-2021` | A publicación | AUDITADO |
+
+## MED-016 — Anatomía, disección e imprenta
+
+| ID | Fecha / intervalo | Evento o archivo | Producto | Fuentes | Confianza | Estado |
+|---|---|---|---|---|---|---|
+| `TIME-MED-ANAT-MONDINO-1316-001` | 1316 | finalización de la *Anathomia* de Mondino | guía docente, no primera apertura europea | `SRC-MED-ANAT-MCCALL-2022` | A/B histórico | AUDITADO |
+| `TIME-MED-ANAT-MANSUR-1390-001` | ca. 1390 | composición del tratado de Manṣūr en Shiraz | programa persa de cinco sistemas | `SRC-MED-ANAT-MANSUR-NLM`, `SRC-MED-ANAT-MANSUR-IRANICA` | A/B datación | AUDITADO |
+| `TIME-MED-ANAT-MANSUR-1488-001` | 1488-12-08 | finalización de NLM MS P 18 | copia fechada, no protógrafo | `SRC-MED-ANAT-MANSUR-NLM` | A documental | AUDITADO |
+| `TIME-MED-ANAT-FASCICULUS-1494-001` | 1494 | edición veneciana del *Fasciculus medicinae* | icono impreso de disección | `SRC-MED-ANAT-MCCALL-2022`, `SRC-MED-ANAT-NLM-PRINT` | A publicación | AUDITADO |
+| `TIME-MED-ANAT-BERENGARIO-1521-001` | 1521 | *Commentaria* de Berengario | anatomía ilustrada ligada a observaciones | `SRC-MED-ANAT-BERENGARIO-NLM`, `SRC-MED-ANAT-PARENT-2019` | A publicación | AUDITADO |
+| `TIME-MED-ANAT-BERENGARIO-1523-001` | 1523 | *Isagogae breves* | compendio ilustrado revisado | `SRC-MED-ANAT-BERENGARIO-NLM` | A publicación | AUDITADO |
+| `TIME-MED-ANAT-FABRICA-1543-001` | 1543 | primera edición de la *Fabrica* | libro y taller coordinados | `SRC-MED-ANAT-NLM-DREAM`, `SRC-MED-ANAT-CLARK-1981` | A publicación | AUDITADO |
+| `TIME-MED-ANAT-FABRICA-1555-001` | 1555 | segunda edición de la *Fabrica* | nueva versión, luego anotada | `SRC-MED-ANAT-NUTTON-2012` | A publicación | AUDITADO |
+| `TIME-MED-ANAT-VALVERDE-1556-001` | 1556 | *Historia de la composición del cuerpo humano* | anatomía castellana impresa | `SRC-MED-ANAT-VALVERDE-LOC`, `SRC-MED-ANAT-MARKATOS-2017` | A publicación | AUDITADO |
+| `TIME-MED-ANAT-NS-AUTOPSY-1576-001` | 1576 | autopsias durante epidemia novohispana | examen anatomopatológico | `SRC-MED-ANAT-RODRIGUEZ-SALA-2006`, `SRC-MED-ANAT-CORDERO-1997` | A/B histórico | AUDITADO |
+| `TIME-MED-ANAT-NS-PRINT-1578-001` | 1578 | impresión de *Suma y recopilación de cirugía* | manual quirúrgico, no práctica individual | `SRC-MED-ANAT-PRIMEROS-LIBROS-1578` | A publicación | AUDITADO |
+| `TIME-MED-ANAT-NS-CHAIR-1620-001` | 1619–1621 | disposición y apertura de cátedra de Cirugía y Anatomía | capacidad institucional | `SRC-MED-ANAT-UNAM-ANATOMY`, `SRC-MED-ANAT-RODRIGUEZ-SALA-2006` | A/B fecha | AUDITADO |
+| `TIME-MED-ANAT-ITAKI-1632-001` | ca. 1632 | composición atribuida a Itâkî | manuscrito ilustrado otomano-turco | `SRC-MED-ANAT-BAHSI-2019`, `SRC-MED-ANAT-AKDOGAN-2025` | B datación | AUDITADO |
+| `TIME-MED-ANAT-NS-DISSECTION-1646-001` | 1646-10-08 | disección formal en Ciudad de México | acto docente documentado | `SRC-MED-ANAT-UNAM-ANATOMY` | A documental | AUDITADO |
+| `TIME-MED-ANAT-QING-1742-001` | 1741–1742 | forénsica Qing y *Golden Mirror* | diagramas, listas y trauma | `SRC-MED-ANAT-WU-2015` | A/B histórico | AUDITADO |
+| `TIME-MED-ANAT-QING-1770-001` | 1770 | adición de diagramas esqueléticos forenses | estandarización judicial | `SRC-MED-ANAT-WU-2015` | A/B histórico | AUDITADO |
+| `TIME-MED-ANAT-JAPAN-1771-001` | 1771 | demostración de Kozukappara | catalizador de comparación | `SRC-MED-ANAT-MICHEL-2018`, `SRC-MED-ANAT-NAGOYA-KAITAI` | A/B histórico | AUDITADO |
+| `TIME-MED-ANAT-KAITAI-1774-001` | 1774 | publicación de *Kaitai shinsho* | cinco fascículos traducidos e ilustrados | `SRC-MED-ANAT-NDL-KAITAI` | A publicación | AUDITADO |
+| `TIME-MED-ANAT-KAITAI-1826-001` | 1826 | revisión de Ōtsuki Gentaku | corrección de traducción y nomenclatura | `SRC-MED-ANAT-MICHEL-2018`, `SRC-MED-ANAT-NDL-EXHIBITION` | A/B histórico | AUDITADO |
+| `TIME-MED-ANAT-WANG-1830-001` | 1830 | publicación de *Yilin gaicuo* | crítica anatómica y 25 diagramas | `SRC-MED-ANAT-WANG-CTEXT`, `SRC-MED-ANAT-ANDREWS-1991` | A publicación/B contenido | AUDITADO |
+
+## MED-017 — Circulación y fisiología experimental
+
+| ID | Fecha / intervalo | Evento o archivo | Producto | Fuentes | Confianza | Estado |
+|---|---|---|---|---|---|---|
+| `TIME-MED-PHYS-GALEN-129-216-001` | ca. 129–216 | vida y obras fisiológicas de Galeno | experimentos arteriales dentro de sistema no circulatorio | `SRC-MED-PHYS-GALEN-FURLEY-2014`, `SRC-MED-PHYS-BOYLAN-2007` | A/B textual | AUDITADO |
+| `TIME-MED-PHYS-IBN-CA1242-001` | ca. 1242 | composición aproximada del comentario anatómico de Ibn al-Nafīs | negación septal y tránsito pulmonar | `SRC-MED-ISLAMIC-FANCY-2020`, `SRC-MED-PHYS-WEST-IBN-2008` | B datación/A contenido | AUDITADO |
+| `TIME-MED-PHYS-SERVETUS-1553-001` | 1553 | publicación de *Christianismi restitutio* | formulación pulmonar en obra teológica | `SRC-MED-PHYS-SERVETUS-GONZALEZ-2012` | A publicación | AUDITADO |
+| `TIME-MED-PHYS-VALVERDE-1556-001` | 1556 | publicación de Valverde | formulación pulmonar castellana vinculada con Colombo | `SRC-MED-ANAT-VALVERDE-LOC`, `SRC-MED-PHYS-ELMAGHAWRY-2014` | A publicación/B relación | AUDITADO |
+| `TIME-MED-PHYS-COLOMBO-1559-001` | 1559 | publicación póstuma de *De re anatomica* | descripción pulmonar anatómica | `SRC-MED-PHYS-COLOMBO-EKNOYAN-1997` | A publicación | AUDITADO |
+| `TIME-MED-PHYS-LI-1564-001` | ca. 1564 | composición atribuida de *Bīnhú màixué* | clasificación versificada del pulso | `SRC-MED-PHYS-HSU-2010`, `SRC-MED-PHYS-LI-CTEXT` | B datación/A testigo | AUDITADO |
+| `TIME-MED-PHYS-FABRICIUS-1603-001` | 1603 | publicación de *De venarum ostiolis* | monografía ilustrada de válvulas venosas | `SRC-MED-PHYS-SCULTETUS-2001`, `SRC-MED-PHYS-FABRICIUS-NATURE-1935` | A publicación | AUDITADO |
+| `TIME-MED-PHYS-HARVEY-1616-001` | 1616 | notas de lecciones lumleianas | circulación ya formulada en enseñanza privada | `SRC-MED-PHYS-BYLEBYL-1973`, `SRC-MED-PHYS-BATES-1992` | A/B documental | AUDITADO |
+| `TIME-MED-PHYS-HARVEY-1628-001` | 1628 | publicación de *De motu cordis* | ligaduras, cantidad y circulación repetida | `SRC-MED-PHYS-HARVEY-WELLCOME-1628` | A publicación | AUDITADO |
+| `TIME-MED-PHYS-DESCARTES-1637-001` | 1637 | *Discours de la méthode* reutiliza la circulación | recepción mecanicista no idéntica a Harvey | `SRC-MED-PHYS-MANNING-2022` | A/B textual | AUDITADO |
+| `TIME-MED-PHYS-MALPIGHI-1661-001` | 1661 | publicación de cartas *De pulmonibus* | red capilar pulmonar en rana | `SRC-MED-PHYS-WEST-MALPIGHI-2013` | A publicación | AUDITADO |
+| `TIME-MED-PHYS-HALES-1733-001` | 1733 | publicación de *Haemastaticks* | presión invasiva animal por columna | `SRC-MED-PHYS-HALES-BHL-1733`, `SRC-MED-PHYS-BOOTH-1977` | A publicación | AUDITADO |
+| `TIME-MED-PHYS-POISEUILLE-1828-001` | 1828 | hemodinamómetro de mercurio y medidas arteriales | nueva instrumentación invasiva | `SRC-MED-PHYS-BOOTH-1977`, `SRC-MED-PHYS-NOH-2024` | A/B histórico | AUDITADO |
+| `TIME-MED-PHYS-VIERORDT-1855-001` | 1855 | propuesta de esfigmógrafo y estimación no invasiva | registro de onda arterial | `SRC-MED-PHYS-BOOTH-1977`, `SRC-MED-PHYS-NOH-2024` | A/B histórico | AUDITADO |
+| `TIME-MED-PHYS-RIVA-ROCCI-1896-001` | 1896 | manguito inflable de Riva-Rocci | presión sistólica clínica más practicable | `SRC-MED-PHYS-BOOTH-1977`, `SRC-MED-PHYS-NOH-2024` | A/B histórico | AUDITADO |
+| `TIME-MED-PHYS-KOROTKOFF-1905-001` | 1905 | sonidos de Korotkoff | estimación auscultatoria sistólica y diastólica | `SRC-MED-PHYS-BOOTH-1977`, `SRC-MED-PHYS-NOH-2024` | A/B histórico | AUDITADO |
+| `TIME-MED-PHYS-VALIDATION-CONTEMP-001` | siglos XX–XXI | estandarización, validación y monitorización | presión como variable clínica y poblacional | `SRC-MED-PHYS-SCHUTTE-2022`, `SRC-MED-PHYS-NOH-2024` | A revisión | AUDITADO |
+
+## MED-018 — Microscopía y anatomía patológica
+
+| ID | Fecha | Evento | Producto delimitado | Fuentes | Confianza | Estado |
+|---|---|---|---|---|---|---|
+| `TIME-MED-PATH-SONG-1247-001` | 1247 | conclusión del *Xiyuan jilu* asociado con Song Ci | manual médico-legal e inspección externa | `SRC-MED-ANAT-WU-2015`, `SRC-MED-PATH-ASEN-2017` | A/B histórico | AUDITADO |
+| `TIME-MED-PATH-MALPIGHI-1661-001` | 1661 | cartas de Malpighi sobre pulmón de rana | preparación e imagen microanatómica | `SRC-MED-PHYS-WEST-MALPIGHI-2013` | A publicación | AUDITADO |
+| `TIME-MED-PATH-HOOKE-1665-001` | 1665 | publicación de *Micrographia* | micrografía impresa y compartimentos de corcho | `SRC-MED-PATH-HOOKE-BHL-1665` | A publicación | AUDITADO |
+| `TIME-MED-PATH-MORGAGNI-1761-001` | 1761 | publicación de *De sedibus* | historias y autopsias organizadas en setenta cartas | `SRC-MED-PATH-MORGAGNI-1761` | A publicación | AUDITADO |
+| `TIME-MED-PATH-BICHAT-1801-001` | 1801 | publicación de *Anatomie générale* | tejidos como sistemas comparables | `SRC-MED-PATH-BICHAT-1801` | A publicación | AUDITADO |
+| `TIME-MED-PATH-CELL-THEORY-1838-001` | 1838–1839 | formulaciones celulares de Schleiden y Schwann | generalización celular vegetal/animal | `SRC-MED-PATH-FLOTTE-2021` | A/B histórico | AUDITADO |
+| `TIME-MED-PATH-ROKITANSKY-1840S-001` | 1840–1846 | manual, cátedra e infraestructura vienesa | nosología macroscópica y autopsia institucional | `SRC-MED-PATH-ROKITANSKY-1849`, `SRC-MED-PATH-CAMPOS-2016` | A/B histórico | AUDITADO |
+| `TIME-MED-PATH-REMAK-1850S-001` | década de 1850 | observaciones y publicaciones de Remak sobre división | continuidad celular | `SRC-MED-PATH-GRZYBOWSKI-2013`, `SRC-MED-PATH-WRIGHT-2011` | A/B histórico | AUDITADO |
+| `TIME-MED-PATH-VIRCHOW-1858-001` | 1858 | conferencias de patología celular | síntesis fisiológica y patológica | `SRC-MED-PATH-VIRCHOW-1860` | A/B edición | AUDITADO |
+| `TIME-MED-PATH-HISTOTECH-1860S-1890S-001` | ca. 1860–1890 | convergencia de microtomía, parafina, fijación y tinciones | lámina histológica más seriable | `SRC-MED-PATH-TITFORD-2006`, `SRC-MED-PATH-FOX-1985` | B rango técnico | AUDITADO |
+| `TIME-MED-PATH-HEMATOXYLIN-1860S-001` | década de 1860 | adaptación de hematoxilina a tinción histológica | contraste nuclear mediante material mesoamericano | `SRC-MED-PATH-TITFORD-2005`, `SRC-MED-PATH-ORTIZHIDALGO-2019` | A/B histórico | AUDITADO |
+| `TIME-MED-PATH-BABES-1927-001` | 1927–1928 | presentación y publicación de Babeș | frotis cervical diagnóstico | `SRC-MED-PATH-HAJDU-2013`, `SRC-MED-PATH-VILOS-1998` | A/B prioridad | AUDITADO |
+| `TIME-MED-PATH-PAPANICOLAOU-1928-001` | 1928 | comunicación de Papanicolaou | células anormales en material cervicovaginal | `SRC-MED-PATH-VILOS-1998` | A/B prioridad | AUDITADO |
+| `TIME-MED-PATH-PAP-TRAUT-1941-001` | 1941 | artículo de Papanicolaou y Traut | serie clínica y valor diagnóstico | `SRC-MED-PATH-PAPANICOLAOU-TRAUT-1941` | A publicación | AUDITADO |
+| `TIME-MED-PATH-PAP-TRAUT-1943-001` | 1943 | monografía del frotis vaginal | protocolo, atlas, categorías y casos | `SRC-MED-PATH-PAPANICOLAOU-TRAUT-1943` | A publicación | AUDITADO |
+
+## MED-019 — Hospitales, cabecera y examen clínico
+
+| ID | Fecha/rango | Evento | Producto | Fuentes | Confianza | Estado |
+|---|---|---|---|---|---|---|
+| `TIME-MED-CLINIC-SYLVIUS-1658-001` | 1658–1672 | enseñanza de Sylvius en Leiden | visitas, examen, discusión y autopsia en una tradición distribuida | `SRC-MED-CLINIC-FIDDES-2023`, `SRC-MED-CLINIC-COOK-2000` | A/B histórico | AUDITADO |
+| `TIME-MED-CLINIC-BOERHAAVE-1714-001` | desde 1714 | demostraciones clínicas de Boerhaave | práctica influyente de escala documentada limitada | `SRC-MED-CLINIC-FIDDES-2023`, `SRC-MED-CLINIC-COOK-2000` | A/B histórico | AUDITADO |
+| `TIME-MED-CLINIC-RUTHERFORD-1749-001` | 1749–1753 | conferencias de Rutherford en Edimburgo | historia, examen, razonamiento y revisión junto a casos | `SRC-MED-CLINIC-CRAIG-2017` | A/B documental | AUDITADO |
+| `TIME-MED-CLINIC-AUENBRUGGER-1761-001` | 1761 | publicación de *Inventum novum* | percusión torácica como técnica de signo | `SRC-MED-CLINIC-AUENBRUGGER-1761` | A publicación | AUDITADO |
+| `TIME-MED-CLINIC-PARIS-ADMISSION-1801-001` | 1801–1803 | oficina central de admisión en París | triaje, ingreso, remisión y denominadores administrativos | `SRC-MED-CLINIC-WEINER-1991` | A/B histórico | AUDITADO |
+| `TIME-MED-CLINIC-SANANDRES-1806-001` | 1806 | cátedra clínica en San Andrés | enseñanza hospitalaria optativa | `SRC-MED-CLINIC-FERNANDEZ-2005`, `SRC-MED-CLINIC-MORALES-2000` | A/B histórico | AUDITADO |
+| `TIME-MED-CLINIC-SANANDRES-1808-001` | 1808 | obligatoriedad de la cátedra | integración curricular de medicina práctica | `SRC-MED-CLINIC-FERNANDEZ-2005` | A/B histórico | AUDITADO |
+| `TIME-MED-CLINIC-CORVISART-1808-001` | 1808 | traducción comentada de Auenbrugger por Corvisart | recepción francesa de la percusión | `SRC-MED-CLINIC-STAHNISCH-2024` | A/B histórico | AUDITADO |
+| `TIME-MED-CLINIC-LAENNEC-1819-001` | 1819 | publicación de *De l'auscultation médiate* | estetoscopio, vocabulario acústico y casos correlacionados | `SRC-MED-CLINIC-LAENNEC-1819` | A publicación | AUDITADO |
+| `TIME-MED-CLINIC-OTTOMAN-SCHOOL-1827-001` | 1827; reorganización 1839 | escuela médica imperial | formación, servicio estatal y regulación profesional | `SRC-MED-CLINIC-SHEFER-2005`, `SRC-MED-CLINIC-RASIMOGLU-2021` | A/B histórico | AUDITADO |
+| `TIME-MED-CLINIC-CALCUTTA-1835-001` | 1835 | fundación del Medical College de Calcuta | enseñanza en inglés, hospital, disección y anatomía mórbida | `SRC-MED-CLINIC-BHATTACHARYA-2015`, `SRC-MED-CLINIC-ANSHU-2016` | A/B histórico | AUDITADO |
+| `TIME-MED-CLINIC-BEZMIALEM-1845-001` | 1845 | apertura del hospital de Bezm-i Alem | caridad, patronazgo, administración y hospital reformado | `SRC-MED-CLINIC-RASIMOGLU-2021` | A/B histórico | AUDITADO |
+| `TIME-MED-CLINIC-JAPAN-ISEI-1874-001` | 1874 | promulgación del *Isei* | marco para establecimientos, enseñanza y práctica | `SRC-MED-CLINIC-KIM-2017`, `SRC-MED-CLINIC-ONISHI-2018` | A/B legal | AUDITADO |
+| `TIME-MED-CLINIC-TOKYO-1877-001` | 1877 | facultad médica y hospital de la Universidad de Tokio | universidad, hospital docente y modelo institucional | `SRC-MED-CLINIC-ONISHI-2018` | A/B institucional | AUDITADO |
+| `TIME-MED-CLINIC-SANANDRES-LAB-1890S-001` | década de 1890 | espacios de análisis y experimento en San Andrés | hospital-escuela-laboratorio híbrido | `SRC-MED-CLINIC-CHAZARO-2021` | A/B espacial | AUDITADO |
+| `TIME-MED-CLINIC-RECORDS-1900S-001` | siglos XIX–XX | expansión de formularios e índices clínicos | expedientes más comparables y selectivos | `SRC-MED-CLINIC-NIBURSKI-2019`, `SRC-MED-CLINIC-LORKOWSKI-2022` | B síntesis | AUDITADO |
+| `TIME-MED-CLINIC-PATIENT-NARRATIVE-1996-001` | 1996 | crítica a la pérdida narrativa en la ficha | análisis de fines, forma y voz del paciente | `SRC-MED-CLINIC-DONNELLY-1996` | A publicación | AUDITADO |
+| `TIME-MED-CLINIC-PATIENT-HISTORY-2007-001` | 2007 | agenda historiográfica centrada en pacientes | agencia, encuentro y archivos alternativos | `SRC-MED-CLINIC-CONDRAU-2007` | A publicación | AUDITADO |

@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Cadena desde huella hasta alcance</title>
+  <desc id="desc">Seis capas separan el objeto observado, su identificación, el itinerario, la mediación, la recepción y el alcance. Entre capas hay puentes verificables; conexión no equivale a transferencia ni efecto.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#12100d"/><stop offset="1" stop-color="#1d211c"/></linearGradient>
+    <linearGradient id="card" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#29251f"/><stop offset="1" stop-color="#1b1916"/></linearGradient>
+    <marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto"><path d="M0 0 12 6 0 12z" fill="#b97945"/></marker>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="150%"><feDropShadow dx="0" dy="12" stdDeviation="14" flood-color="#000" flood-opacity=".28"/></filter>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <path d="M0 720 C250 650 350 810 620 710 S1060 620 1600 735" fill="none" stroke="#55705d" stroke-width="2" opacity=".26"/>
+  <path d="M0 765 C250 695 420 860 720 748 S1180 675 1600 790" fill="none" stroke="#b97945" stroke-width="1.5" opacity=".24"/>
+  <text x="84" y="86" fill="#d69a5d" font-family="IBM Plex Sans, Arial, sans-serif" font-size="20" font-weight="700" letter-spacing="3">MED-013 · CONTRATO DE INFERENCIA</text>
+  <text x="84" y="143" fill="#f1e4cf" font-family="Source Serif 4, Georgia, serif" font-size="46" font-weight="700">Una ruta no demuestra una transferencia</text>
+  <text x="84" y="185" fill="#bdb5a8" font-family="IBM Plex Sans, Arial, sans-serif" font-size="22">Cada flecha exige evidencia propia. Si falta el puente, el estado correcto es «no demostrado».</text>
+
+  <g filter="url(#shadow)">
+    <g transform="translate(64 265)">
+      <rect width="224" height="316" rx="18" fill="url(#card)" stroke="#86623f"/>
+      <circle cx="36" cy="38" r="18" fill="#b97945"/><text x="36" y="45" text-anchor="middle" fill="#17120e" font-family="IBM Plex Mono, monospace" font-size="18" font-weight="700">01</text>
+      <text x="24" y="88" fill="#f1e4cf" font-family="Source Serif 4, Georgia, serif" font-size="29" font-weight="700">Huella</text>
+      <text x="24" y="126" fill="#bdb5a8" font-family="IBM Plex Sans, Arial, sans-serif" font-size="17"><tspan x="24">objeto · residuo</tspan><tspan x="24" dy="26">folio · carta</tspan><tspan x="24" dy="26">regalo · edición</tspan></text>
+      <line x1="24" y1="214" x2="200" y2="214" stroke="#4d463d"/>
+      <text x="24" y="246" fill="#d69a5d" font-family="IBM Plex Mono, monospace" font-size="14">EXIGE</text>
+      <text x="24" y="276" fill="#e0d6c6" font-family="IBM Plex Sans, Arial, sans-serif" font-size="16"><tspan x="24">procedencia, fecha</tspan><tspan x="24" dy="24">y asociación</tspan></text>
+    </g>
+    <g transform="translate(312 265)">
+      <rect width="224" height="316" rx="18" fill="url(#card)" stroke="#86623f"/>
+      <circle cx="36" cy="38" r="18" fill="#b97945"/><text x="36" y="45" text-anchor="middle" fill="#17120e" font-family="IBM Plex Mono, monospace" font-size="18" font-weight="700">02</text>
+      <text x="24" y="88" fill="#f1e4cf" font-family="Source Serif 4, Georgia, serif" font-size="27" font-weight="700">Identificación</text>
+      <text x="24" y="126" fill="#bdb5a8" font-family="IBM Plex Sans, Arial, sans-serif" font-size="17"><tspan x="24">material · versión</tspan><tspan x="24" dy="26">lengua · género</tspan><tspan x="24" dy="26">agente</tspan></text>
+      <line x1="24" y1="214" x2="200" y2="214" stroke="#4d463d"/>
+      <text x="24" y="246" fill="#d69a5d" font-family="IBM Plex Mono, monospace" font-size="14">EXIGE</text>
+      <text x="24" y="276" fill="#e0d6c6" font-family="IBM Plex Sans, Arial, sans-serif" font-size="16"><tspan x="24">alternativas y</tspan><tspan x="24" dy="24">resolución</tspan></text>
+    </g>
+    <g transform="translate(560 265)">
+      <rect width="224" height="316" rx="18" fill="url(#card)" stroke="#86623f"/>
+      <circle cx="36" cy="38" r="18" fill="#b97945"/><text x="36" y="45" text-anchor="middle" fill="#17120e" font-family="IBM Plex Mono, monospace" font-size="18" font-weight="700">03</text>
+      <text x="24" y="88" fill="#f1e4cf" font-family="Source Serif 4, Georgia, serif" font-size="29" font-weight="700">Itinerario</text>
+      <text x="24" y="126" fill="#bdb5a8" font-family="IBM Plex Sans, Arial, sans-serif" font-size="17"><tspan x="24">origen compatible</tspan><tspan x="24" dy="26">tramo · nodo</tspan><tspan x="24" dy="26">intervalo</tspan></text>
+      <line x1="24" y1="214" x2="200" y2="214" stroke="#4d463d"/>
+      <text x="24" y="246" fill="#d69a5d" font-family="IBM Plex Mono, monospace" font-size="14">EXIGE</text>
+      <text x="24" y="276" fill="#e0d6c6" font-family="IBM Plex Sans, Arial, sans-serif" font-size="16"><tspan x="24">conexión fechada,</tspan><tspan x="24" dy="24">no ruta completa</tspan></text>
+    </g>
+    <g transform="translate(808 265)">
+      <rect width="224" height="316" rx="18" fill="url(#card)" stroke="#55705d"/>
+      <circle cx="36" cy="38" r="18" fill="#66846e"/><text x="36" y="45" text-anchor="middle" fill="#101510" font-family="IBM Plex Mono, monospace" font-size="18" font-weight="700">04</text>
+      <text x="24" y="88" fill="#f1e4cf" font-family="Source Serif 4, Georgia, serif" font-size="29" font-weight="700">Mediación</text>
+      <text x="24" y="126" fill="#bdb5a8" font-family="IBM Plex Sans, Arial, sans-serif" font-size="17"><tspan x="24">transportar · comprar</tspan><tspan x="24" dy="26">traducir · regalar</tspan><tspan x="24" dy="26">compilar · imprimir</tspan></text>
+      <line x1="24" y1="214" x2="200" y2="214" stroke="#4d463d"/>
+      <text x="24" y="246" fill="#86a78f" font-family="IBM Plex Mono, monospace" font-size="14">EXIGE</text>
+      <text x="24" y="276" fill="#e0d6c6" font-family="IBM Plex Sans, Arial, sans-serif" font-size="16"><tspan x="24">selección, agente</tspan><tspan x="24" dy="24">y relaciones de poder</tspan></text>
+    </g>
+    <g transform="translate(1056 265)">
+      <rect width="224" height="316" rx="18" fill="url(#card)" stroke="#55705d"/>
+      <circle cx="36" cy="38" r="18" fill="#66846e"/><text x="36" y="45" text-anchor="middle" fill="#101510" font-family="IBM Plex Mono, monospace" font-size="18" font-weight="700">05</text>
+      <text x="24" y="88" fill="#f1e4cf" font-family="Source Serif 4, Georgia, serif" font-size="29" font-weight="700">Recepción</text>
+      <text x="24" y="126" fill="#bdb5a8" font-family="IBM Plex Sans, Arial, sans-serif" font-size="17"><tspan x="24">leer · glosar</tspan><tspan x="24" dy="26">preparar · adaptar</tspan><tspan x="24" dy="26">prescribir · rechazar</tspan></text>
+      <line x1="24" y1="214" x2="200" y2="214" stroke="#4d463d"/>
+      <text x="24" y="246" fill="#86a78f" font-family="IBM Plex Mono, monospace" font-size="14">EXIGE</text>
+      <text x="24" y="276" fill="#e0d6c6" font-family="IBM Plex Sans, Arial, sans-serif" font-size="16"><tspan x="24">episodio observable,</tspan><tspan x="24" dy="24">no disponibilidad</tspan></text>
+    </g>
+    <g transform="translate(1304 265)">
+      <rect width="224" height="316" rx="18" fill="url(#card)" stroke="#55705d"/>
+      <circle cx="36" cy="38" r="18" fill="#66846e"/><text x="36" y="45" text-anchor="middle" fill="#101510" font-family="IBM Plex Mono, monospace" font-size="18" font-weight="700">06</text>
+      <text x="24" y="88" fill="#f1e4cf" font-family="Source Serif 4, Georgia, serif" font-size="29" font-weight="700">Alcance</text>
+      <text x="24" y="126" fill="#bdb5a8" font-family="IBM Plex Sans, Arial, sans-serif" font-size="17"><tspan x="24">audiencia · población</tspan><tspan x="24" dy="26">práctica · continuidad</tspan><tspan x="24" dy="26">resultado</tspan></text>
+      <line x1="24" y1="214" x2="200" y2="214" stroke="#4d463d"/>
+      <text x="24" y="246" fill="#86a78f" font-family="IBM Plex Mono, monospace" font-size="14">EXIGE</text>
+      <text x="24" y="276" fill="#e0d6c6" font-family="IBM Plex Sans, Arial, sans-serif" font-size="16"><tspan x="24">denominador, daño</tspan><tspan x="24" dy="24">y seguimiento</tspan></text>
+    </g>
+  </g>
+  <g stroke="#b97945" stroke-width="3" marker-end="url(#arrow)" opacity=".92">
+    <path d="M288 423h18"/><path d="M536 423h18"/><path d="M784 423h18"/>
+  </g>
+  <g stroke="#66846e" stroke-width="3" marker-end="url(#arrow)" opacity=".92">
+    <path d="M1032 423h18"/><path d="M1280 423h18"/>
+  </g>
+  <rect x="84" y="660" width="1432" height="138" rx="20" fill="#171512" stroke="#4d463d"/>
+  <text x="120" y="704" fill="#d69a5d" font-family="IBM Plex Mono, monospace" font-size="16" font-weight="700">CORTAFUEGOS</text>
+  <text x="120" y="745" fill="#f1e4cf" font-family="Source Serif 4, Georgia, serif" font-size="25"><tspan>presencia ≠ uso</tspan><tspan dx="45">nombre ≠ especie</tspan><tspan dx="45">traducción ≠ comprensión</tspan></text>
+  <text x="120" y="781" fill="#bdb5a8" font-family="IBM Plex Sans, Arial, sans-serif" font-size="20"><tspan>regalo ≠ administración</tspan><tspan dx="42">imperio ≠ homogeneidad</tspan><tspan dx="42">circulación ≠ eficacia</tspan></text>
+  <text x="1516" y="855" text-anchor="end" fill="#777166" font-family="IBM Plex Mono, monospace" font-size="14">COMPOSICIÓN EPISTEMOLÓGICA · NO ES UN MAPA DE RUTAS REALES</text>
+</svg>

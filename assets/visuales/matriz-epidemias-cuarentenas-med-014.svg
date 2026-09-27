@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Matriz de archivos epidémicos, productos legítimos y límites</title>
+  <desc id="desc">Seis casos comparan el archivo dominante, lo que permite inferir y el salto que no autoriza.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#101512"/><stop offset="1" stop-color="#241c17"/></linearGradient>
+    <style>
+      .k{font:600 20px 'IBM Plex Sans',Arial,sans-serif;letter-spacing:4px;fill:#cc9253}
+      .t{font:700 50px 'Source Serif 4',Georgia,serif;fill:#f5ead7}
+      .h{font:700 20px 'IBM Plex Sans',Arial,sans-serif;fill:#f4e7d3}
+      .case{font:700 21px 'Source Serif 4',Georgia,serif;fill:#f3e4ce}
+      .body{font:400 17px 'IBM Plex Sans',Arial,sans-serif;fill:#d1c5b5}
+      .lim{font:600 17px 'IBM Plex Sans',Arial,sans-serif;fill:#efb482}
+      .n{font:700 15px 'IBM Plex Mono',monospace;fill:#17130f}
+    </style>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <text x="80" y="72" class="k">MED-014 · MATRIZ COMPARATIVA</text>
+  <text x="80" y="132" class="t">Seis archivos, seis resoluciones</text>
+  <text x="80" y="174" class="body">La evidencia más precisa de una capa no se convierte en precisión heredada para la siguiente.</text>
+
+  <g transform="translate(70 220)">
+    <rect width="1460" height="590" rx="24" fill="#171b18" stroke="#55483a"/>
+    <rect x="0" y="0" width="1460" height="66" rx="24" fill="#2b322c"/>
+    <rect x="0" y="42" width="1460" height="24" fill="#2b322c"/>
+    <text x="80" y="42" class="h">CASO</text>
+    <text x="395" y="42" class="h">ARCHIVO DOMINANTE</text>
+    <text x="770" y="42" class="h">PRODUCTO LEGÍTIMO</text>
+    <text x="1125" y="42" class="h">NO AUTORIZA</text>
+
+    <g transform="translate(0 66)">
+      <rect width="1460" height="87" fill="#1d211d"/>
+      <circle cx="40" cy="43" r="18" fill="#c89052"/><text x="31" y="49" class="n">01</text>
+      <text x="72" y="36" class="case">Jerash</text><text x="72" y="62" class="body">primera pandemia</text>
+      <text x="395" y="36" class="body">fosa + isótopos + ADN</text><text x="395" y="62" class="body">contexto convergente</text>
+      <text x="770" y="36" class="body">crisis local y agente</text><text x="770" y="62" class="body">autenticado</text>
+      <text x="1125" y="36" class="lim">mortalidad imperial</text><text x="1125" y="62" class="lim">ni causa de cada muerte</text>
+    </g>
+    <g transform="translate(0 153)">
+      <rect width="1460" height="87" fill="#181d1a"/>
+      <circle cx="40" cy="43" r="18" fill="#6f9e8d"/><text x="31" y="49" class="n">02</text>
+      <text x="72" y="36" class="case">Peste Negra</text><text x="72" y="62" class="body">Asia central–Europa</text>
+      <text x="395" y="36" class="body">lápidas + genomas +</text><text x="395" y="62" class="body">cementerio + polen</text>
+      <text x="770" y="36" class="body">emergencia probable y</text><text x="770" y="62" class="body">heterogeneidad regional</text>
+      <text x="1125" y="36" class="lim">ruta completa ni tasa</text><text x="1125" y="62" class="lim">continental única</text>
+    </g>
+    <g transform="translate(0 240)">
+      <rect width="1460" height="87" fill="#1d211d"/>
+      <circle cx="40" cy="43" r="18" fill="#8da36f"/><text x="31" y="49" class="n">03</text>
+      <text x="72" y="36" class="case">Ragusa–Venecia</text><text x="72" y="62" class="body">1377–edad moderna</text>
+      <text x="395" y="36" class="body">decreto + oficina +</text><text x="395" y="62" class="body">lazareto + cuentas</text>
+      <text x="770" y="36" class="body">capacidad y operación</text><text x="770" y="62" class="body">situadas</text>
+      <text x="1125" y="36" class="lim">prioridad absoluta ni</text><text x="1125" y="62" class="lim">eficacia universal</text>
+    </g>
+    <g transform="translate(0 327)">
+      <rect width="1460" height="87" fill="#181d1a"/>
+      <circle cx="40" cy="43" r="18" fill="#d2a15f"/><text x="31" y="49" class="n">04</text>
+      <text x="72" y="36" class="case">Bristol</text><text x="72" y="62" class="body">1565–1604</text>
+      <text x="395" y="36" class="body">parroquias + hogares</text><text x="395" y="62" class="body">enlazados</text>
+      <text x="770" y="36" class="body">intensidad de encierro y</text><text x="770" y="62" class="body">daño intradoméstico</text>
+      <text x="1125" y="36" class="lim">beneficio comunitario</text><text x="1125" y="62" class="lim">neto</text>
+    </g>
+    <g transform="translate(0 414)">
+      <rect width="1460" height="87" fill="#1d211d"/>
+      <circle cx="40" cy="43" r="18" fill="#bd7747"/><text x="31" y="49" class="n">05</text>
+      <text x="72" y="36" class="case">Londres 1665</text><text x="72" y="62" class="body">conteo y regulación</text>
+      <text x="395" y="36" class="body">Bills + entierros +</text><text x="395" y="62" class="body">órdenes + geografía</text>
+      <text x="770" y="36" class="body">serie temporal/espacial</text><text x="770" y="62" class="body">y programa normativo</text>
+      <text x="1125" y="36" class="lim">casos exhaustivos ni</text><text x="1125" y="62" class="lim">cumplimiento uniforme</text>
+    </g>
+    <g transform="translate(0 501)">
+      <rect width="1460" height="89" fill="#181d1a"/>
+      <circle cx="40" cy="43" r="18" fill="#c86455"/><text x="31" y="49" class="n">06</text>
+      <text x="72" y="36" class="case">Marsella</text><text x="72" y="62" class="body">1720–1722</text>
+      <text x="395" y="36" class="body">puerto + diario + fosa</text><text x="395" y="62" class="body">+ genoma + cordón</text>
+      <text x="770" y="36" class="body">agente, crisis y respuesta</text><text x="770" y="62" class="body">multiarchivo</text>
+      <text x="1125" y="36" class="lim">cadena causal única ni</text><text x="1125" y="62" class="lim">efecto de cada medida</text>
+    </g>
+    <line x1="340" y1="0" x2="340" y2="590" stroke="#4d453b"/>
+    <line x1="715" y1="0" x2="715" y2="590" stroke="#4d453b"/>
+    <line x1="1070" y1="0" x2="1070" y2="590" stroke="#4d453b"/>
+  </g>
+  <text x="80" y="858" class="body">Cortafuego: presencia, magnitud, respuesta, cumplimiento y efecto distributivo son juicios independientes.</text>
+</svg>

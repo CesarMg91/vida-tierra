@@ -9,7 +9,7 @@ import { getCatalog, getKnowledgeCounts } from "../lib/public-data";
 export default function Home() {
   const catalog = getCatalog();
   const counts = getKnowledgeCounts();
-  const featuredKeys = new Set(["002", "013", "035", "050", "052"]);
+  const featuredKeys = new Set(["002", "013", "035", "050", "052", "MED-019"]);
   const featured = catalog.filter((record) => featuredKeys.has(record.key));
   const progressCatalog = catalog.map(({ order, slug, shortTitle }) => ({ order, slug, shortTitle }));
 
@@ -28,7 +28,7 @@ export default function Home() {
         <div className="home-hero-shade" />
         <div className="home-hero-content">
           <h1 id="home-title"><span>¿Cómo sabemos</span><span>lo que sabemos?</span></h1>
-          <p className="home-deck">La historia del cosmos, la Tierra,<br />la vida y la humanidad.</p>
+          <p className="home-deck">La historia del cosmos, la Tierra,<br />la vida, la humanidad y la medicina.</p>
           <div className="hero-actions">
             <Link className="button button-primary" href="/viaje">
               Comenzar el viaje <ArrowRight aria-hidden="true" />
@@ -64,7 +64,7 @@ export default function Home() {
       <section className="home-featured section-light" aria-labelledby="featured-title">
         <header className="section-heading">
           <div>
-            <p className="eyebrow">Cinco puertas de entrada</p>
+            <p className="eyebrow">Seis puertas de entrada</p>
             <h2 id="featured-title">Empieza por la pregunta que te atrape</h2>
           </div>
           <Link className="text-link" href="/explorar">Ver las {catalog.length} investigaciones <ArrowRight aria-hidden="true" /></Link>
@@ -74,7 +74,7 @@ export default function Home() {
             <article key={record.slug} className="featured-card">
               <Link href={`/${record.slug}`} className="featured-image">
                 <Image src={record.hero} alt="" fill sizes="(max-width: 720px) 92vw, 32vw" />
-                <span>{String(record.order).padStart(3, "0")}</span>
+                <span>{record.order === null ? record.key : String(record.order).padStart(3, "0")}</span>
               </Link>
               <div>
                 <p>{record.collection} · {record.readingMinutes} min</p>

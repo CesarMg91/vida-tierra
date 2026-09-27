@@ -1,0 +1,378 @@
+{
+  "schemaVersion": 1,
+  "researchSlug": "15_medicina/INVESTIGACION_MED_009_AFRICA_FUERA_EJE_EGIPCIO",
+  "cases": [
+    {
+      "id": "kerma-k317",
+      "title": "Kerma K317 — una abertura no es un diagnóstico",
+      "region": "Kerma, Nubia",
+      "archive": "Cráneo, contexto funerario, imagen y comparación osteológica",
+      "layers": [
+        {
+          "kind": "archive",
+          "observed": "K317 conserva una abertura circular; Kerma ofrece además series sacrificiales y no sacrificiales contextualizadas.",
+          "inference": "Existe un archivo corporal situado para estudiar lesión, supervivencia y variación dentro de las muestras.",
+          "limit": "No representa toda Nubia ni una tradición médica continental.",
+          "claimIds": ["CLAIM-MED-AFRICA-SCOPE-001", "CLAIM-MED-AFRICA-KERMA-HEALTH-001"],
+          "evidenceIds": ["EVID-MED-AFRICA-KERMA-HEALTH-001"],
+          "sourceIds": ["SRC-MED-AFRICA-BUZON-2008", "SRC-MED-AFRICA-MARTIN-2013"]
+        },
+        {
+          "kind": "provenance",
+          "observed": "El individuo procede de un contexto funerario del Kerma clásico y fue examinado como pieza de colección identificada.",
+          "inference": "Sitio, periodo y cadena de estudio delimitan la comparación.",
+          "limit": "La historia de excavación y colección condiciona qué cuerpos sobrevivieron para análisis.",
+          "claimIds": ["CLAIM-MED-AFRICA-ARCHIVE-001", "CLAIM-MED-AFRICA-ETHICS-001"],
+          "evidenceIds": ["EVID-MED-AFRICA-ETHICS-001", "EVID-MED-AFRICA-KERMA-K317-001"],
+          "sourceIds": ["SRC-MED-AFRICA-MARTIN-2013", "SRC-MED-AFRICA-CIESIELSKA-2026"]
+        },
+        {
+          "kind": "signal",
+          "observed": "Morfología circular y remodelación ósea fueron examinadas macroscópicamente y mediante imagen.",
+          "inference": "La remodelación documenta supervivencia después de formarse la abertura.",
+          "limit": "Supervivencia no identifica finalidad, operador o cuidado recibido.",
+          "claimIds": ["CLAIM-MED-AFRICA-KERMA-TREPANATION-001", "CLAIM-MED-AFRICA-CARE-001"],
+          "evidenceIds": ["EVID-MED-AFRICA-KERMA-K317-001"],
+          "sourceIds": ["SRC-MED-AFRICA-MARTIN-2013", "SRC-MED-AFRICA-TILLEY-2014"]
+        },
+        {
+          "kind": "inference",
+          "observed": "La forma y cicatrización son compatibles con una perforación deliberada; se propuso reutilización de herramienta.",
+          "inference": "Trepanación es una explicación posible, no una etiqueta cerrada.",
+          "limit": "No demostrado: motivo médico, técnica exacta, analgesia o resultado funcional.",
+          "claimIds": ["CLAIM-MED-AFRICA-KERMA-TREPANATION-001"],
+          "evidenceIds": ["EVID-MED-AFRICA-KERMA-K317-001"],
+          "sourceIds": ["SRC-MED-AFRICA-MARTIN-2013"]
+        },
+        {
+          "kind": "contrast",
+          "observed": "Trauma y lesión patológica se mantuvieron en el diagnóstico diferencial.",
+          "inference": "Las alternativas impiden convertir compatibilidad en certeza.",
+          "limit": "Nuevas microhuellas o histología podrían cambiar el balance.",
+          "claimIds": ["CLAIM-MED-AFRICA-KERMA-TREPANATION-001", "CLAIM-MED-AFRICA-OSTEOLOGY-001"],
+          "evidenceIds": ["EVID-MED-AFRICA-KERMA-K317-001", "EVID-MED-AFRICA-OSTEOLOGY-001"],
+          "sourceIds": ["SRC-MED-AFRICA-MARTIN-2013", "SRC-MED-AFRICA-WOOD-1992"]
+        },
+        {
+          "kind": "limit",
+          "observed": "El caso ofrece una lesión individual; los grupos de Kerma muestran marcadores parciales y selección mortuoria.",
+          "inference": "Puede narrarse supervivencia e intervención posible con confianza graduada.",
+          "limit": "Dato ausente: quién cuidó, cómo, con qué frecuencia y con qué efecto.",
+          "claimIds": ["CLAIM-MED-AFRICA-SILENCE-001", "CLAIM-MED-AFRICA-EFFICACY-001"],
+          "evidenceIds": ["EVID-MED-AFRICA-KERMA-K317-001", "EVID-MED-AFRICA-EFFICACY-001"],
+          "sourceIds": ["SRC-MED-AFRICA-MARTIN-2013", "SRC-MED-AFRICA-TILLEY-2014"]
+        }
+      ]
+    },
+    {
+      "id": "kulubnarti-cemeteries",
+      "title": "Kulubnarti — varios archivos corrigen una categoría",
+      "region": "Nubia medieval, actual Sudán",
+      "archive": "Cementerios, radiocarbono, osteología, isótopos y ADN antiguo",
+      "layers": [
+        {
+          "kind": "archive",
+          "observed": "Los cementerios R y S conservan esqueletos y asociaciones estudiados durante décadas.",
+          "inference": "Permiten comparar cronología, mortuoria, dieta y parentesco.",
+          "limit": "La colección no equivale a toda la población medieval nubia.",
+          "claimIds": ["CLAIM-MED-AFRICA-KULUBNARTI-CHRONOLOGY-001"],
+          "evidenceIds": ["EVID-MED-AFRICA-KULUBNARTI-CHRONOLOGY-001"],
+          "sourceIds": ["SRC-MED-AFRICA-GODDE-2021"]
+        },
+        {
+          "kind": "provenance",
+          "observed": "Contexto funerario, nuevas dataciones y revisión de inventarios reconectan individuos con cementerios y periodos.",
+          "inference": "La comparación R/S puede rehacerse bajo una cronología común.",
+          "limit": "Selección de entierro, preservación y categorías históricas siguen condicionando la muestra.",
+          "claimIds": ["CLAIM-MED-AFRICA-ETHICS-001", "CLAIM-MED-AFRICA-KULUBNARTI-CHRONOLOGY-001"],
+          "evidenceIds": ["EVID-MED-AFRICA-ETHICS-001", "EVID-MED-AFRICA-KULUBNARTI-CHRONOLOGY-001"],
+          "sourceIds": ["SRC-MED-AFRICA-GODDE-2021", "SRC-MED-AFRICA-CIESIELSKA-2026"]
+        },
+        {
+          "kind": "signal",
+          "observed": "Radiocarbono apoya contemporaneidad; isótopos registran dieta; ADN de 66 individuos registra afinidad y parentesco.",
+          "inference": "Cada método responde una dimensión independiente.",
+          "limit": "Ninguna señal molecular mide por sí sola cuidado, estatus o experiencia.",
+          "claimIds": ["CLAIM-MED-AFRICA-KULUBNARTI-DIET-001", "CLAIM-MED-AFRICA-KULUBNARTI-GENETICS-001"],
+          "evidenceIds": ["EVID-MED-AFRICA-KULUBNARTI-DIET-001", "EVID-MED-AFRICA-KULUBNARTI-GENETICS-001"],
+          "sourceIds": ["SRC-MED-AFRICA-TURNER-2007", "SRC-MED-AFRICA-SIRAK-2021"]
+        },
+        {
+          "kind": "inference",
+          "observed": "R y S fueron en gran medida contemporáneos y comparten afinidad genética y parientes.",
+          "inference": "La vieja narración de dos poblaciones sucesivas y biológicamente separadas se debilita.",
+          "limit": "La revisión no obliga a negar diferenciación social o mortuoria.",
+          "claimIds": ["CLAIM-MED-AFRICA-KULUBNARTI-CHRONOLOGY-001", "CLAIM-MED-AFRICA-KULUBNARTI-GENETICS-001"],
+          "evidenceIds": ["EVID-MED-AFRICA-KULUBNARTI-CHRONOLOGY-001", "EVID-MED-AFRICA-KULUBNARTI-GENETICS-001"],
+          "sourceIds": ["SRC-MED-AFRICA-GODDE-2021", "SRC-MED-AFRICA-SIRAK-2021"]
+        },
+        {
+          "kind": "contrast",
+          "observed": "Mortuoria, edad, dieta y parentesco no producen exactamente la misma partición.",
+          "inference": "La discordancia discrimina hipótesis simples de clase o secuencia.",
+          "limit": "Categorías sociales locales no se leen directamente en una sola medida.",
+          "claimIds": ["CLAIM-MED-AFRICA-KULUBNARTI-DIET-001", "CLAIM-MED-AFRICA-KULUBNARTI-GENETICS-001"],
+          "evidenceIds": ["EVID-MED-AFRICA-KULUBNARTI-DIET-001", "EVID-MED-AFRICA-KULUBNARTI-GENETICS-001"],
+          "sourceIds": ["SRC-MED-AFRICA-GODDE-2021", "SRC-MED-AFRICA-TURNER-2007", "SRC-MED-AFRICA-SIRAK-2021"]
+        },
+        {
+          "kind": "limit",
+          "observed": "El conjunto revisa una historia social, pero no conserva registros de tratamiento o cobertura.",
+          "inference": "La mejor conclusión es plural y multiarquivo.",
+          "limit": "No demostrado: un sistema médico o igualdad de acceso.",
+          "claimIds": ["CLAIM-MED-AFRICA-NONRANKING-001", "CLAIM-MED-AFRICA-EFFICACY-001"],
+          "evidenceIds": ["EVID-MED-AFRICA-SYNTHESIS-001", "EVID-MED-AFRICA-EFFICACY-001"],
+          "sourceIds": ["SRC-MED-AFRICA-GODDE-2021", "SRC-MED-AFRICA-SIRAK-2021"]
+        }
+      ]
+    },
+    {
+      "id": "aksum-preservation",
+      "title": "Aksum — monumentalidad no llena cuerpos ausentes",
+      "region": "Tierras altas del norte de Etiopía",
+      "archive": "Asentamientos, tumbas, restos desiguales, isótopos y manuscritos tardíos",
+      "layers": [
+        {
+          "kind": "archive",
+          "observed": "Bieta Giyorgis conserva fases de asentamiento y enterramiento protoaksumitas y aksumitas.",
+          "inference": "La trayectoria política, funeraria y urbana puede reconstruirse con detalle variable.",
+          "limit": "Ese detalle no constituye por sí solo un archivo médico.",
+          "claimIds": ["CLAIM-MED-AFRICA-AKSUM-ARCHIVE-001"],
+          "evidenceIds": ["EVID-MED-AFRICA-AKSUM-ARCHIVE-001"],
+          "sourceIds": ["SRC-MED-AFRICA-BARD-2025", "SRC-MED-AFRICA-BARD-FATTOVICH-2002"]
+        },
+        {
+          "kind": "provenance",
+          "observed": "Estratigrafía y excavación sitúan contextos, mientras suelos ácidos reducen la preservación humana.",
+          "inference": "La ausencia corporal puede atribuirse en parte a tafonomía documentada.",
+          "limit": "No permite reconstruir los cuerpos perdidos ni declarar ausencia de cuidado.",
+          "claimIds": ["CLAIM-MED-AFRICA-SILENCE-001", "CLAIM-MED-AFRICA-AKSUM-ARCHIVE-001"],
+          "evidenceIds": ["EVID-MED-AFRICA-METHOD-001", "EVID-MED-AFRICA-AKSUM-ARCHIVE-001"],
+          "sourceIds": ["SRC-MED-AFRICA-BARD-2025", "SRC-MED-AFRICA-BARD-FATTOVICH-2002", "SRC-MED-AFRICA-STAHL-2004"]
+        },
+        {
+          "kind": "signal",
+          "observed": "Una serie isotópica incluye animales y un individuo humano directamente fechado en 2290 ± 50 BP.",
+          "inference": "La señal dietaria de ese individuo puede compararse con la base faunística.",
+          "limit": "n humano = 1: no es una dieta poblacional.",
+          "claimIds": ["CLAIM-MED-AFRICA-AKSUM-ISOTOPE-001"],
+          "evidenceIds": ["EVID-MED-AFRICA-AKSUM-ISOTOPE-001"],
+          "sourceIds": ["SRC-MED-AFRICA-DANDREA-2011"]
+        },
+        {
+          "kind": "inference",
+          "observed": "El archivo político es más denso que el corporal y las muestras bioarqueológicas son pequeñas.",
+          "inference": "La resolución debe declararse por pregunta, no por prestigio del sitio.",
+          "limit": "Dato ausente: prevalencia, cuidado y organización médica aksumitas a escala poblacional.",
+          "claimIds": ["CLAIM-MED-AFRICA-AKSUM-ARCHIVE-001", "CLAIM-MED-AFRICA-SILENCE-001"],
+          "evidenceIds": ["EVID-MED-AFRICA-AKSUM-ARCHIVE-001", "EVID-MED-AFRICA-AKSUM-ISOTOPE-001"],
+          "sourceIds": ["SRC-MED-AFRICA-BARD-2025", "SRC-MED-AFRICA-DANDREA-2011"]
+        },
+        {
+          "kind": "contrast",
+          "observed": "Códices y rollos etíopes tardíos conservan remedios, protección y oración en otros siglos.",
+          "inference": "Documentan tradiciones reales de sus propios periodos.",
+          "limit": "Sin testigos intermedios no contrastan ni rellenan directamente la medicina aksumita.",
+          "claimIds": ["CLAIM-MED-AFRICA-ETHIOPIC-MANUSCRIPTS-001"],
+          "evidenceIds": ["EVID-MED-AFRICA-ETHIOPIC-MANUSCRIPTS-001"],
+          "sourceIds": ["SRC-MED-AFRICA-STRELCYN-1972", "SRC-MED-AFRICA-HAILE-2009"]
+        },
+        {
+          "kind": "limit",
+          "observed": "Monumento, cuerpo, isótopo y manuscrito tardío tienen cronologías y productos distintos.",
+          "inference": "Puede mostrarse una historia del archivo sin fabricar continuidad.",
+          "limit": "No demostrado: sistema médico aksumita continuo hasta los manuscritos tardíos.",
+          "claimIds": ["CLAIM-MED-AFRICA-ARCHIVE-001", "CLAIM-MED-AFRICA-NONRANKING-001"],
+          "evidenceIds": ["EVID-MED-AFRICA-METHOD-001", "EVID-MED-AFRICA-SYNTHESIS-001"],
+          "sourceIds": ["SRC-MED-AFRICA-BARD-2025", "SRC-MED-AFRICA-STRELCYN-1972"]
+        }
+      ]
+    },
+    {
+      "id": "jenne-jeno",
+      "title": "Jenne-jeno — una ciudad no es un hospital",
+      "region": "Delta interior del Níger, Mali",
+      "archive": "Estratigrafía urbana, producción, intercambio, fauna y analogías",
+      "layers": [
+        {
+          "kind": "archive",
+          "observed": "Jenne-jeno conserva siglos de ocupación urbana, producción y redes regionales.",
+          "inference": "Puede estudiarse una trayectoria urbana que no depende de un paquete estatal clásico.",
+          "limit": "Urbanismo no identifica por sí solo prácticas de cuidado.",
+          "claimIds": ["CLAIM-MED-AFRICA-JENNE-URBANISM-001"],
+          "evidenceIds": ["EVID-MED-AFRICA-JENNE-URBANISM-001"],
+          "sourceIds": ["SRC-MCINTOSH-JENNE-1981"]
+        },
+        {
+          "kind": "provenance",
+          "observed": "Excavación, prospección y conjuntos materiales sitúan fases y áreas de actividad.",
+          "inference": "La procedencia permite separar ocupación, producción y deposición.",
+          "limit": "Prácticas efímeras pueden no dejar un conjunto diagnóstico.",
+          "claimIds": ["CLAIM-MED-AFRICA-ARCHIVE-001", "CLAIM-MED-AFRICA-SILENCE-001"],
+          "evidenceIds": ["EVID-MED-AFRICA-JENNE-URBANISM-001", "EVID-MED-AFRICA-METHOD-001"],
+          "sourceIds": ["SRC-MCINTOSH-JENNE-1981", "SRC-MED-AFRICA-STONE-2018"]
+        },
+        {
+          "kind": "signal",
+          "observed": "Arquitectura, cerámica, metales, fauna e intercambio indican funciones urbanas diversas.",
+          "inference": "Se reconocen producción y organización sin exigir centralización monumental.",
+          "limit": "Ninguna señal registrada es diagnóstica de institución médica.",
+          "claimIds": ["CLAIM-MED-AFRICA-JENNE-URBANISM-001"],
+          "evidenceIds": ["EVID-MED-AFRICA-JENNE-URBANISM-001"],
+          "sourceIds": ["SRC-MCINTOSH-JENNE-1981", "SRC-MED-AFRICA-STONE-2018"]
+        },
+        {
+          "kind": "inference",
+          "observed": "La escala urbana hizo posibles redes complejas de trabajo y conocimiento.",
+          "inference": "Es legítimo preguntar por especialistas y cuidado como hipótesis futura.",
+          "limit": "No demostrado: médicos, hospitales, licencias o cobertura.",
+          "claimIds": ["CLAIM-MED-AFRICA-JENNE-URBANISM-001", "CLAIM-MED-AFRICA-SILENCE-001"],
+          "evidenceIds": ["EVID-MED-AFRICA-JENNE-URBANISM-001"],
+          "sourceIds": ["SRC-MCINTOSH-JENNE-1981"]
+        },
+        {
+          "kind": "contrast",
+          "observed": "Modelos etnográficos de especialización son plausibles pero no han cerrado todos sus puentes arqueológicos.",
+          "inference": "La analogía puede orientar búsqueda de mecanismos y espacios.",
+          "limit": "Parecido contemporáneo no prueba continuidad ni identidad profesional antigua.",
+          "claimIds": ["CLAIM-MED-AFRICA-ANALOGY-001"],
+          "evidenceIds": ["EVID-MED-AFRICA-JENNE-URBANISM-001", "EVID-MED-AFRICA-ORAL-001"],
+          "sourceIds": ["SRC-MED-AFRICA-STONE-2018", "SRC-MED-AFRICA-STAHL-2004"]
+        },
+        {
+          "kind": "limit",
+          "observed": "El archivo urbano es rico y el archivo médico directo permanece no identificado.",
+          "inference": "No demostrado es distinto de ausencia histórica.",
+          "limit": "Dato ausente: cadena convergente de espacio, actor, operación y beneficiario médicos.",
+          "claimIds": ["CLAIM-MED-AFRICA-SILENCE-001", "CLAIM-MED-AFRICA-NONRANKING-001"],
+          "evidenceIds": ["EVID-MED-AFRICA-METHOD-001", "EVID-MED-AFRICA-SYNTHESIS-001"],
+          "sourceIds": ["SRC-MCINTOSH-JENNE-1981", "SRC-MED-AFRICA-STAHL-2004"]
+        }
+      ]
+    },
+    {
+      "id": "timbuktu-manuscript",
+      "title": "Tombuctú — un manuscrito no es una práctica",
+      "region": "Tombuctú, Mali",
+      "archive": "Códice árabe digitalizado y metadatos de bibliotecas privadas",
+      "layers": [
+        {
+          "kind": "archive",
+          "observed": "Un códice de 253 folios conserva contenido médico y protector; 31 bibliotecas tienen inventarios heterogéneos.",
+          "inference": "Existe un archivo textual directo para estudiar repertorios y colección.",
+          "limit": "El número total divulgado no describe cada objeto.",
+          "claimIds": ["CLAIM-MED-AFRICA-TIMBUKTU-TEXT-001", "CLAIM-MED-AFRICA-TIMBUKTU-INVENTORY-001"],
+          "evidenceIds": ["EVID-MED-AFRICA-TIMBUKTU-TEXT-001", "EVID-MED-AFRICA-TIMBUKTU-INVENTORY-001"],
+          "sourceIds": ["SRC-MED-AFRICA-LOC-TIMBUKTU", "SRC-MED-AFRICA-STEWART-2021"]
+        },
+        {
+          "kind": "provenance",
+          "observed": "La biblioteca Mamma Haidara custodia el manuscrito; la ficha lo sitúa en los siglos XVII–XVIII.",
+          "inference": "Colección, soporte y rango catalográfico pueden declararse.",
+          "limit": "La propia ficha deja incierta la fecha de compilación y cada pasaje puede tener otra genealogía.",
+          "claimIds": ["CLAIM-MED-AFRICA-TIMBUKTU-TEXT-001"],
+          "evidenceIds": ["EVID-MED-AFRICA-TIMBUKTU-TEXT-001"],
+          "sourceIds": ["SRC-MED-AFRICA-LOC-TIMBUKTU"]
+        },
+        {
+          "kind": "signal",
+          "observed": "La descripción registra diagnósticos, sustancias vegetales, animales y minerales, plegarias, versos y amuletos.",
+          "inference": "Puede reconstruirse un repertorio escrito plural.",
+          "limit": "Catálogo y texto no son observación de una consulta o administración.",
+          "claimIds": ["CLAIM-MED-AFRICA-TIMBUKTU-TEXT-001"],
+          "evidenceIds": ["EVID-MED-AFRICA-TIMBUKTU-TEXT-001"],
+          "sourceIds": ["SRC-MED-AFRICA-LOC-TIMBUKTU"]
+        },
+        {
+          "kind": "inference",
+          "observed": "Fórmulas y géneros coexistieron dentro de un objeto conservado.",
+          "inference": "El manuscrito documenta conocimiento textual disponible para ciertos lectores.",
+          "limit": "No demostrado: alfabetización, circulación, ejecución o frecuencia.",
+          "claimIds": ["CLAIM-MED-AFRICA-TIMBUKTU-TEXT-001", "CLAIM-MED-AFRICA-EFFICACY-001"],
+          "evidenceIds": ["EVID-MED-AFRICA-TIMBUKTU-TEXT-001", "EVID-MED-AFRICA-EFFICACY-001"],
+          "sourceIds": ["SRC-MED-AFRICA-LOC-TIMBUKTU"]
+        },
+        {
+          "kind": "contrast",
+          "observed": "El inventario muestra muchas piezas breves, tardías o sin autor identificado.",
+          "inference": "Debilita la equivalencia entre tamaño de colección, medievalidad y contenido conocido.",
+          "limit": "La muestra de 31 bibliotecas tampoco agota todo Tombuctú.",
+          "claimIds": ["CLAIM-MED-AFRICA-TIMBUKTU-INVENTORY-001"],
+          "evidenceIds": ["EVID-MED-AFRICA-TIMBUKTU-INVENTORY-001"],
+          "sourceIds": ["SRC-MED-AFRICA-STEWART-2021"]
+        },
+        {
+          "kind": "limit",
+          "observed": "Contenido, fecha de copia, circulación, uso y resultado no se conservan con la misma resolución.",
+          "inference": "El objeto sostiene historia textual situada.",
+          "limit": "No demostrado: eficacia o representatividad de la práctica regional.",
+          "claimIds": ["CLAIM-MED-AFRICA-EFFICACY-001", "CLAIM-MED-AFRICA-NONRANKING-001"],
+          "evidenceIds": ["EVID-MED-AFRICA-EFFICACY-001", "EVID-MED-AFRICA-SYNTHESIS-001"],
+          "sourceIds": ["SRC-MED-AFRICA-STEWART-2021", "SRC-MED-AFRICA-LOC-TIMBUKTU"]
+        }
+      ]
+    },
+    {
+      "id": "tong-hills-pots",
+      "title": "Tong Hills — un residuo no es eficacia",
+      "region": "Ghana septentrional",
+      "archive": "Contexto arqueológico, recipientes, química orgánica y etnografía",
+      "layers": [
+        {
+          "kind": "archive",
+          "observed": "Recipientes arqueológicos y una pieza moderna comparativa fueron estudiados dentro de un programa regional.",
+          "inference": "Objeto, depósito y comparación pueden auditarse juntos.",
+          "limit": "La práctica observada hoy no es el pasado sin mediación.",
+          "claimIds": ["CLAIM-MED-AFRICA-TONG-CONTEXT-001", "CLAIM-MED-AFRICA-ANALOGY-001"],
+          "evidenceIds": ["EVID-MED-AFRICA-TONG-CONTEXT-001"],
+          "sourceIds": ["SRC-MED-AFRICA-INSOLL-2011", "SRC-MED-AFRICA-FRASER-2012"]
+        },
+        {
+          "kind": "provenance",
+          "observed": "OSL sitúa el contexto arqueológico aproximadamente entre 1463 y 1553 e. c.",
+          "inference": "El depósito antecede probablemente a la etnogénesis talensi histórica propuesta.",
+          "limit": "No puede asignarse automáticamente identidad talensi a los recipientes antiguos.",
+          "claimIds": ["CLAIM-MED-AFRICA-TONG-CONTEXT-001", "CLAIM-MED-AFRICA-ORAL-TRADITION-001"],
+          "evidenceIds": ["EVID-MED-AFRICA-TONG-CONTEXT-001", "EVID-MED-AFRICA-ORAL-001"],
+          "sourceIds": ["SRC-MED-AFRICA-FRASER-2012", "SRC-MED-AFRICA-INSOLL-2011"]
+        },
+        {
+          "kind": "signal",
+          "observed": "Análisis orgánico detectó señales de residuos vegetales; la pieza moderna aportó un comparador de uso.",
+          "inference": "Los recipientes participaron probablemente en preparación de sustancias vegetales.",
+          "limit": "La señal no identifica necesariamente especie, parte, dosis o mezcla.",
+          "claimIds": ["CLAIM-MED-AFRICA-TONG-CONTEXT-001"],
+          "evidenceIds": ["EVID-MED-AFRICA-TONG-RESIDUE-001"],
+          "sourceIds": ["SRC-MED-AFRICA-FRASER-2012"]
+        },
+        {
+          "kind": "inference",
+          "observed": "Contexto, residuo y comparación etnográfica convergen sobre una función medicinal probable.",
+          "inference": "La función puede calificarse como probable sin inventar una receta.",
+          "limit": "No demostrado: indicación, operador, frecuencia o comunidad histórica precisa.",
+          "claimIds": ["CLAIM-MED-AFRICA-TONG-CONTEXT-001", "CLAIM-MED-AFRICA-ANALOGY-001"],
+          "evidenceIds": ["EVID-MED-AFRICA-TONG-CONTEXT-001", "EVID-MED-AFRICA-TONG-RESIDUE-001"],
+          "sourceIds": ["SRC-MED-AFRICA-INSOLL-2011", "SRC-MED-AFRICA-FRASER-2012"]
+        },
+        {
+          "kind": "contrast",
+          "observed": "La cerámica es multifuncional y la distancia histórica permite convergencia o reutilización.",
+          "inference": "Contexto y química reducen alternativas sin eliminarlas todas.",
+          "limit": "Una identidad o finalidad única requeriría marcadores y archivos independientes.",
+          "claimIds": ["CLAIM-MED-AFRICA-ANALOGY-001"],
+          "evidenceIds": ["EVID-MED-AFRICA-TONG-CONTEXT-001", "EVID-MED-AFRICA-ORAL-001"],
+          "sourceIds": ["SRC-MED-AFRICA-INSOLL-2011", "SRC-MED-AFRICA-STAHL-2004"]
+        },
+        {
+          "kind": "limit",
+          "observed": "El archivo identifica preparación vegetal probable, no un ensayo de intervención.",
+          "inference": "Práctica material y efecto permanecen productos distintos.",
+          "limit": "No demostrado: beneficio, daño o seguridad; residuo no es eficacia.",
+          "claimIds": ["CLAIM-MED-AFRICA-EFFICACY-001", "CLAIM-MED-AFRICA-NONRANKING-001"],
+          "evidenceIds": ["EVID-MED-AFRICA-EFFICACY-001", "EVID-MED-AFRICA-SYNTHESIS-001"],
+          "sourceIds": ["SRC-MED-AFRICA-FRASER-2012"]
+        }
+      ]
+    }
+  ]
+}

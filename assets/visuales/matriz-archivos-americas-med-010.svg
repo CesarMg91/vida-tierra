@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Matriz comparativa de seis archivos médicos de las Américas en MED-010</title>
+  <desc id="desc">Seis filas comparan el archivo observado, la inferencia permitida y el límite para Cuzco, dientes mayas, Huaca El Paraíso, Piauí, el Libellus y el Códice Florentino.</desc>
+  <rect width="1600" height="900" fill="#101615"/>
+  <circle cx="1480" cy="40" r="240" fill="#8d532e" opacity=".12"/>
+  <text x="70" y="72" fill="#d99a61" font-family="IBM Plex Sans, Arial, sans-serif" font-size="21" letter-spacing="4">MED-010 · MATRIZ SIN RANKING</text>
+  <text x="70" y="126" fill="#f3e7d2" font-family="Source Serif 4, Georgia, serif" font-size="44" font-weight="700">Seis archivos, seis poderes de resolución</text>
+  <text x="70" y="160" fill="#b9c2bc" font-family="IBM Plex Sans, Arial, sans-serif" font-size="19">Comparar productos no convierte sociedades en una escala.</text>
+
+  <g transform="translate(70 196)">
+    <rect width="1460" height="54" rx="12" fill="#2c352f"/>
+    <text x="22" y="35" fill="#f3e7d2" font-family="IBM Plex Mono, monospace" font-size="17" font-weight="700">CASO</text>
+    <text x="270" y="35" fill="#f3e7d2" font-family="IBM Plex Mono, monospace" font-size="17" font-weight="700">ARCHIVO OBSERVADO</text>
+    <text x="690" y="35" fill="#f3e7d2" font-family="IBM Plex Mono, monospace" font-size="17" font-weight="700">INFERENCIA PERMITIDA</text>
+    <text x="1110" y="35" fill="#f3e7d2" font-family="IBM Plex Mono, monospace" font-size="17" font-weight="700">LÍMITE</text>
+
+    <g transform="translate(0 66)">
+      <rect width="1460" height="88" rx="10" fill="#1c2421" stroke="#3d4b44"/>
+      <rect width="12" height="88" rx="6" fill="#c97a45"/>
+      <text x="30" y="36" fill="#f1ddc2" font-family="Source Serif 4, Georgia, serif" font-size="23" font-weight="700">Cuzco</text>
+      <text x="30" y="65" fill="#aeb9b2" font-family="IBM Plex Sans, Arial, sans-serif" font-size="16">Andes</text>
+      <text x="270" y="34" fill="#d6ddd9" font-family="IBM Plex Sans, Arial, sans-serif" font-size="17">66 individuos · 109 perforaciones</text><text x="270" y="61" fill="#d6ddd9" font-family="IBM Plex Sans, Arial, sans-serif" font-size="17">técnica y remodelación</text>
+      <text x="690" y="34" fill="#9cc9b1" font-family="IBM Plex Sans, Arial, sans-serif" font-size="17">Intervención repetida</text><text x="690" y="61" fill="#9cc9b1" font-family="IBM Plex Sans, Arial, sans-serif" font-size="17">supervivencia frecuente</text>
+      <text x="1110" y="34" fill="#e4ad7d" font-family="IBM Plex Sans, Arial, sans-serif" font-size="17">Indicación y beneficio</text><text x="1110" y="61" fill="#e4ad7d" font-family="IBM Plex Sans, Arial, sans-serif" font-size="17">individual no demostrados</text>
+    </g>
+    <g transform="translate(0 164)">
+      <rect width="1460" height="88" rx="10" fill="#18201e" stroke="#3d4b44"/>
+      <rect width="12" height="88" rx="6" fill="#7aa68e"/>
+      <text x="30" y="36" fill="#f1ddc2" font-family="Source Serif 4, Georgia, serif" font-size="23" font-weight="700">Dientes mayas</text>
+      <text x="30" y="65" fill="#aeb9b2" font-family="IBM Plex Sans, Arial, sans-serif" font-size="16">Mesoamérica</text>
+      <text x="270" y="34" fill="#d6ddd9" font-family="IBM Plex Sans, Arial, sans-serif" font-size="17">Cavidades · cementos · controles</text><text x="270" y="61" fill="#d6ddd9" font-family="IBM Plex Sans, Arial, sans-serif" font-size="17">química y patología</text>
+      <text x="690" y="34" fill="#9cc9b1" font-family="IBM Plex Sans, Arial, sans-serif" font-size="17">Destreza y mezcla preparada</text><text x="690" y="61" fill="#9cc9b1" font-family="IBM Plex Sans, Arial, sans-serif" font-size="17">consecuencias mixtas</text>
+      <text x="1110" y="34" fill="#e4ad7d" font-family="IBM Plex Sans, Arial, sans-serif" font-size="17">Terapia, intención y efecto</text><text x="1110" y="61" fill="#e4ad7d" font-family="IBM Plex Sans, Arial, sans-serif" font-size="17">in vivo no heredados</text>
+    </g>
+    <g transform="translate(0 262)">
+      <rect width="1460" height="88" rx="10" fill="#1c2421" stroke="#3d4b44"/>
+      <rect width="12" height="88" rx="6" fill="#c97a45"/>
+      <text x="30" y="36" fill="#f1ddc2" font-family="Source Serif 4, Georgia, serif" font-size="23" font-weight="700">Huaca El Paraíso</text>
+      <text x="30" y="65" fill="#aeb9b2" font-family="IBM Plex Sans, Arial, sans-serif" font-size="16">Costa del Perú</text>
+      <text x="270" y="34" fill="#d6ddd9" font-family="IBM Plex Sans, Arial, sans-serif" font-size="17">Cálculo y caries de una mujer</text><text x="270" y="61" fill="#d6ddd9" font-family="IBM Plex Sans, Arial, sans-serif" font-size="17">almidones y fitolitos</text>
+      <text x="690" y="34" fill="#9cc9b1" font-family="IBM Plex Sans, Arial, sans-serif" font-size="17">Contacto vegetal</text><text x="690" y="61" fill="#9cc9b1" font-family="IBM Plex Sans, Arial, sans-serif" font-size="17">aplicación local posible</text>
+      <text x="1110" y="34" fill="#e4ad7d" font-family="IBM Plex Sans, Arial, sans-serif" font-size="17">Una persona no demuestra</text><text x="1110" y="61" fill="#e4ad7d" font-family="IBM Plex Sans, Arial, sans-serif" font-size="17">intención o tradición</text>
+    </g>
+    <g transform="translate(0 360)">
+      <rect width="1460" height="88" rx="10" fill="#18201e" stroke="#3d4b44"/>
+      <rect width="12" height="88" rx="6" fill="#7aa68e"/>
+      <text x="30" y="36" fill="#f1ddc2" font-family="Source Serif 4, Georgia, serif" font-size="23" font-weight="700">Piauí</text>
+      <text x="30" y="65" fill="#aeb9b2" font-family="IBM Plex Sans, Arial, sans-serif" font-size="16">Brasil</text>
+      <text x="270" y="34" fill="#d6ddd9" font-family="IBM Plex Sans, Arial, sans-serif" font-size="17">5 coprolitos · polen · parásitos</text><text x="270" y="61" fill="#d6ddd9" font-family="IBM Plex Sans, Arial, sans-serif" font-size="17">12 géneros potenciales</text>
+      <text x="690" y="34" fill="#9cc9b1" font-family="IBM Plex Sans, Arial, sans-serif" font-size="17">Tres casos de uso</text><text x="690" y="61" fill="#9cc9b1" font-family="IBM Plex Sans, Arial, sans-serif" font-size="17">medicinal probable</text>
+      <text x="1110" y="34" fill="#e4ad7d" font-family="IBM Plex Sans, Arial, sans-serif" font-size="17">Dosis, diagnóstico y</text><text x="1110" y="61" fill="#e4ad7d" font-family="IBM Plex Sans, Arial, sans-serif" font-size="17">efecto no observados</text>
+    </g>
+    <g transform="translate(0 458)">
+      <rect width="1460" height="88" rx="10" fill="#1c2421" stroke="#3d4b44"/>
+      <rect width="12" height="88" rx="6" fill="#c97a45"/>
+      <text x="30" y="36" fill="#f1ddc2" font-family="Source Serif 4, Georgia, serif" font-size="23" font-weight="700">Libellus · 1552</text>
+      <text x="30" y="65" fill="#aeb9b2" font-family="IBM Plex Sans, Arial, sans-serif" font-size="16">Tlatelolco</text>
+      <text x="270" y="34" fill="#d6ddd9" font-family="IBM Plex Sans, Arial, sans-serif" font-size="17">Latín · imágenes · papel europeo</text><text x="270" y="61" fill="#d6ddd9" font-family="IBM Plex Sans, Arial, sans-serif" font-size="17">autoría nahua y patronazgo</text>
+      <text x="690" y="34" fill="#9cc9b1" font-family="IBM Plex Sans, Arial, sans-serif" font-size="17">Materia médica presentada</text><text x="690" y="61" fill="#9cc9b1" font-family="IBM Plex Sans, Arial, sans-serif" font-size="17">en un objeto situado</text>
+      <text x="1110" y="34" fill="#e4ad7d" font-family="IBM Plex Sans, Arial, sans-serif" font-size="17">Ni práctica total ni</text><text x="1110" y="61" fill="#e4ad7d" font-family="IBM Plex Sans, Arial, sans-serif" font-size="17">precontacto intacto</text>
+    </g>
+    <g transform="translate(0 556)">
+      <rect width="1460" height="88" rx="10" fill="#18201e" stroke="#3d4b44"/>
+      <rect width="12" height="88" rx="6" fill="#7aa68e"/>
+      <text x="30" y="36" fill="#f1ddc2" font-family="Source Serif 4, Georgia, serif" font-size="23" font-weight="700">Florentino · ca. 1577</text>
+      <text x="30" y="65" fill="#aeb9b2" font-family="IBM Plex Sans, Arial, sans-serif" font-size="16">Tlatelolco / Florencia</text>
+      <text x="270" y="34" fill="#d6ddd9" font-family="IBM Plex Sans, Arial, sans-serif" font-size="17">Náhuatl · español · imágenes</text><text x="270" y="61" fill="#d6ddd9" font-family="IBM Plex Sans, Arial, sans-serif" font-size="17">doce libros y autoría distribuida</text>
+      <text x="690" y="34" fill="#9cc9b1" font-family="IBM Plex Sans, Arial, sans-serif" font-size="17">Repertorio y mediaciones</text><text x="690" y="61" fill="#9cc9b1" font-family="IBM Plex Sans, Arial, sans-serif" font-size="17">comparables por folio</text>
+      <text x="1110" y="34" fill="#e4ad7d" font-family="IBM Plex Sans, Arial, sans-serif" font-size="17">No voz transparente,</text><text x="1110" y="61" fill="#e4ad7d" font-family="IBM Plex Sans, Arial, sans-serif" font-size="17">frecuencia o eficacia</text>
+    </g>
+  </g>
+  <text x="70" y="866" fill="#aeb9b2" font-family="IBM Plex Sans, Arial, sans-serif" font-size="17">Estados distintos: observado · compatible · probable · no demostrado · dato ausente · evidencia contraria</text>
+</svg>

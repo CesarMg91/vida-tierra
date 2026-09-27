@@ -1,0 +1,378 @@
+{
+  "schemaVersion": 1,
+  "researchSlug": "15_medicina/INVESTIGACION_MED_011_MUNDOS_ISLAMICOS",
+  "cases": [
+    {
+      "id": "hunayn-galen",
+      "title": "Hunayn y Galeno — versión no es voz intacta",
+      "region": "Bagdad y redes greco-siríaco-árabes",
+      "archive": "Informe de traducción, atribuciones y manuscritos posteriores",
+      "layers": [
+        {
+          "kind": "witness",
+          "observed": "Un informe atribuido a Hunayn y copias catalogadas conservan títulos, encargos, lenguas y atribuciones de traducción.",
+          "inference": "Existe una red documentada de producción de versiones médicas.",
+          "limit": "El corpus conservado no contiene todos los ejemplares, borradores o colaboradores.",
+          "claimIds": ["CLAIM-MED-ISLAMIC-ARCHIVE-001", "CLAIM-MED-ISLAMIC-TRANSLATION-001"],
+          "evidenceIds": ["EVID-MED-ISLAMIC-TRANSLATION-RISALA-001"],
+          "sourceIds": ["SRC-MED-ISLAMIC-VAGELPOHL-2011"]
+        },
+        {
+          "kind": "version",
+          "observed": "Hunayn describe cotejo, evaluación de ejemplares dañados y producción diferenciada en siríaco y árabe.",
+          "inference": "Traducir incluyó crítica textual, interpretación y revisión.",
+          "limit": "Una atribución resumida no identifica automáticamente quién tradujo, revisó o copió cada palabra.",
+          "claimIds": ["CLAIM-MED-ISLAMIC-TRANSLATION-001", "CLAIM-MED-ISLAMIC-MULTILINGUAL-001"],
+          "evidenceIds": ["EVID-MED-ISLAMIC-TRANSLATION-RISALA-001"],
+          "sourceIds": ["SRC-MED-ISLAMIC-VAGELPOHL-2011", "SRC-MED-ISLAMIC-SAVAGE-SMITH-2013"]
+        },
+        {
+          "kind": "operation",
+          "observed": "Una versión árabe de De usu partium se atribuye a Hubaysh desde una versión siríaca de Hunayn y a una revisión posterior de Hunayn.",
+          "inference": "Traducción y revisión fueron operaciones distintas dentro del mismo linaje textual.",
+          "limit": "Los testigos intermedios perdidos impiden reconstruir cada cambio.",
+          "claimIds": ["CLAIM-MED-ISLAMIC-HUNAYN-VERSION-001"],
+          "evidenceIds": ["EVID-MED-ISLAMIC-GALEN-VERSION-001"],
+          "sourceIds": ["SRC-MED-ISLAMIC-NLM-GALEN"]
+        },
+        {
+          "kind": "institution",
+          "observed": "Patronos, médicos, traductores y colaboradores encargaron o produjeron versiones para públicos concretos.",
+          "inference": "El taller fue una relación de trabajo y patronazgo, no un acto individual aislado.",
+          "limit": "No demostrado: una Casa de la Sabiduría única que administrara toda la traducción médica.",
+          "claimIds": ["CLAIM-MED-ISLAMIC-TRANSLATION-001", "CLAIM-MED-ISLAMIC-SCOPE-001"],
+          "evidenceIds": ["EVID-MED-ISLAMIC-TRANSLATION-RISALA-001"],
+          "sourceIds": ["SRC-MED-ISLAMIC-VAGELPOHL-2011", "SRC-MED-ISLAMIC-PORMANN-SAVAGE-2007"]
+        },
+        {
+          "kind": "scope",
+          "observed": "La cadena incluye autores griegos, versiones siríacas, traducciones árabes y actores cristianos bajo patronazgo abasí.",
+          "inference": "La medicina escrita circuló entre lenguas, religiones y ciudades.",
+          "limit": "Árabe no significa autor musulmán; Bagdad no representa todos los mundos islámicos.",
+          "claimIds": ["CLAIM-MED-ISLAMIC-MULTILINGUAL-001", "CLAIM-MED-ISLAMIC-SCOPE-001"],
+          "evidenceIds": ["EVID-MED-ISLAMIC-TRANSLATION-RISALA-001", "EVID-MED-ISLAMIC-SYNTHESIS-001"],
+          "sourceIds": ["SRC-MED-ISLAMIC-SAVAGE-SMITH-2013", "SRC-MED-ISLAMIC-CHIPMAN-2013"]
+        },
+        {
+          "kind": "consequence",
+          "observed": "Versiones y copias hicieron disponibles obras y vocabularios para lectores posteriores.",
+          "inference": "Hubo circulación intelectual y posibilidad de comentario o enseñanza.",
+          "limit": "No demostrado: lectura, aplicación clínica, exactitud o beneficio por cada traducción.",
+          "claimIds": ["CLAIM-MED-ISLAMIC-CIRCULATION-001", "CLAIM-MED-ISLAMIC-EFFICACY-001"],
+          "evidenceIds": ["EVID-MED-ISLAMIC-GALEN-VERSION-001", "EVID-MED-ISLAMIC-EFFICACY-001"],
+          "sourceIds": ["SRC-MED-ISLAMIC-NLM-GALEN", "SRC-MED-ISLAMIC-PORMANN-SAVAGE-2007"]
+        }
+      ]
+    },
+    {
+      "id": "razi-cases",
+      "title": "Al-Razi — caso narrado no es cohorte",
+      "region": "Rayy, Bagdad y transmisión manuscrita",
+      "archive": "Historias de casos, notas, compilaciones póstumas y una copia parcial de 1094",
+      "layers": [
+        {
+          "kind": "witness",
+          "observed": "Kitab al-Tajarib y al-Hawi conservan casos, observaciones y extractos asociados con al-Razi.",
+          "inference": "El archivo permite estudiar razonamiento médico situado y selección de autoridades.",
+          "limit": "Las obras llegaron mediante discípulos, compiladores y copistas; no son expedientes autógrafos completos.",
+          "claimIds": ["CLAIM-MED-ISLAMIC-RAZI-CASES-001", "CLAIM-MED-ISLAMIC-RAZI-COMPILATION-001"],
+          "evidenceIds": ["EVID-MED-ISLAMIC-RAZI-CASES-001", "EVID-MED-ISLAMIC-RAZI-MANUSCRIPT-001"],
+          "sourceIds": ["SRC-MED-ISLAMIC-ALVAREZ-MILLAN-2000", "SRC-MED-ISLAMIC-NLM-RAZI"]
+        },
+        {
+          "kind": "version",
+          "observed": "Alumnos registraron casos y una compilación póstuma organizó materiales; al-Hawi también reunió notas después de la muerte del autor.",
+          "inference": "Puede separarse parcialmente observación atribuida, anotación y edición.",
+          "limit": "No siempre es posible asignar la redacción final ni recuperar el orden de los encuentros.",
+          "claimIds": ["CLAIM-MED-ISLAMIC-RAZI-COMPILATION-001"],
+          "evidenceIds": ["EVID-MED-ISLAMIC-RAZI-CASES-001"],
+          "sourceIds": ["SRC-MED-ISLAMIC-ALVAREZ-MILLAN-2010"]
+        },
+        {
+          "kind": "operation",
+          "observed": "Los casos narran síntomas, hipótesis, consejo, tratamiento y evolución con variación frente a la teoría.",
+          "inference": "Hubo decisiones adaptadas a personas y circunstancias seleccionadas.",
+          "limit": "Paciente narrado no equivale a inclusión consecutiva, diagnóstico moderno o seguimiento completo.",
+          "claimIds": ["CLAIM-MED-ISLAMIC-RAZI-CASES-001"],
+          "evidenceIds": ["EVID-MED-ISLAMIC-RAZI-CASES-001"],
+          "sourceIds": ["SRC-MED-ISLAMIC-ALVAREZ-MILLAN-2000", "SRC-MED-ISLAMIC-ALVAREZ-MILLAN-2010"]
+        },
+        {
+          "kind": "institution",
+          "observed": "La narración sitúa enseñanza y atención alrededor de al-Razi y sus alumnos.",
+          "inference": "La observación pudo circular dentro de relaciones formativas y clínicas.",
+          "limit": "No identifica plantilla completa, acceso, reglas de admisión o sistema hospitalario estable.",
+          "claimIds": ["CLAIM-MED-ISLAMIC-RAZI-CASES-001", "CLAIM-MED-ISLAMIC-HOSPITAL-OPERATION-001"],
+          "evidenceIds": ["EVID-MED-ISLAMIC-RAZI-CASES-001"],
+          "sourceIds": ["SRC-MED-ISLAMIC-PORMANN-SAVAGE-2007"]
+        },
+        {
+          "kind": "scope",
+          "observed": "El manuscrito A17 de al-Hawi, copiado en 1094, conserva sólo una sección gastrointestinal.",
+          "inference": "Es un testigo temprano para una parte definida del corpus.",
+          "limit": "Una sección, una copia y casos seleccionados no representan toda la práctica de al-Razi ni de la región.",
+          "claimIds": ["CLAIM-MED-ISLAMIC-ARCHIVE-001", "CLAIM-MED-ISLAMIC-RAZI-COMPILATION-001"],
+          "evidenceIds": ["EVID-MED-ISLAMIC-RAZI-MANUSCRIPT-001"],
+          "sourceIds": ["SRC-MED-ISLAMIC-NLM-RAZI"]
+        },
+        {
+          "kind": "consequence",
+          "observed": "Los casos preservan evolución narrada, pero no un denominador de todos los atendidos ni una comparación planificada.",
+          "inference": "Puede investigarse razonamiento y resultado consignado caso por caso.",
+          "limit": "No demostrado: tasa de éxito, seguridad, eficacia causal o superioridad sobre otra práctica.",
+          "claimIds": ["CLAIM-MED-ISLAMIC-EFFICACY-001", "CLAIM-MED-ISLAMIC-NONRANKING-001"],
+          "evidenceIds": ["EVID-MED-ISLAMIC-EFFICACY-001"],
+          "sourceIds": ["SRC-MED-ISLAMIC-ALVAREZ-MILLAN-2000"]
+        }
+      ]
+    },
+    {
+      "id": "canon-commentary",
+      "title": "Canon — regla no es protocolo ejecutado",
+      "region": "Asia central, Irán y redes de comentario",
+      "archive": "Texto canónico, copias y comentarios árabes de los siglos XII–XIV",
+      "layers": [
+        {
+          "kind": "witness",
+          "observed": "Copias del Canon preservan cinco libros; comentarios posteriores citan y discuten proposiciones concretas.",
+          "inference": "Puede seguirse la estabilización y recepción de un corpus médico.",
+          "limit": "Ninguna copia representa por sí sola todos los estratos, lectores o usos.",
+          "claimIds": ["CLAIM-MED-ISLAMIC-ARCHIVE-001", "CLAIM-MED-ISLAMIC-CANON-COMMENTARY-001"],
+          "evidenceIds": ["EVID-MED-ISLAMIC-CANON-RULES-001", "EVID-MED-ISLAMIC-CANON-COMMENTARY-001"],
+          "sourceIds": ["SRC-MED-ISLAMIC-NLM-CANON", "SRC-MED-ISLAMIC-FANCY-2020"]
+        },
+        {
+          "kind": "version",
+          "observed": "Manuscritos y comentarios conservan variantes, selecciones y reorganizaciones de la obra.",
+          "inference": "Canonización coexistió con interpretación y cambio.",
+          "limit": "Circulación extensa no significa lectura idéntica ni obediencia uniforme.",
+          "claimIds": ["CLAIM-MED-ISLAMIC-CANON-COMMENTARY-001", "CLAIM-MED-ISLAMIC-CIRCULATION-001"],
+          "evidenceIds": ["EVID-MED-ISLAMIC-CANON-COMMENTARY-001"],
+          "sourceIds": ["SRC-MED-ISLAMIC-FANCY-2020", "SRC-MED-ISLAMIC-NLM-CANON"]
+        },
+        {
+          "kind": "operation",
+          "observed": "El libro II formula siete condiciones textuales para evaluar efectos de drogas.",
+          "inference": "Ibn Sina articuló un programa para reducir ambigüedad causal.",
+          "limit": "No demostrado: ensayo aleatorizado, grupo control o aplicación conjunta y rutinaria de las siete reglas.",
+          "claimIds": ["CLAIM-MED-ISLAMIC-CANON-RULES-001"],
+          "evidenceIds": ["EVID-MED-ISLAMIC-CANON-RULES-001"],
+          "sourceIds": ["SRC-MED-ISLAMIC-NASSER-2009"]
+        },
+        {
+          "kind": "institution",
+          "observed": "Lectores y comentaristas usaron el Canon en redes docentes e intelectuales durante siglos.",
+          "inference": "La autoridad textual sostuvo comunidades de lectura y debate.",
+          "limit": "No se deriva un currículo, examen o práctica idénticos para todas las ciudades.",
+          "claimIds": ["CLAIM-MED-ISLAMIC-CANON-COMMENTARY-001"],
+          "evidenceIds": ["EVID-MED-ISLAMIC-CANON-COMMENTARY-001"],
+          "sourceIds": ["SRC-MED-ISLAMIC-FANCY-2020"]
+        },
+        {
+          "kind": "scope",
+          "observed": "Más de dos docenas de comentarios árabes se produjeron entre los siglos XII y XIV; algunos verificaron o modificaron ideas.",
+          "inference": "La recepción incluyó crítica y no sólo conservación pasiva.",
+          "limit": "Los ejemplos estudiados no convierten todo comentario en experimental o correcto.",
+          "claimIds": ["CLAIM-MED-ISLAMIC-CANON-COMMENTARY-001", "CLAIM-MED-ISLAMIC-NONRANKING-001"],
+          "evidenceIds": ["EVID-MED-ISLAMIC-CANON-COMMENTARY-001"],
+          "sourceIds": ["SRC-MED-ISLAMIC-FANCY-2020"]
+        },
+        {
+          "kind": "consequence",
+          "observed": "El Canon circuló y generó comentarios, traducciones y enseñanza prolongada.",
+          "inference": "Tuvo una historia de recepción extensa y productiva.",
+          "limit": "No demostrado: verdad de cada proposición, eficacia de sus remedios o mejora poblacional atribuible.",
+          "claimIds": ["CLAIM-MED-ISLAMIC-CIRCULATION-001", "CLAIM-MED-ISLAMIC-EFFICACY-001"],
+          "evidenceIds": ["EVID-MED-ISLAMIC-EFFICACY-001"],
+          "sourceIds": ["SRC-MED-ISLAMIC-NASSER-2009", "SRC-MED-ISLAMIC-FANCY-2020"]
+        }
+      ]
+    },
+    {
+      "id": "optics-ophthalmology",
+      "title": "Óptica y catarata — experimento no es recuperación",
+      "region": "El Cairo, Mosul y redes oftalmológicas",
+      "archive": "Kitab al-Manazir, manuales de oculistas y descripción de aguja hueca",
+      "layers": [
+        {
+          "kind": "witness",
+          "observed": "Manuscritos conservan problemas ópticos de Ibn al-Haytham y manuales especializados de oftalmología.",
+          "inference": "Existieron corpus diferenciados de óptica y práctica ocular.",
+          "limit": "La supervivencia textual es desigual y no registra a todos los practicantes.",
+          "claimIds": ["CLAIM-MED-ISLAMIC-OPTICS-001", "CLAIM-MED-ISLAMIC-OPHTHALMOLOGY-001"],
+          "evidenceIds": ["EVID-MED-ISLAMIC-OPTICS-001", "EVID-MED-ISLAMIC-OPHTHALMOLOGY-001"],
+          "sourceIds": ["SRC-MED-ISLAMIC-RAYNAUD-2003", "SRC-MED-ISLAMIC-NLM-OPHTHALMOLOGY"]
+        },
+        {
+          "kind": "version",
+          "observed": "Copias y estudios modernos reconstruyen argumentos, dispositivos e instrumentos descritos.",
+          "inference": "Puede evaluarse qué problema planteó cada texto y cómo razonó sobre él.",
+          "limit": "Reconstrucción moderna de un aparato no prueba que toda copia conservara o ejecutara la misma operación.",
+          "claimIds": ["CLAIM-MED-ISLAMIC-ARCHIVE-001", "CLAIM-MED-ISLAMIC-OPTICS-001"],
+          "evidenceIds": ["EVID-MED-ISLAMIC-OPTICS-001"],
+          "sourceIds": ["SRC-MED-ISLAMIC-EL-BIZRI-2005"]
+        },
+        {
+          "kind": "operation",
+          "observed": "Ibn al-Haytham examinó visión binocular y diplopía; Ammar describió aspiración de catarata mediante aguja hueca.",
+          "inference": "Hubo investigación experimental de visión y una propuesta quirúrgica explícita.",
+          "limit": "Óptica no es resultado clínico; descripción quirúrgica no demuestra ejecución frecuente o exitosa.",
+          "claimIds": ["CLAIM-MED-ISLAMIC-OPTICS-001", "CLAIM-MED-ISLAMIC-OPHTHALMOLOGY-001"],
+          "evidenceIds": ["EVID-MED-ISLAMIC-OPTICS-001", "EVID-MED-ISLAMIC-OPHTHALMOLOGY-001"],
+          "sourceIds": ["SRC-MED-ISLAMIC-RAYNAUD-2003", "SRC-MED-ISLAMIC-PEREZ-CAMBRODI-2015"]
+        },
+        {
+          "kind": "institution",
+          "observed": "Manuales y biografías distinguen oculistas, instrumentos y saberes especializados.",
+          "inference": "La atención ocular pudo constituir una especialización reconocible.",
+          "limit": "Texto especializado no identifica formación, licencia, acceso o volumen de atención.",
+          "claimIds": ["CLAIM-MED-ISLAMIC-OPHTHALMOLOGY-001", "CLAIM-MED-ISLAMIC-BIOGRAPHY-001"],
+          "evidenceIds": ["EVID-MED-ISLAMIC-OPHTHALMOLOGY-001", "EVID-MED-ISLAMIC-BIOGRAPHY-001"],
+          "sourceIds": ["SRC-MED-ISLAMIC-NLM-OPHTHALMOLOGY", "SRC-MED-ISLAMIC-IBN-ABI-USAYBIA-2024"]
+        },
+        {
+          "kind": "scope",
+          "observed": "Un oculista egipcio del siglo XIV expresó escepticismo sobre extracción de catarata.",
+          "inference": "La factibilidad fue debatida dentro de la tradición y no aceptada como hecho uniforme.",
+          "limit": "Una crítica tardía no prueba ausencia total de la operación ni su frecuencia anterior.",
+          "claimIds": ["CLAIM-MED-ISLAMIC-OPHTHALMOLOGY-001"],
+          "evidenceIds": ["EVID-MED-ISLAMIC-OPHTHALMOLOGY-001"],
+          "sourceIds": ["SRC-MED-ISLAMIC-SAVAGE-SMITH-2022"]
+        },
+        {
+          "kind": "consequence",
+          "observed": "Los textos no ofrecen series con agudeza visual basal y final, complicaciones y denominador.",
+          "inference": "Puede afirmarse propuesta, debate y circulación técnica.",
+          "limit": "No demostrado: recuperación visual, seguridad, superioridad o invención de cirugía moderna.",
+          "claimIds": ["CLAIM-MED-ISLAMIC-EFFICACY-001", "CLAIM-MED-ISLAMIC-NONRANKING-001"],
+          "evidenceIds": ["EVID-MED-ISLAMIC-EFFICACY-001"],
+          "sourceIds": ["SRC-MED-ISLAMIC-PEREZ-CAMBRODI-2015", "SRC-MED-ISLAMIC-SAVAGE-SMITH-2022"]
+        }
+      ]
+    },
+    {
+      "id": "bimaristans",
+      "title": "Bimaristan — fundación no es funcionamiento",
+      "region": "El Cairo y Damasco",
+      "archive": "Escrituras de waqf, arquitectura, cargos, biografías y narraciones",
+      "layers": [
+        {
+          "kind": "witness",
+          "observed": "Dotaciones, edificios y textos describen bimaristanes como al-Nuri y el complejo de Qalawun.",
+          "inference": "Existieron instituciones urbanas financiadas para atención y otras funciones.",
+          "limit": "Los casos monumentales no representan todas las formas de cuidado o todas las ciudades.",
+          "claimIds": ["CLAIM-MED-ISLAMIC-HOSPITAL-WAQF-001", "CLAIM-MED-ISLAMIC-SCOPE-001"],
+          "evidenceIds": ["EVID-MED-ISLAMIC-HOSPITAL-WAQF-001"],
+          "sourceIds": ["SRC-MED-ISLAMIC-RAGAB-2015"]
+        },
+        {
+          "kind": "version",
+          "observed": "La escritura jurídica, la arquitectura y la biografía conservan programas y tiempos diferentes.",
+          "inference": "Cruzar géneros permite distinguir diseño, memoria y cambio institucional.",
+          "limit": "Copiar una cláusula o celebrar a un fundador no prueba ejecución continua.",
+          "claimIds": ["CLAIM-MED-ISLAMIC-ARCHIVE-001", "CLAIM-MED-ISLAMIC-HOSPITAL-WAQF-001"],
+          "evidenceIds": ["EVID-MED-ISLAMIC-HOSPITAL-WAQF-001"],
+          "sourceIds": ["SRC-MED-ISLAMIC-RAGAB-2015", "SRC-MED-ISLAMIC-CHIPMAN-2009"]
+        },
+        {
+          "kind": "operation",
+          "observed": "Los waqf detallan servicios, cargos, alimentos, medicamentos y recursos previstos.",
+          "inference": "Puede reconstruirse el programa jurídico y financiero de una fundación.",
+          "limit": "Norma prescrita no es ocupación, abastecimiento o atención diaria observada.",
+          "claimIds": ["CLAIM-MED-ISLAMIC-HOSPITAL-WAQF-001"],
+          "evidenceIds": ["EVID-MED-ISLAMIC-HOSPITAL-WAQF-001"],
+          "sourceIds": ["SRC-MED-ISLAMIC-RAGAB-2015", "SRC-MED-ISLAMIC-CHIPMAN-2009"]
+        },
+        {
+          "kind": "institution",
+          "observed": "Patronazgo, caridad, religión, política urbana y personal configuraron instituciones variables.",
+          "inference": "El bimaristan puede estudiarse como institución histórica situada.",
+          "limit": "No equivale sin más a hospital moderno, universidad o sistema sanitario.",
+          "claimIds": ["CLAIM-MED-ISLAMIC-HOSPITAL-OPERATION-001", "CLAIM-MED-ISLAMIC-NONRANKING-001"],
+          "evidenceIds": ["EVID-MED-ISLAMIC-HOSPITAL-OPERATION-001"],
+          "sourceIds": ["SRC-MED-ISLAMIC-RAGAB-2015"]
+        },
+        {
+          "kind": "scope",
+          "observed": "La genealogía de un gran hospital docente en Gundeshapur no tiene corroboración contemporánea suficiente.",
+          "inference": "Un origen único debe mantenerse como relato no demostrado.",
+          "limit": "La crítica no niega intercambios médicos iranios o cristianos documentados por otras vías.",
+          "claimIds": ["CLAIM-MED-ISLAMIC-GUNDESHAPUR-MYTH-001"],
+          "evidenceIds": ["EVID-MED-ISLAMIC-HOSPITAL-MYTH-001"],
+          "sourceIds": ["SRC-MED-ISLAMIC-DOLS-1987"]
+        },
+        {
+          "kind": "consequence",
+          "observed": "Fundaciones y programas documentan capacidad prevista, pero faltan series comparables de pacientes y resultados.",
+          "inference": "Puede afirmarse inversión institucional y oferta prevista en casos concretos.",
+          "limit": "No demostrado: cobertura universal, calidad constante, desenlace poblacional o superioridad histórica.",
+          "claimIds": ["CLAIM-MED-ISLAMIC-HOSPITAL-OPERATION-001", "CLAIM-MED-ISLAMIC-EFFICACY-001"],
+          "evidenceIds": ["EVID-MED-ISLAMIC-HOSPITAL-OPERATION-001", "EVID-MED-ISLAMIC-EFFICACY-001"],
+          "sourceIds": ["SRC-MED-ISLAMIC-RAGAB-2015"]
+        }
+      ]
+    },
+    {
+      "id": "genizah-regulation",
+      "title": "Geniza e hisba — norma no es cumplimiento",
+      "region": "El Cairo y Bagdad",
+      "archive": "Prescripciones, cuadernos, formularios, manuales regulatorios y biografías",
+      "layers": [
+        {
+          "kind": "witness",
+          "observed": "Fragmentos de la Geniza conservan prescripciones, cartas, listas y cuadernos en árabe y judeoárabe.",
+          "inference": "El archivo acerca selecciones materiales y actores de práctica cotidiana.",
+          "limit": "La colección es fragmentaria, desplazada de su uso original y desigual en fecha y procedencia.",
+          "claimIds": ["CLAIM-MED-ISLAMIC-GENIZAH-PRACTICE-001", "CLAIM-MED-ISLAMIC-MULTILINGUAL-001"],
+          "evidenceIds": ["EVID-MED-ISLAMIC-GENIZAH-PRESCRIPTIONS-001", "EVID-MED-ISLAMIC-GENIZAH-NOTEBOOKS-001"],
+          "sourceIds": ["SRC-MED-ISLAMIC-LEV-AMAR-2007", "SRC-MED-ISLAMIC-LEV-2013"]
+        },
+        {
+          "kind": "version",
+          "observed": "Cuadernos combinan extractos y elecciones prácticas; formularios organizan ingredientes, pesos y sustituciones.",
+          "inference": "Escritura práctica medió entre repertorio teórico, memoria y disponibilidad.",
+          "limit": "Copiar una fórmula no prueba que fuera preparada ni que el texto conserve todas las decisiones de botica.",
+          "claimIds": ["CLAIM-MED-ISLAMIC-PHARMACY-FORMULARY-001", "CLAIM-MED-ISLAMIC-GENIZAH-PRACTICE-001"],
+          "evidenceIds": ["EVID-MED-ISLAMIC-GENIZAH-NOTEBOOKS-001", "EVID-MED-ISLAMIC-PHARMACY-FORMULARY-001"],
+          "sourceIds": ["SRC-MED-ISLAMIC-LEV-2013", "SRC-MED-ISLAMIC-CHIPMAN-2009"]
+        },
+        {
+          "kind": "operation",
+          "observed": "Prescripciones ordenan preparados concretos y los documentos prácticos usan un repertorio más selectivo que los tratados.",
+          "inference": "Puede inferirse elección farmacéutica situada y dispensación posible.",
+          "limit": "No demostrado: preparación, entrega, administración, adherencia, dosis real o efecto.",
+          "claimIds": ["CLAIM-MED-ISLAMIC-GENIZAH-PRACTICE-001", "CLAIM-MED-ISLAMIC-EFFICACY-001"],
+          "evidenceIds": ["EVID-MED-ISLAMIC-GENIZAH-PRESCRIPTIONS-001"],
+          "sourceIds": ["SRC-MED-ISLAMIC-LEV-AMAR-2007"]
+        },
+        {
+          "kind": "institution",
+          "observed": "Manuales de hisba prescriben inspección de mercados; una biografía posterior transmite un examen en Bagdad.",
+          "inference": "Regulación y demarcación profesional fueron problemas explícitos en lugares concretos.",
+          "limit": "Manual no es acta de inspección; relato episódico no es sistema universal.",
+          "claimIds": ["CLAIM-MED-ISLAMIC-REGULATION-HISBA-001", "CLAIM-MED-ISLAMIC-LICENSING-STORY-001"],
+          "evidenceIds": ["EVID-MED-ISLAMIC-HISBA-001", "EVID-MED-ISLAMIC-LICENSING-001"],
+          "sourceIds": ["SRC-MED-ISLAMIC-PORMANN-2005", "SRC-MED-ISLAMIC-IBN-ABI-USAYBIA-2024"]
+        },
+        {
+          "kind": "scope",
+          "observed": "El relato de 931/932 cuenta 860 aprobados y excepciones; las biografías seleccionan actores memorables.",
+          "inference": "Puede estudiarse un episodio regulatorio transmitido y una memoria profesional selectiva.",
+          "limit": "No hay padrón contemporáneo completo, jurisdicción universal o conteo de mujeres, asistentes y practicantes rurales.",
+          "claimIds": ["CLAIM-MED-ISLAMIC-LICENSING-STORY-001", "CLAIM-MED-ISLAMIC-BIOGRAPHY-001"],
+          "evidenceIds": ["EVID-MED-ISLAMIC-LICENSING-001", "EVID-MED-ISLAMIC-BIOGRAPHY-001"],
+          "sourceIds": ["SRC-MED-ISLAMIC-IBN-ABI-USAYBIA-2024", "SRC-MED-ISLAMIC-PORMANN-2005"]
+        },
+        {
+          "kind": "consequence",
+          "observed": "Documentos registran órdenes y normas, pero no series de cumplimiento, seguridad o desenlaces.",
+          "inference": "Hubo mercados médicos, práctica escrita y disputa por autoridad.",
+          "limit": "No demostrado: eficacia farmacológica, regulación uniforme, cobertura o superioridad institucional.",
+          "claimIds": ["CLAIM-MED-ISLAMIC-EFFICACY-001", "CLAIM-MED-ISLAMIC-NONRANKING-001"],
+          "evidenceIds": ["EVID-MED-ISLAMIC-EFFICACY-001", "EVID-MED-ISLAMIC-SYNTHESIS-001"],
+          "sourceIds": ["SRC-MED-ISLAMIC-LEV-AMAR-2007", "SRC-MED-ISLAMIC-PORMANN-2005"]
+        }
+      ]
+    }
+  ]
+}

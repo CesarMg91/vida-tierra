@@ -1,0 +1,378 @@
+{
+  "schemaVersion": 1,
+  "researchSlug": "15_medicina/INVESTIGACION_MED_013_RUTAS_INDICO_EURASIA",
+  "cases": [
+    {
+      "id": "belitung-shipwreck",
+      "title": "Belitung · barco, cargamento y resina",
+      "region": "Mar de Java y redes del Índico–China · ca. 830",
+      "archive": "Pecio, arquitectura naval, cargamento cerámico y análisis molecular de una resina",
+      "layers": [
+        {
+          "kind": "trace",
+          "observed": "Un pecio del siglo IX conservó casco cosido, cargamento cerámico y otros materiales asociados en aguas de Indonesia.",
+          "inference": "El conjunto demuestra una conexión marítima de larga distancia y un itinerario interrumpido.",
+          "limit": "El naufragio no conserva por sí solo todos los puertos, propietarios o destinos previstos.",
+          "claimIds": ["CLAIM-MED-ROUTES-BELITUNG-VESSEL-001"],
+          "evidenceIds": ["EVID-MED-ROUTES-BELITUNG-HULL-001"],
+          "sourceIds": ["SRC-MED-ROUTES-FLECKER-2001"]
+        },
+        {
+          "kind": "identity",
+          "observed": "Una masa resinosa fue caracterizada mediante análisis molecular y comparación con referencias.",
+          "inference": "La composición es compatible con una familia de resinas y permite discutir procedencia.",
+          "limit": "Identidad química compatible no fija nombre histórico, taxón exclusivo ni función.",
+          "claimIds": ["CLAIM-MED-ROUTES-BELITUNG-RESIN-001"],
+          "evidenceIds": ["EVID-MED-ROUTES-BELITUNG-RESIN-001"],
+          "sourceIds": ["SRC-MED-ROUTES-BELITUNG-RESIN-2010"]
+        },
+        {
+          "kind": "itinerary",
+          "observed": "Construcción, cerámicas y ubicación enlazan tecnologías y mercancías de espacios distantes.",
+          "inference": "El barco participó en redes marítimas entre el océano Índico, el sudeste asiático y China.",
+          "limit": "Una red compatible no equivale a una ruta única ni a un viaje completado.",
+          "claimIds": ["CLAIM-MED-ROUTES-MODEL-001", "CLAIM-MED-ROUTES-BELITUNG-VESSEL-001"],
+          "evidenceIds": ["EVID-MED-ROUTES-BELITUNG-HULL-001"],
+          "sourceIds": ["SRC-MED-ROUTES-FLECKER-2001"]
+        },
+        {
+          "kind": "mediation",
+          "observed": "El cargamento fue reunido, estibado y transportado, aunque la mayoría de los agentes no está individualizada.",
+          "inference": "Productores, comerciantes, tripulación y puertos mediaron la conexión material.",
+          "limit": "No puede asignarse identidad, intención médica o propiedad a agentes no documentados.",
+          "claimIds": ["CLAIM-MED-ROUTES-MODEL-001"],
+          "evidenceIds": ["EVID-MED-ROUTES-ROUTE-METHOD-001"],
+          "sourceIds": ["SRC-MED-ROUTES-FLECKER-2001", "SRC-MED-ROUTES-PEARSON-2022"]
+        },
+        {
+          "kind": "reception",
+          "observed": "El naufragio impidió la entrega final del cargamento conservado.",
+          "inference": "Hay transporte, pero no recepción en el destino previsto.",
+          "limit": "No demostrado: la resina no puede convertirse en preparado, receta o administración por presencia.",
+          "claimIds": ["CLAIM-MED-ROUTES-BELITUNG-NONMEDICAL-001"],
+          "evidenceIds": ["EVID-MED-ROUTES-BELITUNG-RESIN-001"],
+          "sourceIds": ["SRC-MED-ROUTES-BELITUNG-RESIN-2010"]
+        },
+        {
+          "kind": "reach",
+          "observed": "La recuperación moderna dispersó y documentó objetos bajo condiciones comerciales debatidas.",
+          "inference": "El conjunto permite estudiar conexión y también pérdida de resolución contextual.",
+          "limit": "Dato ausente: no hay población tratada, indicación, dosis, seguridad o resultado atribuible al cargamento.",
+          "claimIds": ["CLAIM-MED-ROUTES-BELITUNG-NONMEDICAL-001", "CLAIM-MED-ROUTES-NONRANKING-001"],
+          "evidenceIds": ["EVID-MED-ROUTES-BELITUNG-SALVAGE-001", "EVID-MED-ROUTES-SYNTHESIS-001"],
+          "sourceIds": ["SRC-MED-ROUTES-PEARSON-2022"]
+        }
+      ]
+    },
+    {
+      "id": "dunhuang-manuscripts",
+      "title": "Dunhuang · manuscritos tibetanos y moxibustión",
+      "region": "Dunhuang y Asia interior · ca. siglos IX–X",
+      "archive": "Folios tibetanos médicos, diagramas, vocabularios y tradiciones historiográficas posteriores",
+      "layers": [
+        {
+          "kind": "trace",
+          "observed": "Manuscritos tibetanos médicos conservan tratamientos, puntos corporales y formas visuales en un depósito multilingüe.",
+          "inference": "Son testigos tempranos de prácticas y conceptos médicos escritos en tibetano.",
+          "limit": "El depósito no identifica automáticamente autor, paciente o lugar de ejecución de cada pasaje.",
+          "claimIds": ["CLAIM-MED-ROUTES-DUNHUANG-CORPUS-001"],
+          "evidenceIds": ["EVID-MED-ROUTES-DUNHUANG-OBJECTS-001"],
+          "sourceIds": ["SRC-MED-ROUTES-YOELI-TLALIM-2012", "SRC-MED-ROUTES-HAN-2025"]
+        },
+        {
+          "kind": "identity",
+          "observed": "Paleografía, lengua, soporte, secuencia y diagramas permiten delimitar testigos y compararlos.",
+          "inference": "Se reconocen familias de técnicas y paralelos concretos sin postular identidad total.",
+          "limit": "Un término parecido no conserva necesariamente significado; un diagrama similar no fija una fuente.",
+          "claimIds": ["CLAIM-MED-ROUTES-DUNHUANG-MIXTURE-001"],
+          "evidenceIds": ["EVID-MED-ROUTES-DUNHUANG-MOXA-001"],
+          "sourceIds": ["SRC-MED-ROUTES-HAN-2025"]
+        },
+        {
+          "kind": "itinerary",
+          "observed": "Dunhuang estuvo conectado con corredores de Asia interior y reunió textos en varias lenguas.",
+          "inference": "Algunos rasgos son compatibles con circulación desde direcciones múltiples.",
+          "limit": "La ubicación del testigo no dibuja el itinerario completo ni determina préstamo directo.",
+          "claimIds": ["CLAIM-MED-ROUTES-MODEL-001", "CLAIM-MED-ROUTES-DUNHUANG-MIXTURE-001"],
+          "evidenceIds": ["EVID-MED-ROUTES-DUNHUANG-OBJECTS-001"],
+          "sourceIds": ["SRC-MED-ROUTES-YOELI-TLALIM-2012"]
+        },
+        {
+          "kind": "mediation",
+          "observed": "Copistas y compiladores seleccionaron y adaptaron materiales; la historiografía posterior añadió relatos de transmisión.",
+          "inference": "La copia y la narración histórica fueron mediaciones distintas.",
+          "limit": "No puede atribuirse un sistema a un médico viajero sólo desde un nombre tardío o un paralelo.",
+          "claimIds": ["CLAIM-MED-ROUTES-DUNHUANG-GALEN-LIMIT-001"],
+          "evidenceIds": ["EVID-MED-ROUTES-DUNHUANG-HISTORIOGRAPHY-001"],
+          "sourceIds": ["SRC-MED-ROUTES-YOELI-TLALIM-2012"]
+        },
+        {
+          "kind": "reception",
+          "observed": "Diferencias entre manuscritos y repertorios posteriores muestran selección y reconfiguración, no simple copia.",
+          "inference": "Algunas técnicas fueron recibidas o reformuladas en contextos tibetanos concretos.",
+          "limit": "Recepción textual no demuestra frecuencia de práctica, uniformidad o continuidad completa.",
+          "claimIds": ["CLAIM-MED-ROUTES-DUNHUANG-MIXTURE-001"],
+          "evidenceIds": ["EVID-MED-ROUTES-DUNHUANG-MOXA-001"],
+          "sourceIds": ["SRC-MED-ROUTES-HAN-2025"]
+        },
+        {
+          "kind": "reach",
+          "observed": "Los testigos conservan una muestra selectiva y no una serie de encuentros clínicos.",
+          "inference": "El alcance seguro es documental: existencia de versiones y contactos delimitados.",
+          "limit": "No demostrado: adopción de un sistema galénico completo, cobertura poblacional o eficacia.",
+          "claimIds": ["CLAIM-MED-ROUTES-DUNHUANG-GALEN-LIMIT-001", "CLAIM-MED-ROUTES-NONRANKING-001"],
+          "evidenceIds": ["EVID-MED-ROUTES-DUNHUANG-HISTORIOGRAPHY-001", "EVID-MED-ROUTES-SYNTHESIS-001"],
+          "sourceIds": ["SRC-MED-ROUTES-YOELI-TLALIM-2012"]
+        }
+      ]
+    },
+    {
+      "id": "cairo-geniza",
+      "title": "Geniza de El Cairo · comercio, botica y práctica",
+      "region": "Egipto, mar Rojo, Adén e India · siglos XI–XII",
+      "archive": "Cartas mercantiles, equipajes, listas de materias, prescripciones y cuadernos médicos",
+      "layers": [
+        {
+          "kind": "trace",
+          "observed": "Fragmentos conservan cartas, listas, recetas y cuadernos producidos para funciones distintas.",
+          "inference": "El archivo permite estudiar comercio y práctica a varias resoluciones.",
+          "limit": "Pertenecer a la Geniza moderna no vuelve contemporáneos ni enlazados todos los fragmentos.",
+          "claimIds": ["CLAIM-MED-ROUTES-GENIZA-GENRE-001"],
+          "evidenceIds": ["EVID-MED-ROUTES-GENIZA-LISTS-001", "EVID-MED-ROUTES-GENIZA-PRESCRIPTIONS-001"],
+          "sourceIds": ["SRC-MED-ISLAMIC-LEV-AMAR-2007", "SRC-MED-ISLAMIC-LEV-2013"]
+        },
+        {
+          "kind": "identity",
+          "observed": "Género, mano, nombres, medidas y sustancias distinguen carta, inventario, prescripción y cuaderno.",
+          "inference": "Cada documento puede recibir una función histórica delimitada.",
+          "limit": "Nombre de droga no fija especie, preparación o indicación sin controles adicionales.",
+          "claimIds": ["CLAIM-MED-ROUTES-GENIZA-GENRE-001", "CLAIM-MED-ROUTES-GENIZA-MATERIA-001"],
+          "evidenceIds": ["EVID-MED-ROUTES-GENIZA-LISTS-001"],
+          "sourceIds": ["SRC-MED-ISLAMIC-LEV-AMAR-2007"]
+        },
+        {
+          "kind": "itinerary",
+          "observed": "Cartas de un mercader enlazan personas y bienes entre Egipto, Adén y puertos de India.",
+          "inference": "Los topónimos y relaciones documentan tramos concretos de una red del Índico.",
+          "limit": "Un itinerario personal no representa todos los mercaderes ni conecta cada droga con El Cairo.",
+          "claimIds": ["CLAIM-MED-ROUTES-GENIZA-ROUTE-001"],
+          "evidenceIds": ["EVID-MED-ROUTES-GENIZA-LETTERS-001", "EVID-MED-ROUTES-GENIZA-LUGGAGE-001"],
+          "sourceIds": ["SRC-MED-ROUTES-GOITEIN-1987", "SRC-MED-ROUTES-LAMBOURN-2018"]
+        },
+        {
+          "kind": "mediation",
+          "observed": "Mercaderes, escribas, boticarios y practicantes seleccionaron bienes y textos en operaciones diferentes.",
+          "inference": "La red dependió de crédito, lenguaje, confianza, almacenamiento y selección práctica.",
+          "limit": "Los roles no pueden fusionarse ni atribuirse al mismo individuo sin enlace documental.",
+          "claimIds": ["CLAIM-MED-ROUTES-GENIZA-ROUTE-001", "CLAIM-MED-ROUTES-GENIZA-GENRE-001"],
+          "evidenceIds": ["EVID-MED-ROUTES-GENIZA-LETTERS-001", "EVID-MED-ROUTES-GENIZA-PRESCRIPTIONS-001"],
+          "sourceIds": ["SRC-MED-ROUTES-LAMBOURN-2018", "SRC-MED-ISLAMIC-LEV-2013"]
+        },
+        {
+          "kind": "reception",
+          "observed": "Prescripciones y cuadernos seleccionan materias de repertorios disponibles para decisiones escritas.",
+          "inference": "Existe recepción práctica más cercana que la de un inventario general.",
+          "limit": "Prescripción no demuestra preparación, administración, adherencia o beneficio.",
+          "claimIds": ["CLAIM-MED-ROUTES-GENIZA-PRACTICE-LIMIT-001"],
+          "evidenceIds": ["EVID-MED-ROUTES-GENIZA-PRESCRIPTIONS-001"],
+          "sourceIds": ["SRC-MED-ISLAMIC-LEV-AMAR-2007", "SRC-MED-ISLAMIC-LEV-2013"]
+        },
+        {
+          "kind": "reach",
+          "observed": "El corpus preserva episodios fragmentarios, no una cohorte de pacientes con seguimiento.",
+          "inference": "Puede compararse repertorio teórico y práctico de la muestra conservada.",
+          "limit": "Dato ausente: denominadores, daños, resultados y cobertura poblacional.",
+          "claimIds": ["CLAIM-MED-ROUTES-GENIZA-PRACTICE-LIMIT-001", "CLAIM-MED-ROUTES-NONRANKING-001"],
+          "evidenceIds": ["EVID-MED-ROUTES-GENIZA-PRESCRIPTIONS-001", "EVID-MED-ROUTES-SYNTHESIS-001"],
+          "sourceIds": ["SRC-MED-ISLAMIC-LEV-AMAR-2007"]
+        }
+      ]
+    },
+    {
+      "id": "diplomatic-gifts-sugar",
+      "title": "Bizancio y mundos islamicate · regalos y azúcar",
+      "region": "Mediterráneo oriental · siglos XI–XIV",
+      "archive": "Relatos diplomáticos, inventarios y versiones de preparados médicos azucarados",
+      "layers": [
+        {
+          "kind": "trace",
+          "observed": "Fuentes narran regalos de materia medica y textos conservan familias de pociones a base de azúcar.",
+          "inference": "Objetos y recetas circularon entre entornos políticos y lingüísticos.",
+          "limit": "Crónica y receta pueden ser testimonios dependientes, normativos o retrospectivos.",
+          "claimIds": ["CLAIM-MED-ROUTES-GIFTS-MODES-001", "CLAIM-MED-ROUTES-SUGAR-TRANSFER-001"],
+          "evidenceIds": ["EVID-MED-ROUTES-GIFTS-SOURCES-001", "EVID-MED-ROUTES-SUGAR-VERSIONS-001"],
+          "sourceIds": ["SRC-MED-ROUTES-DURAK-2023", "SRC-MED-ROUTES-BOURAS-VALLIANATOS-2021"]
+        },
+        {
+          "kind": "identity",
+          "observed": "Donante, receptor, objeto, término, ingrediente y operación se comparan por fuente y versión.",
+          "inference": "Pueden delimitarse regalos y transformaciones textuales específicas.",
+          "limit": "Etiquetas como árabe, griego o bizantino no vuelven homogéneos objetos o autores.",
+          "claimIds": ["CLAIM-MED-ROUTES-GIFTS-MODES-001"],
+          "evidenceIds": ["EVID-MED-ROUTES-GIFTS-SOURCES-001"],
+          "sourceIds": ["SRC-MED-ROUTES-DURAK-2023"]
+        },
+        {
+          "kind": "itinerary",
+          "observed": "Episodios fechados conectan cortes; secuencias textuales conectan versiones anteriores y posteriores.",
+          "inference": "Hay corredores diplomáticos y relaciones de transferencia delimitadas.",
+          "limit": "Semejanza aislada no fija dirección; una fuente común perdida sigue siendo alternativa.",
+          "claimIds": ["CLAIM-MED-ROUTES-SUGAR-TRANSFER-001"],
+          "evidenceIds": ["EVID-MED-ROUTES-SUGAR-VERSIONS-001"],
+          "sourceIds": ["SRC-MED-ROUTES-BOURAS-VALLIANATOS-2021"]
+        },
+        {
+          "kind": "mediation",
+          "observed": "Diplomáticos, médicos, traductores y compiladores seleccionaron objetos, términos y recetas.",
+          "inference": "La transferencia fue una operación social y editorial, no una flecha automática.",
+          "limit": "Las fuentes de corte subrepresentan porteadores, preparadores y receptores no elitistas.",
+          "claimIds": ["CLAIM-MED-ROUTES-GIFTS-MODES-001", "CLAIM-MED-ROUTES-MODEL-001"],
+          "evidenceIds": ["EVID-MED-ROUTES-GIFTS-SOURCES-001", "EVID-MED-ROUTES-ROUTE-METHOD-001"],
+          "sourceIds": ["SRC-MED-ROUTES-DURAK-2023"]
+        },
+        {
+          "kind": "reception",
+          "observed": "Versiones posteriores cambian ingredientes, lenguaje y organización de las fórmulas.",
+          "inference": "La reconfiguración demuestra recepción editorial en casos específicos.",
+          "limit": "Una receta adaptada no demuestra que fuera preparada ni administrada.",
+          "claimIds": ["CLAIM-MED-ROUTES-SUGAR-TRANSFER-001", "CLAIM-MED-ROUTES-GIFT-NONUSE-001"],
+          "evidenceIds": ["EVID-MED-ROUTES-SUGAR-VERSIONS-001", "EVID-MED-ROUTES-GIFTS-OUTCOME-001"],
+          "sourceIds": ["SRC-MED-ROUTES-BOURAS-VALLIANATOS-2021"]
+        },
+        {
+          "kind": "reach",
+          "observed": "Los expedientes documentan entrega o versión, no series consecutivas de uso y resultado.",
+          "inference": "El alcance seguro es diplomático y textual.",
+          "limit": "No demostrado: administración, difusión poblacional, seguridad o eficacia.",
+          "claimIds": ["CLAIM-MED-ROUTES-GIFT-NONUSE-001", "CLAIM-MED-ROUTES-NONRANKING-001"],
+          "evidenceIds": ["EVID-MED-ROUTES-GIFTS-OUTCOME-001", "EVID-MED-ROUTES-SYNTHESIS-001"],
+          "sourceIds": ["SRC-MED-ROUTES-DURAK-2023", "SRC-MED-ROUTES-BOURAS-VALLIANATOS-2021"]
+        }
+      ]
+    },
+    {
+      "id": "mongol-courts",
+      "title": "Imperios mongoles · cortes, oficinas y compilaciones",
+      "region": "Irán, Asia central y China · siglos XIII–XIV",
+      "archive": "Historias cortesanas, cargos, traducciones, Tānksūqnāma, Huihui yaofang y estudios de intercambio",
+      "layers": [
+        {
+          "kind": "trace",
+          "observed": "Fuentes documentan médicos de repertorios diversos, oficinas y compilaciones bajo patronazgo mongol.",
+          "inference": "Existieron infraestructuras políticas para movilidad y cooperación especializada.",
+          "limit": "El archivo cortesano privilegia élites y no representa todos los espacios de cuidado.",
+          "claimIds": ["CLAIM-MED-ROUTES-MONGOL-PLURALISM-001"],
+          "evidenceIds": ["EVID-MED-ROUTES-MONGOL-COURT-001"],
+          "sourceIds": ["SRC-MED-ROUTES-ALLSEN-2001", "SRC-MED-ROUTES-ROSSABI-MORRISON-2023"]
+        },
+        {
+          "kind": "identity",
+          "observed": "Lengua, título, institución, sección y materia permiten delimitar cada producto y agente.",
+          "inference": "Se distinguen repertorios y traducciones sin asignarlos a identidades esenciales.",
+          "limit": "Huihui, persa, árabe, chino o mongol no son equivalentes automáticos de etnia, teoría o práctica.",
+          "claimIds": ["CLAIM-MED-ROUTES-MONGOL-BUREAUS-001"],
+          "evidenceIds": ["EVID-MED-ROUTES-MONGOL-BUREAU-001", "EVID-MED-ROUTES-HUIHUI-001"],
+          "sourceIds": ["SRC-MED-ROUTES-BUELL-2021", "SRC-MED-ROUTES-WEIL-2024"]
+        },
+        {
+          "kind": "itinerary",
+          "observed": "Agentes y textos conectan Irán, Asia central y China en direcciones múltiples.",
+          "inference": "Algunas materias y conocimientos circularon hacia el este y hacia el oeste.",
+          "limit": "Bidireccional no significa flujo simétrico, continuo o igualmente documentado.",
+          "claimIds": ["CLAIM-MED-ROUTES-MONGOL-BIDIRECTIONAL-001"],
+          "evidenceIds": ["EVID-MED-ROUTES-TANSUQNAMA-001", "EVID-MED-ROUTES-HUIHUI-001"],
+          "sourceIds": ["SRC-MED-ROUTES-BUELL-2007", "SRC-MED-ROUTES-ROSSABI-MORRISON-2023"]
+        },
+        {
+          "kind": "mediation",
+          "observed": "Patronos, especialistas reclutados, traductores y compiladores seleccionaron materiales.",
+          "inference": "El imperio facilitó y en ocasiones coaccionó mediaciones institucionales concretas.",
+          "limit": "Patronazgo no garantiza fidelidad, igualdad entre agentes o autonomía.",
+          "claimIds": ["CLAIM-MED-ROUTES-MONGOL-BUREAUS-001", "CLAIM-MED-ROUTES-MONGOL-PLURALISM-001"],
+          "evidenceIds": ["EVID-MED-ROUTES-MONGOL-COURT-001", "EVID-MED-ROUTES-MONGOL-BUREAU-001"],
+          "sourceIds": ["SRC-MED-ROUTES-ALLSEN-2001", "SRC-MED-ROUTES-BUELL-2021"]
+        },
+        {
+          "kind": "reception",
+          "observed": "Compilaciones y vocabularios muestran selección y cooperación, mientras fundamentos diferentes persistieron.",
+          "inference": "Hubo recepción parcial y reconfiguración en productos identificables.",
+          "limit": "Coexistencia en una corte no prueba síntesis doctrinal ni sustitución general.",
+          "claimIds": ["CLAIM-MED-ROUTES-MONGOL-NONUNIFORM-001"],
+          "evidenceIds": ["EVID-MED-ROUTES-TANSUQNAMA-001", "EVID-MED-ROUTES-HUIHUI-001"],
+          "sourceIds": ["SRC-MED-ROUTES-ROSSABI-MORRISON-2023", "SRC-MED-ROUTES-BUELL-2021"]
+        },
+        {
+          "kind": "reach",
+          "observed": "La evidencia más densa procede de cortes, oficinas y textos preservados.",
+          "inference": "Puede afirmarse capacidad institucional y recepción selectiva.",
+          "limit": "Dato ausente: cobertura poblacional, uniformidad de práctica y resultados clínicos.",
+          "claimIds": ["CLAIM-MED-ROUTES-MONGOL-NONUNIFORM-001", "CLAIM-MED-ROUTES-NONRANKING-001"],
+          "evidenceIds": ["EVID-MED-ROUTES-SYNTHESIS-001"],
+          "sourceIds": ["SRC-MED-ROUTES-ROSSABI-MORRISON-2023"]
+        }
+      ]
+    },
+    {
+      "id": "garcia-de-orta-goa",
+      "title": "Goa · Garcia de Orta, informantes e imprenta",
+      "region": "Goa, redes del Índico y Europa · 1534–1574",
+      "archive": "Colóquios de 1563, redes de información, edición príncipe y adaptaciones latinas",
+      "layers": [
+        {
+          "kind": "trace",
+          "observed": "Los Colóquios fueron impresos en Goa en 1563 y organizan descripciones, nombres y debates sobre drogas asiáticas.",
+          "inference": "La edición documenta una obra situada en redes mercantiles, médicas y coloniales.",
+          "limit": "El libro no conserva toda conversación, espécimen o práctica que alimentó sus entradas.",
+          "claimIds": ["CLAIM-MED-ROUTES-ORTA-AUTHORITY-001"],
+          "evidenceIds": ["EVID-MED-ROUTES-ORTA-COLOQUIOS-001"],
+          "sourceIds": ["SRC-MED-ROUTES-COSTA-2012", "SRC-MED-ROUTES-CARVALHO-2016"]
+        },
+        {
+          "kind": "identity",
+          "observed": "Nombres, descripciones, procedencias y usos atribuidos pueden cotejarse por entrada.",
+          "inference": "Algunas drogas y plantas pueden identificarse con confianza graduada.",
+          "limit": "Un nombre vernáculo no fija especie; droga comercial, parte vegetal y planta completa no son equivalentes.",
+          "claimIds": ["CLAIM-MED-ROUTES-ORTA-AUTHORITY-001"],
+          "evidenceIds": ["EVID-MED-ROUTES-ORTA-COLOQUIOS-001"],
+          "sourceIds": ["SRC-MED-ROUTES-COSTA-2012"]
+        },
+        {
+          "kind": "itinerary",
+          "observed": "Goa conectó mercados y saberes del Índico con circuitos portugueses; las ediciones llevaron selecciones a lectores europeos.",
+          "inference": "Puede reconstruirse una cadena Goa–impresión–adaptación latina para textos concretos.",
+          "limit": "La llegada portuguesa no inauguró las redes; impresión no equivale a difusión uniforme.",
+          "claimIds": ["CLAIM-MED-ROUTES-ORTA-PRINT-RECEPTION-001"],
+          "evidenceIds": ["EVID-MED-ROUTES-ORTA-PRINT-001"],
+          "sourceIds": ["SRC-MED-ROUTES-CARVALHO-2016", "SRC-MED-ROUTES-COSTA-LEITAO-2016"]
+        },
+        {
+          "kind": "mediation",
+          "observed": "Orta conversó con informantes diversos y seleccionó esas voces dentro de un diálogo autoral y colonial.",
+          "inference": "La autoridad del libro fue relacional y dependió de redes locales y transregionales.",
+          "limit": "Nombrar informantes no elimina asimetría, coerción posible ni silencios editoriales.",
+          "claimIds": ["CLAIM-MED-ROUTES-ORTA-INFORMANTS-001", "CLAIM-MED-ROUTES-ORTA-AUTHORITY-001"],
+          "evidenceIds": ["EVID-MED-ROUTES-ORTA-INFORMANTS-001"],
+          "sourceIds": ["SRC-MED-ROUTES-COSTA-CARVALHO-2013", "SRC-MED-ROUTES-ZUPANOV-2002"]
+        },
+        {
+          "kind": "reception",
+          "observed": "Clusius abrevió, tradujo y reorganizó materiales para nuevas ediciones y audiencias.",
+          "inference": "La adaptación prueba recepción editorial y una nueva versión, no copia neutra.",
+          "limit": "Disponibilidad impresa no demuestra comprensión, prescripción o verificación de cada afirmación.",
+          "claimIds": ["CLAIM-MED-ROUTES-ORTA-PRINT-RECEPTION-001"],
+          "evidenceIds": ["EVID-MED-ROUTES-ORTA-PRINT-001"],
+          "sourceIds": ["SRC-MED-ROUTES-CARVALHO-2016", "SRC-MED-ROUTES-COSTA-LEITAO-2016"]
+        },
+        {
+          "kind": "reach",
+          "observed": "La supervivencia y reedición permiten estudiar una recepción letrada desigual.",
+          "inference": "La obra reconfiguró autoridad y repertorios impresos en circuitos concretos.",
+          "limit": "No demostrado: descubridor solitario, adopción general, seguridad o eficacia de las drogas descritas.",
+          "claimIds": ["CLAIM-MED-ROUTES-ORTA-INFORMANTS-001", "CLAIM-MED-ROUTES-NONRANKING-001"],
+          "evidenceIds": ["EVID-MED-ROUTES-ORTA-INFORMANTS-001", "EVID-MED-ROUTES-SYNTHESIS-001"],
+          "sourceIds": ["SRC-MED-ROUTES-COSTA-2012", "SRC-MED-ROUTES-COSTA-CARVALHO-2013"]
+        }
+      ]
+    }
+  ]
+}

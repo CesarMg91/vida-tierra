@@ -1,0 +1,316 @@
+{
+  "schemaVersion": 1,
+  "researchSlug": "15_medicina/INVESTIGACION_MED_005_ASIA_MERIDIONAL_AYURVEDA_TRANSMISIONES",
+  "cases": [
+    {
+      "id": "caraka-composite",
+      "title": "Caraka — una obra en capas",
+      "region": "Asia meridional",
+      "archive": "Colofones, citas, manuscritos variantes y ediciones históricas",
+      "layers": [
+        {
+          "kind": "testimony",
+          "observed": "Manuscritos y ediciones conservan una obra atribuida sucesivamente a Agniveśa, Caraka y Dṛḍhabala.",
+          "inference": "Existe una tradición editorial multietapa y transmisible.",
+          "limit": "Los testigos conservados no son el autógrafo ni tres biografías fechadas.",
+          "claimIds": ["CLAIM-MED-SA-CARAKA-COMPOSITE-001"],
+          "evidenceIds": ["EVID-MED-SA-CARAKA-LAYERS-001"],
+          "sourceIds": ["SRC-MED-SA-MAAS-2010"]
+        },
+        {
+          "kind": "reading",
+          "observed": "En un pasaje colacionado, cerca de 95 % de las palabras de referencia tenían alguna variante en al menos un testigo.",
+          "inference": "La recopia produjo variantes que una edición debe comparar y seleccionar.",
+          "limit": "No significa que 95 % del texto sea falso o corrupto.",
+          "claimIds": ["CLAIM-MED-SA-CARAKA-TEXT-001"],
+          "evidenceIds": ["EVID-MED-SA-CARAKA-VARIANTS-001"],
+          "sourceIds": ["SRC-MED-SA-VIENNA-CARAKA-2009"]
+        },
+        {
+          "kind": "stratum",
+          "observed": "Lengua, paralelos, citas y colofones permiten ordenar capas y una revisión atribuida a Dṛḍhabala.",
+          "inference": "Una forma temprana puede situarse tentativamente entre el siglo II a. e. c. y el I e. c.; la revisión, entre 300–500 e. c.",
+          "limit": "Son intervalos filológicos, no carbono del original ni fecha de cada pasaje.",
+          "claimIds": ["CLAIM-MED-SA-CARAKA-DATE-001"],
+          "evidenceIds": ["EVID-MED-SA-CARAKA-LAYERS-001"],
+          "sourceIds": ["SRC-MED-SA-WUJASTYK-HOSPITALS-2022"]
+        },
+        {
+          "kind": "circulation",
+          "observed": "Bower conoce a Caraka a comienzos del siglo VI y fuentes de Bagdad lo reciben desde finales del VIII.",
+          "inference": "La autoridad y partes del corpus circularon por redes centroasiáticas, persas y árabes.",
+          "limit": "Una cita no demuestra transmisión completa, traducción literal o uso uniforme.",
+          "claimIds": ["CLAIM-MED-SA-TRANSMISSION-001"],
+          "evidenceIds": ["EVID-MED-SA-TRANSMISSION-001"],
+          "sourceIds": ["SRC-MED-SA-WUJASTYK-HOSPITALS-2022"]
+        },
+        {
+          "kind": "practice",
+          "observed": "Un capítulo describe local, agua, personal, alimentos, instrumentos, animales y medicamentos para una intervención.",
+          "inference": "Puede reconstruirse una idea profesional detallada de instalación terapéutica.",
+          "limit": "Es texto normativo, no edificio excavado, censo de pacientes o práctica general.",
+          "claimIds": ["CLAIM-MED-SA-HOSPITAL-IDEA-001"],
+          "evidenceIds": ["EVID-MED-SA-HOSPITAL-IDEA-001"],
+          "sourceIds": ["SRC-MED-SA-SARIT-CARAKA-2012"]
+        },
+        {
+          "kind": "consequence",
+          "observed": "El corpus prescribe intervenciones pero no conserva comparadores, denominadores y daños atribuibles bajo formulación estable.",
+          "inference": "Puede estudiarse qué resultado esperaba o valoraba la tradición escrita.",
+          "limit": "No demostrado: eficacia histórica o beneficio actual de una fórmula.",
+          "claimIds": ["CLAIM-MED-SA-EFFICACY-001"],
+          "evidenceIds": ["EVID-MED-SA-EFFICACY-001"],
+          "sourceIds": ["SRC-MED-IDEAL-2019"]
+        }
+      ]
+    },
+    {
+      "id": "susruta-kl699",
+      "title": "Suśruta — KL 699 fecha una copia",
+      "region": "Valle de Katmandú y Asia meridional",
+      "archive": "Manuscrito de hoja de palma fechado en 878 y recensiones relacionadas",
+      "layers": [
+        {
+          "kind": "testimony",
+          "observed": "KL 699 conserva cerca de 60–70 % de la obra en hoja de palma y porta una fecha segura de 878.",
+          "inference": "Existe una recensión nepalesa materialmente anclada en el siglo IX.",
+          "limit": "La fecha pertenece al testigo, no al origen del corpus o a cada procedimiento.",
+          "claimIds": ["CLAIM-MED-SA-SUSRUTA-KL699-001"],
+          "evidenceIds": ["EVID-MED-SA-KL699-001"],
+          "sourceIds": ["SRC-MED-SA-UNESCO-KL699-2013"]
+        },
+        {
+          "kind": "reading",
+          "observed": "La transcripción diplomática y el aparato muestran lecturas distintas de la vulgata impresa.",
+          "inference": "Puede seguirse cómo cambiaron secciones y pasajes entre testigos.",
+          "limit": "Una lectura temprana no recupera sin residuo el original perdido.",
+          "claimIds": ["CLAIM-MED-SA-SUSRUTA-KL699-001"],
+          "evidenceIds": ["EVID-MED-SA-KL699-001"],
+          "sourceIds": ["SRC-MED-SA-SUSRUTA-PROJECT1-2026"]
+        },
+        {
+          "kind": "stratum",
+          "observed": "El compendio contiene capas de varias manos y un *Uttaratantra* añadido antes de los manuscritos conservados.",
+          "inference": "Su formación pudo comenzar en los últimos siglos a. e. c. y su forma transmitida era conocida hacia 300–500 e. c.",
+          "limit": "No existe base vigente para una biografía quirúrgica fechada en 600 a. e. c.",
+          "claimIds": ["CLAIM-MED-SA-SUSRUTA-COMPOSITE-001"],
+          "evidenceIds": ["EVID-MED-SA-SUSRUTA-DATE-001"],
+          "sourceIds": ["SRC-MED-SA-WUJASTYK-DATE-2026"]
+        },
+        {
+          "kind": "circulation",
+          "observed": "Manuscritos nepaleses y ediciones posteriores conservan ramas y contaminaciones diferentes.",
+          "inference": "La obra circuló, fue copiada y reorganizada durante siglos.",
+          "limit": "Supervivencia manuscrita no mide acceso social ni difusión uniforme.",
+          "claimIds": ["CLAIM-MED-SA-TRANSMISSION-001"],
+          "evidenceIds": ["EVID-MED-SA-KL699-001"],
+          "sourceIds": ["SRC-MED-SA-KLEBANOV-2021"]
+        },
+        {
+          "kind": "practice",
+          "observed": "Los capítulos describen reparación nasal y auricular, instrumental, entrenamiento y cuidado perioperatorio.",
+          "inference": "Existió un repertorio quirúrgico formulado y copiado con detalle.",
+          "limit": "Descripción no entrega operadores, frecuencia, curva de aprendizaje o serie consecutiva.",
+          "claimIds": ["CLAIM-MED-SA-SURGERY-TEXT-001"],
+          "evidenceIds": ["EVID-MED-SA-SURGERY-001"],
+          "sourceIds": ["SRC-MED-SA-WUJASTYK-SURGERY-2023"]
+        },
+        {
+          "kind": "consequence",
+          "observed": "El texto prescribe resultados y cuidados, pero no conserva seguimiento comparativo.",
+          "inference": "Puede analizarse el objetivo técnico histórico.",
+          "limit": "No demostrado: tasa de éxito, daños, continuidad hasta 1794 o eficacia actual.",
+          "claimIds": ["CLAIM-MED-SA-EFFICACY-001", "CLAIM-MED-SA-SURGERY-CONTINUITY-001"],
+          "evidenceIds": ["EVID-MED-SA-EFFICACY-001", "EVID-MED-SA-SURGERY-001"],
+          "sourceIds": ["SRC-MED-SA-WUJASTYK-SURGERY-2023"]
+        }
+      ]
+    },
+    {
+      "id": "bower-manuscript",
+      "title": "Bower — un manuscrito viajero",
+      "region": "Kucha, Asia Central",
+      "archive": "Corteza de abedul, varias manos, medicina, adivinación e incantaciones",
+      "layers": [
+        {
+          "kind": "testimony",
+          "observed": "Fragmentos de corteza de abedul hallados cerca de Kucha conservan varios tratados copiados por manos distintas.",
+          "inference": "Existe un conjunto material de medicina sánscrita en Asia Central.",
+          "limit": "Su recuperación colonial dejó una procedencia arqueológica limitada.",
+          "claimIds": ["CLAIM-MED-SA-BOWER-001"],
+          "evidenceIds": ["EVID-MED-SA-BOWER-001"],
+          "sourceIds": ["SRC-MED-SA-HOERNLE-BOWER-1912"]
+        },
+        {
+          "kind": "reading",
+          "observed": "La edición distingue manos, tratados médicos, fórmulas, adivinación e incantaciones.",
+          "inference": "Puede describirse un conjunto heterogéneo, no un manual único.",
+          "limit": "La primera edición y traducción reflejan decisiones filológicas de su tiempo.",
+          "claimIds": ["CLAIM-MED-SA-BOWER-001"],
+          "evidenceIds": ["EVID-MED-SA-BOWER-001"],
+          "sourceIds": ["SRC-MED-SA-HOERNLE-BOWER-1912"]
+        },
+        {
+          "kind": "stratum",
+          "observed": "La paleografía revisada sitúa la copia aproximadamente entre 500 y 550 e. c.",
+          "inference": "El objeto ancla autoridades y fórmulas en la primera mitad del siglo VI.",
+          "limit": "La copia no fecha la composición inicial de los materiales citados.",
+          "claimIds": ["CLAIM-MED-SA-BOWER-001"],
+          "evidenceIds": ["EVID-MED-SA-BOWER-001"],
+          "sourceIds": ["SRC-MED-SA-SANDER-BOWER-1987"]
+        },
+        {
+          "kind": "circulation",
+          "observed": "Lugar, soporte, repertorio y contexto budista conectan Asia meridional con una ruta centroasiática.",
+          "inference": "Hubo circulación material y selección de conocimientos entre regiones.",
+          "limit": "No identifica un centro único, dirección total o difusión poblacional.",
+          "claimIds": ["CLAIM-MED-SA-TRANSMISSION-001"],
+          "evidenceIds": ["EVID-MED-SA-TRANSMISSION-001"],
+          "sourceIds": ["SRC-MED-SA-HOERNLE-BOWER-1912"]
+        },
+        {
+          "kind": "practice",
+          "observed": "El *Navanītaka* y otros tratados conservan fórmulas y autoridades médicas diversas.",
+          "inference": "Puede reconstruirse un repertorio terapéutico escrito en circulación.",
+          "limit": "Una fórmula copiada no prueba preparación, paciente, dosis o uso.",
+          "claimIds": ["CLAIM-MED-SA-MATERIA-001"],
+          "evidenceIds": ["EVID-MED-SA-MATERIA-001"],
+          "sourceIds": ["SRC-MED-SA-HOERNLE-BOWER-1912"]
+        },
+        {
+          "kind": "consequence",
+          "observed": "No sobreviven denominadores ni resultados comparables vinculados a sus fórmulas.",
+          "inference": "Puede estudiarse autoridad y expectativa terapéutica histórica.",
+          "limit": "No demostrado: eficacia, seguridad o cobertura de los tratamientos copiados.",
+          "claimIds": ["CLAIM-MED-SA-EFFICACY-001"],
+          "evidenceIds": ["EVID-MED-SA-EFFICACY-001"],
+          "sourceIds": ["SRC-MED-IDEAL-2019"]
+        }
+      ]
+    },
+    {
+      "id": "ashoka-edict",
+      "title": "Aśoka — política no es hospital",
+      "region": "Imperio maurya",
+      "archive": "Segundo edicto rupestre en versiones regionales",
+      "layers": [
+        {
+          "kind": "testimony",
+          "observed": "Inscripciones rupestres conservan una proclamación real sobre tratamiento y recursos.",
+          "inference": "Existió una política promulgada por la autoridad maurya.",
+          "limit": "Una inscripción monumental no es un registro de ejecución.",
+          "claimIds": ["CLAIM-MED-SA-ASHOKA-001"],
+          "evidenceIds": ["EVID-MED-SA-ASHOKA-001"],
+          "sourceIds": ["SRC-MED-SA-WUJASTYK-HOSPITALS-2022"]
+        },
+        {
+          "kind": "reading",
+          "observed": "El texto menciona tratamiento para humanos y animales, hierbas, raíces, frutos, pozos y árboles.",
+          "inference": "Puede delimitarse qué recursos declara la política.",
+          "limit": "No menciona hospital, camas, edificio o personal clínico.",
+          "claimIds": ["CLAIM-MED-SA-ASHOKA-001"],
+          "evidenceIds": ["EVID-MED-SA-ASHOKA-001"],
+          "sourceIds": ["SRC-MED-SA-WUJASTYK-HOSPITALS-2022"]
+        },
+        {
+          "kind": "stratum",
+          "observed": "La formulación pertenece a un programa epigráfico del siglo III a. e. c. con versiones regionales.",
+          "inference": "Puede situarse históricamente la promulgación.",
+          "limit": "La fecha del edicto no fecha el origen del tratamiento o de cada planta.",
+          "claimIds": ["CLAIM-MED-SA-ARCHIVES-001"],
+          "evidenceIds": ["EVID-MED-SA-METHOD-001"],
+          "sourceIds": ["SRC-MED-SA-WUJASTYK-HOSPITALS-2022"]
+        },
+        {
+          "kind": "circulation",
+          "observed": "Versiones del edicto difundieron un mensaje imperial en distintas regiones.",
+          "inference": "La proclamación tuvo una circulación política organizada.",
+          "limit": "Circulación del texto no equivale a cobertura de servicios.",
+          "claimIds": ["CLAIM-MED-SA-ASHOKA-001"],
+          "evidenceIds": ["EVID-MED-SA-ASHOKA-001"],
+          "sourceIds": ["SRC-MED-SA-WUJASTYK-HOSPITALS-2022"]
+        },
+        {
+          "kind": "practice",
+          "observed": "La inscripción ordena importar o plantar recursos y realizar obras de camino.",
+          "inference": "Expresa acciones administrativas previstas.",
+          "limit": "No informa cuántas acciones se realizaron, dónde o a quién beneficiaron.",
+          "claimIds": ["CLAIM-MED-SA-ASHOKA-001"],
+          "evidenceIds": ["EVID-MED-SA-ASHOKA-001"],
+          "sourceIds": ["SRC-MED-SA-WUJASTYK-HOSPITALS-2022"]
+        },
+        {
+          "kind": "consequence",
+          "observed": "El edicto no conserva resultados sanitarios, acceso o seguimiento.",
+          "inference": "Puede estudiarse una aspiración política de bienestar.",
+          "limit": "No demostrado: red de hospitales, implementación uniforme o beneficio causal.",
+          "claimIds": ["CLAIM-MED-SA-ASHOKA-001"],
+          "evidenceIds": ["EVID-MED-SA-ASHOKA-001"],
+          "sourceIds": ["SRC-MED-SA-WUJASTYK-HOSPITALS-2022"]
+        }
+      ]
+    },
+    {
+      "id": "tirumukkudal-hospital",
+      "title": "Tirumukkūḍal — una institución local",
+      "region": "Tamil Nadu",
+      "archive": "Inscripción de dotación de finales del siglo XI",
+      "layers": [
+        {
+          "kind": "testimony",
+          "observed": "Una inscripción situada conserva la dotación de una casa para enfermos.",
+          "inference": "Existió una institución local financiada y administrada.",
+          "limit": "El texto no representa toda Asia meridional.",
+          "claimIds": ["CLAIM-MED-SA-TIRUMUKKUDAL-001"],
+          "evidenceIds": ["EVID-MED-SA-TIRUMUKKUDAL-001"],
+          "sourceIds": ["SRC-MED-SA-WUJASTYK-HOSPITALS-2022"]
+        },
+        {
+          "kind": "reading",
+          "observed": "Enumera quince camas, médico, operador quirúrgico, preparadores, cuidadores, barbero, limpieza, raciones, lámpara y medicamentos.",
+          "inference": "Puede reconstruirse una división local de trabajo y recursos.",
+          "limit": "Traducciones como cirujano o enfermero son aproximaciones funcionales.",
+          "claimIds": ["CLAIM-MED-SA-TIRUMUKKUDAL-001"],
+          "evidenceIds": ["EVID-MED-SA-TIRUMUKKUDAL-001"],
+          "sourceIds": ["SRC-MED-SA-WUJASTYK-HOSPITALS-2022"]
+        },
+        {
+          "kind": "stratum",
+          "observed": "La inscripción pertenece a finales del siglo XI y a un contexto institucional concreto.",
+          "inference": "Fecha una dotación local en ese corte histórico.",
+          "limit": "No fecha el origen de hospitales, profesiones o recetas de la región.",
+          "claimIds": ["CLAIM-MED-SA-ARCHIVES-001"],
+          "evidenceIds": ["EVID-MED-SA-METHOD-001"],
+          "sourceIds": ["SRC-MED-SA-WUJASTYK-HOSPITALS-2022"]
+        },
+        {
+          "kind": "circulation",
+          "observed": "Raciones, salarios, suministros y funciones conectan templo, personal y recursos.",
+          "inference": "La institución dependía de una red económica y administrativa.",
+          "limit": "No revela cuántas instituciones semejantes existieron o cómo se coordinaban.",
+          "claimIds": ["CLAIM-MED-SA-TIRUMUKKUDAL-001"],
+          "evidenceIds": ["EVID-MED-SA-TIRUMUKKUDAL-001"],
+          "sourceIds": ["SRC-MED-SA-WUJASTYK-HOSPITALS-2022"]
+        },
+        {
+          "kind": "practice",
+          "observed": "Camas, personal y medicamentos forman una infraestructura de atención explícita.",
+          "inference": "Es legítimo inferir cuidado institucional organizado en el sitio.",
+          "limit": "La inscripción no conserva historias clínicas, ocupación de camas o selección de pacientes.",
+          "claimIds": ["CLAIM-MED-SA-TIRUMUKKUDAL-001"],
+          "evidenceIds": ["EVID-MED-SA-TIRUMUKKUDAL-001"],
+          "sourceIds": ["SRC-MED-SA-WUJASTYK-HOSPITALS-2022"]
+        },
+        {
+          "kind": "consequence",
+          "observed": "La dotación muestra recursos disponibles, pero no resultados clínicos o cobertura.",
+          "inference": "Puede medirse capacidad nominal de quince camas y especialización funcional.",
+          "limit": "No demostrado: beneficio, seguridad, utilización o sistema sanitario regional.",
+          "claimIds": ["CLAIM-MED-SA-EFFICACY-001", "CLAIM-MED-SA-TIRUMUKKUDAL-001"],
+          "evidenceIds": ["EVID-MED-SA-EFFICACY-001", "EVID-MED-SA-TIRUMUKKUDAL-001"],
+          "sourceIds": ["SRC-MED-SA-WUJASTYK-HOSPITALS-2022"]
+        }
+      ]
+    }
+  ]
+}

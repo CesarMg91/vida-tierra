@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Del objeto escrito a la consecuencia</title>
+  <desc id="desc">Seis capas separan objeto, texto, género, circulación, práctica situada y consecuencia. Entre cada capa se muestra el salto que no debe heredarse automáticamente.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#171511"/><stop offset="1" stop-color="#27332d"/></linearGradient>
+    <filter id="shadow"><feDropShadow dx="0" dy="8" stdDeviation="10" flood-opacity=".24"/></filter>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <text x="90" y="105" fill="#e4b46d" font-family="Georgia,serif" font-size="25" letter-spacing="4">MED-004 · CADENA DOCUMENTAL</text>
+  <text x="90" y="165" fill="#f3ead8" font-family="Georgia,serif" font-size="50">Una receta no hereda una práctica ni un efecto</text>
+  <text x="90" y="210" fill="#b9b4a8" font-family="Arial,sans-serif" font-size="23">Cada puente exige evidencia propia; una ruptura no invalida el archivo anterior.</text>
+
+  <g font-family="Arial,sans-serif" filter="url(#shadow)">
+    <g transform="translate(90 285)">
+      <rect width="430" height="180" rx="18" fill="#f1e7d2"/>
+      <text x="28" y="42" fill="#9a5b31" font-size="18" font-weight="700">01 · OBJETO</text>
+      <text x="28" y="83" fill="#231f19" font-size="28" font-weight="700">Pieza, soporte, procedencia</text>
+      <text x="28" y="120" fill="#4d483f" font-size="20">¿Qué fragmento existe y cuándo?</text>
+      <rect x="28" y="142" width="216" height="5" rx="2" fill="#b46d3b"/>
+    </g>
+    <g transform="translate(585 285)">
+      <rect width="430" height="180" rx="18" fill="#f1e7d2"/>
+      <text x="28" y="42" fill="#9a5b31" font-size="18" font-weight="700">02 · TEXTO</text>
+      <text x="28" y="83" fill="#231f19" font-size="28" font-weight="700">Lectura, restitución, copia</text>
+      <text x="28" y="120" fill="#4d483f" font-size="20">¿Qué signos y palabras se sostienen?</text>
+      <rect x="28" y="142" width="216" height="5" rx="2" fill="#b46d3b"/>
+    </g>
+    <g transform="translate(1080 285)">
+      <rect width="430" height="180" rx="18" fill="#f1e7d2"/>
+      <text x="28" y="42" fill="#9a5b31" font-size="18" font-weight="700">03 · GÉNERO</text>
+      <text x="28" y="83" fill="#231f19" font-size="28" font-weight="700">Receta, carta, norma</text>
+      <text x="28" y="120" fill="#4d483f" font-size="20">¿Para qué clase de discurso servía?</text>
+      <rect x="28" y="142" width="216" height="5" rx="2" fill="#b46d3b"/>
+    </g>
+    <g transform="translate(90 575)">
+      <rect width="430" height="180" rx="18" fill="#d9e3d8"/>
+      <text x="28" y="42" fill="#386557" font-size="18" font-weight="700">04 · CIRCULACIÓN</text>
+      <text x="28" y="83" fill="#1c2924" font-size="28" font-weight="700">Copia, enseñanza, envío</text>
+      <text x="28" y="120" fill="#44534c" font-size="20">¿Quién pudo acceder o transmitirlo?</text>
+      <rect x="28" y="142" width="216" height="5" rx="2" fill="#528574"/>
+    </g>
+    <g transform="translate(585 575)">
+      <rect width="430" height="180" rx="18" fill="#d9e3d8"/>
+      <text x="28" y="42" fill="#386557" font-size="18" font-weight="700">05 · PRÁCTICA SITUADA</text>
+      <text x="28" y="83" fill="#1c2924" font-size="28" font-weight="700">Acción en persona y lugar</text>
+      <text x="28" y="120" fill="#44534c" font-size="20">¿Qué conducta ocurrió realmente?</text>
+      <rect x="28" y="142" width="216" height="5" rx="2" fill="#528574"/>
+    </g>
+    <g transform="translate(1080 575)">
+      <rect width="430" height="180" rx="18" fill="#d9e3d8"/>
+      <text x="28" y="42" fill="#386557" font-size="18" font-weight="700">06 · CONSECUENCIA</text>
+      <text x="28" y="83" fill="#1c2924" font-size="28" font-weight="700">Cuerpo, trabajo y vida</text>
+      <text x="28" y="120" fill="#44534c" font-size="20">¿Qué cambió y a qué se atribuye?</text>
+      <rect x="28" y="142" width="216" height="5" rx="2" fill="#528574"/>
+    </g>
+  </g>
+
+  <g fill="none" stroke="#e4b46d" stroke-width="4" stroke-linecap="round">
+    <path d="M530 375h42"/><path d="M1025 375h42"/>
+    <path d="M1295 480v52H305v30"/>
+    <path d="M530 665h42"/><path d="M1025 665h42"/>
+  </g>
+  <g fill="#e4b46d">
+    <path d="M572 375l-13-9v18z"/><path d="M1067 375l-13-9v18z"/>
+    <path d="M305 562l-9-13h18z"/><path d="M572 665l-13-9v18z"/><path d="M1067 665l-13-9v18z"/>
+  </g>
+  <g font-family="Arial,sans-serif" font-size="18" fill="#f3d7a4" text-anchor="middle">
+    <text x="552" y="260">no hereda fecha</text>
+    <text x="1047" y="260">no hereda función</text>
+    <text x="800" y="515">no hereda acceso</text>
+    <text x="552" y="550">no hereda ejecución</text>
+    <text x="1047" y="550">no hereda eficacia</text>
+  </g>
+  <text x="90" y="830" fill="#b9b4a8" font-family="Arial,sans-serif" font-size="20">La falta de un desenlace no borra el texto: limita la afirmación que puede sostener.</text>
+</svg>

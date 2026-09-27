@@ -823,3 +823,229 @@ La primera salida raster (`exec-98cd8be0-aa6e-400d-905f-b4125153734c.png`) se re
 | `cadena-sitio-region-civ-003.svg` | SVG manual determinista | `1600 × 900` | código fuente versionado | operaciones inferenciales, no identidades heredadas |
 
 La primera salida raster (`exec-a3b5a8aa-1d2c-4a16-81f1-c42278f5017a.png`) se rechazó por una hilera de perforaciones semejante a pseudotexto. La salida final (`exec-575d624c-2810-4193-b8ad-29d84855cd0b.png`) sustituyó únicamente ese fragmento por arcilla lisa. El prompt, la corrección y los límites completos se conservan en [`ATLAS_VISUAL.md`](../../ATLAS_VISUAL.md#55-civ-003--cinco-paisajes-ninguna-cuna).
+
+## MED-001 — Intervenciones, efectos y daños
+
+| Archivo | Origen | Dimensiones | SHA-256 / trazabilidad | Límite |
+|---|---|---:|---|---|
+| `hero-med-001-intervenciones.png` | OpenAI ImageGen, generación nueva del 2026-08-24 | `1672 × 941` | `ca5c80cf6c4032a3ad4ada62e28fd7aae7130f684376ccfa2247687d0237e466` | composición conceptual; no datos, hospital, ensayo ni recomendación |
+| `cadena-pregunta-decision-med-001.svg` | SVG manual determinista | `1600 × 900` | código fuente versionado | puentes inferenciales, no algoritmo clínico |
+| `matriz-evidencia-intervenciones-med-001.svg` | SVG manual determinista | `1600 × 900` | código fuente versionado | productos/fallos, no jerarquía universal |
+
+Primera salida aprobada sin edición: `C:\Users\HUAWEI\.codex\generated_images\019fedb0-8f24-7e33-8d16-d2418ba3378e\exec-ad4ee2ac-c07e-480e-a9a1-ece069fa92d4.png` → `assets/visuales/hero-med-001-intervenciones.png`. Tamaño: `1,791,053` bytes. El prompt completo y los límites se conservan en [`ATLAS_VISUAL.md`](../../ATLAS_VISUAL.md#56-med-001--una-mejoría-no-basta).
+
+La escena contiene marcas abstractas no legibles en papeles y una placa transparente; no son datos, escalas o resultados publicados. Las bandejas, sobres, balanza y figuras son metáforas editoriales contemporáneas. Los dos SVG incluyen `title` y `desc`, declaran sus productos y no calculan riesgos, tratamientos o decisiones.
+## MED-002 — Pruebas diagnósticas y decisiones
+
+| Archivo | Origen | Dimensiones | SHA-256 / trazabilidad | Límite |
+|---|---|---:|---|---|
+| `hero-med-002-pruebas-diagnosticas.png` | OpenAI ImageGen, generación nueva del 2026-08-24 | `1672 × 941` | `387046e402fd304fbd97eb24021f448d73e1f9b2744fd8cd2050fe880247568c` | composición conceptual; no datos, paciente, prueba, hospital o recomendación |
+| `cadena-prueba-decision-med-002.svg` | SVG manual determinista | `1600 × 900` | código fuente versionado | puentes inferenciales, no algoritmo o calculadora |
+| `matriz-pruebas-diagnosticas-med-002.svg` | SVG manual determinista | `1600 × 900` | código fuente versionado | productos/fallos, no ranking universal |
+
+Salida original aprobada sin edición: `C:\Users\HUAWEI\.codex\generated_images\019fedb0-8f24-7e33-8d16-d2418ba3378e\exec-bff1a683-5230-45f6-bca7-ee13cd3d2eb6.png` → `assets/visuales/hero-med-002-pruebas-diagnosticas.png`. Tamaño: `1,834,579` bytes. El prompt completo y los límites se conservan en [`ATLAS_VISUAL.md`](../../ATLAS_VISUAL.md#57-med-002--una-prueba-no-es-una-decisión).
+
+Los paneles incluyen puntos, líneas y barras abstractos sin ejes, números, unidades o datos reales. Las figuras, el frasco, el disco de latón, las bandejas y el libro son metáforas editoriales. Los SVG incluyen `title` y `desc` y no aceptan datos personales ni producen decisiones.
+
+## MED-003 — Archivos y orígenes de la medicina
+
+- `hero-med-003-origenes-medicina.png`: edición correctiva final de OpenAI ImageGen `exec-4f3b4bb5-951a-4bff-87bd-b95c69f97a28.png`, 2026-08-24; `1672 × 941`, `2,092,832` bytes, SHA-256 `8f8cbd8146edb6a5a7514b57fe47113cbb1a26931652287b1591eddeeac71f01`.
+- `cadena-archivo-sistema-med-003.svg`: SVG original del proyecto, `1600 × 900`, con título y descripción accesibles.
+- `matriz-huellas-inferencias-med-003.svg`: SVG original del proyecto, `1600 × 900`, con título y descripción accesibles.
+
+La primera salida, `exec-b5e84a54-9c4c-479d-b17d-7630fb9254a6.png`, fue rechazada porque la quinta bandeja contenía pseudotexto demasiado reconocible. La edición final dejó ese fragmento completamente liso. El prompt inicial, la instrucción correctiva y los límites están registrados en `ATLAS_VISUAL.md`, sección 58.
+
+La portada es una composición no probatoria: fragmentos, muestra, objetos, material liso y bandeja vacía no forman una colección, sitio, periodo o sistema médico reales. Los SVG fueron rasterizados e inspeccionados a `1600 × 900`; no presentan recortes o texto ilegible.
+
+
+## MED-004 — Mesopotamia y valle del Nilo
+
+| Archivo | Origen | Dimensiones | SHA-256 / trazabilidad | Límite |
+|---|---|---:|---|---|
+| `hero-med-004-mesopotamia-nilo.png` | OpenAI ImageGen, generación nueva del 2026-08-27 | `1672 × 941` | `a1ba02c306de5b3e36449a1c3eb6597a160abd7096848687f7b2cb673c347851` | composición conceptual; no colección, texto, práctica o efecto reales |
+| `cadena-documento-practica-med-004.svg` | SVG manual determinista | `1600 × 900` | código fuente versionado | seis capas inferenciales; no herencia automática |
+| `matriz-archivos-med-004.svg` | SVG manual determinista | `1600 × 900` | código fuente versionado | productos y límites; no ranking |
+
+Salida original aprobada sin edición: `C:\Users\HUAWEI\.codex\generated_images\019fedb0-8f24-7e33-8d16-d2418ba3378e\exec-b3845f64-ec56-48df-8655-fdac6e2e5884.png` → `assets/visuales/hero-med-004-mesopotamia-nilo.png`; tamaño `2,624,607` bytes. El prompt completo y los límites están en `ATLAS_VISUAL.md`, sección 59.
+
+La portada separa físicamente fragmentos genéricos de arcilla y papiro; no reproduce piezas identificables ni ofrece texto legible. Los SVG incluyen `title` y `desc`, no convierten documento en práctica y no producen consejos clínicos.
+
+## MED-005 — Asia meridional
+
+| Archivo | Origen | Dimensiones | SHA-256 / trazabilidad | Límite |
+|---|---|---:|---|---|
+| `hero-med-005-asia-meridional.png` | OpenAI ImageGen, generación nueva del 2026-08-27 | `1672 × 941` | `5bf703e27044e5ca1354db608663f09e728240ec525ed10d37d2a500e45ac8f7` | composición conceptual; no colección, escritura, cronología, transmisión o práctica reales |
+| `cadena-testimonio-practica-med-005.svg` | SVG manual determinista | `1600 × 900` | código fuente versionado | seis capas inferenciales; no herencia automática |
+| `matriz-archivos-asia-meridional-med-005.svg` | SVG manual determinista | `1600 × 900` | código fuente versionado | productos y límites; no ranking ni cronología continua |
+
+Salida original aprobada sin edición: `C:\Users\HUAWEI\.codex\generated_images\019fedb0-8f24-7e33-8d16-d2418ba3378e\exec-54e69a98-2155-4c2e-9b9c-4ad150595ad8.png` → `assets/visuales/hero-med-005-asia-meridional.png`; tamaño `2,278,946` bytes. El prompt completo y los límites están en `ATLAS_VISUAL.md`, sección 60.
+
+La portada separa físicamente folios genéricos, corteza, piedra y modelos didácticos; no reproduce piezas identificables ni ofrece texto legible. Los SVG incluyen `title` y `desc`, separan copia, composición, práctica y consecuencia, y no producen consejos clínicos.
+
+## MED-006 — China y Asia oriental
+
+| Archivo | Origen | Dimensiones | SHA-256 / trazabilidad | Límite |
+|---|---|---:|---|---|
+| `hero-med-006-china-asia-oriental.png` | OpenAI ImageGen, generación nueva del 2026-08-27 | `1672 × 941` | `5e7d82d6a139c44945eb1dccaee189d7436c127b58899469de0878596ca178e3` | composición conceptual; no artefacto, escritura, colección, práctica o resultado reales |
+| `cadena-testigo-resultado-med-006.svg` | SVG manual determinista | `1600 × 900` | código fuente versionado | seis capas inferenciales; no herencia automática |
+| `matriz-canones-practicas-med-006.svg` | SVG manual determinista | `1600 × 900` | código fuente versionado | productos y límites; no ranking o progreso |
+
+Salida original aprobada sin edición: `C:\Users\HUAWEI\.codex\generated_images\019fedb0-8f24-7e33-8d16-d2418ba3378e\exec-ce9fb493-5e4d-483e-a3bd-6c466a94d128.png` → `assets/visuales/hero-med-006-china-asia-oriental.png`; tamaño `2,062,773` bytes. El prompt completo y los límites están en `ATLAS_VISUAL.md`, sección 61.
+
+La portada separa físicamente seis estaciones genéricas y no reproduce objetos identificables o texto histórico. Los SVG incluyen `title` y `desc`; fueron inspeccionados completos a `1600 × 900`, separan canon, práctica y consecuencia, y no producen consejos clínicos.
+
+## MED-007 — Mediterráneo griego y helenístico
+
+| Archivo | Origen | Dimensiones | SHA-256 / trazabilidad | Límite |
+|---|---|---:|---|---|
+| `hero-med-007-mediterraneo-griego-helenistico.png` | OpenAI ImageGen, generación nueva del 2026-08-27 | `1672 × 941` | `eee71c1cf08631c78881b62e45ccae075833bf5dd8563c7491872c793704cd08` | composición conceptual; no manuscrito, inscripción, instrumento, cuerpo, práctica o efecto reales |
+| `cadena-testimonio-consecuencia-med-007.svg` | SVG manual determinista | `1600 × 900` | código fuente versionado | seis capas inferenciales; no herencia automática |
+| `matriz-archivos-mediterraneo-med-007.svg` | SVG manual determinista | `1600 × 900` | código fuente versionado | productos y límites; no ranking ni “milagro griego” |
+
+Salida original aprobada sin edición: `C:\Users\HUAWEI\.codex\generated_images\019fedb0-8f24-7e33-8d16-d2418ba3378e\exec-7275b5d8-17d9-41ff-922f-2672553ffbc5.png` → `assets/visuales/hero-med-007-mediterraneo-griego-helenistico.png`; tamaño `2,446,363` bytes. El prompt completo y los límites están en `ATLAS_VISUAL.md`, sección 62.
+
+La portada separa físicamente papiros, inscripción, instrumentos, modelos docentes y ficha de archivo; no reproduce objetos identificables, cuerpos humanos o texto legible. Los SVG incluyen `title` y `desc`, preservan los seis puentes de auditoría y no convierten observación, norma, disección o prestigio en práctica, cobertura o resultado.
+
+## MED-008 — Roma, Bizancio y Mediterráneo tardío
+
+| Archivo | Origen | Dimensiones | SHA-256 / trazabilidad | Límite |
+|---|---|---:|---|---|
+| `hero-med-008-roma-bizancio-mediterraneo-tardio.png` | OpenAI ImageGen, generación nueva del 2026-08-27 | `1672 × 941` | `f974cd2ce6ce6b9026e29f8ead628a98a199a73cc9f10da14f638ae8bd7a4c47` | composición conceptual; no excavación, hospital, cobertura, práctica o resultado reales |
+| `cadena-vestigio-consecuencia-med-008.svg` | SVG manual determinista | `1600 × 900` | código fuente versionado | seis capas inferenciales; no herencia automática |
+| `matriz-infraestructura-practica-med-008.svg` | SVG manual determinista | `1600 × 900` | código fuente versionado | cinco archivos y límites; no ranking ni genealogía lineal |
+
+Salida original aprobada sin edición: `C:\Users\HUAWEI\.codex\generated_images\019fedb0-8f24-7e33-8d16-d2418ba3378e\exec-080fd50f-fbe7-4e7a-9534-61a782e3f6e4.png` → `assets/visuales/hero-med-008-roma-bizancio-mediterraneo-tardio.png`; tamaño `2,322,763` bytes. El prompt completo y los límites están en `ATLAS_VISUAL.md`, sección 63.
+
+La portada separa plano, canal, instrumentos, códice, pliegos multilingües y modelo asistencial; no contiene personas o texto legible. Los SVG incluyen `title` y `desc`, preservan los seis puentes y no convierten edificio, cargo, regla o autoridad en cobertura o resultado.
+
+## MED-009 — África fuera del eje egipcio
+
+| Archivo | Origen | Dimensiones | SHA-256 / trazabilidad | Límite |
+|---|---|---:|---|---|
+| `hero-med-009-africa-fuera-eje-egipcio.png` | OpenAI ImageGen, generación nueva del 2026-08-27 | `1671 × 941` | `ae43e4861e7ba05fa8c568e5516ee9c7ea318ac1a138414b6e8792108efcd139` | composición conceptual; no colección, cultura, práctica o continuidad reales |
+| `cadena-archivo-limite-med-009.svg` | SVG manual determinista | `1600 × 900` | código fuente versionado | seis capas inferenciales; no herencia automática |
+| `matriz-archivos-africa-med-009.svg` | SVG manual determinista | `1600 × 900` | código fuente versionado | seis archivos y límites; no ranking continental |
+
+Salida original aprobada sin edición: `C:\Users\HUAWEI\.codex\generated_images\019fedb0-8f24-7e33-8d16-d2418ba3378e\exec-268ba075-cf3c-4f87-972f-408ed32d082d.png` → `assets/visuales/hero-med-009-africa-fuera-eje-egipcio.png`; tamaño `2,089,775` bytes. El prompt completo y los límites están en `ATLAS_VISUAL.md`, sección 64.
+
+La portada separa fragmentos, muestras, suelo/asentamiento, códice, cerámica/residuo y escucha; no contiene personas o texto legible. Los SVG incluyen `title` y `desc`, distinguen dato ausente de ausencia histórica y no convierten lesión, ciudad, manuscrito o residuo en tratamiento o eficacia.
+
+## MED-010 — Mesoamérica, Andes y otras Américas
+
+| Archivo | Origen | Dimensiones | SHA-256 / trazabilidad | Límite |
+|---|---|---:|---|---|
+| `hero-med-010-mesoamerica-andes-americas.png` | OpenAI ImageGen, generación nueva del 2026-08-27 | `1672 × 941` | `902da91d5240a79777fc72d4edc2c28dff7f165ce1b8f9080b992687bbf1d7bb` | composición conceptual; no colección, pueblo, práctica o códice reales |
+| `cadena-archivo-consecuencia-med-010.svg` | SVG manual determinista | `1600 × 900` | código fuente versionado | seis capas inferenciales; no herencia automática |
+| `matriz-archivos-americas-med-010.svg` | SVG manual determinista | `1600 × 900` | código fuente versionado | seis archivos y límites; no ranking continental |
+
+Salida original aprobada sin edición: `C:\Users\HUAWEI\.codex\generated_images\019fedb0-8f24-7e33-8d16-d2418ba3378e\exec-707fcd57-1d97-493c-9b07-93a0015bfd98.png` → `assets/visuales/hero-med-010-mesoamerica-andes-americas.png`; tamaño `1,749,916` bytes. El prompt completo y los límites están en `ATLAS_VISUAL.md`, sección 65.
+
+La portada separa fragmentos genéricos, moldes dentales, microrestos, sedimento y dos utilerías de códice; no contiene personas, texto legible o réplicas identificables. Los SVG incluyen `title` y `desc`, preservan archivo, procedencia, señal, práctica, consecuencia y límite y no convierten lesión, molécula, planta o receta en beneficio.
+
+## MED-011 — mundos islámicos
+
+| Archivo | Origen | Dimensiones | SHA-256 / trazabilidad | Límite |
+|---|---|---:|---|---|
+| `hero-med-011-mundos-islamicos.png` | OpenAI ImageGen, generación nueva del 2026-08-27 | `1672 × 941` | `4bb92437ad9bf618788ba1d9d81cc6b9075eec1f462928e949982e0ee4705f87` | composición conceptual; no manuscrito, hospital, botica o práctica reales |
+| `cadena-testigo-consecuencia-med-011.svg` | SVG manual determinista | `1600 × 900` | código fuente versionado | seis capas inferenciales; no herencia automática |
+| `matriz-redes-medicina-med-011.svg` | SVG manual determinista | `1600 × 900` | código fuente versionado | seis redes y límites; no edad de oro ni ranking |
+
+Salida original aprobada sin edición: `C:\Users\HUAWEI\.codex\generated_images\019fedb0-8f24-7e33-8d16-d2418ba3378e\exec-15150650-d211-464f-8999-632db9f3e26b.png` → `assets/visuales/hero-med-011-mundos-islamicos.png`; tamaño `2,645,580` bytes. El prompt completo y los límites están en `ATLAS_VISUAL.md`, sección 66.
+
+La portada separa manuscritos genéricos, cuaderno, aparato óptico, instrumental, maqueta institucional y botica; no contiene personas, cirugía o texto legible. Los SVG incluyen `title` y `desc`, preservan testigo, versión, operación, institución, alcance y consecuencia y no convierten traducción, receta, fundación o norma en práctica o eficacia.
+
+## MED-012 — Europa medieval y tradiciones judías
+
+| Archivo | Origen | Dimensiones | SHA-256 / trazabilidad | Límite |
+|---|---|---:|---|---|
+| `hero-med-012-europa-medieval-tradiciones-judias.png` | OpenAI ImageGen, generación nueva del 2026-08-27 | `1672 × 941` | `387add8c4a32c0e65dbb967c1c585f94d118882036f05120417bf889c82e04b9` | composición conceptual; no códice, contrato, institución, comunidad o práctica reales |
+| `cadena-testigo-alcance-med-012.svg` | SVG manual determinista | `1600 × 900` | código fuente versionado | seis capas inferenciales; no herencia automática |
+| `matriz-espacios-medicina-med-012.svg` | SVG manual determinista | `1600 × 900` | código fuente versionado | seis archivos y límites; no progreso ni ranking |
+
+Salida original aprobada sin edición: `C:\Users\HUAWEI\.codex\generated_images\019fedb0-8f24-7e33-8d16-d2418ba3378e\exec-58757693-70e2-4927-bb29-bd9356658c33.png` → `assets/visuales/hero-med-012-europa-medieval-tradiciones-judias.png`; tamaño `2,046,782` bytes. El prompt completo y los límites están en `ATLAS_VISUAL.md`, sección 67.
+
+La portada separa códice, objetos domésticos, fascículos, traducciones, enseñanza, instrumental y una maqueta hospitalaria; no contiene personas, práctica clínica o escritura transcribible. Los SVG incluyen `title` y `desc`, preservan testigo, versión, currículo, practicante, encuentro y alcance y no convierten autoridad, licencia, hospital o identidad en consulta o eficacia.
+
+## MED-013 — Rutas del Índico y Eurasia
+
+| Archivo | Origen | Dimensiones | SHA-256 / trazabilidad | Límite |
+|---|---|---:|---|---|
+| `hero-med-013-rutas-indico-eurasia.png` | OpenAI ImageGen, generación nueva del 2026-08-28 | `1672 × 941` | `634d63a02249925f35ddbe15fe3d30a81a5dbe41b2ac9f9dd6c06b05e21ee777` | composición conceptual; no pecio, ruta, manuscrito, sustancia o práctica reales |
+| `cadena-huella-alcance-med-013.svg` | SVG manual determinista | `1600 × 900` | código fuente versionado | seis capas inferenciales; no herencia automática |
+| `matriz-rutas-transferencia-med-013.svg` | SVG manual determinista | `1600 × 900` | código fuente versionado | seis archivos y límites; no centralidad, progreso ni ranking |
+
+Salida original aprobada sin edición: `C:\Users\HUAWEI\.codex\generated_images\019fedb0-8f24-7e33-8d16-d2418ba3378e\exec-ca2c2e25-3223-4e46-9bf3-83a98f610d4e.png` → `assets/visuales/hero-med-013-rutas-indico-eurasia.png`; tamaño `2,339,218` bytes. El prompt completo y los límites están en `ATLAS_VISUAL.md`, sección 68.
+
+La portada separa barco y carga, manuscritos, carta, regalo, traducción, imprenta y plantas con rutas ramificadas; no contiene personas, fronteras, práctica clínica o texto usado como evidencia. Los SVG incluyen `title` y `desc`, preservan huella, identificación, itinerario, mediación, recepción y alcance y no convierten conexión, imperio o impresión en transferencia o eficacia.
+
+## MED-014 — Epidemias y cuarentenas
+
+| Archivo | Origen | Dimensiones | SHA-256 / trazabilidad | Límite |
+|---|---|---:|---|---|
+| `hero-med-014-epidemias-cuarentenas.png` | OpenAI ImageGen, generación nueva del 2026-08-28 | `1672 × 941` | `144f055ff947bf7dc2ef60204a28a417c0b18cea4fab27bc1ad62e0c0058375f` | composición conceptual; no víctima, brote, documento, institución, población o política reales |
+| `cadena-testimonio-desigualdad-med-014.svg` | SVG manual determinista | `1600 × 900` | código fuente versionado | seis capas inferenciales; no herencia automática |
+| `matriz-epidemias-cuarentenas-med-014.svg` | SVG manual determinista | `1600 × 900` | código fuente versionado | seis expedientes y límites; no severidad, progreso ni ranking |
+
+Salida original aprobada sin edición: `C:\Users\HUAWEI\.codex\generated_images\019fedb0-8f24-7e33-8d16-d2418ba3378e\exec-94a8564d-2e52-4be9-ae73-334e36df50ed.png` → `assets/visuales/hero-med-014-epidemias-cuarentenas.png`; tamaño `1,984,695` bytes. El prompt completo y los límites están en `ATLAS_VISUAL.md`, sección 69.
+
+La portada separa libro de mortalidad, muestra arqueológica, proxy de paisaje, lazareto, pase, cordón y cargas desiguales; no contiene personas, cadáveres, texto legible o iconografía sensacionalista. Los SVG incluyen `title` y `desc`, preservan testimonio, agente, magnitud, respuesta, cumplimiento y desigualdad y no convierten relato, genoma, fosa, norma o descenso en diagnóstico, cifra, eficacia o justicia.
+
+## MED-015 — Encuentros coloniales
+
+| Archivo | Origen | Dimensiones | SHA-256 / trazabilidad | Límite |
+|---|---|---:|---|---|
+| `hero-med-015-encuentros-coloniales.png` | OpenAI ImageGen, generación nueva del 2026-08-28 | `1672 × 941` | `72f524f0b43b10c454e22b198f7786a366708179c6c79843d9c1da6e6f46bf58` | composición conceptual; no persona, comunidad, archivo, mina, misión, travesía, planta o acontecimiento reales |
+| `cadena-exposicion-supervivencia-med-015.svg` | SVG manual determinista | `1600 × 900` | código fuente versionado | siete capas inferenciales; no herencia automática |
+| `matriz-encuentros-coloniales-med-015.svg` | SVG manual determinista | `1600 × 900` | código fuente versionado | siete expedientes y límites; no sufrimiento, progreso ni ranking |
+
+Salida original aprobada sin edición: `C:\Users\HUAWEI\.codex\generated_images\019fedb0-8f24-7e33-8d16-d2418ba3378e\exec-017986ca-1f3e-4db0-8f30-cafbd4699072.png` → `assets/visuales/hero-med-015-encuentros-coloniales.png`; tamaño `1,976,358` bytes. El prompt completo y los límites están en `ATLAS_VISUAL.md`, sección 70.
+
+La portada separa registro, muestra, mineral, alimento, navío, herbario y conexiones desiguales; no contiene personas, violencia gráfica, texto legible o réplicas identificables. Los SVG incluyen `title` y `desc`, preservan exposición, violencia, trabajo, nutrición, clasificación, respuesta y supervivencia y no convierten contacto, categoría, cuidado o continuidad en causa, identidad, benevolencia o ausencia de daño.
+
+## MED-016 — Anatomía, disección e imprenta
+
+| Archivo | Origen | Dimensiones | SHA-256 / trazabilidad | Límite |
+|---|---|---:|---|---|
+| `hero-med-016-anatomia-diseccion-imprenta.png` | OpenAI ImageGen, generación nueva del 2026-08-28 | `1672 × 941` | `93dcfea578cb760c394f093d0f17eca9cfc378e988888a1e08e80b546acf85ae` | composición conceptual; no cuerpo, disección, manuscrito, edición o acontecimiento reales |
+| `cadena-cuerpo-circulacion-med-016.svg` | SVG manual determinista | `1600 × 900` | código fuente versionado | siete capas inferenciales; no herencia automática |
+| `matriz-anatomia-imprenta-med-016.svg` | SVG manual determinista | `1600 × 900` | código fuente versionado | siete archivos y límites; no modernidad, exactitud o ranking |
+
+Salida original aprobada sin edición: `C:\Users\HUAWEI\.codex\generated_images\019fedb0-8f24-7e33-8d16-d2418ba3378e\exec-69af3e69-aaa1-4064-b4d7-9b4a533c738c.png` → `assets/visuales/hero-med-016-anatomia-diseccion-imprenta.png`; tamaño `2,143,433` bytes. El prompt completo y los límites están en `ATLAS_VISUAL.md`, sección 71.
+
+La portada separa acceso regulado, procedimiento, diagrama, impresión, comparación, corrección y tradiciones manuscritas sin mostrar cuerpos ni reproducir páginas reales. Los SVG incluyen `title` y `desc`, preservan las siete capas y no convierten apertura, naturalismo, impresión o circulación en verdad, adopción o resultado clínico.
+
+## MED-017 — Circulación y fisiología experimental
+
+| Archivo | Origen | Dimensiones | SHA-256 / trazabilidad | Límite |
+|---|---|---:|---|---|
+| `hero-med-017-circulacion-fisiologia.png` | OpenAI ImageGen, generación nueva del 2026-08-28 | `1672 × 941` | `9c03f6d543ab16d73a9747667ba34aaf70b4b5f281a792fb5cf04c1f97016f74` | composición conceptual; no experimento, aparato, texto, tradición, cuerpo o acontecimiento reales |
+| `cadena-sistema-experimento-recepcion-med-017.svg` | SVG manual determinista | `1600 × 900` | código fuente versionado | siete capas inferenciales; no herencia automática |
+| `matriz-circulacion-fisiologia-med-017.svg` | SVG manual determinista | `1600 × 900` | código fuente versionado | ocho expedientes y límites; no modernidad, prioridad o ranking |
+
+Salida original aprobada sin edición: `C:\Users\HUAWEI\.codex\generated_images\019fedb0-8f24-7e33-8d16-d2418ba3378e\exec-1791b89c-413e-483e-9554-3536cf41dcb3.png` → `assets/visuales/hero-med-017-circulacion-fisiologia.png`; tamaño `2,127,551` bytes. El prompt completo y los límites están en `ATLAS_VISUAL.md`, sección 72.
+
+La portada separa tradiciones textuales, palpación, ligadura, cantidad, óptica y presión sin mostrar personas, cuerpos o aparatos identificables. Los SVG incluyen `title` y `desc`, preservan las siete capas y no convierten experimento, instrumento, número, publicación o fama en mecanismo completo, exactitud, consenso o resultado clínico.
+
+## MED-018 — Microscopía y anatomía patológica
+
+| Archivo | Origen | Dimensiones | SHA-256 / trazabilidad | Límite |
+|---|---|---:|---|---|
+| `hero-med-018-microscopia-anatomia-patologica.png` | OpenAI ImageGen, generación nueva del 2026-08-28 | `1672 × 941` | `380037543a2da61a588349d8dd6101d256c783bc079fe80eb484e84685c56912` | composición conceptual; no cuerpo, órgano, diagnóstico, espécimen real, colección o acontecimiento |
+| `cadena-episodio-enfermedad-med-018.svg` | SVG manual determinista | `1600 × 900` | código fuente versionado | siete capas inferenciales; no herencia automática |
+| `matriz-microscopia-anatomia-patologica-med-018.svg` | SVG manual determinista | `1600 × 900` | código fuente versionado | ocho expedientes y límites; no prioridad, modernidad o ranking |
+
+Salida original aprobada sin edición: `C:\Users\HUAWEI\.codex\generated_images\019fedb0-8f24-7e33-8d16-d2418ba3378e\exec-3f92e740-8af5-4345-9b89-c1beafe98c27.png` → `assets/visuales/hero-med-018-microscopia-anatomia-patologica.png`; tamaño `2,366,937` bytes. El prompt completo y los límites están en `ATLAS_VISUAL.md`, sección 73.
+
+La portada separa episodio, muestra genérica, preparación, lámina, microscopía y correlación sin mostrar cuerpos ni material diagnóstico real. Los SVG incluyen `title` y `desc`, preservan las siete capas y no convierten imagen, lesión, clasificación, volumen institucional o epónimo en diagnóstico, causa, representatividad o beneficio clínico.
+
+## MED-019 — Hospitales, cabecera y examen clínico
+
+| Archivo | Origen | Dimensiones | SHA-256 / trazabilidad | Límite |
+|---|---|---:|---|---|
+| `hero-med-019-hospitales-cabecera-examen-clinico.png` | OpenAI ImageGen, generación nueva del 2026-08-28 | `1672 × 941` | `92facd19a94aa7bf4a9027fa74a86462ff29947330a4728e31a3b331eab0e84e` | composición conceptual; no hospital, paciente, examen, ficha, instrumento compuesto o acontecimiento reales |
+| `cadena-institucion-decision-med-019.svg` | SVG manual determinista | `1600 × 900` | código fuente versionado | siete capas inferenciales; no herencia automática |
+| `matriz-hospitales-examen-clinico-med-019.svg` | SVG manual determinista | `1600 × 900` | código fuente versionado | ocho expedientes y límites; no modernidad, eficacia o ranking |
+
+Salida original aprobada sin edición: `C:\Users\HUAWEI\.codex\generated_images\019fedb0-8f24-7e33-8d16-d2418ba3378e\exec-3479c64e-6207-4471-b8a2-fc748937908c.png` → `assets/visuales/hero-med-019-hospitales-cabecera-examen-clinico.png`; tamaño `1,979,630` bytes. El prompt completo y los límites están en `ATLAS_VISUAL.md`, sección 74.
+
+La portada separa institución, cama, expediente, comparación, examen y decisión sin mostrar pacientes, procedimientos ni reproducir un hospital real. Los SVG incluyen `title` y `desc`, preservan las siete capas y no convierten cama, ingreso, presencia, signo, ficha, serie, licencia o prestigio en población, consentimiento, lesión, persona, causalidad, beneficio o justicia.

@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Matriz comparativa de archivos médicos de China y Asia oriental</title>
+  <desc id="desc">Cinco archivos se comparan por testigo, producto fuerte y límite. Ninguna fila constituye un ranking ni una secuencia de progreso.</desc>
+  <defs>
+    <linearGradient id="bg2" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#f1e8d8"/><stop offset="1" stop-color="#dfd1bb"/></linearGradient>
+    <filter id="shadow2" x="-10%" y="-20%" width="120%" height="150%"><feDropShadow dx="0" dy="7" stdDeviation="9" flood-color="#3b2c20" flood-opacity=".18"/></filter>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg2)"/>
+  <path d="M0 0H1600V18H0z" fill="#1f4138"/>
+  <text x="90" y="92" fill="#8b4f2d" font-family="IBM Plex Sans, Arial, sans-serif" font-size="20" font-weight="700" letter-spacing="4">MED-006 · MATRIZ SIN RANKING</text>
+  <text x="90" y="150" fill="#211d18" font-family="Source Serif 4, Georgia, serif" font-size="50" font-weight="600">Cada archivo observa una cosa distinta</text>
+  <text x="90" y="192" fill="#5e554a" font-family="IBM Plex Sans, Arial, sans-serif" font-size="22">Comparar exige conservar el producto fuerte y el límite de cada soporte.</text>
+
+  <g transform="translate(90 242)" filter="url(#shadow2)" font-family="IBM Plex Sans, Arial, sans-serif">
+    <rect width="1420" height="512" rx="20" fill="#fbf7ef"/>
+    <path d="M0 0H1420V72H0z" fill="#243b34"/>
+    <text x="28" y="45" fill="#f4ecdf" font-size="18" font-weight="700">ARCHIVO</text>
+    <text x="336" y="45" fill="#f4ecdf" font-size="18" font-weight="700">TESTIGO SITUADO</text>
+    <text x="732" y="45" fill="#f4ecdf" font-size="18" font-weight="700">PRODUCTO FUERTE</text>
+    <text x="1090" y="45" fill="#f4ecdf" font-size="18" font-weight="700">NO HEREDADO</text>
+
+    <g fill="#29231e" font-size="18">
+      <g transform="translate(0 72)">
+        <rect width="1420" height="88" fill="#fbf7ef"/>
+        <text x="28" y="37" font-size="21" font-weight="700">Mawangdui</text><text x="28" y="65" fill="#8b4f2d">antes de 168 a. e. c.</text>
+        <text x="336" y="37">Seda y bambú de tumba</text><text x="336" y="65">con vasos, moxa y recetas</text>
+        <text x="732" y="37">Repertorios tempranos</text><text x="732" y="65">comparables con cánones</text>
+        <text x="1090" y="37">Sistema tardío completo</text><text x="1090" y="65">o fecha de cada pasaje</text>
+      </g>
+      <g transform="translate(0 160)">
+        <rect width="1420" height="88" fill="#eee5d7"/>
+        <text x="28" y="37" font-size="21" font-weight="700">Tianhui</text><text x="28" y="65" fill="#8b4f2d">siglo II a. e. c.</text>
+        <text x="336" y="37">Tiras, punción y</text><text x="336" y="65">figurilla con líneas</text>
+        <text x="732" y="37">Corpus excavado y red</text><text x="732" y="65">corporal materializada</text>
+        <text x="1090" y="37">Firma Bian Que, función</text><text x="1090" y="65">cerrada o resultados</text>
+      </g>
+      <g transform="translate(0 248)">
+        <rect width="1420" height="88" fill="#fbf7ef"/>
+        <text x="28" y="37" font-size="21" font-weight="700">Wuwei</text><text x="28" y="65" fill="#8b4f2d">Han oriental</text>
+        <text x="336" y="37">Fórmulas, cantidades y</text><text x="336" y="65">registro de sustancias</text>
+        <text x="732" y="37">Escritura técnica local</text><text x="732" y="65">y economía material</text>
+        <text x="1090" y="37">Uso general, taxón</text><text x="1090" y="65">estable o eficacia</text>
+      </g>
+      <g transform="translate(0 336)">
+        <rect width="1420" height="88" fill="#eee5d7"/>
+        <text x="28" y="37" font-size="21" font-weight="700">Ishinpō</text><text x="28" y="65" fill="#8b4f2d">Japón, 984</text>
+        <text x="336" y="37">Treinta rollos y más de</text><text x="336" y="65">doscientas obras citadas</text>
+        <text x="732" y="37">Selección, conservación</text><text x="732" y="65">y lectura transformadora</text>
+        <text x="1090" y="37">Copia pasiva o práctica</text><text x="1090" y="65">japonesa uniforme</text>
+      </g>
+      <g transform="translate(0 424)">
+        <rect width="1420" height="88" fill="#fbf7ef"/>
+        <text x="28" y="37" font-size="21" font-weight="700">Donguibogam</text><text x="28" y="65" fill="#8b4f2d">Corea, 1613</text>
+        <text x="336" y="37">Compilación real</text><text x="336" y="65">y edición conservada</text>
+        <text x="732" y="37">Síntesis institucional</text><text x="732" y="65">y circulación regional</text>
+        <text x="1090" y="37">Cobertura, ejecución</text><text x="1090" y="65">o efecto estatal</text>
+      </g>
+    </g>
+    <path d="M308 0V512M704 0V512M1062 0V512" stroke="#aa9c88" stroke-width="1"/>
+  </g>
+
+  <rect x="90" y="790" width="1420" height="54" rx="14" fill="#1f4138"/>
+  <text x="116" y="824" fill="#f4ecdf" font-family="IBM Plex Sans, Arial, sans-serif" font-size="19">Las filas no forman una escalera: testigo, norma, recepción y consecuencia son productos no equivalentes.</text>
+</svg>

@@ -211,3 +211,35 @@ Después de disponer de la secuencia base:
 - `v0.5`: evolución humana y migraciones.
 - `v0.6`: civilizaciones y genética humana.
 - `v1.0`: primera síntesis integral con revisión externa.
+
+## Línea temática MED — subíndice propio
+
+| Orden temático | ID | Alcance | Estado |
+|---:|---|---|---|
+| MED-001 | `INV-MED-INTERVENTIONS-001` | [efectos, comparadores, desenlaces, daños, cirugía y aplicabilidad](15_medicina/INVESTIGACION_MED_001_INTERVENCIONES_EFICACIA_DANOS.md) | **AUDITADO** |
+| MED-002 | `INV-MED-DIAGNOSTICS-001` | [uso previsto, exactitud, probabilidad, utilidad y consecuencias](15_medicina/INVESTIGACION_MED_002_PRUEBAS_DIAGNOSTICAS_DECISIONES.md) | **AUDITADO** |
+| MED-003 | `INV-MED-ORIGINS-001` | [archivos, cuidado, intervención, biomoléculas y límites del origen](15_medicina/INVESTIGACION_MED_003_ORIGENES_ARCHIVO_CUIDADO.md) | **AUDITADO** |
+| MED-004 | `INV-MED-ANE-001` | [Mesopotamia y valle del Nilo: tablillas, papiros, cuerpos, especialistas y prácticas](15_medicina/INVESTIGACION_MED_004_MESOPOTAMIA_VALLE_NILO.md) | **AUDITADO** |
+| MED-005 | `INV-MED-SA-001` | [Asia meridional: corpus ayurvédicos, cirugía, instituciones y transmisiones](15_medicina/INVESTIGACION_MED_005_ASIA_MERIDIONAL_AYURVEDA_TRANSMISIONES.md) | **AUDITADO** |
+| MED-006 | `INV-MED-EA-001` | [China y Asia oriental: cánones, pulsos, técnicas, farmacopeas e instituciones](15_medicina/INVESTIGACION_MED_006_CHINA_ASIA_ORIENTAL_CANONES_PRACTICAS.md) | **AUDITADO** |
+| MED-007 | `INV-MED-GR-001` | [Mediterráneo griego y helenístico: corpus, pronóstico, cirugía, santuarios y anatomía](15_medicina/INVESTIGACION_MED_007_MEDITERRANEO_GRIEGO_HELENISTICO.md) | **AUDITADO** |
+| MED-008 | `INV-MED-RB-001` | [Roma, Bizancio y Mediterráneo tardío: ejército, ciudad, hospitales y corpus](15_medicina/INVESTIGACION_MED_008_ROMA_BIZANCIO_MEDITERRANEO_TARDIO.md) | **AUDITADO** |
+| MED-009 | `INV-MED-AFRICA-001` | [África fuera del eje egipcio: cuerpos, ciudades, manuscritos, residuos y silencios](15_medicina/INVESTIGACION_MED_009_AFRICA_FUERA_EJE_EGIPCIO.md) | **AUDITADO** |
+| MED-010 | `INV-MED-AMERICAS-001` | [Mesoamérica, Andes y otras Américas: cuerpos, trepanaciones, plantas y códices](15_medicina/INVESTIGACION_MED_010_MESOAMERICA_ANDES_AMERICAS.md) | **AUDITADO** |
+| MED-011 | `INV-MED-ISLAMIC-WORLDS-001` | [Mundos islámicos: traducción, casos, óptica, hospitales, farmacia y regulación](15_medicina/INVESTIGACION_MED_011_MUNDOS_ISLAMICOS.md) | **AUDITADO** |
+| MED-012 | `INV-MED-MEDIEVAL-EUROPE-JEWISH-001` | [Europa medieval y tradiciones judías: monasterios, hogares, universidades, cirugía y hospitales](15_medicina/INVESTIGACION_MED_012_EUROPA_MEDIEVAL_TRADICIONES_JUDIAS.md) | **AUDITADO** |
+| MED-013 | `INV-MED-ROUTES-INDIAN-OCEAN-EURASIA-001` | [Rutas del Índico y Eurasia: personas, mercancías, manuscritos e imperios](15_medicina/INVESTIGACION_MED_013_RUTAS_INDICO_EURASIA.md) | **AUDITADO** |
+| MED-014 | `INV-MED-EPIDEMICS-QUARANTINE-001` | [Epidemias y cuarentenas: relato, agente, magnitud, respuesta, cumplimiento y desigualdad](15_medicina/INVESTIGACION_MED_014_EPIDEMIAS_CUARENTENAS.md) | **AUDITADO** |
+| MED-015 | `INV-MED-COLONIAL-ENCOUNTERS-001` | [Encuentros coloniales: exposición, violencia, trabajo, nutrición, clasificación, respuesta y supervivencia](15_medicina/INVESTIGACION_MED_015_ENCUENTROS_COLONIALES.md) | **AUDITADO** |
+| MED-016 | `INV-MED-ANATOMY-PRINT-001` | [Anatomía, disección e imprenta: cuerpo, procedimiento, imagen, texto, comparación, corrección y circulación](15_medicina/INVESTIGACION_MED_016_ANATOMIA_DISECCION_IMPRENTA.md) | **AUDITADO** |
+| MED-017 | `INV-MED-CIRCULATION-PHYSIOLOGY-001` | [Circulación y fisiología: sistema, preparación, intervención, medición, comparación, mecanismo y recepción](15_medicina/INVESTIGACION_MED_017_CIRCULACION_FISIOLOGIA.md) | **AUDITADO** |
+| MED-018 | `INV-MED-MICROSCOPY-PATHOLOGY-001` | [Microscopía y anatomía patológica: episodio, espécimen, preparación, visualización, lesión, correlación y enfermedad](15_medicina/INVESTIGACION_MED_018_MICROSCOPIA_ANATOMIA_PATOLOGICA.md) | **AUDITADO** |
+| MED-019 | `INV-MED-HOSPITAL-BEDSIDE-CLINIC-001` | [Hospitales, cabecera y examen clínico: institución, admisión, encuentro, examen, registro, comparación y decisión](15_medicina/INVESTIGACION_MED_019_HOSPITALES_CABECERA_EXAMEN_CLINICO.md) | **AUDITADO** |
+
+MED-001 y MED-002 establecen el laboratorio transversal para evaluar intervenciones y pruebas. MED-003–MED-019 desarrollan la secuencia histórica mundial con cadenas específicas de archivo y límite. MED-019 separa institución, admisión, encuentro, examen, registro, comparación y decisión para impedir que cama, signo, expediente, serie, licencia o prestigio institucional hereden persona, población, exactitud o beneficio clínico.
+
+El programa MED-003–MED-033 está en [PROGRAMA_CRONOLOGICO_HISTORIA_MEDICINA.md](15_medicina/PROGRAMA_CRONOLOGICO_HISTORIA_MEDICINA.md), con contrato común en [ESTANDAR_EVIDENCIA_HISTORICA_MEDICINA.md](15_medicina/ESTANDAR_EVIDENCIA_HISTORICA_MEDICINA.md). CIV conserva su numeración, rutas y programa independiente; ninguna línea se cierra para abrir la otra.
+
+La siguiente investigación prevista es MED-020: estadística, vacunación y epidemiología, donde se separarán población, exposición, denominador, comparación, efecto, implementación y desigualdad sin convertir una cifra agregada en causalidad o beneficio universal.
+
+Entregas públicas: MED-001 = `v0.3.0`; MED-002 = `v0.3.1`; MED-003 = `v0.3.2`; MED-004 = `v0.3.3`; MED-005 = `v0.3.4`; MED-006 = `v0.3.5`; MED-007 = `v0.3.6`; MED-008 = `v0.3.7`; MED-009 = `v0.3.8`; MED-010 = `v0.3.9`; MED-011 = `v0.3.10`; MED-012 = `v0.3.11`; MED-013 = `v0.3.12`; MED-014 = `v0.3.13`; MED-015 = `v0.3.14`; MED-016 = `v0.3.15`; MED-017 = `v0.3.16`; MED-018 = `v0.3.17`; MED-019 = `v0.3.18`.

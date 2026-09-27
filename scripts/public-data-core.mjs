@@ -64,22 +64,29 @@ export function researchKeyFromFile(file) {
   const name = path.posix.basename(normalizePath(file));
   const numeric = name.match(/^INVESTIGACION_(\d{3})_/);
   if (numeric) return numeric[1];
-  const thematic = name.match(/^INVESTIGACION_(CIV)_(\d{3})_/);
+  const thematic = name.match(/^INVESTIGACION_([A-Z][A-Z0-9]{1,7})_(\d{3})_/);
   if (thematic) return `${thematic[1]}-${thematic[2]}`;
   return null;
 }
 
+export function thematicResearchKey(key) {
+  const match = String(key ?? "").match(/^([A-Z][A-Z0-9]{1,7})-(\d{3})$/);
+  return match ? { series: match[1], order: Number(match[2]) } : null;
+}
+
 export function thematicResearchOrder(key) {
-  const match = String(key ?? "").match(/^CIV-(\d{3})$/);
-  return match ? Number(match[1]) : null;
+  return thematicResearchKey(key)?.order ?? null;
 }
 
 export function compareResearchRecords(a, b) {
   if (a.order !== null && b.order !== null) return a.order - b.order;
   if (a.order !== null) return -1;
   if (b.order !== null) return 1;
-  return (thematicResearchOrder(a.key) ?? Number.MAX_SAFE_INTEGER) -
-    (thematicResearchOrder(b.key) ?? Number.MAX_SAFE_INTEGER);
+  const thematicA = thematicResearchKey(a.key);
+  const thematicB = thematicResearchKey(b.key);
+  if (!thematicA || !thematicB) return String(a.key).localeCompare(String(b.key), "es");
+  const bySeries = thematicA.series.localeCompare(thematicB.series, "es");
+  return bySeries || thematicA.order - thematicB.order;
 }
 
 export function listResearchFiles(files = walkMarkdown()) {

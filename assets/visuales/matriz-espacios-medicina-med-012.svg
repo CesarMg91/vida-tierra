@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Matriz de seis archivos médicos de la Europa medieval</title>
+  <desc id="desc">Compara códices y hogares, Trotula, traducciones, universidad y licencia, cirugía y hospitales, y practicantes judíos. Para cada archivo distingue el producto observado de su límite principal sin asignar rangos.</desc>
+  <rect width="1600" height="900" rx="28" fill="#111513"/>
+  <text x="90" y="102" fill="#f5ead9" font-family="Georgia,serif" font-size="44" font-weight="700">Seis archivos, ninguna escalera de progreso</text>
+  <text x="90" y="150" fill="#aebdb4" font-family="Arial,sans-serif" font-size="23">Cada fila conserva un producto distinto y exige un límite propio.</text>
+  <g font-family="Arial,sans-serif">
+    <rect x="90" y="205" width="1420" height="64" rx="14" fill="#263029"/>
+    <text x="120" y="246" fill="#e0a15b" font-size="19" font-weight="700">ARCHIVO</text>
+    <text x="500" y="246" fill="#e0a15b" font-size="19" font-weight="700">OBSERVADO</text>
+    <text x="1010" y="246" fill="#e0a15b" font-size="19" font-weight="700">LÍMITE</text>
+    <g font-size="20">
+      <rect x="90" y="281" width="1420" height="82" rx="10" fill="#1b211d"/>
+      <text x="120" y="316" fill="#f5ead9" font-weight="700">Códices y hogares</text>
+      <text x="120" y="342" fill="#8fb29c" font-size="17">VIII–X</text>
+      <text x="500" y="330" fill="#cbd4ce">colecciones mixtas · operaciones practicables</text>
+      <text x="1010" y="330" fill="#d9b38b">procedencia ≠ uso o efecto</text>
+      <rect x="90" y="375" width="1420" height="82" rx="10" fill="#20251f"/>
+      <text x="120" y="410" fill="#f5ead9" font-weight="700">Trotula y Trota</text>
+      <text x="120" y="436" fill="#8fb29c" font-size="17">XI–XV</text>
+      <text x="500" y="424" fill="#cbd4ce">tres obras · atribución parcial · variantes</text>
+      <text x="1010" y="424" fill="#d9b38b">título ≠ autora única o voz directa</text>
+      <rect x="90" y="469" width="1420" height="82" rx="10" fill="#1b211d"/>
+      <text x="120" y="504" fill="#f5ead9" font-weight="700">Traducciones</text>
+      <text x="120" y="530" fill="#8fb29c" font-size="17">XI–XIV</text>
+      <text x="500" y="518" fill="#cbd4ce">selección · condensación · revisión · adaptación</text>
+      <text x="1010" y="518" fill="#d9b38b">versión ≠ fidelidad o consulta</text>
+      <rect x="90" y="563" width="1420" height="82" rx="10" fill="#20251f"/>
+      <text x="120" y="598" fill="#f5ead9" font-weight="700">Universidad y licencia</text>
+      <text x="120" y="624" fill="#8fb29c" font-size="17">XIII–XIV</text>
+      <text x="500" y="612" fill="#cbd4ce">currículos · comentarios · exámenes locales</text>
+      <text x="1010" y="612" fill="#d9b38b">autoridad ≠ monopolio o competencia</text>
+      <rect x="90" y="657" width="1420" height="82" rx="10" fill="#1b211d"/>
+      <text x="120" y="692" fill="#f5ead9" font-weight="700">Cirugía y hospitales</text>
+      <text x="120" y="718" fill="#8fb29c" font-size="17">XII–XIV</text>
+      <text x="500" y="706" fill="#cbd4ce">técnicas · abstenciones · caridad · reglas</text>
+      <text x="1010" y="706" fill="#d9b38b">texto o casa ≠ desenlace clínico</text>
+      <rect x="90" y="751" width="1420" height="82" rx="10" fill="#20251f"/>
+      <text x="120" y="786" fill="#f5ead9" font-weight="700">Practicantes judíos</text>
+      <text x="120" y="812" fill="#8fb29c" font-size="17">XII–XV</text>
+      <text x="500" y="800" fill="#cbd4ce">contratos · licencias · redes multilingües</text>
+      <text x="1010" y="800" fill="#d9b38b">identidad ≠ método o tolerancia</text>
+    </g>
+  </g>
+  <text x="90" y="870" fill="#87968d" font-family="Arial,sans-serif" font-size="18">Comparación por productos y límites · sin puntuación, frontera total ni escala universal.</text>
+</svg>

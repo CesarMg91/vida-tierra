@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Cadena de auditoría de MED-010 desde archivo hasta límite</title>
+  <desc id="desc">Seis tarjetas conectadas separan archivo, procedencia, señal, práctica, consecuencia y límite. Cada transición declara qué puede inferirse y qué no se hereda.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#0f1514"/><stop offset="1" stop-color="#1f1915"/></linearGradient>
+    <linearGradient id="card" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#242b28"/><stop offset="1" stop-color="#171d1b"/></linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="130%"><feDropShadow dx="0" dy="10" stdDeviation="12" flood-color="#000" flood-opacity=".34"/></filter>
+    <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#c97a45"/></marker>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <circle cx="1460" cy="80" r="230" fill="#8e5630" opacity=".12"/>
+  <text x="80" y="82" fill="#d99a61" font-family="IBM Plex Sans, Arial, sans-serif" font-size="22" letter-spacing="4">MED-010 · CADENA DE AUDITORÍA</text>
+  <text x="80" y="142" fill="#f3e7d2" font-family="Source Serif 4, Georgia, serif" font-size="48" font-weight="700">Una huella no hereda una historia clínica</text>
+  <text x="80" y="184" fill="#b9c2bc" font-family="IBM Plex Sans, Arial, sans-serif" font-size="21">Cada capa conserva su producto antes de pasar a la siguiente.</text>
+
+  <g filter="url(#shadow)">
+    <g transform="translate(80 240)">
+      <rect width="440" height="220" rx="22" fill="url(#card)" stroke="#4a5a52"/>
+      <circle cx="50" cy="50" r="27" fill="#c97a45"/><text x="50" y="58" text-anchor="middle" fill="#fff8e9" font-family="IBM Plex Mono, monospace" font-size="20">01</text>
+      <text x="94" y="58" fill="#f3e7d2" font-family="Source Serif 4, Georgia, serif" font-size="30" font-weight="700">Archivo</text>
+      <text x="32" y="110" fill="#d5ddd8" font-family="IBM Plex Sans, Arial, sans-serif" font-size="19">Cráneo · diente · cálculo · coprolito</text>
+      <text x="32" y="141" fill="#d5ddd8" font-family="IBM Plex Sans, Arial, sans-serif" font-size="19">códice · imagen · colección</text>
+      <rect x="28" y="166" width="384" height="34" rx="17" fill="#273832"/>
+      <text x="220" y="189" text-anchor="middle" fill="#92c5aa" font-family="IBM Plex Mono, monospace" font-size="15">¿QUÉ EXISTE?</text>
+    </g>
+    <g transform="translate(580 240)">
+      <rect width="440" height="220" rx="22" fill="url(#card)" stroke="#4a5a52"/>
+      <circle cx="50" cy="50" r="27" fill="#c97a45"/><text x="50" y="58" text-anchor="middle" fill="#fff8e9" font-family="IBM Plex Mono, monospace" font-size="20">02</text>
+      <text x="94" y="58" fill="#f3e7d2" font-family="Source Serif 4, Georgia, serif" font-size="30" font-weight="700">Procedencia</text>
+      <text x="32" y="110" fill="#d5ddd8" font-family="IBM Plex Sans, Arial, sans-serif" font-size="19">Sitio · estrato · persona · fecha</text>
+      <text x="32" y="141" fill="#d5ddd8" font-family="IBM Plex Sans, Arial, sans-serif" font-size="19">lengua · colección · custodia</text>
+      <rect x="28" y="166" width="384" height="34" rx="17" fill="#273832"/>
+      <text x="220" y="189" text-anchor="middle" fill="#92c5aa" font-family="IBM Plex Mono, monospace" font-size="15">¿DE DÓNDE Y DE QUIÉN?</text>
+    </g>
+    <g transform="translate(1080 240)">
+      <rect width="440" height="220" rx="22" fill="url(#card)" stroke="#4a5a52"/>
+      <circle cx="50" cy="50" r="27" fill="#c97a45"/><text x="50" y="58" text-anchor="middle" fill="#fff8e9" font-family="IBM Plex Mono, monospace" font-size="20">03</text>
+      <text x="94" y="58" fill="#f3e7d2" font-family="Source Serif 4, Georgia, serif" font-size="30" font-weight="700">Señal</text>
+      <text x="32" y="110" fill="#d5ddd8" font-family="IBM Plex Sans, Arial, sans-serif" font-size="19">Corte · remodelación · molécula</text>
+      <text x="32" y="141" fill="#d5ddd8" font-family="IBM Plex Sans, Arial, sans-serif" font-size="19">microresto · palabra · imagen</text>
+      <rect x="28" y="166" width="384" height="34" rx="17" fill="#273832"/>
+      <text x="220" y="189" text-anchor="middle" fill="#92c5aa" font-family="IBM Plex Mono, monospace" font-size="15">¿QUÉ SE MIDIÓ O LEYÓ?</text>
+    </g>
+    <g transform="translate(80 550)">
+      <rect width="440" height="220" rx="22" fill="url(#card)" stroke="#4a5a52"/>
+      <circle cx="50" cy="50" r="27" fill="#c97a45"/><text x="50" y="58" text-anchor="middle" fill="#fff8e9" font-family="IBM Plex Mono, monospace" font-size="20">04</text>
+      <text x="94" y="58" fill="#f3e7d2" font-family="Source Serif 4, Georgia, serif" font-size="30" font-weight="700">Práctica</text>
+      <text x="32" y="110" fill="#d5ddd8" font-family="IBM Plex Sans, Arial, sans-serif" font-size="19">Intervención · preparación · uso</text>
+      <text x="32" y="141" fill="#d5ddd8" font-family="IBM Plex Sans, Arial, sans-serif" font-size="19">frente a alternativas explícitas</text>
+      <rect x="28" y="166" width="384" height="34" rx="17" fill="#3e2c22"/>
+      <text x="220" y="189" text-anchor="middle" fill="#e9b483" font-family="IBM Plex Mono, monospace" font-size="15">INTENCIÓN NO HEREDADA</text>
+    </g>
+    <g transform="translate(580 550)">
+      <rect width="440" height="220" rx="22" fill="url(#card)" stroke="#4a5a52"/>
+      <circle cx="50" cy="50" r="27" fill="#c97a45"/><text x="50" y="58" text-anchor="middle" fill="#fff8e9" font-family="IBM Plex Mono, monospace" font-size="20">05</text>
+      <text x="94" y="58" fill="#f3e7d2" font-family="Source Serif 4, Georgia, serif" font-size="30" font-weight="700">Consecuencia</text>
+      <text x="32" y="110" fill="#d5ddd8" font-family="IBM Plex Sans, Arial, sans-serif" font-size="19">Supervivencia · lesión · circulación</text>
+      <text x="32" y="141" fill="#d5ddd8" font-family="IBM Plex Sans, Arial, sans-serif" font-size="19">comparador · daño · denominador</text>
+      <rect x="28" y="166" width="384" height="34" rx="17" fill="#3e2c22"/>
+      <text x="220" y="189" text-anchor="middle" fill="#e9b483" font-family="IBM Plex Mono, monospace" font-size="15">BENEFICIO NO HEREDADO</text>
+    </g>
+    <g transform="translate(1080 550)">
+      <rect width="440" height="220" rx="22" fill="url(#card)" stroke="#4a5a52"/>
+      <circle cx="50" cy="50" r="27" fill="#c97a45"/><text x="50" y="58" text-anchor="middle" fill="#fff8e9" font-family="IBM Plex Mono, monospace" font-size="20">06</text>
+      <text x="94" y="58" fill="#f3e7d2" font-family="Source Serif 4, Georgia, serif" font-size="30" font-weight="700">Límite</text>
+      <text x="32" y="110" fill="#d5ddd8" font-family="IBM Plex Sans, Arial, sans-serif" font-size="19">No demostrado · dato ausente</text>
+      <text x="32" y="141" fill="#d5ddd8" font-family="IBM Plex Sans, Arial, sans-serif" font-size="19">evidencia contraria · falsador</text>
+      <rect x="28" y="166" width="384" height="34" rx="17" fill="#273832"/>
+      <text x="220" y="189" text-anchor="middle" fill="#92c5aa" font-family="IBM Plex Mono, monospace" font-size="15">¿DÓNDE TERMINA EL ARCHIVO?</text>
+    </g>
+  </g>
+
+  <path d="M 530 350 H 564" stroke="#c97a45" stroke-width="4" marker-end="url(#arrow)"/><path d="M 1030 350 H 1064" stroke="#c97a45" stroke-width="4" marker-end="url(#arrow)"/>
+  <path d="M 1300 474 V 520 H 300 V 534" fill="none" stroke="#c97a45" stroke-width="4" marker-end="url(#arrow)"/>
+  <path d="M 530 660 H 564" stroke="#c97a45" stroke-width="4" marker-end="url(#arrow)"/><path d="M 1030 660 H 1064" stroke="#c97a45" stroke-width="4" marker-end="url(#arrow)"/>
+  <rect x="80" y="820" width="1440" height="2" fill="#4a5a52"/>
+  <text x="80" y="858" fill="#b9c2bc" font-family="IBM Plex Sans, Arial, sans-serif" font-size="18">Cuerpo ≠ diagnóstico · planta ≠ receta · códice ≠ práctica uniforme · continuidad ≠ identidad inmóvil</text>
+</svg>

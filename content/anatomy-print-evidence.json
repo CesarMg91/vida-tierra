@@ -1,0 +1,503 @@
+{
+  "schemaVersion": 1,
+  "researchSlug": "15_medicina/INVESTIGACION_MED_016_ANATOMIA_DISECCION_IMPRENTA",
+  "cases": [
+    {
+      "id": "mansur-shiraz-1390-1488",
+      "title": "Mansur en Shiraz · diagrama sin disección heredada",
+      "region": "Shiraz, Irán · ca. 1390 y copias de los siglos XV–XVII",
+      "archive": "Dos manuscritos NLM, cinco figuras sistémicas, figura gestante, etiquetas y genealogía visual",
+      "layers": [
+        {
+          "kind": "body",
+          "observed": "Los manuscritos conservados no identifican un cadáver, donante, ejecución o demostración concreta.",
+          "inference": "El tratado prueba interés anatómico y una tradición visual de cuerpo completo.",
+          "limit": "No demostrado: que Mansur obtuviera esas figuras mediante disección humana directa.",
+          "claimIds": ["CLAIM-MED-ANAT-MANSUR-DISSECTION-UNKNOWN-001"],
+          "evidenceIds": ["EVID-MED-ANAT-MANSUR-MSS-001"],
+          "sourceIds": ["SRC-MED-ANAT-MANSUR-NLM", "SRC-MED-ANAT-MANSUR-IRANICA"]
+        },
+        {
+          "kind": "procedure",
+          "observed": "El texto organiza huesos, nervios, músculos, venas y arterias, pero casi nunca remite a la figura y no narra una secuencia de apertura.",
+          "inference": "Puede reconstruirse una operación textual y pedagógica, no una práctica manual específica.",
+          "limit": "La postura de una figura o la palabra anatomía no documentan por sí solas una disección.",
+          "claimIds": ["CLAIM-MED-ANAT-MANSUR-SYSTEMS-001", "CLAIM-MED-ANAT-MANSUR-DISSECTION-UNKNOWN-001"],
+          "evidenceIds": ["EVID-MED-ANAT-MANSUR-SYSTEMS-001"],
+          "sourceIds": ["SRC-MED-ANAT-MANSUR-NLM", "SRC-MED-ANAT-WUJASTYK-2007"]
+        },
+        {
+          "kind": "image",
+          "observed": "Cinco figuras presentan sistemas separados; una sexta muestra gestación. Copias varían en órganos, color y etiquetas.",
+          "inference": "Las imágenes funcionaron como esquemas recombinables y no como fotografías de un cuerpo único.",
+          "limit": "Una figura legible puede mezclar convención, copia y selección sin conservar observación individual.",
+          "claimIds": ["CLAIM-MED-ANAT-MANSUR-SYSTEMS-001", "CLAIM-MED-ANAT-MANSUR-IMAGE-GENEALOGY-001"],
+          "evidenceIds": ["EVID-MED-ANAT-MANSUR-SYSTEMS-001", "EVID-MED-ANAT-MANSUR-GENEALOGY-001"],
+          "sourceIds": ["SRC-MED-ANAT-MANSUR-NLM", "SRC-MED-ANAT-WUJASTYK-2007"]
+        },
+        {
+          "kind": "text",
+          "observed": "El tratado persa combina anatomía galénica, vocabulario árabe y persa y una estructura propia en seis capítulos.",
+          "inference": "El manuscrito es un artefacto intelectual timúrida situado, no una copia pasiva de una sola autoridad.",
+          "limit": "Describir una fuente como galénica no identifica de forma automática cada pasaje o dibujo.",
+          "claimIds": ["CLAIM-MED-ANAT-MANSUR-MANUSCRIPT-001", "CLAIM-MED-ANAT-MANSUR-SYSTEMS-001"],
+          "evidenceIds": ["EVID-MED-ANAT-MANSUR-MSS-001"],
+          "sourceIds": ["SRC-MED-ANAT-MANSUR-IRANICA", "SRC-MED-ANAT-ZARSHENAS-2014"]
+        },
+        {
+          "kind": "comparison",
+          "observed": "Las cinco figuras guardan semejanzas con series latinas anteriores, pero la ruta y el soporte de transmisión siguen sin resolverse.",
+          "inference": "La genealogía visual puede compararse por rasgos, copias fechadas y variantes.",
+          "limit": "Semejanza formal no demuestra una flecha directa de préstamo ni prioridad absoluta.",
+          "claimIds": ["CLAIM-MED-ANAT-MANSUR-IMAGE-GENEALOGY-001"],
+          "evidenceIds": ["EVID-MED-ANAT-MANSUR-GENEALOGY-001"],
+          "sourceIds": ["SRC-MED-ANAT-MANSUR-NLM", "SRC-MED-ANAT-WUJASTYK-2007"]
+        },
+        {
+          "kind": "correction",
+          "observed": "Las copias cambian detalles y la figura gestante pudo ser una recomposición local de la figura arterial.",
+          "inference": "Copiar también transforma, selecciona y reordena conocimiento.",
+          "limit": "Una variación gráfica no equivale a corrección anatómica contrastada con cuerpos.",
+          "claimIds": ["CLAIM-MED-ANAT-MANSUR-IMAGE-GENEALOGY-001", "CLAIM-MED-ANAT-IMAGE-MEDIATION-001"],
+          "evidenceIds": ["EVID-MED-ANAT-MANSUR-GENEALOGY-001"],
+          "sourceIds": ["SRC-MED-ANAT-MANSUR-NLM", "SRC-MED-ANAT-WUJASTYK-2007"]
+        },
+        {
+          "kind": "circulation",
+          "observed": "La serie se copió durante al menos dos siglos y aparece incluso en un manuscrito no musulmán de Gujarat.",
+          "inference": "Puede demostrarse circulación transregional de una tradición visual persa.",
+          "limit": "Conservar una imagen no prueba lectura, enseñanza, acuerdo o uso clínico uniforme.",
+          "claimIds": ["CLAIM-MED-ANAT-MANSUR-CIRCULATION-001"],
+          "evidenceIds": ["EVID-MED-ANAT-MANSUR-GENEALOGY-001"],
+          "sourceIds": ["SRC-MED-ANAT-WUJASTYK-2007", "SRC-MED-ANAT-ZARSHENAS-2014"]
+        }
+      ]
+    },
+    {
+      "id": "bologna-1316-1523",
+      "title": "Bolonia · texto, roles y observación antes de Vesalio",
+      "region": "Bolonia y norte de Italia · 1316–1523",
+      "archive": "Anathomia, escenas de lección, Fasciculus, Commentaria e Isagogae digitalizados",
+      "layers": [
+        {
+          "kind": "body",
+          "observed": "Demostraciones universitarias utilizaron un número pequeño y regulado de cadáveres, frecuentemente de personas ejecutadas o socialmente marginalizadas.",
+          "inference": "El acceso corporal fue institucional y distribuido de forma desigual.",
+          "limit": "No toda lección conservada identifica persona, procedencia jurídica o consentimiento.",
+          "claimIds": ["CLAIM-MED-ANAT-BOLOGNA-INSTITUTION-001", "CLAIM-MED-ANAT-BODIES-POWER-001"],
+          "evidenceIds": ["EVID-MED-ANAT-BODIES-001", "EVID-MED-ANAT-BOLOGNA-ROLES-001"],
+          "sourceIds": ["SRC-MED-ANAT-PARK-1994", "SRC-MED-ANAT-STANDRING-2016"]
+        },
+        {
+          "kind": "procedure",
+          "observed": "Lector, ostensor y sector podían separar lectura, señalamiento y corte; la secuencia seguía el manual y la descomposición del cuerpo.",
+          "inference": "La lección fue una operación coordinada, no el acto solitario de un anatomista.",
+          "limit": "La escena impresa es una representación normativa; no registra cada gesto de una sesión real.",
+          "claimIds": ["CLAIM-MED-ANAT-BOLOGNA-ROLES-001"],
+          "evidenceIds": ["EVID-MED-ANAT-BOLOGNA-ROLES-001"],
+          "sourceIds": ["SRC-MED-ANAT-MCCALL-2022", "SRC-MED-ANAT-PARENT-2019"]
+        },
+        {
+          "kind": "image",
+          "observed": "La escena de disección pasó de manuscritos al Fasciculus de 1491 y cambió entre ediciones.",
+          "inference": "La imagen hizo visible una institución y una división del trabajo.",
+          "limit": "Iconografía popular no es acta notarial ni prueba de frecuencia de disecciones.",
+          "claimIds": ["CLAIM-MED-ANAT-BOLOGNA-PRINT-ICON-001", "CLAIM-MED-ANAT-IMAGE-MEDIATION-001"],
+          "evidenceIds": ["EVID-MED-ANAT-BOLOGNA-ICON-001"],
+          "sourceIds": ["SRC-MED-ANAT-MCCALL-2022", "SRC-MED-ANAT-NLM-PRINT"]
+        },
+        {
+          "kind": "text",
+          "observed": "La Anathomia de Mondino sirvió como guía; Berengario publicó en 1521 un comentario ampliado y en 1522 una introducción abreviada.",
+          "inference": "Comentario y manual podían alojar observaciones nuevas dentro de una autoridad heredada.",
+          "limit": "Texto antiguo citado no implica obediencia literal ni texto nuevo implica ruptura total.",
+          "claimIds": ["CLAIM-MED-ANAT-BOLOGNA-ROLES-001", "CLAIM-MED-ANAT-BERENGARIO-OBSERVATION-001"],
+          "evidenceIds": ["EVID-MED-ANAT-BERENGARIO-BOOK-001"],
+          "sourceIds": ["SRC-MED-ANAT-BERENGARIO-NLM", "SRC-MED-ANAT-PARENT-2019"]
+        },
+        {
+          "kind": "comparison",
+          "observed": "Berengario insistió en anatomía sensata y publicó cortes cerebrales que muestran meninges y ventrículos con rasgos observacionales.",
+          "inference": "Comparar texto, disección y figura permitió detectar discrepancias antes de 1543.",
+          "limit": "Una figura más naturalista conserva convenciones y no vuelve correctas todas las funciones atribuidas.",
+          "claimIds": ["CLAIM-MED-ANAT-BERENGARIO-OBSERVATION-001"],
+          "evidenceIds": ["EVID-MED-ANAT-BERENGARIO-BOOK-001"],
+          "sourceIds": ["SRC-MED-ANAT-PARENT-2019", "SRC-MED-ANAT-BERENGARIO-NLM"]
+        },
+        {
+          "kind": "correction",
+          "observed": "Berengario añadió descripciones propias, pero mantuvo componentes fisiológicos y ventriculares heredados.",
+          "inference": "La corrección fue parcial: una observación puede revisar estructura sin rehacer todo el sistema explicativo.",
+          "limit": "No es una marcha lineal desde error medieval a verdad moderna.",
+          "claimIds": ["CLAIM-MED-ANAT-BOLOGNA-CORRECTION-001"],
+          "evidenceIds": ["EVID-MED-ANAT-BERENGARIO-BOOK-001"],
+          "sourceIds": ["SRC-MED-ANAT-PARENT-2019"]
+        },
+        {
+          "kind": "circulation",
+          "observed": "Fasciculus e Isagogae tuvieron ediciones, abreviaciones y cambios visuales para públicos distintos.",
+          "inference": "La imprenta amplió y reconfiguró el alcance de la lección anatómica.",
+          "limit": "Edición publicada no mide tiraje sobreviviente, lectura, currículo o acceso social.",
+          "claimIds": ["CLAIM-MED-ANAT-BOLOGNA-PRINT-ICON-001", "CLAIM-MED-ANAT-PRINT-NONUNIFORM-001"],
+          "evidenceIds": ["EVID-MED-ANAT-BOLOGNA-ICON-001", "EVID-MED-ANAT-BERENGARIO-BOOK-001"],
+          "sourceIds": ["SRC-MED-ANAT-MCCALL-2022", "SRC-MED-ANAT-BERENGARIO-NLM"]
+        }
+      ]
+    },
+    {
+      "id": "vesalius-valverde-1538-1568",
+      "title": "Vesalio y Valverde · corrección, taller y copia",
+      "region": "Padua, Basilea, Roma y circuitos europeos · 1538–1568",
+      "archive": "Tabulae, Fabrica 1543/1555, anotaciones, bloques, traducciones y ediciones de Valverde",
+      "layers": [
+        {
+          "kind": "body",
+          "observed": "Vesalio trabajó con cadáveres humanos obtenidos mediante autoridades judiciales y hospitales; personas ejecutadas sostuvieron parte del archivo.",
+          "inference": "La nueva anatomía dependió de poder institucional sobre cuerpos concretos.",
+          "limit": "El frontispicio abarrotado no enumera la procedencia ni el consentimiento de cada cuerpo.",
+          "claimIds": ["CLAIM-MED-ANAT-VESALIUS-BODIES-001", "CLAIM-MED-ANAT-BODIES-POWER-001"],
+          "evidenceIds": ["EVID-MED-ANAT-BODIES-001", "EVID-MED-ANAT-VESALIUS-FABRICA-001"],
+          "sourceIds": ["SRC-MED-ANAT-PARK-1994", "SRC-MED-ANAT-STANDRING-2016"]
+        },
+        {
+          "kind": "procedure",
+          "observed": "Vesalio criticó separar lectura y corte y presentó al anatomista operando y explicando con sus propias manos.",
+          "inference": "Integrar gesto, palabra y comparación cambió la pedagogía y la autoridad.",
+          "limit": "La autorrepresentación también construyó un personaje heroico y no abolió asistentes o talleres.",
+          "claimIds": ["CLAIM-MED-ANAT-VESALIUS-HAND-001"],
+          "evidenceIds": ["EVID-MED-ANAT-VESALIUS-FABRICA-001"],
+          "sourceIds": ["SRC-MED-ANAT-MCCALL-2022", "SRC-MED-ANAT-NLM-DREAM"]
+        },
+        {
+          "kind": "image",
+          "observed": "Más de 250 ilustraciones requirieron dibujo, transferencia, talla de madera, impresión y coordinación tipográfica.",
+          "inference": "La lámina es una cadena de producción que organiza observaciones para enseñar y persuadir.",
+          "limit": "No es una huella neutra del cadáver ni obra material de una sola mano demostrada.",
+          "claimIds": ["CLAIM-MED-ANAT-VESALIUS-WORKSHOP-001", "CLAIM-MED-ANAT-IMAGE-MEDIATION-001"],
+          "evidenceIds": ["EVID-MED-ANAT-VESALIUS-WORKSHOP-001"],
+          "sourceIds": ["SRC-MED-ANAT-LANSKA-2013", "SRC-MED-ANAT-KEMP-2010", "SRC-MED-ANAT-CLARK-1981"]
+        },
+        {
+          "kind": "text",
+          "observed": "La Fabrica discutió a Galeno en latín humanista; Valverde publicó una síntesis castellana más breve y económica.",
+          "inference": "Lengua, formato, precio y género modificaron quién podía acceder al nuevo repertorio.",
+          "limit": "Vernáculo no equivale a acceso universal, comprensión o práctica.",
+          "claimIds": ["CLAIM-MED-ANAT-VALVERDE-CIRCULATION-001", "CLAIM-MED-ANAT-PRINT-NONUNIFORM-001"],
+          "evidenceIds": ["EVID-MED-ANAT-VALVERDE-EDITIONS-001"],
+          "sourceIds": ["SRC-MED-ANAT-VALVERDE-LOC", "SRC-MED-ANAT-VALVERDE-BNE", "SRC-MED-ANAT-MARKATOS-2017"]
+        },
+        {
+          "kind": "comparison",
+          "observed": "Vesalio contrastó humanos con descripciones basadas en animales y señaló discrepancias como la rete mirabile humana.",
+          "inference": "Comparar especie, ejemplar, texto y estructura permitió localizar errores sistemáticos.",
+          "limit": "Galeno no fue sólo error ni Vesalio acertó en toda estructura o función.",
+          "claimIds": ["CLAIM-MED-ANAT-VESALIUS-CORRECTIONS-001", "CLAIM-MED-ANAT-DISSECTION-NONAUTOMATIC-001"],
+          "evidenceIds": ["EVID-MED-ANAT-VESALIUS-FABRICA-001"],
+          "sourceIds": ["SRC-MED-ANAT-NUTTON-2012", "SRC-MED-ANAT-PARENT-2019"]
+        },
+        {
+          "kind": "correction",
+          "observed": "Vesalio revisó la edición de 1555; Valverde reutilizó muchas imágenes y corrigió o añadió algunas estructuras.",
+          "inference": "La corrección fue iterativa y pudo viajar mediante copia reconocida, adaptación y crítica.",
+          "limit": "Contar cambios o láminas no decide por sí solo prioridad, exactitud o plagio moderno.",
+          "claimIds": ["CLAIM-MED-ANAT-VESALIUS-REVISION-001", "CLAIM-MED-ANAT-VALVERDE-COPY-001"],
+          "evidenceIds": ["EVID-MED-ANAT-VESALIUS-REVISIONS-001", "EVID-MED-ANAT-VALVERDE-EDITIONS-001"],
+          "sourceIds": ["SRC-MED-ANAT-NUTTON-2012", "SRC-MED-ANAT-MARKATOS-2017"]
+        },
+        {
+          "kind": "circulation",
+          "observed": "Las figuras vesalianas fueron copiadas con fidelidad variable; Valverde alcanzó numerosas ediciones y varias lenguas.",
+          "inference": "La copia amplió alcance y también alteró contenido, crédito y autoridad.",
+          "limit": "Más ediciones no prueban adopción uniforme ni consecuencias clínicas inmediatas.",
+          "claimIds": ["CLAIM-MED-ANAT-VALVERDE-CIRCULATION-001", "CLAIM-MED-ANAT-PRINT-NONUNIFORM-001"],
+          "evidenceIds": ["EVID-MED-ANAT-VESALIUS-WORKSHOP-001", "EVID-MED-ANAT-VALVERDE-EDITIONS-001"],
+          "sourceIds": ["SRC-MED-ANAT-LANSKA-2013", "SRC-MED-ANAT-VALVERDE-LOC", "SRC-MED-ANAT-MARKATOS-2017"]
+        }
+      ]
+    },
+    {
+      "id": "new-spain-1576-1646",
+      "title": "Nueva España · autopsia, manual, cátedra y disección",
+      "region": "Ciudad de México · 1576–1646",
+      "archive": "Relatos historiográficos, Suma y recopilación de cirugía, universidad, hospital y acto docente",
+      "layers": [
+        {
+          "kind": "body",
+          "observed": "Una apertura post mortem durante la epidemia de 1576 y una disección docente de 1646 se atribuyen a contextos, objetivos y cuerpos diferentes.",
+          "inference": "Puede reconstruirse acceso institucional a cadáveres en momentos delimitados.",
+          "limit": "La etiqueta primera cambia si el producto es autopsia causal, anatomía docente o práctica americana completa.",
+          "claimIds": ["CLAIM-MED-ANAT-NS-AUTOPSY-1576-001", "CLAIM-MED-ANAT-NS-DISSECTION-1646-001"],
+          "evidenceIds": ["EVID-MED-ANAT-NS-AUTOPSY-001", "EVID-MED-ANAT-NS-INSTITUTION-001"],
+          "sourceIds": ["SRC-MED-ANAT-RODRIGUEZ-SALA-2006", "SRC-MED-ANAT-UNAM-ANATOMY"]
+        },
+        {
+          "kind": "procedure",
+          "observed": "La apertura de 1576 buscó causas de una epidemia; la sesión de 1646 tuvo marco docente y judicial.",
+          "inference": "Autopsia, disección anatómica y demostración pública son operaciones históricas distintas.",
+          "limit": "Abrir un cuerpo no indica por sí solo protocolo, cobertura, hallazgo o repetición.",
+          "claimIds": ["CLAIM-MED-ANAT-NS-PROCEDURE-001"],
+          "evidenceIds": ["EVID-MED-ANAT-NS-AUTOPSY-001", "EVID-MED-ANAT-NS-INSTITUTION-001"],
+          "sourceIds": ["SRC-MED-ANAT-RODRIGUEZ-SALA-2006", "SRC-MED-ANAT-UNAM-ANATOMY"]
+        },
+        {
+          "kind": "image",
+          "observed": "La edición de 1578 conserva portada e iniciales xilográficas, no una serie anatómica equivalente a la Fabrica.",
+          "inference": "La imprenta médica novohispana circuló cirugía y sangría sin depender de un atlas profusamente ilustrado.",
+          "limit": "Ausencia de láminas anatómicas en este libro no demuestra ausencia de imágenes, cuerpos o enseñanza en la región.",
+          "claimIds": ["CLAIM-MED-ANAT-NS-PRINT-1578-001"],
+          "evidenceIds": ["EVID-MED-ANAT-NS-PRINT-001"],
+          "sourceIds": ["SRC-MED-ANAT-PRIMEROS-LIBROS-1578"]
+        },
+        {
+          "kind": "text",
+          "observed": "La Suma de Alonso López de Hinojosos se imprimió en México en 1578 como manual de cirugía, sangría y remedios.",
+          "inference": "Un impreso local articuló saber quirúrgico europeo y recursos novohispanos para lectores no idénticos a una facultad italiana.",
+          "limit": "Manual prescriptivo no prueba quién lo leyó, qué ejecutó o qué resultado obtuvo.",
+          "claimIds": ["CLAIM-MED-ANAT-NS-PRINT-1578-001"],
+          "evidenceIds": ["EVID-MED-ANAT-NS-PRINT-001"],
+          "sourceIds": ["SRC-MED-ANAT-PRIMEROS-LIBROS-1578", "SRC-MED-ANAT-CORDERO-1997"]
+        },
+        {
+          "kind": "comparison",
+          "observed": "El manual conserva lógica escolástica y añade experiencia y materia médica local; la universidad institucionalizó cátedras en fechas posteriores.",
+          "inference": "Texto, práctica hospitalaria y currículo pueden solaparse sin ser la misma cadena.",
+          "limit": "No demostrado: que las observaciones de 1576 generaran directamente cada pasaje de 1578 o la disección de 1646.",
+          "claimIds": ["CLAIM-MED-ANAT-NS-PRINT-1578-001", "CLAIM-MED-ANAT-NS-CHAIR-1620-001"],
+          "evidenceIds": ["EVID-MED-ANAT-NS-PRINT-001", "EVID-MED-ANAT-NS-INSTITUTION-001"],
+          "sourceIds": ["SRC-MED-ANAT-CORDERO-1997", "SRC-MED-ANAT-MARTINEZ-2011"]
+        },
+        {
+          "kind": "correction",
+          "observed": "Las fuentes atribuyen observaciones post mortem y fisiológicas a López, pero no preservan una serie replicada comparable a un atlas.",
+          "inference": "Pueden estudiarse observaciones situadas sin inflarlas a revolución anatómica total.",
+          "limit": "Autopsia aislada o afirmación fisiológica no equivale a corrección establecida.",
+          "claimIds": ["CLAIM-MED-ANAT-NS-AUTOPSY-1576-001", "CLAIM-MED-ANAT-DISSECTION-NONAUTOMATIC-001"],
+          "evidenceIds": ["EVID-MED-ANAT-NS-AUTOPSY-001"],
+          "sourceIds": ["SRC-MED-ANAT-RODRIGUEZ-SALA-2006"]
+        },
+        {
+          "kind": "circulation",
+          "observed": "El impreso de 1578, las ediciones posteriores y las cátedras conectaron hospital, lectores, universidad y territorio.",
+          "inference": "La anatomía circuló mediante manuales, instituciones y actos, no sólo mediante grandes atlas europeos.",
+          "limit": "Existencia de libro o cátedra no mide tiraje, asistencia, cobertura o práctica clínica.",
+          "claimIds": ["CLAIM-MED-ANAT-NS-CHAIR-1620-001", "CLAIM-MED-ANAT-NS-DISSECTION-1646-001", "CLAIM-MED-ANAT-PRINT-NONUNIFORM-001"],
+          "evidenceIds": ["EVID-MED-ANAT-NS-PRINT-001", "EVID-MED-ANAT-NS-INSTITUTION-001"],
+          "sourceIds": ["SRC-MED-ANAT-UNAM-ANATOMY", "SRC-MED-ANAT-MARTINEZ-2011"]
+        }
+      ]
+    },
+    {
+      "id": "itaki-ottoman-1632",
+      "title": "Itâkî otomano · síntesis manuscrita entre tradiciones",
+      "region": "Estambul otomano · ca. 1632",
+      "archive": "Teşrîh-i Ebdân, copias de Süleymaniye, ilustraciones y terminología otomano-turca",
+      "layers": [
+        {
+          "kind": "body",
+          "observed": "No existe evidencia firme de una disección humana otomana vinculada a la composición del manuscrito.",
+          "inference": "El libro documenta saber anatómico aunque el cuerpo que lo sustentó no sea recuperable.",
+          "limit": "Ausencia de acta no prueba prohibición total ni la figura prueba disección local.",
+          "claimIds": ["CLAIM-MED-ANAT-ITAKI-DISSECTION-UNKNOWN-001"],
+          "evidenceIds": ["EVID-MED-ANAT-ITAKI-MANUSCRIPT-001"],
+          "sourceIds": ["SRC-MED-ANAT-BAHSI-2019", "SRC-MED-ANAT-AKDOGAN-2025"]
+        },
+        {
+          "kind": "procedure",
+          "observed": "El texto describe estructuras y funciones, pero no conserva una sesión de disección que pueda reproducirse.",
+          "inference": "La operación principal observable es compilar, traducir, comparar y dibujar.",
+          "limit": "No debe traducirse automáticamente teşrîh como prueba de corte corporal efectivo.",
+          "claimIds": ["CLAIM-MED-ANAT-ITAKI-DISSECTION-UNKNOWN-001", "CLAIM-MED-ANAT-ITAKI-DATE-001"],
+          "evidenceIds": ["EVID-MED-ANAT-ITAKI-MANUSCRIPT-001"],
+          "sourceIds": ["SRC-MED-ANAT-BAHSI-2019"]
+        },
+        {
+          "kind": "image",
+          "observed": "Unas figuras se parecen a la serie de Mansur, otras a Vesalio o Valverde y otras son propias, en especial del sistema nervioso.",
+          "inference": "El manuscrito es una síntesis visual con genealogías múltiples.",
+          "limit": "Parecido no identifica siempre ejemplar, intermediario o dirección exacta de copia.",
+          "claimIds": ["CLAIM-MED-ANAT-ITAKI-COMPOSITE-001", "CLAIM-MED-ANAT-IMAGE-MEDIATION-001"],
+          "evidenceIds": ["EVID-MED-ANAT-ITAKI-GENEALOGY-001"],
+          "sourceIds": ["SRC-MED-ANAT-BAHSI-2019", "SRC-MED-ANAT-BAHSI-NERVES-2017"]
+        },
+        {
+          "kind": "text",
+          "observed": "El manuscrito articula términos turcos con equivalentes árabes y persas y ordena huesos, órganos, nervios, músculos y vasos.",
+          "inference": "La traducción creó vocabulario y una interfaz pedagógica propia.",
+          "limit": "Equivalencia terminológica no garantiza equivalencia conceptual o anatómica exacta.",
+          "claimIds": ["CLAIM-MED-ANAT-ITAKI-TERMINOLOGY-001"],
+          "evidenceIds": ["EVID-MED-ANAT-ITAKI-TERMS-001"],
+          "sourceIds": ["SRC-MED-ANAT-BAHSI-2019", "SRC-MED-ANAT-AKDOGAN-2025"]
+        },
+        {
+          "kind": "comparison",
+          "observed": "Itâkî reunió a Aristóteles, Galeno, Avicena, Mansur, Vesalio y Valverde dentro de un solo manuscrito.",
+          "inference": "Comparar tradiciones no fue monopolio de la imprenta latina.",
+          "limit": "Lista de autoridades no demuestra acceso directo a cada edición ni peso igual de cada fuente.",
+          "claimIds": ["CLAIM-MED-ANAT-ITAKI-COMPOSITE-001"],
+          "evidenceIds": ["EVID-MED-ANAT-ITAKI-GENEALOGY-001"],
+          "sourceIds": ["SRC-MED-ANAT-BAHSI-2019", "SRC-MED-ANAT-AKDOGAN-2025"]
+        },
+        {
+          "kind": "correction",
+          "observed": "Algunas descripciones nerviosas pueden mapearse a estructuras actuales y otras no; el autor formuló razonamientos funcionales contrafactuales.",
+          "inference": "La síntesis incluyó selección y razonamiento, no simple reproducción.",
+          "limit": "Evaluar con nomenclatura actual no reconstruye automáticamente el concepto del siglo XVII.",
+          "claimIds": ["CLAIM-MED-ANAT-ITAKI-TERMINOLOGY-001", "CLAIM-MED-ANAT-ITAKI-COMPOSITE-001"],
+          "evidenceIds": ["EVID-MED-ANAT-ITAKI-TERMS-001"],
+          "sourceIds": ["SRC-MED-ANAT-BAHSI-NERVES-2017", "SRC-MED-ANAT-AKDOGAN-2025"]
+        },
+        {
+          "kind": "circulation",
+          "observed": "El tratado circuló como manuscrito ilustrado en copias conservadas, no como edición impresa masiva en 1632.",
+          "inference": "Manuscrito e imprenta coexistieron como tecnologías de alcance y control distintos.",
+          "limit": "Copias sobrevivientes no equivalen al número original, lectores o uso docente.",
+          "claimIds": ["CLAIM-MED-ANAT-ITAKI-CIRCULATION-001", "CLAIM-MED-ANAT-PRINT-NONUNIFORM-001"],
+          "evidenceIds": ["EVID-MED-ANAT-ITAKI-MANUSCRIPT-001"],
+          "sourceIds": ["SRC-MED-ANAT-BAHSI-2019", "SRC-MED-ANAT-AKDOGAN-2025"]
+        }
+      ]
+    },
+    {
+      "id": "kaitai-shinsho-1771-1826",
+      "title": "Kaitai Shinsho · cuerpo, traducción y revisión",
+      "region": "Edo, Japón · 1771–1826",
+      "archive": "Disección de Kozukappara, Kulmus neerlandés, edición de 1774, memorias y revisión de Ōtsuki",
+      "layers": [
+        {
+          "kind": "body",
+          "observed": "Sugita, Maeno y colegas presenciaron en 1771 la disección de una mujer ejecutada en Kozukappara.",
+          "inference": "Un cuerpo judicialmente disponible permitió contrastar figuras importadas con estructuras visibles.",
+          "limit": "La biografía póstuma, el género y la condición penal exigen distinguir memoria, persona y demostración.",
+          "claimIds": ["CLAIM-MED-ANAT-JAPAN-BODY-1771-001", "CLAIM-MED-ANAT-BODIES-POWER-001"],
+          "evidenceIds": ["EVID-MED-ANAT-JAPAN-DISSECTION-001"],
+          "sourceIds": ["SRC-MED-ANAT-MICHEL-2018", "SRC-MED-ANAT-NAGOYA-KAITAI"]
+        },
+        {
+          "kind": "procedure",
+          "observed": "Los traductores observaron una demostración realizada por un disector y compararon el cuerpo con Ontleedkundige Tafelen.",
+          "inference": "El procedimiento fue colectivo: ejecución, acceso, corte, mirada, libro y discusión.",
+          "limit": "Presenciar una sesión no equivale a dominar técnica, variación o repetibilidad.",
+          "claimIds": ["CLAIM-MED-ANAT-JAPAN-BODY-1771-001"],
+          "evidenceIds": ["EVID-MED-ANAT-JAPAN-DISSECTION-001"],
+          "sourceIds": ["SRC-MED-ANAT-MICHEL-2018", "SRC-MED-ANAT-NAGOYA-KAITAI"]
+        },
+        {
+          "kind": "image",
+          "observed": "Odano Naotake adaptó modelos europeos; portada y láminas tienen genealogías que no proceden de un solo cuerpo japonés.",
+          "inference": "La imagen traducida pudo orientar la mirada y adquirir autoridad local.",
+          "limit": "Concordancia visual no prueba que cada detalle fuera observado en 1771.",
+          "claimIds": ["CLAIM-MED-ANAT-JAPAN-IMAGE-001", "CLAIM-MED-ANAT-IMAGE-MEDIATION-001"],
+          "evidenceIds": ["EVID-MED-ANAT-JAPAN-BOOK-001"],
+          "sourceIds": ["SRC-MED-ANAT-NDL-KAITAI", "SRC-MED-ANAT-MICHEL-2018"]
+        },
+        {
+          "kind": "text",
+          "observed": "Kaitai Shinsho tradujo al japonés una edición neerlandesa de Kulmus y acuñó vocabulario bajo dominio lingüístico incompleto.",
+          "inference": "Traducir produjo términos, comunidad y problemas nuevos, no una transferencia transparente.",
+          "limit": "Autor tradicional, traductor, revisor, ilustrador y editor no son el mismo agente.",
+          "claimIds": ["CLAIM-MED-ANAT-JAPAN-TRANSLATION-001"],
+          "evidenceIds": ["EVID-MED-ANAT-JAPAN-BOOK-001"],
+          "sourceIds": ["SRC-MED-ANAT-NDL-KAITAI", "SRC-MED-ANAT-MICHEL-2018"]
+        },
+        {
+          "kind": "comparison",
+          "observed": "La comparación de 1771 fue posible tras décadas de anatomía japonesa, contactos neerlandeses, libros y disecciones anteriores.",
+          "inference": "El episodio fue un nodo de una prehistoria local y transregional.",
+          "limit": "No fue el nacimiento absoluto de observar el cuerpo en Japón.",
+          "claimIds": ["CLAIM-MED-ANAT-JAPAN-PREHISTORY-001"],
+          "evidenceIds": ["EVID-MED-ANAT-JAPAN-PREHISTORY-001"],
+          "sourceIds": ["SRC-MED-ANAT-MICHEL-2018"]
+        },
+        {
+          "kind": "correction",
+          "observed": "La traducción de 1774 contenía errores y omisiones; Ōtsuki publicó una revisión más exacta y amplia en 1826.",
+          "inference": "La corrección dependió de aprendizaje lingüístico, nuevas ediciones y revisión intergeneracional.",
+          "limit": "Una edición posterior no corrige automáticamente cada término o práctica.",
+          "claimIds": ["CLAIM-MED-ANAT-JAPAN-REVISION-001", "CLAIM-MED-ANAT-JAPAN-TRANSLATION-001"],
+          "evidenceIds": ["EVID-MED-ANAT-JAPAN-REVISION-001"],
+          "sourceIds": ["SRC-MED-ANAT-MICHEL-2018", "SRC-MED-ANAT-NAGOYA-KAITAI"]
+        },
+        {
+          "kind": "circulation",
+          "observed": "La edición de 1774 circuló en cinco volúmenes y se volvió referencia para rangaku; su revisión apareció décadas después.",
+          "inference": "La imprenta estabilizó provisionalmente un vocabulario y una red de estudio.",
+          "limit": "Impreso influyente no significa adopción nacional inmediata ni reemplazo de todas las tradiciones.",
+          "claimIds": ["CLAIM-MED-ANAT-JAPAN-PRINT-001", "CLAIM-MED-ANAT-JAPAN-REVISION-001"],
+          "evidenceIds": ["EVID-MED-ANAT-JAPAN-BOOK-001", "EVID-MED-ANAT-JAPAN-REVISION-001"],
+          "sourceIds": ["SRC-MED-ANAT-NDL-KAITAI", "SRC-MED-ANAT-MICHEL-2018", "SRC-MED-ANAT-NDL-EXHIBITION"]
+        }
+      ]
+    },
+    {
+      "id": "qing-forensics-wang-1742-1830",
+      "title": "Qing y Wang Qingren · anatomía sin una sola vía",
+      "region": "China Qing · 1742–1830",
+      "archive": "Golden Mirror, diagramas forenses, manuales de trauma, cadáveres expuestos y Yilin gaicuo",
+      "layers": [
+        {
+          "kind": "body",
+          "observed": "Wang Qingren describió cadáveres expuestos en cementerios y lugares de ejecución; médicos forenses y traumatólogos trabajaron con otros cuerpos y signos.",
+          "inference": "El interior pudo investigarse mediante observación oportunista, inquestas y experiencia clínica.",
+          "limit": "Cadáver expuesto no equivale a disección sistemática, cuerpo sano o muestra representativa.",
+          "claimIds": ["CLAIM-MED-ANAT-QING-WANG-CORPSES-001", "CLAIM-MED-ANAT-QING-NONDISSECTION-001"],
+          "evidenceIds": ["EVID-MED-ANAT-QING-WANG-001", "EVID-MED-ANAT-QING-FORENSICS-001"],
+          "sourceIds": ["SRC-MED-ANAT-WU-2015", "SRC-MED-ANAT-WANG-CTEXT"]
+        },
+        {
+          "kind": "procedure",
+          "observed": "Inquestas oficiales inspeccionaban lesiones y huesos; Wang observó restos; traumatólogos palpaban, reducían y comparaban estructuras ocultas.",
+          "inference": "Hubo varias operaciones para inferir anatomía del vivo desde muertos, lesiones y superficie.",
+          "limit": "Ninguna operación aislada entrega automáticamente topografía completa o función.",
+          "claimIds": ["CLAIM-MED-ANAT-QING-FORENSIC-001", "CLAIM-MED-ANAT-QING-TRAUMA-001", "CLAIM-MED-ANAT-QING-NONDISSECTION-001"],
+          "evidenceIds": ["EVID-MED-ANAT-QING-FORENSICS-001", "EVID-MED-ANAT-QING-TRAUMA-001"],
+          "sourceIds": ["SRC-MED-ANAT-WU-2015"]
+        },
+        {
+          "kind": "image",
+          "observed": "El gobierno Qing difundió diagramas de inspección de cadáver y esqueleto; Yilin gaicuo incluyó diagramas viscerales.",
+          "inference": "Las imágenes estandarizaron preguntas legales y médicas distintas.",
+          "limit": "Diagrama normativo no es cuerpo individual ni confirma precisión anatómica completa.",
+          "claimIds": ["CLAIM-MED-ANAT-QING-FORENSIC-001", "CLAIM-MED-ANAT-QING-YILIN-1830-001"],
+          "evidenceIds": ["EVID-MED-ANAT-QING-FORENSICS-001", "EVID-MED-ANAT-QING-PRINT-001"],
+          "sourceIds": ["SRC-MED-ANAT-WU-2015", "SRC-MED-ANAT-WANG-CTEXT"]
+        },
+        {
+          "kind": "text",
+          "observed": "El Golden Mirror de 1742, manuales de trauma de 1808/1818 y Yilin gaicuo de 1830 pertenecen a géneros y autoridades diferentes.",
+          "inference": "Ley, clínica, comentario y corrección compartieron información sin fundirse en un canon único.",
+          "limit": "Fecha de impresión no demuestra circulación igual, aplicación oficial o consenso.",
+          "claimIds": ["CLAIM-MED-ANAT-QING-TRAUMA-001", "CLAIM-MED-ANAT-QING-YILIN-1830-001"],
+          "evidenceIds": ["EVID-MED-ANAT-QING-TRAUMA-001", "EVID-MED-ANAT-QING-PRINT-001"],
+          "sourceIds": ["SRC-MED-ANAT-WU-2015", "SRC-MED-ANAT-WANG-MUSEUM"]
+        },
+        {
+          "kind": "comparison",
+          "observed": "Wang confrontó descripciones heredadas con cuerpos observados; Qian y Hu combinaron experiencia, Golden Mirror y diagramas forenses.",
+          "inference": "La investigación anatómica china incluyó crítica textual y cruces entre medicina y ley.",
+          "limit": "No debe leerse sólo como imitación retrasada de un itinerario europeo.",
+          "claimIds": ["CLAIM-MED-ANAT-QING-CORRECTION-001", "CLAIM-MED-ANAT-QING-NONDISSECTION-001"],
+          "evidenceIds": ["EVID-MED-ANAT-QING-WANG-001", "EVID-MED-ANAT-QING-TRAUMA-001"],
+          "sourceIds": ["SRC-MED-ANAT-WU-2015", "SRC-MED-ANAT-ANDREWS-1991"]
+        },
+        {
+          "kind": "correction",
+          "observed": "Wang corrigió varias disposiciones heredadas y propuso otras inferencias que siguieron discutidas o fueron inexactas.",
+          "inference": "Observar y corregir son operaciones separadas que requieren repetición, comparación y alcance explícito.",
+          "limit": "Rechazar una autoridad no valida automáticamente la alternativa.",
+          "claimIds": ["CLAIM-MED-ANAT-QING-CORRECTION-001", "CLAIM-MED-ANAT-DISSECTION-NONAUTOMATIC-001"],
+          "evidenceIds": ["EVID-MED-ANAT-QING-WANG-001"],
+          "sourceIds": ["SRC-MED-ANAT-ANDREWS-1991", "SRC-MED-ANAT-WANG-CTEXT"]
+        },
+        {
+          "kind": "circulation",
+          "observed": "Normas forenses imperiales, manuales impresos, manuscritos terapéuticos y Yilin gaicuo crearon redes diferentes.",
+          "inference": "La circulación depende de institución, género, copia, autoridad y audiencia.",
+          "limit": "Texto conservado no mide cobertura territorial, lectura práctica o efecto terapéutico.",
+          "claimIds": ["CLAIM-MED-ANAT-QING-YILIN-1830-001", "CLAIM-MED-ANAT-PRINT-NONUNIFORM-001"],
+          "evidenceIds": ["EVID-MED-ANAT-QING-PRINT-001", "EVID-MED-ANAT-QING-FORENSICS-001"],
+          "sourceIds": ["SRC-MED-ANAT-WU-2015", "SRC-MED-ANAT-WANG-MUSEUM"]
+        }
+      ]
+    }
+  ]
+}
