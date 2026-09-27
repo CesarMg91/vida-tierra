@@ -16,7 +16,8 @@
     "validate:data": "node scripts/validate-public-data.mjs",
     "normalize:frontmatter": "node scripts/normalize-research-frontmatter.mjs",
     "typecheck": "tsc --noEmit",
-    "test": "node --experimental-strip-types --test --test-concurrency=1 tests/*.test.mts"
+    "test": "node --experimental-strip-types --test --test-concurrency=1 tests/*.test.mts",
+    "medios": "node e2e/medios/run.mjs"
   },
   "dependencies": {
     "@fontsource/ibm-plex-mono": "^5.3.0",
@@ -45,6 +46,7 @@
     "world-atlas": "^2.0.2"
   },
   "devDependencies": {
+    "@playwright/test": "^1.63.0",
     "@types/d3-geo": "^3.1.1",
     "@types/node": "^26.2.0",
     "@types/react": "^19.2.18",
