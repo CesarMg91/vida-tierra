@@ -3,9 +3,31 @@
 import Link from "next/link";
 import { ArrowRight, BookOpenText, FileSearch, Link2, TriangleAlert } from "lucide-react";
 import { useId, useState } from "react";
-import type { PerceptionRealityEvidenceData, PerceptionRealityLayerKind } from "../lib/perception-reality-evidence";
+import type { PerceptionRealityLayer, PerceptionRealityLayerKind } from "../lib/perception-reality-evidence";
 
-const labels: Record<PerceptionRealityLayerKind, string> = {
+// Cualquier expediente CON con las seis capas: percepción (CON-001), espacio-tiempo (CON-002)…
+export type ConsciousnessLabData = {
+  researchSlug: string;
+  cases: { id: string; title: string; product: string; stance: string; layers: PerceptionRealityLayer[] }[];
+};
+
+export type ConsciousnessLabCopy = {
+  dossier: string;
+  emptyText: string;
+  firstLayer: string;
+  footerTitle: string;
+  footerText: string;
+};
+
+const perceptionCopy: ConsciousnessLabCopy = {
+  dossier: "CON-001",
+  emptyText: "No hay un expediente cargado. Es un estado vacío, no evidencia a favor ni en contra de que la percepción refleje la realidad.",
+  firstLayer: "Sistema",
+  footerTitle: "Un teorema sobre pagos no es una tesis sobre lo que existe.",
+  footerText: "Sistema, resultado, alcance, interpretación, salto metafísico y prueba permanecen separados antes de concluir si la percepción refleja la realidad.",
+};
+
+const baseLabels: Record<PerceptionRealityLayerKind, string> = {
   system: "Sistema",
   result: "Resultado",
   scope: "Alcance",
@@ -14,7 +36,8 @@ const labels: Record<PerceptionRealityLayerKind, string> = {
   test: "Prueba",
 };
 
-export default function PerceptionRealityLab({ data }: { data: PerceptionRealityEvidenceData }) {
+export default function PerceptionRealityLab({ data, copy = perceptionCopy }: { data: ConsciousnessLabData; copy?: ConsciousnessLabCopy }) {
+  const labels = { ...baseLabels, system: copy.firstLayer };
   const [selectedId, setSelectedId] = useState(data.cases[0]?.id ?? "");
   const selectId = useId();
   const selected = data.cases.find((item) => item.id === selectedId) ?? data.cases[0];
@@ -23,7 +46,7 @@ export default function PerceptionRealityLab({ data }: { data: PerceptionReality
     return (
       <div className="clinical-empty" role="status">
         <TriangleAlert aria-hidden="true" />
-        <p>No hay un expediente cargado. Es un estado vacío, no evidencia a favor ni en contra de que la percepción refleje la realidad.</p>
+        <p>{copy.emptyText}</p>
       </div>
     );
   }
@@ -43,7 +66,7 @@ export default function PerceptionRealityLab({ data }: { data: PerceptionReality
         </dl>
       </div>
 
-      <ol className="clinical-chain" aria-label={`Cadena desde el sistema hasta la prueba para ${selected.title}`}>
+      <ol className="clinical-chain" aria-label={`Cadena de seis capas, de ${labels.system.toLowerCase()} a prueba, para ${selected.title}`}>
         {selected.layers.map((layer, index) => (
           <li key={layer.kind}>
             <header><span>{String(index + 1).padStart(2, "0")}</span><h3>{labels[layer.kind]}</h3></header>
@@ -63,10 +86,10 @@ export default function PerceptionRealityLab({ data }: { data: PerceptionReality
 
       <footer className="clinical-lab-footer">
         <div>
-          <strong>Un teorema sobre pagos no es una tesis sobre lo que existe.</strong>
-          <p>Sistema, resultado, alcance, interpretación, salto metafísico y prueba permanecen separados antes de concluir si la percepción refleja la realidad.</p>
+          <strong>{copy.footerTitle}</strong>
+          <p>{copy.footerText}</p>
         </div>
-        <Link className="button button-primary" href={`/${data.researchSlug}`}>Abrir CON-001 <ArrowRight aria-hidden="true" /></Link>
+        <Link className="button button-primary" href={`/${data.researchSlug}`}>Abrir {copy.dossier} <ArrowRight aria-hidden="true" /></Link>
       </footer>
     </div>
   );

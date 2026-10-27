@@ -249,9 +249,12 @@ Entregas públicas: MED-001 = `v0.3.0`; MED-002 = `v0.3.1`; MED-003 = `v0.3.2`; 
 | Orden | ID | Investigación | Estado |
 |---|---|---|---|
 | CON-001 | `INV-CON-PERCEPTION-REALITY-001` | [Percepción y realidad: sistema, resultado, alcance, interpretación, salto metafísico y prueba](26_conciencia/INVESTIGACION_CON_001_PERCEPCION_REALIDAD.md) | **AUDITADO** |
+| CON-002 | `INV-CON-SPACETIME-FUNDAMENTAL-002` | [Espacio-tiempo fundamental: modelo, resultado, alcance, interpretación, salto metafísico y prueba](26_conciencia/INVESTIGACION_CON_002_ESPACIO_TIEMPO.md) | **AUDITADO** |
 
 CON es la única línea cuyo objeto es el propio observador. CON-001 audita el teorema «la aptitud le gana a la verdad», los juegos de interfaz y sus críticas, y separa lo demostrado dentro de modelos de la tesis sobre espacio-tiempo y objetos. El programa CON-002–CON-005 está en [PROGRAMA_CONCIENCIA.md](26_conciencia/PROGRAMA_CONCIENCIA.md), con contrato común en [ESTANDAR_EVIDENCIA_CONCIENCIA.md](26_conciencia/ESTANDAR_EVIDENCIA_CONCIENCIA.md). CIV y MED conservan su numeración y programa.
 
-La siguiente investigación prevista es CON-002: si el espacio-tiempo es fundamental, auditada con la física publicada e independientemente de cualquier tesis sobre la conciencia.
+CON-002 audita si el espacio-tiempo es fundamental con la física publicada: entropía de agujeros negros, holografía, AdS/CFT, geometría y entrelazamiento, el amplituedro, programas discretos y las pruebas de Lorentz, el Holometer y GW170817. Concluye que la pregunta sigue abierta y que «emergente» no es «ilusorio».
 
-Entregas públicas: CON-001 = `v0.4.0`.
+La siguiente investigación prevista es CON-003: si la conciencia puede ser lo fundamental, comparando realismo consciente, idealismo, panpsiquismo, información integrada y fisicalismo.
+
+Entregas públicas: CON-001 = `v0.4.0`; CON-002 = `v0.4.1`.

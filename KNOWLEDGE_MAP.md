@@ -1785,3 +1785,16 @@ Véase 15_medicina/INVESTIGACION_MED_019_HOSPITALES_CABECERA_EXAMEN_CLINICO.md, 
 - `CLAIM-CON-PERC-ITP-LEAP-001` impide pasar de «pago no homomórfico» a «espacio-tiempo inexistente» sin premisas adicionales.
 
 Véase 26_conciencia/INVESTIGACION_CON_001_PERCEPCION_REALIDAD.md, 22_mapas_epistemologicos/MAPA_CON_001_PERCEPCION_REALIDAD.md y 21_cronologias/CRONOLOGIA_CON_001_PERCEPCION_REALIDAD.md.
+
+## CON-002 — Una reformulación no es una tesis sobre lo que existe
+
+- La entropía de agujeros negros separa resultado semiclásico, principio holográfico y teoría completa.
+- AdS/CFT separa conjetura verificada, constante cosmológica negativa y universo observado.
+- La geometría desde entrelazamiento separa derivación dentro de la correspondencia y validez fuera de ella.
+- El amplituedro separa interior eliminado del cálculo, datos de entrada espacio-temporales y predicciones iguales a las de la teoría usual.
+- Los programas discretos separan resultado en el formalismo, simulación y observación pendiente.
+- Las pruebas de Lorentz, el Holometer y GW170817 separan modelos descartados de la idea general de emergencia.
+- `CLAIM-CON-ST-EMERGENT-REAL-001` impide pasar de «emergente» a «ilusorio».
+- `CLAIM-CON-ST-HOFFMAN-LEAP-001` impide pasar de «espacio-tiempo no fundamental» a «conciencia fundamental» sin premisas adicionales.
+
+Véase 26_conciencia/INVESTIGACION_CON_002_ESPACIO_TIEMPO.md, 22_mapas_epistemologicos/MAPA_CON_002_ESPACIO_TIEMPO.md y 21_cronologias/CRONOLOGIA_CON_002_ESPACIO_TIEMPO.md.

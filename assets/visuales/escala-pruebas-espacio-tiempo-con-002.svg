@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Tres pruebas que llegan a la escala de Planck sin encontrar desviación</title>
+  <desc id="desc">Eje de energía de 1 a 10 elevado a 20 GeV: el fotón de 31 GeV de GRB 090510 está diecisiete órdenes de magnitud por debajo de la energía de Planck, pero la distancia recorrida amplifica el efecto y el límite a una violación lineal de Lorentz queda por encima de 7.6 veces esa energía. Tres paneles resumen los estallidos de rayos gamma, GW170817 y el Holometer.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#101a1f"/><stop offset="1" stop-color="#16282b"/></linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="160%"><feDropShadow dx="0" dy="12" stdDeviation="12" flood-color="#000" flood-opacity=".3"/></filter>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#e9b65c"/></marker>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <text x="92" y="92" fill="#8fd3c6" font-family="Arial, sans-serif" font-size="23" font-weight="700" letter-spacing="4">CON-002 · PRUEBAS OBSERVACIONALES</text>
+  <text x="92" y="152" fill="#f4f1e8" font-family="Georgia, serif" font-size="44" font-weight="700">La escala de Planck no es intocable</text>
+  <text x="92" y="198" fill="#c6d0cc" font-family="Arial, sans-serif" font-size="24">Ninguna prueba ha visto desviación; cada una descarta modelos concretos, no la idea general de emergencia.</text>
+  <line x1="120" y1="300" x2="1480" y2="300" stroke="#9fb0ab" stroke-width="2"/>
+  <line x1="120" y1="300" x2="120" y2="312" stroke="#9fb0ab" stroke-width="2"/>
+  <text x="120" y="340" text-anchor="middle" fill="#9fb0ab" font-family="Arial, sans-serif" font-size="19">10⁰ GeV</text>
+  <line x1="460" y1="300" x2="460" y2="312" stroke="#9fb0ab" stroke-width="2"/>
+  <text x="460" y="340" text-anchor="middle" fill="#9fb0ab" font-family="Arial, sans-serif" font-size="19">10⁵ GeV</text>
+  <line x1="800" y1="300" x2="800" y2="312" stroke="#9fb0ab" stroke-width="2"/>
+  <text x="800" y="340" text-anchor="middle" fill="#9fb0ab" font-family="Arial, sans-serif" font-size="19">10¹⁰ GeV</text>
+  <line x1="1140" y1="300" x2="1140" y2="312" stroke="#9fb0ab" stroke-width="2"/>
+  <text x="1140" y="340" text-anchor="middle" fill="#9fb0ab" font-family="Arial, sans-serif" font-size="19">10¹⁵ GeV</text>
+  <rect x="1417.9" y="252" width="62.1" height="48" fill="#d9785b" fill-opacity=".38"/>
+  <path d="M1477.8 290L1487.8 300L1477.8 310L1467.8 300Z" fill="#e9b65c"/>
+  <text x="1489.8" y="340" text-anchor="end" fill="#e9b65c" font-family="Arial, sans-serif" font-size="19">límite: más de 7.6 veces</text>
+  <circle cx="221.4" cy="300" r="10" fill="#e9b65c"/>
+  <text x="221.4" y="282" text-anchor="middle" fill="#f3e6cf" font-family="Arial, sans-serif" font-size="19">fotón de 31 GeV</text>
+  <line x1="1417.9" y1="232" x2="1417.9" y2="300" stroke="#f4f1e8" stroke-width="2" stroke-dasharray="6 5"/>
+  <text x="1405.9" y="226" text-anchor="end" fill="#f4f1e8" font-family="Arial, sans-serif" font-size="19">energía de Planck ≈ 1.2 × 10¹⁹ GeV</text>
+  <path d="M221.4 316 C 281.4 400, 1277.8 400, 1437.8 352" fill="none" stroke="#e9b65c" stroke-width="3" marker-end="url(#arrow)"/>
+  <text x="849.6" y="436" text-anchor="middle" fill="#e9b65c" font-family="Arial, sans-serif" font-size="20">la distancia cosmológica amplifica un retraso minúsculo: la prueba alcanza la escala de Planck</text>
+  <g filter="url(#shadow)"><rect x="92" y="470" width="420" height="300" rx="18" fill="#e8f1ee"/></g>
+  <text x="118" y="516" fill="#14201f" font-family="Georgia, serif" font-size="25" font-weight="700">Estallidos de rayos gamma</text>
+  <foreignObject x="118" y="534" width="368" height="190"><p xmlns="http://www.w3.org/1999/xhtml" style="margin:0;font:20px/1.4 Arial,sans-serif;color:#34403e">Fotones de energía muy distinta llegaron casi juntos tras miles de millones de años luz. Una violación lineal de Lorentz debe aparecer, si existe, por encima de 7.6 veces la energía de Planck.</p></foreignObject>
+  <text x="118" y="748" fill="#2f6f66" font-family="Arial, sans-serif" font-size="17">Fermi 2009; Vasileiou y col. 2013</text>
+  <g filter="url(#shadow)"><rect x="590" y="470" width="420" height="300" rx="18" fill="#e8f1ee"/></g>
+  <text x="616" y="516" fill="#14201f" font-family="Georgia, serif" font-size="25" font-weight="700">GW170817</text>
+  <foreignObject x="616" y="534" width="368" height="190"><p xmlns="http://www.w3.org/1999/xhtml" style="margin:0;font:20px/1.4 Arial,sans-serif;color:#34403e">Ondas gravitacionales y rayos gamma llegaron con 1.74 ± 0.05 s de diferencia. La velocidad de la gravedad y la de la luz difieren en menos de unas partes en 10¹⁵.</p></foreignObject>
+  <text x="616" y="748" fill="#2f6f66" font-family="Arial, sans-serif" font-size="17">LIGO, Virgo y Fermi 2017</text>
+  <g filter="url(#shadow)"><rect x="1088" y="470" width="420" height="300" rx="18" fill="#e8f1ee"/></g>
+  <text x="1114" y="516" fill="#14201f" font-family="Georgia, serif" font-size="25" font-weight="700">Holometer</text>
+  <foreignObject x="1114" y="534" width="368" height="190"><p xmlns="http://www.w3.org/1999/xhtml" style="margin:0;font:20px/1.4 Arial,sans-serif;color:#34403e">Dos interferómetros de 40 m buscaron temblores correlacionados de posición por debajo del tiempo de Planck. No los encontraron y acotaron modelos de ruido de cizalla.</p></foreignObject>
+  <text x="1114" y="748" fill="#2f6f66" font-family="Arial, sans-serif" font-size="17">Chou y col. 2016, 2017</text>
+  <text x="92" y="838" fill="#9fb0ab" font-family="Arial, sans-serif" font-size="19">Escala logarítmica. Franja sombreada: energías por encima de la de Planck. Los programas que conservan la invariancia de Lorentz no predicen estas señales.</text>
+</svg>

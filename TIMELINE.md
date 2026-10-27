@@ -931,3 +931,26 @@ CIV-003 inaugura los expedientes regionales auditados. CIV-001 conserva `TRAZADO
 | `TIME-CON-PERC-BERKE-2022-001` | 2022 | simulaciones con metas múltiples | contraejemplo dependiente de supuestos | `SRC-CON-PERC-BERKE-2022` | A publicación | AUDITADO |
 | `TIME-CON-PERC-BAGWELL-2023-001` | 2023 | objeción de autorrefutación en *Synthese* | crítica filosófica | `SRC-CON-PERC-BAGWELL-2023` | A publicación | AUDITADO |
 | `TIME-CON-PERC-MATTES-2026-001` | febrero de 2026 | «The Case Against The Case Against Reality» | simulaciones contrarias y crítica del paso inferencial | `SRC-CON-PERC-MATTES-2026` | A publicación en línea | AUDITADO |
+
+## CON-002 — Espacio-tiempo fundamental
+
+| ID | Fecha/rango | Evento | Producto | Fuentes | Confianza | Estado |
+|---|---|---|---|---|---|---|
+| `TIME-CON-ST-DEWITT-1967-001` | 1967 | teoría canónica de la gravedad cuántica | ecuación sin parámetro de tiempo externo | `SRC-CON-ST-DEWITT-1967` | A publicación | AUDITADO |
+| `TIME-CON-ST-BH-1973-001` | 1973–1975 | entropía de agujeros negros y radiación de Hawking | entropía proporcional al área | `SRC-CON-ST-BEKENSTEIN-1973`, `SRC-CON-ST-HAWKING-1975` | A publicación | AUDITADO |
+| `TIME-CON-ST-PAGE-1983-001` | 1983 | evolución sin evolución | tiempo como correlación con un reloj | `SRC-CON-ST-PAGE-1983` | A publicación | AUDITADO |
+| `TIME-CON-ST-PARKE-1986-001` | 1986 | fórmula de Parke-Taylor | amplitudes de gluones en una línea | `SRC-CON-ST-PARKE-1986` | A publicación | AUDITADO |
+| `TIME-CON-ST-CAUSAL-1987-001` | 1987 | espacio-tiempo como conjunto causal | propuesta discreta | `SRC-CON-ST-BOMBELLI-1987` | A publicación | AUDITADO |
+| `TIME-CON-ST-1995-001` | 1995 | principio holográfico, ecuación de estado de Einstein y espectros discretos de área | tres líneas teóricas el mismo año | `SRC-CON-ST-SUSSKIND-1995`, `SRC-CON-ST-JACOBSON-1995`, `SRC-CON-ST-ROVELLI-SMOLIN-1995` | A publicación | AUDITADO |
+| `TIME-CON-ST-ADSCFT-1998-001` | 1997 preimpresión; 1998 publicado | correspondencia AdS/CFT | primer ejemplo funcional de espacio emergente | `SRC-CON-ST-MALDACENA-1998`, `SRC-CON-ST-WITTEN-1998` | A publicación | AUDITADO |
+| `TIME-CON-ST-ACCELERATION-1998-001` | 1998–1999 | expansión acelerada del universo | constante cosmológica positiva | `SRC-CON-ST-RIESS-1998`, `SRC-CON-ST-PERLMUTTER-1999` | A publicación | AUDITADO |
+| `TIME-CON-ST-CDT-2004-001` | 2004 | cuatro dimensiones emergentes en triangulaciones causales | cálculo numérico | `SRC-CON-ST-AJL-2004` | A publicación | AUDITADO |
+| `TIME-CON-ST-RT-2006-001` | 2006 | fórmula de Ryu-Takayanagi | entrelazamiento como área | `SRC-CON-ST-RYU-2006` | A publicación | AUDITADO |
+| `TIME-CON-ST-FERMI-2009-001` | 2009 | fotón de 31 GeV de GRB 090510 | cota a la violación lineal de Lorentz | `SRC-CON-ST-FERMI-2009` | A publicación | AUDITADO |
+| `TIME-CON-ST-AMPLITUHEDRON-2013-001` | 2013 preimpresión; 2014 publicado | el amplituedro | localidad y unitariedad desde geometría positiva | `SRC-CON-ST-AMPLITUHEDRON-2014` | A publicación | AUDITADO |
+| `TIME-CON-ST-BELL-2015-001` | 2015 | Bell sin lagunas con espines a 1.3 km | exclusión del realismo local | `SRC-CON-ST-HENSEN-2015` | A publicación | AUDITADO |
+| `TIME-CON-ST-HOLOMETER-2016-001` | 2016–2017 | Holometer | cotas a ruido holográfico de cizalla | `SRC-CON-ST-HOLOMETER-2016`, `SRC-CON-ST-HOLOMETER-2017` | A publicación | AUDITADO |
+| `TIME-CON-ST-GW170817-001` | 17 de agosto de 2017 | ondas gravitacionales y rayos gamma de GW170817 | velocidad de la gravedad igual a la de la luz | `SRC-CON-ST-LIGO-2017` | A publicación | AUDITADO |
+| `TIME-CON-ST-ISLANDS-2019-001` | 2019–2020 | curva de Page desde superficies extremales cuánticas | derivación en modelos | `SRC-CON-ST-AEMM-2019`, `SRC-CON-ST-PENINGTON-2020` | A publicación | AUDITADO |
+| `TIME-CON-ST-FUSIONS-2023-001` | enero de 2023 | «Fusions of Consciousness» | uso de «el espacio-tiempo está condenado» en una tesis de la conciencia | `SRC-CON-ST-HOFFMAN-2023` | A publicación | AUDITADO |
+| `TIME-CON-ST-2025-001` | 2025 | conteo a todos los lazos y *Out of Nowhere* | amplitudes sin diagramas; funcionalismo del espacio-tiempo | `SRC-CON-ST-COUNTING-2025`, `SRC-CON-ST-HUGGETT-2025` | A publicación | AUDITADO |

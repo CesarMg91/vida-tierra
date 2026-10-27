@@ -218,6 +218,9 @@ La clasificación expresa cuánto restringe hoy la evidencia, no cuán interesan
 | `OPEN-CON-PERC-PAYOFFS-001` | ¿Qué estructura tienen las funciones de aptitud de organismos reales? | casi ninguna función genérica conserva estructura; ejemplos biológicos sugieren regularidades físicas | no hay medición sistemática de pagos reales | D |
 | `OPEN-CON-PERC-PREDICTION-001` | ¿Qué predicción separa la teoría de la interfaz del realismo crítico? | ambas explican fallas locales y percepción útil | la teoría no ha derivado una predicción nueva y discriminante | E |
 | `OPEN-CON-PERC-MODEL-CHOICE-001` | ¿Qué modelo de la vida de un organismo decide si la evolución favorece la veridicidad? | con una meta gana la interfaz; con muchas metas y percepción inflexible, la veridicidad | elegir supuestos es parte del problema | D |
+| `OPEN-CON-ST-DE-SITTER-001` | ¿Existe una descripción holográfica de un universo con constante cosmológica positiva como el nuestro? | AdS/CFT funciona con constante negativa; el universo observado la tiene positiva | no hay una correspondencia consistente y verificada para de Sitter | D |
+| `OPEN-CON-ST-POSITIVE-GRAVITY-001` | ¿Hay una geometría positiva para la gravedad o para teorías realistas que haga una predicción nueva? | el programa abarca N = 4 SYM planar, escalares y correladores cosmológicos simples | ninguna predicción distinta de la teoría de campos usual al corte | E |
+| `OPEN-CON-ST-OBSERVABLE-001` | ¿Qué observación podría mostrar que el espacio-tiempo es emergente? | las pruebas de Lorentz, el Holometer y las propuestas de entrelazamiento gravitacional acotan o probarían cosas distintas | los programas que conservan Lorentz no tienen firma observable clara | E |
 
 ## Tipos de “no sabemos”
 

@@ -1414,3 +1414,26 @@ Generada por el proyecto sin modelos de imagen: `node scripts/generate-con-visua
 ### Revisión y límites
 
 Ambas salidas se inspeccionaron completas tras rasterizar; se redujo el cuerpo de los títulos del diagrama para que «Interpretación» no se recortara. La portada no contiene texto, personas ni marcas. La metáfora visual (íconos sobre una estructura distinta) ilustra la tesis que el expediente audita; no la respalda.
+
+## 76. CON-002 — Una reformulación no es una tesis sobre lo que existe
+
+![Portada editorial de CON-002](assets/visuales/hero-con-002-espacio-tiempo.png)
+
+![Cadena desde el modelo hasta la prueba en física](assets/visuales/cadena-modelo-prueba-con-002.svg)
+
+![Tres pruebas que llegan a la escala de Planck sin encontrar desviación](assets/visuales/escala-pruebas-espacio-tiempo-con-002.svg)
+
+| Archivo | Tipo | Procedencia | Qué representa | Límite obligatorio |
+|---|---|---|---|---|
+| `hero-con-002-espacio-tiempo.png` | portada editorial generativa | rasterizado de `hero-con-002-espacio-tiempo.svg` con `scripts/generate-con-visuals.mjs --png=con-002`, 2026-10-27 | una cuadrícula lisa curvada que se interrumpe y sigue como puntos y facetas | no representa un resultado, un modelo, un dato ni una estructura física real; la curvatura no es una solución de las ecuaciones de Einstein |
+| `hero-con-002-espacio-tiempo.svg` | fuente generativa determinista | SVG producido por `scripts/generate-con-visuals.mjs` con semilla fija | misma composición en vectores | la disposición de puntos y triángulos es pseudoaleatoria y no codifica información |
+| `cadena-modelo-prueba-con-002.svg` | diagrama epistemológico original | SVG producido por `scripts/generate-con-visuals.mjs`, 2026-10-27 | modelo, resultado, alcance, interpretación, salto y prueba | las flechas no heredan nuestro universo, toda la física, ilusión, metafísica ni confirmación |
+| `escala-pruebas-espacio-tiempo-con-002.svg` | figura de evidencia original | SVG producido por `scripts/generate-con-visuals.mjs`, 2026-10-27, con cifras de `SRC-CON-ST-FERMI-2009`, `SRC-CON-ST-VASILEIOU-2013`, `SRC-CON-ST-LIGO-2017` y `SRC-CON-ST-HOLOMETER-2017` | eje logarítmico de energía con el fotón de 31 GeV, la energía de Planck y el límite de 7.6 veces; tres paneles de pruebas | la flecha ilustra que la distancia amplifica el efecto, no una cuenta a escala; sólo acota modelos con violación lineal de Lorentz o ruido de cizalla |
+
+### Procedencia de la portada
+
+Generada por el proyecto sin modelos de imagen: `node scripts/generate-con-visuals.mjs --png=con-002` escribe el SVG con una semilla fija y lo rasteriza con Chromium (Playwright) a `1672 × 941`. Tamaño: `963952` bytes; SHA-256: `49be976d78697c508f0806534dde03adb01d315a86e74ac6b21ff6efaf95791d`. La opción `--png=con-002` no reescribe la portada auditada de CON-001, cuyo SHA-256 se comprobó idéntico tras regenerar.
+
+### Revisión y límites
+
+Las tres salidas se inspeccionaron completas tras rasterizar. En la portada se corrigió un pliegue en el centro del pozo, donde las líneas se cruzaban; en la figura de pruebas, la flecha tapaba su propio texto y el límite chocaba con la etiqueta del eje. La portada no contiene texto, personas ni marcas. Las cifras de la figura de pruebas provienen de los resúmenes de las fuentes citadas y la energía de Planck se redondea a 1.2 × 10¹⁹ GeV.

@@ -1059,3 +1059,14 @@ La portada separa institución, cama, expediente, comparación, examen y decisi�
 | `cadena-modelo-prueba-con-001.svg` | `scripts/generate-con-visuals.mjs` | `1600 × 900` | código fuente versionado | seis capas inferenciales; no herencia automática |
 
 La portada no usa modelos de imagen: se regenera idéntica con `node scripts/generate-con-visuals.mjs --png`. Los SVG incluyen `title` y `desc`.
+
+## CON-002 — Espacio-tiempo fundamental
+
+| Archivo | Origen | Dimensiones | SHA-256 / trazabilidad | Límite |
+|---|---|---:|---|---|
+| `hero-con-002-espacio-tiempo.png` | rasterizado con Chromium desde el SVG generativo del proyecto, 2026-10-27 | `1672 × 941` | `49be976d78697c508f0806534dde03adb01d315a86e74ac6b21ff6efaf95791d` | composición abstracta; no representa resultado, modelo ni dato |
+| `hero-con-002-espacio-tiempo.svg` | `scripts/generate-con-visuals.mjs`, semilla fija | `1672 × 941` | código fuente versionado | puntos y triángulos pseudoaleatorios sin información |
+| `cadena-modelo-prueba-con-002.svg` | `scripts/generate-con-visuals.mjs` | `1600 × 900` | código fuente versionado | seis capas inferenciales; no herencia automática |
+| `escala-pruebas-espacio-tiempo-con-002.svg` | `scripts/generate-con-visuals.mjs` con cifras de fuentes registradas | `1600 × 900` | código fuente versionado | eje logarítmico; acota sólo los modelos que nombra |
+
+La portada no usa modelos de imagen: se regenera idéntica con `node scripts/generate-con-visuals.mjs --png=con-002`. Los SVG incluyen `title` y `desc`.

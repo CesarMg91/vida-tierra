@@ -4479,3 +4479,16 @@ Riesgo basal, alternativas y preferencias cambian el balance. **Corrección:** s
 | `ERR-CON-PERC-CONSTRUCTED-FALSE-001` | lo que el cerebro construye no puede ser verdadero | construcción e inferencia pueden ser correctas | medir exactitud frente a referencias independientes | ACTIVO |
 | `ERR-CON-PERC-INTERFACE-CONSCIOUSNESS-001` | si la percepción es interfaz, la conciencia es lo fundamental | son tesis distintas; la segunda requiere argumentos propios | auditar la tesis metafísica en su propio expediente | ACTIVO |
 | `ERR-CON-PERC-NAIVE-REALISM-001` | vemos el mundo exactamente como es | constancias incompletas, ilusiones y estímulos supernormales muestran límites | hablar de fiabilidad estructurada y de sus fallas | ACTIVO |
+
+## CON-002 — Espacio-tiempo fundamental
+
+| ID | Error | Por qué falla | Corrección operativa | Estado |
+|---|---|---|---|---|
+| `ERR-CON-ST-PHYSICS-PROVED-001` | la física demostró que el espacio-tiempo no existe | hay argumentos teóricos y modelos, no una teoría establecida de nuestro universo ni una observación | separar argumento, modelo, conjetura, observación e interpretación | ACTIVO |
+| `ERR-CON-ST-EMERGENT-ILLUSION-001` | si el espacio-tiempo es emergente, es una ilusión | la temperatura y los fluidos son emergentes y reales | declarar qué sentido de «fundamental» se niega | ACTIVO |
+| `ERR-CON-ST-HOLOGRAM-LITERAL-001` | el universo es un holograma | el ejemplo funcional de holografía vale para AdS, y nuestro universo tiene constante cosmológica positiva | nombrar el espacio y la teoría donde vale la correspondencia | ACTIVO |
+| `ERR-CON-ST-AMPLITUHEDRON-WORLD-001` | el amplituedro describe nuestro universo o predice algo nuevo | vale para N = 4 SYM planar y reproduce amplitudes ya calculables | declarar teoría, régimen y que las predicciones coinciden | ACTIVO |
+| `ERR-CON-ST-PIXELS-001` | el espacio está hecho de píxeles de Planck | ninguna granularidad se ha observado y las pruebas de Lorentz descartan muchos modelos de píxeles | distinguir propuestas discretas de observaciones | ACTIVO |
+| `ERR-CON-ST-BELL-SPACE-001` | Bell demostró que el espacio no existe | Bell excluye el realismo local, no la estructura espacio-temporal | nombrar qué supuesto descarta el experimento | ACTIVO |
+| `ERR-CON-ST-TIME-ILLUSION-001` | la física demostró que el tiempo es una ilusión | la ausencia de tiempo en Wheeler-DeWitt es un problema de formulación abierto | presentarlo como problema, no como conclusión | ACTIVO |
+| `ERR-CON-ST-DOOMED-CONSCIOUSNESS-001` | si el espacio-tiempo no es fundamental, la conciencia lo es | son tesis independientes; la física no introduce sujetos en lo que reemplaza al espacio-tiempo | auditar la tesis metafísica en su propio expediente | ACTIVO |
