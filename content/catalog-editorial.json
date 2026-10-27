@@ -10,6 +10,11 @@
       "label": "Medicina",
       "description": "Historia mundial y métodos para auditar cuidado, enfermedad, intervenciones, diagnóstico y decisiones sin consejo personal.",
       "route": "/medicina"
+    },
+    "CON": {
+      "label": "Conciencia y percepción",
+      "description": "Métodos para auditar qué garantiza la observación misma: percepción, conciencia y su relación con la física, separando teorema, simulación, hallazgo, interpretación y metafísica.",
+      "route": "/conciencia"
     }
   },
   "sectionDefaults": {
@@ -26,7 +31,8 @@
     "11_evolucion_humana": { "collection": "Humanidad", "era": "Pleistoceno", "themes": ["evolución humana", "arqueología"] },
     "13_migraciones": { "collection": "Humanidad", "era": "Pleistoceno tardío", "themes": ["migraciones", "genómica"] },
     "14_civilizaciones": { "collection": "Civilizaciones", "era": "Holoceno", "themes": ["arqueología", "historia social"] },
-    "15_medicina": { "collection": "Medicina", "era": "Historia y evidencia médica", "themes": ["historia de la medicina", "epidemiología clínica", "cirugía", "causalidad"] }
+    "15_medicina": { "collection": "Medicina", "era": "Historia y evidencia médica", "themes": ["historia de la medicina", "epidemiología clínica", "cirugía", "causalidad"] },
+    "26_conciencia": { "collection": "Conciencia", "era": "Percepción, mente y física", "themes": ["percepción", "conciencia", "filosofía de la ciencia", "evolución"] }
   },
   "records": {
     "001": { "shortTitle": "Edad de la Tierra", "status": "AUDITADO", "themes": ["geocronología", "meteoritos", "zircones"], "featured": true },
@@ -102,6 +108,7 @@
     "MED-004": { "shortTitle": "Mesopotamia y Nilo: del documento a la práctica", "status": "AUDITADO", "themes": ["historia de la medicina", "Mesopotamia", "Egipto antiguo", "papirología", "asiriología", "práctica médica"], "featured": true },
     "MED-003": { "shortTitle": "Orígenes: archivos, cuidado e intervención", "status": "AUDITADO", "themes": ["historia de la medicina", "paleopatología", "bioarqueología", "ADN antiguo", "cuidado"], "featured": true },
     "MED-002": { "shortTitle": "Cómo sabemos si una prueba ayuda a decidir", "status": "AUDITADO", "themes": ["diagnóstico", "sensibilidad", "sesgo", "utilidad clínica", "inteligencia artificial"], "featured": true },
-    "MED-001": { "shortTitle": "Cómo sabemos si una intervención funciona", "status": "AUDITADO", "themes": ["ensayos clínicos", "cirugía", "efectos", "daños", "aplicabilidad"], "featured": true }
+    "MED-001": { "shortTitle": "Cómo sabemos si una intervención funciona", "status": "AUDITADO", "themes": ["ensayos clínicos", "cirugía", "efectos", "daños", "aplicabilidad"], "featured": true },
+    "CON-001": { "shortTitle": "¿La percepción refleja la realidad?", "status": "AUDITADO", "themes": ["percepción", "teoría de la interfaz", "teoría de juegos evolutiva", "veridicidad", "Hoffman", "realismo"], "featured": true }
   }
 }

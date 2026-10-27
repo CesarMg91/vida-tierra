@@ -1772,3 +1772,16 @@ Véase 15_medicina/INVESTIGACION_MED_018_MICROSCOPIA_ANATOMIA_PATOLOGICA.md, 22_
 - `CLAIM-MED-CLINIC-NONRANKING-001` impide ordenar hospitales por antigüedad, camas, instrumentos, expedientes o parecido con la práctica contemporánea.
 
 Véase 15_medicina/INVESTIGACION_MED_019_HOSPITALES_CABECERA_EXAMEN_CLINICO.md, 22_mapas_epistemologicos/MAPA_MED_019_HOSPITALES_CABECERA_EXAMEN_CLINICO.md y 21_cronologias/CRONOLOGIA_MED_019_HOSPITALES_CABECERA_EXAMEN_CLINICO.md.
+
+## CON-001 — Un teorema sobre pagos no es una tesis sobre lo que existe
+
+- Los juegos de interfaz separan costo de información, forma de la utilidad y resultado de existencia.
+- El teorema FBT separa canal sensorial común, regla MAP, regla de aptitud esperada, genericidad y cota probabilística.
+- «Fact, Fiction, and Fitness» separa funciones de pago genéricas, medida de conteo y pagos biológicos reales.
+- La teoría de la interfaz separa resultado formal, interpretación perceptiva y tesis sobre espacio-tiempo.
+- Las críticas separan sentido de veridicidad, número de metas, estabilidad ambiental, aprendizaje y autorrefutación.
+- Los casos empíricos separan fallas locales (escarabajo, estímulos supernormales) de fiabilidad estructurada (constancias, integración entre sentidos).
+- `CLAIM-CON-PERC-PRODUCTS-001` impide heredar confianza entre teorema, simulación, hallazgo, interpretación y metafísica.
+- `CLAIM-CON-PERC-ITP-LEAP-001` impide pasar de «pago no homomórfico» a «espacio-tiempo inexistente» sin premisas adicionales.
+
+Véase 26_conciencia/INVESTIGACION_CON_001_PERCEPCION_REALIDAD.md, 22_mapas_epistemologicos/MAPA_CON_001_PERCEPCION_REALIDAD.md y 21_cronologias/CRONOLOGIA_CON_001_PERCEPCION_REALIDAD.md.

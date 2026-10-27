@@ -915,3 +915,19 @@ CIV-003 inaugura los expedientes regionales auditados. CIV-001 conserva `TRAZADO
 | `TIME-MED-CLINIC-RECORDS-1900S-001` | siglos XIX–XX | expansión de formularios e índices clínicos | expedientes más comparables y selectivos | `SRC-MED-CLINIC-NIBURSKI-2019`, `SRC-MED-CLINIC-LORKOWSKI-2022` | B síntesis | AUDITADO |
 | `TIME-MED-CLINIC-PATIENT-NARRATIVE-1996-001` | 1996 | crítica a la pérdida narrativa en la ficha | análisis de fines, forma y voz del paciente | `SRC-MED-CLINIC-DONNELLY-1996` | A publicación | AUDITADO |
 | `TIME-MED-CLINIC-PATIENT-HISTORY-2007-001` | 2007 | agenda historiográfica centrada en pacientes | agencia, encuentro y archivos alternativos | `SRC-MED-CLINIC-CONDRAU-2007` | A publicación | AUDITADO |
+
+## CON-001 — Percepción y realidad
+
+| ID | Fecha/rango | Evento | Producto | Fuentes | Confianza | Estado |
+|---|---|---|---|---|---|---|
+| `TIME-CON-PERC-TINBERGEN-1951-001` | 1951 (a menudo citado 1950) | experimentos de Tinbergen y Perdeck con polluelos de gaviota | respuestas desencadenadas por rasgos simplificados | `SRC-CON-PERC-TINBERGEN-1951` | A publicación | AUDITADO |
+| `TIME-CON-PERC-BEETLE-1983-001` | 1983 | nota sobre buprestidos y botellas en Australia Occidental | falla local documentada de un detector por pistas | `SRC-CON-PERC-GWYNNE-1983` | A publicación | AUDITADO |
+| `TIME-CON-PERC-ERNST-2002-001` | 2002 | integración visual-háptica casi óptima | fiabilidad estructurada medida entre sentidos | `SRC-CON-PERC-ERNST-2002` | A publicación | AUDITADO |
+| `TIME-CON-PERC-MMH-2010-001` | 2010 | juegos de interfaz | simulaciones donde la interfaz desplaza a la verdad | `SRC-CON-PERC-MARK-2010` | A publicación | AUDITADO |
+| `TIME-CON-PERC-ITP-2015-001` | 2015 | teoría de la interfaz con comentarios y réplica | interpretación y debate publicado | `SRC-CON-PERC-HSP-2015`, `SRC-CON-PERC-HSP-REPLY-2015` | A publicación | AUDITADO |
+| `TIME-CON-PERC-BOOK-2019-001` | 2019 | *The Case Against Reality* | divulgación de la tesis | `SRC-CON-PERC-HOFFMAN-2019` | A publicación | AUDITADO |
+| `TIME-CON-PERC-FFF-2020-001` | 2020 | «Fact, Fiction, and Fitness» | conteo de funciones de pago genéricas | `SRC-CON-PERC-PRAKASH-2020` | A publicación | AUDITADO |
+| `TIME-CON-PERC-FBT-2020-001` | 2020 en línea; 2021 impreso | teorema FBT en *Acta Biotheoretica* | teorema sobre reglas de decisión | `SRC-CON-PERC-PRAKASH-2021` | A publicación | AUDITADO |
+| `TIME-CON-PERC-BERKE-2022-001` | 2022 | simulaciones con metas múltiples | contraejemplo dependiente de supuestos | `SRC-CON-PERC-BERKE-2022` | A publicación | AUDITADO |
+| `TIME-CON-PERC-BAGWELL-2023-001` | 2023 | objeción de autorrefutación en *Synthese* | crítica filosófica | `SRC-CON-PERC-BAGWELL-2023` | A publicación | AUDITADO |
+| `TIME-CON-PERC-MATTES-2026-001` | febrero de 2026 | «The Case Against The Case Against Reality» | simulaciones contrarias y crítica del paso inferencial | `SRC-CON-PERC-MATTES-2026` | A publicación en línea | AUDITADO |

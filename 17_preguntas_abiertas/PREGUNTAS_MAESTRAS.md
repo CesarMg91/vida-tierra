@@ -215,6 +215,9 @@ La clasificación expresa cuánto restringe hoy la evidencia, no cuán interesan
 | `OPEN-EARLY-HOMININ-HABITAT-SCALE-001` | ¿Cómo variaban cobertura y recursos alrededor de Aramis y TM 266? | múltiples proxies demuestran heterogeneidad | cada proxy integra escalas y productores distintos | C |
 | `OPEN-EARLY-HOMININ-SOCIAL-001` | ¿Qué conducta social acompañó la reducción canina? | dimorfismo y función dental restringen algunas hipótesis | sistema social no fosiliza y existen muchas alternativas | D-E |
 | `OPEN-EARLY-HOMININ-DIVERSITY-001` | ¿Cuántos linajes bípedos coexistieron entre `7 y 4.4 Ma`? | tres géneros nombrados y mosaicos distintos | hipodigmas escasos, taxonomía y geografía desigual | D |
+| `OPEN-CON-PERC-PAYOFFS-001` | ¿Qué estructura tienen las funciones de aptitud de organismos reales? | casi ninguna función genérica conserva estructura; ejemplos biológicos sugieren regularidades físicas | no hay medición sistemática de pagos reales | D |
+| `OPEN-CON-PERC-PREDICTION-001` | ¿Qué predicción separa la teoría de la interfaz del realismo crítico? | ambas explican fallas locales y percepción útil | la teoría no ha derivado una predicción nueva y discriminante | E |
+| `OPEN-CON-PERC-MODEL-CHOICE-001` | ¿Qué modelo de la vida de un organismo decide si la evolución favorece la veridicidad? | con una meta gana la interfaz; con muchas metas y percepción inflexible, la veridicidad | elegir supuestos es parte del problema | D |
 
 ## Tipos de “no sabemos”
 

@@ -4466,3 +4466,16 @@ Riesgo basal, alternativas y preferencias cambian el balance. **Corrección:** s
 | `ERR-MED-CLINIC-PRESENCE-CONSENT-001` | estar presente en enseñanza o examen demuestra consentimiento | dependencia y capacidad desigual de negarse impiden esa equivalencia | separar presencia, norma, opción y testimonio | ACTIVO |
 | `ERR-MED-CLINIC-MORE-DATA-TRUTH-001` | más casos y formularios producen verdad automáticamente | comparabilidad no corrige selección, categorías o errores correlacionados | auditar denominadores, discordancias y propósito | ACTIVO |
 | `ERR-MED-CLINIC-INSTITUTION-BENEFIT-001` | un hospital grande o universitario demuestra beneficio | infraestructura y prestigio no prueban exactitud, eficacia, acceso ni justicia | medir decisiones, daños, desenlaces y distribución | ACTIVO |
+
+## CON-001 — Percepción y realidad
+
+| ID | Error | Por qué falla | Corrección operativa | Estado |
+|---|---|---|---|---|
+| `ERR-CON-PERC-SCIENCE-PROVED-ILLUSION-001` | la ciencia demostró que la realidad es una ilusión | un teorema dentro de un modelo y unas simulaciones no establecen una tesis metafísica | separar teorema, simulación, hallazgo, interpretación y metafísica | ACTIVO |
+| `ERR-CON-PERC-FBT-ORGANS-001` | FBT prueba que los ojos evolucionaron para ver menos del mundo | el teorema compara reglas de decisión sobre un mismo canal | declarar qué compara el teorema antes de citarlo | ACTIVO |
+| `ERR-CON-PERC-PROBABILITY-NATURE-001` | «probabilidad cero de ver la realidad» describe organismos reales | la probabilidad es una medida sobre funciones de aptitud posibles, no una frecuencia observada | nombrar la medida y su justificación | ACTIVO |
+| `ERR-CON-PERC-FALSE-EVERYTHING-001` | si percibimos una interfaz, todo lo que vemos es falso | una interfaz puede conservar invariantes y relaciones verídicas | especificar el sentido de veridicidad usado | ACTIVO |
+| `ERR-CON-PERC-BEETLE-PROOF-001` | el escarabajo de la botella prueba que no vemos la realidad | es una falla local ante un artefacto ajeno a su ambiente | comparar fallas con aciertos en el ambiente de origen | ACTIVO |
+| `ERR-CON-PERC-CONSTRUCTED-FALSE-001` | lo que el cerebro construye no puede ser verdadero | construcción e inferencia pueden ser correctas | medir exactitud frente a referencias independientes | ACTIVO |
+| `ERR-CON-PERC-INTERFACE-CONSCIOUSNESS-001` | si la percepción es interfaz, la conciencia es lo fundamental | son tesis distintas; la segunda requiere argumentos propios | auditar la tesis metafísica en su propio expediente | ACTIVO |
+| `ERR-CON-PERC-NAIVE-REALISM-001` | vemos el mundo exactamente como es | constancias incompletas, ilusiones y estímulos supernormales muestran límites | hablar de fiabilidad estructurada y de sus fallas | ACTIVO |

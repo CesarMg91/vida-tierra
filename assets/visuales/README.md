@@ -1049,3 +1049,13 @@ La portada separa episodio, muestra genérica, preparación, lámina, microscop�
 Salida original aprobada sin edición: `C:\Users\HUAWEI\.codex\generated_images\019fedb0-8f24-7e33-8d16-d2418ba3378e\exec-3479c64e-6207-4471-b8a2-fc748937908c.png` → `assets/visuales/hero-med-019-hospitales-cabecera-examen-clinico.png`; tamaño `1,979,630` bytes. El prompt completo y los límites están en `ATLAS_VISUAL.md`, sección 74.
 
 La portada separa institución, cama, expediente, comparación, examen y decisión sin mostrar pacientes, procedimientos ni reproducir un hospital real. Los SVG incluyen `title` y `desc`, preservan las siete capas y no convierten cama, ingreso, presencia, signo, ficha, serie, licencia o prestigio en población, consentimiento, lesión, persona, causalidad, beneficio o justicia.
+
+## CON-001 — Percepción y realidad
+
+| Archivo | Origen | Dimensiones | SHA-256 / trazabilidad | Límite |
+|---|---|---:|---|---|
+| `hero-con-001-percepcion-interfaz.png` | rasterizado con Chromium desde el SVG generativo del proyecto, 2026-10-27 | `1672 × 941` | `41da1e3afd3652096c993a6d720262e8fb50299ae6b755809b322cbfd509839e` | composición abstracta; no representa resultado, modelo ni dato |
+| `hero-con-001-percepcion-interfaz.svg` | `scripts/generate-con-visuals.mjs`, semilla fija | `1672 × 941` | código fuente versionado | nodos pseudoaleatorios sin información |
+| `cadena-modelo-prueba-con-001.svg` | `scripts/generate-con-visuals.mjs` | `1600 × 900` | código fuente versionado | seis capas inferenciales; no herencia automática |
+
+La portada no usa modelos de imagen: se regenera idéntica con `node scripts/generate-con-visuals.mjs --png`. Los SVG incluyen `title` y `desc`.

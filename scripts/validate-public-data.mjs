@@ -611,6 +611,27 @@ for (const record of data.catalog) {
   for (const id of record.sourceIds) check(sourceIds.has(id), `${record.key} enlaza una fuente inexistente: ${id}`);
 }
 
+const perceptionData = JSON.parse(fs.readFileSync(path.join(ROOT, "content", "perception-reality-evidence.json"), "utf8"));
+const perceptionKinds = ["system", "result", "scope", "interpretation", "leap", "test"];
+check(perceptionData.schemaVersion === 1, "el módulo de percepción usa una versión de esquema desconocida");
+check(researchSlugs.has(perceptionData.researchSlug), `el módulo de percepción apunta a un expediente inexistente: ${perceptionData.researchSlug}`);
+check(Array.isArray(perceptionData.cases) && perceptionData.cases.length > 0, "el módulo de percepción no contiene casos");
+check(duplicates(perceptionData.cases.map((record) => record.id)).length === 0, "el módulo de percepción contiene casos duplicados");
+for (const perceptionCase of perceptionData.cases) {
+  check(Boolean(perceptionCase.title) && Boolean(perceptionCase.product) && Boolean(perceptionCase.stance), `${perceptionCase.id} no declara título, producto o postura`);
+  check(
+    JSON.stringify(perceptionCase.layers?.map((layer) => layer.kind)) === JSON.stringify(perceptionKinds),
+    `${perceptionCase.id} no conserva las seis capas de percepción en orden`,
+  );
+  for (const layer of perceptionCase.layers ?? []) {
+    check(Boolean(layer.observed) && Boolean(layer.inference) && Boolean(layer.limit), `${perceptionCase.id}/${layer.kind} tiene un estado vacío`);
+    check(layer.claimIds?.length > 0 && layer.evidenceIds?.length > 0 && layer.sourceIds?.length > 0, `${perceptionCase.id}/${layer.kind} no enlaza claims, evidencias y fuentes`);
+    for (const id of layer.claimIds ?? []) check(claimIds.has(id), `${perceptionCase.id}/${layer.kind} enlaza un claim inexistente: ${id}`);
+    for (const id of layer.evidenceIds ?? []) check(evidenceIds.has(id), `${perceptionCase.id}/${layer.kind} enlaza una evidencia inexistente: ${id}`);
+    for (const id of layer.sourceIds ?? []) check(sourceIds.has(id), `${perceptionCase.id}/${layer.kind} enlaza una fuente inexistente: ${id}`);
+  }
+}
+
 for (const claim of data.knowledge.claims) {
   check(claim.evidenceIds.length > 0, `${claim.id} no enlaza ninguna evidencia`);
   check(claim.sourceIds.length > 0, `${claim.id} no llega a ninguna fuente mediante su evidencia`);

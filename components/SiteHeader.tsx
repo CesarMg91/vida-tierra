@@ -14,6 +14,7 @@ const links = [
   ["/cronologia", "Cronología"],
   ["/civilizaciones", "Civilizaciones"],
   ["/medicina", "Medicina"],
+  ["/conciencia", "Conciencia"],
   ["/evidencia", "Evidencia"],
   ["/como-sabemos", "Cómo sabemos"],
 ] as const;

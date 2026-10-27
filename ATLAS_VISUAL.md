@@ -1394,3 +1394,23 @@ La salida se inspeccionó completa a resolución original y la copia incorporada
 La composición no reproduce Leiden, Edimburgo, París, Bezm-i Alem, San Andrés, el Medical College de Calcuta, la Universidad de Tokio, una ficha clínica, un encuentro o un hospital reales. La proximidad de objetos no afirma coetaneidad, transmisión, consentimiento, representatividad, exactitud, eficacia, beneficio o justicia.
 
 Los SVG se construyeron a `1600 × 900`, incluyen `title`, `desc` y tipografía de reserva. Tras rasterizarlos se inspeccionaron completos y se corrigió una microfrase. La cadena mantiene siete capas con cortafuegos; la matriz compara ocho expedientes sin puntuaciones. Ninguno acepta datos personales, representa una consulta, calcula resultados, diagnostica, recomienda o simula un caso clínico.
+
+## 75. CON-001 — Un teorema sobre pagos no es una tesis sobre lo que existe
+
+![Portada editorial de CON-001](assets/visuales/hero-con-001-percepcion-interfaz.png)
+
+![Cadena desde el modelo hasta la prueba](assets/visuales/cadena-modelo-prueba-con-001.svg)
+
+| Archivo | Tipo | Procedencia | Qué representa | Límite obligatorio |
+|---|---|---|---|---|
+| `hero-con-001-percepcion-interfaz.png` | portada editorial generativa | rasterizado de `hero-con-001-percepcion-interfaz.svg` con `scripts/generate-con-visuals.mjs --png`, 2026-10-27 | íconos en cuadrícula que se deshacen sobre una red de nodos con otra geometría | no representa un resultado, un modelo, un dato ni una estructura física real |
+| `hero-con-001-percepcion-interfaz.svg` | fuente generativa determinista | SVG producido por `scripts/generate-con-visuals.mjs` con semilla fija | misma composición en vectores | la disposición de nodos es pseudoaleatoria y no codifica información |
+| `cadena-modelo-prueba-con-001.svg` | diagrama epistemológico original | SVG producido por `scripts/generate-con-visuals.mjs`, 2026-10-27 | sistema, resultado, alcance, interpretación, salto y prueba | las flechas no heredan organismos, generalidad, falsedad, metafísica ni confirmación |
+
+### Procedencia de la portada
+
+Generada por el proyecto sin modelos de imagen: `node scripts/generate-con-visuals.mjs --png` escribe el SVG con una semilla fija y lo rasteriza con Chromium (Playwright) a `1672 × 941`. Tamaño: `1055044` bytes; SHA-256: `41da1e3afd3652096c993a6d720262e8fb50299ae6b755809b322cbfd509839e`. Volver a ejecutar el script produce el mismo SVG.
+
+### Revisión y límites
+
+Ambas salidas se inspeccionaron completas tras rasterizar; se redujo el cuerpo de los títulos del diagrama para que «Interpretación» no se recortara. La portada no contiene texto, personas ni marcas. La metáfora visual (íconos sobre una estructura distinta) ilustra la tesis que el expediente audita; no la respalda.

@@ -13,6 +13,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: absoluteUrl("/cronologia"), priority: 0.85, changeFrequency: "monthly" },
     { url: absoluteUrl("/civilizaciones"), priority: 0.95, changeFrequency: "monthly" },
     { url: absoluteUrl("/civilizaciones/comparar"), priority: 0.8, changeFrequency: "monthly" },
+    { url: absoluteUrl("/conciencia"), priority: 0.9, changeFrequency: "monthly" },
     { url: absoluteUrl("/evidencia"), priority: 0.85, changeFrequency: "weekly" },
     { url: absoluteUrl("/como-sabemos"), priority: 0.8, changeFrequency: "monthly" },
     { url: absoluteUrl("/privacidad"), priority: 0.4, changeFrequency: "yearly" },

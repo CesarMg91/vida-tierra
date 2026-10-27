@@ -6,7 +6,7 @@ Historia profunda de la Tierra, la vida y el ser humano desde primeros principio
 
 **[Explorar la versión pública](https://vida-tierra.vercel.app)**
 
-La versión `0.3.18` continúa la historia cronológica mundial de la medicina con MED-019: hospitales, cabecera y examen clínico separados en institución, admisión, encuentro, examen, registro, comparación y decisión. Incluye el módulo público «Una cama hospitalaria no convierte a una persona en un caso por sí sola» y conserva MED-001–018 y CIV-001–003 íntegros; la secuencia global continúa cerrada en `001–052`.
+La versión `0.4.0` abre la línea temática CON, conciencia y percepción, con CON-001: si nuestra percepción refleja la realidad, separando sistema, resultado, alcance, interpretación, salto metafísico y prueba. Incluye el módulo público «Un teorema sobre pagos no es una tesis sobre lo que existe» en `/conciencia` y conserva MED-001–019 y CIV-001–003 íntegros; la secuencia global continúa cerrada en `001–052`.
 
 El sitio usa `https://vida-tierra.vercel.app` como URL canónica. Otro dominio puede sustituirlo definiendo `SITE_URL` en el entorno de build, sin cambiar el código.
 
@@ -46,7 +46,7 @@ Y toda investigación debe distinguir explícitamente:
 - las alternativas y anomalías;
 - el grado de confianza y qué podría falsar la conclusión.
 
-## Estado actual · v0.3.18
+## Estado actual · v0.4.0
 
 La experiencia pública contiene:
 
@@ -114,6 +114,7 @@ La experiencia pública contiene:
 - la decimoquinta investigación histórica de Medicina: [MED-017 — ¿Cómo pasamos de sistemas corporales heredados a circulación, experimento y medición?](15_medicina/INVESTIGACION_MED_017_CIRCULACION_FISIOLOGIA.md) — **AUDITADO**; separa sistema, preparación, intervención, medición, comparación, mecanismo y recepción sin inventar un héroe único ni convertir fisiología en beneficio clínico automático;
 - la decimosexta investigación histórica de Medicina: [MED-018 — ¿Cómo enlazamos cuerpo, tejido, lesión, microscopía y enfermedad?](15_medicina/INVESTIGACION_MED_018_MICROSCOPIA_ANATOMIA_PATOLOGICA.md) — **AUDITADO**; separa episodio, espécimen, preparación, visualización, lesión, correlación y enfermedad sin convertir imagen en diagnóstico, lesión en causa o epónimo en autoría total;
 - la decimoséptima investigación histórica de Medicina: [MED-019 — ¿Cómo transformaron hospitales, cabecera y examen clínico encuentros con personas en casos comparables?](15_medicina/INVESTIGACION_MED_019_HOSPITALES_CABECERA_EXAMEN_CLINICO.md) — **AUDITADO**; separa institución, admisión, encuentro, examen, registro, comparación y decisión sin convertir cama en caso, signo en lesión, expediente en persona o licencia en beneficio;
+- la primera investigación de Conciencia y percepción: [CON-001 — ¿Nuestra percepción refleja la realidad?](26_conciencia/INVESTIGACION_CON_001_PERCEPCION_REALIDAD.md) — **AUDITADO**; audita el teorema «la aptitud le gana a la verdad», los juegos de interfaz y sus críticas sin convertir un teorema sobre pagos en una tesis sobre espacio-tiempo, objetos o conciencia;
 - la trigésima séptima investigación: [`¿Cómo distinguimos especies, locomoción, dieta y parentesco entre australopitecos y Paranthropus sin convertir su diversidad en una escalera hacia Homo?`](08_cenozoico/INVESTIGACION_037_AUSTRALOPITECOS_PARANTHROPUS.md);
 - la trigésima octava investigación: [`¿Cómo reconocemos a Homo temprano, habilis y erectus si fósiles, herramientas, cuerpos y moléculas responden preguntas distintas?`](08_cenozoico/INVESTIGACION_038_HOMO_TEMPRANO_HABILIS_ERECTUS.md);
 - la trigésima novena investigación: [`¿Cómo reconstruimos las poblaciones humanas del Pleistoceno medio sin convertir Homo heidelbergensis en un cajón de sastre ni cada fósil en un ancestro?`](08_cenozoico/INVESTIGACION_039_HOMO_PLEISTOCENO_MEDIO_HEIDELBERGENSIS.md);

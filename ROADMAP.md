@@ -243,3 +243,15 @@ El programa MED-003–MED-033 está en [PROGRAMA_CRONOLOGICO_HISTORIA_MEDICINA.m
 La siguiente investigación prevista es MED-020: estadística, vacunación y epidemiología, donde se separarán población, exposición, denominador, comparación, efecto, implementación y desigualdad sin convertir una cifra agregada en causalidad o beneficio universal.
 
 Entregas públicas: MED-001 = `v0.3.0`; MED-002 = `v0.3.1`; MED-003 = `v0.3.2`; MED-004 = `v0.3.3`; MED-005 = `v0.3.4`; MED-006 = `v0.3.5`; MED-007 = `v0.3.6`; MED-008 = `v0.3.7`; MED-009 = `v0.3.8`; MED-010 = `v0.3.9`; MED-011 = `v0.3.10`; MED-012 = `v0.3.11`; MED-013 = `v0.3.12`; MED-014 = `v0.3.13`; MED-015 = `v0.3.14`; MED-016 = `v0.3.15`; MED-017 = `v0.3.16`; MED-018 = `v0.3.17`; MED-019 = `v0.3.18`.
+
+## Línea temática CON — subíndice propio
+
+| Orden | ID | Investigación | Estado |
+|---|---|---|---|
+| CON-001 | `INV-CON-PERCEPTION-REALITY-001` | [Percepción y realidad: sistema, resultado, alcance, interpretación, salto metafísico y prueba](26_conciencia/INVESTIGACION_CON_001_PERCEPCION_REALIDAD.md) | **AUDITADO** |
+
+CON es la única línea cuyo objeto es el propio observador. CON-001 audita el teorema «la aptitud le gana a la verdad», los juegos de interfaz y sus críticas, y separa lo demostrado dentro de modelos de la tesis sobre espacio-tiempo y objetos. El programa CON-002–CON-005 está en [PROGRAMA_CONCIENCIA.md](26_conciencia/PROGRAMA_CONCIENCIA.md), con contrato común en [ESTANDAR_EVIDENCIA_CONCIENCIA.md](26_conciencia/ESTANDAR_EVIDENCIA_CONCIENCIA.md). CIV y MED conservan su numeración y programa.
+
+La siguiente investigación prevista es CON-002: si el espacio-tiempo es fundamental, auditada con la física publicada e independientemente de cualquier tesis sobre la conciencia.
+
+Entregas públicas: CON-001 = `v0.4.0`.

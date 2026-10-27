@@ -1,0 +1,104 @@
+{
+  "schemaVersion": 1,
+  "researchSlug": "26_conciencia/INVESTIGACION_CON_001_PERCEPCION_REALIDAD",
+  "cases": [
+    {
+      "id": "teorema-fbt-2021",
+      "title": "Teorema FBT · la aptitud le gana a la verdad",
+      "product": "teorema",
+      "stance": "La regla ajustada a la aptitud domina casi siempre a la que estima el estado del mundo",
+      "layers": [
+        { "kind": "system", "observed": "Un mundo con distribución previa, un canal sensorial finito común y una aptitud conocida por ambas estrategias.", "inference": "El modelo compara dos maneras de decidir con la misma señal.", "limit": "No modela órganos de distinta fidelidad ni aprendizaje.", "claimIds": ["CLAIM-CON-PERC-FBT-SETUP-001"], "evidenceIds": ["EVID-CON-PERC-FBT-PROOF-001"], "sourceIds": ["SRC-CON-PERC-PRAKASH-2021"] },
+        { "kind": "result", "observed": "Bajo genericidad, la regla de aptitud esperada domina estrictamente con probabilidad de al menos (|X|−3)/(|X|−1).", "inference": "Estimar el estado más probable no es la mejor regla para ganar aptitud.", "limit": "La ventaja débil se sigue de la definición de la regla ganadora; el teorema cuantifica cuándo es estricta.", "claimIds": ["CLAIM-CON-PERC-FBT-BOUND-001", "CLAIM-CON-PERC-FBT-DEFINITION-001"], "evidenceIds": ["EVID-CON-PERC-FBT-PROOF-001"], "sourceIds": ["SRC-CON-PERC-PRAKASH-2021"] },
+        { "kind": "scope", "observed": "La probabilidad se calcula sobre todas las funciones de aptitud y distribuciones previas posibles.", "inference": "El resultado vale para el espacio de modelos considerado.", "limit": "Una medida sobre funciones posibles no es una frecuencia observada en la naturaleza.", "claimIds": ["CLAIM-CON-PERC-FBT-BOUND-001"], "evidenceIds": ["EVID-CON-PERC-FBT-PROOF-001"], "sourceIds": ["SRC-CON-PERC-PRAKASH-2021"] },
+        { "kind": "interpretation", "observed": "Los autores leen el teorema como apoyo a la teoría de la interfaz.", "inference": "La selección natural no garantiza percepción verídica.", "limit": "El teorema no compara canales sensoriales, por lo que no muestra que la evolución degrade los órganos.", "claimIds": ["CLAIM-CON-PERC-FBT-CHANNEL-001", "CLAIM-CON-PERC-FBT-POSTERIOR-001"], "evidenceIds": ["EVID-CON-PERC-FBT-ANALYSIS-001"], "sourceIds": ["SRC-CON-PERC-PRAKASH-2021", "SRC-CON-PERC-MATTES-2026"] },
+        { "kind": "leap", "observed": "De ahí se pasa a que espacio-tiempo y objetos no son rasgos de la realidad objetiva.", "inference": "Es una tesis posible que el teorema motiva.", "limit": "No se sigue sin un puente biológico y una premisa metafísica adicionales.", "claimIds": ["CLAIM-CON-PERC-ITP-LEAP-001"], "evidenceIds": ["EVID-CON-PERC-FBT-ANALYSIS-001"], "sourceIds": ["SRC-CON-PERC-MATTES-2026", "SRC-CON-PERC-MCLAUGHLIN-2015"] },
+        { "kind": "test", "observed": "No hay todavía una predicción nueva derivada del teorema que el realismo crítico no haga.", "inference": "Un teorema que compare canales de distinta fidelidad sería discriminante.", "limit": "Hasta entonces, el teorema delimita reglas de decisión y no decide qué existe.", "claimIds": ["CLAIM-CON-PERC-VERDICT-001"], "evidenceIds": ["EVID-CON-PERC-FBT-ANALYSIS-001"], "sourceIds": ["SRC-CON-PERC-PRAKASH-2021"] }
+      ]
+    },
+    {
+      "id": "juegos-interfaz-2010",
+      "title": "Juegos de interfaz · el costo de saber",
+      "product": "simulación",
+      "stance": "Con costos o pagos no monótonos, una percepción tosca extingue a la exacta",
+      "layers": [
+        { "kind": "system", "observed": "Poblaciones que compiten por territorios con recursos bajo dinámica del replicador y mezcla completa.", "inference": "Se aísla el efecto del tipo de percepción sobre la aptitud.", "limit": "Poblaciones infinitas y categorías deliberadamente simples.", "claimIds": ["CLAIM-CON-PERC-MMH-EXISTENCE-001"], "evidenceIds": ["EVID-CON-PERC-MMH-001"], "sourceIds": ["SRC-CON-PERC-MARK-2010"] },
+        { "kind": "result", "observed": "Con costo por bit, la estrategia de dos categorías extingue a la exacta para la mayoría de los umbrales.", "inference": "Saber más puede costar más de lo que rinde.", "limit": "La estrategia exacta gana cuando el costo por bit es pequeño.", "claimIds": ["CLAIM-CON-PERC-MMH-COST-001"], "evidenceIds": ["EVID-CON-PERC-MMH-001"], "sourceIds": ["SRC-CON-PERC-MARK-2010"] },
+        { "kind": "scope", "observed": "Con utilidades no monótonas, estrategias que no conservan el orden de las cantidades superan a las realistas críticas.", "inference": "Cuando lo mejor es una cantidad intermedia, percibir el orden no basta.", "limit": "Depende de la forma de la utilidad elegida.", "claimIds": ["CLAIM-CON-PERC-MMH-NONMONOTONIC-001"], "evidenceIds": ["EVID-CON-PERC-MMH-001"], "sourceIds": ["SRC-CON-PERC-MARK-2010", "SRC-CON-PERC-HOFFMAN-2013"] },
+        { "kind": "interpretation", "observed": "Los autores concluyen que la selección no necesariamente favorece la verdad.", "inference": "Es un resultado de existencia legítimo.", "limit": "No muestra que la selección nunca favorezca la verdad.", "claimIds": ["CLAIM-CON-PERC-MMH-EXISTENCE-001"], "evidenceIds": ["EVID-CON-PERC-MMH-001"], "sourceIds": ["SRC-CON-PERC-MARK-2010"] },
+        { "kind": "leap", "observed": "La teoría de la interfaz generaliza estos resultados a toda la percepción.", "inference": "Los modelos motivan la generalización.", "limit": "Con metas múltiples o ambientes cambiantes otros modelos llegan a lo contrario.", "claimIds": ["CLAIM-CON-PERC-MODEL-DEPENDENCE-001"], "evidenceIds": ["EVID-CON-PERC-ENVIRONMENT-001"], "sourceIds": ["SRC-CON-PERC-ANGELUCCI-2023", "SRC-CON-PERC-BERKE-2022"] },
+        { "kind": "test", "observed": "Variar costo, forma de la utilidad, número de metas y estabilidad ambiental cambia el ganador.", "inference": "La pregunta es qué supuestos describen organismos reales.", "limit": "Ese dato no se obtiene dentro de las simulaciones.", "claimIds": ["CLAIM-CON-PERC-MODEL-DEPENDENCE-001"], "evidenceIds": ["EVID-CON-PERC-BERKE-001"], "sourceIds": ["SRC-CON-PERC-BERKE-2022"] }
+      ]
+    },
+    {
+      "id": "funciones-genericas-2020",
+      "title": "Funciones de pago genéricas · casi nada conserva estructura",
+      "product": "teorema",
+      "stance": "Elegida al azar, una función de pago casi nunca respeta la estructura del mundo",
+      "layers": [
+        { "kind": "system", "observed": "Todas las funciones de n estados del mundo a m valores, con el mismo peso cada una.", "inference": "Se cuenta cuántas conservan cada tipo de estructura.", "limit": "Sólo conjuntos finitos y una medida uniforme.", "claimIds": ["CLAIM-CON-PERC-FFF-COUNT-001"], "evidenceIds": ["EVID-CON-PERC-FFF-001"], "sourceIds": ["SRC-CON-PERC-PRAKASH-2020"] },
+        { "kind": "result", "observed": "La fracción de homomorfismos de órdenes, grupos y estructuras medibles tiende a cero al crecer n.", "inference": "Conservar estructura no es genérico bajo esa medida.", "limit": "El resultado para estructuras medibles viene matizado.", "claimIds": ["CLAIM-CON-PERC-FFF-COUNT-001"], "evidenceIds": ["EVID-CON-PERC-FFF-001"], "sourceIds": ["SRC-CON-PERC-PRAKASH-2020"] },
+        { "kind": "scope", "observed": "Los autores justifican la medida de conteo como no sesgada y no analizan otras.", "inference": "El resultado depende de esa elección.", "limit": "Topologías, métricas y órdenes parciales quedan fuera.", "claimIds": ["CLAIM-CON-PERC-FFF-MEASURE-001"], "evidenceIds": ["EVID-CON-PERC-FFF-001"], "sourceIds": ["SRC-CON-PERC-PRAKASH-2020"] },
+        { "kind": "interpretation", "observed": "Se sugiere que los pagos reales difícilmente conservan la estructura del mundo.", "inference": "Es una hipótesis sobre biología, no un teorema.", "limit": "No se ha mostrado que los pagos reales se parezcan a funciones elegidas al azar.", "claimIds": ["CLAIM-CON-PERC-FFF-MEASURE-001"], "evidenceIds": ["EVID-CON-PERC-FFF-001"], "sourceIds": ["SRC-CON-PERC-PRAKASH-2020"] },
+        { "kind": "leap", "observed": "Si la percepción sigue a los pagos, no reflejaría la estructura del mundo.", "inference": "La cadena es coherente si cada eslabón se acepta.", "limit": "No homomórfico no implica inexistente; la interfaz puede ser verídica sobre relaciones.", "claimIds": ["CLAIM-CON-PERC-RELATIONAL-001", "CLAIM-CON-PERC-ITP-LEAP-001"], "evidenceIds": ["EVID-CON-PERC-COMMENTARIES-001"], "sourceIds": ["SRC-CON-PERC-EDELMAN-2015", "SRC-CON-PERC-COHEN-2015"] },
+        { "kind": "test", "observed": "Medir cuánta estructura conservan funciones de aptitud biológicas concretas.", "inference": "Esa medición decidiría el paso de lo genérico a lo real.", "limit": "No existe todavía una medición sistemática.", "claimIds": ["CLAIM-CON-PERC-FFF-MEASURE-001"], "evidenceIds": ["EVID-CON-PERC-FFF-001"], "sourceIds": ["SRC-CON-PERC-PRAKASH-2020"] }
+      ]
+    },
+    {
+      "id": "teoria-interfaz-2015",
+      "title": "Teoría de la interfaz · íconos de escritorio",
+      "product": "interpretación",
+      "stance": "Espacio-tiempo y objetos son el formato de una interfaz, no rasgos de la realidad",
+      "layers": [
+        { "kind": "system", "observed": "Una clasificación de estrategias perceptivas puesta a competir en juegos y algoritmos genéticos.", "inference": "Ofrece un marco para leer los resultados formales.", "limit": "Hereda los supuestos de cada modelo.", "claimIds": ["CLAIM-CON-PERC-ITP-THESIS-001"], "evidenceIds": ["EVID-CON-PERC-ITP-001"], "sourceIds": ["SRC-CON-PERC-HSP-2015"] },
+        { "kind": "result", "observed": "Estrategias verídicas suelen quedar dominadas salvo que la aptitud crezca con la verdad.", "inference": "La veridicidad no es la opción por defecto en esos modelos.", "limit": "Es un resumen de simulaciones, no una medición en organismos.", "claimIds": ["CLAIM-CON-PERC-MMH-EXISTENCE-001"], "evidenceIds": ["EVID-CON-PERC-MMH-001"], "sourceIds": ["SRC-CON-PERC-HSP-2015", "SRC-CON-PERC-HOFFMAN-2013"] },
+        { "kind": "scope", "observed": "Diez comentarios publicados discuten veridicidad, aprendizaje, forma tridimensional y el paso a espacio-tiempo.", "inference": "El alcance de la teoría está en disputa abierta y documentada.", "limit": "Los comentarios aportan argumentos más que datos nuevos.", "claimIds": ["CLAIM-CON-PERC-SENSES-001", "CLAIM-CON-PERC-LEARNING-001"], "evidenceIds": ["EVID-CON-PERC-COMMENTARIES-001"], "sourceIds": ["SRC-CON-PERC-ANDERSON-2015", "SRC-CON-PERC-PIZLO-2015", "SRC-CON-PERC-HSP-REPLY-2015"] },
+        { "kind": "interpretation", "observed": "La percepción guía la acción como los íconos guían el uso de una computadora.", "inference": "La metáfora resume bien que la percepción no es una copia.", "limit": "Una interfaz puede conservar relaciones verídicas.", "claimIds": ["CLAIM-CON-PERC-ITP-THESIS-001", "CLAIM-CON-PERC-RELATIONAL-001"], "evidenceIds": ["EVID-CON-PERC-ITP-001", "EVID-CON-PERC-COMMENTARIES-001"], "sourceIds": ["SRC-CON-PERC-HSP-2015", "SRC-CON-PERC-EDELMAN-2015"] },
+        { "kind": "leap", "observed": "Se afirma que espacio-tiempo y objetos no existen fuera de la interfaz.", "inference": "Es la tesis más fuerte del programa.", "limit": "No se demuestra que el vocabulario de objetos y espacio-tiempo sea el equivocado.", "claimIds": ["CLAIM-CON-PERC-ITP-LEAP-001"], "evidenceIds": ["EVID-CON-PERC-COMMENTARIES-001"], "sourceIds": ["SRC-CON-PERC-MCLAUGHLIN-2015", "SRC-CON-PERC-COHEN-2015"] },
+        { "kind": "test", "observed": "La objeción de autorrefutación pregunta en qué se apoya la teoría si la percepción de objetos no es fiable.", "inference": "La teoría necesita una base que no dependa de lo que cuestiona.", "limit": "La disputa sigue abierta y no se decide con datos por ahora.", "claimIds": ["CLAIM-CON-PERC-SELF-DEFEAT-001"], "evidenceIds": ["EVID-CON-PERC-SELF-DEFEAT-001"], "sourceIds": ["SRC-CON-PERC-BAGWELL-2023", "SRC-CON-PERC-HSP-REPLY-2015"] }
+      ]
+    },
+    {
+      "id": "metas-multiples-2022",
+      "title": "Metas múltiples · la veridicidad vuelve a ganar",
+      "product": "simulación",
+      "stance": "Con muchas metas y percepción inflexible, lo más apto es representar el mundo como es",
+      "layers": [
+        { "kind": "system", "observed": "Sistemas perceptivos que deben servir a varias funciones de utilidad independientes sin reconfigurarse.", "inference": "Se cambia el supuesto de una aptitud única.", "limit": "Es otro modelo, con sus propios supuestos.", "claimIds": ["CLAIM-CON-PERC-BERKE-001"], "evidenceIds": ["EVID-CON-PERC-BERKE-001"], "sourceIds": ["SRC-CON-PERC-BERKE-2022"] },
+        { "kind": "result", "observed": "Al aumentar el número de metas, la ventaja de la interfaz desaparece.", "inference": "Los sistemas más aptos representan el mundo verídicamente.", "limit": "Resultado dentro de las simulaciones publicadas.", "claimIds": ["CLAIM-CON-PERC-BERKE-001"], "evidenceIds": ["EVID-CON-PERC-BERKE-001"], "sourceIds": ["SRC-CON-PERC-BERKE-2022"] },
+        { "kind": "scope", "observed": "Ambientes cambiantes favorecen también percepción parcialmente exacta en otros modelos.", "inference": "La conclusión de FBT es sensible a supuestos ecológicos.", "limit": "Uno de los modelos es una preimpresión sin revisión.", "claimIds": ["CLAIM-CON-PERC-MODEL-DEPENDENCE-001"], "evidenceIds": ["EVID-CON-PERC-ENVIRONMENT-001"], "sourceIds": ["SRC-CON-PERC-ANGELUCCI-2023", "SRC-CON-PERC-CHARAN-2021"] },
+        { "kind": "interpretation", "observed": "Los autores lo leen como apoyo al realismo perceptivo.", "inference": "La veridicidad puede ser la solución evolutiva bajo flexibilidad de metas.", "limit": "No refuta el teorema: cambia uno de sus supuestos.", "claimIds": ["CLAIM-CON-PERC-MODEL-DEPENDENCE-001"], "evidenceIds": ["EVID-CON-PERC-BERKE-001"], "sourceIds": ["SRC-CON-PERC-BERKE-2022"] },
+        { "kind": "leap", "observed": "De ahí no se sigue que veamos el mundo exactamente como es.", "inference": "Se sigue que la evolución puede favorecer representación verídica en algún sentido.", "limit": "El sentido de veridicidad debe declararse.", "claimIds": ["CLAIM-CON-PERC-SENSES-001"], "evidenceIds": ["EVID-CON-PERC-METHOD-001"], "sourceIds": ["SRC-CON-PERC-COHEN-2015"] },
+        { "kind": "test", "observed": "Replicar ambos modelos con parámetros cruzados permitiría ubicar la frontera entre interfaz y veridicidad.", "inference": "La disputa es empíricamente tratable dentro de los modelos.", "limit": "Elegir qué modelo describe a los organismos sigue requiriendo datos biológicos.", "claimIds": ["CLAIM-CON-PERC-VERDICT-001"], "evidenceIds": ["EVID-CON-PERC-BERKE-001"], "sourceIds": ["SRC-CON-PERC-BERKE-2022"] }
+      ]
+    },
+    {
+      "id": "escarabajo-botella-1983",
+      "title": "El escarabajo y la botella · una falla local",
+      "product": "hallazgo empírico",
+      "stance": "Un detector por pistas puede confundir una botella con una hembra",
+      "layers": [
+        { "kind": "system", "observed": "Machos del escarabajo Julodimorpha bakewelli en Australia Occidental.", "inference": "Su detección de pareja usa pistas de color, brillo y relieve.", "limit": "Nota de campo breve, sin cuantificar frecuencia.", "claimIds": ["CLAIM-CON-PERC-BEETLE-001"], "evidenceIds": ["EVID-CON-PERC-BEETLE-001"], "sourceIds": ["SRC-CON-PERC-GWYNNE-1983"] },
+        { "kind": "result", "observed": "Los machos intentaron copular con botellas de cerveza café.", "inference": "El detector responde a pistas que la botella comparte con la hembra.", "limit": "Es un artefacto ajeno a su ambiente evolutivo.", "claimIds": ["CLAIM-CON-PERC-BEETLE-001"], "evidenceIds": ["EVID-CON-PERC-BEETLE-001"], "sourceIds": ["SRC-CON-PERC-GWYNNE-1983"] },
+        { "kind": "scope", "observed": "Estímulos simplificados o exagerados también desencadenan conductas en otras especies.", "inference": "Responder a pistas parciales es común.", "limit": "El experimento clásico de gaviotas se revisó por metadatos y fuentes secundarias.", "claimIds": ["CLAIM-CON-PERC-SUPERNORMAL-001"], "evidenceIds": ["EVID-CON-PERC-SUPERNORMAL-001"], "sourceIds": ["SRC-CON-PERC-TINBERGEN-1951"] },
+        { "kind": "interpretation", "observed": "Hoffman usa el caso como ejemplo de percepción ajustada a la aptitud y no a la verdad.", "inference": "Ilustra que la percepción usa atajos.", "limit": "En su ambiente habitual el escarabajo acierta con las hembras.", "claimIds": ["CLAIM-CON-PERC-LOCAL-FAILURE-001"], "evidenceIds": ["EVID-CON-PERC-BEETLE-001"], "sourceIds": ["SRC-CON-PERC-GWYNNE-1983", "SRC-CON-PERC-HOFFMAN-2019"] },
+        { "kind": "leap", "observed": "Se generaliza a que ninguna percepción muestra la realidad.", "inference": "Es una extrapolación desde un caso límite.", "limit": "Una falla local no demuestra una desconexión global.", "claimIds": ["CLAIM-CON-PERC-LOCAL-FAILURE-001"], "evidenceIds": ["EVID-CON-PERC-SUPERNORMAL-001"], "sourceIds": ["SRC-CON-PERC-TINBERGEN-1951"] },
+        { "kind": "test", "observed": "Comparar la frecuencia de fallas con la de aciertos en el ambiente de origen.", "inference": "Esa proporción separaría falla local de falsedad general.", "limit": "No hay serie cuantitativa publicada para este caso.", "claimIds": ["CLAIM-CON-PERC-LOCAL-FAILURE-001"], "evidenceIds": ["EVID-CON-PERC-BEETLE-001"], "sourceIds": ["SRC-CON-PERC-GWYNNE-1983"] }
+      ]
+    },
+    {
+      "id": "constancia-integracion",
+      "title": "Constancias e integración · fiabilidad estructurada",
+      "product": "hallazgo empírico",
+      "stance": "La percepción conserva invariantes y combina sentidos de forma casi óptima",
+      "layers": [
+        { "kind": "system", "observed": "Personas que juzgan color bajo distintas iluminaciones y estiman tamaño con vista y tacto.", "inference": "Se mide qué se conserva cuando cambian las condiciones.", "limit": "Tareas de laboratorio con estímulos controlados.", "claimIds": ["CLAIM-CON-PERC-CONSTANCY-001", "CLAIM-CON-PERC-INTEGRATION-001"], "evidenceIds": ["EVID-CON-PERC-CONSTANCY-001", "EVID-CON-PERC-INTEGRATION-001"], "sourceIds": ["SRC-CON-PERC-FOSTER-2011", "SRC-CON-PERC-ERNST-2002"] },
+        { "kind": "result", "observed": "El color de una superficie se mantiene en buena medida y vista y tacto se combinan ponderados por su precisión.", "inference": "La percepción sigue invariantes del mundo y aprovecha canales independientes.", "limit": "La constancia es incompleta en escenas naturales.", "claimIds": ["CLAIM-CON-PERC-CONSTANCY-001", "CLAIM-CON-PERC-INTEGRATION-001"], "evidenceIds": ["EVID-CON-PERC-CONSTANCY-001", "EVID-CON-PERC-INTEGRATION-001"], "sourceIds": ["SRC-CON-PERC-FOSTER-2011", "SRC-CON-PERC-ERNST-2002", "SRC-CON-PERC-ERNST-2004"] },
+        { "kind": "scope", "observed": "Dos canales con física distinta convergen en la misma magnitud.", "inference": "La convergencia es difícil de explicar si ninguno conserva estructura del mundo.", "limit": "Convergencia no es semejanza «tal cual».", "claimIds": ["CLAIM-CON-PERC-STRUCTURED-001"], "evidenceIds": ["EVID-CON-PERC-INTEGRATION-001"], "sourceIds": ["SRC-CON-PERC-ERNST-2004"] },
+        { "kind": "interpretation", "observed": "Marcos bayesianos y filosofía de la objetividad usan las constancias como criterio de representación objetiva.", "inference": "Hay fiabilidad estructurada medible.", "limit": "Los marcos se revisaron por registro y citas.", "claimIds": ["CLAIM-CON-PERC-STRUCTURED-001", "CLAIM-CON-PERC-RELATIONAL-001"], "evidenceIds": ["EVID-CON-PERC-REALIST-001"], "sourceIds": ["SRC-CON-PERC-GEISLER-2003", "SRC-CON-PERC-BURGE-2010"] },
+        { "kind": "leap", "observed": "De ahí no se sigue que veamos el mundo exactamente como es.", "inference": "Se sigue que la percepción es una construcción que acierta en invariantes.", "limit": "Que sea construida no la hace falsa, ni que acierte la hace copia.", "claimIds": ["CLAIM-CON-PERC-PREDICTIVE-001"], "evidenceIds": ["EVID-CON-PERC-PREDICTIVE-001"], "sourceIds": ["SRC-CON-PERC-CLARK-2013", "SRC-CON-PERC-SETH-2013"] },
+        { "kind": "test", "observed": "Este proyecto apoya sus observaciones en convergencia entre canales e instrumentos.", "inference": "Esa estrategia exige fiabilidad estructurada, no semejanza.", "limit": "Toda lectura de instrumento termina pasando por la percepción y debe auditarse también ahí.", "claimIds": ["CLAIM-CON-PERC-REFLEXIVE-001"], "evidenceIds": ["EVID-CON-PERC-INTEGRATION-001", "EVID-CON-PERC-METHOD-001"], "sourceIds": ["SRC-CON-PERC-ERNST-2004", "SRC-CON-PERC-COHEN-2015"] }
+      ]
+    }
+  ]
+}
