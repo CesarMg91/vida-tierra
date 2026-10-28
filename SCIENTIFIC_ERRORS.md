@@ -4516,3 +4516,13 @@ Riesgo basal, alternativas y preferencias cambian el balance. **Corrección:** s
 | `ERR-CON-LILLY-BELIEF-TRUE-001` | lo que uno cree se vuelve verdad | confunde la verdad de la experiencia con la del mundo | distinguir efecto de la creencia en quien cree de efecto en el mundo | ACTIVO |
 | `ERR-CON-LILLY-ALL-OR-NOTHING-001` | Lilly fue un genio incomprendido, o un charlatán | su obra mezcla trabajo publicado serio con tesis sin sustento | juzgar cada línea por separado | ACTIVO |
 | `ERR-CON-LILLY-DOLPHIN-SUICIDE-001` | está probado que el delfín Peter se suicidó por amor | la palabra es la interpretación de Lilly; la causa de muerte no está establecida | registrar la interpretación como tal | ACTIVO |
+
+## CON-005 — Agentes conscientes y partículas
+
+| ID | Error | Por qué falla | Corrección operativa | Estado |
+|---|---|---|---|---|
+| `ERR-CON-AP-DERIVED-PHYSICS-001` | Hoffman derivó la física de partículas desde la conciencia | hay una etiqueta combinatoria compartida y una conjetura; masa, momento y espín no se derivan | distinguir etiqueta, correspondencia, derivación y predicción | ACTIVO |
+| `ERR-CON-AP-PERMUTATION-ENOUGH-001` | una permutación decorada contiene toda la física de una dispersión | etiqueta una pieza; faltan cinemática, helicidades y qué piezas sumar | nombrar qué más necesita el cálculo | ACTIVO |
+| `ERR-CON-AP-SEVENTEEN-001` | los 27 vértices del caso de tres agentes dan 17 permutaciones distintas | dan 14; el total posible para tres elementos es 16 | citar el conteo reproducible | ACTIVO |
+| `ERR-CON-AP-SHARED-MEANS-SAME-001` | si agentes y partículas reciben la misma etiqueta, son lo mismo | la misma etiqueta la reciben procesos de exclusión y olas | exigir que el mapa conserve operaciones | ACTIVO |
+| `ERR-CON-AP-MATH-PROVES-CONSCIOUSNESS-001` | la matemática del mapa demuestra que la conciencia es fundamental | el mapa no usa la conciencia; vale para cualquier grafo | separar el mapa de su interpretación | ACTIVO |

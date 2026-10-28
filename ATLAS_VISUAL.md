@@ -1483,3 +1483,26 @@ Generada por el proyecto sin modelos de imagen: `node scripts/generate-con-visua
 ### Revisión y límites
 
 Las tres salidas se inspeccionaron completas tras rasterizar. La portada no contiene texto, personas, animales ni marcas, y no reproduce el tanque de Lilly ni grabaciones reales. La tabla no puntúa la obra: marca qué se sostiene, qué confirmaron otros con otro alcance y qué no se sostiene, según el expediente.
+
+## 79. CON-005 — Una etiqueta no es una derivación
+
+![Portada editorial de CON-005](assets/visuales/hero-con-005-agentes-particulas.png)
+
+![Cadena desde un modelo de agentes hasta una tesis sobre la física](assets/visuales/cadena-modelo-prueba-con-005.svg)
+
+![De 343 patrones de transición a 14 etiquetas](assets/visuales/mapa-markov-permutaciones-con-005.svg)
+
+| Archivo | Tipo | Procedencia | Qué representa | Límite obligatorio |
+|---|---|---|---|---|
+| `hero-con-005-agentes-particulas.png` | portada editorial generativa | rasterizado de `hero-con-005-agentes-particulas.svg` con `scripts/generate-con-visuals.mjs --png=con-005`, 2026-10-27 | un grafo de flechas que se proyecta sobre un círculo de puntos unidos por cuerdas | no representa una cadena de Markov concreta, un diagrama físico ni un dato |
+| `hero-con-005-agentes-particulas.svg` | fuente generativa determinista | SVG producido por `scripts/generate-con-visuals.mjs` con semilla fija | misma composición en vectores | nodos y cuerdas pseudoaleatorios sin información |
+| `cadena-modelo-prueba-con-005.svg` | diagrama epistemológico original | SVG producido por `scripts/generate-con-visuals.mjs`, 2026-10-27 | modelo, resultado, alcance, interpretación, salto y prueba | las flechas no heredan dinámica, derivación, física, metafísica ni confirmación |
+| `mapa-markov-permutaciones-con-005.svg` | figura de evidencia original | SVG producido por `scripts/generate-con-visuals.mjs`, 2026-10-27, con conteos de `scripts/markov-decorated-permutations.mjs` | número de los 343 patrones de transición de tres estados que cae en cada una de las 14 permutaciones decoradas; recuadro con la errata del artículo | conteos para tres estados; no representa probabilidades ni dinámica |
+
+### Procedencia de la portada
+
+Generada por el proyecto sin modelos de imagen: `node scripts/generate-con-visuals.mjs --png=con-005` escribe el SVG con una semilla fija y lo rasteriza con Chromium (Playwright) a `1672 × 941`. Tamaño: `713063` bytes; SHA-256: `097d8806d7e6b2dca5d11fd611df977c1178c115db9a69f9338d7974dab87e0b`. Las portadas de CON-001 a CON-004 se comprobaron byte a byte idénticas tras regenerar.
+
+### Revisión y límites
+
+Las tres salidas se inspeccionaron completas tras rasterizar. En la figura de la reproducción se acortaron las barras para que la nota de la más larga no quedara detrás del recuadro de la errata. Los conteos de la figura salen del mismo módulo que la prueba `tests/markov-decorated-permutations.test.mts`.

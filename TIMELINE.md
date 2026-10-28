@@ -997,3 +997,20 @@ CIV-003 inaugura los expedientes regionales auditados. CIV-001 conserva `TRAZADO
 | `TIME-CON-LILLY-MIRROR-2001-001` | 2001 | autorreconocimiento de delfines en el espejo | hallazgo empírico posterior | `SRC-CON-LILLY-REISS-2001` | A publicación | AUDITADO |
 | `TIME-CON-LILLY-REST-2005-001` | 2005–2018 | metaanálisis y estudios de flotación | estudios clínicos | `SRC-CON-LILLY-VANDIERENDONCK-2005`, `SRC-CON-LILLY-KJELLGREN-2014`, `SRC-CON-LILLY-FEINSTEIN-2018` | A publicación | AUDITADO |
 | `TIME-CON-LILLY-SIGNATURE-2013-001` | 2006 y 2013 | silbidos firma como identidad y como «nombre» | hallazgo empírico posterior | `SRC-CON-LILLY-JANIK-2006`, `SRC-CON-LILLY-KING-2013` | A publicación | AUDITADO |
+
+## CON-005 — Agentes conscientes y partículas
+
+| ID | Fecha/rango | Evento | Producto | Fuentes | Confianza | Estado |
+|---|---|---|---|---|---|---|
+| `TIME-CON-AP-NELSON-1966-001` | 1966 | ecuación de Schrödinger desde un proceso de difusión | derivación | `SRC-CON-AP-NELSON-1966` | A publicación | AUDITADO |
+| `TIME-CON-AP-WALLSTROM-1994-001` | 1994 | inequivalencia entre Schrödinger y las ecuaciones de Madelung | análisis matemático | `SRC-CON-AP-WALLSTROM-1994` | A publicación | AUDITADO |
+| `TIME-CON-AP-HARDY-2001-001` | 2001 | teoría cuántica desde cinco axiomas | reconstrucción | `SRC-CON-AP-HARDY-2001` | B preimpresión | AUDITADO |
+| `TIME-CON-AP-POSTNIKOV-2006-001` | 2006 | celdas de la Grassmanniana no negativa | matemática | `SRC-CON-AP-POSTNIKOV-2006` | B preimpresión | AUDITADO |
+| `TIME-CON-AP-CORTEEL-2007-001` | 2007 | proceso de exclusión y combinatoria de tablas | matemática | `SRC-CON-AP-CORTEEL-2007` | A publicación | AUDITADO |
+| `TIME-CON-AP-RECONSTRUCTION-2011-001` | 2011 | dos reconstrucciones de la teoría cuántica | reconstrucción | `SRC-CON-AP-CHIRIBELLA-2011`, `SRC-CON-AP-MASANES-2011` | A publicación | AUDITADO |
+| `TIME-CON-AP-KLS-2013-001` | 2013 | variedades positroides | matemática | `SRC-CON-AP-KLS-2013` | A publicación | AUDITADO |
+| `TIME-CON-AP-2014-001` | 2014 | agentes conscientes, solitones KP y QBismo | modelo, matemática e interpretación | `SRC-CON-CF-HOFFMAN-PRAKASH-2014`, `SRC-CON-AP-KODAMA-2014`, `SRC-CON-AP-QBISM-2014` | A publicación | AUDITADO |
+| `TIME-CON-AP-AHH-2021-001` | 2021 | amplitudes para todas las masas y espines | física matemática | `SRC-CON-AP-AHH-2021` | A publicación | AUDITADO |
+| `TIME-CON-AP-FUSIONS-2023-001` | enero de 2023 | mapa de cadenas de Markov a permutaciones decoradas | definición y conjetura | `SRC-CON-ST-HOFFMAN-2023` | A publicación | AUDITADO |
+| `TIME-CON-AP-TRACES-2024-001` | octubre de 2024 | orden de trazas y ruta hacia pruebas | preimpresión | `SRC-CON-AP-TRACES-2024` | B preimpresión | AUDITADO |
+| `TIME-CON-AP-REPRODUCTION-2026-001` | 27 de octubre de 2026 | reproducción independiente del mapa y conteo de 14 permutaciones | reproducción computacional | `SRC-CON-ST-HOFFMAN-2023` | A reproducción | AUDITADO |

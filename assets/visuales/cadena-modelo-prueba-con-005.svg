@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Cadena desde un modelo de agentes hasta una tesis sobre la física</title>
+  <desc id="desc">Seis capas: modelo, resultado, alcance, interpretación, salto metafísico y prueba. Entre cada par hay un cortafuegos que impide heredar la confianza de la capa anterior.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#101a1f"/><stop offset="1" stop-color="#16282b"/></linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="160%"><feDropShadow dx="0" dy="12" stdDeviation="12" flood-color="#000" flood-opacity=".3"/></filter>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <text x="92" y="92" fill="#8fd3c6" font-family="Arial, sans-serif" font-size="23" font-weight="700" letter-spacing="4">CON-005 · CADENA DE INFERENCIA</text>
+  <text x="92" y="152" fill="#f4f1e8" font-family="Georgia, serif" font-size="46" font-weight="700">Una etiqueta no es una derivación</text>
+  <text x="92" y="198" fill="#c6d0cc" font-family="Arial, sans-serif" font-size="24">Cada paso añade supuestos; la confianza de un paso no viaja sola al siguiente.</text>
+  <g filter="url(#shadow)"><rect x="92" y="300" width="222" height="250" rx="18" fill="#e8f1ee"/></g>
+  <text x="114" y="350" fill="#2f6f66" font-family="Arial, sans-serif" font-size="20" font-weight="700" letter-spacing="2">01</text>
+  <text x="114" y="392" fill="#14201f" font-family="Georgia, serif" font-size="21" font-weight="700">Modelo</text>
+  <foreignObject x="114" y="410" width="178" height="120"><p xmlns="http://www.w3.org/1999/xhtml" style="margin:0;font:20px/1.35 Arial,sans-serif;color:#34403e">agentes como núcleos de Markov</p></foreignObject>
+  <g filter="url(#shadow)"><rect x="332" y="300" width="222" height="250" rx="18" fill="#e8f1ee"/></g>
+  <text x="354" y="350" fill="#2f6f66" font-family="Arial, sans-serif" font-size="20" font-weight="700" letter-spacing="2">02</text>
+  <text x="354" y="392" fill="#14201f" font-family="Georgia, serif" font-size="21" font-weight="700">Resultado</text>
+  <foreignObject x="354" y="410" width="178" height="120"><p xmlns="http://www.w3.org/1999/xhtml" style="margin:0;font:20px/1.35 Arial,sans-serif;color:#34403e">mapa definido y reproducido</p></foreignObject>
+  <g filter="url(#shadow)"><rect x="572" y="300" width="222" height="250" rx="18" fill="#e8f1ee"/></g>
+  <text x="594" y="350" fill="#2f6f66" font-family="Arial, sans-serif" font-size="20" font-weight="700" letter-spacing="2">03</text>
+  <text x="594" y="392" fill="#14201f" font-family="Georgia, serif" font-size="21" font-weight="700">Alcance</text>
+  <foreignObject x="594" y="410" width="178" height="120"><p xmlns="http://www.w3.org/1999/xhtml" style="margin:0;font:20px/1.35 Arial,sans-serif;color:#34403e">qué conserva y qué descarta el mapa</p></foreignObject>
+  <g filter="url(#shadow)"><rect x="812" y="300" width="222" height="250" rx="18" fill="#f3e6cf"/></g>
+  <text x="834" y="350" fill="#2f6f66" font-family="Arial, sans-serif" font-size="20" font-weight="700" letter-spacing="2">04</text>
+  <text x="834" y="392" fill="#14201f" font-family="Georgia, serif" font-size="21" font-weight="700">Interpretación</text>
+  <foreignObject x="834" y="410" width="178" height="120"><p xmlns="http://www.w3.org/1999/xhtml" style="margin:0;font:20px/1.35 Arial,sans-serif;color:#34403e">partícula como proyección de agentes</p></foreignObject>
+  <g filter="url(#shadow)"><rect x="1052" y="300" width="222" height="250" rx="18" fill="#f3e6cf"/></g>
+  <text x="1074" y="350" fill="#2f6f66" font-family="Arial, sans-serif" font-size="20" font-weight="700" letter-spacing="2">05</text>
+  <text x="1074" y="392" fill="#14201f" font-family="Georgia, serif" font-size="21" font-weight="700">Salto</text>
+  <foreignObject x="1074" y="410" width="178" height="120"><p xmlns="http://www.w3.org/1999/xhtml" style="margin:0;font:20px/1.35 Arial,sans-serif;color:#34403e">la física sale de la conciencia</p></foreignObject>
+  <g filter="url(#shadow)"><rect x="1292" y="300" width="222" height="250" rx="18" fill="#e6ecf5"/></g>
+  <text x="1314" y="350" fill="#2f6f66" font-family="Arial, sans-serif" font-size="20" font-weight="700" letter-spacing="2">06</text>
+  <text x="1314" y="392" fill="#14201f" font-family="Georgia, serif" font-size="21" font-weight="700">Prueba</text>
+  <foreignObject x="1314" y="410" width="178" height="120"><p xmlns="http://www.w3.org/1999/xhtml" style="margin:0;font:20px/1.35 Arial,sans-serif;color:#34403e">predicción física nueva y confirmada</p></foreignObject>
+  <line x1="323" y1="580" x2="323" y2="640" stroke="#d9785b" stroke-width="3"/>
+  <text x="323" y="676" text-anchor="middle" fill="#f0b39c" font-family="Arial, sans-serif" font-size="19">≠ dinámica</text>
+  <line x1="563" y1="580" x2="563" y2="640" stroke="#d9785b" stroke-width="3"/>
+  <text x="563" y="676" text-anchor="middle" fill="#f0b39c" font-family="Arial, sans-serif" font-size="19">≠ derivación</text>
+  <line x1="803" y1="580" x2="803" y2="640" stroke="#d9785b" stroke-width="3"/>
+  <text x="803" y="676" text-anchor="middle" fill="#f0b39c" font-family="Arial, sans-serif" font-size="19">≠ física</text>
+  <line x1="1043" y1="580" x2="1043" y2="640" stroke="#d9785b" stroke-width="3"/>
+  <text x="1043" y="676" text-anchor="middle" fill="#f0b39c" font-family="Arial, sans-serif" font-size="19">≠ metafísica</text>
+  <line x1="1283" y1="580" x2="1283" y2="640" stroke="#d9785b" stroke-width="3"/>
+  <text x="1283" y="676" text-anchor="middle" fill="#f0b39c" font-family="Arial, sans-serif" font-size="19">≠ confirmación</text>
+  <text x="92" y="790" fill="#9fb0ab" font-family="Arial, sans-serif" font-size="20">Verde: lo que se define, calcula o reproduce. Ocre: lo que se conjetura o afirma. Azul: lo que podría decidirlo.</text>
+</svg>

@@ -252,6 +252,7 @@ Entregas públicas: MED-001 = `v0.3.0`; MED-002 = `v0.3.1`; MED-003 = `v0.3.2`; 
 | CON-002 | `INV-CON-SPACETIME-FUNDAMENTAL-002` | [Espacio-tiempo fundamental: modelo, resultado, alcance, interpretación, salto metafísico y prueba](26_conciencia/INVESTIGACION_CON_002_ESPACIO_TIEMPO.md) | **AUDITADO** |
 | CON-003 | `INV-CON-CONSCIOUSNESS-FUNDAMENTAL-003` | [Conciencia fundamental: planteamiento, resultado, alcance, interpretación, salto metafísico y prueba](26_conciencia/INVESTIGACION_CON_003_CONCIENCIA_FUNDAMENTAL.md) | **AUDITADO** |
 | CON-004 | `INV-CON-LILLY-004` | [John C. Lilly: registro, resultado, alcance, interpretación, salto metafísico y prueba](26_conciencia/INVESTIGACION_CON_004_JOHN_LILLY.md) | **AUDITADO** |
+| CON-005 | `INV-CON-AGENTS-PARTICLES-005` | [Agentes conscientes y partículas: modelo, resultado, alcance, interpretación, salto metafísico y prueba](26_conciencia/INVESTIGACION_CON_005_AGENTES_PARTICULAS.md) | **AUDITADO** |
 
 CON es la única línea cuyo objeto es el propio observador. CON-001 audita el teorema «la aptitud le gana a la verdad», los juegos de interfaz y sus críticas, y separa lo demostrado dentro de modelos de la tesis sobre espacio-tiempo y objetos. El programa CON-002–CON-006 está en [PROGRAMA_CONCIENCIA.md](26_conciencia/PROGRAMA_CONCIENCIA.md), con contrato común en [ESTANDAR_EVIDENCIA_CONCIENCIA.md](26_conciencia/ESTANDAR_EVIDENCIA_CONCIENCIA.md). CIV y MED conservan su numeración y programa.
 
@@ -261,6 +262,8 @@ CON-003 compara si la conciencia puede ser lo fundamental: el problema difícil,
 
 CON-004 es un caso histórico: audita la obra de John C. Lilly línea por línea y la contrasta con lo que otros midieron después (cognición de delfines, flotación, ketamina controlada). Al incorporarlo, el puente matemático pasó a CON-005 y los psicodélicos a CON-006.
 
-La siguiente investigación prevista es CON-005: qué conecta agentes conscientes y física de partículas, separando lo demostrado (mapas matemáticos) de lo prometido (predicciones).
+CON-005 audita el puente entre agentes conscientes y física de partículas. Reproduce el mapa de 2023 con un script y una prueba del repositorio: el mapa es correcto, sólo usa el grafo de transiciones, vale para cualquier grafo y el texto original cuenta 17 permutaciones donde hay 14. Concluye que hay una etiqueta compartida, no una derivación ni una predicción.
 
-Entregas públicas: CON-001 = `v0.4.0`; CON-002 = `v0.4.1`; CON-003 = `v0.4.2`; CON-004 = `v0.4.3`.
+La siguiente investigación prevista es CON-006: qué enseñan los psicodélicos sobre percepción y conciencia, sin recomendar su uso.
+
+Entregas públicas: CON-001 = `v0.4.0`; CON-002 = `v0.4.1`; CON-003 = `v0.4.2`; CON-004 = `v0.4.3`; CON-005 = `v0.4.4`.

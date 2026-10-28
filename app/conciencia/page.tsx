@@ -5,6 +5,7 @@ import { ArrowDown, ArrowRight, ShieldCheck } from "lucide-react";
 import PerceptionRealityLab from "../../components/PerceptionRealityLab";
 import { perceptionRealityEvidence } from "../../lib/perception-reality-evidence";
 import { consciousnessFundamentalEvidence } from "../../lib/consciousness-fundamental-evidence";
+import { agentsParticlesEvidence } from "../../lib/agents-particles-evidence";
 import { lillyEvidence } from "../../lib/lilly-evidence";
 import { spacetimeFundamentalEvidence } from "../../lib/spacetime-fundamental-evidence";
 import { getCatalog } from "../../lib/public-data";
@@ -12,7 +13,7 @@ import { createPageMetadata } from "../../lib/site";
 
 export const metadata: Metadata = createPageMetadata({
   title: "Conciencia y percepción — qué garantiza la observación",
-  description: "Cómo auditamos si la percepción refleja la realidad, si el espacio-tiempo es fundamental y si la conciencia puede serlo, y qué queda de la obra de John C. Lilly, sin confundir un teorema, una conjetura, una observación, una interpretación y una tesis metafísica.",
+  description: "Cómo auditamos si la percepción refleja la realidad, si el espacio-tiempo es fundamental y si la conciencia puede serlo, qué queda de la obra de John C. Lilly y qué conecta agentes conscientes con partículas, sin confundir un teorema, una conjetura, una observación, una interpretación y una tesis metafísica.",
   pathname: "/conciencia",
   image: "/assets/visuales/hero-con-001-percepcion-interfaz.png",
 });
@@ -25,6 +26,14 @@ const principles = [
   ["Emergente no es ilusorio", "Si el espacio-tiempo surge de algo más profundo, sigue siendo la descripción correcta allí donde se ha probado, como la temperatura."],
   ["Interfaz no es metafísica", "Pasar de «percibimos una interfaz» o «el espacio-tiempo no es fundamental» a «la conciencia es lo fundamental» exige otro expediente."],
 ] as const;
+
+const agentsCopy = {
+  dossier: "CON-005",
+  emptyText: "No hay un expediente cargado. Es un estado vacío, no evidencia a favor ni en contra del puente entre agentes y partículas.",
+  firstLayer: "Modelo",
+  footerTitle: "Una etiqueta no es una derivación.",
+  footerText: "Modelo, resultado, alcance, interpretación, salto metafísico y prueba permanecen separados antes de concluir qué conecta agentes conscientes y partículas.",
+};
 
 const lillyCopy = {
   dossier: "CON-004",
@@ -68,12 +77,13 @@ export default function ConsciousnessPage() {
         <div className="medicine-hero-copy">
           <p className="eyebrow">Conciencia y percepción</p>
           <h1>Del observador a la física</h1>
-          <p>Primero, si la percepción refleja la realidad. Después, si el espacio-tiempo es fundamental. Luego, si la conciencia puede serlo. Y un caso histórico: qué queda de John C. Lilly. En cada paso se separa lo demostrado, lo calculado, lo observado, lo interpretado y lo que ya es metafísica.</p>
+          <p>Primero, si la percepción refleja la realidad. Después, si el espacio-tiempo es fundamental. Luego, si la conciencia puede serlo. Y un caso histórico: qué queda de John C. Lilly. Después, qué conecta agentes conscientes y partículas. En cada paso se separa lo demostrado, lo calculado, lo observado, lo interpretado y lo que ya es metafísica.</p>
           <div>
             <Link className="button button-primary" href="#percepcion-realidad">Auditar la percepción <ArrowDown aria-hidden="true" /></Link>
             <Link className="medicine-text-link" href="#espacio-tiempo">Auditar el espacio-tiempo <ArrowDown aria-hidden="true" /></Link>
             <Link className="medicine-text-link" href="#conciencia-fundamental">Auditar la conciencia <ArrowDown aria-hidden="true" /></Link>
             <Link className="medicine-text-link" href="#john-lilly">El caso Lilly <ArrowDown aria-hidden="true" /></Link>
+            <Link className="medicine-text-link" href="#agentes-particulas">Agentes y partículas <ArrowDown aria-hidden="true" /></Link>
           </div>
         </div>
         <p className="medicine-visual-limit">Composición generativa no probatoria: no representa un resultado, un dato ni una estructura física real.</p>
@@ -151,8 +161,26 @@ export default function ConsciousnessPage() {
         <PerceptionRealityLab data={lillyEvidence} copy={lillyCopy} />
       </section>
 
+      <section className="medicine-lab-section documentary-lab-section" id="agentes-particulas" aria-labelledby="agents-lab-title">
+        <div className="section-heading">
+          <div><p className="eyebrow">CON-005 · laboratorio del puente</p><h2 id="agents-lab-title">De la etiqueta a la predicción</h2></div>
+          <p>Reproducimos el mapa de cadenas de Markov a permutaciones decoradas con un script del repositorio. Las seis capas separan lo que el mapa define, lo que conserva, lo que se conjetura y lo que haría falta para hablar de física derivada.</p>
+        </div>
+        <figure className="consciousness-figure">
+          <Image
+            src="/assets/visuales/mapa-markov-permutaciones-con-005.svg"
+            alt="Barras de las 14 permutaciones decoradas que produce el mapa con tres estados y cuántos de los 343 patrones de transición caen en cada una: 144 en la clase de tres estados; un recuadro señala que el artículo dice 17 donde hay 14 y que sólo existen 16 posibles"
+            width={1600}
+            height={900}
+            sizes="(max-width: 1200px) 100vw, 1120px"
+          />
+          <figcaption>343 patrones de transición, 14 etiquetas. El mapa ignora las probabilidades; el texto original cuenta 17.</figcaption>
+        </figure>
+        <PerceptionRealityLab data={agentsParticlesEvidence} copy={agentsCopy} />
+      </section>
+
       <section className="medicine-dossiers" aria-labelledby="consciousness-dossiers-title">
-        <div className="section-heading"><div><p className="eyebrow">Corpus canónico</p><h2 id="consciousness-dossiers-title">{dossiers.length === 1 ? "1 expediente auditado" : `${dossiers.length} expedientes auditados`}</h2></div><p>La serie sigue con el puente matemático entre agentes conscientes y partículas, y con los psicodélicos como herramienta para estudiar la percepción. Cada uno tendrá su propio expediente.</p></div>
+        <div className="section-heading"><div><p className="eyebrow">Corpus canónico</p><h2 id="consciousness-dossiers-title">{dossiers.length === 1 ? "1 expediente auditado" : `${dossiers.length} expedientes auditados`}</h2></div><p>La serie sigue con los psicodélicos como herramienta para estudiar la percepción, sin recomendar su uso. Cada uno tendrá su propio expediente.</p></div>
         <div>{dossiers.map((record) => <article key={record.key}><span>{record.key}</span><p>{record.status} · {record.readingMinutes} min</p><h3>{record.shortTitle}</h3><p>{record.summary}</p><Link href={`/${record.slug}`}>Abrir expediente <ArrowRight aria-hidden="true" /></Link></article>)}</div>
       </section>
     </div>

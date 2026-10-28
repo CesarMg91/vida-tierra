@@ -370,6 +370,118 @@ function lillyLines() {
 `;
 }
 
+const chainCon005 = {
+  steps: [
+    ["Modelo", "agentes como núcleos de Markov"],
+    ["Resultado", "mapa definido y reproducido"],
+    ["Alcance", "qué conserva y qué descarta el mapa"],
+    ["Interpretación", "partícula como proyección de agentes"],
+    ["Salto", "la física sale de la conciencia"],
+    ["Prueba", "predicción física nueva y confirmada"],
+  ],
+  firewalls: ["≠ dinámica", "≠ derivación", "≠ física", "≠ metafísica", "≠ confirmación"],
+  title: "Cadena desde un modelo de agentes hasta una tesis sobre la física",
+  kicker: "CON-005 · CADENA DE INFERENCIA",
+  headline: "Una etiqueta no es una derivación",
+  legend: "Verde: lo que se define, calcula o reproduce. Ocre: lo que se conjetura o afirma. Azul: lo que podría decidirlo.",
+};
+
+function heroAgents() {
+  const W = 1672;
+  const H = 941;
+  const rand = rng(3010);
+  const parts = [];
+  // Izquierda-centro: grafo de transiciones (puntos con flechas curvas).
+  const nodes = [];
+  for (let i = 0; i < 26; i += 1) nodes.push([W * 0.45 + rand() * W * 0.2, H * 0.18 + rand() * H * 0.64]);
+  for (let i = 0; i < nodes.length; i += 1) {
+    for (let e = 0; e < 2; e += 1) {
+      const j = Math.floor(rand() * nodes.length);
+      if (j === i) continue;
+      const [x1, y1] = nodes[i];
+      const [x2, y2] = nodes[j];
+      const mx = (x1 + x2) / 2 + (y2 - y1) * 0.25;
+      const my = (y1 + y2) / 2 - (x2 - x1) * 0.25;
+      parts.push(`<path d="M${f(x1)} ${f(y1)}Q${f(mx)} ${f(my)} ${f(x2)} ${f(y2)}" fill="none" stroke="#9cb7d8" stroke-opacity=".32" stroke-width="1.2" marker-end="url(#arr)"/>`);
+    }
+  }
+  for (const [x, y] of nodes) parts.push(`<circle cx="${f(x)}" cy="${f(y)}" r="5" fill="#e9b65c" fill-opacity=".85"/>`);
+  // Derecha: círculo con puntos numerados unidos por cuerdas, como un diagrama de permutación.
+  const cx = W * 0.83;
+  const cy = H * 0.5;
+  const R = 230;
+  const k = 12;
+  const pts = Array.from({ length: k }, (_, i) => [cx + R * Math.cos((i / k) * 2 * Math.PI - Math.PI / 2), cy + R * Math.sin((i / k) * 2 * Math.PI - Math.PI / 2)]);
+  parts.push(`<circle cx="${f(cx)}" cy="${f(cy)}" r="${R}" fill="none" stroke="#8fd3c6" stroke-opacity=".5" stroke-width="1.6"/>`);
+  for (let i = 0; i < k; i += 1) {
+    const j = (i + 3 + Math.floor(rand() * 4)) % k;
+    const [x1, y1] = pts[i];
+    const [x2, y2] = pts[j];
+    parts.push(`<path d="M${f(x1)} ${f(y1)}Q${f(cx)} ${f(cy)} ${f(x2)} ${f(y2)}" fill="none" stroke="#8fd3c6" stroke-opacity=".55" stroke-width="1.4"/>`);
+  }
+  for (const [x, y] of pts) parts.push(`<circle cx="${f(x)}" cy="${f(y)}" r="6" fill="#efe6d2" fill-opacity=".9"/>`);
+  // Haz de proyección tenue entre ambos.
+  for (let i = 0; i < 9; i += 1) {
+    const [x1, y1] = nodes[Math.floor(rand() * nodes.length)];
+    const [x2, y2] = pts[Math.floor(rand() * k)];
+    parts.push(`<line x1="${f(x1)}" y1="${f(y1)}" x2="${f(x2)}" y2="${f(y2)}" stroke="#e9b65c" stroke-opacity=".12" stroke-width="1" stroke-dasharray="4 6"/>`);
+  }
+  return `<svg xmlns="http://www.w3.org/2000/svg" width="${W}" height="${H}" viewBox="0 0 ${W} ${H}" role="img" aria-labelledby="title desc">
+  <title id="title">Un grafo de flechas que se proyecta sobre un círculo de puntos unidos por cuerdas</title>
+  <desc id="desc">Composición generativa abstracta: a la izquierda, puntos unidos por flechas curvas; a la derecha, un círculo con doce puntos unidos por cuerdas; entre ambos, líneas punteadas tenues. No representa una cadena de Markov concreta, un diagrama físico ni un dato.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#101a1f"/><stop offset=".55" stop-color="#13262a"/><stop offset="1" stop-color="#0c1517"/></linearGradient>
+    <radialGradient id="glow" cx=".8" cy=".5" r=".4"><stop stop-color="#2c6d64" stop-opacity=".4"/><stop offset="1" stop-color="#2c6d64" stop-opacity="0"/></radialGradient>
+    <marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#9cb7d8" fill-opacity=".6"/></marker>
+    <linearGradient id="fadeL" x1="0" y1="0" x2="1" y2="0"><stop offset=".3" stop-color="#101a1f"/><stop offset=".48" stop-color="#101a1f" stop-opacity="0"/></linearGradient>
+  </defs>
+  <rect width="${W}" height="${H}" fill="url(#bg)"/>
+  <rect width="${W}" height="${H}" fill="url(#glow)"/>
+  ${parts.join("\n  ")}
+  <rect width="${W}" height="${H}" fill="url(#fadeL)"/>
+</svg>
+`;
+}
+
+function markovPermutationsFigure() {
+  // Conteos calculados con scripts/markov-decorated-permutations.mjs para tres estados.
+  const rows = [
+    ["[3,4,5]", 144, "una sola clase con los tres estados"],
+    ["[4,2,3]", 32, ""], ["[1,5,3]", 32, ""], ["[1,2,6]", 32, "un estado absorbente, dos transitorios"],
+    ["[2,4,3]", 24, ""], ["[1,3,5]", 24, ""], ["[3,2,4]", 24, "una clase de dos y un transitorio"],
+    ["[4,2,6]", 6, ""], ["[4,5,3]", 6, ""], ["[1,5,6]", 6, "dos absorbentes y un transitorio"],
+    ["[4,3,5]", 4, ""], ["[2,4,6]", 4, ""], ["[3,5,4]", 4, "una clase de dos y un absorbente"],
+    ["[4,5,6]", 1, "tres absorbentes (identidad)"],
+  ];
+  const x0 = 250;
+  const maxW = 540;
+  const y0 = 250;
+  const rh = 36;
+  const bars = rows
+    .map(([label, count, note], i) => {
+      const y = y0 + i * rh;
+      const w = Math.max(3, (count / 144) * maxW);
+      return `<text x="${x0 - 18}" y="${y + 21}" text-anchor="end" fill="#f4f1e8" font-family="Courier New, monospace" font-size="19">${label}</text>
+  <rect x="${x0}" y="${y + 5}" width="${f(w)}" height="22" rx="4" fill="#8fd3c6" fill-opacity=".8"/>
+  <text x="${f(x0 + w + 12)}" y="${y + 22}" fill="#c6d0cc" font-family="Arial, sans-serif" font-size="17">${count}${note ? ` · ${note}` : ""}</text>`;
+    })
+    .join("\n  ");
+  return `<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">De 343 patrones de transición a 14 etiquetas: lo que conserva y lo que descarta el mapa</title>
+  <desc id="desc">Barras horizontales para las 14 permutaciones decoradas que produce el mapa de 2023 con tres estados, con el número de patrones de transición, de un total de 343, que cae en cada una: 144 en la clase de tres estados y entre 1 y 32 en las demás. Panel lateral: el texto del artículo dice 17 permutaciones; su tabla y la reproducción dan 14; el máximo posible es 16.</desc>
+  <defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#101a1f"/><stop offset="1" stop-color="#16282b"/></linearGradient></defs>
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <text x="92" y="92" fill="#8fd3c6" font-family="Arial, sans-serif" font-size="23" font-weight="700" letter-spacing="4">CON-005 · REPRODUCCIÓN DEL MAPA</text>
+  <text x="92" y="152" fill="#f4f1e8" font-family="Georgia, serif" font-size="44" font-weight="700">343 patrones de transición, 14 etiquetas</text>
+  <text x="92" y="198" fill="#c6d0cc" font-family="Arial, sans-serif" font-size="23">Con tres estados, el mapa ignora las probabilidades y agrupa todas las dinámicas posibles en 14 permutaciones decoradas.</text>
+  ${bars}
+  <rect x="1210" y="420" width="300" height="230" rx="16" fill="#f3e6cf"/>
+  <foreignObject x="1232" y="440" width="256" height="196"><p xmlns="http://www.w3.org/1999/xhtml" style="margin:0;font:19px/1.4 Arial,sans-serif;color:#22302e"><b>Errata del artículo</b><br/>El texto dice 17 permutaciones distintas para los 27 vértices. Su propia tabla y esta reproducción dan 14. Con tres elementos sólo existen 16.</p></foreignObject>
+  <text x="92" y="850" fill="#9fb0ab" font-family="Arial, sans-serif" font-size="18">Cálculo reproducible: scripts/markov-decorated-permutations.mjs. Escala lineal; la barra más larga es 144.</text>
+</svg>
+`;
+}
+
 function heroSpacetime() {
   const W = 1672;
   const H = 941;
@@ -508,6 +620,10 @@ const heroLillySvg = heroLilly();
 fs.writeFileSync(path.join(OUT, "hero-con-004-john-lilly.svg"), heroLillySvg);
 fs.writeFileSync(path.join(OUT, "cadena-modelo-prueba-con-004.svg"), chain(chainCon004));
 fs.writeFileSync(path.join(OUT, "lineas-lilly-con-004.svg"), lillyLines());
+const heroAgentsSvg = heroAgents();
+fs.writeFileSync(path.join(OUT, "hero-con-005-agentes-particulas.svg"), heroAgentsSvg);
+fs.writeFileSync(path.join(OUT, "cadena-modelo-prueba-con-005.svg"), chain(chainCon005));
+fs.writeFileSync(path.join(OUT, "mapa-markov-permutaciones-con-005.svg"), markovPermutationsFigure());
 
 // --png rasteriza todas las portadas; --png=con-002 sólo las indicadas, para no reescribir PNG ya auditados.
 const pngArg = process.argv.find((arg) => arg.startsWith("--png"));
@@ -518,6 +634,7 @@ if (pngArg) {
     ["con-002", heroSpacetimeSvg, "hero-con-002-espacio-tiempo.png"],
     ["con-003", heroConsciousnessSvg, "hero-con-003-conciencia-fundamental.png"],
     ["con-004", heroLillySvg, "hero-con-004-john-lilly.png"],
+    ["con-005", heroAgentsSvg, "hero-con-005-agentes-particulas.png"],
   ].filter(([key]) => !only || key === only);
   const { chromium } = await import("@playwright/test");
   const browser = await chromium.launch();

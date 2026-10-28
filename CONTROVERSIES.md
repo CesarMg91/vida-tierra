@@ -3515,3 +3515,12 @@ Emular un ensayo objetivo corrige errores de diseño, no confusión no medida. *
 | `CONT-CON-LILLY-ETHICS-001` | ¿cómo juzgar la ética de St. Thomas? | fallas graves de bienestar animal incluso para su época | debe juzgarse con criterios de los años sesenta | documentos primarios del laboratorio y de sus financiadores | ABIERTA |
 | `CONT-CON-LILLY-FIRST-PERSON-001` | ¿pueden los informes bajo sustancias ser datos científicos? | sí, como datos sobre la experiencia, con métodos fenomenológicos | no, sin controles no informan ni sobre la experiencia | protocolos que integren informes con medidas independientes | ABIERTA |
 | `CONT-CON-LILLY-LEGACY-001` | ¿cuánto le debe la investigación actual con ketamina y aislamiento a Lilly? | fue un precursor reconocido | los programas actuales surgieron por otras vías | historia de las citas y de los programas de investigación | ABIERTA |
+
+## CON-005 — Agentes conscientes y partículas
+
+| ID | Pregunta | Hipótesis principal | Alternativa | Evidencia discriminante | Estado |
+|---|---|---|---|---|---|
+| `CONT-CON-AP-SHARED-LABEL-001` | ¿indica una etiqueta combinatoria compartida una relación profunda? | agentes y partículas comparten estructura porque una proyecta a la otra | la Grassmanniana positiva es tan general que aparece en muchos sistemas sin relación | un mapa que conserve operaciones y prediga algo | ABIERTA |
+| `CONT-CON-AP-DYNAMICS-001` | ¿puede el mapa conservar la dinámica de los agentes? | una versión futura usará las probabilidades | la reducción al grafo es esencial al método | publicación de un mapa que use la dinámica completa | ABIERTA |
+| `CONT-CON-AP-PREDICTION-001` | ¿qué predicción física podría derivarse del programa? | datos de dispersión pondrán a prueba la teoría | la teoría reproduce, a lo sumo, la física conocida | una predicción publicada y confirmada | ABIERTA |
+| `CONT-CON-AP-CONSCIOUSNESS-ROLE-001` | ¿qué papel tiene la conciencia en un modelo cuya matemática no la usa? | la interpretación consciente es la motivación y el contenido metafísico | la conciencia es una premisa ociosa para el mapa | una consecuencia matemática que dependa de que los agentes sean conscientes | ABIERTA |

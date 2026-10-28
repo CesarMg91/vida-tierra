@@ -226,6 +226,8 @@ La clasificación expresa cuánto restringe hoy la evidencia, no cuán interesan
 | `OPEN-CON-CF-ATTRIBUTION-001` | ¿Cómo saber si un sistema sin reporte es consciente? | índices de complejidad y conciencia oculta en pacientes | sin reporte, la atribución depende de la teoría; animales y máquinas sin criterio acordado | D |
 | `OPEN-CON-LILLY-REST-001` | ¿Tiene la flotación un efecto propio, distinto de la relajación y la expectativa? | estudios favorables pero sin cegamiento ni control activo | faltan ensayos con control creíble y seguimiento | C |
 | `OPEN-CON-LILLY-ARCHIVE-001` | ¿Qué dicen los documentos primarios del laboratorio de St. Thomas? | la cronología pública se apoya en periodismo y testimonios tardíos | archivos de financiamiento y del laboratorio no auditados | D |
+| `OPEN-CON-AP-DYNAMICS-001` | ¿Existe un mapa entre agentes y diagramas que conserve la dinámica y la composición? | el mapa publicado sólo usa el grafo de transiciones | no se ha publicado una versión que use las probabilidades | E |
+| `OPEN-CON-AP-PREDICTION-001` | ¿Qué predicción física distinguiría la teoría de agentes de la física estándar? | se propone una ruta con datos de dispersión | ninguna predicción publicada al corte | E |
 
 ## Tipos de “no sabemos”
 

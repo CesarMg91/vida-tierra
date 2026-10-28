@@ -1,0 +1,118 @@
+{
+  "schemaVersion": 1,
+  "researchSlug": "26_conciencia/INVESTIGACION_CON_005_AGENTES_PARTICULAS",
+  "cases": [
+    {
+      "id": "mapa-markov-2023",
+      "title": "El mapa de 2023 · de cadenas de Markov a permutaciones",
+      "product": "resultado matemático",
+      "stance": "A cada cadena de Markov le corresponde una permutación decorada",
+      "layers": [
+        { "kind": "system", "observed": "Agentes conscientes modelados como núcleos de Markov sobre n estados.", "inference": "La dinámica de agentes es una matriz de probabilidades de transición.", "limit": "Que los agentes sean conscientes es un supuesto del modelo.", "claimIds": ["CLAIM-CON-AP-AGENT-MODEL-001"], "evidenceIds": ["EVID-CON-AP-AGENT-MODEL-001"], "sourceIds": ["SRC-CON-CF-HOFFMAN-PRAKASH-2014", "SRC-CON-CF-FIELDS-2018"] },
+        { "kind": "result", "observed": "La definición 2 asigna a cada núcleo una permutación según sus estados transitorios, absorbentes y clases comunicantes.", "inference": "Existe un mapa bien definido entre ambas estructuras.", "limit": "Es una definición, no un teorema sobre la física.", "claimIds": ["CLAIM-CON-AP-MAP-DEFINED-001"], "evidenceIds": ["EVID-CON-AP-MAP-001"], "sourceIds": ["SRC-CON-ST-HOFFMAN-2023"] },
+        { "kind": "scope", "observed": "Una implementación independiente reproduce las 27 filas del apéndice B.", "inference": "El cálculo es correcto y reproducible.", "limit": "La reproducción confirma el mapa, no su interpretación.", "claimIds": ["CLAIM-CON-AP-MAP-REPRODUCED-001"], "evidenceIds": ["EVID-CON-AP-REPRODUCTION-001"], "sourceIds": ["SRC-CON-ST-HOFFMAN-2023"] },
+        { "kind": "interpretation", "observed": "Los autores dicen que el mapa entre cadenas de Markov y permutaciones decoradas era un problema abierto.", "inference": "La definición llena un hueco formal que ellos mismos plantearon.", "limit": "Su utilidad física depende de lo que el mapa conserve.", "claimIds": ["CLAIM-CON-AP-MAP-DEFINED-001", "CLAIM-CON-AP-BRIDGE-SENSES-001"], "evidenceIds": ["EVID-CON-AP-MAP-001", "EVID-CON-AP-METHOD-001"], "sourceIds": ["SRC-CON-ST-HOFFMAN-2023"] },
+        { "kind": "leap", "observed": "Se presenta como la conexión entre la conciencia y la física de partículas.", "inference": "Es una etiqueta compartida entre dos estructuras.", "limit": "No se sigue una derivación de la física: es el sentido más débil de «conectar».", "claimIds": ["CLAIM-CON-AP-BRIDGE-SENSES-001", "CLAIM-CON-AP-VERDICT-001"], "evidenceIds": ["EVID-CON-AP-METHOD-001"], "sourceIds": ["SRC-CON-ST-HOFFMAN-2023"] },
+        { "kind": "test", "observed": "La prueba en el repositorio compara la implementación con la tabla publicada.", "inference": "Cualquiera puede repetir el cálculo.", "limit": "Probar el mapa no prueba la tesis.", "claimIds": ["CLAIM-CON-AP-MAP-REPRODUCED-001", "CLAIM-CON-AP-PROJECT-001"], "evidenceIds": ["EVID-CON-AP-REPRODUCTION-001"], "sourceIds": ["SRC-CON-ST-HOFFMAN-2023"] }
+      ]
+    },
+    {
+      "id": "solo-el-grafo",
+      "title": "Sólo el grafo · lo que el mapa descarta",
+      "product": "reproducción computacional",
+      "stance": "El mapa ignora las probabilidades",
+      "layers": [
+        { "kind": "system", "observed": "La regla sólo usa qué transiciones son posibles: el grafo dirigido del núcleo.", "inference": "Las probabilidades no intervienen.", "limit": "Esto se sigue de la propia definición.", "claimIds": ["CLAIM-CON-AP-GRAPH-ONLY-001"], "evidenceIds": ["EVID-CON-AP-REPRODUCTION-001"], "sourceIds": ["SRC-CON-ST-HOFFMAN-2023"] },
+        { "kind": "result", "observed": "Con tres estados, los 343 patrones de transición posibles caen en 14 permutaciones.", "inference": "El politopo de dinámicas de seis dimensiones se reduce a 14 casillas.", "limit": "Conteo para tres estados; con cuatro son 51.", "claimIds": ["CLAIM-CON-AP-COLLAPSE-001"], "evidenceIds": ["EVID-CON-AP-REPRODUCTION-001"], "sourceIds": ["SRC-CON-ST-HOFFMAN-2023"] },
+        { "kind": "scope", "observed": "Un intercambio determinista y cualquier mezcla al azar entre dos estados reciben la misma etiqueta.", "inference": "Dinámicas muy distintas son indistinguibles para el mapa.", "limit": "El propio artículo describe esa celda compartida.", "claimIds": ["CLAIM-CON-AP-GRAPH-ONLY-001"], "evidenceIds": ["EVID-CON-AP-REPRODUCTION-001", "EVID-CON-AP-MAP-001"], "sourceIds": ["SRC-CON-ST-HOFFMAN-2023"] },
+        { "kind": "interpretation", "observed": "El modelo describe a los agentes por su dinámica; el mapa la pierde casi toda.", "inference": "Lo que se proyecta es la estructura de alcanzabilidad, no la vida del agente.", "limit": "Una versión futura podría usar las probabilidades.", "claimIds": ["CLAIM-CON-AP-COLLAPSE-001"], "evidenceIds": ["EVID-CON-AP-REPRODUCTION-001"], "sourceIds": ["SRC-CON-CF-HOFFMAN-PRAKASH-2014"] },
+        { "kind": "leap", "observed": "Se describe como proyectar la dinámica de los agentes sobre la física.", "inference": "Se proyecta un resumen muy grueso de esa dinámica.", "limit": "No se sigue que la dinámica de los agentes quede representada.", "claimIds": ["CLAIM-CON-AP-GRAPH-ONLY-001", "CLAIM-CON-AP-WHAT-WOULD-COUNT-001"], "evidenceIds": ["EVID-CON-AP-REPRODUCTION-001", "EVID-CON-AP-METHOD-001"], "sourceIds": ["SRC-CON-ST-HOFFMAN-2023"] },
+        { "kind": "test", "observed": "Un mapa más fuerte tendría que conservar probabilidades y la composición de agentes.", "inference": "Ése es el primer paso pendiente del programa.", "limit": "No se ha publicado al corte.", "claimIds": ["CLAIM-CON-AP-WHAT-WOULD-COUNT-001"], "evidenceIds": ["EVID-CON-AP-METHOD-001"], "sourceIds": ["SRC-CON-AP-TRACES-2024"] }
+      ]
+    },
+    {
+      "id": "errata-17",
+      "title": "La errata · 17 permutaciones donde hay 14",
+      "product": "reproducción computacional",
+      "stance": "El texto cuenta mal sus propios casos",
+      "layers": [
+        { "kind": "system", "observed": "El caso de tres agentes tiene 27 vértices: los núcleos deterministas.", "inference": "Cada vértice recibe una permutación decorada.", "limit": "Ninguno.", "claimIds": ["CLAIM-CON-AP-ERRATUM-001"], "evidenceIds": ["EVID-CON-AP-REPRODUCTION-001"], "sourceIds": ["SRC-CON-ST-HOFFMAN-2023"] },
+        { "kind": "result", "observed": "El texto dice 17 permutaciones distintas; la tabla del apéndice y la reproducción dan 14.", "inference": "Hay una discrepancia interna en el artículo.", "limit": "Es probablemente un error de redacción; la definición no cambia.", "claimIds": ["CLAIM-CON-AP-ERRATUM-001"], "evidenceIds": ["EVID-CON-AP-REPRODUCTION-001"], "sourceIds": ["SRC-CON-ST-HOFFMAN-2023"] },
+        { "kind": "scope", "observed": "Con tres elementos sólo existen 16 permutaciones decoradas posibles.", "inference": "17 es imposible, no sólo inexacto.", "limit": "Conteo combinatorio estándar.", "claimIds": ["CLAIM-CON-AP-ERRATUM-001", "CLAIM-CON-AP-POSITROIDS-001"], "evidenceIds": ["EVID-CON-AP-REPRODUCTION-001", "EVID-CON-AP-MATH-001"], "sourceIds": ["SRC-CON-AP-POSTNIKOV-2006"] },
+        { "kind": "interpretation", "observed": "El conteo no se revisó contra la tabla del propio artículo.", "inference": "Los números de divulgación conviene comprobarlos en el original.", "limit": "No dice nada sobre la mala fe ni sobre la teoría.", "claimIds": ["CLAIM-CON-AP-PROJECT-001"], "evidenceIds": ["EVID-CON-AP-REPRODUCTION-001", "EVID-CON-AP-METHOD-001"], "sourceIds": ["SRC-CON-ST-HOFFMAN-2023"] },
+        { "kind": "leap", "observed": "Podría usarse para descalificar todo el programa.", "inference": "Una errata es un error puntual.", "limit": "No se sigue que el resto sea falso; el mapa en sí es correcto.", "claimIds": ["CLAIM-CON-AP-MAP-REPRODUCED-001"], "evidenceIds": ["EVID-CON-AP-REPRODUCTION-001"], "sourceIds": ["SRC-CON-ST-HOFFMAN-2023"] },
+        { "kind": "test", "observed": "La prueba automatizada del repositorio verifica 14, no 17, y el total de 16.", "inference": "El hallazgo se puede repetir en segundos.", "limit": "Una corrección del artículo obligaría a revisar este expediente.", "claimIds": ["CLAIM-CON-AP-ERRATUM-001"], "evidenceIds": ["EVID-CON-AP-REPRODUCTION-001"], "sourceIds": ["SRC-CON-ST-HOFFMAN-2023"] }
+      ]
+    },
+    {
+      "id": "misma-combinatoria",
+      "title": "Misma combinatoria · partículas, olas y exclusión",
+      "product": "física matemática",
+      "stance": "Las permutaciones decoradas aparecen en sistemas sin relación",
+      "layers": [
+        { "kind": "system", "observed": "Las permutaciones decoradas clasifican las celdas de la Grassmanniana no negativa.", "inference": "Es matemática estándar.", "limit": "Por sí sola no dice nada de física.", "claimIds": ["CLAIM-CON-AP-POSITROIDS-001"], "evidenceIds": ["EVID-CON-AP-MATH-001"], "sourceIds": ["SRC-CON-AP-POSTNIKOV-2006", "SRC-CON-AP-KLS-2013"] },
+        { "kind": "result", "observed": "En N = 4 SYM planar etiquetan los diagramas en capa de masas que construyen amplitudes.", "inference": "La combinatoria aparece en el cálculo de amplitudes.", "limit": "En una teoría de juguete, sin gravedad ni masas.", "claimIds": ["CLAIM-CON-AP-ONSHELL-001"], "evidenceIds": ["EVID-CON-AP-PHYSICS-001"], "sourceIds": ["SRC-CON-ST-GRASSMANNIAN-2016"] },
+        { "kind": "scope", "observed": "Las mismas celdas aparecen en el proceso de exclusión asimétrico y en los solitones de aguas someras.", "inference": "La Grassmanniana positiva es una estructura muy general.", "limit": "Ambos ejemplos los citan los propios autores de 2023.", "claimIds": ["CLAIM-CON-AP-SHARED-COMBINATORICS-001"], "evidenceIds": ["EVID-CON-AP-MATH-001"], "sourceIds": ["SRC-CON-AP-CORTEEL-2007", "SRC-CON-AP-KODAMA-2014"] },
+        { "kind": "interpretation", "observed": "Los autores leen esa ubicuidad como pista de que su correspondencia es profunda.", "inference": "La lectura alternativa es más simple: la estructura aparece donde hay positividad y orden circular.", "limit": "Ninguna de las dos lecturas está probada.", "claimIds": ["CLAIM-CON-AP-SHARED-COMBINATORICS-001"], "evidenceIds": ["EVID-CON-AP-MATH-001"], "sourceIds": ["SRC-CON-AP-WILLIAMS-2023"] },
+        { "kind": "leap", "observed": "Se concluye que agentes y partículas son lo mismo visto de dos maneras.", "inference": "Comparten una etiqueta combinatoria.", "limit": "No se sigue: la misma etiqueta la reciben olas y partículas que se excluyen.", "claimIds": ["CLAIM-CON-AP-SHARED-COMBINATORICS-001", "CLAIM-CON-AP-BRIDGE-SENSES-001"], "evidenceIds": ["EVID-CON-AP-MATH-001", "EVID-CON-AP-METHOD-001"], "sourceIds": ["SRC-CON-AP-KODAMA-2014"] },
+        { "kind": "test", "observed": "Una relación profunda conservaría operaciones: combinar agentes correspondería a combinar diagramas.", "inference": "Eso separaría una etiqueta de una correspondencia.", "limit": "No se ha mostrado al corte.", "claimIds": ["CLAIM-CON-AP-WHAT-WOULD-COUNT-001"], "evidenceIds": ["EVID-CON-AP-METHOD-001"], "sourceIds": ["SRC-CON-ST-HOFFMAN-2023"] }
+      ]
+    },
+    {
+      "id": "permutacion-no-amplitud",
+      "title": "Una permutación no es una amplitud",
+      "product": "física matemática",
+      "stance": "Para calcular hace falta mucho más que la etiqueta",
+      "layers": [
+        { "kind": "system", "observed": "Una amplitud de dispersión depende de los momentos, las helicidades y la teoría.", "inference": "Es una función de datos cinemáticos.", "limit": "Se habla de N = 4 SYM planar, la teoría de juguete de CON-002.", "claimIds": ["CLAIM-CON-AP-AMPLITUDE-NEEDS-001"], "evidenceIds": ["EVID-CON-AP-PHYSICS-001"], "sourceIds": ["SRC-CON-ST-AMPLITUHEDRON-2014"] },
+        { "kind": "result", "observed": "Una permutación decorada etiqueta una pieza; hay que saber qué piezas sumar y evaluarlas en los datos.", "inference": "La etiqueta es necesaria para ordenar el cálculo, no suficiente para hacerlo.", "limit": "Descripción general del programa de amplitudes.", "claimIds": ["CLAIM-CON-AP-AMPLITUDE-NEEDS-001"], "evidenceIds": ["EVID-CON-AP-PHYSICS-001"], "sourceIds": ["SRC-CON-ST-GRASSMANNIAN-2016"] },
+        { "kind": "scope", "observed": "Para masas y espines el artículo cita un formalismo de espinores que no trata de permutaciones decoradas.", "inference": "La frase de 2023 junta dos programas distintos.", "limit": "Se revisó el resumen de la fuente citada.", "claimIds": ["CLAIM-CON-AP-MASSES-SPINS-001"], "evidenceIds": ["EVID-CON-AP-PHYSICS-001"], "sourceIds": ["SRC-CON-AP-AHH-2021"] },
+        { "kind": "interpretation", "observed": "Los autores escriben que será interesante ver cómo surgen masa, momento y espín.", "inference": "Esas propiedades no se derivan todavía del modelo.", "limit": "Es una tarea declarada, no un resultado.", "claimIds": ["CLAIM-CON-AP-CONJECTURE-001"], "evidenceIds": ["EVID-CON-AP-MAP-001"], "sourceIds": ["SRC-CON-ST-HOFFMAN-2023"] },
+        { "kind": "leap", "observed": "Se afirma que las permutaciones codifican toda la información física de una dispersión.", "inference": "Codifican una parte de la estructura combinatoria.", "limit": "No se sigue que basten para calcular una amplitud.", "claimIds": ["CLAIM-CON-AP-AMPLITUDE-NEEDS-001"], "evidenceIds": ["EVID-CON-AP-PHYSICS-001"], "sourceIds": ["SRC-CON-ST-GRASSMANNIAN-2016"] },
+        { "kind": "test", "observed": "La prueba sería obtener desde agentes una amplitud conocida con su cinemática completa.", "inference": "Ése es el segundo paso pendiente.", "limit": "No se ha publicado al corte.", "claimIds": ["CLAIM-CON-AP-WHAT-WOULD-COUNT-001"], "evidenceIds": ["EVID-CON-AP-METHOD-001"], "sourceIds": ["SRC-CON-ST-HOFFMAN-2023"] }
+      ]
+    },
+    {
+      "id": "conjetura-y-ruta",
+      "title": "Conjetura y ruta a pruebas · lo prometido",
+      "product": "conjetura",
+      "stance": "Una partícula sería la proyección de una clase de agentes",
+      "layers": [
+        { "kind": "system", "observed": "Dos tipos de flujo en el politopo de tres agentes y dos amplitudes de tres partículas.", "inference": "Los autores proponen que se corresponden.", "limit": "Es una conjetura declarada.", "claimIds": ["CLAIM-CON-AP-CONJECTURE-001"], "evidenceIds": ["EVID-CON-AP-MAP-001"], "sourceIds": ["SRC-CON-ST-HOFFMAN-2023"] },
+        { "kind": "result", "observed": "En 2014 se señaló que la función de onda de la partícula libre se parece a funciones de las cadenas de agentes.", "inference": "Hay coincidencias de forma entre ecuaciones.", "limit": "Una coincidencia de forma no es una derivación.", "claimIds": ["CLAIM-CON-AP-WAVEFUNCTION-001"], "evidenceIds": ["EVID-CON-AP-AGENT-MODEL-001"], "sourceIds": ["SRC-CON-CF-HOFFMAN-PRAKASH-2014"] },
+        { "kind": "scope", "observed": "Una preimpresión de 2024 propone una ruta hacia pruebas con datos de dispersión.", "inference": "Hay intención de prueba empírica.", "limit": "Preimpresión; sólo se revisó el resumen.", "claimIds": ["CLAIM-CON-AP-TRACES-001"], "evidenceIds": ["EVID-CON-AP-PROMISE-001"], "sourceIds": ["SRC-CON-AP-TRACES-2024"] },
+        { "kind": "interpretation", "observed": "Al corte no hay una predicción física publicada que distinga la teoría.", "inference": "El programa está en la etapa de promesa.", "limit": "Podría cambiar con trabajos posteriores.", "claimIds": ["CLAIM-CON-AP-NO-PREDICTION-001"], "evidenceIds": ["EVID-CON-AP-PROMISE-001"], "sourceIds": ["SRC-CON-AP-TRACES-2024"] },
+        { "kind": "leap", "observed": "Se difunde como «las partículas son conciencia».", "inference": "Es la tesis metafísica del programa.", "limit": "No se sigue del mapa ni de la conjetura.", "claimIds": ["CLAIM-CON-AP-VERDICT-001", "CLAIM-CON-AP-CONSCIOUSNESS-IDLE-001"], "evidenceIds": ["EVID-CON-AP-METHOD-001", "EVID-CON-AP-MAP-001"], "sourceIds": ["SRC-CON-ST-HOFFMAN-2023"] },
+        { "kind": "test", "observed": "La prueba sería una predicción de dispersión distinta de la física estándar, confirmada.", "inference": "Es lo único que movería la balanza con evidencia.", "limit": "Pendiente.", "claimIds": ["CLAIM-CON-AP-NO-PREDICTION-001", "CLAIM-CON-AP-WHAT-WOULD-COUNT-001"], "evidenceIds": ["EVID-CON-AP-PROMISE-001", "EVID-CON-AP-METHOD-001"], "sourceIds": ["SRC-CON-AP-TRACES-2024"] }
+      ]
+    },
+    {
+      "id": "reconstrucciones-cuanticas",
+      "title": "Control · cómo se ve una derivación",
+      "product": "control",
+      "stance": "La teoría cuántica completa sale de axiomas, sin conciencia",
+      "layers": [
+        { "kind": "system", "observed": "Axiomas sobre preparación, transformación, medición y procesamiento de información.", "inference": "Supuestos simples y explícitos.", "limit": "Marco de teorías probabilísticas generales.", "claimIds": ["CLAIM-CON-AP-RECONSTRUCTION-BAR-001"], "evidenceIds": ["EVID-CON-AP-CONTROLS-001"], "sourceIds": ["SRC-CON-AP-HARDY-2001", "SRC-CON-AP-MASANES-2011"] },
+        { "kind": "result", "observed": "De ellos sale el formalismo cuántico completo; sin la continuidad sale la probabilidad clásica.", "inference": "Se identifica qué supuesto separa lo cuántico de lo clásico.", "limit": "Reconstruyen la teoría; no predicen fenómenos nuevos.", "claimIds": ["CLAIM-CON-AP-RECONSTRUCTION-BAR-001"], "evidenceIds": ["EVID-CON-AP-CONTROLS-001"], "sourceIds": ["SRC-CON-AP-CHIRIBELLA-2011", "SRC-CON-AP-HARDY-2001"] },
+        { "kind": "scope", "observed": "La mecánica estocástica obtuvo la ecuación de Schrödinger de un proceso de difusión.", "inference": "Hubo un intento previo de física desde procesos aleatorios.", "limit": "Un análisis posterior mostró que las ecuaciones emparentadas no son equivalentes.", "claimIds": ["CLAIM-CON-AP-STOCHASTIC-PRECEDENT-001"], "evidenceIds": ["EVID-CON-AP-CONTROLS-001"], "sourceIds": ["SRC-CON-AP-NELSON-1966", "SRC-CON-AP-WALLSTROM-1994"] },
+        { "kind": "interpretation", "observed": "El QBismo pone al agente en el centro de la interpretación cuántica.", "inference": "El agente importa para interpretar la teoría.", "limit": "Es una interpretación, no una derivación desde la conciencia.", "claimIds": ["CLAIM-CON-AP-QBISM-001"], "evidenceIds": ["EVID-CON-AP-CONTROLS-001"], "sourceIds": ["SRC-CON-AP-QBISM-2014"] },
+        { "kind": "leap", "observed": "Se usa para decir que la física ya se deriva del observador.", "inference": "Se deriva de axiomas operacionales.", "limit": "No se sigue que derive de la conciencia: ninguno de esos programas la usa.", "claimIds": ["CLAIM-CON-AP-RECONSTRUCTION-BAR-001", "CLAIM-CON-AP-QBISM-001"], "evidenceIds": ["EVID-CON-AP-CONTROLS-001"], "sourceIds": ["SRC-CON-AP-MASANES-2011"] },
+        { "kind": "test", "observed": "La vara es reproducir completa la teoría y mostrar qué supuesto la distingue.", "inference": "El programa de agentes puede medirse con esa vara.", "limit": "Hoy no la alcanza.", "claimIds": ["CLAIM-CON-AP-RECONSTRUCTION-BAR-001", "CLAIM-CON-AP-VERDICT-001"], "evidenceIds": ["EVID-CON-AP-CONTROLS-001", "EVID-CON-AP-METHOD-001"], "sourceIds": ["SRC-CON-AP-CHIRIBELLA-2011"] }
+      ]
+    },
+    {
+      "id": "conciencia-ociosa",
+      "title": "La conciencia en el mapa · una premisa ociosa",
+      "product": "tesis metafísica",
+      "stance": "La matemática del mapa no usa la conciencia",
+      "layers": [
+        { "kind": "system", "observed": "La definición 3 extiende el mapa a cualquier grafo dirigido.", "inference": "Redes de carreteras o de citas reciben permutaciones igual de bien.", "limit": "Generalización hecha por los propios autores.", "claimIds": ["CLAIM-CON-AP-ANY-GRAPH-001"], "evidenceIds": ["EVID-CON-AP-MAP-001"], "sourceIds": ["SRC-CON-ST-HOFFMAN-2023"] },
+        { "kind": "result", "observed": "En ninguna operación del mapa entra la palabra «consciente».", "inference": "El mapa es neutral respecto de qué son los estados.", "limit": "Esto no refuta la tesis de CON-003.", "claimIds": ["CLAIM-CON-AP-CONSCIOUSNESS-IDLE-001"], "evidenceIds": ["EVID-CON-AP-MAP-001", "EVID-CON-AP-METHOD-001"], "sourceIds": ["SRC-CON-ST-HOFFMAN-2023"] },
+        { "kind": "scope", "observed": "El resultado sería idéntico si los estados fueran de una máquina.", "inference": "El mapa no distingue agentes conscientes de otros sistemas.", "limit": "Vale para este mapa; otro podría usar algo más.", "claimIds": ["CLAIM-CON-AP-CONSCIOUSNESS-IDLE-001", "CLAIM-CON-AP-ANY-GRAPH-001"], "evidenceIds": ["EVID-CON-AP-MAP-001"], "sourceIds": ["SRC-CON-ST-HOFFMAN-2023"] },
+        { "kind": "interpretation", "observed": "La interpretación consciente es la motivación y el contenido metafísico del programa.", "inference": "La metafísica está en la lectura, no en la matemática.", "limit": "CON-003 audita esa lectura.", "claimIds": ["CLAIM-CON-AP-CONSCIOUSNESS-IDLE-001", "CLAIM-CON-AP-SCOPE-001"], "evidenceIds": ["EVID-CON-AP-METHOD-001"], "sourceIds": ["SRC-CON-CF-HOFFMAN-PRAKASH-2014"] },
+        { "kind": "leap", "observed": "Se presenta el mapa como evidencia de que la conciencia es fundamental.", "inference": "El mapa es compatible con esa tesis y con su contraria.", "limit": "No se sigue: una matemática neutral no apoya una metafísica.", "claimIds": ["CLAIM-CON-AP-CONSCIOUSNESS-IDLE-001"], "evidenceIds": ["EVID-CON-AP-METHOD-001"], "sourceIds": ["SRC-CON-ST-HOFFMAN-2023"] },
+        { "kind": "test", "observed": "Una prueba sería una consecuencia matemática que dependa de que los agentes sean conscientes.", "inference": "Sólo así la conciencia dejaría de ser ociosa en el modelo.", "limit": "No existe al corte.", "claimIds": ["CLAIM-CON-AP-WHAT-WOULD-COUNT-001"], "evidenceIds": ["EVID-CON-AP-METHOD-001"], "sourceIds": ["SRC-CON-AP-TRACES-2024"] }
+      ]
+    }
+  ]
+}

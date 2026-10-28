@@ -82,6 +82,7 @@ test("CON-004 es Lilly y la serie sigue consecutiva", () => {
   assert.equal(record.status, "AUDITADO");
   const program = fs.readFileSync(path.join(ROOT, "26_conciencia", "PROGRAMA_CONCIENCIA.md"), "utf8");
   assert.match(program, /\| CON-004 \| John C\. Lilly[^\n]*\*\*AUDITADO\*\* \|/);
-  assert.match(program, /\| CON-005 \| ¿Qué conecta agentes conscientes[^\n]*planeado \|/);
-  assert.match(program, /\| CON-006 \| ¿Qué enseñan los psicodélicos[^\n]*planeado \|/);
+  // El orden de la serie se conserva; el estado de las siguientes lo prueba cada una.
+  assert.match(program, /\| CON-005 \| ¿Qué conecta agentes conscientes/);
+  assert.match(program, /\| CON-006 \| ¿Qué enseñan los psicodélicos/);
 });

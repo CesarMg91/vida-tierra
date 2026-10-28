@@ -8,7 +8,7 @@ La serie avanza del observador hacia la física. Cada expediente puede leerse po
 | CON-002 | ¿Es fundamental el espacio-tiempo? | programas de física teórica (amplitudes, geometrías positivas) y sus límites | **AUDITADO** |
 | CON-003 | ¿Puede la conciencia ser lo fundamental? | realismo consciente, idealismo, panpsiquismo, información integrada y fisicalismo comparados | **AUDITADO** |
 | CON-004 | John C. Lilly: ¿qué queda de su obra? (caso histórico) | neurofisiología, aislamiento sensorial, delfines, el laboratorio de St. Thomas y autoexperimentación | **AUDITADO** |
-| CON-005 | ¿Qué conecta agentes conscientes y física de partículas? | cadenas de Markov, permutaciones decoradas y predicciones pendientes | planeado |
+| CON-005 | ¿Qué conecta agentes conscientes y física de partículas? | cadenas de Markov, permutaciones decoradas y predicciones pendientes | **AUDITADO** |
 | CON-006 | ¿Qué enseñan los psicodélicos sobre percepción y conciencia? | estudios en animales y personas, periodos críticos y propuestas de prueba | planeado |
 
 ## Reglas de la serie

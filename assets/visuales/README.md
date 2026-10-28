@@ -1092,3 +1092,14 @@ La portada no usa modelos de imagen: se regenera idéntica con `node scripts/gen
 | `lineas-lilly-con-004.svg` | `scripts/generate-con-visuals.mjs` | `1600 × 900` | código fuente versionado | síntesis del expediente; no puntúa la obra |
 
 La portada no usa modelos de imagen: se regenera idéntica con `node scripts/generate-con-visuals.mjs --png=con-004`. Los SVG incluyen `title` y `desc`.
+
+## CON-005 — Agentes conscientes y partículas
+
+| Archivo | Origen | Dimensiones | SHA-256 / trazabilidad | Límite |
+|---|---|---:|---|---|
+| `hero-con-005-agentes-particulas.png` | rasterizado con Chromium desde el SVG generativo del proyecto, 2026-10-27 | `1672 × 941` | `097d8806d7e6b2dca5d11fd611df977c1178c115db9a69f9338d7974dab87e0b` | composición abstracta; no representa cadena, diagrama ni dato |
+| `hero-con-005-agentes-particulas.svg` | `scripts/generate-con-visuals.mjs`, semilla fija | `1672 × 941` | código fuente versionado | nodos y cuerdas pseudoaleatorios sin información |
+| `cadena-modelo-prueba-con-005.svg` | `scripts/generate-con-visuals.mjs` | `1600 × 900` | código fuente versionado | seis capas inferenciales; no herencia automática |
+| `mapa-markov-permutaciones-con-005.svg` | `scripts/generate-con-visuals.mjs` con conteos de `scripts/markov-decorated-permutations.mjs` | `1600 × 900` | código fuente versionado | conteos para tres estados |
+
+La portada no usa modelos de imagen: se regenera idéntica con `node scripts/generate-con-visuals.mjs --png=con-005`. Los SVG incluyen `title` y `desc`.

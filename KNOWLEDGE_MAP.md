@@ -1823,3 +1823,15 @@ Véase 26_conciencia/INVESTIGACION_CON_003_CONCIENCIA_FUNDAMENTAL.md, 22_mapas_e
 - `CLAIM-CON-LILLY-BELIEF-001` impide pasar de «la creencia cambia la experiencia» a «la creencia se vuelve verdad».
 
 Véase 26_conciencia/INVESTIGACION_CON_004_JOHN_LILLY.md, 22_mapas_epistemologicos/MAPA_CON_004_JOHN_LILLY.md y 21_cronologias/CRONOLOGIA_CON_004_JOHN_LILLY.md.
+
+## CON-005 — Una etiqueta no es una derivación
+
+- El modelo de agentes separa definición matemática y supuesto de que los agentes son conscientes.
+- El mapa de 2023 separa etiqueta compartida, correspondencia estructural, derivación y predicción.
+- La reproducción separa la tabla correcta del conteo erróneo del texto (14, no 17).
+- Las permutaciones decoradas separan matemática estándar, física de juguete y sistemas sin relación (exclusión, solitones).
+- Una amplitud separa la etiqueta de una pieza de la cinemática, las helicidades y la regla de suma.
+- `CLAIM-CON-AP-GRAPH-ONLY-001` impide presentar un mapa del grafo como un mapa de la dinámica.
+- `CLAIM-CON-AP-CONSCIOUSNESS-IDLE-001` impide leer el mapa como evidencia de que la conciencia sea fundamental.
+
+Véase 26_conciencia/INVESTIGACION_CON_005_AGENTES_PARTICULAS.md, 22_mapas_epistemologicos/MAPA_CON_005_AGENTES_PARTICULAS.md y 21_cronologias/CRONOLOGIA_CON_005_AGENTES_PARTICULAS.md.
