@@ -617,6 +617,7 @@ for (const [file, label] of [
   ["perception-reality-evidence.json", "percepción"],
   ["spacetime-fundamental-evidence.json", "espacio-tiempo"],
   ["consciousness-fundamental-evidence.json", "conciencia"],
+  ["lilly-evidence.json", "Lilly"],
 ]) {
   const labData = JSON.parse(fs.readFileSync(path.join(ROOT, "content", file), "utf8"));
   check(labData.schemaVersion === 1, `el módulo de ${label} usa una versión de esquema desconocida`);

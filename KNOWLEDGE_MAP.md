@@ -1811,3 +1811,15 @@ Véase 26_conciencia/INVESTIGACION_CON_002_ESPACIO_TIEMPO.md, 22_mapas_epistemol
 - `CLAIM-CON-CF-CHAIN-001` impide pasar de «interfaz» o «espacio-tiempo emergente» a «conciencia fundamental».
 
 Véase 26_conciencia/INVESTIGACION_CON_003_CONCIENCIA_FUNDAMENTAL.md, 22_mapas_epistemologicos/MAPA_CON_003_CONCIENCIA_FUNDAMENTAL.md y 21_cronologias/CRONOLOGIA_CON_003_CONCIENCIA_FUNDAMENTAL.md.
+
+## CON-004 — Una pregunta audaz no es una respuesta
+
+- La obra de John C. Lilly separa neurofisiología, aislamiento sensorial, delfines, el laboratorio de St. Thomas y autoexperimentación.
+- Los artículos sobre delfines separan medición acústica, imitación de ráfagas e interpretación como lenguaje.
+- La cognición de delfines posterior separa comprensión de lenguajes artificiales, autorreconocimiento y silbidos firma del habla humana.
+- La flotación separa relajación medida a corto plazo, expectativa y expansión de la conciencia.
+- La ketamina separa disociación medida en ensayos controlados y entidades narradas en autobiografía.
+- `CLAIM-CON-LILLY-REPORTS-001` impide tratar un informe bajo una sustancia como evidencia de su contenido.
+- `CLAIM-CON-LILLY-BELIEF-001` impide pasar de «la creencia cambia la experiencia» a «la creencia se vuelve verdad».
+
+Véase 26_conciencia/INVESTIGACION_CON_004_JOHN_LILLY.md, 22_mapas_epistemologicos/MAPA_CON_004_JOHN_LILLY.md y 21_cronologias/CRONOLOGIA_CON_004_JOHN_LILLY.md.

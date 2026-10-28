@@ -85,7 +85,7 @@ fuentes:
 
 ![Lo que los datos fijan y la deuda que cada postura deja abierta](../assets/visuales/deudas-posturas-con-003.svg)
 
-> **Alcance:** este expediente compara las posturas que hacen de la conciencia algo fundamental —panpsiquismo, idealismo y realismo consciente— con el fisicalismo, y con las teorías científicas de la conciencia que más se citan en el debate. No decide qué es la conciencia. No audita el puente matemático entre agentes conscientes y física de partículas (CON-004) ni los psicodélicos (CON-005) (`CLAIM-CON-CF-SCOPE-001`).
+> **Alcance:** este expediente compara las posturas que hacen de la conciencia algo fundamental —panpsiquismo, idealismo y realismo consciente— con el fisicalismo, y con las teorías científicas de la conciencia que más se citan en el debate. No decide qué es la conciencia. No audita el puente matemático entre agentes conscientes y física de partículas (CON-005) ni los psicodélicos (CON-006) (`CLAIM-CON-CF-SCOPE-001`).
 
 ## Pregunta central
 
@@ -126,7 +126,7 @@ La frase se usa al menos en cuatro sentidos que no son equivalentes (`CLAIM-CON-
 - **Fisicalismo:** todo lo que existe es físico o depende de lo físico. Incluye al ilusionismo, que acepta que hay experiencia, pero niega que tenga las propiedades misteriosas que la introspección le atribuye (`CLAIM-CON-CF-ILLUSIONISM-001`).
 - **Panpsiquismo y monismo russelliano:** la física describe lo que la materia *hace*, no lo que *es*; ese «qué es» podría ser experiencial.
 - **Idealismo analítico:** una conciencia no localizada es lo único primitivo; los organismos son disociaciones de ella.
-- **Realismo consciente:** el mundo está hecho de agentes conscientes que interactúan; espacio-tiempo y objetos son su interfaz (CON-001) y su proyección (CON-002, CON-004).
+- **Realismo consciente:** el mundo está hecho de agentes conscientes que interactúan; espacio-tiempo y objetos son su interfaz (CON-001) y su proyección (CON-002, CON-005).
 
 El dualismo clásico entra en el debate, pero ninguno de los programas que inspiran esta serie lo defiende. Se menciona sólo donde hace falta (`CLAIM-CON-CF-POSITIONS-001`).
 
@@ -241,7 +241,7 @@ Sus deudas son otras: explicar la disociación, y por qué lo que aparece sigue 
 
 Hoffman y Prakash (2014) definen un «agente consciente» formal con percepción, decisión y acción como núcleos de Markov, y estudian cómo interactúan. Proponen que objetos y espacio-tiempo emergen de esa dinámica. Señalan que la función de onda de una partícula cuántica libre tiene la misma forma que ciertas funciones armónicas de sus cadenas (`CLAIM-CON-CF-CONSCIOUS-AGENTS-001`). Fields, Hoffman, Prakash y Singh (2018) analizan formalmente redes de estos agentes. En 2023 se agregó el mapa hacia permutaciones decoradas auditado en CON-002.
 
-Es la única postura de las cuatro que **promete** derivar física desde la conciencia, y por eso la única que podría ganar terreno con una predicción. Al corte, la coincidencia de forma con la función de onda es una analogía matemática, y no se ha publicado una predicción física nueva confirmada (`CLAIM-CON-CF-AGENTS-PREDICTION-001`). La derivación se audita en CON-004.
+Es la única postura de las cuatro que **promete** derivar física desde la conciencia, y por eso la única que podría ganar terreno con una predicción. Al corte, la coincidencia de forma con la función de onda es una analogía matemática, y no se ha publicado una predicción física nueva confirmada (`CLAIM-CON-CF-AGENTS-PREDICTION-001`). La derivación se audita en CON-005.
 
 ## LA FÍSICA CUÁNTICA COMO ATAJO
 
@@ -266,7 +266,7 @@ El análisis central de este expediente es éste. Fisicalismo, panpsiquismo e id
 | fisicalismo | dependencia cerebral, evolución, éxito de la física | por qué hay experiencia (problema difícil) | una explicación que haga transparente el paso de función a experiencia, o un ilusionismo que convenza |
 | panpsiquismo | por qué hay experiencia sin emergencia mágica | combinación de micro-experiencias en una mente | un modelo de combinación con consecuencias comprobables |
 | idealismo | por qué hay experiencia; sin combinación | disociación y regularidad compartida del mundo físico | derivar por qué la apariencia sigue leyes matemáticas estables |
-| realismo consciente | promete unificar percepción y física | derivar física desde agentes | una predicción física nueva confirmada (CON-004) |
+| realismo consciente | promete unificar percepción y física | derivar física desde agentes | una predicción física nueva confirmada (CON-005) |
 
 Hay dos excepciones a la equivalencia. **IIT** hace predicciones neuronales concretas, y la prueba adversarial ya cuestionó una central. El **realismo consciente** promete predicciones físicas. Donde una postura arriesga una predicción, la evidencia puede morder. Donde no, la discusión es filosófica y debe presentarse así.
 
@@ -341,7 +341,7 @@ Sabemos que la experiencia humana depende de forma estrecha, medible y manipulab
 
 ## QUÉ TODAVÍA NO SABEMOS
 
-No sabemos qué es la conciencia ni si es fundamental. No sabemos si el problema difícil se disolverá, si el de la combinación tiene solución o si el idealismo puede derivar la regularidad del mundo. No sabemos cómo atribuir conciencia sin reporte. Tampoco sabemos, desde aquí, si los agentes conscientes pueden derivar la física de partículas: esa pregunta pertenece a CON-004.
+No sabemos qué es la conciencia ni si es fundamental. No sabemos si el problema difícil se disolverá, si el de la combinación tiene solución o si el idealismo puede derivar la regularidad del mundo. No sabemos cómo atribuir conciencia sin reporte. Tampoco sabemos, desde aquí, si los agentes conscientes pueden derivar la física de partículas: esa pregunta pertenece a CON-005.
 
 ## Conclusión
 

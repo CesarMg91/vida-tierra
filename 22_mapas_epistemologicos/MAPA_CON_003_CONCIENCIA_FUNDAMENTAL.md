@@ -15,7 +15,7 @@ reportes + conducta + actividad cerebral
      │           │              │                   │
  deuda:       deuda:         deuda:              deuda:
  problema     combinación    disociación y       derivar física
- difícil                     regularidad         (CON-004)
+ difícil                     regularidad         (CON-005)
      └───────────┴──────────────┴───────────────────┘
                  │
                  ▼

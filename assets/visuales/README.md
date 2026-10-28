@@ -1081,3 +1081,14 @@ La portada no usa modelos de imagen: se regenera idéntica con `node scripts/gen
 | `deudas-posturas-con-003.svg` | `scripts/generate-con-visuals.mjs` | `1600 × 900` | código fuente versionado | síntesis del expediente; no puntúa posturas |
 
 La portada no usa modelos de imagen: se regenera idéntica con `node scripts/generate-con-visuals.mjs --png=con-003`. Los SVG incluyen `title` y `desc`.
+
+## CON-004 — John C. Lilly
+
+| Archivo | Origen | Dimensiones | SHA-256 / trazabilidad | Límite |
+|---|---|---:|---|---|
+| `hero-con-004-john-lilly.png` | rasterizado con Chromium desde el SVG generativo del proyecto, 2026-10-27 | `1672 × 941` | `ec9da89794636af818092b65981e31234e2d17415299831722974d025239b833` | composición abstracta; no representa registro, tanque ni dato |
+| `hero-con-004-john-lilly.svg` | `scripts/generate-con-visuals.mjs`, semilla fija | `1672 × 941` | código fuente versionado | curvas y pulsos pseudoaleatorios sin información |
+| `cadena-modelo-prueba-con-004.svg` | `scripts/generate-con-visuals.mjs` | `1600 × 900` | código fuente versionado | seis capas inferenciales; no herencia automática |
+| `lineas-lilly-con-004.svg` | `scripts/generate-con-visuals.mjs` | `1600 × 900` | código fuente versionado | síntesis del expediente; no puntúa la obra |
+
+La portada no usa modelos de imagen: se regenera idéntica con `node scripts/generate-con-visuals.mjs --png=con-004`. Los SVG incluyen `title` y `desc`.

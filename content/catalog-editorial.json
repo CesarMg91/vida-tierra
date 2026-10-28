@@ -111,6 +111,7 @@
     "MED-001": { "shortTitle": "Cómo sabemos si una intervención funciona", "status": "AUDITADO", "themes": ["ensayos clínicos", "cirugía", "efectos", "daños", "aplicabilidad"], "featured": true },
     "CON-001": { "shortTitle": "¿La percepción refleja la realidad?", "status": "AUDITADO", "themes": ["percepción", "teoría de la interfaz", "teoría de juegos evolutiva", "veridicidad", "Hoffman", "realismo"], "featured": true },
     "CON-002": { "shortTitle": "¿Es fundamental el espacio-tiempo?", "status": "AUDITADO", "themes": ["espacio-tiempo", "gravedad cuántica", "holografía", "amplituedro", "agujeros negros", "emergencia"] },
-    "CON-003": { "shortTitle": "¿Puede la conciencia ser lo fundamental?", "status": "AUDITADO", "themes": ["conciencia", "problema difícil", "panpsiquismo", "idealismo", "información integrada", "fisicalismo"] }
+    "CON-003": { "shortTitle": "¿Puede la conciencia ser lo fundamental?", "status": "AUDITADO", "themes": ["conciencia", "problema difícil", "panpsiquismo", "idealismo", "información integrada", "fisicalismo"] },
+    "CON-004": { "shortTitle": "John C. Lilly: ¿qué queda de su obra?", "status": "AUDITADO", "themes": ["John C. Lilly", "aislamiento sensorial", "delfines", "ketamina", "historia de la ciencia", "ética animal"] }
   }
 }

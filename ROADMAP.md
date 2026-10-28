@@ -251,13 +251,16 @@ Entregas públicas: MED-001 = `v0.3.0`; MED-002 = `v0.3.1`; MED-003 = `v0.3.2`; 
 | CON-001 | `INV-CON-PERCEPTION-REALITY-001` | [Percepción y realidad: sistema, resultado, alcance, interpretación, salto metafísico y prueba](26_conciencia/INVESTIGACION_CON_001_PERCEPCION_REALIDAD.md) | **AUDITADO** |
 | CON-002 | `INV-CON-SPACETIME-FUNDAMENTAL-002` | [Espacio-tiempo fundamental: modelo, resultado, alcance, interpretación, salto metafísico y prueba](26_conciencia/INVESTIGACION_CON_002_ESPACIO_TIEMPO.md) | **AUDITADO** |
 | CON-003 | `INV-CON-CONSCIOUSNESS-FUNDAMENTAL-003` | [Conciencia fundamental: planteamiento, resultado, alcance, interpretación, salto metafísico y prueba](26_conciencia/INVESTIGACION_CON_003_CONCIENCIA_FUNDAMENTAL.md) | **AUDITADO** |
+| CON-004 | `INV-CON-LILLY-004` | [John C. Lilly: registro, resultado, alcance, interpretación, salto metafísico y prueba](26_conciencia/INVESTIGACION_CON_004_JOHN_LILLY.md) | **AUDITADO** |
 
-CON es la única línea cuyo objeto es el propio observador. CON-001 audita el teorema «la aptitud le gana a la verdad», los juegos de interfaz y sus críticas, y separa lo demostrado dentro de modelos de la tesis sobre espacio-tiempo y objetos. El programa CON-002–CON-005 está en [PROGRAMA_CONCIENCIA.md](26_conciencia/PROGRAMA_CONCIENCIA.md), con contrato común en [ESTANDAR_EVIDENCIA_CONCIENCIA.md](26_conciencia/ESTANDAR_EVIDENCIA_CONCIENCIA.md). CIV y MED conservan su numeración y programa.
+CON es la única línea cuyo objeto es el propio observador. CON-001 audita el teorema «la aptitud le gana a la verdad», los juegos de interfaz y sus críticas, y separa lo demostrado dentro de modelos de la tesis sobre espacio-tiempo y objetos. El programa CON-002–CON-006 está en [PROGRAMA_CONCIENCIA.md](26_conciencia/PROGRAMA_CONCIENCIA.md), con contrato común en [ESTANDAR_EVIDENCIA_CONCIENCIA.md](26_conciencia/ESTANDAR_EVIDENCIA_CONCIENCIA.md). CIV y MED conservan su numeración y programa.
 
 CON-002 audita si el espacio-tiempo es fundamental con la física publicada: entropía de agujeros negros, holografía, AdS/CFT, geometría y entrelazamiento, el amplituedro, programas discretos y las pruebas de Lorentz, el Holometer y GW170817. Concluye que la pregunta sigue abierta y que «emergente» no es «ilusorio».
 
 CON-003 compara si la conciencia puede ser lo fundamental: el problema difícil, la dependencia cerebral (anestesia, índices de complejidad, conciencia oculta), las teorías científicas y la prueba adversarial de 2025, el panpsiquismo, el idealismo, el realismo consciente y los atajos cuánticos. Concluye que las posturas metafísicas son empíricamente equivalentes frente a los datos actuales y que la pregunta sigue abierta.
 
-La siguiente investigación prevista es CON-004: qué conecta agentes conscientes y física de partículas, separando lo demostrado (mapas matemáticos) de lo prometido (predicciones).
+CON-004 es un caso histórico: audita la obra de John C. Lilly línea por línea y la contrasta con lo que otros midieron después (cognición de delfines, flotación, ketamina controlada). Al incorporarlo, el puente matemático pasó a CON-005 y los psicodélicos a CON-006.
 
-Entregas públicas: CON-001 = `v0.4.0`; CON-002 = `v0.4.1`; CON-003 = `v0.4.2`.
+La siguiente investigación prevista es CON-005: qué conecta agentes conscientes y física de partículas, separando lo demostrado (mapas matemáticos) de lo prometido (predicciones).
+
+Entregas públicas: CON-001 = `v0.4.0`; CON-002 = `v0.4.1`; CON-003 = `v0.4.2`; CON-004 = `v0.4.3`.

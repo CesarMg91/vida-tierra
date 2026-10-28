@@ -4505,3 +4505,14 @@ Riesgo basal, alternativas y preferencias cambian el balance. **Corrección:** s
 | `ERR-CON-CF-POPULARITY-001` | la mayoría de los filósofos cree X, así que X es verdad | una encuesta mide opinión, no evidencia | citar encuestas como datos sociológicos | ACTIVO |
 | `ERR-CON-CF-HARD-PROOF-001` | el problema difícil prueba que la conciencia no es física | es un argumento sobre una brecha explicativa; admite lecturas fisicalistas | presentarlo como problema abierto | ACTIVO |
 | `ERR-CON-CF-ILLUSIONISM-NOBODY-001` | el ilusionismo dice que nadie siente nada | niega propiedades fenoménicas misteriosas, no la experiencia de dolor | exponer la tesis en sus términos | ACTIVO |
+
+## CON-004 — John C. Lilly
+
+| ID | Error | Por qué falla | Corrección operativa | Estado |
+|---|---|---|---|---|
+| `ERR-CON-LILLY-DOLPHINS-TALK-001` | Lilly enseñó a los delfines a hablar | igualar el número de ráfagas no es habla con significado | describir lo medido: número y duración de ráfagas | ACTIVO |
+| `ERR-CON-LILLY-TANK-ENLIGHTENMENT-001` | la ciencia demostró que el tanque de flotación expande la conciencia | los estudios miden estrés y ansiedad a corto plazo, sin cegamiento | citar lo medido y sus límites | ACTIVO |
+| `ERR-CON-LILLY-ENTITIES-001` | los encuentros de Lilly con entidades prueban que existen | un informe bajo disociación es evidencia de la experiencia, no de su contenido | separar informe y referente | ACTIVO |
+| `ERR-CON-LILLY-BELIEF-TRUE-001` | lo que uno cree se vuelve verdad | confunde la verdad de la experiencia con la del mundo | distinguir efecto de la creencia en quien cree de efecto en el mundo | ACTIVO |
+| `ERR-CON-LILLY-ALL-OR-NOTHING-001` | Lilly fue un genio incomprendido, o un charlatán | su obra mezcla trabajo publicado serio con tesis sin sustento | juzgar cada línea por separado | ACTIVO |
+| `ERR-CON-LILLY-DOLPHIN-SUICIDE-001` | está probado que el delfín Peter se suicidó por amor | la palabra es la interpretación de Lilly; la causa de muerte no está establecida | registrar la interpretación como tal | ACTIVO |

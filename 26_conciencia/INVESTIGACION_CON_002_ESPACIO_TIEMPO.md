@@ -105,7 +105,7 @@ fuentes:
 
 ![Tres pruebas que llegan a la escala de Planck sin encontrar desviación](../assets/visuales/escala-pruebas-espacio-tiempo-con-002.svg)
 
-> **Alcance:** este expediente audita qué dice la física publicada sobre si el espacio-tiempo es fundamental. Se evalúa con la física, independientemente de cualquier teoría de la conciencia. No decide si la conciencia es lo fundamental (CON-003) ni audita el puente entre agentes conscientes y amplitudes de dispersión (CON-004) (`CLAIM-CON-ST-SCOPE-001`).
+> **Alcance:** este expediente audita qué dice la física publicada sobre si el espacio-tiempo es fundamental. Se evalúa con la física, independientemente de cualquier teoría de la conciencia. No decide si la conciencia es lo fundamental (CON-003) ni audita el puente entre agentes conscientes y amplitudes de dispersión (CON-005) (`CLAIM-CON-ST-SCOPE-001`).
 
 ## Pregunta central
 
@@ -276,7 +276,7 @@ La auditoría separa tres pasos (`CLAIM-CON-ST-HOFFMAN-LEAP-001`):
 
 1. **«El espacio-tiempo no puede ser fundamental».** Así formulado es más fuerte que lo que la física publicada sostiene. Hay razones para esperar que la descripción continua no sea la última palabra, y programas concretos que derivan rasgos del espacio-tiempo. No hay una teoría establecida de nuestro universo sin él, ni una observación que lo muestre (secciones 4 a 17).
 2. **«Por lo tanto, sujetos y experiencias están más allá del espacio-tiempo».** No se sigue. Lo que reemplaza al espacio-tiempo en física son estructuras matemáticas: teorías de campos en una frontera, entrelazamiento, geometrías positivas, órdenes causales, redes de espín. Nada en esos programas introduce sujetos ni experiencias. Elegir agentes conscientes como sustrato es una tesis metafísica nueva que debe defenderse por sí misma (CON-003).
-3. **«El mapa de Markov a permutaciones decoradas conecta ambas cosas».** Un mapa matemático entre dos estructuras muestra que existe una correspondencia formal. Que la correspondencia sea la física requiere predicciones que la física usual no haga. Eso se audita en CON-004.
+3. **«El mapa de Markov a permutaciones decoradas conecta ambas cosas».** Un mapa matemático entre dos estructuras muestra que existe una correspondencia formal. Que la correspondencia sea la física requiere predicciones que la física usual no haga. Eso se audita en CON-005.
 
 ## LO QUE IMPLICA PARA ESTE PROYECTO
 

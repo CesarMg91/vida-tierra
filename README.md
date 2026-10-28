@@ -6,7 +6,7 @@ Historia profunda de la Tierra, la vida y el ser humano desde primeros principio
 
 **[Explorar la versión pública](https://vida-tierra.vercel.app)**
 
-La versión `0.4.2` agrega a la línea temática CON, conciencia y percepción, la investigación CON-003: si la conciencia puede ser lo fundamental, comparando fisicalismo, panpsiquismo, idealismo, realismo consciente y las teorías científicas de la conciencia. Incluye en `/conciencia` el módulo «Una correlación no es una metafísica» junto a los de CON-001 y CON-002, y conserva MED-001–019 y CIV-001–003 íntegros; la secuencia global continúa cerrada en `001–052`.
+La versión `0.4.3` agrega a la línea temática CON, conciencia y percepción, el caso histórico CON-004: qué queda de la obra de John C. Lilly, línea por línea —neurofisiología, aislamiento sensorial, delfines, el laboratorio de St. Thomas y autoexperimentación—. Incluye en `/conciencia` el módulo «Una pregunta audaz no es una respuesta» junto a los de CON-001 a CON-003, y conserva MED-001–019 y CIV-001–003 íntegros; la secuencia global continúa cerrada en `001–052`.
 
 El sitio usa `https://vida-tierra.vercel.app` como URL canónica. Otro dominio puede sustituirlo definiendo `SITE_URL` en el entorno de build, sin cambiar el código.
 
@@ -46,7 +46,7 @@ Y toda investigación debe distinguir explícitamente:
 - las alternativas y anomalías;
 - el grado de confianza y qué podría falsar la conclusión.
 
-## Estado actual · v0.4.2
+## Estado actual · v0.4.3
 
 La experiencia pública contiene:
 
@@ -117,6 +117,7 @@ La experiencia pública contiene:
 - la primera investigación de Conciencia y percepción: [CON-001 — ¿Nuestra percepción refleja la realidad?](26_conciencia/INVESTIGACION_CON_001_PERCEPCION_REALIDAD.md) — **AUDITADO**; audita el teorema «la aptitud le gana a la verdad», los juegos de interfaz y sus críticas sin convertir un teorema sobre pagos en una tesis sobre espacio-tiempo, objetos o conciencia;
 - la segunda investigación de Conciencia y percepción: [CON-002 — ¿Es fundamental el espacio-tiempo?](26_conciencia/INVESTIGACION_CON_002_ESPACIO_TIEMPO.md) — **AUDITADO**; audita agujeros negros, holografía, AdS/CFT, el amplituedro, la gravedad cuántica y las pruebas que llegan a la escala de Planck sin convertir una reformulación matemática en una tesis sobre lo que existe;
 - la tercera investigación de Conciencia y percepción: [CON-003 — ¿Puede la conciencia ser lo fundamental?](26_conciencia/INVESTIGACION_CON_003_CONCIENCIA_FUNDAMENTAL.md) — **AUDITADO**; compara fisicalismo, panpsiquismo, idealismo y realismo consciente con la anestesia, los índices de complejidad, la prueba adversarial de 2025 y los atajos cuánticos sin convertir un argumento filosófico en una prueba ni una correlación en una explicación;
+- el caso histórico de Conciencia y percepción: [CON-004 — John C. Lilly: ¿qué queda de su obra?](26_conciencia/INVESTIGACION_CON_004_JOHN_LILLY.md) — **AUDITADO**; separa sus mediciones publicadas sobre delfines y estimulación cerebral, el tanque de flotación y sus estudios posteriores, el laboratorio de St. Thomas y sus autoexperimentos sin confundir sus mediciones con sus visiones;
 - la trigésima séptima investigación: [`¿Cómo distinguimos especies, locomoción, dieta y parentesco entre australopitecos y Paranthropus sin convertir su diversidad en una escalera hacia Homo?`](08_cenozoico/INVESTIGACION_037_AUSTRALOPITECOS_PARANTHROPUS.md);
 - la trigésima octava investigación: [`¿Cómo reconocemos a Homo temprano, habilis y erectus si fósiles, herramientas, cuerpos y moléculas responden preguntas distintas?`](08_cenozoico/INVESTIGACION_038_HOMO_TEMPRANO_HABILIS_ERECTUS.md);
 - la trigésima novena investigación: [`¿Cómo reconstruimos las poblaciones humanas del Pleistoceno medio sin convertir Homo heidelbergensis en un cajón de sastre ni cada fósil en un ancestro?`](08_cenozoico/INVESTIGACION_039_HOMO_PLEISTOCENO_MEDIO_HEIDELBERGENSIS.md);

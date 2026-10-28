@@ -3503,5 +3503,15 @@ Emular un ensayo objetivo corrige errores de diseño, no confusión no medida. *
 | `CONT-CON-CF-COMBINATION-001` | ¿tiene solución el problema de la combinación? | micro-experiencias pueden componer una mente unificada | la combinación es imposible o requiere emergencia, como en el fisicalismo | un modelo de combinación con consecuencias comprobables | ABIERTA |
 | `CONT-CON-CF-IDEALISM-REGULARITY-001` | ¿explica el idealismo la regularidad del mundo físico? | una conciencia no localizada con dinámica propia produce apariencias regulares | la regularidad compartida es mejor explicada por un mundo físico independiente | derivación de una regularidad física desde la dinámica mental | ABIERTA |
 | `CONT-CON-CF-QUANTUM-MIND-001` | ¿tiene la mecánica cuántica un papel en la conciencia? | procesos cuánticos coherentes en microtúbulos sostienen la experiencia | la decoherencia vuelve clásicos los procesos cognitivos | evidencia de coherencia cuántica en neuronas a escalas de tiempo cognitivas | ABIERTA; minoritaria |
-| `CONT-CON-CF-AGENTS-PHYSICS-001` | ¿pueden los agentes conscientes derivar la física? | la dinámica de agentes proyecta la física de partículas | la correspondencia es una analogía formal | una predicción física nueva derivada de agentes y confirmada | ABIERTA; se audita en CON-004 |
+| `CONT-CON-CF-AGENTS-PHYSICS-001` | ¿pueden los agentes conscientes derivar la física? | la dinámica de agentes proyecta la física de partículas | la correspondencia es una analogía formal | una predicción física nueva derivada de agentes y confirmada | ABIERTA; se audita en CON-005 |
 | `CONT-CON-CF-ATTRIBUTION-001` | ¿cómo atribuir conciencia a sistemas sin reporte? | índices neuronales o estructurales bastan para inferirla | sin reporte la atribución depende de la teoría elegida | convergencia de índices con reporte recuperado en pacientes | ABIERTA |
+
+## CON-004 — John C. Lilly
+
+| ID | Pregunta | Hipótesis principal | Alternativa | Evidencia discriminante | Estado |
+|---|---|---|---|---|---|
+| `CONT-CON-LILLY-REST-SPECIFIC-001` | ¿tiene la flotación un efecto específico? | la reducción de estímulos produce beneficios propios | el efecto es relajación general y expectativa | ensayos con control activo creíble y evaluadores ciegos | ABIERTA |
+| `CONT-CON-LILLY-PIONEER-001` | ¿anticipó Lilly la cognición de delfines o la distorsionó? | sus preguntas abrieron un campo que después se confirmó | sus tesis de habla humana retrasaron o desacreditaron el campo | historia documentada de la recepción de su trabajo | ABIERTA |
+| `CONT-CON-LILLY-ETHICS-001` | ¿cómo juzgar la ética de St. Thomas? | fallas graves de bienestar animal incluso para su época | debe juzgarse con criterios de los años sesenta | documentos primarios del laboratorio y de sus financiadores | ABIERTA |
+| `CONT-CON-LILLY-FIRST-PERSON-001` | ¿pueden los informes bajo sustancias ser datos científicos? | sí, como datos sobre la experiencia, con métodos fenomenológicos | no, sin controles no informan ni sobre la experiencia | protocolos que integren informes con medidas independientes | ABIERTA |
+| `CONT-CON-LILLY-LEGACY-001` | ¿cuánto le debe la investigación actual con ketamina y aislamiento a Lilly? | fue un precursor reconocido | los programas actuales surgieron por otras vías | historia de las citas y de los programas de investigación | ABIERTA |

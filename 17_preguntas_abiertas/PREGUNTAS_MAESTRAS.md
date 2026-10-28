@@ -224,6 +224,8 @@ La clasificación expresa cuánto restringe hoy la evidencia, no cuán interesan
 | `OPEN-CON-CF-DISCRIMINATE-001` | ¿Qué observación distinguiría fisicalismo, panpsiquismo e idealismo? | las tres aceptan los mismos datos de dependencia cerebral | ninguna formula hoy una predicción que las otras no hagan | E |
 | `OPEN-CON-CF-THEORY-001` | ¿Qué teoría científica de la conciencia sobrevivirá a pruebas adversariales preregistradas? | la primera prueba cuestionó supuestos de IIT y del espacio de trabajo global | faltan pruebas con otras teorías, tareas y predicciones centrales | D |
 | `OPEN-CON-CF-ATTRIBUTION-001` | ¿Cómo saber si un sistema sin reporte es consciente? | índices de complejidad y conciencia oculta en pacientes | sin reporte, la atribución depende de la teoría; animales y máquinas sin criterio acordado | D |
+| `OPEN-CON-LILLY-REST-001` | ¿Tiene la flotación un efecto propio, distinto de la relajación y la expectativa? | estudios favorables pero sin cegamiento ni control activo | faltan ensayos con control creíble y seguimiento | C |
+| `OPEN-CON-LILLY-ARCHIVE-001` | ¿Qué dicen los documentos primarios del laboratorio de St. Thomas? | la cronología pública se apoya en periodismo y testimonios tardíos | archivos de financiamiento y del laboratorio no auditados | D |
 
 ## Tipos de “no sabemos”
 

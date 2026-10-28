@@ -977,3 +977,23 @@ CIV-003 inaugura los expedientes regionales auditados. CIV-001 conserva `TRAZADO
 | `TIME-CON-CF-2022-001` | 2022 | base ConTraSt y revisión de teorías | metaciencia y revisión | `SRC-CON-CF-YARON-2022`, `SRC-CON-CF-SETH-BAYNE-2022` | A publicación | AUDITADO |
 | `TIME-CON-CF-2023-001` | 2023 | IIT 4.0, carta sobre IIT y encuesta PhilPapers publicada | teoría, disputa y dato sociológico | `SRC-CON-CF-IIT4-2023`, `SRC-CON-CF-IIT-CONCERNED-2023`, `SRC-CON-CF-BOURGET-2023` | A publicación | AUDITADO |
 | `TIME-CON-CF-COGITATE-2025-001` | abril de 2025 | prueba adversarial entre IIT y el espacio de trabajo global | hallazgo empírico preregistrado | `SRC-CON-CF-COGITATE-2025` | A publicación | AUDITADO |
+
+## CON-004 — John C. Lilly
+
+| ID | Fecha/rango | Evento | Producto | Fuentes | Confianza | Estado |
+|---|---|---|---|---|---|---|
+| `TIME-CON-LILLY-MCGILL-1954-001` | 1954 | estudios de estimulación reducida en McGill | hallazgo empírico | `SRC-CON-LILLY-BEXTON-1954` | A publicación | AUDITADO |
+| `TIME-CON-LILLY-WAVEFORM-1955-001` | 1955 | forma de onda no lesiva para estimular el cerebro | método publicado | `SRC-CON-LILLY-WAVEFORM-1955` | A publicación | AUDITADO |
+| `TIME-CON-LILLY-TANK-1956-001` | 1956 | informe sobre el tanque de flotación | informe en primera persona | `SRC-CON-LILLY-ISOLATION-1956` | B publicación sin DOI | AUDITADO |
+| `TIME-CON-LILLY-DOLPHIN-1961-001` | 1961 | *Man and Dolphin* y dos artículos sobre sonidos e intercambios | divulgación y hallazgo publicado | `SRC-CON-LILLY-MAN-DOLPHIN-1961`, `SRC-CON-LILLY-SOUNDS-1961`, `SRC-CON-LILLY-EXCHANGES-1961` | A publicación | AUDITADO |
+| `TIME-CON-LILLY-1963-001` | 1963 | llamada de auxilio, tamaño cerebral y lenguaje; laboratorio de St. Thomas | hallazgo, interpretación e historia | `SRC-CON-LILLY-DISTRESS-1963`, `SRC-CON-LILLY-BRAINSIZE-1963`, `SRC-CON-LILLY-RILEY-2014` | A publicación / B historia | AUDITADO |
+| `TIME-CON-LILLY-MIMICRY-1965-001` | 1965 | imitación de ráfagas vocales humanas | hallazgo publicado | `SRC-CON-LILLY-MIMICRY-1965` | A publicación | AUDITADO |
+| `TIME-CON-LILLY-HOWE-1965-001` | verano de 1965 | convivencia de Margaret Howe con el delfín Peter | historia documentada | `SRC-CON-LILLY-RILEY-2014` | B historia | AUDITADO |
+| `TIME-CON-LILLY-CLOSURE-1966-001` | 1966 (fechas varían entre fuentes) | recorte de fondos, cierre del laboratorio y muerte de Peter | historia documentada | `SRC-CON-LILLY-RILEY-2014` | B historia | AUDITADO |
+| `TIME-CON-LILLY-BIOCOMPUTER-1968-001` | 1968 | *Programming and Metaprogramming in the Human Biocomputer* | interpretación | `SRC-CON-LILLY-BIOCOMPUTER-1968` | B publicación sin DOI | AUDITADO |
+| `TIME-CON-LILLY-BOOKS-1972-001` | 1972–1978 | libros autobiográficos sobre LSD, ketamina y entidades | informe en primera persona | `SRC-CON-LILLY-CYCLONE-1972`, `SRC-CON-LILLY-SCIENTIST-1978` | B publicación sin DOI | AUDITADO |
+| `TIME-CON-LILLY-HERMAN-1984-001` | 1984 | comprensión de frases por delfines | hallazgo empírico posterior | `SRC-CON-LILLY-HERMAN-1984` | A publicación | AUDITADO |
+| `TIME-CON-LILLY-KETAMINE-1994-001` | 1994 y 2006 | ketamina en ensayos doble ciego | ensayo controlado | `SRC-CON-LILLY-KRYSTAL-1994`, `SRC-CON-LILLY-ZARATE-2006` | A publicación | AUDITADO |
+| `TIME-CON-LILLY-MIRROR-2001-001` | 2001 | autorreconocimiento de delfines en el espejo | hallazgo empírico posterior | `SRC-CON-LILLY-REISS-2001` | A publicación | AUDITADO |
+| `TIME-CON-LILLY-REST-2005-001` | 2005–2018 | metaanálisis y estudios de flotación | estudios clínicos | `SRC-CON-LILLY-VANDIERENDONCK-2005`, `SRC-CON-LILLY-KJELLGREN-2014`, `SRC-CON-LILLY-FEINSTEIN-2018` | A publicación | AUDITADO |
+| `TIME-CON-LILLY-SIGNATURE-2013-001` | 2006 y 2013 | silbidos firma como identidad y como «nombre» | hallazgo empírico posterior | `SRC-CON-LILLY-JANIK-2006`, `SRC-CON-LILLY-KING-2013` | A publicación | AUDITADO |

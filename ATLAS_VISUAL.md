@@ -1460,3 +1460,26 @@ Generada por el proyecto sin modelos de imagen: `node scripts/generate-con-visua
 ### Revisión y límites
 
 Las tres salidas se inspeccionaron completas tras rasterizar. La portada no contiene texto, personas ni marcas; la metáfora de puntos que se agrupan evoca el problema de la combinación sin respaldar ninguna postura. La matriz no puntúa ni ordena posturas: marca qué deja cada una sin explicar según el expediente.
+
+## 78. CON-004 — Una pregunta audaz no es una respuesta
+
+![Portada editorial de CON-004](assets/visuales/hero-con-004-john-lilly.png)
+
+![Cadena desde el registro de Lilly hasta lo que otros probaron después](assets/visuales/cadena-modelo-prueba-con-004.svg)
+
+![Las cinco líneas de trabajo de Lilly y qué quedó de cada una](assets/visuales/lineas-lilly-con-004.svg)
+
+| Archivo | Tipo | Procedencia | Qué representa | Límite obligatorio |
+|---|---|---|---|---|
+| `hero-con-004-john-lilly.png` | portada editorial generativa | rasterizado de `hero-con-004-john-lilly.svg` con `scripts/generate-con-visuals.mjs --png=con-004`, 2026-10-27 | ondas concéntricas en agua oscura bajo curvas y pulsos que evocan silbidos y clics | no representa un registro real, un tanque concreto ni un dato acústico |
+| `hero-con-004-john-lilly.svg` | fuente generativa determinista | SVG producido por `scripts/generate-con-visuals.mjs` con semilla fija | misma composición en vectores | curvas y pulsos pseudoaleatorios sin información |
+| `cadena-modelo-prueba-con-004.svg` | diagrama epistemológico original | SVG producido por `scripts/generate-con-visuals.mjs`, 2026-10-27 | registro, resultado, alcance, interpretación, salto y prueba | las flechas no heredan habla, todos los casos, conclusión, metafísica ni confirmación |
+| `lineas-lilly-con-004.svg` | tabla epistemológica original | SVG producido por `scripts/generate-con-visuals.mjs`, 2026-10-27, a partir de `CLAIM-CON-LILLY-LINES-001` y `CLAIM-CON-LILLY-VERDICT-001` | cinco líneas de trabajo de Lilly y qué quedó de cada una | síntesis del expediente, no un puntaje de su obra |
+
+### Procedencia de la portada
+
+Generada por el proyecto sin modelos de imagen: `node scripts/generate-con-visuals.mjs --png=con-004` escribe el SVG con una semilla fija y lo rasteriza con Chromium (Playwright) a `1672 × 941`. Tamaño: `657508` bytes; SHA-256: `ec9da89794636af818092b65981e31234e2d17415299831722974d025239b833`. Las portadas de CON-001 a CON-003 se comprobaron byte a byte idénticas tras regenerar. La matriz `deudas-posturas-con-003.svg` se regeneró sólo para actualizar la referencia al puente matemático, que pasó de CON-004 a CON-005.
+
+### Revisión y límites
+
+Las tres salidas se inspeccionaron completas tras rasterizar. La portada no contiene texto, personas, animales ni marcas, y no reproduce el tanque de Lilly ni grabaciones reales. La tabla no puntúa la obra: marca qué se sostiene, qué confirmaron otros con otro alcance y qué no se sostiene, según el expediente.

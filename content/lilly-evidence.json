@@ -1,0 +1,118 @@
+{
+  "schemaVersion": 1,
+  "researchSlug": "26_conciencia/INVESTIGACION_CON_004_JOHN_LILLY",
+  "cases": [
+    {
+      "id": "imitacion-delfines-1965",
+      "title": "Imitación vocal · ¿hablaban los delfines?",
+      "product": "hallazgo publicado",
+      "stance": "Delfines entrenados igualaron el número de ráfagas vocales de una persona",
+      "layers": [
+        { "kind": "system", "observed": "Delfines nariz de botella en cautiverio, entrenados con refuerzo para emitir sonidos en el aire.", "inference": "Se puede moldear la emisión vocal de un delfín fuera del agua.", "limit": "Animales cautivos, a veces sujetos, en condiciones artificiales.", "claimIds": ["CLAIM-CON-LILLY-MIMICRY-001"], "evidenceIds": ["EVID-CON-LILLY-DOLPHIN-001"], "sourceIds": ["SRC-CON-LILLY-MIMICRY-1965"] },
+        { "kind": "result", "observed": "En el 92 % de los intercambios, el número de ráfagas del delfín igualó con margen de una al de la persona.", "inference": "Los delfines tienen aprendizaje vocal y siguen patrones temporales humanos.", "limit": "Se midió número y duración de ráfagas, no significado.", "claimIds": ["CLAIM-CON-LILLY-MIMICRY-001"], "evidenceIds": ["EVID-CON-LILLY-DOLPHIN-001"], "sourceIds": ["SRC-CON-LILLY-MIMICRY-1965"] },
+        { "kind": "scope", "observed": "Los artículos previos describieron silbidos, clics, intercambios y una llamada de auxilio.", "inference": "La vocalización del delfín es compleja.", "limit": "Los propios autores dejaron los portadores de significado «por determinar».", "claimIds": ["CLAIM-CON-LILLY-DOLPHIN-SOUNDS-001", "CLAIM-CON-LILLY-DOLPHIN-EXCHANGES-001"], "evidenceIds": ["EVID-CON-LILLY-DOLPHIN-001"], "sourceIds": ["SRC-CON-LILLY-SOUNDS-1961", "SRC-CON-LILLY-EXCHANGES-1961"] },
+        { "kind": "interpretation", "observed": "Lilly sostuvo que un cerebro grande tendría capacidad de lenguaje y que habría comunicación con humanos.", "inference": "Era una hipótesis audaz para su época.", "limit": "El tamaño del cerebro solo no predice lenguaje.", "claimIds": ["CLAIM-CON-LILLY-BRAIN-SIZE-001"], "evidenceIds": ["EVID-CON-LILLY-INTERPRETATION-001"], "sourceIds": ["SRC-CON-LILLY-BRAINSIZE-1963", "SRC-CON-LILLY-MAN-DOLPHIN-1961"] },
+        { "kind": "leap", "observed": "Se resume como «Lilly enseñó a los delfines a hablar».", "inference": "Los delfines imitaron rasgos temporales de la voz humana.", "limit": "No se sigue que hablaran: igualar ráfagas no es entender palabras.", "claimIds": ["CLAIM-CON-LILLY-LANGUAGE-CLAIM-001"], "evidenceIds": ["EVID-CON-LILLY-INTERPRETATION-001"], "sourceIds": ["SRC-CON-LILLY-MIMICRY-1965"] },
+        { "kind": "test", "observed": "Ningún delfín produjo habla humana con significado en las décadas siguientes.", "inference": "La predicción de habla interespecie no se cumplió.", "limit": "Otra cognición sí se confirmó, con otros métodos y por otros grupos.", "claimIds": ["CLAIM-CON-LILLY-LANGUAGE-CLAIM-001", "CLAIM-CON-LILLY-VINDICATION-001"], "evidenceIds": ["EVID-CON-LILLY-COGNITION-001"], "sourceIds": ["SRC-CON-LILLY-HERMAN-1984"] }
+      ]
+    },
+    {
+      "id": "cognicion-delfines-posterior",
+      "title": "Cognición de delfines · lo que otros midieron",
+      "product": "réplica posterior",
+      "stance": "Las preguntas de Lilly fueron fecundas con otros métodos",
+      "layers": [
+        { "kind": "system", "observed": "Delfines entrenados con lenguajes artificiales, pruebas de espejo y reproducción de silbidos a animales salvajes.", "inference": "Métodos controlados, distintos de los de Lilly.", "limit": "Pocos animales en varios estudios.", "claimIds": ["CLAIM-CON-LILLY-COMPREHENSION-001", "CLAIM-CON-LILLY-MIRROR-001"], "evidenceIds": ["EVID-CON-LILLY-COGNITION-001"], "sourceIds": ["SRC-CON-LILLY-HERMAN-1984", "SRC-CON-LILLY-REISS-2001"] },
+        { "kind": "result", "observed": "Dos delfines comprendieron frases en las que el orden de las palabras cambiaba el significado.", "inference": "Pueden procesar sintaxis simple en un lenguaje artificial.", "limit": "Comprensión, no producción; dos animales.", "claimIds": ["CLAIM-CON-LILLY-COMPREHENSION-001"], "evidenceIds": ["EVID-CON-LILLY-COGNITION-001"], "sourceIds": ["SRC-CON-LILLY-HERMAN-1984"] },
+        { "kind": "scope", "observed": "Dos delfines usaron un espejo para inspeccionar marcas en su cuerpo.", "inference": "Capacidad antes documentada de forma convincente sólo en humanos y grandes simios.", "limit": "Dos animales en cautiverio.", "claimIds": ["CLAIM-CON-LILLY-MIRROR-001"], "evidenceIds": ["EVID-CON-LILLY-COGNITION-001"], "sourceIds": ["SRC-CON-LILLY-REISS-2001"] },
+        { "kind": "interpretation", "observed": "Delfines salvajes respondieron a copias de su propio silbido firma y no a las de otros.", "inference": "El silbido firma funciona como una etiqueta aprendida, parecida a un nombre.", "limit": "La lectura como «nombre» es discutida.", "claimIds": ["CLAIM-CON-LILLY-SIGNATURE-001"], "evidenceIds": ["EVID-CON-LILLY-COGNITION-001"], "sourceIds": ["SRC-CON-LILLY-JANIK-2006", "SRC-CON-LILLY-KING-2013"] },
+        { "kind": "leap", "observed": "Se resume como «Lilly tenía razón: los delfines tienen lenguaje».", "inference": "Lilly acertó en que su vida cognitiva y vocal es rica.", "limit": "No se sigue que tengan lenguaje como el humano ni que su método lo mostrara.", "claimIds": ["CLAIM-CON-LILLY-VINDICATION-001"], "evidenceIds": ["EVID-CON-LILLY-COGNITION-001"], "sourceIds": ["SRC-CON-LILLY-KING-2013"] },
+        { "kind": "test", "observed": "Estos resultados se replicaron con métodos y grupos independientes de Lilly.", "inference": "Ésa es la prueba que su programa no hizo.", "limit": "La generalización a toda la especie requiere más individuos.", "claimIds": ["CLAIM-CON-LILLY-SERIES-001"], "evidenceIds": ["EVID-CON-LILLY-METHOD-001", "EVID-CON-LILLY-COGNITION-001"], "sourceIds": ["SRC-CON-LILLY-JANIK-2006"] }
+      ]
+    },
+    {
+      "id": "tanque-flotacion",
+      "title": "Tanque de flotación · de la autoobservación al ensayo",
+      "product": "informe en primera persona",
+      "stance": "Flotar sin estímulos cambia la experiencia",
+      "layers": [
+        { "kind": "system", "observed": "Una persona flotando en agua tibia, en oscuridad y silencio, con la mínima estimulación posible.", "inference": "Se reduce casi toda la entrada sensorial.", "limit": "El informe de 1956 es autoobservación sin controles.", "claimIds": ["CLAIM-CON-LILLY-ISOLATION-REPORT-001"], "evidenceIds": ["EVID-CON-LILLY-ISOLATION-001"], "sourceIds": ["SRC-CON-LILLY-ISOLATION-1956"] },
+        { "kind": "result", "observed": "En McGill, estudiantes en estimulación reducida durante días reportaron dificultad para pensar y experiencias perceptivas inusuales.", "inference": "La estimulación reducida altera la cognición y la percepción.", "limit": "Condiciones y duración distintas de la flotación breve.", "claimIds": ["CLAIM-CON-LILLY-MCGILL-001"], "evidenceIds": ["EVID-CON-LILLY-ISOLATION-001"], "sourceIds": ["SRC-CON-LILLY-BEXTON-1954"] },
+        { "kind": "scope", "observed": "Una retrospectiva de un investigador del tanque conecta el aislamiento con su uso en la tortura política.", "inference": "La técnica tiene una historia doble.", "limit": "Texto registrado por metadatos.", "claimIds": ["CLAIM-CON-LILLY-ISOLATION-ETHICS-001"], "evidenceIds": ["EVID-CON-LILLY-ISOLATION-001"], "sourceIds": ["SRC-CON-LILLY-SHURLEY-1992"] },
+        { "kind": "interpretation", "observed": "Estudios recientes encontraron menos estrés y ansiedad tras flotar, incluido un ensayo aleatorizado piloto con 65 personas.", "inference": "La flotación relaja a corto plazo.", "limit": "Sin cegamiento, con lista de espera como control y muestras chicas.", "claimIds": ["CLAIM-CON-LILLY-REST-001", "CLAIM-CON-LILLY-REST-LIMITS-001"], "evidenceIds": ["EVID-CON-LILLY-REST-001"], "sourceIds": ["SRC-CON-LILLY-KJELLGREN-2014", "SRC-CON-LILLY-FEINSTEIN-2018"] },
+        { "kind": "leap", "observed": "Se resume como «la ciencia demostró que el tanque expande la conciencia».", "inference": "Flotar cambia el estado de ánimo y la experiencia del momento.", "limit": "No se sigue: se midieron estrés y ansiedad, no una expansión de la conciencia.", "claimIds": ["CLAIM-CON-LILLY-REST-LIMITS-001"], "evidenceIds": ["EVID-CON-LILLY-REST-001"], "sourceIds": ["SRC-CON-LILLY-VANDIERENDONCK-2005"] },
+        { "kind": "test", "observed": "Falta un ensayo con control activo creíble y evaluadores ciegos.", "inference": "Eso separaría un efecto propio de la relajación general y la expectativa.", "limit": "Este expediente no recomienda la flotación ni ninguna práctica.", "claimIds": ["CLAIM-CON-LILLY-REST-LIMITS-001", "CLAIM-CON-LILLY-SCOPE-001"], "evidenceIds": ["EVID-CON-LILLY-REST-001", "EVID-CON-LILLY-METHOD-001"], "sourceIds": ["SRC-CON-LILLY-KJELLGREN-2014"] }
+      ]
+    },
+    {
+      "id": "laboratorio-st-thomas",
+      "title": "St. Thomas · el delfín Peter y el cierre",
+      "product": "historia documentada",
+      "stance": "Un experimento de convivencia que terminó en cierre y en la muerte de un animal",
+      "layers": [
+        { "kind": "system", "observed": "Un laboratorio abierto en 1963 en St. Thomas con apoyo de la NASA y otras agencias, dirigido por un tiempo por Gregory Bateson.", "inference": "El programa de delfines tuvo financiamiento público.", "limit": "Reconstrucción periodística con testimonios dados décadas después.", "claimIds": ["CLAIM-CON-LILLY-ST-THOMAS-001"], "evidenceIds": ["EVID-CON-LILLY-HISTORY-001"], "sourceIds": ["SRC-CON-LILLY-RILEY-2014"] },
+        { "kind": "result", "observed": "En el verano de 1965, Margaret Howe vivió con el delfín Peter para enseñarle a pronunciar palabras humanas.", "inference": "Se intentó un aprendizaje vocal intensivo en convivencia.", "limit": "No produjo habla humana con significado.", "claimIds": ["CLAIM-CON-LILLY-HOWE-001"], "evidenceIds": ["EVID-CON-LILLY-HISTORY-001"], "sourceIds": ["SRC-CON-LILLY-RILEY-2014"] },
+        { "kind": "scope", "observed": "El interés de Lilly se desplazó al LSD; su actitud hacia el bienestar animal contribuyó al recorte de fondos y al cierre.", "inference": "El programa terminó por razones éticas y de gestión.", "limit": "Las fechas varían entre fuentes.", "claimIds": ["CLAIM-CON-LILLY-WELFARE-001"], "evidenceIds": ["EVID-CON-LILLY-HISTORY-001"], "sourceIds": ["SRC-CON-LILLY-RILEY-2014"] },
+        { "kind": "interpretation", "observed": "Peter fue trasladado, se deterioró y murió; Lilly dijo que se había «suicidado».", "inference": "La muerte se asocia al traslado y a sus condiciones.", "limit": "«Suicidio» es la interpretación de Lilly, no una causa de muerte establecida.", "claimIds": ["CLAIM-CON-LILLY-WELFARE-001"], "evidenceIds": ["EVID-CON-LILLY-HISTORY-001"], "sourceIds": ["SRC-CON-LILLY-RILEY-2014"] },
+        { "kind": "leap", "observed": "Se cuenta como «el delfín se suicidó por amor».", "inference": "Es la versión más difundida del caso.", "limit": "No se sigue: la causa de muerte no está establecida y la explicación es antropomórfica.", "claimIds": ["CLAIM-CON-LILLY-WELFARE-001"], "evidenceIds": ["EVID-CON-LILLY-HISTORY-001"], "sourceIds": ["SRC-CON-LILLY-BURNETT-2012"] },
+        { "kind": "test", "observed": "La cronología pública se apoya en periodismo y testimonios.", "inference": "Los archivos del laboratorio y de sus financiadores permitirían verificarla.", "limit": "Esos documentos no se auditaron.", "claimIds": ["CLAIM-CON-LILLY-ST-THOMAS-001"], "evidenceIds": ["EVID-CON-LILLY-HISTORY-001"], "sourceIds": ["SRC-CON-LILLY-BURNETT-2012"] }
+      ]
+    },
+    {
+      "id": "ketamina-entidades",
+      "title": "Ketamina · disociación medida y entidades narradas",
+      "product": "informe en primera persona",
+      "stance": "Lilly narró entidades; los ensayos midieron disociación",
+      "layers": [
+        { "kind": "system", "observed": "Libros autobiográficos de Lilly sobre sesiones con aislamiento, LSD y ketamina.", "inference": "Registro directo de su experiencia.", "limit": "Un solo sujeto que era también el intérprete, sin controles.", "claimIds": ["CLAIM-CON-LILLY-SELF-EXPERIMENT-001"], "evidenceIds": ["EVID-CON-LILLY-SELF-REPORT-001"], "sourceIds": ["SRC-CON-LILLY-CYCLONE-1972", "SRC-CON-LILLY-SCIENTIST-1978"] },
+        { "kind": "result", "observed": "En un estudio doble ciego con 19 personas sanas, dosis bajas de ketamina produjeron estados disociativos medibles.", "inference": "La sustancia altera la experiencia de forma reproducible.", "limit": "Muestra pequeña en laboratorio.", "claimIds": ["CLAIM-CON-LILLY-KETAMINE-CONTROLLED-001"], "evidenceIds": ["EVID-CON-LILLY-KETAMINE-001"], "sourceIds": ["SRC-CON-LILLY-KRYSTAL-1994"] },
+        { "kind": "scope", "observed": "En un ensayo doble ciego con 18 personas con depresión resistente, una infusión mejoró los síntomas en horas.", "inference": "Hay un efecto clínico medible.", "limit": "Uso médico supervisado; muestra pequeña; efecto breve.", "claimIds": ["CLAIM-CON-LILLY-KETAMINE-CONTROLLED-001"], "evidenceIds": ["EVID-CON-LILLY-KETAMINE-001"], "sourceIds": ["SRC-CON-LILLY-ZARATE-2006"] },
+        { "kind": "interpretation", "observed": "Lilly interpretó sus experiencias como contacto con entidades y una red de control cósmica.", "inference": "Es la lectura que él dio a sus experiencias.", "limit": "Ningún ensayo controlado aporta evidencia de ese contenido.", "claimIds": ["CLAIM-CON-LILLY-SELF-EXPERIMENT-001"], "evidenceIds": ["EVID-CON-LILLY-SELF-REPORT-001"], "sourceIds": ["SRC-CON-LILLY-SCIENTIST-1978"] },
+        { "kind": "leap", "observed": "Se cita como prueba de que esas entidades existen.", "inference": "El informe es evidencia de la experiencia.", "limit": "No se sigue que lo informado exista fuera de quien lo vive.", "claimIds": ["CLAIM-CON-LILLY-REPORTS-001"], "evidenceIds": ["EVID-CON-LILLY-SELF-REPORT-001", "EVID-CON-LILLY-KETAMINE-001"], "sourceIds": ["SRC-CON-LILLY-KRYSTAL-1994"] },
+        { "kind": "test", "observed": "Una prueba sería obtener, bajo la sustancia, información verificable que la persona no podía conocer.", "inference": "Eso separaría experiencia de contacto real.", "limit": "No existe tal resultado; este expediente no recomienda el uso de sustancias.", "claimIds": ["CLAIM-CON-LILLY-REPORTS-001", "CLAIM-CON-LILLY-SCOPE-001"], "evidenceIds": ["EVID-CON-LILLY-METHOD-001"], "sourceIds": ["SRC-CON-LILLY-ZARATE-2006"] }
+      ]
+    },
+    {
+      "id": "metaprogramacion",
+      "title": "Metaprogramación · lo que crees, ¿se vuelve verdad?",
+      "product": "interpretación",
+      "stance": "La mente como computadora biológica que reescribe sus programas",
+      "layers": [
+        { "kind": "system", "observed": "Un ensayo de 1968 que describe el cerebro como computadora biológica y las creencias como programas.", "inference": "Es una metáfora de su época, anterior a la ciencia cognitiva moderna.", "limit": "Libro sin método experimental.", "claimIds": ["CLAIM-CON-LILLY-METAPROGRAMMING-001"], "evidenceIds": ["EVID-CON-LILLY-SELF-REPORT-001"], "sourceIds": ["SRC-CON-LILLY-BIOCOMPUTER-1968"] },
+        { "kind": "result", "observed": "Las expectativas moldean lo que percibimos, como discute CON-001.", "inference": "El núcleo de la metáfora tiene apoyo general.", "limit": "Moldear la percepción no es fijar la verdad del mundo.", "claimIds": ["CLAIM-CON-LILLY-METAPROGRAMMING-001"], "evidenceIds": ["EVID-CON-LILLY-SELF-REPORT-001"], "sourceIds": ["SRC-CON-LILLY-BIOCOMPUTER-1968"] },
+        { "kind": "scope", "observed": "Una máxima atribuida a Lilly dice que lo que se cree verdadero es o se vuelve verdadero, dentro de ciertos límites.", "inference": "Una creencia puede cambiar cómo se vive una situación.", "limit": "Confunde la verdad de la experiencia con la del mundo.", "claimIds": ["CLAIM-CON-LILLY-BELIEF-001"], "evidenceIds": ["EVID-CON-LILLY-METHOD-001"], "sourceIds": ["SRC-CON-LILLY-BIOCOMPUTER-1968"] },
+        { "kind": "interpretation", "observed": "Lilly unió la metaprogramación, el tanque y las sustancias en un solo programa personal.", "inference": "Buscaba reescribir su propia mente.", "limit": "Sin controles ni medidas independientes.", "claimIds": ["CLAIM-CON-LILLY-SELF-EXPERIMENT-001"], "evidenceIds": ["EVID-CON-LILLY-SELF-REPORT-001"], "sourceIds": ["SRC-CON-LILLY-CYCLONE-1972"] },
+        { "kind": "leap", "observed": "Se difunde como «lo que crees crea tu realidad».", "inference": "Las creencias tienen efectos en quien las tiene.", "limit": "No se sigue que vuelvan verdadero el mundo: creer que una pared no está no la quita.", "claimIds": ["CLAIM-CON-LILLY-BELIEF-001"], "evidenceIds": ["EVID-CON-LILLY-METHOD-001"], "sourceIds": ["SRC-CON-LILLY-BIOCOMPUTER-1968"] },
+        { "kind": "test", "observed": "Una prueba distinguiría el efecto de una creencia en la experiencia de su efecto en una medida externa independiente.", "inference": "Así se separan percepción y mundo.", "limit": "La máxima, tal como se difunde, no propone esa prueba.", "claimIds": ["CLAIM-CON-LILLY-BELIEF-001", "CLAIM-CON-LILLY-CHAIN-001"], "evidenceIds": ["EVID-CON-LILLY-METHOD-001"], "sourceIds": ["SRC-CON-LILLY-MIMICRY-1965"] }
+      ]
+    },
+    {
+      "id": "forma-de-onda-1955",
+      "title": "Forma de onda · el Lilly neurofisiólogo",
+      "product": "método publicado",
+      "stance": "Estimular el cerebro sin lesionarlo",
+      "layers": [
+        { "kind": "system", "observed": "Estimulación eléctrica del cerebro en la neurofisiología de los años cincuenta.", "inference": "Un problema técnico real: no dañar el tejido al estimular.", "limit": "Contexto reconstruido sólo a grandes rasgos.", "claimIds": ["CLAIM-CON-LILLY-STIMULATION-001"], "evidenceIds": ["EVID-CON-LILLY-NEURO-001"], "sourceIds": ["SRC-CON-LILLY-WAVEFORM-1955"] },
+        { "kind": "result", "observed": "Lilly y colaboradores publicaron en Science una forma de onda breve diseñada para estimular sin lesionar.", "inference": "Trabajo técnico en una revista de primer nivel.", "limit": "Del artículo sólo se revisaron los metadatos.", "claimIds": ["CLAIM-CON-LILLY-STIMULATION-001"], "evidenceIds": ["EVID-CON-LILLY-NEURO-001"], "sourceIds": ["SRC-CON-LILLY-WAVEFORM-1955"] },
+        { "kind": "scope", "observed": "Es la etapa más convencional de su obra.", "inference": "Lilly empezó como científico de método.", "limit": "Su influencia técnica posterior no se auditó.", "claimIds": ["CLAIM-CON-LILLY-LINES-001"], "evidenceIds": ["EVID-CON-LILLY-METHOD-001"], "sourceIds": ["SRC-CON-LILLY-WAVEFORM-1955"] },
+        { "kind": "interpretation", "observed": "Su prestigio de esta etapa acompañó después tesis sin el mismo método.", "inference": "La credibilidad de un autor no viaja sola a todas sus afirmaciones.", "limit": "Cada línea se juzga por sus propios datos.", "claimIds": ["CLAIM-CON-LILLY-PRODUCTS-001"], "evidenceIds": ["EVID-CON-LILLY-METHOD-001"], "sourceIds": ["SRC-CON-LILLY-BURNETT-2012"] },
+        { "kind": "leap", "observed": "Se usa como «fue un neurocientífico de Science, así que sus visiones son ciencia».", "inference": "Fue un neurocientífico competente.", "limit": "No se sigue: el método de 1955 no respalda las tesis de los años setenta.", "claimIds": ["CLAIM-CON-LILLY-PRODUCTS-001", "CLAIM-CON-LILLY-CHAIN-001"], "evidenceIds": ["EVID-CON-LILLY-METHOD-001"], "sourceIds": ["SRC-CON-LILLY-WAVEFORM-1955"] },
+        { "kind": "test", "observed": "La prueba de un método es su uso y réplica por otros.", "inference": "Una historia de la estimulación cerebral podría rastrearla.", "limit": "Este expediente no la reconstruyó.", "claimIds": ["CLAIM-CON-LILLY-STIMULATION-001"], "evidenceIds": ["EVID-CON-LILLY-NEURO-001"], "sourceIds": ["SRC-CON-LILLY-WAVEFORM-1955"] }
+      ]
+    },
+    {
+      "id": "obra-completa",
+      "title": "La obra completa · genio o charlatán",
+      "product": "historia documentada",
+      "stance": "Cinco líneas de calidad muy distinta en una sola vida",
+      "layers": [
+        { "kind": "system", "observed": "Neurofisiología, aislamiento, delfines, St. Thomas y autoexperimentación.", "inference": "La obra no es un solo bloque.", "limit": "La clasificación es del proyecto.", "claimIds": ["CLAIM-CON-LILLY-LINES-001"], "evidenceIds": ["EVID-CON-LILLY-METHOD-001"], "sourceIds": ["SRC-CON-LILLY-BURNETT-2012"] },
+        { "kind": "result", "observed": "Sus mediciones publicadas resisten; sus tesis de habla, entidades y creencias no.", "inference": "Sobrevive lo que otros pudieron medir.", "limit": "Varias fuentes se revisaron sólo por metadatos.", "claimIds": ["CLAIM-CON-LILLY-VERDICT-001"], "evidenceIds": ["EVID-CON-LILLY-METHOD-001", "EVID-CON-LILLY-DOLPHIN-001"], "sourceIds": ["SRC-CON-LILLY-SOUNDS-1961", "SRC-CON-LILLY-MIMICRY-1965"] },
+        { "kind": "scope", "observed": "Recorrió de la medición a la interpretación y de ahí a una metafísica personal.", "inference": "Es un caso de control para toda la serie.", "limit": "Un caso no generaliza a todos los científicos.", "claimIds": ["CLAIM-CON-LILLY-CHAIN-001"], "evidenceIds": ["EVID-CON-LILLY-METHOD-001"], "sourceIds": ["SRC-CON-LILLY-BIOCOMPUTER-1968"] },
+        { "kind": "interpretation", "observed": "Sus preguntas sobre delfines, aislamiento y sustancias fueron retomadas con controles.", "inference": "La audacia sirve para preguntar.", "limit": "Las respuestas correctas vinieron de otros métodos.", "claimIds": ["CLAIM-CON-LILLY-SERIES-001", "CLAIM-CON-LILLY-VINDICATION-001"], "evidenceIds": ["EVID-CON-LILLY-COGNITION-001"], "sourceIds": ["SRC-CON-LILLY-KING-2013", "SRC-CON-LILLY-ZARATE-2006"] },
+        { "kind": "leap", "observed": "Se le presenta como genio incomprendido o como charlatán.", "inference": "Ambas etiquetas capturan una parte.", "limit": "No se sigue ninguna: cada línea se juzga por separado.", "claimIds": ["CLAIM-CON-LILLY-LINES-001"], "evidenceIds": ["EVID-CON-LILLY-METHOD-001"], "sourceIds": ["SRC-CON-LILLY-RILEY-2014"] },
+        { "kind": "test", "observed": "La prueba de cada línea es la réplica controlada de otros.", "inference": "Ésa es la vara de todo el proyecto.", "limit": "Los archivos primarios de su laboratorio siguen sin auditarse.", "claimIds": ["CLAIM-CON-LILLY-SERIES-001"], "evidenceIds": ["EVID-CON-LILLY-METHOD-001", "EVID-CON-LILLY-HISTORY-001"], "sourceIds": ["SRC-CON-LILLY-BURNETT-2012"] }
+      ]
+    }
+  ]
+}

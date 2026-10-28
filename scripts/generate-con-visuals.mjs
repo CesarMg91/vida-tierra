@@ -232,7 +232,7 @@ function debtsMatrix() {
     ["Por qué hay experiencia", ["deuda: problema difícil", "la supone", "la supone", "la supone"], ["debt", "ok", "ok", "ok"]],
     ["Mente unificada", ["la explica el cerebro", "deuda: combinación", "la explica la disociación", "por combinación de agentes"], ["ok", "debt", "ok", "open"]],
     ["Leyes regulares compartidas", ["las supone", "las supone", "deuda: derivarlas", "deuda: derivarlas"], ["ok", "ok", "debt", "debt"]],
-    ["Predicción propia", ["no la necesita", "ninguna", "ninguna", "prometida (CON-004)"], ["ok", "none", "none", "open"]],
+    ["Predicción propia", ["no la necesita", "ninguna", "ninguna", "prometida (CON-005)"], ["ok", "none", "none", "open"]],
   ];
   const fills = { ok: "#e8f1ee", debt: "#f3d6c8", open: "#f3e6cf", none: "#e6ecf5" };
   const x0 = 360;
@@ -268,6 +268,107 @@ function debtsMatrix() {
 `;
 }
 
+
+const chainCon004 = {
+  steps: [
+    ["Registro", "qué hizo Lilly y con qué método"],
+    ["Resultado", "medición, informe o relato"],
+    ["Alcance", "animales, sujetos y controles"],
+    ["Interpretación", "lo que Lilly concluyó"],
+    ["Salto", "tesis sobre mente, lenguaje o realidad"],
+    ["Prueba", "lo que otros midieron después"],
+  ],
+  firewalls: ["≠ habla", "≠ todos los casos", "≠ conclusión", "≠ metafísica", "≠ confirmación"],
+  title: "Cadena desde el registro de Lilly hasta lo que otros probaron después",
+  kicker: "CON-004 · CADENA DE INFERENCIA",
+  headline: "Una pregunta audaz no es una respuesta",
+  legend: "Verde: lo que se registró o midió. Ocre: lo que Lilly interpretó o afirmó. Azul: lo que otros pusieron a prueba.",
+};
+
+function heroLilly() {
+  const W = 1672;
+  const H = 941;
+  const rand = rng(2910);
+  const parts = [];
+  // Agua quieta: ondas concéntricas que se abren desde un punto de flotación.
+  const cx = W * 0.7;
+  const cy = H * 0.58;
+  for (let i = 1; i <= 26; i += 1) {
+    const rx = i * 34 + rand() * 6;
+    const ry = rx * 0.32;
+    parts.push(`<ellipse cx="${f(cx)}" cy="${f(cy)}" rx="${f(rx)}" ry="${f(ry)}" fill="none" stroke="#8fd3c6" stroke-opacity="${f(0.55 - i * 0.019)}" stroke-width="${f(1.6 - i * 0.03)}"/>`);
+  }
+  // Trazos de sonido: silbidos como curvas moduladas en la parte alta, cada vez más tenues.
+  for (let k = 0; k < 7; k += 1) {
+    const y0 = H * 0.12 + k * 34;
+    const amp = 10 + rand() * 18;
+    const freq = 0.012 + rand() * 0.02;
+    const phase = rand() * Math.PI * 2;
+    const pts = [];
+    for (let x = W * 0.42; x <= W * 0.98; x += 6) {
+      const env = Math.sin(((x - W * 0.42) / (W * 0.56)) * Math.PI);
+      pts.push(`${f(x)},${f(y0 + Math.sin(x * freq + phase) * amp * env)}`);
+    }
+    parts.push(`<polyline points="${pts.join(" ")}" fill="none" stroke="${k % 2 ? "#e9b65c" : "#9cb7d8"}" stroke-opacity="${f(0.5 - k * 0.05)}" stroke-width="1.4"/>`);
+  }
+  // Clics: pequeños pulsos verticales a lo largo de una línea.
+  for (let i = 0; i < 60; i += 1) {
+    const x = W * 0.46 + rand() * W * 0.5;
+    const y = H * 0.4 + (rand() - 0.5) * 20;
+    const h = 4 + rand() * 18;
+    parts.push(`<line x1="${f(x)}" y1="${f(y - h)}" x2="${f(x)}" y2="${f(y + h)}" stroke="#efe6d2" stroke-opacity="${f(0.15 + rand() * 0.35)}" stroke-width="1.2"/>`);
+  }
+  return `<svg xmlns="http://www.w3.org/2000/svg" width="${W}" height="${H}" viewBox="0 0 ${W} ${H}" role="img" aria-labelledby="title desc">
+  <title id="title">Ondas en agua oscura bajo trazos de sonido</title>
+  <desc id="desc">Composición generativa abstracta: ondas concéntricas que se abren en agua quieta y oscura; arriba, curvas moduladas y pulsos breves que evocan silbidos y clics. No representa un registro real, un tanque concreto ni un dato.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#101a1f"/><stop offset=".55" stop-color="#11252a"/><stop offset="1" stop-color="#0b1416"/></linearGradient>
+    <radialGradient id="glow" cx=".7" cy=".58" r=".45"><stop stop-color="#2c6d64" stop-opacity=".45"/><stop offset="1" stop-color="#2c6d64" stop-opacity="0"/></radialGradient>
+    <linearGradient id="fadeL" x1="0" y1="0" x2="1" y2="0"><stop offset=".3" stop-color="#101a1f"/><stop offset=".52" stop-color="#101a1f" stop-opacity="0"/></linearGradient>
+  </defs>
+  <rect width="${W}" height="${H}" fill="url(#bg)"/>
+  <rect width="${W}" height="${H}" fill="url(#glow)"/>
+  ${parts.join("\n  ")}
+  <rect width="${W}" height="${H}" fill="url(#fadeL)"/>
+</svg>
+`;
+}
+
+function lillyLines() {
+  const lines = [
+    ["Neurofisiología", "forma de onda no lesiva (Science, 1955)", "trabajo técnico publicado", "ok"],
+    ["Aislamiento", "tanque de flotación; informe en primera persona (1956)", "flotación reduce estrés a corto plazo; sin cegamiento", "partial"],
+    ["Delfines", "sonidos, intercambios, auxilio, imitación (Science, 1961–1965)", "«hablarán con humanos»: no; cognición rica: sí, por otros", "partial"],
+    ["St. Thomas", "convivencia de 1965 con el delfín Peter", "cierre por recorte de fondos; fallas éticas y de bienestar", "fail"],
+    ["Autoexperimentos", "LSD, ketamina, «entidades», metaprogramación", "disociación medible en ensayos; las entidades no son dato", "fail"],
+  ];
+  const fills = { ok: "#e8f1ee", partial: "#f3e6cf", fail: "#f3d6c8" };
+  const y0 = 262;
+  const rh = 104;
+  const rows = lines
+    .map(([name, did, kept, kind], i) => {
+      const y = y0 + i * rh;
+      return `<text x="92" y="${y + 58}" fill="#f4f1e8" font-family="Georgia, serif" font-size="25" font-weight="700">${name}</text>
+  <rect x="380" y="${y + 8}" width="520" height="${rh - 16}" rx="12" fill="#e6ecf5"/>
+  <foreignObject x="400" y="${y + 16}" width="480" height="${rh - 32}"><p xmlns="http://www.w3.org/1999/xhtml" style="margin:0;height:100%;display:flex;align-items:center;font:19px/1.3 Arial,sans-serif;color:#22302e">${did}</p></foreignObject>
+  <rect x="920" y="${y + 8}" width="588" height="${rh - 16}" rx="12" fill="${fills[kind]}"/>
+  <foreignObject x="940" y="${y + 16}" width="548" height="${rh - 32}"><p xmlns="http://www.w3.org/1999/xhtml" style="margin:0;height:100%;display:flex;align-items:center;font:${kind === "fail" ? "700 " : ""}19px/1.3 Arial,sans-serif;color:#22302e">${kept}</p></foreignObject>`;
+    })
+    .join("\n  ");
+  return `<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Las cinco líneas de trabajo de Lilly y qué quedó de cada una</title>
+  <desc id="desc">Tabla de cinco filas: neurofisiología, aislamiento, delfines, St. Thomas y autoexperimentos. Para cada una, qué hizo Lilly y qué quedó: trabajo técnico publicado; flotación con efecto a corto plazo sin cegamiento; cognición de delfines confirmada por otros sin habla humana; cierre del laboratorio con fallas éticas; disociación medible sin que las entidades sean dato.</desc>
+  <defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#101a1f"/><stop offset="1" stop-color="#16282b"/></linearGradient></defs>
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <text x="92" y="92" fill="#8fd3c6" font-family="Arial, sans-serif" font-size="23" font-weight="700" letter-spacing="4">CON-004 · CINCO LÍNEAS DE TRABAJO</text>
+  <text x="92" y="152" fill="#f4f1e8" font-family="Georgia, serif" font-size="44" font-weight="700">Lo que hizo Lilly y lo que quedó</text>
+  <text x="400" y="236" fill="#c6d0cc" font-family="Arial, sans-serif" font-size="20" font-weight="700">Qué hizo</text>
+  <text x="940" y="236" fill="#c6d0cc" font-family="Arial, sans-serif" font-size="20" font-weight="700">Qué quedó</text>
+  ${rows}
+  <text x="92" y="850" fill="#9fb0ab" font-family="Arial, sans-serif" font-size="19">Verde: se sostiene. Ocre: se sostiene en parte o lo confirmaron otros con otro alcance. Rojo claro: no se sostiene o falló. Síntesis del expediente.</text>
+</svg>
+`;
+}
 
 function heroSpacetime() {
   const W = 1672;
@@ -403,6 +504,10 @@ const heroConsciousnessSvg = heroConsciousness();
 fs.writeFileSync(path.join(OUT, "hero-con-003-conciencia-fundamental.svg"), heroConsciousnessSvg);
 fs.writeFileSync(path.join(OUT, "cadena-modelo-prueba-con-003.svg"), chain(chainCon003));
 fs.writeFileSync(path.join(OUT, "deudas-posturas-con-003.svg"), debtsMatrix());
+const heroLillySvg = heroLilly();
+fs.writeFileSync(path.join(OUT, "hero-con-004-john-lilly.svg"), heroLillySvg);
+fs.writeFileSync(path.join(OUT, "cadena-modelo-prueba-con-004.svg"), chain(chainCon004));
+fs.writeFileSync(path.join(OUT, "lineas-lilly-con-004.svg"), lillyLines());
 
 // --png rasteriza todas las portadas; --png=con-002 sólo las indicadas, para no reescribir PNG ya auditados.
 const pngArg = process.argv.find((arg) => arg.startsWith("--png"));
@@ -412,6 +517,7 @@ if (pngArg) {
     ["con-001", heroSvg, "hero-con-001-percepcion-interfaz.png"],
     ["con-002", heroSpacetimeSvg, "hero-con-002-espacio-tiempo.png"],
     ["con-003", heroConsciousnessSvg, "hero-con-003-conciencia-fundamental.png"],
+    ["con-004", heroLillySvg, "hero-con-004-john-lilly.png"],
   ].filter(([key]) => !only || key === only);
   const { chromium } = await import("@playwright/test");
   const browser = await chromium.launch();

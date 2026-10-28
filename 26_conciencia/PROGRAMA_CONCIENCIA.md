@@ -7,14 +7,16 @@ La serie avanza del observador hacia la física. Cada expediente puede leerse po
 | CON-001 | ¿Nuestra percepción refleja la realidad? | teorema, simulaciones, comentarios críticos y casos empíricos | **AUDITADO** |
 | CON-002 | ¿Es fundamental el espacio-tiempo? | programas de física teórica (amplitudes, geometrías positivas) y sus límites | **AUDITADO** |
 | CON-003 | ¿Puede la conciencia ser lo fundamental? | realismo consciente, idealismo, panpsiquismo, información integrada y fisicalismo comparados | **AUDITADO** |
-| CON-004 | ¿Qué conecta agentes conscientes y física de partículas? | cadenas de Markov, permutaciones decoradas y predicciones pendientes | planeado |
-| CON-005 | ¿Qué enseñan los psicodélicos sobre percepción y conciencia? | estudios en animales y personas, periodos críticos y propuestas de prueba | planeado |
+| CON-004 | John C. Lilly: ¿qué queda de su obra? (caso histórico) | neurofisiología, aislamiento sensorial, delfines, el laboratorio de St. Thomas y autoexperimentación | **AUDITADO** |
+| CON-005 | ¿Qué conecta agentes conscientes y física de partículas? | cadenas de Markov, permutaciones decoradas y predicciones pendientes | planeado |
+| CON-006 | ¿Qué enseñan los psicodélicos sobre percepción y conciencia? | estudios en animales y personas, periodos críticos y propuestas de prueba | planeado |
 
 ## Reglas de la serie
 
 - CON-001 audita sólo la percepción. No decide si la conciencia es fundamental; deja ese salto marcado para CON-003.
 - CON-002 se evalúa con la física publicada, independientemente de Hoffman. Que un programa de física apoye «espacio-tiempo emergente» no apoya automáticamente una metafísica de la conciencia.
-- CON-004 exige separar lo demostrado (mapas matemáticos) de lo prometido (derivar constantes o predicciones).
-- CON-005 no recomienda consumo. Usa la evidencia como herramienta para estudiar percepción, no como guía de uso.
+- CON-004 es un caso histórico: audita una obra completa, línea por línea, como control de los saltos que la serie pide no dar.
+- CON-005 exige separar lo demostrado (mapas matemáticos) de lo prometido (derivar constantes o predicciones).
+- CON-006 no recomienda consumo. Usa la evidencia como herramienta para estudiar percepción, no como guía de uso.
 
 El contrato común está en [`ESTANDAR_EVIDENCIA_CONCIENCIA.md`](ESTANDAR_EVIDENCIA_CONCIENCIA.md).
