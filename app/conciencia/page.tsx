@@ -4,13 +4,14 @@ import Link from "next/link";
 import { ArrowDown, ArrowRight, ShieldCheck } from "lucide-react";
 import PerceptionRealityLab from "../../components/PerceptionRealityLab";
 import { perceptionRealityEvidence } from "../../lib/perception-reality-evidence";
+import { consciousnessFundamentalEvidence } from "../../lib/consciousness-fundamental-evidence";
 import { spacetimeFundamentalEvidence } from "../../lib/spacetime-fundamental-evidence";
 import { getCatalog } from "../../lib/public-data";
 import { createPageMetadata } from "../../lib/site";
 
 export const metadata: Metadata = createPageMetadata({
   title: "Conciencia y percepción — qué garantiza la observación",
-  description: "Cómo auditamos si la percepción refleja la realidad y si el espacio-tiempo es fundamental sin confundir un teorema, una conjetura, una observación, una interpretación y una tesis metafísica.",
+  description: "Cómo auditamos si la percepción refleja la realidad, si el espacio-tiempo es fundamental y si la conciencia puede serlo, sin confundir un teorema, una conjetura, una observación, una interpretación y una tesis metafísica.",
   pathname: "/conciencia",
   image: "/assets/visuales/hero-con-001-percepcion-interfaz.png",
 });
@@ -19,9 +20,18 @@ const principles = [
   ["Teorema no es organismo", "Un resultado demostrado dentro de un modelo sólo viaja a la biología con un puente explícito entre definiciones y seres vivos."],
   ["Construido no es falso", "Que el cerebro infiera o prediga lo que percibe no demuestra que la percepción deje de conservar estructura del mundo."],
   ["Engañable no es globalmente falso", "Un estímulo que explota un atajo perceptivo muestra un límite local, no la falsedad de todo el sistema."],
+  ["Dependencia no es identidad", "Que la experiencia cambie con el cerebro fija la relación, no decide si el cerebro la produce, la organiza o es su apariencia."],
   ["Emergente no es ilusorio", "Si el espacio-tiempo surge de algo más profundo, sigue siendo la descripción correcta allí donde se ha probado, como la temperatura."],
   ["Interfaz no es metafísica", "Pasar de «percibimos una interfaz» o «el espacio-tiempo no es fundamental» a «la conciencia es lo fundamental» exige otro expediente."],
 ] as const;
+
+const consciousnessCopy = {
+  dossier: "CON-003",
+  emptyText: "No hay un expediente cargado. Es un estado vacío, no evidencia a favor ni en contra de que la conciencia sea fundamental.",
+  firstLayer: "Planteamiento",
+  footerTitle: "Una correlación no es una metafísica.",
+  footerText: "Planteamiento, resultado, alcance, interpretación, salto metafísico y prueba permanecen separados antes de concluir si la conciencia es fundamental.",
+};
 
 const spacetimeCopy = {
   dossier: "CON-002",
@@ -49,10 +59,11 @@ export default function ConsciousnessPage() {
         <div className="medicine-hero-copy">
           <p className="eyebrow">Conciencia y percepción</p>
           <h1>Del observador a la física</h1>
-          <p>Primero, si la percepción refleja la realidad. Después, si el espacio-tiempo mismo es fundamental. En cada paso se separa lo demostrado, lo calculado, lo observado, lo interpretado y lo que ya es metafísica.</p>
+          <p>Primero, si la percepción refleja la realidad. Después, si el espacio-tiempo es fundamental. Luego, si la conciencia puede serlo. En cada paso se separa lo demostrado, lo calculado, lo observado, lo interpretado y lo que ya es metafísica.</p>
           <div>
             <Link className="button button-primary" href="#percepcion-realidad">Auditar la percepción <ArrowDown aria-hidden="true" /></Link>
             <Link className="medicine-text-link" href="#espacio-tiempo">Auditar el espacio-tiempo <ArrowDown aria-hidden="true" /></Link>
+            <Link className="medicine-text-link" href="#conciencia-fundamental">Auditar la conciencia <ArrowDown aria-hidden="true" /></Link>
           </div>
         </div>
         <p className="medicine-visual-limit">Composición generativa no probatoria: no representa un resultado, un dato ni una estructura física real.</p>
@@ -64,7 +75,7 @@ export default function ConsciousnessPage() {
       </section>
 
       <section className="medicine-principles" aria-labelledby="consciousness-principles-title">
-        <header><p className="eyebrow">Contrato de lectura</p><h2 id="consciousness-principles-title">Cinco cortafuegos</h2></header>
+        <header><p className="eyebrow">Contrato de lectura</p><h2 id="consciousness-principles-title">Seis cortafuegos</h2></header>
         <div>{principles.map(([title, text], index) => <article key={title}><span>{String(index + 1).padStart(2, "0")}</span><h3>{title}</h3><p>{text}</p></article>)}</div>
       </section>
 
@@ -94,8 +105,26 @@ export default function ConsciousnessPage() {
         <PerceptionRealityLab data={spacetimeFundamentalEvidence} copy={spacetimeCopy} />
       </section>
 
+      <section className="medicine-lab-section documentary-lab-section" id="conciencia-fundamental" aria-labelledby="consciousness-lab-title">
+        <div className="section-heading">
+          <div><p className="eyebrow">CON-003 · laboratorio de la conciencia</p><h2 id="consciousness-lab-title">De la experiencia a la metafísica</h2></div>
+          <p>Elige un expediente. Las mismas seis capas separan planteamiento, resultado, alcance, interpretación, salto metafísico y prueba sin convertir un argumento, una correlación o un experimento con fotones en una conclusión sobre qué es lo fundamental.</p>
+        </div>
+        <figure className="consciousness-figure">
+          <Image
+            src="/assets/visuales/deudas-posturas-con-003.svg"
+            alt="Matriz: fisicalismo, panpsiquismo, idealismo y realismo consciente aceptan la dependencia cerebral; el fisicalismo debe el problema difícil, el panpsiquismo la combinación, el idealismo y el realismo consciente derivar las leyes regulares, y sólo el realismo consciente promete una predicción propia"
+            width={1600}
+            height={900}
+            sizes="(max-width: 1200px) 100vw, 1120px"
+          />
+          <figcaption>Mismos datos, distinta deuda. Ningún experimento actual separa a las posturas; cada una deja algo sin explicar.</figcaption>
+        </figure>
+        <PerceptionRealityLab data={consciousnessFundamentalEvidence} copy={consciousnessCopy} />
+      </section>
+
       <section className="medicine-dossiers" aria-labelledby="consciousness-dossiers-title">
-        <div className="section-heading"><div><p className="eyebrow">Corpus canónico</p><h2 id="consciousness-dossiers-title">{dossiers.length === 1 ? "1 expediente auditado" : `${dossiers.length} expedientes auditados`}</h2></div><p>La serie sigue con la conciencia como fundamento, el puente matemático entre agentes y partículas, y los psicodélicos como herramienta. Cada uno tendrá su propio expediente.</p></div>
+        <div className="section-heading"><div><p className="eyebrow">Corpus canónico</p><h2 id="consciousness-dossiers-title">{dossiers.length === 1 ? "1 expediente auditado" : `${dossiers.length} expedientes auditados`}</h2></div><p>La serie sigue con el puente matemático entre agentes conscientes y partículas, y con los psicodélicos como herramienta para estudiar la percepción. Cada uno tendrá su propio expediente.</p></div>
         <div>{dossiers.map((record) => <article key={record.key}><span>{record.key}</span><p>{record.status} · {record.readingMinutes} min</p><h3>{record.shortTitle}</h3><p>{record.summary}</p><Link href={`/${record.slug}`}>Abrir expediente <ArrowRight aria-hidden="true" /></Link></article>)}</div>
       </section>
     </div>

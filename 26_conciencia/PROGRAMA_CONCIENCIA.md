@@ -6,7 +6,7 @@ La serie avanza del observador hacia la física. Cada expediente puede leerse po
 |---|---|---|---|
 | CON-001 | ¿Nuestra percepción refleja la realidad? | teorema, simulaciones, comentarios críticos y casos empíricos | **AUDITADO** |
 | CON-002 | ¿Es fundamental el espacio-tiempo? | programas de física teórica (amplitudes, geometrías positivas) y sus límites | **AUDITADO** |
-| CON-003 | ¿Puede la conciencia ser lo fundamental? | realismo consciente, idealismo, panpsiquismo, información integrada y fisicalismo comparados | planeado |
+| CON-003 | ¿Puede la conciencia ser lo fundamental? | realismo consciente, idealismo, panpsiquismo, información integrada y fisicalismo comparados | **AUDITADO** |
 | CON-004 | ¿Qué conecta agentes conscientes y física de partículas? | cadenas de Markov, permutaciones decoradas y predicciones pendientes | planeado |
 | CON-005 | ¿Qué enseñan los psicodélicos sobre percepción y conciencia? | estudios en animales y personas, periodos críticos y propuestas de prueba | planeado |
 

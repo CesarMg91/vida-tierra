@@ -1437,3 +1437,26 @@ Generada por el proyecto sin modelos de imagen: `node scripts/generate-con-visua
 ### Revisión y límites
 
 Las tres salidas se inspeccionaron completas tras rasterizar. En la portada se corrigió un pliegue en el centro del pozo, donde las líneas se cruzaban; en la figura de pruebas, la flecha tapaba su propio texto y el límite chocaba con la etiqueta del eje. La portada no contiene texto, personas ni marcas. Las cifras de la figura de pruebas provienen de los resúmenes de las fuentes citadas y la energía de Planck se redondea a 1.2 × 10¹⁹ GeV.
+
+## 77. CON-003 — Una correlación no es una metafísica
+
+![Portada editorial de CON-003](assets/visuales/hero-con-003-conciencia-fundamental.png)
+
+![Cadena desde el planteamiento hasta la prueba en la metafísica de la conciencia](assets/visuales/cadena-modelo-prueba-con-003.svg)
+
+![Lo que los datos fijan y la deuda que cada postura deja abierta](assets/visuales/deudas-posturas-con-003.svg)
+
+| Archivo | Tipo | Procedencia | Qué representa | Límite obligatorio |
+|---|---|---|---|---|
+| `hero-con-003-conciencia-fundamental.png` | portada editorial generativa | rasterizado de `hero-con-003-conciencia-fundamental.svg` con `scripts/generate-con-visuals.mjs --png=con-003`, 2026-10-27 | puntos tenues que se agrupan en regiones luminosas unidas por arcos | no representa un resultado, una teoría, una mente ni una estructura física real; no ilustra el panpsiquismo como verdadero |
+| `hero-con-003-conciencia-fundamental.svg` | fuente generativa determinista | SVG producido por `scripts/generate-con-visuals.mjs` con semilla fija | misma composición en vectores | la disposición de puntos es pseudoaleatoria y no codifica información |
+| `cadena-modelo-prueba-con-003.svg` | diagrama epistemológico original | SVG producido por `scripts/generate-con-visuals.mjs`, 2026-10-27 | planteamiento, resultado, alcance, interpretación, salto y prueba | las flechas no heredan dato, identidad, teoría confirmada, metafísica ni confirmación |
+| `deudas-posturas-con-003.svg` | matriz epistemológica original | SVG producido por `scripts/generate-con-visuals.mjs`, 2026-10-27, a partir de `CLAIM-CON-CF-DEBTS-001` y `CLAIM-CON-CF-EQUIVALENCE-001` | cuatro posturas frente a cinco exigencias, con la deuda principal de cada una | síntesis del expediente, no un resultado medido ni una puntuación |
+
+### Procedencia de la portada
+
+Generada por el proyecto sin modelos de imagen: `node scripts/generate-con-visuals.mjs --png=con-003` escribe el SVG con una semilla fija y lo rasteriza con Chromium (Playwright) a `1672 × 941`. Tamaño: `765025` bytes; SHA-256: `b3bb50c6ca9062c52cca563de87bd546a2eef252a9a875a8aa0820bf51efd4f6`. Las portadas y diagramas de CON-001 y CON-002 se comprobaron byte a byte idénticos tras regenerar.
+
+### Revisión y límites
+
+Las tres salidas se inspeccionaron completas tras rasterizar. La portada no contiene texto, personas ni marcas; la metáfora de puntos que se agrupan evoca el problema de la combinación sin respaldar ninguna postura. La matriz no puntúa ni ordena posturas: marca qué deja cada una sin explicar según el expediente.

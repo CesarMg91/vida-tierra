@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Lo que los datos fijan y la deuda que cada postura deja abierta</title>
+  <desc id="desc">Matriz de cinco filas y cuatro columnas: fisicalismo, panpsiquismo, idealismo y realismo consciente frente a la dependencia cerebral, por qué hay experiencia, la mente unificada, las leyes regulares compartidas y la predicción propia. Todas aceptan la dependencia cerebral; cada una deja una deuda distinta marcada en rojo claro.</desc>
+  <defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#101a1f"/><stop offset="1" stop-color="#16282b"/></linearGradient></defs>
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <text x="92" y="92" fill="#8fd3c6" font-family="Arial, sans-serif" font-size="23" font-weight="700" letter-spacing="4">CON-003 · DEUDAS DE CADA POSTURA</text>
+  <text x="92" y="152" fill="#f4f1e8" font-family="Georgia, serif" font-size="44" font-weight="700">Mismos datos, distinta deuda</text>
+  <text x="92" y="198" fill="#c6d0cc" font-family="Arial, sans-serif" font-size="24">Todas aceptan que la experiencia depende del cerebro. Difieren en lo que dejan sin explicar.</text>
+  <text x="505" y="278" text-anchor="middle" fill="#f4f1e8" font-family="Georgia, serif" font-size="24" font-weight="700">Fisicalismo</text>
+  <text x="795" y="278" text-anchor="middle" fill="#f4f1e8" font-family="Georgia, serif" font-size="24" font-weight="700">Panpsiquismo</text>
+  <text x="1085" y="278" text-anchor="middle" fill="#f4f1e8" font-family="Georgia, serif" font-size="24" font-weight="700">Idealismo</text>
+  <text x="1375" y="278" text-anchor="middle" fill="#f4f1e8" font-family="Georgia, serif" font-size="24" font-weight="700">Realismo consciente</text>
+  <foreignObject x="92" y="314" width="250" height="68"><p xmlns="http://www.w3.org/1999/xhtml" style="margin:0;height:100%;display:flex;align-items:center;font:20px/1.25 Arial,sans-serif;color:#c6d0cc">Dependencia cerebral</p></foreignObject>
+  <rect x="366" y="306" width="278" height="84" rx="12" fill="#e8f1ee"/>
+  <foreignObject x="380" y="314" width="250" height="68"><p xmlns="http://www.w3.org/1999/xhtml" style="margin:0;height:100%;display:flex;align-items:center;justify-content:center;text-align:center;font:19px/1.25 Arial,sans-serif;color:#22302e">la produce</p></foreignObject>
+  <rect x="656" y="306" width="278" height="84" rx="12" fill="#e8f1ee"/>
+  <foreignObject x="670" y="314" width="250" height="68"><p xmlns="http://www.w3.org/1999/xhtml" style="margin:0;height:100%;display:flex;align-items:center;justify-content:center;text-align:center;font:19px/1.25 Arial,sans-serif;color:#22302e">la organiza</p></foreignObject>
+  <rect x="946" y="306" width="278" height="84" rx="12" fill="#e8f1ee"/>
+  <foreignObject x="960" y="314" width="250" height="68"><p xmlns="http://www.w3.org/1999/xhtml" style="margin:0;height:100%;display:flex;align-items:center;justify-content:center;text-align:center;font:19px/1.25 Arial,sans-serif;color:#22302e">es su apariencia</p></foreignObject>
+  <rect x="1236" y="306" width="278" height="84" rx="12" fill="#e8f1ee"/>
+  <foreignObject x="1250" y="314" width="250" height="68"><p xmlns="http://www.w3.org/1999/xhtml" style="margin:0;height:100%;display:flex;align-items:center;justify-content:center;text-align:center;font:19px/1.25 Arial,sans-serif;color:#22302e">es su interfaz</p></foreignObject>
+  <foreignObject x="92" y="410" width="250" height="68"><p xmlns="http://www.w3.org/1999/xhtml" style="margin:0;height:100%;display:flex;align-items:center;font:20px/1.25 Arial,sans-serif;color:#c6d0cc">Por qué hay experiencia</p></foreignObject>
+  <rect x="366" y="402" width="278" height="84" rx="12" fill="#f3d6c8"/>
+  <foreignObject x="380" y="410" width="250" height="68"><p xmlns="http://www.w3.org/1999/xhtml" style="margin:0;height:100%;display:flex;align-items:center;justify-content:center;text-align:center;font:700 19px/1.25 Arial,sans-serif;color:#22302e">deuda: problema difícil</p></foreignObject>
+  <rect x="656" y="402" width="278" height="84" rx="12" fill="#e8f1ee"/>
+  <foreignObject x="670" y="410" width="250" height="68"><p xmlns="http://www.w3.org/1999/xhtml" style="margin:0;height:100%;display:flex;align-items:center;justify-content:center;text-align:center;font:19px/1.25 Arial,sans-serif;color:#22302e">la supone</p></foreignObject>
+  <rect x="946" y="402" width="278" height="84" rx="12" fill="#e8f1ee"/>
+  <foreignObject x="960" y="410" width="250" height="68"><p xmlns="http://www.w3.org/1999/xhtml" style="margin:0;height:100%;display:flex;align-items:center;justify-content:center;text-align:center;font:19px/1.25 Arial,sans-serif;color:#22302e">la supone</p></foreignObject>
+  <rect x="1236" y="402" width="278" height="84" rx="12" fill="#e8f1ee"/>
+  <foreignObject x="1250" y="410" width="250" height="68"><p xmlns="http://www.w3.org/1999/xhtml" style="margin:0;height:100%;display:flex;align-items:center;justify-content:center;text-align:center;font:19px/1.25 Arial,sans-serif;color:#22302e">la supone</p></foreignObject>
+  <foreignObject x="92" y="506" width="250" height="68"><p xmlns="http://www.w3.org/1999/xhtml" style="margin:0;height:100%;display:flex;align-items:center;font:20px/1.25 Arial,sans-serif;color:#c6d0cc">Mente unificada</p></foreignObject>
+  <rect x="366" y="498" width="278" height="84" rx="12" fill="#e8f1ee"/>
+  <foreignObject x="380" y="506" width="250" height="68"><p xmlns="http://www.w3.org/1999/xhtml" style="margin:0;height:100%;display:flex;align-items:center;justify-content:center;text-align:center;font:19px/1.25 Arial,sans-serif;color:#22302e">la explica el cerebro</p></foreignObject>
+  <rect x="656" y="498" width="278" height="84" rx="12" fill="#f3d6c8"/>
+  <foreignObject x="670" y="506" width="250" height="68"><p xmlns="http://www.w3.org/1999/xhtml" style="margin:0;height:100%;display:flex;align-items:center;justify-content:center;text-align:center;font:700 19px/1.25 Arial,sans-serif;color:#22302e">deuda: combinación</p></foreignObject>
+  <rect x="946" y="498" width="278" height="84" rx="12" fill="#e8f1ee"/>
+  <foreignObject x="960" y="506" width="250" height="68"><p xmlns="http://www.w3.org/1999/xhtml" style="margin:0;height:100%;display:flex;align-items:center;justify-content:center;text-align:center;font:19px/1.25 Arial,sans-serif;color:#22302e">la explica la disociación</p></foreignObject>
+  <rect x="1236" y="498" width="278" height="84" rx="12" fill="#f3e6cf"/>
+  <foreignObject x="1250" y="506" width="250" height="68"><p xmlns="http://www.w3.org/1999/xhtml" style="margin:0;height:100%;display:flex;align-items:center;justify-content:center;text-align:center;font:19px/1.25 Arial,sans-serif;color:#22302e">por combinación de agentes</p></foreignObject>
+  <foreignObject x="92" y="602" width="250" height="68"><p xmlns="http://www.w3.org/1999/xhtml" style="margin:0;height:100%;display:flex;align-items:center;font:20px/1.25 Arial,sans-serif;color:#c6d0cc">Leyes regulares compartidas</p></foreignObject>
+  <rect x="366" y="594" width="278" height="84" rx="12" fill="#e8f1ee"/>
+  <foreignObject x="380" y="602" width="250" height="68"><p xmlns="http://www.w3.org/1999/xhtml" style="margin:0;height:100%;display:flex;align-items:center;justify-content:center;text-align:center;font:19px/1.25 Arial,sans-serif;color:#22302e">las supone</p></foreignObject>
+  <rect x="656" y="594" width="278" height="84" rx="12" fill="#e8f1ee"/>
+  <foreignObject x="670" y="602" width="250" height="68"><p xmlns="http://www.w3.org/1999/xhtml" style="margin:0;height:100%;display:flex;align-items:center;justify-content:center;text-align:center;font:19px/1.25 Arial,sans-serif;color:#22302e">las supone</p></foreignObject>
+  <rect x="946" y="594" width="278" height="84" rx="12" fill="#f3d6c8"/>
+  <foreignObject x="960" y="602" width="250" height="68"><p xmlns="http://www.w3.org/1999/xhtml" style="margin:0;height:100%;display:flex;align-items:center;justify-content:center;text-align:center;font:700 19px/1.25 Arial,sans-serif;color:#22302e">deuda: derivarlas</p></foreignObject>
+  <rect x="1236" y="594" width="278" height="84" rx="12" fill="#f3d6c8"/>
+  <foreignObject x="1250" y="602" width="250" height="68"><p xmlns="http://www.w3.org/1999/xhtml" style="margin:0;height:100%;display:flex;align-items:center;justify-content:center;text-align:center;font:700 19px/1.25 Arial,sans-serif;color:#22302e">deuda: derivarlas</p></foreignObject>
+  <foreignObject x="92" y="698" width="250" height="68"><p xmlns="http://www.w3.org/1999/xhtml" style="margin:0;height:100%;display:flex;align-items:center;font:20px/1.25 Arial,sans-serif;color:#c6d0cc">Predicción propia</p></foreignObject>
+  <rect x="366" y="690" width="278" height="84" rx="12" fill="#e8f1ee"/>
+  <foreignObject x="380" y="698" width="250" height="68"><p xmlns="http://www.w3.org/1999/xhtml" style="margin:0;height:100%;display:flex;align-items:center;justify-content:center;text-align:center;font:19px/1.25 Arial,sans-serif;color:#22302e">no la necesita</p></foreignObject>
+  <rect x="656" y="690" width="278" height="84" rx="12" fill="#e6ecf5"/>
+  <foreignObject x="670" y="698" width="250" height="68"><p xmlns="http://www.w3.org/1999/xhtml" style="margin:0;height:100%;display:flex;align-items:center;justify-content:center;text-align:center;font:19px/1.25 Arial,sans-serif;color:#22302e">ninguna</p></foreignObject>
+  <rect x="946" y="690" width="278" height="84" rx="12" fill="#e6ecf5"/>
+  <foreignObject x="960" y="698" width="250" height="68"><p xmlns="http://www.w3.org/1999/xhtml" style="margin:0;height:100%;display:flex;align-items:center;justify-content:center;text-align:center;font:19px/1.25 Arial,sans-serif;color:#22302e">ninguna</p></foreignObject>
+  <rect x="1236" y="690" width="278" height="84" rx="12" fill="#f3e6cf"/>
+  <foreignObject x="1250" y="698" width="250" height="68"><p xmlns="http://www.w3.org/1999/xhtml" style="margin:0;height:100%;display:flex;align-items:center;justify-content:center;text-align:center;font:19px/1.25 Arial,sans-serif;color:#22302e">prometida (CON-004)</p></foreignObject>
+  <text x="92" y="830" fill="#9fb0ab" font-family="Arial, sans-serif" font-size="19">Rojo claro: deuda principal. Ocre: abierto o prometido. Azul: sin predicción propia. Síntesis del expediente, no un resultado medido.</text>
+</svg>

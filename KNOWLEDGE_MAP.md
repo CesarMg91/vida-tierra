@@ -1798,3 +1798,16 @@ Véase 26_conciencia/INVESTIGACION_CON_001_PERCEPCION_REALIDAD.md, 22_mapas_epis
 - `CLAIM-CON-ST-HOFFMAN-LEAP-001` impide pasar de «espacio-tiempo no fundamental» a «conciencia fundamental» sin premisas adicionales.
 
 Véase 26_conciencia/INVESTIGACION_CON_002_ESPACIO_TIEMPO.md, 22_mapas_epistemologicos/MAPA_CON_002_ESPACIO_TIEMPO.md y 21_cronologias/CRONOLOGIA_CON_002_ESPACIO_TIEMPO.md.
+
+## CON-003 — Una correlación no es una metafísica
+
+- El problema difícil separa argumento filosófico, dato y postura metafísica.
+- La anestesia, el índice de complejidad y la conciencia oculta separan dependencia medida de identidad o producción.
+- La prueba adversarial de 2025 separa predicción preregistrada, resultado y lectura de los proponentes.
+- IIT separa axiomas sobre la experiencia, identidad con una estructura causal y consecuencias panpsiquistas.
+- Panpsiquismo, idealismo y realismo consciente separan lo que explican con facilidad de la deuda que dejan.
+- Los experimentos del amigo de Wigner separan observador cuántico (un fotón) de observador consciente.
+- `CLAIM-CON-CF-EQUIVALENCE-001` impide presentar un dato neurocientífico como prueba de una metafísica.
+- `CLAIM-CON-CF-CHAIN-001` impide pasar de «interfaz» o «espacio-tiempo emergente» a «conciencia fundamental».
+
+Véase 26_conciencia/INVESTIGACION_CON_003_CONCIENCIA_FUNDAMENTAL.md, 22_mapas_epistemologicos/MAPA_CON_003_CONCIENCIA_FUNDAMENTAL.md y 21_cronologias/CRONOLOGIA_CON_003_CONCIENCIA_FUNDAMENTAL.md.

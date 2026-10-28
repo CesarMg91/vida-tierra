@@ -954,3 +954,26 @@ CIV-003 inaugura los expedientes regionales auditados. CIV-001 conserva `TRAZADO
 | `TIME-CON-ST-ISLANDS-2019-001` | 2019–2020 | curva de Page desde superficies extremales cuánticas | derivación en modelos | `SRC-CON-ST-AEMM-2019`, `SRC-CON-ST-PENINGTON-2020` | A publicación | AUDITADO |
 | `TIME-CON-ST-FUSIONS-2023-001` | enero de 2023 | «Fusions of Consciousness» | uso de «el espacio-tiempo está condenado» en una tesis de la conciencia | `SRC-CON-ST-HOFFMAN-2023` | A publicación | AUDITADO |
 | `TIME-CON-ST-2025-001` | 2025 | conteo a todos los lazos y *Out of Nowhere* | amplitudes sin diagramas; funcionalismo del espacio-tiempo | `SRC-CON-ST-COUNTING-2025`, `SRC-CON-ST-HUGGETT-2025` | A publicación | AUDITADO |
+
+## CON-003 — Conciencia fundamental
+
+| ID | Fecha/rango | Evento | Producto | Fuentes | Confianza | Estado |
+|---|---|---|---|---|---|---|
+| `TIME-CON-CF-NAGEL-1974-001` | 1974 | «¿Qué se siente ser un murciélago?» | argumento sobre el carácter subjetivo | `SRC-CON-CF-NAGEL-1974` | A publicación | AUDITADO |
+| `TIME-CON-CF-JACKSON-1982-001` | 1982 | el argumento de Mary | argumento del conocimiento | `SRC-CON-CF-JACKSON-1982` | A publicación | AUDITADO |
+| `TIME-CON-CF-CHALMERS-1995-001` | 1995 | el problema difícil | distinción entre problemas fáciles y difícil | `SRC-CON-CF-CHALMERS-1995` | A publicación | AUDITADO |
+| `TIME-CON-CF-TEGMARK-2000-001` | 2000 | decoherencia en el cerebro | cálculo contra la conciencia cuántica | `SRC-CON-CF-TEGMARK-2000` | A publicación | AUDITADO |
+| `TIME-CON-CF-IIT-2004-001` | 2004 | primera formulación de IIT | teoría científica | `SRC-CON-CF-TONONI-2004` | A publicación | AUDITADO |
+| `TIME-CON-CF-STRAWSON-2006-001` | 2006 original; 2008 reimpreso | monismo realista | argumento a favor del panpsiquismo | `SRC-CON-CF-STRAWSON-2008` | A publicación | AUDITADO |
+| `TIME-CON-CF-OWEN-2006-001` | 2006 | conciencia oculta en estado vegetativo | hallazgo empírico | `SRC-CON-CF-OWEN-2006` | A publicación | AUDITADO |
+| `TIME-CON-CF-ANESTHESIA-2008-001` | 2008 | conciencia y anestesia | revisión | `SRC-CON-CF-ALKIRE-2008` | A publicación | AUDITADO |
+| `TIME-CON-CF-GNW-2011-001` | 2011 | marcas del acceso consciente | revisión del espacio de trabajo global | `SRC-CON-CF-DEHAENE-2011` | A publicación | AUDITADO |
+| `TIME-CON-CF-PCI-2013-001` | 2013 | índice de complejidad perturbacional | hallazgo empírico | `SRC-CON-CF-CASALI-2013` | A publicación | AUDITADO |
+| `TIME-CON-CF-2014-001` | 2014 | agentes conscientes y revisión de Orch OR | modelo formal y propuesta cuántica | `SRC-CON-CF-HOFFMAN-PRAKASH-2014`, `SRC-CON-CF-HAMEROFF-2014` | A publicación | AUDITADO |
+| `TIME-CON-CF-2016-001` | 2016 | problema de la combinación y correlatos neurales | filosofía y revisión | `SRC-CON-CF-CHALMERS-COMBINATION-2016`, `SRC-CON-CF-KOCH-2016` | A publicación | AUDITADO |
+| `TIME-CON-CF-2017-001` | 2017 | idealismo analítico y monismo russelliano | tesis metafísicas | `SRC-CON-CF-KASTRUP-2017`, `SRC-CON-CF-GOFF-2017` | A publicación | AUDITADO |
+| `TIME-CON-CF-2019-001` | 2019 | argumento del despliegue y prueba del amigo de Wigner | crítica a IIT y experimento cuántico | `SRC-CON-CF-DOERIG-2019`, `SRC-CON-CF-PROIETTI-2019` | A publicación | AUDITADO |
+| `TIME-CON-CF-2021-001` | 2021 | dilema de la falsación y propuesta adversarial | metaciencia | `SRC-CON-CF-KLEINER-2021`, `SRC-CON-CF-MELLONI-2021` | A publicación | AUDITADO |
+| `TIME-CON-CF-2022-001` | 2022 | base ConTraSt y revisión de teorías | metaciencia y revisión | `SRC-CON-CF-YARON-2022`, `SRC-CON-CF-SETH-BAYNE-2022` | A publicación | AUDITADO |
+| `TIME-CON-CF-2023-001` | 2023 | IIT 4.0, carta sobre IIT y encuesta PhilPapers publicada | teoría, disputa y dato sociológico | `SRC-CON-CF-IIT4-2023`, `SRC-CON-CF-IIT-CONCERNED-2023`, `SRC-CON-CF-BOURGET-2023` | A publicación | AUDITADO |
+| `TIME-CON-CF-COGITATE-2025-001` | abril de 2025 | prueba adversarial entre IIT y el espacio de trabajo global | hallazgo empírico preregistrado | `SRC-CON-CF-COGITATE-2025` | A publicación | AUDITADO |

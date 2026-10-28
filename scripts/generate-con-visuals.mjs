@@ -157,6 +157,118 @@ function chain({ steps, firewalls, title, kicker, headline, legend } = chainCon0
 `;
 }
 
+const chainCon003 = {
+  steps: [
+    ["Planteamiento", "qué se pregunta y en qué sentido de «fundamental»"],
+    ["Resultado", "argumento, hallazgo, teoría o modelo"],
+    ["Alcance", "qué datos o supuestos lo sostienen"],
+    ["Interpretación", "lectura como postura sobre la mente"],
+    ["Salto", "tesis sobre qué es lo fundamental"],
+    ["Prueba", "predicción que separaría rivales"],
+  ],
+  firewalls: ["≠ dato", "≠ identidad", "≠ teoría confirmada", "≠ metafísica", "≠ confirmación"],
+  title: "Cadena desde una pregunta sobre la mente hasta una tesis sobre lo fundamental",
+  kicker: "CON-003 · CADENA DE INFERENCIA",
+  headline: "Una correlación no es una metafísica",
+  legend: "Verde: lo que se argumenta, mide o modela. Ocre: lo que se interpreta o afirma. Azul: lo que podría decidirlo.",
+};
+
+function heroConsciousness() {
+  const W = 1672;
+  const H = 941;
+  const rand = rng(2810);
+  const parts = [];
+  // Campo de puntos tenues: sin agrupar, ninguno destaca.
+  const dots = [];
+  for (let i = 0; i < 900; i += 1) dots.push([W * 0.34 + rand() * W * 0.68, rand() * H]);
+  // Regiones donde los puntos se agrupan y se iluminan.
+  const centers = [[W * 0.58, H * 0.36, 150], [W * 0.8, H * 0.62, 190], [W * 0.66, H * 0.82, 110], [W * 0.92, H * 0.2, 120]];
+  for (const [cx, cy, r] of centers) {
+    parts.push(`<circle cx="${f(cx)}" cy="${f(cy)}" r="${f(r * 1.6)}" fill="url(#halo)"/>`);
+  }
+  for (const [x, y] of dots) {
+    let pull = 0;
+    let tx = x;
+    let ty = y;
+    for (const [cx, cy, r] of centers) {
+      const d = Math.hypot(cx - x, cy - y);
+      const w = Math.exp(-(d * d) / (2 * r * r));
+      if (w > pull) {
+        pull = w;
+        tx = x + (cx - x) * w * 0.55;
+        ty = y + (cy - y) * w * 0.55;
+      }
+    }
+    const color = pull > 0.35 ? "#efe6d2" : pull > 0.12 ? "#e9b65c" : "#5fb3a1";
+    parts.push(`<circle cx="${f(tx)}" cy="${f(ty)}" r="${f(1.1 + pull * 3.2 + rand() * 0.8)}" fill="${color}" fill-opacity="${f(0.18 + pull * 0.75)}"/>`);
+  }
+  // Arcos tenues entre regiones: relaciones sin forma definida.
+  for (let i = 0; i < centers.length; i += 1) {
+    const [x1, y1] = centers[i];
+    const [x2, y2] = centers[(i + 1) % centers.length];
+    const mx = (x1 + x2) / 2 + (rand() - 0.5) * 160;
+    const my = (y1 + y2) / 2 + (rand() - 0.5) * 160;
+    parts.push(`<path d="M${f(x1)} ${f(y1)}Q${f(mx)} ${f(my)} ${f(x2)} ${f(y2)}" fill="none" stroke="#9cb7d8" stroke-opacity=".22" stroke-width="1.2"/>`);
+  }
+  return `<svg xmlns="http://www.w3.org/2000/svg" width="${W}" height="${H}" viewBox="0 0 ${W} ${H}" role="img" aria-labelledby="title desc">
+  <title id="title">Muchos puntos tenues que se agrupan en regiones luminosas</title>
+  <desc id="desc">Composición generativa abstracta: un campo de puntos tenues sobre fondo oscuro; en algunas regiones los puntos se acercan, cambian de color y brillan, unidas por arcos tenues. No representa un resultado, una teoría, una mente ni una estructura física real.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#101a1f"/><stop offset=".55" stop-color="#13262a"/><stop offset="1" stop-color="#0c1517"/></linearGradient>
+    <radialGradient id="halo"><stop stop-color="#e9b65c" stop-opacity=".16"/><stop offset="1" stop-color="#e9b65c" stop-opacity="0"/></radialGradient>
+    <linearGradient id="fadeL" x1="0" y1="0" x2="1" y2="0"><stop offset=".3" stop-color="#101a1f"/><stop offset=".5" stop-color="#101a1f" stop-opacity="0"/></linearGradient>
+  </defs>
+  <rect width="${W}" height="${H}" fill="url(#bg)"/>
+  ${parts.join("\n  ")}
+  <rect width="${W}" height="${H}" fill="url(#fadeL)"/>
+</svg>
+`;
+}
+
+function debtsMatrix() {
+  const cols = ["Fisicalismo", "Panpsiquismo", "Idealismo", "Realismo consciente"];
+  const rows = [
+    ["Dependencia cerebral", ["la produce", "la organiza", "es su apariencia", "es su interfaz"], ["ok", "ok", "ok", "ok"]],
+    ["Por qué hay experiencia", ["deuda: problema difícil", "la supone", "la supone", "la supone"], ["debt", "ok", "ok", "ok"]],
+    ["Mente unificada", ["la explica el cerebro", "deuda: combinación", "la explica la disociación", "por combinación de agentes"], ["ok", "debt", "ok", "open"]],
+    ["Leyes regulares compartidas", ["las supone", "las supone", "deuda: derivarlas", "deuda: derivarlas"], ["ok", "ok", "debt", "debt"]],
+    ["Predicción propia", ["no la necesita", "ninguna", "ninguna", "prometida (CON-004)"], ["ok", "none", "none", "open"]],
+  ];
+  const fills = { ok: "#e8f1ee", debt: "#f3d6c8", open: "#f3e6cf", none: "#e6ecf5" };
+  const x0 = 360;
+  const cw = 290;
+  const y0 = 300;
+  const rh = 96;
+  const head = cols
+    .map((c, j) => `<text x="${x0 + j * cw + cw / 2}" y="${y0 - 22}" text-anchor="middle" fill="#f4f1e8" font-family="Georgia, serif" font-size="24" font-weight="700">${c}</text>`)
+    .join("\n  ");
+  const body = rows
+    .map(([label, cells, kinds], i) => {
+      const y = y0 + i * rh;
+      const tds = cells
+        .map((txt, j) => `<rect x="${x0 + j * cw + 6}" y="${y + 6}" width="${cw - 12}" height="${rh - 12}" rx="12" fill="${fills[kinds[j]]}"/>
+  <foreignObject x="${x0 + j * cw + 20}" y="${y + 14}" width="${cw - 40}" height="${rh - 28}"><p xmlns="http://www.w3.org/1999/xhtml" style="margin:0;height:100%;display:flex;align-items:center;justify-content:center;text-align:center;font:${kinds[j] === "debt" ? "700 " : ""}19px/1.25 Arial,sans-serif;color:#22302e">${txt}</p></foreignObject>`)
+        .join("\n  ");
+      return `<foreignObject x="92" y="${y + 14}" width="250" height="${rh - 28}"><p xmlns="http://www.w3.org/1999/xhtml" style="margin:0;height:100%;display:flex;align-items:center;font:20px/1.25 Arial,sans-serif;color:#c6d0cc">${label}</p></foreignObject>
+  ${tds}`;
+    })
+    .join("\n  ");
+  return `<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Lo que los datos fijan y la deuda que cada postura deja abierta</title>
+  <desc id="desc">Matriz de cinco filas y cuatro columnas: fisicalismo, panpsiquismo, idealismo y realismo consciente frente a la dependencia cerebral, por qué hay experiencia, la mente unificada, las leyes regulares compartidas y la predicción propia. Todas aceptan la dependencia cerebral; cada una deja una deuda distinta marcada en rojo claro.</desc>
+  <defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#101a1f"/><stop offset="1" stop-color="#16282b"/></linearGradient></defs>
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <text x="92" y="92" fill="#8fd3c6" font-family="Arial, sans-serif" font-size="23" font-weight="700" letter-spacing="4">CON-003 · DEUDAS DE CADA POSTURA</text>
+  <text x="92" y="152" fill="#f4f1e8" font-family="Georgia, serif" font-size="44" font-weight="700">Mismos datos, distinta deuda</text>
+  <text x="92" y="198" fill="#c6d0cc" font-family="Arial, sans-serif" font-size="24">Todas aceptan que la experiencia depende del cerebro. Difieren en lo que dejan sin explicar.</text>
+  ${head}
+  ${body}
+  <text x="92" y="830" fill="#9fb0ab" font-family="Arial, sans-serif" font-size="19">Rojo claro: deuda principal. Ocre: abierto o prometido. Azul: sin predicción propia. Síntesis del expediente, no un resultado medido.</text>
+</svg>
+`;
+}
+
+
 function heroSpacetime() {
   const W = 1672;
   const H = 941;
@@ -287,6 +399,10 @@ const heroSpacetimeSvg = heroSpacetime();
 fs.writeFileSync(path.join(OUT, "hero-con-002-espacio-tiempo.svg"), heroSpacetimeSvg);
 fs.writeFileSync(path.join(OUT, "cadena-modelo-prueba-con-002.svg"), chain(chainCon002));
 fs.writeFileSync(path.join(OUT, "escala-pruebas-espacio-tiempo-con-002.svg"), planckTests());
+const heroConsciousnessSvg = heroConsciousness();
+fs.writeFileSync(path.join(OUT, "hero-con-003-conciencia-fundamental.svg"), heroConsciousnessSvg);
+fs.writeFileSync(path.join(OUT, "cadena-modelo-prueba-con-003.svg"), chain(chainCon003));
+fs.writeFileSync(path.join(OUT, "deudas-posturas-con-003.svg"), debtsMatrix());
 
 // --png rasteriza todas las portadas; --png=con-002 sólo las indicadas, para no reescribir PNG ya auditados.
 const pngArg = process.argv.find((arg) => arg.startsWith("--png"));
@@ -295,6 +411,7 @@ if (pngArg) {
   const heroes = [
     ["con-001", heroSvg, "hero-con-001-percepcion-interfaz.png"],
     ["con-002", heroSpacetimeSvg, "hero-con-002-espacio-tiempo.png"],
+    ["con-003", heroConsciousnessSvg, "hero-con-003-conciencia-fundamental.png"],
   ].filter(([key]) => !only || key === only);
   const { chromium } = await import("@playwright/test");
   const browser = await chromium.launch();

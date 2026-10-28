@@ -4492,3 +4492,16 @@ Riesgo basal, alternativas y preferencias cambian el balance. **Corrección:** s
 | `ERR-CON-ST-BELL-SPACE-001` | Bell demostró que el espacio no existe | Bell excluye el realismo local, no la estructura espacio-temporal | nombrar qué supuesto descarta el experimento | ACTIVO |
 | `ERR-CON-ST-TIME-ILLUSION-001` | la física demostró que el tiempo es una ilusión | la ausencia de tiempo en Wheeler-DeWitt es un problema de formulación abierto | presentarlo como problema, no como conclusión | ACTIVO |
 | `ERR-CON-ST-DOOMED-CONSCIOUSNESS-001` | si el espacio-tiempo no es fundamental, la conciencia lo es | son tesis independientes; la física no introduce sujetos en lo que reemplaza al espacio-tiempo | auditar la tesis metafísica en su propio expediente | ACTIVO |
+
+## CON-003 — Conciencia fundamental
+
+| ID | Error | Por qué falla | Corrección operativa | Estado |
+|---|---|---|---|---|
+| `ERR-CON-CF-SCIENCE-PROVED-001` | la ciencia demostró que todo es conciencia | las posturas que hacen fundamental a la conciencia son tesis metafísicas sin predicción confirmada | separar argumento, hallazgo, teoría, modelo y tesis | ACTIVO |
+| `ERR-CON-CF-BRAIN-PROVES-001` | está demostrado que el cerebro produce la conciencia | la dependencia fija la estructura de la relación, no la naturaleza de lo relacionado | hablar de dependencia y nombrar la postura que la interpreta | ACTIVO |
+| `ERR-CON-CF-QUANTUM-CREATES-001` | la mecánica cuántica demuestra que la conciencia crea la realidad | los «observadores» de los experimentos son fotones; lo discutido es la objetividad de los registros | nombrar qué observador y qué supuesto entra en el experimento | ACTIVO |
+| `ERR-CON-CF-IIT-PROVEN-001` | IIT es la teoría probada de la conciencia | la prueba adversarial cuestionó supuestos centrales y su estatus científico está en disputa | presentarla como teoría en prueba | ACTIVO |
+| `ERR-CON-CF-ROCKS-THINK-001` | el panpsiquismo dice que las piedras piensan | atribuye formas mínimas de experiencia a constituyentes básicos, no mentes a agregados | distinguir experiencia básica de mente unificada | ACTIVO |
+| `ERR-CON-CF-POPULARITY-001` | la mayoría de los filósofos cree X, así que X es verdad | una encuesta mide opinión, no evidencia | citar encuestas como datos sociológicos | ACTIVO |
+| `ERR-CON-CF-HARD-PROOF-001` | el problema difícil prueba que la conciencia no es física | es un argumento sobre una brecha explicativa; admite lecturas fisicalistas | presentarlo como problema abierto | ACTIVO |
+| `ERR-CON-CF-ILLUSIONISM-NOBODY-001` | el ilusionismo dice que nadie siente nada | niega propiedades fenoménicas misteriosas, no la experiencia de dolor | exponer la tesis en sus términos | ACTIVO |

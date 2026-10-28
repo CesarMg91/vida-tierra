@@ -1070,3 +1070,14 @@ La portada no usa modelos de imagen: se regenera idéntica con `node scripts/gen
 | `escala-pruebas-espacio-tiempo-con-002.svg` | `scripts/generate-con-visuals.mjs` con cifras de fuentes registradas | `1600 × 900` | código fuente versionado | eje logarítmico; acota sólo los modelos que nombra |
 
 La portada no usa modelos de imagen: se regenera idéntica con `node scripts/generate-con-visuals.mjs --png=con-002`. Los SVG incluyen `title` y `desc`.
+
+## CON-003 — Conciencia fundamental
+
+| Archivo | Origen | Dimensiones | SHA-256 / trazabilidad | Límite |
+|---|---|---:|---|---|
+| `hero-con-003-conciencia-fundamental.png` | rasterizado con Chromium desde el SVG generativo del proyecto, 2026-10-27 | `1672 × 941` | `b3bb50c6ca9062c52cca563de87bd546a2eef252a9a875a8aa0820bf51efd4f6` | composición abstracta; no representa resultado, teoría ni dato |
+| `hero-con-003-conciencia-fundamental.svg` | `scripts/generate-con-visuals.mjs`, semilla fija | `1672 × 941` | código fuente versionado | puntos pseudoaleatorios sin información |
+| `cadena-modelo-prueba-con-003.svg` | `scripts/generate-con-visuals.mjs` | `1600 × 900` | código fuente versionado | seis capas inferenciales; no herencia automática |
+| `deudas-posturas-con-003.svg` | `scripts/generate-con-visuals.mjs` | `1600 × 900` | código fuente versionado | síntesis del expediente; no puntúa posturas |
+
+La portada no usa modelos de imagen: se regenera idéntica con `node scripts/generate-con-visuals.mjs --png=con-003`. Los SVG incluyen `title` y `desc`.

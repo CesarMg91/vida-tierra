@@ -221,6 +221,9 @@ La clasificación expresa cuánto restringe hoy la evidencia, no cuán interesan
 | `OPEN-CON-ST-DE-SITTER-001` | ¿Existe una descripción holográfica de un universo con constante cosmológica positiva como el nuestro? | AdS/CFT funciona con constante negativa; el universo observado la tiene positiva | no hay una correspondencia consistente y verificada para de Sitter | D |
 | `OPEN-CON-ST-POSITIVE-GRAVITY-001` | ¿Hay una geometría positiva para la gravedad o para teorías realistas que haga una predicción nueva? | el programa abarca N = 4 SYM planar, escalares y correladores cosmológicos simples | ninguna predicción distinta de la teoría de campos usual al corte | E |
 | `OPEN-CON-ST-OBSERVABLE-001` | ¿Qué observación podría mostrar que el espacio-tiempo es emergente? | las pruebas de Lorentz, el Holometer y las propuestas de entrelazamiento gravitacional acotan o probarían cosas distintas | los programas que conservan Lorentz no tienen firma observable clara | E |
+| `OPEN-CON-CF-DISCRIMINATE-001` | ¿Qué observación distinguiría fisicalismo, panpsiquismo e idealismo? | las tres aceptan los mismos datos de dependencia cerebral | ninguna formula hoy una predicción que las otras no hagan | E |
+| `OPEN-CON-CF-THEORY-001` | ¿Qué teoría científica de la conciencia sobrevivirá a pruebas adversariales preregistradas? | la primera prueba cuestionó supuestos de IIT y del espacio de trabajo global | faltan pruebas con otras teorías, tareas y predicciones centrales | D |
+| `OPEN-CON-CF-ATTRIBUTION-001` | ¿Cómo saber si un sistema sin reporte es consciente? | índices de complejidad y conciencia oculta en pacientes | sin reporte, la atribución depende de la teoría; animales y máquinas sin criterio acordado | D |
 
 ## Tipos de “no sabemos”
 
