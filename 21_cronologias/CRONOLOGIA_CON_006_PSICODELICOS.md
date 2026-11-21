@@ -16,7 +16,7 @@ Las fechas son de publicaciones, tratados, leyes y decisiones regulatorias. La l
 | 2018–2021 | Ly y col.; Shao y col. | plasticidad estructural en células y roedores | animales |
 | 2019 | Carhart-Harris y Friston | REBUS | interpretación |
 | 2021 | Davis y col.; Carhart-Harris y col.; Mitchell y col.; Muthukumaraswamy y col.; Szigeti y col.; Olson; Yaden y Griffiths; Timmermann y col. | ensayos, crítica del cegamiento, expectativa, debate sobre la experiencia, creencias | cegamiento roto |
-| 2022 | Goodwin y col.; McCulloch y col.; Breeksema y col. | 233 personas con depresión resistente; replicación en neuroimagen; eventos adversos | efecto no sostenido a 12 semanas |
+| 2022 | Goodwin y col.; McCulloch y col.; Breeksema y col. | 233 personas con depresión resistente; replicación en neuroimagen; eventos adversos | respuesta sostenida a 12 semanas sin diferencia significativa |
 | 2023 | Nardou y col.; Raison y col.; Mitchell y col.; van Elk y Fried; Australia | periodo crítico; placebo activo; segundo fase 3; problemas de validez; prescripción autorizada | ratones; seguimiento corto |
 | 2024 | Siegel y col.; Metaxa y Clarke; FDA; Código Penal Federal | desincronización; metaanálisis; MDMA no aprobada; reforma de la excepción ceremonial | decisión conocida por periodismo |
 | 2026 | este proyecto | auditoría de lo que se mide y lo que se proyecta | resúmenes y textos legales al corte |

@@ -4531,7 +4531,7 @@ Riesgo basal, alternativas y preferencias cambian el balance. **Corrección:** s
 
 | ID | Error | Por qué falla | Corrección operativa | Estado |
 |---|---|---|---|---|
-| `ERR-CON-PSY-CURE-001` | la psilocibina cura la depresión | ensayos pequeños, cegamiento roto y efecto no sostenido a 12 semanas en el mayor ensayo | hablar de tratamiento en investigación con resultados prometedores y límites | ACTIVO |
+| `ERR-CON-PSY-CURE-001` | la psilocibina cura la depresión | ensayos pequeños, cegamiento roto y sin diferencia significativa en la respuesta sostenida a 12 semanas en el mayor ensayo | hablar de tratamiento en investigación con resultados prometedores y límites | ACTIVO |
 | `ERR-CON-PSY-FDA-MDMA-001` | la FDA aprobó la MDMA para el estrés postraumático, o la declaró ineficaz | en 2024 no la aprobó con los datos presentados y pidió otro ensayo de fase 3 | citar la decisión y sus razones | ACTIVO |
 | `ERR-CON-PSY-MORE-CONSCIOUS-001` | los psicodélicos expanden o aumentan la conciencia | se midió mayor diversidad de señal, no más experiencia ni una más verdadera | decir que el estado es distinto y más variable | ACTIVO |
 | `ERR-CON-PSY-REVEALS-001` | los psicodélicos revelan la verdadera realidad | un informe es evidencia de la experiencia, no de su contenido | separar experiencia, informe y mundo | ACTIVO |

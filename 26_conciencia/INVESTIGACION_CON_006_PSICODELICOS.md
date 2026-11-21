@@ -2,7 +2,7 @@
 id: INV-CON-PSYCHEDELICS-006
 titulo: "Qué enseñan los psicodélicos sobre percepción y conciencia sin convertir una perturbación del cerebro en una revelación ni un ensayo prometedor en una cura"
 estado: AUDITADO
-ultima_revision: 2026-11-20
+ultima_revision: 2026-11-21
 claims:
   - CLAIM-CON-PSY-SCOPE-001
   - CLAIM-CON-PSY-NOT-ADVICE-001
@@ -253,11 +253,11 @@ Los ensayos aleatorizados con psilocibina y acompañamiento psicológico muestra
 
 ### 19. Depresión resistente
 
-Goodwin y colaboradores (2022) hicieron el ensayo más grande: 233 personas con depresión resistente a tratamiento, asignadas a tres dosis de psilocibina, la más baja como control. La dosis alta redujo los síntomas a las tres semanas más que el control; la intermedia, no. El efecto **no se sostuvo de forma significativa a las 12 semanas**. Hubo eventos adversos en el 77 % de los participantes, y se registraron ideación o conducta suicida y autolesiones en todos los grupos (`CLAIM-CON-PSY-TRD-001`). Los autores concluyeron que hacían falta ensayos más grandes y largos.
+Goodwin y colaboradores (2022) hicieron el ensayo más grande: 233 personas con depresión resistente a tratamiento, asignadas a tres dosis de psilocibina, la más baja como control. La dosis alta redujo los síntomas a las tres semanas más que el control; la intermedia, no. A las 12 semanas, la respuesta sostenida fue de 20 % con la dosis alta y de 10 % con el control, una diferencia **que no fue estadísticamente significativa**; y como la dosis intermedia falló primero en el orden de pruebas previsto, los autores advierten que de ninguna medida secundaria se pueden sacar conclusiones firmes. Hubo eventos adversos en el 77 % de los participantes, también en el 72 % del grupo control. Hubo ideación suicida o autolesiones en los tres grupos, algo más frecuentes con las dosis activas, y tres personas del grupo de dosis alta tuvieron conducta suicida después de la tercera semana; las tres tenían antecedentes y no habían respondido al tratamiento (`CLAIM-CON-PSY-TRD-001`). Los autores concluyeron que hacían falta ensayos más grandes y largos, comparados con los tratamientos existentes.
 
 ### 20. Lo que dice el conjunto
 
-Metaxa y Clarke (2024) reunieron en el *BMJ* los ensayos aleatorizados de psilocibina contra placebo o fármacos no psicoactivos: 436 participantes de siete estudios. El efecto promedio fue moderado y favorable. Fue **mayor cuando los síntomas se medían con escalas de autoinforme y cuando los participantes ya habían usado psicodélicos antes** (`CLAIM-CON-PSY-META-001`). Ambos moderadores son los que esperaría quien sospecha de las expectativas: quien ya conoce el efecto lo reconoce y quien sabe qué recibió puede informar mejoría. Todos los estudios tenían riesgo de sesgo moderado. Los autores no detectaron un sesgo significativo por estudios pequeños, pero con siete estudios esa prueba tiene poca potencia.
+Metaxa y Clarke (2024) reunieron en el *BMJ* los ensayos aleatorizados de psilocibina contra placebo o fármacos no psicoactivos: 436 participantes de seis ensayos (siete informes). El efecto promedio fue favorable y de tamaño moderado (g de Hedges de 0.66). En análisis que los propios autores llaman exploratorios, el efecto fue **mayor en los estudios que medían con una escala de autoinforme, el inventario de Beck, y las tasas de respuesta y remisión fueron mayores donde más participantes ya habían usado psicodélicos** (`CLAIM-CON-PSY-META-001`). Con matices: los estudios con el inventario de Beck eran también los de personas con enfermedades graves, la otra escala de autoinforme dio el efecto más pequeño y el uso previo no se asoció con el cambio en las puntuaciones. Aun así, ambos moderadores son los que esperaría quien sospecha de las expectativas: quien ya conoce el efecto lo reconoce y quien sabe qué recibió puede informar mejoría. Todos los estudios tenían riesgo de sesgo moderado, por el cegamiento y por conflictos de interés, y los autores calificaron como moderada la certeza de la evidencia. No detectaron sesgo por estudios pequeños en el cambio de las puntuaciones ni en la remisión, pero sí en la tasa de respuesta; con tan pocos estudios, esas pruebas tienen poca potencia.
 
 ### 21. MDMA en estrés postraumático
 
@@ -294,7 +294,7 @@ Los riesgos que la literatura documenta son reales y no se reducen al momento de
 - **Angustia aguda intensa.** Es el riesgo más frecuente según las guías de seguridad de investigación de Johnson, Richards y Griffiths (2008), y puede llevar a conductas peligrosas.
 - **Psicosis prolongada desencadenada por la sustancia.** Menos frecuente, según las mismas guías.
 - **Trastorno perceptivo persistente por alucinógenos.** Halpern y Pope (2003) lo describieron como genuino pero poco común, a veces durante meses o años, y peor estudiado de lo que debería.
-- **En ensayos clínicos:** dolor de cabeza, náusea, ansiedad y fatiga son frecuentes; en el ensayo de Goodwin hubo ideación o conducta suicida y autolesiones en todos los grupos. Breeksema y colaboradores (2022) encontraron que los eventos adversos se registran mal y probablemente se subestiman.
+- **En ensayos clínicos:** dolor de cabeza, náusea, ansiedad y fatiga son frecuentes; en el ensayo de Goodwin hubo ideación suicida o autolesiones en todos los grupos, algo más con las dosis activas, y conducta suicida en tres participantes con la dosis alta. Breeksema y colaboradores (2022) encontraron que los eventos adversos se registran mal y probablemente se subestiman.
 - **Interacciones y contexto.** Los ensayos retiran antes otros fármacos psiquiátricos. Fuera de un ensayo no hay control de qué sustancia ni cuánta se consume, de su pureza ni de quién acompaña.
 
 ### 27. Contraindicaciones
@@ -352,7 +352,7 @@ Este expediente cierra la serie CON con su lección más práctica: una interven
 | diversidad de señal (2017) | correlato cerebral | mayor que en vigilia | el estado es distinto y más variable | no es «más conciencia» |
 | REBUS (2019) | interpretación | marco que organiza los datos | hipótesis con predicciones | no probada por discriminación |
 | experiencia mística (2006) | informe en primera persona | puede inducirse y medirse con cuestionarios | la experiencia es estudiable | no prueba su contenido |
-| psilocibina en depresión (2021–2024) | ensayo clínico | mejoría mayor que control en varios ensayos | posible tratamiento | cegamiento roto; efecto de 12 semanas no sostenido en el mayor ensayo |
+| psilocibina en depresión (2021–2024) | ensayo clínico | mejoría mayor que control en varios ensayos | posible tratamiento | cegamiento roto; respuesta sostenida a 12 semanas sin diferencia significativa en el mayor ensayo |
 | MDMA en estrés postraumático (2021–2024) | ensayo clínico y regulación | mejoría mayor que placebo con terapia; FDA no aprobó | posible tratamiento | durabilidad, cegamiento y calidad de datos cuestionados |
 | microdosis autocegadas (2021) | control de expectativa | placebo y sustancia mejoran igual | la expectativa produce mejoría | no evalúa dosis terapéuticas |
 
@@ -415,4 +415,4 @@ La respuesta rigurosa no es «los psicodélicos revelan la verdadera realidad» 
 
 ## Fuentes y fecha de corte
 
-Fuentes auditadas en `SOURCES.md`. Corte: `2026-11-20`. Las fuentes con DOI se verificaron contra Crossref: título, año, volumen y páginas. Los resúmenes de los artículos biomédicos se revisaron en PubMed; los textos completos no se revisaron salvo cuando se indica. El convenio de 1971 se revisó en el texto publicado por la UNODC. La Ley General de Salud y el Código Penal Federal se revisaron en las versiones publicadas por la Cámara de Diputados, con sus fechas de última reforma. La decisión de la FDA de 2024 se conoce por un editorial de *JAMA*, revisado sólo en su primera página, y por reportajes de CBS News, PharmExec y STAT; la carta de la FDA no se revisó. La descripción del cambio en Australia viene de autores que participaron en la campaña a su favor. Las dosis de los ensayos se omiten a propósito. Este expediente no recomienda el uso de ninguna sustancia y no es asesoría médica ni legal.
+Fuentes auditadas en `SOURCES.md`. Corte: `2026-11-20`. Las fuentes con DOI se verificaron contra Crossref: título, año, volumen y páginas. Los resúmenes de los artículos biomédicos se revisaron en PubMed; los textos completos no se revisaron salvo cuando se indica. El 2026-11-21 se leyeron en texto completo el ensayo de Goodwin y colaboradores (2022), en el artículo publicado, y el metaanálisis de Metaxa y Clarke (2024), en PubMed Central; sus cifras se corrigieron contra ese texto. El convenio de 1971 se revisó en el texto publicado por la UNODC. La Ley General de Salud y el Código Penal Federal se revisaron en las versiones publicadas por la Cámara de Diputados, con sus fechas de última reforma. La decisión de la FDA de 2024 se conoce por un editorial de *JAMA*, revisado sólo en su primera página, y por reportajes de CBS News, PharmExec y STAT; la carta de la FDA no se revisó. La descripción del cambio en Australia viene de autores que participaron en la campaña a su favor. Las dosis de los ensayos se omiten a propósito. Este expediente no recomienda el uso de ninguna sustancia y no es asesoría médica ni legal.
