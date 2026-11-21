@@ -78,6 +78,8 @@ export const metadata: Metadata = {
     images: [absoluteUrl(DEFAULT_OG_IMAGE)],
   },
   robots: { index: true, follow: true },
+  // Search Console: propiedad de la cuenta de servicio de Méndez Labs (seo-mendez-labs@).
+  verification: { google: "D9KSPaYFk0NaPEEpqrhpptkf2wL1PxKC0rx7k31XqQI" },
 };
 
 export const viewport: Viewport = {
