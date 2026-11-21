@@ -1103,3 +1103,14 @@ La portada no usa modelos de imagen: se regenera idéntica con `node scripts/gen
 | `mapa-markov-permutaciones-con-005.svg` | `scripts/generate-con-visuals.mjs` con conteos de `scripts/markov-decorated-permutations.mjs` | `1600 × 900` | código fuente versionado | conteos para tres estados |
 
 La portada no usa modelos de imagen: se regenera idéntica con `node scripts/generate-con-visuals.mjs --png=con-005`. Los SVG incluyen `title` y `desc`.
+
+## CON-006 — Psicodélicos, percepción y conciencia
+
+| Archivo | Origen | Dimensiones | SHA-256 / trazabilidad | Límite |
+|---|---|---:|---|---|
+| `hero-con-006-psicodelicos.png` | rasterizado con Chromium desde el SVG generativo del proyecto, 2026-11-20 | `1672 × 941` | `11b618337a7e567e8d8d86bf31f5ef22a9a9c156afa8b1ff1ee05ce7754dd5f8` | composición abstracta; no representa sustancia, cerebro, experiencia ni dato |
+| `hero-con-006-psicodelicos.svg` | `scripts/generate-con-visuals.mjs`, semilla fija | `1672 × 941` | código fuente versionado | ondas y puntos sin información |
+| `cadena-modelo-prueba-con-006.svg` | `scripts/generate-con-visuals.mjs` | `1600 × 900` | código fuente versionado | seis capas inferenciales; no herencia automática |
+| `escalera-evidencia-con-006.svg` | `scripts/generate-con-visuals.mjs` | `1600 × 900` | código fuente versionado | síntesis del expediente; no recomienda el uso de ninguna sustancia |
+
+La portada no usa modelos de imagen: se regenera idéntica con `node scripts/generate-con-visuals.mjs --png=con-006`. Los SVG incluyen `title` y `desc`.

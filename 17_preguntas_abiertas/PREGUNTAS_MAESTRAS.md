@@ -228,6 +228,9 @@ La clasificación expresa cuánto restringe hoy la evidencia, no cuán interesan
 | `OPEN-CON-LILLY-ARCHIVE-001` | ¿Qué dicen los documentos primarios del laboratorio de St. Thomas? | la cronología pública se apoya en periodismo y testimonios tardíos | archivos de financiamiento y del laboratorio no auditados | D |
 | `OPEN-CON-AP-DYNAMICS-001` | ¿Existe un mapa entre agentes y diagramas que conserve la dinámica y la composición? | el mapa publicado sólo usa el grafo de transiciones | no se ha publicado una versión que use las probabilidades | E |
 | `OPEN-CON-AP-PREDICTION-001` | ¿Qué predicción física distinguiría la teoría de agentes de la física estándar? | se propone una ruta con datos de dispersión | ninguna predicción publicada al corte | E |
+| `OPEN-CON-PSY-SUBJECTIVE-001` | ¿Es necesaria la experiencia subjetiva para el efecto terapéutico de los psicodélicos? | evidencia humana correlacional a favor; evidencia animal con análogos no alucinógenos en contra | no hay un ensayo humano que compare compuestos con y sin efectos subjetivos | D |
+| `OPEN-CON-PSY-BLINDING-001` | ¿Cuánto del efecto clínico de psilocibina y MDMA sobrevive a un cegamiento creíble y a seguimiento largo? | ensayos favorables con cegamiento roto y expectativas altas; la FDA pidió otro ensayo de fase 3 en 2024 | faltan ensayos que midan cegamiento y expectativa y sigan a los participantes más de unas semanas | C |
+| `OPEN-CON-PSY-SIGNATURE-001` | ¿Existe una firma cerebral replicada del estado psicodélico? | cambios en la red por defecto, integración y desincronización en pocos conjuntos de datos | métodos dispares; falta replicación preregistrada con datos nuevos | D |
 
 ## Tipos de “no sabemos”
 

@@ -4526,3 +4526,14 @@ Riesgo basal, alternativas y preferencias cambian el balance. **Corrección:** s
 | `ERR-CON-AP-SEVENTEEN-001` | los 27 vértices del caso de tres agentes dan 17 permutaciones distintas | dan 14; el total posible para tres elementos es 16 | citar el conteo reproducible | ACTIVO |
 | `ERR-CON-AP-SHARED-MEANS-SAME-001` | si agentes y partículas reciben la misma etiqueta, son lo mismo | la misma etiqueta la reciben procesos de exclusión y olas | exigir que el mapa conserve operaciones | ACTIVO |
 | `ERR-CON-AP-MATH-PROVES-CONSCIOUSNESS-001` | la matemática del mapa demuestra que la conciencia es fundamental | el mapa no usa la conciencia; vale para cualquier grafo | separar el mapa de su interpretación | ACTIVO |
+
+## CON-006 — Psicodélicos, percepción y conciencia
+
+| ID | Error | Por qué falla | Corrección operativa | Estado |
+|---|---|---|---|---|
+| `ERR-CON-PSY-CURE-001` | la psilocibina cura la depresión | ensayos pequeños, cegamiento roto y efecto no sostenido a 12 semanas en el mayor ensayo | hablar de tratamiento en investigación con resultados prometedores y límites | ACTIVO |
+| `ERR-CON-PSY-FDA-MDMA-001` | la FDA aprobó la MDMA para el estrés postraumático, o la declaró ineficaz | en 2024 no la aprobó con los datos presentados y pidió otro ensayo de fase 3 | citar la decisión y sus razones | ACTIVO |
+| `ERR-CON-PSY-MORE-CONSCIOUS-001` | los psicodélicos expanden o aumentan la conciencia | se midió mayor diversidad de señal, no más experiencia ni una más verdadera | decir que el estado es distinto y más variable | ACTIVO |
+| `ERR-CON-PSY-REVEALS-001` | los psicodélicos revelan la verdadera realidad | un informe es evidencia de la experiencia, no de su contenido | separar experiencia, informe y mundo | ACTIVO |
+| `ERR-CON-PSY-NATURAL-SAFE-001` | si es natural o se usó en ceremonias, no tiene riesgos | hay angustia aguda, psicosis prolongada poco común, trastorno perceptivo persistente y eventos subregistrados; los ensayos excluyen a personas en riesgo | nombrar riesgos y contraindicaciones documentados | ACTIVO |
+| `ERR-CON-PSY-LEGAL-MX-001` | en México los hongos ya son legales | la Ley General de Salud prohíbe todo acto salvo investigación autorizada; la excepción penal es sólo para ceremonias de pueblos indígenas y afromexicanos | citar los artículos 245, 248 y 249 y el 195 bis | ACTIVO |

@@ -3524,3 +3524,13 @@ Emular un ensayo objetivo corrige errores de diseño, no confusión no medida. *
 | `CONT-CON-AP-DYNAMICS-001` | ¿puede el mapa conservar la dinámica de los agentes? | una versión futura usará las probabilidades | la reducción al grafo es esencial al método | publicación de un mapa que use la dinámica completa | ABIERTA |
 | `CONT-CON-AP-PREDICTION-001` | ¿qué predicción física podría derivarse del programa? | datos de dispersión pondrán a prueba la teoría | la teoría reproduce, a lo sumo, la física conocida | una predicción publicada y confirmada | ABIERTA |
 | `CONT-CON-AP-CONSCIOUSNESS-ROLE-001` | ¿qué papel tiene la conciencia en un modelo cuya matemática no la usa? | la interpretación consciente es la motivación y el contenido metafísico | la conciencia es una premisa ociosa para el mapa | una consecuencia matemática que dependa de que los agentes sean conscientes | ABIERTA |
+
+## CON-006 — Psicodélicos, percepción y conciencia
+
+| ID | Pregunta | Hipótesis principal | Alternativa | Evidencia discriminante | Estado |
+|---|---|---|---|---|---|
+| `CONT-CON-PSY-SIGNATURE-001` | ¿qué firma cerebral define el estado psicodélico? | desorganización o desincronización de la red por defecto e integración entre redes | las firmas dependen del método de análisis y de pocos conjuntos de datos | análisis preregistrados con datos nuevos y métodos comunes | ABIERTA |
+| `CONT-CON-PSY-LEVEL-001` | ¿una mayor diversidad de señal indica un nivel más alto de conciencia? | el estado psicodélico es un nivel elevado de conciencia | la medida sólo separa consciente de inconsciente; arriba de la vigilia indica un estado distinto | una teoría validada que convierta el índice en escala, sometida a prueba adversarial | ABIERTA |
+| `CONT-CON-PSY-SUBJECTIVE-001` | ¿es necesaria la experiencia subjetiva para el efecto terapéutico? | la experiencia explica la mayor parte del beneficio | la plasticidad basta y compuestos no alucinógenos podrían igualarlo | ensayo humano con compuesto sin efectos subjetivos o con bloqueo del receptor | ABIERTA |
+| `CONT-CON-PSY-EFFICACY-001` | ¿cuánto del efecto clínico sobrevive a un cegamiento creíble? | el efecto es grande y duradero | el efecto está inflado por cegamiento roto, expectativa y selección | ensayos con cegamiento medido, placebo activo convincente y seguimiento largo | ABIERTA |
+| `CONT-CON-PSY-REVELATION-001` | ¿dice la experiencia psicodélica algo sobre la naturaleza de la realidad? | la unidad y la disolución del yo revelan algo verdadero | son estados del cerebro cuyo contenido no se verifica fuera de quien los vive | información verificable obtenida en el estado alterado | ABIERTA |

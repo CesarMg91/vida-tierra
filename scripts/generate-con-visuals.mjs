@@ -604,6 +604,99 @@ function planckTests() {
 `;
 }
 
+const chainCon006 = {
+  steps: [
+    ["Mecanismo", "receptor 5-HT2A, bloqueo y ocupación"],
+    ["Correlato", "cambios cerebrales que siguen a la experiencia"],
+    ["Alcance", "pocos datos, animales sin reporte, cegamiento roto"],
+    ["Interpretación", "cerebro entrópico, REBUS, terapia"],
+    ["Salto", "revelación, más conciencia o cura"],
+    ["Prueba", "cegamiento medido, réplica y dato verificable"],
+  ],
+  firewalls: ["≠ explicación", "≠ firma", "≠ eficacia", "≠ revelación", "≠ confirmación"],
+  title: "Cadena desde un experimento con psicodélicos hasta una tesis sobre la conciencia",
+  kicker: "CON-006 · CADENA DE INFERENCIA",
+  headline: "Una perturbación no es una revelación",
+  legend: "Verde: lo que se mide o se bloquea. Ocre: lo que se interpreta o se promete. Azul: lo que podría decidirlo.",
+};
+
+function heroPsychedelics() {
+  const W = 1672;
+  const H = 941;
+  const rand = rng(1120);
+  const parts = [];
+  // Dos fuentes de ondas concéntricas cuya interferencia forma un patrón: una perturbación, no un paisaje.
+  const sources = [
+    [W * 0.58, H * 0.42, "#8fd3c6"],
+    [W * 0.8, H * 0.62, "#e9b65c"],
+  ];
+  for (const [cx, cy, color] of sources) {
+    for (let r = 18; r < 900; r += 22) {
+      const op = Math.max(0.04, 0.5 - r / 1400);
+      parts.push(`<circle cx="${f(cx)}" cy="${f(cy)}" r="${r}" fill="none" stroke="${color}" stroke-opacity="${f(op)}" stroke-width="1.4"/>`);
+    }
+  }
+  // Puntos donde las ondas coinciden: brillos pequeños, sin forma reconocible.
+  for (let i = 0; i < 260; i += 1) {
+    const x = W * 0.42 + rand() * W * 0.58;
+    const y = rand() * H;
+    const d1 = Math.hypot(x - sources[0][0], y - sources[0][1]);
+    const d2 = Math.hypot(x - sources[1][0], y - sources[1][1]);
+    const phase = Math.abs(Math.sin(((d1 - d2) / 22) * Math.PI));
+    if (phase < 0.25) parts.push(`<circle cx="${f(x)}" cy="${f(y)}" r="${f(1.5 + rand() * 2.5)}" fill="#efe6d2" fill-opacity="${f(0.35 + rand() * 0.5)}"/>`);
+  }
+  return `<svg xmlns="http://www.w3.org/2000/svg" width="${W}" height="${H}" viewBox="0 0 ${W} ${H}" role="img" aria-labelledby="title desc">
+  <title id="title">Ondas concéntricas que se cruzan y forman un patrón de interferencia</title>
+  <desc id="desc">Composición generativa abstracta: dos fuentes de ondas concéntricas, una verde azulada y otra ocre, se superponen a la derecha; pequeños puntos claros marcan donde coinciden. No representa una sustancia, un cerebro, una experiencia ni un dato.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#101a1f"/><stop offset=".55" stop-color="#13262a"/><stop offset="1" stop-color="#0c1517"/></linearGradient>
+    <radialGradient id="glow" cx=".68" cy=".5" r=".45"><stop stop-color="#2c6d64" stop-opacity=".35"/><stop offset="1" stop-color="#2c6d64" stop-opacity="0"/></radialGradient>
+    <linearGradient id="fadeL" x1="0" y1="0" x2="1" y2="0"><stop offset=".3" stop-color="#101a1f"/><stop offset=".5" stop-color="#101a1f" stop-opacity="0"/></linearGradient>
+  </defs>
+  <rect width="${W}" height="${H}" fill="url(#bg)"/>
+  <rect width="${W}" height="${H}" fill="url(#glow)"/>
+  ${parts.join("\n  ")}
+  <rect width="${W}" height="${H}" fill="url(#fadeL)"/>
+</svg>
+`;
+}
+
+function psychedelicsLadder() {
+  const levels = [
+    ["Receptor", "la ketanserina bloquea el efecto; la intensidad sigue a la ocupación del 5-HT2A", "que el receptor explique cómo surge la experiencia", "ok"],
+    ["Cerebro", "cambios en la red por defecto, integración y desincronización ligados a la experiencia", "una firma replicada; «más conciencia» por mayor diversidad de señal", "partial"],
+    ["Animales", "espinas dendríticas y un periodo crítico reabierto en ratones", "que eso explique el efecto clínico en personas", "partial"],
+    ["Ensayos", "psilocibina y MDMA mejoran más que el control; FDA 2024: MDMA no aprobada", "eficacia demostrada con cegamiento roto y seguimiento corto", "partial"],
+    ["Metafísica", "informes de unidad, disolución del yo o entidades", "que lo informado exista o revele la realidad", "fail"],
+  ];
+  const fills = { ok: "#e8f1ee", partial: "#f3e6cf", fail: "#f3d6c8" };
+  const y0 = 262;
+  const rh = 104;
+  const rows = levels
+    .map(([name, measured, notFollow, kind], i) => {
+      const y = y0 + i * rh;
+      return `<text x="92" y="${y + 58}" fill="#f4f1e8" font-family="Georgia, serif" font-size="25" font-weight="700">${name}</text>
+  <rect x="300" y="${y + 8}" width="600" height="${rh - 16}" rx="12" fill="${fills[kind]}"/>
+  <foreignObject x="320" y="${y + 16}" width="560" height="${rh - 32}"><p xmlns="http://www.w3.org/1999/xhtml" style="margin:0;height:100%;display:flex;align-items:center;font:19px/1.3 Arial,sans-serif;color:#22302e">${measured}</p></foreignObject>
+  <rect x="920" y="${y + 8}" width="588" height="${rh - 16}" rx="12" fill="#e6ecf5"/>
+  <foreignObject x="940" y="${y + 16}" width="548" height="${rh - 32}"><p xmlns="http://www.w3.org/1999/xhtml" style="margin:0;height:100%;display:flex;align-items:center;font:19px/1.3 Arial,sans-serif;color:#22302e">${notFollow}</p></foreignObject>`;
+    })
+    .join("\n  ");
+  return `<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Del receptor a la metafísica: qué se midió en cada nivel y qué no se sigue</title>
+  <desc id="desc">Tabla de cinco niveles: receptor, cerebro, animales, ensayos y metafísica. Para cada uno, qué se midió y qué no se sigue de ello: el bloqueo del receptor no explica la experiencia; los correlatos no son una firma replicada ni más conciencia; la plasticidad en ratones no explica el efecto clínico; los ensayos no demuestran eficacia con cegamiento roto; los informes no prueban su contenido.</desc>
+  <defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#101a1f"/><stop offset="1" stop-color="#16282b"/></linearGradient></defs>
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <text x="92" y="92" fill="#8fd3c6" font-family="Arial, sans-serif" font-size="23" font-weight="700" letter-spacing="4">CON-006 · ESCALERA DE EVIDENCIA</text>
+  <text x="92" y="152" fill="#f4f1e8" font-family="Georgia, serif" font-size="44" font-weight="700">Lo que se midió y lo que no se sigue</text>
+  <text x="320" y="236" fill="#c6d0cc" font-family="Arial, sans-serif" font-size="20" font-weight="700">Qué se midió</text>
+  <text x="940" y="236" fill="#c6d0cc" font-family="Arial, sans-serif" font-size="20" font-weight="700">Qué no se sigue</text>
+  ${rows}
+  <text x="92" y="850" fill="#9fb0ab" font-family="Arial, sans-serif" font-size="19">Verde: sólido. Ocre: medido con límites serios. Rojo claro: sin datos a favor. Síntesis del expediente; no recomienda el uso de ninguna sustancia.</text>
+</svg>
+`;
+}
+
 fs.mkdirSync(OUT, { recursive: true });
 const heroSvg = hero();
 fs.writeFileSync(path.join(OUT, "hero-con-001-percepcion-interfaz.svg"), heroSvg);
@@ -624,6 +717,10 @@ const heroAgentsSvg = heroAgents();
 fs.writeFileSync(path.join(OUT, "hero-con-005-agentes-particulas.svg"), heroAgentsSvg);
 fs.writeFileSync(path.join(OUT, "cadena-modelo-prueba-con-005.svg"), chain(chainCon005));
 fs.writeFileSync(path.join(OUT, "mapa-markov-permutaciones-con-005.svg"), markovPermutationsFigure());
+const heroPsychedelicsSvg = heroPsychedelics();
+fs.writeFileSync(path.join(OUT, "hero-con-006-psicodelicos.svg"), heroPsychedelicsSvg);
+fs.writeFileSync(path.join(OUT, "cadena-modelo-prueba-con-006.svg"), chain(chainCon006));
+fs.writeFileSync(path.join(OUT, "escalera-evidencia-con-006.svg"), psychedelicsLadder());
 
 // --png rasteriza todas las portadas; --png=con-002 sólo las indicadas, para no reescribir PNG ya auditados.
 const pngArg = process.argv.find((arg) => arg.startsWith("--png"));
@@ -635,6 +732,7 @@ if (pngArg) {
     ["con-003", heroConsciousnessSvg, "hero-con-003-conciencia-fundamental.png"],
     ["con-004", heroLillySvg, "hero-con-004-john-lilly.png"],
     ["con-005", heroAgentsSvg, "hero-con-005-agentes-particulas.png"],
+    ["con-006", heroPsychedelicsSvg, "hero-con-006-psicodelicos.png"],
   ].filter(([key]) => !only || key === only);
   const { chromium } = await import("@playwright/test");
   const browser = await chromium.launch();

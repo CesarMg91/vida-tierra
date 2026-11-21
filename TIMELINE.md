@@ -1014,3 +1014,22 @@ CIV-003 inaugura los expedientes regionales auditados. CIV-001 conserva `TRAZADO
 | `TIME-CON-AP-FUSIONS-2023-001` | enero de 2023 | mapa de cadenas de Markov a permutaciones decoradas | definición y conjetura | `SRC-CON-ST-HOFFMAN-2023` | A publicación | AUDITADO |
 | `TIME-CON-AP-TRACES-2024-001` | octubre de 2024 | orden de trazas y ruta hacia pruebas | preimpresión | `SRC-CON-AP-TRACES-2024` | B preimpresión | AUDITADO |
 | `TIME-CON-AP-REPRODUCTION-2026-001` | 27 de octubre de 2026 | reproducción independiente del mapa y conteo de 14 permutaciones | reproducción computacional | `SRC-CON-ST-HOFFMAN-2023` | A reproducción | AUDITADO |
+
+## CON-006 — Psicodélicos, percepción y conciencia
+
+| ID | Fecha/rango | Evento | Producto | Fuentes | Confianza | Estado |
+|---|---|---|---|---|---|---|
+| `TIME-CON-PSY-UN-1971-001` | 1971 | convenio sobre sustancias sicotrópicas y su Lista I | tratado internacional | `SRC-CON-PSY-UN-1971` | A documento | AUDITADO |
+| `TIME-CON-PSY-KETANSERIN-1998-001` | 1998 | la ketanserina bloquea los efectos de la psilocibina en personas | hallazgo farmacológico | `SRC-CON-PSY-VOLLENWEIDER-1998` | A publicación | AUDITADO |
+| `TIME-CON-PSY-MYSTICAL-2006-001` | 2006 | experiencias místicas inducidas con comparador activo | ensayo doble ciego | `SRC-CON-PSY-GRIFFITHS-2006` | A publicación | AUDITADO |
+| `TIME-CON-PSY-CORTEX-2007-001` | 2007 | el receptor 5-HT2A cortical basta en ratones | hallazgo en animales | `SRC-CON-PSY-GONZALEZ-MAESO-2007` | A publicación | AUDITADO |
+| `TIME-CON-PSY-DMN-2012-001` | 2012 | disminuciones en centros de conexión de la red por defecto con psilocibina | correlato cerebral | `SRC-CON-PSY-CARHART-HARRIS-2012` | A publicación | AUDITADO |
+| `TIME-CON-PSY-THEORY-2014-001` | 2014 y 2019 | cerebro entrópico y REBUS | interpretación | `SRC-CON-PSY-ENTROPIC-2014`, `SRC-CON-PSY-REBUS-2019` | A publicación | AUDITADO |
+| `TIME-CON-PSY-LSD-2016-001` | 2016–2017 | neuroimagen con LSD, diversidad de señal y bloqueo del significado | correlato cerebral y farmacología | `SRC-CON-PSY-CARHART-HARRIS-2016`, `SRC-CON-PSY-TAGLIAZUCCHI-2016`, `SRC-CON-PSY-SCHARTNER-2017`, `SRC-CON-PSY-PRELLER-2017` | A publicación | AUDITADO |
+| `TIME-CON-PSY-PLASTICITY-2018-001` | 2018–2021 | plasticidad estructural en células y roedores | hallazgo en animales | `SRC-CON-PSY-LY-2018`, `SRC-CON-PSY-SHAO-2021` | A publicación | AUDITADO |
+| `TIME-CON-PSY-TRIALS-2021-001` | 2021 | ensayos de psilocibina en depresión y primer ensayo de fase 3 con MDMA; crítica del cegamiento | ensayo clínico y control | `SRC-CON-PSY-DAVIS-2021`, `SRC-CON-PSY-CARHART-HARRIS-2021`, `SRC-CON-PSY-MITCHELL-2021`, `SRC-CON-PSY-MUTHUKUMARASWAMY-2021` | A publicación | AUDITADO |
+| `TIME-CON-PSY-TRD-2022-001` | noviembre de 2022 | ensayo de 233 personas con depresión resistente | ensayo clínico | `SRC-CON-PSY-GOODWIN-2022` | A publicación | AUDITADO |
+| `TIME-CON-PSY-2023-001` | 2023 | periodo crítico en ratones, placebo activo, segundo ensayo de fase 3 con MDMA y cambio regulatorio australiano | animales, ensayo y regulación | `SRC-CON-PSY-NARDOU-2023`, `SRC-CON-PSY-RAISON-2023`, `SRC-CON-PSY-MITCHELL-2023`, `SRC-CON-PSY-NUTT-2024` | A publicación / B regulación | AUDITADO |
+| `TIME-CON-PSY-CPF-2024-001` | 1 de abril de 2024 | reforma de la excepción para peyote y hongos en ceremonias de pueblos indígenas y afromexicanos | marco legal | `SRC-CON-PSY-CPF-MX` | A documento | AUDITADO |
+| `TIME-CON-PSY-FDA-2024-001` | junio y agosto de 2024 | comité asesor en contra y carta de respuesta completa de la FDA sobre MDMA | regulación | `SRC-CON-PSY-CBS-2024`, `SRC-CON-PSY-PHARMEXEC-2024`, `SRC-CON-PSY-STAT-2024`, `SRC-CON-PSY-MARKS-2024` | B periodismo | AUDITADO |
+| `TIME-CON-PSY-2024-001` | 2024 | desincronización cerebral y metaanálisis de psilocibina | correlato cerebral y metaanálisis | `SRC-CON-PSY-SIEGEL-2024`, `SRC-CON-PSY-METAXA-2024` | A publicación | AUDITADO |

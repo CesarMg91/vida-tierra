@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Del receptor a la metafísica: qué se midió en cada nivel y qué no se sigue</title>
+  <desc id="desc">Tabla de cinco niveles: receptor, cerebro, animales, ensayos y metafísica. Para cada uno, qué se midió y qué no se sigue de ello: el bloqueo del receptor no explica la experiencia; los correlatos no son una firma replicada ni más conciencia; la plasticidad en ratones no explica el efecto clínico; los ensayos no demuestran eficacia con cegamiento roto; los informes no prueban su contenido.</desc>
+  <defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#101a1f"/><stop offset="1" stop-color="#16282b"/></linearGradient></defs>
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <text x="92" y="92" fill="#8fd3c6" font-family="Arial, sans-serif" font-size="23" font-weight="700" letter-spacing="4">CON-006 · ESCALERA DE EVIDENCIA</text>
+  <text x="92" y="152" fill="#f4f1e8" font-family="Georgia, serif" font-size="44" font-weight="700">Lo que se midió y lo que no se sigue</text>
+  <text x="320" y="236" fill="#c6d0cc" font-family="Arial, sans-serif" font-size="20" font-weight="700">Qué se midió</text>
+  <text x="940" y="236" fill="#c6d0cc" font-family="Arial, sans-serif" font-size="20" font-weight="700">Qué no se sigue</text>
+  <text x="92" y="320" fill="#f4f1e8" font-family="Georgia, serif" font-size="25" font-weight="700">Receptor</text>
+  <rect x="300" y="270" width="600" height="88" rx="12" fill="#e8f1ee"/>
+  <foreignObject x="320" y="278" width="560" height="72"><p xmlns="http://www.w3.org/1999/xhtml" style="margin:0;height:100%;display:flex;align-items:center;font:19px/1.3 Arial,sans-serif;color:#22302e">la ketanserina bloquea el efecto; la intensidad sigue a la ocupación del 5-HT2A</p></foreignObject>
+  <rect x="920" y="270" width="588" height="88" rx="12" fill="#e6ecf5"/>
+  <foreignObject x="940" y="278" width="548" height="72"><p xmlns="http://www.w3.org/1999/xhtml" style="margin:0;height:100%;display:flex;align-items:center;font:19px/1.3 Arial,sans-serif;color:#22302e">que el receptor explique cómo surge la experiencia</p></foreignObject>
+  <text x="92" y="424" fill="#f4f1e8" font-family="Georgia, serif" font-size="25" font-weight="700">Cerebro</text>
+  <rect x="300" y="374" width="600" height="88" rx="12" fill="#f3e6cf"/>
+  <foreignObject x="320" y="382" width="560" height="72"><p xmlns="http://www.w3.org/1999/xhtml" style="margin:0;height:100%;display:flex;align-items:center;font:19px/1.3 Arial,sans-serif;color:#22302e">cambios en la red por defecto, integración y desincronización ligados a la experiencia</p></foreignObject>
+  <rect x="920" y="374" width="588" height="88" rx="12" fill="#e6ecf5"/>
+  <foreignObject x="940" y="382" width="548" height="72"><p xmlns="http://www.w3.org/1999/xhtml" style="margin:0;height:100%;display:flex;align-items:center;font:19px/1.3 Arial,sans-serif;color:#22302e">una firma replicada; «más conciencia» por mayor diversidad de señal</p></foreignObject>
+  <text x="92" y="528" fill="#f4f1e8" font-family="Georgia, serif" font-size="25" font-weight="700">Animales</text>
+  <rect x="300" y="478" width="600" height="88" rx="12" fill="#f3e6cf"/>
+  <foreignObject x="320" y="486" width="560" height="72"><p xmlns="http://www.w3.org/1999/xhtml" style="margin:0;height:100%;display:flex;align-items:center;font:19px/1.3 Arial,sans-serif;color:#22302e">espinas dendríticas y un periodo crítico reabierto en ratones</p></foreignObject>
+  <rect x="920" y="478" width="588" height="88" rx="12" fill="#e6ecf5"/>
+  <foreignObject x="940" y="486" width="548" height="72"><p xmlns="http://www.w3.org/1999/xhtml" style="margin:0;height:100%;display:flex;align-items:center;font:19px/1.3 Arial,sans-serif;color:#22302e">que eso explique el efecto clínico en personas</p></foreignObject>
+  <text x="92" y="632" fill="#f4f1e8" font-family="Georgia, serif" font-size="25" font-weight="700">Ensayos</text>
+  <rect x="300" y="582" width="600" height="88" rx="12" fill="#f3e6cf"/>
+  <foreignObject x="320" y="590" width="560" height="72"><p xmlns="http://www.w3.org/1999/xhtml" style="margin:0;height:100%;display:flex;align-items:center;font:19px/1.3 Arial,sans-serif;color:#22302e">psilocibina y MDMA mejoran más que el control; FDA 2024: MDMA no aprobada</p></foreignObject>
+  <rect x="920" y="582" width="588" height="88" rx="12" fill="#e6ecf5"/>
+  <foreignObject x="940" y="590" width="548" height="72"><p xmlns="http://www.w3.org/1999/xhtml" style="margin:0;height:100%;display:flex;align-items:center;font:19px/1.3 Arial,sans-serif;color:#22302e">eficacia demostrada con cegamiento roto y seguimiento corto</p></foreignObject>
+  <text x="92" y="736" fill="#f4f1e8" font-family="Georgia, serif" font-size="25" font-weight="700">Metafísica</text>
+  <rect x="300" y="686" width="600" height="88" rx="12" fill="#f3d6c8"/>
+  <foreignObject x="320" y="694" width="560" height="72"><p xmlns="http://www.w3.org/1999/xhtml" style="margin:0;height:100%;display:flex;align-items:center;font:19px/1.3 Arial,sans-serif;color:#22302e">informes de unidad, disolución del yo o entidades</p></foreignObject>
+  <rect x="920" y="686" width="588" height="88" rx="12" fill="#e6ecf5"/>
+  <foreignObject x="940" y="694" width="548" height="72"><p xmlns="http://www.w3.org/1999/xhtml" style="margin:0;height:100%;display:flex;align-items:center;font:19px/1.3 Arial,sans-serif;color:#22302e">que lo informado exista o revele la realidad</p></foreignObject>
+  <text x="92" y="850" fill="#9fb0ab" font-family="Arial, sans-serif" font-size="19">Verde: sólido. Ocre: medido con límites serios. Rojo claro: sin datos a favor. Síntesis del expediente; no recomienda el uso de ninguna sustancia.</text>
+</svg>

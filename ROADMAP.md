@@ -253,6 +253,7 @@ Entregas públicas: MED-001 = `v0.3.0`; MED-002 = `v0.3.1`; MED-003 = `v0.3.2`; 
 | CON-003 | `INV-CON-CONSCIOUSNESS-FUNDAMENTAL-003` | [Conciencia fundamental: planteamiento, resultado, alcance, interpretación, salto metafísico y prueba](26_conciencia/INVESTIGACION_CON_003_CONCIENCIA_FUNDAMENTAL.md) | **AUDITADO** |
 | CON-004 | `INV-CON-LILLY-004` | [John C. Lilly: registro, resultado, alcance, interpretación, salto metafísico y prueba](26_conciencia/INVESTIGACION_CON_004_JOHN_LILLY.md) | **AUDITADO** |
 | CON-005 | `INV-CON-AGENTS-PARTICLES-005` | [Agentes conscientes y partículas: modelo, resultado, alcance, interpretación, salto metafísico y prueba](26_conciencia/INVESTIGACION_CON_005_AGENTES_PARTICULAS.md) | **AUDITADO** |
+| CON-006 | `INV-CON-PSYCHEDELICS-006` | [Psicodélicos: mecanismo, correlato, ensayo, interpretación, salto metafísico y prueba](26_conciencia/INVESTIGACION_CON_006_PSICODELICOS.md) | **AUDITADO** |
 
 CON es la única línea cuyo objeto es el propio observador. CON-001 audita el teorema «la aptitud le gana a la verdad», los juegos de interfaz y sus críticas, y separa lo demostrado dentro de modelos de la tesis sobre espacio-tiempo y objetos. El programa CON-002–CON-006 está en [PROGRAMA_CONCIENCIA.md](26_conciencia/PROGRAMA_CONCIENCIA.md), con contrato común en [ESTANDAR_EVIDENCIA_CONCIENCIA.md](26_conciencia/ESTANDAR_EVIDENCIA_CONCIENCIA.md). CIV y MED conservan su numeración y programa.
 
@@ -264,6 +265,8 @@ CON-004 es un caso histórico: audita la obra de John C. Lilly línea por línea
 
 CON-005 audita el puente entre agentes conscientes y física de partículas. Reproduce el mapa de 2023 con un script y una prueba del repositorio: el mapa es correcto, sólo usa el grafo de transiciones, vale para cualquier grafo y el texto original cuenta 17 permutaciones donde hay 14. Concluye que hay una etiqueta compartida, no una derivación ni una predicción.
 
-La siguiente investigación prevista es CON-006: qué enseñan los psicodélicos sobre percepción y conciencia, sin recomendar su uso.
+CON-006 audita qué enseñan los psicodélicos sobre percepción y conciencia, sin recomendar su uso. El receptor 5-HT2A es necesario para la experiencia; los correlatos cerebrales existen pero no tienen firma replicada; la plasticidad y los periodos críticos se mostraron en roedores; los ensayos con psilocibina y MDMA son prometedores con cegamiento roto, y la FDA no aprobó la MDMA en 2024. Concluye que son una herramienta experimental valiosa y una terapia todavía no demostrada, no una revelación.
 
-Entregas públicas: CON-001 = `v0.4.0`; CON-002 = `v0.4.1`; CON-003 = `v0.4.2`; CON-004 = `v0.4.3`; CON-005 = `v0.4.4`.
+CON-006 completa el programa inicial de la serie.
+
+Entregas públicas: CON-001 = `v0.4.0`; CON-002 = `v0.4.1`; CON-003 = `v0.4.2`; CON-004 = `v0.4.3`; CON-005 = `v0.4.4`; CON-006 = `v0.4.5`.

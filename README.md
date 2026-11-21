@@ -6,7 +6,7 @@ Historia profunda de la Tierra, la vida y el ser humano desde primeros principio
 
 **[Explorar la versión pública](https://vida-tierra.vercel.app)**
 
-La versión `0.4.4` agrega a la línea temática CON, conciencia y percepción, la investigación CON-005: qué conecta agentes conscientes y física de partículas, con una reproducción independiente del mapa de Hoffman, Prakash y Prentner (2023). Incluye en `/conciencia` el módulo «Una etiqueta no es una derivación» junto a los de CON-001 a CON-004, y conserva MED-001–019 y CIV-001–003 íntegros; la secuencia global continúa cerrada en `001–052`.
+La versión `0.4.5` agrega a la línea temática CON, conciencia y percepción, la investigación CON-006: qué enseñan los psicodélicos sobre percepción y conciencia, sin recomendar su uso. Incluye en `/conciencia` el módulo «Una perturbación no es una revelación» junto a los de CON-001 a CON-005, y conserva MED-001–019 y CIV-001–003 íntegros; la secuencia global continúa cerrada en `001–052`.
 
 El sitio usa `https://vida-tierra.vercel.app` como URL canónica. Otro dominio puede sustituirlo definiendo `SITE_URL` en el entorno de build, sin cambiar el código.
 
@@ -46,7 +46,7 @@ Y toda investigación debe distinguir explícitamente:
 - las alternativas y anomalías;
 - el grado de confianza y qué podría falsar la conclusión.
 
-## Estado actual · v0.4.4
+## Estado actual · v0.4.5
 
 La experiencia pública contiene:
 
@@ -119,6 +119,7 @@ La experiencia pública contiene:
 - la tercera investigación de Conciencia y percepción: [CON-003 — ¿Puede la conciencia ser lo fundamental?](26_conciencia/INVESTIGACION_CON_003_CONCIENCIA_FUNDAMENTAL.md) — **AUDITADO**; compara fisicalismo, panpsiquismo, idealismo y realismo consciente con la anestesia, los índices de complejidad, la prueba adversarial de 2025 y los atajos cuánticos sin convertir un argumento filosófico en una prueba ni una correlación en una explicación;
 - el caso histórico de Conciencia y percepción: [CON-004 — John C. Lilly: ¿qué queda de su obra?](26_conciencia/INVESTIGACION_CON_004_JOHN_LILLY.md) — **AUDITADO**; separa sus mediciones publicadas sobre delfines y estimulación cerebral, el tanque de flotación y sus estudios posteriores, el laboratorio de St. Thomas y sus autoexperimentos sin confundir sus mediciones con sus visiones;
 - la quinta investigación de Conciencia y percepción: [CON-005 — ¿Qué conecta agentes conscientes y partículas?](26_conciencia/INVESTIGACION_CON_005_AGENTES_PARTICULAS.md) — **AUDITADO**; reproduce el mapa de cadenas de Markov a permutaciones decoradas, muestra que sólo usa el grafo de transiciones, que el artículo cuenta 17 casos donde hay 14 y que no existe todavía una derivación ni una predicción física;
+- la sexta investigación de Conciencia y percepción: [CON-006 — ¿Qué enseñan los psicodélicos sobre percepción y conciencia?](26_conciencia/INVESTIGACION_CON_006_PSICODELICOS.md) — **AUDITADO**; separa el receptor 5-HT2A, los correlatos cerebrales, la plasticidad en animales, los ensayos con psilocibina y MDMA y sus límites (cegamiento, expectativa, decisión de la FDA de 2024), riesgos y marco legal, sin recomendar su uso ni convertir una experiencia en una revelación;
 - la trigésima séptima investigación: [`¿Cómo distinguimos especies, locomoción, dieta y parentesco entre australopitecos y Paranthropus sin convertir su diversidad en una escalera hacia Homo?`](08_cenozoico/INVESTIGACION_037_AUSTRALOPITECOS_PARANTHROPUS.md);
 - la trigésima octava investigación: [`¿Cómo reconocemos a Homo temprano, habilis y erectus si fósiles, herramientas, cuerpos y moléculas responden preguntas distintas?`](08_cenozoico/INVESTIGACION_038_HOMO_TEMPRANO_HABILIS_ERECTUS.md);
 - la trigésima novena investigación: [`¿Cómo reconstruimos las poblaciones humanas del Pleistoceno medio sin convertir Homo heidelbergensis en un cajón de sastre ni cada fósil en un ancestro?`](08_cenozoico/INVESTIGACION_039_HOMO_PLEISTOCENO_MEDIO_HEIDELBERGENSIS.md);

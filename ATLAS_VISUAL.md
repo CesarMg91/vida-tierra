@@ -1506,3 +1506,26 @@ Generada por el proyecto sin modelos de imagen: `node scripts/generate-con-visua
 ### Revisión y límites
 
 Las tres salidas se inspeccionaron completas tras rasterizar. En la figura de la reproducción se acortaron las barras para que la nota de la más larga no quedara detrás del recuadro de la errata. Los conteos de la figura salen del mismo módulo que la prueba `tests/markov-decorated-permutations.test.mts`.
+
+## 80. CON-006 — Una perturbación no es una revelación
+
+![Portada editorial de CON-006](assets/visuales/hero-con-006-psicodelicos.png)
+
+![Cadena desde un experimento con psicodélicos hasta una tesis sobre la conciencia](assets/visuales/cadena-modelo-prueba-con-006.svg)
+
+![Del receptor a la metafísica: qué se midió y qué no se sigue](assets/visuales/escalera-evidencia-con-006.svg)
+
+| Archivo | Tipo | Procedencia | Qué representa | Límite obligatorio |
+|---|---|---|---|---|
+| `hero-con-006-psicodelicos.png` | portada editorial generativa | rasterizado de `hero-con-006-psicodelicos.svg` con `scripts/generate-con-visuals.mjs --png=con-006`, 2026-11-20 | dos fuentes de ondas concéntricas que interfieren | no representa una sustancia, un cerebro, una experiencia ni un dato; sin colores ni formas asociados al consumo |
+| `hero-con-006-psicodelicos.svg` | fuente generativa determinista | SVG producido por `scripts/generate-con-visuals.mjs` con semilla fija | misma composición en vectores | ondas y puntos sin información |
+| `cadena-modelo-prueba-con-006.svg` | diagrama epistemológico original | SVG producido por `scripts/generate-con-visuals.mjs`, 2026-11-20 | mecanismo, correlato, alcance, interpretación, salto y prueba | las flechas no heredan explicación, firma, eficacia, revelación ni confirmación |
+| `escalera-evidencia-con-006.svg` | síntesis original | SVG producido por `scripts/generate-con-visuals.mjs`, 2026-11-20 | cinco niveles: qué se midió y qué no se sigue | síntesis del expediente; no puntúa sustancias ni recomienda su uso |
+
+### Procedencia de la portada
+
+Generada por el proyecto sin modelos de imagen: `node scripts/generate-con-visuals.mjs --png=con-006` escribe el SVG con una semilla fija y lo rasteriza con Chromium (Playwright) a `1672 × 941`. Tamaño: `1075006` bytes; SHA-256: `11b618337a7e567e8d8d86bf31f5ef22a9a9c156afa8b1ff1ee05ce7754dd5f8`. Las portadas de CON-001 a CON-005 no se regeneraron y quedan idénticas.
+
+### Revisión y límites
+
+Las tres salidas se inspeccionaron completas tras rasterizar. La portada evita a propósito la iconografía habitual de los psicodélicos (colores saturados, hongos, espirales, ojos o fractales) para no estetizar el consumo en redes.

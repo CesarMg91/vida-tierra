@@ -1835,3 +1835,16 @@ Véase 26_conciencia/INVESTIGACION_CON_004_JOHN_LILLY.md, 22_mapas_epistemologic
 - `CLAIM-CON-AP-CONSCIOUSNESS-IDLE-001` impide leer el mapa como evidencia de que la conciencia sea fundamental.
 
 Véase 26_conciencia/INVESTIGACION_CON_005_AGENTES_PARTICULAS.md, 22_mapas_epistemologicos/MAPA_CON_005_AGENTES_PARTICULAS.md y 21_cronologias/CRONOLOGIA_CON_005_AGENTES_PARTICULAS.md.
+
+## CON-006 — Una perturbación no es una revelación
+
+- El receptor 5-HT2A separa el interruptor farmacológico de la explicación de la experiencia.
+- La conducta de ratones separa la acción del fármaco de una experiencia que no se puede reportar.
+- La neuroimagen separa correlatos medidos de una firma replicada del estado.
+- La diversidad de señal separa un estado distinto de «más conciencia».
+- Los ensayos separan mejoría frente al control de efecto del fármaco cuando el cegamiento se rompe.
+- `CLAIM-CON-PSY-REPORT-CONTENT-001` impide leer un informe de unidad o de entidades como evidencia de lo informado.
+- `CLAIM-CON-PSY-BLINDING-001` impide presentar un tamaño de efecto sin cegamiento medido como eficacia demostrada.
+- `CLAIM-CON-PSY-LEGAL-MX-001` impide leer la excepción ceremonial del Código Penal Federal como legalidad general.
+
+Véase 26_conciencia/INVESTIGACION_CON_006_PSICODELICOS.md, 22_mapas_epistemologicos/MAPA_CON_006_PSICODELICOS.md y 21_cronologias/CRONOLOGIA_CON_006_PSICODELICOS.md.

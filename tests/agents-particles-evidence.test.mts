@@ -56,7 +56,7 @@ test("ningún caso promueve una tesis a resultado", () => {
   }
 });
 
-test("CON-005 está auditado y CON-006 sigue planeado", () => {
+test("CON-005 está auditado y la serie sigue consecutiva", () => {
   const editorial = JSON.parse(fs.readFileSync(path.join(ROOT, "content", "catalog-editorial.json"), "utf8"));
   assert.equal(editorial.records["CON-005"].status, "AUDITADO");
   const record = buildPublicData().catalog.find((entry) => entry.key === "CON-005");
@@ -64,5 +64,6 @@ test("CON-005 está auditado y CON-006 sigue planeado", () => {
   assert.equal(record.status, "AUDITADO");
   const program = fs.readFileSync(path.join(ROOT, "26_conciencia", "PROGRAMA_CONCIENCIA.md"), "utf8");
   assert.match(program, /\| CON-005 \|[^\n]*\*\*AUDITADO\*\* \|/);
-  assert.match(program, /\| CON-006 \|[^\n]*planeado \|/);
+  // El orden de la serie se conserva; el estado de CON-006 lo prueba su propio módulo.
+  assert.match(program, /\| CON-006 \| ¿Qué enseñan los psicodélicos/);
 });
