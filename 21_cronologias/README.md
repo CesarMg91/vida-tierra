@@ -6,6 +6,8 @@ Cronologías regionales o temáticas y matrices de correlación. La vista global
 
 - [`CRONOLOGIA_CIV_003_ASIA_SUDOCCIDENTAL.md`](CRONOLOGIA_CIV_003_ASIA_SUDOCCIDENTAL.md) — cinco carriles regionales y un carril de historia de métodos, sin etapas universales — **AUDITADO**.
 
+- [`CRONOLOGIA_CIV_004_NILO_AFRICA_NORORIENTAL.md`](CRONOLOGIA_CIV_004_NILO_AFRICA_NORORIENTAL.md) — seis carriles regionales y uno de historia de métodos, sin etapas hacia la «unificación» — **AUDITADO**.
+
 ## Medicina
 
 - [`CRONOLOGIA_MED_008_ROMA_BIZANCIO_MEDITERRANEO_TARDIO.md`](CRONOLOGIA_MED_008_ROMA_BIZANCIO_MEDITERRANEO_TARDIO.md) — organización, infraestructura, corpus, hospitales y redes por carriles no heredables — **AUDITADO**.

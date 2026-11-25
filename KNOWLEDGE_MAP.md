@@ -1848,3 +1848,74 @@ Véase 26_conciencia/INVESTIGACION_CON_005_AGENTES_PARTICULAS.md, 22_mapas_epist
 - `CLAIM-CON-PSY-LEGAL-MX-001` impide leer la excepción ceremonial del Código Penal Federal como legalidad general.
 
 Véase 26_conciencia/INVESTIGACION_CON_006_PSICODELICOS.md, 22_mapas_epistemologicos/MAPA_CON_006_PSICODELICOS.md y 21_cronologias/CRONOLOGIA_CON_006_PSICODELICOS.md.
+
+## MED-020 — Una cifra agregada no convierte una población en un efecto por sí sola
+
+- Londres 1662 separa lista parroquial, productora del dato, categoría de causa, denominador estimado y población.
+- La inoculación separa práctica plural, testigo sin autoría, comparación por clase, clasificación de dudosos, modelo y decisión individual.
+- La vacuna separa efecto observado, material incierto, cadena brazo a brazo, producción con lucro, regulación y niños portadores.
+- Louis y Viena separan serie seleccionada, regla de asignación, antes-después, agente y recepción.
+- Londres 1849–1855 separa experimento natural, exposición verificada, casas como denominador, teorías rivales y reanálisis.
+- Nightingale separa dato, gráfico, retórica y estimación de efecto.
+- La obligación separa ley, coerción, clase, religión, raza, ciudadanía y eficacia.
+- El tabaco separa casos y controles, cohorte, convergencia, objeción formal, duda organizada y uso de los puntos de Hill.
+- Salk separa placebo, voluntarios, brazo observado, efecto directo y seguridad de lote.
+- La erradicación separa vigilancia de casos, cobertura, decisión central y decisión local.
+- 2006–2026 separa asociación observacional, sesgo del vacunado sano, cohorte de registro y decisión normativa.
+- `CLAIM-MED-COUNT-CHAIN-001` impide heredar automáticamente una propiedad entre población, exposición, denominador, comparación, efecto, implementación y desigualdad.
+- `CLAIM-MED-COUNT-NONRANKING-001` impide ordenar archivos por modernidad estadística, tamaño de muestra o parecido con la práctica actual.
+- `CLAIM-MED-COUNT-NO-ADVICE-001` impide leer el expediente como recomendación clínica, vacunal o de política.
+
+Véase 15_medicina/INVESTIGACION_MED_020_ESTADISTICA_VACUNACION_EPIDEMIOLOGIA.md, 22_mapas_epistemologicos/MAPA_MED_020_ESTADISTICA_VACUNACION_EPIDEMIOLOGIA.md, 21_cronologias/CRONOLOGIA_MED_020_ESTADISTICA_VACUNACION_EPIDEMIOLOGIA.md, assets/visuales/cadena-poblacion-desigualdad-med-020.svg y assets/visuales/matriz-estadistica-vacunacion-epidemiologia-med-020.svg.
+
+## MED-021 — Una sala insensible no demuestra una cirugía más segura por sí sola
+
+- Antes de 1846 separa receta, planta, vía, intención, rapidez del operador y eficacia no demostrada.
+- Hanaoka e India británica separan uso local, recuento conmemorativo, prioridad retrospectiva, popularidad y marginación colonial.
+- El óxido nitroso separa conjetura de 1800, uso odontológico, función fallida y tasa no estimada.
+- El éter separa uso, publicación, demostración, serie publicada, daño temprano, adopción y prioridad.
+- El cloroformo separa afirmación de superioridad, muerte individual, numerador de muertes, modelo animal y mecanismo humano.
+- La anestesia local y raquídea separa efecto visible, difusión rápida, disputa de prioridad y cuenta de daños.
+- La mortalidad anestésica separa hoja individual, causa asignada y tasa con denominador.
+- Semmelweis separa comparación natural, reversión, mecanismo propuesto y linaje con Lister.
+- Lister separa serie, control histórico, ciclos hospitalarios, edad de los pacientes, críticos y recepción por país.
+- La asepsia separa laboratorio, protocolo, instrumento, guantes, protección del personal y desenlace clínico.
+- `CLAIM-MED-ANES-CHAIN-001` impide heredar automáticamente una propiedad entre problema, testimonio, demostración, serie, comparación, mecanismo y adopción.
+- `CLAIM-MED-ANES-NONRANKING-001` impide ordenar rutas de alivio y control de la infección por prioridad, fecha o región.
+
+Véase 15_medicina/INVESTIGACION_MED_021_ANESTESIA_ANALGESIA_ANTISEPSIA.md, 22_mapas_epistemologicos/MAPA_MED_021_ANESTESIA_ANALGESIA_ANTISEPSIA.md, 21_cronologias/CRONOLOGIA_MED_021_ANESTESIA_ANALGESIA_ANTISEPSIA.md, assets/visuales/cadena-dolor-infeccion-adopcion-med-021.svg y assets/visuales/matriz-anestesia-antisepsia-med-021.svg.
+
+## CIV-004 — Varios polos, ninguna periferia
+
+```text
+objeto / tumba / hueso / sedimento / genoma
+              ↓ procedencia + fecha (CIV-002)
+          contexto local
+              ↓ seriación, estratigrafía o Bayes
+       fase o bloque cerámico
+              ↓ comparación entre sitios
+   distribución regional de prácticas
+              ↓ mecanismo probado
+ interacción, apropiación o dominio
+```
+
+Seis archivos se conservan separados: agua y ocupación del Sahara, animales y leche, cementerios de agregación, orden cerámico y radiocarbono, polos de élite, imágenes y signos. La comparación no permite `fase → pueblo → reino → conquista → año de unificación` ni `imagen real → acontecimiento`.
+
+```text
+Sahara        → ocupación por fases húmedas B-REG; éxodo fundador C
+Nabta         → monumentos de pastores B; astronomía C; origen faraónico D
+ganado        → domesticación local temprana C / disputada
+Badari        → cementerios firmes; residencia en debate B-COND
+Petrie        → bloques B; fases C
+Hieracómpolis → élite local B; realeza C
+U-j           → signos en tumba excepcional A; administración C
+Narmer        → objeto ceremonial; no crónica
+Qustul        → polity nubia B; prioridad C
+Lothagam      → monumento sin jerarquía B-COND
+```
+
+- `CLAIM-CIV-NILE-NO-UNIFICATION-INSTANT-001` impide publicar un año de «unificación».
+- `CLAIM-CIV-NILE-NARMER-OBJECT-001` impide leer la paleta como acta de conquista.
+- `CLAIM-CIV-NILE-AFRICA-NOT-PERIPHERY-001` impide medir Nubia, el Sahara o África oriental por su distancia a Egipto.
+
+CIV-004 no cambia el estado de ningún claim de CIV-001. Véase `INV-CIV-NILE-001`, `MAPA_CIV_004_NILO_AFRICA_NORORIENTAL.md`, `CRONOLOGIA_CIV_004_NILO_AFRICA_NORORIENTAL.md`, `carriles-nilo-africa-nororiental-civ-004.svg` y `cadena-objeto-unificacion-civ-004.svg`.

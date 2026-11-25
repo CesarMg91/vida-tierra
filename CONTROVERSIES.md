@@ -3534,3 +3534,118 @@ Emular un ensayo objetivo corrige errores de diseño, no confusión no medida. *
 | `CONT-CON-PSY-SUBJECTIVE-001` | ¿es necesaria la experiencia subjetiva para el efecto terapéutico? | la experiencia explica la mayor parte del beneficio | la plasticidad basta y compuestos no alucinógenos podrían igualarlo | ensayo humano con compuesto sin efectos subjetivos o con bloqueo del receptor | ABIERTA |
 | `CONT-CON-PSY-EFFICACY-001` | ¿cuánto del efecto clínico sobrevive a un cegamiento creíble? | el efecto es grande y duradero | el efecto está inflado por cegamiento roto, expectativa y selección | ensayos con cegamiento medido, placebo activo convincente y seguimiento largo | ABIERTA |
 | `CONT-CON-PSY-REVELATION-001` | ¿dice la experiencia psicodélica algo sobre la naturaleza de la realidad? | la unidad y la disolución del yo revelan algo verdadero | son estados del cerebro cuyo contenido no se verifica fuera de quien los vive | información verificable obtenida en el estado alterado | ABIERTA |
+
+## MED-020 — Estadística, vacunación y epidemiología
+
+| ID | Pregunta | Hipótesis principal | Alternativa | Evidencia discriminante | Estado |
+|---|---|---|---|---|---|
+| `CONT-MED-COUNT-VARIOLATION-ORIGIN-001` | ¿dónde se originó la inoculación de viruela? | un origen único transmitido hacia Europa | prácticas plurales en China, Imperio otomano, norte de África y Bengala con rutas parcialmente documentadas | textos fechados, rutas y testigos independientes | ORIGEN ÚNICO NO DEMOSTRADO |
+| `CONT-MED-COUNT-JURIN-BENEFIT-001` | ¿demostraron las cifras de Jurin que inocular era mejor? | la diferencia de letalidad muestra el beneficio | clase, cuidado, exposición y clasificación explican parte de la diferencia | denominadores comparables, seguimiento y exposición | ABIERTA para la magnitud; dirección plausible |
+| `CONT-MED-COUNT-BERNOULLI-DALEMBERT-001` | ¿decide la ganancia media de Bernoulli por cada persona? | el modelo poblacional basta para decidir | el riesgo inmediato y la preferencia temporal individual cambian la decisión | separar pregunta poblacional y decisión personal | PREGUNTAS DISTINTAS |
+| `CONT-MED-COUNT-VACCINE-MATERIAL-001` | ¿qué virus contenía la vacuna histórica? | cowpox de Jenner sin cambios | horsepox o virus relacionados y cambio entre lotes | genomas de lotes datados | ABIERTA por lote |
+| `CONT-MED-COUNT-SEMMELWEIS-REJECTION-001` | ¿fue Semmelweis ignorado por ceguera de sus colegas? | rechazo irracional de una evidencia clara | falta de mecanismo, publicación tardía, conducta y teorías rivales | circulación del tratado, correspondencia y recepción | ABIERTA historiográfica |
+| `CONT-MED-COUNT-SNOW-PROOF-001` | ¿demostró Snow la transmisión del cólera por agua? | la Tabla IX demuestra la causa | inferencia fuerte sin agente, con denominador por casas y clasificación incompleta | convergencia posterior, microbiología y reanálisis | INFERENCIA FUERTE; prueba completa posterior |
+| `CONT-MED-COUNT-FISHER-CONSTITUTION-001` | ¿podía una constitución común explicar tabaco y cáncer? | factor genético o constitucional común | causalidad por gradiente, cohortes, cese y mecanismo | gradiente dosis-respuesta, cese, gemelos y experimentos | CONFUSIÓN CONSTITUCIONAL RECHAZADA |
+| `CONT-MED-COUNT-HILL-CRITERIA-001` | ¿son criterios de causalidad los puntos de Hill? | cumplirlos demuestra causa | guía de juicio sin condición necesaria ni suficiente | texto de 1965 y desempeño en casos | LISTA SUFICIENTE RECHAZADA |
+| `CONT-MED-COUNT-OBSERVATIONAL-VACCINE-001` | ¿qué estima un estudio observacional de efectividad vacunal? | el efecto de la vacuna | sesgo del vacunado sano y confusión residual | periodos sin exposición, controles negativos, emulación de ensayo | ABIERTA por estudio |
+| `CONT-MED-COUNT-POLICY-EVIDENCE-001` | ¿un cambio de recomendación equivale a evidencia nueva? | la decisión refleja nueva evidencia | decisión institucional con otra justificación | datos, denominador y balance declarados en la decisión | NO EQUIVALENTE por defecto |
+
+## MED-021 — Anestesia, analgesia y antisepsia
+
+| ID | Pregunta | Hipótesis principal | Alternativa | Evidencia discriminante | Estado |
+|---|---|---|---|---|---|
+| `CONT-MED-ANES-DISCOVERER-001` | ¿quién descubrió la anestesia? | Morton el 16 de octubre de 1846 | Long (uso 1842), Wells (1844), Jackson, Hanaoka (1804): cada criterio produce otro pionero | definición explícita de uso, publicación, demostración o difusión | FUNDADOR ÚNICO RECHAZADO |
+| `CONT-MED-ANES-SOPORIFICS-001` | ¿funcionaban los soporíferos antiguos y la esponja soporífera? | alivio eficaz del dolor quirúrgico | ineficaces o variables por preparación imposible de reproducir | preparación, dosis y desenlaces que el archivo no conserva | NO DEMOSTRADO; abierto |
+| `CONT-MED-ANES-WELLS-FAILURE-001` | ¿el fracaso de Wells falsó el óxido nitroso? | el agente no servía | una función no estima una tasa; dosis, paciente y técnica cuentan | series con denominador posteriores | FALSACIÓN POR UNA FUNCIÓN RECHAZADA |
+| `CONT-MED-ANES-CHLOROFORM-MECHANISM-001` | ¿cómo mataba el cloroformo? | paro respiratorio previo al cardiaco (Hyderabad) | paro cardiaco súbito al inicio de la inhalación (Snow) | observación humana registrada frente a modelo animal | ABIERTA en el siglo XIX; modelo animal no concluyente |
+| `CONT-MED-ANES-LISTER-EFFECT-001` | ¿la antisepsia redujo la mortalidad en las salas de Lister? | 45 % → 15 % por el sistema antiséptico | ciclos hospitalarios, selección, niños, higiene y técnica simultáneas | controles concurrentes, denominadores y edades | EFECTO PROBABLE; magnitud no identificada |
+| `CONT-MED-ANES-CLEANLINESS-001` | ¿desinfectante o limpieza? | el ácido carbólico es el componente activo | limpieza y agua producen resultados comparables (Tait, Callender) | comparación prospectiva entre métodos | ABIERTA en su época |
+| `CONT-MED-ANES-SEMMELWEIS-LINEAGE-001` | ¿Semmelweis anticipó a Lister? | misma idea, rechazada injustamente | pregunta, mecanismo y recepción distintos | mecanismo propuesto, contexto obstétrico y circulación | LINAJE DIRECTO RECHAZADO |
+| `CONT-MED-ANES-ASEPSIS-OUTCOME-001` | ¿la asepsia mejoró los desenlaces frente a la antisepsia? | sí, por eliminar gérmenes | apoyo de laboratorio; Mikulicz sin mejora clara al principio | series clínicas comparadas de época | NO DEMOSTRADO por comparación clínica de época |
+| `CONT-MED-ANES-PAIN-EQUITY-001` | ¿la anestesia alivió por igual a todas las personas? | criterio clínico neutral | creencias sobre sexo, clase y raza guiaron su uso | registros de quién fue anestesiado y por qué | IGUALDAD RECHAZADA |
+| `CONT-MED-ANES-SIMS-001` | ¿fueron consentidas las operaciones de Sims? | participación voluntaria (Wall) | experimentación sobre personas sin poder (Ojanuga) | testimonios de las pacientes, que el archivo casi no conserva | ABIERTA; archivo del cirujano |
+
+## CIV-004 — Controversias del Nilo y África nororiental
+
+### CONT-CIV-NILE-CLIMATE-DRIVER-001 — Clima como motor o como condición
+
+La ocupación sahariana sigue a la fase húmeda a escala de subcontinente. Kuper y Kröpelin proponen que el corrimiento del desierto ayudó a disparar la civilización faraónica; Wengrow y colaboradores discuten que el estrés ambiental sea el motor y subrayan una convergencia cultural previa.
+
+**Prueba discriminatoria:** cronologías locales del valle y del desierto con exposición hidroclimática medida que muestren si la agregación nilótica sigue, precede o es independiente de cada pulso árido.
+
+### CONT-CIV-NILE-CATTLE-001 — Ganado doméstico local o uro cazado
+
+La expedición de Wendorf y Schild leyó los *Bos* de los milenios IX–VIII a. C. como ganado domesticado localmente; Brass los lee como uros cazados y fecha el ganado doméstico visible desde mediados del VI milenio a. C.
+
+**Prueba discriminatoria:** ADN antiguo, morfometría e isótopos de los mismos especímenes con contexto y fecha directa.
+
+### CONT-CIV-NILE-NABTA-ASTRONOMY-001 — Astronomía en Nabta Playa
+
+Malville y colaboradores proponen alineamientos cardinales y solsticiales; el propio informe de campo titula «posible» el círculo calendárico.
+
+**Prueba discriminatoria:** posiciones originales documentadas, fechas por estructura y una prueba estadística que cuente todas las direcciones posibles antes de elegir las significativas.
+
+### CONT-CIV-NILE-BADARI-SEDENTISM-001 — Campamentos o aldeas badarienses
+
+Los basureros muestran arquitectura efímera y cultivo limitado; otros autores sostienen sedentarismo pleno con depósitos bajo la llanura aluvial.
+
+**Prueba discriminatoria:** sondeos geoarqueológicos en la llanura con estratigrafía fechada y estacionalidad multimétodo.
+
+### CONT-CIV-NILE-SERIATION-PHASES-001 — Fases Naqada individuales
+
+Los bloques resisten el radiocarbono; las fases individuales no. Persisten excavadores que usan las Stufen completas y otros que prefieren bloques.
+
+**Prueba discriminatoria:** fechas directas de vida corta en tumbas asignadas a cada fase, con modelos que no asuman el orden *a priori*.
+
+### CONT-CIV-NILE-HK6-KINGS-001 — «Primeros reyes» en Hieracómpolis
+
+Los excavadores leen HK6 como cementerio de los primeros reyes; la síntesis de Stevenson destaca tumbas múltiples, sacrificio no demostrado y riesgo de anacronismo.
+
+**Prueba discriminatoria:** análisis bioarqueológico de las tumbas múltiples (edad, sexo, trauma, simultaneidad) y evidencia de control regional fuera del sitio.
+
+### CONT-CIV-NILE-NAQADA-EXPANSION-001 — Migración, aculturación o interacción
+
+La distribución del material altoegipcio desde Naqada IIC es firme; su mecanismo no. El Delta muestra secuencias de afiliación complejas y aportes propios.
+
+**Prueba discriminatoria:** isótopos de movilidad, genomas y producción local frente a importación en los mismos cementerios del Delta.
+
+### CONT-CIV-NILE-UJ-ADMIN-001 — Etiquetas de U-j y administración
+
+Una lectura vincula las etiquetas con administración y control burocrático; la crítica subraya un contexto funerario único y siglos sin equivalentes.
+
+**Prueba discriminatoria:** etiquetas o sellados contemporáneos en contextos no funerarios y distribuidos regionalmente.
+
+### CONT-CIV-NILE-QUSTUL-001 — Prioridad nubia en Qustul
+
+Williams atribuyó el Cementerio L a gobernantes anteriores a la Primera Dinastía con imágenes faraónicas; la cronología de U-j y la lectura de un estilo internacional de élite pesan en contra de la prioridad nubia.
+
+**Prueba discriminatoria:** fechas directas de las tumbas de Qustul y de U-j en un mismo modelo, con análisis de procedencia de los objetos con imaginería real.
+
+### CONT-CIV-NILE-SACRIFICE-001 — Subsidiarios de la Primera Dinastía
+
+El sacrificio es la explicación más aceptada (perfil de jóvenes en Aha, techumbre común); la causa de muerte no está demostrada en todos los conjuntos.
+
+**Prueba discriminatoria:** trauma perimortem, simultaneidad de enterramiento y fechas de alta resolución por conjunto.
+
+### CONT-CIV-NILE-UNIFICATION-001 — Acontecimiento o proceso
+
+La tradición textual tardía y las imágenes presentan un unificador; el archivo arqueológico muestra un proceso de siglos con varios polos.
+
+**Prueba discriminatoria:** un archivo contemporáneo que registre un acto puntual frente a la distribución fechada de instituciones y materiales.
+
+
+### Índice tabular CIV-004
+
+| ID | Tema | Explicación dominante o práctica | Alternativa fuerte | Estado | Confianza en la síntesis |
+|---|---|---|---|---|---|
+| `CONT-CIV-NILE-CLIMATE-DRIVER-001` | clima y complejidad nilótica | clima como condición fuerte de la ocupación | clima como motor del Estado faraónico | abierta causalmente | B-REG; C causa |
+| `CONT-CIV-NILE-CATTLE-001` | ganado temprano de Nabta | uro cazado; domésticos desde el VI milenio | domesticación local en el IX–VIII milenio | abierta | C |
+| `CONT-CIV-NILE-NABTA-ASTRONOMY-001` | astronomía de Nabta | arquitectura ritual de pastores | alineamientos solsticiales intencionales | abierta | C |
+| `CONT-CIV-NILE-BADARI-SEDENTISM-001` | residencia badariense | ocupaciones efímeras y móviles | aldeas enterradas bajo el limo | abierta | B-COND |
+| `CONT-CIV-NILE-SERIATION-PHASES-001` | fases Naqada | bloques fiables; fases no | Stufen completas | abierta por fase | B |
+| `CONT-CIV-NILE-HK6-KINGS-001` | realeza en Hieracómpolis | élite local y ritual | primeros reyes de Egipto | abierta | B archivo; C realeza |
+| `CONT-CIV-NILE-NAQADA-EXPANSION-001` | mecanismo de la expansión | interacción y afiliaciones mixtas | migración o dominio altoegipcio | abierta | B-COND |
+| `CONT-CIV-NILE-UJ-ADMIN-001` | función de las etiquetas | marcado en contexto funerario excepcional | administración estatal | abierta | C |
+| `CONT-CIV-NILE-QUSTUL-001` | prioridad nubia | estilo internacional de élite compartido | gobernantes nubios anteriores a la Primera Dinastía | abierta | C |
+| `CONT-CIV-NILE-SACRIFICE-001` | causa de muerte de subsidiarios | sacrificio en parte de los conjuntos | muertes no simultáneas o enterramiento diferido | abierta por conjunto | B archivo; C causa |
+| `CONT-CIV-NILE-UNIFICATION-001` | «unificación» | proceso de siglos con varios polos | acto puntual de un unificador | proceso documentado; detalles abiertos | A-SEM; B proceso |

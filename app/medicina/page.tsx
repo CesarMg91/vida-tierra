@@ -5,12 +5,14 @@ import { ArrowDown, ArrowRight, BookOpen, HeartPulse, ShieldCheck, Stethoscope }
 import AfricanMedicineArchiveLab from "../../components/AfricanMedicineArchiveLab";
 import AmericasMedicineArchiveLab from "../../components/AmericasMedicineArchiveLab";
 import AnatomyPrintEvidenceLab from "../../components/AnatomyPrintEvidenceLab";
+import AnesthesiaAntisepsisEvidenceLab from "../../components/AnesthesiaAntisepsisEvidenceLab";
 import CirculationPhysiologyEvidenceLab from "../../components/CirculationPhysiologyEvidenceLab";
 import ClinicalEvidenceLab from "../../components/ClinicalEvidenceLab";
 import ColonialEncountersEvidenceLab from "../../components/ColonialEncountersEvidenceLab";
 import DiagnosticEvidenceLab from "../../components/DiagnosticEvidenceLab";
 import DocumentaryMedicineLab from "../../components/DocumentaryMedicineLab";
 import EastAsianMedicineLab from "../../components/EastAsianMedicineLab";
+import EpidemiologyCountingEvidenceLab from "../../components/EpidemiologyCountingEvidenceLab";
 import EpidemicsQuarantineEvidenceLab from "../../components/EpidemicsQuarantineEvidenceLab";
 import GreekHellenisticMedicineLab from "../../components/GreekHellenisticMedicineLab";
 import HistoricalMedicineLab from "../../components/HistoricalMedicineLab";
@@ -24,11 +26,13 @@ import SouthAsianMedicineLab from "../../components/SouthAsianMedicineLab";
 import { africanMedicineArchives } from "../../lib/african-medicine-archives";
 import { americasMedicineArchives } from "../../lib/americas-medicine-archives";
 import { anatomyPrintEvidence } from "../../lib/anatomy-print-evidence";
+import { anesthesiaAntisepsisEvidence } from "../../lib/anesthesia-antisepsis-evidence";
 import { circulationPhysiologyEvidence } from "../../lib/circulation-physiology-evidence";
 import { colonialEncountersEvidence } from "../../lib/colonial-encounters-evidence";
 import { diagnosticEvidence } from "../../lib/diagnostic-evidence";
 import { documentaryMedicineEvidence } from "../../lib/documentary-medicine-evidence";
 import { eastAsianMedicineEvidence } from "../../lib/east-asian-medicine-evidence";
+import { epidemiologyCountingEvidence } from "../../lib/epidemiology-counting-evidence";
 import { epidemicsQuarantineEvidence } from "../../lib/epidemics-quarantine-evidence";
 import { greekHellenisticMedicineEvidence } from "../../lib/greek-hellenistic-medicine-evidence";
 import { historicalMedicineEvidence } from "../../lib/historical-medicine-evidence";
@@ -47,7 +51,7 @@ export const metadata: Metadata = createPageMetadata({
   title: "Historia de la medicina — archivos, cuidado y evidencia",
   description: "Cómo reconstruimos la historia mundial de la medicina desde huesos, manuscritos, cánones, instituciones y resultados sin confundir archivo, práctica o eficacia.",
   pathname: "/medicina",
-  image: "/assets/visuales/hero-med-019-hospitales-cabecera-examen-clinico.png",
+  image: "/assets/visuales/hero-med-021-anestesia-analgesia-antisepsia.png",
 });
 
 const principles = [
@@ -64,8 +68,8 @@ export default function MedicinePage() {
     <div className="medicine-experience">
       <header className="medicine-hero medicine-history-hero">
         <Image
-          src="/assets/visuales/hero-med-019-hospitales-cabecera-examen-clinico.png"
-          alt="Sala hospitalaria histórica compuesta con camas vacías, biombo, expediente, estetoscopio temprano y luz que conecta observación y registro"
+          src="/assets/visuales/hero-med-021-anestesia-analgesia-antisepsia.png"
+          alt="Composición abstracta: trazos cálidos dispersos a la izquierda, ondas concéntricas al centro y una retícula ordenada de puntos a la derecha"
           fill
           preload
           fetchPriority="high"
@@ -74,14 +78,14 @@ export default function MedicinePage() {
         <div className="medicine-hero-shade" />
         <div className="medicine-hero-copy">
           <p className="eyebrow">Historia mundial de la medicina</p>
-          <h1>Una cama hospitalaria no convierte a una persona en un caso por sí sola</h1>
-          <p>Institución, admisión, encuentro, examen, registro, comparación y decisión forman una cadena histórica. Ningún expediente aislado hereda la persona, la población o el resultado completo.</p>
+          <h1>Una sala insensible no demuestra una cirugía más segura por sí sola</h1>
+          <p>Problema, testimonio, demostración, serie, comparación, mecanismo y adopción forman una cadena histórica. Ninguna fecha, función pública o serie aislada hereda el efecto, la seguridad o el beneficio.</p>
           <div>
-            <Link className="button button-primary" href="#hospitales-cabecera-examen">Auditar la cadena <ArrowDown aria-hidden="true" /></Link>
-            <Link className="medicine-text-link" href="/15_medicina/INVESTIGACION_MED_019_HOSPITALES_CABECERA_EXAMEN_CLINICO">Leer MED-019 <ArrowRight aria-hidden="true" /></Link>
+            <Link className="button button-primary" href="#anestesia-analgesia-antisepsia">Auditar la cadena <ArrowDown aria-hidden="true" /></Link>
+            <Link className="medicine-text-link" href="/15_medicina/INVESTIGACION_MED_021_ANESTESIA_ANALGESIA_ANTISEPSIA">Leer MED-021 <ArrowRight aria-hidden="true" /></Link>
           </div>
         </div>
-        <p className="medicine-visual-limit">Composición editorial no probatoria: utilería y arquitectura genéricas; no reproduce un hospital, paciente, examen, expediente o acontecimiento reales.</p>
+        <p className="medicine-visual-limit">Composición generativa no probatoria: trazos y puntos sin información; no representa cuerpos, sustancias, instrumentos ni acontecimientos reales.</p>
       </header>
 
       <section className="medicine-boundary">
@@ -92,6 +96,22 @@ export default function MedicinePage() {
       <section className="medicine-principles" aria-labelledby="medicine-principles-title">
         <header><p className="eyebrow">Contrato de lectura</p><h2 id="medicine-principles-title">Cuatro cortafuegos</h2></header>
         <div>{principles.map(([title, text], index) => <article key={title}><span>{String(index + 1).padStart(2, "0")}</span><h3>{title}</h3><p>{text}</p></article>)}</div>
+      </section>
+
+      <section className="medicine-lab-section documentary-lab-section" id="anestesia-analgesia-antisepsia" aria-labelledby="anesthesia-antisepsis-lab-title">
+        <div className="section-heading">
+          <div><p className="eyebrow">MED-021 · laboratorio de anestesia, analgesia y antisepsia</p><h2 id="anesthesia-antisepsis-lab-title">Del dolor y la infección a la adopción</h2></div>
+          <p>Elige un expediente. Siete capas separan relato, función pública, serie, contraste, mecanismo y adopción sin convertir una fecha, una lista de casos o un cultivo en efecto, seguridad o beneficio quirúrgico.</p>
+        </div>
+        <AnesthesiaAntisepsisEvidenceLab data={anesthesiaAntisepsisEvidence} />
+      </section>
+
+      <section className="medicine-lab-section documentary-lab-section" id="estadistica-vacunacion-epidemiologia" aria-labelledby="epidemiology-counting-lab-title">
+        <div className="section-heading">
+          <div><p className="eyebrow">MED-020 · laboratorio de estadística, vacunación y epidemiología</p><h2 id="epidemiology-counting-lab-title">De la población a la desigualdad</h2></div>
+          <p>Elige un expediente. Siete capas separan quién se contó, qué recibió, sobre qué base, contra quién, qué efecto, cómo se aplicó y a quién dejó fuera, sin convertir una cifra agregada en causa o beneficio universal. Historia del método: no recomienda vacunas, tratamientos ni políticas.</p>
+        </div>
+        <EpidemiologyCountingEvidenceLab data={epidemiologyCountingEvidence} />
       </section>
 
       <section className="medicine-lab-section documentary-lab-section" id="hospitales-cabecera-examen" aria-labelledby="hospital-bedside-lab-title">

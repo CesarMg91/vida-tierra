@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Cinco carriles del Nilo y África nororiental</title>
+  <desc id="desc">Diagrama que separa Sahara oriental y central, oasis y Delta, Alto Egipto, Baja Nubia y África oriental. Cada carril muestra archivos observados y un límite; la alineación no indica prioridad, difusión ni avance hacia Egipto.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#0b1011"/><stop offset="1" stop-color="#171512"/></linearGradient>
+    <style>.k{font:19px Consolas,monospace;letter-spacing:2px;fill:#c39456}.h{font:27px Georgia,serif;fill:#efe3d1}.t{font:19px Arial,sans-serif;fill:#c9c2b8}.l{font:17px Arial,sans-serif;fill:#d6a27b}.small{font:15px Consolas,monospace;fill:#91ad92}.lane{fill:#141a19;stroke:#6f5a3c;stroke-width:1}.node{fill:#27352d;stroke:#779176;stroke-width:1}.rule{stroke:#8b6a43;stroke-width:2}.dash{stroke:#a96545;stroke-width:2;stroke-dasharray:8 8;fill:none}</style>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <text x="80" y="76" class="k">CIV-004 · ARCHIVOS REGIONALES</text>
+  <text x="80" y="124" font-family="Georgia,serif" font-size="42" fill="#f2e7d6">Varios polos, ninguna periferia</text>
+  <text x="80" y="160" class="t">La alineación facilita comparar; no indica prioridad, difusión ni una marcha hacia la «unificación».</text>
+  <g transform="translate(80 200)">
+    <rect class="lane" width="1440" height="112"/>
+    <text x="28" y="38" class="k">01 · SAHARA ORIENTAL Y CENTRAL</text><text x="28" y="80" class="h">Nabta Playa · Bir Kiseiba · Takarkori</text>
+    <circle class="node" cx="700" cy="52" r="13"/><circle class="node" cx="880" cy="52" r="13"/><circle class="node" cx="1060" cy="52" r="13"/>
+    <path class="rule" d="M713 52H867M893 52H1047"/>
+    <text x="660" y="92" class="small">agua</text><text x="840" y="92" class="small">ganado</text><text x="1020" y="92" class="small">leche</text>
+    <text x="1190" y="44" class="l">Límite</text><text x="1190" y="76" class="t">no éxodo fundador</text>
+  </g>
+  <g transform="translate(80 328)">
+    <rect class="lane" width="1440" height="112"/>
+    <text x="28" y="38" class="k">02 · OASIS, FAYUM Y DELTA</text><text x="28" y="80" class="h">Fayum · Maadi · Buto · Tell el-Farkha</text>
+    <circle class="node" cx="700" cy="52" r="13"/><circle class="node" cx="880" cy="52" r="13"/><circle class="node" cx="1060" cy="52" r="13"/>
+    <path class="rule" d="M713 52H867M893 52H1047"/>
+    <text x="660" y="92" class="small">pesca</text><text x="840" y="92" class="small">domésticos</text><text x="1020" y="92" class="small">comercio</text>
+    <text x="1190" y="44" class="l">Límite</text><text x="1190" y="76" class="t">no «Norte vencido»</text>
+  </g>
+  <g transform="translate(80 456)">
+    <rect class="lane" width="1440" height="112"/>
+    <text x="28" y="38" class="k">03 · ALTO EGIPTO</text><text x="28" y="80" class="h">Badari · Naqada · Hieracómpolis · Abydos</text>
+    <circle class="node" cx="700" cy="52" r="13"/><circle class="node" cx="880" cy="52" r="13"/><circle class="node" cx="1060" cy="52" r="13"/>
+    <path class="rule" d="M713 52H867M893 52H1047"/>
+    <text x="660" y="92" class="small">cementerio</text><text x="840" y="92" class="small">élite</text><text x="1020" y="92" class="small">signos</text>
+    <text x="1190" y="44" class="l">Límite</text><text x="1190" y="76" class="t">no año de unificación</text>
+  </g>
+  <g transform="translate(80 584)">
+    <rect class="lane" width="1440" height="112"/>
+    <text x="28" y="38" class="k">04 · BAJA NUBIA</text><text x="28" y="80" class="h">Nag el-Qarmila · Grupo A · Qustul</text>
+    <circle class="node" cx="700" cy="52" r="13"/><circle class="node" cx="880" cy="52" r="13"/><circle class="node" cx="1060" cy="52" r="13"/>
+    <path class="rule" d="M713 52H867M893 52H1047"/>
+    <text x="660" y="92" class="small">frontera difusa</text><text x="840" y="92" class="small">polity</text><text x="1020" y="92" class="small">imagen</text>
+    <text x="1190" y="44" class="l">Límite</text><text x="1190" y="76" class="t">ni periferia ni cuna</text>
+  </g>
+  <g transform="translate(80 712)">
+    <rect class="lane" width="1440" height="112"/>
+    <text x="28" y="38" class="k">05 · ÁFRICA ORIENTAL</text><text x="28" y="80" class="h">Lothagam North, lago Turkana</text>
+    <circle class="node" cx="700" cy="52" r="13"/><circle class="node" cx="880" cy="52" r="13"/><circle class="node" cx="1060" cy="52" r="13"/>
+    <path class="rule" d="M713 52H867M893 52H1047"/>
+    <text x="660" y="92" class="small">pastores</text><text x="840" y="92" class="small">monumento</text><text x="1020" y="92" class="small">sin jerarquía</text>
+    <text x="1190" y="44" class="l">Límite</text><text x="1190" y="76" class="t">no «atraso» frente a Egipto</text>
+  </g>
+</svg>

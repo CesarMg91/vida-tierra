@@ -159,6 +159,20 @@ for (const region of swasiaData.regions) {
   for (const id of region.sourceIds ?? []) check(sourceIds.has(id), `${region.id} enlaza una fuente inexistente: ${id}`);
 }
 
+const nileData = JSON.parse(fs.readFileSync(path.join(ROOT, "content", "civilization-nile.json"), "utf8"));
+check(nileData.schemaVersion === 1, "el módulo del Nilo usa una versión de esquema desconocida");
+check(researchSlugs.has(nileData.researchSlug), `el módulo del Nilo apunta a un expediente inexistente: ${nileData.researchSlug}`);
+check(Array.isArray(nileData.archives) && nileData.archives.length === 6, "el módulo del Nilo debe contener seis archivos");
+check(duplicates(nileData.archives.map((record) => record.id)).length === 0, "el módulo del Nilo contiene archivos duplicados");
+for (const item of nileData.archives) {
+  check(Boolean(item.label) && Boolean(item.window), `${item.id} no declara nombre o ventana`);
+  check(Boolean(item.archive) && Boolean(item.inference) && Boolean(item.limit) && Boolean(item.adversary), `${item.id} no separa archivo, inferencia, límite y adversario`);
+  check(Array.isArray(item.sites) && item.sites.length > 0, `${item.id} no declara sitios o escalas`);
+  for (const id of item.claimIds ?? []) check(claimIds.has(id), `${item.id} enlaza un claim inexistente: ${id}`);
+  for (const id of item.evidenceIds ?? []) check(evidenceIds.has(id), `${item.id} enlaza una evidencia inexistente: ${id}`);
+  for (const id of item.sourceIds ?? []) check(sourceIds.has(id), `${item.id} enlaza una fuente inexistente: ${id}`);
+}
+
 const medicineData = JSON.parse(fs.readFileSync(path.join(ROOT, "content", "medicine-evidence.json"), "utf8"));
 const clinicalKinds = ["question", "comparison", "outcomes", "estimate", "applicability", "decision"];
 check(medicineData.schemaVersion === 1, "el módulo médico usa una versión de esquema desconocida");

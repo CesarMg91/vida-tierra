@@ -5,8 +5,8 @@ type: dataset
 authors:
   - family-names: "Mendez"
     given-names: "Cesar"
-version: 0.4.5
-date-released: 2026-08-28
+version: 0.4.8
+date-released: 2026-11-25
 url: "https://vida-tierra.vercel.app"
 repository-code: "https://github.com/CesarMg91/vida-tierra"
 license: CC-BY-4.0

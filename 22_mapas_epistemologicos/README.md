@@ -60,6 +60,8 @@ Grafos de dependencias entre objetos, mediciones, principios, modelos, claims y 
 
 - [`MAPA_CIV_003_ASIA_SUDOCCIDENTAL.md`](MAPA_CIV_003_ASIA_SUDOCCIDENTAL.md) — del objeto al patrón regional, con identidad, Estado y civilización como saltos no heredados — **AUDITADO**.
 
+- [`MAPA_CIV_004_NILO_AFRICA_NORORIENTAL.md`](MAPA_CIV_004_NILO_AFRICA_NORORIENTAL.md) — del objeto a la «unificación», con pueblo, año, rey y conquista como saltos no heredados — **AUDITADO**.
+
 ## Medicina
 
 - [`MAPA_MED_008_ROMA_BIZANCIO_MEDITERRANEO_TARDIO.md`](MAPA_MED_008_ROMA_BIZANCIO_MEDITERRANEO_TARDIO.md) — vestigio, identificación, función, operación, acceso y consecuencia sin hospital, cobertura o resultado heredados — **AUDITADO**.

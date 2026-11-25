@@ -477,7 +477,7 @@ Las fechas pertenecen a objetos, muestras, fases o publicaciones. No son estacio
 
 ## Próxima acción de la línea CIV
 
-CIV-003 inaugura los expedientes regionales auditados. CIV-001 conserva `TRAZADO`; la secuencia global `001–052` permanece completa. El siguiente expediente regional recomendado es Nilo y África nororiental, usando los mismos controles de nombres, relojes y escalas.
+CIV-003 inaugura los expedientes regionales auditados y CIV-004 los continúa con el Nilo y África nororiental (sección «CIV-004» al final de este archivo). CIV-001 conserva `TRAZADO`; la secuencia global `001–052` permanece completa. El siguiente expediente es el sexto del programa, usando los mismos controles de nombres, relojes y escalas.
 
 ## XIII. MED-001 — Historia de herramientas para estimar efectos
 
@@ -1033,3 +1033,84 @@ CIV-003 inaugura los expedientes regionales auditados. CIV-001 conserva `TRAZADO
 | `TIME-CON-PSY-CPF-2024-001` | 1 de abril de 2024 | reforma de la excepción para peyote y hongos en ceremonias de pueblos indígenas y afromexicanos | marco legal | `SRC-CON-PSY-CPF-MX` | A documento | AUDITADO |
 | `TIME-CON-PSY-FDA-2024-001` | junio y agosto de 2024 | comité asesor en contra y carta de respuesta completa de la FDA sobre MDMA | regulación | `SRC-CON-PSY-CBS-2024`, `SRC-CON-PSY-PHARMEXEC-2024`, `SRC-CON-PSY-STAT-2024`, `SRC-CON-PSY-MARKS-2024` | B periodismo | AUDITADO |
 | `TIME-CON-PSY-2024-001` | 2024 | desincronización cerebral y metaanálisis de psilocibina | correlato cerebral y metaanálisis | `SRC-CON-PSY-SIEGEL-2024`, `SRC-CON-PSY-METAXA-2024` | A publicación | AUDITADO |
+
+## MED-020 — Estadística, vacunación y epidemiología
+
+| ID | Fecha/rango | Evento | Producto | Fuentes | Confianza | Estado |
+|---|---|---|---|---|---|---|
+| `TIME-MED-COUNT-VARIOLATION-MING-001` | 1465–1572 | variolación documentada en China | insuflación nasal y métodos con costras | `SRC-MED-COUNT-GUAN-2026` | B histórico | AUDITADO |
+| `TIME-MED-COUNT-GRAUNT-1662-001` | 1662 | *Natural and Political Observations* | regularidades sobre los *Bills of Mortality* | `SRC-MED-COUNT-GRAUNT-1662`, `SRC-MED-COUNT-MORABIA-2013` | A publicación | AUDITADO |
+| `TIME-MED-COUNT-ONESIMUS-1707-001` | 1707 | Onesimus llega a la casa de Cotton Mather | conocimiento africano de la inoculación en Boston | `SRC-MED-COUNT-BOYLSTON-2012` | A/B histórico | AUDITADO |
+| `TIME-MED-COUNT-TIMONIUS-1714-001` | 1713–1716 | cartas de Timonius y Pylarinus | descripción de la inoculación en Constantinopla | `SRC-MED-COUNT-BOYLSTON-2012` | A/B histórico | AUDITADO |
+| `TIME-MED-COUNT-BOSTON-1721-001` | 1721–1722 | inoculaciones de Boylston | 247 inoculados, seis muertes | `SRC-MED-COUNT-HUTH-2006` | A documental | AUDITADO |
+| `TIME-MED-COUNT-JURIN-1722-001` | 1722–1727 | informes de Jurin | comparación de letalidad natural e inoculada | `SRC-MED-COUNT-JURIN-1722`, `SRC-MED-COUNT-HUTH-2006` | A documental | AUDITADO |
+| `TIME-MED-COUNT-BERNOULLI-1766-001` | 1766 | memoria de Bernoulli | modelo de esperanza de vida sin viruela | `SRC-MED-COUNT-BERNOULLI-1766`, `SRC-MED-COUNT-DIETZ-2002` | A publicación | AUDITADO |
+| `TIME-MED-COUNT-JENNER-1798-001` | 1796–1798 | Jenner y el *Inquiry* | vacunación con material vacuno | `SRC-MED-COUNT-JENSON-2016`, `SRC-MED-COUNT-ESPARZA-2020` | A publicación | AUDITADO |
+| `TIME-MED-COUNT-BALMIS-1803-001` | 1803–1806 | expedición de Balmis | vacuna mantenida en niños huérfanos | `SRC-MED-COUNT-FRANCOPAREDES-2005` | A/B histórico | AUDITADO |
+| `TIME-MED-COUNT-LOUIS-1835-001` | 1835 | recuentos de Louis sobre la sangría | comparación numérica de series clínicas | `SRC-MED-COUNT-MORABIA-1996` | A/B histórico | AUDITADO |
+| `TIME-MED-COUNT-SEMMELWEIS-1847-001` | 1847–1848 | lavado con cloruro de cal en Viena | Primera Clínica a 12.7 por 1000 en 1848 | `SRC-MED-COUNT-LOUDON-2013`, `SRC-MED-COUNT-NOAKES-2008` | A documental | AUDITADO |
+| `TIME-MED-COUNT-COMPULSION-1853-001` | 1853 | ley inglesa de vacunación obligatoria | obligación administrada con la Ley de Pobres | `SRC-MED-COUNT-DURBACH-2000` | A legal | AUDITADO |
+| `TIME-MED-COUNT-SNOW-1855-001` | 1854–1855 | Tabla IX de Snow | 315 frente a 37 muertes por 10 000 casas | `SRC-MED-COUNT-SNOW-1855` | A documental | AUDITADO |
+| `TIME-MED-COUNT-ANIMAL-VACCINE-1870-001` | 1870 | vacuna animal en Estados Unidos | propagación en terneras y granjas de vacuna | `SRC-MED-COUNT-ESPARZA-2020` | A/B histórico | AUDITADO |
+| `TIME-MED-COUNT-BIOLOGICS-1902-001` | 1902 | Biologics Control Act | regulación tras contaminación con tétanos de 1901 | `SRC-MED-COUNT-ESPARZA-2020` | A legal | AUDITADO |
+| `TIME-MED-COUNT-RIO-1904-001` | 1904 | Revolta da Vacina | resistencia popular en Río de Janeiro | `SRC-MED-COUNT-GOMES-2020` | A/B histórico | AUDITADO |
+| `TIME-MED-COUNT-JACOBSON-1905-001` | 1905 | *Jacobson v. Massachusetts* | poder estatal de exigir vacunación | `SRC-MED-COUNT-MARINER-2005` | A legal | AUDITADO |
+| `TIME-MED-COUNT-TOBACCO-1950-001` | 1950 | estudios de Wynder y Graham y de Doll y Hill | casos y controles sobre tabaco y cáncer de pulmón | `SRC-MED-COUNT-WYNDER-1950`, `SRC-MED-COUNT-DOLL-HILL-1950` | A publicación | AUDITADO |
+| `TIME-MED-COUNT-SALK-1954-001` | 1954–1955 | ensayo de campo de la vacuna Salk | 16 frente a 57 por 100 000 en áreas con placebo | `SRC-MED-COUNT-MEIER-1972` | A | AUDITADO |
+| `TIME-MED-COUNT-HILL-1965-001` | 1965 | conferencia de Hill | nueve puntos de vista sobre asociación y causa | `SRC-MED-COUNT-HILL-1965` | A publicación | AUDITADO |
+| `TIME-MED-COUNT-ERADICATION-1980-001` | 1980 | declaración de erradicación de la viruela | fin de la transmisión natural | `SRC-MED-COUNT-HENDERSON-2011` | A | AUDITADO |
+| `TIME-MED-COUNT-ACIP-2025-001` | 2025–2026 | voto del ACIP sobre hepatitis B al nacer | retiro de la recomendación universal; la AAP la mantiene | `SRC-MED-COUNT-ANDERER-2026` | B noticia | AUDITADO |
+
+## MED-021 — Anestesia, analgesia y antisepsia
+
+| ID | Fecha/rango | Evento | Producto | Fuentes | Confianza | Estado |
+|---|---|---|---|---|---|---|
+| `TIME-MED-ANES-DAVY-1800-001` | 1800 | *Researches* de Davy | conjetura sobre óxido nitroso en operaciones | `SRC-MED-ANES-DAVY-1800` | A publicación | AUDITADO |
+| `TIME-MED-ANES-HANAOKA-1804-001` | 13 oct. 1804 | mastectomía de Hanaoka bajo *tsūsensan* | anestesia general herbal en cirugía mayor | `SRC-MED-ANES-IZUO-2004` | A/B histórico | AUDITADO |
+| `TIME-MED-ANES-LONG-1842-001` | 1842 | Long opera con éter | uso clínico sin publicación inmediata | `SRC-MED-ANES-PETERMANN-2016` | A/B histórico | AUDITADO |
+| `TIME-MED-ANES-WELLS-1844-001` | dic. 1844 | Wells usa óxido nitroso en odontología | uso clínico repetido | `SRC-MED-ANES-HARIDAS-2013` | A/B histórico | AUDITADO |
+| `TIME-MED-ANES-WELLS-DEMO-1845-001` | c. fin de ene. 1845 | demostración fallida de Wells en Boston | función pública fallida | `SRC-MED-ANES-HARIDAS-2013` | B documental | AUDITADO |
+| `TIME-MED-ANES-MESMERISM-1840S-001` | década de 1840 | mesmerismo médico en la India británica | ruta heterodoxa marginada | `SRC-MED-ANES-ERNST-2004` | A/B histórico | AUDITADO |
+| `TIME-MED-ANES-MORTON-1846-001` | 14–16 oct. 1846 | invitación de Heywood y demostración de Morton | función pública con éter | `SRC-MED-ANES-HARIDAS-2025`, `SRC-MED-ANES-ROBINSON-2012` | A/B documental | AUDITADO |
+| `TIME-MED-ANES-BIGELOW-1846-001` | nov. 1846 | publicación de Bigelow | serie publicada de operaciones con inhalación | `SRC-MED-ANES-BIGELOW-1846` | A publicación | AUDITADO |
+| `TIME-MED-ANES-MAGOUN-1846-001` | 1846 | hipoxia grave de Betsey Magoun | primer daño documentado en la serie del hospital | `SRC-MED-ANES-FIRTH-2023` | A/B histórico | AUDITADO |
+| `TIME-MED-ANES-SEMMELWEIS-1847-001` | 1847 | lavado clorado en la Clínica 1 de Viena | comparación natural entre clínicas | `SRC-MED-ANES-NOAKES-2008` | A/B estadístico | AUDITADO |
+| `TIME-MED-ANES-SIMPSON-1847-001` | 1847 | Simpson publica el cloroformo | nuevo agente con superioridad afirmada | `SRC-MED-ANES-SIMPSON-1847` | A publicación | AUDITADO |
+| `TIME-MED-ANES-GREENER-1848-001` | 28 ene. 1848 | muerte de Hannah Greener | primera muerte registrada por Snow | `SRC-MED-ANES-SNOW-1858` | A documental | AUDITADO |
+| `TIME-MED-ANES-LONG-PUB-1849-001` | 1849 | Long publica su experiencia de 1842 | origen de su reclamo de prioridad | `SRC-MED-ANES-PETERMANN-2016` | A/B histórico | AUDITADO |
+| `TIME-MED-ANES-SNOW-1858-001` | 1858 | *On Chloroform and Other Anaesthetics* | cincuenta muertes ordenadas por momento | `SRC-MED-ANES-SNOW-1858` | A publicación | AUDITADO |
+| `TIME-MED-ANES-SEMMELWEIS-1861-001` | 1861 | *Ätiologie* de Semmelweis | tratado sobre fiebre puerperal | `SRC-MED-ANES-SEMMELWEIS-1861` | A publicación | AUDITADO |
+| `TIME-MED-ANES-LISTER-1867-001` | 1867 | serie de Lister en *The Lancet* | fracturas abiertas con ácido carbólico | `SRC-MED-ANES-LISTER-1867`, `SRC-MED-ANES-WORBOYS-2013` | A publicación | AUDITADO |
+| `TIME-MED-ANES-LISTER-1870-001` | 1870 | comparación de amputaciones de Lister | 16/35 frente a 6/40 con control histórico | `SRC-MED-ANES-LISTER-1870`, `SRC-MED-ANES-TROHLER-2015` | A publicación | AUDITADO |
+| `TIME-MED-ANES-KOCH-1881-001` | 1881 | pruebas de desinfectantes de Koch | carbólico débil y vapor eficaz en laboratorio | `SRC-MED-ANES-SCHLICH-2012` | A/B histórico | AUDITADO |
+| `TIME-MED-ANES-TAIT-1882-001` | 1882 | serie de Tait sin detalles listerianos | 3 muertes en 100 ovariotomías | `SRC-MED-ANES-TROHLER-2015` | A/B histórico | AUDITADO |
+| `TIME-MED-ANES-ANDREWS-1882-001` | 1882 | encuesta de Andrews en tres ciudades de EE. UU. | principios aceptados, listerismo estricto no | `SRC-MED-ANES-ANDREWS-1882` | A publicación | AUDITADO |
+| `TIME-MED-ANES-KOLLER-1884-001` | 1884 | Koller: cocaína en la córnea | anestesia local y difusión mundial rápida | `SRC-MED-ANES-GOERIG-2012` | A/B histórico | AUDITADO |
+| `TIME-MED-ANES-ASEPSIS-1886-001` | 1886–1892 | Neuber, Bergmann y Schimmelbusch | protocolos e instrumentos de asepsia | `SRC-MED-ANES-SCHLICH-2012` | A/B histórico | AUDITADO |
+| `TIME-MED-ANES-HYDERABAD-1889-001` | 1889 (la primera comisión, antes) | comisiones de cloroformo de Hyderabad | 430 animales; respiración antes que corazón | `SRC-MED-ANES-BRISTOL-1897`, `SRC-MED-ANES-ALA-2010` | A/B documental | AUDITADO |
+| `TIME-MED-ANES-GLOVES-1889-001` | 1889–1890 | guantes de goma para Caroline Hampton | protección del personal frente a desinfectantes | `SRC-MED-ANES-KEAN-2020` | B divulgación | AUDITADO |
+| `TIME-MED-ANES-RECORDS-1890S-001` | década de 1890 | hojas anestésicas de Codman y Cushing | registro individual revisable | `SRC-MED-ANES-SUNDARARAMAN-2018` | A/B histórico | AUDITADO |
+| `TIME-MED-ANES-BIER-1899-001` | 1899 | Bier publica la cocainización raquídea | anestesia raquídea | `SRC-MED-ANES-BIER-1899`, `SRC-MED-ANES-GOERIG-2000` | A publicación | AUDITADO |
+| `TIME-MED-ANES-BEECHER-1954-001` | 1954 (datos 1948–1952) | Beecher y Todd | tasa de mortalidad con denominador | `SRC-MED-ANES-BEECHER-1954`, `SRC-MED-ANES-PSNET-BEECHER` | A publicación | AUDITADO |
+
+## CIV-004 — Valle del Nilo y África nororiental por archivos
+
+Las fechas pertenecen a muestras, fases, modelos o publicaciones. No son estaciones de una marcha hacia la «unificación» ni de una difusión desde un centro.
+
+| ID | Fecha/intervalo | Evento delimitado | Incertidumbre | Fuente | Confianza | Estado |
+|---|---:|---|---|---|---|---|
+| `TIME-CIV-NILE-SAHARA-ONSET-001` | `~8500 a. C.` | asentamiento en el Sahara oriental tras el inicio de condiciones húmedas | síntesis de `150` excavaciones; fechas no son personas | `SRC-KUPER-KROPELIN-SAHARA-2006` | B-REG | AUDITADO |
+| `TIME-CIV-NILE-SAHARA-SPD-001` | `10,500–5500 BP` | cambio demográfico mayor en el Sahara; caída `7500–6500 BP` | `3287` fechas de `1011` sitios; proxy sensible a investigación | `SRC-MANNING-TIMPSON-SAHARA-2014` | B-REG | AUDITADO |
+| `TIME-CIV-NILE-CATTLE-001` | IX–VIII milenios a. C. | *Bos* de Nabta–Bir Kiseiba propuestos como ganado doméstico local | disputado: uro cazado según reanálisis de 2018 | `SRC-WENDORF-SCHILD-NABTA-2001`, `SRC-BRASS-CATTLE-2018` | C / disputado | AUDITADO |
+| `TIME-CIV-NILE-FAYUM-001` | `~5400 a. C.`; `4850–4250 a. C.` | primeros domésticos del Fayum y sitios con dominio del pescado | evidencia escasa y regional | `SRC-LINSEELE-FAYUM-2014` | B-COND | AUDITADO |
+| `TIME-CIV-NILE-AHP-END-001` | desde `5300 a. C.` | desecación y fin escalonado del periodo húmedo | abrupto por sitio, más tardío a menor latitud | `SRC-KUPER-KROPELIN-SAHARA-2006`, `SRC-SHANAHAN-AHP-2015` | B-REG | AUDITADO |
+| `TIME-CIV-NILE-TAKARKORI-001` | `~7000` años atrás | dos genomas del Neolítico Pastoral en Takarkori | dos individuos; linaje norteafricano profundo | `SRC-SALEM-TAKARKORI-2025` | B-LOCAL-COND | AUDITADO |
+| `TIME-CIV-NILE-NABTA-001` | Neolítico medio–tardío | megalitos, túmulos y alineamientos de Nabta Playa | astronomía propuesta, no demostrada | `SRC-WENDORF-SCHILD-NABTA-2001`, `SRC-MALVILLE-NABTA-1998` | B archivo; C astronomía | AUDITADO |
+| `TIME-CIV-NILE-BADARI-001` | inicio `4489–4266`; final `3896–3616 a. C.` (`95 %`) | Badariense modelado | priors del modelo; residencia en debate | `SRC-DEE-2013` | B-COND | AUDITADO |
+| `TIME-CIV-NILE-HIERAKONPOLIS-001` | Naqada IC–IIB | cementerio de élite HK6, HK43, cervecerías y HK29A | realeza y sacrificio no demostrados | `SRC-STEVENSON-PREDYNASTIC-2016` | B archivo; C realeza | AUDITADO |
+| `TIME-CIV-NILE-EXPANSION-001` | Naqada IIB/IIC, `3562–3367 a. C.` (`95 %`) | inicio de la distribución amplia del material altoegipcio | mecanismo disputado | `SRC-DEE-2013`, `SRC-STEVENSON-PREDYNASTIC-2016` | B-COND | AUDITADO |
+| `TIME-CIV-NILE-UJ-001` | Naqada IIIA2; inicio de IIIA hacia fines del siglo XXXIV a. C. | etiquetas con signos en la tumba U-j de Abydos | contexto único; no burocracia territorial | `SRC-STEVENSON-PREDYNASTIC-2016`, `SRC-DEE-2013` | A objeto; C administración | AUDITADO |
+| `TIME-CIV-NILE-AGROUP-001` | IV milenio a. C.; apogeo hacia `3100 a. C.` | polity del Grupo A y Cementerio L de Qustul | prioridad nubia disputada | `SRC-GATTO-AGROUP-2021`, `SRC-WILLIAMS-QUSTUL-1986` | B-COND; C prioridad | AUDITADO |
+| `TIME-CIV-NILE-AHA-001` | `3218–3035 a. C.` (`95 %`; mediana `3085`) | acceso modelado de Aha | `3152–3032 a. C.` con reinados ≤ `100` años; no fecha unificación | `SRC-DEE-2013` | B-COND | AUDITADO |
+| `TIME-CIV-NILE-NUWAYRAT-001` | `2855–2570 cal a. C.` | genoma de Nuwayrat con `~20 %` de ascendencia del Creciente Fértil oriental | un individuo `2×` | `SRC-MOREZ-NUWAYRAT-2025` | B-LOCAL-COND | AUDITADO |
+| `TIME-CIV-NILE-LOTHAGAM-001` | `~5000–4300` años atrás | cementerio monumental de pastores en Lothagam North | población estimada; un sitio | `SRC-HILDEBRAND-LOTHAGAM-2018` | B-COND | AUDITADO |

@@ -1,0 +1,1416 @@
+{
+  "schemaVersion": 1,
+  "researchSlug": "15_medicina/INVESTIGACION_MED_020_ESTADISTICA_VACUNACION_EPIDEMIOLOGIA",
+  "cases": [
+    {
+      "id": "london-bills-1662",
+      "title": "Londres · listas de mortalidad y Graunt",
+      "region": "Inglaterra · 1662",
+      "archive": "Bills of Mortality parroquiales, Natural and Political Observations y reportes de las searchers",
+      "layers": [
+        {
+          "kind": "population",
+          "observed": "Las listas reunían entierros y bautizos registrados por las parroquias de Londres.",
+          "inference": "Graunt pudo describir regularidades dentro de ese archivo.",
+          "limit": "Una lista parroquial no es la población completa de la ciudad.",
+          "claimIds": [
+            "CLAIM-MED-COUNT-GRAUNT-1662-001",
+            "CLAIM-MED-COUNT-BILLS-LIMIT-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-COUNT-BILLS-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-COUNT-GRAUNT-1662",
+            "SRC-MED-COUNT-MORABIA-2013"
+          ]
+        },
+        {
+          "kind": "exposure",
+          "observed": "Las causas de muerte se agrupaban en categorías como peste, viruela o consunción.",
+          "inference": "Las categorías permitieron comparar años y causas.",
+          "limit": "Las categorías históricas no equivalen a diagnósticos actuales.",
+          "claimIds": [
+            "CLAIM-MED-COUNT-GRAUNT-1662-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-COUNT-BILLS-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-COUNT-GRAUNT-1662"
+          ]
+        },
+        {
+          "kind": "denominator",
+          "observed": "No existía un censo; la población se estimaba a partir de registros.",
+          "inference": "Las proporciones dependen de una base estimada.",
+          "limit": "Sin denominador censado, una proporción no es una tasa poblacional.",
+          "claimIds": [
+            "CLAIM-MED-COUNT-BILLS-LIMIT-001",
+            "CLAIM-MED-COUNT-RATE-PARTS-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-COUNT-BILLS-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-COUNT-MORABIA-2013"
+          ]
+        },
+        {
+          "kind": "comparison",
+          "observed": "Graunt comparó causas, años y grupos dentro de las listas.",
+          "inference": "La comparación entre grupos abrió un modo poblacional de razonar.",
+          "limit": "Comparar categorías no identifica sus causas.",
+          "claimIds": [
+            "CLAIM-MED-COUNT-GRAUNT-1662-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-COUNT-BILLS-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-COUNT-MORABIA-2013"
+          ]
+        },
+        {
+          "kind": "effect",
+          "observed": "Las Observations describen frecuencias y regularidades, no efectos de intervenciones.",
+          "inference": "El producto es descriptivo.",
+          "limit": "Una regularidad no es un efecto causal.",
+          "claimIds": [
+            "CLAIM-MED-COUNT-COMPARISON-NOT-CAUSE-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-COUNT-METHOD-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-COUNT-KRIEGER-2012"
+          ]
+        },
+        {
+          "kind": "implementation",
+          "observed": "Mujeres searchers designadas por las parroquias reportaban la causa de muerte sin formación médica.",
+          "inference": "El numerador dependía de quién clasificaba.",
+          "limit": "El error de clasificación no puede reconstruirse con precisión.",
+          "claimIds": [
+            "CLAIM-MED-COUNT-SEARCHERS-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-COUNT-BILLS-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-COUNT-HENRY-2015"
+          ]
+        },
+        {
+          "kind": "inequality",
+          "observed": "Las searchers produjeron el dato sin crédito; quienes no eran enterrados o bautizados por la parroquia quedaban fuera.",
+          "inference": "El archivo distribuye visibilidad de forma desigual.",
+          "limit": "La ausencia en la lista no prueba ausencia de muerte o enfermedad.",
+          "claimIds": [
+            "CLAIM-MED-COUNT-INEQUALITY-DENOMINATOR-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-COUNT-SYNTHESIS-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-COUNT-HENRY-2015",
+            "SRC-MED-COUNT-KRIEGER-2012"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "inoculation-1714-1766",
+      "title": "Inoculación · Jurin, Boston, Bernoulli y d’Alembert",
+      "region": "China, Imperio otomano, norte de África, Inglaterra y Nueva Inglaterra · 1465–1766",
+      "archive": "Textos Ming, cartas a la Royal Society, informes de Jurin y Scheuchzer, cuenta de Boylston, memoria de Bernoulli",
+      "layers": [
+        {
+          "kind": "population",
+          "observed": "La variolación se practicaba en China desde el periodo Ming, en el Imperio otomano, en el norte de África y en Bengala.",
+          "inference": "La práctica llegó a Europa y Boston por circulación, no por invención local.",
+          "limit": "Las rutas de transmisión sólo están documentadas en parte.",
+          "claimIds": [
+            "CLAIM-MED-COUNT-VARIOLATION-PLURAL-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-COUNT-VARIOLATION-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-COUNT-GUAN-2026",
+            "SRC-MED-COUNT-BOYLSTON-2012"
+          ]
+        },
+        {
+          "kind": "exposure",
+          "observed": "Inocular material de viruela inducía una infección elegida; Onesimus describió la práctica a Cotton Mather.",
+          "inference": "El riesgo de la intervención podía contarse frente al de la enfermedad natural.",
+          "limit": "El material y la técnica variaban entre practicantes.",
+          "claimIds": [
+            "CLAIM-MED-COUNT-ONESIMUS-001",
+            "CLAIM-MED-COUNT-VARIOLATION-PLURAL-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-COUNT-VARIOLATION-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-COUNT-BOYLSTON-2012"
+          ]
+        },
+        {
+          "kind": "denominator",
+          "observed": "Scheuchzer contó 17 muertes entre 897 inoculados, o 17 entre 858 si se excluían 39 inoculaciones sin efecto.",
+          "inference": "El denominador depende de cómo se clasifican los casos dudosos.",
+          "limit": "La regla de clasificación cambia la cifra sin cambiar la realidad.",
+          "claimIds": [
+            "CLAIM-MED-COUNT-CLASSIFICATION-DENOMINATOR-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-COUNT-INOCULATION-ARITH-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-COUNT-HUTH-2006"
+          ]
+        },
+        {
+          "kind": "comparison",
+          "observed": "Jurin comparó uno de cada cinco o seis enfermos naturales muertos con uno de cada sesenta o noventa y uno inoculados.",
+          "inference": "La inoculación parecía mucho menos letal que la viruela natural.",
+          "limit": "Los inoculados eran sobre todo de clase alta y mejor atendidos; sin seguimiento ni exposición medida.",
+          "claimIds": [
+            "CLAIM-MED-COUNT-JURIN-1722-001",
+            "CLAIM-MED-COUNT-INOCULATION-SELECTION-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-COUNT-INOCULATION-ARITH-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-COUNT-HUTH-2006",
+            "SRC-MED-COUNT-JURIN-1722"
+          ]
+        },
+        {
+          "kind": "effect",
+          "observed": "Bernoulli calculó que sin viruela la esperanza de vida al nacer subiría de 26 años y 7 meses a 29 años y 9 meses.",
+          "inference": "Un modelo podía expresar el efecto poblacional esperado.",
+          "limit": "Es un modelo con supuestos, no una medición de años ganados.",
+          "claimIds": [
+            "CLAIM-MED-COUNT-BERNOULLI-1766-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-COUNT-BERNOULLI-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-COUNT-BERNOULLI-1766",
+            "SRC-MED-COUNT-DIETZ-2002"
+          ]
+        },
+        {
+          "kind": "implementation",
+          "observed": "Boylston inoculó a 247 personas en 1721–1722; murieron seis.",
+          "inference": "La práctica se extendió bajo controversia pública.",
+          "limit": "La serie no tiene grupo de comparación formado con la misma regla.",
+          "claimIds": [
+            "CLAIM-MED-COUNT-BOSTON-1721-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-COUNT-INOCULATION-ARITH-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-COUNT-HUTH-2006"
+          ]
+        },
+        {
+          "kind": "inequality",
+          "observed": "D’Alembert objetó que un promedio no decide por quien asume un riesgo inmediato; Onesimus aportó conocimiento sin autoría.",
+          "inference": "Efecto poblacional y decisión individual son preguntas distintas.",
+          "limit": "Un beneficio medio no es un beneficio para cada persona.",
+          "claimIds": [
+            "CLAIM-MED-COUNT-DALEMBERT-001",
+            "CLAIM-MED-COUNT-ONESIMUS-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-COUNT-BERNOULLI-001",
+            "EVID-MED-COUNT-VARIOLATION-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-COUNT-DIETZ-2002",
+            "SRC-MED-COUNT-BOYLSTON-2012"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "vaccine-1796-1902",
+      "title": "La vacuna · Jenner, Balmis y la vacuna animal",
+      "region": "Inglaterra, imperio español y Estados Unidos · 1796–1902",
+      "archive": "Inquiry de 1798, relatos de la expedición, registros de granjas de vacuna y genomas de lotes históricos",
+      "layers": [
+        {
+          "kind": "population",
+          "observed": "Jenner describió observaciones y pruebas de transmisión entre humanos.",
+          "inference": "Una serie de casos sugirió protección frente a la viruela.",
+          "limit": "Una serie inicial no fija tamaño ni duración del efecto.",
+          "claimIds": [
+            "CLAIM-MED-COUNT-JENNER-1798-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-COUNT-VACCINE-MATERIAL-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-COUNT-JENSON-2016"
+          ]
+        },
+        {
+          "kind": "exposure",
+          "observed": "Una vacuna estadounidense de 1902 resultó muy cercana a horsepox en su región central.",
+          "inference": "Lo llamado vacuna no siempre fue el mismo material.",
+          "limit": "No se conoce el contenido de muchos lotes anteriores.",
+          "claimIds": [
+            "CLAIM-MED-COUNT-VACCINE-MATERIAL-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-COUNT-VACCINE-MATERIAL-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-COUNT-SCHRICK-2017"
+          ]
+        },
+        {
+          "kind": "denominator",
+          "observed": "Durante 80 a 90 años la vacuna se mantuvo pasándola de brazo en brazo.",
+          "inference": "Cada vacunado era también un eslabón de suministro.",
+          "limit": "Los registros no permiten contar todos los eslabones ni sus complicaciones.",
+          "claimIds": [
+            "CLAIM-MED-COUNT-ARM-TO-ARM-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-COUNT-VACCINE-MATERIAL-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-COUNT-ESPARZA-2020"
+          ]
+        },
+        {
+          "kind": "comparison",
+          "observed": "La vacuna animal evitaba transmitir sífilis y aseguraba suministro frente al brazo a brazo.",
+          "inference": "Producción y seguridad podían compararse entre métodos.",
+          "limit": "La comparación técnica no mide el efecto protector.",
+          "claimIds": [
+            "CLAIM-MED-COUNT-ARM-TO-ARM-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-COUNT-VACCINE-MATERIAL-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-COUNT-ESPARZA-2020"
+          ]
+        },
+        {
+          "kind": "effect",
+          "observed": "La vacunación ofreció protección frente a los efectos graves de la viruela.",
+          "inference": "El efecto justificó su difusión.",
+          "limit": "El efecto observado no garantiza calidad de cada lote ni ausencia de daños.",
+          "claimIds": [
+            "CLAIM-MED-COUNT-JENNER-1798-001",
+            "CLAIM-MED-COUNT-EFFECT-NOT-IMPLEMENTATION-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-COUNT-VACCINE-MATERIAL-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-COUNT-JENSON-2016"
+          ]
+        },
+        {
+          "kind": "implementation",
+          "observed": "Granjas de vacuna surgieron también como negocio; contaminación con tétanos en 1901 llevó a la Biologics Control Act de 1902.",
+          "inference": "La producción es una capa con fallas propias.",
+          "limit": "Regular la producción no demuestra eficacia ni acceso.",
+          "claimIds": [
+            "CLAIM-MED-COUNT-ARM-TO-ARM-001",
+            "CLAIM-MED-COUNT-EFFECT-NOT-IMPLEMENTATION-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-COUNT-VACCINE-MATERIAL-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-COUNT-ESPARZA-2020"
+          ]
+        },
+        {
+          "kind": "inequality",
+          "observed": "La expedición de Balmis mantuvo la vacuna viva en niños huérfanos traídos para ese fin.",
+          "inference": "La difusión imperial dependió de cuerpos infantiles sin capacidad de decidir.",
+          "limit": "El éxito logístico no responde a la pregunta del consentimiento.",
+          "claimIds": [
+            "CLAIM-MED-COUNT-BALMIS-001",
+            "CLAIM-MED-COUNT-INEQUALITY-DENOMINATOR-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-COUNT-BALMIS-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-COUNT-FRANCOPAREDES-2005"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "louis-paris-1835",
+      "title": "París · Louis y la sangría",
+      "region": "Francia · 1835",
+      "archive": "Recuentos clínicos de Louis y reanálisis moderno",
+      "layers": [
+        {
+          "kind": "population",
+          "observed": "Pacientes hospitalarios con neumonía en series clínicas de Louis.",
+          "inference": "La serie permitía comparar dentro de un hospital.",
+          "limit": "Pacientes hospitalarios no representan a todos los enfermos.",
+          "claimIds": [
+            "CLAIM-MED-COUNT-LOUIS-1835-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-COUNT-LOUIS-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-COUNT-MORABIA-1996"
+          ]
+        },
+        {
+          "kind": "exposure",
+          "observed": "Sangría temprana frente a sangría tardía.",
+          "inference": "El momento de la intervención se trató como variable.",
+          "limit": "La exposición no se asignó por sorteo.",
+          "claimIds": [
+            "CLAIM-MED-COUNT-LOUIS-1835-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-COUNT-LOUIS-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-COUNT-MORABIA-1996"
+          ]
+        },
+        {
+          "kind": "denominator",
+          "observed": "Medias de duración y proporciones de muerte por grupo.",
+          "inference": "Las medias resumieron series pequeñas.",
+          "limit": "Un reanálisis encontró errores aritméticos en algunas medias.",
+          "claimIds": [
+            "CLAIM-MED-COUNT-LOUIS-1835-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-COUNT-LOUIS-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-COUNT-MORABIA-1996"
+          ]
+        },
+        {
+          "kind": "comparison",
+          "observed": "Grupos formados por el curso clínico, no por asignación aleatoria.",
+          "inference": "El contraste es numérico pero observacional.",
+          "limit": "Método numérico no equivale a ensayo aleatorizado.",
+          "claimIds": [
+            "CLAIM-MED-COUNT-LOUIS-NOT-TRIAL-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-COUNT-LOUIS-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-CLINIC-TROHLER-2011"
+          ]
+        },
+        {
+          "kind": "effect",
+          "observed": "La sangría temprana parece acortar la enfermedad en sobrevivientes y puede aumentar la mortalidad a corto plazo.",
+          "inference": "El beneficio atribuido a la sangría era menor del que se creía.",
+          "limit": "Dos desenlaces distintos pueden apuntar en direcciones opuestas.",
+          "claimIds": [
+            "CLAIM-MED-COUNT-LOUIS-1835-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-COUNT-LOUIS-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-COUNT-MORABIA-1996"
+          ]
+        },
+        {
+          "kind": "implementation",
+          "observed": "Hubo comparaciones numéricas de intervenciones desde el siglo XVIII.",
+          "inference": "Louis institucionalizó una práctica con antecedentes.",
+          "limit": "Fama no equivale a origen absoluto.",
+          "claimIds": [
+            "CLAIM-MED-COUNT-LOUIS-NOT-TRIAL-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-COUNT-LOUIS-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-CLINIC-TROHLER-2011"
+          ]
+        },
+        {
+          "kind": "inequality",
+          "observed": "Las series proceden de pacientes de hospital, mayoritariamente pobres.",
+          "inference": "El conocimiento se produjo sobre una población seleccionada.",
+          "limit": "La serie no describe a quienes nunca llegaron al hospital.",
+          "claimIds": [
+            "CLAIM-MED-COUNT-INEQUALITY-DENOMINATOR-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-COUNT-POPULATION-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-COUNT-KRIEGER-2012"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "semmelweis-vienna-1847",
+      "title": "Viena · dos clínicas y una regla de días alternos",
+      "region": "Imperio austriaco · 1784–1858",
+      "archive": "Series anuales de partos y muertes de la maternidad del Hospital General y tratado de 1861",
+      "layers": [
+        {
+          "kind": "population",
+          "observed": "Parturientas admitidas en la maternidad del Hospital General de Viena.",
+          "inference": "Dos clínicas compartían población fuente.",
+          "limit": "La población hospitalaria no es la de todas las mujeres que parían en Viena.",
+          "claimIds": [
+            "CLAIM-MED-COUNT-SEMMELWEIS-ALLOCATION-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-COUNT-SEMMELWEIS-DATA-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-COUNT-LOUDON-2013"
+          ]
+        },
+        {
+          "kind": "exposure",
+          "observed": "En la Primera Clínica atendían médicos y estudiantes que asistían a autopsias; en la Segunda, parteras.",
+          "inference": "La exposición diferencial era el contacto previo con cadáveres.",
+          "limit": "Las clínicas diferían también en otros aspectos.",
+          "claimIds": [
+            "CLAIM-MED-COUNT-SEMMELWEIS-LIMIT-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-COUNT-SEMMELWEIS-DATA-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-COUNT-NOAKES-2008"
+          ]
+        },
+        {
+          "kind": "denominator",
+          "observed": "Muertes maternas por 1000 partos por clínica y año.",
+          "inference": "La tasa por parto permite comparar clínicas de tamaño distinto.",
+          "limit": "El criterio de muerte por fiebre puerperal es histórico.",
+          "claimIds": [
+            "CLAIM-MED-COUNT-SEMMELWEIS-1848-001",
+            "CLAIM-MED-COUNT-RATE-PARTS-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-COUNT-SEMMELWEIS-DATA-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-COUNT-LOUDON-2013"
+          ]
+        },
+        {
+          "kind": "comparison",
+          "observed": "Las mujeres se asignaban a cada clínica en días alternos, sin selección clínica.",
+          "inference": "La regla funcionó como una comparación casi experimental.",
+          "limit": "La asignación no fue ciega ni sorteada caso por caso.",
+          "claimIds": [
+            "CLAIM-MED-COUNT-SEMMELWEIS-ALLOCATION-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-COUNT-SEMMELWEIS-DATA-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-COUNT-LOUDON-2013"
+          ]
+        },
+        {
+          "kind": "effect",
+          "observed": "En 1848 la Primera Clínica bajó a 12.7 por 1000, cerca del 13.3 de la Segunda.",
+          "inference": "El lavado con cloruro de cal se asoció con una caída grande.",
+          "limit": "Un antes-después no identifica el agente ni excluye otros cambios.",
+          "claimIds": [
+            "CLAIM-MED-COUNT-SEMMELWEIS-1848-001",
+            "CLAIM-MED-COUNT-SEMMELWEIS-LIMIT-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-COUNT-SEMMELWEIS-DATA-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-COUNT-LOUDON-2013",
+            "SRC-MED-COUNT-NOAKES-2008"
+          ]
+        },
+        {
+          "kind": "implementation",
+          "observed": "La mortalidad aumentó tras el cese del lavado en 1850; el tratado se publicó en 1860 con fecha de 1861.",
+          "inference": "La medida dependía de su mantenimiento y de su difusión.",
+          "limit": "Poca influencia en su tiempo no prueba sólo ceguera de los colegas.",
+          "claimIds": [
+            "CLAIM-MED-COUNT-SEMMELWEIS-RECEPTION-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-COUNT-SEMMELWEIS-RECEPTION-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-COUNT-LOUDON-2013",
+            "SRC-MED-COUNT-KADAR-2019"
+          ]
+        },
+        {
+          "kind": "inequality",
+          "observed": "Las mujeres de la clínica docente cargaban con el riesgo de la enseñanza en autopsias.",
+          "inference": "La organización de la formación distribuyó el riesgo.",
+          "limit": "Las tablas no registran la experiencia de las parturientas.",
+          "claimIds": [
+            "CLAIM-MED-COUNT-INEQUALITY-DENOMINATOR-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-COUNT-SEMMELWEIS-DATA-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-COUNT-NOAKES-2008"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "london-cholera-1849-1855",
+      "title": "Londres · Snow, Farr y el agua",
+      "region": "Inglaterra · 1849–1855",
+      "archive": "Tabla IX de Snow, informes de la Junta de Salud, datos de Farr de 1852",
+      "layers": [
+        {
+          "kind": "population",
+          "observed": "Casas del sur de Londres servidas por dos compañías de agua intercaladas.",
+          "inference": "Vecinos semejantes recibían agua distinta.",
+          "limit": "La zona estudiada no es todo Londres.",
+          "claimIds": [
+            "CLAIM-MED-COUNT-SNOW-TABLE-1855-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-COUNT-SNOW-TABLE-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-COUNT-SNOW-1855"
+          ]
+        },
+        {
+          "kind": "exposure",
+          "observed": "Snow identificaba la compañía con una prueba química de cloruros, corroborada con recibos y horarios.",
+          "inference": "La exposición se verificó, no sólo se preguntó.",
+          "limit": "Algunas semanas y subdistritos se estimaron por cálculo.",
+          "claimIds": [
+            "CLAIM-MED-COUNT-SNOW-EXPOSURE-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-COUNT-SNOW-TABLE-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-COUNT-SNOW-1855"
+          ]
+        },
+        {
+          "kind": "denominator",
+          "observed": "Southwark & Vauxhall: 1263 muertes en 40 046 casas; Lambeth: 98 en 26 107.",
+          "inference": "La tasa por 10 000 casas permite comparar compañías.",
+          "limit": "Casas no son personas; 795 muertes quedaron sin proveedor determinado.",
+          "claimIds": [
+            "CLAIM-MED-COUNT-SNOW-TABLE-1855-001",
+            "CLAIM-MED-COUNT-SNOW-LIMITS-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-COUNT-SNOW-TABLE-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-COUNT-SNOW-1855"
+          ]
+        },
+        {
+          "kind": "comparison",
+          "observed": "315 frente a 37 muertes por 10 000 casas en las primeras siete semanas.",
+          "inference": "Un experimento natural hacía difícil atribuir la diferencia a la selección.",
+          "limit": "Sin agente observado, la inferencia era fuerte pero no completa.",
+          "claimIds": [
+            "CLAIM-MED-COUNT-SNOW-TABLE-1855-001",
+            "CLAIM-MED-COUNT-SNOW-LIMITS-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-COUNT-SNOW-TABLE-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-COUNT-SNOW-1855"
+          ]
+        },
+        {
+          "kind": "effect",
+          "observed": "Un reanálisis de los datos de Farr de 1849 halla efectos independientes de elevación, agua y pobreza.",
+          "inference": "La evidencia sobre el agua ya estaba en las tablas de Farr.",
+          "limit": "Un modelo moderno no reproduce el juicio de la época.",
+          "claimIds": [
+            "CLAIM-MED-COUNT-FARR-REANALYSIS-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-COUNT-FARR-REANALYSIS-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-COUNT-BINGHAM-2004"
+          ]
+        },
+        {
+          "kind": "implementation",
+          "observed": "La Junta de Salud reunió más datos y concluyó que la epidemia se debía sobre todo al aire.",
+          "inference": "Más datos no corrigen una teoría inadecuada.",
+          "limit": "Contemporáneos juzgaron a Farr definitivo y a Snow defectuoso por razones explicables.",
+          "claimIds": [
+            "CLAIM-MED-COUNT-CHOLERA-RIVALS-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-COUNT-CHOLERA-RIVALS-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-COUNT-PANETH-1998",
+            "SRC-MED-COUNT-EYLER-2001"
+          ]
+        },
+        {
+          "kind": "inequality",
+          "observed": "Muchos inquilinos obreros no sabían qué compañía los abastecía porque pagaban casero o agente.",
+          "inference": "La exposición se distribuía por contratos y clase.",
+          "limit": "El archivo no reconstruye todas las condiciones de vivienda.",
+          "claimIds": [
+            "CLAIM-MED-COUNT-SNOW-EXPOSURE-001",
+            "CLAIM-MED-COUNT-INEQUALITY-DENOMINATOR-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-COUNT-SNOW-TABLE-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-COUNT-SNOW-1855"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "nightingale-1854-1858",
+      "title": "Crimea y Londres · Nightingale y los diagramas",
+      "region": "Imperio británico · 1854–1858",
+      "archive": "Tablas, diagramas de área polar y correspondencia con Farr",
+      "layers": [
+        {
+          "kind": "population",
+          "observed": "Soldados británicos en hospitales militares y en servicio.",
+          "inference": "El ejército ofrecía registros centralizados.",
+          "limit": "Una población militar no representa a la civil.",
+          "claimIds": [
+            "CLAIM-MED-COUNT-NIGHTINGALE-DATA-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-COUNT-NIGHTINGALE-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-COUNT-BRADSHAW-2020"
+          ]
+        },
+        {
+          "kind": "exposure",
+          "observed": "Condiciones sanitarias de hospitales y campamentos.",
+          "inference": "Se propuso que el saneamiento explicaba parte de la mortalidad.",
+          "limit": "La exposición sanitaria no se midió como variable individual.",
+          "claimIds": [
+            "CLAIM-MED-COUNT-NIGHTINGALE-LIMIT-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-COUNT-NIGHTINGALE-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-COUNT-ZRELAK-2026"
+          ]
+        },
+        {
+          "kind": "denominator",
+          "observed": "Nightingale abogó por recolección y gestión uniforme de datos médicos.",
+          "inference": "Denominadores comparables eran condición de la reforma.",
+          "limit": "Los sistemas de datos del siglo XIX eran limitados.",
+          "claimIds": [
+            "CLAIM-MED-COUNT-NIGHTINGALE-DATA-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-COUNT-NIGHTINGALE-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-COUNT-BRADSHAW-2020"
+          ]
+        },
+        {
+          "kind": "comparison",
+          "observed": "Tablas y diagramas compararon causas de muerte por periodo.",
+          "inference": "La forma visual hizo legible la desproporción entre causas.",
+          "limit": "Una comparación por periodos no aísla una intervención.",
+          "claimIds": [
+            "CLAIM-MED-COUNT-NIGHTINGALE-LIMIT-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-COUNT-NIGHTINGALE-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-COUNT-ZRELAK-2026"
+          ]
+        },
+        {
+          "kind": "effect",
+          "observed": "Sus datos pueden releerse hoy con series temporales interrumpidas.",
+          "inference": "Un efecto exige series y comparadores explícitos.",
+          "limit": "Un diagrama persuade; no estima cuántas muertes evitó cada medida.",
+          "claimIds": [
+            "CLAIM-MED-COUNT-NIGHTINGALE-LIMIT-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-COUNT-NIGHTINGALE-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-COUNT-ZRELAK-2026"
+          ]
+        },
+        {
+          "kind": "implementation",
+          "observed": "Colaboró con Farr y dirigió sus gráficos a gobierno y ejército.",
+          "inference": "El dato funcionó como herramienta política de reforma.",
+          "limit": "La influencia política no mide eficacia sanitaria.",
+          "claimIds": [
+            "CLAIM-MED-COUNT-NIGHTINGALE-DATA-001",
+            "CLAIM-MED-COUNT-EFFECT-NOT-IMPLEMENTATION-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-COUNT-NIGHTINGALE-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-COUNT-BRADSHAW-2020",
+            "SRC-MED-COUNT-ZRELAK-2026"
+          ]
+        },
+        {
+          "kind": "inequality",
+          "observed": "La reforma se pensó desde el ejército y la administración imperial.",
+          "inference": "Quién financia el dato decide qué se mide.",
+          "limit": "Este expediente no audita los datos coloniales de Nightingale.",
+          "claimIds": [
+            "CLAIM-MED-COUNT-POPULATION-CONSTRUCTED-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-COUNT-POPULATION-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-COUNT-KRIEGER-2012"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "compulsion-1853-1905",
+      "title": "Obligación y resistencia · Inglaterra, Massachusetts y Río",
+      "region": "Inglaterra, Estados Unidos y Brasil · 1853–1905",
+      "archive": "Leyes de vacunación, Ley de Pobres, folletos, sentencias y crónicas de la Revolta da Vacina",
+      "layers": [
+        {
+          "kind": "population",
+          "observed": "La ley inglesa de 1853 obligó a vacunar a los lactantes.",
+          "inference": "El Estado definió a quién alcanzaba la medida.",
+          "limit": "La norma no describe su cumplimiento real.",
+          "claimIds": [
+            "CLAIM-MED-COUNT-COMPULSION-1853-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-COUNT-COMPULSION-ENGLAND-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-COUNT-DURBACH-2000"
+          ]
+        },
+        {
+          "kind": "exposure",
+          "observed": "La vacunación se administró junto a la Ley de Pobres, con multas y penas.",
+          "inference": "La exposición incluía coerción, no sólo vacuna.",
+          "limit": "La coerción no medida contamina comparaciones de cobertura.",
+          "claimIds": [
+            "CLAIM-MED-COUNT-RESISTANCE-CLASS-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-COUNT-COMPULSION-ENGLAND-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-COUNT-DURBACH-2000"
+          ]
+        },
+        {
+          "kind": "denominator",
+          "observed": "Leyes de 1867 y 1871 reforzaron la obligación y ampliaron la resistencia.",
+          "inference": "El número de objetores es parte del dato.",
+          "limit": "Los registros de objeción no cuentan a todos los que evitaron la medida.",
+          "claimIds": [
+            "CLAIM-MED-COUNT-COMPULSION-1853-001",
+            "CLAIM-MED-COUNT-RESISTANCE-PLURAL-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-COUNT-COMPULSION-ENGLAND-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-COUNT-COTTRELLBOYCE-2022"
+          ]
+        },
+        {
+          "kind": "comparison",
+          "observed": "Los objetores esgrimieron razones bíblicas, mesmerismo, hidropatía, libertad y anticatolicismo.",
+          "inference": "La resistencia fue plural, no una sola ignorancia.",
+          "limit": "Pluralidad de motivos no valida ninguno de ellos como evidencia.",
+          "claimIds": [
+            "CLAIM-MED-COUNT-RESISTANCE-PLURAL-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-COUNT-COMPULSION-ENGLAND-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-COUNT-COTTRELLBOYCE-2022"
+          ]
+        },
+        {
+          "kind": "effect",
+          "observed": "Estos archivos documentan leyes, protestas y sentencias.",
+          "inference": "Sirven para estudiar implementación y legitimidad.",
+          "limit": "No miden la eficacia de la vacuna.",
+          "claimIds": [
+            "CLAIM-MED-COUNT-EFFECT-NOT-IMPLEMENTATION-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-COUNT-COMPULSION-LAW-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-COUNT-MARINER-2005"
+          ]
+        },
+        {
+          "kind": "implementation",
+          "observed": "Jacobson v. Massachusetts (1905) sostuvo el poder estatal de exigir la vacunación.",
+          "inference": "El derecho fijó un marco para la obligación.",
+          "limit": "La jurisprudencia posterior amplió el peso de la libertad individual.",
+          "claimIds": [
+            "CLAIM-MED-COUNT-JACOBSON-1905-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-COUNT-COMPULSION-LAW-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-COUNT-MARINER-2005"
+          ]
+        },
+        {
+          "kind": "inequality",
+          "observed": "La obligación recayó sobre la clase obrera inglesa; en Río de Janeiro, la revuelta de 1904 expresó raza, clase y ciudadanía.",
+          "inference": "La carga de la medida se distribuyó de forma desigual.",
+          "limit": "La desigualdad de la carga no se resume en una tasa de cobertura.",
+          "claimIds": [
+            "CLAIM-MED-COUNT-RESISTANCE-CLASS-001",
+            "CLAIM-MED-COUNT-RIO-1904-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-COUNT-COMPULSION-ENGLAND-001",
+            "EVID-MED-COUNT-COMPULSION-LAW-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-COUNT-DURBACH-2000",
+            "SRC-MED-COUNT-GOMES-2020"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tobacco-1950-1965",
+      "title": "Tabaco · Doll, Hill, Fisher y los nueve puntos",
+      "region": "Reino Unido y Estados Unidos · 1950–2004",
+      "archive": "Estudios de casos y controles de 1950, cohorte de médicos británicos, polémica de Fisher, conferencia de Hill de 1965",
+      "layers": [
+        {
+          "kind": "population",
+          "observed": "Desde 1951 se siguió a 34 439 médicos británicos varones.",
+          "inference": "Una cohorte profesional permitió seguimiento largo.",
+          "limit": "Médicos varones no representan a toda la población.",
+          "claimIds": [
+            "CLAIM-MED-COUNT-DOCTORS-COHORT-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-COUNT-TOBACCO-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-COUNT-DOLL-2004"
+          ]
+        },
+        {
+          "kind": "exposure",
+          "observed": "Hábito de fumar declarado en 1951 y actualizado periódicamente.",
+          "inference": "La exposición se midió antes del desenlace.",
+          "limit": "El autorreporte tiene error.",
+          "claimIds": [
+            "CLAIM-MED-COUNT-DOCTORS-COHORT-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-COUNT-TOBACCO-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-COUNT-DOLL-2004"
+          ]
+        },
+        {
+          "kind": "denominator",
+          "observed": "Mortalidad por causa en 50 años de seguimiento.",
+          "inference": "Tasas por edad y cohorte de nacimiento.",
+          "limit": "Las tasas cambian con la época y la intensidad del consumo.",
+          "claimIds": [
+            "CLAIM-MED-COUNT-DOCTORS-COHORT-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-COUNT-TOBACCO-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-COUNT-DOLL-2004"
+          ]
+        },
+        {
+          "kind": "comparison",
+          "observed": "Casos y controles en 1950, cohorte desde 1951, experimentos animales, patología y química; en 1965 Hill propuso nueve puntos de vista para juzgar la convergencia.",
+          "inference": "La causalidad se sostuvo por convergencia de diseños independientes.",
+          "limit": "Hill advirtió que ningún punto es indispensable; usarlos como lista de verificación contradice su texto.",
+          "claimIds": [
+            "CLAIM-MED-COUNT-TOBACCO-CONVERGENCE-001",
+            "CLAIM-MED-COUNT-HILL-1965-001",
+            "CLAIM-MED-COUNT-HILL-MISUSE-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-COUNT-TOBACCO-001",
+            "EVID-MED-COUNT-HILL-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-COUNT-PROCTOR-2012",
+            "SRC-MED-COUNT-WYNDER-1950",
+            "SRC-MED-COUNT-DOLL-HILL-1950",
+            "SRC-MED-COUNT-HILL-1965",
+            "SRC-MED-COUNT-PHILLIPS-2004"
+          ]
+        },
+        {
+          "kind": "effect",
+          "observed": "Los fumadores continuos nacidos entre 1900 y 1930 murieron unos diez años antes que quienes nunca fumaron.",
+          "inference": "El efecto es grande y consistente.",
+          "limit": "Un promedio de cohorte no predice la vida de cada fumador.",
+          "claimIds": [
+            "CLAIM-MED-COUNT-DOCTORS-COHORT-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-COUNT-TOBACCO-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-COUNT-DOLL-2004"
+          ]
+        },
+        {
+          "kind": "implementation",
+          "observed": "Fisher objetó la causalidad mientras era consultor de la industria; en 1960 sólo un tercio de los médicos de EE. UU. la daba por establecida.",
+          "inference": "La duda organizada retrasó la aceptación.",
+          "limit": "Una objeción formal legítima puede usarse con fines no científicos.",
+          "claimIds": [
+            "CLAIM-MED-COUNT-FISHER-001",
+            "CLAIM-MED-COUNT-INDUSTRY-DOUBT-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-COUNT-FISHER-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-COUNT-STOLLEY-1991",
+            "SRC-MED-COUNT-PROCTOR-2012"
+          ]
+        },
+        {
+          "kind": "inequality",
+          "observed": "La cohorte reunió sólo a médicos varones; durante décadas los ensayos tampoco incluyeron adecuadamente a mujeres.",
+          "inference": "Quién entra en la cohorte decide para quién vale la estimación.",
+          "limit": "El efecto en grupos ausentes debe medirse, no heredarse.",
+          "claimIds": [
+            "CLAIM-MED-COUNT-DOCTORS-COHORT-001",
+            "CLAIM-MED-COUNT-TRIAL-INCLUSION-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-COUNT-TOBACCO-001",
+            "EVID-MED-COUNT-POPULATION-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-COUNT-DOLL-2004",
+            "SRC-MED-COUNT-LIU-2016"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "salk-field-trial-1954",
+      "title": "Polio · el ensayo de campo de 1954 y Cutter",
+      "region": "Estados Unidos · 1954–1955",
+      "archive": "Diseño y resultados del ensayo de campo, análisis de Meier, estudios del incidente Cutter",
+      "layers": [
+        {
+          "kind": "population",
+          "observed": "Más de 1.8 millones de niños participaron en dos diseños.",
+          "inference": "El tamaño permitió medir una enfermedad rara.",
+          "limit": "Participar dependía del consentimiento de los padres.",
+          "claimIds": [
+            "CLAIM-MED-COUNT-SALK-DESIGN-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-COUNT-SALK-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-COUNT-MEIER-1972"
+          ]
+        },
+        {
+          "kind": "exposure",
+          "observed": "Vacuna inactivada o placebo, con código cerrado hasta clasificar cada caso.",
+          "inference": "La exposición fue asignada y enmascarada.",
+          "limit": "El brazo observado vacunó a segundo grado sin enmascarar.",
+          "claimIds": [
+            "CLAIM-MED-COUNT-SALK-DESIGN-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-COUNT-SALK-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-COUNT-MEIER-1972"
+          ]
+        },
+        {
+          "kind": "denominator",
+          "observed": "200 745 vacunados y 201 229 con placebo en áreas aleatorizadas.",
+          "inference": "Denominadores semejantes por diseño.",
+          "limit": "El criterio de polio paralítica requirió un grupo diagnóstico.",
+          "claimIds": [
+            "CLAIM-MED-COUNT-SALK-RESULTS-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-COUNT-SALK-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-COUNT-MEIER-1972"
+          ]
+        },
+        {
+          "kind": "comparison",
+          "observed": "Los no inoculados tuvieron 36 por 100 000, menos que el placebo.",
+          "inference": "Voluntarios y no voluntarios difieren.",
+          "limit": "El no vacunado no es un control neutral.",
+          "claimIds": [
+            "CLAIM-MED-COUNT-SALK-VOLUNTEER-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-COUNT-SALK-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-COUNT-MEIER-1972"
+          ]
+        },
+        {
+          "kind": "effect",
+          "observed": "Polio paralítica: 16 frente a 57 por 100 000 en áreas con placebo; 17 frente a 46 en áreas observadas.",
+          "inference": "La vacuna redujo la polio paralítica en el ensayo.",
+          "limit": "Un efecto directo en ensayo no fija efectos indirectos ni totales.",
+          "claimIds": [
+            "CLAIM-MED-COUNT-SALK-RESULTS-001",
+            "CLAIM-MED-COUNT-VACCINE-EFFECTS-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-COUNT-SALK-001",
+            "EVID-MED-COUNT-VACCINE-FIELD-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-COUNT-MEIER-1972",
+            "SRC-MED-COUNT-HALLORAN-1999"
+          ]
+        },
+        {
+          "kind": "implementation",
+          "observed": "En la primavera de 1955 hubo casos de polio tras vacuna inactivada de producción comercial.",
+          "inference": "La producción puede fallar aunque el ensayo haya sido positivo.",
+          "limit": "Un ensayo no garantiza cada lote.",
+          "claimIds": [
+            "CLAIM-MED-COUNT-CUTTER-1955-001",
+            "CLAIM-MED-COUNT-EFFECT-NOT-IMPLEMENTATION-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-COUNT-VACCINE-FIELD-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-COUNT-NATHANSON-1963"
+          ]
+        },
+        {
+          "kind": "inequality",
+          "observed": "Los voluntarios tendían a tener más educación e ingresos.",
+          "inference": "La participación se distribuyó por clase.",
+          "limit": "El ensayo no describe el efecto en quienes no participaron.",
+          "claimIds": [
+            "CLAIM-MED-COUNT-SALK-VOLUNTEER-001",
+            "CLAIM-MED-COUNT-INEQUALITY-DENOMINATOR-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-COUNT-SALK-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-COUNT-MEIER-1972"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "smallpox-eradication-1966-1980",
+      "title": "Erradicación de la viruela · buscar casos",
+      "region": "Programa mundial de la OMS, África occidental e India · 1966–1980",
+      "archive": "Informes de campo, correspondencia oficial inédita y balances del programa",
+      "layers": [
+        {
+          "kind": "population",
+          "observed": "La campaña abarcó países con viruela endémica.",
+          "inference": "La unidad de trabajo pasó de la cobertura al caso.",
+          "limit": "Los países tenían infraestructuras y políticas muy distintas.",
+          "claimIds": [
+            "CLAIM-MED-COUNT-ERADICATION-STRATEGY-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-COUNT-ERADICATION-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-COUNT-HENDERSON-2011"
+          ]
+        },
+        {
+          "kind": "exposure",
+          "observed": "Vacunación dirigida alrededor de casos detectados.",
+          "inference": "La exposición se concentró donde había transmisión.",
+          "limit": "Las condiciones de aplicación variaron por localidad.",
+          "claimIds": [
+            "CLAIM-MED-COUNT-ERADICATION-STRATEGY-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-COUNT-ERADICATION-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-COUNT-FOEGE-1971"
+          ]
+        },
+        {
+          "kind": "denominator",
+          "observed": "La vigilancia activa contaba casos y brotes.",
+          "inference": "El numerador de casos guiaba el avance.",
+          "limit": "La vigilancia depende de la búsqueda; menos búsqueda, menos casos.",
+          "claimIds": [
+            "CLAIM-MED-COUNT-ERADICATION-STRATEGY-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-COUNT-ERADICATION-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-COUNT-HENDERSON-2011"
+          ]
+        },
+        {
+          "kind": "comparison",
+          "observed": "Control epidemiológico selectivo frente a vacunación masiva.",
+          "inference": "La estrategia se juzgó por la interrupción de la transmisión.",
+          "limit": "No fue un ensayo comparativo formal entre estrategias.",
+          "claimIds": [
+            "CLAIM-MED-COUNT-ERADICATION-STRATEGY-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-COUNT-ERADICATION-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-COUNT-FOEGE-1971"
+          ]
+        },
+        {
+          "kind": "effect",
+          "observed": "La erradicación se declaró en 1980.",
+          "inference": "La transmisión natural se interrumpió en el mundo.",
+          "limit": "El éxito no se atribuye a una sola técnica ni a una sola institución.",
+          "claimIds": [
+            "CLAIM-MED-COUNT-ERADICATION-STRATEGY-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-COUNT-ERADICATION-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-COUNT-HENDERSON-2011"
+          ]
+        },
+        {
+          "kind": "implementation",
+          "observed": "En India, gestores divididos determinaron el ritmo y trabajadores locales reconfiguraron políticas.",
+          "inference": "La estrategia se decidió también en lo local.",
+          "limit": "La narrativa centrada en Ginebra borra esas decisiones.",
+          "claimIds": [
+            "CLAIM-MED-COUNT-ERADICATION-INDIA-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-COUNT-ERADICATION-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-COUNT-BHATTACHARYA-2004"
+          ]
+        },
+        {
+          "kind": "inequality",
+          "observed": "La aplicación local respondió a infraestructura y política de cada lugar.",
+          "inference": "Las cargas de la campaña se repartieron de forma desigual.",
+          "limit": "El archivo oficial no recoge la experiencia de quienes fueron vacunados.",
+          "claimIds": [
+            "CLAIM-MED-COUNT-ERADICATION-INDIA-001",
+            "CLAIM-MED-COUNT-INEQUALITY-DENOMINATOR-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-COUNT-ERADICATION-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-COUNT-BHATTACHARYA-2004"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "present-2006-2026",
+      "title": "2006–2026 · registros, sesgos y decisiones normativas",
+      "region": "Estados Unidos y Dinamarca · 2006–2026",
+      "archive": "Cohortes de registro, metaanálisis, debate metodológico y noticias de decisiones del ACIP",
+      "layers": [
+        {
+          "kind": "population",
+          "observed": "Registros nacionales de cientos de miles a más de un millón de niños.",
+          "inference": "Denominadores casi completos para un país.",
+          "limit": "Un país no representa a todos los sistemas de salud.",
+          "claimIds": [
+            "CLAIM-MED-COUNT-SAFETY-COHORTS-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-COUNT-SAFETY-COHORTS-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-COUNT-HVIID-2019",
+            "SRC-MED-COUNT-ANDERSSON-2025"
+          ]
+        },
+        {
+          "kind": "exposure",
+          "observed": "Vacuna triple viral sí o no; aluminio acumulado por vacunas en los dos primeros años.",
+          "inference": "La exposición se toma de registros de vacunación.",
+          "limit": "El registro depende de su codificación.",
+          "claimIds": [
+            "CLAIM-MED-COUNT-SAFETY-COHORTS-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-COUNT-SAFETY-COHORTS-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-COUNT-ANDERSSON-2025"
+          ]
+        },
+        {
+          "kind": "denominator",
+          "observed": "657 461 niños y 5 025 754 años-persona; 1 224 176 niños nacidos entre 1997 y 2018.",
+          "inference": "Tasas por años-persona permiten seguimientos distintos.",
+          "limit": "No se revisaron expedientes individuales.",
+          "claimIds": [
+            "CLAIM-MED-COUNT-SAFETY-COHORTS-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-COUNT-SAFETY-COHORTS-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-COUNT-HVIID-2019",
+            "SRC-MED-COUNT-ANDERSSON-2025"
+          ]
+        },
+        {
+          "kind": "comparison",
+          "observed": "En mayores de 65 años, la vacuna antigripal se asoció con un riesgo relativo de muerte de 0.39 antes de la temporada.",
+          "inference": "El sesgo del vacunado sano puede explicar asociaciones protectoras.",
+          "limit": "El ajuste por diagnósticos no corrigió ese sesgo.",
+          "claimIds": [
+            "CLAIM-MED-COUNT-HEALTHY-VACCINEE-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-COUNT-OBSERVATIONAL-BIAS-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-COUNT-JACKSON-2006"
+          ]
+        },
+        {
+          "kind": "effect",
+          "observed": "Cociente de riesgos de autismo 0.93 (0.85–1.02) con triple viral; sin asociación entre aluminio y 50 trastornos.",
+          "inference": "Las cohortes no hallan los riesgos postulados.",
+          "limit": "Ausencia de asociación tiene límites de poder y medición.",
+          "claimIds": [
+            "CLAIM-MED-COUNT-SAFETY-COHORTS-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-COUNT-SAFETY-COHORTS-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-COUNT-HVIID-2019",
+            "SRC-MED-COUNT-TAYLOR-2014"
+          ]
+        },
+        {
+          "kind": "implementation",
+          "observed": "El ACIP votó retirar la recomendación universal de hepatitis B al nacer; la AAP la mantuvo.",
+          "inference": "Una decisión normativa debe declarar qué evidencia y qué balance la sostienen.",
+          "limit": "Un cambio de política no es por sí mismo evidencia nueva; este expediente no lo evalúa.",
+          "claimIds": [
+            "CLAIM-MED-COUNT-POLICY-NOT-EVIDENCE-001",
+            "CLAIM-MED-COUNT-NO-ADVICE-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-COUNT-POLICY-2026-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-COUNT-ANDERER-2026"
+          ]
+        },
+        {
+          "kind": "inequality",
+          "observed": "La emulación de ensayos y el pluralismo causal discuten qué preguntas y qué poblaciones caben en la inferencia.",
+          "inference": "Elegir método también decide quién queda dentro.",
+          "limit": "El debate metodológico sigue abierto.",
+          "claimIds": [
+            "CLAIM-MED-COUNT-CAUSAL-PLURALISM-001",
+            "CLAIM-MED-COUNT-POPULATION-CONSTRUCTED-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-COUNT-CAUSAL-PLURALISM-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-COUNT-HERNAN-2016",
+            "SRC-MED-COUNT-KRIEGER-2016",
+            "SRC-MED-COUNT-VANDENBROUCKE-2016"
+          ]
+        }
+      ]
+    }
+  ]
+}

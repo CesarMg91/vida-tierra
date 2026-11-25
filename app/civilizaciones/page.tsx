@@ -6,9 +6,11 @@ import CivilizationTimeline from "../../components/CivilizationTimeline";
 import CivilizationsAtlas from "../../components/CivilizationsAtlas";
 import CivilizationDatingLab from "../../components/CivilizationDatingLab";
 import CivilizationSouthwestAsia from "../../components/CivilizationSouthwestAsiaStyled";
+import CivilizationNile from "../../components/CivilizationNile";
 import { chronologyLanes, civilizationCases } from "../../lib/civilizations";
 import { civilizationDating } from "../../lib/civilization-dating";
 import { southwestAsia } from "../../lib/civilization-swasia";
+import { nileValley } from "../../lib/civilization-nile";
 import { getCivilizationMapData } from "../../lib/civilization-map";
 import { getCatalog } from "../../lib/public-data";
 import { createPageMetadata } from "../../lib/site";
@@ -154,6 +156,17 @@ export default function CivilizationsPage() {
           <p>Elige una región y conserva su archivo, su inferencia y su límite. Ningún sitio habla por toda Asia sudoccidental.</p>
         </div>
         <CivilizationSouthwestAsia data={southwestAsia} />
+      </section>
+
+      <section className="civilization-dating-section" aria-labelledby="nile-title">
+        <div className="section-heading">
+          <div>
+            <p className="eyebrow">Segundo expediente regional</p>
+            <h2 id="nile-title">Varios polos, ninguna periferia</h2>
+          </div>
+          <p>Elige un archivo del Nilo y África nororiental y conserva su inferencia, su límite y su adversario más fuerte. Ningún archivo fecha la «unificación».</p>
+        </div>
+        <CivilizationNile data={nileValley} />
       </section>
 
       <section className="civilization-chronology-section" aria-labelledby="chronology-title">

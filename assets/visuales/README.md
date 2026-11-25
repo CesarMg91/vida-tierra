@@ -1114,3 +1114,36 @@ La portada no usa modelos de imagen: se regenera idéntica con `node scripts/gen
 | `escalera-evidencia-con-006.svg` | `scripts/generate-con-visuals.mjs` | `1600 × 900` | código fuente versionado | síntesis del expediente; no recomienda el uso de ninguna sustancia |
 
 La portada no usa modelos de imagen: se regenera idéntica con `node scripts/generate-con-visuals.mjs --png=con-006`. Los SVG incluyen `title` y `desc`.
+
+## MED-020 — Estadística, vacunación y epidemiología
+
+| Archivo | Origen | Dimensiones | SHA-256 / trazabilidad | Límite |
+|---|---|---:|---|---|
+| `hero-med-020-estadistica-vacunacion-epidemiologia.png` | `scripts/generate-med-020-visuals.mjs --png` (sharp), 2026-11-25 | `1672 × 941` | `81527eff815e38ecbadb847ca251d63918625a5c17f33b3fbd4a9416def54caf` | composición abstracta; no datos, país, vacuna ni resultado |
+| `hero-med-020-estadistica-vacunacion-epidemiologia.svg` | `scripts/generate-med-020-visuals.mjs` | `1672 × 941` | código fuente versionado | puntos y marcos sin información |
+| `cadena-poblacion-desigualdad-med-020.svg` | `scripts/generate-med-020-visuals.mjs` | `1600 × 900` | código fuente versionado | siete capas inferenciales; no herencia automática |
+| `matriz-estadistica-vacunacion-epidemiologia-med-020.svg` | `scripts/generate-med-020-visuals.mjs` | `1600 × 900` | código fuente versionado | doce expedientes y límites; no ranking ni recomendación |
+
+La portada no usa modelos de imagen: se regenera idéntica con `node scripts/generate-med-020-visuals.mjs --png`. Los SVG incluyen `title` y `desc`.
+
+## MED-021 — Anestesia, analgesia y antisepsia
+
+| Archivo | Origen | Dimensiones | SHA-256 / trazabilidad | Límite |
+|---|---|---:|---|---|
+| `hero-med-021-anestesia-analgesia-antisepsia.png` | rasterizado con `sharp` por `scripts/generate-med-021-visuals.mjs --png`, 2026-11-25 | `1672 × 941` | `1fcb5c0956c74aa3e330b53ab9d35b6e846108eea7a1a5aff32bced5c6941b9f` | composición abstracta; no cuerpos, sustancias, instrumentos ni acontecimientos reales |
+| `hero-med-021-anestesia-analgesia-antisepsia.svg` | `scripts/generate-med-021-visuals.mjs`, semilla fija | `1672 × 941` | código fuente versionado | trazos y puntos sin información |
+| `cadena-dolor-infeccion-adopcion-med-021.svg` | `scripts/generate-med-021-visuals.mjs` | `1600 × 900` | código fuente versionado | siete capas inferenciales; no herencia automática |
+| `matriz-anestesia-antisepsia-med-021.svg` | `scripts/generate-med-021-visuals.mjs` | `1600 × 900` | código fuente versionado | diez expedientes y límites; no prioridad ni ranking |
+
+La portada no usa modelos de imagen: se regenera idéntica con `node scripts/generate-med-021-visuals.mjs --png`. Los SVG incluyen `title` y `desc`, preservan las siete capas y no convierten relato, función pública, serie, contraste, mecanismo ni adopción en efecto, seguridad, causa aislada o beneficio. El prompt-equivalente y los límites están en `ATLAS_VISUAL.md`, sección 82.
+
+## CIV-004 — Valle del Nilo y África nororiental
+
+| Archivo | Origen | Dimensiones | SHA-256 / trazabilidad | Límite |
+|---|---|---:|---|---|
+| `hero-civ-004-nilo-africa-nororiental.png` | rasterizado con `sharp` desde el SVG generativo del proyecto, 2026-11-25 | `1672 × 941` | `0fa47dd3dae38fb6ea07df9e19daae04c1c870787093173f8047710a3728a406` | composición abstracta; no sitio, mapa, monumento ni escritura |
+| `hero-civ-004-nilo-africa-nororiental.svg` | `scripts/generate-civ-004-visuals.mjs`, semilla `4004` | `1672 × 941` | código fuente versionado | formas sin información arqueológica |
+| `carriles-nilo-africa-nororiental-civ-004.svg` | `scripts/generate-civ-004-visuals.mjs` | `1600 × 900` | código fuente versionado | carriles analíticos, no prioridad o difusión |
+| `cadena-objeto-unificacion-civ-004.svg` | `scripts/generate-civ-004-visuals.mjs` | `1600 × 900` | código fuente versionado | operaciones inferenciales; no herencia automática |
+
+La portada no usa modelos de imagen: se regenera idéntica con `node scripts/generate-civ-004-visuals.mjs --png`. Los SVG incluyen `title` y `desc`. El procedimiento y los límites completos están en [`ATLAS_VISUAL.md`](../../ATLAS_VISUAL.md#83-civ-004--varios-polos-ninguna-periferia).

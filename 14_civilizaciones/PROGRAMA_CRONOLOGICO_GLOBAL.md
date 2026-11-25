@@ -70,7 +70,7 @@ La numeración futura se asignará al iniciar cada expediente para no crear IDs 
 2. [`INV-CIV-DATING-001`](INVESTIGACION_CIV_002_FECHADO_ARQUEOLOGICO_HISTORICO.md) — fechado arqueológico e histórico: asociación de muestra, calibración, modelos bayesianos, seriación y sincronismos — **AUDITADO como CIV-002**.
 3. Nombres e identidades — cultura material, lengua, ADN, etnicidad, endónimos y exónimos.
 4. Asia sudoccidental — de campamentos y aldeas a urbanismos del norte y sur.
-5. Nilo y África nororiental — pastoralismos, agregación y formación estatal.
+5. [`INV-CIV-NILE-001`](INVESTIGACION_CIV_004_VALLE_NILO_AFRICA_NORORIENTAL.md) — Nilo y África nororiental: pastoralismos, agregación y formación estatal — **AUDITADO como CIV-004**.
 6. Domesticaciones y aldeas de Asia oriental, Nueva Guinea, África y Américas por archivos regionales.
 7. Urbanismos comparados: Mesopotamia, Indo, China, Mesoamérica, Andes, África y Norteamérica.
 8. Escrituras, notaciones, oralidad y archivos administrativos sin jerarquía cognitiva.

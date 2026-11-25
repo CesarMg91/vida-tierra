@@ -1529,3 +1529,72 @@ Generada por el proyecto sin modelos de imagen: `node scripts/generate-con-visua
 ### Revisión y límites
 
 Las tres salidas se inspeccionaron completas tras rasterizar. La portada evita a propósito la iconografía habitual de los psicodélicos (colores saturados, hongos, espirales, ojos o fractales) para no estetizar el consumo en redes.
+
+## 81. MED-020 — Una cifra agregada no convierte una población en un efecto por sí sola
+
+![Portada editorial de MED-020](assets/visuales/hero-med-020-estadistica-vacunacion-epidemiologia.png)
+
+![Cadena desde población hasta desigualdad](assets/visuales/cadena-poblacion-desigualdad-med-020.svg)
+
+![Matriz de doce expedientes de conteo, comparación y límite](assets/visuales/matriz-estadistica-vacunacion-epidemiologia-med-020.svg)
+
+| Archivo | Tipo | Procedencia | Qué representa | Límite obligatorio |
+|---|---|---|---|---|
+| `hero-med-020-estadistica-vacunacion-epidemiologia.png` | portada editorial generativa | rasterizado con `sharp` de `hero-med-020-estadistica-vacunacion-epidemiologia.svg` mediante `node scripts/generate-med-020-visuals.mjs --png`, 2026-11-25 | retícula de puntos, dos marcos que cuentan y comparan, puntos tenues y sin relleno fuera del conteo | no representa datos, un país, una vacuna, una enfermedad ni un resultado |
+| `hero-med-020-estadistica-vacunacion-epidemiologia.svg` | fuente generativa determinista | SVG producido por `scripts/generate-med-020-visuals.mjs` con semilla fija | misma composición en vectores | puntos y marcos sin información |
+| `cadena-poblacion-desigualdad-med-020.svg` | diagrama epistemológico original | SVG producido por `scripts/generate-med-020-visuals.mjs`, 2026-11-25 | población, exposición, denominador, comparación, efecto, implementación y desigualdad | las flechas no heredan representatividad, homogeneidad, tasa, causa, seguridad de lote ni beneficio |
+| `matriz-estadistica-vacunacion-epidemiologia-med-020.svg` | matriz documental original | SVG producido por `scripts/generate-med-020-visuals.mjs`, 2026-11-25 | doce expedientes, archivos, productos y límites | las filas no forman modernidad, eficacia, prioridad ni ranking de países o instituciones |
+
+### Procedencia de la portada
+
+Generada por el proyecto sin modelos de imagen: `node scripts/generate-med-020-visuals.mjs --png` escribe el SVG con la semilla `2020` y lo rasteriza con `sharp` a `1672 × 941`. Tamaño: `304334` bytes; SHA-256: `81527eff815e38ecbadb847ca251d63918625a5c17f33b3fbd4a9416def54caf`.
+
+### Revisión y límites
+
+Las tres salidas se inspeccionaron completas tras rasterizar. La portada evita jeringas, viales, cuerpos, gráficas de curvas epidémicas o mapas para no sugerir un dato, un producto ni un país. Los SVG incluyen `title` y `desc` y no aceptan datos personales, calculan riesgos ni recomiendan.
+
+## 82. MED-021 — Una sala insensible no demuestra una cirugía más segura por sí sola
+
+![Portada editorial de MED-021](assets/visuales/hero-med-021-anestesia-analgesia-antisepsia.png)
+
+![Cadena desde el dolor y la infección hasta la adopción y sus nuevos daños](assets/visuales/cadena-dolor-infeccion-adopcion-med-021.svg)
+
+![Matriz de anestesia, analgesia y antisepsia](assets/visuales/matriz-anestesia-antisepsia-med-021.svg)
+
+| Archivo | Tipo | Procedencia | Qué representa | Límite obligatorio |
+|---|---|---|---|---|
+| `hero-med-021-anestesia-analgesia-antisepsia.png` | portada editorial generativa | rasterizado con `sharp` de `hero-med-021-anestesia-analgesia-antisepsia.svg` mediante `node scripts/generate-med-021-visuals.mjs --png`, 2026-11-25 | trazos cálidos dispersos, ondas concéntricas y retícula ordenada | no representa cuerpos, sustancias, instrumentos, datos ni un acontecimiento real |
+| `hero-med-021-anestesia-analgesia-antisepsia.svg` | fuente generativa determinista | SVG producido por `scripts/generate-med-021-visuals.mjs` con semilla fija `21021` | misma composición en vectores | trazos y puntos sin información |
+| `cadena-dolor-infeccion-adopcion-med-021.svg` | diagrama epistemológico original | SVG producido por `scripts/generate-med-021-visuals.mjs`, 2026-11-25 | problema, testimonio, demostración, serie, comparación, mecanismo y adopción | las flechas no heredan efecto, seguridad, causa aislada, desenlace ni beneficio |
+| `matriz-anestesia-antisepsia-med-021.svg` | matriz documental original | SVG producido por `scripts/generate-med-021-visuals.mjs`, 2026-11-25 | diez expedientes, archivos, productos y límites | las filas no forman prioridad, progreso ni ranking |
+
+### Procedencia de la portada
+
+Generada por el proyecto sin modelos de imagen: `node scripts/generate-med-021-visuals.mjs --png` escribe el SVG con semilla fija y lo rasteriza con `sharp` (ya instalado) a `1672 × 941`. Tamaño: `577998` bytes; SHA-256: `1fcb5c0956c74aa3e330b53ab9d35b6e846108eea7a1a5aff32bced5c6941b9f`. Dos ejecuciones consecutivas producen el mismo archivo byte a byte.
+
+### Revisión y límites
+
+Las tres salidas se inspeccionaron completas tras rasterizar; en la cadena se corrigió el tamaño de las puntas de flecha, que tapaban los títulos. La portada evita a propósito cuerpos, sangre, instrumental, mascarillas, frascos o plantas reconocibles: no estetiza el dolor ni sugiere sustancias. Los SVG se construyeron a `1600 × 900` (diagramas) y `1672 × 941` (portada), incluyen `title`, `desc` y tipografía de reserva. Ninguno acepta datos personales, calcula riesgos, recomienda o indica dosis.
+
+## 83. CIV-004 — Varios polos, ninguna periferia
+
+![Portada editorial de CIV-004](assets/visuales/hero-civ-004-nilo-africa-nororiental.png)
+
+![Carriles del Nilo y África nororiental](assets/visuales/carriles-nilo-africa-nororiental-civ-004.svg)
+
+![Cadena del objeto a la unificación](assets/visuales/cadena-objeto-unificacion-civ-004.svg)
+
+| Archivo | Tipo | Procedencia | Qué representa | Límite obligatorio |
+|---|---|---|---|---|
+| `hero-civ-004-nilo-africa-nororiental.png` | portada editorial generativa | rasterizado con `sharp` de `hero-civ-004-nilo-africa-nororiental.svg` mediante `node scripts/generate-civ-004-visuals.mjs --png`, 2026-11-25 | seis bandejas de archivo separadas y no coetáneas sobre bandas de sedimento, con una bandeja vacía | no sitio, mapa, río, monumento, escritura, persona ni secuencia |
+| `hero-civ-004-nilo-africa-nororiental.svg` | fuente generativa determinista | SVG producido por `scripts/generate-civ-004-visuals.mjs` con semilla fija | misma composición en vectores | formas sin información arqueológica |
+| `carriles-nilo-africa-nororiental-civ-004.svg` | diagrama regional original | SVG producido por `scripts/generate-civ-004-visuals.mjs`, 2026-11-25 | cinco carriles con archivos y límites | alineación no indica prioridad, difusión ni avance hacia Egipto |
+| `cadena-objeto-unificacion-civ-004.svg` | diagrama epistemológico original | SVG producido por `scripts/generate-civ-004-visuals.mjs`, 2026-11-25 | operaciones del objeto al proceso y saltos no heredados | las flechas no heredan pueblo, año, rey, conquista ni «unificación» |
+
+### Procedencia de la portada
+
+Generada por el proyecto sin modelos de imagen: `node scripts/generate-civ-004-visuals.mjs --png` escribe el SVG con la semilla `4004` y lo rasteriza con `sharp` a `1672 × 941`. Tamaño: `148035` bytes; SHA-256: `0fa47dd3dae38fb6ea07df9e19daae04c1c870787093173f8047710a3728a406`.
+
+### Revisión y límites
+
+Las tres salidas se inspeccionaron completas tras rasterizar. La portada evita a propósito pirámides, jeroglíficos, el río dibujado como mapa, la paleta de Narmer y cualquier figura humana: no ilustra «Egipto», sino archivos que no se funden. Las semillas, anillos, fragmentos, bandas de probabilidad y huesos son genéricos y no proceden de un sitio. La bandeja vacía señala archivo faltante, no ausencia histórica. Los SVG se diseñaron a `1600 × 900` con `title` y `desc`; el segundo usa línea continua para operaciones auditadas y discontinua para saltos que exigen otro archivo.

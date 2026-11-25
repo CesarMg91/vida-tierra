@@ -1,0 +1,84 @@
+{
+  "schemaVersion": 1,
+  "researchSlug": "14_civilizaciones/INVESTIGACION_CIV_004_VALLE_NILO_AFRICA_NORORIENTAL",
+  "archives": [
+    {
+      "id": "agua-ocupacion",
+      "label": "Agua y ocupación del Sahara",
+      "window": "~8500–5300 a. C.",
+      "sites": ["Sahara oriental", "Nabta Playa", "Takarkori"],
+      "archive": "Radiocarbono de 150 excavaciones, 3287 fechas de 1011 sitios, registros hidrológicos por latitud y dos genomas de ~7000 años.",
+      "inference": "La ocupación siguió a las fases húmedas y el abandono fue escalonado; en Takarkori el pastoralismo llegó por difusión cultural a un linaje norteafricano profundo.",
+      "limit": "Una curva de fechas no es un censo y el abandono no prueba un éxodo fundador hacia el Nilo; dos genomas no describen el Sahara.",
+      "adversary": "La convergencia cultural del quinto milenio discute que el estrés ambiental sea el motor del cambio.",
+      "claimIds": ["CLAIM-CIV-NILE-GREEN-SAHARA-001", "CLAIM-CIV-NILE-ABANDONMENT-001", "CLAIM-CIV-NILE-SAHARA-ANCESTRY-001"],
+      "evidenceIds": ["EVID-CIV-NILE-SAHARA-OCCUPATION-001", "EVID-CIV-NILE-AHP-END-001", "EVID-CIV-NILE-TAKARKORI-001"],
+      "sourceIds": ["SRC-KUPER-KROPELIN-SAHARA-2006", "SRC-MANNING-TIMPSON-SAHARA-2014", "SRC-SHANAHAN-AHP-2015", "SRC-SALEM-TAKARKORI-2025"]
+    },
+    {
+      "id": "animales-leche",
+      "label": "Animales y leche",
+      "window": "IX–V milenios a. C.",
+      "sites": ["Nabta–Bir Kiseiba", "Fayum", "Sahara central"],
+      "archive": "Restos de Bos tempranos, fauna del Fayum con domésticos desde ~5400 a. C. y lípidos lácteos en cerámica del quinto milenio a. C.",
+      "inference": "Pastoreo de caprinos y ganado y ordeña tuvieron relojes propios, anteriores a la dependencia del cereal.",
+      "limit": "El ganado doméstico local del IX–VIII milenio a. C. no está demostrado; una vasija no mide la dieta total.",
+      "adversary": "El reanálisis de 2018 lee esos Bos como uros cazados y fecha el ganado doméstico visible desde mediados del VI milenio a. C.",
+      "claimIds": ["CLAIM-CIV-NILE-CATTLE-DEBATE-001", "CLAIM-CIV-NILE-HERDING-BEFORE-FARMING-001"],
+      "evidenceIds": ["EVID-CIV-NILE-CATTLE-001", "EVID-CIV-NILE-FAYUM-001", "EVID-SAHARA-PASTORAL-DAIRY-001"],
+      "sourceIds": ["SRC-WENDORF-SCHILD-NABTA-2001", "SRC-BRASS-CATTLE-2018", "SRC-GIFFORD-GONZALEZ-HANOTTE-2011", "SRC-LINSEELE-FAYUM-2014", "SRC-DUNNE-SAHARA-DAIRY-2012"]
+    },
+    {
+      "id": "monumentos-cementerios",
+      "label": "Monumentos y cementerios de pastores",
+      "window": "V–III milenios a. C.",
+      "sites": ["Nabta Playa", "Gebel Ramlah", "Lothagam North"],
+      "archive": "Megalitos, túmulos y alineamientos en Nabta; cementerios pequeños con adorno corporal del Egipto Medio al Sudán; cementerio monumental en Turkana.",
+      "inference": "Grupos móviles hicieron del cementerio un lugar de agregación y construyeron monumentos sin jerarquía demostrada.",
+      "limit": "La orientación astronómica de Nabta es hipótesis; ningún monumento hereda calendario, sacerdocio, Estado u origen del faraonismo.",
+      "adversary": "Malville y colaboradores proponen alineamientos solsticiales y un vínculo con el cambio social del Alto Egipto.",
+      "claimIds": ["CLAIM-CIV-NILE-NABTA-MONUMENT-001", "CLAIM-CIV-NILE-PASTORAL-COMMUNITY-001", "CLAIM-CIV-NILE-AFRICA-NOT-PERIPHERY-001"],
+      "evidenceIds": ["EVID-CIV-NILE-NABTA-001", "EVID-CIV-NILE-PASTORAL-COMMUNITY-001", "EVID-CIV-NILE-LOTHAGAM-001"],
+      "sourceIds": ["SRC-WENDORF-SCHILD-NABTA-2001", "SRC-MALVILLE-NABTA-1998", "SRC-WENGROW-CONVERGENCE-2014", "SRC-HILDEBRAND-LOTHAGAM-2018"]
+    },
+    {
+      "id": "orden-tiempo",
+      "label": "Orden cerámico y radiocarbono",
+      "window": "Badariense–Primera Dinastía",
+      "sites": ["Badari", "Naqada", "Naga ed-Der", "Nekhen"],
+      "archive": "Seriación de Petrie y Stufen, fechas AMS de tumbas, secuencia estratificada de Nekhen y 186 fechas en un modelo bayesiano.",
+      "inference": "Los bloques Naqada son cronología verdadera; el Predinástico duró unos 600–700 años y Aha accedió entre 3218 y 3035 a. C. (95 %).",
+      "limit": "Las fases individuales son poco fiables y los intervalos dependen de priors y exclusiones; ninguno fecha una unificación.",
+      "adversary": "Savage señaló una tautología: seriaciones de tumbas comprobadas con fechas de basureros domésticos.",
+      "claimIds": ["CLAIM-CIV-NILE-BADARI-001", "CLAIM-CIV-NILE-SERIATION-BLOCKS-001", "CLAIM-CIV-NILE-NAQADA-TEMPO-001"],
+      "evidenceIds": ["EVID-CIV-NILE-BADARI-001", "EVID-CIV-NILE-SERIATION-001", "EVID-CIV-NILE-TEMPO-001"],
+      "sourceIds": ["SRC-DEE-2013", "SRC-DEE-NAQADA-2014", "SRC-SAVAGE-NAQADA-2001", "SRC-DIPIETRO-NEKHEN-2019", "SRC-PETRIE-SEQUENCE-UCL"]
+    },
+    {
+      "id": "polos-elite",
+      "label": "Polos de élite y redes",
+      "window": "Naqada I–III",
+      "sites": ["Hieracómpolis", "Abydos", "Tell el-Farkha", "Qustul"],
+      "archive": "Cementerio de élite HK6 con animales, cervecerías y recinto de banquete; distribución de material altoegipcio desde Naqada IIC; tumbas ricas del Grupo A.",
+      "inference": "Varios polos concentraron producción, ritual y élite; la desigualdad funeraria creció, se dispersó y se reconcentró.",
+      "limit": "Una tumba grande no es un rey; la expansión Naqada no fue una conquista total; la prioridad nubia de Qustul no está demostrada.",
+      "adversary": "Los excavadores leen HK6 como cementerio de los primeros reyes; Williams propuso gobernantes nubios anteriores a la Primera Dinastía.",
+      "claimIds": ["CLAIM-CIV-NILE-HIERAKONPOLIS-001", "CLAIM-CIV-NILE-FUNERARY-INEQUALITY-001", "CLAIM-CIV-NILE-NAQADA-EXPANSION-001", "CLAIM-CIV-NILE-LOWER-NUBIA-001"],
+      "evidenceIds": ["EVID-CIV-NILE-HIERAKONPOLIS-001", "EVID-CIV-NILE-INEQUALITY-001", "EVID-CIV-NILE-EXPANSION-001", "EVID-CIV-NILE-AGROUP-001"],
+      "sourceIds": ["SRC-STEVENSON-PREDYNASTIC-2016", "SRC-WILLIAMS-QUSTUL-1986", "SRC-GATTO-AGROUP-2021"]
+    },
+    {
+      "id": "imagenes-signos",
+      "label": "Imágenes, signos y realeza",
+      "window": "Naqada IIIA–Primera Dinastía",
+      "sites": ["Abydos U-j", "Nag el-Hamdulab", "paleta de Narmer", "Nuwayrat"],
+      "archive": "Etiquetas con signos en una tumba excepcional, grabados rupestres de Dinastía 0, paletas ceremoniales, tumbas reales con cientos de subsidiarios y un genoma del Reino Antiguo.",
+      "inference": "Las élites se apropiaron de símbolos comunes y la realeza se escenificó en cada reinado; hubo contacto humano con el Creciente Fértil oriental.",
+      "limit": "Una imagen no es crónica ni una etiqueta es burocracia territorial; ningún archivo registra un acto de unificación.",
+      "adversary": "La lectura de U-j como administración estatal y de la paleta como acta de conquista sigue circulando.",
+      "claimIds": ["CLAIM-CIV-NILE-UJ-WRITING-001", "CLAIM-CIV-NILE-ROYAL-IMAGERY-001", "CLAIM-CIV-NILE-NARMER-OBJECT-001", "CLAIM-CIV-NILE-FIRST-DYNASTY-001", "CLAIM-CIV-NILE-GENOME-CONTACT-001", "CLAIM-CIV-NILE-NO-UNIFICATION-INSTANT-001"],
+      "evidenceIds": ["EVID-CIV-NILE-UJ-001", "EVID-CIV-NILE-IMAGERY-001", "EVID-CIV-NILE-FIRST-DYNASTY-001", "EVID-CIV-NILE-NUWAYRAT-001"],
+      "sourceIds": ["SRC-STEVENSON-PREDYNASTIC-2016", "SRC-REGULSKI-WRITING-2016", "SRC-HENDRICKX-HAMDULAB-2012", "SRC-WENGROW-NARMER-2001", "SRC-MOREZ-NUWAYRAT-2025"]
+    }
+  ]
+}

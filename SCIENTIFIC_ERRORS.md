@@ -4537,3 +4537,122 @@ Riesgo basal, alternativas y preferencias cambian el balance. **Corrección:** s
 | `ERR-CON-PSY-REVEALS-001` | los psicodélicos revelan la verdadera realidad | un informe es evidencia de la experiencia, no de su contenido | separar experiencia, informe y mundo | ACTIVO |
 | `ERR-CON-PSY-NATURAL-SAFE-001` | si es natural o se usó en ceremonias, no tiene riesgos | hay angustia aguda, psicosis prolongada poco común, trastorno perceptivo persistente y eventos subregistrados; los ensayos excluyen a personas en riesgo | nombrar riesgos y contraindicaciones documentados | ACTIVO |
 | `ERR-CON-PSY-LEGAL-MX-001` | en México los hongos ya son legales | la Ley General de Salud prohíbe todo acto salvo investigación autorizada; la excepción penal es sólo para ceremonias de pueblos indígenas y afromexicanos | citar los artículos 245, 248 y 249 y el 195 bis | ACTIVO |
+
+## MED-020 — Estadística, vacunación y epidemiología
+
+| ID | Error | Por qué falla | Corrección operativa | Estado |
+|---|---|---|---|---|
+| `ERR-MED-COUNT-BILLS-POPULATION-001` | las listas de mortalidad contaban a la población de Londres | eran registros parroquiales con causas asignadas por searchers y sin censo | declarar archivo, productor del dato y denominador estimado | ACTIVO |
+| `ERR-MED-COUNT-INOCULATION-EUROPEAN-001` | la inoculación fue una invención europea | se documenta antes en China, Imperio otomano, norte de África y Bengala | fechar fuentes y rutas antes de atribuir origen | ACTIVO |
+| `ERR-MED-COUNT-JURIN-INDIVIDUAL-001` | la comparación de Jurin prueba el beneficio para cada persona | compara grupos distintos por clase, cuidado y clasificación | exigir grupos comparables y separar promedio de decisión individual | ACTIVO |
+| `ERR-MED-COUNT-MODEL-MEASURE-001` | Bernoulli midió los años ganados por la inoculación | calculó un modelo con supuestos | etiquetar modelo, supuestos y sensibilidad | ACTIVO |
+| `ERR-MED-COUNT-VACCINE-CONSTANT-001` | la vacuna de Jenner es el mismo material que erradicó la viruela | el material cambió y fue a veces equino o desconocido | identificar lote, origen y época | ACTIVO |
+| `ERR-MED-COUNT-SEMMELWEIS-MARTYR-001` | Semmelweis fue ignorado sin ninguna razón | faltaban mecanismo aceptado y publicación oportuna, y hubo polémica | separar evidencia, mecanismo, comunicación y recepción | ACTIVO |
+| `ERR-MED-COUNT-PUMP-HANDLE-001` | Snow probó el cólera hídrico con un solo gesto | su fuerza fue el contraste de exposición verificada, con límites | citar tabla, denominador, exposición y casos no clasificados | ACTIVO |
+| `ERR-MED-COUNT-DIAGRAM-EFFECT-001` | un diagrama demuestra qué intervención salvó vidas | persuade; no aísla la intervención | pedir series, comparadores y periodo | ACTIVO |
+| `ERR-MED-COUNT-RESISTANCE-IGNORANCE-001` | toda resistencia a la vacunación fue ignorancia | hubo clase, religión, libertad, coerción y desconfianza | reconstruir motivos y cargas por grupo | ACTIVO |
+| `ERR-MED-COUNT-HILL-CHECKLIST-001` | cumplir los criterios de Hill demuestra causalidad | Hill escribió que ninguno es indispensable ni suficiente | usar los aspectos como guía de juicio junto con medición del efecto | ACTIVO |
+| `ERR-MED-COUNT-UNVACCINATED-CONTROL-001` | el no vacunado es un control neutral | voluntarios y no voluntarios difieren (Salk 1954; vacunado sano) | aleatorizar o usar controles negativos y emulación | ACTIVO |
+| `ERR-MED-COUNT-AVERAGE-UNIVERSAL-001` | un promedio poblacional describe el beneficio de cada grupo | exclusiones y distribución quedan ocultas | declarar quién fue contado y estimar por grupo | ACTIVO |
+
+## MED-021 — Anestesia, analgesia y antisepsia
+
+| ID | Error | Por qué falla | Corrección | Estado |
+|---|---|---|---|---|
+| `ERR-MED-ANES-NO-RELIEF-BEFORE-001` | antes de 1846 nadie intentaba aliviar el dolor quirúrgico | hubo opio, solanáceas, alcohol y técnica de rapidez | distinguir intención documentada de eficacia demostrada | ACTIVO |
+| `ERR-MED-ANES-ETHER-DAY-ORIGIN-001` | la anestesia nació el 16 de octubre de 1846 | Hanaoka, Long y Wells la preceden en distintos sentidos | fechar uso, publicación, demostración y difusión por separado | ACTIVO |
+| `ERR-MED-ANES-ONE-DEMO-001` | una demostración pública prueba o refuta un agente | una función no estima tasa de éxito ni de daño | exigir series con denominador | ACTIVO |
+| `ERR-MED-ANES-DEATH-LIST-RATE-001` | una lista de muertes mide el riesgo de un anestésico | falta el número de administraciones | declarar numerador y denominador | ACTIVO |
+| `ERR-MED-ANES-ANIMAL-HUMAN-001` | un mecanismo reproducible en animales resuelve el mecanismo humano | Hyderabad chocaba con la observación clínica de Snow | contrastar modelo y casuística humana | ACTIVO |
+| `ERR-MED-ANES-LISTER-PROVED-001` | Lister demostró estadísticamente que la antisepsia salvaba vidas | serie pequeña con control histórico y confusión plausible | leer su comparación como compatible, no concluyente | ACTIVO |
+| `ERR-MED-ANES-CRITICS-DENIERS-001` | los críticos de Lister rechazaban la evidencia | pedían comparaciones prospectivas y tenían buenas series con limpieza | evaluar sus series y argumentos | ACTIVO |
+| `ERR-MED-ANES-SEMMELWEIS-LISTER-001` | Semmelweis fue un Lister incomprendido | pregunta, mecanismo y contexto distintos | historiar cada caso por separado | ACTIVO |
+| `ERR-MED-ANES-ASEPSIS-PERFECTED-001` | la asepsia es la antisepsia perfeccionada | abandonó el desinfectante químico y se apoyó en el laboratorio | describirla como realineamiento con la bacteriología | ACTIVO |
+| `ERR-MED-ANES-GLOVES-PATIENT-001` | los guantes se crearon para proteger al paciente | protegieron primero las manos de una enfermera | separar motivo de adopción y efecto posterior | ACTIVO |
+| `ERR-MED-ANES-EQUAL-RELIEF-001` | la anestesia se repartió por igual | creencias sobre sexo, clase y raza guiaron su uso | auditar quién recibió alivio | ACTIVO |
+| `ERR-MED-ANES-POSSIBLE-BENEFIT-001` | poder operar más equivale a beneficio | lo operable y lo beneficioso son cadenas distintas | comparar desenlaces y daños de cada operación nueva | ACTIVO |
+
+## CIV-004 — Errores científicos que la síntesis nilótica debe evitar
+
+### ERR-CIV-NILE-UNIFICATION-YEAR-001 — Fechar la unificación en un año
+
+Un intervalo bayesiano de acceso de un rey o una fase cerámica no fechan un acto político ni un territorio.
+
+**Corrección:** publicar fases e intervalos con su probabilidad y declarar que la «unificación» es un proceso no fechado.
+
+### ERR-CIV-NILE-NARMER-CHRONICLE-001 — Leer la paleta de Narmer como crónica
+
+Una imagen ceremonial de un gobernante vencedor no registra una batalla, una fecha ni una conquista.
+
+**Corrección:** describir forma, contexto, repertorio y función antes de cualquier lectura narrativa.
+
+### ERR-CIV-NILE-NABTA-OBSERVATORY-001 — Nabta como observatorio demostrado
+
+Alineamientos propuestos pasan a «calendario» y «astrónomos» sin control de posiciones originales ni de selección.
+
+**Corrección:** separar arquitectura, hipótesis astronómica y causalidad hacia el faraonismo.
+
+### ERR-CIV-NILE-SAHARA-EXODUS-001 — Éxodo sahariano fundador
+
+Un fin escalonado del periodo húmedo se convierte en una migración única que «creó» Egipto.
+
+**Corrección:** exigir exposición local, cronología de llegada y caso negativo antes de afirmar causa.
+
+### ERR-CIV-NILE-PERIPHERY-001 — Toda África como periferia de Egipto
+
+Nubia, el Sahara y África oriental se describen por su distancia o retraso respecto del Nilo egipcio.
+
+**Corrección:** evaluar cada trayectoria con sus propios archivos, escalas y tiempos.
+
+### ERR-CIV-NILE-INVERTED-CRADLE-001 — Sustituir una cuna por otra
+
+Rechazar el centro egipcio para proclamar a Qustul o al Sahara como origen único repite el error de la cuna.
+
+**Corrección:** pedir cronología directa y procedencia de los objetos antes de asignar prioridad.
+
+### ERR-CIV-NILE-SERIATION-CALENDAR-001 — Fase cerámica igual a calendario
+
+Las Stufen Naqada se usan como años o generaciones sin fechas directas.
+
+**Corrección:** usar bloques salvo cuando haya fechas de vida corta que validen la fase.
+
+### ERR-CIV-NILE-TOMB-KING-001 — Tumba grande igual a rey
+
+Tamaño, animales y ajuar exótico se convierten en realeza y sacrificio sin restos que lo prueben.
+
+**Corrección:** analizar número de individuos, trauma, simultaneidad y alcance regional.
+
+### ERR-CIV-NILE-LABEL-BUREAUCRACY-001 — Etiqueta igual a burocracia
+
+Los signos de U-j se leen como administración territorial y alfabetización.
+
+**Corrección:** publicar objeto, contexto y operación registrada; buscar equivalentes fuera de la tumba.
+
+### ERR-CIV-NILE-GENOME-EGYPTIANS-001 — Un genoma como retrato de «los egipcios»
+
+Uno o dos genomas se usan para definir la ascendencia de una población o una identidad.
+
+**Corrección:** declarar individuo, fecha, cobertura y fuentes de referencia; no inferir etnia ni población.
+
+### ERR-CIV-NILE-CULTURE-PEOPLE-001 — Badariense o Naqada como pueblo
+
+Conjuntos cerámicos y funerarios se tratan como sujetos que migran, conquistan o deciden.
+
+**Corrección:** declarar si la unidad es cerámica, funeraria, cronológica, genética o textual.
+
+
+### Índice tabular CIV-004
+
+| ID | Caso | Supuesto que falló | Mecanismo de corrección | Estado |
+|---|---|---|---|---|
+| `ERR-CIV-NILE-UNIFICATION-YEAR-001` | año de la unificación | intervalo de rey o fase = acto político | fases con probabilidad y proceso declarado | DOCUMENTADO |
+| `ERR-CIV-NILE-NARMER-CHRONICLE-001` | paleta como crónica | imagen = acontecimiento | forma, contexto y repertorio primero | DOCUMENTADO |
+| `ERR-CIV-NILE-NABTA-OBSERVATORY-001` | Nabta observatorio | alineamiento propuesto = calendario | posiciones originales y prueba de selección | DOCUMENTADO |
+| `ERR-CIV-NILE-SAHARA-EXODUS-001` | éxodo fundador | coincidencia climática = causa | exposición, cronología y caso negativo | DOCUMENTADO |
+| `ERR-CIV-NILE-PERIPHERY-001` | África como periferia | Egipto = medida de sus vecinos | trayectorias evaluadas por sus archivos | DOCUMENTADO |
+| `ERR-CIV-NILE-INVERTED-CRADLE-001` | cuna invertida | prioridad sin cronología directa | fechas y procedencia de objetos | DOCUMENTADO |
+| `ERR-CIV-NILE-SERIATION-CALENDAR-001` | fase = calendario | orden relativo = años | bloques salvo fechas directas | DOCUMENTADO |
+| `ERR-CIV-NILE-TOMB-KING-001` | tumba = rey | tamaño hereda realeza | bioarqueología y alcance regional | DOCUMENTADO |
+| `ERR-CIV-NILE-LABEL-BUREAUCRACY-001` | etiqueta = burocracia | signo hereda administración | operación registrada y equivalentes | DOCUMENTADO |
+| `ERR-CIV-NILE-GENOME-EGYPTIANS-001` | genoma = población | individuo = colectivo | cobertura, muestra y límites | DOCUMENTADO |
+| `ERR-CIV-NILE-CULTURE-PEOPLE-001` | fase = pueblo | conjunto material = sujeto | unidad declarada | DOCUMENTADO |
