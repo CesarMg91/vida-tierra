@@ -1147,3 +1147,25 @@ La portada no usa modelos de imagen: se regenera idéntica con `node scripts/gen
 | `cadena-objeto-unificacion-civ-004.svg` | `scripts/generate-civ-004-visuals.mjs` | `1600 × 900` | código fuente versionado | operaciones inferenciales; no herencia automática |
 
 La portada no usa modelos de imagen: se regenera idéntica con `node scripts/generate-civ-004-visuals.mjs --png`. Los SVG incluyen `title` y `desc`. El procedimiento y los límites completos están en [`ATLAS_VISUAL.md`](../../ATLAS_VISUAL.md#83-civ-004--varios-polos-ninguna-periferia).
+
+## MED-022 — Teoría microbiana y laboratorio
+
+| Archivo | Origen | Dimensiones | SHA-256 / trazabilidad | Límite |
+|---|---|---:|---|---|
+| `hero-med-022-teoria-microbiana-laboratorio.png` | rasterizado con `sharp` por `scripts/generate-med-022-visuals.mjs --png`, 2026-11-25 | `1672 × 941` | `b9abe6bb322d526da45b4c5b6303b483a7d53f62b9950962fe71eb899f4743eb` | composición abstracta; no organismos, micrografías, pacientes ni acontecimientos reales |
+| `hero-med-022-teoria-microbiana-laboratorio.svg` | `scripts/generate-med-022-visuals.mjs`, semilla fija | `1672 × 941` | código fuente versionado | puntos, anillos y líneas sin información |
+| `cadena-observacion-atribucion-med-022.svg` | `scripts/generate-med-022-visuals.mjs` | `1600 × 900` | código fuente versionado | siete capas inferenciales; no herencia automática |
+| `matriz-teoria-microbiana-laboratorio-med-022.svg` | `scripts/generate-med-022-visuals.mjs` | `1600 × 900` | código fuente versionado | diez expedientes y límites; no prioridad ni ranking |
+
+La portada no usa modelos de imagen: se regenera idéntica con `node scripts/generate-med-022-visuals.mjs --png`. Los SVG incluyen `title` y `desc`, preservan las siete capas y no convierten presencia, cultivo, modelo, asociación ni secuencia en causa, enfermedad o tratamiento. El prompt-equivalente y los límites están en `ATLAS_VISUAL.md`, sección 84.
+
+## CIV-005 — Nombres e identidades
+
+| Archivo | Origen | Dimensiones | SHA-256 / trazabilidad | Límite |
+|---|---|---:|---|---|
+| `hero-civ-005-nombres-identidades.png` | rasterizado con `sharp` desde el SVG generativo del proyecto, 2026-11-25 | `1672 × 941` | `373d7d0d5b2c221ae17e63881dd0a1f5826feb9ece07c5b92254d11c36c671cd` | composición abstracta; no pueblo, mapa, bandera ni persona |
+| `hero-civ-005-nombres-identidades.svg` | `scripts/generate-civ-005-visuals.mjs`, semilla `5005` | `1672 × 941` | código fuente versionado | formas sin información arqueológica |
+| `cadena-objeto-identidad-civ-005.svg` | `scripts/generate-civ-005-visuals.mjs` | `1600 × 900` | código fuente versionado | niveles inferenciales; no herencia automática |
+| `matriz-archivos-identidad-civ-005.svg` | `scripts/generate-civ-005-visuals.mjs` | `1600 × 900` | código fuente versionado | archivos distintos; no jerarquía |
+
+La portada no usa modelos de imagen: se regenera idéntica con `node scripts/generate-civ-005-visuals.mjs --png`. Los SVG incluyen `title` y `desc`. El procedimiento y los límites completos están en la sección «CIV-005 — Un componente no es un pueblo» de [`ATLAS_VISUAL.md`](../../ATLAS_VISUAL.md).

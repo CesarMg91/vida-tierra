@@ -42,7 +42,7 @@
           "limit": "El archivo palaciego no mide acceso doméstico ni cobertura regional.",
           "claimIds": ["CLAIM-MED-MESO-CORPUS-001"],
           "evidenceIds": ["EVID-MED-MESO-NINMED-001"],
-          "sourceIds": ["SRC-MED-ANE-PANAYOTOV-2016"]
+          "sourceIds": ["SRC-MED-ANE-SALIN-2016"]
         },
         {
           "kind": "practice",

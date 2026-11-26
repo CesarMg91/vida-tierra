@@ -1919,3 +1919,55 @@ Lothagam      → monumento sin jerarquía B-COND
 - `CLAIM-CIV-NILE-AFRICA-NOT-PERIPHERY-001` impide medir Nubia, el Sahara o África oriental por su distancia a Egipto.
 
 CIV-004 no cambia el estado de ningún claim de CIV-001. Véase `INV-CIV-NILE-001`, `MAPA_CIV_004_NILO_AFRICA_NORORIENTAL.md`, `CRONOLOGIA_CIV_004_NILO_AFRICA_NORORIENTAL.md`, `carriles-nilo-africa-nororiental-civ-004.svg` y `cadena-objeto-unificacion-civ-004.svg`.
+
+## MED-022 — Un microbio aislado no explica una enfermedad por sí solo
+
+- El contagio antiguo y Fracastoro separan fenómeno observado, explicación por semillas y lectura precursora posterior.
+- Henle y Pettenkofer separan conjetura, criterio enunciado, germen postulado, interacción con el ambiente y política sanitaria.
+- Pasteur separa supuesto teórico, experimento, cuaderno de laboratorio, publicación y reputación.
+- El carbunco separa ciclo de vida, modelo animal, casos naturales y criterio de causalidad no enunciado.
+- La tuberculosis separa tinción, medio sólido, inoculación, casos naturales y fracaso terapéutico.
+- El cólera separa prioridad, aislamiento en cultivo, portadores sanos, objeción contemporánea y relato heroico.
+- Los postulados separan texto variable, fuente en Klebs, exigencia de necesidad, numeración posterior y uso emblemático.
+- Virus y priones separan filtrabilidad, multiplicación, concepto y el eslabón de cultivo que deja de aplicarse.
+- Gen y secuencia separan asociación, inactivación, restitución, identificación sin cultivo y detección sin causa.
+- Cohortes y microbioma separan asociación poblacional, ensayo con denominador, modelo preclínico, comunidad y consenso.
+- `CLAIM-MED-GERM-CHAIN-001` impide heredar automáticamente una propiedad entre observación, aislamiento, cultivo, reproducción experimental, epidemiología, mecanismo y atribución.
+- `CLAIM-MED-GERM-NECESSARY-NOT-SUFFICIENT-001` impide convertir un agente necesario en causa suficiente de la enfermedad de una persona.
+
+Véase 15_medicina/INVESTIGACION_MED_022_TEORIA_MICROBIANA_LABORATORIO.md, 22_mapas_epistemologicos/MAPA_MED_022_TEORIA_MICROBIANA_LABORATORIO.md, 21_cronologias/CRONOLOGIA_MED_022_TEORIA_MICROBIANA_LABORATORIO.md, assets/visuales/cadena-observacion-atribucion-med-022.svg y assets/visuales/matriz-teoria-microbiana-laboratorio-med-022.svg.
+
+## CIV-005 — Un componente no es un pueblo
+
+```text
+objeto
+   ↓ procedencia + fecha (CIV-002)
+conjunto
+   ↓ criterio de clasificación declarado
+estilo / cultura arqueológica
+   ↓ cadena operativa y contexto
+práctica
+   ↓ escala de interacción demostrada
+grupo
+   ↓ fuente lingüística, textual u oral
+nombre (casi siempre exónimo)
+   ↓ autoadscripción y contraste
+identidad
+```
+
+Cuatro archivos se conservan separados: cultura material, genoma, lengua y texto. Cada uno tiene su unidad y su reloj; su coincidencia es un resultado de cada caso, no un supuesto. La cadena no permite `tipo → pueblo → lengua → territorio` ni `componente → etnia`.
+
+```text
+campaniforme  → un estilo, dos mecanismos (difusión / migración) B-COND
+estepa        → sustitución de ascendencia B; hogar indoeuropeo C
+Lapita        → ascendencia reemplazada, lengua conservada B-COND
+bantú         → lengua, cerámica y genes convergen con mezcla local B-COND
+olmeca        → estilo circulante B; «cultura madre» C; endónimo D
+componente    → parámetro de modelo A; etnia o lengua NO
+```
+
+- `CLAIM-CIV-IDENTITY-ANCESTRY-COMPONENT-001` impide leer un componente genómico como pueblo, lengua o etnia.
+- `CLAIM-CIV-IDENTITY-COUPLING-CASEWISE-001` impide suponer —en cualquier dirección— que genes y lenguas viajan juntos.
+- `CLAIM-CIV-IDENTITY-PROTOCOL-001` obliga a los expedientes regionales a declarar clase, autor, archivo y puente de cada nombre colectivo.
+
+CIV-005 no cambia el estado de ningún claim de CIV-001, CIV-003 ni CIV-004. Véase `INV-CIV-IDENTITIES-001`, `MAPA_CIV_005_NOMBRES_IDENTIDADES.md`, `CRONOLOGIA_CIV_005_NOMBRES_IDENTIDADES.md`, `cadena-objeto-identidad-civ-005.svg` y `matriz-archivos-identidad-civ-005.svg`.

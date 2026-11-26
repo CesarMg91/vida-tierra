@@ -4656,3 +4656,98 @@ Conjuntos cerámicos y funerarios se tratan como sujetos que migran, conquistan 
 | `ERR-CIV-NILE-LABEL-BUREAUCRACY-001` | etiqueta = burocracia | signo hereda administración | operación registrada y equivalentes | DOCUMENTADO |
 | `ERR-CIV-NILE-GENOME-EGYPTIANS-001` | genoma = población | individuo = colectivo | cobertura, muestra y límites | DOCUMENTADO |
 | `ERR-CIV-NILE-CULTURE-PEOPLE-001` | fase = pueblo | conjunto material = sujeto | unidad declarada | DOCUMENTADO |
+
+## MED-022 — Teoría microbiana y laboratorio
+
+| ID | Error | Por qué falla | Corrección | Estado |
+|---|---|---|---|---|
+| `ERR-MED-GERM-SINGLE-PROOF-001` | la teoría microbiana se demostró con un experimento o en una fecha | varias cadenas convergieron durante décadas, con resistencias documentadas | fechar observación, aislamiento, cultivo, inoculación, epidemiología y mecanismo por separado | ACTIVO |
+| `ERR-MED-GERM-MIASMA-IGNORANCE-001` | los miasmatistas eran anticientíficos | Pettenkofer hacía higiene experimental y su modelo explicaba patrones que el contagio solo no explicaba | describir qué explicaba cada modelo y dónde falló | ACTIVO |
+| `ERR-MED-GERM-POSTULATES-CANON-001` | Koch escribió tres o cuatro postulados numerados | sus formulaciones varían y las listas son reformulaciones posteriores con autoría disputada | citar el texto, la fecha y el autor de cada versión | ACTIVO |
+| `ERR-MED-GERM-POSTULATES-PROOF-001` | cumplir los postulados demuestra la causa | prueban, como mucho, necesidad y reproducción en un modelo | declarar huésped, vía y fracción de casos explicada | ACTIVO |
+| `ERR-MED-GERM-NOCULTURE-NOCAUSE-001` | si no se cultiva, no causa | virus, priones y bacilos no cultivables exigieron otros criterios | aceptar criterios alternativos con su propia cadena | ACTIVO |
+| `ERR-MED-GERM-CARRIER-001` | quien porta el agente está enfermo | los portadores asintomáticos existen y fueron gestionados como amenaza | separar infección, enfermedad y transmisión | ACTIVO |
+| `ERR-MED-GERM-PETTENKOFER-REFUTE-001` | Pettenkofer refutó la teoría microbiana al beber el cultivo | un caso sin denominador, con inmunidad previa plausible y con discípulos que sí enfermaron | leer el autoexperimento como testimonio, no como prueba | ACTIVO |
+| `ERR-MED-GERM-SEQUENCE-CAUSE-001` | detectar una secuencia identifica la causa | la metagenómica detecta presencia, incluidos residentes y contaminantes | exigir la cadena completa también para la secuencia | ACTIVO |
+| `ERR-MED-GERM-RODENT-CAUSE-001` | un roedor con microbiota humana demuestra una causa humana | la tasa de transferencia publicada es inverosímilmente alta | evaluar el modelo preclínico y sus controles antes de inferir | ACTIVO |
+| `ERR-MED-GERM-ONE-AGENT-001` | una enfermedad, un microbio | comunidades, huésped y ambiente participan en enfermedades llamadas infecciosas | admitir causas componentes y modelos ecológicos | ACTIVO |
+| `ERR-MED-GERM-ATTRIBUTION-CURE-001` | atribuir el agente resuelve la enfermedad | la tuberculina y los ensayos con antibióticos en coronariopatía muestran lo contrario | separar atribución, prevención y tratamiento | ACTIVO |
+| `ERR-MED-GERM-SUCCESS-STORY-001` | la historia de la bacteriología es una sucesión de aciertos | incluye fracasos terapéuticos, atribuciones erróneas y abandonos prematuros | auditar también lo que no funcionó y por qué | ACTIVO |
+
+## CIV-005 — Errores científicos que la cadena de nombres debe evitar
+
+### ERR-CIV-IDENTITY-POTS-PEOPLE-001 — Vasijas iguales a pueblo
+
+La distribución de un tipo cerámico se trata como territorio de un pueblo con nombre.
+
+**Corrección:** declarar la unidad como clasificación material y buscar archivos independientes antes de hablar de grupo.
+
+### ERR-CIV-IDENTITY-COMPONENT-ETHNIC-001 — Componente genómico igual a etnia
+
+Una fracción de ascendencia se presenta como pertenencia étnica o identidad de los individuos.
+
+**Corrección:** describir el componente como parámetro de un modelo con fuentes, referencias y proxies declarados.
+
+### ERR-CIV-IDENTITY-COMPONENT-LANGUAGE-001 — Componente genómico igual a lengua
+
+Ascendencia esteparia se lee como «hablantes de indoeuropeo» sin archivo lingüístico.
+
+**Corrección:** separar la inferencia genética del puente lingüístico y declarar este último como hipótesis.
+
+### ERR-CIV-IDENTITY-BARPLOT-HISTORY-001 — Gráfico de barras como historia
+
+Un gráfico de ADMIXTURE se lee como prueba de mezcla entre poblaciones reales.
+
+**Corrección:** acompañarlo de pruebas de ajuste, estadísticos formales y alternativas de deriva o aislamiento.
+
+### ERR-CIV-IDENTITY-CULTURE-CLUSTER-NAME-001 — Nombre cultural para un conglomerado
+
+«Ascendencia campaniforme» o «población Yamnaya» convierte un parámetro en un pueblo.
+
+**Corrección:** usar nombres geográfico-temporales o explicitar que el nombre es el del sitio de los proxies.
+
+### ERR-CIV-IDENTITY-REPLACEMENT-CONTINUITY-001 — Reemplazo genético igual a reemplazo cultural
+
+Una sustitución de ascendencia se supone acompañada de sustitución de lengua y costumbres.
+
+**Corrección:** probar la lengua con su propio archivo; Vanuatu muestra lo contrario.
+
+### ERR-CIV-IDENTITY-EXONYM-ENDONYM-001 — Exónimo tomado por autodenominación
+
+Un nombre dado por griegos, romanos, mexicas o cronistas se usa como si fuera el del propio grupo.
+
+**Corrección:** registrar autor, lengua, fecha y propósito del nombre y declararlo exónimo.
+
+### ERR-CIV-IDENTITY-MOTHER-CULTURE-001 — Estilo exportado igual a cultura madre
+
+La procedencia de cerámicas con motivos se usa como prueba de dominio político o prioridad civilizatoria.
+
+**Corrección:** exigir evidencia institucional y contrastar métodos de procedencia.
+
+### ERR-CIV-IDENTITY-PREHISTORY-CLAIMS-001 — Prehistoria como título de propiedad
+
+Continuidades materiales o genéticas se usan para reclamar territorios o pureza de origen.
+
+**Corrección:** separar archivo científico de reclamación política y documentar los usos públicos de los resultados.
+
+### ERR-CIV-IDENTITY-SAMPLING-NO-CONSULT-001 — Muestreo sin consulta
+
+Restos humanos se muestrean y nombran sin participación de comunidades descendientes ni plan de datos.
+
+**Corrección:** aplicar normas locales, consulta temprana, daño mínimo y plan de devolución y acceso.
+
+
+### Índice tabular CIV-005
+
+| ID | Caso | Supuesto que falló | Mecanismo de corrección | Estado |
+|---|---|---|---|---|
+| `ERR-CIV-IDENTITY-POTS-PEOPLE-001` | vasijas = pueblo | distribución material = frontera social | clasificación declarada y archivos independientes | DOCUMENTADO |
+| `ERR-CIV-IDENTITY-COMPONENT-ETHNIC-001` | componente = etnia | ascendencia = pertenencia | parámetro de modelo declarado | DOCUMENTADO |
+| `ERR-CIV-IDENTITY-COMPONENT-LANGUAGE-001` | componente = lengua | genes y lenguas viajan juntos siempre | puente lingüístico separado | DOCUMENTADO |
+| `ERR-CIV-IDENTITY-BARPLOT-HISTORY-001` | gráfico de barras = historia | buen gráfico = buen modelo | pruebas de ajuste y alternativas | DOCUMENTADO |
+| `ERR-CIV-IDENTITY-CULTURE-CLUSTER-NAME-001` | nombre cultural de conglomerado | etiqueta neutral | nomenclatura geográfico-temporal | DOCUMENTADO |
+| `ERR-CIV-IDENTITY-REPLACEMENT-CONTINUITY-001` | reemplazo genético = cultural | acoplamiento automático | archivo lingüístico propio | DOCUMENTADO |
+| `ERR-CIV-IDENTITY-EXONYM-ENDONYM-001` | exónimo = endónimo | nombre escrito = nombre propio | autor, lengua y propósito del nombre | DOCUMENTADO |
+| `ERR-CIV-IDENTITY-MOTHER-CULTURE-001` | estilo exportado = cultura madre | procedencia = dominio | evidencia institucional y métodos contrastados | DOCUMENTADO |
+| `ERR-CIV-IDENTITY-PREHISTORY-CLAIMS-001` | prehistoria como título | continuidad = derecho | separar archivo y reclamación | DOCUMENTADO |
+| `ERR-CIV-IDENTITY-SAMPLING-NO-CONSULT-001` | muestreo sin consulta | restos sin interesados | consulta, daño mínimo y plan de datos | DOCUMENTADO |

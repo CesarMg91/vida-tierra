@@ -1598,3 +1598,49 @@ Generada por el proyecto sin modelos de imagen: `node scripts/generate-civ-004-v
 ### Revisión y límites
 
 Las tres salidas se inspeccionaron completas tras rasterizar. La portada evita a propósito pirámides, jeroglíficos, el río dibujado como mapa, la paleta de Narmer y cualquier figura humana: no ilustra «Egipto», sino archivos que no se funden. Las semillas, anillos, fragmentos, bandas de probabilidad y huesos son genéricos y no proceden de un sitio. La bandeja vacía señala archivo faltante, no ausencia histórica. Los SVG se diseñaron a `1600 × 900` con `title` y `desc`; el segundo usa línea continua para operaciones auditadas y discontinua para saltos que exigen otro archivo.
+
+## 84. MED-022 — Un microbio aislado no explica una enfermedad por sí solo
+
+![Portada editorial de MED-022](assets/visuales/hero-med-022-teoria-microbiana-laboratorio.png)
+
+![Cadena desde la observación hasta la atribución de un agente](assets/visuales/cadena-observacion-atribucion-med-022.svg)
+
+![Matriz de teoría microbiana y laboratorio](assets/visuales/matriz-teoria-microbiana-laboratorio-med-022.svg)
+
+| Archivo | Tipo | Procedencia | Qué representa | Límite obligatorio |
+|---|---|---|---|---|
+| `hero-med-022-teoria-microbiana-laboratorio.png` | portada editorial generativa | rasterizado con `sharp` de `hero-med-022-teoria-microbiana-laboratorio.svg` mediante `node scripts/generate-med-022-visuals.mjs --png`, 2026-11-25 | puntos dispersos sin orden, anillos concéntricos vacíos y una red de nodos enlazados | no representa organismos, micrografías, pacientes, datos ni un acontecimiento real |
+| `hero-med-022-teoria-microbiana-laboratorio.svg` | fuente generativa determinista | SVG producido por `scripts/generate-med-022-visuals.mjs` con semilla fija `22022` | misma composición en vectores | puntos, anillos y líneas sin información |
+| `cadena-observacion-atribucion-med-022.svg` | diagrama epistemológico original | SVG producido por `scripts/generate-med-022-visuals.mjs`, 2026-11-25 | observación, aislamiento, cultivo, reproducción experimental, epidemiología, mecanismo y atribución | las flechas no heredan causa, patogenicidad, enfermedad, mecanismo ni tratamiento |
+| `matriz-teoria-microbiana-laboratorio-med-022.svg` | matriz documental original | SVG producido por `scripts/generate-med-022-visuals.mjs`, 2026-11-25 | diez expedientes, archivos, productos y límites | las filas no forman progreso, prioridad ni ranking entre escuelas o países |
+
+### Procedencia de la portada
+
+Generada por el proyecto sin modelos de imagen: `node scripts/generate-med-022-visuals.mjs --png` escribe el SVG con semilla fija y lo rasteriza con `sharp` (ya instalado) a `1672 × 941`. Tamaño: `265894` bytes; SHA-256: `b9abe6bb322d526da45b4c5b6303b483a7d53f62b9950962fe71eb899f4743eb`. Dos ejecuciones consecutivas producen el mismo archivo byte a byte.
+
+### Revisión y límites
+
+Las tres salidas se inspeccionaron completas tras rasterizar; en la cadena se acortaron dos etiquetas que desbordaban su tarjeta, y en la portada se acercaron los anillos al campo disperso para eliminar una banda vacía. La composición evita a propósito micrografías, bacterias reconocibles, cuerpos, instrumental y pantallas de secuenciación: no estetiza la infección ni sugiere diagnósticos. Los SVG se construyeron a `1600 × 900` (diagramas) y `1672 × 941` (portada), incluyen `title`, `desc` y tipografía de reserva. Ninguno acepta datos personales, calcula riesgos, recomienda ni indica dosis.
+
+## 85. CIV-005 — Un componente no es un pueblo
+
+![Portada editorial de CIV-005](assets/visuales/hero-civ-005-nombres-identidades.png)
+
+![Cadena del objeto a la identidad](assets/visuales/cadena-objeto-identidad-civ-005.svg)
+
+![Matriz de archivos de identidad](assets/visuales/matriz-archivos-identidad-civ-005.svg)
+
+| Archivo | Tipo | Procedencia | Qué representa | Límite obligatorio |
+|---|---|---|---|---|
+| `hero-civ-005-nombres-identidades.png` | portada editorial generativa | rasterizado con `sharp` de `hero-civ-005-nombres-identidades.svg` mediante `node scripts/generate-civ-005-visuals.mjs --png`, 2026-11-25 | siete bandejas en escalera, de un fragmento a una bandeja vacía, unidas por un hilo que se vuelve discontinuo | no pueblo, mapa, bandera, rostro, escritura ni persona |
+| `hero-civ-005-nombres-identidades.svg` | fuente generativa determinista | SVG producido por `scripts/generate-civ-005-visuals.mjs` con semilla fija | misma composición en vectores | formas sin información arqueológica |
+| `cadena-objeto-identidad-civ-005.svg` | diagrama epistemológico original | SVG producido por `scripts/generate-civ-005-visuals.mjs`, 2026-11-25 | siete niveles con puentes y lo que cada paso no hereda | las flechas no heredan pueblo, lengua, etnia ni endónimo |
+| `matriz-archivos-identidad-civ-005.svg` | matriz epistemológica original | SVG producido por `scripts/generate-civ-005-visuals.mjs`, 2026-11-25 | cultura material, genoma, lengua y texto con su unidad, su método, lo que no demuestran y un caso que rompe la equivalencia | las filas no son una jerarquía de archivos |
+
+### Procedencia de la portada
+
+Generada por el proyecto sin modelos de imagen: `node scripts/generate-civ-005-visuals.mjs --png` escribe el SVG con la semilla `5005` y lo rasteriza con `sharp` a `1672 × 941`. Tamaño: `188471` bytes; SHA-256: `373d7d0d5b2c221ae17e63881dd0a1f5826feb9ece07c5b92254d11c36c671cd`.
+
+### Revisión y límites
+
+Las tres salidas se inspeccionaron completas tras rasterizar. La portada evita a propósito mapas, banderas, cráneos, hélices de ADN, rostros, vasijas reconocibles de una cultura y cualquier texto: no ilustra un pueblo, sino niveles de inferencia que se vacían. Los fragmentos, motivos, arcos, puntos y la etiqueta en blanco son genéricos y no proceden de un sitio. La bandeja vacía señala que la identidad casi nunca se observa en prehistoria, no que no existiera. Los SVG se diseñaron a `1600 × 900` con `title` y `desc`; la cadena usa línea continua para puentes auditables y arcos discontinuos para lo que no se hereda.

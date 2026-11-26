@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Del objeto a la identidad: siete niveles y sus saltos</title>
+  <desc id="desc">Siete cajas conectadas por líneas continuas desde el objeto hasta la identidad; las dos últimas tienen borde discontinuo porque casi nunca se observan en prehistoria. Debajo, arcos discontinuos marcan lo que cada paso no hereda del anterior: uso, pueblo, autor, etnia, lengua y endónimo. Un componente genómico se señala aparte como prueba de contacto, no como caja de la cadena.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#0b1011"/><stop offset="1" stop-color="#171512"/></linearGradient>
+    <style>.k{font:19px Consolas,monospace;letter-spacing:2px;fill:#c39456}.h{font:25px Georgia,serif;fill:#efe3d1}.t{font:19px Arial,sans-serif;fill:#c9c2b8}.l{font:17px Arial,sans-serif;fill:#d6a27b}.small{font:14px Consolas,monospace;fill:#91ad92}.cell{font:15px Arial,sans-serif;fill:#cfc7bb}.head{font:14px Consolas,monospace;letter-spacing:1px;fill:#c39456}.rule{stroke:#8b6a43;stroke-width:2}.dash{stroke:#a96545;stroke-width:2;stroke-dasharray:8 8;fill:none}</style>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <text x="70" y="96" class="k">CIV-005 · CADENA INFERENCIAL</text>
+  <text x="70" y="150" font-family="Georgia,serif" font-size="42" fill="#f2e7d6">Un componente no es un pueblo</text>
+  <text x="70" y="190" class="t">Línea continua: puente que se puede auditar. Arco discontinuo: lo que el paso siguiente no hereda sin otro archivo.</text>
+  <g transform="translate(70 300)"><rect width="186" height="150" fill="#141a19" stroke="#779176"/><text x="16" y="46" class="h">Objeto</text><text x="16" y="86" class="small">procedencia,</text><text x="16" y="108" class="small">contexto, fecha</text></g>
+  <g transform="translate(282 300)"><rect width="186" height="150" fill="#141a19" stroke="#779176"/><text x="16" y="46" class="h">Conjunto</text><text x="16" y="86" class="small">asociación</text><text x="16" y="108" class="small">recurrente</text></g>
+  <g transform="translate(494 300)"><rect width="186" height="150" fill="#141a19" stroke="#779176"/><text x="16" y="46" class="h">Estilo</text><text x="16" y="86" class="small">regularidad</text><text x="16" y="108" class="small">formal compartida</text></g>
+  <g transform="translate(706 300)"><rect width="186" height="150" fill="#141a19" stroke="#779176"/><text x="16" y="46" class="h">Práctica</text><text x="16" y="86" class="small">forma de hacer</text><text x="16" y="108" class="small">transmitida</text></g>
+  <g transform="translate(918 300)"><rect width="186" height="150" fill="#141a19" stroke="#779176"/><text x="16" y="46" class="h">Grupo</text><text x="16" y="86" class="small">interacción en</text><text x="16" y="108" class="small">escala demostrada</text></g>
+  <g transform="translate(1130 300)"><rect width="186" height="150" fill="#141a19" stroke="#779176" stroke-dasharray="6 6"/><text x="16" y="46" class="h">Nombre</text><text x="16" y="86" class="small">fuente con autor,</text><text x="16" y="108" class="small">lengua y fecha</text></g>
+  <g transform="translate(1342 300)"><rect width="186" height="150" fill="#141a19" stroke="#779176" stroke-dasharray="6 6"/><text x="16" y="46" class="h">Identidad</text><text x="16" y="86" class="small">autoadscripción</text><text x="16" y="108" class="small">y contraste</text></g>
+  <path class="rule" d="M259 375H277"/><path d="M277 369L281 375L277 381" fill="none" stroke="#8b6a43" stroke-width="2"/>
+  <path class="rule" d="M471 375H489"/><path d="M489 369L493 375L489 381" fill="none" stroke="#8b6a43" stroke-width="2"/>
+  <path class="rule" d="M683 375H701"/><path d="M701 369L705 375L701 381" fill="none" stroke="#8b6a43" stroke-width="2"/>
+  <path class="rule" d="M895 375H913"/><path d="M913 369L917 375L913 381" fill="none" stroke="#8b6a43" stroke-width="2"/>
+  <path class="rule" d="M1107 375H1125"/><path d="M1125 369L1129 375L1125 381" fill="none" stroke="#8b6a43" stroke-width="2"/>
+  <path class="rule" d="M1319 375H1337"/><path d="M1337 369L1341 375L1337 381" fill="none" stroke="#8b6a43" stroke-width="2"/>
+  <path class="dash" d="M163 455C203 555 335 555 375 455"/><text x="215" y="594" class="l">≠ uso</text>
+  <path class="dash" d="M375 455C415 555 547 555 587 455"/><text x="427" y="594" class="l">≠ pueblo</text>
+  <path class="dash" d="M587 455C627 555 759 555 799 455"/><text x="639" y="594" class="l">≠ autor</text>
+  <path class="dash" d="M799 455C839 555 971 555 1011 455"/><text x="851" y="594" class="l">≠ etnia</text>
+  <path class="dash" d="M1011 455C1051 555 1183 555 1223 455"/><text x="1063" y="594" class="l">≠ lengua</text>
+  <path class="dash" d="M1223 455C1263 555 1395 555 1435 455"/><text x="1275" y="594" class="l">≠ endónimo</text>
+  <text x="70" y="740" class="t">Una cadena puede detenerse en cualquier caja. Detenerse en «estilo» o en «componente» es el límite correcto del archivo.</text>
+  <text x="70" y="776" class="t">Un componente genómico entra de lado: prueba contacto y mezcla de personas, no ocupa ninguna de estas cajas.</text>
+  <text x="70" y="812" class="t">Fechado de cada objeto y muestra: CIV-002.</text>
+</svg>

@@ -477,7 +477,7 @@ Las fechas pertenecen a objetos, muestras, fases o publicaciones. No son estacio
 
 ## Próxima acción de la línea CIV
 
-CIV-003 inaugura los expedientes regionales auditados y CIV-004 los continúa con el Nilo y África nororiental (sección «CIV-004» al final de este archivo). CIV-001 conserva `TRAZADO`; la secuencia global `001–052` permanece completa. El siguiente expediente es el sexto del programa, usando los mismos controles de nombres, relojes y escalas.
+CIV-003 inaugura los expedientes regionales auditados y CIV-004 los continúa con el Nilo y África nororiental (sección «CIV-004» al final de este archivo). CIV-005 fija la cadena de nombres e identidades que esos expedientes aplican (sección «CIV-005» al final de este archivo). CIV-001 conserva `TRAZADO`; la secuencia global `001–052` permanece completa. El siguiente expediente es el sexto del programa, usando los mismos controles de nombres, relojes y escalas.
 
 ## XIII. MED-001 — Historia de herramientas para estimar efectos
 
@@ -560,7 +560,7 @@ CIV-003 inaugura los expedientes regionales auditados y CIV-004 los continúa co
 | `TIME-MED-EGY-UCL-2002-001` | 2002 | UCL publica manuscritos y cautelas en línea | traducciones revisables | `SRC-MED-EGY-UCL-HEALING-2002` | A documental | AUDITADO |
 | `TIME-MED-ANE-GELLER-2010-001` | 2010 | síntesis integra cartas, recetas y comentarios | interpretación dependiente del corpus | `SRC-MED-ANE-GELLER-2010` | B histórico | AUDITADO |
 | `TIME-MED-EGY-DEIR-2015-001` | 2015–2016 | ausencias y osteoartritis se analizan conjuntamente | sitio excepcional | `SRC-MED-EGY-AUSTIN-SICK-2015`, `SRC-MED-EGY-AUSTIN-OA-2016` | B-LOCAL | AUDITADO |
-| `TIME-MED-ANE-PANAYOTOV-2016-001` | 2016 | transmisión terapéutica estudiada por versiones | recepción no equivale a uso clínico | `SRC-MED-ANE-PANAYOTOV-2016` | B histórico | AUDITADO |
+| `TIME-MED-ANE-SALIN-2016-001` | 2016 | transmisión terapéutica estudiada por versiones | recepción no equivale a uso clínico | `SRC-MED-ANE-SALIN-2016` | B histórico | AUDITADO |
 | `TIME-MED-MESO-NINMED-DIGITAL-001` | 2022 | NinMed publica corpus y técnicas enlazables | lagunas persisten | `SRC-MED-ANE-NINMED-CORPUS-2022` | A/B documental | AUDITADO |
 | `TIME-MED-MESO-SAKIKKU-2025-001` | 2025 | nuevos testigos y joins revisan Sakikkû 1–6 | canon abierto | `SRC-MED-ANE-HEESSEL-2025` | B documental | AUDITADO |
 | `TIME-MED-EGY-SDOH-2026-001` | 2026 | determinantes sociales aplicados a Deir el-Medina | requiere comunidad contextualizada | `SRC-MED-EGY-AUSTIN-SDOH-2026` | B método/local | AUDITADO |
@@ -1114,3 +1114,67 @@ Las fechas pertenecen a muestras, fases, modelos o publicaciones. No son estacio
 | `TIME-CIV-NILE-AHA-001` | `3218–3035 a. C.` (`95 %`; mediana `3085`) | acceso modelado de Aha | `3152–3032 a. C.` con reinados ≤ `100` años; no fecha unificación | `SRC-DEE-2013` | B-COND | AUDITADO |
 | `TIME-CIV-NILE-NUWAYRAT-001` | `2855–2570 cal a. C.` | genoma de Nuwayrat con `~20 %` de ascendencia del Creciente Fértil oriental | un individuo `2×` | `SRC-MOREZ-NUWAYRAT-2025` | B-LOCAL-COND | AUDITADO |
 | `TIME-CIV-NILE-LOTHAGAM-001` | `~5000–4300` años atrás | cementerio monumental de pastores en Lothagam North | población estimada; un sitio | `SRC-HILDEBRAND-LOTHAGAM-2018` | B-COND | AUDITADO |
+
+## MED-022 — Teoría microbiana y laboratorio
+
+| ID | Fecha/rango | Evento | Producto | Fuentes | Confianza | Estado |
+|---|---|---|---|---|---|---|
+| `TIME-MED-GERM-SEEDS-ANTIQUITY-001` | Antigüedad | contagio y «semillas» de enfermedad en la medicina griega y romana | vocabulario de transmisión sin organismos | `SRC-MED-GERM-NUTTON-1983` | A/B textual | AUDITADO |
+| `TIME-MED-GERM-FRACASTORO-1546-001` | 1546 | *De contagione* de Fracastoro | contacto, fómites y distancia por *seminaria* | `SRC-MED-GERM-NUTTON-1983` | A/B textual | AUDITADO |
+| `TIME-MED-GERM-HENLE-1840-001` | 1840 | conjetura de Henle sobre parásitos microscópicos | criterio de aislamiento enunciado | `SRC-MED-GERM-CARTER-1985` | A/B documental | AUDITADO |
+| `TIME-MED-GERM-PACINI-1854-001` | 1854 | Pacini describe el vibrión del cólera | organismo visto, papel causal no establecido | `SRC-MED-GERM-LIPPI-2014` | A/B histórico | AUDITADO |
+| `TIME-MED-GERM-POUCHET-1859-001` | 1859–1864 | controversia Pasteur–Pouchet | refutación de la generación espontánea y disputa historiográfica | `SRC-MED-GERM-ROLLHANSEN-2018` | A/B historiográfico | AUDITADO |
+| `TIME-MED-GERM-KLEBS-1872-001` | 1872–1878 | Klebs pide aislar sustancias del cuerpo e inducir infección | criterio de suficiencia | `SRC-MED-GERM-CARTER-1985` | A/B documental | AUDITADO |
+| `TIME-MED-GERM-ANTHRAX-1876-001` | 1876 | Koch publica el ciclo de *Bacillus anthracis* | enfermedad inducida en animales | `SRC-MED-GERM-CARTER-1985`, `SRC-MED-GERM-SRAVANTHI-2024` | A/B histórico | AUDITADO |
+| `TIME-MED-GERM-HYGIENE-1879-001` | 1879 | Pettenkofer funda el primer instituto de higiene | higiene como disciplina experimental | `SRC-MED-GERM-LOCHER-2007` | A/B histórico | AUDITADO |
+| `TIME-MED-GERM-POUILLY-1881-001` | jun. 1881 | ensayo público de la vacuna del carbunco en Pouilly-le-Fort | 25 vacunadas vivas, 25 sin vacunar muertas | `SRC-MED-GERM-GEISON-1995`, `SRC-MED-GERM-STURDY-1996` | A/B documental | AUDITADO |
+| `TIME-MED-GERM-AGAR-1881-001` | 1881 | el agar sugerido por Fanny y Walther Hesse sustituye a la gelatina | colonias puras en medio sólido | `SRC-MED-GERM-SRAVANTHI-2024` | A/B histórico | AUDITADO |
+| `TIME-MED-GERM-TB-1882-001` | 24 mar. 1882 | Koch presenta el bacilo de la tuberculosis | agente de una enfermedad crónica mayor | `SRC-MED-GERM-SRAVANTHI-2024`, `SRC-MED-GERM-CARTER-1985` | A/B documental | AUDITADO |
+| `TIME-MED-GERM-CHOLERA-1883-001` | ago. 1883–ene. 1884 | comisión alemana en Alejandría y Calcuta | vibrión en cultivo puro y en agua | `SRC-MED-GERM-GRADMANN-2003`, `SRC-MED-GERM-SRAVANTHI-2024` | A/B histórico | AUDITADO |
+| `TIME-MED-GERM-POSTULATES-1883-001` | 1883–1905 | los criterios se numeran y reformulan | listas canónicas de autoría discrepante | `SRC-MED-GERM-SRAVANTHI-2024`, `SRC-MED-GERM-LIU-2005` | B documental | AUDITADO |
+| `TIME-MED-GERM-MEISTER-1885-001` | 1885 | primer tratamiento antirrábico de Joseph Meister | vacuna aplicada sin ensayo animal del método usado | `SRC-MED-GERM-GEISON-1995`, `SRC-MED-GERM-STURDY-1996` | A/B documental | AUDITADO |
+| `TIME-MED-GERM-KLEIN-1885-001` | 1885 | Klein objeta las conclusiones de Koch sobre el cólera | crítica contemporánea documentada | `SRC-MED-GERM-ATALIC-2010` | A/B histórico | AUDITADO |
+| `TIME-MED-GERM-PETRI-1887-001` | 1887 | se difunde la caja de cultivo atribuida a Petri | invención simultánea de varios bacteriólogos | `SRC-MED-GERM-SHAMA-2019` | A/B histórico | AUDITADO |
+| `TIME-MED-GERM-TUBERCULIN-1890-001` | 1890 | Koch anuncia la tuberculina como remedio | fracaso terapéutico y daño a su reputación | `SRC-MED-GERM-GRADMANN-2009`, `SRC-MED-GERM-SRAVANTHI-2024` | A/B histórico | AUDITADO |
+| `TIME-MED-GERM-IVANOVSKY-1892-001` | 1892 | Ivanovsky halla la filtrabilidad del agente del mosaico del tabaco | agente fuera del alcance bacteriológico | `SRC-MED-GERM-BOS-1999` | A/B histórico | AUDITADO |
+| `TIME-MED-GERM-HAMBURG-1892-001` | 1892 | epidemia de cólera en Hamburgo, con Altona filtrada | comparación natural entre ciudades contiguas | `SRC-MED-GERM-TULCHINSKY-2014`, `SRC-MED-GERM-MORABIA-2007` | A/B histórico | AUDITADO |
+| `TIME-MED-GERM-PETTENKOFER-1892-001` | 7 oct. 1892 | Pettenkofer ingiere un cultivo de vibrión | testimonio de no suficiencia, sin denominador | `SRC-MED-GERM-EVANS-1973` | A/B documental | AUDITADO |
+| `TIME-MED-GERM-BEIJERINCK-1898-001` | 1898 | Beijerinck propone el *contagium vivum fluidum*; Loeffler y Frosch filtran la fiebre aftosa | concepto de virus y primer virus animal | `SRC-MED-GERM-BOS-1999` | A/B histórico | AUDITADO |
+| `TIME-MED-GERM-MALLON-1907-001` | 1907–1938 | Mary Mallon, portadora asintomática, es aislada años contra su voluntad | el portador sano como problema epistémico y político | `SRC-MED-GERM-ADRIANI-2019` | A/B histórico | AUDITADO |
+| `TIME-MED-GERM-TMV-1935-001` | 1935 | se aísla la partícula del virus del mosaico del tabaco | virus como entidad fisicoquímica | `SRC-MED-GERM-BOS-1999` | A/B histórico | AUDITADO |
+| `TIME-MED-GERM-ULCER-ABANDON-001` | años 1940–1954 | la hipótesis bacteriana de la úlcera queda abandonada | abandono previo al estudio al que se atribuye | `SRC-MED-GERM-RADOMSKI-2021` | B reanálisis | AUDITADO |
+| `TIME-MED-GERM-EVANS-1976-001` | 1976 | Evans revisa los postulados de Henle-Koch | guías con espectro de respuestas del huésped | `SRC-MED-GERM-EVANS-1976` | A publicación | AUDITADO |
+| `TIME-MED-GERM-PRION-1982-001` | 1982 | Prusiner propone el término «prion» | agente infeccioso sin ácido nucleico detectado | `SRC-MED-GERM-PRUSINER-1982` | A publicación | AUDITADO |
+| `TIME-MED-GERM-HPYLORI-1983-001` | 1983–1985 | Warren y Marshall describen, cultivan e ingieren el organismo gástrico | serie con denominador y autoexperimento | `SRC-MED-GERM-WARREN-1983`, `SRC-MED-GERM-MARSHALL-1984`, `SRC-MED-GERM-MARSHALL-1985` | A publicación | AUDITADO |
+| `TIME-MED-GERM-FALKOW-1988-001` | 1988 | Falkow formula los postulados moleculares | criterio desplazado del microbio al gen | `SRC-MED-GERM-FALKOW-1988`, `SRC-MED-GERM-FALKOW-2004` | A publicación | AUDITADO |
+| `TIME-MED-GERM-WHIPPLE-1992-001` | 1992 | identificación por 16S del bacilo no cultivado de Whipple | atribución sin cultivo, con 5 casos y 10 controles | `SRC-MED-GERM-RELMAN-1992` | A publicación | AUDITADO |
+| `TIME-MED-GERM-NIH-1994-001` | 1994 | consenso de los NIH sobre *H. pylori* y úlcera péptica | fijación institucional de la atribución | `SRC-MED-GERM-NIH-1994` | A publicación | AUDITADO |
+| `TIME-MED-GERM-FREDRICKS-1996-001` | 1996 | guías de causalidad basadas en secuencia | criterios moleculares y concordancia de evidencias | `SRC-MED-GERM-FREDRICKS-1996` | A publicación | AUDITADO |
+| `TIME-MED-GERM-ACES-2005-001` | 2005 | ensayo ACES con azitromicina | 446 frente a 449 eventos en 4012 pacientes | `SRC-MED-GERM-GRAYSTON-2005` | A publicación | AUDITADO |
+| `TIME-MED-GERM-HMP-2012-001` | 2012 | el Proyecto del Microbioma Humano describe la variación entre personas sanas | comunidad como objeto, no agente único | `SRC-MED-GERM-HMP-2012` | A publicación | AUDITADO |
+| `TIME-MED-GERM-MNGS-2019-001` | 2019–2024 | metagenómica clínica en meningitis y encefalitis | 13 de 58 infecciones halladas sólo así; 63.1 % de sensibilidad en 4828 muestras | `SRC-MED-GERM-WILSON-2019`, `SRC-MED-GERM-BENOIT-2024` | A publicación | AUDITADO |
+| `TIME-MED-GERM-EBV-2022-001` | 2022 | cohorte militar sobre virus de Epstein-Barr y esclerosis múltiple | riesgo 32 veces mayor tras la seroconversión | `SRC-MED-GERM-BJORNEVIK-2022` | A publicación | AUDITADO |
+| `TIME-MED-GERM-CONSENSUS-2025-001` | 2025 | consenso Delphi sobre causalidad y modelos preclínicos en microbioma | el método se discute dentro del campo | `SRC-MED-GERM-METWALY-2025` | A publicación | AUDITADO |
+
+## CIV-005 — Nombres e identidades por archivos
+
+Las fechas pertenecen a estilos, muestras, filogenias o publicaciones. Ninguna fecha es el nacimiento de un pueblo con nombre.
+
+| ID | Fecha/intervalo | Evento delimitado | Incertidumbre | Fuente | Confianza | Estado |
+|---|---:|---|---|---|---|---|
+| `TIME-CIV-IDENTITY-KOSSINNA-1911-001` | `1911` | Kossinna publica el método de arqueología de asentamiento | texto citado vía historiografía | `SRC-KOSSINNA-HERKUNFT-1911`, `SRC-ARNOLD-NAZI-ARCHAEOLOGY-1990` | A historiográfico | AUDITADO |
+| `TIME-CIV-IDENTITY-CHILDE-1929-001` | `1929` | Childe define la cultura arqueológica y supone «pueblo» | prefacio consultado | `SRC-CHILDE-DANUBE-1929` | A textual | AUDITADO |
+| `TIME-CIV-IDENTITY-BINFORD-1962-001` | `1962` | crítica procesual de «influencias» y «migraciones» | programa teórico | `SRC-BINFORD-ANTHROPOLOGY-1962` | A historiográfico | AUDITADO |
+| `TIME-CIV-IDENTITY-ADMIXTURE-2009-001` | `2009`; `2012` | ADMIXTURE y ADMIXTOOLS formalizan estimación de ascendencia y mezcla | dependen de `K`, fuentes y referencias | `SRC-ALEXANDER-ADMIXTURE-2009`, `SRC-PATTERSON-ADMIXTOOLS-2012` | A método | AUDITADO |
+| `TIME-CIV-IDENTITY-CLV-001` | `4400–4000 a. C.` | última unidad protoindoanatolia propuesta en la clina Cáucaso–bajo Volga | puente población–lengua no observado | `SRC-LAZARIDIS-IE-2025` | C lengua | AUDITADO |
+| `TIME-CIV-IDENTITY-YAMNAYA-001` | `~3300–3000 a. C.` | aparición y extensión máxima del complejo Yamnaya | complejo arqueológico, no pueblo | `SRC-LAZARIDIS-IE-2025` | B | AUDITADO |
+| `TIME-CIV-IDENTITY-CORDED-001` | `~4500` años atrás | cordada de Alemania con `~75 %` de ascendencia afín a Yamnaya | proxies y referencias | `SRC-HAAK-STEPPE-2015` | B | AUDITADO |
+| `TIME-CIV-IDENTITY-BEAKER-001` | `~2750–2500 a. C.`; final `2200–1800 a. C.` | difusión y final del campaniforme; dos mecanismos según la región | muestreo regional | `SRC-OLALDE-BEAKER-2018` | B-COND | AUDITADO |
+| `TIME-CIV-IDENTITY-AUSTRONESIAN-001` | `~5230` años atrás | origen de las lenguas austronesias en Taiwán según filogenia | calibración del árbol | `SRC-GRAY-AUSTRONESIAN-2009` | B-COND | AUDITADO |
+| `TIME-CIV-IDENTITY-LAPITA-001` | `~3100–2300 BP` | individuos Lapita con ascendencia casi enteramente asiática oriental | cuatro individuos en 2016 | `SRC-SKOGLUND-PACIFIC-2016` | B-COND | AUDITADO |
+| `TIME-CIV-IDENTITY-VANUATU-001` | desde `~2300 BP` | llegada de ascendencia papú y reemplazo casi completo con lenguas austronesias | mecanismo lingüístico abierto | `SRC-LIPSON-VANUATU-2018`, `SRC-POSTH-VANUATU-2018` | B-COND | AUDITADO |
+| `TIME-CIV-IDENTITY-PALAU-001` | `2900–500 BP` | Palau con `~60/40` de ascendencia asiática oriental/papú desde el inicio | una isla | `SRC-LIU-PALAU-2026` | B-LOCAL | AUDITADO |
+| `TIME-CIV-IDENTITY-BANTU-001` | `~5000–1500` años atrás | dispersión de lenguas bantúes desde los Grassfields | motores en debate | `SRC-BOSTOEN-BANTU-2018`, `SRC-GROLLEMUND-BANTU-2015` | B-COND | AUDITADO |
+| `TIME-CIV-IDENTITY-CONGO-COLLAPSE-001` | `400–600 d. C.` | colapso poblacional en la selva del Congo entre dos expansiones | estilos fechados indirectamente | `SRC-SEIDENSTICKER-CONGO-2021` | B-COND | AUDITADO |
+| `TIME-CIV-IDENTITY-OLMEC-001` | `~3500` años atrás | surgimiento de la cultura arqueológica llamada olmeca | autodenominación desconocida | `SRC-POOL-OLMEC-2007` | B | AUDITADO |
+| `TIME-CIV-IDENTITY-ETHICS-001` | `2019–2021` | pautas éticas para ADN antiguo: comentario, cinco recomendaciones y cinco pautas globales | cumplimiento no medido | `SRC-FOX-HAWKS-2019`, `SRC-WAGNER-ADNA-2020`, `SRC-ALPASLAN-ETHICS-2021` | A normativo | AUDITADO |

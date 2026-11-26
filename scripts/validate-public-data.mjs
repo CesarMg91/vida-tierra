@@ -173,6 +173,28 @@ for (const item of nileData.archives) {
   for (const id of item.sourceIds ?? []) check(sourceIds.has(id), `${item.id} enlaza una fuente inexistente: ${id}`);
 }
 
+const identitiesData = JSON.parse(fs.readFileSync(path.join(ROOT, "content", "civilization-identities.json"), "utf8"));
+const identityKinds = ["object", "assemblage", "style", "practice", "group", "name", "identity"];
+const identityStatuses = new Set(["sostenido", "condicionado", "no-demostrado", "dato-ausente"]);
+check(identitiesData.schemaVersion === 1, "el módulo de identidades usa una versión de esquema desconocida");
+check(researchSlugs.has(identitiesData.researchSlug), `el módulo de identidades apunta a un expediente inexistente: ${identitiesData.researchSlug}`);
+check(Array.isArray(identitiesData.cases) && identitiesData.cases.length > 0, "el módulo de identidades no contiene casos");
+check(duplicates(identitiesData.cases.map((record) => record.id)).length === 0, "el módulo de identidades contiene casos duplicados");
+for (const identityCase of identitiesData.cases) {
+  check(Boolean(identityCase.title) && Boolean(identityCase.region) && Boolean(identityCase.adversary), `${identityCase.id} no declara título, región o adversario`);
+  check(
+    JSON.stringify(identityCase.steps?.map((step) => step.kind)) === JSON.stringify(identityKinds),
+    `${identityCase.id} no conserva los siete pasos canónicos en orden`,
+  );
+  for (const step of identityCase.steps ?? []) {
+    check(identityStatuses.has(step.status), `${identityCase.id}/${step.kind} usa un estado desconocido: ${step.status}`);
+    check(Boolean(step.observed) && Boolean(step.inference) && Boolean(step.limit), `${identityCase.id}/${step.kind} tiene un estado vacío`);
+    for (const id of step.claimIds ?? []) check(claimIds.has(id), `${identityCase.id}/${step.kind} enlaza un claim inexistente: ${id}`);
+    for (const id of step.evidenceIds ?? []) check(evidenceIds.has(id), `${identityCase.id}/${step.kind} enlaza una evidencia inexistente: ${id}`);
+    for (const id of step.sourceIds ?? []) check(sourceIds.has(id), `${identityCase.id}/${step.kind} enlaza una fuente inexistente: ${id}`);
+  }
+}
+
 const medicineData = JSON.parse(fs.readFileSync(path.join(ROOT, "content", "medicine-evidence.json"), "utf8"));
 const clinicalKinds = ["question", "comparison", "outcomes", "estimate", "applicability", "decision"];
 check(medicineData.schemaVersion === 1, "el módulo médico usa una versión de esquema desconocida");

@@ -3649,3 +3649,82 @@ La tradición textual tardía y las imágenes presentan un unificador; el archiv
 | `CONT-CIV-NILE-QUSTUL-001` | prioridad nubia | estilo internacional de élite compartido | gobernantes nubios anteriores a la Primera Dinastía | abierta | C |
 | `CONT-CIV-NILE-SACRIFICE-001` | causa de muerte de subsidiarios | sacrificio en parte de los conjuntos | muertes no simultáneas o enterramiento diferido | abierta por conjunto | B archivo; C causa |
 | `CONT-CIV-NILE-UNIFICATION-001` | «unificación» | proceso de siglos con varios polos | acto puntual de un unificador | proceso documentado; detalles abiertos | A-SEM; B proceso |
+
+## MED-022 — Teoría microbiana y laboratorio
+
+| ID | Pregunta | Hipótesis principal | Alternativa | Evidencia discriminante | Estado |
+|---|---|---|---|---|---|
+| `CONT-MED-GERM-POSTULATES-AUTHOR-001` | ¿quién formuló los postulados de Koch? | Koch, en una lista numerada | Klebs como fuente de los criterios; Loeffler y Smith como numeradores posteriores | lectura de los textos originales y fecha de cada formulación | FUENTE ÚNICA RECHAZADA |
+| `CONT-MED-GERM-MIASMA-001` | ¿fue el miasmatismo un error irracional? | sí, superstición desplazada por el laboratorio | modelo de interacción germen-ambiente con poder explicativo propio | qué observaciones explicaba cada modelo y cuáles no | IRRACIONALIDAD RECHAZADA |
+| `CONT-MED-GERM-POUCHET-001` | ¿por qué ganó Pasteur la disputa de la generación espontánea? | por la conducción de experimentos concretos | también por apoyo político e ideológico de la Academia | actas académicas y replicación de los experimentos | ABIERTA |
+| `CONT-MED-GERM-NOTEBOOKS-001` | ¿qué muestran los cuadernos de Pasteur? | retórica habitual al preparar resultados para el público | dos episodios de descripción engañosa de la práctica | comparación entre cuaderno, publicación y norma de la época | AMBAS SOSTENIDAS POR EL MISMO ARCHIVO |
+| `CONT-MED-GERM-PETTENKOFER-001` | ¿probó algo el autoexperimento de 1892? | que el vibrión no basta para producir cólera | que un caso sin denominador y con inmunidad previa no estima nada | discípulos enfermos, dosis, estado inmunitario y número de expuestos | REFUTACIÓN POR UN CASO RECHAZADA |
+| `CONT-MED-GERM-CPNEUMONIAE-001` | ¿es *Chlamydia pneumoniae* causa de aterosclerosis? | sí: serología, organismo en el tejido y modelos animales | no demostrada: el ensayo aleatorizado no halló diferencia | ACES, con 4012 pacientes y desenlaces duros | PAPEL MODIFICABLE REFUTADO |
+| `CONT-MED-GERM-HPYLORI-ABANDON-001` | ¿hundió el estudio de Palmer la hipótesis bacteriana de la úlcera? | sí, fue el punto de inflexión | ya estaba abandonada antes de su publicación | análisis textual de la literatura de la década previa | RELATO ESTÁNDAR CUESTIONADO |
+| `CONT-MED-GERM-EBV-001` | ¿causa el virus de Epstein-Barr la esclerosis múltiple? | causa necesaria, con riesgo 32 veces mayor tras la infección | factor entre varios en un virus que porta casi toda la población adulta | incidencia de la enfermedad frente a prevalencia del virus | NECESIDAD PROBABLE; SUFICIENCIA NO |
+| `CONT-MED-GERM-MICROBIOME-001` | ¿hay causalidad demostrada entre microbioma y enfermedad? | sí, mostrada en modelos con roedores | la tasa de transferencia del 95 % es inverosímil y exagera el papel del microbioma | elección del modelo preclínico y sus controles | ABIERTA; AUTOCRÍTICA DEL CAMPO |
+| `CONT-MED-GERM-REVOLUTION-001` | ¿hubo una revolución bacteriológica en la década de 1880? | sí: agentes, postulados, laboratorio e inmunología | cambio desigual y más largo, leído hacia atrás por los historiadores | sífilis, lepra, gonorrea y rabia en Gran Bretaña | NO PROBADA |
+
+## CIV-005 — Controversias de nombres e identidades
+
+### CONT-CIV-IDENTITY-MIGRATION-SCALE-001 — Migraciones masivas o movilidad acumulada
+
+Haak, Allentoft y colaboradores leen las sustituciones de ascendencia del III milenio a. C. como migraciones a gran escala; Furholt propone sumas de movilidad a pequeña escala, circulación y fisión-fusión de comunidades que producen la misma señal agregada.
+
+**Prueba discriminatoria:** series densas de genomas fechados por sitio y generación, con parentesco e isótopos de movilidad, que distingan pulsos de llegada de goteo sostenido.
+
+### CONT-CIV-IDENTITY-IE-HOMELAND-001 — Hogar y fecha del indoeuropeo
+
+Filogenias léxicas apoyan Anatolia (2012), la estepa (2015) o un modelo híbrido con raíz `~8120` años (2023); el ADN de 2025 sitúa la última unidad protoindoanatolia en la clina Cáucaso–bajo Volga.
+
+**Prueba discriminatoria:** filogenias con codificación de cognados compartida y calibraciones independientes del ADN, contrastadas con genomas de hablantes documentados de lenguas anatolias e indoiranias tempranas.
+
+### CONT-CIV-IDENTITY-BEAKER-PEOPLE-001 — Fenómeno de prácticas o desplazamiento de gente
+
+El campaniforme se difundió sin migración entre Iberia y Europa central y con migración hacia Gran Bretaña. Persisten lecturas que tratan «los campaniformes» como población.
+
+**Prueba discriminatoria:** muestreo de individuos campaniformes y no campaniformes contemporáneos en las mismas regiones y cementerios.
+
+### CONT-CIV-IDENTITY-LAPITA-LANGUAGE-001 — Por qué persistieron las lenguas austronesias
+
+En Vanuatu la ascendencia papú reemplazó casi por completo a la Lapita y las lenguas siguieron siendo austronesias. Las explicaciones incluyen migraciones repetidas con mezcla sesgada por sexo, prestigio lingüístico o adopción por los recién llegados.
+
+**Prueba discriminatoria:** genomas de `~2500–2000 BP` de más islas, ADN uniparental por sexo y reconstrucción lingüística de préstamos papúes en lenguas de Vanuatu.
+
+### CONT-CIV-IDENTITY-BANTU-PROCESS-001 — Expansión única o «oleada sobre oleada»
+
+La filogenia apoya rutas por corredores de sabana; la cerámica fechada de la selva del Congo muestra dos expansiones separadas por un colapso `400–600 d. C.`; la genética apoya fundadores en serie con mezcla local.
+
+**Prueba discriminatoria:** ADN antiguo de la selva del Congo antes y después del colapso, fechado y asociado a estilos.
+
+### CONT-CIV-IDENTITY-OLMEC-MOTHER-001 — «Cultura madre» o «culturas hermanas»
+
+El análisis elemental apoya exportación desde San Lorenzo; la petrografía apoya intercambio recíproco y orígenes múltiples.
+
+**Prueba discriminatoria:** las mismas vasijas analizadas por química y petrografía en laboratorios independientes, con muestreo regional equilibrado y evidencia institucional fuera de la cerámica.
+
+### CONT-CIV-IDENTITY-CLUSTER-NAMING-001 — Cómo nombrar conglomerados genéticos
+
+La práctica dominante usa nombres culturales; Eisenmann y colaboradores proponen sistemas numéricos, mixtos o geográfico-temporales.
+
+**Prueba discriminatoria:** no es empírica en sentido estricto; se evalúa por errores de lectura documentados y por la reutilización pública de cada sistema.
+
+### CONT-CIV-IDENTITY-ADNA-CONSENT-001 — Consulta y consentimiento para restos sin afiliación documentada
+
+Las recomendaciones de 2020 nacen en Norteamérica y priorizan la consulta formal; las pautas de 2021 advierten que no siempre se generalizan y proponen cinco pautas globales.
+
+**Prueba discriminatoria:** auditoría de estudios publicados antes y después de las pautas: consultas documentadas, daño minimizado, datos disponibles y efectos reportados por las comunidades.
+
+
+### Índice tabular CIV-005
+
+| ID | Tema | Explicación dominante o práctica | Alternativa fuerte | Estado | Confianza en la síntesis |
+|---|---|---|---|---|---|
+| `CONT-CIV-IDENTITY-MIGRATION-SCALE-001` | escala de las migraciones del III milenio a. C. | sustitución amplia por migración a gran escala | movilidad acumulada a pequeña escala | abierta en mecanismo | B datos; C escala |
+| `CONT-CIV-IDENTITY-IE-HOMELAND-001` | hogar del indoeuropeo | estepa / clina CLV | Anatolia o modelo híbrido | abierta | C |
+| `CONT-CIV-IDENTITY-BEAKER-PEOPLE-001` | campaniforme | prácticas con dos mecanismos | población campaniforme | resuelta en Iberia–Europa central; abierta por región | B-COND |
+| `CONT-CIV-IDENTITY-LAPITA-LANGUAGE-001` | continuidad lingüística en Vanuatu | migraciones repetidas con mezcla sesgada | prestigio o adopción lingüística | abierta | B-COND |
+| `CONT-CIV-IDENTITY-BANTU-PROCESS-001` | proceso de expansión bantú | fundadores en serie con mezcla | oleada sobre oleada con colapso | abierta en detalle | B-COND |
+| `CONT-CIV-IDENTITY-OLMEC-MOTHER-001` | «cultura madre» olmeca | culturas hermanas con intercambio recíproco | prioridad y exportación desde San Lorenzo | abierta | C |
+| `CONT-CIV-IDENTITY-CLUSTER-NAMING-001` | nombres de conglomerados | nombres culturales | sistemas numéricos o geográfico-temporales | abierta | B |
+| `CONT-CIV-IDENTITY-ADNA-CONSENT-001` | consulta y consentimiento | consulta formal con comunidades | pautas globales adaptadas a cada contexto | abierta | A normativo; B |

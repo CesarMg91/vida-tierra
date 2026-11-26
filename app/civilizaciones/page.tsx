@@ -5,10 +5,12 @@ import { ArrowDown, ArrowRight, BookOpen, FlaskConical, Scale } from "lucide-rea
 import CivilizationTimeline from "../../components/CivilizationTimeline";
 import CivilizationsAtlas from "../../components/CivilizationsAtlas";
 import CivilizationDatingLab from "../../components/CivilizationDatingLab";
+import CivilizationIdentitiesLab from "../../components/CivilizationIdentitiesLab";
 import CivilizationSouthwestAsia from "../../components/CivilizationSouthwestAsiaStyled";
 import CivilizationNile from "../../components/CivilizationNile";
 import { chronologyLanes, civilizationCases } from "../../lib/civilizations";
 import { civilizationDating } from "../../lib/civilization-dating";
+import { civilizationIdentities } from "../../lib/civilization-identities";
 import { southwestAsia } from "../../lib/civilization-swasia";
 import { nileValley } from "../../lib/civilization-nile";
 import { getCivilizationMapData } from "../../lib/civilization-map";
@@ -145,6 +147,17 @@ export default function CivilizationsPage() {
           <p>Recorre seis capas auditadas. Cada una separa lo observado, la inferencia permitida, el límite y las fuentes canónicas.</p>
         </div>
         <CivilizationDatingLab data={civilizationDating} />
+      </section>
+
+      <section className="civilization-dating-section" aria-labelledby="identities-title">
+        <div className="section-heading">
+          <div>
+            <p className="eyebrow">Laboratorio de nombres</p>
+            <h2 id="identities-title">Un componente no es un pueblo</h2>
+          </div>
+          <p>Recorre siete pasos, del objeto a la identidad, en cinco casos auditados. Cada paso dice qué se observa, qué se puede inferir, dónde se detiene el archivo y con qué fuentes.</p>
+        </div>
+        <CivilizationIdentitiesLab data={civilizationIdentities} />
       </section>
 
       <section className="civilization-dating-section" aria-labelledby="swasia-title">

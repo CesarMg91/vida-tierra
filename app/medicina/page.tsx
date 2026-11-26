@@ -14,6 +14,7 @@ import DocumentaryMedicineLab from "../../components/DocumentaryMedicineLab";
 import EastAsianMedicineLab from "../../components/EastAsianMedicineLab";
 import EpidemiologyCountingEvidenceLab from "../../components/EpidemiologyCountingEvidenceLab";
 import EpidemicsQuarantineEvidenceLab from "../../components/EpidemicsQuarantineEvidenceLab";
+import GermTheoryEvidenceLab from "../../components/GermTheoryEvidenceLab";
 import GreekHellenisticMedicineLab from "../../components/GreekHellenisticMedicineLab";
 import HistoricalMedicineLab from "../../components/HistoricalMedicineLab";
 import HospitalBedsideEvidenceLab from "../../components/HospitalBedsideEvidenceLab";
@@ -34,6 +35,7 @@ import { documentaryMedicineEvidence } from "../../lib/documentary-medicine-evid
 import { eastAsianMedicineEvidence } from "../../lib/east-asian-medicine-evidence";
 import { epidemiologyCountingEvidence } from "../../lib/epidemiology-counting-evidence";
 import { epidemicsQuarantineEvidence } from "../../lib/epidemics-quarantine-evidence";
+import { germTheoryEvidence } from "../../lib/germ-theory-evidence";
 import { greekHellenisticMedicineEvidence } from "../../lib/greek-hellenistic-medicine-evidence";
 import { historicalMedicineEvidence } from "../../lib/historical-medicine-evidence";
 import { hospitalBedsideEvidence } from "../../lib/hospital-bedside-evidence";
@@ -51,7 +53,7 @@ export const metadata: Metadata = createPageMetadata({
   title: "Historia de la medicina — archivos, cuidado y evidencia",
   description: "Cómo reconstruimos la historia mundial de la medicina desde huesos, manuscritos, cánones, instituciones y resultados sin confundir archivo, práctica o eficacia.",
   pathname: "/medicina",
-  image: "/assets/visuales/hero-med-021-anestesia-analgesia-antisepsia.png",
+  image: "/assets/visuales/hero-med-022-teoria-microbiana-laboratorio.png",
 });
 
 const principles = [
@@ -68,8 +70,8 @@ export default function MedicinePage() {
     <div className="medicine-experience">
       <header className="medicine-hero medicine-history-hero">
         <Image
-          src="/assets/visuales/hero-med-021-anestesia-analgesia-antisepsia.png"
-          alt="Composición abstracta: trazos cálidos dispersos a la izquierda, ondas concéntricas al centro y una retícula ordenada de puntos a la derecha"
+          src="/assets/visuales/hero-med-022-teoria-microbiana-laboratorio.png"
+          alt="Composición abstracta: puntos dispersos sin orden a la izquierda, anillos concéntricos vacíos al centro y una red de nodos enlazados a la derecha"
           fill
           preload
           fetchPriority="high"
@@ -78,14 +80,14 @@ export default function MedicinePage() {
         <div className="medicine-hero-shade" />
         <div className="medicine-hero-copy">
           <p className="eyebrow">Historia mundial de la medicina</p>
-          <h1>Una sala insensible no demuestra una cirugía más segura por sí sola</h1>
-          <p>Problema, testimonio, demostración, serie, comparación, mecanismo y adopción forman una cadena histórica. Ninguna fecha, función pública o serie aislada hereda el efecto, la seguridad o el beneficio.</p>
+          <h1>Un microbio aislado no explica una enfermedad por sí solo</h1>
+          <p>Observación, aislamiento, cultivo, reproducción experimental, epidemiología, mecanismo y atribución forman una cadena histórica. Ningún eslabón hereda la causa, la enfermedad humana ni el tratamiento.</p>
           <div>
-            <Link className="button button-primary" href="#anestesia-analgesia-antisepsia">Auditar la cadena <ArrowDown aria-hidden="true" /></Link>
-            <Link className="medicine-text-link" href="/15_medicina/INVESTIGACION_MED_021_ANESTESIA_ANALGESIA_ANTISEPSIA">Leer MED-021 <ArrowRight aria-hidden="true" /></Link>
+            <Link className="button button-primary" href="#teoria-microbiana-laboratorio">Auditar la cadena <ArrowDown aria-hidden="true" /></Link>
+            <Link className="medicine-text-link" href="/15_medicina/INVESTIGACION_MED_022_TEORIA_MICROBIANA_LABORATORIO">Leer MED-022 <ArrowRight aria-hidden="true" /></Link>
           </div>
         </div>
-        <p className="medicine-visual-limit">Composición generativa no probatoria: trazos y puntos sin información; no representa cuerpos, sustancias, instrumentos ni acontecimientos reales.</p>
+        <p className="medicine-visual-limit">Composición generativa no probatoria: puntos, anillos y líneas sin información; no representa organismos, micrografías, pacientes ni acontecimientos reales.</p>
       </header>
 
       <section className="medicine-boundary">
@@ -96,6 +98,14 @@ export default function MedicinePage() {
       <section className="medicine-principles" aria-labelledby="medicine-principles-title">
         <header><p className="eyebrow">Contrato de lectura</p><h2 id="medicine-principles-title">Cuatro cortafuegos</h2></header>
         <div>{principles.map(([title, text], index) => <article key={title}><span>{String(index + 1).padStart(2, "0")}</span><h3>{title}</h3><p>{text}</p></article>)}</div>
+      </section>
+
+      <section className="medicine-lab-section documentary-lab-section" id="teoria-microbiana-laboratorio" aria-labelledby="germ-theory-lab-title">
+        <div className="section-heading">
+          <div><p className="eyebrow">MED-022 · laboratorio de teoría microbiana</p><h2 id="germ-theory-lab-title">De la observación a la atribución</h2></div>
+          <p>Elige un expediente. Siete capas separan presencia, aislamiento, cultivo, modelo, población y mecanismo sin convertir un hallazgo, una placa o una secuencia en la causa de una enfermedad.</p>
+        </div>
+        <GermTheoryEvidenceLab data={germTheoryEvidence} />
       </section>
 
       <section className="medicine-lab-section documentary-lab-section" id="anestesia-analgesia-antisepsia" aria-labelledby="anesthesia-antisepsis-lab-title">
