@@ -10,6 +10,8 @@ Cronologías regionales o temáticas y matrices de correlación. La vista global
 
 - [`CRONOLOGIA_CIV_005_NOMBRES_IDENTIDADES.md`](CRONOLOGIA_CIV_005_NOMBRES_IDENTIDADES.md) — cuatro carriles de archivos (Europa, Pacífico, África, Mesoamérica) y uno de métodos y ética, sin fechas de nacimiento de pueblos — **AUDITADO**.
 
+- [`CRONOLOGIA_CIV_006_DOMESTICACIONES_ALDEAS_REGIONALES.md`](CRONOLOGIA_CIV_006_DOMESTICACIONES_ALDEAS_REGIONALES.md) — siete carriles regionales y uno de métodos, con el objeto fechado declarado en cada fila — **AUDITADO**.
+
 ## Medicina
 
 - [`CRONOLOGIA_MED_008_ROMA_BIZANCIO_MEDITERRANEO_TARDIO.md`](CRONOLOGIA_MED_008_ROMA_BIZANCIO_MEDITERRANEO_TARDIO.md) — organización, infraestructura, corpus, hospitales y redes por carriles no heredables — **AUDITADO**.

@@ -28,6 +28,7 @@ import MicroscopyPathologyEvidenceLab from "../../components/MicroscopyPathology
 import PharmacologyResistanceEvidenceLab from "../../components/PharmacologyResistanceEvidenceLab";
 import RomanByzantineMedicineLab from "../../components/RomanByzantineMedicineLab";
 import SouthAsianMedicineLab from "../../components/SouthAsianMedicineLab";
+import TrialsEvidenceLab from "../../components/TrialsEvidenceLab";
 import { africanMedicineArchives } from "../../lib/african-medicine-archives";
 import { americasMedicineArchives } from "../../lib/americas-medicine-archives";
 import { anatomyPrintEvidence } from "../../lib/anatomy-print-evidence";
@@ -54,6 +55,7 @@ import { medicineEvidence } from "../../lib/medicine-evidence";
 import { pharmacologyResistanceEvidence } from "../../lib/pharmacology-resistance-evidence";
 import { romanByzantineMedicineEvidence } from "../../lib/roman-byzantine-medicine-evidence";
 import { southAsianMedicineEvidence } from "../../lib/south-asian-medicine-evidence";
+import { trialsEvidence } from "../../lib/trials-evidence";
 import { getCatalog } from "../../lib/public-data";
 import { createPageMetadata } from "../../lib/site";
 
@@ -61,7 +63,7 @@ export const metadata: Metadata = createPageMetadata({
   title: "Historia de la medicina — archivos, cuidado y evidencia",
   description: "Cómo reconstruimos la historia mundial de la medicina desde huesos, manuscritos, cánones, instituciones y resultados sin confundir archivo, práctica o eficacia.",
   pathname: "/medicina",
-  image: "/assets/visuales/hero-med-027-inmunologia-trasplante.png",
+  image: "/assets/visuales/hero-med-029-ensayos-regulacion-evidencia.png",
 });
 
 const principles = [
@@ -78,8 +80,8 @@ export default function MedicinePage() {
     <div className="medicine-experience">
       <header className="medicine-hero medicine-history-hero">
         <Image
-          src="/assets/visuales/hero-med-027-inmunologia-trasplante.png"
-          alt="Composición abstracta: una teselación de celdas hexagonales en dos colores a la izquierda, un grafo bipartito con aristas resaltadas al centro y una red de nodos enlazados a la derecha"
+          src="/assets/visuales/hero-med-029-ensayos-regulacion-evidencia.png"
+          alt="Composición abstracta: columnas de marcas cortas que alternan dos tonos a la izquierda, una retícula de casillas llenas y contorneadas al centro y puntos que convergen hacia un vértice a la derecha"
           fill
           preload
           fetchPriority="high"
@@ -88,14 +90,14 @@ export default function MedicinePage() {
         <div className="medicine-hero-shade" />
         <div className="medicine-hero-copy">
           <p className="eyebrow">Historia mundial de la medicina</p>
-          <h1>Un injerto que funciona no demuestra un trasplante legítimo por sí solo</h1>
-          <p>Mecanismo, compatibilidad, procedimiento, serie, registro, asignación y ética forman una cadena histórica. Ninguna prueba cruzada negativa, supervivencia de un año o lista de espera hereda el éxito, la justicia o la legitimidad.</p>
+          <h1>Un ensayo publicado no demuestra una evidencia completa por sí solo</h1>
+          <p>Diseño, asignación, consentimiento, registro, publicación, síntesis y decisión forman una cadena histórica. Ningún ensayo célebre, aprobación, literatura publicada o meta-análisis hereda la ética, la completitud o la decisión.</p>
           <div>
-            <Link className="button button-primary" href="/15_medicina/INVESTIGACION_MED_027_INMUNOLOGIA_TRASPLANTE">Leer MED-027 <ArrowRight aria-hidden="true" /></Link>
-            <Link className="medicine-text-link" href="#medicine-dossiers-title">Ver los expedientes <ArrowDown aria-hidden="true" /></Link>
+            <Link className="button button-primary" href="#ensayos-regulacion-evidencia">Auditar la cadena <ArrowDown aria-hidden="true" /></Link>
+            <Link className="medicine-text-link" href="/15_medicina/INVESTIGACION_MED_029_ENSAYOS_REGULACION_EVIDENCIA">Leer MED-029 <ArrowRight aria-hidden="true" /></Link>
           </div>
         </div>
-        <p className="medicine-visual-limit">Composición generativa no probatoria: celdas, grafos y redes sin información; no representa cuerpos, órganos, células reales, personas ni acontecimientos reales.</p>
+        <p className="medicine-visual-limit">Composición generativa no probatoria: marcas, casillas y puntos sin información; no representa personas, pacientes, fármacos, documentos ni acontecimientos reales.</p>
       </header>
 
       <section className="medicine-boundary">
@@ -106,6 +108,14 @@ export default function MedicinePage() {
       <section className="medicine-principles" aria-labelledby="medicine-principles-title">
         <header><p className="eyebrow">Contrato de lectura</p><h2 id="medicine-principles-title">Cuatro cortafuegos</h2></header>
         <div>{principles.map(([title, text], index) => <article key={title}><span>{String(index + 1).padStart(2, "0")}</span><h3>{title}</h3><p>{text}</p></article>)}</div>
+      </section>
+
+      <section className="medicine-lab-section documentary-lab-section" id="ensayos-regulacion-evidencia" aria-labelledby="trials-evidence-lab-title">
+        <div className="section-heading">
+          <div><p className="eyebrow">MED-029 · laboratorio de ensayos, regulación y evidencia</p><h2 id="trials-evidence-lab-title">Del diseño a la decisión</h2></div>
+          <p>Elige un expediente. Siete capas separan diseño, asignación, consentimiento, registro, publicación, síntesis y decisión sin convertir un ensayo célebre, una aprobación o un meta-análisis en evidencia completa, ética o decisión.</p>
+        </div>
+        <TrialsEvidenceLab data={trialsEvidence} />
       </section>
 
       <section className="medicine-lab-section documentary-lab-section" id="transfusion-trauma-cuidados-criticos" aria-labelledby="critical-care-lab-title">

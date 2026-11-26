@@ -3809,3 +3809,101 @@ Las recomendaciones de 2020 nacen en Norteamérica y priorizan la consulta forma
 | `CONT-MED-GRAFT-CHINA-POST-2015-001` | ¿qué ocurre en China después de 2015? | reforma voluntaria real | manipulación de datos y obtención de presos | auditoría independiente de datos y procedencia | ABIERTA; uso previo a 2015 admitido |
 | `CONT-MED-GRAFT-GRAFT-SURVIVAL-001` | ¿mejoró la supervivencia del injerto a largo plazo? | sí, según proyecciones de 2000 | poco, según el seguimiento observado | vida media observada frente a proyectada | MEJORA CONCENTRADA EN EL PRIMER AÑO |
 | `CONT-MED-GRAFT-XENO-READINESS-001` | ¿está listo el xenotrasplante? | sí, por duraciones crecientes | no: casos únicos sin comparador | ensayo con comparador | NO DEMOSTRADO |
+
+## MED-028 — Cirugía especializada y mínimamente invasiva
+
+| ID | Pregunta | Hipótesis principal | Alternativa | Evidencia discriminante | Estado |
+|---|---|---|---|---|---|
+| `CONT-MED-SURG-HALSTED-RESIDENCY-001` | ¿qué fue la residencia de Halsted? | un modelo pedagógico superior | también una estructura que delegaba el servicio, ocultaba una adicción y usaba trabajo no pagado | archivos de Hopkins y resultados comparados de modelos de formación | ABIERTA; ambas lecturas documentadas |
+| `CONT-MED-SURG-RADICAL-PERSISTENCE-001` | ¿por qué duró tanto la mastectomía radical? | sus resultados la justificaban | creencia compartida, prestigio de la especialidad y ausencia de comparador | ensayo NSABP B-04 y archivos de Hopkins | VENTAJA DE LA RADICALIDAD REFUTADA POR ENSAYO; causas de la persistencia abiertas |
+| `CONT-MED-SURG-CROSS-CIRCULATION-ETHICS-001` | ¿era aceptable poner en riesgo a un donante sano? | sí, por la falta de alternativa y los supervivientes | no, por el riesgo sin beneficio para un tercero | daños documentados en donantes y normas de consentimiento | ABIERTA; juicio normativo, no dato |
+| `CONT-MED-SURG-LC-PRIORITY-001` | ¿quién inventó la colecistectomía laparoscópica? | Mouret o los difusores de 1987–1988 | Mühe en 1985 | fechas documentadas de cada operación | PRIORIDAD DE MÜHE ACEPTADA; crédito por difusión distinto |
+| `CONT-MED-SURG-BILE-DUCT-CAUSE-001` | ¿por qué hubo una ola de lesiones biliares? | inexperiencia en la curva de aprendizaje | ilusión perceptual propia de la técnica y su visión | curvas por número de caso y análisis de factores humanos | AMBAS CONTRIBUYEN; la experiencia no elimina la ilusión |
+| `CONT-MED-SURG-LC-ADVANTAGE-001` | ¿es mejor la laparoscopia que la colecistectomía por incisión pequeña? | sí, por menos dolor y estancia | no hay diferencia relevante con incisión pequeña | ensayos con cegamiento de cuidadores | VENTAJA NO DEMOSTRADA FRENTE A INCISIÓN PEQUEÑA en el ensayo leído |
+| `CONT-MED-SURG-VOLUME-CAUSE-001` | ¿el volumen causa mejores resultados? | la práctica hace al maestro | derivación selectiva, mezcla de casos, rescate o habilidad | ajuste clínico, medición de habilidad y estudios de concentración | ASOCIACIÓN SÓLIDA; mecanismo abierto |
+| `CONT-MED-SURG-ROBOT-BENEFIT-001` | ¿mejora la cirugía robótica los resultados? | sí, por mejor visión y precisión | no más que la laparoscopia experta | ensayos con operadores y desenlaces comparables | ABIERTA; depende del procedimiento, del operador y del desenlace |
+| `CONT-MED-SURG-MIS-ONCOLOGY-001` | ¿es equivalente la vía mínimamente invasiva en cirugía oncológica? | sí, como en la colectomía de COST | no siempre, como en la histerectomía radical de LACC | ensayos por procedimiento | NO GENERALIZABLE entre procedimientos |
+| `CONT-MED-SURG-SHAM-ETHICS-001` | ¿es ético operar de forma simulada? | sí, si es necesario, proporcionado y consentido | no, por exponer a riesgo sin beneficio | eventos adversos en brazos simulados y alternativas de diseño | ABIERTA; aceptado bajo condiciones |
+| `CONT-MED-SURG-ORBITA-MEANING-001` | ¿qué mostraron ORBITA y ORBITA-2? | que la angioplastia no alivia la angina | que el efecto depende de población, tratamiento de fondo y desenlace | los dos ensayos con desenlaces distintos | SIMULACRO NO EQUIVALE A INUTILIDAD |
+| `CONT-MED-SURG-IDEAL-IMPACT-001` | ¿ha cambiado IDEAL la evaluación de la innovación quirúrgica? | sí, como estándar de etapas | es un marco citado más que aplicado | auditorías de su uso y resultados | NO DEMOSTRADO |
+
+## MED-029 — Ensayos, regulación y medicina basada en evidencia
+
+| ID | Pregunta | Hipótesis principal | Alternativa | Evidencia discriminante | Estado |
+|---|---|---|---|---|---|
+| `CONT-MED-EBM-LIND-FIRST-001` | ¿fue Lind el primer ensayo clínico? | Lind comparó tratamientos en paralelo en 1747 | hubo comparaciones antes, el informe es breve y su historicidad se discute | archivos navales y genealogía de comparaciones | PRIMACÍA RECHAZADA; COMPARACIÓN ACEPTADA |
+| `CONT-MED-EBM-LIND-HERO-001` | ¿descubrió Lind la cura del escorbuto y fue ignorado? | sí, el Almirantazgo tardó 42 años | no recomendó con claridad los cítricos y su concentrado no servía | texto del tratado y decisión de 1795 | MITO DEL HÉROE RECHAZADO |
+| `CONT-MED-EBM-FIBIGER-RANDOM-001` | ¿fue el de Fibiger un ensayo aleatorizado? | asignación imparcial por día de ingreso, cuasialeatoria | alternancia previsible, no azar | posibilidad de prever la asignación | CUASIALEATORIO |
+| `CONT-MED-EBM-RANDOM-VS-ALTERNATION-001` | ¿qué aportó el azar frente a la alternancia? | ocultamiento de la secuencia | fundamento probabilístico de la inferencia | razones declaradas por quienes lo adoptaron | AMBAS; OCULTAMIENTO DOCUMENTADO |
+| `CONT-MED-EBM-NUREMBERG-STATUS-001` | ¿es el Código de Núremberg derecho vinculante? | norma con autoridad moral universal | dictum de un tribunal militar sin fuerza legal clara | uso posterior en legislación y tribunales | AUTORIDAD MORAL; FUERZA LEGAL INCIERTA |
+| `CONT-MED-EBM-TUSKEGEE-LEGACY-001` | ¿redujo Tuskegee la participación y la salud de los afroamericanos? | sí, por desconfianza (Alsan y Wanamaker) | no por conocimiento del caso (Katz) | desenlaces conductuales medidos con diseños comparables | ABIERTA; DESENLACES DISTINTOS |
+| `CONT-MED-EBM-CONSENT-CENTRAL-001` | ¿es el consentimiento el núcleo de la ética de investigación? | sí, desde Núremberg | es uno de siete requisitos y no basta | casos con consentimiento y daño injustificado | PLURALIDAD DE REQUISITOS |
+| `CONT-MED-EBM-HIERARCHY-001` | ¿son los ensayos aleatorizados siempre superiores? | jerarquía de diseños | efectos dramáticos, estudios observacionales concordantes y transporte | comparaciones empíricas de diseños por tema | ABIERTA; DEPENDE DE LA PREGUNTA |
+| `CONT-MED-EBM-EBM-CRISIS-001` | ¿está la medicina basada en evidencia en crisis? | sí, marca apropiada y guías inmanejables | sus problemas son de aplicación, no del principio | efecto medido de guías y revisiones en desenlaces | ABIERTA |
+| `CONT-MED-EBM-REPLICATION-CRISIS-001` | ¿la mayoría de los hallazgos publicados es falsa? | sí bajo supuestos comunes (Ioannidis) | 14 % de falsos descubrimientos en grandes revistas (Jager y Leek) | réplicas por campo y diseño | DEPENDE DEL CAMPO |
+| `CONT-MED-EBM-OSC-READING-001` | ¿mostró la Open Science Collaboration baja reproducibilidad? | sí, 36 % de réplicas significativas | errores estadísticos y réplicas infieles | réplicas con protocolos aprobados por los autores originales | DISCUTIDA |
+| `CONT-MED-EBM-REGISTRATION-EFFECT-001` | ¿causó el registro la caída de resultados positivos? | sí, al fijar desenlaces de antemano | cambios de pregunta, comparador o población | series con registro y sin él en el mismo periodo | ASOCIACIÓN PROBABLE |
+
+## CIV-006 — Controversias de domesticaciones y aldeas regionales
+
+### CONT-CIV-DOMREG-RICE-ONSET-001 — Cuándo se domesticó el arroz
+
+La serie de fitolitos de Shangshan y Hehuashan propone domesticación hacia `~11 000` años; las bases de espiguilla muestran el no desprendimiento sin fijar hasta milenios después, y en 2007 se propuso domesticación hacia `4000 a. C.`
+
+**Prueba discriminatoria:** bases de espiguilla y fitolitos del mismo contexto de la fase temprana de Shangshan, fechados directamente por semillas de vida corta.
+
+### CONT-CIV-DOMREG-PHYTOLITH-14C-001 — Fiabilidad del radiocarbono de fitolitos
+
+Zuo y colaboradores hallan fitolitos coherentes con carbón y semillas; Santos y colaboradores sostienen que el carbono ocluido incluye carbono del suelo de edad desconocida.
+
+**Prueba discriminatoria:** dataciones pareadas a ciegas en varios laboratorios, con fitolitos y semillas del mismo contexto y controles de suelo.
+
+### CONT-CIV-DOMREG-RICE-ORIGIN-001 — Yangtsé arqueológico o Perla genómico
+
+Los depósitos sitúan el cultivo más antiguo de arroz en el bajo Yangtsé; los genomas actuales sitúan la domesticación de *japonica* en el río Perla.
+
+**Prueba discriminatoria:** genomas de arroz arqueológico fechado de ambas cuencas.
+
+### CONT-CIV-DOMREG-CISHAN-001 — Fecha y estado del mijo de Cishan
+
+Las fechas de los restos de grano (`~10 300–8700 cal BP`) chocan con las de carbón del sitio; la cascarilla identifica especie y no estado domesticado; la serie de tamaño de grano sitúa la domesticación en `7000–3300 a. C.`
+
+**Prueba discriminatoria:** AMS sobre granos carbonizados individuales de los pozos, con medidas de tamaño y forma.
+
+### CONT-CIV-DOMREG-KUK-PHASE1-001 — Qué fue la fase 1 de Kuk
+
+La superficie de `~10 000` años se leyó como manejo y cultivo; su excavador evalúa en 2026 si representa cultivo itinerante u otras formas de explotación vegetal.
+
+**Prueba discriminatoria:** micromorfología, fitolitos y almidones de la superficie con controles fuera del sitio y del mismo humedal sin intervención.
+
+### CONT-CIV-DOMREG-EAC-TESTA-001 — Testa delgada: rasgo domesticado o plasticidad
+
+El quenopodio domesticado se diagnostica por testa delgada; los experimentos de 2023 muestran proporciones altas de testa delgada en poblaciones libres y más bajo cultivo.
+
+**Prueba discriminatoria:** ADN antiguo de semillas fechadas que separe variantes genéticas de respuesta plástica, comparado con distribuciones experimentales.
+
+### CONT-CIV-DOMREG-AMAZON-EXTENT-001 — Extensión del paisaje domesticado amazónico
+
+Inventarios forestales y tierras oscuras sostienen paisajes domesticados; suelos interfluviales del oeste muestran impacto pequeño y local.
+
+**Prueba discriminatoria:** muestreo aleatorio estratificado de riberas e interfluvios con los mismos proxies de suelo, carbón y fitolitos.
+
+### CONT-CIV-DOMREG-WEST-AFRICA-TUBERS-001 — Domesticación del ñame y la palma frente a un registro casi mudo
+
+Los genomas sitúan la domesticación del ñame en la cuenca del Níger y los abrigos Kintampo documentan uso de palma; no hay fechas arqueológicas de rasgos domesticados.
+
+**Prueba discriminatoria:** parénquima y almidones con atributos discriminantes, fechados, de contextos del Holoceno medio de África occidental.
+
+
+### Índice tabular CIV-006
+
+| ID | Tema | Explicación dominante o práctica | Alternativa fuerte | Estado | Confianza en la síntesis |
+|---|---|---|---|---|---|
+| `CONT-CIV-DOMREG-RICE-ONSET-001` | inicio de la domesticación del arroz | selección lenta con rasgo fijado milenios después del cultivo | domesticación hacia `~11 000` años por fitolitos | abierta | C |
+| `CONT-CIV-DOMREG-PHYTOLITH-14C-001` | `14C` de fitolitos | uso con controles pareados | método no fiable por carbono del suelo | abierta | C |
+| `CONT-CIV-DOMREG-RICE-ORIGIN-001` | origen de *japonica* | Yangtsé por depósitos | Perla por genomas actuales | abierta | C |
+| `CONT-CIV-DOMREG-CISHAN-001` | mijo de Cishan | mijo común almacenado; estado y fecha condicionados | mijo domesticado más antiguo hacia `10 300` años | abierta | B especie; C fecha |
+| `CONT-CIV-DOMREG-KUK-PHASE1-001` | fase 1 de Kuk | manejo del humedal | cultivo itinerante | abierta | B manejo; C cultivo |
+| `CONT-CIV-DOMREG-EAC-TESTA-001` | testa delgada del quenopodio | diagnóstico con cautela por plasticidad | diagnóstico tradicional | abierta | B |
+| `CONT-CIV-DOMREG-AMAZON-EXTENT-001` | paisaje domesticado amazónico | sostenido por regiones | extendido a toda la cuenca / impacto escaso | abierta en extensión | B-COND local; C cuenca |
+| `CONT-CIV-DOMREG-WEST-AFRICA-TUBERS-001` | ñame y palma de aceite | historia genómica y uso documentado | domesticación tardía por falta de restos | abierta | B; D fecha |

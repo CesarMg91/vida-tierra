@@ -2046,3 +2046,66 @@ Véase 15_medicina/INVESTIGACION_MED_025_IMAGEN_LABORATORIO_CLASIFICACION.md, 22
 - `CLAIM-MED-CRIT-TARGET-NOT-OUTCOME-001` impide tratar una meta fisiológica alcanzada como una vida salvada.
 
 Véase 15_medicina/INVESTIGACION_MED_026_TRANSFUSION_TRAUMA_CUIDADOS_CRITICOS.md, 22_mapas_epistemologicos/MAPA_MED_026_TRANSFUSION_TRAUMA_CUIDADOS_CRITICOS.md, 21_cronologias/CRONOLOGIA_MED_026_TRANSFUSION_TRAUMA_CUIDADOS_CRITICOS.md, assets/visuales/cadena-infraestructura-dano-med-026.svg y assets/visuales/matriz-transfusion-trauma-criticos-med-026.svg.
+
+## MED-028 — Una incisión más pequeña no demuestra una operación mejor por sí sola
+
+- La residencia de Halsted separa estructura de formación, recuento de residentes, adicción oculta, interpretación sobre la pirámide y regla de residencia comparada (FIRST).
+- La mastectomía radical separa serie del cirujano, institucionalización, creencia compartida, cartas de pacientes y ensayo de 25 años.
+- Gibbon separa máquina, equipo, industria, caso exitoso, incidente salvado y abandono.
+- La circulación cruzada separa serie, seguimiento de supervivientes, riesgo para un tercero y legitimidad.
+- Mühe y Mouret separan prioridad, rechazo, difusión, recuentos discrepantes y crédito.
+- Las lesiones biliares separan curva de aprendizaje, ilusión perceptual, consecuencia y reparación.
+- La difusión de la laparoscopia separa adopción, cambio de indicación, ensayo tardío y el contraste con COST.
+- El volumen separa asociación, ajuste de riesgo, mediación por el cirujano y mecanismo no identificado.
+- Habilidad y rescate separan operador medido en video y sistema que responde a complicaciones.
+- La robótica separa compra, programa, notificación pasiva, ensayos discordantes y contexto del operador.
+- LACC separa adopción previa, ensayo con daño, cohorte convergente, serie temporal y financiamiento.
+- El placebo quirúrgico separa mejoría, efecto específico, simulacros que refutan y simulacros que confirman.
+- `CLAIM-MED-SURG-CHAIN-001` impide heredar automáticamente una propiedad entre técnica, operador, equipo, industria, aprendizaje, comparación y resultado.
+- `CLAIM-MED-SURG-INCISION-NOT-OUTCOME-001` impide tomar menos incisión, dolor o estancia como desenlace principal.
+
+Véase 15_medicina/INVESTIGACION_MED_028_CIRUGIA_ESPECIALIZADA_MINIMA_INVASION.md, 22_mapas_epistemologicos/MAPA_MED_028_CIRUGIA_ESPECIALIZADA_MINIMA_INVASION.md, 21_cronologias/CRONOLOGIA_MED_028_CIRUGIA_ESPECIALIZADA_MINIMA_INVASION.md, assets/visuales/cadena-tecnica-resultado-med-028.svg y assets/visuales/matriz-cirugia-especializada-med-028.svg.
+
+## MED-029 — Un ensayo publicado no demuestra una evidencia completa por sí solo
+
+- Lind separa comparación en paralelo, informe breve, asignación no descrita, teoría, decisión naval de 1795 e historicidad discutida.
+- La alternancia separa regla imparcial, previsibilidad, subversión y ocultamiento.
+- Fibiger separa asignación por calendario, exclusiones, ausencia de cegamiento, cifras y recepción.
+- El MRC de 1948 (MED-024) separa ocultamiento de la secuencia e invención de la comparación.
+- Núremberg y Helsinki separan consentimiento escrito, fuerza legal, registro y publicación como norma, y cumplimiento.
+- Beecher y Tuskegee separan publicación y ética, comparación y legitimidad, tratamiento negado e inoculación, y legado medido por desenlaces distintos.
+- Belmont separa principios, aplicaciones, revisión institucional y suficiencia del consentimiento.
+- La regulación separa fases, umbral, ensayo único, desenlaces sustitutos y buena práctica basada en riesgos.
+- Cochrane separa crítica, revisión sistemática, retraso de la práctica y Colaboración.
+- El meta-análisis acumulativo separa evidencia suficiente, ensayos posteriores, opinión experta y lectura retrospectiva.
+- La medicina basada en evidencia separa lema, definición, marca, crítica interna, jerarquía y juicio GRADE.
+- Los sesgos sistémicos separan lo hecho, lo registrado, lo publicado, lo informado a tiempo, el patrocinio y la réplica; las plataformas separan rapidez y capas que no se eliminan.
+- `CLAIM-MED-EBM-CHAIN-001` impide heredar automáticamente una propiedad entre diseño, asignación, consentimiento, registro, publicación, síntesis y decisión.
+- `CLAIM-MED-EBM-PUBLICATION-NOT-EVIDENCE-001` impide leer la literatura publicada como el conjunto de ensayos hechos.
+
+Véase 15_medicina/INVESTIGACION_MED_029_ENSAYOS_REGULACION_EVIDENCIA.md, 22_mapas_epistemologicos/MAPA_MED_029_ENSAYOS_REGULACION_EVIDENCIA.md, 21_cronologias/CRONOLOGIA_MED_029_ENSAYOS_REGULACION_EVIDENCIA.md, assets/visuales/cadena-diseno-decision-med-029.svg y assets/visuales/matriz-ensayos-evidencia-med-029.svg.
+
+## CIV-006 — Una semilla no es una aldea
+
+```text
+organismo ─ rasgo ─ cultivo/manejo ─ aldea ─ fecha ─ difusión
+   (seis campos paralelos; ninguno se hereda del anterior)
+fecha = objeto fechado (CIV-002) ⇢ «origen», «centro», «pueblo agricultor» [NO]
+```
+
+```text
+arroz Yangtsé   → aldea antes del rasgo; domesticación a 11 ka C; espiga lenta B
+mijo Cishan     → especie B; fecha y estado C; ventana 7000–3300 a. C. B-COND
+Kuk             → manejo B; cultivo en fase 1 C (reevaluado 2026)
+sorgo/mijo perla→ sin cuello de botella B-LOCAL; viaje al Indo B-COND
+ñame/palma      → genoma y uso B; fecha arqueológica D (silencio de preservación)
+maíz            → mezcla tardía con mexicana B-COND; calabaza antes que maíz B
+complejo del Este → Riverton 3800 BP B; testa delgada como diagnóstico C
+Amazonía        → yuca y cacao B-COND; paisaje de toda la cuenca C
+```
+
+- `CLAIM-CIV-DOMREG-SIX-FIELDS-001` impide leer una fecha, una especie o una aldea como «origen de la agricultura».
+- `CLAIM-CIV-DOMREG-VILLAGE-DECOUPLED-001` impide suponer que aldea y cultivo domesticado van juntos.
+- `CLAIM-CIV-DOMREG-TUBER-PALM-SILENCE-001` impide leer el silencio de preservación como ausencia.
+
+CIV-006 promueve `CLAIM-CIV-DOMESTICATION-MULTIREGIONAL-001`, `CLAIM-CIV-GUILA-CUCURBITA-001` y `CLAIM-CIV-RICE-TRAJECTORY-001`; deja `CLAIM-CIV-KUK-CULTIVATION-001` en `TRAZADO`. Véase `INV-CIV-DOMESTICATIONS-001`, `MAPA_CIV_006_DOMESTICACIONES_ALDEAS_REGIONALES.md`, `CRONOLOGIA_CIV_006_DOMESTICACIONES_ALDEAS_REGIONALES.md`, `cadena-semilla-aldea-civ-006.svg` y `matriz-regiones-campos-civ-006.svg`.

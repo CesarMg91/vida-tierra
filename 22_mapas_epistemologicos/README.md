@@ -64,6 +64,8 @@ Grafos de dependencias entre objetos, mediciones, principios, modelos, claims y 
 
 - [`MAPA_CIV_005_NOMBRES_IDENTIDADES.md`](MAPA_CIV_005_NOMBRES_IDENTIDADES.md) — siete niveles del objeto a la identidad, cuatro archivos y saltos no heredados: pueblo, lengua, etnia y endónimo — **AUDITADO**.
 
+- [`MAPA_CIV_006_DOMESTICACIONES_ALDEAS_REGIONALES.md`](MAPA_CIV_006_DOMESTICACIONES_ALDEAS_REGIONALES.md) — seis campos paralelos, relojes por objeto fechado y saltos no heredados: domesticado, aldea, origen y cuenca — **AUDITADO**.
+
 ## Medicina
 
 - [`MAPA_MED_008_ROMA_BIZANCIO_MEDITERRANEO_TARDIO.md`](MAPA_MED_008_ROMA_BIZANCIO_MEDITERRANEO_TARDIO.md) — vestigio, identificación, función, operación, acceso y consecuencia sin hospital, cobertura o resultado heredados — **AUDITADO**.

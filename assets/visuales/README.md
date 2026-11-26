@@ -1224,3 +1224,36 @@ La portada no usa modelos de imagen: se regenera idéntica con `node scripts/gen
 | `matriz-inmunologia-trasplante-med-027.svg` | `scripts/generate-med-027-visuals.mjs` | `1600 × 900` | código fuente versionado | doce expedientes y siete capas con marcas de presencia; no prioridad ni ranking |
 
 La portada no usa modelos de imagen: se regenera idéntica con `node scripts/generate-med-027-visuals.mjs --png`. Los SVG incluyen `title` y `desc`, preservan las siete capas y no convierten mecanismo, prueba cruzada, procedimiento, serie, registro ni asignación en compatibilidad, éxito, resultado, comparación, causa o justicia. El prompt-equivalente y los límites están en `ATLAS_VISUAL.md`, en la sección de MED-027.
+
+## MED-028 — Cirugía especializada y mínimamente invasiva
+
+| Archivo | Origen | Dimensiones | SHA-256 / trazabilidad | Límite |
+|---|---|---:|---|---|
+| `hero-med-028-cirugia-especializada-minima-invasion.png` | rasterizado con `sharp` por `scripts/generate-med-028-visuals.mjs --png`, 2026-11-25 | `1672 × 941` | `68529ac5c30e4d7d124b0e5fab2d41e44a729d8a23615dfaaed8be52f315ed88` | composición abstracta; no cuerpos, órganos, instrumentos, personas ni acontecimientos reales |
+| `hero-med-028-cirugia-especializada-minima-invasion.svg` | `scripts/generate-med-028-visuals.mjs`, semilla fija | `1672 × 941` | código fuente versionado | líneas, círculos y curvas sin información |
+| `cadena-tecnica-resultado-med-028.svg` | `scripts/generate-med-028-visuals.mjs` | `1600 × 900` | código fuente versionado | siete capas inferenciales; no herencia automática |
+| `matriz-cirugia-especializada-med-028.svg` | `scripts/generate-med-028-visuals.mjs` | `1600 × 900` | código fuente versionado | doce expedientes y siete capas con marcas de presencia; no prioridad ni ranking |
+
+La portada no usa modelos de imagen: se regenera idéntica con `node scripts/generate-med-028-visuals.mjs --png`. Los SVG incluyen `title` y `desc`, preservan las siete capas y no convierten técnica, operador, equipo, dispositivo, curva, serie ni volumen en operador, sistema, beneficio, evidencia, efecto, comparación o desenlace. El prompt-equivalente y los límites están en `ATLAS_VISUAL.md`, en la sección de MED-028.
+
+## MED-029 — Ensayos, regulación y medicina basada en evidencia
+
+| Archivo | Origen | Dimensiones | SHA-256 / trazabilidad | Límite |
+|---|---|---:|---|---|
+| `hero-med-029-ensayos-regulacion-evidencia.png` | rasterizado con `sharp` por `scripts/generate-med-029-visuals.mjs --png`, 2026-11-25 | `1672 × 941` | `2dec6d6acac93cae299231750dbf10b5e8d0cd92d447f37cd17a1ea52a977631` | composición abstracta; no personas, pacientes, fármacos, documentos ni acontecimientos reales |
+| `hero-med-029-ensayos-regulacion-evidencia.svg` | `scripts/generate-med-029-visuals.mjs`, semilla fija | `1672 × 941` | código fuente versionado | marcas, casillas y puntos sin información |
+| `cadena-diseno-decision-med-029.svg` | `scripts/generate-med-029-visuals.mjs` | `1600 × 900` | código fuente versionado | siete capas inferenciales; no herencia automática |
+| `matriz-ensayos-evidencia-med-029.svg` | `scripts/generate-med-029-visuals.mjs` | `1600 × 900` | código fuente versionado | doce expedientes y límites; no prioridad ni ranking |
+
+La portada no usa modelos de imagen: se regenera idéntica con `node scripts/generate-med-029-visuals.mjs --png`. Los SVG incluyen `title` y `desc`, preservan las siete capas y no convierten diseño, asignación, consentimiento, registro, publicación ni síntesis en grupos iguales, ética, justificación, informe, evidencia completa o decisión. El prompt-equivalente y los límites están en `ATLAS_VISUAL.md`, en la sección de MED-029.
+
+## CIV-006 — Domesticaciones y aldeas por archivos regionales
+
+| Archivo | Origen | Dimensiones | SHA-256 / trazabilidad | Límite |
+|---|---|---:|---|---|
+| `hero-civ-006-domesticaciones-aldeas.png` | rasterizado con `sharp` desde el SVG generativo del proyecto, 2026-11-25 | `1672 × 941` | `6ec802fbe84ce4f6393861cb2bf13cad978c324d0c5f4baeb1b1440cf40ed68d` | composición abstracta; no mapa, aldea, planta regional ni persona |
+| `hero-civ-006-domesticaciones-aldeas.svg` | `scripts/generate-civ-006-visuals.mjs`, semilla `6006` | `1672 × 941` | código fuente versionado | formas genéricas |
+| `cadena-semilla-aldea-civ-006.svg` | `scripts/generate-civ-006-visuals.mjs` | `1600 × 900` | código fuente versionado | seis campos; no secuencia histórica |
+| `matriz-regiones-campos-civ-006.svg` | `scripts/generate-civ-006-visuals.mjs` desde `content/civilization-domestications.json` | `1600 × 900` | código fuente versionado | estado del archivo; no ranking regional |
+
+La portada no usa modelos de imagen: se regenera idéntica con `node scripts/generate-civ-006-visuals.mjs --png`. Los SVG incluyen `title` y `desc`. El procedimiento y los límites completos están en la sección «CIV-006 — Una semilla no es una aldea» de [`ATLAS_VISUAL.md`](../../ATLAS_VISUAL.md).

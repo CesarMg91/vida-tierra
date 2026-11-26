@@ -8,11 +8,13 @@ import CivilizationDatingLab from "../../components/CivilizationDatingLab";
 import CivilizationIdentitiesLab from "../../components/CivilizationIdentitiesLab";
 import CivilizationSouthwestAsia from "../../components/CivilizationSouthwestAsiaStyled";
 import CivilizationNile from "../../components/CivilizationNile";
+import CivilizationDomesticationsLab from "../../components/CivilizationDomesticationsLab";
 import { chronologyLanes, civilizationCases } from "../../lib/civilizations";
 import { civilizationDating } from "../../lib/civilization-dating";
 import { civilizationIdentities } from "../../lib/civilization-identities";
 import { southwestAsia } from "../../lib/civilization-swasia";
 import { nileValley } from "../../lib/civilization-nile";
+import { civilizationDomestications } from "../../lib/civilization-domestications";
 import { getCivilizationMapData } from "../../lib/civilization-map";
 import { getCatalog } from "../../lib/public-data";
 import { createPageMetadata } from "../../lib/site";
@@ -180,6 +182,17 @@ export default function CivilizationsPage() {
           <p>Elige un archivo del Nilo y África nororiental y conserva su inferencia, su límite y su adversario más fuerte. Ningún archivo fecha la «unificación».</p>
         </div>
         <CivilizationNile data={nileValley} />
+      </section>
+
+      <section className="civilization-dating-section" aria-labelledby="domestications-title">
+        <div className="section-heading">
+          <div>
+            <p className="eyebrow">Tercer expediente regional</p>
+            <h2 id="domestications-title">Una semilla no es una aldea</h2>
+          </div>
+          <p>Elige un archivo regional —arroz, mijo, Kuk, cereales o tubérculos africanos, Mesoamérica, el Este de Norteamérica o la Amazonía— y recorre seis campos: planta, rasgo, cultivo, aldea, fecha y difusión. Ninguna fecha es el origen de la agricultura.</p>
+        </div>
+        <CivilizationDomesticationsLab data={civilizationDomestications} />
       </section>
 
       <section className="civilization-chronology-section" aria-labelledby="chronology-title">

@@ -1,0 +1,134 @@
+{
+  "schemaVersion": 1,
+  "researchSlug": "14_civilizaciones/INVESTIGACION_CIV_006_DOMESTICACIONES_ALDEAS_REGIONALES",
+  "cases": [
+    {
+      "id": "arroz-yangtse",
+      "title": "Arroz del bajo Yangtsé",
+      "region": "Asia oriental",
+      "window": "~11 000–6500 años",
+      "archives": ["fitolitos", "bases de espiguilla", "residuos en vasijas", "sedimentos", "genomas actuales"],
+      "adversary": "La serie de fitolitos de Shangshan y Hehuashan propone domesticación hacia 11 000 años; depende de la morfología bulliforme y de un reloj de fitolitos que otros consideran no fiable.",
+      "steps": [
+        { "kind": "organism", "status": "sostenido", "observed": "Fitolitos, almidones y restos de arroz en Shangshan, Huxi, Kuahuqiao y Tianluoshan.", "inference": "Arroz presente y usado desde el Holoceno temprano.", "limit": "Presencia no es domesticación.", "claimIds": ["CLAIM-CIV-DOMREG-SHANGSHAN-VILLAGE-001"], "evidenceIds": ["EVID-CIV-DOMREG-SHANGSHAN-001"], "sourceIds": ["SRC-LIU-SHANGSHAN-BEER-2024", "SRC-JIANG-LIU-SHANGSHAN-2006"] },
+        { "kind": "trait", "status": "condicionado", "observed": "Bases de espiguilla silvestres, intermedias y no desprendibles; en Tianluoshan pasan de 27 % a 39 %.", "inference": "Selección del no desprendimiento durante milenios.", "limit": "El fitolito bulliforme no es la espiga; su forma responde también al ambiente.", "claimIds": ["CLAIM-CIV-DOMREG-RICE-RACHIS-001", "CLAIM-CIV-DOMREG-RICE-PHYTOLITH-001"], "evidenceIds": ["EVID-CIV-DOMREG-RICE-RACHIS-001", "EVID-CIV-DOMREG-PHYTOLITH-DATING-001"], "sourceIds": ["SRC-ZHENG-HUXI-RICE-2016", "SRC-FULLER-RICE-2009", "SRC-ZHANG-RICE-TRAJECTORY-2024"] },
+        { "kind": "management", "status": "sostenido", "observed": "En Kuahuqiao, polen, algas y microcarbón de un humedal costero manejado con fuego e inundación.", "inference": "Cultivo local e intenso durante unos dos siglos.", "limit": "La escala del fuego está discutida: sin roza y quema a gran escala.", "claimIds": ["CLAIM-CIV-DOMREG-KUAHUQIAO-001"], "evidenceIds": ["EVID-CIV-DOMREG-KUAHUQIAO-001"], "sourceIds": ["SRC-ZONG-KUAHUQIAO-2007", "SRC-HU-KUAHUQIAO-FIRE-2020"] },
+        { "kind": "village", "status": "sostenido", "observed": "Shangshan: aldea al aire libre con cerámica; arroz como alimento y para bebida fermentada.", "inference": "Aldea antes de que el rasgo domesticado se fijara.", "limit": "Aldea no es agricultura ni dependencia.", "claimIds": ["CLAIM-CIV-DOMREG-SHANGSHAN-VILLAGE-001", "CLAIM-CIV-DOMREG-VILLAGE-DECOUPLED-001"], "evidenceIds": ["EVID-CIV-DOMREG-SHANGSHAN-001"], "sourceIds": ["SRC-JIANG-LIU-SHANGSHAN-2006", "SRC-LIU-SHANGSHAN-BEER-2024"] },
+        { "kind": "date", "status": "condicionado", "observed": "Fechas de fitolitos (~11 000 y ~9.4–9.0 ka) y de restos vegetales (Huxi 9000–8400 BP).", "inference": "Cultivo desde al menos ~8000 BP; inicio anterior posible.", "limit": "El carbono de los fitolitos puede incluir carbono del suelo de edad desconocida.", "claimIds": ["CLAIM-CIV-DOMREG-RICE-PHYTOLITH-001", "CLAIM-CIV-DOMREG-DATED-OBJECT-001"], "evidenceIds": ["EVID-CIV-DOMREG-PHYTOLITH-DATING-001"], "sourceIds": ["SRC-ZUO-PHYTOLITH-DATING-2016", "SRC-SANTOS-PHYTOLITH-CARBON-2018", "SRC-ZUO-RICE-2017"] },
+        { "kind": "diffusion", "status": "no-demostrado", "observed": "Genomas actuales sitúan japonica en el río Perla; los depósitos, en el Yangtsé.", "inference": "Lugar del linaje y lugar del cultivo pueden no coincidir.", "limit": "Sin genomas antiguos de arroz de ambas cuencas, el origen sigue abierto.", "claimIds": ["CLAIM-CIV-DOMREG-RICE-GENOME-ORIGIN-001"], "evidenceIds": ["EVID-CIV-DOMREG-RICE-GENOMES-001"], "sourceIds": ["SRC-HUANG-RICE-GENOME-2012", "SRC-GROSS-ZHAO-RICE-2014"] }
+      ]
+    },
+    {
+      "id": "mijo-norte-china",
+      "title": "Mijo de Cishan y el norte de China",
+      "region": "Asia oriental",
+      "window": "~11 000–5300 años",
+      "archives": ["fitolitos de cascarilla", "pozos de almacenamiento", "tamaño de grano", "genomas humanos"],
+      "adversary": "Cishan habría almacenado mijo común domesticado hacia 10 300 años; las fechas de carbón previas del sitio y la serie de tamaño de grano apuntan a un rasgo mucho más tardío.",
+      "steps": [
+        { "kind": "organism", "status": "sostenido", "observed": "Fitolitos de cascarilla y componentes biomoleculares de 46 muestras de grano de cinco pozos.", "inference": "Mijo común almacenado; cola de zorra en menor proporción después.", "limit": "La cascarilla distingue especies, no estado silvestre o doméstico.", "claimIds": ["CLAIM-CIV-DOMREG-CISHAN-001"], "evidenceIds": ["EVID-CIV-DOMREG-CISHAN-001"], "sourceIds": ["SRC-LU-CISHAN-MILLET-2009"] },
+        { "kind": "trait", "status": "condicionado", "observed": "El tamaño del grano de mijo común aumenta entre 6000 y 3300 a. C. en 43 sitios.", "inference": "Ventana de domesticación entre 7000 y 3300 a. C.", "limit": "Tamaño de grano es un rasgo entre varios; el no desprendimiento se infiere.", "claimIds": ["CLAIM-CIV-DOMREG-MILLET-WINDOW-001"], "evidenceIds": ["EVID-CIV-DOMREG-MILLET-SERIES-001"], "sourceIds": ["SRC-STEVENS-BROOMCORN-2020"] },
+        { "kind": "management", "status": "condicionado", "observed": "Almidones de mijo en herramientas; culturas previas a Yangshao con manejo creciente del paisaje.", "inference": "Cultivo predoméstico y economías intermedias, algunas sin continuidad.", "limit": "Uso de mijo no es cultivo ni domesticación.", "claimIds": ["CLAIM-CIV-DOMREG-MILLET-WINDOW-001"], "evidenceIds": ["EVID-CIV-DOMREG-MILLET-SERIES-001", "EVID-CIV-DOMREG-CISHAN-001"], "sourceIds": ["SRC-ZHUANG-FULLER-LOESS-2024", "SRC-YANG-MILLET-2012"] },
+        { "kind": "village", "status": "sostenido", "observed": "Casas, piedras de molienda y pozos de almacenamiento en Cishan.", "inference": "Aldea con almacenamiento a gran escala.", "limit": "Almacenar mijo no prueba que estuviera domesticado.", "claimIds": ["CLAIM-CIV-DOMREG-CISHAN-001", "CLAIM-CIV-DOMREG-VILLAGE-DECOUPLED-001"], "evidenceIds": ["EVID-CIV-DOMREG-CISHAN-001"], "sourceIds": ["SRC-LU-CISHAN-MILLET-2009"] },
+        { "kind": "date", "status": "no-demostrado", "observed": "Restos de grano fechados en ~10 300–8700 cal BP; carbón previo de los pozos en 7355 y 7235 años 14C sin calibrar.", "inference": "La fecha del depósito está en conflicto dentro del mismo sitio.", "limit": "Faltan fechas AMS sobre granos individuales con morfología medida.", "claimIds": ["CLAIM-CIV-DOMREG-CISHAN-001", "CLAIM-CIV-DOMREG-DATED-OBJECT-001"], "evidenceIds": ["EVID-CIV-DOMREG-CISHAN-001"], "sourceIds": ["SRC-LU-CISHAN-MILLET-2009"] },
+        { "kind": "diffusion", "status": "condicionado", "observed": "Siete genomas de 11 000 a 7300 años con continuidad profunda.", "inference": "Los cultivadores de mijo descendían de recolectores locales.", "limit": "Un archivo de personas no fecha el rasgo de la planta ni nombra un pueblo.", "claimIds": ["CLAIM-CIV-DOMREG-MILLET-CONTINUITY-2026-001"], "evidenceIds": ["EVID-CIV-DOMREG-MILLET-SERIES-001"], "sourceIds": ["SRC-YANG-DONGHULIN-2026"] }
+      ]
+    },
+    {
+      "id": "kuk",
+      "title": "Kuk y las tierras altas de Nueva Guinea",
+      "region": "Nueva Guinea",
+      "window": "~10 000–4200 años",
+      "archives": ["paleosuperficies", "canales", "almidones en herramientas", "genética del banano", "artefactos"],
+      "adversary": "Kuk sería agricultura desde hace 10 000 años; el propio excavador reevaluó en 2026 si la fase 1 fue cultivo itinerante u otra forma de explotación vegetal.",
+      "steps": [
+        { "kind": "organism", "status": "condicionado", "observed": "Almidones de taro y kudzu en un artefacto de la fase 1.", "inference": "Plantas de almidón procesadas hacia 10 000 años.", "limit": "Los almidones de taro y de un ñame son indistinguibles; la atribución es contextual.", "claimIds": ["CLAIM-CIV-DOMREG-KUK-STARCH-001"], "evidenceIds": ["EVID-CIV-DOMREG-KUK-001"], "sourceIds": ["SRC-COSTER-KUK-STARCH-2025"] },
+        { "kind": "trait", "status": "dato-ausente", "observed": "No hay serie de rasgos domesticados de taro en la fase 1.", "inference": "El banano muestra una domesticación por etapas a escala regional.", "limit": "Tubérculos y bananos dejan pocos restos morfológicos.", "claimIds": ["CLAIM-CIV-DOMREG-BANANA-WAIM-001"], "evidenceIds": ["EVID-CIV-DOMREG-NG-BANANA-WAIM-001"], "sourceIds": ["SRC-PERRIER-BANANA-2011"] },
+        { "kind": "management", "status": "sostenido", "observed": "Superficie alterada de 10.22–9.91 ka; montículos de 6.95–6.44 ka; zanjas posteriores.", "inference": "Manejo del humedal desde el Holoceno temprano y cultivo en montículos después.", "limit": "El cultivo en la fase 1 está en reevaluación (2026).", "claimIds": ["CLAIM-CIV-DOMREG-KUK-PHASE1-OPEN-001"], "evidenceIds": ["EVID-CIV-DOMREG-KUK-001"], "sourceIds": ["SRC-DENHAM-KUK-2003", "SRC-DENHAM-KUK-REASSESS-2026"] },
+        { "kind": "village", "status": "no-demostrado", "observed": "Kuk conserva rasgos de cultivo, no arquitectura de aldea.", "inference": "Cultivo y manejo sin aldea demostrada.", "limit": "La ausencia de casas excavadas no prueba ausencia de residencia.", "claimIds": ["CLAIM-CIV-DOMREG-VILLAGE-DECOUPLED-001"], "evidenceIds": ["EVID-CIV-DOMREG-KUK-001"], "sourceIds": ["SRC-DENHAM-KUK-2003"] },
+        { "kind": "date", "status": "condicionado", "observed": "Fechas de capas y rasgos por fase; Waim entre 5050 y 4200 años.", "inference": "Fases separadas por milenios, no un inicio único.", "limit": "La fecha de una capa no es la de cada almidón ni la del cultivo.", "claimIds": ["CLAIM-CIV-DOMREG-DATED-OBJECT-001", "CLAIM-CIV-DOMREG-BANANA-WAIM-001"], "evidenceIds": ["EVID-CIV-DOMREG-KUK-001", "EVID-CIV-DOMREG-NG-BANANA-WAIM-001"], "sourceIds": ["SRC-DENHAM-KUK-2003", "SRC-SHAW-WAIM-2020"] },
+        { "kind": "diffusion", "status": "condicionado", "observed": "Genética, arqueología y lingüística del banano desde Nueva Guinea hasta África occidental.", "inference": "Personas movieron y cultivaron bananos durante el Holoceno.", "limit": "Síntesis multidisciplinaria; rutas y fechas por etapa.", "claimIds": ["CLAIM-CIV-DOMREG-BANANA-WAIM-001", "CLAIM-CIV-DOMREG-DIFFUSION-BEFORE-FIXATION-001"], "evidenceIds": ["EVID-CIV-DOMREG-NG-BANANA-WAIM-001"], "sourceIds": ["SRC-PERRIER-BANANA-2011"] }
+      ]
+    },
+    {
+      "id": "cereales-africanos",
+      "title": "Sorgo y mijo perla",
+      "region": "África",
+      "window": "IV milenio–~2350 a. C.",
+      "archives": ["impresiones en cerámica", "granos y valvas", "archaeogenomas", "genomas actuales"],
+      "adversary": "Una domesticación africana tendría un cuello de botella y una fecha; los archaeogenomas de sorgo muestran selección escalonada durante toda la historia del cultivo.",
+      "steps": [
+        { "kind": "organism", "status": "sostenido", "observed": "Espiguillas de sorgo en cerámica de KG23; granos de mijo perla del Tilemsi.", "inference": "Sorgo y mijo perla presentes y usados.", "limit": "Una impresión no es un grano fechado directamente.", "claimIds": ["CLAIM-CIV-DOMREG-SORGHUM-GENOMES-001", "CLAIM-CIV-DOMREG-PEARL-MILLET-001"], "evidenceIds": ["EVID-CIV-DOMREG-AFRICA-CEREALS-001"], "sourceIds": ["SRC-WINCHELL-SORGHUM-2017", "SRC-MANNING-PEARL-MILLET-2011"] },
+        { "kind": "trait", "status": "sostenido", "observed": "Morfologías silvestres y domesticadas mezcladas; en el mijo perla el no quebradizo antecede al tamaño.", "inference": "Rasgos fijados en tiempos distintos.", "limit": "Series regionales, no continentales.", "claimIds": ["CLAIM-CIV-DOMREG-SORGHUM-GENOMES-001", "CLAIM-CIV-DOMREG-PEARL-MILLET-001"], "evidenceIds": ["EVID-CIV-DOMREG-AFRICA-CEREALS-001"], "sourceIds": ["SRC-SMITH-SORGHUM-GENOMES-2019", "SRC-MANNING-PEARL-MILLET-2011"] },
+        { "kind": "management", "status": "condicionado", "observed": "Diversidad que desciende y selección escalonada en una serie de sorgo de la Nubia egipcia.", "inference": "La domesticación siguió durante el cultivo, no sólo al inicio.", "limit": "Una sola localidad.", "claimIds": ["CLAIM-CIV-DOMREG-SORGHUM-GENOMES-001"], "evidenceIds": ["EVID-CIV-DOMREG-AFRICA-CEREALS-001"], "sourceIds": ["SRC-SMITH-SORGHUM-GENOMES-2019"] },
+        { "kind": "village", "status": "dato-ausente", "observed": "Los archivos auditados son cerámica, granos y genomas, no plantas de aldea.", "inference": "Ninguna inferencia de residencia desde estos archivos.", "limit": "El ganado y el pastoralismo se auditan en CIV-004.", "claimIds": ["CLAIM-CIV-DOMREG-SIX-FIELDS-001"], "evidenceIds": ["EVID-CIV-DOMREG-SIX-FIELDS-001"], "sourceIds": ["SRC-WINCHELL-SORGHUM-2017"] },
+        { "kind": "date", "status": "condicionado", "observed": "Inicio de la expansión del mijo perla hacia 4900 años (modelo); Tilemsi ~4500 años.", "inference": "Expansión del mijo perla desde el Sahara occidental en el Holoceno medio.", "limit": "Un reloj genómico no es la fecha de un sitio.", "claimIds": ["CLAIM-CIV-DOMREG-PEARL-MILLET-001", "CLAIM-CIV-DOMREG-DATED-OBJECT-001"], "evidenceIds": ["EVID-CIV-DOMREG-AFRICA-CEREALS-001"], "sourceIds": ["SRC-BURGARELLA-PEARL-MILLET-2018"] },
+        { "kind": "diffusion", "status": "sostenido", "observed": "Dos cariópsides del bajo Indo fechadas en 2578–2356 cal a. C.", "inference": "El mijo perla viajó al sur de Asia mientras su domesticación seguía en curso.", "limit": "Dos granos; la ruta no está documentada.", "claimIds": ["CLAIM-CIV-DOMREG-PEARL-MILLET-001", "CLAIM-CIV-DOMREG-DIFFUSION-BEFORE-FIXATION-001"], "evidenceIds": ["EVID-CIV-DOMREG-AFRICA-CEREALS-001"], "sourceIds": ["SRC-JIMENEZ-ARTEAGA-PEARL-MILLET-2025"] }
+      ]
+    },
+    {
+      "id": "tuberculos-palma",
+      "title": "Ñame y palma de aceite",
+      "region": "África occidental",
+      "window": "Holoceno medio y tardío",
+      "archives": ["genomas actuales", "macrorrestos de palma", "polen", "almidones"],
+      "adversary": "Si no hay restos de ñame, su cultivo sería tardío; pero los tubérculos casi no se preservan y sus almidones se confunden con los de otras plantas.",
+      "steps": [
+        { "kind": "organism", "status": "condicionado", "observed": "Macrorrestos de palma de aceite en tres abrigos rocosos del centro de Ghana.", "inference": "Uso significativo del fruto de palma.", "limit": "Del ñame casi no hay restos excavados.", "claimIds": ["CLAIM-CIV-DOMREG-TUBER-PALM-SILENCE-001"], "evidenceIds": ["EVID-CIV-DOMREG-TUBER-PALM-001"], "sourceIds": ["SRC-DANDREA-OIL-PALM-2006"] },
+        { "kind": "trait", "status": "condicionado", "observed": "Genomas de ñame: cultivado derivado de una especie de bosque.", "inference": "Domesticación del ñame desde poblaciones silvestres de bosque.", "limit": "Genomas actuales; sin serie de rasgos en depósitos.", "claimIds": ["CLAIM-CIV-DOMREG-TUBER-PALM-SILENCE-001"], "evidenceIds": ["EVID-CIV-DOMREG-TUBER-PALM-001"], "sourceIds": ["SRC-SCARCELLI-YAM-2019"] },
+        { "kind": "management", "status": "condicionado", "observed": "Aumento del polen de palma en el Holoceno tardío; macrorrestos en ocupaciones Kintampo.", "inference": "La arboricultura formó parte de la subsistencia.", "limit": "Clima o acción humana: la lectura del polen está en disputa.", "claimIds": ["CLAIM-CIV-DOMREG-TUBER-PALM-SILENCE-001"], "evidenceIds": ["EVID-CIV-DOMREG-TUBER-PALM-001"], "sourceIds": ["SRC-DANDREA-OIL-PALM-2006"] },
+        { "kind": "village", "status": "dato-ausente", "observed": "Los archivos auditados son abrigos rocosos y genomas.", "inference": "Ninguna inferencia de aldea desde estos archivos.", "limit": "El registro excavado del bosque tropical africano es escaso.", "claimIds": ["CLAIM-CIV-DOMREG-TUBER-PALM-SILENCE-001"], "evidenceIds": ["EVID-CIV-DOMREG-TUBER-PALM-001"], "sourceIds": ["SRC-DANDREA-OIL-PALM-2006"] },
+        { "kind": "date", "status": "dato-ausente", "observed": "No hay restos de ñame domesticado fechados en el Holoceno medio.", "inference": "La fecha arqueológica de domesticación del ñame no existe hoy.", "limit": "Silencio de preservación, no ausencia de cultivo.", "claimIds": ["CLAIM-CIV-DOMREG-TUBER-PALM-SILENCE-001", "CLAIM-CIV-DOMREG-DATED-OBJECT-001"], "evidenceIds": ["EVID-CIV-DOMREG-TUBER-PALM-001"], "sourceIds": ["SRC-SCARCELLI-YAM-2019", "SRC-COSTER-KUK-STARCH-2025"] },
+        { "kind": "diffusion", "status": "condicionado", "observed": "Expansión del ñame inferida desde la cuenca del Níger, como el arroz africano y el mijo perla.", "inference": "Los alrededores del Níger como cuna importante de cultivos africanos.", "limit": "Modelos espaciales sobre linajes actuales.", "claimIds": ["CLAIM-CIV-DOMREG-TUBER-PALM-SILENCE-001"], "evidenceIds": ["EVID-CIV-DOMREG-TUBER-PALM-001"], "sourceIds": ["SRC-SCARCELLI-YAM-2019", "SRC-CUBRY-AFRICAN-RICE-2018"] }
+      ]
+    },
+    {
+      "id": "mesoamerica",
+      "title": "Calabaza y maíz de Guilá Naquitz al Balsas",
+      "region": "Mesoamérica",
+      "window": "~10 950–1900 años",
+      "archives": ["macrorrestos fechados por AMS", "almidones y fitolitos", "genomas de maíz", "isótopos"],
+      "adversary": "Una domesticación única del maíz hace ~9000 años; el maíz moderno resultó de una mezcla con mexicana unos 4000 años después.",
+      "steps": [
+        { "kind": "organism", "status": "sostenido", "observed": "Calabazas y mazorcas en Guilá Naquitz; almidones y fitolitos de maíz en Xihuatoxtla.", "inference": "Calabaza y maíz presentes con relojes distintos.", "limit": "Mazorca y microrresto son objetos distintos.", "claimIds": ["CLAIM-CIV-DOMREG-GUILA-MAIZE-001", "CLAIM-CIV-GUILA-CUCURBITA-001"], "evidenceIds": ["EVID-CIV-DOMREG-GUILA-BALSAS-001"], "sourceIds": ["SRC-SMITH-CUCURBITA-1997", "SRC-PIPERNO-FLANNERY-GUILA-2001", "SRC-PIPERNO-BALSAS-2009"] },
+        { "kind": "trait", "status": "sostenido", "observed": "Calabazas con morfología domesticada de ~10–8 ka; en El Gigante, Cucurbita silvestre como recipiente desde ~10 950 cal BP.", "inference": "Domesticación temprana de C. pepo en Oaxaca; usar no es domesticar.", "limit": "El maíz temprano se conoce por microrrestos.", "claimIds": ["CLAIM-CIV-GUILA-CUCURBITA-001", "CLAIM-CIV-DOMREG-GUILA-MAIZE-001"], "evidenceIds": ["EVID-CIV-DOMREG-GUILA-BALSAS-001"], "sourceIds": ["SRC-SMITH-CUCURBITA-1997", "SRC-DOMIC-CUCURBIT-2024"] },
+        { "kind": "management", "status": "condicionado", "observed": "Herramientas de molienda con almidones; en Tehuacán, cultivo en periodo húmedo e intensificación siglos después.", "inference": "Cultivo y procesamiento antes de la intensificación.", "limit": "Isótopos de fauna dan contexto ambiental, no dieta humana.", "claimIds": ["CLAIM-CIV-DOMREG-MAIZE-ADMIXTURE-001"], "evidenceIds": ["EVID-CIV-DOMREG-MAIZE-GENOMES-001"], "sourceIds": ["SRC-RANERE-BALSAS-2009", "SRC-SOMERVILLE-TEHUACAN-2026"] },
+        { "kind": "village", "status": "no-demostrado", "observed": "Una cueva y una pequeña ocupación estacional.", "inference": "Domesticación sin aldea demostrada.", "limit": "Los sitios excavados no representan todo el paisaje.", "claimIds": ["CLAIM-CIV-DOMREG-VILLAGE-DECOUPLED-001"], "evidenceIds": ["EVID-CIV-DOMREG-GUILA-BALSAS-001"], "sourceIds": ["SRC-RANERE-BALSAS-2009"] },
+        { "kind": "date", "status": "sostenido", "observed": "Nueve AMS de calabaza (~10–8 ka); mazorcas de ~6250 años; microrrestos ≥8.7 ka cal BP.", "inference": "Dos relojes en una cueva y uno más antiguo en otro tipo de objeto.", "limit": "La fecha más antigua del maíz no es una mazorca.", "claimIds": ["CLAIM-CIV-DOMREG-DATED-OBJECT-001", "CLAIM-CIV-DOMREG-GUILA-MAIZE-001"], "evidenceIds": ["EVID-CIV-DOMREG-GUILA-BALSAS-001"], "sourceIds": ["SRC-PIPERNO-FLANNERY-GUILA-2001", "SRC-PIPERNO-BALSAS-2009"] },
+        { "kind": "diffusion", "status": "sostenido", "observed": "Maíz domesticado parcial en Sudamérica hacia ≥7000 cal BP; genomas de El Gigante con mezcla y retorno.", "inference": "El maíz viajó y siguió seleccionándose lejos de su origen.", "limit": "Muestreo antiguo limitado.", "claimIds": ["CLAIM-CIV-DOMREG-MAIZE-ADMIXTURE-001", "CLAIM-CIV-DOMREG-DIFFUSION-BEFORE-FIXATION-001"], "evidenceIds": ["EVID-CIV-DOMREG-MAIZE-GENOMES-001"], "sourceIds": ["SRC-KISTLER-MAIZE-2018", "SRC-KISTLER-GIGANTE-2020", "SRC-YANG-TEOSINTES-2023"] }
+      ]
+    },
+    {
+      "id": "este-norteamerica",
+      "title": "Complejo agrícola del Este",
+      "region": "Norteamérica",
+      "window": "~4000–3800 BP",
+      "archives": ["semillas carbonizadas", "AMS", "jardines experimentales", "genomas de un insecto"],
+      "adversary": "La testa delgada diagnostica quenopodio domesticado; los experimentos de 2023 muestran que buena parte es plasticidad.",
+      "steps": [
+        { "kind": "organism", "status": "sostenido", "observed": "Iva, quenopodio, calabaza, girasol y guaje en sitios del este de Estados Unidos.", "inference": "Cuatro especies domesticadas de forma independiente.", "limit": "Cultivos hoy extintos como domesticados.", "claimIds": ["CLAIM-CIV-DOMREG-EAC-001"], "evidenceIds": ["EVID-CIV-DOMREG-EAC-001"], "sourceIds": ["SRC-SMITH-ENA-2006"] },
+        { "kind": "trait", "status": "condicionado", "observed": "Plantas libres producen 15–34 % de semillas de testa delgada; cultivadas, más.", "inference": "Un conjunto carbonizado con testa delgada no basta para diagnosticar domesticación.", "limit": "Experimentos con poblaciones actuales.", "claimIds": ["CLAIM-CIV-DOMREG-EAC-PLASTICITY-001"], "evidenceIds": ["EVID-CIV-DOMREG-GOOSEFOOT-PLASTICITY-001"], "sourceIds": ["SRC-BELCHER-GOOSEFOOT-2023"] },
+        { "kind": "management", "status": "condicionado", "observed": "No hay registros escritos ni orales del cultivo de estos «cultivos perdidos».", "inference": "Prácticas reconstruidas con jardines experimentales.", "limit": "Experimento no es testimonio.", "claimIds": ["CLAIM-CIV-DOMREG-EAC-001", "CLAIM-CIV-DOMREG-EAC-PLASTICITY-001"], "evidenceIds": ["EVID-CIV-DOMREG-GOOSEFOOT-PLASTICITY-001"], "sourceIds": ["SRC-MUELLER-LOST-CROPS-2017"] },
+        { "kind": "village", "status": "no-demostrado", "observed": "Riverton es una ocupación breve.", "inference": "Complejo de cultivos sin aldea agrícola demostrada.", "limit": "Un sitio reanalizado.", "claimIds": ["CLAIM-CIV-DOMREG-VILLAGE-DECOUPLED-001"], "evidenceIds": ["EVID-CIV-DOMREG-EAC-001"], "sourceIds": ["SRC-SMITH-YARNELL-RIVERTON-2009"] },
+        { "kind": "date", "status": "sostenido", "observed": "AMS de Riverton: cultivo contemporáneo de al menos cinco especies hacia 3800 BP.", "inference": "El complejo se formó hacia 3800 BP; antes, especies aisladas.", "limit": "La fecha es de una ocupación, no del inicio de cada especie.", "claimIds": ["CLAIM-CIV-DOMREG-EAC-001"], "evidenceIds": ["EVID-CIV-DOMREG-EAC-001"], "sourceIds": ["SRC-SMITH-YARNELL-RIVERTON-2009"] },
+        { "kind": "diffusion", "status": "condicionado", "observed": "Una mosca parásita del tupinambo se separó entre 6850 y 2700 años atrás.", "inference": "Expansión antropogénica del tupinambo coetánea del complejo.", "limit": "Archivo indirecto y modelado.", "claimIds": ["CLAIM-CIV-DOMREG-EAC-001"], "evidenceIds": ["EVID-CIV-DOMREG-EAC-001"], "sourceIds": ["SRC-HIPPEE-SUNCHOKE-2026"] }
+      ]
+    },
+    {
+      "id": "amazonia-andes",
+      "title": "Yuca, cacao y paisaje",
+      "region": "Andes y Amazonía",
+      "window": "~10 350–500 años",
+      "archives": ["microrrestos", "teobromina y ADN antiguo", "inventarios forestales", "suelos"],
+      "adversary": "La Amazonía entera sería un paisaje domesticado; suelos de 55 sitios interfluviales muestran impacto pequeño y local.",
+      "steps": [
+        { "kind": "organism", "status": "sostenido", "observed": "Yuca en Moxos y Teotonio; cacao en Santa Ana-La Florida por almidón, teobromina y ADN.", "inference": "Yuca y cacao usados desde el Holoceno temprano y medio.", "limit": "Sitios puntuales.", "claimIds": ["CLAIM-CIV-DOMREG-CACAO-MANIOC-001"], "evidenceIds": ["EVID-CIV-DOMREG-CACAO-MANIOC-001"], "sourceIds": ["SRC-ZARRILLO-CACAO-2018", "SRC-WATLING-TEOTONIO-2018", "SRC-LOMBARDO-AMAZONIA-2020"] },
+        { "kind": "trait", "status": "dato-ausente", "observed": "No hay series morfológicas de rasgos domesticados de cacao o yuca comparables a las de cereales.", "inference": "El origen de la yuca se infiere de genomas: borde sur de la Amazonía.", "limit": "Genomas actuales; linajes perdidos.", "claimIds": ["CLAIM-CIV-DOMREG-CACAO-MANIOC-001"], "evidenceIds": ["EVID-CIV-DOMREG-CACAO-MANIOC-001"], "sourceIds": ["SRC-OLSEN-SCHAAL-CASSAVA-1999"] },
+        { "kind": "management", "status": "condicionado", "observed": "Especies leñosas domesticadas más abundantes cerca de sitios; policultivo bajo dosel en tierras oscuras.", "inference": "Paisajes manejados en riberas y regiones concretas.", "limit": "Interfluvios con poca señal humana.", "claimIds": ["CLAIM-CIV-DOMREG-AMAZON-LANDSCAPE-001"], "evidenceIds": ["EVID-CIV-DOMREG-AMAZON-LANDSCAPE-001"], "sourceIds": ["SRC-LEVIS-AMAZON-FORESTS-2017", "SRC-IRIARTE-AMAZON-ORIGINS-2020", "SRC-MCMICHAEL-SPARSE-2012"] },
+        { "kind": "village", "status": "condicionado", "observed": "Santa Ana-La Florida y tierras oscuras con asentamiento; Teotonio sobre un acantilado del Madeira.", "inference": "Asentamientos con cultivo en sitios concretos.", "limit": "Densidad y permanencia varían por sitio.", "claimIds": ["CLAIM-CIV-DOMREG-AMAZON-LANDSCAPE-001", "CLAIM-CIV-DOMREG-CACAO-MANIOC-001"], "evidenceIds": ["EVID-CIV-DOMREG-AMAZON-LANDSCAPE-001"], "sourceIds": ["SRC-CLEMENT-AMAZONIA-2015", "SRC-WATLING-TEOTONIO-2018"] },
+        { "kind": "date", "status": "condicionado", "observed": "Yuca ~10.35 ka (Moxos); Teotonio ~9000–5000 cal BP; cacao ~5300 años.", "inference": "Relojes locales del Holoceno temprano y medio.", "limit": "Asociación de microrrestos y sedimentos.", "claimIds": ["CLAIM-CIV-DOMREG-CACAO-MANIOC-001", "CLAIM-CIV-DOMREG-DATED-OBJECT-001"], "evidenceIds": ["EVID-CIV-DOMREG-CACAO-MANIOC-001"], "sourceIds": ["SRC-LOMBARDO-AMAZONIA-2020", "SRC-WATLING-TEOTONIO-2018", "SRC-ZARRILLO-CACAO-2018"] },
+        { "kind": "diffusion", "status": "sostenido", "observed": "Residuos de cacao fuera de la Amazonía desde ~5000 años; mezcla genética temprana entre poblaciones distantes.", "inference": "Personas movieron y mezclaron el cacao.", "limit": "Muestreo cerámico desigual.", "claimIds": ["CLAIM-CIV-DOMREG-CACAO-MANIOC-001", "CLAIM-CIV-DOMREG-DIFFUSION-BEFORE-FIXATION-001"], "evidenceIds": ["EVID-CIV-DOMREG-CACAO-MANIOC-001"], "sourceIds": ["SRC-LANAUD-CACAO-2024"] }
+      ]
+    }
+  ]
+}

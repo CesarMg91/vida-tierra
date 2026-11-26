@@ -195,6 +195,28 @@ for (const identityCase of identitiesData.cases) {
   }
 }
 
+const domesticationsData = JSON.parse(fs.readFileSync(path.join(ROOT, "content", "civilization-domestications.json"), "utf8"));
+const domesticationKinds = ["organism", "trait", "management", "village", "date", "diffusion"];
+const domesticationStatuses = new Set(["sostenido", "condicionado", "no-demostrado", "dato-ausente"]);
+check(domesticationsData.schemaVersion === 1, "el módulo de domesticaciones usa una versión de esquema desconocida");
+check(researchSlugs.has(domesticationsData.researchSlug), `el módulo de domesticaciones apunta a un expediente inexistente: ${domesticationsData.researchSlug}`);
+check(Array.isArray(domesticationsData.cases) && domesticationsData.cases.length > 0, "el módulo de domesticaciones no contiene archivos");
+check(duplicates(domesticationsData.cases.map((record) => record.id)).length === 0, "el módulo de domesticaciones contiene archivos duplicados");
+for (const domesticationCase of domesticationsData.cases) {
+  check(Boolean(domesticationCase.title) && Boolean(domesticationCase.region) && Boolean(domesticationCase.adversary), `${domesticationCase.id} no declara título, región o adversario`);
+  check(
+    JSON.stringify(domesticationCase.steps?.map((step) => step.kind)) === JSON.stringify(domesticationKinds),
+    `${domesticationCase.id} no conserva los seis campos canónicos en orden`,
+  );
+  for (const step of domesticationCase.steps ?? []) {
+    check(domesticationStatuses.has(step.status), `${domesticationCase.id}/${step.kind} usa un estado desconocido: ${step.status}`);
+    check(Boolean(step.observed) && Boolean(step.inference) && Boolean(step.limit), `${domesticationCase.id}/${step.kind} tiene un campo vacío`);
+    for (const id of step.claimIds ?? []) check(claimIds.has(id), `${domesticationCase.id}/${step.kind} enlaza un claim inexistente: ${id}`);
+    for (const id of step.evidenceIds ?? []) check(evidenceIds.has(id), `${domesticationCase.id}/${step.kind} enlaza una evidencia inexistente: ${id}`);
+    for (const id of step.sourceIds ?? []) check(sourceIds.has(id), `${domesticationCase.id}/${step.kind} enlaza una fuente inexistente: ${id}`);
+  }
+}
+
 const medicineData = JSON.parse(fs.readFileSync(path.join(ROOT, "content", "medicine-evidence.json"), "utf8"));
 const clinicalKinds = ["question", "comparison", "outcomes", "estimate", "applicability", "decision"];
 check(medicineData.schemaVersion === 1, "el módulo médico usa una versión de esquema desconocida");

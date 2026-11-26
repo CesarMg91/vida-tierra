@@ -1759,3 +1759,72 @@ Generada por el proyecto sin modelos de imagen: `node scripts/generate-med-027-v
 ### Revisión y límites
 
 Las tres salidas se inspeccionaron completas tras rasterizar. La portada evita a propósito cuerpos, órganos, siluetas, quirófanos, células dibujadas o figuras humanas: celdas, grafos y redes son geometría sin referente. Los SVG se construyeron a `1600 × 900` (diagramas) y `1672 × 941` (portada), incluyen `title`, `desc` y tipografía de reserva. Ninguno acepta datos personales, calcula compatibilidad o riesgos, recomienda, fija criterios de elegibilidad ni indica dosis.
+
+## 91. MED-028 — Una incisión más pequeña no demuestra una operación mejor por sí sola
+
+![Portada editorial de MED-028](assets/visuales/hero-med-028-cirugia-especializada-minima-invasion.png)
+
+![Cadena desde la técnica hasta el resultado quirúrgico](assets/visuales/cadena-tecnica-resultado-med-028.svg)
+
+![Matriz de expedientes de cirugía especializada y mínimamente invasiva](assets/visuales/matriz-cirugia-especializada-med-028.svg)
+
+| Archivo | Tipo | Procedencia | Qué representa | Límite obligatorio |
+|---|---|---|---|---|
+| `hero-med-028-cirugia-especializada-minima-invasion.png` | portada editorial generativa | rasterizado con `sharp` de `hero-med-028-cirugia-especializada-minima-invasion.svg` mediante `node scripts/generate-med-028-visuals.mjs --png`, 2026-11-25 | campo de trazos cortos que pasan del desorden a filas alineadas, anillos concéntricos unidos por líneas a un centro y haces de curvas que se abren, sobre gradientes | no representa cuerpos, órganos, instrumentos, personas, datos ni un acontecimiento real |
+| `hero-med-028-cirugia-especializada-minima-invasion.svg` | fuente generativa determinista | SVG producido por `scripts/generate-med-028-visuals.mjs` con semilla fija `28028` | misma composición en vectores | líneas, círculos y curvas sin información |
+| `cadena-tecnica-resultado-med-028.svg` | diagrama epistemológico original | SVG producido por `scripts/generate-med-028-visuals.mjs`, 2026-11-25 | técnica → operador → equipo → industria → aprendizaje → comparación → resultado | las flechas no heredan operador, sistema, beneficio, evidencia, efecto, comparación ni desenlace |
+| `matriz-cirugia-especializada-med-028.svg` | matriz documental original | SVG producido por `scripts/generate-med-028-visuals.mjs`, 2026-11-25 | los doce expedientes de «Qué podemos comparar» cruzados con las siete capas; cada marca indica presencia | las marcas no gradúan fuerza de evidencia ni forman prioridad, progreso o ranking entre cirugía abierta, laparoscópica y robótica |
+
+### Procedencia de la portada
+
+Generada por el proyecto sin modelos de imagen: `node scripts/generate-med-028-visuals.mjs --png` escribe el SVG con semilla fija y lo rasteriza con `sharp` (ya instalado) a `1672 × 941`. Tamaño: `512531` bytes; SHA-256: `68529ac5c30e4d7d124b0e5fab2d41e44a729d8a23615dfaaed8be52f315ed88`. Dos ejecuciones consecutivas producen el mismo archivo byte a byte.
+
+### Revisión y límites
+
+Las tres salidas se inspeccionaron completas tras rasterizar. La portada evita a propósito cuerpos, órganos, siluetas, quirófanos, instrumentos, robots o figuras humanas: trazos, anillos y curvas son geometría sin referente (una primera versión con los anillos en abanico se descartó por parecer una mano). Los SVG se construyeron a `1600 × 900` (diagramas) y `1672 × 941` (portada), incluyen `title`, `desc` y tipografía de reserva. Ninguno acepta datos personales, calcula riesgos, recomienda, indica ni prefiere una técnica.
+
+## 92. MED-029 — Un ensayo publicado no demuestra una evidencia completa por sí solo
+
+![Portada editorial de MED-029](assets/visuales/hero-med-029-ensayos-regulacion-evidencia.png)
+
+![Cadena desde el diseño hasta la decisión](assets/visuales/cadena-diseno-decision-med-029.svg)
+
+![Matriz de ensayos, regulación y medicina basada en evidencia](assets/visuales/matriz-ensayos-evidencia-med-029.svg)
+
+| Archivo | Tipo | Procedencia | Qué representa | Límite obligatorio |
+|---|---|---|---|---|
+| `hero-med-029-ensayos-regulacion-evidencia.png` | portada editorial generativa | rasterizado con `sharp` de `hero-med-029-ensayos-regulacion-evidencia.svg` mediante `node scripts/generate-med-029-visuals.mjs --png`, 2026-11-25 | columnas de marcas alternas, una retícula de casillas llenas y contorneadas, y puntos que convergen a un vértice | no representa personas, pacientes, fármacos, documentos, datos ni un acontecimiento real |
+| `hero-med-029-ensayos-regulacion-evidencia.svg` | fuente generativa determinista | SVG producido por `scripts/generate-med-029-visuals.mjs` con semilla fija `29029` | misma composición en vectores | marcas, casillas y puntos sin información |
+| `cadena-diseno-decision-med-029.svg` | diagrama epistemológico original | SVG producido por `scripts/generate-med-029-visuals.mjs`, 2026-11-25 | diseño, asignación, consentimiento, registro, publicación, síntesis y decisión | las flechas no heredan grupos iguales, ética, justificación, informe, evidencia completa ni decisión |
+| `matriz-ensayos-evidencia-med-029.svg` | matriz documental original | SVG producido por `scripts/generate-med-029-visuals.mjs`, 2026-11-25 | doce expedientes, archivos, productos y límites | las filas no forman prioridad, progreso ni ranking |
+
+### Procedencia de la portada
+
+Generada por el proyecto sin modelos de imagen: `node scripts/generate-med-029-visuals.mjs --png` escribe el SVG con semilla fija y lo rasteriza con `sharp` (ya instalado) a `1672 × 941`. Tamaño: `159770` bytes; SHA-256: `2dec6d6acac93cae299231750dbf10b5e8d0cd92d447f37cd17a1ea52a977631`. Dos ejecuciones consecutivas producen el mismo archivo byte a byte.
+
+### Revisión y límites
+
+Las tres salidas se inspeccionaron completas tras rasterizar. La portada evita a propósito barcos, frascos, jeringas, sobres, formularios, pacientes, logotipos institucionales o gráficos de bosque reales: las marcas alternas aluden a una regla de reparto, las casillas contorneadas a lo declarado que no se ve y la convergencia a una suma, sin representar ningún ensayo, registro ni resultado. Los SVG se construyeron a `1600 × 900` (diagramas) y `1672 × 941` (portada), incluyen `title`, `desc` y tipografía de reserva. Ninguno acepta datos personales, calcula efectos ni indica tratamientos.
+
+## 93. CIV-006 — Una semilla no es una aldea
+
+![Portada editorial de CIV-006](assets/visuales/hero-civ-006-domesticaciones-aldeas.png)
+
+![Cadena de seis campos](assets/visuales/cadena-semilla-aldea-civ-006.svg)
+
+![Matriz de archivos regionales por campo](assets/visuales/matriz-regiones-campos-civ-006.svg)
+
+| Archivo | Tipo | Procedencia | Qué representa | Límite obligatorio |
+|---|---|---|---|---|
+| `hero-civ-006-domesticaciones-aldeas.png` | portada editorial generativa | rasterizado con `sharp` de `hero-civ-006-domesticaciones-aldeas.svg` mediante `node scripts/generate-civ-006-visuals.mjs --png`, 2026-11-25 | seis bandejas con granos, espiguillas, fitolitos, almidones, un contorno casi vacío y semillas, con hilos de fecha que caen a estratos distintos | no mapa, aldea, planta de una región concreta, persona ni texto |
+| `hero-civ-006-domesticaciones-aldeas.svg` | fuente generativa determinista | SVG producido por `scripts/generate-civ-006-visuals.mjs` con semilla fija | misma composición en vectores | formas genéricas sin información arqueológica |
+| `cadena-semilla-aldea-civ-006.svg` | diagrama epistemológico original | SVG producido por `scripts/generate-civ-006-visuals.mjs`, 2026-11-25 | seis campos con lo que cada uno no hereda | el orden de lectura no es una secuencia histórica |
+| `matriz-regiones-campos-civ-006.svg` | matriz epistemológica original | SVG producido por `scripts/generate-civ-006-visuals.mjs` desde `content/civilization-domestications.json`, 2026-11-25 | ocho archivos regionales por seis campos con su estado | el estado es del archivo, no una calificación de la región |
+
+### Procedencia de la portada
+
+Generada por el proyecto sin modelos de imagen: `node scripts/generate-civ-006-visuals.mjs --png` escribe el SVG con la semilla `6006` y lo rasteriza con `sharp` a `1672 × 941`. Tamaño: `151513` bytes; SHA-256: `6ec802fbe84ce4f6393861cb2bf13cad978c324d0c5f4baeb1b1440cf40ed68d`.
+
+### Revisión y límites
+
+Las tres salidas se inspeccionaron completas tras rasterizar. La portada evita a propósito mapas, siluetas de plantas reconocibles de una región, casas, personas y texto: no ilustra un origen, sino archivos de restos distintos con fechas que caen a alturas diferentes. La bandeja casi vacía con un contorno punteado señala el silencio de preservación de los tubérculos, no su ausencia. Los SVG de cadena y matriz se diseñaron a `1600 × 900` con `title` y `desc`; la matriz se regenera desde el módulo público para que ambos no diverjan.

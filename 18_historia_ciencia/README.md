@@ -62,3 +62,5 @@ Historia de cómo se reconstruyó la historia: creencias previas, evidencia disr
 - [`HISTORIA_CIV_004_NILO_AFRICA_NORORIENTAL.md`](HISTORIA_CIV_004_NILO_AFRICA_NORORIENTAL.md) — de la seriación de Petrie al Bayes, de Nabta a Qustul: cómo la «unificación» se volvió un proceso — **AUDITADO**.
 
 - [`HISTORIA_CIV_005_NOMBRES_IDENTIDADES.md`](HISTORIA_CIV_005_NOMBRES_IDENTIDADES.md) — de Kossinna y Childe a la crítica procesual y posprocesual y a la paleogenómica: cómo una cultura dejó de ser un pueblo — **AUDITADO**.
+
+- [`HISTORIA_CIV_006_DOMESTICACIONES_ALDEAS_REGIONALES.md`](HISTORIA_CIV_006_DOMESTICACIONES_ALDEAS_REGIONALES.md) — de buscar el centro a leer el archivo: AMS, genomas actuales, fitolitos fechados, plasticidad y reevaluaciones — **AUDITADO**.

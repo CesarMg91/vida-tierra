@@ -71,7 +71,7 @@ La numeración futura se asignará al iniciar cada expediente para no crear IDs 
 3. [`INV-CIV-IDENTITIES-001`](INVESTIGACION_CIV_005_NOMBRES_IDENTIDADES.md) — nombres e identidades: cultura material, lengua, ADN, etnicidad, endónimos y exónimos — **AUDITADO como CIV-005**.
 4. Asia sudoccidental — de campamentos y aldeas a urbanismos del norte y sur.
 5. [`INV-CIV-NILE-001`](INVESTIGACION_CIV_004_VALLE_NILO_AFRICA_NORORIENTAL.md) — Nilo y África nororiental: pastoralismos, agregación y formación estatal — **AUDITADO como CIV-004**.
-6. Domesticaciones y aldeas de Asia oriental, Nueva Guinea, África y Américas por archivos regionales.
+6. [`INV-CIV-DOMESTICATIONS-001`](INVESTIGACION_CIV_006_DOMESTICACIONES_ALDEAS_REGIONALES.md) — domesticaciones y aldeas de Asia oriental, Nueva Guinea, África y Américas por archivos regionales — **AUDITADO como CIV-006**.
 7. Urbanismos comparados: Mesopotamia, Indo, China, Mesoamérica, Andes, África y Norteamérica.
 8. Escrituras, notaciones, oralidad y archivos administrativos sin jerarquía cognitiva.
 9. Estados e imperios: reclamación, logística, negociación y control desigual.

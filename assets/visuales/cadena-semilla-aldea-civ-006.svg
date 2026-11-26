@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Una semilla no es una aldea: seis campos y sus saltos</title>
+  <desc id="desc">Seis cajas —planta o animal, rasgo, cultivo o manejo, aldea, fecha y difusión— unidas por líneas que indican el orden de lectura, no una herencia. Debajo, arcos discontinuos marcan lo que cada campo no hereda del anterior: estar domesticado, haberse cultivado ahí, la aldea, la agricultura y el origen. La fecha se lee siempre como objeto fechado (CIV-002).</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#0b1011"/><stop offset="1" stop-color="#171512"/></linearGradient>
+    <style>.k{font:19px Consolas,monospace;letter-spacing:2px;fill:#c39456}.h{font:24px Georgia,serif;fill:#efe3d1}.t{font:19px Arial,sans-serif;fill:#c9c2b8}.l{font:16px Arial,sans-serif;fill:#d6a27b}.small{font:14px Consolas,monospace;fill:#91ad92}.cell{font:13px Arial,sans-serif;fill:#151310}.head{font:13px Consolas,monospace;letter-spacing:1px;fill:#c39456}.row{font:15px Arial,sans-serif;fill:#e6dccd}.rule{stroke:#8b6a43;stroke-width:2}.dash{stroke:#a96545;stroke-width:2;stroke-dasharray:8 8;fill:none}</style>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <text x="70" y="96" class="k">CIV-006 · SEIS CAMPOS</text>
+  <text x="70" y="150" font-family="Georgia,serif" font-size="42" fill="#f2e7d6">Una semilla no es una aldea</text>
+  <text x="70" y="190" class="t">Cada archivo regional se registra en seis campos. Un caso puede estar sostenido en uno y vacío en otro.</text>
+  <g transform="translate(70 300)"><rect width="218" height="150" fill="#141a19" stroke="#779176"/><text x="16" y="46" class="h">Planta o animal</text><text x="16" y="86" class="small">identificación:</text><text x="16" y="108" class="small">resto, fitolito, ADN</text></g>
+  <g transform="translate(318 300)"><rect width="218" height="150" fill="#141a19" stroke="#779176"/><text x="16" y="46" class="h">Rasgo</text><text x="16" y="86" class="small">serie de espiga,</text><text x="16" y="108" class="small">grano o testa</text></g>
+  <g transform="translate(566 300)"><rect width="218" height="150" fill="#141a19" stroke="#779176"/><text x="16" y="46" class="h">Cultivo o manejo</text><text x="16" y="86" class="small">malezas, canales,</text><text x="16" y="108" class="small">fuego, herramientas</text></g>
+  <g transform="translate(814 300)"><rect width="218" height="150" fill="#141a19" stroke="#779176"/><text x="16" y="46" class="h">Aldea</text><text x="16" y="86" class="small">casas, pozos,</text><text x="16" y="108" class="small">cerámica</text></g>
+  <g transform="translate(1062 300)"><rect width="218" height="150" fill="#141a19" stroke="#779176"/><text x="16" y="46" class="h">Fecha</text><text x="16" y="86" class="small">qué objeto</text><text x="16" y="108" class="small">y con qué reloj</text></g>
+  <g transform="translate(1310 300)"><rect width="218" height="150" fill="#141a19" stroke="#779176"/><text x="16" y="46" class="h">Difusión</text><text x="16" y="86" class="small">restos lejos</text><text x="16" y="108" class="small">+ genomas</text></g>
+  <path class="rule" d="M292 375H312"/><path d="M312 369L316 375L312 381" fill="none" stroke="#8b6a43" stroke-width="2"/>
+  <path class="rule" d="M540 375H560"/><path d="M560 369L564 375L560 381" fill="none" stroke="#8b6a43" stroke-width="2"/>
+  <path class="rule" d="M788 375H808"/><path d="M808 369L812 375L808 381" fill="none" stroke="#8b6a43" stroke-width="2"/>
+  <path class="rule" d="M1036 375H1056"/><path d="M1056 369L1060 375L1056 381" fill="none" stroke="#8b6a43" stroke-width="2"/>
+  <path class="rule" d="M1284 375H1304"/><path d="M1304 369L1308 375L1304 381" fill="none" stroke="#8b6a43" stroke-width="2"/>
+  <path class="dash" d="M179 455C229 555 377 555 427 455"/><text x="241" y="594" class="l">≠ domesticado</text>
+  <path class="dash" d="M427 455C477 555 625 555 675 455"/><text x="489" y="594" class="l">≠ cultivado aquí</text>
+  <path class="dash" d="M675 455C725 555 873 555 923 455"/><text x="737" y="594" class="l">≠ aldea</text>
+  <path class="dash" d="M923 455C973 555 1121 555 1171 455"/><text x="985" y="594" class="l">≠ agricultura</text>
+  <path class="dash" d="M1171 455C1221 555 1369 555 1419 455"/><text x="1233" y="594" class="l">≠ origen</text>
+  <text x="70" y="700" class="t">Shangshan tuvo aldea antes del rasgo domesticado; Kuk tuvo manejo sin aldea; Guilá Naquitz, calabaza domesticada en una cueva.</text>
+  <text x="70" y="736" class="t">El maíz y el mijo perla viajaron antes de terminar su domesticación. El ñame tiene genoma y casi ningún resto.</text>
+  <text x="70" y="772" class="t">Un fitolito no es una espiga, un genoma actual no es un sitio y un silencio de preservación no es una ausencia.</text>
+</svg>

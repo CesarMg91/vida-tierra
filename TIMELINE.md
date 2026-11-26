@@ -477,7 +477,7 @@ Las fechas pertenecen a objetos, muestras, fases o publicaciones. No son estacio
 
 ## Próxima acción de la línea CIV
 
-CIV-003 inaugura los expedientes regionales auditados y CIV-004 los continúa con el Nilo y África nororiental (sección «CIV-004» al final de este archivo). CIV-005 fija la cadena de nombres e identidades que esos expedientes aplican (sección «CIV-005» al final de este archivo). CIV-001 conserva `TRAZADO`; la secuencia global `001–052` permanece completa. El siguiente expediente es el sexto del programa, usando los mismos controles de nombres, relojes y escalas.
+CIV-003 inaugura los expedientes regionales auditados y CIV-004 los continúa con el Nilo y África nororiental (sección «CIV-004» al final de este archivo). CIV-005 fija la cadena de nombres e identidades que esos expedientes aplican (sección «CIV-005» al final de este archivo). CIV-001 conserva `TRAZADO`; la secuencia global `001–052` permanece completa. CIV-006 audita el sexto: domesticaciones y aldeas de Asia oriental, Nueva Guinea, África y Américas por archivos regionales (sección «CIV-006» al final de este archivo). El siguiente es el séptimo: urbanismos comparados.
 
 ## XIII. MED-001 — Historia de herramientas para estimar efectos
 
@@ -1423,3 +1423,136 @@ Las fechas pertenecen a estilos, muestras, filogenias o publicaciones. Ninguna f
 | `TIME-MED-GRAFT-XENO-LIVER-2025-001` | 2025 | hígado auxiliar de cerdo en un receptor vivo, 171 días | caso | `SRC-MED-GRAFT-ZHU-2026`, `SRC-MED-GRAFT-LADOWSKI-2026` | A/B comentario | AUDITADO |
 | `TIME-MED-GRAFT-XENO-BRIDGE-2026-001` | 25 ene. 2025–2026 | riñón de cerdo como puente al aloinjerto | caso | `SRC-MED-GRAFT-RIELLA-2026` | A publicación | AUDITADO |
 | `TIME-MED-GRAFT-XENO-YEAR-2026-001` | 22 nov. 2025–23 nov. 2026 | receptora sin diálisis más de un año | comunicado | `SRC-MED-GRAFT-EGENESIS-2026` | B-COND comunicado | AUDITADO |
+
+## MED-028 — Cirugía especializada y mínimamente invasiva
+
+| ID | Fecha/rango | Evento | Producto | Fuentes | Confianza | Estado |
+|---|---|---|---|---|---|---|
+| `TIME-MED-SURG-HALSTED-COCAINE-1884-001` | fines de 1884 | Halsted y colegas experimentan con cocaína como anestésico local | autoexperimento y adicción | `SRC-MED-SURG-WRIGHT-SCHACHAR-2020` | B histórico | AUDITADO |
+| `TIME-MED-SURG-HALSTED-SERIES-1894-001` | 1889–1894 | serie de operaciones por cáncer de mama de Halsted | serie del cirujano | `SRC-MED-SURG-HALSTED-1894` | A publicación | AUDITADO |
+| `TIME-MED-SURG-HALSTED-RESIDENCY-001` | 1890–1922 | residencia escalonada de Halsted en Johns Hopkins | modelo de formación | `SRC-MED-SURG-WRIGHT-SCHACHAR-2020` | B histórico | AUDITADO |
+| `TIME-MED-SURG-GIBBON-1953-001` | 6 may. 1953 | primer uso exitoso de la máquina corazón-pulmón | caso | `SRC-MED-SURG-HILL-1982`, `SRC-MED-SURG-KURUSZ-2012` | A/B histórico | AUDITADO |
+| `TIME-MED-SURG-LILLEHEI-1954-001` | 26 mar. 1954–19 jul. 1955 | 45 operaciones con circulación cruzada en Minneapolis | serie con donante humano | `SRC-MED-SURG-LILLEHEI-1986`, `SRC-MED-SURG-MOLLER-2009` | A publicación | AUDITADO |
+| `TIME-MED-SURG-COBB-1959-001` | 1959 | ensayo con control simulado de ligadura mamaria interna | comparación simulada | `SRC-MED-SURG-COBB-1959`, `SRC-MED-SURG-MILLER-2012` | A publicación | AUDITADO |
+| `TIME-MED-SURG-DIMOND-1960-001` | 1960 | segundo ensayo simulado de ligadura mamaria interna | comparación simulada | `SRC-MED-SURG-DIMOND-1960`, `SRC-MED-SURG-MILLER-2012` | A publicación | AUDITADO |
+| `TIME-MED-SURG-NSABP-B04-1971-001` | 1971 | inicio del ensayo NSABP B-04 | comparación aleatorizada | `SRC-MED-SURG-FISHER-2002` | A publicación | AUDITADO |
+| `TIME-MED-SURG-LUFT-1979-001` | 1979 | Luft, Bunker y Enthoven: volumen y mortalidad | registro | `SRC-MED-SURG-LUFT-1979` | A publicación | AUDITADO |
+| `TIME-MED-SURG-MUHE-1985-001` | 12 sep. 1985 | Mühe: primera colecistectomía laparoscópica | caso | `SRC-MED-SURG-LITYNSKI-1998`, `SRC-MED-SURG-REYNOLDS-2001` | B histórico | AUDITADO |
+| `TIME-MED-SURG-MUHE-REJECTION-1986-001` | abr. 1986 | Mühe presenta en el congreso alemán y es ignorado | rechazo | `SRC-MED-SURG-LITYNSKI-1998` | B histórico | AUDITADO |
+| `TIME-MED-SURG-MOURET-1987-001` | 1987 | Mouret: primera colecistectomía laparoscópica de Francia | caso | `SRC-MED-SURG-REYNOLDS-2001` | B histórico | AUDITADO |
+| `TIME-MED-SURG-LC-USA-1988-001` | jun.–sep. 1988 | primeras colecistectomías laparoscópicas en Estados Unidos | casos y cursos | `SRC-MED-SURG-REYNOLDS-2001`, `SRC-MED-SURG-REDDICK-1989` | B histórico | AUDITADO |
+| `TIME-MED-SURG-DUBOIS-1990-001` | 1990 | Dubois publica 36 casos | serie | `SRC-MED-SURG-DUBOIS-1990` | A publicación | AUDITADO |
+| `TIME-MED-SURG-SAGES-1990-001` | 1990 | la SAGES reconoce a cinco pioneros sin Mühe | crédito | `SRC-MED-SURG-REYNOLDS-2001` | B histórico | AUDITADO |
+| `TIME-MED-SURG-SSC-1991-001` | 1991 | Southern Surgeons Club: 1 518 colecistectomías laparoscópicas | serie prospectiva | `SRC-MED-SURG-SSC-1991` | A publicación | AUDITADO |
+| `TIME-MED-SURG-MUHE-HONOR-1992-001` | 21 abr. 1992 | honores oficiales a Mühe en Alemania | reconocimiento | `SRC-MED-SURG-LITYNSKI-1998` | B histórico | AUDITADO |
+| `TIME-MED-SURG-LEGORRETA-1993-001` | 1993 | más colecistectomías tras la laparoscopia | registro | `SRC-MED-SURG-LEGORRETA-1993` | A publicación | AUDITADO |
+| `TIME-MED-SURG-MOORE-1995-001` | 1995 | curva de aprendizaje de la colecistectomía laparoscópica | regresión | `SRC-MED-SURG-MOORE-1995` | A publicación | AUDITADO |
+| `TIME-MED-SURG-MAJEED-1996-001` | 1996 | ensayo de laparoscopia frente a incisión pequeña | comparación aleatorizada | `SRC-MED-SURG-MAJEED-1996` | A publicación | AUDITADO |
+| `TIME-MED-SURG-SAGES-1999-001` | mar. 1999 | la SAGES reconoce a Mühe | crédito | `SRC-MED-SURG-REYNOLDS-2001` | B histórico | AUDITADO |
+| `TIME-MED-SURG-BIRKMEYER-2002-001` | 2002 | volumen hospitalario y mortalidad en Medicare | registro | `SRC-MED-SURG-BIRKMEYER-2002` | A publicación | AUDITADO |
+| `TIME-MED-SURG-HALM-2002-001` | 2002 | revisión metodológica de 135 estudios de volumen | revisión sistemática | `SRC-MED-SURG-HALM-2002` | A publicación | AUDITADO |
+| `TIME-MED-SURG-MOSELEY-2002-001` | 2002 | artroscopia de rodilla frente a simulacro | comparación simulada | `SRC-MED-SURG-MOSELEY-2002` | A publicación | AUDITADO |
+| `TIME-MED-SURG-NSABP-B04-2002-001` | 2002 | 25 años de NSABP B-04 sin ventaja de la mastectomía radical | seguimiento aleatorizado | `SRC-MED-SURG-FISHER-2002` | A publicación | AUDITADO |
+| `TIME-MED-SURG-WAY-2003-001` | 2003 | 252 lesiones biliares analizadas como errores de percepción | análisis de factores humanos | `SRC-MED-SURG-WAY-2003` | A publicación | AUDITADO |
+| `TIME-MED-SURG-FLUM-2003-001` | 2003 | lesión biliar y supervivencia en Medicare | cohorte | `SRC-MED-SURG-FLUM-2003` | A publicación | AUDITADO |
+| `TIME-MED-SURG-BIRKMEYER-2003-001` | 2003 | volumen del cirujano y mortalidad | registro | `SRC-MED-SURG-BIRKMEYER-2003` | A publicación | AUDITADO |
+| `TIME-MED-SURG-COST-2004-001` | 2004 | ensayo COST de colectomía laparoscópica por cáncer | comparación aleatorizada | `SRC-MED-SURG-COST-2004` | A publicación | AUDITADO |
+| `TIME-MED-SURG-IDEAL-2009-001` | sep. 2009 | recomendaciones IDEAL | marco de evaluación | `SRC-MED-SURG-MCCULLOCH-2009`, `SRC-MED-SURG-BARKUN-2009` | A publicación | AUDITADO |
+| `TIME-MED-SURG-GHAFERI-2009-001` | 2009 | mortalidad hospitalaria y rescate de complicaciones | registro clínico | `SRC-MED-SURG-GHAFERI-2009` | A publicación | AUDITADO |
+| `TIME-MED-SURG-BIRKMEYER-2013-001` | 2013 | habilidad calificada en video y complicaciones | estudio observacional | `SRC-MED-SURG-BIRKMEYER-2013` | A publicación | AUDITADO |
+| `TIME-MED-SURG-WARTOLOWSKA-2014-001` | 2014 | revisión de 53 ensayos con control simulado | revisión sistemática | `SRC-MED-SURG-WARTOLOWSKA-2014` | A publicación | AUDITADO |
+| `TIME-MED-SURG-FIRST-2016-001` | 2014–2016 | ensayo FIRST de horarios de residentes | comparación aleatorizada por conglomerados | `SRC-MED-SURG-BILIMORIA-2016` | A publicación | AUDITADO |
+| `TIME-MED-SURG-YAXLEY-2016-001` | 2016 | prostatectomía robótica frente a abierta | comparación aleatorizada | `SRC-MED-SURG-YAXLEY-2016` | A publicación | AUDITADO |
+| `TIME-MED-SURG-ALEMZADEH-2016-001` | 2016 | 14 años de notificaciones de cirugía robótica a la FDA | notificación pasiva | `SRC-MED-SURG-ALEMZADEH-2016` | A publicación | AUDITADO |
+| `TIME-MED-SURG-ROLARR-2017-001` | 2017 | ensayo ROLARR en cáncer de recto | comparación aleatorizada | `SRC-MED-SURG-JAYNE-2017` | A publicación | AUDITADO |
+| `TIME-MED-SURG-ORBITA-2017-001` | nov. 2017 | ORBITA: angioplastia frente a simulacro | comparación simulada | `SRC-MED-SURG-AL-LAMEE-2018` | A publicación | AUDITADO |
+| `TIME-MED-SURG-CSAW-2018-001` | 2018 | CSAW: descompresión subacromial frente a artroscopia sola | comparación simulada | `SRC-MED-SURG-BEARD-2018` | A publicación | AUDITADO |
+| `TIME-MED-SURG-LACC-2018-001` | oct. 2018 | LACC y la cohorte de Melamed: peor supervivencia con mínima invasión | ensayo y cohorte | `SRC-MED-SURG-RAMIREZ-2018`, `SRC-MED-SURG-MELAMED-2018` | A publicación | AUDITADO |
+| `TIME-MED-SURG-SHEETZ-2020-001` | 2020 | adopción robótica en Michigan 2012–2018 | serie temporal | `SRC-MED-SURG-SHEETZ-2020` | A publicación | AUDITADO |
+| `TIME-MED-SURG-REAL-2022-001` | 2022 | REAL: desenlaces de corto plazo | comparación aleatorizada | `SRC-MED-SURG-FENG-2022` | A publicación | AUDITADO |
+| `TIME-MED-SURG-ORBITA2-2023-001` | 2023 | ORBITA-2: angioplastia frente a simulacro sin antianginosos | comparación simulada | `SRC-MED-SURG-RAJKUMAR-2023` | A publicación | AUDITADO |
+| `TIME-MED-SURG-IDEAL-ROBOTICS-2024-001` | 2024 | coloquio IDEAL de robótica quirúrgica | marco de evaluación | `SRC-MED-SURG-MARCUS-2024` | A publicación | AUDITADO |
+| `TIME-MED-SURG-LACC-2024-001` | 2024 | análisis final de supervivencia global de LACC | seguimiento aleatorizado | `SRC-MED-SURG-RAMIREZ-2024` | A publicación | AUDITADO |
+| `TIME-MED-SURG-REAL-2025-001` | 2025 | REAL: recurrencia locorregional a tres años | comparación aleatorizada | `SRC-MED-SURG-FENG-2025` | A publicación | AUDITADO |
+| `TIME-MED-SURG-MARQUEZ-2026-001` | 2026 | cartas de pacientes de la mastectomía radical | historia de archivo | `SRC-MED-SURG-MARQUEZ-2026` | B archivo | AUDITADO |
+| `TIME-MED-SURG-ROBOT-REVIEW-2026-001` | 2026 | revisión jerárquica de la cirugía robótica de recto | revisión narrativa | `SRC-MED-SURG-SILVA-VAZ-2026` | B revisión | AUDITADO |
+
+## MED-029 — Ensayos, regulación y medicina basada en evidencia
+
+| ID | Fecha/rango | Evento | Producto | Fuentes | Confianza | Estado |
+|---|---|---|---|---|---|---|
+| `TIME-MED-EBM-LIND-1747-001` | 20 may. 1747 | Lind compara seis tratamientos en doce marineros del *Salisbury* | comparación en paralelo | `SRC-MED-EBM-MILNE-2012`, `SRC-MED-EBM-TROHLER-2005` | B histórico | AUDITADO |
+| `TIME-MED-EBM-LIND-1753-001` | 1753 | *A Treatise of the Scurvy* | tratado | `SRC-MED-EBM-LIND-1753`, `SRC-MED-EBM-MILNE-2012` | A publicación | AUDITADO |
+| `TIME-MED-EBM-LIND-1772-001` | 1772 | tercera edición con observaciones de Haslar | registro hospitalario | `SRC-MED-EBM-TROHLER-2005` | B histórico | AUDITADO |
+| `TIME-MED-EBM-MADRAS-1793-001` | 1793 | flota con jugo de limón llega a Madrás sin escorbuto | anécdota naval | `SRC-MED-EBM-TROHLER-2005` | B histórico | AUDITADO |
+| `TIME-MED-EBM-ADMIRALTY-1795-001` | 1795 | el Almirantazgo distribuye jugo de limón a gran escala | decisión institucional | `SRC-MED-EBM-TROHLER-2005`, `SRC-MED-EBM-MILNE-2012` | B histórico | AUDITADO |
+| `TIME-MED-EBM-HAMILTON-1816-001` | 1816 | Hamilton alterna soldados entre tratamientos | alternancia | `SRC-MED-EBM-CHALMERS-2012` | B historiográfico | AUDITADO |
+| `TIME-MED-EBM-FIBIGER-1896-001` | 13 may. 1896–13 may. 1897 | Fibiger asigna suero por día de ingreso | ensayo cuasialeatorio | `SRC-MED-EBM-HROBJARTSSON-1998`, `SRC-MED-EBM-FIBIGER-1898` | A/B publicación | AUDITADO |
+| `TIME-MED-EBM-ALTERNATION-1900-1947-001` | 1900–1947 | al menos 214 ensayos con esquemas de asignación imparcial | recuento mínimo | `SRC-MED-EBM-CHALMERS-2012` | B recuento | AUDITADO |
+| `TIME-MED-EBM-HILL-1933-001` | 1933 | Hill descubre la subversión de la alternancia en un ensayo del MRC | lección de ocultamiento | `SRC-MED-EBM-CHALMERS-2012` | B historiográfico | AUDITADO |
+| `TIME-MED-EBM-TUSKEGEE-1932-001` | 1932 | empieza el estudio de Tuskegee con 600 hombres | observación sin consentimiento | `SRC-MED-EBM-CDC-TUSKEGEE-TIMELINE` | A documental | AUDITADO |
+| `TIME-MED-EBM-PENICILLIN-1943-001` | 1943 | la penicilina es tratamiento de elección y no se ofrece en Tuskegee | tratamiento negado | `SRC-MED-EBM-CDC-TUSKEGEE-TIMELINE` | A documental | AUDITADO |
+| `TIME-MED-EBM-GUATEMALA-1946-001` | 1946–1948 | inoculaciones de sífilis del Servicio de Salud Pública en Guatemala | infección deliberada | `SRC-MED-EBM-REVERBY-2011` | A/B histórico | AUDITADO |
+| `TIME-MED-EBM-DOCTORS-TRIAL-1946-001` | 9 dic. 1946–20 ago. 1947 | juicio de los médicos en Núremberg | 23 acusados, 16 condenados | `SRC-MED-EBM-USHMM-DOCTORS-TRIAL` | A documental | AUDITADO |
+| `TIME-MED-EBM-NUREMBERG-CODE-1947-001` | ago. 1947 | diez puntos del veredicto: el Código de Núremberg | consentimiento voluntario | `SRC-MED-EBM-USHMM-NUREMBERG-CODE` | A documental | AUDITADO |
+| `TIME-MED-EBM-MRC-1948-001` | 1948 | ensayo del MRC con números aleatorios en sobres (auditado en MED-024) | ocultamiento de la secuencia | `SRC-MED-PHARM-MRC-1948`, `SRC-MED-EBM-CHALMERS-2012` | A documental | AUDITADO |
+| `TIME-MED-EBM-STERLING-1959-001` | 1959 | Sterling plantea el sesgo de las decisiones de publicación | argumento estadístico | `SRC-MED-EBM-STERLING-1959` | A publicación | AUDITADO |
+| `TIME-MED-EBM-KEFAUVER-1962-001` | 10 oct. 1962 | enmiendas Kefauver-Harris (auditadas en MED-024) | evidencia sustancial | `SRC-MED-PHARM-PL-87-781` | A legal | AUDITADO |
+| `TIME-MED-EBM-HELSINKI-1964-001` | jun. 1964 | Declaración de Helsinki | norma profesional | `SRC-MED-EBM-WMA-HELSINKI-2025`, `SRC-MED-EBM-WMA-HELSINKI-PAGE` | A documental | AUDITADO |
+| `TIME-MED-EBM-BEECHER-1966-001` | 16 jun. 1966 | Beecher publica 22 ejemplos en el *NEJM* | denuncia | `SRC-MED-EBM-BEECHER-1966`, `SRC-MED-EBM-OLIVA-2022` | A/B publicación | AUDITADO |
+| `TIME-MED-EBM-COCHRANE-1972-001` | 1972 | *Effectiveness and Efficiency* | crítica de la eficacia no probada | `SRC-MED-EBM-COCHRANE-1972` | A publicación | AUDITADO |
+| `TIME-MED-EBM-TUSKEGEE-1972-001` | 1972 | revelación de prensa, panel y cierre de Tuskegee | fin del estudio | `SRC-MED-EBM-CDC-TUSKEGEE-TIMELINE` | A documental | AUDITADO |
+| `TIME-MED-EBM-STREPTOKINASE-1973-001` | 1973 | la estreptoquinasa ya es significativa en el meta-análisis acumulativo | evidencia acumulada sin uso | `SRC-MED-EBM-LAU-1992` | A publicación | AUDITADO |
+| `TIME-MED-EBM-NRA-1974-001` | 1974 | Ley Nacional de Investigación y Comisión Nacional | revisión institucional | `SRC-MED-EBM-CDC-TUSKEGEE-RESEARCH` | A documental | AUDITADO |
+| `TIME-MED-EBM-GLASS-1976-001` | 1976 | Glass propone el término meta-análisis | método | `SRC-MED-EBM-GLASS-1976` | A publicación | AUDITADO |
+| `TIME-MED-EBM-BELMONT-1979-001` | 18 abr. 1979 | Informe Belmont | tres principios | `SRC-MED-EBM-BELMONT-1979`, `SRC-MED-EBM-CDC-TUSKEGEE-RESEARCH` | A documental | AUDITADO |
+| `TIME-MED-EBM-SIMES-1986-001` | 1986 | Simes propone un registro internacional de ensayos | registrados frente a publicados | `SRC-MED-EBM-SIMES-1986` | A publicación | AUDITADO |
+| `TIME-MED-EBM-CROWLEY-1990-001` | 1990 | revisión sistemática de corticoides antes del parto prematuro | síntesis | `SRC-MED-EBM-CROWLEY-1990` | A publicación | AUDITADO |
+| `TIME-MED-EBM-COMMON-RULE-1991-001` | 1991 | Regla Común en dieciséis agencias federales | regulación | `SRC-MED-EBM-CDC-TUSKEGEE-RESEARCH` | A documental | AUDITADO |
+| `TIME-MED-EBM-EBM-1991-001` | 1991–1992 | *evidence-based medicine* en *ACP Journal Club* y en *JAMA* | lema | `SRC-MED-EBM-GUYATT-1991`, `SRC-MED-EBM-EBMWG-1992` | A publicación | AUDITADO |
+| `TIME-MED-EBM-LAU-1992-001` | 1992 | meta-análisis acumulativo y comparación con expertos | retraso de la práctica | `SRC-MED-EBM-LAU-1992`, `SRC-MED-EBM-ANTMAN-1992` | A publicación | AUDITADO |
+| `TIME-MED-EBM-COCHRANE-COLLAB-1993-001` | 1993 | Colaboración Cochrane | revisiones mantenidas | `SRC-MED-EBM-CHALMERS-1993` | A publicación | AUDITADO |
+| `TIME-MED-EBM-SACKETT-1996-001` | 1996 | qué es y qué no es la medicina basada en evidencia | definición | `SRC-MED-EBM-SACKETT-1996` | A publicación | AUDITADO |
+| `TIME-MED-EBM-CLINTON-1997-001` | 16 may. 1997 | disculpa presidencial por Tuskegee | reconocimiento | `SRC-MED-EBM-CDC-TUSKEGEE-TIMELINE` | A documental | AUDITADO |
+| `TIME-MED-EBM-EMANUEL-2000-001` | 2000 | siete requisitos de la investigación ética | marco | `SRC-MED-EBM-EMANUEL-2000` | A publicación | AUDITADO |
+| `TIME-MED-EBM-GRADE-2004-001` | 2004 | GRADE presenta su sistema | certeza y fuerza | `SRC-MED-EBM-ATKINS-2004` | A publicación | AUDITADO |
+| `TIME-MED-EBM-CHAN-2004-001` | 2004 | protocolos frente a artículos: informe selectivo de desenlaces | metainvestigación | `SRC-MED-EBM-CHAN-2004` | A publicación | AUDITADO |
+| `TIME-MED-EBM-ICMJE-2005-001` | 1 jul. 2005 | registro previo exigido por el ICMJE | registro | `SRC-MED-EBM-DEANGELIS-2004`, `SRC-MED-EBM-ICMJE-FAQ` | A documental | AUDITADO |
+| `TIME-MED-EBM-IOANNIDIS-2005-001` | 2005 | hallazgos falsos y efectos contradichos | metaciencia | `SRC-MED-EBM-IOANNIDIS-2005-PLOS`, `SRC-MED-EBM-IOANNIDIS-2005-JAMA` | A publicación | AUDITADO |
+| `TIME-MED-EBM-TURNER-2008-001` | 17 ene. 2008 | publicación selectiva de ensayos de antidepresivos | efecto inflado | `SRC-MED-EBM-TURNER-2008` | A publicación | AUDITADO |
+| `TIME-MED-EBM-BEGLEY-2012-001` | 2012 | 6 de 53 estudios preclínicos confirmados | autoinforme | `SRC-MED-EBM-BEGLEY-ELLIS-2012` | B autoinforme | AUDITADO |
+| `TIME-MED-EBM-ALLTRIALS-2013-001` | 9 ene. 2013 | lanzamiento de AllTrials | campaña | `SRC-MED-EBM-GEISEL-2013` | A documental | AUDITADO |
+| `TIME-MED-EBM-GREENHALGH-2014-001` | 13 jun. 2014 | «un movimiento en crisis» | crítica interna | `SRC-MED-EBM-GREENHALGH-2014` | A publicación | AUDITADO |
+| `TIME-MED-EBM-OSC-2015-001` | 28 ago. 2015 | réplica de 100 estudios de psicología | metaciencia | `SRC-MED-EBM-OSC-2015`, `SRC-MED-EBM-GILBERT-2016` | A publicación | AUDITADO |
+| `TIME-MED-EBM-STUDY329-2015-001` | 16 sep. 2015 | reanálisis RIAT del Estudio 329 | datos completos | `SRC-MED-EBM-LENOURY-2015` | A publicación | AUDITADO |
+| `TIME-MED-EBM-ALSAN-2018-001` | 2018 | efecto estimado de la revelación de Tuskegee en la salud | cuasiexperimento | `SRC-MED-EBM-ALSAN-2018` | B-COND | AUDITADO |
+| `TIME-MED-EBM-DEVITO-2020-001` | 2020 | cumplimiento de la ley estadounidense de resultados | auditoría | `SRC-MED-EBM-DEVITO-2020` | A publicación | AUDITADO |
+| `TIME-MED-EBM-RECOVERY-2020-001` | 2020 | RECOVERY: hidroxicloroquina cerrada el 5 de junio y dexametasona publicada | ensayo de plataforma | `SRC-MED-EBM-RECOVERY-HCQ-2020`, `SRC-MED-EBM-RECOVERY-DEXA-2021` | A publicación | AUDITADO |
+| `TIME-MED-EBM-ERRINGTON-2021-001` | 7 dic. 2021 | reproducibilidad de la biología del cáncer | metaciencia | `SRC-MED-EBM-ERRINGTON-2021` | A publicación | AUDITADO |
+| `TIME-MED-EBM-HELSINKI-2024-001` | oct. 2024 | revisión de Helsinki: registro y publicación de negativos | norma profesional | `SRC-MED-EBM-WMA-HELSINKI-2025` | A documental | AUDITADO |
+| `TIME-MED-EBM-ICH-E6-2025-001` | 6 ene. 2025 | ICH E6(R3) en paso 4 | buena práctica clínica basada en riesgos | `SRC-MED-EBM-EMA-ICH-E6-R3` | A institucional | AUDITADO |
+| `TIME-MED-EBM-ICH-E6-ANNEX2-2026-001` | jun. 2026 | anexo 2 de ICH E6(R3) para ensayos pragmáticos y descentralizados | regulación | `SRC-MED-EBM-EMA-ICH-E6-R3` | A institucional | AUDITADO |
+
+## CIV-006 — Domesticaciones y aldeas por archivos regionales
+
+Cada fecha pertenece a un objeto fechado declarado. Ninguna es «el origen de la agricultura» ni de una región.
+
+| ID | Fecha/intervalo | Evento delimitado | Incertidumbre | Fuente | Confianza | Estado |
+|---|---:|---|---|---|---|---|
+| `TIME-CIV-DOMREG-RICE-WILD-001` | `≥100 000` años atrás | fitolitos de arroz silvestre en Shangshan y Hehuashan | carbono de fitolitos disputado | `SRC-ZHANG-RICE-TRAJECTORY-2024` | C | AUDITADO |
+| `TIME-CIV-DOMREG-RICE-PREDOM-001` | `~24 000`; `~13 000` años atrás | recolección y cultivo predoméstico propuestos de arroz | proxy y reloj de fitolitos | `SRC-ZHANG-RICE-TRAJECTORY-2024` | C | AUDITADO |
+| `TIME-CIV-DOMREG-RICE-11KA-001` | `~11 000` años atrás | domesticación del arroz propuesta por fitolitos bulliformes | rasgo de espiga no observado | `SRC-ZHANG-RICE-TRAJECTORY-2024`, `SRC-SANTOS-PHYTOLITH-CARBON-2018` | C | AUDITADO |
+| `TIME-CIV-DOMREG-SHANGSHAN-001` | `~10 000–9000 cal BP` | arroz como alimento y bebida fermentada en vasijas de la aldea de Shangshan | un sitio | `SRC-LIU-SHANGSHAN-BEER-2024`, `SRC-JIANG-LIU-SHANGSHAN-2006` | B-LOCAL-COND | AUDITADO |
+| `TIME-CIV-DOMREG-HUXI-001` | `9000–8400 BP` | bases de espiguilla silvestres, intermedias y domesticadas en Huxi | asociación a una zanja | `SRC-ZHENG-HUXI-RICE-2016` | B-LOCAL | AUDITADO |
+| `TIME-CIV-DOMREG-KUAHUQIAO-001` | `~7700–7550 cal BP` | humedal costero manejado para arroz hasta una transgresión marina | escala del fuego | `SRC-ZONG-KUAHUQIAO-2007`, `SRC-HU-KUAHUQIAO-FIRE-2020` | B-LOCAL-COND | AUDITADO |
+| `TIME-CIV-DOMREG-CISHAN-001` | `~10 300–8700 cal BP` | mijo común almacenado en pozos de Cishan (fechas de restos de grano) | carbón previo `~7300` años `14C`; estado no medido | `SRC-LU-CISHAN-MILLET-2009` | C fecha | AUDITADO |
+| `TIME-CIV-DOMREG-MILLET-WINDOW-001` | `7000–3300 a. C.` | ventana de domesticación del mijo común por tamaño de grano | rasgo principal: tamaño | `SRC-STEVENS-BROOMCORN-2020` | B-COND | AUDITADO |
+| `TIME-CIV-DOMREG-DONGHULIN-001` | `11 000–7300` años atrás | genomas con continuidad local de los cultivadores de mijo | siete individuos | `SRC-YANG-DONGHULIN-2026` | B-COND | AUDITADO |
+| `TIME-CIV-DOMREG-KUK-PHASE1-001` | `~10 000` años atrás | superficie de la fase 1 de Kuk con almidones de taro y kudzu | cultivo reevaluado en 2026 | `SRC-COSTER-KUK-STARCH-2025`, `SRC-DENHAM-KUK-REASSESS-2026` | B manejo; C cultivo | AUDITADO |
+| `TIME-CIV-DOMREG-WAIM-001` | `5050–4200` años atrás | talla figurativa, manos de mortero y obsidiana en Waim | «Neolítico» es rótulo | `SRC-SHAW-WAIM-2020` | B | AUDITADO |
+| `TIME-CIV-DOMREG-PEARL-MILLET-001` | `~4900` años; `2578–2356 cal a. C.` | inicio modelado de la expansión del mijo perla y granos en el bajo Indo | reloj genómico; dos granos | `SRC-BURGARELLA-PEARL-MILLET-2018`, `SRC-JIMENEZ-ARTEAGA-PEARL-MILLET-2025` | B-COND | AUDITADO |
+| `TIME-CIV-DOMREG-GUILA-MAIZE-001` | `~6250` años atrás | mazorcas de maíz de Guilá Naquitz fechadas por AMS | domesticación en otro lugar | `SRC-PIPERNO-FLANNERY-GUILA-2001` | B | AUDITADO |
+| `TIME-CIV-DOMREG-MAIZE-MEXICANA-001` | `~4000` años después del inicio de la domesticación | mezcla del maíz con *Zea mays* ssp. *mexicana* en las tierras altas de México | modelo genético | `SRC-YANG-TEOSINTES-2023` | B-COND | AUDITADO |
+| `TIME-CIV-DOMREG-RIVERTON-001` | `~3800 BP` | complejo de al menos cinco plantas domesticadas en Riverton | un sitio; testa en revisión | `SRC-SMITH-YARNELL-RIVERTON-2009` | B | AUDITADO |
+| `TIME-CIV-DOMREG-SALF-001` | `~5300` años atrás | uso de cacao en Santa Ana-La Florida por tres archivos | rasgo no medido | `SRC-ZARRILLO-CACAO-2018` | B-COND | AUDITADO |
+| `TIME-CIV-DOMREG-TEOTONIO-001` | `~9000–5000 cal BP` | yuca, calabaza y frijol en Teotonio | un sitio | `SRC-WATLING-TEOTONIO-2018` | B-LOCAL | AUDITADO |

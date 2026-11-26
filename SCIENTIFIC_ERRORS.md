@@ -4837,3 +4837,103 @@ Restos humanos se muestrean y nombran sin participación de comunidades descendi
 | `ERR-MED-GRAFT-RESULT-LEGITIMACY-001` | si el trasplante funciona, el órgano es legítimo | la procedencia y el consentimiento son una capa propia | auditar procedencia con independencia del resultado | ACTIVO |
 | `ERR-MED-GRAFT-HALF-LIFE-DOUBLED-001` | la vida media del injerto se duplicó | la proyección de 2000 no se observó después | preferir vidas medias observadas | ACTIVO |
 | `ERR-MED-GRAFT-XENO-WORKS-001` | los xenoinjertos ya funcionan como tratamiento | son casos únicos sin comparador | esperar contraste formal | ACTIVO |
+
+## MED-028 — Cirugía especializada y mínimamente invasiva
+
+| ID | Error | Por qué falla | Corrección | Estado |
+|---|---|---|---|---|
+| `ERR-MED-SURG-HALSTED-HERO-001` | Halsted fundó un modelo de formación sin sombras | la pirámide delegaba el servicio, ocultaba una adicción y dependía de trabajo no pagado | describir el modelo con sus costos y su contexto | ACTIVO |
+| `ERR-MED-SURG-RADICAL-BETTER-001` | más radical es más curativo | NSABP B-04 no mostró ventaja de la mastectomía radical en 25 años | exigir comparación para la extensión de una operación | ACTIVO |
+| `ERR-MED-SURG-FIRST-CASE-001` | el primer caso exitoso demuestra la técnica | Gibbon abandonó tras resultados insatisfactorios en los siguientes | separar caso, serie y resultado | ACTIVO |
+| `ERR-MED-SURG-SURVIVORS-JUSTIFY-001` | los supervivientes justifican el riesgo a un donante sano | el resultado del paciente no responde a la pregunta por el tercero | auditar la ética del riesgo como capa propia | ACTIVO |
+| `ERR-MED-SURG-PRIORITY-CREDIT-001` | el crédito va a quien operó primero | Mühe operó primero y fue reconocido después de quienes difundieron | separar prioridad, difusión y reconocimiento | ACTIVO |
+| `ERR-MED-SURG-SMALL-INCISION-001` | una incisión más pequeña es una operación mejor | LACC mostró peor supervivencia con la vía mínimamente invasiva | nombrar el desenlace principal | ACTIVO |
+| `ERR-MED-SURG-LEARNING-ONLY-001` | las lesiones biliares eran sólo inexperiencia | 97 % de 252 lesiones tuvo como causa primaria una ilusión perceptual | separar experiencia, percepción y equipo | ACTIVO |
+| `ERR-MED-SURG-VOLUME-CAUSE-001` | más volumen causa mejores resultados | el volumen mezcla derivación, casos, rescate y habilidad | tratar el volumen como sustituto | ACTIVO |
+| `ERR-MED-SURG-ROBOT-PROGRESS-001` | el robot es progreso por ser más nuevo | la adopción creció sin ventaja demostrada en varias operaciones | exigir comparación por procedimiento y desenlace | ACTIVO |
+| `ERR-MED-SURG-SHAM-NULL-001` | un ensayo simulado negativo prueba que toda cirugía es placebo | la mitad de los ensayos revisados y ORBITA-2 favorecen la intervención | leer cada simulacro por su población y desenlace | ACTIVO |
+| `ERR-MED-SURG-SKILL-INVISIBLE-001` | la técnica es independiente de quien opera | la habilidad calificada por pares se asocia con complicaciones | medir y reportar el operador | ACTIVO |
+| `ERR-MED-SURG-IDEAL-SEAL-001` | una etapa IDEAL es un sello de calidad | IDEAL es un marco de consenso, no una escala validada | usarlo para describir el estado de la evidencia | ACTIVO |
+
+## MED-029 — Ensayos, regulación y medicina basada en evidencia
+
+| ID | Error | Por qué falla | Corrección | Estado |
+|---|---|---|---|---|
+| `ERR-MED-EBM-LIND-FIRST-RCT-001` | Lind hizo el primer ensayo controlado aleatorizado | no hubo azar, la asignación no se describe y hubo comparaciones antes | comparación en paralelo de doce enfermos, sin aleatorizar | ACTIVO |
+| `ERR-MED-EBM-LIND-CURE-001` | Lind descubrió que los cítricos curan el escorbuto y fue ignorado | nunca lo afirmó con claridad y su concentrado no conservaba el efecto | leer el tratado y la decisión de 1795 por separado | ACTIVO |
+| `ERR-MED-EBM-MRC-FIRST-001` | el ensayo del MRC de 1948 inventó la comparación imparcial | hubo al menos 240 ensayos con alternancia antes | 1948 consolidó el ocultamiento por números aleatorios | ACTIVO |
+| `ERR-MED-EBM-ALTERNATION-WORTHLESS-001` | la alternancia es un diseño inválido | la alternancia estricta y no prevista elimina el sesgo de selección | su falla es la previsibilidad, no la regla | ACTIVO |
+| `ERR-MED-EBM-NUREMBERG-ENDED-ABUSE-001` | después de Núremberg ya no hubo abusos en investigación | Beecher publicó 22 ejemplos en 1966 y Tuskegee siguió hasta 1972 | una norma no asegura su cumplimiento | ACTIVO |
+| `ERR-MED-EBM-TUSKEGEE-INFECTED-001` | en Tuskegee se inyectó sífilis a los participantes | se les negó tratamiento; las inoculaciones fueron en Guatemala | distinguir observación sin tratamiento e infección deliberada | ACTIVO |
+| `ERR-MED-EBM-CONSENT-ENOUGH-001` | con consentimiento informado un estudio es ético | el consentimiento no es necesario ni suficiente | valor, validez, selección justa, riesgo-beneficio, revisión independiente y respeto | ACTIVO |
+| `ERR-MED-EBM-APPROVAL-COMPLETE-001` | un fármaco aprobado tiene evidencia completa | 36.8 % de las indicaciones de 2005–2012 se apoyó en un ensayo y 45.3 % sólo en sustitutos | leer la aprobación como umbral en una fecha | ACTIVO |
+| `ERR-MED-EBM-PUBLISHED-IS-ALL-001` | la literatura publicada representa los ensayos hechos | en antidepresivos parecía 94 % positiva frente a 51 % | buscar registros y revisiones regulatorias | ACTIVO |
+| `ERR-MED-EBM-REGISTERED-IS-REPORTED-001` | registrar un ensayo garantiza que se informen sus resultados | 40.9 % cumplió el plazo legal estadounidense | medir cumplimiento con denominador | ACTIVO |
+| `ERR-MED-EBM-META-AUTOMATIC-001` | un meta-análisis da la respuesta definitiva | depende de lo publicado, de juicios de inclusión y de la certeza | leer síntesis con sesgo de publicación y GRADE | ACTIVO |
+| `ERR-MED-EBM-EBM-ONLY-RCT-001` | la medicina basada en evidencia sólo acepta ensayos aleatorizados | sus propios autores aceptan efectos dramáticos y otros diseños | la pregunta decide el diseño | ACTIVO |
+| `ERR-MED-EBM-REPLICATION-ALL-FALSE-001` | la mayoría de la medicina publicada es falsa | es un modelo bajo supuestos; otras estimaciones dan 14 % | estimar por campo y diseño | ACTIVO |
+| `ERR-MED-EBM-PLATFORM-NO-RULES-001` | un ensayo adaptativo cambia sobre la marcha a conveniencia | las adaptaciones deben preespecificarse | reglas escritas antes de ver los datos | ACTIVO |
+
+## CIV-006 — Errores científicos que la cadena de domesticaciones debe evitar
+
+### ERR-CIV-DOMREG-PHYTOLITH-DATE-EVENT-001 — Fecha de fitolito igual a domesticación
+
+Una edad del carbono ocluido en un fitolito «doméstico» se presenta como la fecha de la domesticación de una especie.
+
+**Corrección:** declarar el objeto fechado, su posible carbono del suelo y el proxy morfológico, y contrastarlos con semillas de vida corta del mismo contexto.
+
+### ERR-CIV-DOMREG-SPECIES-DOMESTICATE-001 — Especie identificada igual a especie domesticada
+
+Identificar mijo, arroz o taro en un depósito se lee como prueba de que estaba domesticado.
+
+**Corrección:** separar el campo «organismo» del campo «rasgo» y exigir una serie de caracteres de domesticación.
+
+### ERR-CIV-DOMREG-VILLAGE-AGRICULTURE-001 — Aldea igual a agricultura
+
+Una aldea con arroz o mijo se presenta como comunidad agrícola dependiente.
+
+**Corrección:** documentar rasgo, cultivo y dieta por separado; Shangshan tuvo aldea antes del rasgo fijado.
+
+### ERR-CIV-DOMREG-MODERN-GENOME-ORIGIN-001 — Genoma actual igual a lugar de origen
+
+La distribución de haplotipos en variedades y silvestres actuales se usa para fijar el sitio de la primera domesticación.
+
+**Corrección:** tratarlo como historia de linajes supervivientes y contrastarlo con depósitos y genomas antiguos.
+
+### ERR-CIV-DOMREG-ABSENCE-PRESERVATION-001 — Ausencia de restos igual a ausencia de cultivo
+
+La falta de ñame, taro o frutos en un depósito se lee como cultivo tardío o inexistente.
+
+**Corrección:** evaluar la probabilidad de preservación y declarar «dato ausente».
+
+### ERR-CIV-DOMREG-PLASTIC-TRAIT-001 — Rasgo plástico tomado por genético
+
+Una proporción de semillas de testa delgada se usa como prueba de población domesticada.
+
+**Corrección:** controlar la plasticidad con experimentos y, cuando sea posible, ADN antiguo.
+
+### ERR-CIV-DOMREG-LANDSCAPE-TOTAL-001 — Un sitio habla por la cuenca
+
+Una isla de bosque, una ribera o una tierra oscura se usa como imagen de toda la Amazonía, en un sentido o en el contrario.
+
+**Corrección:** declarar la escala y muestrear riberas e interfluvios con los mismos proxies.
+
+### ERR-CIV-DOMREG-FIRST-DATE-CENTER-001 — Fecha más antigua igual a centro
+
+El sitio con la fecha más antigua se declara centro u origen de la agricultura de su región o del mundo.
+
+**Corrección:** registrar qué se fechó y probar difusión con restos fechados fuera del sitio y genomas.
+
+
+### Índice tabular CIV-006
+
+| ID | Caso | Supuesto que falló | Mecanismo de corrección | Estado |
+|---|---|---|---|---|
+| `ERR-CIV-DOMREG-PHYTOLITH-DATE-EVENT-001` | fecha de fitolito = domesticación | carbono ocluido = edad de la planta; bulliforme = rasgo | objeto fechado y proxy declarados | DOCUMENTADO |
+| `ERR-CIV-DOMREG-SPECIES-DOMESTICATE-001` | especie = domesticada | presencia = estado | campo «rasgo» separado | DOCUMENTADO |
+| `ERR-CIV-DOMREG-VILLAGE-AGRICULTURE-001` | aldea = agricultura | residencia = dependencia | rasgo, cultivo y dieta separados | DOCUMENTADO |
+| `ERR-CIV-DOMREG-MODERN-GENOME-ORIGIN-001` | genoma actual = origen | supervivencia = historia completa | depósitos y genomas antiguos | DOCUMENTADO |
+| `ERR-CIV-DOMREG-ABSENCE-PRESERVATION-001` | ausencia de restos = ausencia de cultivo | preservación uniforme | «dato ausente» declarado | DOCUMENTADO |
+| `ERR-CIV-DOMREG-PLASTIC-TRAIT-001` | rasgo plástico = genético | morfología = genotipo | experimentos y ADN antiguo | DOCUMENTADO |
+| `ERR-CIV-DOMREG-LANDSCAPE-TOTAL-001` | un sitio = la cuenca | muestreo representativo | escala declarada y muestreo estratificado | DOCUMENTADO |
+| `ERR-CIV-DOMREG-FIRST-DATE-CENTER-001` | fecha más antigua = centro | prioridad = origen | objeto fechado y archivo de difusión | DOCUMENTADO |
