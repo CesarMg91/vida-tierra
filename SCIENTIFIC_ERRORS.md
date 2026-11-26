@@ -4751,3 +4751,37 @@ Restos humanos se muestrean y nombran sin participación de comunidades descendi
 | `ERR-CIV-IDENTITY-MOTHER-CULTURE-001` | estilo exportado = cultura madre | procedencia = dominio | evidencia institucional y métodos contrastados | DOCUMENTADO |
 | `ERR-CIV-IDENTITY-PREHISTORY-CLAIMS-001` | prehistoria como título | continuidad = derecho | separar archivo y reclamación | DOCUMENTADO |
 | `ERR-CIV-IDENTITY-SAMPLING-NO-CONSULT-001` | muestreo sin consulta | restos sin interesados | consulta, daño mínimo y plan de datos | DOCUMENTADO |
+
+## MED-023 — Enfermería, salud pública y profesiones
+
+| ID | Error | Por qué falla | Corrección | Estado |
+|---|---|---|---|---|
+| `ERR-MED-CARE-NIGHTINGALE-ORIGIN-001` | la enfermería empezó con Nightingale | monjas, beguinas, diaconisas, hogares y personas esclavizadas cuidaban antes | nombrar a quién cuidó antes de nombrar a quién fundó | ACTIVO |
+| `ERR-MED-CARE-SCUTARI-NIGHTINGALE-001` | Nightingale bajó por sí sola la mortalidad de Scutari | la caída siguió a las obras de la Comisión Sanitaria y no se separa por causa | fechar cada cambio y declarar la confusión | ACTIVO |
+| `ERR-MED-CARE-NOTES-PROOF-001` | *Notes on Nursing* demostró qué funciona | es prescripción sin casos ni comparación | leerlo como teoría del cuidado | ACTIVO |
+| `ERR-MED-CARE-SEACOLE-RIVAL-001` | Seacole y Nightingale compitieron por el mismo título | hicieron trabajos distintos con archivos distintos | preguntar qué hizo cada una y para quién | ACTIVO |
+| `ERR-MED-CARE-REGISTER-QUALITY-001` | una ley de registro garantiza buen cuidado | protegió títulos y creó listas sin medir práctica ni desenlace | separar título, práctica y resultado | ACTIVO |
+| `ERR-MED-CARE-CREDENTIAL-NEUTRAL-001` | la credencial fue un filtro neutral de competencia | distribuyó el acceso por raza, clase y sexo | auditar a quién excluyó cada credencial | ACTIVO |
+| `ERR-MED-CARE-TITLED-MIDWIFE-PROGRESS-001` | la partera titulada fue un paso hacia el parto seguro | en México fue instrumento de desplazamiento y fue suprimida | historiar quién creó y suprimió la credencial | ACTIVO |
+| `ERR-MED-CARE-MEDICALIZED-BIRTH-001` | pasar el parto al médico mejoró los desenlaces | en Derbyshire los médicos tuvieron peores resultados | exigir comparación por asistente | ACTIVO |
+| `ERR-MED-CARE-CHADWICK-TECHNICAL-001` | el programa de Chadwick fue sólo técnico | también relegó la pobreza como causa | leer su política junto a su ingeniería | ACTIVO |
+| `ERR-MED-CARE-AUTHORITY-FULL-001` | profesionalizarse dio autoridad plena a las mujeres del cuidado | obtuvieron títulos bajo un techo de dirección médica | describir cierre, jurisdicción y subordinación | ACTIVO |
+| `ERR-MED-CARE-AIKEN-CAUSAL-001` | un paciente más por enfermera causa 7 % más muertes | es una asociación transversal ajustada | leerla con diseño, sesgo y convergencia | ACTIVO |
+| `ERR-MED-CARE-BACKCAST-001` | la evidencia moderna prueba que la profesión siempre mejoró el cuidado | poblaciones, tareas y alternativas son otras | no proyectar resultados hacia el pasado | ACTIVO |
+
+## MED-024 — Farmacología, antibióticos y resistencia
+
+| ID | Error | Por qué falla | Corrección | Estado |
+|---|---|---|---|---|
+| `ERR-MED-PHARM-ISOLATION-TREATMENT-001` | aislar la sustancia activa es descubrir el tratamiento | medir no es comparar | separar sustancia, dosis, serie y comparación | ACTIVO |
+| `ERR-MED-PHARM-WITHERING-TRIAL-001` | Withering hizo un ensayo de la digital | publicó una serie sin contraste | llamarla serie completa declarada | ACTIVO |
+| `ERR-MED-PHARM-SALVARSAN-PROVEN-001` | el Salvarsán se distribuyó tras probar su eficacia | series pequeñas con desenlace serológico y uso masivo inmediato | distinguir marcador intermedio y curación | ACTIVO |
+| `ERR-MED-PHARM-SULFA-UNIVERSAL-001` | las sulfas funcionaban contra toda infección | los ensayos concurrentes hallaron efectos modestos o nulos en varias | delimitar pareja fármaco–infección | ACTIVO |
+| `ERR-MED-PHARM-ELIXIR-SULFA-TOXIC-001` | el elixir de 1937 probó la toxicidad de la sulfanilamida | mató el disolvente dietilenglicol | separar sustancia activa y formulación | ACTIVO |
+| `ERR-MED-PHARM-FLEMING-TREATMENT-001` | Fleming descubrió en 1928 el tratamiento de las infecciones | observó actividad en una placa y no estabilizó la sustancia | separar observación, sustancia terapéutica y producción | ACTIVO |
+| `ERR-MED-PHARM-ALEXANDER-FAILURE-001` | Alexander murió porque la penicilina no funcionaba | mejoró y murió al agotarse | leer el caso como actividad y escasez | ACTIVO |
+| `ERR-MED-PHARM-MRC-INVENTION-001` | el ensayo de 1948 inventó la aleatorización por razones científicas | hubo antecedentes y pesaron escasez y equidad | historiar motivos y antecedentes | ACTIVO |
+| `ERR-MED-PHARM-KEFAUVER-THALIDOMIDE-001` | la ley Kefauver-Harris es la ley de la talidomida | exigió eficacia ante un daño de seguridad | leer la ley por lo que exige | ACTIVO |
+| `ERR-MED-PHARM-APPROVED-SAFE-001` | aprobado significa seguro | la aprobación es un umbral en una fecha y la vigilancia cuenta numeradores | exigir vigilancia con denominador | ACTIVO |
+| `ERR-MED-PHARM-RESISTANCE-MISUSE-001` | la resistencia aparece sólo por tomar mal los antibióticos | es una ecología de selección, plásmidos y huéspedes múltiples | auditar presión de selección y transferencia | ACTIVO |
+| `ERR-MED-PHARM-10M-2050-001` | morirán 10 millones al año en 2050 | escenario sin intervalos ni revisión por pares | citar modelos revisados con contrafactual e intervalo | ACTIVO |

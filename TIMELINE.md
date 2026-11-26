@@ -1178,3 +1178,85 @@ Las fechas pertenecen a estilos, muestras, filogenias o publicaciones. Ninguna f
 | `TIME-CIV-IDENTITY-CONGO-COLLAPSE-001` | `400–600 d. C.` | colapso poblacional en la selva del Congo entre dos expansiones | estilos fechados indirectamente | `SRC-SEIDENSTICKER-CONGO-2021` | B-COND | AUDITADO |
 | `TIME-CIV-IDENTITY-OLMEC-001` | `~3500` años atrás | surgimiento de la cultura arqueológica llamada olmeca | autodenominación desconocida | `SRC-POOL-OLMEC-2007` | B | AUDITADO |
 | `TIME-CIV-IDENTITY-ETHICS-001` | `2019–2021` | pautas éticas para ADN antiguo: comentario, cinco recomendaciones y cinco pautas globales | cumplimiento no medido | `SRC-FOX-HAWKS-2019`, `SRC-WAGNER-ADNA-2020`, `SRC-ALPASLAN-ETHICS-2021` | A normativo | AUDITADO |
+
+## MED-023 — Enfermería, salud pública y profesiones
+
+| ID | Fecha/rango | Evento | Producto | Fuentes | Confianza | Estado |
+|---|---|---|---|---|---|---|
+| `TIME-MED-CARE-BEGUINES-001` | siglos XIII–XV | cuidado de beguinas y monjas cistercienses en los Países Bajos meridionales | herramientas de cuidado sin pericia documentada | `SRC-MED-CARE-RITCHEY-2021` | B histórico | AUDITADO |
+| `TIME-MED-CARE-NASSAW-001` | siglo XVIII | Nassaw, esclavizado en Virginia, como enfermero, sanador y médico | cuidado bajo esclavitud | `SRC-MED-CARE-BLAKLEY-2021` | B histórico | AUDITADO |
+| `TIME-MED-CARE-STCROIX-001` | siglos XVIII–XIX | enfermeras esclavizadas en hospitales de plantación de Saint Croix | trabajo ausente del archivo administrativo | `SRC-MED-CARE-REIFSCHNEIDER-2020` | B histórico-arqueológico | AUDITADO |
+| `TIME-MED-CARE-KAISERSWERTH-1833-001` | sept. 1833 | inicio de la obra de Fliedner en Kaiserswerth | institución de diaconisas | `SRC-MED-CARE-NIGHTINGALE-1851` | A publicación | AUDITADO |
+| `TIME-MED-CARE-POORLAW-1842-001` | jul. 1842 | informes sanitarios sobre Escocia con Alison y Arnott | investigación con desacuerdo interno | `SRC-MED-CARE-POOR-LAW-1842` | A publicación | AUDITADO |
+| `TIME-MED-CARE-DUNCAN-1847-001` | 1 ene. 1847 | Duncan, primer oficial médico de salud británico | cargo municipal de salud pública | `SRC-MED-CARE-HALLIDAY-2003` | A/B | AUDITADO |
+| `TIME-MED-CARE-KAISERSWERTH-1851-001` | 1851 | folleto de Nightingale sobre Kaiserswerth | 116 diaconisas, prueba de seis meses, recuperaciones «menos brillantes» | `SRC-MED-CARE-NIGHTINGALE-1851` | A publicación | AUDITADO |
+| `TIME-MED-CARE-SCUTARI-ARRIVAL-001` | nov. 1854 | llegada de Nightingale a Scutari | enfermería organizada en un hospital de alta mortalidad | `SRC-MED-CARE-EPSTEIN-2001` | B histórico | AUDITADO |
+| `TIME-MED-CARE-SANITARY-1855-001` | 17 mar. 1855 | inicio de obras de la Comisión Sanitaria en Scutari | cloacas, letrinas y retiro de inmundicia | `SRC-MED-CARE-MCDONALD-2013` | A/B documental | AUDITADO |
+| `TIME-MED-CARE-CRIMEA-RATES-001` | 1854–1856 | mortalidad británica de 23 % a 2,5 % y francesa de 11 % a 20 % | contraste entre ejércitos | `SRC-MED-CARE-MCDONALD-2013` | B reanálisis | AUDITADO |
+| `TIME-MED-CARE-SEACOLE-1857-001` | 1857 | autobiografía de Seacole | testimonio de *doctress* criolla y de su rechazo | `SRC-MED-CARE-SEACOLE-1857` | A publicación | AUDITADO |
+| `TIME-MED-CARE-SEACOLE-STORKS-001` | 1 oct. 1857 | carta de Seacole a Storks | actividad de posguerra documentada | `SRC-MED-CARE-STARING-DERKS-2014` | B documental | AUDITADO |
+| `TIME-MED-CARE-NOTES-1859-001` | 1859 | *Notes on Nursing* | teoría ambiental y doméstica del cuidado | `SRC-MED-CARE-NIGHTINGALE-1859` | A publicación | AUDITADO |
+| `TIME-MED-CARE-LDS-1859-001` | 1859 | *Licence in Dental Surgery* del Royal College of Surgeons | credencial dental en corporación quirúrgica | `SRC-MED-CARE-BISHOP-2016` | A/B | AUDITADO |
+| `TIME-MED-CARE-PHARMACY-1868-001` | 1868 | ley de venenos y farmacia | examen y registro por la Pharmaceutical Society | `SRC-MED-CARE-FERNER-2022` | A/B legislativo | AUDITADO |
+| `TIME-MED-CARE-MAHONEY-1879-001` | 1879 | graduación de Mary Mahoney | primera afroamericana con diploma de enfermería | `SRC-MED-CARE-MAPPING-CARE-UIC`, `SRC-MED-CARE-NPS-2020` | A/B institucional | AUDITADO |
+| `TIME-MED-CARE-BNA-1887-001` | 1887 | Fenwick funda la British Nurses' Association | campaña por el registro | `SRC-MED-CARE-RCN-2019` | B institucional | AUDITADO |
+| `TIME-MED-CARE-PROVIDENT-1891-001` | 1891 | Provident Hospital and Training School de Chicago | institución fundada por la exclusión | `SRC-MED-CARE-MAPPING-CARE-UIC` | B institucional | AUDITADO |
+| `TIME-MED-CARE-WALD-1893-001` | 1893 | Wald y la enfermería de salud pública | cuidado domiciliario organizado | `SRC-MED-CARE-BUHLER-WILKERSON-1993` | B histórico | AUDITADO |
+| `TIME-MED-CARE-CNA-1896-001` | 1895–1896 | Colonial Nursing Association y su primera enfermera en Mauricio | servicio imperial de enfermería | `SRC-MED-CARE-BODLEIAN-CNA` | A/B archivo | AUDITADO |
+| `TIME-MED-CARE-MIDWIVES-1902-001` | 1902 | ley de parteras de Inglaterra y Gales | parteras formadas y supervisadas | `SRC-MED-CARE-REID-2012` | A/B | AUDITADO |
+| `TIME-MED-CARE-NC-1903-001` | 1903 | Carolina del Norte, primera ley estatal de licencia de enfermeras | protección del título | `SRC-MED-CARE-POLLITT-2010` | A/B | AUDITADO |
+| `TIME-MED-CARE-NACGN-1908-001` | 1908 | asociación de enfermeras negras graduadas | organización frente a la exclusión | `SRC-MED-CARE-NPS-2020`, `SRC-MED-CARE-MAPPING-CARE-UIC` | B institucional | AUDITADO |
+| `TIME-MED-CARE-HOPKINS-1916-001` | 1916 | Escuela de Higiene y Salud Pública de Johns Hopkins | disciplina de salud pública | `SRC-MED-CARE-FEE-1987` | B histórico | AUDITADO |
+| `TIME-MED-CARE-ARMY-1918-001` | 1918 | 18 enfermeras negras admitidas en el Ejército entre más de 1 800 certificadas | exclusión cuantificada | `SRC-MED-CARE-NPS-2020` | A/B institucional | AUDITADO |
+| `TIME-MED-CARE-UK-ACT-1919-001` | 23 dic. 1919 | ley británica de registro de enfermeras | tres General Nursing Councils | `SRC-MED-CARE-RCN-2019` | A/B institucional | AUDITADO |
+| `TIME-MED-CARE-MATERNAL-1937-001` | c. 1937 | fin de la meseta de mortalidad materna occidental | caída internacional | `SRC-MED-CARE-LOUDON-2000` | B síntesis | AUDITADO |
+| `TIME-MED-CARE-ADMISSION-1951-001` | 1951 | sólo 20 % de 1 170 escuelas admitía estudiantes negras | exclusión persistente tras 1948 | `SRC-MED-CARE-MAPPING-CARE-UIC` | B institucional | AUDITADO |
+| `TIME-MED-CARE-SEACOLE-1984-001` | 1982–1984 | biografía y reedición de la autobiografía de Seacole | recuperación de su memoria | `SRC-MED-CARE-WILLIAMS-2021` | B historiográfico | AUDITADO |
+| `TIME-MED-CARE-AIKEN-2002-001` | 2002 (datos 1998–1999) | Aiken: dotación y mortalidad en Pensilvania | OR 1,07 por paciente adicional | `SRC-MED-CARE-AIKEN-2002` | A publicación | AUDITADO |
+| `TIME-MED-CARE-NEEDLEMAN-2011-001` | 2011 | Needleman: turnos bajo meta y mortalidad | diseño longitudinal individual | `SRC-MED-CARE-NEEDLEMAN-2011` | A publicación | AUDITADO |
+| `TIME-MED-CARE-SEACOLE-STATUE-2016-001` | 2016 | estatua de Seacole frente a St Thomas' | memoria pública | `SRC-MED-CARE-WILLIAMS-2021` | B | AUDITADO |
+| `TIME-MED-CARE-QUEENSLAND-2021-001` | 2021 (datos 2016–2018) | evaluación de la ley de proporciones de Queensland | OR 0,89 frente a 1,07 | `SRC-MED-CARE-MCHUGH-2021` | A publicación | AUDITADO |
+| `TIME-MED-CARE-DALLORA-2022-001` | 2022 | revisión de 27 estudios longitudinales | efecto plausible con sesgo frecuente | `SRC-MED-CARE-DALLORA-2022` | A publicación | AUDITADO |
+| `TIME-MED-CARE-CHILE-2026-001` | 2026 (datos 2023) | dotación y mortalidad en hospitales públicos de Chile | OR 1,043 por paciente adicional | `SRC-MED-CARE-SIMONETTI-2026` | A publicación | AUDITADO |
+
+## MED-024 — Farmacología, antibióticos y resistencia
+
+| ID | Fecha/rango | Evento | Producto | Fuentes | Confianza | Estado |
+|---|---|---|---|---|---|---|
+| `TIME-MED-PHARM-WITHERING-1785-001` | 1785 | *An Account of the Foxglove* | serie de 163 casos con la digital | `SRC-MED-PHARM-WITHERING-1785`, `SRC-MED-PHARM-TROHLER-2007` | A publicación | AUDITADO |
+| `TIME-MED-PHARM-MORPHINE-1805-001` | 1805–1817 | Sertürner aísla y publica la morfina | alcaloide y exploración de dosis | `SRC-MED-PHARM-KRISHNAMURTI-2016` | A/B histórico | AUDITADO |
+| `TIME-MED-PHARM-QUININE-1820-001` | 1820 | Pelletier y Caventou aíslan la quinina | sustancia estandarizada | `SRC-MED-PHARM-ACHAN-2011` | A/B histórico | AUDITADO |
+| `TIME-MED-PHARM-606-1907-001` | 1907 | Bertheim sintetiza el compuesto 606 | sustancia de cribado | `SRC-MED-PHARM-WILLIAMS-2009` | A/B histórico | AUDITADO |
+| `TIME-MED-PHARM-SALVARSAN-1909-001` | 1909–1910 | primeras series y comercialización del Salvarsán | series y uso masivo | `SRC-MED-PHARM-WILLIAMS-2009`, `SRC-MED-PHARM-EHRLICH-HATA-1910` | A/B histórico | AUDITADO |
+| `TIME-MED-PHARM-FLEMING-1928-001` | 1928–1929 | placa de Fleming y artículo de 1929 | actividad en cultivo | `SRC-MED-PHARM-FLEMING-1929`, `SRC-MED-PHARM-FLEMING-1945` | A publicación | AUDITADO |
+| `TIME-MED-PHARM-DOMAGK-1932-001` | dic. 1932 | ratones de Domagk | contraste animal | `SRC-MED-PHARM-LOUDON-2008` | A/B histórico | AUDITADO |
+| `TIME-MED-PHARM-DOMAGK-1935-001` | 1935 | publicación de Domagk e hipótesis de la sulfanilamida en el Instituto Pasteur | sustancia activa identificada | `SRC-MED-PHARM-DOMAGK-1935`, `SRC-MED-PHARM-LOUDON-2008` | A/B histórico | AUDITADO |
+| `TIME-MED-PHARM-COLEBROOK-1936-001` | 1936 | Colebrook y Kenny en el Queen Charlotte's | comparación con control histórico | `SRC-MED-PHARM-COLEBROOK-1936`, `SRC-MED-PHARM-LOUDON-2008` | A/B histórico | AUDITADO |
+| `TIME-MED-PHARM-SULFA-TRIALS-1936-001` | 1936–1945 | ensayos de sulfonamidas con control concurrente | efectos modestos o nulos en varias infecciones | `SRC-MED-PHARM-LOUDON-2008` | A/B histórico | AUDITADO |
+| `TIME-MED-PHARM-ELIXIR-1937-001` | 1937 | Elixir Sulfanilamide | 105 muertes por el disolvente | `SRC-MED-PHARM-WAX-1995` | A/B histórico | AUDITADO |
+| `TIME-MED-PHARM-FDCA-1938-001` | 1938 | Federal Food, Drug, and Cosmetic Act | exigencia de seguridad | `SRC-MED-PHARM-WAX-1995` | A/B histórico | AUDITADO |
+| `TIME-MED-PHARM-PENICILLINASE-1940-001` | 1940 | Abraham y Chain describen la penicilinasa | resistencia antes del primer paciente | `SRC-MED-PHARM-ABRAHAM-CHAIN-1940`, `SRC-MED-PHARM-LOBANOVSKA-2017` | A publicación | AUDITADO |
+| `TIME-MED-PHARM-OXFORD-1940-001` | 1940 (Gaynes: 1939) | ratones de Oxford y publicación de agosto de 1940 | protección animal | `SRC-MED-PHARM-CHAIN-1940`, `SRC-MED-PHARM-GAYNES-2017` | A publicación/B fecha | AUDITADO |
+| `TIME-MED-PHARM-ALEXANDER-1941-001` | 12 feb.–15 mar. 1941 | tratamiento y muerte de Albert Alexander | caso con escasez | `SRC-MED-PHARM-PEARCE-2024`, `SRC-MED-PHARM-GAYNES-2017` | B histórico | AUDITADO |
+| `TIME-MED-PHARM-PEORIA-1941-001` | 1941–1943 | Peoria y producción en masa | abasto aliado hacia sept. 1943 | `SRC-MED-PHARM-GAYNES-2017` | B histórico | AUDITADO |
+| `TIME-MED-PHARM-KIRBY-1944-001` | 1944 | Kirby extrae el inactivador de estafilococos resistentes | mecanismo en cepas clínicas | `SRC-MED-PHARM-KIRBY-1944` | A publicación | AUDITADO |
+| `TIME-MED-PHARM-STREPTOMYCIN-1944-001` | 1944 | Schatz, Bugie y Waksman publican la estreptomicina | sustancia | `SRC-MED-PHARM-SCHATZ-1944` | A publicación | AUDITADO |
+| `TIME-MED-PHARM-FLEMING-NOBEL-1945-001` | 11 dic. 1945 | conferencia Nobel de Fleming | advertencia sobre dosis insuficiente | `SRC-MED-PHARM-FLEMING-1945` | A publicación | AUDITADO |
+| `TIME-MED-PHARM-MRC-1948-001` | 1946–1948 | ensayo del MRC de estreptomicina | comparación aleatorizada | `SRC-MED-PHARM-MRC-1948`, `SRC-MED-PHARM-YOSHIOKA-1998` | A publicación | AUDITADO |
+| `TIME-MED-PHARM-MRC-RESISTANCE-1948-001` | 1948 | Crofton y Mitchison: resistencia a la estreptomicina | resistencia medida en ensayo | `SRC-MED-PHARM-CROFTON-MITCHISON-1948`, `SRC-MED-PHARM-CROFTON-2006` | A publicación | AUDITADO |
+| `TIME-MED-PHARM-STAPH-1940S-001` | desde mediados de los 1940 | estafilococos hospitalarios resistentes a la penicilina | primera ola | `SRC-MED-PHARM-CHAMBERS-DELEO-2009` | A/B revisión | AUDITADO |
+| `TIME-MED-PHARM-FARM-1950S-001` | inicios de los 1950 | antibióticos promotores del crecimiento en ganadería | presión de selección agropecuaria | `SRC-MED-PHARM-KIRCHHELLE-2018` | A/B histórico | AUDITADO |
+| `TIME-MED-PHARM-THALIDOMIDE-1957-001` | 1957–1961 | venta de talidomida en 46 países | daño poblacional | `SRC-MED-PHARM-VARGESSON-2015` | A/B histórico | AUDITADO |
+| `TIME-MED-PHARM-MCBRIDE-1961-001` | dic. 1961–1962 | cartas de McBride y Lenz | señal clínica | `SRC-MED-PHARM-MCBRIDE-1961`, `SRC-MED-PHARM-LENZ-1962` | A publicación | AUDITADO |
+| `TIME-MED-PHARM-MRSA-1961-001` | 1960–1961 | cepa COL y estafilococos resistentes al «Celbenin» | primeras notificaciones de MRSA | `SRC-MED-PHARM-JEVONS-1961`, `SRC-MED-PHARM-CHAMBERS-DELEO-2009` | A publicación | AUDITADO |
+| `TIME-MED-PHARM-KEFAUVER-1962-001` | 10 oct. 1962 | Drug Amendments of 1962 | evidencia sustancial de eficacia | `SRC-MED-PHARM-PL-87-781` | A documental | AUDITADO |
+| `TIME-MED-PHARM-WATANABE-1963-001` | fines de los 1950–1963 | resistencia múltiple transferible y síntesis de Watanabe | herencia infecciosa | `SRC-MED-PHARM-WATANABE-1963` | B histórico | AUDITADO |
+| `TIME-MED-PHARM-WHO-1968-001` | 1963–1968 | llamado de la Asamblea y programa de vigilancia de la OMS | farmacovigilancia internacional | `SRC-MED-PHARM-WHO-PIDM` | A institucional | AUDITADO |
+| `TIME-MED-PHARM-SWANN-1969-001` | 1969 | informe Swann | regulación agropecuaria británica | `SRC-MED-PHARM-KIRCHHELLE-2018` | A/B histórico | AUDITADO |
+| `TIME-MED-PHARM-LEVY-1976-001` | 1976 | estudio de Levy en una granja | ruta animal–humano | `SRC-MED-PHARM-LEVY-1976` | A publicación | AUDITADO |
+| `TIME-MED-PHARM-DATTA-1983-001` | 1983 | plásmidos de la colección Murray | vehículos viejos, genes nuevos | `SRC-MED-PHARM-DATTA-1983` | A publicación | AUDITADO |
+| `TIME-MED-PHARM-ONEILL-2014-001` | 2014 | informe O'Neill | escenario de 10 millones en 2050 | `SRC-MED-PHARM-ONEILL-2014`, `SRC-MED-PHARM-DEKRAKER-2016` | A documental | AUDITADO |
+| `TIME-MED-PHARM-MCR1-2015-001` | 2015–2016 | *mcr-1* en China | resistencia plasmídica a la colistina | `SRC-MED-PHARM-LIU-2016` | A publicación | AUDITADO |
+| `TIME-MED-PHARM-GRAM-2022-001` | 2022 (datos 2019) | primera estimación GRAM | carga global con intervalos | `SRC-MED-PHARM-GRAM-2022` | B-COND modelo | AUDITADO |
+| `TIME-MED-PHARM-GRAM-2024-001` | 2024 (datos 1990–2021) | GRAM con previsión a 2050 | tendencias por edad y escenario | `SRC-MED-PHARM-GRAM-2024` | B-COND modelo | AUDITADO |
+| `TIME-MED-PHARM-GLASS-2025-001` | 13 oct. 2025 | informe GLASS 2025 | uno de cada seis aislamientos resistente en 2023 | `SRC-MED-PHARM-WHO-GLASS-2025` | A institucional | AUDITADO |

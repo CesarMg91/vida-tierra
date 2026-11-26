@@ -3728,3 +3728,34 @@ Las recomendaciones de 2020 nacen en Norteamérica y priorizan la consulta forma
 | `CONT-CIV-IDENTITY-OLMEC-MOTHER-001` | «cultura madre» olmeca | culturas hermanas con intercambio recíproco | prioridad y exportación desde San Lorenzo | abierta | C |
 | `CONT-CIV-IDENTITY-CLUSTER-NAMING-001` | nombres de conglomerados | nombres culturales | sistemas numéricos o geográfico-temporales | abierta | B |
 | `CONT-CIV-IDENTITY-ADNA-CONSENT-001` | consulta y consentimiento | consulta formal con comunidades | pautas globales adaptadas a cada contexto | abierta | A normativo; B |
+
+## MED-023 — Enfermería, salud pública y profesiones
+
+| ID | Pregunta | Hipótesis principal | Alternativa | Evidencia discriminante | Estado |
+|---|---|---|---|---|---|
+| `CONT-MED-CARE-FOUNDER-001` | ¿quién fundó la enfermería moderna? | Nightingale con su escuela de 1860 | órdenes religiosas, diaconisas y muchas manos sin firma | definir fundación: escuela, modelo, práctica o difusión | FUNDADORA ÚNICA RECHAZADA |
+| `CONT-MED-CARE-SCUTARI-CAUSE-001` | ¿qué bajó la mortalidad en Scutari? | la enfermería de Nightingale | obras de la Comisión Sanitaria desde marzo de 1855, estación, suministros y admisión | series por hospital y semana con cambios fechados | ABIERTA; caída posterior a las obras |
+| `CONT-MED-CARE-NIGHTINGALE-SANITARY-001` | ¿entendió Nightingale el saneamiento durante la guerra? | sí, desde Scutari | sólo después, al trabajar con Farr (Small) | correspondencia de 1854–1856 | ABIERTA; historiografía dividida |
+| `CONT-MED-CARE-SEACOLE-CATEGORY-001` | ¿fue Seacole enfermera? | enfermera pionera | *doctress*, comerciante y sanadora (McDonald) | definición de la categoría y fuentes de su práctica | DISPUTA DE CATEGORÍAS; rivalidad única rechazada |
+| `CONT-MED-CARE-REGISTRATION-EFFECT-001` | ¿el registro mejoró el cuidado? | estándares de formación garantizados por el Estado | protección de títulos y cierre de mercado sin medida de efecto | práctica y desenlaces de registradas frente a no registradas | NO DEMOSTRADO |
+| `CONT-MED-CARE-CREDENTIAL-NEUTRAL-001` | ¿la credencial fue neutral? | certificó formación | distribuyó acceso por raza, clase y sexo | cupos, admisiones y exclusiones documentadas | NEUTRALIDAD RECHAZADA |
+| `CONT-MED-CARE-MEDICALIZATION-001` | ¿la medicalización del parto salvó vidas al principio? | sí, por más conocimiento médico | no; más intervención y peores resultados de médicos en Derbyshire | desenlaces por asistente con ajuste por riesgo | NO DEMOSTRADO en estos expedientes |
+| `CONT-MED-CARE-SANITARY-POLITICS-001` | ¿el programa sanitario de Chadwick fue sólo técnico? | respuesta técnica a la enfermedad | también respuesta política que relegó la pobreza (Hamlin) | debate interno de las investigaciones de 1842 | ABIERTA; desacuerdo documentado |
+| `CONT-MED-CARE-STAFFING-CAUSAL-001` | ¿la dotación de enfermeras causa diferencias de mortalidad? | sí, más enfermeras registradas reducen muertes | confusión por calidad hospitalaria, gravedad o causalidad inversa | diseños longitudinales, experimentos naturales y variación dentro del hospital | EFECTO PLAUSIBLE; tamaño incierto |
+| `CONT-MED-CARE-PROFESSION-IMPROVED-001` | ¿la profesionalización mejoró el cuidado? | sí, como muestran escuelas, registros y estudios modernos | inferencia desde narrativas institucionales sin comparación histórica | comparaciones de época entre cuidado profesional y no profesional | NO DEMOSTRADO para el siglo XIX |
+
+## MED-024 — Farmacología, antibióticos y resistencia
+
+| ID | Pregunta | Hipótesis principal | Alternativa | Evidencia discriminante | Estado |
+|---|---|---|---|---|---|
+| `CONT-MED-PHARM-PENICILLIN-DISCOVERER-001` | ¿quién descubrió la penicilina? | Fleming en 1928 | el equipo de Oxford convirtió una observación en sustancia terapéutica; la industria la hizo disponible | definición de descubrimiento: observación, sustancia o producción | FUNDADOR ÚNICO RECHAZADO |
+| `CONT-MED-PHARM-STREPTOMYCIN-CREDIT-001` | ¿de quién es la estreptomicina? | Waksman, director del programa | Schatz, autor de la prueba decisiva | criterio de crédito en cribados sistemáticos | ABIERTA; depende del criterio |
+| `CONT-MED-PHARM-SULFA-VIRULENCE-001` | ¿bajó la mortalidad puerperal por las sulfonamidas o por menor virulencia? | efecto del fármaco | caída espontánea de la virulencia del estreptococo | hospitales sin fármaco y controles concurrentes | EFECTO PROBABLE; magnitud no identificada |
+| `CONT-MED-PHARM-WITHERING-EVIDENCE-001` | ¿demostró Withering el efecto de la digital? | sí, por su serie amplia | serie sin contraste en un síndrome heterogéneo | comparación con pacientes no tratados | NO DEMOSTRADO por la serie; serie honesta |
+| `CONT-MED-PHARM-MRC-FIRST-001` | ¿fue el ensayo del MRC el primer ensayo aleatorizado? | sí, invención de Hill | heredero de monedas de 1931 y 1944, con motivo administrativo | archivos de diseños previos y del MRC | PRIORIDAD RECHAZADA; hito metodológico aceptado |
+| `CONT-MED-PHARM-THALIDOMIDE-PREVENTABLE-001` | ¿pudo prevenirse la talidomida con las pruebas de la época? | sí, por negligencia del fabricante | no, por insensibilidad de especie | registros de pruebas de Grünenthal | ABIERTA |
+| `CONT-MED-PHARM-KEFAUVER-SCOPE-001` | ¿la ley de 1962 respondió al daño de la talidomida? | sí, directamente | respondió con una exigencia de eficacia a un daño de seguridad | contenido de la ley e historia legislativa | RELACIÓN DIRECTA RECHAZADA; vínculo político aceptado |
+| `CONT-MED-PHARM-RESISTANCE-ORIGIN-001` | ¿la resistencia es antigua o moderna? | moderna, creada por los antibióticos | genes antiguos, frecuencia moderna seleccionada | ADN antiguo, colecciones preantibióticas y vigilancia | DICOTOMÍA RECHAZADA |
+| `CONT-MED-PHARM-FARM-SHARE-001` | ¿cuánto de la resistencia humana procede de la ganadería? | mucho | poco frente al uso humano y hospitalario | genómica de transmisión entre compartimentos | ABIERTA |
+| `CONT-MED-PHARM-BURDEN-2050-001` | ¿morirán 10 millones al año en 2050? | O'Neill | escenarios sin apoyo; GRAM prevé 1.91 millones atribuibles y 8.22 asociadas | modelo revisado, contrafactual e intervalos | CIFRA DE 10 MILLONES NO SUSTENTADA |
+| `CONT-MED-PHARM-FLEMING-MODEL-001` | ¿acertó Fleming sobre la causa de la resistencia? | dosis insuficiente del individuo | selección poblacional, plásmidos y uso animal | olas hospitalarias, transferencia y estudios de granja | ADVERTENCIA ACERTADA; MODELO INSUFICIENTE |

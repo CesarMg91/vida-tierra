@@ -1644,3 +1644,49 @@ Generada por el proyecto sin modelos de imagen: `node scripts/generate-civ-005-v
 ### Revisión y límites
 
 Las tres salidas se inspeccionaron completas tras rasterizar. La portada evita a propósito mapas, banderas, cráneos, hélices de ADN, rostros, vasijas reconocibles de una cultura y cualquier texto: no ilustra un pueblo, sino niveles de inferencia que se vacían. Los fragmentos, motivos, arcos, puntos y la etiqueta en blanco son genéricos y no proceden de un sitio. La bandeja vacía señala que la identidad casi nunca se observa en prehistoria, no que no existiera. Los SVG se diseñaron a `1600 × 900` con `title` y `desc`; la cadena usa línea continua para puentes auditables y arcos discontinuos para lo que no se hereda.
+
+## 86. MED-023 — Una credencial no demuestra un cuidado mejor por sí sola
+
+![Portada editorial de MED-023](assets/visuales/hero-med-023-enfermeria-salud-publica-profesiones.png)
+
+![Cadena desde el cuidado hasta el resultado medido](assets/visuales/cadena-cuidado-resultado-med-023.svg)
+
+![Matriz de enfermería, salud pública y profesiones](assets/visuales/matriz-enfermeria-salud-publica-profesiones-med-023.svg)
+
+| Archivo | Tipo | Procedencia | Qué representa | Límite obligatorio |
+|---|---|---|---|---|
+| `hero-med-023-enfermeria-salud-publica-profesiones.png` | portada editorial generativa | rasterizado con `sharp` de `hero-med-023-enfermeria-salud-publica-profesiones.svg` mediante `node scripts/generate-med-023-visuals.mjs --png`, 2026-11-25 | puntos cálidos dispersos, marcos concéntricos y renglones ordenados con puntos fuera | no representa personas, uniformes, hospitales, datos ni un acontecimiento real |
+| `hero-med-023-enfermeria-salud-publica-profesiones.svg` | fuente generativa determinista | SVG producido por `scripts/generate-med-023-visuals.mjs` con semilla fija `23023` | misma composición en vectores | puntos, marcos y líneas sin información |
+| `cadena-cuidado-resultado-med-023.svg` | diagrama epistemológico original | SVG producido por `scripts/generate-med-023-visuals.mjs`, 2026-11-25 | cuidado, testimonio, institución, regulación, credencial, práctica y resultado | las flechas no heredan práctica, calidad, competencia ni desenlace |
+| `matriz-enfermeria-salud-publica-profesiones-med-023.svg` | matriz documental original | SVG producido por `scripts/generate-med-023-visuals.mjs`, 2026-11-25 | once expedientes, archivos, productos y límites | las filas no forman escalera de profesionalización ni ranking |
+
+### Procedencia de la portada
+
+Generada por el proyecto sin modelos de imagen: `node scripts/generate-med-023-visuals.mjs --png` escribe el SVG con semilla fija y lo rasteriza con `sharp` (ya instalado) a `1672 × 941`. Tamaño: `236728` bytes; SHA-256: `c1bf4e9b557b7ae57a430239791e2f2674a1a35e8cd529dd196ff16721d48938`. Dos ejecuciones consecutivas producen el mismo archivo byte a byte.
+
+### Revisión y límites
+
+Las tres salidas se inspeccionaron completas tras rasterizar. La portada evita a propósito figuras humanas, cofias, uniformes, cruces, lámparas, camas o edificios reconocibles: no ilustra a ninguna enfermera, no reproduce el icono de la «dama de la lámpara» y no sugiere una fundadora. Los puntos fuera de los renglones aluden a quienes no entran en una lista, sin representar a nadie. Los SVG se construyeron a `1600 × 900` (diagramas) y `1672 × 941` (portada), incluyen `title`, `desc` y tipografía de reserva. Ninguno acepta datos personales, calcula riesgos ni recomienda proporciones de dotación.
+
+## 87. MED-024 — Una placa sin bacterias no demuestra un tratamiento eficaz por sí sola
+
+![Portada editorial de MED-024](assets/visuales/hero-med-024-farmacologia-antibioticos-resistencia.png)
+
+![Cadena desde la sustancia hasta la ecología de la resistencia](assets/visuales/cadena-sustancia-ecologia-med-024.svg)
+
+![Matriz de farmacología, antibióticos y resistencia](assets/visuales/matriz-farmacologia-resistencia-med-024.svg)
+
+| Archivo | Tipo | Procedencia | Qué representa | Límite obligatorio |
+|---|---|---|---|---|
+| `hero-med-024-farmacologia-antibioticos-resistencia.png` | portada editorial generativa | rasterizado con `sharp` de `hero-med-024-farmacologia-antibioticos-resistencia.svg` mediante `node scripts/generate-med-024-visuals.mjs --png`, 2026-11-25 | campo de puntos con un claro circular, anillos punteados y red de nodos enlazados | no representa organismos, placas reales, fármacos, cuerpos, datos ni un acontecimiento real |
+| `hero-med-024-farmacologia-antibioticos-resistencia.svg` | fuente generativa determinista | SVG producido por `scripts/generate-med-024-visuals.mjs` con semilla fija `24024` | misma composición en vectores | puntos, anillos y líneas sin información |
+| `cadena-sustancia-ecologia-med-024.svg` | diagrama epistemológico original | SVG producido por `scripts/generate-med-024-visuals.mjs`, 2026-11-25 | sustancia, dosis-respuesta, serie, comparación, regulación, vigilancia y ecología | las flechas no heredan tratamiento, efecto, seguridad ni tasa |
+| `matriz-farmacologia-resistencia-med-024.svg` | matriz documental original | SVG producido por `scripts/generate-med-024-visuals.mjs`, 2026-11-25 | once expedientes, archivos, productos y límites | las filas no forman prioridad, progreso ni ranking |
+
+### Procedencia de la portada
+
+Generada por el proyecto sin modelos de imagen: `node scripts/generate-med-024-visuals.mjs --png` escribe el SVG con semilla fija y lo rasteriza con `sharp` (ya instalado) a `1672 × 941`. Tamaño: `401685` bytes; SHA-256: `4e0d908a5f01b0eb4a812b9873e78ccf97e9fce1a8f547243ca768ce3d10e4de`. Dos ejecuciones consecutivas producen el mismo archivo byte a byte.
+
+### Revisión y límites
+
+Las tres salidas se inspeccionaron completas tras rasterizar. La portada evita a propósito cápsulas, frascos, jeringas, placas de Petri reconocibles, bacterias dibujadas o cuerpos: no estetiza el fármaco ni sugiere una sustancia o un uso. Los SVG se construyeron a `1600 × 900` (diagramas) y `1672 × 941` (portada), incluyen `title`, `desc` y tipografía de reserva. Ninguno acepta datos personales, calcula riesgos, recomienda o indica dosis.

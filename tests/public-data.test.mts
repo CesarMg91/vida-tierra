@@ -13,7 +13,7 @@ import { renderMarkdownForTest } from "../lib/content.ts";
 
 test("el catálogo conserva 52 órdenes globales y las series temáticas fuera de la secuencia", () => {
   const { catalog } = buildPublicData();
-  assert.equal(catalog.length, 85);
+  assert.equal(catalog.length, 87);
   assert.deepEqual(
     catalog.filter((record) => record.order !== null).map((record) => record.order),
     Array.from({ length: 52 }, (_, index) => index + 1),
@@ -23,7 +23,7 @@ test("el catálogo conserva 52 órdenes globales y las series temáticas fuera d
   assert.equal(thematic?.status, "TRAZADO");
   assert.deepEqual(
     catalog.filter((record) => record.order === null).map((record) => [record.key, record.status]),
-    [["CIV-001", "TRAZADO"], ["CIV-002", "AUDITADO"], ["CIV-003", "AUDITADO"], ["CIV-004", "AUDITADO"], ["CIV-005", "AUDITADO"], ["CON-001", "AUDITADO"], ["CON-002", "AUDITADO"], ["CON-003", "AUDITADO"], ["CON-004", "AUDITADO"], ["CON-005", "AUDITADO"], ["CON-006", "AUDITADO"], ["MED-001", "AUDITADO"], ["MED-002", "AUDITADO"], ["MED-003", "AUDITADO"], ["MED-004", "AUDITADO"], ["MED-005", "AUDITADO"], ["MED-006", "AUDITADO"], ["MED-007", "AUDITADO"], ["MED-008", "AUDITADO"], ["MED-009", "AUDITADO"], ["MED-010", "AUDITADO"], ["MED-011", "AUDITADO"], ["MED-012", "AUDITADO"], ["MED-013", "AUDITADO"], ["MED-014", "AUDITADO"], ["MED-015", "AUDITADO"], ["MED-016", "AUDITADO"], ["MED-017", "AUDITADO"], ["MED-018", "AUDITADO"], ["MED-019", "AUDITADO"], ["MED-020", "AUDITADO"], ["MED-021", "AUDITADO"], ["MED-022", "AUDITADO"]],
+    [["CIV-001", "TRAZADO"], ["CIV-002", "AUDITADO"], ["CIV-003", "AUDITADO"], ["CIV-004", "AUDITADO"], ["CIV-005", "AUDITADO"], ["CON-001", "AUDITADO"], ["CON-002", "AUDITADO"], ["CON-003", "AUDITADO"], ["CON-004", "AUDITADO"], ["CON-005", "AUDITADO"], ["CON-006", "AUDITADO"], ["MED-001", "AUDITADO"], ["MED-002", "AUDITADO"], ["MED-003", "AUDITADO"], ["MED-004", "AUDITADO"], ["MED-005", "AUDITADO"], ["MED-006", "AUDITADO"], ["MED-007", "AUDITADO"], ["MED-008", "AUDITADO"], ["MED-009", "AUDITADO"], ["MED-010", "AUDITADO"], ["MED-011", "AUDITADO"], ["MED-012", "AUDITADO"], ["MED-013", "AUDITADO"], ["MED-014", "AUDITADO"], ["MED-015", "AUDITADO"], ["MED-016", "AUDITADO"], ["MED-017", "AUDITADO"], ["MED-018", "AUDITADO"], ["MED-019", "AUDITADO"], ["MED-020", "AUDITADO"], ["MED-021", "AUDITADO"], ["MED-022", "AUDITADO"], ["MED-023", "AUDITADO"], ["MED-024", "AUDITADO"]],
   );
 });
 
@@ -65,12 +65,12 @@ test("los comodines editoriales no se convierten en IDs inexistentes", () => {
 
 test("todos los registros maestros quedan materializados", () => {
   const rows = registryRows();
-  assert.equal(rows.claims.length, 1868);
-  assert.equal(rows.evidence.length, 1359);
-  assert.equal(rows.sources.length, 2012);
-  assert.equal(rows.controversies.length, 696);
-  assert.equal(rows.errors.length, 828);
-  assert.equal(rows.timeline.length, 913);
+  assert.equal(rows.claims.length, 2023);
+  assert.equal(rows.evidence.length, 1404);
+  assert.equal(rows.sources.length, 2110);
+  assert.equal(rows.controversies.length, 717);
+  assert.equal(rows.errors.length, 852);
+  assert.equal(rows.timeline.length, 985);
 });
 
 test("cada claim llega a evidencia y fuentes publicables", () => {

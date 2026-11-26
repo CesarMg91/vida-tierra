@@ -1971,3 +1971,40 @@ componente    → parámetro de modelo A; etnia o lengua NO
 - `CLAIM-CIV-IDENTITY-PROTOCOL-001` obliga a los expedientes regionales a declarar clase, autor, archivo y puente de cada nombre colectivo.
 
 CIV-005 no cambia el estado de ningún claim de CIV-001, CIV-003 ni CIV-004. Véase `INV-CIV-IDENTITIES-001`, `MAPA_CIV_005_NOMBRES_IDENTIDADES.md`, `CRONOLOGIA_CIV_005_NOMBRES_IDENTIDADES.md`, `cadena-objeto-identidad-civ-005.svg` y `matriz-archivos-identidad-civ-005.svg`.
+
+## MED-023 — Una credencial no demuestra un cuidado mejor por sí sola
+
+- Antes de la profesión separa cuidado religioso, cuidado doméstico, institución propia y pericia sin documentar.
+- Las cuidadoras no registradas separan trabajo forzado, archivo del esclavizador, ausencia administrativa y existencia del cuidado.
+- Kaiserswerth separa números institucionales, prueba de entrada, argumento moral y admisión de una lista de recuperaciones «menos brillante».
+- Scutari separa llegada de Nightingale, Comisión Sanitaria, obras fechadas, tasas por ejército y atribución no identificada.
+- *Notes on Nursing* separa prescripción, teoría ambiental, foco doméstico y ausencia de series.
+- Seacole separa testimonio, rechazo, práctica fuera de la institución, memoria pública y disputa de categorías.
+- El registro separa campaña, ley, título, lista y práctica no contada.
+- La segregación separa credencial, cupo, institución paralela, admisión formal y acceso real.
+- La enfermería colonial separa servicio imperial, jerarquía racial de la profesión y misiones no auditadas.
+- Las parteras separan ley, supervisión, credencial creada y suprimida, conocimiento autorizado y desenlace por asistente.
+- La salud pública y la jerarquía separan informe, desacuerdo, cargo, disciplina, ley de boticarios, licencia dental, cierre ocupacional y jurisdicción.
+- La dotación separa asociación transversal, variación dentro del hospital, experimento natural, revisión con sesgo y proyección de modelo.
+- `CLAIM-MED-CARE-CHAIN-001` impide heredar automáticamente una propiedad entre cuidado, testimonio, institución, regulación, credencial, práctica efectiva y resultado.
+- `CLAIM-MED-CARE-NO-BACKCAST-001` impide usar la evidencia moderna de dotación para validar la historia de la profesión.
+
+Véase 15_medicina/INVESTIGACION_MED_023_ENFERMERIA_SALUD_PUBLICA_PROFESIONES.md, 22_mapas_epistemologicos/MAPA_MED_023_ENFERMERIA_SALUD_PUBLICA_PROFESIONES.md, 21_cronologias/CRONOLOGIA_MED_023_ENFERMERIA_SALUD_PUBLICA_PROFESIONES.md, assets/visuales/cadena-cuidado-resultado-med-023.svg y assets/visuales/matriz-enfermeria-salud-publica-profesiones-med-023.svg.
+
+## MED-024 — Una placa sin bacterias no demuestra un tratamiento eficaz por sí sola
+
+- Morfina y quinina separan sustancia aislada, medida estandarizada, autoexperimento y comparación ausente.
+- Withering separa serie completa declarada, titulación individual, síndrome heterogéneo y contraste ausente.
+- El Salvarsán separa cribado químico, serie pequeña, uso masivo, desenlace serológico y toxicidad sin denominador.
+- Las sulfonamidas separan ratón, molécula patentada, sustancia activa, control histórico, control concurrente y formulación letal.
+- La penicilina separa placa, sustancia estabilizada, ratones, un paciente, producción de guerra y reparto del crédito.
+- La estreptomicina separa cribado, crédito, escasez, asignación aleatoria, desenlace temprano y resistencia medida.
+- La talidomida separa señal clínica, insensibilidad de especie, revisora, umbral legal de eficacia y daño de seguridad.
+- La farmacovigilancia separa notificación, sospecha, numerador y tasa.
+- Los estafilococos separan enzima, cepa, ola hospitalaria, linaje, gen móvil y carga modelada.
+- Plásmidos y granjas separan origen del gen, vehículo, presión de selección, ruta animal–humano y fracción no identificada.
+- La carga global separa escenario, modelo, contrafactual, intervalo, previsión y proporción de vigilancia.
+- `CLAIM-MED-PHARM-CHAIN-001` impide heredar automáticamente una propiedad entre sustancia, dosis, serie, comparación, regulación, vigilancia y ecología.
+- `CLAIM-MED-PHARM-RESISTANCE-ECOLOGY-001` impide reducir la resistencia a un error individual.
+
+Véase 15_medicina/INVESTIGACION_MED_024_FARMACOLOGIA_ANTIBIOTICOS_RESISTENCIA.md, 22_mapas_epistemologicos/MAPA_MED_024_FARMACOLOGIA_ANTIBIOTICOS_RESISTENCIA.md, 21_cronologias/CRONOLOGIA_MED_024_FARMACOLOGIA_ANTIBIOTICOS_RESISTENCIA.md, assets/visuales/cadena-sustancia-ecologia-med-024.svg y assets/visuales/matriz-farmacologia-resistencia-med-024.svg.

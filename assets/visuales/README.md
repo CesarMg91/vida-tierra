@@ -1169,3 +1169,25 @@ La portada no usa modelos de imagen: se regenera idéntica con `node scripts/gen
 | `matriz-archivos-identidad-civ-005.svg` | `scripts/generate-civ-005-visuals.mjs` | `1600 × 900` | código fuente versionado | archivos distintos; no jerarquía |
 
 La portada no usa modelos de imagen: se regenera idéntica con `node scripts/generate-civ-005-visuals.mjs --png`. Los SVG incluyen `title` y `desc`. El procedimiento y los límites completos están en la sección «CIV-005 — Un componente no es un pueblo» de [`ATLAS_VISUAL.md`](../../ATLAS_VISUAL.md).
+
+## MED-023 — Enfermería, salud pública y profesiones
+
+| Archivo | Origen | Dimensiones | SHA-256 / trazabilidad | Límite |
+|---|---|---:|---|---|
+| `hero-med-023-enfermeria-salud-publica-profesiones.png` | rasterizado con `sharp` por `scripts/generate-med-023-visuals.mjs --png`, 2026-11-25 | `1672 × 941` | `c1bf4e9b557b7ae57a430239791e2f2674a1a35e8cd529dd196ff16721d48938` | composición abstracta; no personas, uniformes, hospitales ni acontecimientos reales |
+| `hero-med-023-enfermeria-salud-publica-profesiones.svg` | `scripts/generate-med-023-visuals.mjs`, semilla fija | `1672 × 941` | código fuente versionado | puntos, marcos y líneas sin información |
+| `cadena-cuidado-resultado-med-023.svg` | `scripts/generate-med-023-visuals.mjs` | `1600 × 900` | código fuente versionado | siete capas; no herencia automática |
+| `matriz-enfermeria-salud-publica-profesiones-med-023.svg` | `scripts/generate-med-023-visuals.mjs` | `1600 × 900` | código fuente versionado | once expedientes y límites; no ranking |
+
+La portada no usa modelos de imagen: se regenera idéntica con `node scripts/generate-med-023-visuals.mjs --png`. Los SVG incluyen `title` y `desc`, preservan las siete capas y no convierten relato, fundación, ley ni título en práctica, calidad o resultado. El prompt-equivalente y los límites están en `ATLAS_VISUAL.md`, sección de MED-023.
+
+## MED-024 — Farmacología, antibióticos y resistencia
+
+| Archivo | Origen | Dimensiones | SHA-256 / trazabilidad | Límite |
+|---|---|---:|---|---|
+| `hero-med-024-farmacologia-antibioticos-resistencia.png` | rasterizado con `sharp` por `scripts/generate-med-024-visuals.mjs --png`, 2026-11-25 | `1672 × 941` | `4e0d908a5f01b0eb4a812b9873e78ccf97e9fce1a8f547243ca768ce3d10e4de` | composición abstracta; no organismos, placas reales, fármacos ni acontecimientos reales |
+| `hero-med-024-farmacologia-antibioticos-resistencia.svg` | `scripts/generate-med-024-visuals.mjs`, semilla fija | `1672 × 941` | código fuente versionado | puntos, anillos y líneas sin información |
+| `cadena-sustancia-ecologia-med-024.svg` | `scripts/generate-med-024-visuals.mjs` | `1600 × 900` | código fuente versionado | siete capas inferenciales; no herencia automática |
+| `matriz-farmacologia-resistencia-med-024.svg` | `scripts/generate-med-024-visuals.mjs` | `1600 × 900` | código fuente versionado | once expedientes y límites; no prioridad ni ranking |
+
+La portada no usa modelos de imagen: se regenera idéntica con `node scripts/generate-med-024-visuals.mjs --png`. Los SVG incluyen `title` y `desc`, preservan las siete capas y no convierten sustancia, dosis, serie, contraste, aprobación ni notificación en tratamiento, efecto, seguridad o tasa. El prompt-equivalente y los límites están en `ATLAS_VISUAL.md`, en la sección de MED-024.
