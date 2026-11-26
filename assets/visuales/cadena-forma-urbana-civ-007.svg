@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Una ciudad no es un tamaño: siete dimensiones y sus saltos</title>
+  <desc id="desc">Siete cajas —densidad, extensión, monumentalidad, planificación, desigualdad, gobernanza y abastecimiento— con el instrumento que mide cada una, unidas por líneas que indican el orden de lectura, no una herencia. Debajo, arcos discontinuos marcan lo que cada dimensión no hereda de la anterior: la densidad no da la extensión, la extensión no da la población, el monumento no da el Estado, el plan no da al soberano, el Gini no da la clase y la gobernanza no da el abastecimiento.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#0b1011"/><stop offset="1" stop-color="#171512"/></linearGradient>
+    <style>.k{font:19px Consolas,monospace;letter-spacing:2px;fill:#c39456}.h{font:24px Georgia,serif;fill:#efe3d1}.t{font:19px Arial,sans-serif;fill:#c9c2b8}.l{font:16px Arial,sans-serif;fill:#d6a27b}.small{font:14px Consolas,monospace;fill:#91ad92}.cell{font:13px Arial,sans-serif;fill:#151310}.head{font:13px Consolas,monospace;letter-spacing:1px;fill:#c39456}.row{font:15px Arial,sans-serif;fill:#e6dccd}.rule{stroke:#8b6a43;stroke-width:2}.dash{stroke:#a96545;stroke-width:2;stroke-dasharray:8 8;fill:none}</style>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <text x="50" y="96" class="k">CIV-007 · SIETE DIMENSIONES</text>
+  <text x="50" y="150" font-family="Georgia,serif" font-size="42" fill="#f2e7d6">Una ciudad no es un tamaño</text>
+  <text x="50" y="190" class="t">Cada caso urbano se mide en siete dimensiones, cada una con su instrumento y sus supuestos.</text>
+  <g transform="translate(50 300)"><rect width="190" height="150" fill="#141a19" stroke="#779176"/><text x="14" y="46" class="h">Densidad</text><text x="14" y="86" class="small">estructuras/ha ×</text><text x="14" y="108" class="small">coetáneo × personas</text></g>
+  <g transform="translate(264 300)"><rect width="190" height="150" fill="#141a19" stroke="#779176"/><text x="14" y="46" class="h">Extensión</text><text x="14" y="86" class="small">prospección,</text><text x="14" y="108" class="small">LiDAR, geofísica</text></g>
+  <g transform="translate(478 300)"><rect width="190" height="150" fill="#141a19" stroke="#779176"/><text x="14" y="46" class="h">Monumento</text><text x="14" y="86" class="small">volumen y</text><text x="14" y="108" class="small">energética</text></g>
+  <g transform="translate(692 300)"><rect width="190" height="150" fill="#141a19" stroke="#779176"/><text x="14" y="46" class="h">Plan</text><text x="14" y="86" class="small">retícula, obra</text><text x="14" y="108" class="small">común, secuencia</text></g>
+  <g transform="translate(906 300)"><rect width="190" height="150" fill="#141a19" stroke="#779176"/><text x="14" y="46" class="h">Desigualdad</text><text x="14" y="86" class="small">Gini de áreas,</text><text x="14" y="108" class="small">ajuares, dieta</text></g>
+  <g transform="translate(1120 300)"><rect width="190" height="150" fill="#141a19" stroke="#779176"/><text x="14" y="46" class="h">Gobernanza</text><text x="14" y="86" class="small">textos, palacios,</text><text x="14" y="108" class="small">espacios</text></g>
+  <g transform="translate(1334 300)"><rect width="190" height="150" fill="#141a19" stroke="#779176"/><text x="14" y="46" class="h">Abasto</text><text x="14" y="86" class="small">campos, agua,</text><text x="14" y="108" class="small">isótopos, depósitos</text></g>
+  <path class="rule" d="M242 375H260"/><path d="M260 369L264 375L260 381" fill="none" stroke="#8b6a43" stroke-width="2"/>
+  <path class="rule" d="M456 375H474"/><path d="M474 369L478 375L474 381" fill="none" stroke="#8b6a43" stroke-width="2"/>
+  <path class="rule" d="M670 375H688"/><path d="M688 369L692 375L688 381" fill="none" stroke="#8b6a43" stroke-width="2"/>
+  <path class="rule" d="M884 375H902"/><path d="M902 369L906 375L902 381" fill="none" stroke="#8b6a43" stroke-width="2"/>
+  <path class="rule" d="M1098 375H1116"/><path d="M1116 369L1120 375L1116 381" fill="none" stroke="#8b6a43" stroke-width="2"/>
+  <path class="rule" d="M1312 375H1330"/><path d="M1330 369L1334 375L1330 381" fill="none" stroke="#8b6a43" stroke-width="2"/>
+  <path class="dash" d="M145 455C189 555 315 555 359 455"/><text x="197" y="594" class="l">≠ extensión</text>
+  <path class="dash" d="M359 455C403 555 529 555 573 455"/><text x="411" y="594" class="l">≠ población</text>
+  <path class="dash" d="M573 455C617 555 743 555 787 455"/><text x="625" y="594" class="l">≠ Estado</text>
+  <path class="dash" d="M787 455C831 555 957 555 1001 455"/><text x="839" y="594" class="l">≠ soberano</text>
+  <path class="dash" d="M1001 455C1045 555 1171 555 1215 455"/><text x="1053" y="594" class="l">≠ clase</text>
+  <path class="dash" d="M1215 455C1259 555 1385 555 1429 455"/><text x="1267" y="594" class="l">≠ abasto</text>
+  <text x="50" y="700" class="t">Gran Zimbabue tuvo muros monumentales y probablemente no más de 10 000 habitantes; Caral, monumentos sin cerámica.</text>
+  <text x="50" y="736" class="t">Mohenjo-daro tuvo calles planeadas y un Gini residencial que bajó; Jenne-jeno fue un racimo sin ciudadela.</text>
+  <text x="50" y="772" class="t">Un km² de LiDAR mide relieve, no personas; un Gini mide áreas de casas, no clases.</text>
+</svg>

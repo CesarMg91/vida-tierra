@@ -105,7 +105,7 @@ El genoma de Rakhigarhi restringe la historia biológica de un individuo; no res
 
 ## 11. Desigualdad cuantitativa
 
-Gini de áreas residenciales y otras métricas volvieron comparables distribuciones arqueológicas. Kohler et al. (2017) ofrecieron una muestra de `64` sitios y publicaron una corrección metodológica en 2018. La cuantificación hace visibles patrones y faltantes; no convierte superficie de vivienda en riqueza total ni el promedio regional en experiencia de cada grupo.
+Gini de áreas residenciales y otras métricas volvieron comparables distribuciones arqueológicas. Kohler et al. (2017) ofrecieron una muestra de `63` sitios o grupos de sitios coetáneos y publicaron una corrección metodológica en 2018. La cuantificación hace visibles patrones y faltantes; no convierte superficie de vivienda en riqueza total ni el promedio regional en experiencia de cada grupo.
 
 El avance historiográfico consiste en escribir la cadena completa:
 

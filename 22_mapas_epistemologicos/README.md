@@ -66,6 +66,8 @@ Grafos de dependencias entre objetos, mediciones, principios, modelos, claims y 
 
 - [`MAPA_CIV_006_DOMESTICACIONES_ALDEAS_REGIONALES.md`](MAPA_CIV_006_DOMESTICACIONES_ALDEAS_REGIONALES.md) — seis campos paralelos, relojes por objeto fechado y saltos no heredados: domesticado, aldea, origen y cuenca — **AUDITADO**.
 
+- [`MAPA_CIV_007_URBANISMOS_COMPARADOS.md`](MAPA_CIV_007_URBANISMOS_COMPARADOS.md) — siete dimensiones paralelas, instrumentos con sus supuestos y saltos no heredados: población, Estado, soberano, igualdad e identidad — **AUDITADO**.
+
 ## Medicina
 
 - [`MAPA_MED_008_ROMA_BIZANCIO_MEDITERRANEO_TARDIO.md`](MAPA_MED_008_ROMA_BIZANCIO_MEDITERRANEO_TARDIO.md) — vestigio, identificación, función, operación, acceso y consecuencia sin hospital, cobertura o resultado heredados — **AUDITADO**.

@@ -4937,3 +4937,103 @@ El sitio con la fecha más antigua se declara centro u origen de la agricultura 
 | `ERR-CIV-DOMREG-PLASTIC-TRAIT-001` | rasgo plástico = genético | morfología = genotipo | experimentos y ADN antiguo | DOCUMENTADO |
 | `ERR-CIV-DOMREG-LANDSCAPE-TOTAL-001` | un sitio = la cuenca | muestreo representativo | escala declarada y muestreo estratificado | DOCUMENTADO |
 | `ERR-CIV-DOMREG-FIRST-DATE-CENTER-001` | fecha más antigua = centro | prioridad = origen | objeto fechado y archivo de difusión | DOCUMENTADO |
+
+## MED-030 — Reproducción, discapacidad, salud mental y derechos
+
+| ID | Error | Por qué falla | Corrección | Estado |
+|---|---|---|---|---|
+| `ERR-MED-RIGHTS-EUGENICS-NAZI-ONLY-001` | la eugenesia fue cosa de los nazis | Estados Unidos y Suecia esterilizaron por ley a decenas de miles | política de democracias antes, durante y después | ACTIVO |
+| `ERR-MED-RIGHTS-BUCK-CATEGORY-001` | Carrie Buck era débil mental, como dijo la Corte | el expediente se construyó para el litigio | la categoría no la describía | ACTIVO |
+| `ERR-MED-RIGHTS-SIGNATURE-CONSENT-001` | un formulario firmado prueba consentimiento | formularios incumplidos y firmas en otra lengua | consentimiento libre, informado y en la lengua de la persona | ACTIVO |
+| `ERR-MED-RIGHTS-PERU-EXACT-001` | en Perú hubo exactamente 300 000 esterilizaciones forzadas | es el orden de magnitud citado de las esterilizaciones | fracción forzada no contada | ACTIVO |
+| `ERR-MED-RIGHTS-PILL-CONSENT-001` | la píldora se probó con consentimiento informado moderno | no se informó de que era un experimento | distancia entre Núremberg y la práctica | ACTIVO |
+| `ERR-MED-RIGHTS-FOURTEEN-BIOLOGY-001` | la regla de los catorce días es un dato biológico | es una línea de política pública | hito del desarrollo elegido por un comité | ACTIVO |
+| `ERR-MED-RIGHTS-JAILS-CAUSE-001` | la desinstitucionalización mandó a los enfermos a la cárcel | prevalencia no es causa | series del mismo lugar y periodo | ACTIVO |
+| `ERR-MED-RIGHTS-LOBOTOMY-NOBEL-001` | la lobotomía funcionaba: le dieron el Nobel | serie sin comparador y seguimiento de días | un premio no es evidencia de beneficio | ACTIVO |
+| `ERR-MED-RIGHTS-ROSENHAN-PROOF-001` | Rosenhan demostró que la psiquiatría no distingue cuerdos de locos | el estudio está bajo acusación documentada de fraude | la pregunta sigue; el estudio no la sostiene | ACTIVO |
+| `ERR-MED-RIGHTS-HOMOSEX-VOTE-001` | la homosexualidad dejó de ser trastorno sólo por un voto | hubo evidencia previa, activismo y un criterio | coincidencia de datos, movimiento y criterio | ACTIVO |
+| `ERR-MED-RIGHTS-RELIABLE-REAL-001` | un diagnóstico confiable es real | la confiabilidad no es validez | medir validez aparte | ACTIVO |
+| `ERR-MED-RIGHTS-ALL-POLITICAL-001` | toda psiquiatría es represión política | la psiquiatría política prueba captura institucional | independencia de quien diagnostica | ACTIVO |
+| `ERR-MED-RIGHTS-SOCIAL-MODEL-DENIAL-001` | el modelo social niega la deficiencia | separa deficiencia y discapacidad | discutir dónde trazar la línea | ACTIVO |
+| `ERR-MED-RIGHTS-CRPD-SETTLED-001` | la Convención resolvió el internamiento involuntario | su interpretación del artículo 12 está en disputa | leer la Observación general y su crítica | ACTIVO |
+
+## MED-032 — Salud global, determinantes y pandemias
+
+| ID | Error | Por qué falla | Corrección | Estado |
+|---|---|---|---|---|
+| `ERR-MED-GLOBAL-TROPICAL-PURE-SCIENCE-001` | la medicina tropical fue pura ciencia | se formó al servicio de un imperio y aplicó campañas coercitivas | separar hallazgo parasitológico, propósito e intervención | ACTIVO |
+| `ERR-MED-GLOBAL-DISTRUST-IGNORANCE-001` | la desconfianza en las campañas sanitarias es ignorancia | se asocia con exposición documentada a campañas coloniales | leerla con su historia | ACTIVO |
+| `ERR-MED-GLOBAL-ERADICATION-UNIVERSAL-001` | si se erradicó la viruela, se puede erradicar cualquier enfermedad | biología, reservorio y exposición difieren | comparar biología y exposición antes que voluntad | ACTIVO |
+| `ERR-MED-GLOBAL-MALARIA-WILL-001` | la erradicación de la malaria fracasó por falta de voluntad | hubo resistencia, estrategia rígida y retiro de fondos | auditar causas por región | ACTIVO |
+| `ERR-MED-GLOBAL-ALMA-ATA-NAIVE-001` | Alma-Ata fracasó porque era ingenua | la disputa fue de prioridades, sin experimento que la decidiera | separar declaración, sistema e intervención | ACTIVO |
+| `ERR-MED-GLOBAL-MEDICINE-LIFE-EXPECTANCY-001` | la medicina explica el aumento histórico de la esperanza de vida | el descenso tuvo causas plurales en disputa | separar nutrición, agua, salud pública y medicina | ACTIVO |
+| `ERR-MED-GLOBAL-WATER-HALF-001` | el agua limpia explicó la mitad del descenso de la mortalidad | otra réplica halla una magnitud mucho menor | citar el rango y la especificación | ACTIVO |
+| `ERR-MED-GLOBAL-GRADIENT-MECHANISM-001` | el gradiente social se debe al estrés | el mecanismo no está identificado | conservar rutas alternativas y la selección | ACTIVO |
+| `ERR-MED-GLOBAL-COUNTERFACTUAL-COUNT-001` | 330 000 o 343 000 muertes es un recuento | son contrafactuales con comparadores distintos | citar el comparador y el periodo | ACTIVO |
+| `ERR-MED-GLOBAL-EBOLA-ALARMISM-001` | la proyección del ébola de 2014 fue alarmista | describía un escenario sin respuesta adicional | leer la proyección como condicional | ACTIVO |
+| `ERR-MED-GLOBAL-COVID-SINGLE-NUMBER-001` | la pandemia de COVID-19 mató a X millones | las estimaciones van de 14.83 a 18.2 millones según el método | citar el rango y el método | ACTIVO |
+| `ERR-MED-GLOBAL-TREATY-DELIVERY-001` | el Acuerdo sobre Pandemias ya garantiza vacunas para todos | no está abierto a la firma y su anexo no se ha adoptado | separar texto, ratificación, contrato y entrega | ACTIVO |
+
+## CIV-007 — Errores científicos que la comparación urbana debe evitar
+
+### ERR-CIV-URBCOMP-AREA-POPULATION-001 — Superficie igual a población
+
+La extensión de un sitio se convierte en habitantes con una densidad fija, como si todas sus partes hubieran estado ocupadas a la vez.
+
+**Corrección:** declarar fase, fracción residencial, coetaneidad y personas por unidad; Gran Zimbabue bajó de `20 000` a `≤10 000` al corregir la coetaneidad.
+
+### ERR-CIV-URBCOMP-LIDAR-COEVAL-001 — Estructura LiDAR igual a casa habitada al mismo tiempo
+
+Cada montículo detectado bajo el dosel se cuenta como vivienda ocupada en el mismo momento.
+
+**Corrección:** excavar una muestra aleatoria para fijar función y fecha antes de extrapolar.
+
+### ERR-CIV-URBCOMP-MONUMENT-MEGACITY-001 — Monumento igual a megaciudad
+
+Muros, pirámides o plataformas monumentales se leen como prueba de una gran población.
+
+**Corrección:** medir densidad y abastecimiento por separado; Gran Zimbabue y Caral muestran monumentalidad sin la población supuesta.
+
+### ERR-CIV-URBCOMP-GRID-SOVEREIGN-001 — Retícula igual a soberano
+
+Una traza ortogonal u orientación canónica se toma como prueba de planificación por un gobernante central.
+
+**Corrección:** reconstruir la secuencia y la organización del trabajo; en Teotihuacan la construcción combinó trabajo estatal, comunal y corporativo.
+
+### ERR-CIV-URBCOMP-NO-PALACE-EQUALITY-001 — Ausencia de palacio igual a igualdad
+
+La falta de palacios o tumbas reales se presenta como igualdad demostrada.
+
+**Corrección:** medir la desigualdad con un proxy declarado y tratar la ausencia como dato ausente, no como prueba.
+
+### ERR-CIV-URBCOMP-COMPACT-NORM-001 — Baja densidad igual a ciudad fallida o rural
+
+Ciudades extensas de baja densidad se excluyen de la categoría o se leen como etapa previa a la ciudad compacta.
+
+**Corrección:** comparar por dimensiones; la baja densidad agraria es una forma urbana recurrente.
+
+### ERR-CIV-URBCOMP-ANCESTRY-CITY-IDENTITY-001 — Ancestría igual a identidad urbana
+
+Proporciones de ancestría de individuos de élite se usan para decidir quién fundó o «era» una ciudad.
+
+**Corrección:** separar parentesco y movilidad de la identidad cultural y lingüística (CIV-005).
+
+### ERR-CIV-URBCOMP-ECOCIDE-ASSUMED-001 — Ecocidio supuesto
+
+Se atribuye el abandono de una ciudad a la destrucción de su entorno sin probar el efecto geomórfico.
+
+**Corrección:** contrastar con el estrato; en Cahokia el horizonte bajo un montículo permaneció estable.
+
+
+### Índice tabular CIV-007
+
+| ID | Caso | Supuesto que falló | Mecanismo de corrección | Estado |
+|---|---|---|---|---|
+| `ERR-CIV-URBCOMP-AREA-POPULATION-001` | superficie = población | ocupación simultánea | coetaneidad declarada | DOCUMENTADO |
+| `ERR-CIV-URBCOMP-LIDAR-COEVAL-001` | estructura LiDAR = casa coetánea | relieve = vivienda fechada | excavación de muestra | DOCUMENTADO |
+| `ERR-CIV-URBCOMP-MONUMENT-MEGACITY-001` | monumento = megaciudad | inversión = población | densidad medida aparte | DOCUMENTADO |
+| `ERR-CIV-URBCOMP-GRID-SOVEREIGN-001` | retícula = soberano | orden = mando único | secuencia y trabajo | DOCUMENTADO |
+| `ERR-CIV-URBCOMP-NO-PALACE-EQUALITY-001` | sin palacio = igualdad | ausencia = prueba | proxy declarado | DOCUMENTADO |
+| `ERR-CIV-URBCOMP-COMPACT-NORM-001` | baja densidad = no ciudad | norma compacta | comparación por dimensiones | DOCUMENTADO |
+| `ERR-CIV-URBCOMP-ANCESTRY-CITY-IDENTITY-001` | ancestría = identidad urbana | genes = cultura | archivos separados | DOCUMENTADO |
+| `ERR-CIV-URBCOMP-ECOCIDE-ASSUMED-001` | ecocidio supuesto | uso del suelo = colapso | prueba estratigráfica | DOCUMENTADO |

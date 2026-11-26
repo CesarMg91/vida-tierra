@@ -9,12 +9,14 @@ import CivilizationIdentitiesLab from "../../components/CivilizationIdentitiesLa
 import CivilizationSouthwestAsia from "../../components/CivilizationSouthwestAsiaStyled";
 import CivilizationNile from "../../components/CivilizationNile";
 import CivilizationDomesticationsLab from "../../components/CivilizationDomesticationsLab";
+import CivilizationUrbanismsLab from "../../components/CivilizationUrbanismsLab";
 import { chronologyLanes, civilizationCases } from "../../lib/civilizations";
 import { civilizationDating } from "../../lib/civilization-dating";
 import { civilizationIdentities } from "../../lib/civilization-identities";
 import { southwestAsia } from "../../lib/civilization-swasia";
 import { nileValley } from "../../lib/civilization-nile";
 import { civilizationDomestications } from "../../lib/civilization-domestications";
+import { civilizationUrbanisms } from "../../lib/civilization-urbanisms";
 import { getCivilizationMapData } from "../../lib/civilization-map";
 import { getCatalog } from "../../lib/public-data";
 import { createPageMetadata } from "../../lib/site";
@@ -193,6 +195,17 @@ export default function CivilizationsPage() {
           <p>Elige un archivo regional —arroz, mijo, Kuk, cereales o tubérculos africanos, Mesoamérica, el Este de Norteamérica o la Amazonía— y recorre seis campos: planta, rasgo, cultivo, aldea, fecha y difusión. Ninguna fecha es el origen de la agricultura.</p>
         </div>
         <CivilizationDomesticationsLab data={civilizationDomestications} />
+      </section>
+
+      <section className="civilization-dating-section" aria-labelledby="urbanisms-title">
+        <div className="section-heading">
+          <div>
+            <p className="eyebrow">Urbanismos comparados</p>
+            <h2 id="urbanisms-title">Una ciudad no es un tamaño</h2>
+          </div>
+          <p>Elige un caso —Mohenjo-daro, Liangzhu, Teotihuacan, Tikal y Caracol, Caral y Chan Chan, Jenne-jeno, Gran Zimbabue, las ciudades suajili o Cahokia— y recorre siete dimensiones: densidad, extensión, monumentalidad, planificación, desigualdad, gobernanza y abastecimiento. Ningún caso las tiene todas y ninguna cifra de población es un conteo.</p>
+        </div>
+        <CivilizationUrbanismsLab data={civilizationUrbanisms} />
       </section>
 
       <section className="civilization-chronology-section" aria-labelledby="chronology-title">

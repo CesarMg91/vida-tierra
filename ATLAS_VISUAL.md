@@ -1828,3 +1828,72 @@ Generada por el proyecto sin modelos de imagen: `node scripts/generate-civ-006-v
 ### Revisión y límites
 
 Las tres salidas se inspeccionaron completas tras rasterizar. La portada evita a propósito mapas, siluetas de plantas reconocibles de una región, casas, personas y texto: no ilustra un origen, sino archivos de restos distintos con fechas que caen a alturas diferentes. La bandeja casi vacía con un contorno punteado señala el silencio de preservación de los tubérculos, no su ausencia. Los SVG de cadena y matriz se diseñaron a `1600 × 900` con `title` y `desc`; la matriz se regenera desde el módulo público para que ambos no diverjan.
+
+## 94. MED-030 — Una categoría médica no autoriza por sí sola una intervención
+
+![Portada editorial de MED-030](assets/visuales/hero-med-030-reproduccion-discapacidad-salud-mental-derechos.png)
+
+![Cadena desde la categoría hasta el daño](assets/visuales/cadena-categoria-dano-med-030.svg)
+
+![Matriz de reproducción, discapacidad, salud mental y derechos](assets/visuales/matriz-derechos-categorias-med-030.svg)
+
+| Archivo | Tipo | Procedencia | Qué representa | Límite obligatorio |
+|---|---|---|---|---|
+| `hero-med-030-reproduccion-discapacidad-salud-mental-derechos.png` | portada editorial generativa | rasterizado con `sharp` de `hero-med-030-reproduccion-discapacidad-salud-mental-derechos.svg` mediante `node scripts/generate-med-030-visuals.mjs --png`, 2026-11-26 | retícula de rectángulos desiguales, arcos concéntricos abiertos y puntos que salen por la abertura | no representa personas, pacientes, instrumentos, documentos, datos ni un acontecimiento real |
+| `hero-med-030-reproduccion-discapacidad-salud-mental-derechos.svg` | fuente generativa determinista | SVG producido por `scripts/generate-med-030-visuals.mjs` con semilla fija `30030` | misma composición en vectores | rectángulos, arcos y puntos sin información |
+| `cadena-categoria-dano-med-030.svg` | diagrama epistemológico original | SVG producido por `scripts/generate-med-030-visuals.mjs`, 2026-11-26 | categoría, diagnóstico, institución, intervención, consentimiento, movimiento y daño | las flechas no heredan diagnóstico, institución, cuidado, beneficio, consentimiento ni prueba |
+| `matriz-derechos-categorias-med-030.svg` | matriz documental original | SVG producido por `scripts/generate-med-030-visuals.mjs`, 2026-11-26 | doce expedientes, archivos, productos y límites | las filas no ordenan daños ni forman progreso |
+
+### Procedencia de la portada
+
+Generada por el proyecto sin modelos de imagen: `node scripts/generate-med-030-visuals.mjs --png` escribe el SVG con semilla fija y lo rasteriza con `sharp` (ya instalado) a `1672 × 941`. Tamaño: `187874` bytes; SHA-256: `bdaf420c1c2648aca6d049f3d55135be0437713bc86548a2f3e4b58ea96cef74`. Tres ejecuciones consecutivas producen el mismo archivo byte a byte.
+
+### Revisión y límites
+
+Las tres salidas se inspeccionaron completas tras rasterizar. La portada evita a propósito cuerpos, siluetas, quirófanos, instrumentos, camas, rejas, sillas de ruedas, símbolos médicos, fotografías de archivo o logotipos: los rectángulos aluden a etiquetas que clasifican, los arcos abiertos a una institución que encierra y se abre, y los puntos a quienes salen y se organizan, sin representar a ninguna víctima, persona ni acontecimiento. Los SVG se construyeron a `1600 × 900` (diagramas) y `1672 × 941` (portada), incluyen `title`, `desc` y tipografía de reserva. Ninguno acepta datos personales, calcula riesgos ni indica tratamientos.
+
+## 95. MED-032 — Una cifra global no demuestra una causa ni una cooperación por sí sola
+
+![Portada editorial de MED-032](assets/visuales/hero-med-032-salud-global-determinantes-pandemias.png)
+
+![Cadena desde la biología hasta la cooperación](assets/visuales/cadena-biologia-cooperacion-med-032.svg)
+
+![Matriz de salud global, determinantes y pandemias](assets/visuales/matriz-salud-global-med-032.svg)
+
+| Archivo | Tipo | Procedencia | Qué representa | Límite obligatorio |
+|---|---|---|---|---|
+| `hero-med-032-salud-global-determinantes-pandemias.png` | portada editorial generativa | rasterizado con `sharp` de `hero-med-032-salud-global-determinantes-pandemias.svg` mediante `node scripts/generate-med-032-visuals.mjs --png`, 2026-11-26 | campo de puntos de densidad variable, escalera de barras descendente y arcos completos o interrumpidos entre nodos | no representa mapas, países, personas, insectos, virus, datos ni un acontecimiento real; las barras no grafican ninguna cifra |
+| `hero-med-032-salud-global-determinantes-pandemias.svg` | fuente generativa determinista | SVG producido por `scripts/generate-med-032-visuals.mjs` con semilla fija `32032` | misma composición en vectores | puntos, barras y arcos sin información |
+| `cadena-biologia-cooperacion-med-032.svg` | diagrama epistemológico original | SVG producido por `scripts/generate-med-032-visuals.mjs`, 2026-11-26 | biología, exposición, desigualdad, sistema, intervención, medición y cooperación | las flechas no heredan exposición, causa social, política, servicio, efecto ni reparto |
+| `matriz-salud-global-med-032.svg` | matriz documental original | SVG producido por `scripts/generate-med-032-visuals.mjs`, 2026-11-26 | trece expedientes, siete capas y presencia de cada capa | las filas no ordenan éxitos ni culpas y no forman progreso |
+
+### Procedencia de la portada
+
+Generada por el proyecto sin modelos de imagen: `node scripts/generate-med-032-visuals.mjs --png` escribe el SVG con semilla fija y lo rasteriza con `sharp` (ya instalado) a `1672 × 941`. Tamaño: `376189` bytes; SHA-256: `3041a5968e375ed5105eead74dc33bc6d0d5fbd0c6bf146f7a7a9141f143cb86`. Tres ejecuciones consecutivas producen el mismo archivo byte a byte.
+
+### Revisión y límites
+
+Las tres salidas se inspeccionaron completas tras rasterizar. La portada evita a propósito mapas, continentes, banderas, cuerpos, siluetas, mosquitos, virus dibujados, jeringas, fotografías de archivo o logotipos: los puntos aluden a exposiciones desigualmente densas, la escalera a un gradiente sin cifras y los arcos interrumpidos a una cooperación que no siempre llega, sin representar a ninguna persona, país ni acontecimiento. Los SVG se construyeron a `1600 × 900` (diagramas) y `1672 × 941` (portada), incluyen `title`, `desc` y tipografía de reserva. Ninguno acepta datos personales, calcula riesgos ni indica tratamientos.
+
+## 96. CIV-007 — Una ciudad no es un tamaño
+
+![Portada editorial de CIV-007](assets/visuales/hero-civ-007-urbanismos-comparados.png)
+
+![Cadena de siete dimensiones](assets/visuales/cadena-forma-urbana-civ-007.svg)
+
+![Matriz de casos urbanos por dimensión](assets/visuales/matriz-ciudades-dimensiones-civ-007.svg)
+
+| Archivo | Tipo | Procedencia | Qué representa | Límite obligatorio |
+|---|---|---|---|---|
+| `hero-civ-007-urbanismos-comparados.png` | portada editorial generativa | rasterizado con `sharp` de `hero-civ-007-urbanismos-comparados.svg` mediante `node scripts/generate-civ-007-visuals.mjs --png`, 2026-11-26 | siete láminas con trazas urbanas genéricas (retícula, puntos dispersos, racimo, recintos curvos, presas, terrazas, núcleo con plaza) y una regla de escala distinta bajo cada una | no plano de un sitio real, ni mapa, persona o texto |
+| `hero-civ-007-urbanismos-comparados.svg` | fuente generativa determinista | SVG producido por `scripts/generate-civ-007-visuals.mjs` con semilla fija | misma composición en vectores | formas genéricas sin información arqueológica |
+| `cadena-forma-urbana-civ-007.svg` | diagrama epistemológico original | SVG producido por `scripts/generate-civ-007-visuals.mjs`, 2026-11-26 | siete dimensiones con su instrumento y lo que cada una no hereda | el orden de lectura no es una secuencia histórica ni una lista de requisitos |
+| `matriz-ciudades-dimensiones-civ-007.svg` | matriz epistemológica original | SVG producido por `scripts/generate-civ-007-visuals.mjs` desde `content/civilization-urbanisms.json`, 2026-11-26 | nueve casos urbanos por siete dimensiones con su estado | el estado es del archivo, no una calificación de la ciudad |
+
+### Procedencia de la portada
+
+Generada por el proyecto sin modelos de imagen: `node scripts/generate-civ-007-visuals.mjs --png` escribe el SVG con la semilla `7007` y lo rasteriza con `sharp` a `1672 × 941`. Tamaño: `204184` bytes; SHA-256: `4e20e79d0f98964d06b645032162230cf37b3e1ce8c90e8fdbad0273fb102d53`.
+
+### Revisión y límites
+
+Las tres salidas se inspeccionaron completas tras rasterizar. La portada evita a propósito planos reconocibles de Mohenjo-daro, Teotihuacan o cualquier otro sitio, mapas, personas y texto: no ilustra ciudades concretas, sino que cada caso se mide a otra escala. Las reglas con distinto número de marcas bajo cada lámina señalan esa diferencia de escala, no una cronología ni un tamaño real. Los SVG de cadena y matriz se diseñaron a `1600 × 900` con `title` y `desc`; la matriz se regenera desde el módulo público para que ambos no diverjan.

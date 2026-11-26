@@ -1257,3 +1257,36 @@ La portada no usa modelos de imagen: se regenera idéntica con `node scripts/gen
 | `matriz-regiones-campos-civ-006.svg` | `scripts/generate-civ-006-visuals.mjs` desde `content/civilization-domestications.json` | `1600 × 900` | código fuente versionado | estado del archivo; no ranking regional |
 
 La portada no usa modelos de imagen: se regenera idéntica con `node scripts/generate-civ-006-visuals.mjs --png`. Los SVG incluyen `title` y `desc`. El procedimiento y los límites completos están en la sección «CIV-006 — Una semilla no es una aldea» de [`ATLAS_VISUAL.md`](../../ATLAS_VISUAL.md).
+
+## MED-030 — Reproducción, discapacidad, salud mental y derechos
+
+| Archivo | Origen | Dimensiones | SHA-256 / trazabilidad | Límite |
+|---|---|---:|---|---|
+| `hero-med-030-reproduccion-discapacidad-salud-mental-derechos.png` | rasterizado con `sharp` por `scripts/generate-med-030-visuals.mjs --png`, 2026-11-26 | `1672 × 941` | `bdaf420c1c2648aca6d049f3d55135be0437713bc86548a2f3e4b58ea96cef74` | composición abstracta; no personas, pacientes, instrumentos, documentos ni acontecimientos reales |
+| `hero-med-030-reproduccion-discapacidad-salud-mental-derechos.svg` | `scripts/generate-med-030-visuals.mjs`, semilla fija | `1672 × 941` | código fuente versionado | rectángulos, arcos y puntos sin información |
+| `cadena-categoria-dano-med-030.svg` | `scripts/generate-med-030-visuals.mjs` | `1600 × 900` | código fuente versionado | siete capas inferenciales; no herencia automática |
+| `matriz-derechos-categorias-med-030.svg` | `scripts/generate-med-030-visuals.mjs` | `1600 × 900` | código fuente versionado | doce expedientes y límites; no ranking de daños |
+
+La portada no usa modelos de imagen: se regenera idéntica con `node scripts/generate-med-030-visuals.mjs --png`. Los SVG incluyen `title` y `desc`, preservan las siete capas y no convierten categoría, diagnóstico, institución, intervención, firma ni movimiento en diagnóstico válido, cuidado, beneficio, consentimiento o prueba. El prompt-equivalente y los límites están en `ATLAS_VISUAL.md`, en la sección de MED-030.
+
+## MED-032 — Salud global, determinantes y pandemias
+
+| Archivo | Origen | Dimensiones | SHA-256 / trazabilidad | Límite |
+|---|---|---:|---|---|
+| `hero-med-032-salud-global-determinantes-pandemias.png` | rasterizado con `sharp` por `scripts/generate-med-032-visuals.mjs --png`, 2026-11-26 | `1672 × 941` | `3041a5968e375ed5105eead74dc33bc6d0d5fbd0c6bf146f7a7a9141f143cb86` | composición abstracta; no mapas, personas, vectores, virus, datos ni acontecimientos reales |
+| `hero-med-032-salud-global-determinantes-pandemias.svg` | `scripts/generate-med-032-visuals.mjs`, semilla fija | `1672 × 941` | código fuente versionado | puntos, barras y arcos sin información |
+| `cadena-biologia-cooperacion-med-032.svg` | `scripts/generate-med-032-visuals.mjs` | `1600 × 900` | código fuente versionado | siete capas inferenciales; no herencia automática |
+| `matriz-salud-global-med-032.svg` | `scripts/generate-med-032-visuals.mjs` | `1600 × 900` | código fuente versionado | trece expedientes y capas; no ranking |
+
+La portada no usa modelos de imagen: se regenera idéntica con `node scripts/generate-med-032-visuals.mjs --png`. Los SVG incluyen `title` y `desc`, preservan las siete capas y no convierten biología, exposición, gradiente, declaración, campaña, cifra ni tratado en causa social, política, servicio, efecto o reparto. El prompt-equivalente y los límites están en `ATLAS_VISUAL.md`, en la sección de MED-032.
+
+## CIV-007 — Urbanismos comparados
+
+| Archivo | Origen | Dimensiones | SHA-256 / trazabilidad | Límite |
+|---|---|---:|---|---|
+| `hero-civ-007-urbanismos-comparados.png` | rasterizado con `sharp` desde el SVG generativo del proyecto, 2026-11-26 | `1672 × 941` | `4e20e79d0f98964d06b645032162230cf37b3e1ce8c90e8fdbad0273fb102d53` | composición abstracta; no plano de sitio, mapa ni persona |
+| `hero-civ-007-urbanismos-comparados.svg` | `scripts/generate-civ-007-visuals.mjs`, semilla `7007` | `1672 × 941` | código fuente versionado | formas genéricas |
+| `cadena-forma-urbana-civ-007.svg` | `scripts/generate-civ-007-visuals.mjs` | `1600 × 900` | código fuente versionado | siete dimensiones; no secuencia histórica |
+| `matriz-ciudades-dimensiones-civ-007.svg` | `scripts/generate-civ-007-visuals.mjs` desde `content/civilization-urbanisms.json` | `1600 × 900` | código fuente versionado | estado del archivo; no ranking de ciudades |
+
+La portada no usa modelos de imagen: se regenera idéntica con `node scripts/generate-civ-007-visuals.mjs --png`. Los SVG incluyen `title` y `desc`. El procedimiento y los límites completos están en la sección «CIV-007 — Una ciudad no es un tamaño» de [`ATLAS_VISUAL.md`](../../ATLAS_VISUAL.md).

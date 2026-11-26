@@ -278,7 +278,7 @@ La desigualdad no es una esencia única:
 | clase | relación durable con producción/extracción | reproducción social y posición estructural |
 | poder político | decisión, jurisdicción, coerción o tributación | archivo institucional independiente |
 
-Se reutilizan `CLAIM-CIV-INEQUALITY-PROXY-001` y `EVID-CIV-HOUSE-GINI-001`: en `64` sitios el Gini de superficie residencial muestra un patrón comparativo, pero área de casa sólo aproxima una dimensión y el estudio tiene corrección metodológica y cobertura desigual. Una tumba rica puede reflejar rito, edad, parentesco o evento; no prueba por sí sola clase fija. Un linaje genético recurrente en un espacio funerario puede apoyar parentesco y acceso diferencial; tampoco conserva un cargo (`CLAIM-INEQUALITY-MULTIDIMENSIONAL-001`).
+Se reutilizan `CLAIM-CIV-INEQUALITY-PROXY-001` y `EVID-CIV-HOUSE-GINI-001`: en `63` sitios o grupos de sitios coetáneos el Gini de superficie residencial muestra un patrón comparativo, pero área de casa sólo aproxima una dimensión y el estudio tiene corrección metodológica y cobertura desigual. Una tumba rica puede reflejar rito, edad, parentesco o evento; no prueba por sí sola clase fija. Un linaje genético recurrente en un espacio funerario puede apoyar parentesco y acceso diferencial; tampoco conserva un cargo (`CLAIM-INEQUALITY-MULTIDIMENSIONAL-001`).
 
 ## 12. Escritura y administración
 

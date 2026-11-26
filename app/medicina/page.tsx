@@ -17,6 +17,7 @@ import EastAsianMedicineLab from "../../components/EastAsianMedicineLab";
 import EpidemiologyCountingEvidenceLab from "../../components/EpidemiologyCountingEvidenceLab";
 import EpidemicsQuarantineEvidenceLab from "../../components/EpidemicsQuarantineEvidenceLab";
 import GermTheoryEvidenceLab from "../../components/GermTheoryEvidenceLab";
+import GlobalHealthEvidenceLab from "../../components/GlobalHealthEvidenceLab";
 import GreekHellenisticMedicineLab from "../../components/GreekHellenisticMedicineLab";
 import HistoricalMedicineLab from "../../components/HistoricalMedicineLab";
 import HospitalBedsideEvidenceLab from "../../components/HospitalBedsideEvidenceLab";
@@ -26,6 +27,7 @@ import IslamicWorldsMedicineNetworkLab from "../../components/IslamicWorldsMedic
 import MedievalEuropeJewishMedicineNetworkLab from "../../components/MedievalEuropeJewishMedicineNetworkLab";
 import MicroscopyPathologyEvidenceLab from "../../components/MicroscopyPathologyEvidenceLab";
 import PharmacologyResistanceEvidenceLab from "../../components/PharmacologyResistanceEvidenceLab";
+import RightsCategoriesEvidenceLab from "../../components/RightsCategoriesEvidenceLab";
 import RomanByzantineMedicineLab from "../../components/RomanByzantineMedicineLab";
 import SouthAsianMedicineLab from "../../components/SouthAsianMedicineLab";
 import TrialsEvidenceLab from "../../components/TrialsEvidenceLab";
@@ -43,6 +45,7 @@ import { eastAsianMedicineEvidence } from "../../lib/east-asian-medicine-evidenc
 import { epidemiologyCountingEvidence } from "../../lib/epidemiology-counting-evidence";
 import { epidemicsQuarantineEvidence } from "../../lib/epidemics-quarantine-evidence";
 import { germTheoryEvidence } from "../../lib/germ-theory-evidence";
+import { globalHealthEvidence } from "../../lib/global-health-evidence";
 import { greekHellenisticMedicineEvidence } from "../../lib/greek-hellenistic-medicine-evidence";
 import { historicalMedicineEvidence } from "../../lib/historical-medicine-evidence";
 import { hospitalBedsideEvidence } from "../../lib/hospital-bedside-evidence";
@@ -53,6 +56,7 @@ import { medievalEuropeJewishMedicineNetworks } from "../../lib/medieval-europe-
 import { microscopyPathologyEvidence } from "../../lib/microscopy-pathology-evidence";
 import { medicineEvidence } from "../../lib/medicine-evidence";
 import { pharmacologyResistanceEvidence } from "../../lib/pharmacology-resistance-evidence";
+import { rightsCategoriesEvidence } from "../../lib/rights-categories-evidence";
 import { romanByzantineMedicineEvidence } from "../../lib/roman-byzantine-medicine-evidence";
 import { southAsianMedicineEvidence } from "../../lib/south-asian-medicine-evidence";
 import { trialsEvidence } from "../../lib/trials-evidence";
@@ -63,7 +67,7 @@ export const metadata: Metadata = createPageMetadata({
   title: "Historia de la medicina — archivos, cuidado y evidencia",
   description: "Cómo reconstruimos la historia mundial de la medicina desde huesos, manuscritos, cánones, instituciones y resultados sin confundir archivo, práctica o eficacia.",
   pathname: "/medicina",
-  image: "/assets/visuales/hero-med-029-ensayos-regulacion-evidencia.png",
+  image: "/assets/visuales/hero-med-032-salud-global-determinantes-pandemias.png",
 });
 
 const principles = [
@@ -80,8 +84,8 @@ export default function MedicinePage() {
     <div className="medicine-experience">
       <header className="medicine-hero medicine-history-hero">
         <Image
-          src="/assets/visuales/hero-med-029-ensayos-regulacion-evidencia.png"
-          alt="Composición abstracta: columnas de marcas cortas que alternan dos tonos a la izquierda, una retícula de casillas llenas y contorneadas al centro y puntos que convergen hacia un vértice a la derecha"
+          src="/assets/visuales/hero-med-032-salud-global-determinantes-pandemias.png"
+          alt="Composición abstracta: a la izquierda un campo de puntos con densidad variable en franjas onduladas, al centro una escalera de barras verticales que desciende y a la derecha nodos unidos por arcos, unos completos y otros interrumpidos"
           fill
           preload
           fetchPriority="high"
@@ -90,14 +94,14 @@ export default function MedicinePage() {
         <div className="medicine-hero-shade" />
         <div className="medicine-hero-copy">
           <p className="eyebrow">Historia mundial de la medicina</p>
-          <h1>Un ensayo publicado no demuestra una evidencia completa por sí solo</h1>
-          <p>Diseño, asignación, consentimiento, registro, publicación, síntesis y decisión forman una cadena histórica. Ningún ensayo célebre, aprobación, literatura publicada o meta-análisis hereda la ética, la completitud o la decisión.</p>
+          <h1>Una cifra global no demuestra una causa ni una cooperación por sí sola</h1>
+          <p>Biología, exposición, desigualdad, sistema, intervención, medición y cooperación forman una cadena histórica. Ningún agente conocido, gradiente, declaración, campaña, cifra modelada o tratado hereda la explicación, la política, el servicio, el efecto, el recuento o el reparto.</p>
           <div>
-            <Link className="button button-primary" href="#ensayos-regulacion-evidencia">Auditar la cadena <ArrowDown aria-hidden="true" /></Link>
-            <Link className="medicine-text-link" href="/15_medicina/INVESTIGACION_MED_029_ENSAYOS_REGULACION_EVIDENCIA">Leer MED-029 <ArrowRight aria-hidden="true" /></Link>
+            <Link className="button button-primary" href="#salud-global-determinantes-pandemias">Auditar la cadena <ArrowDown aria-hidden="true" /></Link>
+            <Link className="medicine-text-link" href="/15_medicina/INVESTIGACION_MED_032_SALUD_GLOBAL_DETERMINANTES_PANDEMIAS">Leer MED-032 <ArrowRight aria-hidden="true" /></Link>
           </div>
         </div>
-        <p className="medicine-visual-limit">Composición generativa no probatoria: marcas, casillas y puntos sin información; no representa personas, pacientes, fármacos, documentos ni acontecimientos reales.</p>
+        <p className="medicine-visual-limit">Composición generativa no probatoria: puntos, barras y arcos sin información; no representa mapas, países, personas, vectores, virus, datos ni acontecimientos reales.</p>
       </header>
 
       <section className="medicine-boundary">
@@ -108,6 +112,22 @@ export default function MedicinePage() {
       <section className="medicine-principles" aria-labelledby="medicine-principles-title">
         <header><p className="eyebrow">Contrato de lectura</p><h2 id="medicine-principles-title">Cuatro cortafuegos</h2></header>
         <div>{principles.map(([title, text], index) => <article key={title}><span>{String(index + 1).padStart(2, "0")}</span><h3>{title}</h3><p>{text}</p></article>)}</div>
+      </section>
+
+      <section className="medicine-lab-section documentary-lab-section" id="salud-global-determinantes-pandemias" aria-labelledby="global-health-lab-title">
+        <div className="section-heading">
+          <div><p className="eyebrow">MED-032 · laboratorio de salud global, determinantes y pandemias</p><h2 id="global-health-lab-title">De la biología a la cooperación</h2></div>
+          <p>Elige un expediente. Siete capas separan biología, exposición, desigualdad, sistema, intervención, medición y cooperación sin convertir un agente, un gradiente, una declaración, una campaña, una cifra o un tratado en exposición explicada, política, servicio, efecto, recuento o reparto.</p>
+        </div>
+        <GlobalHealthEvidenceLab data={globalHealthEvidence} />
+      </section>
+
+      <section className="medicine-lab-section documentary-lab-section" id="reproduccion-discapacidad-salud-mental-derechos" aria-labelledby="rights-categories-lab-title">
+        <div className="section-heading">
+          <div><p className="eyebrow">MED-030 · laboratorio de reproducción, discapacidad, salud mental y derechos</p><h2 id="rights-categories-lab-title">De la categoría al daño</h2></div>
+          <p>Elige un expediente. Siete capas separan categoría, diagnóstico, institución, intervención, consentimiento, movimiento y daño sin convertir una etiqueta, una sentencia, un premio, una firma o un voto en diagnóstico válido, cuidado, beneficio, consentimiento o prueba.</p>
+        </div>
+        <RightsCategoriesEvidenceLab data={rightsCategoriesEvidence} />
       </section>
 
       <section className="medicine-lab-section documentary-lab-section" id="ensayos-regulacion-evidencia" aria-labelledby="trials-evidence-lab-title">

@@ -3907,3 +3907,101 @@ Los genomas sitúan la domesticación del ñame en la cuenca del Níger y los ab
 | `CONT-CIV-DOMREG-EAC-TESTA-001` | testa delgada del quenopodio | diagnóstico con cautela por plasticidad | diagnóstico tradicional | abierta | B |
 | `CONT-CIV-DOMREG-AMAZON-EXTENT-001` | paisaje domesticado amazónico | sostenido por regiones | extendido a toda la cuenca / impacto escaso | abierta en extensión | B-COND local; C cuenca |
 | `CONT-CIV-DOMREG-WEST-AFRICA-TUBERS-001` | ñame y palma de aceite | historia genómica y uso documentado | domesticación tardía por falta de restos | abierta | B; D fecha |
+
+## MED-030 — Reproducción, discapacidad, salud mental y derechos
+
+| ID | Pregunta | Hipótesis principal | Alternativa | Evidencia discriminante | Estado |
+|---|---|---|---|---|---|
+| `CONT-MED-RIGHTS-EUGENICS-NAZI-001` | ¿fue la eugenesia un rasgo del nazismo? | fue política de democracias antes, durante y después | fue una aberración propia del régimen nazi | leyes y recuentos por país y periodo | EXCLUSIVIDAD NAZI RECHAZADA |
+| `CONT-MED-RIGHTS-SWEDEN-FORCED-001` | ¿cuántas esterilizaciones suecas fueron forzadas? | una fracción grande del total | casi todas o muy pocas | definición de coerción y expedientes individuales | ABIERTA |
+| `CONT-MED-RIGHTS-IHS-COERCION-001` | ¿hubo coerción en el Servicio de Salud Indígena? | sí, con formularios deficientes y presión | papeleo descuidado sin coerción | testimonios y expedientes completos | DAÑO DOCUMENTADO; ESCALA ABIERTA |
+| `CONT-MED-RIGHTS-PERU-POLICY-001` | ¿fue la esterilización forzada en Perú una política o un error de ejecución? | política con metas que produjo coerción | fallas locales de un programa voluntario | órdenes, metas y testimonios por región | CALIFICADA POR CEDAW; PERSECUCIÓN ABIERTA |
+| `CONT-MED-RIGHTS-PILL-ETHICS-001` | ¿fueron aceptables los ensayos de Puerto Rico en 1956? | no: no se informó de que era un experimento | eran la norma de su época | qué se dijo a las participantes y normas vigentes | DISTANCIA NORMA–PRÁCTICA ACEPTADA |
+| `CONT-MED-RIGHTS-FOURTEEN-DAY-001` | ¿debe extenderse la regla de los catorce días? | sí, con revisión especializada | no, es un límite moral | utilidad científica y acuerdo social | ABIERTA |
+| `CONT-MED-RIGHTS-TRANSINST-001` | ¿llevó la desinstitucionalización a los pacientes a la cárcel? | transinstitucionalización | pobreza, vivienda, drogas y política penal | series del mismo lugar y periodo | ABIERTA |
+| `CONT-MED-RIGHTS-ROSENHAN-FRAUD-001` | ¿fue fraude el estudio de Rosenhan? | fraude (Scull, Cahalan) | exageración o estudio válido | registros completos de los seudopacientes | FRAUDE PROBABLE; NO DEMOSTRADO DEL TODO |
+| `CONT-MED-RIGHTS-HOMOSEX-DSM-001` | ¿salió la homosexualidad del DSM por evidencia o por presión? | por la coincidencia de ambas con un criterio de trastorno | sólo por presión política | cronología de datos, protestas y criterios | COINCIDENCIA ACEPTADA |
+| `CONT-MED-RIGHTS-DSM-RELIABILITY-001` | ¿es el DSM-5 suficientemente confiable? | sí, en la mayoría con diseño exigente | no en diagnósticos comunes | kappa por diagnóstico con el mismo diseño | ABIERTA |
+| `CONT-MED-RIGHTS-SOCIAL-MODEL-001` | ¿basta el modelo social para explicar la discapacidad? | sí: la discapacidad es exclusión | necesita la deficiencia (Shakespeare) | experiencia de dolor y limitación con barreras quitadas | DISPUTADA |
+| `CONT-MED-RIGHTS-ARTICLE-12-001` | ¿prohíbe la Convención todo tratamiento involuntario? | sí (Observación general n.º 1) | no; amenaza otros derechos (Freeman y colaboradores) | aplicación en leyes y desenlaces medidos | ABIERTA |
+
+## MED-032 — Salud global, determinantes y pandemias
+
+| ID | Pregunta | Hipótesis principal | Alternativa | Evidencia discriminante | Estado |
+|---|---|---|---|---|---|
+| `CONT-MED-GLOBAL-TROPICAL-EMPIRE-001` | ¿fue la medicina tropical ciencia o imperio? | ciencia parasitológica sólida formada al servicio imperial | ciencia neutral con usos coloniales accidentales | qué se estudió, en quién y para qué, según archivos de escuelas y servicios | AMBAS CAPAS ACEPTADAS |
+| `CONT-MED-GLOBAL-COLONIAL-TRUST-001` | ¿tiene historia colonial la desconfianza actual hacia campañas sanitarias? | sí, se asocia con la exposición a campañas coercitivas | se explica por causas posteriores | exposición archivada, diseño espacial y medidas alternativas de confianza | ASOCIACIÓN DOCUMENTADA; MECANISMO ABIERTO |
+| `CONT-MED-GLOBAL-HOOKWORM-EFFECT-001` | ¿causó la campaña contra la anquilostomiasis la mejora escolar? | sí, mayor ganancia donde había más infección | tendencias regionales coincidentes | réplicas con otras unidades y periodos | EFECTO PROBABLE; NO ALEATORIZADO |
+| `CONT-MED-GLOBAL-MALARIA-FAILURE-001` | ¿por qué fracasó la erradicación de la malaria? | estrategia vertical rígida, pérdida de fondos y resistencia | límites biológicos insalvables con los medios de la época | éxitos y fracasos comparados por región y vector | MULTICAUSAL; PESO RELATIVO ABIERTO |
+| `CONT-MED-GLOBAL-PHC-SELECTIVE-001` | ¿atención primaria integral o selectiva? | integral, por sistema y equidad | selectiva, por costo-efectividad y plazo | resultados comparables de ambos enfoques en contextos similares | ABIERTA; DISPUTA DE PRIORIDADES |
+| `CONT-MED-GLOBAL-MCKEOWN-001` | ¿por qué bajó la mortalidad desde el siglo XIX? | salud pública e intervención social | nivel de vida y nutrición (McKeown) | series por causa con intervenciones fechadas | TESIS DE MCKEOWN EN GRAN PARTE DESACREDITADA; PESOS ABIERTOS |
+| `CONT-MED-GLOBAL-CLEAN-WATER-001` | ¿cuánto aportó el agua limpia al descenso urbano? | casi la mitad del descenso total (Cutler y Miller) | 11–12 % de la mortalidad infantil sólo por filtración (Anderson y colaboradores) | réplica con las mismas ciudades, años y especificación | ABIERTA |
+| `CONT-MED-GLOBAL-GRADIENT-001` | ¿qué produce el gradiente social de mortalidad? | recursos, estrés y control sobre el trabajo | selección por salud | cohortes con trayectorias laborales y de salud completas | ABIERTA |
+| `CONT-MED-GLOBAL-SA-DEATHS-001` | ¿cuántas muertes costó la política antirretroviral sudafricana? | más de 330 000 (2000–2005) | 343 000 (1999–2007) u otra cifra según el comparador | elección del comparador y del periodo | ORDEN DE MAGNITUD CONVERGENTE; CIFRA CONTRAFACTUAL |
+| `CONT-MED-GLOBAL-PEPFAR-001` | ¿redujo PEPFAR la mortalidad? | sí, en países y distritos foco | otros fondos, selección de países y tendencias | contrafactual creíble con datos individuales | ASOCIACIÓN CONSISTENTE; ATRIBUCIÓN PARCIAL |
+| `CONT-MED-GLOBAL-EBOLA-PROJECTION-001` | ¿falló la proyección del ébola de 2014? | era un escenario condicional que la respuesta cambió | sobrestimó por supuestos del modelo | supuestos del modelo frente a la respuesta y el subregistro reales | ABIERTA; PROYECCIÓN CONDICIONAL |
+| `CONT-MED-GLOBAL-COVID-EXCESS-001` | ¿cuántas personas murieron por la pandemia de COVID-19 en 2020–2021? | entre 14.83 y 18.2 millones según el método | una cifra única verdadera | registros completos en países hoy sin datos | RANGO; NINGUNA CIFRA ÚNICA |
+
+## CIV-007 — Controversias de urbanismos comparados
+
+### CONT-CIV-URBCOMP-CITY-CRITERIA-001 — Criterios universales de ciudad o dimensiones medidas
+
+Childe y quienes defienden definiciones explícitas proponen criterios comparables de ciudad; la teoría del escalamiento propone una ley común entre población y área; los casos de baja densidad, racimo y monumentalidad modesta no se ordenan en una sola escala.
+
+**Prueba discriminatoria:** poblaciones estimadas sin usar el área (demografía funeraria, estanoles calibrados) en casos de baja densidad, contrastadas con la ley de escala.
+
+### CONT-CIV-URBCOMP-POPULATION-ESTIMATES-001 — Cuánta gente vivió en las ciudades tempranas
+
+Las cifras dependen de coetaneidad, fracción residencial y personas por unidad; en Gran Zimbabue pasaron de `20 000` a `≤10 000` y en las tierras bajas mayas de `7–11` a `9.5–16` millones.
+
+**Prueba discriminatoria:** excavación de muestras aleatorias de estructuras con fechas de contexto y conteo de unidades habitacionales.
+
+### CONT-CIV-URBCOMP-INDUS-EQUALITY-001 — Igualdad o archivo incompleto en el Indo
+
+La ausencia de palacios y tumbas reales y un Gini moderado y decreciente sostienen un urbanismo sin clase dirigente; la escritura no descifrada y los planos legados pueden ocultar instituciones.
+
+**Prueba discriminatoria:** excavación estratigráfica moderna de casas de un solo contexto en varios barrios, con Gini por fase, y cualquier archivo administrativo fechado.
+
+### CONT-CIV-URBCOMP-LIANGZHU-STATE-001 — ¿Fue Liangzhu un Estado?
+
+La obra hidráulica, la muralla, la plataforma y los jades sugieren una autoridad centralizada; palacio y Estado siguen siendo lecturas condicionales.
+
+**Prueba discriminatoria:** excavación de la plataforma central con uso fechado y evidencia de administración o tributación.
+
+### CONT-CIV-URBCOMP-TEOTIHUACAN-GOVERNANCE-001 — Gobierno colectivo o autocrático en Teotihuacan
+
+La traza ortogonal sugiere planificación desde arriba; la construcción mixta, la falta de un gobernante identificado y los modelos de acción colectiva sostienen un gobierno de cogobernantes.
+
+**Prueba discriminatoria:** textos, retratos o enterramientos de un gobernante único datados en Tlamimilolpa–Xolalpan, o su ausencia en excavaciones amplias del centro cívico.
+
+### CONT-CIV-URBCOMP-MAYA-LIDAR-BIAS-001 — Sesgo y extrapolación del LiDAR maya
+
+Los vuelos sobre sitios conocidos podrían inflar las cifras; el LiDAR ambiental de Campeche sostiene que el urbanismo denso es ubicuo; la población depende de la extrapolación.
+
+**Prueba discriminatoria:** muestreo aleatorio estratificado con excavación de una fracción de estructuras para fijar proporción residencial y coetaneidad.
+
+### CONT-CIV-URBCOMP-HETERARCHY-AFRICA-001 — Heterarquía como modelo del urbanismo africano
+
+Jenne-jeno y la relación Gran Zimbabue–Khami se leen como heterarquías; la ausencia de ciudadela o de sucesión lineal podría reflejar archivos incompletos.
+
+**Prueba discriminatoria:** excavaciones amplias en el centro de Jenne-jeno y en Khami con indicadores de autoridad y acceso fechados.
+
+### CONT-CIV-URBCOMP-CAHOKIA-SCALE-001 — Escala de Cahokia
+
+Para unos, una ciudad de decenas de miles de habitantes con planificación súbita; para otros, un centro regional de densidad moderada; los proxies (estanoles, estroncio, geofísica) miden tendencia, migración y casas sin fecha absoluta.
+
+**Prueba discriminatoria:** conteos de casas fechadas por contexto en barrios del centro y la periferia, contrastados con estanoles calibrados.
+
+
+### Índice tabular CIV-007
+
+| ID | Tema | Explicación dominante o práctica | Alternativa fuerte | Estado | Confianza en la síntesis |
+|---|---|---|---|---|---|
+| `CONT-CIV-URBCOMP-CITY-CRITERIA-001` | criterios de ciudad | dimensiones medidas por separado | criterios universales; ley de escala | abierta | B-COND regional; C universal |
+| `CONT-CIV-URBCOMP-POPULATION-ESTIMATES-001` | poblaciones urbanas | modelos con supuestos declarados | cifras como conteos | abierta | B-COND |
+| `CONT-CIV-URBCOMP-INDUS-EQUALITY-001` | clase dirigente del Indo | no demostrada; Gini moderado | archivo incompleto | abierta | C |
+| `CONT-CIV-URBCOMP-LIANGZHU-STATE-001` | Estado en Liangzhu | lectura condicional | Estado temprano | abierta | C |
+| `CONT-CIV-URBCOMP-TEOTIHUACAN-GOVERNANCE-001` | gobierno de Teotihuacan | colectivo viable, no demostrado | autocracia | abierta | C |
+| `CONT-CIV-URBCOMP-MAYA-LIDAR-BIAS-001` | población maya | asentamiento denso ubicuo | sesgo de muestreo e inflación | abierta | B forma; C población |
+| `CONT-CIV-URBCOMP-HETERARCHY-AFRICA-001` | heterarquía africana | mejor lectura disponible | archivo incompleto | abierta | C |
+| `CONT-CIV-URBCOMP-CAHOKIA-SCALE-001` | escala de Cahokia | planificación súbita; caída `~50 %` | centro de densidad moderada | abierta | C |

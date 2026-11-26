@@ -1,0 +1,1201 @@
+{
+  "schemaVersion": 1,
+  "researchSlug": "14_civilizaciones/INVESTIGACION_CIV_007_URBANISMOS_COMPARADOS",
+  "cases": [
+    {
+      "id": "indo-mohenjo-harappa",
+      "title": "Mohenjo-daro y Harappa",
+      "region": "Asia meridional (Indo)",
+      "window": "c. 3300–1700 a. C.",
+      "archives": [
+        "planos de excavación de 1931 y 1938",
+        "pozos y drenajes",
+        "desechos de taller",
+        "Gini residencial"
+      ],
+      "adversary": "La ausencia de palacios y tumbas reales puede ser un hueco del archivo: la escritura del Indo no está descifrada y los planos antiguos mezclan fases.",
+      "steps": [
+        {
+          "kind": "density",
+          "status": "condicionado",
+          "observed": "Cientos de residencias en los barrios excavados de Mohenjo-daro.",
+          "inference": "Núcleo residencial denso en los sectores excavados.",
+          "limit": "El reanálisis de 2026 no da población; las cifras que circulan no se auditaron aquí.",
+          "claimIds": [
+            "CLAIM-CIV-URBCOMP-MOHENJO-GINI-001"
+          ],
+          "evidenceIds": [
+            "EVID-CIV-URBCOMP-MOHENJO-GINI-001"
+          ],
+          "sourceIds": [
+            "SRC-GREEN-MOHENJO-2026"
+          ]
+        },
+        {
+          "kind": "extent",
+          "status": "condicionado",
+          "observed": "Centros grandes y numerosos asentamientos menores en bases de prospección armonizadas.",
+          "inference": "Urbanismo distribuido en varias ciudades y aldeas.",
+          "limit": "Cobertura, fase y visibilidad de la prospección.",
+          "claimIds": [
+            "CLAIM-CIV-URBCOMP-SEVEN-DIMENSIONS-001"
+          ],
+          "evidenceIds": [
+            "EVID-CIV-URBCOMP-METHOD-001"
+          ],
+          "sourceIds": [
+            "SRC-GREEN-PETRIE-2018"
+          ]
+        },
+        {
+          "kind": "monumentality",
+          "status": "condicionado",
+          "observed": "Gran Baño y obras públicas; sin tumbas elaboradas ni grandes templos ni palacios identificados.",
+          "inference": "Inversión colectiva sin monumentos de exaltación individual.",
+          "limit": "Ausencia de un tipo de monumento no es ausencia de poder.",
+          "claimIds": [
+            "CLAIM-CIV-URBCOMP-INDUS-RULING-CLASS-001"
+          ],
+          "evidenceIds": [
+            "EVID-CIV-URBCOMP-INDUS-001"
+          ],
+          "sourceIds": [
+            "SRC-GREEN-INDUS-PRIESTKING-2021",
+            "SRC-JANSEN-MOHENJO-WATER-1989"
+          ]
+        },
+        {
+          "kind": "planning",
+          "status": "sostenido",
+          "observed": "Más de 700 pozos, baños privados, Gran Baño, drenajes y alcantarillas; trazado de calles consolidado con el tiempo.",
+          "inference": "Infraestructura común planificada.",
+          "limit": "Quién ordenó la obra no está en el archivo.",
+          "claimIds": [
+            "CLAIM-CIV-URBCOMP-INDUS-INFRASTRUCTURE-001"
+          ],
+          "evidenceIds": [
+            "EVID-CIV-URBCOMP-INDUS-001"
+          ],
+          "sourceIds": [
+            "SRC-JANSEN-MOHENJO-WATER-1989",
+            "SRC-GREEN-MOHENJO-2026"
+          ]
+        },
+        {
+          "kind": "inequality",
+          "status": "condicionado",
+          "observed": "Gini de área residencial 0.44 (n = 162); en DK-G Sur baja de 0.39 a 0.23.",
+          "inference": "Desigualdad residencial moderada que descendió.",
+          "limit": "Planos que mezclan periodos; fases aproximadas; 309 frente a 162 áreas sin explicar.",
+          "claimIds": [
+            "CLAIM-CIV-URBCOMP-MOHENJO-GINI-001"
+          ],
+          "evidenceIds": [
+            "EVID-CIV-URBCOMP-MOHENJO-GINI-001"
+          ],
+          "sourceIds": [
+            "SRC-GREEN-MOHENJO-2026",
+            "SRC-ORTMAN-INEQUALITY-2025"
+          ]
+        },
+        {
+          "kind": "governance",
+          "status": "no-demostrado",
+          "observed": "No aparece una clase dirigente de élites administrativas tras casi un siglo de excavación.",
+          "inference": "La complejidad no requirió una clase dirigente visible.",
+          "limit": "Escritura no descifrada; ausencia de archivo no es igualdad demostrada.",
+          "claimIds": [
+            "CLAIM-CIV-URBCOMP-INDUS-RULING-CLASS-001"
+          ],
+          "evidenceIds": [
+            "EVID-CIV-URBCOMP-INDUS-001"
+          ],
+          "sourceIds": [
+            "SRC-GREEN-INDUS-PRIESTKING-2021"
+          ]
+        },
+        {
+          "kind": "provisioning",
+          "status": "sostenido",
+          "observed": "Agua de pozos; oficios de concha, cerámica y cuentas desde c. 3300 a. C. con materias de procedencia lejana.",
+          "inference": "Abastecimiento hídrico interno y redes de materias primas.",
+          "limit": "El abastecimiento de alimentos no se auditó en este expediente.",
+          "claimIds": [
+            "CLAIM-CIV-URBCOMP-INDUS-INFRASTRUCTURE-001"
+          ],
+          "evidenceIds": [
+            "EVID-CIV-URBCOMP-INDUS-001"
+          ],
+          "sourceIds": [
+            "SRC-JANSEN-MOHENJO-WATER-1989",
+            "SRC-KENOYER-HARAPPA-CRAFTS-1997"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "liangzhu-erlitou",
+      "title": "Liangzhu y Erlitou",
+      "region": "Asia oriental (China)",
+      "window": "3300–2300 a. C.; II milenio a. C.",
+      "archives": [
+        "muralla y plataforma",
+        "presas fechadas por 14C",
+        "ajuares de jade",
+        "prospección regional",
+        "espeleotemas"
+      ],
+      "adversary": "Renfrew y Liu proponen que Liangzhu puede ser la sociedad estatal más antigua de Asia oriental; la obra hidráulica exigiría una autoridad capaz de movilizar miles de trabajadores.",
+      "steps": [
+        {
+          "kind": "density",
+          "status": "dato-ausente",
+          "observed": "Ninguna estimación de población auditada en este expediente.",
+          "inference": "No se infiere densidad.",
+          "limit": "Dato ausente aquí; no significa baja densidad.",
+          "claimIds": [
+            "CLAIM-CIV-URBCOMP-POPULATION-ASSUMPTIONS-001"
+          ],
+          "evidenceIds": [
+            "EVID-CIV-URBCOMP-POPULATION-001"
+          ],
+          "sourceIds": [
+            "SRC-LIU-LIANGZHU-HYDRAULIC-2017"
+          ]
+        },
+        {
+          "kind": "extent",
+          "status": "sostenido",
+          "observed": "Ciudad amurallada de ~300 ha (~1.9 × 1.7 km); pantalla protectora de 1300 ha.",
+          "inference": "Gran asentamiento con obra regional.",
+          "limit": "La muralla exterior está incompleta.",
+          "claimIds": [
+            "CLAIM-CIV-URBCOMP-LIANGZHU-HYDRAULIC-001"
+          ],
+          "evidenceIds": [
+            "EVID-CIV-URBCOMP-LIANGZHU-001"
+          ],
+          "sourceIds": [
+            "SRC-LIU-LIANGZHU-HYDRAULIC-2017"
+          ]
+        },
+        {
+          "kind": "monumentality",
+          "status": "sostenido",
+          "observed": "Presas altas (5200–4800 cal BP), bajas y dique (5000–4800 cal BP); 2.88 millones de m³ de tierra.",
+          "inference": "Obra colectiva de gran escala.",
+          "limit": "La cifra de 3000 personas durante casi 8 años es un modelo de trabajo.",
+          "claimIds": [
+            "CLAIM-CIV-URBCOMP-LIANGZHU-HYDRAULIC-001"
+          ],
+          "evidenceIds": [
+            "EVID-CIV-URBCOMP-LIANGZHU-001"
+          ],
+          "sourceIds": [
+            "SRC-LIU-LIANGZHU-HYDRAULIC-2017"
+          ]
+        },
+        {
+          "kind": "planning",
+          "status": "sostenido",
+          "observed": "Sistema de presas altas, bajas y dique; en Erlitou, calles que se cruzan y recintos de talleres.",
+          "inference": "Planificación de obra y de espacio.",
+          "limit": "Planificación de obra no identifica al planificador.",
+          "claimIds": [
+            "CLAIM-CIV-URBCOMP-LIANGZHU-HYDRAULIC-001",
+            "CLAIM-CIV-URBCOMP-ERLITOU-TEXT-001"
+          ],
+          "evidenceIds": [
+            "EVID-CIV-URBCOMP-LIANGZHU-001",
+            "EVID-CIV-URBCOMP-ERLITOU-001"
+          ],
+          "sourceIds": [
+            "SRC-LIU-LIANGZHU-HYDRAULIC-2017",
+            "SRC-ZHAO-ERLITOU-2021"
+          ]
+        },
+        {
+          "kind": "inequality",
+          "status": "condicionado",
+          "observed": "Ajuares de jade de alto rango en Fanshan.",
+          "inference": "Diferenciación funeraria marcada.",
+          "limit": "Muestra funeraria, no distribución residencial.",
+          "claimIds": [
+            "CLAIM-CIV-URBCOMP-LIANGZHU-STATE-001"
+          ],
+          "evidenceIds": [
+            "EVID-CIV-URBCOMP-LIANGZHU-001"
+          ],
+          "sourceIds": [
+            "SRC-RENFREW-LIU-LIANGZHU-2018"
+          ]
+        },
+        {
+          "kind": "governance",
+          "status": "no-demostrado",
+          "observed": "Plataforma central que «probablemente» sostuvo un palacio; Erlitou desacoplado de Xia y Shang textuales.",
+          "inference": "Autoridad capaz de coordinar obra; Estado como hipótesis.",
+          "limit": "«Palacio» y «Estado» son lecturas de los autores; los textos dinásticos son tardíos.",
+          "claimIds": [
+            "CLAIM-CIV-URBCOMP-LIANGZHU-STATE-001",
+            "CLAIM-CIV-URBCOMP-ERLITOU-TEXT-001"
+          ],
+          "evidenceIds": [
+            "EVID-CIV-URBCOMP-LIANGZHU-001",
+            "EVID-CIV-URBCOMP-ERLITOU-001"
+          ],
+          "sourceIds": [
+            "SRC-RENFREW-LIU-LIANGZHU-2018",
+            "SRC-LIU-XU-ERLITOU-2007"
+          ]
+        },
+        {
+          "kind": "provisioning",
+          "status": "condicionado",
+          "observed": "Presas vinculadas a arrozales, transporte y control de crecidas; inundaciones y megasequías 4300–4000 años atrás.",
+          "inference": "Abastecimiento dependiente del manejo del agua.",
+          "limit": "Correlación climática fechada; el mecanismo del final no.",
+          "claimIds": [
+            "CLAIM-CIV-URBCOMP-LIANGZHU-HYDRAULIC-001",
+            "CLAIM-CIV-URBCOMP-LIANGZHU-STATE-001"
+          ],
+          "evidenceIds": [
+            "EVID-CIV-URBCOMP-LIANGZHU-001"
+          ],
+          "sourceIds": [
+            "SRC-LIU-LIANGZHU-HYDRAULIC-2017",
+            "SRC-ZHANG-LIANGZHU-COLLAPSE-2021"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "teotihuacan",
+      "title": "Teotihuacan",
+      "region": "Mesoamérica (Cuenca de México)",
+      "window": "1–650 d. C.",
+      "archives": [
+        "Teotihuacan Mapping Project",
+        "conjuntos de departamentos",
+        "energética y arqueometría",
+        "estroncio"
+      ],
+      "adversary": "La traza ortogonal y la orientación canónica de la ciudad implican, para muchos, planificación desde arriba y un gobierno central fuerte.",
+      "steps": [
+        {
+          "kind": "density",
+          "status": "condicionado",
+          "observed": "La mayoría de los residentes vivía en conjuntos de departamentos de varios hogares; ~100 000 personas como estimación más razonable.",
+          "inference": "Ciudad densa por vivienda colectiva.",
+          "limit": "Ocupación simultánea y personas por vivienda supuestas.",
+          "claimIds": [
+            "CLAIM-CIV-URBCOMP-TEOTIHUACAN-HOUSING-001",
+            "CLAIM-CIV-URBCOMP-POPULATION-ASSUMPTIONS-001"
+          ],
+          "evidenceIds": [
+            "EVID-CIV-URBCOMP-TEOTIHUACAN-001",
+            "EVID-CIV-URBCOMP-POPULATION-001"
+          ],
+          "sourceIds": [
+            "SRC-SMITH-TEOTIHUACAN-2019"
+          ]
+        },
+        {
+          "kind": "extent",
+          "status": "sostenido",
+          "observed": "Huella urbana completa cartografiada por prospección y fotogrametría.",
+          "inference": "Gran ciudad continua.",
+          "limit": "Superficie de mapa no es ocupación simultánea.",
+          "claimIds": [
+            "CLAIM-CIV-URBCOMP-TEOTIHUACAN-HOUSING-001"
+          ],
+          "evidenceIds": [
+            "EVID-CIV-URBCOMP-TEOTIHUACAN-001"
+          ],
+          "sourceIds": [
+            "SRC-MILLON-TEOTIHUACAN-1970"
+          ]
+        },
+        {
+          "kind": "monumentality",
+          "status": "sostenido",
+          "observed": "Grandes pirámides, templos y recintos ceremoniales.",
+          "inference": "Inversión monumental muy alta.",
+          "limit": "Monumento no identifica gobernante ni forma de gobierno.",
+          "claimIds": [
+            "CLAIM-CIV-URBCOMP-TEOTIHUACAN-GOVERNANCE-001"
+          ],
+          "evidenceIds": [
+            "EVID-CIV-URBCOMP-TEOTIHUACAN-GOV-001"
+          ],
+          "sourceIds": [
+            "SRC-PRICE-TEOTIHUACAN-SR-2000",
+            "SRC-MILLON-TEOTIHUACAN-1970"
+          ]
+        },
+        {
+          "kind": "planning",
+          "status": "sostenido",
+          "observed": "Más de 2000 conjuntos construidos en Tlamimilolpa (250–350 d. C.); materiales no locales organizados centralmente; mano de obra externa a cada conjunto.",
+          "inference": "Renovación urbana con trabajo estatal, comunal y corporativo combinados.",
+          "limit": "Energética con tasas supuestas; construcción no uniforme.",
+          "claimIds": [
+            "CLAIM-CIV-URBCOMP-TEOTIHUACAN-HOUSING-001"
+          ],
+          "evidenceIds": [
+            "EVID-CIV-URBCOMP-TEOTIHUACAN-001"
+          ],
+          "sourceIds": [
+            "SRC-MURAKAMI-TEOTIHUACAN-LABOR-2019"
+          ]
+        },
+        {
+          "kind": "inequality",
+          "status": "condicionado",
+          "observed": "Tipología residencial por riqueza confirmada y refinada.",
+          "inference": "Diferencias de riqueza entre conjuntos.",
+          "limit": "Casa no es hogar ni ingreso; Gini no auditado aquí.",
+          "claimIds": [
+            "CLAIM-CIV-URBCOMP-TEOTIHUACAN-HOUSING-001"
+          ],
+          "evidenceIds": [
+            "EVID-CIV-URBCOMP-TEOTIHUACAN-001"
+          ],
+          "sourceIds": [
+            "SRC-SMITH-TEOTIHUACAN-2019"
+          ]
+        },
+        {
+          "kind": "governance",
+          "status": "no-demostrado",
+          "observed": "Modelo matemático de red de representantes; tendencia comparativa de ciudades colectivas más grandes y duraderas.",
+          "inference": "Gobierno colectivo viable y plausible.",
+          "limit": "Un modelo prueba viabilidad, no historia.",
+          "claimIds": [
+            "CLAIM-CIV-URBCOMP-TEOTIHUACAN-GOVERNANCE-001"
+          ],
+          "evidenceIds": [
+            "EVID-CIV-URBCOMP-TEOTIHUACAN-GOV-001"
+          ],
+          "sourceIds": [
+            "SRC-FROESE-TEOTIHUACAN-2014",
+            "SRC-FEINMAN-CARBALLO-COLLECTIVE-2018"
+          ]
+        },
+        {
+          "kind": "provisioning",
+          "status": "condicionado",
+          "observed": "Individuos nacidos fuera de la ciudad por estroncio; especialistas foráneos en barrios.",
+          "inference": "La ciudad se abasteció también de personas y saberes de otras regiones.",
+          "limit": "El estroncio mide infancia, no identidad; abastecimiento alimentario no auditado aquí.",
+          "claimIds": [
+            "CLAIM-CIV-URBCOMP-TEOTIHUACAN-MULTIETHNIC-001"
+          ],
+          "evidenceIds": [
+            "EVID-CIV-URBCOMP-TEOTIHUACAN-001"
+          ],
+          "sourceIds": [
+            "SRC-PRICE-TEOTIHUACAN-SR-2000",
+            "SRC-MANZANILLA-TEOTIHUACAN-2015"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tikal-caracol",
+      "title": "Tikal y Caracol",
+      "region": "Mesoamérica (tierras bajas mayas)",
+      "window": "600 a. C.–900 d. C.",
+      "archives": [
+        "prospección por franjas",
+        "LiDAR aerotransportado",
+        "LiDAR ambiental",
+        "verificación en tierra"
+      ],
+      "adversary": "Las cifras de millones de habitantes podrían inflarse por volar LiDAR sobre sitios ya conocidos y por contar como coetáneas estructuras de siglos distintos.",
+      "steps": [
+        {
+          "kind": "density",
+          "status": "condicionado",
+          "observed": "Estructuras por km² en LiDAR: 7–11 millones estimados en 2018; 9.5–16 millones en 2025 para 95 000 km².",
+          "inference": "Población regional alta repartida en baja densidad.",
+          "limit": "Fracción residencial, coetaneidad y extrapolación supuestas.",
+          "claimIds": [
+            "CLAIM-CIV-URBCOMP-MAYA-POPULATION-001",
+            "CLAIM-CIV-URBCOMP-POPULATION-ASSUMPTIONS-001"
+          ],
+          "evidenceIds": [
+            "EVID-CIV-URBCOMP-MAYA-LIDAR-001",
+            "EVID-CIV-URBCOMP-POPULATION-001"
+          ],
+          "sourceIds": [
+            "SRC-CANUTO-MAYA-LIDAR-2018",
+            "SRC-ESTRADA-BELLI-MAYA-POP-2025"
+          ]
+        },
+        {
+          "kind": "extent",
+          "status": "sostenido",
+          "observed": "200 km² de LiDAR en Caracol; >2000 km² en el norte de Guatemala; franjas de 12 km en Tikal.",
+          "inference": "Ciudades muy extensas de baja densidad.",
+          "limit": "LiDAR no fecha; coetaneidad no medida.",
+          "claimIds": [
+            "CLAIM-CIV-URBCOMP-MAYA-LOWDENSITY-001"
+          ],
+          "evidenceIds": [
+            "EVID-CIV-URBCOMP-MAYA-LIDAR-001"
+          ],
+          "sourceIds": [
+            "SRC-CHASE-CARACOL-LIDAR-2011",
+            "SRC-PULESTON-TIKAL-1983"
+          ]
+        },
+        {
+          "kind": "monumentality",
+          "status": "sostenido",
+          "observed": "Plazas, templos y calzadas en los núcleos.",
+          "inference": "Inversión monumental concentrada en núcleos.",
+          "limit": "Monumento no es población.",
+          "claimIds": [
+            "CLAIM-CIV-URBCOMP-MAYA-LOWDENSITY-001"
+          ],
+          "evidenceIds": [
+            "EVID-CIV-URBCOMP-MAYA-LIDAR-001"
+          ],
+          "sourceIds": [
+            "SRC-CANUTO-MAYA-LIDAR-2018"
+          ]
+        },
+        {
+          "kind": "planning",
+          "status": "condicionado",
+          "observed": "Calzadas y terrazas agrícolas de 5–30 cm de altura.",
+          "inference": "Paisaje urbano agrícola modificado a gran escala.",
+          "limit": "Acumulación de siglos frente a plan simultáneo.",
+          "claimIds": [
+            "CLAIM-CIV-URBCOMP-MAYA-LOWDENSITY-001"
+          ],
+          "evidenceIds": [
+            "EVID-CIV-URBCOMP-MAYA-LIDAR-001"
+          ],
+          "sourceIds": [
+            "SRC-CHASE-CARACOL-LIDAR-2011",
+            "SRC-CHASE-LIDAR-MESOAMERICA-2012"
+          ]
+        },
+        {
+          "kind": "inequality",
+          "status": "dato-ausente",
+          "observed": "No se auditó un proxy de desigualdad en este expediente.",
+          "inference": "No se infiere.",
+          "limit": "Dato ausente aquí, no igualdad.",
+          "claimIds": [
+            "CLAIM-CIV-URBCOMP-SEVEN-DIMENSIONS-001"
+          ],
+          "evidenceIds": [
+            "EVID-CIV-URBCOMP-METHOD-001"
+          ],
+          "sourceIds": [
+            "SRC-CANUTO-MAYA-LIDAR-2018"
+          ]
+        },
+        {
+          "kind": "governance",
+          "status": "dato-ausente",
+          "observed": "La gobernanza dinástica maya se documenta con textos que este expediente no audita.",
+          "inference": "No se infiere desde LiDAR.",
+          "limit": "LiDAR no mide gobierno.",
+          "claimIds": [
+            "CLAIM-CIV-URBCOMP-SEVEN-DIMENSIONS-001"
+          ],
+          "evidenceIds": [
+            "EVID-CIV-URBCOMP-METHOD-001"
+          ],
+          "sourceIds": [
+            "SRC-ESTRADA-BELLI-MAYA-POP-2025"
+          ]
+        },
+        {
+          "kind": "provisioning",
+          "status": "sostenido",
+          "observed": "Terrazas, campos y zonas rurales intercaladas con plazas y residencias.",
+          "inference": "Urbanismo agrario: el alimento se producía dentro de la ciudad extensa.",
+          "limit": "Productividad no medida directamente.",
+          "claimIds": [
+            "CLAIM-CIV-URBCOMP-MAYA-LOWDENSITY-001",
+            "CLAIM-CIV-URBCOMP-LOW-DENSITY-001"
+          ],
+          "evidenceIds": [
+            "EVID-CIV-URBCOMP-MAYA-LIDAR-001",
+            "EVID-CIV-URBCOMP-SCALING-001"
+          ],
+          "sourceIds": [
+            "SRC-CHASE-CARACOL-LIDAR-2011",
+            "SRC-ESTRADA-BELLI-MAYA-POP-2025",
+            "SRC-HAWKEN-FLETCHER-2021"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "caral-chanchan",
+      "title": "Caral y Chan Chan",
+      "region": "Andes (costa peruana)",
+      "window": "2627–1977 cal a. C.; periodo chimú",
+      "archives": [
+        "fechas 14C",
+        "arquitectura monumental",
+        "arqueofauna y botánica",
+        "depósitos palaciegos",
+        "radar 2026"
+      ],
+      "adversary": "La monumentalidad de Caral se ha leído como prueba de un Estado prístino; un monumento de esa escala exigiría autoridad central y excedente agrícola.",
+      "steps": [
+        {
+          "kind": "density",
+          "status": "dato-ausente",
+          "observed": "Ninguna estimación de población auditada para Caral ni Chan Chan.",
+          "inference": "No se infiere.",
+          "limit": "Dato ausente aquí; no significa baja densidad.",
+          "claimIds": [
+            "CLAIM-CIV-URBCOMP-POPULATION-ASSUMPTIONS-001"
+          ],
+          "evidenceIds": [
+            "EVID-CIV-URBCOMP-POPULATION-001"
+          ],
+          "sourceIds": [
+            "SRC-SHADY-CARAL-2001"
+          ]
+        },
+        {
+          "kind": "extent",
+          "status": "condicionado",
+          "observed": "Zona central de Caral de 65 ha; 18 sitios precerámicos grandes en Supe; rasgos nuevos por radar en 2026.",
+          "inference": "Sistema de sitios grandes en un valle.",
+          "limit": "Los rasgos de radar no tienen verificación de campo.",
+          "claimIds": [
+            "CLAIM-CIV-URBCOMP-CARAL-001",
+            "CLAIM-CIV-URBCOMP-CARAL-REMOTE-2026-001"
+          ],
+          "evidenceIds": [
+            "EVID-CIV-URBCOMP-ANDES-001"
+          ],
+          "sourceIds": [
+            "SRC-SHADY-CARAL-2001",
+            "SRC-KIM-SINGH-CARAL-2026"
+          ]
+        },
+        {
+          "kind": "monumentality",
+          "status": "sostenido",
+          "observed": "Arquitectura monumental corporativa entre 2627 y 1977 cal a. C., sin cerámica.",
+          "inference": "Monumentos antes que cerámica.",
+          "limit": "Monumento no es Estado (051).",
+          "claimIds": [
+            "CLAIM-CIV-URBCOMP-CARAL-001"
+          ],
+          "evidenceIds": [
+            "EVID-CIV-URBCOMP-ANDES-001"
+          ],
+          "sourceIds": [
+            "SRC-SHADY-CARAL-2001",
+            "SRC-HAAS-2004"
+          ]
+        },
+        {
+          "kind": "planning",
+          "status": "condicionado",
+          "observed": "Arquitectura monumental, residencial y no residencial organizada en un núcleo.",
+          "inference": "Orden espacial en el núcleo.",
+          "limit": "Secuencia constructiva no auditada aquí.",
+          "claimIds": [
+            "CLAIM-CIV-URBCOMP-CARAL-001"
+          ],
+          "evidenceIds": [
+            "EVID-CIV-URBCOMP-ANDES-001"
+          ],
+          "sourceIds": [
+            "SRC-SHADY-CARAL-2001"
+          ]
+        },
+        {
+          "kind": "inequality",
+          "status": "condicionado",
+          "observed": "En Chan Chan, depósitos dentro de palacios; el mayor de 27.09 m²; Uhle con 1852.68 m² y 1671.50 m³.",
+          "inference": "Acceso a bienes concentrado en palacios.",
+          "limit": "Mide capacidad de almacén, no distribución de riqueza.",
+          "claimIds": [
+            "CLAIM-CIV-URBCOMP-CHANCHAN-STORAGE-001"
+          ],
+          "evidenceIds": [
+            "EVID-CIV-URBCOMP-ANDES-001"
+          ],
+          "sourceIds": [
+            "SRC-CORREA-CHANCHAN-2021"
+          ]
+        },
+        {
+          "kind": "governance",
+          "status": "condicionado",
+          "observed": "Acceso a depósitos controlado desde «audiencias»; políticas distintas entre palacios.",
+          "inference": "Administración palaciega en Chan Chan; en Caral, no demostrada.",
+          "limit": "Dos casos separados por más de tres milenios.",
+          "claimIds": [
+            "CLAIM-CIV-URBCOMP-CHANCHAN-STORAGE-001",
+            "CLAIM-CIV-URBCOMP-CARAL-001"
+          ],
+          "evidenceIds": [
+            "EVID-CIV-URBCOMP-ANDES-001"
+          ],
+          "sourceIds": [
+            "SRC-CORREA-CHANCHAN-2021",
+            "SRC-SHADY-CARAL-2001"
+          ]
+        },
+        {
+          "kind": "provisioning",
+          "status": "sostenido",
+          "observed": "Pesca intensiva con redes, huertos irrigados y algodón; en Chan Chan, granos almacenados (probablemente maíz).",
+          "inference": "Abastecimiento marino-agrícola mixto en Supe.",
+          "limit": "El abandono por desastres hacia 3800 BP es hipótesis.",
+          "claimIds": [
+            "CLAIM-CIV-URBCOMP-CARAL-001",
+            "CLAIM-CIV-URBCOMP-CHANCHAN-STORAGE-001"
+          ],
+          "evidenceIds": [
+            "EVID-CIV-URBCOMP-ANDES-001"
+          ],
+          "sourceIds": [
+            "SRC-SANDWEISS-SUPE-2009",
+            "SRC-CORREA-CHANCHAN-2021"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jenne-jeno",
+      "title": "Jenne-jeno",
+      "region": "África occidental (Níger medio)",
+      "window": "siglo III a. C.–1100 d. C.",
+      "archives": [
+        "excavación",
+        "prospección de 1100 km²",
+        "montículos de especialistas",
+        "materias importadas"
+      ],
+      "adversary": "Para un criterio de ciudad compacta, un racimo de montículos sin ciudadela ni palacio sería un conjunto de aldeas, no una ciudad.",
+      "steps": [
+        {
+          "kind": "density",
+          "status": "condicionado",
+          "observed": "Densidad rural regional hasta diez veces la actual en el entorno de 1100 km².",
+          "inference": "Región densamente poblada alrededor del racimo.",
+          "limit": "Estimación desde prospección; población urbana no fijada.",
+          "claimIds": [
+            "CLAIM-CIV-URBCOMP-JENNE-CLUSTER-001"
+          ],
+          "evidenceIds": [
+            "EVID-CIV-URBCOMP-JENNE-001"
+          ],
+          "sourceIds": [
+            "SRC-MCINTOSH-JENNE-1981"
+          ]
+        },
+        {
+          "kind": "extent",
+          "status": "sostenido",
+          "observed": "Más de 33 ha en el apogeo (750–1100 d. C.) y unos setenta caseríos y montículos aparentemente contemporáneos.",
+          "inference": "Complejo urbano en racimo.",
+          "limit": "«Aparentemente contemporáneos» depende de la fase cerámica.",
+          "claimIds": [
+            "CLAIM-CIV-URBCOMP-JENNE-CLUSTER-001"
+          ],
+          "evidenceIds": [
+            "EVID-CIV-URBCOMP-JENNE-001"
+          ],
+          "sourceIds": [
+            "SRC-MCINTOSH-JENNE-1981",
+            "SRC-MCINTOSH-MIDDLE-NIGER-2021"
+          ]
+        },
+        {
+          "kind": "monumentality",
+          "status": "condicionado",
+          "observed": "Sin ciudadela ni monumento central identificado.",
+          "inference": "Urbanismo de baja monumentalidad.",
+          "limit": "Ausencia de monumento no es ausencia de inversión colectiva.",
+          "claimIds": [
+            "CLAIM-CIV-URBCOMP-JENNE-CLUSTER-001"
+          ],
+          "evidenceIds": [
+            "EVID-CIV-URBCOMP-JENNE-001"
+          ],
+          "sourceIds": [
+            "SRC-MCINTOSH-MIDDLE-NIGER-2021"
+          ]
+        },
+        {
+          "kind": "planning",
+          "status": "no-demostrado",
+          "observed": "Montículos discretos y cercanos, ocupados a la vez.",
+          "inference": "Crecimiento por agregación de grupos, no plan impuesto.",
+          "limit": "Plan no observado no es plan inexistente.",
+          "claimIds": [
+            "CLAIM-CIV-URBCOMP-JENNE-CLUSTER-001"
+          ],
+          "evidenceIds": [
+            "EVID-CIV-URBCOMP-JENNE-001"
+          ],
+          "sourceIds": [
+            "SRC-MCINTOSH-CLUSTERS-1991"
+          ]
+        },
+        {
+          "kind": "inequality",
+          "status": "no-demostrado",
+          "observed": "Falta persistente de estratos de élite identificados.",
+          "inference": "No se infiere estratificación.",
+          "limit": "Ausencia de archivo, no igualdad demostrada.",
+          "claimIds": [
+            "CLAIM-CIV-URBCOMP-JENNE-CLUSTER-001"
+          ],
+          "evidenceIds": [
+            "EVID-CIV-URBCOMP-JENNE-001"
+          ],
+          "sourceIds": [
+            "SRC-MCINTOSH-MIDDLE-NIGER-2021"
+          ]
+        },
+        {
+          "kind": "governance",
+          "status": "condicionado",
+          "observed": "Sin gobernante centralizado ni mecanismos jerárquicos visibles.",
+          "inference": "Heterarquía: autoridad dispuesta horizontalmente.",
+          "limit": "Heterarquía es la mejor lectura disponible, no una observación.",
+          "claimIds": [
+            "CLAIM-CIV-URBCOMP-JENNE-CLUSTER-001"
+          ],
+          "evidenceIds": [
+            "EVID-CIV-URBCOMP-JENNE-001"
+          ],
+          "sourceIds": [
+            "SRC-MCINTOSH-MIDDLE-NIGER-2021",
+            "SRC-CRUMLEY-HETERARCHY-1995"
+          ]
+        },
+        {
+          "kind": "provisioning",
+          "status": "sostenido",
+          "observed": "Hierro y piedra importados desde el inicio; cobre hacia 400 d. C.; arroz, pescado y aceite de pescado del entorno.",
+          "inference": "Abastecimiento regional e intercambio interregional temprano.",
+          "limit": "Mecanismo del intercambio no observado.",
+          "claimIds": [
+            "CLAIM-CIV-URBCOMP-JENNE-CLUSTER-001"
+          ],
+          "evidenceIds": [
+            "EVID-CIV-URBCOMP-JENNE-001"
+          ],
+          "sourceIds": [
+            "SRC-MCINTOSH-JENNE-1981"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gran-zimbabue",
+      "title": "Gran Zimbabue",
+      "region": "África austral",
+      "window": "siglos XII–XVIII",
+      "archives": [
+        "muros de piedra",
+        "14C bayesiano e importaciones",
+        "modelo demográfico",
+        "cerámica comparada"
+      ],
+      "adversary": "La lectura tradicional: 20 000 habitantes en 2.9 km², una densidad de 6897 personas por km², capital única de la que nació Khami.",
+      "steps": [
+        {
+          "kind": "density",
+          "status": "condicionado",
+          "observed": "Población simultánea probablemente no mayor de 10 000; sin grandes basureros.",
+          "inference": "Centro monumental de población modesta.",
+          "limit": "Modelo con supuestos de consumo y coetaneidad.",
+          "claimIds": [
+            "CLAIM-CIV-URBCOMP-ZIMBABWE-HETERARCHY-001",
+            "CLAIM-CIV-URBCOMP-POPULATION-ASSUMPTIONS-001"
+          ],
+          "evidenceIds": [
+            "EVID-CIV-URBCOMP-ZIMBABWE-SWAHILI-001",
+            "EVID-CIV-URBCOMP-POPULATION-001"
+          ],
+          "sourceIds": [
+            "SRC-CHIRIKURE-GZ-POP-2017"
+          ]
+        },
+        {
+          "kind": "extent",
+          "status": "condicionado",
+          "observed": "720 ha; áreas tenidas por coetáneas no lo eran.",
+          "inference": "Extensión acumulada en siglos.",
+          "limit": "Superficie total no es superficie ocupada a la vez.",
+          "claimIds": [
+            "CLAIM-CIV-URBCOMP-ZIMBABWE-HETERARCHY-001"
+          ],
+          "evidenceIds": [
+            "EVID-CIV-URBCOMP-ZIMBABWE-SWAHILI-001"
+          ],
+          "sourceIds": [
+            "SRC-CHIRIKURE-GZ-POP-2017",
+            "SRC-CHIRIKURE-GZ-CHRONOLOGY-2013"
+          ]
+        },
+        {
+          "kind": "monumentality",
+          "status": "sostenido",
+          "observed": "Muros de piedra desde fines del XII o inicios del XIII, con máximo en los siglos XIV–XV.",
+          "inference": "Monumentalidad alta.",
+          "limit": "Monumento no predice densidad.",
+          "claimIds": [
+            "CLAIM-CIV-URBCOMP-ZIMBABWE-HETERARCHY-001"
+          ],
+          "evidenceIds": [
+            "EVID-CIV-URBCOMP-ZIMBABWE-SWAHILI-001"
+          ],
+          "sourceIds": [
+            "SRC-CHIRIKURE-GZ-CHRONOLOGY-2013"
+          ]
+        },
+        {
+          "kind": "planning",
+          "status": "condicionado",
+          "observed": "Diferencias tipológicas dentro de la arquitectura de piedra seca.",
+          "inference": "Construcción por etapas.",
+          "limit": "Contexto dañado por excavaciones coloniales.",
+          "claimIds": [
+            "CLAIM-CIV-URBCOMP-ZIMBABWE-HETERARCHY-001"
+          ],
+          "evidenceIds": [
+            "EVID-CIV-URBCOMP-ZIMBABWE-SWAHILI-001"
+          ],
+          "sourceIds": [
+            "SRC-CHIRIKURE-KHAMI-2018"
+          ]
+        },
+        {
+          "kind": "inequality",
+          "status": "condicionado",
+          "observed": "Recintos monumentales frente a áreas residenciales.",
+          "inference": "Diferenciación espacial.",
+          "limit": "No se auditó un proxy cuantitativo.",
+          "claimIds": [
+            "CLAIM-CIV-URBCOMP-ZIMBABWE-HETERARCHY-001"
+          ],
+          "evidenceIds": [
+            "EVID-CIV-URBCOMP-ZIMBABWE-SWAHILI-001"
+          ],
+          "sourceIds": [
+            "SRC-CHIRIKURE-KHAMI-2018"
+          ]
+        },
+        {
+          "kind": "governance",
+          "status": "condicionado",
+          "observed": "Khami floreció desde fines del XIV mientras Gran Zimbabue seguía ocupada; cerámicas distintas.",
+          "inference": "Relación heterárquica entre centros; jerarquías maleables dentro de cada uno.",
+          "limit": "Inferencia apoyada en historia política documentada posterior.",
+          "claimIds": [
+            "CLAIM-CIV-URBCOMP-ZIMBABWE-HETERARCHY-001"
+          ],
+          "evidenceIds": [
+            "EVID-CIV-URBCOMP-ZIMBABWE-SWAHILI-001"
+          ],
+          "sourceIds": [
+            "SRC-CHIRIKURE-KHAMI-2018",
+            "SRC-CRUMLEY-HETERARCHY-1995"
+          ]
+        },
+        {
+          "kind": "provisioning",
+          "status": "condicionado",
+          "observed": "Nodo de intercambio que conectaba el sur de África con la costa oriental y el océano Índico.",
+          "inference": "Abastecimiento ligado a redes regionales y lejanas.",
+          "limit": "Base agropecuaria no auditada aquí.",
+          "claimIds": [
+            "CLAIM-CIV-URBCOMP-ZIMBABWE-HETERARCHY-001"
+          ],
+          "evidenceIds": [
+            "EVID-CIV-URBCOMP-ZIMBABWE-SWAHILI-001"
+          ],
+          "sourceIds": [
+            "SRC-CHIRIKURE-GZ-POP-2017"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ciudades-suajili",
+      "title": "Ciudades suajili",
+      "region": "África oriental (costa suajili)",
+      "window": "I milenio–1800 d. C.",
+      "archives": [
+        "geofísica y química del suelo",
+        "puertos, mezquitas y casas",
+        "pesca y navegación",
+        "ADN antiguo"
+      ],
+      "adversary": "Las ciudades de piedra fueron fundaciones extranjeras de mercaderes asiáticos; el ADN probaría su origen no africano.",
+      "steps": [
+        {
+          "kind": "density",
+          "status": "dato-ausente",
+          "observed": "Ninguna estimación de población auditada.",
+          "inference": "No se infiere.",
+          "limit": "Dato ausente aquí.",
+          "claimIds": [
+            "CLAIM-CIV-URBCOMP-POPULATION-ASSUMPTIONS-001"
+          ],
+          "evidenceIds": [
+            "EVID-CIV-URBCOMP-POPULATION-001"
+          ],
+          "sourceIds": [
+            "SRC-FLEISHER-SWAHILI-MARITIME-2015"
+          ]
+        },
+        {
+          "kind": "extent",
+          "status": "condicionado",
+          "observed": "Variabilidad y discontinuidad en ubicación y permanencia de los asentamientos del primer milenio.",
+          "inference": "Ciudades que se consolidan en el segundo milenio.",
+          "limit": "Ubicación costera no es maritimidad.",
+          "claimIds": [
+            "CLAIM-CIV-URBCOMP-SWAHILI-001"
+          ],
+          "evidenceIds": [
+            "EVID-CIV-URBCOMP-ZIMBABWE-SWAHILI-001"
+          ],
+          "sourceIds": [
+            "SRC-FLEISHER-SWAHILI-MARITIME-2015"
+          ]
+        },
+        {
+          "kind": "monumentality",
+          "status": "sostenido",
+          "observed": "Puertos, mezquitas y casas de piedra especializadas en el segundo milenio.",
+          "inference": "Inversión arquitectónica urbana.",
+          "limit": "Monumento no es gobierno.",
+          "claimIds": [
+            "CLAIM-CIV-URBCOMP-SWAHILI-001"
+          ],
+          "evidenceIds": [
+            "EVID-CIV-URBCOMP-ZIMBABWE-SWAHILI-001"
+          ],
+          "sourceIds": [
+            "SRC-FLEISHER-SWAHILI-MARITIME-2015"
+          ]
+        },
+        {
+          "kind": "planning",
+          "status": "sostenido",
+          "observed": "En Songo Mnara (XV–XVI), espacios abiertos con áreas públicas definidas y protegidas por geofísica, suelos y artefactos.",
+          "inference": "Espacio público planeado o mantenido.",
+          "limit": "Uso del espacio no identifica quién lo controlaba.",
+          "claimIds": [
+            "CLAIM-CIV-URBCOMP-SWAHILI-001"
+          ],
+          "evidenceIds": [
+            "EVID-CIV-URBCOMP-ZIMBABWE-SWAHILI-001"
+          ],
+          "sourceIds": [
+            "SRC-FLEISHER-SULAS-SONGO-2015"
+          ]
+        },
+        {
+          "kind": "inequality",
+          "status": "condicionado",
+          "observed": "Individuos de comunidades de élite en ciudades de piedra con ancestría mixta.",
+          "inference": "Élites urbanas con redes índicas.",
+          "limit": "Muestra funeraria de élite; no distribución de riqueza.",
+          "claimIds": [
+            "CLAIM-CIV-URBCOMP-SWAHILI-001"
+          ],
+          "evidenceIds": [
+            "EVID-CIV-URBCOMP-ZIMBABWE-SWAHILI-001"
+          ],
+          "sourceIds": [
+            "SRC-BRIELLE-SWAHILI-2023"
+          ]
+        },
+        {
+          "kind": "governance",
+          "status": "no-demostrado",
+          "observed": "Archivo material y genético sin instituciones de gobierno medidas.",
+          "inference": "No se infiere forma de gobierno.",
+          "limit": "La crónica de Kilwa es tardía y se lee por separado.",
+          "claimIds": [
+            "CLAIM-CIV-URBCOMP-SWAHILI-001"
+          ],
+          "evidenceIds": [
+            "EVID-CIV-URBCOMP-ZIMBABWE-SWAHILI-001"
+          ],
+          "sourceIds": [
+            "SRC-BRIELLE-SWAHILI-2023"
+          ]
+        },
+        {
+          "kind": "provisioning",
+          "status": "sostenido",
+          "observed": "Pesca y navegación crecientes; maritimidad plena a inicios del segundo milenio; comercio índico.",
+          "inference": "Abastecimiento marítimo que se intensificó con el tiempo.",
+          "limit": "ADN de mezcla no es identidad suajili.",
+          "claimIds": [
+            "CLAIM-CIV-URBCOMP-SWAHILI-001"
+          ],
+          "evidenceIds": [
+            "EVID-CIV-URBCOMP-ZIMBABWE-SWAHILI-001"
+          ],
+          "sourceIds": [
+            "SRC-FLEISHER-SWAHILI-MARITIME-2015",
+            "SRC-BRIELLE-SWAHILI-2023"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cahokia",
+      "title": "Cahokia",
+      "region": "Norteamérica (valle del Misisipi)",
+      "window": "1050–1350 d. C.",
+      "archives": [
+        "secuencia de fases",
+        "anillos de árboles",
+        "estroncio",
+        "geofísica de barrios",
+        "estanoles fecales",
+        "estratigrafía"
+      ],
+      "adversary": "Cahokia fue un cacicazgo regional de densidad moderada; llamarla ciudad o estimar decenas de miles de habitantes depende de proxies frágiles. En el otro extremo, su abandono se atribuyó a un ecocidio por tala.",
+      "steps": [
+        {
+          "kind": "density",
+          "status": "condicionado",
+          "observed": "Barrios periféricos con casas comparadas con el centro y East St. Louis; población ~50 % menor hacia 1200.",
+          "inference": "Densidad cambiante por barrio y fase.",
+          "limit": "Forma de casa como reloj; estanoles como tendencia, no número.",
+          "claimIds": [
+            "CLAIM-CIV-URBCOMP-CAHOKIA-SCALE-001",
+            "CLAIM-CIV-URBCOMP-POPULATION-ASSUMPTIONS-001"
+          ],
+          "evidenceIds": [
+            "EVID-CIV-URBCOMP-CAHOKIA-001",
+            "EVID-CIV-URBCOMP-POPULATION-001"
+          ],
+          "sourceIds": [
+            "SRC-BAIRES-CAHOKIA-2025",
+            "SRC-BENSON-CAHOKIA-2009"
+          ]
+        },
+        {
+          "kind": "extent",
+          "status": "sostenido",
+          "observed": "Centro con Monks Mound y Gran Plaza; barrios periféricos de Rouch Mound Group y Rattlesnake West.",
+          "inference": "Asentamiento con núcleo y periferia.",
+          "limit": "Escala total disputada.",
+          "claimIds": [
+            "CLAIM-CIV-URBCOMP-CAHOKIA-SCALE-001"
+          ],
+          "evidenceIds": [
+            "EVID-CIV-URBCOMP-CAHOKIA-001"
+          ],
+          "sourceIds": [
+            "SRC-BAIRES-CAHOKIA-2025"
+          ]
+        },
+        {
+          "kind": "monumentality",
+          "status": "sostenido",
+          "observed": "Monks Mound y empalizada de unos 20 000 troncos hacia 1150.",
+          "inference": "Obra colectiva y defensa.",
+          "limit": "Empalizada no fija guerra concreta.",
+          "claimIds": [
+            "CLAIM-CIV-URBCOMP-CAHOKIA-SCALE-001"
+          ],
+          "evidenceIds": [
+            "EVID-CIV-URBCOMP-CAHOKIA-001"
+          ],
+          "sourceIds": [
+            "SRC-BENSON-CAHOKIA-2009"
+          ]
+        },
+        {
+          "kind": "planning",
+          "status": "sostenido",
+          "observed": "Construcción planificada y abrupta del centro en la fase Lohmann (1050–1100); barrios que adoptan el estilo del centro.",
+          "inference": "Planificación súbita.",
+          "limit": "Quién planeó no está en el archivo.",
+          "claimIds": [
+            "CLAIM-CIV-URBCOMP-CAHOKIA-SCALE-001"
+          ],
+          "evidenceIds": [
+            "EVID-CIV-URBCOMP-CAHOKIA-001"
+          ],
+          "sourceIds": [
+            "SRC-BENSON-CAHOKIA-2009",
+            "SRC-BAIRES-CAHOKIA-2025"
+          ]
+        },
+        {
+          "kind": "inequality",
+          "status": "dato-ausente",
+          "observed": "No se auditó un proxy de desigualdad en este expediente.",
+          "inference": "No se infiere.",
+          "limit": "Dato ausente aquí.",
+          "claimIds": [
+            "CLAIM-CIV-URBCOMP-SEVEN-DIMENSIONS-001"
+          ],
+          "evidenceIds": [
+            "EVID-CIV-URBCOMP-METHOD-001"
+          ],
+          "sourceIds": [
+            "SRC-BAIRES-CAHOKIA-2025"
+          ]
+        },
+        {
+          "kind": "governance",
+          "status": "condicionado",
+          "observed": "Reorganización regional, abandono de aldeas previas y fundación de Richland.",
+          "inference": "Capacidad de coordinación regional.",
+          "limit": "Cacicazgo o ciudad: la etiqueta no se mide.",
+          "claimIds": [
+            "CLAIM-CIV-URBCOMP-CAHOKIA-SCALE-001"
+          ],
+          "evidenceIds": [
+            "EVID-CIV-URBCOMP-CAHOKIA-001"
+          ],
+          "sourceIds": [
+            "SRC-BENSON-CAHOKIA-2009"
+          ]
+        },
+        {
+          "kind": "provisioning",
+          "status": "condicionado",
+          "observed": "Complejo agrícola de Richland; un tercio de no locales por estroncio; crecidas y menos lluvia hacia 1150; horizonte estable bajo un montículo.",
+          "inference": "Abastecimiento regional y migración; correlación climática con el declive; sin ecocidio local.",
+          "limit": "Correlación no es causa; un montículo no es toda la ciudad.",
+          "claimIds": [
+            "CLAIM-CIV-URBCOMP-CAHOKIA-SCALE-001",
+            "CLAIM-CIV-URBCOMP-CAHOKIA-DECLINE-001"
+          ],
+          "evidenceIds": [
+            "EVID-CIV-URBCOMP-CAHOKIA-001"
+          ],
+          "sourceIds": [
+            "SRC-SLATER-CAHOKIA-SR-2014",
+            "SRC-WHITE-CAHOKIA-STANOLS-2019",
+            "SRC-MUNOZ-CAHOKIA-FLOODS-2015",
+            "SRC-RANKIN-CAHOKIA-ECOCIDE-2021"
+          ]
+        }
+      ]
+    }
+  ]
+}

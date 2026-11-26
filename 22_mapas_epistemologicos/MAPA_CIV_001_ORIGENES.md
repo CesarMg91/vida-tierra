@@ -49,7 +49,7 @@ flowchart TD
 | `EVID-CIV-CATALHOYUK-BIO-001` | bioarqueología | huesos, dientes, isótopos, residuos y fases | efectos variables de densidad y agricultura en una comunidad | representatividad, diagnóstico y extrapolación global |
 | `EVID-CIV-TELLBRAK-SURVEY-001` | asentamiento regional | dispersión cerámica, superficie y excavación | urbanización septentrional no reducible a difusión sureña | densidad, duración y cronología cerámica |
 | `EVID-CIV-CDLI-P003414-001` | documento | tablilla administrativa catalogada | escritura administrativa en Uruk IV | paleografía, procedencia y lengua no determinada |
-| `EVID-CIV-HOUSE-GINI-001` | comparación cuantitativa | superficies de casas en 64 casos | variación de desigualdad residencial en la muestra | casa como proxy, abandono y cobertura regional |
+| `EVID-CIV-HOUSE-GINI-001` | comparación cuantitativa | superficies de casas en 63 casos | variación de desigualdad residencial en la muestra | casa como proxy, abandono y cobertura regional |
 
 ## Cuellos de botella
 

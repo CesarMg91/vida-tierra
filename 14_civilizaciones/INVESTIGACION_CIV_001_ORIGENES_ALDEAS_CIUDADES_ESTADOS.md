@@ -94,7 +94,7 @@ Las ciudades y los Estados exigen otros archivos. Prospección, superficie, dens
 | huesos, dientes, isótopos y residuos | Çatalhöyük, Anatolia, `7100–5950 cal a. C.` | dieta, movilidad, salud, lesiones, fases y densidad local | sociedad neolítica mundial ni causalidad simple densidad→violencia |
 | dispersión cerámica, superficie y excavaciones | Tell Brak y norte de Mesopotamia | extensión por fases, áreas periféricas, talleres/monumentalidad | censo exacto ni forma estatal única |
 | tablilla de arcilla `P003414` | Uruk; catálogo CDLI, Uruk IV | soporte, medidas, procedencia, género administrativo y signos/números | lengua determinada, «pensamiento» social total ni control territorial |
-| áreas de viviendas de 64 casos | Eurasia, Norteamérica y Mesoamérica en la muestra publicada | distribuciones y Gini de superficie residencial | riqueza total, África/Sur de Asia/Oceanía ni mecanismo causal único |
+| áreas de viviendas de 63 casos | Eurasia, Norteamérica y Mesoamérica en la muestra publicada | distribuciones y Gini de superficie residencial | riqueza total, África/Sur de Asia/Oceanía ni mecanismo causal único |
 | 186 resultados `14C` + seriación | sitios y colecciones de Egipto temprano | razones isotópicas transformadas y orden arqueológico modelado | «unificación» como evento observado ni certeza del prior |
 | 95 fechas `14C` de 13 sitios | Fortaleza/Pativilca, Norte Chico | cronología de ocupaciones con arquitectura monumental/residencial | tipo exacto de Estado, coerción o autodenominación |
 
@@ -265,7 +265,7 @@ Tres reglas resumen la sincronización:
 | series globales de domesticación | muchos sitios/especies | convergencia evolutiva | definiciones y publicación desigual | regiones, especies y archivos diferentes |
 | Kuk | mismo paisaje | geoarqueología + paleobotánica | procesos del humedal y cronología | montículos, zanjas y microfósiles miden aspectos distintos |
 | Tell Brak + encuesta regional | sitio y hinterland | densidad/distribución | cronología cerámica | excavación y superficie cambian escala |
-| casas + Gini | 64 casos | proxy residencial/estadística | sesgo de sitios y definición de casa | comparación interregional bajo métrica común |
+| casas + Gini | 63 casos | proxy residencial/estadística | sesgo de sitios y definición de casa | comparación interregional bajo métrica común |
 | Egipto `14C` + seriación | 186 resultados y fases | decaimiento + orden relativo | modelo de fase y procedencia | reloj físico y tipología son parcialmente independientes |
 
 La variedad global aumenta independencia sólo si no se fuerza a todos los archivos a la misma taxonomía.

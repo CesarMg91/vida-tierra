@@ -2109,3 +2109,68 @@ Amazonía        → yuca y cacao B-COND; paisaje de toda la cuenca C
 - `CLAIM-CIV-DOMREG-TUBER-PALM-SILENCE-001` impide leer el silencio de preservación como ausencia.
 
 CIV-006 promueve `CLAIM-CIV-DOMESTICATION-MULTIREGIONAL-001`, `CLAIM-CIV-GUILA-CUCURBITA-001` y `CLAIM-CIV-RICE-TRAJECTORY-001`; deja `CLAIM-CIV-KUK-CULTIVATION-001` en `TRAZADO`. Véase `INV-CIV-DOMESTICATIONS-001`, `MAPA_CIV_006_DOMESTICACIONES_ALDEAS_REGIONALES.md`, `CRONOLOGIA_CIV_006_DOMESTICACIONES_ALDEAS_REGIONALES.md`, `cadena-semilla-aldea-civ-006.svg` y `matriz-regiones-campos-civ-006.svg`.
+
+## MED-030 — Una categoría médica no autoriza por sí sola una intervención
+
+- La eugenesia en democracias separa categoría administrativa, expediente construido, sentencia, escala estatal, proporción forzada e indemnización.
+- Alemania 1933–1945 separa ley, recuento interno del perpetrador, estimación total y papel de la profesión.
+- Los años setenta en Estados Unidos separan recuento mínimo, formularios, lengua, coerción no evaluada, fallo y cambio de norma.
+- Perú separa discurso de derechos, metas, cifras citadas, caso individual y calificación internacional.
+- Puerto Rico separa experimento, aprobación, consentimiento, daños no investigados y esterilización masiva.
+- La FIV separa factibilidad, norma, autoridad de licencias y límite de política.
+- Los asilos separan custodia, cierre, causas convergentes y prevalencia en prisión sin causalidad.
+- La lobotomía separa serie sin comparador, premio, difusión mediática y declive.
+- Rosenhan separa artículo, crítica, auditoría de archivo, acusación de fraude y pregunta que sobrevive.
+- El DSM separa confiabilidad, validez, voto, evidencia previa, movimiento y propuestas dimensionales.
+- La psiquiatría política separa categoría difusa, institución sin independencia y sanción profesional.
+- La discapacidad separa deficiencia, discapacidad, modelo social, crítica interna, tratado y disputa del artículo 12.
+- `CLAIM-MED-RIGHTS-CHAIN-001` impide heredar automáticamente una propiedad entre categoría, diagnóstico, institución, intervención, consentimiento, movimiento y daño.
+- `CLAIM-MED-RIGHTS-CONSENT-NOT-SIGNATURE-001` impide leer una firma, una orden o una decisión de terceros como consentimiento libre.
+
+Véase 15_medicina/INVESTIGACION_MED_030_REPRODUCCION_DISCAPACIDAD_SALUD_MENTAL_DERECHOS.md, 22_mapas_epistemologicos/MAPA_MED_030_REPRODUCCION_DISCAPACIDAD_SALUD_MENTAL_DERECHOS.md, 21_cronologias/CRONOLOGIA_MED_030_REPRODUCCION_DISCAPACIDAD_SALUD_MENTAL_DERECHOS.md, assets/visuales/cadena-categoria-dano-med-030.svg y assets/visuales/matriz-derechos-categorias-med-030.svg.
+
+## MED-032 — Una cifra global no demuestra una causa ni una cooperación por sí sola
+
+- La medicina tropical separa hallazgo parasitológico, propósito imperial, intervención coercitiva y legado medido como asociación.
+- Rockefeller separa encuesta de infección, campaña, efecto cuasi-experimental, motivos disputados y coproducción local.
+- La OMS separa definición normativa, autoridad coordinadora, cambio de nombre y poder de los financiadores.
+- La malaria separa resistencia, exposición, estrategia vertical, fondos y causa abierta del resurgimiento.
+- Alma-Ata separa declaración, sistema, paquete selectivo y disputa de prioridades sin experimento.
+- McKeown separa nivel de vida, salud pública, agua limpia y magnitudes discrepantes de un mismo efecto.
+- Whitehall separa gradiente, factores de riesgo, selección por salud, causas fundamentales y programa sin estimación causal.
+- El VIH separa serie de casos, pericia lega, terapia entregada y cohorte observacional.
+- Sudáfrica separa biología establecida, negación oficial, sentencia y contrafactuales con comparador declarado.
+- PEPFAR separa presupuesto, cobertura, asociación con mortalidad, atribución y proyecciones tras la pausa.
+- El ébola separa reservorio, exposición, proyección condicional, recuento final, daño indirecto y vacuna en anillo.
+- La COVID-19 separa exceso, causa, método, línea base y entrega de vacunas.
+- Una Salud y el acuerdo separan definición, coordinación, texto del tratado, ratificación y entrega.
+- `CLAIM-MED-GLOBAL-CHAIN-001` impide heredar automáticamente una propiedad entre biología, exposición, desigualdad, sistema, intervención, medición y cooperación.
+- `CLAIM-MED-GLOBAL-COLONIAL-LAYER-001` impide leer la historia colonial como telón de fondo sin efectos medibles.
+
+Véase 15_medicina/INVESTIGACION_MED_032_SALUD_GLOBAL_DETERMINANTES_PANDEMIAS.md, 22_mapas_epistemologicos/MAPA_MED_032_SALUD_GLOBAL_DETERMINANTES_PANDEMIAS.md, 21_cronologias/CRONOLOGIA_MED_032_SALUD_GLOBAL_DETERMINANTES_PANDEMIAS.md, assets/visuales/cadena-biologia-cooperacion-med-032.svg y assets/visuales/matriz-salud-global-med-032.svg.
+
+## CIV-007 — Una ciudad no es un tamaño
+
+```text
+densidad ─ extensión ─ monumentalidad ─ planificación ─ desigualdad ─ gobernanza ─ abastecimiento
+   (siete dimensiones paralelas; ninguna se hereda de otra)
+población = modelo (estructuras × residencial × coetáneo × personas) ⇢ «primera ciudad», «megaciudad» [NO]
+```
+
+```text
+Mohenjo-daro/Harappa → >700 pozos B; Gini 0.44 ↓ B-COND/C; clase dirigente C
+Liangzhu/Erlitou     → presas 5200–4800 cal BP B; Estado C; sin dinastías textuales B
+Teotihuacan          → vivienda colectiva ~100 000 B-COND; migrantes B-COND; gobierno colectivo C
+Tikal/Caracol        → baja densidad B; 9.5–16 M C
+Caral/Chan Chan      → monumentos sin cerámica B; radar 2026 C; depósitos B-LOCAL
+Jenne-jeno           → racimo sin ciudadela B; heterarquía C
+Gran Zimbabue        → ≤10 000 B-COND; Khami heterárquica B-COND
+ciudades suajili     → maritimidad tardía y mezcla B-COND; identidad ≠ ancestría
+Cahokia              → planificación súbita B-COND; escala C; ecocidio refutado localmente
+```
+
+- `CLAIM-CIV-URBCOMP-SEVEN-DIMENSIONS-001` impide leer una superficie, un monumento o una retícula como «ciudad» o «Estado».
+- `CLAIM-CIV-URBCOMP-POPULATION-ASSUMPTIONS-001` impide tratar una cifra de habitantes como conteo.
+- `CLAIM-CIV-URBCOMP-LOW-DENSITY-001` impide excluir la baja densidad de la categoría urbana.
+
+CIV-007 no cambia el estado de claims existentes. Véase `INV-CIV-URBANISMS-001`, `MAPA_CIV_007_URBANISMOS_COMPARADOS.md`, `CRONOLOGIA_CIV_007_URBANISMOS_COMPARADOS.md`, `cadena-forma-urbana-civ-007.svg` y `matriz-ciudades-dimensiones-civ-007.svg`.

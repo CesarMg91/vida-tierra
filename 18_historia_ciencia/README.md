@@ -64,3 +64,5 @@ Historia de cómo se reconstruyó la historia: creencias previas, evidencia disr
 - [`HISTORIA_CIV_005_NOMBRES_IDENTIDADES.md`](HISTORIA_CIV_005_NOMBRES_IDENTIDADES.md) — de Kossinna y Childe a la crítica procesual y posprocesual y a la paleogenómica: cómo una cultura dejó de ser un pueblo — **AUDITADO**.
 
 - [`HISTORIA_CIV_006_DOMESTICACIONES_ALDEAS_REGIONALES.md`](HISTORIA_CIV_006_DOMESTICACIONES_ALDEAS_REGIONALES.md) — de buscar el centro a leer el archivo: AMS, genomas actuales, fitolitos fechados, plasticidad y reevaluaciones — **AUDITADO**.
+
+- [`HISTORIA_CIV_007_URBANISMOS_COMPARADOS.md`](HISTORIA_CIV_007_URBANISMOS_COMPARADOS.md) — de la lista de Childe a la medida declarada: mapas de superficie, racimos, estroncio, LiDAR, Gini y leyes de escala — **AUDITADO**.

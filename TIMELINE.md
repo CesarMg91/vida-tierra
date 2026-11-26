@@ -477,7 +477,7 @@ Las fechas pertenecen a objetos, muestras, fases o publicaciones. No son estacio
 
 ## Próxima acción de la línea CIV
 
-CIV-003 inaugura los expedientes regionales auditados y CIV-004 los continúa con el Nilo y África nororiental (sección «CIV-004» al final de este archivo). CIV-005 fija la cadena de nombres e identidades que esos expedientes aplican (sección «CIV-005» al final de este archivo). CIV-001 conserva `TRAZADO`; la secuencia global `001–052` permanece completa. CIV-006 audita el sexto: domesticaciones y aldeas de Asia oriental, Nueva Guinea, África y Américas por archivos regionales (sección «CIV-006» al final de este archivo). El siguiente es el séptimo: urbanismos comparados.
+CIV-003 inaugura los expedientes regionales auditados y CIV-004 los continúa con el Nilo y África nororiental (sección «CIV-004» al final de este archivo). CIV-005 fija la cadena de nombres e identidades que esos expedientes aplican (sección «CIV-005» al final de este archivo). CIV-001 conserva `TRAZADO`; la secuencia global `001–052` permanece completa. CIV-006 audita el sexto: domesticaciones y aldeas de Asia oriental, Nueva Guinea, África y Américas por archivos regionales (sección «CIV-006» al final de este archivo). CIV-007 audita el séptimo: urbanismos comparados de Mesopotamia, el Indo, China, Mesoamérica, los Andes, África y Norteamérica en siete dimensiones (sección «CIV-007» al final de este archivo). El siguiente es el octavo: escrituras, notaciones, oralidad y archivos administrativos.
 
 ## XIII. MED-001 — Historia de herramientas para estimar efectos
 
@@ -1556,3 +1556,135 @@ Cada fecha pertenece a un objeto fechado declarado. Ninguna es «el origen de la
 | `TIME-CIV-DOMREG-RIVERTON-001` | `~3800 BP` | complejo de al menos cinco plantas domesticadas en Riverton | un sitio; testa en revisión | `SRC-SMITH-YARNELL-RIVERTON-2009` | B | AUDITADO |
 | `TIME-CIV-DOMREG-SALF-001` | `~5300` años atrás | uso de cacao en Santa Ana-La Florida por tres archivos | rasgo no medido | `SRC-ZARRILLO-CACAO-2018` | B-COND | AUDITADO |
 | `TIME-CIV-DOMREG-TEOTONIO-001` | `~9000–5000 cal BP` | yuca, calabaza y frijol en Teotonio | un sitio | `SRC-WATLING-TEOTONIO-2018` | B-LOCAL | AUDITADO |
+
+## MED-030 — Reproducción, discapacidad, salud mental y derechos
+
+| ID | Fecha/rango | Evento | Producto | Fuentes | Confianza | Estado |
+|---|---|---|---|---|---|---|
+| `TIME-MED-RIGHTS-CALIFORNIA-1909-001` | 1909–1979 | ley de California y unas 20 000 esterilizaciones en instituciones | ley y recuento | `SRC-MED-RIGHTS-STERN-2005` | B estimación | AUDITADO |
+| `TIME-MED-RIGHTS-BUCK-1927-001` | 2 may. 1927 | *Buck v. Bell*, 8 a 1 | sentencia | `SRC-MED-RIGHTS-BUCK-1927`, `SRC-MED-RIGHTS-LOMBARDO-2008` | A documental | AUDITADO |
+| `TIME-MED-RIGHTS-NAZI-LAW-1933-001` | 14 jul. 1933 | ley alemana de esterilización por nueve condiciones | ley | `SRC-MED-RIGHTS-USHMM-STERILIZATION` | A documental | AUDITADO |
+| `TIME-MED-RIGHTS-NAZI-STERIL-1934-001` | ene. 1934–1945 | unas 400 000 esterilizaciones forzadas | estimación | `SRC-MED-RIGHTS-USHMM-STERILIZATION` | B-COND | AUDITADO |
+| `TIME-MED-RIGHTS-SWEDEN-1935-001` | 1935–1975 | unas 63 000 esterilizaciones en Suecia | comisión oficial | `SRC-MED-RIGHTS-SOU-2000-20` | A/B | AUDITADO |
+| `TIME-MED-RIGHTS-MONIZ-1935-001` | 12 nov. 1935 | primeras leucotomías en Lisboa | serie quirúrgica | `SRC-MED-RIGHTS-TIERNEY-2000` | B | AUDITADO |
+| `TIME-MED-RIGHTS-MONIZ-1936-001` | 1936 | monografía de veinte pacientes | informe | `SRC-MED-RIGHTS-TIERNEY-2000`, `SRC-MED-RIGHTS-VALENSTEIN-1986` | B | AUDITADO |
+| `TIME-MED-RIGHTS-T4-1939-001` | otoño 1939 (fechada 1 sep.) | autorización del asesinato de pacientes | documento | `SRC-MED-RIGHTS-USHMM-EUTHANASIA` | A documental | AUDITADO |
+| `TIME-MED-RIGHTS-T4-1941-001` | ene. 1940–ago. 1941 | 70 273 asesinados en seis centros | recuento interno | `SRC-MED-RIGHTS-USHMM-EUTHANASIA` | A documental | AUDITADO |
+| `TIME-MED-RIGHTS-SKINNER-1942-001` | 1942 | *Skinner v. Oklahoma* debilita *Buck* | sentencia | `SRC-MED-RIGHTS-LOMBARDO-2008` | A/B | AUDITADO |
+| `TIME-MED-RIGHTS-FREEMAN-1946-001` | 17 ene. 1946 | primera lobotomía transorbitaria | procedimiento | `SRC-MED-RIGHTS-CARUSO-SHEEHAN-2017` | A/B | AUDITADO |
+| `TIME-MED-RIGHTS-NOBEL-1949-001` | 1949 | Nobel a Moniz | premio | `SRC-MED-RIGHTS-NOBEL-1949` | A documental | AUDITADO |
+| `TIME-MED-RIGHTS-DSM-I-1952-001` | 1952 | DSM-I incluye la homosexualidad | manual | `SRC-MED-RIGHTS-DRESCHER-2015` | A | AUDITADO |
+| `TIME-MED-RIGHTS-ASYLUM-1955-001` | 1955 | unas 559 000 personas en hospitales estatales | censo | `SRC-MED-RIGHTS-LAMB-BACHRACH-2001` | A | AUDITADO |
+| `TIME-MED-RIGHTS-PILL-1956-001` | abr. 1956 | ensayos de campo en Río Piedras | ensayo de campo | `SRC-MED-RIGHTS-MARKS-2001` | B | AUDITADO |
+| `TIME-MED-RIGHTS-HOOKER-1957-001` | 1957 | Hooker compara 30 y 30 hombres | estudio | `SRC-MED-RIGHTS-HOOKER-1957`, `SRC-MED-RIGHTS-DRESCHER-2015` | A/B | AUDITADO |
+| `TIME-MED-RIGHTS-PILL-FDA-1960-001` | 1957 y 1960 | aprobación para trastornos menstruales y como anticonceptivo | decisión regulatoria | `SRC-MED-RIGHTS-JUNOD-MARKS-2002` | A | AUDITADO |
+| `TIME-MED-RIGHTS-GOFFMAN-1961-001` | 1961 | *Asylums* | etnografía | `SRC-MED-RIGHTS-GOFFMAN-1961` | A | AUDITADO |
+| `TIME-MED-RIGHTS-PR-1965-001` | 1965 | cerca de un tercio de mujeres de 20 a 49 años esterilizada en Puerto Rico | encuesta | `SRC-MED-RIGHTS-PRESSER-1969` | B/C | AUDITADO |
+| `TIME-MED-RIGHTS-APA-PROTESTS-1970-001` | 1970–1971 | protestas en las reuniones de la APA | movimiento | `SRC-MED-RIGHTS-DRESCHER-2015` | A/B | AUDITADO |
+| `TIME-MED-RIGHTS-KENDELL-1971-001` | 1971 | diferencias diagnósticas Estados Unidos–Reino Unido | estudio comparativo | `SRC-MED-RIGHTS-KENDELL-1971` | A/B | AUDITADO |
+| `TIME-MED-RIGHTS-MADRIGAL-1971-001` | 1971–1974 | esterilizaciones en el hospital del condado de Los Ángeles | testimonios | `SRC-MED-RIGHTS-STERN-2005` | B | AUDITADO |
+| `TIME-MED-RIGHTS-ROSENHAN-1973-001` | 19 ene. 1973 | «On Being Sane in Insane Places» | experimento publicado | `SRC-MED-RIGHTS-ROSENHAN-1973` | A publicación | AUDITADO |
+| `TIME-MED-RIGHTS-APA-1973-001` | dic. 1973 | el consejo de la APA retira la homosexualidad del DSM | decisión profesional | `SRC-MED-RIGHTS-DRESCHER-2015` | A | AUDITADO |
+| `TIME-MED-RIGHTS-APA-VOTE-1974-001` | 1974 | 58 % de unos 10 000 votantes sostiene la decisión | votación | `SRC-MED-RIGHTS-DRESCHER-2015` | A | AUDITADO |
+| `TIME-MED-RIGHTS-RULES-1974-001` | 1974 | reglas federales: 72 horas y casi moratoria para menores de 21 | norma | `SRC-MED-RIGHTS-STERN-2005` | B | AUDITADO |
+| `TIME-MED-RIGHTS-VIRGINIA-1974-001` | 1974 | Virginia deroga su ley de esterilización | ley | `SRC-MED-RIGHTS-LOMBARDO-2008` | A/B | AUDITADO |
+| `TIME-MED-RIGHTS-SPITZER-FLEISS-1974-001` | 1974 | reanálisis de confiabilidad con kappa | reanálisis | `SRC-MED-RIGHTS-SPITZER-FLEISS-1974` | A/B | AUDITADO |
+| `TIME-MED-RIGHTS-SPITZER-1975-001` | 1975 | Spitzer critica a Rosenhan | crítica | `SRC-MED-RIGHTS-SPITZER-1975` | A | AUDITADO |
+| `TIME-MED-RIGHTS-UPIAS-1976-001` | 1976 | *Fundamental Principles of Disability* | declaración | `SRC-MED-RIGHTS-UPIAS-1976` | A | AUDITADO |
+| `TIME-MED-RIGHTS-GAO-1976-001` | 4 nov. 1976 | GAO: 3406 esterilizaciones en cuatro áreas | auditoría | `SRC-MED-RIGHTS-GAO-1976` | A | AUDITADO |
+| `TIME-MED-RIGHTS-BLOCH-1977-001` | 1977 | *Psychiatric Terror* | documentación | `SRC-MED-RIGHTS-BLOCH-REDDAWAY-1977` | B/C | AUDITADO |
+| `TIME-MED-RIGHTS-MADRIGAL-1978-001` | 1978 | fallo de *Madrigal v. Quilligan* | sentencia | `SRC-MED-RIGHTS-STERN-2005` | A/B | AUDITADO |
+| `TIME-MED-RIGHTS-IVF-1978-001` | 25 jul. 1978 | nace Louise Brown | informe clínico | `SRC-MED-RIGHTS-STEPTOE-EDWARDS-1978` | A | AUDITADO |
+| `TIME-MED-RIGHTS-DSM-III-1980-001` | 1980 | DSM-III con criterios explícitos | manual | `SRC-MED-RIGHTS-SCULL-2023`, `SRC-MED-RIGHTS-DRESCHER-2015` | A | AUDITADO |
+| `TIME-MED-RIGHTS-WPA-1983-001` | 1983 | la sociedad soviética se retira de la Asociación Mundial de Psiquiatría | sanción profesional | `SRC-MED-RIGHTS-VAN-VOREN-2010` | A | AUDITADO |
+| `TIME-MED-RIGHTS-WARNOCK-1984-001` | 1984 | Informe Warnock, Cmnd 9314 | informe de comité | `SRC-MED-RIGHTS-WARNOCK-1984` | A | AUDITADO |
+| `TIME-MED-RIGHTS-DSM-III-R-1987-001` | 1987 | DSM-III-R retira la homosexualidad egodistónica | manual | `SRC-MED-RIGHTS-DRESCHER-2015` | A | AUDITADO |
+| `TIME-MED-RIGHTS-HFE-1990-001` | nov. 1990 | ley de fertilización y embriología | ley | `SRC-MED-RIGHTS-HFE-ACT-1990` | A | AUDITADO |
+| `TIME-MED-RIGHTS-PERU-1996-001` | 1996–2000 | programa peruano de esterilizaciones con metas | política pública | `SRC-MED-RIGHTS-EWIG-2006` | B | AUDITADO |
+| `TIME-MED-RIGHTS-ASYLUM-1998-001` | dic. 1998 | 57 151 camas estatales ocupadas | censo | `SRC-MED-RIGHTS-LAMB-BACHRACH-2001` | A | AUDITADO |
+| `TIME-MED-RIGHTS-SWEDEN-COMP-1999-001` | 1999 | ley sueca de indemnización | ley | `SRC-MED-RIGHTS-SFS-1999-332` | A | AUDITADO |
+| `TIME-MED-RIGHTS-MESTANZA-2003-001` | 10 oct. 2003 | solución amistosa en el caso Mestanza | acuerdo | `SRC-MED-RIGHTS-IACHR-MESTANZA-2003` | A | AUDITADO |
+| `TIME-MED-RIGHTS-CRPD-2006-001` | 13 dic. 2006 | adopción de la Convención | tratado | `SRC-MED-RIGHTS-CRPD-2006` | A | AUDITADO |
+| `TIME-MED-RIGHTS-CRPD-2008-001` | 3 may. 2008 | entrada en vigor de la Convención | tratado | `SRC-MED-RIGHTS-CRPD-2006` | A | AUDITADO |
+| `TIME-MED-RIGHTS-NOBEL-2010-001` | 2010 | Nobel a Edwards; marco RDoC | premio y marco | `SRC-MED-RIGHTS-NOBEL-2010`, `SRC-MED-RIGHTS-INSEL-2010` | A | AUDITADO |
+| `TIME-MED-RIGHTS-DSM5-2013-001` | 2013 | ensayos de campo del DSM-5 | ensayo de confiabilidad | `SRC-MED-RIGHTS-REGIER-2013` | A | AUDITADO |
+| `TIME-MED-RIGHTS-GC1-2014-001` | 2014 | Observación general n.º 1 | interpretación | `SRC-MED-RIGHTS-CRPD-GC1-2014` | A | AUDITADO |
+| `TIME-MED-RIGHTS-CAHALAN-2019-001` | 2019 | *The Great Pretender* | investigación periodística | `SRC-MED-RIGHTS-CAHALAN-2019` | B | AUDITADO |
+| `TIME-MED-RIGHTS-ISSCR-2021-001` | 2021 | guía de la ISSCR sobre los catorce días | guía profesional | `SRC-MED-RIGHTS-ISSCR-2021` | A/B | AUDITADO |
+| `TIME-MED-RIGHTS-WHO-2023-001` | 2022–2023 | informe mundial de la OMS; guía OMS–ACNUDH; Scull; Comisión de *The Lancet* | informes y artículos | `SRC-MED-RIGHTS-WHO-2022`, `SRC-MED-RIGHTS-WHO-OHCHR-2023`, `SRC-MED-RIGHTS-SCULL-2023`, `SRC-MED-RIGHTS-LANCET-COMMISSION-2023` | A | AUDITADO |
+| `TIME-MED-RIGHTS-CEDAW-2024-001` | 30 oct. 2024 | decisión del Comité CEDAW sobre Perú | decisión de órgano de tratado | `SRC-MED-RIGHTS-CEDAW-2024` | A/B | AUDITADO |
+
+## MED-032 — Salud global, determinantes y pandemias
+
+| ID | Fecha/rango | Evento | Producto | Fuentes | Confianza | Estado |
+|---|---|---|---|---|---|---|
+| `TIME-MED-GLOBAL-MANSON-1878-001` | 1878 | Manson informa la filaria en mosquitos desde Amoy | observación | `SRC-MED-GLOBAL-HAYNES-2001` | B historiográfico | AUDITADO |
+| `TIME-MED-GLOBAL-ROSS-1897-001` | dic. 1897 | Ross publica células pigmentadas en mosquitos alimentados con sangre palúdica | publicación | `SRC-MED-GLOBAL-ROSS-1897` | A publicación | AUDITADO |
+| `TIME-MED-GLOBAL-SCHOOLS-1898-001` | 1898–1899 | se fundan las escuelas de medicina tropical de Liverpool y Londres | institución | `SRC-MED-GLOBAL-POWER-1999`, `SRC-MED-GLOBAL-HAYNES-2001` | B historiográfico | AUDITADO |
+| `TIME-MED-GLOBAL-RSC-1909-001` | 1909–1910 | la Comisión Sanitaria Rockefeller encuesta y trata la anquilostomiasis | encuesta y campaña | `SRC-MED-GLOBAL-BLEAKLEY-2007`, `SRC-MED-GLOBAL-ETTLING-1981` | A/B | AUDITADO |
+| `TIME-MED-GLOBAL-IHB-1913-001` | 1913–1951 | división internacional de salud de la Fundación Rockefeller | programa | `SRC-MED-GLOBAL-FARLEY-2004`, `SRC-MED-GLOBAL-PALMER-2010` | B historiográfico | AUDITADO |
+| `TIME-MED-GLOBAL-SLEEPING-SICKNESS-1921-001` | 1921–1956 | campañas francesas forzadas contra la enfermedad del sueño en África central | archivo de visitas | `SRC-MED-GLOBAL-LOWES-MONTERO-2021` | A/B archivo | AUDITADO |
+| `TIME-MED-GLOBAL-WHO-1946-001` | 22 jul. 1946 | firma de la Constitución de la OMS | tratado | `SRC-MED-GLOBAL-WHO-CONSTITUTION-1946` | A documental | AUDITADO |
+| `TIME-MED-GLOBAL-WHO-1948-001` | 7 abr. 1948 | entra en vigor la Constitución de la OMS | tratado | `SRC-MED-GLOBAL-WHO-CONSTITUTION-1946` | A documental | AUDITADO |
+| `TIME-MED-GLOBAL-DDT-GREECE-1951-001` | 1951 | primera resistencia de vectores al DDT, en Grecia | observación | `SRC-MED-GLOBAL-NAJERA-2011` | B secundario | AUDITADO |
+| `TIME-MED-GLOBAL-GMEP-1955-001` | 1955 | la 8.ª Asamblea aprueba en México la erradicación de la malaria | resolución | `SRC-MED-GLOBAL-NAJERA-2011` | A documental | AUDITADO |
+| `TIME-MED-GLOBAL-MEXICO-1955-001` | 1955–1975 | campaña mexicana de erradicación en la Guerra Fría | historia | `SRC-MED-GLOBAL-CUETO-2007` | B historiográfico | AUDITADO |
+| `TIME-MED-GLOBAL-SRI-LANKA-1963-001` | 1963 | Sri Lanka registra 17 casos de malaria y suspende la fumigación | registro | `SRC-MED-GLOBAL-KARUNAWEERA-2014` | A/B | AUDITADO |
+| `TIME-MED-GLOBAL-US-FUNDS-1963-001` | 1963 | cesan las aportaciones estadounidenses a la cuenta especial de la malaria | financiación | `SRC-MED-GLOBAL-NAJERA-2011` | B secundario | AUDITADO |
+| `TIME-MED-GLOBAL-WHITEHALL-1967-001` | 1967 | comienza el estudio Whitehall de funcionarios británicos | cohorte | `SRC-MED-GLOBAL-MARMOT-1991` | A publicación | AUDITADO |
+| `TIME-MED-GLOBAL-SRI-LANKA-1969-001` | 1969 | Sri Lanka supera el medio millón de casos y detecta resistencia al DDT | registro | `SRC-MED-GLOBAL-KARUNAWEERA-2014` | A/B | AUDITADO |
+| `TIME-MED-GLOBAL-GMEP-1969-001` | 1969 | la 22.ª Asamblea vuelve al control de la malaria | resolución | `SRC-MED-GLOBAL-NAJERA-2011` | A documental | AUDITADO |
+| `TIME-MED-GLOBAL-WHITEHALL-1978-001` | 1978 | Whitehall publica una razón de 3.6 en mortalidad coronaria | cohorte | `SRC-MED-GLOBAL-MARMOT-1978` | A publicación | AUDITADO |
+| `TIME-MED-GLOBAL-ALMA-ATA-1978-001` | 6–12 sept. 1978 | Conferencia de Alma-Ata sobre atención primaria | declaración | `SRC-MED-GLOBAL-ALMA-ATA-1978`, `SRC-MED-GLOBAL-CUETO-2004` | A documental | AUDITADO |
+| `TIME-MED-GLOBAL-SELECTIVE-1979-001` | 1979 | Walsh y Warren proponen la atención primaria selectiva; reunión de Bellagio | propuesta | `SRC-MED-GLOBAL-WALSH-WARREN-1979`, `SRC-MED-GLOBAL-CUETO-2004` | A/B | AUDITADO |
+| `TIME-MED-GLOBAL-MMWR-1981-001` | 5 jun. 1981 | el MMWR informa neumonía por Pneumocystis en cinco hombres de Los Ángeles | informe de casos | `SRC-MED-GLOBAL-MMWR-1981` | A documental | AUDITADO |
+| `TIME-MED-GLOBAL-GOBI-1982-001` | 1982–1983 | UNICEF promueve el paquete GOBI | informe | `SRC-MED-GLOBAL-CUETO-2004` | B historiográfico | AUDITADO |
+| `TIME-MED-GLOBAL-WHITEHALL-1984-001` | 1984 | Whitehall a diez años: unas tres veces la mortalidad total en el grado más bajo | cohorte | `SRC-MED-GLOBAL-MARMOT-1984` | A publicación | AUDITADO |
+| `TIME-MED-GLOBAL-ACTUP-1987-001` | 1987 | se funda ACT UP en Nueva York | movimiento | `SRC-MED-GLOBAL-EPSTEIN-1996` | B historiográfico | AUDITADO |
+| `TIME-MED-GLOBAL-SZRETER-1988-001` | 1988 | Szreter reinterpreta la tesis de McKeown | historia | `SRC-MED-GLOBAL-SZRETER-1988` | B historiográfico | AUDITADO |
+| `TIME-MED-GLOBAL-WHITEHALL-II-1991-001` | 1991 | Whitehall II: el gradiente no se redujo en veinte años | cohorte | `SRC-MED-GLOBAL-MARMOT-1991` | A publicación | AUDITADO |
+| `TIME-MED-GLOBAL-PALELLA-1998-001` | 1995–1997 (publ. 1998) | la mortalidad en VIH avanzado baja de 29.4 a 8.8 por 100 personas-año | cohorte | `SRC-MED-GLOBAL-PALELLA-1998` | A publicación | AUDITADO |
+| `TIME-MED-GLOBAL-DURBAN-2000-001` | jul. 2000 | Declaración de Durban | declaración | `SRC-MED-GLOBAL-DURBAN-2000` | A publicación | AUDITADO |
+| `TIME-MED-GLOBAL-TAC-2002-001` | 2002 | sentencia de la Corte Constitucional en Minister of Health v. TAC (No. 2) | sentencia | `SRC-MED-GLOBAL-TAC-2002` | A documental | AUDITADO |
+| `TIME-MED-GLOBAL-PEPFAR-2003-001` | fines de 2003 | comienza PEPFAR con 15 000 millones de dólares para cinco años | programa | `SRC-MED-GLOBAL-BENDAVID-2009` | A publicación | AUDITADO |
+| `TIME-MED-GLOBAL-CSDH-2005-001` | 2005 | la OMS crea la Comisión sobre Determinantes Sociales de la Salud | comisión | `SRC-MED-GLOBAL-CSDH-2008` | A documental | AUDITADO |
+| `TIME-MED-GLOBAL-CSDH-2008-001` | 28 ago. 2008 | informe Closing the gap in a generation | informe | `SRC-MED-GLOBAL-CSDH-2008`, `SRC-MED-GLOBAL-MARMOT-2008` | A documental | AUDITADO |
+| `TIME-MED-GLOBAL-CHIGWEDERE-2008-001` | 2008 | estimación de más de 330 000 vidas perdidas en Sudáfrica (2000–2005) | contrafactual | `SRC-MED-GLOBAL-CHIGWEDERE-2008` | B-COND estimación | AUDITADO |
+| `TIME-MED-GLOBAL-EBOLA-INDEX-2013-001` | dic. 2013 | primera muerte presunta del ébola de África occidental | reconstrucción | `SRC-MED-GLOBAL-BAIZE-2014`, `SRC-MED-GLOBAL-MARI-SAEZ-2014` | A/B-COND | AUDITADO |
+| `TIME-MED-GLOBAL-EBOLA-NOTIFIED-2014-001` | 23 mar. 2014 | la OMS es notificada del brote de ébola en Guinea | documento | `SRC-MED-GLOBAL-WHO-ERT-2014` | A documental | AUDITADO |
+| `TIME-MED-GLOBAL-EBOLA-PHEIC-2014-001` | 8 ago. 2014 | emergencia de salud pública de importancia internacional por ébola | documento | `SRC-MED-GLOBAL-WHO-ERT-2014` | A documental | AUDITADO |
+| `TIME-MED-GLOBAL-EBOLA-PROJECTION-2014-001` | sept. 2014 | proyección de 550 000 o 1.4 millones de casos para enero de 2015 | modelo | `SRC-MED-GLOBAL-MELTZER-2014` | B-COND proyección | AUDITADO |
+| `TIME-MED-GLOBAL-EBOLA-RING-2015-001` | 2015 | ensayo de vacunación en anillo en Guinea | ensayo | `SRC-MED-GLOBAL-HENAO-RESTREPO-2017` | A publicación | AUDITADO |
+| `TIME-MED-GLOBAL-EBOLA-FINAL-2016-001` | 31 mar. 2016 | 28 652 casos y 11 325 muertes notificados | recuento | `SRC-MED-GLOBAL-BELL-2016` | A documental | AUDITADO |
+| `TIME-MED-GLOBAL-ASTANA-2018-001` | 25–26 oct. 2018 | Declaración de Astana | declaración | `SRC-MED-GLOBAL-ASTANA-2018` | A documental | AUDITADO |
+| `TIME-MED-GLOBAL-EXCESS-2020-001` | 2020–2021 | exceso de mortalidad estimado entre 14.83 y 18.2 millones según el método | modelos | `SRC-MED-GLOBAL-MSEMBURI-2023`, `SRC-MED-GLOBAL-IHME-2022`, `SRC-MED-GLOBAL-GBD-2024`, `SRC-MED-GLOBAL-ECONOMIST-2021` | B-COND estimación | AUDITADO |
+| `TIME-MED-GLOBAL-COVAX-2021-001` | 2021 | COVAX entrega unos 910 millones de dosis | recuento | `SRC-MED-GLOBAL-DE-BENGY-STORENG-2022` | A publicación | AUDITADO |
+| `TIME-MED-GLOBAL-OHHLEP-2021-001` | mayo 2021 | FAO, OMSA, PNUMA y OMS crean el panel de expertos de Una Salud | definición | `SRC-MED-GLOBAL-OHHLEP-2022` | A documental | AUDITADO |
+| `TIME-MED-GLOBAL-AID-PAUSE-2025-001` | 20 ene. 2025 | pausa de la ayuda estadounidense | decisión política | `SRC-MED-GLOBAL-BRINK-2025` | A publicación | AUDITADO |
+| `TIME-MED-GLOBAL-AGREEMENT-2025-001` | 20 may. 2025 | la 78.ª Asamblea adopta el Acuerdo de la OMS sobre Pandemias | tratado | `SRC-MED-GLOBAL-WHA78-2025`, `SRC-MED-GLOBAL-HPW-2025` | A documental | AUDITADO |
+| `TIME-MED-GLOBAL-IHR-2025-001` | 19 sept. 2025 | entran en vigor las enmiendas al Reglamento Sanitario Internacional | norma | `SRC-MED-GLOBAL-IHR-2025` | A documental | AUDITADO |
+| `TIME-MED-GLOBAL-WHA79-2026-001` | may. 2026 | la 79.ª Asamblea prorroga la negociación del anexo PABS | decisión | `SRC-MED-GLOBAL-WHA79-2026` | A documental | AUDITADO |
+| `TIME-MED-GLOBAL-IGWG9-2026-001` | 2–13 nov. 2026 | novena reunión del grupo negociador; meta de mayo de 2027 | negociación | `SRC-MED-GLOBAL-IGWG9-2026` | A documental | AUDITADO |
+
+## CIV-007 — Urbanismos comparados
+
+Cada fecha pertenece a un objeto fechado o medido. Ninguna es «la primera ciudad» ni el «colapso» de una civilización.
+
+| ID | Fecha/intervalo | Evento delimitado | Incertidumbre | Fuente | Confianza | Estado |
+|---|---:|---|---|---|---|---|
+| `TIME-CIV-URBCOMP-HARAPPA-CRAFTS-001` | `c. 3300–1700 a. C.` | oficios de concha, cerámica y cuentas en Harappa | dedicación no medida | `SRC-KENOYER-HARAPPA-CRAFTS-1997` | B | AUDITADO |
+| `TIME-CIV-URBCOMP-MOHENJO-WATER-001` | mediados del III milenio a. C. | más de `700` pozos, baños y drenajes en Mohenjo-daro | fase de cada pozo | `SRC-JANSEN-MOHENJO-WATER-1989` | B | AUDITADO |
+| `TIME-CIV-URBCOMP-MOHENJO-GINI-001` | `c. 2500–2100 a. C.` | Gini residencial de DK-G Sur de `0.39` a `0.23` | fases aproximadas | `SRC-GREEN-MOHENJO-2026` | C tendencia | AUDITADO |
+| `TIME-CIV-URBCOMP-LIANGZHU-DAMS-001` | `5200–4800 cal BP` | presas altas de Liangzhu; bajas y dique `5000–4800 cal BP` | trabajo modelado | `SRC-LIU-LIANGZHU-HYDRAULIC-2017` | B | AUDITADO |
+| `TIME-CIV-URBCOMP-LIANGZHU-END-001` | `4300–4000` años atrás | inundaciones y megasequías en el delta del Yangtsé | correlación | `SRC-ZHANG-LIANGZHU-COLLAPSE-2021` | B-COND | AUDITADO |
+| `TIME-CIV-URBCOMP-CARAL-001` | `2627–1977 cal a. C.` | arquitectura monumental, asentamiento y riego en Caral sin cerámica | núcleo de `65 ha` | `SRC-SHADY-CARAL-2001` | B | AUDITADO |
+| `TIME-CIV-URBCOMP-SUPE-END-001` | `~3800 BP` | desastres naturales propuestos para el abandono de Supe | hipótesis | `SRC-SANDWEISS-SUPE-2009` | C | AUDITADO |
+| `TIME-CIV-URBCOMP-TEOTIHUACAN-COMPOUNDS-001` | `250–350 d. C.` | más de `2000` conjuntos de departamentos en Teotihuacan | energética | `SRC-MURAKAMI-TEOTIHUACAN-LABOR-2019` | B-COND | AUDITADO |
+| `TIME-CIV-URBCOMP-JENNE-APOGEE-001` | `750–1100 d. C.` | Jenne-jeno supera las `33 ha` | fase cerámica | `SRC-MCINTOSH-JENNE-1981` | B | AUDITADO |
+| `TIME-CIV-URBCOMP-GZ-WALLS-001` | fines del XII–XV d. C. | muros de piedra de Gran Zimbabue con máximo en XIV–XV | contexto dañado | `SRC-CHIRIKURE-GZ-CHRONOLOGY-2013` | B-COND | AUDITADO |
+| `TIME-CIV-URBCOMP-KHAMI-001` | fines del XIV–XVIII d. C. | Khami florece mientras Gran Zimbabue sigue ocupada | cronologías cerámicas | `SRC-CHIRIKURE-KHAMI-2018` | B-COND | AUDITADO |
+| `TIME-CIV-URBCOMP-SWAHILI-ADMIX-001` | `~1000 d. C.` | inicio de la mezcla africano-asiática en ciudades suajili | muestra de élites | `SRC-BRIELLE-SWAHILI-2023` | B-COND | AUDITADO |
+| `TIME-CIV-URBCOMP-CAHOKIA-LOHMANN-001` | `1050–1100 d. C.` | construcción planificada del centro de Cahokia y llegada de población | escala disputada | `SRC-BENSON-CAHOKIA-2009` | B-COND | AUDITADO |
+| `TIME-CIV-URBCOMP-CAHOKIA-1150-001` | `~1150 d. C.` | empalizada; crecida y menos lluvia de verano con descenso de población | correlación | `SRC-BENSON-CAHOKIA-2009`, `SRC-WHITE-CAHOKIA-STANOLS-2019` | B-COND | AUDITADO |
+| `TIME-CIV-URBCOMP-CAHOKIA-1200-001` | `~1200 d. C.` | población de Cahokia `~50 %` menor | proxy de tendencia | `SRC-BENSON-CAHOKIA-2009` | B-COND | AUDITADO |
+| `TIME-CIV-URBCOMP-CAHOKIA-1350-001` | `~1350 d. C.` | abandono de Cahokia y de buena parte del valle central del Misisipi | causa no fijada | `SRC-BENSON-CAHOKIA-2009`, `SRC-MUNOZ-CAHOKIA-FLOODS-2015` | B-COND | AUDITADO |

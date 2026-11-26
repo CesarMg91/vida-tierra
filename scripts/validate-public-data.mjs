@@ -75,12 +75,19 @@ for (const { record, key } of parsedThematic) {
   recordsBySeries.get(key.series).push({ record, order: key.order });
 }
 
+// Claves del programa pospuestas a propósito (pendientes de replanteo): no cuentan como hueco.
+const postponedThematic = new Set(["MED-031"]);
 for (const [series, records] of recordsBySeries) {
   const seriesOrders = records.map(({ order }) => order);
   check(duplicates(seriesOrders).length === 0, `órdenes ${series} duplicados: ${duplicates(seriesOrders).join(", ")}`);
   const lastSeriesOrder = Math.max(0, ...seriesOrders);
   for (let order = 1; order <= lastSeriesOrder; order += 1) {
-    check(seriesOrders.includes(order), `falta la investigación temática ${series}-${String(order).padStart(3, "0")}`);
+    const thematicKey = `${series}-${String(order).padStart(3, "0")}`;
+    if (postponedThematic.has(thematicKey)) {
+      check(!seriesOrders.includes(order), `${thematicKey} figura como pospuesta pero ya existe; quítala de postponedThematic`);
+      continue;
+    }
+    check(seriesOrders.includes(order), `falta la investigación temática ${thematicKey}`);
   }
 }
 
@@ -214,6 +221,28 @@ for (const domesticationCase of domesticationsData.cases) {
     for (const id of step.claimIds ?? []) check(claimIds.has(id), `${domesticationCase.id}/${step.kind} enlaza un claim inexistente: ${id}`);
     for (const id of step.evidenceIds ?? []) check(evidenceIds.has(id), `${domesticationCase.id}/${step.kind} enlaza una evidencia inexistente: ${id}`);
     for (const id of step.sourceIds ?? []) check(sourceIds.has(id), `${domesticationCase.id}/${step.kind} enlaza una fuente inexistente: ${id}`);
+  }
+}
+
+const urbanismsData = JSON.parse(fs.readFileSync(path.join(ROOT, "content", "civilization-urbanisms.json"), "utf8"));
+const urbanDimensionKinds = ["density", "extent", "monumentality", "planning", "inequality", "governance", "provisioning"];
+const urbanDimensionStatuses = new Set(["sostenido", "condicionado", "no-demostrado", "dato-ausente"]);
+check(urbanismsData.schemaVersion === 1, "el módulo de urbanismos usa una versión de esquema desconocida");
+check(researchSlugs.has(urbanismsData.researchSlug), `el módulo de urbanismos apunta a un expediente inexistente: ${urbanismsData.researchSlug}`);
+check(Array.isArray(urbanismsData.cases) && urbanismsData.cases.length > 0, "el módulo de urbanismos no contiene casos");
+check(duplicates(urbanismsData.cases.map((record) => record.id)).length === 0, "el módulo de urbanismos contiene casos duplicados");
+for (const urbanCase of urbanismsData.cases) {
+  check(Boolean(urbanCase.title) && Boolean(urbanCase.region) && Boolean(urbanCase.adversary), `${urbanCase.id} no declara título, región o adversario`);
+  check(
+    JSON.stringify(urbanCase.steps?.map((step) => step.kind)) === JSON.stringify(urbanDimensionKinds),
+    `${urbanCase.id} no conserva las siete dimensiones canónicas en orden`,
+  );
+  for (const step of urbanCase.steps ?? []) {
+    check(urbanDimensionStatuses.has(step.status), `${urbanCase.id}/${step.kind} usa un estado desconocido: ${step.status}`);
+    check(Boolean(step.observed) && Boolean(step.inference) && Boolean(step.limit), `${urbanCase.id}/${step.kind} tiene un campo vacío`);
+    for (const id of step.claimIds ?? []) check(claimIds.has(id), `${urbanCase.id}/${step.kind} enlaza un claim inexistente: ${id}`);
+    for (const id of step.evidenceIds ?? []) check(evidenceIds.has(id), `${urbanCase.id}/${step.kind} enlaza una evidencia inexistente: ${id}`);
+    for (const id of step.sourceIds ?? []) check(sourceIds.has(id), `${urbanCase.id}/${step.kind} enlaza una fuente inexistente: ${id}`);
   }
 }
 

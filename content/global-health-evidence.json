@@ -1,0 +1,1584 @@
+{
+  "schemaVersion": 1,
+  "researchSlug": "15_medicina/INVESTIGACION_MED_032_SALUD_GLOBAL_DETERMINANTES_PANDEMIAS",
+  "cases": [
+    {
+      "id": "tropical-medicine-1877-1956",
+      "title": "Medicina tropical · Manson, Ross y la enfermedad del sueño",
+      "region": "Amoy, India, Liverpool, Londres y África central · 1877–1956",
+      "archive": "BMJ, Haynes, Power, Packard y Lowes y Montero",
+      "layers": [
+        {
+          "kind": "biology",
+          "observed": "Manson siguió la filaria dentro de mosquitos en Amoy y Ross publicó en 1897 células pigmentadas en mosquitos alimentados con sangre palúdica.",
+          "inference": "La transmisión por vector se volvió un programa de investigación.",
+          "limit": "Una observación en mosquitos no es todavía el ciclo completo ni una política.",
+          "claimIds": [
+            "CLAIM-MED-GLOBAL-MANSON-1878-001",
+            "CLAIM-MED-GLOBAL-ROSS-1897-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-GLOBAL-TROPICAL-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-GLOBAL-ROSS-1897",
+            "SRC-MED-GLOBAL-HAYNES-2001"
+          ]
+        },
+        {
+          "kind": "exposure",
+          "observed": "La especialidad definió las enfermedades por clima y geografía.",
+          "inference": "La exposición se desplazó hacia la naturaleza tropical.",
+          "limit": "El clima no explica trabajo forzado, vivienda ni movilidad colonial.",
+          "claimIds": [
+            "CLAIM-MED-GLOBAL-TROPICAL-IMPERIAL-001",
+            "CLAIM-MED-GLOBAL-BIOLOGY-NOT-EXPOSURE-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-GLOBAL-TROPICAL-001",
+            "EVID-MED-GLOBAL-METHOD-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-GLOBAL-HAYNES-2001",
+            "SRC-MED-GLOBAL-PACKARD-2016"
+          ]
+        },
+        {
+          "kind": "inequality",
+          "observed": "Los servicios se pensaron para soldados, administradores y trabajadores de un imperio.",
+          "inference": "La desigualdad estaba en el diseño de a quién se protegía.",
+          "limit": "La historiografía interpreta; no mide una brecha de mortalidad.",
+          "claimIds": [
+            "CLAIM-MED-GLOBAL-TROPICAL-IMPERIAL-001",
+            "CLAIM-MED-GLOBAL-COLONIAL-LAYER-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-GLOBAL-TROPICAL-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-GLOBAL-HAYNES-2001",
+            "SRC-MED-GLOBAL-PACKARD-2016"
+          ]
+        },
+        {
+          "kind": "system",
+          "observed": "Liverpool fundó su escuela en 1898 y Londres abrió la suya en 1899.",
+          "inference": "Hubo instituciones para formar médicos coloniales.",
+          "limit": "Una escuela no es un sistema de salud para las poblaciones colonizadas.",
+          "claimIds": [
+            "CLAIM-MED-GLOBAL-SCHOOLS-1898-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-GLOBAL-TROPICAL-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-GLOBAL-POWER-1999",
+            "SRC-MED-GLOBAL-HAYNES-2001"
+          ]
+        },
+        {
+          "kind": "intervention",
+          "observed": "Las campañas francesas de 1921–1956 examinaron e inyectaron por la fuerza a aldeanos, con efectos adversos graves, a veces mortales.",
+          "inference": "La intervención fue coercitiva y documentada en archivos.",
+          "limit": "La coerción no se mide aquí por su efecto sobre la enfermedad del sueño.",
+          "claimIds": [
+            "CLAIM-MED-GLOBAL-LOWES-MONTERO-2021-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-GLOBAL-TROPICAL-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-GLOBAL-LOWES-MONTERO-2021"
+          ]
+        },
+        {
+          "kind": "measurement",
+          "observed": "Más exposición a esas visitas se asocia hoy con menos vacunación, menos confianza y menos éxito de proyectos del Banco Mundial.",
+          "inference": "El legado colonial es una variable medible.",
+          "limit": "Es una asociación con exposición archivada, no un mecanismo completo.",
+          "claimIds": [
+            "CLAIM-MED-GLOBAL-LOWES-MONTERO-TRUST-001",
+            "CLAIM-MED-GLOBAL-COLONIAL-LEGACY-LIMIT-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-GLOBAL-TROPICAL-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-GLOBAL-LOWES-MONTERO-2021"
+          ]
+        },
+        {
+          "kind": "cooperation",
+          "observed": "Las prioridades las fijaban las metrópolis y sus escuelas.",
+          "inference": "La cooperación empezó como administración imperial.",
+          "limit": "Leerlo así no anula los hallazgos parasitológicos.",
+          "claimIds": [
+            "CLAIM-MED-GLOBAL-COLONIAL-LAYER-001",
+            "CLAIM-MED-GLOBAL-PACKARD-2016-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-GLOBAL-TROPICAL-001",
+            "EVID-MED-GLOBAL-METHOD-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-GLOBAL-PACKARD-2016"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rockefeller-hookworm-1909-1951",
+      "title": "Rockefeller · el «germen de la pereza»",
+      "region": "Sur de EE. UU., Caribe y Centroamérica · 1909–1951",
+      "archive": "Bleakley, Ettling, Farley y Palmer",
+      "layers": [
+        {
+          "kind": "biology",
+          "observed": "La uncinaria se adquiere por la piel desde suelos contaminados.",
+          "inference": "El parásito y su ciclo eran conocidos al iniciar la campaña.",
+          "limit": "Conocer el ciclo no dice quién anda descalzo ni sin letrina.",
+          "claimIds": [
+            "CLAIM-MED-GLOBAL-BIOLOGY-NOT-EXPOSURE-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-GLOBAL-METHOD-001",
+            "EVID-MED-GLOBAL-ROCKEFELLER-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-GLOBAL-BLEAKLEY-2007"
+          ]
+        },
+        {
+          "kind": "exposure",
+          "observed": "La Comisión encontró en promedio cerca de 40 % de escolares infectados en once estados.",
+          "inference": "La exposición era masiva y concentrada en la niñez.",
+          "limit": "Un promedio regional oculta diferencias entre condados.",
+          "claimIds": [
+            "CLAIM-MED-GLOBAL-RSC-1909-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-GLOBAL-ROCKEFELLER-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-GLOBAL-BLEAKLEY-2007"
+          ]
+        },
+        {
+          "kind": "inequality",
+          "observed": "Los promotores ligaron la enfermedad a la baja productividad del Sur.",
+          "inference": "La desigualdad regional se leyó como problema sanitario.",
+          "limit": "Llamar «pereza» a una infección moraliza una exposición.",
+          "claimIds": [
+            "CLAIM-MED-GLOBAL-ROCKEFELLER-MOTIVES-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-GLOBAL-ROCKEFELLER-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-GLOBAL-ETTLING-1981"
+          ]
+        },
+        {
+          "kind": "system",
+          "observed": "Desde 1913 la Fundación exportó el modelo con su división internacional de salud.",
+          "inference": "Nació una burocracia transnacional de campañas.",
+          "limit": "Un programa exportado no es un sistema local permanente.",
+          "claimIds": [
+            "CLAIM-MED-GLOBAL-IHB-1913-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-GLOBAL-ROCKEFELLER-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-GLOBAL-FARLEY-2004"
+          ]
+        },
+        {
+          "kind": "intervention",
+          "observed": "Desde 1910 se financiaron tratamiento y educación.",
+          "inference": "La intervención llegó a gran escala.",
+          "limit": "Entregar tratamiento no es medir su efecto.",
+          "claimIds": [
+            "CLAIM-MED-GLOBAL-RSC-1909-001",
+            "CLAIM-MED-GLOBAL-INTERVENTION-NOT-MEASUREMENT-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-GLOBAL-ROCKEFELLER-001",
+            "EVID-MED-GLOBAL-METHOD-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-GLOBAL-BLEAKLEY-2007"
+          ]
+        },
+        {
+          "kind": "measurement",
+          "observed": "Las zonas con más infección previa ganaron más matrícula, asistencia, alfabetización e ingresos.",
+          "inference": "Hubo efecto en escolaridad e ingresos.",
+          "limit": "El diseño no es un ensayo y depende de que ninguna otra tendencia coincida con la infección.",
+          "claimIds": [
+            "CLAIM-MED-GLOBAL-BLEAKLEY-2007-001",
+            "CLAIM-MED-GLOBAL-BLEAKLEY-LIMIT-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-GLOBAL-ROCKEFELLER-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-GLOBAL-BLEAKLEY-2007"
+          ]
+        },
+        {
+          "kind": "cooperation",
+          "observed": "En el Caribe las campañas se coprodujeron con médicos y gobiernos locales.",
+          "inference": "La cooperación mezcló imposición y negociación.",
+          "limit": "Coproducción no significa igualdad de poder.",
+          "claimIds": [
+            "CLAIM-MED-GLOBAL-PALMER-2010-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-GLOBAL-ROCKEFELLER-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-GLOBAL-PALMER-2010"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "who-global-health-1946-2009",
+      "title": "La OMS · de internacional a global",
+      "region": "Nueva York y Ginebra · 1946–2009",
+      "archive": "Constitución de la OMS, Brown, Cueto y Fee, y Koplan",
+      "layers": [
+        {
+          "kind": "biology",
+          "observed": "La Constitución define la salud más allá de la ausencia de enfermedad.",
+          "inference": "El objeto de la salud internacional se amplió.",
+          "limit": "Una definición no describe ningún agente ni mecanismo.",
+          "claimIds": [
+            "CLAIM-MED-GLOBAL-WHO-CONSTITUTION-1946-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-GLOBAL-WHO-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-GLOBAL-WHO-CONSTITUTION-1946"
+          ]
+        },
+        {
+          "kind": "exposure",
+          "observed": "La definición incluye el bienestar mental y social.",
+          "inference": "Las condiciones de vida entraron en el mandato.",
+          "limit": "Incluirlas no mide quién se expone a qué.",
+          "claimIds": [
+            "CLAIM-MED-GLOBAL-WHO-CONSTITUTION-1946-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-GLOBAL-WHO-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-GLOBAL-WHO-CONSTITUTION-1946"
+          ]
+        },
+        {
+          "kind": "inequality",
+          "observed": "Koplan definió en 2009 la salud global por su prioridad en la equidad.",
+          "inference": "La desigualdad se volvió el centro declarado del campo.",
+          "limit": "Una definición normativa no es una medición de brechas.",
+          "claimIds": [
+            "CLAIM-MED-GLOBAL-KOPLAN-2009-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-GLOBAL-WHO-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-GLOBAL-KOPLAN-2009"
+          ]
+        },
+        {
+          "kind": "system",
+          "observed": "La OMS pasó entre 1948 y 1998 de líder indiscutido a organización en crisis.",
+          "inference": "El sistema internacional se fragmentó entre actores nuevos.",
+          "limit": "Un cambio de nombre no cambia quién financia.",
+          "claimIds": [
+            "CLAIM-MED-GLOBAL-WHO-INTERNATIONAL-GLOBAL-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-GLOBAL-WHO-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-GLOBAL-BROWN-CUETO-FEE-2006"
+          ]
+        },
+        {
+          "kind": "intervention",
+          "observed": "La Constitución entró en vigor el 7 de abril de 1948.",
+          "inference": "Existió una autoridad coordinadora.",
+          "limit": "La autoridad coordinadora no entrega servicios por sí misma.",
+          "claimIds": [
+            "CLAIM-MED-GLOBAL-WHO-CONSTITUTION-1946-001",
+            "CLAIM-MED-GLOBAL-SYSTEM-NOT-INTERVENTION-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-GLOBAL-WHO-001",
+            "EVID-MED-GLOBAL-METHOD-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-GLOBAL-WHO-CONSTITUTION-1946"
+          ]
+        },
+        {
+          "kind": "measurement",
+          "observed": "La historia institucional se escribe con archivos, no con indicadores.",
+          "inference": "El papel de la OMS se juzga por su política.",
+          "limit": "Su efecto en la salud mundial no se estima en estas fuentes.",
+          "claimIds": [
+            "CLAIM-MED-GLOBAL-WHO-POLITICAL-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-GLOBAL-WHO-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-GLOBAL-CUETO-BROWN-FEE-2019"
+          ]
+        },
+        {
+          "kind": "cooperation",
+          "observed": "La Guerra Fría y los financiadores marcaron las prioridades.",
+          "inference": "La cooperación fue política desde el origen.",
+          "limit": "Interpretación historiográfica, no medición.",
+          "claimIds": [
+            "CLAIM-MED-GLOBAL-WHO-POLITICAL-001",
+            "CLAIM-MED-GLOBAL-WHO-INTERNATIONAL-GLOBAL-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-GLOBAL-WHO-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-GLOBAL-CUETO-BROWN-FEE-2019",
+            "SRC-MED-GLOBAL-BROWN-CUETO-FEE-2006"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "malaria-eradication-1955-1969",
+      "title": "Erradicación de la malaria con DDT",
+      "region": "Mundo, Sri Lanka y México · 1955–1975",
+      "archive": "Nájera, Karunaweera, Packard y Cueto",
+      "layers": [
+        {
+          "kind": "biology",
+          "observed": "La resistencia de vectores al DDT apareció en Grecia en 1951 y en Sri Lanka en 1969.",
+          "inference": "La biología del vector cambió bajo la presión del insecticida.",
+          "limit": "Resistencia no es la única causa del fracaso.",
+          "claimIds": [
+            "CLAIM-MED-GLOBAL-GMEP-DDT-RESISTANCE-1951-001",
+            "CLAIM-MED-GLOBAL-SRI-LANKA-1969-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-GLOBAL-MALARIA-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-GLOBAL-NAJERA-2011",
+            "SRC-MED-GLOBAL-KARUNAWEERA-2014"
+          ]
+        },
+        {
+          "kind": "exposure",
+          "observed": "Sri Lanka suspendió la fumigación en abril de 1963 salvo en barreras junto a la selva.",
+          "inference": "La exposición volvió con el fin de la fumigación y la migración.",
+          "limit": "La causa exacta del resurgimiento no está establecida.",
+          "claimIds": [
+            "CLAIM-MED-GLOBAL-SRI-LANKA-1963-001",
+            "CLAIM-MED-GLOBAL-SRI-LANKA-CAUSE-OPEN-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-GLOBAL-MALARIA-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-GLOBAL-KARUNAWEERA-2014"
+          ]
+        },
+        {
+          "kind": "inequality",
+          "observed": "Desde 1955 nadie sabía cómo abordar el África tropical.",
+          "inference": "La región de mayor carga quedó fuera del plan efectivo.",
+          "limit": "Las fuentes no cuantifican la brecha resultante.",
+          "claimIds": [
+            "CLAIM-MED-GLOBAL-GMEP-ELIMINATED-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-GLOBAL-MALARIA-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-GLOBAL-NAJERA-2011"
+          ]
+        },
+        {
+          "kind": "system",
+          "observed": "Los programas fueron estructuras autónomas separadas de los servicios generales.",
+          "inference": "La vigilancia dependía de un aparato temporal.",
+          "limit": "Un aparato vertical no es un sistema de salud.",
+          "claimIds": [
+            "CLAIM-MED-GLOBAL-GMEP-FAILURE-REASONS-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-GLOBAL-MALARIA-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-GLOBAL-NAJERA-2011"
+          ]
+        },
+        {
+          "kind": "intervention",
+          "observed": "La 8.ª Asamblea aprobó en 1955 la erradicación con DDT; en 1969 se volvió al control.",
+          "inference": "La intervención se diseñó como campaña con plazo.",
+          "limit": "Una campaña aprobada no es un resultado.",
+          "claimIds": [
+            "CLAIM-MED-GLOBAL-GMEP-1955-001",
+            "CLAIM-MED-GLOBAL-GMEP-1969-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-GLOBAL-MALARIA-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-GLOBAL-NAJERA-2011"
+          ]
+        },
+        {
+          "kind": "measurement",
+          "observed": "Sri Lanka pasó de 17 casos en 1963 a más de medio millón en 1969.",
+          "inference": "El éxito medido era reversible.",
+          "limit": "Un mínimo de casos no es eliminación sostenida.",
+          "claimIds": [
+            "CLAIM-MED-GLOBAL-SRI-LANKA-1963-001",
+            "CLAIM-MED-GLOBAL-SRI-LANKA-1969-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-GLOBAL-MALARIA-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-GLOBAL-KARUNAWEERA-2014"
+          ]
+        },
+        {
+          "kind": "cooperation",
+          "observed": "Las aportaciones de EE. UU., más de 85 % de la cuenta especial, cesaron en 1963; en México la campaña fue política de la Guerra Fría.",
+          "inference": "La cooperación dependía de un solo financiador y de su geopolítica.",
+          "limit": "La interrupción de fondos no explica sola el resurgimiento.",
+          "claimIds": [
+            "CLAIM-MED-GLOBAL-GMEP-US-FUNDING-1963-001",
+            "CLAIM-MED-GLOBAL-CUETO-MEXICO-2007-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-GLOBAL-MALARIA-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-GLOBAL-NAJERA-2011",
+            "SRC-MED-GLOBAL-CUETO-2007"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "primary-health-care-1978-2018",
+      "title": "Alma-Ata frente a la atención primaria selectiva",
+      "region": "Alma-Ata, Bellagio y Astana · 1978–2018",
+      "archive": "Declaraciones, Walsh y Warren, y Cueto",
+      "layers": [
+        {
+          "kind": "biology",
+          "observed": "Walsh y Warren ordenaron las enfermedades por prevalencia, mortalidad y factibilidad de control.",
+          "inference": "La carga biológica guió la propuesta selectiva.",
+          "limit": "Una lista de enfermedades no es un perfil de exposición local.",
+          "claimIds": [
+            "CLAIM-MED-GLOBAL-WALSH-WARREN-1979-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-GLOBAL-PHC-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-GLOBAL-WALSH-WARREN-1979"
+          ]
+        },
+        {
+          "kind": "exposure",
+          "observed": "Alma-Ata habló de condiciones de vida y participación comunitaria.",
+          "inference": "La exposición se trató como asunto social.",
+          "limit": "La declaración no midió exposiciones.",
+          "claimIds": [
+            "CLAIM-MED-GLOBAL-ALMA-ATA-1978-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-GLOBAL-PHC-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-GLOBAL-ALMA-ATA-1978"
+          ]
+        },
+        {
+          "kind": "inequality",
+          "observed": "La meta fue «Salud para todos en el año 2000».",
+          "inference": "La equidad se declaró objetivo mundial.",
+          "limit": "Una meta no reduce por sí sola un gradiente.",
+          "claimIds": [
+            "CLAIM-MED-GLOBAL-ALMA-ATA-1978-001",
+            "CLAIM-MED-GLOBAL-INEQUALITY-NOT-SYSTEM-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-GLOBAL-PHC-001",
+            "EVID-MED-GLOBAL-METHOD-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-GLOBAL-ALMA-ATA-1978"
+          ]
+        },
+        {
+          "kind": "system",
+          "observed": "134 gobiernos firmaron una visión de atención primaria integral.",
+          "inference": "Se propuso un sistema, no un paquete.",
+          "limit": "Una declaración no es un servicio.",
+          "claimIds": [
+            "CLAIM-MED-GLOBAL-ALMA-ATA-1978-001",
+            "CLAIM-MED-GLOBAL-SYSTEM-NOT-INTERVENTION-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-GLOBAL-PHC-001",
+            "EVID-MED-GLOBAL-METHOD-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-GLOBAL-ALMA-ATA-1978",
+            "SRC-MED-GLOBAL-CUETO-2004"
+          ]
+        },
+        {
+          "kind": "intervention",
+          "observed": "Tras Bellagio, la estrategia se redujo al paquete GOBI de UNICEF.",
+          "inference": "Se eligieron intervenciones entregables.",
+          "limit": "Un paquete costo-efectivo no construye el sistema que lo sostiene.",
+          "claimIds": [
+            "CLAIM-MED-GLOBAL-BELLAGIO-GOBI-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-GLOBAL-PHC-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-GLOBAL-CUETO-2004"
+          ]
+        },
+        {
+          "kind": "measurement",
+          "observed": "Cada bando acusó al otro de idealismo o de verticalismo.",
+          "inference": "La disputa fue de prioridades.",
+          "limit": "No hubo un experimento comparable que la decidiera.",
+          "claimIds": [
+            "CLAIM-MED-GLOBAL-SELECTIVE-CRITIQUE-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-GLOBAL-PHC-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-GLOBAL-CUETO-2004"
+          ]
+        },
+        {
+          "kind": "cooperation",
+          "observed": "China propuso la conferencia, la URSS la financió y la Fundación Rockefeller patrocinó Bellagio; Astana renovó el compromiso en 2018.",
+          "inference": "La cooperación estuvo atravesada por la Guerra Fría y los financiadores.",
+          "limit": "Un compromiso renovado no mide cumplimiento.",
+          "claimIds": [
+            "CLAIM-MED-GLOBAL-ALMA-ATA-ORIGINS-001",
+            "CLAIM-MED-GLOBAL-ASTANA-2018-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-GLOBAL-PHC-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-GLOBAL-CUETO-2004",
+            "SRC-MED-GLOBAL-ASTANA-2018"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mortality-decline-1962-2022",
+      "title": "McKeown y el descenso de la mortalidad",
+      "region": "Inglaterra, Gales y ciudades de EE. UU. · siglos XIX–XX",
+      "archive": "McKeown, Szreter, Colgrove, Cutler y Miller, y Anderson",
+      "layers": [
+        {
+          "kind": "biology",
+          "observed": "El descenso del siglo XIX fue sobre todo de enfermedades infecciosas.",
+          "inference": "El cambio biológico relevante fue la caída de infecciones.",
+          "limit": "La clasificación de causas de la época es imperfecta.",
+          "claimIds": [
+            "CLAIM-MED-GLOBAL-MCKEOWN-1962-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-GLOBAL-MORTALITY-DECLINE-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-GLOBAL-MCKEOWN-RECORD-1962"
+          ]
+        },
+        {
+          "kind": "exposure",
+          "observed": "Filtración y cloración cambiaron la exposición urbana al agua contaminada.",
+          "inference": "La exposición se volvió intervenible por la ciudad.",
+          "limit": "No todas las ciudades ni todos los barrios cambiaron a la vez.",
+          "claimIds": [
+            "CLAIM-MED-GLOBAL-CUTLER-MILLER-2005-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-GLOBAL-MORTALITY-DECLINE-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-GLOBAL-CUTLER-MILLER-2005"
+          ]
+        },
+        {
+          "kind": "inequality",
+          "observed": "McKeown atribuyó el descenso al nivel de vida y la nutrición.",
+          "inference": "La desigualdad material se volvió explicación central.",
+          "limit": "Su tesis fue en gran parte desacreditada.",
+          "claimIds": [
+            "CLAIM-MED-GLOBAL-MCKEOWN-1976-001",
+            "CLAIM-MED-GLOBAL-COLGROVE-2002-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-GLOBAL-MORTALITY-DECLINE-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-GLOBAL-MCKEOWN-1976",
+            "SRC-MED-GLOBAL-COLGROVE-2002"
+          ]
+        },
+        {
+          "kind": "system",
+          "observed": "Szreter devolvió peso a la salud pública municipal.",
+          "inference": "El sistema sanitario local fue un actor.",
+          "limit": "Reinterpretación historiográfica, no estimación.",
+          "claimIds": [
+            "CLAIM-MED-GLOBAL-SZRETER-1988-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-GLOBAL-MORTALITY-DECLINE-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-GLOBAL-SZRETER-1988"
+          ]
+        },
+        {
+          "kind": "intervention",
+          "observed": "Las ciudades adoptaron filtración, cloración, tratamiento de aguas y normas para la leche.",
+          "inference": "Hubo intervenciones fechadas y comparables.",
+          "limit": "Adoptar una intervención no es estimar su efecto.",
+          "claimIds": [
+            "CLAIM-MED-GLOBAL-ANDERSON-2022-001",
+            "CLAIM-MED-GLOBAL-INTERVENTION-NOT-MEASUREMENT-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-GLOBAL-MORTALITY-DECLINE-001",
+            "EVID-MED-GLOBAL-METHOD-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-GLOBAL-ANDERSON-2022"
+          ]
+        },
+        {
+          "kind": "measurement",
+          "observed": "Una estimación da casi la mitad del descenso total; otra, 11–12 % de la mortalidad infantil sólo por filtración.",
+          "inference": "El agua importó.",
+          "limit": "La magnitud depende de ciudades, años y especificación.",
+          "claimIds": [
+            "CLAIM-MED-GLOBAL-CUTLER-MILLER-2005-001",
+            "CLAIM-MED-GLOBAL-ANDERSON-2022-001",
+            "CLAIM-MED-GLOBAL-WATER-ESTIMATE-DISPUTE-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-GLOBAL-MORTALITY-DECLINE-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-GLOBAL-CUTLER-MILLER-2005",
+            "SRC-MED-GLOBAL-ANDERSON-2022"
+          ]
+        },
+        {
+          "kind": "cooperation",
+          "observed": "La pregunta de McKeown —intervenir sobre la enfermedad o sobre las condiciones— sigue viva.",
+          "inference": "El debate orienta prioridades de cooperación.",
+          "limit": "Una tesis histórica no decide una política actual.",
+          "claimIds": [
+            "CLAIM-MED-GLOBAL-COLGROVE-2002-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-GLOBAL-MORTALITY-DECLINE-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-GLOBAL-COLGROVE-2002"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "whitehall-determinants-1967-2008",
+      "title": "Whitehall y los determinantes sociales",
+      "region": "Londres y Ginebra · 1967–2008",
+      "archive": "Marmot, West, Link y Phelan, y la Comisión de 2008",
+      "layers": [
+        {
+          "kind": "biology",
+          "observed": "Los mensajeros eran más bajos y tenían más presión arterial y glucosa que los administradores.",
+          "inference": "Hubo diferencias biológicas medibles entre grados.",
+          "limit": "Esas diferencias explicaron sólo parte de la mortalidad.",
+          "claimIds": [
+            "CLAIM-MED-GLOBAL-WHITEHALL-1978-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-GLOBAL-WHITEHALL-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-GLOBAL-MARMOT-1978"
+          ]
+        },
+        {
+          "kind": "exposure",
+          "observed": "Los grados bajos fumaban más y tenían menos actividad física.",
+          "inference": "La exposición conductual seguía el gradiente.",
+          "limit": "Medir conductas no identifica por qué se distribuyen así.",
+          "claimIds": [
+            "CLAIM-MED-GLOBAL-WHITEHALL-1978-001",
+            "CLAIM-MED-GLOBAL-EXPOSURE-NOT-INEQUALITY-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-GLOBAL-WHITEHALL-001",
+            "EVID-MED-GLOBAL-METHOD-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-GLOBAL-MARMOT-1978"
+          ]
+        },
+        {
+          "kind": "inequality",
+          "observed": "El grado más bajo tuvo 3.6 veces la mortalidad coronaria y unas tres veces la total.",
+          "inference": "El gradiente es robusto y abarca muchas causas.",
+          "limit": "El mecanismo no está identificado; la selección por salud es alternativa.",
+          "claimIds": [
+            "CLAIM-MED-GLOBAL-WHITEHALL-1978-001",
+            "CLAIM-MED-GLOBAL-WHITEHALL-1984-001",
+            "CLAIM-MED-GLOBAL-WEST-SELECTION-1991-001",
+            "CLAIM-MED-GLOBAL-GRADIENT-NOT-MECHANISM-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-GLOBAL-WHITEHALL-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-GLOBAL-MARMOT-1978",
+            "SRC-MED-GLOBAL-MARMOT-1984",
+            "SRC-MED-GLOBAL-WEST-1991"
+          ]
+        },
+        {
+          "kind": "system",
+          "observed": "Whitehall II asoció el gradiente con control sobre el trabajo e ingresos.",
+          "inference": "El entorno laboral es parte del sistema que produce salud.",
+          "limit": "Asociación transversal, no efecto de una reforma.",
+          "claimIds": [
+            "CLAIM-MED-GLOBAL-WHITEHALL-II-1991-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-GLOBAL-WHITEHALL-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-GLOBAL-MARMOT-1991"
+          ]
+        },
+        {
+          "kind": "intervention",
+          "observed": "La Comisión de 2008 propuso un programa de acción sobre condiciones de vida.",
+          "inference": "Hubo una agenda de intervenciones sociales.",
+          "limit": "El informe no estima el efecto de cada política.",
+          "claimIds": [
+            "CLAIM-MED-GLOBAL-CSDH-LIMIT-001",
+            "CLAIM-MED-GLOBAL-INEQUALITY-NOT-SYSTEM-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-GLOBAL-WHITEHALL-001",
+            "EVID-MED-GLOBAL-METHOD-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-GLOBAL-CSDH-2008",
+            "SRC-MED-GLOBAL-MARMOT-2008"
+          ]
+        },
+        {
+          "kind": "measurement",
+          "observed": "Una niña puede esperar vivir más de 80 años en unos países y menos de 45 en otros.",
+          "inference": "La brecha mundial es enorme.",
+          "limit": "Una brecha no identifica qué la reduce.",
+          "claimIds": [
+            "CLAIM-MED-GLOBAL-CSDH-2008-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-GLOBAL-WHITEHALL-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-GLOBAL-CSDH-2008"
+          ]
+        },
+        {
+          "kind": "cooperation",
+          "observed": "Link y Phelan sostienen que la posición social da acceso a recursos que protegen frente a cualquier mecanismo.",
+          "inference": "La cooperación debe mirar recursos, no sólo riesgos.",
+          "limit": "Teoría, no estimación.",
+          "claimIds": [
+            "CLAIM-MED-GLOBAL-LINK-PHELAN-1995-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-GLOBAL-WHITEHALL-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-GLOBAL-LINK-PHELAN-1995"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hiv-activism-1981-1998",
+      "title": "VIH · del primer informe a la terapia combinada",
+      "region": "EE. UU. · 1981–1998",
+      "archive": "MMWR, Epstein y Palella",
+      "layers": [
+        {
+          "kind": "biology",
+          "observed": "El MMWR del 5 de junio de 1981 informó neumonía por Pneumocystis en cinco hombres jóvenes.",
+          "inference": "Se describió un síndrome nuevo antes de conocer su agente.",
+          "limit": "Una serie de casos no identifica la causa.",
+          "claimIds": [
+            "CLAIM-MED-GLOBAL-MMWR-1981-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-GLOBAL-HIV-ACTIVISM-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-GLOBAL-MMWR-1981"
+          ]
+        },
+        {
+          "kind": "exposure",
+          "observed": "Los primeros casos se agruparon en poblaciones concretas.",
+          "inference": "La exposición se leyó por grupos.",
+          "limit": "Leer grupos como causa estigmatiza y confunde exposición con identidad.",
+          "claimIds": [
+            "CLAIM-MED-GLOBAL-MMWR-1981-001",
+            "CLAIM-MED-GLOBAL-EXPOSURE-NOT-INEQUALITY-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-GLOBAL-HIV-ACTIVISM-001",
+            "EVID-MED-GLOBAL-METHOD-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-GLOBAL-MMWR-1981"
+          ]
+        },
+        {
+          "kind": "inequality",
+          "observed": "Las reducciones de mortalidad se observaron sin importar sexo, raza o edad en la cohorte.",
+          "inference": "La terapia benefició a todos los subgrupos atendidos.",
+          "limit": "Sólo incluye a quienes llegaron a clínicas especializadas.",
+          "claimIds": [
+            "CLAIM-MED-GLOBAL-PALELLA-1998-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-GLOBAL-HIV-ACTIVISM-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-GLOBAL-PALELLA-1998"
+          ]
+        },
+        {
+          "kind": "system",
+          "observed": "ACT UP presionó a la FDA desde 1987.",
+          "inference": "Los pacientes se volvieron actores del sistema regulatorio.",
+          "limit": "Presión no es prueba de eficacia.",
+          "claimIds": [
+            "CLAIM-MED-GLOBAL-ACTUP-1987-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-GLOBAL-HIV-ACTIVISM-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-GLOBAL-EPSTEIN-1996"
+          ]
+        },
+        {
+          "kind": "intervention",
+          "observed": "La terapia combinada se difundió a mediados de los noventa.",
+          "inference": "Hubo una intervención nueva entregable.",
+          "limit": "Entregarla no es medir su efecto.",
+          "claimIds": [
+            "CLAIM-MED-GLOBAL-PALELLA-1998-001",
+            "CLAIM-MED-GLOBAL-INTERVENTION-NOT-MEASUREMENT-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-GLOBAL-HIV-ACTIVISM-001",
+            "EVID-MED-GLOBAL-METHOD-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-GLOBAL-PALELLA-1998"
+          ]
+        },
+        {
+          "kind": "measurement",
+          "observed": "La mortalidad bajó de 29.4 a 8.8 por 100 personas-año entre 1995 y 1997.",
+          "inference": "El descenso fue grande y rápido.",
+          "limit": "Cohorte observacional; su comparador es el pasado reciente.",
+          "claimIds": [
+            "CLAIM-MED-GLOBAL-PALELLA-1998-001",
+            "CLAIM-MED-GLOBAL-PALELLA-LIMIT-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-GLOBAL-HIV-ACTIVISM-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-GLOBAL-PALELLA-1998"
+          ]
+        },
+        {
+          "kind": "cooperation",
+          "observed": "Los activistas cambiaron la forma de los ensayos con pericia lega.",
+          "inference": "Cooperar incluyó compartir la definición de las preguntas.",
+          "limit": "La pericia lega no reemplazó la evidencia.",
+          "claimIds": [
+            "CLAIM-MED-GLOBAL-EPSTEIN-LAY-EXPERTISE-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-GLOBAL-HIV-ACTIVISM-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-GLOBAL-EPSTEIN-1995",
+            "SRC-MED-GLOBAL-EPSTEIN-1996"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "south-africa-arv-1999-2008",
+      "title": "Sudáfrica · negacionismo, tribunal y muertes evitables",
+      "region": "Sudáfrica · 1999–2008",
+      "archive": "Nature, Corte Constitucional, Chigwedere y Nattrass",
+      "layers": [
+        {
+          "kind": "biology",
+          "observed": "La Declaración de Durban reafirmó en 2000 que el VIH causa el sida.",
+          "inference": "La biología estaba establecida.",
+          "limit": "Una declaración no es la evidencia que resume.",
+          "claimIds": [
+            "CLAIM-MED-GLOBAL-DURBAN-2000-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-GLOBAL-SOUTH-AFRICA-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-GLOBAL-DURBAN-2000"
+          ]
+        },
+        {
+          "kind": "exposure",
+          "observed": "Sin prevención, nacieron unos 35 000 bebés con VIH por transmisión vertical entre 2000 y 2005, según el modelo.",
+          "inference": "La exposición vertical era prevenible.",
+          "limit": "Cifra modelada, no recuento.",
+          "claimIds": [
+            "CLAIM-MED-GLOBAL-CHIGWEDERE-2008-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-GLOBAL-SOUTH-AFRICA-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-GLOBAL-CHIGWEDERE-2008"
+          ]
+        },
+        {
+          "kind": "inequality",
+          "observed": "Botsuana llegó a 85 % de cobertura y Namibia a 71 %; Sudáfrica, a 23 % en 2005.",
+          "inference": "Países vecinos con epidemias semejantes trataron mucho más.",
+          "limit": "La comparación supone recursos y epidemias similares.",
+          "claimIds": [
+            "CLAIM-MED-GLOBAL-CHIGWEDERE-ASSUMPTIONS-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-GLOBAL-SOUTH-AFRICA-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-GLOBAL-CHIGWEDERE-2008"
+          ]
+        },
+        {
+          "kind": "system",
+          "observed": "Nattrass documentó interferencia política en los consejos de medicamentos y de investigación.",
+          "inference": "El sistema regulatorio perdió independencia.",
+          "limit": "Documentación institucional, no medición de daño.",
+          "claimIds": [
+            "CLAIM-MED-GLOBAL-NATTRASS-2008-001",
+            "CLAIM-MED-GLOBAL-MBEKI-POLICY-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-GLOBAL-SOUTH-AFRICA-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-GLOBAL-NATTRASS-2008"
+          ]
+        },
+        {
+          "kind": "intervention",
+          "observed": "La Corte declaró irrazonable limitar la nevirapina a sitios de investigación.",
+          "inference": "Un tribunal obligó a entregar una intervención.",
+          "limit": "La sentencia no mide cuántos la recibieron.",
+          "claimIds": [
+            "CLAIM-MED-GLOBAL-TAC-2002-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-GLOBAL-SOUTH-AFRICA-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-GLOBAL-TAC-2002"
+          ]
+        },
+        {
+          "kind": "measurement",
+          "observed": "Un modelo estima más de 330 000 vidas perdidas (2000–2005); otro, 343 000 muertes evitables (1999–2007).",
+          "inference": "La negación costó cientos de miles de vidas.",
+          "limit": "Son contrafactuales con comparadores distintos, no recuentos.",
+          "claimIds": [
+            "CLAIM-MED-GLOBAL-CHIGWEDERE-2008-001",
+            "CLAIM-MED-GLOBAL-NATTRASS-2008-001",
+            "CLAIM-MED-GLOBAL-COUNTERFACTUAL-NOT-COUNT-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-GLOBAL-SOUTH-AFRICA-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-GLOBAL-CHIGWEDERE-2008",
+            "SRC-MED-GLOBAL-NATTRASS-2008"
+          ]
+        },
+        {
+          "kind": "cooperation",
+          "observed": "El gobierno rechazó nevirapina donada y fondos del Fondo Mundial.",
+          "inference": "La cooperación disponible no se aceptó.",
+          "limit": "Ofrecer no es entregar si el receptor la rechaza.",
+          "claimIds": [
+            "CLAIM-MED-GLOBAL-MBEKI-POLICY-001",
+            "CLAIM-MED-GLOBAL-MEASUREMENT-NOT-COOPERATION-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-GLOBAL-SOUTH-AFRICA-001",
+            "EVID-MED-GLOBAL-METHOD-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-GLOBAL-CHIGWEDERE-2008"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pepfar-2003-2026",
+      "title": "PEPFAR y los recortes de 2025",
+      "region": "África subsahariana y países de ingresos bajos y medios · 2003–2030",
+      "archive": "Bendavid, ten Brink, Cavalcanti y Deaton",
+      "layers": [
+        {
+          "kind": "biology",
+          "observed": "La terapia combinada ya había bajado la mortalidad en cohortes de países ricos.",
+          "inference": "Había una intervención con efecto clínico observado.",
+          "limit": "Un efecto en cohortes de clínicas especializadas no es un efecto poblacional en otro sistema.",
+          "claimIds": [
+            "CLAIM-MED-GLOBAL-PALELLA-1998-001",
+            "CLAIM-MED-GLOBAL-INTERVENTION-NOT-MEASUREMENT-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-GLOBAL-HIV-ACTIVISM-001",
+            "EVID-MED-GLOBAL-METHOD-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-GLOBAL-PALELLA-1998"
+          ]
+        },
+        {
+          "kind": "exposure",
+          "observed": "La prevalencia adulta no cambió de forma distinta en los países foco.",
+          "inference": "La exposición a la infección no bajó más que en los controles.",
+          "limit": "La prevalencia sube cuando sobreviven más personas tratadas.",
+          "claimIds": [
+            "CLAIM-MED-GLOBAL-BENDAVID-2009-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-GLOBAL-PEPFAR-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-GLOBAL-BENDAVID-2009"
+          ]
+        },
+        {
+          "kind": "inequality",
+          "observed": "Los países foco no se eligieron al azar.",
+          "inference": "La distribución de la ayuda tiene sus propios sesgos.",
+          "limit": "La selección limita la generalización.",
+          "claimIds": [
+            "CLAIM-MED-GLOBAL-BENDAVID-2009-001",
+            "CLAIM-MED-GLOBAL-PEPFAR-ATTRIBUTION-LIMIT-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-GLOBAL-PEPFAR-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-GLOBAL-BENDAVID-2009"
+          ]
+        },
+        {
+          "kind": "system",
+          "observed": "Deaton sostiene que la ayuda externa puede debilitar la rendición de cuentas de los gobiernos receptores.",
+          "inference": "Un programa externo puede sustituir al sistema local.",
+          "limit": "Argumento general, no estimación sobre PEPFAR.",
+          "claimIds": [
+            "CLAIM-MED-GLOBAL-DEATON-2013-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-GLOBAL-PEPFAR-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-GLOBAL-DEATON-2013"
+          ]
+        },
+        {
+          "kind": "intervention",
+          "observed": "PEPFAR comenzó a fines de 2003 con 15 000 millones de dólares para cinco años.",
+          "inference": "La intervención llegó a escala sin precedente.",
+          "limit": "Un presupuesto no es una cobertura.",
+          "claimIds": [
+            "CLAIM-MED-GLOBAL-PEPFAR-2003-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-GLOBAL-PEPFAR-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-GLOBAL-BENDAVID-2009"
+          ]
+        },
+        {
+          "kind": "measurement",
+          "observed": "Las muertes por VIH bajaron 10.5 % más por año y la mortalidad adulta tuvo una razón de momios de 0.84 en países foco.",
+          "inference": "El programa se asocia con menos muertes.",
+          "limit": "Diferencias en diferencias; no separa otros fondos ni cambios simultáneos.",
+          "claimIds": [
+            "CLAIM-MED-GLOBAL-BENDAVID-2009-001",
+            "CLAIM-MED-GLOBAL-BENDAVID-2012-001",
+            "CLAIM-MED-GLOBAL-PEPFAR-ATTRIBUTION-LIMIT-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-GLOBAL-PEPFAR-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-GLOBAL-BENDAVID-2009",
+            "SRC-MED-GLOBAL-BENDAVID-2012"
+          ]
+        },
+        {
+          "kind": "cooperation",
+          "observed": "Tras la pausa del 20 de enero de 2025 se proyectan 0.77–2.93 millones de muertes adicionales por VIH en 2025–2030.",
+          "inference": "Retirar la cooperación tiene un costo previsible.",
+          "limit": "Proyección con supuestos, no observación.",
+          "claimIds": [
+            "CLAIM-MED-GLOBAL-FUNDING-CUT-2025-001",
+            "CLAIM-MED-GLOBAL-USAID-2025-001",
+            "CLAIM-MED-GLOBAL-PROJECTION-NOT-OBSERVATION-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-GLOBAL-PEPFAR-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-GLOBAL-BRINK-2025",
+            "SRC-MED-GLOBAL-CAVALCANTI-2025"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ebola-west-africa-2013-2016",
+      "title": "El ébola de África occidental",
+      "region": "Guinea, Liberia y Sierra Leona · 2013–2016",
+      "archive": "NEJM, EMBO Mol Med, MMWR, Emerg Infect Dis, The Lancet y Richards",
+      "layers": [
+        {
+          "kind": "biology",
+          "observed": "El virus de Guinea formó un clado propio; una sola transmisión zoonótica en Meliandou es la hipótesis principal.",
+          "inference": "Hubo un salto único de un reservorio animal.",
+          "limit": "El reservorio no quedó confirmado.",
+          "claimIds": [
+            "CLAIM-MED-GLOBAL-EBOLA-INDEX-2013-001",
+            "CLAIM-MED-GLOBAL-EBOLA-ZOONOTIC-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-GLOBAL-EBOLA-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-GLOBAL-BAIZE-2014",
+            "SRC-MED-GLOBAL-MARI-SAEZ-2014"
+          ]
+        },
+        {
+          "kind": "exposure",
+          "observed": "El caso índice pudo infectarse jugando en un árbol hueco con murciélagos insectívoros.",
+          "inference": "La exposición fue ecológica y cotidiana.",
+          "limit": "Hipótesis de campo, no observación directa del contagio.",
+          "claimIds": [
+            "CLAIM-MED-GLOBAL-EBOLA-ZOONOTIC-001",
+            "CLAIM-MED-GLOBAL-BIOLOGY-NOT-EXPOSURE-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-GLOBAL-EBOLA-001",
+            "EVID-MED-GLOBAL-METHOD-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-GLOBAL-MARI-SAEZ-2014"
+          ]
+        },
+        {
+          "kind": "inequality",
+          "observed": "Con 50 % menos acceso a servicios se modelaron unas 10 600 muertes adicionales por malaria, VIH y tuberculosis.",
+          "inference": "El daño indirecto cayó sobre sistemas ya frágiles.",
+          "limit": "Escenario supuesto, no recuento.",
+          "claimIds": [
+            "CLAIM-MED-GLOBAL-EBOLA-INDIRECT-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-GLOBAL-EBOLA-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-GLOBAL-PARPIA-2016"
+          ]
+        },
+        {
+          "kind": "system",
+          "observed": "La OMS fue notificada el 23 de marzo de 2014 y declaró la emergencia el 8 de agosto.",
+          "inference": "El sistema internacional reaccionó con meses de retraso.",
+          "limit": "Las fechas no miden cuánto habría cambiado una reacción temprana.",
+          "claimIds": [
+            "CLAIM-MED-GLOBAL-EBOLA-PHEIC-2014-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-GLOBAL-EBOLA-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-GLOBAL-WHO-ERT-2014"
+          ]
+        },
+        {
+          "kind": "intervention",
+          "observed": "El ensayo en anillo no registró casos desde el día 10 entre los vacunados de inmediato frente a 16 en anillos diferidos.",
+          "inference": "La vacuna protegió en el ensayo.",
+          "limit": "Ensayo abierto con intervalo de 68.9 a 100.",
+          "claimIds": [
+            "CLAIM-MED-GLOBAL-EBOLA-RING-VACCINE-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-GLOBAL-EBOLA-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-GLOBAL-HENAO-RESTREPO-2017"
+          ]
+        },
+        {
+          "kind": "measurement",
+          "observed": "Se proyectaron hasta 1.4 millones de casos para enero de 2015; al 31 de marzo de 2016 había 28 652 casos y 11 325 muertes.",
+          "inference": "La proyección describía un escenario sin respuesta adicional.",
+          "limit": "Proyección condicional no es predicción fallida ni acertada.",
+          "claimIds": [
+            "CLAIM-MED-GLOBAL-EBOLA-PROJECTION-2014-001",
+            "CLAIM-MED-GLOBAL-EBOLA-FINAL-2016-001",
+            "CLAIM-MED-GLOBAL-PROJECTION-NOT-OBSERVATION-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-GLOBAL-EBOLA-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-GLOBAL-MELTZER-2014",
+            "SRC-MED-GLOBAL-BELL-2016"
+          ]
+        },
+        {
+          "kind": "cooperation",
+          "observed": "Comunidades de Sierra Leona adaptaron entierros y cuidados.",
+          "inference": "La cooperación incluyó conocimiento local.",
+          "limit": "Tesis etnográfica sin contraste cuantitativo.",
+          "claimIds": [
+            "CLAIM-MED-GLOBAL-EBOLA-COMMUNITY-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-GLOBAL-EBOLA-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-GLOBAL-RICHARDS-2016"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "covid-excess-covax-2020-2024",
+      "title": "COVID-19 · exceso de mortalidad y COVAX",
+      "region": "Mundo · 2020–2024",
+      "archive": "OMS, IHME, The Economist, World Mortality Dataset y COVAX",
+      "layers": [
+        {
+          "kind": "biology",
+          "observed": "El exceso suma muertes por el virus y por la respuesta, y resta las evitadas.",
+          "inference": "La biología del virus no se aísla en esta medida.",
+          "limit": "El exceso no dice cuántas causó el virus.",
+          "claimIds": [
+            "CLAIM-MED-GLOBAL-EXCESS-NOT-CAUSE-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-GLOBAL-EXCESS-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-GLOBAL-MSEMBURI-2023",
+            "SRC-MED-GLOBAL-GBD-2024"
+          ]
+        },
+        {
+          "kind": "exposure",
+          "observed": "Algunos países tuvieron exceso negativo, quizá por menos infecciones de otro tipo.",
+          "inference": "La exposición a otras causas también cambió.",
+          "limit": "Explicación presunta, no medida.",
+          "claimIds": [
+            "CLAIM-MED-GLOBAL-IHME-GBD-2024-001",
+            "CLAIM-MED-GLOBAL-KARLINSKY-2021-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-GLOBAL-EXCESS-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-GLOBAL-GBD-2024",
+            "SRC-MED-GLOBAL-KARLINSKY-KOBAK-2021"
+          ]
+        },
+        {
+          "kind": "inequality",
+          "observed": "Algunos países subregistraron muertes por COVID-19 hasta en dos órdenes de magnitud.",
+          "inference": "La capacidad de contar es desigual.",
+          "limit": "Los países sin registro quedan fuera de la base.",
+          "claimIds": [
+            "CLAIM-MED-GLOBAL-KARLINSKY-2021-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-GLOBAL-EXCESS-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-GLOBAL-KARLINSKY-KOBAK-2021"
+          ]
+        },
+        {
+          "kind": "system",
+          "observed": "Casi la mitad del mundo carece de registros completos de defunción.",
+          "inference": "El sistema de registro determina la cifra.",
+          "limit": "Los modelos rellenan con covariables.",
+          "claimIds": [
+            "CLAIM-MED-GLOBAL-EXCESS-WHY-DIFFER-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-GLOBAL-EXCESS-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-GLOBAL-IHME-2022",
+            "SRC-MED-GLOBAL-MSEMBURI-2023"
+          ]
+        },
+        {
+          "kind": "intervention",
+          "observed": "COVAX entregó en 2021 unos 910 millones de dosis, menos de la mitad de lo proyectado.",
+          "inference": "La intervención mundial no llegó a su meta.",
+          "limit": "La entrega es un recuento; su efecto es un modelo.",
+          "claimIds": [
+            "CLAIM-MED-GLOBAL-COVAX-2021-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-GLOBAL-COVAX-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-GLOBAL-DE-BENGY-STORENG-2022"
+          ]
+        },
+        {
+          "kind": "measurement",
+          "observed": "14.83, 15.9, 18.0 y 18.2 millones de muertes en exceso según el método; los rankings cambian con la línea base.",
+          "inference": "La pandemia mató a muchas más personas de las notificadas.",
+          "limit": "Ninguna cifra es la verdadera; dependen de supuestos.",
+          "claimIds": [
+            "CLAIM-MED-GLOBAL-WHO-EXCESS-2022-001",
+            "CLAIM-MED-GLOBAL-IHME-2022-001",
+            "CLAIM-MED-GLOBAL-IHME-GBD-2024-001",
+            "CLAIM-MED-GLOBAL-ECONOMIST-001",
+            "CLAIM-MED-GLOBAL-NEPOMUCENO-2022-001",
+            "CLAIM-MED-GLOBAL-EXCESS-WHY-DIFFER-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-GLOBAL-EXCESS-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-GLOBAL-MSEMBURI-2023",
+            "SRC-MED-GLOBAL-IHME-2022",
+            "SRC-MED-GLOBAL-GBD-2024",
+            "SRC-MED-GLOBAL-ECONOMIST-2021",
+            "SRC-MED-GLOBAL-NEPOMUCENO-2022"
+          ]
+        },
+        {
+          "kind": "cooperation",
+          "observed": "Con la meta de 20 % de COVAX se habrían evitado 45 % más muertes en países de ingresos bajos, según un modelo; las donaciones llegaron tarde y dirigidas.",
+          "inference": "La cooperación falló en el reparto.",
+          "limit": "Contrafactual modelado; análisis político documental.",
+          "claimIds": [
+            "CLAIM-MED-GLOBAL-WATSON-2022-001",
+            "CLAIM-MED-GLOBAL-COVAX-DONATION-POLITICS-001",
+            "CLAIM-MED-GLOBAL-MEASUREMENT-NOT-COOPERATION-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-GLOBAL-COVAX-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-GLOBAL-WATSON-2022",
+            "SRC-MED-GLOBAL-DE-BENGY-STORENG-2022"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "one-health-agreement-2008-2026",
+      "title": "Una Salud y el Acuerdo sobre Pandemias",
+      "region": "Mundo · 2008–2026",
+      "archive": "Jones, Zinsstag, OHHLEP, Craddock y Hinchliffe, y WHA78.1",
+      "layers": [
+        {
+          "kind": "biology",
+          "observed": "60.3 % de 335 eventos emergentes fueron zoonosis, 71.8 % de ellas de fauna silvestre.",
+          "inference": "Las enfermedades emergentes dependen de animales y ecosistemas.",
+          "limit": "Base de eventos notificados con sesgo corregido sólo en parte.",
+          "claimIds": [
+            "CLAIM-MED-GLOBAL-JONES-2008-001",
+            "CLAIM-MED-GLOBAL-JONES-LIMIT-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-GLOBAL-ONE-HEALTH-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-GLOBAL-JONES-2008"
+          ]
+        },
+        {
+          "kind": "exposure",
+          "observed": "Los orígenes se correlacionan con factores socioeconómicos, ambientales y ecológicos.",
+          "inference": "La exposición se produce en la interfaz humano-animal-ambiente.",
+          "limit": "Los puntos calientes son probabilidades modeladas.",
+          "claimIds": [
+            "CLAIM-MED-GLOBAL-JONES-2008-001",
+            "CLAIM-MED-GLOBAL-JONES-LIMIT-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-GLOBAL-ONE-HEALTH-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-GLOBAL-JONES-2008"
+          ]
+        },
+        {
+          "kind": "inequality",
+          "observed": "La vigilancia se concentra donde menos probable es el siguiente brote.",
+          "inference": "La desigualdad de vigilancia es un riesgo.",
+          "limit": "Las ciencias sociales piden incluir economía política y desigualdad.",
+          "claimIds": [
+            "CLAIM-MED-GLOBAL-JONES-2008-001",
+            "CLAIM-MED-GLOBAL-ONE-HEALTH-CRITIQUE-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-GLOBAL-ONE-HEALTH-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-GLOBAL-JONES-2008",
+            "SRC-MED-GLOBAL-CRADDOCK-HINCHLIFFE-2015"
+          ]
+        },
+        {
+          "kind": "system",
+          "observed": "FAO, OMSA, PNUMA y OMS crearon en 2021 un panel y una definición común.",
+          "inference": "Hubo un sistema de coordinación cuatripartito.",
+          "limit": "Coordinar no es medir ni intervenir.",
+          "claimIds": [
+            "CLAIM-MED-GLOBAL-OHHLEP-2022-001",
+            "CLAIM-MED-GLOBAL-ONE-MEDICINE-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-GLOBAL-ONE-HEALTH-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-GLOBAL-OHHLEP-2022",
+            "SRC-MED-GLOBAL-ZINSSTAG-2011"
+          ]
+        },
+        {
+          "kind": "intervention",
+          "observed": "El acuerdo prevé un objetivo de 20 % de la producción en tiempo real para la OMS, 10 % donado.",
+          "inference": "Se diseñó una intervención de reparto para la próxima pandemia.",
+          "limit": "Depende de un anexo aún no adoptado y de contratos.",
+          "claimIds": [
+            "CLAIM-MED-GLOBAL-AGREEMENT-PABS-001",
+            "CLAIM-MED-GLOBAL-AGREEMENT-SIGNATURE-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-GLOBAL-AGREEMENT-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-GLOBAL-WHA78-2025"
+          ]
+        },
+        {
+          "kind": "measurement",
+          "observed": "Las enmiendas al Reglamento rigen desde el 19 de septiembre de 2025; once Estados las rechazaron.",
+          "inference": "Hay una nueva categoría de alerta medible por su uso.",
+          "limit": "Su efecto todavía no se ha observado.",
+          "claimIds": [
+            "CLAIM-MED-GLOBAL-IHR-2024-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-GLOBAL-AGREEMENT-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-GLOBAL-IHR-2025"
+          ]
+        },
+        {
+          "kind": "cooperation",
+          "observed": "Adoptado el 20 de mayo de 2025; sin abrirse a la firma al 25 de noviembre de 2026; EE. UU. fuera de la OMS.",
+          "inference": "La cooperación tiene texto pero no entrega.",
+          "limit": "Un tratado adoptado no es una dosis entregada.",
+          "claimIds": [
+            "CLAIM-MED-GLOBAL-AGREEMENT-2025-001",
+            "CLAIM-MED-GLOBAL-AGREEMENT-STATUS-2026-001",
+            "CLAIM-MED-GLOBAL-US-WITHDRAWAL-001",
+            "CLAIM-MED-GLOBAL-AGREEMENT-NOT-DELIVERY-001",
+            "CLAIM-MED-GLOBAL-AGREEMENT-SOVEREIGNTY-001",
+            "CLAIM-MED-GLOBAL-AGREEMENT-ONE-HEALTH-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-GLOBAL-AGREEMENT-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-GLOBAL-WHA78-2025",
+            "SRC-MED-GLOBAL-HPW-2025",
+            "SRC-MED-GLOBAL-WHA79-2026",
+            "SRC-MED-GLOBAL-IGWG9-2026"
+          ]
+        }
+      ]
+    }
+  ]
+}
