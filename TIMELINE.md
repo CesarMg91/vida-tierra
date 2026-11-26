@@ -1260,3 +1260,166 @@ Las fechas pertenecen a estilos, muestras, filogenias o publicaciones. Ninguna f
 | `TIME-MED-PHARM-GRAM-2022-001` | 2022 (datos 2019) | primera estimación GRAM | carga global con intervalos | `SRC-MED-PHARM-GRAM-2022` | B-COND modelo | AUDITADO |
 | `TIME-MED-PHARM-GRAM-2024-001` | 2024 (datos 1990–2021) | GRAM con previsión a 2050 | tendencias por edad y escenario | `SRC-MED-PHARM-GRAM-2024` | B-COND modelo | AUDITADO |
 | `TIME-MED-PHARM-GLASS-2025-001` | 13 oct. 2025 | informe GLASS 2025 | uno de cada seis aislamientos resistente en 2023 | `SRC-MED-PHARM-WHO-GLASS-2025` | A institucional | AUDITADO |
+
+## MED-025 — Imagen, laboratorio y clasificación
+
+| ID | Fecha/rango | Evento | Producto | Fuentes | Confianza | Estado |
+|---|---|---|---|---|---|---|
+| `TIME-MED-IMG-VIERORDT-1852-001` | 1852 | Vierordt cuenta glóbulos rojos | conteo celular | `SRC-MED-IMG-LICHTMAN-BURACK-2025` | B histórico | AUDITADO |
+| `TIME-MED-IMG-BERTILLON-1893-001` | 1893 | Lista Internacional de Causas de Muerte | clasificación comparable | `SRC-MED-IMG-HIRSCH-2016` | A/B histórico | AUDITADO |
+| `TIME-MED-IMG-ROENTGEN-1895-001` | 1895–1896 | comunicación de Röntgen y traducción en *Nature* | nueva señal | `SRC-MED-IMG-ROENTGEN-1896`, `SRC-MED-IMG-NOBEL-1901` | A publicación | AUDITADO |
+| `TIME-MED-IMG-DENTAL-1896-001` | 1896 | primera radiografía dental, unos catorce días después del anuncio | difusión del instrumento | `SRC-MED-IMG-SANSARE-2011` | B histórico | AUDITADO |
+| `TIME-MED-IMG-INJURIES-1896-001` | 1896 | caídas de pelo y dermatitis publicadas | daño del instrumento | `SRC-MED-IMG-SANSARE-2011` | B histórico | AUDITADO |
+| `TIME-MED-IMG-ICD-ADOPTION-1898-001` | 1898 | adopción de la lista en EE. UU. y otros países | clasificación compartida | `SRC-MED-IMG-HIRSCH-2016` | B secundario | AUDITADO |
+| `TIME-MED-IMG-NOBEL-1901-001` | 1901 | Nobel de Física para Röntgen | reconocimiento | `SRC-MED-IMG-NOBEL-1901` | A institucional | AUDITADO |
+| `TIME-MED-IMG-CODMAN-1902-001` | 1902 | Codman reúne 88 lesiones publicadas | numerador de daño | `SRC-MED-IMG-SANSARE-2011` | B histórico | AUDITADO |
+| `TIME-MED-IMG-DALLY-1904-001` | 1904 | muerte de Clarence Dally | caso | `SRC-MED-IMG-SANSARE-2011` | B histórico | AUDITADO |
+| `TIME-MED-IMG-SEROLOGY-1900S-001` | inicios del siglo XX | sensibilidad y especificidad en la serología | conceptos inmunológicos | `SRC-MED-IMG-BINNEY-2021` | A historiográfico | AUDITADO |
+| `TIME-MED-IMG-FOLIN-WU-1919-001` | 1919 | sistema de análisis de sangre de Folin y Wu | método químico coordinado | `SRC-MED-IMG-FOLIN-WU-1919`, `SRC-MED-IMG-ROSENFELD-2002` | A publicación | AUDITADO |
+| `TIME-MED-IMG-SHOE-1920S-001` | mediados de los 1920–1950 | fluoroscopios en zapaterías | instrumento comercial | `SRC-MED-IMG-DUFFIN-HAYTER-2000` | A/B histórico | AUDITADO |
+| `TIME-MED-IMG-WINTROBE-1929-001` | 1929 | hematocrito e índices de Wintrobe | medición que clasifica anemias | `SRC-MED-IMG-LICHTMAN-BURACK-2025` | B histórico | AUDITADO |
+| `TIME-MED-IMG-BIRKELO-1947-001` | 1947 | estudio de la Administración de Veteranos en *JAMA* | desacuerdo entre lectores | `SRC-MED-IMG-BIRKELO-1947`, `SRC-MED-IMG-LYSEN-2023` | A publicación/B contenido | AUDITADO |
+| `TIME-MED-IMG-YERUSHALMY-1947-001` | 1947 | Yerushalmy: problemas estadísticos del diagnóstico | la lectura como error | `SRC-MED-IMG-YERUSHALMY-1947` | A publicación | AUDITADO |
+| `TIME-MED-IMG-BELK-1947-001` | 1947 | encuesta interlaboratorio de Belk y Sunderman | variación química | `SRC-MED-IMG-BELK-SUNDERMAN-1947` | A publicación | AUDITADO |
+| `TIME-MED-IMG-WHO-1948-001` | 1948 | la OMS asume la clasificación y suma morbilidad | clasificación de morbilidad | `SRC-MED-IMG-HIRSCH-2016` | A/B histórico | AUDITADO |
+| `TIME-MED-IMG-GARLAND-1949-001` | 1949 | Garland en *Radiology* | variación de expertos | `SRC-MED-IMG-GARLAND-1949` | A publicación | AUDITADO |
+| `TIME-MED-IMG-DUAL-READING-1950-001` | 1950 | Yerushalmy estudia la doble lectura | método contra el error | `SRC-MED-IMG-LYSEN-2023` | B vía historia | AUDITADO |
+| `TIME-MED-IMG-COULTER-1953-001` | 20 oct. 1953 | patente del principio Coulter | conteo electrónico | `SRC-MED-IMG-LICHTMAN-BURACK-2025` | B histórico | AUDITADO |
+| `TIME-MED-IMG-DONALD-1958-001` | 1958 | ultrasonido pulsado en masas abdominales | nuevo instrumento | `SRC-MED-IMG-DONALD-1958` | A publicación | AUDITADO |
+| `TIME-MED-IMG-LEDLEY-LUSTED-1959-001` | 1959 | Ledley y Lusted formalizan el diagnóstico | modelo de decisión | `SRC-MED-IMG-LYSEN-2023` | B vía historia | AUDITADO |
+| `TIME-MED-IMG-KAPPA-1960-001` | 1960 | coeficiente kappa de Cohen | medida de acuerdo | `SRC-MED-IMG-COHEN-1960` | A publicación | AUDITADO |
+| `TIME-MED-IMG-CORMACK-1963-001` | 1963 | Cormack: integrales de línea | matemática de reconstrucción | `SRC-MED-IMG-CORMACK-1963` | A publicación | AUDITADO |
+| `TIME-MED-IMG-COULTER-S-1968-001` | 1968 | Coulter Model S | biometría automatizada | `SRC-MED-IMG-LICHTMAN-BURACK-2025` | B histórico | AUDITADO |
+| `TIME-MED-IMG-DAMADIAN-1971-001` | 1971 | relajación distinta en tumores de rata | señal de resonancia | `SRC-MED-IMG-DAMADIAN-1971` | A publicación | AUDITADO |
+| `TIME-MED-IMG-LAUTERBUR-1973-001` | 1973 | imagen por gradientes; difracción en sólidos | resonancia de imagen | `SRC-MED-IMG-LAUTERBUR-1973`, `SRC-MED-IMG-MANSFIELD-1973` | A publicación | AUDITADO |
+| `TIME-MED-IMG-HOUNSFIELD-1973-001` | 1973 | Hounsfield y Ambrose en el *British Journal of Radiology* | tomografía computarizada | `SRC-MED-IMG-HOUNSFIELD-1973`, `SRC-MED-IMG-AMBROSE-1973` | A publicación | AUDITADO |
+| `TIME-MED-IMG-ICD9-1977-001` | 1977 | publicación de la CIE-9 | clasificación | `SRC-MED-IMG-HIRSCH-2016` | B secundario | AUDITADO |
+| `TIME-MED-IMG-NOBEL-1979-001` | 1979 | Nobel para Cormack y Hounsfield | reconocimiento | `SRC-MED-IMG-NOBEL-1979` | A institucional | AUDITADO |
+| `TIME-MED-IMG-PSA-1987-001` | 1987 | Stamey: PSA como marcador sérico | biomarcador | `SRC-MED-IMG-STAMEY-1987` | A publicación | AUDITADO |
+| `TIME-MED-IMG-MI-2000-001` | 2000 | redefinición del infarto con troponina | categoría nueva | `SRC-MED-IMG-ALPERT-2000` | A documental | AUDITADO |
+| `TIME-MED-IMG-ALTS-2001-001` | 2001 | reproducibilidad en ALTS | acuerdo de patólogos | `SRC-MED-IMG-STOLER-2001` | A publicación | AUDITADO |
+| `TIME-MED-IMG-ADRENAL-2002-001` | 2002–2003 | consenso de los NIH sobre el incidentaloma | categoría del instrumento | `SRC-MED-IMG-GRUMBACH-2003` | A documental | AUDITADO |
+| `TIME-MED-IMG-PSA-2004-001` | 2004 | cáncer bajo el umbral de PSA; fin de la era del PSA según Stamey | umbral y marcador revisados | `SRC-MED-IMG-THOMPSON-2004`, `SRC-MED-IMG-STAMEY-2004` | A publicación | AUDITADO |
+| `TIME-MED-IMG-ROGER-2006-001` | 2006 | evaluación comunitaria de la redefinición | 74 % más infartos | `SRC-MED-IMG-ROGER-2006` | A publicación | AUDITADO |
+| `TIME-MED-IMG-VERNOOIJ-2007-001` | 2007 | hallazgos incidentales en Rotterdam | reservorio visible | `SRC-MED-IMG-VERNOOIJ-2007` | A publicación | AUDITADO |
+| `TIME-MED-IMG-PSA-TRIALS-2009-001` | 2009 | ERSPC, PLCO y diagnósticos adicionales en EE. UU. | ensayos y sobrediagnóstico | `SRC-MED-IMG-SCHRODER-2009`, `SRC-MED-IMG-ANDRIOLE-2009`, `SRC-MED-IMG-WELCH-ALBERTSEN-2009` | A publicación | AUDITADO |
+| `TIME-MED-IMG-CT-COHORT-2012-001` | 2012 | cohorte británica de tomografía en la infancia | riesgo asociado | `SRC-MED-IMG-PEARCE-2012` | B observacional | AUDITADO |
+| `TIME-MED-IMG-ICD10CM-2015-001` | 1 oct. 2015 | CIE-10-MC en uso en EE. UU. | de unos 17 000 a unos 155 000 códigos | `SRC-MED-IMG-HIRSCH-2016` | B secundario | AUDITADO |
+| `TIME-MED-IMG-ELMORE-2015-001` | 2015 | concordancia en biopsias de mama | 75.3 % frente a consenso | `SRC-MED-IMG-ELMORE-2015` | A publicación | AUDITADO |
+| `TIME-MED-IMG-HTN-2017-001` | 2017–2018 | nueva definición de hipertensión y su efecto en la prevalencia | 31.9 % → 45.6 % | `SRC-MED-IMG-MUNTNER-2018` | A publicación | AUDITADO |
+| `TIME-MED-IMG-HIGHSTEACS-2018-001` | 2018 | cuarta definición y ensayo High-STEACS | reclasificación sin beneficio medido | `SRC-MED-IMG-THYGESEN-2018`, `SRC-MED-IMG-SHAH-2018` | A publicación | AUDITADO |
+| `TIME-MED-IMG-ICD11-2019-001` | mayo 2019 / 1 ene. 2022 | CIE-11 adoptada y en vigor | ontología digital | `SRC-MED-IMG-WHO-ICD11`, `SRC-MED-IMG-HARRISON-2021` | A institucional | AUDITADO |
+| `TIME-MED-IMG-AI-REVIEWS-2020-001` | 2018–2022 | atajos, revisiones sistemáticas y sesgos de la IA en imagen | crítica de métricas | `SRC-MED-IMG-ZECH-2018`, `SRC-MED-IMG-NAGENDRAN-2020`, `SRC-MED-IMG-FREEMAN-2021`, `SRC-MED-IMG-SEYYED-KALANTARI-2021` | A publicación | AUDITADO |
+| `TIME-MED-IMG-MASAI-2026-001` | 31 ene. 2026 | desenlace primario de MASAI | cánceres de intervalo no inferiores | `SRC-MED-IMG-GOMMERS-2026` | A publicación | AUDITADO |
+
+## MED-026 — Transfusión, trauma y cuidados críticos
+
+| ID | Fecha/rango | Evento | Producto | Fuentes | Confianza | Estado |
+|---|---|---|---|---|---|---|
+| `TIME-MED-CRIT-LOWER-1666-001` | 1666 | Lower publica la transfusión de animal a animal | procedimiento experimental | `SRC-MED-CRIT-LOWER-1666` | A publicación | AUDITADO |
+| `TIME-MED-CRIT-DENIS-1667-001` | 15 jun. 1667 | Denis transfunde sangre de cordero a un joven | procedimiento en persona | `SRC-MED-CRIT-DENIS-1667`, `SRC-MED-CRIT-HOFF-DSB` | A/B histórico | AUDITADO |
+| `TIME-MED-CRIT-COGA-1667-001` | 1667 | King y Lower transfunden a Arthur Coga | caso publicado | `SRC-MED-CRIT-KING-1667` | A publicación | AUDITADO |
+| `TIME-MED-CRIT-CHATELET-1668-001` | 17 abr. 1668 | sentencia tras la muerte de Mauroy | prohibición sin permiso de la Facultad | `SRC-MED-CRIT-HOFF-DSB` | B histórico | AUDITADO |
+| `TIME-MED-CRIT-LARREY-1792-001` | 1792–1815 | ambulancias volantes y orden por gravedad | infraestructura y regla de triaje | `SRC-MED-CRIT-SKANDALAKIS-2006` | B histórico | AUDITADO |
+| `TIME-MED-CRIT-BLUNDELL-1818-001` | 1818–1829 | Blundell transfunde entre personas | reposición de sangre | `SRC-MED-CRIT-BLUNDELL-1818`, `SRC-MED-CRIT-BLUNDELL-1829`, `SRC-MED-CRIT-LEAROYD-2012B` | A/B histórico | AUDITADO |
+| `TIME-MED-CRIT-LANDSTEINER-1901-001` | 1901–1902 | grupos A, B, C y después AB | compatibilidad | `SRC-MED-CRIT-HARBISON-2017` | A publicación | AUDITADO |
+| `TIME-MED-CRIT-OTTENBERG-1907-001` | 1907 | Ottenberg transfunde según los grupos | procedimiento compatible | `SRC-MED-CRIT-HARBISON-2017` | B histórico | AUDITADO |
+| `TIME-MED-CRIT-CITRATE-1915-001` | 1915 | método del citrato de Lewisohn | anticoagulación práctica | `SRC-MED-CRIT-LEWISOHN-1915` | A publicación | AUDITADO |
+| `TIME-MED-CRIT-ROUS-TURNER-1916-001` | 1916 | conservación de glóbulos con azúcares | almacenamiento | `SRC-MED-CRIT-ROUS-TURNER-1916` | A publicación | AUDITADO |
+| `TIME-MED-CRIT-CANNON-1918-001` | 1917–1918 | Cannon, Cowell y Fraser sobre el choque de las heridas | teoría del choque | `SRC-MED-CRIT-CANNON-1918`, `SRC-MED-CRIT-BENISON-1991` | A publicación/B contenido | AUDITADO |
+| `TIME-MED-CRIT-ROBERTSON-1918-001` | 1918 | Robertson publica transfusiones con glóbulos conservados | depósito de guerra | `SRC-MED-CRIT-ROBERTSON-1918`, `SRC-MED-CRIT-HESS-SCHMIDT-2000` | A publicación | AUDITADO |
+| `TIME-MED-CRIT-DRINKER-1929-001` | 1929 | aparato de Drinker y Shaw | pulmón de acero | `SRC-MED-CRIT-DRINKER-1929` | A publicación | AUDITADO |
+| `TIME-MED-CRIT-FANTUS-1937-001` | 16 mar. 1937 | banco de sangre de Fantus | inventario civil | `SRC-MED-CRIT-HHS-FANTUS-2017` | A institucional/B fecha | AUDITADO |
+| `TIME-MED-CRIT-DREW-1940-001` | 1940–1941 | tesis de Drew y Blood for Britain | plasma a escala y donantes segregados | `SRC-MED-CRIT-SCIHIST-DREW` | B histórico | AUDITADO |
+| `TIME-MED-CRIT-WWII-BLOOD-001` | 1941–1945 | programa de sangre de la guerra | más de 13 millones de unidades | `SRC-MED-CRIT-KENDRICK-1964` | B documental | AUDITADO |
+| `TIME-MED-CRIT-BEESON-1943-001` | 1943 | ictericia tras sangre o plasma | señal de daño | `SRC-MED-CRIT-BEESON-1943` | A publicación | AUDITADO |
+| `TIME-MED-CRIT-DREW-DEATH-1950-001` | 1950 | muerte de Drew y leyenda posterior | historiografía de una leyenda | `SRC-MED-CRIT-LOVE-1996` | B historiográfico | AUDITADO |
+| `TIME-MED-CRIT-IBSEN-1952-001` | 27 ago. 1952 | Ibsen ventila a una niña de 12 años | ventilación por traqueostomía | `SRC-MED-CRIT-REISNER-2011`, `SRC-MED-CRIT-TRUBUHOVICH-2004` | B archivo | AUDITADO |
+| `TIME-MED-CRIT-COPENHAGEN-1952-001` | ago.–dic. 1952 | epidemia de Copenhague y ventilación manual por estudiantes | serie antes-después | `SRC-MED-CRIT-WEST-2005`, `SRC-MED-CRIT-TRUBUHOVICH-2004` | B/C | AUDITADO |
+| `TIME-MED-CRIT-LASSEN-1953-001` | ene. 1953 | informe preliminar de Lassen | serie publicada | `SRC-MED-CRIT-LASSEN-1953` | A publicación | AUDITADO |
+| `TIME-MED-CRIT-ICU-1953-001` | dic. 1953 | unidad del Kommunehospitalet | primera UCI según la definición de sus historiadores | `SRC-MED-CRIT-BERTHELSEN-2003` | B historiográfico | AUDITADO |
+| `TIME-MED-CRIT-NAS-1966-001` | 1966 | *Accidental Death and Disability* | trauma como problema de sistemas | `SRC-MED-CRIT-NAS-1966` | A documental | AUDITADO |
+| `TIME-MED-CRIT-ASHBAUGH-1967-001` | 1967 | descripción del síndrome de dificultad respiratoria aguda | definición | `SRC-MED-CRIT-ASHBAUGH-1967` | A publicación | AUDITADO |
+| `TIME-MED-CRIT-SWAN-1970-001` | 1970 | catéter de Swan y Ganz | medición a la cabecera | `SRC-MED-CRIT-SWAN-1970` | A publicación | AUDITADO |
+| `TIME-MED-CRIT-UK-IMPORTS-1973-001` | 1973 | licencia británica de concentrados de plasma pagado | decisión regulatoria | `SRC-MED-CRIT-IBI-2024` | A documental | AUDITADO |
+| `TIME-MED-CRIT-WEST-TRUNKEY-1979-001` | 1979 | comparación de dos condados | muerte prevenible juzgada por panel | `SRC-MED-CRIT-WEST-TRUNKEY-1979` | A publicación | AUDITADO |
+| `TIME-MED-CRIT-CURRAN-1984-001` | ene. 1984 | sida asociado a transfusiones | rastreo de donantes | `SRC-MED-CRIT-CURRAN-1984` | A publicación | AUDITADO |
+| `TIME-MED-CRIT-TRALI-1985-001` | 1985 | 36 casos de lesión pulmonar por transfusión | daño sin agente infeccioso | `SRC-MED-CRIT-POPOVSKY-1985` | A publicación | AUDITADO |
+| `TIME-MED-CRIT-HCV-1989-001` | 1989 | clon del agente de la hepatitis «no A, no B» | agente identificado | `SRC-MED-CRIT-CHOO-1989` | A publicación | AUDITADO |
+| `TIME-MED-CRIT-BICKELL-1994-001` | 1994 | reanimación diferida en heridas penetrantes | comparación prospectiva | `SRC-MED-CRIT-BICKELL-1994` | A ensayo | AUDITADO |
+| `TIME-MED-CRIT-IOM-1995-001` | 1995 | *HIV and the Blood Supply* | investigación pública | `SRC-MED-CRIT-IOM-1995` | A documental | AUDITADO |
+| `TIME-MED-CRIT-CONNORS-1996-001` | 1996 | cohorte SUPPORT sobre cateterismo derecho | asociación con mortalidad | `SRC-MED-CRIT-CONNORS-1996` | A cohorte | AUDITADO |
+| `TIME-MED-CRIT-TRICC-1999-001` | 1999 | ensayo TRICC | transfusión restrictiva no inferior | `SRC-MED-CRIT-HEBERT-1999` | A ensayo | AUDITADO |
+| `TIME-MED-CRIT-ARDSNET-2000-001` | 2000 | ensayo de la ARDS Network | volumen corriente bajo | `SRC-MED-CRIT-ARDSNET-2000` | A ensayo | AUDITADO |
+| `TIME-MED-CRIT-RIVERS-VDB-2001-001` | 2001 | ensayos de Rivers y de Van den Berghe | efectos grandes en un centro | `SRC-MED-CRIT-RIVERS-2001`, `SRC-MED-CRIT-VDB-2001` | A ensayo | AUDITADO |
+| `TIME-MED-CRIT-SSC-2004-001` | 2004 | guía de la Surviving Sepsis Campaign | protocolo adoptado | `SRC-MED-CRIT-DELLINGER-2004` | A documental | AUDITADO |
+| `TIME-MED-CRIT-NAT-2004-001` | 2004 | pruebas de ácidos nucleicos en donantes | riesgo residual | `SRC-MED-CRIT-STRAMER-2004` | A publicación | AUDITADO |
+| `TIME-MED-CRIT-ELY-2004-001` | 2004 | delirio y mortalidad en ventilados | daño nuevo medido | `SRC-MED-CRIT-ELY-2004` | A cohorte | AUDITADO |
+| `TIME-MED-CRIT-PACMAN-2005-001` | 2005 | ensayo PAC-Man | catéter sin beneficio | `SRC-MED-CRIT-HARVEY-2005` | A ensayo | AUDITADO |
+| `TIME-MED-CRIT-MACKENZIE-2006-001` | 2006 | evaluación nacional de centros de trauma | menor mortalidad ajustada | `SRC-MED-CRIT-MACKENZIE-2006` | A cohorte | AUDITADO |
+| `TIME-MED-CRIT-BORGMAN-SNYDER-2007-001` | 2007–2009 | asociación militar del plasma y reanálisis por tiempo | sesgo de supervivencia | `SRC-MED-CRIT-BORGMAN-2007`, `SRC-MED-CRIT-SNYDER-2009` | A publicación | AUDITADO |
+| `TIME-MED-CRIT-NICE-SUGAR-2009-001` | 2009 | ensayo NICE-SUGAR | reversión del control estrecho | `SRC-MED-CRIT-NICE-SUGAR-2009` | A ensayo | AUDITADO |
+| `TIME-MED-CRIT-PICS-2012-001` | 2012 | término síndrome post-cuidados intensivos | daño nombrado | `SRC-MED-CRIT-NEEDHAM-2012` | A documental | AUDITADO |
+| `TIME-MED-CRIT-EGDT-TRIALS-2014-001` | 2014–2017 | ProCESS, ARISE, ProMISe y PRISM; PROPPR | reversión y delimitación | `SRC-MED-CRIT-PROCESS-2014`, `SRC-MED-CRIT-ARISE-2014`, `SRC-MED-CRIT-PROMISE-2015`, `SRC-MED-CRIT-PRISM-2017`, `SRC-MED-CRIT-HOLCOMB-2015` | A ensayos | AUDITADO |
+| `TIME-MED-CRIT-IBI-2024-001` | 20 may. 2024 | informe final de la Infected Blood Inquiry | recuento y juicio de evitabilidad | `SRC-MED-CRIT-IBI-2024` | A documental/B-COND | AUDITADO |
+
+## MED-027 — Inmunología y trasplante
+
+| ID | Fecha/rango | Evento | Producto | Fuentes | Confianza | Estado |
+|---|---|---|---|---|---|---|
+| `TIME-MED-GRAFT-BEHRING-1890-001` | 1890 | Behring y Kitasato: antitoxina tetánica | protección por suero | `SRC-MED-GRAFT-KANTHA-1991` | A/B histórico | AUDITADO |
+| `TIME-MED-GRAFT-ANAPHYLAXIS-1902-001` | c. 1902 | Portier y Richet describen la anafilaxia | especificidad que daña | `SRC-MED-GRAFT-RING-2010` | A/B histórico | AUDITADO |
+| `TIME-MED-GRAFT-NOBEL-1908-001` | 1908 | Nobel compartido por Metchnikoff y Ehrlich | dos mecanismos reconocidos | `SRC-MED-GRAFT-KAUFMANN-2008` | A histórico | AUDITADO |
+| `TIME-MED-GRAFT-VORONOY-1933-001` | 3 abr. 1933 | Voronoy: primer alotrasplante renal humano conocido | caso fallido | `SRC-MED-GRAFT-MATEVOSSIAN-2009` | B histórico | AUDITADO |
+| `TIME-MED-GRAFT-GIBSON-MEDAWAR-1943-001` | 1943 | Gibson y Medawar: homoinjertos de piel en quemados | caso clínico | `SRC-MED-GRAFT-GIBSON-MEDAWAR-1943` | A publicación | AUDITADO |
+| `TIME-MED-GRAFT-OWEN-1945-001` | 1945 | Owen: quimeras sanguíneas en terneros gemelos | observación genética | `SRC-MED-GRAFT-OWEN-1945` | A publicación | AUDITADO |
+| `TIME-MED-GRAFT-BILLINGHAM-1953-001` | 1953 | tolerancia activamente adquirida en ratones | mecanismo experimental | `SRC-MED-GRAFT-BILLINGHAM-1953` | A publicación | AUDITADO |
+| `TIME-MED-GRAFT-TWINS-1954-001` | 23 dic. 1954 | trasplante renal entre gemelos idénticos en Boston | factibilidad técnica | `SRC-MED-GRAFT-MERRILL-1956`, `SRC-MED-GRAFT-HARVARD-GAZETTE-2011` | A publicación | AUDITADO |
+| `TIME-MED-GRAFT-HUME-1955-001` | 1955 | nueve homotrasplantes renales en receptores no modificados | serie fallida | `SRC-MED-GRAFT-HUME-1955` | A publicación | AUDITADO |
+| `TIME-MED-GRAFT-JERNE-1955-001` | 1955 | teoría de selección natural de anticuerpos | teoría | `SRC-MED-GRAFT-JERNE-1955` | A publicación | AUDITADO |
+| `TIME-MED-GRAFT-BURNET-1957-001` | 1957 | selección clonal | teoría | `SRC-MED-GRAFT-BURNET-1957`, `SRC-MED-GRAFT-SILVERSTEIN-2002` | A publicación | AUDITADO |
+| `TIME-MED-GRAFT-HLA-1958-001` | 1958 | primer aloantígeno leucocitario humano | serología | `SRC-MED-GRAFT-THORSBY-2009` | A/B histórico | AUDITADO |
+| `TIME-MED-GRAFT-IRRADIATION-1959-001` | 1959–1962 | receptores irradiados en Boston | serie modificada | `SRC-MED-GRAFT-MURRAY-1962` | A publicación | AUDITADO |
+| `TIME-MED-GRAFT-SCHWARTZ-1959-001` | 1959 | tolerancia inducida por 6-mercaptopurina en conejos | experimento animal | `SRC-MED-GRAFT-SCHWARTZ-1959` | A publicación | AUDITADO |
+| `TIME-MED-GRAFT-CALNE-1960-001` | 1960 | 6-mercaptopurina y rechazo renal en perros | experimento animal | `SRC-MED-GRAFT-CALNE-1960` | A publicación | AUDITADO |
+| `TIME-MED-GRAFT-AZATHIOPRINE-1963-001` | 1963 | supervivencia prolongada con inmunosupresión farmacológica | serie | `SRC-MED-GRAFT-MURRAY-1963` | A publicación | AUDITADO |
+| `TIME-MED-GRAFT-TERASAKI-1964-001` | 1964 | prueba de microgotas de citotoxicidad | técnica | `SRC-MED-GRAFT-TERASAKI-1964` | A publicación | AUDITADO |
+| `TIME-MED-GRAFT-KISSMEYER-1966-001` | 1966 | rechazo hiperagudo por anticuerpos preformados | casos | `SRC-MED-GRAFT-KISSMEYER-1966` | A publicación | AUDITADO |
+| `TIME-MED-GRAFT-BARNARD-1967-001` | 3 dic. 1967 | primer trasplante cardíaco humano | caso | `SRC-MED-GRAFT-BRINK-HASSOULAS-2009` | B histórico | AUDITADO |
+| `TIME-MED-GRAFT-HEART-WAVE-1968-001` | 1968–1970 | 102, 48 y 16 trasplantes cardíacos; 11 % a dos años | serie mundial | `SRC-MED-GRAFT-BRINK-HASSOULAS-2009` | B histórico | AUDITADO |
+| `TIME-MED-GRAFT-HARVARD-1968-001` | 1968 | Comité Ad Hoc de Harvard: coma irreversible | regla clínica | `SRC-MED-GRAFT-HARVARD-1968`, `SRC-MED-GRAFT-BELKIN-2003` | A documental | AUDITADO |
+| `TIME-MED-GRAFT-CROSSMATCH-1969-001` | 1969 | Patel y Terasaki: prueba cruzada y fracaso inmediato | comparación por prueba | `SRC-MED-GRAFT-PATEL-TERASAKI-1969` | A publicación | AUDITADO |
+| `TIME-MED-GRAFT-BOREL-1976-001` | 1976 | efectos biológicos de la ciclosporina A | experimento animal | `SRC-MED-GRAFT-BOREL-1976` | A publicación | AUDITADO |
+| `TIME-MED-GRAFT-CALNE-1978-001` | 1978 | ciclosporina en siete receptores renales | serie | `SRC-MED-GRAFT-CALNE-1978` | A publicación | AUDITADO |
+| `TIME-MED-GRAFT-CYCLOSPORIN-RCT-1983-001` | 1983 | ensayos aleatorizados canadiense y europeo de ciclosporina | comparación aleatorizada | `SRC-MED-GRAFT-CMTSG-1983`, `SRC-MED-GRAFT-EMTG-1983` | A publicación | AUDITADO |
+| `TIME-MED-GRAFT-STARZL-1987-001` | 1986–1987 | sistema de puntos de Pittsburgh | regla de asignación | `SRC-MED-GRAFT-STARZL-1987` | A publicación | AUDITADO |
+| `TIME-MED-GRAFT-FK506-1987-001` | 1987 | aislamiento del FK-506 | sustancia | `SRC-MED-GRAFT-KINO-1987` | A publicación | AUDITADO |
+| `TIME-MED-GRAFT-IRAN-1988-001` | 1988 | programa iraní de donación renal compensada | política | `SRC-MED-GRAFT-GHODS-2006` | B autoinforme | AUDITADO |
+| `TIME-MED-GRAFT-FK506-1989-001` | 1989 | FK-506 en 14 receptores hepáticos | serie de rescate | `SRC-MED-GRAFT-STARZL-1989` | A publicación | AUDITADO |
+| `TIME-MED-GRAFT-CYCLOSPORIN-CREDIT-1996-001` | 1996–2001 | disputa sobre el crédito de la ciclosporina | historiografía | `SRC-MED-GRAFT-STAHELIN-1996`, `SRC-MED-GRAFT-HEUSLER-2001` | A/B historiográfico | AUDITADO |
+| `TIME-MED-GRAFT-SHEWMON-1998-001` | 1998 | casos de muerte encefálica con supervivencia prolongada | crítica empírica | `SRC-MED-GRAFT-SHEWMON-1998` | A publicación | AUDITADO |
+| `TIME-MED-GRAFT-WOLFE-1999-001` | 1999 | mortalidad en diálisis, en lista y tras el trasplante | registro con comparador | `SRC-MED-GRAFT-WOLFE-1999` | A publicación | AUDITADO |
+| `TIME-MED-GRAFT-HARIHARAN-2000-001` | 2000 | vida media del injerto proyectada de 13.8 años | registro y proyección | `SRC-MED-GRAFT-HARIHARAN-2000` | A publicación | AUDITADO |
+| `TIME-MED-GRAFT-MELD-2001-001` | 2001–2003 | MELD y asignación hepática por gravedad | modelo pronóstico | `SRC-MED-GRAFT-KAMATH-2001`, `SRC-MED-GRAFT-WIESNER-2003` | A publicación | AUDITADO |
+| `TIME-MED-GRAFT-GOYAL-2002-001` | 2001–2002 | encuesta a 305 vendedores de riñón en Chennai | encuesta | `SRC-MED-GRAFT-GOYAL-2002` | A publicación | AUDITADO |
+| `TIME-MED-GRAFT-WIJDICKS-2002-001` | 2002 | criterios de muerte encefálica en 80 países | revisión de guías | `SRC-MED-GRAFT-WIJDICKS-2002` | A publicación | AUDITADO |
+| `TIME-MED-GRAFT-MEIER-KRIESCHE-2004-001` | 2004 | menos rechazo agudo sin mejor supervivencia | registro | `SRC-MED-GRAFT-MEIER-KRIESCHE-2004` | A publicación | AUDITADO |
+| `TIME-MED-GRAFT-ISTANBUL-2008-001` | 30 abr.–2 may. 2008 | Declaración de Estambul | norma profesional | `SRC-MED-GRAFT-ISTANBUL-2008` | A documental | AUDITADO |
+| `TIME-MED-GRAFT-HUANG-2008-001` | 2008 | funcionarios chinos sobre órganos de presos ejecutados | admisión oficial | `SRC-MED-GRAFT-HUANG-2008` | A publicación/B cifra | AUDITADO |
+| `TIME-MED-GRAFT-LAMB-2011-001` | 2011 | vida media observada del injerto de 8.8 años (2005) | registro | `SRC-MED-GRAFT-LAMB-2011` | A publicación | AUDITADO |
+| `TIME-MED-GRAFT-KAS-2014-001` | 2013–2014 | política renal con KDPI y su simulación | regla y simulación | `SRC-MED-GRAFT-ISRANI-2014` | B-COND simulación | AUDITADO |
+| `TIME-MED-GRAFT-CHINA-2015-001` | 1 ene. 2015 | donación voluntaria como fuente única anunciada en China | declaración oficial | `SRC-MED-GRAFT-ROBERTSON-2019` | A declaración oficial | AUDITADO |
+| `TIME-MED-GRAFT-ROGERS-2019-001` | 2019 | revisión de 445 artículos chinos sin declaración de procedencia | revisión bibliográfica | `SRC-MED-GRAFT-ROGERS-2019` | A publicación | AUDITADO |
+| `TIME-MED-GRAFT-RETRACTIONS-2019-001` | ago. 2019 | quince retractaciones en *PLOS ONE* y *Transplantation* | corrección editorial | `SRC-MED-GRAFT-RETRACTION-WATCH-2019` | A/B periodístico | AUDITADO |
+| `TIME-MED-GRAFT-ROBERTSON-2019-001` | 2019 | datos oficiales chinos ajustados a una fórmula | análisis forense | `SRC-MED-GRAFT-ROBERTSON-2019` | B-COND forense | AUDITADO |
+| `TIME-MED-GRAFT-CHINA-TRIBUNAL-2019-001` | 17 jun. 2019 | dictamen del China Tribunal | dictamen no gubernamental | `SRC-MED-GRAFT-CHINA-TRIBUNAL-2019` | B dictamen | AUDITADO |
+| `TIME-MED-GRAFT-GREER-2020-001` | 2020 | World Brain Death Project | consenso | `SRC-MED-GRAFT-GREER-2020` | A publicación | AUDITADO |
+| `TIME-MED-GRAFT-ROBERTSON-LAVEE-2022-001` | 2022 | 71 artículos con muerte encefálica imposible | análisis textual | `SRC-MED-GRAFT-ROBERTSON-LAVEE-2022` | B-COND forense | AUDITADO |
+| `TIME-MED-GRAFT-XENO-DECEDENT-2022-001` | 2022 | riñones de cerdo en dos receptores en muerte encefálica | modelo humano no vivo | `SRC-MED-GRAFT-MONTGOMERY-2022` | A publicación | AUDITADO |
+| `TIME-MED-GRAFT-XENO-HEART-2022-001` | 7 ene.–mar. 2022 | primer corazón de cerdo en un receptor vivo | caso | `SRC-MED-GRAFT-GRIFFITH-2022`, `SRC-MED-GRAFT-MOHIUDDIN-2023` | A publicación | AUDITADO |
+| `TIME-MED-GRAFT-XENO-HEART-2023-001` | 20 sep.–30 oct. 2023 | segundo corazón de cerdo | caso | `SRC-MED-GRAFT-UMSOM-2023` | B comunicado | AUDITADO |
+| `TIME-MED-GRAFT-XENO-KIDNEY-2024-001` | mar.–may. 2024 | primer riñón de cerdo en un receptor vivo | caso | `SRC-MED-GRAFT-KAWAI-2025` | A publicación | AUDITADO |
+| `TIME-MED-GRAFT-XENO-NYU-2025-001` | 25 nov. 2024–4 abr. 2025 | riñón de cerdo retirado tras 130 días | caso | `SRC-MED-GRAFT-AP-LOONEY-2025` | B periodístico | AUDITADO |
+| `TIME-MED-GRAFT-XENO-LIVER-2025-001` | 2025 | hígado auxiliar de cerdo en un receptor vivo, 171 días | caso | `SRC-MED-GRAFT-ZHU-2026`, `SRC-MED-GRAFT-LADOWSKI-2026` | A/B comentario | AUDITADO |
+| `TIME-MED-GRAFT-XENO-BRIDGE-2026-001` | 25 ene. 2025–2026 | riñón de cerdo como puente al aloinjerto | caso | `SRC-MED-GRAFT-RIELLA-2026` | A publicación | AUDITADO |
+| `TIME-MED-GRAFT-XENO-YEAR-2026-001` | 22 nov. 2025–23 nov. 2026 | receptora sin diálisis más de un año | comunicado | `SRC-MED-GRAFT-EGENESIS-2026` | B-COND comunicado | AUDITADO |

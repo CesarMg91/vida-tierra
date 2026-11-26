@@ -1690,3 +1690,72 @@ Generada por el proyecto sin modelos de imagen: `node scripts/generate-med-024-v
 ### Revisión y límites
 
 Las tres salidas se inspeccionaron completas tras rasterizar. La portada evita a propósito cápsulas, frascos, jeringas, placas de Petri reconocibles, bacterias dibujadas o cuerpos: no estetiza el fármaco ni sugiere una sustancia o un uso. Los SVG se construyeron a `1600 × 900` (diagramas) y `1672 × 941` (portada), incluyen `title`, `desc` y tipografía de reserva. Ninguno acepta datos personales, calcula riesgos, recomienda o indica dosis.
+
+## 88. MED-025 — Una imagen más nítida no demuestra una enfermedad más frecuente por sí sola
+
+![Portada editorial de MED-025](assets/visuales/hero-med-025-imagen-laboratorio-clasificacion.png)
+
+![Cadena desde la señal hasta la consecuencia](assets/visuales/cadena-senal-consecuencia-med-025.svg)
+
+![Matriz de imagen, laboratorio y clasificación](assets/visuales/matriz-imagen-laboratorio-med-025.svg)
+
+| Archivo | Tipo | Procedencia | Qué representa | Límite obligatorio |
+|---|---|---|---|---|
+| `hero-med-025-imagen-laboratorio-clasificacion.png` | portada editorial generativa | rasterizado con `sharp` de `hero-med-025-imagen-laboratorio-clasificacion.svg` mediante `node scripts/generate-med-025-visuals.mjs --png`, 2026-11-25 | bandas de grises, un continuo de puntos cortado por una línea discontinua y una retícula de celdas | no representa cuerpos, órganos, placas reales, aparatos, datos ni un acontecimiento real |
+| `hero-med-025-imagen-laboratorio-clasificacion.svg` | fuente generativa determinista | SVG producido por `scripts/generate-med-025-visuals.mjs` con semilla fija `25025` | misma composición en vectores | bandas, puntos, línea y celdas sin información |
+| `cadena-senal-consecuencia-med-025.svg` | diagrama epistemológico original | SVG producido por `scripts/generate-med-025-visuals.mjs`, 2026-11-25 | señal, instrumento, lectura, umbral, categoría, exactitud y consecuencia | las flechas no heredan lesión, verdad, frontera, enfermedad ni beneficio |
+| `matriz-imagen-laboratorio-med-025.svg` | matriz documental original | SVG producido por `scripts/generate-med-025-visuals.mjs`, 2026-11-25 | doce expedientes, archivos, productos y límites | las filas no forman prioridad, progreso ni ranking |
+
+### Procedencia de la portada
+
+Generada por el proyecto sin modelos de imagen: `node scripts/generate-med-025-visuals.mjs --png` escribe el SVG con semilla fija y lo rasteriza con `sharp` (ya instalado) a `1672 × 941`. Tamaño: `154127` bytes; SHA-256: `f7d9cd4b77f1f147d5b439f4f616e6737708d8db178385aaeb073730ca8fe6eb`. Dos ejecuciones consecutivas producen el mismo archivo byte a byte.
+
+### Revisión y límites
+
+Las tres salidas se inspeccionaron completas tras rasterizar. La portada evita a propósito radiografías, esqueletos, órganos, tubos de ensayo, células dibujadas, escáneres o pantallas: la línea discontinua alude a un umbral y la retícula a una clasificación sin representar ninguna prueba ni resultado. Los SVG se construyeron a `1600 × 900` (diagramas) y `1672 × 941` (portada), incluyen `title`, `desc` y tipografía de reserva. Ninguno acepta datos personales, interpreta imágenes o resultados, calcula riesgos ni indica pruebas.
+
+## 89. MED-026 — Una fisiología sostenida no demuestra por sí sola una vida salvada
+
+![Portada editorial de MED-026](assets/visuales/hero-med-026-transfusion-trauma-cuidados-criticos.png)
+
+![Cadena desde la infraestructura hasta el daño](assets/visuales/cadena-infraestructura-dano-med-026.svg)
+
+![Matriz de transfusión, trauma y cuidados críticos](assets/visuales/matriz-transfusion-trauma-criticos-med-026.svg)
+
+| Archivo | Tipo | Procedencia | Qué representa | Límite obligatorio |
+|---|---|---|---|---|
+| `hero-med-026-transfusion-trauma-cuidados-criticos.png` | portada editorial generativa | rasterizado con `sharp` de `hero-med-026-transfusion-trauma-cuidados-criticos.svg` mediante `node scripts/generate-med-026-visuals.mjs --png`, 2026-11-25 | red de líneas que convergen hacia un trazo horizontal ondulado sostenido, con una franja de puntos dispersos a la derecha | no representa sangre, cuerpos, monitores, curvas fisiológicas reales, datos ni un acontecimiento real |
+| `hero-med-026-transfusion-trauma-cuidados-criticos.svg` | fuente generativa determinista | SVG producido por `scripts/generate-med-026-visuals.mjs` con semilla fija `26026` | misma composición en vectores | líneas y puntos sin información |
+| `cadena-infraestructura-dano-med-026.svg` | diagrama epistemológico original | SVG producido por `scripts/generate-med-026-visuals.mjs`, 2026-11-25 | infraestructura, procedimiento, serie, comparación, protocolo, resultado y daño | las flechas no heredan resultado, beneficio, efecto ni prueba |
+| `matriz-transfusion-trauma-criticos-med-026.svg` | matriz documental original | SVG producido por `scripts/generate-med-026-visuals.mjs`, 2026-11-25 | doce expedientes, archivos, productos y límites | las filas no forman prioridad, progreso ni ranking |
+
+### Procedencia de la portada
+
+Generada por el proyecto sin modelos de imagen: `node scripts/generate-med-026-visuals.mjs --png` escribe el SVG con semilla fija y lo rasteriza con `sharp` (ya instalado) a `1672 × 941`. Tamaño: `585851` bytes; SHA-256: `8075725a557583c16adcedd8d0e857a2f1b3c5375944e493fd7347aed5c0cdc2`. Dos ejecuciones consecutivas producen el mismo archivo byte a byte.
+
+### Revisión y límites
+
+Las tres salidas se inspeccionaron completas tras rasterizar. La portada evita a propósito bolsas de sangre, cuerpos, camas, monitores con trazos reconocibles, respiradores o heridas: no estetiza la urgencia ni sugiere un umbral o un tratamiento. El trazo ondulado es una línea generativa, no un electrocardiograma ni una curva de presión. Los SVG se construyeron a `1600 × 900` (diagramas) y `1672 × 941` (portada), incluyen `title`, `desc` y tipografía de reserva. Ninguno acepta datos personales, calcula riesgos, recomienda o indica dosis.
+
+## 90. MED-027 — Un injerto que funciona no demuestra un trasplante legítimo por sí solo
+
+![Portada editorial de MED-027](assets/visuales/hero-med-027-inmunologia-trasplante.png)
+
+![Cadena desde el mecanismo inmunitario hasta la ética del trasplante](assets/visuales/cadena-mecanismo-etica-med-027.svg)
+
+![Matriz de expedientes de inmunología y trasplante](assets/visuales/matriz-inmunologia-trasplante-med-027.svg)
+
+| Archivo | Tipo | Procedencia | Qué representa | Límite obligatorio |
+|---|---|---|---|---|
+| `hero-med-027-inmunologia-trasplante.png` | portada editorial generativa | rasterizado con `sharp` de `hero-med-027-inmunologia-trasplante.svg` mediante `node scripts/generate-med-027-visuals.mjs --png`, 2026-11-25 | teselación de celdas hexagonales en dos familias de color, grafo bipartito con aristas resaltadas y red de nodos enlazados sobre gradientes | no representa cuerpos, órganos, células reales, personas, datos ni un acontecimiento real |
+| `hero-med-027-inmunologia-trasplante.svg` | fuente generativa determinista | SVG producido por `scripts/generate-med-027-visuals.mjs` con semilla fija `27027` | misma composición en vectores | polígonos, puntos y líneas sin información |
+| `cadena-mecanismo-etica-med-027.svg` | diagrama epistemológico original | SVG producido por `scripts/generate-med-027-visuals.mjs`, 2026-11-25 | mecanismo → compatibilidad → procedimiento → serie → registro → asignación → ética | las flechas no heredan compatibilidad, éxito, resultado, comparación, causa, justicia ni legitimidad |
+| `matriz-inmunologia-trasplante-med-027.svg` | matriz documental original | SVG producido por `scripts/generate-med-027-visuals.mjs`, 2026-11-25 | los doce expedientes de «Qué podemos comparar» cruzados con las siete capas; cada marca indica presencia | las marcas no gradúan fuerza de evidencia ni forman prioridad, progreso o ranking |
+
+### Procedencia de la portada
+
+Generada por el proyecto sin modelos de imagen: `node scripts/generate-med-027-visuals.mjs --png` escribe el SVG con semilla fija y lo rasteriza con `sharp` (ya instalado) a `1672 × 941`. Tamaño: `601196` bytes; SHA-256: `42ff34a8c72b8a6f3e919880f66e7d3504a15740aa82b401a8db4b6196a4f297`. Dos ejecuciones consecutivas producen el mismo archivo byte a byte.
+
+### Revisión y límites
+
+Las tres salidas se inspeccionaron completas tras rasterizar. La portada evita a propósito cuerpos, órganos, siluetas, quirófanos, células dibujadas o figuras humanas: celdas, grafos y redes son geometría sin referente. Los SVG se construyeron a `1600 × 900` (diagramas) y `1672 × 941` (portada), incluyen `title`, `desc` y tipografía de reserva. Ninguno acepta datos personales, calcula compatibilidad o riesgos, recomienda, fija criterios de elegibilidad ni indica dosis.

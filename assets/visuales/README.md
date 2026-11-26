@@ -1191,3 +1191,36 @@ La portada no usa modelos de imagen: se regenera idéntica con `node scripts/gen
 | `matriz-farmacologia-resistencia-med-024.svg` | `scripts/generate-med-024-visuals.mjs` | `1600 × 900` | código fuente versionado | once expedientes y límites; no prioridad ni ranking |
 
 La portada no usa modelos de imagen: se regenera idéntica con `node scripts/generate-med-024-visuals.mjs --png`. Los SVG incluyen `title` y `desc`, preservan las siete capas y no convierten sustancia, dosis, serie, contraste, aprobación ni notificación en tratamiento, efecto, seguridad o tasa. El prompt-equivalente y los límites están en `ATLAS_VISUAL.md`, en la sección de MED-024.
+
+## MED-025 — Imagen, laboratorio y clasificación
+
+| Archivo | Origen | Dimensiones | SHA-256 / trazabilidad | Límite |
+|---|---|---:|---|---|
+| `hero-med-025-imagen-laboratorio-clasificacion.png` | rasterizado con `sharp` por `scripts/generate-med-025-visuals.mjs --png`, 2026-11-25 | `1672 × 941` | `f7d9cd4b77f1f147d5b439f4f616e6737708d8db178385aaeb073730ca8fe6eb` | composición abstracta; no cuerpos, órganos, placas reales, aparatos ni acontecimientos reales |
+| `hero-med-025-imagen-laboratorio-clasificacion.svg` | `scripts/generate-med-025-visuals.mjs`, semilla fija | `1672 × 941` | código fuente versionado | bandas, puntos, línea y celdas sin información |
+| `cadena-senal-consecuencia-med-025.svg` | `scripts/generate-med-025-visuals.mjs` | `1600 × 900` | código fuente versionado | siete capas inferenciales; no herencia automática |
+| `matriz-imagen-laboratorio-med-025.svg` | `scripts/generate-med-025-visuals.mjs` | `1600 × 900` | código fuente versionado | doce expedientes y límites; no prioridad ni ranking |
+
+La portada no usa modelos de imagen: se regenera idéntica con `node scripts/generate-med-025-visuals.mjs --png`. Los SVG incluyen `title` y `desc`, preservan las siete capas y no convierten señal, lectura, umbral, código, exactitud ni detección en lesión, hecho, frontera, enfermedad, beneficio o pronóstico. El prompt-equivalente y los límites están en `ATLAS_VISUAL.md`, en la sección de MED-025.
+
+## MED-026 — Transfusión, trauma y cuidados críticos
+
+| Archivo | Origen | Dimensiones | SHA-256 / trazabilidad | Límite |
+|---|---|---:|---|---|
+| `hero-med-026-transfusion-trauma-cuidados-criticos.png` | rasterizado con `sharp` por `scripts/generate-med-026-visuals.mjs --png`, 2026-11-25 | `1672 × 941` | `8075725a557583c16adcedd8d0e857a2f1b3c5375944e493fd7347aed5c0cdc2` | composición abstracta; no sangre, cuerpos, monitores ni acontecimientos reales |
+| `hero-med-026-transfusion-trauma-cuidados-criticos.svg` | `scripts/generate-med-026-visuals.mjs`, semilla fija | `1672 × 941` | código fuente versionado | líneas y puntos sin información |
+| `cadena-infraestructura-dano-med-026.svg` | `scripts/generate-med-026-visuals.mjs` | `1600 × 900` | código fuente versionado | siete capas inferenciales; no herencia automática |
+| `matriz-transfusion-trauma-criticos-med-026.svg` | `scripts/generate-med-026-visuals.mjs` | `1600 × 900` | código fuente versionado | doce expedientes y límites; no prioridad ni ranking |
+
+La portada no usa modelos de imagen: se regenera idéntica con `node scripts/generate-med-026-visuals.mjs --png`. Los SVG incluyen `title` y `desc`, preservan las siete capas y no convierten infraestructura, procedimiento, serie, protocolo ni meta fisiológica en resultado, beneficio, efecto o prueba. El prompt-equivalente y los límites están en `ATLAS_VISUAL.md`, en la sección de MED-026.
+
+## MED-027 — Inmunología y trasplante
+
+| Archivo | Origen | Dimensiones | SHA-256 / trazabilidad | Límite |
+|---|---|---:|---|---|
+| `hero-med-027-inmunologia-trasplante.png` | rasterizado con `sharp` por `scripts/generate-med-027-visuals.mjs --png`, 2026-11-25 | `1672 × 941` | `42ff34a8c72b8a6f3e919880f66e7d3504a15740aa82b401a8db4b6196a4f297` | composición abstracta; no cuerpos, órganos, células reales, personas ni acontecimientos reales |
+| `hero-med-027-inmunologia-trasplante.svg` | `scripts/generate-med-027-visuals.mjs`, semilla fija | `1672 × 941` | código fuente versionado | polígonos, puntos y líneas sin información |
+| `cadena-mecanismo-etica-med-027.svg` | `scripts/generate-med-027-visuals.mjs` | `1600 × 900` | código fuente versionado | siete capas inferenciales; no herencia automática |
+| `matriz-inmunologia-trasplante-med-027.svg` | `scripts/generate-med-027-visuals.mjs` | `1600 × 900` | código fuente versionado | doce expedientes y siete capas con marcas de presencia; no prioridad ni ranking |
+
+La portada no usa modelos de imagen: se regenera idéntica con `node scripts/generate-med-027-visuals.mjs --png`. Los SVG incluyen `title` y `desc`, preservan las siete capas y no convierten mecanismo, prueba cruzada, procedimiento, serie, registro ni asignación en compatibilidad, éxito, resultado, comparación, causa o justicia. El prompt-equivalente y los límites están en `ATLAS_VISUAL.md`, en la sección de MED-027.

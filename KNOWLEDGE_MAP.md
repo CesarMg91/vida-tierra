@@ -2008,3 +2008,41 @@ Véase 15_medicina/INVESTIGACION_MED_023_ENFERMERIA_SALUD_PUBLICA_PROFESIONES.md
 - `CLAIM-MED-PHARM-RESISTANCE-ECOLOGY-001` impide reducir la resistencia a un error individual.
 
 Véase 15_medicina/INVESTIGACION_MED_024_FARMACOLOGIA_ANTIBIOTICOS_RESISTENCIA.md, 22_mapas_epistemologicos/MAPA_MED_024_FARMACOLOGIA_ANTIBIOTICOS_RESISTENCIA.md, 21_cronologias/CRONOLOGIA_MED_024_FARMACOLOGIA_ANTIBIOTICOS_RESISTENCIA.md, assets/visuales/cadena-sustancia-ecologia-med-024.svg y assets/visuales/matriz-farmacologia-resistencia-med-024.svg.
+
+## MED-025 — Una imagen más nítida no demuestra una enfermedad más frecuente por sí sola
+
+- Los rayos X separan señal, instrumento, difusión, daño publicado y denominador ausente.
+- La placa y los lectores separan registro, relectura, desacuerdo, doble lectura, kappa y genealogía de la IA.
+- La química clínica separa reacción, método, institución, estandarización y verdad.
+- La hematología separa conteo manual, índice, categoría, contador electrónico y variables de más.
+- La patología separa laminilla, lector, categoría inestable y referencia que también varía.
+- La clasificación separa registro, código, revisión, umbral y prevalencia.
+- Ultrasonido y tomografía separan eco, reconstrucción, operador, premio y riesgo asociado.
+- La resonancia separa señal diferencial, codificación espacial, máquina y crédito.
+- El PSA separa marcador, especificidad, umbral continuo, diagnóstico adicional, ensayo y sobrediagnóstico.
+- La troponina separa prueba sensible, definición, conteo, gravedad y desenlace.
+- Los incidentalomas separan resolución, hallazgo, reservorio e historia natural.
+- La IA separa área bajo la curva, atajo, sesgo, detección, cáncer de intervalo, carga y mortalidad.
+- `CLAIM-MED-IMG-CHAIN-001` impide heredar automáticamente una propiedad entre señal, instrumento, lectura, umbral, categoría, exactitud y consecuencia.
+- `CLAIM-MED-IMG-TEST-CHANGES-DISEASE-001` impide leer el aumento de casos tras una prueba más sensible como más enfermedad.
+
+Véase 15_medicina/INVESTIGACION_MED_025_IMAGEN_LABORATORIO_CLASIFICACION.md, 22_mapas_epistemologicos/MAPA_MED_025_IMAGEN_LABORATORIO_CLASIFICACION.md, 21_cronologias/CRONOLOGIA_MED_025_IMAGEN_LABORATORIO_CLASIFICACION.md, assets/visuales/cadena-senal-consecuencia-med-025.svg y assets/visuales/matriz-imagen-laboratorio-med-025.svg.
+
+## MED-026 — Una fisiología sostenida no demuestra por sí sola una vida salvada
+
+- Las primeras transfusiones separan procedimiento posible, caso narrado, teoría del temperamento y regla judicial sin juicio de eficacia.
+- Blundell separa reposición entre personas, serie pequeña e incompatibilidad sin nombre.
+- ABO y citrato separan compatibilidad, anticoagulación, conservación y la afirmación de seguridad sin tasa.
+- Los bancos separan inventario, escala, regla racial y ausencia de base serológica.
+- La sangre contaminada separa señal, agente, rastreo, decisión regulatoria, recuento oficial y riesgo residual.
+- Larrey y Cannon separan regla de orden, teoría del choque y atribuciones no verificadas.
+- La guerra separa registro, asociación, sesgo de supervivencia y ensayo.
+- Los sistemas de trauma separan sistema, reloj, panel de muertes prevenibles y ajuste por propensión.
+- Copenhague separa ventilación manual, nueva fisiología, antes-después y cifras irreconciliables.
+- La monitorización separa información, decisión, desenlace y error distribuido por raza.
+- Los ensayos separan meta fisiológica, protocolo adoptado, réplica y atención usual cambiante.
+- Los daños nuevos separan lesión por el ventilador, delirio, secuelas y asociación.
+- `CLAIM-MED-CRIT-CHAIN-001` impide heredar automáticamente una propiedad entre infraestructura, procedimiento, serie, comparación, protocolo, resultado y daño.
+- `CLAIM-MED-CRIT-TARGET-NOT-OUTCOME-001` impide tratar una meta fisiológica alcanzada como una vida salvada.
+
+Véase 15_medicina/INVESTIGACION_MED_026_TRANSFUSION_TRAUMA_CUIDADOS_CRITICOS.md, 22_mapas_epistemologicos/MAPA_MED_026_TRANSFUSION_TRAUMA_CUIDADOS_CRITICOS.md, 21_cronologias/CRONOLOGIA_MED_026_TRANSFUSION_TRAUMA_CUIDADOS_CRITICOS.md, assets/visuales/cadena-infraestructura-dano-med-026.svg y assets/visuales/matriz-transfusion-trauma-criticos-med-026.svg.

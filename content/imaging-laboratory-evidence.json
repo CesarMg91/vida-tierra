@@ -1,0 +1,1420 @@
+{
+  "schemaVersion": 1,
+  "researchSlug": "15_medicina/INVESTIGACION_MED_025_IMAGEN_LABORATORIO_CLASIFICACION",
+  "cases": [
+    {
+      "id": "xray-harm-1895-1950",
+      "title": "Rayos X y daños · de Röntgen a las zapaterías",
+      "region": "Europa y Norteamérica · 1895–1950",
+      "archive": "Comunicación de Röntgen, historia de las primeras víctimas y del fluoroscopio comercial",
+      "layers": [
+        {
+          "kind": "signal",
+          "observed": "Röntgen comunicó a fines de 1895 una radiación que atravesaba la carne y oscurecía placas; Nature la publicó traducida en 1896.",
+          "inference": "Se pudo registrar una diferencia de densidad dentro del cuerpo.",
+          "limit": "Una sombra es una densidad, no una lesión.",
+          "claimIds": [
+            "CLAIM-MED-IMG-ROENTGEN-1895-001",
+            "CLAIM-MED-IMG-SIGNAL-NOT-LESION-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-IMG-XRAY-HARM-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-IMG-ROENTGEN-1896",
+            "SRC-MED-IMG-NOBEL-1901"
+          ]
+        },
+        {
+          "kind": "instrument",
+          "observed": "A unos catorce días del anuncio se tomó una radiografía dental con veinticinco minutos de exposición.",
+          "inference": "El instrumento se difundió sin licencia ni medida de dosis.",
+          "limit": "Difusión rápida no es evaluación.",
+          "claimIds": [
+            "CLAIM-MED-IMG-XRAY-DIFFUSION-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-IMG-XRAY-HARM-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-IMG-SANSARE-2011"
+          ]
+        },
+        {
+          "kind": "reading",
+          "observed": "Las primeras placas se interpretaban sin estudios de acuerdo entre lectores.",
+          "inference": "La lectura era un juicio individual sin medida de variación.",
+          "limit": "Que nadie midiera el desacuerdo no significa que no existiera.",
+          "claimIds": [
+            "CLAIM-MED-IMG-READING-NOT-FACT-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-IMG-METHOD-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-IMG-LYSEN-2023"
+          ]
+        },
+        {
+          "kind": "threshold",
+          "observed": "No había un límite de exposición: Dudley se expuso una hora y perdió el pelo veintiún días después.",
+          "inference": "El daño apareció antes que cualquier umbral de seguridad.",
+          "limit": "Un caso no fija una exposición segura ni una dañina.",
+          "claimIds": [
+            "CLAIM-MED-IMG-DERMATITIS-1896-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-IMG-XRAY-HARM-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-IMG-SANSARE-2011"
+          ]
+        },
+        {
+          "kind": "category",
+          "observed": "La radiodermatitis y los «mártires» de la radiología se volvieron categorías de daño y de memoria profesional.",
+          "inference": "El daño recibió nombre y conmemoración.",
+          "limit": "Una lista de mártires es un numerador de biografías, no una tasa.",
+          "claimIds": [
+            "CLAIM-MED-IMG-MARTYRS-NUMERATOR-001",
+            "CLAIM-MED-IMG-DALLY-1904-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-IMG-XRAY-HARM-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-IMG-SANSARE-2011"
+          ]
+        },
+        {
+          "kind": "accuracy",
+          "observed": "Codman reunió en 1902 ochenta y ocho lesiones publicadas, cincuenta y cinco de 1896.",
+          "inference": "Las lesiones publicadas bajaron de año en año.",
+          "limit": "Lesiones publicadas no son lesiones ocurridas: falta el denominador de operadores.",
+          "claimIds": [
+            "CLAIM-MED-IMG-CODMAN-1902-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-IMG-XRAY-HARM-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-IMG-SANSARE-2011"
+          ]
+        },
+        {
+          "kind": "consequence",
+          "observed": "De mediados de los años veinte a los cincuenta, las zapaterías usaron fluoroscopios para ver el pie dentro del zapato.",
+          "inference": "Un instrumento médico circuló sin pregunta diagnóstica y la confianza pública se volvió miedo.",
+          "limit": "No se estima aquí cuántas personas resultaron dañadas.",
+          "claimIds": [
+            "CLAIM-MED-IMG-SHOE-FLUOROSCOPE-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-IMG-XRAY-HARM-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-IMG-DUFFIN-HAYTER-2000"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "observer-variability-1947-1960",
+      "title": "Placa y lectores · el desacuerdo medido",
+      "region": "Estados Unidos y Europa · 1947–1960",
+      "archive": "JAMA 1947, Public Health Reports 1947, Radiology 1949 e historia de Lysen",
+      "layers": [
+        {
+          "kind": "signal",
+          "observed": "Fotofluorogramas pequeños, estereofotofluorogramas, negativos en papel y películas de celuloide del cribado de tuberculosis.",
+          "inference": "La misma sombra pulmonar podía registrarse en formatos distintos.",
+          "limit": "Formato no es diagnóstico.",
+          "claimIds": [
+            "CLAIM-MED-IMG-BIRKELO-1947-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-IMG-OBSERVER-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-IMG-BIRKELO-1947",
+            "SRC-MED-IMG-LYSEN-2023"
+          ]
+        },
+        {
+          "kind": "instrument",
+          "observed": "La placa podía guardarse y releerse; la radioscopia sobre pantalla no dejaba registro.",
+          "inference": "El registro hizo posible medir el acuerdo entre lecturas.",
+          "limit": "Sin registro no hay medición de la variación.",
+          "claimIds": [
+            "CLAIM-MED-IMG-PLATE-REREAD-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-IMG-OBSERVER-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-IMG-LYSEN-2023"
+          ]
+        },
+        {
+          "kind": "reading",
+          "observed": "Los lectores discreparon entre sí en cerca de 30 % de los casos y consigo mismos en cerca de 20 %, según la síntesis de Lysen.",
+          "inference": "La lectura experta varía de forma sustancial.",
+          "limit": "Las cifras por lector están en textos de 1947 y 1949 no leídos completos aquí.",
+          "claimIds": [
+            "CLAIM-MED-IMG-OBSERVER-VARIABILITY-001",
+            "CLAIM-MED-IMG-GARLAND-1949-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-IMG-OBSERVER-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-IMG-LYSEN-2023",
+            "SRC-MED-IMG-GARLAND-1949"
+          ]
+        },
+        {
+          "kind": "threshold",
+          "observed": "Yerushalmy trató la «ecuación personal» del lector como factor de error.",
+          "inference": "Cada lector tiene su propio corte implícito entre normal y anormal.",
+          "limit": "Un umbral implícito no se ve hasta que se compara a los lectores.",
+          "claimIds": [
+            "CLAIM-MED-IMG-YERUSHALMY-1947-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-IMG-OBSERVER-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-IMG-YERUSHALMY-1947"
+          ]
+        },
+        {
+          "kind": "category",
+          "observed": "Sensibilidad y especificidad se usaban desde inicios del siglo XX en la serología de la sífilis.",
+          "inference": "Las categorías de exactitud diagnóstica tienen una genealogía inmunológica.",
+          "limit": "Atribuirlas a Yerushalmy en 1947 es una simplificación.",
+          "claimIds": [
+            "CLAIM-MED-IMG-SENS-SPEC-ORIGIN-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-IMG-OBSERVER-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-IMG-BINNEY-2021"
+          ]
+        },
+        {
+          "kind": "accuracy",
+          "observed": "Cohen propuso en 1960 un coeficiente de acuerdo corregido por el azar.",
+          "inference": "El desacuerdo pasó de contarse a medirse con un estadístico.",
+          "limit": "Acuerdo no es exactitud: dos lectores pueden coincidir en el error.",
+          "claimIds": [
+            "CLAIM-MED-IMG-KAPPA-1960-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-IMG-OBSERVER-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-IMG-COHEN-1960"
+          ]
+        },
+        {
+          "kind": "consequence",
+          "observed": "La doble lectura redujo errores en estudios de 1950, pero su adopción fue lenta; Ledley y Lusted formalizaron en 1959 el diagnóstico para asistirlo con máquinas.",
+          "inference": "La crisis del lector abrió el camino a la decisión formal y a la asistencia computacional.",
+          "limit": "Una promesa de asistencia no es evidencia de beneficio.",
+          "claimIds": [
+            "CLAIM-MED-IMG-DUAL-READING-001",
+            "CLAIM-MED-IMG-LUSTED-LEDLEY-1959-001",
+            "CLAIM-MED-IMG-AI-GENEALOGY-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-IMG-OBSERVER-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-IMG-LYSEN-2023"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "clinical-chemistry-1919-1947",
+      "title": "Química clínica · de Folin y Wu a la encuesta de 1947",
+      "region": "Estados Unidos · 1919–1947",
+      "archive": "Journal of Biological Chemistry, Clinical Chemistry y American Journal of Clinical Pathology",
+      "layers": [
+        {
+          "kind": "signal",
+          "observed": "Reacciones de color en un filtrado de sangre para nitrógeno no proteico, urea, ácido úrico, creatinina y azúcar.",
+          "inference": "Una concentración química pudo expresarse como número.",
+          "limit": "Un color es la respuesta de un reactivo, no la sustancia misma.",
+          "claimIds": [
+            "CLAIM-MED-IMG-FOLIN-WU-1919-001",
+            "CLAIM-MED-IMG-SIGNAL-NOT-LESION-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-IMG-CHEMISTRY-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-IMG-FOLIN-WU-1919"
+          ]
+        },
+        {
+          "kind": "instrument",
+          "observed": "Folin y Wu propusieron en 1919 un sistema coordinado de métodos a partir de un mismo filtrado.",
+          "inference": "Un laboratorio podía producir varias medidas con un procedimiento común.",
+          "limit": "El artículo se describe aquí por su título y por historia secundaria.",
+          "claimIds": [
+            "CLAIM-MED-IMG-FOLIN-WU-1919-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-IMG-CHEMISTRY-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-IMG-FOLIN-WU-1919",
+            "SRC-MED-IMG-ROSENFELD-2002"
+          ]
+        },
+        {
+          "kind": "reading",
+          "observed": "Rosenfeld describe cómo el químico clínico salió del anexo de la morgue y se acercó a la cama del paciente.",
+          "inference": "El laboratorio hospitalario se volvió institución con personal y rutinas.",
+          "limit": "Institución no es exactitud.",
+          "claimIds": [
+            "CLAIM-MED-IMG-CLINCHEM-INSTITUTION-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-IMG-CHEMISTRY-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-IMG-ROSENFELD-2002"
+          ]
+        },
+        {
+          "kind": "threshold",
+          "observed": "Cada método produce su propia escala operacional.",
+          "inference": "Los valores «normales» dependen del método que los produce.",
+          "limit": "Un intervalo de un método no se traslada sin más a otro.",
+          "claimIds": [
+            "CLAIM-MED-IMG-STANDARD-NOT-TRUTH-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-IMG-CHEMISTRY-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-IMG-ROSENFELD-2002"
+          ]
+        },
+        {
+          "kind": "category",
+          "observed": "Las cifras de laboratorio se volvieron criterios para nombrar estados clínicos.",
+          "inference": "La categoría se apoyó en un número.",
+          "limit": "Un número no define por sí solo una enfermedad.",
+          "claimIds": [
+            "CLAIM-MED-IMG-THRESHOLD-CONVENTION-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-IMG-METHOD-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-IMG-ROSENFELD-2002"
+          ]
+        },
+        {
+          "kind": "accuracy",
+          "observed": "En 1947, más de cincuenta laboratorios que recibieron las mismas soluciones patrón dieron resultados distintos.",
+          "inference": "La variación entre laboratorios era sustancial.",
+          "limit": "Las cifras de la encuesta no se leyeron en el texto original.",
+          "claimIds": [
+            "CLAIM-MED-IMG-BELK-SUNDERMAN-1947-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-IMG-CHEMISTRY-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-IMG-BELK-SUNDERMAN-1947",
+            "SRC-MED-IMG-LYSEN-2023"
+          ]
+        },
+        {
+          "kind": "consequence",
+          "observed": "Rosenfeld registra que la automatización de fines del siglo XX produjo sobreabundancia, uso excesivo y mal uso de pruebas.",
+          "inference": "Más capacidad de medir no garantizó mejor uso.",
+          "limit": "La magnitud del daño por exceso de pruebas no se mide aquí.",
+          "claimIds": [
+            "CLAIM-MED-IMG-CLINCHEM-INSTITUTION-001",
+            "CLAIM-MED-IMG-STANDARD-NOT-TRUTH-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-IMG-CHEMISTRY-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-IMG-ROSENFELD-2002"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hematology-1852-2026",
+      "title": "Hematología · del conteo manual al contador electrónico",
+      "region": "Europa y Estados Unidos · 1852–2026",
+      "archive": "Revisión histórica de Lichtman y Burack en Haematologica",
+      "layers": [
+        {
+          "kind": "signal",
+          "observed": "Células sanguíneas suspendidas y contadas en una cámara.",
+          "inference": "La sangre pudo traducirse en números de células.",
+          "limit": "Un número de células no es un diagnóstico.",
+          "claimIds": [
+            "CLAIM-MED-IMG-VIERORDT-1852-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-IMG-HEMATOLOGY-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-IMG-LICHTMAN-BURACK-2025"
+          ]
+        },
+        {
+          "kind": "instrument",
+          "observed": "Vierordt contó glóbulos rojos en 1852; la cámara se perfeccionó hasta el hemocitómetro.",
+          "inference": "La precisión dependía de la cámara y del técnico.",
+          "limit": "El conteo manual era tedioso, lento y propenso a error.",
+          "claimIds": [
+            "CLAIM-MED-IMG-VIERORDT-1852-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-IMG-HEMATOLOGY-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-IMG-LICHTMAN-BURACK-2025"
+          ]
+        },
+        {
+          "kind": "reading",
+          "observed": "Técnicas contaban células durante horas bajo el microscopio.",
+          "inference": "El conteo era también una lectura humana.",
+          "limit": "Su variación no se cuantifica en la fuente consultada.",
+          "claimIds": [
+            "CLAIM-MED-IMG-READING-NOT-FACT-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-IMG-HEMATOLOGY-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-IMG-LICHTMAN-BURACK-2025"
+          ]
+        },
+        {
+          "kind": "threshold",
+          "observed": "Wintrobe mejoró en 1929 el tubo de hematocrito y definió índices de los glóbulos rojos.",
+          "inference": "Una medición continua se cortó para clasificar anemias.",
+          "limit": "El corte es una convención.",
+          "claimIds": [
+            "CLAIM-MED-IMG-WINTROBE-1929-001",
+            "CLAIM-MED-IMG-THRESHOLD-CONVENTION-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-IMG-HEMATOLOGY-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-IMG-LICHTMAN-BURACK-2025"
+          ]
+        },
+        {
+          "kind": "category",
+          "observed": "El volumen medio del glóbulo rojo organizó una clasificación de las anemias.",
+          "inference": "La medición creó categorías clínicas.",
+          "limit": "La categoría hereda los límites de la medición.",
+          "claimIds": [
+            "CLAIM-MED-IMG-WINTROBE-1929-001",
+            "CLAIM-MED-IMG-CATEGORY-MAKES-EPI-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-IMG-HEMATOLOGY-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-IMG-LICHTMAN-BURACK-2025"
+          ]
+        },
+        {
+          "kind": "accuracy",
+          "observed": "Coulter patentó el 20 de octubre de 1953 su principio; la misma revisión fecha el Model A en 1954 y en 1956; el Model S llegó en 1968.",
+          "inference": "El conteo electrónico fue más rápido y reproducible que el manual.",
+          "limit": "La fuente fecha el Model A de dos maneras.",
+          "claimIds": [
+            "CLAIM-MED-IMG-COULTER-1953-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-IMG-HEMATOLOGY-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-IMG-LICHTMAN-BURACK-2025"
+          ]
+        },
+        {
+          "kind": "consequence",
+          "observed": "Lichtman y Burack cuentan entre 12 y 24 variables en la biometría de hospitales y argumentan que más variables aumentan los falsos positivos.",
+          "inference": "Cada variable con su intervalo es otra oportunidad de un resultado «anormal» en una persona sana.",
+          "limit": "Se registra el argumento metodológico, no su propuesta clínica.",
+          "claimIds": [
+            "CLAIM-MED-IMG-CBC-VARIABLES-001",
+            "CLAIM-MED-IMG-DETECTION-NOT-PROGNOSIS-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-IMG-HEMATOLOGY-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-IMG-LICHTMAN-BURACK-2025"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pathology-concordance-2001-2015",
+      "title": "Patología · la referencia también se mide",
+      "region": "Estados Unidos · 1996–2015",
+      "archive": "Estudio ALTS (JAMA 2001) y estudio de biopsias de mama (JAMA 2015)",
+      "layers": [
+        {
+          "kind": "signal",
+          "observed": "Células y tejidos teñidos en laminillas.",
+          "inference": "La morfología permite clasificar lesiones.",
+          "limit": "Una imagen al microscopio no es la enfermedad (MED-018).",
+          "claimIds": [
+            "CLAIM-MED-IMG-SIGNAL-NOT-LESION-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-IMG-PATHOLOGY-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-IMG-ELMORE-2015"
+          ]
+        },
+        {
+          "kind": "instrument",
+          "observed": "Citologías en monocapa, biopsias, piezas de escisión y una laminilla por caso de mama.",
+          "inference": "El material condiciona lo que se puede leer.",
+          "limit": "Una laminilla no es la lesión completa.",
+          "claimIds": [
+            "CLAIM-MED-IMG-PATH-CONCORDANCE-2015-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-IMG-PATHOLOGY-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-IMG-ELMORE-2015",
+            "SRC-MED-IMG-STOLER-2001"
+          ]
+        },
+        {
+          "kind": "reading",
+          "observed": "En ALTS la reproducibilidad fue moderada: kappa de 0.46 en citología y biopsia y 0.49 en piezas.",
+          "inference": "Patólogos bien entrenados discrepan de forma sustancial.",
+          "limit": "Kappa mide acuerdo, no verdad.",
+          "claimIds": [
+            "CLAIM-MED-IMG-CYTOLOGY-KAPPA-2001-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-IMG-PATHOLOGY-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-IMG-STOLER-2001"
+          ]
+        },
+        {
+          "kind": "threshold",
+          "observed": "Los centros clínicos dieron interpretaciones más graves que los revisores de control de calidad.",
+          "inference": "El corte entre categorías se desplaza según quién lee.",
+          "limit": "No se sabe cuál de los dos cortes es correcto sin desenlace.",
+          "claimIds": [
+            "CLAIM-MED-IMG-CYTOLOGY-KAPPA-2001-001",
+            "CLAIM-MED-IMG-THRESHOLD-CONVENTION-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-IMG-PATHOLOGY-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-IMG-STOLER-2001"
+          ]
+        },
+        {
+          "kind": "category",
+          "observed": "La concordancia fue de 96 % en carcinoma invasor y de 48 % en hiperplasia atípica.",
+          "inference": "Las categorías intermedias son las más inestables.",
+          "limit": "La inestabilidad de la categoría no se resuelve leyendo más.",
+          "claimIds": [
+            "CLAIM-MED-IMG-PATH-CONCORDANCE-2015-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-IMG-PATHOLOGY-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-IMG-ELMORE-2015"
+          ]
+        },
+        {
+          "kind": "accuracy",
+          "observed": "Frente a un consenso, 115 patólogos concordaron en 75.3 % de 6 900 interpretaciones; el panel fue unánime en 75 % de sus diagnósticos independientes.",
+          "inference": "La referencia de consenso también varía.",
+          "limit": "Una prueba juzgada contra una referencia variable hereda su error.",
+          "claimIds": [
+            "CLAIM-MED-IMG-PATH-CONCORDANCE-2015-001",
+            "CLAIM-MED-IMG-REFERENCE-IS-READING-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-IMG-PATHOLOGY-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-IMG-ELMORE-2015"
+          ]
+        },
+        {
+          "kind": "consequence",
+          "observed": "Sobreinterpretar y subinterpretar atipias cambia la categoría asignada a la persona.",
+          "inference": "El desacuerdo tiene consecuencias de clasificación.",
+          "limit": "Los autores no midieron el efecto sobre el tratamiento ni el desenlace.",
+          "claimIds": [
+            "CLAIM-MED-IMG-REFERENCE-IS-READING-001",
+            "CLAIM-MED-IMG-ACCURACY-NOT-BENEFIT-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-IMG-PATHOLOGY-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-IMG-ELMORE-2015"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "classification-1893-2022",
+      "title": "Clasificación · de Bertillon a la CIE-11 y la hipertensión de 2017",
+      "region": "Internacional · 1893–2022",
+      "archive": "Historia de la CIE, OMS y NHANES 2011–2014",
+      "layers": [
+        {
+          "kind": "signal",
+          "observed": "Certificados de defunción, diagnósticos clínicos y mediciones repetidas de presión arterial.",
+          "inference": "Hechos registrados que esperan un nombre.",
+          "limit": "Un registro no trae su categoría puesta.",
+          "claimIds": [
+            "CLAIM-MED-IMG-CODE-NOT-DISEASE-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-IMG-CLASSIFICATION-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-IMG-HIRSCH-2016"
+          ]
+        },
+        {
+          "kind": "instrument",
+          "observed": "Bertillon y su comité establecieron en 1893 la Lista Internacional de Causas de Muerte.",
+          "inference": "Una lista común permitió comparar estadísticas entre países.",
+          "limit": "Comparabilidad no es verdad de la causa.",
+          "claimIds": [
+            "CLAIM-MED-IMG-BERTILLON-1893-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-IMG-CLASSIFICATION-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-IMG-HIRSCH-2016"
+          ]
+        },
+        {
+          "kind": "reading",
+          "observed": "Codificadores asignan rúbricas según reglas que cambian con cada revisión.",
+          "inference": "El código es una lectura reglada.",
+          "limit": "La misma muerte puede recibir códigos distintos en dos revisiones.",
+          "claimIds": [
+            "CLAIM-MED-IMG-ICD-REVISIONS-001",
+            "CLAIM-MED-IMG-READING-NOT-FACT-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-IMG-CLASSIFICATION-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-IMG-HIRSCH-2016"
+          ]
+        },
+        {
+          "kind": "threshold",
+          "observed": "Con la guía ACC/AHA de 2017, la prevalencia de hipertensión en adultos de EE. UU. pasó de 31.9 % a 45.6 % con las mismas mediciones.",
+          "inference": "Mover el umbral cambió cuántos enfermos hay.",
+          "limit": "No cambió a ninguna persona: cambió la definición.",
+          "claimIds": [
+            "CLAIM-MED-IMG-HYPERTENSION-2017-001",
+            "CLAIM-MED-IMG-THRESHOLD-CONVENTION-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-IMG-CLASSIFICATION-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-IMG-MUNTNER-2018"
+          ]
+        },
+        {
+          "kind": "category",
+          "observed": "La versión clínica estadounidense pasó de unos 17 000 códigos a unos 155 000 con la CIE-10-MC en 2015; la CIE-11 entró en vigor en 2022.",
+          "inference": "Las categorías se multiplicaron y se volvieron ontología digital.",
+          "limit": "Más códigos no son más enfermedades.",
+          "claimIds": [
+            "CLAIM-MED-IMG-ICD10-CODES-001",
+            "CLAIM-MED-IMG-ICD11-2019-001",
+            "CLAIM-MED-IMG-CODE-NOT-DISEASE-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-IMG-CLASSIFICATION-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-IMG-HIRSCH-2016",
+            "SRC-MED-IMG-HARRISON-2021",
+            "SRC-MED-IMG-WHO-ICD11"
+          ]
+        },
+        {
+          "kind": "accuracy",
+          "observed": "La CIE ha sido durante más de un siglo la base de estadísticas comparables de mortalidad.",
+          "inference": "La comparabilidad depende de que la categoría se mantenga estable.",
+          "limit": "Cada revisión introduce un quiebre en las series.",
+          "claimIds": [
+            "CLAIM-MED-IMG-ICD-REVISIONS-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-IMG-CLASSIFICATION-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-IMG-WHO-ICD11",
+            "SRC-MED-IMG-HIRSCH-2016"
+          ]
+        },
+        {
+          "kind": "consequence",
+          "observed": "La proporción a la que se proponía medicación casi no cambió (34.3 % frente a 36.2 %) aunque la prevalencia subió catorce puntos.",
+          "inference": "Una categoría crea su epidemiología con consecuencias distintas de su tamaño.",
+          "limit": "Prevalencia no es carga de enfermedad ni beneficio.",
+          "claimIds": [
+            "CLAIM-MED-IMG-CATEGORY-MAKES-EPI-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-IMG-CLASSIFICATION-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-IMG-MUNTNER-2018"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ultrasound-ct-1958-2012",
+      "title": "Ultrasonido y tomografía · reconstruir y exponer",
+      "region": "Reino Unido y Estados Unidos · 1958–2012",
+      "archive": "Lancet 1958, J Appl Phys 1963, BJR 1973, Nobel 1979 y cohorte de 2012",
+      "layers": [
+        {
+          "kind": "signal",
+          "observed": "Ecos de ultrasonido pulsado; atenuación de rayos X a lo largo de líneas.",
+          "inference": "El cuerpo puede representarse por ecos o por integrales de línea.",
+          "limit": "Un eco o una atenuación no son una lesión.",
+          "claimIds": [
+            "CLAIM-MED-IMG-DONALD-1958-001",
+            "CLAIM-MED-IMG-CORMACK-1963-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-IMG-CT-US-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-IMG-DONALD-1958",
+            "SRC-MED-IMG-CORMACK-1963"
+          ]
+        },
+        {
+          "kind": "instrument",
+          "observed": "Hounsfield describió en 1973 el escáner de EMI; Ambrose publicó su aplicación clínica en el mismo número.",
+          "inference": "La reconstrucción por computadora volvió visibles cortes del cuerpo.",
+          "limit": "Instrumento nuevo no es exactitud demostrada.",
+          "claimIds": [
+            "CLAIM-MED-IMG-HOUNSFIELD-1973-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-IMG-CT-US-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-IMG-HOUNSFIELD-1973",
+            "SRC-MED-IMG-AMBROSE-1973",
+            "SRC-MED-IMG-BECKMANN-2006"
+          ]
+        },
+        {
+          "kind": "reading",
+          "observed": "La imagen de ultrasonido se produce mientras el operador mueve el transductor.",
+          "inference": "La lectura depende del operador en el momento de adquirir.",
+          "limit": "La magnitud de esa dependencia no se audita aquí.",
+          "claimIds": [
+            "CLAIM-MED-IMG-ULTRASOUND-OPERATOR-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-IMG-CT-US-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-IMG-DONALD-1958"
+          ]
+        },
+        {
+          "kind": "threshold",
+          "observed": "La tomografía expresa atenuaciones en una escala numérica que se corta para ver tejidos.",
+          "inference": "Ventanas y cortes son decisiones de presentación.",
+          "limit": "Cambiar la ventana cambia lo visible, no el cuerpo.",
+          "claimIds": [
+            "CLAIM-MED-IMG-THRESHOLD-CONVENTION-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-IMG-METHOD-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-IMG-HOUNSFIELD-1973"
+          ]
+        },
+        {
+          "kind": "category",
+          "observed": "El Nobel de 1979 premió a Cormack y Hounsfield por el desarrollo de la tomografía asistida por computadora.",
+          "inference": "Matemática e ingeniería se reconocieron como contribuciones separadas.",
+          "limit": "Un premio no evalúa usos clínicos.",
+          "claimIds": [
+            "CLAIM-MED-IMG-NOBEL-1979-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-IMG-CT-US-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-IMG-NOBEL-1979"
+          ]
+        },
+        {
+          "kind": "accuracy",
+          "observed": "No se audita aquí la exactitud diagnóstica de la tomografía en enfermedades concretas.",
+          "inference": "La exactitud depende del uso, la referencia y el espectro (MED-002).",
+          "limit": "Ausencia de auditoría no es ausencia de exactitud.",
+          "claimIds": [
+            "CLAIM-MED-IMG-ACCURACY-NOT-BENEFIT-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-IMG-METHOD-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-IMG-BECKMANN-2006"
+          ]
+        },
+        {
+          "kind": "consequence",
+          "observed": "En 178 604 expuestos en la infancia, la dosis acumulada se asoció con leucemia y tumores cerebrales; un caso adicional de cada tipo por diez mil tomografías de cráneo en diez años.",
+          "inference": "La radiación diagnóstica tiene un riesgo pequeño asociado.",
+          "limit": "Es observacional: la indicación de la tomografía puede confundir.",
+          "claimIds": [
+            "CLAIM-MED-IMG-CT-RADIATION-2012-001",
+            "CLAIM-MED-IMG-CT-RADIATION-LIMIT-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-IMG-CT-US-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-IMG-PEARCE-2012"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mri-1971-2007",
+      "title": "Resonancia magnética · señal, imagen y crédito",
+      "region": "Estados Unidos y Reino Unido · 1971–2007",
+      "archive": "Science 1971, Nature 1973, J Phys C 1973, Nobel 2003 y J Urol 2007",
+      "layers": [
+        {
+          "kind": "signal",
+          "observed": "Damadian midió en 1971 tiempos de relajación T1 y T2 fuera del intervalo normal en dos tumores de rata.",
+          "inference": "Los tejidos difieren en su señal de resonancia.",
+          "limit": "Una señal diferencial en muestras no es una imagen ni un diagnóstico.",
+          "claimIds": [
+            "CLAIM-MED-IMG-DAMADIAN-1971-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-IMG-MRI-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-IMG-DAMADIAN-1971"
+          ]
+        },
+        {
+          "kind": "instrument",
+          "observed": "Lauterbur publicó en 1973 imágenes por interacciones locales inducidas con gradientes de campo.",
+          "inference": "La señal pudo localizarse en el espacio.",
+          "limit": "Una imagen de prueba no es un uso clínico.",
+          "claimIds": [
+            "CLAIM-MED-IMG-LAUTERBUR-1973-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-IMG-MRI-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-IMG-LAUTERBUR-1973"
+          ]
+        },
+        {
+          "kind": "reading",
+          "observed": "Mansfield y Grannell analizaron en 1973 la «difracción» de la resonancia en sólidos.",
+          "inference": "La matemática de la adquisición hizo posible leer imágenes rápido.",
+          "limit": "Velocidad no es exactitud.",
+          "claimIds": [
+            "CLAIM-MED-IMG-MANSFIELD-1973-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-IMG-MRI-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-IMG-MANSFIELD-1973"
+          ]
+        },
+        {
+          "kind": "threshold",
+          "observed": "Damadian propuso discriminar tumores de tejido normal por su relajación.",
+          "inference": "Un corte en un tiempo de relajación prometía clasificar tejidos.",
+          "limit": "El corte en ratas no se traslada sin más a personas.",
+          "claimIds": [
+            "CLAIM-MED-IMG-DAMADIAN-1971-001",
+            "CLAIM-MED-IMG-THRESHOLD-CONVENTION-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-IMG-MRI-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-IMG-DAMADIAN-1971"
+          ]
+        },
+        {
+          "kind": "category",
+          "observed": "El Nobel de 2003 fue para Lauterbur y Mansfield por sus descubrimientos sobre la resonancia magnética de imagen.",
+          "inference": "El premio reconoció la codificación espacial.",
+          "limit": "El premio no resuelve quién inventó la resonancia.",
+          "claimIds": [
+            "CLAIM-MED-IMG-NOBEL-2003-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-IMG-MRI-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-IMG-NOBEL-2003"
+          ]
+        },
+        {
+          "kind": "accuracy",
+          "observed": "Macchia y colaboradores reconstruyen la propuesta de 1969, la patente concedida en 1974 y el primer estudio de un cuerpo humano en 1977.",
+          "inference": "Damadian tiene una prioridad documentada en la señal y la máquina.",
+          "limit": "La prioridad depende de qué se premie; las deliberaciones siguen cerradas.",
+          "claimIds": [
+            "CLAIM-MED-IMG-DAMADIAN-DISPUTE-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-IMG-MRI-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-IMG-MACCHIA-2007"
+          ]
+        },
+        {
+          "kind": "consequence",
+          "observed": "La disputa de crédito persiste dos décadas después.",
+          "inference": "Señal, imagen y máquina tienen autores distintos.",
+          "limit": "Ningún reparto de crédito mide el beneficio clínico de la resonancia.",
+          "claimIds": [
+            "CLAIM-MED-IMG-DAMADIAN-DISPUTE-001",
+            "CLAIM-MED-IMG-NONRANKING-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-IMG-MRI-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-IMG-MACCHIA-2007"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "psa-1987-2010",
+      "title": "PSA · marcador sensible y sobrediagnóstico",
+      "region": "Estados Unidos y Europa · 1987–2010",
+      "archive": "NEJM 1987, 2004 y 2009; J Urol 2004; JNCI 2009 y 2010",
+      "layers": [
+        {
+          "kind": "signal",
+          "observed": "Concentración sérica del antígeno prostático específico medida por radioinmunoanálisis.",
+          "inference": "Una proteína de la próstata puede medirse en sangre.",
+          "limit": "La señal procede de tejido benigno y maligno.",
+          "claimIds": [
+            "CLAIM-MED-IMG-STAMEY-1987-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-IMG-PSA-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-IMG-STAMEY-1987"
+          ]
+        },
+        {
+          "kind": "instrument",
+          "observed": "Stamey midió PSA y fosfatasa ácida en 2 200 sueros de 699 pacientes.",
+          "inference": "El PSA era más sensible que la fosfatasa.",
+          "limit": "Estaba elevado en 86 % de los pacientes con hiperplasia benigna: no era específico.",
+          "claimIds": [
+            "CLAIM-MED-IMG-STAMEY-1987-001",
+            "CLAIM-MED-IMG-PSA-NOT-SPECIFIC-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-IMG-PSA-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-IMG-STAMEY-1987"
+          ]
+        },
+        {
+          "kind": "reading",
+          "observed": "En 1 317 prostatectomías de Stanford, el PSA de los últimos cinco años sólo se relacionaba con el tamaño de la próstata.",
+          "inference": "El marcador dejó de informar sobre el cáncer en esa población.",
+          "limit": "Una serie de un centro y un patólogo.",
+          "claimIds": [
+            "CLAIM-MED-IMG-STAMEY-2004-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-IMG-PSA-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-IMG-STAMEY-2004"
+          ]
+        },
+        {
+          "kind": "threshold",
+          "observed": "Entre 2 950 hombres que nunca superaron 4.0 ng por mililitro, 15.2 % tenía cáncer en la biopsia, de 6.6 % a 26.9 % según el estrato.",
+          "inference": "El riesgo crece en un continuo sin frontera natural.",
+          "limit": "Cualquier corte intercambia falsos negativos por biopsias.",
+          "claimIds": [
+            "CLAIM-MED-IMG-THOMPSON-2004-001",
+            "CLAIM-MED-IMG-PSA-THRESHOLD-CONTINUUM-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-IMG-PSA-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-IMG-THOMPSON-2004"
+          ]
+        },
+        {
+          "kind": "category",
+          "observed": "Entre 1986 y 2005 se diagnosticaron en EE. UU. 1 305 600 hombres adicionales con cáncer de próstata.",
+          "inference": "El cribado creó una población nueva de diagnosticados.",
+          "limit": "Más diagnósticos no son más enfermedad letal.",
+          "claimIds": [
+            "CLAIM-MED-IMG-WELCH-ALBERTSEN-2009-001",
+            "CLAIM-MED-IMG-CATEGORY-MAKES-EPI-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-IMG-PSA-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-IMG-WELCH-ALBERTSEN-2009"
+          ]
+        },
+        {
+          "kind": "accuracy",
+          "observed": "ERSPC: razón de tasas de 0.80 (0.65–0.98); PLCO: sin diferencia significativa con un control contaminado.",
+          "inference": "La exactitud del PSA no basta para predecir el efecto del cribado.",
+          "limit": "Los ensayos difieren en población, contaminación y seguimiento.",
+          "claimIds": [
+            "CLAIM-MED-IMG-ERSPC-2009-001",
+            "CLAIM-MED-IMG-PLCO-2009-001",
+            "CLAIM-MED-IMG-ACCURACY-NOT-BENEFIT-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-IMG-PSA-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-IMG-SCHRODER-2009",
+            "SRC-MED-IMG-ANDRIOLE-2009"
+          ]
+        },
+        {
+          "kind": "consequence",
+          "observed": "Welch y Black estiman que alrededor de 60 % de los cánceres detectados por PSA son sobrediagnóstico.",
+          "inference": "Detectar más llenó los registros de cánceres que no habrían dañado.",
+          "limit": "La cifra es un modelo a partir de ensayos.",
+          "claimIds": [
+            "CLAIM-MED-IMG-OVERDIAGNOSIS-2010-001",
+            "CLAIM-MED-IMG-DETECTION-NOT-PROGNOSIS-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-IMG-PSA-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-IMG-WELCH-BLACK-2010"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "troponin-2000-2018",
+      "title": "Troponina · una prueba más sensible cambia la enfermedad",
+      "region": "Europa y Estados Unidos · 2000–2018",
+      "archive": "JACC 2000, Circulation 2006 y 2018, The Lancet 2018",
+      "layers": [
+        {
+          "kind": "signal",
+          "observed": "Proteínas del músculo cardíaco liberadas a la sangre.",
+          "inference": "Una lesión del miocardio deja una señal química.",
+          "limit": "Lesión miocárdica no es lo mismo que infarto.",
+          "claimIds": [
+            "CLAIM-MED-IMG-FOURTH-DEFINITION-2018-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-IMG-TROPONIN-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-IMG-THYGESEN-2018"
+          ]
+        },
+        {
+          "kind": "instrument",
+          "observed": "Análisis de troponina cada vez más sensibles, hasta los de alta sensibilidad.",
+          "inference": "Se detectan concentraciones cada vez menores.",
+          "limit": "Más sensibilidad no implica más especificidad para infarto.",
+          "claimIds": [
+            "CLAIM-MED-IMG-HIGHSTEACS-2018-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-IMG-TROPONIN-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-IMG-SHAH-2018"
+          ]
+        },
+        {
+          "kind": "reading",
+          "observed": "En Olmsted, los clínicos mencionaron infarto en 42 % de los casos sólo por troponina y en 74 % de los que cumplían los criterios previos.",
+          "inference": "La aceptación clínica de la nueva definición fue incompleta.",
+          "limit": "Los diagnósticos de alta subestiman la nueva categoría.",
+          "claimIds": [
+            "CLAIM-MED-IMG-ROGER-2006-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-IMG-TROPONIN-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-IMG-ROGER-2006"
+          ]
+        },
+        {
+          "kind": "threshold",
+          "observed": "La definición usa el percentil 99 de una población de referencia; con valores únicos, el aumento de infartos variaba según el umbral.",
+          "inference": "El número de infartos depende del corte.",
+          "limit": "El percentil 99 es una convención estadística.",
+          "claimIds": [
+            "CLAIM-MED-IMG-FOURTH-DEFINITION-2018-001",
+            "CLAIM-MED-IMG-THRESHOLD-CONVENTION-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-IMG-TROPONIN-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-IMG-THYGESEN-2018",
+            "SRC-MED-IMG-ROGER-2006"
+          ]
+        },
+        {
+          "kind": "category",
+          "observed": "El comité ESC/ACC redefinió en 2000 el infarto con el ascenso y descenso de la troponina.",
+          "inference": "La categoría «infarto» cambió de contenido.",
+          "limit": "Las series antes y después de 2000 no miden lo mismo.",
+          "claimIds": [
+            "CLAIM-MED-IMG-MI-REDEFINED-2000-001",
+            "CLAIM-MED-IMG-TEST-CHANGES-DISEASE-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-IMG-TROPONIN-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-IMG-ALPERT-2000"
+          ]
+        },
+        {
+          "kind": "accuracy",
+          "observed": "Con troponina se identificaron 538 infartos frente a 327 con creatina cinasa: 74 % más, con menos elevación del ST y mejor supervivencia.",
+          "inference": "La prueba más sensible encontró más infartos y más leves.",
+          "limit": "El aumento refleja la prueba, no la población.",
+          "claimIds": [
+            "CLAIM-MED-IMG-ROGER-2006-001",
+            "CLAIM-MED-IMG-TEST-CHANGES-DISEASE-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-IMG-TROPONIN-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-IMG-ROGER-2006"
+          ]
+        },
+        {
+          "kind": "consequence",
+          "observed": "High-STEACS reclasificó a 17 % y no redujo infarto ni muerte cardiovascular al año (razón de momios 1.10; 0.75–1.61).",
+          "inference": "Detectar más no mejoró el desenlace medido.",
+          "limit": "Un ensayo por conglomerados en Escocia, con un año de seguimiento.",
+          "claimIds": [
+            "CLAIM-MED-IMG-HIGHSTEACS-2018-001",
+            "CLAIM-MED-IMG-DETECTION-NOT-PROGNOSIS-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-IMG-TROPONIN-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-IMG-SHAH-2018"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "incidentalomas-2002-2016",
+      "title": "Incidentalomas · la resolución revela un reservorio",
+      "region": "Estados Unidos, Países Bajos y Corea del Sur · 2002–2016",
+      "archive": "Consenso de los NIH, estudio de Rotterdam y estudio ecológico coreano",
+      "layers": [
+        {
+          "kind": "signal",
+          "observed": "Masas, infartos silenciosos, aneurismas y nódulos vistos en imágenes pedidas por otra razón.",
+          "inference": "La imagen muestra lo que nadie buscaba.",
+          "limit": "Ver algo no es saber qué hará.",
+          "claimIds": [
+            "CLAIM-MED-IMG-INCIDENTAL-RESERVOIR-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-IMG-INCIDENTAL-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-IMG-VERNOOIJ-2007"
+          ]
+        },
+        {
+          "kind": "instrument",
+          "observed": "La mejora de la imagen abdominal aumentó la detección de masas suprarrenales.",
+          "inference": "La resolución del instrumento fija el tamaño del reservorio visible.",
+          "limit": "El instrumento no informa la historia natural.",
+          "claimIds": [
+            "CLAIM-MED-IMG-ADRENAL-2003-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-IMG-INCIDENTAL-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-IMG-GRUMBACH-2003"
+          ]
+        },
+        {
+          "kind": "reading",
+          "observed": "En Rotterdam, dos lectores y dos neurorradiólogos revisaron 2 000 resonancias; los diagnósticos no tuvieron confirmación histológica.",
+          "inference": "Los hallazgos son lecturas de imagen.",
+          "limit": "Sin histología, la categoría depende del lector.",
+          "claimIds": [
+            "CLAIM-MED-IMG-VERNOOIJ-2007-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-IMG-INCIDENTAL-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-IMG-VERNOOIJ-2007"
+          ]
+        },
+        {
+          "kind": "threshold",
+          "observed": "La prevalencia de masas suprarrenales e infartos silenciosos crece con la edad.",
+          "inference": "Cuanto mayor la población, más hallazgos.",
+          "limit": "Un hallazgo frecuente con la edad no es necesariamente enfermedad.",
+          "claimIds": [
+            "CLAIM-MED-IMG-ADRENAL-2003-001",
+            "CLAIM-MED-IMG-VERNOOIJ-2007-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-IMG-INCIDENTAL-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-IMG-GRUMBACH-2003",
+            "SRC-MED-IMG-VERNOOIJ-2007"
+          ]
+        },
+        {
+          "kind": "category",
+          "observed": "«Incidentaloma» nombra un hallazgo por no haber sido buscado.",
+          "inference": "La categoría describe al instrumento, no al órgano.",
+          "limit": "El nombre no fija pronóstico.",
+          "claimIds": [
+            "CLAIM-MED-IMG-INCIDENTAL-RESERVOIR-001",
+            "CLAIM-MED-IMG-CATEGORY-MAKES-EPI-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-IMG-INCIDENTAL-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-IMG-GRUMBACH-2003"
+          ]
+        },
+        {
+          "kind": "accuracy",
+          "observed": "En Rotterdam: 7.2 % infartos asintomáticos, 1.8 % aneurismas y 1.6 % tumores benignos.",
+          "inference": "Los hallazgos incidentales son comunes en la población general.",
+          "limit": "Prevalencia por imagen, no por enfermedad confirmada.",
+          "claimIds": [
+            "CLAIM-MED-IMG-VERNOOIJ-2007-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-IMG-INCIDENTAL-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-IMG-VERNOOIJ-2007"
+          ]
+        },
+        {
+          "kind": "consequence",
+          "observed": "En Corea, el cribado regional se correlacionó 0.77 con la incidencia de cáncer de tiroides, sólo papilar, sin asociación con la mortalidad.",
+          "inference": "El cribado creó incidencia sin mover la mortalidad.",
+          "limit": "Estudio ecológico: la asociación regional no se traslada a personas.",
+          "claimIds": [
+            "CLAIM-MED-IMG-KOREA-THYROID-2016-001",
+            "CLAIM-MED-IMG-DETECTION-NOT-PROGNOSIS-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-IMG-INCIDENTAL-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-IMG-AHN-2016"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ai-imaging-2018-2026",
+      "title": "IA en imagen · métricas, sesgos y un ensayo",
+      "region": "Internacional y Suecia · 2018–2026",
+      "archive": "Nature, BMJ, PLOS Medicine, Nature Medicine, Lancet Digital Health, Lancet Oncology y The Lancet",
+      "layers": [
+        {
+          "kind": "signal",
+          "observed": "Píxeles de radiografías y mamografías, con rastros del hospital de origen.",
+          "inference": "Un modelo aprende de todo lo que está en la imagen.",
+          "limit": "Lo aprendido puede ser el hospital, no la enfermedad.",
+          "claimIds": [
+            "CLAIM-MED-IMG-SHORTCUT-2018-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-IMG-AI-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-IMG-ZECH-2018"
+          ]
+        },
+        {
+          "kind": "instrument",
+          "observed": "Redes convolucionales entrenadas con miles de imágenes; en Zech, las redes identificaban el hospital en 99.95 % y 99.98 % de las placas.",
+          "inference": "El instrumento incorpora atajos del conjunto de datos.",
+          "limit": "Validación interna no es generalización.",
+          "claimIds": [
+            "CLAIM-MED-IMG-SHORTCUT-2018-001",
+            "CLAIM-MED-IMG-RACE-2022-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-IMG-AI-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-IMG-ZECH-2018",
+            "SRC-MED-IMG-GICHOYA-2022"
+          ]
+        },
+        {
+          "kind": "reading",
+          "observed": "En MASAI, la IA asignó cada examen a lectura simple o doble y señaló hallazgos a los radiólogos.",
+          "inference": "La lectura se volvió humana y algorítmica a la vez.",
+          "limit": "El efecto es del sistema completo, no del algoritmo solo.",
+          "claimIds": [
+            "CLAIM-MED-IMG-MASAI-2025-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-IMG-AI-TRIAL-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-IMG-LANG-2023",
+            "SRC-MED-IMG-HERNSTROM-2025"
+          ]
+        },
+        {
+          "kind": "threshold",
+          "observed": "El sistema produce un puntaje que se corta para decidir qué examen recibe una o dos lecturas.",
+          "inference": "El umbral del algoritmo fija cuántos exámenes ve un segundo lector.",
+          "limit": "Cambiar el corte cambia detección y carga.",
+          "claimIds": [
+            "CLAIM-MED-IMG-THRESHOLD-CONVENTION-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-IMG-AI-TRIAL-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-IMG-LANG-2023"
+          ]
+        },
+        {
+          "kind": "category",
+          "observed": "Clasificadores de radiografía de tórax subdiagnosticaban sistemáticamente a grupos desatendidos.",
+          "inference": "La categoría «sano» se asignó de forma desigual.",
+          "limit": "El sesgo depende de los datos y la población.",
+          "claimIds": [
+            "CLAIM-MED-IMG-UNDERDIAGNOSIS-2021-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-IMG-AI-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-IMG-SEYYED-KALANTARI-2021"
+          ]
+        },
+        {
+          "kind": "accuracy",
+          "observed": "En estudios retrospectivos, 34 de 36 sistemas fueron menos exactos que un radiólogo; 58 de 81 estudios tenían alto riesgo de sesgo.",
+          "inference": "Las promesas retrospectivas no se sostuvieron en revisiones sistemáticas.",
+          "limit": "Exactitud retrospectiva no es desempeño en la práctica.",
+          "claimIds": [
+            "CLAIM-MED-IMG-FREEMAN-2021-001",
+            "CLAIM-MED-IMG-NAGENDRAN-2020-001",
+            "CLAIM-MED-IMG-MCKINNEY-2020-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-IMG-AI-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-IMG-FREEMAN-2021",
+            "SRC-MED-IMG-NAGENDRAN-2020",
+            "SRC-MED-IMG-MCKINNEY-2020"
+          ]
+        },
+        {
+          "kind": "consequence",
+          "observed": "MASAI: cánceres de intervalo de 1.55 y 1.76 por mil, razón 0.88 (0.65–1.18), no inferior; 44.2 % menos lecturas.",
+          "inference": "La lectura apoyada por IA no fue peor en cánceres de intervalo y redujo la carga.",
+          "limit": "No demuestra menos cánceres de intervalo ni menos muertes: es no inferioridad, no un hecho sobre la mortalidad.",
+          "claimIds": [
+            "CLAIM-MED-IMG-MASAI-2026-001",
+            "CLAIM-MED-IMG-AI-METRICS-LIMIT-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-IMG-AI-TRIAL-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-IMG-GOMMERS-2026",
+            "SRC-MED-IMG-HERNSTROM-2025"
+          ]
+        }
+      ]
+    }
+  ]
+}

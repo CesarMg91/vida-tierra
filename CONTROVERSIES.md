@@ -3759,3 +3759,53 @@ Las recomendaciones de 2020 nacen en Norteamérica y priorizan la consulta forma
 | `CONT-MED-PHARM-FARM-SHARE-001` | ¿cuánto de la resistencia humana procede de la ganadería? | mucho | poco frente al uso humano y hospitalario | genómica de transmisión entre compartimentos | ABIERTA |
 | `CONT-MED-PHARM-BURDEN-2050-001` | ¿morirán 10 millones al año en 2050? | O'Neill | escenarios sin apoyo; GRAM prevé 1.91 millones atribuibles y 8.22 asociadas | modelo revisado, contrafactual e intervalos | CIFRA DE 10 MILLONES NO SUSTENTADA |
 | `CONT-MED-PHARM-FLEMING-MODEL-001` | ¿acertó Fleming sobre la causa de la resistencia? | dosis insuficiente del individuo | selección poblacional, plásmidos y uso animal | olas hospitalarias, transferencia y estudios de granja | ADVERTENCIA ACERTADA; MODELO INSUFICIENTE |
+
+## MED-025 — Imagen, laboratorio y clasificación
+
+| ID | Pregunta | Hipótesis principal | Alternativa | Evidencia discriminante | Estado |
+|---|---|---|---|---|---|
+| `CONT-MED-IMG-MRI-CREDIT-001` | ¿quién inventó la resonancia magnética de imagen? | Lauterbur y Mansfield, por la codificación espacial | Damadian, por la señal diferencial, la patente y la primera máquina para cuerpos | definición de lo premiado; archivo del Nobel cerrado | INVENTOR ÚNICO RECHAZADO |
+| `CONT-MED-IMG-CT-CANCER-001` | ¿cuánto cáncer causa la tomografía en la infancia? | riesgo pequeño real asociado a la dosis | confusión por la indicación de la tomografía | cohortes con indicación medida y dosis individual | ASOCIACIÓN PROBABLE; MAGNITUD ABIERTA |
+| `CONT-MED-IMG-PSA-SCREENING-001` | ¿reduce el cribado con PSA la muerte por cáncer de próstata? | sí, modestamente (ERSPC) | no se demostró (PLCO) | contaminación, seguimiento y población de cada ensayo | ABIERTA; SOBREDIAGNÓSTICO ACEPTADO |
+| `CONT-MED-IMG-TROPONIN-THRESHOLD-001` | ¿es el percentil 99 el umbral correcto para el infarto? | sí, por definición universal | High-STEACS no halló beneficio al reclasificar | ensayos de desenlace por umbral | ABIERTA |
+| `CONT-MED-IMG-HYPERTENSION-DEFINITION-001` | ¿la hipertensión de 2017 es más enfermedad o más categoría? | redefinición basada en riesgo | inflación de la categoría | desenlaces por estrato de presión | CATEGORÍA AMPLIADA; ENFERMEDAD NO CAMBIADA |
+| `CONT-MED-IMG-SENS-SPEC-ORIGIN-001` | ¿quién definió sensibilidad y especificidad? | Yerushalmy en 1947 | serología de inicios del siglo XX | archivo de la serología | ORIGEN ÚNICO RECHAZADO |
+| `CONT-MED-IMG-OBSERVER-ERROR-001` | ¿el desacuerdo entre lectores es error o ambigüedad? | lectores falibles | referencia o categoría mal definida | lecturas contra referencia independiente | AMBAS; NO SEPARABLES SIN REFERENCIA |
+| `CONT-MED-IMG-KOREA-THYROID-001` | ¿la «epidemia» de cáncer de tiroides en Corea es real? | sobrediagnóstico por cribado | aumento real de la enfermedad | mortalidad, tamaño tumoral y relación con el cribado | SOBREDIAGNÓSTICO PROBABLE |
+| `CONT-MED-IMG-AI-VS-RADIOLOGIST-001` | ¿lee la IA mejor que los radiólogos? | sí, según estudios retrospectivos | no en práctica, según revisiones; no inferior en un ensayo | ensayos prospectivos con desenlaces | SUPERIORIDAD GENERAL NO DEMOSTRADA |
+| `CONT-MED-IMG-CODE-CREATES-DISEASE-001` | ¿un código nuevo crea una enfermedad? | registra algo existente | construye la categoría y su frecuencia | series con doble codificación | DEPENDE DE LA RÚBRICA |
+
+## MED-026 — Transfusión, trauma y cuidados críticos
+
+| ID | Pregunta | Hipótesis principal | Alternativa | Evidencia discriminante | Estado |
+|---|---|---|---|---|---|
+| `CONT-MED-CRIT-FIRST-TRANSFUSION-001` | ¿quién hizo la primera transfusión a una persona? | Denis en junio de 1667 | Lower y King, con prioridad disputada por la Royal Society | definición: primera realizada, primera publicada o primera documentada | FUNDADOR ÚNICO RECHAZADO; Denis primero en fecha documentada aquí |
+| `CONT-MED-CRIT-FIRST-BANK-001` | ¿cuál fue el primer banco de sangre? | Fantus, 1937 | depósitos de glóbulos conservados de Robertson, 1917–1918 | definición de banco | DEPENDE DE LA DEFINICIÓN |
+| `CONT-MED-CRIT-DREW-DEATH-001` | ¿murió Drew por la segregación hospitalaria? | sí, se le negó atención | recibió atención de urgencia y murió por sus lesiones | testimonios, registros hospitalarios y certificado | LEYENDA RECHAZADA; segregación de la sangre documentada |
+| `CONT-MED-CRIT-BLOOD-AVOIDABLE-001` | ¿fue evitable el desastre de la sangre contaminada? | inevitable por desconocimiento del agente | evitable en gran parte por decisiones regulatorias | documentos de importación, pruebas sustitutas e inactivación | EVITABLE EN GRAN PARTE según la investigación británica |
+| `CONT-MED-CRIT-PLASMA-RATIO-001` | ¿salva vidas la proporción alta de plasma? | sí, por la asociación militar de 2007 | la asociación es sesgo de supervivencia; el ensayo no halló diferencia significativa en mortalidad | modelos dependientes del tiempo y ensayo aleatorizado | ASOCIACIÓN RECHAZADA COMO PRUEBA; beneficio en desangramiento temprano |
+| `CONT-MED-CRIT-GOLDEN-HOUR-001` | ¿existe la hora de oro? | sí, el tiempo decide | lo decisivo es el sistema, no el reloj | cohortes con tiempos medidos y ajuste | SIN RESPALDO EMPÍRICO como regla general |
+| `CONT-MED-CRIT-COPENHAGEN-MORTALITY-001` | ¿cuánto bajó la mortalidad en Copenhague? | de cerca de 90 % a 20–40 % | 41.6 % global con fuentes irreconciliables y muertes neurológicas | registros clínicos con denominadores comparables | ABIERTA; cifras de divulgación no adoptadas |
+| `CONT-MED-CRIT-FIRST-ICU-001` | ¿cuál fue la primera unidad de cuidados intensivos? | Copenhague, diciembre de 1953 | unidades anteriores con otro nombre o función | definición de unidad | DEPENDE DE LA DEFINICIÓN |
+| `CONT-MED-CRIT-EGDT-001` | ¿desmintieron los ensayos la reanimación dirigida por metas? | el protocolo no funciona | la atención usual mejoró y absorbió sus componentes | ensayos con atención usual de época y análisis de componentes | SIN BENEFICIO frente a la atención usual de 2008–2014 |
+| `CONT-MED-CRIT-TIDAL-VOLUME-001` | ¿salva el volumen corriente bajo o daña el tradicional? | beneficio del protocolo protector | daño del comparador tradicional | ensayos contra práctica usual medida y mecanismo experimental | BENEFICIO ACEPTADO; magnitud dependiente del comparador |
+| `CONT-MED-CRIT-DELIRIUM-CAUSE-001` | ¿causa el delirio el deterioro cognitivo posterior? | sí, de forma independiente | es marcador de gravedad, sedación o enfermedad | ensayos que reduzcan el delirio con seguimiento cognitivo | ABIERTA |
+
+## MED-027 — Inmunología y trasplante
+
+| ID | Pregunta | Hipótesis principal | Alternativa | Evidencia discriminante | Estado |
+|---|---|---|---|---|---|
+| `CONT-MED-GRAFT-HUMORAL-CELLULAR-001` | ¿inmunidad celular o humoral? | una de las dos escuelas tenía razón | complementariedad entre inmunidad innata y adaptativa | redefinición del objeto tras 1908 | DICOTOMÍA RECHAZADA |
+| `CONT-MED-GRAFT-KITASATO-NOBEL-001` | ¿por qué el Nobel de 1901 fue sólo para Behring? | mérito individual de Behring | lectura literal del testamento y peso de la difteria | archivos del comité Nobel | ABIERTA; crédito compartido en el trabajo de 1890 |
+| `CONT-MED-GRAFT-SECOND-SET-001` | ¿qué mostró el caso de Gibson y Medawar? | inmunidad adquirida contra el injerto | respuesta inespecífica en un caso | texto de 1943 y experimentos en animales | MECANISMO CONFIRMADO EN ANIMALES; detalle del caso no verificado |
+| `CONT-MED-GRAFT-CROSSMATCH-PREDICTION-001` | ¿qué predice la prueba cruzada? | éxito del trasplante | sólo el fracaso inmediato | seguimiento por resultado de la prueba | ÉXITO DURADERO NO PREDICHO |
+| `CONT-MED-GRAFT-TWINS-1954-001` | ¿qué demostró el trasplante de 1954? | el control del rechazo | factibilidad técnica sin barrera inmunitaria | ausencia de rechazo entre gemelos idénticos | CONTROL DEL RECHAZO RECHAZADO; factibilidad aceptada |
+| `CONT-MED-GRAFT-CYCLOSPORIN-CREDIT-001` | ¿quién descubrió la ciclosporina? | Borel | Stähelin o el cribado colectivo de Sandoz | registros de laboratorio de Sandoz | FUNDADOR ÚNICO RECHAZADO |
+| `CONT-MED-GRAFT-HEART-1968-001` | ¿fue prematura la ola cardíaca de 1968? | sí: rechazo no controlado | era necesaria para aprender la técnica | supervivencia 1968–1970 y suspensión de programas | ABIERTA; resultado pobre documentado |
+| `CONT-MED-GRAFT-BRAIN-DEATH-001` | ¿la muerte encefálica es la muerte del organismo? | sí, por pérdida de la función integradora | no, por supervivencia corporal prolongada en algunos casos | casos documentados y fundamentos conceptuales | ABIERTA; regla clínica vigente con variación |
+| `CONT-MED-GRAFT-HARVARD-MOTIVE-001` | ¿definió el comité de Harvard la muerte para servir al trasplante? | sí, según sus críticos | motivaciones múltiples según la historiografía | archivos del comité | ABIERTA |
+| `CONT-MED-GRAFT-ALLOCATION-JUSTICE-001` | ¿qué regla de asignación es justa? | utilidad | urgencia, espera o equidad | simulaciones con pérdidas por grupo | ELECCIÓN DE VALORES, NO DE DATOS |
+| `CONT-MED-GRAFT-PAID-DONATION-001` | ¿pago regulado o prohibición? | programa regulado como el iraní | prohibición del comercialismo (Estambul) | resultados de donantes medidos de forma independiente | ABIERTA; daño a vendedores de mercados no regulados documentado |
+| `CONT-MED-GRAFT-CHINA-POST-2015-001` | ¿qué ocurre en China después de 2015? | reforma voluntaria real | manipulación de datos y obtención de presos | auditoría independiente de datos y procedencia | ABIERTA; uso previo a 2015 admitido |
+| `CONT-MED-GRAFT-GRAFT-SURVIVAL-001` | ¿mejoró la supervivencia del injerto a largo plazo? | sí, según proyecciones de 2000 | poco, según el seguimiento observado | vida media observada frente a proyectada | MEJORA CONCENTRADA EN EL PRIMER AÑO |
+| `CONT-MED-GRAFT-XENO-READINESS-001` | ¿está listo el xenotrasplante? | sí, por duraciones crecientes | no: casos únicos sin comparador | ensayo con comparador | NO DEMOSTRADO |

@@ -10,6 +10,7 @@ import CareProfessionsEvidenceLab from "../../components/CareProfessionsEvidence
 import CirculationPhysiologyEvidenceLab from "../../components/CirculationPhysiologyEvidenceLab";
 import ClinicalEvidenceLab from "../../components/ClinicalEvidenceLab";
 import ColonialEncountersEvidenceLab from "../../components/ColonialEncountersEvidenceLab";
+import CriticalCareEvidenceLab from "../../components/CriticalCareEvidenceLab";
 import DiagnosticEvidenceLab from "../../components/DiagnosticEvidenceLab";
 import DocumentaryMedicineLab from "../../components/DocumentaryMedicineLab";
 import EastAsianMedicineLab from "../../components/EastAsianMedicineLab";
@@ -19,6 +20,7 @@ import GermTheoryEvidenceLab from "../../components/GermTheoryEvidenceLab";
 import GreekHellenisticMedicineLab from "../../components/GreekHellenisticMedicineLab";
 import HistoricalMedicineLab from "../../components/HistoricalMedicineLab";
 import HospitalBedsideEvidenceLab from "../../components/HospitalBedsideEvidenceLab";
+import ImagingLaboratoryEvidenceLab from "../../components/ImagingLaboratoryEvidenceLab";
 import IndianOceanEurasianMedicineRouteLab from "../../components/IndianOceanEurasianMedicineRouteLab";
 import IslamicWorldsMedicineNetworkLab from "../../components/IslamicWorldsMedicineNetworkLab";
 import MedievalEuropeJewishMedicineNetworkLab from "../../components/MedievalEuropeJewishMedicineNetworkLab";
@@ -33,6 +35,7 @@ import { anesthesiaAntisepsisEvidence } from "../../lib/anesthesia-antisepsis-ev
 import { careProfessionsEvidence } from "../../lib/care-professions-evidence";
 import { circulationPhysiologyEvidence } from "../../lib/circulation-physiology-evidence";
 import { colonialEncountersEvidence } from "../../lib/colonial-encounters-evidence";
+import { criticalCareEvidence } from "../../lib/critical-care-evidence";
 import { diagnosticEvidence } from "../../lib/diagnostic-evidence";
 import { documentaryMedicineEvidence } from "../../lib/documentary-medicine-evidence";
 import { eastAsianMedicineEvidence } from "../../lib/east-asian-medicine-evidence";
@@ -42,6 +45,7 @@ import { germTheoryEvidence } from "../../lib/germ-theory-evidence";
 import { greekHellenisticMedicineEvidence } from "../../lib/greek-hellenistic-medicine-evidence";
 import { historicalMedicineEvidence } from "../../lib/historical-medicine-evidence";
 import { hospitalBedsideEvidence } from "../../lib/hospital-bedside-evidence";
+import { imagingLaboratoryEvidence } from "../../lib/imaging-laboratory-evidence";
 import { indianOceanEurasianMedicineRoutes } from "../../lib/indian-ocean-eurasian-medicine-routes";
 import { islamicWorldsMedicineNetworks } from "../../lib/islamic-worlds-medicine-networks";
 import { medievalEuropeJewishMedicineNetworks } from "../../lib/medieval-europe-jewish-medicine-networks";
@@ -57,7 +61,7 @@ export const metadata: Metadata = createPageMetadata({
   title: "Historia de la medicina — archivos, cuidado y evidencia",
   description: "Cómo reconstruimos la historia mundial de la medicina desde huesos, manuscritos, cánones, instituciones y resultados sin confundir archivo, práctica o eficacia.",
   pathname: "/medicina",
-  image: "/assets/visuales/hero-med-024-farmacologia-antibioticos-resistencia.png",
+  image: "/assets/visuales/hero-med-027-inmunologia-trasplante.png",
 });
 
 const principles = [
@@ -74,8 +78,8 @@ export default function MedicinePage() {
     <div className="medicine-experience">
       <header className="medicine-hero medicine-history-hero">
         <Image
-          src="/assets/visuales/hero-med-024-farmacologia-antibioticos-resistencia.png"
-          alt="Composición abstracta: un campo de puntos cálidos con un claro circular a la izquierda, anillos punteados al centro y una red de nodos enlazados a la derecha"
+          src="/assets/visuales/hero-med-027-inmunologia-trasplante.png"
+          alt="Composición abstracta: una teselación de celdas hexagonales en dos colores a la izquierda, un grafo bipartito con aristas resaltadas al centro y una red de nodos enlazados a la derecha"
           fill
           preload
           fetchPriority="high"
@@ -84,14 +88,14 @@ export default function MedicinePage() {
         <div className="medicine-hero-shade" />
         <div className="medicine-hero-copy">
           <p className="eyebrow">Historia mundial de la medicina</p>
-          <h1>Una placa sin bacterias no demuestra un tratamiento eficaz por sí sola</h1>
-          <p>Sustancia, dosis-respuesta, serie, comparación, regulación, vigilancia y ecología forman una cadena histórica. Ninguna placa, aprobación o cifra global hereda el efecto, la seguridad o la carga real.</p>
+          <h1>Un injerto que funciona no demuestra un trasplante legítimo por sí solo</h1>
+          <p>Mecanismo, compatibilidad, procedimiento, serie, registro, asignación y ética forman una cadena histórica. Ninguna prueba cruzada negativa, supervivencia de un año o lista de espera hereda el éxito, la justicia o la legitimidad.</p>
           <div>
-            <Link className="button button-primary" href="#farmacologia-antibioticos-resistencia">Auditar la cadena <ArrowDown aria-hidden="true" /></Link>
-            <Link className="medicine-text-link" href="/15_medicina/INVESTIGACION_MED_024_FARMACOLOGIA_ANTIBIOTICOS_RESISTENCIA">Leer MED-024 <ArrowRight aria-hidden="true" /></Link>
+            <Link className="button button-primary" href="/15_medicina/INVESTIGACION_MED_027_INMUNOLOGIA_TRASPLANTE">Leer MED-027 <ArrowRight aria-hidden="true" /></Link>
+            <Link className="medicine-text-link" href="#medicine-dossiers-title">Ver los expedientes <ArrowDown aria-hidden="true" /></Link>
           </div>
         </div>
-        <p className="medicine-visual-limit">Composición generativa no probatoria: puntos, anillos y líneas sin información; no representa organismos, placas reales, fármacos ni acontecimientos reales.</p>
+        <p className="medicine-visual-limit">Composición generativa no probatoria: celdas, grafos y redes sin información; no representa cuerpos, órganos, células reales, personas ni acontecimientos reales.</p>
       </header>
 
       <section className="medicine-boundary">
@@ -102,6 +106,22 @@ export default function MedicinePage() {
       <section className="medicine-principles" aria-labelledby="medicine-principles-title">
         <header><p className="eyebrow">Contrato de lectura</p><h2 id="medicine-principles-title">Cuatro cortafuegos</h2></header>
         <div>{principles.map(([title, text], index) => <article key={title}><span>{String(index + 1).padStart(2, "0")}</span><h3>{title}</h3><p>{text}</p></article>)}</div>
+      </section>
+
+      <section className="medicine-lab-section documentary-lab-section" id="transfusion-trauma-cuidados-criticos" aria-labelledby="critical-care-lab-title">
+        <div className="section-heading">
+          <div><p className="eyebrow">MED-026 · laboratorio de transfusión, trauma y cuidados críticos</p><h2 id="critical-care-lab-title">De la infraestructura al daño</h2></div>
+          <p>Elige un expediente. Siete capas separan infraestructura, procedimiento, serie, comparación, protocolo, resultado y daño sin convertir una transfusión posible, una hora de oro o una meta alcanzada en una vida salvada.</p>
+        </div>
+        <CriticalCareEvidenceLab data={criticalCareEvidence} />
+      </section>
+
+      <section className="medicine-lab-section documentary-lab-section" id="imagen-laboratorio-clasificacion" aria-labelledby="imaging-laboratory-lab-title">
+        <div className="section-heading">
+          <div><p className="eyebrow">MED-025 · laboratorio de imagen, laboratorio y clasificación</p><h2 id="imaging-laboratory-lab-title">De la señal a la consecuencia</h2></div>
+          <p>Elige un expediente. Siete capas separan señal, instrumento, lectura, umbral, categoría, exactitud y consecuencia sin convertir una sombra, un código, un biomarcador o un algoritmo en lesión, enfermedad o beneficio.</p>
+        </div>
+        <ImagingLaboratoryEvidenceLab data={imagingLaboratoryEvidence} />
       </section>
 
       <section className="medicine-lab-section documentary-lab-section" id="farmacologia-antibioticos-resistencia" aria-labelledby="pharmacology-resistance-lab-title">

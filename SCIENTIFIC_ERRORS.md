@@ -4785,3 +4785,55 @@ Restos humanos se muestrean y nombran sin participación de comunidades descendi
 | `ERR-MED-PHARM-APPROVED-SAFE-001` | aprobado significa seguro | la aprobación es un umbral en una fecha y la vigilancia cuenta numeradores | exigir vigilancia con denominador | ACTIVO |
 | `ERR-MED-PHARM-RESISTANCE-MISUSE-001` | la resistencia aparece sólo por tomar mal los antibióticos | es una ecología de selección, plásmidos y huéspedes múltiples | auditar presión de selección y transferencia | ACTIVO |
 | `ERR-MED-PHARM-10M-2050-001` | morirán 10 millones al año en 2050 | escenario sin intervalos ni revisión por pares | citar modelos revisados con contrafactual e intervalo | ACTIVO |
+
+## MED-025 — Imagen, laboratorio y clasificación
+
+| ID | Error | Por qué falla | Corrección | Estado |
+|---|---|---|---|---|
+| `ERR-MED-IMG-IMAGE-DISEASE-001` | la radiografía muestra la enfermedad | muestra densidades que un lector interpreta | separar señal, lectura y categoría | ACTIVO |
+| `ERR-MED-IMG-XRAY-HARMLESS-001` | los primeros rayos X fueron inocuos hasta que se supo | las lesiones se publicaron en 1896 | fechar el daño con la difusión | ACTIVO |
+| `ERR-MED-IMG-MARTYRS-RATE-001` | los mártires de la radiología miden el riesgo | son biografías sin denominador | exigir denominador de expuestos | ACTIVO |
+| `ERR-MED-IMG-EXPERTS-AGREE-001` | dos expertos leen igual | desde 1947 se mide lo contrario | declarar el acuerdo entre lectores | ACTIVO |
+| `ERR-MED-IMG-YERUSHALMY-INVENTOR-001` | Yerushalmy inventó la sensibilidad y la especificidad | venían de la serología de inicios del siglo XX | historiar los conceptos | ACTIVO |
+| `ERR-MED-IMG-LAB-NO-METHOD-001` | un resultado de laboratorio es un dato sin método | depende de método, calibración y operador | declarar método y variación | ACTIVO |
+| `ERR-MED-IMG-PATHOLOGY-TRUTH-001` | la patología es la verdad | también es una lectura con acuerdo medido | tratar la referencia como lectura | ACTIVO |
+| `ERR-MED-IMG-PREVALENCE-DEFINITION-001` | más hipertensos tras 2017 significa más enfermedad | cambió la definición sobre las mismas mediciones | leer la prevalencia con su umbral | ACTIVO |
+| `ERR-MED-IMG-MRI-SINGLE-INVENTOR-001` | la resonancia la inventó una sola persona | señal, imagen y máquina tienen autores distintos | repartir crédito por producto | ACTIVO |
+| `ERR-MED-IMG-PSA-NORMAL-001` | un PSA bajo es normal y uno alto es cáncer | el riesgo es un continuo y el marcador no es específico | leer el umbral como convención | ACTIVO |
+| `ERR-MED-IMG-TROPONIN-EPIDEMIC-001` | la troponina sensible reveló una epidemia de infartos | cambió la enfermedad que se cuenta | ajustar las series por definición | ACTIVO |
+| `ERR-MED-IMG-INCIDENTALOMA-DISEASE-001` | un incidentaloma es una enfermedad que esperaba ser descubierta | es un hallazgo definido por el instrumento | separar hallazgo, historia natural y daño | ACTIVO |
+| `ERR-MED-IMG-AI-BETTER-001` | la IA ya lee mejor que los radiólogos | métricas retrospectivas, atajos y sesgos; un ensayo de no inferioridad | exigir ensayos con desenlaces y equidad | ACTIVO |
+
+## MED-026 — Transfusión, trauma y cuidados críticos
+
+| ID | Error | Por qué falla | Corrección | Estado |
+|---|---|---|---|---|
+| `ERR-MED-CRIT-EARLY-BAN-EFFICACY-001` | las primeras transfusiones se prohibieron porque se demostró que no servían | la sentencia de 1668 fue sobre autorización tras una muerte, no un juicio de eficacia | separar procedimiento, caso y regla | ACTIVO |
+| `ERR-MED-CRIT-LANDSTEINER-SAFE-001` | Landsteiner hizo segura la transfusión de inmediato | la compatibilidad fue condición; anticoagulación, conservación y organización llegaron después | historiar la infraestructura completa | ACTIVO |
+| `ERR-MED-CRIT-FIRST-BANK-001` | Fantus abrió el primer banco de sangre del mundo | depende de qué se cuente como banco | declarar la definición | ACTIVO |
+| `ERR-MED-CRIT-DREW-DEATH-001` | Drew murió porque un hospital para blancos lo rechazó | recibió atención de urgencia | separar la leyenda de la segregación documentada | ACTIVO |
+| `ERR-MED-CRIT-SEGREGATION-MEDICAL-001` | la sangre se segregaba por razones médicas | la serología clasifica grupos, no razas | leer la segregación como regla social | ACTIVO |
+| `ERR-MED-CRIT-BLOOD-UNFORESEEABLE-001` | el sida y la hepatitis por sangre fueron imposibles de prever | las investigaciones públicas documentan decisiones evitables | auditar decisiones bajo incertidumbre | ACTIVO |
+| `ERR-MED-CRIT-PLASMA-PROVEN-001` | los datos de Irak demostraron que el plasma 1:1 salva vidas | la asociación estaba sesgada por la supervivencia | modelar el tiempo y exigir aleatorización | ACTIVO |
+| `ERR-MED-CRIT-GOLDEN-HOUR-001` | la hora de oro es un hecho científico | no se halló su respaldo y una cohorte grande no encontró asociación | separar sistema y reloj | ACTIVO |
+| `ERR-MED-CRIT-COPENHAGEN-FIGURE-001` | la ventilación manual redujo la mortalidad de 90 % a 20 % | las cifras no se reconcilian y muchas muertes eran neurológicas | citar el denominador y la fuente | ACTIVO |
+| `ERR-MED-CRIT-MONITOR-BENEFIT-001` | medir más a la cabecera mejora la supervivencia | el catéter de arteria pulmonar no la mejoró y el oxímetro falla más en pacientes negros | separar información y decisión | ACTIVO |
+| `ERR-MED-CRIT-NORMALIZE-TREAT-001` | normalizar la fisiología es tratar | glucosa estrecha y metas hemodinámicas tempranas no mejoraron o empeoraron desenlaces | exigir desenlaces en personas | ACTIVO |
+| `ERR-MED-CRIT-SURVIVAL-END-001` | sobrevivir a la UCI es el desenlace final | delirio y síndrome post-UCI muestran daños que empiezan al sobrevivir | medir función y cognición a largo plazo | ACTIVO |
+
+## MED-027 — Inmunología y trasplante
+
+| ID | Error | Por qué falla | Corrección | Estado |
+|---|---|---|---|---|
+| `ERR-MED-GRAFT-WINNER-SCHOOL-001` | Metchnikoff o Ehrlich tenía razón | las dos ramas resultaron complementarias | describir innata y adaptativa como partes de un sistema | ACTIVO |
+| `ERR-MED-GRAFT-TOLERANCE-TREATMENT-001` | la tolerancia de Medawar resolvió el trasplante | era un mecanismo neonatal en ratones endogámicos | separar mecanismo y procedimiento clínico | ACTIVO |
+| `ERR-MED-GRAFT-MATCH-SUCCESS-001` | compatible significa éxito | la prueba cruzada predice el fracaso inmediato, no el éxito duradero | nombrar el desenlace que predice cada prueba | ACTIVO |
+| `ERR-MED-GRAFT-TWINS-REJECTION-001` | el trasplante de gemelos de 1954 venció al rechazo | entre gemelos idénticos no hay rechazo que vencer | leerlo como factibilidad técnica | ACTIVO |
+| `ERR-MED-GRAFT-AZATHIOPRINE-TRIAL-001` | la azatioprina se adoptó por un ensayo comparado | se adoptó por series sin comparador | distinguir serie y comparación | ACTIVO |
+| `ERR-MED-GRAFT-CYCLOSPORIN-FREE-001` | la ciclosporina fue un triunfo sin costo de un descubridor | sus ensayos midieron peor función renal y su crédito se disputa | citar efecto, costo y crédito repartido | ACTIVO |
+| `ERR-MED-GRAFT-BARNARD-ERA-001` | Barnard abrió con éxito la era del trasplante cardíaco | la ola de 1968 tuvo 11 % de supervivencia a dos años | separar procedimiento y resultado | ACTIVO |
+| `ERR-MED-GRAFT-BRAIN-DEATH-FACT-001` | la muerte encefálica es un hecho biológico sin debate | es una regla con variación internacional y críticas conceptuales | tratarla como capa normativa | ACTIVO |
+| `ERR-MED-GRAFT-NEUTRAL-ALGORITHM-001` | el algoritmo asigna órganos con neutralidad | codifica valores que ganan y pierden por grupo | leer cada regla por sus perdedores | ACTIVO |
+| `ERR-MED-GRAFT-RESULT-LEGITIMACY-001` | si el trasplante funciona, el órgano es legítimo | la procedencia y el consentimiento son una capa propia | auditar procedencia con independencia del resultado | ACTIVO |
+| `ERR-MED-GRAFT-HALF-LIFE-DOUBLED-001` | la vida media del injerto se duplicó | la proyección de 2000 no se observó después | preferir vidas medias observadas | ACTIVO |
+| `ERR-MED-GRAFT-XENO-WORKS-001` | los xenoinjertos ya funcionan como tratamiento | son casos únicos sin comparador | esperar contraste formal | ACTIVO |
