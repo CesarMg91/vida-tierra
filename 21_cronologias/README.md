@@ -14,6 +14,10 @@ Cronologías regionales o temáticas y matrices de correlación. La vista global
 
 - [`CRONOLOGIA_CIV_007_URBANISMOS_COMPARADOS.md`](CRONOLOGIA_CIV_007_URBANISMOS_COMPARADOS.md) — seis carriles urbanos y uno de métodos, sin escalera de «primeras ciudades» — **AUDITADO**.
 
+- [`CRONOLOGIA_CIV_008_ESCRITURAS_NOTACIONES_ORALIDAD.md`](CRONOLOGIA_CIV_008_ESCRITURAS_NOTACIONES_ORALIDAD.md) — cinco carriles de archivos y uno de métodos; la fecha del soporte separada de la invención — **AUDITADO**.
+
+- [`CRONOLOGIA_CIV_009_ESTADOS_IMPERIOS_CONTROL_DESIGUAL.md`](CRONOLOGIA_CIV_009_ESTADOS_IMPERIOS_CONTROL_DESIGUAL.md) — siete carriles regionales y uno de métodos, con el objeto fechado o modelado en cada fila y sin escalera de imperios — **AUDITADO**.
+
 ## Medicina
 
 - [`CRONOLOGIA_MED_008_ROMA_BIZANCIO_MEDITERRANEO_TARDIO.md`](CRONOLOGIA_MED_008_ROMA_BIZANCIO_MEDITERRANEO_TARDIO.md) — organización, infraestructura, corpus, hospitales y redes por carriles no heredables — **AUDITADO**.

@@ -2174,3 +2174,74 @@ Cahokia              → planificación súbita B-COND; escala C; ecocidio refut
 - `CLAIM-CIV-URBCOMP-LOW-DENSITY-001` impide excluir la baja densidad de la categoría urbana.
 
 CIV-007 no cambia el estado de claims existentes. Véase `INV-CIV-URBANISMS-001`, `MAPA_CIV_007_URBANISMOS_COMPARADOS.md`, `CRONOLOGIA_CIV_007_URBANISMOS_COMPARADOS.md`, `cadena-forma-urbana-civ-007.svg` y `matriz-ciudades-dimensiones-civ-007.svg`.
+
+## MED-033 — Un modelo exacto no demuestra un beneficio ni asigna una responsabilidad por sí solo
+
+- Los sistemas expertos separan exactitud en casos de prueba, integración, mantenimiento y adopción.
+- El expediente electrónico separa ley, adopción, beneficio local, daño de despliegue, tiempo de pantalla y agotamiento.
+- Obermeyer separa dato, etiqueta, calibración por grupo, corrección estimada y prevalencia desconocida.
+- La filtración renal separa variable racial, supuesto de masa muscular, consenso, error desplazado y desenlace no medido.
+- La sepsis separa modelo propietario, validación externa, umbral, deriva pandémica, calibración en el tiempo y utilidad observacional.
+- IDx-DR separa ensayo prospectivo, autorización autónoma, despliegue en otro entorno y desenlace visual no medido.
+- La FDA separa definición del software, evidencia retrospectiva, plan de cambios y número de dispositivos.
+- La Ley de IA separa clasificación, calendario, aplazamiento, responsabilidad por productos y auditoría real.
+- Los marcos de reporte separan guía, adherencia, número de ensayos y desenlace del paciente.
+- Los modelos de lenguaje separan examen, caso real, viñeta, usuario y paciente.
+- Los escribas separan implementación, tiempo, agotamiento, error de nota y firma.
+- La automatización separa sugerencia, lectura humana cambiada y responsabilidad repartida.
+- `CLAIM-MED-AI-CHAIN-001` impide heredar automáticamente una propiedad entre datos, modelo, validación, despliegue, deriva, equidad, utilidad y responsabilidad.
+- `CLAIM-MED-AI-LABEL-IS-CHOICE-001` impide leer una etiqueta o un sustituto como dato neutro.
+
+Véase 15_medicina/INVESTIGACION_MED_033_MEDICINA_DIGITAL_INTELIGENCIA_ARTIFICIAL.md, 22_mapas_epistemologicos/MAPA_MED_033_MEDICINA_DIGITAL_INTELIGENCIA_ARTIFICIAL.md, 21_cronologias/CRONOLOGIA_MED_033_MEDICINA_DIGITAL_INTELIGENCIA_ARTIFICIAL.md, assets/visuales/cadena-datos-responsabilidad-med-033.svg y assets/visuales/matriz-medicina-digital-ia-med-033.svg.
+
+## CIV-008 — Un signo no es una lengua
+
+```text
+signo ─ sistema ─ lengua codificada ─ función ─ institución ─ desciframiento
+   (seis niveles paralelos; ninguno se hereda de otro)
+lengua = rebus, nombres, bilingüe, predicción ⇢ «estructura», «entropía», «frecuencia» [NO bastan]
+```
+
+```text
+fichas y bullas        → multifuncionales B; origen de los signos C
+protocuneiforme        → contabilidad B; lengua C
+huesos oraculares      → glotográficos y regios B; antecedentes C
+Indo                   → brevedad B; lengua D
+Cascajal / San Andrés  → sistema posible C; calendario B-COND
+maya                   → tradición en 300–200 a. C. B; desciframiento A-MET
+quipus                 → sumas B; padrón de 1670 B-COND; lengua D
+rongorongo             → madera del siglo XV B-COND; contenido D
+tradición oral         → método B-MET; tiempo profundo C
+Gran División          → refutada en forma fuerte B
+```
+
+- `CLAIM-CIV-SCRIPTS-SIX-LEVELS-001` impide leer un signo, un sistema o una función como lengua o alfabetización.
+- `CLAIM-CIV-SCRIPTS-GLOTTOGRAPHY-TEST-001` y `CLAIM-CIV-SCRIPTS-DECIPHERMENT-CRITERIA-001` fijan qué prueba una lengua y un desciframiento.
+- `CLAIM-CIV-SCRIPTS-NO-COGNITIVE-HIERARCHY-001` impide ordenar soportes por capacidad mental.
+
+CIV-008 no cambia el estado de claims existentes. Véase `INV-CIV-SCRIPTS-001`, `MAPA_CIV_008_ESCRITURAS_NOTACIONES_ORALIDAD.md`, `CRONOLOGIA_CIV_008_ESCRITURAS_NOTACIONES_ORALIDAD.md`, `cadena-signo-lengua-civ-008.svg` y `matriz-archivos-niveles-civ-008.svg`.
+
+## CIV-009 — Un mapa no es un dominio
+
+```text
+reclamación ─ presencia ─ logística ─ tributo ─ archivo ─ negociación ─ control efectivo
+   (siete dimensiones paralelas; ninguna se hereda de otra)
+frontera máxima pintada ⇢ «el imperio dominaba todo su mapa» [NO]
+```
+
+```text
+Acadia / Ur III      → gobernadores B-COND; Drehem >13 500 tablillas B; gun mada periférico B
+Asiria               → colonias, amortiguamiento, control discontinuo B-COND
+Persia               → 2087 textos; raciones en ruta B; potencial de comunicación B-COND; control C
+Qin / Han            → archivo de Qianling B; migración inducida B-COND
+Roma                 → ORBIS 1:5/10:52 B-COND; ~300 censos de Egipto B; limes C
+Tawantinsuyu         → >30 000 km B; khipus de tributo B-COND; reubicación B-COND
+Triple Alianza       → Matrícula → Mendoza B; 38 provincias; control indirecto B-COND
+Mali / Songhai       → capital no localizada C; crónicas tardías B
+```
+
+- `CLAIM-CIV-EMPREACH-SEVEN-DIMENSIONS-001` impide leer una frontera, un camino o una lista de tributo como control.
+- `CLAIM-CIV-EMPREACH-ARCHIVE-BIAS-001` impide tratar la densidad de archivo como intensidad de dominio.
+- `CLAIM-CIV-EMPREACH-NO-UNIFORM-CONTROL-001` impide pintar un imperio premoderno de un solo tono.
+
+CIV-009 no cambia el estado de claims existentes. Véase `INV-CIV-EMPIRES-001`, `MAPA_CIV_009_ESTADOS_IMPERIOS_CONTROL_DESIGUAL.md`, `CRONOLOGIA_CIV_009_ESTADOS_IMPERIOS_CONTROL_DESIGUAL.md`, `cadena-alcance-estatal-civ-009.svg` y `matriz-imperios-dimensiones-civ-009.svg`.

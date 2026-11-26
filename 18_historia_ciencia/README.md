@@ -66,3 +66,7 @@ Historia de cómo se reconstruyó la historia: creencias previas, evidencia disr
 - [`HISTORIA_CIV_006_DOMESTICACIONES_ALDEAS_REGIONALES.md`](HISTORIA_CIV_006_DOMESTICACIONES_ALDEAS_REGIONALES.md) — de buscar el centro a leer el archivo: AMS, genomas actuales, fitolitos fechados, plasticidad y reevaluaciones — **AUDITADO**.
 
 - [`HISTORIA_CIV_007_URBANISMOS_COMPARADOS.md`](HISTORIA_CIV_007_URBANISMOS_COMPARADOS.md) — de la lista de Childe a la medida declarada: mapas de superficie, racimos, estroncio, LiDAR, Gini y leyes de escala — **AUDITADO**.
+
+- [`HISTORIA_CIV_008_ESCRITURAS_NOTACIONES_ORALIDAD.md`](HISTORIA_CIV_008_ESCRITURAS_NOTACIONES_ORALIDAD.md) — del alfabeto como cima a la prueba de lectura: Knorozov, fichas, Gran División, estadística, quipus y rongorongo fechado — **AUDITADO**.
+
+- [`HISTORIA_CIV_009_ESTADOS_IMPERIOS_CONTROL_DESIGUAL.md`](HISTORIA_CIV_009_ESTADOS_IMPERIOS_CONTROL_DESIGUAL.md) — del mapa coloreado al costo de llegar: poder infraestructural, prospección provincial, ORBIS, khipus leídos contra padrones y crítica de crónicas — **AUDITADO**.

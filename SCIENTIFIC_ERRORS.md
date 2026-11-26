@@ -5037,3 +5037,147 @@ Se atribuye el abandono de una ciudad a la destrucción de su entorno sin probar
 | `ERR-CIV-URBCOMP-COMPACT-NORM-001` | baja densidad = no ciudad | norma compacta | comparación por dimensiones | DOCUMENTADO |
 | `ERR-CIV-URBCOMP-ANCESTRY-CITY-IDENTITY-001` | ancestría = identidad urbana | genes = cultura | archivos separados | DOCUMENTADO |
 | `ERR-CIV-URBCOMP-ECOCIDE-ASSUMED-001` | ecocidio supuesto | uso del suelo = colapso | prueba estratigráfica | DOCUMENTADO |
+
+## MED-033 — Medicina digital e inteligencia artificial
+
+| ID | Error | Por qué falla | Corrección | Estado |
+|---|---|---|---|---|
+| `ERR-MED-AI-EXPERT-INACCURATE-001` | los sistemas expertos fracasaron porque eran inexactos | en casos de prueba igualaban o superaban a clínicos | separar exactitud y adopción | ACTIVO |
+| `ERR-MED-AI-EHR-BETTER-001` | más expediente electrónico es mejor medicina | adopción, beneficio y costo se miden por separado | medir cada uno con su comparador | ACTIVO |
+| `ERR-MED-AI-RACE-BLIND-FAIR-001` | si un algoritmo no usa la raza no puede tener sesgo racial | la etiqueta de costo produjo sesgo sin usarla | auditar etiqueta y sustitutos | ACTIVO |
+| `ERR-MED-AI-RACE-REMOVAL-SOLVED-001` | quitar la raza de la fórmula renal eliminó el sesgo | desplazó el error entre grupos | medir error y desenlaces por grupo | ACTIVO |
+| `ERR-MED-AI-WIDESPREAD-VALIDATED-001` | un modelo usado en cientos de hospitales está validado | el ESM tuvo 0.63 en validación externa | exigir validación externa publicada | ACTIVO |
+| `ERR-MED-AI-VALIDATED-FOREVER-001` | un modelo validado sigue funcionando | la deriva lo cambió en meses | vigilar y revalidar en el sitio | ACTIVO |
+| `ERR-MED-AI-FDA-BENEFIT-001` | autorizado por la FDA significa que mejora la salud | la mayoría se evaluó con datos retrospectivos y sin desenlaces | separar autorización y beneficio | ACTIVO |
+| `ERR-MED-AI-ACT-IN-FORCE-001` | la Ley de IA ya rige para los dispositivos médicos | sus obligaciones de alto riesgo se aplazaron a 2028 | citar el calendario vigente | ACTIVO |
+| `ERR-MED-AI-EXAM-DOCTOR-001` | si un modelo aprueba el examen médico puede atender pacientes | los ensayos con usuarios no transfieren la exactitud | separar examen, viñeta y consulta | ACTIVO |
+| `ERR-MED-AI-SCRIBE-FREE-001` | los escribas eliminan el trabajo de documentar | el ahorro es modesto o nulo y la nota exige revisión | medir tiempo y errores por producto | ACTIVO |
+| `ERR-MED-AI-HUMAN-DECIDES-001` | el clínico siempre decide y la máquina sólo sugiere | el sesgo de automatización cambia la decisión | medir la interacción humano-máquina | ACTIVO |
+
+## CIV-008 — Errores científicos que el estudio de escrituras y oralidad debe evitar
+
+### ERR-CIV-SCRIPTS-SIGN-TEXT-001 — Signo igual a texto
+
+Cualquier marca repetida se presenta como escritura y cualquier sistema como texto legible.
+
+**Corrección:** separar signo, sistema y lengua codificada; las marcas neolíticas chinas y las fichas son signos sin texto demostrado.
+
+### ERR-CIV-SCRIPTS-STATISTICS-READING-001 — Estructura estadística igual a lengua
+
+Una entropía o una regularidad de orden se presenta como prueba de que un sistema escribe una lengua.
+
+**Corrección:** calibrar contra corpus de estatus conocido y exigir lecturas; el Indo y los pictos cambiaron de clase al ampliar la calibración.
+
+### ERR-CIV-SCRIPTS-TOKEN-LADDER-001 — Escalera de la ficha al alfabeto
+
+Fichas, tablillas, logogramas, silabarios y alfabeto se ordenan como etapas necesarias de una sola evolución.
+
+**Corrección:** registrar cada sistema por niveles; la protocuneiforme fue madura sin anotar la lengua y la escritura maya no pasó por fichas.
+
+### ERR-CIV-SCRIPTS-NO-SCRIPT-NO-HISTORY-001 — Sin escritura igual a sin historia ni archivo
+
+Sociedades sin escritura glotográfica se describen como sin historia, sin administración o sin memoria.
+
+**Corrección:** auditar quipus, notaciones y tradiciones orales como archivos con crítica propia.
+
+### ERR-CIV-SCRIPTS-LITERACY-COGNITION-001 — Escritura igual a otra mente
+
+La escritura se trata como causa de un modo de pensar superior.
+
+**Corrección:** separar escolarización, práctica y escritura; el estudio vai atribuyó los efectos a la escuela y a prácticas específicas.
+
+### ERR-CIV-SCRIPTS-PROPOSAL-DECIPHERMENT-001 — Propuesta igual a desciframiento
+
+Una lectura plausible de un sistema no leído se anuncia como desciframiento.
+
+**Corrección:** exigir predicción de textos nuevos y reproducción independiente; más de un centenar de «desciframientos» del Indo no la cumplen.
+
+### ERR-CIV-SCRIPTS-SUPPORT-DATE-001 — Fecha del soporte igual a fecha de la inscripción
+
+La edad de la madera, el hueso o el contexto se toma como edad del texto o de la invención del sistema.
+
+**Corrección:** declarar qué se fechó; una tablilla de rongorongo del siglo XV fecha la madera, no la incisión.
+
+### ERR-CIV-SCRIPTS-ORAL-FROZEN-001 — Tradición oral igual a grabación fija o a fantasía
+
+La tradición oral se trata como registro intacto de milenios o como ficción sin valor.
+
+**Corrección:** criticar variantes, género, función y cadena, y anclar las fechas en otro archivo.
+
+
+### Índice tabular CIV-008
+
+| ID | Caso | Supuesto que falló | Mecanismo de corrección | Estado |
+|---|---|---|---|---|
+| `ERR-CIV-SCRIPTS-SIGN-TEXT-001` | signo = texto | marca = escritura | niveles separados | DOCUMENTADO |
+| `ERR-CIV-SCRIPTS-STATISTICS-READING-001` | estadística = lengua | orden = habla | calibración y lectura | DOCUMENTADO |
+| `ERR-CIV-SCRIPTS-TOKEN-LADDER-001` | ficha → alfabeto | evolución única | comparación por niveles | DOCUMENTADO |
+| `ERR-CIV-SCRIPTS-NO-SCRIPT-NO-HISTORY-001` | sin escritura = sin historia | glotografía = archivo | crítica de notaciones y oralidad | DOCUMENTADO |
+| `ERR-CIV-SCRIPTS-LITERACY-COGNITION-001` | escritura = otra mente | escritura = escuela | diseño que separa escolarización | DOCUMENTADO |
+| `ERR-CIV-SCRIPTS-PROPOSAL-DECIPHERMENT-001` | propuesta = desciframiento | plausibilidad = prueba | predicción reproducida | DOCUMENTADO |
+| `ERR-CIV-SCRIPTS-SUPPORT-DATE-001` | soporte = inscripción | madera = texto | objeto fechado declarado | DOCUMENTADO |
+| `ERR-CIV-SCRIPTS-ORAL-FROZEN-001` | oralidad fija o falsa | transmisión sin cambio o sin valor | crítica de fuentes orales | DOCUMENTADO |
+
+## CIV-009 — Errores científicos que la medida del alcance estatal debe evitar
+
+### ERR-CIV-EMPREACH-MAP-COLOR-001 — Frontera máxima pintada igual a control
+
+El territorio reclamado en su máxima extensión se colorea de un solo tono, como si el centro controlara todo su interior.
+
+**Corrección:** separar reclamación, presencia y control efectivo por lugar; en el Alto Tigris el control asirio fue discontinuo.
+
+### ERR-CIV-EMPREACH-ROYAL-COUNT-001 — Inscripción real igual a conteo
+
+Las cifras de conquistados o deportados de una inscripción real se usan como datos demográficos.
+
+**Corrección:** tratarlas como reclamación y buscar un archivo independiente; CIV-009 no reproduce las cifras de deportados neoasirios.
+
+### ERR-CIV-EMPREACH-ARCHIVE-DENSITY-001 — Archivo denso igual a Estado fuerte en todo el territorio
+
+La abundancia de tablillas, tiras o papiros en un lugar se lee como intensidad del control en todo el imperio.
+
+**Corrección:** declarar dónde se produjo y se conservó el archivo; Drehem, Persépolis, Liye y Egipto son centros o puntos.
+
+### ERR-CIV-EMPREACH-TRIBUTE-LIST-001 — Tributo exigido igual a tributo entregado
+
+Una lista de tributo se lee como recaudación efectiva.
+
+**Corrección:** buscar recibos o registros de entrega; la Matrícula y el Códice Mendoza registran lo exigido.
+
+### ERR-CIV-EMPREACH-ROAD-CONTROL-001 — Camino igual a control
+
+La extensión de una red vial se toma como medida de dominio del territorio que atraviesa.
+
+**Corrección:** un camino mide capacidad de movimiento; el control se mide en efectos sobre la población, como la reubicación de Acarí.
+
+### ERR-CIV-EMPREACH-CROWFLIES-001 — Distancia en línea recta igual a costo
+
+La cercanía en el mapa se usa como cercanía política o económica.
+
+**Corrección:** modelar el costo por modos de transporte; en ORBIS el valle del Po estaba tan lejos de Roma como la costa de Britania.
+
+### ERR-CIV-EMPREACH-LIMES-WALL-001 — Limes igual a muralla defensiva
+
+La línea de fortificaciones se lee como el borde del control y su función como defensa exterior.
+
+**Corrección:** estudiar funciones internas de las guarniciones; en el Oriente el ejército actuó como fuerza de ocupación y policía.
+
+### ERR-CIV-EMPREACH-LATE-CHRONICLE-001 — Crónica tardía igual a testimonio contemporáneo
+
+Una crónica editada se usa como acta de los hechos que narra sin examinar sus manuscritos.
+
+**Corrección:** crítica de manuscritos; el *Tārīkh al-fattāsh* funde textos del XVII y del XIX.
+
+
+### Índice tabular CIV-009
+
+| ID | Caso | Supuesto que falló | Mecanismo de corrección | Estado |
+|---|---|---|---|---|
+| `ERR-CIV-EMPREACH-MAP-COLOR-001` | frontera pintada = control | reclamación = dominio | dimensiones por lugar | DOCUMENTADO |
+| `ERR-CIV-EMPREACH-ROYAL-COUNT-001` | inscripción = conteo | proclama = dato | archivo independiente | DOCUMENTADO |
+| `ERR-CIV-EMPREACH-ARCHIVE-DENSITY-001` | archivo denso = Estado fuerte | conservación = control | procedencia del archivo | DOCUMENTADO |
+| `ERR-CIV-EMPREACH-TRIBUTE-LIST-001` | exigido = entregado | lista = recaudación | recibos | DOCUMENTADO |
+| `ERR-CIV-EMPREACH-ROAD-CONTROL-001` | camino = control | capacidad = dominio | efectos medidos | DOCUMENTADO |
+| `ERR-CIV-EMPREACH-CROWFLIES-001` | distancia = costo | mapa = conexión | modelo de transporte | DOCUMENTADO |
+| `ERR-CIV-EMPREACH-LIMES-WALL-001` | limes = muralla | frontera = borde del control | funciones de guarnición | DOCUMENTADO |
+| `ERR-CIV-EMPREACH-LATE-CHRONICLE-001` | crónica = acta | edición = texto original | crítica de manuscritos | DOCUMENTADO |

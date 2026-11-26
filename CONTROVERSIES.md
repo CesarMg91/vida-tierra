@@ -4005,3 +4005,146 @@ Para unos, una ciudad de decenas de miles de habitantes con planificación súbi
 | `CONT-CIV-URBCOMP-MAYA-LIDAR-BIAS-001` | población maya | asentamiento denso ubicuo | sesgo de muestreo e inflación | abierta | B forma; C población |
 | `CONT-CIV-URBCOMP-HETERARCHY-AFRICA-001` | heterarquía africana | mejor lectura disponible | archivo incompleto | abierta | C |
 | `CONT-CIV-URBCOMP-CAHOKIA-SCALE-001` | escala de Cahokia | planificación súbita; caída `~50 %` | centro de densidad moderada | abierta | C |
+
+## MED-033 — Medicina digital e inteligencia artificial
+
+| ID | Pregunta | Hipótesis principal | Alternativa | Evidencia discriminante | Estado |
+|---|---|---|---|---|---|
+| `CONT-MED-AI-EXPERT-ADOPTION-001` | ¿por qué no se adoptaron los sistemas expertos? | integración, carga de captura y mantenimiento | exactitud insuficiente | sistemas igual de exactos adoptados o no según su integración | INTERPRETACIÓN DOCUMENTADA; SIN DISEÑO QUE LA DECIDA |
+| `CONT-MED-AI-EHR-BENEFIT-001` | ¿mejoró la atención el expediente electrónico? | menos errores de medicación en sitios concretos | más carga, agotamiento y daños de despliegue | cuasi-experimentos con desenlaces de pacientes a escala | ABIERTA; EFECTOS OPUESTOS DOCUMENTADOS |
+| `CONT-MED-AI-LABEL-BIAS-001` | ¿cuánto sesgo de etiqueta hay en los algoritmos clínicos? | práctica extendida en la industria | caso aislado | auditorías de muchos algoritmos con medidas de necesidad | MECANISMO DEMOSTRADO; PREVALENCIA DESCONOCIDA |
+| `CONT-MED-AI-EGFR-RACE-001` | ¿mejora la equidad la ecuación renal sin raza? | sí, al retirar una corrección sin base biológica | desplaza el error entre grupos | desenlaces por grupo tras el cambio | ABIERTA; ERROR DESPLAZADO MEDIDO |
+| `CONT-MED-AI-SEPSIS-ALERTS-001` | ¿sirven los modelos de alerta de sepsis? | TREWS se asoció con menos mortalidad | el ESM tuvo baja discriminación y deriva | ensayos aleatorizados del sistema frente a su ausencia | ABIERTA; DEPENDE DEL SISTEMA Y DEL SITIO |
+| `CONT-MED-AI-PREMARKET-001` | ¿basta la evidencia previa a la autorización? | sí, con planes de control de cambios | hace falta vigilancia posautorización | desempeño medido después de la autorización | ABIERTA |
+| `CONT-MED-AI-EU-ACT-001` | ¿regulará la Ley de IA los dispositivos médicos a tiempo? | sí, desde 2028 | aplazada y diluida | aplicación y sanciones tras 2027–2028 | ABIERTA; APLICACIÓN FUTURA |
+| `CONT-MED-AI-LLM-DECISION-001` | ¿ayudan los modelos de lenguaje a decidir sobre pacientes? | mejoran el razonamiento de manejo | no mejoran el diagnóstico ni ayudan al público | ensayos con pacientes reales y desenlaces | ABIERTA; DEPENDE DE LA TAREA |
+| `CONT-MED-AI-SCRIBE-TIME-001` | ¿ahorran tiempo los escribas ambientales? | reducen el agotamiento y algo de tiempo | el ahorro es nulo con algunos productos | ensayos largos y multicéntricos con varios productos | AGOTAMIENTO MENOR; TIEMPO VARIABLE |
+| `CONT-MED-AI-LIABILITY-001` | ¿quién responde por un error de IA clínica? | el clínico que firma | el desarrollador o el hospital | casos judiciales y aplicación de la directiva de productos | ABIERTA |
+
+## CIV-008 — Controversias de escrituras, notaciones y oralidad
+
+### CONT-CIV-SCRIPTS-TOKENS-ORIGIN-001 — ¿Nació la escritura de las fichas?
+
+Schmandt-Besserat derivó la escritura de un sistema contable de fichas; las reseñas de 1993 y el estudio de casi `3000` objetos neolíticos muestran figuras multifuncionales sin sistema unificado y una derivación sólo demostrada para los numerales.
+
+**Prueba discriminatoria:** series de fichas y bullas en contextos fechados que muestren, forma por forma, la transición a signos no numéricos protocuneiformes.
+
+### CONT-CIV-SCRIPTS-INDUS-LANGUAGE-001 — ¿Codificaban lengua los signos del Indo?
+
+Una lectura drávida y una estructura de tipo lingüístico frente a la tesis de símbolos no lingüísticos basada en la brevedad (`4.6` signos de promedio, `17` como máximo).
+
+**Prueba discriminatoria:** un bilingüe, textos largos en un soporte nuevo, o una lectura que prediga inscripciones no usadas para construirla.
+
+### CONT-CIV-SCRIPTS-STATISTICS-001 — ¿Prueba la estadística que algo es lengua?
+
+Entropía condicional y árboles de decisión clasificaron Indo y pictos como lengua; una calibración mayor los clasificó como no lingüísticos.
+
+**Prueba discriminatoria:** evaluación ciega de las medidas sobre corpus breves de estatus conocido que no se usaron para ajustarlas.
+
+### CONT-CIV-SCRIPTS-CASCAJAL-001 — Contexto y estatus del bloque de Cascajal
+
+Para sus editores, la escritura más antigua del Nuevo Mundo; para sus críticos, una pieza única sin estratigrafía y con fecha estilística.
+
+**Prueba discriminatoria:** un segundo texto del mismo sistema en contexto estratigráfico fechado, o análisis de superficie que fechen las incisiones.
+
+### CONT-CIV-SCRIPTS-KHIPU-LANGUAGE-001 — ¿Escribían lengua los quipus?
+
+`95` combinaciones en quipus narrativos sugieren un logosilabario posible; los quipus contables sólo muestran aritmética y cruces con padrones.
+
+**Prueba discriminatoria:** una lectura de quipu narrativo que prediga el contenido de un documento colonial independiente.
+
+### CONT-CIV-SCRIPTS-RONGORONGO-PRECONTACT-001 — ¿Rongorongo antes del contacto?
+
+Una tablilla de madera del siglo XV abre un horizonte anterior al contacto; la hipótesis de invención tras 1770 sostiene que se inscribió madera vieja.
+
+**Prueba discriminatoria:** fechas de residuos de la incisión o de tablillas de madera de vida corta, y análisis de herramientas de corte.
+
+### CONT-CIV-SCRIPTS-ORAL-DEEPTIME-001 — Tradición oral de tiempo profundo
+
+Relatos de `21` lugares costeros se atribuyen a sucesos de más de `~7000` años; la objeción es que la coincidencia no prueba transmisión.
+
+**Prueba discriminatoria:** tradiciones con cadena de transmisión documentada y un ancla independiente del fenómeno descrito, contrastadas con relatos de control de origen reciente.
+
+### CONT-CIV-SCRIPTS-GREAT-DIVIDE-001 — La «Gran División» oralidad/escritura
+
+Goody, Watt y Ong atribuyeron a la escritura consecuencias cognitivas propias; el estudio vai y el modelo ideológico las atribuyen a la escolarización y a prácticas específicas.
+
+**Prueba discriminatoria:** comparación replicada de personas letradas no escolarizadas, escolarizadas y no letradas en tareas de razonamiento.
+
+
+### Índice tabular CIV-008
+
+| ID | Tema | Explicación dominante o práctica | Alternativa fuerte | Estado | Confianza en la síntesis |
+|---|---|---|---|---|---|
+| `CONT-CIV-SCRIPTS-TOKENS-ORIGIN-001` | fichas y escritura | continuidad numérica; fichas multifuncionales | fichas como sistema y origen | abierta | B numerales; C resto |
+| `CONT-CIV-SCRIPTS-INDUS-LANGUAGE-001` | lengua del Indo | no demostrada | no lingüístico; drávida | abierta | D |
+| `CONT-CIV-SCRIPTS-STATISTICS-001` | estadística como prueba | clasificador calibrable, no lectura | prueba de lengua | abierta | B-COND |
+| `CONT-CIV-SCRIPTS-CASCAJAL-001` | bloque de Cascajal | sistema posible sin estratigrafía | escritura olmeca más antigua | abierta | C |
+| `CONT-CIV-SCRIPTS-KHIPU-LANGUAGE-001` | quipus y lengua | contables; lengua no demostrada | logosilabario | abierta | D |
+| `CONT-CIV-SCRIPTS-RONGORONGO-PRECONTACT-001` | rongorongo y contacto | horizonte anterior posible | invención tras 1770 | abierta | C |
+| `CONT-CIV-SCRIPTS-ORAL-DEEPTIME-001` | tiempo profundo oral | coincidencia sin cadena | memoria de milenios | abierta | C |
+| `CONT-CIV-SCRIPTS-GREAT-DIVIDE-001` | Gran División | refutada en forma fuerte | escritura cambia la mente | resuelta en su forma fuerte | B |
+
+## CIV-009 — Controversias de Estados e imperios
+
+### CONT-CIV-EMPREACH-MANN-ANCIENT-001 — ¿Poder infraestructural bajo en los imperios antiguos?
+
+Mann sitúa a Acadia, Asiria, Persia y Roma en un tipo de poder despótico alto y penetración limitada; Colburn defiende el potencial de comunicación aqueménida, y archivos como Liye o los khipus muestran capacidades administrativas finas.
+
+**Prueba discriminatoria:** archivos provinciales que muestren órdenes del centro cumplidas de forma regular en periferias concretas, comparados con zonas sin ese registro.
+
+### CONT-CIV-EMPREACH-SCOTT-ZOMIA-001 — Zomia y la huida del Estado
+
+Scott lee las montañas del Sudeste asiático como refugio deliberado frente a los Estados de las llanuras; Lieberman objeta fuentes, fechas y la cronología tardía de las migraciones.
+
+**Prueba discriminatoria:** registros fechados de movimientos de población llanura→montaña anteriores al siglo XIX, con causas atribuibles a la presión estatal.
+
+### CONT-CIV-EMPREACH-ORBIS-COST-001 — Costo modelado o costo vivido
+
+ORBIS da la forma del imperio romano en costo bajo supuestos declarados; los viajes reales dependían de la temporada, la oportunidad y los precios de mercado.
+
+**Prueba discriminatoria:** costos y duraciones de viajes documentados en papiros y cartas contrastados con las predicciones del modelo para las mismas rutas.
+
+### CONT-CIV-EMPREACH-STAPLE-TRANSPORT-001 — Distancia rentable del abasto por cargadores
+
+Drennan negó la rentabilidad de mover alimentos básicos entre centros lejanos; Sluyter la hizo posible con un modelo; Cowgill aceptó un límite de radio con supuestos distintos.
+
+**Prueba discriminatoria:** registros de tributo en maíz con procedencia y destino, y evidencia arqueológica de postas o depósitos en rutas largas.
+
+### CONT-CIV-EMPREACH-ROME-GRAND-STRATEGY-001 — Gran estrategia o ejército de ocupación
+
+Luttwak propuso una gran estrategia defensiva; Isaac vio un ejército agresivo que en el Oriente ocupaba y vigilaba; sus críticos señalan funciones dobles de los fuertes.
+
+**Prueba discriminatoria:** distribución y funciones fechadas de las guarniciones respecto de la frontera y de los centros de población.
+
+### CONT-CIV-EMPREACH-AKKAD-FIRST-EMPIRE-001 — ¿Fue Acadia el primer imperio?
+
+Foster sostiene que Agade inventó un sistema fundamentalmente imperial; otros asiriólogos discuten su novedad y alcance.
+
+**Prueba discriminatoria:** textos administrativos sargónicos de provincias lejanas con tributo regular y gobernadores nombrados por el centro.
+
+### CONT-CIV-EMPREACH-INKA-INTERFERENCE-001 — Interferencia inca en incorporaciones pacíficas
+
+Una lectura sostiene que el Estado inca apenas intervenía fuera de sus centros donde la incorporación fue pacífica; Acarí muestra asentamientos nuevos con población reubicada.
+
+**Prueba discriminatoria:** prospecciones de varios valles incorporados sin resistencia con secuencias de asentamiento fechadas antes y después de la llegada inca.
+
+### CONT-CIV-EMPREACH-MALI-CAPITAL-001 — Sedes de gobierno de Mali
+
+Niani fue durante un siglo la capital propuesta; la arqueología la descarta para el siglo XIV, y la tradición oral y los textos árabes sugieren sedes móviles.
+
+**Prueba discriminatoria:** excavación con contextos fechados del siglo XIV en sitios candidatos del Níger medio, con indicadores de residencia real.
+
+
+### Índice tabular CIV-009
+
+| ID | Tema | Explicación dominante o práctica | Alternativa fuerte | Estado | Confianza en la síntesis |
+|---|---|---|---|---|---|
+| `CONT-CIV-EMPREACH-MANN-ANCIENT-001` | poder infraestructural antiguo | penetración limitada | capacidades administrativas altas | abierta | B-COND |
+| `CONT-CIV-EMPREACH-SCOTT-ZOMIA-001` | Zomia | hipótesis no demostrada | huida deliberada general | abierta | C |
+| `CONT-CIV-EMPREACH-ORBIS-COST-001` | costo romano | modelo con supuestos | viajes reales distintos | abierta | B-COND |
+| `CONT-CIV-EMPREACH-STAPLE-TRANSPORT-001` | abasto por cargadores | límite de radio | transporte largo posible | abierta | B-COND límite; C distancia |
+| `CONT-CIV-EMPREACH-ROME-GRAND-STRATEGY-001` | fronteras romanas | ocupación y policía | gran estrategia defensiva | abierta | C |
+| `CONT-CIV-EMPREACH-AKKAD-FIRST-EMPIRE-001` | Acadia | gobernadores del rey | novedad imperial discutida | abierta | C |
+| `CONT-CIV-EMPREACH-INKA-INTERFERENCE-001` | incorporación inca | reubicación aun sin resistencia | poca interferencia | abierta | B-COND |
+| `CONT-CIV-EMPREACH-MALI-CAPITAL-001` | capital de Mali | sedes móviles; Niani descartada | capital fija no hallada | abierta | C |

@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Un signo no es una lengua: seis niveles y sus saltos</title>
+  <desc id="desc">Seis cajas —signo, sistema, lengua codificada, función, institución y desciframiento— con la prueba que corresponde a cada una, unidas por líneas que indican el orden de lectura, no una herencia. Debajo, arcos discontinuos marcan lo que cada nivel no hereda del anterior: el signo no da el sistema, el sistema no da la lengua, la lengua no da la función, la función no da el Estado y la institución no da la lectura.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#0b1011"/><stop offset="1" stop-color="#171512"/></linearGradient>
+    <style>.k{font:19px Consolas,monospace;letter-spacing:2px;fill:#c39456}.h{font:23px Georgia,serif;fill:#efe3d1}.t{font:19px Arial,sans-serif;fill:#c9c2b8}.l{font:16px Arial,sans-serif;fill:#d6a27b}.small{font:14px Consolas,monospace;fill:#91ad92}.cell{font:13px Arial,sans-serif;fill:#151310}.head{font:13px Consolas,monospace;letter-spacing:1px;fill:#c39456}.row{font:15px Arial,sans-serif;fill:#e6dccd}.rule{stroke:#8b6a43;stroke-width:2}.dash{stroke:#a96545;stroke-width:2;stroke-dasharray:8 8;fill:none}</style>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <text x="60" y="96" class="k">CIV-008 · SEIS NIVELES</text>
+  <text x="60" y="150" font-family="Georgia,serif" font-size="42" fill="#f2e7d6">Un signo no es una lengua</text>
+  <text x="60" y="190" class="t">Cada archivo de signos se mide en seis niveles, cada uno con su propia prueba.</text>
+  <g transform="translate(60 300)"><rect width="220" height="150" fill="#141a19" stroke="#779176"/><text x="16" y="46" class="h">Signo</text><text x="16" y="86" class="small">inventario,</text><text x="16" y="108" class="small">paleografía</text></g>
+  <g transform="translate(312 300)"><rect width="220" height="150" fill="#141a19" stroke="#779176"/><text x="16" y="46" class="h">Sistema</text><text x="16" y="86" class="small">posición, orden,</text><text x="16" y="108" class="small">frecuencia</text></g>
+  <g transform="translate(564 300)"><rect width="220" height="150" fill="#141a19" stroke="#779176"/><text x="16" y="46" class="h">Lengua</text><text x="16" y="86" class="small">rebus, nombres,</text><text x="16" y="108" class="small">bilingües</text></g>
+  <g transform="translate(816 300)"><rect width="220" height="150" fill="#141a19" stroke="#779176"/><text x="16" y="46" class="h">Función</text><text x="16" y="86" class="small">género, contexto,</text><text x="16" y="108" class="small">aritmética</text></g>
+  <g transform="translate(1068 300)"><rect width="220" height="150" fill="#141a19" stroke="#779176"/><text x="16" y="46" class="h">Institución</text><text x="16" y="86" class="small">escribas,</text><text x="16" y="108" class="small">archivo, corte</text></g>
+  <g transform="translate(1320 300)"><rect width="220" height="150" fill="#141a19" stroke="#779176"/><text x="16" y="46" class="h">Lectura</text><text x="16" y="86" class="small">predicción</text><text x="16" y="108" class="small">reproducida</text></g>
+  <path class="rule" d="M284 375H306"/><path d="M306 369L311 375L306 381" fill="none" stroke="#8b6a43" stroke-width="2"/>
+  <path class="rule" d="M536 375H558"/><path d="M558 369L563 375L558 381" fill="none" stroke="#8b6a43" stroke-width="2"/>
+  <path class="rule" d="M788 375H810"/><path d="M810 369L815 375L810 381" fill="none" stroke="#8b6a43" stroke-width="2"/>
+  <path class="rule" d="M1040 375H1062"/><path d="M1062 369L1067 375L1062 381" fill="none" stroke="#8b6a43" stroke-width="2"/>
+  <path class="rule" d="M1292 375H1314"/><path d="M1314 369L1319 375L1314 381" fill="none" stroke="#8b6a43" stroke-width="2"/>
+  <path class="dash" d="M170 455C222 555 370 555 422 455"/><text x="250" y="594" class="l">≠ sistema</text>
+  <path class="dash" d="M422 455C474 555 622 555 674 455"/><text x="502" y="594" class="l">≠ lengua</text>
+  <path class="dash" d="M674 455C726 555 874 555 926 455"/><text x="754" y="594" class="l">≠ función</text>
+  <path class="dash" d="M926 455C978 555 1126 555 1178 455"/><text x="1006" y="594" class="l">≠ Estado</text>
+  <path class="dash" d="M1178 455C1230 555 1378 555 1430 455"/><text x="1258" y="594" class="l">≠ lectura</text>
+  <text x="60" y="700" class="t">La protocuneiforme contaba con más de mil signos y casi no anotaba la lengua; el quipu sumaba sin glifos.</text>
+  <text x="60" y="736" class="t">Una entropía de tipo lingüístico no es una lectura; una madera del siglo XV no fecha la incisión.</text>
+  <text x="60" y="772" class="t">El maya se descifró cuando sus lecturas empezaron a predecir textos nuevos.</text>
+</svg>

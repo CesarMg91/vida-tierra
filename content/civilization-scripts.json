@@ -1,0 +1,1030 @@
+{
+  "schemaVersion": 1,
+  "researchSlug": "14_civilizaciones/INVESTIGACION_CIV_008_ESCRITURAS_NOTACIONES_ORALIDAD",
+  "cases": [
+    {
+      "id": "fichas-bullas",
+      "title": "Fichas y bullas",
+      "region": "Asia sudoccidental",
+      "window": "X–IV milenio a. C.",
+      "archives": [
+        "figuras de arcilla neolíticas",
+        "bullas con impresiones",
+        "tablillas impresas"
+      ],
+      "adversary": "Schmandt-Besserat: las fichas fueron un sistema contable unificado y el origen directo de la escritura cuneiforme.",
+      "steps": [
+        {
+          "kind": "sign",
+          "status": "sostenido",
+          "observed": "Figuras geométricas de arcilla (conos, esferas, discos) en sitios desde el X milenio cal a. C.",
+          "inference": "Hubo formas repetidas y reconocibles.",
+          "limit": "Forma repetida no es signo convencional de un código.",
+          "claimIds": [
+            "CLAIM-CIV-SCRIPTS-TOKENS-MULTIFUNCTION-001"
+          ],
+          "evidenceIds": [
+            "EVID-CIV-SCRIPTS-TOKENS-001"
+          ],
+          "sourceIds": [
+            "SRC-BENNISON-TOKENS-2018",
+            "SRC-SCHMANDT-PRECURSOR-1978"
+          ]
+        },
+        {
+          "kind": "system",
+          "status": "condicionado",
+          "observed": "Bullas con figuras dentro e impresiones fuera; tablillas con impresiones numéricas.",
+          "inference": "Sistema de conteo en la fase de las bullas.",
+          "limit": "En el Neolítico no hay evidencia de un sistema simbólico unificado.",
+          "claimIds": [
+            "CLAIM-CIV-SCRIPTS-TOKENS-THESIS-001"
+          ],
+          "evidenceIds": [
+            "EVID-CIV-SCRIPTS-TOKENS-001"
+          ],
+          "sourceIds": [
+            "SRC-SCHMANDT-ORIGINS-1986",
+            "SRC-BENNISON-TOKENS-2018"
+          ]
+        },
+        {
+          "kind": "language",
+          "status": "dato-ausente",
+          "observed": "Ninguna figura de arcilla lleva una secuencia que pueda leerse como frase.",
+          "inference": "No se infiere lengua codificada; contar no exige escribir una lengua.",
+          "limit": "El significado de cada forma se asignó por parecido con signos posteriores.",
+          "claimIds": [
+            "CLAIM-CIV-SCRIPTS-TOKENS-THESIS-001"
+          ],
+          "evidenceIds": [
+            "EVID-CIV-SCRIPTS-TOKENS-001"
+          ],
+          "sourceIds": [
+            "SRC-MICHALOWSKI-TOKENISM-1993",
+            "SRC-ZIMANSKY-REVIEW-1993"
+          ]
+        },
+        {
+          "kind": "function",
+          "status": "condicionado",
+          "observed": "Casi 3000 objetos estudiados uno por uno y 56 sitios más: usos múltiples incluso en un mismo sitio.",
+          "inference": "Conteo probable entre otras funciones.",
+          "limit": "No se crearon para administrar productos agrícolas.",
+          "claimIds": [
+            "CLAIM-CIV-SCRIPTS-TOKENS-MULTIFUNCTION-001"
+          ],
+          "evidenceIds": [
+            "EVID-CIV-SCRIPTS-TOKENS-001"
+          ],
+          "sourceIds": [
+            "SRC-BENNISON-TOKENS-2018"
+          ]
+        },
+        {
+          "kind": "institution",
+          "status": "no-demostrado",
+          "observed": "Las figuras no son un componente necesario de las aldeas agropastoriles.",
+          "inference": "Administración institucional sólo en la fase tardía de las bullas.",
+          "limit": "Proyectar la administración de Uruk al Neolítico es un salto.",
+          "claimIds": [
+            "CLAIM-CIV-SCRIPTS-TOKENS-MULTIFUNCTION-001"
+          ],
+          "evidenceIds": [
+            "EVID-CIV-SCRIPTS-TOKENS-001"
+          ],
+          "sourceIds": [
+            "SRC-BENNISON-TOKENS-2018",
+            "SRC-NISSEN-URUK-2016"
+          ]
+        },
+        {
+          "kind": "decipherment",
+          "status": "dato-ausente",
+          "observed": "No hay textos que descifrar.",
+          "inference": "No se infiere un código perdido; la pregunta es de función, no de lectura.",
+          "limit": "La lectura de cada forma como mercancía es hipótesis.",
+          "claimIds": [
+            "CLAIM-CIV-SCRIPTS-TOKENS-THESIS-001"
+          ],
+          "evidenceIds": [
+            "EVID-CIV-SCRIPTS-TOKENS-001"
+          ],
+          "sourceIds": [
+            "SRC-SCHMANDT-BEFORE-WRITING-1992",
+            "SRC-MICHALOWSKI-TOKENISM-1993"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "protocuneiforme-uruk",
+      "title": "Protocuneiforme de Uruk",
+      "region": "Asia sudoccidental",
+      "window": "fines del IV milenio a. C. (Uruk IV–III)",
+      "archives": [
+        "~6000 textos y fragmentos",
+        "listas léxicas",
+        "P003414"
+      ],
+      "adversary": "La protocuneiforme ya escribía sumerio desde el principio y su escaso fonetismo es un efecto de lo que se conservó.",
+      "steps": [
+        {
+          "kind": "sign",
+          "status": "sostenido",
+          "observed": "1617 signos no numéricos en unas 40 000 apariciones; cerca de 600 sin contar variantes.",
+          "inference": "Repertorio grande y convencional.",
+          "limit": "El recuento depende de cómo se agrupan las variantes.",
+          "claimIds": [
+            "CLAIM-CIV-SCRIPTS-PROTOCUNEIFORM-ACCOUNTING-001"
+          ],
+          "evidenceIds": [
+            "EVID-CIV-SCRIPTS-PROTOCUNEIFORM-001"
+          ],
+          "sourceIds": [
+            "SRC-DAMEROW-WRITING-2006",
+            "SRC-NISSEN-URUK-2016"
+          ]
+        },
+        {
+          "kind": "system",
+          "status": "sostenido",
+          "observed": "Signos numéricos en varios sistemas metrológicos y signos de objetos en formularios.",
+          "inference": "Sistema maduro de registro.",
+          "limit": "Sus estructuras no siguen la sintaxis de una lengua.",
+          "claimIds": [
+            "CLAIM-CIV-SCRIPTS-PROTOCUNEIFORM-ACCOUNTING-001"
+          ],
+          "evidenceIds": [
+            "EVID-CIV-SCRIPTS-PROTOCUNEIFORM-001"
+          ],
+          "sourceIds": [
+            "SRC-DAMEROW-WRITING-2006"
+          ]
+        },
+        {
+          "kind": "language",
+          "status": "no-demostrado",
+          "observed": "Fonetismo con papel menor o nulo; el sumerio es la lengua probable.",
+          "inference": "Lengua probable, no probada.",
+          "limit": "Notación de la lengua sólo en una segunda etapa.",
+          "claimIds": [
+            "CLAIM-CIV-SCRIPTS-PROTOCUNEIFORM-LANGUAGE-001"
+          ],
+          "evidenceIds": [
+            "EVID-CIV-SCRIPTS-PROTOCUNEIFORM-001"
+          ],
+          "sourceIds": [
+            "SRC-NISSEN-URUK-2016",
+            "SRC-DAMEROW-WRITING-2006"
+          ]
+        },
+        {
+          "kind": "function",
+          "status": "sostenido",
+          "observed": "La mayoría de los textos son contabilidad; el resto, sobre todo listas léxicas.",
+          "inference": "Administración económica y listas de conceptos.",
+          "limit": "Un género dominante no agota los usos.",
+          "claimIds": [
+            "CLAIM-CIV-SCRIPTS-PROTOCUNEIFORM-ACCOUNTING-001",
+            "CLAIM-CIV-WRITING-ADMIN-001"
+          ],
+          "evidenceIds": [
+            "EVID-CIV-SCRIPTS-PROTOCUNEIFORM-001"
+          ],
+          "sourceIds": [
+            "SRC-DAMEROW-WRITING-2006",
+            "SRC-CDLI-P003414"
+          ]
+        },
+        {
+          "kind": "institution",
+          "status": "sostenido",
+          "observed": "Administraciones centrales en grandes asentamientos del IV milenio; listas usadas en la enseñanza.",
+          "inference": "Instituciones con escribas y archivo.",
+          "limit": "No prueba alfabetización general ni alcance estatal.",
+          "claimIds": [
+            "CLAIM-CIV-SCRIPTS-PROTOCUNEIFORM-ACCOUNTING-001",
+            "CLAIM-WRITING-NOT-STATE-REQUIREMENT-001"
+          ],
+          "evidenceIds": [
+            "EVID-CIV-SCRIPTS-PROTOCUNEIFORM-001"
+          ],
+          "sourceIds": [
+            "SRC-NISSEN-URUK-2016"
+          ]
+        },
+        {
+          "kind": "decipherment",
+          "status": "condicionado",
+          "observed": "Numerales y muchos signos se entienden por los textos posteriores.",
+          "inference": "Lectura de contenido administrativo.",
+          "limit": "La lengua de la capa más antigua no está fijada.",
+          "claimIds": [
+            "CLAIM-CIV-SCRIPTS-PROTOCUNEIFORM-LANGUAGE-001"
+          ],
+          "evidenceIds": [
+            "EVID-CIV-SCRIPTS-PROTOCUNEIFORM-001"
+          ],
+          "sourceIds": [
+            "SRC-NISSEN-URUK-2016"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "huesos-oraculares",
+      "title": "Huesos oraculares Shang",
+      "region": "Asia oriental",
+      "window": "Shang tardío, hasta ~1041 cal a. C.",
+      "archives": [
+        "omóplatos y caparazones de Anyang",
+        "AMS y modelo bayesiano",
+        "marcas neolíticas"
+      ],
+      "adversary": "El corpus regio representa toda la escritura Shang y su madurez fecha el origen de la escritura china.",
+      "steps": [
+        {
+          "kind": "sign",
+          "status": "sostenido",
+          "observed": "Signos tallados junto a las grietas de la adivinación.",
+          "inference": "Repertorio convencional.",
+          "limit": "Sólo se conserva el soporte duro.",
+          "claimIds": [
+            "CLAIM-CIV-SCRIPTS-SHANG-ORACLE-001"
+          ],
+          "evidenceIds": [
+            "EVID-CIV-SCRIPTS-SHANG-001"
+          ],
+          "sourceIds": [
+            "SRC-KEIGHTLEY-SHANG-1978"
+          ]
+        },
+        {
+          "kind": "system",
+          "status": "sostenido",
+          "observed": "Fórmulas con pregunta, pronóstico y a veces resultado.",
+          "inference": "Sistema con géneros fijos.",
+          "limit": "Formulario ritual, no todos los usos.",
+          "claimIds": [
+            "CLAIM-CIV-SCRIPTS-SHANG-ORACLE-001"
+          ],
+          "evidenceIds": [
+            "EVID-CIV-SCRIPTS-SHANG-001"
+          ],
+          "sourceIds": [
+            "SRC-KEIGHTLEY-SHANG-1978"
+          ]
+        },
+        {
+          "kind": "language",
+          "status": "sostenido",
+          "observed": "Logogramas y signos usados por su sonido; textos leídos.",
+          "inference": "Escritura glotográfica madura.",
+          "limit": "Madurez no fecha el origen.",
+          "claimIds": [
+            "CLAIM-CIV-SCRIPTS-SHANG-ORACLE-001"
+          ],
+          "evidenceIds": [
+            "EVID-CIV-SCRIPTS-SHANG-001"
+          ],
+          "sourceIds": [
+            "SRC-KEIGHTLEY-SHANG-1978",
+            "SRC-LIU-ORACLE-BONES-2021"
+          ]
+        },
+        {
+          "kind": "function",
+          "status": "sostenido",
+          "observed": "Adivinación por calor sobre hueso y caparazón preparados.",
+          "inference": "Registro ritual y político de la corte.",
+          "limit": "Un género no representa la escritura cotidiana.",
+          "claimIds": [
+            "CLAIM-CIV-SCRIPTS-SHANG-ORACLE-001"
+          ],
+          "evidenceIds": [
+            "EVID-CIV-SCRIPTS-SHANG-001"
+          ],
+          "sourceIds": [
+            "SRC-KEIGHTLEY-SHANG-1978"
+          ]
+        },
+        {
+          "kind": "institution",
+          "status": "sostenido",
+          "observed": "Grupos de adivinos asociados a reyes; series fechadas por AMS.",
+          "inference": "Archivo de la corte Shang tardía.",
+          "limit": "No informa del uso fuera de la corte.",
+          "claimIds": [
+            "CLAIM-CIV-SCRIPTS-SHANG-ORACLE-001",
+            "CLAIM-CIVILIZATIONS-CHINA-NAME-LIMIT-001"
+          ],
+          "evidenceIds": [
+            "EVID-CIV-SCRIPTS-SHANG-001"
+          ],
+          "sourceIds": [
+            "SRC-LIU-ORACLE-BONES-2021"
+          ]
+        },
+        {
+          "kind": "decipherment",
+          "status": "condicionado",
+          "observed": "Gran parte del corpus se lee; antecedentes neolíticos propuestos.",
+          "inference": "Lectura sostenida del corpus regio.",
+          "limit": "El paso de las marcas neolíticas al signo fonético no tiene serie continua.",
+          "claimIds": [
+            "CLAIM-CIV-SCRIPTS-CHINA-NEOLITHIC-SIGNS-001"
+          ],
+          "evidenceIds": [
+            "EVID-CIV-SCRIPTS-SHANG-001"
+          ],
+          "sourceIds": [
+            "SRC-DEMATTE-CHINESE-2010"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "signos-indo",
+      "title": "Signos del Indo",
+      "region": "Asia meridional (Indo)",
+      "window": "c. 2600–1900 a. C.",
+      "archives": [
+        "sellos y sellamientos",
+        "concordancia de 2905 objetos",
+        "medidas de entropía"
+      ],
+      "adversary": "Farmer, Sproat y Witzel: los signos del Indo no codificaban lengua; eran símbolos religiosos, políticos y sociales.",
+      "steps": [
+        {
+          "kind": "sign",
+          "status": "sostenido",
+          "observed": "417 signos en 13 372 apariciones; cuatro signos suman el 21 %.",
+          "inference": "Repertorio convencional dominado por pocos signos.",
+          "limit": "El inventario se discute entre editores.",
+          "claimIds": [
+            "CLAIM-CIV-SCRIPTS-INDUS-BREVITY-001"
+          ],
+          "evidenceIds": [
+            "EVID-CIV-SCRIPTS-INDUS-001"
+          ],
+          "sourceIds": [
+            "SRC-FARMER-INDUS-2004"
+          ]
+        },
+        {
+          "kind": "system",
+          "status": "sostenido",
+          "observed": "Dependencias posicionales y orden regular de signos.",
+          "inference": "Sistema con reglas de combinación.",
+          "limit": "Estructura no es lengua.",
+          "claimIds": [
+            "CLAIM-CIV-SCRIPTS-INDUS-STATUS-001",
+            "CLAIM-CIVILIZATIONS-INDUS-UNDECIPHERED-001"
+          ],
+          "evidenceIds": [
+            "EVID-CIV-SCRIPTS-INDUS-001"
+          ],
+          "sourceIds": [
+            "SRC-RAO-INDUS-MARKOV-2009"
+          ]
+        },
+        {
+          "kind": "language",
+          "status": "no-demostrado",
+          "observed": "Entropía de tipo lingüístico en 2009; reclasificado como no lingüístico con calibración mayor en 2014.",
+          "inference": "Ninguna clasificación estadística es una lectura.",
+          "limit": "Sin bilingüe ni nombres propios leídos.",
+          "claimIds": [
+            "CLAIM-CIV-SCRIPTS-INDUS-STATUS-001",
+            "CLAIM-CIV-SCRIPTS-STATISTICS-LIMIT-001"
+          ],
+          "evidenceIds": [
+            "EVID-CIV-SCRIPTS-STATISTICS-001"
+          ],
+          "sourceIds": [
+            "SRC-RAO-INDUS-ENTROPY-2009",
+            "SRC-SPROAT-SYMBOLS-2014"
+          ]
+        },
+        {
+          "kind": "function",
+          "status": "condicionado",
+          "observed": "Promedio de 4.6 signos por objeto; máximo 17; sobre todo sellos.",
+          "inference": "Marcas breves de identidad, cargo o propiedad.",
+          "limit": "Textos perecederos largos no se han hallado.",
+          "claimIds": [
+            "CLAIM-CIV-SCRIPTS-INDUS-BREVITY-001"
+          ],
+          "evidenceIds": [
+            "EVID-CIV-SCRIPTS-INDUS-001"
+          ],
+          "sourceIds": [
+            "SRC-FARMER-INDUS-2004"
+          ]
+        },
+        {
+          "kind": "institution",
+          "status": "no-demostrado",
+          "observed": "Sellos estandarizados en un territorio amplio.",
+          "inference": "Convenciones compartidas entre ciudades.",
+          "limit": "Quién controlaba los sellos no está en el archivo.",
+          "claimIds": [
+            "CLAIM-CIV-SCRIPTS-INDUS-STATUS-001"
+          ],
+          "evidenceIds": [
+            "EVID-CIV-SCRIPTS-INDUS-001"
+          ],
+          "sourceIds": [
+            "SRC-FARMER-INDUS-2004",
+            "SRC-PARPOLA-INDUS-1994"
+          ]
+        },
+        {
+          "kind": "decipherment",
+          "status": "no-demostrado",
+          "observed": "Más de un centenar de desciframientos publicados desde 1877; ninguno reproducido.",
+          "inference": "No descifrado.",
+          "limit": "La lectura drávida es una propuesta.",
+          "claimIds": [
+            "CLAIM-CIV-SCRIPTS-DECIPHERMENT-CRITERIA-001",
+            "CLAIM-CIVILIZATIONS-INDUS-UNDECIPHERED-001"
+          ],
+          "evidenceIds": [
+            "EVID-CIV-SCRIPTS-INDUS-001"
+          ],
+          "sourceIds": [
+            "SRC-FARMER-INDUS-2004",
+            "SRC-PARPOLA-INDUS-1994"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bloque-cascajal",
+      "title": "Bloque de Cascajal y San Andrés",
+      "region": "Mesoamérica (Golfo)",
+      "window": "inicios del I milenio a. C.–~650 a. C.",
+      "archives": [
+        "bloque de serpentina",
+        "sello cilíndrico y placa de San Andrés"
+      ],
+      "adversary": "Cascajal es la escritura más antigua del Nuevo Mundo y prueba un sistema olmeca de escritura.",
+      "steps": [
+        {
+          "kind": "sign",
+          "status": "sostenido",
+          "observed": "62 signos tallados, 28 distintos, según los editores.",
+          "inference": "Signos convencionales.",
+          "limit": "Cifras del artículo, sin texto completo releído aquí.",
+          "claimIds": [
+            "CLAIM-CIV-SCRIPTS-CASCAJAL-001"
+          ],
+          "evidenceIds": [
+            "EVID-CIV-SCRIPTS-OLMEC-001"
+          ],
+          "sourceIds": [
+            "SRC-RODRIGUEZ-CASCAJAL-2006"
+          ]
+        },
+        {
+          "kind": "system",
+          "status": "condicionado",
+          "observed": "Signos repetidos en secuencias.",
+          "inference": "Posible sistema con orden.",
+          "limit": "Un solo texto no basta para fijar reglas.",
+          "claimIds": [
+            "CLAIM-CIV-SCRIPTS-CASCAJAL-001"
+          ],
+          "evidenceIds": [
+            "EVID-CIV-SCRIPTS-OLMEC-001"
+          ],
+          "sourceIds": [
+            "SRC-RODRIGUEZ-CASCAJAL-2006",
+            "SRC-BRUHNS-CASCAJAL-2007"
+          ]
+        },
+        {
+          "kind": "language",
+          "status": "no-demostrado",
+          "observed": "Sin lectura; en San Andrés, signo de día del calendario de 260 días.",
+          "inference": "Calendario sostenido en San Andrés; habla, lectura de los autores.",
+          "limit": "Pieza única sin bilingüe.",
+          "claimIds": [
+            "CLAIM-CIV-SCRIPTS-CASCAJAL-001",
+            "CLAIM-CIV-SCRIPTS-OLMEC-SANANDRES-001"
+          ],
+          "evidenceIds": [
+            "EVID-CIV-SCRIPTS-OLMEC-001"
+          ],
+          "sourceIds": [
+            "SRC-POHL-OLMEC-2002"
+          ]
+        },
+        {
+          "kind": "function",
+          "status": "no-demostrado",
+          "observed": "Bloque hallado en material removido por trabajos de un camino.",
+          "inference": "Función desconocida.",
+          "limit": "Sin contexto estratigráfico.",
+          "claimIds": [
+            "CLAIM-CIV-SCRIPTS-CASCAJAL-001"
+          ],
+          "evidenceIds": [
+            "EVID-CIV-SCRIPTS-OLMEC-001"
+          ],
+          "sourceIds": [
+            "SRC-RODRIGUEZ-CASCAJAL-2006",
+            "SRC-BRUHNS-CASCAJAL-2007"
+          ]
+        },
+        {
+          "kind": "institution",
+          "status": "dato-ausente",
+          "observed": "No hay archivo de escribas ni de uso.",
+          "inference": "No se infiere un aparato letrado olmeca.",
+          "limit": "En San Andrés los autores vinculan escritura y realeza.",
+          "claimIds": [
+            "CLAIM-CIV-SCRIPTS-OLMEC-SANANDRES-001"
+          ],
+          "evidenceIds": [
+            "EVID-CIV-SCRIPTS-OLMEC-001"
+          ],
+          "sourceIds": [
+            "SRC-POHL-OLMEC-2002"
+          ]
+        },
+        {
+          "kind": "decipherment",
+          "status": "no-demostrado",
+          "observed": "Ninguna lectura publicada se ha reproducido.",
+          "inference": "No descifrado.",
+          "limit": "Fecha estilística y contexto discutidos.",
+          "claimIds": [
+            "CLAIM-CIV-SCRIPTS-CASCAJAL-001",
+            "CLAIM-CIV-SCRIPTS-DECIPHERMENT-CRITERIA-001"
+          ],
+          "evidenceIds": [
+            "EVID-CIV-SCRIPTS-OLMEC-001"
+          ],
+          "sourceIds": [
+            "SRC-BRUHNS-CASCAJAL-2007"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "escritura-maya",
+      "title": "Escritura maya",
+      "region": "Mesoamérica (tierras bajas mayas)",
+      "window": "300–200 a. C. en adelante",
+      "archives": [
+        "murales de San Bartolo",
+        "estelas de Piedras Negras",
+        "historia del desciframiento"
+      ],
+      "adversary": "La escuela ideográfica sostuvo que los glifos registraban sólo ideas, calendario y ritual, no habla ni historia.",
+      "steps": [
+        {
+          "kind": "sign",
+          "status": "sostenido",
+          "observed": "Glifos pintados en San Bartolo con varias manos de escribas.",
+          "inference": "Repertorio convencional temprano.",
+          "limit": "Fragmentos de enlucido.",
+          "claimIds": [
+            "CLAIM-CIV-SCRIPTS-MAYA-EARLY-001"
+          ],
+          "evidenceIds": [
+            "EVID-CIV-SCRIPTS-MAYA-001"
+          ],
+          "sourceIds": [
+            "SRC-STUART-SANBARTOLO-2022"
+          ]
+        },
+        {
+          "kind": "system",
+          "status": "sostenido",
+          "observed": "Registro de día «7 Venado» y otros 10 fragmentos en contexto sellado de 300–200 a. C.",
+          "inference": "Tradición escrita establecida.",
+          "limit": "Lo temprano no se lee completo.",
+          "claimIds": [
+            "CLAIM-CIV-SCRIPTS-MAYA-EARLY-001"
+          ],
+          "evidenceIds": [
+            "EVID-CIV-SCRIPTS-MAYA-001"
+          ],
+          "sourceIds": [
+            "SRC-STUART-SANBARTOLO-2022",
+            "SRC-SATURNO-SANBARTOLO-2006"
+          ]
+        },
+        {
+          "kind": "language",
+          "status": "sostenido",
+          "observed": "Valores silábicos y logogramas; lecturas que predicen textos nuevos.",
+          "inference": "Escritura logosilábica de lenguas mayas.",
+          "limit": "Los textos más tempranos se leen menos.",
+          "claimIds": [
+            "CLAIM-CIV-SCRIPTS-MAYA-DECIPHERMENT-001",
+            "CLAIM-CIV-SCRIPTS-GLOTTOGRAPHY-TEST-001"
+          ],
+          "evidenceIds": [
+            "EVID-CIV-SCRIPTS-MAYA-001"
+          ],
+          "sourceIds": [
+            "SRC-KNOROZOV-MAYA-1958",
+            "SRC-COE-MAYA-CODE-1992"
+          ]
+        },
+        {
+          "kind": "function",
+          "status": "sostenido",
+          "observed": "Fechas de estelas agrupadas en vidas de gobernantes.",
+          "inference": "Historia dinástica además de calendario y ritual.",
+          "limit": "Textos de élite.",
+          "claimIds": [
+            "CLAIM-CIV-SCRIPTS-MAYA-DECIPHERMENT-001"
+          ],
+          "evidenceIds": [
+            "EVID-CIV-SCRIPTS-MAYA-001"
+          ],
+          "sourceIds": [
+            "SRC-PROSKOURIAKOFF-PIEDRAS-1960"
+          ]
+        },
+        {
+          "kind": "institution",
+          "status": "condicionado",
+          "observed": "Escribas, cortes y monumentos públicos.",
+          "inference": "Escritura de cortes y élites.",
+          "limit": "Alcance social de la lectura no medido.",
+          "claimIds": [
+            "CLAIM-CIV-SCRIPTS-MAYA-EARLY-001"
+          ],
+          "evidenceIds": [
+            "EVID-CIV-SCRIPTS-MAYA-001"
+          ],
+          "sourceIds": [
+            "SRC-STUART-SANBARTOLO-2022"
+          ]
+        },
+        {
+          "kind": "decipherment",
+          "status": "sostenido",
+          "observed": "Lecturas fonéticas e históricas reproducidas por equipos independientes.",
+          "inference": "Descifrado en su mayor parte.",
+          "limit": "La aceptación tardó décadas por resistencia de escuela.",
+          "claimIds": [
+            "CLAIM-CIV-SCRIPTS-MAYA-DECIPHERMENT-001",
+            "CLAIM-CIV-SCRIPTS-DECIPHERMENT-CRITERIA-001"
+          ],
+          "evidenceIds": [
+            "EVID-CIV-SCRIPTS-MAYA-001"
+          ],
+          "sourceIds": [
+            "SRC-COE-MAYA-CODE-1992",
+            "SRC-PROSKOURIAKOFF-PIEDRAS-1960"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "quipus-incas",
+      "title": "Quipus",
+      "region": "Andes",
+      "window": "Tawantinsuyu–siglo XVIII",
+      "archives": [
+        "650 quipus en análisis computacional",
+        "revisita de 1670",
+        "quipus de Collata"
+      ],
+      "adversary": "Los quipus narrativos eran una escritura logosilábica completa que todavía no hemos leído.",
+      "steps": [
+        {
+          "kind": "sign",
+          "status": "sostenido",
+          "observed": "Nudos, colores, fibras y direcciones de torsión; 95 combinaciones en dos quipus de Collata.",
+          "inference": "Unidades convencionales.",
+          "limit": "La unidad mínima depende del análisis.",
+          "claimIds": [
+            "CLAIM-CIV-SCRIPTS-KHIPU-LANGUAGE-001"
+          ],
+          "evidenceIds": [
+            "EVID-CIV-SCRIPTS-KHIPU-001"
+          ],
+          "sourceIds": [
+            "SRC-HYLAND-KHIPU-2017",
+            "SRC-URTON-SIGNS-KHIPU-2003"
+          ]
+        },
+        {
+          "kind": "system",
+          "status": "sostenido",
+          "observed": "Al menos 74 % de 650 quipus muestran relaciones de suma; cuerdas blancas como límites.",
+          "inference": "Sistema numérico con reglas.",
+          "limit": "Modelo aritmético exacto discutido (posicional o no).",
+          "claimIds": [
+            "CLAIM-CIV-SCRIPTS-KHIPU-ACCOUNTING-001"
+          ],
+          "evidenceIds": [
+            "EVID-CIV-SCRIPTS-KHIPU-001"
+          ],
+          "sourceIds": [
+            "SRC-MEDRANO-KHOSLA-KHIPU-2024",
+            "SRC-FLORIO-OVERMANN-INKA-2025"
+          ]
+        },
+        {
+          "kind": "language",
+          "status": "no-demostrado",
+          "observed": "95 combinaciones en el intervalo de los logosilabarios; secuencias finales como posibles nombres de linaje.",
+          "inference": "Codificación lingüística posible, no probada.",
+          "limit": "Sin lecturas que predigan textos nuevos.",
+          "claimIds": [
+            "CLAIM-CIV-SCRIPTS-KHIPU-LANGUAGE-001"
+          ],
+          "evidenceIds": [
+            "EVID-CIV-SCRIPTS-KHIPU-001"
+          ],
+          "sourceIds": [
+            "SRC-HYLAND-KHIPU-2017"
+          ]
+        },
+        {
+          "kind": "function",
+          "status": "sostenido",
+          "observed": "Sumas jerárquicas entre quipus; un conjunto coincide con el tributo de una revisita de 1670.",
+          "inference": "Contabilidad y censo.",
+          "limit": "Procedencia referida de los quipus del Santa.",
+          "claimIds": [
+            "CLAIM-CIV-SCRIPTS-KHIPU-ACCOUNTING-001",
+            "CLAIM-CIV-SCRIPTS-KHIPU-CENSUS-001"
+          ],
+          "evidenceIds": [
+            "EVID-CIV-SCRIPTS-KHIPU-001"
+          ],
+          "sourceIds": [
+            "SRC-URTON-BREZINE-KHIPU-2005",
+            "SRC-MEDRANO-URTON-KHIPU-2018"
+          ]
+        },
+        {
+          "kind": "institution",
+          "status": "sostenido",
+          "observed": "132 tributarios en seis pachacas frente a 133 grupos de cuerdas; división binaria de inserción.",
+          "inference": "Administración de tributo y de mitades.",
+          "limit": "Lectura de nombres por color es hipótesis.",
+          "claimIds": [
+            "CLAIM-CIV-SCRIPTS-KHIPU-CENSUS-001",
+            "CLAIM-CIVILIZATIONS-ANDES-ORALITY-001"
+          ],
+          "evidenceIds": [
+            "EVID-CIV-SCRIPTS-KHIPU-001"
+          ],
+          "sourceIds": [
+            "SRC-MEDRANO-URTON-KHIPU-2018"
+          ]
+        },
+        {
+          "kind": "decipherment",
+          "status": "condicionado",
+          "observed": "Valores numéricos leídos; un fragmento roto reunido por aritmética.",
+          "inference": "Lectura numérica sostenida.",
+          "limit": "Lo no numérico sigue abierto.",
+          "claimIds": [
+            "CLAIM-CIV-SCRIPTS-KHIPU-ACCOUNTING-001",
+            "CLAIM-CIV-SCRIPTS-DECIPHERMENT-CRITERIA-001"
+          ],
+          "evidenceIds": [
+            "EVID-CIV-SCRIPTS-KHIPU-001"
+          ],
+          "sourceIds": [
+            "SRC-MEDRANO-KHOSLA-KHIPU-2024"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rongorongo",
+      "title": "Rongorongo",
+      "region": "Oceanía (Rapa Nui)",
+      "window": "siglo XV (madera)–siglo XIX",
+      "archives": [
+        "menos de 30 objetos de madera",
+        "14C de cuatro tablillas en Roma",
+        "análisis de colocaciones"
+      ],
+      "adversary": "El rongorongo se inventó tras ver documentos europeos en 1770; la fecha de la madera no fecha la incisión.",
+      "steps": [
+        {
+          "kind": "sign",
+          "status": "sostenido",
+          "observed": "Glifos incisos en menos de 30 objetos de madera.",
+          "inference": "Repertorio convencional.",
+          "limit": "Corpus pequeño.",
+          "claimIds": [
+            "CLAIM-CIV-SCRIPTS-RONGORONGO-CONTENT-001"
+          ],
+          "evidenceIds": [
+            "EVID-CIV-SCRIPTS-RONGORONGO-001"
+          ],
+          "sourceIds": [
+            "SRC-FERRARA-RONGORONGO-2024"
+          ]
+        },
+        {
+          "kind": "system",
+          "status": "condicionado",
+          "observed": "Segmentos que comparten glifos con inscripciones breves de adornos personales.",
+          "inference": "Sistema con colocaciones recurrentes.",
+          "limit": "Segmentación del investigador.",
+          "claimIds": [
+            "CLAIM-CIV-SCRIPTS-RONGORONGO-CONTENT-001"
+          ],
+          "evidenceIds": [
+            "EVID-CIV-SCRIPTS-RONGORONGO-001"
+          ],
+          "sourceIds": [
+            "SRC-DESOUZA-RONGORONGO-2025"
+          ]
+        },
+        {
+          "kind": "language",
+          "status": "no-demostrado",
+          "observed": "Nombres propios probables en un texto.",
+          "inference": "Posible codificación de nombres.",
+          "limit": "Sin lecturas fonéticas reproducidas.",
+          "claimIds": [
+            "CLAIM-CIV-SCRIPTS-RONGORONGO-CONTENT-001"
+          ],
+          "evidenceIds": [
+            "EVID-CIV-SCRIPTS-RONGORONGO-001"
+          ],
+          "sourceIds": [
+            "SRC-DESOUZA-RONGORONGO-2025"
+          ]
+        },
+        {
+          "kind": "function",
+          "status": "no-demostrado",
+          "observed": "Hipótesis de genealogías, listas de nombres y cantos cosmogónicos.",
+          "inference": "Géneros que se mezclan en Polinesia.",
+          "limit": "Estructura, no contenido.",
+          "claimIds": [
+            "CLAIM-CIV-SCRIPTS-RONGORONGO-CONTENT-001"
+          ],
+          "evidenceIds": [
+            "EVID-CIV-SCRIPTS-RONGORONGO-001"
+          ],
+          "sourceIds": [
+            "SRC-DESOUZA-RONGORONGO-2025"
+          ]
+        },
+        {
+          "kind": "institution",
+          "status": "dato-ausente",
+          "observed": "No hay archivo de quién escribía ni de quién leía antes del siglo XIX.",
+          "inference": "No se infiere una institución letrada ni su ausencia.",
+          "limit": "Transmisión interrumpida en el siglo XIX.",
+          "claimIds": [
+            "CLAIM-CIV-SCRIPTS-RONGORONGO-DATE-001"
+          ],
+          "evidenceIds": [
+            "EVID-CIV-SCRIPTS-RONGORONGO-001"
+          ],
+          "sourceIds": [
+            "SRC-FERRARA-RONGORONGO-2024"
+          ]
+        },
+        {
+          "kind": "decipherment",
+          "status": "no-demostrado",
+          "observed": "Una tablilla de madera de mediados del siglo XV; las otras tres del siglo XIX.",
+          "inference": "Horizonte anterior al contacto posible.",
+          "limit": "Madera no es incisión; no descifrado.",
+          "claimIds": [
+            "CLAIM-CIV-SCRIPTS-RONGORONGO-DATE-001"
+          ],
+          "evidenceIds": [
+            "EVID-CIV-SCRIPTS-RONGORONGO-001"
+          ],
+          "sourceIds": [
+            "SRC-FERRARA-RONGORONGO-2024"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tradicion-oral-africa",
+      "title": "Tradiciones orales",
+      "region": "África",
+      "window": "registros de los siglos XIX–XX sobre siglos anteriores",
+      "archives": [
+        "variantes transcritas",
+        "listas de reyes y genealogías",
+        "crítica de fuentes"
+      ],
+      "adversary": "Las tradiciones orales conservan información intacta durante milenios (tiempo profundo) o, en el extremo opuesto, no sirven como fuente histórica.",
+      "steps": [
+        {
+          "kind": "sign",
+          "status": "dato-ausente",
+          "observed": "La tradición oral no usa signos gráficos.",
+          "inference": "No se infiere ausencia de archivo: el soporte es la voz y la práctica.",
+          "limit": "La transcripción moderna es otro archivo.",
+          "claimIds": [
+            "CLAIM-CIV-SCRIPTS-NO-COGNITIVE-HIERARCHY-001"
+          ],
+          "evidenceIds": [
+            "EVID-CIV-SCRIPTS-ORAL-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-AFRICA-VANSINA-1985"
+          ]
+        },
+        {
+          "kind": "system",
+          "status": "sostenido",
+          "observed": "Géneros con reglas: listas, genealogías, epopeyas, fórmulas.",
+          "inference": "Sistemas de transmisión con forma propia.",
+          "limit": "Cada género transmite cosas distintas.",
+          "claimIds": [
+            "CLAIM-CIV-SCRIPTS-ORAL-METHOD-001"
+          ],
+          "evidenceIds": [
+            "EVID-CIV-SCRIPTS-ORAL-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-AFRICA-VANSINA-1985"
+          ]
+        },
+        {
+          "kind": "language",
+          "status": "sostenido",
+          "observed": "Se transmite en la lengua misma.",
+          "inference": "Codificación lingüística directa.",
+          "limit": "Variantes entre narradores.",
+          "claimIds": [
+            "CLAIM-CIV-SCRIPTS-ORAL-METHOD-001"
+          ],
+          "evidenceIds": [
+            "EVID-CIV-SCRIPTS-ORAL-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-AFRICA-VANSINA-1985"
+          ]
+        },
+        {
+          "kind": "function",
+          "status": "sostenido",
+          "observed": "Memoria, legitimidad, genealogía y derecho.",
+          "inference": "Archivo con funciones sociales.",
+          "limit": "La función presente reajusta el pasado.",
+          "claimIds": [
+            "CLAIM-CIV-SCRIPTS-ORAL-METHOD-001"
+          ],
+          "evidenceIds": [
+            "EVID-CIV-SCRIPTS-ORAL-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-AFRICA-VANSINA-1985",
+            "SRC-HENIGE-CHRONOLOGY-1974"
+          ]
+        },
+        {
+          "kind": "institution",
+          "status": "condicionado",
+          "observed": "Cortes, linajes y especialistas de la palabra.",
+          "inference": "Transmisión institucional.",
+          "limit": "Contaminación por fuentes escritas tempranas.",
+          "claimIds": [
+            "CLAIM-CIV-SCRIPTS-ORAL-METHOD-001"
+          ],
+          "evidenceIds": [
+            "EVID-CIV-SCRIPTS-ORAL-001"
+          ],
+          "sourceIds": [
+            "SRC-HENIGE-CHRONOLOGY-1974"
+          ]
+        },
+        {
+          "kind": "decipherment",
+          "status": "condicionado",
+          "observed": "Cronologías comprimidas o alargadas; afirmaciones de tiempo profundo sin cadena verificable.",
+          "inference": "Secuencias relativas sí; fechas absolutas con ancla externa.",
+          "limit": "Coincidencia con un fenómeno no prueba transmisión.",
+          "claimIds": [
+            "CLAIM-CIV-SCRIPTS-ORAL-DEEPTIME-001"
+          ],
+          "evidenceIds": [
+            "EVID-CIV-SCRIPTS-ORAL-001"
+          ],
+          "sourceIds": [
+            "SRC-HENIGE-DEEPTIME-2009",
+            "SRC-NUNN-REID-2016"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -73,8 +73,8 @@ La numeración futura se asignará al iniciar cada expediente para no crear IDs 
 5. [`INV-CIV-NILE-001`](INVESTIGACION_CIV_004_VALLE_NILO_AFRICA_NORORIENTAL.md) — Nilo y África nororiental: pastoralismos, agregación y formación estatal — **AUDITADO como CIV-004**.
 6. [`INV-CIV-DOMESTICATIONS-001`](INVESTIGACION_CIV_006_DOMESTICACIONES_ALDEAS_REGIONALES.md) — domesticaciones y aldeas de Asia oriental, Nueva Guinea, África y Américas por archivos regionales — **AUDITADO como CIV-006**.
 7. [`INV-CIV-URBANISMS-001`](INVESTIGACION_CIV_007_URBANISMOS_COMPARADOS.md) — urbanismos comparados: Mesopotamia, Indo, China, Mesoamérica, Andes, África y Norteamérica — **AUDITADO como CIV-007**.
-8. Escrituras, notaciones, oralidad y archivos administrativos sin jerarquía cognitiva.
-9. Estados e imperios: reclamación, logística, negociación y control desigual.
+8. [`INV-CIV-SCRIPTS-001`](INVESTIGACION_CIV_008_ESCRITURAS_NOTACIONES_ORALIDAD.md) — escrituras, notaciones, oralidad y archivos administrativos sin jerarquía cognitiva — **AUDITADO como CIV-008**.
+9. [`INV-CIV-EMPIRES-001`](INVESTIGACION_CIV_009_ESTADOS_IMPERIOS_CONTROL_DESIGUAL.md) — Estados e imperios: reclamación, logística, negociación y control desigual — **AUDITADO como CIV-009**.
 10. Transformaciones, fragmentaciones y persistencias sin «colapso de la civilización» como explicación.
 
 Cada expediente regional deberá incorporar especialistas, instituciones patrimoniales y, cuando corresponda, comunidades de la región estudiada. Una síntesis global no sustituirá excavaciones ni ediciones críticas locales.

@@ -10,6 +10,8 @@ import CivilizationSouthwestAsia from "../../components/CivilizationSouthwestAsi
 import CivilizationNile from "../../components/CivilizationNile";
 import CivilizationDomesticationsLab from "../../components/CivilizationDomesticationsLab";
 import CivilizationUrbanismsLab from "../../components/CivilizationUrbanismsLab";
+import CivilizationScriptsLab from "../../components/CivilizationScriptsLab";
+import CivilizationEmpiresLab from "../../components/CivilizationEmpiresLab";
 import { chronologyLanes, civilizationCases } from "../../lib/civilizations";
 import { civilizationDating } from "../../lib/civilization-dating";
 import { civilizationIdentities } from "../../lib/civilization-identities";
@@ -17,6 +19,8 @@ import { southwestAsia } from "../../lib/civilization-swasia";
 import { nileValley } from "../../lib/civilization-nile";
 import { civilizationDomestications } from "../../lib/civilization-domestications";
 import { civilizationUrbanisms } from "../../lib/civilization-urbanisms";
+import { civilizationScripts } from "../../lib/civilization-scripts";
+import { civilizationEmpires } from "../../lib/civilization-empires";
 import { getCivilizationMapData } from "../../lib/civilization-map";
 import { getCatalog } from "../../lib/public-data";
 import { createPageMetadata } from "../../lib/site";
@@ -206,6 +210,28 @@ export default function CivilizationsPage() {
           <p>Elige un caso —Mohenjo-daro, Liangzhu, Teotihuacan, Tikal y Caracol, Caral y Chan Chan, Jenne-jeno, Gran Zimbabue, las ciudades suajili o Cahokia— y recorre siete dimensiones: densidad, extensión, monumentalidad, planificación, desigualdad, gobernanza y abastecimiento. Ningún caso las tiene todas y ninguna cifra de población es un conteo.</p>
         </div>
         <CivilizationUrbanismsLab data={civilizationUrbanisms} />
+      </section>
+
+      <section className="civilization-dating-section" aria-labelledby="scripts-title">
+        <div className="section-heading">
+          <div>
+            <p className="eyebrow">Escrituras, notaciones y oralidad</p>
+            <h2 id="scripts-title">Un signo no es una lengua</h2>
+          </div>
+          <p>Elige un archivo —fichas y bullas, protocuneiforme de Uruk, huesos oraculares Shang, signos del Indo, el bloque de Cascajal, la escritura maya, los quipus, el rongorongo o las tradiciones orales africanas— y recorre seis niveles: signo, sistema, lengua codificada, función, institución y desciframiento. Ninguno los tiene todos, y ninguno está por encima de otro.</p>
+        </div>
+        <CivilizationScriptsLab data={civilizationScripts} />
+      </section>
+
+      <section className="civilization-dating-section" aria-labelledby="empires-title">
+        <div className="section-heading">
+          <div>
+            <p className="eyebrow">Estados e imperios</p>
+            <h2 id="empires-title">Un mapa no es un dominio</h2>
+          </div>
+          <p>Elige un caso —Acadia y Ur III, Asiria, Persia aqueménida, Qin y Han, Roma, el Tawantinsuyu, la Triple Alianza mexica o Mali y Songhai— y recorre siete dimensiones: reclamación, presencia, logística, tributo, archivo, negociación y control efectivo. Ningún caso tiene el control sostenido sobre todo lo que reclamaba, y un archivo denso no es un dominio extenso.</p>
+        </div>
+        <CivilizationEmpiresLab data={civilizationEmpires} />
       </section>
 
       <section className="civilization-chronology-section" aria-labelledby="chronology-title">

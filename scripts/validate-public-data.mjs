@@ -246,6 +246,28 @@ for (const urbanCase of urbanismsData.cases) {
   }
 }
 
+const scriptsData = JSON.parse(fs.readFileSync(path.join(ROOT, "content", "civilization-scripts.json"), "utf8"));
+const scriptLevelKinds = ["sign", "system", "language", "function", "institution", "decipherment"];
+const scriptLevelStatuses = new Set(["sostenido", "condicionado", "no-demostrado", "dato-ausente"]);
+check(scriptsData.schemaVersion === 1, "el módulo de escrituras usa una versión de esquema desconocida");
+check(researchSlugs.has(scriptsData.researchSlug), `el módulo de escrituras apunta a un expediente inexistente: ${scriptsData.researchSlug}`);
+check(Array.isArray(scriptsData.cases) && scriptsData.cases.length > 0, "el módulo de escrituras no contiene archivos");
+check(duplicates(scriptsData.cases.map((record) => record.id)).length === 0, "el módulo de escrituras contiene archivos duplicados");
+for (const scriptCase of scriptsData.cases) {
+  check(Boolean(scriptCase.title) && Boolean(scriptCase.region) && Boolean(scriptCase.adversary), `${scriptCase.id} no declara título, región o adversario`);
+  check(
+    JSON.stringify(scriptCase.steps?.map((step) => step.kind)) === JSON.stringify(scriptLevelKinds),
+    `${scriptCase.id} no conserva los seis niveles canónicos en orden`,
+  );
+  for (const step of scriptCase.steps ?? []) {
+    check(scriptLevelStatuses.has(step.status), `${scriptCase.id}/${step.kind} usa un estado desconocido: ${step.status}`);
+    check(Boolean(step.observed) && Boolean(step.inference) && Boolean(step.limit), `${scriptCase.id}/${step.kind} tiene un campo vacío`);
+    for (const id of step.claimIds ?? []) check(claimIds.has(id), `${scriptCase.id}/${step.kind} enlaza un claim inexistente: ${id}`);
+    for (const id of step.evidenceIds ?? []) check(evidenceIds.has(id), `${scriptCase.id}/${step.kind} enlaza una evidencia inexistente: ${id}`);
+    for (const id of step.sourceIds ?? []) check(sourceIds.has(id), `${scriptCase.id}/${step.kind} enlaza una fuente inexistente: ${id}`);
+  }
+}
+
 const medicineData = JSON.parse(fs.readFileSync(path.join(ROOT, "content", "medicine-evidence.json"), "utf8"));
 const clinicalKinds = ["question", "comparison", "outcomes", "estimate", "applicability", "decision"];
 check(medicineData.schemaVersion === 1, "el módulo médico usa una versión de esquema desconocida");
@@ -696,6 +718,28 @@ for (const archiveCase of medievalEuropeJewishMedicineNetworkData.cases) {
 for (const record of data.catalog) {
   for (const id of record.claimIds) check(claimIds.has(id), `${record.key} enlaza un claim inexistente: ${id}`);
   for (const id of record.sourceIds) check(sourceIds.has(id), `${record.key} enlaza una fuente inexistente: ${id}`);
+}
+
+const empiresData = JSON.parse(fs.readFileSync(path.join(ROOT, "content", "civilization-empires.json"), "utf8"));
+const reachDimensionKinds = ["claim", "presence", "logistics", "tribute", "archive", "negotiation", "control"];
+const reachDimensionStatuses = new Set(["sostenido", "condicionado", "no-demostrado", "dato-ausente"]);
+check(empiresData.schemaVersion === 1, "el módulo de Estados e imperios usa una versión de esquema desconocida");
+check(researchSlugs.has(empiresData.researchSlug), `el módulo de Estados e imperios apunta a un expediente inexistente: ${empiresData.researchSlug}`);
+check(Array.isArray(empiresData.cases) && empiresData.cases.length > 0, "el módulo de Estados e imperios no contiene casos");
+check(duplicates(empiresData.cases.map((record) => record.id)).length === 0, "el módulo de Estados e imperios contiene casos duplicados");
+for (const empireCase of empiresData.cases) {
+  check(Boolean(empireCase.title) && Boolean(empireCase.region) && Boolean(empireCase.adversary), `${empireCase.id} no declara título, región o adversario`);
+  check(
+    JSON.stringify(empireCase.steps?.map((step) => step.kind)) === JSON.stringify(reachDimensionKinds),
+    `${empireCase.id} no conserva las siete dimensiones de alcance en orden`,
+  );
+  for (const step of empireCase.steps ?? []) {
+    check(reachDimensionStatuses.has(step.status), `${empireCase.id}/${step.kind} usa un estado desconocido: ${step.status}`);
+    check(Boolean(step.observed) && Boolean(step.inference) && Boolean(step.limit), `${empireCase.id}/${step.kind} tiene un campo vacío`);
+    for (const id of step.claimIds ?? []) check(claimIds.has(id), `${empireCase.id}/${step.kind} enlaza un claim inexistente: ${id}`);
+    for (const id of step.evidenceIds ?? []) check(evidenceIds.has(id), `${empireCase.id}/${step.kind} enlaza una evidencia inexistente: ${id}`);
+    for (const id of step.sourceIds ?? []) check(sourceIds.has(id), `${empireCase.id}/${step.kind} enlaza una fuente inexistente: ${id}`);
+  }
 }
 
 // Laboratorios de la serie CON: mismas seis capas ordenadas, siempre con claims, evidencias y fuentes canónicas.

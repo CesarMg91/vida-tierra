@@ -477,7 +477,7 @@ Las fechas pertenecen a objetos, muestras, fases o publicaciones. No son estacio
 
 ## Próxima acción de la línea CIV
 
-CIV-003 inaugura los expedientes regionales auditados y CIV-004 los continúa con el Nilo y África nororiental (sección «CIV-004» al final de este archivo). CIV-005 fija la cadena de nombres e identidades que esos expedientes aplican (sección «CIV-005» al final de este archivo). CIV-001 conserva `TRAZADO`; la secuencia global `001–052` permanece completa. CIV-006 audita el sexto: domesticaciones y aldeas de Asia oriental, Nueva Guinea, África y Américas por archivos regionales (sección «CIV-006» al final de este archivo). CIV-007 audita el séptimo: urbanismos comparados de Mesopotamia, el Indo, China, Mesoamérica, los Andes, África y Norteamérica en siete dimensiones (sección «CIV-007» al final de este archivo). El siguiente es el octavo: escrituras, notaciones, oralidad y archivos administrativos.
+CIV-003 inaugura los expedientes regionales auditados y CIV-004 los continúa con el Nilo y África nororiental (sección «CIV-004» al final de este archivo). CIV-005 fija la cadena de nombres e identidades que esos expedientes aplican (sección «CIV-005» al final de este archivo). CIV-001 conserva `TRAZADO`; la secuencia global `001–052` permanece completa. CIV-006 audita el sexto: domesticaciones y aldeas de Asia oriental, Nueva Guinea, África y Américas por archivos regionales (sección «CIV-006» al final de este archivo). CIV-007 audita el séptimo: urbanismos comparados de Mesopotamia, el Indo, China, Mesoamérica, los Andes, África y Norteamérica en siete dimensiones (sección «CIV-007» al final de este archivo). CIV-008 audita el octavo: escrituras, notaciones, oralidad y archivos administrativos en seis niveles —signo, sistema, lengua codificada, función, institución y desciframiento— (sección «CIV-008» al final de este archivo). CIV-009 audita el noveno: Estados e imperios separados en reclamación, presencia, logística, tributo, archivo, negociación y control efectivo (sección «CIV-009» al final de este archivo). El siguiente es el décimo: transformaciones, fragmentaciones y persistencias sin «colapso de la civilización» como explicación.
 
 ## XIII. MED-001 — Historia de herramientas para estimar efectos
 
@@ -1688,3 +1688,108 @@ Cada fecha pertenece a un objeto fechado o medido. Ninguna es «la primera ciuda
 | `TIME-CIV-URBCOMP-CAHOKIA-1150-001` | `~1150 d. C.` | empalizada; crecida y menos lluvia de verano con descenso de población | correlación | `SRC-BENSON-CAHOKIA-2009`, `SRC-WHITE-CAHOKIA-STANOLS-2019` | B-COND | AUDITADO |
 | `TIME-CIV-URBCOMP-CAHOKIA-1200-001` | `~1200 d. C.` | población de Cahokia `~50 %` menor | proxy de tendencia | `SRC-BENSON-CAHOKIA-2009` | B-COND | AUDITADO |
 | `TIME-CIV-URBCOMP-CAHOKIA-1350-001` | `~1350 d. C.` | abandono de Cahokia y de buena parte del valle central del Misisipi | causa no fijada | `SRC-BENSON-CAHOKIA-2009`, `SRC-MUNOZ-CAHOKIA-FLOODS-2015` | B-COND | AUDITADO |
+
+## MED-033 — Medicina digital e inteligencia artificial
+
+| ID | Fecha/rango | Evento | Producto | Fuentes | Confianza | Estado |
+|---|---|---|---|---|---|---|
+| `TIME-MED-AI-DE-DOMBAL-1972-001` | abr. 1972 | diagnóstico asistido del dolor abdominal agudo en Leeds: 91.8 % frente a 79.6 % | comparación prospectiva | `SRC-MED-AI-DE-DOMBAL-1972` | A publicación | AUDITADO |
+| `TIME-MED-AI-MYCIN-1975-001` | ago. 1975 | MYCIN explica su razonamiento y adquiere reglas | publicación técnica | `SRC-MED-AI-SHORTLIFFE-1975` | A publicación | AUDITADO |
+| `TIME-MED-AI-MYCIN-1979-001` | sept. 1979 | evaluación ciega de MYCIN en meningitis: 65 % de aceptabilidad | evaluación | `SRC-MED-AI-YU-1979` | A publicación | AUDITADO |
+| `TIME-MED-AI-INTERNIST-1982-001` | ago. 1982 | INTERNIST-I juzgado no suficientemente fiable para uso clínico | evaluación | `SRC-MED-AI-MILLER-1982` | A publicación | AUDITADO |
+| `TIME-MED-AI-MYCIN-BOOK-1984-001` | 1984 | Buchanan y Shortliffe publican la historia de los experimentos MYCIN | libro | `SRC-MED-AI-BUCHANAN-SHORTLIFFE-1984` | B historiográfico | AUDITADO |
+| `TIME-MED-AI-BERNER-1994-001` | jun. 1994 | cuatro sistemas diagnósticos aciertan entre 52 % y 71 % | evaluación | `SRC-MED-AI-BERNER-1994` | A publicación | AUDITADO |
+| `TIME-MED-AI-MILLER-1994-001` | 1994 | ningún sistema diagnóstico grande en uso amplio | revisión | `SRC-MED-AI-MILLER-1994` | A publicación | AUDITADO |
+| `TIME-MED-AI-BATES-1998-001` | oct. 1998 | prescripción computarizada: −55 % de errores graves no interceptados | antes-después con aleatorización | `SRC-MED-AI-BATES-1998` | A publicación | AUDITADO |
+| `TIME-MED-AI-HAN-2005-001` | dic. 2005 | mortalidad pediátrica de 2.80 % a 6.57 % tras implantar un sistema comercial | antes-después | `SRC-MED-AI-HAN-2005` | A publicación | AUDITADO |
+| `TIME-MED-AI-CHAUDHRY-2006-001` | may. 2006 | revisión de 257 estudios de tecnología de información en salud | revisión | `SRC-MED-AI-CHAUDHRY-2006` | A revisión | AUDITADO |
+| `TIME-MED-AI-HITECH-2009-001` | 17 feb. 2009 | ley HITECH dentro de la Ley de Recuperación | ley | `SRC-MED-AI-HITECH-2009`, `SRC-MED-AI-BLUMENTHAL-2010` | A documental | AUDITADO |
+| `TIME-MED-AI-CKD-EPI-2009-001` | may. 2009 | ecuación CKD-EPI con creatinina, sexo, edad y raza | desarrollo y validación | `SRC-MED-AI-LEVEY-2009` | A publicación | AUDITADO |
+| `TIME-MED-AI-HILL-2013-001` | nov. 2013 | cerca de 4000 clics en un turno de urgencias | tiempo y movimiento | `SRC-MED-AI-HILL-2013` | A publicación | AUDITADO |
+| `TIME-MED-AI-IMDRF-2013-001` | 9 dic. 2013 | el IMDRF define el software como dispositivo médico | documento regulatorio | `SRC-MED-AI-IMDRF-2013` | A documental | AUDITADO |
+| `TIME-MED-AI-SHANAFELT-2016-001` | jul. 2016 | expediente y prescripción computarizada asociados con agotamiento | encuesta nacional | `SRC-MED-AI-SHANAFELT-2016` | B asociación | AUDITADO |
+| `TIME-MED-AI-SINSKY-2016-001` | dic. 2016 | casi dos horas de expediente por cada hora con el paciente | tiempo y movimiento | `SRC-MED-AI-SINSKY-2016` | A publicación | AUDITADO |
+| `TIME-MED-AI-DAVIS-2017-001` | 2017 | la calibración de modelos de lesión renal se degrada en nueve años | cohorte | `SRC-MED-AI-DAVIS-2017` | A publicación | AUDITADO |
+| `TIME-MED-AI-ADLER-MILSTEIN-2017-001` | ago. 2017 | HITECH: diferencia en diferencias de 7.9 puntos en adopción | cuasi-experimento | `SRC-MED-AI-ADLER-MILSTEIN-2017` | B cuasi-experimental | AUDITADO |
+| `TIME-MED-AI-ARNDT-2017-001` | sept. 2017 | 5.9 horas diarias en el expediente en atención primaria | registros de eventos | `SRC-MED-AI-ARNDT-2017` | A publicación | AUDITADO |
+| `TIME-MED-AI-IDX-DENOVO-2018-001` | 11 abr. 2018 | la FDA autoriza IDx-DR, primer sistema diagnóstico autónomo | autorización | `SRC-MED-AI-FDA-DEN180001-2018` | A documental | AUDITADO |
+| `TIME-MED-AI-ABRAMOFF-2018-001` | ago. 2018 | ensayo pivotal de IDx-DR: 87.2 % y 90.7 % | ensayo prospectivo | `SRC-MED-AI-ABRAMOFF-2018` | A publicación | AUDITADO |
+| `TIME-MED-AI-TOPOL-2019-001` | ene. 2019 | Topol anticipa una medicina de alto desempeño | revisión | `SRC-MED-AI-TOPOL-2019` | B argumento | AUDITADO |
+| `TIME-MED-AI-ENEANYA-2019-001` | jul. 2019 | Eneanya, Yang y Reese cuestionan la raza en la función renal | punto de vista | `SRC-MED-AI-ENEANYA-2019` | B argumento | AUDITADO |
+| `TIME-MED-AI-OBERMEYER-2019-001` | oct. 2019 | el costo como sustituto produce sesgo racial: 17.7 % frente a 46.5 % | auditoría | `SRC-MED-AI-OBERMEYER-2019` | A publicación | AUDITADO |
+| `TIME-MED-AI-PRICE-2019-001` | nov. 2019 | Price, Gerke y Cohen sobre responsabilidad médica con IA | análisis jurídico | `SRC-MED-AI-PRICE-2019` | B argumento | AUDITADO |
+| `TIME-MED-AI-MICHIGAN-2020-001` | abr. 2020 | Michigan desactiva el modelo Epic de sepsis por alertas espurias | decisión institucional | `SRC-MED-AI-FINLAYSON-2021` | A publicación | AUDITADO |
+| `TIME-MED-AI-BEEDE-2020-001` | abr. 2020 | estudio de campo de un sistema de retinopatía en once clínicas de Tailandia | estudio de campo | `SRC-MED-AI-BEEDE-2020` | B observacional | AUDITADO |
+| `TIME-MED-AI-VYAS-2020-001` | ago. 2020 | Vyas, Eisenstein y Jones revisan correcciones por raza en algoritmos | revisión | `SRC-MED-AI-VYAS-2020` | B revisión | AUDITADO |
+| `TIME-MED-AI-CONSORT-AI-2020-001` | sept. 2020 | se publican CONSORT-AI y SPIRIT-AI | guías de reporte | `SRC-MED-AI-LIU-2020`, `SRC-MED-AI-CRUZ-RIVERA-2020` | A publicación | AUDITADO |
+| `TIME-MED-AI-WU-2021-001` | abr. 2021 | 126 de 130 dispositivos de IA evaluados sólo retrospectivamente | revisión regulatoria | `SRC-MED-AI-WU-2021` | A publicación | AUDITADO |
+| `TIME-MED-AI-WONG-2021-001` | jun. 2021 | validación externa del ESM: área bajo la curva de 0.63 | cohorte retrospectiva | `SRC-MED-AI-WONG-2021` | A publicación | AUDITADO |
+| `TIME-MED-AI-FINLAYSON-2021-001` | jul. 2021 | tipología de la deriva de datos | carta | `SRC-MED-AI-FINLAYSON-2021` | A publicación | AUDITADO |
+| `TIME-MED-AI-EGFR-2021-001` | sept. 2021 | la NKF-ASN propone la ecuación sin raza y se publican las ecuaciones nuevas | consenso y desarrollo | `SRC-MED-AI-DELGADO-2022`, `SRC-MED-AI-INKER-2021` | A documental | AUDITADO |
+| `TIME-MED-AI-WONG-COVID-2021-001` | nov. 2021 | alertas del ESM +43 % durante la pandemia | descriptivo | `SRC-MED-AI-WONG-COVID-2021` | A publicación | AUDITADO |
+| `TIME-MED-AI-DECIDE-AI-2022-001` | may. 2022 | se publica DECIDE-AI | guía de reporte | `SRC-MED-AI-VASEY-2022` | A publicación | AUDITADO |
+| `TIME-MED-AI-TREWS-2022-001` | jul. 2022 | TREWS: menor mortalidad con alertas confirmadas en tres horas | cohorte prospectiva | `SRC-MED-AI-ADAMS-2022` | B observacional | AUDITADO |
+| `TIME-MED-AI-PLANA-2022-001` | sept. 2022 | 41 ensayos de aprendizaje automático; ninguno cumple todo CONSORT-AI | revisión sistemática | `SRC-MED-AI-PLANA-2022` | A revisión | AUDITADO |
+| `TIME-MED-AI-KUNG-2023-001` | feb. 2023 | ChatGPT en o cerca del umbral del USMLE | evaluación | `SRC-MED-AI-KUNG-2023` | A publicación | AUDITADO |
+| `TIME-MED-AI-SINGHAL-2023-001` | jul. 2023 | Flan-PaLM 67.6 % en MedQA; Med-PaLM inferior a clínicos | evaluación | `SRC-MED-AI-SINGHAL-2023` | A publicación | AUDITADO |
+| `TIME-MED-AI-TPMG-2023-001` | oct. 2023 | The Permanente Medical Group habilita escribas ambientales | implementación | `SRC-MED-AI-TIERNEY-2024` | B implementación | AUDITADO |
+| `TIME-MED-AI-HAN-2024-001` | may. 2024 | 86 ensayos de IA, 81 % con desenlace primario positivo | revisión de alcance | `SRC-MED-AI-HAN-2024` | A revisión | AUDITADO |
+| `TIME-MED-AI-HAGER-2024-001` | jul. 2024 | modelos de lenguaje en 2400 casos reales: peor que médicos | evaluación | `SRC-MED-AI-HAGER-2024` | A publicación | AUDITADO |
+| `TIME-MED-AI-AI-ACT-2024-001` | 12 jul. / 1 ago. 2024 | publicación y entrada en vigor de la Ley de IA | reglamento | `SRC-MED-AI-EU-AI-ACT-2024` | A documental | AUDITADO |
+| `TIME-MED-AI-GOH-2024-001` | oct. 2024 | GPT-4 no mejora el razonamiento diagnóstico de médicos en viñetas | ensayo aleatorizado | `SRC-MED-AI-GOH-2024` | A publicación | AUDITADO |
+| `TIME-MED-AI-PCCP-2024-001` | 4 dic. 2024 | guía final de la FDA sobre planes predeterminados de control de cambios | guía | `SRC-MED-AI-FDA-PCCP-2024` | A documental | AUDITADO |
+| `TIME-MED-AI-PROHIBITIONS-2025-001` | 2 feb. 2025 | se aplican las prohibiciones de la Ley de IA | aplicación | `SRC-MED-AI-EU-AI-ACT-2024` | A documental | AUDITADO |
+| `TIME-MED-AI-GOH-2025-001` | feb. 2025 | GPT-4 mejora el razonamiento de manejo en 6.5 puntos | ensayo aleatorizado | `SRC-MED-AI-GOH-2025` | A publicación | AUDITADO |
+| `TIME-MED-AI-AILD-2025-001` | 2025 | la Comisión retira la propuesta de directiva de responsabilidad por IA | decisión | `SRC-MED-AI-EP-AILD-2025` | A/B documental | AUDITADO |
+| `TIME-MED-AI-GPAI-2025-001` | 2 ago. 2025 | se aplican las obligaciones de los modelos de propósito general | aplicación | `SRC-MED-AI-EU-AI-ACT-2024` | A documental | AUDITADO |
+| `TIME-MED-AI-SCRIBE-TRIALS-2025-001` | nov.–dic. 2025 | ensayos aleatorizados de escribas ambientales | ensayos | `SRC-MED-AI-LUKAC-2025`, `SRC-MED-AI-AFSHAR-2025` | A publicación | AUDITADO |
+| `TIME-MED-AI-BEAN-2026-001` | feb. 2026 | público con modelos de lenguaje: menos de 34.5 % frente a 94.9 % del modelo solo | ensayo aleatorizado | `SRC-MED-AI-BEAN-2026` | A publicación | AUDITADO |
+| `TIME-MED-AI-OMNIBUS-2026-001` | 27 jul. 2026 | entra en vigor el ómnibus digital: alto riesgo a 2027 y 2028 | reglamento | `SRC-MED-AI-EU-OMNIBUS-2026` | A documental | AUDITADO |
+| `TIME-MED-AI-FDA-LIST-2026-001` | sept. 2026 | la lista de la FDA supera los 1600 dispositivos con IA | lista pública | `SRC-MED-AI-FDA-LIST-2026` | A documental | AUDITADO |
+
+## CIV-008 — Escrituras, notaciones, oralidad y archivos administrativos
+
+Cada fecha pertenece a un objeto fechado o a un estudio. Ninguna es «la invención de la escritura» ni ordena los sistemas por grado.
+
+| ID | Fecha/intervalo | Evento delimitado | Incertidumbre | Fuente | Confianza | Estado |
+|---|---:|---|---|---|---|---|
+| `TIME-CIV-SCRIPTS-TOKENS-001` | desde el X milenio cal a. C. | pequeñas figuras de arcilla en sitios neolíticos de Asia sudoccidental | función múltiple | `SRC-BENNISON-TOKENS-2018` | B | AUDITADO |
+| `TIME-CIV-SCRIPTS-BULLAE-001` | IV milenio a. C. | bullas con figuras dentro e impresiones fuera | fase por sitio | `SRC-SCHMANDT-ORIGINS-1986` | B-COND | AUDITADO |
+| `TIME-CIV-SCRIPTS-PROTOCUNEIFORM-001` | fines del IV milenio a. C. (Uruk IV–III) | `~6000` textos protocuneiformes, sobre todo contables | lengua no fijada | `SRC-DAMEROW-WRITING-2006` | B | AUDITADO |
+| `TIME-CIV-SCRIPTS-ELAMITE-001` | `c. 2300–1880 a. C.` | uso del elamita lineal en el sur de Irán | desciframiento propuesto | `SRC-DESSET-ELAMITE-2022` | B-COND | AUDITADO |
+| `TIME-CIV-SCRIPTS-INDUS-001` | `c. 2600–1900 a. C.` | objetos con signos del Indo (`2905` en la concordancia) | lengua no demostrada | `SRC-FARMER-INDUS-2004` | B | AUDITADO |
+| `TIME-CIV-SCRIPTS-SHANG-END-001` | `~1041 cal a. C.` | final de la serie de huesos oraculares Shang | modelo bayesiano | `SRC-LIU-ORACLE-BONES-2021` | B | AUDITADO |
+| `TIME-CIV-SCRIPTS-CASCAJAL-001` | inicios del I milenio a. C. | bloque de Cascajal (fecha estilística) | sin estratigrafía | `SRC-RODRIGUEZ-CASCAJAL-2006` | C | AUDITADO |
+| `TIME-CIV-SCRIPTS-SANANDRES-001` | `~650 a. C.` | sello y placa con glifos y calendario de `260` días en San Andrés | habla discutida | `SRC-POHL-OLMEC-2002` | B-COND | AUDITADO |
+| `TIME-CIV-SCRIPTS-SANBARTOLO-7DEER-001` | `300–200 a. C.` | registro «7 Venado» y textos con varias manos en San Bartolo | contexto sellado | `SRC-STUART-SANBARTOLO-2022` | B | AUDITADO |
+| `TIME-CIV-SCRIPTS-SANBARTOLO-001` | `200–300 a. C.` | madera asociada a textos mayas de «Las Pinturas» | asociación | `SRC-SATURNO-SANBARTOLO-2006` | B | AUDITADO |
+| `TIME-CIV-SCRIPTS-RONGORONGO-001` | mediados del siglo XV d. C. | madera de una tablilla de rongorongo conservada en Roma | madera ≠ incisión | `SRC-FERRARA-RONGORONGO-2024` | B-COND | AUDITADO |
+| `TIME-CIV-SCRIPTS-SANTA-KHIPU-001` | `1670` | revisita de San Pedro de Corongo y su coincidencia con seis quipus | procedencia referida | `SRC-MEDRANO-URTON-KHIPU-2018` | B-COND | AUDITADO |
+| `TIME-CIV-SCRIPTS-KNOROZOV-001` | `1958` | propuesta logosilábica del maya en inglés | aceptación tardía | `SRC-KNOROZOV-MAYA-1958` | A | AUDITADO |
+| `TIME-CIV-SCRIPTS-PROSKOURIAKOFF-001` | `1960` | fechas de Piedras Negras leídas como vidas de gobernantes | — | `SRC-PROSKOURIAKOFF-PIEDRAS-1960` | A | AUDITADO |
+| `TIME-CIV-SCRIPTS-GOODY-WATT-001` | `1963` | tesis de las consecuencias de la escritura | tesis fuerte refutada | `SRC-GOODY-WATT-1963` | A | AUDITADO |
+| `TIME-CIV-SCRIPTS-VAI-001` | `1981` | estudio vai: escolarización separada de la escritura | una sociedad | `SRC-SCRIBNER-COLE-1981` | A | AUDITADO |
+| `TIME-CIV-SCRIPTS-ENTROPY-001` | `2009–2014` | entropía a favor y reclasificación en contra para el Indo | clasificación, no lectura | `SRC-RAO-INDUS-ENTROPY-2009`, `SRC-SPROAT-SYMBOLS-2014` | A | AUDITADO |
+| `TIME-CIV-SCRIPTS-KHIPU-650-001` | `2024` | análisis computacional de `650` quipus | aritmética, no lengua | `SRC-MEDRANO-KHOSLA-KHIPU-2024` | A | AUDITADO |
+
+## CIV-009 — Estados e imperios: reclamación, logística, negociación y control desigual
+
+Cada fecha pertenece a un objeto fechado, medido o modelado. Ninguna marca el «apogeo» ni la «caída» de un imperio.
+
+| ID | Fecha/intervalo | Evento delimitado | Incertidumbre | Fuente | Confianza | Estado |
+|---|---:|---|---|---|---|---|
+| `TIME-CIV-EMPREACH-DREHEM-001` | siglo XXI a. C. (hasta Ibbi-Suen 2) | agencia de ganado de Puzriš-Dagan documentada en más de `13 500` tablillas | reconstrucción parcial | `SRC-TSOUPAROPOULOU-DREHEM-2013` | B | AUDITADO |
+| `TIME-CIV-EMPREACH-ASSYRIA-001` | `c. 1100–600 a. C.` | colonias, amortiguamiento y control discontinuo asirios en el Alto Tigris | fases de prospección | `SRC-PARKER-ASSYRIA-2003` | B-COND | AUDITADO |
+| `TIME-CIV-EMPREACH-PERSEPOLIS-001` | `c. 509–493 a. C.` | tablillas elamitas de la Fortificación de Persépolis (años 13–28 de Darío I) | conversión de años de reinado | `SRC-HALLOCK-PFT-1969` | B | AUDITADO |
+| `TIME-CIV-EMPREACH-QIN-001` | `221–207 a. C.` | imperio Qin: producción de espacios estatales | — | `SRC-KOROLKOV-HEIN-QIN-2020` | B | AUDITADO |
+| `TIME-CIV-EMPREACH-LIYE-001` | último cuarto del siglo III a. C. | archivo del condado de Qianling en el pozo 1 de Liye | publicación parcial | `SRC-YATES-LIYE-2013` | B | AUDITADO |
+| `TIME-CIV-EMPREACH-HAN-001` | `202 a. C.–220 d. C.` | imperio Han: migración inducida por el Estado (Guanzhong) | un caso regional | `SRC-KOROLKOV-HEIN-QIN-2020` | B-COND | AUDITADO |
+| `TIME-CIV-EMPREACH-EGYPT-CENSUS-001` | `12–259 d. C.` | `~300` declaraciones censales de Egipto romano | la última en copia posterior | `SRC-BAGNALL-FRIER-EGYPT-1994` | B | AUDITADO |
+| `TIME-CIV-EMPREACH-ORBIS-200-001` | `c. 200 d. C.` | condiciones de la red romana modeladas por ORBIS | promedios estructurales | `SRC-SCHEIDEL-ORBIS-WP-2013` | B-COND | AUDITADO |
+| `TIME-CIV-EMPREACH-EDICT-301-001` | `301 d. C.` | Edicto de Diocleciano: razón mar:río abajo/arriba:carreta `1:5/10:52` | precios máximos | `SRC-SCHEIDEL-ORBIS-WP-2013` | B-COND | AUDITADO |
+| `TIME-CIV-EMPREACH-GAO-001` | siglo X d. C. | residencia real de piedra en Gao Antigua, construida y abandonada en el mismo siglo | — | `SRC-TAKEZAWA-CISSE-GAO-2012` | B | AUDITADO |
+| `TIME-CIV-EMPREACH-MALI-SEATS-001` | siglos XII–XVI | sedes de gobierno de Mali que cambian más de una vez | localización no fijada | `SRC-CONRAD-DAKAJALAN-1994` | B-COND | AUDITADO |
+| `TIME-CIV-EMPREACH-MATRICULA-001` | última década de Moctezuma II (hasta `1520`) | pintura de la Matrícula de Tributos | algunas páginas quizá anteriores | `SRC-BATALLA-MATRICULA-2007` | B | AUDITADO |
+| `TIME-CIV-EMPREACH-MENDOZA-001` | `c. 1542` | copia de la Matrícula como segunda parte del Códice Mendoza | — | `SRC-BATALLA-MATRICULA-2007` | B | AUDITADO |
+| `TIME-CIV-EMPREACH-SONGHAY-1591-001` | `1591` | invasión marroquí y fin del imperio songhai | — | `SRC-GOMEZ-DOMINION-2018` | B | AUDITADO |
+| `TIME-CIV-EMPREACH-TARIKH-SUDAN-001` | siglo XVII | *Tārīkh al-sūdān* de al-Saʿdī | crónica posterior a sus hechos tempranos | `SRC-HUNWICK-TIMBUKTU-1999` | B | AUDITADO |

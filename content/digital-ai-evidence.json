@@ -1,0 +1,1659 @@
+{
+  "schemaVersion": 1,
+  "researchSlug": "15_medicina/INVESTIGACION_MED_033_MEDICINA_DIGITAL_INTELIGENCIA_ARTIFICIAL",
+  "cases": [
+    {
+      "id": "expert-systems-1972-1994",
+      "title": "Sistemas expertos · Leeds, MYCIN e INTERNIST-I",
+      "region": "Leeds, Stanford y Pittsburgh · 1972–1994",
+      "archive": "BMJ, Computers and Biomedical Research, JAMA, NEJM y JAMIA",
+      "layers": [
+        {
+          "kind": "data",
+          "observed": "Leeds usó datos locales de pacientes con dolor abdominal; MYCIN e INTERNIST-I, conocimiento escrito a mano por expertos.",
+          "inference": "Los primeros sistemas dependían de datos o reglas capturados para ellos.",
+          "limit": "No existía un registro electrónico del que alimentarse.",
+          "claimIds": [
+            "CLAIM-MED-AI-DE-DOMBAL-1972-001",
+            "CLAIM-MED-AI-MYCIN-1975-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-AI-EXPERT-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-AI-DE-DOMBAL-1972",
+            "SRC-MED-AI-SHORTLIFFE-1975"
+          ]
+        },
+        {
+          "kind": "model",
+          "observed": "MYCIN usaba reglas de producción y podía explicar su razonamiento; INTERNIST-I abarcaba la medicina interna.",
+          "inference": "Hubo arquitecturas distintas para problemas distintos.",
+          "limit": "INTERNIST-I no razonaba en el tiempo ni en la anatomía.",
+          "claimIds": [
+            "CLAIM-MED-AI-MYCIN-1975-001",
+            "CLAIM-MED-AI-INTERNIST-1982-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-AI-EXPERT-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-AI-SHORTLIFFE-1975",
+            "SRC-MED-AI-MILLER-1982"
+          ]
+        },
+        {
+          "kind": "validation",
+          "observed": "Leeds acertó 91.8 % frente a 79.6 %; MYCIN obtuvo 65 % de aceptabilidad frente a 42.5–62.5 % de los especialistas.",
+          "inference": "En casos de prueba los sistemas igualaban o superaban a clínicos.",
+          "limit": "Diez casos de meningitis o un centro no son una validación general.",
+          "claimIds": [
+            "CLAIM-MED-AI-DE-DOMBAL-1972-001",
+            "CLAIM-MED-AI-MYCIN-1979-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-AI-EXPERT-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-AI-DE-DOMBAL-1972",
+            "SRC-MED-AI-YU-1979"
+          ]
+        },
+        {
+          "kind": "deployment",
+          "observed": "MYCIN nunca se usó en la atención habitual y en 1994 ningún sistema diagnóstico grande estaba en uso amplio.",
+          "inference": "La exactitud no produjo adopción.",
+          "limit": "Las razones de la no adopción son interpretaciones, no efectos medidos.",
+          "claimIds": [
+            "CLAIM-MED-AI-MYCIN-NOT-ADOPTED-001",
+            "CLAIM-MED-AI-MILLER-1994-001",
+            "CLAIM-MED-AI-EXPERT-ADOPTION-LIMIT-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-AI-EXPERT-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-AI-BUCHANAN-SHORTLIFFE-1984",
+            "SRC-MED-AI-MILLER-1994"
+          ]
+        },
+        {
+          "kind": "drift",
+          "observed": "Las bases de conocimiento debían mantenerse a mano a medida que cambiaban los fármacos y las resistencias.",
+          "inference": "El mantenimiento era parte del costo.",
+          "limit": "No hay medición de cuánto se degradaron las reglas.",
+          "claimIds": [
+            "CLAIM-MED-AI-EXPERT-ADOPTION-LIMIT-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-AI-EXPERT-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-AI-MILLER-1994"
+          ]
+        },
+        {
+          "kind": "equity",
+          "observed": "Los casos de prueba se construyeron en centros académicos de Estados Unidos y Reino Unido.",
+          "inference": "La población de evaluación era estrecha.",
+          "limit": "No se midieron errores por grupo.",
+          "claimIds": [
+            "CLAIM-MED-AI-DATA-NOT-MODEL-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-AI-METHOD-001",
+            "EVID-MED-AI-EXPERT-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-AI-BERNER-1994"
+          ]
+        },
+        {
+          "kind": "utility",
+          "observed": "Berner halló entre 52 % y 71 % de aciertos y unos dos diagnósticos útiles adicionales por caso.",
+          "inference": "Los sistemas podían ampliar el diagnóstico diferencial.",
+          "limit": "Nadie midió desenlaces de pacientes.",
+          "claimIds": [
+            "CLAIM-MED-AI-BERNER-1994-001",
+            "CLAIM-MED-AI-UTILITY-NOT-PERFORMANCE-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-AI-EXPERT-001",
+            "EVID-MED-AI-METHOD-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-AI-BERNER-1994"
+          ]
+        },
+        {
+          "kind": "responsibility",
+          "observed": "Los autores presentaban los sistemas como consultores para médicos capaces de descartar lo irrelevante.",
+          "inference": "La responsabilidad quedaba en el clínico.",
+          "limit": "No hubo marco regulatorio específico.",
+          "claimIds": [
+            "CLAIM-MED-AI-BERNER-1994-001",
+            "CLAIM-MED-AI-RESPONSIBILITY-NOT-APPROVAL-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-AI-EXPERT-001",
+            "EVID-MED-AI-METHOD-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-AI-BERNER-1994",
+            "SRC-MED-AI-MILLER-1982"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ehr-hitech-1998-2017",
+      "title": "Expediente electrónico · prescripción computarizada y HITECH",
+      "region": "Estados Unidos · 1998–2017",
+      "archive": "JAMA, Pediatrics, Annals, Health Affairs, Am J Emerg Med, Ann Fam Med y Mayo Clin Proc",
+      "layers": [
+        {
+          "kind": "data",
+          "observed": "El expediente registra lo facturado, medido y escrito; los médicos pasaban 44 % del tiempo introduciendo datos.",
+          "inference": "El registro se volvió el yacimiento de datos clínicos.",
+          "limit": "Registrar no es medir la necesidad del paciente.",
+          "claimIds": [
+            "CLAIM-MED-AI-HILL-2013-001",
+            "CLAIM-MED-AI-DATA-NOT-MODEL-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-AI-EHR-001",
+            "EVID-MED-AI-METHOD-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-AI-HILL-2013"
+          ]
+        },
+        {
+          "kind": "model",
+          "observed": "La prescripción computarizada aplicaba reglas de verificación a cada orden.",
+          "inference": "El sistema incorporaba apoyo a la decisión simple.",
+          "limit": "Un sistema comercial no es el desarrollado en casa.",
+          "claimIds": [
+            "CLAIM-MED-AI-BATES-1998-001",
+            "CLAIM-MED-AI-CHAUDHRY-2006-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-AI-EHR-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-AI-BATES-1998",
+            "SRC-MED-AI-CHAUDHRY-2006"
+          ]
+        },
+        {
+          "kind": "validation",
+          "observed": "En un hospital de Boston, los errores graves no interceptados bajaron 55 %.",
+          "inference": "La prescripción computarizada podía reducir errores.",
+          "limit": "Un hospital con sistema propio; antes-después con un componente aleatorizado.",
+          "claimIds": [
+            "CLAIM-MED-AI-BATES-1998-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-AI-EHR-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-AI-BATES-1998"
+          ]
+        },
+        {
+          "kind": "deployment",
+          "observed": "HITECH elevó la adopción anual de 3.2 % a 14.2 % en hospitales elegibles, 7.9 puntos más que en los no elegibles.",
+          "inference": "La ley causó buena parte de la adopción.",
+          "limit": "Mide adopción, no uso eficaz.",
+          "claimIds": [
+            "CLAIM-MED-AI-HITECH-2009-001",
+            "CLAIM-MED-AI-ADLER-MILSTEIN-2017-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-AI-EHR-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-AI-HITECH-2009",
+            "SRC-MED-AI-BLUMENTHAL-2010",
+            "SRC-MED-AI-ADLER-MILSTEIN-2017"
+          ]
+        },
+        {
+          "kind": "drift",
+          "observed": "Una implantación en seis días coincidió con un alza de la mortalidad de 2.80 % a 6.57 % en un hospital pediátrico.",
+          "inference": "El modo de implantar puede invertir el efecto esperado.",
+          "limit": "Un centro y un antes-después; no prueba que el sistema mate.",
+          "claimIds": [
+            "CLAIM-MED-AI-HAN-2005-001",
+            "CLAIM-MED-AI-HAN-LIMIT-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-AI-EHR-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-AI-HAN-2005"
+          ]
+        },
+        {
+          "kind": "equity",
+          "observed": "La carga de documentación recayó en el tiempo de los clínicos: casi dos horas de expediente por hora con el paciente.",
+          "inference": "El costo del registro se repartió en horas y agotamiento.",
+          "limit": "No se midieron efectos por grupo de pacientes.",
+          "claimIds": [
+            "CLAIM-MED-AI-SINSKY-2016-001",
+            "CLAIM-MED-AI-ARNDT-2017-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-AI-EHR-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-AI-SINSKY-2016",
+            "SRC-MED-AI-ARNDT-2017"
+          ]
+        },
+        {
+          "kind": "utility",
+          "observed": "La revisión de 257 estudios halló beneficios concentrados en cuatro instituciones; el uso del expediente se asoció con agotamiento.",
+          "inference": "Hay beneficios locales y costos amplios.",
+          "limit": "El balance global no está medido.",
+          "claimIds": [
+            "CLAIM-MED-AI-CHAUDHRY-2006-001",
+            "CLAIM-MED-AI-SHANAFELT-2016-001",
+            "CLAIM-MED-AI-EHR-ADOPTION-NOT-BENEFIT-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-AI-EHR-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-AI-CHAUDHRY-2006",
+            "SRC-MED-AI-SHANAFELT-2016"
+          ]
+        },
+        {
+          "kind": "responsibility",
+          "observed": "La ley pagó incentivos por uso significativo.",
+          "inference": "El Estado fijó la adopción como meta.",
+          "limit": "Un incentivo de adopción no asigna responsabilidad por errores del sistema.",
+          "claimIds": [
+            "CLAIM-MED-AI-HITECH-2009-001",
+            "CLAIM-MED-AI-RESPONSIBILITY-NOT-APPROVAL-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-AI-EHR-001",
+            "EVID-MED-AI-METHOD-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-AI-HITECH-2009"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cost-proxy-2019",
+      "title": "Costo como sustituto · el algoritmo de Obermeyer",
+      "region": "Sistema de salud académico de Estados Unidos · 2019",
+      "archive": "Science",
+      "layers": [
+        {
+          "kind": "data",
+          "observed": "El algoritmo se entrenó con el gasto registrado, más bajo en pacientes negros por acceso desigual.",
+          "inference": "El dato heredó la desigualdad del acceso.",
+          "limit": "El gasto mide atención recibida, no necesidad.",
+          "claimIds": [
+            "CLAIM-MED-AI-OBERMEYER-2019-001",
+            "CLAIM-MED-AI-DATA-NOT-MODEL-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-AI-PROXY-001",
+            "EVID-MED-AI-METHOD-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-AI-OBERMEYER-2019"
+          ]
+        },
+        {
+          "kind": "model",
+          "observed": "El modelo predecía costos futuros y no enfermedad.",
+          "inference": "La etiqueta elegida era un sustituto de la necesidad.",
+          "limit": "Era exacto para lo que predecía.",
+          "claimIds": [
+            "CLAIM-MED-AI-OBERMEYER-2019-001",
+            "CLAIM-MED-AI-LABEL-IS-CHOICE-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-AI-PROXY-001",
+            "EVID-MED-AI-METHOD-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-AI-OBERMEYER-2019"
+          ]
+        },
+        {
+          "kind": "validation",
+          "observed": "Con la misma puntuación, los pacientes negros estaban considerablemente más enfermos.",
+          "inference": "La calibración era desigual frente a la enfermedad.",
+          "limit": "La enfermedad se midió con descompensaciones registradas.",
+          "claimIds": [
+            "CLAIM-MED-AI-OBERMEYER-2019-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-AI-PROXY-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-AI-OBERMEYER-2019"
+          ]
+        },
+        {
+          "kind": "deployment",
+          "observed": "El algoritmo decidía quién entraba a programas de atención intensiva y era representativo de una práctica de la industria.",
+          "inference": "El sesgo tenía consecuencias de asignación.",
+          "limit": "Un algoritmo en un sistema; no la prevalencia del sesgo.",
+          "claimIds": [
+            "CLAIM-MED-AI-OBERMEYER-2019-001",
+            "CLAIM-MED-AI-OBERMEYER-LIMIT-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-AI-PROXY-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-AI-OBERMEYER-2019"
+          ]
+        },
+        {
+          "kind": "drift",
+          "observed": "La auditoría fue una fotografía en un periodo.",
+          "inference": "El sesgo de etiqueta no depende del tiempo sino del diseño.",
+          "limit": "No se midió cambio temporal.",
+          "claimIds": [
+            "CLAIM-MED-AI-OBERMEYER-LIMIT-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-AI-PROXY-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-AI-OBERMEYER-2019"
+          ]
+        },
+        {
+          "kind": "equity",
+          "observed": "Remediar la disparidad subía la proporción de pacientes negros con ayuda adicional de 17.7 % a 46.5 %.",
+          "inference": "El sesgo fue grande y corregible.",
+          "limit": "La corrección se estimó, no se implantó aquí.",
+          "claimIds": [
+            "CLAIM-MED-AI-OBERMEYER-REMEDY-001",
+            "CLAIM-MED-AI-EQUITY-NOT-ACCURACY-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-AI-PROXY-001",
+            "EVID-MED-AI-METHOD-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-AI-OBERMEYER-2019"
+          ]
+        },
+        {
+          "kind": "utility",
+          "observed": "El algoritmo ahorraba recursos a quien lo usaba.",
+          "inference": "La utilidad para el pagador no es la utilidad para el paciente.",
+          "limit": "No se midieron desenlaces.",
+          "claimIds": [
+            "CLAIM-MED-AI-UTILITY-NOT-PERFORMANCE-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-AI-METHOD-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-AI-OBERMEYER-2019"
+          ]
+        },
+        {
+          "kind": "responsibility",
+          "observed": "El sesgo surgió sin usar la raza como variable.",
+          "inference": "Excluir la raza no basta para eximir de responsabilidad.",
+          "limit": "Quién debía detectarlo no estaba definido.",
+          "claimIds": [
+            "CLAIM-MED-AI-LABEL-IS-CHOICE-001",
+            "CLAIM-MED-AI-RESPONSIBILITY-DIFFUSE-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-AI-PROXY-001",
+            "EVID-MED-AI-AUTOMATION-LIABILITY-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-AI-OBERMEYER-2019"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "egfr-race-2009-2022",
+      "title": "Filtración renal y raza · de CKD-EPI 2009 al retiro de 2021",
+      "region": "Estados Unidos · 2009–2022",
+      "archive": "Annals, JAMA, NEJM y AJKD",
+      "layers": [
+        {
+          "kind": "data",
+          "observed": "La ecuación de 2009 se desarrolló en 8254 participantes de diez estudios con creatinina, sexo, edad y raza.",
+          "inference": "La raza entró como dato del modelo.",
+          "limit": "La raza declarada no es una medida biológica.",
+          "claimIds": [
+            "CLAIM-MED-AI-LEVEY-2009-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-AI-RACE-EGFR-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-AI-LEVEY-2009"
+          ]
+        },
+        {
+          "kind": "model",
+          "observed": "El término racial se justificaba por una supuesta mayor masa muscular de las personas negras.",
+          "inference": "El supuesto era un sustituto de una medida ausente.",
+          "limit": "Eneanya y colaboradores pidieron examinar esa clasificación.",
+          "claimIds": [
+            "CLAIM-MED-AI-ENEANYA-2019-001",
+            "CLAIM-MED-AI-LABEL-IS-CHOICE-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-AI-RACE-EGFR-001",
+            "EVID-MED-AI-METHOD-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-AI-ENEANYA-2019"
+          ]
+        },
+        {
+          "kind": "validation",
+          "observed": "La ecuación sin raza subestimaba la filtración medida en personas negras y la sobrestimaba en las no negras.",
+          "inference": "Retirar la raza cambió el error de grupo.",
+          "limit": "La ecuación con cistatina C redujo la diferencia.",
+          "claimIds": [
+            "CLAIM-MED-AI-INKER-2021-001",
+            "CLAIM-MED-AI-INKER-TRADEOFF-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-AI-RACE-EGFR-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-AI-INKER-2021"
+          ]
+        },
+        {
+          "kind": "deployment",
+          "observed": "En 2021 el grupo NKF-ASN propuso adoptar de inmediato la ecuación reajustada sin raza en los laboratorios.",
+          "inference": "El cambio se desplegó por consenso profesional.",
+          "limit": "Un consenso no es un ensayo.",
+          "claimIds": [
+            "CLAIM-MED-AI-DELGADO-2021-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-AI-RACE-EGFR-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-AI-DELGADO-2022"
+          ]
+        },
+        {
+          "kind": "drift",
+          "observed": "Vyas y colaboradores documentaron correcciones por raza en algoritmos de varias especialidades.",
+          "inference": "El problema no era una sola fórmula.",
+          "limit": "La lista era parcial.",
+          "claimIds": [
+            "CLAIM-MED-AI-VYAS-2020-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-AI-RACE-EGFR-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-AI-VYAS-2020"
+          ]
+        },
+        {
+          "kind": "equity",
+          "observed": "El oxímetro de MED-026 subestimaba la hipoxemia en pacientes negros; sus lecturas entran a modelos.",
+          "inference": "El sesgo del instrumento se vuelve sesgo del dato.",
+          "limit": "No se midió aquí su efecto en modelos concretos.",
+          "claimIds": [
+            "CLAIM-MED-AI-INSTRUMENT-BIAS-INPUT-001",
+            "CLAIM-MED-AI-EQUITY-NOT-ACCURACY-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-AI-RACE-EGFR-001",
+            "EVID-MED-AI-METHOD-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-CRIT-SJODING-2020"
+          ]
+        },
+        {
+          "kind": "utility",
+          "observed": "Ninguna de las fuentes mide derivaciones, trasplantes o supervivencia tras el cambio.",
+          "inference": "La utilidad del retiro sigue abierta.",
+          "limit": "Retirar la raza no es eliminar la inequidad.",
+          "claimIds": [
+            "CLAIM-MED-AI-RACE-REMOVAL-NOT-EQUITY-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-AI-RACE-EGFR-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-AI-DELGADO-2022",
+            "SRC-MED-AI-INKER-2021"
+          ]
+        },
+        {
+          "kind": "responsibility",
+          "observed": "Sociedades profesionales y laboratorios decidieron el cambio.",
+          "inference": "La responsabilidad recayó en instituciones clínicas, no en reguladores.",
+          "limit": "No hubo autoridad única que lo ordenara.",
+          "claimIds": [
+            "CLAIM-MED-AI-DELGADO-2021-001",
+            "CLAIM-MED-AI-RESPONSIBILITY-DIFFUSE-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-AI-RACE-EGFR-001",
+            "EVID-MED-AI-AUTOMATION-LIABILITY-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-AI-DELGADO-2022"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sepsis-drift-2017-2022",
+      "title": "Sepsis y deriva · Epic Sepsis Model y TREWS",
+      "region": "Michigan y hospitales de Estados Unidos · 2017–2022",
+      "archive": "JAMA Intern Med, JAMA Netw Open, NEJM, JAMIA y Nat Med",
+      "layers": [
+        {
+          "kind": "data",
+          "observed": "La sepsis se definió con criterios de vigilancia y códigos en 38 455 hospitalizaciones.",
+          "inference": "La etiqueta de sepsis es una construcción del registro.",
+          "limit": "Otra definición puede cambiar el resultado.",
+          "claimIds": [
+            "CLAIM-MED-AI-EPIC-WONG-2021-001",
+            "CLAIM-MED-AI-LABEL-IS-CHOICE-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-AI-SEPSIS-DRIFT-001",
+            "EVID-MED-AI-METHOD-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-AI-WONG-2021"
+          ]
+        },
+        {
+          "kind": "model",
+          "observed": "El ESM era propietario, implantado en cientos de hospitales, con funcionamiento no público.",
+          "inference": "Se desplegó sin evaluación adecuada publicada.",
+          "limit": "Sin acceso al modelo, sólo se audita su salida.",
+          "claimIds": [
+            "CLAIM-MED-AI-EPIC-PROPRIETARY-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-AI-SEPSIS-DRIFT-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-AI-WONG-2021"
+          ]
+        },
+        {
+          "kind": "validation",
+          "observed": "Área bajo la curva de 0.63 en la validación externa de Michigan.",
+          "inference": "La discriminación fue pobre fuera del desarrollo.",
+          "limit": "Un sistema de salud, de forma retrospectiva.",
+          "claimIds": [
+            "CLAIM-MED-AI-EPIC-WONG-2021-001",
+            "CLAIM-MED-AI-MODEL-NOT-VALIDATION-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-AI-SEPSIS-DRIFT-001",
+            "EVID-MED-AI-METHOD-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-AI-WONG-2021"
+          ]
+        },
+        {
+          "kind": "deployment",
+          "observed": "Alertas en 18 % de los hospitalizados; 67 % de los pacientes con sepsis no identificados.",
+          "inference": "El umbral generó fatiga de alertas.",
+          "limit": "El umbral de 6 es una elección local.",
+          "claimIds": [
+            "CLAIM-MED-AI-EPIC-ALERTS-2021-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-AI-SEPSIS-DRIFT-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-AI-WONG-2021"
+          ]
+        },
+        {
+          "kind": "drift",
+          "observed": "En 24 hospitales las alertas diarias subieron 43 % con la pandemia y Michigan apagó el modelo en abril de 2020.",
+          "inference": "La deriva cambió el modelo en meses.",
+          "limit": "No se midió la exactitud de esas alertas.",
+          "claimIds": [
+            "CLAIM-MED-AI-WONG-COVID-2021-001",
+            "CLAIM-MED-AI-MICHIGAN-DEACTIVATION-2020-001",
+            "CLAIM-MED-AI-FINLAYSON-2021-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-AI-SEPSIS-DRIFT-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-AI-WONG-COVID-2021",
+            "SRC-MED-AI-FINLAYSON-2021"
+          ]
+        },
+        {
+          "kind": "equity",
+          "observed": "Finlayson incluyó entre las causas de deriva modelos entrenados en poblaciones distintas de la atendida.",
+          "inference": "La deriva puede repartir errores de forma desigual.",
+          "limit": "No se midieron errores por grupo en el ESM.",
+          "claimIds": [
+            "CLAIM-MED-AI-FINLAYSON-2021-001",
+            "CLAIM-MED-AI-EQUITY-NOT-ACCURACY-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-AI-SEPSIS-DRIFT-001",
+            "EVID-MED-AI-METHOD-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-AI-FINLAYSON-2021"
+          ]
+        },
+        {
+          "kind": "utility",
+          "observed": "Con TREWS, las alertas confirmadas en tres horas se asociaron con 3.3 puntos menos de mortalidad.",
+          "inference": "La utilidad de un sistema de alerta es posible.",
+          "limit": "Observacional: confirma quien puede, no un ensayo del sistema.",
+          "claimIds": [
+            "CLAIM-MED-AI-ADAMS-2022-001",
+            "CLAIM-MED-AI-ADAMS-LIMIT-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-AI-SEPSIS-DRIFT-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-AI-ADAMS-2022"
+          ]
+        },
+        {
+          "kind": "responsibility",
+          "observed": "La calibración de modelos de lesión renal se degradó en nueve años y exigió protocolos de actualización.",
+          "inference": "Vigilar el modelo es una tarea de quien lo usa.",
+          "limit": "Ninguna norma citada aquí la exigía.",
+          "claimIds": [
+            "CLAIM-MED-AI-DAVIS-2017-001",
+            "CLAIM-MED-AI-DRIFT-LOCAL-VALIDATION-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-AI-SEPSIS-DRIFT-001",
+            "EVID-MED-AI-METHOD-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-AI-DAVIS-2017"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "idx-dr-autonomous-2018-2020",
+      "title": "IDx-DR · la primera aprobación autónoma y su contraparte en Tailandia",
+      "region": "Estados Unidos y Tailandia · 2018–2020",
+      "archive": "npj Digital Medicine, FDA DEN180001 y CHI",
+      "layers": [
+        {
+          "kind": "data",
+          "observed": "Imágenes de retina de 900 personas con diabetes en diez consultorios de atención primaria.",
+          "inference": "El ensayo se hizo donde el sistema se usaría.",
+          "limit": "Una cámara y una población estadounidense.",
+          "claimIds": [
+            "CLAIM-MED-AI-ABRAMOFF-2018-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-AI-AUTONOMOUS-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-AI-ABRAMOFF-2018"
+          ]
+        },
+        {
+          "kind": "model",
+          "observed": "El sistema entrega un resultado de cribado sin interpretación de un clínico.",
+          "inference": "Es autónomo en la lectura.",
+          "limit": "Autónomo en la lectura no es autónomo en la atención.",
+          "claimIds": [
+            "CLAIM-MED-AI-IDX-DENOVO-2018-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-AI-AUTONOMOUS-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-AI-FDA-DEN180001-2018"
+          ]
+        },
+        {
+          "kind": "validation",
+          "observed": "Sensibilidad de 87.2 % y especificidad de 90.7 % frente al centro de lectura de Wisconsin.",
+          "inference": "Superó los umbrales preespecificados.",
+          "limit": "La referencia es otra lectura experta.",
+          "claimIds": [
+            "CLAIM-MED-AI-ABRAMOFF-2018-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-AI-AUTONOMOUS-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-AI-ABRAMOFF-2018"
+          ]
+        },
+        {
+          "kind": "deployment",
+          "observed": "En once clínicas de Tailandia hubo imágenes rechazadas por luz y desenfoque y conexiones lentas.",
+          "inference": "El entorno cambió el desempeño de un sistema parecido.",
+          "limit": "Es otro producto y un estudio de campo.",
+          "claimIds": [
+            "CLAIM-MED-AI-BEEDE-2020-001",
+            "CLAIM-MED-AI-VALIDATION-NOT-DEPLOYMENT-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-AI-AUTONOMOUS-001",
+            "EVID-MED-AI-METHOD-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-AI-BEEDE-2020"
+          ]
+        },
+        {
+          "kind": "drift",
+          "observed": "La autorización fija un producto con una cámara indicada.",
+          "inference": "Cambiar equipo o población exige revisar el desempeño.",
+          "limit": "No hay datos publicados de vigilancia aquí.",
+          "claimIds": [
+            "CLAIM-MED-AI-DEPLOYMENT-NOT-STABILITY-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-AI-METHOD-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-AI-FDA-DEN180001-2018"
+          ]
+        },
+        {
+          "kind": "equity",
+          "observed": "En el ensayo, 28.6 % de los participantes eran afroestadounidenses y 16.1 % hispanos.",
+          "inference": "El ensayo incluyó diversidad declarada.",
+          "limit": "No se citan aquí errores por grupo.",
+          "claimIds": [
+            "CLAIM-MED-AI-ABRAMOFF-2018-001",
+            "CLAIM-MED-AI-EQUITY-NOT-ACCURACY-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-AI-AUTONOMOUS-001",
+            "EVID-MED-AI-METHOD-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-AI-ABRAMOFF-2018"
+          ]
+        },
+        {
+          "kind": "utility",
+          "observed": "La aprobación descansó en exactitud frente a una referencia.",
+          "inference": "El cribado autónomo puede ampliar acceso.",
+          "limit": "No se midieron derivaciones, tratamientos ni ceguera evitada.",
+          "claimIds": [
+            "CLAIM-MED-AI-AUTONOMOUS-NOT-OUTCOME-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-AI-AUTONOMOUS-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-AI-ABRAMOFF-2018",
+            "SRC-MED-AI-FDA-DEN180001-2018"
+          ]
+        },
+        {
+          "kind": "responsibility",
+          "observed": "Sin clínico que interprete, el fabricante responde por la lectura.",
+          "inference": "La autonomía desplaza la responsabilidad hacia el desarrollador.",
+          "limit": "El reparto concreto depende del derecho aplicable.",
+          "claimIds": [
+            "CLAIM-MED-AI-IDX-DENOVO-2018-001",
+            "CLAIM-MED-AI-RESPONSIBILITY-DIFFUSE-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-AI-AUTONOMOUS-001",
+            "EVID-MED-AI-AUTOMATION-LIABILITY-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-AI-FDA-DEN180001-2018"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fda-samd-2013-2026",
+      "title": "Software como dispositivo médico · IMDRF y FDA",
+      "region": "Estados Unidos y Europa · 2013–2026",
+      "archive": "IMDRF, Nat Med, Lancet Digit Health y FDA",
+      "layers": [
+        {
+          "kind": "data",
+          "observed": "De 130 dispositivos de IA autorizados entre 2015 y 2020, 126 se evaluaron sólo con datos retrospectivos.",
+          "inference": "La evidencia de autorización es mayoritariamente retrospectiva.",
+          "limit": "Se revisaron resúmenes públicos, no expedientes completos.",
+          "claimIds": [
+            "CLAIM-MED-AI-WU-2021-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-AI-FDA-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-AI-WU-2021"
+          ]
+        },
+        {
+          "kind": "model",
+          "observed": "El IMDRF definió en 2013 el software con finalidad médica que la cumple sin formar parte de un equipo físico.",
+          "inference": "El software se volvió dispositivo.",
+          "limit": "La definición no evalúa ningún producto.",
+          "claimIds": [
+            "CLAIM-MED-AI-IMDRF-2013-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-AI-FDA-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-AI-IMDRF-2013"
+          ]
+        },
+        {
+          "kind": "validation",
+          "observed": "Ninguno de los 54 dispositivos de alto riesgo revisados por Wu tenía estudio prospectivo.",
+          "inference": "La validación prospectiva fue la excepción.",
+          "limit": "Periodo 2015–2020.",
+          "claimIds": [
+            "CLAIM-MED-AI-WU-2021-001",
+            "CLAIM-MED-AI-MODEL-NOT-VALIDATION-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-AI-FDA-001",
+            "EVID-MED-AI-METHOD-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-AI-WU-2021"
+          ]
+        },
+        {
+          "kind": "deployment",
+          "observed": "222 dispositivos en Estados Unidos y 240 en Europa; de 124 comunes, 80 se aprobaron antes en Europa.",
+          "inference": "El mercado creció más rápido que la evidencia.",
+          "limit": "Contar dispositivos no mide su uso.",
+          "claimIds": [
+            "CLAIM-MED-AI-MUEHLEMATTER-2021-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-AI-FDA-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-AI-MUEHLEMATTER-2021"
+          ]
+        },
+        {
+          "kind": "drift",
+          "observed": "La guía final de diciembre de 2024 permite describir de antemano qué cambiará el modelo y cómo se validará.",
+          "inference": "El regulador reconoce que los modelos cambian.",
+          "limit": "Es una guía, no una obligación de vigilancia.",
+          "claimIds": [
+            "CLAIM-MED-AI-PCCP-2024-001",
+            "CLAIM-MED-AI-DRIFT-LOCAL-VALIDATION-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-AI-FDA-001",
+            "EVID-MED-AI-METHOD-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-AI-FDA-PCCP-2024"
+          ]
+        },
+        {
+          "kind": "equity",
+          "observed": "Los resúmenes públicos rara vez informan desempeño por grupo.",
+          "inference": "La equidad no forma parte habitual de la evidencia pública.",
+          "limit": "Afirmación general del expediente, no un recuento.",
+          "claimIds": [
+            "CLAIM-MED-AI-EQUITY-NOT-ACCURACY-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-AI-METHOD-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-AI-WU-2021"
+          ]
+        },
+        {
+          "kind": "utility",
+          "observed": "En septiembre de 2026 la lista pública sumaba más de 1600 dispositivos con IA autorizados.",
+          "inference": "La autorización es masiva.",
+          "limit": "Autorizar no es demostrar beneficio.",
+          "claimIds": [
+            "CLAIM-MED-AI-FDA-LIST-2026-001",
+            "CLAIM-MED-AI-UTILITY-NOT-PERFORMANCE-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-AI-FDA-001",
+            "EVID-MED-AI-METHOD-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-AI-FDA-LIST-2026"
+          ]
+        },
+        {
+          "kind": "responsibility",
+          "observed": "La autorización fija un umbral de evidencia en una fecha (MED-029).",
+          "inference": "El regulador responde por el umbral, no por cada uso.",
+          "limit": "Una aprobación no asigna la culpa de un daño.",
+          "claimIds": [
+            "CLAIM-MED-AI-RESPONSIBILITY-NOT-APPROVAL-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-AI-FDA-001",
+            "EVID-MED-AI-METHOD-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-AI-FDA-LIST-2026"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "eu-ai-act-liability-2024-2026",
+      "title": "Ley de IA de la UE y responsabilidad por productos",
+      "region": "Unión Europea · 2024–2026",
+      "archive": "Reglamentos (UE) 2024/1689 y 2026/1744, Directiva (UE) 2024/2853 y Parlamento Europeo",
+      "layers": [
+        {
+          "kind": "data",
+          "observed": "La Ley de IA impone requisitos de gobernanza de datos a los sistemas de alto riesgo.",
+          "inference": "La calidad del dato se volvió obligación legal.",
+          "limit": "Las obligaciones de alto riesgo aún no se aplican a dispositivos médicos.",
+          "claimIds": [
+            "CLAIM-MED-AI-AI-ACT-2024-001",
+            "CLAIM-MED-AI-OMNIBUS-2026-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-AI-EU-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-AI-EU-AI-ACT-2024",
+            "SRC-MED-AI-EU-OMNIBUS-2026"
+          ]
+        },
+        {
+          "kind": "model",
+          "observed": "Un sistema que es dispositivo médico sujeto a organismo notificado es de alto riesgo por el artículo 6.1 y el anexo I.",
+          "inference": "La IA médica entra en la categoría más exigente.",
+          "limit": "La clasificación no evalúa el modelo.",
+          "claimIds": [
+            "CLAIM-MED-AI-AI-ACT-MEDICAL-HIGH-RISK-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-AI-EU-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-AI-EU-AI-ACT-2024"
+          ]
+        },
+        {
+          "kind": "validation",
+          "observed": "El reglamento exige evaluación de conformidad antes de comercializar un sistema de alto riesgo.",
+          "inference": "La validación se integra a la conformidad del dispositivo.",
+          "limit": "Conformidad no es ensayo clínico.",
+          "claimIds": [
+            "CLAIM-MED-AI-AI-ACT-MEDICAL-HIGH-RISK-001",
+            "CLAIM-MED-AI-LAW-NOT-AUDIT-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-AI-EU-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-AI-EU-AI-ACT-2024"
+          ]
+        },
+        {
+          "kind": "deployment",
+          "observed": "En vigor desde el 1 de agosto de 2024; prohibiciones desde el 2 de febrero de 2025; propósito general desde el 2 de agosto de 2025.",
+          "inference": "La aplicación es escalonada.",
+          "limit": "El calendario original cambió en 2026.",
+          "claimIds": [
+            "CLAIM-MED-AI-AI-ACT-2024-001",
+            "CLAIM-MED-AI-AI-ACT-CALENDAR-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-AI-EU-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-AI-EU-AI-ACT-2024"
+          ]
+        },
+        {
+          "kind": "drift",
+          "observed": "El ómnibus de 2026 aplazó el alto riesgo del anexo III al 2 de diciembre de 2027 y el del anexo I al 2 de agosto de 2028.",
+          "inference": "La ley misma derivó antes de aplicarse.",
+          "limit": "Las fechas pueden volver a cambiar.",
+          "claimIds": [
+            "CLAIM-MED-AI-OMNIBUS-2026-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-AI-EU-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-AI-EU-OMNIBUS-2026"
+          ]
+        },
+        {
+          "kind": "equity",
+          "observed": "Los requisitos de gobernanza de datos incluyen examinar sesgos posibles.",
+          "inference": "La ley nombra el sesgo como riesgo.",
+          "limit": "Nombrar no es medir errores por grupo.",
+          "claimIds": [
+            "CLAIM-MED-AI-LAW-NOT-AUDIT-001",
+            "CLAIM-MED-AI-EQUITY-NOT-ACCURACY-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-AI-EU-001",
+            "EVID-MED-AI-METHOD-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-AI-EU-AI-ACT-2024"
+          ]
+        },
+        {
+          "kind": "utility",
+          "observed": "Ninguna disposición citada exige demostrar beneficio clínico frente a un comparador.",
+          "inference": "La ley regula riesgos, no mide utilidad.",
+          "limit": "La utilidad queda en manos de la evidencia clínica.",
+          "claimIds": [
+            "CLAIM-MED-AI-LAW-NOT-AUDIT-001",
+            "CLAIM-MED-AI-UTILITY-NOT-PERFORMANCE-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-AI-EU-001",
+            "EVID-MED-AI-METHOD-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-AI-EU-AI-ACT-2024"
+          ]
+        },
+        {
+          "kind": "responsibility",
+          "observed": "La Directiva 2024/2853 trata el software como producto desde el 9 de diciembre de 2026; la directiva de responsabilidad por IA se retiró en 2025.",
+          "inference": "La responsabilidad civil se movió al régimen de productos.",
+          "limit": "Ningún caso concreto se ha resuelto con ella aquí.",
+          "claimIds": [
+            "CLAIM-MED-AI-PLD-2024-001",
+            "CLAIM-MED-AI-AILD-WITHDRAWN-2025-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-AI-EU-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-AI-EU-PLD-2024",
+            "SRC-MED-AI-EP-AILD-2025"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "reporting-trials-2020-2024",
+      "title": "Marcos de reporte y ensayos de IA · CONSORT-AI a TRIPOD+AI",
+      "region": "Internacional · 2020–2024",
+      "archive": "Nat Med, BMJ, JAMA Netw Open y Lancet Digit Health",
+      "layers": [
+        {
+          "kind": "data",
+          "observed": "CONSORT-AI pide describir cómo se manejaron las entradas de mala calidad o no disponibles.",
+          "inference": "El dato de entrada es parte de la intervención.",
+          "limit": "93 % de los ensayos revisados por Plana no lo evaluaba.",
+          "claimIds": [
+            "CLAIM-MED-AI-CONSORT-AI-2020-001",
+            "CLAIM-MED-AI-PLANA-2022-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-AI-REPORTING-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-AI-LIU-2020",
+            "SRC-MED-AI-PLANA-2022"
+          ]
+        },
+        {
+          "kind": "model",
+          "observed": "TRIPOD+AI reemplazó a TRIPOD para informar modelos con regresión o aprendizaje automático.",
+          "inference": "El modelo debe describirse para poder auditarse.",
+          "limit": "Ya auditado en MED-002.",
+          "claimIds": [
+            "CLAIM-MED-AI-TRIPOD-AI-2024-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-AI-REPORTING-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-DX-TRIPOD-AI-2024"
+          ]
+        },
+        {
+          "kind": "validation",
+          "observed": "DECIDE-AI cubre la evaluación clínica temprana entre el desarrollo y el ensayo grande.",
+          "inference": "Hay una etapa intermedia de validación.",
+          "limit": "Una guía no realiza la evaluación.",
+          "claimIds": [
+            "CLAIM-MED-AI-DECIDE-AI-2022-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-AI-REPORTING-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-AI-VASEY-2022"
+          ]
+        },
+        {
+          "kind": "deployment",
+          "observed": "SPIRIT-AI pide declarar en el protocolo el entorno y la interacción humano-máquina.",
+          "inference": "El despliegue se planifica antes del ensayo.",
+          "limit": "Protocolo no es práctica.",
+          "claimIds": [
+            "CLAIM-MED-AI-SPIRIT-AI-2020-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-AI-REPORTING-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-AI-CRUZ-RIVERA-2020"
+          ]
+        },
+        {
+          "kind": "drift",
+          "observed": "CONSORT-AI pide informar la versión del algoritmo.",
+          "inference": "La versión ensayada no es necesariamente la desplegada.",
+          "limit": "Una versión informada no se vigila sola.",
+          "claimIds": [
+            "CLAIM-MED-AI-CONSORT-AI-2020-001",
+            "CLAIM-MED-AI-DEPLOYMENT-NOT-STABILITY-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-AI-REPORTING-001",
+            "EVID-MED-AI-METHOD-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-AI-LIU-2020"
+          ]
+        },
+        {
+          "kind": "equity",
+          "observed": "Los ensayos revisados por Han eran mayormente de un solo centro y con poca descripción demográfica.",
+          "inference": "La equidad casi no se informa.",
+          "limit": "Revisión de alcance; sesgo de publicación posible.",
+          "claimIds": [
+            "CLAIM-MED-AI-HAN-2024-001",
+            "CLAIM-MED-AI-EQUITY-NOT-ACCURACY-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-AI-REPORTING-001",
+            "EVID-MED-AI-METHOD-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-AI-HAN-2024"
+          ]
+        },
+        {
+          "kind": "utility",
+          "observed": "Sólo 41 ensayos hasta 2021; 86 hasta 2023, con 81 % positivos sobre todo en rendimiento diagnóstico.",
+          "inference": "Existen ensayos, pocos y estrechos.",
+          "limit": "Positivo en rendimiento no es beneficio para el paciente.",
+          "claimIds": [
+            "CLAIM-MED-AI-PLANA-2022-001",
+            "CLAIM-MED-AI-HAN-2024-001",
+            "CLAIM-MED-AI-UTILITY-NOT-PERFORMANCE-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-AI-REPORTING-001",
+            "EVID-MED-AI-METHOD-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-AI-PLANA-2022",
+            "SRC-MED-AI-HAN-2024"
+          ]
+        },
+        {
+          "kind": "responsibility",
+          "observed": "Ningún ensayo de Plana cumplía todo CONSORT-AI y 90 % no declaraba disponibilidad del código.",
+          "inference": "La transparencia depende de autores y revistas.",
+          "limit": "Un informe completo no certifica un diseño válido (MED-001).",
+          "claimIds": [
+            "CLAIM-MED-AI-PLANA-2022-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-AI-REPORTING-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-AI-PLANA-2022"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "llm-exams-trials-2023-2026",
+      "title": "Grandes modelos de lenguaje · del examen al ensayo",
+      "region": "Estados Unidos y Reino Unido · 2023–2026",
+      "archive": "PLOS Digit Health, Nature, Nat Med y JAMA Netw Open",
+      "layers": [
+        {
+          "kind": "data",
+          "observed": "Los modelos se evaluaron con preguntas de examen, casos de MIMIC y viñetas construidas.",
+          "inference": "La evidencia viene de textos, no de consultas.",
+          "limit": "Los exámenes pueden estar en los datos de entrenamiento.",
+          "claimIds": [
+            "CLAIM-MED-AI-KUNG-2023-001",
+            "CLAIM-MED-AI-HAGER-2024-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-AI-LLM-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-AI-KUNG-2023",
+            "SRC-MED-AI-HAGER-2024"
+          ]
+        },
+        {
+          "kind": "model",
+          "observed": "Flan-PaLM llegó a 67.6 % en preguntas de estilo USMLE; Med-PaLM seguía por debajo de los clínicos.",
+          "inference": "El conocimiento recuperable creció con escala y ajuste.",
+          "limit": "Exactitud en opción múltiple no es razonamiento clínico.",
+          "claimIds": [
+            "CLAIM-MED-AI-SINGHAL-2023-001",
+            "CLAIM-MED-AI-EXAM-NOT-CLINIC-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-AI-LLM-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-AI-SINGHAL-2023"
+          ]
+        },
+        {
+          "kind": "validation",
+          "observed": "En 2400 casos reales de abdomen agudo diagnosticaron peor que los médicos y no siguieron guías.",
+          "inference": "Fuera del examen el desempeño cae.",
+          "limit": "Casos retrospectivos de un solo repositorio.",
+          "claimIds": [
+            "CLAIM-MED-AI-HAGER-2024-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-AI-LLM-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-AI-HAGER-2024"
+          ]
+        },
+        {
+          "kind": "deployment",
+          "observed": "Con 1298 personas del público, el modelo solo identificaba la condición en 94.9 % y sus usuarios en menos de 34.5 %.",
+          "inference": "La exactitud no se transfiere a quien lo usa.",
+          "limit": "Escenarios simulados en el Reino Unido.",
+          "claimIds": [
+            "CLAIM-MED-AI-BEAN-2026-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-AI-LLM-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-AI-BEAN-2026"
+          ]
+        },
+        {
+          "kind": "drift",
+          "observed": "Las versiones de los modelos cambian entre estudios y en meses.",
+          "inference": "Un resultado vale para una versión.",
+          "limit": "No se midió la deriva de ninguno aquí.",
+          "claimIds": [
+            "CLAIM-MED-AI-DEPLOYMENT-NOT-STABILITY-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-AI-METHOD-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-AI-BEAN-2026"
+          ]
+        },
+        {
+          "kind": "equity",
+          "observed": "Los ensayos se hicieron con médicos o público de países de altos ingresos y en inglés.",
+          "inference": "La población evaluada es estrecha.",
+          "limit": "No hay errores por grupo publicados en estas fuentes.",
+          "claimIds": [
+            "CLAIM-MED-AI-EQUITY-NOT-ACCURACY-001",
+            "CLAIM-MED-AI-LLM-RCT-SCOPE-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-AI-METHOD-001",
+            "EVID-MED-AI-LLM-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-AI-GOH-2024"
+          ]
+        },
+        {
+          "kind": "utility",
+          "observed": "Diagnóstico: 76 % frente a 74 % sin diferencia; manejo: 6.5 puntos más con el modelo.",
+          "inference": "La utilidad depende de la tarea.",
+          "limit": "Viñetas, no pacientes con desenlaces.",
+          "claimIds": [
+            "CLAIM-MED-AI-GOH-2024-001",
+            "CLAIM-MED-AI-GOH-2025-001",
+            "CLAIM-MED-AI-LLM-RCT-SCOPE-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-AI-LLM-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-AI-GOH-2024",
+            "SRC-MED-AI-GOH-2025"
+          ]
+        },
+        {
+          "kind": "responsibility",
+          "observed": "Los participantes del público daban información incompleta y los modelos a veces respondían mal.",
+          "inference": "El error se reparte entre usuario y sistema.",
+          "limit": "Quién responde no está definido.",
+          "claimIds": [
+            "CLAIM-MED-AI-BEAN-2026-001",
+            "CLAIM-MED-AI-RESPONSIBILITY-DIFFUSE-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-AI-LLM-001",
+            "EVID-MED-AI-AUTOMATION-LIABILITY-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-AI-BEAN-2026"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ambient-scribes-2023-2025",
+      "title": "Escribanía ambiental · de la implementación al ensayo",
+      "region": "California y Estados Unidos · 2023–2025",
+      "archive": "NEJM Catalyst y NEJM AI",
+      "layers": [
+        {
+          "kind": "data",
+          "observed": "Los escribas graban la conversación de la consulta y redactan la nota.",
+          "inference": "El dato es la consulta misma.",
+          "limit": "La grabación plantea consentimiento y privacidad.",
+          "claimIds": [
+            "CLAIM-MED-AI-TIERNEY-2024-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-AI-SCRIBE-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-AI-TIERNEY-2024"
+          ]
+        },
+        {
+          "kind": "model",
+          "observed": "Modelos de lenguaje comerciales distintos en cada estudio.",
+          "inference": "Cada producto es una intervención distinta.",
+          "limit": "Un resultado no se generaliza a otro producto.",
+          "claimIds": [
+            "CLAIM-MED-AI-LUKAC-2025-001",
+            "CLAIM-MED-AI-SCRIBE-LIMIT-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-AI-SCRIBE-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-AI-LUKAC-2025"
+          ]
+        },
+        {
+          "kind": "validation",
+          "observed": "En diez semanas, 3442 médicos los usaron en hasta 303 266 encuentros, con un pequeño porcentaje de alucinaciones.",
+          "inference": "La implementación fue rápida y extensa.",
+          "limit": "Informe sin grupo de comparación.",
+          "claimIds": [
+            "CLAIM-MED-AI-TIERNEY-2024-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-AI-SCRIBE-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-AI-TIERNEY-2024"
+          ]
+        },
+        {
+          "kind": "deployment",
+          "observed": "En el ensayo de UCLA, los escribas se usaron en 33.5 % y 29.5 % de las visitas.",
+          "inference": "La adopción dentro del ensayo fue parcial.",
+          "limit": "Dos meses de seguimiento.",
+          "claimIds": [
+            "CLAIM-MED-AI-LUKAC-2025-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-AI-SCRIBE-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-AI-LUKAC-2025"
+          ]
+        },
+        {
+          "kind": "drift",
+          "observed": "Los productos se actualizan durante y después de los ensayos.",
+          "inference": "El efecto medido corresponde a una versión.",
+          "limit": "No se midió deriva.",
+          "claimIds": [
+            "CLAIM-MED-AI-SCRIBE-LIMIT-001",
+            "CLAIM-MED-AI-DEPLOYMENT-NOT-STABILITY-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-AI-SCRIBE-001",
+            "EVID-MED-AI-METHOD-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-AI-LUKAC-2025"
+          ]
+        },
+        {
+          "kind": "equity",
+          "observed": "Los ensayos midieron a los clínicos, no a los pacientes por grupo.",
+          "inference": "La equidad para el paciente no se evaluó.",
+          "limit": "Sin datos por idioma o grupo aquí.",
+          "claimIds": [
+            "CLAIM-MED-AI-SCRIBE-LIMIT-001",
+            "CLAIM-MED-AI-EQUITY-NOT-ACCURACY-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-AI-SCRIBE-001",
+            "EVID-MED-AI-METHOD-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-AI-AFSHAR-2025"
+          ]
+        },
+        {
+          "kind": "utility",
+          "observed": "Un producto redujo 9.5 % el tiempo de redacción y otro no; el agotamiento bajó 0.44 puntos en otro ensayo.",
+          "inference": "Menos agotamiento con ahorro de tiempo variable.",
+          "limit": "Desenlaces del clínico, ensayos cortos.",
+          "claimIds": [
+            "CLAIM-MED-AI-LUKAC-2025-001",
+            "CLAIM-MED-AI-AFSHAR-2025-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-AI-SCRIBE-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-AI-LUKAC-2025",
+            "SRC-MED-AI-AFSHAR-2025"
+          ]
+        },
+        {
+          "kind": "responsibility",
+          "observed": "Las notas contenían ocasionalmente imprecisiones relevantes, sobre todo omisiones.",
+          "inference": "El error pasa al clínico que firma.",
+          "limit": "Frecuencia de errores no estimada con precisión.",
+          "claimIds": [
+            "CLAIM-MED-AI-SCRIBE-ERRORS-001",
+            "CLAIM-MED-AI-RESPONSIBILITY-DIFFUSE-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-AI-SCRIBE-001",
+            "EVID-MED-AI-AUTOMATION-LIABILITY-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-AI-LUKAC-2025"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "automation-liability-2012-2026",
+      "title": "Automatización y responsabilidad clínica",
+      "region": "Internacional · 2012–2026",
+      "archive": "JAMIA, Radiology, JAMA y Nat Med",
+      "layers": [
+        {
+          "kind": "data",
+          "observed": "Goddard revisó 74 estudios sobre sesgo de automatización de 13 821 artículos.",
+          "inference": "El fenómeno está documentado en muchos dominios.",
+          "limit": "Estudios heterogéneos.",
+          "claimIds": [
+            "CLAIM-MED-AI-GODDARD-2012-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-AI-AUTOMATION-LIABILITY-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-AI-GODDARD-2012"
+          ]
+        },
+        {
+          "kind": "model",
+          "observed": "Dratsch usó un supuesto sistema de IA que proponía categorías BI-RADS, incorrectas en doce de cuarenta casos.",
+          "inference": "El experimento aísla el efecto de la sugerencia.",
+          "limit": "El sistema era simulado.",
+          "claimIds": [
+            "CLAIM-MED-AI-DRATSCH-2023-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-AI-AUTOMATION-LIABILITY-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-AI-DRATSCH-2023"
+          ]
+        },
+        {
+          "kind": "validation",
+          "observed": "Con sugerencias erróneas, la exactitud de los inexpertos bajó de 79.7 % a 19.8 %.",
+          "inference": "La sugerencia cambia la lectura humana.",
+          "limit": "27 lectores en un experimento.",
+          "claimIds": [
+            "CLAIM-MED-AI-DRATSCH-2023-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-AI-AUTOMATION-LIABILITY-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-AI-DRATSCH-2023"
+          ]
+        },
+        {
+          "kind": "deployment",
+          "observed": "El sesgo aumenta con carga de trabajo, complejidad y confianza, y disminuye con entrenamiento y responsabilidad explícita.",
+          "inference": "El contexto de uso modula el sesgo.",
+          "limit": "Mediadores identificados, no efectos estimados.",
+          "claimIds": [
+            "CLAIM-MED-AI-GODDARD-2012-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-AI-AUTOMATION-LIABILITY-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-AI-GODDARD-2012"
+          ]
+        },
+        {
+          "kind": "drift",
+          "observed": "Topol anticipaba en 2019 mejoras marcadas de exactitud y flujo.",
+          "inference": "La promesa cambió con los años más rápido que la evidencia.",
+          "limit": "Era una prospectiva, no una medición.",
+          "claimIds": [
+            "CLAIM-MED-AI-TOPOL-2019-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-AI-AUTOMATION-LIABILITY-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-AI-TOPOL-2019"
+          ]
+        },
+        {
+          "kind": "equity",
+          "observed": "Topol nombraba el sesgo, la privacidad y la opacidad como límites.",
+          "inference": "Hasta el adversario optimista reconoce el riesgo de inequidad.",
+          "limit": "Reconocer no es medir.",
+          "claimIds": [
+            "CLAIM-MED-AI-TOPOL-2019-001",
+            "CLAIM-MED-AI-EQUITY-NOT-ACCURACY-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-AI-AUTOMATION-LIABILITY-001",
+            "EVID-MED-AI-METHOD-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-AI-TOPOL-2019"
+          ]
+        },
+        {
+          "kind": "utility",
+          "observed": "Un lector humano con IA no es la suma del lector y la máquina.",
+          "inference": "La utilidad depende de la interacción.",
+          "limit": "MASAI (MED-025) es el ensayo grande de esa interacción.",
+          "claimIds": [
+            "CLAIM-MED-AI-UTILITY-NOT-PERFORMANCE-001",
+            "CLAIM-MED-AI-DRATSCH-2023-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-AI-METHOD-001",
+            "EVID-MED-AI-AUTOMATION-LIABILITY-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-AI-DRATSCH-2023"
+          ]
+        },
+        {
+          "kind": "responsibility",
+          "observed": "Price, Gerke y Cohen analizaron cuándo responde un médico por usar IA con el estándar de cuidado como referencia.",
+          "inference": "La responsabilidad se reparte entre clínico, hospital, desarrollador y regulador.",
+          "limit": "Ningún texto vigente citado aquí la cierra.",
+          "claimIds": [
+            "CLAIM-MED-AI-PRICE-2019-001",
+            "CLAIM-MED-AI-RESPONSIBILITY-DIFFUSE-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-AI-AUTOMATION-LIABILITY-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-AI-PRICE-2019"
+          ]
+        }
+      ]
+    }
+  ]
+}

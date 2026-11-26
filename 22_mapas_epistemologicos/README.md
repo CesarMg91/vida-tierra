@@ -68,6 +68,10 @@ Grafos de dependencias entre objetos, mediciones, principios, modelos, claims y 
 
 - [`MAPA_CIV_007_URBANISMOS_COMPARADOS.md`](MAPA_CIV_007_URBANISMOS_COMPARADOS.md) — siete dimensiones paralelas, instrumentos con sus supuestos y saltos no heredados: población, Estado, soberano, igualdad e identidad — **AUDITADO**.
 
+- [`MAPA_CIV_008_ESCRITURAS_NOTACIONES_ORALIDAD.md`](MAPA_CIV_008_ESCRITURAS_NOTACIONES_ORALIDAD.md) — seis niveles paralelos, qué prueba cada instrumento y saltos no heredados: lengua, lectura, fecha, historia y mente — **AUDITADO**.
+
+- [`MAPA_CIV_009_ESTADOS_IMPERIOS_CONTROL_DESIGUAL.md`](MAPA_CIV_009_ESTADOS_IMPERIOS_CONTROL_DESIGUAL.md) — siete dimensiones del alcance, instrumentos con sus supuestos y saltos no heredados: frontera, inscripción, archivo, lista de tributo, camino y crónica — **AUDITADO**.
+
 ## Medicina
 
 - [`MAPA_MED_008_ROMA_BIZANCIO_MEDITERRANEO_TARDIO.md`](MAPA_MED_008_ROMA_BIZANCIO_MEDITERRANEO_TARDIO.md) — vestigio, identificación, función, operación, acceso y consecuencia sin hospital, cobertura o resultado heredados — **AUDITADO**.

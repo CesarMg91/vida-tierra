@@ -1290,3 +1290,36 @@ La portada no usa modelos de imagen: se regenera idéntica con `node scripts/gen
 | `matriz-ciudades-dimensiones-civ-007.svg` | `scripts/generate-civ-007-visuals.mjs` desde `content/civilization-urbanisms.json` | `1600 × 900` | código fuente versionado | estado del archivo; no ranking de ciudades |
 
 La portada no usa modelos de imagen: se regenera idéntica con `node scripts/generate-civ-007-visuals.mjs --png`. Los SVG incluyen `title` y `desc`. El procedimiento y los límites completos están en la sección «CIV-007 — Una ciudad no es un tamaño» de [`ATLAS_VISUAL.md`](../../ATLAS_VISUAL.md).
+
+## MED-033 — Medicina digital e inteligencia artificial
+
+| Archivo | Origen | Dimensiones | SHA-256 / trazabilidad | Límite |
+|---|---|---:|---|---|
+| `hero-med-033-medicina-digital-inteligencia-artificial.png` | rasterizado con `sharp` por `scripts/generate-med-033-visuals.mjs --png`, 2026-11-26 | `1672 × 941` | `1cd20cf9c2e1be2bf7ffbefab522ebbd7271e0eb4a8c596063622f861d0db85f` | composición abstracta; no cuerpos, robots, pantallas, datos ni acontecimientos reales |
+| `hero-med-033-medicina-digital-inteligencia-artificial.svg` | `scripts/generate-med-033-visuals.mjs`, semilla fija | `1672 × 941` | código fuente versionado | celdas, curvas y nodos sin información |
+| `cadena-datos-responsabilidad-med-033.svg` | `scripts/generate-med-033-visuals.mjs` | `1600 × 900` | código fuente versionado | ocho capas inferenciales; no herencia automática |
+| `matriz-medicina-digital-ia-med-033.svg` | `scripts/generate-med-033-visuals.mjs` | `1600 × 900` | código fuente versionado | doce expedientes y capas; no ranking |
+
+La portada no usa modelos de imagen: se regenera idéntica con `node scripts/generate-med-033-visuals.mjs --png`. Los SVG incluyen `title` y `desc`, preservan las ocho capas y no convierten datos, métrica, autorización, examen ni ley en validez, beneficio, equidad o responsable. El prompt-equivalente y los límites están en `ATLAS_VISUAL.md`, en la sección de MED-033.
+
+## CIV-008 — Escrituras, notaciones, oralidad y archivos administrativos
+
+| Archivo | Origen | Dimensiones | SHA-256 / trazabilidad | Límite |
+|---|---|---:|---|---|
+| `hero-civ-008-escrituras-notaciones-oralidad.png` | rasterizado con `sharp` desde el SVG generativo del proyecto, 2026-11-26 | `1672 × 941` | `6afd016c0222b6a69fda6ede28d52b2ce2f75ab5b0b92245af7ceb46e1f6a4ee` | composición abstracta; sin signos reales, texto ni personas |
+| `hero-civ-008-escrituras-notaciones-oralidad.svg` | `scripts/generate-civ-008-visuals.mjs`, semilla `8008` | `1672 × 941` | código fuente versionado | formas genéricas |
+| `cadena-signo-lengua-civ-008.svg` | `scripts/generate-civ-008-visuals.mjs` | `1600 × 900` | código fuente versionado | seis niveles; no evolución |
+| `matriz-archivos-niveles-civ-008.svg` | `scripts/generate-civ-008-visuals.mjs` desde `content/civilization-scripts.json` | `1600 × 900` | código fuente versionado | estado del archivo; no escala de sistemas |
+
+La portada no usa modelos de imagen: se regenera idéntica con `node scripts/generate-civ-008-visuals.mjs --png`. Los SVG incluyen `title` y `desc`. El procedimiento y los límites completos están en la sección «CIV-008 — Un signo no es una lengua» de [`ATLAS_VISUAL.md`](../../ATLAS_VISUAL.md).
+
+## CIV-009 — Estados e imperios
+
+| Archivo | Origen | Dimensiones | SHA-256 / trazabilidad | Límite |
+|---|---|---:|---|---|
+| `hero-civ-009-estados-imperios.png` | rasterizado con `sharp` desde el SVG generativo del proyecto, 2026-11-26 | `1672 × 941` | `b239a84eb7c002decab8b3b85466d1c7414b8fa345020c5c4b56e56d5ba58836` | composición abstracta; no mapa, contorno de imperio ni persona |
+| `hero-civ-009-estados-imperios.svg` | `scripts/generate-civ-009-visuals.mjs`, semilla `9009` | `1672 × 941` | código fuente versionado | formas genéricas |
+| `cadena-alcance-estatal-civ-009.svg` | `scripts/generate-civ-009-visuals.mjs` | `1600 × 900` | código fuente versionado | siete dimensiones; no secuencia histórica |
+| `matriz-imperios-dimensiones-civ-009.svg` | `scripts/generate-civ-009-visuals.mjs` desde `content/civilization-empires.json` | `1600 × 900` | código fuente versionado | estado del archivo; no ranking de imperios |
+
+La portada no usa modelos de imagen: se regenera idéntica con `node scripts/generate-civ-009-visuals.mjs --png`. Los SVG incluyen `title` y `desc`. El procedimiento y los límites completos están en la sección «CIV-009 — Un mapa no es un dominio» de [`ATLAS_VISUAL.md`](../../ATLAS_VISUAL.md).

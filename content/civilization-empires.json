@@ -1,0 +1,646 @@
+{
+  "schemaVersion": 1,
+  "researchSlug": "14_civilizaciones/INVESTIGACION_CIV_009_ESTADOS_IMPERIOS_CONTROL_DESIGUAL",
+  "cases": [
+    {
+      "id": "acadia-ur3",
+      "title": "Acadia y Ur III",
+      "region": "Mesopotamia",
+      "window": "segunda mitad del III milenio a. C.",
+      "archives": ["inscripciones y administración sargónicas", "archivo de Puzriš-Dagan (Drehem)", "impuesto gun mada de la periferia"],
+      "adversary": "Mann clasifica a Acadia entre los Estados «imperiales»: mucho poder despótico y poca capacidad de penetrar la sociedad; un archivo central denso no prueba que la periferia obedeciera.",
+      "steps": [
+        {
+          "kind": "claim",
+          "status": "sostenido",
+          "observed": "La literatura sobre Acadia describe a reyes que se presentan como conquistadores y a Sargón poniendo acadios en las gobernaciones de las tierras conquistadas.",
+          "inference": "Existió una reclamación de dominio sobre ciudades y tierras más allá del núcleo.",
+          "limit": "Que «imperio» sea la categoría correcta para Acadia está en disputa; la reclamación es del rey, no de los gobernados.",
+          "claimIds": ["CLAIM-CIV-EMPREACH-AKKAD-001"],
+          "evidenceIds": ["EVID-CIV-EMPREACH-MESOPOTAMIA-001"],
+          "sourceIds": ["SRC-FOSTER-AGADE-2016", "SRC-MANN-AUTONOMOUS-POWER-1984"]
+        },
+        {
+          "kind": "presence",
+          "status": "condicionado",
+          "observed": "Gobernadores, escribas, administradores y oficiales militares dependientes del patrocinio real aparecen en los documentos sargónicos.",
+          "inference": "Hubo agentes del rey en ciudades conquistadas.",
+          "limit": "La cobertura y la duración de esa presencia ciudad por ciudad no se auditaron aquí.",
+          "claimIds": ["CLAIM-CIV-EMPREACH-AKKAD-001"],
+          "evidenceIds": ["EVID-CIV-EMPREACH-MESOPOTAMIA-001"],
+          "sourceIds": ["SRC-FOSTER-AGADE-2016"]
+        },
+        {
+          "kind": "logistics",
+          "status": "sostenido",
+          "observed": "Puzriš-Dagan, la agencia central de ganado de Ur III, está documentada en más de 13 500 tablillas, con oficinas y funcionarios que se suceden hasta Ibbi-Suen 2.",
+          "inference": "Ur III movió animales hacia un centro de redistribución con registro de entradas y salidas.",
+          "limit": "Mide flujos hacia un centro; no mide qué tan lejos llegaba la orden ni si la periferia cumplía.",
+          "claimIds": ["CLAIM-CIV-EMPREACH-UR3-DREHEM-001"],
+          "evidenceIds": ["EVID-CIV-EMPREACH-MESOPOTAMIA-001"],
+          "sourceIds": ["SRC-TSOUPAROPOULOU-DREHEM-2013"]
+        },
+        {
+          "kind": "tribute",
+          "status": "condicionado",
+          "observed": "La mayoría de los animales que entraban a Puzriš-Dagan se registran como tributo de las periferias, el impuesto gun mada, distinto de las obligaciones bala del núcleo.",
+          "inference": "Núcleo y periferia pagaban de modo distinto: el control fiscal era desigual por diseño.",
+          "limit": "La distinción núcleo/periferia procede de Steinkeller (1987) tal como la usa Tsouparopoulou; aquí no se leyó el trabajo original.",
+          "claimIds": ["CLAIM-CIV-EMPREACH-UR3-DREHEM-001"],
+          "evidenceIds": ["EVID-CIV-EMPREACH-MESOPOTAMIA-001"],
+          "sourceIds": ["SRC-TSOUPAROPOULOU-DREHEM-2013"]
+        },
+        {
+          "kind": "archive",
+          "status": "sostenido",
+          "observed": "Más de 13 500 tablillas de una sola agencia, repartidas en varios archivos de oficina.",
+          "inference": "El archivo permite reconstruir procedimientos administrativos del centro.",
+          "limit": "Densidad de archivo es densidad de escritura en el centro, no alcance sobre el territorio.",
+          "claimIds": ["CLAIM-CIV-EMPREACH-UR3-DREHEM-001", "CLAIM-CIV-EMPREACH-ARCHIVE-BIAS-001"],
+          "evidenceIds": ["EVID-CIV-EMPREACH-MESOPOTAMIA-001", "EVID-CIV-EMPREACH-METHOD-001"],
+          "sourceIds": ["SRC-TSOUPAROPOULOU-DREHEM-2013"]
+        },
+        {
+          "kind": "negotiation",
+          "status": "dato-ausente",
+          "observed": "Las fuentes auditadas aquí no documentan acuerdos con élites locales ni sus condiciones.",
+          "inference": "No se infiere ni negociación ni imposición pura: el archivo leído no llega.",
+          "limit": "Hace falta leer correspondencia y textos provinciales, no sólo el archivo central.",
+          "claimIds": ["CLAIM-CIV-EMPREACH-SEVEN-DIMENSIONS-001"],
+          "evidenceIds": ["EVID-CIV-EMPREACH-METHOD-001"],
+          "sourceIds": ["SRC-MANN-AUTONOMOUS-POWER-1984"]
+        },
+        {
+          "kind": "control",
+          "status": "no-demostrado",
+          "observed": "Hay reclamación, agentes, registro central y un impuesto periférico.",
+          "inference": "Un control efectivo y uniforme sobre la periferia no se sigue de esos archivos.",
+          "limit": "Mann sitúa a estos Estados en poder despótico alto y penetración baja; la medida de control falta.",
+          "claimIds": ["CLAIM-CIV-EMPREACH-MANN-001", "CLAIM-CIV-EMPREACH-NO-UNIFORM-CONTROL-001"],
+          "evidenceIds": ["EVID-CIV-EMPREACH-METHOD-001", "EVID-CIV-EMPREACH-SYNTHESIS-001"],
+          "sourceIds": ["SRC-MANN-AUTONOMOUS-POWER-1984", "SRC-TSOUPAROPOULOU-DREHEM-2013"]
+        }
+      ]
+    },
+    {
+      "id": "neoasirio",
+      "title": "Imperio neoasirio",
+      "region": "Asiria y Alto Tigris",
+      "window": "c. 1100–600 a. C. (prospección del Alto Tigris)",
+      "archives": ["prospecciones regionales del Alto Tigris", "colonias en zonas anexadas", "zonas de amortiguamiento"],
+      "adversary": "Las inscripciones reales asirias presentan un dominio continuo y cifras enormes de deportados; si se leen como conteo, el imperio parece un bloque.",
+      "steps": [
+        {
+          "kind": "claim",
+          "status": "sostenido",
+          "observed": "Mann incluye a Asiria entre los Estados antiguos que reclamaron poderes en principio ilimitados.",
+          "inference": "La reclamación de dominio es un dato de la ideología real.",
+          "limit": "Las cifras de deportados de las inscripciones son reclamaciones; CIV-009 no audita ninguna.",
+          "claimIds": ["CLAIM-CIV-EMPREACH-MANN-001"],
+          "evidenceIds": ["EVID-CIV-EMPREACH-METHOD-001"],
+          "sourceIds": ["SRC-MANN-AUTONOMOUS-POWER-1984"]
+        },
+        {
+          "kind": "presence",
+          "status": "sostenido",
+          "observed": "Las prospecciones de tres áreas del Alto Tigris registran colonias establecidas en zonas recién anexadas.",
+          "inference": "La anexión dejó huella arqueológica identificable en el asentamiento.",
+          "limit": "Tres áreas de un río; no todo el imperio.",
+          "claimIds": ["CLAIM-CIV-EMPREACH-ASSYRIA-001"],
+          "evidenceIds": ["EVID-CIV-EMPREACH-ASSYRIA-001"],
+          "sourceIds": ["SRC-PARKER-ASSYRIA-2003"]
+        },
+        {
+          "kind": "logistics",
+          "status": "condicionado",
+          "observed": "Colonias agrícolas en tierras anexadas y zonas de amortiguamiento en las fronteras.",
+          "inference": "La logística imperial reorganizó el poblamiento para producir y defender.",
+          "limit": "La relación entre colonias y deportaciones concretas no se lee en la prospección.",
+          "claimIds": ["CLAIM-CIV-EMPREACH-ASSYRIA-001"],
+          "evidenceIds": ["EVID-CIV-EMPREACH-ASSYRIA-001"],
+          "sourceIds": ["SRC-PARKER-ASSYRIA-2003"]
+        },
+        {
+          "kind": "tribute",
+          "status": "dato-ausente",
+          "observed": "Los registros de tributo asirios no se auditaron en este expediente.",
+          "inference": "No se infiere cuánto ni de dónde se cobraba a partir de la prospección.",
+          "limit": "Requiere los archivos administrativos del Estado asirio.",
+          "claimIds": ["CLAIM-CIV-EMPREACH-SEVEN-DIMENSIONS-001"],
+          "evidenceIds": ["EVID-CIV-EMPREACH-METHOD-001"],
+          "sourceIds": ["SRC-MANN-AUTONOMOUS-POWER-1984"]
+        },
+        {
+          "kind": "archive",
+          "status": "condicionado",
+          "observed": "La prueba usada aquí es de prospección: cerámica y asentamientos fechados por fase.",
+          "inference": "El archivo arqueológico mide cambios de poblamiento, no órdenes ni obediencia.",
+          "limit": "Fase cerámica ancha; la coetaneidad de los sitios es aproximada.",
+          "claimIds": ["CLAIM-CIV-EMPREACH-ARCHIVE-BIAS-001"],
+          "evidenceIds": ["EVID-CIV-EMPREACH-METHOD-001"],
+          "sourceIds": ["SRC-PARKER-ASSYRIA-2003"]
+        },
+        {
+          "kind": "negotiation",
+          "status": "no-demostrado",
+          "observed": "El control fue discontinuo: zonas integradas junto a zonas que no lo estaban.",
+          "inference": "Discontinuidad sugiere arreglos distintos por zona, pero no muestra pactos.",
+          "limit": "Negociar y no poder llegar dejan la misma huella en una prospección.",
+          "claimIds": ["CLAIM-CIV-EMPREACH-ASSYRIA-001"],
+          "evidenceIds": ["EVID-CIV-EMPREACH-ASSYRIA-001"],
+          "sourceIds": ["SRC-PARKER-ASSYRIA-2003"]
+        },
+        {
+          "kind": "control",
+          "status": "condicionado",
+          "observed": "Colonias, amortiguamiento y control discontinuo identificados en el Alto Tigris.",
+          "inference": "Control efectivo desigual en el espacio, con huecos dentro de lo reclamado.",
+          "limit": "Un caso regional; el patrón de otras provincias no se auditó.",
+          "claimIds": ["CLAIM-CIV-EMPREACH-ASSYRIA-001", "CLAIM-CIV-EMPREACH-NO-UNIFORM-CONTROL-001"],
+          "evidenceIds": ["EVID-CIV-EMPREACH-ASSYRIA-001", "EVID-CIV-EMPREACH-SYNTHESIS-001"],
+          "sourceIds": ["SRC-PARKER-ASSYRIA-2003"]
+        }
+      ]
+    },
+    {
+      "id": "aquemenida",
+      "title": "Imperio aqueménida",
+      "region": "Irán y Asia sudoccidental",
+      "window": "archivo de Persépolis: años 13–28 de Darío I (c. 509–493 a. C.)",
+      "archives": ["tablillas elamitas de la Fortificación de Persépolis", "raciones de viajeros con autorización sellada", "red de caminos y servicio de postas"],
+      "adversary": "Colburn sostiene que la red de caminos y el servicio de postas rápidas dieron al imperio un potencial enorme de comunicación: la distancia no lo debilitó.",
+      "steps": [
+        {
+          "kind": "claim",
+          "status": "condicionado",
+          "observed": "El imperio se describe por su enorme extensión territorial.",
+          "inference": "La reclamación cubre un territorio que va del Egeo al Indo.",
+          "limit": "Las inscripciones reales no se auditaron aquí; la extensión es la del mapa reclamado.",
+          "claimIds": ["CLAIM-CIV-EMPREACH-PERSIA-ROADS-001"],
+          "evidenceIds": ["EVID-CIV-EMPREACH-PERSIA-001"],
+          "sourceIds": ["SRC-COLBURN-ACHAEMENID-2013"]
+        },
+        {
+          "kind": "presence",
+          "status": "dato-ausente",
+          "observed": "La presencia administrativa en las satrapías no se auditó en este expediente.",
+          "inference": "No se infiere presencia provincial a partir de un archivo de Fars.",
+          "limit": "Hacen falta archivos y arqueología de cada satrapía.",
+          "claimIds": ["CLAIM-CIV-EMPREACH-ARCHIVE-BIAS-001"],
+          "evidenceIds": ["EVID-CIV-EMPREACH-METHOD-001"],
+          "sourceIds": ["SRC-HALLOCK-PFT-1969"]
+        },
+        {
+          "kind": "logistics",
+          "status": "sostenido",
+          "observed": "Muchas tablillas registran raciones entregadas en ruta a viajeros oficiales que llevaban documentos sellados; hubo red de caminos y servicio de postas.",
+          "inference": "El Estado alimentaba a sus viajeros a lo largo de rutas con depósitos.",
+          "limit": "Mide la capacidad de mover personas y mensajes, no la obediencia de quien los recibía.",
+          "claimIds": ["CLAIM-CIV-EMPREACH-PERSIA-ARCHIVE-001", "CLAIM-CIV-EMPREACH-PERSIA-ROADS-001"],
+          "evidenceIds": ["EVID-CIV-EMPREACH-PERSIA-001"],
+          "sourceIds": ["SRC-HALLOCK-PFT-1969", "SRC-COLBURN-ACHAEMENID-2013"]
+        },
+        {
+          "kind": "tribute",
+          "status": "no-demostrado",
+          "observed": "El archivo de Persépolis registra bienes y raciones de la región de Fars.",
+          "inference": "Una economía administrada en el corazón del imperio, no el tributo de todas las satrapías.",
+          "limit": "Extrapolar Fars a todo el imperio es el error de densidad de archivo.",
+          "claimIds": ["CLAIM-CIV-EMPREACH-PERSIA-ARCHIVE-001", "CLAIM-CIV-EMPREACH-ARCHIVE-BIAS-001"],
+          "evidenceIds": ["EVID-CIV-EMPREACH-PERSIA-001", "EVID-CIV-EMPREACH-METHOD-001"],
+          "sourceIds": ["SRC-HALLOCK-PFT-1969"]
+        },
+        {
+          "kind": "archive",
+          "status": "sostenido",
+          "observed": "Hallock editó 2087 textos elamitas de la Fortificación; el archivo completo es varias veces mayor.",
+          "inference": "Un archivo administrativo de dieciséis años permite reconstruir rutinas del centro.",
+          "limit": "Las estimaciones del tamaño total varían y no se auditaron aquí.",
+          "claimIds": ["CLAIM-CIV-EMPREACH-PERSIA-ARCHIVE-001"],
+          "evidenceIds": ["EVID-CIV-EMPREACH-PERSIA-001"],
+          "sourceIds": ["SRC-HALLOCK-PFT-1969"]
+        },
+        {
+          "kind": "negotiation",
+          "status": "dato-ausente",
+          "observed": "Los acuerdos con élites de las satrapías no aparecen en las fuentes auditadas.",
+          "inference": "No se infiere ni gobierno directo ni pactos locales.",
+          "limit": "Requiere fuentes provinciales.",
+          "claimIds": ["CLAIM-CIV-EMPREACH-SEVEN-DIMENSIONS-001"],
+          "evidenceIds": ["EVID-CIV-EMPREACH-METHOD-001"],
+          "sourceIds": ["SRC-MANN-AUTONOMOUS-POWER-1984"]
+        },
+        {
+          "kind": "control",
+          "status": "no-demostrado",
+          "observed": "Hay potencial de comunicación alto y un archivo central denso.",
+          "inference": "Potencial de movimiento no es control efectivo en cada provincia.",
+          "limit": "Colburn mide potencial; Mann clasifica a Persia como Estado imperial de penetración limitada.",
+          "claimIds": ["CLAIM-CIV-EMPREACH-PERSIA-ROADS-001", "CLAIM-CIV-EMPREACH-MANN-001"],
+          "evidenceIds": ["EVID-CIV-EMPREACH-PERSIA-001", "EVID-CIV-EMPREACH-METHOD-001"],
+          "sourceIds": ["SRC-COLBURN-ACHAEMENID-2013", "SRC-MANN-AUTONOMOUS-POWER-1984"]
+        }
+      ]
+    },
+    {
+      "id": "qin-han",
+      "title": "Qin y Han",
+      "region": "Asia oriental (China)",
+      "window": "Qin 221–207 a. C.; Han 202 a. C.–220 d. C.",
+      "archives": ["tiras y tablillas del pozo 1 de Liye (condado de Qianling)", "textos transmitidos", "migración inducida por el Estado"],
+      "adversary": "Un archivo de condado con raciones, multas y formularios parece mostrar un Estado que llegaba a cada aldea; pero es un condado y su archivo sobrevivió por accidente.",
+      "steps": [
+        {
+          "kind": "claim",
+          "status": "sostenido",
+          "observed": "Los imperios Qin y Han produjeron «espacios estatales»: transformaron paisajes, movieron poblaciones y fijaron jerarquías territoriales.",
+          "inference": "La reclamación se acompañó de proyectos activos de producir territorio.",
+          "limit": "El caso probado es la región metropolitana de Guanzhong.",
+          "claimIds": ["CLAIM-CIV-EMPREACH-QIN-MIGRATION-001"],
+          "evidenceIds": ["EVID-CIV-EMPREACH-QINHAN-001"],
+          "sourceIds": ["SRC-KOROLKOV-HEIN-QIN-2020"]
+        },
+        {
+          "kind": "presence",
+          "status": "sostenido",
+          "observed": "El archivo de Qianling, condado de una comandancia antes desconocida, documenta oficiales locales de Qin.",
+          "inference": "Qin tuvo administración de condado en un territorio recién incorporado.",
+          "limit": "Un condado; la densidad de condados equivalentes no se mide aquí.",
+          "claimIds": ["CLAIM-CIV-EMPREACH-LIYE-001"],
+          "evidenceIds": ["EVID-CIV-EMPREACH-QINHAN-001"],
+          "sourceIds": ["SRC-YATES-LIYE-2013"]
+        },
+        {
+          "kind": "logistics",
+          "status": "sostenido",
+          "observed": "Los documentos de Liye tratan de logística militar y raciones para convictos.",
+          "inference": "El condado gestionaba suministros y trabajo forzado con registro escrito.",
+          "limit": "Registro de procedimiento no es prueba de cumplimiento.",
+          "claimIds": ["CLAIM-CIV-EMPREACH-LIYE-001"],
+          "evidenceIds": ["EVID-CIV-EMPREACH-QINHAN-001"],
+          "sourceIds": ["SRC-YATES-LIYE-2013"]
+        },
+        {
+          "kind": "tribute",
+          "status": "condicionado",
+          "observed": "Multas y castigos, recompensas, compra de rango y formularios de documento aparecen en el archivo.",
+          "inference": "Extracción y premio se administraban por escrito a escala de condado.",
+          "limit": "La carga fiscal de la población no se cuantifica en las fuentes auditadas.",
+          "claimIds": ["CLAIM-CIV-EMPREACH-LIYE-001"],
+          "evidenceIds": ["EVID-CIV-EMPREACH-QINHAN-001"],
+          "sourceIds": ["SRC-YATES-LIYE-2013"]
+        },
+        {
+          "kind": "archive",
+          "status": "sostenido",
+          "observed": "Decenas de miles de tiras y tablillas de un pozo; en 2012 sólo se habían publicado los niveles 5, 6 y 8.",
+          "inference": "Archivo administrativo excepcional de un condado de Qin.",
+          "limit": "El total de piezas que circula (más de 36 000) no se verificó en la fuente primaria; la publicación es parcial.",
+          "claimIds": ["CLAIM-CIV-EMPREACH-LIYE-001", "CLAIM-CIV-EMPREACH-ARCHIVE-BIAS-001"],
+          "evidenceIds": ["EVID-CIV-EMPREACH-QINHAN-001", "EVID-CIV-EMPREACH-METHOD-001"],
+          "sourceIds": ["SRC-YATES-LIYE-2013"]
+        },
+        {
+          "kind": "negotiation",
+          "status": "dato-ausente",
+          "observed": "Las fuentes auditadas no tratan acuerdos con poblaciones locales del sur.",
+          "inference": "No se infiere ni aceptación ni resistencia local a partir de lo leído.",
+          "limit": "Requiere lectura completa del archivo y arqueología local.",
+          "claimIds": ["CLAIM-CIV-EMPREACH-SEVEN-DIMENSIONS-001"],
+          "evidenceIds": ["EVID-CIV-EMPREACH-METHOD-001"],
+          "sourceIds": ["SRC-YATES-LIYE-2013"]
+        },
+        {
+          "kind": "control",
+          "status": "condicionado",
+          "observed": "Migración y asentamiento inducidos por el Estado fueron instrumentos de control militar e incorporación administrativa.",
+          "inference": "Control efectivo construido moviendo gente, con intensidad variable según el lugar.",
+          "limit": "Los autores lo prueban en Guanzhong y advierten que la situación varía según la localidad.",
+          "claimIds": ["CLAIM-CIV-EMPREACH-QIN-MIGRATION-001", "CLAIM-CIV-EMPREACH-NO-UNIFORM-CONTROL-001"],
+          "evidenceIds": ["EVID-CIV-EMPREACH-QINHAN-001", "EVID-CIV-EMPREACH-SYNTHESIS-001"],
+          "sourceIds": ["SRC-KOROLKOV-HEIN-QIN-2020"]
+        }
+      ]
+    },
+    {
+      "id": "roma",
+      "title": "Imperio romano",
+      "region": "Mediterráneo y Europa",
+      "window": "Principado (siglos I–III d. C.); modelo hacia 200 d. C.",
+      "archives": ["declaraciones censales en papiros de Egipto", "modelo ORBIS de costos de transporte", "ejército y fronteras"],
+      "adversary": "Luttwak leyó una «gran estrategia» defensiva con fronteras lineales; si fuera cierta, la frontera marcaría el borde del control efectivo.",
+      "steps": [
+        {
+          "kind": "claim",
+          "status": "sostenido",
+          "observed": "El imperio se extendió 33 grados de latitud y 34 de longitud alrededor de un mar interior.",
+          "inference": "La reclamación territorial fue la mayor de su clase en el Mediterráneo.",
+          "limit": "Extensión reclamada no dice cuánto costaba llegar a cada punto.",
+          "claimIds": ["CLAIM-CIV-EMPREACH-ORBIS-001"],
+          "evidenceIds": ["EVID-CIV-EMPREACH-ORBIS-001"],
+          "sourceIds": ["SRC-SCHEIDEL-ORBIS-WP-2013"]
+        },
+        {
+          "kind": "presence",
+          "status": "sostenido",
+          "observed": "En el Oriente, el ejército del Principado actuó sobre todo como fuerza de ocupación y policía.",
+          "inference": "Hubo presencia militar dentro de las provincias, no sólo en el borde.",
+          "limit": "Isaac generaliza desde Palestina; sus críticos señalan que un fuerte servía a la vez a la seguridad interna y externa.",
+          "claimIds": ["CLAIM-CIV-EMPREACH-ROME-FRONTIER-001"],
+          "evidenceIds": ["EVID-CIV-EMPREACH-ROME-001"],
+          "sourceIds": ["SRC-ISAAC-LIMITS-1992"]
+        },
+        {
+          "kind": "logistics",
+          "status": "condicionado",
+          "observed": "ORBIS simula unos 750 sitios, c. 85 000 km de caminos, c. 28 000 km de ríos y 900 rutas marítimas, con una razón de precios mar:río:carreta de 1:5/10:52.",
+          "inference": "El costo, no la distancia, define qué regiones estaban cerca del centro.",
+          "limit": "Promedios estructurales bajo el mejor camino, viajes continuos y precios máximos del Edicto de 301; no predice qué ocurrió.",
+          "claimIds": ["CLAIM-CIV-EMPREACH-ORBIS-001", "CLAIM-CIV-EMPREACH-ORBIS-LIMITS-001"],
+          "evidenceIds": ["EVID-CIV-EMPREACH-ORBIS-001"],
+          "sourceIds": ["SRC-SCHEIDEL-ORBIS-WP-2013", "SRC-SCHEIDEL-ORBIS-2014"]
+        },
+        {
+          "kind": "tribute",
+          "status": "condicionado",
+          "observed": "Unas 300 declaraciones censales de Egipto romano, fechadas entre 12 y 259 d. C.",
+          "inference": "El censo provincial registró hogares para fines fiscales en Egipto.",
+          "limit": "Una provincia donde el papiro se conserva; no es el censo del imperio.",
+          "claimIds": ["CLAIM-CIV-EMPREACH-EGYPT-CENSUS-001"],
+          "evidenceIds": ["EVID-CIV-EMPREACH-ROME-001"],
+          "sourceIds": ["SRC-BAGNALL-FRIER-EGYPT-1994"]
+        },
+        {
+          "kind": "archive",
+          "status": "condicionado",
+          "observed": "La densidad documental romana depende del soporte: papiro en Egipto, epigrafía en otras regiones.",
+          "inference": "Lo que se puede medir varía por provincia según lo que se preservó.",
+          "limit": "Archivo abundante en Egipto no implica control más intenso allí.",
+          "claimIds": ["CLAIM-CIV-EMPREACH-EGYPT-CENSUS-001", "CLAIM-CIV-EMPREACH-ARCHIVE-BIAS-001"],
+          "evidenceIds": ["EVID-CIV-EMPREACH-ROME-001", "EVID-CIV-EMPREACH-METHOD-001"],
+          "sourceIds": ["SRC-BAGNALL-FRIER-EGYPT-1994"]
+        },
+        {
+          "kind": "negotiation",
+          "status": "dato-ausente",
+          "observed": "Los arreglos con élites cívicas y reinos clientes no se auditaron en este expediente.",
+          "inference": "No se infiere gobierno directo uniforme por ausencia de ese archivo.",
+          "limit": "Requiere epigrafía municipal y correspondencia de gobernadores.",
+          "claimIds": ["CLAIM-CIV-EMPREACH-SEVEN-DIMENSIONS-001"],
+          "evidenceIds": ["EVID-CIV-EMPREACH-METHOD-001"],
+          "sourceIds": ["SRC-MANN-AUTONOMOUS-POWER-1984"]
+        },
+        {
+          "kind": "control",
+          "status": "condicionado",
+          "observed": "Los costos de conexión segmentan el imperio entre Oriente y Occidente; Germania, Mesopotamia y el Danubio medio quedaban en lugares de costo excepcional, y Dacia fue la primera provincia abandonada.",
+          "inference": "La probabilidad de incorporar y retener un territorio bajaba con el costo de conectarlo.",
+          "limit": "Correlación de modelo; la decisión política de abandonar tiene otras causas.",
+          "claimIds": ["CLAIM-CIV-EMPREACH-ROME-SEGMENT-001", "CLAIM-CIV-EMPREACH-NO-UNIFORM-CONTROL-001"],
+          "evidenceIds": ["EVID-CIV-EMPREACH-ORBIS-001", "EVID-CIV-EMPREACH-SYNTHESIS-001"],
+          "sourceIds": ["SRC-SCHEIDEL-ORBIS-WP-2013"]
+        }
+      ]
+    },
+    {
+      "id": "tawantinsuyu",
+      "title": "Tawantinsuyu",
+      "region": "Andes",
+      "window": "siglo XV–1532; comparación colonial de 1670",
+      "archives": ["Qhapaq Ñan", "khipus", "isótopos de Machu Picchu", "reasentamientos en Acarí"],
+      "adversary": "Se sostuvo que donde la incorporación fue pacífica el Estado inca apenas interfería fuera de sus centros provinciales: negociación sin control.",
+      "steps": [
+        {
+          "kind": "claim",
+          "status": "condicionado",
+          "observed": "La red vial inca se extiende por seis países actuales.",
+          "inference": "La reclamación cubrió los Andes de Colombia a Argentina y Chile.",
+          "limit": "Los relatos coloniales de conquista no se auditaron aquí.",
+          "claimIds": ["CLAIM-CIV-EMPREACH-INKA-ROADS-001"],
+          "evidenceIds": ["EVID-CIV-EMPREACH-INKA-001"],
+          "sourceIds": ["SRC-UNESCO-QHAPAQNAN-2014"]
+        },
+        {
+          "kind": "presence",
+          "status": "sostenido",
+          "observed": "En el valle de Acarí la ocupación inca creó asentamientos nuevos a los que la población local parece haber sido reubicada.",
+          "inference": "La presencia estatal alteró el poblamiento incluso donde no hubo resistencia.",
+          "limit": "Un valle de la costa sur.",
+          "claimIds": ["CLAIM-CIV-EMPREACH-MITMAQ-001"],
+          "evidenceIds": ["EVID-CIV-EMPREACH-INKA-001"],
+          "sourceIds": ["SRC-VALDEZ-ACARI-2024"]
+        },
+        {
+          "kind": "logistics",
+          "status": "sostenido",
+          "observed": "El Qhapaq Ñan es una red de más de 30 000 km; 273 componentes fueron inscritos en 2014.",
+          "inference": "El Estado invirtió en comunicación, comercio y defensa a escala andina.",
+          "limit": "Un camino mide capacidad de movimiento; no mide control de quien vive a sus lados.",
+          "claimIds": ["CLAIM-CIV-EMPREACH-INKA-ROADS-001"],
+          "evidenceIds": ["EVID-CIV-EMPREACH-INKA-001"],
+          "sourceIds": ["SRC-UNESCO-QHAPAQNAN-2014"]
+        },
+        {
+          "kind": "tribute",
+          "status": "condicionado",
+          "observed": "Seis khipus del valle del Santa con 133 grupos de seis cuerdas totalizan el tributo fijado en una revisita de 1670 a 132 tributarios.",
+          "inference": "Los khipus sirvieron para censo y tributo, al menos en la administración colonial temprana.",
+          "limit": "Caso colonial; proyectarlo al Estado inca requiere el puente de los khipus de Puruchuco.",
+          "claimIds": ["CLAIM-CIV-SCRIPTS-KHIPU-CENSUS-001"],
+          "evidenceIds": ["EVID-CIV-EMPREACH-KHIPU-001"],
+          "sourceIds": ["SRC-MEDRANO-URTON-KHIPU-2018", "SRC-URTON-BREZINE-KHIPU-2005"]
+        },
+        {
+          "kind": "archive",
+          "status": "condicionado",
+          "observed": "Los khipus de Puruchuco muestran jerarquías numéricas de contabilidad; un khipu con cuerda primaria de cabello humano fue hecho por alguien con dieta de gente común.",
+          "inference": "Archivo administrativo sin escritura glotográfica, producido también fuera de la élite.",
+          "limit": "Sólo los números se leen con seguridad; el khipu de cabello es un caso.",
+          "claimIds": ["CLAIM-CIV-SCRIPTS-KHIPU-ACCOUNTING-001", "CLAIM-CIV-EMPREACH-KHIPU-COMMONERS-001"],
+          "evidenceIds": ["EVID-CIV-EMPREACH-KHIPU-001"],
+          "sourceIds": ["SRC-URTON-BREZINE-KHIPU-2005", "SRC-HYLAND-KHIPU-HAIR-2025"]
+        },
+        {
+          "kind": "negotiation",
+          "status": "condicionado",
+          "observed": "La lectura de incorporación pacífica con poca interferencia choca con los reasentamientos de Acarí.",
+          "inference": "Negociar la incorporación no excluyó mover a la población.",
+          "limit": "La forma de la negociación con los señoríos no se lee en la arqueología.",
+          "claimIds": ["CLAIM-CIV-EMPREACH-MITMAQ-001"],
+          "evidenceIds": ["EVID-CIV-EMPREACH-INKA-001"],
+          "sourceIds": ["SRC-VALDEZ-ACARI-2024"]
+        },
+        {
+          "kind": "control",
+          "status": "condicionado",
+          "observed": "Los residentes de Machu Picchu nacieron en regiones diversas; Acarí muestra reubicación.",
+          "inference": "El Estado movía gente: control efectivo sobre personas en ciertos lugares.",
+          "limit": "Los isótopos dan origen probable, no categoría social; mitmaq o yanacona es una lectura documental.",
+          "claimIds": ["CLAIM-CIV-EMPREACH-MITMAQ-001", "CLAIM-CIV-EMPREACH-NO-UNIFORM-CONTROL-001"],
+          "evidenceIds": ["EVID-CIV-EMPREACH-INKA-001", "EVID-CIV-EMPREACH-SYNTHESIS-001"],
+          "sourceIds": ["SRC-TURNER-MACHUPICCHU-2009", "SRC-VALDEZ-ACARI-2024"]
+        }
+      ]
+    },
+    {
+      "id": "triple-alianza",
+      "title": "Triple Alianza mexica",
+      "region": "Mesoamérica",
+      "window": "Matrícula: última década de Moctezuma II; Códice Mendoza c. 1542",
+      "archives": ["Matrícula de Tributos", "Códice Mendoza", "provincias tributarias y estratégicas", "arqueología provincial"],
+      "adversary": "Una lista de tributo con cantidades por provincia parece un catastro de dominio directo; si fuera así, la arqueología provincial mostraría huella imperial fuerte.",
+      "steps": [
+        {
+          "kind": "claim",
+          "status": "sostenido",
+          "observed": "La Matrícula registra el tributo pagado al imperio mexica por pueblos conquistados.",
+          "inference": "La reclamación se expresó como obligación tributaria por pueblo.",
+          "limit": "Lo registrado es lo exigido, no lo entregado.",
+          "claimIds": ["CLAIM-CIV-EMPREACH-MEXICA-TRIBUTE-001"],
+          "evidenceIds": ["EVID-CIV-EMPREACH-MEXICA-001"],
+          "sourceIds": ["SRC-BATALLA-MATRICULA-2007"]
+        },
+        {
+          "kind": "presence",
+          "status": "condicionado",
+          "observed": "Provincias tributarias en el interior y provincias estratégicas que aislaban el núcleo de fronteras peligrosas.",
+          "inference": "La presencia imperial cambiaba de forma según la posición de la provincia.",
+          "limit": "El número de provincias estratégicas no se verificó aquí.",
+          "claimIds": ["CLAIM-CIV-EMPREACH-MEXICA-INDIRECT-001"],
+          "evidenceIds": ["EVID-CIV-EMPREACH-MEXICA-001"],
+          "sourceIds": ["SRC-BERDAN-AZTEC-STRATEGIES-1996"]
+        },
+        {
+          "kind": "logistics",
+          "status": "condicionado",
+          "observed": "Drennan sostuvo que los alimentos básicos no podían moverse con ganancia entre centros lejanos; Sluyter modeló maíz de tributo de Zempoala a Tenochtitlan; Cowgill aceptó un límite de radio.",
+          "inference": "Hubo un límite energético al abasto por cargadores, cuya distancia depende de supuestos.",
+          "limit": "Modelos con supuestos de carga, ración y postas; no registros de viajes.",
+          "claimIds": ["CLAIM-CIV-EMPREACH-TRANSPORT-MESOAMERICA-001"],
+          "evidenceIds": ["EVID-CIV-EMPREACH-TRANSPORT-001"],
+          "sourceIds": ["SRC-DRENNAN-TRANSPORT-1984", "SRC-SLUYTER-STAPLES-1993", "SRC-COWGILL-STAPLES-1993"]
+        },
+        {
+          "kind": "tribute",
+          "status": "condicionado",
+          "observed": "El Códice Mendoza enumera las provincias tributarias (38 en el recuento de Berdan) y sus cargas.",
+          "inference": "Un sistema de tributo provincial con calendario y productos.",
+          "limit": "Lista copiada c. 1542 para la Corona española: el propósito colonial condiciona la selección.",
+          "claimIds": ["CLAIM-CIV-EMPREACH-MEXICA-TRIBUTE-001"],
+          "evidenceIds": ["EVID-CIV-EMPREACH-MEXICA-001"],
+          "sourceIds": ["SRC-BERDAN-ANAWALT-MENDOZA-1992", "SRC-BERDAN-AZTEC-STRATEGIES-1996"]
+        },
+        {
+          "kind": "archive",
+          "status": "sostenido",
+          "observed": "La Matrícula muestra el trabajo de al menos seis tlacuiloque; el que pintó los folios 6r–11v pintó todo el Códice Mendoza unos veinte años después.",
+          "inference": "La lista colonial depende de un registro prehispánico identificable.",
+          "limit": "La Matrícula conservada está incompleta; algunas páginas pueden ser anteriores.",
+          "claimIds": ["CLAIM-CIV-EMPREACH-MEXICA-TRIBUTE-001"],
+          "evidenceIds": ["EVID-CIV-EMPREACH-MEXICA-001"],
+          "sourceIds": ["SRC-BATALLA-MATRICULA-2007"]
+        },
+        {
+          "kind": "negotiation",
+          "status": "condicionado",
+          "observed": "El imperio combinó provincias tributarias y estratégicas con dirigentes locales que siguieron en su lugar.",
+          "inference": "Control indirecto: el tributo se obtenía a través de gobernantes locales.",
+          "limit": "Las condiciones de cada pacto no se leen en la lista de tributo.",
+          "claimIds": ["CLAIM-CIV-EMPREACH-MEXICA-INDIRECT-001"],
+          "evidenceIds": ["EVID-CIV-EMPREACH-MEXICA-001"],
+          "sourceIds": ["SRC-BERDAN-AZTEC-STRATEGIES-1996"]
+        },
+        {
+          "kind": "control",
+          "status": "no-demostrado",
+          "observed": "El modelo arqueológico de imperios de Smith y Montiel se calibró en el imperio mexica precisamente porque su extensión está documentada en textos.",
+          "inference": "La huella material del control en provincias es débil y hay que buscarla con criterios explícitos.",
+          "limit": "El contenido detallado del modelo se conoce aquí por fuentes secundarias.",
+          "claimIds": ["CLAIM-CIV-EMPREACH-MEXICA-INDIRECT-001", "CLAIM-CIV-EMPREACH-NO-UNIFORM-CONTROL-001"],
+          "evidenceIds": ["EVID-CIV-EMPREACH-MEXICA-001", "EVID-CIV-EMPREACH-SYNTHESIS-001"],
+          "sourceIds": ["SRC-SMITH-MONTIEL-EMPIRES-2001"]
+        }
+      ]
+    },
+    {
+      "id": "mali-songhai",
+      "title": "Mali y Songhai",
+      "region": "África occidental (Níger medio)",
+      "window": "siglos XII–XVI (Mali); hasta 1591 (Songhai)",
+      "archives": ["fuentes árabes medievales", "tradición oral de Sunjata", "crónicas de Tombuctú", "excavaciones de Gao"],
+      "adversary": "Las crónicas de Tombuctú y los viajeros árabes describen cortes, capitales y provincias; leídas como actas, darían un imperio con centro fijo y control continuo.",
+      "steps": [
+        {
+          "kind": "claim",
+          "status": "condicionado",
+          "observed": "Tradición oral, textos árabes y sitios indican que la sede de gobierno de Mali cambió más de una vez entre los siglos XII y XVI.",
+          "inference": "La reclamación real se ejerció desde sedes móviles.",
+          "limit": "Las identificaciones de sedes con lugares concretos son inferencias.",
+          "claimIds": ["CLAIM-CIV-EMPREACH-MALI-CAPITAL-001"],
+          "evidenceIds": ["EVID-CIV-EMPREACH-WESTAFRICA-001"],
+          "sourceIds": ["SRC-CONRAD-DAKAJALAN-1994", "SRC-LEVTZION-HOPKINS-CORPUS-1981"]
+        },
+        {
+          "kind": "presence",
+          "status": "no-demostrado",
+          "observed": "La identificación de Niani (Guinea) como capital del Mali del siglo XIV no tiene apoyo en los datos arqueológicos del sitio.",
+          "inference": "No hay hoy una capital imperial de Mali localizada arqueológicamente.",
+          "limit": "Ausencia de capital localizada no es ausencia de Estado.",
+          "claimIds": ["CLAIM-CIV-EMPREACH-MALI-CAPITAL-001"],
+          "evidenceIds": ["EVID-CIV-EMPREACH-WESTAFRICA-001"],
+          "sourceIds": ["SRC-FAUVELLE-NIANI-2012"]
+        },
+        {
+          "kind": "logistics",
+          "status": "dato-ausente",
+          "observed": "Caminos, depósitos y costos de transporte de Mali y Songhai no se auditaron aquí.",
+          "inference": "No se infiere ni red logística densa ni su ausencia.",
+          "limit": "Requiere arqueología regional del Sahel y del río.",
+          "claimIds": ["CLAIM-CIV-EMPREACH-SEVEN-DIMENSIONS-001"],
+          "evidenceIds": ["EVID-CIV-EMPREACH-METHOD-001"],
+          "sourceIds": ["SRC-HERBST-AFRICA-POWER-2000"]
+        },
+        {
+          "kind": "tribute",
+          "status": "dato-ausente",
+          "observed": "No hay registros fiscales de Mali ni de Songhai entre las fuentes auditadas.",
+          "inference": "No se infiere la carga tributaria a partir de descripciones de riqueza cortesana.",
+          "limit": "Las descripciones de oro y regalos de los viajeros no son cuentas.",
+          "claimIds": ["CLAIM-CIV-EMPREACH-SEVEN-DIMENSIONS-001"],
+          "evidenceIds": ["EVID-CIV-EMPREACH-METHOD-001"],
+          "sourceIds": ["SRC-LEVTZION-HOPKINS-CORPUS-1981"]
+        },
+        {
+          "kind": "archive",
+          "status": "condicionado",
+          "observed": "El Tārīkh al-sūdān de al-Saʿdī (siglo XVII) es la fuente principal de Songhai; el llamado Tārīkh al-fattāsh funde una crónica del XVII con un texto del XIX.",
+          "inference": "El archivo escrito sobre Songhai es tardío y en parte compuesto después.",
+          "limit": "Las excavaciones de Gao muestran que las crónicas no describieron bien los orígenes de la ciudad.",
+          "claimIds": ["CLAIM-CIV-EMPREACH-SONGHAY-SOURCES-001"],
+          "evidenceIds": ["EVID-CIV-EMPREACH-WESTAFRICA-001"],
+          "sourceIds": ["SRC-HUNWICK-TIMBUKTU-1999", "SRC-NOBILI-MATHEE-FATTASH-2015", "SRC-TAKEZAWA-CISSE-GAO-2012"]
+        },
+        {
+          "kind": "negotiation",
+          "status": "no-demostrado",
+          "observed": "Según Conrad, la sede se desplazó río abajo para aprovechar el comercio y gobernar a una población súbdita creciente que incluía musulmanes de antiguos territorios soninké.",
+          "inference": "Gobernar a poblaciones diversas pudo exigir acomodos, pero las fuentes no los describen como pactos.",
+          "limit": "Lectura de tradición oral y textos árabes; no hay documento de acuerdo.",
+          "claimIds": ["CLAIM-CIV-EMPREACH-MALI-CAPITAL-001"],
+          "evidenceIds": ["EVID-CIV-EMPREACH-WESTAFRICA-001"],
+          "sourceIds": ["SRC-CONRAD-DAKAJALAN-1994", "SRC-GOMEZ-DOMINION-2018"]
+        },
+        {
+          "kind": "control",
+          "status": "no-demostrado",
+          "observed": "Hay reclamación, sedes móviles, crónicas tardías y un palacio del siglo X en Gao anterior al imperio songhai.",
+          "inference": "El control efectivo de Mali y Songhai sobre su territorio reclamado no se mide con estos archivos.",
+          "limit": "Herbst propone que en el África precolonial las fronteras seguían el alcance real del poder; es un modelo, no una medida de estos casos.",
+          "claimIds": ["CLAIM-CIV-EMPREACH-HERBST-001", "CLAIM-CIV-EMPREACH-NO-UNIFORM-CONTROL-001"],
+          "evidenceIds": ["EVID-CIV-EMPREACH-UNGOVERNED-001", "EVID-CIV-EMPREACH-SYNTHESIS-001"],
+          "sourceIds": ["SRC-HERBST-AFRICA-POWER-2000", "SRC-GOMEZ-DOMINION-2018"]
+        }
+      ]
+    }
+  ]
+}

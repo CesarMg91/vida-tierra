@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Un mapa no es un dominio: siete dimensiones del alcance y sus saltos</title>
+  <desc id="desc">Siete cajas —reclamación, presencia, logística, tributo, archivo, negociación y control efectivo— con el archivo que mide cada una, unidas por líneas que indican el orden de lectura, no una herencia. Debajo, arcos discontinuos marcan lo que cada dimensión no hereda de la anterior: reclamar no es estar, estar no es abastecer, abastecer no es cobrar, exigir no es recibir, registrar no es alcanzar y negociar no es obedecer.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#0b1011"/><stop offset="1" stop-color="#171512"/></linearGradient>
+    <style>.k{font:19px Consolas,monospace;letter-spacing:2px;fill:#c39456}.h{font:24px Georgia,serif;fill:#efe3d1}.t{font:19px Arial,sans-serif;fill:#c9c2b8}.l{font:16px Arial,sans-serif;fill:#d6a27b}.small{font:14px Consolas,monospace;fill:#91ad92}.cell{font:13px Arial,sans-serif;fill:#151310}.head{font:13px Consolas,monospace;letter-spacing:1px;fill:#c39456}.row{font:15px Arial,sans-serif;fill:#e6dccd}.rule{stroke:#8b6a43;stroke-width:2}.dash{stroke:#a96545;stroke-width:2;stroke-dasharray:8 8;fill:none}</style>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <text x="50" y="96" class="k">CIV-009 · SIETE DIMENSIONES DEL ALCANCE</text>
+  <text x="50" y="150" font-family="Georgia,serif" font-size="42" fill="#f2e7d6">Un mapa no es un dominio</text>
+  <text x="50" y="190" class="t">El alcance de un Estado se mide en siete dimensiones, cada una con su archivo y sus supuestos.</text>
+  <g transform="translate(50 300)"><rect width="190" height="150" fill="#141a19" stroke="#779176"/><text x="14" y="46" class="h">Reclamación</text><text x="14" y="86" class="small">inscripciones,</text><text x="14" y="108" class="small">títulos, listas</text></g>
+  <g transform="translate(264 300)"><rect width="190" height="150" fill="#141a19" stroke="#779176"/><text x="14" y="46" class="h">Presencia</text><text x="14" y="86" class="small">agentes, colonias,</text><text x="14" y="108" class="small">guarniciones</text></g>
+  <g transform="translate(478 300)"><rect width="190" height="150" fill="#141a19" stroke="#779176"/><text x="14" y="46" class="h">Logística</text><text x="14" y="86" class="small">caminos, raciones,</text><text x="14" y="108" class="small">costo modelado</text></g>
+  <g transform="translate(692 300)"><rect width="190" height="150" fill="#141a19" stroke="#779176"/><text x="14" y="46" class="h">Tributo</text><text x="14" y="86" class="small">exigido en lista;</text><text x="14" y="108" class="small">recibido en recibo</text></g>
+  <g transform="translate(906 300)"><rect width="190" height="150" fill="#141a19" stroke="#779176"/><text x="14" y="46" class="h">Archivo</text><text x="14" y="86" class="small">lo registrado y</text><text x="14" y="108" class="small">lo conservado</text></g>
+  <g transform="translate(1120 300)"><rect width="190" height="150" fill="#141a19" stroke="#779176"/><text x="14" y="46" class="h">Negociación</text><text x="14" y="86" class="small">gobernantes locales,</text><text x="14" y="108" class="small">pactos, oralidad</text></g>
+  <g transform="translate(1334 300)"><rect width="190" height="150" fill="#141a19" stroke="#779176"/><text x="14" y="46" class="h">Control</text><text x="14" y="86" class="small">cambios medibles</text><text x="14" y="108" class="small">por lugar</text></g>
+  <path class="rule" d="M242 375H260"/><path d="M260 369L264 375L260 381" fill="none" stroke="#8b6a43" stroke-width="2"/>
+  <path class="rule" d="M456 375H474"/><path d="M474 369L478 375L474 381" fill="none" stroke="#8b6a43" stroke-width="2"/>
+  <path class="rule" d="M670 375H688"/><path d="M688 369L692 375L688 381" fill="none" stroke="#8b6a43" stroke-width="2"/>
+  <path class="rule" d="M884 375H902"/><path d="M902 369L906 375L902 381" fill="none" stroke="#8b6a43" stroke-width="2"/>
+  <path class="rule" d="M1098 375H1116"/><path d="M1116 369L1120 375L1116 381" fill="none" stroke="#8b6a43" stroke-width="2"/>
+  <path class="rule" d="M1312 375H1330"/><path d="M1330 369L1334 375L1330 381" fill="none" stroke="#8b6a43" stroke-width="2"/>
+  <path class="dash" d="M145 455C189 555 315 555 359 455"/><text x="205" y="594" class="l">≠ estar</text>
+  <path class="dash" d="M359 455C403 555 529 555 573 455"/><text x="419" y="594" class="l">≠ abastecer</text>
+  <path class="dash" d="M573 455C617 555 743 555 787 455"/><text x="633" y="594" class="l">≠ cobrar</text>
+  <path class="dash" d="M787 455C831 555 957 555 1001 455"/><text x="847" y="594" class="l">≠ entregar</text>
+  <path class="dash" d="M1001 455C1045 555 1171 555 1215 455"/><text x="1061" y="594" class="l">≠ alcanzar</text>
+  <path class="dash" d="M1215 455C1259 555 1385 555 1429 455"/><text x="1275" y="594" class="l">≠ obedecer</text>
+  <text x="50" y="700" class="t">Puzriš-Dagan dejó más de 13 500 tablillas: miden el centro que recibe, no la periferia que paga.</text>
+  <text x="50" y="736" class="t">La Matrícula de Tributos registra lo exigido; el Qhapaq Ñan mide caminos, no obediencia.</text>
+  <text x="50" y="772" class="t">En costo, el valle del Po estaba tan lejos de Roma como la costa de Britania.</text>
+</svg>

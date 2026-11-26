@@ -12,6 +12,7 @@ import ClinicalEvidenceLab from "../../components/ClinicalEvidenceLab";
 import ColonialEncountersEvidenceLab from "../../components/ColonialEncountersEvidenceLab";
 import CriticalCareEvidenceLab from "../../components/CriticalCareEvidenceLab";
 import DiagnosticEvidenceLab from "../../components/DiagnosticEvidenceLab";
+import DigitalAIEvidenceLab from "../../components/DigitalAIEvidenceLab";
 import DocumentaryMedicineLab from "../../components/DocumentaryMedicineLab";
 import EastAsianMedicineLab from "../../components/EastAsianMedicineLab";
 import EpidemiologyCountingEvidenceLab from "../../components/EpidemiologyCountingEvidenceLab";
@@ -40,6 +41,7 @@ import { circulationPhysiologyEvidence } from "../../lib/circulation-physiology-
 import { colonialEncountersEvidence } from "../../lib/colonial-encounters-evidence";
 import { criticalCareEvidence } from "../../lib/critical-care-evidence";
 import { diagnosticEvidence } from "../../lib/diagnostic-evidence";
+import { digitalAIEvidence } from "../../lib/digital-ai-evidence";
 import { documentaryMedicineEvidence } from "../../lib/documentary-medicine-evidence";
 import { eastAsianMedicineEvidence } from "../../lib/east-asian-medicine-evidence";
 import { epidemiologyCountingEvidence } from "../../lib/epidemiology-counting-evidence";
@@ -67,7 +69,7 @@ export const metadata: Metadata = createPageMetadata({
   title: "Historia de la medicina — archivos, cuidado y evidencia",
   description: "Cómo reconstruimos la historia mundial de la medicina desde huesos, manuscritos, cánones, instituciones y resultados sin confundir archivo, práctica o eficacia.",
   pathname: "/medicina",
-  image: "/assets/visuales/hero-med-032-salud-global-determinantes-pandemias.png",
+  image: "/assets/visuales/hero-med-033-medicina-digital-inteligencia-artificial.png",
 });
 
 const principles = [
@@ -84,8 +86,8 @@ export default function MedicinePage() {
     <div className="medicine-experience">
       <header className="medicine-hero medicine-history-hero">
         <Image
-          src="/assets/visuales/hero-med-032-salud-global-determinantes-pandemias.png"
-          alt="Composición abstracta: a la izquierda un campo de puntos con densidad variable en franjas onduladas, al centro una escalera de barras verticales que desciende y a la derecha nodos unidos por arcos, unos completos y otros interrumpidos"
+          src="/assets/visuales/hero-med-033-medicina-digital-inteligencia-artificial.png"
+          alt="Composición abstracta: a la izquierda una retícula de celdas cuadradas con huecos, al centro haces de curvas que salen juntas y se separan y a la derecha un anillo de nodos con un hueco abierto"
           fill
           preload
           fetchPriority="high"
@@ -94,14 +96,14 @@ export default function MedicinePage() {
         <div className="medicine-hero-shade" />
         <div className="medicine-hero-copy">
           <p className="eyebrow">Historia mundial de la medicina</p>
-          <h1>Una cifra global no demuestra una causa ni una cooperación por sí sola</h1>
-          <p>Biología, exposición, desigualdad, sistema, intervención, medición y cooperación forman una cadena histórica. Ningún agente conocido, gradiente, declaración, campaña, cifra modelada o tratado hereda la explicación, la política, el servicio, el efecto, el recuento o el reparto.</p>
+          <h1>Un modelo exacto no demuestra un beneficio ni asigna una responsabilidad por sí solo</h1>
+          <p>Datos, modelo, validación, despliegue, deriva, equidad, utilidad y responsabilidad forman una cadena histórica. Ningún registro, etiqueta, exactitud retrospectiva, autorización, examen aprobado o ley hereda la necesidad medida, la validez externa, el beneficio, la competencia clínica o el responsable.</p>
           <div>
-            <Link className="button button-primary" href="#salud-global-determinantes-pandemias">Auditar la cadena <ArrowDown aria-hidden="true" /></Link>
-            <Link className="medicine-text-link" href="/15_medicina/INVESTIGACION_MED_032_SALUD_GLOBAL_DETERMINANTES_PANDEMIAS">Leer MED-032 <ArrowRight aria-hidden="true" /></Link>
+            <Link className="button button-primary" href="#medicina-digital-inteligencia-artificial">Auditar la cadena <ArrowDown aria-hidden="true" /></Link>
+            <Link className="medicine-text-link" href="/15_medicina/INVESTIGACION_MED_033_MEDICINA_DIGITAL_INTELIGENCIA_ARTIFICIAL">Leer MED-033 <ArrowRight aria-hidden="true" /></Link>
           </div>
         </div>
-        <p className="medicine-visual-limit">Composición generativa no probatoria: puntos, barras y arcos sin información; no representa mapas, países, personas, vectores, virus, datos ni acontecimientos reales.</p>
+        <p className="medicine-visual-limit">Composición generativa no probatoria: celdas, curvas y nodos sin información; no representa cuerpos, robots, pantallas, datos ni acontecimientos reales.</p>
       </header>
 
       <section className="medicine-boundary">
@@ -112,6 +114,14 @@ export default function MedicinePage() {
       <section className="medicine-principles" aria-labelledby="medicine-principles-title">
         <header><p className="eyebrow">Contrato de lectura</p><h2 id="medicine-principles-title">Cuatro cortafuegos</h2></header>
         <div>{principles.map(([title, text], index) => <article key={title}><span>{String(index + 1).padStart(2, "0")}</span><h3>{title}</h3><p>{text}</p></article>)}</div>
+      </section>
+
+      <section className="medicine-lab-section documentary-lab-section" id="medicina-digital-inteligencia-artificial" aria-labelledby="digital-ai-lab-title">
+        <div className="section-heading">
+          <div><p className="eyebrow">MED-033 · laboratorio de medicina digital e inteligencia artificial</p><h2 id="digital-ai-lab-title">De los datos a la responsabilidad</h2></div>
+          <p>Elige un expediente. Ocho capas separan datos, modelo, validación, despliegue, deriva, equidad, utilidad y responsabilidad sin convertir un registro, una etiqueta, una métrica, una autorización, un examen o una ley en necesidad medida, validez, beneficio, competencia o responsable.</p>
+        </div>
+        <DigitalAIEvidenceLab data={digitalAIEvidence} />
       </section>
 
       <section className="medicine-lab-section documentary-lab-section" id="salud-global-determinantes-pandemias" aria-labelledby="global-health-lab-title">

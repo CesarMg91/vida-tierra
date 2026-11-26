@@ -1897,3 +1897,72 @@ Generada por el proyecto sin modelos de imagen: `node scripts/generate-civ-007-v
 ### Revisión y límites
 
 Las tres salidas se inspeccionaron completas tras rasterizar. La portada evita a propósito planos reconocibles de Mohenjo-daro, Teotihuacan o cualquier otro sitio, mapas, personas y texto: no ilustra ciudades concretas, sino que cada caso se mide a otra escala. Las reglas con distinto número de marcas bajo cada lámina señalan esa diferencia de escala, no una cronología ni un tamaño real. Los SVG de cadena y matriz se diseñaron a `1600 × 900` con `title` y `desc`; la matriz se regenera desde el módulo público para que ambos no diverjan.
+
+## 97. MED-033 — Un modelo exacto no demuestra un beneficio ni asigna una responsabilidad por sí solo
+
+![Portada editorial de MED-033](assets/visuales/hero-med-033-medicina-digital-inteligencia-artificial.png)
+
+![Cadena desde los datos hasta la responsabilidad](assets/visuales/cadena-datos-responsabilidad-med-033.svg)
+
+![Matriz de medicina digital e inteligencia artificial](assets/visuales/matriz-medicina-digital-ia-med-033.svg)
+
+| Archivo | Tipo | Procedencia | Qué representa | Límite obligatorio |
+|---|---|---|---|---|
+| `hero-med-033-medicina-digital-inteligencia-artificial.png` | portada editorial generativa | rasterizado con `sharp` de `hero-med-033-medicina-digital-inteligencia-artificial.svg` mediante `node scripts/generate-med-033-visuals.mjs --png`, 2026-11-26 | retícula de celdas con huecos, haces de curvas que se separan y un anillo de nodos abierto | no representa cuerpos, órganos, rostros, robots, cerebros, pantallas, datos ni un acontecimiento real; las curvas no grafican ninguna cifra |
+| `hero-med-033-medicina-digital-inteligencia-artificial.svg` | fuente generativa determinista | SVG producido por `scripts/generate-med-033-visuals.mjs` con semilla fija `33033` | misma composición en vectores | celdas, curvas y nodos sin información |
+| `cadena-datos-responsabilidad-med-033.svg` | diagrama epistemológico original | SVG producido por `scripts/generate-med-033-visuals.mjs`, 2026-11-26 | datos, modelo, validación, despliegue, deriva, equidad, utilidad y responsabilidad | las flechas no heredan validez, estabilidad, equidad, beneficio ni responsable |
+| `matriz-medicina-digital-ia-med-033.svg` | matriz documental original | SVG producido por `scripts/generate-med-033-visuals.mjs`, 2026-11-26 | doce expedientes, ocho capas y presencia de cada capa | las filas no ordenan sistemas, empresas ni progreso |
+
+### Procedencia de la portada
+
+Generada por el proyecto sin modelos de imagen: `node scripts/generate-med-033-visuals.mjs --png` escribe el SVG con semilla fija y lo rasteriza con `sharp` (ya instalado) a `1672 × 941`. Tamaño: `316367` bytes; SHA-256: `1cd20cf9c2e1be2bf7ffbefab522ebbd7271e0eb4a8c596063622f861d0db85f`. Tres ejecuciones consecutivas producen el mismo archivo byte a byte.
+
+### Revisión y límites
+
+Las tres salidas se inspeccionaron completas tras rasterizar. La portada evita a propósito cuerpos, órganos, cerebros, robots, rostros, pantallas, circuitos dibujados, fotografías clínicas o logotipos: las celdas con huecos aluden a registros incompletos, las curvas que se separan a la deriva y el anillo abierto a una responsabilidad que no se cierra, sin representar a ninguna persona, sistema ni acontecimiento. Los SVG se construyeron a `1600 × 900` (diagramas) y `1672 × 941` (portada), incluyen `title`, `desc` y tipografía de reserva. Ninguno acepta datos personales, calcula riesgos ni indica tratamientos.
+
+## 98. CIV-008 — Un signo no es una lengua
+
+![Portada editorial de CIV-008](assets/visuales/hero-civ-008-escrituras-notaciones-oralidad.png)
+
+![Cadena de seis niveles](assets/visuales/cadena-signo-lengua-civ-008.svg)
+
+![Matriz de archivos por nivel](assets/visuales/matriz-archivos-niveles-civ-008.svg)
+
+| Archivo | Tipo | Procedencia | Qué representa | Límite obligatorio |
+|---|---|---|---|---|
+| `hero-civ-008-escrituras-notaciones-oralidad.png` | portada editorial generativa | rasterizado con `sharp` de `hero-civ-008-escrituras-notaciones-oralidad.svg` mediante `node scripts/generate-civ-008-visuals.mjs --png`, 2026-11-26 | seis bandas del mismo tamaño con soportes genéricos (figuras de arcilla, impresiones, grietas en hueso, cuerdas anudadas, incisiones en madera y ondas de voz) | no reproduce signos reales de ningún sistema, ni texto ni personas |
+| `hero-civ-008-escrituras-notaciones-oralidad.svg` | fuente generativa determinista | SVG producido por `scripts/generate-civ-008-visuals.mjs` con semilla fija | misma composición en vectores | formas genéricas sin valor epigráfico |
+| `cadena-signo-lengua-civ-008.svg` | diagrama epistemológico original | SVG producido por `scripts/generate-civ-008-visuals.mjs`, 2026-11-26 | seis niveles con su prueba y lo que cada uno no hereda | el orden de lectura no es una evolución ni una escala |
+| `matriz-archivos-niveles-civ-008.svg` | matriz epistemológica original | SVG producido por `scripts/generate-civ-008-visuals.mjs` desde `content/civilization-scripts.json`, 2026-11-26 | nueve archivos por seis niveles con su estado | el estado es del archivo, no una calificación del sistema |
+
+### Procedencia de la portada
+
+Generada por el proyecto sin modelos de imagen: `node scripts/generate-civ-008-visuals.mjs --png` escribe el SVG con la semilla `8008` y lo rasteriza con `sharp` a `1672 × 941`. Tamaño: `187332` bytes; SHA-256: `6afd016c0222b6a69fda6ede28d52b2ce2f75ab5b0b92245af7ceb46e1f6a4ee`.
+
+### Revisión y límites
+
+Las tres salidas se inspeccionaron completas tras rasterizar. La portada evita a propósito signos cuneiformes, jeroglíficos, caracteres chinos, signos del Indo, glifos mayas o de rongorongo y quipus reconocibles: ninguna marca tiene valor epigráfico. Las seis bandas tienen el mismo tamaño porque ningún soporte está por encima de otro. Los SVG de cadena y matriz se diseñaron a `1600 × 900` con `title` y `desc`; la matriz se regenera desde el módulo público para que ambos no diverjan.
+
+## 99. CIV-009 — Un mapa no es un dominio
+
+![Portada editorial de CIV-009](assets/visuales/hero-civ-009-estados-imperios.png)
+
+![Cadena de siete dimensiones del alcance estatal](assets/visuales/cadena-alcance-estatal-civ-009.svg)
+
+![Matriz de Estados e imperios por dimensión de alcance](assets/visuales/matriz-imperios-dimensiones-civ-009.svg)
+
+| Archivo | Tipo | Procedencia | Qué representa | Límite obligatorio |
+|---|---|---|---|---|
+| `hero-civ-009-estados-imperios.png` | portada editorial generativa | rasterizado con `sharp` de `hero-civ-009-estados-imperios.svg` mediante `node scripts/generate-civ-009-visuals.mjs --png`, 2026-11-26 | ocho manchas de contorno discontinuo, como territorios reclamados en un atlas, con un núcleo, caminos que se cortan antes del borde, puntos de presencia y huecos sin trazo | no contorno de un imperio real, ni mapa, persona o texto |
+| `hero-civ-009-estados-imperios.svg` | fuente generativa determinista | SVG producido por `scripts/generate-civ-009-visuals.mjs` con semilla fija | misma composición en vectores | formas genéricas sin información geográfica |
+| `cadena-alcance-estatal-civ-009.svg` | diagrama epistemológico original | SVG producido por `scripts/generate-civ-009-visuals.mjs`, 2026-11-26 | siete dimensiones del alcance con su archivo y lo que cada una no hereda | el orden de lectura no es una secuencia histórica ni una escala de poder |
+| `matriz-imperios-dimensiones-civ-009.svg` | matriz epistemológica original | SVG producido por `scripts/generate-civ-009-visuals.mjs` desde `content/civilization-empires.json`, 2026-11-26 | ocho casos por siete dimensiones con su estado | el estado es del archivo, no una calificación del imperio |
+
+### Procedencia de la portada
+
+Generada por el proyecto sin modelos de imagen: `node scripts/generate-civ-009-visuals.mjs --png` escribe el SVG con la semilla `9009` y lo rasteriza con `sharp` a `1672 × 941`. Tamaño: `251506` bytes; SHA-256: `b239a84eb7c002decab8b3b85466d1c7414b8fa345020c5c4b56e56d5ba58836`.
+
+### Revisión y límites
+
+Las tres salidas se inspeccionaron completas tras rasterizar. La portada evita a propósito contornos reconocibles de cualquier imperio, mapas reales, personas y texto: no ilustra Estados concretos, sino que una mancha reclamada se deshace en caminos, puntos y huecos al mirarla de cerca. La retícula de fondo es genérica y no corresponde a ninguna proyección. Los SVG de cadena y matriz se diseñaron a `1600 × 900` con `title` y `desc`; la matriz se regenera desde el módulo público para que ambos no diverjan.
