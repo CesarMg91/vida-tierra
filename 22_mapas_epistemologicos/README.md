@@ -72,6 +72,8 @@ Grafos de dependencias entre objetos, mediciones, principios, modelos, claims y 
 
 - [`MAPA_CIV_009_ESTADOS_IMPERIOS_CONTROL_DESIGUAL.md`](MAPA_CIV_009_ESTADOS_IMPERIOS_CONTROL_DESIGUAL.md) — siete dimensiones del alcance, instrumentos con sus supuestos y saltos no heredados: frontera, inscripción, archivo, lista de tributo, camino y crónica — **AUDITADO**.
 
+- [`MAPA_CIV_010_TRANSFORMACIONES_FRAGMENTACIONES_PERSISTENCIAS.md`](MAPA_CIV_010_TRANSFORMACIONES_FRAGMENTACIONES_PERSISTENCIAS.md) — seis niveles de un «colapso», instrumentos con sus supuestos y saltos no heredados: coincidencia, proxy lejano, fecha única, silencio de monumentos, capital abandonada y ecocidio — **AUDITADO**.
+
 ## Medicina
 
 - [`MAPA_MED_008_ROMA_BIZANCIO_MEDITERRANEO_TARDIO.md`](MAPA_MED_008_ROMA_BIZANCIO_MEDITERRANEO_TARDIO.md) — vestigio, identificación, función, operación, acceso y consecuencia sin hospital, cobertura o resultado heredados — **AUDITADO**.

@@ -1323,3 +1323,14 @@ La portada no usa modelos de imagen: se regenera idéntica con `node scripts/gen
 | `matriz-imperios-dimensiones-civ-009.svg` | `scripts/generate-civ-009-visuals.mjs` desde `content/civilization-empires.json` | `1600 × 900` | código fuente versionado | estado del archivo; no ranking de imperios |
 
 La portada no usa modelos de imagen: se regenera idéntica con `node scripts/generate-civ-009-visuals.mjs --png`. Los SVG incluyen `title` y `desc`. El procedimiento y los límites completos están en la sección «CIV-009 — Un mapa no es un dominio» de [`ATLAS_VISUAL.md`](../../ATLAS_VISUAL.md).
+
+## CIV-010 — Transformaciones, fragmentaciones y persistencias
+
+| Archivo | Origen | Dimensiones | SHA-256 / trazabilidad | Límite |
+|---|---|---:|---|---|
+| `hero-civ-010-transformaciones-persistencias.png` | rasterizado con `sharp` desde el SVG generativo del proyecto, 2026-11-26 | `1672 × 941` | `5d26cac6a11b6af0863e975a3dff0c1cc3ef7412b26c5ff26848e5b3a15ecba3` | composición abstracta; no serie de datos, mapa ni persona |
+| `hero-civ-010-transformaciones-persistencias.svg` | `scripts/generate-civ-010-visuals.mjs`, semilla `10010` | `1672 × 941` | código fuente versionado | formas genéricas |
+| `cadena-niveles-colapso-civ-010.svg` | `scripts/generate-civ-010-visuals.mjs` | `1600 × 900` | código fuente versionado | seis niveles; no secuencia causal |
+| `matriz-casos-niveles-civ-010.svg` | `scripts/generate-civ-010-visuals.mjs` desde `content/civilization-transformations.json` | `1600 × 900` | código fuente versionado | estado del archivo; no ranking de sociedades |
+
+La portada no usa modelos de imagen: se regenera idéntica con `node scripts/generate-civ-010-visuals.mjs --png`. Los SVG incluyen `title` y `desc`. El procedimiento y los límites completos están en la sección «CIV-010 — Lo que se rompe y lo que sigue» de [`ATLAS_VISUAL.md`](../../ATLAS_VISUAL.md).

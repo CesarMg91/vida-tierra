@@ -2245,3 +2245,27 @@ Mali / Songhai       → capital no localizada C; crónicas tardías B
 - `CLAIM-CIV-EMPREACH-NO-UNIFORM-CONTROL-001` impide pintar un imperio premoderno de un solo tono.
 
 CIV-009 no cambia el estado de claims existentes. Véase `INV-CIV-EMPIRES-001`, `MAPA_CIV_009_ESTADOS_IMPERIOS_CONTROL_DESIGUAL.md`, `CRONOLOGIA_CIV_009_ESTADOS_IMPERIOS_CONTROL_DESIGUAL.md`, `cadena-alcance-estatal-civ-009.svg` y `matriz-imperios-dimensiones-civ-009.svg`.
+
+## CIV-010 — Lo que se rompe y lo que sigue
+
+```text
+señal ─ cronología fina ─ despoblamiento ─ cambio institucional ─ continuidad ─ atribución
+   (seis niveles paralelos; ninguno se hereda de otro)
+sequía en el mismo siglo ⇢ «la civilización colapsó por la sequía» [NO]
+```
+
+```text
+Fin del Bronce   → señal B-COND; Gibala 1192–1190 B; Ascalón B-LOCAL; tormenta perfecta C
+Indo             → Kotla Dahar 4.1 ka B; desnucleación (051); causa C
+Mayas del sur    → sequía B; Yok Balum B-COND; persistencia B (Mayapán, Nojpetén, 20 agrupaciones)
+Angkor           → declive desde el XIV B; red hidráulica B-COND; traslado B-COND
+Rapa Nui         → deforestación gradual B; sin cuello de botella B; ecocidio NO
+Cahokia          → mínimo ~1400; repoblamiento ~1500–1650 B-COND
+Roma (Occidente) → plomo B; pérdida material B-COND; causa única NO
+```
+
+- `CLAIM-CIV-TRANSFORM-SIX-LEVELS-001` impide leer una señal, una fecha o un silencio de monumentos como colapso.
+- `CLAIM-CIV-TRANSFORM-COINCIDENCE-001` impide convertir la sincronía en mecanismo.
+- `CLAIM-CIV-TRANSFORM-NO-SINGLE-COLLAPSE-001` y `CLAIM-CIV-TRANSFORM-LOSSES-REAL-001` impiden tanto el «colapso de la civilización» como la negación de las pérdidas.
+
+CIV-010 no cambia el estado de claims existentes y cierra el programa CIV (1–10). Véase `INV-CIV-TRANSFORMATIONS-001`, `MAPA_CIV_010_TRANSFORMACIONES_FRAGMENTACIONES_PERSISTENCIAS.md`, `CRONOLOGIA_CIV_010_TRANSFORMACIONES_FRAGMENTACIONES_PERSISTENCIAS.md`, `cadena-niveles-colapso-civ-010.svg` y `matriz-casos-niveles-civ-010.svg`.

@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Lo que se rompe y lo que sigue: seis niveles de un «colapso»</title>
+  <desc id="desc">Seis cajas —señal climática o ambiental, cronología fina, despoblamiento, cambio institucional, continuidad poblacional o cultural y atribución causal— con el instrumento que mide cada una, unidas por líneas que indican el orden de lectura, no una herencia. Debajo, arcos discontinuos marcan lo que cada nivel no hereda del anterior: una señal no es una fecha, una fecha no es una pérdida, una pérdida no es una ruptura institucional, una ruptura no es una desaparición y la continuidad no dice la causa.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#0b1011"/><stop offset="1" stop-color="#171512"/></linearGradient>
+    <style>.k{font:19px Consolas,monospace;letter-spacing:2px;fill:#c39456}.h{font:22px Georgia,serif;fill:#efe3d1}.t{font:19px Arial,sans-serif;fill:#c9c2b8}.l{font:16px Arial,sans-serif;fill:#d6a27b}.small{font:14px Consolas,monospace;fill:#91ad92}.cell{font:13px Arial,sans-serif;fill:#151310}.head{font:13px Consolas,monospace;letter-spacing:1px;fill:#c39456}.row{font:15px Arial,sans-serif;fill:#e6dccd}.rule{stroke:#8b6a43;stroke-width:2}.dash{stroke:#a96545;stroke-width:2;stroke-dasharray:8 8;fill:none}</style>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <text x="50" y="96" class="k">CIV-010 · SEIS NIVELES DE UN «COLAPSO»</text>
+  <text x="50" y="150" font-family="Georgia,serif" font-size="42" fill="#f2e7d6">Coincidir en el tiempo no es causar</text>
+  <text x="50" y="190" class="t">Cada caso se mide en seis niveles, cada uno con su instrumento y sus supuestos.</text>
+  <g transform="translate(50 300)"><rect width="226" height="150" fill="#141a19" stroke="#779176"/><text x="14" y="46" class="h">Señal</text><text x="14" y="86" class="small">isótopos, polen,</text><text x="14" y="108" class="small">anillos, plomo</text></g>
+  <g transform="translate(302 300)"><rect width="226" height="150" fill="#141a19" stroke="#779176"/><text x="14" y="46" class="h">Cronología</text><text x="14" y="86" class="small">radiocarbono,</text><text x="14" y="108" class="small">dendro, Cuenta Larga</text></g>
+  <g transform="translate(554 300)"><rect width="226" height="150" fill="#141a19" stroke="#779176"/><text x="14" y="46" class="h">Despoblamiento</text><text x="14" y="86" class="small">prospección, LiDAR,</text><text x="14" y="108" class="small">estanoles, genomas</text></g>
+  <g transform="translate(806 300)"><rect width="226" height="150" fill="#141a19" stroke="#779176"/><text x="14" y="46" class="h">Instituciones</text><text x="14" y="86" class="small">palacios, archivos,</text><text x="14" y="108" class="small">monumentos, moneda</text></g>
+  <g transform="translate(1058 300)"><rect width="226" height="150" fill="#141a19" stroke="#779176"/><text x="14" y="46" class="h">Continuidad</text><text x="14" y="86" class="small">lenguas, genomas,</text><text x="14" y="108" class="small">reocupaciones</text></g>
+  <g transform="translate(1310 300)"><rect width="226" height="150" fill="#141a19" stroke="#779176"/><text x="14" y="46" class="h">Atribución</text><text x="14" y="86" class="small">lugar + intervalo +</text><text x="14" y="108" class="small">mecanismo + alternativa</text></g>
+  <path class="rule" d="M278 375H298"/><path d="M298 369L302 375L298 381" fill="none" stroke="#8b6a43" stroke-width="2"/>
+  <path class="rule" d="M530 375H550"/><path d="M550 369L554 375L550 381" fill="none" stroke="#8b6a43" stroke-width="2"/>
+  <path class="rule" d="M782 375H802"/><path d="M802 369L806 375L802 381" fill="none" stroke="#8b6a43" stroke-width="2"/>
+  <path class="rule" d="M1034 375H1054"/><path d="M1054 369L1058 375L1054 381" fill="none" stroke="#8b6a43" stroke-width="2"/>
+  <path class="rule" d="M1286 375H1306"/><path d="M1306 369L1310 375L1306 381" fill="none" stroke="#8b6a43" stroke-width="2"/>
+  <path class="dash" d="M163 455C215 555 363 555 415 455"/><text x="243" y="594" class="l">≠ fecha</text>
+  <path class="dash" d="M415 455C467 555 615 555 667 455"/><text x="495" y="594" class="l">≠ pérdida</text>
+  <path class="dash" d="M667 455C719 555 867 555 919 455"/><text x="747" y="594" class="l">≠ ruptura</text>
+  <path class="dash" d="M919 455C971 555 1119 555 1171 455"/><text x="999" y="594" class="l">≠ desaparición</text>
+  <path class="dash" d="M1171 455C1223 555 1371 555 1423 455"/><text x="1251" y="594" class="l">≠ causa</text>
+  <text x="50" y="700" class="t">El yeso de Chichancanab mide una caída de lluvia de 41–54 %; Mayapán, Nojpetén y 20 agrupaciones lingüísticas mayas siguen.</text>
+  <text x="50" y="736" class="t">El foso de Angkor Thom dejó de mantenerse un siglo antes de la invasión que «marca el fin».</text>
+  <text x="50" y="772" class="t">Quince genomas rapanui rechazan el cuello de botella que exige el «ecocidio».</text>
+</svg>

@@ -742,6 +742,29 @@ for (const empireCase of empiresData.cases) {
   }
 }
 
+const transformationsData = JSON.parse(fs.readFileSync(path.join(ROOT, "content", "civilization-transformations.json"), "utf8"));
+const transformationLevelKinds = ["signal", "chronology", "depopulation", "institutions", "continuity", "attribution"];
+const transformationLevelStatuses = new Set(["sostenido", "condicionado", "no-demostrado", "dato-ausente"]);
+check(transformationsData.schemaVersion === 1, "el módulo de transformaciones usa una versión de esquema desconocida");
+check(researchSlugs.has(transformationsData.researchSlug), `el módulo de transformaciones apunta a un expediente inexistente: ${transformationsData.researchSlug}`);
+check(Array.isArray(transformationsData.cases) && transformationsData.cases.length > 0, "el módulo de transformaciones no contiene casos");
+check(duplicates(transformationsData.cases.map((record) => record.id)).length === 0, "el módulo de transformaciones contiene casos duplicados");
+for (const transformationCase of transformationsData.cases) {
+  check(Boolean(transformationCase.title) && Boolean(transformationCase.region) && Boolean(transformationCase.adversary), `${transformationCase.id} no declara título, región o adversario`);
+  check(
+    JSON.stringify(transformationCase.steps?.map((step) => step.kind)) === JSON.stringify(transformationLevelKinds),
+    `${transformationCase.id} no conserva los seis niveles en orden`,
+  );
+  check(transformationCase.steps?.find((step) => step.kind === "attribution")?.status !== "sostenido", `${transformationCase.id} presenta una atribución causal como sostenida`);
+  for (const step of transformationCase.steps ?? []) {
+    check(transformationLevelStatuses.has(step.status), `${transformationCase.id}/${step.kind} usa un estado desconocido: ${step.status}`);
+    check(Boolean(step.observed) && Boolean(step.inference) && Boolean(step.limit), `${transformationCase.id}/${step.kind} tiene un campo vacío`);
+    for (const id of step.claimIds ?? []) check(claimIds.has(id), `${transformationCase.id}/${step.kind} enlaza un claim inexistente: ${id}`);
+    for (const id of step.evidenceIds ?? []) check(evidenceIds.has(id), `${transformationCase.id}/${step.kind} enlaza una evidencia inexistente: ${id}`);
+    for (const id of step.sourceIds ?? []) check(sourceIds.has(id), `${transformationCase.id}/${step.kind} enlaza una fuente inexistente: ${id}`);
+  }
+}
+
 // Laboratorios de la serie CON: mismas seis capas ordenadas, siempre con claims, evidencias y fuentes canónicas.
 const consciousnessKinds = ["system", "result", "scope", "interpretation", "leap", "test"];
 for (const [file, label] of [

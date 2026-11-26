@@ -1,0 +1,863 @@
+{
+  "schemaVersion": 1,
+  "researchSlug": "14_civilizaciones/INVESTIGACION_CIV_010_TRANSFORMACIONES_FRAGMENTACIONES_PERSISTENCIAS",
+  "cases": [
+    {
+      "id": "bronce-final",
+      "title": "Fin del Bronce en el Mediterráneo oriental",
+      "region": "Egeo, Anatolia, Levante, Chipre y Egipto",
+      "window": "c. 1250–1100 a. C.",
+      "archives": [
+        "polen del mar de Galilea",
+        "anillos de enebro de Anatolia",
+        "radiocarbono de Gibala–Tell Tweini",
+        "genomas de Ascalón"
+      ],
+      "adversary": "Cline une invasión, revuelta, terremotos, sequía y corte de rutas en un colapso de sistemas; Kaniewski liga la sequía con las invasiones de los «pueblos del mar». Knapp y Manning responden que no hay explicación global y que las cronologías sobreprecisas confunden causa y efecto.",
+      "steps": [
+        {
+          "kind": "signal",
+          "status": "sostenido",
+          "observed": "El polen del mar de Galilea marca la fase más seca de las edades del Bronce y del Hierro hacia 1250–1100 a. C.; Gibala se seca desde fines del siglo XIII; los enebros de Anatolia central registran una sequía continua hacia 1198–1196 (±3) a. C.",
+          "inference": "Hubo una fase seca regional, medida en tres archivos independientes, que incluye años de sequía excepcional en el corazón hitita.",
+          "limit": "Cada archivo registra su cuenca; la señal no mide cosechas, hambre ni decisiones políticas.",
+          "claimIds": [
+            "CLAIM-CIV-TRANSFORM-LBA-CLIMATE-001"
+          ],
+          "evidenceIds": [
+            "EVID-CIV-TRANSFORM-LBA-001"
+          ],
+          "sourceIds": [
+            "SRC-LANGGUT-GALILEE-2013",
+            "SRC-KANIEWSKI-GIBALA-2010",
+            "SRC-MANNING-HITTITE-2023"
+          ]
+        },
+        {
+          "kind": "chronology",
+          "status": "sostenido",
+          "observed": "Las destrucciones terminales del norte del Levante se fechan en 1192–1190 a. C. con radiocarbono estratificado anclado en reyes y observaciones astronómicas; la primera conflagración de Gibala coincide con la de Ugarit (1194–1175 a. C.).",
+          "inference": "Hay fechas finas por sitio; los cambios regionales se reparten desde mediados del siglo XIII hasta todo el XII.",
+          "limit": "«1177 a. C.» es la fecha de un acontecimiento en Egipto, no de un colapso regional; dos fechas solapadas no son simultáneas.",
+          "claimIds": [
+            "CLAIM-CIV-TRANSFORM-LBA-CHRONOLOGY-001",
+            "CLAIM-CIV-DATING-LAYERS-001"
+          ],
+          "evidenceIds": [
+            "EVID-CIV-TRANSFORM-LBA-001"
+          ],
+          "sourceIds": [
+            "SRC-KANIEWSKI-SEAPEOPLES-2011",
+            "SRC-KANIEWSKI-GIBALA-2010",
+            "SRC-KNAPP-MANNING-2016",
+            "SRC-CLINE-1177-2014"
+          ]
+        },
+        {
+          "kind": "depopulation",
+          "status": "condicionado",
+          "observed": "En el Levante se destruyen muchos centros urbanos, otros se reducen y cambia el patrón de asentamiento; los textos hablan de sequía y hambre.",
+          "inference": "Hubo pérdida de población urbana y reorganización del asentamiento en varias regiones.",
+          "limit": "No hay una medida regional de cuánta gente murió, migró o cambió de lugar; la intensidad varía por región.",
+          "claimIds": [
+            "CLAIM-CIV-TRANSFORM-LBA-CHRONOLOGY-001"
+          ],
+          "evidenceIds": [
+            "EVID-CIV-TRANSFORM-LBA-001"
+          ],
+          "sourceIds": [
+            "SRC-LANGGUT-GALILEE-2013",
+            "SRC-KNAPP-MANNING-2016"
+          ]
+        },
+        {
+          "kind": "institutions",
+          "status": "sostenido",
+          "observed": "Dejan de funcionar palacios, archivos y la correspondencia entre cortes; el reino hitita desaparece como Estado central.",
+          "inference": "La pérdida institucional es medible: el sistema de cortes del Bronce final no se recompone.",
+          "limit": "El registro es de las élites; mide el fin de una forma de organización, no de las poblaciones.",
+          "claimIds": [
+            "CLAIM-CIV-TRANSFORM-LBA-SYSTEMS-001"
+          ],
+          "evidenceIds": [
+            "EVID-CIV-TRANSFORM-LBA-001"
+          ],
+          "sourceIds": [
+            "SRC-CLINE-1177-2014",
+            "SRC-KNAPP-MANNING-2016"
+          ]
+        },
+        {
+          "kind": "continuity",
+          "status": "sostenido",
+          "observed": "Gibala se reurbaniza poco después de su destrucción; el Hierro I muestra una recuperación rápida de asentamientos; en Ascalón, una mezcla relacionada con Europa aparece y deja de detectarse.",
+          "inference": "Hubo migración sin reemplazo duradero y continuidad local de asentamiento.",
+          "limit": "Diez genomas de un sitio; la continuidad en el Egeo y Anatolia no se audita aquí.",
+          "claimIds": [
+            "CLAIM-CIV-TRANSFORM-LBA-MIGRATION-001"
+          ],
+          "evidenceIds": [
+            "EVID-CIV-TRANSFORM-LBA-001"
+          ],
+          "sourceIds": [
+            "SRC-FELDMAN-ASHKELON-2019",
+            "SRC-KANIEWSKI-GIBALA-2010",
+            "SRC-LANGGUT-GALILEE-2013"
+          ]
+        },
+        {
+          "kind": "attribution",
+          "status": "no-demostrado",
+          "observed": "Sequía, «pueblos del mar», terremotos y ruptura de redes coinciden en el mismo siglo; la tormenta sísmica se apoya en la superposición con sismos modernos.",
+          "inference": "La tormenta perfecta es una síntesis verosímil, no un mecanismo probado: falta separar ruido de fondo, condiciones de contorno y causa.",
+          "limit": "Sin cronologías independientes por sitio y daño sísmico fechado, cualquier suma de factores contemporáneos parece explicar.",
+          "claimIds": [
+            "CLAIM-CIV-TRANSFORM-LBA-SYSTEMS-001",
+            "CLAIM-CIV-TRANSFORM-LBA-EARTHQUAKE-001",
+            "CLAIM-CIV-TRANSFORM-COINCIDENCE-001"
+          ],
+          "evidenceIds": [
+            "EVID-CIV-TRANSFORM-LBA-001",
+            "EVID-CIV-TRANSFORM-METHOD-001"
+          ],
+          "sourceIds": [
+            "SRC-KNAPP-MANNING-2016",
+            "SRC-NUR-CLINE-2000",
+            "SRC-CLINE-1177-2014",
+            "SRC-KANIEWSKI-LBA-2013"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "indo",
+      "title": "Desurbanización del Indo",
+      "region": "Asia del Sur (Pakistán y noroeste de la India)",
+      "window": "c. 2100–1700 a. C.",
+      "archives": [
+        "foraminíferos del mar Arábigo",
+        "aragonito de Kotla Dahar",
+        "prospecciones del noroeste de la India"
+      ],
+      "adversary": "La tesis del monzón: un debilitamiento del monzón de verano hacia 4.2–4.1 ka habría desurbanizado el Indo y empujado a su gente hacia el este.",
+      "steps": [
+        {
+          "kind": "signal",
+          "status": "sostenido",
+          "observed": "Kotla Dahar, junto a asentamientos del Indo, registra un aumento de 4‰ en el δ18O del aragonito de gasterópodos hacia 4.1 ka; el mar Arábigo, un menor caudal del Indo hacia 4.2 ka.",
+          "inference": "El monzón de verano se debilitó en el noroeste de la India, medido ya cerca de los sitios.",
+          "limit": "El proxy marino está lejos de los asentamientos; el lacustre es un lago.",
+          "claimIds": [
+            "CLAIM-CIV-TRANSFORM-INDUS-MONSOON-001"
+          ],
+          "evidenceIds": [
+            "EVID-CIV-TRANSFORM-INDUS-001"
+          ],
+          "sourceIds": [
+            "SRC-DIXIT-KOTLA-2014",
+            "SRC-STAUBWASSER-INDUS-2003"
+          ]
+        },
+        {
+          "kind": "chronology",
+          "status": "condicionado",
+          "observed": "La sequía de 4.1 ka cae dentro del rango de radiocarbono del inicio de la desurbanización; los autores declaran incertidumbre de fechado en ambos registros.",
+          "inference": "Las dos series se solapan en el tiempo.",
+          "limit": "Solapamiento de rangos no es simultaneidad ni orden; falta una cronología fina por valle.",
+          "claimIds": [
+            "CLAIM-CIV-TRANSFORM-INDUS-MONSOON-001",
+            "CLAIM-CIV-DATING-CONTEXT-001"
+          ],
+          "evidenceIds": [
+            "EVID-CIV-TRANSFORM-INDUS-001"
+          ],
+          "sourceIds": [
+            "SRC-DIXIT-KOTLA-2014"
+          ]
+        },
+        {
+          "kind": "depopulation",
+          "status": "condicionado",
+          "observed": "Las prospecciones armonizadas muestran el paso de pocos centros grandes a un patrón desnucleado de asentamientos pequeños.",
+          "inference": "Hubo desurbanización: la gente se redistribuyó en sitios menores.",
+          "limit": "Cobertura, visibilidad y fase de los sitios condicionan el patrón; no mide pérdida neta de población.",
+          "claimIds": [
+            "CLAIM-INDUS-DEURBANIZATION-TRANSFORMATION-001"
+          ],
+          "evidenceIds": [
+            "EVID-CIV-TRANSFORM-INDUS-001"
+          ],
+          "sourceIds": [
+            "SRC-GREEN-PETRIE-2018"
+          ]
+        },
+        {
+          "kind": "institutions",
+          "status": "dato-ausente",
+          "observed": "Sin escritura leída ni palacios identificados, el archivo no muestra qué instituciones existían ni cuáles dejaron de funcionar.",
+          "inference": "No se infiere ni el fin de un Estado ni su ausencia: el archivo no permite nombrar las instituciones.",
+          "limit": "Las regularidades de pesos, sellos y planificación urbana no identifican quién gobernaba.",
+          "claimIds": [
+            "CLAIM-CIV-TRANSFORM-SIX-LEVELS-001"
+          ],
+          "evidenceIds": [
+            "EVID-CIV-TRANSFORM-METHOD-001"
+          ],
+          "sourceIds": [
+            "SRC-PETRIE-LWS-2017"
+          ]
+        },
+        {
+          "kind": "continuity",
+          "status": "sostenido",
+          "observed": "La desurbanización implicó desnucleación y redistribución de asentamientos y prácticas, no desaparición de las poblaciones (051).",
+          "inference": "La gente siguió viviendo en la región en otra forma de asentamiento.",
+          "limit": "La continuidad de lengua o identidad no se mide.",
+          "claimIds": [
+            "CLAIM-INDUS-DEURBANIZATION-TRANSFORMATION-001",
+            "CLAIM-COLLAPSE-TRANSFORMATION-001"
+          ],
+          "evidenceIds": [
+            "EVID-CIV-TRANSFORM-INDUS-001"
+          ],
+          "sourceIds": [
+            "SRC-GREEN-PETRIE-2018",
+            "SRC-GIOSAN-HARAPPAN-2012"
+          ]
+        },
+        {
+          "kind": "attribution",
+          "status": "condicionado",
+          "observed": "El Indo se desarrolló sobre un umbral donde se solapan las lluvias de invierno y verano, hubo cambio climático durante su apogeo y sus poblaciones lidiaron con ecologías diversas.",
+          "inference": "El clima pudo tener un papel en la transformación; la adaptación a la variabilidad es parte del mismo archivo.",
+          "limit": "Ríos cambiantes, redes de intercambio y decisiones sin archivo compiten como causas; los datos de adaptación son de una sola región.",
+          "claimIds": [
+            "CLAIM-CIV-TRANSFORM-INDUS-ADAPTATION-001",
+            "CLAIM-CIV-TRANSFORM-COINCIDENCE-001"
+          ],
+          "evidenceIds": [
+            "EVID-CIV-TRANSFORM-INDUS-001",
+            "EVID-CIV-TRANSFORM-METHOD-001"
+          ],
+          "sourceIds": [
+            "SRC-PETRIE-LWS-2017",
+            "SRC-GIOSAN-HARAPPAN-2012",
+            "SRC-DIXIT-KOTLA-2014"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mayas-sur",
+      "title": "Mayas clásicos del sur",
+      "region": "tierras bajas mayas",
+      "window": "c. 750–1100 d. C.",
+      "archives": [
+        "lago Chichancanab",
+        "cuenca de Cariaco",
+        "cueva de Yok Balum",
+        "ceras vegetales de dos lagos",
+        "monumentos de Cuenta Larga"
+      ],
+      "adversary": "Diamond y la lectura climática fuerte: la sequía del Clásico Terminal habría destruido una sociedad que ya sobreexplotaba su ambiente.",
+      "steps": [
+        {
+          "kind": "signal",
+          "status": "sostenido",
+          "observed": "Chichancanab: 800–1000 d. C. es el intervalo más seco del Holoceno medio y tardío y el yeso indica una caída de lluvia de 41–54 % (picos de 70 %); Cariaco: sequías hacia 810, 860 y 910; otro modelo da hasta 40 %.",
+          "inference": "Hubo sequías severas y recurrentes durante el Clásico Terminal.",
+          "limit": "La magnitud depende del proxy y del modelo; Cariaco registra el norte de Sudamérica.",
+          "claimIds": [
+            "CLAIM-CIV-TRANSFORM-MAYA-DROUGHT-001"
+          ],
+          "evidenceIds": [
+            "EVID-CIV-TRANSFORM-MAYA-001"
+          ],
+          "sourceIds": [
+            "SRC-HODELL-CHICHANCANAB-1995",
+            "SRC-EVANS-GYPSUM-2018",
+            "SRC-HAUG-CARIACO-2003",
+            "SRC-MEDINA-ROHLING-2012"
+          ]
+        },
+        {
+          "kind": "chronology",
+          "status": "sostenido",
+          "observed": "Yok Balum, con resolución subanual, se compara con monumentos fechados: húmedo 440–660, tendencia seca 660–1000 con guerra y desintegración asincrónica, sequía prolongada 1020–1100 con colapso de población.",
+          "inference": "La secuencia política y la climática están fechadas con precisión suficiente para compararlas.",
+          "limit": "La serie política sale de inscripciones de corte; un siglo separa la desintegración de las cortes del colapso demográfico fechado.",
+          "claimIds": [
+            "CLAIM-CIV-TRANSFORM-MAYA-SEQUENCE-001"
+          ],
+          "evidenceIds": [
+            "EVID-CIV-TRANSFORM-MAYA-001"
+          ],
+          "sourceIds": [
+            "SRC-KENNETT-YOKBALUM-2012"
+          ]
+        },
+        {
+          "kind": "depopulation",
+          "status": "sostenido",
+          "observed": "El sur, más húmedo, se secó más que el norte en el Clásico Terminal y su declive fue más temprano y persistente; muchas zonas vivieron cambios profundos.",
+          "inference": "El despoblamiento fue diferencial: más y antes en el sur.",
+          "limit": "La población de partida es un modelo de 9.5–16 millones; la proporción de muerte, migración y menor natalidad no se mide.",
+          "claimIds": [
+            "CLAIM-CIV-TRANSFORM-MAYA-DIFFERENTIAL-001",
+            "CLAIM-CIV-URBCOMP-MAYA-POPULATION-001"
+          ],
+          "evidenceIds": [
+            "EVID-CIV-TRANSFORM-MAYA-AFTER-001"
+          ],
+          "sourceIds": [
+            "SRC-DOUGLAS-MAYA-2015",
+            "SRC-AIMERS-MAYA-2007",
+            "SRC-ESTRADA-BELLI-MAYA-POP-2025"
+          ]
+        },
+        {
+          "kind": "institutions",
+          "status": "sostenido",
+          "observed": "Las cortes del sur dejan de erigir monumentos fechados; las entidades políticas se balcanizan y se desintegran de forma asincrónica.",
+          "inference": "Terminó un sistema de cortes con inscripciones de Cuenta Larga en el sur.",
+          "limit": "El fin de los monumentos mide a las cortes, no al resto de la población.",
+          "claimIds": [
+            "CLAIM-CIV-TRANSFORM-MAYA-SEQUENCE-001"
+          ],
+          "evidenceIds": [
+            "EVID-CIV-TRANSFORM-MAYA-001"
+          ],
+          "sourceIds": [
+            "SRC-KENNETT-YOKBALUM-2012"
+          ]
+        },
+        {
+          "kind": "continuity",
+          "status": "sostenido",
+          "observed": "Mayapán fue la mayor capital posclásica de Yucatán y las estructuras mayas resistieron hasta el contacto europeo; el reino itzá de Nojpetén cayó en 1697; el catálogo que usa el INEGI cuenta 20 agrupaciones lingüísticas de la familia maya.",
+          "inference": "La civilización maya en su conjunto no colapsó: siguieron entidades políticas, lenguas y gente.",
+          "limit": "«Maya» es una familia lingüística y un conjunto de entidades políticas, no un sujeto único.",
+          "claimIds": [
+            "CLAIM-CIV-TRANSFORM-MAYA-PERSISTENCE-001",
+            "CLAIM-CIV-TRANSFORM-MAYA-DIFFERENTIAL-001",
+            "CLAIM-CIV-IDENTITY-PROTOCOL-001"
+          ],
+          "evidenceIds": [
+            "EVID-CIV-TRANSFORM-MAYA-AFTER-001"
+          ],
+          "sourceIds": [
+            "SRC-KENNETT-MAYAPAN-2022",
+            "SRC-JONES-ITZA-1998",
+            "SRC-INEGI-PUEBLOS-INDIGENAS-2020",
+            "SRC-AIMERS-MAYA-2007"
+          ]
+        },
+        {
+          "kind": "attribution",
+          "status": "condicionado",
+          "observed": "Las ceras vegetales muestran que la adaptación agrícola a sequías anteriores funcionó y luego falló ante sequías más severas; la guerra y la balcanización están en las inscripciones.",
+          "inference": "La sequía es una causa contribuyente con un mecanismo propuesto en el sur.",
+          "limit": "Que fuera la causa única no está demostrado; proyectar sobre el siglo VIII las angustias del XXI es un riesgo declarado.",
+          "claimIds": [
+            "CLAIM-CIV-TRANSFORM-MAYA-ATTRIBUTION-001",
+            "CLAIM-CIV-TRANSFORM-COINCIDENCE-001"
+          ],
+          "evidenceIds": [
+            "EVID-CIV-TRANSFORM-MAYA-001",
+            "EVID-CIV-TRANSFORM-METHOD-001"
+          ],
+          "sourceIds": [
+            "SRC-DOUGLAS-MAYA-2015",
+            "SRC-MCANANY-YOFFEE-QUESTIONING-2010",
+            "SRC-DEGROOT-HCS-2021"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "angkor",
+      "title": "Angkor",
+      "region": "Camboya (sudeste asiático continental)",
+      "window": "siglos XIII–XVIII d. C.",
+      "archives": [
+        "mapa de Greater Angkor",
+        "anillos del sur de Vietnam",
+        "núcleos de Angkor Thom",
+        "excavación de Angkor Wat"
+      ],
+      "adversary": "La lectura del colapso hidráulico: sequías y monzones extremos habrían destruido la red de agua y vaciado la capital antes de la invasión de Ayutthaya.",
+      "steps": [
+        {
+          "kind": "signal",
+          "status": "sostenido",
+          "observed": "Una reconstrucción de siete siglos y medio con anillos de árboles del sur de Vietnam registra sequías de décadas alternadas con monzones intensos en los siglos XIV y XV.",
+          "inference": "Hubo variabilidad hidroclimática extrema durante el declive de la capital.",
+          "limit": "Los autores la llaman factor contribuyente «en combinación con otros».",
+          "claimIds": [
+            "CLAIM-CIV-TRANSFORM-ANGKOR-HYDRAULIC-001"
+          ],
+          "evidenceIds": [
+            "EVID-CIV-TRANSFORM-ANGKOR-001"
+          ],
+          "sourceIds": [
+            "SRC-BUCKLEY-ANGKOR-2010"
+          ]
+        },
+        {
+          "kind": "chronology",
+          "status": "sostenido",
+          "observed": "En Angkor Thom bajan la quema, la perturbación forestal y la erosión desde las primeras décadas del siglo XIV y el foso deja de mantenerse a fines de ese siglo; Angkor Wat se reocupa desde fines del XIV hasta los siglos XVII o XVIII.",
+          "inference": "El declive del núcleo empezó más de un siglo antes de la invasión que marca el «fin».",
+          "limit": "Fechas de un núcleo administrativo y de un templo; otras partes del complejo no se fechan aquí.",
+          "claimIds": [
+            "CLAIM-CIV-TRANSFORM-ANGKOR-GRADUAL-001"
+          ],
+          "evidenceIds": [
+            "EVID-CIV-TRANSFORM-ANGKOR-001"
+          ],
+          "sourceIds": [
+            "SRC-PENNY-ANGKOR-GRADUAL-2019",
+            "SRC-CARTER-ANGKORWAT-2019"
+          ]
+        },
+        {
+          "kind": "depopulation",
+          "status": "condicionado",
+          "observed": "El complejo albergó 700 000–900 000 habitantes en el siglo XIII según un modelo de LiDAR, excavación y radiocarbono; la ocupación del núcleo declinó de forma prolongada.",
+          "inference": "La capital se vació de forma gradual, no por un colapso demográfico abrupto.",
+          "limit": "La población es un modelo; adónde fue la gente no se mide aquí.",
+          "claimIds": [
+            "CLAIM-CIV-TRANSFORM-ANGKOR-POPULATION-001",
+            "CLAIM-CIV-TRANSFORM-ANGKOR-GRADUAL-001"
+          ],
+          "evidenceIds": [
+            "EVID-CIV-TRANSFORM-ANGKOR-001"
+          ],
+          "sourceIds": [
+            "SRC-KLASSEN-ANGKOR-POP-2021",
+            "SRC-PENNY-ANGKOR-GRADUAL-2019"
+          ]
+        },
+        {
+          "kind": "institutions",
+          "status": "sostenido",
+          "observed": "El foso deja de mantenerse y la red hidráulica de más de 1000 km² pierde función; el centro del poder se desplaza fuera de la capital.",
+          "inference": "Terminó una capital y su infraestructura de agua.",
+          "limit": "El traslado de la sede no equivale al fin de la entidad política.",
+          "claimIds": [
+            "CLAIM-CIV-TRANSFORM-ANGKOR-RELOCATION-001"
+          ],
+          "evidenceIds": [
+            "EVID-CIV-TRANSFORM-ANGKOR-001"
+          ],
+          "sourceIds": [
+            "SRC-PENNY-ANGKOR-GRADUAL-2019",
+            "SRC-EVANS-ANGKOR-MAP-2007"
+          ]
+        },
+        {
+          "kind": "continuity",
+          "status": "sostenido",
+          "observed": "Angkor Wat nunca se abandonó del todo; la región conservó importancia ideológica y uso residencial tras el traslado de la capital hacia el sur.",
+          "inference": "Hubo traslado y reorganización, no fin de la población ni de la tradición política.",
+          "limit": "La continuidad se mide en un templo y en el desplazamiento de la capital.",
+          "claimIds": [
+            "CLAIM-CIV-TRANSFORM-ANGKOR-RELOCATION-001"
+          ],
+          "evidenceIds": [
+            "EVID-CIV-TRANSFORM-ANGKOR-001"
+          ],
+          "sourceIds": [
+            "SRC-CARTER-ANGKORWAT-2019"
+          ]
+        },
+        {
+          "kind": "attribution",
+          "status": "condicionado",
+          "observed": "Un modelo numérico de la red excavada muestra daños en cascada cuya probabilidad y extensión crecen abruptamente con la magnitud de las crecidas.",
+          "inference": "La vulnerabilidad sistémica de la infraestructura, sumada a la variabilidad climática, es un mecanismo plausible del abandono de la capital.",
+          "limit": "El declive empezó antes de las peores sequías del siglo XV; el modelo no excluye causas políticas ni económicas.",
+          "claimIds": [
+            "CLAIM-CIV-TRANSFORM-ANGKOR-HYDRAULIC-001",
+            "CLAIM-CIV-TRANSFORM-COINCIDENCE-001"
+          ],
+          "evidenceIds": [
+            "EVID-CIV-TRANSFORM-ANGKOR-001",
+            "EVID-CIV-TRANSFORM-METHOD-001"
+          ],
+          "sourceIds": [
+            "SRC-PENNY-ANGKOR-NETWORK-2018",
+            "SRC-BUCKLEY-ANGKOR-2010",
+            "SRC-PENNY-ANGKOR-GRADUAL-2019"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rapa-nui",
+      "title": "Rapa Nui",
+      "region": "Polinesia oriental",
+      "window": "c. 1200–1900 d. C.",
+      "archives": [
+        "capas de Anakena",
+        "núcleos lacustres continuos",
+        "15 genomas antiguos",
+        "inventario satelital de huertos de piedra"
+      ],
+      "adversary": "Diamond: los rapanui talaron su bosque, destruyeron su base de recursos y se hundieron en guerra y canibalismo antes del contacto europeo; la isla como advertencia de ecocidio.",
+      "steps": [
+        {
+          "kind": "signal",
+          "status": "condicionado",
+          "observed": "La deforestación ocurrió, pero los núcleos continuos la muestran gradual, en tiempos y ritmos distintos según el sitio, con sequías climáticas y retroalimentaciones además de la acción humana.",
+          "inference": "El bosque se perdió de forma heterogénea por causas humanas y climáticas combinadas.",
+          "limit": "La sustitución abrupta de palmas por gramíneas era un artefacto de un hiato sedimentario.",
+          "claimIds": [
+            "CLAIM-CIV-TRANSFORM-RAPANUI-DEFORESTATION-001"
+          ],
+          "evidenceIds": [
+            "EVID-CIV-TRANSFORM-RAPANUI-001"
+          ],
+          "sourceIds": [
+            "SRC-RULL-RAPANUI-2020"
+          ]
+        },
+        {
+          "kind": "chronology",
+          "status": "condicionado",
+          "observed": "Las capas basales de Anakena y el reanálisis de fechas previas sitúan la colonización hacia 1200 d. C., con impactos ecológicos y estatuaria poco después.",
+          "inference": "El poblamiento fue tardío y el tiempo para un auge y caída prehispánicos, corto.",
+          "limit": "La fecha de colonización se ha seguido revisando; aquí se audita la de 2006.",
+          "claimIds": [
+            "CLAIM-CIV-TRANSFORM-RAPANUI-CHRONOLOGY-001"
+          ],
+          "evidenceIds": [
+            "EVID-CIV-TRANSFORM-RAPANUI-001"
+          ],
+          "sourceIds": [
+            "SRC-HUNT-LIPO-COLONIZATION-2006"
+          ]
+        },
+        {
+          "kind": "depopulation",
+          "status": "no-demostrado",
+          "observed": "Quince genomas fechados entre 1670 y 1950 rechazan un cuello de botella severo en el siglo XVII; los huertos de piedra son mucho menos extensos que lo supuesto y no sostenían las poblaciones grandes del relato.",
+          "inference": "El despoblamiento prehispánico que exige el ecocidio no se sostiene; la pérdida documentada es posterior al contacto.",
+          "limit": "El tamaño efectivo no es un censo; ninguna cifra de población prehispánica se audita aquí.",
+          "claimIds": [
+            "CLAIM-CIV-TRANSFORM-RAPANUI-GENOMES-001",
+            "CLAIM-CIV-TRANSFORM-RAPANUI-POPULATION-001",
+            "CLAIM-CIV-TRANSFORM-RAPANUI-CONTACT-001"
+          ],
+          "evidenceIds": [
+            "EVID-CIV-TRANSFORM-RAPANUI-001"
+          ],
+          "sourceIds": [
+            "SRC-MORENO-MAYAR-RAPANUI-2024",
+            "SRC-DAVIS-RAPANUI-2024",
+            "SRC-PEISER-RAPANUI-2005"
+          ]
+        },
+        {
+          "kind": "institutions",
+          "status": "dato-ausente",
+          "observed": "Las fuentes auditadas aquí no fechan cambios en la organización política ni en la construcción de plataformas y estatuas antes del contacto.",
+          "inference": "No se infiere ni continuidad institucional ni ruptura: el archivo leído no fecha esas instituciones.",
+          "limit": "Hace falta una cronología de la construcción monumental contrastada con la del contacto.",
+          "claimIds": [
+            "CLAIM-CIV-TRANSFORM-SIX-LEVELS-001"
+          ],
+          "evidenceIds": [
+            "EVID-CIV-TRANSFORM-METHOD-001"
+          ],
+          "sourceIds": [
+            "SRC-HUNT-LIPO-COLONIZATION-2006"
+          ]
+        },
+        {
+          "kind": "continuity",
+          "status": "sostenido",
+          "observed": "Los individuos antiguos son polinesios y los más cercanos a los rapanui actuales; antiguos y actuales llevan ~10 % de ancestría nativa americana por una mezcla de 1250–1430.",
+          "inference": "Hay continuidad genética entre los rapanui antiguos y los actuales; el resultado sirve a la repatriación.",
+          "limit": "Muestra de colecciones; mide linajes, no lengua ni cultura.",
+          "claimIds": [
+            "CLAIM-CIV-TRANSFORM-RAPANUI-GENOMES-001"
+          ],
+          "evidenceIds": [
+            "EVID-CIV-TRANSFORM-RAPANUI-001"
+          ],
+          "sourceIds": [
+            "SRC-MORENO-MAYAR-RAPANUI-2024"
+          ]
+        },
+        {
+          "kind": "attribution",
+          "status": "no-demostrado",
+          "observed": "El relato del ecocidio atribuye la caída a la autodestrucción ambiental; la crítica atribuye la catástrofe documentada a la violencia, la esclavitud y las enfermedades posteriores al contacto.",
+          "inference": "La atribución del ecocidio prehispánico está contradicha por la cronología, los genomas y los huertos.",
+          "limit": "La crítica de Peiser es un argumento, no una serie demográfica; la cuantificación de las pérdidas tras el contacto no se audita aquí.",
+          "claimIds": [
+            "CLAIM-CIV-TRANSFORM-DIAMOND-001",
+            "CLAIM-CIV-TRANSFORM-RAPANUI-CONTACT-001"
+          ],
+          "evidenceIds": [
+            "EVID-CIV-TRANSFORM-RAPANUI-001",
+            "EVID-CIV-TRANSFORM-THEORY-001"
+          ],
+          "sourceIds": [
+            "SRC-DIAMOND-COLLAPSE-2005",
+            "SRC-PEISER-RAPANUI-2005",
+            "SRC-MCANANY-YOFFEE-QUESTIONING-2010",
+            "SRC-RULL-RAPANUI-2020"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cahokia",
+      "title": "Cahokia y el Cuarto Vacío",
+      "region": "valle central del Misisipi (Norteamérica)",
+      "window": "c. 1150–1700 d. C.",
+      "archives": [
+        "núcleos de crecidas del Misisipi",
+        "estanoles fecales del lago Horseshoe",
+        "radiocarbono del bajo Ohio",
+        "estrato bajo un montículo"
+      ],
+      "adversary": "La lectura del ecocidio: tala en las tierras altas, erosión e inundaciones habrían vaciado Cahokia y la región.",
+      "steps": [
+        {
+          "kind": "signal",
+          "status": "sostenido",
+          "observed": "Cahokia surgió en un periodo de menos crecidas grandes y su declive siguió a su regreso; hacia 1150 hubo menos lluvia de verano y una crecida.",
+          "inference": "Hubo cambios hidrológicos y de lluvia fechados durante el declive.",
+          "limit": "Correlación fechada (CIV-007); el estrato estudiado no apoya la tala como causa.",
+          "claimIds": [
+            "CLAIM-CIV-URBCOMP-CAHOKIA-DECLINE-001"
+          ],
+          "evidenceIds": [
+            "EVID-CIV-TRANSFORM-CAHOKIA-001"
+          ],
+          "sourceIds": [
+            "SRC-MUNOZ-CAHOKIA-FLOODS-2015",
+            "SRC-WHITE-CAHOKIA-STANOLS-2019",
+            "SRC-RANKIN-CAHOKIA-ECOCIDE-2021"
+          ]
+        },
+        {
+          "kind": "chronology",
+          "status": "condicionado",
+          "observed": "Construcción planificada en 1050–1100, población cerca de −50 % hacia 1200, abandono hacia 1350; en el bajo Ohio, el Cuarto Vacío se fecha en el extremo temprano de 1450–1550.",
+          "inference": "Las secuencias locales están fechadas por fases y radiocarbono.",
+          "limit": "Las fases arqueológicas tienen bordes de décadas; el orden entre regiones no es causal.",
+          "claimIds": [
+            "CLAIM-CIV-TRANSFORM-CAHOKIA-AFTER-001",
+            "CLAIM-CIV-URBCOMP-CAHOKIA-SCALE-001"
+          ],
+          "evidenceIds": [
+            "EVID-CIV-TRANSFORM-CAHOKIA-001"
+          ],
+          "sourceIds": [
+            "SRC-BENSON-CAHOKIA-2009",
+            "SRC-COBB-BUTLER-VACANT-2002"
+          ]
+        },
+        {
+          "kind": "depopulation",
+          "status": "sostenido",
+          "observed": "Los estanoles muestran un mínimo de población regional hacia 1400; el abandono del bajo Ohio fue extendido, también en sitios remotos.",
+          "inference": "Hubo despoblamiento regional medido en dos archivos independientes.",
+          "limit": "Los estanoles miden tendencia relativa, no habitantes; la escala absoluta de Cahokia se disputa.",
+          "claimIds": [
+            "CLAIM-CIV-TRANSFORM-CAHOKIA-AFTER-001",
+            "CLAIM-CIV-URBCOMP-CAHOKIA-SCALE-001"
+          ],
+          "evidenceIds": [
+            "EVID-CIV-TRANSFORM-CAHOKIA-001"
+          ],
+          "sourceIds": [
+            "SRC-WHITE-AFTER-CAHOKIA-2020",
+            "SRC-COBB-BUTLER-VACANT-2002"
+          ]
+        },
+        {
+          "kind": "institutions",
+          "status": "condicionado",
+          "observed": "Cesan la construcción monumental y el centro político de Cahokia; los centros misisipianos del bajo Ohio se abandonan.",
+          "inference": "Terminó una forma de centralidad regional.",
+          "limit": "Qué instituciones existían se infiere de la arquitectura; no hay archivo escrito.",
+          "claimIds": [
+            "CLAIM-CIV-URBCOMP-CAHOKIA-DECLINE-001"
+          ],
+          "evidenceIds": [
+            "EVID-CIV-TRANSFORM-CAHOKIA-001"
+          ],
+          "sourceIds": [
+            "SRC-BENSON-CAHOKIA-2009"
+          ]
+        },
+        {
+          "kind": "continuity",
+          "status": "sostenido",
+          "observed": "La región se repobló hacia 1500 y alcanzó un máximo hacia 1650 con la agricultura de maíz y la caza de bisonte de la Confederación de Illinois, antes de un nuevo descenso hacia 1700.",
+          "inference": "El abandono de un centro no fue el fin de la presencia indígena en su región.",
+          "limit": "Repoblamiento no implica descendencia directa de los habitantes de Cahokia; eso no se mide aquí.",
+          "claimIds": [
+            "CLAIM-CIV-TRANSFORM-CAHOKIA-AFTER-001"
+          ],
+          "evidenceIds": [
+            "EVID-CIV-TRANSFORM-CAHOKIA-001"
+          ],
+          "sourceIds": [
+            "SRC-WHITE-AFTER-CAHOKIA-2020"
+          ]
+        },
+        {
+          "kind": "attribution",
+          "status": "condicionado",
+          "observed": "Crecidas y menos lluvia de verano se correlacionan con el declive; varios estresores ambientales concurrieron con tensiones sociales.",
+          "inference": "El clima y la hidrología son factores contribuyentes plausibles; el ecocidio por tala no se sostiene en el estrato estudiado.",
+          "limit": "Las causas del Cuarto Vacío siguen en debate; la correlación no excluye causas políticas.",
+          "claimIds": [
+            "CLAIM-CIV-URBCOMP-CAHOKIA-DECLINE-001",
+            "CLAIM-CIV-TRANSFORM-COINCIDENCE-001"
+          ],
+          "evidenceIds": [
+            "EVID-CIV-TRANSFORM-CAHOKIA-001",
+            "EVID-CIV-TRANSFORM-METHOD-001"
+          ],
+          "sourceIds": [
+            "SRC-WHITE-CAHOKIA-STANOLS-2019",
+            "SRC-RANKIN-CAHOKIA-ECOCIDE-2021",
+            "SRC-COBB-BUTLER-VACANT-2002"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "roma-occidente",
+      "title": "Roma en Occidente",
+      "region": "Mediterráneo occidental y Europa noroccidental",
+      "window": "siglos II–VII d. C.",
+      "archives": [
+        "plomo en hielo de Groenlandia",
+        "plomo en hielo alpino",
+        "cerámica, tejas, moneda y ganado excavados",
+        "anillos del Altái y los Alpes"
+      ],
+      "adversary": "Ward-Perkins: la «transformación» oculta una caída medible del nivel de vida material en el Occidente posromano; hubo fin de una civilización material, no sólo un cambio cultural.",
+      "steps": [
+        {
+          "kind": "signal",
+          "status": "condicionado",
+          "observed": "El clima fue estable y favorable durante el crecimiento del imperio y se deterioró en la crisis del siglo III; tras erupciones de 536, 540 y 547 hubo un enfriamiento sincrónico hasta ~660.",
+          "inference": "Hubo cambios climáticos fechados durante las crisis del imperio y después.",
+          "limit": "Los autores los proponen como factores contribuyentes; la lista de coincidencias es larga y los mecanismos regionales no se miden.",
+          "claimIds": [
+            "CLAIM-CIV-TRANSFORM-ROME-CLIMATE-001"
+          ],
+          "evidenceIds": [
+            "EVID-CIV-TRANSFORM-ICE-001"
+          ],
+          "sourceIds": [
+            "SRC-MCCORMICK-CLIMATE-ROME-2012",
+            "SRC-BUNTGEN-LALIA-2016"
+          ]
+        },
+        {
+          "kind": "chronology",
+          "status": "sostenido",
+          "observed": "El plomo de Groenlandia, con resolución subanual, sube hasta un máximo bajo el imperio, cae con dos grandes pestes de los siglos II y III y queda bajo más de 500 años; la plata de la moneda baja en paralelo.",
+          "inference": "La caída principal de la producción minera es dos siglos anterior a 476.",
+          "limit": "El plomo mide minería y fundición europeas; la atribución a la peste es por coincidencia anual.",
+          "claimIds": [
+            "CLAIM-CIV-TRANSFORM-ROME-LEAD-001"
+          ],
+          "evidenceIds": [
+            "EVID-CIV-TRANSFORM-ICE-001"
+          ],
+          "sourceIds": [
+            "SRC-MCCONNELL-LEAD-2018"
+          ]
+        },
+        {
+          "kind": "depopulation",
+          "status": "condicionado",
+          "observed": "Las medidas materiales del Occidente de los siglos V–VII muestran menos cerámica, menos tejas y menos moneda; las ciudades se reducen.",
+          "inference": "Hubo pérdida de población urbana y de producción en partes del Occidente.",
+          "limit": "No hay series demográficas comparables entre provincias; la cifra de ganado que circula en reseñas no se verificó.",
+          "claimIds": [
+            "CLAIM-CIV-TRANSFORM-ROME-MATERIAL-001"
+          ],
+          "evidenceIds": [
+            "EVID-CIV-TRANSFORM-ROME-001"
+          ],
+          "sourceIds": [
+            "SRC-WARD-PERKINS-FALL-2005"
+          ]
+        },
+        {
+          "kind": "institutions",
+          "status": "sostenido",
+          "observed": "El imperio deja de gobernar el Occidente; la moneda de uso diario casi desaparece allí; hacia 660 la moneda de plata sustituye a la de oro en el noroeste con nueva minería en Melle.",
+          "inference": "Terminó la administración imperial en Occidente y se reorganizó el sistema monetario.",
+          "limit": "El Oriente romano continuó; «caída de Roma» nombra sólo una parte.",
+          "claimIds": [
+            "CLAIM-CIV-TRANSFORM-ROME-DEBATE-001",
+            "CLAIM-CIV-TRANSFORM-ROME-SILVER-001"
+          ],
+          "evidenceIds": [
+            "EVID-CIV-TRANSFORM-ROME-001",
+            "EVID-CIV-TRANSFORM-ICE-001"
+          ],
+          "sourceIds": [
+            "SRC-WARD-PERKINS-FALL-2005",
+            "SRC-LOVELUCK-SILVER-2018",
+            "SRC-BROWN-LATE-ANTIQUITY-1971"
+          ]
+        },
+        {
+          "kind": "continuity",
+          "status": "condicionado",
+          "observed": "Brown describe una Antigüedad tardía con vitalidad religiosa y cultural y un Oriente que no cayó; el hielo alpino registra una reorganización monetaria en el siglo VII.",
+          "inference": "Hubo continuidad y transformación de instituciones religiosas, culturales y económicas.",
+          "limit": "Brown y Ward-Perkins miden objetos distintos; la continuidad cultural no compensa la pérdida material.",
+          "claimIds": [
+            "CLAIM-CIV-TRANSFORM-ROME-DEBATE-001",
+            "CLAIM-CIV-TRANSFORM-ROME-SILVER-001"
+          ],
+          "evidenceIds": [
+            "EVID-CIV-TRANSFORM-ROME-001",
+            "EVID-CIV-TRANSFORM-ICE-001"
+          ],
+          "sourceIds": [
+            "SRC-BROWN-LATE-ANTIQUITY-1971",
+            "SRC-LOVELUCK-SILVER-2018"
+          ]
+        },
+        {
+          "kind": "attribution",
+          "status": "no-demostrado",
+          "observed": "Pestes, guerras, clima, invasiones y fragmentación política coinciden en los siglos II–VII; cada archivo mide una serie distinta.",
+          "inference": "Ninguna causa única queda demostrada; la pérdida material está medida y su explicación es plural.",
+          "limit": "Coincidencias anuales en el hielo no prueban mecanismos regionales.",
+          "claimIds": [
+            "CLAIM-CIV-TRANSFORM-ROME-CLIMATE-001",
+            "CLAIM-CIV-TRANSFORM-COINCIDENCE-001",
+            "CLAIM-CIV-TRANSFORM-LOSSES-REAL-001"
+          ],
+          "evidenceIds": [
+            "EVID-CIV-TRANSFORM-ICE-001",
+            "EVID-CIV-TRANSFORM-SYNTHESIS-001"
+          ],
+          "sourceIds": [
+            "SRC-MCCONNELL-LEAD-2018",
+            "SRC-BUNTGEN-LALIA-2016",
+            "SRC-HALDON-CONSILIENCE-2018",
+            "SRC-WARD-PERKINS-FALL-2005"
+          ]
+        }
+      ]
+    }
+  ]
+}

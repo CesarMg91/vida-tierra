@@ -12,6 +12,7 @@ import CivilizationDomesticationsLab from "../../components/CivilizationDomestic
 import CivilizationUrbanismsLab from "../../components/CivilizationUrbanismsLab";
 import CivilizationScriptsLab from "../../components/CivilizationScriptsLab";
 import CivilizationEmpiresLab from "../../components/CivilizationEmpiresLab";
+import CivilizationTransformationsLab from "../../components/CivilizationTransformationsLab";
 import { chronologyLanes, civilizationCases } from "../../lib/civilizations";
 import { civilizationDating } from "../../lib/civilization-dating";
 import { civilizationIdentities } from "../../lib/civilization-identities";
@@ -21,6 +22,7 @@ import { civilizationDomestications } from "../../lib/civilization-domestication
 import { civilizationUrbanisms } from "../../lib/civilization-urbanisms";
 import { civilizationScripts } from "../../lib/civilization-scripts";
 import { civilizationEmpires } from "../../lib/civilization-empires";
+import { civilizationTransformations } from "../../lib/civilization-transformations";
 import { getCivilizationMapData } from "../../lib/civilization-map";
 import { getCatalog } from "../../lib/public-data";
 import { createPageMetadata } from "../../lib/site";
@@ -232,6 +234,17 @@ export default function CivilizationsPage() {
           <p>Elige un caso —Acadia y Ur III, Asiria, Persia aqueménida, Qin y Han, Roma, el Tawantinsuyu, la Triple Alianza mexica o Mali y Songhai— y recorre siete dimensiones: reclamación, presencia, logística, tributo, archivo, negociación y control efectivo. Ningún caso tiene el control sostenido sobre todo lo que reclamaba, y un archivo denso no es un dominio extenso.</p>
         </div>
         <CivilizationEmpiresLab data={civilizationEmpires} />
+      </section>
+
+      <section className="civilization-dating-section" aria-labelledby="transformations-title">
+        <div className="section-heading">
+          <div>
+            <p className="eyebrow">Transformaciones y persistencias</p>
+            <h2 id="transformations-title">Lo que se rompe y lo que sigue</h2>
+          </div>
+          <p>Elige un caso —el fin del Bronce en el Mediterráneo oriental, la desurbanización del Indo, los mayas clásicos del sur, Angkor, Rapa Nui, Cahokia o Roma en Occidente— y recorre seis niveles: señal climática o ambiental, cronología fina, despoblamiento, cambio institucional, continuidad y atribución causal. En ninguno la atribución está sostenida, en todos alguien siguió, y coincidir en el tiempo no es causar.</p>
+        </div>
+        <CivilizationTransformationsLab data={civilizationTransformations} />
       </section>
 
       <section className="civilization-chronology-section" aria-labelledby="chronology-title">

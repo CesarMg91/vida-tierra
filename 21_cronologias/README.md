@@ -18,6 +18,8 @@ Cronologías regionales o temáticas y matrices de correlación. La vista global
 
 - [`CRONOLOGIA_CIV_009_ESTADOS_IMPERIOS_CONTROL_DESIGUAL.md`](CRONOLOGIA_CIV_009_ESTADOS_IMPERIOS_CONTROL_DESIGUAL.md) — siete carriles regionales y uno de métodos, con el objeto fechado o modelado en cada fila y sin escalera de imperios — **AUDITADO**.
 
+- [`CRONOLOGIA_CIV_010_TRANSFORMACIONES_FRAGMENTACIONES_PERSISTENCIAS.md`](CRONOLOGIA_CIV_010_TRANSFORMACIONES_FRAGMENTACIONES_PERSISTENCIAS.md) — siete carriles regionales y uno de métodos, con señales climáticas y cambios sociales en filas separadas y sin «fecha del colapso» — **AUDITADO**.
+
 ## Medicina
 
 - [`CRONOLOGIA_MED_008_ROMA_BIZANCIO_MEDITERRANEO_TARDIO.md`](CRONOLOGIA_MED_008_ROMA_BIZANCIO_MEDITERRANEO_TARDIO.md) — organización, infraestructura, corpus, hospitales y redes por carriles no heredables — **AUDITADO**.

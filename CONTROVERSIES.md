@@ -4148,3 +4148,67 @@ Niani fue durante un siglo la capital propuesta; la arqueología la descarta par
 | `CONT-CIV-EMPREACH-AKKAD-FIRST-EMPIRE-001` | Acadia | gobernadores del rey | novedad imperial discutida | abierta | C |
 | `CONT-CIV-EMPREACH-INKA-INTERFERENCE-001` | incorporación inca | reubicación aun sin resistencia | poca interferencia | abierta | B-COND |
 | `CONT-CIV-EMPREACH-MALI-CAPITAL-001` | capital de Mali | sedes móviles; Niani descartada | capital fija no hallada | abierta | C |
+
+## CIV-010 — Controversias de transformaciones y «colapsos»
+
+### CONT-CIV-TRANSFORM-COLLAPSE-CONCEPT-001 — ¿Es «colapso» una categoría explicativa?
+
+Tainter define el colapso como pérdida de complejidad y Diamond lo convierte en advertencia ambiental; McAnany, Yoffee, Middleton y Butzer responden con resiliencia, regeneración y multicausalidad.
+
+**Prueba discriminatoria:** medidas de complejidad (instituciones, redes, especialización) y de población fechadas antes, durante y después de cada episodio, con continuidad buscada con la misma intensidad que la ruptura.
+
+### CONT-CIV-TRANSFORM-CLIMATE-DRIVER-001 — El clima abrupto como motor de colapsos
+
+Weiss y Bradley sostienen que el clima abrupto impulsa colapsos con abandono regional; Degroot, Haldon y Lawrence piden mecanismos, efectos locales y heterogeneidad, y encuentran vías de supervivencia.
+
+**Prueba discriminatoria:** muchos casos independientes con sequías fechadas y localizadas en los que se compare si los lugares más secos se despueblan antes y más que los húmedos.
+
+### CONT-CIV-TRANSFORM-LBA-CAUSE-001 — Causas del fin del Bronce
+
+Cline propone un colapso de sistemas por fallos interconectados; Kaniewski liga sequía e invasiones; Nur y Cline, terremotos; Knapp y Manning niegan una explicación global y critican las cronologías sobreprecisas.
+
+**Prueba discriminatoria:** cronologías de destrucción por sitio con daño sísmico, señal climática local y evidencia de conflicto fechados en la misma fase.
+
+### CONT-CIV-TRANSFORM-INDUS-MONSOON-001 — Monzón y desurbanización del Indo
+
+La sequía de `4.2–4.1 ka` habría desurbanizado el Indo; la adaptación a ecologías variables y la incertidumbre de fechado lo vuelven condicional.
+
+**Prueba discriminatoria:** secuencias de radiocarbono por valle con incertidumbres de decenios y proxies junto a los sitios, que fijen el orden entre sequía y desnucleación.
+
+### CONT-CIV-TRANSFORM-MAYA-DROUGHT-001 — Sequía y despoblamiento maya
+
+La sequía del Clásico Terminal está medida; su papel como causa principal frente a guerra, balcanización y decisiones políticas sigue discutido.
+
+**Prueba discriminatoria:** registros climáticos del sur con resolución anual comparados con fechas de abandono de sitios no monumentales.
+
+### CONT-CIV-TRANSFORM-ANGKOR-TEMPO-001 — Diáspora abrupta o declive gradual en Angkor
+
+Un modelo enfatiza una diáspora urbana tras la implosión del control estatal y la variabilidad hidroclimática; los núcleos de Angkor Thom y las fechas de Angkor Wat muestran un declive prolongado y reocupación.
+
+**Prueba discriminatoria:** núcleos fechados en otros sectores del complejo y en las nuevas sedes del sur que fijen cuándo creció su población.
+
+### CONT-CIV-TRANSFORM-RAPANUI-ECOCIDE-001 — Ecocidio en Rapa Nui
+
+Diamond sostiene una autodestrucción prehispánica; la cronología tardía, la deforestación gradual, los genomas sin cuello de botella y los huertos menores la contradicen y desplazan la catástrofe al contacto.
+
+**Prueba discriminatoria:** genomas de los siglos XVI–XVII y cronologías de construcción monumental contrastadas con la fecha del contacto.
+
+### CONT-CIV-TRANSFORM-ROME-FALL-001 — Caída o transformación de Roma en Occidente
+
+Ward-Perkins mide una caída del nivel de vida material; Brown y la Antigüedad tardía describen una transformación religiosa y cultural con un Oriente que continuó.
+
+**Prueba discriminatoria:** series regionales de producción, consumo y población del Occidente de los siglos IV–VII medidas con los mismos criterios en varias provincias.
+
+
+### Índice tabular CIV-010
+
+| ID | Tema | Explicación dominante o práctica | Alternativa fuerte | Estado | Confianza en la síntesis |
+|---|---|---|---|---|---|
+| `CONT-CIV-TRANSFORM-COLLAPSE-CONCEPT-001` | colapso como categoría | niveles separados; resiliencia | pérdida de complejidad como ley | abierta | B síntesis |
+| `CONT-CIV-TRANSFORM-CLIMATE-DRIVER-001` | clima y colapso | factor por caso | motor general | abierta | B-COND |
+| `CONT-CIV-TRANSFORM-LBA-CAUSE-001` | fin del Bronce | contextos múltiples | tormenta perfecta | abierta | C |
+| `CONT-CIV-TRANSFORM-INDUS-MONSOON-001` | Indo | causa condicional | sequía como causa | abierta | B-COND señal; C causa |
+| `CONT-CIV-TRANSFORM-MAYA-DROUGHT-001` | mayas del sur | sequía contribuyente | sequía como causa principal | abierta | B-COND |
+| `CONT-CIV-TRANSFORM-ANGKOR-TEMPO-001` | Angkor | declive gradual y traslado | diáspora abrupta | abierta | B |
+| `CONT-CIV-TRANSFORM-RAPANUI-ECOCIDE-001` | Rapa Nui | sin ecocidio demográfico prehispánico | autodestrucción | abierta | B |
+| `CONT-CIV-TRANSFORM-ROME-FALL-001` | Roma en Occidente | pérdida material y transformación | sólo transformación o sólo caída | abierta | B síntesis |

@@ -75,6 +75,6 @@ La numeración futura se asignará al iniciar cada expediente para no crear IDs 
 7. [`INV-CIV-URBANISMS-001`](INVESTIGACION_CIV_007_URBANISMOS_COMPARADOS.md) — urbanismos comparados: Mesopotamia, Indo, China, Mesoamérica, Andes, África y Norteamérica — **AUDITADO como CIV-007**.
 8. [`INV-CIV-SCRIPTS-001`](INVESTIGACION_CIV_008_ESCRITURAS_NOTACIONES_ORALIDAD.md) — escrituras, notaciones, oralidad y archivos administrativos sin jerarquía cognitiva — **AUDITADO como CIV-008**.
 9. [`INV-CIV-EMPIRES-001`](INVESTIGACION_CIV_009_ESTADOS_IMPERIOS_CONTROL_DESIGUAL.md) — Estados e imperios: reclamación, logística, negociación y control desigual — **AUDITADO como CIV-009**.
-10. Transformaciones, fragmentaciones y persistencias sin «colapso de la civilización» como explicación.
+10. [`INV-CIV-TRANSFORMATIONS-001`](INVESTIGACION_CIV_010_TRANSFORMACIONES_FRAGMENTACIONES_PERSISTENCIAS.md) — transformaciones, fragmentaciones y persistencias sin «colapso de la civilización» como explicación — **AUDITADO como CIV-010**. Con él, los diez puntos del programa están auditados.
 
 Cada expediente regional deberá incorporar especialistas, instituciones patrimoniales y, cuando corresponda, comunidades de la región estudiada. Una síntesis global no sustituirá excavaciones ni ediciones críticas locales.

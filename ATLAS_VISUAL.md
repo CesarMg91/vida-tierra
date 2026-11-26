@@ -1966,3 +1966,26 @@ Generada por el proyecto sin modelos de imagen: `node scripts/generate-civ-009-v
 ### Revisión y límites
 
 Las tres salidas se inspeccionaron completas tras rasterizar. La portada evita a propósito contornos reconocibles de cualquier imperio, mapas reales, personas y texto: no ilustra Estados concretos, sino que una mancha reclamada se deshace en caminos, puntos y huecos al mirarla de cerca. La retícula de fondo es genérica y no corresponde a ninguna proyección. Los SVG de cadena y matriz se diseñaron a `1600 × 900` con `title` y `desc`; la matriz se regenera desde el módulo público para que ambos no diverjan.
+
+## 100. CIV-010 — Lo que se rompe y lo que sigue
+
+![Portada editorial de CIV-010](assets/visuales/hero-civ-010-transformaciones-persistencias.png)
+
+![Cadena de seis niveles de un «colapso»](assets/visuales/cadena-niveles-colapso-civ-010.svg)
+
+![Matriz de siete casos por seis niveles](assets/visuales/matriz-casos-niveles-civ-010.svg)
+
+| Archivo | Tipo | Procedencia | Qué representa | Límite obligatorio |
+|---|---|---|---|---|
+| `hero-civ-010-transformaciones-persistencias.png` | portada editorial generativa | rasterizado con `sharp` de `hero-civ-010-transformaciones-persistencias.svg` mediante `node scripts/generate-civ-010-visuals.mjs --png`, 2026-11-26 | siete hilos de grosor variable que se deshacen en puntos y continúan más delgados, a otra altura o con una rama nueva, bajo una franja ondulante de señal que no los toca | no serie de datos, mapa, persona ni texto; la franja no es un registro climático real |
+| `hero-civ-010-transformaciones-persistencias.svg` | fuente generativa determinista | SVG producido por `scripts/generate-civ-010-visuals.mjs` con semilla fija | misma composición en vectores | formas genéricas sin información histórica |
+| `cadena-niveles-colapso-civ-010.svg` | diagrama epistemológico original | SVG producido por `scripts/generate-civ-010-visuals.mjs`, 2026-11-26 | seis niveles de un «colapso» con su instrumento y lo que cada uno no hereda | el orden de lectura no es una secuencia causal |
+| `matriz-casos-niveles-civ-010.svg` | matriz epistemológica original | SVG producido por `scripts/generate-civ-010-visuals.mjs` desde `content/civilization-transformations.json`, 2026-11-26 | siete casos por seis niveles con su estado | el estado es del archivo, no una calificación de la sociedad |
+
+### Procedencia de la portada
+
+Generada por el proyecto sin modelos de imagen: `node scripts/generate-civ-010-visuals.mjs --png` escribe el SVG con la semilla `10010` y lo rasteriza con `sharp` a `1672 × 941`. Tamaño: `254777` bytes; SHA-256: `5d26cac6a11b6af0863e975a3dff0c1cc3ef7412b26c5ff26848e5b3a15ecba3`.
+
+### Revisión y límites
+
+Las tres salidas se inspeccionaron completas tras rasterizar. La portada evita a propósito curvas que puedan leerse como series reales de lluvia, población o producción, mapas, personas y texto: los hilos no corresponden a casos concretos ni su grosor a una cifra, y la franja superior no reproduce ningún proxy. Los SVG de cadena y matriz se diseñaron a `1600 × 900` con `title` y `desc`; la matriz se regenera desde el módulo público para que ambos no diverjan.

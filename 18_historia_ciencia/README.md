@@ -70,3 +70,5 @@ Historia de cómo se reconstruyó la historia: creencias previas, evidencia disr
 - [`HISTORIA_CIV_008_ESCRITURAS_NOTACIONES_ORALIDAD.md`](HISTORIA_CIV_008_ESCRITURAS_NOTACIONES_ORALIDAD.md) — del alfabeto como cima a la prueba de lectura: Knorozov, fichas, Gran División, estadística, quipus y rongorongo fechado — **AUDITADO**.
 
 - [`HISTORIA_CIV_009_ESTADOS_IMPERIOS_CONTROL_DESIGUAL.md`](HISTORIA_CIV_009_ESTADOS_IMPERIOS_CONTROL_DESIGUAL.md) — del mapa coloreado al costo de llegar: poder infraestructural, prospección provincial, ORBIS, khipus leídos contra padrones y crítica de crónicas — **AUDITADO**.
+
+- [`HISTORIA_CIV_010_TRANSFORMACIONES_FRAGMENTACIONES_PERSISTENCIAS.md`](HISTORIA_CIV_010_TRANSFORMACIONES_FRAGMENTACIONES_PERSISTENCIAS.md) — del colapso como destino a la secuencia medida: teorías del colapso, su respuesta crítica, cronologías ancladas, proxies junto a los sitios, genomas y plomo en hielo — **AUDITADO**.

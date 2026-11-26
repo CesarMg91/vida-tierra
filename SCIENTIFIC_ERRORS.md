@@ -5181,3 +5181,67 @@ Una crónica editada se usa como acta de los hechos que narra sin examinar sus m
 | `ERR-CIV-EMPREACH-CROWFLIES-001` | distancia = costo | mapa = conexión | modelo de transporte | DOCUMENTADO |
 | `ERR-CIV-EMPREACH-LIMES-WALL-001` | limes = muralla | frontera = borde del control | funciones de guarnición | DOCUMENTADO |
 | `ERR-CIV-EMPREACH-LATE-CHRONICLE-001` | crónica = acta | edición = texto original | crítica de manuscritos | DOCUMENTADO |
+
+## CIV-010 — Errores científicos que el estudio de las transformaciones debe evitar
+
+### ERR-CIV-TRANSFORM-COINCIDENCE-001 — Coincidencia temporal igual a mecanismo
+
+Una sequía y un abandono en el mismo siglo se presentan como causa y efecto.
+
+**Corrección:** exigir lugar, intervalo con incertidumbre declarada, vía de exposición y alternativa descartada; en el Indo las dos series sólo se solapan dentro de sus rangos.
+
+### ERR-CIV-TRANSFORM-DISAPPEARANCE-001 — Colapso igual a desaparición de un pueblo
+
+El fin de un sistema político se narra como la extinción de la gente que lo habitaba.
+
+**Corrección:** buscar continuidad poblacional, lingüística y de asentamiento; Mayapán, Nojpetén, las lenguas mayas y los genomas rapanui la muestran.
+
+### ERR-CIV-TRANSFORM-ELITE-SILENCE-001 — Silencio de los monumentos igual a despoblamiento
+
+El cese de inscripciones fechadas o de construcción monumental se lee como abandono de la región.
+
+**Corrección:** medir la ocupación no monumental; en Yok Balum un siglo separa la desintegración de las cortes del colapso demográfico.
+
+### ERR-CIV-TRANSFORM-SINGLE-DATE-001 — Fecha de un acontecimiento igual a fecha de un colapso regional
+
+Un año (`1177 a. C.`, `1431`, `476`) se usa como fecha del fin de un sistema extendido.
+
+**Corrección:** cronologías por sitio; en el Levante los cambios van de mediados del XIII al XII, en Angkor Thom el declive empieza en el XIV y el plomo romano cae en el II–III.
+
+### ERR-CIV-TRANSFORM-DISTANT-PROXY-001 — Proxy lejano igual a clima del sitio
+
+Un registro marino o de otra cuenca se usa como clima del lugar habitado.
+
+**Corrección:** proxies junto a los sitios; Kotla Dahar para el Indo y las ceras vegetales del sur para los mayas.
+
+### ERR-CIV-TRANSFORM-ECOCIDE-NARRATIVE-001 — Deforestación igual a ecocidio
+
+La pérdida del bosque se convierte en relato moral de autodestrucción con colapso demográfico.
+
+**Corrección:** cronología, núcleos continuos y demografía independiente; en Rapa Nui la deforestación fue gradual y los genomas rechazan el cuello de botella.
+
+### ERR-CIV-TRANSFORM-CAPITAL-SOCIETY-001 — Capital abandonada igual a sociedad desaparecida
+
+El abandono de una capital o de un centro se lee como fin de la entidad política o de la población regional.
+
+**Corrección:** seguir las sedes posteriores y la ocupación regional; Angkor trasladó su centro al sur y la región de Cahokia se repobló.
+
+### ERR-CIV-TRANSFORM-WEST-FOR-EMPIRE-001 — Fin del Occidente igual a fin de Roma
+
+La deposición del último emperador de Occidente se toma como fin del imperio y de su civilización.
+
+**Corrección:** separar Occidente y Oriente y medir producción, instituciones y continuidad por región.
+
+
+### Índice tabular CIV-010
+
+| ID | Caso | Supuesto que falló | Mecanismo de corrección | Estado |
+|---|---|---|---|---|
+| `ERR-CIV-TRANSFORM-COINCIDENCE-001` | coincidencia = causa | sincronía = mecanismo | puente de cuatro condiciones | DOCUMENTADO |
+| `ERR-CIV-TRANSFORM-DISAPPEARANCE-001` | colapso = extinción | sistema = pueblo | continuidad medida | DOCUMENTADO |
+| `ERR-CIV-TRANSFORM-ELITE-SILENCE-001` | sin monumentos = sin gente | corte = población | ocupación no monumental | DOCUMENTADO |
+| `ERR-CIV-TRANSFORM-SINGLE-DATE-001` | un año = el colapso | acontecimiento = proceso | cronología por sitio | DOCUMENTADO |
+| `ERR-CIV-TRANSFORM-DISTANT-PROXY-001` | proxy lejano = clima local | cuenca = sitio | proxies junto a los sitios | DOCUMENTADO |
+| `ERR-CIV-TRANSFORM-ECOCIDE-NARRATIVE-001` | deforestación = ecocidio | relato moral = demografía | genomas y núcleos continuos | DOCUMENTADO |
+| `ERR-CIV-TRANSFORM-CAPITAL-SOCIETY-001` | capital = sociedad | sede = entidad | sedes y ocupación posteriores | DOCUMENTADO |
+| `ERR-CIV-TRANSFORM-WEST-FOR-EMPIRE-001` | Occidente = Roma | parte = todo | medida por región | DOCUMENTADO |

@@ -477,7 +477,7 @@ Las fechas pertenecen a objetos, muestras, fases o publicaciones. No son estacio
 
 ## Próxima acción de la línea CIV
 
-CIV-003 inaugura los expedientes regionales auditados y CIV-004 los continúa con el Nilo y África nororiental (sección «CIV-004» al final de este archivo). CIV-005 fija la cadena de nombres e identidades que esos expedientes aplican (sección «CIV-005» al final de este archivo). CIV-001 conserva `TRAZADO`; la secuencia global `001–052` permanece completa. CIV-006 audita el sexto: domesticaciones y aldeas de Asia oriental, Nueva Guinea, África y Américas por archivos regionales (sección «CIV-006» al final de este archivo). CIV-007 audita el séptimo: urbanismos comparados de Mesopotamia, el Indo, China, Mesoamérica, los Andes, África y Norteamérica en siete dimensiones (sección «CIV-007» al final de este archivo). CIV-008 audita el octavo: escrituras, notaciones, oralidad y archivos administrativos en seis niveles —signo, sistema, lengua codificada, función, institución y desciframiento— (sección «CIV-008» al final de este archivo). CIV-009 audita el noveno: Estados e imperios separados en reclamación, presencia, logística, tributo, archivo, negociación y control efectivo (sección «CIV-009» al final de este archivo). El siguiente es el décimo: transformaciones, fragmentaciones y persistencias sin «colapso de la civilización» como explicación.
+CIV-003 inaugura los expedientes regionales auditados y CIV-004 los continúa con el Nilo y África nororiental (sección «CIV-004» al final de este archivo). CIV-005 fija la cadena de nombres e identidades que esos expedientes aplican (sección «CIV-005» al final de este archivo). CIV-001 conserva `TRAZADO`; la secuencia global `001–052` permanece completa. CIV-006 audita el sexto: domesticaciones y aldeas de Asia oriental, Nueva Guinea, África y Américas por archivos regionales (sección «CIV-006» al final de este archivo). CIV-007 audita el séptimo: urbanismos comparados de Mesopotamia, el Indo, China, Mesoamérica, los Andes, África y Norteamérica en siete dimensiones (sección «CIV-007» al final de este archivo). CIV-008 audita el octavo: escrituras, notaciones, oralidad y archivos administrativos en seis niveles —signo, sistema, lengua codificada, función, institución y desciframiento— (sección «CIV-008» al final de este archivo). CIV-009 audita el noveno: Estados e imperios separados en reclamación, presencia, logística, tributo, archivo, negociación y control efectivo (sección «CIV-009» al final de este archivo). CIV-010 audita el décimo y último: transformaciones, fragmentaciones y persistencias separadas en señal ambiental, cronología fina, despoblamiento, cambio institucional, continuidad y atribución causal, sin «colapso de la civilización» como explicación (sección «CIV-010» al final de este archivo). Con él, el programa CIV queda completo (1–10).
 
 ## XIII. MED-001 — Historia de herramientas para estimar efectos
 
@@ -1793,3 +1793,33 @@ Cada fecha pertenece a un objeto fechado, medido o modelado. Ninguna marca el «
 | `TIME-CIV-EMPREACH-MENDOZA-001` | `c. 1542` | copia de la Matrícula como segunda parte del Códice Mendoza | — | `SRC-BATALLA-MATRICULA-2007` | B | AUDITADO |
 | `TIME-CIV-EMPREACH-SONGHAY-1591-001` | `1591` | invasión marroquí y fin del imperio songhai | — | `SRC-GOMEZ-DOMINION-2018` | B | AUDITADO |
 | `TIME-CIV-EMPREACH-TARIKH-SUDAN-001` | siglo XVII | *Tārīkh al-sūdān* de al-Saʿdī | crónica posterior a sus hechos tempranos | `SRC-HUNWICK-TIMBUKTU-1999` | B | AUDITADO |
+
+## CIV-010 — Transformaciones, fragmentaciones y persistencias sin «colapso de la civilización»
+
+Cada fecha pertenece a un objeto fechado, medido o modelado. Una señal climática y un cambio social con fechas cercanas no forman una relación causal, y ninguna fila marca «el colapso» de una civilización.
+
+| ID | Fecha/intervalo | Evento delimitado | Incertidumbre | Fuente | Confianza | Estado |
+|---|---:|---|---|---|---|---|
+| `TIME-CIV-TRANSFORM-LEILAN-001` | `c. 2200 a. C.` | aridez abrupta y abandono de Tell Leilan y su región | atribución a Acadia disputada | `SRC-WEISS-SUBIR-1993` | B-COND | AUDITADO |
+| `TIME-CIV-TRANSFORM-GALILEE-DRY-001` | `c. 1250–1100 a. C.` | fase más seca de las edades del Bronce y del Hierro en el polen del mar de Galilea | una muestra cada `~40` años | `SRC-LANGGUT-GALILEE-2013` | B | AUDITADO |
+| `TIME-CIV-TRANSFORM-HITTITE-DROUGHT-001` | `1198–1196 (±3) a. C.` | sequía continua excepcional en enebros de Anatolia central | `±3` años | `SRC-MANNING-HITTITE-2023` | B | AUDITADO |
+| `TIME-CIV-TRANSFORM-GIBALA-001` | `1192–1190 a. C.` | destrucciones terminales del norte del Levante en Gibala–Tell Tweini | radiocarbono anclado | `SRC-KANIEWSKI-SEAPEOPLES-2011` | B | AUDITADO |
+| `TIME-CIV-TRANSFORM-ASHKELON-001` | Hierro temprano | mezcla relacionada con Europa en Ascalón que no persiste | `n = 10` | `SRC-FELDMAN-ASHKELON-2019` | B-LOCAL | AUDITADO |
+| `TIME-CIV-TRANSFORM-KOTLA-001` | `c. 4.1 ka` | monzón de verano debilitado en Kotla Dahar (`+4‰`) | incertidumbre de fechado declarada | `SRC-DIXIT-KOTLA-2014` | B | AUDITADO |
+| `TIME-CIV-TRANSFORM-MAYA-WET-001` | `440–660 d. C.` | lluvias altas en Yok Balum; expansión y proliferación de centros | serie política de monumentos | `SRC-KENNETT-YOKBALUM-2012` | B-COND | AUDITADO |
+| `TIME-CIV-TRANSFORM-MAYA-DRY-001` | `660–1000 d. C.` | tendencia seca; balcanización, guerra y desintegración asincrónica | ídem | `SRC-KENNETT-YOKBALUM-2012` | B-COND | AUDITADO |
+| `TIME-CIV-TRANSFORM-CHICHANCANAB-001` | `800–1000 d. C.` | intervalo más seco del Holoceno medio y tardío; lluvia `−41` a `−54 %` | magnitud según proxy | `SRC-HODELL-CHICHANCANAB-1995`, `SRC-EVANS-GYPSUM-2018` | B | AUDITADO |
+| `TIME-CIV-TRANSFORM-MAYA-POPULATION-001` | `1020–1100 d. C.` | sequía prolongada y colapso de población según Yok Balum | un registro | `SRC-KENNETT-YOKBALUM-2012` | B-COND | AUDITADO |
+| `TIME-CIV-TRANSFORM-MAYAPAN-001` | `1400–1450 cal d. C.` | conflicto civil correlacionado con sequía en Mayapán | correlación | `SRC-KENNETT-MAYAPAN-2022` | B-COND | AUDITADO |
+| `TIME-CIV-TRANSFORM-NOJPETEN-001` | `1697` | conquista del reino itzá de Nojpetén | — | `SRC-JONES-ITZA-1998` | B | AUDITADO |
+| `TIME-CIV-TRANSFORM-ANGKOR-POP-001` | siglo XIII | `700 000–900 000` habitantes modelados en Greater Angkor | modelo | `SRC-KLASSEN-ANGKOR-POP-2021` | B-COND | AUDITADO |
+| `TIME-CIV-TRANSFORM-ANGKOR-THOM-001` | primeras décadas–fines del siglo XIV | declive del núcleo de Angkor Thom y foso sin mantenimiento | núcleos fechados | `SRC-PENNY-ANGKOR-GRADUAL-2019` | B | AUDITADO |
+| `TIME-CIV-TRANSFORM-ANGKOR-WAT-001` | fines del XIV–siglos XVII/XVIII | reocupación de Angkor Wat | fechas modeladas | `SRC-CARTER-ANGKORWAT-2019` | B | AUDITADO |
+| `TIME-CIV-TRANSFORM-RAPANUI-SETTLEMENT-001` | `c. 1200 d. C.` | colonización tardía de Rapa Nui | revisiones posteriores no auditadas | `SRC-HUNT-LIPO-COLONIZATION-2006` | B-COND | AUDITADO |
+| `TIME-CIV-TRANSFORM-RAPANUI-ADMIXTURE-001` | `1250–1430 d. C.` | mezcla con nativos americanos (`~10 %`) | modelo bayesiano | `SRC-MORENO-MAYAR-RAPANUI-2024` | B-COND | AUDITADO |
+| `TIME-CIV-TRANSFORM-CAHOKIA-MIN-001` | `c. 1400` | mínimo de población en la región de Cahokia | tendencia relativa | `SRC-WHITE-AFTER-CAHOKIA-2020` | B-COND | AUDITADO |
+| `TIME-CIV-TRANSFORM-VACANT-QUARTER-001` | extremo temprano de `1450–1550` | abandono del bajo Ohio (Cuarto Vacío) | radiocarbono regional | `SRC-COBB-BUTLER-VACANT-2002` | B | AUDITADO |
+| `TIME-CIV-TRANSFORM-ILLINOIS-001` | `c. 1650` | máximo de población regional con la Confederación de Illinois | tendencia relativa | `SRC-WHITE-AFTER-CAHOKIA-2020` | B-COND | AUDITADO |
+| `TIME-CIV-TRANSFORM-ROME-LEAD-001` | siglos II–III d. C. | caída de las emisiones de plomo con dos grandes pestes; bajas más de `500` años | atribución por coincidencia | `SRC-MCCONNELL-LEAD-2018` | B | AUDITADO |
+| `TIME-CIV-TRANSFORM-LALIA-001` | `536–~660 d. C.` | Pequeña Edad de Hielo de la Antigüedad tardía | factor contribuyente propuesto | `SRC-BUNTGEN-LALIA-2016` | B | AUDITADO |
+| `TIME-CIV-TRANSFORM-MELLE-001` | `c. 660 d. C.` | moneda de plata con nueva minería (probablemente Melle) | noroeste de Europa | `SRC-LOVELUCK-SILVER-2018` | B-LOCAL | AUDITADO |
