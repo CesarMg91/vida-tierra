@@ -1367,3 +1367,14 @@ La portada no usa modelos de imagen: se regenera idéntica con `node scripts/gen
 | `capas-informe-funcion-con-008.svg` | `scripts/generate-con-008-visuals.mjs` | `1600 × 900` | código fuente versionado | síntesis del expediente; no es una guía de inducción ni de interpretación de sueños |
 
 La portada no usa modelos de imagen: se regenera idéntica con `node scripts/generate-con-008-visuals.mjs --png`. Los SVG incluyen `title` y `desc`.
+
+## CON-009 — Meditación
+
+| Archivo | Origen | Dimensiones | SHA-256 / trazabilidad | Límite |
+|---|---|---:|---|---|
+| `hero-con-009-meditacion.png` | rasterizado con `sharp` por `scripts/generate-con-009-visuals.mjs --png`, 2026-11-26 | `1672 × 941` | `50b88f5506108f3c44a328504facc34e07398049800814a905eda0324ce1292f` | composición abstracta; no representa un cerebro, un EEG, una experiencia ni un dato |
+| `hero-con-009-meditacion.svg` | `scripts/generate-con-009-visuals.mjs`, semilla fija | `1672 × 941` | código fuente versionado | arcos y puntos sin información |
+| `cadena-practica-metafisica-con-009.svg` | `scripts/generate-con-009-visuals.mjs` | `1600 × 900` | código fuente versionado | seis pasos inferenciales; no herencia automática |
+| `capas-practica-metafisica-con-009.svg` | `scripts/generate-con-009-visuals.mjs` | `1600 × 900` | código fuente versionado | síntesis del expediente; no es una guía de meditación ni una recomendación clínica |
+
+La portada no usa modelos de imagen: se regenera idéntica con `node scripts/generate-con-009-visuals.mjs --png`. Los SVG incluyen `title` y `desc`.

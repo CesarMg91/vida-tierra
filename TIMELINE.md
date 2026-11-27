@@ -1924,3 +1924,24 @@ Cada fecha pertenece a un objeto fechado, medido o modelado. Una señal climáti
 | `TIME-CON-DREAM-RESPONSIVENESS-2023-001` | 2023 | respuestas a palabras en casi todas las fases y fuentes de memoria a lo largo de la noche | hallazgo empírico e informe | `SRC-CON-DREAM-TURKER-2023`, `SRC-CON-DREAM-PICARD-DELAND-2023` | A publicación | AUDITADO |
 | `TIME-CON-DREAM-TLR-2024-001` | octubre de 2024 | señales sonoras en casa con noches de control cegadas | intervención | `SRC-CON-DREAM-KONKOLY-2024` | B | AUDITADO |
 | `TIME-CON-DREAM-LUCID-EEG-2025-001` | mayo de 2025 | análisis multicéntrico: diferencias de sensores mínimas entre lucidez y REM no lúcido | correlato cerebral | `SRC-CON-DREAM-DEMIREL-2025` | B | AUDITADO |
+
+## CON-009 — Meditación
+
+| ID | Fecha/rango | Evento | Producto | Fuentes | Confianza | Estado |
+|---|---|---|---|---|---|---|
+| `TIME-CON-MEDIT-ZAZEN-1966-001` | diciembre de 1966 | estudio electroencefalográfico de la meditación zen | correlato cerebral | `SRC-CON-MEDIT-KASAMATSU-1966` | A publicación | AUDITADO |
+| `TIME-CON-MEDIT-TM-1970-001` | marzo de 1970 | efectos fisiológicos de la meditación trascendental | correlato fisiológico | `SRC-CON-MEDIT-WALLACE-1970` | A publicación | AUDITADO |
+| `TIME-CON-MEDIT-MBSR-1982-001` | abril de 1982 | programa de atención plena para dolor crónico, sin grupo control | práctica e intervención | `SRC-CON-MEDIT-KABAT-ZINN-1982` | A publicación | AUDITADO |
+| `TIME-CON-MEDIT-PERCEPTION-1984-001` | junio de 1984 | umbrales visuales menores tras un retiro de tres meses | efecto | `SRC-CON-MEDIT-BROWN-1984` | A publicación | AUDITADO |
+| `TIME-CON-MEDIT-DMN-2001-001` | enero de 2001 | descripción del modo por defecto del funcionamiento cerebral | correlato cerebral | `SRC-CON-MEDIT-RAICHLE-2001` | A publicación | AUDITADO |
+| `TIME-CON-MEDIT-NEUROPHEN-2002-001` | enero de 2002 | informes en primera persona que ordenan el EEG | informe | `SRC-CON-MEDIT-LUTZ-2002` | A publicación | AUDITADO |
+| `TIME-CON-MEDIT-GAMMA-2004-001` | noviembre de 2004 | gamma de gran amplitud en practicantes de largo plazo | correlato cerebral | `SRC-CON-MEDIT-LUTZ-2004` | A publicación | AUDITADO |
+| `TIME-CON-MEDIT-ATTENTION-2007-001` | 2007 | parpadeo atencional, subsistemas de la atención, U invertida y entrenamiento breve | efecto y correlato | `SRC-CON-MEDIT-SLAGTER-2007`, `SRC-CON-MEDIT-JHA-2007`, `SRC-CON-MEDIT-BREFCZYNSKI-LEWIS-2007`, `SRC-CON-MEDIT-TANG-2007` | A publicación | AUDITADO |
+| `TIME-CON-MEDIT-DMN-2011-001` | noviembre de 2011 | red por defecto menos activa en meditadores | correlato cerebral | `SRC-CON-MEDIT-BREWER-2011` | A publicación | AUDITADO |
+| `TIME-CON-MEDIT-ACTIVE-CONTROL-2012-001` | enero de 2012 | control activo validado para el curso de ocho semanas | efecto | `SRC-CON-MEDIT-MACCOON-2012` | A publicación | AUDITADO |
+| `TIME-CON-MEDIT-META-2014-001` | marzo de 2014 | metaanálisis de programas con controles activos | efecto | `SRC-CON-MEDIT-GOYAL-2014` | A | AUDITADO |
+| `TIME-CON-MEDIT-CRITIQUE-2018-001` | enero de 2018 | «Mind the hype» y su respuesta | crítica | `SRC-CON-MEDIT-VAN-DAM-2018`, `SRC-CON-MEDIT-DAVIDSON-DAHL-2018` | A publicación | AUDITADO |
+| `TIME-CON-MEDIT-ADVERSE-2020-001` | 2019–2022 | encuesta, revisión sistemática, entrevista dedicada y muestra poblacional de efectos adversos | hallazgo empírico | `SRC-CON-MEDIT-SCHLOSSER-2019`, `SRC-CON-MEDIT-FARIAS-2020`, `SRC-CON-MEDIT-BRITTON-2021`, `SRC-CON-MEDIT-GOLDBERG-2022` | A existencia / B frecuencia | AUDITADO |
+| `TIME-CON-MEDIT-NULLS-2022-001` | mayo–julio de 2022 | ensayo escolar MYRIAD sin superioridad y ensayos combinados sin cambios estructurales | efecto | `SRC-CON-MEDIT-KUYKEN-2022`, `SRC-CON-MEDIT-KRAL-2022` | A | AUDITADO |
+| `TIME-CON-MEDIT-CESSATION-2023-001` | 2023–2024 | agenda del cese y EEG de 37 ceses en un meditador | informe y correlato | `SRC-CON-MEDIT-LAUKKONEN-2023`, `SRC-CON-MEDIT-CHOWDHURY-2023`, `SRC-CON-MEDIT-VAN-LUTTERVELD-2024` | B | AUDITADO |
+| `TIME-CON-MEDIT-CESSATION-7T-2026-001` | noviembre de 2026 | cese prolongado con resonancia de 7 teslas en tres personas | correlato cerebral | `SRC-CON-MEDIT-YANG-2026` | B dato / C interpretación | AUDITADO |

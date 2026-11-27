@@ -12,7 +12,7 @@ La serie avanza del observador hacia la física. Cada expediente puede leerse po
 | CON-006 | ¿Qué enseñan los psicodélicos sobre percepción y conciencia? | estudios en animales y personas, periodos críticos y propuestas de prueba | **AUDITADO** |
 | CON-007 | ¿Qué podemos saber de la conciencia de otros animales? | prueba del espejo y sus críticas, marcadores conductuales y neuronales, declaraciones de Cambridge y Nueva York, invertebrados e informe LSE | **AUDITADO** |
 | CON-008 | ¿Qué sabemos de los sueños y del sueño lúcido? | informes de despertar en REM y no-REM, correlatos («zona caliente» posterior), activación-síntesis frente a teorías cognitivas, comunicación en tiempo real, inducción y sus límites, función | **AUDITADO** |
-| CON-009 | ¿Qué sabemos de la meditación? | por definir al abrir el expediente | PENDIENTE |
+| CON-009 | ¿Qué sabemos de la meditación? | práctica e informe en primera persona, neurofenomenología, EEG y resonancia de meditadores expertos, red neuronal por defecto, ensayos con controles activos, la crítica de Van Dam y colaboradores (2018), efectos adversos y el «cese» | **AUDITADO** |
 
 ## Reglas de la serie
 
@@ -23,5 +23,6 @@ La serie avanza del observador hacia la física. Cada expediente puede leerse po
 - CON-006 no recomienda consumo. Usa la evidencia como herramienta para estudiar percepción, no como guía de uso.
 - CON-007 separa conducta, marcador, inferencia, sintiencia y estatus moral. No es guía de bienestar animal ni recomendación de política pública: registra lo que dicen los informes y las leyes, no lo que debería hacerse.
 - CON-008 no enseña a inducir sueños lúcidos ni a interpretar sueños: separa informe, correlato, mecanismo y función, y nombra las técnicas de inducción sólo como objeto de estudio.
+- CON-009 no enseña a meditar ni hace recomendaciones clínicas: separa práctica, informe, correlato, efecto y afirmación metafísica, y cita los ensayos para auditar contra qué se comparan.
 
 El contrato común está en [`ESTANDAR_EVIDENCIA_CONCIENCIA.md`](ESTANDAR_EVIDENCIA_CONCIENCIA.md).

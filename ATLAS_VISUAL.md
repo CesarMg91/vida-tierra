@@ -2058,3 +2058,26 @@ Generada por el proyecto sin modelos de imagen: `node scripts/generate-con-008-v
 ### Revisión y límites
 
 Las tres salidas se inspeccionaron completas tras rasterizar. La portada evita a propósito la iconografía habitual de los sueños (lunas, estrellas reconocibles, nubes, ojos, camas o figuras dormidas) y no imita un registro real de sueño. Los diagramas no usan `foreignObject`: el texto se parte en líneas en el script para que se lea igual en cualquier visor. Los SVG incluyen `title` y `desc`.
+
+## 104. CON-009 — Una práctica no es una revelación
+
+![Portada editorial de CON-009](assets/visuales/hero-con-009-meditacion.png)
+
+![Cadena desde una práctica hasta una afirmación metafísica, con un cortafuegos entre cada paso](assets/visuales/cadena-practica-metafisica-con-009.svg)
+
+![Cinco capas: práctica, informe, correlato, efecto y afirmación metafísica](assets/visuales/capas-practica-metafisica-con-009.svg)
+
+| Archivo | Tipo | Procedencia | Qué representa | Límite obligatorio |
+|---|---|---|---|---|
+| `hero-con-009-meditacion.png` | portada editorial generativa | rasterizado con `sharp` de `hero-con-009-meditacion.svg` mediante `node scripts/generate-con-009-visuals.mjs --png`, 2026-11-26 | arcos concéntricos claros que se adelgazan hacia el centro hasta dejar un hueco | no representa un cerebro, un EEG, una postura, una experiencia ni un dato; sin figuras sentadas, flores de loto, budas ni iconografía de bienestar |
+| `hero-con-009-meditacion.svg` | fuente generativa determinista | SVG producido por `scripts/generate-con-009-visuals.mjs` con semilla fija `9009` | misma composición en vectores | arcos y puntos sin información |
+| `cadena-practica-metafisica-con-009.svg` | diagrama epistemológico original | SVG producido por `scripts/generate-con-009-visuals.mjs`, 2026-11-26 | práctica, informe, correlato, efecto, componente específico y metafísica | las flechas no heredan experiencia, registro, causa, especificidad ni realidad |
+| `capas-practica-metafisica-con-009.svg` | síntesis original | SVG producido por `scripts/generate-con-009-visuals.mjs`, 2026-11-26 | cinco filas: qué se midió, qué no se sigue y la confianza de cada capa | síntesis del expediente; no es una guía de meditación ni una recomendación clínica |
+
+### Procedencia de la portada
+
+Generada por el proyecto sin modelos de imagen: `node scripts/generate-con-009-visuals.mjs --png` escribe el SVG con semilla fija y lo rasteriza con `sharp` (ya instalado) a `1672 × 941`. Tamaño: `400128` bytes; SHA-256: `50b88f5506108f3c44a328504facc34e07398049800814a905eda0324ce1292f`. Dos ejecuciones consecutivas producen el mismo archivo byte a byte. Las portadas de CON-001 a CON-008 no se regeneraron y quedan idénticas.
+
+### Revisión y límites
+
+Las tres salidas se inspeccionaron completas tras rasterizar. La portada evita a propósito la iconografía habitual de la meditación (figuras sentadas, budas, flores de loto, velas o paisajes serenos) y no imita un registro cerebral. Los diagramas no usan `foreignObject`: el texto se parte en líneas en el script para que se lea igual en cualquier visor. Los SVG incluyen `title` y `desc`.

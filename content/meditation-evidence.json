@@ -1,0 +1,850 @@
+{
+  "schemaVersion": 1,
+  "researchSlug": "26_conciencia/INVESTIGACION_CON_009_MEDITACION",
+  "cases": [
+    {
+      "id": "practica-y-familias",
+      "title": "Práctica · «meditación» no es una sola cosa",
+      "product": "práctica",
+      "stance": "Cada resultado vale para una práctica, una dosis y una población",
+      "layers": [
+        {
+          "kind": "system",
+          "observed": "Técnicas que van de sostener la atención en un objeto a observar sin reaccionar el contenido de la experiencia o a examinar el sentido del yo.",
+          "inference": "Hay que nombrar qué práctica se estudia antes de preguntar qué hace.",
+          "limit": "Las tradiciones y los programas usan nombres distintos para cosas parecidas y el mismo nombre para cosas distintas.",
+          "claimIds": [
+            "CLAIM-CON-MEDIT-FAMILIES-001"
+          ],
+          "evidenceIds": [
+            "EVID-CON-MEDIT-PRACTICE-001"
+          ],
+          "sourceIds": [
+            "SRC-CON-MEDIT-LUTZ-2008",
+            "SRC-CON-MEDIT-DAHL-2015"
+          ]
+        },
+        {
+          "kind": "result",
+          "observed": "De 309 técnicas se pasó a las 20 más populares; 100 meditadores experimentados calificaron su parecido y surgieron dos dimensiones y siete grupos.",
+          "inference": "No hay «meditación» como tal sino grupos de técnicas que podrían tener efectos distintos.",
+          "limit": "Clasificación derivada de juicios de parecido de practicantes, no de efectos medidos.",
+          "claimIds": [
+            "CLAIM-CON-MEDIT-CLASSIFICATION-001"
+          ],
+          "evidenceIds": [
+            "EVID-CON-MEDIT-PRACTICE-001"
+          ],
+          "sourceIds": [
+            "SRC-CON-MEDIT-MATKO-2019"
+          ]
+        },
+        {
+          "kind": "scope",
+          "observed": "Un metaanálisis de 78 estudios de imagen encontró patrones disociables para cuatro estilos; la convergencia entre técnicas fue la excepción.",
+          "inference": "Las clasificaciones tienen correlato en el cerebro.",
+          "limit": "Pocos estudios por estilo y muchas preocupaciones metodológicas declaradas.",
+          "claimIds": [
+            "CLAIM-CON-MEDIT-FMRI-META-2016-001"
+          ],
+          "evidenceIds": [
+            "EVID-CON-MEDIT-DMN-001"
+          ],
+          "sourceIds": [
+            "SRC-CON-MEDIT-FOX-2016"
+          ]
+        },
+        {
+          "kind": "interpretation",
+          "observed": "La atención plena se describe como un continuo de prácticas en una matriz fenomenológica de varias dimensiones.",
+          "inference": "Una matriz guía hipótesis mejor que una definición única.",
+          "limit": "Es un marco heurístico propuesto, no un resultado.",
+          "claimIds": [
+            "CLAIM-CON-MEDIT-MATRIX-001"
+          ],
+          "evidenceIds": [
+            "EVID-CON-MEDIT-PRACTICE-001"
+          ],
+          "sourceIds": [
+            "SRC-CON-MEDIT-LUTZ-2015"
+          ]
+        },
+        {
+          "kind": "leap",
+          "observed": "Se dice que «la meditación» reduce el estrés, mejora la atención o cambia el cerebro.",
+          "inference": "Se atribuye a todas las prácticas lo medido en una.",
+          "limit": "No se sigue: un resultado de una técnica, con una dosis y una población, no vale para «la meditación».",
+          "claimIds": [
+            "CLAIM-CON-MEDIT-FIVE-LAYERS-001",
+            "CLAIM-CON-MEDIT-PRODUCTS-001"
+          ],
+          "evidenceIds": [
+            "EVID-CON-MEDIT-METHOD-001"
+          ],
+          "sourceIds": [
+            "SRC-CON-MEDIT-MATKO-2019",
+            "SRC-CON-MEDIT-VAN-DAM-2018"
+          ]
+        },
+        {
+          "kind": "test",
+          "observed": "Ensayos que comparen prácticas distintas entre sí, con la técnica y la dosis medidas.",
+          "inference": "Separarían el efecto de cada familia.",
+          "limit": "Casi no existen todavía. Este laboratorio no es una guía de meditación ni una recomendación clínica.",
+          "claimIds": [
+            "CLAIM-CON-MEDIT-WHAT-WOULD-COUNT-001"
+          ],
+          "evidenceIds": [
+            "EVID-CON-MEDIT-METHOD-001"
+          ],
+          "sourceIds": [
+            "SRC-CON-MEDIT-DAVIDSON-DAHL-2018"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "informe-y-neurofenomenologia",
+      "title": "Informe · la primera persona como método",
+      "product": "informe en primera persona",
+      "stance": "El informe ordena los datos cerebrales sin dejar de ser un informe",
+      "layers": [
+        {
+          "kind": "system",
+          "observed": "Personas que informan su estado durante una tarea o una práctica: con palabras, con un botón o en una entrevista fenomenológica.",
+          "inference": "La experiencia se estudia con métodos explícitos.",
+          "limit": "La persona sabe qué se estudia y a veces tiene un vocabulario aprendido para describirlo.",
+          "claimIds": [
+            "CLAIM-CON-MEDIT-REPORT-LIMITS-001",
+            "CLAIM-CON-MEDIT-NEUROPHEN-2002-001"
+          ],
+          "evidenceIds": [
+            "EVID-CON-MEDIT-REPORT-001"
+          ],
+          "sourceIds": [
+            "SRC-CON-MEDIT-LUTZ-2002",
+            "SRC-CON-MEDIT-DAVIDSON-KASZNIAK-2015"
+          ]
+        },
+        {
+          "kind": "result",
+          "observed": "Agrupar los ensayos según el informe reveló patrones de sincronía frontal que dependían de la preparación informada; 14 practicantes marcaron con un botón cada distracción.",
+          "inference": "Los datos en primera persona detectan procesos que el promedio trata como ruido.",
+          "limit": "La prueba de 2002 fue una tarea visual, no meditación; la de 2012, catorce practicantes.",
+          "claimIds": [
+            "CLAIM-CON-MEDIT-NEUROPHEN-2002-001",
+            "CLAIM-CON-MEDIT-MIND-WANDERING-2012-001"
+          ],
+          "evidenceIds": [
+            "EVID-CON-MEDIT-REPORT-001"
+          ],
+          "sourceIds": [
+            "SRC-CON-MEDIT-LUTZ-2002",
+            "SRC-CON-MEDIT-HASENKAMP-2012"
+          ]
+        },
+        {
+          "kind": "scope",
+          "observed": "En 46 meditadores, la menor actividad beta medial posterior se correlacionó con los cambios derivados de entrevistas, pero no con los autoinformes clásicos.",
+          "inference": "La entrevista detecta lo que el cuestionario no.",
+          "limit": "Meditadores de largo plazo de un grupo; estudio preregistrado pero sin réplica independiente.",
+          "claimIds": [
+            "CLAIM-CON-MEDIT-SELF-MEG-2024-001",
+            "CLAIM-CON-MEDIT-SELF-MEG-2013-001"
+          ],
+          "evidenceIds": [
+            "EVID-CON-MEDIT-REPORT-001"
+          ],
+          "sourceIds": [
+            "SRC-CON-MEDIT-TRAUTWEIN-2024",
+            "SRC-CON-MEDIT-BERKOVICH-OHANA-2013"
+          ]
+        },
+        {
+          "kind": "interpretation",
+          "observed": "La neurofenomenología propone restricciones mutuas entre fenomenología, modelos computacionales y fisiología.",
+          "inference": "El informe y el cerebro se corrigen uno al otro.",
+          "limit": "Programa de investigación revisado por sus propios proponentes.",
+          "claimIds": [
+            "CLAIM-CON-MEDIT-NEUROPHEN-REVIEW-2025-001",
+            "CLAIM-CON-MEDIT-RTFMRI-2013-001"
+          ],
+          "evidenceIds": [
+            "EVID-CON-MEDIT-REPORT-001"
+          ],
+          "sourceIds": [
+            "SRC-CON-MEDIT-LUTZ-ABDOUN-2025",
+            "SRC-CON-MEDIT-GARRISON-2013"
+          ]
+        },
+        {
+          "kind": "leap",
+          "observed": "Se toma lo que el meditador describe como lo que su experiencia fue.",
+          "inference": "El informe se trata como registro.",
+          "limit": "No se sigue: el informe llega después, en palabras y con una expectativa; es un dato sobre la experiencia, no la experiencia.",
+          "claimIds": [
+            "CLAIM-CON-MEDIT-REPORT-LIMITS-001"
+          ],
+          "evidenceIds": [
+            "EVID-CON-MEDIT-METHOD-001"
+          ],
+          "sourceIds": [
+            "SRC-CON-MEDIT-DAVIDSON-KASZNIAK-2015",
+            "SRC-CON-MEDIT-VAN-DAM-2018"
+          ]
+        },
+        {
+          "kind": "test",
+          "observed": "Protocolos preregistrados que predigan un correlato desde el informe y los apliquen equipos independientes.",
+          "inference": "Separarían el método de quien lo propone.",
+          "limit": "Aún escasos. Este laboratorio no es una guía de meditación ni una recomendación clínica.",
+          "claimIds": [
+            "CLAIM-CON-MEDIT-WHAT-WOULD-COUNT-001"
+          ],
+          "evidenceIds": [
+            "EVID-CON-MEDIT-METHOD-001"
+          ],
+          "sourceIds": [
+            "SRC-CON-MEDIT-LUTZ-ABDOUN-2025"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gamma-de-expertos",
+      "title": "Correlato · la gamma de los expertos",
+      "product": "correlato cerebral",
+      "stance": "Los expertos difieren de los novatos; la causa no está separada",
+      "layers": [
+        {
+          "kind": "system",
+          "observed": "EEG de practicantes de muchos años comparados con personas sin experiencia, durante la práctica y en reposo.",
+          "inference": "Se buscan efectos de estado y de rasgo.",
+          "limit": "Los expertos no se asignan al azar a décadas de práctica.",
+          "claimIds": [
+            "CLAIM-CON-MEDIT-EEG-REVIEW-2006-001",
+            "CLAIM-CON-MEDIT-STATE-TRAIT-001"
+          ],
+          "evidenceIds": [
+            "EVID-CON-MEDIT-EEG-001"
+          ],
+          "sourceIds": [
+            "SRC-CON-MEDIT-CAHN-POLICH-2006"
+          ]
+        },
+        {
+          "kind": "result",
+          "observed": "Practicantes budistas indujeron gamma de gran amplitud; en 2017, tres tradiciones mostraron más gamma de 60 a 110 Hz que los controles, ligada a la experiencia.",
+          "inference": "La dirección general se replica en dos grupos y varias tradiciones.",
+          "limit": "Bandas y regiones distintas entre estudios; artefactos musculares revisados con componentes independientes en 2017.",
+          "claimIds": [
+            "CLAIM-CON-MEDIT-GAMMA-2004-001",
+            "CLAIM-CON-MEDIT-GAMMA-2017-001"
+          ],
+          "evidenceIds": [
+            "EVID-CON-MEDIT-EEG-001"
+          ],
+          "sourceIds": [
+            "SRC-CON-MEDIT-LUTZ-2004",
+            "SRC-CON-MEDIT-BRABOSZCZ-2017"
+          ]
+        },
+        {
+          "kind": "scope",
+          "observed": "La activación de la red de atención dibujó una U invertida entre 19,000 y 44,000 horas de práctica.",
+          "inference": "La relación con la pericia no es lineal.",
+          "limit": "Comparación transversal entre personas distintas.",
+          "claimIds": [
+            "CLAIM-CON-MEDIT-INVERTED-U-2007-001"
+          ],
+          "evidenceIds": [
+            "EVID-CON-MEDIT-EEG-001"
+          ],
+          "sourceIds": [
+            "SRC-CON-MEDIT-BREFCZYNSKI-LEWIS-2007"
+          ]
+        },
+        {
+          "kind": "interpretation",
+          "observed": "La gamma se lee como integración temporal entrenada por la práctica.",
+          "inference": "Interpretación compatible con los datos.",
+          "limit": "Otras lecturas encajan: temperamento, motivación o estilo de vida de quien llega a experto.",
+          "claimIds": [
+            "CLAIM-CON-MEDIT-STATE-TRAIT-001"
+          ],
+          "evidenceIds": [
+            "EVID-CON-MEDIT-EEG-001"
+          ],
+          "sourceIds": [
+            "SRC-CON-MEDIT-LUTZ-2004",
+            "SRC-CON-MEDIT-CAHN-POLICH-2006"
+          ]
+        },
+        {
+          "kind": "leap",
+          "observed": "Se dice que la gamma de los meditadores es la firma de una conciencia superior.",
+          "inference": "Un correlato se convierte en jerarquía de estados.",
+          "limit": "No se sigue: una diferencia de rasgo en expertos no es un efecto de la práctica ni una medida del valor de una experiencia.",
+          "claimIds": [
+            "CLAIM-CON-MEDIT-STATE-TRAIT-001",
+            "CLAIM-CON-MEDIT-GAMMA-2017-001"
+          ],
+          "evidenceIds": [
+            "EVID-CON-MEDIT-METHOD-001"
+          ],
+          "sourceIds": [
+            "SRC-CON-MEDIT-BRABOSZCZ-2017"
+          ]
+        },
+        {
+          "kind": "test",
+          "observed": "Estudios longitudinales con asignación al azar que muestren la gamma apareciendo con la práctica.",
+          "inference": "Separarían efecto de autoselección.",
+          "limit": "Faltan a la escala necesaria. Este laboratorio no es una guía de meditación ni una recomendación clínica.",
+          "claimIds": [
+            "CLAIM-CON-MEDIT-WHAT-WOULD-COUNT-001"
+          ],
+          "evidenceIds": [
+            "EVID-CON-MEDIT-METHOD-001"
+          ],
+          "sourceIds": [
+            "SRC-CON-MEDIT-DAVIDSON-DAHL-2018"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "red-por-defecto",
+      "title": "Correlato · la red neuronal por defecto",
+      "product": "correlato cerebral",
+      "stance": "Menos red por defecto en meditadores; no es una firma exclusiva",
+      "layers": [
+        {
+          "kind": "system",
+          "observed": "Resonancia funcional de meditadores y controles durante varias prácticas y en reposo.",
+          "inference": "Se compara la actividad de los nodos de la red por defecto.",
+          "limit": "Grupos pequeños y no asignados al azar.",
+          "claimIds": [
+            "CLAIM-CON-MEDIT-DMN-MEDITATORS-2011-001"
+          ],
+          "evidenceIds": [
+            "EVID-CON-MEDIT-DMN-001"
+          ],
+          "sourceIds": [
+            "SRC-CON-MEDIT-BREWER-2011"
+          ]
+        },
+        {
+          "kind": "result",
+          "observed": "La corteza prefrontal medial y la cingulada posterior estuvieron relativamente desactivadas en meditadores en tres prácticas.",
+          "inference": "Compatible con menos divagación mental.",
+          "limit": "Diseño transversal.",
+          "claimIds": [
+            "CLAIM-CON-MEDIT-DMN-MEDITATORS-2011-001",
+            "CLAIM-CON-MEDIT-MIND-WANDERING-2012-001"
+          ],
+          "evidenceIds": [
+            "EVID-CON-MEDIT-DMN-001"
+          ],
+          "sourceIds": [
+            "SRC-CON-MEDIT-BREWER-2011",
+            "SRC-CON-MEDIT-HASENKAMP-2012"
+          ]
+        },
+        {
+          "kind": "scope",
+          "observed": "La red por defecto se definió como un conjunto de regiones que se suspende durante casi cualquier conducta dirigida a un objetivo.",
+          "inference": "Su desactivación acompaña a muchas tareas.",
+          "limit": "La meditación es una de esas tareas.",
+          "claimIds": [
+            "CLAIM-CON-MEDIT-DMN-DEFINITION-001",
+            "CLAIM-CON-MEDIT-DMN-NOT-SPECIFIC-001"
+          ],
+          "evidenceIds": [
+            "EVID-CON-MEDIT-DMN-001"
+          ],
+          "sourceIds": [
+            "SRC-CON-MEDIT-RAICHLE-2001"
+          ]
+        },
+        {
+          "kind": "interpretation",
+          "observed": "Meditadores redujeron a voluntad la señal de la cingulada posterior con retroalimentación en tiempo real.",
+          "inference": "La relación entre esa región y la atención informada es estrecha.",
+          "limit": "Expertos seleccionados; la señal se correlaciona con el informe, no lo explica.",
+          "claimIds": [
+            "CLAIM-CON-MEDIT-RTFMRI-2013-001"
+          ],
+          "evidenceIds": [
+            "EVID-CON-MEDIT-REPORT-001"
+          ],
+          "sourceIds": [
+            "SRC-CON-MEDIT-GARRISON-2013"
+          ]
+        },
+        {
+          "kind": "leap",
+          "observed": "Se dice que apagar la red por defecto disuelve el yo y que eso es lo propio de la meditación.",
+          "inference": "Una desactivación se lee como una experiencia específica.",
+          "limit": "No se sigue: la misma red cambia con tareas cognitivas y con psilocibina; una desactivación compartida no distingue entre ellas.",
+          "claimIds": [
+            "CLAIM-CON-MEDIT-DMN-NOT-SPECIFIC-001"
+          ],
+          "evidenceIds": [
+            "EVID-CON-MEDIT-METHOD-001"
+          ],
+          "sourceIds": [
+            "SRC-CON-MEDIT-RAICHLE-2001",
+            "SRC-CON-PSY-CARHART-HARRIS-2012"
+          ]
+        },
+        {
+          "kind": "test",
+          "observed": "Comparar meditación, tareas cognitivas equiparadas y otros estados con las mismas medidas en las mismas personas.",
+          "inference": "Mostraría qué parte del cambio es propia de la práctica.",
+          "limit": "Comparaciones directas escasas. Este laboratorio no es una guía de meditación ni una recomendación clínica.",
+          "claimIds": [
+            "CLAIM-CON-MEDIT-WHAT-WOULD-COUNT-001"
+          ],
+          "evidenceIds": [
+            "EVID-CON-MEDIT-METHOD-001"
+          ],
+          "sourceIds": [
+            "SRC-CON-MEDIT-FOX-2016"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "atencion-y-percepcion",
+      "title": "Efecto · atención y percepción entrenables",
+      "product": "efecto de intervención",
+      "stance": "La atención y algunos umbrales mejoran con entrenamiento intensivo",
+      "layers": [
+        {
+          "kind": "system",
+          "observed": "Tareas objetivas de atención y percepción antes y después de un curso, un retiro o un entrenamiento breve.",
+          "inference": "Se mide el desempeño, no sólo lo que la persona dice.",
+          "limit": "Los controles suelen ser lista de espera o ninguno.",
+          "claimIds": [
+            "CLAIM-CON-MEDIT-ATTENTION-ANT-2007-001",
+            "CLAIM-CON-MEDIT-ATTENTION-LIMITS-001"
+          ],
+          "evidenceIds": [
+            "EVID-CON-MEDIT-ATTENTION-001"
+          ],
+          "sourceIds": [
+            "SRC-CON-MEDIT-JHA-2007"
+          ]
+        },
+        {
+          "kind": "result",
+          "observed": "Tras tres meses, menor parpadeo atencional; en 60 personas asignadas al azar, mejor discriminación visual y vigilancia.",
+          "inference": "La atención sostenida y algunos umbrales perceptivos son entrenables.",
+          "limit": "Retiros intensivos que cambian también el sueño, el aislamiento y la rutina.",
+          "claimIds": [
+            "CLAIM-CON-MEDIT-ATTENTION-BLINK-2007-001",
+            "CLAIM-CON-MEDIT-PERCEPTION-2010-001"
+          ],
+          "evidenceIds": [
+            "EVID-CON-MEDIT-ATTENTION-001"
+          ],
+          "sourceIds": [
+            "SRC-CON-MEDIT-SLAGTER-2007",
+            "SRC-CON-MEDIT-MACLEAN-2010"
+          ]
+        },
+        {
+          "kind": "scope",
+          "observed": "En 1984, umbrales visuales menores tras un retiro de tres meses frente al personal del centro; en 2007, cinco días mejoraron el conflicto atencional frente a relajación.",
+          "inference": "El efecto aparece con dosis muy distintas.",
+          "limit": "Control no aleatorio en 1984; una sola población y un método mixto en 2007.",
+          "claimIds": [
+            "CLAIM-CON-MEDIT-PERCEPTION-1984-001",
+            "CLAIM-CON-MEDIT-ATTENTION-SHORT-2007-001"
+          ],
+          "evidenceIds": [
+            "EVID-CON-MEDIT-ATTENTION-001"
+          ],
+          "sourceIds": [
+            "SRC-CON-MEDIT-BROWN-1984",
+            "SRC-CON-MEDIT-TANG-2007"
+          ]
+        },
+        {
+          "kind": "interpretation",
+          "observed": "Mejor percepción reduciría la carga de discriminar y facilitaría sostener la atención.",
+          "inference": "Modelo de recursos coherente con los datos.",
+          "limit": "Interpretación de los autores.",
+          "claimIds": [
+            "CLAIM-CON-MEDIT-PERCEPTION-2010-001"
+          ],
+          "evidenceIds": [
+            "EVID-CON-MEDIT-ATTENTION-001"
+          ],
+          "sourceIds": [
+            "SRC-CON-MEDIT-MACLEAN-2010"
+          ]
+        },
+        {
+          "kind": "leap",
+          "observed": "Se dice que meditar mejora la atención más que cualquier otro entrenamiento.",
+          "inference": "Un efecto frente a lista de espera se lee como superioridad.",
+          "limit": "No se sigue: casi no hay comparaciones con otro entrenamiento atencional de igual intensidad, y un metaanálisis con controles activos no halló efecto claro en la atención.",
+          "claimIds": [
+            "CLAIM-CON-MEDIT-ATTENTION-LIMITS-001",
+            "CLAIM-CON-MEDIT-TRIALS-META-2014-001"
+          ],
+          "evidenceIds": [
+            "EVID-CON-MEDIT-METHOD-001"
+          ],
+          "sourceIds": [
+            "SRC-CON-MEDIT-GOYAL-2014"
+          ]
+        },
+        {
+          "kind": "test",
+          "observed": "Ensayos con un entrenamiento atencional activo equiparado y seguimiento largo.",
+          "inference": "Separarían la práctica de la estructura del retiro.",
+          "limit": "Pocos y pequeños. Este laboratorio no es una guía de meditación ni una recomendación clínica.",
+          "claimIds": [
+            "CLAIM-CON-MEDIT-WHAT-WOULD-COUNT-001"
+          ],
+          "evidenceIds": [
+            "EVID-CON-MEDIT-METHOD-001"
+          ],
+          "sourceIds": [
+            "SRC-CON-MEDIT-MACCOON-2012"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ensayos-y-controles",
+      "title": "Efecto · el gradiente del control",
+      "product": "efecto de intervención",
+      "stance": "Cuanto más activo el control, menor la ventaja",
+      "layers": [
+        {
+          "kind": "system",
+          "observed": "Ensayos aleatorizados de programas de atención plena frente a lista de espera, controles inespecíficos, controles específicos y tratamientos con evidencia.",
+          "inference": "Se compara el tamaño del efecto según el control.",
+          "limit": "La meditación no se puede cegar.",
+          "claimIds": [
+            "CLAIM-CON-MEDIT-CONTROL-GRADIENT-001",
+            "CLAIM-CON-MEDIT-BLINDING-001"
+          ],
+          "evidenceIds": [
+            "EVID-CON-MEDIT-TRIALS-001"
+          ],
+          "sourceIds": [
+            "SRC-CON-MEDIT-GOLDBERG-2018"
+          ]
+        },
+        {
+          "kind": "result",
+          "observed": "d = 0.55 frente a no tratar, 0.35 frente a controles inespecíficos, 0.23 frente a específicos y sin diferencia frente a tratamientos con evidencia.",
+          "inference": "El efecto total es real y el componente específico, menor.",
+          "limit": "Clasificación de controles hecha por los autores; poblaciones clínicas.",
+          "claimIds": [
+            "CLAIM-CON-MEDIT-TRIALS-META-2018-001",
+            "CLAIM-CON-MEDIT-TRIALS-META-2014-001"
+          ],
+          "evidenceIds": [
+            "EVID-CON-MEDIT-TRIALS-001"
+          ],
+          "sourceIds": [
+            "SRC-CON-MEDIT-GOLDBERG-2018",
+            "SRC-CON-MEDIT-GOYAL-2014"
+          ]
+        },
+        {
+          "kind": "scope",
+          "observed": "En entornos no clínicos, 136 ensayos sin superioridad frente a controles activos específicos; el ensayo escolar MYRIAD, con 8,376 participantes, sin superioridad.",
+          "inference": "El resultado no se generaliza a todo entorno.",
+          "limit": "Confianza de moderada a muy baja en la revisión; una forma de programa en MYRIAD.",
+          "claimIds": [
+            "CLAIM-CON-MEDIT-TRIALS-NONCLINICAL-2021-001",
+            "CLAIM-CON-MEDIT-SCHOOLS-2022-001",
+            "CLAIM-CON-MEDIT-TRIALS-IPD-2023-001"
+          ],
+          "evidenceIds": [
+            "EVID-CON-MEDIT-TRIALS-001"
+          ],
+          "sourceIds": [
+            "SRC-CON-MEDIT-GALANTE-2021",
+            "SRC-CON-MEDIT-KUYKEN-2022",
+            "SRC-CON-MEDIT-GALANTE-2023"
+          ]
+        },
+        {
+          "kind": "interpretation",
+          "observed": "Un control equiparado igualó al curso en las medidas informadas; la atención plena superó al placebo y a una práctica simulada en dolor experimental.",
+          "inference": "Hay indicios de un componente específico en algunas medidas, no en todas.",
+          "limit": "Voluntarios sanos y tareas de laboratorio.",
+          "claimIds": [
+            "CLAIM-CON-MEDIT-ACTIVE-CONTROL-2012-001",
+            "CLAIM-CON-MEDIT-SHAM-2015-001"
+          ],
+          "evidenceIds": [
+            "EVID-CON-MEDIT-TRIALS-001"
+          ],
+          "sourceIds": [
+            "SRC-CON-MEDIT-MACCOON-2012",
+            "SRC-CON-MEDIT-ZEIDAN-2015"
+          ]
+        },
+        {
+          "kind": "leap",
+          "observed": "Se dice que la meditación funciona mejor que los tratamientos existentes.",
+          "inference": "Un efecto frente a no hacer nada se presenta como superioridad.",
+          "limit": "No se sigue: frente a tratamientos activos no hubo ventaja, y sin cegamiento la expectativa entra en el resultado.",
+          "claimIds": [
+            "CLAIM-CON-MEDIT-CONTROL-GRADIENT-001",
+            "CLAIM-CON-MEDIT-BLINDING-001"
+          ],
+          "evidenceIds": [
+            "EVID-CON-MEDIT-METHOD-001",
+            "EVID-CON-MEDIT-CRITIQUE-001"
+          ],
+          "sourceIds": [
+            "SRC-CON-MEDIT-GOYAL-2014",
+            "SRC-CON-PSY-MUTHUKUMARASWAMY-2021"
+          ]
+        },
+        {
+          "kind": "test",
+          "observed": "Ensayos grandes y preregistrados con controles equiparados en expectativa y medidas no autoinformadas.",
+          "inference": "Aislarían lo que sólo la práctica aporta.",
+          "limit": "En curso o pendientes. Este laboratorio no es una guía de meditación ni una recomendación clínica.",
+          "claimIds": [
+            "CLAIM-CON-MEDIT-WHAT-WOULD-COUNT-001"
+          ],
+          "evidenceIds": [
+            "EVID-CON-MEDIT-METHOD-001"
+          ],
+          "sourceIds": [
+            "SRC-CON-MEDIT-VAN-DAM-2018"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "efectos-adversos",
+      "title": "Hallazgo · efectos adversos que hay que buscar",
+      "product": "hallazgo empírico",
+      "stance": "Existen; su frecuencia depende de cómo se pregunta",
+      "layers": [
+        {
+          "kind": "system",
+          "observed": "Entrevistas, encuestas, revisiones y entrevistas dedicadas sobre experiencias difíciles relacionadas con la meditación.",
+          "inference": "Se busca activamente lo que los ensayos casi no medían.",
+          "limit": "Instrumentos y poblaciones muy distintos.",
+          "claimIds": [
+            "CLAIM-CON-MEDIT-ADVERSE-VARIETIES-2017-001",
+            "CLAIM-CON-MEDIT-ADVERSE-MEASUREMENT-001"
+          ],
+          "evidenceIds": [
+            "EVID-CON-MEDIT-ADVERSE-001"
+          ],
+          "sourceIds": [
+            "SRC-CON-MEDIT-LINDAHL-2017",
+            "SRC-CON-MEDIT-BAER-2019"
+          ]
+        },
+        {
+          "kind": "result",
+          "observed": "8.3 % en una revisión sistemática; 25.6 % de experiencias particularmente desagradables en una encuesta; 50 % con al menos una pregunta específica en una muestra poblacional.",
+          "inference": "Los efectos adversos no son raros.",
+          "limit": "Las cifras no son comparables entre sí.",
+          "claimIds": [
+            "CLAIM-CON-MEDIT-ADVERSE-REVIEW-2020-001",
+            "CLAIM-CON-MEDIT-ADVERSE-PREVALENCE-2019-001",
+            "CLAIM-CON-MEDIT-ADVERSE-POPULATION-2022-001"
+          ],
+          "evidenceIds": [
+            "EVID-CON-MEDIT-ADVERSE-001"
+          ],
+          "sourceIds": [
+            "SRC-CON-MEDIT-FARIAS-2020",
+            "SRC-CON-MEDIT-SCHLOSSER-2019",
+            "SRC-CON-MEDIT-GOLDBERG-2022"
+          ]
+        },
+        {
+          "kind": "scope",
+          "observed": "En un programa clínico de 96 personas, efectos negativos duraderos en el 6 % a 14 %; deterioro de un mes o más en el 1.2 % de una muestra poblacional.",
+          "inference": "Una minoría tiene efectos duraderos.",
+          "limit": "Muestras pequeñas o de autoinforme retrospectivo.",
+          "claimIds": [
+            "CLAIM-CON-MEDIT-ADVERSE-MBP-2021-001",
+            "CLAIM-CON-MEDIT-ADVERSE-POPULATION-2022-001"
+          ],
+          "evidenceIds": [
+            "EVID-CON-MEDIT-ADVERSE-001"
+          ],
+          "sourceIds": [
+            "SRC-CON-MEDIT-BRITTON-2021",
+            "SRC-CON-MEDIT-GOLDBERG-2022"
+          ]
+        },
+        {
+          "kind": "interpretation",
+          "observed": "Las tasas del programa clínico se parecen a las de otros tratamientos psicológicos.",
+          "inference": "La meditación se compara con otras intervenciones, no con la inocuidad.",
+          "limit": "Interpretación de los autores con un instrumento propio.",
+          "claimIds": [
+            "CLAIM-CON-MEDIT-ADVERSE-MBP-2021-001"
+          ],
+          "evidenceIds": [
+            "EVID-CON-MEDIT-ADVERSE-001"
+          ],
+          "sourceIds": [
+            "SRC-CON-MEDIT-BRITTON-2021"
+          ]
+        },
+        {
+          "kind": "leap",
+          "observed": "Se dice que la meditación no tiene efectos secundarios porque los ensayos no los informan.",
+          "inference": "La ausencia de informe se toma por ausencia de efecto.",
+          "limit": "No se sigue: los ensayos que no preguntan activamente encuentran poco; los que preguntan encuentran más.",
+          "claimIds": [
+            "CLAIM-CON-MEDIT-ADVERSE-MEASUREMENT-001",
+            "CLAIM-CON-MEDIT-VAN-DAM-2018-001"
+          ],
+          "evidenceIds": [
+            "EVID-CON-MEDIT-CRITIQUE-001"
+          ],
+          "sourceIds": [
+            "SRC-CON-MEDIT-BAER-2019",
+            "SRC-CON-MEDIT-VAN-DAM-2018"
+          ]
+        },
+        {
+          "kind": "test",
+          "observed": "Búsqueda activa y estandarizada de efectos adversos en todos los ensayos, con seguimiento.",
+          "inference": "Daría una tasa comparable entre prácticas y poblaciones.",
+          "limit": "No existe todavía una tasa única. Este laboratorio no es una guía de meditación ni una recomendación clínica.",
+          "claimIds": [
+            "CLAIM-CON-MEDIT-WHAT-WOULD-COUNT-001"
+          ],
+          "evidenceIds": [
+            "EVID-CON-MEDIT-METHOD-001"
+          ],
+          "sourceIds": [
+            "SRC-CON-MEDIT-BRITTON-2021"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cese-y-metafisica",
+      "title": "Estados límite · el cese y la «conciencia pura»",
+      "product": "estado informado",
+      "stance": "Un hueco informado con correlatos; ninguna prueba de una conciencia sin cerebro",
+      "layers": [
+        {
+          "kind": "system",
+          "observed": "Practicantes avanzados que informan interrupciones completas de la conciencia y meditadores que describen una «conciencia pura».",
+          "inference": "Se estudian estados que la tradición describe y pocos informan.",
+          "limit": "Muy pocas personas, seleccionadas y que esperan producir el estado.",
+          "claimIds": [
+            "CLAIM-CON-MEDIT-CESSATION-REPORTS-001",
+            "CLAIM-CON-MEDIT-MPE-2020-001"
+          ],
+          "evidenceIds": [
+            "EVID-CON-MEDIT-CESSATION-001"
+          ],
+          "sourceIds": [
+            "SRC-CON-MEDIT-LAUKKONEN-2023",
+            "SRC-CON-MEDIT-METZINGER-2020"
+          ]
+        },
+        {
+          "kind": "result",
+          "observed": "En un meditador, 37 ceses en 29 sesiones con caída de alfa desde unos 40 segundos antes; en tres personas con 7 teslas, más actividad sensorial primaria y menos transmodal.",
+          "inference": "El estado informado tiene correlatos medibles.",
+          "limit": "Un caso y tres casos; mismo grupo de investigación.",
+          "claimIds": [
+            "CLAIM-CON-MEDIT-CESSATION-EEG-2023-001",
+            "CLAIM-CON-MEDIT-CESSATION-NETWORK-2024-001",
+            "CLAIM-CON-MEDIT-CESSATION-7T-2026-001"
+          ],
+          "evidenceIds": [
+            "EVID-CON-MEDIT-CESSATION-001"
+          ],
+          "sourceIds": [
+            "SRC-CON-MEDIT-CHOWDHURY-2023",
+            "SRC-CON-MEDIT-VAN-LUTTERVELD-2024",
+            "SRC-CON-MEDIT-YANG-2026"
+          ]
+        },
+        {
+          "kind": "scope",
+          "observed": "Un cuestionario de 92 preguntas sobre «conciencia pura» dio 12 factores en 1,403 respuestas utilizables.",
+          "inference": "Los informes tienen estructura.",
+          "limit": "Encuesta en línea, mayoritariamente en alemán; ajuste moderado.",
+          "claimIds": [
+            "CLAIM-CON-MEDIT-MPE-QUESTIONNAIRE-2021-001"
+          ],
+          "evidenceIds": [
+            "EVID-CON-MEDIT-CESSATION-001"
+          ],
+          "sourceIds": [
+            "SRC-CON-MEDIT-GAMMA-METZINGER-2021"
+          ]
+        },
+        {
+          "kind": "interpretation",
+          "observed": "La meditación avanzada se propone como programa para estudiar la forma más simple de conciencia.",
+          "inference": "Propuesta de investigación naturalista.",
+          "limit": "Su valor depende de replicar estos estados en más personas.",
+          "claimIds": [
+            "CLAIM-CON-MEDIT-ADVANCED-PROGRAM-2026-001",
+            "CLAIM-CON-MEDIT-MPE-2020-001"
+          ],
+          "evidenceIds": [
+            "EVID-CON-MEDIT-CESSATION-001"
+          ],
+          "sourceIds": [
+            "SRC-CON-MEDIT-LIEBERMAN-SACCHET-2026"
+          ]
+        },
+        {
+          "kind": "leap",
+          "observed": "Se dice que el cese o la «conciencia pura» prueban una conciencia independiente del cerebro.",
+          "inference": "Un estado informado se convierte en tesis metafísica.",
+          "limit": "No se sigue: la ausencia de experiencia no se puede informar mientras ocurre, los correlatos son cerebrales y en el tukdam no hubo EEG reconocible.",
+          "claimIds": [
+            "CLAIM-CON-MEDIT-CESSATION-LIMITS-001",
+            "CLAIM-CON-MEDIT-METAPHYSICS-001",
+            "CLAIM-CON-MEDIT-TUKDAM-2021-001"
+          ],
+          "evidenceIds": [
+            "EVID-CON-MEDIT-METAPHYSICS-001"
+          ],
+          "sourceIds": [
+            "SRC-CON-MEDIT-LOTT-2021",
+            "SRC-CON-MEDIT-LAUKKONEN-2023"
+          ]
+        },
+        {
+          "kind": "test",
+          "observed": "Más personas, laboratorios independientes y medidas que distingan ausencia de experiencia, ausencia de memoria y sueño.",
+          "inference": "Diría qué es el cese.",
+          "limit": "Pendiente al corte. Este laboratorio no es una guía de meditación ni una recomendación clínica.",
+          "claimIds": [
+            "CLAIM-CON-MEDIT-WHAT-WOULD-COUNT-001",
+            "CLAIM-CON-MEDIT-VERDICT-001"
+          ],
+          "evidenceIds": [
+            "EVID-CON-MEDIT-METHOD-001"
+          ],
+          "sourceIds": [
+            "SRC-CON-MEDIT-LIEBERMAN-SACCHET-2026"
+          ]
+        }
+      ]
+    }
+  ]
+}

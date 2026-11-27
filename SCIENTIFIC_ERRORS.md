@@ -5284,3 +5284,15 @@ La deposición del último emperador de Occidente se toma como fin del imperio y
 | `ERR-CON-DREAM-LUCID-CONTROL-001` | soñar lúcido es controlar el sueño | la mayoría de los sueños lúcidos no se acompaña de control | distinguir saber que se sueña de controlar el sueño | ACTIVO |
 | `ERR-CON-DREAM-INDUCTION-RELIABLE-001` | cualquiera puede aprender a tener sueños lúcidos con una técnica, sin riesgos | ninguna técnica es fiable, los efectos son modestos y autoinformados y los riesgos están poco estudiados | describir la inducción como investigación con límites y riesgos | ACTIVO |
 | `ERR-CON-DREAM-HIDDEN-MESSAGES-001` | los sueños traen mensajes ocultos o información del futuro | no hay datos de información verificable que la persona no pudiera conocer | tratar el contenido como experiencia ligada a la memoria, no como información externa | ACTIVO |
+
+## CON-009 — Meditación
+
+| ID | Error | Por qué falla | Corrección operativa | Estado |
+|---|---|---|---|---|
+| `ERR-CON-MEDIT-ONE-THING-001` | «la meditación» produce un efecto | hay familias y grupos de técnicas con correlatos distintos | nombrar la técnica, la dosis y la población | ACTIVO |
+| `ERR-CON-MEDIT-BRAIN-GROWS-001` | un curso de ocho semanas hace crecer el cerebro | el ensayo más grande y mejor controlado no encontró cambios estructurales | citar el diseño y el control de cada estudio estructural | ACTIVO |
+| `ERR-CON-MEDIT-GAMMA-HIGHER-001` | la gamma de los meditadores prueba una conciencia superior | es una diferencia de rasgo en expertos no asignados al azar y no mide el valor de una experiencia | presentarla como correlato transversal | ACTIVO |
+| `ERR-CON-MEDIT-DMN-EGO-001` | meditar apaga la red por defecto y con ella el ego | la red se desactiva en casi cualquier tarea y su relación con el yo es una asociación | separar desactivación, divagación y sentido del yo | ACTIVO |
+| `ERR-CON-MEDIT-HARMLESS-001` | la meditación no tiene efectos secundarios | hay efectos adversos documentados y se encuentran más cuando se buscan | informar efectos adversos con el método que los midió | ACTIVO |
+| `ERR-CON-MEDIT-BEATS-ALL-001` | la atención plena funciona mejor que los tratamientos existentes | frente a tratamientos activos no mostró ventaja y su efecto se encoge con controles activos | decir siempre contra qué control se midió | ACTIVO |
+| `ERR-CON-MEDIT-PURE-CONSCIOUSNESS-001` | el cese o la «conciencia pura» prueban una conciencia sin cerebro | son estados informados con correlatos cerebrales y la ausencia no se informa mientras ocurre | tratarlos como experiencias informadas, no como tesis metafísicas | ACTIVO |

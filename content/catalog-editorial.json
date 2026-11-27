@@ -137,6 +137,7 @@
     "CON-005": { "shortTitle": "¿Qué conecta agentes conscientes y partículas?", "status": "AUDITADO", "themes": ["agentes conscientes", "cadenas de Markov", "permutaciones decoradas", "Grassmanniana positiva", "amplitudes", "reproducción"] },
     "CON-006": { "shortTitle": "¿Qué enseñan los psicodélicos sobre la conciencia?", "status": "AUDITADO", "themes": ["psicodélicos", "receptor 5-HT2A", "red por defecto", "ensayos clínicos", "cegamiento", "marco legal"] },
     "CON-007": { "shortTitle": "¿Qué podemos saber de la conciencia de otros animales?", "status": "AUDITADO", "themes": ["conciencia animal", "prueba del espejo", "marcadores", "sintiencia", "invertebrados", "Declaración de Nueva York", "informe LSE"] },
-    "CON-008": { "shortTitle": "¿Qué sabemos de los sueños y del sueño lúcido?", "status": "AUDITADO", "themes": ["sueños", "sueño REM", "sueño no-REM", "sueño lúcido", "informes de despertar", "activación-síntesis", "zona caliente posterior", "comunicación en tiempo real", "inducción", "función de los sueños"] }
+    "CON-008": { "shortTitle": "¿Qué sabemos de los sueños y del sueño lúcido?", "status": "AUDITADO", "themes": ["sueños", "sueño REM", "sueño no-REM", "sueño lúcido", "informes de despertar", "activación-síntesis", "zona caliente posterior", "comunicación en tiempo real", "inducción", "función de los sueños"] },
+    "CON-009": { "shortTitle": "¿Qué sabemos de la meditación?", "status": "AUDITADO", "themes": ["meditación", "atención plena", "neurofenomenología", "informes en primera persona", "EEG de expertos", "red por defecto", "controles activos", "Van Dam 2018", "efectos adversos", "cese"] }
   }
 }

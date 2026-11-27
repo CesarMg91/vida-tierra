@@ -10,13 +10,14 @@ import { lillyEvidence } from "../../lib/lilly-evidence";
 import { psychedelicsEvidence } from "../../lib/psychedelics-evidence";
 import { animalConsciousnessEvidence } from "../../lib/animal-consciousness-evidence";
 import { dreamsEvidence } from "../../lib/dreams-evidence";
+import { meditationEvidence } from "../../lib/meditation-evidence";
 import { spacetimeFundamentalEvidence } from "../../lib/spacetime-fundamental-evidence";
 import { getCatalog } from "../../lib/public-data";
 import { createPageMetadata } from "../../lib/site";
 
 export const metadata: Metadata = createPageMetadata({
   title: "Conciencia y percepción — qué garantiza la observación",
-  description: "Cómo auditamos si la percepción refleja la realidad, si el espacio-tiempo es fundamental y si la conciencia puede serlo, qué queda de la obra de John C. Lilly, qué conecta agentes conscientes con partículas, qué enseñan los psicodélicos sin recomendar su uso, qué podemos saber de la conciencia de otros animales y qué sabemos de los sueños y del sueño lúcido sin enseñar a inducirlos, sin confundir un teorema, una conjetura, una observación, una interpretación y una tesis metafísica.",
+  description: "Cómo auditamos si la percepción refleja la realidad, si el espacio-tiempo es fundamental y si la conciencia puede serlo, qué queda de la obra de John C. Lilly, qué conecta agentes conscientes con partículas, qué enseñan los psicodélicos sin recomendar su uso, qué podemos saber de la conciencia de otros animales, qué sabemos de los sueños y del sueño lúcido sin enseñar a inducirlos y qué miden los estudios de meditación sin enseñar a meditar, sin confundir un teorema, una conjetura, una observación, una interpretación y una tesis metafísica.",
   pathname: "/conciencia",
   image: "/assets/visuales/hero-con-001-percepcion-interfaz.png",
 });
@@ -44,6 +45,14 @@ const dreamsCopy = {
   firstLayer: "Sistema",
   footerTitle: "Un informe no es un registro.",
   footerText: "Sistema, resultado, alcance, interpretación, salto y prueba permanecen separados entre informe, correlato, mecanismo y función. Este expediente no es una guía de inducción ni de interpretación de sueños.",
+};
+
+const meditationCopy = {
+  dossier: "CON-009",
+  emptyText: "No hay un expediente cargado. Es un estado vacío, no evidencia a favor ni en contra de lo que miden los estudios de meditación.",
+  firstLayer: "Sistema",
+  footerTitle: "Una práctica no es una revelación.",
+  footerText: "Sistema, resultado, alcance, interpretación, salto y prueba permanecen separados entre práctica, informe, correlato, efecto y afirmación metafísica. Este expediente no es una guía de meditación ni una recomendación clínica.",
 };
 
 const psychedelicsCopy = {
@@ -104,7 +113,7 @@ export default function ConsciousnessPage() {
         <div className="medicine-hero-copy">
           <p className="eyebrow">Conciencia y percepción</p>
           <h1>Del observador a la física</h1>
-          <p>Primero, si la percepción refleja la realidad. Después, si el espacio-tiempo es fundamental. Luego, si la conciencia puede serlo. Y un caso histórico: qué queda de John C. Lilly. Después, qué conecta agentes conscientes y partículas. Luego, qué enseñan los psicodélicos sobre la percepción, sin recomendar su uso. Y qué podemos saber de la conciencia de otros animales, que no pueden decirnos qué sienten. Y al final, qué sabemos de los sueños y del sueño lúcido, sin enseñar a inducirlos ni a interpretarlos. En cada paso se separa lo demostrado, lo calculado, lo observado, lo interpretado y lo que ya es metafísica.</p>
+          <p>Primero, si la percepción refleja la realidad. Después, si el espacio-tiempo es fundamental. Luego, si la conciencia puede serlo. Y un caso histórico: qué queda de John C. Lilly. Después, qué conecta agentes conscientes y partículas. Luego, qué enseñan los psicodélicos sobre la percepción, sin recomendar su uso. Y qué podemos saber de la conciencia de otros animales, que no pueden decirnos qué sienten. Luego, qué sabemos de los sueños y del sueño lúcido, sin enseñar a inducirlos ni a interpretarlos. Y al final, qué miden los estudios de meditación sobre la atención y la conciencia, sin enseñar a meditar. En cada paso se separa lo demostrado, lo calculado, lo observado, lo interpretado y lo que ya es metafísica.</p>
           <div>
             <Link className="button button-primary" href="#percepcion-realidad">Auditar la percepción <ArrowDown aria-hidden="true" /></Link>
             <Link className="medicine-text-link" href="#espacio-tiempo">Auditar el espacio-tiempo <ArrowDown aria-hidden="true" /></Link>
@@ -114,6 +123,7 @@ export default function ConsciousnessPage() {
             <Link className="medicine-text-link" href="#psicodelicos">Psicodélicos <ArrowDown aria-hidden="true" /></Link>
             <Link className="medicine-text-link" href="#conciencia-animal">Conciencia animal <ArrowDown aria-hidden="true" /></Link>
             <Link className="medicine-text-link" href="#suenos">Sueños <ArrowDown aria-hidden="true" /></Link>
+            <Link className="medicine-text-link" href="#meditacion">Meditación <ArrowDown aria-hidden="true" /></Link>
           </div>
         </div>
         <p className="medicine-visual-limit">Composición generativa no probatoria: no representa un resultado, un dato ni una estructura física real.</p>
@@ -263,8 +273,26 @@ export default function ConsciousnessPage() {
         <PerceptionRealityLab data={dreamsEvidence} copy={dreamsCopy} />
       </section>
 
+      <section className="medicine-lab-section documentary-lab-section" id="meditacion" aria-labelledby="meditation-lab-title">
+        <div className="section-heading">
+          <div><p className="eyebrow">CON-009 · laboratorio de la meditación</p><h2 id="meditation-lab-title">De la práctica a la metafísica</h2></div>
+          <p>Familias de prácticas, informes en primera persona, gamma de expertos, red por defecto, atención y percepción, controles activos, efectos adversos y el «cese». Las seis capas separan lo que se practica, lo que se informa, lo que se mide y lo que se afirma. Este expediente no es una guía de meditación ni una recomendación clínica.</p>
+        </div>
+        <figure className="consciousness-figure">
+          <Image
+            src="/assets/visuales/capas-practica-metafisica-con-009.svg"
+            alt="Tabla de cinco capas: práctica, informe, correlato, efecto y metafísica; para cada una, qué se midió, qué no se sigue y su nivel de confianza"
+            width={1600}
+            height={900}
+            sizes="(max-width: 1200px) 100vw, 1120px"
+          />
+          <figcaption>Hay prácticas distintas, informes valiosos y correlatos replicados en expertos. El efecto se encoge frente a controles activos; la metafísica no tiene datos.</figcaption>
+        </figure>
+        <PerceptionRealityLab data={meditationEvidence} copy={meditationCopy} />
+      </section>
+
       <section className="medicine-dossiers" aria-labelledby="consciousness-dossiers-title">
-        <div className="section-heading"><div><p className="eyebrow">Corpus canónico</p><h2 id="consciousness-dossiers-title">{dossiers.length === 1 ? "1 expediente auditado" : `${dossiers.length} expedientes auditados`}</h2></div><p>El programa inicial cerró con los psicodélicos como herramienta para estudiar la percepción. La conciencia animal abre su ampliación: qué se puede atribuir a quien no puede informar. Los sueños la siguen con preguntas sobre la experiencia misma, sin recomendar ninguna práctica. Cada expediente se puede leer por separado.</p></div>
+        <div className="section-heading"><div><p className="eyebrow">Corpus canónico</p><h2 id="consciousness-dossiers-title">{dossiers.length === 1 ? "1 expediente auditado" : `${dossiers.length} expedientes auditados`}</h2></div><p>El programa inicial cerró con los psicodélicos como herramienta para estudiar la percepción. La conciencia animal abre su ampliación: qué se puede atribuir a quien no puede informar. Los sueños y la meditación la siguen con preguntas sobre la experiencia misma, sin recomendar ninguna práctica. Cada expediente se puede leer por separado.</p></div>
         <div>{dossiers.map((record) => <article key={record.key}><span>{record.key}</span><p>{record.status} · {record.readingMinutes} min</p><h3>{record.shortTitle}</h3><p>{record.summary}</p><Link href={`/${record.slug}`}>Abrir expediente <ArrowRight aria-hidden="true" /></Link></article>)}</div>
       </section>
     </div>

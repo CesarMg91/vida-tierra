@@ -2313,3 +2313,16 @@ Véase 26_conciencia/INVESTIGACION_CON_007_CONCIENCIA_ANIMAL.md, 22_mapas_episte
 - `CLAIM-CON-DREAM-FUNCTION-NOT-SETTLED-001` impide presentar una función propuesta de soñar como demostrada.
 
 Véase 26_conciencia/INVESTIGACION_CON_008_SUENOS_SUENO_LUCIDO.md, 22_mapas_epistemologicos/MAPA_CON_008_SUENOS_SUENO_LUCIDO.md y 21_cronologias/CRONOLOGIA_CON_008_SUENOS_SUENO_LUCIDO.md.
+
+## CON-009 — Una práctica no es una revelación
+
+- Las clasificaciones de técnicas separan prácticas que suelen agruparse bajo «meditación».
+- La neurofenomenología separa el informe usado como método del informe tomado como registro.
+- La comparación entre expertos y novatos separa un correlato de rasgo de un efecto de la práctica.
+- Los controles activos separan el efecto total de un programa de su componente específico.
+- La búsqueda activa de efectos adversos separa su ausencia de su falta de registro.
+- `CLAIM-CON-MEDIT-STATE-TRAIT-001` impide leer una diferencia de expertos como efecto de la práctica.
+- `CLAIM-CON-MEDIT-CONTROL-GRADIENT-001` impide presentar un efecto frente a lista de espera como efecto específico.
+- `CLAIM-CON-MEDIT-METAPHYSICS-001` impide leer un estado informado como prueba de una conciencia sin cerebro.
+
+Véase 26_conciencia/INVESTIGACION_CON_009_MEDITACION.md, 22_mapas_epistemologicos/MAPA_CON_009_MEDITACION.md y 21_cronologias/CRONOLOGIA_CON_009_MEDITACION.md.
