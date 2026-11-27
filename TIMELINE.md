@@ -1823,3 +1823,104 @@ Cada fecha pertenece a un objeto fechado, medido o modelado. Una señal climáti
 | `TIME-CIV-TRANSFORM-ROME-LEAD-001` | siglos II–III d. C. | caída de las emisiones de plomo con dos grandes pestes; bajas más de `500` años | atribución por coincidencia | `SRC-MCCONNELL-LEAD-2018` | B | AUDITADO |
 | `TIME-CIV-TRANSFORM-LALIA-001` | `536–~660 d. C.` | Pequeña Edad de Hielo de la Antigüedad tardía | factor contribuyente propuesto | `SRC-BUNTGEN-LALIA-2016` | B | AUDITADO |
 | `TIME-CIV-TRANSFORM-MELLE-001` | `c. 660 d. C.` | moneda de plata con nueva minería (probablemente Melle) | noroeste de Europa | `SRC-LOVELUCK-SILVER-2018` | B-LOCAL | AUDITADO |
+
+## MED-031 — Genética médica y genómica
+
+| ID | Fecha/rango | Evento | Producto | Fuentes | Confianza | Estado |
+|---|---|---|---|---|---|---|
+| `TIME-MED-GEN-MENDEL-1866-001` | 1866 | Mendel publica en Brno sus experimentos de hibridación de guisantes | proporciones constantes | `SRC-MED-GEN-MENDEL-1866` | A/B fuente primaria | AUDITADO |
+| `TIME-MED-GEN-GARROD-1902-001` | dic. 1902 | Garrod describe la alcaptonuria como herencia recesiva e individualidad química | patrón familiar | `SRC-MED-GEN-GARROD-1902` | A/B fuente primaria | AUDITADO |
+| `TIME-MED-GEN-FISHER-1918-001` | 1918 | Fisher concilia la herencia mendeliana con los rasgos continuos y descompone la varianza | modelo estadístico | `SRC-MED-GEN-FISHER-1918` | A publicación | AUDITADO |
+| `TIME-MED-GEN-FISHER-1936-001` | abr. 1936 | Fisher sostiene que los datos de Mendel son demasiado buenos | análisis estadístico | `SRC-MED-GEN-FISHER-1936` | A/B publicación | AUDITADO |
+| `TIME-MED-GEN-LEWONTIN-1974-001` | 1974 | Lewontin: el análisis de varianza no es un análisis de causas | argumento | `SRC-MED-GEN-LEWONTIN-1974` | B argumento | AUDITADO |
+| `TIME-MED-GEN-TJIO-LEVAN-1956-001` | 1956 | Tjio y Levan cuentan 46 cromosomas humanos | recuento cromosómico | `SRC-MED-GEN-TJIO-LEVAN-1956` | A/B fuente primaria | AUDITADO |
+| `TIME-MED-GEN-LEJEUNE-1959-001` | ene. 1959 | cromosoma supernumerario en niños con síndrome de Down | nota a la Academia | `SRC-MED-GEN-LEJEUNE-1959` | A/B fuente primaria | AUDITADO |
+| `TIME-MED-GEN-BOTSTEIN-1980-001` | may. 1980 | propuesta de un mapa de ligamiento con polimorfismos del ADN | propuesta | `SRC-MED-GEN-BOTSTEIN-1980` | A publicación | AUDITADO |
+| `TIME-MED-GEN-GUSELLA-1983-001` | nov. 1983 | Huntington ligado a un marcador del cromosoma 4 | ligamiento | `SRC-MED-GEN-GUSELLA-1983` | A publicación | AUDITADO |
+| `TIME-MED-GEN-CFTR-1989-001` | sept. 1989 | identificación del gen de la fibrosis quística | gen y variante principal | `SRC-MED-GEN-RIORDAN-1989`, `SRC-MED-GEN-KEREM-1989` | A publicación | AUDITADO |
+| `TIME-MED-GEN-HALL-1990-001` | dic. 1990 | cáncer de mama familiar de inicio temprano ligado a 17q21 | ligamiento | `SRC-MED-GEN-HALL-1990` | A publicación | AUDITADO |
+| `TIME-MED-GEN-HD-1993-001` | mar. 1993 | repetición CAG expandida en el gen de Huntington | gen y mutación | `SRC-MED-GEN-HDCRG-1993` | A publicación | AUDITADO |
+| `TIME-MED-GEN-MIKI-1994-001` | oct. 1994 | candidato fuerte para BRCA1 | clonación posicional | `SRC-MED-GEN-MIKI-1994` | A publicación | AUDITADO |
+| `TIME-MED-GEN-HGP-2001-001` | feb. 2001 | borradores público y privado del genoma humano | secuencia preliminar | `SRC-MED-GEN-LANDER-2001`, `SRC-MED-GEN-VENTER-2001` | A publicación | AUDITADO |
+| `TIME-MED-GEN-HGP-2004-001` | oct. 2004 | secuencia eucromática terminada con 341 huecos | secuencia de referencia | `SRC-MED-GEN-IHGSC-2004` | A publicación | AUDITADO |
+| `TIME-MED-GEN-KLEIN-2005-001` | abr. 2005 | CFH asociado a degeneración macular en un GWAS temprano | asociación | `SRC-MED-GEN-KLEIN-2005` | A publicación | AUDITADO |
+| `TIME-MED-GEN-HARTL-2007-001` | mar. 2007 | Hartl y Fairbanks contra la falsificación de Mendel | reanálisis | `SRC-MED-GEN-HARTL-FAIRBANKS-2007` | B argumento | AUDITADO |
+| `TIME-MED-GEN-WTCCC-2007-001` | jun. 2007 | WTCCC: 24 señales en siete enfermedades | GWAS | `SRC-MED-GEN-WTCCC-2007` | A publicación | AUDITADO |
+| `TIME-MED-GEN-VISSCHER-2008-001` | mar. 2008 | la heredabilidad como parámetro de población y sus malentendidos | revisión | `SRC-MED-GEN-VISSCHER-2008` | A publicación | AUDITADO |
+| `TIME-MED-GEN-GINA-2008-001` | 21 may. 2008 | ley GINA contra la discriminación genética en salud y empleo | ley | `SRC-MED-GEN-GINA-2008` | A documental | AUDITADO |
+| `TIME-MED-GEN-INMEGEN-2009-001` | may. 2009 | diversidad genómica de mestizos mexicanos | estudio poblacional | `SRC-MED-GEN-SILVA-ZOLEZZI-2009` | A publicación | AUDITADO |
+| `TIME-MED-GEN-GAUTIER-2009-001` | 2009 | Gautier publica su testimonio sobre la trisomía 21 | testimonio | `SRC-MED-GEN-GAUTIER-HARPER-2009` | B-COND testimonio | AUDITADO |
+| `TIME-MED-GEN-MANOLIO-2009-001` | oct. 2009 | la heredabilidad perdida | revisión | `SRC-MED-GEN-MANOLIO-2009` | A publicación | AUDITADO |
+| `TIME-MED-GEN-YANG-2010-001` | jun. 2010 | 45 % de la varianza de la estatura con SNP comunes | estimación | `SRC-MED-GEN-YANG-2010` | A publicación | AUDITADO |
+| `TIME-MED-GEN-HAVASUPAI-2010-001` | 2010 | acuerdo entre la tribu havasupai y la universidad | acuerdo | `SRC-MED-GEN-MELLO-WOLF-2010` | B-COND ficha y síntesis | AUDITADO |
+| `TIME-MED-GEN-MYRIAD-2013-001` | 13 jun. 2013 | el ADN natural aislado no es patentable | sentencia | `SRC-MED-GEN-MYRIAD-2013` | A documental | AUDITADO |
+| `TIME-MED-GEN-GREEN-2013-001` | jul. 2013 | el ACMG propone informar hallazgos incidentales | documento de sociedad | `SRC-MED-GEN-GREEN-2013` | A documental | AUDITADO |
+| `TIME-MED-GEN-FDA-23ANDME-2013-001` | nov. 2013 | la FDA ordena a 23andMe dejar de comercializar sus informes de salud | orden regulatoria | `SRC-MED-GEN-ANNAS-ELIAS-2014` | B-COND ficha | AUDITADO |
+| `TIME-MED-GEN-SIGMA-2014-001` | dic. 2013–feb. 2014 | SLC16A11 y diabetes tipo 2 en México | GWAS | `SRC-MED-GEN-SIGMA-2014` | A publicación | AUDITADO |
+| `TIME-MED-GEN-H3AFRICA-2014-001` | jun. 2014 | H3Africa presenta su programa de capacidad genómica | programa | `SRC-MED-GEN-H3AFRICA-2014` | B-COND ficha | AUDITADO |
+| `TIME-MED-GEN-PMI-2015-001` | feb. 2015 | iniciativa de medicina de precisión | anuncio | `SRC-MED-GEN-COLLINS-VARMUS-2015` | A publicación | AUDITADO |
+| `TIME-MED-GEN-ACMG-2015-001` | may. 2015 | guía ACMG-AMP de cinco categorías | guía de consenso | `SRC-MED-GEN-RICHARDS-2015` | A documental | AUDITADO |
+| `TIME-MED-GEN-CLINVAR-2016-001` | nov. 2015–ene. 2016 | ClinVar como archivo público de interpretaciones | base de datos | `SRC-MED-GEN-LANDRUM-2016` | A publicación | AUDITADO |
+| `TIME-MED-GEN-LEK-2016-001` | ago. 2016 | ExAC: 60 706 exomas | base poblacional | `SRC-MED-GEN-LEK-2016` | A publicación | AUDITADO |
+| `TIME-MED-GEN-MANRAI-2016-001` | ago. 2016 | variantes de miocardiopatía reclasificadas como benignas | reclasificación | `SRC-MED-GEN-MANRAI-2016` | A publicación | AUDITADO |
+| `TIME-MED-GEN-POPEJOY-2016-001` | oct. 2016 | menos de 4 % de muestras africanas, latinoamericanas, hispanas e indígenas en los GWAS | recuento | `SRC-MED-GEN-POPEJOY-2016` | A publicación | AUDITADO |
+| `TIME-MED-GEN-KUCHENBAECKER-2017-001` | jun. 2017 | riesgos por edad en portadoras de BRCA1 y BRCA2 | cohorte prospectiva | `SRC-MED-GEN-KUCHENBAECKER-2017` | A publicación | AUDITADO |
+| `TIME-MED-GEN-VISSCHER-2017-001` | jul. 2017 | balance de diez años de GWAS | revisión | `SRC-MED-GEN-VISSCHER-2017` | A revisión | AUDITADO |
+| `TIME-MED-GEN-KHERA-2018-001` | ago. 2018 | puntajes poligénicos con riesgo equivalente a mutaciones monogénicas | desarrollo de puntajes | `SRC-MED-GEN-KHERA-2018` | A publicación | AUDITADO |
+| `TIME-MED-GEN-MERSCH-2018-001` | sept. 2018 | reclasificación de variantes en 1.45 millones de personas | estudio retrospectivo | `SRC-MED-GEN-MERSCH-2018` | A publicación | AUDITADO |
+| `TIME-MED-GEN-WALD-OLD-2019-001` | 2019 | Wald y Old: la ilusión de la predicción poligénica | comentario | `SRC-MED-GEN-WALD-OLD-2019` | B argumento | AUDITADO |
+| `TIME-MED-GEN-WRIGHT-2019-001` | feb. 2019 | penetrancia de variantes raras en UK Biobank | biobanco | `SRC-MED-GEN-WRIGHT-2019` | A publicación | AUDITADO |
+| `TIME-MED-GEN-MARTIN-2019-001` | mar. 2019 | puntajes varias veces más exactos en ascendencia europea | perspectiva | `SRC-MED-GEN-MARTIN-2019` | A publicación | AUDITADO |
+| `TIME-MED-GEN-SIRUGO-2019-001` | mar. 2019 | la diversidad que falta en los estudios genéticos | comentario | `SRC-MED-GEN-SIRUGO-2019` | B argumento | AUDITADO |
+| `TIME-MED-GEN-MOSTAFAVI-2020-001` | ene. 2020 | exactitud variable de los puntajes dentro de una ascendencia | estudio de portabilidad | `SRC-MED-GEN-MOSTAFAVI-2020` | A publicación | AUDITADO |
+| `TIME-MED-GEN-GNOMAD-2020-001` | may. 2020 | gnomAD: 443 769 variantes de pérdida de función | base poblacional | `SRC-MED-GEN-KARCZEWSKI-2020` | A publicación | AUDITADO |
+| `TIME-MED-GEN-FORREST-2022-001` | ene. 2022 | penetrancia media de 6.9 % en dos biobancos | biobanco | `SRC-MED-GEN-FORREST-2022` | A publicación | AUDITADO |
+| `TIME-MED-GEN-FATUMO-2022-001` | feb. 2022 | hoja de ruta para la diversidad genómica | perspectiva | `SRC-MED-GEN-FATUMO-2022` | B argumento | AUDITADO |
+| `TIME-MED-GEN-T2T-2022-001` | abr. 2022 | primera secuencia completa de un genoma humano | secuencia | `SRC-MED-GEN-NURK-2022` | A publicación | AUDITADO |
+| `TIME-MED-GEN-YENGO-2022-001` | oct. 2022 | mapa saturado de la estatura: 40 % frente a 10–20 % | GWAS | `SRC-MED-GEN-YENGO-2022` | A publicación | AUDITADO |
+| `TIME-MED-GEN-GWAS-CATALOG-2023-001` | ene. 2023 | GWAS Catalog con más de 45 000 estudios | base de datos | `SRC-MED-GEN-SOLLIS-2023` | A publicación | AUDITADO |
+| `TIME-MED-GEN-DING-2023-001` | may. 2023 | la exactitud de los puntajes cae con la distancia genética | estudio de portabilidad | `SRC-MED-GEN-DING-2023` | A publicación | AUDITADO |
+| `TIME-MED-GEN-SOHAIL-2023-001` | oct. 2023 | Biobanco Mexicano: mejor predicción con GWAS propios | biobanco | `SRC-MED-GEN-SOHAIL-2023` | A publicación | AUDITADO |
+| `TIME-MED-GEN-HINGORANI-2023-001` | oct. 2023 | 926 puntajes: detección mediana de 11 % | análisis secundario | `SRC-MED-GEN-HINGORANI-2023` | A publicación | AUDITADO |
+| `TIME-MED-GEN-ALLOFUS-2024-001` | feb. 2024 | All of Us publica 245 388 genomas | programa de cohorte | `SRC-MED-GEN-ALLOFUS-2024` | A publicación | AUDITADO |
+| `TIME-MED-GEN-23ANDME-2025-001` | mar. 2025 | 23andMe se acoge a la protección por quiebra | quiebra | `SRC-MED-GEN-SCIENCE-23ANDME-2025` | B-COND noticia | AUDITADO |
+| `TIME-MED-GEN-CPO-2025-001` | jun. 2025 | el tribunal designa a un defensor de la privacidad del consumidor en la quiebra de 23andMe | informe al tribunal | `SRC-MED-GEN-RICHARDS-CPO-2025` | A/B documental | AUDITADO |
+
+## CON-007 — Conciencia animal
+
+| ID | Fecha/rango | Evento | Producto | Fuentes | Confianza | Estado |
+|---|---|---|---|---|---|---|
+| `TIME-CON-ANI-GALLUP-1970-001` | 1970 | chimpancés se tocan una marca vista en el espejo; los monos no | conducta | `SRC-CON-ANI-GALLUP-1970` | A publicación | AUDITADO |
+| `TIME-CON-ANI-BLINDSIGHT-1995-001` | 1995 | visión ciega en monos con lesión de la corteza visual | marcador | `SRC-CON-ANI-COWEY-STOERIG-1995` | A publicación | AUDITADO |
+| `TIME-CON-ANI-MIRROR-2001-001` | 2001–2008 | delfines, elefantas asiáticas y urracas frente al espejo | conducta | `SRC-CON-LILLY-REISS-2001`, `SRC-CON-ANI-PLOTNIK-2006`, `SRC-CON-ANI-PRIOR-2008` | A publicación | AUDITADO |
+| `TIME-CON-ANI-FISH-PAIN-2003-001` | 2003–2016 | nociceptores en truchas y la disputa del dolor en peces | marcador y disputa teórica | `SRC-CON-ANI-SNEDDON-2003`, `SRC-CON-ANI-ROSE-2012`, `SRC-CON-ANI-KEY-2016` | A publicación | AUDITADO |
+| `TIME-CON-ANI-CULTURE-2011-001` | 2011 | diferencias culturales en niños frente a la marca | control | `SRC-CON-ANI-BROESCH-2011` | A publicación | AUDITADO |
+| `TIME-CON-ANI-CAMBRIDGE-2012-001` | 7 de julio de 2012 | Declaración de Cambridge sobre la conciencia | declaración | `SRC-CON-ANI-CAMBRIDGE-2012` | A documento | AUDITADO |
+| `TIME-CON-ANI-CRAB-2013-001` | 2013 | aprendizaje de evitación de descargas en cangrejos de costa | marcador | `SRC-CON-ANI-MAGEE-2013` | A publicación | AUDITADO |
+| `TIME-CON-ANI-TRAINING-2015-001` | 2015 | monos rhesus entrenados pasan la prueba del espejo | control | `SRC-CON-ANI-CHANG-2015` | A publicación | AUDITADO |
+| `TIME-CON-ANI-FISH-MIRROR-2019-001` | 2019–2023 | el lábrido limpiador y la prueba de la marca, con su crítica | conducta y comentario | `SRC-CON-ANI-KOHDA-2019`, `SRC-CON-ANI-DEWAAL-2019`, `SRC-CON-ANI-KOHDA-2022`, `SRC-CON-ANI-KOHDA-2023` | A publicación | AUDITADO |
+| `TIME-CON-ANI-2020-001` | 2020 | réplica fallida en urracas, correlato en cuervos y dimensiones de la conciencia | réplica, marcador y marco | `SRC-CON-ANI-SOLER-2020`, `SRC-CON-ANI-NIEDER-2020`, `SRC-CON-ANI-BIRCH-2020` | A publicación | AUDITADO |
+| `TIME-CON-ANI-OCTOPUS-2021-001` | 2021 | dolor afectivo en pulpos por preferencia de lugar condicionada | marcador | `SRC-CON-ANI-CROOK-2021` | A publicación | AUDITADO |
+| `TIME-CON-ANI-LSE-2021-001` | noviembre de 2021 | informe LSE sobre sintiencia en cefalópodos y decápodos | sintiencia | `SRC-CON-ANI-LSE-2021` | A documento | AUDITADO |
+| `TIME-CON-ANI-UK-ACT-2022-001` | 28 de abril de 2022 | ley británica de sintiencia animal con cefalópodos y decápodos | marco legal | `SRC-CON-ANI-UK-ACT-2022` | A documento / B acceso | AUDITADO |
+| `TIME-CON-ANI-BEES-2016-001` | 2016–2022 | estados parecidos a emociones, reconocimiento entre sentidos y compensación ante el daño en abejorros | marcador | `SRC-CON-ANI-SOLVI-2016`, `SRC-CON-ANI-SOLVI-2020`, `SRC-CON-ANI-GIBBONS-2022` | A publicación | AUDITADO |
+| `TIME-CON-ANI-NEW-YORK-2024-001` | 19 de abril de 2024 | Declaración de Nueva York sobre la conciencia animal | declaración | `SRC-CON-ANI-NEW-YORK-2024` | A documento | AUDITADO |
+
+## CON-008 — Sueños y sueño lúcido
+
+| ID | Fecha/rango | Evento | Producto | Fuentes | Confianza | Estado |
+|---|---|---|---|---|---|---|
+| `TIME-CON-DREAM-REM-1953-001` | 1953 | descripción de periodos regulares de movimientos oculares rápidos durante el sueño | hallazgo empírico | `SRC-CON-DREAM-ASERINSKY-1953` | A publicación | AUDITADO |
+| `TIME-CON-DREAM-RECALL-1957-001` | 1957 | despertar en los periodos de movimientos oculares como método objetivo para estudiar los sueños | informe | `SRC-CON-DREAM-DEMENT-1957` | A publicación | AUDITADO |
+| `TIME-CON-DREAM-NREM-1962-001` | 1962 | informes de sueño de distintas fases, incluido el no-REM | informe | `SRC-CON-DREAM-FOULKES-1962`, `SRC-CON-DREAM-NIELSEN-2000` | A publicación | AUDITADO |
+| `TIME-CON-DREAM-ACTIVATION-1977-001` | diciembre de 1977 | hipótesis de activación-síntesis | mecanismo propuesto | `SRC-CON-DREAM-HOBSON-MCCARLEY-1977` | A publicación | AUDITADO |
+| `TIME-CON-DREAM-LUCID-1981-001` | junio de 1981 | sueño lúcido verificado con señales acordadas durante el REM | hallazgo empírico | `SRC-CON-DREAM-LABERGE-1981` | A publicación | AUDITADO |
+| `TIME-CON-DREAM-PET-1996-001` | 1996–1997 | PET del REM y del ciclo sueño-vigilia | correlato cerebral | `SRC-CON-DREAM-MAQUET-1996`, `SRC-CON-DREAM-BRAUN-1997` | A publicación | AUDITADO |
+| `TIME-CON-DREAM-BBS-2000-001` | diciembre de 2000 | debate sobre sueños y cerebro: tres dimensiones, prosencéfalo, dos generadores y simulación de amenazas | mecanismo y función propuestos | `SRC-CON-DREAM-HOBSON-2000`, `SRC-CON-DREAM-SOLMS-2000`, `SRC-CON-DREAM-NIELSEN-2000`, `SRC-CON-DREAM-REVONSUO-2000` | A publicación | AUDITADO |
+| `TIME-CON-DREAM-INDUCTION-2012-001` | septiembre de 2012 | revisión sistemática: ninguna técnica de inducción fiable | intervención | `SRC-CON-DREAM-STUMBRYS-2012` | A revisión | AUDITADO |
+| `TIME-CON-DREAM-SERIAL-2013-001` | 2013 | despertares en serie dentro de las mismas personas y decodificación visual al inicio del sueño | informe y correlato | `SRC-CON-DREAM-SICLARI-2013`, `SRC-CON-DREAM-HORIKAWA-2013` | A publicación | AUDITADO |
+| `TIME-CON-DREAM-HOTZONE-2017-001` | 2017 | zona caliente posterior en los sueños y debate adelante-atrás | correlato cerebral | `SRC-CON-DREAM-SICLARI-2017`, `SRC-CON-DREAM-BOLY-2017`, `SRC-CON-DREAM-ODEGAARD-2017` | A publicación / B general | AUDITADO |
+| `TIME-CON-DREAM-REALTIME-2021-001` | abril de 2021 | comunicación de ida y vuelta con soñadores lúcidos en cuatro laboratorios | hallazgo empírico | `SRC-CON-DREAM-KONKOLY-2021`, `SRC-CON-DREAM-BAIRD-2021` | A publicación | AUDITADO |
+| `TIME-CON-DREAM-RESPONSIVENESS-2023-001` | 2023 | respuestas a palabras en casi todas las fases y fuentes de memoria a lo largo de la noche | hallazgo empírico e informe | `SRC-CON-DREAM-TURKER-2023`, `SRC-CON-DREAM-PICARD-DELAND-2023` | A publicación | AUDITADO |
+| `TIME-CON-DREAM-TLR-2024-001` | octubre de 2024 | señales sonoras en casa con noches de control cegadas | intervención | `SRC-CON-DREAM-KONKOLY-2024` | B | AUDITADO |
+| `TIME-CON-DREAM-LUCID-EEG-2025-001` | mayo de 2025 | análisis multicéntrico: diferencias de sensores mínimas entre lucidez y REM no lúcido | correlato cerebral | `SRC-CON-DREAM-DEMIREL-2025` | B | AUDITADO |

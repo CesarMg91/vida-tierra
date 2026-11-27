@@ -5245,3 +5245,42 @@ La deposición del último emperador de Occidente se toma como fin del imperio y
 | `ERR-CIV-TRANSFORM-ECOCIDE-NARRATIVE-001` | deforestación = ecocidio | relato moral = demografía | genomas y núcleos continuos | DOCUMENTADO |
 | `ERR-CIV-TRANSFORM-CAPITAL-SOCIETY-001` | capital = sociedad | sede = entidad | sedes y ocupación posteriores | DOCUMENTADO |
 | `ERR-CIV-TRANSFORM-WEST-FOR-EMPIRE-001` | Occidente = Roma | parte = todo | medida por región | DOCUMENTADO |
+
+## MED-031 — Genética médica y genómica
+
+| ID | Error | Por qué falla | Corrección | Estado |
+|---|---|---|---|---|
+| `ERR-MED-GEN-MENDEL-GENES-001` | Mendel descubrió los genes | vio proporciones; el gen como objeto material llegó después | separar patrón y mecanismo | ACTIVO |
+| `ERR-MED-GEN-HERITABILITY-INDIVIDUAL-001` | la heredabilidad es el porcentaje genético de una persona | es un parámetro de una población en un ambiente | leerla como partición de varianza poblacional | ACTIVO |
+| `ERR-MED-GEN-VARIANT-DESTINY-001` | tener la variante es tener la enfermedad | la penetrancia media en dos biobancos fue 6.9 % | declarar penetrancia y vía de reclutamiento | ACTIVO |
+| `ERR-MED-GEN-BRCA-SINGLE-RISK-001` | el riesgo de BRCA1 es una sola cifra | la cifra de familias difiere de la de biobancos | citar la población de origen de cada cifra | ACTIVO |
+| `ERR-MED-GEN-SEQUENCE-UNDERSTOOD-001` | leer el genoma es entenderlo | la función de la mayoría de las variantes sigue sin establecerse | separar secuencia y significado | ACTIVO |
+| `ERR-MED-GEN-ASSOCIATION-PREDICTS-001` | una asociación significativa predice | la mayoría de los efectos de los GWAS son pequeños | medir discriminación y calibración | ACTIVO |
+| `ERR-MED-GEN-PRS-DESTINY-001` | un puntaje poligénico alto es un destino | con 5 % de falsos positivos detecta una mediana de 11 % de los casos | separar riesgo relativo y probabilidad individual | ACTIVO |
+| `ERR-MED-GEN-PRS-UNIVERSAL-001` | un puntaje funciona igual en todas las ascendencias | su exactitud cae con la distancia genética | medir el desempeño fuera del origen | ACTIVO |
+| `ERR-MED-GEN-CLASSIFICATION-PERMANENT-001` | una variante patógena lo es para siempre | las clasificaciones cambian con los datos de referencia | fechar cada clasificación | ACTIVO |
+| `ERR-MED-GEN-ANCESTRY-RACE-001` | la ascendencia genética es la raza | es un continuo medido; la raza es una categoría social | no sustituir una por otra | ACTIVO |
+| `ERR-MED-GEN-DONATION-ANY-USE-001` | donar una muestra autoriza cualquier estudio | el caso havasupai lo contradice | declarar el objeto del consentimiento | ACTIVO |
+
+## CON-007 — Conciencia animal
+
+| ID | Error | Por qué falla | Corrección operativa | Estado |
+|---|---|---|---|---|
+| `ERR-CON-ANI-MIRROR-PROVES-001` | si un animal se reconoce en el espejo, está demostrado que es consciente | la prueba mide el uso del reflejo, se puede entrenar y varios resultados no se replicaron | decir qué conducta se observó y en cuántos individuos | ACTIVO |
+| `ERR-CON-ANI-MIRROR-FAIL-001` | si un animal no pasa la prueba del espejo, no es consciente | niños humanos de varias culturas no la pasan; muchos animales dependen del olfato o no tienen manos | tratar el fallo como dato ausente, no como ausencia | ACTIVO |
+| `ERR-CON-ANI-DECLARATION-PROOF-001` | la Declaración de Cambridge demostró que los animales son conscientes | es un juicio de expertos sobre sustratos, sin datos nuevos, y citó un resultado no replicado | citar los estudios y su nivel, no la firma | ACTIVO |
+| `ERR-CON-ANI-NOCICEPTION-PAIN-001` | si tiene nociceptores, siente dolor | la nocicepción puede darse sin experiencia; el informe LSE advierte que ese criterio lo cumple un animal no sintiente | combinar criterios neuronales y conductuales con niveles de confianza | ACTIVO |
+| `ERR-CON-ANI-SCALE-001` | hay animales más conscientes y menos conscientes en una escala única | la conciencia puede variar en varias dimensiones con perfiles por especie | describir el perfil de capacidades, no un rango | ACTIVO |
+| `ERR-CON-ANI-SENTIENCE-VERDICT-001` | si un animal es sintiente ya está decidido qué hacer, o si no está demostrado no importa | del dato a la obligación hacen falta premisas éticas; la falta de estudios no es evidencia de ausencia | separar el juicio de sintiencia de la decisión y declarar las premisas | ACTIVO |
+
+## CON-008 — Sueños y sueño lúcido
+
+| ID | Error | Por qué falla | Corrección operativa | Estado |
+|---|---|---|---|---|
+| `ERR-CON-DREAM-REM-EQUALS-DREAM-001` | sólo se sueña en el REM | hay informes en el no-REM, alrededor de la mitad de los despertares en promedio y 34 % en despertares en serie | decir que el REM es la fase con más sueños, no la única | ACTIVO |
+| `ERR-CON-DREAM-RANDOM-NOISE-001` | la ciencia demostró que los sueños son ruido sin sentido del tallo cerebral | la activación-síntesis hace que el prosencéfalo sintetice con la memoria, es una hipótesis y tiene rivales | presentar el mecanismo como debate abierto | ACTIVO |
+| `ERR-CON-DREAM-READ-DREAMS-001` | ya se pueden leer los sueños con un escáner | se decodificaron categorías visuales al inicio del sueño a partir de informes verbales | decir qué se decodificó, en qué fase y con qué referencia | ACTIVO |
+| `ERR-CON-DREAM-SEAT-001` | se encontró la sede de la conciencia en la parte posterior del cerebro | se encontró un correlato que predice el informe; el debate adelante-atrás sigue abierto | separar correlato, mecanismo y sede | ACTIVO |
+| `ERR-CON-DREAM-LUCID-CONTROL-001` | soñar lúcido es controlar el sueño | la mayoría de los sueños lúcidos no se acompaña de control | distinguir saber que se sueña de controlar el sueño | ACTIVO |
+| `ERR-CON-DREAM-INDUCTION-RELIABLE-001` | cualquiera puede aprender a tener sueños lúcidos con una técnica, sin riesgos | ninguna técnica es fiable, los efectos son modestos y autoinformados y los riesgos están poco estudiados | describir la inducción como investigación con límites y riesgos | ACTIVO |
+| `ERR-CON-DREAM-HIDDEN-MESSAGES-001` | los sueños traen mensajes ocultos o información del futuro | no hay datos de información verificable que la persona no pudiera conocer | tratar el contenido como experiencia ligada a la memoria, no como información externa | ACTIVO |

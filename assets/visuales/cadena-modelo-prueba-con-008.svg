@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Cadena desde un informe al despertar hasta una tesis sobre la función de soñar</title>
+  <desc id="desc">Seis capas: informe, correlato, alcance, mecanismo, función y prueba. Entre cada par hay un cortafuegos: un informe no es un registro, un correlato no es una causa, un estudio no vale para todo dormir, un mecanismo no es una función y una función propuesta no está demostrada.</desc>
+  <defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#0d1420"/><stop offset="1" stop-color="#16222f"/></linearGradient></defs>
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <text x="92" y="92" fill="#9cc1e6" font-family="Arial, sans-serif" font-size="23" font-weight="700" letter-spacing="4">CON-008 · CADENA DE INFERENCIA</text>
+  <text x="92" y="152" fill="#f4f1e8" font-family="Georgia, serif" font-size="46" font-weight="700">Un informe no es un registro, ni un correlato una causa</text>
+  <text x="92" y="198" fill="#c6d0cc" font-family="Arial, sans-serif" font-size="24">Cada paso añade supuestos; la confianza de un paso no viaja sola al siguiente.</text>
+  <rect x="92" y="300" width="222" height="250" rx="18" fill="#e8f1ee"/>
+  <text x="114" y="350" fill="#2f5f7a" font-family="Arial, sans-serif" font-size="20" font-weight="700" letter-spacing="2">01</text>
+  <text x="114" y="392" fill="#14201f" font-family="Georgia, serif" font-size="22" font-weight="700">Informe</text>
+  <text x="114" y="430" fill="#34403e" font-family="Arial, sans-serif" font-size="19" font-weight="400">lo que se cuenta</text>
+  <text x="114" y="456" fill="#34403e" font-family="Arial, sans-serif" font-size="19" font-weight="400">al despertar o se</text>
+  <text x="114" y="482" fill="#34403e" font-family="Arial, sans-serif" font-size="19" font-weight="400">señala durante el</text>
+  <text x="114" y="508" fill="#34403e" font-family="Arial, sans-serif" font-size="19" font-weight="400">sueño</text>
+  <rect x="332" y="300" width="222" height="250" rx="18" fill="#e8f1ee"/>
+  <text x="354" y="350" fill="#2f5f7a" font-family="Arial, sans-serif" font-size="20" font-weight="700" letter-spacing="2">02</text>
+  <text x="354" y="392" fill="#14201f" font-family="Georgia, serif" font-size="22" font-weight="700">Correlato</text>
+  <text x="354" y="430" fill="#34403e" font-family="Arial, sans-serif" font-size="19" font-weight="400">qué cambia en el</text>
+  <text x="354" y="456" fill="#34403e" font-family="Arial, sans-serif" font-size="19" font-weight="400">cerebro cuando</text>
+  <text x="354" y="482" fill="#34403e" font-family="Arial, sans-serif" font-size="19" font-weight="400">hay informe</text>
+  <rect x="572" y="300" width="222" height="250" rx="18" fill="#e8f1ee"/>
+  <text x="594" y="350" fill="#2f5f7a" font-family="Arial, sans-serif" font-size="20" font-weight="700" letter-spacing="2">03</text>
+  <text x="594" y="392" fill="#14201f" font-family="Georgia, serif" font-size="22" font-weight="700">Alcance</text>
+  <text x="594" y="430" fill="#34403e" font-family="Arial, sans-serif" font-size="19" font-weight="400">fase, población y</text>
+  <text x="594" y="456" fill="#34403e" font-family="Arial, sans-serif" font-size="19" font-weight="400">método que lo</text>
+  <text x="594" y="482" fill="#34403e" font-family="Arial, sans-serif" font-size="19" font-weight="400">sostienen</text>
+  <rect x="812" y="300" width="222" height="250" rx="18" fill="#f3e6cf"/>
+  <text x="834" y="350" fill="#2f5f7a" font-family="Arial, sans-serif" font-size="20" font-weight="700" letter-spacing="2">04</text>
+  <text x="834" y="392" fill="#14201f" font-family="Georgia, serif" font-size="22" font-weight="700">Mecanismo</text>
+  <text x="834" y="430" fill="#34403e" font-family="Arial, sans-serif" font-size="19" font-weight="400">qué produciría la</text>
+  <text x="834" y="456" fill="#34403e" font-family="Arial, sans-serif" font-size="19" font-weight="400">experiencia y su</text>
+  <text x="834" y="482" fill="#34403e" font-family="Arial, sans-serif" font-size="19" font-weight="400">forma</text>
+  <rect x="1052" y="300" width="222" height="250" rx="18" fill="#f3e6cf"/>
+  <text x="1074" y="350" fill="#2f5f7a" font-family="Arial, sans-serif" font-size="20" font-weight="700" letter-spacing="2">05</text>
+  <text x="1074" y="392" fill="#14201f" font-family="Georgia, serif" font-size="22" font-weight="700">Función</text>
+  <text x="1074" y="430" fill="#34403e" font-family="Arial, sans-serif" font-size="19" font-weight="400">para qué serviría</text>
+  <text x="1074" y="456" fill="#34403e" font-family="Arial, sans-serif" font-size="19" font-weight="400">soñar</text>
+  <rect x="1292" y="300" width="222" height="250" rx="18" fill="#e6ecf5"/>
+  <text x="1314" y="350" fill="#2f5f7a" font-family="Arial, sans-serif" font-size="20" font-weight="700" letter-spacing="2">06</text>
+  <text x="1314" y="392" fill="#14201f" font-family="Georgia, serif" font-size="22" font-weight="700">Prueba</text>
+  <text x="1314" y="430" fill="#34403e" font-family="Arial, sans-serif" font-size="19" font-weight="400">intervención o</text>
+  <text x="1314" y="456" fill="#34403e" font-family="Arial, sans-serif" font-size="19" font-weight="400">predicción que</text>
+  <text x="1314" y="482" fill="#34403e" font-family="Arial, sans-serif" font-size="19" font-weight="400">separaría rivales</text>
+  <line x1="323" y1="580" x2="323" y2="640" stroke="#d9785b" stroke-width="3"/>
+  <text x="323" y="676" text-anchor="middle" fill="#f0b39c" font-family="Arial, sans-serif" font-size="19">≠ registro</text>
+  <line x1="563" y1="580" x2="563" y2="640" stroke="#d9785b" stroke-width="3"/>
+  <text x="563" y="676" text-anchor="middle" fill="#f0b39c" font-family="Arial, sans-serif" font-size="19">≠ causa</text>
+  <line x1="803" y1="580" x2="803" y2="640" stroke="#d9785b" stroke-width="3"/>
+  <text x="803" y="676" text-anchor="middle" fill="#f0b39c" font-family="Arial, sans-serif" font-size="19">≠ todo dormir</text>
+  <line x1="1043" y1="580" x2="1043" y2="640" stroke="#d9785b" stroke-width="3"/>
+  <text x="1043" y="676" text-anchor="middle" fill="#f0b39c" font-family="Arial, sans-serif" font-size="19">≠ función</text>
+  <line x1="1283" y1="580" x2="1283" y2="640" stroke="#d9785b" stroke-width="3"/>
+  <text x="1283" y="676" text-anchor="middle" fill="#f0b39c" font-family="Arial, sans-serif" font-size="19">≠ demostrada</text>
+  <text x="92" y="790" fill="#9fb0ab" font-family="Arial, sans-serif" font-size="20">Verde: lo que se informa o se mide. Ocre: lo que se propone. Azul: lo que podría decidirlo.</text>
+  <text x="92" y="822" fill="#9fb0ab" font-family="Arial, sans-serif" font-size="20">Síntesis del expediente; no es una guía de inducción ni de interpretación de sueños.</text>
+</svg>

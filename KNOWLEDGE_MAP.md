@@ -2269,3 +2269,47 @@ Roma (Occidente) → plomo B; pérdida material B-COND; causa única NO
 - `CLAIM-CIV-TRANSFORM-NO-SINGLE-COLLAPSE-001` y `CLAIM-CIV-TRANSFORM-LOSSES-REAL-001` impiden tanto el «colapso de la civilización» como la negación de las pérdidas.
 
 CIV-010 no cambia el estado de claims existentes y cierra el programa CIV (1–10). Véase `INV-CIV-TRANSFORMATIONS-001`, `MAPA_CIV_010_TRANSFORMACIONES_FRAGMENTACIONES_PERSISTENCIAS.md`, `CRONOLOGIA_CIV_010_TRANSFORMACIONES_FRAGMENTACIONES_PERSISTENCIAS.md`, `cadena-niveles-colapso-civ-010.svg` y `matriz-casos-niveles-civ-010.svg`.
+
+## MED-031 — Una variante no es un destino y una población no hereda a una persona
+
+- Mendel, Garrod y Fisher separan proporción, patrón familiar, hipótesis bioquímica, modelo de varianza y disputa sobre los datos.
+- El cariotipo separa recuento, cromosoma de más, fenotipo, mecanismo y crédito.
+- El ligamiento separa marcador, familia informativa, gen localizado, variante principal y heterogeneidad.
+- BRCA1 separa ligamiento, gen candidato, patente, riesgo en familias y penetrancia poblacional.
+- El genoma de referencia separa secuencia, huecos, coordenada, función y promesa institucional.
+- Los GWAS separan asociación, efecto pequeño, heredabilidad perdida, varianza explicada y partición de causas.
+- Los puntajes poligénicos separan riesgo relativo, detección, calibración, ascendencia, contexto y uso propuesto.
+- Las variantes inciertas separan criterio, archivo, remitente, base de referencia, reclasificación y fecha.
+- La penetrancia poblacional separa lista de genes, base de referencia, biobanco y vía de reclutamiento.
+- La representación separa recuento, categoría descrita, programa, hallazgo local e inclusión con beneficio.
+- La gobernanza separa muestra, consentimiento, uso posterior, ley sectorial, regulación y custodio.
+- `CLAIM-MED-GEN-CHAIN-001` impide heredar automáticamente una propiedad entre herencia observada, variante, asociación, penetrancia, predicción, transferencia, clasificación y gobernanza.
+- `CLAIM-MED-GEN-HERITABILITY-POPULATION-001` impide leer una heredabilidad como la fracción genética de una persona.
+
+Véase 15_medicina/INVESTIGACION_MED_031_GENETICA_GENOMICA_MEDICINA_PRECISION.md, 22_mapas_epistemologicos/MAPA_MED_031_GENETICA_GENOMICA_MEDICINA_PRECISION.md, 21_cronologias/CRONOLOGIA_MED_031_GENETICA_GENOMICA_MEDICINA_PRECISION.md, assets/visuales/cadena-herencia-gobernanza-med-031.svg y assets/visuales/matriz-genetica-genomica-med-031.svg.
+
+## CON-007 — Una conducta no es una experiencia
+
+- La prueba del espejo separa el uso del reflejo de la conciencia en general.
+- Los monos entrenados y los niños de varias culturas separan fallar la prueba de carecer de experiencia.
+- La visión ciega en monos y el correlato en cuervos separan procesamiento de acceso dentro del mismo animal.
+- Las declaraciones de Cambridge y de Nueva York separan el consenso de expertos de los datos que lo sostienen.
+- El informe LSE separa la falta de estudios de la evidencia de ausencia.
+- `CLAIM-CON-ANI-FIVE-LEVELS-001` impide saltar de una conducta a una experiencia, de una experiencia a la sintiencia o de la sintiencia a un veredicto moral.
+- `CLAIM-CON-ANI-MIRROR-NOT-CONSCIOUSNESS-001` impide leer el espejo como prueba de conciencia o su fallo como prueba de ausencia.
+- `CLAIM-CON-ANI-MORAL-STATUS-001` impide presentar una decisión ética como resultado científico, y al revés.
+
+Véase 26_conciencia/INVESTIGACION_CON_007_CONCIENCIA_ANIMAL.md, 22_mapas_epistemologicos/MAPA_CON_007_CONCIENCIA_ANIMAL.md y 21_cronologias/CRONOLOGIA_CON_007_CONCIENCIA_ANIMAL.md.
+
+## CON-008 — Un informe no es un registro, ni un correlato una causa
+
+- El informe al despertar separa la experiencia, que no se observa, de lo que la persona recuerda y cuenta.
+- Los despertares en no-REM separan la fase REM del hecho de soñar.
+- La zona caliente posterior separa un correlato que predice el informe de un mecanismo o una sede.
+- La activación-síntesis y las teorías cognitivas separan dos mecanismos propuestos que ninguna prueba ha decidido.
+- La señal acordada del soñador lúcido separa la verificación de la lucidez del acceso a su contenido.
+- `CLAIM-CON-DREAM-REPORT-LIMITS-001` impide leer un informe como registro fiel de la experiencia.
+- `CLAIM-CON-DREAM-INDUCTION-LIMITS-001` impide presentar una técnica de inducción como fiable o inocua.
+- `CLAIM-CON-DREAM-FUNCTION-NOT-SETTLED-001` impide presentar una función propuesta de soñar como demostrada.
+
+Véase 26_conciencia/INVESTIGACION_CON_008_SUENOS_SUENO_LUCIDO.md, 22_mapas_epistemologicos/MAPA_CON_008_SUENOS_SUENO_LUCIDO.md y 21_cronologias/CRONOLOGIA_CON_008_SUENOS_SUENO_LUCIDO.md.

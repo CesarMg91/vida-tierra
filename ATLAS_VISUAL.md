@@ -1989,3 +1989,72 @@ Generada por el proyecto sin modelos de imagen: `node scripts/generate-civ-010-v
 ### Revisión y límites
 
 Las tres salidas se inspeccionaron completas tras rasterizar. La portada evita a propósito curvas que puedan leerse como series reales de lluvia, población o producción, mapas, personas y texto: los hilos no corresponden a casos concretos ni su grosor a una cifra, y la franja superior no reproduce ningún proxy. Los SVG de cadena y matriz se diseñaron a `1600 × 900` con `title` y `desc`; la matriz se regenera desde el módulo público para que ambos no diverjan.
+
+## 101. MED-031 — Una variante no es un destino y una población no hereda a una persona
+
+![Portada editorial de MED-031](assets/visuales/hero-med-031-genetica-genomica-medicina-precision.png)
+
+![Cadena desde la herencia observada hasta la gobernanza](assets/visuales/cadena-herencia-gobernanza-med-031.svg)
+
+![Matriz de genética médica y genómica](assets/visuales/matriz-genetica-genomica-med-031.svg)
+
+| Archivo | Tipo | Procedencia | Qué representa | Límite obligatorio |
+|---|---|---|---|---|
+| `hero-med-031-genetica-genomica-medicina-precision.png` | portada editorial generativa | rasterizado con `sharp` de `hero-med-031-genetica-genomica-medicina-precision.svg` mediante `node scripts/generate-med-031-visuals.mjs --png`, 2026-11-26 | bandas verticales de marcas cortas con densidades distintas, una nube de puntos que se dispersa y un abanico de ramas que se separan | no representa cuerpos, rostros, cromosomas, hélices, secuencias, personas, poblaciones ni un acontecimiento real; las marcas no codifican ninguna variante ni cifra |
+| `hero-med-031-genetica-genomica-medicina-precision.svg` | fuente generativa determinista | SVG producido por `scripts/generate-med-031-visuals.mjs` con semilla fija `31031` | misma composición en vectores | marcas, puntos y ramas sin información |
+| `cadena-herencia-gobernanza-med-031.svg` | diagrama epistemológico original | SVG producido por `scripts/generate-med-031-visuals.mjs`, 2026-11-26 | herencia observada, variante, asociación, penetrancia, predicción, transferencia, clasificación y gobernanza | las flechas no heredan mecanismo, enfermedad, predicción, transferencia, permanencia ni permiso |
+| `matriz-genetica-genomica-med-031.svg` | matriz documental original | SVG producido por `scripts/generate-med-031-visuals.mjs`, 2026-11-26 | once expedientes, ocho capas y presencia de cada capa | las filas no ordenan poblaciones, laboratorios ni progreso |
+
+### Procedencia de la portada
+
+Generada por el proyecto sin modelos de imagen: `node scripts/generate-med-031-visuals.mjs --png` escribe el SVG con semilla fija y lo rasteriza con `sharp` (ya instalado) a `1672 × 941`. Tamaño: `259236` bytes; SHA-256: `62d725bba272f61981834ce3f7250574cee266ad6a06df908c4c00d445b2d353`. Tres ejecuciones consecutivas producen el mismo archivo byte a byte.
+
+### Revisión y límites
+
+Las tres salidas se inspeccionaron completas tras rasterizar. La portada evita a propósito hélices de ADN, cromosomas, árboles genealógicos con personas, rostros, mapas de poblaciones, colores de piel o cualquier imagen que asocie una población con un rasgo: las bandas de marcas cortas aluden a lecturas de secuencia sin representar ninguna, la nube que se dispersa a una población que no hereda a una persona y las ramas que se separan a ascendencias que divergen. Los SVG se construyeron a `1600 × 900` (diagramas) y `1672 × 941` (portada), incluyen `title`, `desc` y tipografía de reserva. Ninguno acepta datos personales, calcula riesgos ni orienta pruebas.
+
+## 102. CON-007 — Una conducta no es una experiencia
+
+![Portada editorial de CON-007](assets/visuales/hero-con-007-conciencia-animal.png)
+
+![Escalera de cinco niveles: conducta, marcador, inferencia, sintiencia y estatus moral](assets/visuales/cadena-conducta-estatus-con-007.svg)
+
+![Matriz de siete grupos de animales por cuatro tipos de evidencia](assets/visuales/matriz-taxones-marcadores-con-007.svg)
+
+| Archivo | Tipo | Procedencia | Qué representa | Límite obligatorio |
+|---|---|---|---|---|
+| `hero-con-007-conciencia-animal.png` | portada editorial generativa | rasterizado con `sharp` de `hero-con-007-conciencia-animal.svg` mediante `node scripts/generate-con-007-visuals.mjs --png`, 2026-11-26 | grupos de puntos de colores y tamaños distintos frente a una franja clara; del otro lado, un reflejo desplazado y más tenue | no representa animales, especies, cerebros ni datos; la franja no es un espejo de ningún experimento |
+| `hero-con-007-conciencia-animal.svg` | fuente generativa determinista | SVG producido por `scripts/generate-con-007-visuals.mjs` con semilla fija | misma composición en vectores | puntos sin información |
+| `cadena-conducta-estatus-con-007.svg` | diagrama epistemológico original | SVG producido por `scripts/generate-con-007-visuals.mjs`, 2026-11-26 | cinco niveles y lo que cada uno no hereda | el orden de los peldaños no ordena especies |
+| `matriz-taxones-marcadores-con-007.svg` | matriz epistemológica original | SVG producido por `scripts/generate-con-007-visuals.mjs`, 2026-11-26 | siete grupos por cuatro tipos de evidencia | el gris significa «no revisado aquí», no que el animal falle |
+
+### Procedencia de la portada
+
+Generada por el proyecto sin modelos de imagen: `node scripts/generate-con-007-visuals.mjs --png` escribe el SVG con la semilla `7007` y lo rasteriza con `sharp` a `1672 × 941`. Tamaño: `143583` bytes; SHA-256: `ab087dbfc8cfca11fed52799326fbe46580808fe3cf2900060d02ce70e75b511`. Las portadas de CON-001 a CON-006 no se regeneraron.
+
+### Revisión y límites
+
+Las tres salidas se inspeccionaron completas tras rasterizar. La portada evita a propósito siluetas de animales, ojos o cerebros, para no sugerir que alguna especie «tiene» o «no tiene» conciencia; los grupos de puntos no corresponden a especies concretas. Los SVG de escalera y matriz se diseñaron a `1600 × 900` con `title` y `desc` y no usan `foreignObject`.
+
+## 103. CON-008 — Un informe no es un registro, ni un correlato una causa
+
+![Portada editorial de CON-008](assets/visuales/hero-con-008-suenos.png)
+
+![Cadena desde un informe al despertar hasta una tesis sobre la función de soñar](assets/visuales/cadena-modelo-prueba-con-008.svg)
+
+![Cuatro capas: informe, correlato, mecanismo y función](assets/visuales/capas-informe-funcion-con-008.svg)
+
+| Archivo | Tipo | Procedencia | Qué representa | Límite obligatorio |
+|---|---|---|---|---|
+| `hero-con-008-suenos.png` | portada editorial generativa | rasterizado con `sharp` de `hero-con-008-suenos.svg` mediante `node scripts/generate-con-008-visuals.mjs --png`, 2026-11-26 | bandas horizontales en tonos de noche que ondulan y se interrumpen; una se aclara y se ordena | no representa un hipnograma, un EEG, un cerebro, una experiencia ni un dato; sin lunas, ojos, nubes ni iconografía onírica |
+| `hero-con-008-suenos.svg` | fuente generativa determinista | SVG producido por `scripts/generate-con-008-visuals.mjs` con semilla fija `8008` | misma composición en vectores | líneas y puntos sin información |
+| `cadena-modelo-prueba-con-008.svg` | diagrama epistemológico original | SVG producido por `scripts/generate-con-008-visuals.mjs`, 2026-11-26 | informe, correlato, alcance, mecanismo, función y prueba | las flechas no heredan registro, causa, generalidad, función ni demostración |
+| `capas-informe-funcion-con-008.svg` | síntesis original | SVG producido por `scripts/generate-con-008-visuals.mjs`, 2026-11-26 | cinco filas: qué se midió, qué no se sigue y la confianza de cada capa | síntesis del expediente; no es una guía de inducción ni de interpretación de sueños |
+
+### Procedencia de la portada
+
+Generada por el proyecto sin modelos de imagen: `node scripts/generate-con-008-visuals.mjs --png` escribe el SVG con semilla fija y lo rasteriza con `sharp` (ya instalado) a `1672 × 941`. Tamaño: `251314` bytes; SHA-256: `2dda030b010aa6033c24df5e36ff1d0ac35968bce0837b11b95a3e68c51342d6`. Dos ejecuciones consecutivas producen el mismo archivo byte a byte. Las portadas de CON-001 a CON-007 no se regeneraron y quedan idénticas.
+
+### Revisión y límites
+
+Las tres salidas se inspeccionaron completas tras rasterizar. La portada evita a propósito la iconografía habitual de los sueños (lunas, estrellas reconocibles, nubes, ojos, camas o figuras dormidas) y no imita un registro real de sueño. Los diagramas no usan `foreignObject`: el texto se parte en líneas en el script para que se lea igual en cualquier visor. Los SVG incluyen `title` y `desc`.

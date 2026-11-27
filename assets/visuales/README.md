@@ -1334,3 +1334,36 @@ La portada no usa modelos de imagen: se regenera idéntica con `node scripts/gen
 | `matriz-casos-niveles-civ-010.svg` | `scripts/generate-civ-010-visuals.mjs` desde `content/civilization-transformations.json` | `1600 × 900` | código fuente versionado | estado del archivo; no ranking de sociedades |
 
 La portada no usa modelos de imagen: se regenera idéntica con `node scripts/generate-civ-010-visuals.mjs --png`. Los SVG incluyen `title` y `desc`. El procedimiento y los límites completos están en la sección «CIV-010 — Lo que se rompe y lo que sigue» de [`ATLAS_VISUAL.md`](../../ATLAS_VISUAL.md).
+
+## MED-031 — Genética médica y genómica
+
+| Archivo | Origen | Dimensiones | SHA-256 / trazabilidad | Límite |
+|---|---|---:|---|---|
+| `hero-med-031-genetica-genomica-medicina-precision.png` | rasterizado con `sharp` por `scripts/generate-med-031-visuals.mjs --png`, 2026-11-26 | `1672 × 941` | `62d725bba272f61981834ce3f7250574cee266ad6a06df908c4c00d445b2d353` | composición abstracta; no hélices, cromosomas, personas, poblaciones ni acontecimientos reales |
+| `hero-med-031-genetica-genomica-medicina-precision.svg` | `scripts/generate-med-031-visuals.mjs`, semilla fija | `1672 × 941` | código fuente versionado | marcas, puntos y ramas sin información |
+| `cadena-herencia-gobernanza-med-031.svg` | `scripts/generate-med-031-visuals.mjs` | `1600 × 900` | código fuente versionado | ocho capas inferenciales; no herencia automática |
+| `matriz-genetica-genomica-med-031.svg` | `scripts/generate-med-031-visuals.mjs` | `1600 × 900` | código fuente versionado | once expedientes y capas; no ranking |
+
+La portada no usa modelos de imagen: se regenera idéntica con `node scripts/generate-med-031-visuals.mjs --png`. Los SVG incluyen `title` y `desc`, preservan las ocho capas y no convierten patrón, variante, asociación, puntaje, clasificación ni muestra donada en mecanismo, enfermedad, predicción individual, hecho permanente o permiso. El prompt-equivalente y los límites están en `ATLAS_VISUAL.md`, en la sección de MED-031.
+
+## CON-007 — Conciencia animal
+
+| Archivo | Origen | Dimensiones | SHA-256 / trazabilidad | Límite |
+|---|---|---:|---|---|
+| `hero-con-007-conciencia-animal.png` | rasterizado con `sharp` desde el SVG generativo del proyecto, 2026-11-26 | `1672 × 941` | `ab087dbfc8cfca11fed52799326fbe46580808fe3cf2900060d02ce70e75b511` | composición abstracta; no representa animales, especies ni datos |
+| `hero-con-007-conciencia-animal.svg` | `scripts/generate-con-007-visuals.mjs`, semilla `7007` | `1672 × 941` | código fuente versionado | puntos sin información |
+| `cadena-conducta-estatus-con-007.svg` | `scripts/generate-con-007-visuals.mjs` | `1600 × 900` | código fuente versionado | cinco niveles; no ordena especies |
+| `matriz-taxones-marcadores-con-007.svg` | `scripts/generate-con-007-visuals.mjs` | `1600 × 900` | código fuente versionado | «no revisado aquí» no es fallo |
+
+La portada no usa modelos de imagen: se regenera idéntica con `node scripts/generate-con-007-visuals.mjs --png`. Los SVG incluyen `title` y `desc`. El procedimiento y los límites completos están en la sección «CON-007 — Una conducta no es una experiencia» de [`ATLAS_VISUAL.md`](../../ATLAS_VISUAL.md).
+
+## CON-008 — Sueños y sueño lúcido
+
+| Archivo | Origen | Dimensiones | SHA-256 / trazabilidad | Límite |
+|---|---|---:|---|---|
+| `hero-con-008-suenos.png` | rasterizado con `sharp` por `scripts/generate-con-008-visuals.mjs --png`, 2026-11-26 | `1672 × 941` | `2dda030b010aa6033c24df5e36ff1d0ac35968bce0837b11b95a3e68c51342d6` | composición abstracta; no representa un registro de sueño, un cerebro, una experiencia ni un dato |
+| `hero-con-008-suenos.svg` | `scripts/generate-con-008-visuals.mjs`, semilla fija | `1672 × 941` | código fuente versionado | líneas y puntos sin información |
+| `cadena-modelo-prueba-con-008.svg` | `scripts/generate-con-008-visuals.mjs` | `1600 × 900` | código fuente versionado | seis capas inferenciales; no herencia automática |
+| `capas-informe-funcion-con-008.svg` | `scripts/generate-con-008-visuals.mjs` | `1600 × 900` | código fuente versionado | síntesis del expediente; no es una guía de inducción ni de interpretación de sueños |
+
+La portada no usa modelos de imagen: se regenera idéntica con `node scripts/generate-con-008-visuals.mjs --png`. Los SVG incluyen `title` y `desc`.

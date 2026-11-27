@@ -8,13 +8,15 @@ import { consciousnessFundamentalEvidence } from "../../lib/consciousness-fundam
 import { agentsParticlesEvidence } from "../../lib/agents-particles-evidence";
 import { lillyEvidence } from "../../lib/lilly-evidence";
 import { psychedelicsEvidence } from "../../lib/psychedelics-evidence";
+import { animalConsciousnessEvidence } from "../../lib/animal-consciousness-evidence";
+import { dreamsEvidence } from "../../lib/dreams-evidence";
 import { spacetimeFundamentalEvidence } from "../../lib/spacetime-fundamental-evidence";
 import { getCatalog } from "../../lib/public-data";
 import { createPageMetadata } from "../../lib/site";
 
 export const metadata: Metadata = createPageMetadata({
   title: "Conciencia y percepción — qué garantiza la observación",
-  description: "Cómo auditamos si la percepción refleja la realidad, si el espacio-tiempo es fundamental y si la conciencia puede serlo, qué queda de la obra de John C. Lilly, qué conecta agentes conscientes con partículas y qué enseñan los psicodélicos sin recomendar su uso, sin confundir un teorema, una conjetura, una observación, una interpretación y una tesis metafísica.",
+  description: "Cómo auditamos si la percepción refleja la realidad, si el espacio-tiempo es fundamental y si la conciencia puede serlo, qué queda de la obra de John C. Lilly, qué conecta agentes conscientes con partículas, qué enseñan los psicodélicos sin recomendar su uso, qué podemos saber de la conciencia de otros animales y qué sabemos de los sueños y del sueño lúcido sin enseñar a inducirlos, sin confundir un teorema, una conjetura, una observación, una interpretación y una tesis metafísica.",
   pathname: "/conciencia",
   image: "/assets/visuales/hero-con-001-percepcion-interfaz.png",
 });
@@ -27,6 +29,22 @@ const principles = [
   ["Emergente no es ilusorio", "Si el espacio-tiempo surge de algo más profundo, sigue siendo la descripción correcta allí donde se ha probado, como la temperatura."],
   ["Interfaz no es metafísica", "Pasar de «percibimos una interfaz» o «el espacio-tiempo no es fundamental» a «la conciencia es lo fundamental» exige otro expediente."],
 ] as const;
+
+const animalCopy = {
+  dossier: "CON-007",
+  emptyText: "No hay un expediente cargado. Es un estado vacío, no evidencia a favor ni en contra de la conciencia de otros animales.",
+  firstLayer: "Sistema",
+  footerTitle: "Una conducta no es una experiencia.",
+  footerText: "Conducta, marcador, inferencia, sintiencia y estatus moral permanecen separados. Este expediente no es guía de bienestar animal ni recomendación de política pública.",
+};
+
+const dreamsCopy = {
+  dossier: "CON-008",
+  emptyText: "No hay un expediente cargado. Es un estado vacío, no evidencia a favor ni en contra de lo que sabemos de los sueños.",
+  firstLayer: "Sistema",
+  footerTitle: "Un informe no es un registro.",
+  footerText: "Sistema, resultado, alcance, interpretación, salto y prueba permanecen separados entre informe, correlato, mecanismo y función. Este expediente no es una guía de inducción ni de interpretación de sueños.",
+};
 
 const psychedelicsCopy = {
   dossier: "CON-006",
@@ -86,7 +104,7 @@ export default function ConsciousnessPage() {
         <div className="medicine-hero-copy">
           <p className="eyebrow">Conciencia y percepción</p>
           <h1>Del observador a la física</h1>
-          <p>Primero, si la percepción refleja la realidad. Después, si el espacio-tiempo es fundamental. Luego, si la conciencia puede serlo. Y un caso histórico: qué queda de John C. Lilly. Después, qué conecta agentes conscientes y partículas. Y al final, qué enseñan los psicodélicos sobre la percepción, sin recomendar su uso. En cada paso se separa lo demostrado, lo calculado, lo observado, lo interpretado y lo que ya es metafísica.</p>
+          <p>Primero, si la percepción refleja la realidad. Después, si el espacio-tiempo es fundamental. Luego, si la conciencia puede serlo. Y un caso histórico: qué queda de John C. Lilly. Después, qué conecta agentes conscientes y partículas. Luego, qué enseñan los psicodélicos sobre la percepción, sin recomendar su uso. Y qué podemos saber de la conciencia de otros animales, que no pueden decirnos qué sienten. Y al final, qué sabemos de los sueños y del sueño lúcido, sin enseñar a inducirlos ni a interpretarlos. En cada paso se separa lo demostrado, lo calculado, lo observado, lo interpretado y lo que ya es metafísica.</p>
           <div>
             <Link className="button button-primary" href="#percepcion-realidad">Auditar la percepción <ArrowDown aria-hidden="true" /></Link>
             <Link className="medicine-text-link" href="#espacio-tiempo">Auditar el espacio-tiempo <ArrowDown aria-hidden="true" /></Link>
@@ -94,6 +112,8 @@ export default function ConsciousnessPage() {
             <Link className="medicine-text-link" href="#john-lilly">El caso Lilly <ArrowDown aria-hidden="true" /></Link>
             <Link className="medicine-text-link" href="#agentes-particulas">Agentes y partículas <ArrowDown aria-hidden="true" /></Link>
             <Link className="medicine-text-link" href="#psicodelicos">Psicodélicos <ArrowDown aria-hidden="true" /></Link>
+            <Link className="medicine-text-link" href="#conciencia-animal">Conciencia animal <ArrowDown aria-hidden="true" /></Link>
+            <Link className="medicine-text-link" href="#suenos">Sueños <ArrowDown aria-hidden="true" /></Link>
           </div>
         </div>
         <p className="medicine-visual-limit">Composición generativa no probatoria: no representa un resultado, un dato ni una estructura física real.</p>
@@ -207,8 +227,44 @@ export default function ConsciousnessPage() {
         <PerceptionRealityLab data={psychedelicsEvidence} copy={psychedelicsCopy} />
       </section>
 
+      <section className="medicine-lab-section documentary-lab-section" id="conciencia-animal" aria-labelledby="animal-lab-title">
+        <div className="section-heading">
+          <div><p className="eyebrow">CON-007 · laboratorio de la conciencia animal</p><h2 id="animal-lab-title">De la conducta al estatus moral</h2></div>
+          <p>Espejo, marcadores, declaraciones, pulpos, cangrejos, abejorros y peces. Las seis capas separan lo que el animal hace, lo que eso indica y lo que se infiere de ello. Este expediente no es guía de bienestar animal ni recomendación de política pública.</p>
+        </div>
+        <figure className="consciousness-figure">
+          <Image
+            src="/assets/visuales/matriz-taxones-marcadores-con-007.svg"
+            alt="Matriz de siete grupos de animales —grandes simios, delfines y elefantes, córvidos, pez limpiador, pulpos, cangrejos verdaderos y abejorros— por cuatro tipos de evidencia: espejo, marcador neural, conducta ante el daño y la Declaración de Nueva York; muchas casillas dicen «no revisado aquí»"
+            width={1600}
+            height={900}
+            sizes="(max-width: 1200px) 100vw, 1120px"
+          />
+          <figcaption>Qué evidencia hay y dónde falta. Una casilla gris no significa que el animal falle: la falta de estudios no es evidencia de ausencia.</figcaption>
+        </figure>
+        <PerceptionRealityLab data={animalConsciousnessEvidence} copy={animalCopy} />
+      </section>
+
+      <section className="medicine-lab-section documentary-lab-section" id="suenos" aria-labelledby="dreams-lab-title">
+        <div className="section-heading">
+          <div><p className="eyebrow">CON-008 · laboratorio de los sueños</p><h2 id="dreams-lab-title">Del informe a la función</h2></div>
+          <p>Informe al despertar, teorías del mecanismo, zona caliente posterior, sueño lúcido, comunicación en tiempo real, inducción y función. Las seis capas separan lo que se cuenta, lo que se mide y lo que se propone. Este expediente no es una guía de inducción ni de interpretación de sueños.</p>
+        </div>
+        <figure className="consciousness-figure">
+          <Image
+            src="/assets/visuales/capas-informe-funcion-con-008.svg"
+            alt="Tabla de cinco capas: informe, correlato, mecanismo, función y metafísica; para cada una, qué se midió, qué no se sigue y su nivel de confianza"
+            width={1600}
+            height={900}
+            sizes="(max-width: 1200px) 100vw, 1120px"
+          />
+          <figcaption>Hay informes sólidos y correlatos que avanzan. El mecanismo y la función siguen en disputa; la metafísica no tiene datos.</figcaption>
+        </figure>
+        <PerceptionRealityLab data={dreamsEvidence} copy={dreamsCopy} />
+      </section>
+
       <section className="medicine-dossiers" aria-labelledby="consciousness-dossiers-title">
-        <div className="section-heading"><div><p className="eyebrow">Corpus canónico</p><h2 id="consciousness-dossiers-title">{dossiers.length === 1 ? "1 expediente auditado" : `${dossiers.length} expedientes auditados`}</h2></div><p>Con los psicodélicos como herramienta para estudiar la percepción, sin recomendar su uso, se completa el programa inicial de la serie. Cada expediente se puede leer por separado.</p></div>
+        <div className="section-heading"><div><p className="eyebrow">Corpus canónico</p><h2 id="consciousness-dossiers-title">{dossiers.length === 1 ? "1 expediente auditado" : `${dossiers.length} expedientes auditados`}</h2></div><p>El programa inicial cerró con los psicodélicos como herramienta para estudiar la percepción. La conciencia animal abre su ampliación: qué se puede atribuir a quien no puede informar. Los sueños la siguen con preguntas sobre la experiencia misma, sin recomendar ninguna práctica. Cada expediente se puede leer por separado.</p></div>
         <div>{dossiers.map((record) => <article key={record.key}><span>{record.key}</span><p>{record.status} · {record.readingMinutes} min</p><h3>{record.shortTitle}</h3><p>{record.summary}</p><Link href={`/${record.slug}`}>Abrir expediente <ArrowRight aria-hidden="true" /></Link></article>)}</div>
       </section>
     </div>

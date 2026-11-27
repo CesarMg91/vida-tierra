@@ -17,6 +17,7 @@ import DocumentaryMedicineLab from "../../components/DocumentaryMedicineLab";
 import EastAsianMedicineLab from "../../components/EastAsianMedicineLab";
 import EpidemiologyCountingEvidenceLab from "../../components/EpidemiologyCountingEvidenceLab";
 import EpidemicsQuarantineEvidenceLab from "../../components/EpidemicsQuarantineEvidenceLab";
+import GenomicsEvidenceLab from "../../components/GenomicsEvidenceLab";
 import GermTheoryEvidenceLab from "../../components/GermTheoryEvidenceLab";
 import GlobalHealthEvidenceLab from "../../components/GlobalHealthEvidenceLab";
 import GreekHellenisticMedicineLab from "../../components/GreekHellenisticMedicineLab";
@@ -46,6 +47,7 @@ import { documentaryMedicineEvidence } from "../../lib/documentary-medicine-evid
 import { eastAsianMedicineEvidence } from "../../lib/east-asian-medicine-evidence";
 import { epidemiologyCountingEvidence } from "../../lib/epidemiology-counting-evidence";
 import { epidemicsQuarantineEvidence } from "../../lib/epidemics-quarantine-evidence";
+import { genomicsEvidence } from "../../lib/genomics-evidence";
 import { germTheoryEvidence } from "../../lib/germ-theory-evidence";
 import { globalHealthEvidence } from "../../lib/global-health-evidence";
 import { greekHellenisticMedicineEvidence } from "../../lib/greek-hellenistic-medicine-evidence";
@@ -69,7 +71,7 @@ export const metadata: Metadata = createPageMetadata({
   title: "Historia de la medicina — archivos, cuidado y evidencia",
   description: "Cómo reconstruimos la historia mundial de la medicina desde huesos, manuscritos, cánones, instituciones y resultados sin confundir archivo, práctica o eficacia.",
   pathname: "/medicina",
-  image: "/assets/visuales/hero-med-033-medicina-digital-inteligencia-artificial.png",
+  image: "/assets/visuales/hero-med-031-genetica-genomica-medicina-precision.png",
 });
 
 const principles = [
@@ -86,8 +88,8 @@ export default function MedicinePage() {
     <div className="medicine-experience">
       <header className="medicine-hero medicine-history-hero">
         <Image
-          src="/assets/visuales/hero-med-033-medicina-digital-inteligencia-artificial.png"
-          alt="Composición abstracta: a la izquierda una retícula de celdas cuadradas con huecos, al centro haces de curvas que salen juntas y se separan y a la derecha un anillo de nodos con un hueco abierto"
+          src="/assets/visuales/hero-med-031-genetica-genomica-medicina-precision.png"
+          alt="Composición abstracta: a la izquierda bandas verticales de marcas cortas con densidades distintas, al centro una nube de puntos que se dispersa y a la derecha un abanico de ramas que se separan"
           fill
           preload
           fetchPriority="high"
@@ -96,14 +98,14 @@ export default function MedicinePage() {
         <div className="medicine-hero-shade" />
         <div className="medicine-hero-copy">
           <p className="eyebrow">Historia mundial de la medicina</p>
-          <h1>Un modelo exacto no demuestra un beneficio ni asigna una responsabilidad por sí solo</h1>
-          <p>Datos, modelo, validación, despliegue, deriva, equidad, utilidad y responsabilidad forman una cadena histórica. Ningún registro, etiqueta, exactitud retrospectiva, autorización, examen aprobado o ley hereda la necesidad medida, la validez externa, el beneficio, la competencia clínica o el responsable.</p>
+          <h1>Una variante no es un destino y una población no hereda a una persona</h1>
+          <p>Herencia observada, variante, asociación, penetrancia, predicción individual, transferencia, clasificación y gobernanza forman una cadena histórica. Ningún patrón familiar, secuencia, asociación significativa, heredabilidad, puntaje poligénico o muestra donada hereda el mecanismo, la enfermedad, la predicción para una persona, la validez en otra ascendencia o el permiso para todo uso.</p>
           <div>
-            <Link className="button button-primary" href="#medicina-digital-inteligencia-artificial">Auditar la cadena <ArrowDown aria-hidden="true" /></Link>
-            <Link className="medicine-text-link" href="/15_medicina/INVESTIGACION_MED_033_MEDICINA_DIGITAL_INTELIGENCIA_ARTIFICIAL">Leer MED-033 <ArrowRight aria-hidden="true" /></Link>
+            <Link className="button button-primary" href="#genetica-genomica">Auditar la cadena <ArrowDown aria-hidden="true" /></Link>
+            <Link className="medicine-text-link" href="/15_medicina/INVESTIGACION_MED_031_GENETICA_GENOMICA_MEDICINA_PRECISION">Leer MED-031 <ArrowRight aria-hidden="true" /></Link>
           </div>
         </div>
-        <p className="medicine-visual-limit">Composición generativa no probatoria: celdas, curvas y nodos sin información; no representa cuerpos, robots, pantallas, datos ni acontecimientos reales.</p>
+        <p className="medicine-visual-limit">Composición generativa no probatoria: marcas, puntos y ramas sin información; no representa hélices, cromosomas, personas, poblaciones ni acontecimientos reales.</p>
       </header>
 
       <section className="medicine-boundary">
@@ -114,6 +116,14 @@ export default function MedicinePage() {
       <section className="medicine-principles" aria-labelledby="medicine-principles-title">
         <header><p className="eyebrow">Contrato de lectura</p><h2 id="medicine-principles-title">Cuatro cortafuegos</h2></header>
         <div>{principles.map(([title, text], index) => <article key={title}><span>{String(index + 1).padStart(2, "0")}</span><h3>{title}</h3><p>{text}</p></article>)}</div>
+      </section>
+
+      <section className="medicine-lab-section documentary-lab-section" id="genetica-genomica" aria-labelledby="genomics-lab-title">
+        <div className="section-heading">
+          <div><p className="eyebrow">MED-031 · laboratorio de genética médica y genómica</p><h2 id="genomics-lab-title">De la herencia observada a la gobernanza</h2></div>
+          <p>Elige un expediente. Ocho capas separan herencia observada, variante, asociación, penetrancia, predicción individual, transferencia, clasificación y gobernanza sin convertir un patrón, una variante, una asociación, un puntaje, una clasificación o una muestra donada en mecanismo, enfermedad, predicción, validez en otra ascendencia, hecho permanente o permiso.</p>
+        </div>
+        <GenomicsEvidenceLab data={genomicsEvidence} />
       </section>
 
       <section className="medicine-lab-section documentary-lab-section" id="medicina-digital-inteligencia-artificial" aria-labelledby="digital-ai-lab-title">

@@ -1,0 +1,1541 @@
+{
+  "schemaVersion": 1,
+  "researchSlug": "15_medicina/INVESTIGACION_MED_031_GENETICA_GENOMICA_MEDICINA_PRECISION",
+  "cases": [
+    {
+      "id": "mendel-garrod-fisher-1866-2007",
+      "title": "De Mendel a Fisher · proporciones, individualidad química y varianza",
+      "region": "Brno, Londres y Edimburgo · 1866–2007",
+      "archive": "Verhandlungen de Brno, The Lancet, Transactions of the Royal Society of Edinburgh, Annals of Science y Genetics",
+      "layers": [
+        {
+          "kind": "inheritance",
+          "observed": "Mendel publicó en 1866 proporciones constantes de caracteres alternativos en cruzas de guisantes; Garrod vio en 1902 la alcaptonuria agrupada en hijos de primos.",
+          "inference": "Hubo patrones de herencia replicables antes de conocer su base material.",
+          "limit": "Un patrón no revela el mecanismo que lo produce.",
+          "claimIds": [
+            "CLAIM-MED-GEN-MENDEL-1866-001",
+            "CLAIM-MED-GEN-GARROD-1902-001",
+            "CLAIM-MED-GEN-PATTERN-NOT-MECHANISM-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-GEN-MENDEL-FISHER-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-GEN-MENDEL-1866",
+            "SRC-MED-GEN-GARROD-1902"
+          ]
+        },
+        {
+          "kind": "variant",
+          "observed": "Ni Mendel ni Garrod localizaron una variante: hablaron de factores y de individualidad química.",
+          "inference": "El factor era una inferencia desde el recuento.",
+          "limit": "No había objeto material identificado.",
+          "claimIds": [
+            "CLAIM-MED-GEN-GARROD-1902-001",
+            "CLAIM-MED-GEN-PATTERN-NOT-MECHANISM-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-GEN-MENDEL-FISHER-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-GEN-GARROD-1902"
+          ]
+        },
+        {
+          "kind": "association",
+          "observed": "Fisher mostró en 1918 que muchos factores mendelianos sumados explicaban las correlaciones entre parientes y descompuso la varianza.",
+          "inference": "La variación continua es compatible con la herencia mendeliana.",
+          "limit": "La descomposición de la varianza describe una población, no reparte causas en una persona.",
+          "claimIds": [
+            "CLAIM-MED-GEN-FISHER-1918-001",
+            "CLAIM-MED-GEN-HERITABILITY-POPULATION-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-GEN-MENDEL-FISHER-001",
+            "EVID-MED-GEN-METHOD-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-GEN-FISHER-1918"
+          ]
+        },
+        {
+          "kind": "penetrance",
+          "observed": "Los recuentos de Mendel no medían cuántos portadores de un factor mostraban el carácter en poblaciones humanas.",
+          "inference": "La penetrancia no era todavía una pregunta.",
+          "limit": "Las proporciones de una cruza controlada no se trasladan a familias humanas.",
+          "claimIds": [
+            "CLAIM-MED-GEN-PATTERN-NOT-MECHANISM-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-GEN-MENDEL-FISHER-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-GEN-MENDEL-1866"
+          ]
+        },
+        {
+          "kind": "prediction",
+          "observed": "La eugenesia pasó de proporciones en cruzas a juicios sobre personas que nunca se habían medido.",
+          "inference": "El salto fue lógico y político, no empírico.",
+          "limit": "Ninguna proporción de una cruza predice a una persona; MED-030 audita ese salto.",
+          "claimIds": [
+            "CLAIM-MED-GEN-EUGENICS-MISREAD-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-GEN-MENDEL-FISHER-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-GEN-MENDEL-1866",
+            "SRC-MED-GEN-FISHER-1918"
+          ]
+        },
+        {
+          "kind": "transfer",
+          "observed": "De los guisantes a los humanos, y de una cruza a una población, la ley de segregación se replicó miles de veces.",
+          "inference": "La segregación se transfiere entre organismos como regularidad.",
+          "limit": "La regularidad no transfiere los valores de un rasgo complejo.",
+          "claimIds": [
+            "CLAIM-MED-GEN-PATTERN-NOT-MECHANISM-001",
+            "CLAIM-MED-GEN-TRANSFER-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-GEN-MENDEL-FISHER-001",
+            "EVID-MED-GEN-METHOD-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-GEN-MENDEL-1866",
+            "SRC-MED-GEN-FISHER-1918"
+          ]
+        },
+        {
+          "kind": "classification",
+          "observed": "Fisher sostuvo en 1936 que los datos de Mendel eran demasiado buenos; Hartl y Fairbanks argumentaron en 2007 que no hay prueba de falsificación deliberada.",
+          "inference": "La disputa juzga un cuaderno, no la ley de segregación.",
+          "limit": "La conducta de Mendel no se decide con los datos disponibles.",
+          "claimIds": [
+            "CLAIM-MED-GEN-FISHER-1936-001",
+            "CLAIM-MED-GEN-HARTL-2007-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-GEN-MENDEL-FISHER-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-GEN-FISHER-1936",
+            "SRC-MED-GEN-HARTL-FAIRBANKS-2007"
+          ]
+        },
+        {
+          "kind": "governance",
+          "observed": "De la herencia de rasgos en familias se derivaron leyes de esterilización en el siglo XX.",
+          "inference": "La gobernanza de la herencia empezó como política sobre personas.",
+          "limit": "El daño se audita en MED-030, no aquí.",
+          "claimIds": [
+            "CLAIM-MED-GEN-EUGENICS-MISREAD-001",
+            "CLAIM-MED-GEN-NO-ADVICE-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-GEN-MENDEL-FISHER-001",
+            "EVID-MED-GEN-METHOD-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-GEN-FISHER-1918"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "karyotype-trisomy21-1956-2009",
+      "title": "Cariotipo y trisomía 21 · cromosomas contados y crédito disputado",
+      "region": "Lund y París · 1956–2009",
+      "archive": "Hereditas, Comptes rendus de la Academia de Ciencias y Human Genetics",
+      "layers": [
+        {
+          "kind": "inheritance",
+          "observed": "El síndrome de Down se describía como entidad clínica antes de conocer su base cromosómica.",
+          "inference": "Había un fenotipo reconocible sin causa conocida.",
+          "limit": "El reconocimiento clínico no dice qué se hereda ni cómo.",
+          "claimIds": [
+            "CLAIM-MED-GEN-KARYOTYPE-NOT-MECHANISM-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-GEN-KARYOTYPE-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-GEN-LEJEUNE-1959"
+          ]
+        },
+        {
+          "kind": "variant",
+          "observed": "Tjio y Levan contaron 46 cromosomas en 1956; en 1959 se comunicó un cromosoma pequeño de más en niños con síndrome de Down.",
+          "inference": "Una variante cromosómica quedó asociada a un fenotipo.",
+          "limit": "El DOI de Tjio y Levan corresponde a una redigitalización de 2010.",
+          "claimIds": [
+            "CLAIM-MED-GEN-TJIO-LEVAN-1956-001",
+            "CLAIM-MED-GEN-TRISOMY21-1959-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-GEN-KARYOTYPE-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-GEN-TJIO-LEVAN-1956",
+            "SRC-MED-GEN-LEJEUNE-1959"
+          ]
+        },
+        {
+          "kind": "association",
+          "observed": "La nota de 1959 describió nueve niños con el mismo cromosoma supernumerario.",
+          "inference": "La asociación era constante en la serie descrita.",
+          "limit": "Una serie de nueve casos no mide frecuencias poblacionales.",
+          "claimIds": [
+            "CLAIM-MED-GEN-TRISOMY21-1959-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-GEN-KARYOTYPE-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-GEN-LEJEUNE-1959"
+          ]
+        },
+        {
+          "kind": "penetrance",
+          "observed": "La asociación entre cromosoma de más y fenotipo fue constante en los casos descritos.",
+          "inference": "La presencia del cromosoma se acompañaba del síndrome.",
+          "limit": "La intensidad de cada rasgo variaba y no se medía.",
+          "claimIds": [
+            "CLAIM-MED-GEN-KARYOTYPE-NOT-MECHANISM-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-GEN-KARYOTYPE-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-GEN-LEJEUNE-1959"
+          ]
+        },
+        {
+          "kind": "prediction",
+          "observed": "El cariotipo identificó la variante cromosómica en cada niño estudiado.",
+          "inference": "Se pudo nombrar la causa cromosómica de un fenotipo.",
+          "limit": "No predijo la intensidad de los rasgos en un niño concreto.",
+          "claimIds": [
+            "CLAIM-MED-GEN-KARYOTYPE-NOT-MECHANISM-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-GEN-KARYOTYPE-001",
+            "EVID-MED-GEN-METHOD-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-GEN-LEJEUNE-1959"
+          ]
+        },
+        {
+          "kind": "transfer",
+          "observed": "El número 46 se confirmó en laboratorios de distintos países.",
+          "inference": "El recuento se transfirió como hecho replicado.",
+          "limit": "El número de 48 se había aceptado durante décadas: el consenso previo no era evidencia.",
+          "claimIds": [
+            "CLAIM-MED-GEN-TJIO-LEVAN-1956-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-GEN-KARYOTYPE-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-GEN-TJIO-LEVAN-1956"
+          ]
+        },
+        {
+          "kind": "classification",
+          "observed": "En 2009 Marthe Gautier contó que ella montó los cultivos y vio el cromosoma de más en 1958, y que el crédito se atribuyó a Lejeune.",
+          "inference": "La autoría de un hallazgo también es una clasificación con fecha.",
+          "limit": "Testimonio de parte, sin verificar en texto completo ni cotejar con cuadernos.",
+          "claimIds": [
+            "CLAIM-MED-GEN-GAUTIER-CREDIT-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-GEN-KARYOTYPE-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-GEN-GAUTIER-HARPER-2009"
+          ]
+        },
+        {
+          "kind": "governance",
+          "observed": "La disputa por el crédito llegó medio siglo después de la nota.",
+          "inference": "Quién firma no reparte el trabajo que hizo posible un hallazgo.",
+          "limit": "No se registra aquí ninguna resolución institucional del crédito.",
+          "claimIds": [
+            "CLAIM-MED-GEN-GAUTIER-CREDIT-001",
+            "CLAIM-MED-GEN-NONRANKING-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-GEN-KARYOTYPE-001",
+            "EVID-MED-GEN-METHOD-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-GEN-GAUTIER-HARPER-2009"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "linkage-huntington-cf-1980-1993",
+      "title": "Ligamiento · Huntington y fibrosis quística",
+      "region": "Utah, Boston y Toronto · 1980–1993",
+      "archive": "American Journal of Human Genetics, Nature, Cell y Science",
+      "layers": [
+        {
+          "kind": "inheritance",
+          "observed": "Familias con muchos casos de Huntington o de fibrosis quística mostraban la enfermedad a lo largo de generaciones.",
+          "inference": "Las familias informativas se volvieron instrumentos de localización.",
+          "limit": "Un pedigrí seleccionado no representa a la población.",
+          "claimIds": [
+            "CLAIM-MED-GEN-GUSELLA-1983-001",
+            "CLAIM-MED-GEN-LINKAGE-FAMILY-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-GEN-LINKAGE-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-GEN-GUSELLA-1983"
+          ]
+        },
+        {
+          "kind": "variant",
+          "observed": "Botstein propuso en 1980 un mapa con polimorfismos del ADN; en 1983 Huntington se ligó al cromosoma 4; en 1993 se halló la repetición CAG expandida y en 1989 el gen de la fibrosis quística.",
+          "inference": "Del marcador ligado se llegó a la variante causal.",
+          "limit": "Localizar un gen no explica cómo produce cada rasgo.",
+          "claimIds": [
+            "CLAIM-MED-GEN-BOTSTEIN-1980-001",
+            "CLAIM-MED-GEN-GUSELLA-1983-001",
+            "CLAIM-MED-GEN-HD-1993-001",
+            "CLAIM-MED-GEN-CFTR-1989-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-GEN-LINKAGE-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-GEN-BOTSTEIN-1980",
+            "SRC-MED-GEN-GUSELLA-1983",
+            "SRC-MED-GEN-HDCRG-1993",
+            "SRC-MED-GEN-RIORDAN-1989"
+          ]
+        },
+        {
+          "kind": "association",
+          "observed": "La repetición expandida apareció en los cromosomas con Huntington de las 75 familias examinadas; una deleción explicaba cerca de 70 % de las mutaciones de fibrosis quística.",
+          "inference": "Una variante dominaba en los pacientes estudiados.",
+          "limit": "El resto del acervo de fibrosis quística eran muchas variantes distintas.",
+          "claimIds": [
+            "CLAIM-MED-GEN-HD-1993-001",
+            "CLAIM-MED-GEN-CFTR-1989-001",
+            "CLAIM-MED-GEN-CFTR-HETEROGENEITY-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-GEN-LINKAGE-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-GEN-HDCRG-1993",
+            "SRC-MED-GEN-KEREM-1989"
+          ]
+        },
+        {
+          "kind": "penetrance",
+          "observed": "Algunas variantes de fibrosis quística se asociaban a función pancreática residual.",
+          "inference": "Un mismo gen se expresaba con fenotipos distintos.",
+          "limit": "La expresividad se midió aparte de la localización.",
+          "claimIds": [
+            "CLAIM-MED-GEN-CFTR-HETEROGENEITY-001",
+            "CLAIM-MED-GEN-VARIANT-NOT-DISEASE-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-GEN-LINKAGE-001",
+            "EVID-MED-GEN-METHOD-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-GEN-KEREM-1989"
+          ]
+        },
+        {
+          "kind": "prediction",
+          "observed": "Botstein anticipó que los marcadores ligados podrían usarse de forma predictiva dentro de las familias.",
+          "inference": "El ligamiento predice dentro de la familia donde el marcador es informativo.",
+          "limit": "Fuera de esa familia, sin la variante causal, el marcador no dice nada de nadie.",
+          "claimIds": [
+            "CLAIM-MED-GEN-BOTSTEIN-1980-001",
+            "CLAIM-MED-GEN-LINKAGE-FAMILY-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-GEN-LINKAGE-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-GEN-BOTSTEIN-1980"
+          ]
+        },
+        {
+          "kind": "transfer",
+          "observed": "La deleción principal de fibrosis quística se describió en pacientes de origen europeo.",
+          "inference": "Su frecuencia era propia de esa población.",
+          "limit": "Su proporción no se transfiere sin medirla a otras ascendencias.",
+          "claimIds": [
+            "CLAIM-MED-GEN-CFTR-1989-001",
+            "CLAIM-MED-GEN-TRANSFER-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-GEN-LINKAGE-001",
+            "EVID-MED-GEN-METHOD-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-GEN-KEREM-1989"
+          ]
+        },
+        {
+          "kind": "classification",
+          "observed": "Cada variante nueva de un gen localizado quedaba por clasificar.",
+          "inference": "Localizar un gen abrió la tarea de clasificar sus variantes.",
+          "limit": "La heterogeneidad hizo que la clasificación fuera permanente trabajo en curso.",
+          "claimIds": [
+            "CLAIM-MED-GEN-CFTR-HETEROGENEITY-001",
+            "CLAIM-MED-GEN-CLASSIFICATION-DATED-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-GEN-LINKAGE-001",
+            "EVID-MED-GEN-METHOD-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-GEN-KEREM-1989"
+          ]
+        },
+        {
+          "kind": "governance",
+          "observed": "Los estudios dependieron de familias que donaron muestras durante años.",
+          "inference": "El hallazgo descansó en donaciones familiares.",
+          "limit": "Aquí no se auditan los consentimientos de esas familias.",
+          "claimIds": [
+            "CLAIM-MED-GEN-LINKAGE-FAMILY-001",
+            "CLAIM-MED-GEN-GOVERNANCE-NOT-CONSENT-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-GEN-LINKAGE-001",
+            "EVID-MED-GEN-METHOD-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-GEN-GUSELLA-1983"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "brca1-1990-2022",
+      "title": "BRCA1 · ligamiento, patente y penetrancias",
+      "region": "Berkeley, Utah, Washington y consorcios internacionales · 1990–2022",
+      "archive": "Science, sentencia Myriad, JAMA",
+      "layers": [
+        {
+          "kind": "inheritance",
+          "observed": "El cáncer de mama de inicio temprano se agrupaba en ciertas familias.",
+          "inference": "Había un patrón familiar con heterogeneidad según la edad de inicio.",
+          "limit": "Las familias de inicio tardío dieron puntuaciones negativas.",
+          "claimIds": [
+            "CLAIM-MED-GEN-HALL-1990-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-GEN-BRCA-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-GEN-HALL-1990"
+          ]
+        },
+        {
+          "kind": "variant",
+          "observed": "Se ligó a 17q21 en 1990 con un lod de 5.98 y en 1994 se presentó un candidato con mutaciones probables en cinco de ocho familias.",
+          "inference": "La región y luego el gen quedaron localizados.",
+          "limit": "Un candidato no es una cifra de riesgo.",
+          "claimIds": [
+            "CLAIM-MED-GEN-HALL-1990-001",
+            "CLAIM-MED-GEN-MIKI-1994-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-GEN-BRCA-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-GEN-HALL-1990",
+            "SRC-MED-GEN-MIKI-1994"
+          ]
+        },
+        {
+          "kind": "association",
+          "observed": "Las familias con más casos aportaron la evidencia de asociación.",
+          "inference": "La variante se asoció con el cáncer en familias de alto riesgo.",
+          "limit": "La fuerza de la asociación depende de cómo se eligieron las familias.",
+          "claimIds": [
+            "CLAIM-MED-GEN-HALL-1990-001",
+            "CLAIM-MED-GEN-PENETRANCE-ASCERTAINMENT-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-GEN-BRCA-001",
+            "EVID-MED-GEN-METHOD-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-GEN-HALL-1990"
+          ]
+        },
+        {
+          "kind": "penetrance",
+          "observed": "En portadoras reclutadas en 94 % por clínicas familiares el riesgo acumulado a los 80 años fue 72 % con BRCA1; en dos biobancos la penetrancia media de BRCA1 y BRCA2 fue 38 %, con rango de 0 a 100 %.",
+          "inference": "La penetrancia depende de la vía de reclutamiento.",
+          "limit": "No existe un único riesgo de BRCA.",
+          "claimIds": [
+            "CLAIM-MED-GEN-KUCHENBAECKER-2017-001",
+            "CLAIM-MED-GEN-FORREST-2022-001",
+            "CLAIM-MED-GEN-BRCA-RANGE-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-GEN-BRCA-001",
+            "EVID-MED-GEN-PENETRANCE-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-GEN-KUCHENBAECKER-2017",
+            "SRC-MED-GEN-FORREST-2022"
+          ]
+        },
+        {
+          "kind": "prediction",
+          "observed": "El riesgo aumentaba con el número de familiares afectados y según la posición de la variante.",
+          "inference": "Una cifra vale para quien se parece a la cohorte que la produjo.",
+          "limit": "No es una predicción para una persona fuera de esa cohorte.",
+          "claimIds": [
+            "CLAIM-MED-GEN-KUCHENBAECKER-2017-001",
+            "CLAIM-MED-GEN-BRCA-RANGE-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-GEN-BRCA-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-GEN-KUCHENBAECKER-2017"
+          ]
+        },
+        {
+          "kind": "transfer",
+          "observed": "Las cifras de familias y las de biobancos no seleccionados difieren.",
+          "inference": "Una penetrancia no se transfiere de una vía de reclutamiento a otra.",
+          "limit": "Las cifras fuera de Europa siguen poco medidas.",
+          "claimIds": [
+            "CLAIM-MED-GEN-PENETRANCE-ASCERTAINMENT-001",
+            "CLAIM-MED-GEN-TRANSFER-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-GEN-BRCA-001",
+            "EVID-MED-GEN-PENETRANCE-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-GEN-FORREST-2022"
+          ]
+        },
+        {
+          "kind": "classification",
+          "observed": "Las variantes de BRCA1 y BRCA2 se clasifican con criterios que cambian con los datos.",
+          "inference": "La etiqueta patógena de una variante concreta tiene fecha.",
+          "limit": "Aquí no se audita la clasificación de variantes concretas.",
+          "claimIds": [
+            "CLAIM-MED-GEN-CLASSIFICATION-DATED-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-GEN-BRCA-001",
+            "EVID-MED-GEN-METHOD-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-GEN-KUCHENBAECKER-2017"
+          ]
+        },
+        {
+          "kind": "governance",
+          "observed": "El 13 de junio de 2013 la Corte Suprema de Estados Unidos resolvió que el ADN natural aislado no es patentable y el ADN complementario sintético sí puede serlo.",
+          "inference": "La propiedad sobre secuencias se decidió en un tribunal.",
+          "limit": "La sentencia es de derecho estadounidense.",
+          "claimIds": [
+            "CLAIM-MED-GEN-MYRIAD-2013-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-GEN-BRCA-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-GEN-MYRIAD-2013"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "reference-genome-2001-2022",
+      "title": "Genoma de referencia · del borrador al genoma completo",
+      "region": "Consorcio internacional y Celera · 2001–2022",
+      "archive": "Nature, Science y NEJM",
+      "layers": [
+        {
+          "kind": "inheritance",
+          "observed": "Celera secuenció ADN de cinco personas; dos genomas haploides tomados al azar diferían en promedio en un par de bases de cada 1250.",
+          "inference": "La variación entre personas es pequeña en proporción y grande en número.",
+          "limit": "Cinco donantes no representan a la especie.",
+          "claimIds": [
+            "CLAIM-MED-GEN-HGP-2001-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-GEN-GENOME-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-GEN-VENTER-2001"
+          ]
+        },
+        {
+          "kind": "variant",
+          "observed": "Borradores en 2001, eucromatina con 341 huecos en 2004 y 3055 millones de pares de bases sin huecos salvo el Y en 2022.",
+          "inference": "La secuencia de referencia se completó por etapas.",
+          "limit": "Una referencia es una coordenada, no una persona normal.",
+          "claimIds": [
+            "CLAIM-MED-GEN-HGP-2001-001",
+            "CLAIM-MED-GEN-HGP-2004-001",
+            "CLAIM-MED-GEN-T2T-2022-001",
+            "CLAIM-MED-GEN-REFERENCE-NOT-PERSON-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-GEN-GENOME-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-GEN-LANDER-2001",
+            "SRC-MED-GEN-IHGSC-2004",
+            "SRC-MED-GEN-NURK-2022"
+          ]
+        },
+        {
+          "kind": "association",
+          "observed": "En 2001 se informaron 26 588 transcritos codificantes con evidencia fuerte; en 2004, 20 000–25 000 genes.",
+          "inference": "El recuento de genes cambió con la secuencia.",
+          "limit": "Contar genes no dice qué variantes importan.",
+          "claimIds": [
+            "CLAIM-MED-GEN-HGP-2001-001",
+            "CLAIM-MED-GEN-HGP-2004-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-GEN-GENOME-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-GEN-VENTER-2001",
+            "SRC-MED-GEN-IHGSC-2004"
+          ]
+        },
+        {
+          "kind": "penetrance",
+          "observed": "La secuencia no informaba cuántos portadores de cada variante desarrollan un rasgo.",
+          "inference": "La penetrancia quedó como otra capa por medir.",
+          "limit": "Leer no es medir el efecto de lo leído.",
+          "claimIds": [
+            "CLAIM-MED-GEN-SEQUENCE-NOT-MEANING-001",
+            "CLAIM-MED-GEN-VARIANT-NOT-DISEASE-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-GEN-GENOME-001",
+            "EVID-MED-GEN-METHOD-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-GEN-VENTER-2001"
+          ]
+        },
+        {
+          "kind": "prediction",
+          "observed": "Celera advertía en 2001 que determinar qué polimorfismos tienen consecuencias funcionales seguía abierto.",
+          "inference": "La secuencia no traía su interpretación.",
+          "limit": "Leer no es entender.",
+          "claimIds": [
+            "CLAIM-MED-GEN-SEQUENCE-NOT-MEANING-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-GEN-GENOME-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-GEN-VENTER-2001"
+          ]
+        },
+        {
+          "kind": "transfer",
+          "observed": "El genoma completo de 2022 procede de una línea celular.",
+          "inference": "La referencia es útil como sistema de coordenadas para todos.",
+          "limit": "No describe la diversidad de ninguna población.",
+          "claimIds": [
+            "CLAIM-MED-GEN-T2T-2022-001",
+            "CLAIM-MED-GEN-REFERENCE-NOT-PERSON-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-GEN-GENOME-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-GEN-NURK-2022"
+          ]
+        },
+        {
+          "kind": "classification",
+          "observed": "Las variantes se describen respecto de la referencia vigente.",
+          "inference": "La descripción de una variante depende de la versión de la referencia.",
+          "limit": "Cambiar de referencia cambia coordenadas, no significados.",
+          "claimIds": [
+            "CLAIM-MED-GEN-REFERENCE-NOT-PERSON-001",
+            "CLAIM-MED-GEN-CLASSIFICATION-DATED-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-GEN-GENOME-001",
+            "EVID-MED-GEN-METHOD-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-GEN-NURK-2022"
+          ]
+        },
+        {
+          "kind": "governance",
+          "observed": "Collins y Varmus anunciaron en 2015 una iniciativa de medicina de precisión con foco inmediato en el cáncer.",
+          "inference": "Fue una promesa de investigación.",
+          "limit": "Un anuncio no evalúa resultados.",
+          "claimIds": [
+            "CLAIM-MED-GEN-PMI-2015-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-GEN-GENOME-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-GEN-COLLINS-VARMUS-2015"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gwas-heritability-2005-2022",
+      "title": "GWAS y la heredabilidad perdida",
+      "region": "Reino Unido, Estados Unidos y Australia · 1974–2022",
+      "archive": "Science, Nature, Nature Genetics, Nature Reviews Genetics, AJHG e IJE",
+      "layers": [
+        {
+          "kind": "inheritance",
+          "observed": "Los estudios de gemelos y familias estimaban heredabilidades altas para la estatura y muchas enfermedades.",
+          "inference": "Había agregación familiar por explicar.",
+          "limit": "La heredabilidad describe una población en un ambiente.",
+          "claimIds": [
+            "CLAIM-MED-GEN-VISSCHER-2008-001",
+            "CLAIM-MED-GEN-HERITABILITY-POPULATION-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-GEN-GWAS-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-GEN-VISSCHER-2008"
+          ]
+        },
+        {
+          "kind": "variant",
+          "observed": "En 2005 una variante común de CFH se asoció a la degeneración macular con 96 casos y 50 controles; en 2007 el WTCCC halló 24 señales en siete enfermedades.",
+          "inference": "Se localizaron asociaciones replicables en todo el genoma.",
+          "limit": "La mayoría de los efectos fue modesta.",
+          "claimIds": [
+            "CLAIM-MED-GEN-KLEIN-2005-001",
+            "CLAIM-MED-GEN-WTCCC-2007-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-GEN-GWAS-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-GEN-KLEIN-2005",
+            "SRC-MED-GEN-WTCCC-2007"
+          ]
+        },
+        {
+          "kind": "association",
+          "observed": "Manolio y colaboradores notaron en 2009 que las variantes halladas explicaban poco de la agregación familiar; con 5.4 millones de personas, 12 111 SNP explicaron 40 % de la varianza de la estatura en ascendencia europea.",
+          "inference": "Parte de la heredabilidad estaba repartida en efectos pequeños.",
+          "limit": "Una asociación significativa no es una predicción útil.",
+          "claimIds": [
+            "CLAIM-MED-GEN-MANOLIO-2009-001",
+            "CLAIM-MED-GEN-YANG-2010-001",
+            "CLAIM-MED-GEN-YENGO-2022-001",
+            "CLAIM-MED-GEN-ASSOCIATION-NOT-PREDICTION-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-GEN-GWAS-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-GEN-MANOLIO-2009",
+            "SRC-MED-GEN-YANG-2010",
+            "SRC-MED-GEN-YENGO-2022"
+          ]
+        },
+        {
+          "kind": "penetrance",
+          "observed": "Las asociaciones de los GWAS no medían cuántos portadores desarrollaban el rasgo.",
+          "inference": "Asociación y penetrancia son capas distintas.",
+          "limit": "Un alelo común de efecto pequeño tiene penetrancia baja por definición.",
+          "claimIds": [
+            "CLAIM-MED-GEN-ASSOCIATION-NOT-PREDICTION-001",
+            "CLAIM-MED-GEN-VARIANT-NOT-DISEASE-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-GEN-GWAS-001",
+            "EVID-MED-GEN-METHOD-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-GEN-MANOLIO-2009"
+          ]
+        },
+        {
+          "kind": "prediction",
+          "observed": "Visscher y colaboradores resumieron en 2017 una década de GWAS como fuente de biología y de dianas más que de predicción individual.",
+          "inference": "El producto principal fue biológico.",
+          "limit": "No es una evaluación de utilidad predictiva.",
+          "claimIds": [
+            "CLAIM-MED-GEN-VISSCHER-2017-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-GEN-GWAS-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-GEN-VISSCHER-2017"
+          ]
+        },
+        {
+          "kind": "transfer",
+          "observed": "Los 12 111 SNP explicaron alrededor de 10–20 % de la varianza de la estatura en otras ascendencias; el WTCCC excluyó a personas de ascendencia no europea.",
+          "inference": "Lo explicado en una ascendencia no se transfiere completo a otra.",
+          "limit": "La diferencia mezcla ascendencia, ambiente y tamaño de muestra.",
+          "claimIds": [
+            "CLAIM-MED-GEN-YENGO-2022-001",
+            "CLAIM-MED-GEN-WTCCC-2007-001",
+            "CLAIM-MED-GEN-TRANSFER-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-GEN-GWAS-001",
+            "EVID-MED-GEN-PRS-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-GEN-YENGO-2022",
+            "SRC-MED-GEN-WTCCC-2007"
+          ]
+        },
+        {
+          "kind": "classification",
+          "observed": "Lewontin argumentó en 1974 que el análisis de varianza no es un análisis de causas y no se aplica a un individuo.",
+          "inference": "La heredabilidad no es una propiedad de una persona.",
+          "limit": "Una heredabilidad de 80 % no dice que 80 % de la estatura de alguien venga de sus genes.",
+          "claimIds": [
+            "CLAIM-MED-GEN-LEWONTIN-1974-001",
+            "CLAIM-MED-GEN-HERITABILITY-POPULATION-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-GEN-GWAS-001",
+            "EVID-MED-GEN-METHOD-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-GEN-LEWONTIN-1974",
+            "SRC-MED-GEN-VISSCHER-2008"
+          ]
+        },
+        {
+          "kind": "governance",
+          "observed": "Los GWAS reunieron muestras de cientos de miles de personas de biobancos y consorcios.",
+          "inference": "La escala dependió de donaciones masivas.",
+          "limit": "La gobernanza de esas muestras no se audita en los artículos.",
+          "claimIds": [
+            "CLAIM-MED-GEN-GOVERNANCE-NOT-CONSENT-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-GEN-GWAS-001",
+            "EVID-MED-GEN-METHOD-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-GEN-YENGO-2022"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "polygenic-scores-2018-2023",
+      "title": "Puntajes poligénicos · colas de riesgo y pérdida fuera del origen",
+      "region": "Boston, Londres, Los Ángeles, Chicago y México · 2018–2023",
+      "archive": "Nature Genetics, Genetics in Medicine, BMJ Medicine, Nature y eLife",
+      "layers": [
+        {
+          "kind": "inheritance",
+          "observed": "Los puntajes se construyen con los efectos estimados en GWAS de miles de variantes.",
+          "inference": "Un puntaje resume asociaciones de una población.",
+          "limit": "Hereda los sesgos de la población de los GWAS.",
+          "claimIds": [
+            "CLAIM-MED-GEN-MARTIN-2019-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-GEN-PRS-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-GEN-MARTIN-2019"
+          ]
+        },
+        {
+          "kind": "variant",
+          "observed": "Cada puntaje suma muchas variantes de efecto pequeño.",
+          "inference": "Ninguna variante del puntaje es causal por sí sola.",
+          "limit": "El puntaje no localiza mecanismos.",
+          "claimIds": [
+            "CLAIM-MED-GEN-ASSOCIATION-NOT-PREDICTION-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-GEN-PRS-001",
+            "EVID-MED-GEN-METHOD-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-GEN-KHERA-2018"
+          ]
+        },
+        {
+          "kind": "association",
+          "observed": "Khera y colaboradores identificaron en 2018 8.0 % de la población con más del triple de riesgo coronario, veinte veces la frecuencia de portadores monogénicos de riesgo comparable.",
+          "inference": "Los puntajes identifican colas de riesgo relativo.",
+          "limit": "Una razón de momios importante para la etiología no hace útil un puntaje para predecir.",
+          "claimIds": [
+            "CLAIM-MED-GEN-KHERA-2018-001",
+            "CLAIM-MED-GEN-WALD-OLD-2019-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-GEN-PRS-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-GEN-KHERA-2018",
+            "SRC-MED-GEN-WALD-OLD-2019"
+          ]
+        },
+        {
+          "kind": "penetrance",
+          "observed": "Estar en la cola del puntaje eleva el riesgo relativo, no lo convierte en certeza.",
+          "inference": "La mayoría de los portadores de un puntaje alto no desarrolla la enfermedad en el periodo medido.",
+          "limit": "Un riesgo relativo alto no es una probabilidad individual alta.",
+          "claimIds": [
+            "CLAIM-MED-GEN-PRS-RELATIVE-NOT-ABSOLUTE-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-GEN-PRS-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-GEN-HINGORANI-2023"
+          ]
+        },
+        {
+          "kind": "prediction",
+          "observed": "En 926 puntajes de 310 enfermedades, la detección mediana con 5 % de falsos positivos fue 11 %; el 2.5 % superior del puntaje coronario aportaba 7 % de los casos.",
+          "inference": "El desempeño fue pobre para cribado y predicción individual.",
+          "limit": "Depende de métricas publicadas, casi todas en ascendencia europea.",
+          "claimIds": [
+            "CLAIM-MED-GEN-HINGORANI-2023-001",
+            "CLAIM-MED-GEN-PRS-RELATIVE-NOT-ABSOLUTE-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-GEN-PRS-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-GEN-HINGORANI-2023"
+          ]
+        },
+        {
+          "kind": "transfer",
+          "observed": "La exactitud disminuyó persona a persona con la distancia genética al entrenamiento (−0.95 en 84 rasgos) y varió con el nivel socioeconómico, la edad o el sexo dentro de una ascendencia; el Biobanco Mexicano predijo mejor varios rasgos con sus propios GWAS.",
+          "inference": "La transferencia se mide; no se supone.",
+          "limit": "La caída mezcla ascendencia, ambiente y medición.",
+          "claimIds": [
+            "CLAIM-MED-GEN-DING-2023-001",
+            "CLAIM-MED-GEN-MOSTAFAVI-2020-001",
+            "CLAIM-MED-GEN-SOHAIL-2023-001",
+            "CLAIM-MED-GEN-TRANSFER-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-GEN-PRS-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-GEN-DING-2023",
+            "SRC-MED-GEN-MOSTAFAVI-2020",
+            "SRC-MED-GEN-SOHAIL-2023"
+          ]
+        },
+        {
+          "kind": "classification",
+          "observed": "Un puntaje depende de la versión de los GWAS con los que se construyó.",
+          "inference": "El valor de un puntaje tiene fecha.",
+          "limit": "Puntajes distintos para el mismo rasgo pueden ordenar distinto a la misma persona.",
+          "claimIds": [
+            "CLAIM-MED-GEN-CLASSIFICATION-DATED-001",
+            "CLAIM-MED-GEN-ASSOCIATION-NOT-PREDICTION-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-GEN-PRS-001",
+            "EVID-MED-GEN-METHOD-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-GEN-HINGORANI-2023"
+          ]
+        },
+        {
+          "kind": "governance",
+          "observed": "Martin y colaboradores advirtieron que el uso de los puntajes disponibles beneficiaría sobre todo a personas de ascendencia europea.",
+          "inference": "Una herramienta construida en una población reparte su exactitud de forma desigual.",
+          "limit": "Ampliar las bases es condición, no garantía, de equidad.",
+          "claimIds": [
+            "CLAIM-MED-GEN-MARTIN-2019-001",
+            "CLAIM-MED-GEN-DIVERSITY-NOT-EQUITY-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-GEN-PRS-001",
+            "EVID-MED-GEN-REPRESENTATION-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-GEN-MARTIN-2019"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "vus-reclassification-2015-2018",
+      "title": "Variantes de significado incierto y reclasificación",
+      "region": "Estados Unidos · 2015–2018",
+      "archive": "Genetics in Medicine, Nucleic Acids Research, NEJM y JAMA",
+      "layers": [
+        {
+          "kind": "inheritance",
+          "observed": "Los laboratorios informan variantes halladas en pacientes y familias.",
+          "inference": "La clasificación parte de observaciones clínicas y poblacionales.",
+          "limit": "Las familias que llegan al laboratorio no representan a la población.",
+          "claimIds": [
+            "CLAIM-MED-GEN-PENETRANCE-ASCERTAINMENT-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-GEN-VUS-001",
+            "EVID-MED-GEN-METHOD-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-GEN-MERSCH-2018"
+          ]
+        },
+        {
+          "kind": "variant",
+          "observed": "La guía ACMG-AMP de 2015 fijó cinco categorías y criterios poblacionales, computacionales, funcionales y de segregación.",
+          "inference": "La variante se clasifica con reglas explícitas.",
+          "limit": "Una guía de consenso no es una validación.",
+          "claimIds": [
+            "CLAIM-MED-GEN-ACMG-2015-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-GEN-VUS-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-GEN-RICHARDS-2015"
+          ]
+        },
+        {
+          "kind": "association",
+          "observed": "ClinVar agrega interpretaciones por variante y condición y marca consenso o conflicto.",
+          "inference": "La significación declarada es la de los remitentes.",
+          "limit": "La base archiva juicios, no los produce.",
+          "claimIds": [
+            "CLAIM-MED-GEN-CLINVAR-2016-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-GEN-VUS-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-GEN-LANDRUM-2016"
+          ]
+        },
+        {
+          "kind": "penetrance",
+          "observed": "Variantes informadas como causales de miocardiopatía hipertrófica eran más comunes en estadounidenses negros que en blancos y se reclasificaron como benignas.",
+          "inference": "Una variante frecuente en personas sin la enfermedad no puede tener penetrancia alta.",
+          "limit": "Se midió en una enfermedad.",
+          "claimIds": [
+            "CLAIM-MED-GEN-MANRAI-2016-001",
+            "CLAIM-MED-GEN-VARIANT-NOT-DISEASE-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-GEN-VUS-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-GEN-MANRAI-2016"
+          ]
+        },
+        {
+          "kind": "prediction",
+          "observed": "Varios pacientes de ascendencia africana o no especificada recibieron informes positivos con esas variantes.",
+          "inference": "La clasificación errónea se convirtió en un informe para personas concretas.",
+          "limit": "No se audita aquí ninguna decisión posterior de esos pacientes.",
+          "claimIds": [
+            "CLAIM-MED-GEN-MANRAI-2016-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-GEN-VUS-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-GEN-MANRAI-2016"
+          ]
+        },
+        {
+          "kind": "transfer",
+          "observed": "Las simulaciones indicaron que incluir incluso pocas personas negras en los controles probablemente habría evitado el error.",
+          "inference": "La clasificación depende de quién está en las bases de referencia.",
+          "limit": "Simulación, no experimento.",
+          "claimIds": [
+            "CLAIM-MED-GEN-MANRAI-SIMULATION-001",
+            "CLAIM-MED-GEN-REPRESENTATION-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-GEN-VUS-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-GEN-MANRAI-2016"
+          ]
+        },
+        {
+          "kind": "classification",
+          "observed": "En 1.45 millones de personas, 7.7 % de las variantes de significado incierto únicas se reclasificaron, 91.2 % hacia benigna, y 24.9 % de las informadas cambiaron; las patógenas cambiaron en 0.7 % y las benignas en 0.2 %.",
+          "inference": "Una clasificación es un juicio con fecha.",
+          "limit": "Un solo laboratorio comercial.",
+          "claimIds": [
+            "CLAIM-MED-GEN-MERSCH-2018-001",
+            "CLAIM-MED-GEN-MERSCH-STABLE-001",
+            "CLAIM-MED-GEN-CLASSIFICATION-DATED-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-GEN-VUS-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-GEN-MERSCH-2018"
+          ]
+        },
+        {
+          "kind": "governance",
+          "observed": "Las reclasificaciones llegan después del informe original.",
+          "inference": "Quien recibió un informe recibe una clasificación fechada.",
+          "limit": "Aquí no se audita cómo se comunica una reclasificación.",
+          "claimIds": [
+            "CLAIM-MED-GEN-CLASSIFICATION-DATED-001",
+            "CLAIM-MED-GEN-NO-ADVICE-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-GEN-VUS-001",
+            "EVID-MED-GEN-METHOD-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-GEN-MERSCH-2018"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "population-penetrance-2013-2022",
+      "title": "Penetrancia medida en poblaciones no seleccionadas",
+      "region": "Estados Unidos y Reino Unido · 2013–2022",
+      "archive": "Genetics in Medicine, Nature, AJHG y JAMA",
+      "layers": [
+        {
+          "kind": "inheritance",
+          "observed": "Las listas de genes y variantes patógenas se construyeron sobre todo con familias de alto riesgo.",
+          "inference": "La evidencia inicial venía de pedigríes seleccionados.",
+          "limit": "La selección infla la penetrancia aparente.",
+          "claimIds": [
+            "CLAIM-MED-GEN-PENETRANCE-ASCERTAINMENT-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-GEN-PENETRANCE-001",
+            "EVID-MED-GEN-METHOD-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-GEN-WRIGHT-2019"
+          ]
+        },
+        {
+          "kind": "variant",
+          "observed": "ExAC reunió 60 706 exomas y halló 3230 genes casi sin variantes truncantes, 72 % sin fenotipo establecido; gnomAD identificó 443 769 variantes de pérdida de función de alta confianza.",
+          "inference": "Las bases poblacionales muestran cuánta variación porta la gente sin enfermedad conocida.",
+          "limit": "Mayoría de ascendencia europea.",
+          "claimIds": [
+            "CLAIM-MED-GEN-LEK-2016-001",
+            "CLAIM-MED-GEN-GNOMAD-2020-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-GEN-PENETRANCE-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-GEN-LEK-2016",
+            "SRC-MED-GEN-KARCZEWSKI-2020"
+          ]
+        },
+        {
+          "kind": "association",
+          "observed": "En 379 768 participantes de UK Biobank sólo 27 variantes raras clínicamente relevantes se asociaron con un rasgo.",
+          "inference": "Muchas variantes catalogadas no muestran asociación en la población.",
+          "limit": "Diagnósticos de registro y participantes más sanos que el promedio.",
+          "claimIds": [
+            "CLAIM-MED-GEN-WRIGHT-2019-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-GEN-PENETRANCE-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-GEN-WRIGHT-2019"
+          ]
+        },
+        {
+          "kind": "penetrance",
+          "observed": "La penetrancia media fue 6.9 % para variantes patógenas frente a 0.85 % para las benignas en 72 434 participantes; una variante de HNF4A tenía menos de 10 % de penetrancia a los 40 años.",
+          "inference": "Una variante patógena no es una enfermedad.",
+          "limit": "Los registros pueden omitir diagnósticos.",
+          "claimIds": [
+            "CLAIM-MED-GEN-FORREST-2022-001",
+            "CLAIM-MED-GEN-WRIGHT-2019-001",
+            "CLAIM-MED-GEN-VARIANT-NOT-DISEASE-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-GEN-PENETRANCE-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-GEN-FORREST-2022",
+            "SRC-MED-GEN-WRIGHT-2019"
+          ]
+        },
+        {
+          "kind": "prediction",
+          "observed": "En 2013 el ACMG propuso informar hallazgos incidentales en una lista de genes y reconoció que faltaban datos de penetrancia.",
+          "inference": "La propuesta se adelantó a la medición.",
+          "limit": "El documento es normativo, no un estudio.",
+          "claimIds": [
+            "CLAIM-MED-GEN-GREEN-2013-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-GEN-PENETRANCE-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-GEN-GREEN-2013"
+          ]
+        },
+        {
+          "kind": "transfer",
+          "observed": "Uno de los dos biobancos de Forrest era mayoritariamente no europeo; UK Biobank, casi todo europeo.",
+          "inference": "La penetrancia también debe medirse por población.",
+          "limit": "Fuera de esos biobancos sigue poco medida.",
+          "claimIds": [
+            "CLAIM-MED-GEN-FORREST-2022-001",
+            "CLAIM-MED-GEN-TRANSFER-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-GEN-PENETRANCE-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-GEN-FORREST-2022"
+          ]
+        },
+        {
+          "kind": "classification",
+          "observed": "Las cifras poblacionales cuestionan clasificaciones hechas con familias.",
+          "inference": "La clasificación debe incorporar la penetrancia poblacional.",
+          "limit": "Los criterios de clasificación no cambian solos.",
+          "claimIds": [
+            "CLAIM-MED-GEN-CLASSIFICATION-DATED-001",
+            "CLAIM-MED-GEN-PENETRANCE-ASCERTAINMENT-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-GEN-PENETRANCE-001",
+            "EVID-MED-GEN-METHOD-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-GEN-FORREST-2022"
+          ]
+        },
+        {
+          "kind": "governance",
+          "observed": "Las bases poblacionales agregan datos de cohortes con consentimientos distintos.",
+          "inference": "El uso agregado depende de los términos de cada cohorte.",
+          "limit": "Aquí no se auditan esos términos.",
+          "claimIds": [
+            "CLAIM-MED-GEN-GOVERNANCE-NOT-CONSENT-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-GEN-PENETRANCE-001",
+            "EVID-MED-GEN-METHOD-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-GEN-KARCZEWSKI-2020"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "representation-mexico-2009-2024",
+      "title": "Bases de datos y representación · México como caso",
+      "region": "GWAS Catalog, África, México y Estados Unidos · 2009–2024",
+      "archive": "Nature, Cell, Science, Nature Medicine, PNAS y Nucleic Acids Research",
+      "layers": [
+        {
+          "kind": "inheritance",
+          "observed": "En 2016, con 2511 estudios del GWAS Catalog, menos de 4 % de las muestras era de personas de ascendencia africana o latinoamericana, hispanas o indígenas; se usaban 26 términos para la ascendencia africana.",
+          "inference": "Las bases no representan a la especie, y la categoría con que se cuenta es una elección.",
+          "limit": "Las categorías son las que escribieron los autores de cada estudio.",
+          "claimIds": [
+            "CLAIM-MED-GEN-POPEJOY-2016-001",
+            "CLAIM-MED-GEN-ANCESTRY-NOT-RACE-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-GEN-REPRESENTATION-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-GEN-POPEJOY-2016"
+          ]
+        },
+        {
+          "kind": "variant",
+          "observed": "SIGMA halló en 2014, en 8214 personas mexicanas y latinoamericanas, un locus de diabetes tipo 2 en SLC16A11 cuyo haplotipo de riesgo era frecuente en muestras indígenas americanas y raro en europeas y africanas.",
+          "inference": "Algunas variantes sólo aparecen al estudiar otras poblaciones.",
+          "limit": "Efecto modesto (razón de momios 1.29).",
+          "claimIds": [
+            "CLAIM-MED-GEN-SIGMA-2014-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-GEN-REPRESENTATION-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-GEN-SIGMA-2014"
+          ]
+        },
+        {
+          "kind": "association",
+          "observed": "El INMEGEN encontró en 2009 diferencias entre subpoblaciones mexicanas que debían considerarse en los estudios de asociación.",
+          "inference": "La estructura de una población cambia las asociaciones que se pueden hallar.",
+          "limit": "La categoría «mestizo» es heredada, no medida.",
+          "claimIds": [
+            "CLAIM-MED-GEN-INMEGEN-2009-001",
+            "CLAIM-MED-GEN-ANCESTRY-NOT-RACE-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-GEN-REPRESENTATION-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-GEN-SILVA-ZOLEZZI-2009"
+          ]
+        },
+        {
+          "kind": "penetrance",
+          "observed": "All of Us halló en 2024 altas tasas de replicación de 3724 variantes de 117 enfermedades en participantes de ascendencia europea y africana.",
+          "inference": "Medir en otra ascendencia permite saber qué se replica.",
+          "limit": "Replicar una asociación no es medir su penetrancia.",
+          "claimIds": [
+            "CLAIM-MED-GEN-ALLOFUS-2024-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-GEN-REPRESENTATION-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-GEN-ALLOFUS-2024"
+          ]
+        },
+        {
+          "kind": "prediction",
+          "observed": "Sirugo, Williams y Tishkoff argumentaron en 2019 que el sesgo europeo afecta la predicción de riesgos en otras poblaciones.",
+          "inference": "La predicción hereda la composición de las bases.",
+          "limit": "Comentario con ejemplos, no medición sistemática.",
+          "claimIds": [
+            "CLAIM-MED-GEN-SIRUGO-2019-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-GEN-REPRESENTATION-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-GEN-SIRUGO-2019"
+          ]
+        },
+        {
+          "kind": "transfer",
+          "observed": "El Biobanco Mexicano genotipó a 6057 personas de 898 localidades de los 32 estados y predijo mejor varios rasgos con sus propios GWAS que con los del UK Biobank.",
+          "inference": "Una población predice mejor con sus propios datos.",
+          "limit": "22 rasgos y una muestra modesta.",
+          "claimIds": [
+            "CLAIM-MED-GEN-SOHAIL-2023-001",
+            "CLAIM-MED-GEN-TRANSFER-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-GEN-REPRESENTATION-001",
+            "EVID-MED-GEN-PRS-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-GEN-SOHAIL-2023"
+          ]
+        },
+        {
+          "kind": "classification",
+          "observed": "El GWAS Catalog reunía en 2023 más de 45 000 GWAS sobre más de 5000 rasgos y declaraba dar a conocer la falta de diversidad.",
+          "inference": "Quién está en las bases decide qué se clasifica y predice.",
+          "limit": "El catálogo describe su propio recurso.",
+          "claimIds": [
+            "CLAIM-MED-GEN-GWAS-CATALOG-2023-001",
+            "CLAIM-MED-GEN-REPRESENTATION-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-GEN-REPRESENTATION-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-GEN-SOLLIS-2023"
+          ]
+        },
+        {
+          "kind": "governance",
+          "observed": "H3Africa presentó en 2014 su programa de capacidad genómica en África y Fatumo y colaboradores propusieron en 2022 una hoja de ruta para la inclusión.",
+          "inference": "La inclusión es también una cuestión de quién investiga y decide.",
+          "limit": "Sumar personas no garantiza beneficio, acceso ni control; H3Africa leído vía ficha.",
+          "claimIds": [
+            "CLAIM-MED-GEN-H3AFRICA-2014-001",
+            "CLAIM-MED-GEN-FATUMO-2022-001",
+            "CLAIM-MED-GEN-DIVERSITY-NOT-EQUITY-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-GEN-REPRESENTATION-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-GEN-H3AFRICA-2014",
+            "SRC-MED-GEN-FATUMO-2022"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "governance-havasupai-23andme-2008-2025",
+      "title": "Gobernanza · de los havasupai a la quiebra de 23andMe",
+      "region": "Arizona, Washington y tribunal de quiebras · 2008–2025",
+      "archive": "NEJM, ley GINA, Science y SSRN",
+      "layers": [
+        {
+          "kind": "inheritance",
+          "observed": "A partir de 1990 se tomaron muestras de sangre a miembros de la tribu havasupai para estudiar la diabetes.",
+          "inference": "Una donación tenía un objeto declarado.",
+          "limit": "Leído vía ficha y síntesis secundarias, sin verificar en texto completo.",
+          "claimIds": [
+            "CLAIM-MED-GEN-HAVASUPAI-2010-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-GEN-GOVERNANCE-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-GEN-MELLO-WOLF-2010"
+          ]
+        },
+        {
+          "kind": "variant",
+          "observed": "Las bases de consumidores reunieron perfiles de millones de clientes.",
+          "inference": "Los datos de consumo se volvieron un recurso de investigación y de negocio.",
+          "limit": "La asociación con rasgos no depende de quién custodia.",
+          "claimIds": [
+            "CLAIM-MED-GEN-23ANDME-2025-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-GEN-GOVERNANCE-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-GEN-SCIENCE-23ANDME-2025"
+          ]
+        },
+        {
+          "kind": "association",
+          "observed": "Las muestras guardadas se usaron después en estudios sobre esquizofrenia, endogamia y migración.",
+          "inference": "Una muestra guardada puede servir para preguntas que su donante no aceptó.",
+          "limit": "La variante buscada no cambia el problema del consentimiento.",
+          "claimIds": [
+            "CLAIM-MED-GEN-HAVASUPAI-2010-001",
+            "CLAIM-MED-GEN-GOVERNANCE-NOT-CONSENT-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-GEN-GOVERNANCE-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-GEN-MELLO-WOLF-2010"
+          ]
+        },
+        {
+          "kind": "penetrance",
+          "observed": "Los informes de salud al consumidor traducían variantes en riesgos para personas concretas.",
+          "inference": "Un informe de riesgo presupone una penetrancia medida en alguna población.",
+          "limit": "Aquí no se evalúa su exactitud.",
+          "claimIds": [
+            "CLAIM-MED-GEN-FDA-23ANDME-2013-001",
+            "CLAIM-MED-GEN-VARIANT-NOT-DISEASE-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-GEN-GOVERNANCE-001",
+            "EVID-MED-GEN-METHOD-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-GEN-ANNAS-ELIAS-2014"
+          ]
+        },
+        {
+          "kind": "prediction",
+          "observed": "En noviembre de 2013 la FDA ordenó a 23andMe dejar de comercializar sus informes de salud sin autorización.",
+          "inference": "Un informe de riesgo vendido al consumidor quedó sujeto a regulación.",
+          "limit": "Leído vía ficha del análisis de Annas y Elias, sin verificar en texto completo.",
+          "claimIds": [
+            "CLAIM-MED-GEN-FDA-23ANDME-2013-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-GEN-GOVERNANCE-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-GEN-ANNAS-ELIAS-2014"
+          ]
+        },
+        {
+          "kind": "transfer",
+          "observed": "GINA (2008) protegió contra la discriminación genética en el seguro de salud y el empleo en Estados Unidos y dejó fuera otros seguros.",
+          "inference": "Una protección legal tiene un alcance sectorial y territorial.",
+          "limit": "No viaja con los datos a otros usos ni a otros países.",
+          "claimIds": [
+            "CLAIM-MED-GEN-GINA-2008-001",
+            "CLAIM-MED-GEN-PROTECTION-PARTIAL-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-GEN-GOVERNANCE-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-GEN-GINA-2008"
+          ]
+        },
+        {
+          "kind": "classification",
+          "observed": "En 2010 la universidad aceptó un acuerdo con compensación y devolución de las muestras havasupai.",
+          "inference": "El juicio sobre el uso de las muestras cambió con la demanda.",
+          "limit": "El acuerdo no fija una regla general.",
+          "claimIds": [
+            "CLAIM-MED-GEN-HAVASUPAI-2010-001",
+            "CLAIM-MED-GEN-CLASSIFICATION-DATED-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-GEN-GOVERNANCE-001",
+            "EVID-MED-GEN-METHOD-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-GEN-MELLO-WOLF-2010"
+          ]
+        },
+        {
+          "kind": "governance",
+          "observed": "En marzo de 2025 23andMe se acogió a la protección por quiebra; un defensor de la privacidad designado en junio de 2025 examinó sus prácticas, la filtración de 2023 y las leyes aplicables.",
+          "inference": "Comprar un perfil no fija quién custodiará los datos.",
+          "limit": "La venta posterior de los activos queda sin verificar en texto completo.",
+          "claimIds": [
+            "CLAIM-MED-GEN-23ANDME-2025-001",
+            "CLAIM-MED-GEN-PROTECTION-PARTIAL-001",
+            "CLAIM-MED-GEN-GOVERNANCE-NOT-CONSENT-001"
+          ],
+          "evidenceIds": [
+            "EVID-MED-GEN-GOVERNANCE-001"
+          ],
+          "sourceIds": [
+            "SRC-MED-GEN-SCIENCE-23ANDME-2025",
+            "SRC-MED-GEN-RICHARDS-CPO-2025"
+          ]
+        }
+      ]
+    }
+  ]
+}

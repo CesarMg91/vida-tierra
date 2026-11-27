@@ -76,7 +76,7 @@ for (const { record, key } of parsedThematic) {
 }
 
 // Claves del programa pospuestas a propósito (pendientes de replanteo): no cuentan como hueco.
-const postponedThematic = new Set(["MED-031"]);
+const postponedThematic = new Set([]);
 for (const [series, records] of recordsBySeries) {
   const seriesOrders = records.map(({ order }) => order);
   check(duplicates(seriesOrders).length === 0, `órdenes ${series} duplicados: ${duplicates(seriesOrders).join(", ")}`);
@@ -774,6 +774,8 @@ for (const [file, label] of [
   ["lilly-evidence.json", "Lilly"],
   ["agents-particles-evidence.json", "agentes y partículas"],
   ["psychedelics-evidence.json", "psicodélicos"],
+  ["animal-consciousness-evidence.json", "conciencia animal"],
+  ["dreams-evidence.json", "sueños"],
 ]) {
   const labData = JSON.parse(fs.readFileSync(path.join(ROOT, "content", file), "utf8"));
   check(labData.schemaVersion === 1, `el módulo de ${label} usa una versión de esquema desconocida`);

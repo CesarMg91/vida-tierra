@@ -9,7 +9,7 @@ import { getCatalog, getKnowledgeCounts } from "../lib/public-data";
 export default function Home() {
   const catalog = getCatalog();
   const counts = getKnowledgeCounts();
-  const featuredKeys = new Set(["002", "013", "035", "052", "MED-033", "CON-001"]);
+  const featuredKeys = new Set(["002", "013", "035", "052", "MED-031", "CON-001"]);
   const featured = catalog.filter((record) => featuredKeys.has(record.key));
   const progressCatalog = catalog.map(({ order, slug, shortTitle }) => ({ order, slug, shortTitle }));
 

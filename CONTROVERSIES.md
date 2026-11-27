@@ -4212,3 +4212,38 @@ Ward-Perkins mide una caída del nivel de vida material; Brown y la Antigüedad 
 | `CONT-CIV-TRANSFORM-ANGKOR-TEMPO-001` | Angkor | declive gradual y traslado | diáspora abrupta | abierta | B |
 | `CONT-CIV-TRANSFORM-RAPANUI-ECOCIDE-001` | Rapa Nui | sin ecocidio demográfico prehispánico | autodestrucción | abierta | B |
 | `CONT-CIV-TRANSFORM-ROME-FALL-001` | Roma en Occidente | pérdida material y transformación | sólo transformación o sólo caída | abierta | B síntesis |
+
+## MED-031 — Genética médica y genómica
+
+| ID | Pregunta | Hipótesis principal | Alternativa | Evidencia discriminante | Estado |
+|---|---|---|---|---|---|
+| `CONT-MED-GEN-MENDEL-DATA-001` | ¿falsificó Mendel sus datos? | selección de experimentos o forma de contar | ajuste demasiado bueno por manipulación | reanálisis de su procedimiento y de los experimentos descartados | ABIERTA; NO DECIDE LA LEY DE SEGREGACIÓN |
+| `CONT-MED-GEN-TRISOMY-CREDIT-001` | ¿quién descubrió la trisomía 21? | trabajo de Gautier atribuido a Lejeune | descubrimiento de Lejeune con colaboradores | cuadernos de laboratorio y testimonios independientes | ABIERTA; TESTIMONIO DE PARTE |
+| `CONT-MED-GEN-BRCA-RISK-001` | ¿cuál es el riesgo de una portadora de BRCA? | cifras altas de cohortes reclutadas por familias | cifras menores en biobancos no seleccionados | cohortes no seleccionadas con seguimiento largo y diagnósticos completos | DEPENDE DEL RECLUTAMIENTO |
+| `CONT-MED-GEN-MISSING-HERITABILITY-001` | ¿dónde está la heredabilidad perdida? | variantes comunes de efecto pequeño | variantes raras o estructurales; estimaciones familiares infladas | genomas completos en muestras muy grandes y diseños con familias | PARCIALMENTE RESUELTA PARA LA ESTATURA |
+| `CONT-MED-GEN-PRS-PREDICTION-001` | ¿sirven los puntajes poligénicos para predecir en personas? | identifican colas de riesgo relativo | detección baja con pocos falsos positivos | tasas de detección y calibración en cohortes prospectivas | ABIERTA; DESEMPEÑO MEDIDO BAJO |
+| `CONT-MED-GEN-PRS-PORTABILITY-001` | ¿por qué pierden exactitud fuera de la ascendencia europea? | diferencias de ascendencia y desequilibrio de ligamiento | ambiente, medición y diseño | puntajes medidos persona a persona en muchas poblaciones | ABIERTA; CAÍDA MEDIDA |
+| `CONT-MED-GEN-RECLASSIFICATION-001` | ¿cuánto cambian las clasificaciones de variantes? | pocas patógenas y muchas inciertas | cambios mayores con bases diversas | reclasificación en varios laboratorios y poblaciones | MEDIDA EN UN LABORATORIO |
+| `CONT-MED-GEN-DIVERSITY-001` | ¿basta con diversificar las bases? | inclusión como condición de transferencia | sin control y beneficio locales reproduce la desigualdad | quién accede, quién decide y quién se beneficia | ABIERTA |
+| `CONT-MED-GEN-DATA-PROTECTION-001` | ¿protegen las leyes los datos genéticos? | GINA y leyes estatales protegen | cobertura parcial que no sigue a los datos | destino de los datos tras la venta de 23andMe | ABIERTA; VENTA SIN VERIFICAR EN TEXTO COMPLETO |
+
+## CON-007 — Conciencia animal
+
+| ID | Pregunta | Hipótesis principal | Alternativa | Evidencia discriminante | Estado |
+|---|---|---|---|---|---|
+| `CONT-CON-ANI-MIRROR-001` | ¿qué mide la prueba del espejo? | autoconciencia, presente en pocas especies | el uso aprendible del reflejo para explorar el propio cuerpo, dependiente de cultura, medio y sentido dominante | réplicas preregistradas y versiones adaptadas a cada especie, con controles de entrenamiento | ABIERTA |
+| `CONT-CON-ANI-FISH-MIRROR-001` | ¿pasa el lábrido limpiador la prueba en el mismo sentido que los grandes simios? | sí, con marcas ecológicamente relevantes; la prueba debe revisarse | conducta ambigua y marcas irritantes; nivel intermedio de comprensión del espejo | réplica por un grupo independiente con marcas no irritantes y controles ciegos | ABIERTA |
+| `CONT-CON-ANI-CORTEX-001` | ¿exige la experiencia una corteza o una estructura equivalente? | la experiencia necesita redes corticales de orden superior | estructuras subcorticales o análogas bastan | una prueba discriminante entre teorías de la conciencia | ABIERTA |
+| `CONT-CON-ANI-INVERTEBRATE-001` | ¿tienen experiencia los insectos y otros invertebrados poco estudiados? | sus compensaciones y aprendizajes indican experiencia | las mismas conductas pueden darse sin experiencia | capacidades que se agrupen y desaparezcan con el enmascaramiento | ABIERTA |
+| `CONT-CON-ANI-THRESHOLD-001` | ¿qué umbral de evidencia basta para proteger a un grupo de animales? | una posibilidad realista basta para considerar su bienestar | hace falta evidencia fuerte antes de cambiar reglas | no es empírica: depende de premisas éticas sobre riesgo e incertidumbre | ABIERTA |
+
+## CON-008 — Sueños y sueño lúcido
+
+| ID | Pregunta | Hipótesis principal | Alternativa | Evidencia discriminante | Estado |
+|---|---|---|---|---|---|
+| `CONT-CON-DREAM-REM-001` | ¿tienen el REM y el soñar un mismo generador? | soñar depende del REM y los sueños no-REM son REM encubierto | soñar depende de un mecanismo prosencefálico que el REM sólo dispara | lesiones, fármacos o intervenciones que separen REM y sueño en estudios controlados | ABIERTA |
+| `CONT-CON-DREAM-MECHANISM-001` | ¿activación-síntesis o teorías cognitivas? | el tallo cerebral genera y el prosencéfalo sintetiza | soñar es simulación continua con el pensamiento despierto en la red por defecto | una predicción que una teoría haga y la otra prohíba | ABIERTA |
+| `CONT-CON-DREAM-FRONT-BACK-001` | ¿están los correlatos de la experiencia atrás o adelante en la corteza? | zona caliente posterior | la corteza prefrontal es esencial para la experiencia subjetiva | intervención en cada región durante el sueño con cambio específico en el informe | ABIERTA |
+| `CONT-CON-DREAM-LUCID-SIGNATURE-001` | ¿hay una firma cerebral de la lucidez? | gamma frontal y activación prefrontal y parietal | las diferencias con el REM no lúcido son mínimas y dependen de artefactos y muestras pequeñas | estudios grandes, preregistrados y con datos compartidos | ABIERTA |
+| `CONT-CON-DREAM-FUNCTION-001` | ¿tiene soñar una función propia? | simular amenazas, consolidar memoria o generalizar | la función es del sueño fisiológico y la experiencia es un efecto secundario | una predicción discriminante que separe la experiencia de soñar del sueño | ABIERTA |
+| `CONT-CON-DREAM-INDUCTION-001` | ¿trae inducir sueños lúcidos más beneficios que riesgos? | beneficios para pesadillas y bienestar con bajo riesgo si la inducción funciona | riesgos para el sueño y la frontera realidad-fantasía con la práctica frecuente | ensayos con lucidez verificada, grupo control y registro de efectos adversos | ABIERTA |

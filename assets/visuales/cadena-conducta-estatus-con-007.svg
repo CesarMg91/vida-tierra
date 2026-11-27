@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">De la conducta al estatus moral: cinco niveles que no se heredan</title>
+  <desc id="desc">Escalera de cinco peldaños: conducta, marcador, inferencia, sintiencia y estatus moral. Cada peldaño añade supuestos y dice en rojo qué no hereda del anterior: una conducta no implica a alguien que la viva, un marcador no es necesario ni suficiente, una inferencia hereda su teoría, la sintiencia no decide el peso moral y el estatus moral es una decisión ética, no un resultado.</desc>
+  <defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#101a1f"/><stop offset="1" stop-color="#16282b"/></linearGradient></defs>
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <text x="92" y="92" fill="#8fd3c6" font-family="Arial, sans-serif" font-size="23" font-weight="700" letter-spacing="4">CON-007 · ESCALERA DE ATRIBUCIÓN</text>
+  <text x="92" y="152" fill="#f4f1e8" font-family="Georgia, serif" font-size="44" font-weight="700">Una conducta no es una experiencia</text>
+  <text x="92" y="198" fill="#c6d0cc" font-family="Arial, sans-serif" font-size="24">Cada peldaño añade supuestos; la confianza de uno no sube sola al siguiente.</text>
+  <rect x="92" y="520" width="268" height="300" rx="18" fill="#e8f1ee"/>
+  <text x="114" y="566" fill="#2f6f66" font-family="Arial, sans-serif" font-size="20" font-weight="700" letter-spacing="2">01</text>
+  <text x="114" y="606" fill="#14201f" font-family="Georgia, serif" font-size="25" font-weight="700">Conducta</text>
+  <text x="114" y="644" fill="#22302e" font-family="Arial, sans-serif" font-size="19" font-weight="400"><tspan x="114" dy="0">lo que el animal hace:</tspan><tspan x="114" dy="24.7">tocarse una marca,</tspan><tspan x="114" dy="24.7">evitar un lugar,</tspan><tspan x="114" dy="24.7">compensar costo y</tspan><tspan x="114" dy="24.7">recompensa</tspan></text>
+  <text x="114" y="790" fill="#a2482c" font-family="Arial, sans-serif" font-size="18" font-weight="700"><tspan x="114" dy="0">≠ alguien que lo vive</tspan></text>
+  <rect x="380" y="464" width="268" height="300" rx="18" fill="#e8f1ee"/>
+  <text x="402" y="510" fill="#2f6f66" font-family="Arial, sans-serif" font-size="20" font-weight="700" letter-spacing="2">02</text>
+  <text x="402" y="550" fill="#14201f" font-family="Georgia, serif" font-size="25" font-weight="700">Marcador</text>
+  <text x="402" y="588" fill="#22302e" font-family="Arial, sans-serif" font-size="19" font-weight="400"><tspan x="402" dy="0">rasgo conductual o</tspan><tspan x="402" dy="24.7">neuronal que en humanos</tspan><tspan x="402" dy="24.7">acompaña a la</tspan><tspan x="402" dy="24.7">experiencia</tspan></text>
+  <text x="402" y="734" fill="#a2482c" font-family="Arial, sans-serif" font-size="18" font-weight="700"><tspan x="402" dy="0">≠ necesario ni</tspan><tspan x="402" dy="23.4">suficiente</tspan></text>
+  <rect x="668" y="408" width="268" height="300" rx="18" fill="#f3e6cf"/>
+  <text x="690" y="454" fill="#2f6f66" font-family="Arial, sans-serif" font-size="20" font-weight="700" letter-spacing="2">03</text>
+  <text x="690" y="494" fill="#14201f" font-family="Georgia, serif" font-size="25" font-weight="700">Inferencia</text>
+  <text x="690" y="532" fill="#22302e" font-family="Arial, sans-serif" font-size="19" font-weight="400"><tspan x="690" dy="0">conclusión sobre la</tspan><tspan x="690" dy="24.7">experiencia, por</tspan><tspan x="690" dy="24.7">analogía o por una</tspan><tspan x="690" dy="24.7">teoría</tspan></text>
+  <text x="690" y="678" fill="#a2482c" font-family="Arial, sans-serif" font-size="18" font-weight="700"><tspan x="690" dy="0">≠ la teoría que la</tspan><tspan x="690" dy="23.4">sostiene</tspan></text>
+  <rect x="956" y="352" width="268" height="300" rx="18" fill="#f3e6cf"/>
+  <text x="978" y="398" fill="#2f6f66" font-family="Arial, sans-serif" font-size="20" font-weight="700" letter-spacing="2">04</text>
+  <text x="978" y="438" fill="#14201f" font-family="Georgia, serif" font-size="25" font-weight="700">Sintiencia</text>
+  <text x="978" y="476" fill="#22302e" font-family="Arial, sans-serif" font-size="19" font-weight="400"><tspan x="978" dy="0">juicio graduado:</tspan><tspan x="978" dy="24.7">experiencias con valor</tspan><tspan x="978" dy="24.7">positivo o negativo</tspan></text>
+  <text x="978" y="622" fill="#a2482c" font-family="Arial, sans-serif" font-size="18" font-weight="700"><tspan x="978" dy="0">≠ peso moral decidido</tspan></text>
+  <rect x="1244" y="296" width="268" height="300" rx="18" fill="#e6ecf5"/>
+  <text x="1266" y="342" fill="#2f6f66" font-family="Arial, sans-serif" font-size="20" font-weight="700" letter-spacing="2">05</text>
+  <text x="1266" y="382" fill="#14201f" font-family="Georgia, serif" font-size="25" font-weight="700">Estatus moral</text>
+  <text x="1266" y="420" fill="#22302e" font-family="Arial, sans-serif" font-size="19" font-weight="400"><tspan x="1266" dy="0">qué se debe hacer: exige</tspan><tspan x="1266" dy="24.7">premisas éticas además</tspan><tspan x="1266" dy="24.7">de datos</tspan></text>
+  <text x="1266" y="566" fill="#a2482c" font-family="Arial, sans-serif" font-size="18" font-weight="700"><tspan x="1266" dy="0">decisión, no resultado</tspan></text>
+  <text x="92" y="870" fill="#9fb0ab" font-family="Arial, sans-serif" font-size="19">Verde: se observa o se mide. Ocre: se infiere o se juzga. Azul: se decide con premisas éticas. Síntesis del expediente; no ordena especies.</text>
+</svg>

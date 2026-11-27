@@ -433,7 +433,7 @@ Sabemos que categorías médicas sin validez demostrada justificaron esterilizac
 
 ## QUÉ TODAVÍA NO SABEMOS
 
-No sabemos cuántas esterilizaciones fueron forzadas en Suecia, Perú o el Servicio de Salud Indígena, ni el total de víctimas de todas las fases del programa nazi. No sabemos si Rosenhan inventó todo su estudio o parte. No sabemos si la desinstitucionalización aumentó la presencia de enfermedad mental en las prisiones ni qué modelo de clasificación psiquiátrica tendrá validez. No sabemos cómo se resolverá la tensión entre capacidad jurídica universal y protección en crisis. El programa cronológico de Medicina continúa con MED-032 (salud global, determinantes y pandemias); MED-031 (genética, genómica y medicina de precisión) queda pendiente de replanteo.
+No sabemos cuántas esterilizaciones fueron forzadas en Suecia, Perú o el Servicio de Salud Indígena, ni el total de víctimas de todas las fases del programa nazi. No sabemos si Rosenhan inventó todo su estudio o parte. No sabemos si la desinstitucionalización aumentó la presencia de enfermedad mental en las prisiones ni qué modelo de clasificación psiquiátrica tendrá validez. No sabemos cómo se resolverá la tensión entre capacidad jurídica universal y protección en crisis. El programa cronológico de Medicina continúa con MED-032 (salud global, determinantes y pandemias); MED-031 (genética médica y genómica) se auditó después y completa el programa.
 
 ## CONCLUSIÓN
 
