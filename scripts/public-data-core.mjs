@@ -1,5 +1,6 @@
 import fs from "node:fs";
 import path from "node:path";
+import { fileURLToPath } from "node:url";
 import matter from "gray-matter";
 import { unified } from "unified";
 import remarkParse from "remark-parse";
@@ -39,6 +40,49 @@ const IGNORED_DIRS = new Set([
   "_borradores_locales",
   "_privado",
 ]);
+
+// Rendimiento del parser de tablas GFM (micromark-extension-gfm-table 2.1.x).
+// Su EditMap guarda las ediciones de TODAS las tablas de un documento en un arreglo
+// y, en cada `add`, lo recorre entero buscando el mismo índice: cuadrático en el
+// número de celdas. Con los registros (CLAIMS.md, SOURCES.md… miles de filas) eso
+// era ~100 de los ~120 s de un armado en frío. Aquí se cambia sólo la búsqueda por
+// un Map índice → edición; el algoritmo y el resultado son los mismos (los índices
+// son únicos en el arreglo, así que el Map encuentra la misma entrada que el
+// recorrido). Sólo se aplica a la versión revisada; con otra, o si no se encuentra
+// el archivo, no se toca nada y simplemente es lento.
+async function speedUpGfmTableEditMap() {
+  try {
+    const entry = import.meta.resolve("micromark-extension-gfm-table");
+    const pkg = JSON.parse(fs.readFileSync(fileURLToPath(new URL(entry.includes("/dev/") ? "../package.json" : "./package.json", entry)), "utf8"));
+    if (pkg.name !== "micromark-extension-gfm-table" || !/^2\.1\.\d+$/.test(pkg.version)) return;
+    const { EditMap } = await import(new URL("./lib/edit-map.js", entry).href);
+    if (typeof EditMap?.prototype?.add !== "function" || typeof EditMap.prototype.consume !== "function") return;
+    if (EditMap.prototype.add.vidaTierraIndexed) return;
+    const consume = EditMap.prototype.consume;
+    const add = function add(at, remove, events) {
+      if (remove === 0 && events.length === 0) return;
+      if (!this.vidaTierraByAt) this.vidaTierraByAt = new Map();
+      const existing = this.vidaTierraByAt.get(at);
+      if (existing) {
+        existing[1] += remove;
+        existing[2].push(...events);
+        return;
+      }
+      const change = [at, remove, events];
+      this.map.push(change);
+      this.vidaTierraByAt.set(at, change);
+    };
+    add.vidaTierraIndexed = true;
+    EditMap.prototype.add = add;
+    EditMap.prototype.consume = function (events) {
+      this.vidaTierraByAt?.clear();
+      return consume.call(this, events);
+    };
+  } catch {
+    // Sin el parche el resultado es el mismo; sólo tarda más.
+  }
+}
+await speedUpGfmTableEditMap();
 
 const parser = unified().use(remarkParse).use(remarkGfm);
 
@@ -213,12 +257,26 @@ function tableNodeFromSnippet(snippet) {
   return tree.children.find((node) => node.type === "table") ?? null;
 }
 
+// Filas del cuerpo de una tabla de registro, en el orden de `lines`. Cada fila se
+// interpreta como si fuera la única fila bajo su encabezado (`encabezado`,
+// `delimitador`, `fila`): así lo hacía la versión anterior, un parseo por fila.
+// En GFM las filas del cuerpo son independientes —cada celda es su propio contenido
+// en línea y una línea que empieza con `|` no abre otro bloque—, así que parsear
+// todas juntas da las mismas filas con un solo recorrido. Si el lote no devuelve
+// exactamente una fila por línea (algo cortó la tabla), se vuelve al parseo por fila.
+function registryBodyRows(headerLine, delimiterLine, lines) {
+  if (!lines.length) return [];
+  const table = tableNodeFromSnippet(`${headerLine}\n${delimiterLine}\n${lines.join("\n")}\n`);
+  if (table && table.children.length === lines.length + 1) return table.children.slice(1);
+  return lines
+    .map((line) => tableNodeFromSnippet(`${headerLine}\n${delimiterLine}\n${line}\n`)?.children?.[1])
+    .filter(Boolean);
+}
+
 export function registryTableRowsFromMarkdown(raw) {
   const lines = raw.split(/\r?\n/);
-  const records = [];
-  let headerLine = "";
-  let delimiterLine = "";
-  let headers = [];
+  const groups = [];
+  let group = null;
 
   for (let index = 0; index < lines.length; index += 1) {
     const line = lines[index];
@@ -226,22 +284,30 @@ export function registryTableRowsFromMarkdown(raw) {
     if (/^\s*\|\s*ID\s*\|/i.test(line) && /^\s*\|\s*:?-{3,}/.test(next)) {
       const table = tableNodeFromSnippet(`${line}\n${next}\n`);
       if (!table) continue;
-      headerLine = line;
-      delimiterLine = next;
-      headers = table.children[0].children.map((cell) => plainInline(toString(cell)));
+      group = {
+        headerLine: line,
+        delimiterLine: next,
+        headers: table.children[0].children.map((cell) => plainInline(toString(cell))),
+        lines: [],
+      };
+      groups.push(group);
       index += 1;
       continue;
     }
-    if (!headerLine || !/^\s*\|/.test(line) || /^\s*\|\s*:?-{3,}/.test(line)) continue;
-    const table = tableNodeFromSnippet(`${headerLine}\n${delimiterLine}\n${line}\n`);
-    const row = table?.children?.[1];
-    if (!row) continue;
-    const values = row.children.map((cell) => plainInline(toString(cell)));
-    const record = {};
-    headers.forEach((header, cellIndex) => {
-      record[header || `col_${cellIndex + 1}`] = values[cellIndex] ?? "";
-    });
-    records.push(record);
+    if (!group || !/^\s*\|/.test(line) || /^\s*\|\s*:?-{3,}/.test(line)) continue;
+    group.lines.push(line);
+  }
+
+  const records = [];
+  for (const { headerLine, delimiterLine, headers, lines: bodyLines } of groups) {
+    for (const row of registryBodyRows(headerLine, delimiterLine, bodyLines)) {
+      const values = row.children.map((cell) => plainInline(toString(cell)));
+      const record = {};
+      headers.forEach((header, cellIndex) => {
+        record[header || `col_${cellIndex + 1}`] = values[cellIndex] ?? "";
+      });
+      records.push(record);
+    }
   }
 
   return records;
@@ -278,9 +344,18 @@ export function readEditorialCatalog() {
   return JSON.parse(fs.readFileSync(path.join(ROOT, "content", "catalog-editorial.json"), "utf8"));
 }
 
-export function createResearchRecord(file, editorialCatalog) {
+function readParsedMarkdown(file) {
   const raw = fs.readFileSync(path.join(ROOT, file), "utf8");
-  const parsed = parseMarkdown(raw);
+  return { raw, parsed: parseMarkdown(raw) };
+}
+
+/**
+ * @param {string} file
+ * @param {any} editorialCatalog
+ * @param {{ raw: string, parsed: any }} [document] el Markdown ya leído y parseado, para no repetirlo
+ */
+export function createResearchRecord(file, editorialCatalog, document = readParsedMarkdown(file)) {
+  const { parsed } = document;
   const key = researchKeyFromFile(file);
   const editorial = editorialCatalog.records[key];
   const section = normalizePath(file).split("/")[0];
@@ -452,15 +527,18 @@ function computePublicData() {
   const editorial = readEditorialCatalog();
   const files = walkMarkdown();
   const researchFiles = listResearchFiles(files);
+  // Cada investigación se lee y se parsea una vez: la usan el catálogo y el índice de
+  // búsqueda. Nadie muta el árbol, así que compartirlo da lo mismo que re-parsear.
+  const researchDocuments = new Map(researchFiles.map((file) => [file, readParsedMarkdown(file)]));
   const catalog = researchFiles
-    .map((file) => createResearchRecord(file, editorial))
+    .map((file) => createResearchRecord(file, editorial, researchDocuments.get(file)))
     .sort(compareResearchRecords);
   const catalogBySlug = new Map(catalog.map((record) => [record.slug, record]));
 
   const siteIndex = [];
   const searchIndex = files.map((file, index) => {
-    const raw = fs.readFileSync(path.join(ROOT, file), "utf8");
-    const parsed = parseMarkdown(raw);
+    const { raw, parsed } = researchDocuments.get(file) ?? readParsedMarkdown(file);
+    researchDocuments.delete(file);
     const slug = fileToSlug(file);
     const research = catalogBySlug.get(slug);
     const body = toString(parsed.tree);
