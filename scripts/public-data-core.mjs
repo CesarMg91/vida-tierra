@@ -316,7 +316,34 @@ export function createResearchRecord(file, editorialCatalog) {
   };
 }
 
+// Caché por proceso de los dos cálculos caros (leer y parsear cientos de Markdown).
+// Cada llamada devuelve un structuredClone del resultado guardado: quien lo reciba
+// puede mutarlo sin tocar la copia de la caché, y el clon conserva tipos, orden de
+// claves y referencias compartidas dentro del objeto, así que es idéntico a armarlo
+// de nuevo. No caduca por tiempo: sólo se invalida con clearPublicDataCache(), que
+// debe llamar quien cambie el Markdown dentro del mismo proceso.
+const publicDataCache = new Map();
+
+/**
+ * @template T
+ * @param {string} key
+ * @param {() => T} compute
+ * @returns {T}
+ */
+function cached(key, compute) {
+  if (!publicDataCache.has(key)) publicDataCache.set(key, compute());
+  return structuredClone(publicDataCache.get(key));
+}
+
+export function clearPublicDataCache() {
+  publicDataCache.clear();
+}
+
 export function registryRows() {
+  return cached("registryRows", computeRegistryRows);
+}
+
+function computeRegistryRows() {
   const claims = parseRegistry("CLAIMS.md", "CLAIM").map(({ id, row }) => ({
     id,
     statement: pickField(row, ["Afirmación delimitada", "Afirmación"]),
@@ -418,6 +445,10 @@ function documentType(file) {
 }
 
 export function buildPublicData() {
+  return cached("buildPublicData", computePublicData);
+}
+
+function computePublicData() {
   const editorial = readEditorialCatalog();
   const files = walkMarkdown();
   const researchFiles = listResearchFiles(files);
